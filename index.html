@@ -15,6 +15,10 @@
   .status{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #ffb454;border-radius:10px;padding:12px 15px;margin-bottom:10px;}
   .status .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#7b8499;text-transform:uppercase;margin-bottom:4px;}
   .status .txt{font-size:12.5px;font-weight:700;color:#e6eaf2;line-height:1.45;}
+  .summary{background:#0c1620;border:1px solid #1c3145;border-left:4px solid #5aa0ff;border-radius:10px;padding:11px 15px;margin-bottom:10px;}
+  .summary .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:4px;}
+  .summary .lbl span{color:#5f6878;}
+  .summary .txt{font-size:13px;font-weight:700;color:#dbe7f5;line-height:1.5;}
   .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:11px;line-height:1.6;color:#c2c9d6;}
   .guide b{font-weight:700;} .gg{color:#37d6a0;} .ga{color:#ffb454;} .gr{color:#ff6b6b;}
   .guide .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:6px;}
@@ -54,6 +58,11 @@
   <div class="status">
     <div class="lbl">종합</div>
     <div class="txt" id="overall">—</div>
+  </div>
+
+  <div class="summary" id="summaryBox">
+    <div class="lbl">한 문장 요약 <span id="sumby"></span></div>
+    <div class="txt" id="summary">—</div>
   </div>
 
   <div class="guide">
@@ -202,6 +211,10 @@ async function load(){
     const d = await (await fetch('data.json?t='+Date.now())).json();
     const u = new Date(d.updated);
     $('upd').innerHTML = '갱신 '+u.toLocaleString('ko-KR')+' · GitHub 자동';
+    if(d.summary && d.summary.text){
+      $('summary').textContent = d.summary.text;
+      $('sumby').textContent = d.summary.by==='claude' ? '· AI 요약' : '· 기계 요약(키 미설정)';
+    }
     const p = d.prices||{};
     const sR = ratesStatus(p);
     const sPow = basket(p, ['VST','CEG','NRG','TLN'], 'mem-power', 'st-power');

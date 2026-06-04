@@ -1,4 +1,4 @@
-﻿name: update-dashboard-data
+name: update-dashboard-data
 on:
   schedule:
     - cron: "30 13 * * 1-5"
@@ -16,6 +16,8 @@ jobs:
           python-version: "3.11"
       - name: Fetch data
         run: python fetch_data.py
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
       - name: Commit data.json
         run: |
           git config user.name  "github-actions[bot]"

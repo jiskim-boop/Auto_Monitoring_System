@@ -1,20 +1,20 @@
 # AI 사이클 모니터
 
-GitHub Pages + Actions로 도는 자동 대시보드.
+GitHub Pages + Actions 자동 대시보드. 시세 자동 색칠 + 신용/펀더멘털 뉴스 + EDGAR 8-K + 한 문장 요약.
 
-## 설치 (5단계)
-1. 이 폴더의 파일들을 기존 GitHub 저장소(또는 새 저장소)에 업로드
-   - `index.html`, `fetch_data.py`, `data.json`, `.github/workflows/update.yml`
-2. 저장소 → **Settings → Pages** → Source를 `main` 브랜치 / `/ (root)`로 설정 → 저장
-3. 저장소 → **Settings → Actions → General** → "Workflow permissions"를 **Read and write**로 설정 (data.json 커밋 권한)
-4. 저장소 → **Actions** 탭 → "update-dashboard-data" → **Run workflow** 수동 1회 실행 → data.json 생성 확인
-5. `https://<아이디>.github.io/<저장소명>/` 접속 → 폰 홈 화면에 추가
+## 업데이트(이미 배포한 경우)
+1. `fetch_data.py`, `index.html`, `.github/workflows/update.yml` 교체 후 push
+2. (선택) AI 한 문장 요약: 저장소 Settings → Secrets and variables → Actions →
+   New repository secret → 이름 `ANTHROPIC_API_KEY`, 값 = console.anthropic.com 발급 키
+3. Actions → Run workflow 재실행
 
-이후 평일 하루 2회(장 시작·마감 무렵) 자동 갱신됩니다.
+## 자동/수동
+- 자동(하루 2회): 시세 색칠, 신용·펀더멘털 뉴스, EDGAR 8-K, (키 있으면)한 문장 요약
+- 수동(요청 시): 위험선 이동평균값, 정성 축(규제·추세지속)
 
-## 갱신
-- 시세·뉴스·EDGAR: 자동
-- 위험선 가격(이동평균)·수동 축(규제·추세지속): "갱신해줘" 요청 시 또는 분기 실적 때
+## EDGAR User-Agent
+SEC는 연락처 없는 요청을 차단합니다. `fetch_data.py`의 `SEC_UA` 이메일은
+형식만 맞으면 되며, 본인 이메일로 바꿔도 됩니다.
 
 ## 키워드 수정
 `fetch_data.py`의 `NEWS_QUERIES` / `EDGAR_CIKS` 편집.

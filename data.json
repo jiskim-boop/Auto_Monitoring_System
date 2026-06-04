@@ -1,72 +1,134 @@
 {
- "updated": "2026-06-04T13:58:42+00:00",
+ "updated": "2026-06-04T14:24:20+00:00",
  "prices": {
   "CRWV": {
-   "price": 106.58,
-   "sma50": 106.45,
-   "sma200": 93.84,
+   "price": 105.8,
+   "chg": 23.38,
+   "sma50": 106.43,
+   "sma200": 93.83,
    "high3m": 137.98,
    "ok": true
   },
   "VST": {
-   "price": 151.98,
+   "price": 151.77,
+   "chg": -13.8,
    "sma50": 154.4,
    "sma200": 159.87,
    "high3m": 170.12,
    "ok": true
   },
   "CEG": {
-   "price": 264.39,
-   "sma50": 290.25,
-   "sma200": 307.23,
+   "price": 262.65,
+   "chg": -28.75,
+   "sma50": 290.22,
+   "sma200": 307.21,
    "high3m": 322.99,
    "ok": true
   },
   "NRG": {
-   "price": 134.24,
-   "sma50": 147.27,
-   "sma200": 154.33,
+   "price": 132.65,
+   "chg": -21.67,
+   "sma50": 147.24,
+   "sma200": 154.31,
    "high3m": 170.96,
    "ok": true
   },
   "TLN": {
-   "price": 378.25,
-   "sma50": 354.25,
-   "sma200": 357.04,
+   "price": 376.9,
+   "chg": 2.44,
+   "sma50": 354.22,
+   "sma200": 357.03,
    "high3m": 409.99,
    "ok": true
   },
   "NVDA": {
-   "price": 212.75,
-   "sma50": 202.8,
+   "price": 213.22,
+   "chg": 16.27,
+   "sma50": 202.81,
    "sma200": 191.56,
    "high3m": 235.74,
    "ok": true
   },
   "AVGO": {
-   "price": 406.62,
-   "sma50": 396.82,
-   "sma200": 362.04,
+   "price": 407.04,
+   "chg": 6.83,
+   "sma50": 396.83,
+   "sma200": 362.05,
    "high3m": 481.57,
    "ok": true
   },
   "SMH": {
-   "price": 611.23,
-   "sma50": 503.2,
-   "sma200": 434.65,
+   "price": 613.51,
+   "chg": 69.67,
+   "sma50": 503.25,
+   "sma200": 434.67,
    "high3m": 637.9,
    "ok": true
   },
   "^TNX": {
    "price": 4.46,
+   "chg": 8.45,
    "sma50": 4.4,
    "sma200": 4.26,
    "high3m": 4.67,
+   "ok": true
+  },
+  "BIZD": {
+   "price": 12.62,
+   "chg": -15.13,
+   "sma50": 12.72,
+   "sma200": 13.37,
+   "high3m": 13.36,
+   "ok": true
+  },
+  "ARCC": {
+   "price": 18.89,
+   "chg": -9.73,
+   "sma50": 18.65,
+   "sma200": 19.3,
+   "high3m": 19.35,
+   "ok": true
+  },
+  "OBDC": {
+   "price": 11.23,
+   "chg": -16.47,
+   "sma50": 11.25,
+   "sma200": 11.75,
+   "high3m": 11.91,
+   "ok": true
+  },
+  "HYG": {
+   "price": 79.8,
+   "chg": -1.18,
+   "sma50": 79.96,
+   "sma200": 80.32,
+   "high3m": 80.65,
    "ok": true
   }
  },
  "news": {
   "credit": [
+   {
+    "title": "Alternative Managers Shares Slip as Cliffwater Redemption Fears Mount - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPcThnN0dETkZGU1RYUXY5aWlLUVdlaHhmSVVvdDRjSnBMU1ZzbHZJR3RDSzBwUy1hb293S3k0MnVGeVhHc3E3dUNOb1V4UUgwcXl1YjFqNTJlOVZ3UXY5YUlKSXpiZUFFekdkVlVjY3lrUnJqUl9fNDQ3ZEo5RlFfNzRiZ2NWdTNaRWJDbFRKZ3VPVHF3ejNtTUNJUFZHWF9kb01aNWt2eWVKUVdDUGhSVl9ka0lVVngwT2xwWGlTQVFSbWZERXBWUC1BMExKZ0NyT2MzTVdnTm9EOFl0czktZ0xOcGdSRmFK?oc=5",
+    "pub": "Thu, 04 Jun 2026 14:14:26 GMT",
+    "src": "The Globe and Mail",
+    "trig": true
+   },
+   {
+    "title": "Samsung Heavy Industries Secures Posidonia Deals: Floating Data Centers Near Commercial Launch - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNNjRyZ1E0eHdVbmVHU19IWk5nVUtLeC1PVTlCWHZHZThfbkdXT3dNRTYwVFl5WVMzaVAxYWxzMkowbjNIYk8wb2FKNEZhdWhaTGlsWllnNW03QzJrRDJXbXZocVJpelhLSDRQZDVWWmtNaG1MVVFIdUcwR1I0R2RKa1UtczdQcEEzNTBXY2NJb3hpMVhUdnNpeFVLeHlJcTNTYWxtVzdKZzd2YmNMcmJrQk1EWmtqTkxEY1pQYWprcTZWSFp2LUptNURLRk9ZSFFidWJDNHBGYzJPWm1icG5NRA?oc=5",
+    "pub": "Thu, 04 Jun 2026 14:09:48 GMT",
+    "src": "Tech Times",
+    "trig": false
+   },
+   {
+    "title": "Is the 'private credit storm' brewing again? Following Partners Group, Blackstone (BX.US) also imposes redemption limits. - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOQ0VLZV9uWmR6RmVzZUxNclltNmJyLWRmUzRtTklLTDJnMzRkV3l2dFlsb015ZmVORkV0dFJYWm54YlZLeTI1YlZNaF9LMnlMNUVLSjJoOFQ2aEU0QmJWWDJpUF91YXJheTRlR21Xb0dVYms3RTZFRHVZQkthNUZQeWZSWjFyaE9aMU9UTDNtZWpCLTJQSHBBU25pbnFZZElTdS1ZT3ZjZ3pFaDIx?oc=5",
+    "pub": "Thu, 04 Jun 2026 14:02:35 GMT",
+    "src": "Moomoo",
+    "trig": true
+   },
    {
     "title": "TPG Slides as Private Market Exit Fears Drag on Blackstone, KKR - Bez Kabli",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSF80cFFYcGxKTE93c2YxUE80V1pZYUtXcFZxWXR5RnN6bjJNU1djWmhWeDVOUk9PV0o4WGszcF9JUzd4ZW00YktFNjVUUWdxcU4ydnU0Y19yNTg5d2MwclM2cTVQeFFUM09rMFcxRXA0ZHBWLVpleW1Yb1MwbDlnM2tDcUhUM2NLSFIyamZrcjRKUQ?oc=5",
@@ -96,13 +158,6 @@
     "trig": false
    },
    {
-    "title": "Aviation enthusiast uses Raspberry Pi and ABS-B radio to create viral real-time airport tracker — open-source 'Skylight' intercepts aircraft signals and projects flight paths onto your ceiling - Tom's Hardware",
-    "link": "https://news.google.com/rss/articles/CBMizwJBVV95cUxPQlAtUnFJRS1rdmpONk5BVGVnb1phWS1hLVh6VFZjdWd2ZjR0Y3pocXQwNm56UEdEeTFGbTRCb3dmVnlBQ2RyZGNoY0M1bkFZcXlYOUZuaEhraUY0N0pTVDBzbVJhLUpsbGlPTURIcEVLRWFSM3NzZXlfcW1Hc1ZEQ01WVTNHa3NQN0p2Z3RWVU5oZ2dWcG1HVnU4ZlMwSW9vc0RBRF9aM3Y0OFJVQ1JNeWtWeXNESTQ1YkpUZjE3TmtPV3o0REt2SlZ3dldVNlRhb1Y1NEJWUUdRQmt5RVUyZkRqbTYyejFPWG9TMGhaMTk4MTNkZWQ4VWFtQkg1eF9BRzc2bWE4LVpDUzYtOFhUb0tFd19yQlprVzZWTGVZYjFTZjRlTVU2dXRmbE95UXRmMGNDSUlnbjlKS2xLWE1tSXMxTzZNcHpuVEl0cWExWQ?oc=5",
-    "pub": "Thu, 04 Jun 2026 09:49:59 GMT",
-    "src": "Tom's Hardware",
-    "trig": false
-   },
-   {
     "title": "NIA bracing for super El Niño with AI - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNNnVia1ZaVTZoRi03aWlhZk5uM0tnSkFyRkczMmRZeVNNY1I2VXZDbFljYjRPMkdIOEFETXFMMmtoek0xRDBEX0M5U1l5VHQ0QXdabkhhSGdJd0t6dEdNaGkwVmdmNlZlSEFNd2F3TF90UHpWMTF2eHR1aHdxbml6U3ZFeDZHczYxbG1GOWJEVWhxSExiS0E?oc=5",
     "pub": "Thu, 04 Jun 2026 08:52:57 GMT",
@@ -117,37 +172,9 @@
     "trig": false
    },
    {
-    "title": "B. Riley Securities Provides $20MM Senior Secured Term Loan to Support Data Center Infrastructure Provider - ABF Journal",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOQXUwS1F6a3M4SlJ4U3JtWWR5YmhnZ0ZyQ1d1b2Y0SkdUX0lZVkl5NmRubkxHTnR2N0c5eUNkRWZ5cjNRUU51dC1iLWVtdTB6WGktMHREWEx2eDNaNHR4dE1YLUQ2cjh4dDVmT25FSEtqOTR5azJTRFUxVURTUWVybjdUZGpoOEEtOWpHUU1uNkdaZzNycGlXdXJlNWRqc2lhZFNaT3JRQk1OWHpOcEd4ZGh0bXFyaFBLUldRYTFxaGRtMlhtM3lNenlWTFM?oc=5",
-    "pub": "Thu, 04 Jun 2026 04:10:46 GMT",
-    "src": "ABF Journal",
-    "trig": false
-   },
-   {
-    "title": "Apollo Global Is Attractive Despite Private Credit Headlines - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSWFsUEJEbVUwbXBHcTBoZEpVQ3NQODVaZXh1UWI4R3RQRjk5U2twZWRlM29Kay1SeWF1UzZfSnRYMWpsMW9uVHBidi1vZ3h1SUxRZDdyVllwS3lDQm00V1JxT05GYW5fZHRTTUlGcmtZTjRJSzUzYlBYZzN5LTdhMmFGYkFWUFpwWXIxTmNCSzF1Vnp5NzYxVmR1U1ZuNS0zN0lr?oc=5",
-    "pub": "Thu, 04 Jun 2026 02:56:32 GMT",
-    "src": "Seeking Alpha",
-    "trig": false
-   },
-   {
-    "title": "Private Credit Contagion Reaches Private Equity as Partners Group Caps Investor Withdrawals - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOemw5UmdXOHNPRVc3WE5Kdl9vRFI3SXJCbkw3X2pHdml3VFFMZEZNMHJXb3kyUFdyOHUxZUY1dFhzemtVM05HODhiR1dycGtsVFVmTHJMTVNRMkZveHZuOVU0UDIyTGVVaXlUTm5nTFhwOVNUNEZRc2FWX3BhZjI1cFVyYU1fd19uRWkzNHJZSXhtb045eXdvVnF4THhmVTBoMWhGTlREZ3BvemVKWDAwUjREOXoxODMzb1JRZzAyck9va2s2Ulk5ag?oc=5",
-    "pub": "Thu, 04 Jun 2026 01:23:06 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false
-   },
-   {
-    "title": "New York District Attorney Looks Into Valuation Discrepancies Across Private Credit Funds - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQdkJnalhrN0QtR2t1Vl9PamR5SjJNWTRTcW14UVRUZ1ZTMWotQVF1OXYxSnd0ZTFOTGFZMC12dGI2RlBKdU9oSlpIUmx3OC1HWEkzM1ZtOWZGb2Z5V1VOb3l6THRWYkxBN2tpVE13M1pSZ2h0LTBCSHFYRThmT3JLWk1WbW9xTkZBd0UyQ3RPVWJ5V2tLZ2dKVXFYRERHVm1wN09uaERydndWb0RINU1aYTVyRFdJcjBIaHM1WERBcHNDM1BUMzhkQmxQY045ZFl2X2pBdHRIX2hqdHd0T2plMjFxbzhhdEJG?oc=5",
-    "pub": "Wed, 03 Jun 2026 22:13:58 GMT",
-    "src": "Benzinga",
-    "trig": false
-   },
-   {
-    "title": "Partners Group caps withdrawals from $8.6B fund, sparking private markets selloff - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPTm9qS21vV1I4bjZMRVZWY3MzNFFFZUNFOGRHOXBkUlM1LUkyUW5NSlBsQmVxeGhsNk5aNGlsaFV6YzhLMkhublVySWdDSXFIRWwwVlhqcnZ5TlpTaHg5UHUxY0U0UERSUFVFVWV3dG1rWC1EdG1EbWdDR3dLQ3FCUw?oc=5",
-    "pub": "Wed, 03 Jun 2026 21:44:49 GMT",
+    "title": "SpaceX, Anthropic prepare for major US IPOs amid investor scrutiny - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBKOXA2d1dnTXRqcUdkOGVnZ1ZGNHAtNzJ0ZTRQZjdZcTA3cUg4WldDWlNNaGhxaGpxX3pacnVGRkhxUUV1WGZOVHFjNWZlUmM1SGtpU3RuU2hkNFpNVHVNTnhPZ2dTZ2Jna1d3QWpUeXJMcnliclFpWm9BdzBCUQ?oc=5",
+    "pub": "Thu, 04 Jun 2026 06:39:49 GMT",
     "src": "Crypto Briefing",
     "trig": false
    }
@@ -189,13 +216,6 @@
     "trig": false
    },
    {
-    "title": "TSMC sees no sign of capex slowdown as demand stays strong - digitimes",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdm5xZVJHelNSblF2TUhmdU5vMGJyWG9KNDBqU216Rlk3T2RXZ3FlNWlQWmk2RXZtMlpjNU14cXhMQVlWcEc5RUJGMGEtWGdNaFdwd0J4aElXaUNJR0Z2LVJ4VEdfWmcwcXpZMjNwYmY1NEU1NUswcU12TG9lem51SFU5M0U4QVBBNTV1WEFtTU5TZFJlanc?oc=5",
-    "pub": "Thu, 04 Jun 2026 03:52:31 GMT",
-    "src": "digitimes",
-    "trig": true
-   },
-   {
     "title": "AI infrastructure spend on track to rival world's largest economies, Goldman says - investingLive",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQQ28yckdlRUJYNm5HNU9SdVgwdi03LXo5OEtSQUpWYXFPM1I0VlJzbU5ld01mNmdIN3dpSE9oNGlwWGN1Xy04Sjl6VWlDSGh4R1hvYjJybEVMZndJWDF5OWpDU3ZmRU9qUlg3WjMxVmJKTFlEZzAwb2NEb21ZSHVOTUd1SV9NbTRBeFI2UlFMcV9rVDJnNDRvTGNWbFpKZGFzZlJaMkh5dVhrbTNBZWR0WW1wVVFVMFRScmI4NTAtQTJwWnE5dUpHNGtaMmg0Ylhm?oc=5",
     "pub": "Thu, 04 Jun 2026 03:06:54 GMT",
@@ -218,8 +238,8 @@
    },
    {
     "title": "Why I Like This Industrial Metal ETF More Than Ever - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZGw0X3pqNHVXUFNTYUZWd0t3Sm1Ddk9XSVlEeUlfWjFrNlQ2SzRDQjFPT21ZalRLZnlhcFM3clVkamtmUGt4a2dnN0FPSFdrZHBsNzBIbEhpRU51T0tySGxDcVdiZVduVVpoZ2cxQ0JCVG00dTdmNlVlOW1GdUt1dmNuVjF5ZkxIQVgzaG5ldzQ1NHJXWFFEbGVScDNyUkxNZ3FpSGJ5TXlLT3ZZV3ZNRE1GV3kzLXJGTkp4d3gySnN6NS1oTGF2di15UXlzZ0MtN1E?oc=5",
-    "pub": "Wed, 03 Jun 2026 18:54:46 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNam9nVVF2VGJqMTRuTnlXOVJpajhxUkNleWlDUkdQNkJPMUp1SmRlMnFpZ1N5TF9LX1pleFd6WVVpT21IRE1vNGJoVTA3MldjWkNDeTNKaGNjWFZtbnBndGgyYWU3YnJQWklZc2w2ZmNMWkNpMWVnN1ItTGczNDBVYkhSeUxjb1dKaWtnYmtpX3FSWlpPMndVRXMyS21NQUZkbGE1SWVCQlIyakZvaTVXWk5fTTl0ZGliNGt2X0Zabzd0RWNxcWNBZS1jcFdTWHBXQS1GMQ?oc=5",
+    "pub": "Wed, 03 Jun 2026 18:22:38 GMT",
     "src": "The Globe and Mail",
     "trig": false
    },
@@ -229,13 +249,6 @@
     "pub": "Wed, 03 Jun 2026 17:40:00 GMT",
     "src": "Barron's",
     "trig": false
-   },
-   {
-    "title": "The AI Boom is Even Bigger than We Thought - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNLWNFZ2l2T0J6bzV1aTRPOWpKOVFZbWtCeFJhS0w1Q0MwQzlpS05aVC1FOXRPTnhVdTA2WjRKdmhoU0NZcXNsX2RHd214b2RBT0ZvTVh1dXIyR2N5QUtuYjhFWnpBYnhPLWY0VnNwYWpDUEIxVFhBU0x0ekIteGIzaUUzdHpmSWM0TzdaWEdsbkZHekdnS0JobTBxMnZvVWs?oc=5",
-    "pub": "Wed, 03 Jun 2026 16:55:00 GMT",
-    "src": "TradingView",
-    "trig": false
    }
   ]
  },
@@ -244,35 +257,45 @@
    "name": "FSK (FS KKR)",
    "form": "8-K",
    "date": "2026-06-03",
-   "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm"
+   "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
+   "summary": "Item 1.01(중요계약 체결), Item 9.01(재무제표/첨부)",
+   "new": true
   },
   {
    "name": "GBDC (Golub Capital)",
    "form": "8-K",
    "date": "2026-05-27",
-   "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm"
+   "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
+   "summary": "Item 1.01(중요계약 체결), Item 2.03(채무/의무 발생), Item 9.01(재무제표/첨부)",
+   "new": false
   },
   {
    "name": "ARCC (Ares Capital)",
    "form": "8-K",
    "date": "2026-05-26",
-   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm"
+   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
+   "summary": "Item 1.01(중요계약 체결), Item 2.03(채무/의무 발생), Item 9.01(재무제표/첨부)",
+   "new": false
   },
   {
    "name": "OBDC (Blue Owl Capital)",
    "form": "8-K",
    "date": "2026-05-21",
-   "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm"
+   "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
+   "summary": "Item 1.01(중요계약 체결), Item 8.01(기타 중요사건), Item 9.01(재무제표/첨부)",
+   "new": false
   },
   {
    "name": "BXSL (Blackstone Secured Lending)",
    "form": "8-K",
    "date": "2026-05-21",
-   "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm"
+   "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
+   "summary": "Item 8.01(기타 중요사건), Item 9.01(재무제표/첨부)",
+   "new": false
   }
  ],
  "summary": {
-  "text": "최근 신용 뉴스 12건 중 트리거 0건 — 신용 특이신호 적음. (자동 한 문장 요약은 API 키 설정 시)",
+  "text": "신용 뉴스 10건 중 트리거 2건 — 신용 경계 일부. (AI 요약은 API 키 설정 시)",
   "by": "heuristic"
  }
 }

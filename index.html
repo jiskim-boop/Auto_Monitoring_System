@@ -7,230 +7,194 @@
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:18px 14px 34px;max-width:560px;margin:0 auto;}
-  .head{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:6px;}
-  h1{font-size:19px;font-weight:900;color:#f4f6fb;letter-spacing:-0.3px;}
-  .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin-bottom:12px;}
+  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:16px 14px 30px;max-width:1440px;margin:0 auto;}
+  h1{font-size:18px;font-weight:900;color:#f4f6fb;}
+  .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin:4px 0 10px;}
   .upd .warn{color:#ff6b6b;}
-  .status{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #ffb454;border-radius:10px;padding:12px 15px;margin-bottom:10px;}
-  .status .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#7b8499;text-transform:uppercase;margin-bottom:4px;}
+  .status{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #ffb454;border-radius:10px;padding:11px 14px;margin-bottom:8px;}
+  .status .lbl,.summary .lbl,.guide .lbl,.cardlbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#7b8499;margin-bottom:4px;}
   .status .txt{font-size:12.5px;font-weight:700;color:#e6eaf2;line-height:1.45;}
-  .summary{background:#0c1620;border:1px solid #1c3145;border-left:4px solid #5aa0ff;border-radius:10px;padding:11px 15px;margin-bottom:10px;}
-  .summary .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:4px;}
-  .summary .lbl span{color:#5f6878;}
+  .summary{background:#0c1620;border:1px solid #1c3145;border-left:4px solid #5aa0ff;border-radius:10px;padding:11px 14px;margin-bottom:8px;}
+  .summary .lbl{color:#5aa0ff;} .summary .lbl span{color:#5f6878;}
   .summary .txt{font-size:13px;font-weight:700;color:#dbe7f5;line-height:1.5;}
-  .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:11px 14px;margin-bottom:14px;font-size:11px;line-height:1.6;color:#c2c9d6;}
-  .guide b{font-weight:700;} .gg{color:#37d6a0;} .ga{color:#ffb454;} .gr{color:#ff6b6b;}
-  .guide .lbl{font-family:'Space Mono',monospace;font-size:9.5px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:6px;}
-  .sec{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin:18px 2px 9px;}
-  .sec.m{color:#7b8499;}
-  .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:13px 14px;margin-bottom:9px;}
+  .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:11px;line-height:1.6;color:#c2c9d6;}
+  .guide .lbl{color:#5aa0ff;} .gg{color:#37d6a0;} .ga{color:#ffb454;} .gr{color:#ff6b6b;}
+  .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;align-items:start;}
+  @media(max-width:1200px){.cols{grid-template-columns:repeat(2,1fr);}}
+  @media(max-width:680px){.cols{grid-template-columns:1fr;}}
+  .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin:2px 2px 7px;}
+  .colhead.m{color:#7b8499;}
+  .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:12px 13px;margin-bottom:10px;}
   .card.crit{border-left:3px solid #ff6b6b;} .card.live{border-left:3px solid #37d6a0;} .card.man{border-left:3px solid #4d5566;}
-  .top{display:flex;align-items:center;gap:8px;margin-bottom:3px;}
-  .nm{font-size:14px;font-weight:800;color:#f4f6fb;}
-  .stt{font-family:'Space Mono',monospace;font-size:10px;font-weight:700;padding:2px 8px;border-radius:5px;margin-left:auto;}
+  .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
+  .nm{font-size:13px;font-weight:800;color:#f4f6fb;}
+  .stt{font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:5px;margin-left:auto;}
   .s-g{background:#10241a;color:#37d6a0;} .s-a{background:#1f1810;color:#ffb454;} .s-r{background:#2a1414;color:#ff6b6b;} .s-b{background:#0e1a24;color:#5aa0ff;} .s-n{background:#14181f;color:#7b8499;}
-  .desc{font-size:10.5px;color:#8b94a6;line-height:1.45;margin:2px 0 8px;}
-  .lvl{display:flex;justify-content:space-between;gap:10px;font-size:11.5px;padding:7px 0 2px;border-top:1px solid #161d29;}
-  .lvl .k{color:#7b8499;} .lvl .v{font-family:'Space Mono',monospace;font-weight:700;}
-  .lvl .v .a{color:#ffb454;} .lvl .v .r{color:#ff6b6b;} .lvl .v .g{color:#37d6a0;}
-  .mem{display:flex;flex-wrap:wrap;gap:6px;margin:6px 0 2px;}
-  .chip{font-family:'Space Mono',monospace;font-size:9.5px;padding:2px 7px;border-radius:4px;background:#10131c;border:1px solid #222c3c;}
+  .desc{font-size:9.5px;color:#7b8499;line-height:1.4;margin:2px 0 7px;}
+  /* credit price rows */
+  .prow{display:grid;grid-template-columns:auto 1fr auto auto;gap:7px;align-items:center;font-family:'Space Mono',monospace;font-size:11px;padding:5px 0;border-top:1px solid #161d29;}
+  .prow:first-of-type{border-top:none;}
+  .prow .tk{font-weight:700;color:#cdd6e6;} .prow .pr{color:#9aa4b8;text-align:right;}
+  .prow .ch{text-align:right;} .ch.up{color:#37d6a0;} .ch.dn{color:#ff6b6b;}
+  .prow .ps{font-size:9px;padding:1px 5px;border-radius:4px;text-align:center;}
+  .verdict{font-size:11px;margin-top:7px;padding-top:6px;border-top:1px solid #161d29;color:#aab2c2;}
+  .verdict b{color:#f4f6fb;}
+  /* news */
+  .news{list-style:none;} .news li{padding:6px 0;border-top:1px solid #161d29;font-size:11px;line-height:1.35;} .news li:first-child{border-top:none;}
+  .news a{color:#cdd6e6;text-decoration:none;} .news .meta{font-family:'Space Mono',monospace;font-size:8.5px;color:#6b7689;margin-top:1px;}
+  .news li.trig{padding-left:8px;border-left:2px solid #ff6b6b;} .news li.trig a{color:#ff9a8a;}
+  .news .sum{font-size:10px;color:#9fb0c4;margin-top:2px;line-height:1.35;}
+  .new{font-family:'Space Mono',monospace;font-size:8px;background:#10241a;color:#37d6a0;border:1px solid #1f4a36;border-radius:3px;padding:0 4px;margin-left:5px;}
+  .risk{font-size:9.5px;color:#8b94a6;line-height:1.4;margin-top:7px;padding-top:6px;border-top:1px solid #161d29;} .risk b{color:#ffb454;}
+  .mem{display:flex;flex-wrap:wrap;gap:5px;margin:5px 0 2px;}
+  .chip{font-family:'Space Mono',monospace;font-size:9px;padding:2px 6px;border-radius:4px;background:#10131c;border:1px solid #222c3c;}
   .chip .cg{color:#37d6a0;} .chip .ca{color:#ffb454;} .chip .cr{color:#ff6b6b;}
-  .news{list-style:none;}
-  .news li{padding:7px 0;border-top:1px solid #161d29;font-size:11.5px;line-height:1.4;}
-  .news li:first-child{border-top:none;}
-  .news a{color:#cdd6e6;text-decoration:none;}
-  .news a:hover{color:#fff;}
-  .news .meta{font-family:'Space Mono',monospace;font-size:9px;color:#6b7689;margin-top:2px;}
-  .news li.trig{padding-left:9px;border-left:2px solid #ff6b6b;}
-  .news li.trig a{color:#ff9a8a;}
-  .risk{font-size:10.5px;color:#8b94a6;line-height:1.45;margin-top:8px;}
-  .risk b{color:#ffb454;}
-  .empty{font-size:11px;color:#5f6878;padding:8px 0;}
-  .foot{font-size:9.5px;color:#4d5566;margin-top:16px;font-family:'Space Mono',monospace;line-height:1.6;text-align:center;}
+  .lvl{display:flex;justify-content:space-between;font-size:10px;padding-top:5px;border-top:1px solid #161d29;margin-top:5px;}
+  .lvl .k{color:#7b8499;} .lvl .v{font-family:'Space Mono',monospace;font-weight:700;} .lvl .v .a{color:#ffb454;}.lvl .v .r{color:#ff6b6b;}.lvl .v .g{color:#37d6a0;}
+  .empty{font-size:10px;color:#5f6878;padding:6px 0;}
+  .foot{font-size:9px;color:#4d5566;margin-top:14px;font-family:'Space Mono',monospace;line-height:1.6;text-align:center;}
 </style>
 </head>
 <body>
-  <div class="head"><h1>AI 사이클 모니터</h1></div>
+  <h1>AI 사이클 모니터</h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
+  <div class="status"><div class="lbl">종합</div><div class="txt" id="overall">—</div></div>
+  <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
+  <div class="guide"><div class="lbl">판단법 · 컨플루언스</div>
+    <b class="gg">정상</b> ≥주의선 · <b class="ga">주의</b> 주의선~위험선 · <b class="gr">위험</b> <위험선(50/200일선)
+    · 독립 축 2개가 다른 원인으로 위험 → 1차 축소</div>
 
-  <div class="status">
-    <div class="lbl">종합</div>
-    <div class="txt" id="overall">—</div>
-  </div>
+  <div class="cols">
+    <!-- COL 1: EDGAR -->
+    <div>
+      <div class="colhead">1 · EDGAR 8-K</div>
+      <div class="card crit">
+        <div class="top"><span class="nm">BDC 최신 공시</span><span class="stt s-n">자동·매일</span></div>
+        <div class="desc">OBDC·ARCC·BXSL·FSK·GBDC · 본문 AI 요약 · NEW=3일내</div>
+        <ul class="news" id="edgar"><li class="empty">로딩…</li></ul>
+      </div>
+    </div>
 
-  <div class="summary" id="summaryBox">
-    <div class="lbl">한 문장 요약 <span id="sumby"></span></div>
-    <div class="txt" id="summary">—</div>
-  </div>
+    <!-- COL 2: CREDIT -->
+    <div>
+      <div class="colhead">2 · 신용 / 사모대출</div>
+      <div class="card crit">
+        <div class="top"><span class="nm">실시간 신용 패널</span><span class="stt s-n" id="credit-verdict">—</span></div>
+        <div class="desc">BIZD·ARCC·OBDC(사모크레딧) + HYG(하이일드) · 이평 대비</div>
+        <div id="credit-rows"><div class="empty">로딩…</div></div>
+        <div class="verdict" id="credit-note"></div>
+      </div>
+      <div class="card crit">
+        <div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
+        <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul>
+        <div class="risk"><b>위험선(수동):</b> BDC 할인 30%↑ · 게이트 확대 · 비발생 급증 · SPV 차환 거부</div>
+      </div>
+    </div>
 
-  <div class="guide">
-    <div class="lbl">판단법 · 컨플루언스</div>
-    <b class="gg">정상</b> ≥주의선 · <b class="ga">주의</b> 주의선~위험선 · <b class="gr">위험</b> <위험선(=50/200일선)<br>
-    <span style="color:#6b7689;">독립 축 2개가 서로 다른 원인으로 위험 → 1차 축소. 신용/펀더멘털은 뉴스로 판단(자동 수집).</span>
-  </div>
+    <!-- COL 3: FUNDAMENTAL -->
+    <div>
+      <div class="colhead">3 · 하이퍼스케일러 펀더멘털</div>
+      <div class="card man">
+        <div class="top"><span class="nm">capex / 실적 뉴스</span><span class="stt s-n">자동</span></div>
+        <div class="desc">capex 가이던스·FCF — 수치 확정은 분기(다음: 7월)</div>
+        <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul>
+        <div class="risk"><b>위험선(수동):</b> capex/EBITDA 72%(2000 AT&T) 근접 + 매출 둔화 + FCF 적자</div>
+      </div>
+    </div>
 
-  <div class="sec">최우선 · 신용 / 사모대출 환매</div>
-  <div class="card crit">
-    <div class="top"><span class="nm">EDGAR 8-K 최신 공시</span><span class="stt s-n">자동</span></div>
-    <div class="desc">주요 BDC(OBDC·ARCC·BXSL·FSK·GBDC) 중대사건 — 뉴스보다 빠른 1차 신호</div>
-    <ul class="news" id="edgar"><li class="empty">로딩…</li></ul>
-  </div>
-  <div class="card crit">
-    <div class="top"><span class="nm">신용/사모대출 뉴스</span><span class="stt s-n">자동</span></div>
-    <div class="desc">환매 게이트·NAV 할인·디폴트·차환 — 트리거 단어는 빨간 강조</div>
-    <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul>
-    <div class="risk"><b>위험선(수동):</b> BDC 할인율 30%↑ · 영구형 펀드 게이트 확대 · 비발생여신 급증 · SPV 차환 거부</div>
-  </div>
-
-  <div class="sec">하이퍼스케일러 펀더멘털</div>
-  <div class="card man">
-    <div class="top"><span class="nm">capex / 실적 뉴스</span><span class="stt s-n">자동</span></div>
-    <div class="desc">capex 가이던스·FCF — 수치 확정은 분기 실적(다음: 7월)</div>
-    <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul>
-    <div class="risk"><b>위험선(수동):</b> capex/EBITDA가 72%(2000년 AT&T) 근접 + 매출 둔화 + FCF 적자</div>
-  </div>
-
-  <div class="sec">시세 자동 · 대표성 검증된 축만</div>
-  <div class="card live" id="ax-rates">
-    <div class="top"><span class="nm">금리 (美 10년물)</span><span class="stt s-n" id="st-rates">—</span></div>
-    <div class="desc">급등 시 레버리지 capex·사모대출 조달비용 상승</div>
-    <div class="lvl"><span class="k" id="lv-rates">—</span><span class="v">주의 <span class="a">4.5%</span> · 위험 <span class="r">5.0%</span></span></div>
-  </div>
-  <div class="card live" id="ax-power">
-    <div class="top"><span class="nm">공급 / 전력 바스켓</span><span class="stt s-n" id="st-power">—</span></div>
-    <div class="desc">VST·CEG·NRG·TLN · 단일 종목 아닌 묶음으로 capex 둔화 포착</div>
-    <div class="mem" id="mem-power"></div>
-    <div class="lvl"><span class="k">기준</span><span class="v">50일선 위=<span class="g">정상</span> · 200일선 아래=<span class="r">위험</span></span></div>
-  </div>
-  <div class="card live" id="ax-pos">
-    <div class="top"><span class="nm">포지셔닝 바스켓</span><span class="stt s-n" id="st-pos">—</span></div>
-    <div class="desc">NVDA·AVGO·SMH · 여러 AI주 동반 하락 = 쏠림 청산</div>
-    <div class="mem" id="mem-pos"></div>
-    <div class="lvl"><span class="k">기준</span><span class="v">다수 200일선 아래=<span class="r">위험</span></span></div>
-  </div>
-
-  <div class="sec m">수동 · 사건·정성 (요청 시 갱신)</div>
-  <div class="card man">
-    <div class="top"><span class="nm">규제 / 지정학</span><span class="stt s-a">관찰</span></div>
-    <div class="desc">수출통제·반독점·관세 (사건 발생 시)</div>
-  </div>
-  <div class="card man" style="border-left-color:#37d6a0;">
-    <div class="top"><span class="nm">추세 지속 (반대 신호)</span><span class="stt s-g">강함</span></div>
-    <div class="desc">수주잔고·capex 가이던스·신용 안정 — 강하면 비중 유지 (다음: 7월 실적)</div>
-  </div>
-  <div class="card man">
-    <div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div>
-    <div class="desc">OpenAI·앤트로픽·SpaceX 9~10월 상장 (후행)</div>
+    <!-- COL 4: REST -->
+    <div>
+      <div class="colhead m">4 · 시세·외생·후행</div>
+      <div class="card live" id="ax-rates">
+        <div class="top"><span class="nm">금리 10년물</span><span class="stt s-n" id="st-rates">—</span></div>
+        <div class="lvl"><span class="k" id="lv-rates">—</span><span class="v">주의 <span class="a">4.5%</span>·위험 <span class="r">5.0%</span></span></div>
+      </div>
+      <div class="card live">
+        <div class="top"><span class="nm">전력 바스켓</span><span class="stt s-n" id="st-power">—</span></div>
+        <div class="desc">VST·CEG·NRG·TLN</div>
+        <div class="mem" id="mem-power"></div>
+      </div>
+      <div class="card live">
+        <div class="top"><span class="nm">포지셔닝 바스켓</span><span class="stt s-n" id="st-pos">—</span></div>
+        <div class="desc">NVDA·AVGO·SMH</div>
+        <div class="mem" id="mem-pos"></div>
+      </div>
+      <div class="card man"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
+      <div class="card man" style="border-left-color:#37d6a0;"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
+      <div class="card man"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">OpenAI·앤트로픽·SpaceX 9~10월</div></div>
+    </div>
   </div>
 
-  <div class="foot">데이터 = GitHub Actions 하루 2회 수집(data.json) · 시세 자동 색칠 + 뉴스·EDGAR 자동 수집 · 위험선=이동평균/정성 기준(미검증) · 투자 자문 아님</div>
+  <div class="foot">GitHub Actions 하루 2회 자동 · 시세·뉴스·EDGAR(AI요약) 자동 · 위험선=이평/정성(미검증) · 투자 자문 아님</div>
 
 <script>
-const $ = id => document.getElementById(id);
+const $=id=>document.getElementById(id);
+const WORD={g:'정상',a:'주의',r:'위험'}, SB={g:'s-g',a:'s-a',r:'s-r'};
+function ago(p){const t=Date.parse(p);if(isNaN(t))return"";const h=Math.floor((Date.now()-t)/3600000);return h<1?"방금":h<24?h+"시간 전":Math.floor(h/24)+"일 전";}
+function pStatus(q){if(!q||!q.ok)return null;if(q.sma200&&q.price<q.sma200)return'r';if(q.sma50&&q.price<q.sma50)return'a';return'g';}
+function badge(el,st){el.className='stt '+SB[st];el.textContent=WORD[st];}
 
-function ago(pub){
-  const t = Date.parse(pub); if(isNaN(t)) return "";
-  const h = Math.floor((Date.now()-t)/3600000);
-  if(h<1) return "방금"; if(h<24) return h+"시간 전";
-  return Math.floor(h/24)+"일 전";
-}
-function setBadge(el, cls, word){ el.className='stt '+cls; el.textContent=word; }
-
-function priceStatus(q){            // 가격 종목: 50/200일선 대비
-  if(!q || !q.ok) return null;
-  if(q.sma200 && q.price < q.sma200) return 'r';
-  if(q.sma50  && q.price < q.sma50)  return 'a';
-  return 'g';
-}
-const WORD={g:'정상',a:'주의',r:'위험'};
-const SBADGE={g:'s-g',a:'s-a',r:'s-r'};
-
-function renderNews(elId, items){
-  const el=$(elId); el.innerHTML='';
-  if(!items || !items.length){ el.innerHTML='<li class="empty">수집된 뉴스 없음</li>'; return; }
-  items.forEach(it=>{
-    const li=document.createElement('li');
-    if(it.trig) li.className='trig';
-    li.innerHTML = `<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a>`
-      + `<div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;
-    el.appendChild(li);
+function creditPanel(p){
+  const names=[["BIZD","BIZD"],["ARCC","ARCC"],["OBDC","OBDC"],["HYG","HYG"]];
+  const rows=$('credit-rows'); rows.innerHTML=''; let score=0,n=0;
+  names.forEach(([sym,lbl])=>{
+    const q=p[sym]; const st=pStatus(q);
+    const r=document.createElement('div'); r.className='prow';
+    if(q&&q.ok){
+      const up=q.chg>=0;
+      r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span>`
+        +`<span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span>`
+        +`<span class="ps ${SB[st]}">${WORD[st]}</span>`;
+      score+=(st==='r'?2:st==='a'?1:0); n++;
+    } else { r.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`; }
+    rows.appendChild(r);
   });
-}
-function renderEdgar(items){
-  const el=$('edgar'); el.innerHTML='';
-  if(!items || !items.length){ el.innerHTML='<li class="empty">공시 없음</li>'; return; }
-  items.forEach(it=>{
-    const li=document.createElement('li');
-    const errored = it.form==='ERR';
-    li.innerHTML = errored
-      ? `<span class="empty">${it.name}: 수집 실패</span>`
-      : `<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}</a>`
-        + `<div class="meta">${it.date}</div>`;
-    el.appendChild(li);
-  });
-}
-function basket(prices, syms, memId, stId){
-  let score=0, n=0; const memEl=$(memId); memEl.innerHTML='';
-  syms.forEach(s=>{
-    const q=prices[s]; const st=priceStatus(q);
-    const chip=document.createElement('span'); chip.className='chip';
-    if(st){ const c={g:'cg',a:'ca',r:'cr'}[st];
-      chip.innerHTML=`${s} <span class="${c}">${WORD[st]}</span>`;
-      score += (st==='r'?2:st==='a'?1:0); n++;
-    } else { chip.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`; }
-    memEl.appendChild(chip);
-  });
-  const avg = n? score/n : 0;
-  const st = avg>=1.3?'r' : avg>=0.6?'a' : 'g';
-  setBadge($(stId), SBADGE[st], WORD[st]);
-  return n? st : null;
-}
-function ratesStatus(prices){
-  const q=prices['^TNX']; if(!q||!q.ok){ setBadge($('st-rates'),'s-n','N/A'); $('lv-rates').textContent='연결 실패'; return null; }
-  let y=q.price; if(y>20) y=y/10;            // ^TNX 단위 정규화
-  const st = y>=5.0?'r' : y>=4.5?'a' : 'g';
-  setBadge($('st-rates'), SBADGE[st], WORD[st]);
-  $('lv-rates').textContent='현재 '+y.toFixed(2)+'%';
+  if(!n){badge($('credit-verdict'),'a');$('credit-verdict').textContent='N/A';return null;}
+  const avg=score/n, st=avg>=1.3?'r':avg>=0.6?'a':'g';
+  badge($('credit-verdict'),st);
+  $('credit-note').innerHTML=`종합 신용: <b>${WORD[st]}</b> — 4개 중 ${names.filter(([s])=>pStatus(p[s])==='r').length}개 200일선 아래`;
   return st;
 }
-
-function overall(states){
-  const reds=states.filter(s=>s==='r').length, ambers=states.filter(s=>s==='a').length;
-  const el=$('overall'), box=el.closest('.status');
-  let c='#37d6a0', t;
-  if(reds>=2){ c='#ff6b6b'; t='경보: 독립 '+reds+'축 위험 → 행동 규칙상 축소 검토'; }
-  else if(reds===1||ambers>=2){ c='#ffb454'; t='주의: 시세 일부 약세 + 신용·펀더멘털 뉴스 확인 · 추세 지속 강함 → 2축 동반 악화 시 축소'; }
-  else { c='#37d6a0'; t='정상: 시세 축 안정 · 신용/펀더멘털 뉴스 점검 · 추세 지속 강함'; }
-  el.textContent=t; box.style.borderLeftColor=c;
+function basket(p,syms,memId,stId){
+  let score=0,n=0; const m=$(memId); m.innerHTML='';
+  syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
+    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${s} <span class="${cc}">${WORD[st]}</span>`;score+=(st==='r'?2:st==='a'?1:0);n++;}
+    else c.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`; m.appendChild(c);});
+  if(!n){badge($(stId),'a');$(stId).textContent='N/A';return null;}
+  const st=score/n>=1.3?'r':score/n>=0.6?'a':'g'; badge($(stId),st); return st;
 }
+function rates(p){const q=p['^TNX'];if(!q||!q.ok){$('st-rates').textContent='N/A';$('st-rates').className='stt s-n';$('lv-rates').textContent='실패';return null;}
+  let y=q.price;if(y>20)y/=10;const st=y>=5?'r':y>=4.5?'a':'g';badge($('st-rates'),st);$('lv-rates').textContent='현재 '+y.toFixed(2)+'%';return st;}
+function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
+  items.forEach(it=>{const li=document.createElement('li');if(it.trig)li.className='trig';
+    li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});}
+function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
+  items.forEach(it=>{const li=document.createElement('li');
+    if(it.form==='ERR'){li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;}
+    else{li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}${it.new?'<span class="new">NEW</span>':''}</a>`
+      +`<div class="meta">${it.date}</div>`+(it.summary?`<div class="sum">${it.summary}</div>`:'');}
+    el.appendChild(li);});}
+function overall(states){const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
+  const el=$('overall'),box=el.closest('.status');let c,t;
+  if(!states.length){c='#7b8499';t='데이터 수집 대기 — Run workflow 실행';}
+  else if(reds>=2){c='#ff6b6b';t='경보: 독립 '+reds+'축 위험 → 축소 검토';}
+  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 축 약세 + 뉴스 확인 · 추세 지속 강함 → 2축 동반 악화 시 축소';}
+  else{c='#37d6a0';t='정상: 시세 축 안정 · 신용/펀더멘털 뉴스 점검 · 추세 지속 강함';}
+  el.textContent=t;box.style.borderLeftColor=c;}
 
 async function load(){
   try{
-    const d = await (await fetch('data.json?t='+Date.now())).json();
-    const u = new Date(d.updated);
-    $('upd').innerHTML = '갱신 '+u.toLocaleString('ko-KR')+' · GitHub 자동';
-    if(d.summary && d.summary.text){
-      $('summary').textContent = d.summary.text;
-      $('sumby').textContent = d.summary.by==='claude' ? '· AI 요약' : '· 기계 요약(키 미설정)';
-    }
-    const p = d.prices||{};
-    const sR = ratesStatus(p);
-    const sPow = basket(p, ['VST','CEG','NRG','TLN'], 'mem-power', 'st-power');
-    const sPos = basket(p, ['NVDA','AVGO','SMH'], 'mem-pos', 'st-pos');
-    renderEdgar(d.edgar);
-    renderNews('news-credit', (d.news||{}).credit);
-    renderNews('news-fund', (d.news||{}).fundamental);
-    overall([sR,sPow,sPos].filter(Boolean));
-    // 시세 전부 실패/미수집 시 경고
-    if(![sR,sPow,sPos].some(Boolean)){
-      $('upd').innerHTML += ' <span class="warn">· 시세 미수집(첫 실행/실패 확인)</span>';
-      const el=$('overall'); el.textContent='데이터 수집 대기 — GitHub Actions를 한 번 실행하세요'; el.closest('.status').style.borderLeftColor='#7b8499';
-    }
-  }catch(e){
-    $('upd').innerHTML='<span class="warn">data.json 로드 실패 — GitHub Actions 실행/경로 확인</span>';
-  }
+    const d=await(await fetch('data.json?t='+Date.now())).json();
+    $('upd').textContent='갱신 '+new Date(d.updated).toLocaleString('ko-KR')+' · GitHub 자동';
+    if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
+    const p=d.prices||{};
+    const sC=creditPanel(p), sR=rates(p),
+          sPow=basket(p,['VST','CEG','NRG','TLN'],'mem-power','st-power'),
+          sPos=basket(p,['NVDA','AVGO','SMH'],'mem-pos','st-pos');
+    renderEdgar(d.edgar); renderNews('news-credit',(d.news||{}).credit); renderNews('news-fund',(d.news||{}).fundamental);
+    overall([sC,sR,sPow,sPos].filter(Boolean));
+    if(![sC,sR,sPow,sPos].some(Boolean))$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
+  }catch(e){ $('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>'; }
 }
 load();
 </script>

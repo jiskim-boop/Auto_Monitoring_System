@@ -1,20 +1,19 @@
-# AI 사이클 모니터
+# AI 사이클 모니터 (v3)
 
-GitHub Pages + Actions 자동 대시보드. 시세 자동 색칠 + 신용/펀더멘털 뉴스 + EDGAR 8-K + 한 문장 요약.
+GitHub Pages + Actions 자동 대시보드. 4열 반응형.
+- 1열 EDGAR 8-K(본문 AI 요약, NEW 배지) / 2열 신용 종합패널(BIZD·ARCC·OBDC·HYG 실시간+위험도)+뉴스
+- 3열 하이퍼스케일러 펀더멘털 뉴스 / 4열 금리·전력·포지셔닝 바스켓·규제·추세·IPO
 
-## 업데이트(이미 배포한 경우)
-1. `fetch_data.py`, `index.html`, `.github/workflows/update.yml` 교체 후 push
-2. (선택) AI 한 문장 요약: 저장소 Settings → Secrets and variables → Actions →
-   New repository secret → 이름 `ANTHROPIC_API_KEY`, 값 = console.anthropic.com 발급 키
-3. Actions → Run workflow 재실행
+## 업데이트
+1. `fetch_data.py`, `index.html` 교체 후 push
+2. AI 요약(EDGAR 본문 + 뉴스 한 문장): Settings → Secrets and variables → Actions →
+   New repository secret → **Name 칸**에 `ANTHROPIC_API_KEY`, **Secret 칸**에 키
+3. Actions → Run workflow
 
-## 자동/수동
-- 자동(하루 2회): 시세 색칠, 신용·펀더멘털 뉴스, EDGAR 8-K, (키 있으면)한 문장 요약
-- 수동(요청 시): 위험선 이동평균값, 정성 축(규제·추세지속)
+키 없으면: EDGAR는 Item 코드 분류로, 뉴스 요약은 기계 요약으로 자동 대체.
 
-## EDGAR User-Agent
-SEC는 연락처 없는 요청을 차단합니다. `fetch_data.py`의 `SEC_UA` 이메일은
-형식만 맞으면 되며, 본인 이메일로 바꿔도 됩니다.
+## 비용
+Haiku 모델, 하루 2회 × (EDGAR 5건 + 뉴스 1) ≈ 12콜/일. 월 1달러 미만.
 
-## 키워드 수정
-`fetch_data.py`의 `NEWS_QUERIES` / `EDGAR_CIKS` 편집.
+## 수정
+`fetch_data.py`의 NEWS_QUERIES / EDGAR_CIKS / PRICE_SYMBOLS 편집.

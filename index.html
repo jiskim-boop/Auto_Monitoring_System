@@ -1,185 +1,206 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>AI 사이클 모니터</title>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>시장 사이클 모니터</title>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:16px 14px 30px;max-width:1440px;margin:0 auto;}
+  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:16px 14px 30px;max-width:1480px;margin:0 auto;}
   h1{font-size:18px;font-weight:900;color:#f4f6fb;}
-  .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin:4px 0 10px;}
-  .upd .warn{color:#ff6b6b;}
-  .status{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #ffb454;border-radius:10px;padding:11px 14px;margin-bottom:8px;}
-  .status .lbl,.summary .lbl,.guide .lbl,.cardlbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#7b8499;margin-bottom:4px;}
-  .status .txt{font-size:12.5px;font-weight:700;color:#e6eaf2;line-height:1.45;}
+  .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin:4px 0 10px;}.upd .warn{color:#ff6b6b;}
+  .alert{background:#1f0d0d;border:1px solid #5a1f1f;border-left:4px solid #ff6b6b;border-radius:10px;padding:10px 14px;margin-bottom:8px;display:none;}
+  .alert.on{display:block;}
+  .alert .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;color:#ff9a8a;text-transform:uppercase;margin-bottom:3px;}
+  .alert .txt{font-size:12.5px;font-weight:700;color:#ffd0c8;line-height:1.4;}
+  .verds{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;}
+  @media(max-width:680px){.verds{grid-template-columns:1fr;}}
+  .vbox{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #4d5566;border-radius:10px;padding:10px 14px;}
+  .vbox .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#7b8499;margin-bottom:3px;}
+  .vbox .txt{font-size:12px;font-weight:700;color:#e6eaf2;line-height:1.4;}
   .summary{background:#0c1620;border:1px solid #1c3145;border-left:4px solid #5aa0ff;border-radius:10px;padding:11px 14px;margin-bottom:8px;}
-  .summary .lbl{color:#5aa0ff;} .summary .lbl span{color:#5f6878;}
+  .summary .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#5aa0ff;margin-bottom:4px;}.summary .lbl span{color:#5f6878;}
   .summary .txt{font-size:13px;font-weight:700;color:#dbe7f5;line-height:1.5;}
-  .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:11px;line-height:1.6;color:#c2c9d6;}
-  .guide .lbl{color:#5aa0ff;} .gg{color:#37d6a0;} .ga{color:#ffb454;} .gr{color:#ff6b6b;}
-  .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;align-items:start;}
-  @media(max-width:1200px){.cols{grid-template-columns:repeat(2,1fr);}}
+  .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:10.5px;line-height:1.6;color:#c2c9d6;}
+  .guide .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:5px;}
+  .gg{color:#37d6a0;}.ga{color:#ffb454;}.gr{color:#ff6b6b;}
+  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:start;}
+  @media(max-width:1100px){.cols{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:680px){.cols{grid-template-columns:1fr;}}
-  .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin:2px 2px 7px;}
-  .colhead.m{color:#7b8499;}
-  .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:12px 13px;margin-bottom:10px;}
-  .card.crit{border-left:3px solid #ff6b6b;} .card.live{border-left:3px solid #37d6a0;} .card.man{border-left:3px solid #4d5566;}
+  .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin:2px 2px 7px;}
+  .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}
+  .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:11px 13px;margin-bottom:9px;}
+  .card.macro{border-left:3px solid #ff8a5a;}.card.ai{border-left:3px solid #5aa0ff;}.card.flow{border-left:3px solid #c89bff;}.card.man{border-left:3px solid #4d5566;}.card.crit{border-left:3px solid #ff6b6b;}
   .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
   .nm{font-size:13px;font-weight:800;color:#f4f6fb;}
   .stt{font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:5px;margin-left:auto;}
-  .s-g{background:#10241a;color:#37d6a0;} .s-a{background:#1f1810;color:#ffb454;} .s-r{background:#2a1414;color:#ff6b6b;} .s-b{background:#0e1a24;color:#5aa0ff;} .s-n{background:#14181f;color:#7b8499;}
-  .desc{font-size:9.5px;color:#7b8499;line-height:1.4;margin:2px 0 7px;}
-  /* credit price rows */
+  .s-g{background:#10241a;color:#37d6a0;}.s-a{background:#1f1810;color:#ffb454;}.s-r{background:#2a1414;color:#ff6b6b;}.s-b{background:#0e1a24;color:#5aa0ff;}.s-n{background:#14181f;color:#7b8499;}
+  .desc{font-size:9.5px;color:#7b8499;line-height:1.4;margin:2px 0 6px;}
   .prow{display:grid;grid-template-columns:auto 1fr auto auto;gap:7px;align-items:center;font-family:'Space Mono',monospace;font-size:11px;padding:5px 0;border-top:1px solid #161d29;}
-  .prow:first-of-type{border-top:none;}
-  .prow .tk{font-weight:700;color:#cdd6e6;} .prow .pr{color:#9aa4b8;text-align:right;}
-  .prow .ch{text-align:right;} .ch.up{color:#37d6a0;} .ch.dn{color:#ff6b6b;}
-  .prow .ps{font-size:9px;padding:1px 5px;border-radius:4px;text-align:center;}
-  .verdict{font-size:11px;margin-top:7px;padding-top:6px;border-top:1px solid #161d29;color:#aab2c2;}
-  .verdict b{color:#f4f6fb;}
-  /* news */
-  .news{list-style:none;} .news li{padding:6px 0;border-top:1px solid #161d29;font-size:11px;line-height:1.35;} .news li:first-child{border-top:none;}
-  .news a{color:#cdd6e6;text-decoration:none;} .news .meta{font-family:'Space Mono',monospace;font-size:8.5px;color:#6b7689;margin-top:1px;}
-  .news li.trig{padding-left:8px;border-left:2px solid #ff6b6b;} .news li.trig a{color:#ff9a8a;}
+  .prow:first-of-type{border-top:none;}.prow .tk{font-weight:700;color:#cdd6e6;}.prow .pr{color:#9aa4b8;text-align:right;}
+  .prow .ch{text-align:right;}.ch.up{color:#37d6a0;}.ch.dn{color:#ff6b6b;}.prow .ps{font-size:9px;padding:1px 5px;border-radius:4px;text-align:center;}
+  .verdict{font-size:11px;margin-top:6px;padding-top:6px;border-top:1px solid #161d29;color:#aab2c2;}.verdict b{color:#f4f6fb;}
+  .news{list-style:none;}.news li{padding:6px 0;border-top:1px solid #161d29;font-size:11px;line-height:1.35;}.news li:first-child{border-top:none;}
+  .news a{color:#cdd6e6;text-decoration:none;}.news .meta{font-family:'Space Mono',monospace;font-size:8.5px;color:#6b7689;margin-top:1px;}
+  .news li.trig{padding-left:8px;border-left:2px solid #ff6b6b;}.news li.trig a{color:#ff9a8a;}
   .news .sum{font-size:10px;color:#9fb0c4;margin-top:2px;line-height:1.35;}
   .new{font-family:'Space Mono',monospace;font-size:8px;background:#10241a;color:#37d6a0;border:1px solid #1f4a36;border-radius:3px;padding:0 4px;margin-left:5px;}
-  .risk{font-size:9.5px;color:#8b94a6;line-height:1.4;margin-top:7px;padding-top:6px;border-top:1px solid #161d29;} .risk b{color:#ffb454;}
+  .risk{font-size:9.5px;color:#8b94a6;line-height:1.4;margin-top:6px;padding-top:6px;border-top:1px solid #161d29;}.risk b{color:#ffb454;}
   .mem{display:flex;flex-wrap:wrap;gap:5px;margin:5px 0 2px;}
   .chip{font-family:'Space Mono',monospace;font-size:9px;padding:2px 6px;border-radius:4px;background:#10131c;border:1px solid #222c3c;}
-  .chip .cg{color:#37d6a0;} .chip .ca{color:#ffb454;} .chip .cr{color:#ff6b6b;}
-  .lvl{display:flex;justify-content:space-between;font-size:10px;padding-top:5px;border-top:1px solid #161d29;margin-top:5px;}
-  .lvl .k{color:#7b8499;} .lvl .v{font-family:'Space Mono',monospace;font-weight:700;} .lvl .v .a{color:#ffb454;}.lvl .v .r{color:#ff6b6b;}.lvl .v .g{color:#37d6a0;}
+  .chip .cg{color:#37d6a0;}.chip .ca{color:#ffb454;}.chip .cr{color:#ff6b6b;}
   .empty{font-size:10px;color:#5f6878;padding:6px 0;}
   .foot{font-size:9px;color:#4d5566;margin-top:14px;font-family:'Space Mono',monospace;line-height:1.6;text-align:center;}
 </style>
 </head>
 <body>
-  <h1>AI 사이클 모니터</h1>
+  <h1>시장 사이클 모니터</h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
-  <div class="status"><div class="lbl">종합</div><div class="txt" id="overall">—</div></div>
+
+  <div class="alert" id="alert"><div class="lbl">⚠ 신용 트리거 감지</div><div class="txt" id="alert-txt"></div></div>
+
+  <div class="verds">
+    <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험</div><div class="txt" id="ov-sys">—</div></div>
+    <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험</div><div class="txt" id="ov-ai">—</div></div>
+  </div>
   <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
-  <div class="guide"><div class="lbl">판단법 · 컨플루언스</div>
-    <b class="gg">정상</b> ≥주의선 · <b class="ga">주의</b> 주의선~위험선 · <b class="gr">위험</b> <위험선(50/200일선)
-    · 독립 축 2개가 다른 원인으로 위험 → 1차 축소</div>
+  <div class="guide"><div class="lbl">판단법</div>
+    <b class="gg">정상</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 200일선 아래 <b>또는</b> 당일 −5%↓ = 위험
+    · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <div class="cols">
-    <!-- COL 1: EDGAR -->
+    <!-- ZONE 1: MACRO -->
     <div>
-      <div class="colhead">1 · EDGAR 8-K</div>
-      <div class="card crit">
-        <div class="top"><span class="nm">BDC 최신 공시</span><span class="stt s-n">자동·매일</span></div>
-        <div class="desc">OBDC·ARCC·BXSL·FSK·GBDC · 본문 AI 요약 · NEW=3일내</div>
-        <ul class="news" id="edgar"><li class="empty">로딩…</li></ul>
-      </div>
+      <div class="colhead ch-macro">거시 · 시스템</div>
+      <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
+        <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
+        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
+      <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
+        <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
+      <div class="card macro"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-n" id="st-dxy">—</span></div>
+        <div class="desc">급등=유동성 흡수</div><div class="verdict" id="lv-dxy">—</div>
+        <div class="risk"><b>기준:</b> 103↓ 정상 · 103~106 주의 · 106+ 위험</div></div>
+      <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
+        <div class="desc">역전=침체 선행</div><div class="verdict" id="lv-curve">—</div>
+        <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
+      <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
+        <div class="desc">SPY·QQQ</div><div class="mem" id="mem-broad"></div></div>
     </div>
 
-    <!-- COL 2: CREDIT -->
+    <!-- ZONE 2: AI VALUE CHAIN -->
     <div>
-      <div class="colhead">2 · 신용 / 사모대출</div>
-      <div class="card crit">
-        <div class="top"><span class="nm">실시간 신용 패널</span><span class="stt s-n" id="credit-verdict">—</span></div>
-        <div class="desc">BIZD·ARCC·OBDC(사모크레딧) + HYG(하이일드) · 이평 대비</div>
-        <div id="credit-rows"><div class="empty">로딩…</div></div>
-        <div class="verdict" id="credit-note"></div>
-      </div>
-      <div class="card crit">
-        <div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
-        <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul>
-        <div class="risk"><b>위험선(수동):</b> BDC 할인 30%↑ · 게이트 확대 · 비발생 급증 · SPV 차환 거부</div>
-      </div>
+      <div class="colhead ch-ai">AI 밸류체인 (자본 흐름)</div>
+      <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
+        <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
+        <div class="desc">MU·SMH(반도체지수)</div><div class="mem" id="mem-mem"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
+        <div class="desc">ANET·ALAB·CRDO·VRT</div><div class="mem" id="mem-net"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
+        <div class="desc">VST·CEG·NRG·TLN·GEV</div><div class="mem" id="mem-power"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">원자재</span><span class="stt s-n" id="st-mat">—</span></div>
+        <div class="desc">FCX(구리)·CCJ·URA(우라늄)</div><div class="mem" id="mem-mat"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
+        <div class="desc">MSFT·GOOGL·AMZN·META · capex 원천</div><div class="mem" id="mem-hyp"></div></div>
     </div>
 
-    <!-- COL 3: FUNDAMENTAL -->
+    <!-- ZONE 3: CREDIT(최우선) + FLOW + ETC -->
     <div>
-      <div class="colhead">3 · 하이퍼스케일러 펀더멘털</div>
-      <div class="card man">
-        <div class="top"><span class="nm">capex / 실적 뉴스</span><span class="stt s-n">자동</span></div>
-        <div class="desc">capex 가이던스·FCF — 수치 확정은 분기(다음: 7월)</div>
-        <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul>
-        <div class="risk"><b>위험선(수동):</b> capex/EBITDA 72%(2000 AT&T) 근접 + 매출 둔화 + FCF 적자</div>
-      </div>
-    </div>
-
-    <!-- COL 4: REST -->
-    <div>
-      <div class="colhead m">4 · 시세·외생·후행</div>
-      <div class="card live" id="ax-rates">
-        <div class="top"><span class="nm">금리 10년물</span><span class="stt s-n" id="st-rates">—</span></div>
-        <div class="lvl"><span class="k" id="lv-rates">—</span><span class="v">주의 <span class="a">4.5%</span>·위험 <span class="r">5.0%</span></span></div>
-      </div>
-      <div class="card live">
-        <div class="top"><span class="nm">전력 바스켓</span><span class="stt s-n" id="st-power">—</span></div>
-        <div class="desc">VST·CEG·NRG·TLN</div>
-        <div class="mem" id="mem-power"></div>
-      </div>
-      <div class="card live">
-        <div class="top"><span class="nm">포지셔닝 바스켓</span><span class="stt s-n" id="st-pos">—</span></div>
-        <div class="desc">NVDA·AVGO·SMH</div>
-        <div class="mem" id="mem-pos"></div>
-      </div>
+      <div class="colhead ch-flow">신용(최우선) · 자금흐름 · 기타</div>
+      <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
+        <div class="desc">BIZD·ARCC·OBDC + CRWV(네오클라우드)</div>
+        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div></div>
+      <div class="card crit"><div class="top"><span class="nm">EDGAR 8-K</span><span class="stt s-n">자동</span></div>
+        <div class="desc">BDC 중대사건 · 본문 AI 요약 · NEW=3일내</div>
+        <ul class="news" id="edgar"><li class="empty">로딩…</li></ul></div>
+      <div class="card crit"><div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
+        <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul></div>
+      <div class="card flow"><div class="top"><span class="nm">금리 10년물</span><span class="stt s-n" id="st-rates">—</span></div>
+        <div class="verdict" id="lv-rates">—</div><div class="risk"><b>기준:</b> 4.5% 주의 · 5.0% 위험</div></div>
+      <div class="card flow"><div class="top"><span class="nm">금 GLD</span><span class="stt s-b">흐름</span></div><div class="verdict" id="lv-gld">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">비트코인</span><span class="stt s-b">흐름</span></div><div class="verdict" id="lv-btc">—</div></div>
+      <div class="card ai"><div class="top"><span class="nm">capex 뉴스</span><span class="stt s-n">자동</span></div>
+        <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul></div>
       <div class="card man"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
       <div class="card man" style="border-left-color:#37d6a0;"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
       <div class="card man"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">OpenAI·앤트로픽·SpaceX 9~10월</div></div>
     </div>
   </div>
 
-  <div class="foot">GitHub Actions 하루 2회 자동 · 시세·뉴스·EDGAR(AI요약) 자동 · 위험선=이평/정성(미검증) · 투자 자문 아님</div>
+  <div class="foot">GitHub Actions 매시간 자동 · 위험=200일선 아래 or −5%↓ · 바스켓 과반 위험시 ON · 임계값 정성기준(미검증) · 투자 자문 아님</div>
 
 <script>
 const $=id=>document.getElementById(id);
 const WORD={g:'정상',a:'주의',r:'위험'}, SB={g:'s-g',a:'s-a',r:'s-r'};
 function ago(p){const t=Date.parse(p);if(isNaN(t))return"";const h=Math.floor((Date.now()-t)/3600000);return h<1?"방금":h<24?h+"시간 전":Math.floor(h/24)+"일 전";}
-function pStatus(q){if(!q||!q.ok)return null;if(q.sma200&&q.price<q.sma200)return'r';if(q.sma50&&q.price<q.sma50)return'a';return'g';}
-function badge(el,st){el.className='stt '+SB[st];el.textContent=WORD[st];}
+// 종목 위험: 200일선 아래 OR 당일 -5%↓ = 위험 / 50일선 아래 = 주의
+function pStatus(q){if(!q||!q.ok)return null;
+  if(q.chg!=null&&q.chg<=-5)return'r';
+  if(q.sma200&&q.price<q.sma200)return'r';
+  if(q.sma50&&q.price<q.sma50)return'a';return'g';}
+function badge(el,st,word){el.className='stt '+(SB[st]||'s-n');el.textContent=word||WORD[st];}
+function chgHtml(q){if(!q||q.chg==null)return'';const up=q.chg>=0;return `<span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span>`;}
+function lvl(id,h){$(id).innerHTML=h;}
+function num(q){return q&&q.ok?q.price:null;}
+function norm(v){return v!=null&&v>20?v/10:v;}
+
+// 바스켓: 과반 위험이면 위험, 과반(위험+주의)이면 주의
+function basket(p,syms,memId,stId){
+  let r=0,a=0,n=0;const m=$(memId);m.innerHTML='';
+  syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
+    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${s} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
+    else c.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
+  if(!n){badge($(stId),'n','N/A');return null;}
+  const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
+  badge($(stId),st);return st;}
 
 function creditPanel(p){
-  const names=[["BIZD","BIZD"],["ARCC","ARCC"],["OBDC","OBDC"],["HYG","HYG"]];
-  const rows=$('credit-rows'); rows.innerHTML=''; let score=0,n=0;
-  names.forEach(([sym,lbl])=>{
-    const q=p[sym]; const st=pStatus(q);
-    const r=document.createElement('div'); r.className='prow';
-    if(q&&q.ok){
-      const up=q.chg>=0;
-      r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span>`
-        +`<span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span>`
-        +`<span class="ps ${SB[st]}">${WORD[st]}</span>`;
-      score+=(st==='r'?2:st==='a'?1:0); n++;
-    } else { r.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`; }
-    rows.appendChild(r);
-  });
-  if(!n){badge($('credit-verdict'),'a');$('credit-verdict').textContent='N/A';return null;}
-  const avg=score/n, st=avg>=1.3?'r':avg>=0.6?'a':'g';
-  badge($('credit-verdict'),st);
-  $('credit-note').innerHTML=`종합 신용: <b>${WORD[st]}</b> — 4개 중 ${names.filter(([s])=>pStatus(p[s])==='r').length}개 200일선 아래`;
-  return st;
-}
-function basket(p,syms,memId,stId){
-  let score=0,n=0; const m=$(memId); m.innerHTML='';
-  syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
-    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${s} <span class="${cc}">${WORD[st]}</span>`;score+=(st==='r'?2:st==='a'?1:0);n++;}
-    else c.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`; m.appendChild(c);});
-  if(!n){badge($(stId),'a');$(stId).textContent='N/A';return null;}
-  const st=score/n>=1.3?'r':score/n>=0.6?'a':'g'; badge($(stId),st); return st;
-}
-function rates(p){const q=p['^TNX'];if(!q||!q.ok){$('st-rates').textContent='N/A';$('st-rates').className='stt s-n';$('lv-rates').textContent='실패';return null;}
-  let y=q.price;if(y>20)y/=10;const st=y>=5?'r':y>=4.5?'a':'g';badge($('st-rates'),st);$('lv-rates').textContent='현재 '+y.toFixed(2)+'%';return st;}
+  const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0;
+  [['BIZD','BIZD'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([sym,lbl])=>{
+    const q=p[sym];const st=pStatus(q);const row=document.createElement('div');row.className='prow';
+    if(q&&q.ok){row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span>${chgHtml(q)}<span class="ps ${SB[st]}">${WORD[st]}</span>`;if(st==='r')r++;n++;}
+    else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;rows.appendChild(row);});
+  if(!n){badge($('credit-verdict'),'n','N/A');return null;}
+  const st=r>n/2?'r':r>=1?'a':'g';badge($('credit-verdict'),st);
+  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${n}개 중 ${r}개 위험`;return st;}
+
+function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
+  const st=v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>');return st;}
+function dxyAxis(p){const v=num(p['DX-Y.NYB']);if(v==null){badge($('st-dxy'),'n','N/A');lvl('lv-dxy','실패');return null;}
+  const st=v>=106?'r':v>=103?'a':'g';badge($('st-dxy'),st);lvl('lv-dxy','현재 <b>'+v.toFixed(2)+'</b>');return st;}
+function curveAxis(p){const t=norm(num(p['^TNX'])),i=norm(num(p['^IRX']));if(t==null||i==null){badge($('st-curve'),'n','N/A');lvl('lv-curve','실패');return null;}
+  const sp=t-i;const st=sp<0?'r':sp<0.5?'a':'g';badge($('st-curve'),st);
+  lvl('lv-curve','10Y '+t.toFixed(2)+' − 3M '+i.toFixed(2)+' = <b>'+(sp>=0?'+':'')+sp.toFixed(2)+'%p</b>'+(sp<0?' 역전':''));return st;}
+function spreadAxis(p){const hy=pStatus(p['HYG']),ig=pStatus(p['LQD']);if(!hy||!ig){badge($('st-spread'),'n','N/A');lvl('lv-spread','실패');return null;}
+  let st='g',msg='스프레드 안정';
+  if(hy==='r'&&ig==='r'){st='r';msg='HY·IG 동반 약세 — 광범위 경색';}
+  else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
+  else if(hy==='a'){st='a';msg='HY 약세 조짐';}
+  badge($('st-spread'),st);lvl('lv-spread',`HYG $${p['HYG'].price} ${chgHtml(p['HYG'])} · LQD $${p['LQD'].price} ${chgHtml(p['LQD'])}<br>${msg}`);return st;}
+function ratesAxis(p){const y=norm(num(p['^TNX']));if(y==null){badge($('st-rates'),'n','N/A');lvl('lv-rates','실패');return null;}
+  const st=y>=5?'r':y>=4.5?'a':'g';badge($('st-rates'),st);lvl('lv-rates','현재 <b>'+y.toFixed(2)+'%</b>');return st;}
+function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
+  const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
+  lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
+
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   items.forEach(it=>{const li=document.createElement('li');if(it.trig)li.className='trig';
     li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});}
 function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
   items.forEach(it=>{const li=document.createElement('li');
-    if(it.form==='ERR'){li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;}
-    else{li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}${it.new?'<span class="new">NEW</span>':''}</a>`
-      +`<div class="meta">${it.date}</div>`+(it.summary?`<div class="sum">${it.summary}</div>`:'');}
+    if(it.form==='ERR')li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;
+    else li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}${it.new?'<span class="new">NEW</span>':''}</a><div class="meta">${it.date}</div>`+(it.summary?`<div class="sum">${it.summary}</div>`:'');
     el.appendChild(li);});}
-function overall(states){const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
-  const el=$('overall'),box=el.closest('.status');let c,t;
-  if(!states.length){c='#7b8499';t='데이터 수집 대기 — Run workflow 실행';}
-  else if(reds>=2){c='#ff6b6b';t='경보: 독립 '+reds+'축 위험 → 축소 검토';}
-  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 축 약세 + 뉴스 확인 · 추세 지속 강함 → 2축 동반 악화 시 축소';}
-  else{c='#37d6a0';t='정상: 시세 축 안정 · 신용/펀더멘털 뉴스 점검 · 추세 지속 강함';}
+
+function setVerd(elId,states,kind,extra){
+  const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
+  const el=$(elId),box=el.closest('.vbox');let c,t;
+  if(!states.length){c='#7b8499';t='데이터 대기';}
+  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경보: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';}
+  else if(reds>=2){c='#ff6b6b';t='경보: '+reds+'개 부문 위험 → 축소 검토';}
+  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';}
+  else{c='#37d6a0';t='정상: 안정';}
+  if(extra){c='#ff6b6b';t=extra+' · '+t;}
   el.textContent=t;box.style.borderLeftColor=c;}
 
 async function load(){
@@ -188,13 +209,37 @@ async function load(){
     $('upd').textContent='갱신 '+new Date(d.updated).toLocaleString('ko-KR')+' · GitHub 자동';
     if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
     const p=d.prices||{};
-    const sC=creditPanel(p), sR=rates(p),
-          sPow=basket(p,['VST','CEG','NRG','TLN'],'mem-power','st-power'),
-          sPos=basket(p,['NVDA','AVGO','SMH'],'mem-pos','st-pos');
-    renderEdgar(d.edgar); renderNews('news-credit',(d.news||{}).credit); renderNews('news-fund',(d.news||{}).fundamental);
-    overall([sC,sR,sPow,sPos].filter(Boolean));
-    if(![sC,sR,sPow,sPos].some(Boolean))$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
-  }catch(e){ $('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>'; }
+    // 거시
+    const sVix=vixAxis(p),sSpread=spreadAxis(p),sDxy=dxyAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    // AI 밸류체인
+    const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
+          sMem=basket(p,['MU','SMH'],'mem-mem','st-mem'),
+          sNet=basket(p,['ANET','ALAB','CRDO','VRT'],'mem-net','st-net'),
+          sPow=basket(p,['VST','CEG','NRG','TLN','GEV'],'mem-power','st-power'),
+          sMat=basket(p,['FCX','CCJ','URA'],'mem-mat','st-mat'),
+          sHyp=basket(p,['MSFT','GOOGL','AMZN','META'],'mem-hyp','st-hyp');
+    const sCredit=creditPanel(p);
+    // 자금흐름
+    ratesAxis(p);flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
+    renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
+    // 신용 트리거 알림 (뉴스 trig 또는 신규 EDGAR)
+    const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
+    const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
+    let extra=null;
+    if(trigNews.length||newFilings.length){
+      $('alert').classList.add('on');
+      const parts=[];
+      if(trigNews.length)parts.push(`트리거 뉴스 ${trigNews.length}건`);
+      if(newFilings.length)parts.push(`신규 공시 ${newFilings.length}건`);
+      $('alert-txt').textContent=parts.join(' · ')+' — '+(trigNews[0]?trigNews[0].title:newFilings[0].name+' '+newFilings[0].form);
+      extra='신용 트리거';
+    }
+    // 종합 판정 (AI엔 신용 포함)
+    setVerd('ov-sys',[sVix,sSpread,sDxy,sCurve,sBroad].filter(Boolean),'sys');
+    setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
+    const any=[sVix,sSemi,sCredit,sPow].some(Boolean);
+    if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
+  }catch(e){$('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>';}
 }
 load();
 </script>

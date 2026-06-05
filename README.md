@@ -1,19 +1,16 @@
-# AI 사이클 모니터 (v3)
+# 시장 사이클 모니터 (v5)
 
-GitHub Pages + Actions 자동 대시보드. 4열 반응형.
-- 1열 EDGAR 8-K(본문 AI 요약, NEW 배지) / 2열 신용 종합패널(BIZD·ARCC·OBDC·HYG 실시간+위험도)+뉴스
-- 3열 하이퍼스케일러 펀더멘털 뉴스 / 4열 금리·전력·포지셔닝 바스켓·규제·추세·IPO
+GitHub Pages + Actions 자동 대시보드. 매시간 갱신. 3구역 반응형.
+- 거시·시스템: VIX·신용스프레드·달러·금리차·광범위시장
+- AI 밸류체인(자본흐름): 반도체·메모리·네트워킹·전력·원자재·하이퍼스케일러 (총 38종목 트래킹)
+- 신용(최우선)·자금흐름·기타: 사모대출 패널·EDGAR·신용뉴스·금리·금·BTC·capex뉴스·규제·추세·IPO
 
-## 업데이트
-1. `fetch_data.py`, `index.html` 교체 후 push
-2. AI 요약(EDGAR 본문 + 뉴스 한 문장): Settings → Secrets and variables → Actions →
-   New repository secret → **Name 칸**에 `ANTHROPIC_API_KEY`, **Secret 칸**에 키
-3. Actions → Run workflow
+## 위험 규칙
+- 종목: 200일선 아래 OR 당일 −5%↓ = 위험
+- 바스켓: 구성종목 과반이 위험이면 ON
+- 신용 트리거 뉴스/신규 공시 → 상단 빨간 배너 + AI 판정 격상
+- 판정 분리: 시장 시스템 위험 vs AI 사이클 위험
 
-키 없으면: EDGAR는 Item 코드 분류로, 뉴스 요약은 기계 요약으로 자동 대체.
-
-## 비용
-Haiku 모델, 하루 2회 × (EDGAR 5건 + 뉴스 1) ≈ 12콜/일. 월 1달러 미만.
-
-## 수정
-`fetch_data.py`의 NEWS_QUERIES / EDGAR_CIKS / PRICE_SYMBOLS 편집.
+## 갱신: 매시간 (:17분)
+## AI 요약: Settings→Secrets→Actions, Name `ANTHROPIC_API_KEY`
+## 종목 수정: fetch_data.py의 PRICE_SYMBOLS, index.html의 basket() 호출

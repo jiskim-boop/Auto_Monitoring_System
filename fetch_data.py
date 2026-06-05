@@ -32,8 +32,20 @@ def claude(prompt, max_tokens=200):
         return None
 
 # ---- 시세 (신용 종목 BIZD·ARCC·OBDC·HYG 추가)
-PRICE_SYMBOLS = ["CRWV","VST","CEG","NRG","TLN","NVDA","AVGO","SMH","%5ETNX",
-                 "BIZD","ARCC","OBDC","HYG"]
+PRICE_SYMBOLS = [
+    # AI 밸류체인 — 자본 흐름 상류→하류
+    "NVDA","AVGO","AMD","TSM","ASML","MRVL",        # 반도체·연산
+    "MU","SMH",                                      # 메모리·반도체지수
+    "ANET","ALAB","CRDO","VRT",                      # 네트워킹·연결·DC장비
+    "VST","CEG","NRG","TLN","GEV",                   # 전력·유틸리티
+    "FCX","CCJ","URA",                               # 원자재(구리·우라늄)
+    "MSFT","GOOGL","AMZN","META",                    # 하이퍼스케일러 capex
+    "CRWV",                                          # 네오클라우드
+    # 신용·사모대출
+    "BIZD","ARCC","OBDC","HYG",
+    # 거시·시스템
+    "%5EVIX","DX-Y.NYB","%5EIRX","LQD","GLD","BTC-USD","SPY","QQQ","%5ETNX",
+]
 def fetch_quote(sym):
     url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"
     try:

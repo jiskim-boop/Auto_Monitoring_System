@@ -1,10 +1,7 @@
-﻿name: update-dashboard-data
+name: update-dashboard-data
 on:
   schedule:
-    - cron: "17 13 * * *"
-    - cron: "17 20 * * *"
-    - cron: "17 1 * * *"
-    - cron: "17 8 * * *"
+    - cron: "17 * * * *"   # 매시간 (:17분, 비인기 시간대)
   workflow_dispatch:
 permissions:
   contents: write

@@ -24,8 +24,8 @@
   .guide{background:#10131c;border:1px solid #222c3c;border-radius:10px;padding:10px 14px;margin-bottom:14px;font-size:10.5px;line-height:1.6;color:#c2c9d6;}
   .guide .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;color:#5aa0ff;text-transform:uppercase;margin-bottom:5px;}
   .gg{color:#37d6a0;}.ga{color:#ffb454;}.gr{color:#ff6b6b;}
-  .cols{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;align-items:start;}
-  @media(max-width:1100px){.cols{grid-template-columns:repeat(2,1fr);}}
+  .cols{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;align-items:start;}
+  @media(max-width:1200px){.cols{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:680px){.cols{grid-template-columns:1fr;}}
   .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin:2px 2px 7px;}
   .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}
@@ -72,9 +72,39 @@
     · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <div class="cols">
-    <!-- ZONE 1: MACRO -->
+    <!-- COL 1: 사모대출 신용 (최우선) -->
     <div>
-      <div class="colhead ch-macro">거시 · 시스템</div>
+      <div class="colhead ch-flow">1 · 사모대출 신용 (최우선)</div>
+      <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
+        <div class="desc">BIZD·ARCC·OBDC + CRWV(네오클라우드)</div>
+        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div></div>
+      <div class="card crit"><div class="top"><span class="nm">EDGAR 8-K</span><span class="stt s-n">자동</span></div>
+        <div class="desc">BDC 중대사건 · 본문 AI 요약 · NEW=3일내</div>
+        <ul class="news" id="edgar"><li class="empty">로딩…</li></ul></div>
+      <div class="card crit"><div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
+        <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul></div>
+    </div>
+
+    <!-- COL 2: AI VALUE CHAIN -->
+    <div>
+      <div class="colhead ch-ai">2 · AI 밸류체인 (자본 흐름)</div>
+      <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
+        <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
+        <div class="desc">MU·SMH(반도체지수)</div><div class="mem" id="mem-mem"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
+        <div class="desc">ANET·ALAB·CRDO·VRT</div><div class="mem" id="mem-net"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
+        <div class="desc">VST·CEG·NRG·TLN·GEV</div><div class="mem" id="mem-power"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">원자재</span><span class="stt s-n" id="st-mat">—</span></div>
+        <div class="desc">FCX(구리)·CCJ·URA(우라늄)</div><div class="mem" id="mem-mat"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
+        <div class="desc">MSFT·GOOGL·AMZN·META · capex 원천</div><div class="mem" id="mem-hyp"></div></div>
+    </div>
+
+    <!-- COL 3: MACRO -->
+    <div>
+      <div class="colhead ch-macro">3 · 거시경제 · 시스템</div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
         <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
@@ -90,34 +120,9 @@
         <div class="desc">SPY·QQQ</div><div class="mem" id="mem-broad"></div></div>
     </div>
 
-    <!-- ZONE 2: AI VALUE CHAIN -->
+    <!-- COL 4: 나머지 (자금흐름·기타) -->
     <div>
-      <div class="colhead ch-ai">AI 밸류체인 (자본 흐름)</div>
-      <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
-        <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
-      <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
-        <div class="desc">MU·SMH(반도체지수)</div><div class="mem" id="mem-mem"></div></div>
-      <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
-        <div class="desc">ANET·ALAB·CRDO·VRT</div><div class="mem" id="mem-net"></div></div>
-      <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
-        <div class="desc">VST·CEG·NRG·TLN·GEV</div><div class="mem" id="mem-power"></div></div>
-      <div class="card ai"><div class="top"><span class="nm">원자재</span><span class="stt s-n" id="st-mat">—</span></div>
-        <div class="desc">FCX(구리)·CCJ·URA(우라늄)</div><div class="mem" id="mem-mat"></div></div>
-      <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
-        <div class="desc">MSFT·GOOGL·AMZN·META · capex 원천</div><div class="mem" id="mem-hyp"></div></div>
-    </div>
-
-    <!-- ZONE 3: CREDIT(최우선) + FLOW + ETC -->
-    <div>
-      <div class="colhead ch-flow">신용(최우선) · 자금흐름 · 기타</div>
-      <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
-        <div class="desc">BIZD·ARCC·OBDC + CRWV(네오클라우드)</div>
-        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div></div>
-      <div class="card crit"><div class="top"><span class="nm">EDGAR 8-K</span><span class="stt s-n">자동</span></div>
-        <div class="desc">BDC 중대사건 · 본문 AI 요약 · NEW=3일내</div>
-        <ul class="news" id="edgar"><li class="empty">로딩…</li></ul></div>
-      <div class="card crit"><div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
-        <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul></div>
+      <div class="colhead ch-flow">4 · 자금흐름 · 기타</div>
       <div class="card flow"><div class="top"><span class="nm">금리 10년물</span><span class="stt s-n" id="st-rates">—</span></div>
         <div class="verdict" id="lv-rates">—</div><div class="risk"><b>기준:</b> 4.5% 주의 · 5.0% 위험</div></div>
       <div class="card flow"><div class="top"><span class="nm">금 GLD</span><span class="stt s-b">흐름</span></div><div class="verdict" id="lv-gld">—</div></div>

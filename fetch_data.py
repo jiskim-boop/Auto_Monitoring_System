@@ -183,19 +183,39 @@ def fetch_edgar():
     out.sort(key=lambda x:x.get("date",""),reverse=True)
     return out
 
-# ---- 한 문장 요약
-def summarize_news(news):
-    hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:10]
-    hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:6]
-    if APIKEY and (hc or hf):
-        s=claude("다음은 AI 인프라 신용·사모대출 환매(CREDIT)와 하이퍼스케일러 capex(FUNDAMENTAL) 관련 최신 영문 "
-            "헤드라인이다. 현재 상황을 한국어 평문 한 문장(80자 내외)으로 과장 없이 사실 위주 요약. 신용 스트레스 정도와 "
-            "capex 흐름을 함께. 마크다운 기호(#, *, 머리말)나 제목 없이 한 문장만 출력.\n\n[CREDIT]\n"+"\n".join("- "+h for h in hc)+"\n\n[FUNDAMENTAL]\n"+"\n".join("- "+h for h in hf))
+# ---- 한 문장 요약 (AI 섹터 + 거시 통합)
+def summarize_news(news, prices=None, fred=None):
+    hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:8]
+    hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:5]
+    hm=[it["title"] for it in news.get("macro",[]) if not it["title"].startswith("[")][:5]
+    # 핵심 지표 스냅샷 (있으면)
+    snap=[]
+    p=prices or {}
+    def g(sym):
+        q=p.get(sym); return q.get("price") if q and q.get("ok") else None
+    vix=g("^VIX"); tnx=g("^TNX"); dxy=g("DX-Y.NYB")
+    if vix is not None: snap.append(f"VIX {vix:.0f}")
+    if tnx is not None: snap.append(f"미10년 {tnx:.2f}%")
+    if dxy is not None: snap.append(f"DXY {dxy:.1f}")
+    if fred and fred.get("ok"):
+        if fred.get("hyoas") and fred["hyoas"].get("value") is not None:
+            snap.append(f"HY스프레드 {fred['hyoas']['value']:.2f}%")
+        if fred.get("cape") is not None:
+            snap.append(f"CAPE {fred['cape']:.0f}")
+    snaptxt=" · ".join(snap) if snap else "(지표 없음)"
+    if APIKEY and (hc or hf or hm):
+        s=claude("아래는 시장 모니터의 (1)핵심 지표 스냅샷 (2)신용·사모대출 헤드라인 (3)AI capex 헤드라인 (4)거시 헤드라인이다. "
+            "이를 종합해 '지금 시장 상황'을 한국어 평문 한 문장(110자 내외)으로 과장 없이 사실 위주로 요약하라. "
+            "AI 섹터(capex·신용)와 거시(금리·달러·변동성·밸류에이션)를 모두 아울러 균형 있게. "
+            "마크다운 기호나 제목 없이 한 문장만 출력.\n\n"
+            "[지표]\n"+snaptxt+"\n\n[CREDIT]\n"+"\n".join("- "+h for h in hc)+
+            "\n\n[CAPEX]\n"+"\n".join("- "+h for h in hf)+
+            "\n\n[MACRO]\n"+"\n".join("- "+h for h in hm), max_tokens=260)
         if s: return {"text":nomd(s),"by":"claude"}
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
     n=len([it for it in news.get("credit",[]) if not it["title"].startswith("[")])
     lvl=("신용 경보 다수" if trig>=3 else "신용 경계 일부" if trig>=1 else "신용 특이신호 적음")
-    return {"text":f"신용 뉴스 {n}건 중 트리거 {trig}건 — {lvl}. (AI 요약은 API 키 설정 시)","by":"heuristic"}
+    return {"text":f"신용 뉴스 {n}건 중 트리거 {trig}건 — {lvl} · {snaptxt}. (AI 요약은 API 키 설정 시)","by":"heuristic"}
 
 # ---- FRED 유동성·시스템 스트레스 (선행지표)
 FRED_SERIES = {
@@ -260,9 +280,11 @@ def fetch_fred():
 
 def main():
     news=fetch_news()
+    prices=fetch_prices()
+    fred=fetch_fred()
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":fetch_prices(),"news":news,"edgar":fetch_edgar(),
-          "fred":fetch_fred(),"summary":summarize_news(news)}
+          "prices":prices,"news":news,"edgar":fetch_edgar(),
+          "fred":fred,"summary":summarize_news(news,prices,fred)}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"))

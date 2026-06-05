@@ -91,44 +91,58 @@
       <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
         <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
       <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
-        <div class="desc">MU·SMH(반도체지수)</div><div class="mem" id="mem-mem"></div></div>
+        <div class="desc">MU·SNDK·STX·WDC (순수 메모리)</div><div class="mem" id="mem-mem"></div></div>
       <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
-        <div class="desc">ANET·ALAB·CRDO·VRT</div><div class="mem" id="mem-net"></div></div>
+        <div class="desc">ANET·ALAB·CRDO·VRT·CIEN·COHR</div><div class="mem" id="mem-net"></div></div>
       <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
-        <div class="desc">VST·CEG·NRG·TLN·GEV</div><div class="mem" id="mem-power"></div></div>
+        <div class="desc">VST·CEG·NRG·TLN·GEV·PWR</div><div class="mem" id="mem-power"></div></div>
       <div class="card ai"><div class="top"><span class="nm">원자재</span><span class="stt s-n" id="st-mat">—</span></div>
-        <div class="desc">FCX(구리)·CCJ·URA(우라늄)</div><div class="mem" id="mem-mat"></div></div>
+        <div class="desc">구리 FCX·SCCO·CPER + 우라늄 CCJ·URA·UEC</div><div class="mem" id="mem-mat"></div></div>
       <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
-        <div class="desc">MSFT·GOOGL·AMZN·META · capex 원천</div><div class="mem" id="mem-hyp"></div></div>
+        <div class="desc">MSFT·GOOGL·AMZN·META·ORCL</div><div class="mem" id="mem-hyp"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">capex 뉴스</span><span class="stt s-n">자동</span></div>
+        <div class="desc">하이퍼스케일러 capex·FCF (분기 확정:7월)</div>
+        <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul></div>
     </div>
 
-    <!-- COL 3: MACRO -->
+    <!-- COL 3: 거시·시스템 위험 (위험 측정) -->
     <div>
-      <div class="colhead ch-macro">3 · 거시경제 · 시스템</div>
+      <div class="colhead ch-macro">3 · 거시·시스템 위험 (위험 측정)</div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
         <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
         <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
-      <div class="card macro"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-n" id="st-dxy">—</span></div>
-        <div class="desc">급등=유동성 흡수</div><div class="verdict" id="lv-dxy">—</div>
-        <div class="risk"><b>기준:</b> 103↓ 정상 · 103~106 주의 · 106+ 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
         <div class="desc">역전=침체 선행</div><div class="verdict" id="lv-curve">—</div>
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
-        <div class="desc">SPY·QQQ</div><div class="mem" id="mem-broad"></div></div>
+        <div class="desc">SPY·QQQ · 200일선 이탈=추세 붕괴</div><div class="mem" id="mem-broad"></div></div>
+      <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
+        <div class="desc">Fed·침체·변동성·스프레드</div>
+        <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
     </div>
 
-    <!-- COL 4: 나머지 (자금흐름·기타) -->
+    <!-- COL 4: 자금흐름·유동성 (돈의 방향) -->
     <div>
-      <div class="colhead ch-flow">4 · 자금흐름 · 기타</div>
-      <div class="card flow"><div class="top"><span class="nm">금리 10년물</span><span class="stt s-n" id="st-rates">—</span></div>
-        <div class="verdict" id="lv-rates">—</div><div class="risk"><b>기준:</b> 4.5% 주의 · 5.0% 위험</div></div>
-      <div class="card flow"><div class="top"><span class="nm">금 GLD</span><span class="stt s-b">흐름</span></div><div class="verdict" id="lv-gld">—</div></div>
-      <div class="card flow"><div class="top"><span class="nm">비트코인</span><span class="stt s-b">흐름</span></div><div class="verdict" id="lv-btc">—</div></div>
-      <div class="card ai"><div class="top"><span class="nm">capex 뉴스</span><span class="stt s-n">자동</span></div>
-        <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul></div>
+      <div class="colhead ch-flow">4 · 자금흐름·유동성 (돈의 방향)</div>
+      <div class="card flow"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-b">방향</span></div>
+        <div class="desc">강세=유동성 흡수·신흥국 압박</div><div class="verdict" id="lv-dxy">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">미 10년물 금리</span><span class="stt s-b">방향</span></div>
+        <div class="desc">상승=조달비용↑</div><div class="verdict" id="lv-rates">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">일본 엔 (USD/JPY)</span><span class="stt s-b">방향</span></div>
+        <div class="desc">엔 약세(↑)=캐리, 급반등=청산 위험</div><div class="verdict" id="lv-jpy">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">유가 (WTI/USO)</span><span class="stt s-b">방향</span></div>
+        <div class="desc">인플레·수요 신호</div><div class="verdict" id="lv-uso">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">구리 (CPER)</span><span class="stt s-b">방향</span></div>
+        <div class="desc">경기·전력화 수요</div><div class="verdict" id="lv-cper">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">금 (GLD)</span><span class="stt s-b">방향</span></div>
+        <div class="desc">상승=위험회피</div><div class="verdict" id="lv-gld">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">비트코인</span><span class="stt s-b">방향</span></div>
+        <div class="desc">위험선호 척도</div><div class="verdict" id="lv-btc">—</div></div>
+      <div class="card flow"><div class="top"><span class="nm">자금흐름 뉴스</span><span class="stt s-n">자동</span></div>
+        <div class="desc">달러·유가·구리·엔캐리·금</div>
+        <ul class="news" id="news-flow"><li class="empty">로딩…</li></ul></div>
       <div class="card man"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
       <div class="card man" style="border-left-color:#37d6a0;"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
       <div class="card man"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">OpenAI·앤트로픽·SpaceX 9~10월</div></div>
@@ -174,8 +188,13 @@ function creditPanel(p){
 
 function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
   const st=v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>');return st;}
-function dxyAxis(p){const v=num(p['DX-Y.NYB']);if(v==null){badge($('st-dxy'),'n','N/A');lvl('lv-dxy','실패');return null;}
-  const st=v>=106?'r':v>=103?'a':'g';badge($('st-dxy'),st);lvl('lv-dxy','현재 <b>'+v.toFixed(2)+'</b>');return st;}
+function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
+  const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
+  lvl('lv-dxy',`<b>${q.price.toFixed(2)}</b> ${chgHtml(q)} · ${tt}`);}
+function ratesFlow(p){const y=norm(num(p['^TNX']));if(y==null){lvl('lv-rates','실패');return;}
+  const q=p['^TNX'];lvl('lv-rates',`<b>${y.toFixed(2)}%</b> ${chgHtml(q)}`);}
+function jpyFlow(p){const q=p['JPY=X'];if(!q||!q.ok){lvl('lv-jpy','실패');return;}
+  lvl('lv-jpy',`<b>${q.price.toFixed(1)}</b> ${chgHtml(q)}`);}
 function curveAxis(p){const t=norm(num(p['^TNX'])),i=norm(num(p['^IRX']));if(t==null||i==null){badge($('st-curve'),'n','N/A');lvl('lv-curve','실패');return null;}
   const sp=t-i;const st=sp<0?'r':sp<0.5?'a':'g';badge($('st-curve'),st);
   lvl('lv-curve','10Y '+t.toFixed(2)+' − 3M '+i.toFixed(2)+' = <b>'+(sp>=0?'+':'')+sp.toFixed(2)+'%p</b>'+(sp<0?' 역전':''));return st;}
@@ -185,20 +204,19 @@ function spreadAxis(p){const hy=pStatus(p['HYG']),ig=pStatus(p['LQD']);if(!hy||!
   else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
   else if(hy==='a'){st='a';msg='HY 약세 조짐';}
   badge($('st-spread'),st);lvl('lv-spread',`HYG $${p['HYG'].price} ${chgHtml(p['HYG'])} · LQD $${p['LQD'].price} ${chgHtml(p['LQD'])}<br>${msg}`);return st;}
-function ratesAxis(p){const y=norm(num(p['^TNX']));if(y==null){badge($('st-rates'),'n','N/A');lvl('lv-rates','실패');return null;}
-  const st=y>=5?'r':y>=4.5?'a':'g';badge($('st-rates'),st);lvl('lv-rates','현재 <b>'+y.toFixed(2)+'%</b>');return st;}
 function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
-  const ordered=trig.concat(rest);
+  const ordered=trig.concat(rest).slice(0,5);
+  const tcount=ordered.filter(x=>x.trig).length;
   ordered.forEach((it,idx)=>{const li=document.createElement('li');
     if(it.trig)li.className='trig'; else li.classList.add('minor');
-    if(idx===trig.length&&trig.length>0&&rest.length>0)li.classList.add('sep');
+    if(idx===tcount&&tcount>0&&idx<ordered.length)li.classList.add('sep');
     li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});
-  if(trig.length===0){const note=document.createElement('li');note.className='nonote';note.textContent='트리거 뉴스 없음 — 아래는 일반 뉴스';el.insertBefore(note,el.firstChild);}}
+  if(tcount===0){const note=document.createElement('li');note.className='nonote';note.textContent='트리거 뉴스 없음';el.insertBefore(note,el.firstChild);}}
 function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
   items.forEach(it=>{const li=document.createElement('li');
     if(it.form==='ERR')li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;
@@ -223,18 +241,19 @@ async function load(){
     if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
     const p=d.prices||{};
     // 거시
-    const sVix=vixAxis(p),sSpread=spreadAxis(p),sDxy=dxyAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
     // AI 밸류체인
     const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
-          sMem=basket(p,['MU','SMH'],'mem-mem','st-mem'),
-          sNet=basket(p,['ANET','ALAB','CRDO','VRT'],'mem-net','st-net'),
-          sPow=basket(p,['VST','CEG','NRG','TLN','GEV'],'mem-power','st-power'),
-          sMat=basket(p,['FCX','CCJ','URA'],'mem-mat','st-mat'),
-          sHyp=basket(p,['MSFT','GOOGL','AMZN','META'],'mem-hyp','st-hyp');
+          sMem=basket(p,['MU','SNDK','STX','WDC'],'mem-mem','st-mem'),
+          sNet=basket(p,['ANET','ALAB','CRDO','VRT','CIEN','COHR'],'mem-net','st-net'),
+          sPow=basket(p,['VST','CEG','NRG','TLN','GEV','PWR'],'mem-power','st-power'),
+          sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
+          sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
     // 자금흐름
-    ratesAxis(p);flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
+    dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
     renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
+    renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);
     // 신용 트리거 알림 (뉴스 trig 또는 신규 EDGAR)
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
@@ -248,7 +267,7 @@ async function load(){
       extra='신용 트리거';
     }
     // 종합 판정 (AI엔 신용 포함)
-    setVerd('ov-sys',[sVix,sSpread,sDxy,sCurve,sBroad].filter(Boolean),'sys');
+    setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad].filter(Boolean),'sys');
     setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
     const any=[sVix,sSemi,sCredit,sPow].some(Boolean);
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';

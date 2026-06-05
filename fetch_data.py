@@ -34,17 +34,19 @@ def claude(prompt, max_tokens=200):
 # ---- 시세 (신용 종목 BIZD·ARCC·OBDC·HYG 추가)
 PRICE_SYMBOLS = [
     # AI 밸류체인 — 자본 흐름 상류→하류
-    "NVDA","AVGO","AMD","TSM","ASML","MRVL",        # 반도체·연산
-    "MU","SMH",                                      # 메모리·반도체지수
-    "ANET","ALAB","CRDO","VRT",                      # 네트워킹·연결·DC장비
-    "VST","CEG","NRG","TLN","GEV",                   # 전력·유틸리티
-    "FCX","CCJ","URA",                               # 원자재(구리·우라늄)
-    "MSFT","GOOGL","AMZN","META",                    # 하이퍼스케일러 capex
-    "CRWV",                                          # 네오클라우드
+    "NVDA","AVGO","AMD","TSM","ASML","MRVL",            # 반도체·연산
+    "MU","SNDK","STX","WDC",                             # 메모리·스토리지(순수)
+    "ANET","ALAB","CRDO","VRT","CIEN","COHR",            # 네트워킹·DC장비
+    "VST","CEG","NRG","TLN","GEV","PWR",                 # 전력·유틸리티
+    "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
+    "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
+    "CRWV",                                              # 네오클라우드
     # 신용·사모대출
     "BIZD","ARCC","OBDC","HYG",
     # 거시·시스템
-    "%5EVIX","DX-Y.NYB","%5EIRX","LQD","GLD","BTC-USD","SPY","QQQ","%5ETNX",
+    "%5EVIX","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
+    # 자금흐름
+    "GLD","BTC-USD","USO","JPY=X",
 ]
 def fetch_quote(sym):
     url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"
@@ -73,6 +75,10 @@ NEWS_QUERIES={
    '"Blue Owl" OR Blackstone OR Apollo private credit stress'],
  "fundamental":['hyperscaler capex guidance','Microsoft OR Amazon OR Meta OR Oracle capex AI',
    'AI capex cut OR slowdown OR depreciation'],
+ "macro":['Fed rate decision OR FOMC','recession risk yield curve',
+   'VIX market volatility selloff','credit spreads widening'],
+ "flow":['dollar index DXY move','oil price WTI OR crude',
+   'copper price OR commodities','Japan yen carry trade','gold price safe haven'],
 }
 TRIGGER=re.compile(r"\b(gate|redemption|default|downgrade|markdown|non-accrual|cut|miss|slowdown|write-?down|distress|halt)\b",re.I)
 def clean(t): return html.unescape(re.sub("<[^>]+>"," ",t)).strip()
@@ -112,7 +118,7 @@ def fetch_news():
         items=[]
         for q in qs: items+=fetch_news_query(q); time.sleep(0.5)
         items=dedupe(items); items.sort(key=lambda x:parse_date(x["pub"]),reverse=True)
-        out[cat]=items[:10]
+        out[cat]=items[:6]
     return out
 
 # ---- EDGAR 8-K + AI 본문 한 줄 요약

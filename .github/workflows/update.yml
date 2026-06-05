@@ -17,12 +17,11 @@ jobs:
         run: python fetch_data.py
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
       - name: Commit data.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           git commit -m "auto: update data.json" || echo "no changes"
-          git pull --rebase origin main
           git push
-          

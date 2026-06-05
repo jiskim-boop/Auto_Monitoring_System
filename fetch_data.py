@@ -10,6 +10,7 @@ from datetime import datetime, timezone
 UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
+FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
 
 def get(url, headers=UA, timeout=25):
     req = urllib.request.Request(url, headers=headers)
@@ -58,7 +59,10 @@ def fetch_quote(sym):
         prev=closes[-2] if len(closes)>1 else price
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         chg=round((price/prev-1)*100,2) if prev else 0
-        return {"price":round(price,2),"chg":chg,"sma50":sma(50),"sma200":sma(200),
+        # 최근 5거래일 누적 변화율 (단기 모멘텀)
+        chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
+        return {"price":round(price,2),"chg":chg,"chg5":chg5,
+                "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
                 "high3m":round(max(closes[-63:]),2) if closes else None,"ok":True}
     except Exception as e:
         return {"ok":False,"err":str(e)[:120]}
@@ -187,13 +191,54 @@ def summarize_news(news):
     lvl=("신용 경보 다수" if trig>=3 else "신용 경계 일부" if trig>=1 else "신용 특이신호 적음")
     return {"text":f"신용 뉴스 {n}건 중 트리거 {trig}건 — {lvl}. (AI 요약은 API 키 설정 시)","by":"heuristic"}
 
+# ---- FRED 유동성·시스템 스트레스 (선행지표)
+FRED_SERIES = {
+    "nfci":      "NFCI",          # 금융상황지수 (양수=긴축)
+    "nfcicredit":"NFCICREDIT",    # 신용 서브지수 (조기경보)
+    "hyoas":     "BAMLH0A0HYM2",  # HY 옵션조정스프레드 (%)
+    "sofr":      "SOFR",          # 레포 금리
+    "iorb":      "IORB",          # 지준부리금리
+}
+def fred_latest(series_id):
+    if not FRED_KEY: return None
+    url=("https://api.stlouisfed.org/fred/series/observations?series_id="+series_id+
+         "&api_key="+FRED_KEY+"&file_type=json&sort_order=desc&limit=8")
+    try:
+        raw=get(url)
+        if raw is None: return None
+        obs=json.loads(raw).get("observations",[])
+        vals=[(o["date"],float(o["value"])) for o in obs if o["value"] not in (".","")]
+        if not vals: return None
+        date,latest=vals[0]
+        prev=vals[1][1] if len(vals)>1 else None
+        return {"date":date,"value":round(latest,3),
+                "prev":round(prev,3) if prev is not None else None,
+                "chg":round(latest-prev,3) if prev is not None else None}
+    except Exception:
+        return None
+
+def fetch_fred():
+    if not FRED_KEY:
+        return {"ok":False,"note":"FRED_API_KEY 미설정"}
+    out={"ok":True}
+    for k,sid in FRED_SERIES.items():
+        out[k]=fred_latest(sid); time.sleep(0.2)
+    # SOFR-IORB 스프레드 (레포 경색 근사, bp)
+    try:
+        if out.get("sofr") and out.get("iorb"):
+            out["sofr_iorb"]=round((out["sofr"]["value"]-out["iorb"]["value"])*100,1)  # bp
+    except Exception:
+        out["sofr_iorb"]=None
+    return out
+
 def main():
     news=fetch_news()
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":fetch_prices(),"news":news,"edgar":fetch_edgar(),"summary":summarize_news(news)}
+          "prices":fetch_prices(),"news":news,"edgar":fetch_edgar(),
+          "fred":fetch_fred(),"summary":summarize_news(news)}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
-    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"])
+    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"))
 
 if __name__=="__main__":
     main()

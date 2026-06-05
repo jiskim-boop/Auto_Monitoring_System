@@ -100,7 +100,7 @@
       <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
         <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
       <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
-        <div class="desc">MU·SNDK·STX·WDC (순수 메모리)</div><div class="mem" id="mem-mem"></div></div>
+        <div class="desc">MU·SNDK·STX·WDC + 삼성·SK하이닉스</div><div class="mem" id="mem-mem"></div></div>
       <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
         <div class="desc">ANET·ALAB·CRDO·VRT·CIEN·COHR</div><div class="mem" id="mem-net"></div></div>
       <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
@@ -127,6 +127,8 @@
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
         <div class="desc">SPY·QQQ · 200일선 이탈=추세 붕괴</div><div class="mem" id="mem-broad"></div></div>
+      <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-n" id="st-kr">—</span></div>
+        <div class="desc">코스피·코스닥 · 한국시간 09~15:30</div><div class="mem" id="mem-kr"></div></div>
       <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">Fed·침체·변동성·스프레드</div>
         <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
@@ -135,6 +137,9 @@
     <!-- COL 4: 자금흐름·유동성 (돈의 방향) -->
     <div>
       <div class="colhead ch-flow">4 · 자금흐름·유동성 (돈의 방향)</div>
+      <div class="card flow" style="border-left-color:#5aa0ff;"><div class="top"><span class="nm">⏱ 선물·야간 세션</span><span class="stt s-b">24시간</span></div>
+        <div class="desc">장 마감·주말에도 거래 · 시장 방향 선반영</div>
+        <div id="fut-rows"><div class="empty">로딩…</div></div></div>
       <div class="card flow"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-b">방향</span></div>
         <div class="desc">강세=유동성 흡수·신흥국 압박</div><div class="verdict" id="lv-dxy">—</div></div>
       <div class="card flow"><div class="top"><span class="nm">미 10년물 금리</span><span class="stt s-b">방향</span></div>
@@ -179,11 +184,13 @@ function num(q){return q&&q.ok?q.price:null;}
 function norm(v){return v!=null&&v>20?v/10:v;}
 
 // 바스켓: 과반 위험이면 위험, 과반(위험+주의)이면 주의
+const LABEL={'005930.KS':'삼성전자','000660.KS':'SK하이닉스','^KS11':'코스피','^KQ11':'코스닥','ES=F':'S&P선물','NQ=F':'나스닥선물','YM=F':'다우선물','GC=F':'금선물','CL=F':'WTI선물','HG=F':'구리선물','ZN=F':'10년국채선물'};
+function tkLabel(s){return LABEL[s]||s;}
 function basket(p,syms,memId,stId){
   let r=0,a=0,n=0;const m=$(memId);m.innerHTML='';
   syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
-    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${s} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
-    else c.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
+    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${tkLabel(s)} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
+    else c.innerHTML=`${tkLabel(s)} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
   if(!n){badge($(stId),'n','N/A');return null;}
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
   badge($(stId),st);return st;}
@@ -220,6 +227,17 @@ function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
 
+// 선물·야간 세션: 지수·채권 선물 24시간 방향
+function futSession(p){
+  const rows=$('fut-rows');rows.innerHTML='';let n=0;
+  [['ES=F','S&P'],['NQ=F','나스닥'],['YM=F','다우'],['ZN=F','10Y국채'],['GC=F','금'],['CL=F','WTI'],['HG=F','구리']].forEach(([sym,lbl])=>{
+    const q=p[sym];if(!q||!q.ok)return;
+    const r=document.createElement('div');r.className='prow';n++;
+    const up=q.chg>=0;
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${q.price.toLocaleString()}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span><span></span>`;
+    rows.appendChild(r);});
+  if(!n)rows.innerHTML='<div class="empty">선물 데이터 없음</div>';}
+
 // FRED 유동성·시스템 스트레스
 function fredPanel(f){
   const rows=$('fred-rows');rows.innerHTML='';
@@ -254,9 +272,11 @@ function earlyWarning(p){
   // 신용 급확대: HYG 5일 낙폭 큰 경우
   const hyg=p['HYG'];
   if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2){hits.push('신용 급약화');score++;}
-  // 시장 급락: SPY 또는 QQQ 당일 -2%↓
-  const spy=p['SPY'],qqq=p['QQQ'];
-  if((spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2)){hits.push('시장 급락');score++;}
+  // 시장 급락: 현물(SPY/QQQ -2%) 또는 선물(ES/NQ -1.5%) — 선물은 장외에도 작동
+  const spy=p['SPY'],qqq=p['QQQ'],es=p['ES=F'],nq=p['NQ=F'];
+  const cashDrop=(spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2);
+  const futDrop=(es&&es.chg!=null&&es.chg<=-1.5)||(nq&&nq.chg!=null&&nq.chg<=-1.5);
+  if(cashDrop||futDrop){hits.push(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락');score++;}
   // 안전자산 쏠림: 금 급등 + 달러 급등 동시
   const gld=p['GLD'],dxy=p['DX-Y.NYB'];
   if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7){hits.push('안전자산 쏠림');score++;}
@@ -265,7 +285,7 @@ function earlyWarning(p){
   $('early-note').innerHTML = score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
     : `<b style="color:${score>=2?'#ff6b6b':'#ffb454'}">${score}개 동시 발생</b> — ${hits.join(' · ')}${score>=2?' → 급변 가능성 높음':''}`;
-  return st;}
+  return {st,score,hits,futDrop};}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
@@ -320,30 +340,36 @@ async function load(){
     const p=d.prices||{};
     // 거시
     const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    basket(p,['^KS11','^KQ11'],'mem-kr','st-kr');
     // AI 밸류체인
     const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
-          sMem=basket(p,['MU','SNDK','STX','WDC'],'mem-mem','st-mem'),
+          sMem=basket(p,['MU','SNDK','STX','WDC','005930.KS','000660.KS'],'mem-mem','st-mem'),
           sNet=basket(p,['ANET','ALAB','CRDO','VRT','CIEN','COHR'],'mem-net','st-net'),
           sPow=basket(p,['VST','CEG','NRG','TLN','GEV','PWR'],'mem-power','st-power'),
           sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
-    fredPanel(d.fred); earlyWarning(p);
+    fredPanel(d.fred); const ew=earlyWarning(p);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
+    futSession(p);
     renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
     renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);
     // 신용 트리거 알림 (뉴스 trig 또는 신규 EDGAR)
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
     let extra=null;
-    if(trigNews.length||newFilings.length){
+    const alertParts=[];
+    if(trigNews.length)alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
+    if(newFilings.length)alertParts.push(`신규 공시 ${newFilings.length}건`);
+    if(ew&&(ew.score>=2||ew.futDrop))alertParts.push('급변: '+ew.hits.join('·'));
+    if(alertParts.length){
       $('alert').classList.add('on');
-      const parts=[];
-      if(trigNews.length)parts.push(`트리거 뉴스 ${trigNews.length}건`);
-      if(newFilings.length)parts.push(`신규 공시 ${newFilings.length}건`);
-      $('alert-txt').textContent=parts.join(' · ')+' — '+(trigNews[0]?trigNews[0].title:newFilings[0].name+' '+newFilings[0].form);
-      extra='신용 트리거';
+      const onlyEW=!trigNews.length&&!newFilings.length;
+      $('alert').querySelector('.lbl').textContent = onlyEW ? '⚡ 시장 급변 감지' : '⚠ 신용·시장 트리거 감지';
+      $('alert-txt').textContent=alertParts.join(' · ');
+      if(trigNews.length||newFilings.length)extra='신용 트리거';
+      else if(ew&&ew.score>=2)extra='급변 경보';
     }
     // 종합 판정 (AI엔 신용 포함)
     setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad].filter(Boolean),'sys');

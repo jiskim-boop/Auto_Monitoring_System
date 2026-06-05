@@ -36,7 +36,7 @@ def claude(prompt, max_tokens=200):
 PRICE_SYMBOLS = [
     # AI 밸류체인 — 자본 흐름 상류→하류
     "NVDA","AVGO","AMD","TSM","ASML","MRVL",            # 반도체·연산
-    "MU","SNDK","STX","WDC",                             # 메모리·스토리지(순수)
+    "MU","SNDK","STX","WDC","005930.KS","000660.KS",    # 메모리(미국+한국: 삼성·SK하이닉스)
     "ANET","ALAB","CRDO","VRT","CIEN","COHR",            # 네트워킹·DC장비
     "VST","CEG","NRG","TLN","GEV","PWR",                 # 전력·유틸리티
     "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
@@ -46,8 +46,12 @@ PRICE_SYMBOLS = [
     "BIZD","ARCC","OBDC","HYG",
     # 거시·시스템
     "%5EVIX","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
+    # 한국 지수
+    "%5EKS11","%5EKQ11",
     # 자금흐름
     "GLD","BTC-USD","USO","JPY=X",
+    # 선물 (24시간 — 장외/주말 시장 방향)
+    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F",
 ]
 def fetch_quote(sym):
     url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"

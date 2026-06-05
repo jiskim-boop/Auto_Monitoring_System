@@ -25,3 +25,4 @@ jobs:
           git commit -m "auto: update data.json" || echo "no changes"
           git pull --rebase origin main
           git push
+          

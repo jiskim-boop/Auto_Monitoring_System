@@ -1,19 +1,25 @@
-# AI 사이클 모니터 (v3)
+# 시장 사이클 모니터 (v7)
 
-GitHub Pages + Actions 자동 대시보드. 4열 반응형.
-- 1열 EDGAR 8-K(본문 AI 요약, NEW 배지) / 2열 신용 종합패널(BIZD·ARCC·OBDC·HYG 실시간+위험도)+뉴스
-- 3열 하이퍼스케일러 펀더멘털 뉴스 / 4열 금리·전력·포지셔닝 바스켓·규제·추세·IPO
+GitHub Pages + Actions 매시간 자동. 4열 반응형.
 
-## 업데이트
-1. `fetch_data.py`, `index.html` 교체 후 push
-2. AI 요약(EDGAR 본문 + 뉴스 한 문장): Settings → Secrets and variables → Actions →
-   New repository secret → **Name 칸**에 `ANTHROPIC_API_KEY`, **Secret 칸**에 키
-3. Actions → Run workflow
+## 컬럼
+- 1열 신용·유동성(최우선): 사모대출 패널 + FRED 유동성·시스템 스트레스(선행) + 단기 급변 조기경보 + EDGAR + 신용뉴스
+- 2열 AI 밸류체인: 반도체·메모리·네트워킹·전력·원자재·하이퍼스케일러(각 5~6종목) + capex뉴스
+- 3열 거시·시스템 위험(위험 측정): VIX·신용스프레드·금리차·광범위시장 + 거시뉴스
+- 4열 자금흐름·유동성(방향): 달러·금리·엔·유가·구리·금·BTC + 자금흐름뉴스 + 기타
 
-키 없으면: EDGAR는 Item 코드 분류로, 뉴스 요약은 기계 요약으로 자동 대체.
+## 위험 규칙 (v7 개선)
+- 종목: 20·50일선 동시 아래 OR 당일 −5%↓ (200일선보다 빠름, 거짓신호 억제)
+- 바스켓: 구성종목 과반 위험시 ON
+- FRED 선행지표: NFCI(금융상황)·신용서브·HY OAS·SOFR−IORB (주식보다 먼저 움직임)
+- 단기 급변 조기경보: VIX급등·신용급확대·시장급락·안전자산쏠림 동시 카운트
+- 데이터 낡음 경고: 갱신 3시간 초과 시 배너
 
-## 비용
-Haiku 모델, 하루 2회 × (EDGAR 5건 + 뉴스 1) ≈ 12콜/일. 월 1달러 미만.
+## API 키 (둘 다 GitHub Secret)
+- ANTHROPIC_API_KEY (AI 요약)
+- FRED_API_KEY (유동성 지표) — fred.stlouisfed.org/docs/api/api_key.html 무료 발급
 
-## 수정
-`fetch_data.py`의 NEWS_QUERIES / EDGAR_CIKS / PRICE_SYMBOLS 편집.
+## 한계 (정직)
+- 가격 지표는 본질적으로 후행 (이평선). 진짜 선행은 FRED 유동성·조기경보뿐
+- NFCI는 주간 갱신 (일간 패닉은 못 잡음)
+- 임계값 정성 기준, 미검증 · 투자 자문 아님

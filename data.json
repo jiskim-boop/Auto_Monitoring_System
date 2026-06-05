@@ -1,1 +1,501 @@
-{"updated":"첫 수집 대기 (Run workflow 실행 전)","summary":{"text":"첫 수집 대기.","by":"heuristic"},"prices":{},"news":{"credit":[],"fundamental":[]},"edgar":[]}
+{
+ "updated": "2026-06-05T01:49:38+00:00",
+ "prices": {
+  "NVDA": {
+   "price": 218.66,
+   "chg": 1.82,
+   "sma50": 202.92,
+   "sma200": 191.67,
+   "high3m": 235.74,
+   "ok": true
+  },
+  "AVGO": {
+   "price": 418.91,
+   "chg": -12.59,
+   "sma50": 397.07,
+   "sma200": 361.99,
+   "high3m": 481.57,
+   "ok": true
+  },
+  "AMD": {
+   "price": 523.2,
+   "chg": -3.56,
+   "sma50": 353.8,
+   "sma200": 270.47,
+   "high3m": 542.52,
+   "ok": true
+  },
+  "TSM": {
+   "price": 444.92,
+   "chg": 1.88,
+   "sma50": 387.68,
+   "sma200": 355.23,
+   "high3m": 446.69,
+   "ok": true
+  },
+  "ASML": {
+   "price": 1757.47,
+   "chg": 1.8,
+   "sma50": 1482.98,
+   "sma200": 1375.24,
+   "high3m": 1757.47,
+   "ok": true
+  },
+  "MRVL": {
+   "price": 316.43,
+   "chg": 4.9,
+   "sma50": 162.05,
+   "sma200": 115.44,
+   "high3m": 316.43,
+   "ok": true
+  },
+  "MU": {
+   "price": 996.0,
+   "chg": -7.74,
+   "sma50": 607.72,
+   "sma200": 461.56,
+   "high3m": 1079.57,
+   "ok": true
+  },
+  "SMH": {
+   "price": 627.53,
+   "chg": -1.63,
+   "sma50": 503.53,
+   "sma200": 435.38,
+   "high3m": 637.9,
+   "ok": true
+  },
+  "ANET": {
+   "price": 166.01,
+   "chg": -4.79,
+   "sma50": 151.89,
+   "sma200": 140.88,
+   "high3m": 177.73,
+   "ok": true
+  },
+  "ALAB": {
+   "price": 358.05,
+   "chg": -1.51,
+   "sma50": 208.61,
+   "sma200": 173.21,
+   "high3m": 363.54,
+   "ok": true
+  },
+  "CRDO": {
+   "price": 217.5,
+   "chg": 1.35,
+   "sma50": 168.48,
+   "sma200": 145.84,
+   "high3m": 236.03,
+   "ok": true
+  },
+  "VRT": {
+   "price": 323.92,
+   "chg": -2.27,
+   "sma50": 312.59,
+   "sma200": 249.4,
+   "high3m": 376.23,
+   "ok": true
+  },
+  "VST": {
+   "price": 153.7,
+   "chg": -0.07,
+   "sma50": 154.43,
+   "sma200": 159.75,
+   "high3m": 170.12,
+   "ok": true
+  },
+  "CEG": {
+   "price": 264.59,
+   "chg": -0.99,
+   "sma50": 290.26,
+   "sma200": 306.73,
+   "high3m": 322.99,
+   "ok": true
+  },
+  "NRG": {
+   "price": 133.39,
+   "chg": -0.28,
+   "sma50": 147.25,
+   "sma200": 154.2,
+   "high3m": 170.96,
+   "ok": true
+  },
+  "TLN": {
+   "price": 378.08,
+   "chg": -0.4,
+   "sma50": 354.24,
+   "sma200": 356.95,
+   "high3m": 409.99,
+   "ok": true
+  },
+  "GEV": {
+   "price": 963.33,
+   "chg": 0.41,
+   "sma50": 1007.42,
+   "sma200": 850.89,
+   "high3m": 1149.53,
+   "ok": true
+  },
+  "FCX": {
+   "price": 69.69,
+   "chg": -1.34,
+   "sma50": 63.13,
+   "sma200": 59.98,
+   "high3m": 71.72,
+   "ok": true
+  },
+  "CCJ": {
+   "price": 114.02,
+   "chg": -0.47,
+   "sma50": 114.23,
+   "sma200": 111.34,
+   "high3m": 126.47,
+   "ok": true
+  },
+  "URA": {
+   "price": 50.28,
+   "chg": -0.22,
+   "sma50": 52.11,
+   "sma200": 51.36,
+   "high3m": 58.26,
+   "ok": true
+  },
+  "MSFT": {
+   "price": 428.05,
+   "chg": 0.17,
+   "sma50": 407.44,
+   "sma200": 425.67,
+   "high3m": 460.52,
+   "ok": true
+  },
+  "GOOGL": {
+   "price": 372.19,
+   "chg": 3.68,
+   "sma50": 352.95,
+   "sma200": 330.76,
+   "high3m": 402.62,
+   "ok": true
+  },
+  "AMZN": {
+   "price": 253.79,
+   "chg": 1.51,
+   "sma50": 250.47,
+   "sma200": 234.2,
+   "high3m": 274.99,
+   "ok": true
+  },
+  "META": {
+   "price": 627.57,
+   "chg": 0.74,
+   "sma50": 619.56,
+   "sma200": 638.37,
+   "high3m": 688.55,
+   "ok": true
+  },
+  "CRWV": {
+   "price": 108.03,
+   "chg": -2.61,
+   "sma50": 106.48,
+   "sma200": 93.91,
+   "high3m": 137.98,
+   "ok": true
+  },
+  "BIZD": {
+   "price": 12.7,
+   "chg": 2.25,
+   "sma50": 12.72,
+   "sma200": 13.36,
+   "high3m": 13.36,
+   "ok": true
+  },
+  "ARCC": {
+   "price": 18.9,
+   "chg": 1.18,
+   "sma50": 18.65,
+   "sma200": 19.29,
+   "high3m": 19.35,
+   "ok": true
+  },
+  "OBDC": {
+   "price": 11.3,
+   "chg": 3.2,
+   "sma50": 11.25,
+   "sma200": 11.74,
+   "high3m": 11.91,
+   "ok": true
+  },
+  "HYG": {
+   "price": 79.83,
+   "chg": 0.19,
+   "sma50": 79.96,
+   "sma200": 80.32,
+   "high3m": 80.65,
+   "ok": true
+  },
+  "^VIX": {
+   "price": 15.4,
+   "chg": -4.11,
+   "sma50": 19.11,
+   "sma200": 18.91,
+   "high3m": 31.05,
+   "ok": true
+  },
+  "DX-Y.NYB": {
+   "price": 99.44,
+   "chg": -0.09,
+   "sma50": 98.9,
+   "sma200": 98.56,
+   "high3m": 100.51,
+   "ok": true
+  },
+  "^IRX": {
+   "price": 3.62,
+   "chg": -0.08,
+   "sma50": 3.6,
+   "sma200": 3.58,
+   "high3m": 3.62,
+   "ok": true
+  },
+  "LQD": {
+   "price": 108.85,
+   "chg": 0.21,
+   "sma50": 108.91,
+   "sma200": 109.83,
+   "high3m": 110.82,
+   "ok": true
+  },
+  "GLD": {
+   "price": 411.27,
+   "chg": 0.83,
+   "sma50": 425.04,
+   "sma200": 432.77,
+   "high3m": 477.86,
+   "ok": true
+  },
+  "BTC-USD": {
+   "price": 63239.59,
+   "chg": -1.21,
+   "sma50": 76652.31,
+   "sma200": 77875.64,
+   "high3m": 82138.93,
+   "ok": true
+  },
+  "SPY": {
+   "price": 757.09,
+   "chg": 0.38,
+   "sma50": 711.9,
+   "sma200": 694.83,
+   "high3m": 759.57,
+   "ok": true
+  },
+  "QQQ": {
+   "price": 740.61,
+   "chg": -0.48,
+   "sma50": 665.46,
+   "sma200": 633.91,
+   "high3m": 746.16,
+   "ok": true
+  },
+  "^TNX": {
+   "price": 4.48,
+   "chg": -0.31,
+   "sma50": 4.4,
+   "sma200": 4.26,
+   "high3m": 4.67,
+   "ok": true
+  }
+ },
+ "news": {
+  "credit": [
+   {
+    "title": "Pengana Global Private Credit Trust Reports Unaudited May NAV and Distributions - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaGJ5cHZydk9ZMm5SZFlpUUNMR0poSEJZVjRZQm5hS2xYYnJUUjQyeDFOOW5BWXU2TGhfaUw3ZkFjSjNocGxGU25DMjAzbW9zVENmRTZYZ2REaWFJUnRNejg2UWhsM254akMtQ1R5dU5FWHNsOUdvUG1OdGNlSk9DemMzR05ZWFpFRHhVNFRHdVJoNXRaOWg4VHdNVjFLU01mb2lZX1hER0tjejNMUlcxUDhQckV6UzVKVWdJQkVITE1BS3kyT0ZaWVJZcw?oc=5",
+    "pub": "Thu, 04 Jun 2026 23:53:32 GMT",
+    "src": "TipRanks",
+    "trig": false
+   },
+   {
+    "title": "Anthropic calls for pause of global AI development - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0NnT0ZfVVJiWWI5cE9TWHA1NU9vNmxvN3dJTVZ5dnlpRzhUelQtbkNNcGVNOW1remlpelBBX09Jd0dBZ1k5WDRsRHNubmJsR0hmYTNHVzZJMFRmd2VNci1QOEl0SlV0T2Z4Y2NmVjlMeHByZ1dqOFNkRmJEM0hiaW5PWFVocGRqUFQ2bk1BcVRua3lGVDRWdU5wZmtEWkF2QlBncmpGbw?oc=5",
+    "pub": "Thu, 04 Jun 2026 23:37:20 GMT",
+    "src": "ABS-CBN",
+    "trig": false
+   },
+   {
+    "title": "Blackstone BCRED Caps Private Credit Redemptions - Gotrade",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPcERFTk1POXpaMmRCV29nbHk5WE14d1FDalJfSWFuZ05MUnZrUEZ1UHN0TGxkWE5hSEE0QU5yUy1wSjBHWjdqTGlLa21WUVg5UFkzMUtmalVDMzgzY2diaHNFZjJYX0FVUEczT1R6b1FkeFZoOFMySHd3YU1zM1pEV2hWWVBtWEFyalZDQw?oc=5",
+    "pub": "Thu, 04 Jun 2026 22:25:11 GMT",
+    "src": "Gotrade",
+    "trig": false
+   },
+   {
+    "title": "Private credit sector stresses could be catastrophic, but not just yet By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRGV2MTE2VlZWZGJMQXVSVkQzaGwxSGJPWjV5RkFyMDZ1YUpRQWV3d2dKY2hQQ3VlN1VJLVRsTFFiZWppM25BTlpKVFpnRnl2dUIwNXZ6Z3RyRTdNYWxNbENYaHlwZ2dmX3VCZ2NLMGY4RFdsRm1ROXpkWHVYRG5wb2ZZR25xQ2JCMTZXblF4RkVySVZROEZ1azZvX2hrWjJoeWtjVnpHemxXTWNpOFpkZzQ5S1l1cEwtNkZYR3l2NkktMUk5?oc=5",
+    "pub": "Thu, 04 Jun 2026 22:18:25 GMT",
+    "src": "Investing.com",
+    "trig": false
+   },
+   {
+    "title": "Private Credit Funds Confront Rising Withdrawal Demands - Sharecafe",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONmVqR0RkbVloTHAyX29Id3J5QTdDeWRUck84VGFUQXR4LTBaQjdBd1dMU05pZHJUa2Jkenk5b2lWNXM4M0lrRzcxMlM5Y1hqanVwMGJlNnpYZ0Z1TjlaNzVyUnUtTkRUWGI2WHY5amFNTWlncHhEZXNFbkJBQW01VVVEZXRNQlJOTURwZE5seldzaTZFblVPSm5EdzY?oc=5",
+    "pub": "Thu, 04 Jun 2026 21:47:27 GMT",
+    "src": "Sharecafe",
+    "trig": false
+   },
+   {
+    "title": "Nebius v CoreWeave: how the neocloud leaders compare - UK Investor Magazine",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOdV9qaHFKTEdpV0pJd2pRQ3hILTgydmNuelg5amMxcXhYdmpsekR2RHY3cDU4bzY5MGN2T0YwUWRBeGJHZktQYUd2ZnNLVHQ2UTJSTXJiWXBPSkhTTFhrcDNES0NLTEFObGJ4VV9nb29ORTdrXzB6ZXJaWW8zWWRvNzdBY0QwcE03WHo3Nk9B?oc=5",
+    "pub": "Thu, 04 Jun 2026 21:28:19 GMT",
+    "src": "UK Investor Magazine",
+    "trig": false
+   },
+   {
+    "title": "KPMG scandal goes global, whistleblower rebuffed at the top - Capital Brief",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPZnZBSnNobTJJLW96cFkxNWlNQ3pSQnRnVEJEbzdXTzIyWVFLNXpJbURDSWNxSWhVLUlHZVRocnhGR3ZzcExCU09ZdnhtMGtzUjU0S3hvZjltLXpoeWQ4eWItb21IQkJSTk9oVEc1ZWZaRGgxaHJlNVFXVjNvV0ZRWEFtclRCLW5UT0M5enlFRTdtdmJTQWhSZGJybnVwOV9SMTA0ZU1wcTFvdGdEd3dva2RSSU8zVE1fSGRFeWNEaHpjLUFBN01ERG9UZ1JLYlByMXc?oc=5",
+    "pub": "Thu, 04 Jun 2026 20:40:00 GMT",
+    "src": "Capital Brief",
+    "trig": false
+   },
+   {
+    "title": "Blackstone Partners Group is experiencing a rise in redemption requests as the private market strains. - Marine News Magazine",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWXlpTG82TnpiQzAtazJHRkZKOWpvWGQ3RzZfZmphV2JjNVBCcG9qcmxpc3pnOFlLenM0cUNHeG5rV29adWR2SUlQNnNEYXB1Q016dFhEUG1uYW51UURTRUxna3p0bkFHRGE1ZVBsVFU5NklpeGRzLXNfZmktMEw1UHlmeVpKcGtNSm1aTFdVSm85LUFDaGQ2Mkxxdm1IdkJUUm5KWnRuN0pYalE?oc=5",
+    "pub": "Thu, 04 Jun 2026 19:46:45 GMT",
+    "src": "Marine News Magazine",
+    "trig": true
+   },
+   {
+    "title": "The greatest investing opportunity of a generation or a bubble? Credit managers offer differing AI, data center takes. - Pensions & Investments",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOQnhCMTRZZm1hV3RkdFptbFZ2Rm50eHA0TmhoS0NfdF9fQndsdGJlYkRpYldvbFNYWXdWQmk3UVQycDBCZ0dtaXdNOUZrVHBXOFA5QzY4NkVqSGJobDFGU3ZWTU5FTEFMWW8wZEdzLXJnZEhhRGVEYjdZMktMQXN1LV9EaklNckptQVZncWJVOG5NczhzTnN2N2F5UFlnbzZUaUdaZ3pRaC1uXzJmTmo0R0pkYw?oc=5",
+    "pub": "Thu, 04 Jun 2026 18:14:00 GMT",
+    "src": "Pensions & Investments",
+    "trig": false
+   },
+   {
+    "title": "Your no-stress guide to resistance training - MSN",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWTB3OEF4ZlB0UnBjcTltV0FodmNWaFUtek16MDloaWZXRUlQYVEwaWVEYlpWbjhTRXBhSnBMQVRHWjNUUXNwNE1nWDlmclIyazZFRkpCUUc5ZjdKWk9QUDdOOEtUcmhSVGZTSE5MQVUwbUZnZGVKR0xONVVrTjRfNENRUEN4Sl9FVjRmaTY4czI1Ykt1QkxhZw?oc=5",
+    "pub": "Thu, 04 Jun 2026 17:46:01 GMT",
+    "src": "MSN",
+    "trig": false
+   }
+  ],
+  "fundamental": [
+   {
+    "title": "Kevin Warsh, R-Star And The AI Capex Boom - Heisenberg Report",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQTWZ6YzQxRVhtVDRyeHJ2SUhkUWVUZWM2bFJEMno1VzR2WHVHcXRDTmlNZTBIZ2tJbzBSSnB1UzNqSC1CLU9ncV9hVFdXNFJkUi1tWHdXNmJDRE42eUxFWjIyWW9hQkpIVlVtVWVxR1VJczkwdS1Zck9xX2ZLS1V6a0VJS2pvaEVHenJtOHZwYURzWFMxWk5MMUJwRGQ?oc=5",
+    "pub": "Thu, 04 Jun 2026 18:42:13 GMT",
+    "src": "Heisenberg Report",
+    "trig": false
+   },
+   {
+    "title": "If You Bought SOXQ During the March 2026 Selloff, You’re Sitting on a Triple-Digit Year - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWFRKeGpuOUdiTkxJTnk3OUc2SW14S0tvWWl6ZTRwNVR2T1FqaTVhNmFIa0h1MTl1emtwbmZMeTZBZkFZYTkwUFZyTGQzUUVlNjRUeEVjRkdGc1B5RkdhM3RjaG9UUHVrSmNMamxXdlpnLWlsR3c5UlpsYVNkTmxzNTJ6TG5ZRUU1R1g5OE8ySVZwbmEyQVR3cjNzWl9iYWNKNVJhLXI1ZURjRmNDdDhQa1d1eHJNVVluRVVJZkU4SnFXWjVOZDllZA?oc=5",
+    "pub": "Thu, 04 Jun 2026 18:20:54 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "Broadcom AI Revenue $10.8B — Stock Drops 14% on Guidance Miss - abhs.in",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPa1Q1elVFOHJKa1gzdlNSbm1MVzhXNWt5MmYzVzVKc1p5TEFSR3dJd0RvOWFOQkQ5MnpsYjBldVBQUGlBY1YwbUJPZ1Z0VE45Mm8zRXNDVlRMUlNXUXNIZkdlMFl2MXY1dUZzOTRueUlaREtrMFlSX0VZdTZLYnMtb3h4VVpTY3JsUWtnMXpqa2M2SnlXX05UZm9INGRoNDgtM2MzRw?oc=5",
+    "pub": "Thu, 04 Jun 2026 18:12:17 GMT",
+    "src": "abhs.in",
+    "trig": true
+   },
+   {
+    "title": "Why Amazon's Massive AI Capex Infrastructure Bet Justifies the Spend - asatunews.co.id",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9GeVVybDVEN2huY2RmVmV3czFiUkp4UlhfNFlTYVhLaWdEZTJXMjU1aHVwcVJUWS1tVEJNVjZhcWRaRkxGUExjNmhuNTBLUEk0dk5tNl9HUEtkVlJRX2ZTOHNyWWRRREdH?oc=5",
+    "pub": "Thu, 04 Jun 2026 17:34:00 GMT",
+    "src": "asatunews.co.id",
+    "trig": false
+   },
+   {
+    "title": "Trump Just Signed a Scaled-Back AI Executive Order: What the Voluntary 30-Day Review Means for Big Tech - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNdmdGNlJlbHM3U0VhbmhfWVhmdE5tMmFlb3dHcFZhcFo5SFNXM0R1RVREdXZQcmpHX1FTWWNyOFRtZjBEM1dXc2lWVUI0OTFSRFdGU0w2Mmx4S1doMWtnd2ktTDNMRmhFc1dDcGpsdVc3T05OME5Yb2l4enBDOHlFb1FwNzlKaTRrd2IzYkJwM1BwM0lTTEVxX2VzX3gzRkVkcU1VYUJfaWJJT09ZSkY5MFZCS1IxeHBoM2VWeDE1aHRVU1htU2JnQk04aFZTOVZhb05sMTBMRVo0WE03NUNF?oc=5",
+    "pub": "Thu, 04 Jun 2026 17:00:26 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "Microsoft: Reversing My Sell As Operating Margins Beat Capex Splurge, Revenue Could Surge On AI, Azure - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSGh6dEdDcUhXRmc2dHl4SjByeDRxdTNPZkZqdWtqQ2tiNElTU01Bb1JfNmJNXzJOdzRJbC1zWXA1cVY4VTR4eWstQU9yTm12WFFtLVJ6MUtxZkZFNHNSaWpJYzl4RHVJMkFGbE1ZaVNNUnV5VjdVQWY3ZElJSUdDRE5xNWNpS2hONEk3M1EyTnVzQmJxRzI0cjdydlQ4Q0M0TG1NRWpIaDdpeEdO?oc=5",
+    "pub": "Thu, 04 Jun 2026 15:01:07 GMT",
+    "src": "Seeking Alpha",
+    "trig": false
+   },
+   {
+    "title": "The White House Is Now Hoarding AI Tokens: How Government Compute Competition Reshapes the AI Trade - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQLVNWc1YtRzkyaWt4a2Nrb1QzYlJVN3BscEhLUXVmUXo5cjhkR2lTSzBPV0Z1b1h1SENSVmRmb3ZSNTVURUU0WTRNaF9ucWVHOGtpazRjQlNZS3UzS29mb0VLUmJEZkpmOHNvSlk3ek81WkNEbmk3RnhyZmR0dDFmQldEV2RzTFRjbnRWVXkyMHVldXczWUdNNmlvQ0xvcHNyMDI4ZkhnU2JLRktlb0RFa2tabm5wWmFaQU5zM1gyTWJ0U29PU2dTQWtqWVk4bTRiYUZXM0RiUmd3dw?oc=5",
+    "pub": "Thu, 04 Jun 2026 13:35:25 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "Jim Cramer Says Nokia Is Back: How a 20-Year Smartphone Casualty Became an AI Infrastructure Play - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOSkc0Yk9qQjc2QmhaY1dhQ3RYLTJqMnZLa1YtMk9RaWlIaHZrc1hmOFA1RVRxSzZtajZqVGMyREtQbG5RakJoeXgycWE4UTR1Z0FzeEVTREtJX3V2aWxNN2lkTE1lOUg3SVNZOXlVUHVoSGJqYlpXQ2loYnVRYnd1SWRPd1R3Z3d2eXByZ3lOVThFWGo3X0lzNVVJWEpqdE5obFROMlRwbVROZlk5eTJ4aERJYnNydDljemlBSE9fR1Jwb01rNXI0ZWYxcm1xdjRuMWxhMVVIbw?oc=5",
+    "pub": "Thu, 04 Jun 2026 12:45:49 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "Why Google’s Record AI Spending May Signal a Turning Point - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLXE0dUZQa0RIRkMxbEpPOUsyMVk2aTE0TzJQNmZRSmtRblhtWkpLVnV6UVItdHVuZHJpZ1AwR28xTDFlbkdpSjlXUmhTNTVIdDNZMEVDbVlrZHdtNHotLXlrZDlZU2ZCNmh3ZGVGWXNvZlRya2NTbVQ0cHpwVUE2MW5zbXRlMk9hMlBmNC1YSmhWaFhUVU9tYTl0OGNleXp2M0RvVzlRRTFoWWpIYnRmTFpJV2lzWGVTSnhHVGNsUW9ZMkJ6VlFWemwzS2czUXdKWHc?oc=5",
+    "pub": "Thu, 04 Jun 2026 11:04:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "$190 Billion and Climbing: Google's Stunning Equity Raise Signals an Even Bigger AI CapEx Surge - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQkl3UkNXdlBuSmhnTjdmYlRJMnpBRmJoUjNwSk9YODN3d2RZTW0zMzE0U1A2eDlnZjNsbWlUeDl4YTNWT2pYVTNlTW1EbzBvRFZaVUwyS2gtS1QxM0hoV0MyQzFkMkdvVTliTEpsZnE4UGpLaEhYNHh2bFZIR2RXb0w5VTRqR0ktVHlNeUJOR3E5WGU0REVta3ZOUUxKM1gwTjJVVHJ2WUlZNTV3VmUtOW81UWZuaTEtenRObHJCV0ZfUThhS1VSOEpoZW1icU1PZXc?oc=5",
+    "pub": "Thu, 04 Jun 2026 11:00:12 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   }
+  ]
+ },
+ "edgar": [
+  {
+   "name": "FSK (FS KKR)",
+   "form": "8-K",
+   "date": "2026-06-03",
+   "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
+   "summary": "FS KKR Capital Corp가 2026년 6월 1일자로 8-K 보고서를 제출했습니다.",
+   "new": true
+  },
+  {
+   "name": "GBDC (Golub Capital)",
+   "form": "8-K",
+   "date": "2026-05-27",
+   "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
+   "summary": "골럽 캐피털 BDC가 2026년 5월 27일 공모 관련 신탁회사와 중요 확정 계약을 체결했다.",
+   "new": false
+  },
+  {
+   "name": "ARCC (Ares Capital)",
+   "form": "8-K",
+   "date": "2026-05-26",
+   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
+   "summary": "에이어스 캐피털이 JPMorgan Chase Bank를 주관사로 시니어 담보 신용 한도를 증액 및 개정했다.",
+   "new": false
+  },
+  {
+   "name": "OBDC (Blue Owl Capital)",
+   "form": "8-K",
+   "date": "2026-05-21",
+   "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
+   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 보충 약정서를 체결했다.",
+   "new": false
+  },
+  {
+   "name": "BXSL (Blackstone Secured Lending)",
+   "form": "8-K",
+   "date": "2026-05-21",
+   "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
+   "summary": "Blackstone Secured Lending Fund이 5.9% 이율의 6억5천만 달러 규모 2031년 만기 채권을 발행했다.",
+   "new": false
+  }
+ ],
+ "summary": {
+  "text": "AI 인프라 수요는 강하지만 민간신용펀드의 환매 압박과 유동성 우려가 심화되면서 신용 스트레스가 고조되고 있고, 하이퍼스케일러들의 높은 자본지출 지속이 수익성 개선으로 이어지는지가 관건인 상황이다.",
+  "by": "claude"
+ }
+}

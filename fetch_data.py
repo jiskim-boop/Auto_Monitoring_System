@@ -45,7 +45,7 @@ PRICE_SYMBOLS = [
     # 신용·사모대출
     "BIZD","ARCC","OBDC","HYG",
     # 거시·시스템
-    "%5EVIX","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
+    "%5EVIX","%5EVIX3M","%5EVVIX","%5ESKEW","%5EMOVE","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
     # 한국 지수
     "%5EKS11","%5EKQ11",
     # 자금흐름

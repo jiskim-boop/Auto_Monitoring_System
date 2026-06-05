@@ -78,7 +78,7 @@
     <div>
       <div class="colhead ch-flow">1 · 신용·유동성·조기경보 (최우선)</div>
       <div class="card crit"><div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
-        <div class="desc">VIX급등·신용급확대·시장급락 동시 발생 카운트</div>
+        <div class="desc">강한신호(1.0)+보조신호(0.5) 가중합 · 2.0+ 경보</div>
         <div class="verdict" id="early-note">—</div></div>
       <div class="card crit"><div class="top"><span class="nm">유동성·시스템 스트레스</span><span class="stt s-n" id="st-fred">—</span></div>
         <div class="desc">FRED 선행지표 · 주간/일간 갱신</div>
@@ -120,6 +120,10 @@
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
         <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
+      <div class="card macro"><div class="top"><span class="nm">옵션·파생 심리</span><span class="stt s-n" id="st-deriv">—</span></div>
+        <div class="desc">옵션 시장 선행 신호 (현물보다 빠름)</div>
+        <div id="deriv-rows"><div class="empty">로딩…</div></div>
+        <div class="risk"><b>해석:</b> 기간구조 역전(VIX>VIX3M)=단기공포 · VVIX 110+=옵션불안 · SKEW 150+=급락헤지 · MOVE 120+=채권불안</div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
         <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
@@ -208,6 +212,30 @@ function creditPanel(p){
 
 function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
   const st=v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>');return st;}
+
+// 옵션·파생 심리: VIX 기간구조 + VVIX + SKEW
+function derivPanel(p){
+  const rows=$('deriv-rows');rows.innerHTML='';let risk=0,n=0;
+  const vix=num(p['^VIX']), vix3m=num(p['^VIX3M']), vvix=num(p['^VVIX']), skew=num(p['^SKEW']);
+  function row(lbl,valStr,st){
+    const r=document.createElement('div');r.className='prow';
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span></span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
+    rows.appendChild(r);if(st==='r')risk++;if(st==='a')risk+=0.5;n++;}
+  // VIX 기간구조: 비율 = VIX/VIX3M. >1 역전(위험), 0.95~1 평탄(주의), <0.95 정상(콘탱고)
+  if(vix!=null&&vix3m!=null){
+    const ratio=vix/vix3m;
+    const st=ratio>=1?'r':ratio>=0.95?'a':'g';
+    row('기간구조 VIX/3M',ratio.toFixed(3)+(ratio>=1?' 역전':''),st);
+  }
+  // VVIX: 110+ 위험, 100+ 주의
+  if(vvix!=null) row('VVIX',vvix.toFixed(0),vvix>=110?'r':vvix>=100?'a':'g');
+  // SKEW: 150+ 위험, 145+ 주의
+  if(skew!=null) row('SKEW',skew.toFixed(0),skew>=150?'r':skew>=145?'a':'g');
+  // MOVE (채권 변동성, 채권판 VIX): 150+ 위험, 120+ 주의
+  const move=num(p['^MOVE']);
+  if(move!=null) row('MOVE(채권)',move.toFixed(0),move>=150?'r':move>=120?'a':'g');
+  if(!n){badge($('st-deriv'),'n','N/A');return null;}
+  const st=risk>=1.5?'r':risk>=0.5?'a':'g';badge($('st-deriv'),st);return st;}
 function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl('lv-dxy',`<b>${q.price.toFixed(2)}</b> ${chgHtml(q)} · ${tt}`);}
@@ -274,27 +302,42 @@ function fredPanel(f){
   if(!n){badge($('st-fred'),'n','N/A');return null;}
   const st=risk>=2?'r':risk>=1?'a':'g';badge($('st-fred'),st);return st;}
 
-// 단기 급변 조기경보: 동시 발생 카운트
-function earlyWarning(p){
+// 단기 급변 조기경보: 가중치 합산 (강한 신호 1.0 / 보조 0.5)
+function earlyWarning(p,fred){
   let hits=[],score=0;
-  const vix=p['^VIX'];
-  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20){hits.push('VIX 급등');score++;}
-  // 신용 급확대: HYG 5일 낙폭 큰 경우
-  const hyg=p['HYG'];
-  if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2){hits.push('신용 급약화');score++;}
-  // 시장 급락: 현물(SPY/QQQ -2%) 또는 선물(ES/NQ -1.5%) — 선물은 장외에도 작동
+  const add=(label,weight)=>{hits.push(label);score+=weight;};
+  // ── 강한 신호 (1.0) ──
+  // 기간구조 역전 (단기공포>중기) — 가장 신뢰도 높은 선행
+  const v=num(p['^VIX']), v3=num(p['^VIX3M']);
+  if(v!=null&&v3!=null&&v/v3>=1) add('기간구조 역전',1);
+  // 시장/선물 급락 (선물은 장외에도 작동)
   const spy=p['SPY'],qqq=p['QQQ'],es=p['ES=F'],nq=p['NQ=F'];
   const cashDrop=(spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2);
   const futDrop=(es&&es.chg!=null&&es.chg<=-1.5)||(nq&&nq.chg!=null&&nq.chg<=-1.5);
-  if(cashDrop||futDrop){hits.push(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락');score++;}
-  // 안전자산 쏠림: 금 급등 + 달러 급등 동시
+  if(cashDrop||futDrop) add(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락',1);
+  // HY 스프레드 급등 (FRED, 신용경색 원본) — 7%+ 강함
+  if(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=7) add('HY스프레드 급등',1);
+  // VIX 당일 급등 +20%
+  const vix=p['^VIX'];
+  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20) add('VIX 급등',1);
+  // ── 보조 신호 (0.5) ──
+  // SKEW 급등 (급락 헤지 폭증)
+  const sk=num(p['^SKEW']); if(sk!=null&&sk>=150) add('SKEW 급등',0.5);
+  // VVIX 급등 (옵션 시장 불안)
+  const vv=num(p['^VVIX']); if(vv!=null&&vv>=110) add('VVIX 급등',0.5);
+  // MOVE 급등 (채권 변동성)
+  const mv=num(p['^MOVE']); if(mv!=null&&mv>=150) add('MOVE 급등',0.5);
+  // 신용 급약화 (HYG 5일 낙폭)
+  const hyg=p['HYG']; if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2) add('신용 급약화',0.5);
+  // 안전자산 쏠림 (금↑ + 달러↑)
   const gld=p['GLD'],dxy=p['DX-Y.NYB'];
-  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7){hits.push('안전자산 쏠림');score++;}
+  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7) add('안전자산 쏠림',0.5);
+  // 판정: 합산 점수 >=2 경보, >=1 주의
   const st=score>=2?'r':score>=1?'a':'g';
   badge($('st-early'),st, score>=2?'경보':score>=1?'주의':'정상');
   $('early-note').innerHTML = score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
-    : `<b style="color:${score>=2?'#ff6b6b':'#ffb454'}">${score}개 동시 발생</b> — ${hits.join(' · ')}${score>=2?' → 급변 가능성 높음':''}`;
+    : `<b style="color:${score>=2?'#ff6b6b':'#ffb454'}">위험점수 ${score}</b> — ${hits.join(' · ')}${score>=2?' → 급변 가능성 높음':''}`;
   return {st,score,hits,futDrop};}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
@@ -350,6 +393,7 @@ async function load(){
     const p=d.prices||{};
     // 거시
     const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    const sDeriv=derivPanel(p);
     krIndex(p);
     // AI 밸류체인
     const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
@@ -359,7 +403,7 @@ async function load(){
           sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
-    fredPanel(d.fred); const ew=earlyWarning(p);
+    fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
     futSession(p);
@@ -382,7 +426,7 @@ async function load(){
       else if(ew&&ew.score>=2)extra='급변 경보';
     }
     // 종합 판정 (AI엔 신용 포함)
-    setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad].filter(Boolean),'sys');
+    setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sDeriv].filter(Boolean),'sys');
     setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
     const any=[sVix,sSemi,sCredit,sPow].some(Boolean);
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';

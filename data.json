@@ -1,615 +1,249 @@
 {
- "updated": "2026-06-05T09:40:30+00:00",
+ "updated": "2026-06-05T09:50:30+00:00",
  "prices": {
   "NVDA": {
-   "price": 218.66,
-   "chg": 1.82,
-   "chg5": 2.06,
-   "sma20": 219.42,
-   "sma50": 202.92,
-   "sma200": 191.67,
-   "high3m": 235.74,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
-   "price": 418.91,
-   "chg": -12.59,
-   "chg5": -1.8,
-   "sma20": 430.36,
-   "sma50": 397.07,
-   "sma200": 361.99,
-   "high3m": 481.57,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
-   "price": 523.2,
-   "chg": -3.56,
-   "chg5": 0.99,
-   "sma20": 471.04,
-   "sma50": 353.8,
-   "sma200": 270.47,
-   "high3m": 542.52,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TSM": {
-   "price": 444.92,
-   "chg": 1.88,
-   "chg5": 4.72,
-   "sma20": 414.68,
-   "sma50": 387.68,
-   "sma200": 355.23,
-   "high3m": 446.69,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ASML": {
-   "price": 1757.47,
-   "chg": 1.8,
-   "chg5": 9.45,
-   "sma20": 1591.82,
-   "sma50": 1482.98,
-   "sma200": 1375.24,
-   "high3m": 1757.47,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MRVL": {
-   "price": 316.43,
-   "chg": 4.9,
-   "chg5": 54.48,
-   "sma20": 203.35,
-   "sma50": 162.05,
-   "sma200": 115.44,
-   "high3m": 316.43,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MU": {
-   "price": 996.0,
-   "chg": -7.74,
-   "chg5": 7.85,
-   "sma20": 838.95,
-   "sma50": 607.72,
-   "sma200": 461.56,
-   "high3m": 1079.57,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SNDK": {
-   "price": 1759.68,
-   "chg": 2.52,
-   "chg5": 10.68,
-   "sma20": 1525.23,
-   "sma50": 1141.11,
-   "sma200": 746.69,
-   "high3m": 1831.5,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "STX": {
-   "price": 925.99,
-   "chg": -1.56,
-   "chg5": 5.14,
-   "sma20": 832.47,
-   "sma50": 657.29,
-   "sma200": 478.78,
-   "high3m": 940.69,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "WDC": {
-   "price": 575.5,
-   "chg": -3.13,
-   "chg5": 8.34,
-   "sma20": 507.76,
-   "sma50": 419.64,
-   "sma200": 312.14,
-   "high3m": 594.11,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "005930.KS": {
-   "price": 329000.0,
-   "chg": -6.4,
-   "chg5": 9.85,
-   "sma20": 299600.0,
-   "sma50": 243545.0,
-   "sma200": 192058.75,
-   "high3m": 360500.0,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "000660.KS": {
-   "price": 2070000.0,
-   "chg": -9.92,
-   "chg5": -9.57,
-   "sma20": 2001950.0,
-   "sma50": 1457400.0,
-   "sma200": 1070900.0,
-   "high3m": 2363000.0,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ANET": {
-   "price": 166.01,
-   "chg": -5.32,
-   "chg5": 7.58,
-   "sma20": 150.69,
-   "sma50": 151.19,
-   "sma200": 140.68,
-   "high3m": 177.73,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ALAB": {
-   "price": 358.05,
-   "chg": 0.64,
-   "chg5": 10.06,
-   "sma20": 271.7,
-   "sma50": 203.88,
-   "sma200": 171.71,
-   "high3m": 363.54,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CRDO": {
-   "price": 217.5,
-   "chg": -5.02,
-   "chg5": -1.69,
-   "sma20": 201.05,
-   "sma50": 166.14,
-   "sma200": 145.26,
-   "high3m": 236.03,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "VRT": {
-   "price": 323.92,
-   "chg": -3.16,
-   "chg5": 1.29,
-   "sma20": 339.15,
-   "sma50": 311.53,
-   "sma200": 248.8,
-   "high3m": 376.23,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CIEN": {
-   "price": 535.63,
-   "chg": -13.66,
-   "chg5": -6.06,
-   "sma20": 572.45,
-   "sma50": 516.02,
-   "sma200": 375.25,
-   "high3m": 627.0,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "COHR": {
-   "price": 421.9,
-   "chg": 1.07,
-   "chg5": 11.92,
-   "sma20": 377.94,
-   "sma50": 331.43,
-   "sma200": 263.46,
-   "high3m": 426.89,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "VST": {
-   "price": 153.7,
-   "chg": -2.7,
-   "chg5": -4.03,
-   "sma20": 150.78,
-   "sma50": 154.41,
-   "sma200": 159.8,
-   "high3m": 170.12,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CEG": {
-   "price": 264.59,
-   "chg": -2.96,
-   "chg5": -8.34,
-   "sma20": 285.1,
-   "sma50": 290.86,
-   "sma200": 307.08,
-   "high3m": 332.07,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NRG": {
-   "price": 133.39,
-   "chg": -0.28,
-   "chg5": -2.99,
-   "sma20": 134.31,
-   "sma50": 147.25,
-   "sma200": 154.2,
-   "high3m": 170.96,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TLN": {
-   "price": 378.08,
-   "chg": -1.93,
-   "chg5": -0.45,
-   "sma20": 368.93,
-   "sma50": 353.0,
-   "sma200": 356.78,
-   "high3m": 409.99,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GEV": {
-   "price": 963.33,
-   "chg": -0.65,
-   "chg5": -6.64,
-   "sma20": 1031.48,
-   "sma50": 1006.34,
-   "sma200": 849.97,
-   "high3m": 1149.53,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "PWR": {
-   "price": 719.17,
-   "chg": 0.49,
-   "chg5": -1.5,
-   "sma20": 735.01,
-   "sma50": 663.23,
-   "sma200": 562.31,
-   "high3m": 785.24,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "FCX": {
-   "price": 69.69,
-   "chg": -1.34,
-   "chg5": 5.8,
-   "sma20": 64.6,
-   "sma50": 63.13,
-   "sma200": 59.98,
-   "high3m": 71.72,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SCCO": {
-   "price": 194.09,
-   "chg": -1.27,
-   "chg5": -0.41,
-   "sma20": 185.79,
-   "sma50": 180.46,
-   "sma200": 176.82,
-   "high3m": 201.37,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CPER": {
-   "price": 39.73,
-   "chg": 0.79,
-   "chg5": 1.72,
-   "sma20": 39.06,
-   "sma50": 37.1,
-   "sma200": 36.08,
-   "high3m": 40.6,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CCJ": {
-   "price": 114.02,
-   "chg": -0.47,
-   "chg5": 3.06,
-   "sma20": 111.57,
-   "sma50": 114.23,
-   "sma200": 111.34,
-   "high3m": 126.47,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "URA": {
-   "price": 50.28,
-   "chg": -0.22,
-   "chg5": -0.93,
-   "sma20": 51.38,
-   "sma50": 52.11,
-   "sma200": 51.36,
-   "high3m": 58.26,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "UEC": {
-   "price": 14.14,
-   "chg": 0.35,
-   "chg5": 4.35,
-   "sma20": 14.1,
-   "sma50": 14.14,
-   "sma200": 14.59,
-   "high3m": 16.47,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MSFT": {
-   "price": 428.05,
-   "chg": 0.17,
-   "chg5": 0.25,
-   "sma20": 422.79,
-   "sma50": 407.44,
-   "sma200": 425.67,
-   "high3m": 460.52,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GOOGL": {
-   "price": 372.19,
-   "chg": 3.68,
-   "chg5": -4.6,
-   "sma20": 386.85,
-   "sma50": 352.95,
-   "sma200": 330.76,
-   "high3m": 402.62,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMZN": {
-   "price": 253.79,
-   "chg": 1.51,
-   "chg5": -7.38,
-   "sma20": 265.38,
-   "sma50": 250.47,
-   "sma200": 234.2,
-   "high3m": 274.99,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "META": {
-   "price": 627.57,
-   "chg": 5.01,
-   "chg5": -1.21,
-   "sma20": 613.17,
-   "sma50": 618.87,
-   "sma200": 638.46,
-   "high3m": 688.55,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ORCL": {
-   "price": 236.34,
-   "chg": 2.61,
-   "chg5": 16.02,
-   "sma20": 203.03,
-   "sma50": 178.16,
-   "sma200": 174.85,
-   "high3m": 248.15,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CRWV": {
-   "price": 108.03,
-   "chg": -9.42,
-   "chg5": 3.61,
-   "sma20": 111.79,
-   "sma50": 105.98,
-   "sma200": 93.8,
-   "high3m": 137.98,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BIZD": {
-   "price": 12.7,
-   "chg": -0.08,
-   "chg5": 1.03,
-   "sma20": 12.65,
-   "sma50": 12.72,
-   "sma200": 13.37,
-   "high3m": 13.36,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ARCC": {
-   "price": 18.9,
-   "chg": 1.18,
-   "chg5": 0.48,
-   "sma20": 18.82,
-   "sma50": 18.65,
-   "sma200": 19.29,
-   "high3m": 19.35,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "OBDC": {
-   "price": 11.3,
-   "chg": 0.8,
-   "chg5": 1.16,
-   "sma20": 11.21,
-   "sma50": 11.25,
-   "sma200": 11.74,
-   "high3m": 11.91,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "HYG": {
-   "price": 79.83,
-   "chg": 0.19,
-   "chg5": -0.5,
-   "sma20": 79.89,
-   "sma50": 79.96,
-   "sma200": 80.32,
-   "high3m": 80.65,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VIX": {
-   "price": 15.67,
-   "chg": 1.75,
-   "chg5": 2.28,
-   "sma20": 16.83,
-   "sma50": 18.88,
-   "sma200": 18.91,
-   "high3m": 31.05,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "DX-Y.NYB": {
-   "price": 99.21,
-   "chg": -0.2,
-   "chg5": 0.3,
-   "sma20": 98.97,
-   "sma50": 98.89,
-   "sma200": 98.56,
-   "high3m": 100.51,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^IRX": {
-   "price": 3.62,
-   "chg": -0.08,
-   "chg5": 0.84,
-   "sma20": 3.59,
-   "sma50": 3.6,
-   "sma200": 3.58,
-   "high3m": 3.62,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "LQD": {
-   "price": 108.85,
-   "chg": 0.21,
-   "chg5": -0.38,
-   "sma20": 108.57,
-   "sma50": 108.91,
-   "sma200": 109.83,
-   "high3m": 110.82,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SPY": {
-   "price": 757.09,
-   "chg": 0.38,
-   "chg5": 0.33,
-   "sma20": 745.99,
-   "sma50": 711.9,
-   "sma200": 694.83,
-   "high3m": 759.57,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "QQQ": {
-   "price": 740.61,
-   "chg": -0.48,
-   "chg5": 0.68,
-   "sma20": 721.5,
-   "sma50": 665.46,
-   "sma200": 633.91,
-   "high3m": 746.16,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^TNX": {
-   "price": 4.48,
-   "chg": -0.31,
-   "chg5": 0.49,
-   "sma20": 4.5,
-   "sma50": 4.4,
-   "sma200": 4.26,
-   "high3m": 4.67,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^KS11": {
-   "price": 8160.59,
-   "chg": -5.54,
-   "chg5": -0.3,
-   "sma20": 7937.98,
-   "sma50": 6777.18,
-   "sma200": 5733.74,
-   "high3m": 8801.49,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^KQ11": {
-   "price": 1002.44,
-   "chg": -2.3,
-   "chg5": -11.53,
-   "sma20": 1129.17,
-   "sma50": 1133.34,
-   "sma200": 1079.34,
-   "high3m": 1226.18,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GLD": {
-   "price": 411.27,
-   "chg": 0.83,
-   "chg5": -0.36,
-   "sma20": 419.04,
-   "sma50": 425.04,
-   "sma200": 432.77,
-   "high3m": 477.86,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BTC-USD": {
-   "price": 62744.4,
-   "chg": -1.66,
-   "chg5": -14.73,
-   "sma20": 73277.59,
-   "sma50": 76415.39,
-   "sma200": 77796.03,
-   "high3m": 82138.93,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "USO": {
-   "price": 136.74,
-   "chg": -2.92,
-   "chg5": 4.56,
-   "sma20": 139.65,
-   "sma50": 134.48,
-   "sma200": 102.94,
-   "high3m": 152.96,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "JPY=X": {
-   "price": 159.93,
-   "chg": -0.01,
-   "chg5": 0.41,
-   "sma20": 158.87,
-   "sma50": 158.86,
-   "sma200": 157.46,
-   "high3m": 160.23,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ES=F": {
-   "price": 7566.75,
-   "chg": -0.45,
-   "chg5": -0.38,
-   "sma20": 7507.65,
-   "sma50": 7188.8,
-   "sma200": 6998.48,
-   "high3m": 7623.75,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NQ=F": {
-   "price": 30186.25,
-   "chg": -0.99,
-   "chg5": -0.72,
-   "sma20": 29808.09,
-   "sma50": 27596.4,
-   "sma200": 26194.02,
-   "high3m": 30712.75,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "YM=F": {
-   "price": 51743.0,
-   "chg": 0.14,
-   "chg5": 1.3,
-   "sma20": 50456.15,
-   "sma50": 49238.2,
-   "sma200": 48888.22,
-   "high3m": 51743.0,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GC=F": {
-   "price": 4487.6,
-   "chg": 0.26,
-   "chg5": -1.6,
-   "sma20": 4553.56,
-   "sma50": 4627.07,
-   "sma200": 4703.89,
-   "high3m": 5229.7,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CL=F": {
-   "price": 92.4,
-   "chg": -0.69,
-   "chg5": 5.77,
-   "sma20": 96.86,
-   "sma50": 97.91,
-   "sma200": 79.73,
-   "high3m": 112.95,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "HG=F": {
-   "price": 6.42,
-   "chg": -1.43,
-   "chg5": 0.92,
-   "sma20": 6.4,
-   "sma50": 6.08,
-   "sma200": 5.86,
-   "high3m": 6.65,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ZN=F": {
-   "price": 109.67,
-   "chg": -0.16,
-   "chg5": -0.37,
-   "sma20": 109.75,
-   "sma50": 110.47,
-   "sma200": 111.56,
-   "high3m": 112.58,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "EWY": {
-   "price": 203.97,
-   "chg": -4.22,
-   "chg5": -1.18,
-   "sma20": 192.72,
-   "sma50": 163.6,
-   "sma200": 136.26,
-   "high3m": 216.7,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   }
  },
  "news": {
@@ -761,6 +395,13 @@
     "trig": false
    },
    {
+    "title": "US Dollar Index Slips Toward 99.30 As Traders Eye Nonfarm Payrolls Data - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1neERnQ3FFalV1MkVrZFNlZ2NmYjRFS0NoNmFmVjJRUjc4UWFIcTcxWENIVWpZRWhtcWpqc29LcmFXM0lQc0NkS3VWb0pVdlpGa2Zxb1hRc0lqYTJBREdHWlo3VkJfby1qX21YaGFrd0FTOUdVVWc?oc=5",
+    "pub": "Fri, 05 Jun 2026 08:55:10 GMT",
+    "src": "Bitcoin World",
+    "trig": false
+   },
+   {
     "title": "Meet the big winners of 2026 oil price volatility — and why their strategies are now shifting focus - CNBC",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOb0ZGSllrazFKM1VhN21zQ0xmVDZ3NWlLYWRiMS11SkNVLVprMzNWZ04xUUtEUFRZMHBPT2UwdHN6WmNGUmNHTTRNVFBIbF9aVjZNRXJ6ZmNscFMxM25DSnY4UVp2LUJxd2VYSVB2cUpHMHhZV3dBTmNoY193VElaaGVYLVV6Tl9IUk40dlRvOHhPM2R0RWdndXJQQjdnQdIBowFBVV95cUxOQkRoVTdZLXFyNGZ4MW9tMm96U1pZNEVWcWhPWkc5cDZkMFFaZkxNZXYycnJwejZIQzIwMUVDNVk2T3h0TlRvME11TnBsTWEyWGtYZUNxZ2hqRnprdl8xM2J3YUo3alVkSDIyeVRwY1lGaGJ1VlFSdERfb0xlaFJybnBOSWE2ZnV3ZmJZUU5QY0FLTmJvN04tMHo1NEtJcVVQY3Zn?oc=5",
     "pub": "Fri, 05 Jun 2026 07:45:07 GMT",
@@ -780,13 +421,6 @@
     "pub": "Fri, 05 Jun 2026 05:37:27 GMT",
     "src": "Mshale",
     "trig": false
-   },
-   {
-    "title": "US Dollar Index Holds Near 99.40 As Markets Await Key Nonfarm Payrolls Report - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQVNLdnR4bnNFRnVHdjNlUnF6VmdzdTFtUU4zYWtVdEVxSTJ6VVEtMk5jWk94UzRnbGJGUEhKeG5JN1doWUoxRlE4bGNacER5dTE5bTFESUpZRllZd0xVczl1b0lJbkF6Zzd6NVItdkRaV28yaG56STYtX2cybXVOSnpPUQ?oc=5",
-    "pub": "Fri, 05 Jun 2026 05:00:12 GMT",
-    "src": "Bitcoin World",
-    "trig": false
    }
   ]
  },
@@ -796,7 +430,7 @@
    "form": "8-K",
    "date": "2026-06-03",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
-   "summary": "FS KKR Capital Corp이 2026년 6월 1일 현재 보고 의무를 이행하는 8-K를 제출했습니다.",
+   "summary": "FS KKR Capital Corp이 2026년 6월 1일 현재 보고 의무를 이행하기 위해 8-K를 제출했습니다.",
    "new": true
   },
   {
@@ -804,7 +438,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "Golub Capital BDC가 2026년 5월 27일 공개 공모와 관련하여 U.S. Bank Trust Company와 신탁 계약을 체결했습니다.",
+   "summary": "Golub Capital BDC가 2026년 5월 27일 공개 공모와 관련하여 U.S. Bank Trust Company와 신탁 계약을 체결했다.",
    "new": false
   },
   {
@@ -812,7 +446,7 @@
    "form": "8-K",
    "date": "2026-05-26",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
-   "summary": "아레스 캐피탈이 JPMorgan Chase Bank를 주관사로 하는 선순위담보 신용설비를 개정 및 재작성하여 총 약정액을 증액했다.",
+   "summary": "Ares Capital Corporation이 JPMorgan Chase Bank를 주관사로 하여 선순위 담보 신용시설을 개정·재작성했다.",
    "new": false
   },
   {
@@ -820,7 +454,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "블루오울 캐피탈이 2031년 만기 4억 달러 규모의 6.3% 채권에 대한 보충약정서를 체결했다.",
+   "summary": "블루 오울 캐피탈이 4억 달러 규모 2031년 만기 채권의 보충 약정서를 체결했다.",
    "new": false
   },
   {
@@ -828,7 +462,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund가 2031년 만기 5.9% 채권 6억 5천만 달러에 대한 보충 약정서에 서명했다.",
+   "summary": "Blackstone Secured Lending Fund가 2031년 만기 6억5천만 달러 규모 5.9% 채권과 관련한 보충 약정서를 체결했다.",
    "new": false
   }
  ],
@@ -867,7 +501,7 @@
   "sofr_iorb": -4.0
  },
  "summary": {
-  "text": "AI 인프라 투자는 계속 확대되는 가운데 사모펀드 유동성 압박과 신용 손실 우려가 동시에 심화되고 있는 상황이다.",
+  "text": "AI 인프라 투자는 지속되고 있으나 민간신용시장의 유동성 악화와 상환 제한 강화로 신용 스트레스가 심화되는 가운데 빅테크의 AI capex는 계속 확대 추진 중이다.",
   "by": "claude"
  }
 }

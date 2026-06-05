@@ -42,7 +42,10 @@
   .verdict{font-size:11px;margin-top:6px;padding-top:6px;border-top:1px solid #161d29;color:#aab2c2;}.verdict b{color:#f4f6fb;}
   .news{list-style:none;}.news li{padding:6px 0;border-top:1px solid #161d29;font-size:11px;line-height:1.35;}.news li:first-child{border-top:none;}
   .news a{color:#cdd6e6;text-decoration:none;}.news .meta{font-family:'Space Mono',monospace;font-size:8.5px;color:#6b7689;margin-top:1px;}
-  .news li.trig{padding-left:8px;border-left:2px solid #ff6b6b;}.news li.trig a{color:#ff9a8a;}
+  .news li.trig{padding-left:8px;border-left:2px solid #ff6b6b;}.news li.trig a{color:#ff9a8a;font-weight:700;}
+  .news li.minor a{color:#8b94a6;font-size:10px;}.news li.minor .meta{font-size:8px;}
+  .news li.sep{margin-top:4px;padding-top:8px;border-top:1px dashed #2a3344;}
+  .news li.nonote{font-size:9px;color:#5f6878;font-family:'Space Mono',monospace;padding:4px 0;border:none;}
   .news .sum{font-size:10px;color:#9fb0c4;margin-top:2px;line-height:1.35;}
   .new{font-family:'Space Mono',monospace;font-size:8px;background:#10241a;color:#37d6a0;border:1px solid #1f4a36;border-radius:3px;padding:0 4px;margin-left:5px;}
   .risk{font-size:9.5px;color:#8b94a6;line-height:1.4;margin-top:6px;padding-top:6px;border-top:1px solid #161d29;}.risk b{color:#ffb454;}
@@ -184,8 +187,13 @@ function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
-  items.forEach(it=>{const li=document.createElement('li');if(it.trig)li.className='trig';
-    li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});}
+  const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
+  const ordered=trig.concat(rest);
+  ordered.forEach((it,idx)=>{const li=document.createElement('li');
+    if(it.trig)li.className='trig'; else li.classList.add('minor');
+    if(idx===trig.length&&trig.length>0&&rest.length>0)li.classList.add('sep');
+    li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});
+  if(trig.length===0){const note=document.createElement('li');note.className='nonote';note.textContent='트리거 뉴스 없음 — 아래는 일반 뉴스';el.insertBefore(note,el.firstChild);}}
 function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
   items.forEach(it=>{const li=document.createElement('li');
     if(it.form==='ERR')li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;

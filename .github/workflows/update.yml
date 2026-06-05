@@ -23,4 +23,6 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data.json
           git commit -m "auto: update data.json" || echo "no changes"
+          git pull --rebase origin main
           git push
+          

@@ -51,7 +51,7 @@ PRICE_SYMBOLS = [
     # 자금흐름
     "GLD","BTC-USD","USO","JPY=X",
     # 선물 (24시간 — 장외/주말 시장 방향)
-    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F",
+    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
 ]
 def fetch_quote(sym):
     url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"

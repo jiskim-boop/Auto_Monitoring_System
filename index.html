@@ -127,8 +127,9 @@
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
         <div class="desc">SPY·QQQ · 200일선 이탈=추세 붕괴</div><div class="mem" id="mem-broad"></div></div>
-      <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-n" id="st-kr">—</span></div>
-        <div class="desc">코스피·코스닥 · 한국시간 09~15:30</div><div class="mem" id="mem-kr"></div></div>
+      <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-b">수치</span></div>
+        <div class="desc">코스피·코스닥 · 한국시간 09~15:30 (참고용)</div>
+        <div id="kr-rows"><div class="empty">로딩…</div></div></div>
       <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">Fed·침체·변동성·스프레드</div>
         <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
@@ -227,13 +228,22 @@ function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
 
-// 선물·야간 세션: 지수·채권 선물 24시간 방향
+// 한국 지수: 위험판정 없이 수치만
+function krIndex(p){
+  const rows=$('kr-rows');rows.innerHTML='';let n=0;
+  [['^KS11','코스피'],['^KQ11','코스닥']].forEach(([sym,lbl])=>{
+    const q=p[sym];if(!q||!q.ok)return;
+    const r=document.createElement('div');r.className='prow';n++;const up=q.chg>=0;
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${q.price.toLocaleString()}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span><span></span>`;
+    rows.appendChild(r);});
+  if(!n)rows.innerHTML='<div class="empty">데이터 없음(장 시간 외 가능)</div>';}
+
+// 선물·야간 세션: 지수·채권 선물 + 한국 야간(EWY)
 function futSession(p){
   const rows=$('fut-rows');rows.innerHTML='';let n=0;
-  [['ES=F','S&P'],['NQ=F','나스닥'],['YM=F','다우'],['ZN=F','10Y국채'],['GC=F','금'],['CL=F','WTI'],['HG=F','구리']].forEach(([sym,lbl])=>{
+  [['ES=F','S&P'],['NQ=F','나스닥'],['YM=F','다우'],['ZN=F','10Y국채'],['GC=F','금'],['CL=F','WTI'],['HG=F','구리'],['EWY','한국(EWY)']].forEach(([sym,lbl])=>{
     const q=p[sym];if(!q||!q.ok)return;
-    const r=document.createElement('div');r.className='prow';n++;
-    const up=q.chg>=0;
+    const r=document.createElement('div');r.className='prow';n++;const up=q.chg>=0;
     r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${q.price.toLocaleString()}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span><span></span>`;
     rows.appendChild(r);});
   if(!n)rows.innerHTML='<div class="empty">선물 데이터 없음</div>';}
@@ -340,7 +350,7 @@ async function load(){
     const p=d.prices||{};
     // 거시
     const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
-    basket(p,['^KS11','^KQ11'],'mem-kr','st-kr');
+    krIndex(p);
     // AI 밸류체인
     const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
           sMem=basket(p,['MU','SNDK','STX','WDC','005930.KS','000660.KS'],'mem-mem','st-mem'),

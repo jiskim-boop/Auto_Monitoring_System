@@ -277,11 +277,22 @@ function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.l
     li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});
   if(tcount===0){const note=document.createElement('li');note.className='nonote';note.textContent='트리거 뉴스 없음';el.insertBefore(note,el.firstChild);}}
 function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
-  const sorted=items.slice().sort((a,b)=>(b.date||'').localeCompare(a.date||'')).slice(0,5);
-  sorted.forEach(it=>{const li=document.createElement('li');
-    if(it.form==='ERR')li.innerHTML=`<span class="empty">${it.name}: 수집 실패</span>`;
-    else li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}${it.new?'<span class="new">NEW</span>':''}</a><div class="meta">${it.date}</div>`+(it.summary?`<div class="sum">${it.summary}</div>`:'');
-    el.appendChild(li);});}
+  // 위험 키워드(배당삭감·디폴트·상각·채무가속 등)가 요약에 있으면 트리거
+  const RX=/(삭감|디폴트|상각|중단|연체|미상환|부도|손실|마크다운|가속|채무불이행|default|cut|markdown|non-accrual)/i;
+  const isHot=it=>it.form!=='ERR'&&(it.new||(it.summary&&RX.test(it.summary)));
+  const valid=items.filter(it=>it.form!=='ERR');
+  const hot=valid.filter(isHot).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const rest=valid.filter(it=>!isHot(it)).sort((a,b)=>(b.date||'').localeCompare(a.date||''));
+  const ordered=hot.concat(rest).slice(0,5);
+  ordered.forEach((it,idx)=>{const li=document.createElement('li');const hotItem=isHot(it);
+    if(!hotItem)li.classList.add('minor');
+    if(idx===hot.length&&hot.length>0&&idx<ordered.length)li.classList.add('sep');
+    if(hotItem)
+      li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}${it.new?'<span class="new">NEW</span>':''}</a><div class="meta">${it.date}</div>`+(it.summary?`<div class="sum">${it.summary}</div>`:'');
+    else
+      li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.name} — ${it.form}</a><div class="meta">${it.date}</div>`;
+    el.appendChild(li);});
+  if(hot.length===0){const note=document.createElement('li');note.className='nonote';note.textContent='신규·특이 공시 없음';el.insertBefore(note,el.firstChild);}}
 
 function setVerd(elId,states,kind,extra){
   const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;

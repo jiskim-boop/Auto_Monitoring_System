@@ -353,7 +353,7 @@ function earlyWarning(p,fred){
   // 시장/선물 급락 (선물은 장외에도 작동)
   const spy=p['SPY'],qqq=p['QQQ'],es=p['ES=F'],nq=p['NQ=F'];
   const cashDrop=(spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2);
-  const futDrop=(es&&es.chg!=null&&es.chg<=-1.5)||(nq&&nq.chg!=null&&nq.chg<=-1.5);
+  const futDrop=(es&&es.chg!=null&&es.chg<=-2)||(nq&&nq.chg!=null&&nq.chg<=-2);
   if(cashDrop||futDrop) add(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락',1);
   // HY 스프레드 급등 (FRED, 신용경색 원본) — 7%+ 강함
   if(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=7) add('HY스프레드 급등',1);

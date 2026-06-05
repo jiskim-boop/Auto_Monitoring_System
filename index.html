@@ -134,6 +134,10 @@
       <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-b">수치</span></div>
         <div class="desc">코스피·코스닥 · 한국시간 09~15:30 (참고용)</div>
         <div id="kr-rows"><div class="empty">로딩…</div></div></div>
+      <div class="card macro" style="border-left-color:#c77dff;"><div class="top"><span class="nm">구조적 버블 압력</span><span class="stt s-n" id="st-bubble">—</span></div>
+        <div class="desc">취약성 게이지 · 타이밍 아님(터지면 깊이) · 분기/월간</div>
+        <div id="bubble-rows"><div class="empty">로딩…</div></div>
+        <div class="risk"><b>주의:</b> 이 지표들은 <b>언제</b> 터질지 못 맞춤 — 높을수록 하락 시 충격이 클 뿐. 조기경보(타이밍)와 별개로 해석</div></div>
       <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">Fed·침체·변동성·스프레드</div>
         <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
@@ -255,6 +259,32 @@ function spreadAxis(p){const hy=pStatus(p['HYG']),ig=pStatus(p['LQD']);if(!hy||!
 function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
+
+// 구조적 버블 압력: 취약성 게이지 (타이밍 아님)
+function bubblePanel(f){
+  const rows=$('bubble-rows');rows.innerHTML='';let n=0,hot=0;
+  function row(lbl,valStr,level,note){
+    const r=document.createElement('div');r.className='prow';
+    const cmap={g:'s-g',a:'s-a',r:'s-r'};
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span class="lv" style="font-size:10px;color:#8a93a6">${note||''}</span><span class="ps ${cmap[level]}">${{g:'보통',a:'높음',r:'극단'}[level]}</span>`;
+    rows.appendChild(r);n++;if(level==='r')hot++;}
+  if(!f||!f.ok){rows.innerHTML='<div class="empty">FRED 키 설정 시 표시</div>';badge($('st-bubble'),'n','—');return;}
+  // 실러 CAPE: 35+ 높음, 40+ 극단 (역사적)
+  if(f.cape!=null){const v=f.cape;const lv=v>=40?'r':v>=30?'a':'g';
+    row('실러 CAPE',v.toFixed(1)+(f.cape_manual?'*':''),lv,v>=40?'1999수준':'');}
+  // 가계 부채상환비율 (DSR/TDSP): 평년 ~10%, 13%+ 높음
+  if(f.dsr&&f.dsr.value!=null){const v=f.dsr.value;const lv=v>=13?'r':v>=11?'a':'g';
+    row('가계 부채상환',v.toFixed(1)+'%',lv,'');}
+  // 가계부채/GDP: 70%+ 높음, 90%+ 극단
+  if(f.hhdebt&&f.hhdebt.value!=null){const v=f.hhdebt.value;const lv=v>=90?'r':v>=70?'a':'g';
+    row('가계부채/GDP',v.toFixed(0)+'%',lv,'');}
+  // 연방기금금리: 추세 표시 (긴축=압력). 5%+ 높음
+  if(f.ffr&&f.ffr.value!=null){const v=f.ffr.value;const lv=v>=5?'a':'g';
+    row('기준금리',v.toFixed(2)+'%',lv,'긴축=압력');}
+  if(!n){rows.innerHTML='<div class="empty">데이터 없음</div>';badge($('st-bubble'),'n','—');return;}
+  const st=hot>=2?'r':hot>=1?'a':'g';
+  badge($('st-bubble'),st,hot>=2?'고압':hot>=1?'경계':'보통');
+  if(f.cape_manual){const note=document.createElement('div');note.className='empty';note.style.fontSize='10px';note.textContent='* CAPE 수동값 (자동수집 차단 시)';rows.appendChild(note);}}
 
 // 한국 지수: 위험판정 없이 수치만
 function krIndex(p){
@@ -404,6 +434,7 @@ async function load(){
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
     fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
+    bubblePanel(d.fred);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
     futSession(p);

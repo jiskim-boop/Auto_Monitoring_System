@@ -11,6 +11,8 @@ UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
+# 실러 CAPE 수동값 (자동 스크래이핑 실패 시 사용 — 월 1회 multpl.com 확인 후 갱신)
+CAPE_MANUAL = 42.7  # 2026-06 기준
 
 def get(url, headers=UA, timeout=25):
     req = urllib.request.Request(url, headers=headers)
@@ -202,6 +204,10 @@ FRED_SERIES = {
     "hyoas":     "BAMLH0A0HYM2",  # HY 옵션조정스프레드 (%)
     "sofr":      "SOFR",          # 레포 금리
     "iorb":      "IORB",          # 지준부리금리
+    # 구조적 버블 압력 (분기/월간, 느림)
+    "dsr":       "TDSP",          # 가계 부채상환비율 (%)
+    "hhdebt":    "HDTGPDUSQ163N", # 가계부채/GDP (%)
+    "ffr":       "DFF",           # 연방기금금리 (%)
 }
 def fred_latest(series_id):
     if not FRED_KEY: return None
@@ -221,6 +227,19 @@ def fred_latest(series_id):
     except Exception:
         return None
 
+def fetch_cape():
+    # 실러 CAPE — multpl.com 스크래이핑 시도 (403 차단 잦음 → 실패 시 수동값 사용)
+    for url in ["https://www.multpl.com/shiller-pe/table/by-month",
+                "https://www.multpl.com/shiller-pe"]:
+        try:
+            raw=get(url, headers={"User-Agent":"Mozilla/5.0 (research)"})
+            if not raw: continue
+            m=re.search(r'Current Shiller PE Ratio[^0-9]*([0-9]+\.[0-9]+)', raw)
+            if m: return round(float(m.group(1)),2)
+        except Exception:
+            continue
+    return None
+
 def fetch_fred():
     if not FRED_KEY:
         return {"ok":False,"note":"FRED_API_KEY 미설정"}
@@ -233,6 +252,10 @@ def fetch_fred():
             out["sofr_iorb"]=round((out["sofr"]["value"]-out["iorb"]["value"])*100,1)  # bp
     except Exception:
         out["sofr_iorb"]=None
+    # 실러 CAPE (스크래이핑 시도 → 실패 시 수동값)
+    _cape=fetch_cape()
+    out["cape"]=_cape if _cape is not None else CAPE_MANUAL
+    out["cape_manual"]=(_cape is None)
     return out
 
 def main():

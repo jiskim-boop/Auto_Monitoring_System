@@ -13,8 +13,8 @@
   .alert.on{display:block;}
   .alert .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;color:#ff9a8a;text-transform:uppercase;margin-bottom:3px;}
   .alert .txt{font-size:12.5px;font-weight:700;color:#ffd0c8;line-height:1.4;}
-  .verds{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;}
-  @media(max-width:680px){.verds{grid-template-columns:1fr;}}
+  .verds{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:8px;}
+  @media(max-width:980px){.verds{grid-template-columns:1fr;}}
   .vbox{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #4d5566;border-radius:10px;padding:10px 14px;}
   .vbox .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#7b8499;margin-bottom:3px;}
   .vbox .txt{font-size:12px;font-weight:700;color:#e6eaf2;line-height:1.4;}
@@ -65,8 +65,9 @@
   <div class="alert" id="alert"><div class="lbl">⚠ 신용 트리거 감지</div><div class="txt" id="alert-txt"></div></div>
 
   <div class="verds">
-    <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험</div><div class="txt" id="ov-sys">—</div></div>
-    <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험</div><div class="txt" id="ov-ai">—</div></div>
+    <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험 (타이밍)</div><div class="txt" id="ov-sys">—</div></div>
+    <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험 (섹터)</div><div class="txt" id="ov-ai">—</div></div>
+    <div class="vbox" id="vb-bubble"><div class="lbl">구조적 취약성 (배경)</div><div class="txt" id="ov-bubble">—</div></div>
   </div>
   <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
   <div class="guide"><div class="lbl">판단법</div>
@@ -268,7 +269,7 @@ function bubblePanel(f){
     const cmap={g:'s-g',a:'s-a',r:'s-r'};
     r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span class="lv" style="font-size:10px;color:#8a93a6">${note||''}</span><span class="ps ${cmap[level]}">${{g:'보통',a:'높음',r:'극단'}[level]}</span>`;
     rows.appendChild(r);n++;if(level==='r')hot++;}
-  if(!f||!f.ok){rows.innerHTML='<div class="empty">FRED 키 설정 시 표시</div>';badge($('st-bubble'),'n','—');return;}
+  if(!f||!f.ok){rows.innerHTML='<div class="empty">FRED 키 설정 시 표시</div>';badge($('st-bubble'),'n','—');const vb=$('ov-bubble');if(vb)vb.textContent='데이터 대기';return;}
   // 실러 CAPE: 35+ 높음, 40+ 극단 (역사적)
   if(f.cape!=null){const v=f.cape;const lv=v>=40?'r':v>=30?'a':'g';
     row('실러 CAPE',v.toFixed(1)+(f.cape_manual?'*':''),lv,v>=40?'1999수준':'');}
@@ -284,7 +285,16 @@ function bubblePanel(f){
   if(!n){rows.innerHTML='<div class="empty">데이터 없음</div>';badge($('st-bubble'),'n','—');return;}
   const st=hot>=2?'r':hot>=1?'a':'g';
   badge($('st-bubble'),st,hot>=2?'고압':hot>=1?'경계':'보통');
-  if(f.cape_manual){const note=document.createElement('div');note.className='empty';note.style.fontSize='10px';note.textContent='* CAPE 수동값 (자동수집 차단 시)';rows.appendChild(note);}}
+  if(f.cape_manual){const note=document.createElement('div');note.className='empty';note.style.fontSize='10px';note.textContent='* CAPE 수동값 (자동수집 차단 시)';rows.appendChild(note);}
+  // 상단 판정 박스
+  const capeStr = f.cape!=null ? `CAPE ${f.cape.toFixed(0)}` : '';
+  const lab = hot>=2 ? '고압' : hot>=1 ? '경계' : '보통';
+  const vb=$('ov-bubble'), box=vb? vb.closest('.vbox'):null;
+  if(vb){
+    vb.innerHTML = `${lab}${capeStr?' · '+capeStr:''}${hot>=1?' — 하락 시 충격 큼':''}`;
+    if(box){const c=st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';box.style.borderLeftColor=c;}
+  }
+  return st;}
 
 // 한국 지수: 위험판정 없이 수치만
 function krIndex(p){

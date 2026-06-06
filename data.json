@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-06T17:35:08+00:00",
+ "updated": "2026-06-06T17:41:43+00:00",
  "prices": {
   "NVDA": {
    "price": 205.1,
@@ -572,12 +572,12 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60747.95,
-   "chg": -0.29,
-   "chg5": -14.82,
-   "sma20": 72352.44,
-   "sma50": 76051.38,
-   "sma200": 77629.57,
+   "price": 60590.05,
+   "chg": -0.55,
+   "chg5": -15.04,
+   "sma20": 72344.54,
+   "sma50": 76048.22,
+   "sma200": 77628.71,
    "high3m": 82138.93,
    "ok": true
   },
@@ -685,37 +685,177 @@
  "news": {
   "credit": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "Partners Group’s Redemption Cap Shock Forces a 16% Selloff — Can the Private-Equity Giant Rebuil - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTDVFNmhveUtSYk5IYmFQRUJvQ1UwN1c2WERZekJ1S0FiVG9jZUZyZm9jNFB0RUlNMHhzbk9aZVY4NzVtVHVoMWxtTy00T1ptRlhhQzJsNTQ4V1NhOWs3N3hoTW9JdWs0azRqZ3R5MWRZNy1hV0wyYndxUnZtMWRjWTA0SC1DOTJlbXdkUUhKRlJEY21jNzkyb2NBQzNKOFRhMjFhdHNGMVZzWnZQcW9QcW1JYy1wRnZLSmkwMVJVNXFCUQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 15:13:07 GMT",
+    "src": "AD HOC NEWS",
+    "trig": true
+   },
+   {
+    "title": "Model Portfolio For Income, June 2026 - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWWRRdHVpbjAwQXA3M2d5ZVAtRnRYcHBqSlhPZjk4V0lCTDBGMERQTy1URWlEOFlmZ1VRTDRoSzBYOHAxT3NWVG5wcVZMYkJpdHlyc0dYVkRvU1ZlZjU5TXJzSFlaNHZUU1RncmlfclNwTGRUTlIwX1lJWGxDUW5KWDlYUQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 09:06:31 GMT",
+    "src": "Seeking Alpha",
+    "trig": false
+   },
+   {
+    "title": "Nvidia, China, and the New AI Infrastructure Contest - HackerNoon",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5SRnhKS3ZaTWpKWmZHaGx0LUtfYVItVzNwNDZQZTVMVUp6NEdJcTRIaEtXQ2RfdnFCU3pMMFlvYlVCYUFXYzQ3S1NNOTZFTWgyYjI2WGVKNlNUUnRVOUxScGNhS2lyWVFId2hXSDlCLS11SVpvZ3BCX081R3phZw?oc=5",
+    "pub": "Sat, 06 Jun 2026 00:05:03 GMT",
+    "src": "HackerNoon",
+    "trig": false
+   },
+   {
+    "title": "Anthropic calls for pause of global AI development - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOT0NnT0ZfVVJiWWI5cE9TWHA1NU9vNmxvN3dJTVZ5dnlpRzhUelQtbkNNcGVNOW1remlpelBBX09Jd0dBZ1k5WDRsRHNubmJsR0hmYTNHVzZJMFRmd2VNci1QOEl0SlV0T2Z4Y2NmVjlMeHByZ1dqOFNkRmJEM0hiaW5PWFVocGRqUFQ2bk1BcVRua3lGVDRWdU5wZmtEWkF2QlBncmpGbw?oc=5",
+    "pub": "Fri, 05 Jun 2026 23:39:48 GMT",
+    "src": "ABS-CBN",
+    "trig": false
+   },
+   {
+    "title": "IN PHOTOS: 2026 Philippine International Motor Show showcases e-vehicles - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPblhleXhrRkVQUnU1X01qbkxYY3hEbG55QjlTWXoxWjQ0bTVkbTlzTjZuYVBlbkYtTFZtNnVhWVNvV3NuM0lsb1VScnBoTWFWcXRZdlM2NW4wQ2FZVVUxRHlMYmVkTDRvbWdPZTJncE5BOG5BdVh0Mk1zbTRWVHh3RHpDb1JTcDBGQ1RCUC1qR3l3bFZGbndDUHlhSXY3LVYxV2VnOTFINndFU2JUX1FKaFNESW82bjlobEc3S3RSeGt1ZW9sQ0Q3eGUtM2hjVmwwODBfQ29jUGtOZS1FeDJj?oc=5",
+    "pub": "Fri, 05 Jun 2026 23:09:42 GMT",
+    "src": "ABS-CBN",
+    "trig": false
+   },
+   {
+    "title": "CoreWeave Files Automatic Shelf Registration for Multi-Security Offerings - TheEnergyMag",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUUFBT0NnT0pDbWRXQjlXRG9USVpMTWNPOV8tTXd1b0lac0g1OENYN3R6UExQM1NObFkyTk1MazJVMXFJT29BSTlxSFoxTjRuc3RoYXhDN2NNR1hJNFVZWUZpY2N2aWE4blAzMjFrUTRFODRqUmM1dmZrdk5VWVpxQ2V4c1oxdHJMSFZwRzVZMEJiWlpSbGZrN3hBUFEtQkpiSHFRaEVxcDRTSVl0ekRQYnVyV3lSaTVpZExn?oc=5",
+    "pub": "Fri, 05 Jun 2026 21:22:33 GMT",
+    "src": "TheEnergyMag",
     "trig": false
    }
   ],
   "fundamental": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "Forget Intel: Buy This Ultra-Efficient, Cash-Generative Semiconductor Juggernaut Instead - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPd18wc2tYQ3ZiTzRUNDNzaXE0TFc5WVN1Zml6NWo1anA0SHlIVnJ5M2Z3dE1GWjV1bzVkOUtRZzBVLTNualR6d1lvaDdPWnJ6TDhkdHRLVU5TdjJxSy1tVi0yMW9Zc3c2OWEwNUhrRnhaZ2l5dGxHemppeFlRMFRyOUJn?oc=5",
+    "pub": "Sat, 06 Jun 2026 14:48:00 GMT",
+    "src": "AOL.com",
+    "trig": false
+   },
+   {
+    "title": "AI Rally Supports Buying Opportunity After Pullback - Let's Data Science",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVTRSdy0tWU84MnFuM1hXNXpnZWM3WFZpVFVMY0p2dE11dVdzVjUxY3lDNGZZcW1UUDlEYy1VdndMM2RiUkJoOUZnVlptaG1TRUgyVkN1V21NdVZSSDBsdDhNQ2N3WDlwNGRZUGtidGpXVE1xRHJCay1ZdWtSWEJ6UXNFVTFiSG9GM0J2Mk1seHlsOU9FSXlrOQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 12:35:39 GMT",
+    "src": "Let's Data Science",
+    "trig": false
+   },
+   {
+    "title": "Meta shares fall 6%, considers share sale to fund AI - Lapaas Voice",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOd2trdEZqNXdUNDVROTJKM0NvNkN3Z1gyTkpGUm5EOVkycDdPXzBNWTYtZ1ZyWDh6ZmVvd1RBRTJZUFlKT3hIclBZSkdqQ0l4d3lXeGdUVGhpX0VSMHVPdzdxT3F1NFF2VjZ1WUVDZXdRN1JDdmFvSVpSbFJjcTFmUTR3?oc=5",
+    "pub": "Sat, 06 Jun 2026 06:11:35 GMT",
+    "src": "Lapaas Voice",
+    "trig": false
+   },
+   {
+    "title": "Oracle (ORCL) Set to Raise Capital Expenditure Guidance Amid AI Investment Surge - GuruFocus",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOeHYtYkJmUk5MWUV4VTdGbXY3cE1iX1RzM2I3cjdJV2dYMGtSZDJxcDZHS2RQbXZiSFI0YzhlR3FwTHBiYTA4TE85anYzQWYxYlVOdjhIenBLSGU3NWYxVk9PUkQ1eHQwWTlKVW4zd1ljMG9DQllpZVNFcXhycGlqREFWOGhvZXZrVjFnUWdwR0hOTDYxNHRsYjV2a2xieUw4THdWZUxVbVFCNENHcnRNV0RxUUppcHhDcTRYekF2OFV1cnR5MTFSaA?oc=5",
+    "pub": "Sat, 06 Jun 2026 01:09:37 GMT",
+    "src": "GuruFocus",
+    "trig": false
+   },
+   {
+    "title": "Amazon's AI spending is becoming a harder sell inside the company - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXFkZXhva0xsb1djaTR2d2lnZHpOMkwtTlBRM0R0VDhZRDFiRnoxbk5wa0ZsM05sVWI5ekY3WmppOVVtM2FUbVZfWU9Wc1RrTjNKak16eVpKQlVKZl82UXBDSUwwVlozRkd3TTVXRmFkNWcxNnh1MlZCY3NZY1RhUlJxUjBHMGVIR1FybjFYY3pXYjhSWnVN?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:57:55 GMT",
+    "src": "Startup Fortune",
+    "trig": false
+   },
+   {
+    "title": "This is Where Micron Stock Will Trade in 5 Years - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51QXBlaDhPb0hiX1U4NmtDZkhaUVM0c2dmenYtSDBhNl9XZl9Uems2bldCNkVUOTItalgwTk1iS0oyV3lMa3h1XzM5akNpWTZDWUpPYjlTMmVJZjNKNi01aUxlempoWDE5TFpsUjZ6eXhwZEVkaFpJc0RR?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:23:31 GMT",
+    "src": "AOL.com",
     "trig": false
    }
   ],
   "macro": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "New Fed Chair Kevin Warsh Faces Trump Demand That Could Impact Social Security - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVVI3S0FMZEFhcEo1U3FLVV9qcHdsWWNvakI2QzlpamlSVng2SlphNnZnRjZESldJT0loTFlEejkxX09nd2ZzMlYxZlFMY1lCS3FvVnB3d3N2SUU3b3dhNjFQRGRLU18tOWo3R0xqdjJTMTlhSUNwOHJPS2taczlSd2JfRHhBNVdqVlZFWC1zNUd6c002MU5uMl9GOGRDTXh2djFqMVFEY3F4WWFIV0kxeG1tN09ZOGhud1Q1MU1tYW5HblFxem9DXw?oc=5",
+    "pub": "Sat, 06 Jun 2026 13:20:55 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "Wall Street volatility jumps as chip-stock rally reverses - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOFRFM3U4RkI0V1F1X1VPaHdhTTA0eHFfY3A2TldBU3kwcEpEWXlYLUxaX2htSkVZc1BhcTVFV1RRbFlxLWhVQ0hSeHZJRkZUMlJVdjA4Q19aamxsQndPZ01EVGN5WlZ0RTNvVTFZc19Qem5ETkRPTzRwejRUWEVXZFJtcE80cXFrbV9yb0dHbTR5N3llenFjclJR?oc=5",
+    "pub": "Sat, 06 Jun 2026 13:13:12 GMT",
+    "src": "Traders Union",
+    "trig": false
+   },
+   {
+    "title": "Wall Street's 'fear gauge' punches back as the 'crash up' in chip stocks finally reverses - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQenFydEpMYUgwS3hiZTBTWjZuZ3dhS2YzNVAwa1RlM0lEbDFWYktubzBzN1BuM0lzZ0dhdXhIWUVZNE44cjNlVS05VHpFRVQxekI3WE84Z21kcG9jRDNvczl0bkFMNVFiQ2M3Tks1bXZhenNCM3JkaGo4R21sbHE5ZUF6c01oSzhQcmJWcGpJOEw1bkVFNW1oYmEyR0NjQUZwYTVaNlVqNXJHYWNvbXB2NUw2QTI2SWZpMnBkZFd30gHDAUFVX3lxTE42VTBsRDUyMnBoQWhkMWJRcERlQzFzeWY0aWhYUW1rVTQ2WmhVdjJ0WDlEWWtZSElfcU1iUTBOR1diVHhKRGlDd1B2MmVrWmtDREZWLUJvQ084anEtTUE5c0FqanJ0S1NUcFVPbDFLanlER2tDVU5Xel9iT01MQlVFTTZiUHNkRS1vbGZuaGQwNWVuX2xIYmpKcGhMYnRuMElQcWJCRS1lUzlaSnVjQUlYcGE5dWYzTUl5REF3N2hkR21uNA?oc=5",
+    "pub": "Sat, 06 Jun 2026 12:58:29 GMT",
+    "src": "CNBC",
+    "trig": false
+   },
+   {
+    "title": "Polymarket Bets on Fed's June 2026 Rate Decision - StartupHub.ai",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaEIta2lVR1czdVFjalExTkpYYzVCWWFXUE5kYW5FTlRWclV5cUQ4Ty1XT05ENlNwUVloQ1pHWDN4MmlxUmZLblpCVDdGOFRRYmYybkRjLVl5dkhGWm1KWHI2SHdxQTB6Y2dhNmVBTWF2ajBEQ1pvZ2RnckhrTHJLNnlrVmpRTTFZci1odnZYbVlKWldtVGlpYU5vUUk1eXZGTEl5ckdiUGV3dw?oc=5",
+    "pub": "Sat, 06 Jun 2026 12:01:59 GMT",
+    "src": "StartupHub.ai",
+    "trig": false
+   },
+   {
+    "title": "Trump: Would like to see lower interest rates - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMTFhc0xHSUU1SndTQXp4Q01la2JnLUxQd21jSjN2aXZBakRXZkJ0SUhzRFFzY05WMC0tNzl6YXg0TzdTWWM0ZElveENQeUdhdnlVVGNEeTdlc016MURZVEJSRmFYMG5Ld0M4WTAxZGZ1RHowX1JmbzNBRm53dURlT3g5MkFTMlNhNTBWN0R3?oc=5",
+    "pub": "Sat, 06 Jun 2026 09:14:47 GMT",
+    "src": "investingLive",
+    "trig": false
+   },
+   {
+    "title": "Wall Street Records and Fed Leadership Change: Kevin Warsh Succeeds Jerome Powell - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd2V5clJfZVAxWmwzUTZDdGtnb1JIdGZZR3NNSXVVMHlGM1dJQnNJWUUxc1h3VXpsNzFFejNibnVoM055YXBtb3RaT3lXeFQwWURQVkRObkxpU3RFM1BaU2lKNkl2QU5pU3VhSnp5VGVHcUprWC1zZzk5RG4wWGtVUHNoVHlaSmIzMDcyeXpLRjMyMHh6ZHpqSFVqRS1ZdDg?oc=5",
+    "pub": "Sat, 06 Jun 2026 08:51:00 GMT",
+    "src": "IndexBox",
     "trig": false
    }
   ],
   "flow": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "Michael A. Gayed: Military strikes drive oil super spike in yen - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdXJrV0ZackNGQzZId05mTWpsRnFmVXh3bGd3NkJpSFNwd3RGZVZNQUxyUEd0QlZzNEE1N0pURzFjTVJFeWZLT0hRcm1kcG5CYk12MXZNT2NGVEExc0xxeUFXaVlGRUN3cDdzZmhWTEJONHRzNG9kR3Znai12cHVMWl9fTQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 12:00:46 GMT",
+    "src": "Traders Union",
+    "trig": false
+   },
+   {
+    "title": "Why Oil’s Not at $200 After the Biggest Supply Shock in History - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ1J1c0RBOTNJbEdyaWVoakxvdHJ1VldmeVU3Q1BDb3pxeEpkRFptZUFncENOY1U5X1ZuVkhxSU5kUmdmQ3pXZ21taldfcy1rYXp0b095S3ZOYmloUnlFSEduc3otVDRndDd5aTRtNElLdTdNSnBKVUhZTE1XX2cyTzBRSF9Ubl82Wlc5b0JjckwxUQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 12:00:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false
+   },
+   {
+    "title": "Japan's yen weakness raises concerns for policymakers despite record intervention spending - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zMjZ2cDVTWlc3a1gtWUwyQWQ0bnhhZHNFN3dwRjhDV050X21jdktfUHZheG1fNDdUMU5jbnNNbDF6enEyYkJPTldjS0xnemxPd1F4MV8weGFNOXUxSkhQTndBeTJJWGlXcHEwOU1iX1Q1eEdZOWc?oc=5",
+    "pub": "Sat, 06 Jun 2026 06:05:53 GMT",
+    "src": "Crypto Briefing",
+    "trig": false
+   },
+   {
+    "title": "British Pound Rallies Against Weakening US Dollar On Renewed Iran Deal Hopes - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPanZUQl9Xc1JVdVE2MVFqSlBnTS1mZmptdDdVdUllWDZSVzZpdzZnaEZfYWF6dTAwU1B3aXl3aHlVeEZWV3VTc3J4d0tFMDVacE43X0tlZjM5MUZ4WmVmbkxxV0ZIRWsxektvck9uNFhjeGFwZ0VETDhEOFU0eWdKRQ?oc=5",
+    "pub": "Sat, 06 Jun 2026 04:45:12 GMT",
+    "src": "Bitcoin World",
+    "trig": false
+   },
+   {
+    "title": "Does Southern Copper’s (SCCO) Insider Sale Reframe How Investors Weigh Peru–Mexico Risk Against Copper Prices? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOOFRlaVdFa0ExRDEwOENHZ1pId1VNdDNmZkdHNjdNWWh3SW5xR0t6dTB5V3FSNXI4RjhVcmtycUk4M05xSzBGbmNkaE84NG5WdEF1ZHgyVkY5bVRuWl9vOFE3VnhySU1EOE5HNVZoc2EzR2w3bWRxdkxMWGF4NEVNWFlha0NtX0Vrcm5HejVwLVl0YWZWai05cXAzdnBMX293YW91ZURVeEdmSGpzX2hrMzdFODZucllxUi1hUDA4QjR0VnVUOUUwbWE0azAwa3RUa0dV0gHTAUFVX3lxTE44VGVpV0VrQTFEMTA4Q0dnWkh3VU10M2ZmR0c2N01ZaHdJbnFHS3p1MHlXcVI1cjhGOFVya3JxSTgzTnFLMEZuY2RoTzg0blZ0QXVkeDJWRjltVG5aX284UTdWeHJJTUQ4Tkc1VmhzYTNHbDdtZHF2TExYYXg0RU1YWWFrQ21fRWtybkd6NXAtWXRhZlZqLTlxcDN2cExfb3dhb3VlRFV4R2ZIanNfaGszN0U4Nm5yWXFSLWFQMDhCNHRWdVQ5RTBtYTRrMDBrdFRrR1U?oc=5",
+    "pub": "Sat, 06 Jun 2026 00:40:55 GMT",
+    "src": "simplywall.st",
+    "trig": false
+   },
+   {
+    "title": "FX Rates Today 6/6/2026: USD Firm as DXY Above 100 - index.vn",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOZHBSWV9hNVlpZWUtb2VCXzBIVnNsaHYtZVRkZTBsRlQ0MDVHdjJ0ODFRMHU3MHkwYWxLQzVoVWQ3aWdkSC1Yc3pYUnl5ZXE0b09URGNEYUtLV1pnODBpQmhTcWdrYmE0bm5SUFhPc3BmQVE2Q1ppWERsckNDMkRiRjUzSi04bGJqMlY0VGNUaVhnWl9iWVJ0a21Nb0dnQjd0UkRRM0ZjS2o4VlFkNkw3N20xbWxXMGpUUS1oM1Z3Tm5DSlFzYnVkUENheWhEYVM4M2NWeDlkaVJsMXl5UTMw?oc=5",
+    "pub": "Sat, 06 Jun 2026 00:15:00 GMT",
+    "src": "index.vn",
     "trig": false
    }
   ]
@@ -726,7 +866,7 @@
    "form": "8-K",
    "date": "2026-06-03",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
-   "summary": "Item 1.01(중요계약 체결), Item 9.01(재무제표/첨부)",
+   "summary": "FS KKR Capital Corp이 2026년 6월 1일자로 8-K 공시를 제출했으나, 문서에 실질적인 사건 내용이 기재되어 있지 않습니다.",
    "new": true
   },
   {
@@ -734,7 +874,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "골럽캐피탈 BDC가 2026년 5월 27일 공개모집 관련 위탁회사와 중요 정의약정을 체결했다.",
+   "summary": "골럽캐피탈 BDC가 2026년 5월 27일 공모와 관련하여 신탁회사와 중요 확정 계약을 체결했다.",
    "new": false
   },
   {
@@ -742,7 +882,7 @@
    "form": "8-K",
    "date": "2026-05-26",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
-   "summary": "Ares Capital Corporation이 JPMorgan Chase Bank와의 선순위담보부신용시설을 개정·재작성하여 총 약정금을 증액했다.",
+   "summary": "Ares Capital Corporation이 JPMorgan Chase Bank를 주관사로 선임하여 기존 시니어 담보부 신용시설을 수정 및 재정의했다.",
    "new": false
   },
   {
@@ -750,7 +890,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "Blue Owl Capital Corporation이 Deutsche Bank Trust Company Americas와 2031년 만기 6.3% 채권 4억 달러에 대한 보충 약정서를 체결했다.",
+   "summary": "Blue Owl Capital Corporation이 Deutsche Bank와 4억 달러 규모의 2031년 만기 채권에 대한 제11차 추가 약정서를 체결했다.",
    "new": false
   },
   {
@@ -758,7 +898,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund이 5.9% 이자율의 6억 5천만 달러 규모 2031년 만기 채권을 발행했다.",
+   "summary": "Blackstone Secured Lending Fund가 5.9% 이율의 6억 5천만 달러 채권 발행을 위한 보충약정서를 체결했다.",
    "new": false
   }
  ],
@@ -949,7 +1089,7 @@
   ]
  },
  "summary": {
-  "text": "미국 10년물 금리가 4.5% 수준에서 고착되면서 장기 할인율 상승으로 고성장주 밸류에이션 압박이 지속되고 있으며, 신용스프레드는 정상 범위(2.74%)를 유지해 신용 악화 신호는 아직 제한적입니다.",
+  "text": "주식 조정(S&P -2.6%)과 변동성 상승(VIX 22) 속에서 AI 인프라 투자 과열에 따른 자본조달 압박이 드러나고 있으며, 동시에 트럼프 행정부의 금리 인하 압박과 연방준비제도의 정책 불확실성이 시장 심리를 악화시키는 상황입니다.",
   "by": "claude"
  }
 }

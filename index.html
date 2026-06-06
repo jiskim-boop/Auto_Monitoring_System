@@ -79,7 +79,7 @@
     <div>
       <div class="colhead ch-flow">1 · 신용·유동성·조기경보 (최우선)</div>
       <div class="card crit"><div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
-        <div class="desc">강한신호(1.0)+보조신호(0.5) 가중합 · 2.0+ 경보</div>
+        <div class="desc">가중합 2.0+ 경보 · 3축(옵션+신용+가격) 동시=최고경보</div>
         <div class="verdict" id="early-note">—</div></div>
       <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
         <div class="desc">BIZD·ARCC·OBDC + CRWV(네오클라우드)</div>
@@ -128,7 +128,7 @@
         <div class="risk"><b>주의:</b> 이 지표들은 <b>언제</b> 터질지 못 맞춤 — 높을수록 하락 시 충격이 클 뿐. 조기경보(타이밍)와 별개로 해석</div></div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
-        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
+        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험 · 45+ 항복권(바닥 가능) · <b style="color:#8a93a6">변화율(+20%)이 첫날엔 레벨보다 정확</b></div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
         <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
@@ -216,7 +216,9 @@ function creditPanel(p){
   $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${n}개 중 ${r}개 위험`;return st;}
 
 function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
-  const st=v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>');return st;}
+  const st=v>=45?'r':v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);
+  const note=v>=45?' (항복권)':v>=28?' (공포)':'';
+  lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>'+note);return st;}
 
 // 옵션·파생 심리: VIX 기간구조 + VVIX + SKEW
 function derivPanel(p,asof){
@@ -239,7 +241,7 @@ function derivPanel(p,asof){
   if(skew!=null) row('SKEW',skew.toFixed(0),skew>=150?'r':skew>=145?'a':'g');
   // MOVE (채권 변동성, 채권판 VIX): 150+ 위험, 120+ 주의
   const move=num(p['^MOVE']);
-  if(move!=null) row('MOVE(채권)',move.toFixed(0),move>=150?'r':move>=120?'a':'g');
+  if(move!=null) row('MOVE(채권)',move.toFixed(0),move>=140?'r':move>=100?'a':'g');
   if(!n){badge($('st-deriv'),'n','N/A');return null;}
   const st=risk>=1.5?'r':risk>=0.5?'a':'g';badge($('st-deriv'),st);return st;}
 function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
@@ -356,41 +358,47 @@ function fredPanel(f){
 
 // 단기 급변 조기경보: 가중치 합산 (강한 신호 1.0 / 보조 0.5)
 function earlyWarning(p,fred){
-  let hits=[],score=0;
-  const add=(label,weight)=>{hits.push(label);score+=weight;};
+  let hits=[],score=0; let axisFast=false,axisSlow=false,axisPrice=false;
+  const add=(label,weight,axis)=>{hits.push(label);score+=weight;
+    if(axis==='fast')axisFast=true;else if(axis==='slow')axisSlow=true;else if(axis==='price')axisPrice=true;};
   // ── 강한 신호 (1.0) ──
-  // 기간구조 역전 (단기공포>중기) — 가장 신뢰도 높은 선행
+  // 기간구조 역전 (빠른 축: 옵션)
   const v=num(p['^VIX']), v3=num(p['^VIX3M']);
-  if(v!=null&&v3!=null&&v/v3>=1) add('기간구조 역전',1);
-  // 시장/선물 급락 (선물은 장외에도 작동)
+  if(v!=null&&v3!=null&&v/v3>=1) add('기간구조 역전',1,'fast');
+  // 시장/선물 급락 (가격 축)
   const spy=p['SPY'],qqq=p['QQQ'],es=p['ES=F'],nq=p['NQ=F'];
   const cashDrop=(spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2);
   const futDrop=(es&&es.chg!=null&&es.chg<=-2)||(nq&&nq.chg!=null&&nq.chg<=-2);
-  if(cashDrop||futDrop) add(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락',1);
-  // HY 스프레드 급등 (FRED, 신용경색 원본) — 7%+ 강함
-  if(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=7) add('HY스프레드 급등',1);
-  // VIX 당일 급등 +20%
+  if(cashDrop||futDrop) add(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락',1,'price');
+  // HY 스프레드 급등 (느린 축: FRED 신용) — 7%+
+  if(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=7) add('HY스프레드 급등',1,'slow');
+  // VIX 당일 급등 +20% (빠른 축)
   const vix=p['^VIX'];
-  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20) add('VIX 급등',1);
+  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20) add('VIX 급등',1,'fast');
   // ── 보조 신호 (0.5) ──
-  // SKEW 급등 (급락 헤지 폭증)
-  const sk=num(p['^SKEW']); if(sk!=null&&sk>=150) add('SKEW 급등',0.5);
-  // VVIX 급등 (옵션 시장 불안)
-  const vv=num(p['^VVIX']); if(vv!=null&&vv>=110) add('VVIX 급등',0.5);
-  // MOVE 급등 (채권 변동성)
-  const mv=num(p['^MOVE']); if(mv!=null&&mv>=150) add('MOVE 급등',0.5);
-  // 신용 급약화 (HYG 5일 낙폭)
-  const hyg=p['HYG']; if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2) add('신용 급약화',0.5);
-  // 안전자산 쏠림 (금↑ + 달러↑)
+  const sk=num(p['^SKEW']); if(sk!=null&&sk>=150) add('SKEW 급등',0.5,'fast');
+  const vv=num(p['^VVIX']); if(vv!=null&&vv>=110) add('VVIX 급등',0.5,'fast');
+  const mv=num(p['^MOVE']); if(mv!=null&&mv>=140) add('MOVE 급등',0.5,'fast');
+  const hyg=p['HYG']; if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2) add('신용 급약화',0.5,'price');
   const gld=p['GLD'],dxy=p['DX-Y.NYB'];
-  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7) add('안전자산 쏠림',0.5);
-  // 판정: 합산 점수 >=2 경보, >=1 주의
-  const st=score>=2?'r':score>=1?'a':'g';
-  badge($('st-early'),st, score>=2?'경보':score>=1?'주의':'정상');
+  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7) add('안전자산 쏠림',0.5,'price');
+  // 느린 축 추가: NFCI/신용서브 위험
+  if(fred&&fred.ok){
+    if(fred.nfci&&fred.nfci.value>0.5){axisSlow=true;if(!hits.includes('NFCI 긴축'))add('NFCI 긴축',0.5,'slow');}
+  }
+  // 단계 판정: 3축 동시 = 최상위, 합산 점수로 보조
+  const axisCount=(axisFast?1:0)+(axisSlow?1:0)+(axisPrice?1:0);
+  let st,lab;
+  if(axisCount>=3){st='r';lab='최고경보';}          // 빠른+느린+가격 모두
+  else if(score>=2){st='r';lab='경보';}
+  else if(score>=1){st='a';lab='주의';}
+  else {st='g';lab='정상';}
+  badge($('st-early'),st,lab);
+  const axisTxt = axisCount>=2 ? ` <span style="color:#8a93a6">[${[axisFast?'옵션':'',axisSlow?'신용시스템':'',axisPrice?'가격':''].filter(Boolean).join('+')} 동시]</span>` : '';
   $('early-note').innerHTML = score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
-    : `<b style="color:${score>=2?'#ff6b6b':'#ffb454'}">위험점수 ${score}</b> — ${hits.join(' · ')}${score>=2?' → 급변 가능성 높음':''}`;
-  return {st,score,hits,futDrop};}
+    : `<b style="color:${st==='r'?'#ff6b6b':'#ffb454'}">위험점수 ${score}${axisCount>=3?' · 3축 동시':''}</b> — ${hits.join(' · ')}${axisTxt}${axisCount>=3?' → 구조적 위기 신호':st==='r'?' → 급변 가능성 높음':''}`;
+  return {st,score,hits,futDrop,axisCount};}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);

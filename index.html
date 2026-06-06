@@ -76,8 +76,9 @@
 
   <!-- 0번: 단기 급변 조기경보 (독립 섹션) -->
   <div class="colhead" id="ew-head" style="margin-bottom:6px;color:#1fd6c4">0 · 단기 급변 조기경보</div>
-  <div class="card" id="ew-card" style="margin-bottom:14px;border-left:4px solid #1fd6c4">
-    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
+  <div class="card" id="ew-card" style="margin-bottom:14px;border-left:4px solid #1fd6c4;position:relative">
+    <div id="ew-mood" style="position:absolute;top:4px;right:12px;font-size:9px;color:#6f7888;letter-spacing:0;z-index:2">—</div>
+    <div class="top" style="margin-top:10px"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
     <div class="desc">옵션·신용·가격 3축 가중 합산 · 동시 발생일수록 신뢰↑</div>
     <div class="verdict" id="early-note">—</div>
     <div class="risk" style="margin-top:8px">
@@ -433,6 +434,12 @@ function earlyWarning(p,fred){
   if(ewCard){ewCard.style.borderLeftColor=theme.c;ewCard.style.background=theme.bg;
     ewCard.style.boxShadow = axisCount>=3 ? '0 0 0 1px #ff3b6b, 0 0 18px rgba(255,59,107,0.25)' : (st==='r'?'0 0 0 1px rgba(255,107,107,0.4)':'none');}
   if(ewHead)ewHead.style.color=theme.c;
+  // 상황별 유머 무드 (아주 작게, 배지 위)
+  const mood = axisCount>=3 ? '💀 돔황챠'
+             : st==='r' ? '😱 헉'
+             : st==='a' ? '👀 음…'
+             : '😎 평온';
+  const em=$('ew-mood'); if(em){em.textContent=mood; em.style.color = axisCount>=3?'#ff3b6b':st==='r'?'#ff8a8a':st==='a'?'#ffb454':'#37d6a0';}
   const axisTxt = axisCount>=2 ? ` <span style="color:#8a93a6">[${[axisFast?'옵션':'',axisSlow?'신용시스템':'',axisPrice?'가격':''].filter(Boolean).join('+')} 동시]</span>` : '';
   $('early-note').innerHTML = score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
@@ -468,14 +475,14 @@ function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!item
 
 function setVerd(elId,states,kind,extra){
   const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
-  const el=$(elId),box=el.closest('.vbox');let c,t;
-  if(!states.length){c='#7b8499';t='데이터 대기';}
-  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경보: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';}
-  else if(reds>=2){c='#ff6b6b';t='경보: '+reds+'개 부문 위험 → 축소 검토';}
-  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';}
-  else{c='#37d6a0';t='정상: 안정';}
-  if(extra){c='#ff6b6b';t=extra+' · '+t;}
-  el.textContent=t;box.style.borderLeftColor=c;}
+  const el=$(elId),box=el.closest('.vbox');let c,t,lv;
+  if(!states.length){c='#7b8499';t='데이터 대기';lv='n';}
+  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경보: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';lv='r';}
+  else if(reds>=2){c='#ff6b6b';t='경보: '+reds+'개 부문 위험 → 축소 검토';lv='r';}
+  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';lv='a';}
+  else{c='#37d6a0';t='정상: 안정';lv='g';}
+  if(extra){c='#ff6b6b';t=extra+' · '+t;lv='r';}
+  el.textContent=t;box.style.borderLeftColor=c;return lv;}
 
 async function load(){
   try{
@@ -503,31 +510,41 @@ async function load(){
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
     fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
-    bubblePanel(d.fred);
+    const bubbleResult=bubblePanel(d.fred);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
     futSession(p);
     renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
     renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);
-    // 신용 트리거 알림 (뉴스 trig 또는 신규 EDGAR)
+    // 종합 판정 먼저 계산 (배너가 이를 참조)
+    const sBubble=bubbleResult; // bubblePanel이 ov-bubble 설정
+    const vSys=setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sDeriv].filter(Boolean),'sys');
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
     let extra=null;
+    if(trigNews.length||newFilings.length)extra='신용 트리거';
+    else if(ew&&ew.score>=2)extra='급변 경보';
+    const vAi=setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
+    // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];
-    if(trigNews.length)alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
-    if(newFilings.length)alertParts.push(`신규 공시 ${newFilings.length}건`);
-    if(ew&&(ew.score>=2||ew.futDrop))alertParts.push('급변: '+ew.hits.join('·'));
+    if(ew&&(ew.score>=2||ew.futDrop)) alertParts.push((ew.axisCount>=3?'⚡최고경보: ':'급변: ')+ew.hits.slice(0,4).join('·'));
+    if(trigNews.length) alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
+    if(newFilings.length) alertParts.push(`신규 공시 ${newFilings.length}건`);
+    // 3대 영역 위험 요약
+    const areaRisk=[];
+    if(vSys==='r') areaRisk.push('시스템(거시)');
+    if(vAi==='r') areaRisk.push('AI 섹터');
+    if(sCredit==='r') areaRisk.push('신용');
+    if(sBubble==='r') areaRisk.push('구조적 버블');
+    if(areaRisk.length) alertParts.push('위험 영역: '+areaRisk.join('·'));
+    // 배너 표시 조건: 위 중 하나라도
     if(alertParts.length){
       $('alert').classList.add('on');
-      const onlyEW=!trigNews.length&&!newFilings.length;
-      $('alert').querySelector('.lbl').textContent = onlyEW ? '⚡ 시장 급변 감지' : '⚠ 신용·시장 트리거 감지';
-      $('alert-txt').textContent=alertParts.join(' · ');
-      if(trigNews.length||newFilings.length)extra='신용 트리거';
-      else if(ew&&ew.score>=2)extra='급변 경보';
+      const onlyEW=!trigNews.length&&!newFilings.length&&!areaRisk.length;
+      const hasEW = ew&&(ew.score>=2||ew.futDrop);
+      $('alert').querySelector('.lbl').textContent = hasEW ? '⚡ 시장 급변·위험 감지' : '⚠ 시장 위험 감지';
+      $('alert-txt').textContent=alertParts.join('  ·  ');
     }
-    // 종합 판정 (AI엔 신용 포함)
-    setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sDeriv].filter(Boolean),'sys');
-    setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
     const any=[sVix,sSemi,sCredit,sPow].some(Boolean);
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
   }catch(e){$('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>';}

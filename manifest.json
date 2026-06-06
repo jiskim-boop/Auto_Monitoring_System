@@ -1,0 +1,14 @@
+{
+  "name": "시장 사이클 모니터",
+  "short_name": "시장 모니터",
+  "description": "AI·신용·거시 시장 위험 모니터링 대시보드",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#070a0f",
+  "theme_color": "#070a0f",
+  "orientation": "portrait-primary",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ]
+}

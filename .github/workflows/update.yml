@@ -1,8 +1,10 @@
 name: update-dashboard-data
 on:
-  schedule:
-    - cron: "17 * * * *"   # 매시간 (:17분, 비인기 시간대)
+  # GitHub 내장 schedule은 지연·누락 많아 미사용.
+  # 외부 스케줄러(cron-job.org)가 아래 dispatch를 호출.
   workflow_dispatch:
+  repository_dispatch:
+    types: [run-update]
 permissions:
   contents: write
 jobs:
@@ -22,6 +24,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add -f data.json
           git commit -m "auto: update data.json" || echo "no changes"
           git push

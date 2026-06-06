@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>시장 사이클 모니터</title>
+<!-- PWA: 홈 화면 추가 -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#070a0f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="시장 모니터">
+<link rel="apple-touch-icon" href="icon.png">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:16px 14px 30px;max-width:1480px;margin:0 auto;}
+  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;padding:16px 14px 30px;max-width:1480px;margin:0 auto;-webkit-text-size-adjust:100%;text-size-adjust:100%;padding-top:max(16px,env(safe-area-inset-top));}
   h1{font-size:18px;font-weight:900;color:#f4f6fb;}
   .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin:4px 0 10px;}.upd .warn{color:#ff6b6b;}
   .alert{background:#1f0d0d;border:1px solid #5a1f1f;border-left:4px solid #ff6b6b;border-radius:10px;padding:10px 14px;margin-bottom:8px;display:none;}

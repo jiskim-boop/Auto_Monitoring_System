@@ -338,12 +338,27 @@ def fred_series(series_id, points=13):
 
 def fetch_charts(fred):
     ch={}
-    ch["vix"]=fetch_series_yahoo("%5EVIX")
+    # 야후 기반
+    vix=fetch_series_yahoo("%5EVIX")
+    vix3m=fetch_series_yahoo("%5EVIX3M")
+    ch["vix"]=vix
     ch["tnx"]=fetch_series_yahoo("%5ETNX")
     ch["dxy"]=fetch_series_yahoo("DX-Y.NYB")
-    ch["spy"]=fetch_series_yahoo("SPY")
+    ch["bizd"]=fetch_series_yahoo("BIZD")  # 사모대출 신용 프록시
+    # VIX 기간구조 (VIX/VIX3M, >=1 역전=위험) — 두 시계열 길이 맞춰 비율
+    if vix and vix3m and len(vix)==len(vix3m):
+        ch["vixts"]=[round(a/b,3) if b else None for a,b in zip(vix,vix3m)]
+    else:
+        ch["vixts"]=None
+    # FRED 기반
     ch["hyoas"]=fred_series("BAMLH0A0HYM2")
     ch["nfci"]=fred_series("NFCI")
+    # SOFR-IORB (레포 경색, bp) — 두 시계열 차이
+    sofr=fred_series("SOFR"); iorb=fred_series("IORB")
+    if sofr and iorb and len(sofr)==len(iorb):
+        ch["sofr_iorb"]=[round((a-b)*100,1) for a,b in zip(sofr,iorb)]
+    else:
+        ch["sofr_iorb"]=None
     cape=(fred or {}).get("cape")
     ch["cape"]=[cape]*8 if cape is not None else None
     return ch

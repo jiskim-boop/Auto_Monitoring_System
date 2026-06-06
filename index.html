@@ -489,16 +489,15 @@ function sparkline(series, opts){
 function renderCharts(d){
   const grid=$('chart-grid'); if(!grid) return;
   const ch=d.charts||{};
-  const p=d.prices||{};
-  // 조기경보 점수·S&P는 prices/계산에서
-  const spy = p['SPY'];
   const cards=[
     {t:'HY 스프레드', s:ch.hyoas, warn:5, danger:7, fmt:v=>v.toFixed(2)+'%'},
     {t:'VIX', s:ch.vix, warn:20, danger:28, fmt:v=>v.toFixed(0)},
+    {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1, fmt:v=>v.toFixed(2)},
     {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
     {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, fmt:v=>v.toFixed(1)},
     {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2)},
-    {t:'S&P 500', s:ch.spy, warn:null, danger:null, higherWorse:false, fmt:v=>v.toFixed(0)},
+    {t:'레포(SOFR-IORB)', s:ch.sofr_iorb, warn:0, danger:10, fmt:v=>(v>=0?'+':'')+v.toFixed(0)+'bp'},
+    {t:'사모대출(BIZD)', s:ch.bizd, warn:null, danger:null, higherWorse:false, fmt:v=>'$'+v.toFixed(1)},
     {t:'실러 CAPE', s:ch.cape, warn:30, danger:40, fmt:v=>v.toFixed(0)},
   ];
   grid.innerHTML='';

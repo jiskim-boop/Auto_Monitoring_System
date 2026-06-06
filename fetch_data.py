@@ -213,33 +213,30 @@ def summarize_news(news, prices=None, fred=None):
     snaptxt=" · ".join(snap) if snap else "(지표 없음)"
     if APIKEY and (hc or hf or hm or snap):
         s=claude(
-            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장이 어떤 상황인지' 투자자에게 "
-            "브리핑하듯 한국어로 2~3문장(200자 내외)으로 친절하고 자세히 설명하라. "
-            "다음을 자연스럽게 녹여라: (1)변동성·옵션 시장이 보내는 신호 (2)신용·자금 시스템 상태 "
-            "(3)AI 섹터 자본흐름 (4)금리·달러 등 거시 흐름 (5)밸류에이션 부담. "
-            "단순 수치 나열이 아니라 '무엇을 의미하는지' 해석을 담되, 과장·투자권유 없이 사실 위주로. "
-            "마크다운 기호나 제목 없이 본문만 출력.\n\n"
+            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
+            "한국어 1~2문장(100자 내외)으로 핵심만 간결하게 요약하라. "
+            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션 중)만 골라 '무엇을 의미하는지' 담되, "
+            "나열하지 말고 압축할 것. 과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
             "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
             "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
-            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=400)
+            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=200)
         if s: return {"text":nomd(s),"by":"claude"}
     # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
     parts=[]
-    if vix is not None:
-        if vix>=28: parts.append(f"변동성(VIX {vix:.0f})이 공포 구간으로 시장 불안이 큽니다")
-        elif vix>=20: parts.append(f"변동성(VIX {vix:.0f})이 다소 높아 경계가 필요합니다")
-        else: parts.append(f"변동성(VIX {vix:.0f})은 안정적입니다")
+    if vix is not None and vix>=20:
+        parts.append(f"VIX {vix:.0f}로 변동성 {'공포 구간' if vix>=28 else '경계 수준'}")
     if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None:
         hy=fred["hyoas"]["value"]
-        if hy>=7: parts.append(f"신용 스프레드(HY {hy:.1f}%)가 경색 구간입니다")
-        elif hy>=5: parts.append(f"신용 스프레드(HY {hy:.1f}%)가 다소 벌어졌습니다")
-        else: parts.append(f"신용 시스템(HY {hy:.1f}%)은 안정적입니다")
-    if trig>0: parts.append(f"신용 트리거 뉴스가 {trig}건 감지됐습니다")
+        if hy>=5: parts.append(f"HY스프레드 {hy:.1f}%로 신용 {'경색' if hy>=7 else '확대'}")
+    if trig>0: parts.append(f"신용 트리거 {trig}건")
     if fred and fred.get("cape") is not None and fred["cape"]>=40:
-        parts.append(f"다만 밸류에이션(CAPE {fred['cape']:.0f})은 역사적 극단이라 하락 시 충격이 클 수 있습니다")
-    body = ". ".join(parts) if parts else "현재 특이 신호가 적습니다"
-    return {"text":body+". (상세 AI 요약은 API 키 설정 시 제공)","by":"heuristic"}
+        parts.append(f"CAPE {fred['cape']:.0f} 고밸류")
+    if parts:
+        body=" · ".join(parts[:2])
+    else:
+        body="특이 신호 적음"+(f" (VIX {vix:.0f}·안정)" if vix is not None else "")
+    return {"text":body+".","by":"heuristic"}
 
 # ---- FRED 유동성·시스템 스트레스 (선행지표)
 FRED_SERIES = {

@@ -88,6 +88,18 @@
     </div>
   </div>
 
+  <!-- 핵심 지표 추세 차트 (접기/펼치기) -->
+  <div class="colhead" id="chart-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
+    <span><span id="chart-caret">▶</span> 📈 핵심 지표 추세 (최근 90일)</span>
+    <span id="chart-mini" style="font-size:9px;color:#6f7888;font-weight:400"></span>
+  </div>
+  <div class="card" id="chart-wrap" style="margin-bottom:14px;display:none">
+    <div id="chart-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px">
+      <div class="empty">로딩…</div>
+    </div>
+    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제)</span></div>
+  </div>
+
   <div class="cols">
     <!-- COL 1: 조기경보 + 유동성 + 신용 (최우선) -->
     <div>
@@ -445,6 +457,73 @@ function earlyWarning(p,fred){
     : `<b style="color:${st==='r'?'#ff6b6b':'#ffb454'}">위험점수 ${score}${axisCount>=3?' · 3축 동시':''}</b> — ${hits.join(' · ')}${axisTxt}${axisCount>=3?' → 구조적 위기 신호':st==='r'?' → 급변 가능성 높음':''}`;
   return {st,score,hits,futDrop,axisCount};}
 
+// 핵심 지표 추세 미니 차트 (sparkline)
+function sparkline(series, opts){
+  const {warn, danger, higherWorse=true, fmt=(v)=>v} = opts||{};
+  if(!series||!series.length) return '<div style="color:#5f6878;font-size:10px">데이터 없음</div>';
+  const w=140,h=40,pad=3;
+  const vals=series.filter(v=>v!=null);
+  if(!vals.length) return '<div style="color:#5f6878;font-size:10px">데이터 없음</div>';
+  let lo=Math.min(...vals), hi=Math.max(...vals);
+  // 임계선도 범위에 포함
+  if(danger!=null){lo=Math.min(lo,danger);hi=Math.max(hi,danger);}
+  if(warn!=null){lo=Math.min(lo,warn);hi=Math.max(hi,warn);}
+  if(hi===lo){hi=lo+1;}
+  const x=i=>pad+(w-2*pad)*i/(series.length-1||1);
+  const y=v=>h-pad-(h-2*pad)*(v-lo)/(hi-lo);
+  const cur=vals[vals.length-1];
+  // 현재 상태 색
+  let col='#37d6a0';
+  if(danger!=null && (higherWorse? cur>=danger : cur<=danger)) col='#ff6b6b';
+  else if(warn!=null && (higherWorse? cur>=warn : cur<=warn)) col='#ffb454';
+  const pts=series.map((v,i)=>v==null?null:`${x(i).toFixed(1)},${y(v).toFixed(1)}`).filter(Boolean).join(' ');
+  let thr='';
+  if(danger!=null){const yy=y(danger).toFixed(1);thr+=`<line x1="${pad}" y1="${yy}" x2="${w-pad}" y2="${yy}" stroke="#ff6b6b" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.5"/>`;}
+  if(warn!=null){const yy=y(warn).toFixed(1);thr+=`<line x1="${pad}" y1="${yy}" x2="${w-pad}" y2="${yy}" stroke="#ffb454" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4"/>`;}
+  const dot=`<circle cx="${x(series.length-1).toFixed(1)}" cy="${y(cur).toFixed(1)}" r="2" fill="${col}"/>`;
+  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:40px">${thr}<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.3"/>${dot}</svg>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:2px">
+      <span style="font-size:9px;color:#6f7888">90일</span>
+      <span style="font-size:12px;font-weight:700;color:${col}">${fmt(cur)}</span></div>`;
+}
+function renderCharts(d){
+  const grid=$('chart-grid'); if(!grid) return;
+  const ch=d.charts||{};
+  const p=d.prices||{};
+  // 조기경보 점수·S&P는 prices/계산에서
+  const spy = p['SPY'];
+  const cards=[
+    {t:'HY 스프레드', s:ch.hyoas, warn:5, danger:7, fmt:v=>v.toFixed(2)+'%'},
+    {t:'VIX', s:ch.vix, warn:20, danger:28, fmt:v=>v.toFixed(0)},
+    {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
+    {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, fmt:v=>v.toFixed(1)},
+    {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2)},
+    {t:'S&P 500', s:ch.spy, warn:null, danger:null, higherWorse:false, fmt:v=>v.toFixed(0)},
+    {t:'실러 CAPE', s:ch.cape, warn:30, danger:40, fmt:v=>v.toFixed(0)},
+  ];
+  grid.innerHTML='';
+  cards.forEach(c=>{
+    const div=document.createElement('div');
+    div.style.cssText='background:#0d1320;border:1px solid #1b2330;border-radius:8px;padding:7px 9px';
+    div.innerHTML=`<div style="font-size:10px;color:#aab3c5;margin-bottom:3px;font-weight:600">${c.t}</div>`+
+      sparkline(c.s,{warn:c.warn,danger:c.danger,higherWorse:c.higherWorse!==false,fmt:c.fmt});
+    grid.appendChild(div);
+  });
+  // 접힌 상태용 미니 요약 (위험/주의 개수)
+  const mini=$('chart-mini');
+  if(mini){
+    let r=0,a=0;
+    cards.forEach(c=>{
+      if(!c.s||!c.s.length)return; const cur=c.s.filter(v=>v!=null).pop(); if(cur==null)return;
+      const hw=c.higherWorse!==false;
+      if(c.danger!=null&&(hw?cur>=c.danger:cur<=c.danger))r++;
+      else if(c.warn!=null&&(hw?cur>=c.warn:cur<=c.warn))a++;
+    });
+    mini.textContent = (r||a) ? `위험 ${r} · 주의 ${a} (탭하여 펼치기)` : '모두 정상 (탭하여 펼치기)';
+    mini.style.color = r? '#ff8a8a' : a? '#ffb454' : '#6f7888';
+  }
+}
+
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
   const ordered=trig.concat(rest).slice(0,5);
@@ -510,6 +589,7 @@ async function load(){
     const sCredit=creditPanel(p);
     fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
     const bubbleResult=bubblePanel(d.fred);
+    renderCharts(d);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
     futSession(p);
@@ -548,6 +628,15 @@ async function load(){
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
   }catch(e){$('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>';}
 }
+// 차트 접기/펼치기
+(function(){
+  const t=$('chart-toggle'), w=$('chart-wrap'), c=$('chart-caret');
+  if(t&&w){t.addEventListener('click',()=>{
+    const open=w.style.display!=='none';
+    w.style.display=open?'none':'block';
+    if(c)c.textContent=open?'▶':'▼';
+  });}
+})();
 load();
 </script>
 </body>

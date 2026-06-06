@@ -302,16 +302,63 @@ def fetch_fred():
     out["cape_manual"]=(_cape is None)
     return out
 
+# ---- 차트용 과거 시계열 (B: 과거 90일, 주간 다운샘플)
+def fetch_series_yahoo(sym, points=13):
+    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=3mo&interval=1d"
+    try:
+        j=json.loads(get(url)); res=j["chart"]["result"][0]
+        closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
+        if not closes: return None
+        if len(closes)<=points: return [round(c,2) for c in closes]
+        step=len(closes)/points
+        out=[round(closes[min(int(i*step),len(closes)-1)],2) for i in range(points)]
+        out[-1]=round(closes[-1],2)
+        return out
+    except Exception:
+        return None
+
+def fred_series(series_id, points=13):
+    if not FRED_KEY: return None
+    url=("https://api.stlouisfed.org/fred/series/observations?series_id="+series_id+
+         "&api_key="+FRED_KEY+"&file_type=json&sort_order=desc&limit=120")
+    try:
+        raw=get(url)
+        if raw is None: return None
+        obs=json.loads(raw).get("observations",[])
+        vals=[float(o["value"]) for o in obs if o["value"] not in (".","")]
+        if not vals: return None
+        vals=vals[::-1]
+        if len(vals)<=points: return [round(v,3) for v in vals]
+        step=len(vals)/points
+        out=[round(vals[min(int(i*step),len(vals)-1)],3) for i in range(points)]
+        out[-1]=round(vals[-1],3)
+        return out
+    except Exception:
+        return None
+
+def fetch_charts(fred):
+    ch={}
+    ch["vix"]=fetch_series_yahoo("%5EVIX")
+    ch["tnx"]=fetch_series_yahoo("%5ETNX")
+    ch["dxy"]=fetch_series_yahoo("DX-Y.NYB")
+    ch["spy"]=fetch_series_yahoo("SPY")
+    ch["hyoas"]=fred_series("BAMLH0A0HYM2")
+    ch["nfci"]=fred_series("NFCI")
+    cape=(fred or {}).get("cape")
+    ch["cape"]=[cape]*8 if cape is not None else None
+    return ch
+
 def main():
     news=fetch_news()
     prices=fetch_prices()
     fred=fetch_fred()
+    charts=fetch_charts(fred)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
-          "fred":fred,"summary":summarize_news(news,prices,fred)}
+          "fred":fred,"charts":charts,"summary":summarize_news(news,prices,fred)}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
-    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"))
+    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"),"| charts:",sum(1 for v in charts.values() if v))
 
 if __name__=="__main__":
     main()

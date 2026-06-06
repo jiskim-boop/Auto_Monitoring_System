@@ -83,7 +83,8 @@
         <div class="verdict" id="early-note">—</div></div>
       <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
         <div class="desc">BDC + 레버리지론·CLO 프록시 · 5일약화=선행신호</div>
-        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div></div>
+        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div>
+        <div class="risk"><b>해석:</b> BDC 주가=신용 직접 노출 · 레버리지론(BKLN)·CLO(JBBB)=거래되는 사촌자산으로 분기공시보다 먼저 부실 반영 · <b style="color:#8a93a6">여럿 동시 5d약화=사모대출 시스템 스트레스 선행 신호</b></div></div>
       <div class="card crit"><div class="top"><span class="nm">옵션·파생 심리 (빠른 선행)</span><span class="stt s-n" id="st-deriv">—</span></div>
         <div class="desc">당일 갱신 · 현물보다 빠른 신호</div>
         <div id="deriv-rows"><div class="empty">로딩…</div></div>
@@ -212,10 +213,11 @@ function creditPanel(p){
     const q=p[sym];const st=pStatus(q);const row=document.createElement('div');row.className='prow';
     if(q&&q.ok){
       const weak5 = q.chg5!=null && q.chg5<=-1.5;
-      const tag = weak5 ? '<span style="font-size:9px;color:#ff8a5a">5d약화</span>' : '';
-      row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span>${chgHtml(q)}<span>${tag}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
+      const up=q.chg>=0;
+      const tag = weak5 ? ' <span style="font-size:9px;color:#ff8a5a">5d약화</span>' : '';
+      row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%${tag}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
       if(st==='r')r++;if(weak5)early++;n++;}
-    else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span><span></span>`;
+    else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;
     rows.appendChild(row);}
   // 그룹1: 상장 BDC (직접)
   [['BIZD','BIZD(BDC지수)'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([s,l])=>addRow(s,l));

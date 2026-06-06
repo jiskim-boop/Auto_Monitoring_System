@@ -45,7 +45,7 @@ PRICE_SYMBOLS = [
     "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
     "CRWV",                                              # 네오클라우드
     # 신용·사모대출
-    "BIZD","ARCC","OBDC","HYG",
+    "BIZD","ARCC","OBDC","HYG","BKLN","SRLN","JBBB",
     # 거시·시스템
     "%5EVIX","%5EVIX3M","%5EVVIX","%5ESKEW","%5EMOVE","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
     # 한국 지수

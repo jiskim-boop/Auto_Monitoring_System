@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-06T01:53:33+00:00",
+ "updated": "2026-06-06T02:01:40+00:00",
  "prices": {
   "NVDA": {
    "price": 205.1,
@@ -572,12 +572,12 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61058.37,
-   "chg": -4.3,
-   "chg5": -17.02,
-   "sma20": 73193.29,
-   "sma50": 76381.67,
-   "sma200": 77723.07,
+   "price": 60986.07,
+   "chg": -4.41,
+   "chg5": -17.12,
+   "sma20": 73189.68,
+   "sma50": 76380.22,
+   "sma200": 77722.68,
    "high3m": 82138.93,
    "ok": true
   },
@@ -685,37 +685,177 @@
  "news": {
   "credit": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "CoreWeave Files Automatic Shelf Registration for Multi-Security Offerings - TheEnergyMag",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUUFBT0NnT0pDbWRXQjlXRG9USVpMTWNPOV8tTXd1b0lac0g1OENYN3R6UExQM1NObFkyTk1MazJVMXFJT29BSTlxSFoxTjRuc3RoYXhDN2NNR1hJNFVZWUZpY2N2aWE4blAzMjFrUTRFODRqUmM1dmZrdk5VWVpxQ2V4c1oxdHJMSFZwRzVZMEJiWlpSbGZrN3hBUFEtQkpiSHFRaEVxcDRTSVl0ekRQYnVyV3lSaTVpZExn?oc=5",
+    "pub": "Fri, 05 Jun 2026 21:22:33 GMT",
+    "src": "TheEnergyMag",
+    "trig": false
+   },
+   {
+    "title": "Blackstone limits redemptions from flagship private credit fund as investor exodus accelerates - eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB3UU5ES2hLOFdpZG9GUGw5VWN4NWc2WC1xU3p2dzF1d1BYRXBvcWt5Tm5YdjJ4bUdZYXE3QTN3ODBReGlySENzZ0RITXJDWnNESTQ3TFNVSEQyZmRGTVQ0a2dYTDZ3YmFNV3UwU1NmRQ?oc=5",
+    "pub": "Fri, 05 Jun 2026 18:02:56 GMT",
+    "src": "eciks.org",
+    "trig": false
+   },
+   {
+    "title": "AIP Capital appoints managing director for Americas - Alternative Credit Investor",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcUdPdmxqdTVLTVp1X2F5YldZa1BIVFJUOFFuUHd3WUpBdXdiS2tuSzFlTGpseWlQTlV5SmxEOW1ZT2xNQ0toWGdreHNwVFdEd3BRQV8tblhVWjdYQkZFcFNvd1lOUi1aMnpIZUpodzZrUnNSZFFRcUdXNmhsZktLMHVRQ3NPQmR4SlJxV2xBX1lUMTdsRmFhbUF2ckR1ZzFTdUNN?oc=5",
+    "pub": "Fri, 05 Jun 2026 16:52:32 GMT",
+    "src": "Alternative Credit Investor",
+    "trig": false
+   },
+   {
+    "title": "AI debt is becoming a serious funding option for founders - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONlM0bndCQm1TNTh2Mnc2bWRTbk5YY1d4TVlGUXdDZFlLVzJXU2hfV3J3cHJadENYZnFtQThwWE1wWVlOTnp5UUZ0OHhsREwzRC1KeVdreFdGVWJZX1FkVjN6a2l6U1lOZnBWbmpkVXV4ZlBVR2VvUS1xazZvWTdibk9KeUZVR1VGd2EzS3pB?oc=5",
+    "pub": "Fri, 05 Jun 2026 16:50:05 GMT",
+    "src": "Startup Fortune",
+    "trig": false
+   },
+   {
+    "title": "Private Credit Contagion Will Spread as Market Ventures into Uncharted Territory - TheStreet Pro",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPQ01NR2luTUdObVo5WWh5eER5NzFrajdfaWY0aUxIZjJSSzVXOFAwSjJYS2tJVHJFR05NTGFOX1hlX3FtSkZlY1oyOFdMYlNYV1hHaXNqMXMzaDJFU08zX0I4LVg0aFFrTHNDWTg5Tk0zel9QZmhDOU1ITkJtdzZVcjRCNVhvQzZReFpHWGd0bklZbTh4Rk54THo2cC1lNWdZc2pCQlU5Rm1KV2ZEcWMtb3FR?oc=5",
+    "pub": "Fri, 05 Jun 2026 16:30:00 GMT",
+    "src": "TheStreet Pro",
+    "trig": false
+   },
+   {
+    "title": "Moody’s: BDC loan marks may exaggerate signs of private credit stress - Alternative Credit Investor",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQbU9kNzVvTXZJUWc1ZXRTd0JET2JtR1JRVHdIMkxsODFhSmpENnNLTnJmWU1lcndrbGpLZzRFWTVURTlJRUxMTkR4enVMUW9jYlhUVTdNempMMEJVV1N1ZTlWWjRPLU5rRXgyVC1GZlRkZUZIdG5CZkc0RzNZYVZKX2Q2VGFPbmtBS2U3OEJUR3VOSHBpTHIwLVpESzRhUWxCeldnYlhTQjZkckJDMEdpT29pcHlRYl9K?oc=5",
+    "pub": "Fri, 05 Jun 2026 14:59:38 GMT",
+    "src": "Alternative Credit Investor",
     "trig": false
    }
   ],
   "fundamental": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "Amazon's AI spending is becoming a harder sell inside the company - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQXFkZXhva0xsb1djaTR2d2lnZHpOMkwtTlBRM0R0VDhZRDFiRnoxbk5wa0ZsM05sVWI5ekY3WmppOVVtM2FUbVZfWU9Wc1RrTjNKak16eVpKQlVKZl82UXBDSUwwVlozRkd3TTVXRmFkNWcxNnh1MlZCY3NZY1RhUlJxUjBHMGVIR1FybjFYY3pXYjhSWnVN?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:57:55 GMT",
+    "src": "Startup Fortune",
+    "trig": false
+   },
+   {
+    "title": "This is Where Micron Stock Will Trade in 5 Years - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE51QXBlaDhPb0hiX1U4NmtDZkhaUVM0c2dmenYtSDBhNl9XZl9Uems2bldCNkVUOTItalgwTk1iS0oyV3lMa3h1XzM5akNpWTZDWUpPYjlTMmVJZjNKNi01aUxlempoWDE5TFpsUjZ6eXhwZEVkaFpJc0RR?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:23:31 GMT",
+    "src": "AOL.com",
+    "trig": false
+   },
+   {
+    "title": "Oracle (ORCL) Set to Raise Capital Expenditure Guidance Amid AI Investment Surge - GuruFocus",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbG5TOEhCalVEejlPajE2ODNKVGNQUTJiN1lwSE1KT3JzSzZSVHl3bHR0Tm9mZFBfal9nWjAwZHhPM1NLNXRfNXptUElNRF8tb2VSOUhHS0dUc2ZkUXVBbW5TckN0VlllNFRTXzJqLXU5a2FhSEJxdkllX0VtWXBCenRzTXpRb1Vha1h5SS0zYmF5MDNqMFpkZzFFdlAyV0ZGdVgtMEg2RVlkdnY2YjYzSzR0V3VGTWZW?oc=5",
+    "pub": "Fri, 05 Jun 2026 21:25:15 GMT",
+    "src": "GuruFocus",
+    "trig": false
+   },
+   {
+    "title": "Over 50 Analysts Rate META a Buy, Here’s Why We Agree - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWmRIN3RieEJCTTZjNWlURTVRZk9iLThmbHhUVndkV0NzU3FWVFluaHNEU0ZiNlY2RUxvTDl2ZFljMTFudjVldmxpQjZwbmUyYWpZcW52ZXlzVlJuTm9UTTFOZjBVcU01NzQ1ODhvdjFzZDN3UXBpTjhxUUhKOVhZa0J2QkpYaVB5XzkwNFZ1WDczRjN4ZUZIemtBUQ?oc=5",
+    "pub": "Fri, 05 Jun 2026 21:24:16 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false
+   },
+   {
+    "title": "JPMorgan Downgrades Meta to Neutral: Are AI CapEx Concerns Finally Catching Up? - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZGswZEdQNFdkZUpLQnNvWjlFcEpDSDdOMEJjaUZHdnh0Njktb1QzMXVmVW91QmxYZFpMU0xXMmR6Mk8wRkpXV3BDaFByb21zOFBWR0plS1p2bGMwX1lPNWp1cnNqRkdjbnlhRGZlcDBhNWNpQXZIREJYRU5tWWdCMUw2UnhWUQ?oc=5",
+    "pub": "Fri, 05 Jun 2026 20:34:56 GMT",
+    "src": "AOL.com",
+    "trig": false
+   },
+   {
+    "title": "Meta's stock sinks on report company could raise tens of billions of dollars to fund AI push - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPODJGd2oyUG5fejVSWndYd2pmNkRheHVBa3p3SEhGVnlsQmtVREpFZl9DZG9Dem9rQVhhZFJUc0FKMzdnd2czTVBZQ1FJemd0aE1JQVFrdTJ3MXc4T0p2VjRZY1hoUVFzUjRJMW5zMnFRUTNkYlBweTc2UjliMjJPVHpRT0VvWVpaYWJveG5OaGFNVXRNWHoyMnFzQzhuSklRdmJKNGJadXU1alXSAbABQVVfeXFMTkdiaDVRa0VLS0gta2tQc1ZwVFBzSWZWT21UR3RUWS1FdzdqMnNHWnVhNzd1ZzJkdlhFZnB5MlFvMm1Yb0Jic2FSTWY0emF4SVByMVhLcnhSLXZxYmlzTmUxczBJT1lzRVhac2d2U0ljRkwyRUtOWUM0UVhtNVdkdzlLTkdZMGVRb0w5V3RGR0o0TUpGRVV5aVdCYnVkQU5NQ1RuQW1xbl91clhaNjZ1OUY?oc=5",
+    "pub": "Fri, 05 Jun 2026 19:05:58 GMT",
+    "src": "CNBC",
     "trig": false
    }
   ],
   "macro": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "BoE Policymaker Dhingra: Energy Crisis Complicates Interest Rate Outlook - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxONDUyanhvYVNMcU1XS0NJc0JGOGg3Z0d1WmdpU1RseGZ3ZDRHWk5uM3R6ckNQZWM4dmpwZnN6bGdwVU9zSF9tRm00NzlLTVZycU9hN3pqVmF2TU1sN05oWjgteFVVc0tqNGdFVVFwRWdRbnRsV2V4V1Z4c2REaXV5cHFDRWgxOW02SzZrQmtKQXZFZlRCcGFHVTRiMzlDQVVGN3pZQ2RaTUFpdw?oc=5",
+    "pub": "Sat, 06 Jun 2026 01:11:00 GMT",
+    "src": "IndexBox",
+    "trig": false
+   },
+   {
+    "title": "SA financial sector at critical crossroads ahead of interest rate decision - sundayindependent.co.za",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNcEtsb0hGWTY4aVdVbmVYY3ZMNU9wNVUtQ3hHOTNIMWFIUGd0ekRBMnp6YUltTkZOMGw1c2F4T2pOWTBWdTZlOFdmX3ZxLVJqRWJqMXRQX0lOdmhuQzNDNVFTcFZEdTg1RkVxRHl5Z1BXV3E5SVdwcFFGQk9pdHA2dkFFQ0dKZ3hGVEJNR3NxYXpva1VTaVJtWi1BWDhkcGNGZC1DV0JsV3M3dUJvSmhnWXFLVjh4a1hLVFpubDVRZTZ5MG5oWTJzMnQzT0pDUThORWc?oc=5",
+    "pub": "Fri, 05 Jun 2026 23:02:18 GMT",
+    "src": "sundayindependent.co.za",
+    "trig": false
+   },
+   {
+    "title": "10-year Treasury yield hits 4.55%, 2-year note at highest since 2025, signaling recession risks. - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4tWVRTUjl3b0ZUdlNzLWQ1bkpkQTg3eXFNRTF2T3dtUm9fb1pPY2hLNlJWMkRMNy1jaUtrRUhmYU9TNHExVnJNTFVBM2xVVjF5S3hqeWZJOTBLS21XYnU3NXllbTRidlJnMnNkRndJanNlOFR3RXFv?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:47:33 GMT",
+    "src": "Pluang",
+    "trig": false
+   },
+   {
+    "title": "Four key takeaways from Jerome Powell's final rate decision as Fed chair - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdG00ZElrUXBLODVPaDF4VGFqRVE4LWJQcU5aYlFZVnVrUDBPU3NFdUdBSjdfVF84dENYc3BCRGZwd0dmQVVZSUp5SlZPS0pBaXVKUFhrbWlySnRzSkUxQzl1LTU0a1BWMFJ3TjhNN3Y1QnAyWnExa2dVd0F1WF9fTXUtbw?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:39:03 GMT",
+    "src": "AOL.com",
+    "trig": false
+   },
+   {
+    "title": "Forget Tariffs — These 3 Threats Could Trigger the First Major Trump-Era Market Crash - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzOXVGTHAxUkwzR1RnX0drODJYMEVRSk1JRmp4RG1PS19UVGp3R2pWYjZ6ZU1udzdhckVETGZRUlVPejhyMTVwYW9meTBpVElhWmFUaXdYY09YS0tlakhWOTBTS0lONWZmeWl6dks2VzZEa1pkc0JpUFhKX0pZRmM?oc=5",
+    "pub": "Fri, 05 Jun 2026 22:11:45 GMT",
+    "src": "AOL.com",
+    "trig": false
+   },
+   {
+    "title": "VIX jumps to $19.15 with 24% intraday surge amid heightened market uncertainty - eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9GRk5vV2ZDbS1HNm9hempNYnJkOGZpMmMwaEJQRVNsLTFPQ2NMekktd1RtRVdxUmxMNU5KeEttczVIRl9TLXRBeU1PX2JMQ0g3NnFiUVJyX1BTSGVhMGk2dWFsN0ZjamtYMHh5eA?oc=5",
+    "pub": "Fri, 05 Jun 2026 21:31:15 GMT",
+    "src": "eciks.org",
     "trig": false
    }
   ],
   "flow": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
+    "title": "Does Southern Copper’s (SCCO) Insider Sale Reframe How Investors Weigh Peru–Mexico Risk Against Copper Prices? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNN2lfajI3UkVnc09vMmU0VEZFZGpVb3ZCV0xNUTBYX25NcVN5UF9VS0FUVGltcGg2T0IwTkl0U01JczZGVTJ4ejhkMVUtcGM0UFZUYXhVT19xN09qNlRGSnVJaTdYaFRZSllmdHpYQTJ5QzNhQi0wa3dmdUJoUjkxd2hUa0dpU2ZKZWFwTXhDYWN2VEZKdXpfNmdhRGlyYWVfalZoMGE0ZHNoUGZHZEhQZFNEcE1ZdURDVFRlVEdUSWtiTUZwSmp0aUZCM3BHQdIB0wFBVV95cUxOOFRlaVdFa0ExRDEwOENHZ1pId1VNdDNmZkdHNjdNWWh3SW5xR0t6dTB5V3FSNXI4RjhVcmtycUk4M05xSzBGbmNkaE84NG5WdEF1ZHgyVkY5bVRuWl9vOFE3VnhySU1EOE5HNVZoc2EzR2w3bWRxdkxMWGF4NEVNWFlha0NtX0Vrcm5HejVwLVl0YWZWai05cXAzdnBMX293YW91ZURVeEdmSGpzX2hrMzdFODZucllxUi1hUDA4QjR0VnVUOUUwbWE0azAwa3RUa0dV?oc=5",
+    "pub": "Sat, 06 Jun 2026 00:40:55 GMT",
+    "src": "simplywall.st",
+    "trig": false
+   },
+   {
+    "title": "Why Is Gold Still a Safe Haven? Switzerland’s Biggest Refiner Just Answered. - GoldSilver",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRy1CRDY1Q2dtLTRkOFJZYVZ1RVNERXozNW5QSElrRk1GSjBHMUFOT3JIaFFqY2R5OEJuQ0ZNTkV4dFZ3LUNQdGRzV0J0cjhHOFM4OWZ6c3dIRUtWcE1kQkx5VTBSVXlNaGctUmJkX0RHRXRsdnRvb21PcGpfY2k4TndKZ3UtWEVUWG92UmxpTFdmbHNsVm9iSG5LTnJGUzYtNDB2QWxpVXd4MThEMm9VWGx3WklJdGdidFB3?oc=5",
+    "pub": "Fri, 05 Jun 2026 20:21:53 GMT",
+    "src": "GoldSilver",
+    "trig": false
+   },
+   {
+    "title": "US Dollar Ends Week Higher After Strong NFP Report: What To Expect Next Week - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5CUDlUdXZPNDBPZUIyQzRSOGhRbFNKSGZsU3BETEFNaGx2Z0x2YmJ3VXZnTDh0U09mclQ2WmhoYlVFRlJDYVgyeUQ0VWRGempSa3I5WUttbVVvTFdIOF9CaGJ2WktrVTBmYjJDUnJhcGtqZw?oc=5",
+    "pub": "Fri, 05 Jun 2026 20:15:10 GMT",
+    "src": "Bitcoin World",
+    "trig": false
+   },
+   {
+    "title": "USD/JPY Price Forecast: Yen at 159.93 Against the 160 Intervention Wall as a 172K Jobs Print Fights a June 16 BoJ Hik - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX2Vmd001a0JHc0ZsR3dXVmstbXB3cDZFangwZlpjdFZocktEMlRldWo2bEVoZTAzODNXbkFzeC04N181d0h0WW9Ddy1GMndFZTlRYjB5bGlEanFOOEk4SG03RlN5dm5XdnFmRzdSX1lNMm1pU1hKVW5uX0RidGNfTGl6RHpVVDI1d1lvVXJFYk16UTFxVG1ockN5NFlqR2c2aFE?oc=5",
+    "pub": "Fri, 05 Jun 2026 20:10:54 GMT",
+    "src": "TradingNEWS",
+    "trig": false
+   },
+   {
+    "title": "Capstone Copper (TSX:CS) Valuation Check After Recent Share Price Momentum - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPc1VPdjJ6OUhSbUgwdVFzUGNCRlNsUlQ1aENIbVBHMUtFQ1JDZzdfWk9JTXd4RTlmbVpicWxFTGxzZkRySnU0MTJmcVNQTG9GT21HLVlOb1ptT0pWVElnNjZxRzJ5el83RjZham9PbDZPT2hvaGN4UXQ1LUlJT1NLTTllOE5VSUU2MEdMR0xibkVPSGR2aG90VDJxZUp3UQ?oc=5",
+    "pub": "Fri, 05 Jun 2026 20:04:58 GMT",
+    "src": "Yahoo Finance",
+    "trig": false
+   },
+   {
+    "title": "Oil Price Prediction Market: How High Will WTI Go in 2026? - Covers.com",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE43S1BJWkRkdUEyZ1VpTnhmZ0tnUi1MdVoxYUlwZ3h6SnYyamxfSHdzTFpDMkpDZ3NiZTd4UHdGMlJUbzJpMTEzcTAtV3RRMGpqRk8tTnBQRnRWSEo0Vmw4ZHlVR2dWbHp2Q1F2Vg?oc=5",
+    "pub": "Fri, 05 Jun 2026 19:59:00 GMT",
+    "src": "Covers.com",
     "trig": false
    }
   ]
@@ -726,7 +866,7 @@
    "form": "8-K",
    "date": "2026-06-03",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
-   "summary": "FS KKR Capital Corp이 2026년 6월 1일 현재보고서를 제출했으나 구체적인 사건 내용이 문서에 명시되어 있지 않습니다.",
+   "summary": "Item 1.01(중요계약 체결), Item 9.01(재무제표/첨부)",
    "new": true
   },
   {
@@ -734,7 +874,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "Golub Capital BDC가 2026년 5월 27일 U.S. Bank Trust Company와 신규 공모 관련 중요한 확정 계약을 체결했다.",
+   "summary": "Golub Capital BDC가 2026년 5월 27일 공모에 연계하여 U.S. Bank Trust Company와 신탁 계약을 체결했다.",
    "new": false
   },
   {
@@ -742,7 +882,7 @@
    "form": "8-K",
    "date": "2026-05-26",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
-   "summary": "아레스 캐피탈이 JPMorgan Chase Bank를 주관행으로 하는 선순위 담보 신용공여 약정을 개정 및 재작성했다.",
+   "summary": "아레스 캐피탈이 JPMorgan Chase Bank를 주관사로 하는 선순위 담보 신용한도를 증액 개정했다.",
    "new": false
   },
   {
@@ -750,7 +890,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 추가 약정서를 체결했다.",
+   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 보충 신탁증서를 체결했다.",
    "new": false
   },
   {
@@ -758,7 +898,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund가 5.9% 이자율의 6억5천만 달러 규모 2031년 만기 채권 발행을 위한 추가 약정서를 체결했다.",
+   "summary": "Blackstone Secured Lending Fund가 2031년 만기 5.9% 채권 6억5천만 달러에 대한 보충 약정서를 체결했다.",
    "new": false
   }
  ],
@@ -817,7 +957,7 @@
   "cape_manual": false
  },
  "summary": {
-  "text": "신용 뉴스 0건 중 트리거 0건 — 신용 특이신호 적음 · VIX 22 · 미10년 4.54% · DXY 100.1 · HY스프레드 2.74% · CAPE 42. (AI 요약은 API 키 설정 시)",
-  "by": "heuristic"
+  "text": "AI 투자 확대로 신용수요는 늘고 있으나 사모펀드 환매 제한과 금리 4.5% 수준 유지, 밸류에이션 고점(CAPE 42) 속에서 AI 캡엑스 효율성 의문과 신용 스트레스 우려가 동시에 커지면서 시장이 성장성과 위험 사이에서 방향성을 모색 중이다.",
+  "by": "claude"
  }
 }

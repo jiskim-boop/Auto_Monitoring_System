@@ -154,7 +154,7 @@
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
         <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험 · 45+ 항복권(바닥 가능) · <b style="color:#8a93a6">변화율(+20%)이 첫날엔 레벨보다 정확</b></div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
-        <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
+        <div class="desc">실제 HY OAS(FRED) 기준 · HYG/LQD 보조</div><div class="verdict" id="lv-spread">—</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
         <div class="desc">역전=침체 선행</div><div class="verdict" id="lv-curve">—</div>
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
@@ -295,12 +295,29 @@ function jpyFlow(p){const q=p['JPY=X'];if(!q||!q.ok){lvl('lv-jpy','실패');retu
 function curveAxis(p){const t=norm(num(p['^TNX'])),i=norm(num(p['^IRX']));if(t==null||i==null){badge($('st-curve'),'n','N/A');lvl('lv-curve','실패');return null;}
   const sp=t-i;const st=sp<0?'r':sp<0.5?'a':'g';badge($('st-curve'),st);
   lvl('lv-curve','10Y '+t.toFixed(2)+' − 3M '+i.toFixed(2)+' = <b>'+(sp>=0?'+':'')+sp.toFixed(2)+'%p</b>'+(sp<0?' 역전':''));return st;}
-function spreadAxis(p){const hy=pStatus(p['HYG']),ig=pStatus(p['LQD']);if(!hy||!ig){badge($('st-spread'),'n','N/A');lvl('lv-spread','실패');return null;}
-  let st='g',msg='스프레드 안정';
-  if(hy==='r'&&ig==='r'){st='r';msg='HY·IG 동반 약세 — 광범위 경색';}
-  else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
-  else if(hy==='a'){st='a';msg='HY 약세 조짐';}
-  badge($('st-spread'),st);lvl('lv-spread',`HYG $${p['HYG'].price} ${chgHtml(p['HYG'])} · LQD $${p['LQD'].price} ${chgHtml(p['LQD'])}<br>${msg}`);return st;}
+function spreadAxis(p,fred){
+  // 실제 HY OAS(FRED) 레벨이 기준 — 미니차트와 일치
+  const oas=(fred&&fred.ok&&fred.hyoas)?fred.hyoas.value:null;
+  const hyg=p['HYG'],lqd=p['LQD'];
+  if(oas==null && (!hyg||!hyg.ok)){badge($('st-spread'),'n','N/A');lvl('lv-spread','실패');return null;}
+  let st='g',msg;
+  if(oas!=null){
+    // FRED HY OAS 레벨 기준 (미니차트와 동일 임계)
+    st = oas>=7?'r':oas>=5?'a':'g';
+    msg = `실제 HY OAS ${oas.toFixed(2)}% — ${st==='r'?'경색':st==='a'?'확대':'안정'}`;
+    // 보조: HYG가 당일 급락이면 한 단계 경계 강화 (조기 신호)
+    if(st==='g' && hyg&&hyg.ok&&hyg.chg!=null&&hyg.chg<=-1){st='a';msg+=' · HYG 당일 약세(조기신호)';}
+  } else {
+    // FRED 없을 때만 ETF 추세로 대체
+    const hy=pStatus(hyg),ig=pStatus(lqd);
+    if(hy==='r'&&ig==='r'){st='r';msg='HY·IG 동반 약세 — 광범위 경색';}
+    else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
+    else if(hy==='a'){st='a';msg='HY 약세 조짐';}
+    else msg='스프레드 안정';
+  }
+  const hygTxt = (hyg&&hyg.ok)?`HYG $${hyg.price} ${chgHtml(hyg)}`:'';
+  const lqdTxt = (lqd&&lqd.ok)?` · LQD $${lqd.price} ${chgHtml(lqd)}`:'';
+  badge($('st-spread'),st);lvl('lv-spread',`${hygTxt}${lqdTxt}<br>${msg}`);return st;}
 function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
@@ -575,7 +592,7 @@ async function load(){
     if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
     const p=d.prices||{};
     // 거시
-    const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    const sVix=vixAxis(p),sSpread=spreadAxis(p,d.fred),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
     const sDeriv=derivPanel(p, d.updated);
     krIndex(p);
     // AI 밸류체인

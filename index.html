@@ -523,8 +523,7 @@ function earlyWarning(p,fred){
   // ── 선행 신호 (조기) — 점수엔 약하게 반영, 축 카운트엔 미반영(과민 방지) ──
   const ch=window.__charts||{};
   const earlyHits=[];
-  let earlyScore=0;
-  const addEarly=(label,desc)=>{earlyHits.push(desc);earlyScore+=0.5;};
+  const addEarly=(label,desc)=>{earlyHits.push(desc);};
   const rising=(arr,n=3)=>{
     if(!arr||arr.length<n+1)return false;
     const t=arr.slice(-(n+1));
@@ -603,6 +602,8 @@ function earlyWarning(p,fred){
       parts.push(`${axisDesc.join('·')} 축에서 동시에 경고가 나오고 있습니다. 두 축이 겹친다는 건 단순 노이즈가 아닐 가능성이 높다는 뜻입니다. 나머지 한 축(${!axisFast?'옵션':!axisPrice?'가격':'신용시스템'})으로 번지는지 주시가 필요합니다.`);
     } else if(axisCount===1){
       parts.push(`${axisDesc.join('')} 축에서만 신호가 나옵니다. 아직 한 축에 국한돼 있어 ${axisFast?'심리적 동요로 그칠 수도':axisPrice?'가격 변동에 그칠 수도':'시스템 신호이나 단발일 수도'} 있습니다. 다른 축으로 확산되면 신뢰도가 올라갑니다.`);
+    } else if(earlyHits.length>=2){
+      parts.push(`확정 급변 신호는 아직 없으나, <b style="color:#ffb454">조기 징후가 ${earlyHits.length}개</b> 포착됐습니다. 아래 징후들이 확정 신호로 번지는지 주시가 필요한 단계입니다.`);
     } else {
       parts.push(`현재 옵션·가격·신용 어느 축에서도 동시 급변 신호가 없습니다. 시장은 평온한 상태입니다.`);
     }
@@ -629,10 +630,10 @@ function colSummaries(ctx){
   const W={r:'위험',a:'주의',g:'안정',n:'-'};
   const set=(id,txt,lvl)=>{const e=$(id);if(!e)return;e.textContent=txt;
     e.style.borderLeftColor = lvl==='r'?'#ff6b6b':lvl==='a'?'#ffb454':lvl==='g'?'#37d6a0':'#2a3340';};
-  // 1열 신용·유동성
+  // 1열 신용·유동성 (신호등 credit1과 동일 기준)
   {
-    let lvl=sCredit||'n', t;
-    if(lvl==='r') t='사모대출·신용 프록시에서 약세 신호. 신용 시스템 경계 필요.';
+    let lvl=ctx.credit1||sCredit||'n', t;
+    if(lvl==='r') t='신용·유동성 위험 — 실제 신용지표 또는 다수 영역 경색.';
     else if(lvl==='a') t='신용 일부 약화 조짐. 추세 주시 단계.';
     else t='신용·유동성 안정. 자금경색 신호 없음.';
     set('sum-credit',t,lvl);
@@ -773,9 +774,8 @@ function setSig(id,lvl,word){
 function renderSignals(ctx){
   const {sCredit,sDeriv,sFred,vAi,vSys}=ctx;
   const W={r:'위험',a:'주의',g:'안정',n:'-'};
-  // 1열 "신용·유동성" = 사모대출 + 옵션선행 + FRED느린선행 종합
-  // 느린선행(FRED·실제 자금경색)이 가장 신뢰도 높음 → 위험이면 위험
-  // 빠른선행(옵션)·사모대출은 보조. 둘 이상 위험이거나 FRED 위험이면 위험
+  // 1열 "신용·유동성" = 사모대출(ETF) + 옵션선행 + FRED느린선행 종합
+  // ETF 단독으론 '주의'까지(c1r=1). '위험'은 실제 신용(sFred) 확정 또는 둘 이상 동반일 때
   const c1=[sCredit,sDeriv,sFred].filter(Boolean);
   const c1r=c1.filter(x=>x==='r').length, c1a=c1.filter(x=>x==='a').length;
   let credit1='g';
@@ -794,7 +794,7 @@ function renderSignals(ctx){
     if(banner){banner.style.borderColor='#2a3340';banner.style.background='#0d1320';banner.style.boxShadow='none';}
     if(dot){dot.style.background='#7b8499';dot.style.boxShadow='none';}
     if(word){word.textContent='데이터 대기';word.style.color='#7b8499';word.style.fontSize='15px';}
-    return;
+    return credit1;
   }
   // 종합위험도 = 정확(보수적). 조기경보가 '조기징후만'이면 종합 단계는 안 올림(확정만 반영)
   // ew를 종합에 반영하되, earlyOnly(조기징후뿐)면 제외
@@ -813,6 +813,7 @@ function renderSignals(ctx){
     banner.style.boxShadow=(ew.axisCount>=3)?`0 0 18px ${tc}40`:'none';}
   if(dot){dot.style.background=tc;dot.style.boxShadow=`0 0 10px ${tc}`;}
   if(word){word.textContent=totalWord;word.style.color=tc;word.style.fontSize='22px';}
+  return credit1;
 }
 function renderHistory(d){
   const hist=d.history||[];
@@ -921,8 +922,8 @@ async function load(){
     if(trigNews.length||newFilings.length)extra='신용 트리거';
     else if(ew&&ew.score>=2)extra='급변 경보';
     const vAi=setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
-    colSummaries({sCredit,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
-    renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
+    const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
+    colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);
     // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];

@@ -543,15 +543,17 @@ function earlyWarning(p,fred){
   const hygWeak = hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-1;
   if(spyUp&&hygWeak) addEarly('시장-신용 괴리','시장은 버티나 신용(HYG)이 약해지는 괴리');
   if(v!=null&&v<20&&sk!=null&&sk>=145) addEarly('숨은 헤지','VIX는 낮으나 SKEW 높음 — 큰손 급락 대비 중');
-  // 선행은 점수에 절반만 반영(최대 1.0 캡) — 확정신호 없이 최고경보 안 되게
-  score += Math.min(earlyScore*0.5, 1.0);
-  // 단계 판정: 4단계 (정상→주의→경계→위험)
+  // ── 단계는 확정신호(score+축)만으로 결정 — 조기징후는 단계를 올리지 않음(정확성) ──
+  // 단계 판정: 4단계 (안정→주의→경계→위험)
   const axisCount=(axisFast?1:0)+(axisSlow?1:0)+(axisPrice?1:0);
   let st,lab,tier;
   if(axisCount>=3){st='r';lab='위험';tier=3;}        // 3축 동시 = 위험
-  else if(score>=2){st='r';lab='경계';tier=2;}        // 점수 2+ = 경계
-  else if(score>=1){st='a';lab='주의';tier=1;}        // 점수 1+ = 주의
+  else if(score>=2){st='r';lab='경계';tier=2;}        // 확정 점수 2+ = 경계
+  else if(score>=1){st='a';lab='주의';tier=1;}        // 확정 점수 1+ = 주의
+  else if(earlyHits.length>=2){st='a';lab='주의';tier=1;}  // 조기징후 다수 = 주의까지만(빨리 알림)
   else {st='g';lab='안정';tier=0;}
+  // 조기징후만으로 켜진 '주의'인지 표시용 플래그
+  const earlyOnly = (score<1 && axisCount<3 && earlyHits.length>=2);
   // (배지 제거: 단계는 진행바, 상태는 이모티콘으로 표시)
   // 4단계 진행바 렌더 (현재 단계 하이라이트)
   const tierEl=$('ew-tiers');
@@ -604,19 +606,22 @@ function earlyWarning(p,fred){
     } else {
       parts.push(`현재 옵션·가격·신용 어느 축에서도 동시 급변 신호가 없습니다. 시장은 평온한 상태입니다.`);
     }
-    // 선행(조기) 신호 — 레벨 도달 전 미리 감지된 것
+    // 선행(조기) 신호 — 단계는 안 올리고 '빨리 알림'만
     if(earlyHits.length){
-      parts.push(`<b style="color:#7aa5d6">⏱ 선행 신호:</b> ${earlyHits.join(' · ')}. <span style="color:#8a93a6">아직 위험 레벨엔 못 미쳤지만 그 방향으로 움직이는 초기 징후로, 일반 지표보다 먼저 포착된 것입니다.</span>`);
+      const head = earlyOnly
+        ? `<b style="color:#7aa5d6">⏱ 조기 징후 ${earlyHits.length}개 (아직 확정 아님):</b>`
+        : `<b style="color:#7aa5d6">⏱ 조기 징후:</b>`;
+      parts.push(`${head} ${earlyHits.join(' · ')}. <span style="color:#8a93a6">확정 신호보다 먼저 포착된 초기 움직임입니다. ${earlyOnly?'아직 확정 신호는 없어 단계는 "주의"에 머물지만, 방향을 빨리 알리기 위해 표시합니다.':''}</span>`);
     }
     // 행동 참고 (지시가 아닌 일반적 점검 사항)
     let act='';
     if(axisCount>=3) act='이런 국면에서 일반적으로 점검하는 것: 현금 비중·포지션 집중도·헤지 여부. 패닉 매매는 흔히 손실을 키웁니다.';
     else if(axisCount===2) act='2축 동시 국면에서 흔히 하는 점검: 한 축 더 번지는지 확인, 신규 진입 속도 조절.';
-    else if(score>=1||earlyHits.length>=2) act='선행 신호 단계에서 흔히 하는 점검: 관심 지표의 추세 방향, 무리한 추격매수 자제.';
+    else if(score>=1||earlyHits.length>=2) act='조기 징후 단계에서 흔히 하는 점검: 관심 지표의 추세 방향, 무리한 추격매수 자제.';
     if(act) parts.push(`<b style="color:#8a93a6">💡 참고:</b> <span style="color:#8a93a6">${act} 이는 일반적 정보이며 투자 권유가 아닙니다.</span>`);
     det.innerHTML = parts.map(x=>`<div style="margin-bottom:5px">${x}</div>`).join('');
   }
-  return {st,score,hits,futDrop,axisCount,earlyHits,axisFast,axisSlow,axisPrice};}
+  return {st,score,hits,futDrop,axisCount,earlyHits,axisFast,axisSlow,axisPrice,earlyOnly};}
 
 // 각 열 한 줄 요약 (지표 상태 기반 규칙)
 function colSummaries(ctx){
@@ -791,11 +796,15 @@ function renderSignals(ctx){
     if(word){word.textContent='데이터 대기';word.style.color='#7b8499';word.style.fontSize='15px';}
     return;
   }
+  // 종합위험도 = 정확(보수적). 조기경보가 '조기징후만'이면 종합 단계는 안 올림(확정만 반영)
+  // ew를 종합에 반영하되, earlyOnly(조기징후뿐)면 제외
+  const ewEffective = (ew.earlyOnly) ? null : ew.st;
+  const lvls2=[credit1,vAi,vSys,ewEffective].filter(x=>x&&x!=='n');
   let total='g';
-  const rCount=lvls.filter(x=>x==='r').length;
+  const rCount=lvls2.filter(x=>x==='r').length;
   if(ew.axisCount>=3) total='r';
   else if(rCount>=2) total='r';
-  else if(rCount>=1||lvls.filter(x=>x==='a').length>=2) total='a';
+  else if(rCount>=1||lvls2.filter(x=>x==='a').length>=2) total='a';
   const totalWord = total==='r'?(ew.axisCount>=3?'위험':'경계'):total==='a'?'주의':'안정';
   // 큰 종합 배너 채우기
   const C2={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0'};

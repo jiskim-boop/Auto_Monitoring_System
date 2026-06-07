@@ -90,7 +90,29 @@
     </div>
   </div>
 
-  <!-- ②③ 접기/펼치기 (변화 + 타임라인) -->
+  <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
+  <div id="ew-toggle" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #1b2330;background:#0d1320;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;align-items:center;gap:9px">
+      <span id="ew-caret" style="font-size:10px;color:#6f7888">▶</span>
+      <span id="ew-dot" style="width:10px;height:10px;border-radius:50%;background:#37d6a0;flex-shrink:0"></span>
+      <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">조기경보</span>
+      <span style="font-size:9px;color:#6f7888">빠른 선행 알림</span>
+    </div>
+    <span id="ew-mini" style="font-size:15px;font-weight:900;color:#37d6a0">—</span>
+  </div>
+  <div class="card" id="ew-card" style="margin-bottom:8px;border-left:4px solid #1fd6c4;position:relative;display:none">
+    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:10px;line-height:1">—</span></div>
+    <div class="desc">옵션·신용·가격 3축 가중 합산 · 종합위험도의 보조(미리 알림)</div>
+    <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
+    <div class="verdict" id="early-note">—</div>
+    <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
+    <div class="risk" style="margin-top:8px">
+      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기 징후만이면 주의까지(미리 알림)</b><br>
+      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> HY스프레드·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
+      <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6">위험을 미리 알리는 보조 알림 · 실제 위험도 결정은 상단 종합위험도 · 임계값 백테스트 보정(HY 5.5%·VIX 26), 보조도구</span>
+    </div>
+  </div>
+
   <div class="colhead" id="hist-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
     <span><span id="hist-caret">▶</span> 📊 변화·추이</span>
     <span id="hist-mini" style="font-size:9px;color:#6f7888;font-weight:400"></span>
@@ -135,24 +157,6 @@
     · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <!-- 0번: 단기 급변 조기경보 (독립 섹션) -->
-  <!-- 조기경보 (보조·접기) — 평소엔 한 줄, 펼치면 상세 -->
-  <div class="colhead" id="ew-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
-    <span><span id="ew-caret">▶</span> ⚡ 조기경보 <span style="font-size:9px;color:#6f7888;font-weight:400">(빠른 선행 알림)</span></span>
-    <span id="ew-mini" style="font-size:10px;font-weight:700;color:#37d6a0"></span>
-  </div>
-  <div class="card" id="ew-card" style="margin-bottom:14px;border-left:4px solid #1fd6c4;position:relative;display:none">
-    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:10px;line-height:1">—</span></div>
-    <div class="desc">옵션·신용·가격 3축 가중 합산 · 종합위험도의 보조(미리 알림)</div>
-    <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
-    <div class="verdict" id="early-note">—</div>
-    <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
-    <div class="risk" style="margin-top:8px">
-      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기 징후만이면 주의까지(미리 알림)</b><br>
-      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> HY스프레드·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
-      <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6">위험을 미리 알리는 보조 알림 · 실제 위험도 결정은 상단 종합위험도 · 임계값 백테스트 보정(HY 5.5%·VIX 26), 보조도구</span>
-    </div>
-  </div>
-
   <!-- 핵심 지표 추세 차트 (접기/펼치기) -->
   <div class="colhead" id="chart-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
     <span><span id="chart-caret">▶</span> 📈 핵심 지표 추세 (최근 90일)</span>
@@ -586,12 +590,13 @@ function earlyWarning(p,fred){
              : st==='a' ? '🙀'
              : '😺';
   const em=$('ew-mood'); if(em){em.textContent=mood;}
-  const mini=$('ew-mini');
+  const mini=$('ew-mini'), ewdot=$('ew-dot');
   if(mini){
     const CC={안정:'#37d6a0',주의:'#ffb454',경계:'#ff6b6b',위험:'#ff3b6b'};
-    const extra = earlyHits.length?` · 조기징후 ${earlyHits.length}`:'';
-    mini.textContent = lab+extra+' (탭)';
-    mini.style.color = CC[lab]||'#37d6a0';
+    const col=CC[lab]||'#37d6a0';
+    mini.textContent = lab;
+    mini.style.color = col;
+    if(ewdot){ewdot.style.background=col;ewdot.style.boxShadow=`0 0 8px ${col}`;}
   }
   const axisTxt = axisCount>=2 ? ` <span style="color:#8a93a6">[${[axisFast?'옵션':'',axisSlow?'신용시스템':'',axisPrice?'가격':''].filter(Boolean).join('+')} 동시]</span>` : '';
   $('early-note').innerHTML = score===0

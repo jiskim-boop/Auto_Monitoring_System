@@ -42,8 +42,8 @@
   .sigdot{width:11px;height:11px;border-radius:50%;flex-shrink:0;background:#7b8499;}
   .signm{font-size:11px;color:#8a93a6;}
   .sigvl{font-size:13px;font-weight:700;margin-left:auto;color:#7b8499;}
-  #sigstrip{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:8px;}
-  @media(max-width:640px){#sigstrip{grid-template-columns:repeat(2,1fr);}}
+  #sigstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px;}
+  @media(max-width:640px){#sigstrip{grid-template-columns:1fr;}}
   .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:11px 13px;margin-bottom:9px;}
   .card.macro{border-left:3px solid #ff8a5a;}.card.ai{border-left:3px solid #5aa0ff;}.card.flow{border-left:3px solid #c89bff;}.card.man{border-left:3px solid #4d5566;}.card.crit{border-left:3px solid #ff6b6b;}
   .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
@@ -75,12 +75,20 @@
   <h1>시장 사이클 모니터</h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
 
-  <!-- ① 신호등 스트립 (항상 표시) -->
+  <!-- 종합 위험도 (맨 위, 크게) -->
+  <div id="total-banner" style="border-radius:12px;padding:14px 18px;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;border:1px solid #1b2330;background:#0d1320">
+    <div style="display:flex;align-items:center;gap:12px">
+      <span id="total-dot" style="width:16px;height:16px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
+      <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">종합 위험도</span>
+    </div>
+    <span id="total-word" style="font-size:22px;font-weight:900;color:#7b8499">—</span>
+  </div>
+
+  <!-- 개별 신호등 3개 -->
   <div id="sigstrip">
     <div class="sigbox" id="sig-credit"><span class="sigdot"></span><span class="signm">신용·유동성</span><span class="sigvl">—</span></div>
     <div class="sigbox" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span><span class="sigvl">—</span></div>
     <div class="sigbox" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span><span class="sigvl">—</span></div>
-    <div class="sigbox" id="sig-total"><span class="sigdot"></span><span class="signm">종합 위험도</span><span class="sigvl">—</span></div>
   </div>
 
   <!-- ②③ 접기/펼치기 (변화 + 타임라인) -->
@@ -89,12 +97,10 @@
     <span id="hist-mini" style="font-size:9px;color:#6f7888;font-weight:400"></span>
   </div>
   <div id="hist-wrap" style="display:none;margin-bottom:8px">
-    <!-- 어제 대비 변화 -->
     <div style="background:#0c1119;border-left:3px solid #5aa0ff;border-radius:8px;padding:10px 14px;margin-bottom:8px;">
       <div style="font-size:10px;color:#5aa0ff;font-family:'Space Mono',monospace;letter-spacing:1px;margin-bottom:6px;">📌 직전 대비 변화</div>
       <div id="changes"><div class="empty">비교 데이터 누적 중…</div></div>
     </div>
-    <!-- 30일 타임라인 -->
     <div style="background:#0d1320;border:1px solid #1b2330;border-radius:10px;padding:12px 14px;">
       <div style="font-size:10px;color:#7aa5d6;font-family:'Space Mono',monospace;letter-spacing:1px;margin-bottom:9px;display:flex;justify-content:space-between;"><span>⚡ 조기경보 30일 추이</span><span id="tl-note" style="color:#8a93a6;font-weight:400;letter-spacing:0"></span></div>
       <div id="tl-bars" style="display:flex;gap:2px;align-items:flex-end;height:46px;"><div class="empty">이력 누적 중…</div></div>
@@ -104,16 +110,29 @@
 
   <div class="alert" id="stale" style="border-left-color:#ffb454;background:#1a1505;"><div class="lbl" style="color:#ffb454">⏱ 데이터 낡음</div><div class="txt" id="stale-txt" style="color:#ffd98a"></div></div>
 
-  <div class="alert" id="alert"><div class="lbl">⚠ 신용 트리거 감지</div><div class="txt" id="alert-txt"></div></div>
+  <!-- 급변·트리거 배너 (해당 시에만 표시) -->
+  <div class="alert" id="alert"><div class="lbl">⚠ 시장 위험 감지</div><div class="txt" id="alert-txt"></div></div>
 
-  <div class="verds">
-    <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험 (타이밍)</div><div class="txt" id="ov-sys">—</div></div>
-    <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험 (섹터)</div><div class="txt" id="ov-ai">—</div></div>
-    <div class="vbox" id="vb-bubble"><div class="lbl">구조적 취약성 (배경)</div><div class="txt" id="ov-bubble">—</div></div>
+  <!-- 3대 영역 상세 판정 (이유 설명) -->
+  <div class="colhead" id="verd-toggle" style="margin-bottom:6px;color:#8a93a6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
+    <span><span id="verd-caret">▶</span> 🔎 영역별 상세 판정</span>
   </div>
+  <div id="verd-wrap" style="display:none">
+    <div class="verds">
+      <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험 (타이밍)</div><div class="txt" id="ov-sys">—</div></div>
+      <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험 (섹터)</div><div class="txt" id="ov-ai">—</div></div>
+      <div class="vbox" id="vb-bubble"><div class="lbl">구조적 취약성 (배경)</div><div class="txt" id="ov-bubble">—</div></div>
+    </div>
+  </div>
+
   <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
-  <div class="guide"><div class="lbl">판단법</div>
-    <b class="gg">정상</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 20·50일선 동시 아래 <b>또는</b> 당일 −5%↓ = 위험 (200일선보다 빠름)
+
+  <!-- 판단법 (접기) -->
+  <div class="colhead" id="guide-toggle" style="margin-bottom:6px;color:#8a93a6;cursor:pointer;user-select:none">
+    <span id="guide-caret">▶</span> 📖 판단법
+  </div>
+  <div class="guide" id="guide-wrap" style="display:none">
+    <b class="gg">안정</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 20·50일선 동시 아래 <b>또는</b> 당일 −5%↓ = 위험 (200일선보다 빠름)
     · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <!-- 0번: 단기 급변 조기경보 (독립 섹션) -->
@@ -121,10 +140,11 @@
   <div class="card" id="ew-card" style="margin-bottom:14px;border-left:4px solid #1fd6c4;position:relative">
     <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
     <div class="desc">옵션·신용·가격 3축 가중 합산 · 동시 발생일수록 신뢰↑</div>
+    <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
     <div class="verdict" id="early-note">—</div>
     <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     <div class="risk" style="margin-top:8px">
-      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경보 · 3축 동시=최고경보<br>
+      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험<br>
       <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> HY스프레드·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
       <b>논리:</b> 위기는 심리→가격→자금 순으로 번짐 · 3축 동시면 구조적 위기<br>
       <b style="color:#8a93a6">한계:</b> <span style="color:#8a93a6">임계값은 과거 폭락(2020·2018·SVB) 정성 백테스트로 보정(HY 5.5%·VIX 26) — 검증 표본 적음 · 신용축(FRED) 느려 첫날엔 옵션·가격만 켜짐 · 보조도구</span>
@@ -523,18 +543,31 @@ function earlyWarning(p,fred){
   if(v!=null&&v<20&&sk!=null&&sk>=145) addEarly('숨은 헤지','VIX는 낮으나 SKEW 높음 — 큰손 급락 대비 중');
   // 선행은 점수에 절반만 반영(최대 1.0 캡) — 확정신호 없이 최고경보 안 되게
   score += Math.min(earlyScore*0.5, 1.0);
-  // 단계 판정: 3축 동시 = 최상위, 합산 점수로 보조
+  // 단계 판정: 4단계 (정상→주의→경계→위험)
   const axisCount=(axisFast?1:0)+(axisSlow?1:0)+(axisPrice?1:0);
-  let st,lab;
-  if(axisCount>=3){st='r';lab='최고경보';}          // 빠른+느린+가격 모두
-  else if(score>=2){st='r';lab='경보';}
-  else if(score>=1){st='a';lab='주의';}
-  else {st='g';lab='정상';}
+  let st,lab,tier;
+  if(axisCount>=3){st='r';lab='위험';tier=3;}        // 3축 동시 = 위험
+  else if(score>=2){st='r';lab='경계';tier=2;}        // 점수 2+ = 경계
+  else if(score>=1){st='a';lab='주의';tier=1;}        // 점수 1+ = 주의
+  else {st='g';lab='정상';tier=0;}
   badge($('st-early'),st,lab);
+  // 4단계 진행바 렌더 (현재 단계 하이라이트)
+  const tierEl=$('ew-tiers');
+  if(tierEl){
+    const TIERS=[['정상','#37d6a0'],['주의','#ffb454'],['경계','#ff6b6b'],['위험','#ff3b6b']];
+    tierEl.innerHTML=TIERS.map(([nm,col],i)=>{
+      const on=i===tier;
+      const bg = on?col:'#10151f';
+      const fg = on?'#070a0f':'#5f6878';
+      const glow = on&&i>=2?`box-shadow:0 0 10px ${col};`:'';
+      const wt = on?'700':'400';
+      return `<div style="flex:1;text-align:center;padding:5px 0;border-radius:6px;background:${bg};color:${fg};font-size:11px;font-weight:${wt};${glow}">${nm}</div>`;
+    }).join('');
+  }
   // 카드 전체 색 변경 (단계별)
   const ewCard=$('ew-card'), ewHead=$('ew-head');
   const theme = axisCount>=3
-      ? {c:'#ff3b6b',bg:'rgba(255,59,107,0.10)',label:lab}   // 최고경보: 강렬한 마젠타레드
+      ? {c:'#ff3b6b',bg:'rgba(255,59,107,0.10)',label:lab}   // 위험: 강렬한 마젠타레드
       : st==='r' ? {c:'#ff6b6b',bg:'rgba(255,107,107,0.07)',label:lab}
       : st==='a' ? {c:'#ffb454',bg:'rgba(255,180,84,0.06)',label:lab}
       : {c:'#1fd6c4',bg:'transparent',label:lab};            // 정상: 시안
@@ -744,8 +777,15 @@ function renderSignals(ctx){
   if(ew.axisCount>=3) total='r';
   else if(rCount>=2) total='r';
   else if(rCount>=1||lvls.filter(x=>x==='a').length>=2) total='a';
-  const totalWord = total==='r'?'경계':total==='a'?'주의':'안정';
-  setSig('sig-total',total,totalWord);
+  const totalWord = total==='r'?(ew.axisCount>=3?'위험':'경계'):total==='a'?'주의':'안정';
+  // 큰 종합 배너 채우기
+  const C2={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0'};
+  const tc = (ew.axisCount>=3)?'#ff3b6b':C2[total];
+  const banner=$('total-banner'),dot=$('total-dot'),word=$('total-word');
+  if(banner){banner.style.borderColor=tc;banner.style.background=total==='g'?'#0d1320':tc+'14';
+    banner.style.boxShadow=(ew.axisCount>=3)?`0 0 18px ${tc}40`:'none';}
+  if(dot){dot.style.background=tc;dot.style.boxShadow=`0 0 10px ${tc}`;}
+  if(word){word.textContent=totalWord;word.style.color=tc;}
 }
 function renderHistory(d){
   const hist=d.history||[];
@@ -859,7 +899,7 @@ async function load(){
     renderHistory(d);
     // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];
-    if(ew&&(ew.score>=2||ew.futDrop)) alertParts.push((ew.axisCount>=3?'⚡최고경보: ':'급변: ')+ew.hits.slice(0,4).join('·'));
+    if(ew&&(ew.score>=2||ew.futDrop)) alertParts.push((ew.axisCount>=3?'⚡위험: ':'급변: ')+ew.hits.slice(0,4).join('·'));
     if(trigNews.length) alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
     if(newFilings.length) alertParts.push(`신규 공시 ${newFilings.length}건`);
     // 3대 영역 위험 요약
@@ -895,6 +935,20 @@ async function load(){
     const open=hw.style.display!=='none';
     hw.style.display=open?'none':'block';
     if(hc)hc.textContent=open?'▶':'▼';
+  });}
+  // 영역별 상세 판정 접기/펼치기
+  const vt=$('verd-toggle'), vw=$('verd-wrap'), vc=$('verd-caret');
+  if(vt&&vw){vt.addEventListener('click',()=>{
+    const open=vw.style.display!=='none';
+    vw.style.display=open?'none':'block';
+    if(vc)vc.textContent=open?'▶':'▼';
+  });}
+  // 판단법 접기/펼치기
+  const gt=$('guide-toggle'), gw=$('guide-wrap'), gc=$('guide-caret');
+  if(gt&&gw){gt.addEventListener('click',()=>{
+    const open=gw.style.display!=='none';
+    gw.style.display=open?'none':'block';
+    if(gc)gc.textContent=open?'▶':'▼';
   });}
 })();
 load();

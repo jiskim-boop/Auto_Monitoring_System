@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-07T05:20:38+00:00",
+ "updated": "2026-06-07T05:32:47+00:00",
  "prices": {
   "NVDA": {
    "price": 205.1,
@@ -572,12 +572,12 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61768.01,
-   "chg": 1.39,
-   "chg5": -13.39,
-   "sma20": 72403.44,
-   "sma50": 76071.78,
-   "sma200": 77571.2,
+   "price": 61664.03,
+   "chg": 1.22,
+   "chg5": -13.54,
+   "sma20": 72398.24,
+   "sma50": 76069.7,
+   "sma200": 77570.63,
    "high3m": 82138.93,
    "ok": true
   },
@@ -685,6 +685,13 @@
  "news": {
   "credit": [
    {
+    "title": "Classic Kawasaki Styling Meets 233 CC Everyday Usability, W230 Brings ABS To The Retro Class - Qoo Media",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPV0NPc0lPNURweHcySGdlMk41Sk9BNWhoQkFyVlVqQ2oxZ24ybXIyR1dfaDUweEl6blBsbWp5c0VuZkpyTG5ERzhQOVdjcFpHWGxKc0ZCNDlWTkN1ejdqaks5ZDQ0OXNoZGNXaU5FUXFwcFRKNUZZSi0ya296Y0ZPeE9Dcnk0cmRWeGdmLTE1OURUMXVXbkdmQmFocGhjbkxQTXpZMUJqb292WHliT1VGZEFzbzhhU0xBbGF0RjV3enJLbHptNEdTeEQ3TdIB0wFBVV95cUxQbm9Ua0lIRkZzTkpoOVhBblZPNzJreU1qcWlYSXprVVBEcVhtc2w5QmotZTQ3MUwta2dnNnVkMlhjMVQ4cHB1X3IycGY2YUpHNl9UVnNQb1ZkSzYwNzdNYVZiVDB5Um9VZVhSNjBqdlpHZ2lndDktSUZjUXI1VDFRMTRDR0w4YjJpdFBxNG5tVE5GOUZXVHAtYWtWRFlKSmFpT1ZMOE9kd3NSZTRRdURWczBWTW1XOXRuYU1XeHBTX2xwLTU0cThIUkw3dnNVMjh2M0Qw?oc=5",
+    "pub": "Sun, 07 Jun 2026 03:44:52 GMT",
+    "src": "Qoo Media",
+    "trig": false
+   },
+   {
     "title": "Samsung Heavy drives floating data center push as shipowners pursue AI leases - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPNjdFOURuU2dYYkFmWTVJRm0wckNiVzR0eWgxcmVGRHkyVVFncjU3dkhTc0tzZms3bVpZdzdvY3IxaDlsZFhyVGxVdFZoWk1PeTV3UnVqYUZfUHJJSzI3UE9lSWhWMXNRZXl5VUZwM0xqYUVZWEoyMUVYOU1DSERlTTlR0gGWAUFVX3lxTE04QnpsZUxKaUVqQXpUWEJTdVBrNVJ3MGctX0hGcURjcm1Cb0dPZU4wejQ2UlV3c3FjNHk4TDhRQnloTDg1b1JZY29WYXF3Q2x2aWsya1BhRm1wZzl0aUxxV1FfMlQ5TW5xNUJsMXJKZ1c2NWowS2lJeXBPYXF0cEMtTUdhM0QxZkQ1ZXNVT0VwblpZTVJWUQ?oc=5",
     "pub": "Sat, 06 Jun 2026 21:01:00 GMT",
@@ -717,13 +724,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQUUhkUTdUQ0EyeHcwVHpwYkU0UlY1Y3hBSGwxMHloZ1IwalNNYzE2RHBwM0pSM0FObWVNS0g2YnJyeHNsU0JzTW43cmQyUlB4R2lJR0pLeU50cjBfMElWN0lUcnpjVGowejRtdkp4RkZUd3JQVTZiVFFzT3NYc3N2ZTVSU21LQlV4NEhzSy05Q1NobUtGVE1hVFdqMl9fRmY3a25zQXJTOFhVMm10U1ZHWTdEMldfaTBmOUxjYg?oc=5",
     "pub": "Sat, 06 Jun 2026 10:53:54 GMT",
     "src": "Investing.com Nigeria",
-    "trig": false
-   },
-   {
-    "title": "Model Portfolio For Income, June 2026 - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPWWRRdHVpbjAwQXA3M2d5ZVAtRnRYcHBqSlhPZjk4V0lCTDBGMERQTy1URWlEOFlmZ1VRTDRoSzBYOHAxT3NWVG5wcVZMYkJpdHlyc0dYVkRvU1ZlZjU5TXJzSFlaNHZUU1RncmlfclNwTGRUTlIwX1lJWGxDUW5KWDlYUQ?oc=5",
-    "pub": "Sat, 06 Jun 2026 09:06:31 GMT",
-    "src": "Seeking Alpha",
     "trig": false
    }
   ],
@@ -862,43 +862,43 @@
  },
  "edgar": [
   {
-   "name": "OBDC (Blue Owl Capital)",
-   "form": "ERR",
-   "date": "<urlopen error [Errno 101] Network is unreachable>",
-   "link": "",
-   "summary": "",
-   "new": false
-  },
-  {
-   "name": "ARCC (Ares Capital)",
-   "form": "ERR",
-   "date": "<urlopen error [Errno 101] Network is unreachable>",
-   "link": "",
-   "summary": "",
-   "new": false
-  },
-  {
-   "name": "BXSL (Blackstone Secured Lending)",
-   "form": "ERR",
-   "date": "<urlopen error [Errno 101] Network is unreachable>",
-   "link": "",
-   "summary": "",
-   "new": false
-  },
-  {
    "name": "FSK (FS KKR)",
-   "form": "ERR",
-   "date": "<urlopen error [Errno 101] Network is unreachable>",
-   "link": "",
-   "summary": "",
+   "form": "8-K",
+   "date": "2026-06-03",
+   "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
+   "summary": "FS KKR Capital Corp가 2026년 6월 1일자로 8-K를 공시했으나 구체적인 사건 내용이 본문에 포함되어 있지 않습니다.",
    "new": false
   },
   {
    "name": "GBDC (Golub Capital)",
-   "form": "ERR",
-   "date": "<urlopen error [Errno 101] Network is unreachable>",
-   "link": "",
-   "summary": "",
+   "form": "8-K",
+   "date": "2026-05-27",
+   "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
+   "summary": "Golub Capital BDC가 2026년 5월 27일 공개 모집과 관련해 U.S. Bank Trust Company와 신탁 계약을 체결했다.",
+   "new": false
+  },
+  {
+   "name": "ARCC (Ares Capital)",
+   "form": "8-K",
+   "date": "2026-05-26",
+   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
+   "summary": "Ares Capital Corporation이 JPMorgan Chase Bank를 주관사로 시니어 담보 신용한도를 증액 및 재구성했다.",
+   "new": false
+  },
+  {
+   "name": "OBDC (Blue Owl Capital)",
+   "form": "8-K",
+   "date": "2026-05-21",
+   "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
+   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 보충 약정서를 체결했다.",
+   "new": false
+  },
+  {
+   "name": "BXSL (Blackstone Secured Lending)",
+   "form": "8-K",
+   "date": "2026-05-21",
+   "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
+   "summary": "블랙스톤 담보대출펀드가 2031년 만기 6억5천만 달러 규모의 5.9% 채권에 관한 11차 보충 약정서를 체결했다.",
    "new": false
   }
  ],
@@ -1089,7 +1089,7 @@
   ]
  },
  "summary": {
-  "text": "고금리와 높은 밸류에이션 속에서 AI 자본지출의 수익성 검증 우려가 신용시장 긴장(HY스프레드 상승, 사모펀드 환매 제한)으로 확산되고 있으며, 연준의 기준금리 인상 신호가 달러 강세와 함께 시장 변동성을 고조시키고 있다.",
+  "text": "금리가 4.5%대에서 고착되며 고금리 장기화 우려가 커지고 있고, AI 대형주 중심의 랠리 속 밸류에이션 심화(CAPE 42)와 AI 캡엑스 지속성에 대한 의문이 동시에 제기되면서 시장의 선별적 약세와 신용 긴장 신호(사모펀드 환매 제한)가 나타나는 중이다.",
   "by": "claude"
  }
 }

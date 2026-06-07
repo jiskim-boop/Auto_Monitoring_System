@@ -781,7 +781,16 @@ function renderSignals(ctx){
   setSig('sig-macro',vSys||'n',W[vSys||'n']);
   // 종합: 가장 높은 위험도 + 조기경보 반영
   const ew=ctx.ew||{};
-  const lvls=[credit1,vAi,vSys,ew.st].filter(Boolean);
+  const lvls=[credit1,vAi,vSys,ew.st].filter(x=>x&&x!=='n');
+  const banner=$('total-banner'),dot=$('total-dot'),word=$('total-word');
+  // 유효 판정이 없으면(첫 실행/데이터 없음) '안정'이 아니라 '대기'로
+  const validCount=[vAi,vSys].filter(x=>x&&x!=='n').length;
+  if(validCount===0){
+    if(banner){banner.style.borderColor='#2a3340';banner.style.background='#0d1320';banner.style.boxShadow='none';}
+    if(dot){dot.style.background='#7b8499';dot.style.boxShadow='none';}
+    if(word){word.textContent='데이터 대기';word.style.color='#7b8499';word.style.fontSize='15px';}
+    return;
+  }
   let total='g';
   const rCount=lvls.filter(x=>x==='r').length;
   if(ew.axisCount>=3) total='r';
@@ -791,11 +800,10 @@ function renderSignals(ctx){
   // 큰 종합 배너 채우기
   const C2={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0'};
   const tc = (ew.axisCount>=3)?'#ff3b6b':C2[total];
-  const banner=$('total-banner'),dot=$('total-dot'),word=$('total-word');
   if(banner){banner.style.borderColor=tc;banner.style.background=total==='g'?'#0d1320':tc+'14';
     banner.style.boxShadow=(ew.axisCount>=3)?`0 0 18px ${tc}40`:'none';}
   if(dot){dot.style.background=tc;dot.style.boxShadow=`0 0 10px ${tc}`;}
-  if(word){word.textContent=totalWord;word.style.color=tc;}
+  if(word){word.textContent=totalWord;word.style.color=tc;word.style.fontSize='22px';}
 }
 function renderHistory(d){
   const hist=d.history||[];

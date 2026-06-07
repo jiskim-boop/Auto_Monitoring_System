@@ -38,12 +38,10 @@
   .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin:2px 2px 7px;}
   .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}.ch-crit{color:#ff6b6b;}
   .colsum{font-size:11px;line-height:1.5;color:#9aa3b3;margin:-3px 2px 9px;padding:6px 9px;background:#0c1119;border-radius:7px;border-left:2px solid #2a3340;}
-  .sigbox{background:#0d1320;border:1px solid #1b2330;border-radius:10px;padding:10px 12px;display:flex;align-items:center;gap:9px;}
-  .sigdot{width:11px;height:11px;border-radius:50%;flex-shrink:0;background:#7b8499;}
-  .signm{font-size:11px;color:#8a93a6;}
-  .sigvl{font-size:13px;font-weight:700;margin-left:auto;color:#7b8499;}
-  #sigstrip{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:8px;}
-  @media(max-width:640px){#sigstrip{grid-template-columns:1fr;}}
+  .sigmini{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:#8a93a6;}
+  .sigmini .sigdot{width:9px;height:9px;border-radius:50%;flex-shrink:0;background:#7b8499;}
+  .sigmini .signm{color:#8a93a6;}
+  .sigmini .sigvl{font-weight:700;color:#7b8499;}
   .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:11px 13px;margin-bottom:9px;}
   .card.macro{border-left:3px solid #ff8a5a;}.card.ai{border-left:3px solid #5aa0ff;}.card.flow{border-left:3px solid #c89bff;}.card.man{border-left:3px solid #4d5566;}.card.crit{border-left:3px solid #ff6b6b;}
   .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
@@ -75,20 +73,21 @@
   <h1>시장 사이클 모니터</h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
 
-  <!-- 종합 위험도 (맨 위, 크게) -->
-  <div id="total-banner" style="border-radius:12px;padding:14px 18px;margin-bottom:8px;display:flex;align-items:center;justify-content:space-between;border:1px solid #1b2330;background:#0d1320">
-    <div style="display:flex;align-items:center;gap:12px">
-      <span id="total-dot" style="width:16px;height:16px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
-      <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">종합 위험도</span>
+  <!-- 종합 위험도 (크게) + 개별 3개 (작게, 아래) -->
+  <div id="total-banner" style="border-radius:12px;padding:14px 18px 12px;margin-bottom:8px;border:1px solid #1b2330;background:#0d1320">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span id="total-dot" style="width:16px;height:16px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
+        <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">종합 위험도</span>
+      </div>
+      <span id="total-word" style="font-size:22px;font-weight:900;color:#7b8499">—</span>
     </div>
-    <span id="total-word" style="font-size:22px;font-weight:900;color:#7b8499">—</span>
-  </div>
-
-  <!-- 개별 신호등 3개 -->
-  <div id="sigstrip">
-    <div class="sigbox" id="sig-credit"><span class="sigdot"></span><span class="signm">신용·유동성</span><span class="sigvl">—</span></div>
-    <div class="sigbox" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span><span class="sigvl">—</span></div>
-    <div class="sigbox" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span><span class="sigvl">—</span></div>
+    <!-- 개별 3개 (작게) -->
+    <div id="sigstrip" style="display:flex;gap:14px;margin-top:11px;padding-top:10px;border-top:1px solid #1b2330;flex-wrap:wrap">
+      <span class="sigmini" id="sig-credit"><span class="sigdot"></span><span class="signm">신용·유동성</span> <span class="sigvl">—</span></span>
+      <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
+      <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
+    </div>
   </div>
 
   <!-- ②③ 접기/펼치기 (변화 + 타임라인) -->
@@ -136,9 +135,9 @@
     · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <!-- 0번: 단기 급변 조기경보 (독립 섹션) -->
-  <div class="colhead" id="ew-head" style="margin-bottom:6px;color:#1fd6c4;display:flex;justify-content:space-between;align-items:center"><span>0 · 단기 급변 조기경보</span><span id="ew-mood" style="font-size:11px;letter-spacing:0;font-weight:400;opacity:0.9">—</span></div>
+  <div class="colhead" id="ew-head" style="margin-bottom:6px;color:#1fd6c4">0 · 단기 급변 조기경보</div>
   <div class="card" id="ew-card" style="margin-bottom:14px;border-left:4px solid #1fd6c4;position:relative">
-    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
+    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:16px;line-height:1">—</span></div>
     <div class="desc">옵션·신용·가격 3축 가중 합산 · 동시 발생일수록 신뢰↑</div>
     <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
     <div class="verdict" id="early-note">—</div>
@@ -296,9 +295,8 @@ function basket(p,syms,memId,stId){
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
   badge($(stId),st);return st;}
 
-function creditPanel(p){
+function creditPanel(p,fred){
   const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0,early=0;
-  // 5일 추세 기반 선행 약화 감지 (chg5 <= -1.5% = 선행 약화)
   function addRow(sym,lbl,grp){
     const q=p[sym];const st=pStatus(q);const row=document.createElement('div');row.className='prow';
     if(q&&q.ok){
@@ -309,19 +307,31 @@ function creditPanel(p){
       if(st==='r')r++;if(weak5)early++;n++;}
     else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;
     rows.appendChild(row);}
-  // 그룹1: 상장 BDC (직접)
   [['BIZD','BIZD(BDC지수)'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([s,l])=>addRow(s,l));
-  // 구분선
   const sep=document.createElement('div');sep.style.cssText='font-size:9px;color:#6f7888;margin:4px 0 2px;border-top:1px solid #1b2330;padding-top:4px';
   sep.textContent='─ 선행 프록시 (거래되는 사촌자산) ─';rows.appendChild(sep);
-  // 그룹2: 레버리지론 + CLO (사모대출 선행 프록시)
   [['BKLN','BKLN(레버리지론)'],['SRLN','SRLN(시니어론)'],['JBBB','JBBB(CLO)']].forEach(([s,l])=>addRow(s,l));
   if(!n){badge($('credit-verdict'),'n','N/A');return null;}
-  // 판정: 위험 종목 과반 OR 선행약화 다수
-  const st = r>n/2 ? 'r' : (r>=1||early>=2) ? 'a' : 'g';
+  // 판정: 실제 신용경색(FRED HY OAS)이 주 기준 · ETF 주가는 보조(조기신호)
+  const oas=(fred&&fred.ok&&fred.hyoas)?fred.hyoas.value:null;
+  let st, basis;
+  if(oas!=null){
+    // FRED HY OAS 레벨이 기준 (미니차트·3열과 일치)
+    const oasSt = oas>=5.5?'r':oas>=4.5?'a':'g';
+    // ETF 주가 약세는 '조기신호'로 한 단계까지만 가중 (확정 위험 아님)
+    const etfWeak = (r>n/2)||(early>=2);
+    if(oasSt==='r') st='r';
+    else if(oasSt==='a') st = etfWeak?'a':'a';  // OAS 주의면 주의
+    else st = etfWeak?'a':'g';  // OAS 안정인데 ETF만 약세면 '주의'까지만 (위험 아님)
+    basis = `실제 HY OAS ${oas.toFixed(2)}%(${WORD[oasSt]})` + (etfWeak?` · ETF 주가 약세(조기신호)`:'');
+  } else {
+    // FRED 없을 때만 ETF로 판정
+    st = r>n/2 ? 'r' : (r>=1||early>=2) ? 'a' : 'g';
+    basis = `${n}개 중 ${r}개 약세 (ETF 추세 기준 · FRED 미설정)`;
+  }
   badge($('credit-verdict'),st);
   const earlyTxt = early>=1 ? ` · <span style="color:#ff8a5a">선행약화 ${early}건</span>` : '';
-  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${n}개 중 ${r}개 위험${earlyTxt}`;return st;}
+  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${basis}${earlyTxt}`;return st;}
 
 function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
   const st=v>=45?'r':v>=26?'r':v>=20?'a':'g';badge($('st-vix'),st);
@@ -549,12 +559,12 @@ function earlyWarning(p,fred){
   if(axisCount>=3){st='r';lab='위험';tier=3;}        // 3축 동시 = 위험
   else if(score>=2){st='r';lab='경계';tier=2;}        // 점수 2+ = 경계
   else if(score>=1){st='a';lab='주의';tier=1;}        // 점수 1+ = 주의
-  else {st='g';lab='정상';tier=0;}
-  badge($('st-early'),st,lab);
+  else {st='g';lab='안정';tier=0;}
+  // (배지 제거: 단계는 진행바, 상태는 이모티콘으로 표시)
   // 4단계 진행바 렌더 (현재 단계 하이라이트)
   const tierEl=$('ew-tiers');
   if(tierEl){
-    const TIERS=[['정상','#37d6a0'],['주의','#ffb454'],['경계','#ff6b6b'],['위험','#ff3b6b']];
+    const TIERS=[['안정','#37d6a0'],['주의','#ffb454'],['경계','#ff6b6b'],['위험','#ff3b6b']];
     tierEl.innerHTML=TIERS.map(([nm,col],i)=>{
       const on=i===tier;
       const bg = on?col:'#10151f';
@@ -760,7 +770,7 @@ function setSig(id,lvl,word){
   const box=$(id); if(!box)return;
   const C={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0',n:'#7b8499'};
   const c=C[lvl]||C.n;
-  box.querySelector('.sigdot').style.cssText=`width:11px;height:11px;border-radius:50%;flex-shrink:0;background:${c};box-shadow:0 0 8px ${c};`;
+  box.querySelector('.sigdot').style.cssText=`width:9px;height:9px;border-radius:50%;flex-shrink:0;background:${c};box-shadow:0 0 6px ${c};`;
   const vl=box.querySelector('.sigvl'); vl.textContent=word; vl.style.color=c;
 }
 function renderSignals(ctx){
@@ -844,10 +854,10 @@ function setVerd(elId,states,kind,extra){
   const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
   const el=$(elId),box=el.closest('.vbox');let c,t,lv;
   if(!states.length){c='#7b8499';t='데이터 대기';lv='n';}
-  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경보: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';lv='r';}
-  else if(reds>=2){c='#ff6b6b';t='경보: '+reds+'개 부문 위험 → 축소 검토';lv='r';}
+  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경계: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';lv='r';}
+  else if(reds>=2){c='#ff6b6b';t='경계: '+reds+'개 부문 위험 → 축소 검토';lv='r';}
   else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';lv='a';}
-  else{c='#37d6a0';t='정상: 안정';lv='g';}
+  else{c='#37d6a0';t='안정';lv='g';}
   if(extra){c='#ff6b6b';t=extra+' · '+t;lv='r';}
   el.textContent=t;box.style.borderLeftColor=c;return lv;}
 
@@ -876,7 +886,7 @@ async function load(){
           sPow=basket(p,['VST','CEG','NRG','TLN','GEV','PWR'],'mem-power','st-power'),
           sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
-    const sCredit=creditPanel(p);
+    const sCredit=creditPanel(p,d.fred);
     fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
     const bubbleResult=bubblePanel(d.fred);
     renderCharts(d);

@@ -390,8 +390,59 @@ def fetch_charts(fred):
     ch["cape"]=[cape]*8 if cape is not None else None
     return ch
 
+def calc_early(prices, fred):
+    """index.html과 동일 기준의 조기경보 점수/활성신호 (이력 저장용)"""
+    p=prices or {}
+    def g(s):
+        q=p.get(s); return q.get("price") if q and q.get("ok") else None
+    def gc(s):
+        q=p.get(s); return q.get("chg") if q and q.get("ok") else None
+    def gc5(s):
+        q=p.get(s); return q.get("chg5") if q and q.get("ok") else None
+    score=0; fast=slow=price=False; hits=[]
+    def add(lbl,w,ax):
+        nonlocal score,fast,slow,price
+        hits.append(lbl); 
+        return w,ax
+    v=g("^VIX"); v3=g("^VIX3M")
+    if v is not None and v3 and v/v3>=1: score+=1; fast=True; hits.append("기간구조 역전")
+    spy=gc("SPY"); qqq=gc("QQQ"); es=gc("ES=F"); nq=gc("NQ=F")
+    if (spy is not None and spy<=-2) or (qqq is not None and qqq<=-2) or (es is not None and es<=-2) or (nq is not None and nq<=-2):
+        score+=1; price=True; hits.append("시장/선물 급락")
+    if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None and fred["hyoas"]["value"]>=5.5:
+        score+=1; slow=True; hits.append("HY스프레드 급등")
+    vc=gc("^VIX")
+    if vc is not None and vc>=20: score+=1; fast=True; hits.append("VIX 급등")
+    sk=g("^SKEW")
+    if sk is not None and sk>=150: score+=0.5; fast=True; hits.append("SKEW 급등")
+    vv=g("^VVIX")
+    if vv is not None and vv>=110: score+=0.5; fast=True; hits.append("VVIX 급등")
+    mv=g("^MOVE")
+    if mv is not None and mv>=125: score+=0.5; fast=True; hits.append("MOVE 급등")
+    hyg5=gc5("HYG")
+    if hyg5 is not None and hyg5<=-2: score+=0.5; price=True; hits.append("신용 급약화")
+    if fred and fred.get("ok") and fred.get("nfci") and fred["nfci"].get("value") is not None and fred["nfci"]["value"]>0.5:
+        score+=0.5; slow=True; hits.append("NFCI 긴축")
+    axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price else 0)
+    if axisCount>=3: st="r"
+    elif score>=2: st="r"
+    elif score>=1: st="a"
+    else: st="g"
+    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits}
+
+def update_history(prev, ew):
+    """30일 일별 조기경보 이력 누적 (하루 1개, 최신값으로 갱신)"""
+    hist = (prev or {}).get("history",[]) if prev else []
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    entry={"d":today,"score":ew["score"],"st":ew["st"],"axis":ew["axisCount"],"hits":ew["hits"]}
+    if hist and hist[-1].get("d")==today:
+        hist[-1]=entry  # 오늘 것 갱신
+    else:
+        hist.append(entry)
+    return hist[-30:]  # 최근 30일
+
 def main():
-    # 이전 data.json 로드 (요약 캐싱용)
+    # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
     try:
         with open("data.json","r",encoding="utf-8") as f: prev=json.load(f)
@@ -401,13 +452,16 @@ def main():
     fred=fetch_fred()
     charts=fetch_charts(fred)
     summary=summarize_news(news,prices,fred,prev)
+    ew=calc_early(prices,fred)
+    history=update_history(prev,ew)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
-          "fred":fred,"charts":charts,"summary":summary}
+          "fred":fred,"charts":charts,"summary":summary,
+          "early":ew,"history":history}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     cached=" (캐시재사용)" if summary.get("_cached") else ""
-    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| fred:",data["fred"].get("ok"),"| charts:",sum(1 for v in charts.values() if v))
+    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| 조기경보:",ew["st"],ew["score"],"| 이력:",len(history),"일")
 
 if __name__=="__main__":
     main()

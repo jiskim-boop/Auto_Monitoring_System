@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-07T11:51:22+00:00",
+ "updated": "2026-06-07T12:01:52+00:00",
  "prices": {
   "NVDA": {
    "price": 205.1,
@@ -629,12 +629,12 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62642.03,
-   "chg": 2.92,
-   "chg5": -6.09,
-   "sma20": 71642.8,
-   "sma50": 75792.08,
-   "sma200": 77484.7,
+   "price": 62606.49,
+   "chg": 2.86,
+   "chg5": -6.14,
+   "sma20": 71641.02,
+   "sma50": 75791.37,
+   "sma200": 77484.51,
    "high3m": 82138.93,
    "sess": "reg",
    "ok": true
@@ -934,7 +934,7 @@
    "form": "8-K",
    "date": "2026-06-03",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926070098/tm2616740d1_8k.htm",
-   "summary": "FS KKR Capital Corp가 2026년 6월 1일 현재 보고 사항을 공시했습니다.",
+   "summary": "FS KKR Capital Corp가 2026년 6월 1일 현재보고서를 제출했으나 구체적인 사건 내용이 공시문에 기재되지 않았습니다.",
    "new": false
   },
   {
@@ -942,7 +942,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "Golub Capital BDC가 2026년 5월 27일 공개 모집과 관련하여 U.S. Bank Trust Company와 신탁 계약을 체결했다.",
+   "summary": "골럽캐피탈 BDC가 공모주 발행과 관련해 신탁사와 자금조달 계약을 체결했다.",
    "new": false
   },
   {
@@ -950,7 +950,7 @@
    "form": "8-K",
    "date": "2026-05-26",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926065964/tm2615518d1_8k.htm",
-   "summary": "아레스캐피탈이 JPMorgan Chase Bank를 행정대리인으로 하는 선순위 담보부 신용한도를 2026년 5월 21일에 수정 및 재작성했다.",
+   "summary": "Ares Capital Corporation이 JPMorgan Chase Bank를 주관사로 하여 시니어 담보 신용 시설을 개정 및 재정의했다.",
    "new": false
   },
   {
@@ -958,7 +958,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 추가 약정서를 체결했다.",
+   "summary": "블루아울 캐피털이 Deutsche Bank와 4억 달러 규모의 6.3% 채권(2031년 만기) 관련 제11차 보충 약정서를 체결했다.",
    "new": false
   },
   {
@@ -966,7 +966,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "블랙스톤 시큐어드 렌딩 펀드가 2031년 만기 5.9% 채권 6억 5천만 달러에 대한 보충 약정서를 체결했다.",
+   "summary": "Blackstone Secured Lending Fund가 6억 5천만 달러 규모의 5.9% 만기 2031년 채권 발행과 관련한 추가 약정서를 체결했다.",
    "new": false
   }
  ],
@@ -1157,7 +1157,17 @@
   ]
  },
  "summary": {
-  "text": "금리 4.5% 수준 고착과 변동성 상승(VIX 22)으로 고금리 장기화 우려가 커지면서, 사모펀드 환매 제한(Partners Group) 등 신용 경색 신호가 나타나고 있습니다. 동시에 AI 칩 강세에도 불구하고 메타·아마존 등 빅테크의 과도한 AI 자본지출 경쟁이 실적 압박으로 작용하면서 시장 심리를 압도하고 있습니다.",
-  "by": "claude"
+  "text": "금리 4.5% 수준에서 안정되며 변동성(VIX 22)은 중간 정도를 유지 중이나, 초고 밸류에이션(CAPE 42)과 AI 자본지출 경쟁 심화로 기술주 조정(S&P -2.6%)이 나타나는 상황입니다. 신용시장은 사모펀드 환매 중단 사례(Partners Group)와 연계 우려가 제기되지만 스프레드(2.74%)는 아직 통제 범위 내입니다.",
+  "by": "claude",
+  "_fp": {
+   "vix": 22,
+   "tnx": 4.5,
+   "dxy": 100.0,
+   "spy": -3.0,
+   "hyoas": 2.8000000000000003,
+   "nfci": -0.5,
+   "trig": 1,
+   "news": 16
+  }
  }
 }

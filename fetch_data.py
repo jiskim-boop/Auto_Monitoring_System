@@ -56,20 +56,26 @@ PRICE_SYMBOLS = [
     "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
 ]
 def fetch_quote(sym):
-    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"
+    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d&includePrePost=true"
     try:
         j=json.loads(get(url)); res=j["chart"]["result"][0]
-        price=res["meta"]["regularMarketPrice"]
+        meta=res["meta"]
+        reg=meta.get("regularMarketPrice")
+        # 프리/애프터 가격이 있으면 그것을 '현재가'로 (장외 변동 반영)
+        pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
+        price = post if post is not None else (pre if pre is not None else reg)
         closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
         # 직전 거래일 종가 기준(배당락 조정된 chartPreviousClose는 BDC 등락률을 왜곡)
-        prev=closes[-2] if len(closes)>1 else price
+        prev=closes[-2] if len(closes)>1 else reg
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         chg=round((price/prev-1)*100,2) if prev else 0
-        # 최근 5거래일 누적 변화율 (단기 모멘텀)
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
+        # 장 세션 표시 (선물·지수용)
+        sess = "post" if post is not None else ("pre" if pre is not None else "reg")
         return {"price":round(price,2),"chg":chg,"chg5":chg5,
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
-                "high3m":round(max(closes[-63:]),2) if closes else None,"ok":True}
+                "high3m":round(max(closes[-63:]),2) if closes else None,
+                "sess":sess,"ok":True}
     except Exception as e:
         return {"ok":False,"err":str(e)[:120]}
 def fetch_prices():

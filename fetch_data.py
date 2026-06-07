@@ -190,7 +190,7 @@ def fetch_edgar():
     return out
 
 # ---- 한 문장 요약 (AI 섹터 + 거시 통합)
-def summarize_news(news, prices=None, fred=None):
+def summarize_news(news, prices=None, fred=None, prev=None):
     hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:8]
     hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:5]
     hm=[it["title"] for it in news.get("macro",[]) if not it["title"].startswith("[")][:5]
@@ -209,14 +209,38 @@ def summarize_news(news, prices=None, fred=None):
     if tnx is not None: snap.append(f"미10년 금리 {tnx:.2f}%")
     if dxy is not None: snap.append(f"달러 DXY {dxy:.1f}")
     if spy_c is not None: snap.append(f"S&P {spy_c:+.1f}%")
+    hyoas_v=None; nfci_v=None
     if fred and fred.get("ok"):
         if fred.get("hyoas") and fred["hyoas"].get("value") is not None:
-            snap.append(f"HY스프레드 {fred['hyoas']['value']:.2f}%")
+            hyoas_v=fred["hyoas"]["value"]; snap.append(f"HY스프레드 {hyoas_v:.2f}%")
         if fred.get("nfci") and fred["nfci"].get("value") is not None:
-            snap.append(f"NFCI {fred['nfci']['value']:+.2f}")
+            nfci_v=fred["nfci"]["value"]; snap.append(f"NFCI {nfci_v:+.2f}")
         if fred.get("cape") is not None:
             snap.append(f"실러CAPE {fred['cape']:.0f}")
     snaptxt=" · ".join(snap) if snap else "(지표 없음)"
+
+    # ── 변동 감지 캐싱: 큰 변동 없으면 이전 요약 재사용(API 절약) ──
+    # 핵심 지표 + 트리거 뉴스 개수로 '상태 지문' 생성
+    trig_n=sum(1 for it in news.get("credit",[]) if it.get("trig"))
+    def rnd(v,step):  # 구간화 — 작은 변동은 같은 값으로
+        return None if v is None else round(v/step)*step
+    fp={
+        "vix": rnd(vix,2),            # VIX 2p 단위
+        "tnx": rnd(tnx,0.1),          # 금리 0.1% 단위
+        "dxy": rnd(dxy,0.5),          # 달러 0.5 단위
+        "spy": rnd(spy_c,1.0),        # S&P 등락 1% 단위
+        "hyoas": rnd(hyoas_v,0.2),    # HY 0.2% 단위
+        "nfci": rnd(nfci_v,0.1),
+        "trig": trig_n,
+        "news": len(hc)+len(hf)+len(hm),
+    }
+    prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
+    prev_text = (prev or {}).get("summary",{}).get("text") if prev else None
+    prev_by = (prev or {}).get("summary",{}).get("by") if prev else None
+    # 지문이 같고 이전이 AI 요약이면 → 재사용(호출 skip)
+    if prev_fp==fp and prev_text and prev_by=="claude":
+        return {"text":prev_text,"by":"claude","_fp":fp,"_cached":True}
+
     if APIKEY and (hc or hf or hm or snap):
         s=claude(
             "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
@@ -226,7 +250,7 @@ def summarize_news(news, prices=None, fred=None):
             "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
             "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
             "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=200)
-        if s: return {"text":nomd(s),"by":"claude"}
+        if s: return {"text":nomd(s),"by":"claude","_fp":fp}
     # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
     parts=[]
@@ -242,7 +266,7 @@ def summarize_news(news, prices=None, fred=None):
         body=" · ".join(parts[:2])
     else:
         body="특이 신호 적음"+(f" (VIX {vix:.0f}·안정)" if vix is not None else "")
-    return {"text":body+".","by":"heuristic"}
+    return {"text":body+".","by":"heuristic","_fp":fp}
 
 # ---- FRED 유동성·시스템 스트레스 (선행지표)
 FRED_SERIES = {
@@ -367,16 +391,23 @@ def fetch_charts(fred):
     return ch
 
 def main():
+    # 이전 data.json 로드 (요약 캐싱용)
+    prev=None
+    try:
+        with open("data.json","r",encoding="utf-8") as f: prev=json.load(f)
+    except Exception: prev=None
     news=fetch_news()
     prices=fetch_prices()
     fred=fetch_fred()
     charts=fetch_charts(fred)
+    summary=summarize_news(news,prices,fred,prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
-          "fred":fred,"charts":charts,"summary":summarize_news(news,prices,fred)}
+          "fred":fred,"charts":charts,"summary":summary}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
-    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"),"| charts:",sum(1 for v in charts.values() if v))
+    cached=" (캐시재사용)" if summary.get("_cached") else ""
+    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| fred:",data["fred"].get("ok"),"| charts:",sum(1 for v in charts.values() if v))
 
 if __name__=="__main__":
     main()

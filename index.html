@@ -775,12 +775,12 @@ function renderSignals(ctx){
   const {sCredit,sDeriv,sFred,vAi,vSys}=ctx;
   const W={r:'위험',a:'주의',g:'안정',n:'-'};
   // 1열 "신용·유동성" = 사모대출(ETF) + 옵션선행 + FRED느린선행 종합
-  // ETF 단독으론 '주의'까지(c1r=1). '위험'은 실제 신용(sFred) 확정 또는 둘 이상 동반일 때
+  // 정확성(보수): '위험'은 실제 신용경색(sFred=HY/NFCI) 확정일 때만. ETF·옵션은 조기신호 → '주의'까지
   const c1=[sCredit,sDeriv,sFred].filter(Boolean);
   const c1r=c1.filter(x=>x==='r').length, c1a=c1.filter(x=>x==='a').length;
   let credit1='g';
-  if(sFred==='r' || c1r>=2) credit1='r';
-  else if(c1r>=1 || c1a>=2) credit1='a';
+  if(sFred==='r') credit1='r';                      // 실제 신용경색 확정만 위험
+  else if(c1r>=1 || c1a>=2) credit1='a';            // ETF·옵션 약세는 주의까지(조기)
   setSig('sig-credit',credit1,W[credit1]);
   setSig('sig-ai',vAi||'n',W[vAi||'n']);
   setSig('sig-macro',vSys||'n',W[vSys||'n']);

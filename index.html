@@ -93,7 +93,7 @@
       <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
       <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
     </div>
-    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: 점수 합산이 아닌 <b style="color:#6f7888">영역 카운트</b> · 3개 영역(신용·AI·거시)+조기경보 중 <b style="color:#6f7888">위험</b>=2개 이상 위험 or 조기경보 3축 · <b style="color:#6f7888">주의</b>=1개 위험 or 2개 주의 · 보수적(1개 위험은 주의까지) · 조기징후만이면 제외</div>
+    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 지표</b> 기반 영역 카운트 (신용=HY/NFCI · AI=바스켓/단가 · 거시=VIX/스프레드) · <b style="color:#6f7888">위험</b>=2개 이상 영역 위험 or 조기경보 3축 · <b style="color:#6f7888">주의</b>=1개 위험 or 2개 주의 · 보수적 · 선행/조기징후는 조기경보가 담당(여기 미반영)</div>
   </div>
 
   <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
@@ -108,15 +108,15 @@
   </div>
   <div class="card" id="ew-card" style="margin-bottom:8px;border-left:4px solid #1fd6c4;position:relative;display:none">
     <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:10px;line-height:1">—</span></div>
-    <div class="desc">옵션·신용·가격 3축 가중 합산 · 종합위험도의 보조(미리 알림)</div>
+    <div class="desc">선행 지표 — 시장에서 거래되는 빠른 신호로 위험을 미리 포착 (확정 전 조기 알림)</div>
     <div id="ew-gauge" style="font-size:11px;margin:8px 0 4px"></div>
     <div id="ew-tiers" style="display:flex;gap:4px;margin:4px 0"></div>
     <div class="verdict" id="early-note">—</div>
     <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     <div class="risk" style="margin-top:8px">
-      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기 징후만이면 주의까지(미리 알림)</b><br>
-      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> HY스프레드·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
-      <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6">위험을 미리 알리는 보조 알림 · 실제 위험도 결정은 상단 종합위험도 · 임계값 백테스트 보정(HY 5.5%·VIX 26), 보조도구</span>
+      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기 징후만이면 주의까지</b><br>
+      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 주가약세·HY추세·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
+      <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6"><b style="color:#9aa3b3">선행</b> — 시장 거래 신호(사모ETF 주가 등)로 먼저 울림. 확정 지표(HY/NFCI)는 나중에 따라옴 → 그게 상단 종합위험도. <b style="color:#9aa3b3">조기경보가 종합보다 먼저 반응하는 게 정상</b> · 선행이라 거짓경보 가능 · 보조도구</span>
     </div>
   </div>
 
@@ -589,10 +589,14 @@ function fredPanel(f){
   const st=risk>=2?'r':risk>=1?'a':'g';badge($('st-fred'),st);return st;}
 
 // 단기 급변 조기경보: 가중치 합산 (강한 신호 1.0 / 보조 0.5)
-function earlyWarning(p,fred){
+function earlyWarning(p,fred,sCredit){
   let hits=[],score=0; let axisFast=false,axisSlow=false,axisPrice=false;
   const add=(label,weight,axis)=>{hits.push(label);score+=weight;
     if(axis==='fast')axisFast=true;else if(axis==='slow')axisSlow=true;else if(axis==='price')axisPrice=true;};
+  // ── 사모ETF(BIZD 등) 주가 약세 = 거래되는 빠른 신용 선행 신호 (A: 조기경보가 먼저 잡음) ──
+  // 사모대출 ETF는 시장 거래 → HY OAS(공식지표)보다 선행. 조기경보가 이걸 먼저 반영.
+  if(sCredit==='r') add('사모대출 주가 급약세',1,'slow');       // 과반+추세약화 → 강한 선행
+  else if(sCredit==='a') add('사모대출 주가 약세',0.5,'slow');   // 일부 약세 → 보조 선행
   // ── 강한 신호 (1.0) ──
   // 기간구조 역전 (빠른 축: 옵션)
   const v=num(p['^VIX']), v3=num(p['^VIX3M']);
@@ -960,13 +964,12 @@ function setSig(id,lvl,word){
 function renderSignals(ctx){
   const {sCredit,sDeriv,sFred,vAi,vSys}=ctx;
   const W={r:'위험',a:'주의',g:'안정',n:'-'};
-  // 1열 "신용·유동성" = 사모대출(ETF) + 옵션선행 + FRED느린선행 종합
-  // 정확성(보수): '위험'은 실제 신용경색(sFred=HY/NFCI) 확정일 때만. ETF·옵션은 조기신호 → '주의'까지
-  const c1=[sCredit,sDeriv,sFred].filter(Boolean);
-  const c1r=c1.filter(x=>x==='r').length, c1a=c1.filter(x=>x==='a').length;
+  // 1열 "신용·유동성" 종합판정 = 확정 지표(FRED HY/NFCI)만. 사모ETF 주가·추세는 조기경보(선행)로 이동.
+  // 종합위험도는 '확정'에만 반응 — 선행은 조기경보 담당
   let credit1='g';
-  if(sFred==='r') credit1='r';                      // 실제 신용경색 확정만 위험
-  else if(c1r>=1 || c1a>=2) credit1='a';            // ETF·옵션 약세는 주의까지(조기)
+  if(sFred==='r') credit1='r';        // 실제 신용경색(HY≥5.5% or NFCI 긴축) 확정만 위험
+  else if(sFred==='a') credit1='a';   // HY/NFCI 경계권만 주의
+  // (sCredit=사모ETF 주가, sDeriv=옵션은 종합서 제외 → 조기경보가 선행으로 잡음)
   setSig('sig-credit',credit1,W[credit1]);
   setSig('sig-ai',vAi||'n',W[vAi||'n']);
   setSig('sig-macro',vSys||'n',W[vSys||'n']);
@@ -1088,7 +1091,7 @@ async function load(){
           sGpuStock=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu-ignore'),  // 주가는 참고용(mem만)
           sAiNight=aiNight(p);
     const sCredit=creditPanel(p);
-    const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
+    const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit);
     const bubbleResult=bubblePanel(d.fred);
     renderCharts(d);
     // 자금흐름

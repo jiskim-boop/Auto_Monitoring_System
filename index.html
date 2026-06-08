@@ -206,17 +206,21 @@
         <div id="ainight-rows"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">AI 현물주는 정규장만 거래(후행) → 나스닥선물(24h)이 야간 악재를 먼저 반영. 선물↓+프리장↓ 동반 시 다음 개장 약세 가능성</span></div></div>
 
-      <div class="card ai" style="border-left-color:#37d6a0"><div class="top"><span class="nm">⚡ GPU·HBM 수급 (AI 필수재)</span><span class="stt s-n" id="st-gpu">—</span></div>
-        <div class="desc">H100 임대 단가 + 임대사업자(CRWV·NBIS) · AI 필수재 수요·공급 실시간</div>
-        <div id="gpu-h100" style="font-size:12px;color:#c2cad6;margin:6px 0;font-weight:600"></div>
+      <div class="card ai" style="border-left-color:#37d6a0"><div class="top"><span class="nm">GPU·HBM 수급 (AI 필수재)</span><span class="stt s-n" id="st-gpu">—</span></div>
+        <div class="desc">H100 임대 단가 = AI 필수재 수요·공급 직접 지표 (실시간)</div>
+        <div id="gpu-h100" style="font-size:13px;color:#c2cad6;margin:7px 0;font-weight:700"></div>
+        <div style="font-size:9.5px;color:#5f6878;margin-bottom:4px">참고 · 임대사업자 주가</div>
         <div class="mem" id="mem-gpu"></div>
-        <ul class="news" id="news-fund" style="margin-top:8px"><li class="empty">로딩…</li></ul>
-        <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">H100 시간당 임대가(computeprices 중앙값) — 상승=수요 강세(capex 지속), 하락=공급과잉/둔화 · HBM·CoWoS 납기 뉴스로 보강 · AI 사이클의 가장 직접적 수급 신호</span></div></div>
+        <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">H100 시간당 임대가(computeprices 중앙값)가 핵심 — 상승=수요 강세(capex 지속), 하락=공급과잉/둔화 · CRWV·NBIS 주가는 보조 참고 · 판정은 임대가 추세 위주</span></div></div>
 
       <div class="card ai"><div class="top"><span class="nm">AI 밸류체인 (통합 바스켓)</span><span class="stt s-n" id="st-chain">—</span></div>
-        <div class="desc">반도체·메모리·네트워킹·전력·원자재·하이퍼스케일러 통합 · 현물 후행</div>
+        <div class="desc">하이퍼스케일러·반도체·메모리·네트워킹·전력·원자재 통합 · 현물 후행</div>
         <div id="chain-rows" style="margin-top:6px"></div>
-        <div class="risk"><b style="color:#8a93a6">구성:</b> <span style="color:#8a93a6">반도체(NVDA·AVGO·AMD·TSM·ASML·MRVL) · 메모리(MU·삼성·SK하이닉스 등) · 네트워킹(ANET·VRT 등) · 전력(VST·CEG·GEV 등) · 원자재(구리·우라늄) · 하이퍼스케일러(MSFT·GOOGL 등) · <b style="color:#8a93a6">하위 그룹 과반 위험 시 바스켓 위험</b></span></div></div>
+        <div class="risk"><b style="color:#8a93a6">구성:</b> <span style="color:#8a93a6">하이퍼스케일러(MSFT·GOOGL 등) · 반도체(NVDA·AVGO 등) · 메모리(삼성·SK하이닉스 등) · 네트워킹(ANET·VRT 등) · 전력(VST·GEV 등) · 원자재(구리·우라늄) · <b style="color:#8a93a6">하위 그룹 과반 위험 시 바스켓 위험</b></span></div></div>
+
+      <div class="card ai"><div class="top"><span class="nm">AI 뉴스 (capex·H100·밸류체인)</span><span class="stt s-n">자동</span></div>
+        <div class="desc">하이퍼스케일러 capex · H100 임대가 · HBM·CoWoS 납기 · 트리거 탐색</div>
+        <ul class="news" id="news-fund" style="margin-top:6px"><li class="empty">로딩…</li></ul></div>
       </div>
     </div>
 
@@ -349,9 +353,9 @@ function basket(p,syms,memId,stId){
   syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
     if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${tkLabel(s)} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
     else c.innerHTML=`${tkLabel(s)} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
-  if(!n){badge($(stId),'n','N/A');return null;}
+  if(!n){const sb=$(stId);if(sb)badge(sb,'n','N/A');return null;}
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
-  badge($(stId),st);return st;}
+  const sb=$(stId);if(sb)badge(sb,st);return st;}
 
 function creditPanel(p){
   const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0,early=0;
@@ -862,20 +866,24 @@ function renderCharts(d){
 }
 
 function renderGpu(d){
-  const g=d.gpu||{}; const el=$('gpu-h100'); if(!el) return;
-  if(g.median==null){el.innerHTML='<span style="color:#5f6878">H100 시세 수집 대기 (또는 API 미응답)</span>';return;}
+  const g=d.gpu||{}; const el=$('gpu-h100'); if(!el) return 'n';
+  if(g.median==null){el.innerHTML='<span style="color:#5f6878">H100 시세 수집 대기 (또는 API 미응답)</span>';return 'n';}
   const hist=g.hist||[];
-  let trend='';
+  let trend='', st='g', pct=null;
   if(hist.length>=2){
     const first=hist[0].v, last=hist[hist.length-1].v;
     if(first){
-      const pct=((last/first-1)*100);
+      pct=((last/first-1)*100);
       const arrow=pct>=1?'▲':pct<=-1?'▼':'·';
       const col=pct>=1?'#37d6a0':pct<=-1?'#ff8a5a':'#9aa3b3';
       trend=` <span style="color:${col}">${arrow} ${hist.length}일 ${pct>=0?'+':''}${pct.toFixed(1)}%</span>`;
+      // 임대가 급락 = 수요 둔화/공급과잉 신호 (capex 사이클 경고)
+      if(pct<=-15) st='r'; else if(pct<=-7) st='a';
     }
   }
   el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간 (중앙값)${trend}`;
+  const sb=$('st-gpu'); if(sb) badge(sb,st);
+  return st;
 }
 function renderEvents(d){
   const ev=d.events||[];
@@ -1053,9 +1061,10 @@ async function load(){
     const sVix=vixAxis(p),sSpread=spreadAxis(p,d.fred),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
     const sDeriv=derivPanel(p, d.updated);
     krIndex(p);
-    // AI 밸류체인 — 통합 바스켓 + GPU 수급 + 야간선행
+    // AI 밸류체인 — 통합 바스켓 + GPU 수급(H100단가 메인) + 야간선행
     const sChain=chainBasket(p),
-          sGpu=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu'),
+          sGpuPrice=renderGpu(d),                          // H100 임대가 추세 → GPU 판정 메인
+          sGpuStock=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu-ignore'),  // 주가는 참고용(mem만)
           sAiNight=aiNight(p);
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
@@ -1074,14 +1083,14 @@ async function load(){
     let extra=null;
     if(trigNews.length||newFilings.length)extra='신용 트리거';
     else if(ew&&ew.score>=2)extra='급변 경보';
-    // 야간 선행은 '선행 신호'라 단계를 과하게 올리지 않게 주의(a)까지만 기여
+    // 야간 선행·GPU단가는 '선행 신호'라 단계를 과하게 올리지 않게 주의(a)까지만 기여
     const sAiNightCapped = sAiNight==='r' ? 'a' : sAiNight;
-    const vAi=setVerd('ov-ai',[sChain,sGpu,sAiNightCapped,sCredit].filter(x=>x&&x!=='n'),'ai',extra);
+    const sGpuCapped = sGpuPrice==='r' ? 'a' : sGpuPrice;
+    const vAi=setVerd('ov-ai',[sChain,sGpuCapped,sAiNightCapped,sCredit].filter(x=>x&&x!=='n'),'ai',extra);
     const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
     colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);
     renderEvents(d);
-    renderGpu(d);
     // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];
     // 지정학·돌발 거시 이벤트 (최우선 표시)
@@ -1104,7 +1113,7 @@ async function load(){
       $('alert').querySelector('.lbl').textContent = geoNews.length ? '🌍 지정학·시장 위험 감지' : (hasEW ? '⚡ 시장 급변·위험 감지' : '⚠ 시장 위험 감지');
       $('alert-txt').textContent=alertParts.join('  ·  ');
     }
-    const any=[sVix,sChain,sCredit,sGpu].some(Boolean);
+    const any=[sVix,sChain,sCredit,sGpuStock].some(Boolean);
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
   }catch(e){$('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>';}
 }

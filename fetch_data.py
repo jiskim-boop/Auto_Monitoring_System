@@ -396,8 +396,8 @@ def fred_series(series_id, points=13):
 
 def fetch_gpu_price(prev):
     """H100 시세(중앙값) 수집 — computeprices.com 무료 JSON(/api/v1/gpu-prices). 실패시 graceful.
-    누적: 하루 1포인트씩 최근 30개 (차트용)."""
-    hist=(prev or {}).get("gpu_hist",[]) if prev else []
+    누적: 시간당 1포인트씩 최근 48개 (추세 그래프용)."""
+    hist=((prev or {}).get("gpu") or {}).get("hist",[]) if prev else []  # 이전 이력은 gpu.hist에서
     median=None
     # computeprices.com 공개 엔드포인트 (무료, 키 없음, 시간당 60회)
     for url in ("https://computeprices.com/api/v1/gpu-prices",

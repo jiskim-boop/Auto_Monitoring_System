@@ -216,9 +216,14 @@
       <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
         <div class="desc">MSFT·GOOGL·AMZN·META·ORCL</div><div class="mem" id="mem-hyp"></div></div>
       <div class="card ai"><div class="top"><span class="nm">GPU 수급 (임대 프록시)</span><span class="stt s-n" id="st-gpu">—</span></div>
+<<<<<<< HEAD
         <div class="desc" id="gpu-price-desc">CRWV·NBIS=GPU임대 사업 · 임대가↓=공급과잉/수요둔화 신호</div><div class="mem" id="mem-gpu"></div>
         <div id="gpu-h100" style="font-size:11.5px;color:#c2cad6;margin-top:6px"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">H100 시간당 임대가 중앙값(computeprices) · 임대가 상승=수요 강세(capex 지속), 하락=공급과잉/둔화. 임대사업자(CRWV·NBIS) 주가로 보강</span></div></div>
+=======
+        <div class="desc">CRWV·NBIS=GPU임대 사업 · 임대가↓=공급과잉/수요둔화 신호</div><div class="mem" id="mem-gpu"></div>
+        <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">H100 시간당 임대가 직접 데이터는 무료 API 없음 → 임대사업자 주가로 간접 추적. 수급 변화는 아래 'GPU·HBM 수급 뉴스'로 보강</span></div></div>
+>>>>>>> 2e88a0057c2613cb652c64e80e1bfde3da3cd5f5
       <div class="card ai"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
       <div class="card ai"><div class="top"><span class="nm">capex·GPU·HBM 수급 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">하이퍼스케일러 capex + H100임대가·HBM·CoWoS 납기</div>
@@ -811,6 +816,7 @@ function renderCharts(d){
   }
 }
 
+<<<<<<< HEAD
 function renderGpu(d){
   const g=d.gpu||{}; const el=$('gpu-h100'); if(!el) return;
   if(g.median==null){el.innerHTML='<span style="color:#5f6878">H100 시세 수집 대기 (또는 API 미응답)</span>';return;}
@@ -827,6 +833,8 @@ function renderGpu(d){
   }
   el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간 (중앙값)${trend}`;
 }
+=======
+>>>>>>> 2e88a0057c2613cb652c64e80e1bfde3da3cd5f5
 function renderEvents(d){
   const ev=d.events||[];
   const strip=$('events-strip'), list=$('events-list');
@@ -1010,8 +1018,12 @@ async function load(){
           sPow=basket(p,['VST','CEG','NRG','TLN','GEV','PWR'],'mem-power','st-power'),
           sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp'),
+<<<<<<< HEAD
           sGpu=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu'),
           sAiNight=aiNight(p);
+=======
+          sGpu=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu');
+>>>>>>> 2e88a0057c2613cb652c64e80e1bfde3da3cd5f5
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
     const bubbleResult=bubblePanel(d.fred);
@@ -1029,14 +1041,21 @@ async function load(){
     let extra=null;
     if(trigNews.length||newFilings.length)extra='신용 트리거';
     else if(ew&&ew.score>=2)extra='급변 경보';
+<<<<<<< HEAD
     // 야간 선행은 '선행 신호'라 단계를 과하게 올리지 않게 주의(a)까지만 기여
     const sAiNightCapped = sAiNight==='r' ? 'a' : sAiNight;
     const vAi=setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sGpu,sAiNightCapped,sCredit].filter(x=>x&&x!=='n'),'ai',extra);
+=======
+    const vAi=setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sGpu,sCredit].filter(Boolean),'ai',extra);
+>>>>>>> 2e88a0057c2613cb652c64e80e1bfde3da3cd5f5
     const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
     colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);
     renderEvents(d);
+<<<<<<< HEAD
     renderGpu(d);
+=======
+>>>>>>> 2e88a0057c2613cb652c64e80e1bfde3da3cd5f5
     // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];
     // 지정학·돌발 거시 이벤트 (최우선 표시)

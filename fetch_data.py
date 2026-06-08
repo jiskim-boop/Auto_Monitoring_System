@@ -43,7 +43,7 @@ PRICE_SYMBOLS = [
     "VST","CEG","NRG","TLN","GEV","PWR",                 # 전력·유틸리티
     "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
     "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
-    "CRWV",                                              # 네오클라우드
+    "CRWV","NBIS",                                        # 네오클라우드·GPU임대 (수급 프록시)
     # 신용·사모대출
     "BIZD","ARCC","OBDC","HYG","BKLN","SRLN","JBBB",
     # 거시·시스템
@@ -55,27 +55,43 @@ PRICE_SYMBOLS = [
     # 선물 (24시간 — 장외/주말 시장 방향)
     "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
 ]
+FUT_SET = {"ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F"}
 def fetch_quote(sym):
     url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d&includePrePost=true"
     try:
         j=json.loads(get(url)); res=j["chart"]["result"][0]
         meta=res["meta"]
         reg=meta.get("regularMarketPrice")
-        # 프리/애프터 가격이 있으면 그것을 '현재가'로 (장외 변동 반영)
         pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
+        # 현재가: 애프터>프리>정규 (장외 변동 반영). meta 값이 가장 최신 체결가.
         price = post if post is not None else (pre if pre is not None else reg)
         closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
-        # 직전 거래일 종가 기준(배당락 조정된 chartPreviousClose는 BDC 등락률을 왜곡)
-        prev=closes[-2] if len(closes)>1 else reg
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
+        is_fut = sym in FUT_SET
+        # 등락률 기준선:
+        # - 장외(애프터/프리) 가격이면 → 오늘 정규장 종가(closes[-1]) 대비 (장외 변동만)
+        # - 정규장/선물이면 → 전 거래일 종가(closes[-2]) 대비
+        # 주의: meta.chartPreviousClose는 '6개월 차트 시작 직전'이라 어제 종가 아님 → 사용 금지
+        extended = (post is not None) or (pre is not None)
+        if extended and len(closes)>=1:
+            prev = closes[-1]
+        elif len(closes)>1:
+            prev = closes[-2]
+        else:
+            prev = reg
         chg=round((price/prev-1)*100,2) if prev else 0
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
-        # 장 세션 표시 (선물·지수용)
-        sess = "post" if post is not None else ("pre" if pre is not None else "reg")
+        # 세션: 선물은 거의 24시간이라 '24h'로, 주식·지수는 pre/post/reg
+        if is_fut:
+            sess = "24h"
+        else:
+            sess = "post" if post is not None else ("pre" if pre is not None else "reg")
+        # 가격 신선도(체결시각) — 디버그/표시용
+        mt = meta.get("regularMarketTime")
         return {"price":round(price,2),"chg":chg,"chg5":chg5,
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
                 "high3m":round(max(closes[-63:]),2) if closes else None,
-                "sess":sess,"ok":True}
+                "sess":sess,"mt":mt,"ok":True}
     except Exception as e:
         return {"ok":False,"err":str(e)[:120]}
 def fetch_prices():
@@ -90,13 +106,19 @@ NEWS_QUERIES={
    'data center "asset-backed" OR ABS AI',
    '"Blue Owl" OR Blackstone OR Apollo private credit stress'],
  "fundamental":['hyperscaler capex guidance','Microsoft OR Amazon OR Meta OR Oracle capex AI',
-   'AI capex cut OR slowdown OR depreciation'],
+   'AI capex cut OR slowdown OR depreciation',
+   'H100 OR H200 OR GPU rental price','HBM memory shortage OR oversupply',
+   'Nvidia GPU lead time OR allocation','TSMC CoWoS capacity OR utilization'],
  "macro":['Fed rate decision OR FOMC','recession risk yield curve',
-   'VIX market volatility selloff','credit spreads widening'],
+   'VIX market volatility selloff','credit spreads widening',
+   'geopolitical risk markets','Middle East war oil OR conflict markets',
+   'military strike OR invasion markets','sanctions tariff escalation markets'],
  "flow":['dollar index DXY move','oil price WTI OR crude',
    'copper price OR commodities','Japan yen carry trade','gold price safe haven'],
 }
 TRIGGER=re.compile(r"\b(gate|redemption|default|downgrade|markdown|non-accrual|cut|miss|slowdown|write-?down|distress|halt)\b",re.I)
+# 지정학·돌발 거시 중대 트리거 (강한 조합 — 오탐 최소화)
+GEO_TRIGGER=re.compile(r"\b(invasion|invades?|airstrike|missile strike|nuclear|martial law|coup|oil embargo|strait of hormuz|declares? war|state of emergency|attack on)\b",re.I)
 def clean(t): return html.unescape(re.sub("<[^>]+>"," ",t)).strip()
 def nomd(s):
     s=re.sub(r'[#*`>_]+',' ',s)      # 마크다운 기호 제거
@@ -112,7 +134,7 @@ def fetch_news_query(q):
             link=clean((re.search(r"<link>(.*?)</link>",b,re.S) or [None,""])[1])
             pub=clean((re.search(r"<pubDate>(.*?)</pubDate>",b,re.S) or [None,""])[1])
             src=clean((re.search(r"<source[^>]*>(.*?)</source>",b,re.S) or [None,""])[1])
-            if title: items.append({"title":title,"link":link,"pub":pub,"src":src,"trig":bool(TRIGGER.search(title))})
+            if title: items.append({"title":title,"link":link,"pub":pub,"src":src,"trig":bool(TRIGGER.search(title)),"geo":bool(GEO_TRIGGER.search(title))})
     except Exception as e:
         return [{"title":f"[수집 실패] {str(e)[:80]}","link":"","pub":"","src":"","trig":False}]
     return items
@@ -222,6 +244,8 @@ def summarize_news(news, prices=None, fred=None, prev=None):
     # ── 변동 감지 캐싱: 큰 변동 없으면 이전 요약 재사용(API 절약) ──
     # 핵심 지표 + 트리거 뉴스 개수로 '상태 지문' 생성
     trig_n=sum(1 for it in news.get("credit",[]) if it.get("trig"))
+    geo_n=sum(1 for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo"))
+    geo_titles=[it["title"] for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo")][:3]
     def rnd(v,step):  # 구간화 — 작은 변동은 같은 값으로
         return None if v is None else round(v/step)*step
     fp={
@@ -232,6 +256,8 @@ def summarize_news(news, prices=None, fred=None, prev=None):
         "hyoas": rnd(hyoas_v,0.2),    # HY 0.2% 단위
         "nfci": rnd(nfci_v,0.1),
         "trig": trig_n,
+        "geo": geo_n,                 # 지정학 중대 뉴스 — 뜨면 새로 요약
+        "capex": len(hf),             # AI capex·GPU/HBM 수급 뉴스 개수
         "news": len(hc)+len(hf)+len(hm),
     }
     prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
@@ -242,18 +268,23 @@ def summarize_news(news, prices=None, fred=None, prev=None):
         return {"text":prev_text,"by":"claude","_fp":fp,"_cached":True}
 
     if APIKEY and (hc or hf or hm or snap):
+        geo_block = ("\n\n[⚠ 지정학·돌발 거시 이벤트]\n"+"\n".join("- "+t for t in geo_titles)) if geo_titles else ""
         s=claude(
-            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
-            "한국어 1~2문장(100자 내외)으로 핵심만 간결하게 요약하라. "
-            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션 중)만 골라 '무엇을 의미하는지' 담되, "
-            "나열하지 말고 압축할 것. 과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
+            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 한국어로 요약하되, "
+            "정확히 2문장으로 작성하라.\n"
+            "1문장: 거시·자금 흐름 — 금리·지정학·변동성(VIX)·신용·사모대출 중 지금 가장 중요한 것을 중심으로 '무엇을 의미하는지'.\n"
+            "2문장: AI 사이클 — capex·GPU/HBM 수급·밸류체인 관련해 특이 흐름이 있으면 한 줄, 없으면 '특이 신호 없음' 수준으로 짧게.\n"
+            "각 문장 50자 내외로 압축. 나열 금지, 핵심만. 지정학 이벤트가 있으면 1문장에서 우선 언급. "
+            "과장·투자권유 없이 사실 위주. 마크다운·제목·번호 없이 두 문장만 이어서.\n\n"
             "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
-            "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
-            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=200)
+            "\n\n[AI capex·GPU/HBM 수급 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
+            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음")+geo_block, max_tokens=250)
         if s: return {"text":nomd(s),"by":"claude","_fp":fp}
     # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
     parts=[]
+    if geo_n>0:
+        parts.append(f"지정학 돌발 이벤트 {geo_n}건 — 유가·변동성 영향 주시")
     if vix is not None and vix>=20:
         parts.append(f"VIX {vix:.0f}로 변동성 {'공포 구간' if vix>=28 else '경계 수준'}")
     if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None:
@@ -441,6 +472,80 @@ def update_history(prev, ew):
         hist.append(entry)
     return hist[-30:]  # 최근 30일
 
+def upcoming_events():
+    """주요 거시 이벤트 캘린더 — 지난 건 자동 제외, 다가오는 순. 분기마다 수동 갱신 권장."""
+    # 2026년 FOMC 회의일(성명 발표일 기준, 예정). CPI는 보통 매월 중순.
+    EVENTS=[
+        ("2026-01-28","FOMC 금리결정"),
+        ("2026-03-18","FOMC 금리결정"),
+        ("2026-04-29","FOMC 금리결정"),
+        ("2026-06-17","FOMC 금리결정"),
+        ("2026-07-29","FOMC 금리결정"),
+        ("2026-09-16","FOMC 금리결정"),
+        ("2026-11-04","FOMC 금리결정"),
+        ("2026-12-16","FOMC 금리결정"),
+        ("2026-06-11","미 CPI(5월)"),
+        ("2026-07-15","미 CPI(6월)"),
+        ("2026-08-12","미 CPI(7월)"),
+        ("2026-07-23","하이퍼스케일러 실적 시작(MSFT·GOOGL 등)"),
+        ("2026-08-27","NVDA 실적(예상)"),
+    ]
+    today=datetime.now(timezone.utc).date()
+    out=[]
+    for d,name in EVENTS:
+        try:
+            ed=datetime.strptime(d,"%Y-%m-%d").date()
+            dd=(ed-today).days
+            if dd>=0:  # 오늘 이후만
+                out.append({"date":d,"name":name,"dday":dd})
+        except Exception: pass
+    out.sort(key=lambda x:x["dday"])
+    return out[:6]  # 가까운 6개
+
+TG_TOKEN=os.environ.get("TELEGRAM_TOKEN","")
+TG_CHAT=os.environ.get("TELEGRAM_CHAT_ID","")
+def tg_send(text):
+    if not TG_TOKEN or not TG_CHAT: return False
+    try:
+        import urllib.parse
+        data=urllib.parse.urlencode({"chat_id":TG_CHAT,"text":text,"parse_mode":"HTML","disable_web_page_preview":"true"}).encode()
+        req=urllib.request.Request(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",data=data)
+        urllib.request.urlopen(req,timeout=10).read()
+        return True
+    except Exception as e:
+        print("텔레그램 발송 실패:",str(e)[:100]); return False
+
+def maybe_alert(prev, ew, summary, prices, fred):
+    """위험 단계가 '상향 전환'될 때만 알림 (스팸 방지)."""
+    # 조기경보 단계: g<a<r 순서 + 3축이면 최상
+    order={"g":0,"a":1,"r":2}
+    def tier(e):
+        if not e: return 0
+        if e.get("axisCount",0)>=3: return 3
+        return order.get(e.get("st","g"),0)
+    prev_ew=(prev or {}).get("early",{}) if prev else {}
+    cur_t, prev_t = tier(ew), tier(prev_ew)
+    label={0:"안정",1:"주의",2:"경계",3:"위험"}
+    # 상향 전환(악화)일 때만 — 완화는 알림 안 함(스팸 방지)
+    if cur_t>prev_t and cur_t>=1:
+        hits=ew.get("hits",[])
+        vix=(prices.get("^VIX") or {}).get("price")
+        hy=(fred.get("hyoas") or {}).get("value") if fred and fred.get("ok") else None
+        lines=[
+            f"🚨 <b>폭락탐지기</b> — 단계 상향",
+            f"<b>{label[prev_t]} → {label[cur_t]}</b>",
+        ]
+        if hits: lines.append("신호: "+" · ".join(hits[:4]))
+        meta=[]
+        if vix is not None: meta.append(f"VIX {vix:.0f}")
+        if hy is not None: meta.append(f"HY {hy:.2f}%")
+        if meta: lines.append(" / ".join(meta))
+        if summary and summary.get("text"): lines.append("\n"+summary["text"][:120])
+        lines.append("\n<a href='https://jiskim-boop.github.io/ai-monitor/'>대시보드 열기</a>")
+        lines.append("<i>보조 경보입니다. 단독 매매 근거로 삼지 마세요.</i>")
+        sent=tg_send("\n".join(lines))
+        print("알림 발송:" , "성공" if sent else "실패/미설정", f"({label[prev_t]}→{label[cur_t]})")
+
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
@@ -457,9 +562,12 @@ def main():
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history}
+          "early":ew,"history":history,"events":upcoming_events()}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
+    # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)
+    try: maybe_alert(prev, ew, summary, prices, fred)
+    except Exception as e: print("알림 처리 오류:",str(e)[:100])
     cached=" (캐시재사용)" if summary.get("_cached") else ""
     print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| 조기경보:",ew["st"],ew["score"],"| 이력:",len(history),"일")
 

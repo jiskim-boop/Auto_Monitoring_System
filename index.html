@@ -89,6 +89,7 @@
       <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
       <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
     </div>
+    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: 점수 합산이 아닌 <b style="color:#6f7888">영역 카운트</b> · 3개 영역(신용·AI·거시)+조기경보 중 <b style="color:#6f7888">위험</b>=2개 이상 위험 or 조기경보 3축 · <b style="color:#6f7888">주의</b>=1개 위험 or 2개 주의 · 보수적(1개 위험은 주의까지) · 조기징후만이면 제외</div>
   </div>
 
   <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
@@ -104,7 +105,8 @@
   <div class="card" id="ew-card" style="margin-bottom:8px;border-left:4px solid #1fd6c4;position:relative;display:none">
     <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:10px;line-height:1">—</span></div>
     <div class="desc">옵션·신용·가격 3축 가중 합산 · 종합위험도의 보조(미리 알림)</div>
-    <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
+    <div id="ew-gauge" style="font-size:11px;margin:8px 0 4px"></div>
+    <div id="ew-tiers" style="display:flex;gap:4px;margin:4px 0"></div>
     <div class="verdict" id="early-note">—</div>
     <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     <div class="risk" style="margin-top:8px">
@@ -627,8 +629,31 @@ function earlyWarning(p,fred){
       const fg = on?'#070a0f':'#5f6878';
       const glow = on&&i>=2?`box-shadow:0 0 10px ${col};`:'';
       const wt = on?'700':'400';
-      return `<div style="flex:1;text-align:center;padding:5px 0;border-radius:6px;background:${bg};color:${fg};font-size:11px;font-weight:${wt};${glow}">${nm}</div>`;
+      const range = ['0','1~1.5','2~2.5','3축'][i];  // 각 단계 점수 범위
+      return `<div style="flex:1;text-align:center;padding:5px 0;border-radius:6px;background:${bg};color:${fg};font-size:11px;font-weight:${wt};${glow}">${nm}<div style="font-size:8px;opacity:0.7;margin-top:1px">${range}</div></div>`;
     }).join('');
+  }
+  // 현재 점수 게이지 (시각 바 + 숫자)
+  const gaugeEl=$('ew-gauge');
+  if(gaugeEl){
+    const scoreCol = axisCount>=3?'#ff3b6b':st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';
+    const MAX=4;                              // 표시 상한(실질적 위험권. 이론상 7이나 4면 이미 심각)
+    const pct=Math.min(score/MAX*100,100);
+    // 임계 위치: 주의 1.0(25%), 경계 2.0(50%), 위험권 3.0(75%)
+    gaugeEl.innerHTML=`
+      <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px">
+        <span style="color:#8a93a6;font-size:10px">위험점수</span>
+        <span><b style="color:${scoreCol};font-size:15px">${score}</b><span style="color:#5f6878;font-size:10px"> / ${MAX} (이론상 max 7)</span></span>
+      </div>
+      <div style="position:relative;height:7px;background:#10151f;border-radius:4px;overflow:hidden">
+        <div style="position:absolute;left:0;top:0;height:100%;width:${pct}%;background:${scoreCol};border-radius:4px;transition:width .3s"></div>
+        <div style="position:absolute;left:25%;top:0;height:100%;width:1px;background:#2a3340" title="주의 1.0"></div>
+        <div style="position:absolute;left:50%;top:0;height:100%;width:1px;background:#2a3340" title="경계 2.0"></div>
+        <div style="position:absolute;left:75%;top:0;height:100%;width:1px;background:#ff3b6b66" title="위험권 3.0"></div>
+      </div>
+      <div style="display:flex;justify-content:space-between;font-size:8px;color:#4f5868;margin-top:2px">
+        <span>0</span><span>1 주의</span><span>2 경계</span><span style="color:#ff6b6b99">3 위험권</span><span>4+</span>
+      </div>`;
   }
   // 카드 전체 색 변경 (단계별)
   const ewCard=$('ew-card'), ewHead=$('ew-head');

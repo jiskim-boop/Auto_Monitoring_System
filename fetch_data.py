@@ -43,7 +43,7 @@ PRICE_SYMBOLS = [
     "VST","CEG","NRG","TLN","GEV","PWR",                 # 전력·유틸리티
     "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
     "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
-    "CRWV",                                              # 네오클라우드
+    "CRWV","NBIS",                                        # 네오클라우드·GPU임대 (수급 프록시)
     # 신용·사모대출
     "BIZD","ARCC","OBDC","HYG","BKLN","SRLN","JBBB",
     # 거시·시스템
@@ -68,12 +68,17 @@ def fetch_quote(sym):
         closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         is_fut = sym in FUT_SET
-        # 전일 종가: 선물은 24시간이라 chartPreviousClose(공식 전일 정산가)가 정확.
-        # 주식·ETF는 배당락 왜곡 피하려 종가 배열의 직전값 사용.
-        if is_fut:
-            prev = meta.get("chartPreviousClose") or meta.get("previousClose") or (closes[-2] if len(closes)>1 else reg)
+        # 등락률 기준선:
+        # - 장외(애프터/프리) 가격이면 → 오늘 정규장 종가(closes[-1]) 대비 (장외 변동만)
+        # - 정규장/선물이면 → 전 거래일 종가(closes[-2]) 대비
+        # 주의: meta.chartPreviousClose는 '6개월 차트 시작 직전'이라 어제 종가 아님 → 사용 금지
+        extended = (post is not None) or (pre is not None)
+        if extended and len(closes)>=1:
+            prev = closes[-1]
+        elif len(closes)>1:
+            prev = closes[-2]
         else:
-            prev = closes[-2] if len(closes)>1 else reg
+            prev = reg
         chg=round((price/prev-1)*100,2) if prev else 0
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
         # 세션: 선물은 거의 24시간이라 '24h'로, 주식·지수는 pre/post/reg
@@ -101,7 +106,9 @@ NEWS_QUERIES={
    'data center "asset-backed" OR ABS AI',
    '"Blue Owl" OR Blackstone OR Apollo private credit stress'],
  "fundamental":['hyperscaler capex guidance','Microsoft OR Amazon OR Meta OR Oracle capex AI',
-   'AI capex cut OR slowdown OR depreciation'],
+   'AI capex cut OR slowdown OR depreciation',
+   'H100 OR H200 OR GPU rental price','HBM memory shortage OR oversupply',
+   'Nvidia GPU lead time OR allocation','TSMC CoWoS capacity OR utilization'],
  "macro":['Fed rate decision OR FOMC','recession risk yield curve',
    'VIX market volatility selloff','credit spreads widening',
    'geopolitical risk markets','Middle East war oil OR conflict markets',
@@ -250,6 +257,7 @@ def summarize_news(news, prices=None, fred=None, prev=None):
         "nfci": rnd(nfci_v,0.1),
         "trig": trig_n,
         "geo": geo_n,                 # 지정학 중대 뉴스 — 뜨면 새로 요약
+        "capex": len(hf),             # AI capex·GPU/HBM 수급 뉴스 개수
         "news": len(hc)+len(hf)+len(hm),
     }
     prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
@@ -262,14 +270,15 @@ def summarize_news(news, prices=None, fred=None, prev=None):
     if APIKEY and (hc or hf or hm or snap):
         geo_block = ("\n\n[⚠ 지정학·돌발 거시 이벤트]\n"+"\n".join("- "+t for t in geo_titles)) if geo_titles else ""
         s=claude(
-            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
-            "한국어 1~2문장(100자 내외)으로 핵심만 간결하게 요약하라. "
-            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션·지정학 중)만 골라 '무엇을 의미하는지' 담되, "
-            "나열하지 말고 압축할 것. 지정학 이벤트가 있으면 그 시장 영향을 우선 언급. "
-            "과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
+            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 한국어로 요약하되, "
+            "정확히 2문장으로 작성하라.\n"
+            "1문장: 거시·자금 흐름 — 금리·지정학·변동성(VIX)·신용·사모대출 중 지금 가장 중요한 것을 중심으로 '무엇을 의미하는지'.\n"
+            "2문장: AI 사이클 — capex·GPU/HBM 수급·밸류체인 관련해 특이 흐름이 있으면 한 줄, 없으면 '특이 신호 없음' 수준으로 짧게.\n"
+            "각 문장 50자 내외로 압축. 나열 금지, 핵심만. 지정학 이벤트가 있으면 1문장에서 우선 언급. "
+            "과장·투자권유 없이 사실 위주. 마크다운·제목·번호 없이 두 문장만 이어서.\n\n"
             "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
-            "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
-            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음")+geo_block, max_tokens=200)
+            "\n\n[AI capex·GPU/HBM 수급 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
+            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음")+geo_block, max_tokens=250)
         if s: return {"text":nomd(s),"by":"claude","_fp":fp}
     # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))

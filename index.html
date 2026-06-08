@@ -455,6 +455,7 @@ function krIndex(p){
 // 선물·야간 세션: 지수·채권 선물 + 한국 야간(EWY)
 function futSession(p){
   const rows=$('fut-rows');rows.innerHTML='';let n=0;
+<<<<<<< HEAD
   // 선물은 거의 24시간 거래 (일~금 야간 포함) → 배지 '24시간' + 체결시각
   const futCard=$('fut-rows')?$('fut-rows').closest('.card'):null;
   const esq=p['ES=F'];
@@ -468,6 +469,14 @@ function futSession(p){
       const hh=String(d.getHours()).padStart(2,'0'), mm=String(d.getMinutes()).padStart(2,'0');
       descEl.innerHTML=`장 마감·주말에도 거래 · 시장 방향 선반영 <span style="color:#6f7888">· 체결 ${hh}:${mm}</span>`;
     }
+=======
+  // 현재 세션 표시 (선물 sess 기반)
+  const es=p['ES=F'];
+  const futCard=$('fut-rows')?$('fut-rows').closest('.card'):null;
+  if(es&&es.sess&&futCard){
+    const badgeEl=futCard.querySelector('.stt');
+    if(badgeEl){badgeEl.textContent={pre:'프리장',post:'애프터/야간',reg:'본장'}[es.sess]||'24시간';}
+>>>>>>> b484e776b416dc8f2c626435cd7e6f28256f3bc7
   }
   [['ES=F','S&P'],['NQ=F','나스닥'],['YM=F','다우'],['ZN=F','10Y국채'],['GC=F','금'],['CL=F','WTI'],['HG=F','구리'],['EWY','한국(EWY)']].forEach(([sym,lbl])=>{
     const q=p[sym];if(!q||!q.ok)return;

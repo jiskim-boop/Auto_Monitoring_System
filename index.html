@@ -312,12 +312,12 @@ function groupStatus(p,syms){
 // AI 밸류체인 통합 바스켓: 하위 그룹들을 모아 한 카드로
 function chainBasket(p){
   const groups=[
+    ['하이퍼스케일러',['MSFT','GOOGL','AMZN','META','ORCL']],
     ['반도체',['NVDA','AVGO','AMD','TSM','ASML','MRVL']],
     ['메모리',['MU','SNDK','STX','WDC','005930.KS','000660.KS']],
     ['네트워킹',['ANET','ALAB','CRDO','VRT','CIEN','COHR']],
     ['전력',['VST','CEG','NRG','TLN','GEV','PWR']],
     ['원자재',['FCX','SCCO','CPER','CCJ','URA','UEC']],
-    ['하이퍼스케일러',['MSFT','GOOGL','AMZN','META','ORCL']],
   ];
   const rows=$('chain-rows'); let r=0,a=0,n=0; let html='';
   groups.forEach(([nm,syms])=>{

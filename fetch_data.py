@@ -394,6 +394,41 @@ def fred_series(series_id, points=13):
     except Exception:
         return None
 
+def fetch_gpu_price(prev):
+    """H100 시세(중앙값) 수집 — computeprices.com 무료 JSON(/api/v1/gpu-prices). 실패시 graceful.
+    누적: 하루 1포인트씩 최근 30개 (차트용)."""
+    hist=(prev or {}).get("gpu_hist",[]) if prev else []
+    median=None
+    # computeprices.com 공개 엔드포인트 (무료, 키 없음, 시간당 60회)
+    for url in ("https://computeprices.com/api/v1/gpu-prices",
+                "https://computeprices.com/api/v1/prices"):
+        try:
+            raw=get(url, timeout=15)
+            j=json.loads(raw)
+            rows=j.get("data") if isinstance(j,dict) else (j if isinstance(j,list) else [])
+            # H100 80GB on-demand 가격들 모아 중앙값
+            prices=[]
+            for r in rows:
+                if not isinstance(r,dict): continue
+                gpu=str(r.get("gpu","")).upper()
+                pt=str(r.get("pricing_type","")).lower()
+                pr=r.get("price_per_hour_usd") or r.get("price")
+                if "H100" in gpu and pr and (not pt or "on" in pt or pt=="on_demand"):
+                    try: prices.append(float(pr))
+                    except: pass
+            if prices:
+                prices.sort(); n=len(prices)
+                median=round(prices[n//2] if n%2 else (prices[n//2-1]+prices[n//2])/2, 2)
+                break
+        except Exception:
+            continue
+    today=datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if median is not None:
+        if hist and hist[-1].get("d")==today: hist[-1]={"d":today,"v":median}
+        else: hist.append({"d":today,"v":median})
+        hist=hist[-30:]
+    return {"median":median,"hist":hist}
+
 def fetch_charts(fred):
     ch={}
     # 야후 기반
@@ -559,10 +594,11 @@ def main():
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred)
     history=update_history(prev,ew)
+    gpu=fetch_gpu_price(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events()}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

@@ -72,7 +72,10 @@
 <script data-goatcounter="https://jiskim.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
-  <h1>시장 사이클 모니터 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.0</span></h1>
+  <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
+    <span>시장 사이클 모니터 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.0</span></span>
+    <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
+  </h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
 
   <!-- 종합 위험도 (크게) + 개별 3개 (작게, 아래) -->
@@ -1180,6 +1183,18 @@ async function load(){
       const cr=el.querySelector('.cc-caret'); if(cr)cr.textContent=open?'▶':'▼';
     });
   });
+})();
+// GoatCounter 방문자 수 (전체 페이지뷰) — 공개 카운터 JSON
+(function(){
+  fetch('https://jiskim.goatcounter.com/counter/'+encodeURIComponent('/ai-monitor/')+'.json')
+    .then(r=>r.ok?r.json():null)
+    .then(d=>{ if(d&&d.count!=null){const el=document.getElementById('visit-count'); if(el)el.textContent='조회 '+d.count;} })
+    .catch(()=>{ // 경로별 실패 시 사이트 전체(TOTAL) 시도
+      fetch('https://jiskim.goatcounter.com/counter/TOTAL.json')
+        .then(r=>r.ok?r.json():null)
+        .then(d=>{ if(d&&d.count!=null){const el=document.getElementById('visit-count'); if(el)el.textContent='조회 '+d.count;} })
+        .catch(()=>{});
+    });
 })();
 load();
 </script>

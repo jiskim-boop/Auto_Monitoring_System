@@ -62,19 +62,10 @@ def fetch_quote(sym):
         j=json.loads(get(url)); res=j["chart"]["result"][0]
         meta=res["meta"]
         reg=meta.get("regularMarketPrice")
-<<<<<<< HEAD
         pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
         # 현재가: 애프터>프리>정규 (장외 변동 반영). meta 값이 가장 최신 체결가.
         price = post if post is not None else (pre if pre is not None else reg)
         closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
-=======
-        # 프리/애프터 가격이 있으면 그것을 '현재가'로 (장외 변동 반영)
-        pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
-        price = post if post is not None else (pre if pre is not None else reg)
-        closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
-        # 직전 거래일 종가 기준(배당락 조정된 chartPreviousClose는 BDC 등락률을 왜곡)
-        prev=closes[-2] if len(closes)>1 else reg
->>>>>>> b484e776b416dc8f2c626435cd7e6f28256f3bc7
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         is_fut = sym in FUT_SET
         # 전일 종가: 선물은 24시간이라 chartPreviousClose(공식 전일 정산가)가 정확.
@@ -85,7 +76,6 @@ def fetch_quote(sym):
             prev = closes[-2] if len(closes)>1 else reg
         chg=round((price/prev-1)*100,2) if prev else 0
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
-<<<<<<< HEAD
         # 세션: 선물은 거의 24시간이라 '24h'로, 주식·지수는 pre/post/reg
         if is_fut:
             sess = "24h"
@@ -97,14 +87,6 @@ def fetch_quote(sym):
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
                 "high3m":round(max(closes[-63:]),2) if closes else None,
                 "sess":sess,"mt":mt,"ok":True}
-=======
-        # 장 세션 표시 (선물·지수용)
-        sess = "post" if post is not None else ("pre" if pre is not None else "reg")
-        return {"price":round(price,2),"chg":chg,"chg5":chg5,
-                "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
-                "high3m":round(max(closes[-63:]),2) if closes else None,
-                "sess":sess,"ok":True}
->>>>>>> b484e776b416dc8f2c626435cd7e6f28256f3bc7
     except Exception as e:
         return {"ok":False,"err":str(e)[:120]}
 def fetch_prices():

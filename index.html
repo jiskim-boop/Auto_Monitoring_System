@@ -1032,7 +1032,7 @@ function renderHistory(d){
   } else if(mini){ mini.textContent='(탭하여 펼치기)'; }
 }
 
-function setVerd(elId,states,kind,extra){
+function setVerd(elId,states,kind){
   const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
   const el=$(elId),box=el.closest('.vbox');let c,t,lv;
   if(!states.length){c='#7b8499';t='데이터 대기';lv='n';}
@@ -1040,7 +1040,6 @@ function setVerd(elId,states,kind,extra){
   else if(reds>=2){c='#ff6b6b';t='경계: '+reds+'개 부문 위험 → 축소 검토';lv='r';}
   else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';lv='a';}
   else{c='#37d6a0';t='안정';lv='g';}
-  if(extra){c='#ff6b6b';t=extra+' · '+t;lv='r';}
   el.textContent=t;box.style.borderLeftColor=c;return lv;}
 
 async function load(){
@@ -1080,13 +1079,12 @@ async function load(){
     const vSys=setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sDeriv].filter(Boolean),'sys');
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
-    let extra=null;
-    if(trigNews.length||newFilings.length)extra='신용 트리거';
-    else if(ew&&ew.score>=2)extra='급변 경보';
+    // (신용 트리거·급변 경보는 상단 경고 배너에서 처리 — 영역 판정엔 강제 반영 안 함)
     // 야간 선행·GPU단가는 '선행 신호'라 단계를 과하게 올리지 않게 주의(a)까지만 기여
     const sAiNightCapped = sAiNight==='r' ? 'a' : sAiNight;
     const sGpuCapped = sGpuPrice==='r' ? 'a' : sGpuPrice;
-    const vAi=setVerd('ov-ai',[sChain,sGpuCapped,sAiNightCapped,sCredit].filter(x=>x&&x!=='n'),'ai',extra);
+    // AI 섹터는 AI 자산(바스켓·GPU·야간선행)만으로 판정 — 신용/공시 트리거(extra)는 AI 약세가 아니므로 제외
+    const vAi=setVerd('ov-ai',[sChain,sGpuCapped,sAiNightCapped].filter(x=>x&&x!=='n'),'ai');
     const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
     colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);

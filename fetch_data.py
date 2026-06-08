@@ -472,6 +472,81 @@ def update_history(prev, ew):
         hist.append(entry)
     return hist[-30:]  # 최근 30일
 
+def upcoming_events():
+    """주요 거시 이벤트 캘린더 — 지난 건 자동 제외, 다가오는 순. 분기마다 수동 갱신 권장."""
+    # 2026년 FOMC 회의일(성명 발표일 기준, 예정). CPI는 보통 매월 중순.
+    EVENTS=[
+        ("2026-01-28","FOMC 금리결정"),
+        ("2026-03-18","FOMC 금리결정"),
+        ("2026-04-29","FOMC 금리결정"),
+        ("2026-06-17","FOMC 금리결정"),
+        ("2026-07-29","FOMC 금리결정"),
+        ("2026-09-16","FOMC 금리결정"),
+        ("2026-11-04","FOMC 금리결정"),
+        ("2026-12-16","FOMC 금리결정"),
+        ("2026-06-11","미 CPI(5월)"),
+        ("2026-07-15","미 CPI(6월)"),
+        ("2026-08-12","미 CPI(7월)"),
+        ("2026-07-23","하이퍼스케일러 실적 시작(MSFT·GOOGL 등)"),
+        ("2026-08-27","NVDA 실적(예상)"),
+        ("2026-06-12","World ADC 2026 (알테오젠 모니터링)"),
+    ]
+    today=datetime.now(timezone.utc).date()
+    out=[]
+    for d,name in EVENTS:
+        try:
+            ed=datetime.strptime(d,"%Y-%m-%d").date()
+            dd=(ed-today).days
+            if dd>=0:  # 오늘 이후만
+                out.append({"date":d,"name":name,"dday":dd})
+        except Exception: pass
+    out.sort(key=lambda x:x["dday"])
+    return out[:6]  # 가까운 6개
+
+TG_TOKEN=os.environ.get("TELEGRAM_TOKEN","")
+TG_CHAT=os.environ.get("TELEGRAM_CHAT_ID","")
+def tg_send(text):
+    if not TG_TOKEN or not TG_CHAT: return False
+    try:
+        import urllib.parse
+        data=urllib.parse.urlencode({"chat_id":TG_CHAT,"text":text,"parse_mode":"HTML","disable_web_page_preview":"true"}).encode()
+        req=urllib.request.Request(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",data=data)
+        urllib.request.urlopen(req,timeout=10).read()
+        return True
+    except Exception as e:
+        print("텔레그램 발송 실패:",str(e)[:100]); return False
+
+def maybe_alert(prev, ew, summary, prices, fred):
+    """위험 단계가 '상향 전환'될 때만 알림 (스팸 방지)."""
+    # 조기경보 단계: g<a<r 순서 + 3축이면 최상
+    order={"g":0,"a":1,"r":2}
+    def tier(e):
+        if not e: return 0
+        if e.get("axisCount",0)>=3: return 3
+        return order.get(e.get("st","g"),0)
+    prev_ew=(prev or {}).get("early",{}) if prev else {}
+    cur_t, prev_t = tier(ew), tier(prev_ew)
+    label={0:"안정",1:"주의",2:"경계",3:"위험"}
+    # 상향 전환(악화)일 때만 — 완화는 알림 안 함(스팸 방지)
+    if cur_t>prev_t and cur_t>=1:
+        hits=ew.get("hits",[])
+        vix=(prices.get("^VIX") or {}).get("price")
+        hy=(fred.get("hyoas") or {}).get("value") if fred and fred.get("ok") else None
+        lines=[
+            f"🚨 <b>폭락탐지기</b> — 단계 상향",
+            f"<b>{label[prev_t]} → {label[cur_t]}</b>",
+        ]
+        if hits: lines.append("신호: "+" · ".join(hits[:4]))
+        meta=[]
+        if vix is not None: meta.append(f"VIX {vix:.0f}")
+        if hy is not None: meta.append(f"HY {hy:.2f}%")
+        if meta: lines.append(" / ".join(meta))
+        if summary and summary.get("text"): lines.append("\n"+summary["text"][:120])
+        lines.append("\n<a href='https://jiskim-boop.github.io/ai-monitor/'>대시보드 열기</a>")
+        lines.append("<i>보조 경보입니다. 단독 매매 근거로 삼지 마세요.</i>")
+        sent=tg_send("\n".join(lines))
+        print("알림 발송:" , "성공" if sent else "실패/미설정", f"({label[prev_t]}→{label[cur_t]})")
+
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
@@ -488,9 +563,12 @@ def main():
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history}
+          "early":ew,"history":history,"events":upcoming_events()}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
+    # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)
+    try: maybe_alert(prev, ew, summary, prices, fred)
+    except Exception as e: print("알림 처리 오류:",str(e)[:100])
     cached=" (캐시재사용)" if summary.get("_cached") else ""
     print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| 조기경보:",ew["st"],ew["score"],"| 이력:",len(history),"일")
 

@@ -772,13 +772,15 @@ function renderCharts(d){
 }
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
-  const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
-  const ordered=trig.concat(rest).slice(0,5);
-  const tcount=ordered.filter(x=>x.trig).length;
+  // 지정학 돌발(geo) > 트리거(trig) > 나머지 순
+  const geo=items.filter(x=>x.geo), trig=items.filter(x=>x.trig&&!x.geo), rest=items.filter(x=>!x.trig&&!x.geo);
+  const ordered=geo.concat(trig).concat(rest).slice(0,5);
+  const tcount=ordered.filter(x=>x.trig||x.geo).length;
   ordered.forEach((it,idx)=>{const li=document.createElement('li');
-    if(it.trig)li.className='trig'; else li.classList.add('minor');
+    if(it.geo){li.className='trig';li.style.borderLeftColor='#ff9d3b';} else if(it.trig)li.className='trig'; else li.classList.add('minor');
     if(idx===tcount&&tcount>0&&idx<ordered.length)li.classList.add('sep');
-    li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});
+    const tag = it.geo?'🌍 ':'';
+    li.innerHTML=`<a href="${it.link}" target="_blank" rel="noopener">${tag}${it.title}</a><div class="meta">${it.src||''} · ${ago(it.pub)}</div>`;el.appendChild(li);});
   if(tcount===0){const note=document.createElement('li');note.className='nonote';note.textContent='트리거 뉴스 없음';el.insertBefore(note,el.firstChild);}}
 function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">공시 없음</li>';return;}
   // 위험 키워드(배당삭감·디폴트·상각·채무가속 등)가 요약에 있으면 트리거
@@ -962,6 +964,9 @@ async function load(){
     renderHistory(d);
     // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
     const alertParts=[];
+    // 지정학·돌발 거시 이벤트 (최우선 표시)
+    const geoNews=[...((d.news||{}).macro||[]),...((d.news||{}).flow||[])].filter(x=>x.geo);
+    if(geoNews.length) alertParts.push(`🌍 지정학 돌발 ${geoNews.length}건: ${geoNews[0].title.slice(0,40)}`);
     if(ew&&(ew.score>=2||ew.futDrop)) alertParts.push((ew.axisCount>=3?'⚡위험: ':'급변: ')+ew.hits.slice(0,4).join('·'));
     if(trigNews.length) alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
     if(newFilings.length) alertParts.push(`신규 공시 ${newFilings.length}건`);
@@ -975,9 +980,8 @@ async function load(){
     // 배너 표시 조건: 위 중 하나라도
     if(alertParts.length){
       $('alert').classList.add('on');
-      const onlyEW=!trigNews.length&&!newFilings.length&&!areaRisk.length;
       const hasEW = ew&&(ew.score>=2||ew.futDrop);
-      $('alert').querySelector('.lbl').textContent = hasEW ? '⚡ 시장 급변·위험 감지' : '⚠ 시장 위험 감지';
+      $('alert').querySelector('.lbl').textContent = geoNews.length ? '🌍 지정학·시장 위험 감지' : (hasEW ? '⚡ 시장 급변·위험 감지' : '⚠ 시장 위험 감지');
       $('alert-txt').textContent=alertParts.join('  ·  ');
     }
     const any=[sVix,sSemi,sCredit,sPow].some(Boolean);

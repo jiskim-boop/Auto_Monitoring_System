@@ -103,11 +103,15 @@ NEWS_QUERIES={
  "fundamental":['hyperscaler capex guidance','Microsoft OR Amazon OR Meta OR Oracle capex AI',
    'AI capex cut OR slowdown OR depreciation'],
  "macro":['Fed rate decision OR FOMC','recession risk yield curve',
-   'VIX market volatility selloff','credit spreads widening'],
+   'VIX market volatility selloff','credit spreads widening',
+   'geopolitical risk markets','Middle East war oil OR conflict markets',
+   'military strike OR invasion markets','sanctions tariff escalation markets'],
  "flow":['dollar index DXY move','oil price WTI OR crude',
    'copper price OR commodities','Japan yen carry trade','gold price safe haven'],
 }
 TRIGGER=re.compile(r"\b(gate|redemption|default|downgrade|markdown|non-accrual|cut|miss|slowdown|write-?down|distress|halt)\b",re.I)
+# 지정학·돌발 거시 중대 트리거 (강한 조합 — 오탐 최소화)
+GEO_TRIGGER=re.compile(r"\b(invasion|invades?|airstrike|missile strike|nuclear|martial law|coup|oil embargo|strait of hormuz|declares? war|state of emergency|attack on)\b",re.I)
 def clean(t): return html.unescape(re.sub("<[^>]+>"," ",t)).strip()
 def nomd(s):
     s=re.sub(r'[#*`>_]+',' ',s)      # 마크다운 기호 제거
@@ -123,7 +127,7 @@ def fetch_news_query(q):
             link=clean((re.search(r"<link>(.*?)</link>",b,re.S) or [None,""])[1])
             pub=clean((re.search(r"<pubDate>(.*?)</pubDate>",b,re.S) or [None,""])[1])
             src=clean((re.search(r"<source[^>]*>(.*?)</source>",b,re.S) or [None,""])[1])
-            if title: items.append({"title":title,"link":link,"pub":pub,"src":src,"trig":bool(TRIGGER.search(title))})
+            if title: items.append({"title":title,"link":link,"pub":pub,"src":src,"trig":bool(TRIGGER.search(title)),"geo":bool(GEO_TRIGGER.search(title))})
     except Exception as e:
         return [{"title":f"[수집 실패] {str(e)[:80]}","link":"","pub":"","src":"","trig":False}]
     return items
@@ -233,6 +237,8 @@ def summarize_news(news, prices=None, fred=None, prev=None):
     # ── 변동 감지 캐싱: 큰 변동 없으면 이전 요약 재사용(API 절약) ──
     # 핵심 지표 + 트리거 뉴스 개수로 '상태 지문' 생성
     trig_n=sum(1 for it in news.get("credit",[]) if it.get("trig"))
+    geo_n=sum(1 for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo"))
+    geo_titles=[it["title"] for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo")][:3]
     def rnd(v,step):  # 구간화 — 작은 변동은 같은 값으로
         return None if v is None else round(v/step)*step
     fp={
@@ -243,6 +249,7 @@ def summarize_news(news, prices=None, fred=None, prev=None):
         "hyoas": rnd(hyoas_v,0.2),    # HY 0.2% 단위
         "nfci": rnd(nfci_v,0.1),
         "trig": trig_n,
+        "geo": geo_n,                 # 지정학 중대 뉴스 — 뜨면 새로 요약
         "news": len(hc)+len(hf)+len(hm),
     }
     prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
@@ -253,18 +260,22 @@ def summarize_news(news, prices=None, fred=None, prev=None):
         return {"text":prev_text,"by":"claude","_fp":fp,"_cached":True}
 
     if APIKEY and (hc or hf or hm or snap):
+        geo_block = ("\n\n[⚠ 지정학·돌발 거시 이벤트]\n"+"\n".join("- "+t for t in geo_titles)) if geo_titles else ""
         s=claude(
             "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
             "한국어 1~2문장(100자 내외)으로 핵심만 간결하게 요약하라. "
-            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션 중)만 골라 '무엇을 의미하는지' 담되, "
-            "나열하지 말고 압축할 것. 과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
+            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션·지정학 중)만 골라 '무엇을 의미하는지' 담되, "
+            "나열하지 말고 압축할 것. 지정학 이벤트가 있으면 그 시장 영향을 우선 언급. "
+            "과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
             "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
             "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
-            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=200)
+            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음")+geo_block, max_tokens=200)
         if s: return {"text":nomd(s),"by":"claude","_fp":fp}
     # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
     parts=[]
+    if geo_n>0:
+        parts.append(f"지정학 돌발 이벤트 {geo_n}건 — 유가·변동성 영향 주시")
     if vix is not None and vix>=20:
         parts.append(f"VIX {vix:.0f}로 변동성 {'공포 구간' if vix>=28 else '경계 수준'}")
     if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None:

@@ -422,11 +422,15 @@ def fetch_gpu_price(prev):
                 break
         except Exception:
             continue
-    today=datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    # 누적: 시간 단위 포인트 (실시간성). 같은 시(hour)면 덮어쓰고, 새 시간이면 추가. 최근 48개(약 2일).
+    now=datetime.now(timezone.utc)
+    hourkey=now.strftime("%Y-%m-%dT%H")    # 시간 단위 키
     if median is not None:
-        if hist and hist[-1].get("d")==today: hist[-1]={"d":today,"v":median}
-        else: hist.append({"d":today,"v":median})
-        hist=hist[-30:]
+        if hist and hist[-1].get("d")==hourkey:
+            hist[-1]={"d":hourkey,"v":median}
+        else:
+            hist.append({"d":hourkey,"v":median})
+        hist=hist[-48:]
     return {"median":median,"hist":hist}
 
 def fetch_charts(fred):

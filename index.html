@@ -868,20 +868,32 @@ function renderCharts(d){
 function renderGpu(d){
   const g=d.gpu||{}; const el=$('gpu-h100'); if(!el) return 'n';
   if(g.median==null){el.innerHTML='<span style="color:#5f6878">H100 시세 수집 대기 (또는 API 미응답)</span>';return 'n';}
-  const hist=g.hist||[];
-  let trend='', st='g', pct=null;
+  const hist=(g.hist||[]).filter(h=>h&&h.v!=null);
+  let trend='', st='g', pct=null, spark='';
   if(hist.length>=2){
     const first=hist[0].v, last=hist[hist.length-1].v;
     if(first){
       pct=((last/first-1)*100);
       const arrow=pct>=1?'▲':pct<=-1?'▼':'·';
       const col=pct>=1?'#37d6a0':pct<=-1?'#ff8a5a':'#9aa3b3';
-      trend=` <span style="color:${col}">${arrow} ${hist.length}일 ${pct>=0?'+':''}${pct.toFixed(1)}%</span>`;
-      // 임대가 급락 = 수요 둔화/공급과잉 신호 (capex 사이클 경고)
-      if(pct<=-15) st='r'; else if(pct<=-7) st='a';
+      trend=` <span style="color:${col};font-size:11px">${arrow} ${pct>=0?'+':''}${pct.toFixed(1)}% (${hist.length}p)</span>`;
+      if(pct<=-10) st='r'; else if(pct<=-5) st='a';
     }
+    // 스파크라인 SVG
+    const vals=hist.map(h=>h.v);
+    const mn=Math.min(...vals), mx=Math.max(...vals), rng=(mx-mn)||1;
+    const W=120,H=28;
+    const pts=vals.map((v,i)=>{
+      const x=(i/(vals.length-1))*W;
+      const y=H-2-((v-mn)/rng)*(H-4);
+      return `${x.toFixed(1)},${y.toFixed(1)}`;
+    }).join(' ');
+    const lineCol = pct<=-5?'#ff8a5a':pct>=1?'#37d6a0':'#7aa5d6';
+    spark=`<svg width="${W}" height="${H}" style="display:block;margin-top:5px" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
+      <polyline points="${pts}" fill="none" stroke="${lineCol}" stroke-width="1.5"/>
+    </svg>`;
   }
-  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간 (중앙값)${trend}`;
+  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${trend}${spark}`;
   const sb=$('st-gpu'); if(sb) badge(sb,st);
   return st;
 }

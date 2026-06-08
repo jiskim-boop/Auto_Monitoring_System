@@ -489,7 +489,6 @@ def upcoming_events():
         ("2026-08-12","미 CPI(7월)"),
         ("2026-07-23","하이퍼스케일러 실적 시작(MSFT·GOOGL 등)"),
         ("2026-08-27","NVDA 실적(예상)"),
-        ("2026-06-12","World ADC 2026 (알테오젠 모니터링)"),
     ]
     today=datetime.now(timezone.utc).date()
     out=[]

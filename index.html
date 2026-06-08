@@ -869,15 +869,21 @@ function renderGpu(d){
   const g=d.gpu||{}; const el=$('gpu-h100'); if(!el) return 'n';
   if(g.median==null){el.innerHTML='<span style="color:#5f6878">H100 시세 수집 대기 (또는 API 미응답)</span>';return 'n';}
   const hist=(g.hist||[]).filter(h=>h&&h.v!=null);
-  let trend='', st='g', pct=null, spark='';
+  let trend='', st='g', pct=null, spark='', hourChg='';
   if(hist.length>=2){
-    const first=hist[0].v, last=hist[hist.length-1].v;
+    const first=hist[0].v, last=hist[hist.length-1].v, prev=hist[hist.length-2].v;
     if(first){
       pct=((last/first-1)*100);
       const arrow=pct>=1?'▲':pct<=-1?'▼':'·';
       const col=pct>=1?'#37d6a0':pct<=-1?'#ff8a5a':'#9aa3b3';
-      trend=` <span style="color:${col};font-size:11px">${arrow} ${pct>=0?'+':''}${pct.toFixed(1)}% (${hist.length}p)</span>`;
+      trend=` <span style="color:${col};font-size:11px">${arrow} 누적 ${pct>=0?'+':''}${pct.toFixed(1)}% (${hist.length}p)</span>`;
       if(pct<=-10) st='r'; else if(pct<=-5) st='a';
+    }
+    // 직전 시간 대비 변동률
+    if(prev){
+      const hc=((last/prev-1)*100);
+      const hcol=hc>=0.3?'#37d6a0':hc<=-0.3?'#ff8a5a':'#7b8499';
+      hourChg=`<div style="font-size:10px;color:#8a93a6;margin-top:2px">직전 시간 대비 <span style="color:${hcol};font-weight:600">${hc>=0?'+':''}${hc.toFixed(2)}%</span></div>`;
     }
     // 스파크라인 SVG
     const vals=hist.map(h=>h.v);
@@ -893,7 +899,7 @@ function renderGpu(d){
       <polyline points="${pts}" fill="none" stroke="${lineCol}" stroke-width="1.5"/>
     </svg>`;
   }
-  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${trend}${spark}`;
+  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${trend}${hourChg}${spark}`;
   const sb=$('st-gpu'); if(sb) badge(sb,st);
   return st;
 }

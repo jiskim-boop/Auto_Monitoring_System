@@ -1,20 +1,28 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
 <title>시장 사이클 모니터</title>
+<!-- PWA: 홈 화면 추가 -->
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#070a0f">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="시장 모니터">
+<link rel="apple-touch-icon" href="icon.png">
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
   *{margin:0;padding:0;box-sizing:border-box;}
-  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR',sans-serif;padding:16px 14px 30px;max-width:1480px;margin:0 auto;}
+  body{background:#070a0f;color:#d7dce5;font-family:'Noto Sans KR','Apple SD Gothic Neo','Malgun Gothic',sans-serif;padding:16px 14px 30px;max-width:1480px;margin:0 auto;-webkit-text-size-adjust:100%;text-size-adjust:100%;padding-top:max(16px,env(safe-area-inset-top));}
   h1{font-size:18px;font-weight:900;color:#f4f6fb;}
   .upd{font-family:'Space Mono',monospace;font-size:10px;color:#5f6878;margin:4px 0 10px;}.upd .warn{color:#ff6b6b;}
   .alert{background:#1f0d0d;border:1px solid #5a1f1f;border-left:4px solid #ff6b6b;border-radius:10px;padding:10px 14px;margin-bottom:8px;display:none;}
   .alert.on{display:block;}
   .alert .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;color:#ff9a8a;text-transform:uppercase;margin-bottom:3px;}
   .alert .txt{font-size:12.5px;font-weight:700;color:#ffd0c8;line-height:1.4;}
-  .verds{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px;}
-  @media(max-width:680px){.verds{grid-template-columns:1fr;}}
+  .verds{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;margin-bottom:8px;}
+  @media(max-width:980px){.verds{grid-template-columns:1fr;}}
   .vbox{background:#0c111a;border:1px solid #1b2330;border-left:4px solid #4d5566;border-radius:10px;padding:10px 14px;}
   .vbox .lbl{font-family:'Space Mono',monospace;font-size:9px;letter-spacing:1px;text-transform:uppercase;color:#7b8499;margin-bottom:3px;}
   .vbox .txt{font-size:12px;font-weight:700;color:#e6eaf2;line-height:1.4;}
@@ -28,7 +36,13 @@
   @media(max-width:1200px){.cols{grid-template-columns:repeat(2,1fr);}}
   @media(max-width:680px){.cols{grid-template-columns:1fr;}}
   .colhead{font-family:'Space Mono',monospace;font-size:10px;letter-spacing:1px;text-transform:uppercase;margin:2px 2px 7px;}
-  .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}
+  .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}.ch-crit{color:#ff6b6b;}
+  .colsum{font-size:11px;line-height:1.5;color:#9aa3b3;margin:-3px 2px 9px;padding:6px 9px;background:#0c1119;border-radius:7px;border-left:2px solid #2a3340;}
+  .coltoggle{cursor:pointer;user-select:none;}
+  .sigmini{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:#8a93a6;}
+  .sigmini .sigdot{width:9px;height:9px;border-radius:50%;flex-shrink:0;background:#7b8499;}
+  .sigmini .signm{color:#8a93a6;}
+  .sigmini .sigvl{font-weight:700;color:#7b8499;}
   .card{background:#0c111a;border:1px solid #1b2330;border-radius:11px;padding:11px 13px;margin-bottom:9px;}
   .card.macro{border-left:3px solid #ff8a5a;}.card.ai{border-left:3px solid #5aa0ff;}.card.flow{border-left:3px solid #c89bff;}.card.man{border-left:3px solid #4d5566;}.card.crit{border-left:3px solid #ff6b6b;}
   .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
@@ -60,47 +74,129 @@
   <h1>시장 사이클 모니터</h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
 
+  <!-- 종합 위험도 (크게) + 개별 3개 (작게, 아래) -->
+  <div id="total-banner" style="border-radius:12px;padding:14px 18px 12px;margin-bottom:8px;border:1px solid #1b2330;background:#0d1320">
+    <div style="display:flex;align-items:center;justify-content:space-between">
+      <div style="display:flex;align-items:center;gap:12px">
+        <span id="total-dot" style="width:16px;height:16px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
+        <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">종합 위험도</span>
+      </div>
+      <span id="total-word" style="font-size:22px;font-weight:900;color:#7b8499">—</span>
+    </div>
+    <!-- 개별 3개 (작게) -->
+    <div id="sigstrip" style="display:flex;gap:14px;margin-top:11px;padding-top:10px;border-top:1px solid #1b2330;flex-wrap:wrap">
+      <span class="sigmini" id="sig-credit"><span class="sigdot"></span><span class="signm">신용·유동성</span> <span class="sigvl">—</span></span>
+      <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
+      <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
+    </div>
+  </div>
+
+  <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
+  <div id="ew-toggle" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #2a3a44;background:#101a22;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
+    <div style="display:flex;align-items:center;gap:9px">
+      <span id="ew-caret" style="font-size:10px;color:#6f7888">▶</span>
+      <span id="ew-dot" style="width:10px;height:10px;border-radius:50%;background:#37d6a0;flex-shrink:0"></span>
+      <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">조기경보</span>
+      <span style="font-size:9px;color:#6f7888">빠른 선행 알림</span>
+    </div>
+    <span id="ew-mini" style="font-size:15px;font-weight:900;color:#37d6a0">—</span>
+  </div>
+  <div class="card" id="ew-card" style="margin-bottom:8px;border-left:4px solid #1fd6c4;position:relative;display:none">
+    <div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span id="ew-mood" style="margin-left:auto;font-size:10px;line-height:1">—</span></div>
+    <div class="desc">옵션·신용·가격 3축 가중 합산 · 종합위험도의 보조(미리 알림)</div>
+    <div id="ew-tiers" style="display:flex;gap:4px;margin:8px 0"></div>
+    <div class="verdict" id="early-note">—</div>
+    <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
+    <div class="risk" style="margin-top:8px">
+      <b>계산:</b> 강한신호 1.0 + 보조신호 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기 징후만이면 주의까지(미리 알림)</b><br>
+      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> HY스프레드·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
+      <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6">위험을 미리 알리는 보조 알림 · 실제 위험도 결정은 상단 종합위험도 · 임계값 백테스트 보정(HY 5.5%·VIX 26), 보조도구</span>
+    </div>
+  </div>
+
+  <!-- 핵심 지표 추세 차트 (조기경보 아래) -->
+  <div class="colhead" id="chart-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
+    <span><span id="chart-caret">▶</span> 📈 핵심 지표 추세 (최근 90일)</span>
+    <span id="chart-mini" style="font-size:9px;color:#6f7888;font-weight:400"></span>
+  </div>
+  <div class="card" id="chart-wrap" style="margin-bottom:14px;display:none">
+    <div id="chart-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px">
+      <div class="empty">로딩…</div>
+    </div>
+    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제)</span></div>
+  </div>
+
+  <div class="colhead" id="hist-toggle" style="margin-bottom:6px;color:#7aa5d6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
+    <span><span id="hist-caret">▶</span> 📊 변화·추이</span>
+    <span id="hist-mini" style="font-size:9px;color:#6f7888;font-weight:400"></span>
+  </div>
+  <div id="hist-wrap" style="display:none;margin-bottom:8px">
+    <div style="background:#0c1119;border-left:3px solid #5aa0ff;border-radius:8px;padding:10px 14px;margin-bottom:8px;">
+      <div style="font-size:10px;color:#5aa0ff;font-family:'Space Mono',monospace;letter-spacing:1px;margin-bottom:6px;">📌 직전 대비 변화</div>
+      <div id="changes"><div class="empty">비교 데이터 누적 중…</div></div>
+    </div>
+    <div style="background:#0d1320;border:1px solid #1b2330;border-radius:10px;padding:12px 14px;">
+      <div style="font-size:10px;color:#7aa5d6;font-family:'Space Mono',monospace;letter-spacing:1px;margin-bottom:9px;display:flex;justify-content:space-between;"><span>⚡ 조기경보 30일 추이</span><span id="tl-note" style="color:#8a93a6;font-weight:400;letter-spacing:0"></span></div>
+      <div id="tl-bars" style="display:flex;gap:2px;align-items:flex-end;height:46px;"><div class="empty">이력 누적 중…</div></div>
+      <div id="tl-dates" style="display:flex;justify-content:space-between;font-size:8px;color:#5f6878;margin-top:5px;font-family:'Space Mono',monospace;"></div>
+    </div>
+  </div>
+
   <div class="alert" id="stale" style="border-left-color:#ffb454;background:#1a1505;"><div class="lbl" style="color:#ffb454">⏱ 데이터 낡음</div><div class="txt" id="stale-txt" style="color:#ffd98a"></div></div>
 
-  <div class="alert" id="alert"><div class="lbl">⚠ 신용 트리거 감지</div><div class="txt" id="alert-txt"></div></div>
+  <!-- 급변·트리거 배너 (해당 시에만 표시) -->
+  <div class="alert" id="alert"><div class="lbl">⚠ 시장 위험 감지</div><div class="txt" id="alert-txt"></div></div>
 
-  <div class="verds">
-    <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험</div><div class="txt" id="ov-sys">—</div></div>
-    <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험</div><div class="txt" id="ov-ai">—</div></div>
+  <!-- 3대 영역 상세 판정 (이유 설명) -->
+  <div class="colhead" id="verd-toggle" style="margin-bottom:6px;color:#8a93a6;cursor:pointer;user-select:none;display:flex;justify-content:space-between;align-items:center">
+    <span><span id="verd-caret">▶</span> 🔎 영역별 상세 판정</span>
   </div>
-  <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
-  <div class="guide"><div class="lbl">판단법</div>
-    <b class="gg">정상</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 20·50일선 동시 아래 <b>또는</b> 당일 −5%↓ = 위험 (200일선보다 빠름)
-    · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
+  <div id="verd-wrap" style="display:none">
+    <div class="verds">
+      <div class="vbox" id="vb-sys"><div class="lbl">시장 시스템 위험 (타이밍)</div><div class="txt" id="ov-sys">—</div></div>
+      <div class="vbox" id="vb-ai"><div class="lbl">AI 사이클 위험 (섹터)</div><div class="txt" id="ov-ai">—</div></div>
+      <div class="vbox" id="vb-bubble"><div class="lbl">구조적 취약성 (배경)</div><div class="txt" id="ov-bubble">—</div></div>
+    </div>
+  </div>
 
+  <div class="summary"><div class="lbl">한 문장 요약 <span id="sumby"></span></div><div class="txt" id="summary">—</div></div>
+
+  <!-- 판단법 (접기) -->
   <div class="cols">
     <!-- COL 1: 조기경보 + 유동성 + 신용 (최우선) -->
     <div>
-      <div class="colhead ch-flow">1 · 신용·유동성·조기경보 (최우선)</div>
-      <div class="card crit"><div class="top"><span class="nm">⚡ 단기 급변 조기경보</span><span class="stt s-n" id="st-early">—</span></div>
-        <div class="desc">VIX급등·신용급확대·시장급락 동시 발생 카운트</div>
-        <div class="verdict" id="early-note">—</div></div>
-      <div class="card crit"><div class="top"><span class="nm">유동성·시스템 스트레스</span><span class="stt s-n" id="st-fred">—</span></div>
-        <div class="desc">FRED 선행지표 · 주간/일간 갱신</div>
-        <div id="fred-rows"><div class="empty">로딩…</div></div>
-        <div class="risk"><b>해석:</b> NFCI 0↑=긴축 · HY OAS 상승=신용경색 · SOFR−IORB +10bp↑=레포 경색</div></div>
+      <div class="colhead ch-crit">1 · 신용·유동성 (최우선)</div>
+      <div class="colsum coltoggle" id="sum-credit" data-wrap="wrap-credit">—</div>
+      <div class="colcards" id="wrap-credit" style="display:none">
       <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
-        <div class="desc">BIZD·ARCC·OBDC + CRWV(네오클라우드)</div>
-        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div></div>
+        <div class="desc">BDC + 레버리지론·CLO 프록시 · 5일약화=선행신호</div>
+        <div id="credit-rows"><div class="empty">로딩…</div></div><div class="verdict" id="credit-note"></div>
+        <div class="risk"><b>해석:</b> BDC 주가=신용 직접 노출 · 레버리지론(BKLN)·CLO(JBBB)=거래되는 사촌자산으로 분기공시보다 먼저 부실 반영 · <b style="color:#8a93a6">여럿 동시 5d약화=사모대출 시스템 스트레스 선행 신호</b><br><b style="color:#8a93a6">판정:</b> <span style="color:#8a93a6">주가 약세(이평선 아래) + 추세 약화(5d) 동반 시 위험 · 일시적 하락만으론 주의 — 주가 노이즈와 추세 스트레스를 구분</span></div></div>
+      <div class="card crit"><div class="top"><span class="nm">옵션·파생 심리 (빠른 선행)</span><span class="stt s-n" id="st-deriv">—</span></div>
+        <div class="desc">당일 갱신 · 현물보다 빠른 신호</div>
+        <div id="deriv-rows"><div class="empty">로딩…</div></div>
+        <div class="risk"><b>해석:</b> 기간구조 역전(VIX>VIX3M)=단기공포 · VVIX 110+=옵션불안 · SKEW 150+=급락헤지 · MOVE 120+=채권불안</div></div>
+      <div class="card crit"><div class="top"><span class="nm">유동성·시스템 스트레스 (느린 선행)</span><span class="stt s-n" id="st-fred">—</span></div>
+        <div class="desc" id="fred-asof">FRED · 일간/주간 갱신</div>
+        <div id="fred-rows"><div class="empty">로딩…</div></div>
+        <div class="risk"><b>해석:</b> NFCI 0↑=긴축 · HY OAS 상승=신용경색 · SOFR−IORB +10bp↑=레포 경색 · <b style="color:#8a93a6">시장(가격)이 출렁여도 여기 정상이면 = 실제 자금시스템은 아직 안 깨짐</b></div></div>
       <div class="card crit"><div class="top"><span class="nm">EDGAR 8-K</span><span class="stt s-n">자동</span></div>
         <div class="desc">BDC 중대사건 · 본문 AI 요약 · NEW=3일내</div>
         <ul class="news" id="edgar"><li class="empty">로딩…</li></ul></div>
       <div class="card crit"><div class="top"><span class="nm">신용 뉴스</span><span class="stt s-n">자동</span></div>
         <ul class="news" id="news-credit"><li class="empty">로딩…</li></ul></div>
+      </div>
     </div>
 
     <!-- COL 2: AI VALUE CHAIN -->
     <div>
       <div class="colhead ch-ai">2 · AI 밸류체인 (자본 흐름)</div>
+      <div class="colsum coltoggle" id="sum-ai" data-wrap="wrap-ai">—</div>
+      <div class="colcards" id="wrap-ai" style="display:none">
       <div class="card ai"><div class="top"><span class="nm">반도체·연산</span><span class="stt s-n" id="st-semi">—</span></div>
         <div class="desc">NVDA·AVGO·AMD·TSM·ASML·MRVL</div><div class="mem" id="mem-semi"></div></div>
       <div class="card ai"><div class="top"><span class="nm">메모리</span><span class="stt s-n" id="st-mem">—</span></div>
-        <div class="desc">MU·SNDK·STX·WDC (순수 메모리)</div><div class="mem" id="mem-mem"></div></div>
+        <div class="desc">MU·SNDK·STX·WDC + 삼성·SK하이닉스</div><div class="mem" id="mem-mem"></div></div>
       <div class="card ai"><div class="top"><span class="nm">네트워킹·DC장비</span><span class="stt s-n" id="st-net">—</span></div>
         <div class="desc">ANET·ALAB·CRDO·VRT·CIEN·COHR</div><div class="mem" id="mem-net"></div></div>
       <div class="card ai"><div class="top"><span class="nm">전력·유틸리티</span><span class="stt s-n" id="st-power">—</span></div>
@@ -109,32 +205,51 @@
         <div class="desc">구리 FCX·SCCO·CPER + 우라늄 CCJ·URA·UEC</div><div class="mem" id="mem-mat"></div></div>
       <div class="card ai"><div class="top"><span class="nm">하이퍼스케일러</span><span class="stt s-n" id="st-hyp">—</span></div>
         <div class="desc">MSFT·GOOGL·AMZN·META·ORCL</div><div class="mem" id="mem-hyp"></div></div>
+      <div class="card ai"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
       <div class="card ai"><div class="top"><span class="nm">capex 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">하이퍼스케일러 capex·FCF (분기 확정:7월)</div>
         <ul class="news" id="news-fund"><li class="empty">로딩…</li></ul></div>
+      </div>
     </div>
 
     <!-- COL 3: 거시·시스템 위험 (위험 측정) -->
     <div>
       <div class="colhead ch-macro">3 · 거시·시스템 위험 (위험 측정)</div>
+      <div class="colsum coltoggle" id="sum-macro" data-wrap="wrap-macro">—</div>
+      <div class="colcards" id="wrap-macro" style="display:none">
+      <div class="card macro"><div class="top"><span class="nm">구조적 버블 압력</span><span class="stt s-n" id="st-bubble">—</span></div>
+        <div class="desc">취약성 게이지 · 타이밍 아님(터지면 깊이) · 분기/월간</div>
+        <div id="bubble-rows"><div class="empty">로딩…</div></div>
+        <div class="risk"><b>주의:</b> 이 지표들은 <b>언제</b> 터질지 못 맞춤 — 높을수록 하락 시 충격이 클 뿐. 조기경보(타이밍)와 별개로 해석</div></div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
-        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~28 주의 · 28+ 위험</div></div>
+        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~26 주의 · 26+ 위험 · 45+ 항복권(바닥 가능) · <b style="color:#8a93a6">변화율(+20%)이 첫날엔 레벨보다 정확</b></div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
-        <div class="desc">HYG vs LQD · HY만 약세=스프레드 확대</div><div class="verdict" id="lv-spread">—</div></div>
+        <div class="desc">실제 HY OAS(FRED) 기준 · HYG/LQD 보조</div><div class="verdict" id="lv-spread">—</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
         <div class="desc">역전=침체 선행</div><div class="verdict" id="lv-curve">—</div>
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
         <div class="desc">SPY·QQQ · 200일선 이탈=추세 붕괴</div><div class="mem" id="mem-broad"></div></div>
+      <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-b">수치</span></div>
+        <div class="desc">코스피·코스닥 · 한국시간 09~15:30 (참고용)</div>
+        <div id="kr-rows"><div class="empty">로딩…</div></div></div>
+      <div class="card macro"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
+      <div class="card macro"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">SpaceX 6/12 상장 · OpenAI·앤트로픽 대기</div></div>
       <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">Fed·침체·변동성·스프레드</div>
         <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
+      </div>
     </div>
 
     <!-- COL 4: 자금흐름·유동성 (돈의 방향) -->
     <div>
       <div class="colhead ch-flow">4 · 자금흐름·유동성 (돈의 방향)</div>
+      <div class="colsum coltoggle" id="sum-flow" data-wrap="wrap-flow">—</div>
+      <div class="colcards" id="wrap-flow" style="display:none">
+      <div class="card flow"><div class="top"><span class="nm">⏱ 선물·야간 세션</span><span class="stt s-b">24시간</span></div>
+        <div class="desc">장 마감·주말에도 거래 · 시장 방향 선반영</div>
+        <div id="fut-rows"><div class="empty">로딩…</div></div></div>
       <div class="card flow"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-b">방향</span></div>
         <div class="desc">강세=유동성 흡수·신흥국 압박</div><div class="verdict" id="lv-dxy">—</div></div>
       <div class="card flow"><div class="top"><span class="nm">미 10년물 금리</span><span class="stt s-b">방향</span></div>
@@ -152,11 +267,17 @@
       <div class="card flow"><div class="top"><span class="nm">자금흐름 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">달러·유가·구리·엔캐리·금</div>
         <ul class="news" id="news-flow"><li class="empty">로딩…</li></ul></div>
-      <div class="card man"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
-      <div class="card man" style="border-left-color:#37d6a0;"><div class="top"><span class="nm">추세 지속</span><span class="stt s-g">강함</span></div><div class="desc">수주잔고·capex·신용 안정 (다음:7월)</div></div>
-      <div class="card man"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">OpenAI·앤트로픽·SpaceX 9~10월</div></div>
+      </div>
     </div>
   </div>
+
+  <!-- 판단법 (맨 밑, 하단 주석처럼 접기) -->
+  <div class="colhead" id="guide-toggle" style="margin:14px 0 6px;color:#6f7888;cursor:pointer;user-select:none;font-size:11px">
+    <span id="guide-caret">▶</span> 📖 판단법 · 기준
+  </div>
+  <div class="guide" id="guide-wrap" style="display:none">
+    <b class="gg">안정</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 20·50일선 동시 아래 <b>또는</b> 당일 −5%↓ = 위험 (200일선보다 빠름)
+    · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
 
   <div class="foot">GitHub Actions 매시간 자동 · 위험=200일선 아래 or −5%↓ · 바스켓 과반 위험시 ON · 임계값 정성기준(미검증) · 투자 자문 아님</div>
 
@@ -179,27 +300,76 @@ function num(q){return q&&q.ok?q.price:null;}
 function norm(v){return v!=null&&v>20?v/10:v;}
 
 // 바스켓: 과반 위험이면 위험, 과반(위험+주의)이면 주의
+const LABEL={'005930.KS':'삼성전자','000660.KS':'SK하이닉스','^KS11':'코스피','^KQ11':'코스닥','ES=F':'S&P선물','NQ=F':'나스닥선물','YM=F':'다우선물','GC=F':'금선물','CL=F':'WTI선물','HG=F':'구리선물','ZN=F':'10년국채선물'};
+function tkLabel(s){return LABEL[s]||s;}
 function basket(p,syms,memId,stId){
   let r=0,a=0,n=0;const m=$(memId);m.innerHTML='';
   syms.forEach(s=>{const q=p[s];const st=pStatus(q);const c=document.createElement('span');c.className='chip';
-    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${s} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
-    else c.innerHTML=`${s} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
+    if(st){const cc={g:'cg',a:'ca',r:'cr'}[st];c.innerHTML=`${tkLabel(s)} <span class="${cc}">${WORD[st]}</span>`;if(st==='r')r++;else if(st==='a')a++;n++;}
+    else c.innerHTML=`${tkLabel(s)} <span style="color:#5f6878">N/A</span>`;m.appendChild(c);});
   if(!n){badge($(stId),'n','N/A');return null;}
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
   badge($(stId),st);return st;}
 
 function creditPanel(p){
-  const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0;
-  [['BIZD','BIZD'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([sym,lbl])=>{
+  const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0,early=0;
+  function addRow(sym,lbl,grp){
     const q=p[sym];const st=pStatus(q);const row=document.createElement('div');row.className='prow';
-    if(q&&q.ok){row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span>${chgHtml(q)}<span class="ps ${SB[st]}">${WORD[st]}</span>`;if(st==='r')r++;n++;}
-    else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;rows.appendChild(row);});
+    if(q&&q.ok){
+      const weak5 = q.chg5!=null && q.chg5<=-1.5;
+      const up=q.chg>=0;
+      const tag = weak5 ? ' <span style="font-size:9px;color:#ff8a5a">5d약화</span>' : '';
+      row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%${tag}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
+      if(st==='r')r++;if(weak5)early++;n++;}
+    else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;
+    rows.appendChild(row);}
+  [['BIZD','BIZD(BDC지수)'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([s,l])=>addRow(s,l));
+  const sep=document.createElement('div');sep.style.cssText='font-size:9px;color:#6f7888;margin:4px 0 2px;border-top:1px solid #1b2330;padding-top:4px';
+  sep.textContent='─ 선행 프록시 (거래되는 사촌자산) ─';rows.appendChild(sep);
+  [['BKLN','BKLN(레버리지론)'],['SRLN','SRLN(시니어론)'],['JBBB','JBBB(CLO)']].forEach(([s,l])=>addRow(s,l));
   if(!n){badge($('credit-verdict'),'n','N/A');return null;}
-  const st=r>n/2?'r':r>=1?'a':'g';badge($('credit-verdict'),st);
-  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${n}개 중 ${r}개 위험`;return st;}
+  // 판정: 카드 자체 ETF로 (HY 외부지표 끌어오지 않음 — 정합성)
+  // 노이즈 보정: 단순 주가 하락(이평선 아래)만으론 부족, 추세 약화(5d) 동반 시 위험 가중
+  // r=이평선 아래 개수, early=5일 추세약화 개수
+  let st, basis;
+  const major = r>n/2;          // 과반이 이평선 아래
+  const trendWeak = early>=2;   // 추세 약화 다수
+  if(major && trendWeak) {st='r'; basis=`${n}개 중 ${r}개 주가 약세 + 추세 약화 ${early}건 동반 → 사모대출 스트레스`;}
+  else if(major || trendWeak) {st='a'; basis=`${n}개 중 ${r}개 약세${trendWeak?` · 추세약화 ${early}건`:''} (일시적 하락일 수 있어 주의)`;}
+  else if(r>=1||early>=1) {st='a'; basis=`${n}개 중 ${r}개 약세 — 부분 경계`;}
+  else {st='g'; basis=`${n}개 모두 안정권`;}
+  badge($('credit-verdict'),st);
+  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${basis}`;return st;}
 
 function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
-  const st=v>=28?'r':v>=20?'a':'g';badge($('st-vix'),st);lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>');return st;}
+  const st=v>=45?'r':v>=26?'r':v>=20?'a':'g';badge($('st-vix'),st);
+  const note=v>=45?' (항복권)':v>=26?' (공포)':'';
+  lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>'+note);return st;}
+
+// 옵션·파생 심리: VIX 기간구조 + VVIX + SKEW
+function derivPanel(p,asof){
+  const rows=$('deriv-rows');rows.innerHTML='';let risk=0,n=0;
+  const vix=num(p['^VIX']), vix3m=num(p['^VIX3M']), vvix=num(p['^VVIX']), skew=num(p['^SKEW']);
+  const dt=asof?asof.slice(5,10):'';
+  function row(lbl,valStr,st){
+    const r=document.createElement('div');r.className='prow';
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span class="lv" style="font-size:9px;color:#6f7888">${dt}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
+    rows.appendChild(r);if(st==='r')risk++;if(st==='a')risk+=0.5;n++;}
+  // VIX 기간구조: 비율 = VIX/VIX3M. >1 역전(위험), 0.95~1 평탄(주의), <0.95 정상(콘탱고)
+  if(vix!=null&&vix3m!=null){
+    const ratio=vix/vix3m;
+    const st=ratio>=1?'r':ratio>=0.95?'a':'g';
+    row('기간구조 VIX/3M',ratio.toFixed(3)+(ratio>=1?' 역전':''),st);
+  }
+  // VVIX: 110+ 위험, 100+ 주의
+  if(vvix!=null) row('VVIX',vvix.toFixed(0),vvix>=110?'r':vvix>=100?'a':'g');
+  // SKEW: 150+ 위험, 145+ 주의
+  if(skew!=null) row('SKEW',skew.toFixed(0),skew>=150?'r':skew>=145?'a':'g');
+  // MOVE (채권 변동성, 채권판 VIX): 150+ 위험, 120+ 주의
+  const move=num(p['^MOVE']);
+  if(move!=null) row('MOVE(채권)',move.toFixed(0),move>=125?'r':move>=100?'a':'g');
+  if(!n){badge($('st-deriv'),'n','N/A');return null;}
+  const st=risk>=1.5?'r':risk>=0.5?'a':'g';badge($('st-deriv'),st);return st;}
 function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl('lv-dxy',`<b>${q.price.toFixed(2)}</b> ${chgHtml(q)} · ${tt}`);}
@@ -210,15 +380,101 @@ function jpyFlow(p){const q=p['JPY=X'];if(!q||!q.ok){lvl('lv-jpy','실패');retu
 function curveAxis(p){const t=norm(num(p['^TNX'])),i=norm(num(p['^IRX']));if(t==null||i==null){badge($('st-curve'),'n','N/A');lvl('lv-curve','실패');return null;}
   const sp=t-i;const st=sp<0?'r':sp<0.5?'a':'g';badge($('st-curve'),st);
   lvl('lv-curve','10Y '+t.toFixed(2)+' − 3M '+i.toFixed(2)+' = <b>'+(sp>=0?'+':'')+sp.toFixed(2)+'%p</b>'+(sp<0?' 역전':''));return st;}
-function spreadAxis(p){const hy=pStatus(p['HYG']),ig=pStatus(p['LQD']);if(!hy||!ig){badge($('st-spread'),'n','N/A');lvl('lv-spread','실패');return null;}
-  let st='g',msg='스프레드 안정';
-  if(hy==='r'&&ig==='r'){st='r';msg='HY·IG 동반 약세 — 광범위 경색';}
-  else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
-  else if(hy==='a'){st='a';msg='HY 약세 조짐';}
-  badge($('st-spread'),st);lvl('lv-spread',`HYG $${p['HYG'].price} ${chgHtml(p['HYG'])} · LQD $${p['LQD'].price} ${chgHtml(p['LQD'])}<br>${msg}`);return st;}
+function spreadAxis(p,fred){
+  // 실제 HY OAS(FRED) 레벨이 기준 — 미니차트와 일치
+  const oas=(fred&&fred.ok&&fred.hyoas)?fred.hyoas.value:null;
+  const hyg=p['HYG'],lqd=p['LQD'];
+  if(oas==null && (!hyg||!hyg.ok)){badge($('st-spread'),'n','N/A');lvl('lv-spread','실패');return null;}
+  let st='g',msg;
+  if(oas!=null){
+    // FRED HY OAS 레벨 기준 (미니차트와 동일 임계)
+    st = oas>=5.5?'r':oas>=4.5?'a':'g';
+    msg = `실제 HY OAS ${oas.toFixed(2)}% — ${st==='r'?'경색':st==='a'?'확대':'안정'}`;
+    // 보조: HYG가 당일 급락이면 한 단계 경계 강화 (조기 신호)
+    if(st==='g' && hyg&&hyg.ok&&hyg.chg!=null&&hyg.chg<=-1){st='a';msg+=' · HYG 당일 약세(조기신호)';}
+  } else {
+    // FRED 없을 때만 ETF 추세로 대체
+    const hy=pStatus(hyg),ig=pStatus(lqd);
+    if(hy==='r'&&ig==='r'){st='r';msg='HY·IG 동반 약세 — 광범위 경색';}
+    else if(hy==='r'){st='a';msg='HY만 약세 — 스프레드 확대';}
+    else if(hy==='a'){st='a';msg='HY 약세 조짐';}
+    else msg='스프레드 안정';
+  }
+  const hygTxt = (hyg&&hyg.ok)?`HYG $${hyg.price} ${chgHtml(hyg)}`:'';
+  const lqdTxt = (lqd&&lqd.ok)?` · LQD $${lqd.price} ${chgHtml(lqd)}`:'';
+  badge($('st-spread'),st);lvl('lv-spread',`${hygTxt}${lqdTxt}<br>${msg}`);return st;}
 function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
+
+// 구조적 버블 압력: 취약성 게이지 (타이밍 아님)
+function bubblePanel(f){
+  const rows=$('bubble-rows');rows.innerHTML='';let n=0,hot=0;
+  function row(lbl,valStr,level,note){
+    const r=document.createElement('div');r.className='prow';
+    const cmap={g:'s-g',a:'s-a',r:'s-r'};
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span class="lv" style="font-size:10px;color:#8a93a6">${note||''}</span><span class="ps ${cmap[level]}">${{g:'보통',a:'높음',r:'극단'}[level]}</span>`;
+    rows.appendChild(r);n++;if(level==='r')hot++;}
+  if(!f||!f.ok){rows.innerHTML='<div class="empty">FRED 키 설정 시 표시</div>';badge($('st-bubble'),'n','—');const vb=$('ov-bubble');if(vb)vb.textContent='데이터 대기';return;}
+  // 실러 CAPE: 35+ 높음, 40+ 극단 (역사적)
+  if(f.cape!=null){const v=f.cape;const lv=v>=40?'r':v>=30?'a':'g';
+    row('실러 CAPE',v.toFixed(1)+(f.cape_manual?'*':''),lv,v>=40?'1999수준':'');}
+  // 가계 부채상환비율 (DSR/TDSP): 평년 ~10%, 13%+ 높음
+  if(f.dsr&&f.dsr.value!=null){const v=f.dsr.value;const lv=v>=13?'r':v>=11?'a':'g';
+    row('가계 부채상환',v.toFixed(1)+'%',lv,'');}
+  // 가계부채/GDP: 70%+ 높음, 90%+ 극단
+  if(f.hhdebt&&f.hhdebt.value!=null){const v=f.hhdebt.value;const lv=v>=90?'r':v>=70?'a':'g';
+    row('가계부채/GDP',v.toFixed(0)+'%',lv,'');}
+  // 연방기금금리: 추세 표시 (긴축=압력). 5%+ 높음
+  if(f.ffr&&f.ffr.value!=null){const v=f.ffr.value;const lv=v>=5?'a':'g';
+    row('기준금리',v.toFixed(2)+'%',lv,'긴축=압력');}
+  if(!n){rows.innerHTML='<div class="empty">데이터 없음</div>';badge($('st-bubble'),'n','—');return;}
+  const st=hot>=2?'r':hot>=1?'a':'g';
+  badge($('st-bubble'),st,hot>=2?'고압':hot>=1?'경계':'보통');
+  if(f.cape_manual){const note=document.createElement('div');note.className='empty';note.style.fontSize='10px';note.textContent='* CAPE 수동값 (자동수집 차단 시)';rows.appendChild(note);}
+  // 상단 판정 박스
+  const capeStr = f.cape!=null ? `CAPE ${f.cape.toFixed(0)}` : '';
+  const lab = hot>=2 ? '고압' : hot>=1 ? '경계' : '보통';
+  const vb=$('ov-bubble'), box=vb? vb.closest('.vbox'):null;
+  if(vb){
+    vb.innerHTML = `${lab}${capeStr?' · '+capeStr:''}${hot>=1?' — 하락 시 충격 큼':''}`;
+    if(box){const c=st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';box.style.borderLeftColor=c;}
+  }
+  return st;}
+
+// 한국 지수: 위험판정 없이 수치만
+function krIndex(p){
+  const rows=$('kr-rows');rows.innerHTML='';let n=0;
+  [['^KS11','코스피'],['^KQ11','코스닥']].forEach(([sym,lbl])=>{
+    const q=p[sym];if(!q||!q.ok)return;
+    const r=document.createElement('div');r.className='prow';n++;const up=q.chg>=0;
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${q.price.toLocaleString()}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span><span></span>`;
+    rows.appendChild(r);});
+  if(!n)rows.innerHTML='<div class="empty">데이터 없음(장 시간 외 가능)</div>';}
+
+// 선물·야간 세션: 지수·채권 선물 + 한국 야간(EWY)
+function futSession(p){
+  const rows=$('fut-rows');rows.innerHTML='';let n=0;
+  // 선물은 거의 24시간 거래 (일~금 야간 포함) → 배지 '24시간' + 체결시각
+  const futCard=$('fut-rows')?$('fut-rows').closest('.card'):null;
+  const esq=p['ES=F'];
+  if(futCard){
+    const badgeEl=futCard.querySelector('.stt');
+    if(badgeEl)badgeEl.textContent='24시간';
+    // 체결 시각 표시 (실시간 갱신 확인용)
+    const descEl=futCard.querySelector('.desc');
+    if(descEl && esq && esq.mt){
+      const d=new Date(esq.mt*1000);
+      const hh=String(d.getHours()).padStart(2,'0'), mm=String(d.getMinutes()).padStart(2,'0');
+      descEl.innerHTML=`장 마감·주말에도 거래 · 시장 방향 선반영 <span style="color:#6f7888">· 체결 ${hh}:${mm}</span>`;
+    }
+  }
+  [['ES=F','S&P'],['NQ=F','나스닥'],['YM=F','다우'],['ZN=F','10Y국채'],['GC=F','금'],['CL=F','WTI'],['HG=F','구리'],['EWY','한국(EWY)']].forEach(([sym,lbl])=>{
+    const q=p[sym];if(!q||!q.ok)return;
+    const r=document.createElement('div');r.className='prow';n++;const up=q.chg>=0;
+    r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${q.price.toLocaleString()}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%</span><span></span>`;
+    rows.appendChild(r);});
+  if(!n)rows.innerHTML='<div class="empty">선물 데이터 없음</div>';}
 
 // FRED 유동성·시스템 스트레스
 function fredPanel(f){
@@ -228,7 +484,8 @@ function fredPanel(f){
   function row(lbl,o,fmt,judge){
     const r=document.createElement('div');r.className='prow';
     if(o&&o.value!=null){const st=judge(o);const ch=o.chg!=null?` (${o.chg>=0?'+':''}${o.chg})`:'';
-      r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${fmt(o.value)}${ch}</span><span></span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
+      const dt=o.date?o.date.slice(5):'';
+      r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${fmt(o.value)}${ch}</span><span class="lv" style="font-size:9px;color:#6f7888">${dt}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
       if(st==='r')risk++;n++;}
     else r.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;
     rows.appendChild(r);}
@@ -237,35 +494,282 @@ function fredPanel(f){
   // 신용 서브: >0 주의, >0.3 위험
   row('└신용 서브',f.nfcicredit,v=>v.toFixed(2),o=>o.value>0.3?'r':o.value>0?'a':'g');
   // HY OAS: >5% 주의, >7% 위험 (상승 가속이면 더 위험하나 레벨 기준)
-  row('HY 스프레드',f.hyoas,v=>v.toFixed(2)+'%',o=>o.value>=7?'r':o.value>=5?'a':'g');
+  row('HY 스프레드',f.hyoas,v=>v.toFixed(2)+'%',o=>o.value>=5.5?'r':o.value>=4.5?'a':'g');
   // SOFR-IORB: >+10bp 위험(레포경색), >0 주의
   if(f.sofr_iorb!=null){const r=document.createElement('div');r.className='prow';
     const st=f.sofr_iorb>=10?'r':f.sofr_iorb>0?'a':'g';
     r.innerHTML=`<span class="tk">SOFR−IORB</span><span class="pr">${f.sofr_iorb>=0?'+':''}${f.sofr_iorb}bp</span><span></span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
     rows.appendChild(r);if(st==='r')risk++;n++;}
   if(!n){badge($('st-fred'),'n','N/A');return null;}
+  // 최근 갱신일: FRED 시리즈 중 가장 최신 date
+  const dates=[f.nfci,f.nfcicredit,f.hyoas].filter(o=>o&&o.date).map(o=>o.date).sort();
+  const latest=dates.length?dates[dates.length-1]:null;
+  const af=$('fred-asof');
+  if(af&&latest){
+    const today=new Date().toISOString().slice(0,10);
+    const dayOld=Math.round((Date.parse(today)-Date.parse(latest))/86400000);
+    const tag = dayOld<=1?'':` · ${dayOld}일 전 값`;
+    af.innerHTML=`FRED · 최근 갱신 <b style="color:#cdd5e3">${latest.slice(5)}</b>${tag}`;
+  }
   const st=risk>=2?'r':risk>=1?'a':'g';badge($('st-fred'),st);return st;}
 
-// 단기 급변 조기경보: 동시 발생 카운트
-function earlyWarning(p){
-  let hits=[],score=0;
+// 단기 급변 조기경보: 가중치 합산 (강한 신호 1.0 / 보조 0.5)
+function earlyWarning(p,fred){
+  let hits=[],score=0; let axisFast=false,axisSlow=false,axisPrice=false;
+  const add=(label,weight,axis)=>{hits.push(label);score+=weight;
+    if(axis==='fast')axisFast=true;else if(axis==='slow')axisSlow=true;else if(axis==='price')axisPrice=true;};
+  // ── 강한 신호 (1.0) ──
+  // 기간구조 역전 (빠른 축: 옵션)
+  const v=num(p['^VIX']), v3=num(p['^VIX3M']);
+  if(v!=null&&v3!=null&&v/v3>=1) add('기간구조 역전',1,'fast');
+  // 시장/선물 급락 (가격 축)
+  const spy=p['SPY'],qqq=p['QQQ'],es=p['ES=F'],nq=p['NQ=F'];
+  const cashDrop=(spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2);
+  const futDrop=(es&&es.chg!=null&&es.chg<=-2)||(nq&&nq.chg!=null&&nq.chg<=-2);
+  if(cashDrop||futDrop) add(futDrop&&!cashDrop?'선물 급락(장외)':'시장 급락',1,'price');
+  // HY 스프레드 급등 (느린 축: FRED 신용) — 7%+
+  if(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=5.5) add('HY스프레드 급등',1,'slow');
+  // VIX 당일 급등 +20% (빠른 축)
   const vix=p['^VIX'];
-  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20){hits.push('VIX 급등');score++;}
-  // 신용 급확대: HYG 5일 낙폭 큰 경우
-  const hyg=p['HYG'];
-  if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2){hits.push('신용 급약화');score++;}
-  // 시장 급락: SPY 또는 QQQ 당일 -2%↓
-  const spy=p['SPY'],qqq=p['QQQ'];
-  if((spy&&spy.chg!=null&&spy.chg<=-2)||(qqq&&qqq.chg!=null&&qqq.chg<=-2)){hits.push('시장 급락');score++;}
-  // 안전자산 쏠림: 금 급등 + 달러 급등 동시
+  if(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20) add('VIX 급등',1,'fast');
+  // ── 보조 신호 (0.5) ──
+  const sk=num(p['^SKEW']); if(sk!=null&&sk>=150) add('SKEW 급등',0.5,'fast');
+  const vv=num(p['^VVIX']); if(vv!=null&&vv>=110) add('VVIX 급등',0.5,'fast');
+  const mv=num(p['^MOVE']); if(mv!=null&&mv>=125) add('MOVE 급등',0.5,'fast');
+  const hyg=p['HYG']; if(hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-2) add('신용 급약화',0.5,'price');
   const gld=p['GLD'],dxy=p['DX-Y.NYB'];
-  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7){hits.push('안전자산 쏠림');score++;}
-  const st=score>=2?'r':score>=1?'a':'g';
-  badge($('st-early'),st, score>=2?'경보':score>=1?'주의':'정상');
+  if(gld&&gld.chg!=null&&gld.chg>=2&&dxy&&dxy.chg!=null&&dxy.chg>=0.7) add('안전자산 쏠림',0.5,'price');
+  // 느린 축 추가: NFCI/신용서브 위험
+  if(fred&&fred.ok){
+    if(fred.nfci&&fred.nfci.value>0.5){axisSlow=true;if(!hits.includes('NFCI 긴축'))add('NFCI 긴축',0.5,'slow');}
+  }
+  // ── 선행 신호 (조기) — 점수엔 약하게 반영, 축 카운트엔 미반영(과민 방지) ──
+  const ch=window.__charts||{};
+  const earlyHits=[];
+  const addEarly=(label,desc)=>{earlyHits.push(desc);};
+  const rising=(arr,n=3)=>{
+    if(!arr||arr.length<n+1)return false;
+    const t=arr.slice(-(n+1));
+    for(let i=1;i<t.length;i++){if(t[i]==null||t[i-1]==null||t[i]<=t[i-1])return false;}
+    return true;};
+  const falling=(arr,n=3)=>{
+    if(!arr||arr.length<n+1)return false;
+    const t=arr.slice(-(n+1));
+    for(let i=1;i<t.length;i++){if(t[i]==null||t[i-1]==null||t[i]>=t[i-1])return false;}
+    return true;};
+  if(v!=null&&v3!=null){const r=v/v3; if(r>=0.95&&r<1) addEarly('기간구조 임박','VIX 기간구조가 역전(1.0)에 근접');}
+  if(rising(ch.hyoas)&&!(fred&&fred.ok&&fred.hyoas&&fred.hyoas.value>=5.5)) addEarly('HY 상승추세','HY 스프레드가 위험권 전이나 연속 상승 중');
+  if(rising(ch.vix)&&!(v!=null&&v>=26)) addEarly('VIX 상승추세','VIX가 위험권 전이나 연속 상승 중');
+  if(falling(ch.bizd)) addEarly('신용프록시 약화','사모대출 프록시(BIZD)가 추세적 하락');
+  const spyUp = spy&&spy.chg!=null&&spy.chg>=0;
+  const hygWeak = hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-1;
+  if(spyUp&&hygWeak) addEarly('시장-신용 괴리','시장은 버티나 신용(HYG)이 약해지는 괴리');
+  if(v!=null&&v<20&&sk!=null&&sk>=145) addEarly('숨은 헤지','VIX는 낮으나 SKEW 높음 — 큰손 급락 대비 중');
+  // ── 단계는 확정신호(score+축)만으로 결정 — 조기징후는 단계를 올리지 않음(정확성) ──
+  // 단계 판정: 4단계 (안정→주의→경계→위험)
+  const axisCount=(axisFast?1:0)+(axisSlow?1:0)+(axisPrice?1:0);
+  let st,lab,tier;
+  if(axisCount>=3){st='r';lab='위험';tier=3;}        // 3축 동시 = 위험
+  else if(score>=2){st='r';lab='경계';tier=2;}        // 확정 점수 2+ = 경계
+  else if(score>=1){st='a';lab='주의';tier=1;}        // 확정 점수 1+ = 주의
+  else if(earlyHits.length>=2){st='a';lab='주의';tier=1;}  // 조기징후 다수 = 주의까지만(빨리 알림)
+  else {st='g';lab='안정';tier=0;}
+  // 조기징후만으로 켜진 '주의'인지 표시용 플래그
+  const earlyOnly = (score<1 && axisCount<3 && earlyHits.length>=2);
+  // (배지 제거: 단계는 진행바, 상태는 이모티콘으로 표시)
+  // 4단계 진행바 렌더 (현재 단계 하이라이트)
+  const tierEl=$('ew-tiers');
+  if(tierEl){
+    const TIERS=[['안정','#37d6a0'],['주의','#ffb454'],['경계','#ff6b6b'],['위험','#ff3b6b']];
+    tierEl.innerHTML=TIERS.map(([nm,col],i)=>{
+      const on=i===tier;
+      const bg = on?col:'#10151f';
+      const fg = on?'#070a0f':'#5f6878';
+      const glow = on&&i>=2?`box-shadow:0 0 10px ${col};`:'';
+      const wt = on?'700':'400';
+      return `<div style="flex:1;text-align:center;padding:5px 0;border-radius:6px;background:${bg};color:${fg};font-size:11px;font-weight:${wt};${glow}">${nm}</div>`;
+    }).join('');
+  }
+  // 카드 전체 색 변경 (단계별)
+  const ewCard=$('ew-card'), ewHead=$('ew-head');
+  const theme = axisCount>=3
+      ? {c:'#ff3b6b',bg:'rgba(255,59,107,0.10)',label:lab}   // 위험: 강렬한 마젠타레드
+      : st==='r' ? {c:'#ff6b6b',bg:'rgba(255,107,107,0.07)',label:lab}
+      : st==='a' ? {c:'#ffb454',bg:'rgba(255,180,84,0.06)',label:lab}
+      : {c:'#1fd6c4',bg:'transparent',label:lab};            // 정상: 시안
+  if(ewCard){ewCard.style.borderLeftColor=theme.c;ewCard.style.background=theme.bg;
+    ewCard.style.boxShadow = axisCount>=3 ? '0 0 0 1px #ff3b6b, 0 0 18px rgba(255,59,107,0.25)' : (st==='r'?'0 0 0 1px rgba(255,107,107,0.4)':'none');}
+  if(ewHead)ewHead.style.color=theme.c;
+  // 상황별 무드 (고양이 이모티콘만, 헤더 우측 끝, 아주 작게)
+  const mood = axisCount>=3 ? '🐈‍⬛💨'
+             : st==='r' ? '😿'
+             : st==='a' ? '🙀'
+             : '😺';
+  const em=$('ew-mood'); if(em){em.textContent=mood;}
+  const mini=$('ew-mini'), ewdot=$('ew-dot');
+  if(mini){
+    const CC={안정:'#37d6a0',주의:'#ffb454',경계:'#ff6b6b',위험:'#ff3b6b'};
+    const col=CC[lab]||'#37d6a0';
+    mini.textContent = lab;
+    mini.style.color = col;
+    if(ewdot){ewdot.style.background=col;ewdot.style.boxShadow=`0 0 8px ${col}`;}
+  }
+  const axisTxt = axisCount>=2 ? ` <span style="color:#8a93a6">[${[axisFast?'옵션':'',axisSlow?'신용시스템':'',axisPrice?'가격':''].filter(Boolean).join('+')} 동시]</span>` : '';
   $('early-note').innerHTML = score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
-    : `<b style="color:${score>=2?'#ff6b6b':'#ffb454'}">${score}개 동시 발생</b> — ${hits.join(' · ')}${score>=2?' → 급변 가능성 높음':''}`;
-  return st;}
+    : `<b style="color:${st==='r'?'#ff6b6b':'#ffb454'}">위험점수 ${score}${axisCount>=3?' · 3축 동시':''}</b> — ${hits.join(' · ')}${axisTxt}${axisCount>=3?' → 구조적 위기 신호':st==='r'?' → 급변 가능성 높음':''}`;
+  // ── 현재 상황 자세한 설명 ──
+  const det=$('ew-detail');
+  if(det){
+    const parts=[];
+    // 축별 상태 서술
+    const axisDesc=[];
+    if(axisFast) axisDesc.push('<span style="color:#5aa0ff">옵션(심리)</span>');
+    if(axisPrice) axisDesc.push('<span style="color:#c89bff">가격</span>');
+    if(axisSlow) axisDesc.push('<span style="color:#ff8a5a">신용시스템</span>');
+    if(axisCount>=3){
+      parts.push(`<b style="color:#ff3b6b">심리·가격·자금 3축이 동시에 무너지고 있습니다.</b> 옵션 시장 공포, 실제 가격 하락, 자금 경색이 함께 진행 중 — 일시적 동요가 아니라 구조적 위기 국면입니다.`);
+    } else if(axisCount===2){
+      parts.push(`${axisDesc.join('·')} 축에서 동시에 경고가 나오고 있습니다. 두 축이 겹친다는 건 단순 노이즈가 아닐 가능성이 높다는 뜻입니다. 나머지 한 축(${!axisFast?'옵션':!axisPrice?'가격':'신용시스템'})으로 번지는지 주시가 필요합니다.`);
+    } else if(axisCount===1){
+      parts.push(`${axisDesc.join('')} 축에서만 신호가 나옵니다. 아직 한 축에 국한돼 있어 ${axisFast?'심리적 동요로 그칠 수도':axisPrice?'가격 변동에 그칠 수도':'시스템 신호이나 단발일 수도'} 있습니다. 다른 축으로 확산되면 신뢰도가 올라갑니다.`);
+    } else if(earlyHits.length>=2){
+      parts.push(`확정 급변 신호는 아직 없으나, <b style="color:#ffb454">조기 징후가 ${earlyHits.length}개</b> 포착됐습니다. 아래 징후들이 확정 신호로 번지는지 주시가 필요한 단계입니다.`);
+    } else {
+      parts.push(`현재 옵션·가격·신용 어느 축에서도 동시 급변 신호가 없습니다. 시장은 평온한 상태입니다.`);
+    }
+    // 선행(조기) 신호 — 단계는 안 올리고 '빨리 알림'만
+    if(earlyHits.length){
+      const head = earlyOnly
+        ? `<b style="color:#7aa5d6">⏱ 조기 징후 ${earlyHits.length}개 (아직 확정 아님):</b>`
+        : `<b style="color:#7aa5d6">⏱ 조기 징후:</b>`;
+      parts.push(`${head} ${earlyHits.join(' · ')}. <span style="color:#8a93a6">확정 신호보다 먼저 포착된 초기 움직임입니다. ${earlyOnly?'아직 확정 신호는 없어 단계는 "주의"에 머물지만, 방향을 빨리 알리기 위해 표시합니다.':''}</span>`);
+    }
+    // 행동 참고 (지시가 아닌 일반적 점검 사항)
+    let act='';
+    if(axisCount>=3) act='이런 국면에서 일반적으로 점검하는 것: 현금 비중·포지션 집중도·헤지 여부. 패닉 매매는 흔히 손실을 키웁니다.';
+    else if(axisCount===2) act='2축 동시 국면에서 흔히 하는 점검: 한 축 더 번지는지 확인, 신규 진입 속도 조절.';
+    else if(score>=1||earlyHits.length>=2) act='조기 징후 단계에서 흔히 하는 점검: 관심 지표의 추세 방향, 무리한 추격매수 자제.';
+    if(act) parts.push(`<b style="color:#8a93a6">💡 참고:</b> <span style="color:#8a93a6">${act} 이는 일반적 정보이며 투자 권유가 아닙니다.</span>`);
+    det.innerHTML = parts.map(x=>`<div style="margin-bottom:5px">${x}</div>`).join('');
+  }
+  return {st,score,hits,futDrop,axisCount,earlyHits,axisFast,axisSlow,axisPrice,earlyOnly};}
+
+// 각 열 한 줄 요약 (지표 상태 기반 규칙)
+function colSummaries(ctx){
+  const {sCredit,sDeriv,fredOk,vSys,vAi,sBubble,p,fred}=ctx;
+  const W={r:'위험',a:'주의',g:'안정',n:'-'};
+  const set=(id,txt,lvl)=>{const e=$(id);if(!e)return;
+    const col = lvl==='r'?'#ff6b6b':lvl==='a'?'#ffb454':lvl==='g'?'#37d6a0':'#7b8499';
+    const word = lvl==='r'?'위험':lvl==='a'?'주의':lvl==='g'?'안정':'—';
+    const caret = e.dataset.open==='1'?'▼':'▶';
+    e.innerHTML = `<span style="display:flex;align-items:center;gap:6px"><span class="cc-caret" style="font-size:9px;color:#6f7888">${caret}</span><span style="flex:1">${txt}</span><b style="color:${col};font-size:12px;white-space:nowrap">${word}</b></span>`;
+    e.style.borderLeftColor = col;};
+  // 1열 신용·유동성 (신호등 credit1과 동일 기준)
+  {
+    let lvl=ctx.credit1||sCredit||'n', t;
+    if(lvl==='r') t='신용·유동성 위험 — 실제 신용지표 또는 다수 영역 경색.';
+    else if(lvl==='a') t='신용 일부 약화 조짐. 추세 주시 단계.';
+    else t='신용·유동성 안정. 자금경색 신호 없음.';
+    set('sum-credit',t,lvl);
+  }
+  // 2열 AI 밸류체인
+  {
+    let lvl=vAi||'n', t;
+    if(lvl==='r') t='AI 밸류체인 다수 약세 — 자본흐름 둔화 신호.';
+    else if(lvl==='a') t='AI 섹터 일부 조정. capex 확인 이벤트 주시.';
+    else t='AI 밸류체인 견조. capex 사이클 유지.';
+    set('sum-ai',t,lvl);
+  }
+  // 3열 거시·시스템
+  {
+    let lvl=vSys||'n', t;
+    const cape=fred&&fred.cape;
+    const capeNote = (cape&&cape>=40)?` 밸류에이션(CAPE ${Math.round(cape)})은 극단.`:'';
+    if(lvl==='r') t='거시 위험 다수 점등 — 시스템 스트레스 상승.'+capeNote;
+    else if(lvl==='a') t='거시 일부 경계.'+capeNote;
+    else t='거시·시스템 안정 범위.'+capeNote;
+    set('sum-macro',t,lvl);
+  }
+  // 4열 자금흐름
+  {
+    const dxy=p['DX-Y.NYB'],gld=p['GLD'],tnx=p['^TNX'];
+    const bits=[];
+    if(dxy&&dxy.ok) bits.push(`달러 ${dxy.chg>=0?'강':'약'}`);
+    if(gld&&gld.ok&&gld.chg>=1) bits.push('금 강세(안전선호)');
+    if(tnx&&tnx.ok) bits.push(`금리 ${tnx.price}%`);
+    const t = bits.length? bits.join(' · ')+'.' : '자금흐름 특이사항 적음.';
+    // 안전자산 쏠림이면 주의색
+    const safe = gld&&gld.chg>=2&&dxy&&dxy.chg>=0.7;
+    set('sum-flow',t,safe?'a':'g');
+  }
+}
+
+// 핵심 지표 추세 미니 차트 (sparkline)
+function sparkline(series, opts){
+  const {warn, danger, higherWorse=true, fmt=(v)=>v} = opts||{};
+  if(!series||!series.length) return '<div style="color:#5f6878;font-size:10px">데이터 없음</div>';
+  const w=140,h=40,pad=3;
+  const vals=series.filter(v=>v!=null);
+  if(!vals.length) return '<div style="color:#5f6878;font-size:10px">데이터 없음</div>';
+  let lo=Math.min(...vals), hi=Math.max(...vals);
+  // 임계선도 범위에 포함
+  if(danger!=null){lo=Math.min(lo,danger);hi=Math.max(hi,danger);}
+  if(warn!=null){lo=Math.min(lo,warn);hi=Math.max(hi,warn);}
+  if(hi===lo){hi=lo+1;}
+  const x=i=>pad+(w-2*pad)*i/(series.length-1||1);
+  const y=v=>h-pad-(h-2*pad)*(v-lo)/(hi-lo);
+  const cur=vals[vals.length-1];
+  // 현재 상태 색
+  let col='#37d6a0';
+  if(danger!=null && (higherWorse? cur>=danger : cur<=danger)) col='#ff6b6b';
+  else if(warn!=null && (higherWorse? cur>=warn : cur<=warn)) col='#ffb454';
+  const pts=series.map((v,i)=>v==null?null:`${x(i).toFixed(1)},${y(v).toFixed(1)}`).filter(Boolean).join(' ');
+  let thr='';
+  if(danger!=null){const yy=y(danger).toFixed(1);thr+=`<line x1="${pad}" y1="${yy}" x2="${w-pad}" y2="${yy}" stroke="#ff6b6b" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.5"/>`;}
+  if(warn!=null){const yy=y(warn).toFixed(1);thr+=`<line x1="${pad}" y1="${yy}" x2="${w-pad}" y2="${yy}" stroke="#ffb454" stroke-width="0.5" stroke-dasharray="2,2" opacity="0.4"/>`;}
+  const dot=`<circle cx="${x(series.length-1).toFixed(1)}" cy="${y(cur).toFixed(1)}" r="2" fill="${col}"/>`;
+  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:40px">${thr}<polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.3"/>${dot}</svg>
+    <div style="display:flex;justify-content:space-between;align-items:baseline;margin-top:2px">
+      <span style="font-size:9px;color:#6f7888">90일</span>
+      <span style="font-size:12px;font-weight:700;color:${col}">${fmt(cur)}</span></div>`;
+}
+function renderCharts(d){
+  const grid=$('chart-grid'); if(!grid) return;
+  const ch=d.charts||{};
+  const cards=[
+    {t:'HY 스프레드', s:ch.hyoas, warn:4.5, danger:5.5, fmt:v=>v.toFixed(2)+'%'},
+    {t:'VIX', s:ch.vix, warn:20, danger:26, fmt:v=>v.toFixed(0)},
+    {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1, fmt:v=>v.toFixed(2)},
+    {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
+    {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, fmt:v=>v.toFixed(1)},
+    {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2)},
+    {t:'레포(SOFR-IORB)', s:ch.sofr_iorb, warn:0, danger:10, fmt:v=>(v>=0?'+':'')+v.toFixed(0)+'bp'},
+    {t:'사모대출(BIZD)', s:ch.bizd, warn:null, danger:null, higherWorse:false, fmt:v=>'$'+v.toFixed(1)},
+    {t:'실러 CAPE', s:ch.cape, warn:30, danger:40, fmt:v=>v.toFixed(0)},
+  ];
+  grid.innerHTML='';
+  cards.forEach(c=>{
+    const div=document.createElement('div');
+    div.style.cssText='background:#0d1320;border:1px solid #1b2330;border-radius:8px;padding:7px 9px';
+    div.innerHTML=`<div style="font-size:10px;color:#aab3c5;margin-bottom:3px;font-weight:600">${c.t}</div>`+
+      sparkline(c.s,{warn:c.warn,danger:c.danger,higherWorse:c.higherWorse!==false,fmt:c.fmt});
+    grid.appendChild(div);
+  });
+  // 접힌 상태용 미니 요약 (위험/주의 개수)
+  const mini=$('chart-mini');
+  if(mini){
+    let r=0,a=0;
+    cards.forEach(c=>{
+      if(!c.s||!c.s.length)return; const cur=c.s.filter(v=>v!=null).pop(); if(cur==null)return;
+      const hw=c.higherWorse!==false;
+      if(c.danger!=null&&(hw?cur>=c.danger:cur<=c.danger))r++;
+      else if(c.warn!=null&&(hw?cur>=c.warn:cur<=c.warn))a++;
+    });
+    mini.textContent = (r||a) ? `위험 ${r} · 주의 ${a} (탭하여 펼치기)` : '모두 정상 (탭하여 펼치기)';
+    mini.style.color = r? '#ff8a8a' : a? '#ffb454' : '#6f7888';
+  }
+}
 
 function renderNews(id,items){const el=$(id);el.innerHTML='';if(!items||!items.length){el.innerHTML='<li class="empty">뉴스 없음</li>';return;}
   const trig=items.filter(x=>x.trig), rest=items.filter(x=>!x.trig);
@@ -294,16 +798,121 @@ function renderEdgar(items){const el=$('edgar');el.innerHTML='';if(!items||!item
     el.appendChild(li);});
   if(hot.length===0){const note=document.createElement('li');note.className='nonote';note.textContent='신규·특이 공시 없음';el.insertBefore(note,el.firstChild);}}
 
+// ① 신호등 + ②③ 변화·타임라인
+function setSig(id,lvl,word){
+  const box=$(id); if(!box)return;
+  const C={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0',n:'#7b8499'};
+  const c=C[lvl]||C.n;
+  box.querySelector('.sigdot').style.cssText=`width:9px;height:9px;border-radius:50%;flex-shrink:0;background:${c};box-shadow:0 0 6px ${c};`;
+  const vl=box.querySelector('.sigvl'); vl.textContent=word; vl.style.color=c;
+}
+function renderSignals(ctx){
+  const {sCredit,sDeriv,sFred,vAi,vSys}=ctx;
+  const W={r:'위험',a:'주의',g:'안정',n:'-'};
+  // 1열 "신용·유동성" = 사모대출(ETF) + 옵션선행 + FRED느린선행 종합
+  // 정확성(보수): '위험'은 실제 신용경색(sFred=HY/NFCI) 확정일 때만. ETF·옵션은 조기신호 → '주의'까지
+  const c1=[sCredit,sDeriv,sFred].filter(Boolean);
+  const c1r=c1.filter(x=>x==='r').length, c1a=c1.filter(x=>x==='a').length;
+  let credit1='g';
+  if(sFred==='r') credit1='r';                      // 실제 신용경색 확정만 위험
+  else if(c1r>=1 || c1a>=2) credit1='a';            // ETF·옵션 약세는 주의까지(조기)
+  setSig('sig-credit',credit1,W[credit1]);
+  setSig('sig-ai',vAi||'n',W[vAi||'n']);
+  setSig('sig-macro',vSys||'n',W[vSys||'n']);
+  // 종합: 가장 높은 위험도 + 조기경보 반영
+  const ew=ctx.ew||{};
+  const lvls=[credit1,vAi,vSys,ew.st].filter(x=>x&&x!=='n');
+  const banner=$('total-banner'),dot=$('total-dot'),word=$('total-word');
+  // 유효 판정이 없으면(첫 실행/데이터 없음) '안정'이 아니라 '대기'로
+  const validCount=[vAi,vSys].filter(x=>x&&x!=='n').length;
+  if(validCount===0){
+    if(banner){banner.style.borderColor='#2a3340';banner.style.background='#0d1320';banner.style.boxShadow='none';}
+    if(dot){dot.style.background='#7b8499';dot.style.boxShadow='none';}
+    if(word){word.textContent='데이터 대기';word.style.color='#7b8499';word.style.fontSize='15px';}
+    return credit1;
+  }
+  // 종합위험도 = 정확(보수적). 조기경보가 '조기징후만'이면 종합 단계는 안 올림(확정만 반영)
+  // ew를 종합에 반영하되, earlyOnly(조기징후뿐)면 제외
+  const ewEffective = (ew.earlyOnly) ? null : ew.st;
+  const lvls2=[credit1,vAi,vSys,ewEffective].filter(x=>x&&x!=='n');
+  let total='g';
+  const rCount=lvls2.filter(x=>x==='r').length;
+  if(ew.axisCount>=3) total='r';
+  else if(rCount>=2) total='r';
+  else if(rCount>=1||lvls2.filter(x=>x==='a').length>=2) total='a';
+  const totalWord = total==='r'?(ew.axisCount>=3?'위험':'경계'):total==='a'?'주의':'안정';
+  // 큰 종합 배너 채우기
+  const C2={r:'#ff6b6b',a:'#ffb454',g:'#37d6a0'};
+  const tc = (ew.axisCount>=3)?'#ff3b6b':C2[total];
+  if(banner){banner.style.borderColor=tc;banner.style.background=total==='g'?'#0d1320':tc+'14';
+    banner.style.boxShadow=(ew.axisCount>=3)?`0 0 18px ${tc}40`:'none';}
+  if(dot){dot.style.background=tc;dot.style.boxShadow=`0 0 10px ${tc}`;}
+  if(word){word.textContent=totalWord;word.style.color=tc;word.style.fontSize='22px';}
+  return credit1;
+}
+function renderHistory(d){
+  const hist=d.history||[];
+  // ② 변화: 최근 2개 비교 (오늘 vs 직전)
+  const ch=$('changes');
+  if(ch){
+    if(hist.length>=2){
+      const cur=hist[hist.length-1], prev=hist[hist.length-2];
+      const curH=new Set(cur.hits||[]), prevH=new Set(prev.hits||[]);
+      const on=[...curH].filter(x=>!prevH.has(x));
+      const off=[...prevH].filter(x=>!curH.has(x));
+      let html='';
+      on.forEach(x=>html+=`<div style="font-size:12px;margin:3px 0;line-height:1.5;color:#ff8a8a;">▲ 새로 켜짐: ${x}</div>`);
+      off.forEach(x=>html+=`<div style="font-size:12px;margin:3px 0;line-height:1.5;color:#37d6a0;">▼ 해제됨: ${x}</div>`);
+      if(!on.length&&!off.length) html=`<div style="font-size:12px;color:#9aa3b3;">· 직전 대비 신호 변화 없음 (점수 ${prev.score}→${cur.score})</div>`;
+      ch.innerHTML=html;
+    } else {
+      ch.innerHTML='<div class="empty">비교 데이터 누적 중… (2회차부터 표시)</div>';
+    }
+  }
+  // ③ 30일 타임라인
+  const bars=$('tl-bars'), dates=$('tl-dates'), note=$('tl-note');
+  if(bars){
+    if(hist.length){
+      const H={g:['#1e3a32','18%'],a:['#ffb454','50%'],r:['#ff6b6b','90%']};
+      bars.innerHTML=hist.map(h=>{
+        let key=h.st||'g'; if(h.axis>=3)key='r';
+        const [col,ht]=H[key]||H.g;
+        const glow = h.axis>=3?'box-shadow:0 0 8px rgba(255,59,107,.5);background:#ff3b6b;height:100%;':`background:${col};height:${ht};`;
+        return `<div title="${h.d} · 점수 ${h.score}" style="flex:1;border-radius:2px 2px 0 0;min-height:4px;${glow}"></div>`;
+      }).join('');
+      // 날짜
+      const f=hist[0].d?.slice(5).replace('-','/'), l='오늘';
+      const mid=hist[Math.floor(hist.length/2)]?.d?.slice(5).replace('-','/')||'';
+      dates.innerHTML=`<span>${f||''}</span><span>${mid}</span><span>${l}</span>`;
+      // 연속 일수
+      let streak=0; const lastSt=hist[hist.length-1].st;
+      for(let i=hist.length-1;i>=0;i--){if(hist[i].st===lastSt)streak++;else break;}
+      const w={r:'위험',a:'주의',g:'정상'}[lastSt]||'';
+      const alarmDays=hist.filter(h=>h.st==='r').length;
+      note.textContent=`${w} ${streak}일째 · 위험 ${alarmDays}일`;
+    } else {
+      bars.innerHTML='<div class="empty">이력 누적 중… (매일 1개씩 30일까지)</div>';
+    }
+  }
+  // 접힌 헤더 미니 요약
+  const mini=$('hist-mini');
+  if(mini&&hist.length>=2){
+    const cur=hist[hist.length-1], prev=hist[hist.length-2];
+    const diff=(cur.hits||[]).length-(prev.hits||[]).length;
+    mini.textContent = diff>0?`신호 ${diff}개 증가 (탭하여 보기)`:diff<0?`신호 ${-diff}개 감소 (탭)`:'변화 없음 (탭)';
+  } else if(mini){ mini.textContent='(탭하여 펼치기)'; }
+}
+
 function setVerd(elId,states,kind,extra){
   const reds=states.filter(s=>s==='r').length,amb=states.filter(s=>s==='a').length;
-  const el=$(elId),box=el.closest('.vbox');let c,t;
-  if(!states.length){c='#7b8499';t='데이터 대기';}
-  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경보: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';}
-  else if(reds>=2){c='#ff6b6b';t='경보: '+reds+'개 부문 위험 → 축소 검토';}
-  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';}
-  else{c='#37d6a0';t='정상: 안정';}
-  if(extra){c='#ff6b6b';t=extra+' · '+t;}
-  el.textContent=t;box.style.borderLeftColor=c;}
+  const el=$(elId),box=el.closest('.vbox');let c,t,lv;
+  if(!states.length){c='#7b8499';t='데이터 대기';lv='n';}
+  else if(kind==='ai'&&reds>states.length/2){c='#ff6b6b';t='경계: 밸류체인 과반('+reds+'/'+states.length+') 위험 → 대폭 축소';lv='r';}
+  else if(reds>=2){c='#ff6b6b';t='경계: '+reds+'개 부문 위험 → 축소 검토';lv='r';}
+  else if(reds===1||amb>=2){c='#ffb454';t='주의: 일부 약세 — 동반 악화 주시';lv='a';}
+  else{c='#37d6a0';t='안정';lv='g';}
+  if(extra){c='#ff6b6b';t=extra+' · '+t;lv='r';}
+  el.textContent=t;box.style.borderLeftColor=c;return lv;}
 
 async function load(){
   try{
@@ -318,40 +927,110 @@ async function load(){
     }
     if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
     const p=d.prices||{};
+    window.__charts=d.charts||{};
     // 거시
-    const sVix=vixAxis(p),sSpread=spreadAxis(p),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    const sVix=vixAxis(p),sSpread=spreadAxis(p,d.fred),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
+    const sDeriv=derivPanel(p, d.updated);
+    krIndex(p);
     // AI 밸류체인
     const sSemi=basket(p,['NVDA','AVGO','AMD','TSM','ASML','MRVL'],'mem-semi','st-semi'),
-          sMem=basket(p,['MU','SNDK','STX','WDC'],'mem-mem','st-mem'),
+          sMem=basket(p,['MU','SNDK','STX','WDC','005930.KS','000660.KS'],'mem-mem','st-mem'),
           sNet=basket(p,['ANET','ALAB','CRDO','VRT','CIEN','COHR'],'mem-net','st-net'),
           sPow=basket(p,['VST','CEG','NRG','TLN','GEV','PWR'],'mem-power','st-power'),
           sMat=basket(p,['FCX','SCCO','CPER','CCJ','URA','UEC'],'mem-mat','st-mat'),
           sHyp=basket(p,['MSFT','GOOGL','AMZN','META','ORCL'],'mem-hyp','st-hyp');
     const sCredit=creditPanel(p);
-    fredPanel(d.fred); earlyWarning(p);
+    const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred);
+    const bubbleResult=bubblePanel(d.fred);
+    renderCharts(d);
     // 자금흐름
     dxyFlow(p);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
+    futSession(p);
     renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
     renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);
-    // 신용 트리거 알림 (뉴스 trig 또는 신규 EDGAR)
+    // 종합 판정 먼저 계산 (배너가 이를 참조)
+    const sBubble=bubbleResult; // bubblePanel이 ov-bubble 설정
+    const vSys=setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sDeriv].filter(Boolean),'sys');
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
     let extra=null;
-    if(trigNews.length||newFilings.length){
+    if(trigNews.length||newFilings.length)extra='신용 트리거';
+    else if(ew&&ew.score>=2)extra='급변 경보';
+    const vAi=setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
+    const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
+    colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
+    renderHistory(d);
+    // 상단 배너: 모든 영역(급변·뉴스·공시 + 3대 판정 + 구조적 버블) 종합
+    const alertParts=[];
+    if(ew&&(ew.score>=2||ew.futDrop)) alertParts.push((ew.axisCount>=3?'⚡위험: ':'급변: ')+ew.hits.slice(0,4).join('·'));
+    if(trigNews.length) alertParts.push(`트리거 뉴스 ${trigNews.length}건`);
+    if(newFilings.length) alertParts.push(`신규 공시 ${newFilings.length}건`);
+    // 3대 영역 위험 요약
+    const areaRisk=[];
+    if(vSys==='r') areaRisk.push('시스템(거시)');
+    if(vAi==='r') areaRisk.push('AI 섹터');
+    if(sCredit==='r') areaRisk.push('신용');
+    if(sBubble==='r') areaRisk.push('구조적 버블');
+    if(areaRisk.length) alertParts.push('위험 영역: '+areaRisk.join('·'));
+    // 배너 표시 조건: 위 중 하나라도
+    if(alertParts.length){
       $('alert').classList.add('on');
-      const parts=[];
-      if(trigNews.length)parts.push(`트리거 뉴스 ${trigNews.length}건`);
-      if(newFilings.length)parts.push(`신규 공시 ${newFilings.length}건`);
-      $('alert-txt').textContent=parts.join(' · ')+' — '+(trigNews[0]?trigNews[0].title:newFilings[0].name+' '+newFilings[0].form);
-      extra='신용 트리거';
+      const onlyEW=!trigNews.length&&!newFilings.length&&!areaRisk.length;
+      const hasEW = ew&&(ew.score>=2||ew.futDrop);
+      $('alert').querySelector('.lbl').textContent = hasEW ? '⚡ 시장 급변·위험 감지' : '⚠ 시장 위험 감지';
+      $('alert-txt').textContent=alertParts.join('  ·  ');
     }
-    // 종합 판정 (AI엔 신용 포함)
-    setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad].filter(Boolean),'sys');
-    setVerd('ov-ai',[sSemi,sMem,sNet,sPow,sMat,sHyp,sCredit].filter(Boolean),'ai',extra);
     const any=[sVix,sSemi,sCredit,sPow].some(Boolean);
     if(!any)$('upd').innerHTML+=' <span class="warn">· 시세 미수집</span>';
   }catch(e){$('upd').innerHTML='<span class="warn">data.json 로드 실패 — 경로/Actions 확인</span>';}
 }
+// 차트 접기/펼치기
+(function(){
+  const t=$('chart-toggle'), w=$('chart-wrap'), c=$('chart-caret');
+  if(t&&w){t.addEventListener('click',()=>{
+    const open=w.style.display!=='none';
+    w.style.display=open?'none':'block';
+    if(c)c.textContent=open?'▶':'▼';
+  });}
+  // 변화·추이 접기/펼치기
+  const ht=$('hist-toggle'), hw=$('hist-wrap'), hc=$('hist-caret');
+  if(ht&&hw){ht.addEventListener('click',()=>{
+    const open=hw.style.display!=='none';
+    hw.style.display=open?'none':'block';
+    if(hc)hc.textContent=open?'▶':'▼';
+  });}
+  // 영역별 상세 판정 접기/펼치기
+  const vt=$('verd-toggle'), vw=$('verd-wrap'), vc=$('verd-caret');
+  if(vt&&vw){vt.addEventListener('click',()=>{
+    const open=vw.style.display!=='none';
+    vw.style.display=open?'none':'block';
+    if(vc)vc.textContent=open?'▶':'▼';
+  });}
+  // 판단법 접기/펼치기
+  const gt=$('guide-toggle'), gw=$('guide-wrap'), gc=$('guide-caret');
+  if(gt&&gw){gt.addEventListener('click',()=>{
+    const open=gw.style.display!=='none';
+    gw.style.display=open?'none':'block';
+    if(gc)gc.textContent=open?'▶':'▼';
+  });}
+  // 조기경보 접기/펼치기
+  const et=$('ew-toggle'), ec=$('ew-card'), ecc=$('ew-caret');
+  if(et&&ec){et.addEventListener('click',()=>{
+    const open=ec.style.display!=='none';
+    ec.style.display=open?'none':'block';
+    if(ecc)ecc.textContent=open?'▶':'▼';
+  });}
+  // 각 열 colsum 클릭 → 카드 묶음 토글
+  document.querySelectorAll('.coltoggle').forEach(el=>{
+    el.addEventListener('click',()=>{
+      const w=$(el.dataset.wrap); if(!w)return;
+      const open=w.style.display!=='none';
+      w.style.display=open?'none':'block';
+      el.dataset.open=open?'0':'1';
+      const cr=el.querySelector('.cc-caret'); if(cr)cr.textContent=open?'▶':'▼';
+    });
+  });
+})();
 load();
 </script>
 </body>

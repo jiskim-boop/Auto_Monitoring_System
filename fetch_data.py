@@ -11,6 +11,8 @@ UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
+# 실러 CAPE 수동값 (자동 스크래이핑 실패 시 사용 — 월 1회 multpl.com 확인 후 갱신)
+CAPE_MANUAL = 42.7  # 2026-06 기준
 
 def get(url, headers=UA, timeout=25):
     req = urllib.request.Request(url, headers=headers)
@@ -36,34 +38,55 @@ def claude(prompt, max_tokens=200):
 PRICE_SYMBOLS = [
     # AI 밸류체인 — 자본 흐름 상류→하류
     "NVDA","AVGO","AMD","TSM","ASML","MRVL",            # 반도체·연산
-    "MU","SNDK","STX","WDC",                             # 메모리·스토리지(순수)
+    "MU","SNDK","STX","WDC","005930.KS","000660.KS",    # 메모리(미국+한국: 삼성·SK하이닉스)
     "ANET","ALAB","CRDO","VRT","CIEN","COHR",            # 네트워킹·DC장비
     "VST","CEG","NRG","TLN","GEV","PWR",                 # 전력·유틸리티
     "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
     "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
     "CRWV",                                              # 네오클라우드
     # 신용·사모대출
-    "BIZD","ARCC","OBDC","HYG",
+    "BIZD","ARCC","OBDC","HYG","BKLN","SRLN","JBBB",
     # 거시·시스템
-    "%5EVIX","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
+    "%5EVIX","%5EVIX3M","%5EVVIX","%5ESKEW","%5EMOVE","DX-Y.NYB","%5EIRX","LQD","SPY","QQQ","%5ETNX",
+    # 한국 지수
+    "%5EKS11","%5EKQ11",
     # 자금흐름
     "GLD","BTC-USD","USO","JPY=X",
+    # 선물 (24시간 — 장외/주말 시장 방향)
+    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
 ]
+FUT_SET = {"ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F"}
 def fetch_quote(sym):
-    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d"
+    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d&includePrePost=true"
     try:
         j=json.loads(get(url)); res=j["chart"]["result"][0]
-        price=res["meta"]["regularMarketPrice"]
+        meta=res["meta"]
+        reg=meta.get("regularMarketPrice")
+        pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
+        # 현재가: 애프터>프리>정규 (장외 변동 반영). meta 값이 가장 최신 체결가.
+        price = post if post is not None else (pre if pre is not None else reg)
         closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
-        # 직전 거래일 종가 기준(배당락 조정된 chartPreviousClose는 BDC 등락률을 왜곡)
-        prev=closes[-2] if len(closes)>1 else price
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
+        is_fut = sym in FUT_SET
+        # 전일 종가: 선물은 24시간이라 chartPreviousClose(공식 전일 정산가)가 정확.
+        # 주식·ETF는 배당락 왜곡 피하려 종가 배열의 직전값 사용.
+        if is_fut:
+            prev = meta.get("chartPreviousClose") or meta.get("previousClose") or (closes[-2] if len(closes)>1 else reg)
+        else:
+            prev = closes[-2] if len(closes)>1 else reg
         chg=round((price/prev-1)*100,2) if prev else 0
-        # 최근 5거래일 누적 변화율 (단기 모멘텀)
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
+        # 세션: 선물은 거의 24시간이라 '24h'로, 주식·지수는 pre/post/reg
+        if is_fut:
+            sess = "24h"
+        else:
+            sess = "post" if post is not None else ("pre" if pre is not None else "reg")
+        # 가격 신선도(체결시각) — 디버그/표시용
+        mt = meta.get("regularMarketTime")
         return {"price":round(price,2),"chg":chg,"chg5":chg5,
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
-                "high3m":round(max(closes[-63:]),2) if closes else None,"ok":True}
+                "high3m":round(max(closes[-63:]),2) if closes else None,
+                "sess":sess,"mt":mt,"ok":True}
     except Exception as e:
         return {"ok":False,"err":str(e)[:120]}
 def fetch_prices():
@@ -177,19 +200,84 @@ def fetch_edgar():
     out.sort(key=lambda x:x.get("date",""),reverse=True)
     return out
 
-# ---- 한 문장 요약
-def summarize_news(news):
-    hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:10]
-    hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:6]
-    if APIKEY and (hc or hf):
-        s=claude("다음은 AI 인프라 신용·사모대출 환매(CREDIT)와 하이퍼스케일러 capex(FUNDAMENTAL) 관련 최신 영문 "
-            "헤드라인이다. 현재 상황을 한국어 평문 한 문장(80자 내외)으로 과장 없이 사실 위주 요약. 신용 스트레스 정도와 "
-            "capex 흐름을 함께. 마크다운 기호(#, *, 머리말)나 제목 없이 한 문장만 출력.\n\n[CREDIT]\n"+"\n".join("- "+h for h in hc)+"\n\n[FUNDAMENTAL]\n"+"\n".join("- "+h for h in hf))
-        if s: return {"text":nomd(s),"by":"claude"}
+# ---- 한 문장 요약 (AI 섹터 + 거시 통합)
+def summarize_news(news, prices=None, fred=None, prev=None):
+    hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:8]
+    hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:5]
+    hm=[it["title"] for it in news.get("macro",[]) if not it["title"].startswith("[")][:5]
+    # 핵심 지표 스냅샷
+    snap=[]
+    p=prices or {}
+    def g(sym):
+        q=p.get(sym); return q.get("price") if q and q.get("ok") else None
+    def gc(sym):
+        q=p.get(sym); return q.get("chg") if q and q.get("ok") else None
+    vix=g("^VIX"); v3=g("^VIX3M"); tnx=g("^TNX"); dxy=g("DX-Y.NYB")
+    spy_c=gc("SPY"); qqq_c=gc("QQQ")
+    if vix is not None:
+        ts = (vix/v3) if (v3 and v3>0) else None
+        snap.append(f"VIX {vix:.0f}" + (" (기간구조 역전)" if ts and ts>=1 else ""))
+    if tnx is not None: snap.append(f"미10년 금리 {tnx:.2f}%")
+    if dxy is not None: snap.append(f"달러 DXY {dxy:.1f}")
+    if spy_c is not None: snap.append(f"S&P {spy_c:+.1f}%")
+    hyoas_v=None; nfci_v=None
+    if fred and fred.get("ok"):
+        if fred.get("hyoas") and fred["hyoas"].get("value") is not None:
+            hyoas_v=fred["hyoas"]["value"]; snap.append(f"HY스프레드 {hyoas_v:.2f}%")
+        if fred.get("nfci") and fred["nfci"].get("value") is not None:
+            nfci_v=fred["nfci"]["value"]; snap.append(f"NFCI {nfci_v:+.2f}")
+        if fred.get("cape") is not None:
+            snap.append(f"실러CAPE {fred['cape']:.0f}")
+    snaptxt=" · ".join(snap) if snap else "(지표 없음)"
+
+    # ── 변동 감지 캐싱: 큰 변동 없으면 이전 요약 재사용(API 절약) ──
+    # 핵심 지표 + 트리거 뉴스 개수로 '상태 지문' 생성
+    trig_n=sum(1 for it in news.get("credit",[]) if it.get("trig"))
+    def rnd(v,step):  # 구간화 — 작은 변동은 같은 값으로
+        return None if v is None else round(v/step)*step
+    fp={
+        "vix": rnd(vix,2),            # VIX 2p 단위
+        "tnx": rnd(tnx,0.1),          # 금리 0.1% 단위
+        "dxy": rnd(dxy,0.5),          # 달러 0.5 단위
+        "spy": rnd(spy_c,1.0),        # S&P 등락 1% 단위
+        "hyoas": rnd(hyoas_v,0.2),    # HY 0.2% 단위
+        "nfci": rnd(nfci_v,0.1),
+        "trig": trig_n,
+        "news": len(hc)+len(hf)+len(hm),
+    }
+    prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
+    prev_text = (prev or {}).get("summary",{}).get("text") if prev else None
+    prev_by = (prev or {}).get("summary",{}).get("by") if prev else None
+    # 지문이 같고 이전이 AI 요약이면 → 재사용(호출 skip)
+    if prev_fp==fp and prev_text and prev_by=="claude":
+        return {"text":prev_text,"by":"claude","_fp":fp,"_cached":True}
+
+    if APIKEY and (hc or hf or hm or snap):
+        s=claude(
+            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 "
+            "한국어 1~2문장(100자 내외)으로 핵심만 간결하게 요약하라. "
+            "가장 중요한 1~2가지(변동성·신용·금리·AI capex·밸류에이션 중)만 골라 '무엇을 의미하는지' 담되, "
+            "나열하지 말고 압축할 것. 과장·투자권유 없이 사실 위주. 마크다운·제목 없이 본문만.\n\n"
+            "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
+            "\n\n[AI capex 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
+            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음"), max_tokens=200)
+        if s: return {"text":nomd(s),"by":"claude","_fp":fp}
+    # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
     trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
-    n=len([it for it in news.get("credit",[]) if not it["title"].startswith("[")])
-    lvl=("신용 경보 다수" if trig>=3 else "신용 경계 일부" if trig>=1 else "신용 특이신호 적음")
-    return {"text":f"신용 뉴스 {n}건 중 트리거 {trig}건 — {lvl}. (AI 요약은 API 키 설정 시)","by":"heuristic"}
+    parts=[]
+    if vix is not None and vix>=20:
+        parts.append(f"VIX {vix:.0f}로 변동성 {'공포 구간' if vix>=28 else '경계 수준'}")
+    if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None:
+        hy=fred["hyoas"]["value"]
+        if hy>=5: parts.append(f"HY스프레드 {hy:.1f}%로 신용 {'경색' if hy>=7 else '확대'}")
+    if trig>0: parts.append(f"신용 트리거 {trig}건")
+    if fred and fred.get("cape") is not None and fred["cape"]>=40:
+        parts.append(f"CAPE {fred['cape']:.0f} 고밸류")
+    if parts:
+        body=" · ".join(parts[:2])
+    else:
+        body="특이 신호 적음"+(f" (VIX {vix:.0f}·안정)" if vix is not None else "")
+    return {"text":body+".","by":"heuristic","_fp":fp}
 
 # ---- FRED 유동성·시스템 스트레스 (선행지표)
 FRED_SERIES = {
@@ -198,6 +286,10 @@ FRED_SERIES = {
     "hyoas":     "BAMLH0A0HYM2",  # HY 옵션조정스프레드 (%)
     "sofr":      "SOFR",          # 레포 금리
     "iorb":      "IORB",          # 지준부리금리
+    # 구조적 버블 압력 (분기/월간, 느림)
+    "dsr":       "TDSP",          # 가계 부채상환비율 (%)
+    "hhdebt":    "HDTGPDUSQ163N", # 가계부채/GDP (%)
+    "ffr":       "DFF",           # 연방기금금리 (%)
 }
 def fred_latest(series_id):
     if not FRED_KEY: return None
@@ -217,6 +309,19 @@ def fred_latest(series_id):
     except Exception:
         return None
 
+def fetch_cape():
+    # 실러 CAPE — multpl.com 스크래이핑 시도 (403 차단 잦음 → 실패 시 수동값 사용)
+    for url in ["https://www.multpl.com/shiller-pe/table/by-month",
+                "https://www.multpl.com/shiller-pe"]:
+        try:
+            raw=get(url, headers={"User-Agent":"Mozilla/5.0 (research)"})
+            if not raw: continue
+            m=re.search(r'Current Shiller PE Ratio[^0-9]*([0-9]+\.[0-9]+)', raw)
+            if m: return round(float(m.group(1)),2)
+        except Exception:
+            continue
+    return None
+
 def fetch_fred():
     if not FRED_KEY:
         return {"ok":False,"note":"FRED_API_KEY 미설정"}
@@ -229,16 +334,145 @@ def fetch_fred():
             out["sofr_iorb"]=round((out["sofr"]["value"]-out["iorb"]["value"])*100,1)  # bp
     except Exception:
         out["sofr_iorb"]=None
+    # 실러 CAPE (스크래이핑 시도 → 실패 시 수동값)
+    _cape=fetch_cape()
+    out["cape"]=_cape if _cape is not None else CAPE_MANUAL
+    out["cape_manual"]=(_cape is None)
     return out
 
+# ---- 차트용 과거 시계열 (B: 과거 90일, 주간 다운샘플)
+def fetch_series_yahoo(sym, points=13):
+    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=3mo&interval=1d"
+    try:
+        j=json.loads(get(url)); res=j["chart"]["result"][0]
+        closes=[c for c in res["indicators"]["quote"][0]["close"] if c is not None]
+        if not closes: return None
+        if len(closes)<=points: return [round(c,2) for c in closes]
+        step=len(closes)/points
+        out=[round(closes[min(int(i*step),len(closes)-1)],2) for i in range(points)]
+        out[-1]=round(closes[-1],2)
+        return out
+    except Exception:
+        return None
+
+def fred_series(series_id, points=13):
+    if not FRED_KEY: return None
+    url=("https://api.stlouisfed.org/fred/series/observations?series_id="+series_id+
+         "&api_key="+FRED_KEY+"&file_type=json&sort_order=desc&limit=120")
+    try:
+        raw=get(url)
+        if raw is None: return None
+        obs=json.loads(raw).get("observations",[])
+        vals=[float(o["value"]) for o in obs if o["value"] not in (".","")]
+        if not vals: return None
+        vals=vals[::-1]
+        if len(vals)<=points: return [round(v,3) for v in vals]
+        step=len(vals)/points
+        out=[round(vals[min(int(i*step),len(vals)-1)],3) for i in range(points)]
+        out[-1]=round(vals[-1],3)
+        return out
+    except Exception:
+        return None
+
+def fetch_charts(fred):
+    ch={}
+    # 야후 기반
+    vix=fetch_series_yahoo("%5EVIX")
+    vix3m=fetch_series_yahoo("%5EVIX3M")
+    ch["vix"]=vix
+    ch["tnx"]=fetch_series_yahoo("%5ETNX")
+    ch["dxy"]=fetch_series_yahoo("DX-Y.NYB")
+    ch["bizd"]=fetch_series_yahoo("BIZD")  # 사모대출 신용 프록시
+    # VIX 기간구조 (VIX/VIX3M, >=1 역전=위험) — 두 시계열 길이 맞춰 비율
+    if vix and vix3m and len(vix)==len(vix3m):
+        ch["vixts"]=[round(a/b,3) if b else None for a,b in zip(vix,vix3m)]
+    else:
+        ch["vixts"]=None
+    # FRED 기반
+    ch["hyoas"]=fred_series("BAMLH0A0HYM2")
+    ch["nfci"]=fred_series("NFCI")
+    # SOFR-IORB (레포 경색, bp) — 두 시계열 차이
+    sofr=fred_series("SOFR"); iorb=fred_series("IORB")
+    if sofr and iorb and len(sofr)==len(iorb):
+        ch["sofr_iorb"]=[round((a-b)*100,1) for a,b in zip(sofr,iorb)]
+    else:
+        ch["sofr_iorb"]=None
+    cape=(fred or {}).get("cape")
+    ch["cape"]=[cape]*8 if cape is not None else None
+    return ch
+
+def calc_early(prices, fred):
+    """index.html과 동일 기준의 조기경보 점수/활성신호 (이력 저장용)"""
+    p=prices or {}
+    def g(s):
+        q=p.get(s); return q.get("price") if q and q.get("ok") else None
+    def gc(s):
+        q=p.get(s); return q.get("chg") if q and q.get("ok") else None
+    def gc5(s):
+        q=p.get(s); return q.get("chg5") if q and q.get("ok") else None
+    score=0; fast=slow=price=False; hits=[]
+    def add(lbl,w,ax):
+        nonlocal score,fast,slow,price
+        hits.append(lbl); 
+        return w,ax
+    v=g("^VIX"); v3=g("^VIX3M")
+    if v is not None and v3 and v/v3>=1: score+=1; fast=True; hits.append("기간구조 역전")
+    spy=gc("SPY"); qqq=gc("QQQ"); es=gc("ES=F"); nq=gc("NQ=F")
+    if (spy is not None and spy<=-2) or (qqq is not None and qqq<=-2) or (es is not None and es<=-2) or (nq is not None and nq<=-2):
+        score+=1; price=True; hits.append("시장/선물 급락")
+    if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None and fred["hyoas"]["value"]>=5.5:
+        score+=1; slow=True; hits.append("HY스프레드 급등")
+    vc=gc("^VIX")
+    if vc is not None and vc>=20: score+=1; fast=True; hits.append("VIX 급등")
+    sk=g("^SKEW")
+    if sk is not None and sk>=150: score+=0.5; fast=True; hits.append("SKEW 급등")
+    vv=g("^VVIX")
+    if vv is not None and vv>=110: score+=0.5; fast=True; hits.append("VVIX 급등")
+    mv=g("^MOVE")
+    if mv is not None and mv>=125: score+=0.5; fast=True; hits.append("MOVE 급등")
+    hyg5=gc5("HYG")
+    if hyg5 is not None and hyg5<=-2: score+=0.5; price=True; hits.append("신용 급약화")
+    if fred and fred.get("ok") and fred.get("nfci") and fred["nfci"].get("value") is not None and fred["nfci"]["value"]>0.5:
+        score+=0.5; slow=True; hits.append("NFCI 긴축")
+    axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price else 0)
+    if axisCount>=3: st="r"
+    elif score>=2: st="r"
+    elif score>=1: st="a"
+    else: st="g"
+    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits}
+
+def update_history(prev, ew):
+    """30일 일별 조기경보 이력 누적 (하루 1개, 최신값으로 갱신)"""
+    hist = (prev or {}).get("history",[]) if prev else []
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    entry={"d":today,"score":ew["score"],"st":ew["st"],"axis":ew["axisCount"],"hits":ew["hits"]}
+    if hist and hist[-1].get("d")==today:
+        hist[-1]=entry  # 오늘 것 갱신
+    else:
+        hist.append(entry)
+    return hist[-30:]  # 최근 30일
+
 def main():
+    # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
+    prev=None
+    try:
+        with open("data.json","r",encoding="utf-8") as f: prev=json.load(f)
+    except Exception: prev=None
     news=fetch_news()
+    prices=fetch_prices()
+    fred=fetch_fred()
+    charts=fetch_charts(fred)
+    summary=summarize_news(news,prices,fred,prev)
+    ew=calc_early(prices,fred)
+    history=update_history(prev,ew)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":fetch_prices(),"news":news,"edgar":fetch_edgar(),
-          "fred":fetch_fred(),"summary":summarize_news(news)}
+          "prices":prices,"news":news,"edgar":fetch_edgar(),
+          "fred":fred,"charts":charts,"summary":summary,
+          "early":ew,"history":history}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
-    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"],"| fred:",data["fred"].get("ok"))
+    cached=" (캐시재사용)" if summary.get("_cached") else ""
+    print("data.json 저장:",data["updated"],"| summary:",data["summary"]["by"]+cached,"| 조기경보:",ew["st"],ew["score"],"| 이력:",len(history),"일")
 
 if __name__=="__main__":
     main()

@@ -1184,17 +1184,23 @@ async function load(){
     });
   });
 })();
-// GoatCounter 방문자 수 (전체 페이지뷰) — 공개 카운터 JSON
+// GoatCounter 방문자 수 — Total + Today (공개 카운터 JSON, 설정에서 공개 허용 필요)
 (function(){
-  fetch('https://jiskim.goatcounter.com/counter/'+encodeURIComponent('/ai-monitor/')+'.json')
-    .then(r=>r.ok?r.json():null)
-    .then(d=>{ if(d&&d.count!=null){const el=document.getElementById('visit-count'); if(el)el.textContent='조회 '+d.count;} })
-    .catch(()=>{ // 경로별 실패 시 사이트 전체(TOTAL) 시도
-      fetch('https://jiskim.goatcounter.com/counter/TOTAL.json')
-        .then(r=>r.ok?r.json():null)
-        .then(d=>{ if(d&&d.count!=null){const el=document.getElementById('visit-count'); if(el)el.textContent='조회 '+d.count;} })
-        .catch(()=>{});
-    });
+  var base='https://jiskim.goatcounter.com/counter/TOTAL.json';
+  var el=document.getElementById('visit-count'); if(!el) return;
+  function todayStr(){var d=new Date();return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');}
+  Promise.all([
+    fetch(base).then(r=>r.ok?r.json():null).catch(()=>null),                       // 전체
+    fetch(base+'?start='+todayStr()).then(r=>r.ok?r.json():null).catch(()=>null)   // 오늘
+  ]).then(function(res){
+    var total=res[0]&&res[0].count!=null?res[0].count:null;
+    var today=res[1]&&res[1].count!=null?res[1].count:null;
+    if(total==null&&today==null){el.textContent='';return;}
+    var parts=[];
+    if(today!=null) parts.push('오늘 '+today);
+    if(total!=null) parts.push('누적 '+total);
+    el.textContent=parts.join(' · ');
+  }).catch(function(){el.textContent='';});
 })();
 load();
 </script>

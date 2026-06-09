@@ -74,7 +74,7 @@
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
     <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.0</span></span>
-    <span style="display:inline-flex;align-items:center;gap:6px"><span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span><span id="visit-hours" style="display:none;align-items:flex-end;gap:1px;height:13px"></span></span>
+    <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
 
@@ -1096,7 +1096,6 @@ function setVerd(elId,states,kind){
 async function load(){
   try{
     const d=await(await fetch('data.json?t='+Date.now())).json();
-    setVisitors(d);
     const updTime=new Date(d.updated);
     $('upd').textContent='갱신 '+updTime.toLocaleString('ko-KR');
     // 데이터 낡음 경고: 3시간 초과 시
@@ -1225,26 +1224,25 @@ async function load(){
   });
 })();
 // 방문자 수: data.json(visitors)을 우선 — Actions가 GoatCounter API로 갱신(주기=cron). 없으면 공개 카운터(30분 캐시) 폴백.
-function setVisitors(d){
-  var el=document.getElementById('visit-count');
-  if(el){
-    if(d && d.visitors!=null){ el.textContent=d.visitors; }
-    else fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?start=2020-01-01&t='+Date.now(),{cache:'no-store'})
-      .then(r=>r.ok?r.json():null).then(j=>{ if(j&&j.count!=null) el.textContent=j.count; }).catch(()=>{});
-  }
-  var hv=document.getElementById('visit-hours');
-  if(hv && d && Array.isArray(d.visit_hours) && d.visit_hours.length===24){
-    var arr=d.visit_hours, mx=Math.max(1,Math.max.apply(null,arr)), peak=arr.indexOf(Math.max.apply(null,arr));
-    hv.innerHTML=arr.map(function(v,h){
-      var ph=Math.max(1,Math.round((v/mx)*13));
-      var c=(h===peak && v>0)?'#5fc4bb':'#2f4a4c';
-      return '<span style="display:inline-block;width:2px;height:'+ph+'px;background:'+c+'"></span>';
-    }).join('');
-    hv.title='시간대별 방문 분포'+(arr[peak]>0?(' · 피크 '+peak+'시'):'');
-    hv.style.display='inline-flex';
-  }
+// ▼ 배포 후 본인 Worker URL로 교체 (예: https://ai-monitor-counter.xxxx.workers.dev)
+var COUNTER_URL = "https://ai-monitor-computer.jiskim.workers.dev";
+function setVisitors(){
+  var el=document.getElementById('visit-count'); if(!el) return;
+  if(!COUNTER_URL || COUNTER_URL.indexOf('YOUR-WORKER')>=0) return; // URL 미설정 시 표시 안 함
+  fetch(COUNTER_URL,{cache:'no-store'})
+    .then(function(r){return r.ok?r.json():null;})
+    .then(function(j){
+      if(j && j.views!=null){
+        el.textContent='고유 '+Number(j.uniq).toLocaleString()
+          +' · 오늘 '+Number(j.today).toLocaleString()
+          +' · 누적 '+Number(j.cumul).toLocaleString()
+          +' · 뷰 '+Number(j.views).toLocaleString();
+      }
+    })
+    .catch(function(){});
 }
-load();  // 방문자 수는 load() 내부의 setVisitors(d)가 data.json 값으로 설정(폴백 카운터가 덮어쓰지 않게 초기 호출 제거)
+load();
+setVisitors();  // 방문자 카운터: Cloudflare Worker 1회 호출(로드당 뷰 +1)
 </script>
 </body>
 </html>

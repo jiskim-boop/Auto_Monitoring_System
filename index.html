@@ -76,7 +76,10 @@
     <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.0</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
-  <div class="upd" id="upd">데이터 불러오는 중…</div>
+  <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
+    <div class="upd" id="upd">데이터 불러오는 중…</div>
+    <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px;flex-shrink:0"></span>
+  </div>
 
   <!-- 주요 일정 (맨 위 · 임박만 노출, 전체는 접기) -->
   <div id="events-strip" style="display:none;margin-bottom:8px;padding:8px 14px;background:#0c1119;border-radius:9px;border-left:3px solid #7a6fd6;font-size:11px;color:#9aa3b3;line-height:1.6">
@@ -1233,10 +1236,18 @@ function setVisitors(){
     .then(function(r){return r.ok?r.json():null;})
     .then(function(j){
       if(j && j.views!=null){
-        el.textContent='고유 '+Number(j.uniq).toLocaleString()
-          +' · 오늘 '+Number(j.today).toLocaleString()
-          +' · 누적 '+Number(j.cumul).toLocaleString()
-          +' · 뷰 '+Number(j.views).toLocaleString();
+        el.textContent=j.uniq+'.'+j.today+'.'+j.cumul+'.'+j.views;
+        var hv=document.getElementById('view-hours');
+        if(hv && Array.isArray(j.hours) && j.hours.length===24){
+          var arr=j.hours, mx=Math.max(1,Math.max.apply(null,arr)), peak=arr.indexOf(Math.max.apply(null,arr));
+          hv.innerHTML=arr.map(function(v,h){
+            var ph=Math.max(1,Math.round((v/mx)*11));
+            var c=(h===peak && v>0)?'#5fc4bb':'#2f4a4c';
+            return '<span style="display:inline-block;width:2px;height:'+ph+'px;background:'+c+'"></span>';
+          }).join('');
+          hv.title='오늘 시간대별 뷰'+(arr[peak]>0?(' · 피크 '+peak+'시'):'');
+          hv.style.display='inline-flex';
+        }
       }
     })
     .catch(function(){});

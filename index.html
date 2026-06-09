@@ -1071,6 +1071,7 @@ function setVerd(elId,states,kind){
 async function load(){
   try{
     const d=await(await fetch('data.json?t='+Date.now())).json();
+    setVisitors(d);
     const updTime=new Date(d.updated);
     $('upd').textContent='갱신 '+updTime.toLocaleString('ko-KR')+' · GitHub 자동';
     // 데이터 낡음 경고: 3시간 초과 시
@@ -1198,18 +1199,16 @@ async function load(){
     });
   });
 })();
-// GoatCounter 방문자 수 — 누적 총합. 캐시 무력화 + 주기적 갱신(탭 켜둬도 안 멈추게)
-(function(){
+// 방문자 수: data.json(visitors)을 우선 — Actions가 GoatCounter API로 갱신(주기=cron). 없으면 공개 카운터(30분 캐시) 폴백.
+function setVisitors(d){
   var el=document.getElementById('visit-count'); if(!el) return;
-  function load(){
-    fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?start=2020-01-01&t='+Date.now(),{cache:'no-store'})
-      .then(r=>r.ok?r.json():null)
-      .then(d=>{ if(d&&d.count!=null) el.textContent=d.count; })
-      .catch(()=>{});
-  }
-  load();
-  setInterval(load, 5*60*1000); // 5분마다 재요청
-})();
+  if(d && d.visitors!=null){ el.textContent=d.visitors; return; }
+  fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?start=2020-01-01&t='+Date.now(),{cache:'no-store'})
+    .then(r=>r.ok?r.json():null)
+    .then(j=>{ if(j&&j.count!=null) el.textContent=j.count; })
+    .catch(()=>{});
+}
+setVisitors(null);
 load();
 </script>
 </body>

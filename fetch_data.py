@@ -11,6 +11,8 @@ UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
+GC_TOKEN = os.environ.get("GOATCOUNTER_API_TOKEN", "").strip()
+GC_SITE = os.environ.get("GOATCOUNTER_SITE", "https://jiskim.goatcounter.com").strip()
 # 실러 CAPE 수동값 (자동 스크래이핑 실패 시 사용 — 월 1회 multpl.com 확인 후 갱신)
 CAPE_MANUAL = 42.7  # 2026-06 기준
 
@@ -585,6 +587,25 @@ def maybe_alert(prev, ew, summary, prices, fred):
         sent=tg_send("\n".join(lines))
         print("알림 발송:" , "성공" if sent else "실패/미설정", f"({label[prev_t]}→{label[cur_t]})")
 
+def fetch_visitors(prev):
+    """GoatCounter API로 실시간 누적 방문자 수. 실패 시 직전 값 유지(공란 방지)."""
+    carry = (prev or {}).get("visitors")
+    if not GC_TOKEN:
+        return carry
+    try:
+        url = GC_SITE.rstrip("/") + "/api/v0/stats/total?start=2020-01-01T00:00:00Z"
+        req = urllib.request.Request(url, headers={
+            "Authorization": "Bearer " + GC_TOKEN,
+            "Content-Type": "application/json",
+            "User-Agent": "ai-monitor"})
+        with urllib.request.urlopen(req, timeout=20) as r:
+            j = json.loads(r.read().decode("utf-8", "replace"))
+        t = j.get("total")
+        return int(t) if isinstance(t, (int, float)) else carry
+    except Exception as e:
+        print("방문자 수 조회 실패:", str(e)[:120])
+        return carry
+
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
@@ -599,10 +620,11 @@ def main():
     ew=calc_early(prices,fred)
     history=update_history(prev,ew)
     gpu=fetch_gpu_price(prev)
+    visitors=fetch_visitors(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

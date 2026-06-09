@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>시장 사이클 모니터</title>
+<title>SENTINEL · 시장 조기경보</title>
 <!-- PWA: 홈 화면 추가 -->
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#070a0f">
@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 사이클 모니터 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.0</span></span>
+    <span style="font-family:'Space Mono',monospace;letter-spacing:2px;font-weight:700">SENTINEL</span> <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">시장 조기경보</span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div class="upd" id="upd">데이터 불러오는 중…</div>
@@ -283,12 +283,37 @@
   <div class="colhead" id="guide-toggle" style="margin:14px 0 6px;color:#6f7888;cursor:pointer;user-select:none;font-size:11px">
     <span id="guide-caret">▶</span> 📖 판단법 · 기준
   </div>
-  <div class="guide" id="guide-wrap" style="display:none">
-    <b class="gg">안정</b>/<b class="ga">주의</b>/<b class="gr">위험</b> · 종목: 20·50일선 동시 아래 <b>또는</b> 당일 −5%↓ = 위험 (200일선보다 빠름)
-    · 바스켓: 구성종목 <b>과반</b>이 위험이면 ON · <b>시스템</b>(거시)과 <b>AI 밸류체인</b> 분리</div>
+  <div class="guide" id="guide-wrap" style="display:none;font-size:11px;line-height:1.75;color:#9aa3b3">
+    <div style="margin-bottom:9px"><b class="gg">안정</b> · <b class="ga">주의</b> · <b style="color:#ff6b6b">경계</b> · <b class="gr">위험</b> — 모든 판정 4단계. 색이 진할수록 강한 신호.</div>
 
-  <div class="foot">GitHub Actions 자동 · 위험=200일선 아래 or −5%↓ · 바스켓 과반 위험시 ON · 임계값 정성기준(미검증) · 투자 자문 아님<br>
-  <span style="color:#5f6878">© 2026 Ji · 개인용 보조 도구</span></div>
+    <div style="margin:9px 0 3px;color:#cdd5e3"><b>① 종합 위험도</b> <span style="color:#6f7888">— 확정 3영역(신용·AI·거시)만. 선행·뉴스·공시는 제외</span></div>
+    위험 = 조기경보 3축 동시 · 경계 = 확정 영역 2개+ 위험 · 주의 = 1개 위험 또는 2개+ 주의 · 안정 = 그 외
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>② 조기경보</b> <span style="color:#6f7888">— 시장에서 거래되는 선행 신호. 강한 1.0 / 보조 0.5 합산</span></div>
+    위험 = 3축 동시 · 경계 = 점수 2.0+ · 주의 = 점수 1.0+ 또는 조기징후 2개+<br>
+    <span style="color:#5aa0ff">옵션</span> 기간구조역전(VIX/VIX3M≥1)·VIX +20%〔강〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조〕<br>
+    <span style="color:#ff8a5a">신용</span> 사모대출 주가 급약세〔강〕/약세〔보조〕 · HY OAS≥5.5%〔강〕 · NFCI&gt;0.5〔보조〕<br>
+    <span style="color:#c89bff">가격</span> S&amp;P·나스닥(현물/선물) 당일 −2%↓〔강〕 · HYG 5일 −2%↓ · 안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조〕<br>
+    <span style="color:#6f7888">조기징후(점수·축 미반영, 단계는 주의까지): 기간구조 임박·HY/VIX 상승추세·BIZD 하락·시장−신용 괴리·숨은헤지(VIX&lt;20 &amp; SKEW≥145)</span>
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>③ 신용·유동성</b> <span style="color:#6f7888">— 확정 지표만(HY/NFCI)</span></div>
+    위험 = HY OAS≥5.5% 또는 NFCI&gt;0.5(긴축) · 주의 = HY OAS≥4.5% 또는 NFCI&gt;0 · <span style="color:#6f7888">사모대출 주가(선행)는 조기경보가 담당</span>
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>④ AI 밸류체인</b> <span style="color:#6f7888">— 자본 흐름. 하이퍼스케일러·반도체·메모리·네트워킹·전력·원자재</span></div>
+    위험 = 구성요소 과반 위험 또는 2개+ 위험 · 주의 = 1개 위험 또는 2개+ 주의<br>
+    <span style="color:#6f7888">하위 바스켓은 종목 과반 위험 시 ON · GPU(H100 임대가 추세)·AI 야간선행(나스닥선물)은 보조라 '위험'을 '주의'로 캡</span>
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>⑤ 거시·시스템</b> <span style="color:#6f7888">— 타이밍</span></div>
+    VIX ≥26 위험(≥45 항복)·≥20 주의 · HY 스프레드 ≥5.5% 위험·≥4.5% 주의 · 수익률곡선 역전 · 광범위지수(SPY·QQQ) 과반 약세
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>⑥ 구조적 취약성</b> <span style="color:#6f7888">— 배경(타이밍 아님)</span></div>
+    CAPE 등 밸류·레버리지 지표가 위험권일수록 hot↑ · hot 2개+ = 고압, 1개 = 경계 · <span style="color:#6f7888">높을수록 하락 시 충격이 클 뿐 '언제'는 못 맞춤</span>
+
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>종목·바스켓 공통</b></div>
+    종목 위험 = 20일선 AND 50일선 동시 아래 또는 당일 −5%↓ · 주의 = 한쪽만 아래 · <span style="color:#6f7888">200일선은 장기추세 보조</span><br>
+    바스켓 위험 = 구성종목 과반 위험 · 주의 = 과반(위험+주의)</div>
+
+  <div class="foot"><span style="color:#5f6878">임계값은 정성 기준(미검증) · 투자 자문 아님 · © 2026 Ji · 개인용 보조 도구</span></div>
 
 <script>
 const $=id=>document.getElementById(id);
@@ -1073,7 +1098,7 @@ async function load(){
     const d=await(await fetch('data.json?t='+Date.now())).json();
     setVisitors(d);
     const updTime=new Date(d.updated);
-    $('upd').textContent='갱신 '+updTime.toLocaleString('ko-KR')+' · GitHub 자동';
+    $('upd').textContent='갱신 '+updTime.toLocaleString('ko-KR');
     // 데이터 낡음 경고: 3시간 초과 시
     const ageH=(Date.now()-updTime.getTime())/3600000;
     if(!isNaN(ageH)&&ageH>3){

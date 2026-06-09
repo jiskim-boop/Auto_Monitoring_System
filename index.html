@@ -1190,7 +1190,7 @@ async function load(){
 (function(){
   var el=document.getElementById('visit-count'); if(!el) return;
   function load(){
-    fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?t='+Date.now(),{cache:'no-store'})
+    fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?start=2020-01-01&t='+Date.now(),{cache:'no-store'})
       .then(r=>r.ok?r.json():null)
       .then(d=>{ if(d&&d.count!=null) el.textContent=d.count; })
       .catch(()=>{});

@@ -588,12 +588,14 @@ def maybe_alert(prev, ew, summary, prices, fred):
         print("알림 발송:" , "성공" if sent else "실패/미설정", f"({label[prev_t]}→{label[cur_t]})")
 
 def fetch_visitors(prev):
-    """GoatCounter API로 실시간 누적 방문자 수. 실패 시 직전 값 유지(공란 방지)."""
+    """GoatCounter API로 실시간 누적 방문자 수. 실패 시 직전 값 유지(공란 방지). 로그로 원인 출력."""
     carry = (prev or {}).get("visitors")
     if not GC_TOKEN:
+        print("[방문자] GOATCOUNTER_API_TOKEN 비어있음 → 시크릿 미전달(Repository secret/이름 확인). visitors 유지:", carry)
         return carry
     try:
-        url = GC_SITE.rstrip("/") + "/api/v0/stats/total?start=2020-01-01T00:00:00Z"
+        end = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:00:00Z")
+        url = GC_SITE.rstrip("/") + "/api/v0/stats/total?start=2020-01-01T00:00:00Z&end=" + end
         req = urllib.request.Request(url, headers={
             "Authorization": "Bearer " + GC_TOKEN,
             "Content-Type": "application/json",
@@ -603,9 +605,16 @@ def fetch_visitors(prev):
         t = j.get("total")
         if t is None: t = j.get("total_utc")
         if isinstance(t, str): t = int(t.replace(",", "").strip() or 0)
-        return int(t) if isinstance(t, (int, float)) else carry
+        if isinstance(t, (int, float)):
+            print("[방문자] 수집 성공:", int(t)); return int(t)
+        print("[방문자] total 필드 없음. 응답:", str(j)[:200]); return carry
     except Exception as e:
-        print("방문자 수 조회 실패:", str(e)[:120])
+        code = getattr(e, "code", "")
+        body = ""
+        try:
+            if hasattr(e, "read"): body = e.read().decode("utf-8", "replace")[:200]
+        except Exception: pass
+        print("[방문자] API 오류:", code, str(e)[:120], body)
         return carry
 
 def main():

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-09T21:11:51+00:00",
+ "updated": "2026-06-09T21:21:45+00:00",
  "prices": {
   "NVDA": {
    "price": 208.19,
@@ -566,15 +566,15 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 145.0,
-   "chg": -4.76,
-   "chg5": 1.78,
-   "sma20": 140.5,
-   "sma50": 141.74,
-   "sma200": 145.01,
+   "price": 141.97,
+   "chg": -2.09,
+   "chg5": -0.89,
+   "sma20": 140.59,
+   "sma50": 141.8,
+   "sma200": 144.98,
    "high3m": 156.93,
    "sess": "reg",
-   "mt": 1780952420,
+   "mt": 1781038819,
    "ok": true
   },
   "^MOVE": {
@@ -598,7 +598,7 @@
    "sma200": 98.58,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781038883,
+   "mt": 1781039482,
    "ok": true
   },
   "^IRX": {
@@ -698,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62078.91,
-   "chg": -1.6,
-   "chg5": -2.7,
-   "sma20": 70220.72,
-   "sma50": 75312.85,
-   "sma200": 77182.63,
+   "price": 61868.22,
+   "chg": -1.94,
+   "chg5": -3.03,
+   "sma20": 70210.18,
+   "sma50": 75308.63,
+   "sma200": 77181.48,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781039484,
+   "mt": 1781040087,
    "ok": true
   },
   "USO": {
@@ -722,15 +722,15 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.29,
-   "chg": 0.08,
-   "chg5": 0.2,
+   "price": 160.31,
+   "chg": 0.09,
+   "chg5": 0.22,
    "sma20": 159.33,
    "sma50": 158.91,
    "sma200": 157.56,
    "high3m": 160.33,
    "sess": "reg",
-   "mt": 1781039491,
+   "mt": 1781040090,
    "ok": true
   },
   "ES=F": {
@@ -923,15 +923,23 @@
     "geo": false
    },
    {
-    "title": "9 Taiwan stocks, three main lines: \"New Stock God\" Serenity's AI Industry Chain Taiwan Map - odaily.news",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WcWZHWld4c3JITFZJUkVlT0ZJRDJWZXYzdlNnZ0laRW4zaS0za1J3cXYzNE56T0JVanNwT24xanJtWGE2VDdZbnRFQkZJa2lj?oc=5",
-    "pub": "Tue, 09 Jun 2026 17:02:14 GMT",
-    "src": "odaily.news",
+    "title": "Intel Foundry Challenges TSMC Dominance With Massive Google AI Chip Order - HotHardware",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkJKR1UtbVFtRm5uYzJsTlMzb1QxVUE5MUFHVm5IbDgzRWZfZ05fN09PN1RnOFlhMHBILXNIZFJoSi1MeFdyWHBiMWh4Y1MyTFoyMEtfNTdwZzViNlhWdDlCM2dwMzdvMllockJCUWMxOW9hSnBkemlBa29fTmZhWA?oc=5",
+    "pub": "Tue, 09 Jun 2026 18:45:00 GMT",
+    "src": "HotHardware",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "U.S. Stocks Finish Mixed as Technology Selloff Weighs on Markets While Dow Advances - stl.news",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8tNzdGeHUxaWtPY19EQlFSSzZ3dDh1MndfZUFkemNXRVVqT0hGaU9jNXNxay11VGNuTFp1TFFsdGVTaUlzNXhyQnlQdGl4N1pleUpGQnprdnZ5N0JsMF9FUEtlbFZuNUwxdVFXLU1HbERfY05JU0xDbFVIZUE4TEU?oc=5",
+    "pub": "Tue, 09 Jun 2026 21:17:19 GMT",
+    "src": "stl.news",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "War in Iran continues to strengthen oil and gas companies' balance sheets - marketplace.org",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjlPZ3JaRHl4ZGV1UUZwc3E3bjJHVmRCN1dpWnpSb0VLaHZwUDdOTkVpeDdnVVhuS0Y4QUhTUWhNaTBid0QyNjRlNlZyY2RSeXhTcFppamRkMHp1MEpETHBsV3NNOGkzNHZ6ZjBwQXd0LUR4bWNQSjRMTUJsbWQtX1JCNllGSDVya0E1NFN0OEoweEJwT0pmcnhIQl9wN1E?oc=5",
@@ -941,26 +949,10 @@
     "geo": false
    },
    {
-    "title": "Will interest rates rise, fall or stay the same? What to expect from the Bank of Canada's June interest rate decision - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQalREdGFBU0p3THcwNjNfdVRsc1ZUbUxuWXJveUluSmh3MFdKYkFMamNzV2VkTklNWGRGeTZxRmZGUFFCRWJhQ3hPdkFIVGlVT0JoRVdBMlRxUnlNSlpBMkp3Y294aU4xeldSTmF6VFUtdXplRlJVUXhHZUFKdWxMU2FIWUpzT0FEX3A3RHkzTnhBa2tNSjJDR19NaGZQTEhJVUk5OC02VmlaWGM2VzBuYjRtTmllLTZkQlQxZ2JhX2xaRGU0ckFOdGlCTXVEeno3ZzRZOURReVpOTlhCUWpETlV3a19HNnVHdHdITnc1c2ttVlRhMm9R?oc=5",
-    "pub": "Tue, 09 Jun 2026 20:45:05 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nasdaq Drops 1% as SpaceX Listing, AI Spending Spark Tech Selloff - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGpyYUpPUEF5b21KTHFHTEQ2c3U0T0xPSi12T010OGZOd25SV0t3VHNZSFJHN1ZCZ21GaUZaeVJTdUlHeTN4MEJyeHRRQUJSYThUSDg0bGxZa2U3MldXOTJhQkRIU2F3YkxiMHA5dXZaSHk3Q3VGcFBrTnBNLVFQZWV0ZC0?oc=5",
     "pub": "Tue, 09 Jun 2026 20:12:21 GMT",
     "src": "조선일보",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Tech stocks are getting crushed again after chipmaker comeback sputters - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY0xkZTVsb1RHQjFVNFI4a3V0S3lsWXNHZjJ1QjNPeV9YcGtWc2NDbkNsMVd3QnFoN1BaeVRaNEY5Mkw0RUlhbk1WZDhpbjFNREZFUGVkSl9iUjVKbmI3M2oyc2FvVEJwam5zbUJid3hSN0J3eG1SQ0RQVzVPb0FBZC1qYk9aaFJwSjkwbUpKS20xcTdY?oc=5",
-    "pub": "Tue, 09 Jun 2026 20:11:00 GMT",
-    "src": "Business Insider",
     "trig": false,
     "geo": false
    },
@@ -978,6 +970,14 @@
     "pub": "Tue, 09 Jun 2026 19:55:12 GMT",
     "src": "Bitcoin World",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why the Fed Is Unlikely to Cut Rates This Year - Goldman Sachs",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbkZXVUpDX2pEeXJnbEZUZ056Ul9nQmxqUzZ2TElPX2RwTkJyOWdfNGp6UzN4QjZFSjBxOGV5VlotUmh0NlYwcGtMYUk5ZVVGV0NZazJNb0JwZVplODF0QWJRRU9aMmVsNmpIZTU4TTEyU3A0M1dHekNoZGdBVWdVb2VFVGlIbmM0X1JHQTVFcVZDaVdIcm1lbQ?oc=5",
+    "pub": "Tue, 09 Jun 2026 19:01:04 GMT",
+    "src": "Goldman Sachs",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1038,7 +1038,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026041366/arcc-20260604.htm",
-   "summary": "Ares Capital Corporation이 최대 10억 달러 규모의 기업어음 프로그램을 신설하였다.",
+   "summary": "아레스캐피탈이 최대 10억 달러 규모의 단기 기업어음 프로그램을 신설했다.",
    "new": true
   },
   {
@@ -1046,7 +1046,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926071409/tm2617105d1_8k.htm",
-   "summary": "FS KKR Capital Corp가 2026년 6월 8일자로 현재보고서를 제출했습니다.",
+   "summary": "FS KKR Capital Corp가 2026년 6월 8일 현재 보고 사건을 공시했습니다.",
    "new": true
   },
   {
@@ -1054,7 +1054,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "골럽캐피탈BDC가 공개모금 관련하여 신탁회사와 중요 확정계약을 체결했다.",
+   "summary": "Golub Capital BDC가 2026년 5월 27일 공모 관련 U.S. Bank Trust Company와 신탁계약을 체결했다.",
    "new": false
   },
   {
@@ -1062,7 +1062,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "Blue Owl Capital Corporation이 Deutsche Bank Trust Company Americas와 함께 2031년 만기 6.3% 채권 4억 달러에 대한 11차 추가 약정서를 체결했다.",
+   "summary": "블루아울 캐피탈이 2031년 만기 4억 달러 규모의 6.3% 채권에 대한 추가 약정서를 체결했다.",
    "new": false
   },
   {
@@ -1070,7 +1070,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "블랙스톤 보안 대출 펀드가 2031년 만기 5.9% 채권 6억5천만 달러 발행을 위해 보충약정서를 체결했다.",
+   "summary": "Blackstone Secured Lending Fund가 2031년 만기인 5.9% 채권 6억 5천만 달러에 대한 보충 증서에 서명했다.",
    "new": false
   }
  ],
@@ -1274,7 +1274,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0,

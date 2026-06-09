@@ -596,7 +596,6 @@ def _gc_get(path, start, end):
     with urllib.request.urlopen(req, timeout=20) as r:
         return json.loads(r.read().decode("utf-8", "replace"))
 
-<<<<<<< HEAD
 def fetch_visit_stats(prev):
     """GoatCounter /stats/hits 로 누적 방문자 + 시간대(0~23시) 분포. 실패 시 직전 값 유지."""
     cv = (prev or {}).get("visitors")
@@ -632,33 +631,6 @@ def fetch_visit_stats(prev):
     hours = hh if got else ch
     print("[방문자] 수집:", visitors, "| 시간대합:", (sum(hh) if got else "응답에 hourly 없음"))
     return visitors, hours
-=======
-def fetch_visitors(prev):
-    """GoatCounter API 누적 방문자 수. total→hits 순으로 시도, 실패 시 직전 값 유지. 로그로 원인 출력."""
-    carry = (prev or {}).get("visitors")
-    if not GC_TOKEN:
-        print("[방문자] GOATCOUNTER_API_TOKEN 비어있음 → 시크릿 미전달(Repository secret/이름 확인). 유지:", carry)
-        return carry
-    start = "2020-01-01T00:00:00Z"
-    end = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:00:00Z")
-    for path in ("/api/v0/stats/total", "/api/v0/stats/hits"):
-        try:
-            j = _gc_get(path, start, end)
-            t = j.get("total")
-            if t is None: t = j.get("total_utc")
-            if isinstance(t, str): t = int(t.replace(",", "").strip() or 0)
-            if isinstance(t, (int, float)):
-                print("[방문자] 수집 성공:", path, int(t)); return int(t)
-            print("[방문자] total 필드 없음:", path, str(j)[:160])
-        except Exception as e:
-            code = getattr(e, "code", "")
-            body = ""
-            try:
-                if hasattr(e, "read"): body = e.read().decode("utf-8", "replace")[:160]
-            except Exception: pass
-            print("[방문자] API 오류:", path, code, str(e)[:100], body)
-    return carry
->>>>>>> f2d02f71c956fa82ebd243c4d4069145f2e41a12
 
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
@@ -674,19 +646,11 @@ def main():
     ew=calc_early(prices,fred)
     history=update_history(prev,ew)
     gpu=fetch_gpu_price(prev)
-<<<<<<< HEAD
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
           "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours}
-=======
-    visitors=fetch_visitors(prev)
-    data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":prices,"news":news,"edgar":fetch_edgar(),
-          "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors}
->>>>>>> f2d02f71c956fa82ebd243c4d4069145f2e41a12
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

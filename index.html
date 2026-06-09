@@ -1208,8 +1208,7 @@ function setVisitors(d){
     .then(j=>{ if(j&&j.count!=null) el.textContent=j.count; })
     .catch(()=>{});
 }
-setVisitors(null);
-load();
+load();  // 방문자 수는 load() 내부의 setVisitors(d)가 data.json 값으로 설정(폴백 카운터가 덮어쓰지 않게 초기 호출 제거)
 </script>
 </body>
 </html>

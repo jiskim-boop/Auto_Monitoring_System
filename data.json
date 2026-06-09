@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-09T21:02:17+00:00",
+ "updated": "2026-06-09T21:11:51+00:00",
  "prices": {
   "NVDA": {
    "price": 208.19,
@@ -590,15 +590,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.96,
-   "chg": -0.09,
-   "chg5": 0.74,
+   "price": 99.94,
+   "chg": -0.11,
+   "chg5": 0.73,
    "sma20": 99.23,
    "sma50": 98.91,
    "sma200": 98.58,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781038309,
+   "mt": 1781038883,
    "ok": true
   },
   "^IRX": {
@@ -698,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62067.44,
-   "chg": -1.62,
-   "chg5": -2.72,
-   "sma20": 70220.14,
-   "sma50": 75312.62,
-   "sma200": 77182.57,
+   "price": 62078.91,
+   "chg": -1.6,
+   "chg5": -2.7,
+   "sma20": 70220.72,
+   "sma50": 75312.85,
+   "sma200": 77182.63,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781038915,
+   "mt": 1781039484,
    "ok": true
   },
   "USO": {
@@ -722,63 +722,63 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.32,
-   "chg": 0.09,
-   "chg5": 0.22,
+   "price": 160.29,
+   "chg": 0.08,
+   "chg5": 0.2,
    "sma20": 159.33,
    "sma50": 158.91,
    "sma200": 157.56,
    "high3m": 160.33,
    "sess": "reg",
-   "mt": 1781038916,
+   "mt": 1781039491,
    "ok": true
   },
   "ES=F": {
-   "price": 7389.5,
-   "chg": -0.36,
+   "price": 7390.0,
+   "chg": -0.35,
    "chg5": -3.07,
-   "sma20": 7496.82,
-   "sma50": 7222.84,
-   "sma200": 7005.72,
+   "sma20": 7496.85,
+   "sma50": 7222.85,
+   "sma200": 7005.73,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1781038313,
+   "mt": 1781038799,
    "ok": true
   },
   "NQ=F": {
-   "price": 29143.75,
-   "chg": -1.06,
-   "chg5": -5.11,
-   "sma20": 29742.2,
-   "sma50": 27802.72,
-   "sma200": 26242.36,
+   "price": 29140.5,
+   "chg": -1.07,
+   "chg5": -5.12,
+   "sma20": 29742.04,
+   "sma50": 27802.65,
+   "sma200": 26242.34,
    "high3m": 30712.75,
    "sess": "24h",
-   "mt": 1781038318,
+   "mt": 1781038798,
    "ok": true
   },
   "YM=F": {
-   "price": 50866.0,
-   "chg": 0.02,
-   "chg5": -1.04,
-   "sma20": 50527.75,
-   "sma50": 49423.42,
-   "sma200": 48929.18,
+   "price": 50879.0,
+   "chg": 0.05,
+   "chg5": -1.01,
+   "sma20": 50528.4,
+   "sma50": 49423.68,
+   "sma200": 48929.29,
    "high3m": 51671.0,
    "sess": "24h",
-   "mt": 1781038318,
+   "mt": 1781038798,
    "ok": true
   },
   "GC=F": {
-   "price": 4284.6,
+   "price": 4284.8,
    "chg": -1.18,
-   "chg5": -4.56,
-   "sma20": 4505.11,
-   "sma50": 4619.12,
+   "chg5": -4.55,
+   "sma20": 4505.12,
+   "sma50": 4619.13,
    "sma200": 4704.45,
    "high3m": 5167.4,
    "sess": "24h",
-   "mt": 1781038263,
+   "mt": 1781038799,
    "ok": true
   },
   "CL=F": {
@@ -790,19 +790,19 @@
    "sma200": 80.21,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1781038300,
+   "mt": 1781038796,
    "ok": true
   },
   "HG=F": {
    "price": 6.35,
-   "chg": 0.26,
-   "chg5": -4.56,
+   "chg": 0.36,
+   "chg5": -4.47,
    "sma20": 6.39,
    "sma50": 6.11,
    "sma200": 5.88,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1781038316,
+   "mt": 1781038799,
    "ok": true
   },
   "ZN=F": {
@@ -814,7 +814,7 @@
    "sma200": 111.5,
    "high3m": 112.14,
    "sess": "24h",
-   "mt": 1781038317,
+   "mt": 1781038799,
    "ok": true
   },
   "EWY": {
@@ -923,20 +923,44 @@
     "geo": false
    },
    {
-    "title": "Intel Foundry Challenges TSMC Dominance With Massive Google AI Chip Order - HotHardware",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPQkJKR1UtbVFtRm5uYzJsTlMzb1QxVUE5MUFHVm5IbDgzRWZfZ05fN09PN1RnOFlhMHBILXNIZFJoSi1MeFdyWHBiMWh4Y1MyTFoyMEtfNTdwZzViNlhWdDlCM2dwMzdvMllockJCUWMxOW9hSnBkemlBa29fTmZhWA?oc=5",
-    "pub": "Tue, 09 Jun 2026 18:45:00 GMT",
-    "src": "HotHardware",
+    "title": "9 Taiwan stocks, three main lines: \"New Stock God\" Serenity's AI Industry Chain Taiwan Map - odaily.news",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5WcWZHWld4c3JITFZJUkVlT0ZJRDJWZXYzdlNnZ0laRW4zaS0za1J3cXYzNE56T0JVanNwT24xanJtWGE2VDdZbnRFQkZJa2lj?oc=5",
+    "pub": "Tue, 09 Jun 2026 17:02:14 GMT",
+    "src": "odaily.news",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
+    "title": "War in Iran continues to strengthen oil and gas companies' balance sheets - marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjlPZ3JaRHl4ZGV1UUZwc3E3bjJHVmRCN1dpWnpSb0VLaHZwUDdOTkVpeDdnVVhuS0Y4QUhTUWhNaTBid0QyNjRlNlZyY2RSeXhTcFppamRkMHp1MEpETHBsV3NNOGkzNHZ6ZjBwQXd0LUR4bWNQSjRMTUJsbWQtX1JCNllGSDVya0E1NFN0OEoweEJwT0pmcnhIQl9wN1E?oc=5",
+    "pub": "Tue, 09 Jun 2026 20:55:00 GMT",
+    "src": "marketplace.org",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Will interest rates rise, fall or stay the same? What to expect from the Bank of Canada's June interest rate decision - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQalREdGFBU0p3THcwNjNfdVRsc1ZUbUxuWXJveUluSmh3MFdKYkFMamNzV2VkTklNWGRGeTZxRmZGUFFCRWJhQ3hPdkFIVGlVT0JoRVdBMlRxUnlNSlpBMkp3Y294aU4xeldSTmF6VFUtdXplRlJVUXhHZUFKdWxMU2FIWUpzT0FEX3A3RHkzTnhBa2tNSjJDR19NaGZQTEhJVUk5OC02VmlaWGM2VzBuYjRtTmllLTZkQlQxZ2JhX2xaRGU0ckFOdGlCTXVEeno3ZzRZOURReVpOTlhCUWpETlV3a19HNnVHdHdITnc1c2ttVlRhMm9R?oc=5",
+    "pub": "Tue, 09 Jun 2026 20:45:05 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nasdaq Drops 1% as SpaceX Listing, AI Spending Spark Tech Selloff - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPVGpyYUpPUEF5b21KTHFHTEQ2c3U0T0xPSi12T010OGZOd25SV0t3VHNZSFJHN1ZCZ21GaUZaeVJTdUlHeTN4MEJyeHRRQUJSYThUSDg0bGxZa2U3MldXOTJhQkRIU2F3YkxiMHA5dXZaSHk3Q3VGcFBrTnBNLVFQZWV0ZC0?oc=5",
     "pub": "Tue, 09 Jun 2026 20:12:21 GMT",
     "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Tech stocks are getting crushed again after chipmaker comeback sputters - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOY0xkZTVsb1RHQjFVNFI4a3V0S3lsWXNHZjJ1QjNPeV9YcGtWc2NDbkNsMVd3QnFoN1BaeVRaNEY5Mkw0RUlhbk1WZDhpbjFNREZFUGVkSl9iUjVKbmI3M2oyc2FvVEJwam5zbUJid3hSN0J3eG1SQ0RQVzVPb0FBZC1qYk9aaFJwSjkwbUpKS20xcTdY?oc=5",
+    "pub": "Tue, 09 Jun 2026 20:11:00 GMT",
+    "src": "Business Insider",
     "trig": false,
     "geo": false
    },
@@ -955,33 +979,17 @@
     "src": "Bitcoin World",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Why the Fed Is Unlikely to Cut Rates This Year - Goldman Sachs",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPbkZXVUpDX2pEeXJnbEZUZ056Ul9nQmxqUzZ2TElPX2RwTkJyOWdfNGp6UzN4QjZFSjBxOGV5VlotUmh0NlYwcGtMYUk5ZVVGV0NZazJNb0JwZVplODF0QWJRRU9aMmVsNmpIZTU4TTEyU3A0M1dHekNoZGdBVWdVb2VFVGlIbmM0X1JHQTVFcVZDaVdIcm1lbQ?oc=5",
-    "pub": "Tue, 09 Jun 2026 19:01:04 GMT",
-    "src": "Goldman Sachs",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Iran shot down US Apache helicopter over Strait of Hormuz: Trump - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE1iRXNPbVE2TVJJTjZnVEU5eWhROFhUTlc2clZ0Z05MNzdKSHVqbTZza3ZpRU5sdm1xR3JkQ1lnNE1rbmdCamN0aUE0LWI?oc=5",
-    "pub": "Tue, 09 Jun 2026 17:16:15 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": true
-   },
-   {
-    "title": "Wall Street Analysts Expect Fed To Pause Rates At Kevin Warsh’s First FOMC Meeting - CoinGape",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaUcxSjNHQlNrS1J1ajVORzRmeHk3eFJ4OTNRNzkxTnNZU2NEV2Q1UDFwZG9OU2JHSWVmSTV1NWgtNFBYSEUxOFVLY292bVdNU3A3Q3RjQWxubnBRcTFDNmxEQ1BqcUFWbWlVcWZsVDg2eENnMDlQN1RBbzZQUnZFU0ZMR1RZbm8xX1JxQ25hZ1pMcW43RFRpVm9UU09RdWhvaTBEUQ?oc=5",
-    "pub": "Tue, 09 Jun 2026 16:28:11 GMT",
-    "src": "CoinGape",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "War in Iran continues to strengthen oil and gas companies' balance sheets - marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjlPZ3JaRHl4ZGV1UUZwc3E3bjJHVmRCN1dpWnpSb0VLaHZwUDdOTkVpeDdnVVhuS0Y4QUhTUWhNaTBid0QyNjRlNlZyY2RSeXhTcFppamRkMHp1MEpETHBsV3NNOGkzNHZ6ZjBwQXd0LUR4bWNQSjRMTUJsbWQtX1JCNllGSDVya0E1NFN0OEoweEJwT0pmcnhIQl9wN1E?oc=5",
+    "pub": "Tue, 09 Jun 2026 20:55:00 GMT",
+    "src": "marketplace.org",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold and silver hit two-month lows on rate hike fears - MSN",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZXNucmx1bHp0cXR2VTZ3ODVCcEtyYll3TFl6Q3FVakIzNVZFOGZjZ2VSTDlWX2k2THBjTklBdHJtaEw1alg0RlBUNXhJdzRIWUNuZ29RNFJia1RSczRFSWhXMllaQnBIMktnNzVTbW5VTklnT081bWJZOGJ3THhvUlRyZjdlT3dvYmJrR1hkSjRZUmpDUHZLejk1Z21jR241c29zZE9STHgyUE5iSVhqeDdzOEFuOUN1djhJZk12dk54ODFXdTY5bjVzbw?oc=5",
@@ -1021,14 +1029,6 @@
     "src": "Kalkine Media",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US Dollar Index Rebounds As Middle East Peace Hopes Fade; Inflation Data Next - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOZkVOcnRHa2xDcmN5S3RaQ0E2WFlmS092dUdGZ3JfR2dPMnhPNVBpU3BUNk5XWDNIam12dzFNc2hUaG5FNy1uS20zTER3MlFITmF5Z0pldldsNFZONHRFV1FCUHRBbk1lUmRKWS1fYUxKYWJWeXJNQ05URXEyZTBUZk1CbUFXN3lL?oc=5",
-    "pub": "Tue, 09 Jun 2026 18:45:11 GMT",
-    "src": "Bitcoin World",
-    "trig": false,
-    "geo": false
    }
   ]
  },
@@ -1038,7 +1038,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026041366/arcc-20260604.htm",
-   "summary": "Ares Capital Corporation이 최대 10억 달러 규모의 기업어음(CP) 프로그램을 신설하였다.",
+   "summary": "Ares Capital Corporation이 최대 10억 달러 규모의 기업어음 프로그램을 신설하였다.",
    "new": true
   },
   {
@@ -1046,7 +1046,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926071409/tm2617105d1_8k.htm",
-   "summary": "Item 1.01(중요계약 체결), Item 2.03(채무/의무 발생), Item 7.01(Reg FD 공시)",
+   "summary": "FS KKR Capital Corp가 2026년 6월 8일자로 현재보고서를 제출했습니다.",
    "new": true
   },
   {
@@ -1054,7 +1054,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "골럽캐피탈 BDC가 공개 모금을 위해 신탁사와 중요 계약을 체결했다.",
+   "summary": "골럽캐피탈BDC가 공개모금 관련하여 신탁회사와 중요 확정계약을 체결했다.",
    "new": false
   },
   {
@@ -1062,7 +1062,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "Blue Owl Capital Corporation이 Deutsche Bank와 보충약정서를 체결하여 4억 달러 규모의 2031년 만기 채권 발행 조건을 확정했다.",
+   "summary": "Blue Owl Capital Corporation이 Deutsche Bank Trust Company Americas와 함께 2031년 만기 6.3% 채권 4억 달러에 대한 11차 추가 약정서를 체결했다.",
    "new": false
   },
   {
@@ -1070,7 +1070,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund가 6억 5천만 달러 규모의 2031년 만기 채권 발행을 위해 보충 약정서를 체결했다.",
+   "summary": "블랙스톤 보안 대출 펀드가 2031년 만기 5.9% 채권 6억5천만 달러 발행을 위해 보충약정서를 체결했다.",
    "new": false
   }
  ],
@@ -1172,7 +1172,7 @@
    98.29,
    99.3,
    99.21,
-   99.96
+   99.94
   ],
   "bizd": [
    12.78,
@@ -1261,7 +1261,7 @@
   ]
  },
  "summary": {
-  "text": "이란의 미군 헬기 격추로 지정학적 긴장이 고조되는 가운데, 미 10년물 금리 4.53%와 달러 강세(DXY 100)가 유지되며 신용경색 우려는 제한적이나 기술주 조정 압력이 커지고 있다. HBM4 수급 부족으로 AI 인프라 capex 병목이 심화 중이며, 코어위브 등 신규 AI 인프라 기업들의 높은 차입금과 주가 약세는 사이클 상승세 내 구조적 취약성을 노출하고 있다.",
+  "text": "미10년 금리 4.5% 수준에서 기술주 밸류에이션 압박(CAPE 42)이 지속되는 가운데, HY스프레드 2.75%는 신용 경계심을 반영하고 있다. AI 인프라 수급은 HBM4 매진으로 병목이 심화되는 한편, CoreWeave 등 신규 플레이어의 고채무 조달 방식이 신용 리스크로 대두되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 20,
@@ -1271,7 +1271,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }

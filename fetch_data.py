@@ -601,6 +601,8 @@ def fetch_visitors(prev):
         with urllib.request.urlopen(req, timeout=20) as r:
             j = json.loads(r.read().decode("utf-8", "replace"))
         t = j.get("total")
+        if t is None: t = j.get("total_utc")
+        if isinstance(t, str): t = int(t.replace(",", "").strip() or 0)
         return int(t) if isinstance(t, (int, float)) else carry
     except Exception as e:
         print("방문자 수 조회 실패:", str(e)[:120])

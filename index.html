@@ -93,7 +93,7 @@
       <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
       <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
     </div>
-    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 3영역</b>만 (신용=HY/NFCI · AI=바스켓/단가 · 거시=VIX/스프레드) · <b style="color:#6f7888">위험</b>=2개 이상 영역 위험 or 조기경보 3축 동시 · <b style="color:#6f7888">주의</b>=1개 위험 or 2개 주의 · 보수적 · 선행/조기징후는 조기경보가 담당(여기 미반영)</div>
+    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 3영역</b>만 (신용=HY/NFCI · AI=바스켓/단가 · 거시=VIX/스프레드) · 4단계(안정·주의·경계·위험) · <b style="color:#6f7888">경계</b>=2개 이상 영역 위험 · <b style="color:#ff3b6b">위험</b>=조기경보 3축 동시 · <b style="color:#6f7888">주의</b>=1개 위험 or 2개 주의 · 보수적 · 선행/조기징후는 조기경보가 담당(여기 미반영)</div>
   </div>
 
   <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
@@ -622,7 +622,7 @@ function earlyWarning(p,fred,sCredit){
   if(fred&&fred.ok){
     if(fred.nfci&&fred.nfci.value>0.5){axisSlow=true;if(!hits.includes('NFCI 긴축'))add('NFCI 긴축',0.5,'slow');}
   }
-  // ── 선행 신호 (조기) — 점수엔 약하게 반영, 축 카운트엔 미반영(과민 방지) ──
+  // ── 선행 신호 (조기) — 점수·축 모두 미반영(단계 안 올림). earlyHits 2개↑일 때만 '주의'로 표시(빨리 알림) ──
   const ch=window.__charts||{};
   const earlyHits=[];
   const addEarly=(label,desc)=>{earlyHits.push(desc);};

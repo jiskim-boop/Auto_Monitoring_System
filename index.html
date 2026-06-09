@@ -1186,13 +1186,17 @@ async function load(){
     });
   });
 })();
-// GoatCounter 방문자 수 — 누적 총합, 숫자만 (공개 카운터 설정 필요)
+// GoatCounter 방문자 수 — 누적 총합. 캐시 무력화 + 주기적 갱신(탭 켜둬도 안 멈추게)
 (function(){
   var el=document.getElementById('visit-count'); if(!el) return;
-  fetch('https://jiskim.goatcounter.com/counter/TOTAL.json')
-    .then(r=>r.ok?r.json():null)
-    .then(d=>{ if(d&&d.count!=null) el.textContent=d.count; })
-    .catch(()=>{});
+  function load(){
+    fetch('https://jiskim.goatcounter.com/counter/TOTAL.json?t='+Date.now(),{cache:'no-store'})
+      .then(r=>r.ok?r.json():null)
+      .then(d=>{ if(d&&d.count!=null) el.textContent=d.count; })
+      .catch(()=>{});
+  }
+  load();
+  setInterval(load, 5*60*1000); // 5분마다 재요청
 })();
 load();
 </script>

@@ -556,9 +556,11 @@ def calc_early(prices, fred, charts):
     def gc5(sym):
         q=p.get(sym); return q.get("chg5") if q and q.get("ok") else None
     hits=[]; score=0.0; fast=slow=price_ax=False
+    strong=0
     def add(lbl,w,ax):
-        nonlocal score,fast,slow,price_ax
+        nonlocal score,fast,slow,price_ax,strong
         hits.append(lbl); score+=w
+        if w>=1: strong+=1
         if ax=="fast": fast=True
         elif ax=="slow": slow=True
         elif ax=="price": price_ax=True
@@ -616,8 +618,9 @@ def calc_early(prices, fred, charts):
     if _falling(ch.get("bizd")): early_hits.append("신용프록시 약화")
     if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
-    if axisCount>=3: st="r"
-    elif score>=2: st="r"
+    guard_warn=(score>=2 and (strong>=1 or axisCount>=2)) or strong>=2
+    if axisCount>=3 and score>=3 and strong>=1: st="r"   # 위험
+    elif guard_warn: st="r"                              # 경계
     elif score>=1: st="a"
     elif len(early_hits)>=2: st="a"
     else: st="g"

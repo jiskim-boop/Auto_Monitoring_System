@@ -635,34 +635,39 @@ def update_history(prev, ew):
     return hist[-30:]  # 최근 30일
 
 def upcoming_events():
-    """주요 거시 이벤트 캘린더 — 지난 건 자동 제외, 다가오는 순. 분기마다 수동 갱신 권장."""
-    # 2026년 FOMC 회의일(성명 발표일 기준, 예정). CPI는 보통 매월 중순.
+    """주요 거시 이벤트 — 발표 '시각'(미 동부)까지 반영해 24시간 이내면 D-DAY로 계산."""
+    from zoneinfo import ZoneInfo
+    ET=ZoneInfo("America/New_York")
+    # (날짜, 이름, ET 발표시각). CPI 08:30 · FOMC 14:00 · 실적 16:00(장 마감 후)
     EVENTS=[
-        ("2026-01-28","FOMC 금리결정"),
-        ("2026-03-18","FOMC 금리결정"),
-        ("2026-04-29","FOMC 금리결정"),
-        ("2026-06-17","FOMC 금리결정"),
-        ("2026-07-29","FOMC 금리결정"),
-        ("2026-09-16","FOMC 금리결정"),
-        ("2026-11-04","FOMC 금리결정"),
-        ("2026-12-16","FOMC 금리결정"),
-        ("2026-06-11","미 CPI(5월)"),
-        ("2026-07-15","미 CPI(6월)"),
-        ("2026-08-12","미 CPI(7월)"),
-        ("2026-07-23","하이퍼스케일러 실적 시작(MSFT·GOOGL 등)"),
-        ("2026-08-27","NVDA 실적(예상)"),
+        ("2026-01-28","FOMC 금리결정","14:00"),
+        ("2026-03-18","FOMC 금리결정","14:00"),
+        ("2026-04-29","FOMC 금리결정","14:00"),
+        ("2026-06-17","FOMC 금리결정","14:00"),
+        ("2026-07-29","FOMC 금리결정","14:00"),
+        ("2026-09-16","FOMC 금리결정","14:00"),
+        ("2026-11-04","FOMC 금리결정","14:00"),
+        ("2026-12-16","FOMC 금리결정","14:00"),
+        ("2026-06-11","미 CPI(5월)","08:30"),
+        ("2026-07-15","미 CPI(6월)","08:30"),
+        ("2026-08-12","미 CPI(7월)","08:30"),
+        ("2026-07-23","하이퍼스케일러 실적 시작(MSFT·GOOGL 등)","16:00"),
+        ("2026-08-27","NVDA 실적(예상)","16:00"),
     ]
-    today=datetime.now(timezone.utc).date()
+    now=datetime.now(timezone.utc); today=now.date()
     out=[]
-    for d,name in EVENTS:
+    for d,name,t in EVENTS:
         try:
             ed=datetime.strptime(d,"%Y-%m-%d").date()
-            dd=(ed-today).days
-            if dd>=0:  # 오늘 이후만
-                out.append({"date":d,"name":name,"dday":dd})
+            hh,mm=map(int,t.split(":"))
+            rel=datetime(ed.year,ed.month,ed.day,hh,mm,tzinfo=ET).astimezone(timezone.utc)
+            if (now-rel).total_seconds() > 12*3600:  # 발표 12시간 경과 → 제외
+                continue
+            out.append({"date":d,"name":name,"at":rel.isoformat(),"dday":max(0,(ed-today).days)})
         except Exception: pass
-    out.sort(key=lambda x:x["dday"])
-    return out[:6]  # 가까운 6개
+    out.sort(key=lambda x:x.get("at") or x["date"])
+    return out[:6]
+
 
 TG_TOKEN=os.environ.get("TELEGRAM_TOKEN","")
 TG_CHAT=os.environ.get("TELEGRAM_CHAT_ID","")

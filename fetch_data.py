@@ -462,45 +462,166 @@ def fetch_charts(fred):
     ch["cape"]=[cape]*8 if cape is not None else None
     return ch
 
-def calc_early(prices, fred):
-    """index.html과 동일 기준의 조기경보 점수/활성신호 (이력 저장용)"""
-    p=prices or {}
-    def g(s):
-        q=p.get(s); return q.get("price") if q and q.get("ok") else None
-    def gc(s):
-        q=p.get(s); return q.get("chg") if q and q.get("ok") else None
-    def gc5(s):
-        q=p.get(s); return q.get("chg5") if q and q.get("ok") else None
-    score=0; fast=slow=price=False; hits=[]
+def _p_status(q):
+    """클라이언트 pStatus 복제: -5%↓ 또는 20&50선 동시 아래=r, 한쪽=a"""
+    if not q or not q.get("ok"): return None
+    if q.get("chg") is not None and q["chg"]<=-5: return "r"
+    pr=q.get("price"); b20=q.get("sma20") and pr<q["sma20"]; b50=q.get("sma50") and pr<q["sma50"]
+    if b20 and b50: return "r"
+    if b20 or b50: return "a"
+    return "g"
+
+def _group_status(p, syms):
+    r=a=n=0
+    for sym in syms:
+        st=_p_status(p.get(sym))
+        if st:
+            n+=1
+            if st=="r": r+=1
+            elif st=="a": a+=1
+    if not n: return None
+    return "r" if r>n/2 else ("a" if (r+a)>n/2 else "g")
+
+def _credit_status(p):
+    """클라이언트 creditPanel 복제 (7종: BIZD ARCC OBDC CRWV BKLN SRLN JBBB)"""
+    syms=["BIZD","ARCC","OBDC","CRWV","BKLN","SRLN","JBBB"]
+    r=n=early=0
+    for sym in syms:
+        q=p.get(sym)
+        st=_p_status(q)
+        if st is None: continue
+        n+=1
+        if st=="r": r+=1
+        if q.get("chg5") is not None and q["chg5"]<=-1.5: early+=1
+    if not n: return None
+    major=r>n/2; trend=early>=2
+    if major and trend: return "r"
+    if major or trend: return "a"
+    if r>=1 or early>=1: return "a"
+    return "g"
+
+def _chain_status(p):
+    """클라이언트 chainBasket 복제 (그룹 2단 과반)"""
+    groups=[["MSFT","GOOGL","AMZN","META","ORCL"],
+            ["NVDA","AVGO","AMD","TSM","ASML","MRVL"],
+            ["MU","SNDK","STX","WDC","005930.KS","000660.KS"],
+            ["ANET","ALAB","CRDO","VRT","CIEN","COHR"],
+            ["VST","CEG","NRG","TLN","GEV","PWR"],
+            ["FCX","SCCO","CPER","CCJ","URA","UEC"]]
+    r=a=n=0
+    for g in groups:
+        st=_group_status(p,g)
+        if st:
+            n+=1
+            if st=="r": r+=1
+            elif st=="a": a+=1
+    if not n: return None
+    return "r" if r>n/2 else ("a" if (r+a)>n/2 else "g")
+
+CHAIN_ALL=["MSFT","GOOGL","AMZN","META","ORCL","NVDA","AVGO","AMD","TSM","ASML","MRVL",
+           "MU","SNDK","STX","WDC","005930.KS","000660.KS","ANET","ALAB","CRDO","VRT","CIEN","COHR",
+           "VST","CEG","NRG","TLN","GEV","PWR","FCX","SCCO","CPER","CCJ","URA","UEC"]
+
+def _breadth(p):
+    """시장 폭: 추적 밸류체인 35종목 중 50일선 위 비율(%). (above_pct, n)"""
+    above=n=0
+    for sym in CHAIN_ALL:
+        q=p.get(sym)
+        if not q or not q.get("ok") or not q.get("sma50") or q.get("price") is None: continue
+        n+=1
+        if q["price"]>q["sma50"]: above+=1
+    return (round(above/n*100) if n else None, n)
+
+def _rising(arr, k=3):
+    if not arr or len(arr)<k+1: return False
+    t=arr[-(k+1):]
+    for i in range(1,len(t)):
+        if t[i] is None or t[i-1] is None or t[i]<=t[i-1]: return False
+    return True
+
+def _falling(arr, k=3):
+    if not arr or len(arr)<k+1: return False
+    t=arr[-(k+1):]
+    for i in range(1,len(t)):
+        if t[i] is None or t[i-1] is None or t[i]>=t[i-1]: return False
+    return True
+
+def calc_early(prices, fred, charts):
+    """index.html v1.2와 '동일' 기준 — 알림·이력의 단일 진실원 동기화"""
+    p=prices or {}; ch=charts or {}
+    def g(sym):
+        q=p.get(sym); return q.get("price") if q and q.get("ok") else None
+    def gc(sym):
+        q=p.get(sym); return q.get("chg") if q and q.get("ok") else None
+    def gc5(sym):
+        q=p.get(sym); return q.get("chg5") if q and q.get("ok") else None
+    hits=[]; score=0.0; fast=slow=price_ax=False
     def add(lbl,w,ax):
-        nonlocal score,fast,slow,price
-        hits.append(lbl); 
-        return w,ax
+        nonlocal score,fast,slow,price_ax
+        hits.append(lbl); score+=w
+        if ax=="fast": fast=True
+        elif ax=="slow": slow=True
+        elif ax=="price": price_ax=True
+    # 사모대출 (선행 신용, 클라 sCredit)
+    sCredit=_credit_status(p)
+    if sCredit=="r": add("사모대출 주가 급약세",1,"slow")
+    elif sCredit=="a": add("사모대출 주가 약세",0.5,"slow")
+    # 강한 신호
     v=g("^VIX"); v3=g("^VIX3M")
-    if v is not None and v3 and v/v3>=1: score+=1; fast=True; hits.append("기간구조 역전")
-    spy=gc("SPY"); qqq=gc("QQQ"); es=gc("ES=F"); nq=gc("NQ=F")
-    if (spy is not None and spy<=-2) or (qqq is not None and qqq<=-2) or (es is not None and es<=-2) or (nq is not None and nq<=-2):
-        score+=1; price=True; hits.append("시장/선물 급락")
-    if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None and fred["hyoas"]["value"]>=5.5:
-        score+=1; slow=True; hits.append("HY스프레드 급등")
-    vc=gc("^VIX")
-    if vc is not None and vc>=20: score+=1; fast=True; hits.append("VIX 급등")
+    if v is not None and v3 and v/v3>=1: add("기간구조 역전",1,"fast")
+    spy_c,qqq_c,es_c,nq_c=gc("SPY"),gc("QQQ"),gc("ES=F"),gc("NQ=F")
+    cash_drop=(spy_c is not None and spy_c<=-2) or (qqq_c is not None and qqq_c<=-2)
+    fut_drop=(es_c is not None and es_c<=-2) or (nq_c is not None and nq_c<=-2)
+    if cash_drop or fut_drop:
+        add("선물 급락(장외)" if (fut_drop and not cash_drop) else "시장 급락",1,"price")
+    hy=(fred or {}).get("hyoas",{}).get("value") if fred and fred.get("ok") else None
+    if hy is not None and hy>=5.5: add("HY스프레드 급등",1,"slow")
+    vix_chg=gc("^VIX")
+    if vix_chg is not None and vix_chg>=20: add("VIX 급등",1,"fast")
+    # 보조 신호
     sk=g("^SKEW")
-    if sk is not None and sk>=150: score+=0.5; fast=True; hits.append("SKEW 급등")
+    if sk is not None and sk>=150: add("SKEW 급등",0.5,"fast")
     vv=g("^VVIX")
-    if vv is not None and vv>=110: score+=0.5; fast=True; hits.append("VVIX 급등")
+    if vv is not None and vv>=110: add("VVIX 급등",0.5,"fast")
     mv=g("^MOVE")
-    if mv is not None and mv>=125: score+=0.5; fast=True; hits.append("MOVE 급등")
+    if mv is not None and mv>=125: add("MOVE 급등",0.5,"fast")
     hyg5=gc5("HYG")
-    if hyg5 is not None and hyg5<=-2: score+=0.5; price=True; hits.append("신용 급약화")
-    if fred and fred.get("ok") and fred.get("nfci") and fred["nfci"].get("value") is not None and fred["nfci"]["value"]>0.5:
-        score+=0.5; slow=True; hits.append("NFCI 긴축")
-    axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price else 0)
+    if hyg5 is not None and hyg5<=-2: add("신용 급약화",0.5,"price")
+    gld_c,dxy_c=gc("GLD"),gc("DX-Y.NYB")
+    if gld_c is not None and gld_c>=2 and dxy_c is not None and dxy_c>=0.7: add("안전자산 쏠림",0.5,"price")
+    nf=(fred or {}).get("nfci",{}).get("value") if fred and fred.get("ok") else None
+    if nf is not None and nf>0.5: add("NFCI 긴축",0.5,"slow")
+    # 선행 약세 (점수만, 축 미세팅 — 추세만으론 '위험' 불가)
+    if not cash_drop and not fut_drop:
+        spy5,qqq5=gc5("SPY"),gc5("QQQ")
+        if (spy5 is not None and spy5<=-2) or (qqq5 is not None and qqq5<=-2):
+            add("지수 추세 약세",0.5,None)
+    sChain=_chain_status(p)
+    if sChain in ("r","a"): add("AI 밸류체인 약세",0.5,None)
+    if _rising(ch.get("hyoas")) and not (hy is not None and hy>=5.5): add("HY 상승추세",0.5,None)
+    if _rising(ch.get("vix")) and not (v is not None and v>=26) and not (vix_chg is not None and vix_chg>=20):
+        add("VIX 상승추세",0.5,None)
+    spy_up=spy_c is not None and spy_c>=0
+    hyg_weak=hyg5 is not None and hyg5<=-1
+    if spy_up and hyg_weak: add("시장-신용 괴리",0.5,None)
+    spyq=p.get("SPY")
+    if spyq and spyq.get("ok") and spyq.get("high3m") and spyq.get("price"):
+        near_high=spyq["price"]>=spyq["high3m"]*0.97
+        b_pct,b_n=_breadth(p)
+        if near_high and b_n>=20 and b_pct is not None and b_pct<45:
+            add("폭 축소(쏠림 랠리)",0.5,None)   # 지수는 고점권인데 과반이 50일선 아래 = 좁아진 랠리(고전적 선행)
+    # 조기징후 (점수 0, 2개+ → 주의)
+    early_hits=[]
+    if v is not None and v3 and 0.95<=v/v3<1: early_hits.append("기간구조 임박")
+    if _falling(ch.get("bizd")): early_hits.append("신용프록시 약화")
+    if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
+    axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
     if axisCount>=3: st="r"
     elif score>=2: st="r"
     elif score>=1: st="a"
+    elif len(early_hits)>=2: st="a"
     else: st="g"
-    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits}
+    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits,"early":early_hits}
 
 def update_history(prev, ew):
     """30일 일별 조기경보 이력 누적 (하루 1개, 최신값으로 갱신)"""
@@ -641,16 +762,29 @@ def main():
     news=fetch_news()
     prices=fetch_prices()
     fred=fetch_fred()
+    # 피드 건강: 침묵 실패 방어 — 실패 종목·코어 생존 여부를 데이터에 동봉
+    _failed=[k for k,v in prices.items() if not (isinstance(v,dict) and v.get("ok"))]
+    _core_dead=[k for k in ("^VIX","SPY","QQQ","HYG") if k in _failed]
+    feed={"fail":len(_failed),"failed":_failed[:12],"core_dead":_core_dead}
+    if _core_dead or len(_failed)>=8:
+        print("⚠ 피드 이상:", len(_failed), "실패", ("· 코어 사망: "+",".join(_core_dead)) if _core_dead else "")
+    _pf=(prev or {}).get("feed",{}) if prev else {}
+    _was_bad=bool(_pf.get("core_dead")) or _pf.get("fail",0)>=8
+    _now_bad=bool(_core_dead) or len(_failed)>=8
+    if _now_bad and not _was_bad:
+        tg_send("🔌 <b>데이터 수집 이상</b>\n실패 "+str(len(_failed))+"종목"
+                +(" · 코어 사망: "+", ".join(_core_dead) if _core_dead else "")
+                +"\n대시보드 판정 신뢰 불가 — Actions 로그 확인 필요")
     charts=fetch_charts(fred)
     summary=summarize_news(news,prices,fred,prev)
-    ew=calc_early(prices,fred)
+    ew=calc_early(prices,fred,charts)
     history=update_history(prev,ew)
     gpu=fetch_gpu_price(prev)
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices)))}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

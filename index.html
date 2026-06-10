@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.1</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.3</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -128,7 +128,7 @@
     <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     <div class="risk" style="margin-top:8px">
       <b>계산:</b> 강한 1.0 + 보조·선행약세 0.5 합산 → 1+ 주의 · 2+ 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기징후만이면 주의까지</b><br>
-      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·VIX추세·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 약세·HY급등·HY추세·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·<b style="color:#9aa3b3">지수추세약세·AI약세</b>·HYG·안전자산쏠림<br>
+      <b>3축:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·VIX추세·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 약세·HY급등·HY추세·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·<b style="color:#9aa3b3">지수추세약세·AI약세·괴리</b>·HYG·안전자산쏠림<br>
       <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6"><b style="color:#9aa3b3">선행</b> — 시장 거래 신호(사모ETF 주가 등)로 먼저 울림. 확정 지표(HY/NFCI)는 나중에 따라옴 → 그게 상단 종합위험도. <b style="color:#9aa3b3">조기경보가 종합보다 먼저 반응하는 게 정상</b> · 선행이라 거짓경보 가능 · 보조도구</span>
     </div>
   </div>
@@ -162,6 +162,7 @@
   </div>
 
   <div class="alert" id="stale" style="border-left-color:#ffb454;background:#1a1505;"><div class="lbl" style="color:#ffb454">⏱ 데이터 낡음</div><div class="txt" id="stale-txt" style="color:#ffd98a"></div></div>
+  <div class="alert" id="feedfail" style="border-left-color:#ff3b6b;background:#1a0a10;"><div class="lbl" style="color:#ff6b8b">🔌 시스템 경고</div><div class="txt" id="feedfail-txt" style="color:#ffb3c2"></div></div>
 
   <!-- 급변·트리거 배너 (해당 시에만 표시) -->
   <div class="alert" id="alert"><div class="lbl">⚠ 시장 위험 감지</div><div class="txt" id="alert-txt"></div></div>
@@ -215,6 +216,7 @@
       <div class="card ai"><div class="top"><span class="nm">AI 밸류체인 (통합 바스켓)</span><span class="stt s-n" id="st-chain">—</span></div>
         <div class="desc">하이퍼스케일러·반도체·메모리·네트워킹·전력·원자재 통합 · 현물 후행</div>
         <div id="chain-rows" style="margin-top:6px"></div>
+        <div id="chain-breadth" style="font-size:10px;color:#6f7888;margin-top:5px"></div>
         <div class="risk"><b style="color:#8a93a6">구성:</b> <span style="color:#8a93a6">하이퍼스케일러(MSFT·GOOGL 등) · 반도체(NVDA·AVGO 등) · 메모리(삼성·SK하이닉스 등) · 네트워킹(ANET·VRT 등) · 전력(VST·GEV 등) · 원자재(구리·우라늄) · <b style="color:#8a93a6">하위 그룹 과반 위험 시 바스켓 위험</b></span></div></div>
 
       <div class="card ai"><div class="top"><span class="nm">AI 뉴스 (capex·H100·밸류체인)</span><span class="stt s-n">자동</span></div>
@@ -296,14 +298,14 @@
     위험 = 3축 동시 · 경계 = 점수 2.0+ · 주의 = 점수 1.0+ 또는 조기징후 2개+<br>
     <span style="color:#5aa0ff">옵션</span> 기간구조역전(VIX/VIX3M≥1)·VIX +20%〔강〕 / VIX 상승추세·SKEW≥150·VVIX≥110·MOVE≥125〔보조〕<br>
     <span style="color:#ff8a5a">신용</span> 사모대출 급약세·HY OAS≥5.5%〔강〕 / 사모대출 약세·HY 상승추세·NFCI&gt;0.5〔보조〕<br>
-    <span style="color:#c89bff">가격</span> 당일 −2%↓ 급락〔강〕 / 지수 5일 −2%↓·AI 밸류체인 약세·HYG 5일 −2%↓·안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조〕<br>
+    <span style="color:#c89bff">가격</span> 당일 −2%↓ 급락〔강〕 / 지수 5일 −2%↓·AI 밸류체인 약세·시장−신용 괴리·폭 축소(지수 고점권&amp;50일선 위&lt;45%)·HYG 5일 −2%↓·안전자산 쏠림〔보조〕<br>
     <span style="color:#9aa3b3">※ 추세 약세(지수 5일↓·AI 약세·VIX/HY 상승추세)는 <b>점수만</b> 올림(주의·경계까지). '위험'(최상)은 강한 신호 3축 동시일 때만 — 추세만으론 위험까지 안 감</span><br>
-    <span style="color:#6f7888">조기징후(점수 0, 2개+면 주의): 기간구조 임박·BIZD 하락·시장−신용 괴리·숨은헤지(VIX&lt;20 &amp; SKEW≥145)</span>
+    <span style="color:#6f7888">조기징후(점수 0, 2개+면 주의): 기간구조 임박·BIZD 하락·숨은헤지(VIX&lt;20 &amp; SKEW≥145) · 텔레그램 알림·30일 이력도 동일 로직(서버 동기화)</span>
 
     <div style="margin:10px 0 3px;color:#cdd5e3"><b>③ 신용·유동성</b> <span style="color:#6f7888">— 확정 지표만(HY/NFCI)</span></div>
     위험 = HY OAS≥5.5% 또는 NFCI&gt;0.5(긴축) · 주의 = HY OAS≥4.5% 또는 NFCI&gt;0 · <span style="color:#6f7888">사모대출 주가(선행)는 조기경보가 담당</span>
 
-    <div style="margin:10px 0 3px;color:#cdd5e3"><b>④ AI 밸류체인</b> <span style="color:#6f7888">— 자본 흐름. 하이퍼스케일러·반도체·메모리·네트워킹·전력·원자재</span></div>
+    <div style="margin:10px 0 3px;color:#cdd5e3"><b>④ AI 밸류체인</b> <span style="color:#6f7888">— 자본 흐름. 하이퍼스케일러·반도체·메모리·네트워킹·전력·원자재 · 폭(50일선 위 %) 상시 표시</span></div>
     위험 = 구성요소 과반 위험 또는 2개+ 위험 · 주의 = 1개 위험 또는 2개+ 주의<br>
     <span style="color:#6f7888">하위 바스켓은 종목 과반 위험 시 ON · GPU(H100 임대가 추세)·AI 야간선행(나스닥선물)은 보조라 '위험'을 '주의'로 캡</span>
 
@@ -360,6 +362,15 @@ function chainBasket(p){
   if(!n){badge($('st-chain'),'n','N/A');return null;}
   // 하위 그룹 과반 위험 → 위험, 과반 (위험+주의) → 주의
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
+  // 시장 폭: 35종목 중 50일선 위 비율 (좁아진 랠리 감시)
+  (function(){
+    const all=groups.flatMap(g=>g[1]); let ab=0,bn=0;
+    all.forEach(s=>{const q=p[s]; if(q&&q.ok&&q.sma50&&q.price!=null){bn++; if(q.price>q.sma50)ab++;}});
+    const el=$('chain-breadth');
+    if(el&&bn){const pct=Math.round(ab/bn*100);
+      const c=pct>=60?'#37d6a0':pct>=45?'#ffb454':'#ff6b6b';
+      el.innerHTML=`폭(50일선 위): <b style="color:${c}">${pct}%</b> <span style="color:#5f6878">(${ab}/${bn}) — 지수 고점권에서 45% 미만이면 쏠림 랠리(선행 경고)</span>`;}
+  })();
   badge($('st-chain'),st);
   return st;
 }
@@ -669,7 +680,15 @@ function earlyWarning(p,fred,sCredit,sChain){
   if(falling(ch.bizd)) addEarly('신용프록시 약화','사모대출 프록시(BIZD)가 추세적 하락');
   const spyUp = spy&&spy.chg!=null&&spy.chg>=0;
   const hygWeak = hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-1;
-  if(spyUp&&hygWeak) addEarly('시장-신용 괴리','시장은 버티나 신용(HYG)이 약해지는 괴리');
+  if(spyUp&&hygWeak) add('시장-신용 괴리',0.5,null);  // 고전적 선행 — 점수 반영(축 미세팅)
+  // 폭 축소: 지수 고점권(3개월 고점의 97%+)인데 밸류체인 과반이 50일선 아래 = 좁아진 랠리(고전적 선행)
+  (function(){
+    const CH=['MSFT','GOOGL','AMZN','META','ORCL','NVDA','AVGO','AMD','TSM','ASML','MRVL','MU','SNDK','STX','WDC','005930.KS','000660.KS','ANET','ALAB','CRDO','VRT','CIEN','COHR','VST','CEG','NRG','TLN','GEV','PWR','FCX','SCCO','CPER','CCJ','URA','UEC'];
+    const sq=p['SPY']; if(!(sq&&sq.ok&&sq.high3m&&sq.price!=null)) return;
+    if(sq.price<sq.high3m*0.97) return;
+    let ab=0,bn=0; CH.forEach(s=>{const q=p[s]; if(q&&q.ok&&q.sma50&&q.price!=null){bn++; if(q.price>q.sma50)ab++;}});
+    if(bn>=20 && (ab/bn*100)<45) add('폭 축소(쏠림 랠리)',0.5,null);
+  })();
   if(v!=null&&v<20&&sk!=null&&sk>=145) addEarly('숨은 헤지','VIX는 낮으나 SKEW 높음 — 큰손 급락 대비 중');
   // ── 단계는 확정신호(score+축)만으로 결정 — 조기징후는 단계를 올리지 않음(정확성) ──
   // 단계 판정: 4단계 (안정→주의→경계→위험)
@@ -1117,6 +1136,15 @@ async function load(){
     if(d.summary&&d.summary.text){$('summary').textContent=d.summary.text;$('sumby').textContent=d.summary.by==='claude'?'· AI 요약':'· 기계 요약(키 미설정)';}
     const p=d.prices||{};
     window.__charts=d.charts||{};
+    // 침묵 실패 가드: 타임스탬프는 신선해도 피드가 죽으면 '안정'이 거짓이 됨
+    (function(){
+      const fd=d.feed||{}; const failN=fd.fail!=null?fd.fail:Object.values(p).filter(v=>!(v&&v.ok)).length;
+      const core=['^VIX','SPY','QQQ','HYG'].filter(s=>!(p[s]&&p[s].ok));
+      if(core.length||failN>=8){
+        const el=$('feedfail'); if(el){el.classList.add('on');
+          $('feedfail-txt').textContent=`수집 실패 ${failN}종목${core.length?` · 핵심 지표 사망: ${core.join(', ')}`:''} — 아래 판정은 신뢰 불가(실패 종목은 신호 미발동 처리되어 '안정'이 과대평가될 수 있음)`;}
+      }
+    })();
     // 거시
     const sVix=vixAxis(p),sSpread=spreadAxis(p,d.fred),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
     const sDeriv=derivPanel(p, d.updated);
@@ -1128,6 +1156,12 @@ async function load(){
           sAiNight=aiNight(p);
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
+    // 드리프트 감지: 화면(JS)과 서버(Python) 조기경보가 어긋나면 즉시 경고 — 이중구현 드리프트 재발 방지
+    if(d.early && (Number(d.early.score)!==Number(ew.score) || d.early.st!==ew.st)){
+      const ff=$('feedfail'), ft=$('feedfail-txt'); const W={g:'안정',a:'주의',r:'경계/위험'};
+      if(ff&&ft){ff.classList.add('on');
+        ft.textContent=(ft.textContent?ft.textContent+'  ·  ':'')+`로직 불일치 — 화면 ${ew.score}점/${W[ew.st]||ew.st} vs 서버 ${d.early.score}점/${W[d.early.st]||d.early.st}. 코드 버전 차이면 다음 갱신(~10분) 후 자동 해소, 지속되면 동기화 필요.`;}
+    }
     const bubbleResult=bubblePanel(d.fred);
     renderCharts(d);
     // 자금흐름

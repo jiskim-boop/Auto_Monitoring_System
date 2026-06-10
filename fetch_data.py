@@ -574,7 +574,7 @@ def calc_early(prices, fred, charts):
     fut_drop=(es_c is not None and es_c<=-2) or (nq_c is not None and nq_c<=-2)
     if cash_drop or fut_drop:
         add("선물 급락(장외)" if (fut_drop and not cash_drop) else "시장 급락",1,"price")
-    hy=(fred or {}).get("hyoas",{}).get("value") if fred and fred.get("ok") else None
+    hy=(fred.get("hyoas") or {}).get("value") if fred and fred.get("ok") else None
     if hy is not None and hy>=5.5: add("HY스프레드 급등",1,"slow")
     vix_chg=gc("^VIX")
     if vix_chg is not None and vix_chg>=20: add("VIX 급등",1,"fast")
@@ -589,7 +589,7 @@ def calc_early(prices, fred, charts):
     if hyg5 is not None and hyg5<=-2: add("신용 급약화",0.5,"price")
     gld_c,dxy_c=gc("GLD"),gc("DX-Y.NYB")
     if gld_c is not None and gld_c>=2 and dxy_c is not None and dxy_c>=0.7: add("안전자산 쏠림",0.5,"price")
-    nf=(fred or {}).get("nfci",{}).get("value") if fred and fred.get("ok") else None
+    nf=(fred.get("nfci") or {}).get("value") if fred and fred.get("ok") else None
     if nf is not None and nf>0.5: add("NFCI 긴축",0.5,"slow")
     # 선행 약세 (점수만, 축 미세팅 — 추세만으론 '위험' 불가)
     if not cash_drop and not fut_drop:

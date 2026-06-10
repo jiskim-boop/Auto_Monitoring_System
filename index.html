@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v1.9</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.0</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -725,22 +725,33 @@ function earlyWarning(p,fred,sCredit,sChain){
   const gaugeEl=$('ew-gauge');
   if(gaugeEl){
     const scoreCol = axisCount>=3?'#ff3b6b':st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';
-    const MAX=4;                              // 표시 상한(실질적 위험권. 이론상 7이나 4면 이미 심각)
-    const pct=Math.min(score/MAX*100,100);
-    // 임계 위치: 주의 1.0(25%), 경계 2.0(50%), 위험권 3.0(75%)
+    const MAX=5;                              // 표시 상한(강한 4개=4.0이면 이미 극단 → 5면 충분)
+    // ── 누적 스택: 길이=총점(정도), 색=질(강한 적색 / 보조 주황 / 선행약세 청회색) ──
+    const wStrong=sigs.filter(s=>s.w>=1).reduce((a,s)=>a+s.w,0);
+    const wAux   =sigs.filter(s=>s.w<1&&s.ax).reduce((a,s)=>a+s.w,0);
+    const wLead  =sigs.filter(s=>s.w<1&&!s.ax).reduce((a,s)=>a+s.w,0);
+    const seg=(w,col)=>w>0?`<div style="height:100%;width:${Math.min(w/MAX*100,100)}%;background:${col};flex-shrink:0"></div>`:'';
+    const isRisk=axisCount>=3;
     gaugeEl.innerHTML=`
       <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px">
-        <span style="color:#8a93a6;font-size:10px">위험점수</span>
-        <span><b style="color:${scoreCol};font-size:15px">${score}</b><span style="color:#5f6878;font-size:10px"> / ${MAX} (이론상 max 7)</span></span>
+        <span style="color:#8a93a6;font-size:10px">위험점수 ${isRisk?'<b style=\'color:#ff3b6b\'>· 3축 위험</b>':''}</span>
+        <span><b style="color:${scoreCol};font-size:15px">${score}</b><span style="color:#5f6878;font-size:10px"> / ${MAX}</span></span>
       </div>
-      <div style="position:relative;height:7px;background:#10151f;border-radius:4px;overflow:hidden">
-        <div style="position:absolute;left:0;top:0;height:100%;width:${pct}%;background:${scoreCol};border-radius:4px;transition:width .3s"></div>
-        <div style="position:absolute;left:25%;top:0;height:100%;width:1px;background:#2a3340" title="주의 1.0"></div>
-        <div style="position:absolute;left:50%;top:0;height:100%;width:1px;background:#2a3340" title="경계 2.0"></div>
-        <div style="position:absolute;left:75%;top:0;height:100%;width:1px;background:#ff3b6b66" title="위험권 3.0"></div>
+      <div style="position:relative;height:8px;background:#10151f;border-radius:4px;overflow:hidden;display:flex;${isRisk?'box-shadow:0 0 0 1px #ff3b6b inset':''}">
+        ${seg(wStrong,'#ff5c6a')}${seg(wAux,'#ffaa4e')}${seg(wLead,'#5b6b82')}
+        <div style="position:absolute;left:20%;top:0;height:100%;width:1px;background:#2a3340" title="주의 1.0"></div>
+        <div style="position:absolute;left:40%;top:0;height:100%;width:1px;background:#3a4555" title="경계 2.0"></div>
       </div>
-      <div style="display:flex;justify-content:space-between;font-size:8px;color:#4f5868;margin-top:2px">
-        <span>0</span><span>1 주의</span><span>2 경계</span><span style="color:#ff6b6b99">3 위험권</span><span>4+</span>
+      <div style="position:relative;height:10px;font-size:8px;color:#4f5868;margin-top:1px">
+        <span style="position:absolute;left:0">0</span>
+        <span style="position:absolute;left:20%;transform:translateX(-50%);color:#ffb45499">주의 1</span>
+        <span style="position:absolute;left:40%;transform:translateX(-50%);color:#ff6b6b99">경계 2</span>
+        <span style="position:absolute;right:0">5</span>
+      </div>
+      <div style="display:flex;gap:9px;margin-top:4px;font-size:8px;color:#6f7888">
+        <span><span style="display:inline-block;width:7px;height:7px;background:#ff5c6a;border-radius:2px;vertical-align:middle"></span> 강한 ${wStrong.toFixed(1)}</span>
+        <span><span style="display:inline-block;width:7px;height:7px;background:#ffaa4e;border-radius:2px;vertical-align:middle"></span> 보조 ${wAux.toFixed(1)}</span>
+        <span><span style="display:inline-block;width:7px;height:7px;background:#5b6b82;border-radius:2px;vertical-align:middle"></span> 선행약세 ${wLead.toFixed(1)}</span>
       </div>`;
   }
   // 카드 전체 색 변경 (단계별)

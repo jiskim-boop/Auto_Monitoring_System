@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.0</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.1</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -298,12 +298,12 @@
     영역별 점수(안정0 · 주의1 · 위험2) 합산 0~6점 · <b>위험 = 6점(3영역 전부 위험)</b> · 경계 = 4~5 · 주의 = 2~3 · 안정 = 0~1 · 조기경보와 독립 기준(차용 없음) — 선행 속도는 ②가, 확정 깊이는 ①이 담당
 
     <div style="margin:10px 0 3px;color:#cdd5e3"><b>② 조기경보</b> <span style="color:#6f7888">— 종합과 <b style="color:#9aa3b3">같은 위험</b>을 더 이른 임계로 먼저 포착(더 민감). 강한 1.0 / 보조·선행약세 0.5 합산</span></div>
-    위험 = 3축 동시 · 경계 = 점수 2.0+ · 주의 = 점수 1.0+ 또는 조기징후 2개+<br>
+    위험 = 3축 동시 + 점수 3.0+ + 강한신호 1개+ · 경계 = 점수 2.0+ 또는 3축(미달) · 주의 = 점수 1.0+ 또는 조기징후 2개+<br>
     <span style="color:#5aa0ff">옵션축</span> 기간구조역전(VIX/VIX3M≥1)·VIX +20%〔강 1.0〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조 0.5〕<br>
     <span style="color:#ff8a5a">신용축</span> 사모대출 급약세·HY OAS≥5.5%〔강 1.0〕 / 사모대출 약세·NFCI&gt;0.5〔보조 0.5〕<br>
     <span style="color:#c89bff">가격축</span> 당일 −2%↓ 급락〔강 1.0〕 / HYG 5일 −2%↓·안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조 0.5〕<br>
     <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영</b>〕<br>
-    <span style="color:#9aa3b3">※ 단계: 점수 1.0+ 주의 · 2.0+ 경계 · <b>위험 = 옵션·신용·가격 3축 동시 점등</b>(선행약세는 축을 안 켜므로 추세만으론 경계까지) · 같은 단계 안 깊이는 카드의 구성·축별점수·임계근접도로 구분</span><br>
+    <span style="color:#9aa3b3">※ 단계: 점수 1.0+ 주의 · 2.0+ 경계 · <b>위험 = 3축 동시 + 점수 3.0+ + 강한신호 1개+ (셋 다)</b> · 3축이어도 미달이면 경계 · 선행약세는 축 미점등이라 추세만으론 경계까지 · 같은 단계 깊이는 카드 게이지(구성색)·매트릭스로</span><br>
     <span style="color:#6f7888">조기징후(점수 0, 2개+면 주의): 기간구조 임박·BIZD 하락·숨은헤지(VIX&lt;20 &amp; SKEW≥145) · 텔레그램 알림·30일 이력도 동일 로직(서버 동기화)</span>
 
     <div style="margin:10px 0 3px;color:#cdd5e3"><b>③ 신용·유동성</b> <span style="color:#6f7888">— 확정 지표만(HY/NFCI)</span></div>
@@ -699,11 +699,13 @@ function earlyWarning(p,fred,sCredit,sChain){
   // 단계 판정: 4단계 (안정→주의→경계→위험)
   const axisCount=(axisFast?1:0)+(axisSlow?1:0)+(axisPrice?1:0);
   let st,lab,tier;
-  if(axisCount>=3){st='r';lab='위험';tier=3;}        // 3축 동시 = 위험
-  else if(score>=2){st='r';lab='경계';tier=2;}        // 확정 점수 2+ = 경계
+  const nStrong=sigs.filter(s=>s.w>=1).length;
+  if(axisCount>=3 && score>=3 && nStrong>=1){st='r';lab='위험';tier=3;}
+  else if(score>=2 || axisCount>=3){st='r';lab='경계';tier=2;}
   else if(score>=1){st='a';lab='주의';tier=1;}        // 확정 점수 1+ = 주의
   else if(earlyHits.length>=2){st='a';lab='주의';tier=1;}  // 조기징후 다수 = 주의까지만(빨리 알림)
   else {st='g';lab='안정';tier=0;}
+  const isRisk=(tier===3);
   // 조기징후만으로 켜진 '주의'인지 표시용 플래그
   const earlyOnly = (score<1 && axisCount<3 && earlyHits.length>=2);
   // (배지 제거: 단계는 진행바, 상태는 이모티콘으로 표시)
@@ -717,21 +719,20 @@ function earlyWarning(p,fred,sCredit,sChain){
       const fg = on?'#070a0f':'#5f6878';
       const glow = on&&i>=2?`box-shadow:0 0 10px ${col};`:'';
       const wt = on?'700':'400';
-      const range = ['0~0.5','1~1.5','2.0+','3축 동시'][i];  // 경계는 점수 2.0+ (상한 없음, 위험은 3축 기준)
+      const range = ['0~0.5','1~1.5','2.0+','3축·3점·강한'][i];  // 위험=3축&점수3+&강한1+
       return `<div style="flex:1;text-align:center;padding:5px 0;border-radius:6px;background:${bg};color:${fg};font-size:11px;font-weight:${wt};${glow}">${nm}<div style="font-size:8px;opacity:0.7;margin-top:1px">${range}</div></div>`;
     }).join('');
   }
   // 현재 점수 게이지 (시각 바 + 숫자)
   const gaugeEl=$('ew-gauge');
   if(gaugeEl){
-    const scoreCol = axisCount>=3?'#ff3b6b':st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';
+    const scoreCol = isRisk?'#ff3b6b':st==='r'?'#ff6b6b':st==='a'?'#ffb454':'#37d6a0';
     const MAX=5;                              // 표시 상한(강한 4개=4.0이면 이미 극단 → 5면 충분)
     // ── 누적 스택: 길이=총점(정도), 색=질(강한 적색 / 보조 주황 / 선행약세 청회색) ──
     const wStrong=sigs.filter(s=>s.w>=1).reduce((a,s)=>a+s.w,0);
     const wAux   =sigs.filter(s=>s.w<1&&s.ax).reduce((a,s)=>a+s.w,0);
     const wLead  =sigs.filter(s=>s.w<1&&!s.ax).reduce((a,s)=>a+s.w,0);
     const seg=(w,col)=>w>0?`<div style="height:100%;width:${Math.min(w/MAX*100,100)}%;background:${col};flex-shrink:0"></div>`:'';
-    const isRisk=axisCount>=3;
     gaugeEl.innerHTML=`
       <div style="display:flex;justify-content:space-between;align-items:baseline;margin-bottom:3px">
         <span style="color:#8a93a6;font-size:10px">위험점수 ${isRisk?'<b style=\'color:#ff3b6b\'>· 3축 위험</b>':''}</span>
@@ -756,16 +757,16 @@ function earlyWarning(p,fred,sCredit,sChain){
   }
   // 카드 전체 색 변경 (단계별)
   const ewCard=$('ew-card'), ewHead=$('ew-head');
-  const theme = axisCount>=3
+  const theme = isRisk
       ? {c:'#ff3b6b',bg:'rgba(255,59,107,0.10)',label:lab}   // 위험: 강렬한 마젠타레드
       : st==='r' ? {c:'#ff6b6b',bg:'rgba(255,107,107,0.07)',label:lab}
       : st==='a' ? {c:'#ffb454',bg:'rgba(255,180,84,0.06)',label:lab}
       : {c:'#1fd6c4',bg:'transparent',label:lab};            // 정상: 시안
   if(ewCard){ewCard.style.borderLeftColor=theme.c;ewCard.style.background=theme.bg;
-    ewCard.style.boxShadow = axisCount>=3 ? '0 0 0 1px #ff3b6b, 0 0 18px rgba(255,59,107,0.25)' : (st==='r'?'0 0 0 1px rgba(255,107,107,0.4)':'none');}
+    ewCard.style.boxShadow = isRisk ? '0 0 0 1px #ff3b6b, 0 0 18px rgba(255,59,107,0.25)' : (st==='r'?'0 0 0 1px rgba(255,107,107,0.4)':'none');}
   if(ewHead)ewHead.style.color=theme.c;
   // 상황별 무드 (고양이 이모티콘만, 헤더 우측 끝, 아주 작게)
-  const mood = axisCount>=3 ? '🐈‍⬛💨'
+  const mood = isRisk ? '🐈‍⬛💨'
              : st==='r' ? '😿'
              : st==='a' ? '🙀'
              : '😺';
@@ -785,7 +786,7 @@ function earlyWarning(p,fred,sCredit,sChain){
   let nextTxt='';
   if(tier===0) nextTxt=`다음 단계(주의): 점수 1.0+ (현재 ${score}) 또는 조기징후 2개+`;
   else if(tier===1) nextTxt=`다음 단계(경계): 점수 2.0+ (현재 ${score} · +${(2-score).toFixed(1)} 남음)`;
-  else if(tier===2) nextTxt=`다음 단계(위험): 강한신호 3축 동시 — 현재 ${AXN.join('·')||'없음'} (${axisCount}/3)${REM.length?` · ${REM.join('·')}축 남음`:''}`;
+  else if(tier===2) nextTxt=`다음 단계(위험): 3축 동시 + 점수 3.0+ + 강한신호 1개+ — 현재 축 ${axisCount}/3 · 점수 ${score} · 강한 ${nStrong}개`;
   else nextTxt='최고 단계 — 강한 신호 3축 동시 점등 중';
   const nextDiv=`<div style="margin-top:4px;font-size:10.5px;color:#7b8499">⟶ ${nextTxt}</div>`;
   // ── 상세 해부: ① 구성 분해 ② 축별 매트릭스 ③ 임계 근접도 ──
@@ -835,7 +836,7 @@ function earlyWarning(p,fred,sCredit,sChain){
   })();
   $('early-note').innerHTML = (score===0
     ? '<span style="color:#37d6a0">동시 급변 신호 없음</span> · 평온'
-    : `<b style="color:${st==='r'?'#ff6b6b':'#ffb454'}">위험점수 ${score}${axisCount>=3?' · 3축 동시':''}</b> — ${hits.join(' · ')}${axisTxt}${axisCount>=3?' → 구조적 위기 신호':st==='r'?' → 급변 가능성 높음':''}`)+nextDiv;
+    : `<b style="color:${st==='r'?'#ff6b6b':'#ffb454'}">위험점수 ${score}${axisCount>=3?' · 3축 동시':''}</b> — ${hits.join(' · ')}${axisTxt}${isRisk?' → 구조적 위기 신호':st==='r'?' → 급변 가능성 높음':''}`)+nextDiv;
   // ── 현재 상황 자세한 설명 ──
   const det=$('ew-detail');
   if(det){
@@ -845,8 +846,10 @@ function earlyWarning(p,fred,sCredit,sChain){
     if(axisFast) axisDesc.push('<span style="color:#5aa0ff">옵션(심리)</span>');
     if(axisPrice) axisDesc.push('<span style="color:#c89bff">가격</span>');
     if(axisSlow) axisDesc.push('<span style="color:#ff8a5a">신용시스템</span>');
-    if(axisCount>=3){
+    if(isRisk){
       parts.push(`<b style="color:#ff3b6b">심리·가격·자금 3축이 동시에 무너지고 있습니다.</b> 옵션 시장 공포, 실제 가격 하락, 자금 경색이 함께 진행 중 — 일시적 동요가 아니라 구조적 위기 국면입니다.`);
+    } else if(axisCount>=3){
+      parts.push(`3축(심리·가격·자금)에서 신호가 나오지만 <b>강도는 아직 약합니다</b>(점수 ${score}, 강한신호 ${nStrong}개). 폭은 넓되 깊이가 얕아 경계 — 강한 신호가 더해지거나 점수 3 이상이면 위험으로 격상됩니다.`);
     } else if(axisCount===2){
       parts.push(`${axisDesc.join('·')} 축에서 동시에 경고가 나오고 있습니다. 두 축이 겹친다는 건 단순 노이즈가 아닐 가능성이 높다는 뜻입니다. 나머지 한 축(${!axisFast?'옵션':!axisPrice?'가격':'신용시스템'})으로 번지는지 주시가 필요합니다.`);
     } else if(axisCount===1){
@@ -865,7 +868,7 @@ function earlyWarning(p,fred,sCredit,sChain){
     }
     // 행동 참고 (지시가 아닌 일반적 점검 사항)
     let act='';
-    if(axisCount>=3) act='이런 국면에서 일반적으로 점검하는 것: 현금 비중·포지션 집중도·헤지 여부. 패닉 매매는 흔히 손실을 키웁니다.';
+    if(isRisk) act='이런 국면에서 일반적으로 점검하는 것: 현금 비중·포지션 집중도·헤지 여부. 패닉 매매는 흔히 손실을 키웁니다.';
     else if(axisCount===2) act='2축 동시 국면에서 흔히 하는 점검: 한 축 더 번지는지 확인, 신규 진입 속도 조절.';
     else if(score>=1||earlyHits.length>=2) act='조기 징후 단계에서 흔히 하는 점검: 관심 지표의 추세 방향, 무리한 추격매수 자제.';
     if(act) parts.push(`<b style="color:#8a93a6">💡 참고:</b> <span style="color:#8a93a6">${act} 이는 일반적 정보이며 투자 권유가 아닙니다.</span>`);

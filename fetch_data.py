@@ -618,7 +618,7 @@ def calc_early(prices, fred, charts):
     if _falling(ch.get("bizd")): early_hits.append("신용프록시 약화")
     if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
-    guard_warn=(score>=2 and (strong>=1 or axisCount>=2)) or strong>=2
+    guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2
     if axisCount>=3 and score>=3 and strong>=1: st="r"   # 위험
     elif guard_warn: st="r"                              # 경계
     elif score>=1: st="a"

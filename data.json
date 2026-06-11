@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-11T21:21:49+00:00",
+ "updated": "2026-06-11T21:32:05+00:00",
  "prices": {
   "NVDA": {
    "price": 204.87,
@@ -598,7 +598,7 @@
    "sma200": 98.59,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781212283,
+   "mt": 1781212897,
    "ok": true
   },
   "^IRX": {
@@ -698,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63447.99,
-   "chg": 3.25,
-   "chg5": 4.24,
-   "sma20": 68792.45,
-   "sma50": 74710.97,
-   "sma200": 76853.4,
+   "price": 63442.0,
+   "chg": 3.24,
+   "chg5": 4.23,
+   "sma20": 68792.15,
+   "sma50": 74710.85,
+   "sma200": 76853.36,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781212885,
+   "mt": 1781213502,
    "ok": true
   },
   "USO": {
@@ -722,7 +722,7 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.91,
+   "price": 159.92,
    "chg": -0.38,
    "chg5": -0.05,
    "sma20": 159.54,
@@ -730,7 +730,7 @@
    "sma200": 157.62,
    "high3m": 160.53,
    "sess": "reg",
-   "mt": 1781212864,
+   "mt": 1781213501,
    "ok": true
   },
   "ES=F": {
@@ -833,6 +833,14 @@
  "news": {
   "credit": [
    {
+    "title": "AI governance without killing innovation: What I learned from the enterprise front lines - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNRE1TQ0I2d1NqeElOM1RoT1pEaU1WRW1YMTdFRng3OUU2WVU5NGVRNnVNS093RmpldENDcjdtN1BKNm1MeEs5MXJDdkFnVUlvXzBlX0VZY296THdfM3p0NENtTGx1SlhYWUcyU295QTFrNGVlMjZiaE04UVVPaGhEU3hkRGNNcmFSMmE1Z3c2TFJqd1pDLUFWQjJ0RVN5d215TzZrZFlqY3VhV0d2azFtYkRRZ1dOX0x5THNwTlFsaTM2RnJ6OFVPQ1ZoMTgyNVpXX0dZUjE3Y1lXUQ?oc=5",
+    "pub": "Thu, 11 Jun 2026 20:26:15 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Private credit growth shifts toward specialized strategies, Morningstar DBRS says - Traders Union",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTmUzM1BXaWxZNEdzQ20tMEkzSVU5dHZ5eXIwanFIUmliYlh4MEJQeWVrd3VVR040VFBpOVJKa3NySWdQWGUxcTVBSEtQTU9XVW9hRGMxS3Y0Z1lKWUJjb1lkdHlZREJPam5UaUNMUWhMVEh6N0NWYzNnU0tpcHVUcGFhcjQxdHl4cHN3b3Y4UHdVNGcxRWQwY3N6R2VRc1BOcGF6b3dn?oc=5",
     "pub": "Thu, 11 Jun 2026 20:14:14 GMT",
@@ -849,10 +857,10 @@
     "geo": false
    },
    {
-    "title": "CoreWeave's AI Growth Comes With Debt Focus - GuruFocus",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemo0cnBkUndOc0Rjc3RabWc2SlU2cHZqQWJuYWdGekU0dXFCTWVGbHpRSXl1ZTR4dFNJLXFKNGc2R0ZsWGczZ0U0OXZHMWJ4SW1YdFFoLW9uTU1sQ2ZVUV9WbEJZcWxQWHJ0clFnT0F6NE5FcHZWMHluUkxSZEVPbTNCTXA1TkJkRkdnUzA2aU8wTGFUa09xWQ?oc=5",
-    "pub": "Thu, 11 Jun 2026 16:55:33 GMT",
-    "src": "GuruFocus",
+    "title": "The AI Funding Paradox Captured In 2 Numbers - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPTzZrcG9NOEUwRWlrNFFlcXFWQmM0azdVSHlocmpKdnlZZGMwWm4tQmdFdGdzM3UtMDBKRkZGd2NqcEFYR1p1TDFXbVViQld0MXBqdDFKTHB5VUIwSTJUNFAzM3ZiS3lzZ0drVDJaSDlzVThtMTAxemRTSVE0MFZwbklXYlVldXlrNW5RdHFR?oc=5",
+    "pub": "Thu, 11 Jun 2026 17:54:21 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -869,14 +877,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN0dKTUN3WnpVZS1NOGxNZmNSM2VVRnZMUE1Jb2NuT1NKQ2FEQ3l5SjJEcDNsZEFiRkk4T1hfc2RTQWkxYXl2eW1wb3hmTzhwUVhhRE5TNWZFV243UmhoNkh0YTNJbmtBaW1vUkZIVEFCd2c5NU5yUndta2MybWY4U3hB?oc=5",
     "pub": "Thu, 11 Jun 2026 16:00:36 GMT",
     "src": "Blockspace Media",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave: Market Continues To Ignore Its Turnaround, That's A Mistake (NASDAQ:CRWV) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOWk1lQTdpenRZTjhPdE9ORXVSOHNtR25kSjFWOXFRVUNsdGdBRUZzMDYtdjBnQ0lxYnN4YjBYT3RKdGtKNUdrWGtUTjd4ZDA5NE55dm1YcVlXV1V3WHJ6Smt2Y0EwZk5nWFhfSzE4VGw2NktEbW1GanpqODlhOVZmbEpxXzhKcGdtOERrM2VVRF9ORzBqYTlvYk5obWtsN3hsVkFOUGNKWXp0c2xJ?oc=5",
-    "pub": "Thu, 11 Jun 2026 15:08:38 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -965,18 +965,18 @@
     "geo": false
    },
    {
-    "title": "Wall Street Rallies as Markets React to Iran and SpaceX Developments - Devdiscourse",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcldjbGhXX0lTZmt5eWV6WXZVTXY3S28ydXdzdVFBR0dLX0lWRDVvMVNFN3ZHSlg3dVI4aUlKYTZ4YTFINl95dTJtRF81ZmRVSmVFWUhpdm9raWxTUExvVDlzY2JDNXE5M3BCeGJPZ3ZFUkNrRWxYTjN3ZVdwSEdfZ2Npa0p0SUdyODhhTU96NW5XQlJFNTB4MHpaX2w3djhaVEYtQjdnZlZucnN0cVc4cENHOGZvZ2t0T2hPSGJyZTctRXRp0gHEAUFVX3lxTFByV2NsaFdfSVNma3l5ZXpZdlVNdjdLbzJ1d3N1UUFHR0tfSVZENW8xU0U3dkdKWDd1UjhpSUphNnhhMUg2X3l1Mm1EXzVmZFVKZUVZSGl2b2tpbFNQTG9UOXNjYkM1cTkzcEJ4Yk9ndkVSQ2tFbFhOM3dlV3BIR19nY2lrSnRJR3I4OGFNT3o1bldCUkU1MHgwelpfbDd2OFpURi1CN2dmVm5yc3RxVzhwQ0c4Zm9na3RPaE9IYnJlNy1FdGk?oc=5",
-    "pub": "Thu, 11 Jun 2026 20:01:15 GMT",
-    "src": "Devdiscourse",
+    "title": "Oil Prices Drop as Trump Reverses Threat to Strike Iran - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAydmphRDJ4RjZiTWFOUzBMVGdLSnpVMC1taFdhVTQyWXIxV2gzUGpWTmZGUzJ0ODJRSi16TzlFQW1POGZqaHRqelNwWXdHZnZtaTQyTV81R3kwU0VoS3h2SkF6LWFaT3pJZW8xZ2lVdzdqUGloQ1E?oc=5",
+    "pub": "Thu, 11 Jun 2026 20:09:00 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
    {
-    "title": "ECB Raises Interest Rates and Lifts Inflation Forecasts - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSFZISGRUVURxODNKUTNSbWtNSEJQWTJxcWJRaFdQYjc5UmVVdTZ4OV80ODNWOWgxSzNYQzJSeHhJcWpXTWR2S1FQM1MzXzE5TjhZdjVhQzNQS1BlSkpYZmFzRDlfOG9tVkgxRXk1dGc3dnJMS1pidlhJX3lYUTF2V0JZRlFpV24tVndwZURDckxsT0R1b0lmSDM1OEg?oc=5",
-    "pub": "Thu, 11 Jun 2026 18:47:05 GMT",
-    "src": "Morningstar",
+    "title": "Wall Street Rallies as Markets React to Iran and SpaceX Developments - Devdiscourse",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcldjbGhXX0lTZmt5eWV6WXZVTXY3S28ydXdzdVFBR0dLX0lWRDVvMVNFN3ZHSlg3dVI4aUlKYTZ4YTFINl95dTJtRF81ZmRVSmVFWUhpdm9raWxTUExvVDlzY2JDNXE5M3BCeGJPZ3ZFUkNrRWxYTjN3ZVdwSEdfZ2Npa0p0SUdyODhhTU96NW5XQlJFNTB4MHpaX2w3djhaVEYtQjdnZlZucnN0cVc4cENHOGZvZ2t0T2hPSGJyZTctRXRp0gHEAUFVX3lxTFByV2NsaFdfSVNma3l5ZXpZdlVNdjdLbzJ1d3N1UUFHR0tfSVZENW8xU0U3dkdKWDd1UjhpSUphNnhhMUg2X3l1Mm1EXzVmZFVKZUVZSGl2b2tpbFNQTG9UOXNjYkM1cTkzcEJ4Yk9ndkVSQ2tFbFhOM3dlV3BIR19nY2lrSnRJR3I4OGFNT3o1bldCUkU1MHgwelpfbDd2OFpURi1CN2dmVm5yc3RxVzhwQ0c4Zm9na3RPaE9IYnJlNy1FdGk?oc=5",
+    "pub": "Thu, 11 Jun 2026 20:01:15 GMT",
+    "src": "Devdiscourse",
     "trig": false,
     "geo": false
    }
@@ -1038,7 +1038,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026041366/arcc-20260604.htm",
-   "summary": "Ares Capital Corporation이 최대 10억 달러 규모의 기업어음(CP) 프로그램을 신설하여 단기 자금조달에 나섰다.",
+   "summary": "에이어스 캐피탈이 최대 10억 달러 규모의 단기 기업어음(CP) 프로그램을 신설했다.",
    "new": true
   },
   {
@@ -1046,7 +1046,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926071409/tm2617105d1_8k.htm",
-   "summary": "FS KKR Capital Corp이 2026년 6월 8일 현재 보유 중인 투자 포트폴리오 및 재무 상태에 관한 정기 공시를 제출했습니다.",
+   "summary": "FS KKR Capital Corp이 2026년 6월 8일 현재 보고 사항을 SEC에 제출했습니다.",
    "new": true
   },
   {
@@ -1054,7 +1054,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "Golub Capital BDC가 2026년 5월 27일 공개모집에 관련하여 U.S. Bank Trust Company와 신탁계약을 체결했다.",
+   "summary": "골럽 캐피탈 BDC가 공개 발행과 관련해 신탁회사와 기본 합의서를 체결했다.",
    "new": false
   },
   {
@@ -1062,7 +1062,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "블루아울 캐피탈이 독일 도이치은행과 4억 달러 규모 채권 발행 관련 보충 약정서를 체결했다.",
+   "summary": "Blue Owl Capital Corporation이 Deutsche Bank Trust Company Americas와 함께 2031년 만기 6.3% 채권 4억 달러에 대한 11차 추가 약정서를 체결했다.",
    "new": false
   },
   {
@@ -1070,7 +1070,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund이 6억5천만 달러의 5.9% 채권 2031년 만기에 대한 11차 보충약정서를 체결했다.",
+   "summary": "Blackstone Secured Lending Fund가 2031년 만기 5.9% 채권 6억5천만 달러에 대한 11차 추가약정서를 체결했다.",
    "new": false
   }
  ],

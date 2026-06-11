@@ -619,12 +619,13 @@ def calc_early(prices, fred, charts):
     if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
     guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2
-    if axisCount>=3 and score>=3 and strong>=1: st="r"   # 위험
+    risk = axisCount>=3 and score>=3 and strong>=2        # 위험 = 폭+깊이+질(강한2)
+    if risk: st="r"
     elif guard_warn: st="r"                              # 경계
     elif score>=1: st="a"
     elif len(early_hits)>=2: st="a"
     else: st="g"
-    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits,"early":early_hits}
+    return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits,"early":early_hits,"strong":strong,"risk":risk}
 
 def update_history(prev, ew):
     """30일 일별 조기경보 이력 누적 (하루 1개, 최신값으로 갱신)"""
@@ -695,7 +696,7 @@ def maybe_alert(prev, ew, summary, prices, fred):
     order={"g":0,"a":1,"r":2}
     def tier(e):
         if not e: return 0
-        if e.get("axisCount",0)>=3: return 3
+        if e.get("risk"): return 3                       # 위험 = 3축+점수3+강한2 (calc_early와 동일 기준)
         return order.get(e.get("st","g"),0)
     prev_ew=(prev or {}).get("early",{}) if prev else {}
     cur_t, prev_t = tier(ew), tier(prev_ew)

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-11T20:21:48+00:00",
+ "updated": "2026-06-11T20:31:59+00:00",
  "prices": {
   "NVDA": {
    "price": 204.87,
@@ -446,8 +446,16 @@
    "ok": true
   },
   "BIZD": {
-   "ok": false,
-   "err": "HTTP Error 404: Not Found"
+   "price": 12.62,
+   "chg": 0.08,
+   "chg5": -0.63,
+   "sma20": 12.57,
+   "sma50": 12.71,
+   "sma200": 13.28,
+   "high3m": 13.36,
+   "sess": "reg",
+   "mt": 1781208000,
+   "ok": true
   },
   "ARCC": {
    "price": 19.07,
@@ -522,39 +530,39 @@
    "ok": true
   },
   "^VIX": {
-   "price": 19.47,
-   "chg": -12.38,
-   "chg5": 26.43,
+   "price": 19.44,
+   "chg": -12.51,
+   "chg5": 26.23,
    "sma20": 17.57,
-   "sma50": 18.38,
+   "sma50": 18.37,
    "sma200": 19.08,
    "high3m": 31.05,
    "sess": "reg",
-   "mt": 1781208376,
+   "mt": 1781208901,
    "ok": true
   },
   "^VIX3M": {
-   "price": 21.45,
-   "chg": -6.29,
-   "chg5": 11.54,
-   "sma20": 20.42,
+   "price": 21.42,
+   "chg": -6.42,
+   "chg5": 11.39,
+   "sma20": 20.41,
    "sma50": 21.1,
    "sma200": 21.31,
    "high3m": 29.27,
    "sess": "reg",
-   "mt": 1781208376,
+   "mt": 1781208901,
    "ok": true
   },
   "^VVIX": {
-   "price": 100.82,
-   "chg": -6.79,
-   "chg5": 17.57,
-   "sma20": 92.93,
-   "sma50": 97.36,
-   "sma200": 102.68,
+   "price": 100.63,
+   "chg": -6.96,
+   "chg5": 17.35,
+   "sma20": 92.92,
+   "sma50": 97.35,
+   "sma200": 102.67,
    "high3m": 133.18,
    "sess": "reg",
-   "mt": 1781208376,
+   "mt": 1781208901,
    "ok": true
   },
   "^SKEW": {
@@ -590,7 +598,7 @@
    "sma200": 98.59,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781208684,
+   "mt": 1781209293,
    "ok": true
   },
   "^IRX": {
@@ -678,10 +686,10 @@
    "ok": true
   },
   "GLD": {
-   "price": 386.26,
-   "chg": 3.12,
-   "chg5": -6.08,
-   "sma20": 408.12,
+   "price": 386.32,
+   "chg": 3.13,
+   "chg5": -6.07,
+   "sma20": 408.13,
    "sma50": 422.41,
    "sma200": 432.48,
    "high3m": 460.84,
@@ -690,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63471.56,
-   "chg": 3.29,
-   "chg5": 4.28,
-   "sma20": 68793.63,
-   "sma50": 74711.44,
-   "sma200": 76853.52,
+   "price": 63319.74,
+   "chg": 3.04,
+   "chg5": 4.03,
+   "sma20": 68786.04,
+   "sma50": 74708.41,
+   "sma200": 76852.69,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781209286,
+   "mt": 1781209900,
    "ok": true
   },
   "USO": {
@@ -714,87 +722,87 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.85,
-   "chg": -0.42,
-   "chg5": -0.09,
+   "price": 159.88,
+   "chg": -0.4,
+   "chg5": -0.07,
    "sma20": 159.54,
    "sma50": 158.95,
    "sma200": 157.62,
    "high3m": 160.53,
    "sess": "reg",
-   "mt": 1781209293,
+   "mt": 1781209903,
    "ok": true
   },
   "ES=F": {
-   "price": 7402.75,
-   "chg": 1.71,
-   "chg5": -2.61,
-   "sma20": 7486.25,
-   "sma50": 7257.35,
+   "price": 7403.5,
+   "chg": 1.72,
+   "chg5": -2.6,
+   "sma20": 7486.29,
+   "sma50": 7257.36,
    "sma200": 7013.28,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1781208695,
+   "mt": 1781209303,
    "ok": true
   },
   "NQ=F": {
-   "price": 29491.0,
-   "chg": 3.28,
-   "chg5": -3.27,
-   "sma20": 29710.65,
-   "sma50": 28021.99,
-   "sma200": 26294.53,
+   "price": 29476.75,
+   "chg": 3.23,
+   "chg5": -3.32,
+   "sma20": 29709.94,
+   "sma50": 28021.7,
+   "sma200": 26294.41,
    "high3m": 30712.75,
    "sess": "24h",
-   "mt": 1781208693,
+   "mt": 1781209304,
    "ok": true
   },
   "YM=F": {
-   "price": 50911.0,
-   "chg": 1.84,
-   "chg5": -1.47,
-   "sma20": 50591.9,
-   "sma50": 49601.36,
-   "sma200": 48970.98,
+   "price": 50942.0,
+   "chg": 1.9,
+   "chg5": -1.41,
+   "sma20": 50593.45,
+   "sma50": 49601.98,
+   "sma200": 48971.22,
    "high3m": 51671.0,
    "sess": "24h",
-   "mt": 1781208691,
+   "mt": 1781209303,
    "ok": true
   },
   "GC=F": {
-   "price": 4234.8,
-   "chg": 3.08,
-   "chg5": -5.38,
-   "sma20": 4452.26,
-   "sma50": 4602.02,
-   "sma200": 4703.77,
+   "price": 4235.8,
+   "chg": 3.11,
+   "chg5": -5.36,
+   "sma20": 4452.31,
+   "sma50": 4602.04,
+   "sma200": 4703.78,
    "high3m": 5052.5,
    "sess": "24h",
-   "mt": 1781208696,
+   "mt": 1781209302,
    "ok": true
   },
   "CL=F": {
-   "price": 86.48,
-   "chg": -3.94,
-   "chg5": -7.05,
-   "sma20": 94.73,
+   "price": 86.17,
+   "chg": -4.29,
+   "chg5": -7.38,
+   "sma20": 94.71,
    "sma50": 97.02,
    "sma200": 80.68,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1781208694,
+   "mt": 1781209303,
    "ok": true
   },
   "HG=F": {
    "price": 6.39,
-   "chg": 2.3,
-   "chg5": -1.81,
+   "chg": 2.34,
+   "chg5": -1.78,
    "sma20": 6.36,
    "sma50": 6.14,
    "sma200": 5.89,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1781208696,
+   "mt": 1781209308,
    "ok": true
   },
   "ZN=F": {
@@ -806,7 +814,7 @@
    "sma200": 111.46,
    "high3m": 112.14,
    "sess": "24h",
-   "mt": 1781208683,
+   "mt": 1781209300,
    "ok": true
   },
   "EWY": {
@@ -833,14 +841,6 @@
     "geo": false
    },
    {
-    "title": "Inside HALX: Top Holdings, Weightings, and What Makes the ETF Unique - ETF Database",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQbnc0dlpGelJObzRDbEs0MzZnbk1nQUdfaG80WFJHRV9qOGNIRzV0cGxHUGlyS1hYVWV3X3pVU3YzSDA2aXl4bVk5OFZ2NjhWamNBQTNDV1dqbHY5S3lNSDB0ZmxnY0cwMHZWMEM2QmVEMTBPX29QR1VmQ0ZJdnQtXzZUbTBtOFFGUjY0ZnRRSEI?oc=5",
-    "pub": "Thu, 11 Jun 2026 20:07:58 GMT",
-    "src": "ETF Database",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave Seeks $3.55 Billion in Global Debt for AI Expansion - TradingView",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQN285OFZKZVpjZEZ5TGFPR0E2SUtsbnpsZHl2ZXpzX3ZQQUtra0czVUpxOW5nVm5XUllxWWgyVTI3U3Ztb0FCaTBSSllTS1JSWnhFZzIxNTFpQXdJTWdWdHlaSXMyaGRvTjVXTjE0aFZrVTJRM1puNWM4c3h3SUVINDAzZkRJeV92SVZzTEZUa0R5UEx5YTV3anYwV2ZXVm1JcjF3TTFkRXZqVXNSVmxTeXQ1RjJ5VDRiV05tbQ?oc=5",
     "pub": "Thu, 11 Jun 2026 18:43:09 GMT",
@@ -857,10 +857,10 @@
     "geo": false
    },
    {
-    "title": "CoreWeave's AI Growth Comes With Debt Focus - GuruFocus",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNemo0cnBkUndOc0Rjc3RabWc2SlU2cHZqQWJuYWdGekU0dXFCTWVGbHpRSXl1ZTR4dFNJLXFKNGc2R0ZsWGczZ0U0OXZHMWJ4SW1YdFFoLW9uTU1sQ2ZVUV9WbEJZcWxQWHJ0clFnT0F6NE5FcHZWMHluUkxSZEVPbTNCTXA1TkJkRkdnUzA2aU8wTGFUa09xWQ?oc=5",
-    "pub": "Thu, 11 Jun 2026 16:55:33 GMT",
-    "src": "GuruFocus",
+    "title": "CoreWeave takes its AI debt machine to Europe with a $3.55 billion junk bond deal that opens a new frontier for the continent's institutional investors - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxORS1vWWJFdnFWZF9nOVd4WmRMLWwyWnN0S19Kam9yejU0eXgyS0N0Rnd5ai1MSzl3N0doanctd3lMYjk5Z0VnbnEwVnh4SEVHVXQ1SWp4MTdiV1pUbkp1aG96MTRkUllZQjc4a0VQSTFPVjdyQWRUaWducUdsNDdKdXlSZm8xWTFheEp6ZDJjMWZUYW01ZXlubWM0QmEzZjlRQUJGQmRZWERMYVZQaXVkbjN0X1h3T1JMc0tfaF9zbkFWc1F6bzZKaFRnM1pEbmticm5YZU1qUlZjTjY5NUdONFVpZmV3N2RyMEZSNE9IZWZmcmc2a1RPdHVVd3R6TDlTV1B5S1VpVQ?oc=5",
+    "pub": "Thu, 11 Jun 2026 16:10:15 GMT",
+    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    },
@@ -871,9 +871,33 @@
     "src": "Blockspace Media",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "CoreWeave's AI Growth Comes With Debt Focus - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUW0wSjViQnB3Y2t4eVU5eE1EenRJX25FaWxBQzVjYWg2SHAzaGVmQmNYZWJ4VGUzVy1VTHJCVUtYNXg4SzdHSEUzSXI5dDVYeE5BLWZXcWpERVMzQ3Q2SEJldUJPX0RUUDh0NXRSV0NqMVB0U0NHckw1cFE4cFhSb3NRUUVQMTBUT2wtSkMtMVlUdEg0bUxQRWk0WWJreWFHREgtMGd3?oc=5",
+    "pub": "Thu, 11 Jun 2026 15:56:03 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "QQQ ETF ($695) Steadies as a Chip Rebound Offsets the AI-Capex Re-Rating in the 73% Tech-Heavy Nasdaq-100 - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQktuNXlmaUFQdTh0NndERl85X2Ftcm9aeEJWNjdlbEpxVDdoQk9oQnE5OVhzcTl0QnJFNnB0ek5NX1dsVWQ3YWRZMnp4OURFejV5N0hRcEpobExHZDNxamdXMjFaa2d6WXVSNVllRXJGV2gzckVsdDAwb1ptMGZpSXdEZ0pqa1ZITXR2clpOZw?oc=5",
+    "pub": "Thu, 11 Jun 2026 20:29:04 GMT",
+    "src": "TradingNEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Buy the Dip in Oracle Stock After Record Q4 Results? - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTjhVYTFGRW1PQUZMOUt1ZWFCa19qV1pDbC1YakZOUDZ4cEJPby1zLVdudld5dnlzNlFFT2tFbDdVR1VLUzRaTnJVcjJLdmR0ZlpWclg0QWlpcUF0SnlXNVFyM3RGTXRGaVNFRFk2U2tlX0gxUnA2YWR0cHlSengtNXkyOXFIcEo5aUF3eHJRc1VkM2VtX2ZPOXl0OHFzZWZrMlRYUk5Tbkx4LWs?oc=5",
+    "pub": "Thu, 11 Jun 2026 18:48:00 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "SAP Stock Slides on Twin Pressures: Oracle’s Capex Shock and Security Patch Woes, Despite Strong C - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbFJnMzVEX0VTeU5HYWZ5NF9fQVNwRmJnQmxNOExzMkpOVzNHVE9XTTRlbFBDZDVNbWlFV0tiMVRQQ0ZnQnNHeVFxUnVtT0oyaXN5YlpMX3dtWmZxeHh0by0yNWhFSTdFUEp6U2wybWRWX3FPMWVfYXI0OUI0cHZ1UkJINUkxR2pPWTZhb1VlRmV6VXJVVmRnWkcwNGFFT2ZYeFh3akVvdGVHQWFxZGJidUZzRk1WRkdfblNCUjdySXVieEk3SEE?oc=5",
@@ -883,10 +907,10 @@
     "geo": false
    },
    {
-    "title": "Microsoft’s $190 Billion AI Bet Is Both the Bull Case and Bear Case - Investing.com Australia",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNV2Q4T0RKa0pZTWRyVGlqeG12aGdWY0llakI2REt0dzRhRlhMMmliaGxXRzBCQzlnaGs4ZkJGSmloVFVsaFpFUm1xdjN6RWlCbllJQkVkMEhRVzVVS1pRRWVKc1VXbm9Ba3ZrOEhMSUo5MW4tU29UQ0J2M05uR25fTmhqa2FWVHpQUVRsNVI0dlA0QWc5M2wxUXFBNFRBS0NRZEpLOEJsUEt5eGZBWXRLOW5sSGU5LXdvVnZFalln?oc=5",
-    "pub": "Thu, 11 Jun 2026 18:20:04 GMT",
-    "src": "Investing.com Australia",
+    "title": "Microsoft’s $190 Billion AI Bet Is Both the Bull Case and Bear Case - Investing.com South Africa",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX1pjbzlWVlAwQ1FRRnVxb0lNWk54UzFuUDdCNEFlYUFuejd1M2ttUHlfVGV6LTg2RDNJMWZORVZvV0VVb0ppOFBzZVc0SU44M3FhYWJfbE9Pc2lyWWZMRlRMd09UVl84alpGMmNlQkpjY29XYWJXeU1ER0x3UTVjRjl3Z1Q1UlpnQS1lUGNQeTBzcWd2UlVwUHdxQk9CSlRhVWFqZFNYeUprX1E2dnk5MjdIUXRDQmJ5RFZ5QUNB?oc=5",
+    "pub": "Thu, 11 Jun 2026 18:36:41 GMT",
+    "src": "Investing.com South Africa",
     "trig": false,
     "geo": false
    },
@@ -905,25 +929,17 @@
     "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Micron Earnings Preview: June 24 Tests Whether the HBM Supercycle Is Real or Cresting - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOYkRRV0g0dC1SeWl4aWJReFZ2bHNDRW8yUFpPaWN4b1dyZGRhTFVwRUVfcWNsSER6NUYwWERZS1JtVGNIdWNqSlVHNDJhdzdRRXFHeDgtSVJwdUxWMUJ0cDd4VnRvUlduUElfT25BeHlfUldKdVBwcVZLTkhLcEtSNVRXSVI5LW1wZE9MUEdHTEZCeWU1YmxrM29meWRucGR2MXcxQ1V5ME5nUXNENTBmdFpEY3dmcEhIXzh6NWhqRUJsTXJ1c1F4Yw?oc=5",
-    "pub": "Thu, 11 Jun 2026 17:40:17 GMT",
-    "src": "Tech Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Explained: Why Oracle shares plunged despite beating estimates - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOeFVvZzFZb3hna3VmWmJpbGFDUEhFZ0hscUttVWp6em5wZ1U0SFJSdFJscHFjTTh6c0E5cWxJdnhwcGIySmhKVGk3cklnb1hFVHRERDFISGVGa2N5SzN5MmZvN2J3UmM1YXFvcl9xbTltakozZC1UY0Fmd0hjLTBzTHJuSnMzdllyVjVrYUU3dHdwbTlXMFJRUmVsMHQyenI1cnlIRFE0M2RnWno1VVNfX0sxMmxiR05x0gG-AUFVX3lxTE1qaUY2UEZLVWE2MXo1c3dCdVVjcXcxUnJnYkVRUnJxTGRSQkRUNWpkc3VtbkhnaHljQ1NPTnJYVDVuOFJuME00bW9XbUg0ekllUUhxQXpnRTM4dXhEV0E3bzlLUUIzYi1LN1FZSzRobjNJMUsyMlZ0bW9NUGIyRVp4bG5QWlBwSGJnc3h3dlFhTmoxRFQxLTdyckZfWEJ3S1VDLUVXQnJEcDl4Z1AwTGUwYTlsODdTUmtYTFNZVXc?oc=5",
-    "pub": "Thu, 11 Jun 2026 17:35:06 GMT",
-    "src": "CNBC TV18",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Why crude oil markets suddenly reversed course today: US oil prices collapse below $87 after Trump cancels Iran strike plans, WTI crude drops 3% - MSN",
+    "link": "https://news.google.com/rss/articles/CBMivwJBVV95cUxQcTBkZGtsUkdGN3BXeWtPaHZDU2ZjTnExblN6TW1XOXdhYWtBVlpoeVN1c0N5LTVnalFoU3NOOXp5TzlUdkswRm9JS0JXanFnclVVZ0lXTnAzMlVwMWRSbWU5VG1wMWtMdXpMMXozRjBtdVBJWWFTMUhhcmVpZ0ttNktBdTRvLTNjTjVFWEpPSWRrMG1TcnNxbzFuSjFGZzM4ZXdfQ3YzYUhBQjVoMV91Sk02UGZBVjBFOWtxS2FJc1E4dV9lOThYM0t5UVMzc1NvbWtGV0ZUbWlwMlRJaFlzUVdRRUNlb0JGU1haUWRFNEtpV0dmeE1wQUFvM0VBY1hkQVdHcHBqbU1sby1DTUtkN3pUdHpKT0lkVVpWT2RCckRudHptSUlfUmxDQjlNQVpGc3dGbmRNSlRwaXJCUnZN?oc=5",
+    "pub": "Thu, 11 Jun 2026 19:25:55 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Trump calls off ‘very hard’ strikes on Iran, sparking market see-saw - AFR",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMmk1bl9ldi14RndYZVExNGVvcWlDZUpGRk85b3Z4LVY5WDJjT3BvcF9LeFZkYTY0VUdZb19QTWFyZ1JvdlVCaGwzelhGRFJvTlNXV2RPaUFiUkZWSWxfd2RvNXVvOUI1Um5oV2xiZ003cVpUOGs5QjNsaGdiQ3pUWk1NajA3ZEhxdkVUT1BQY01nbnBjMzBKNDVvanBjZnNhRjVSTnRtLTA5LUFyNjJCdDR4LWJRSndZY2sw?oc=5",
@@ -937,14 +953,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPSFZISGRUVURxODNKUTNSbWtNSEJQWTJxcWJRaFdQYjc5UmVVdTZ4OV80ODNWOWgxSzNYQzJSeHhJcWpXTWR2S1FQM1MzXzE5TjhZdjVhQzNQS1BlSkpYZmFzRDlfOG9tVkgxRXk1dGc3dnJMS1pidlhJX3lYUTF2V0JZRlFpV24tVndwZURDckxsT0R1b0lmSDM1OEg?oc=5",
     "pub": "Thu, 11 Jun 2026 18:47:05 GMT",
     "src": "Morningstar",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump calls off latest threat to strike Iran, noting discussions with 'highest level of Iranian leadership' - CBC",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB4RGJYa2t4eVlOOTlvUnRBcnpvY01fYWZIU3p4SnlUSElEeS1XOC1ERHhha1B2N0pEYnhwc2U0OEtWMzBkTjN0dnZLSTNqRmNQSE5zQi13WWhtUEtmdUZkOWp0dmJxUGxXZXNpMmxB?oc=5",
-    "pub": "Thu, 11 Jun 2026 18:25:17 GMT",
-    "src": "CBC",
     "trig": false,
     "geo": false
    },
@@ -965,11 +973,11 @@
     "geo": false
    },
    {
-    "title": "Fed Next Meeting Inflation & Rate Hike Odds: June 2026 - Discovery Alert",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSldZaE1vM2VVNDNHOXFaZGFKX2JrN3dYWGZSeGxHbDhOOWhPVUVXUUYtVmRMa053dUhlUUJINVZMY3VLM2kxbUdZV0kwMjg2UnhFempHQVQxci05RFJ3VjFwYllWNm9KNDAyYUN2Q3VGaHlLcFBzMHduSHJEcUktTFVKN1ZwMEhjMUE?oc=5",
-    "pub": "Thu, 11 Jun 2026 18:03:29 GMT",
-    "src": "Discovery Alert",
-    "trig": false,
+    "title": "Fed’s June 17 Meeting Puts AI Stocks on Edge as Rate-Cut Hopes Turn to Hike Fears - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNTY1UUlkNldTSG9GMFI5N1FQVjlDR1hNNVBGakVIeFZlN0kzb0l5bk1QNVJwcS00bi1oLUFxdHBBeFVQaEh5bEFnSVpHQkw1MWg3NnpyZlJJbzhlN01KLXRFbWxFZ3c3dDl2Y29JTVNSUHRZYzgtVncwcUZfeDgwZmJ0aXI4VmNPZ3Q1ck4yemJrT1BTSUJPUUw4aU1wemJTMDBaTXJwTUhJdlZYcjV2dWs3R1h2Y2pQZ3J6NTRCalI4M1lW?oc=5",
+    "pub": "Thu, 11 Jun 2026 17:54:08 GMT",
+    "src": "Tech Times",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1030,7 +1038,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026041366/arcc-20260604.htm",
-   "summary": "아레스캐피탈이 최대 10억 달러 규모의 단기 기업어음 프로그램을 신규 설정했다.",
+   "summary": "Ares Capital Corporation이 최대 10억 달러 규모의 상업어음 프로그램을 신설했다.",
    "new": true
   },
   {
@@ -1038,7 +1046,7 @@
    "form": "8-K",
    "date": "2026-06-08",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926071409/tm2617105d1_8k.htm",
-   "summary": "FS KKR Capital Corp이 2026년 6월 8일 현재 보고 의무를 충족하기 위해 8-K를 제출했습니다.",
+   "summary": "FS KKR Capital Corp가 2026년 6월 8일 현재보고서를 제출했습니다.",
    "new": true
   },
   {
@@ -1046,7 +1054,7 @@
    "form": "8-K",
    "date": "2026-05-27",
    "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "Golub Capital BDC가 2026년 5월 27일 공모와 관련하여 U.S. Bank Trust Company와 신탁 계약을 체결했다.",
+   "summary": "골럽 캐피탈 BDC가 2026년 5월 27일 공개 모집과 관련하여 수탁자와 중요 정의 약정을 체결했다.",
    "new": false
   },
   {
@@ -1054,7 +1062,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000162828026037240/obdc-20260518.htm",
-   "summary": "블루아울 캐피탈이 2031년 만기 6.3% 채권 4억 달러에 대한 보충약정서를 체결했다.",
+   "summary": "Blue Owl Capital Corporation이 Deutsche Bank Trust Company Americas와 11번째 추가 약정서를 체결하여 2031년 만기 6.3% 채권 4억 달러를 발행했습니다.",
    "new": false
   },
   {
@@ -1062,7 +1070,7 @@
    "form": "8-K",
    "date": "2026-05-21",
    "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026060043/ea0291766-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund가 5.9% 채권 6억5천만달러에 대한 제11차 보충약정서를 체결했다.",
+   "summary": "블랙스톤 담보대출펀드가 2031년 만기 6억5천만 달러 규모 5.9% 채권에 대한 11차 보충약정을 체결했다.",
    "new": false
   }
  ],
@@ -1093,7 +1101,7 @@
    "chg": -0.01
   },
   "iorb": {
-   "date": "2026-06-11",
+   "date": "2026-06-12",
    "value": 3.65,
    "prev": 3.65,
    "chg": 0.0
@@ -1134,7 +1142,7 @@
    17.26,
    16.76,
    15.74,
-   19.52
+   19.44
   ],
   "tnx": [
    4.21,
@@ -1194,7 +1202,7 @@
    0.828,
    0.838,
    0.844,
-   0.909
+   0.908
   ],
   "hyoas": [
    2.84,
@@ -1592,10 +1600,8 @@
   4
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "BIZD"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {

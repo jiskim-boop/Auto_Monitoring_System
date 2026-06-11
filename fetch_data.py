@@ -483,17 +483,21 @@ def _group_status(p, syms):
     return "r" if r>n/2 else ("a" if (r+a)>n/2 else "g")
 
 def _credit_status(p):
-    """클라이언트 creditPanel 복제 (7종: BIZD ARCC OBDC CRWV BKLN SRLN JBBB)"""
+    """클라이언트 creditPanel 복제 (7종) — C게이트: 차주(CRWV)는 대주·부채 동반 약세 시에만 투표"""
     syms=["BIZD","ARCC","OBDC","CRWV","BKLN","SRLN","JBBB"]
-    r=n=early=0
+    stats=[]
     for sym in syms:
         q=p.get(sym)
         st=_p_status(q)
         if st is None: continue
-        n+=1
-        if st=="r": r+=1
-        if q.get("chg5") is not None and q["chg5"]<=-1.5: early+=1
+        weak5=q.get("chg5") is not None and q["chg5"]<=-1.5
+        stats.append((sym,st,weak5))
+    others=[t for t in stats if t[0]!="CRWV"]
+    o_confirm=any(t[1]=="r" for t in others) or any(t[2] for t in others)
+    use=stats if o_confirm else others   # 단독 차주 약세 = AI 베타 노이즈 → 제외
+    n=len(use)
     if not n: return None
+    r=sum(1 for t in use if t[1]=="r"); early=sum(1 for t in use if t[2])
     major=r>n/2; trend=early>=2
     if major and trend: return "r"
     if major or trend: return "a"

@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.5</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.6</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -209,6 +209,11 @@
         <div id="ainight-rows"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">AI 현물주는 정규장만 거래(후행) → 나스닥선물(24h)이 야간 악재를 먼저 반영. 선물↓+프리장↓ 동반 시 다음 개장 약세 가능성</span></div></div>
 
+      <div class="card ai"><div class="top"><span class="nm">IPO 워치 (AI·우주)</span><span class="stt s-b" id="st-ipo">관찰</span></div>
+        <div class="desc">SPCX 실시간 시세 · OpenAI·Anthropic 상장 자동 감지(야후 티커 등록 기준, ~10분)</div>
+        <div id="ipo-rows" style="margin-top:6px"></div>
+        <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">SPCX=SpaceX·xAI 합병체, 6/12 나스닥 공모가 $135 · 신규상장은 이평선이 없어 <b style="color:#8a93a6">바스켓·폭 판정 미포함(참고 전용)</b> · OpenAI($750~830B 보도)·Anthropic(~$350B 보도)은 일정 미공시 — 티커 등록 감지 시 자동 표시+텔레그램 1회</span></div></div>
+
       <div class="card ai" style="border-left-color:#37d6a0"><div class="top"><span class="nm">GPU·HBM 수급 (AI 필수재)</span><span class="stt s-n" id="st-gpu">—</span></div>
         <div class="desc">H100 임대 단가 = AI 필수재 수요·공급 직접 지표 (실시간)</div>
         <div id="gpu-h100" style="font-size:13px;color:#c2cad6;margin:7px 0;font-weight:700"></div>
@@ -251,7 +256,6 @@
         <div class="desc">코스피·코스닥 · 한국시간 09~15:30 (참고용)</div>
         <div id="kr-rows"><div class="empty">로딩…</div></div></div>
       <div class="card macro"><div class="top"><span class="nm">규제·지정학</span><span class="stt s-a">관찰</span></div><div class="desc">수출통제·반독점·관세</div></div>
-      <div class="card macro"><div class="top"><span class="nm">IPO</span><span class="stt s-b">대기</span></div><div class="desc">SpaceX 6/12 상장 · OpenAI·앤트로픽 대기</div></div>
       <div class="card macro"><div class="top"><span class="nm">거시 뉴스</span><span class="stt s-n">자동</span></div>
         <div class="desc">Fed·침체·변동성·스프레드</div>
         <ul class="news" id="news-macro"><li class="empty">로딩…</li></ul></div>
@@ -396,6 +400,29 @@ function basket(p,syms,memId,stId){
   if(!n){const sb=$(stId);if(sb)badge(sb,'n','N/A');return null;}
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
   const sb=$(stId);if(sb)badge(sb,st);return st;}
+
+function ipoPanel(p,d){
+  const el=$('ipo-rows'); if(!el) return;
+  const rows=[];
+  const q=p['SPCX'];
+  if(q&&q.ok&&q.price!=null){
+    const up=(q.chg||0)>=0;
+    rows.push(`<div class="prow"><span class="tk">SPCX(SpaceX·xAI)</span><span class="pr">$${q.price}</span><span class="ch ${up?'up':'dn'}">${q.chg!=null?(up?'+':'')+q.chg+'%':''}</span><span class="ps s-b">상장</span></div>`);
+  } else {
+    rows.push(`<div class="prow"><span class="tk">SPCX(SpaceX·xAI)</span><span class="pr" style="color:#5f6878">시세 대기</span><span class="ch" style="color:#5f6878;font-size:9px">거래 개시 후 자동</span><span class="ps s-b">6/12</span></div>`);
+  }
+  const iw=(d&&d.ipo_watch)||null;
+  [['openai','OpenAI','$750~830B 검토 보도'],['anthropic','Anthropic','~$350B 검토 보도']].forEach(([k,nm,val])=>{
+    const v=iw?iw[k]:undefined;
+    let stTxt,cls,info;
+    if(v&&v.found){stTxt='감지';cls='s-a';info=`티커 ${v.ticker||'?'} 등록 — 검증 필요`;}
+    else if(v===null){stTxt='체크불가';cls='s-n';info='자동 감지 일시 실패 · '+val;}
+    else if(iw){stTxt='비상장';cls='s-g';info='일정 미공시 · 자동 감시 중 · '+val;}
+    else {stTxt='대기';cls='s-n';info='감시 준비(서버 갱신 후) · '+val;}
+    rows.push(`<div class="prow"><span class="tk">${nm}</span><span class="pr" style="color:#8a93a6;font-size:10px;letter-spacing:0">${info}</span><span></span><span class="ps ${cls}">${stTxt}</span></div>`);
+  });
+  el.innerHTML=rows.join('');
+}
 
 function creditPanel(p){
   const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0,early=0;
@@ -1234,7 +1261,7 @@ async function load(){
           sGpuPrice=renderGpu(d),                          // H100 임대가 추세 → GPU 판정 메인
           sGpuStock=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu-ignore'),  // 주가는 참고용(mem만)
           sAiNight=aiNight(p);
-    const sCredit=creditPanel(p);
+    const sCredit=creditPanel(p); ipoPanel(p,d);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
     // 드리프트 감지: 화면(JS)과 서버(Python) 조기경보가 어긋나면 즉시 경고 — 이중구현 드리프트 재발 방지
     if(d.early && (Number(d.early.score)!==Number(ew.score) || d.early.st!==ew.st)){

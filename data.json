@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-12T21:02:18+00:00",
+ "updated": "2026-06-12T21:11:49+00:00",
  "prices": {
   "NVDA": {
    "price": 205.19,
@@ -590,15 +590,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.79,
-   "chg": -0.07,
-   "chg5": -0.28,
+   "price": 99.81,
+   "chg": -0.05,
+   "chg5": -0.26,
    "sma20": 99.42,
    "sma50": 98.9,
    "sma200": 98.61,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781297512,
+   "mt": 1781297999,
    "ok": true
   },
   "^IRX": {
@@ -698,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63423.58,
-   "chg": -0.22,
-   "chg5": 0.29,
-   "sma20": 68135.62,
-   "sma50": 74416.33,
-   "sma200": 76695.06,
+   "price": 63551.19,
+   "chg": -0.02,
+   "chg5": 0.49,
+   "sma20": 68142.0,
+   "sma50": 74418.88,
+   "sma200": 76695.76,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781298115,
+   "mt": 1781298678,
    "ok": true
   },
   "USO": {
@@ -722,67 +722,75 @@
    "ok": true
   },
   "JPY=X": {
-   "ok": false,
-   "err": "HTTP Error 404: Not Found"
+   "price": 160.19,
+   "chg": 0.03,
+   "chg5": -0.09,
+   "sma20": 159.62,
+   "sma50": 158.97,
+   "sma200": 157.65,
+   "high3m": 160.53,
+   "sess": "reg",
+   "mt": 1781298024,
+   "ok": true
   },
   "ES=F": {
-   "price": 7436.75,
-   "chg": 0.55,
-   "chg5": 0.49,
-   "sma20": 7481.48,
-   "sma50": 7273.6,
+   "price": 7436.25,
+   "chg": 0.54,
+   "chg5": 0.48,
+   "sma20": 7481.45,
+   "sma50": 7273.59,
    "sma200": 7017.46,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1781297521,
+   "mt": 1781297999,
    "ok": true
   },
   "NQ=F": {
-   "price": 29672.0,
-   "chg": 0.7,
-   "chg5": 2.22,
-   "sma20": 29708.55,
-   "sma50": 28131.01,
-   "sma200": 26325.98,
+   "price": 29677.75,
+   "chg": 0.72,
+   "chg5": 2.24,
+   "sma20": 29708.84,
+   "sma50": 28131.12,
+   "sma200": 26326.03,
    "high3m": 30712.75,
    "sess": "24h",
-   "mt": 1781297521,
+   "mt": 1781297997,
    "ok": true
   },
   "YM=F": {
-   "price": 51597.0,
-   "chg": 1.42,
-   "chg5": 1.3,
-   "sma20": 50662.25,
-   "sma50": 49696.46,
-   "sma200": 48993.5,
+   "price": 51608.0,
+   "chg": 1.44,
+   "chg5": 1.32,
+   "sma20": 50662.8,
+   "sma50": 49696.68,
+   "sma200": 48993.58,
    "high3m": 51671.0,
    "sess": "24h",
-   "mt": 1781297521,
+   "mt": 1781297997,
    "ok": true
   },
   "GC=F": {
-   "price": 4238.6,
-   "chg": 3.63,
-   "chg5": -2.27,
-   "sma20": 4423.06,
-   "sma50": 4588.24,
-   "sma200": 4702.24,
+   "price": 4239.9,
+   "chg": 3.66,
+   "chg5": -2.24,
+   "sma20": 4423.13,
+   "sma50": 4588.26,
+   "sma200": 4702.25,
    "high3m": 5001.0,
    "sess": "24h",
-   "mt": 1781297522,
+   "mt": 1781297996,
    "ok": true
   },
   "CL=F": {
-   "price": 84.28,
-   "chg": -3.91,
-   "chg5": -6.91,
+   "price": 84.29,
+   "chg": -3.9,
+   "chg5": -6.9,
    "sma20": 93.95,
    "sma50": 96.73,
    "sma200": 80.9,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1781297524,
+   "mt": 1781297997,
    "ok": true
   },
   "HG=F": {
@@ -794,19 +802,19 @@
    "sma200": 5.9,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1781297510,
+   "mt": 1781297995,
    "ok": true
   },
   "ZN=F": {
-   "price": 109.52,
-   "chg": -0.38,
-   "chg5": 0.16,
+   "price": 109.56,
+   "chg": -0.34,
+   "chg5": 0.2,
    "sma20": 109.55,
    "sma50": 110.35,
    "sma200": 111.44,
    "high3m": 112.14,
    "sess": "24h",
-   "mt": 1781297518,
+   "mt": 1781297999,
    "ok": true
   },
   "EWY": {
@@ -925,6 +933,14 @@
   ],
   "macro": [
    {
+    "title": "Americans are paying a growing financial price for Iran war - Sky News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcWpmREdGakhZcUJKUjVoRWhGQmpqTnVkbE9WZXhqWjBvOVhvZ2tnd09weGJ3c2lfbHl6bklPT1duZGFfTEs1QmtPWWNEaGU4djdjQ09tMVFGVlBjY2FnVkpsQVdlcTB4ajZ6Nm5FTDZJVE9xUVFiV25LUWhfdjJTdjVPdW1oa3p4UXJUSktQZm9FRmt1a29UZ1QwNA?oc=5",
+    "pub": "Fri, 12 Jun 2026 20:06:15 GMT",
+    "src": "Sky News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "4 Markets to Watch as the Yield Curve Turns Positive - EBC Financial Group",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSGlaWjJLMFNaQjBMQlBaNkdIbXNoX3Y4SjBySVQtQU9wLXJmS3VRWTRRNFdhOFBuNDA0LUFnMjdQZ0pwdmhxLUFfOXZPUFJhSU1vYjZGc0NHemh0Y2dzTkZXbE9DYllEazlKWEo3R2xZQlpaeDFLSklLUGpoNjBzWkQwVlU?oc=5",
     "pub": "Fri, 12 Jun 2026 18:04:57 GMT",
@@ -941,18 +957,18 @@
     "geo": false
    },
    {
-    "title": "US officials say Hormuz oil flows reaching half of pre-war levels - Middle East Eye",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RnRmtUaldMdW5xT2EtTHA3YWlhSTh0N2lhVV9JUHQ3dVpENkp5ZGxxYUZER0phQlpwazdLQl95OTg5RDIwTkRoWlVNWEVvUEJfNjZYMGU2VFdqU2NqaDdzTUlLTHJyUnllQW4tVjVvSkFrQXBWZUNBaTFZdjVjR0lrLVlsR2FHcWdrNEhPNXEzNlZ0NzMxZlZTMmNjZw?oc=5",
-    "pub": "Fri, 12 Jun 2026 17:32:38 GMT",
-    "src": "Middle East Eye",
+    "title": "The US has become the world's largest oil exporter amid war in the Middle East - Online.UA",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPMDZpbmJ6REc5ZW8xamFYeTEzc0ZmTDhEZFZab2xUQlZKRTVWbW1aemU2VFFZcUtlRHRtZzAwU2ZHSEEzMjhJZXNsRUpBQlhXbkRQdVJWMmZIems4WDJVSmRDcW1sRHVMQkkzZEJrWWIwbE0tWFhTNUdCRk04bUlOeGFnSXF1SkNhb2VzeXkzdjVtN2pEbXR5VmNIYXl6dVExYzFRRjhKMWpuVlFUQnp3Mg?oc=5",
+    "pub": "Fri, 12 Jun 2026 17:39:00 GMT",
+    "src": "Online.UA",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Americans are paying a growing financial price for Iran war - Sky News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNcWpmREdGakhZcUJKUjVoRWhGQmpqTnVkbE9WZXhqWjBvOVhvZ2tnd09weGJ3c2lfbHl6bklPT1duZGFfTEs1QmtPWWNEaGU4djdjQ09tMVFGVlBjY2FnVkpsQVdlcTB4ajZ6Nm5FTDZJVE9xUVFiV25LUWhfdjJTdjVPdW1oa3p4UXJUSktQZm9FRmt1a29UZ1QwNA?oc=5",
-    "pub": "Fri, 12 Jun 2026 17:23:57 GMT",
-    "src": "Sky News",
+    "title": "US officials say Hormuz oil flows reaching half of pre-war levels - Middle East Eye",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM3RnRmtUaldMdW5xT2EtTHA3YWlhSTh0N2lhVV9JUHQ3dVpENkp5ZGxxYUZER0phQlpwazdLQl95OTg5RDIwTkRoWlVNWEVvUEJfNjZYMGU2VFdqU2NqaDdzTUlLTHJyUnllQW4tVjVvSkFrQXBWZUNBaTFZdjVjR0lrLVlsR2FHcWdrNEhPNXEzNlZ0NzMxZlZTMmNjZw?oc=5",
+    "pub": "Fri, 12 Jun 2026 17:32:38 GMT",
+    "src": "Middle East Eye",
     "trig": false,
     "geo": false
    },
@@ -963,22 +979,14 @@
     "src": "TechStock²",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "India summons US envoy Jason Meeks after 3 Indian sailors die in American military strike - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQT0puN2FjcnNJRHZqVmRia2F3THpKTTJkNEhPNmstUUtEdVhVWFhUeU05ZERwRjFOZHNteWgya1pKeGtTWWRyTGhNRjBOd1hWZG9BTmNKdVFUd29HSDB2RjBnaTZUeUowU1R5TjViWFM4Y1J5bHU2U2EwQmNTdUVFMVJwXzJFM1NTR1BKTXgzdWQ0TFFucW1tX0VOUkxXX3JtTTJXY09XblF1SlBMVE4wUkEyczdqOERkM3lyZ2Z6Z0tKT2dTWmk3aUh3eWdCZVptU2hYcjZWSDl2ZVpfeFhtNVEzZEttS2fSAewBQVVfeXFMT3RaQnZoQ1BBZ1ZFVkt3NEtYSm9RcndTN1ZpaV8zam1JaGk4NXpxWS1vQ0lOeHYwM0djb0ZOY0UtTUZlTHB0bExCLTRCd3llVlByWjk2dms4MlFXbHdsX3RiT095S2VOWEh4OE5LYmhVTmJ4RTZmUTR3dlpkUGpHbS1kRW9FU012cEoxa1M1SDAzUGV0THEwRkxaUXA3RUR1OUlmemxrbUxSTkxvWlRZMW40LThPSTZJNnB4UFNyeFlLcTBFZTk2eTE0aUVNMEFkVTFudVlMRC13ei10RGhWUWJDZGV6bXl3WTJSVzM?oc=5",
-    "pub": "Fri, 12 Jun 2026 17:10:42 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "US stocks rise after oil prices ease and SpaceX soars in its debut on Wall Street - The Washington Post",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWWNOS2Q1NG03UG9EaDBGQ0V2am9WUVlGQUxsY0dkX1M5ZW1oZGZDNVpjU1kyczlOS3p0a1prckZmM0dGa3FtOXluczROdTg1eXBZbnEtMHBzT2hRbE1zRjRVNDh2U3JRdkZkWXQwRDR6a0kwNVE3YWJiU09tUHRZUGozaFg1R20zbjhRRGd0WTVtNThqeHZJbHZkSmYtQS10eE92NFM3NzZqMmlacnNoTi15cUZXMkRscjh1YUJFX2VIQnZvcXBjVlJPRQ?oc=5",
-    "pub": "Fri, 12 Jun 2026 20:01:52 GMT",
-    "src": "The Washington Post",
+    "title": "Investors Sell Safe-Haven Gold for SpaceX, Shaking Prices - Seoul Economic Daily",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTGRjQWNXcWZDS1NGVXNST1FIRURRTTVXMXNwd2dVeDBEMWdkbXhpdTB2NVNUVG5jbWF1cFBrc210SVEzaUxlQXdnRW9uazlCV1BlbDdzU2RaNkRtNXZ1MjRqWU45NURab0Q2M29lYXhiT044WjdBMWZaY1FvaVNyMEFMbHB0VC1UZ1ZMWWhTUWxLUXZYUWlCM2ItNHMzajA?oc=5",
+    "pub": "Fri, 12 Jun 2026 20:52:05 GMT",
+    "src": "Seoul Economic Daily",
     "trig": false,
     "geo": false
    },
@@ -1169,7 +1177,7 @@
    99.27,
    99.32,
    99.2,
-   99.79
+   99.81
   ],
   "bizd": [
    12.48,
@@ -1605,10 +1613,8 @@
   6
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "JPY=X"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {

@@ -46,6 +46,7 @@ PRICE_SYMBOLS = [
     "FCX","SCCO","CPER","CCJ","URA","UEC",               # 원자재(구리3·우라늄3)
     "MSFT","GOOGL","AMZN","META","ORCL",                 # 하이퍼스케일러
     "CRWV","NBIS",                                        # 네오클라우드·GPU임대 (수급 프록시)
+    "SPCX",                                               # SpaceX·xAI (상장 — 표시 전용, 바스켓 미포함)
     # 신용·사모대출
     "BIZD","ARCC","OBDC","HYG","BKLN","SRLN","JBBB",
     # 거시·시스템
@@ -219,14 +220,21 @@ def summarize_filing(link):
             if not re.search(r"(미제공|불가능|내용이 (없|포함)|제목과 기본|확인할 수 없)", s):
                 return s
     return item_label or "내용 분류 불가"
-def fetch_edgar():
+def fetch_edgar(prev=None):
     out=[]
     today=datetime.now(timezone.utc).date()
+    cache={}
+    for e in ((prev or {}).get("edgar") or []):
+        lk=e.get("link"); sm=e.get("summary")
+        if lk and sm and e.get("form")!="ERR": cache[lk]=sm
     for name,cik in EDGAR_CIKS.items():
         try:
             rec=edgar_recent_8k(cik)
             if rec:
-                rec["summary"]=summarize_filing(rec["link"])
+                if rec["link"] in cache:
+                    rec["summary"]=cache[rec["link"]]; rec["_cached"]=True   # 동일 공시 → 캐시(비용0)
+                else:
+                    rec["summary"]=summarize_filing(rec["link"])
                 try:
                     d=datetime.strptime(rec["date"],"%Y-%m-%d").date()
                     rec["new"]=(today-d).days<=3
@@ -667,6 +675,22 @@ def update_history(prev, ew):
         hist.append(entry)
     return hist[-30:]  # 최근 30일
 
+def check_ipo_watch():
+    """OpenAI/Anthropic 상장 자동 감지 — 야후 EQUITY 티커 등록 순간 포착. 실패=None(체크불가)."""
+    out={"checked":datetime.now(timezone.utc).isoformat(timespec="seconds")}
+    for key,query in (("openai","OpenAI"),("anthropic","Anthropic")):
+        try:
+            j=json.loads(get(f"https://query1.finance.yahoo.com/v1/finance/search?q={query}&quotesCount=8&newsCount=0"))
+            found=None
+            for q in j.get("quotes",[]):
+                nm=((q.get("shortname") or "")+" "+(q.get("longname") or "")).strip().lower()
+                if q.get("quoteType")=="EQUITY" and nm.startswith(key):
+                    found={"ticker":q.get("symbol"),"name":(q.get("shortname") or q.get("longname"))}; break
+            out[key]={"found":bool(found),**(found or {})}
+        except Exception:
+            out[key]=None
+    return out
+
 def upcoming_events():
     """주요 거시 이벤트 — 발표 '시각'(미 동부)까지 반영해 24시간 이내면 D-DAY로 계산."""
     from zoneinfo import ZoneInfo
@@ -817,6 +841,12 @@ def main():
         tg_send("🔌 <b>데이터 수집 이상</b>\n실패 "+str(len(_failed))+"종목"
                 +(" · 코어 사망: "+", ".join(_core_dead) if _core_dead else "")
                 +"\n대시보드 판정 신뢰 불가 — Actions 로그 확인 필요")
+    ipo=check_ipo_watch()
+    _pi=(prev or {}).get("ipo_watch",{}) if prev else {}
+    for _k,_lb in (("openai","OpenAI"),("anthropic","Anthropic")):
+        _c=(ipo.get(_k) or {}); _p2=(_pi.get(_k) or {}) if isinstance(_pi.get(_k),dict) else {}
+        if _c.get("found") and not _p2.get("found"):
+            tg_send(f"🚀 <b>{_lb} 상장 감지</b>\n티커: {_c.get('ticker')} ({_c.get('name')})\n야후 티커 등록 확인 — 검증 필요")
     charts=fetch_charts(fred)
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
@@ -824,9 +854,9 @@ def main():
     gpu=fetch_gpu_price(prev)
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":prices,"news":news,"edgar":fetch_edgar(),
+          "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices)))}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

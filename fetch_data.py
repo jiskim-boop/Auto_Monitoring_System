@@ -58,10 +58,23 @@ PRICE_SYMBOLS = [
     "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
 ]
 FUT_SET = {"ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F"}
+def _chart_json(sym):
+    # 야후 chart: query1 404 시 query2로 재시도 (^VIX 등 간헐적 단일심볼 404 대응)
+    last=None
+    for host in ("query1","query2"):
+        url=f"https://{host}.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d&includePrePost=true"
+        try:
+            j=json.loads(get(url))
+            if j.get("chart",{}).get("result"): return j
+            last=Exception("empty result")
+        except Exception as e:
+            last=e
+            if "404" not in str(e): break   # 404가 아니면 호스트 바꿔도 무의미
+    raise last or Exception("chart fetch failed")
+
 def fetch_quote(sym):
-    url=f"https://query1.finance.yahoo.com/v8/finance/chart/{sym}?range=6mo&interval=1d&includePrePost=true"
     try:
-        j=json.loads(get(url)); res=j["chart"]["result"][0]
+        j=_chart_json(sym); res=j["chart"]["result"][0]
         meta=res["meta"]
         reg=meta.get("regularMarketPrice")
         pre=meta.get("preMarketPrice"); post=meta.get("postMarketPrice")
@@ -95,6 +108,18 @@ def fetch_quote(sym):
                 "high3m":round(max(closes[-63:]),2) if closes else None,
                 "sess":sess,"mt":mt,"ok":True}
     except Exception as e:
+        # 폴백: quote API에서 현재가/전일종가만이라도 확보 (chart 404 우회)
+        try:
+            qj=json.loads(get(f"https://query1.finance.yahoo.com/v7/finance/quote?symbols={sym}"))
+            r=(qj.get("quoteResponse",{}).get("result") or [None])[0]
+            if r and r.get("regularMarketPrice") is not None:
+                price=r.get("postMarketPrice") or r.get("preMarketPrice") or r["regularMarketPrice"]
+                prevc=r.get("regularMarketPreviousClose")
+                chg=round((price/prevc-1)*100,2) if prevc else r.get("regularMarketChangePercent")
+                return {"price":round(price,2),"chg":chg,"chg5":None,
+                        "sma20":None,"sma50":None,"sma200":None,"high3m":None,
+                        "sess":"reg","mt":r.get("regularMarketTime"),"ok":True,"degraded":True}
+        except Exception: pass
         return {"ok":False,"err":str(e)[:120]}
 def fetch_prices():
     out={}
@@ -194,24 +219,14 @@ def summarize_filing(link):
             if not re.search(r"(미제공|불가능|내용이 (없|포함)|제목과 기본|확인할 수 없)", s):
                 return s
     return item_label or "내용 분류 불가"
-def fetch_edgar(prev=None):
+def fetch_edgar():
     out=[]
     today=datetime.now(timezone.utc).date()
-    # 이전 결과를 link 기준으로 캐시 — 같은 공시(동일 link)는 요약 재사용(Claude 호출 skip)
-    cache={}
-    for e in ((prev or {}).get("edgar") or []):
-        lk=e.get("link"); sm=e.get("summary")
-        if lk and sm and e.get("form")!="ERR":
-            cache[lk]=sm
     for name,cik in EDGAR_CIKS.items():
         try:
             rec=edgar_recent_8k(cik)
             if rec:
-                if rec["link"] in cache:
-                    rec["summary"]=cache[rec["link"]]          # 동일 공시 → 캐시 재사용(비용 0)
-                    rec["_cached"]=True
-                else:
-                    rec["summary"]=summarize_filing(rec["link"])  # 신규 공시만 요약
+                rec["summary"]=summarize_filing(rec["link"])
                 try:
                     d=datetime.strptime(rec["date"],"%Y-%m-%d").date()
                     rec["new"]=(today-d).days<=3
@@ -809,7 +824,7 @@ def main():
     gpu=fetch_gpu_price(prev)
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":prices,"news":news,"edgar":fetch_edgar(prev),
+          "prices":prices,"news":news,"edgar":fetch_edgar(),
           "fred":fred,"charts":charts,"summary":summary,
           "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices)))}
     with open("data.json","w",encoding="utf-8") as f:

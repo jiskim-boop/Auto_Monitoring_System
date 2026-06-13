@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-13T07:02:15+00:00",
+ "updated": "2026-06-13T07:11:39+00:00",
  "prices": {
   "NVDA": {
    "price": 205.19,
@@ -538,7 +538,7 @@
    "sma200": 19.11,
    "high3m": 31.05,
    "sess": "reg",
-   "mt": 1781295301,
+   "mt": 1781295300,
    "ok": true
   },
   "^VIX3M": {
@@ -562,7 +562,7 @@
    "sma200": 102.71,
    "high3m": 133.18,
    "sess": "reg",
-   "mt": 1781295301,
+   "mt": 1781294400,
    "ok": true
   },
   "^SKEW": {
@@ -574,7 +574,7 @@
    "sma200": 144.77,
    "high3m": 156.93,
    "sess": "reg",
-   "mt": 1781298046,
+   "mt": 1781294400,
    "ok": true
   },
   "^MOVE": {
@@ -590,15 +590,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.81,
-   "chg": -0.05,
-   "chg5": -0.26,
+   "price": 99.75,
+   "chg": -0.11,
+   "chg5": -0.32,
    "sma20": 99.42,
    "sma50": 98.9,
    "sma200": 98.61,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781297999,
+   "mt": 1781236740,
    "ok": true
   },
   "^IRX": {
@@ -698,15 +698,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63661.84,
+   "price": 63666.84,
    "chg": 0.19,
    "chg5": 0.91,
-   "sma20": 67475.63,
-   "sma50": 74142.85,
-   "sma200": 76550.32,
+   "sma20": 67475.88,
+   "sma50": 74142.95,
+   "sma200": 76550.34,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781334117,
+   "mt": 1781334679,
    "ok": true
   },
   "USO": {
@@ -933,6 +933,14 @@
   ],
   "macro": [
    {
+    "title": "Nine injured as Russians strike market in Dnipropetrovsk Oblast - Українська правда",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9xcE84Tm1RTGpJYVZlWVcycWJreUMzOW9qV1NWN2hPbjZuNXJDejJKaFNjTnZfS3Y4eDBMVnNaUzZaY29MZUhFNXJianlod0tkeElXalY1ZDA3NllyZHJCam5WZEHSAXBBVV95cUxQTUFqUExNb3B0WkRsazVvOV9abjNCRnU2ZERDMVQ5Rm9wNGpBYXpkdGV1el9mcUkzbW5Pd19ka3liUGc2VnBjdE9uTjhLcUpVZVUwWE42UlhUR0NKMXRNUXNpMm9PUHpOcDU0WGJSeVFQ?oc=5",
+    "pub": "Sat, 13 Jun 2026 06:35:00 GMT",
+    "src": "Українська правда",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Blue Owl Capital: 22% Discount To NAV Makes This One Of The Cheapest Stocks In The Market - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOUgyeEVGVlM0WnVSZVBUeldZZ2ZBTkVnbC12X3g3YkRjck5KYlJBMTJWLTZNZU1FT0k3ZU9MN3B6VHNVTGR5Z3MwWVo1a3dlRlZ4RDk4MkwzNTNPQ0FuVjNfVFpIRVBrYU52TVdKUlR0dm1DdkphdVE3dXpzb3l3QWdwajhPMzQ2eGJGbXpRTFczZEdoTnExUk5td3hyZWNXV21zSEhMUlNxbkNVblFJd3JGbF9sSDQxY1BWc1RBTnBfa0RZaUNsb0V4MHpveW5vRU41eQ?oc=5",
     "pub": "Sat, 13 Jun 2026 05:33:40 GMT",
@@ -971,14 +979,6 @@
     "src": "odaily.news",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Oil prices tumble as Iran, US signal breakthrough in war-ending talks - WION",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNYk9hWnZuS2lOd0tPWlRzMzN5dHFfTUxvT0U1MWNxV2hVWFZUQngyWW1fcjhKQ2VzdnpSVjIwcTR2dlBYcGhBcERSbDJ5THhUUFdfbng5SURxOEx1NW5vRWdDbmxiTU9BZFlVQnllUzUtNVJNMTVCSE9MT0FWQWRua2tmSW1xZzBaUHAtX3NuMGg1UXFieE1uYl9TMEI2dTgzSXVEVkxYVlBwVjVnaDZ3ZzFB0gG3AUFVX3lxTE9nR2JtV3JrdXlwNW42Rndkbk0weGxKeUN1VTRwUU9ZVklMcGZwRm9kOExCUHZsVm9VUVBxZHBEV2RpeU5BRzZudkV6Yl9Sc0ZhRnNnMDJreDZQY1JmWkZFUVpCQVE1Rm5yWGJkbjNwekJtNjJwUEU1R3c0N3kzVVNmV0QtWEVrNDlib1hja1hhS3p5OE1RMkJzYXpQbjlmb0I4VHZHeGI0cVppOVpSekgzSnFnTHpqUQ?oc=5",
-    "pub": "Sat, 13 Jun 2026 03:29:00 GMT",
-    "src": "WION",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -999,14 +999,6 @@
     "geo": false
    },
    {
-    "title": "Gold Pauses Recovery as Traders Await Clarity on US-Iran Peace Deal - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTW9zNDl6Qzh1TXFrd3JRUTIwOUo5dEVlWjRrSFBkeFJWUDVtV0ItYllXWDdjYzNXbkFnWWpaWmdBbFRtZVBDNlZiNWhUQVJqQkFBQVVOWVgxZEVDbjRRdVFlXzdJWmc2aFhUYTRsSWx3WEp4VVZsRFM4Z2YtdWlWLXhlczJZUQ?oc=5",
-    "pub": "Fri, 12 Jun 2026 23:42:10 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The Oil Market Could Be Weeks From a Breaking Point - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNU2pWZ1Q4eEhYaTJXOFRrUFNYRnVtMWtDTWtZOEYxVXNVZUZTV2Z4MklPOGg2eVdaZFUwa0FNRmtURXlienQ5b01YYl9DUnpnWS1SdWdLTkNOQzlmbEQ1S0dVNXNfVVh4T3JxalFRQ0pVRDhndWhKV0dqeFVXd2gyWGZGdFNnSFh2aS1ZeVNyVVRuWEkzR1ZoQkln0gGfAUFVX3lxTE41aWJ2VWxLeF9BLVhCRVdfZk80cGFBc1VNeWprOUtnNDJOTWR2Yk81ZFUydkNUY25uTG9HSXN4cnBTYmRBY0dUajFhSWZvbmg4V3hIMXZXRXh4RjBXRS1zcjRUU2RvSmJlYTkycmdBcTZORFBLellqNzNHTDZsMC1jZUt5MmtjbWFOam04bWNxbXBKZVRhcVlMOHJNWlFjYw?oc=5",
     "pub": "Fri, 12 Jun 2026 23:00:00 GMT",
@@ -1015,18 +1007,26 @@
     "geo": false
    },
    {
-    "title": "Gold Prices Slip Weekly Despite Friday Rebound as U.S.-Iran Peace Deal Hopes Grow - econotimes.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOTGc0X01yVE03d08wRUpUQmFLSGs1SHNEclBoVXhyQW54VnRsVW4wcEFxUHNNUmlNRlprTFducU1kVENqdmE3dHphd3hrTkxGTC0zS1c1QV9hSVlZMGZvN1FxUFQ2bmNTZzk1RkRfV0JyRXZtOFZsc3pkeS1tMkluMVJRTi1jalgweDhPZ0VMYkRDQmkzSmtBdjlqek5qZXQtcGN6VE5ZajRacTFJX3J5SGJCOA?oc=5",
-    "pub": "Fri, 12 Jun 2026 21:52:09 GMT",
-    "src": "econotimes.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Investors Sell Safe-Haven Gold for SpaceX, Shaking Prices - Seoul Economic Daily",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOT3NGaHhVUkRZTnJCRjBLQV9QdGM0aUF5czVOVlVJemt4aWJlSWpJSmpOVjVPS1Y4QmlFSW5YRUxkRktpN2pDNHVFTzhYYm5ZSWJISlM2SUYxYVFkdVVtR0VvWExfTzlpd0dPOC1mLWtTdkZnT1lFY25MMldpRTA3aFZRRW1KWFBnaDRfMTA3XzEyaDVOZEdyOG5FTng2Wms?oc=5",
     "pub": "Fri, 12 Jun 2026 20:52:05 GMT",
     "src": "Seoul Economic Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "USD/JPY Price Forecast: Yen Tests 160 Again at Multi-Decade Lows; Intervention vs a 300bp Rate Gap - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOcEZXMVZHSTMtVHhZUHFMc2VfNHdSRHkyRl9kZHpDd0NlVDNFWlFxXzNNMnVGbXFmRGlseHZPTnd6eU03eHQ0SlNIX3ptZmxaNV9yWDgyN0pIZFd6dllpX1M1azVjaVV0SFE1dnVCa2Z1Vl9PXzN0ekh3eFAyOGZnZm9B?oc=5",
+    "pub": "Fri, 12 Jun 2026 20:09:54 GMT",
+    "src": "TradingNEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Futures Fall on Expectations of U.S.-Iran Agreement - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNREZGMkpKRHhuOTlBU3VScTdDWGtRZWV4OHdyVkZZbTR0UElBTVF6RWktTXNHbzFmNkJpTzBCMGpIRUo3RVVlSzJMV3EzT3ZMV0l0YXpDS2JsMFJHR2NWd2VtUS16SFJBYnY0S3hPWEU0aXNWVHd5dzMySDZtWWs2LUlRR2JTTGRHcEtWS2J5SmROa2l6QXA3aDFKdFk5QkdQd0F4UE4zUXpORkdT?oc=5",
+    "pub": "Fri, 12 Jun 2026 19:36:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    }

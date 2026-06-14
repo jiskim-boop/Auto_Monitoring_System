@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-14T07:43:05+00:00",
+ "updated": "2026-06-14T07:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 205.19,
@@ -566,8 +566,16 @@
    "ok": true
   },
   "^VVIX": {
-   "ok": false,
-   "err": "Remote end closed connection without response"
+   "price": 93.82,
+   "chg": -6.77,
+   "chg5": -8.06,
+   "sma20": 92.9,
+   "sma50": 96.93,
+   "sma200": 102.71,
+   "high3m": 133.18,
+   "sess": "reg",
+   "mt": 1781295301,
+   "ok": true
   },
   "^SKEW": {
    "price": 142.6,
@@ -606,8 +614,16 @@
    "ok": true
   },
   "^IRX": {
-   "ok": false,
-   "err": "IncompleteRead(0 bytes read)"
+   "price": 3.62,
+   "chg": -0.14,
+   "chg5": -0.19,
+   "sma20": 3.6,
+   "sma50": 3.6,
+   "sma200": 3.59,
+   "high3m": 3.63,
+   "sess": "reg",
+   "mt": 1781290794,
+   "ok": true
   },
   "LQD": {
    "price": 109.01,
@@ -694,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64280.01,
-   "chg": -0.22,
-   "chg5": 4.28,
-   "sma20": 66863.61,
-   "sma50": 73891.4,
-   "sma200": 76412.29,
+   "price": 64371.02,
+   "chg": -0.08,
+   "chg5": 4.42,
+   "sma20": 66868.16,
+   "sma50": 73893.22,
+   "sma200": 76412.78,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781422958,
+   "mt": 1781423497,
    "ok": true
   },
   "USO": {
@@ -757,9 +773,9 @@
    "price": 51605.0,
    "chg": 1.43,
    "chg5": 1.31,
-   "sma20": 50643.75,
-   "sma50": 49689.06,
-   "sma200": 48994.7,
+   "sma20": 50662.65,
+   "sma50": 49696.62,
+   "sma200": 48997.75,
    "high3m": 51671.0,
    "sess": "24h",
    "mt": 1781297997,
@@ -769,9 +785,9 @@
    "price": 4238.8,
    "chg": 3.63,
    "chg5": -2.27,
-   "sma20": 4421.88,
-   "sma50": 4587.76,
-   "sma200": 4705.29,
+   "sma20": 4423.07,
+   "sma50": 4588.24,
+   "sma200": 4705.49,
    "high3m": 5001.0,
    "sess": "24h",
    "mt": 1781297996,
@@ -805,7 +821,7 @@
    "price": 109.52,
    "chg": -0.38,
    "chg5": 0.16,
-   "sma20": 109.56,
+   "sma20": 109.55,
    "sma50": 110.35,
    "sma200": 111.43,
    "high3m": 112.14,
@@ -845,6 +861,14 @@
     "geo": false
    },
    {
+    "title": "Mistral AI to raise $3.5B at $23B valuation - Lapaas Voice",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5nRTg2azZ1RUxCRmRkNW53UEJaTmlnLTdweUw5dWtRdFFPc2VPSjZZcVVLQVdNd01GZi1ldjNEeW80SHlxaUtIX3hkb2lscVZTOUtHN0JwS1ZPWDUzMnNaWWczWWxtckh0ZWpCTDlqeHowWlMyQ3c?oc=5",
+    "pub": "Sat, 13 Jun 2026 07:27:38 GMT",
+    "src": "Lapaas Voice",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Blue Owl Capital: 22% Discount To NAV Makes This One Of The Cheapest Stocks In The Market - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOOUgyeEVGVlM0WnVSZVBUeldZZ2ZBTkVnbC12X3g3YkRjck5KYlJBMTJWLTZNZU1FT0k3ZU9MN3B6VHNVTGR5Z3MwWVo1a3dlRlZ4RDk4MkwzNTNPQ0FuVjNfVFpIRVBrYU52TVdKUlR0dm1DdkphdVE3dXpzb3l3QWdwajhPMzQ2eGJGbXpRTFczZEdoTnExUk5td3hyZWNXV21zSEhMUlNxbkNVblFJd3JGbF9sSDQxY1BWc1RBTnBfa0RZaUNsb0V4MHpveW5vRU41eQ?oc=5",
     "pub": "Sat, 13 Jun 2026 05:33:40 GMT",
@@ -865,14 +889,6 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPM3ZkUks0SG1CQ2hLYWRaN2xfcjNjcVpGNDdGSWRpZ2VNdXZybnhkUkdOWFlZSm8zZGxfMGhTZmpJWjlwbHFYTHJXb25jNmV2UFpMcUV1QWZXTmtxaHItRTg4bGhEbkQzMnUtYURkamFjTXROZE1FUG1tTjUyLUZLREs3dnU1anZsZkdMWlZ5N0lEQS1oOS12WS0wenFSdFl1ai1hSUhvRkVFV0E3MkZUOWZLbHVUT19Kd0NmR0NvUmJBREFuMUNqbjEyUDJQd9IB0wFBVV95cUxQaUpxUlZwLVVCOVd4enpYME0xRGNONVRBLXJDbXF5OGxGMk5RQW8zRHFWVnJyUFFacExLdEdwTk5OeWJ1V0k4cmZ6Wi1Sb3VtUElIRTl2Q0tic2hkWjZNeFRSLUdlVURsQ183VnlUMGcxY3k3ZndTUzlpNXhKQUxvdTBlRWpGdjFOYUVrUjFmY25BbjBKRGdJNDFpY2FwaG1ydXVDSHo1b1BDbjh5YWZtMjJfYUxsQ0Q5NElzc2JucUpGSnFEYnJINDRabkNnMHdpWEZF?oc=5",
     "pub": "Fri, 12 Jun 2026 23:44:22 GMT",
     "src": "simplywall.st",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Plans 3.5 Billion Dollar Senior Notes Private Offering - HarianBasis.co",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9rRjcyY2hSdGhfakpEa3ZvM2ZGYnhHeWRlNnNqa25pRjM4UEVUZ2pLVGo0M0JZTTAyVFM2TVZWRUg0bFZVVVNSbEQ3dXMyZC1yZG5uSjBGODQtdk11c2RqR0E5QVZzV19zcjJYcFhPTnJqd2dSU1RJ?oc=5",
-    "pub": "Fri, 12 Jun 2026 23:31:24 GMT",
-    "src": "HarianBasis.co",
     "trig": false,
     "geo": false
    }
@@ -937,14 +953,6 @@
     "geo": false
    },
    {
-    "title": "Dollar slides after Trump says Iran deal reached, euro up after ECB rate hike - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYmJIdXpwbjR1YnFjOWZuTnFhMEVlTTZ2WVpVdk9KUVd0R1Vhb0FkRWJPMm1Xd2FwcmQ2STVBLVgzX0FEa3Y4ck4xclFGNVVmaHkxbGVsY2xJRXdRM3FlajJoSEJmQnp6bFdBSXhRXzNCc1lEdDNyZlVnZzZQVy1kSUp1cUVYb216YzVzRkdjdW5mbk5DS1d4NldTSHhHTkJxSTJfbWExS1ByMVJuVnVDLUhFUWxtUQ?oc=5",
-    "pub": "Sun, 14 Jun 2026 07:08:53 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Dangote refinery boosts Nigerian crude buying as Middle East conflict reshapes oil trade - Business Insider Africa",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWGhrZDJMOU5qMTQ5eC1Kb0JuaHZ5UFZiUjdFUW1OemxHOVFYR29FYmVrd01EOFJIX2NrZk5ZRVN4U2VNWGdXMlNtb21BU2ZYVkQ4Mm5xNERGNTVGLWtNMjk3V3p3VTlOTkhUQloycVlvdUFSaDJ5V09PbTZIQlhKTnI3M0xPSkJvZV96Wk1ocjBKY1NaUXM3blBaZHN1SDVESHhVTFZzbGZKRTB1TDREVU95cXN0QjNmSTVKUDRPNXA5RUpNeHRfOVV1REhjYWtlQ1E?oc=5",
     "pub": "Sun, 14 Jun 2026 06:15:31 GMT",
@@ -973,6 +981,14 @@
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPM2VPMmlGTXJhendTYjJ1RlA3NThFaDkteXdDNDlKWXVXb19XVGRiOThUeEFDY2dMWGJJTC1wdjlCZDZucTFBbGpsYkhlS1A2dUVVdDFCUlVjRnAyN0I4czZFY2lra2F0MFBSQWE3U2ltSXBrMmNlSDk0NW9sLS1ocDBHcG1RZkozUjV3bXlXdUpIZjZ0c05NS0pjdmlJbjV5WWZTbVRXTllLN3FzVk0ySmhKaU5nUDJwZU1PQ1VsSUJHME1UemVvaFRiSmJPNDFTbU1Pdm9PYzBZVDJMTF9rZDVFRXRWT1NlSnfSAeoBQVVfeXFMTzNlTzJpRk1yYXp3U2IydUZQNzU4RWg5LXl3QzQ5Sll1V29fV1RkYjk4VHhBQ2NnTFhiSUwtcHY5QmQ2bnExQWxqbGJIZUtQNnVFVXQxQlJVY0ZwMjdCOHM2RWNpa2thdDBQUkFhN1NpbUlwazJjZUg5NDVvbC0taHAwR3BtUWZKM1I1d215V3VKSGY2dHNOTUtKY3ZpSW41eVlmU21UV05ZSzdxc1ZNMkpoSmlOZ1AycGVNT0NVbElCRzBNVHplb2hUYkpiTzQxU21NT3ZvT2MwWVQyTExfa2Q1RUV0Vk9TZUp3?oc=5",
     "pub": "Sun, 14 Jun 2026 01:55:37 GMT",
     "src": "Malay Mail",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Between Trump And A Hard Place: Fed Chair Warsh To Lead First Rate Meeting - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNRVpVUnJtc19YODVmQ2R0SzZlWm9xNWNFbENuSkdDOE1nQl93bDdNV2dTZU9IdGJudUUycm5uT21wVzRUOVN6MzF6aWtRNmxWeVpobmtfbjJmd0gyYmRGdmNjVTJIeFVNUWZmQ3Vudl8wWG5lRnAtcmRIUk1aTTZNeDRuZFhfZmpZR0lhc1hsdTJjMnZ5RHNkSlk0Q0hGSDJvTlE1bjhMeFRFSWZWM1dBNl9rcU51aWVfbTRlX0lUbDhVMkc0dUhMZU40YW1RcFE?oc=5",
+    "pub": "Sun, 14 Jun 2026 01:35:00 GMT",
+    "src": "Barron's",
     "trig": false,
     "geo": false
    }
@@ -1019,10 +1035,10 @@
     "geo": false
    },
    {
-    "title": "Brent Crude Oil Prices Could Hit $130/Barrel This Summer As Hormuz Disruption Nears Breaking Point - foreignpolicyjournal.com",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOUmE5WHhaUDlabmlJZVdhcW9sQ2RwWEJ3N3Ffb2ZRQXJLY0JkOGVnY1otVXR5eXdZUlBMS19iRUlYdWY2QWxaWTFIaFVtRHpoUGNrYjh4cDF2cEhXME1kbHd6SDhzSHZRcE5wSmRBeGJ1UWg2Nk9JczMybGZJb2dNa01KV3hmX2NhQlQzYVA4WTVzNUJVUXFDNUtFXzF5dEROclprendEM0ZUOHB4N1JaYmFGOUM2ZElKSnJXV1V5cVViN3NVVDdFMUVrNHNfeHNjcFhjN0lobnUwRHB6clJB?oc=5",
-    "pub": "Sat, 13 Jun 2026 18:45:00 GMT",
-    "src": "foreignpolicyjournal.com",
+    "title": "Grade A Copper Futures (Sep 26 D10) Trade Ideas — LME:CA10U2026 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE16aXp2ZWNkQU01OFZ6Z1dvY0FSckJGOGtPZTQ1UW43ZjhrQkJURFRVYVFhazFHU0dPRU1kUDI0M0g2MENsbDNVWWFYUElfei0wMjY5Mzg4YkdnZ3ZGWU1uNDVvclBHclMzTkE2RU90bVVNbzZDaVBhVUJ3?oc=5",
+    "pub": "Sat, 13 Jun 2026 19:44:14 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1627,11 +1643,8 @@
   6
  ],
  "feed": {
-  "fail": 2,
-  "failed": [
-   "^VVIX",
-   "^IRX"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
@@ -1639,7 +1652,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-14T07:42:59+00:00",
+  "checked": "2026-06-14T07:51:50+00:00",
   "openai": {
    "found": false
   },

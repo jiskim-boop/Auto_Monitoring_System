@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-15T21:42:35+00:00",
+ "updated": "2026-06-15T21:51:58+00:00",
  "prices": {
   "NVDA": {
    "price": 212.45,
@@ -602,15 +602,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.68,
-   "chg": -0.07,
-   "chg5": -0.37,
+   "price": 99.65,
+   "chg": -0.1,
+   "chg5": -0.4,
    "sma20": 99.44,
    "sma50": 98.89,
    "sma200": 98.62,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781559100,
+   "mt": 1781559690,
    "ok": true
   },
   "^IRX": {
@@ -626,8 +626,16 @@
    "ok": true
   },
   "LQD": {
-   "ok": false,
-   "err": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "price": 108.99,
+   "chg": -0.02,
+   "chg5": 0.86,
+   "sma20": 108.54,
+   "sma50": 108.92,
+   "sma200": 109.72,
+   "high3m": 110.04,
+   "sess": "reg",
+   "mt": 1781553600,
+   "ok": true
   },
   "SPY": {
    "price": 754.83,
@@ -702,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66420.16,
-   "chg": 1.08,
-   "chg5": 8.09,
-   "sma20": 66464.85,
-   "sma50": 73675.26,
-   "sma200": 76301.22,
+   "price": 66406.57,
+   "chg": 1.06,
+   "chg5": 8.07,
+   "sma20": 66464.17,
+   "sma50": 73674.99,
+   "sma200": 76301.15,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781559731,
+   "mt": 1781560298,
    "ok": true
   },
   "USO": {
@@ -726,15 +734,15 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.35,
-   "chg": 0.25,
-   "chg5": 0.11,
+   "price": 160.29,
+   "chg": 0.21,
+   "chg5": 0.07,
    "sma20": 159.68,
    "sma50": 158.98,
    "sma200": 157.69,
    "high3m": 160.53,
    "sess": "reg",
-   "mt": 1781559736,
+   "mt": 1781560297,
    "ok": true
   },
   "ES=F": {
@@ -945,14 +953,6 @@
     "geo": true
    },
    {
-    "title": "U.S. and Iran Reach Framework for Peace - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1MUHZ0QlhoQWdnbmJYZHBITkxyWmlrNVFMMTBRUzY3T2FyODc3RDFfRXFtYVZoZUYtRzRaYUo2WlBrbWhLS0dEOWU0eWM4WUw1Q1JLWUlhU0s3MGVQTUl5ZG1rYVFXeUV3dXdCQV95eHo?oc=5",
-    "pub": "Mon, 15 Jun 2026 20:08:00 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "BTC Tops $65K as Geopolitical Tensions Ease Across Markets - CoinMarketCap",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFAzdlNxLXlEUU1pZlBSajhQZ1NBMTRTY1JOS2tDLTdURVdQaTBWRTBPVF80ZVpzcTA4aVVYQThCY1dpcC15SEZ6b2ctMjVoazZqaVNfdXExVnRnMldrc3VHODdiRTJCLTA2N19NU3pxUlF5dzdYekRlYjU0QlQ2RUNnZ01WSFBDU2lUQTYwQUo0TVdnS2txWFZUX3NhNXRhMXYyUFJ3?oc=5",
     "pub": "Mon, 15 Jun 2026 19:01:11 GMT",
@@ -969,18 +969,26 @@
     "geo": false
    },
    {
-    "title": "Markets await Kevin Warsh’s first Fed rate decision - MSN",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVl2YWhxNHN5NFcwOHpYQXZ1aHl3QURqckxMS2NjZGZMbDFrZjZ6SUdXeHpjTFhaUU9Gcy12Ym9QekFFaHJsYVdrY2JaWWFpUXp2ZWdGcVV3YWFwMWtJcUgwb0Y3QThLQ1ViWmo2M1dIOW9lbGM2MDdsVzJoX2pzTjlCdUtfWFBubEh1ZzBrSUo0M3Y4dnBqOE4wT2dzeFRNQ2E3Rkc4TmRFckE0cTdpMkZzR2FjZw?oc=5",
-    "pub": "Mon, 15 Jun 2026 18:12:09 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil prices won’t drop to pre-Iran war levels anytime soon: Eric Nuttall - BNN Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPcW9EYmlNa01GQ1NBQnp1WU9hMkprMFhVUV8xaUR2RVp1WGVBMjctcXVjMzJobnlBX1RQc1Q2SXpsVm5HTXNDcE1EWUZuX3dDOEU0RlF1YTZoR3oxbnBUYTQtUFRRR2Y5OUE2NVl1eEREWXYybWdPbUFMRjdmMFF3em1MQ1VBdkFxNXByZmJRMmRvc1lHdU5RQXo5TFhGRXU4bUZNVnlFdGdtakg3eU1XOUtOTkdBZkxvSm9TZ0dB?oc=5",
     "pub": "Mon, 15 Jun 2026 18:08:50 GMT",
     "src": "BNN Bloomberg",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Warsh’s Debut Fed Meeting Sets The Tone For Policy And Possible Hikes - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQWGZkaTJYcEVmX0J4TXBqVVRpdkY4WDlNUjZaSmYwdDNlTDlJcEg3Ni1FXzRXanFSem54OXpqQlpGMmNHNUxGbWxvZDhhbmUyYnl6TkxlcXl3QnNRUmpyeUR4QzZZYnBET3VYenNNWGZab1JiZTZwbk1FQ3RSeHBwb0hQYkFxMFNLYVpuWTdfWXByMUFKN2JZX0xGNnEwMGtqMmY1eXVrUXhmUzVwdEMzSVU5N2ZEUDQ4aVlj?oc=5",
+    "pub": "Mon, 15 Jun 2026 18:06:46 GMT",
+    "src": "Forbes",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Flagship yield focus: how the CIM Agency RMBS strategy anchors Chimera’s portfolio - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPZTFTYW5ybWV4bTRuZFl5a0dXcHc2ZDV2OU91ejRWVHFhT2swb0ljT05VOXJNUWRQMGdxaS0yUkZVZFlwREQxZWpiQm5YOUItVG12NHlyWXA4Q1c3X1R4ODNzeVpOaXFIRVFWMEdMTlJ1eE9xRGJBVzN0QktNc2dtN1VPeVBETWs5LVB4ZlFvbDJLR1hhMVlwV3Y4UVlGem5BbTBqNm1FNXl6VmM4TDNOcVhVLVh6MzdXbW1GUDB6T18wZzcxX0Q0elRR?oc=5",
+    "pub": "Mon, 15 Jun 2026 17:45:25 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
@@ -991,6 +999,14 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeEpBS3hYell3T214YXpEUUJXUmFJSXY5MVA4WFlHaG5XbjNLdnVsQVZLTHYwN3lGS0tMUGdGOG9YSTNZY3hjQklBX0t2NGx1VTRrQUpnTVhjX0NYbmZlSjk5RW13TFpYZXNUVVd6c3JUeVVsTjdta0dKa3l6TklwVjBWSVZHVDc0dnJLR3o5bldSbmlSeGR4bTNn?oc=5",
     "pub": "Mon, 15 Jun 2026 21:06:00 GMT",
     "src": "AP News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Wall Street rallies, Dow ends with record on US-Iran deal, oil price slide - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNajR4UzdaSXRuUjREVE5uZDBySzllNTdibzhobEdmbXJaMDNBX2ZmTFBnUUxzRy04WkZ3RUZCSEJkSURNcE5vUERPbGlBdVNwNDEzU3FwUWZmTnhreGRVeU9EeEpCTVZQT05fNk5scUZ5Z2RGY09idlFCRTY1T3NkQ2wySllpNXlSZmg4MUI3MUNIbGgzalRFUlNZV08tTktl?oc=5",
+    "pub": "Mon, 15 Jun 2026 20:41:13 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1023,14 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9FajZLTUhJTVV2RFQ1MjRobTlXYUNkU1JYcjB0cV9VSHU2U21ocGlkRWZuZk1IeU9mQ1VZcHFzNGFOYkk1WGZ0Mg?oc=5",
     "pub": "Mon, 15 Jun 2026 19:55:15 GMT",
     "src": "MEXC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NZD/USD Gains Ground as Improving Risk Sentiment Pressures the US Dollar - FXDailyReport.Com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORWQ4NHFfaEwxQzlwc0dLQjZmaEZXWGE4TkVMbXFwSzVWWGZwbGJwUDdtam5WUlhFb3Y5Mlc2UFJWRlNiOFNlNkwweDJWUkNkRm93RGk2YjVZNEUzN0FSZFU2aXlwc3hBdDBkcjdaVmFLazBjN3R3VlNXZU9wY19sd21tSlV2MzZpbEpQU1RTdXozRkZwa3czX0JZVWR3MVBG?oc=5",
-    "pub": "Mon, 15 Jun 2026 19:40:49 GMT",
-    "src": "FXDailyReport.Com",
     "trig": false,
     "geo": false
    }
@@ -1181,7 +1189,7 @@
    98.97,
    99.17,
    99.22,
-   99.68
+   99.65
   ],
   "bizd": [
    12.54,
@@ -1644,10 +1652,8 @@
   6
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "LQD"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
@@ -1655,7 +1661,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-15T21:42:30+00:00",
+  "checked": "2026-06-15T21:51:53+00:00",
   "openai": {
    "found": false
   },

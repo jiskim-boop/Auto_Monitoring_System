@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-16T05:23:15+00:00",
+ "updated": "2026-06-16T05:32:04+00:00",
  "prices": {
   "NVDA": {
    "price": 212.45,
@@ -14,8 +14,16 @@
    "ok": true
   },
   "AVGO": {
-   "ok": false,
-   "err": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "price": 393.94,
+   "chg": 2.17,
+   "chg5": 2.13,
+   "sma20": 418.73,
+   "sma50": 406.45,
+   "sma200": 361.66,
+   "high3m": 481.57,
+   "sess": "reg",
+   "mt": 1781553601,
+   "ok": true
   },
   "AMD": {
    "price": 547.26,
@@ -42,8 +50,16 @@
    "ok": true
   },
   "ASML": {
-   "ok": false,
-   "err": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "price": 1892.66,
+   "chg": 1.56,
+   "chg5": 8.21,
+   "sma20": 1676.57,
+   "sma50": 1548.59,
+   "sma200": 1414.09,
+   "high3m": 1899.48,
+   "sess": "reg",
+   "mt": 1781553601,
+   "ok": true
   },
   "MRVL": {
    "price": 308.88,
@@ -70,8 +86,16 @@
    "ok": true
   },
   "SNDK": {
-   "ok": false,
-   "err": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "price": 2107.86,
+   "chg": 12.03,
+   "chg5": 35.18,
+   "sma20": 1623.76,
+   "sma50": 1293.35,
+   "sma200": 832.51,
+   "high3m": 1980.1,
+   "sess": "reg",
+   "mt": 1781553601,
+   "ok": true
   },
   "STX": {
    "price": 1018.8,
@@ -98,27 +122,27 @@
    "ok": true
   },
   "005930.KS": {
-   "price": 342000.0,
-   "chg": 1.48,
-   "chg5": 6.21,
-   "sma20": 312875.0,
-   "sma50": 262514.0,
-   "sma200": 204268.75,
+   "price": 341500.0,
+   "chg": 1.34,
+   "chg5": 6.06,
+   "sma20": 312850.0,
+   "sma50": 262504.0,
+   "sma200": 204264.58,
    "high3m": 360500.0,
    "sess": "reg",
-   "mt": 1781586135,
+   "mt": 1781586669,
    "ok": true
   },
   "000660.KS": {
-   "price": 2374000.0,
-   "chg": 3.76,
-   "chg5": 7.18,
-   "sma20": 2115300.0,
-   "sma50": 1630660.0,
-   "sma200": 1163591.67,
-   "high3m": 2374000.0,
+   "price": 2378000.0,
+   "chg": 3.93,
+   "chg5": 7.36,
+   "sma20": 2115500.0,
+   "sma50": 1630740.0,
+   "sma200": 1163625.0,
+   "high3m": 2378000.0,
    "sess": "reg",
-   "mt": 1781586136,
+   "mt": 1781586670,
    "ok": true
   },
   "ANET": {
@@ -586,7 +610,7 @@
    "sma200": 98.62,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781586765,
+   "mt": 1781587296,
    "ok": true
   },
   "^IRX": {
@@ -650,27 +674,27 @@
    "ok": true
   },
   "^KS11": {
-   "price": 8719.71,
-   "chg": 7.34,
-   "chg5": 16.5,
-   "sma20": 8020.0,
-   "sma50": 7087.07,
-   "sma200": 5941.74,
+   "price": 8727.49,
+   "chg": 7.43,
+   "chg5": 16.61,
+   "sma20": 8020.39,
+   "sma50": 7087.22,
+   "sma200": 5941.8,
    "high3m": 8801.49,
    "sess": "reg",
-   "mt": 1781586170,
+   "mt": 1781586700,
    "ok": true
   },
   "^KQ11": {
-   "price": 1020.72,
-   "chg": -1.29,
-   "chg5": 5.47,
-   "sma20": 1052.16,
-   "sma50": 1113.94,
-   "sma200": 1082.27,
+   "price": 1018.6,
+   "chg": -1.49,
+   "chg5": 5.25,
+   "sma20": 1052.06,
+   "sma50": 1113.89,
+   "sma200": 1082.25,
    "high3m": 1226.18,
    "sess": "reg",
-   "mt": 1781586170,
+   "mt": 1781586700,
    "ok": true
   },
   "GLD": {
@@ -686,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66037.89,
-   "chg": 0.5,
-   "chg5": 7.47,
-   "sma20": 66445.74,
-   "sma50": 73667.61,
-   "sma200": 76243.53,
+   "price": 66005.44,
+   "chg": 0.45,
+   "chg5": 7.41,
+   "sma20": 66444.12,
+   "sma50": 73666.96,
+   "sma200": 76243.35,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781587374,
+   "mt": 1781587900,
    "ok": true
   },
   "USO": {
@@ -710,99 +734,99 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.27,
-   "chg": 0.2,
-   "chg5": 0.06,
+   "price": 160.25,
+   "chg": 0.18,
+   "chg5": 0.05,
    "sma20": 159.68,
-   "sma50": 158.98,
+   "sma50": 158.97,
    "sma200": 157.7,
    "high3m": 160.53,
    "sess": "reg",
-   "mt": 1781587377,
+   "mt": 1781587905,
    "ok": true
   },
   "ES=F": {
-   "price": 7623.5,
+   "price": 7623.25,
    "chg": 0.82,
    "chg5": 3.12,
-   "sma20": 7497.73,
-   "sma50": 7311.79,
+   "sma20": 7497.71,
+   "sma50": 7311.78,
    "sma200": 7029.69,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1781586774,
+   "mt": 1781587301,
    "ok": true
   },
   "NQ=F": {
-   "price": 30837.5,
+   "price": 30836.25,
    "chg": 0.91,
-   "chg5": 5.91,
-   "sma20": 29861.5,
-   "sma50": 28387.21,
-   "sma200": 26414.62,
-   "high3m": 30837.5,
+   "chg5": 5.9,
+   "sma20": 29861.44,
+   "sma50": 28387.19,
+   "sma200": 26414.61,
+   "high3m": 30836.25,
    "sess": "24h",
-   "mt": 1781586770,
+   "mt": 1781587301,
    "ok": true
   },
   "YM=F": {
-   "price": 52172.0,
-   "chg": 0.83,
-   "chg5": 2.48,
-   "sma20": 50870.2,
-   "sma50": 49894.66,
-   "sma200": 49046.37,
-   "high3m": 52172.0,
+   "price": 52179.0,
+   "chg": 0.84,
+   "chg5": 2.49,
+   "sma20": 50870.55,
+   "sma50": 49894.8,
+   "sma200": 49046.42,
+   "high3m": 52179.0,
    "sess": "24h",
-   "mt": 1781586763,
+   "mt": 1781587284,
    "ok": true
   },
   "GC=F": {
-   "price": 4346.9,
-   "chg": 0.44,
-   "chg5": 2.04,
-   "sma20": 4400.21,
-   "sma50": 4575.1,
-   "sma200": 4702.6,
+   "price": 4346.4,
+   "chg": 0.43,
+   "chg5": 2.03,
+   "sma20": 4400.19,
+   "sma50": 4575.09,
+   "sma200": 4702.59,
    "high3m": 4889.9,
    "sess": "24h",
-   "mt": 1781586778,
+   "mt": 1781587276,
    "ok": true
   },
   "CL=F": {
-   "price": 80.6,
-   "chg": -0.19,
-   "chg5": -8.62,
-   "sma20": 91.34,
+   "price": 80.5,
+   "chg": -0.31,
+   "chg5": -8.73,
+   "sma20": 91.33,
    "sma50": 95.49,
    "sma200": 81.28,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1781586750,
+   "mt": 1781587307,
    "ok": true
   },
   "HG=F": {
    "price": 6.48,
-   "chg": -0.05,
-   "chg5": 2.8,
+   "chg": -0.07,
+   "chg5": 2.78,
    "sma20": 6.37,
    "sma50": 6.19,
    "sma200": 5.92,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1781586780,
+   "mt": 1781587308,
    "ok": true
   },
   "ZN=F": {
-   "price": 109.64,
-   "chg": -0.24,
-   "chg5": 0.14,
+   "price": 109.66,
+   "chg": -0.23,
+   "chg5": 0.16,
    "sma20": 109.63,
    "sma50": 110.31,
    "sma200": 111.4,
    "high3m": 111.72,
    "sess": "24h",
-   "mt": 1781586570,
+   "mt": 1781587307,
    "ok": true
   },
   "EWY": {
@@ -823,7 +847,7 @@
    {
     "title": "Apollo, Neuberger, and Blue Owl anchor PE and credit continuation deals - Alternatives Watch",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRUs1U1R5V3RpYUdvUF9YSWpPSFlOajZ5SGhzQWlNVUdBWlM4TXl6ZFBiMTg1NTFpWGtmNHFkcUdCMTB0S3JvX1k2UVM1QkNZdnVMZ2w1SnhBbUZxdDRud0JEUWE4aWFFQ3RhT2NWRTVGeG0weS05SWJvRC1Nb1p4UHZrcEpDNGVpY1RmOXFCNDZnWURzRFE?oc=5",
-    "pub": "Tue, 16 Jun 2026 00:49:14 GMT",
+    "pub": "Tue, 16 Jun 2026 05:05:42 GMT",
     "src": "Alternatives Watch",
     "trig": false,
     "geo": false
@@ -945,14 +969,6 @@
     "geo": false
    },
    {
-    "title": "Middle East crisis may be over, but how long before Strait of Hormuz goes back to normal? - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQZ1R5T3dRemhjdnVfYjhVcl9aYVQ1OEFYSTJlZUU5dkhCMTJtMjgwRVppTkxENEJnRDNlek5mVWlta2ZWTS1zZGVDYUNxckdDYW5SNkliSG9xamhncFNEaHYxbDJHeVJCWVpMX1ppTU1VSDRESEtVM1NiZ2NpN1ZyUVp3S0pTanJCOU90bkhwX055OExwbmQ5WFczNmQ1a0tVNklUbHRRVWVoYzkyc2lycDhVM1p2c0NaaUdNbVA0cXg1Ry16cDhSc3BXOE1Tc1h1UGdXZE1FcU85empULUJaa2Vqd2RRZmtER3dKV2M4YjN4c0ctZFN0dDMybkN2Z3dYVWl2VFZ3cWtGNWp4dGfSAZMCQVVfeXFMTXJHX3ZZVE1GV1gtZGl4Z1dTZlNVUW52LTVXOWRLWXpsbmo1cDhhVTd2MHJreXN2TmlpbUZvMl9LSVJnUGxMdEhBbklXSTc4dWFDT1N6QTdTZUJnMmoyeDFrLVp1cUJDSEpJbXhHWVQ5NTFVSmpQcG1pZGZmalNuM0xuTzRZWkdTWDBDbTF3M0Q0NVoxWlpBTlBGX05kNE9qUEMycWNPQXFxd0liZlR3V0hvdk5OWmhRWHF2aUVDNEpjYU5qbkxYSEZuelJNOHBzcXZyOFpWLU5kejV6bU80d05BbjJvbFpTcXNxOFQwNmhrRlVRTS1mUzVQWm0ySEJtU1U2T3p3cWlpcUFHUzl6TUNnX0E?oc=5",
-    "pub": "Tue, 16 Jun 2026 04:19:00 GMT",
-    "src": "The Times of India",
-    "trig": false,
-    "geo": true
-   },
-   {
     "title": "Is the Iran war just an energy shock - or a turning point? - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPb0FRWE5MTXBpNWRsVmZGc0ZLUS1nbG56MXVZeEU2SlBqN2Z4VTVmNmlyRzF6TW96SlpfZkZXdFlycmFHalhaMy1OckdpajR2end5OXAzVUNzRTFaQURzQmw4ZWN5LVgweXVGRnB1ZndRREdOSl9NMFNJQjZoOXc5ZXliX0tpNENwVktxVU5kWTJRaTZTckhvMHc3ak1NTDF0OHNDZ3JrWEEyUkFQWm1LNmV4dFlLQS1Semc?oc=5",
     "pub": "Tue, 16 Jun 2026 03:54:39 GMT",
@@ -967,9 +983,33 @@
     "src": "FXStreet",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Japan raises interest rate to highest since 1995 - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5NZ0VBTEZYcW5BSjUyMlR3SVJkMXJ1RUhRdmhUYmJvRTVYVXZCblNZUVlJMHV0WUFPSUI4LVpmb0lOUjV2a3Fmemk2NlE4VjBrU3JqckJuT1k4dw?oc=5",
+    "pub": "Tue, 16 Jun 2026 03:21:49 GMT",
+    "src": "BBC",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold Price Today: Yellow Metal Slips As US-Iran Peace Deal Eases Safe-Haven Demand; Check City-Wise Rates - News18",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPWnNpaDdtTWJ1UVdsWG5tamRoLV9GVUhoT1d2MzB1Mkl3VXhqT25OMmdSQU1sT1FqVmFQMzk4RU9YNldXSURoWXhaR2hBdXJPS3lpNWJvTUM0VV9sZ283M3lqSzFrek1Ub3JFMTNpOUJwbFhCYVl3Y3dtVlpGY2IzcEJWaTVWZjJtazd4NFAwc2Zlb0k3TkdfN0JRcmo4b1VtdFc0UFljWlJkX294UFhqMjhmUXEwbndYazUzLVNKdnl0WWp5c0stbHRCanJycmpQSW5KZTZzVjM3RDQ0ckgwc2JsaU52bjNScXhiYlNyazJKaExDSEJpd05zNXlzcDRWMV9mbFlSVThGd9IBjwJBVV95cUxNVDlJQTNCelJyUlNia24tWjg5SHotZG9qdFJhU00yQlVlVTJ5dVFGUS1WWmJMbFZBLWk0R2o1bXZfSUx3cUxqMTRtYm01T1FBZTdlM1hLMU13R19JdlMwTWJvUnA1SEJYMkZpRGw0SDBleHZWZlF0TnVuX2VKMndKNlJuV252UGNoWDFheUE1MzloV19jZnBLUkE1dUZ3T3JxNF9JWV9FSS04R2x1V3JXdzlVekthMzVPYTAxSUI2ZzJXaGRBaHdzLWttVFRPRUUzNHcxem5FWURTUC1mZWpVZ2Fyb2NkU1QxQnQySDRXellZam1vaXJyMUlHWFl6SmdSQ1otWjlUdW00SVdYcnNZ?oc=5",
+    "pub": "Tue, 16 Jun 2026 05:21:48 GMT",
+    "src": "News18",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bank of Japan Rate Highest Since 1995: How Crypto Reacts? - Coin Gabbar",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVlBRRGxsRlAzanZlRnhPc0J6U2o2bUJhOXdyOTcxU3JMcnZvcEVwNXNwaDA2LWxyZ3plRkpmS25ESmdCU0VUX0ZZa3RUaXBKNjk5RE03MmozU016Sm9pdF9CLVlHeUllcGxyaWtuQ2ZkM1FNanhaaXJyc1I1b1dReGJ5cWhRNzFsTlRVMHM0SkpUNV9QdGdPWjR4RDhhbUM3cGJWOUJMQkxjZw?oc=5",
+    "pub": "Tue, 16 Jun 2026 05:15:00 GMT",
+    "src": "Coin Gabbar",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Will Gold Prices Fall After the US-Iran Deal Is Finalised? Here’s What Investors Are Watching; Check 18K, 22K, 24K Gold and 999 Silver Rates Across Major Indian Cities - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOQkdSTjNRaEZMYzFOREhncVd0WXBnLWIwbzdteFd5MnNGN1pyWjhIdjB6dlBBeFMtRVlwQ09Gdk4xVDZjV2pkYy1BaUFBR0QyV2NfZDBrbzYtaEM5ZnZCMXRNcWRzRjZ4eE00UmVqZk41VzFNUW9DdTN4Q3lBSHNpVW01cnIxY2ozV09hRGN4X2pFYjF1ZnpWLWpEdU1XWGZtaVZ3c0lIZG1tRGJKUU9YU0x1NGdwZVQyR19mTG9NanJPNTNPQW9PS1h3YUpVRE9PRWo5RVFhYzRfQ3pTTWgwa1oxeDgzbUZ4eU5Gd1gxZFA1bWxsM3ZxSDI3UnRBWWtBcHlmMWdUcTV1MTBUOGdodktmYXpwZGNudXQ3ZHFnUWFPeE1GUC1pN3JSMU5vd2VacFpuY0xCNThEMDZYNXQ2UWdFa0tKSW41MVdHM0FrSHI1cmVGc3Yw0gHcAkFVX3lxTE82RXRncGRJdWE5TlNhTEkyaE9pVkJiekFjUW90SHFOcU5NUUVidmRVSTBwanBQbHp6OXFmd2c3dGwzdFp1TUlVYjRaRzhqSHhzb0lDcGpuZ2hBWDA3b0RhZTU4NzB4RlBHRmx3TTJZTTdrdWFNRm1yVGJyUUg2QWg5ZWJyOG1kempXM19oZHhudzQ4ZmY4d09raERYWG5qUHktTkY5cHM4UTlLVnZrX3BZcnlxRUhhUXlvMkhHS3JhTkFSMzN1bFlxZ0ktWVE3TTBYek1vNGU2Y0d1TmNya0diQ0p1ZGZGOThWeUR1RHZyU1AzYVZWS1R3ek5VYjRUQWVrRUUxdUtSSjl4eVJFMjlobHBPZ09TVzhPbHh0MmpvOEVCQlQxUnBBSWZ4X202ZHZ1U3h2LU84VV8yUWhqQzJxRlJWaUE4M3JhS0EySkZDb0llOERpWTc3aXhwbw?oc=5",
@@ -999,22 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRmo3RFJiTXhtd1hqaU1XOWhGdHMtY0FzWFpabmozM3JCaEhBSWxDVUtLX1Bpc19nMWxZTUYwVzJmUjRiaU56MFB1bDY5X1o4dkMwYlhWS3A4RjVmVEZjX1YxNm44Ui1HUjNDMXFLamNSRXBFaFAzSUM3a2laMDdmSFRSX0FyMmtqdlRxQ29xUVN4Umwzb3RoYVE3NmVUSkV0dXlVcGFxVzNwdVppVUtfSFNCWkdaUEVTaEI4?oc=5",
     "pub": "Tue, 16 Jun 2026 04:56:55 GMT",
     "src": "The Motley Fool Australia",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Macquarie lifts copper forecasts, backs Sandfire as its top ASX pick - Market Index",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVjBib3d4bEpxWGR6R1N1cmlNVlhxUkh5SUxxYVNRRGhOZWdTQS1XazQ5bFBVQ29LSHdFcERuUTFpc0R1ckdVcTA1VUlBLXU4RnlqOHBsZDFBd2R0Q3FZcWdtV1hvajZJYl8wZ1RKN1pvWjNFZmdEVDFVZ182WEFjdTlCcmVsTENWSDVzaHJ0c0JYU1NLNXhmRkNlRGpkX1ZobjQ2aEFR?oc=5",
-    "pub": "Tue, 16 Jun 2026 04:30:00 GMT",
-    "src": "Market Index",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen Edges Higher After BOJ Decision - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQeHZSakI1a2FmZ3U4eU1Wb0lyZFhKUnJIanRTUGdSOUctRFpzanF6R0IxaFdWMzdoZ1FmWlBuTHRveDg1VlVwNzQwUmh4UFRhb05mQUNydHhhWVFTamJNY1lPOXdyVjc0b0VLNjlvZG9kSHMweHJlYUZDWXlJa2REbXJfZlhFUnVqRmNqNlRJdw?oc=5",
-    "pub": "Tue, 16 Jun 2026 04:00:00 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1254,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "중동 긴장 완화 속 글로벌 금리는 고착(미10년 4.47%, 일본 1%)되고 있으며, 저변동성(VIX 16) 환경에서 신용스프레드 양호(HY 2.71%)로 자금 흐름이 안정적이다. AI 인프라 capex 사이클이 GPU 패키징 병목(CoWoS 월 14만 웨이퍼)으로 진입하며 메모리 수급 긴장이 심화되고 있으나, 대규모 부채 조달(CoreWeave 35억 달러)로 투자 모멘텀은 유지 중이다.",
+  "text": "미10년물 4.47%와 저변동성(VIX 16) 속 안정적 자금 흐름이 지속되는 가운데, 지정학 긴장(이란)이 잠재 리스크로 작용하며 신용스프레드 2.71%는 여전히 건전 수준을 유지 중이다. AI 인프라 수요가 CoWoS·HBM 패키징 병목을 넘어 메모리 사이클을 재편하면서 capex 구조적 강세가 명확해졌으나, 고채무 자금조달(CoreWeave 35억 달러 대출)의 지속 가능성은 금리 경로에 따라 변수다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1264,11 +1288,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 0.5,
@@ -1637,20 +1660,16 @@
   6
  ],
  "feed": {
-  "fail": 3,
-  "failed": [
-   "AVGO",
-   "ASML",
-   "SNDK"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 62,
-  "n": 32
+  "pct50": 63,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-16T05:23:10+00:00",
+  "checked": "2026-06-16T05:31:57+00:00",
   "openai": {
    "found": false
   },

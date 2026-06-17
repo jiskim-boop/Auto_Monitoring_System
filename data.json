@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-17T10:42:00+00:00",
+ "updated": "2026-06-17T10:51:46+00:00",
  "prices": {
   "NVDA": {
    "price": 207.41,
@@ -459,11 +459,11 @@
   },
   "BIZD": {
    "price": 12.62,
-   "chg": 0.64,
-   "chg5": 0.24,
+   "chg": -0.71,
+   "chg5": 1.37,
    "sma20": 12.57,
    "sma50": 12.73,
-   "sma200": 13.21,
+   "sma200": 13.22,
    "high3m": 13.36,
    "sess": "reg",
    "mt": 1781640000,
@@ -542,15 +542,15 @@
    "ok": true
   },
   "^VIX": {
-   "price": 16.41,
-   "chg": 0.0,
-   "chg5": -26.15,
+   "price": 16.42,
+   "chg": 0.06,
+   "chg5": -26.1,
    "sma20": 17.32,
    "sma50": 17.81,
    "sma200": 19.11,
    "high3m": 31.05,
    "sess": "reg",
-   "mt": 1781691976,
+   "mt": 1781692576,
    "ok": true
   },
   "^VIX3M": {
@@ -566,8 +566,16 @@
    "ok": true
   },
   "^VVIX": {
-   "ok": false,
-   "err": "<urlopen error [Errno 104] Connection reset by peer>"
+   "price": 87.69,
+   "chg": -6.53,
+   "chg5": -5.1,
+   "sma20": 92.63,
+   "sma50": 96.38,
+   "sma200": 102.64,
+   "high3m": 133.18,
+   "sess": "reg",
+   "mt": 1781640901,
+   "ok": true
   },
   "^SKEW": {
    "price": 142.66,
@@ -602,7 +610,7 @@
    "sma200": 98.64,
    "high3m": 100.51,
    "sess": "reg",
-   "mt": 1781692291,
+   "mt": 1781692882,
    "ok": true
   },
   "^IRX": {
@@ -702,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64812.98,
-   "chg": -1.2,
-   "chg5": 2.0,
-   "sma20": 65584.94,
-   "sma50": 73206.57,
-   "sma200": 76060.89,
+   "price": 64804.51,
+   "chg": -1.21,
+   "chg5": 1.98,
+   "sma20": 65584.52,
+   "sma50": 73206.4,
+   "sma200": 76060.84,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781692897,
+   "mt": 1781693487,
    "ok": true
   },
   "USO": {
@@ -734,47 +742,47 @@
    "sma200": 157.74,
    "high3m": 160.53,
    "sess": "reg",
-   "mt": 1781692902,
+   "mt": 1781693491,
    "ok": true
   },
   "ES=F": {
-   "price": 7591.75,
-   "chg": 0.97,
-   "chg5": 4.3,
-   "sma20": 7503.16,
-   "sma50": 7328.39,
-   "sma200": 7035.18,
+   "price": 7592.5,
+   "chg": 0.98,
+   "chg5": 4.31,
+   "sma20": 7503.2,
+   "sma50": 7328.4,
+   "sma200": 7035.19,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1781692301,
+   "mt": 1781692883,
    "ok": true
   },
   "NQ=F": {
-   "price": 30460.5,
-   "chg": 1.55,
-   "chg5": 6.68,
-   "sma20": 29896.19,
-   "sma50": 28492.15,
-   "sma200": 26450.46,
+   "price": 30463.75,
+   "chg": 1.56,
+   "chg5": 6.69,
+   "sma20": 29896.35,
+   "sma50": 28492.22,
+   "sma200": 26450.48,
    "high3m": 30712.75,
    "sess": "24h",
-   "mt": 1781692303,
+   "mt": 1781692867,
    "ok": true
   },
   "YM=F": {
-   "price": 52451.0,
-   "chg": 0.78,
-   "chg5": 4.92,
-   "sma20": 51013.4,
-   "sma50": 50004.88,
-   "sma200": 49079.9,
-   "high3m": 52451.0,
+   "price": 52459.0,
+   "chg": 0.8,
+   "chg5": 4.94,
+   "sma20": 51013.8,
+   "sma50": 50005.04,
+   "sma200": 49079.97,
+   "high3m": 52459.0,
    "sess": "24h",
-   "mt": 1781692298,
+   "mt": 1781692859,
    "ok": true
   },
   "GC=F": {
-   "price": 4348.6,
+   "price": 4348.7,
    "chg": 0.41,
    "chg5": 5.85,
    "sma20": 4391.53,
@@ -782,31 +790,31 @@
    "sma200": 4702.82,
    "high3m": 4857.6,
    "sess": "24h",
-   "mt": 1781692303,
+   "mt": 1781692890,
    "ok": true
   },
   "CL=F": {
-   "price": 75.52,
-   "chg": -0.7,
-   "chg5": -16.12,
+   "price": 75.45,
+   "chg": -0.79,
+   "chg5": -16.19,
    "sma20": 89.5,
    "sma50": 94.65,
    "sma200": 81.41,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1781692305,
+   "mt": 1781692885,
    "ok": true
   },
   "HG=F": {
    "price": 6.53,
-   "chg": 0.67,
-   "chg5": 4.54,
+   "chg": 0.69,
+   "chg5": 4.56,
    "sma20": 6.39,
    "sma50": 6.21,
    "sma200": 5.93,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1781692276,
+   "mt": 1781692886,
    "ok": true
   },
   "ZN=F": {
@@ -818,7 +826,7 @@
    "sma200": 111.38,
    "high3m": 111.72,
    "sess": "24h",
-   "mt": 1781692299,
+   "mt": 1781692875,
    "ok": true
   },
   "EWY": {
@@ -837,9 +845,17 @@
  "news": {
   "credit": [
    {
+    "title": "Investors shift strategies in AI infrastructure financing as $50B funding gap looms - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4xVVE0VElWZUFPaFkxaElOdVc5Z0NYNHNnZ21KanBtYkFiSWJKUGNHY0xLeFZuNFQwMHl3aHEyRW5NQ0RBdW5kNFNfLTA5QWZDdXh1SEZ3ZlVSU2lrNUhOajJhbnAwYUtoSW9ET1Bn?oc=5",
+    "pub": "Wed, 17 Jun 2026 10:45:45 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Leerink’s AI Pipeline Focus and Jones AI Day Spotlight Might Change The Case For Investing In Absci (ABSI) - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNOC1rQ3hqRGF6UXRwN1h2Yzg1UjlzMFJuem9TeHJnbmFZaDI1WjVybzBCekVLYWNrNzRTV0ZRRmgwVndULXdGekJoUFZ5OFpZNFk4Q0NlVHdlYXktOTYzZDRFMHNxRThTVXhCUG1LdExQSWNWQlJHWldmTTFHcHlXUkdaTnR2UzlwdXJpY0JSb0FYNG5hclktTlA2VldvNktwSkUyUXJNVE9Ec3REdDNaVUNfMzVLdVVfbFpKZjFCdGZGTi1CUEpMQTJybTRYZHZkZkl6WHZJWC1IUdIB2gFBVV95cUxNOC1rQ3hqRGF6UXRwN1h2Yzg1UjlzMFJuem9TeHJnbmFZaDI1WjVybzBCekVLYWNrNzRTV0ZRRmgwVndULXdGekJoUFZ5OFpZNFk4Q0NlVHdlYXktOTYzZDRFMHNxRThTVXhCUG1LdExQSWNWQlJHWldmTTFHcHlXUkdaTnR2UzlwdXJpY0JSb0FYNG5hclktTlA2VldvNktwSkUyUXJNVE9Ec3REdDNaVUNfMzVLdVVfbFpKZjFCdGZGTi1CUEpMQTJybTRYZHZkZkl6WHZJWC1IUQ?oc=5",
-    "pub": "Wed, 17 Jun 2026 09:33:49 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPaU5DMFFuQklHVzc1YjJYek1FVzA2ODdtdm5KYUJMTF9LR2dnZ0x0X1NMOGdYN0F6WVJ4RVRrYWR6WkYzMng1YlJJT0ZnNzNKbGEwRTdNLTJCdTU3Q0xLRzZIaDZrbGdIY2JaSkxVREJ4RVVkNXRXU2M5Z2dVTXM3Vl9rc0N5dWQwYzRiMEt5cW5ORTJDc2hSWEc1X2pYbGxIV2R3RkhROUJUQ3RhWW11R3pERDQwVHVRZkFmc2dKS0dJZllxTHB5U1RScXBLV1dWaXcxctIB2gFBVV95cUxNOC1rQ3hqRGF6UXRwN1h2Yzg1UjlzMFJuem9TeHJnbmFZaDI1WjVybzBCekVLYWNrNzRTV0ZRRmgwVndULXdGekJoUFZ5OFpZNFk4Q0NlVHdlYXktOTYzZDRFMHNxRThTVXhCUG1LdExQSWNWQlJHWldmTTFHcHlXUkdaTnR2UzlwdXJpY0JSb0FYNG5hclktTlA2VldvNktwSkUyUXJNVE9Ec3REdDNaVUNfMzVLdVVfbFpKZjFCdGZGTi1CUEpMQTJybTRYZHZkZkl6WHZJWC1IUQ?oc=5",
+    "pub": "Wed, 17 Jun 2026 09:33:48 GMT",
     "src": "simplywall.st",
     "trig": false,
     "geo": false
@@ -850,6 +866,14 @@
     "pub": "Wed, 17 Jun 2026 07:20:30 GMT",
     "src": "Investment Week",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave just raised $3.5 billion. How to play the AI stock here. - MSN",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQT3lweURtTXRLOXk3RDNEd2I2RFgtblI3eWtOOUJQa2VBcTdhb0FDSVFpbFhta2RLbm1zcmR2X1p2RDZoVFdlZEtKNTlnWUNVbEs2ZTZOTGhyUng5UGZVaDNrNnZWamVqdWdLWjBDN3EtNmpxWGRhdHVjVnZ4dVlWYVdoc292Ry0xMGd6SGtrSmhOcDkzRHNYVDRvSUZtY1E4eEJLR2U2ZDZLNjJTb0RqNFo4SlJhM0VE?oc=5",
+    "pub": "Wed, 17 Jun 2026 07:12:36 GMT",
+    "src": "MSN",
+    "trig": false,
     "geo": false
    },
    {
@@ -865,22 +889,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOVzdybHBZZ2hWZURpZGFvWHI3aDRkdGRudGxlajVERWNfMzFkQ2FPa1ZmeTFSSEREMzRsVERMLWF3X2t4ZmhtOUd1VXJiSDRSaWROd2xYaHExczJYTlZyUndhYndmVGxCYjVUdnhhNXRmYnY4S0U5d0dvSDZrVlFoNkJkU2E3cXFlMUh1LWVzQVAyWjlGbnlFdjlybGV3bFR3UHBCdy1ndXo3dG5FUnNUNFhYOVpMSmMyb2JpUUNSSDk?oc=5",
     "pub": "Wed, 17 Jun 2026 06:07:46 GMT",
     "src": "Kalkine",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Scottish Mortgage Tightens Buyback Trigger as AGM Vote Looms Over Private Assets - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOOWg2SU4wbk5vNTJ4ZlFpVkt3Y1B1aFV5QzJ5NU4ybjhQTUZGRnppNDZSYjYxX3R4Sndnb21CenJPcXUtUW95UnJ0M2ZzXy1rZkVuanBycjdSdEhTTkdBaEFfYlVPaS0wWHBKVTZ6eVNCSHdCRFZNQ0RYc0JXSnR1djhkeWpCb0xya2Z2TXlobFJBMkNnLThzajdFZDF6Sy0tLUMxMlVscFdDRHRhR1piWEMzZXhsUVdTVDFZcTJtUmlxejlZQ1p1LWNmb20?oc=5",
-    "pub": "Wed, 17 Jun 2026 06:05:44 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave: Where Leverage Is The Conviction - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPWVpTZkN2cWZpY3U4ME9sNk1yYk9KT2tLYlVnWFpmMVpOR19tMS1NeDAyX3Vxd2otcDB4aVZwWnMxb2FjUjNnUkVNNFFaSFlLVmdpcmRNR29JRzM0YkFaZXhsWWdfdFloX3pBLUZRamQ5eXl4SkkySHhzNnJyd2JJejFqNldxZE5CSUpB?oc=5",
-    "pub": "Wed, 17 Jun 2026 03:56:57 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -911,6 +919,14 @@
     "geo": false
    },
    {
+    "title": "NVIDIA's B200 rental price is reportedly set to double, with new GPU procurement orders scheduled through Q2 next year. - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPNDZleEVHLXRHc2hUclFvbU5KbnVBSkxYNWJqREFzZENPdXBIZEk0cS1RdC1EZVpUZ3V2T0NfdV9MQWRULXhqWEVKRmVhU01hT1lZcTFRMHFDdG9MczRPN0w4QVlXeWNIdUFheWNQMm1GVWtvMzFXOU90VVpVNTlEYTU5dVB3ZGk5OUtacFJ1cUE5UjIxZy1QQ3Jpbzg?oc=5",
+    "pub": "Wed, 17 Jun 2026 08:33:38 GMT",
+    "src": "Moomoo",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Techies Without Borders Expands Global Healthcare Access With Accelerated Computing - NVIDIA",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9XYWFZMjlmc0pPallydTZlRG5QQ0V2UU5ORkVDN0M4bE9pUVZMWUJVMkkwM215RTdaX2FwLWlCX09kSHlvWG9SdWw0QTJ1RXMwLTdHN1JyMjlXS0hMTlYwMVBaZEREOE9mdTliVkQxaW5jc08w?oc=5",
     "pub": "Wed, 17 Jun 2026 08:12:30 GMT",
@@ -925,17 +941,17 @@
     "src": "odaily.news",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Prediction: This Could Be Nvidia's Stock Price By the End of 2027 - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNbTlva0lHYWhvTUZmQUFJakxwanhsemZiZGtVMHMxblJLc0k5bEhCLUI3djNlU3JKZnhhZEhUUlk2OHBrb0dSWnZJUGZoRjh4OE5VcXFLcXhmRzYxcmJpY3ZoZFlMZW5tb1NZMV9KSDVrNHIwT3VUYWc5MWhzR1RUcGx2Smp3NW5jd216VlpxRWF6UDFLbjZESkJBX2xubHlJbFAzSkxCUm83RVhmZVlPaTRQTUo0ZTIyRzE3eDZRQWRoa1pVNkR5NjJQM2dlNmp2V1ZfQVNnXzY0NEtCeWgwc3I5bTBWZw?oc=5",
-    "pub": "Wed, 17 Jun 2026 06:48:51 GMT",
-    "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Fed Rate Decision Today: What To Expect From Kevin Warsh’s First FOMC Meeting - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5Ia2JNQlJjMEZreW1jQUdnMnc5eXhjUHh4WUtuTnN4T1JQWnE3VkpUZ3Y2YUJnT0ZQY1hHQmlqV284UFBFWkJCcTN2SUdXczU1SXA0cnZvd0c?oc=5",
+    "pub": "Wed, 17 Jun 2026 10:48:40 GMT",
+    "src": "Cryptonews.net",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "UK Inflation Lower Than Expected Ahead of Bank of England Rate Decision - Morningstar",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOWN5dF9TMGE5b0ZNSE1HSDgyRGdsMy1LR09yUEZfXzFfLTlzZzdsYW5WS3lBZV9mUEZlSmsxLV9UNlNpVTRreTctbEZxY0ZieTYzRWRKY3ZTVERtak9WY1cwVTU0TGxHSXl1aVM0TXZzVGpQTUd0SG14MzNfTEVZbVRCclc0ZTJVbFJGRW8xczRmRWp3dFFtY3VlY1UwRGhLZXVSbURlN2VwNzFuZno4WHF3?oc=5",
@@ -973,14 +989,6 @@
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPR0gxeW1NLTRJMGFiVjFSR01nOEUtbDVjRl9aZm83Z2I2aW4talU1NUZQLXYzbGplT0g2VS1CRmNPYlR6VHRBNHVIVUI3T2MxNmlnNkQ0dHZjWENBdHpwbVhHUmNpZWxCUlNfNkdTbmJKbG82bDhHRXZrUlI1YXJXMURoVTgtNDhsOVB3U19iM0dGMnd6VnI4ek9nMzdLaTZJMVBuQWY1MGxiYTIyT0dVS1dlVXE?oc=5",
     "pub": "Wed, 17 Jun 2026 10:11:20 GMT",
     "src": "Latest news from Azerbaijan",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Market Minute: At the FOMC meeting, a rate hike to be determined later - The Real Economy Blog",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUmk2aTFpODUtaGtPTXo0OXFaN3FRdmJkazZ1WFh4cklvTVo2OWN3Rm53MEFhQzZnUTNTLTV4dDdRTmhia0IyaVJxZy1YWDcwTkNSZFgtZEVuNFh4SGJmbS1oaF96RUZSbWdPMVNldExzVERwdU9rUk5vRVJyX2FKN013T21lUHFpOS0zekd4Smtob3V5X2xRUzlKTGQ3Nkx6?oc=5",
-    "pub": "Wed, 17 Jun 2026 10:00:31 GMT",
-    "src": "The Real Economy Blog",
     "trig": false,
     "geo": false
    }
@@ -1151,7 +1159,7 @@
    17.44,
    16.29,
    16.06,
-   16.41
+   16.42
   ],
   "tnx": [
    4.22,
@@ -1211,7 +1219,7 @@
    0.816,
    0.813,
    0.827,
-   0.8
+   0.801
   ],
   "hyoas": [
    2.83,
@@ -1662,10 +1670,8 @@
   6
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "^VVIX"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
@@ -1673,7 +1679,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-17T10:41:55+00:00",
+  "checked": "2026-06-17T10:51:42+00:00",
   "openai": {
    "found": false
   },

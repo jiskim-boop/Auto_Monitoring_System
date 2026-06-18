@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-18T21:41:47+00:00",
+ "updated": "2026-06-18T21:51:47+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -602,15 +602,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.81,
-   "chg": 0.72,
-   "chg5": 0.96,
+   "price": 100.79,
+   "chg": 0.7,
+   "chg5": 0.93,
    "sma20": 99.59,
    "sma50": 98.92,
    "sma200": 98.66,
-   "high3m": 100.82,
+   "high3m": 100.79,
    "sess": "reg",
-   "mt": 1781818283,
+   "mt": 1781818883,
    "ok": true
   },
   "^IRX": {
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62792.4,
-   "chg": -4.28,
-   "chg5": -1.18,
-   "sma20": 65483.91,
-   "sma50": 73166.16,
-   "sma200": 75994.39,
+   "price": 62859.73,
+   "chg": -2.42,
+   "chg5": -2.42,
+   "sma20": 65039.57,
+   "sma50": 72940.35,
+   "sma200": 75931.5,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781818885,
+   "mt": 1781819488,
    "ok": true
   },
   "USO": {
@@ -734,15 +734,15 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.32,
-   "chg": 0.45,
-   "chg5": 0.75,
+   "price": 161.31,
+   "chg": 0.44,
+   "chg5": 0.73,
    "sma20": 159.95,
    "sma50": 159.09,
    "sma200": 157.82,
-   "high3m": 161.32,
+   "high3m": 161.3,
    "sess": "reg",
-   "mt": 1781818891,
+   "mt": 1781819488,
    "ok": true
   },
   "ES=F": {
@@ -895,14 +895,6 @@
   ],
   "fundamental": [
    {
-    "title": "Your old GPU isn't just slow — it has worse bottlenecks than you think - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxQYXg5eFhVc1JvdFJNWXZyR1VhTk5hSG9Yazhmem5DS3FlN0JKcnVXY3hNZFA0SjRSTkd0Z1J5U1BTMmVnSG9tUF8tUjNLNUd2Z3NUNGZaaHJudVladXMxMXR1eWdIUDhVX2kwU2VVRHczeXM1TEt1YWFVQzA5NjZEamI1c1U4MFZTbUkwNTFhUTR5aEVJM1hvTEZWYzlSUW52NE9TNVR3N0JTZmt2dWU0YS1oQWJZWUZ0VnUxQWdPRTk2bjFISHFzWVVKaWU4NFhJdUlnZ3ZtT2ZXX2h3YmFndkxmb0ZFXzB5SThITkd4UUUyd2VCRnMtSnhyNGszSmxKeTJQWUZDc1JkMkVBeEhVRkhlT2hZajlUcTc4Wl9KODlRUWZrcU9oSEJIdEdYUzRyLU5Dc0l1NXE0ajRxNVMxZ1ZDams5a0VXSm5LVi1Sb0FwelM0ektGNXdlcw?oc=5",
-    "pub": "Thu, 18 Jun 2026 18:08:35 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The cost of personal computers declined steadily for 40 years — until AI came along. Why getting your hands on a new device could cost you - moneywise.com",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Id1ZmZTdZdjIxUUVBUldTc3lMZkZDckw1RFlTWm5FZmt3Ymd1R2lKcURJRHV3ZE0ya1gxOVM2blZQWGdSbHdRdWwwbnVmZzNxYWtoTmhrQUo0SFlGeVd0WVl1NlNEc1FOWE1FV0NkSW1jclR0MGFjcHRIV1lqUQ?oc=5",
     "pub": "Thu, 18 Jun 2026 18:06:28 GMT",
@@ -940,6 +932,14 @@
     "pub": "Thu, 18 Jun 2026 15:22:08 GMT",
     "src": "Seeking Alpha",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA AI Robots Learn To Install Graphics Cards Without Human Help - HotHardware",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAxMlg5MUdKMl9QeXhWSkZCZ3hobkpSV2FLN2M4cnlsZ0h1T0JMRUwtai1LNU50cmpuZWxvaVFXSzJURDNhUnhHalM1emhsbm5yYlFWdk5XUlFlanFmc3hZLV9RSHh6S01BNUh4aDNDTHVzLUFJcE5n?oc=5",
+    "pub": "Thu, 18 Jun 2026 15:00:00 GMT",
+    "src": "HotHardware",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1189,7 +1189,7 @@
    99.19,
    98.91,
    100.07,
-   100.81
+   100.79
   ],
   "bizd": [
    12.94,
@@ -1690,7 +1690,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-18T21:41:43+00:00",
+  "checked": "2026-06-18T21:51:43+00:00",
   "openai": {
    "found": false
   },

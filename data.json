@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-19T22:21:59+00:00",
+ "updated": "2026-06-19T22:31:59+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
+   "chg": 7.33,
+   "chg5": 29.62,
+   "sma20": 373.38,
+   "sma50": 362.54,
+   "sma200": 357.69,
+   "high3m": 409.99,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
+   "chg": 0.05,
+   "chg5": 0.37,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.55,
+   "sma200": 40.56,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": 2.32,
-   "chg5": -5.09,
-   "sma20": 17.41,
-   "sma50": 17.74,
-   "sma200": 19.11,
+   "chg": -9.0,
+   "chg5": -13.68,
+   "sma20": 17.42,
+   "sma50": 17.8,
+   "sma200": 19.14,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": -6.45,
-   "chg5": -12.12,
-   "sma20": 92.05,
-   "sma50": 94.95,
-   "sma200": 102.44,
+   "chg": 0.84,
+   "chg5": -18.24,
+   "sma20": 92.45,
+   "sma50": 95.41,
+   "sma200": 102.55,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": -0.0,
-   "chg5": 1.1,
-   "sma20": 99.68,
-   "sma50": 98.96,
-   "sma200": 98.68,
+   "chg": 0.76,
+   "chg5": 0.99,
+   "sma20": 99.59,
+   "sma50": 98.92,
+   "sma200": 98.66,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -627,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
+   "chg": -0.05,
+   "chg5": 0.84,
+   "sma20": 108.7,
+   "sma50": 108.92,
+   "sma200": 109.68,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": 2.12,
-   "chg5": 16.6,
-   "sma20": 8230.01,
-   "sma50": 7294.89,
-   "sma200": 6063.01,
-   "high3m": 9063.84,
+   "chg": 3.73,
+   "chg5": 17.1,
+   "sma20": 8140.4,
+   "sma50": 7221.15,
+   "sma200": 6037.58,
+   "high3m": 8864.24,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -6.33,
-   "chg5": -3.04,
-   "sma20": 1043.93,
-   "sma50": 1112.15,
-   "sma200": 1085.5,
+   "chg": -5.11,
+   "chg5": 1.57,
+   "sma20": 1048.1,
+   "sma50": 1113.41,
+   "sma200": 1086.22,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63147.61,
-   "chg": 0.4,
-   "chg5": -1.98,
-   "sma20": 64977.87,
-   "sma50": 72915.67,
-   "sma200": 75872.35,
+   "price": 63195.7,
+   "chg": -1.9,
+   "chg5": -1.9,
+   "sma20": 65056.37,
+   "sma50": 72947.07,
+   "sma200": 75880.98,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781907693,
+   "mt": 1781908301,
    "ok": true
   },
   "USO": {
@@ -885,10 +885,10 @@
     "geo": false
    },
    {
-    "title": "What’s a Private-Credit Fund Worth When the Money Is Locked Up? - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX28tVmIxLWJYNWVIS3lTd2lFelJlaXlVNklPTzR4VHkzY3JGc2p2NWxqOUNqekptaF9qcDJXTUVUMF94b1YwRF8wdUQyNDhVUGw1bG01dGV4Mm5OX0pZOS1NNDlCdngyUVRMeWdudjRTVElTQkFFMS0xbjhnRGMtS25UTHFHbGQwZDVVdXc2WFpDNmVoYTVxMFJMeHRfcGpLMHQtMEFKQkU0RHVxYjVQUHpjR3VhS01pX3B6Q3pwVUowOEVsUWRfUjB6OGFPN1hkWnhqamdB?oc=5",
-    "pub": "Fri, 19 Jun 2026 15:32:57 GMT",
-    "src": "WSJ",
+    "title": "Inside the Bank of England’s ultimate private markets stress test - Pensions & Investments",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFM3aWtCOGhrd0NTckNUSlh6a3Z4dVA5YVVuTVlWNG45S2tSSG4yN1hTRHVNMDVEMFBfSEFteDllZHJMbTJwMWliMllJcnJ4b1cyMmRkR3dFUjRFVDdnSW1id3J1bjBtRVJwRm9WTFRyXzEyVTJmdEc2NGREcS1HVElMMklnbk53V1Q3QmRYY2g3b1VGbjhETlFxR1luanNieVlBaTVmZG9rZFpw?oc=5",
+    "pub": "Fri, 19 Jun 2026 15:18:08 GMT",
+    "src": "Pensions & Investments",
     "trig": false,
     "geo": false
    }
@@ -896,7 +896,7 @@
   "fundamental": [
    {
     "title": "SK Telecom shifts AI race to inference, builds full-stack data centers in Korea - CHOSUNBIZ - Chosunbiz",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5xbG5JejNfTGZRUVdPeHdlMThweVp3OVBFakJXaGdZdGl3Rk1FNlQ5bnEtR09hT1ZBcUlLLUEtU0pNaS1ZUWI1YXFzcWJISmFaM1lvNDdWcFVWVzk4T2Q4UjVuTE4zeEt3UGl5cW5wRVF1Ri1ERnpqeDVn0gGOAUFVX3lxTE9KU0JpbEhoNU9IUlc1TFZHT2lDNVZMM2U0eTNfZFdKcEM0V0pxd2g4S1Iza21RZTFxVnJ3MW1EWjkzS0pCVWdMamh2WEV2T2s5cXpIeXVFMWpsQlpydnlvbmh3LVY3dnRNTUdZLUs3d3g0Q1FHcGlia2hyX0huQXdVU2FzMU1COGRBRE5LZ3c?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSlNCaWxIaDVPSFJXNUxWR09pQzVWTDNlNHkzX2RXSnBDNFdKcXdoOEtSM2ttUWUxcVZydzFtRFo5M0tKQlVnTGpodlhFdk9rOXF6SHl1RTFqbEJacnZ5b25ody1WN3Z0TU1HWS1LN3d4NENRR3BpYmtocl9IbkF3VVNhczFNQjhkQUROS2d30gGOAUFVX3lxTE9KU0JpbEhoNU9IUlc1TFZHT2lDNVZMM2U0eTNfZFdKcEM0V0pxd2g4S1Iza21RZTFxVnJ3MW1EWjkzS0pCVWdMamh2WEV2T2s5cXpIeXVFMWpsQlpydnlvbmh3LVY3dnRNTUdZLUs3d3g0Q1FHcGlia2hyX0huQXdVU2FzMU1COGRBRE5LZ3c?oc=5",
     "pub": "Fri, 19 Jun 2026 21:01:00 GMT",
     "src": "Chosunbiz",
     "trig": false,
@@ -953,6 +953,14 @@
     "geo": false
    },
    {
+    "title": "Gas Prices Begin to Fall as Iran Agreement Eases Oil Market Fears, Offering Relief to American Drivers - stl.news",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1RVjFlRVNxSGNrYlhmZGtQbUotcWN5dTFHbkFVcGthZUtiNzJTeXVNb0JZbmQ0c3lWRi1VcHNXWjZkU2JqdWRieEJkRHNqcG9ENjFnR091T3lLSWNjTHlUZ1hGNzNaSmM2aHlwVnNNNGw4Si1CMTl1aVdpYnY?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:55:07 GMT",
+    "src": "stl.news",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "PGIM Global Total Return Fund Q1 2026 Commentary (PZTRX) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmpEU2h1WUZWMDlILUs4TUZJZTY4NWNpcmd2VUF1U0k5bzJuZHQzT1JQMV8zSTIwdEhISTM1ZUtxenY1dTB1UUd0dTNLSmo5a0IxQjVqdnVYX0t4MDFUZjh1Vk9JOTI4a1pWSlNvUkYwc2ZvdWhjUGUtaHJiOWEta1dWTHg1ZEdXVmpTRGgxcm56N3M?oc=5",
     "pub": "Fri, 19 Jun 2026 18:14:00 GMT",
@@ -961,11 +969,11 @@
     "geo": false
    },
    {
-    "title": "Israel and Hezbollah agree to halt fighting, officials say, as US-Iran talks hang in the balance - AP News",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDdtMWZ0SDdDbThCNEFjb2p2aE5QVFhETEFOT0RyUG9MaHlta2VNWWpjWE1sOFNEM3pYOE9NYkhRM2x3d0hnYzRQZ2F6eG5zSl9aZEpHd0xaRFR6LTFfNHFKdFBWVXdZSTNMMVZOY3RaZmVjRVZ0T0ZYVEZvWU8xZDBtdk5OMGpMaFhOR3RKU3MyUHFQU3NmMzluUFlFaDBD?oc=5",
-    "pub": "Fri, 19 Jun 2026 18:08:00 GMT",
-    "src": "AP News",
-    "trig": true,
+    "title": "Why is market falling today? Sensex slumps 800 points, Nifty below 23,950. IT selloff among 5 key triggers - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTkNYRXE2M1FwQVFBUGdkSHlsSWphcVBnOEc5dUFGdzlOS2tfb3pvbDVvUVV1aW5TU2RSbEJtTGRteVFSSFlCM2JTbFVPZTlvVTg4b3pWRFk1ZFdGRnMzVW9CNllFTWJnQ2NPdFNLZlVzZklsNTRqM0pkOURDblJlNVdpZ3FWTFdLN0ptZlpBT1JkNUphckliMXZSb1RxbFVDVlNTek5TNm9ZZlpTN2VaQXd6ei03TnJvVmpNOEhNSVRYQkxkblhtTzVKeWVSUDc1TkFka09lSGlrVFd0aE51ZmI1Ui1uT213X3IyQzB3RGh6QQ?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:42:52 GMT",
+    "src": "MSN",
+    "trig": false,
     "geo": false
    },
    {
@@ -980,14 +988,6 @@
     "title": "India’s Forex Reserves Decline USD 9.98 Bn to USD 671.62 Bn: RBI Data - HDFC Sky",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDNqQ2tXVWM1Y2VKaWtyNUpCLTl3NEpyc2h3dG5mdkhZX3pqcE43bjgtWWQtNF9GWlAzb2E1QkNBSUI1UE1pSmF4dmpzOWFST3NyUFYwNmozWFF1Nl83Q1FEdXIxY3hRVzJrU0FZeGl5NGFyRDhPSkxWdkp2NGhqNQ?oc=5",
     "pub": "Fri, 19 Jun 2026 12:44:12 GMT",
-    "src": "HDFC Sky",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "India’s Beauty Products Market Projected To Reach USD 39 Bn by 2030: Report - HDFC Sky",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTGpKcVFqNTNQU3RQekdnaGVWa2hMU0Z2b3gzMXlKOEZWSURMZWVXdko2Z2swcVgtYW9uUnFMWjA4NEZmNm95dy1VYU9YQjVXZ2pKX0xhZjhHQ0VtRXpNMFlja3lFc192VjFickxNVkRXenZPdEhTX2t2UzZReWt1WmdoYmZ6ekdN?oc=5",
-    "pub": "Fri, 19 Jun 2026 12:39:53 GMT",
     "src": "HDFC Sky",
     "trig": false,
     "geo": false
@@ -1011,6 +1011,14 @@
     "geo": false
    },
    {
+    "title": "Goldman Sachs Cuts Gold Price Target to $4,900 - HOKANEWS.COM",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPanhtYmJiVV9aUWozeTBKcFhiNWQxUFI1a3JFS1g3UV84dWdoYWJpSFBNNEJCUU9WUG9LclZvMm1DSU5oQkEtQW1NajNsNnVWSmFFYzRQOXFyZ254eFpDeG9JazZnTGpDVGxLSTFXamZ1alE1WUVZNko0OXFsTE9zV050dw?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:03:00 GMT",
+    "src": "HOKANEWS.COM",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Rise as U.S.-Iran Deal Faces Tests - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1naTJMNm1MS0ZsVzZtQ1hrTWJlNmV2WVpISVpNNThvLTdpaWtJcDV2ZU1Eb3pST3FVTERCcHBHVXl6b1UzaEFvMWNFSnZxV29pTmEtNXQ4WHdieFZERDhVSHE4VHpqUHRhMW5VRGpYbXA4eFlvUkhZ?oc=5",
     "pub": "Fri, 19 Jun 2026 17:15:17 GMT",
@@ -1030,14 +1038,6 @@
     "title": "Kuwait Says Oil Output Could Hit 2 Million Bpd Within a Week - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZlNEMDBDdGVDRHluMW5UMUM4YUFqSzladlVLMjliTXVQWHc2cWNZamo2UHpiTC1HZ29oVGJRbFM4R2drbDB5eTRIY2dKaWJrMWc3SEt6XzFJMU94RXFUY2VIejJMa0ExSTAyLUg2dnJLR2dhb2tGZzNQOTZqajVGT0dRaWI5Z2FFUnlpa1VzV0JlX3JUemg2VWtXRmVaSHllN21CRjVJM1NhUkRsNkplOEwwQUFUY2fSAbwBQVVfeXFMT095R1J3aXBYQnZ3eWFla3NaNEp3T2htdFFXYklqQjVJOUVRNWc3N2lhaE1EY0ttRDE1SDRldDdSQzNMQ1lCSXY4cXBHR1V0U29sWmx5SWh4a3djUzNGRTB1UXBqWGQtWnIwamowaFZRb0FkZkU5VFhMM2F1ZGNTZk5PX2hkdXU5bkN1U2lFQWoyQ2dsbmtZUGdETFl2aU9sVEFPUlZVVHo3UHBSMDdDYk16UU9aT3Rna1hFT2M?oc=5",
     "pub": "Fri, 19 Jun 2026 16:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why Oil Prices Are Falling Even as Tankers Remain Trapped - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMU9PajZvdm1UX08wcEpTNkNhOGZBWmtwdGstWldWeEpsX0tYTlZyZjE4a1h3NzFidVB6MlMxS0tTSTBXYWthbWI0dnF2V1NiOVU1ek1FS2NjcGh3SGs2QWxBckExLXBCenNldDhhYmNnekdUNVowbE9keVJ2amRXeTFQQlFISzg1UnZaMVZBZ1dmUEV5b3lXQkJ0S204dnZqR2fSAacBQVVfeXFMUHdWUWQtcTVRWHh3cjFGdi1DN1E2N0F5Y0RrSUp6UUdMcUtGR2xxa0R3czZNdlF2WUc4Y0ktS2JwdXZMRHlxOUEzN1VKQnQ3RS1mYXUtU0k1UnRBYVdVeXA4d2U0aUlmR0JPdHJsaVNtd1JwZjJhQTFYa2ZaMmF3bnZkbHB5aGlxNzM5ZTRaVGdYTUxMT01MdnZNcm5MTF8td2tqZ2h6ZU0?oc=5",
-    "pub": "Fri, 19 Jun 2026 16:10:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.9,
-   100.03,
-   98.65,
-   98.1,
-   98.51,
-   98.21,
-   97.84,
-   99.27,
-   99.32,
-   99.2,
-   100.05,
+   99.6,
+   99.65,
+   98.82,
+   98.22,
+   98.8,
+   98.08,
+   98.25,
+   98.88,
+   99.19,
+   98.91,
+   100.07,
    100.85
   ],
   "bizd": [
@@ -1699,7 +1699,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-19T22:21:54+00:00",
+  "checked": "2026-06-19T22:31:54+00:00",
   "openai": {
    "found": false
   },

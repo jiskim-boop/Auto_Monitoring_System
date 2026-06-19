@@ -1,845 +1,285 @@
 {
- "updated": "2026-06-19T00:21:48+00:00",
+ "updated": "2026-06-19T00:32:04+00:00",
  "prices": {
   "NVDA": {
-   "price": 210.69,
-   "chg": 2.95,
-   "chg5": 2.84,
-   "sma20": 211.79,
-   "sma50": 209.31,
-   "sma200": 193.9,
-   "high3m": 235.74,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
-   "price": 411.35,
-   "chg": 4.7,
-   "chg5": 6.69,
-   "sma20": 413.74,
-   "sma50": 411.67,
-   "sma200": 363.4,
-   "high3m": 481.57,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
-   "price": 537.37,
-   "chg": 4.86,
-   "chg5": 10.02,
-   "sma20": 501.86,
-   "sma50": 411.05,
-   "sma200": 293.52,
-   "high3m": 547.26,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TSM": {
-   "price": 462.12,
-   "chg": 6.94,
-   "chg5": 9.75,
-   "sma20": 426.96,
-   "sma50": 405.61,
-   "sma200": 366.06,
-   "high3m": 462.12,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ASML": {
-   "price": 1929.68,
-   "chg": 3.31,
-   "chg5": 1.59,
-   "sma20": 1732.55,
-   "sma50": 1579.99,
-   "sma200": 1434.04,
-   "high3m": 1929.68,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MRVL": {
-   "price": 310.58,
-   "chg": 7.27,
-   "chg5": 10.64,
-   "sma20": 257.6,
-   "sma50": 197.94,
-   "sma200": 131.08,
-   "high3m": 316.43,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MU": {
-   "price": 1133.99,
-   "chg": 8.7,
-   "chg5": 13.87,
-   "sma20": 965.58,
-   "sma50": 732.8,
-   "sma200": 521.72,
-   "high3m": 1133.99,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SNDK": {
-   "price": 2184.75,
-   "chg": 11.54,
-   "chg5": 16.12,
-   "sma20": 1760.08,
-   "sma50": 1399.86,
-   "sma200": 887.15,
-   "high3m": 2184.75,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "STX": {
-   "price": 1070.23,
-   "chg": 0.39,
-   "chg5": 23.29,
-   "sma20": 909.32,
-   "sma50": 760.78,
-   "sma200": 531.09,
-   "high3m": 1070.23,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "WDC": {
-   "price": 746.23,
-   "chg": 4.79,
-   "chg5": 40.99,
-   "sma20": 564.95,
-   "sma50": 479.98,
-   "sma200": 345.94,
-   "high3m": 746.23,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "005930.KS": {
-   "price": 371500.0,
-   "chg": 2.48,
-   "chg5": 15.19,
-   "sma20": 325325.0,
-   "sma50": 272990.0,
-   "sma200": 210628.75,
-   "high3m": 371500.0,
-   "sess": "reg",
-   "mt": 1781827254,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "000660.KS": {
-   "price": 2810000.0,
-   "chg": 4.66,
-   "chg5": 30.7,
-   "sma20": 2250000.0,
-   "sma50": 1739300.0,
-   "sma200": 1216850.0,
-   "high3m": 2810000.0,
-   "sess": "reg",
-   "mt": 1781827255,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ANET": {
-   "price": 169.67,
-   "chg": 2.87,
-   "chg5": 8.48,
-   "sma20": 161.1,
-   "sma50": 158.53,
-   "sma200": 143.52,
-   "high3m": 177.73,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ALAB": {
-   "price": 417.07,
-   "chg": 11.31,
-   "chg5": 13.5,
-   "sma20": 347.57,
-   "sma50": 258.03,
-   "sma200": 189.73,
-   "high3m": 417.07,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CRDO": {
-   "price": 271.83,
-   "chg": 9.02,
-   "chg5": 2.67,
-   "sma20": 231.84,
-   "sma50": 197.33,
-   "sma200": 153.1,
-   "high3m": 271.83,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "VRT": {
-   "price": 333.05,
-   "chg": 4.87,
-   "chg5": 11.81,
-   "sma20": 313.61,
-   "sma50": 321.54,
-   "sma200": 260.16,
-   "high3m": 376.23,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CIEN": {
-   "price": 428.22,
-   "chg": -1.95,
-   "chg5": -3.82,
-   "sma20": 516.86,
-   "sma50": 521.2,
-   "sma200": 394.01,
-   "high3m": 627.0,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "COHR": {
-   "price": 389.57,
-   "chg": 2.83,
-   "chg5": 7.15,
-   "sma20": 384.4,
-   "sma50": 357.24,
-   "sma200": 279.34,
-   "high3m": 426.89,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "VST": {
-   "price": 163.75,
-   "chg": 3.1,
-   "chg5": 11.87,
-   "sma20": 154.02,
-   "sma50": 154.16,
-   "sma200": 158.41,
-   "high3m": 166.58,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CEG": {
-   "price": 274.06,
-   "chg": 2.58,
-   "chg5": 11.09,
-   "sma20": 269.29,
-   "sma50": 284.44,
-   "sma200": 298.49,
-   "high3m": 322.78,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NRG": {
-   "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
-   "high3m": 170.96,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TLN": {
-   "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GEV": {
-   "price": 1109.73,
-   "chg": 5.8,
-   "chg5": 22.38,
-   "sma20": 980.71,
-   "sma50": 1022.31,
-   "sma200": 875.27,
-   "high3m": 1149.53,
-   "sess": "reg",
-   "mt": 1781812914,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "PWR": {
-   "price": 702.25,
-   "chg": -1.76,
-   "chg5": 2.77,
-   "sma20": 708.5,
-   "sma50": 691.73,
-   "sma200": 582.67,
-   "high3m": 785.24,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "FCX": {
-   "price": 68.68,
-   "chg": -0.55,
-   "chg5": 3.53,
-   "sma20": 66.47,
-   "sma50": 64.62,
-   "sma200": 61.58,
-   "high3m": 71.72,
-   "sess": "reg",
-   "mt": 1781813030,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SCCO": {
-   "price": 192.93,
-   "chg": 0.65,
-   "chg5": 5.91,
-   "sma20": 187.0,
-   "sma50": 183.17,
-   "sma200": 180.3,
-   "high3m": 201.37,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CPER": {
-   "price": 38.86,
-   "chg": 0.57,
-   "chg5": -0.21,
-   "sma20": 39.04,
-   "sma50": 38.05,
-   "sma200": 36.53,
-   "high3m": 40.6,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CCJ": {
-   "price": 106.49,
-   "chg": 0.78,
-   "chg5": 7.6,
-   "sma20": 107.19,
-   "sma50": 113.11,
-   "sma200": 112.37,
-   "high3m": 126.47,
-   "sess": "reg",
-   "mt": 1781812803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "URA": {
-   "price": 47.78,
-   "chg": 1.44,
-   "chg5": 6.58,
-   "sma20": 48.19,
-   "sma50": 51.64,
-   "sma200": 51.33,
-   "high3m": 58.26,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "UEC": {
-   "price": 12.01,
-   "chg": 5.17,
-   "chg5": 12.98,
-   "sma20": 12.58,
-   "sma50": 13.76,
-   "sma200": 14.47,
-   "high3m": 16.47,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MSFT": {
-   "price": 379.4,
-   "chg": 0.13,
-   "chg5": -2.8,
-   "sma20": 413.15,
-   "sma50": 412.98,
-   "sma200": 418.77,
-   "high3m": 460.52,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GOOGL": {
-   "price": 368.03,
-   "chg": 1.17,
-   "chg5": 2.87,
-   "sma20": 371.63,
-   "sma50": 367.37,
-   "sma200": 335.09,
-   "high3m": 402.62,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMZN": {
-   "price": 244.39,
-   "chg": 2.9,
-   "chg5": 1.19,
-   "sma20": 253.28,
-   "sma50": 257.1,
-   "sma200": 235.5,
-   "high3m": 274.99,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "META": {
-   "price": 577.22,
-   "chg": 1.7,
-   "chg5": 1.55,
-   "sma20": 599.48,
-   "sma50": 621.9,
-   "sma200": 632.28,
-   "high3m": 688.55,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ORCL": {
-   "price": 184.29,
-   "chg": 0.41,
-   "chg5": 0.1,
-   "sma20": 205.22,
-   "sma50": 188.39,
-   "sma200": 174.42,
-   "high3m": 248.15,
-   "sess": "reg",
-   "mt": 1781813041,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CRWV": {
-   "price": 117.95,
-   "chg": 2.38,
-   "chg5": 23.2,
-   "sma20": 107.63,
-   "sma50": 111.38,
-   "sma200": 95.98,
-   "high3m": 137.98,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NBIS": {
-   "price": 286.69,
-   "chg": 2.06,
-   "chg5": 29.0,
-   "sma20": 238.5,
-   "sma50": 197.19,
-   "sma200": 138.87,
-   "high3m": 286.69,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SPCX": {
-   "price": 185.0,
-   "chg": -3.56,
-   "chg5": null,
-   "sma20": 188.33,
-   "sma50": 188.33,
-   "sma200": 188.33,
-   "high3m": 211.39,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BIZD": {
-   "price": 12.36,
-   "chg": 0.16,
-   "chg5": -2.06,
-   "sma20": 12.56,
-   "sma50": 12.73,
-   "sma200": 13.18,
-   "high3m": 13.36,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ARCC": {
-   "price": 18.03,
-   "chg": -0.39,
-   "chg5": -5.45,
-   "sma20": 18.79,
-   "sma50": 18.81,
-   "sma200": 19.13,
-   "high3m": 19.35,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "OBDC": {
-   "price": 10.87,
-   "chg": 0.46,
-   "chg5": -2.69,
-   "sma20": 11.12,
-   "sma50": 11.27,
-   "sma200": 11.57,
-   "high3m": 11.91,
-   "sess": "reg",
-   "mt": 1781812802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "HYG": {
-   "price": 80.01,
-   "chg": 0.35,
-   "chg5": 0.09,
-   "sma20": 79.88,
-   "sma50": 80.03,
-   "sma200": 80.25,
-   "high3m": 80.65,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BKLN": {
-   "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
-   "sma50": 20.54,
-   "sma200": 20.62,
-   "high3m": 20.67,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SRLN": {
-   "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
-   "sma20": 40.4,
-   "sma50": 40.44,
-   "sma200": 40.55,
-   "high3m": 40.61,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "JBBB": {
-   "price": 47.4,
-   "chg": -0.13,
-   "chg5": -0.0,
-   "sma20": 47.42,
-   "sma50": 47.3,
-   "sma200": 47.4,
-   "high3m": 47.75,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VIX": {
-   "price": 16.4,
-   "chg": -11.06,
-   "chg5": -15.64,
-   "sma20": 17.4,
-   "sma50": 17.79,
-   "sma200": 19.11,
-   "high3m": 31.05,
-   "sess": "reg",
-   "mt": 1781813701,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VIX3M": {
-   "price": 19.57,
-   "chg": -4.58,
-   "chg5": -5.87,
-   "sma20": 20.31,
-   "sma50": 20.91,
-   "sma200": 21.38,
-   "high3m": 29.27,
-   "sess": "reg",
-   "mt": 1781813701,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VVIX": {
-   "price": 88.43,
-   "chg": -6.45,
-   "chg5": -12.12,
-   "sma20": 92.05,
-   "sma50": 94.95,
-   "sma200": 102.44,
-   "high3m": 133.18,
-   "sess": "reg",
-   "mt": 1781813701,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^SKEW": {
-   "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
-   "high3m": 156.93,
-   "sess": "reg",
-   "mt": 1781816418,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^MOVE": {
-   "price": 65.39,
-   "chg": -5.73,
-   "chg5": -15.06,
-   "sma20": 74.79,
-   "sma50": 73.16,
-   "sma200": 72.11,
-   "high3m": 115.02,
-   "sess": "reg",
-   "mt": 1781814615,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "DX-Y.NYB": {
-   "price": 100.79,
-   "chg": 0.7,
-   "chg5": 0.94,
-   "sma20": 99.59,
-   "sma50": 98.92,
-   "sma200": 98.66,
-   "high3m": 100.79,
-   "sess": "reg",
-   "mt": 1781827883,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^IRX": {
-   "price": 3.66,
-   "chg": 1.11,
-   "chg5": 0.83,
-   "sma20": 3.61,
-   "sma50": 3.6,
-   "sma200": 3.59,
-   "high3m": 3.66,
-   "sess": "reg",
-   "mt": 1781809193,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "LQD": {
-   "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
-   "high3m": 110.04,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SPY": {
-   "price": 746.74,
-   "chg": 0.78,
-   "chg5": 1.22,
-   "sma20": 747.08,
-   "sma50": 729.66,
-   "sma200": 699.62,
-   "high3m": 759.57,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "QQQ": {
-   "price": 740.62,
-   "chg": 2.51,
-   "chg5": 3.28,
-   "sma20": 726.88,
-   "sma50": 693.18,
-   "sma200": 642.18,
-   "high3m": 746.16,
-   "sess": "reg",
-   "mt": 1781812801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^TNX": {
-   "price": 4.45,
-   "chg": -0.8,
-   "chg5": -2.22,
-   "sma20": 4.52,
-   "sma50": 4.42,
-   "sma200": 4.29,
-   "high3m": 4.67,
-   "sess": "reg",
-   "mt": 1781809193,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^KS11": {
-   "price": 9302.68,
-   "chg": 4.95,
-   "chg5": 19.82,
-   "sma20": 8241.95,
-   "sma50": 7299.66,
-   "sma200": 6065.01,
-   "high3m": 9302.68,
-   "sess": "reg",
-   "mt": 1781827280,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^KQ11": {
-   "price": 997.27,
-   "chg": -3.36,
-   "chg5": 0.03,
-   "sma20": 1043.75,
-   "sma50": 1112.08,
-   "sma200": 1085.47,
-   "high3m": 1226.18,
-   "sess": "reg",
-   "mt": 1781827290,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GLD": {
-   "price": 387.12,
-   "chg": -0.38,
-   "chg5": 0.21,
-   "sma20": 401.36,
-   "sma50": 418.31,
-   "sma200": 432.57,
-   "high3m": 445.93,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BTC-USD": {
-   "price": 62832.18,
-   "chg": -2.46,
-   "chg5": -2.47,
-   "sma20": 65038.19,
-   "sma50": 72939.8,
-   "sma200": 75878.98,
-   "high3m": 82138.93,
-   "sess": "reg",
-   "mt": 1781828491,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "USO": {
-   "price": 114.87,
-   "chg": 0.56,
-   "chg5": -10.84,
-   "sma20": 130.78,
-   "sma50": 134.04,
-   "sma200": 107.48,
-   "high3m": 152.96,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "JPY=X": {
-   "price": 161.24,
-   "chg": 0.4,
-   "chg5": 0.69,
-   "sma20": 159.94,
-   "sma50": 159.09,
-   "sma200": 157.83,
-   "high3m": 161.24,
-   "sess": "reg",
-   "mt": 1781828493,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ES=F": {
-   "price": 7558.5,
-   "chg": 1.8,
-   "chg5": 2.2,
-   "sma20": 7500.14,
-   "sma50": 7339.74,
-   "sma200": 7040.5,
-   "high3m": 7623.75,
-   "sess": "24h",
-   "mt": 1781827893,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NQ=F": {
-   "price": 30652.0,
-   "chg": 3.25,
-   "chg5": 4.03,
-   "sma20": 29920.61,
-   "sma50": 28588.24,
-   "sma200": 26492.14,
-   "high3m": 30712.75,
-   "sess": "24h",
-   "mt": 1781827892,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "YM=F": {
-   "price": 51973.0,
-   "chg": 0.88,
-   "chg5": 2.16,
-   "sma20": 51060.75,
-   "sma50": 50062.82,
-   "sma200": 49104.97,
-   "high3m": 52044.0,
-   "sess": "24h",
-   "mt": 1781827891,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GC=F": {
-   "price": 4204.6,
-   "chg": -3.54,
-   "chg5": 2.79,
-   "sma20": 4375.71,
-   "sma50": 4557.91,
-   "sma200": 4701.76,
-   "high3m": 4857.6,
-   "sess": "24h",
-   "mt": 1781827882,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CL=F": {
-   "price": 75.12,
-   "chg": -2.17,
-   "chg5": -14.35,
-   "sma20": 88.41,
-   "sma50": 94.29,
-   "sma200": 81.57,
-   "high3m": 112.95,
-   "sess": "24h",
-   "mt": 1781827888,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "HG=F": {
-   "price": 6.37,
-   "chg": -1.72,
-   "chg5": 1.77,
-   "sma20": 6.39,
-   "sma50": 6.22,
-   "sma200": 5.94,
-   "high3m": 6.65,
-   "sess": "24h",
-   "mt": 1781827818,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ZN=F": {
-   "price": 109.59,
-   "chg": -0.2,
-   "chg5": -0.31,
-   "sma20": 109.72,
-   "sma50": 110.27,
-   "sma200": 111.36,
-   "high3m": 111.72,
-   "sess": "24h",
-   "mt": 1781827868,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "EWY": {
-   "price": 219.2,
-   "chg": 6.89,
-   "chg5": 10.18,
-   "sma20": 199.46,
-   "sma50": 177.82,
-   "sma200": 144.58,
-   "high3m": 219.2,
-   "sess": "reg",
-   "mt": 1781812800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   }
  },
  "news": {
@@ -995,6 +435,14 @@
   ],
   "flow": [
    {
+    "title": "BoJ's Deputy governor warns yen moves now carry bigger inflation punch than in the past - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRHFwQzFPY1BRWUdrVkRYdU13T29jb1daa1VCR0pkTmxRVm1hdzBJaHJkT3k1c2ljd3dtZWp3NERzd0ZpT2pvSk9PeFRPelU0QS1ET2Q3dWpETHE2TldfX3ZPN2JOTFBJQnBmT20wX2dwMjM5S1h6cVhtN25qRG5nbzdvNmEzVWxCQzNlT0JGVmpRSGpLVlZfUEU2QkROU2wySUJLWWloeHZESGd5VU9lUWxtRzE2bVBTVHU1WWg1UDBILW9nQlk2OVhIbVg2Ulk?oc=5",
+    "pub": "Fri, 19 Jun 2026 00:25:01 GMT",
+    "src": "investingLive",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "GBP/JPY Reclaims 214 on Stronger UK Pay Data as BoE Decision and Yen Risks Loom - VT Markets",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOc2hja2JHNDJhaVBNUGtRTDZXbXJXVHlJbHI0NnhNeFhiU1hoZGt2b1RqSV9lV3VhWXBtRUVsOVNaOEo2N3AxWHc5YURSWElqR1g0N0hGYl9CM1NNVXViaV9famJyRGZ3SHhsUUpYcHRGY2trMHRHZUQ1NEkzcXZ1ZTktMWhld01ILWVnbURlQlQxNGJVWUJBRDNVRWUxRHprckY5MHF3UVM2NzBvUDZQd29EaWFNaGVnLWNHR2xPdw?oc=5",
     "pub": "Thu, 18 Jun 2026 21:00:00 GMT",
@@ -1031,14 +479,6 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPbVZXazRLSndBdFZMd3IwOGpqMDh3ampmQWFaM253cEhOTEtYWlF5aGozQjZWdFUwV0dHS2NLd2lLbGFDTXhDZXc1WDNGcVNhcGtFZjJ3RXptWklvLUp5Tl9pR3VaWXg5aXhzOEpYNWZZV1pob202M0VfZ0lRaS1icjMxd1M5ZXZYaS1DUFhwbjdWMWtFa0k4Y1dIWmJzakNtRDlZcUZ3bHVvQmtMNEJXYXBNQzNCYWpDZFNsRGpR?oc=5",
     "pub": "Thu, 18 Jun 2026 18:54:00 GMT",
     "src": "KITCO",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Fall After Trump Signs Iran Peace Deal: Trade on Kalshi Crude Oil Markets - Federal News Network",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMG55X0U2UkV5Z0w1NGpTVU02aDBsbGlLZU5oUGZ3WTVkRUgybmtEOTNfd2N6Rmk0SUF1SkdFc2tzcFFOaXVFMjZiWjEwZVNBZUlTbzJYX09hMmtJVDJFYXdha1NMdHJQbkxOWm56cTVnb1B5SFFYNDVjUFlZOEEwY0ZzakgwUGNoWDZLeGVoT1JUWHV1NUM2dGpqZjNDb3oxSEw3NVE3SU4zbDFXNVk4cnVlZUFHVGJJREZpMXAzSTVMUUVh?oc=5",
-    "pub": "Thu, 18 Jun 2026 18:41:09 GMT",
-    "src": "Federal News Network",
     "trig": false,
     "geo": false
    }
@@ -1146,81 +586,11 @@
   "cape_manual": false
  },
  "charts": {
-  "vix": [
-   25.09,
-   25.33,
-   24.54,
-   19.49,
-   17.94,
-   19.31,
-   16.89,
-   17.08,
-   17.26,
-   16.76,
-   15.74,
-   15.4,
-   16.4
-  ],
-  "tnx": [
-   4.26,
-   4.39,
-   4.31,
-   4.29,
-   4.28,
-   4.29,
-   4.35,
-   4.42,
-   4.46,
-   4.62,
-   4.49,
-   4.45,
-   4.45
-  ],
-  "dxy": [
-   100.09,
-   99.6,
-   99.65,
-   98.82,
-   98.22,
-   98.8,
-   98.08,
-   98.25,
-   98.88,
-   99.19,
-   98.91,
-   100.07,
-   100.79
-  ],
-  "bizd": [
-   12.94,
-   12.81,
-   12.11,
-   12.3,
-   12.96,
-   12.71,
-   13.15,
-   13.03,
-   12.63,
-   12.52,
-   12.63,
-   12.49,
-   12.36
-  ],
-  "vixts": [
-   0.982,
-   0.988,
-   0.987,
-   0.894,
-   0.863,
-   0.909,
-   0.797,
-   0.82,
-   0.82,
-   0.794,
-   0.791,
-   0.79,
-   0.838
-  ],
+  "vix": null,
+  "tnx": null,
+  "dxy": null,
+  "bizd": null,
+  "vixts": null,
   "hyoas": [
    2.79,
    2.65,
@@ -1278,33 +648,28 @@
   ]
  },
  "summary": {
-  "text": "이란 핵협상으로 호르무즈 해협이 재개되며 유가 급락했고, VIX 16·HY스프레드 2.63%의 낮은 변동성 속 신용 완화 신호가 지배적이다. AI 인프라 투자 붐이 메모리칩 수급 압박과 기기 가격 상승을 동시에 초래하면서, CLO 리파이낸싱과 데이터센터 자산유동화 수요가 급증하고 있다.",
+  "text": "호르무즈 해협 재개통으로 지정학 리스크 완화되며 유동성 개선 신호를 보이나, 실러CAPE 42 고점과 HY스프레드 2.63%는 밸류에이션 과열 위험을 시사한다. AI 인프라 투자 확대로 GPU/HBM 수급난이 심화되면서 기기 가격 상승 압력이 지속되고 있으며, 데이터센터 건설 붐이 자산담보증권 수요를 견인하는 중이다.",
   "by": "claude",
   "_fp": {
-   "vix": 16,
-   "tnx": 4.4,
-   "dxy": 101.0,
-   "spy": 1.0,
+   "vix": null,
+   "tnx": null,
+   "dxy": null,
+   "spy": null,
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
    "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
-  "score": 1.0,
-  "axisCount": 1,
-  "st": "a",
-  "hits": [
-   "사모대출 주가 급약세"
-  ],
-  "early": [
-   "숨은 헤지"
-  ],
-  "strong": 1,
+  "score": 0.0,
+  "axisCount": 0,
+  "st": "g",
+  "hits": [],
+  "early": [],
+  "strong": 0,
   "risk": false
  },
  "history": [
@@ -1419,12 +784,10 @@
   },
   {
    "d": "2026-06-19",
-   "score": 1.0,
-   "st": "a",
-   "axis": 1,
-   "hits": [
-    "사모대출 주가 급약세"
-   ]
+   "score": 0.0,
+   "st": "g",
+   "axis": 0,
+   "hits": []
   }
  ],
  "events": [
@@ -1690,21 +1053,35 @@
   7
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 70,
+  "failed": [
+   "NVDA",
+   "AVGO",
+   "AMD",
+   "TSM",
+   "ASML",
+   "MRVL",
+   "MU",
+   "SNDK",
+   "STX",
+   "WDC",
+   "005930.KS",
+   "000660.KS"
+  ],
+  "core_dead": [
+   "^VIX",
+   "SPY",
+   "QQQ",
+   "HYG"
+  ]
  },
  "breadth": {
-  "pct50": 69,
-  "n": 35
+  "pct50": null,
+  "n": 0
  },
  "ipo_watch": {
-  "checked": "2026-06-19T00:21:44+00:00",
-  "openai": {
-   "found": false
-  },
-  "anthropic": {
-   "found": false
-  }
+  "checked": "2026-06-19T00:31:58+00:00",
+  "openai": null,
+  "anthropic": null
  }
 }

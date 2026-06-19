@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-19T23:02:09+00:00",
+ "updated": "2026-06-19T23:11:47+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
+   "chg": 0.05,
+   "chg5": 0.37,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.55,
+   "sma200": 40.56,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -542,15 +542,15 @@
    "ok": true
   },
   "^VIX": {
-   "price": 16.78,
-   "chg": 2.32,
-   "chg5": -5.09,
-   "sma20": 17.41,
-   "sma50": 17.74,
-   "sma200": 19.11,
+   "price": 16.4,
+   "chg": -11.06,
+   "chg5": -15.64,
+   "sma20": 17.4,
+   "sma50": 17.79,
+   "sma200": 19.13,
    "high3m": 31.05,
    "sess": "reg",
-   "mt": 1781883001,
+   "mt": 1781813700,
    "ok": true
   },
   "^VIX3M": {
@@ -574,16 +574,16 @@
    "sma200": 102.44,
    "high3m": 133.18,
    "sess": "reg",
-   "mt": 1781813701,
+   "mt": 1781812800,
    "ok": true
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63267.57,
-   "chg": 0.59,
-   "chg5": -1.79,
-   "sma20": 64983.87,
-   "sma50": 72918.07,
-   "sma200": 75873.01,
+   "price": 63213.73,
+   "chg": 0.5,
+   "chg5": -1.87,
+   "sma20": 64981.17,
+   "sma50": 72916.99,
+   "sma200": 75872.71,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781910049,
+   "mt": 1781910686,
    "ok": true
   },
   "USO": {
@@ -885,10 +885,10 @@
     "geo": false
    },
    {
-    "title": "What’s a Private-Credit Fund Worth When the Money Is Locked Up? - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQX28tVmIxLWJYNWVIS3lTd2lFelJlaXlVNklPTzR4VHkzY3JGc2p2NWxqOUNqekptaF9qcDJXTUVUMF94b1YwRF8wdUQyNDhVUGw1bG01dGV4Mm5OX0pZOS1NNDlCdngyUVRMeWdudjRTVElTQkFFMS0xbjhnRGMtS25UTHFHbGQwZDVVdXc2WFpDNmVoYTVxMFJMeHRfcGpLMHQtMEFKQkU0RHVxYjVQUHpjR3VhS01pX3B6Q3pwVUowOEVsUWRfUjB6OGFPN1hkWnhqamdB?oc=5",
-    "pub": "Fri, 19 Jun 2026 15:32:57 GMT",
-    "src": "WSJ",
+    "title": "Inside the Bank of England’s ultimate private markets stress test - Pensions & Investments",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFM3aWtCOGhrd0NTckNUSlh6a3Z4dVA5YVVuTVlWNG45S2tSSG4yN1hTRHVNMDVEMFBfSEFteDllZHJMbTJwMWliMllJcnJ4b1cyMmRkR3dFUjRFVDdnSW1id3J1bjBtRVJwRm9WTFRyXzEyVTJmdEc2NGREcS1HVElMMklnbk53V1Q3QmRYY2g3b1VGbjhETlFxR1luanNieVlBaTVmZG9rZFpw?oc=5",
+    "pub": "Fri, 19 Jun 2026 15:18:08 GMT",
+    "src": "Pensions & Investments",
     "trig": false,
     "geo": false
    }
@@ -899,6 +899,14 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSlNCaWxIaDVPSFJXNUxWR09pQzVWTDNlNHkzX2RXSnBDNFdKcXdoOEtSM2ttUWUxcVZydzFtRFo5M0tKQlVnTGpodlhFdk9rOXF6SHl1RTFqbEJacnZ5b25ody1WN3Z0TU1HWS1LN3d4NENRR3BpYmtocl9IbkF3VVNhczFNQjhkQUROS2d30gGOAUFVX3lxTE9KU0JpbEhoNU9IUlc1TFZHT2lDNVZMM2U0eTNfZFdKcEM0V0pxd2g4S1Iza21RZTFxVnJ3MW1EWjkzS0pCVWdMamh2WEV2T2s5cXpIeXVFMWpsQlpydnlvbmh3LVY3dnRNTUdZLUs3d3g0Q1FHcGlia2hyX0huQXdVU2FzMU1COGRBRE5LZ3c?oc=5",
     "pub": "Fri, 19 Jun 2026 21:01:00 GMT",
     "src": "Chosunbiz",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:21:11 GMT",
+    "src": "Stocktwits",
     "trig": false,
     "geo": false
    },
@@ -933,14 +941,6 @@
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "TSMC’s Full Order Book Opens the Door for Rivals as It Pushes Through Price Hikes - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPWkcyUnB2UE1jWTBuZ25PczlmTzBsbm5hbTYzdk5QSGxCR1hUQ1FBZUhpNnNHUGJiZUZzYUFtbWEyN1dESkF2M3JPTFlFclJ3LTJLc1ZhT29hT3Vtc3IzWmRyaFA0RDlfXzZlVG1CclJWOG83cF9hRVhNSTFYR0VjNFBPSnctTzVoRmRacnd1TnhxUTZfSzRmRWxPaFVLc0NldXFfU21za1VzalFnX3ljTG9jNWhLby1LNWlSV3BuX3lzVFdlNDc4?oc=5",
-    "pub": "Fri, 19 Jun 2026 15:15:48 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -969,6 +969,14 @@
     "geo": false
    },
    {
+    "title": "Israel and Hezbollah agree to halt fighting, officials say, as US-Iran talks hang in the balance - AP News",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdDdtMWZ0SDdDbThCNEFjb2p2aE5QVFhETEFOT0RyUG9MaHlta2VNWWpjWE1sOFNEM3pYOE9NYkhRM2x3d0hnYzRQZ2F6eG5zSl9aZEpHd0xaRFR6LTFfNHFKdFBWVXdZSTNMMVZOY3RaZmVjRVZ0T0ZYVEZvWU8xZDBtdk5OMGpMaFhOR3RKU3MyUHFQU3NmMzluUFlFaDBD?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:08:00 GMT",
+    "src": "AP News",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Why is market falling today? Sensex slumps 800 points, Nifty below 23,950. IT selloff among 5 key triggers - MSN",
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTkNYRXE2M1FwQVFBUGdkSHlsSWphcVBnOEc5dUFGdzlOS2tfb3pvbDVvUVV1aW5TU2RSbEJtTGRteVFSSFlCM2JTbFVPZTlvVTg4b3pWRFk1ZFdGRnMzVW9CNllFTWJnQ2NPdFNLZlVzZklsNTRqM0pkOURDblJlNVdpZ3FWTFdLN0ptZlpBT1JkNUphckliMXZSb1RxbFVDVlNTek5TNm9ZZlpTN2VaQXd6ei03TnJvVmpNOEhNSVRYQkxkblhtTzVKeWVSUDc1TkFka09lSGlrVFd0aE51ZmI1Ui1uT213X3IyQzB3RGh6QQ?oc=5",
     "pub": "Fri, 19 Jun 2026 17:42:52 GMT",
@@ -983,38 +991,14 @@
     "src": "The Indian Awaaz",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "India’s Forex Reserves Decline USD 9.98 Bn to USD 671.62 Bn: RBI Data - HDFC Sky",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNaDNqQ2tXVWM1Y2VKaWtyNUpCLTl3NEpyc2h3dG5mdkhZX3pqcE43bjgtWWQtNF9GWlAzb2E1QkNBSUI1UE1pSmF4dmpzOWFST3NyUFYwNmozWFF1Nl83Q1FEdXIxY3hRVzJrU0FZeGl5NGFyRDhPSkxWdkp2NGhqNQ?oc=5",
-    "pub": "Fri, 19 Jun 2026 12:44:12 GMT",
-    "src": "HDFC Sky",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "Dollar hits 13-month high as Fed turns hawkish, while oil slump bolsters EUR/USD recovery case - VT Markets",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN0VlbUJHS3NuY1RaeDFtVjZSMVRJWUtrQjkyX1BEclNrVzk2UHN1MGFEczI4R1BnVVphd2F3aklURFpUX211LWo2bXU0cXA2M205MGFNUG1SamtfLU8yV3NRU040aUtIRWtJT2dLSVFmWXQtZUZ5anlIR0dOWWgzX1dQcUFET0hxbFVuTVhJc1M4Nl9mdWtQYk9lcXktVmxra2NkY1BhbHVCbkJ4WXp5M1l1NXhuSHlMU1RBelNWNWJZekt2ZUpyWTJ5VDA1NUZqaWc?oc=5",
-    "pub": "Fri, 19 Jun 2026 18:53:53 GMT",
-    "src": "VT Markets",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Yen Nears 40-Year Low: What Does It Mean for XRP? - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPak9fbVk3M0hWTk5HVW1ENU10RU13TnJaVnF4NFF5cEdzbDFvM1VwZXFZNklYVDJzRDhoR3JOVExJUUdoTmJBS0hqamUwNFFjWm9LaGoyYU1Jc01YWGJ0Y1dqRjdRblFraGlZeHFCdW95ckJvd2RnSFh3bXI5bXhtQnJQZmZkWEJqU3Y3anVn?oc=5",
     "pub": "Fri, 19 Jun 2026 18:24:24 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Goldman Sachs Cuts Gold Price Target to $4,900 - HOKANEWS.COM",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPanhtYmJiVV9aUWozeTBKcFhiNWQxUFI1a3JFS1g3UV84dWdoYWJpSFBNNEJCUU9WUG9LclZvMm1DSU5oQkEtQW1NajNsNnVWSmFFYzRQOXFyZ254eFpDeG9JazZnTGpDVGxLSTFXamZ1alE1WUVZNko0OXFsTE9zV050dw?oc=5",
-    "pub": "Fri, 19 Jun 2026 18:03:00 GMT",
-    "src": "HOKANEWS.COM",
     "trig": false,
     "geo": false
    },
@@ -1035,10 +1019,26 @@
     "geo": false
    },
    {
-    "title": "Kuwait Says Oil Output Could Hit 2 Million Bpd Within a Week - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZlNEMDBDdGVDRHluMW5UMUM4YUFqSzladlVLMjliTXVQWHc2cWNZamo2UHpiTC1HZ29oVGJRbFM4R2drbDB5eTRIY2dKaWJrMWc3SEt6XzFJMU94RXFUY2VIejJMa0ExSTAyLUg2dnJLR2dhb2tGZzNQOTZqajVGT0dRaWI5Z2FFUnlpa1VzV0JlX3JUemg2VWtXRmVaSHllN21CRjVJM1NhUkRsNkplOEwwQUFUY2fSAbwBQVVfeXFMT095R1J3aXBYQnZ3eWFla3NaNEp3T2htdFFXYklqQjVJOUVRNWc3N2lhaE1EY0ttRDE1SDRldDdSQzNMQ1lCSXY4cXBHR1V0U29sWmx5SWh4a3djUzNGRTB1UXBqWGQtWnIwamowaFZRb0FkZkU5VFhMM2F1ZGNTZk5PX2hkdXU5bkN1U2lFQWoyQ2dsbmtZUGdETFl2aU9sVEFPUlZVVHo3UHBSMDdDYk16UU9aT3Rna1hFT2M?oc=5",
-    "pub": "Fri, 19 Jun 2026 16:30:00 GMT",
+    "title": "Dollar hits 13-month high as Fed turns hawkish, while oil slump bolsters EUR/USD recovery case - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNdDlZSkUxTXV1WlVFRmhSU0VvemVPTkZQS1VHQ2p4MVROZmk2WHhPQWJGOEthNEtYRG5ZYVpvUkhfTUJRLVBoZTlxSmlXQkg5M0wzOHdDc2JtZVRRMHRvN1NuZUlXWVFYTlcyelhyZEMwNWtXMkcwQXJ1bGJZNlo1eFhIZl9tcUpJSWRUbmhZeVgxTF81WndlamJGLWp2SktPcWxkVHZaXzE4WmQ2MjNSX0UtZ2k1WGhGR3RmMEk1RjduS1hzeDYxQ0hnVkZYUQ?oc=5",
+    "pub": "Fri, 19 Jun 2026 16:25:35 GMT",
+    "src": "VT Markets",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why Oil Prices Are Falling Even as Tankers Remain Trapped - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOMU9PajZvdm1UX08wcEpTNkNhOGZBWmtwdGstWldWeEpsX0tYTlZyZjE4a1h3NzFidVB6MlMxS0tTSTBXYWthbWI0dnF2V1NiOVU1ek1FS2NjcGh3SGs2QWxBckExLXBCenNldDhhYmNnekdUNVowbE9keVJ2amRXeTFQQlFISzg1UnZaMVZBZ1dmUEV5b3lXQkJ0S204dnZqR2fSAacBQVVfeXFMUHdWUWQtcTVRWHh3cjFGdi1DN1E2N0F5Y0RrSUp6UUdMcUtGR2xxa0R3czZNdlF2WUc4Y0ktS2JwdXZMRHlxOUEzN1VKQnQ3RS1mYXUtU0k1UnRBYVdVeXA4d2U0aUlmR0JPdHJsaVNtd1JwZjJhQTFYa2ZaMmF3bnZkbHB5aGlxNzM5ZTRaVGdYTUxMT01MdnZNcm5MTF8td2tqZ2h6ZU0?oc=5",
+    "pub": "Fri, 19 Jun 2026 16:10:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper Scrap Market Shows Regional Divergence Amid Price Fluctuations and Compliance Inspections - Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPa05RaVN6Y19LeFpXdzNoMHZocENMZWRGZE9vYUZxZVNZMWluN0pxaFRrMGQ0TDVHZGxFTkZsOEdBMlN2aTZmZGxuczBQM3pFd0J0cUtLT3p2SlNNdVFiZmVVX1JxMHJwNWZ5R2dXMzF2cWptLTBVd0J0bFhXNDRzZ1k4bk9EM2VUWUpBOF9QczlpVHpkX0NaTlhWVmJCc203NXVJWFFpSkRVV1pmTV82LUYtN1dnSXVmSUEwdTV5aTI2UkRhTl9RX0NWczVocTg5VG1nNUpLNUJDOTM0?oc=5",
+    "pub": "Fri, 19 Jun 2026 16:07:55 GMT",
+    "src": "Shanghai Metals Market",
     "trig": false,
     "geo": false
    }
@@ -1159,7 +1159,7 @@
    16.7,
    15.32,
    21.51,
-   16.78
+   16.4
   ],
   "tnx": [
    4.28,
@@ -1219,7 +1219,7 @@
    0.798,
    0.77,
    1.107,
-   0.818
+   0.8
   ],
   "hyoas": [
    2.79,
@@ -1699,7 +1699,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-19T23:02:05+00:00",
+  "checked": "2026-06-19T23:11:42+00:00",
   "openai": {
    "found": false
   },

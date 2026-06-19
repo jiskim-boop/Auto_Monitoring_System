@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-19T17:21:47+00:00",
+ "updated": "2026-06-19T17:32:02+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -159,12 +159,12 @@
   },
   "ALAB": {
    "price": 417.07,
-   "chg": 11.31,
-   "chg5": 13.5,
-   "sma20": 347.57,
-   "sma50": 258.03,
-   "sma200": 189.73,
-   "high3m": 417.07,
+   "chg": 15.31,
+   "chg5": 26.06,
+   "sma20": 341.09,
+   "sma50": 252.2,
+   "sma200": 187.88,
+   "high3m": 389.2,
    "sess": "reg",
    "mt": 1781812801,
    "ok": true
@@ -351,11 +351,11 @@
   },
   "UEC": {
    "price": 12.01,
-   "chg": 5.17,
-   "chg5": 12.98,
-   "sma20": 12.58,
-   "sma50": 13.76,
-   "sma200": 14.47,
+   "chg": 2.91,
+   "chg5": 27.49,
+   "sma20": 12.61,
+   "sma50": 13.8,
+   "sma200": 14.49,
    "high3m": 16.47,
    "sess": "reg",
    "mt": 1781812800,
@@ -602,15 +602,15 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.78,
-   "chg": -0.07,
-   "chg5": 1.03,
+   "price": 100.77,
+   "chg": -0.08,
+   "chg5": 1.02,
    "sma20": 99.67,
    "sma50": 98.96,
    "sma200": 98.68,
    "high3m": 100.85,
    "sess": "reg",
-   "mt": 1781889083,
+   "mt": 1781889697,
    "ok": true
   },
   "^IRX": {
@@ -710,24 +710,24 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63026.75,
-   "chg": 0.21,
-   "chg5": -2.16,
-   "sma20": 64971.82,
-   "sma50": 72913.25,
-   "sma200": 75871.69,
+   "price": 62949.55,
+   "chg": 0.08,
+   "chg5": -2.28,
+   "sma20": 64967.96,
+   "sma50": 72911.71,
+   "sma200": 75871.26,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781889687,
+   "mt": 1781890303,
    "ok": true
   },
   "USO": {
    "price": 114.87,
-   "chg": 0.56,
-   "chg5": -10.84,
-   "sma20": 130.78,
-   "sma50": 134.04,
-   "sma200": 107.48,
+   "chg": -0.52,
+   "chg5": -14.47,
+   "sma20": 132.25,
+   "sma50": 134.24,
+   "sma200": 107.42,
    "high3m": 152.96,
    "sess": "reg",
    "mt": 1781812800,
@@ -742,7 +742,7 @@
    "sma200": 157.83,
    "high3m": 161.32,
    "sess": "reg",
-   "mt": 1781889691,
+   "mt": 1781890305,
    "ok": true
   },
   "ES=F": {
@@ -845,6 +845,14 @@
  "news": {
   "credit": [
    {
+    "title": "Jim Cramer: CoreWeave’s Backlog ‘May Be Much Greater’ Than Wall Street Thinks - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWU0zQTdESFZncWNkR1FPQ0dBSkJKNnNhOTZkWUFYNGU4azdKc3dua3huYVZlU3RsVXp5SV9iSFJXNE91ZERRUXgxcTRoQjlxU2wtRDVhNGFKNGxzTEdZZ25oeFZOQTJaX3lQVm1xSm1pS3ZEbkxPcmEwQTBLTzdPZmNqcUJ1UC1GcUpVZ3ByWmZqUWk1Y3pzVkVlMXdDZ3N3Y25GNTQ5NlZrVmdHYXN0OEozWUk0TEh0?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:21:39 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "FTAI Aviation (FTAI) Stock Could Be 22.7% Overvalued After Redemption And AI Power Optimism - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPU0tjTWcteGJMemxaWFlFWFdfczBNY3dITktjSHFEYi00cEVRU1dLcXBjYS1qNmZVNmpkTjJqR3RhOGxJQlRtdnFabjRVRUdlbkJhY2tYSHFmYjFVX3VBNWI0VUk4Q096ckRxU1BQRW1SeU5kUWhubnRoNFhHeVNvNjdkcXExbjZCMXVETWlpMjg1eFBNdXZseHA0WUZzZktMVGNuRjB6dGxyMm5WckFuQ09ZaEJlTi1fOUVtMjZISWQxcm9KOG90a0tCMjJKMTBaVExF0gHYAUFVX3lxTE4wRU1Na3lXUkJQVDM1d19UWlJWMFBJY0ZZdVotaHRWcVJjdkQ1M1BJMXdzWGphOFJJRE1MSXNNZEhac3pFZzg1ajVfb0ZpYk93TFBlbUpWU2JpTEdzRWJ1aWtBS2RfRU1SNUhEdUItaW5JRjhSZGhaUFNZN1BUMkNfYjQzem1WTXJ2OUxsYk1SMVg1Rlg0bDF2S2FtODVDSVZndDZKeVBEbUVkRFRVWGVnc0NMVHJZZDc3Wjg0WGN5Qk55TV9zOUd2aTk0N1dXWUtrT2pkVnppQw?oc=5",
     "pub": "Fri, 19 Jun 2026 15:41:49 GMT",
@@ -877,14 +885,6 @@
     "geo": false
    },
    {
-    "title": "Morningstar Wealth to increase access to private markets - Alternative Credit Investor",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNU1ZqRVItd2Zqd0JRNFpLQm5hTGQzYnNIYTg5d1c0VXIxMGx5ZkJ2R2VaY1RheFdSUGQ4cHV5dFZkYm93Zk9JYjF3WDRyaUs2LWkwZ2xvYnpPd2d2R28yODhvQkphdE1lSThtTGtGQU9YQ3VGSmJjck1vT2htS2xvYjl1UEFFc25jZkN5emI3UlFNQi0yRTVUcS1fWDFqdlVCS0NweUZYaVpldw?oc=5",
-    "pub": "Fri, 19 Jun 2026 14:15:31 GMT",
-    "src": "Alternative Credit Investor",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Private equity firms to be put through crisis stress test - The Times",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYW8tNXFjU1lkWHFWaVRpcGNlSHV6NmxuSzhsbVNWMGY5QU5yNjNpLVVUcG44WXdRTmVPZW51azY5Y1g4aWxwRE8zNGhBMVFwUng5UC1qUzRuQ0l0U1BVb3I4UkJ1aFdTcDktT09McmpKLUNYM0Y0QkVRaHltRWw3X2FrMFNLY3lna0g5OTdyb2s0bld5M1hLd2Z5RTNyRlk4c3pNck9Dbw?oc=5",
     "pub": "Fri, 19 Jun 2026 13:50:24 GMT",
@@ -894,6 +894,14 @@
    }
   ],
   "fundamental": [
+   {
+    "title": "Google, SpaceX, Microsoft, and Amazon Are About to Spend 'Twice the Entire U.S. Defense Budget' on AI - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDdaV0lVMmNjb3dodHotREwxTFBtZjVwVTQtUzF6Q1pGeWVTd0FvOWtfc3RacXAyMHRLajBlRFlPeUNsb1F0WXNrWVd3MXFKaV9pUzJMOUJLWUY1cDBkRFdpLUttSnZNOW9FeC1ObFdCTWc2TV9tTWYzRE0zMWZvZFdmc1FsaUhWWmo1MW11TGNTeEVGcTkwazljNlBDajk2SWVHQ0k5dkhmaXVyeERfQ1ZtUkxiRGlscFZ3dEt5NGNYYWdiaS1zaG1zQnBMVFNWbXBFTWVR?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:19:02 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "TSMC's Capacity Conundrum: Record Earnings Mask the CoWoS Squeeze Forcing Clients to Samsung - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxORjNxYnJXdGtRdktmS0pwdG11Z2xWX0NybWxBTmhSU0ZTazBTb1VZRGJ0UEZlbFllTzNYRy1tRFN5NTVDOHpiQTRUeS1POUEteGJ2eUVybkpST2JMaWw1bnBQV0FTb1JHd3JMMHhyZlBZWnpaX3JERlVBdlV3Z1JGVzR0al94cVFXdjBkcWRqRkJST2pfZjYyOV9sT3RkRG9KTkFGcFk5RzNQa3p6V29BUS1CR1NLVEZDUkZIVFlYdzR0bnNKeWY0R05Mbw?oc=5",
@@ -931,14 +939,6 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1TQUkyTkwyMkZqNFVZUjRhQ2JpY1c1Zi1ta1U4TmROMTQ1VDB4T2JOSXdDMDRERjUzeUEzWHlWUVNBbC15cFVab3VUSVpWTXdtRG90S2NwWWJTUHRrbG9rR1l2MXhkTF9UWnd4VWpNVUFOM2ZyS2xoeF9KM3h4QTQ?oc=5",
     "pub": "Fri, 19 Jun 2026 12:29:51 GMT",
     "src": "blockchain.news",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why colos are moving up the stack into bare metal and GPUaaS - Telecom Ramblings",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNS3VnYi1pUjBiVklDb3h1dkJocGdSVGRtODdIR3BTZWRiYlV0eUtCVndfNXFiaUY0RDBfOXV3d3ItbXRnLUVwZ3gzTk1qNDM4TGp4bWI1NFZBQ1lJLXE0bE5yM3d5N2xEbEJaLXM1a3hZSUVkQ01uUFI5NnFQMExOYUl5b282bE1JZXFOS3FoQ3dSaEh2b2RNS3hTYkNnV1JuQW5IUw?oc=5",
-    "pub": "Fri, 19 Jun 2026 12:27:22 GMT",
-    "src": "Telecom Ramblings",
     "trig": false,
     "geo": false
    }
@@ -1189,7 +1189,7 @@
    99.32,
    99.2,
    100.05,
-   100.78
+   100.77
   ],
   "bizd": [
    12.94,
@@ -1699,7 +1699,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-19T17:21:43+00:00",
+  "checked": "2026-06-19T17:31:58+00:00",
   "openai": {
    "found": false
   },

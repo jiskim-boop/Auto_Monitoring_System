@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T16:12:04+00:00",
+ "updated": "2026-06-20T16:21:47+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": 0.84,
-   "chg5": -18.24,
-   "sma20": 92.45,
-   "sma50": 95.41,
-   "sma200": 102.55,
+   "chg": -6.45,
+   "chg5": -12.12,
+   "sma20": 92.05,
+   "sma50": 94.95,
+   "sma200": 102.44,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -675,12 +675,12 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": 2.12,
-   "chg5": 16.6,
-   "sma20": 8229.44,
-   "sma50": 7294.66,
-   "sma200": 6062.91,
-   "high3m": 9052.42,
+   "chg": -0.13,
+   "chg5": 11.43,
+   "sma20": 8322.18,
+   "sma50": 7366.93,
+   "sma200": 6087.92,
+   "high3m": 9063.84,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63940.2,
-   "chg": 0.63,
-   "chg5": -2.69,
-   "sma20": 64506.8,
-   "sma50": 72676.25,
-   "sma200": 75741.75,
+   "price": 63981.89,
+   "chg": 0.69,
+   "chg5": -2.63,
+   "sma20": 64508.88,
+   "sma50": 72677.09,
+   "sma200": 75741.98,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781971899,
+   "mt": 1781972485,
    "ok": true
   },
   "USO": {
@@ -885,15 +885,23 @@
     "geo": false
    },
    {
-    "title": "CoreWeave (CRWV) Stock: Jim Cramer Believes Hidden Revenue Pipeline Exceeds Reported Figures - Blockonomi",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTBTLXdmc0FubzdoTDlqZVFmdGMyVUdObGpwY2dGUG5sUmtqS001VHpOU0d5V2dHbjg1U2Z3UFVYM3BmOVI4VzRleU1DUzRrZ21XLWQ4cHhuVWVHYWJsR0JrTWg1UVg0RE9nemQ0djduQnNBM2k2bjgwZHJ4aFg3Y00yc1lsQWx3UkVYVmpwTUJJREFua2VvV3ZxMGpCaWtINDJEaFJpMUc4WWhpWFFPQlpHUQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:05:02 GMT",
-    "src": "Blockonomi",
+    "title": "Nebius Rides the Sovereign AI Wave to a Nasdaq-100 Debut and a 6x Stock Surge - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjFSSUR4WEhySTRlbDBNU0dyZ0dwYWh2MUpSVHcwc3owRl9xcnNNZzA3YTR6Mi1fcnBQMi0wYzBvbVBWaGZLRkdFRm84QmhzYmJTVDl0a2l0dkhmejVxcnVsWlk1ak1UQ3E3SnpEb09FTlB5SVFVUEN1VjJoZGc2TDlvOXZFOXN3UWxaRmhxSnh1RG1HMVB6S0xYQzRRZklOZnJyUTRvNURieVo0TGJrRXA0dDd3bGNzQ3RwVlkwUlV4NXdiZTg2bWZ3?oc=5",
+    "pub": "Sat, 20 Jun 2026 11:06:56 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Big Tech redirects buybacks into AI capital spending - Let's Data Science",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZVNiSFFPNEpxb1hEc0ZxZ1pPUmFpb3h2Zy1uLXpqWHVvbU12b3VKOGc2dHVBR3dBMmtZdFJkMFV5UVNNbjhFQ2JFd0RWRXRWVExYVFl5cEFwUVF2R1I1Y3VCLTFuOXN1ZEpRSXlkMTBabTJjZVdnZU9EMkhWTFBkeHdpbWp0QnJXV1o2Y0szRGYtZV9jMzJVUGVB?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:45:49 GMT",
+    "src": "Let's Data Science",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
@@ -907,6 +915,14 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
     "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
     "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apple faces price hikes for iPhone 18 Pro as AI-fueled chip shortage bites - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLa1hDVkM5b2ExVEFVbC15VDZYVHFaV3Vpc05SWjNsbm9Wb2hpOEdXMUo1Vi1UN1huTU03OF8xeDV1RF90R0ZzWXFoZ2lZYnlsY3F4V1Ntc0RtaVdkZEI5Wm9IV3kwMS10dkoyZjNiUXJMWi1lNTNIVVdLdVpTQjg?oc=5",
+    "pub": "Sat, 20 Jun 2026 13:26:17 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -925,25 +941,17 @@
     "src": "christophe-barraud.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Intel shares soar on Google deal to build TPUs. Here's what it means for INTC stock. - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY0pQZV8xRTJ5eHpWcl9JM1lCejFySmdvTm1IVXZRX2RfMGV0WjZVV1dtYXI2b0xOUldXZTQydEkxaEhhSlM5YkVFRmJPOUxQS2dEakszeEZFcDBqYU10WC1paDBjcGI4MXg5eEZMT0duZ20zRzdXeGhTVTRldnNpYk1VZ0x1OVhwaTk3RjZJdG1Hck5GQnV0YVd4dlRVbUF2VGNsQlVPODZWR0lwbWU4STg0NG94U29JUmJCb3hiVVk0UGUteHlRS2RqR2M0ZDAtX1E?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:00:20 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon Stock Analysis 2026: AWS Acceleration and AI Capex - Top1 Markets",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTGdDZ05fSVJDLTQybjRrT3YydnpOZjdaQ2FyM1VlS1VSTHNaX1hhUlYwa3UxZFc5OXZhamJ1Z2hoUXRRUE1fcS1mdnAzcHZKak5iWVB3RDZiby04UjZESU8zeDcweEFJRUZFaUw3TVJlQUJtSEJYSmcwVlpIRVVmcEdsNXZkamkxQklnLQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 09:58:17 GMT",
-    "src": "Top1 Markets",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Nvidia’s $25B Bond Sale: Why AI Stocks Are Turning Credit Markets Into Their Next Growth Signal - CryptoDaily",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoUnJLSTNtRDdlTnlFUmt5Q3poVnMwcmRwZENVcXZxRjM3c2JvWUNGZnZHSVBPRHhrUDFlOUxRTXpUVHJWck81R08wY2VJT0V4b1NVQ3JrWHhjZF92TF93bFRzWlFVS1ppRUtiTVFLU3JhYXdx?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:28:26 GMT",
+    "src": "CryptoDaily",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Behind Trump's confession: the 'oil catastrophe' that pushed him to cut losses in Iran - Ynetnews",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ETTBpZFl6d1dURUNPbmJUZF83QkFVSWFseFFvZU9fNzVLNFRUc2xVeGhyY1VtZEdfcTRQaFl2STlOZWg5VHMxTEszcUpaQnV5MUQ5THRpZw?oc=5",
@@ -953,10 +961,10 @@
     "geo": false
    },
    {
-    "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
-    "pub": "Sat, 20 Jun 2026 13:06:12 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
+    "title": "JPMorgan Posted Record Profits, but CEO Jamie Dimon Says the Next Crisis Will Be Worse Than Anyone Expects - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNam83MmEwcUNNR0dlY1RnWkdEa2FITVMwNHAyMjBBS0VtLTFxNjdsdjBoZ1JuOGhJak1nV1RVczFfNWVxUFF0ZW94cGNFeVhRZGktdElnb0tCcEFtdExHOU9US3U0VHVBUGtBcUtDMklyQUpvQnBLdmpGREhZV2J3ZkQ4MmVrM2VMaFV1UDhTNFEzekt1eFBkZ1I5STJyNkUzcHB4RWpKdGx2dzZMYzVZaVNweWZsMWpxQnRlMm9xTnJhYTVtWjM0b1NiVUs2MTVSR2dFMnl2ODh5VmxXcENfX2luYw?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:30:25 GMT",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    },
@@ -983,14 +991,6 @@
     "src": "firsttuesday Journal",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Why the Strait of Hormuz matters for oil markets, Azerbaijan and the Middle Corridor - Latest news from Azerbaijan",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2YwQ1hRbFY1N21aYlVNelkwanlUOHM5RnFOSDJxXzlHRnhMZlJUUXBpREpuczZPbDVzM1EtSWxnbGVkc3JtNUg2UFdoSnNoNlUyUHVQanNpMTZHcVNDQ2JES1VPOVVsNm1wS3FkMVU2TThoRkx5UHFKMmpyTVMzdUVXZjJpc3JrRFhNdExVUjRpZFFFU1Q2eW1BRFBBMEprdTk5WnJUVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 07:20:06 GMT",
-    "src": "Latest news from Azerbaijan",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1278,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 유가 변동성이 제기되는 가운데, VIX 17과 HY스프레드 2.63%는 신용시장 안정세를 유지하고 있으나 CAPE 42의 고평가 수준이 금리 경로 변화에 민감한 상태다. AI 인프라 capex 경쟁 심화로 TSMC 생산 병목이 심화되면서 삼성·인텔 등 대체 수급처 수요가 급증 중이며, Microsoft의 2026년 AI 인프라 190억 달러 투자 계획이 반도체 사이클 지속을 뒷받침하고 있다.",
+  "text": "중동 지정학 긴장 속 VIX 17로 낮은 변동성 유지하며 미10년물 4.45%에서 안정적이나, 신용시장은 사모펀드 평가 논란으로 기초체력 점검 국면입니다. 빅테크의 AI 인프라 집중투자로 TSMC 수급병목 심화되어 2028년까지 선적 완매되었으며, 아이폰 AI칩 부족으로 공급망 재편 압력이 가시화되고 있습니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1288,7 +1288,7 @@
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -1707,7 +1707,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T16:11:54+00:00",
+  "checked": "2026-06-20T16:21:41+00:00",
   "openai": {
    "found": false
   },

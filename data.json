@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T03:02:07+00:00",
+ "updated": "2026-06-20T03:11:43+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -542,15 +542,15 @@
    "ok": true
   },
   "^VIX": {
-   "price": 16.78,
-   "chg": 2.32,
-   "chg5": -5.09,
-   "sma20": 17.41,
-   "sma50": 17.74,
-   "sma200": 19.11,
+   "price": 16.4,
+   "chg": -11.06,
+   "chg5": -15.64,
+   "sma20": 17.4,
+   "sma50": 17.79,
+   "sma200": 19.13,
    "high3m": 31.05,
    "sess": "reg",
-   "mt": 1781883001,
+   "mt": 1781813700,
    "ok": true
   },
   "^VIX3M": {
@@ -574,7 +574,7 @@
    "sma200": 102.44,
    "high3m": 133.18,
    "sess": "reg",
-   "mt": 1781813701,
+   "mt": 1781812800,
    "ok": true
   },
   "^SKEW": {
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63264.0,
-   "chg": 0.58,
-   "chg5": -1.8,
-   "sma20": 64983.69,
-   "sma50": 72918.0,
-   "sma200": 75805.42,
+   "price": 63293.99,
+   "chg": 0.63,
+   "chg5": -1.75,
+   "sma20": 64985.19,
+   "sma50": 72918.6,
+   "sma200": 75805.58,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781924509,
+   "mt": 1781925084,
    "ok": true
   },
   "USO": {
@@ -845,18 +845,26 @@
  "news": {
   "credit": [
    {
-    "title": "Blue Owl Capital Corp Stock - Analyst views and BDC sector review - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQUGFmcS1qTm0yM1JHZ1E2SEQ5VVpoazMyNmc2MmlEbWc1YjVRc0hRSGRfWjRnQktrVW1mSjJ4VzdUQnBORDd3dE10Z2twX3FoREtfWDZJNmNmSmJibGtBNFRLZlY0QTNLa3lLblBqLThaY3dOZ1dKLWpiV2FTeFZMbUZYQm5QY3V2MElPMjJHZUZNOE9YSTlKQ2ZMdWZ3NmQ5YWloX3BwSlBma25ZdHFYSkRObVVQSmNSUXo0OU1LQQ?oc=5",
-    "pub": "Fri, 19 Jun 2026 19:55:48 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AirTrunk Pursues A$4.3 Billion Loan for 400MW Australia Data Center - TradingView",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPLTRrVlJPXzYweFdteXlDbVp2TUwwQ0ZVQjRTN2NpSjNYYU9hLXJTTkpubkZaTHFVRFZoOE4tM3Q3di1vcE8yLWFURE1Fd2ZzT3JnVTRqRmlQSUZSdjNkVE04M0lRYzlrSENwT0owR0Zhd3BGRlUzNGgzOTllUmF1RWlURV9kNXc4QnBVWEJrRnNaTjlsRDYxVFFZTkRZTGYzU25wSUNmYm5DUGk5RnAwbTFCZ20tckxDVzJ1bG96Mk52MGlaZUE?oc=5",
     "pub": "Fri, 19 Jun 2026 18:15:11 GMT",
     "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Jim Cramer Predicts CoreWeave Contracted Revenue Backlog Exceeds Estimates - HarianBasis.co",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lYUZDbVM0cnpyc1pfNkNIQUhwQWR5ZWM4Ni1WYThSbnFFTHB0UDF2bklDWjZXb09WMUNleWk0ZU5PX1pxQ1Jrd3F0YWJKVE9Zb2Z3OXBDVTBiU19RWFp5aGE1a0hWZTVzZm1xbVVrQkJrajNwejdEdkNZQ0Z2Zw?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:51:12 GMT",
+    "src": "HarianBasis.co",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Jim Cramer: CoreWeave’s Backlog ‘May Be Much Greater’ Than Wall Street Thinks - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNWU0zQTdESFZncWNkR1FPQ0dBSkJKNnNhOTZkWUFYNGU4azdKc3dua3huYVZlU3RsVXp5SV9iSFJXNE91ZERRUXgxcTRoQjlxU2wtRDVhNGFKNGxzTEdZZ25oeFZOQTJaX3lQVm1xSm1pS3ZEbkxPcmEwQTBLTzdPZmNqcUJ1UC1GcUpVZ3ByWmZqUWk1Y3pzVkVlMXdDZ3N3Y25GNTQ5NlZrVmdHYXN0OEozWUk0TEh0?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:21:39 GMT",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    },
@@ -877,18 +885,10 @@
     "geo": false
    },
    {
-    "title": "STRC Slides Below $100 Mark, Saylor’s AI Comment Adds Fuel - Bitget",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5CTFVXWFZjcm9pQ29oVy1hZ2xSbGRhTXhPMUpIU0pDS3g0dDdyS2JxYVdYOVJkZWFsU29tWlZyMUJ5NXRtNExhTnliWWptS1VFVGxFRDZlRlVCWG16ckJoRUIzVdIBY0FVX3lxTE5CTFVXWFZjcm9pQ29oVy1hZ2xSbGRhTXhPMUpIU0pDS3g0dDdyS2JxYVdYOVJkZWFsU29tWlZyMUJ5NXRtNExhTnliWWptS1VFVGxFRDZlRlVCWG16ckJoRUIzVQ?oc=5",
-    "pub": "Fri, 19 Jun 2026 11:59:19 GMT",
-    "src": "Bitget",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trinity Capital - A Solid BDC, But The Price Is Too High (NASDAQ:TRIN) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNdHA4SjFlRnBHZngtS1RnWEo1TWcxRVYxR09vZkFuRno4ZWt0THZyUC1GRGFYNWd3VWNjd2JsRmdqQ09QNXZEUTIzN1o1empLcUVycnNFSkhncEc2Z2NrNnVzRUZzTXE1MmZGVlBUVEM3NmhxTFl6V2dTVEF5dUdPQ2xfX1lXSFltdVZLUlgyOThJUFNaZXBtWTN3?oc=5",
-    "pub": "Fri, 19 Jun 2026 10:44:28 GMT",
-    "src": "Seeking Alpha",
+    "title": "Inside the Bank of England’s ultimate private markets stress test - Pensions & Investments",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNbFM3aWtCOGhrd0NTckNUSlh6a3Z4dVA5YVVuTVlWNG45S2tSSG4yN1hTRHVNMDVEMFBfSEFteDllZHJMbTJwMWliMllJcnJ4b1cyMmRkR3dFUjRFVDdnSW1id3J1bjBtRVJwRm9WTFRyXzEyVTJmdEc2NGREcS1HVElMMklnbk53V1Q3QmRYY2g3b1VGbjhETlFxR1luanNieVlBaTVmZG9rZFpw?oc=5",
+    "pub": "Fri, 19 Jun 2026 15:18:08 GMT",
+    "src": "Pensions & Investments",
     "trig": false,
     "geo": false
    }
@@ -908,6 +908,14 @@
     "pub": "Fri, 19 Jun 2026 21:01:00 GMT",
     "src": "Chosunbiz",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "South Korea Stocks Halt Again, SK Hynix Market Cap Breaks $1 Trillion Mark. - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcW9ORjJ0ZDF6YmxPQWFEWUJBZy1rSzhERkxOZlI5TUwtNFJ6REVHNEJOdXdFVVRHWG1sY2c4T2xIUXhoRnY5alJ1YXFnSG5kMUYxSHR2bmFFTXlBZjVzaktFWkFmUnFUaDJoQlFmXzVrOFRoSXRENGpwbzI3ME5UNk5jcGI0NUVQSEVyUjB5enBocWduWS1LV3l4TFQxTFp4cm1pVGxmaUxBcTBXVjVvZnpMR1dVRk95OEJJZUs3MTUtSTI1WC1xUVhhMGJGUWRuSnVTVGN5b2dNdmd3bUhzRVpNZWZ3RE5Lc3Yw?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:49:58 GMT",
+    "src": "TradingKey",
+    "trig": true,
     "geo": false
    },
    {
@@ -931,14 +939,6 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPdDdaV0lVMmNjb3dodHotREwxTFBtZjVwVTQtUzF6Q1pGeWVTd0FvOWtfc3RacXAyMHRLajBlRFlPeUNsb1F0WXNrWVd3MXFKaV9pUzJMOUJLWUY1cDBkRFdpLUttSnZNOW9FeC1ObFdCTWc2TV9tTWYzRE0zMWZvZFdmc1FsaUhWWmo1MW11TGNTeEVGcTkwazljNlBDajk2SWVHQ0k5dkhmaXVyeERfQ1ZtUkxiRGlscFZ3dEt5NGNYYWdiaS1zaG1zQnBMVFNWbXBFTWVR?oc=5",
     "pub": "Fri, 19 Jun 2026 17:19:02 GMT",
     "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta and Amazon seen as top buys despite recent lag, driven by AI investment and capex cycle. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVmhDRWw3cFBEN0dfZHZJOElLcVR0dTV3ZTVSWlpHVHNaUF9jVmJuVTFZNmZ4bzBrR1pXQUNoRVVBUnRvakppQ3pLaGpqUy05SV9KX2tMeFBySUZxaW53eHBfTHB5ZmkxS1VCdDFDbFdwM0ZUVG84eXdrcHRuZkhNRmxETmdPNFZXTFliX0x4WGU2MzE3RTFKZkhITmJoQkptZUE?oc=5",
-    "pub": "Fri, 19 Jun 2026 17:09:05 GMT",
-    "src": "Pluang",
     "trig": false,
     "geo": false
    }
@@ -995,26 +995,10 @@
   ],
   "flow": [
    {
-    "title": "Japanese Yen Rebounds from Two-Year Low as BoJ Rate Hike Expectations Offset Soft CPI Data - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2huQUVrOVFFNzFhZkhkSWc1UVpOZ082eXJVaDZET3YyMU5JRkc2LUdMOWUzMldpRjZHTTFsaHNSeGhQZ3pRb0ZWNFNJeWUwYW9PVDlIMEdDcFowNF81WHIxeHdTZ0FYeWhlTVdaaVBwb0FuU3VGb0dLTlJaYlhSM3lRb2UzYVdzcWdxd0plV3VoaFc2QnRTWTRMajNtM0JW?oc=5",
-    "pub": "Sat, 20 Jun 2026 00:01:40 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil Prices Rise as U.S.-Iran Deal Faces Tests - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1naTJMNm1MS0ZsVzZtQ1hrTWJlNmV2WVpISVpNNThvLTdpaWtJcDV2ZU1Eb3pST3FVTERCcHBHVXl6b1UzaEFvMWNFSnZxV29pTmEtNXQ4WHdieFZERDhVSHE4VHpqUHRhMW5VRGpYbXA4eFlvUkhZ?oc=5",
     "pub": "Fri, 19 Jun 2026 23:51:26 GMT",
     "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price in India Falls Today: Bitcoin World Data Shows Decline - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIMHlhWjgtRUhzYlhFblVlWlVXc0hpRy1UUHBkMXJJUThjSzNmaUpyZFhUR1B6ZElhd3hqWWlKZUlkTnhWYVR3WEhXNkxBZnlkRDVBQlNTU3BCTXBkSDVlM1Y2eUxWYTNBSi1Sai1PMDRleU95V3lR?oc=5",
-    "pub": "Fri, 19 Jun 2026 23:21:04 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1035,10 +1019,26 @@
     "geo": false
    },
    {
-    "title": "Japanese Yen Intervention Risks Escalate as Currency Hits Fresh Highs, DBS Warns - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcDJZcnRwZ1JieXZnQkJHeTkzb05reDIyX0Z3Z1hjLWxoRG9IYmNhbjZDeUhxSE04QVpoXzgtUmVvS0xLLWhESHN1NHVmSmh4dFJnS201VUlnNHZLSFhuTU9idXpLbURDWEFzN2JWdkR2MnBYZUZyWE9YWVp0UWdGUlViSVBGa3RjekJHTFdB?oc=5",
-    "pub": "Fri, 19 Jun 2026 20:48:38 GMT",
+    "title": "Dollar hits 13-month high as Fed turns hawkish, while oil slump bolsters EUR/USD recovery case - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNN0VlbUJHS3NuY1RaeDFtVjZSMVRJWUtrQjkyX1BEclNrVzk2UHN1MGFEczI4R1BnVVphd2F3aklURFpUX211LWo2bXU0cXA2M205MGFNUG1SamtfLU8yV3NRU040aUtIRWtJT2dLSVFmWXQtZUZ5anlIR0dOWWgzX1dQcUFET0hxbFVuTVhJc1M4Nl9mdWtQYk9lcXktVmxra2NkY1BhbHVCbkJ4WXp5M1l1NXhuSHlMU1RBelNWNWJZekt2ZUpyWTJ5VDA1NUZqaWc?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:53:53 GMT",
+    "src": "VT Markets",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Yen Nears 40-Year Low: What Does It Mean for XRP? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPak9fbVk3M0hWTk5HVW1ENU10RU13TnJaVnF4NFF5cEdzbDFvM1VwZXFZNklYVDJzRDhoR3JOVExJUUdoTmJBS0hqamUwNFFjWm9LaGoyYU1Jc01YWGJ0Y1dqRjdRblFraGlZeHFCdW95ckJvd2RnSFh3bXI5bXhtQnJQZmZkWEJqU3Y3anVn?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:24:24 GMT",
     "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Goldman Sachs Cuts Gold Price Target to $4,900 - HOKANEWS.COM",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPanhtYmJiVV9aUWozeTBKcFhiNWQxUFI1a3JFS1g3UV84dWdoYWJpSFBNNEJCUU9WUG9LclZvMm1DSU5oQkEtQW1NajNsNnVWSmFFYzRQOXFyZ254eFpDeG9JazZnTGpDVGxLSTFXamZ1alE1WUVZNko0OXFsTE9zV050dw?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:03:00 GMT",
+    "src": "HOKANEWS.COM",
     "trig": false,
     "geo": false
    }
@@ -1159,7 +1159,7 @@
    16.7,
    15.32,
    21.51,
-   16.78
+   16.4
   ],
   "tnx": [
    4.28,
@@ -1219,7 +1219,7 @@
    0.798,
    0.77,
    1.107,
-   0.818
+   0.8
   ],
   "hyoas": [
    2.79,
@@ -1708,7 +1708,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T03:02:03+00:00",
+  "checked": "2026-06-20T03:11:39+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T06:41:49+00:00",
+ "updated": "2026-06-20T06:51:40+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.24,
-   "chg5": 11.94,
-   "sma20": 132.0,
-   "sma50": 143.53,
-   "sma200": 151.65,
+   "chg": 2.22,
+   "chg5": 9.18,
+   "sma20": 132.05,
+   "sma50": 143.02,
+   "sma200": 151.52,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 7.33,
-   "chg5": 29.62,
-   "sma20": 373.38,
-   "sma50": 362.54,
-   "sma200": 357.69,
-   "high3m": 409.99,
+   "chg": 6.46,
+   "chg5": 26.53,
+   "sma20": 377.97,
+   "sma50": 364.69,
+   "sma200": 358.33,
+   "high3m": 436.29,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.2,
-   "chg5": 0.2,
-   "sma20": 20.48,
+   "chg": -0.05,
+   "chg5": 0.1,
+   "sma20": 20.47,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.05,
-   "chg5": 0.37,
+   "chg": 0.1,
+   "chg5": 0.25,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.56,
+   "sma200": 40.55,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": 2.25,
-   "chg5": -24.48,
-   "sma20": 17.42,
-   "sma50": 17.85,
-   "sma200": 19.15,
+   "chg": -9.0,
+   "chg5": -13.68,
+   "sma20": 17.4,
+   "sma50": 17.79,
+   "sma200": 19.13,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": 0.84,
-   "chg5": -18.24,
-   "sma20": 92.45,
-   "sma50": 95.41,
-   "sma200": 102.55,
+   "chg": -6.45,
+   "chg5": -12.12,
+   "sma20": 92.05,
+   "sma50": 94.95,
+   "sma200": 102.44,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.85,
-   "chg5": 2.54,
-   "sma20": 141.51,
-   "sma50": 141.47,
-   "sma200": 144.34,
+   "chg": 2.87,
+   "chg5": 2.62,
+   "sma20": 142.23,
+   "sma50": 141.4,
+   "sma200": 144.36,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": 0.76,
-   "chg5": 0.99,
-   "sma20": 99.59,
-   "sma50": 98.92,
-   "sma200": 98.66,
+   "chg": -0.0,
+   "chg5": 1.1,
+   "sma20": 99.68,
+   "sma50": 98.96,
+   "sma200": 98.68,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -627,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": -0.05,
-   "chg5": 0.84,
-   "sma20": 108.7,
-   "sma50": 108.92,
-   "sma200": 109.68,
+   "chg": 0.28,
+   "chg5": -0.01,
+   "sma20": 108.75,
+   "sma50": 108.91,
+   "sma200": 109.67,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": 2.12,
-   "chg5": 16.6,
-   "sma20": 8229.44,
-   "sma50": 7294.66,
-   "sma200": 6062.91,
-   "high3m": 9052.42,
+   "chg": -0.13,
+   "chg5": 11.43,
+   "sma20": 8322.18,
+   "sma50": 7366.93,
+   "sma200": 6087.92,
+   "high3m": 9063.84,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -6.33,
-   "chg5": -3.04,
-   "sma20": 1042.21,
-   "sma50": 1111.47,
-   "sma200": 1085.21,
+   "chg": -3.43,
+   "chg5": -6.07,
+   "sma20": 1039.46,
+   "sma50": 1110.54,
+   "sma200": 1084.51,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63647.97,
-   "chg": 0.17,
-   "chg5": -3.14,
-   "sma20": 64568.28,
-   "sma50": 72700.85,
-   "sma200": 75748.5,
+   "price": 63687.06,
+   "chg": 0.23,
+   "chg5": -3.08,
+   "sma20": 64494.14,
+   "sma50": 72671.19,
+   "sma200": 75740.36,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781937689,
+   "mt": 1781938283,
    "ok": true
   },
   "USO": {
@@ -927,18 +927,18 @@
     "geo": false
    },
    {
-    "title": "South Korea Stocks Halt Again, SK Hynix Market Cap Breaks $1 Trillion Mark. - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcW9ORjJ0ZDF6YmxPQWFEWUJBZy1rSzhERkxOZlI5TUwtNFJ6REVHNEJOdXdFVVRHWG1sY2c4T2xIUXhoRnY5alJ1YXFnSG5kMUYxSHR2bmFFTXlBZjVzaktFWkFmUnFUaDJoQlFmXzVrOFRoSXRENGpwbzI3ME5UNk5jcGI0NUVQSEVyUjB5enBocWduWS1LV3l4TFQxTFp4cm1pVGxmaUxBcTBXVjVvZnpMR1dVRk95OEJJZUs3MTUtSTI1WC1xUVhhMGJGUWRuSnVTVGN5b2dNdmd3bUhzRVpNZWZ3RE5Lc3Yw?oc=5",
-    "pub": "Fri, 19 Jun 2026 17:49:58 GMT",
-    "src": "TradingKey",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Oracle Corporation Stock (ORCL) Opinions on Earnings and AI Capex Plans - Quiver Quantitative",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUGRua0FBQk4tcmdnelNHSXJOUE1xRkJNNExvVE5GMm5sNnQtcC1Yc0RHN1gxa0lNQ3Q1N3AwYWZldGpGT2dfVGZWNlhubVl2Sk92WmhSNk5sdXFXZzVjczhSNkJCbS02VWRXdnY1UElsSmxKU0pnazk2VEwyMlBfZHVyQTFnMDd1TjRjT3VKbE9uVWVyMkZESFhwcUNGeXQxbWlfZ19GbXNoRUs2?oc=5",
     "pub": "Fri, 19 Jun 2026 17:33:00 GMT",
     "src": "Quiver Quantitative",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Microsoft's AI Engine Stutters: $190 Billion Capex, a Broken Oracle Deal, and a 22% Cash Flow Hit - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN091Y09jdlhBZzUxTkZoc1ZMQ05USjFjYUhYaURwVEE5ajg5aEk2Ym5GSlBEdUlzc3J0clczNDRwUTQyVlg5Q1lNLUZVVmhHQlNuUlJkNWtzbVZlLWROaVpLRFAyVlJYOV9POHVFcExvVXZNRTg4T3lkTGR3VHc5UnVlbE5CVVVDdUNoZmgyNHhmdHVjZEtSSkJjbVpHUkM2ZkkyRk5veXFhS2daWUlrbzVxOUlVbUVrMFRoYXdVRHMxM1RzRlJj?oc=5",
+    "pub": "Fri, 19 Jun 2026 17:25:20 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
@@ -977,18 +977,18 @@
     "geo": false
    },
    {
-    "title": "Pump prices seen retreating as oil market sheds war premium - Daily Tribune",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYU1DVVZqMGVKVzNXUUotc2QyaFlEMWVRcEFzLXVRcDJWZ2I4czhYbE9PSE9aby1sU01feGVGVWJhTzJMaTZnQmUyQl9LcHhVa0pUYmZoQkJXenV5WFB3Z0NYSVJabV9nUXRJcDh6ZXZUS1ZjRU5YTkF6M0dTbmE1V2NsNTJLeEdneF9wbi04YkxrQ1hBTG8wetIBpgFBVV95cUxNQjNObWJ6Wm5sdTVrSklreUVvTENpbDhMUDhEamRVMTRieGZJNEZLTVdXdTVjOWxtVHY4RnVyNHpnelZpM0dWVi1SOTY5TmUwMXktQ0NnZmVMeW94MHdxUWszb3RWR2NWNHBFandpUUd4OVNJTmIwWlVKWS0tc01ZQWt6SkRVWVg2Y3kwZExfX3JSZGRUVTRDTGVpb1U3WXhZR2xmeEV3?oc=5",
-    "pub": "Fri, 19 Jun 2026 17:25:00 GMT",
-    "src": "Daily Tribune",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gas Prices Could Take Months to Return to Pre-War Levels Even After U.S.-Iran Deal - Time Magazine",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb280dExDYzA3emVkYUJhSklublU0SlVvWVFxSnA0TDM5WXc2d3Bsb2xMQ2toYkphdVN6QmxtWXVGaE1FcTE4Rm91Z21WNkNfYV90dE0xNkktLUxmWDdJZHZCTnZGSUZ5TkRMTzhPTlQ2LTVxMk16U2k4Ql9CZkdfanFfbHNacDNVZ3BuZFBwSVk?oc=5",
     "pub": "Fri, 19 Jun 2026 12:59:12 GMT",
     "src": "Time Magazine",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "India’s Beauty Products Market Projected To Reach USD 39 Bn by 2030: Report - HDFC Sky",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTGpKcVFqNTNQU3RQekdnaGVWa2hMU0Z2b3gzMXlKOEZWSURMZWVXdko2Z2swcVgtYW9uUnFMWjA4NEZmNm95dy1VYU9YQjVXZ2pKX0xhZjhHQ0VtRXpNMFlja3lFc192VjFickxNVkRXenZPdEhTX2t2UzZReWt1WmdoYmZ6ekdN?oc=5",
+    "pub": "Fri, 19 Jun 2026 12:39:53 GMT",
+    "src": "HDFC Sky",
     "trig": false,
     "geo": false
    }
@@ -1019,6 +1019,14 @@
     "geo": false
    },
    {
+    "title": "Gold Price in India Falls Today: Bitcoin World Data Shows Decline - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBIMHlhWjgtRUhzYlhFblVlWlVXc0hpRy1UUHBkMXJJUThjSzNmaUpyZFhUR1B6ZElhd3hqWWlKZUlkTnhWYVR3WEhXNkxBZnlkRDVBQlNTU3BCTXBkSDVlM1Y2eUxWYTNBSi1Sai1PMDRleU95V3lR?oc=5",
+    "pub": "Fri, 19 Jun 2026 23:21:04 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper One Announces Agreement to Acquire 100% Interest in the Majuba Hill Copper-Silver-Gold Project, Nevada - TheNewswire",
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNZ2N2S3A4ZTR2eGVGUVRHT3BDaHNud3paYWlMellNeE5NTmxYSFhiZEx2WWNnMUcyM2tibnI3aWI1MzVLVDJGNWtZZDdIcU1rODFTdGRES28xX0ViMGxYZE1qelAzTEhPeGFGaTlzTnM5eU5CRXZ2dXRhclVib0ZQbWtxNFY4WXNRY3IxaHlhaGZ5ZWhTSjVGdkVWcmM2a0VicGQzZ3JDajFxYnlqd08ta3gyVF9sdy1ibkxLVTFpbnZzbDE5eTY1QS05Z1JUM3I4aFNvTW5OdDQ4d2xmdHBCcTdjQTR4b0FXeUlMdlFNdGs4ZGhSbDBxWA?oc=5",
     "pub": "Fri, 19 Jun 2026 23:05:27 GMT",
@@ -1031,14 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPaTBGSzhTRG8zTXIwbDdRQWROOUptU0hHcUFHVXpJalN6ZTZ2R1pRNEgyTWJhUjVlb0ZCcXNvZjEtV3V2c011Y0Y3bVRLSkdwbFVwU1FWWS1EREZLTERBNndLckV6d0xrek1sZHQ2NWdGU1l6Q1hpZE92aGF5MWRIYWVfWnRXR0w3cURZTGYwYmZFbU5FN1FtamJZMGJZbURtNHNwU192QnB3czVaa0pSR0YxS3lOOHhibnpSUGpaT2tUOF9JSVZtdUV3V1ZPYzB5YUhaeWE4eEp5NzFWZlEzaGRCb0FIZGNnZXEweA?oc=5",
     "pub": "Fri, 19 Jun 2026 22:47:36 GMT",
     "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The US Dollar remembers how to rally - TMGM",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxONTB6QjU5NHFIbm5zbURtSUEyVlRuZ3pocjdxWG1mU3V6YkJxSi1mNzhnX1pZelhtNmZSSGdNS29GSmtKWHY2NElCS05ZWXNkT1FmRmVkUWVXaTYySkdxQUNPcEU5ZzR3dGJybnE1MC1vZGdzeFRoMmR1YTJTWTJWVmplOGVqXzJyTU5JbGxmY2VKbFg5dVZaYWVLdVVodHBHa2tJOQ?oc=5",
-    "pub": "Fri, 19 Jun 2026 22:40:27 GMT",
-    "src": "TMGM",
     "trig": false,
     "geo": false
    }
@@ -1148,18 +1148,18 @@
  "charts": {
   "vix": [
    24.06,
-   25.33,
-   24.54,
-   19.49,
-   17.94,
-   19.31,
-   16.89,
-   17.08,
-   17.26,
-   16.76,
-   15.74,
-   15.4,
-   18.44
+   27.44,
+   23.87,
+   19.23,
+   17.48,
+   18.71,
+   16.99,
+   17.19,
+   18.43,
+   16.7,
+   15.32,
+   21.51,
+   16.4
   ],
   "tnx": [
    4.28,
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.6,
-   99.65,
-   98.82,
-   98.22,
-   98.8,
-   98.08,
-   98.25,
-   98.88,
-   99.19,
-   98.91,
-   100.07,
+   99.9,
+   100.03,
+   98.65,
+   98.1,
+   98.51,
+   98.21,
+   97.84,
+   99.27,
+   99.32,
+   99.2,
+   100.05,
    100.85
   ],
   "bizd": [
@@ -1208,18 +1208,18 @@
   ],
   "vixts": [
    0.942,
-   0.988,
-   0.987,
-   0.859,
-   0.863,
-   0.909,
-   0.824,
-   0.82,
-   0.813,
-   0.801,
-   0.791,
-   0.793,
-   0.899
+   1.071,
+   0.96,
+   0.848,
+   0.841,
+   0.881,
+   0.829,
+   0.826,
+   0.868,
+   0.798,
+   0.77,
+   1.107,
+   0.8
   ],
   "hyoas": [
    2.79,
@@ -1708,7 +1708,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T06:41:44+00:00",
+  "checked": "2026-06-20T06:51:37+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T12:32:14+00:00",
+ "updated": "2026-06-20T12:41:49+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
+   "chg": 7.33,
+   "chg5": 29.62,
+   "sma20": 373.38,
+   "sma50": 362.54,
+   "sma200": 357.69,
+   "high3m": 409.99,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
+   "chg": 0.05,
+   "chg5": 0.37,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.55,
+   "sma200": 40.56,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": -9.0,
-   "chg5": -13.68,
-   "sma20": 17.4,
-   "sma50": 17.79,
-   "sma200": 19.13,
+   "chg": 2.25,
+   "chg5": -24.48,
+   "sma20": 17.42,
+   "sma50": 17.85,
+   "sma200": 19.15,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": -6.45,
-   "chg5": -12.12,
-   "sma20": 92.05,
-   "sma50": 94.95,
-   "sma200": 102.44,
+   "chg": 0.84,
+   "chg5": -18.24,
+   "sma20": 92.45,
+   "sma50": 95.41,
+   "sma200": 102.55,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": -0.0,
-   "chg5": 1.1,
-   "sma20": 99.68,
-   "sma50": 98.96,
-   "sma200": 98.68,
+   "chg": 0.76,
+   "chg5": 0.99,
+   "sma20": 99.59,
+   "sma50": 98.92,
+   "sma200": 98.66,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -627,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
+   "chg": -0.05,
+   "chg5": 0.84,
+   "sma20": 108.7,
+   "sma50": 108.92,
+   "sma200": 109.68,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -3.43,
-   "chg5": -6.07,
-   "sma20": 1039.46,
-   "sma50": 1110.54,
-   "sma200": 1084.51,
+   "chg": -6.33,
+   "chg5": -3.04,
+   "sma20": 1042.21,
+   "sma50": 1111.47,
+   "sma200": 1085.21,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63673.44,
-   "chg": 0.21,
-   "chg5": -3.1,
-   "sma20": 64493.46,
-   "sma50": 72670.92,
-   "sma200": 75740.28,
+   "price": 63554.33,
+   "chg": 0.02,
+   "chg5": -3.28,
+   "sma20": 64563.6,
+   "sma50": 72698.97,
+   "sma200": 75747.99,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781958706,
+   "mt": 1781959282,
    "ok": true
   },
   "USO": {
@@ -845,6 +845,22 @@
  "news": {
   "credit": [
    {
+    "title": "Goldman Sachs BDC Stock - Saturday look at the income-focused business model - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQelB4MkZPLVpBdjdRYzF2NU54Yl9kVjBkU0hyeUlUYUNYVm5RVmpZNXlvZEsxb2V2TWhyWDh6eS1yR3ZaZEczZzVOV2pJWWtxQllOOHZhUHlDM0tQSTVmMDVHYUNXRC1LYm9WNEZsNjVhYVZLNWFyRFhSSzZhS1lQQ0d1eU50M09pZ3hvVU85WUNod2RrQm45a3RqSnlXenozdjFVa0s5bXNsbWVqcG9OdkFJMlN2RUo5RU9vQ25MRGduLWhkaFE?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:28:10 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oaktree Specialty Lending Stock - long-term BDC model under the microscope - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0ZselpTQ1dlbjBBQkxtRjRPZF9qejEzc2s3N2E4bE9LWUgzalRwcjlOZVJEaHh6Szd1QTdFRy1fc0xUaC02cHhqWm5nWlJkTnJoUDZidk0wNnhUcGd2cXh2YlhpLXVCNE5ZZ1JIOUVQaXhPWURmTDRGNkw2TDB3Y1VCY3lxd21iMTZPdzJER296MXFuN1c1TnQzVkJfdzVmWDhYLUp4Qmh2bGh4ZWdXNDBVMU90TlJ6cGdYZXF0TXM5eGdVSHY0LVc3RQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:18:32 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave (CRWV) Stock: Cramer Hints at Undisclosed Backlog Beyond $99.4B - parameter.io",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVnh5Z01UaEpFeW50RWVKQ0gwS0V5SWY5anNwN3h3cGF2WXpIUm1VNHhqRlkyQ054VnFVNDZ4RjMySTNQLXUzbkRvSUNLWE4xOW90V0M5YjVZTWVUSDZ2MlJDNmJEZG5Lc0laNl9ia3ZxWlJDWG40VlpqLXFzYnV1RXlraEd0UHdrM0Y0eFR5MzdLNUlTUlE?oc=5",
     "pub": "Sat, 20 Jun 2026 11:08:05 GMT",
@@ -875,25 +891,17 @@
     "src": "CoinCentral",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave Reports Large Backlog Amid Elevated Debt Costs - Let's Data Science",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbU15NjZ3cU5uUzNMekkxUGxsLWJHRENLelpqWEhrTE55eGZqWmdMU0pEVXUtLU5tdVFwLW9sVnJFWFlnTFNMRzh5ZU5jZXhwNUgzMnNYcWxDWFNxbGRTanZTb2IxZDV5cHRNRXh1YWp3Tl9aYnk3Vk5OdWpqektmQnV6Wk0zV3J4bjF4Tm53UU9KSndiRUdrWFpKNEwwVDg?oc=5",
-    "pub": "Sat, 20 Jun 2026 09:15:39 GMT",
-    "src": "Let's Data Science",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Breaking: Lee Jung-hoo Breaks Two-Game Slump With Hit, Steal - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeHJOUXdnalRiem9hVTBaX2ZTbTRBS2xhUW0wTUpoQTR0RmtJNk1iMERnSmhBNGR5YnFnYVpLZ1JVNm9JUFNUdk45UEZpUENGRFdMY1d4MXI3RGl3SUg2aTZzeGd2T2c3cndxYm9sOFB1RXVITVhieUh1NGxLdk9iQTNyQXEyZw?oc=5",
-    "pub": "Sat, 20 Jun 2026 00:20:03 GMT",
-    "src": "조선일보",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Top 10 Macro/Financial Charts of the Week – w25 (2026) - christophe-barraud.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYm9rcnRvdGowUzRxMjNGT0huTkRYS2NrbURBY21jeUFKZ0pPTG9qOXRqT3Q4b0J6MzBVdE1xRC1PY1pHX2RqQzlIOEFxb1ZQa2hpUGtsNEJGOXpoRmMzVUVYdVVYTWF4V0dlc2xsQ3FUX1ZyeUdzVzU0RUJWTGRCS08tMmlWT3J5TS1IbDBtVQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 10:57:00 GMT",
+    "src": "christophe-barraud.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Intel shares soar on Google deal to build TPUs. Here's what it means for INTC stock. - MSN",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY0pQZV8xRTJ5eHpWcl9JM1lCejFySmdvTm1IVXZRX2RfMGV0WjZVV1dtYXI2b0xOUldXZTQydEkxaEhhSlM5YkVFRmJPOUxQS2dEakszeEZFcDBqYU10WC1paDBjcGI4MXg5eEZMT0duZ20zRzdXeGhTVTRldnNpYk1VZ0x1OVhwaTk3RjZJdG1Hck5GQnV0YVd4dlRVbUF2VGNsQlVPODZWR0lwbWU4STg0NG94U29JUmJCb3hiVVk0UGUteHlRS2RqR2M0ZDAtX1E?oc=5",
@@ -933,17 +941,17 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SK Telecom shifts AI race to inference, builds full-stack data centers in Korea - CHOSUNBIZ - Chosunbiz",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSlNCaWxIaDVPSFJXNUxWR09pQzVWTDNlNHkzX2RXSnBDNFdKcXdoOEtSM2ttUWUxcVZydzFtRFo5M0tKQlVnTGpodlhFdk9rOXF6SHl1RTFqbEJacnZ5b25ody1WN3Z0TU1HWS1LN3d4NENRR3BpYmtocl9IbkF3VVNhczFNQjhkQUROS2d30gGOAUFVX3lxTE9KU0JpbEhoNU9IUlc1TFZHT2lDNVZMM2U0eTNfZFdKcEM0V0pxd2g4S1Iza21RZTFxVnJ3MW1EWjkzS0pCVWdMamh2WEV2T2s5cXpIeXVFMWpsQlpydnlvbmh3LVY3dnRNTUdZLUs3d3g0Q1FHcGlia2hyX0huQXdVU2FzMU1COGRBRE5LZ3c?oc=5",
-    "pub": "Fri, 19 Jun 2026 21:01:00 GMT",
-    "src": "Chosunbiz",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "JPMorgan Posted Record Profits, but CEO Jamie Dimon Says the Next Crisis Will Be Worse Than Anyone Expects - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNam83MmEwcUNNR0dlY1RnWkdEa2FITVMwNHAyMjBBS0VtLTFxNjdsdjBoZ1JuOGhJak1nV1RVczFfNWVxUFF0ZW94cGNFeVhRZGktdElnb0tCcEFtdExHOU9US3U0VHVBUGtBcUtDMklyQUpvQnBLdmpGREhZV2J3ZkQ4MmVrM2VMaFV1UDhTNFEzekt1eFBkZ1I5STJyNkUzcHB4RWpKdGx2dzZMYzVZaVNweWZsMWpxQnRlMm9xTnJhYTVtWjM0b1NiVUs2MTVSR2dFMnl2ODh5VmxXcENfX2luYw?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:30:25 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Israeli strike kills Lebanese soldier amid escalating conflict with Hezbollah - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdXhnVDk1SHdrQlUwX0tpYUxHYktVTVVrY2RJTXloMDJkVGFIemtVYmZMa3JxN3MwNzZMNk54T2tLQ3RfVmxfVUM5ZWlCM01nOGJCUTRFWVRSdnBLNDdkdVJTdHpGQ19sNlEteGhMdS1HQl9Mano5azdGeGhZNTMzWmpqM3RCdGxJcEgwUGU1STdkVnNybDU4R2V6TDJtNnp0M0JtRWZZdkg?oc=5",
@@ -961,6 +969,14 @@
     "geo": false
    },
    {
+    "title": "Why the Strait of Hormuz matters for oil markets, Azerbaijan and the Middle Corridor - Latest news from Azerbaijan",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2YwQ1hRbFY1N21aYlVNelkwanlUOHM5RnFOSDJxXzlHRnhMZlJUUXBpREpuczZPbDVzM1EtSWxnbGVkc3JtNUg2UFdoSnNoNlUyUHVQanNpMTZHcVNDQ2JES1VPOVVsNm1wS3FkMVU2TThoRkx5UHFKMmpyTVMzdUVXZjJpc3JrRFhNdExVUjRpZFFFU1Q2eW1BRFBBMEprdTk5WnJUVQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 07:20:06 GMT",
+    "src": "Latest news from Azerbaijan",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Markets Snap Five-Day Rally as IT Sell Off Drags Sensex Below 77,000 - The Indian Awaaz",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1hkTk81aFRzMWxFTFhDTTh0dXdqX0hxSXpZYkFTRi02dXFpUjNXQngxOF9kOTYzNEFEQ3o0THF2QTlkR2REZGxtYUpacDVaQ1g0aVRwRTh4a1NWQ0s2UGhRSno2UFF3VnpaM215YkxFdzZZcjhnSWhZSHdCQ3l0eTJ3SXlNeHR3VnZTVEdYQm1sSnJBeWtIcjB1OA?oc=5",
     "pub": "Sat, 20 Jun 2026 05:16:00 GMT",
@@ -969,26 +985,10 @@
     "geo": false
    },
    {
-    "title": "PGIM Global Total Return Fund Q1 2026 Commentary (PZTRX) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmpEU2h1WUZWMDlILUs4TUZJZTY4NWNpcmd2VUF1U0k5bzJuZHQzT1JQMV8zSTIwdEhISTM1ZUtxenY1dTB1UUd0dTNLSmo5a0IxQjVqdnVYX0t4MDFUZjh1Vk9JOTI4a1pWSlNvUkYwc2ZvdWhjUGUtaHJiOWEta1dWTHg1ZEdXVmpTRGgxcm56N3M?oc=5",
-    "pub": "Fri, 19 Jun 2026 18:14:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why is market falling today? Sensex slumps 800 points, Nifty below 23,950. IT selloff among 5 key triggers - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPTkNYRXE2M1FwQVFBUGdkSHlsSWphcVBnOEc5dUFGdzlOS2tfb3pvbDVvUVV1aW5TU2RSbEJtTGRteVFSSFlCM2JTbFVPZTlvVTg4b3pWRFk1ZFdGRnMzVW9CNllFTWJnQ2NPdFNLZlVzZklsNTRqM0pkOURDblJlNVdpZ3FWTFdLN0ptZlpBT1JkNUphckliMXZSb1RxbFVDVlNTek5TNm9ZZlpTN2VaQXd6ei03TnJvVmpNOEhNSVRYQkxkblhtTzVKeWVSUDc1TkFka09lSGlrVFd0aE51ZmI1Ui1uT213X3IyQzB3RGh6QQ?oc=5",
-    "pub": "Fri, 19 Jun 2026 17:42:52 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "India’s Beauty Products Market Projected To Reach USD 39 Bn by 2030: Report - HDFC Sky",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTGpKcVFqNTNQU3RQekdnaGVWa2hMU0Z2b3gzMXlKOEZWSURMZWVXdko2Z2swcVgtYW9uUnFMWjA4NEZmNm95dy1VYU9YQjVXZ2pKX0xhZjhHQ0VtRXpNMFlja3lFc192VjFickxNVkRXenZPdEhTX2t2UzZReWt1WmdoYmZ6ekdN?oc=5",
-    "pub": "Fri, 19 Jun 2026 12:39:53 GMT",
-    "src": "HDFC Sky",
+    "title": "The Canadian Dollar ditches Crude Oil for Gold - TMGM",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRVdQNkx3dHFyX3p3YnN0VmswVTBGLXRxbEZrMGhXcHA4RGNmem9XRzhCR1BCMUxRSWFxMmR4VFBFMjdaMExrWGFQRTlWNlNONENyb1lEamNhTndZSzdFMXlhTk5vTUVpRzJocFNrdV9ZUEQ4Sjh6anhSRzZTdDUwTE81aFJvX3JRRTA3ZGprOUFuZ2RLTUNnYnNhcmo0WVhSWEJveEZFUHlJbzFZYmJQbzZR?oc=5",
+    "pub": "Fri, 19 Jun 2026 22:23:29 GMT",
+    "src": "TMGM",
     "trig": false,
     "geo": false
    }
@@ -1148,18 +1148,18 @@
  "charts": {
   "vix": [
    24.06,
-   27.44,
-   23.87,
-   19.23,
-   17.48,
-   18.71,
-   16.99,
-   17.19,
-   18.43,
-   16.7,
-   15.32,
-   21.51,
-   16.4
+   25.33,
+   24.54,
+   19.49,
+   17.94,
+   19.31,
+   16.89,
+   17.08,
+   17.26,
+   16.76,
+   15.74,
+   15.4,
+   18.44
   ],
   "tnx": [
    4.28,
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.9,
-   100.03,
-   98.65,
-   98.1,
-   98.51,
-   98.21,
-   97.84,
-   99.27,
-   99.32,
-   99.2,
-   100.05,
+   99.6,
+   99.65,
+   98.82,
+   98.22,
+   98.8,
+   98.08,
+   98.25,
+   98.88,
+   99.19,
+   98.91,
+   100.07,
    100.85
   ],
   "bizd": [
@@ -1208,18 +1208,18 @@
   ],
   "vixts": [
    0.942,
-   1.071,
-   0.96,
-   0.848,
-   0.841,
-   0.881,
-   0.829,
-   0.826,
-   0.868,
-   0.798,
-   0.77,
-   1.107,
-   0.8
+   0.988,
+   0.987,
+   0.859,
+   0.863,
+   0.909,
+   0.824,
+   0.82,
+   0.813,
+   0.801,
+   0.791,
+   0.793,
+   0.899
   ],
   "hyoas": [
    2.79,
@@ -1278,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장 속 VIX 17 저위, 미10년 금리 4.45%와 강달러(DXY 100.8)가 유지되며 신용스프레드 양호·금융조건 완화 상태가 지속 중입니다. AI인프라 투자 가속화로 CoreWeave 등 데이터센터 업체 백로그 확대와 함께 삼성·마이크론·SK하이닉스의 HBM 공급 병목이 심화되는 상황입니다.",
+  "text": "중동 지정학 긴장(이스라엘-헤즈볼라 충돌, 호르무즈 해협 우려)이 고조되는 가운데 VIX 17·HY스프레드 2.63%로 신용 시장은 여전히 완화적이나, 실러CAPE 42의 고평가와 기업 수익성 회의(MS AI약속 대 실적 괴리)가 잠재 리스크로 작용 중입니다. AI 칩 수급은 엔비디아 주도 체계화·인텔-구글 TPU 협력 진전, 코어웨이브 백로그 확대 등으로 특이 공급 병목 신호는 없으며, 주권AI 수요(Nebius NASDAQ 진출)가 수급을 지탱하는",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1288,7 +1288,7 @@
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 0,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -1707,7 +1707,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T12:32:07+00:00",
+  "checked": "2026-06-20T12:41:41+00:00",
   "openai": {
    "found": false
   },

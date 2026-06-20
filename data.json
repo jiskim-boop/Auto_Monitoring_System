@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T12:41:49+00:00",
+ "updated": "2026-06-20T12:52:01+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.24,
-   "chg5": 11.94,
-   "sma20": 132.0,
-   "sma50": 143.53,
-   "sma200": 151.65,
+   "chg": 2.22,
+   "chg5": 9.18,
+   "sma20": 132.05,
+   "sma50": 143.02,
+   "sma200": 151.52,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 7.33,
-   "chg5": 29.62,
-   "sma20": 373.38,
-   "sma50": 362.54,
-   "sma200": 357.69,
-   "high3m": 409.99,
+   "chg": 6.46,
+   "chg5": 26.53,
+   "sma20": 377.97,
+   "sma50": 364.69,
+   "sma200": 358.33,
+   "high3m": 436.29,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.2,
-   "chg5": 0.2,
-   "sma20": 20.48,
+   "chg": -0.05,
+   "chg5": 0.1,
+   "sma20": 20.47,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.05,
-   "chg5": 0.37,
+   "chg": 0.1,
+   "chg5": 0.25,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.56,
+   "sma200": 40.55,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": 2.25,
-   "chg5": -24.48,
-   "sma20": 17.42,
-   "sma50": 17.85,
-   "sma200": 19.15,
+   "chg": -9.0,
+   "chg5": -13.68,
+   "sma20": 17.4,
+   "sma50": 17.79,
+   "sma200": 19.13,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": 0.84,
-   "chg5": -18.24,
-   "sma20": 92.45,
-   "sma50": 95.41,
-   "sma200": 102.55,
+   "chg": -6.45,
+   "chg5": -12.12,
+   "sma20": 92.05,
+   "sma50": 94.95,
+   "sma200": 102.44,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.85,
-   "chg5": 2.54,
-   "sma20": 141.51,
-   "sma50": 141.47,
-   "sma200": 144.34,
+   "chg": 2.87,
+   "chg5": 2.62,
+   "sma20": 142.23,
+   "sma50": 141.4,
+   "sma200": 144.36,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -627,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": -0.05,
-   "chg5": 0.84,
-   "sma20": 108.7,
-   "sma50": 108.92,
-   "sma200": 109.68,
+   "chg": 0.28,
+   "chg5": -0.01,
+   "sma20": 108.75,
+   "sma50": 108.91,
+   "sma200": 109.67,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": 2.12,
-   "chg5": 16.6,
-   "sma20": 8229.44,
-   "sma50": 7294.66,
-   "sma200": 6062.91,
-   "high3m": 9052.42,
+   "chg": -0.13,
+   "chg5": 11.43,
+   "sma20": 8322.18,
+   "sma50": 7366.93,
+   "sma200": 6087.92,
+   "high3m": 9063.84,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -6.33,
-   "chg5": -3.04,
-   "sma20": 1042.21,
-   "sma50": 1111.47,
-   "sma200": 1085.21,
+   "chg": -3.43,
+   "chg5": -6.07,
+   "sma20": 1039.46,
+   "sma50": 1110.54,
+   "sma200": 1084.51,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63554.33,
-   "chg": 0.02,
-   "chg5": -3.28,
-   "sma20": 64563.6,
-   "sma50": 72698.97,
-   "sma200": 75747.99,
+   "price": 63504.0,
+   "chg": -0.06,
+   "chg5": -3.36,
+   "sma20": 64484.99,
+   "sma50": 72667.53,
+   "sma200": 75739.35,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781959282,
+   "mt": 1781959894,
    "ok": true
   },
   "USO": {
@@ -845,6 +845,14 @@
  "news": {
   "credit": [
    {
+    "title": "CEF Weekly Review: Covered Call Funds Hike Distributions As Stocks Surge - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaWdvbnFzVTl4Um91UUlIcUJ2Zkc1aHFJcC14d0V3QzJOeTRReHJjd3hPVzlDVkRPVkZIb3M5cHo2dEhIOTFNR0hjd3A5YVllUFdUY0ZxMlk0dWIyc3hSWXd5OEthYVZTZUpvSy1SaUxLS2FoSzFVcFBSaXotcld4cDM2RTFHZE5sb2NhRDF0ekllbWxRNWsxWGdXbzNUM2Qzdmh3NXdhWUplSkxORTAxVzN3?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:36:31 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Goldman Sachs BDC Stock - Saturday look at the income-focused business model - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQelB4MkZPLVpBdjdRYzF2NU54Yl9kVjBkU0hyeUlUYUNYVm5RVmpZNXlvZEsxb2V2TWhyWDh6eS1yR3ZaZEczZzVOV2pJWWtxQllOOHZhUHlDM0tQSTVmMDVHYUNXRC1LYm9WNEZsNjVhYVZLNWFyRFhSSzZhS1lQQ0d1eU50M09pZ3hvVU85WUNod2RrQm45a3RqSnlXenozdjFVa0s5bXNsbWVqcG9OdkFJMlN2RUo5RU9vQ25MRGduLWhkaFE?oc=5",
     "pub": "Sat, 20 Jun 2026 12:28:10 GMT",
@@ -869,14 +877,6 @@
     "geo": false
    },
    {
-    "title": "Nebius Rides the Sovereign AI Wave to a Nasdaq-100 Debut and a 6x Stock Surge - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjFSSUR4WEhySTRlbDBNU0dyZ0dwYWh2MUpSVHcwc3owRl9xcnNNZzA3YTR6Mi1fcnBQMi0wYzBvbVBWaGZLRkdFRm84QmhzYmJTVDl0a2l0dkhmejVxcnVsWlk1ak1UQ3E3SnpEb09FTlB5SVFVUEN1VjJoZGc2TDlvOXZFOXN3UWxaRmhxSnh1RG1HMVB6S0xYQzRRZklOZnJyUTRvNURieVo0TGJrRXA0dDd3bGNzQ3RwVlkwUlV4NXdiZTg2bWZ3?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:06:56 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave (CRWV) Stock: Jim Cramer Believes Hidden Revenue Pipeline Exceeds Reported Figures - Blockonomi",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTBTLXdmc0FubzdoTDlqZVFmdGMyVUdObGpwY2dGUG5sUmtqS001VHpOU0d5V2dHbjg1U2Z3UFVYM3BmOVI4VzRleU1DUzRrZ21XLWQ4cHhuVWVHYWJsR0JrTWg1UVg0RE9nemQ0djduQnNBM2k2bjgwZHJ4aFg3Y00yc1lsQWx3UkVYVmpwTUJJREFua2VvV3ZxMGpCaWtINDJEaFJpMUc4WWhpWFFPQlpHUQ?oc=5",
     "pub": "Sat, 20 Jun 2026 11:05:02 GMT",
@@ -885,23 +885,15 @@
     "geo": false
    },
    {
-    "title": "CoreWeave (CRWV) Stock: Cramer Says the Real Backlog Is Bigger Than You Think - CoinCentral",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQV0ZjeDNDVHNhNDVnb0VDeE9YT0tLN0VRa3A2QXNpSWtkN2YyaGlGQVVzLUhPaEVTaWZnSEJ1MGp1SnhTc3lVQkxJNWlydHE1MEh5N3dLajJsSnhUVjQ3UUpVR29DcHgxdXRqY2ZxR01OYWdtV3ZxbFR5czE5c0ZNMlVyX0Q1UWFTQXlRc2ZpSVhoOXZXWDlGVWlVdlZkYVd4?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:52:13 GMT",
-    "src": "CoinCentral",
+    "title": "CoreWeave Reports Large Backlog Amid Elevated Debt Costs - Let's Data Science",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQbU15NjZ3cU5uUzNMekkxUGxsLWJHRENLelpqWEhrTE55eGZqWmdMU0pEVXUtLU5tdVFwLW9sVnJFWFlnTFNMRzh5ZU5jZXhwNUgzMnNYcWxDWFNxbGRTanZTb2IxZDV5cHRNRXh1YWp3Tl9aYnk3Vk5OdWpqektmQnV6Wk0zV3J4bjF4Tm53UU9KSndiRUdrWFpKNEwwVDg?oc=5",
+    "pub": "Sat, 20 Jun 2026 09:15:39 GMT",
+    "src": "Let's Data Science",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
-   {
-    "title": "Top 10 Macro/Financial Charts of the Week – w25 (2026) - christophe-barraud.com",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYm9rcnRvdGowUzRxMjNGT0huTkRYS2NrbURBY21jeUFKZ0pPTG9qOXRqT3Q4b0J6MzBVdE1xRC1PY1pHX2RqQzlIOEFxb1ZQa2hpUGtsNEJGOXpoRmMzVUVYdVVYTWF4V0dlc2xsQ3FUX1ZyeUdzVzU0RUJWTGRCS08tMmlWT3J5TS1IbDBtVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:57:00 GMT",
-    "src": "christophe-barraud.com",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Intel shares soar on Google deal to build TPUs. Here's what it means for INTC stock. - MSN",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY0pQZV8xRTJ5eHpWcl9JM1lCejFySmdvTm1IVXZRX2RfMGV0WjZVV1dtYXI2b0xOUldXZTQydEkxaEhhSlM5YkVFRmJPOUxQS2dEakszeEZFcDBqYU10WC1paDBjcGI4MXg5eEZMT0duZ20zRzdXeGhTVTRldnNpYk1VZ0x1OVhwaTk3RjZJdG1Hck5GQnV0YVd4dlRVbUF2VGNsQlVPODZWR0lwbWU4STg0NG94U29JUmJCb3hiVVk0UGUteHlRS2RqR2M0ZDAtX1E?oc=5",
@@ -935,10 +927,18 @@
     "geo": false
    },
    {
-    "title": "Samsung, Micron, SK Hynix squeeze consumer tech amid chip shortage - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9fa0kxZ09HRTNLeEFoTHZKXzhyVGdaWnpVM05Lc1V6MllrSXZwUWVxa3ZwZ01IdW9NNlV6eW1Gb2JjeWNfOG5ocDZHdWtEQ05MTG1JWFBZZ3FWNmpWekN4S2ZMV1ZLbThhR2F0VTRramhyRUU?oc=5",
-    "pub": "Fri, 19 Jun 2026 23:09:49 GMT",
-    "src": "Crypto Briefing",
+    "title": "Goldman Sachs Warns Big Tech's $770 Billion AI Spending Frenzy Could Backfire— Here's Why - Sahm",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOa2FBdkdBZzFyNE4xUlk4QUNpV3ZPQmR2QWRsM0YzSG5sNTk0ai12MzFGRzNJQjM2U3JkY2xEYUw4c0plWjhTQ3VpY2VId0dSMXNaaXNvVFpMLXRMNDNqM3JKNTA0TEpiQ2xUTGtONURCSy1NYkdKNTJGbnUyNUMzdzA3SWtXc3BUZDkweXZnU2c4SEpteUlMcThkRjlVSTgxTlJsdkxUQ3Z5LU5uUXBjVUJyTGFRYVh6cXRYMGlHX2lmblJUQUIwYldCYUF5bWsxcGww?oc=5",
+    "pub": "Fri, 19 Jun 2026 21:54:48 GMT",
+    "src": "Sahm",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SK Telecom shifts AI race to inference, builds full-stack data centers in Korea - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPSlNCaWxIaDVPSFJXNUxWR09pQzVWTDNlNHkzX2RXSnBDNFdKcXdoOEtSM2ttUWUxcVZydzFtRFo5M0tKQlVnTGpodlhFdk9rOXF6SHl1RTFqbEJacnZ5b25ody1WN3Z0TU1HWS1LN3d4NENRR3BpYmtocl9IbkF3VVNhczFNQjhkQUROS2d30gGOAUFVX3lxTE9KU0JpbEhoNU9IUlc1TFZHT2lDNVZMM2U0eTNfZFdKcEM0V0pxd2g4S1Iza21RZTFxVnJ3MW1EWjkzS0pCVWdMamh2WEV2T2s5cXpIeXVFMWpsQlpydnlvbmh3LVY3dnRNTUdZLUs3d3g0Q1FHcGlia2hyX0huQXdVU2FzMU1COGRBRE5LZ3c?oc=5",
+    "pub": "Fri, 19 Jun 2026 21:01:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    }
@@ -969,14 +969,6 @@
     "geo": false
    },
    {
-    "title": "Why the Strait of Hormuz matters for oil markets, Azerbaijan and the Middle Corridor - Latest news from Azerbaijan",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2YwQ1hRbFY1N21aYlVNelkwanlUOHM5RnFOSDJxXzlHRnhMZlJUUXBpREpuczZPbDVzM1EtSWxnbGVkc3JtNUg2UFdoSnNoNlUyUHVQanNpMTZHcVNDQ2JES1VPOVVsNm1wS3FkMVU2TThoRkx5UHFKMmpyTVMzdUVXZjJpc3JrRFhNdExVUjRpZFFFU1Q2eW1BRFBBMEprdTk5WnJUVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 07:20:06 GMT",
-    "src": "Latest news from Azerbaijan",
-    "trig": false,
-    "geo": true
-   },
-   {
     "title": "Markets Snap Five-Day Rally as IT Sell Off Drags Sensex Below 77,000 - The Indian Awaaz",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOM1hkTk81aFRzMWxFTFhDTTh0dXdqX0hxSXpZYkFTRi02dXFpUjNXQngxOF9kOTYzNEFEQ3o0THF2QTlkR2REZGxtYUpacDVaQ1g0aVRwRTh4a1NWQ0s2UGhRSno2UFF3VnpaM215YkxFdzZZcjhnSWhZSHdCQ3l0eTJ3SXlNeHR3VnZTVEdYQm1sSnJBeWtIcjB1OA?oc=5",
     "pub": "Sat, 20 Jun 2026 05:16:00 GMT",
@@ -985,31 +977,23 @@
     "geo": false
    },
    {
-    "title": "The Canadian Dollar ditches Crude Oil for Gold - TMGM",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRVdQNkx3dHFyX3p3YnN0VmswVTBGLXRxbEZrMGhXcHA4RGNmem9XRzhCR1BCMUxRSWFxMmR4VFBFMjdaMExrWGFQRTlWNlNONENyb1lEamNhTndZSzdFMXlhTk5vTUVpRzJocFNrdV9ZUEQ4Sjh6anhSRzZTdDUwTE81aFJvX3JRRTA3ZGprOUFuZ2RLTUNnYnNhcmo0WVhSWEJveEZFUHlJbzFZYmJQbzZR?oc=5",
-    "pub": "Fri, 19 Jun 2026 22:23:29 GMT",
-    "src": "TMGM",
+    "title": "US EIA Concedes Middle East Supply Disruptions are Far Worse Than Prior Estimates - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOYnBYTlphRWRDWFUxbmI3RUxzNm12UUVtcVBHRy12bXZ1Uk40R3VCWHZLeEJyeDJTeDhNeXN4T2RzZ3FtZW5FdEk4YWJMSm1xbm01VUQ3QktrdnhsQU5pam1mbGhnN0pzTUh6ZEJMcHBSSEtTSGNPMy1VMUJFN3MtM2R5MXFoUWNYWWczekl6Y0N2UWhzakxXZ1d2Vm5OaUw4NFcwanFKVFNFeExwd1M3Sg?oc=5",
+    "pub": "Fri, 19 Jun 2026 21:14:12 GMT",
+    "src": "EnergyNow",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "PGIM Global Total Return Fund Q1 2026 Commentary (PZTRX) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxORmpEU2h1WUZWMDlILUs4TUZJZTY4NWNpcmd2VUF1U0k5bzJuZHQzT1JQMV8zSTIwdEhISTM1ZUtxenY1dTB1UUd0dTNLSmo5a0IxQjVqdnVYX0t4MDFUZjh1Vk9JOTI4a1pWSlNvUkYwc2ZvdWhjUGUtaHJiOWEta1dWTHg1ZEdXVmpTRGgxcm56N3M?oc=5",
+    "pub": "Fri, 19 Jun 2026 18:14:00 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "OPINION | Sky’s the limit for investors seeking some copper action - News24",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTkhUVG5QTDI1VHZ6TUNqWDdBbndPWFduUzd1X3kySVRnMUxZNWVBMnE0QkV2Njc3VXpIbFdrRGpJZzZSZEl0WlhJZHFncE9VNmhPSjBjbDFwbXBVc2hranZaLXp4cEtlNndWVnB2WkkwcHpjVjJxMmo3MmZkRFh1RkRLbl9jSElmazI3c1pyTGVlMGFtM3ROLWZvVmdINHgwdVNvalZTYWgzUWZ1RjRTYS1yQk9zNTdV?oc=5",
-    "pub": "Sat, 20 Jun 2026 12:04:03 GMT",
-    "src": "News24",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why DaanCrypto Analyzes DXY Retesting 100 Level - Coinfomania",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBSQlg5VmNEMWx3QlFpaHB1ODZFb05rMEN0WlBzSEVwTUhjbHloZWxRSDdsSWN4a3hXQ1gxQi1iY0wydlVWZmxDeFdPNFEtZ2JUazg3eVlYVENJckU4d0NIMmcyUXB2N1oxUjRkaHJ4TkMzX0wzQWEtQWdFaWY?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:34:19 GMT",
-    "src": "Coinfomania",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "【X Latest】Nikkei Crashes 4%: Is The Yen Carry Trade Ending? Cancellieri (u4WYA8bD8n) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kMW9LLXN5amtXV0hTSkNHaG5fMzdBWW5Sb0tKUEMxakE0ZDRYbjdQakdCTWZ5MUZfdlhrMkxhWFh4a0xMNlhXcFllWk5xRlhQOElGZDhRVzdTTVU?oc=5",
@@ -1039,6 +1023,22 @@
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPckJWMEdyeUNyT0t2OXRsMzVoYXlLcHlhMFdyRHNfdXZqaUtYMG9Ja1dlMVZDRlZKaGhCc21OeEFrcVRJZ000NUVmMXhVb1pHTDFTVU1OUUNaZWV0YXFlN00ydjJLblA0Nzk4UVJWZEhIbFJmLWduTnhTSGlCa1ZndTV6RmxsMFRVZk1iWEJ1dkZHRXNEUGwxa3hEZnhDRnotSmhOaVctcXVMaU5hczcyR0p2RjdPTTFfZjRyR1RIaTRJMVdhYm9KUXp0a0VyZFVHMk1FenI4MTI5bWNDaTd2Nnh3OXnSAeQBQVVfeXFMT3JCVjBHcnlDck9Ldjl0bDM1aGF5S3B5YTBXckRzX3V2amlLWDBvSWtXZTFWQ0ZWSmhoQnNtTnhBa3FUSWdNNDVFZjF4VW9aR0wxU1VNTlFDWmVldGFxZTdNMnYyS25QNDc5OFFSVmRISGxSZi1nbk54U0hpQmtWZ3U1ekZsbDBUVWZNYlhCdXZGR0VzRFBsMWt4RGZ4Q0Z6LUpoTmlXLXF1TGlOYXM3MkdKdkY3T00xX2Y0ckdUSGk0STFXYWJvSlF6dGtFcmRVRzJNRXpyODEyOW1jQ2k3djZ4dzl5?oc=5",
     "pub": "Sat, 20 Jun 2026 03:25:19 GMT",
     "src": "LatestLY",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The New Safe Haven Isn't Gold, It's Electricity - The Auto Channel",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRHpxbUJTN2VKckFHZnFKVXdrSlF5ZnRuT25zdXlLRE9DX19IelhpUV9PVHVIMWJuZE4tZFowSTkyajJnMWZBZDJBUWlNZi0zZXhvUjhrUW54QlB4YlBGY0I5cnFRSnhqckJGRlVuVVRaSjlLQnEwSWNadmtPVE5JZDMtelpEX1ZoTFNiTWFfb1hlQmxZMW13elpFanUzRjgtQVRQTA?oc=5",
+    "pub": "Sat, 20 Jun 2026 02:29:02 GMT",
+    "src": "The Auto Channel",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Japanese Yen Rebounds from Two-Year Low as BoJ Rate Hike Expectations Offset Soft CPI Data - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQS2huQUVrOVFFNzFhZkhkSWc1UVpOZ082eXJVaDZET3YyMU5JRkc2LUdMOWUzMldpRjZHTTFsaHNSeGhQZ3pRb0ZWNFNJeWUwYW9PVDlIMEdDcFowNF81WHIxeHdTZ0FYeWhlTVdaaVBwb0FuU3VGb0dLTlJaYlhSM3lRb2UzYVdzcWdxd0plV3VoaFc2QnRTWTRMajNtM0JW?oc=5",
+    "pub": "Sat, 20 Jun 2026 00:01:40 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.6,
-   99.65,
-   98.82,
-   98.22,
-   98.8,
-   98.08,
-   98.25,
-   98.88,
-   99.19,
-   98.91,
-   100.07,
+   99.9,
+   100.03,
+   98.65,
+   98.1,
+   98.51,
+   98.21,
+   97.84,
+   99.27,
+   99.32,
+   99.2,
+   100.05,
    100.85
   ],
   "bizd": [
@@ -1278,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장(이스라엘-헤즈볼라 충돌, 호르무즈 해협 우려)이 고조되는 가운데 VIX 17·HY스프레드 2.63%로 신용 시장은 여전히 완화적이나, 실러CAPE 42의 고평가와 기업 수익성 회의(MS AI약속 대 실적 괴리)가 잠재 리스크로 작용 중입니다. AI 칩 수급은 엔비디아 주도 체계화·인텔-구글 TPU 협력 진전, 코어웨이브 백로그 확대 등으로 특이 공급 병목 신호는 없으며, 주권AI 수요(Nebius NASDAQ 진출)가 수급을 지탱하는",
+  "text": "달러강세(DXY 100.8)와 중동 공급차질 심화로 인플레이션 재점화 우려가 커지는 가운데, 신용스프레드 안정(HY 2.63%)과 저변동성(VIX 17)이 긴장을 완화하는 국면입니다. AI capex 사이클에서 코어웨이브 등 인프라 기업의 높은 백로그(99.4B 이상)가 GPU/HBM 수급 강세를 뒷받침하는 한편, 메가테크의 AI 지출(770B달러) 실적 부담론이 동시에 제기되고 있습니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1288,7 +1288,7 @@
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -1707,7 +1707,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T12:41:41+00:00",
+  "checked": "2026-06-20T12:51:53+00:00",
   "openai": {
    "found": false
   },

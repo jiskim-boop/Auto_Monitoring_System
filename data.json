@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T21:02:26+00:00",
+ "updated": "2026-06-20T21:11:43+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.05,
-   "chg5": 0.37,
+   "chg": 0.1,
+   "chg5": 0.25,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.56,
+   "sma200": 40.55,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": 0.76,
-   "chg5": 0.99,
-   "sma20": 99.59,
-   "sma50": 98.92,
-   "sma200": 98.66,
+   "chg": -0.0,
+   "chg5": 1.1,
+   "sma20": 99.68,
+   "sma50": 98.96,
+   "sma200": 98.68,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -675,12 +675,12 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": 2.12,
-   "chg5": 16.6,
-   "sma20": 8229.44,
-   "sma50": 7294.66,
-   "sma200": 6062.91,
-   "high3m": 9052.42,
+   "chg": -0.13,
+   "chg5": 11.43,
+   "sma20": 8322.18,
+   "sma50": 7366.93,
+   "sma200": 6087.92,
+   "high3m": 9063.84,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63879.6,
-   "chg": 0.53,
-   "chg5": -2.79,
-   "sma20": 64503.77,
-   "sma50": 72675.04,
-   "sma200": 75741.41,
+   "price": 63872.47,
+   "chg": 0.52,
+   "chg5": -2.8,
+   "sma20": 64503.41,
+   "sma50": 72674.9,
+   "sma200": 75741.37,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781989320,
+   "mt": 1781989883,
    "ok": true
   },
   "USO": {
@@ -845,6 +845,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave edges higher before Nasdaq-100 debut, week looks ahead to debt moves - TechStock²",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclVOcl9RRWpqNjlHUFdTeEs5MElqNHJ4TU13WVdudHdVN0Y1X0F3dnhLNEtUdlp3Nkxva1d6LXhvdklzNFBYVE1vQ2pRQVRuZ1ZVQmxzblFjbEVkNmQxMjFQd2FYVjFjZXFkRjdQbUFTMWZMb0tRRXZsUUMyTkpfQ2ZWZGZUTVUxUFptdTR4WUNJQlZLalJZQ09ibWRhWkk?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:31:29 GMT",
+    "src": "TechStock²",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Orrick Expands Structured Finance Team With Four Partner Hires - Pulse 2.0",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUdIBwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUQ?oc=5",
     "pub": "Sat, 20 Jun 2026 17:17:44 GMT",
@@ -861,39 +869,39 @@
     "geo": false
    },
    {
-    "title": "Nebius Rides the Sovereign AI Wave to a Nasdaq-100 Debut and a 6x Stock Surge - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNRjFSSUR4WEhySTRlbDBNU0dyZ0dwYWh2MUpSVHcwc3owRl9xcnNNZzA3YTR6Mi1fcnBQMi0wYzBvbVBWaGZLRkdFRm84QmhzYmJTVDl0a2l0dkhmejVxcnVsWlk1ak1UQ3E3SnpEb09FTlB5SVFVUEN1VjJoZGc2TDlvOXZFOXN3UWxaRmhxSnh1RG1HMVB6S0xYQzRRZklOZnJyUTRvNURieVo0TGJrRXA0dDd3bGNzQ3RwVlkwUlV4NXdiZTg2bWZ3?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:06:56 GMT",
+    "title": "Capital Southwest Stock - Saturday view on long-term dividend strategy and BDC model - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWhrQnhZYzVfbmYtX1FMNmRVLTdHTFdtbjV1WWF1WXVOcGVlSjRDM2QxRU1iMDdmc3Vub0VwRUwwYWFSdHpqeGlOMGlzNnRObUpvM0tWdjN0UldlRzR1MEJabjZ4M3lLYmZWM3lta0I5RE54b3NkSGFuaWlGcVFMbjQ0TnlMaGVRNGxockZ4Rk1jdExSekItbVRWbTBoMHZ2OWJLRVZxWWRFTk5NSDh1d3BHN29mSTdkV2s0UDNtWlBjWGZpOV9Rdk9yTQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 13:02:22 GMT",
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Bank of England begins global stress test for private markets - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSkFWZmozb1VVcWdOeEluZEthRzhyT2RWWjBtTFpUdUw5MVhHYTJzemtWQ3pWajUyYTdDczRpM0xhbnYwRjRzZFFJcUtjdnE2MFg4Z21Od01WREEwVTNSYzF6aFFUVXJNWjdYN09ldWZ5T0w0WHFFcjVaWGJjNmRQMVpCSHNvX1ZxTDk0dVJwR3lHRlR0amtHcHhDbkFieWE0eC1ETEd1LVBWYXlZSm1KWGt1U3VZOFpfU0VoSjNfXzVKMERsa0ZFTWlPWWhDS2RqRGdlQmNDN0ozM29rVFhmbnRvRkNVbTctUHBZc1hjTUJqMG5hYUE?oc=5",
-    "pub": "Sat, 20 Jun 2026 02:35:42 GMT",
-    "src": "MSN",
+    "title": "Goldman Sachs BDC Stock - Saturday look at the income-focused business model - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQelB4MkZPLVpBdjdRYzF2NU54Yl9kVjBkU0hyeUlUYUNYVm5RVmpZNXlvZEsxb2V2TWhyWDh6eS1yR3ZaZEczZzVOV2pJWWtxQllOOHZhUHlDM0tQSTVmMDVHYUNXRC1LYm9WNEZsNjVhYVZLNWFyRFhSSzZhS1lQQ0d1eU50M09pZ3hvVU85WUNod2RrQm45a3RqSnlXenozdjFVa0s5bXNsbWVqcG9OdkFJMlN2RUo5RU9vQ25MRGduLWhkaFE?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:28:10 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Breaking: Lee Jung-hoo Breaks Two-Game Slump With Hit, Steal - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQeHJOUXdnalRiem9hVTBaX2ZTbTRBS2xhUW0wTUpoQTR0RmtJNk1iMERnSmhBNGR5YnFnYVpLZ1JVNm9JUFNUdk45UEZpUENGRFdMY1d4MXI3RGl3SUg2aTZzeGd2T2c3cndxYm9sOFB1RXVITVhieUh1NGxLdk9iQTNyQXEyZw?oc=5",
-    "pub": "Sat, 20 Jun 2026 00:20:03 GMT",
-    "src": "조선일보",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why Private Credit Risks May Be Unfairly Tarnishing Private Markets - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQaXBvYjk3ZF9ZNVBLWWdVcUl3UzU2YVoxaGR4VUN2aGhRQnN2b3NLcFlzWG5ROWc1TTNJYzBNZTh1bmJreDdvMWlhNDJwUS1ZNjhqMkVFOURuY2VjcmxTeEJkMGsza3ZvQVNvRVl0UlJxZ252TXVPdmRaZVJHQ3lPQVRVVTl3eVpQNTNKeU55QXF0bzI4UFMyRGF1c0JEc0Q2M1RFQ2R4YWNQVXdl?oc=5",
-    "pub": "Fri, 19 Jun 2026 19:04:00 GMT",
-    "src": "Seeking Alpha",
+    "title": "Oaktree Specialty Lending Stock - long-term BDC model under the microscope - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0ZselpTQ1dlbjBBQkxtRjRPZF9qejEzc2s3N2E4bE9LWUgzalRwcjlOZVJEaHh6Szd1QTdFRy1fc0xUaC02cHhqWm5nWlJkTnJoUDZidk0wNnhUcGd2cXh2YlhpLXVCNE5ZZ1JIOUVQaXhPWURmTDRGNkw2TDB3Y1VCY3lxd21iMTZPdzJER296MXFuN1c1TnQzVkJfdzVmWDhYLUp4Qmh2bGh4ZWdXNDBVMU90TlJ6cGdYZXF0TXM5eGdVSHY0LVc3RQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:18:32 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "This Metric From Google Cloud Proves Its $185 Billion in Capital Spending This Year Is Worth It - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1HNndmZm5LUWo3MDgySmk5Mi1NdEc0VkFxb2NyTEtkaDdTQkhpOHVxX0NxU3pBbi1tZlJjdlhxMEdLbnJJcDdDcndvelMwLWl0RFlpWVQ0QUR1Ylh6Z2xVMy1qYnc0U3BvZ2NPREllVmtXZlNyVkxkM2Y4cmMwbVU?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:01:00 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "TSMC Accelerates CoPoS Packaging to Replace CoWoS, as Glass Core Substrates Cut Costs 30% and Boost Wafer Utilization Past 90% - Wccftech",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUdaSUxwbm9nMnFzMWpKaENkMTRIOE5vOTRyNnNFcnA0NGdGbHZGcTlualAwZWM5UDExczd2RDk3VjdhbGU4TE1rOUx6MkJzSHczTVVSV2ZaSWRDb1NvN2pGNkpHY2pvbTBLVFJkWXBnRnJoV3ZKZ0twbEtpUjA3Z0c4MHo1S1VYSDJXSHNlbUdGRGlWVzRXaTJVWWI4bWhSdVFiUmRRamJrNm8xNlEzWWZqQWZFNmNDX1VldG9fWndRdmlD0gHKAUFVX3lxTE5fYzFENUE5MjV5ekNkWUxyazhrV3dONThsVzJGNklBVm5nMkV0NzFJYS14M3JDeVphUXdBSXJVRXlMLVRWRUVfbTBtME1hcGdESUdxS0pUa0xxV0xJNTkzeHNQZkpmTVpoYjdSbHN4WFktWUREdlk1cllwZDY1ZDhBaER2YU4waUpxZEtlRFBmMHFzYTJTLTMyNnFTUHJVSGZaTXVjM29RSFJvV0tudjllZXZwVDBOSjlyVkd0NlpiV0JGN3d2dkZyd0E?oc=5",
@@ -931,14 +939,6 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
     "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
     "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI spending boom could trigger sharper downturn than dotcom crash: Professor Aswath Damodaran - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEYtTl91eGV5OWF6eW1PZEJSYTlGclc5anpXalcyOGwwM3JwNWN1eUdaMXBnaFMzSG5FMzQ1WF9DTVRLQlBCVHJfemVva1FaUDNVQ2V0aWhwTXBZaWRYYkxvWGVzZUpmcjE3RHE3cHV0Z3RPM2d3eUlZbnktUV80cy12Z01LWXZ6UWVLejZoYVVLTWhJcV9xc1EyYnVsT1JTZXY1TEF6bEEtNllHMzdxYS1yS2xCd2FNV3BROU84Mkd6X3NhRk5rTUZyU2VNZ3JMcXNsM092elctbTBLQjhTcGY5Y1lEN3BaMHJSMzNicERkNXh6NVVkSlBGVW9qd3dZXzN6a2xlcnVIUWvSAYsCQVVfeXFMT1RGLU5fdXhleTlhenltT2RCUmE5RnJXOWp6V2pXMjhsMDNycDVjdXlHWjFwZ2hTM0huRTM0NVhfQ01US0JQQlRyX3plb2tRWlAzVUNldGlocE1wWWlkWGJMb1hlc2VKZnIxN0RxN3B1dGd0TzNnd3lJWW55LVFfNHMtdmdNS1l2elFlS3o2aGFVS01oSXFfcXNRMmJ1bE9SU2V2NUxBemxBLTZZRzM3cWEtcktsQndhTVdwUTlPODJHel9zYUZOa01GclNlTWdyTHFzbDNPdnpXLW0wS0I4U3BmOWNZRDdwWjByUjMzYnBEZDV4ejVVZEpQRlVvand3WV8zemtsZXJ1SFFr?oc=5",
-    "pub": "Sat, 20 Jun 2026 14:16:00 GMT",
-    "src": "The Economic Times",
     "trig": false,
     "geo": false
    }
@@ -1708,7 +1708,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T21:02:21+00:00",
+  "checked": "2026-06-20T21:11:39+00:00",
   "openai": {
    "found": false
   },

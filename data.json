@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T15:41:44+00:00",
+ "updated": "2026-06-20T15:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
+   "chg": 7.33,
+   "chg5": 29.62,
+   "sma20": 373.38,
+   "sma50": 362.54,
+   "sma200": 357.69,
+   "high3m": 409.99,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
+   "chg": 0.05,
+   "chg5": 0.37,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.55,
+   "sma200": 40.56,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": -9.0,
-   "chg5": -13.68,
-   "sma20": 17.4,
-   "sma50": 17.79,
-   "sma200": 19.13,
+   "chg": 2.25,
+   "chg5": -24.48,
+   "sma20": 17.42,
+   "sma50": 17.85,
+   "sma200": 19.15,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": -6.45,
-   "chg5": -12.12,
-   "sma20": 92.05,
-   "sma50": 94.95,
-   "sma200": 102.44,
+   "chg": 0.84,
+   "chg5": -18.24,
+   "sma20": 92.45,
+   "sma50": 95.41,
+   "sma200": 102.55,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": -0.0,
-   "chg5": 1.1,
-   "sma20": 99.68,
-   "sma50": 98.96,
-   "sma200": 98.68,
+   "chg": 0.76,
+   "chg5": 0.99,
+   "sma20": 99.59,
+   "sma50": 98.92,
+   "sma200": 98.66,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -627,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
+   "chg": -0.05,
+   "chg5": 0.84,
+   "sma20": 108.7,
+   "sma50": 108.92,
+   "sma200": 109.68,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -3.43,
-   "chg5": -6.07,
-   "sma20": 1039.46,
-   "sma50": 1110.54,
-   "sma200": 1084.51,
+   "chg": -6.33,
+   "chg5": -3.04,
+   "sma20": 1042.21,
+   "sma50": 1111.47,
+   "sma200": 1085.21,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64053.99,
-   "chg": 0.81,
-   "chg5": -2.52,
-   "sma20": 64512.49,
-   "sma50": 72678.53,
-   "sma200": 75742.37,
+   "price": 64076.44,
+   "chg": 0.84,
+   "chg5": -2.49,
+   "sma20": 64589.71,
+   "sma50": 72709.42,
+   "sma200": 75750.86,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781970082,
+   "mt": 1781970685,
    "ok": true
   },
   "USO": {
@@ -845,6 +845,14 @@
  "news": {
   "credit": [
    {
+    "title": "Your Private Credit Fund May Be Worth Less Than It Says - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONEF4Qlo3Yl9ucVcxdGI0Y09Zdjlkc0Z3OGdCSTZfaUFqMjFSam4tNEM3Z2ppMFhtd3c2c0IzT3dGVzZsUkI5S0lXWFFOWHNtQXVNTTR6LVpoOHVNRTVSRVlJZ212ak9qeGJJZV9qWTJUZnZPRGhlcEdKTkw2S1ZVaHZkWWtqcnNhRm1aYU9MbWxrYkloTGFON1NNYlVYcF9ISkYyX0Zscjg1eE1aNUE?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:36:56 GMT",
+    "src": "Forbes",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Capital Southwest Stock - Saturday view on long-term dividend strategy and BDC model - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPcWhrQnhZYzVfbmYtX1FMNmRVLTdHTFdtbjV1WWF1WXVOcGVlSjRDM2QxRU1iMDdmc3Vub0VwRUwwYWFSdHpqeGlOMGlzNnRObUpvM0tWdjN0UldlRzR1MEJabjZ4M3lLYmZWM3lta0I5RE54b3NkSGFuaWlGcVFMbjQ0TnlMaGVRNGxockZ4Rk1jdExSekItbVRWbTBoMHZ2OWJLRVZxWWRFTk5NSDh1d3BHN29mSTdkV2s0UDNtWlBjWGZpOV9Rdk9yTQ?oc=5",
     "pub": "Sat, 20 Jun 2026 13:02:22 GMT",
@@ -883,22 +891,30 @@
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave (CRWV) Stock: Jim Cramer Believes Hidden Revenue Pipeline Exceeds Reported Figures - Blockonomi",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNQTBTLXdmc0FubzdoTDlqZVFmdGMyVUdObGpwY2dGUG5sUmtqS001VHpOU0d5V2dHbjg1U2Z3UFVYM3BmOVI4VzRleU1DUzRrZ21XLWQ4cHhuVWVHYWJsR0JrTWg1UVg0RE9nemQ0djduQnNBM2k2bjgwZHJ4aFg3Y00yc1lsQWx3UkVYVmpwTUJJREFua2VvV3ZxMGpCaWtINDJEaFJpMUc4WWhpWFFPQlpHUQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:05:02 GMT",
-    "src": "Blockonomi",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:32:44 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "TSMC’s Booking Bonanza: Fully Subscribed to 2028 as Clients Eye Samsung and CoWoS Expansion Ramps - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
     "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
     "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AI spending boom could trigger sharper downturn than dotcom crash: Professor Aswath Damodaran - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEYtTl91eGV5OWF6eW1PZEJSYTlGclc5anpXalcyOGwwM3JwNWN1eUdaMXBnaFMzSG5FMzQ1WF9DTVRLQlBCVHJfemVva1FaUDNVQ2V0aWhwTXBZaWRYYkxvWGVzZUpmcjE3RHE3cHV0Z3RPM2d3eUlZbnktUV80cy12Z01LWXZ6UWVLejZoYVVLTWhJcV9xc1EyYnVsT1JTZXY1TEF6bEEtNllHMzdxYS1yS2xCd2FNV3BROU84Mkd6X3NhRk5rTUZyU2VNZ3JMcXNsM092elctbTBLQjhTcGY5Y1lEN3BaMHJSMzNicERkNXh6NVVkSlBGVW9qd3dZXzN6a2xlcnVIUWvSAYsCQVVfeXFMT1RGLU5fdXhleTlhenltT2RCUmE5RnJXOWp6V2pXMjhsMDNycDVjdXlHWjFwZ2hTM0huRTM0NVhfQ01US0JQQlRyX3plb2tRWlAzVUNldGlocE1wWWlkWGJMb1hlc2VKZnIxN0RxN3B1dGd0TzNnd3lJWW55LVFfNHMtdmdNS1l2elFlS3o2aGFVS01oSXFfcXNRMmJ1bE9SU2V2NUxBemxBLTZZRzM3cWEtcktsQndhTVdwUTlPODJHel9zYUZOa01GclNlTWdyTHFzbDNPdnpXLW0wS0I4U3BmOWNZRDdwWjByUjMzYnBEZDV4ejVVZEpQRlVvand3WV8zemtsZXJ1SFFr?oc=5",
+    "pub": "Sat, 20 Jun 2026 14:16:00 GMT",
+    "src": "The Economic Times",
     "trig": false,
     "geo": false
    },
@@ -925,25 +941,17 @@
     "src": "christophe-barraud.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Intel shares soar on Google deal to build TPUs. Here's what it means for INTC stock. - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNY0pQZV8xRTJ5eHpWcl9JM1lCejFySmdvTm1IVXZRX2RfMGV0WjZVV1dtYXI2b0xOUldXZTQydEkxaEhhSlM5YkVFRmJPOUxQS2dEakszeEZFcDBqYU10WC1paDBjcGI4MXg5eEZMT0duZ20zRzdXeGhTVTRldnNpYk1VZ0x1OVhwaTk3RjZJdG1Hck5GQnV0YVd4dlRVbUF2VGNsQlVPODZWR0lwbWU4STg0NG94U29JUmJCb3hiVVk0UGUteHlRS2RqR2M0ZDAtX1E?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:00:20 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon Stock Analysis 2026: AWS Acceleration and AI Capex - Top1 Markets",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTGdDZ05fSVJDLTQybjRrT3YydnpOZjdaQ2FyM1VlS1VSTHNaX1hhUlYwa3UxZFc5OXZhamJ1Z2hoUXRRUE1fcS1mdnAzcHZKak5iWVB3RDZiby04UjZESU8zeDcweEFJRUZFaUw3TVJlQUJtSEJYSmcwVlpIRVVmcEdsNXZkamkxQklnLQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 09:58:17 GMT",
-    "src": "Top1 Markets",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Nvidia’s $25B Bond Sale: Why AI Stocks Are Turning Credit Markets Into Their Next Growth Signal - CryptoDaily",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoUnJLSTNtRDdlTnlFUmt5Q3poVnMwcmRwZENVcXZxRjM3c2JvWUNGZnZHSVBPRHhrUDFlOUxRTXpUVHJWck81R08wY2VJT0V4b1NVQ3JrWHhjZF92TF93bFRzWlFVS1ppRUtiTVFLU3JhYXdx?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:28:26 GMT",
+    "src": "CryptoDaily",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Behind Trump's confession: the 'oil catastrophe' that pushed him to cut losses in Iran - Ynetnews",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ETTBpZFl6d1dURUNPbmJUZF83QkFVSWFseFFvZU9fNzVLNFRUc2xVeGhyY1VtZEdfcTRQaFl2STlOZWg5VHMxTEszcUpaQnV5MUQ5THRpZw?oc=5",
@@ -983,24 +991,24 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Trending mortgage rates - firsttuesday Journal",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
-    "pub": "Sat, 20 Jun 2026 07:20:57 GMT",
-    "src": "firsttuesday Journal",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
     "title": "Why Gold Didn’t Behave Like a Safe Haven - BusinessLine",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbThPb0t4aXNhUkNGNUtvbnNvWVJwNXhuZTlJRlJhTnp5c0Y5MVFSMVk5ckh4RnR4M0I1d05wbGJ6bFNUd2lOOVYyOVNFZXdrWFBuT1lwYnFRSTZCMkV3R2VXUzF4dUV4Q01WYkM2V2NTMEhqdzJyZjRYLXhiUm4xT1N3YTVSVlRwNlo3Ni0ybDNYVnNxNVpaUC1tZTJobDJ1MllsdkxMQ2NsUF9sblE4VDczSlN5OVU0OUdqQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPbThPb0t4aXNhUkNGNUtvbnNvWVJwNXhuZTlJRlJhTnp5c0Y5MVFSMVk5ckh4RnR4M0I1d05wbGJ6bFNUd2lOOVYyOVNFZXdrWFBuT1lwYnFRSTZCMkV3R2VXUzF4dUV4Q01WYkM2V2NTMEhqdzJyZjRYLXhiUm4xT1N3YTVSVlRwNlo3Ni0ybDNYVnNxNVpaUC1tZTJobDJ1MllsdkxMQ2NsUF9sblE4VDczSlN5OVU0OUdqQdIBwwFBVV95cUxOcFJsZ0VXTEpHeFdLWTl3akxxcTVScTBfME42THJqZmFwSDZwWDZGZTI4T1lnejVmMVhWZWpqaXlEb09TWEZkaVh0MTJ6TTlTdktJU0ZreVQ5Q2dyRmxsbnhpMlFOVlBZWndFMTdsT0t3cDdhejFYNlJHTEo4U1pUa2lqeFFOUm9YMkRnbzRKSEc5cFZRUVBtVmdXMER3bHl2TzJLSGloOW9LYXVHS2JIdWx2YVJvTi13eDBJSkFma1NLanM?oc=5",
     "pub": "Sat, 20 Jun 2026 15:29:18 GMT",
     "src": "BusinessLine",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "80 million barrels of crude are lined up to exit the Strait of Hormuz - MSN",
+    "link": "https://news.google.com/rss/articles/CBMimwNBVV95cUxNcHZycTFGVkxhYUR5T2ktSmVBZE55c0NYZEN1N1BxX2pIS3JhcXFicnpvR0ZLMFljMFVOVTUxSC1OOGowOG13SUh6bzJNXzEyTHhYUlFZSTNtRXEtMEQzTC1uU0Y4eDFvM2wydl9jamZJQVpocURUWmhTSDFsVVAzYVZqdG9FcUtwUERqbnN2c1BQTV96YmIxWVdoeE5WcnpkSkdjM0FlMWxKVmZiVkd1NWlTYzhBc3RnSUg5NlhGejhEQldRMnl0TW0wZ0tvWDdrMVR5YUNrZ29Fc2NRNzNUaFVudWtrSmh4UUR4ZmVHODV0MEtMVXVKdnVFNm1hN1M5SzNlWWJqczZNRzk3Tl9KWGVQb2lpbEY0WXE0Mno4ZU93Y3ZzVVVCdzJyS3JkME83SE5OZHR6NzNBZGV2LTM5a2k2WTluVkx2bnNidncxdWxLNUZhdWhTc1c3NGhaRnBVa3JrcERwLUVYN2FYQW5tYXdrY3RyenZLbjR6RTNWTlNzQlpyNHN5YlQycUpHbzgtaVB5cUM5Q25iUHM?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:31:07 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": true
    },
    {
     "title": "OPINION | Sky’s the limit for investors seeking some copper action - News24",
@@ -1031,14 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9kMW9LLXN5amtXV0hTSkNHaG5fMzdBWW5Sb0tKUEMxakE0ZDRYbjdQakdCTWZ5MUZfdlhrMkxhWFh4a0xMNlhXcFllWk5xRlhQOElGZDhRVzdTTVU?oc=5",
     "pub": "Sat, 20 Jun 2026 08:04:21 GMT",
     "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Experts predict unexpected gold prices next week - Laodong.vn",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQTHFfb042Z3g4TDJGZDQwMTg3UDByWkdCNXhMaWVPcmJadHRIME5mSko5LWx0NGpsUVFLanRQSU11ajdDRDFsNERLZk9PbFBTWjFuMm93d2RoUjFpTkhRczFSQ3pMNVA4UGlHVFhJeS1ndGprVWRja3gteV9yQjd0RlBLZ2ItVG5pM2ZsX0c3YU5wMDc1d0dJMkZVOHphZw?oc=5",
-    "pub": "Sat, 20 Jun 2026 06:34:49 GMT",
-    "src": "Laodong.vn",
     "trig": false,
     "geo": false
    }
@@ -1148,18 +1148,18 @@
  "charts": {
   "vix": [
    24.06,
-   27.44,
-   23.87,
-   19.23,
-   17.48,
-   18.71,
-   16.99,
-   17.19,
-   18.43,
-   16.7,
-   15.32,
-   21.51,
-   16.4
+   25.33,
+   24.54,
+   19.49,
+   17.94,
+   19.31,
+   16.89,
+   17.08,
+   17.26,
+   16.76,
+   15.74,
+   15.4,
+   18.44
   ],
   "tnx": [
    4.28,
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.9,
-   100.03,
-   98.65,
-   98.1,
-   98.51,
-   98.21,
-   97.84,
-   99.27,
-   99.32,
-   99.2,
-   100.05,
+   99.6,
+   99.65,
+   98.82,
+   98.22,
+   98.8,
+   98.08,
+   98.25,
+   98.88,
+   99.19,
+   98.91,
+   100.07,
    100.85
   ],
   "bizd": [
@@ -1208,18 +1208,18 @@
   ],
   "vixts": [
    0.942,
-   1.071,
-   0.96,
-   0.848,
-   0.841,
-   0.881,
-   0.829,
-   0.826,
-   0.868,
-   0.798,
-   0.77,
-   1.107,
-   0.8
+   0.988,
+   0.987,
+   0.859,
+   0.863,
+   0.909,
+   0.824,
+   0.82,
+   0.813,
+   0.801,
+   0.791,
+   0.793,
+   0.899
   ],
   "hyoas": [
    2.79,
@@ -1278,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "저금리·강달러 환경에서 VIX 17의 낮은 변동성이 지속되며 신용 스프레드 안정세가 유지되고 있으나, 중동 지정학 긴장 고조가 유가 불확실성을 증대시키고 있습니다. AI 칩 수급은 TSMC 2028년 풀 부킹과 메모리 부족 심화로 GPU·HBM 공급 제약이 구조화되는 가운데 클라우드 대형사들의 capex 확대 경쟁이 계속되고 있습니다.",
+  "text": "지정학 긴장(호르무즈 해협 석유 공급 위험)과 미 금리 4.45% 고착이 신용 밸류에이션 압박을 주는 가운데, VIX 17의 낮은 변동성은 시장이 아직 리스크를 과소평가하는 신호다. AI 인프라 수요는 강하나 TSMC 공급 병목과 칩 부족이 심화되면서 capex 사이클의 지속가능성에 의문이 제기되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1288,11 +1288,10 @@
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 0,
+   "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -1708,7 +1707,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T15:41:41+00:00",
+  "checked": "2026-06-20T15:51:41+00:00",
   "openai": {
    "found": false
   },

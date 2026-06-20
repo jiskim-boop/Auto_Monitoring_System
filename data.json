@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T20:02:11+00:00",
+ "updated": "2026-06-20T20:11:45+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63886.4,
+   "price": 63880.84,
    "chg": 0.54,
    "chg5": -2.78,
-   "sma20": 64504.11,
-   "sma50": 72675.18,
-   "sma200": 75741.45,
+   "sma20": 64503.83,
+   "sma50": 72675.07,
+   "sma200": 75741.42,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781985712,
+   "mt": 1781986288,
    "ok": true
   },
   "USO": {
@@ -746,36 +746,36 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7556.25,
-   "chg": 0.64,
-   "chg5": 1.63,
-   "sma20": 7502.15,
-   "sma50": 7352.6,
-   "sma200": 7046.32,
+   "price": 7570.75,
+   "chg": 0.83,
+   "chg5": 1.83,
+   "sma20": 7502.87,
+   "sma50": 7352.89,
+   "sma200": 7046.44,
    "high3m": 7623.75,
    "sess": "24h",
    "mt": 1781888399,
    "ok": true
   },
   "NQ=F": {
-   "price": 30647.0,
-   "chg": 1.27,
-   "chg5": 3.32,
-   "sma20": 29961.17,
-   "sma50": 28688.38,
-   "sma200": 26533.98,
-   "high3m": 30712.75,
+   "price": 30719.75,
+   "chg": 1.51,
+   "chg5": 3.57,
+   "sma20": 29964.8,
+   "sma50": 28689.84,
+   "sma200": 26534.56,
+   "high3m": 30719.75,
    "sess": "24h",
    "mt": 1781888399,
    "ok": true
   },
   "YM=F": {
-   "price": 51888.0,
-   "chg": -0.14,
-   "chg5": 1.29,
-   "sma20": 51135.65,
-   "sma50": 50132.04,
-   "sma200": 49136.08,
+   "price": 52008.0,
+   "chg": 0.09,
+   "chg5": 1.52,
+   "sma20": 51141.65,
+   "sma50": 50134.44,
+   "sma200": 49137.04,
    "high3m": 52044.0,
    "sess": "24h",
    "mt": 1781888396,
@@ -895,6 +895,14 @@
   ],
   "fundamental": [
    {
+    "title": "TSMC Accelerates CoPoS Packaging to Replace CoWoS, as Glass Core Substrates Cut Costs 30% and Boost Wafer Utilization Past 90% - Wccftech",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUdaSUxwbm9nMnFzMWpKaENkMTRIOE5vOTRyNnNFcnA0NGdGbHZGcTlualAwZWM5UDExczd2RDk3VjdhbGU4TE1rOUx6MkJzSHczTVVSV2ZaSWRDb1NvN2pGNkpHY2pvbTBLVFJkWXBnRnJoV3ZKZ0twbEtpUjA3Z0c4MHo1S1VYSDJXSHNlbUdGRGlWVzRXaTJVWWI4bWhSdVFiUmRRamJrNm8xNlEzWWZqQWZFNmNDX1VldG9fWndRdmlD0gHKAUFVX3lxTE5fYzFENUE5MjV5ekNkWUxyazhrV3dONThsVzJGNklBVm5nMkV0NzFJYS14M3JDeVphUXdBSXJVRXlMLVRWRUVfbTBtME1hcGdESUdxS0pUa0xxV0xJNTkzeHNQZkpmTVpoYjdSbHN4WFktWUREdlk1cllwZDY1ZDhBaER2YU4waUpxZEtlRFBmMHFzYTJTLTMyNnFTUHJVSGZaTXVjM29RSFJvV0tudjllZXZwVDBOSjlyVkd0NlpiV0JGN3d2dkZyd0E?oc=5",
+    "pub": "Sat, 20 Jun 2026 17:40:00 GMT",
+    "src": "Wccftech",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Is AI tax nearing? Here's why 2026 smartphone and PC upgrade may get 20% more expensive - MSN",
     "link": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxOcmdDNFplTi1Jc0I0RkxDQ3hOUEI0cWVQbFZrRVNiZFd4aElUN1FUbUZIMUh0b3RibDM5bWNfd1FQZXdJYVA3cjdpQ0RyRTVzY0ZjVmJNdkIxdXNzV09reGE3d2t3TUQ4MmhTTDI4SkdySThOaWJ3UlZGcVJRN05NaUpjSDRmWUt4eVVrTWNLWWVELWM3eU8xX1RHeHZkYVljcURGVnpVNzhQTjE0TndPUlZNSEJaZjdDZ2pCS0hFMmZhZzJ5eGtxelJ4RnJBMkREcXI0QmIxc3o4UzNZTFJKVnlMd2c2dVZsMFJNc25oWGJZRVZlV3NPNWl1N21LdlUybVVOVWxmNFc3VlJ3cXlkSWFYcTNwQ1czdGpfWnNVeVJxZlJrT3N0QW5rdFFrX3puWlRiUXFaOFpXZmU0eHo5Mjk5c183cnFtNzNBREhTa1VhamF0MS1PaHdlQTJoZTFFOEdBWW1KbTk4OUdDXzZBSWp4N0ZmZGowaTNjakx5T3pNalRrc1Y5MUxqNVVldFdxRWprcGctbk9lZkNaQ2pZckttWElfZ3dXLXpLdUtkREhGU0VZRTR1UVhublBfcXp5a2dLNmFxOTZaZWxXQWpjblFNMFl2VGdXUjM3ckZGMjlLVGR2MzI4Zk5uLXY4OW5zOUNZdQ?oc=5",
     "pub": "Sat, 20 Jun 2026 16:57:46 GMT",
@@ -911,39 +919,47 @@
     "geo": false
    },
    {
+    "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:32:44 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "TSMC’s Booking Bonanza: Fully Subscribed to 2028 as Clients Eye Samsung and CoWoS Expansion Ramps - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
+    "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI spending boom could trigger sharper downturn than dotcom crash: Professor Aswath Damodaran - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEYtTl91eGV5OWF6eW1PZEJSYTlGclc5anpXalcyOGwwM3JwNWN1eUdaMXBnaFMzSG5FMzQ1WF9DTVRLQlBCVHJfemVva1FaUDNVQ2V0aWhwTXBZaWRYYkxvWGVzZUpmcjE3RHE3cHV0Z3RPM2d3eUlZbnktUV80cy12Z01LWXZ6UWVLejZoYVVLTWhJcV9xc1EyYnVsT1JTZXY1TEF6bEEtNllHMzdxYS1yS2xCd2FNV3BROU84Mkd6X3NhRk5rTUZyU2VNZ3JMcXNsM092elctbTBLQjhTcGY5Y1lEN3BaMHJSMzNicERkNXh6NVVkSlBGVW9qd3dZXzN6a2xlcnVIUWvSAYsCQVVfeXFMT1RGLU5fdXhleTlhenltT2RCUmE5RnJXOWp6V2pXMjhsMDNycDVjdXlHWjFwZ2hTM0huRTM0NVhfQ01US0JQQlRyX3plb2tRWlAzVUNldGlocE1wWWlkWGJMb1hlc2VKZnIxN0RxN3B1dGd0TzNnd3lJWW55LVFfNHMtdmdNS1l2elFlS3o2aGFVS01oSXFfcXNRMmJ1bE9SU2V2NUxBemxBLTZZRzM3cWEtcktsQndhTVdwUTlPODJHel9zYUZOa01GclNlTWdyTHFzbDNPdnpXLW0wS0I4U3BmOWNZRDdwWjByUjMzYnBEZDV4ejVVZEpQRlVvand3WV8zemtsZXJ1SFFr?oc=5",
     "pub": "Sat, 20 Jun 2026 14:16:00 GMT",
     "src": "The Economic Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Meta Platforms posts $56B Q1 revenue, raises capex to $145B for superintelligence initiative - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yMmpuejd1V0dCVjJJaTh3ZndSeGd4TGhlbkgwQ1RqbG9hRXFCd05KQmJOVmtud3pEclBXdGhsWTNMaEVEMmo0c3lUV0xHdl9fS1U1MElicXJBU25nTXRHM3Vta1lrMWtmLUF5UHRnRGZOa2tiUlE?oc=5",
-    "pub": "Sat, 20 Jun 2026 14:05:34 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple faces price hikes for iPhone 18 Pro as AI-fueled chip shortage bites - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLa1hDVkM5b2ExVEFVbC15VDZYVHFaV3Vpc05SWjNsbm9Wb2hpOEdXMUo1Vi1UN1huTU03OF8xeDV1RF90R0ZzWXFoZ2lZYnlsY3F4V1Ntc0RtaVdkZEI5Wm9IV3kwMS10dkoyZjNiUXJMWi1lNTNIVVdLdVpTQjg?oc=5",
-    "pub": "Sat, 20 Jun 2026 13:26:17 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:59:30 GMT",
-    "src": "TradingKey",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "NAF airstrikes eliminate scores of terrorists, destroy hideouts in North-West - The Witness Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVVNhOTdydDB2N1piWFhBcXhwY21QVEc4TGRKQlAxRGZwNHlsWVZFMjE0a1dSWjZ5UC1YTHFtaC1JcWFwdW9IS19NTEQ3OVB4c0NXZWJFQnRFMlZPeVNXcnBLbHV1MWdfZWFZX0F0YXR1Rmd0cGxOcm9odkFnU18yb1JfUGlRYUIwMU9wSEpEbXFGSk9XR25JVTllTmpVaE42Rnc?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:30:50 GMT",
+    "src": "The Witness Nigeria",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Al Jazeera Cameraman Ahmed Wishah Killed in Gaza Strike - Whalesbook",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMzNBYVBKRkZwUWluN1lrWHRMeml6X1QzeUdTMXVjdUJJdGJtemU1N28wc2lBWHd2VWJVaWNLeHRmWmZ5bG9fNTJaS1I3MkM0cFUyak90RnlfM1Z1V05jMHRGM0otd20xNFN3NUpCbDY0dE45dHdUa0N2NFR2QWU5aDE5TmMwSHV6a2ZzUFRQcEFRWnV1c3pER2lzNHdkQjJKLU1jUDdlQzNBUGFFVGtreEJCUHVWZHF5ekZQa1J6bjJIM0dKTm1scmUteUFIVXVWREFnM3hB?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:16:17 GMT",
+    "src": "Whalesbook",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
@@ -973,22 +989,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObjgxYzk1eWlFX3R5Q29BajBIMkM3c0FqdWExZVJ6VTc3UkpDejJkU0FNYW04NEd1anIwQXZsYzFJTldoUExTVThFTjM5RXhTR0xhcE1JcU5JZlNvNHZ6dTRGRVR2b09YMWdZM0duZTRxVjZCeTNQdDFHWjM4MkRLVk5WM3J3M0k?oc=5",
     "pub": "Sat, 20 Jun 2026 13:15:26 GMT",
     "src": "HarianBasis.co",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "JPMorgan Posted Record Profits, but CEO Jamie Dimon Says the Next Crisis Will Be Worse Than Anyone Expects - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNam83MmEwcUNNR0dlY1RnWkdEa2FITVMwNHAyMjBBS0VtLTFxNjdsdjBoZ1JuOGhJak1nV1RVczFfNWVxUFF0ZW94cGNFeVhRZGktdElnb0tCcEFtdExHOU9US3U0VHVBUGtBcUtDMklyQUpvQnBLdmpGREhZV2J3ZkQ4MmVrM2VMaFV1UDhTNFEzekt1eFBkZ1I5STJyNkUzcHB4RWpKdGx2dzZMYzVZaVNweWZsMWpxQnRlMm9xTnJhYTVtWjM0b1NiVUs2MTVSR2dFMnl2ODh5VmxXcENfX2luYw?oc=5",
-    "pub": "Sat, 20 Jun 2026 12:30:25 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iraq projects oil production for return to pre-war levels within two months - Al Arabiya English",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPajZJTW94d2ZscXdsUXdMSm1qVGVRYmVLeEFsNEJpUG0tS1VBU3gtSmpNNVNhWXlIWUZFWE9XeDlySVpMTUhKeDFtR2RxZW15RjRrZkh0Z2laRms3RDMtdGtMSkZ1bGhmdXNScUVZZ0VyeWJyQ2ZtLXZkS28ySjZFemRkOXV6eXRSZXBSM0l5dUtBOTB5QUxsZHNNWFZhSzMyNmo2MDlYQjJSa1JjWTY4MlVTRnZHVXEyZVpOOEdYRkEwdWZ0UVdaVUFtWdIB0AFBVV95cUxQZkM2UHpON2ZKMEFRUXZrYk1sQkZIbGpBeksxdlBXTGI2bW9wMWNNR1R5U2NNS19EbEpFOGhRdTBQaG9BWFlRajlDLWVOdkR2eDNNZi16Zi1YZ0JKU2tRTXE3dXlJUFRTMUQzcHc0eUY2TlA2SE5sbTF1TERtVEFmcjlRY1V0TDY0UnlQenFuUER1QTkxcE9oTFVFOFVYdmtyWmlKdFY5N2hMcTc0emxrVXU3TWtONWRST2JicFVHdFVmaHpsS1JVTm9rTWpoSDl4?oc=5",
-    "pub": "Sat, 20 Jun 2026 11:21:00 GMT",
-    "src": "Al Arabiya English",
     "trig": false,
     "geo": false
    }
@@ -1708,7 +1708,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T20:02:07+00:00",
+  "checked": "2026-06-20T20:11:42+00:00",
   "openai": {
    "found": false
   },

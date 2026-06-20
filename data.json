@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T14:32:16+00:00",
+ "updated": "2026-06-20T14:41:50+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
+   "chg": 7.33,
+   "chg5": 29.62,
+   "sma20": 373.38,
+   "sma50": 362.54,
+   "sma200": 357.69,
+   "high3m": 409.99,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -519,11 +519,11 @@
   },
   "SRLN": {
    "price": 40.38,
-   "chg": 0.1,
-   "chg5": 0.25,
+   "chg": 0.05,
+   "chg5": 0.37,
    "sma20": 40.4,
    "sma50": 40.44,
-   "sma200": 40.55,
+   "sma200": 40.56,
    "high3m": 40.61,
    "sess": "reg",
    "mt": 1781812800,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": -9.0,
-   "chg5": -13.68,
-   "sma20": 17.4,
-   "sma50": 17.79,
-   "sma200": 19.13,
+   "chg": 2.25,
+   "chg5": -24.48,
+   "sma20": 17.42,
+   "sma50": 17.85,
+   "sma200": 19.15,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -567,11 +567,11 @@
   },
   "^VVIX": {
    "price": 88.43,
-   "chg": -6.45,
-   "chg5": -12.12,
-   "sma20": 92.05,
-   "sma50": 94.95,
-   "sma200": 102.44,
+   "chg": 0.84,
+   "chg5": -18.24,
+   "sma20": 92.45,
+   "sma50": 95.41,
+   "sma200": 102.55,
    "high3m": 133.18,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,11 +603,11 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": -0.0,
-   "chg5": 1.1,
-   "sma20": 99.68,
-   "sma50": 98.96,
-   "sma200": 98.68,
+   "chg": 0.76,
+   "chg5": 0.99,
+   "sma20": 99.59,
+   "sma50": 98.92,
+   "sma200": 98.66,
    "high3m": 100.85,
    "sess": "reg",
    "mt": 1781902799,
@@ -675,23 +675,23 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
   },
   "^KQ11": {
    "price": 966.59,
-   "chg": -3.43,
-   "chg5": -6.07,
-   "sma20": 1039.46,
-   "sma50": 1110.54,
-   "sma200": 1084.51,
+   "chg": -6.33,
+   "chg5": -3.04,
+   "sma20": 1042.21,
+   "sma50": 1111.47,
+   "sma200": 1085.21,
    "high3m": 1226.18,
    "sess": "reg",
    "mt": 1781859940,
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63310.87,
-   "chg": -0.36,
-   "chg5": -3.65,
-   "sma20": 64475.33,
-   "sma50": 72663.67,
-   "sma200": 75738.29,
+   "price": 63351.58,
+   "chg": -0.3,
+   "chg5": -3.59,
+   "sma20": 64553.46,
+   "sma50": 72694.92,
+   "sma200": 75746.87,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781965910,
+   "mt": 1781966485,
    "ok": true
   },
   "USO": {
@@ -895,6 +895,14 @@
   ],
   "fundamental": [
    {
+    "title": "TSMC’s Booking Bonanza: Fully Subscribed to 2028 as Clients Eye Samsung and CoWoS Expansion Ramps - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
+    "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Apple faces price hikes for iPhone 18 Pro as AI-fueled chip shortage bites - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLa1hDVkM5b2ExVEFVbC15VDZYVHFaV3Vpc05SWjNsbm9Wb2hpOEdXMUo1Vi1UN1huTU03OF8xeDV1RF90R0ZzWXFoZ2lZYnlsY3F4V1Ntc0RtaVdkZEI5Wm9IV3kwMS10dkoyZjNiUXJMWi1lNTNIVVdLdVpTQjg?oc=5",
     "pub": "Sat, 20 Jun 2026 13:26:17 GMT",
@@ -933,14 +941,6 @@
     "src": "Top1 Markets",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Meta Stock Analysis 2026: AI Infrastructure vs. Cash Flow Reset - Top1 Markets",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQN1VyTFpncWZoMF9VWTd4Z1ZsMXdxa3dLQ3dHY0VuaXNHbmJhYTJETWNiMTZzT1F2QlRqT2dzVTlDTV8xelNBZlV5Z09KdHNHT3VjZlN3WWlWTWFVbGNRR2VqV1hkVXhydElqdXUteTg2Q25vY3FORmpocU1DRDdQZTNYWQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 09:55:11 GMT",
-    "src": "Top1 Markets",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -950,6 +950,14 @@
     "pub": "Sat, 20 Jun 2026 13:28:42 GMT",
     "src": "Ynetnews",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Warsh's gamble: A quieter Federal Reserve could mean volatile markets, higher rates - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPZTNIcEN0R3ZySHZTdlNOM2I5a0NmT3BReXAtRkdaUUV2Tmt1VTVSQWl5WGwyamRtU3ZkV2NHaWZmZkxMcGNqbEg2dDNKbFJGSG9VWUpvd1VJRnFSalNPemFpOXlsUVNub2x4ZDA0WXN5Y0JESzNUWDZ3NEtIYnR1Y3VESlp6NFN6emN1aVVoNXo5UUtRUzdxbVhlZnd1NS1sZFN6WkdjRdIBrAFBVV95cUxQN292TEh1TlFmWWJReTdGZ3Zpc0N0NW1sR2lyYkh2Q0p3ZnBMVjBFLTI5LWVaMnZQNnVoV1I5Q2hVWHprMUpYNEJCZERtYXZ2U1ZOaDVWd2x2VmVoSkgxbl9mVWxUeS1ITDQwdkNYM2N0bGJGcUlRb1d0RlIxUUtqWl9nQXkyWUh2SDB2Uk9jMmtYX0w3MGdMNkRNYnJuUm01dUR0WFYzZWFNYkFY?oc=5",
+    "pub": "Sat, 20 Jun 2026 13:06:12 GMT",
+    "src": "ABC News - Breaking News, Latest News and Videos",
+    "trig": false,
     "geo": false
    },
    {
@@ -983,14 +991,6 @@
     "src": "firsttuesday Journal",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Why the Strait of Hormuz matters for oil markets, Azerbaijan and the Middle Corridor - Latest news from Azerbaijan",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQ2YwQ1hRbFY1N21aYlVNelkwanlUOHM5RnFOSDJxXzlHRnhMZlJUUXBpREpuczZPbDVzM1EtSWxnbGVkc3JtNUg2UFdoSnNoNlUyUHVQanNpMTZHcVNDQ2JES1VPOVVsNm1wS3FkMVU2TThoRkx5UHFKMmpyTVMzdUVXZjJpc3JrRFhNdExVUjRpZFFFU1Q2eW1BRFBBMEprdTk5WnJUVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 07:20:06 GMT",
-    "src": "Latest news from Azerbaijan",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1178,17 +1178,17 @@
   ],
   "dxy": [
    99.23,
-   99.9,
-   100.03,
-   98.65,
-   98.1,
-   98.51,
-   98.21,
-   97.84,
-   99.27,
-   99.32,
-   99.2,
-   100.05,
+   99.6,
+   99.65,
+   98.82,
+   98.22,
+   98.8,
+   98.08,
+   98.25,
+   98.88,
+   99.19,
+   98.91,
+   100.07,
    100.85
   ],
   "bizd": [
@@ -1278,7 +1278,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장이 고조되는 가운데 VIX 17과 저신용스프레드(2.63%)는 시장이 아직 리스크를 과소평가하고 있음을 시사하며, 미10년 금리 4.45%는 Fed 정책 기조 변화 신호 부재를 반영하고 있다. AI 인프라 capex 경쟁(MS 2026년 1,900억 달러 계획, CoreWeave 9,940억 달러 수주)이 심화되면서 GPU/HBM 수급 긴장이 고조되고 있고 iPhone 18 Pro 가격 인상 압력이 가시화되고 있다.",
+  "text": "중동 지정학 긴장 속 달러강세(DXY 100.8)와 고금리(4.45%) 기조가 지속되며 신용스프레드는 양호하나 고밸류에이션(CAPE 42) 리스크는 상존한다. AI 인프라 capex 경쟁이 심화되는 가운데 TSMC 2028년 풀 구독과 코어웨이브 백로그 확대로 GPU/HBM 수급 긴장이 고조되고 있으며, 애플 아이폰 칩셋 가격 상승압으로 비용 전가가 임박해 보인다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1288,7 +1288,7 @@
    "hyoas": 2.6,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -1707,7 +1707,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T14:32:08+00:00",
+  "checked": "2026-06-20T14:41:43+00:00",
   "openai": {
    "found": false
   },

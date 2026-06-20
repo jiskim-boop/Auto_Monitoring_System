@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-20T23:02:38+00:00",
+ "updated": "2026-06-20T23:11:57+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -74,8 +74,16 @@
    "ok": true
   },
   "MU": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 1133.99,
+   "chg": 8.7,
+   "chg5": 13.87,
+   "sma20": 965.58,
+   "sma50": 732.8,
+   "sma200": 521.72,
+   "high3m": 1133.99,
+   "sess": "reg",
+   "mt": 1781812800,
+   "ok": true
   },
   "SNDK": {
    "price": 2184.75,
@@ -619,11 +627,11 @@
   },
   "LQD": {
    "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
+   "chg": -0.05,
+   "chg5": 0.84,
+   "sma20": 108.7,
+   "sma50": 108.92,
+   "sma200": 109.68,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -667,12 +675,12 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
@@ -702,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64198.0,
-   "chg": 1.03,
-   "chg5": -2.3,
-   "sma20": 64519.69,
-   "sma50": 72681.41,
-   "sma200": 75743.16,
+   "price": 64203.76,
+   "chg": 1.04,
+   "chg5": -2.29,
+   "sma20": 64519.98,
+   "sma50": 72681.52,
+   "sma200": 75743.19,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1781996538,
+   "mt": 1781997090,
    "ok": true
   },
   "USO": {
@@ -837,22 +845,6 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave edges higher before Nasdaq-100 debut, week looks ahead to debt moves - TechStock²",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclVOcl9RRWpqNjlHUFdTeEs5MElqNHJ4TU13WVdudHdVN0Y1X0F3dnhLNEtUdlp3Nkxva1d6LXhvdklzNFBYVE1vQ2pRQVRuZ1ZVQmxzblFjbEVkNmQxMjFQd2FYVjFjZXFkRjdQbUFTMWZMb0tRRXZsUUMyTkpfQ2ZWZGZUTVUxUFptdTR4WUNJQlZLalJZQ09ibWRhWkk?oc=5",
-    "pub": "Sat, 20 Jun 2026 19:31:29 GMT",
-    "src": "TechStock²",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Orrick Expands Structured Finance Team With Four Partner Hires - Pulse 2.0",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUdIBwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 17:17:44 GMT",
-    "src": "Pulse 2.0",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Your Private Credit Fund May Be Worth Less Than It Says - Forbes",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONEF4Qlo3Yl9ucVcxdGI0Y09Zdjlkc0Z3OGdCSTZfaUFqMjFSam4tNEM3Z2ppMFhtd3c2c0IzT3dGVzZsUkI5S0lXWFFOWHNtQXVNTTR6LVpoOHVNRTVSRVlJZ212ak9qeGJJZV9qWTJUZnZPRGhlcEdKTkw2S1ZVaHZkWWtqcnNhRm1aYU9MbWxrYkloTGFON1NNYlVYcF9ISkYyX0Zscjg1eE1aNUE?oc=5",
     "pub": "Sat, 20 Jun 2026 15:36:56 GMT",
@@ -883,6 +875,22 @@
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Bank of England begins global stress test for private markets - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPSkFWZmozb1VVcWdOeEluZEthRzhyT2RWWjBtTFpUdUw5MVhHYTJzemtWQ3pWajUyYTdDczRpM0xhbnYwRjRzZFFJcUtjdnE2MFg4Z21Od01WREEwVTNSYzF6aFFUVXJNWjdYN09ldWZ5T0w0WHFFcjVaWGJjNmRQMVpCSHNvX1ZxTDk0dVJwR3lHRlR0amtHcHhDbkFieWE0eC1ETEd1LVBWYXlZSm1KWGt1U3VZOFpfU0VoSjNfXzVKMERsa0ZFTWlPWWhDS2RqRGdlQmNDN0ozM29rVFhmbnRvRkNVbTctUHBZc1hjTUJqMG5hYUE?oc=5",
+    "pub": "Sat, 20 Jun 2026 02:35:42 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "BoE outlines severe recession scenario for private markets - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd0szSWtwM1E3ai1iQjlKYzlKRVpyb2JfTHUyb0NYZWNxOE1LWXA2Z0tMQWsxV3ZhRWRPcTNjUXZVUzlDNFRwbjg2aUNXTkVfQWxpbHp4ME93anVDTTlUUzdXZ3NSb3F4N2FRajJURU9mdjlweUd5dF9wdkdpSmRuZUd0eks4RHE0ZmJtamNiOWpGdlFzOGI3YjRyd1F5Nzd2V0hWZ1FFYmxkU3dpTUd6SkJFdE02aE9PdlN6N1Y5WEtmU053ZHRDbGdwVDVUeG9DQzhtUHBXNHpSbjlUaXYzTVFR?oc=5",
+    "pub": "Sat, 20 Jun 2026 00:04:39 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -903,6 +911,14 @@
     "geo": false
    },
    {
+    "title": "Big Tech redirects buybacks into AI capital spending - Let's Data Science",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZVNiSFFPNEpxb1hEc0ZxZ1pPUmFpb3h2Zy1uLXpqWHVvbU12b3VKOGc2dHVBR3dBMmtZdFJkMFV5UVNNbjhFQ2JFd0RWRXRWVExYVFl5cEFwUVF2R1I1Y3VCLTFuOXN1ZEpRSXlkMTBabTJjZVdnZU9EMkhWTFBkeHdpbWp0QnJXV1o2Y0szRGYtZV9jMzJVUGVB?oc=5",
+    "pub": "Sat, 20 Jun 2026 15:45:49 GMT",
+    "src": "Let's Data Science",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
     "pub": "Sat, 20 Jun 2026 15:32:44 GMT",
@@ -919,18 +935,10 @@
     "geo": false
    },
    {
-    "title": "Apple faces price hikes for iPhone 18 Pro as AI-fueled chip shortage bites - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLa1hDVkM5b2ExVEFVbC15VDZYVHFaV3Vpc05SWjNsbm9Wb2hpOEdXMUo1Vi1UN1huTU03OF8xeDV1RF90R0ZzWXFoZ2lZYnlsY3F4V1Ntc0RtaVdkZEI5Wm9IV3kwMS10dkoyZjNiUXJMWi1lNTNIVVdLdVpTQjg?oc=5",
-    "pub": "Sat, 20 Jun 2026 13:26:17 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Top 10 Macro/Financial Charts of the Week – w25 (2026) - christophe-barraud.com",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPYm9rcnRvdGowUzRxMjNGT0huTkRYS2NrbURBY21jeUFKZ0pPTG9qOXRqT3Q4b0J6MzBVdE1xRC1PY1pHX2RqQzlIOEFxb1ZQa2hpUGtsNEJGOXpoRmMzVUVYdVVYTWF4V0dlc2xsQ3FUX1ZyeUdzVzU0RUJWTGRCS08tMmlWT3J5TS1IbDBtVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 10:57:00 GMT",
-    "src": "christophe-barraud.com",
+    "title": "AI spending boom could trigger sharper downturn than dotcom crash: Professor Aswath Damodaran - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEYtTl91eGV5OWF6eW1PZEJSYTlGclc5anpXalcyOGwwM3JwNWN1eUdaMXBnaFMzSG5FMzQ1WF9DTVRLQlBCVHJfemVva1FaUDNVQ2V0aWhwTXBZaWRYYkxvWGVzZUpmcjE3RHE3cHV0Z3RPM2d3eUlZbnktUV80cy12Z01LWXZ6UWVLejZoYVVLTWhJcV9xc1EyYnVsT1JTZXY1TEF6bEEtNllHMzdxYS1yS2xCd2FNV3BROU84Mkd6X3NhRk5rTUZyU2VNZ3JMcXNsM092elctbTBLQjhTcGY5Y1lEN3BaMHJSMzNicERkNXh6NVVkSlBGVW9qd3dZXzN6a2xlcnVIUWvSAYsCQVVfeXFMT1RGLU5fdXhleTlhenltT2RCUmE5RnJXOWp6V2pXMjhsMDNycDVjdXlHWjFwZ2hTM0huRTM0NVhfQ01US0JQQlRyX3plb2tRWlAzVUNldGlocE1wWWlkWGJMb1hlc2VKZnIxN0RxN3B1dGd0TzNnd3lJWW55LVFfNHMtdmdNS1l2elFlS3o2aGFVS01oSXFfcXNRMmJ1bE9SU2V2NUxBemxBLTZZRzM3cWEtcktsQndhTVdwUTlPODJHel9zYUZOa01GclNlTWdyTHFzbDNPdnpXLW0wS0I4U3BmOWNZRDdwWjByUjMzYnBEZDV4ejVVZEpQRlVvand3WV8zemtsZXJ1SFFr?oc=5",
+    "pub": "Sat, 20 Jun 2026 14:16:00 GMT",
+    "src": "The Economic Times",
     "trig": false,
     "geo": false
    }
@@ -1663,7 +1671,7 @@
    }
   ]
  },
- "visitors": 167,
+ "visitors": 168,
  "visit_hours": [
   3,
   0,
@@ -1673,7 +1681,7 @@
   2,
   9,
   20,
-  8,
+  9,
   12,
   13,
   9,
@@ -1691,18 +1699,16 @@
   7
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "MU"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 68,
-  "n": 34
+  "pct50": 69,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-20T23:02:33+00:00",
+  "checked": "2026-06-20T23:11:52+00:00",
   "openai": {
    "found": false
   },

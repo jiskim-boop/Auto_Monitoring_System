@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21T04:41:56+00:00",
+ "updated": "2026-06-21T04:51:39+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -555,11 +555,11 @@
   },
   "^VIX3M": {
    "price": 19.57,
-   "chg": -8.64,
-   "chg5": -10.31,
-   "sma20": 20.4,
-   "sma50": 21.02,
-   "sma200": 21.39,
+   "chg": -5.09,
+   "chg5": -8.64,
+   "sma20": 20.14,
+   "sma50": 20.64,
+   "sma200": 21.34,
    "high3m": 29.27,
    "sess": "reg",
    "mt": 1781813701,
@@ -615,12 +615,12 @@
   },
   "^IRX": {
    "price": 3.66,
-   "chg": 0.97,
-   "chg5": 0.91,
-   "sma20": 3.6,
+   "chg": 0.3,
+   "chg5": 0.97,
+   "sma20": 3.62,
    "sma50": 3.6,
    "sma200": 3.59,
-   "high3m": 3.63,
+   "high3m": 3.66,
    "sess": "reg",
    "mt": 1781809193,
    "ok": true
@@ -664,9 +664,9 @@
   "^TNX": {
    "price": 4.45,
    "chg": -0.27,
-   "chg5": -1.87,
-   "sma20": 4.52,
-   "sma50": 4.42,
+   "chg5": -0.27,
+   "sma20": 4.49,
+   "sma50": 4.43,
    "sma200": 4.29,
    "high3m": 4.67,
    "sess": "reg",
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64430.8,
-   "chg": 1.4,
-   "chg5": -1.95,
-   "sma20": 64531.33,
-   "sma50": 72686.06,
-   "sma200": 75674.83,
+   "price": 64272.5,
+   "chg": 1.15,
+   "chg5": -2.19,
+   "sma20": 64523.41,
+   "sma50": 72682.9,
+   "sma200": 75673.96,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1782016890,
+   "mt": 1782017480,
    "ok": true
   },
   "USO": {
@@ -845,14 +845,6 @@
  "news": {
   "credit": [
    {
-    "title": "As enterprises begin to focus on \"computing power cost reduction,\" Goldman Sachs warns that 5.3 trillion in AI capital expenditure is approaching credit saturation! - Bitget",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5NMndtYmx2UGNiSURTV0JEWEtlVC1DOUJyQjhvZV9LREN6UmxHWXViMWlOelptOFc1Mm1rYk9TOUpVMUo1emx4d3pJRDNmNm10SzhkbnBvTnJrTlpTanFvX0R5TdIBY0FVX3lxTE5NMndtYmx2UGNiSURTV0JEWEtlVC1DOUJyQjhvZV9LREN6UmxHWXViMWlOelptOFc1Mm1rYk9TOUpVMUo1emx4d3pJRDNmNm10SzhkbnBvTnJrTlpTanFvX0R5TQ?oc=5",
-    "pub": "Sun, 21 Jun 2026 02:45:27 GMT",
-    "src": "Bitget",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave edges higher before Nasdaq-100 debut, week looks ahead to debt moves - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQclVOcl9RRWpqNjlHUFdTeEs5MElqNHJ4TU13WVdudHdVN0Y1X0F3dnhLNEtUdlp3Nkxva1d6LXhvdklzNFBYVE1vQ2pRQVRuZ1ZVQmxzblFjbEVkNmQxMjFQd2FYVjFjZXFkRjdQbUFTMWZMb0tRRXZsUUMyTkpfQ2ZWZGZUTVUxUFptdTR4WUNJQlZLalJZQ09ibWRhWkk?oc=5",
     "pub": "Sat, 20 Jun 2026 19:31:29 GMT",
@@ -891,15 +883,23 @@
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Goldman Sachs BDC Stock - Saturday look at the income-focused business model - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQelB4MkZPLVpBdjdRYzF2NU54Yl9kVjBkU0hyeUlUYUNYVm5RVmpZNXlvZEsxb2V2TWhyWDh6eS1yR3ZaZEczZzVOV2pJWWtxQllOOHZhUHlDM0tQSTVmMDVHYUNXRC1LYm9WNEZsNjVhYVZLNWFyRFhSSzZhS1lQQ0d1eU50M09pZ3hvVU85WUNod2RrQm45a3RqSnlXenozdjFVa0s5bXNsbWVqcG9OdkFJMlN2RUo5RU9vQ25MRGduLWhkaFE?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:28:10 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "TSMC Accelerates CoPoS Packaging to Replace CoWoS, as Glass Core Substrates Cut Costs 30% and Boost Wafer Utilization Past 90% - Wccftech",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQOUdaSUxwbm9nMnFzMWpKaENkMTRIOE5vOTRyNnNFcnA0NGdGbHZGcTlualAwZWM5UDExczd2RDk3VjdhbGU4TE1rOUx6MkJzSHczTVVSV2ZaSWRDb1NvN2pGNkpHY2pvbTBLVFJkWXBnRnJoV3ZKZ0twbEtpUjA3Z0c4MHo1S1VYSDJXSHNlbUdGRGlWVzRXaTJVWWI4bWhSdVFiUmRRamJrNm8xNlEzWWZqQWZFNmNDX1VldG9fWndRdmlD0gHKAUFVX3lxTE5fYzFENUE5MjV5ekNkWUxyazhrV3dONThsVzJGNklBVm5nMkV0NzFJYS14M3JDeVphUXdBSXJVRXlMLVRWRUVfbTBtME1hcGdESUdxS0pUa0xxV0xJNTkzeHNQZkpmTVpoYjdSbHN4WFktWUREdlk1cllwZDY1ZDhBaER2YU4waUpxZEtlRFBmMHFzYTJTLTMyNnFTUHJVSGZaTXVjM29RSFJvV0tudjllZXZwVDBOSjlyVkd0NlpiV0JGN3d2dkZyd0E?oc=5",
-    "pub": "Sat, 20 Jun 2026 17:40:00 GMT",
-    "src": "Wccftech",
-    "trig": true,
+    "title": "Best Altcoins to Buy in 2026 - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1XUlhScHVPRjJfTzg1akpsVnFsVjZTTTN0QUdRR3RLd3VPalFIVkxfTnc2T2tVZWxMLXRVVGZLUmNKSmY1QUhGaDFySXZQNnc3RFM5c3VaTGlSdHlaazhpMUJLTVd3eE54RnNGanhZNXlpNkE?oc=5",
+    "pub": "Sun, 21 Jun 2026 03:03:20 GMT",
+    "src": "AOL.com",
+    "trig": false,
     "geo": false
    },
    {
@@ -919,26 +919,26 @@
     "geo": false
    },
    {
-    "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
-    "pub": "Sat, 20 Jun 2026 15:32:44 GMT",
-    "src": "AD HOC NEWS",
+    "title": "Meta Platforms posts $56B Q1 revenue, raises capex to $145B for superintelligence initiative - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8yMmpuejd1V0dCVjJJaTh3ZndSeGd4TGhlbkgwQ1RqbG9hRXFCd05KQmJOVmtud3pEclBXdGhsWTNMaEVEMmo0c3lUV0xHdl9fS1U1MElicXJBU25nTXRHM3Vta1lrMWtmLUF5UHRnRGZOa2tiUlE?oc=5",
+    "pub": "Sat, 20 Jun 2026 14:05:34 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
    {
-    "title": "TSMC’s Booking Bonanza: Fully Subscribed to 2028 as Clients Eye Samsung and CoWoS Expansion Ramps - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVkhWZmZhYkl2X3kzT3k3XzJaT3FBbU12ek5RN1Ztc0U3cW5sMDdLWGlrVmozLUMzYWY5VzJGamlWekdLMGhaUHhNRkE3SlFWOWlfWmVaN1ItbXhPOUI2MmpXSGt5SEpOQ3RzaWd3TW9yOFdZS2N2NEtocWhHR1h5TlBTMmQ5OWdsa3NJTmxxODVLazdGQ1JqZFBXREtXdXJpZXgxdm8weEhBeFo1TlFWQm9vZTlmLXpERmZHNXZHUTRvc0p1RDhKZA?oc=5",
-    "pub": "Sat, 20 Jun 2026 14:28:21 GMT",
-    "src": "AD HOC NEWS",
+    "title": "Apple faces price hikes for iPhone 18 Pro as AI-fueled chip shortage bites - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBLa1hDVkM5b2ExVEFVbC15VDZYVHFaV3Vpc05SWjNsbm9Wb2hpOEdXMUo1Vi1UN1huTU03OF8xeDV1RF90R0ZzWXFoZ2lZYnlsY3F4V1Ntc0RtaVdkZEI5Wm9IV3kwMS10dkoyZjNiUXJMWi1lNTNIVVdLdVpTQjg?oc=5",
+    "pub": "Sat, 20 Jun 2026 13:26:17 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
    {
-    "title": "AI spending boom could trigger sharper downturn than dotcom crash: Professor Aswath Damodaran - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxPVEYtTl91eGV5OWF6eW1PZEJSYTlGclc5anpXalcyOGwwM3JwNWN1eUdaMXBnaFMzSG5FMzQ1WF9DTVRLQlBCVHJfemVva1FaUDNVQ2V0aWhwTXBZaWRYYkxvWGVzZUpmcjE3RHE3cHV0Z3RPM2d3eUlZbnktUV80cy12Z01LWXZ6UWVLejZoYVVLTWhJcV9xc1EyYnVsT1JTZXY1TEF6bEEtNllHMzdxYS1yS2xCd2FNV3BROU84Mkd6X3NhRk5rTUZyU2VNZ3JMcXNsM092elctbTBLQjhTcGY5Y1lEN3BaMHJSMzNicERkNXh6NVVkSlBGVW9qd3dZXzN6a2xlcnVIUWvSAYsCQVVfeXFMT1RGLU5fdXhleTlhenltT2RCUmE5RnJXOWp6V2pXMjhsMDNycDVjdXlHWjFwZ2hTM0huRTM0NVhfQ01US0JQQlRyX3plb2tRWlAzVUNldGlocE1wWWlkWGJMb1hlc2VKZnIxN0RxN3B1dGd0TzNnd3lJWW55LVFfNHMtdmdNS1l2elFlS3o2aGFVS01oSXFfcXNRMmJ1bE9SU2V2NUxBemxBLTZZRzM3cWEtcktsQndhTVdwUTlPODJHel9zYUZOa01GclNlTWdyTHFzbDNPdnpXLW0wS0I4U3BmOWNZRDdwWjByUjMzYnBEZDV4ejVVZEpQRlVvand3WV8zemtsZXJ1SFFr?oc=5",
-    "pub": "Sat, 20 Jun 2026 14:16:00 GMT",
-    "src": "The Economic Times",
+    "title": "Marvell Stock: Can Its Custom ASIC Pipeline Drive MRVL Above $230? - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNTGRGT3BNRF9jek5HUUJmMmtRelZUcDFLMF9fdFpwencyYTVyWE1MVEQzSDI2SjdZcTFfWTFFY2YzMmZWQk04dlMzQk1xZzZVQkVERXBEYnBmVG5BaU0tVktjNlRBLUo3OGxEcW5sU3lfcFNPbWlqX3l4NE9zSGFPQnVwVWxCdU1fcXJKU081UTY3U2lCOVBfcFZhMGVjb3g1MWUycVRHQV9yQkRVRE5heGNDYVVPTmVJMHFUTzQwUQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 13:01:56 GMT",
+    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -949,6 +949,14 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWlo2eWRfMHQzRGk2MTdTdkR4R3FLWHlxWjdRekZCOWRhWk42ajJxamdDcmZlbER4TzVxZlFMa0F5d0wycHVMejh1Qk1vTGtWQW1qV05HdXp6ZFFOd3FEOXdaRmw5ZC1HdDd6WGl1Q3NnOS0xc3Y0YUdyQ3htLUlzTVJqRG9oalZM?oc=5",
     "pub": "Sun, 21 Jun 2026 04:18:10 GMT",
     "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Petrol prices in Australia are now lower than before the Iran war began. Is the oil crisis over and what happens next? - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOTkcyTFA4ZHFSb2J6eUlHc1J6WXBvUk1RNlZaa0hqRl9Gc0o3NTl5aWFnMGVWZGNBTU9zcWpEdk9iVXBON2piWUdmcUxhZnhOYTVRTW1FMUI3ZW1GWldEOUVERllmM0xXQWpuQVYySlJhd2lIUk9rOUtRLUY1S29vcFkwMGtqNk9zVU1EYnRCYlFxYlZBbDk1ajduRnpGb0RETHp5a2tlWnFEZWdhSk43bXdmT1E5cV8ybEE?oc=5",
+    "pub": "Sun, 21 Jun 2026 03:21:58 GMT",
+    "src": "The Guardian",
     "trig": false,
     "geo": false
    },
@@ -965,14 +973,6 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53ei1qaE9WdHVCbEx5MmRvY3V2R3c0LXV1RHFSVFp6azZaLWNhbkFBYldJRnFDVDMxWFhrQWNFeUZmS05yTWNYUGVkNzY1VTRsUElvcTNwNGxVMWM?oc=5",
     "pub": "Sun, 21 Jun 2026 02:17:58 GMT",
     "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How High Are Gas Prices Where You Live? - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONFFyMEw4dDc1S2JPR0dWakJ3ZHVweTNnX29SUl9KbUEtTnI1ZjVyME96MFRxdkZEY3pNNl85SDkyVklUdm5nTTBKTUdodmdKaDhXNENnX2V2MUlDZ3Jpcks3RTVRTWV6cHo3SjZfU1hKU0szdzhFRXZ2a0R5LUlCaHBUR0RyNl9tRzcwUlk1WWlwYzZKMXFVanA0aENpNFd1a3cw?oc=5",
-    "pub": "Sun, 21 Jun 2026 00:03:38 GMT",
-    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -999,14 +999,6 @@
     "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxQTFBpY2NLQW9sd2dtUVM3NGREV1JyOWw5UUJNU0NNenN6akVaTXRXWlhDb3U4NUF1MGJoaExDOUlQTDhxZ3BBSlJCelA1Q2RuNGtwR0JEdGxRQy1SX3FxLVZQMTUzMkdTTlVLdzVUWVZNWW4yaWJGM3Z6OElFTFB6YkRIcml1VW1oRlVrTmNpQnEwd3FNaXNHRnpPVXdzMEIzRlNZZ0dtWDZsU0dOYno1dDZhTjgzcmUyQ2s5dGZITmZBWHc0RU5fcXJiQ0lLTVU0RlVxZDJvdkd1STkyNDBJbmVpSUJ5X0Y2V2JmbGdEaEw3UVZ2ZGw1NHVNWHZJamNERE42WdIBigJBVV95cUxQWXF0MVE3aWJ5eGszYmRYa1NtcTdxUWpxWFRYWkQtOTFWM0V2eXg3V3NCZWxZRFVqdG9kbnp6dndqUThCOTh4WXlqcG1pbjREbmh6VmhtNzdoTDdHM0RQMVYxWWN2eUtDVzJpblVwVnU0YWNMOW9VLXFkdXBHc2hadkxCS3RzeGFQQTZ0YXRxYXNqYVFDQUFUTGxoY2VtdzRPWnBpVVFLZ3NoTDM3bzFlV2phQ1FKLUdBOU1aSFhoV0NnQTVKeEZZMThfNVFUSVB6MHdaUkFrOTJBYmpfYjh3X3NULWRpVlpNQnRfV1NnaDNhNnpPdXY4UHo3ai1UVU5IcnVqZzY5dW9NUQ?oc=5",
     "pub": "Sun, 21 Jun 2026 04:19:13 GMT",
     "src": "Mint",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Dubai Gold Rate Today: 18K, 22K, 24K Gold Prices for June 21, 2026 - LatestLY",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUFza1pDd1hjOEZfdk5fQXQ2am01ZmgwbzQ2bEd3VlZwRk0wNnNfblkxYWp0RWJuNzVtaWkxVVk5ZFVEQUpNVDNWVnZyNmNuODFjdXV6aVZLXzN0SFNzTlhlaFFYZEtXNDV6NFBFSzZlWkJqcDdUcDNwY2Ytcmo5NVMtamJjQ3hwSEJ1NHN6NWhndGhpQnFObHB4V1NVOWYzMElMNFZCbFJOdw?oc=5",
-    "pub": "Sun, 21 Jun 2026 03:05:46 GMT",
-    "src": "LatestLY",
     "trig": false,
     "geo": false
    },
@@ -1039,6 +1031,14 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2pfZXVnc3lsYWdMb1ZQa1FHSVFIc1I1S1pFd2ZYQm5pbHhXZGduSGdUQS1kNVVYTG10Sy1BcDBLejlZM3M5VGF0UmFubFNZb2doZzNOaFZwcVpRa3VIZEtYMF82cjBVLU9uOVZ6WE5STThuWkhNbkpuQ3dfeTY3V0dBRmtTTml5MFMtbXhSUHE3cWRiWEdmT3VzQVQ?oc=5",
     "pub": "Sat, 20 Jun 2026 18:34:16 GMT",
     "src": "Coinfomania",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Kiyosaki Eyes Gold, Silver Rebound as Hormuz Risks Keep Safe-Haven Case Alive - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13NnJrUzY2NmJabHRyOWNMTkp0bVE2bXJreUxiOU0xM3J2dFdDRDhZMG16bDVkTFF3am4zaTVXNlFKZlo3Qk5MejZBVHRNbFI0UlAxSllZSjJCWUMzWmRXVUxVbGItR0VNRFRfanFjRQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 17:41:00 GMT",
+    "src": "BeInCrypto",
     "trig": false,
     "geo": false
    }
@@ -1166,15 +1166,15 @@
    4.33,
    4.32,
    4.29,
-   4.28,
-   4.29,
-   4.35,
-   4.42,
-   4.41,
-   4.62,
-   4.49,
-   4.47,
-   4.49
+   4.31,
+   4.32,
+   4.39,
+   4.39,
+   4.46,
+   4.59,
+   4.45,
+   4.54,
+   4.45
   ],
   "dxy": [
    98.95,
@@ -1210,16 +1210,16 @@
    0.942,
    1.071,
    0.96,
-   0.848,
-   0.841,
-   0.881,
-   0.829,
-   0.826,
-   0.868,
-   0.798,
-   0.77,
-   1.107,
-   0.8
+   0.882,
+   0.842,
+   0.871,
+   0.846,
+   0.845,
+   0.884,
+   0.835,
+   0.821,
+   0.986,
+   0.838
   ],
   "hyoas": [
    2.79,
@@ -1717,7 +1717,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-21T04:41:51+00:00",
+  "checked": "2026-06-21T04:51:36+00:00",
   "openai": {
    "found": false
   },

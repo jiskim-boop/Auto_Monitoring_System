@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21T07:41:43+00:00",
+ "updated": "2026-06-21T07:51:50+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -555,11 +555,11 @@
   },
   "^VIX3M": {
    "price": 19.57,
-   "chg": -5.09,
-   "chg5": -8.64,
-   "sma20": 20.14,
-   "sma50": 20.64,
-   "sma200": 21.34,
+   "chg": -8.64,
+   "chg5": -10.31,
+   "sma20": 20.4,
+   "sma50": 21.02,
+   "sma200": 21.39,
    "high3m": 29.27,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -603,24 +603,24 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": 0.76,
-   "chg5": 0.99,
-   "sma20": 99.59,
-   "sma50": 98.92,
-   "sma200": 98.67,
-   "high3m": 100.85,
+   "chg": 1.32,
+   "chg5": 0.9,
+   "sma20": 99.51,
+   "sma50": 98.89,
+   "sma200": 98.65,
+   "high3m": 100.51,
    "sess": "reg",
    "mt": 1781902799,
    "ok": true
   },
   "^IRX": {
    "price": 3.66,
-   "chg": 0.3,
-   "chg5": 0.97,
-   "sma20": 3.62,
+   "chg": 0.97,
+   "chg5": 0.91,
+   "sma20": 3.6,
    "sma50": 3.6,
    "sma200": 3.59,
-   "high3m": 3.66,
+   "high3m": 3.63,
    "sess": "reg",
    "mt": 1781809193,
    "ok": true
@@ -664,9 +664,9 @@
   "^TNX": {
    "price": 4.45,
    "chg": -0.27,
-   "chg5": -0.27,
-   "sma20": 4.49,
-   "sma50": 4.43,
+   "chg5": -1.87,
+   "sma20": 4.52,
+   "sma50": 4.42,
    "sma200": 4.29,
    "high3m": 4.67,
    "sess": "reg",
@@ -675,12 +675,12 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64139.99,
-   "chg": -0.16,
-   "chg5": -2.23,
-   "sma20": 63704.72,
-   "sma50": 72116.69,
-   "sma200": 75549.24,
+   "price": 64149.81,
+   "chg": -0.14,
+   "chg5": -3.23,
+   "sma20": 64126.38,
+   "sma50": 72432.1,
+   "sma200": 75618.82,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1782027684,
+   "mt": 1782028290,
    "ok": true
   },
   "USO": {
@@ -853,10 +853,10 @@
     "geo": false
    },
    {
-    "title": "BoE outlines severe recession scenario for private markets - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd0szSWtwM1E3ai1iQjlKYzlKRVpyb2JfTHUyb0NYZWNxOE1LWXA2Z0tMQWsxV3ZhRWRPcTNjUXZVUzlDNFRwbjg2aUNXTkVfQWxpbHp4ME93anVDTTlUUzdXZ3NSb3F4N2FRajJURU9mdjlweUd5dF9wdkdpSmRuZUd0eks4RHE0ZmJtamNiOWpGdlFzOGI3YjRyd1F5Nzd2V0hWZ1FFYmxkU3dpTUd6SkJFdE02aE9PdlN6N1Y5WEtmU053ZHRDbGdwVDVUeG9DQzhtUHBXNHpSbjlUaXYzTVFR?oc=5",
-    "pub": "Sat, 20 Jun 2026 17:37:51 GMT",
-    "src": "MSN",
+    "title": "Orrick Expands Structured Finance Team With Four Partner Hires - Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUdIBwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 17:17:44 GMT",
+    "src": "Pulse 2.0",
     "trig": false,
     "geo": false
    },
@@ -920,8 +920,8 @@
    },
    {
     "title": "South Korea Stocks Halt Again, SK Hynix Market Cap Breaks $1 Trillion Mark. - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOWTVXYUtzb25VanpabjdlNjM5bEFISzhIbmpUdmlScFZYX0FDRlgycFdDUnB1VnRQOC1oVUlDWFI3QnE0RnV4RFFsX1hiZV9ZQ0RkUVhJeVlnbUxPOFVCUGRTUGdOalpYcHpQZU1zcUU5Q3p6WDUzSHZzSDZKLS10ZkI1cGlXRUkwMkJiTmVrWjZYUTh0Y3ZwbW9iTmZKbTQ1YkI1ejhkSDlGZUdONUFYSGUwa0plMHNuY2NRTWtNZno3ZkdnVDA0bjZBT25EQnBxRkpUQTY5WXJ2aUlVVDRjTnJwUUMxUVgxSlJHeldiZlR6cmFKQncyMTVLaFpRdw?oc=5",
-    "pub": "Sat, 20 Jun 2026 23:39:42 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi2wJBVV95cUxOTTE3azJjWUpvb19WaGJkUkFVUFNxQkoyVy1wMUFXYlBlSVJGSXdQYXNUZ3Y0d2hHMDE3azlYbHNCaTBENVIzeENQbmxKd1lERHdrc3lKM0NTbjBGOTgycGlNUGt3VTlZVm50UnBCQ3hmT3lFcnZaMmFpQ1RwMGh4N05BdmRha0c3Z3d4UWFJS0QtVElDNDltLW9ZcDFoN3JBVjhCV0NBVUd6R2FTaWcySE8zMUEydWRWbDJIdy1hWU8yVVNrb2NrX3RrWjN3djlCbERuZVhoeW5KWlNxSmVpbktySTc5U2VXQXljOVh5S1laT3JpaGxCQ1d4dDRGUzZ4Rk1ZNmNwYW5CcmkyajFoSnJUX25TNy1hS2EwZTdOQjlSbWZ4SlJGM2pNMkdGRHZvN21BdERmb2F6a0ZKa0E1eGZjNkhvT2RMd1BYMl9TNGdGWHZLTW5nNFU5cw?oc=5",
+    "pub": "Sat, 20 Jun 2026 23:22:04 GMT",
     "src": "TradingKey",
     "trig": true,
     "geo": false
@@ -953,6 +953,14 @@
     "geo": false
    },
    {
+    "title": "65th Lethal Strike on Drug Boat: U.S. Military Operations in Eastern Pacific - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObFR1N3ZSLVJMWlJKNk40STVWekpwY0Rtbk45RWpjV0lIRVVPaUNhWFNobU81elRaQ2dkdVpLYi1QVi1TX2oyZHRuVFZsc3hsWU43U0xlN2VyaTEyMWVLbVgyOFl0eWNfOVlHcGdXNzlVa19pZUJWWU90TEd2b3VaOFlBeUQwNGJYMGFEd0htWW9ocmNONVRNaHlmd2hvY3hibmstWVRDQkowczAzajUwd0sxSQ?oc=5",
+    "pub": "Sun, 21 Jun 2026 03:21:00 GMT",
+    "src": "IndexBox",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Larry Williams’ 2026 Market Forecast: Cycles, Risks, And Opportunities Moms.gov (Jyzobhgnbm) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE53ei1qaE9WdHVCbEx5MmRvY3V2R3c0LXV1RHFSVFp6azZaLWNhbkFBYldJRnFDVDMxWFhrQWNFeUZmS05yTWNYUGVkNzY1VTRsUElvcTNwNGxVMWM?oc=5",
     "pub": "Sun, 21 Jun 2026 02:17:58 GMT",
@@ -969,26 +977,18 @@
     "geo": false
    },
    {
-    "title": "Nvidia’s $25B Bond Sale: Why AI Stocks Are Turning Credit Markets Into Their Next Growth Signal - Crypto Daily",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBoUnJLSTNtRDdlTnlFUmt5Q3poVnMwcmRwZENVcXZxRjM3c2JvWUNGZnZHSVBPRHhrUDFlOUxRTXpUVHJWck81R08wY2VJT0V4b1NVQ3JrWHhjZF92TF93bFRzWlFVS1ppRUtiTVFLU3JhYXdx?oc=5",
-    "pub": "Sat, 20 Jun 2026 15:28:26 GMT",
-    "src": "Crypto Daily",
+    "title": "NAF airstrikes eliminate scores of terrorists, destroy hideouts in North-West - The Witness Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVVNhOTdydDB2N1piWFhBcXhwY21QVEc4TGRKQlAxRGZwNHlsWVZFMjE0a1dSWjZ5UC1YTHFtaC1JcWFwdW9IS19NTEQ3OVB4c0NXZWJFQnRFMlZPeVNXcnBLbHV1MWdfZWFZX0F0YXR1Rmd0cGxOcm9odkFnU18yb1JfUGlRYUIwMU9wSEpEbXFGSk9XR25JVTllTmpVaE42Rnc?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:30:50 GMT",
+    "src": "The Witness Nigeria",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Behind Trump's confession: the 'oil catastrophe' that pushed him to cut losses in Iran - Ynetnews",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9ETTBpZFl6d1dURUNPbmJUZF83QkFVSWFseFFvZU9fNzVLNFRUc2xVeGhyY1VtZEdfcTRQaFl2STlOZWg5VHMxTEszcUpaQnV5MUQ5THRpZw?oc=5",
-    "pub": "Sat, 20 Jun 2026 13:28:42 GMT",
-    "src": "Ynetnews",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "JPMorgan Secures Record Q1 Net Income Amid Dimon Credit Warning - HarianBasis.co",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObjgxYzk1eWlFX3R5Q29BajBIMkM3c0FqdWExZVJ6VTc3UkpDejJkU0FNYW04NEd1anIwQXZsYzFJTldoUExTVThFTjM5RXhTR0xhcE1JcU5JZlNvNHZ6dTRGRVR2b09YMWdZM0duZTRxVjZCeTNQdDFHWjM4MkRLVk5WM3J3M0k?oc=5",
-    "pub": "Sat, 20 Jun 2026 13:15:26 GMT",
-    "src": "HarianBasis.co",
+    "title": "Al Jazeera Cameraman Ahmed Wishah Killed in Gaza Strike - Whalesbook",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQMzNBYVBKRkZwUWluN1lrWHRMeml6X1QzeUdTMXVjdUJJdGJtemU1N28wc2lBWHd2VWJVaWNLeHRmWmZ5bG9fNTJaS1I3MkM0cFUyak90RnlfM1Z1V05jMHRGM0otd20xNFN3NUpCbDY0dE45dHdUa0N2NFR2QWU5aDE5TmMwSHV6a2ZzUFRQcEFRWnV1c3pER2lzNHdkQjJKLU1jUDdlQzNBUGFFVGtreEJCUHVWZHF5ekZQa1J6bjJIM0dKTm1scmUteUFIVXVWREFnM3hB?oc=5",
+    "pub": "Sat, 20 Jun 2026 19:16:17 GMT",
+    "src": "Whalesbook",
     "trig": false,
     "geo": false
    }
@@ -1181,15 +1181,15 @@
    100.15,
    99.98,
    98.37,
-   98.05,
+   98.1,
    98.51,
    98.21,
-   97.84,
-   99.27,
+   98.25,
+   98.88,
    99.19,
-   98.91,
-   100.07,
-   100.85
+   99.02,
+   99.41,
+   100.09
   ],
   "bizd": [
    12.94,
@@ -1210,16 +1210,16 @@
    0.942,
    1.071,
    0.96,
-   0.882,
-   0.842,
-   0.871,
-   0.846,
-   0.845,
-   0.884,
-   0.835,
-   0.821,
-   0.986,
-   0.838
+   0.848,
+   0.841,
+   0.881,
+   0.829,
+   0.826,
+   0.868,
+   0.798,
+   0.77,
+   1.107,
+   0.8
   ],
   "hyoas": [
    2.79,
@@ -1717,7 +1717,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-21T07:41:39+00:00",
+  "checked": "2026-06-21T07:51:46+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-21T05:41:46+00:00",
+ "updated": "2026-06-21T05:51:45+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -243,11 +243,11 @@
   },
   "NRG": {
    "price": 135.06,
-   "chg": 2.22,
-   "chg5": 9.18,
-   "sma20": 132.05,
-   "sma50": 143.02,
-   "sma200": 151.52,
+   "chg": 2.24,
+   "chg5": 11.94,
+   "sma20": 132.0,
+   "sma50": 143.53,
+   "sma200": 151.65,
    "high3m": 170.96,
    "sess": "reg",
    "mt": 1781812802,
@@ -255,12 +255,12 @@
   },
   "TLN": {
    "price": 436.29,
-   "chg": 6.46,
-   "chg5": 26.53,
-   "sma20": 377.97,
-   "sma50": 364.69,
-   "sma200": 358.33,
-   "high3m": 436.29,
+   "chg": 7.33,
+   "chg5": 29.62,
+   "sma20": 373.38,
+   "sma50": 362.54,
+   "sma200": 357.69,
+   "high3m": 409.99,
    "sess": "reg",
    "mt": 1781812800,
    "ok": true
@@ -507,9 +507,9 @@
   },
   "BKLN": {
    "price": 20.46,
-   "chg": -0.05,
-   "chg5": 0.1,
-   "sma20": 20.47,
+   "chg": -0.2,
+   "chg5": 0.2,
+   "sma20": 20.48,
    "sma50": 20.54,
    "sma200": 20.62,
    "high3m": 20.67,
@@ -543,11 +543,11 @@
   },
   "^VIX": {
    "price": 16.78,
-   "chg": -9.0,
-   "chg5": -13.68,
-   "sma20": 17.4,
-   "sma50": 17.79,
-   "sma200": 19.13,
+   "chg": 2.25,
+   "chg5": -24.48,
+   "sma20": 17.42,
+   "sma50": 17.85,
+   "sma200": 19.15,
    "high3m": 31.05,
    "sess": "reg",
    "mt": 1781883001,
@@ -555,11 +555,11 @@
   },
   "^VIX3M": {
    "price": 19.57,
-   "chg": -5.09,
-   "chg5": -8.64,
-   "sma20": 20.14,
-   "sma50": 20.64,
-   "sma200": 21.34,
+   "chg": -8.64,
+   "chg5": -10.31,
+   "sma20": 20.4,
+   "sma50": 21.02,
+   "sma200": 21.39,
    "high3m": 29.27,
    "sess": "reg",
    "mt": 1781813701,
@@ -579,11 +579,11 @@
   },
   "^SKEW": {
    "price": 146.72,
-   "chg": 2.87,
-   "chg5": 2.62,
-   "sma20": 142.23,
-   "sma50": 141.4,
-   "sma200": 144.36,
+   "chg": 2.85,
+   "chg5": 2.54,
+   "sma20": 141.51,
+   "sma50": 141.47,
+   "sma200": 144.34,
    "high3m": 156.93,
    "sess": "reg",
    "mt": 1781816418,
@@ -591,11 +591,11 @@
   },
   "^MOVE": {
    "price": 65.39,
-   "chg": -7.47,
-   "chg5": -5.85,
-   "sma20": 72.51,
-   "sma50": 72.43,
-   "sma200": 72.03,
+   "chg": -5.85,
+   "chg5": -13.05,
+   "sma20": 75.51,
+   "sma50": 73.54,
+   "sma200": 72.16,
    "high3m": 115.02,
    "sess": "reg",
    "mt": 1781814615,
@@ -603,35 +603,35 @@
   },
   "DX-Y.NYB": {
    "price": 100.85,
-   "chg": 0.76,
-   "chg5": 0.99,
-   "sma20": 99.59,
-   "sma50": 98.92,
-   "sma200": 98.67,
-   "high3m": 100.85,
+   "chg": 1.32,
+   "chg5": 0.9,
+   "sma20": 99.51,
+   "sma50": 98.89,
+   "sma200": 98.65,
+   "high3m": 100.51,
    "sess": "reg",
    "mt": 1781902799,
    "ok": true
   },
   "^IRX": {
    "price": 3.66,
-   "chg": 0.3,
-   "chg5": 0.97,
-   "sma20": 3.62,
+   "chg": 0.97,
+   "chg5": 0.91,
+   "sma20": 3.6,
    "sma50": 3.6,
    "sma200": 3.59,
-   "high3m": 3.66,
+   "high3m": 3.63,
    "sess": "reg",
    "mt": 1781809193,
    "ok": true
   },
   "LQD": {
    "price": 109.07,
-   "chg": 0.28,
-   "chg5": -0.01,
-   "sma20": 108.75,
-   "sma50": 108.91,
-   "sma200": 109.67,
+   "chg": -0.05,
+   "chg5": 0.84,
+   "sma20": 108.7,
+   "sma50": 108.92,
+   "sma200": 109.68,
    "high3m": 110.04,
    "sess": "reg",
    "mt": 1781812800,
@@ -664,9 +664,9 @@
   "^TNX": {
    "price": 4.45,
    "chg": -0.27,
-   "chg5": -0.27,
-   "sma20": 4.49,
-   "sma50": 4.43,
+   "chg5": -1.87,
+   "sma20": 4.52,
+   "sma50": 4.42,
    "sma200": 4.29,
    "high3m": 4.67,
    "sess": "reg",
@@ -675,12 +675,12 @@
   },
   "^KS11": {
    "price": 9052.42,
-   "chg": -0.13,
-   "chg5": 11.43,
-   "sma20": 8322.18,
-   "sma50": 7366.93,
-   "sma200": 6087.92,
-   "high3m": 9063.84,
+   "chg": 2.12,
+   "chg5": 16.6,
+   "sma20": 8229.44,
+   "sma50": 7294.66,
+   "sma200": 6062.91,
+   "high3m": 9052.42,
    "sess": "reg",
    "mt": 1781859940,
    "ok": true
@@ -710,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64249.21,
-   "chg": 1.11,
-   "chg5": -2.22,
-   "sma20": 64522.25,
-   "sma50": 72682.43,
-   "sma200": 75673.83,
+   "price": 64161.4,
+   "chg": 0.98,
+   "chg5": -2.36,
+   "sma20": 64593.96,
+   "sma50": 72711.12,
+   "sma200": 75681.75,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1782020485,
+   "mt": 1782021083,
    "ok": true
   },
   "USO": {
@@ -853,14 +853,6 @@
     "geo": false
    },
    {
-    "title": "BoE outlines severe recession scenario for private markets - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOd0szSWtwM1E3ai1iQjlKYzlKRVpyb2JfTHUyb0NYZWNxOE1LWXA2Z0tMQWsxV3ZhRWRPcTNjUXZVUzlDNFRwbjg2aUNXTkVfQWxpbHp4ME93anVDTTlUUzdXZ3NSb3F4N2FRajJURU9mdjlweUd5dF9wdkdpSmRuZUd0eks4RHE0ZmJtamNiOWpGdlFzOGI3YjRyd1F5Nzd2V0hWZ1FFYmxkU3dpTUd6SkJFdE02aE9PdlN6N1Y5WEtmU053ZHRDbGdwVDVUeG9DQzhtUHBXNHpSbjlUaXYzTVFR?oc=5",
-    "pub": "Sat, 20 Jun 2026 17:37:51 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Orrick Expands Structured Finance Team With Four Partner Hires - Pulse 2.0",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUdIBwgFBVV95cUxOckRIcVotTV9uUWlTVjAwYVJxWHlOSGJ6NVl3UTZYUlFES29CM2VWRG14YkE4UGt5Zl9GZzRMYktDU3hIUHZ1X01aNGFsb0gwS29LdXVYbTdDUWtmZG9IeV9RWjI1Y1BLZHBxdnFoSC0tQUlPMGZkLWxvZktFaEQ0RFItUktJTjl4WWZoc1RqYkc3Y1JFaVFOcDdHZ3I4VmtUTkgxX2xHS2N6bjJ0enJOdm9hMXIydUVvd01JY00xUlViUQ?oc=5",
     "pub": "Sat, 20 Jun 2026 17:17:44 GMT",
@@ -891,6 +883,14 @@
     "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Oaktree Specialty Lending Stock - long-term BDC model under the microscope - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOX0ZselpTQ1dlbjBBQkxtRjRPZF9qejEzc2s3N2E4bE9LWUgzalRwcjlOZVJEaHh6Szd1QTdFRy1fc0xUaC02cHhqWm5nWlJkTnJoUDZidk0wNnhUcGd2cXh2YlhpLXVCNE5ZZ1JIOUVQaXhPWURmTDRGNkw2TDB3Y1VCY3lxd21iMTZPdzJER296MXFuN1c1TnQzVkJfdzVmWDhYLUp4Qmh2bGh4ZWdXNDBVMU90TlJ6cGdYZXF0TXM5eGdVSHY0LVc3RQ?oc=5",
+    "pub": "Sat, 20 Jun 2026 12:18:32 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -907,6 +907,14 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOUGFaU0w4QjV1WDFHdFA0N2YwVUVmdjVLNFZpV0lNZEE4a1FxRVAtM3RBcTRqNlJNNE1BelJQN0VUVHFTX1dYTzAyQnFrZGh4NWJjUjdHTFBENjYwdERqSmc2RUM4WVN1cjhjZldtNHZZOEs3NlN1ZVppRXlXMjQwQ2czZDBkSkY3Vmc?oc=5",
     "pub": "Sun, 21 Jun 2026 02:57:21 GMT",
     "src": "Kavout",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Where Will Micron Technology Be in 5 Years? - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeS0yOXFJbnliSWtpZWhtNWNwRjF2eWZyZnVtekpLSkJTWVJDZkxid2R1ck1XcVZtVFdPdFhDWDJfS3JsRW43Tm5fM25XemVGYWM5aUJwQUtuTDFLUFJjWG94Rk5YTEJkd296VzlvQzhpTGh0eWx3SWpMaUNvcmQ4OEZTWThEZk1lQ3ZXdEVOLTMtMEZvTUtQNXh5eGNlYTMtT25OOVVyUkV4M1o2d3BXbkl0X210aGxnbEJmTHBrR3Utd2F1?oc=5",
+    "pub": "Sun, 21 Jun 2026 00:43:47 GMT",
+    "src": "The Globe and Mail",
     "trig": false,
     "geo": false
    },
@@ -931,14 +939,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZVNiSFFPNEpxb1hEc0ZxZ1pPUmFpb3h2Zy1uLXpqWHVvbU12b3VKOGc2dHVBR3dBMmtZdFJkMFV5UVNNbjhFQ2JFd0RWRXRWVExYVFl5cEFwUVF2R1I1Y3VCLTFuOXN1ZEpRSXlkMTBabTJjZVdnZU9EMkhWTFBkeHdpbWp0QnJXV1o2Y0szRGYtZV9jMzJVUGVB?oc=5",
     "pub": "Sat, 20 Jun 2026 15:45:49 GMT",
     "src": "Let's Data Science",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "TSMC's Capacity Crunch Forces Clients to Rivals as It Fortifies US Supply Chain with Amkor Deal - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPVVpheFhLU0RzOUFBNlR2bDdYN0tOWGxZZUxBZ0QwMzlCa2trTVZMTHZZSnlQM3M1ZElGbmFWRXJwaWdrWTRuNEsxdUstdHh5cUdGcWVJQ2FfOTFpdVEwODNiQ2xoTHVOSElscmY4UkhpdkZsY0JSOXZsVjVkcHBaVEd4Y1dKcTFTVmRPekc3a0phbmhBRHB5OHFNSnY0SnVEVm9VZTM5a2pjbnJ5dTlkaU13dnRrbThHbzdFa3FmY0k1eFRKdUk2ZmpURmk?oc=5",
-    "pub": "Sat, 20 Jun 2026 15:32:44 GMT",
-    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
@@ -1011,6 +1011,14 @@
     "geo": false
    },
    {
+    "title": "Dubai Gold Rate Today: 18K, 22K, 24K Gold Prices for June 21, 2026 - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQbUFza1pDd1hjOEZfdk5fQXQ2am01ZmgwbzQ2bEd3VlZwRk0wNnNfblkxYWp0RWJuNzVtaWkxVVk5ZFVEQUpNVDNWVnZyNmNuODFjdXV6aVZLXzN0SFNzTlhlaFFYZEtXNDV6NFBFSzZlWkJqcDdUcDNwY2Ytcmo5NVMtamJjQ3hwSEJ1NHN6NWhndGhpQnFObHB4V1NVOWYzMElMNFZCbFJOdw?oc=5",
+    "pub": "Sun, 21 Jun 2026 03:05:46 GMT",
+    "src": "LatestLY",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold Rate Today, June 21, 2026: Check 22K and 24K Gold Prices in Delhi, Mumbai, Chennai and Other Cities - LatestLY",
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNZFNWbGpRaHFEOTg5aTdHUFk2bU1rOHlyVTRLRzVtODExZmYxVTFtTWNNS3Z4OHlwYzM0a2lFazR1TnlHdGZwYlFmZGEwdnZRSkFOMEpTbC0zS1B1UWJKaWtXRnVnTE1aY09WLXFGZEJmTkl1b0FTQmdIZFJ3dDd0QnZ1WDFJTkpnOWxGVmdsd1NiWkRPaXhCcTRId1diN3VXejdYZlJXdFZIdGJ6Skg5bWl2YWlKalcxYW51RDk1NmFqaUhjU001SEw1d1NmU2lFd0JZekV5cGE5ajlkMGkw0gHkAUFVX3lxTE1jYjU0SVZXS1FNQXJrMkJHVHJUUEJDYkVtakF5Z0VMZkhfeVZlMkg3S21ucjZJRlFSTG92TjJYSG9XWFd2dHFvS1I3dGFmcGZ6M2RaUE9vVWtaYUItUzA0cDFNZWVVcmNRcWEzVEE0eEFsNWlLaW5JNGtoQXdkLU5PSlJqbTloS3JTYTA2QVNDWnlOMS1BVjhxMmk3TzA5cS1BaVZoQzFUWTZDRU02VDRhRGI0eHJwdmZUazFaQ1lSblE5NG5EaFdNY2EwaksxX3dWNlZoNWMtV0R6bW42Nk9MNDFQdg?oc=5",
     "pub": "Sun, 21 Jun 2026 03:00:25 GMT",
@@ -1031,14 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNcWJPWkZ2OE1ZQmFNaGZWcXd6bHNOLVNVVkhaNVlTUnVvcVctSU1Sek9jVXI4ZmRtOWNiZzUxbWp5ZHc2cV9lZDhUMS1MbFhJMzlwelF0Mk0zRFoyNGZEek9lSmlpYzg4bU84SnZhSm4zZW9FVGU5bDB1eVc2dDNYak13MHdyc3d4TXc?oc=5",
     "pub": "Sat, 20 Jun 2026 20:15:00 GMT",
     "src": "PressReader",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "DaanCrypto Analyzes $DXY Breaking 100 Level as Risk Assets Face Pressure - Coinfomania",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNU2pfZXVnc3lsYWdMb1ZQa1FHSVFIc1I1S1pFd2ZYQm5pbHhXZGduSGdUQS1kNVVYTG10Sy1BcDBLejlZM3M5VGF0UmFubFNZb2doZzNOaFZwcVpRa3VIZEtYMF82cjBVLU9uOVZ6WE5STThuWkhNbkpuQ3dfeTY3V0dBRmtTTml5MFMtbXhSUHE3cWRiWEdmT3VzQVQ?oc=5",
-    "pub": "Sat, 20 Jun 2026 18:34:16 GMT",
-    "src": "Coinfomania",
     "trig": false,
     "geo": false
    }
@@ -1148,48 +1148,48 @@
  "charts": {
   "vix": [
    24.06,
-   27.44,
-   23.87,
-   19.23,
-   17.48,
-   18.71,
-   16.99,
-   17.19,
-   18.43,
-   16.7,
-   15.32,
-   21.51,
-   16.4
+   25.33,
+   24.54,
+   19.49,
+   17.94,
+   19.31,
+   16.89,
+   17.08,
+   17.26,
+   16.76,
+   15.74,
+   15.4,
+   18.44
   ],
   "tnx": [
    4.28,
    4.33,
    4.32,
    4.29,
-   4.31,
-   4.32,
-   4.39,
-   4.39,
-   4.46,
-   4.59,
-   4.45,
-   4.54,
-   4.45
+   4.28,
+   4.29,
+   4.35,
+   4.42,
+   4.41,
+   4.62,
+   4.49,
+   4.47,
+   4.49
   ],
   "dxy": [
    98.95,
    100.15,
    99.98,
    98.37,
-   98.05,
+   98.1,
    98.51,
    98.21,
-   97.84,
-   99.27,
+   98.25,
+   98.88,
    99.19,
-   98.91,
-   100.07,
-   100.85
+   99.02,
+   99.41,
+   100.09
   ],
   "bizd": [
    12.94,
@@ -1208,18 +1208,18 @@
   ],
   "vixts": [
    0.942,
-   1.071,
-   0.96,
-   0.882,
-   0.842,
-   0.871,
-   0.846,
-   0.845,
-   0.884,
-   0.835,
-   0.821,
-   0.986,
-   0.838
+   0.988,
+   0.987,
+   0.859,
+   0.863,
+   0.909,
+   0.824,
+   0.82,
+   0.813,
+   0.801,
+   0.791,
+   0.793,
+   0.899
   ],
   "hyoas": [
    2.79,
@@ -1484,7 +1484,7 @@
   }
  ],
  "gpu": {
-  "median": 2.73,
+  "median": null,
   "hist": [
    {
     "d": "2026-06-19T06",
@@ -1717,7 +1717,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-21T05:41:42+00:00",
+  "checked": "2026-06-21T05:51:40+00:00",
   "openai": {
    "found": false
   },

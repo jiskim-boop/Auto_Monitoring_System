@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-22T04:32:24+00:00",
+ "updated": "2026-06-22T04:41:44+00:00",
  "prices": {
   "NVDA": {
    "price": 210.69,
@@ -122,27 +122,27 @@
    "ok": true
   },
   "005930.KS": {
-   "price": 356000.0,
-   "chg": 0.56,
-   "chg5": 5.64,
-   "sma20": 327275.0,
-   "sma50": 275830.0,
-   "sma200": 212563.75,
+   "price": 352500.0,
+   "chg": -0.42,
+   "chg5": 4.6,
+   "sma20": 327100.0,
+   "sma50": 275760.0,
+   "sma200": 212534.58,
    "high3m": 362500.0,
    "sess": "reg",
-   "mt": 1782101467,
+   "mt": 1782102053,
    "ok": true
   },
   "000660.KS": {
-   "price": 2913000.0,
-   "chg": 5.39,
-   "chg5": 27.32,
-   "sma20": 2296350.0,
-   "sma50": 1778320.0,
-   "sma200": 1236183.33,
-   "high3m": 2913000.0,
+   "price": 2893000.0,
+   "chg": 4.67,
+   "chg5": 26.44,
+   "sma20": 2295350.0,
+   "sma50": 1777920.0,
+   "sma200": 1236016.67,
+   "high3m": 2893000.0,
    "sess": "reg",
-   "mt": 1782101468,
+   "mt": 1782102054,
    "ok": true
   },
   "ANET": {
@@ -266,8 +266,16 @@
    "ok": true
   },
   "GEV": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 1109.73,
+   "chg": 5.8,
+   "chg5": 22.38,
+   "sma20": 980.71,
+   "sma50": 1022.31,
+   "sma200": 875.27,
+   "high3m": 1149.53,
+   "sess": "reg",
+   "mt": 1781812914,
+   "ok": true
   },
   "PWR": {
    "price": 702.25,
@@ -596,13 +604,13 @@
   "DX-Y.NYB": {
    "price": 100.92,
    "chg": 0.07,
-   "chg5": 1.18,
+   "chg5": 1.17,
    "sma20": 99.68,
    "sma50": 98.97,
    "sma200": 98.68,
-   "high3m": 100.93,
+   "high3m": 100.92,
    "sess": "reg",
-   "mt": 1782102118,
+   "mt": 1782102681,
    "ok": true
   },
   "^IRX": {
@@ -666,27 +674,27 @@
    "ok": true
   },
   "^KS11": {
-   "price": 9125.3,
-   "chg": 0.81,
-   "chg5": 6.78,
-   "sma20": 8387.67,
-   "sma50": 7439.54,
-   "sma200": 6130.46,
-   "high3m": 9125.3,
+   "price": 9096.82,
+   "chg": 0.49,
+   "chg5": 6.45,
+   "sma20": 8386.24,
+   "sma50": 7438.97,
+   "sma200": 6130.22,
+   "high3m": 9096.82,
    "sess": "reg",
-   "mt": 1782101520,
+   "mt": 1782102080,
    "ok": true
   },
   "^KQ11": {
-   "price": 953.53,
-   "chg": -1.35,
-   "chg5": -7.79,
-   "sma20": 1031.84,
-   "sma50": 1108.87,
-   "sma200": 1084.83,
+   "price": 950.2,
+   "chg": -1.7,
+   "chg5": -8.11,
+   "sma20": 1031.67,
+   "sma50": 1108.81,
+   "sma200": 1084.8,
    "high3m": 1226.18,
    "sess": "reg",
-   "mt": 1782101520,
+   "mt": 1782102080,
    "ok": true
   },
   "GLD": {
@@ -702,15 +710,15 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63904.92,
-   "chg": -0.52,
+   "price": 63909.16,
+   "chg": -0.51,
    "chg5": -2.58,
-   "sma20": 63692.97,
-   "sma50": 72111.98,
-   "sma200": 75476.13,
+   "sma20": 63693.18,
+   "sma50": 72112.07,
+   "sma200": 75476.15,
    "high3m": 82138.93,
    "sess": "reg",
-   "mt": 1782102724,
+   "mt": 1782103285,
    "ok": true
   },
   "USO": {
@@ -726,51 +734,51 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.66,
+   "price": 161.67,
    "chg": 0.23,
    "chg5": 1.07,
    "sma20": 160.08,
    "sma50": 159.13,
    "sma200": 157.88,
-   "high3m": 161.66,
+   "high3m": 161.67,
    "sess": "reg",
-   "mt": 1782102725,
+   "mt": 1782103289,
    "ok": true
   },
   "ES=F": {
-   "price": 7533.25,
-   "chg": 0.33,
-   "chg5": 1.32,
-   "sma20": 7501.0,
-   "sma50": 7352.14,
-   "sma200": 7048.15,
+   "price": 7530.75,
+   "chg": 0.3,
+   "chg5": 1.29,
+   "sma20": 7500.87,
+   "sma50": 7352.09,
+   "sma200": 7048.13,
    "high3m": 7623.75,
    "sess": "24h",
-   "mt": 1782102126,
+   "mt": 1782102686,
    "ok": true
   },
   "NQ=F": {
-   "price": 30568.0,
-   "chg": 1.01,
-   "chg5": 3.05,
-   "sma20": 29957.22,
-   "sma50": 28686.8,
-   "sma200": 26544.64,
+   "price": 30545.0,
+   "chg": 0.93,
+   "chg5": 2.98,
+   "sma20": 29956.07,
+   "sma50": 28686.34,
+   "sma200": 26544.46,
    "high3m": 30712.75,
    "sess": "24h",
-   "mt": 1782102122,
+   "mt": 1782102686,
    "ok": true
   },
   "YM=F": {
-   "price": 51817.0,
-   "chg": -0.28,
-   "chg5": 1.15,
-   "sma20": 51132.1,
-   "sma50": 50130.62,
-   "sma200": 49143.94,
+   "price": 51821.0,
+   "chg": -0.27,
+   "chg5": 1.16,
+   "sma20": 51132.3,
+   "sma50": 50130.7,
+   "sma200": 49143.98,
    "high3m": 52044.0,
    "sess": "24h",
-   "mt": 1782102124,
+   "mt": 1782102680,
    "ok": true
   },
   "GC=F": {
@@ -782,31 +790,31 @@
    "sma200": 4703.5,
    "high3m": 4857.6,
    "sess": "24h",
-   "mt": 1782102129,
+   "mt": 1782102664,
    "ok": true
   },
   "CL=F": {
-   "price": 75.68,
-   "chg": -1.2,
-   "chg5": -10.84,
-   "sma20": 87.45,
+   "price": 75.58,
+   "chg": -1.33,
+   "chg5": -10.96,
+   "sma20": 87.44,
    "sma50": 93.87,
    "sma200": 81.94,
    "high3m": 112.95,
    "sess": "24h",
-   "mt": 1782102126,
+   "mt": 1782102684,
    "ok": true
   },
   "HG=F": {
-   "price": 6.32,
-   "chg": -0.91,
-   "chg5": -1.77,
+   "price": 6.31,
+   "chg": -0.98,
+   "chg5": -1.84,
    "sma20": 6.4,
    "sma50": 6.23,
    "sma200": 5.95,
    "high3m": 6.65,
    "sess": "24h",
-   "mt": 1782102094,
+   "mt": 1782102686,
    "ok": true
   },
   "ZN=F": {
@@ -818,7 +826,7 @@
    "sma200": 111.32,
    "high3m": 111.72,
    "sess": "24h",
-   "mt": 1782102123,
+   "mt": 1782102601,
    "ok": true
   },
   "EWY": {
@@ -847,7 +855,7 @@
    {
     "title": "PLDT unit moves to list data center REIT - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQbW5ybzVGTGdfWU4yc2Y2TDhOY1NnTWRCUWFGVDhrOVpXQkxtQUFYeHBiYTgxSmd5UEh3ZmVidWs0NnRoNGZPUXZLNlhILXRlT1BweXY1dFFpSGtoVW1jYTFaa294QXhUcDJZSmF4RDl3WHdseW1ockNqLXdsYmNmWmVpbi1tRlBsN1B2V2pVZk94WnR4cTNoNw?oc=5",
-    "pub": "Mon, 22 Jun 2026 04:20:07 GMT",
+    "pub": "Mon, 22 Jun 2026 04:20:37 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -987,6 +995,14 @@
   ],
   "flow": [
    {
+    "title": "Oil Prices Fall as U.S.-Iran Talks Show Signs of Progress - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxdE1qUGxOQ2JFUFVNMTlfZ0NKVl8xSUtCWF9oTmRjb0FzdkpXZlJta3pKSkFIM1FjeWN4Z1FkU3BGT2l1ekp6WDcyaXQ0cWNxeHdfbmp5SDFONk1XNlVPV2FwRTVqRXVwYzlKNENIUTRNdzVSOVE?oc=5",
+    "pub": "Mon, 22 Jun 2026 04:34:11 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold edges lower to near $4,150 as US-Iran peace uncertainty and hawkish Fed signals weigh on sentiment - MEXC",
     "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE1yd1lxMDh0Zl9yZGo5b2JacUZLN2FMT3V3ZVhQclVGNDd4MlpMb2dLeUloYmJvTGkwVFh4U2hON3NMdklLTDd5Mw?oc=5",
     "pub": "Mon, 22 Jun 2026 03:12:56 GMT",
@@ -1023,14 +1039,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPaEUwRnRkd1RqZnYzQ1pBeVQ1NU4wS05NMXIyX1dEQ1BJZWNtcVhMWERQVF9pbzVCS043TENMVy1NNVRVc2QxeTc3UEQxbXJ3UGYzdG5GUkpDMTBmcWVySEVHcDgyOUpDekZKX1Y3VzRTcFhudHRxSDllbFZMNndkUGlwZHM5VFoxR1ZkX09xRGdkN05RRVHSAZsBQVVfeXFMTlRnWThEUGJXZnpVYjNRaEN5WDBjTnhKY2dka3RnYndQTkREbVJ4NUF4Q0I4M1VRZFdjSFAwNE5EZlhhZ0t6X09yY3dMYVg0czNhaUdyU0hrMGRPSnhOVGxfeE9hWWoxRXdhS095SXFtcHJUYldGTXJhZWx5b0JjcWFPWnJMWGNNc2FDaENSeHZCR3g0eGwzcTI2NnM?oc=5",
     "pub": "Sun, 21 Jun 2026 21:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Prices Next Week Potentially Decrease, Touch Rp. 2,648 Million per Gram - VOI.id",
-    "link": "https://news.google.com/rss/articles/CBMiQkFVX3lxTE96YVNWNmhnN2FUcEtlUU5rT1A2X2o0WHEyMmhIaUZwUEd0OE1BMUlHRHh6c3A3RklPOWFfRVhIYkJDQdIBQkFVX3lxTE96YVNWNmhnN2FUcEtlUU5rT1A2X2o0WHEyMmhIaUZwUEd0OE1BMUlHRHh6c3A3RklPOWFfRVhIYkJDQQ?oc=5",
-    "pub": "Sun, 21 Jun 2026 19:37:30 GMT",
-    "src": "VOI.id",
     "trig": false,
     "geo": false
    }
@@ -1709,18 +1717,16 @@
   7
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "GEV"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 68,
-  "n": 34
+  "pct50": 69,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-22T04:32:19+00:00",
+  "checked": "2026-06-22T04:41:39+00:00",
   "openai": {
    "found": false
   },

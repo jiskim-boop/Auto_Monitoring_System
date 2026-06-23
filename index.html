@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.8</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.9</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -161,7 +161,7 @@
     <div id="chart-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px">
       <div class="empty">로딩…</div>
     </div>
-    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제)</span></div>
+    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · DXY·BIZD는 절대선 대신 추세로 판단(레벨보다 변화·속도 중요) · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제)</span></div>
   </div>
 
   <div class="alert" id="stale" style="border-left-color:#ffb454;background:#1a1505;"><div class="lbl" style="color:#ffb454">⏱ 데이터 낡음</div><div class="txt" id="stale-txt" style="color:#ffd98a"></div></div>
@@ -999,17 +999,19 @@ function renderCharts(d){
     {t:'VIX', s:ch.vix, warn:20, danger:26, fmt:v=>v.toFixed(0)},
     {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1, fmt:v=>v.toFixed(2)},
     {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
-    {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, fmt:v=>v.toFixed(1)},
+    {t:'MOVE (채권변동성)', s:ch.move, warn:100, danger:125, fmt:v=>v.toFixed(0)},
+    {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, trendOnly:true, fmt:v=>v.toFixed(1)},
     {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2)},
     {t:'레포(SOFR-IORB)', s:ch.sofr_iorb, warn:0, danger:10, fmt:v=>(v>=0?'+':'')+v.toFixed(0)+'bp'},
-    {t:'사모대출(BIZD)', s:ch.bizd, warn:null, danger:null, higherWorse:false, fmt:v=>'$'+v.toFixed(1)},
+    {t:'사모대출(BIZD)', s:ch.bizd, warn:null, danger:null, higherWorse:false, trendOnly:true, fmt:v=>'$'+v.toFixed(1)},
     {t:'실러 CAPE', s:ch.cape, warn:30, danger:40, fmt:v=>v.toFixed(0)},
   ];
   grid.innerHTML='';
   cards.forEach(c=>{
     const div=document.createElement('div');
     div.style.cssText='background:#0d1320;border:1px solid #1b2330;border-radius:8px;padding:7px 9px';
-    div.innerHTML=`<div style="font-size:10px;color:#aab3c5;margin-bottom:3px;font-weight:600">${c.t}</div>`+
+    const tag=c.trendOnly?`<span style="font-size:8px;color:#5f6878;font-weight:400"> · 추세</span>`:'';
+    div.innerHTML=`<div style="font-size:10px;color:#aab3c5;margin-bottom:3px;font-weight:600">${c.t}${tag}</div>`+
       sparkline(c.s,{warn:c.warn,danger:c.danger,higherWorse:c.higherWorse!==false,fmt:c.fmt});
     grid.appendChild(div);
   });

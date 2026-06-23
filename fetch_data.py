@@ -490,6 +490,7 @@ def fetch_charts(fred):
     ch["tnx"]=fetch_series_yahoo("%5ETNX")
     ch["dxy"]=fetch_series_yahoo("DX-Y.NYB")
     ch["bizd"]=fetch_series_yahoo("BIZD")  # 사모대출 신용 프록시
+    ch["move"]=fetch_series_yahoo("%5EMOVE")  # 채권 변동성(신용 확정 보조)
     # VIX 기간구조 (VIX/VIX3M, >=1 역전=위험) — 두 시계열 길이 맞춰 비율
     if vix and vix3m and len(vix)==len(vix3m):
         ch["vixts"]=[round(a/b,3) if b else None for a,b in zip(vix,vix3m)]

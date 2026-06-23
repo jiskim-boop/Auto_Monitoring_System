@@ -47,6 +47,15 @@
   .card.macro{border-left:3px solid #ff8a5a;}.card.ai{border-left:3px solid #5aa0ff;}.card.flow{border-left:3px solid #c89bff;}.card.man{border-left:3px solid #4d5566;}.card.crit{border-left:3px solid #ff6b6b;}
   .top{display:flex;align-items:center;gap:7px;margin-bottom:2px;}
   .nm{font-size:13px;font-weight:800;color:#f4f6fb;}
+  .nm.info{cursor:pointer}
+  .nm.info::after{content:"ⓘ";font-size:9px;color:#5f6878;margin-left:4px;font-weight:400;vertical-align:super}
+  #xo{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;z-index:9999;padding:20px}
+  #xo.on{display:flex}
+  #xb{background:#0f1622;border:1px solid #283344;border-radius:14px;max-width:380px;width:100%;padding:16px 18px}
+  #xb h4{margin:0 0 8px;font-size:15px;color:#f4f6fb;font-weight:800}
+  #xb .bd{font-size:12px;line-height:1.6;color:#aeb6c4}
+  #xb .bd b{color:#dde3ec}
+  #xb button{margin-top:13px;float:right;background:#1b2330;border:1px solid #2a3340;color:#aeb6c4;border-radius:7px;padding:5px 13px;font-size:11px;cursor:pointer}
   .stt{font-family:'Space Mono',monospace;font-size:9.5px;font-weight:700;padding:2px 7px;border-radius:5px;margin-left:auto;}
   .s-g{background:#10241a;color:#37d6a0;}.s-a{background:#1f1810;color:#ffb454;}.s-r{background:#2a1414;color:#ff6b6b;}.s-b{background:#0e1a24;color:#5aa0ff;}.s-n{background:#14181f;color:#7b8499;}
   .desc{font-size:9.5px;color:#7b8499;line-height:1.4;margin:2px 0 6px;}
@@ -73,7 +82,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.9.4</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.10</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -1427,6 +1436,35 @@ function setVisitors(){
 }
 load();
 setVisitors();  // 방문자 카운터: Cloudflare Worker 1회 호출(로드당 뷰 +1)
+
+var EXPL={"종합 위험도":["확정 지표 종합 판정","HY/NFCI·AI바스켓·VIX 등 <b>확정(후행) 지표</b>로 신용·AI·거시 3영역 0~6점 합산. 0~1안정·2~3주의·4~5경계·6위험. 조기경보와 독립."],
+"조기경보":["선행 급변 경보","사모ETF·선물·VIX 등 <b>거래(선행) 신호</b>로 급변 먼저 포착. 강한1.0/보조0.5/선행약세0.5. 1+주의·2.5+(질/폭)경계·3축+점수3+강한2 위험."],
+"사모대출 신용":["사모대출 시스템 스트레스","BDC+레버리지론·CLO 7종. 분기공시보다 먼저 부실 반영. <b>여럿 동시 5일 약화</b>=시스템 스트레스. CRWV는 차주라 대주 동반 시에만."],
+"옵션·파생 심리 (빠른 선행)":["옵션시장 공포","기간구조 역전=단기공포·VVIX110+=옵션불안·SKEW150+=급락헤지·MOVE125+=채권불안. 가장 빠른 심리 축."],
+"유동성·시스템 스트레스 (느린 선행)":["자금시장 경색","NFCI(양수=긴축)·SOFR-IORB(레포 경색,bp). 유동성이 마르는지 보는 느린 확정 신호."],
+"GPU·HBM 수급 (AI 필수재)":["AI 인프라 수요 지표","H100 임대가. <b>상승=수요 강세</b>(capex 지속), 하락=공급과잉. 실수요를 가격으로."],
+"AI 밸류체인 (통합 바스켓)":["AI 관련주 종합 추세","반도체·메모리·전력·네오클라우드 35종목. 50일선 위 비율로 폭을 본다."],
+"IPO 워치 (AI·우주)":["IPO 추적 (참고용)","SPCX 실시간+OpenAI·Anthropic 자동감지. <b>판정 미반영</b> — 신규상장은 이평선 없어 제외."],
+"구조적 버블 압력":["밸류 과열도 (타이밍 아님)","CAPE·부채상환·기준금리. <b>언제 터질지 못 맞춤</b> — 높을수록 충격 클 뿐."],
+"변동성 VIX":["공포 지수","S&P500 30일 기대변동성. 20↓정상·20~26주의·26+위험·45+항복권."],
+"신용 스프레드":["회사채 위험 프리미엄","HY OAS(FRED)+HYG/LQD. 확대=신용 위험. 5.5%+ 확정 위험."],
+"금리차 10Y−3M":["장단기 금리차","10년−3개월. <b>역전=침체 선행</b>. +0.5↑정상·역전 위험."],
+"광범위 시장":["지수 추세","SPY·QQQ. 200일선 이탈=추세 붕괴."],
+"MOVE (채권변동성)":["채권 변동성","채권판 VIX. 100+주의·125+위험."],
+"달러 DXY":["달러 인덱스 (추세)","절대 레벨보다 <b>급등 속도</b>가 위험. 추세로 판단."],
+"미 10년 금리":["미 국채 10년","급등=할인율 상승(성장주 압박). 4.5%+주의·5%+위험."],
+"실러 CAPE":["경기조정 PER","10년 실질이익 대비 주가. 40+극단(1999·2021)."],
+"한국 지수":["코스피·코스닥","한국 시장 수치."],
+"일본 엔 (USD/JPY)":["엔/달러","엔 강세(USD/JPY 급락)=위험자산 청산 트리거(2024-08)."],
+"유가 (WTI/USO)":["원유","급등=인플레/지정학, 급락=수요둔화."],
+"구리 (CPER)":["구리 (경기 선행)","'닥터 코퍼' — 실물경기·전력 수요 선행. AI와 연결."],
+"금 (GLD)":["금","안전자산. 급등=공포/실질금리 하락."],
+"비트코인":["비트코인","위험자산 심리 척도."]};
+function showExpl(t){var e=EXPL[t];if(!e)return;document.getElementById('xt').textContent=e[0];document.getElementById('xd').innerHTML=e[1];document.getElementById('xo').classList.add('on');}
+document.addEventListener('click',function(ev){var o=document.getElementById('xo');if(ev.target===o){o.classList.remove('on');return;}var n=ev.target.closest('.nm');if(!n)return;var k=n.textContent.replace(/\s*\u00b7.*$/,'').replace(/[\u23f1\u26a1]/g,'').trim();if(EXPL[k])showExpl(k);});
+window.addEventListener('DOMContentLoaded',function(){document.querySelectorAll('.nm').forEach(function(n){var k=n.textContent.replace(/\s*\u00b7.*$/,'').replace(/[\u23f1\u26a1]/g,'').trim();if(EXPL[k])n.classList.add('info');});});
+
 </script>
+<div id="xo"><div id="xb"><h4 id="xt"></h4><div class="bd" id="xd"></div><button onclick="document.getElementById('xo').classList.remove('on')">닫기</button></div></div>
 </body>
 </html>

@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.9.1</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.9.2</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -1197,11 +1197,12 @@ function renderHistory(d){
   const bars=$('tl-bars'), dates=$('tl-dates'), note=$('tl-note');
   if(bars){
     if(hist.length){
-      const H={g:['#1e3a32','18%'],a:['#ffb454','50%'],r:['#ff6b6b','90%']};
+      const H={g:['#1e3a32','18%'],a:['#ffb454','55%'],r:['#ff3b6b','90%']};  // r=진짜위험(선명빨강) · a=경계/주의(주황)
       bars.innerHTML=hist.map(h=>{
         let key = h.risk ? 'r' : (h.st==='r' ? 'a' : (h.st||'g'));
         const [col,ht]=H[key]||H.g;
-        const glow = h.axis>=3?'box-shadow:0 0 8px rgba(255,59,107,.5);background:#ff3b6b;height:100%;':`background:${col};height:${ht};`;
+        // 위험(risk)만 빨강+글로우, 경계=주황, 주의=옅은주황, 안정=녹회색 (key는 위에서 risk기준 산출)
+        const glow = key==='r' ? `box-shadow:0 0 8px rgba(255,59,107,.5);background:${col};height:${ht};` : `background:${col};height:${ht};`;
         return `<div title="${h.d} · 점수 ${h.score}" style="flex:1;border-radius:2px 2px 0 0;min-height:4px;${glow}"></div>`;
       }).join('');
       // 날짜
@@ -1242,7 +1243,16 @@ function setVerd(elId,states,kind){
 
 async function load(){
   try{
-    const d=await(await fetch('data.json?t='+Date.now())).json();
+    let d;
+    try{
+      d=await(await fetch('data.json?t='+Date.now())).json();
+      try{ localStorage.setItem('lastGood', JSON.stringify(d)); }catch(_){}
+    }catch(fetchErr){
+      // 일시적 로드 실패(배포중·네트워크) → 마지막 정상 데이터로 폴백
+      const lg=(()=>{try{return JSON.parse(localStorage.getItem('lastGood')||'null');}catch(_){return null;}})();
+      if(lg){ d=lg; setTimeout(()=>{var u=document.getElementById('upd'); if(u) u.innerHTML+=' <span class="warn">· 최신 로드 실패, 직전 데이터 표시</span>';},0); }
+      else { throw fetchErr; }
+    }
     const updTime=new Date(d.updated);
     $('upd').textContent='갱신 '+updTime.toLocaleString('ko-KR');
     // 데이터 낡음 경고: 3시간 초과 시

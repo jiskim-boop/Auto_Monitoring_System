@@ -682,7 +682,7 @@ def update_history(prev, ew):
     """30일 일별 조기경보 이력 누적 (하루 1개, 최신값으로 갱신)"""
     hist = (prev or {}).get("history",[]) if prev else []
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
-    entry={"d":today,"score":ew["score"],"st":ew["st"],"axis":ew["axisCount"],"hits":ew["hits"]}
+    entry={"d":today,"score":ew["score"],"st":ew["st"],"axis":ew["axisCount"],"risk":bool(ew.get("risk")),"hits":ew["hits"]}
     if hist and hist[-1].get("d")==today:
         hist[-1]=entry  # 오늘 것 갱신
     else:

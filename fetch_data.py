@@ -620,7 +620,7 @@ def calc_early(prices, fred, charts):
     elif sCredit=="a": add("사모대출 주가 약세",0.5,"slow")
     # 강한 신호
     v=g("^VIX"); v3=g("^VIX3M")
-    if v is not None and v3 and v/v3>=1: add("기간구조 역전",1,"fast")
+    if v is not None and v3 and v/v3>=1.02 and v>=20: add("기간구조 역전",1,"fast")  # 마진+VIX레벨
     spy_c,qqq_c,es_c,nq_c=gc("SPY"),gc("QQQ"),gc("ES=F"),gc("NQ=F")
     cash_drop=(spy_c is not None and spy_c<=-2) or (qqq_c is not None and qqq_c<=-2)
     fut_drop=(es_c is not None and es_c<=-2) or (nq_c is not None and nq_c<=-2)
@@ -664,7 +664,7 @@ def calc_early(prices, fred, charts):
             add("폭 축소(쏠림 랠리)",0.5,None)   # 지수는 고점권인데 과반이 50일선 아래 = 좁아진 랠리(고전적 선행)
     # 조기징후 (점수 0, 2개+ → 주의)
     early_hits=[]
-    if v is not None and v3 and 0.95<=v/v3<1: early_hits.append("기간구조 임박")
+    if v is not None and v3 and v/v3>=0.95 and not (v/v3>=1.02 and v>=20): early_hits.append("기간구조 임박")
     if _falling(ch.get("bizd")): early_hits.append("신용프록시 약화")
     if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)

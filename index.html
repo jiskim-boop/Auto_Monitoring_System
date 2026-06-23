@@ -73,7 +73,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.6</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.7</span></span>
     <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
@@ -209,7 +209,7 @@
         <div id="ainight-rows"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">AI 현물주는 정규장만 거래(후행) → 나스닥선물(24h)이 야간 악재를 먼저 반영. 선물↓+프리장↓ 동반 시 다음 개장 약세 가능성</span></div></div>
 
-      <div class="card ai"><div class="top"><span class="nm">IPO 워치 (AI·우주)</span><span class="stt s-b" id="st-ipo">관찰</span></div>
+      <div class="card ai"><div class="top"><span class="nm">IPO 워치 (AI·우주) <span style="font-size:10px;color:#6f7888;font-weight:400">· 참고용</span></span><span class="stt s-b" id="st-ipo">참고</span></div>
         <div class="desc">SPCX 실시간 시세 · OpenAI·Anthropic 상장 자동 감지(야후 티커 등록 기준, ~10분)</div>
         <div id="ipo-rows" style="margin-top:6px"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">SPCX=SpaceX·xAI 합병체, 6/12 나스닥 공모가 $135 · 신규상장은 이평선이 없어 <b style="color:#8a93a6">바스켓·폭 판정 미포함(참고 전용)</b> · OpenAI($750~830B 보도)·Anthropic(~$350B 보도)은 일정 미공시 — 티커 등록 감지 시 자동 표시+텔레그램 1회</span></div></div>
@@ -407,7 +407,12 @@ function ipoPanel(p,d){
   const q=p['SPCX'];
   if(q&&q.ok&&q.price!=null){
     const up=(q.chg||0)>=0;
-    rows.push(`<div class="prow"><span class="tk">SPCX(SpaceX·xAI)</span><span class="pr">$${q.price}</span><span class="ch ${up?'up':'dn'}">${q.chg!=null?(up?'+':'')+q.chg+'%':''}</span><span class="ps s-b">상장</span></div>`);
+    const sessLbl=q.sess==='post'?'애프터':q.sess==='pre'?'프리':'정규';
+    const sessCol=q.sess==='post'?'#c89bff':q.sess==='pre'?'#5aa0ff':'#37d6a0';
+    // 장외(프리/애프터)면 정규장 종가도 함께 표시
+    const ext=(q.sess==='post'||q.sess==='pre');
+    const sub=ext&&q.regClose!=null?`<div style="font-size:8.5px;color:#6f7888;margin-top:1px">정규장 종가 $${q.regClose} → ${sessLbl} $${q.price}</div>`:'';
+    rows.push(`<div class="prow"><span class="tk">SPCX(SpaceX·xAI)</span><span class="pr">$${q.price} <span style="font-size:9px;color:${sessCol}">${sessLbl}</span></span><span class="ch ${up?'up':'dn'}">${q.chg!=null?(up?'+':'')+q.chg+'%':''}</span><span class="ps s-b">상장</span></div>${sub}`);
   } else {
     rows.push(`<div class="prow"><span class="tk">SPCX(SpaceX·xAI)</span><span class="pr" style="color:#5f6878">시세 대기</span><span class="ch" style="color:#5f6878;font-size:9px">거래 개시 후 자동</span><span class="ps s-b">6/12</span></div>`);
   }
@@ -1057,7 +1062,8 @@ function renderGpu(d){
       <polyline points="${pts}" fill="none" stroke="${lineCol}" stroke-width="1.5"/>
     </svg>`;
   }
-  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${trend}${hourChg}${spark}`;
+  const staleTag=g.stale?` <span style="font-size:9px;color:#c2a35e">· 최근값(수집 일시지연)</span>`:'';
+  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${staleTag}${trend}${hourChg}${spark}`;
   const sb=$('st-gpu'); if(sb) badge(sb,st);
   return st;
 }

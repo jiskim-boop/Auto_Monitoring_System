@@ -11,6 +11,7 @@ UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
+GPU_KEY = os.environ.get("COMPUTEPRICES_KEY", "").strip()   # 선택: 무키 시간당60회→키 5000회
 GC_TOKEN = os.environ.get("GOATCOUNTER_API_TOKEN", "").strip()
 GC_SITE = os.environ.get("GOATCOUNTER_SITE", "https://jiskim.goatcounter.com").strip()
 # 실러 CAPE 수동값 (자동 스크래이핑 실패 시 사용 — 월 1회 multpl.com 확인 후 갱신)
@@ -107,6 +108,10 @@ def fetch_quote(sym):
         return {"price":round(price,2),"chg":chg,"chg5":chg5,
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
                 "high3m":round(max(closes[-63:]),2) if closes else None,
+                "reg":round(reg,2) if reg is not None else None,
+                "pre":round(pre,2) if pre is not None else None,
+                "post":round(post,2) if post is not None else None,
+                "regClose":round(closes[-1],2) if closes else None,
                 "sess":sess,"mt":mt,"ok":True}
     except Exception as e:
         # 폴백: quote API에서 현재가/전일종가만이라도 확보 (chart 404 우회)
@@ -433,30 +438,38 @@ def fetch_gpu_price(prev):
     """H100 시세(중앙값) 수집 — computeprices.com 무료 JSON(/api/v1/gpu-prices). 실패시 graceful.
     누적: 시간당 1포인트씩 최근 48개 (추세 그래프용)."""
     hist=((prev or {}).get("gpu") or {}).get("hist",[]) if prev else []  # 이전 이력은 gpu.hist에서
-    median=None
-    # computeprices.com 공개 엔드포인트 (무료, 키 없음, 시간당 60회)
+    median=None; stale=False
+    hdr=dict(UA); 
+    if GPU_KEY: hdr["X-API-Key"]=GPU_KEY   # 키 있으면 한도 상향(없으면 무키 60회/시)
+    # computeprices.com 공개 엔드포인트 — 재시도 2회
+    done=False
     for url in ("https://computeprices.com/api/v1/gpu-prices",
                 "https://computeprices.com/api/v1/prices"):
-        try:
-            raw=get(url, timeout=15)
-            j=json.loads(raw)
-            rows=j.get("data") if isinstance(j,dict) else (j if isinstance(j,list) else [])
-            # H100 80GB on-demand 가격들 모아 중앙값
-            prices=[]
-            for r in rows:
-                if not isinstance(r,dict): continue
-                gpu=str(r.get("gpu","")).upper()
-                pt=str(r.get("pricing_type","")).lower()
-                pr=r.get("price_per_hour_usd") or r.get("price")
-                if "H100" in gpu and pr and (not pt or "on" in pt or pt=="on_demand"):
-                    try: prices.append(float(pr))
-                    except: pass
-            if prices:
-                prices.sort(); n=len(prices)
-                median=round(prices[n//2] if n%2 else (prices[n//2-1]+prices[n//2])/2, 2)
-                break
-        except Exception:
-            continue
+        for attempt in range(2):
+            try:
+                raw=get(url, headers=hdr, timeout=15)
+                j=json.loads(raw)
+                rows=j.get("data") if isinstance(j,dict) else (j if isinstance(j,list) else [])
+                prices=[]
+                for r in rows:
+                    if not isinstance(r,dict): continue
+                    gpu=str(r.get("gpu","")).upper()
+                    pt=str(r.get("pricing_type","")).lower()
+                    pr=r.get("price_per_hour_usd") or r.get("price")
+                    if "H100" in gpu and pr and (not pt or "on" in pt or pt=="on_demand"):
+                        try: prices.append(float(pr))
+                        except: pass
+                if prices:
+                    prices.sort(); n=len(prices)
+                    median=round(prices[n//2] if n%2 else (prices[n//2-1]+prices[n//2])/2, 2)
+                    done=True; break
+            except Exception:
+                time.sleep(1); continue
+        if done: break
+    # 실패 시 마지막 성공값 유지(빈칸 방지) — 일시적 장애·한도초과 흡수
+    if median is None and hist:
+        last=[h.get("v") for h in hist if h.get("v") is not None]
+        if last: median=last[-1]; stale=True
     # 누적: 시간 단위 포인트 (실시간성). 같은 시(hour)면 덮어쓰고, 새 시간이면 추가. 최근 48개(약 2일).
     now=datetime.now(timezone.utc)
     hourkey=now.strftime("%Y-%m-%dT%H")    # 시간 단위 키
@@ -466,7 +479,7 @@ def fetch_gpu_price(prev):
         else:
             hist.append({"d":hourkey,"v":median})
         hist=hist[-48:]
-    return {"median":median,"hist":hist}
+    return {"median":median,"hist":hist,"stale":stale}
 
 def fetch_charts(fred):
     ch={}

@@ -39,6 +39,7 @@
   .ch-macro{color:#ff8a5a;}.ch-ai{color:#5aa0ff;}.ch-flow{color:#c89bff;}.ch-crit{color:#ff6b6b;}
   .colsum{font-size:11px;line-height:1.5;color:#9aa3b3;margin:-3px 2px 9px;padding:6px 9px;background:#0c1119;border-radius:7px;border-left:2px solid #2a3340;}
   .coltoggle{cursor:pointer;user-select:none;}
+  .colcrit{font-size:9px;line-height:1.55;color:#5f6878;margin:-5px 3px 10px;padding:0 6px;}.colcrit b{color:#7b8499;font-weight:600;}.colcrit .x{color:#6f7888}
   .sigmini{display:inline-flex;align-items:center;gap:6px;font-size:11px;color:#8a93a6;}
   .sigmini .sigdot{width:9px;height:9px;border-radius:50%;flex-shrink:0;background:#7b8499;}
   .sigmini .signm{color:#8a93a6;}
@@ -82,12 +83,14 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.10</span></span>
-    <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.11</span></span>
+    <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
+      <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
+      <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
+    </span>
   </h1>
   <div style="display:flex;align-items:flex-end;justify-content:space-between;gap:8px">
     <div class="upd" id="upd">데이터 불러오는 중…</div>
-    <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px;flex-shrink:0"></span>
   </div>
 
   <!-- 주요 일정 (맨 위 · 임박만 노출, 전체는 접기) -->
@@ -187,6 +190,7 @@
     <div>
       <div class="colhead ch-crit">1 · 신용·유동성 (최우선)</div>
       <div class="colsum coltoggle" id="sum-credit" data-wrap="wrap-credit">—</div>
+      <div class="colcrit">판정 = <b>확정 신용지표만</b> · <b>위험</b> HY OAS ≥5.5% 또는 NFCI 긴축 · <b>주의</b> 경계권 · <b>안정</b> 정상 <span class="x">〔사모대출·옵션 주가는 선행 → 아래 조기경보가 담당, 컬럼 판정 미반영〕</span></div>
       <div class="colcards" id="wrap-credit" style="display:none">
       <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
         <div class="desc">BDC + 레버리지론·CLO 프록시 · 5일약화=선행신호</div>
@@ -212,6 +216,7 @@
     <div>
       <div class="colhead ch-ai">2 · AI 밸류체인 (자본 흐름)</div>
       <div class="colsum coltoggle" id="sum-ai" data-wrap="wrap-ai">—</div>
+      <div class="colcrit">판정 = <b>AI 자산</b>(밸류체인 바스켓·H100 단가·야간선물) · <b>위험</b> 바스켓 과반(6그룹 중 다수) 약세 · <b>주의</b> 일부 약세 <span class="x">〔단가·야간은 선행이라 단독 주의까지만 — 확정 바스켓이 주판정〕</span></div>
       <div class="colcards" id="wrap-ai" style="display:none">
       <div class="card ai" style="border-left-color:#5aa0ff"><div class="top"><span class="nm">⏱ AI 야간 선행 (나스닥선물)</span><span class="stt s-n" id="st-ainight">—</span></div>
         <div class="desc" id="ainight-desc">NQ선물 24시간 — AI 빅테크 비중 큼 · 장 마감 후 방향 선반영</div>
@@ -246,6 +251,7 @@
     <div>
       <div class="colhead ch-macro">3 · 거시·시스템 위험 (위험 측정)</div>
       <div class="colsum coltoggle" id="sum-macro" data-wrap="wrap-macro">—</div>
+      <div class="colcrit">판정 = <b>VIX·신용스프레드·금리차·지수추세·옵션</b> 5축 · <b>위험</b> 2축+ 위험 · <b>주의</b> 1축 위험 또는 2축+ 주의 <span class="x">〔구조적 버블(CAPE 등)은 타이밍 무관 별도 게이지, 컬럼 판정 미반영〕</span></div>
       <div class="colcards" id="wrap-macro" style="display:none">
       <div class="card macro"><div class="top"><span class="nm">구조적 버블 압력</span><span class="stt s-n" id="st-bubble">—</span></div>
         <div class="desc">취약성 게이지 · 타이밍 아님(터지면 깊이) · 분기/월간</div>
@@ -275,6 +281,7 @@
     <div>
       <div class="colhead ch-flow">4 · 자금흐름·유동성 (돈의 방향)</div>
       <div class="colsum coltoggle" id="sum-flow" data-wrap="wrap-flow">—</div>
+      <div class="colcrit"><b>방향 표시 전용</b>(달러·금리·엔·원자재) — <b>위험 점수 없음</b>(종합 미반영) · 금↑+달러↑ 안전자산 쏠림 시에만 주의색</div>
       <div class="colcards" id="wrap-flow" style="display:none">
       <div class="card flow"><div class="top"><span class="nm">⏱ 선물·야간 세션</span><span class="stt s-b">24시간</span></div>
         <div class="desc" id="fut-desc">장 마감·주말에도 거래 · 시장 방향 선반영</div>
@@ -305,7 +312,7 @@
     <span id="guide-caret">▶</span> 📖 판단법 · 기준
   </div>
   <div class="guide" id="guide-wrap" style="display:none;font-size:11px;line-height:1.75;color:#9aa3b3">
-    <div style="margin-bottom:9px"><b class="gg">안정</b> · <b class="ga">주의</b> · <b style="color:#ff6b6b">경계</b> · <b class="gr">위험</b> — 모든 판정 4단계. 색이 진할수록 강한 신호.</div>
+    <div style="margin-bottom:9px"><b class="gg">안정</b> · <b class="ga">주의</b> · <b style="color:#ff6b6b">경계</b> · <b class="gr">위험</b> — <b style="color:#cdd5e3">종합·조기경보·이력</b>은 4단계, <b style="color:#cdd5e3">영역별(4개 컬럼)</b>은 3단계(안정·주의·위험 = 0·1·2점). 색이 진할수록 강한 신호.</div>
 
     <div style="margin:9px 0 3px;color:#cdd5e3"><b>① 종합 위험도</b> <span style="color:#6f7888">— 확정 3영역(신용·AI·거시)만. 선행·뉴스·공시는 제외</span></div>
     영역별 점수(안정0 · 주의1 · 위험2) 합산 0~6점 · <b>위험 = 6점(3영역 전부 위험)</b> · 경계 = 4~5 · 주의 = 2~3 · 안정 = 0~1 · 조기경보와 독립 기준(차용 없음) — 선행 속도는 ②가, 확정 깊이는 ①이 담당
@@ -340,7 +347,7 @@
 
 <script>
 const $=id=>document.getElementById(id);
-const WORD={g:'정상',a:'주의',r:'위험'}, SB={g:'s-g',a:'s-a',r:'s-r'};
+const WORD={g:'안정',a:'주의',r:'위험'}, SB={g:'s-g',a:'s-a',r:'s-r'};
 function ago(p){const t=Date.parse(p);if(isNaN(t))return"";const h=Math.floor((Date.now()-t)/3600000);return h<1?"방금":h<24?h+"시간 전":Math.floor(h/24)+"일 전";}
 // 종목 위험: (20일선 AND 50일선 동시 아래) OR 당일 -5%↓ = 위험 / 50일선만 아래 = 주의
 // 200일선은 장기추세 보조(판정 주력은 50/20)
@@ -1223,7 +1230,7 @@ function renderHistory(d){
       const lastLvl=lvl(hist[hist.length-1]);
       let streak=0;
       for(let i=hist.length-1;i>=0;i--){if(lvl(hist[i])===lastLvl)streak++;else break;}
-      const w={r:'위험',a:'주의',g:'정상'}[lastSt]||'';
+      const w={r:'위험',a:'주의',g:'안정'}[lastSt]||'';
       const riskDays=hist.filter(h=>h.risk).length;
       const guardDays=hist.filter(h=>!h.risk&&h.st==='r').length;
       note.textContent=`${lastLvl} ${streak}일째 · 위험 ${riskDays}일 · 경계 ${guardDays}일`;
@@ -1316,7 +1323,14 @@ async function load(){
     const sAiNightCapped = sAiNight==='r' ? 'a' : sAiNight;
     const sGpuCapped = sGpuPrice==='r' ? 'a' : sGpuPrice;
     // AI 섹터는 AI 자산(바스켓·GPU·야간선행)만으로 판정 — 신용/공시 트리거(extra)는 AI 약세가 아니므로 제외
-    const vAi=setVerd('ov-ai',[sChain,sGpuCapped,sAiNightCapped].filter(x=>x&&x!=='n'),'ai');
+    // AI 영역 판정 = 확정 바스켓(sChain)이 주(主). 과반 약세면 단독으로 '위험' 도달 → 종합 6점(3영역 전부) 달성 가능.
+    // 단가·야간은 선행이라 '주의'까지만 가산(억제 아님). setVerd가 캡 구조상 '위험'을 못 내던 결함 보정.
+    let vAi;
+    if(sChain==='r') vAi='r';
+    else if(sChain==='a'||sGpuCapped==='a'||sAiNightCapped==='a') vAi='a';
+    else if(sChain) vAi='g';
+    else vAi='n';
+    (function(){const M={r:['#ff6b6b','AI 밸류체인 과반 약세 → 비중 대폭 축소 검토'],a:['#ffb454','AI 일부 약세 — 동반 악화 주시'],g:['#37d6a0','안정'],n:['#7b8499','데이터 대기']};const x=M[vAi]||M.n;const el=$('ov-ai');if(el)el.textContent=x[1];const bx=el?el.closest('.vbox'):null;if(bx)bx.style.borderLeftColor=x[0];})();
     const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
     colSummaries({sCredit,credit1,sDeriv,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);

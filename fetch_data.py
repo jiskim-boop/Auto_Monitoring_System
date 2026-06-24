@@ -350,6 +350,7 @@ FRED_SERIES = {
     "dsr":       "TDSP",          # 가계 부채상환비율 (%)
     "hhdebt":    "HDTGPDUSQ163N", # 가계부채/GDP (%)
     "ffr":       "DFF",           # 연방기금금리 (%)
+    "realrate":  "DFII10",        # 10Y 실질금리(TIPS) — AI 밸류에이션 동인
 }
 def fred_latest(series_id):
     if not FRED_KEY: return None
@@ -382,6 +383,41 @@ def fetch_cape():
             continue
     return None
 
+def fred_obs(series_id, limit=70):
+    if not FRED_KEY: return None
+    url=("https://api.stlouisfed.org/fred/series/observations?series_id="+series_id+
+         "&api_key="+FRED_KEY+"&file_type=json&sort_order=desc&limit="+str(limit))
+    try:
+        raw=get(url)
+        if raw is None: return None
+        obs=json.loads(raw).get("observations",[])
+        out=[(o["date"],float(o["value"])) for o in obs if o["value"] not in (".","")]
+        return out or None
+    except Exception:
+        return None
+
+def _asof(obs, target):
+    for d,v in obs:
+        if d<=target: return v
+    return obs[-1][1] if obs else None
+
+def fetch_netliq():
+    # 순유동성[$bn] = WALCL(백만)/1000 - WTREGEN(십억) - RRPONTSYD(십억), 날짜 as-of 조인
+    if not FRED_KEY: return None
+    wal=fred_obs("WALCL",70); tga=fred_obs("WTREGEN",70); rrp=fred_obs("RRPONTSYD",70)
+    if not (wal and tga and rrp): return None
+    def nl(t):
+        w=_asof(wal,t); x=_asof(tga,t); r=_asof(rrp,t)
+        if w is None or x is None or r is None: return None
+        return w/1000.0 - x - r
+    anchor=wal[0][0]
+    import datetime
+    d0=datetime.date.fromisoformat(anchor)
+    d4=(d0-datetime.timedelta(days=28)).isoformat()
+    now=nl(anchor); prev=nl(d4)
+    if now is None: return None
+    return {"value":round(now,1),"chg4w":round(now-prev,1) if prev is not None else None,"asof":anchor}
+
 def fetch_fred():
     if not FRED_KEY:
         return {"ok":False,"note":"FRED_API_KEY 미설정"}
@@ -398,6 +434,7 @@ def fetch_fred():
     _cape=fetch_cape()
     out["cape"]=_cape if _cape is not None else CAPE_MANUAL
     out["cape_manual"]=(_cape is None)
+    out["netliq"]=fetch_netliq()
     return out
 
 # ---- 차트용 과거 시계열 (B: 과거 90일, 주간 다운샘플)

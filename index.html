@@ -89,7 +89,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.13</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.14</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -205,7 +205,7 @@
       <div class="card crit"><div class="top"><span class="nm">옵션·파생 심리 (빠른 선행)</span><span class="stt s-n" id="st-deriv">—</span></div>
         <div class="desc">당일 갱신 · 현물보다 빠른 신호</div>
         <div id="deriv-rows"><div class="empty">로딩…</div></div>
-        <div class="risk"><b>해석:</b> 기간구조 역전(VIX/VIX3M≥1.02 & VIX≥20)=단기공포(저VIX·평평 깜빡임 제외) · VVIX 110+=옵션불안 · SKEW 150+=급락헤지 · MOVE 120+=채권불안</div></div>
+        <div class="risk"><b>해석:</b> VVIX 110+=옵션 변동성 불안 · SKEW 150+=급락 헤지 수요 · <b style="color:#8a93a6">빠른 선행이라 신용 도메인을 주의까지 올림(위험은 확정만)</b></div></div>
       <div class="card crit"><div class="top"><span class="nm">유동성·시스템 스트레스 (느린 선행)</span><span class="stt s-n" id="st-fred">—</span></div>
         <div class="desc" id="fred-asof">FRED · 일간/주간 갱신</div>
         <div id="fred-rows"><div class="empty">로딩…</div></div>
@@ -222,7 +222,7 @@
     <div>
       <div class="colhead ch-ai">2 · AI 밸류체인 (자본 흐름)</div>
       <div class="colsum coltoggle" id="sum-ai" data-wrap="wrap-ai">—</div>
-      <div class="colcrit">판정 = <b>AI 자산</b>(밸류체인 바스켓·H100 단가·야간선물) · <b>위험</b> 바스켓 과반(6그룹 중 다수) 약세 · <b>주의</b> 일부 약세 <span class="x">〔단가·야간은 선행이라 단독 주의까지만 — 확정 바스켓이 주판정〕</span></div>
+      <div class="colcrit">판정 = <b>AI 자산</b>(바스켓·H100 단가·야간선물) · <b>위험</b> = 바스켓 6그룹 과반 약세 <b>+</b> 수요/선행(단가 or 야간) 동반 약세 · <b>주의</b> = 바스켓 과반 약세(수요 견조) 또는 일부 약세 <span class="x">〔가격 단독으론 위험 못 감 — 순환성 차단〕</span></div>
       <div class="colcards" id="wrap-ai" style="display:none">
       <div class="card ai" style="border-left-color:#5aa0ff"><div class="top"><span class="nm">⏱ AI 야간 선행 (나스닥선물)</span><span class="stt s-n" id="st-ainight">—</span></div>
         <div class="desc" id="ainight-desc">NQ선물 24시간 — AI 빅테크 비중 큼 · 장 마감 후 방향 선반영</div>
@@ -257,20 +257,29 @@
     <div>
       <div class="colhead ch-macro">3 · 거시·시스템 위험 (위험 측정)</div>
       <div class="colsum coltoggle" id="sum-macro" data-wrap="wrap-macro">—</div>
-      <div class="colcrit">판정 = <b>VIX·신용스프레드·금리차·지수추세·옵션</b> 5축 · <b>위험</b> 2축+ 위험 · <b>주의</b> 1축 위험 또는 2축+ 주의 <span class="x">〔구조적 버블(CAPE 등)은 타이밍 무관 별도 게이지, 컬럼 판정 미반영〕</span></div>
+      <div class="colcrit">판정 = <b>VIX(+기간구조)·신용스프레드·금리차·지수추세·MOVE·실질금리·순유동성</b> 7축 · <b>위험</b> 2축+ 위험 · <b>주의</b> 1축 위험 또는 2축+ 주의 <span class="x">〔구조적 버블(CAPE)은 타이밍 무관 별도 게이지, 미반영〕</span></div>
       <div class="colcards" id="wrap-macro" style="display:none">
       <div class="card macro"><div class="top"><span class="nm">구조적 버블 압력</span><span class="stt s-n" id="st-bubble">—</span></div>
         <div class="desc">취약성 게이지 · 타이밍 아님(터지면 깊이) · 분기/월간</div>
         <div id="bubble-rows"><div class="empty">로딩…</div></div>
         <div class="risk"><b>주의:</b> 이 지표들은 <b>언제</b> 터질지 못 맞춤 — 높을수록 하락 시 충격이 클 뿐. 조기경보(타이밍)와 별개로 해석</div></div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
-        <div class="desc">공포 지수 · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
-        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~26 주의 · 26+ 위험 · 45+ 항복권(바닥 가능) · <b style="color:#8a93a6">변화율(+20%)이 첫날엔 레벨보다 정확</b></div></div>
+        <div class="desc">공포 지수 + 기간구조(VIX/VIX3M) · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
+        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~26 주의 · 26+ 위험 · 45+ 항복권 · <b style="color:#8a93a6">기간구조 역전(VIX≥VIX3M)이면 급성 → 한 단계 상향</b></div></div>
+      <div class="card macro"><div class="top"><span class="nm">MOVE 채권변동성</span><span class="stt s-n" id="st-move">—</span></div>
+        <div class="desc">채권판 VIX · 금리 변동성 · 주식 스트레스에 선행하기도</div><div class="verdict" id="lv-move">—</div>
+        <div class="risk"><b>기준:</b> 100↓ 정상 · 100~125 주의 · 125+ 위험</div></div>
       <div class="card macro"><div class="top"><span class="nm">신용 스프레드</span><span class="stt s-n" id="st-spread">—</span></div>
         <div class="desc">실제 HY OAS(FRED) 기준 · HYG/LQD 보조</div><div class="verdict" id="lv-spread">—</div></div>
       <div class="card macro"><div class="top"><span class="nm">금리차 10Y−3M</span><span class="stt s-n" id="st-curve">—</span></div>
         <div class="desc">역전=침체 선행</div><div class="verdict" id="lv-curve">—</div>
         <div class="risk"><b>기준:</b> +0.5↑ 정상 · 0~0.5 주의 · 역전 위험</div></div>
+      <div class="card macro"><div class="top"><span class="nm">실질금리 10Y</span><span class="stt s-n" id="st-real">—</span></div>
+        <div class="desc">10년 물가연동국채(TIPS) 수익률 · AI·성장주 밸류에이션 핵심 동인</div><div class="verdict" id="lv-real">—</div>
+        <div class="risk"><b>기준:</b> 1.8%↓ 정상 · 1.8~2.3% 주의 · 2.3%+ 위험 · <b style="color:#8a93a6">상승=멀티플 압축 압력 (임계는 1차 추정, 보정 예정)</b></div></div>
+      <div class="card macro"><div class="top"><span class="nm">순유동성</span><span class="stt s-n" id="st-netliq">—</span></div>
+        <div class="desc">Fed 자산 − 재무부계정(TGA) − 역레포(RRP) · 위험자산 연료</div><div class="verdict" id="lv-netliq">—</div>
+        <div class="risk"><b>기준:</b> 4주 변화 기준 · 축소=위험자산 압박 · <b style="color:#8a93a6">레벨보다 추세 (임계는 1차 추정, 보정 예정)</b></div></div>
       <div class="card macro"><div class="top"><span class="nm">광범위 시장</span><span class="stt s-n" id="st-broad">—</span></div>
         <div class="desc">SPY·QQQ · 200일선 이탈=추세 붕괴</div><div class="mem" id="mem-broad"></div></div>
       <div class="card macro"><div class="top"><span class="nm">한국 지수</span><span class="stt s-b">수치</span></div>
@@ -388,7 +397,9 @@ function chainBasket(p){
     const word=st?WORD[st]:'N/A';
     html+=`<div style="display:flex;justify-content:space-between;font-size:11.5px;padding:2px 0"><span style="color:#9aa3b3">${nm}</span><span style="color:${col};font-weight:600">${word}</span></div>`;
   });
-  if(rows) rows.innerHTML=html;
+  const gcol = r>n/2?'#ff6b6b':(r+a)>n/2?'#ffb454':'#37d6a0';
+  const sumLine = n?`<div style="display:flex;justify-content:space-between;font-size:12px;padding:2px 0 5px;border-bottom:1px solid #1c2536;margin-bottom:4px"><span style="color:#9aa3b3;font-weight:600">6그룹 중</span><span style="font-weight:700;color:${gcol}">${r} 위험 · ${a} 주의 · ${n-r-a} 안정</span></div>`:'';
+  if(rows) rows.innerHTML=sumLine+html;
   if(!n){badge($('st-chain'),'n','N/A');return null;}
   // 하위 그룹 과반 위험 → 위험, 과반 (위험+주의) → 주의
   const st = r>n/2 ? 'r' : (r+a)>n/2 ? 'a' : 'g';
@@ -481,33 +492,30 @@ function creditPanel(p){
   badge($('credit-verdict'),st);
   $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${basis}`;return st;}
 
-function vixAxis(p){const v=num(p['^VIX']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
-  const st=v>=45?'r':v>=26?'r':v>=20?'a':'g';badge($('st-vix'),st);
+function vixAxis(p){const v=num(p['^VIX']),v3=num(p['^VIX3M']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
+  let st=v>=26?'r':v>=20?'a':'g';
+  let tnote='';
+  if(v3!=null&&v3>0){const ratio=v/v3;
+    if(ratio>=1){st=st==='g'?'a':'r';tnote=' · 기간구조 역전('+ratio.toFixed(2)+') 급성';}
+    else if(ratio>=0.97){tnote=' · 기간구조 평탄('+ratio.toFixed(2)+')';}
+    else{tnote=' · 기간구조 정상('+ratio.toFixed(2)+')';}}
+  badge($('st-vix'),st);
   const note=v>=45?' (항복권)':v>=26?' (공포)':'';
-  lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>'+note);return st;}
+  lvl('lv-vix','현재 <b>'+v.toFixed(1)+'</b>'+note+tnote);return st;}
 
-// 옵션·파생 심리: VIX 기간구조 + VVIX + SKEW
+// 옵션·파생 심리(신용 선행): VVIX + SKEW (순수 옵션 포지셔닝) — MOVE는 거시 독립축, VIX기간구조는 VIX카드로 이동
 function derivPanel(p,asof){
   const rows=$('deriv-rows');rows.innerHTML='';let risk=0,n=0;
-  const vix=num(p['^VIX']), vix3m=num(p['^VIX3M']), vvix=num(p['^VVIX']), skew=num(p['^SKEW']);
+  const vvix=num(p['^VVIX']), skew=num(p['^SKEW']);
   const dt=asof?asof.slice(5,10):'';
   function row(lbl,valStr,st){
     const r=document.createElement('div');r.className='prow';
     r.innerHTML=`<span class="tk">${lbl}</span><span class="pr">${valStr}</span><span class="lv" style="font-size:9px;color:#6f7888">${dt}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
     rows.appendChild(r);if(st==='r')risk++;if(st==='a')risk+=0.5;n++;}
-  // VIX 기간구조: 비율 = VIX/VIX3M. >1 역전(위험), 0.95~1 평탄(주의), <0.95 정상(콘탱고)
-  if(vix!=null&&vix3m!=null){
-    const ratio=vix/vix3m;
-    const st=ratio>=1?'r':ratio>=0.95?'a':'g';
-    row('기간구조 VIX/3M',ratio.toFixed(3)+(ratio>=1?' 역전':''),st);
-  }
   // VVIX: 110+ 위험, 100+ 주의
   if(vvix!=null) row('VVIX',vvix.toFixed(0),vvix>=110?'r':vvix>=100?'a':'g');
   // SKEW: 150+ 위험, 145+ 주의
   if(skew!=null) row('SKEW',skew.toFixed(0),skew>=150?'r':skew>=145?'a':'g');
-  // MOVE (채권 변동성, 채권판 VIX): 150+ 위험, 120+ 주의
-  const move=num(p['^MOVE']);
-  if(move!=null) row('MOVE(채권)',move.toFixed(0),move>=125?'r':move>=100?'a':'g');
   if(!n){badge($('st-deriv'),'n','N/A');return null;}
   const st=risk>=1.5?'r':risk>=0.5?'a':'g';badge($('st-deriv'),st);return st;}
 function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
@@ -546,6 +554,24 @@ function spreadAxis(p,fred){
 function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
   lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
+// 거시 독립축: MOVE(채권변동성) · 실질금리(DFII10) · 순유동성(Fed−TGA−RRP)
+function moveAxis(p){const m=num(p['^MOVE']);if(m==null){badge($('st-move'),'n','N/A');lvl('lv-move','데이터 대기');return null;}
+  const st=m>=125?'r':m>=100?'a':'g';badge($('st-move'),st);
+  lvl('lv-move','현재 <b>'+m.toFixed(0)+'</b>'+(st==='r'?' (채권불안)':st==='a'?' (경계)':''));return st;}
+function realRateAxis(fred){
+  const o=(fred&&fred.ok&&fred.realrate)?fred.realrate:null;
+  if(!o||o.value==null){badge($('st-real'),'n','N/A');lvl('lv-real','데이터 대기');return null;}
+  const rr=o.value, st=rr>=2.3?'r':rr>=1.8?'a':'g';badge($('st-real'),st);
+  const ar=(o.chg!=null)?(' ('+(o.chg>=0?'+':'')+(o.chg*100).toFixed(0)+'bp)'):'';
+  lvl('lv-real','실질 10Y <b>'+rr.toFixed(2)+'%</b>'+ar+(st==='r'?' — 밸류 압박':st==='a'?' — 상승 부담':''));return st;}
+function netLiqAxis(fred){
+  const o=(fred&&fred.ok&&fred.netliq)?fred.netliq:null;
+  if(!o||o.value==null){badge($('st-netliq'),'n','N/A');lvl('lv-netliq','데이터 대기');return null;}
+  const v=o.value, c=o.chg4w; let st='g';
+  if(c!=null){const pct=c/v*100; st=pct<=-3?'r':pct<=-1.2?'a':'g';}
+  badge($('st-netliq'),st);
+  const cTxt=(c!=null)?((c>=0?'+':'−')+'$'+Math.abs(Math.round(c)).toLocaleString()+'B/4주'):'';
+  lvl('lv-netliq','<b>$'+(v/1000).toFixed(2)+'T</b> · '+cTxt+(st==='r'?' — 급감(압박)':st==='a'?' — 축소':' — 안정'));return st;}
 
 // 구조적 버블 압력: 취약성 게이지 (타이밍 아님)
 function bubblePanel(f){
@@ -959,8 +985,8 @@ function colSummaries(ctx){
   // 2열 AI 밸류체인
   {
     let lvl=vAi||'n', t;
-    if(lvl==='r') t='AI 밸류체인 다수 약세 — 자본흐름 둔화 신호.';
-    else if(lvl==='a') t='AI 섹터 일부 조정. capex 확인 이벤트 주시.';
+    if(lvl==='r') t='AI 광범위 약세 — 바스켓 과반 + 수요/선행 동반. 자본흐름 둔화.';
+    else if(lvl==='a') t='AI 일부/바스켓 약세(수요는 견조) — 동반 악화 주시.';
     else t='AI 밸류체인 견조. capex 사이클 유지.';
     set('sum-ai',t,lvl);
   }
@@ -1303,6 +1329,7 @@ async function load(){
     // 거시
     const sVix=vixAxis(p),sSpread=spreadAxis(p,d.fred),sCurve=curveAxis(p),sBroad=basket(p,['SPY','QQQ'],'mem-broad','st-broad');
     const sDeriv=derivPanel(p, d.updated);
+    const sMove=moveAxis(p), sReal=realRateAxis(d.fred), sNetliq=netLiqAxis(d.fred);
     krIndex(p);
     // AI 밸류체인 — 통합 바스켓 + GPU 수급(H100단가 메인) + 야간선행
     const sChain=chainBasket(p),
@@ -1326,7 +1353,7 @@ async function load(){
     renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);
     // 종합 판정 먼저 계산 (배너가 이를 참조)
     const sBubble=bubbleResult; // bubblePanel이 ov-bubble 설정
-    const vSys=setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad].filter(Boolean),'sys');
+    const vSys=setVerd('ov-sys',[sVix,sSpread,sCurve,sBroad,sMove,sReal,sNetliq].filter(Boolean),'sys');
     const trigNews=((d.news||{}).credit||[]).filter(x=>x.trig);
     const newFilings=(d.edgar||[]).filter(x=>x.new&&x.form!=='ERR');
     // (신용 트리거·급변 경보는 상단 경고 배너에서 처리 — 영역 판정엔 강제 반영 안 함)
@@ -1336,12 +1363,15 @@ async function load(){
     // AI 섹터는 AI 자산(바스켓·GPU·야간선행)만으로 판정 — 신용/공시 트리거(extra)는 AI 약세가 아니므로 제외
     // AI 영역 판정 = 확정 바스켓(sChain)이 주(主). 과반 약세면 단독으로 '위험' 도달 → 종합 6점(3영역 전부) 달성 가능.
     // 단가·야간은 선행이라 '주의'까지만 가산(억제 아님). setVerd가 캡 구조상 '위험'을 못 내던 결함 보정.
+    // 바스켓 과반 약세는 주의까지. 위험은 가격(바스켓)+수요/선행(GPU단가 or 야간) 동반 약세일 때만 — 가격 단독 순환성 차단.
     let vAi;
-    if(sChain==='r') vAi='r';
+    const aiDemandWeak=(sGpuPrice==='a'||sGpuPrice==='r'||sAiNight==='a'||sAiNight==='r');
+    if(sChain==='r'&&aiDemandWeak) vAi='r';        // 광범위 주가 약세 + 수요/선행 동반 → 위험
+    else if(sChain==='r') vAi='a';                  // 바스켓만 약세(수요 견조) → 주의
     else if(sChain==='a'||sGpuCapped==='a'||sAiNightCapped==='a') vAi='a';
     else if(sChain) vAi='g';
     else vAi='n';
-    (function(){const M={r:['#ff6b6b','AI 밸류체인 과반 약세 → 비중 대폭 축소 검토'],a:['#ffb454','AI 일부 약세 — 동반 악화 주시'],g:['#37d6a0','안정'],n:['#7b8499','데이터 대기']};const x=M[vAi]||M.n;const el=$('ov-ai');if(el)el.textContent=x[1];const bx=el?el.closest('.vbox'):null;if(bx)bx.style.borderLeftColor=x[0];})();
+    (function(){const M={r:['#ff6b6b','AI 광범위 약세(주가+수요 동반) → 비중 대폭 축소 검토'],a:['#ffb454','AI 일부/바스켓 약세(수요 견조) — 동반 악화 주시'],g:['#37d6a0','안정'],n:['#7b8499','데이터 대기']};const x=M[vAi]||M.n;const el=$('ov-ai');if(el)el.textContent=x[1];const bx=el?el.closest('.vbox'):null;if(bx)bx.style.borderLeftColor=x[0];})();
     const credit1=renderSignals({sCredit,sDeriv,sFred,vAi,vSys,ew});
     colSummaries({sCredit,credit1,sDeriv,sFred,fredOk:d.fred&&d.fred.ok,vSys,vAi,sBubble:bubbleResult,p,fred:d.fred});
     renderHistory(d);
@@ -1464,8 +1494,8 @@ setVisitors();  // 방문자 카운터: Cloudflare Worker 1회 호출(로드당 
 
 // ── 지표 설명 인라인 팝업 (문외한용) ──
 (function(){
-var EX={"comp": ["종합 위험도", "신용·AI·거시 세 영역의 확정 지표를 0~6점으로 합산한 종합 점수입니다. 점수가 높을수록 시장 위험이 크다는 뜻이에요."], "early": ["단기 급변 조기경보", "확정 지표보다 한발 빠른 '선행 경보'입니다. 실시간 거래되는 신호로 급변을 먼저 잡아내요. 빠른 대신 가끔 헛경보도 납니다."], "credit-private": ["사모대출 신용", "은행이 아닌 곳(사모펀드 등)이 기업에 빌려준 돈이 부실해지는지 봅니다. 부도가 늘면 공식 통계보다 여기 먼저 신호가 떠요."], "deriv": ["옵션·파생 심리", "옵션은 주가가 떨어질 때를 대비해 사두는 '보험'입니다. 이 보험값이 비싸지면 시장이 그만큼 겁먹었다는 뜻 — 공포를 가장 빨리 보여줍니다."], "liq": ["유동성·시스템 스트레스", "시중에 돈이 잘 도는지를 봅니다. 돈줄이 마르면 멀쩡하던 기업도 위태로워져요. 천천히 변하지만 확실한 신호입니다."], "news-credit": ["신용 뉴스", "대출·부도·신용 관련 최신 뉴스를 자동으로 모읍니다. 배경 참고용이고 위험 판정에는 들어가지 않아요."], "gpu": ["GPU·HBM 수급", "AI를 돌리는 핵심 부품(GPU)을 빌리는 값입니다. 값이 오르면 AI 수요가 강하다는 뜻, 내리면 부품이 남아돈다는 신호예요."], "ai-basket": ["AI 밸류체인 바스켓", "반도체·전력·클라우드 등 AI 관련 35개 회사 주가를 한 묶음으로 봅니다. 이들이 전반적으로 오르는지 내리는지를 보여줘요."], "ai-night": ["AI 야간 선행", "미국 장이 닫힌 밤사이 거래되는 '선물' 가격입니다. 다음 날 시장이 오를지 내릴지 미리 엿볼 수 있어요."], "news-ai": ["AI 뉴스", "AI 투자·반도체 관련 최신 뉴스를 자동으로 모읍니다. 참고용이고 판정에는 안 들어가요."], "edgar": ["EDGAR 8-K", "미국 회사가 인수·대형계약 같은 중요한 사건이 생기면 의무적으로 내는 공시입니다. 회사의 '속보 보고서'라고 보면 돼요."], "ipo": ["IPO 워치", "새로 증시에 상장하는 AI·우주 기업을 추적합니다. 상장 직후라 과거 데이터가 없어 위험 판정에는 넣지 않아요."], "vix": ["변동성 VIX", "주식시장이 앞으로 얼마나 출렁일지 보는 '불안 온도계'입니다. 보통 20 아래면 평온, 높을수록 공포가 큽니다."], "spread": ["신용 스프레드", "위험한 회사가 돈을 빌릴 때 안전한 곳보다 이자를 얼마나 더 무는지입니다. 격차가 벌어지면 시장이 부도를 걱정한다는 뜻이에요."], "curve": ["금리차 10Y−3M", "길게 빌릴 때(10년)와 짧게 빌릴 때(3개월)의 이자 차이입니다. 보통은 길수록 이자가 높은데, 거꾸로 뒤집히면 경기침체 신호로 봐요."], "broad": ["광범위 시장", "S&P500·나스닥 같은 대표 지수가 장기 평균선 위에 있는지 봅니다. 그 선을 깨고 내려오면 흐름이 꺾였다는 신호예요."], "kr": ["한국 지수", "코스피·코스닥의 현재 수치입니다. 한국 시장 상황을 참고용으로 보여줘요."], "geo": ["규제·지정학", "수출 통제, 반독점, 관세처럼 정책과 국제 정세가 시장에 줄 충격을 관찰합니다."], "news-macro": ["거시 뉴스", "금리·경기·변동성 관련 최신 뉴스를 자동으로 모읍니다. 참고용이에요."], "fut": ["선물·야간 세션", "정규장이 닫힌 시간과 주말에도 거래되는 시장입니다. 다음 거래일의 방향을 미리 보여줘요."], "dxy": ["달러 DXY", "달러가 다른 주요 통화 대비 강한지 약한지입니다. 달러가 급하게 오르면 전 세계 돈이 미국으로 빨려가 위험자산이 눌려요."], "ust10": ["미 10년물 금리", "미국 정부가 10년 빌릴 때 무는 이자입니다. 이게 오르면 모든 자산의 기준 잣대가 올라가 특히 성장주가 눌립니다."], "jpy": ["일본 엔 (USD/JPY)", "엔화 가치입니다. 엔이 갑자기 강해지면 엔을 싸게 빌려 굴리던 돈이 한꺼번에 빠져나가며 시장이 흔들릴 수 있어요."], "oil": ["유가 (WTI)", "국제 원유 가격입니다. 급등하면 물가·지정학 위험, 급락하면 경기 둔화 신호로 읽어요."], "copper": ["구리 (CPER)", "구리 가격입니다. 공장·전력·건설에 두루 쓰여 경기를 미리 보여줘 '닥터 코퍼'라 불려요. AI 전력 인프라와도 연결됩니다."], "gold": ["금 (GLD)", "금 가격입니다. 불안하면 사람들이 몰리는 대표 안전자산이라, 급등하면 공포나 실질금리 하락 신호일 수 있어요."], "btc": ["비트코인", "대표적인 위험자산 심리 척도입니다. 투자자들이 위험을 얼마나 감수하려 하는지 가늠하는 참고지표예요."], "news-flow": ["자금흐름 뉴스", "달러·금리·원자재 관련 최신 뉴스를 자동으로 모읍니다. 참고용이에요."], "bubble": ["구조적 버블 압력", "지금 시장이 역사적으로 얼마나 비싼지(과열도)를 봅니다. 단 '언제' 터질지는 못 맞히고, 높을수록 터졌을 때 충격이 크다는 의미예요."], "vvix": ["VVIX", "옵션값 자체가 얼마나 출렁이는지 보는 '공포의 공포' 지표입니다. 110을 넘으면 옵션시장이 많이 불안하다는 뜻이에요."], "skew": ["SKEW", "드문 대폭락에 대비한 보험 수요를 봅니다. 150을 넘으면 시장이 갑작스런 급락(꼬리 위험)을 강하게 대비하고 있다는 신호."], "move": ["MOVE", "주식의 VIX에 해당하는 '채권판 불안 온도계'입니다. 채권시장이 흔들리면 주식보다 먼저 신호가 오기도 해요."], "vixterm": ["VIX 기간구조", "당장의 불안과 한 달 뒤 예상 불안을 비교합니다. 당장이 더 크면(역전) 지금 급성 공포 상태라는 뜻이에요."], "nfci": ["NFCI", "미국 금융 환경이 빡빡한지 느슨한지 종합한 지수입니다. 0보다 크면 돈 빌리기가 어려워졌다(긴축)는 의미예요."], "sofr": ["SOFR-IORB", "은행끼리 하루짜리 돈을 빌릴 때 생기는 금리 틈입니다. 벌어지면 단기 자금시장이 경색됐다는 신호예요."], "hyoas": ["HY OAS", "신용도 낮은 회사채가 국채보다 이자를 얼마나 더 주는지입니다. 5.5%를 넘으면 신용 위험이 확실해진 것으로 봐요."], "hyglqd": ["HYG / LQD", "위험한 회사채(HYG)와 우량 회사채(LQD)의 가격 흐름 비교입니다. 위험채가 더 약하면 신용 경계 신호예요."], "cape": ["실러 CAPE", "최근 10년 평균 이익으로 계산한 주가수익비율(PER)입니다. 40을 넘으면 1999·2021년처럼 극단적으로 비싼 수준이에요."], "debtserv": ["부채상환 비율", "버는 돈 중 빚 갚는 데 쓰는 비중입니다. 높을수록 금리가 오를 때 충격에 약해져요."], "polrate": ["기준금리", "중앙은행이 정하는 기준이 되는 금리입니다. 높으면 돈값이 비싸져 주식 같은 위험자산에 부담이 됩니다."], "h100": ["H100 임대가", "AI용 핵심 GPU(H100)를 시간당 빌리는 값입니다. 오르면 AI 수요가 강하다는 직접적인 증거예요."], "bdc": ["BDC", "중소·비상장 기업에 돈을 빌려주는 상장 투자회사입니다. 이들이 흔들리면 사모대출 부실의 조기 신호로 봐요."], "clo": ["CLO", "여러 기업 대출을 묶어서 만든 채권입니다. 가격이 빠지면 대출 시장에 스트레스가 쌓인다는 뜻이에요."], "levloan": ["레버리지론", "이미 빚이 많은 기업에 해주는 대출입니다. 경기가 나빠지면 가장 먼저 부실해지는 영역이에요."], "ma50": ["50일 이동평균선", "최근 50일 평균 주가선입니다. 주가가 이 위에 있으면 단기 흐름이 좋고, 아래면 약세로 봐요."], "ma200": ["200일 이동평균선", "최근 200일 평균 주가선입니다. 장기 추세의 기준선이라, 깨고 내려오면 큰 흐름이 꺾인 것으로 봐요."]};
-var NM={"⚡ 단기 급변 조기경보": "early", "사모대출 신용": "credit-private", "옵션·파생 심리 (빠른 선행)": "deriv", "유동성·시스템 스트레스 (느린 선행)": "liq", "EDGAR 8-K": "edgar", "신용 뉴스": "news-credit", "⏱ AI 야간 선행 (나스닥선물)": "ai-night", "GPU·HBM 수급 (AI 필수재)": "gpu", "AI 밸류체인 (통합 바스켓)": "ai-basket", "AI 뉴스 (capex·H100·밸류체인)": "news-ai", "구조적 버블 압력": "bubble", "변동성 VIX": "vix", "신용 스프레드": "spread", "금리차 10Y−3M": "curve", "광범위 시장": "broad", "한국 지수": "kr", "규제·지정학": "geo", "거시 뉴스": "news-macro", "⏱ 선물·야간 세션": "fut", "달러 DXY": "dxy", "미 10년물 금리": "ust10", "일본 엔 (USD/JPY)": "jpy", "유가 (WTI/USO)": "oil", "구리 (CPER)": "copper", "금 (GLD)": "gold", "비트코인": "btc", "자금흐름 뉴스": "news-flow", "IPO 워치 (AI·우주)": "ipo"};
+var EX={"comp": ["종합 위험도", "신용·AI·거시 세 영역의 확정 지표를 0~6점으로 합산한 종합 점수입니다. 점수가 높을수록 시장 위험이 크다는 뜻이에요."], "early": ["단기 급변 조기경보", "확정 지표보다 한발 빠른 '선행 경보'입니다. 실시간 거래되는 신호로 급변을 먼저 잡아내요. 빠른 대신 가끔 헛경보도 납니다."], "credit-private": ["사모대출 신용", "은행이 아닌 곳(사모펀드 등)이 기업에 빌려준 돈이 부실해지는지 봅니다. 부도가 늘면 공식 통계보다 여기 먼저 신호가 떠요."], "deriv": ["옵션·파생 심리", "옵션은 주가가 떨어질 때를 대비해 사두는 '보험'입니다. 이 보험값이 비싸지면 시장이 그만큼 겁먹었다는 뜻 — 공포를 가장 빨리 보여줍니다."], "liq": ["유동성·시스템 스트레스", "시중에 돈이 잘 도는지를 봅니다. 돈줄이 마르면 멀쩡하던 기업도 위태로워져요. 천천히 변하지만 확실한 신호입니다."], "news-credit": ["신용 뉴스", "대출·부도·신용 관련 최신 뉴스를 자동으로 모읍니다. 배경 참고용이고 위험 판정에는 들어가지 않아요."], "gpu": ["GPU·HBM 수급", "AI를 돌리는 핵심 부품(GPU)을 빌리는 값입니다. 값이 오르면 AI 수요가 강하다는 뜻, 내리면 부품이 남아돈다는 신호예요."], "ai-basket": ["AI 밸류체인 바스켓", "반도체·전력·클라우드 등 AI 관련 35개 회사 주가를 한 묶음으로 봅니다. 이들이 전반적으로 오르는지 내리는지를 보여줘요."], "ai-night": ["AI 야간 선행", "미국 장이 닫힌 밤사이 거래되는 '선물' 가격입니다. 다음 날 시장이 오를지 내릴지 미리 엿볼 수 있어요."], "news-ai": ["AI 뉴스", "AI 투자·반도체 관련 최신 뉴스를 자동으로 모읍니다. 참고용이고 판정에는 안 들어가요."], "edgar": ["EDGAR 8-K", "미국 회사가 인수·대형계약 같은 중요한 사건이 생기면 의무적으로 내는 공시입니다. 회사의 '속보 보고서'라고 보면 돼요."], "ipo": ["IPO 워치", "새로 증시에 상장하는 AI·우주 기업을 추적합니다. 상장 직후라 과거 데이터가 없어 위험 판정에는 넣지 않아요."], "vix": ["변동성 VIX", "주식시장이 앞으로 얼마나 출렁일지 보는 '불안 온도계'입니다. 보통 20 아래면 평온, 높을수록 공포가 큽니다."], "spread": ["신용 스프레드", "위험한 회사가 돈을 빌릴 때 안전한 곳보다 이자를 얼마나 더 무는지입니다. 격차가 벌어지면 시장이 부도를 걱정한다는 뜻이에요."], "curve": ["금리차 10Y−3M", "길게 빌릴 때(10년)와 짧게 빌릴 때(3개월)의 이자 차이입니다. 보통은 길수록 이자가 높은데, 거꾸로 뒤집히면 경기침체 신호로 봐요."], "broad": ["광범위 시장", "S&P500·나스닥 같은 대표 지수가 장기 평균선 위에 있는지 봅니다. 그 선을 깨고 내려오면 흐름이 꺾였다는 신호예요."], "kr": ["한국 지수", "코스피·코스닥의 현재 수치입니다. 한국 시장 상황을 참고용으로 보여줘요."], "geo": ["규제·지정학", "수출 통제, 반독점, 관세처럼 정책과 국제 정세가 시장에 줄 충격을 관찰합니다."], "news-macro": ["거시 뉴스", "금리·경기·변동성 관련 최신 뉴스를 자동으로 모읍니다. 참고용이에요."], "fut": ["선물·야간 세션", "정규장이 닫힌 시간과 주말에도 거래되는 시장입니다. 다음 거래일의 방향을 미리 보여줘요."], "dxy": ["달러 DXY", "달러가 다른 주요 통화 대비 강한지 약한지입니다. 달러가 급하게 오르면 전 세계 돈이 미국으로 빨려가 위험자산이 눌려요."], "ust10": ["미 10년물 금리", "미국 정부가 10년 빌릴 때 무는 이자입니다. 이게 오르면 모든 자산의 기준 잣대가 올라가 특히 성장주가 눌립니다."], "jpy": ["일본 엔 (USD/JPY)", "엔화 가치입니다. 엔이 갑자기 강해지면 엔을 싸게 빌려 굴리던 돈이 한꺼번에 빠져나가며 시장이 흔들릴 수 있어요."], "oil": ["유가 (WTI)", "국제 원유 가격입니다. 급등하면 물가·지정학 위험, 급락하면 경기 둔화 신호로 읽어요."], "copper": ["구리 (CPER)", "구리 가격입니다. 공장·전력·건설에 두루 쓰여 경기를 미리 보여줘 '닥터 코퍼'라 불려요. AI 전력 인프라와도 연결됩니다."], "gold": ["금 (GLD)", "금 가격입니다. 불안하면 사람들이 몰리는 대표 안전자산이라, 급등하면 공포나 실질금리 하락 신호일 수 있어요."], "btc": ["비트코인", "대표적인 위험자산 심리 척도입니다. 투자자들이 위험을 얼마나 감수하려 하는지 가늠하는 참고지표예요."], "news-flow": ["자금흐름 뉴스", "달러·금리·원자재 관련 최신 뉴스를 자동으로 모읍니다. 참고용이에요."], "bubble": ["구조적 버블 압력", "지금 시장이 역사적으로 얼마나 비싼지(과열도)를 봅니다. 단 '언제' 터질지는 못 맞히고, 높을수록 터졌을 때 충격이 크다는 의미예요."], "vvix": ["VVIX", "옵션값 자체가 얼마나 출렁이는지 보는 '공포의 공포' 지표입니다. 110을 넘으면 옵션시장이 많이 불안하다는 뜻이에요."], "skew": ["SKEW", "드문 대폭락에 대비한 보험 수요를 봅니다. 150을 넘으면 시장이 갑작스런 급락(꼬리 위험)을 강하게 대비하고 있다는 신호."], "move": ["MOVE", "주식의 VIX에 해당하는 '채권판 불안 온도계'입니다. 채권시장이 흔들리면 주식보다 먼저 신호가 오기도 해요."], "vixterm": ["VIX 기간구조", "당장의 불안과 한 달 뒤 예상 불안을 비교합니다. 당장이 더 크면(역전) 지금 급성 공포 상태라는 뜻이에요."], "nfci": ["NFCI", "미국 금융 환경이 빡빡한지 느슨한지 종합한 지수입니다. 0보다 크면 돈 빌리기가 어려워졌다(긴축)는 의미예요."], "sofr": ["SOFR-IORB", "은행끼리 하루짜리 돈을 빌릴 때 생기는 금리 틈입니다. 벌어지면 단기 자금시장이 경색됐다는 신호예요."], "hyoas": ["HY OAS", "신용도 낮은 회사채가 국채보다 이자를 얼마나 더 주는지입니다. 5.5%를 넘으면 신용 위험이 확실해진 것으로 봐요."], "hyglqd": ["HYG / LQD", "위험한 회사채(HYG)와 우량 회사채(LQD)의 가격 흐름 비교입니다. 위험채가 더 약하면 신용 경계 신호예요."], "cape": ["실러 CAPE", "최근 10년 평균 이익으로 계산한 주가수익비율(PER)입니다. 40을 넘으면 1999·2021년처럼 극단적으로 비싼 수준이에요."], "debtserv": ["부채상환 비율", "버는 돈 중 빚 갚는 데 쓰는 비중입니다. 높을수록 금리가 오를 때 충격에 약해져요."], "polrate": ["기준금리", "중앙은행이 정하는 기준이 되는 금리입니다. 높으면 돈값이 비싸져 주식 같은 위험자산에 부담이 됩니다."], "h100": ["H100 임대가", "AI용 핵심 GPU(H100)를 시간당 빌리는 값입니다. 오르면 AI 수요가 강하다는 직접적인 증거예요."], "bdc": ["BDC", "중소·비상장 기업에 돈을 빌려주는 상장 투자회사입니다. 이들이 흔들리면 사모대출 부실의 조기 신호로 봐요."], "clo": ["CLO", "여러 기업 대출을 묶어서 만든 채권입니다. 가격이 빠지면 대출 시장에 스트레스가 쌓인다는 뜻이에요."], "levloan": ["레버리지론", "이미 빚이 많은 기업에 해주는 대출입니다. 경기가 나빠지면 가장 먼저 부실해지는 영역이에요."], "ma50": ["50일 이동평균선", "최근 50일 평균 주가선입니다. 주가가 이 위에 있으면 단기 흐름이 좋고, 아래면 약세로 봐요."], "ma200": ["200일 이동평균선", "최근 200일 평균 주가선입니다. 장기 추세의 기준선이라, 깨고 내려오면 큰 흐름이 꺾인 것으로 봐요."], "realrate": ["실질금리 10Y", "미국 정부가 10년 빌릴 때 무는 이자에서 물가상승분을 뺀 '진짜 금리'입니다. 오르면 미래 이익의 가치가 깎여 AI·성장주가 특히 눌려요."], "netliq": ["순유동성", "은행 시스템에 실제로 풀려 있는 돈입니다(Fed 자산 − 정부 잔고 − 역레포). 줄어들면 위험자산을 살 '연료'가 마릅니다."]};
+var NM={"⚡ 단기 급변 조기경보": "early", "사모대출 신용": "credit-private", "옵션·파생 심리 (빠른 선행)": "deriv", "유동성·시스템 스트레스 (느린 선행)": "liq", "EDGAR 8-K": "edgar", "신용 뉴스": "news-credit", "⏱ AI 야간 선행 (나스닥선물)": "ai-night", "GPU·HBM 수급 (AI 필수재)": "gpu", "AI 밸류체인 (통합 바스켓)": "ai-basket", "AI 뉴스 (capex·H100·밸류체인)": "news-ai", "구조적 버블 압력": "bubble", "변동성 VIX": "vix", "신용 스프레드": "spread", "금리차 10Y−3M": "curve", "광범위 시장": "broad", "한국 지수": "kr", "규제·지정학": "geo", "거시 뉴스": "news-macro", "⏱ 선물·야간 세션": "fut", "달러 DXY": "dxy", "미 10년물 금리": "ust10", "일본 엔 (USD/JPY)": "jpy", "유가 (WTI/USO)": "oil", "구리 (CPER)": "copper", "금 (GLD)": "gold", "비트코인": "btc", "자금흐름 뉴스": "news-flow", "IPO 워치 (AI·우주)": "ipo", "MOVE 채권변동성": "move", "실질금리 10Y": "realrate", "순유동성": "netliq"};
 var SK=[["기간구조", "vixterm"], ["VVIX", "vvix"], ["SKEW", "skew"], ["MOVE", "move"], ["SOFR", "sofr"], ["IORB", "sofr"], ["NFCI", "nfci"], ["HY OAS", "hyoas"], ["OAS", "hyoas"], ["레버리지론", "levloan"], ["부채상환", "debtserv"], ["기준금리", "polrate"], ["H100", "h100"], ["CAPE", "cape"], ["HYG", "hyglqd"], ["LQD", "hyglqd"], ["BDC", "bdc"], ["CLO", "clo"], ["200일", "ma200"], ["50일", "ma50"]];
 function norm(s){return (s||'').replace(/\s+/g,' ').trim();}
 function showPop(slug,x,y){var e=EX[slug];if(!e)return;var p=document.getElementById('pop');if(!p)return;p.querySelector('h5').textContent=e[0];p.querySelector('p').innerHTML=e[1];p.style.display='block';var pw=p.offsetWidth,ph=p.offsetHeight,vw=window.innerWidth,vh=window.innerHeight;var px=x+12;if(px+pw>vw-8)px=vw-pw-8;if(px<8)px=8;var py=y+14;if(py+ph>vh-8)py=y-ph-12;if(py<8)py=8;p.style.left=px+'px';p.style.top=py+'px';p.classList.add('on');}

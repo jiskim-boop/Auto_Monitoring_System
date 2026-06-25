@@ -418,6 +418,30 @@ def fetch_netliq():
     if now is None: return None
     return {"value":round(now,1),"chg4w":round(now-prev,1) if prev is not None else None,"asof":anchor}
 
+def fetch_global_m2_proxy():
+    # Global M2 근사 = US M2(WM2NS,$bn) / 달러(DTWEXBGS 광범위지수). 일간 갱신, 방향성 참고용(미채점).
+    if not FRED_KEY: return None
+    m2 = fred_obs("WM2NS", 70)
+    dx = fred_obs("DTWEXBGS", 130)
+    if not (m2 and dx): return None
+    import datetime
+    anchor = dx[0][0]
+    d0 = datetime.date.fromisoformat(anchor)
+    def back(n): return (d0 - datetime.timedelta(days=n)).isoformat()
+    def prox(t):
+        mv=_asof(m2,t); dv=_asof(dx,t)
+        if mv is None or dv is None or dv==0: return None
+        return (mv/1000.0)*(100.0/dv)
+    now=prox(anchor); p13=prox(back(91))
+    if now is None: return None
+    m2n=_asof(m2,anchor); m2b=_asof(m2,back(91))
+    dxn=_asof(dx,anchor); dxb=_asof(dx,back(91))
+    return {"value": round(now,2),
+            "chg13w": round((now/p13-1)*100,2) if p13 else None,
+            "m2_chg13w": round((m2n/m2b-1)*100,2) if m2b else None,
+            "dxy_chg13w": round((dxn/dxb-1)*100,2) if dxb else None,
+            "asof": anchor}
+
 def fetch_fred():
     if not FRED_KEY:
         return {"ok":False,"note":"FRED_API_KEY 미설정"}
@@ -435,6 +459,7 @@ def fetch_fred():
     out["cape"]=_cape if _cape is not None else CAPE_MANUAL
     out["cape_manual"]=(_cape is None)
     out["netliq"]=fetch_netliq()
+    out["gm2"]=fetch_global_m2_proxy()
     return out
 
 # ---- 차트용 과거 시계열 (B: 과거 90일, 주간 다운샘플)

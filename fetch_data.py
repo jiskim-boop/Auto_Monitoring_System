@@ -418,33 +418,66 @@ def fetch_netliq():
     if now is None: return None
     return {"value":round(now,1),"chg4w":round(now-prev,1) if prev is not None else None,"asof":anchor}
 
-def fetch_global_m2_proxy():
-    # Global M2 근사 = US M2(WM2NS,$bn) / 달러(DTWEXBGS 광범위지수). 일간 갱신, 방향성 참고용(미채점).
+def ecb_obs(flow_key, n=24):
+    # ECB Data Portal CSV → (기간, 값) 최신순. 값 단위는 시리즈 원단위(M2 잔액은 €백만).
+    url=("https://data-api.ecb.europa.eu/service/data/"+flow_key+
+         "?format=csvdata&lastNObservations="+str(n))
+    try:
+        raw=get(url)
+        if not raw: return None
+        lines=raw.strip().split("\n")
+        if len(lines)<2: return None
+        hdr=[h.strip() for h in lines[0].split(",")]
+        ti=hdr.index("TIME_PERIOD"); vi=hdr.index("OBS_VALUE")
+        out=[]
+        for ln in lines[1:]:
+            c=ln.split(",")
+            if len(c)<=max(ti,vi): continue
+            try: out.append((c[ti].strip(), float(c[vi])))
+            except Exception: continue
+        out.sort(reverse=True)
+        return out or None
+    except Exception:
+        return None
+
+def _norm_month(p):
+    p=p.replace("M","-")                      # 2026M04 → 2026-04
+    return (p+"-28") if len(p)==7 else p       # 월간을 월말 날짜로 (문자열 _asof 호환)
+
+def fetch_g2_m2():
+    # 글로벌 M2(선진권 실측) = 미국 M2(FRED WM2NS, $bn) + 유로존 M2(ECB BSI M20, €백만→$).
+    # 미국 주간·유로존 월간 혼합, 시차 ~1개월. 환율 DEXUSEU(USD/EUR).
+    # 중국·일본은 최신 무료 API가 없어(IMF/FRED 시차·동결) 제외 — 설명/주석 참조.
     if not FRED_KEY: return None
-    m2 = fred_obs("WM2NS", 70)
-    dx = fred_obs("DTWEXBGS", 130)
-    if not (m2 and dx): return None
+    us = fred_obs("WM2NS", 70)                                  # [(date,$bn)] 주간 최신순
+    eu = ecb_obs("BSI/M.U2.Y.V.M20.X.1.U2.2300.Z01.E", 24)     # [(YYYY-MM,€백만)] 월간 최신순
+    fx = fred_obs("DEXUSEU", 220)                               # [(date,USD/EUR)] 일간
+    if not (us and eu and fx): return None
     import datetime
-    anchor = dx[0][0]
-    d0 = datetime.date.fromisoformat(anchor)
+    eu=[(_norm_month(p), v) for p,v in eu]
+    anchor=us[0][0]
+    d0=datetime.date.fromisoformat(anchor)
     def back(n): return (d0 - datetime.timedelta(days=n)).isoformat()
-    def prox(t):
-        mv=_asof(m2,t); dv=_asof(dx,t)
-        if mv is None or dv is None or dv==0: return None
-        return (mv/1000.0)*(100.0/dv)
-    now=prox(anchor); p13=prox(back(91))
+    def total(t):                                              # 해당 시점 미국+유로존 합 ($T)
+        u=_asof(us,t); e=_asof(eu,t); x=_asof(fx,t)
+        if u is None or e is None or x is None or x==0: return None
+        return (u + (e/1000.0)*x) / 1000.0                     # e/1000=€bn, ×x=$bn, +u, /1000=$T
+    now=total(anchor)
     if now is None: return None
-    m2n=_asof(m2,anchor); m2b=_asof(m2,back(91))
-    dxn=_asof(dx,anchor); dxb=_asof(dx,back(91))
+    p13=total(back(91))
+    un,uo=_asof(us,anchor),_asof(us,back(91))
+    en,eo=_asof(eu,anchor),_asof(eu,back(91))
+    xn=_asof(fx,anchor)
     series=[]
     for k in range(12,-1,-1):
-        pv=prox(back(k*7))
-        series.append(round(pv,2) if pv is not None else None)
+        tv=total(back(k*7)); series.append(round(tv,2) if tv is not None else None)
     return {"value": round(now,2), "series": series,
             "chg13w": round((now/p13-1)*100,2) if p13 else None,
-            "m2_chg13w": round((m2n/m2b-1)*100,2) if m2b else None,
-            "dxy_chg13w": round((dxn/dxb-1)*100,2) if dxb else None,
-            "asof": anchor}
+            "us_chg13w": round((un/uo-1)*100,2) if (un and uo) else None,
+            "eu_chg13w": round((en/eo-1)*100,2) if (en and eo) else None,
+            "us_t": round(un/1000.0,2) if un else None,
+            "eu_t": round((en/1000.0)*xn/1000.0,2) if (en and xn) else None,
+            "asof": anchor, "eu_asof": eu[0][0]}
 
 def fetch_fred():
     if not FRED_KEY:
@@ -463,7 +496,7 @@ def fetch_fred():
     out["cape"]=_cape if _cape is not None else CAPE_MANUAL
     out["cape_manual"]=(_cape is None)
     out["netliq"]=fetch_netliq()
-    out["gm2"]=fetch_global_m2_proxy()
+    out["gm2"]=fetch_g2_m2()
     return out
 
 # ---- 차트용 과거 시계열 (B: 과거 90일, 주간 다운샘플)

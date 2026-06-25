@@ -89,7 +89,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.14.1</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.14.2</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -296,7 +296,7 @@
     <div>
       <div class="colhead ch-flow">4 · 자금흐름·유동성 (돈의 방향)</div>
       <div class="colsum coltoggle" id="sum-flow" data-wrap="wrap-flow">—</div>
-      <div class="colcrit"><b>방향 표시 전용</b>(달러·금리·엔·원자재) — <b>위험 점수 없음</b>(종합 미반영) · 금↑+달러↑ 안전자산 쏠림 시에만 주의색</div>
+      <div class="colcrit"><b>흐름 방향 참고</b>(달러·금리·엔·원자재) · 종합 위험도와 별개 · 금↑+달러↑ 안전자산 쏠림 시에만 주의색</div>
       <div class="colcards" id="wrap-flow" style="display:none">
       <div class="card flow"><div class="top"><span class="nm">⏱ 선물·야간 세션</span><span class="stt s-b">24시간</span></div>
         <div class="desc" id="fut-desc">장 마감·주말에도 거래 · 시장 방향 선반영</div>
@@ -304,7 +304,7 @@
       <div class="card flow"><div class="top"><span class="nm">달러 DXY</span><span class="stt s-b">방향</span></div>
         <div class="desc">강세=유동성 흡수·신흥국 압박</div><div class="verdict" id="lv-dxy">—</div></div>
       <div class="card flow"><div class="top"><span class="nm">Global M2 근사</span><span class="stt s-b">방향</span></div>
-        <div class="desc">≈ 미국 통화량 ÷ 달러 · 달러 주도 방향 참고 (미채점)</div><div class="verdict" id="lv-gm2">—</div></div>
+        <div class="desc">≈ 미국 통화량 ÷ 달러 · 달러 주도 방향 참고</div><div class="verdict" id="lv-gm2">—</div></div>
       <div class="card flow"><div class="top"><span class="nm">미 10년물 금리</span><span class="stt s-b">방향</span></div>
         <div class="desc">상승=조달비용↑</div><div class="verdict" id="lv-rates">—</div></div>
       <div class="card flow"><div class="top"><span class="nm">일본 엔 (USD/JPY)</span><span class="stt s-b">방향</span></div>
@@ -520,13 +520,13 @@ function derivPanel(p,asof){
   if(skew!=null) row('SKEW',skew.toFixed(0),skew>=150?'r':skew>=145?'a':'g');
   if(!n){badge($('st-deriv'),'n','N/A');return null;}
   const st=risk>=1.5?'r':risk>=0.5?'a':'g';badge($('st-deriv'),st);return st;}
-function dxyFlow(p){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
+function dxyFlow(p,series){const q=p['DX-Y.NYB'];if(!q||!q.ok){lvl('lv-dxy','실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
-  lvl('lv-dxy',`<b>${q.price.toFixed(2)}</b> ${chgHtml(q)} · ${tt}`);}
-function ratesFlow(p){const y=norm(num(p['^TNX']));if(y==null){lvl('lv-rates','실패');return;}
-  const q=p['^TNX'];lvl('lv-rates',`<b>${y.toFixed(2)}%</b> ${chgHtml(q)}`);}
-function jpyFlow(p){const q=p['JPY=X'];if(!q||!q.ok){lvl('lv-jpy','실패');return;}
-  lvl('lv-jpy',`<b>${q.price.toFixed(1)}</b> ${chgHtml(q)}`);}
+  lvl('lv-dxy',`<b>${q.price.toFixed(2)}</b> ${chgHtml(q)} · ${tt}${flowSpark(series)}`);}
+function ratesFlow(p,series){const y=norm(num(p['^TNX']));if(y==null){lvl('lv-rates','실패');return;}
+  const q=p['^TNX'];lvl('lv-rates',`<b>${y.toFixed(2)}%</b> ${chgHtml(q)}${flowSpark(series)}`);}
+function jpyFlow(p,series){const q=p['JPY=X'];if(!q||!q.ok){lvl('lv-jpy','실패');return;}
+  lvl('lv-jpy',`<b>${q.price.toFixed(1)}</b> ${chgHtml(q)}${flowSpark(series)}`);}
 function curveAxis(p){const t=norm(num(p['^TNX'])),i=norm(num(p['^IRX']));if(t==null||i==null){badge($('st-curve'),'n','N/A');lvl('lv-curve','실패');return null;}
   const sp=t-i;const st=sp<0?'r':sp<0.5?'a':'g';badge($('st-curve'),st);
   lvl('lv-curve','10Y '+t.toFixed(2)+' − 3M '+i.toFixed(2)+' = <b>'+(sp>=0?'+':'')+sp.toFixed(2)+'%p</b>'+(sp<0?' 역전':''));return st;}
@@ -553,9 +553,9 @@ function spreadAxis(p,fred){
   const hygTxt = (hyg&&hyg.ok)?`HYG $${hyg.price} ${chgHtml(hyg)}`:'';
   const lqdTxt = (lqd&&lqd.ok)?` · LQD $${lqd.price} ${chgHtml(lqd)}`:'';
   badge($('st-spread'),st);lvl('lv-spread',`${hygTxt}${lqdTxt}<br>${msg}`);return st;}
-function flowAxis(p,sym,id){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
+function flowAxis(p,sym,id,series){const q=p[sym];if(!q||!q.ok){lvl(id,'실패');return;}
   const t=pStatus(q);const tt=t==='g'?'추세 위(강세)':t==='r'?'추세 아래(약세)':'중립';
-  lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}`);}
+  lvl(id,`$${q.price.toLocaleString()} ${chgHtml(q)} · ${tt}${flowSpark(series)}`);}
 // 거시 독립축: MOVE(채권변동성) · 실질금리(DFII10) · 순유동성(Fed−TGA−RRP)
 function moveAxis(p){const m=num(p['^MOVE']);if(m==null){badge($('st-move'),'n','N/A');lvl('lv-move','데이터 대기');return null;}
   const st=m>=125?'r':m>=100?'a':'g';badge($('st-move'),st);
@@ -574,17 +574,33 @@ function netLiqAxis(fred){
   badge($('st-netliq'),st);
   const cTxt=(c!=null)?((c>=0?'+':'−')+'$'+Math.abs(Math.round(c)).toLocaleString()+'B/4주'):'';
   lvl('lv-netliq','<b>$'+(v/1000).toFixed(2)+'T</b> · '+cTxt+(st==='r'?' — 급감(압박)':st==='a'?' — 축소':' — 안정'));return st;}
-// Global M2 근사(방향성 참고, 미채점) = US M2 ÷ 달러(광범위지수). 달러↑면 하락.
+// 흐름 카드용 간소화 추세 스파크라인
+function flowSpark(series){
+  if(!series||!series.length)return'';
+  const vals=series.filter(v=>v!=null);
+  if(vals.length<2)return'';
+  const w=120,h=24,pad=2;
+  let lo=Math.min(...vals),hi=Math.max(...vals);if(hi===lo)hi=lo+1;
+  const x=i=>pad+(w-2*pad)*i/(series.length-1||1);
+  const y=v=>h-pad-(h-2*pad)*(v-lo)/(hi-lo);
+  const last=vals[vals.length-1],first=vals[0];
+  const col=last>=first?'#37d6a0':'#ff8a8a';
+  const pts=series.map((v,i)=>v==null?null:`${x(i).toFixed(1)},${y(v).toFixed(1)}`).filter(Boolean).join(' ');
+  const dot=`<circle cx="${x(series.length-1).toFixed(1)}" cy="${y(last).toFixed(1)}" r="1.8" fill="${col}"/>`;
+  return `<svg viewBox="0 0 ${w} ${h}" preserveAspectRatio="none" style="width:100%;height:24px;margin-top:5px"><polyline points="${pts}" fill="none" stroke="${col}" stroke-width="1.3"/>${dot}</svg>`;}
+// Global M2 근사 = US M2 ÷ 달러(광범위지수). 달러↑면 하락.
 function gm2Flow(p,fred){
   const o=(fred&&fred.ok&&fred.gm2)?fred.gm2:null;
   if(!o||o.value==null){lvl('lv-gm2','데이터 대기');return;}
   const d=o.chg13w;
-  const arrow=d==null?'':(d>0.3?'▲':d<-0.3?'▼':'▬');
-  const col=d==null?'#9aa3b3':(d>0.3?'#37d6a0':d<-0.3?'#ff8a8a':'#9aa3b3');
+  const up=d!=null&&d>=0;
+  const ch=d==null?'':`<span class="ch ${up?'up':'dn'}">${up?'+':''}${d}% (13주)</span>`;
+  const tt=d==null?'':(d>0.3?' · 추세 상승':d<-0.3?' · 추세 하락':' · 횡보');
   const legs=[];
   if(o.m2_chg13w!=null)legs.push('통화량 '+(o.m2_chg13w>=0?'+':'')+o.m2_chg13w+'%');
   if(o.dxy_chg13w!=null)legs.push('달러 '+(o.dxy_chg13w>=0?'+':'')+o.dxy_chg13w+'%');
-  lvl('lv-gm2','<b style="color:'+col+'">'+arrow+' '+(d==null?'—':(d>=0?'+':'')+d+'% (13주)')+'</b> · 근사 $'+o.value.toFixed(1)+'T'+(legs.length?' · '+legs.join(' · '):''));}
+  const legTxt=legs.length?`<div style="font-size:10px;color:#6f7888;margin-top:2px">${legs.join(' · ')}</div>`:'';
+  lvl('lv-gm2',`<b>$${o.value.toFixed(1)}T</b> ${ch}${tt}${legTxt}${flowSpark(o.series)}`);}
 
 // 구조적 버블 압력: 취약성 게이지 (타이밍 아님)
 function bubblePanel(f){
@@ -1360,7 +1376,7 @@ async function load(){
     const bubbleResult=bubblePanel(d.fred);
     renderCharts(d);
     // 자금흐름
-    dxyFlow(p);gm2Flow(p,d.fred);ratesFlow(p);jpyFlow(p);flowAxis(p,'USO','lv-uso');flowAxis(p,'CPER','lv-cper');flowAxis(p,'GLD','lv-gld');flowAxis(p,'BTC-USD','lv-btc');
+    dxyFlow(p,d.charts&&d.charts.dxy);gm2Flow(p,d.fred);ratesFlow(p,d.charts&&d.charts.tnx);jpyFlow(p,d.charts&&d.charts.jpy);flowAxis(p,'USO','lv-uso',d.charts&&d.charts.uso);flowAxis(p,'CPER','lv-cper',d.charts&&d.charts.cper);flowAxis(p,'GLD','lv-gld',d.charts&&d.charts.gld);flowAxis(p,'BTC-USD','lv-btc',d.charts&&d.charts.btc);
     futSession(p);
     renderEdgar(d.edgar);renderNews('news-credit',(d.news||{}).credit);renderNews('news-fund',(d.news||{}).fundamental);
     renderNews('news-macro',(d.news||{}).macro);renderNews('news-flow',(d.news||{}).flow);

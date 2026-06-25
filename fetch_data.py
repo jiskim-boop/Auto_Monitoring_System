@@ -436,7 +436,11 @@ def fetch_global_m2_proxy():
     if now is None: return None
     m2n=_asof(m2,anchor); m2b=_asof(m2,back(91))
     dxn=_asof(dx,anchor); dxb=_asof(dx,back(91))
-    return {"value": round(now,2),
+    series=[]
+    for k in range(12,-1,-1):
+        pv=prox(back(k*7))
+        series.append(round(pv,2) if pv is not None else None)
+    return {"value": round(now,2), "series": series,
             "chg13w": round((now/p13-1)*100,2) if p13 else None,
             "m2_chg13w": round((m2n/m2b-1)*100,2) if m2b else None,
             "dxy_chg13w": round((dxn/dxb-1)*100,2) if dxb else None,
@@ -553,6 +557,11 @@ def fetch_charts(fred):
     ch["dxy"]=fetch_series_yahoo("DX-Y.NYB")
     ch["bizd"]=fetch_series_yahoo("BIZD")  # 사모대출 신용 프록시
     ch["move"]=fetch_series_yahoo("%5EMOVE")  # 채권 변동성(신용 확정 보조)
+    ch["jpy"]=fetch_series_yahoo("JPY=X")
+    ch["uso"]=fetch_series_yahoo("USO")
+    ch["cper"]=fetch_series_yahoo("CPER")
+    ch["gld"]=fetch_series_yahoo("GLD")
+    ch["btc"]=fetch_series_yahoo("BTC-USD")
     # VIX 기간구조 (VIX/VIX3M, >=1 역전=위험) — 두 시계열 길이 맞춰 비율
     if vix and vix3m and len(vix)==len(vix3m):
         ch["vixts"]=[round(a/b,3) if b else None for a,b in zip(vix,vix3m)]

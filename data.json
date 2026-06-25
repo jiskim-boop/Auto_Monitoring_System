@@ -1,21 +1,9 @@
 {
- "updated": "2026-06-25T10:21:51+00:00",
+ "updated": "2026-06-25T10:32:15+00:00",
  "prices": {
   "NVDA": {
-   "price": 199.0,
-   "chg": -0.52,
-   "chg5": -4.05,
-   "sma20": 209.69,
-   "sma50": 210.23,
-   "sma200": 194.38,
-   "high3m": 235.74,
-   "reg": 199.0,
-   "pre": null,
-   "post": null,
-   "regClose": 199.0,
-   "sess": "reg",
-   "mt": 1782331203,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 382.07,
@@ -722,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 17.99,
-   "chg": -3.44,
-   "chg5": -2.44,
+   "price": 17.89,
+   "chg": -3.97,
+   "chg5": -2.98,
    "sma20": 17.74,
    "sma50": 17.76,
    "sma200": 19.27,
    "high3m": 31.05,
-   "reg": 17.99,
+   "reg": 17.89,
    "pre": null,
    "post": null,
-   "regClose": 17.99,
+   "regClose": 17.89,
    "sess": "reg",
-   "mt": 1782381976,
+   "mt": 1782382591,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.58,
-   "chg": -0.03,
-   "chg5": 1.49,
+   "price": 101.59,
+   "chg": -0.02,
+   "chg5": 1.5,
    "sma20": 100.03,
    "sma50": 99.16,
    "sma200": 98.77,
    "high3m": 101.61,
-   "reg": 101.58,
+   "reg": 101.59,
    "pre": null,
    "post": null,
-   "regClose": 101.58,
+   "regClose": 101.59,
    "sess": "reg",
-   "mt": 1782382281,
+   "mt": 1782382902,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61496.91,
-   "chg": 0.82,
-   "chg5": -4.27,
-   "sma20": 63343.09,
-   "sma50": 70666.47,
-   "sma200": 74981.33,
+   "price": 61475.74,
+   "chg": 0.79,
+   "chg5": -4.3,
+   "sma20": 63342.03,
+   "sma50": 70666.04,
+   "sma200": 74981.22,
    "high3m": 82138.93,
-   "reg": 61496.91,
+   "reg": 61475.74,
    "pre": null,
    "post": null,
-   "regClose": 61496.91,
+   "regClose": 61475.74,
    "sess": "reg",
-   "mt": 1782382884,
+   "mt": 1782383503,
    "ok": true
   },
   "USO": {
@@ -978,105 +966,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.81,
-   "chg": 0.13,
-   "chg5": 0.76,
+   "price": 161.83,
+   "chg": 0.15,
+   "chg5": 0.77,
    "sma20": 160.43,
    "sma50": 159.29,
    "sma200": 157.99,
-   "high3m": 161.81,
-   "reg": 161.81,
+   "high3m": 161.83,
+   "reg": 161.83,
    "pre": null,
    "post": null,
-   "regClose": 161.81,
+   "regClose": 161.83,
    "sess": "reg",
-   "mt": 1782382889,
+   "mt": 1782383509,
    "ok": true
   },
   "ES=F": {
-   "price": 7484.5,
-   "chg": 0.76,
-   "chg5": 0.81,
-   "sma20": 7490.51,
-   "sma50": 7383.65,
+   "price": 7484.0,
+   "chg": 0.75,
+   "chg5": 0.8,
+   "sma20": 7490.48,
+   "sma50": 7383.64,
    "sma200": 7060.12,
    "high3m": 7623.75,
-   "reg": 7484.5,
+   "reg": 7484.0,
    "pre": null,
    "post": null,
-   "regClose": 7484.5,
+   "regClose": 7484.0,
    "sess": "24h",
-   "mt": 1782382287,
+   "mt": 1782382899,
    "ok": true
   },
   "NQ=F": {
-   "price": 30150.0,
+   "price": 30148.75,
    "chg": 2.15,
-   "chg5": 1.56,
-   "sma20": 29944.03,
-   "sma50": 28938.69,
-   "sma200": 26641.66,
+   "chg5": 1.55,
+   "sma20": 29943.97,
+   "sma50": 28938.66,
+   "sma200": 26641.65,
    "high3m": 30712.75,
-   "reg": 30150.0,
+   "reg": 30148.75,
    "pre": null,
    "post": null,
-   "regClose": 30150.0,
+   "regClose": 30148.75,
    "sess": "24h",
-   "mt": 1782382289,
+   "mt": 1782382907,
    "ok": true
   },
   "YM=F": {
-   "price": 52450.0,
-   "chg": 0.33,
-   "chg5": 1.81,
-   "sma20": 51390.9,
-   "sma50": 50366.7,
-   "sma200": 49229.7,
-   "high3m": 52450.0,
-   "reg": 52450.0,
+   "price": 52434.0,
+   "chg": 0.3,
+   "chg5": 1.78,
+   "sma20": 51390.1,
+   "sma50": 50366.38,
+   "sma200": 49229.57,
+   "high3m": 52434.0,
+   "reg": 52434.0,
    "pre": null,
    "post": null,
-   "regClose": 52450.0,
+   "regClose": 52434.0,
    "sess": "24h",
-   "mt": 1782382290,
+   "mt": 1782382904,
    "ok": true
   },
   "GC=F": {
-   "price": 4000.3,
-   "chg": 0.25,
-   "chg5": -8.23,
-   "sma20": 4291.37,
-   "sma50": 4501.92,
-   "sma200": 4693.01,
+   "price": 3999.6,
+   "chg": 0.23,
+   "chg5": -8.24,
+   "sma20": 4291.34,
+   "sma50": 4501.91,
+   "sma200": 4693.0,
    "high3m": 4857.6,
-   "reg": 4000.3,
+   "reg": 3999.6,
    "pre": null,
    "post": null,
-   "regClose": 4000.3,
+   "regClose": 3999.6,
    "sess": "24h",
-   "mt": 1782382289,
+   "mt": 1782382911,
    "ok": true
   },
   "CL=F": {
-   "price": 69.54,
-   "chg": -1.14,
-   "chg5": -9.44,
+   "price": 69.56,
+   "chg": -1.11,
+   "chg5": -9.42,
    "sma20": 84.1,
    "sma50": 92.38,
    "sma200": 82.25,
    "high3m": 112.95,
-   "reg": 69.54,
+   "reg": 69.56,
    "pre": null,
    "post": null,
-   "regClose": 69.54,
+   "regClose": 69.56,
    "sess": "24h",
-   "mt": 1782382289,
+   "mt": 1782382910,
    "ok": true
   },
   "HG=F": {
    "price": 6.09,
-   "chg": 2.56,
-   "chg5": -5.96,
+   "chg": 2.54,
+   "chg5": -5.98,
    "sma20": 6.36,
    "sma50": 6.24,
    "sma200": 5.96,
@@ -1086,7 +1074,7 @@
    "post": null,
    "regClose": 6.09,
    "sess": "24h",
-   "mt": 1782382288,
+   "mt": 1782382912,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 109.94,
    "sess": "24h",
-   "mt": 1782382266,
+   "mt": 1782382900,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1163,14 @@
   ],
   "fundamental": [
    {
+    "title": "Samsung Leads DRAM Market While SK hynix Dominates HBM - Businesskorea",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB1MEZaTFpXZ0xoNVM1R3BkUHRXSUh2VlhTWGhxbk0tRHhZU1VyUEYtQ2pmd0JYa3JSV0xnUWVVYWpyeEd0Vy1saEpPNlc1bmxSSld5MWFOLUZrdHRYRFdzVVVFLWJsa1dLNkNQaTk5Tk5mQmxW?oc=5",
+    "pub": "Thu, 25 Jun 2026 10:23:14 GMT",
+    "src": "Businesskorea",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Micron drives global rally tech stock rally as traders abandon their fear of an AI bubble - Fortune",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE8tWXlsTU5Kb3FwRXFVQmVDQTMtSUp1ZmY0Yk5oQWJRakFCekVPRWVSeDRWVkdYbWpuWS1QLWlsbEdPU2lTM09OSGhfeUR2UHdQSTdTMmZLN1pxMElNYjI2NloyMFhEU2hlTjB4V1plLXo1WlE?oc=5",
     "pub": "Thu, 25 Jun 2026 09:59:00 GMT",
@@ -1213,17 +1209,17 @@
     "src": "Ad-hoc-news.de",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Key facts: U.S. Urges Meta AI Review; Muse Spark 43; $741B AI Capex - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQM2x1NGZ5a0hmaWlFMnBKWXMyZXlwV0xjN3Z5U1hndzh6emZDMC1OR0o0UVpKTW1OdlhNdHlXb29yYkw1akYtRnl6SE9QOExyT0FxVGlCSVAtcTQ0NXpLUFY4VnBNZ3U5QTJ6eFhCQk5KbXB0U1BrSWhpS0RCY2J1bW5iZFBBaDFJSjJwcVhqUEJfQkJBSEpTUHI0WmJtRjlocm9LeEs1S3pIT0lOQmpqS2dyUHd5TEtQVWp0QUROSkZMZw?oc=5",
-    "pub": "Thu, 25 Jun 2026 07:13:47 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Oil prices back to pre-war levels on rising Middle East supply - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUHprZXNJOUhsTkt4OGdOZVM0M0FfN0VCbHFWd3ktM0VvVlluS0NxVzRBQ2VhbUdWaFE0aHZBRHVyWW5NQjFIaGQ3QUgwckR2MHpGZWVrV2t6bEtGNXRFWGxCWnVTVTM5X0lYc1I1SmRTZTRab1FjeDI5UzVTTzJRSEhFR0V1cFphaHBjRE8yclJMQ3YwQkJEYWxpUkJPXzNVMTJQbTF30gGrAUFVX3lxTE5wN2tJTnpaMTNNT2IxQ2lrbjVGTzZxUTBTQk13VE9jX0pLTnJxQkVLc0Rlb0MxWVUzNTNZWm9OQkdRM3lBX09leDgwdVh0WmxoZXJKdVU2eDk0U1VKNkJVaUhVU0VFQnFpMnJqX1BzaV9OdDdCX3FCaTc4NTk4MFE1Z09ZNi0tajJUZnZJci1kcWFTdDk3V08zTnRlRHdGcjFUbkpyRm1jY2FDVQ?oc=5",
+    "pub": "Thu, 25 Jun 2026 10:06:44 GMT",
+    "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Nifty 50 up just 2% in last 2 years. Could a bull run be next amid falling oil prices, easing geopolitical risks? - Mint",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQLVNhT3BZMjU4UlllYVZKeTZMUjJDaGJScll1Wlk1VFh0QUs1REhWN1VBZEZGLXhOcExUOU5zX1lwRE04a0otcnVKZVVRV3llZ25udzU5Y2o0LTA0eTl6QUw4UDNfMWhwSXlhOVVVeXRVdjEtblI2Nkw1T3FHSFpwTF8wSlBnb1FKaVNFRkFQZDlKUHZfUTFtVmNBV1BjR0xEQU52TnZjUVJUS0lERTBZc3FSVzFPeW0zeW01LTZ3RXNwYktKNG1RaXBNUWs4NFpIcUhDRDlmcjJ5c1B3WWV0M0QwTzlmQ0FVcWhsV0VGcldObWxsa2JrOEo0OERvdlprWFlYRHJ0eGlXa3PSAZACQVVfeXFMUFp4Q1RtR2RHTUtqY0VRSnhlRDdHQ3NXcWV6MWFlVHlEbEVxazFhTUNaSDNuQm5OZWdnRWdvcE9BR1lZWGtRMERpR0Q0YURSTDBOSGFSRFlkbmJ2bGhyM1FSYVJoem0zeGxLYmRDbXFLNmFucHlOdnpJVmRSQTc0ZllmYWJqOUU5Y2RwdE5fSHZlR2RURUZuN0hDYmthV1I2R2dzei1rZXhrNnJSNF9DbzB1eExzNDk5Rnh2ZHZjcmJLVzM2THJyb2drRkhDMzlONUZJbWpvSXdBdWFScHJKa0FaS3VUaHVQZUZEc0dhWlZ0VS1ZS1JhSkxaSVNqZ3R5QTJhZGlxOTl6LXA1eU5CeVU?oc=5",
@@ -1233,10 +1229,26 @@
     "geo": false
    },
    {
+    "title": "Indian Rupee gains as easing energy supply concerns push oil prices to pre-war levels - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOTEkydnhwMmtGVC1yLW1fSEwtYm1JVmJ3LXRjeWlhNTZ5VGdYLXd2dklCRGZfZW9PQ1ZEcTFfZkF1czAyQTAxZGRHZ2pWTWdJZ1VyTkw0NG9mU19ERXFjVXpTNU1TZVI3aWFFWDVlcDZiR0FTcXl5TGxWeWlnR1l0STZRcTlyMVhES1F5MEFWN1VjcGpYTmlnU2g3RFpFMkJacDdSWUxFWEhIYmJYSlE?oc=5",
+    "pub": "Thu, 25 Jun 2026 09:08:20 GMT",
+    "src": "FXStreet",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Goldman Sachs U.S. Mortgages Fund Q1 2026 Commentary - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSTIwRmxXamhab1QwYl9qY2NXc0sydzk4LXktTnFlMGR3MkVUbmxCZ1RaTmdpQ2p3Y2N6dlVIYXY1SFY5MWtDcjBYWnVtTlNzZTJUV1dJU2d6dEFSblQ4SWZHZ0FOWDN4MlhfbTRRUWdEWmxUS3NXeWNXX19Qa1NaMlJYODJJOGViSVBrbHh4TUxzVGthVVE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORUk5UDV6eUl2VEliX0ZKeTVkR1RnRmVJVGhiZW1ZWnY1cTg1NFYybHQtVlZLcmZaN3NMWFB2TDR5RzNQYTVOX0RQNkNFUWxQcTZDaDdHSGRXN0VvMnJvczM2X2FvN0lhdFVMXzlOWTExX1lZeWtfQ0w2UHhrZmRRejhqZERSUXRrTTE2N0ltblBSdEZxeDl6ek5ORmVpNzFFS285RlZORkFCNUY4S3RENVpyTE4wQUk?oc=5",
     "pub": "Thu, 25 Jun 2026 08:40:00 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Middle East crisis fuels surge in bunker-related claims - TradeWinds News",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQUFlnc3ZEWTNONjhpSTVyNFBWZDh6UThCd2RBZHAxQ19LTmNuZUVpdWNycUFKclRidE1icnVTZUZublUwQkV4ZzdvSnVhV2hSSTBtLWViNndtWFVBRm1lN1hycE85RVNGbXlKR1ZsNWFxbHB6X09JaElSbW12ck1ra01lSVZ1TmJrQ01PV1JYcmhxUVdJY1pFVzFKTTAta2RpU1BJc0NPcUY5OWcw?oc=5",
+    "pub": "Thu, 25 Jun 2026 08:32:07 GMT",
+    "src": "TradeWinds News",
     "trig": false,
     "geo": false
    },
@@ -1247,33 +1259,17 @@
     "src": "Zprávy Kurzy.cz",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Fed Isn't Cutting Interest Rates Anytime Soon -- and Kevin Warsh Is Putting the Blame Squarely on President Trump - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSzloemo0bUotOW9FeVpSNElqY3ZBelNNcE94SWVRZTBJN3VtUEdidjNVYkJHYnZiTmo0VXM1NWQyTDI4US00ZHVwNXJzZWdoVW9DYm1Rd202dzludlRobE82d3RiUy1MVDd3OGg1b1J3cHJTVDNwN0o0MWREbmxOemtjNTI3TUtLaXc1bC1rRGNlODNibTZJMg?oc=5",
-    "pub": "Thu, 25 Jun 2026 08:05:32 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil price falls to pre-Iran war levels as more tankers exit strait of Hormuz - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc3FrQ0VfQlNhUXUxbDNjbzUzZVFNNmZqbXY2OVlzaVpNWGRNOFRBU09mR3RMQ1ctX05ZWG51OXI0OWdUMkFad29PQlU0V1lNQ0t1Zjc0akt6TVY1YTFvcGQ2MkJSaThaal9xSlRSa1VIWGJadnBFbkNNX2dqSnFyMURWZU9TY2NuX3dQTDhGcTJ1Njk4V0lfeVp1WnpDVTVraWZRNEdaTnc1c2ZucnIyNGY0WUFOOWoxb0tJ?oc=5",
-    "pub": "Thu, 25 Jun 2026 08:05:00 GMT",
-    "src": "The Guardian",
-    "trig": false,
-    "geo": true
-   },
-   {
-    "title": "WTI extends decline to pre-Middle East war levels around $69 as oil flows accelerate - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOcmJYcVotaFNOMzNRTF9IWnA0MUF3VlpscWRyVmNFZEhTbEUyX255RFFWSjRzTTE5eHZkcGlzeVl2YXpOMjFidGIzWTNQd2tScV9wODVHQmlQeGVnQlBqNUFDcldaaHROUm9mazVKSERmTmc1cm9UWldyRlJGNmdtQ3p2T2JtNVV5SkVFdElBS0hsYnN2b05Rc2pOXzBhVGRfMFdNbzJXbW9PSTJkSnNfVE9rRWpNZkFtcnVsWmRFRXA2WW55?oc=5",
-    "pub": "Thu, 25 Jun 2026 05:45:17 GMT",
-    "src": "FXStreet",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Why ASX Gold Stocks Are Gaining Strength as Bullion Firms? - Kalkine Media",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNYjM4VTc4M2dsRTRvNWRsWFpoQzlTbDF4OXBFNjJmMHRfSkZianUxTVBXaEh0UVBfRTdMNUVza1J6SEo0ZlZKVHRQWnhaVFRLUjFwc2Zpb2MzMWduc0RTY1luTnJybmFDdUlrQ0p0VUZfZEJGLTRHZFFPaHNMNWYxQnp4dGIzbHJMT2w0REZjOW5DT1NqQWZ2ZnRvU0Jxb2NqRTB4MnZaSXByTXNJbUE?oc=5",
+    "pub": "Thu, 25 Jun 2026 10:09:00 GMT",
+    "src": "Kalkine Media",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Price to earnings forward of Copper One Resources Corp. – OTC:CEXYF - TradingView",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOOXBpeVRVSnRyMC1Sd2RWZXlCYURhMXhCNGstMUZfSXNkS0htRWhzaXdzOGhRb3Ewb1hWSGVhdFRDZlliZy1ubWkzVldnUzU0eG5JeEJnYWtaU1Y3T1R1YlR5YVFSOXdJUE1aWDY1RmN4U2hFd1V4dGVxMmx3RWNkeFc4MVBNenFuTHg3SGNJTUYzTnJoLWVXQks5QzB5X3c?oc=5",
@@ -1283,9 +1279,9 @@
     "geo": false
    },
    {
-    "title": "Price to book forward of Copper One Resources Corp. – OTC:CEXYF - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOb3A1eEhnaTZRTEMteW5Mb1ZUZVhULWx0dE5JdE5DdmFmR3pBeFJ2WlJNb2NnSDV6YXN5STNnY1dGcThXYTNOYklPTjdYTDRUM2dKdHZVdGlOU0JEWlhKcTdGTEI5by1YUXU2SDQ3VFJ2djBaZ1BIRXZON0lwUndzZkxzX0J5YVoxbUJUZkxjdlVRN1VxeHllYXp3?oc=5",
-    "pub": "Thu, 25 Jun 2026 08:38:25 GMT",
+    "title": "Price to book forward of Copper One Resources Corp. – FWB:IW8 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQX2pGOXhFWE5ReW1FZ3RrS1dUVWlrTzczd0tYT3BkVlMzeWZLbmpUUENSWE92bHUwVDRLYTdtd0tLelBTOHFVZDVMQ2hSYWt1cmpKQXdPMHlMdTdSMmd3VlVMZ1RpLThfMFZBVzlqRFJPZV9YNDRCdnh2N21ud1dRZ09Cci14WDN5Tm5ZcTRCYzZDUXZHLUZZ?oc=5",
+    "pub": "Thu, 25 Jun 2026 08:52:49 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxORVYtaENjcjV4cEM3TzdGOXZoVlRfRjNzZ183QUkwNDlheU5RN1k5WDVjZS05NXVGdkE1SkJVVEJicHVRSU4tbnV2VTljUnhDYlNVemV4ZGpmUnExQ1d5WER6Nm85RDZIRUhsUFU0bnFIYVRJeGNhMjIyZVZUdVlDR19EQWtSMFFrYU03V1BVMElaTW9RZHk4N1BITWF2aFFwTURMQ18wdjA2SWFodnRQdGJXMmdXbThnSzQyZjNqbTJyYzVUZmJHU1l6eHlVNC1sSm9WQ2liaFpEUDQ4cDV5Y9IB5gFBVV95cUxOdm9tVy1Ub0RWbGJTUzkteUxkVlZON1ZDM3ZjRDRzODJHemJQYzg0RzQtQ1l3ZnBEeTlhOG5SZzRJQmFXR0pldnRaNXJRR2x3Y0VNYThLa3NMOXNyTnlfTXhIR3drX1ZZRFlSeEFSY3dNeXRJVDNmdHNVLXdUeFlIVC1ZVUFWaXRMR1VYejd3UDQ1cnlQZlY1dUZLZjlIbXN1akMxRjNwYlVGS3A1RnBuS1NTMzNxVFk0SXVFX1B0bzBSX2pmRDc2Ym5vbU8zR0ZfajYtbXJtVnhpXzFORHlYZmhTU3RlQQ?oc=5",
     "pub": "Thu, 25 Jun 2026 07:58:00 GMT",
     "src": "News18",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Drops Below $4,000 After Sharp Selloff: Experts Urge Investors to Buy - International Business Times UK",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOX2RkYnJ3TFJjakRFN1ZVNDg5UTJhWnZSLTJ1Yk9TR2ZwZnVST1hjMWFudnFReVd1N09pb0Q2Vlo4bWx1cndfbDBGajd3TGxlakhzTHNzYU41d25ValExUEloVXRjbFVELU9kSnUtdlJiY0wzNW0yajMzSHJma0pOLUpqbjRMbDBxUTJGS2NRczU5OXh0RHVv?oc=5",
-    "pub": "Thu, 25 Jun 2026 07:36:41 GMT",
-    "src": "International Business Times UK",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    15.74,
    15.4,
    19.44,
-   17.99
+   17.89
   ],
   "tnx": [
    4.39,
@@ -1505,7 +1493,7 @@
    99.02,
    99.41,
    99.86,
-   101.58
+   101.59
   ],
   "bizd": [
    12.81,
@@ -1550,7 +1538,7 @@
    159.57,
    159.94,
    160.53,
-   161.81
+   161.83
   ],
   "uso": [
    113.39,
@@ -1610,7 +1598,7 @@
    73536.55,
    63801.57,
    63561.05,
-   61513.31
+   61475.73
   ],
   "vixts": [
    0.988,
@@ -1625,7 +1613,7 @@
    0.786,
    0.793,
    0.891,
-   0.919
+   0.914
   ],
   "hyoas": [
    2.74,
@@ -1684,7 +1672,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장 완화로 유가가 전쟁 이전 수준으로 하락하면서 인플레이션 압력이 경감되고 있으나, 4.40% 고금리와 40배 이상의 밸류에이션이 시장을 양극화하고 있다. AI 캐팩스 사이클은 마이크론·엔비디아 중심으로 수급 부족감이 지속되며 초호황 국면을 이어가는 중이다.",
+  "text": "중동 지정학 리스크 완화로 유가가 전쟁 이전 수준으로 하락하면서 인플레이션 압력이 약화되고 있으며, VIX 18과 안정적인 신용스프레드는 시장 심리의 완화를 반영하고 있다. AI 캐팩스 사이클은 메모리반도체 수급 개선과 마이크론 등 주요 기업들의 강세 속에 특별한 거품 우려 없이 수익성 기반의 성장이 지속되는 중이다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1694,7 +1682,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 2,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -2158,16 +2146,18 @@
   8
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 54,
-  "n": 35
+  "pct50": 56,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-06-25T10:21:43+00:00",
+  "checked": "2026-06-25T10:32:07+00:00",
   "openai": {
    "found": false
   },

@@ -91,7 +91,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.15.0</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.15.1</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -198,7 +198,7 @@
     <div>
       <div class="colhead ch-crit">1 · 신용·유동성 (최우선)</div>
       <div class="colsum coltoggle" id="sum-credit" data-wrap="wrap-credit">—</div>
-      <div class="colcrit">판정 = <b>확정(HY/NFCI)</b>은 <b>위험</b>까지 (HY OAS ≥5.5% 또는 NFCI 긴축), <b>같은 컬럼 선행(사모대출·옵션파생)</b>은 <b>주의</b>까지 · <span class="x">확정이 안정이어도 선행 약세면 섹터는 최소 주의 — 위험은 확정만</span></div>
+      <div class="colcrit">판정 = <b>확정(HY/NFCI)</b>은 <b>위험</b>까지 (HY OAS ≥5.5% 또는 NFCI 긴축), <b>같은 컬럼 선행(사모대출·옵션파생)</b>은 <b>위험 단계일 때만 주의</b>까지 · <span class="x">약세(주의)는 조기경보 전용 — 종합엔 미반영 · 종합 위험은 확정만</span></div>
       <div class="colcards" id="wrap-credit" style="display:none">
       <div class="card crit"><div class="top"><span class="nm">사모대출 신용</span><span class="stt s-n" id="credit-verdict">—</span></div>
         <div class="desc">BDC + 레버리지론·CLO 프록시 · 5일약화=선행신호</div>
@@ -1015,7 +1015,7 @@ function colSummaries(ctx){
     const confirmed=(sFred==='r'||sFred==='a');
     if(lvl==='r') t='신용·유동성 위험 — 확정 신용지표(HY/NFCI) 경색.';
     else if(lvl==='a'&&confirmed) t='확정 신용 일부 약화 조짐. 추세 주시.';
-    else if(lvl==='a') t='선행 신호 약세 — 확정(HY/NFCI) 전이지만 주의.';
+    else if(lvl==='a') t='선행 급약세 — 확정(HY/NFCI) 전이지만 주의.';
     else t='확정 신용·유동성 안정(HY/NFCI 정상).';
     const led=[];
     if(sCredit==='r')led.push('사모대출 약세');else if(sCredit==='a')led.push('사모대출 일부 약세');
@@ -1227,13 +1227,14 @@ function setSig(id,lvl,word){
 function renderSignals(ctx){
   const {sCredit,sDeriv,sFred,vAi,vSys}=ctx;
   const W={r:'위험',a:'주의',g:'안정',n:'-'};
-  // 1열 "신용·유동성" 판정: 확정(HY/NFCI)은 위험까지, 같은 컬럼의 선행(사모대출·옵션파생)은 주의까지.
+  // 1열 "신용·유동성" 판정: 확정(HY/NFCI)은 위험까지, 같은 컬럼 선행(사모대출·옵션파생)은 위험 단계일 때만 주의까지(약세는 조기경보 전용).
   // 확정이 안정이어도 선행이 약세면 섹터가 안정으로 오판되지 않게 최소 주의로 올림.
   let credit1='g';
   if(sFred==='r') credit1='r';        // 확정 신용경색(HY≥5.5% or NFCI 긴축) → 위험
   else if(sFred==='a') credit1='a';   // HY/NFCI 경계권 → 주의
-  // 선행 신호: 확정 전이라도 최소 '주의'. 위험은 확정만 — 선행이 단계를 과하게 올리지 않게 캡.
-  if(credit1==='g' && (sCredit==='a'||sCredit==='r'||sDeriv==='a'||sDeriv==='r')) credit1='a';
+  // 선행 신호: 약세(주의)는 조기경보 전용. 급약세(위험)일 때만 종합 신용에 '주의' 반영.
+  // (확정 전 캡: 선행은 위험까지 못 올림 — 위험은 HY/NFCI 확정만)
+  if(credit1==='g' && (sCredit==='r'||sDeriv==='r')) credit1='a';
   setSig('sig-credit',credit1,W[credit1]);
   setSig('sig-ai',vAi||'n',W[vAi||'n']);
   setSig('sig-macro',vSys||'n',W[vSys||'n']);

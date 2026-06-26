@@ -86,11 +86,12 @@ def fetch_quote(sym):
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         is_fut = sym in FUT_SET
         # 등락률 기준선:
-        # - 장외(애프터/프리) 가격이면 → 오늘 정규장 종가(closes[-1]) 대비 (장외 변동만)
-        # - 정규장/선물이면 → 전 거래일 종가(closes[-2]) 대비
+        # - 장외(애프터/프리) 또는 선물(24h) → 직전 완료 일봉 종가(closes[-1]) = 전 정산가 대비
+        #   선물은 '오늘 정규 종가'가 따로 없어 closes[-1]이 곧 직전 정산가 — closes[-2]는 이틀 전이라 야간 등락률이 축소돼 나옴(버그)
+        # - 정규장 주식/지수 → 전 거래일 종가(closes[-2]) 대비
         # 주의: meta.chartPreviousClose는 '6개월 차트 시작 직전'이라 어제 종가 아님 → 사용 금지
         extended = (post is not None) or (pre is not None)
-        if extended and len(closes)>=1:
+        if (extended or is_fut) and len(closes)>=1:
             prev = closes[-1]
         elif len(closes)>1:
             prev = closes[-2]
@@ -141,7 +142,11 @@ NEWS_QUERIES={
  "fundamental":['hyperscaler capex guidance','Microsoft OR Amazon OR Meta OR Oracle capex AI',
    'AI capex cut OR slowdown OR depreciation',
    'H100 OR H200 OR GPU rental price','HBM memory shortage OR oversupply',
-   'Nvidia GPU lead time OR allocation','TSMC CoWoS capacity OR utilization'],
+   'Nvidia GPU lead time OR allocation','TSMC CoWoS capacity OR utilization',
+   '"OpenAI" (revenue OR funding OR IPO OR lawsuit OR valuation OR compute OR shortfall)',
+   '"Anthropic" (Claude OR revenue OR funding OR valuation OR IPO)',
+   'SpaceX (Starship OR funding OR valuation OR IPO OR launch)',
+   'xAI (Grok OR Musk OR funding OR valuation)'],
  "macro":['Fed rate decision OR FOMC','recession risk yield curve',
    'VIX market volatility selloff','credit spreads widening',
    'geopolitical risk markets','Middle East war oil OR conflict markets',
@@ -149,7 +154,7 @@ NEWS_QUERIES={
  "flow":['dollar index DXY move','oil price WTI OR crude',
    'copper price OR commodities','Japan yen carry trade','gold price safe haven'],
 }
-TRIGGER=re.compile(r"\b(gate|redemption|default|downgrade|markdown|non-accrual|cut|miss|slowdown|write-?down|distress|halt)\b",re.I)
+TRIGGER=re.compile(r"\b(gate|redemption|defaults?|downgrade[ds]?|markdowns?|non-accrual|cuts?|miss(es|ed)?|slowdowns?|write-?downs?|distress|halt|shortfalls?|lawsuits?|probes?|layoffs?|burn(ed|s)?|plunge[ds]?|warn(s|ed|ing)?|sued?)\b",re.I)
 # 지정학·돌발 거시 중대 트리거 (강한 조합 — 오탐 최소화)
 GEO_TRIGGER=re.compile(r"\b(invasion|invades?|airstrike|missile strike|nuclear|martial law|coup|oil embargo|strait of hormuz|declares? war|state of emergency|attack on)\b",re.I)
 def clean(t): return html.unescape(re.sub("<[^>]+>"," ",t)).strip()

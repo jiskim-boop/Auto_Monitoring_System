@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T11:22:05+00:00",
+ "updated": "2026-06-26T11:32:31+00:00",
  "prices": {
   "NVDA": {
    "price": 195.74,
@@ -642,20 +642,8 @@
    "ok": true
   },
   "OBDC": {
-   "price": 10.68,
-   "chg": -0.37,
-   "chg5": -1.29,
-   "sma20": 11.04,
-   "sma50": 11.25,
-   "sma200": 11.51,
-   "high3m": 11.91,
-   "reg": 10.68,
-   "pre": null,
-   "post": null,
-   "regClose": 10.68,
-   "sess": "reg",
-   "mt": 1782417603,
-   "ok": true
+   "ok": false,
+   "err": "The read operation timed out"
   },
   "HYG": {
    "price": 79.88,
@@ -722,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 20.13,
-   "chg": 6.56,
-   "chg5": 22.74,
-   "sma20": 18.01,
+   "price": 20.04,
+   "chg": 6.09,
+   "chg5": 22.2,
+   "sma20": 18.0,
    "sma50": 17.82,
    "sma200": 19.28,
    "high3m": 30.61,
-   "reg": 20.13,
+   "reg": 20.04,
    "pre": null,
    "post": null,
-   "regClose": 20.13,
+   "regClose": 20.04,
    "sess": "reg",
-   "mt": 1782471976,
+   "mt": 1782472606,
    "ok": true
   },
   "^VIX3M": {
@@ -803,7 +791,7 @@
   },
   "DX-Y.NYB": {
    "price": 101.2,
-   "chg": -0.23,
+   "chg": -0.22,
    "chg5": 0.35,
    "sma20": 100.13,
    "sma50": 99.22,
@@ -814,7 +802,7 @@
    "post": null,
    "regClose": 101.2,
    "sess": "reg",
-   "mt": 1782472294,
+   "mt": 1782472922,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59324.22,
-   "chg": -0.67,
-   "chg5": -6.19,
-   "sma20": 63177.17,
-   "sma50": 70217.25,
-   "sma200": 74819.11,
+   "price": 59346.29,
+   "chg": -0.63,
+   "chg5": -6.15,
+   "sma20": 63178.27,
+   "sma50": 70217.69,
+   "sma200": 74819.24,
    "high3m": 82138.93,
-   "reg": 59324.22,
+   "reg": 59346.29,
    "pre": null,
    "post": null,
-   "regClose": 59324.22,
+   "regClose": 59346.29,
    "sess": "reg",
-   "mt": 1782472895,
+   "mt": 1782473526,
    "ok": true
   },
   "USO": {
@@ -978,131 +966,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.61,
+   "price": 161.62,
    "chg": -0.09,
-   "chg5": 0.2,
-   "sma20": 160.54,
+   "chg5": 0.21,
+   "sma20": 160.55,
    "sma50": 159.34,
    "sma200": 158.02,
    "high3m": 161.76,
-   "reg": 161.61,
+   "reg": 161.62,
    "pre": null,
    "post": null,
-   "regClose": 161.61,
+   "regClose": 161.62,
    "sess": "reg",
-   "mt": 1782472903,
+   "mt": 1782473530,
    "ok": true
   },
   "ES=F": {
-   "price": 7392.0,
-   "chg": -0.42,
-   "chg5": -1.55,
-   "sma20": 7477.96,
-   "sma50": 7389.05,
-   "sma200": 7062.29,
+   "price": 7384.5,
+   "chg": -0.52,
+   "chg5": -1.65,
+   "sma20": 7477.58,
+   "sma50": 7388.9,
+   "sma200": 7062.23,
    "high3m": 7623.75,
-   "reg": 7392.0,
+   "reg": 7384.5,
    "pre": null,
    "post": null,
-   "regClose": 7392.0,
+   "regClose": 7384.5,
    "sess": "24h",
-   "mt": 1782472304,
+   "mt": 1782472929,
    "ok": true
   },
   "NQ=F": {
-   "price": 29409.0,
-   "chg": -1.06,
-   "chg5": -2.82,
-   "sma20": 29877.87,
-   "sma50": 28991.05,
-   "sma200": 26660.4,
+   "price": 29358.25,
+   "chg": -1.23,
+   "chg5": -2.99,
+   "sma20": 29875.33,
+   "sma50": 28990.04,
+   "sma200": 26660.0,
    "high3m": 30712.75,
-   "reg": 29409.0,
+   "reg": 29358.25,
    "pre": null,
    "post": null,
-   "regClose": 29409.0,
+   "regClose": 29358.25,
    "sess": "24h",
-   "mt": 1782472304,
+   "mt": 1782472931,
    "ok": true
   },
   "YM=F": {
-   "price": 52299.0,
-   "chg": -0.08,
-   "chg5": 0.65,
-   "sma20": 51463.15,
-   "sma50": 50437.08,
-   "sma200": 49253.37,
+   "price": 52253.0,
+   "chg": -0.16,
+   "chg5": 0.56,
+   "sma20": 51460.85,
+   "sma50": 50436.16,
+   "sma200": 49253.0,
    "high3m": 52339.0,
-   "reg": 52299.0,
+   "reg": 52253.0,
    "pre": null,
    "post": null,
-   "regClose": 52299.0,
+   "regClose": 52253.0,
    "sess": "24h",
-   "mt": 1782472304,
+   "mt": 1782472929,
    "ok": true
   },
   "GC=F": {
-   "price": 4067.4,
-   "chg": 0.92,
-   "chg5": -3.71,
-   "sma20": 4271.29,
-   "sma50": 4487.87,
-   "sma200": 4688.25,
+   "price": 4066.9,
+   "chg": 0.9,
+   "chg5": -3.72,
+   "sma20": 4271.26,
+   "sma50": 4487.86,
+   "sma200": 4688.24,
    "high3m": 4857.6,
-   "reg": 4067.4,
+   "reg": 4066.9,
    "pre": null,
    "post": null,
-   "regClose": 4067.4,
+   "regClose": 4066.9,
    "sess": "24h",
-   "mt": 1782472300,
+   "mt": 1782472925,
    "ok": true
   },
   "CL=F": {
-   "price": 69.63,
-   "chg": -3.18,
-   "chg5": -9.1,
+   "price": 69.72,
+   "chg": -3.06,
+   "chg5": -8.98,
    "sma20": 83.26,
    "sma50": 92.0,
-   "sma200": 82.16,
+   "sma200": 82.17,
    "high3m": 112.95,
-   "reg": 69.63,
+   "reg": 69.72,
    "pre": null,
    "post": null,
-   "regClose": 69.63,
+   "regClose": 69.72,
    "sess": "24h",
-   "mt": 1782472307,
+   "mt": 1782472930,
    "ok": true
   },
   "HG=F": {
-   "price": 6.19,
-   "chg": 1.94,
-   "chg5": -2.92,
+   "price": 6.17,
+   "chg": 1.71,
+   "chg5": -3.14,
    "sma20": 6.34,
    "sma50": 6.24,
    "sma200": 5.97,
    "high3m": 6.65,
-   "reg": 6.19,
+   "reg": 6.17,
    "pre": null,
    "post": null,
-   "regClose": 6.19,
+   "regClose": 6.17,
    "sess": "24h",
-   "mt": 1782472305,
+   "mt": 1782472926,
    "ok": true
   },
   "ZN=F": {
-   "price": 110.23,
-   "chg": 0.13,
-   "chg5": 0.28,
-   "sma20": 109.77,
+   "price": 110.27,
+   "chg": 0.16,
+   "chg5": 0.31,
+   "sma20": 109.78,
    "sma50": 110.12,
    "sma200": 111.25,
    "high3m": 111.72,
-   "reg": 110.23,
+   "reg": 110.27,
    "pre": null,
    "post": null,
-   "regClose": 110.23,
+   "regClose": 110.27,
    "sess": "24h",
-   "mt": 1782472304,
+   "mt": 1782472929,
    "ok": true
   },
   "EWY": {
@@ -1133,11 +1121,11 @@
     "geo": false
    },
    {
-    "title": "Apollo Stock And Other Private Credit Names Facing Redemption Pressure - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZ0ZaU3c5dmE5aExMeUVkenhFOERuNlZaOG16QUZ1RVdsRmVlaWl6b2NpY3N1UlpvTHFTTkJlYWY2bkc4WmNaNzdVV0JmUjg1ZkhyTVNxeFROcVA2U0tUVVE4blhRZ1dFRVgzMHNhNmhyRm1HeUlHWG5EaHFHb3dOWmZfRWlOZDlnd052ZlhZeE5KMDg2QjY4R1BWdFluMGRYM2V3aU4tbk9qLWl2MVREeXJ2NktIX0JnQWZrZU11dEpKejlnT0NnTVdLYWZ6Z9IB0wFBVV95cUxOeEZDaUZTUzJOb2J3N1l5cFFzd2NNcEtnVFhVbjdQSi1ERDRIYkc4eUpVSllrV19LT1lZZE1yUUxTWU5zSmtVRURJMFFJUTVRbmVfelEtZnNWU1BiM2FWTlJBQkYxaEpxUjlNOGhjNzY4MFQyQzcteWVlbEhoam1ETW9XQ1ZyWTVxbEl4a0hRNFczeXg4aGNmY29uQVk3UWNJUWp5QUVuSGtUYUNyVEpxMld4dHZFWkl5MVlnWG1uUFVIUG96YnZCcENraEtQOG9mOW04?oc=5",
-    "pub": "Fri, 26 Jun 2026 06:32:09 GMT",
-    "src": "simplywall.st",
-    "trig": true,
+    "title": "Marawi City siege death toll reaches 175 - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQeTVFSlhwZENaLWlWQWhsWE5MR1p4TmhyYVBaNkhyalBqRU1qVUVBZkZkVGVSblZVbC1xQk1NRnRUVWthWVdiS2ZDWk9qSFZTMXdoZjl5YnQ0YW1pZ3JtRG9hakJqT2ZteVljRXIzdzRHS1NmV0R5MlZ1Z3VaWkhUUXVQS28?oc=5",
+    "pub": "Fri, 26 Jun 2026 02:02:57 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
     "geo": false
    },
    {
@@ -1145,14 +1133,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPdHVUakJfaVFVTjJyTlFQTGsybDlMR0xySFVOdE45X3FTRGJTckh2dVpBdmR5b2p0QjFoSDBXdjRhUFlSOHlVSWROYW9iSHI1TWdIWlVrSUVIVG1LSzRLWTNDaDlfSHFVZmhrV2JOenktdGhhYk1JU0x2Q09KeHdmREIxMlcteEFTMWxjMHRpX05ndEZZbUE?oc=5",
     "pub": "Fri, 26 Jun 2026 01:57:51 GMT",
     "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Great Elm Capital outlines $0.25 dividend while prioritizing NAV protection and balance sheet deleveraging - MSN",
-    "link": "https://news.google.com/rss/articles/CBMiqgNBVV95cUxPVmFmbzgzQm5NTy1LSlI1U3FlM0tSTnhibnl3NjF4Z1VpT085VFI4TDJkb0VWNGowRUVFcnI3Q3I2ZkU2YWlkN0NVa190bWF6VGl5dll3RTFwR3VJcnlwM0JPbUhyWXJpNWt4RFpsa1A0ajQ5dlJHdTdJT3dYVktrMFJUSlhncmFmRWZBTkloeExnY3p1VGd3VWUtVG15eWl6RzlxWk1hY3ZhOUZwYW1zcDZPU0tab0RCVnZxZlhxc2RVczBKcTBjWHBxTXFka3lha3o3ZXNtOTNnWGdRNEI0ZVlJWnVYZ2tyeEE0b0tXOU5EcEVGMUN0VVpIbUVlV3p0NGFXdVc5VjhmdXVQd1lOU0xrb3czTW92cGF1Tnl3WTRNZ3g5dEQxajJONUhyTi1jY2Exc19UNktYVXZTZ3pXMHBkZk44UnpFZmhUTDZ2UWh3Qi04NHczRjdTdkRsN1BJZWEtcnpNREdvbmlPYnhyTTJ1LUhYQW5jQkVHT0ZEcndwdUFVbUdZdWh2VFlnUzhfUlRiXzdxR2QtT3A0UjNEREVla1BmRkRkdEE?oc=5",
-    "pub": "Fri, 26 Jun 2026 01:24:54 GMT",
-    "src": "MSN",
     "trig": false,
     "geo": false
    },
@@ -1171,9 +1151,49 @@
     "src": "Kavout | AI",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Apple raises prices for MacBooks and iPads, as costs soar over AI - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPYlRjZlAzcWJ5LVRlbnhjbW1QMkUwZkxwU3Q3WlI3Mms1MjVmS1gxSlcweGk3OGg3UzB0dTl0ME0tOTY2dG5EbVVRVkdlQ3UwdGxsd0g5LVRqckY1aHMyRVZ1bzRMbWp0SnhqbjRBVWYyT0VaSWd2YWZVWE1iX05INF9nZVRLV0pPYWlWbW1TQUZTbzRnNkVyRG51OFZBdlJKaTZMNlpGSFY2Nkx1dHVtX05ndlJzdUY3Qmcw?oc=5",
+    "pub": "Fri, 26 Jun 2026 00:39:58 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SoftBank stock plunges as report says OpenAI is pushing back its IPO - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGbWp2RGxSZ2V6dkNQVXpka1Bham5lVGFlMlM1WngtYnhJWjZSUDNwMFBmTXBuWEE4eTdRTXlXVEdhNDZMZ3NidkRPSFYxQS1TWmJrWi1YeGI0UXktSU1kZEdXU1VQR3liYVE?oc=5",
+    "pub": "Fri, 26 Jun 2026 11:27:34 GMT",
+    "src": "qz.com",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Report: Grok’s Drop in Popularity Coincided with xAI’s Pivot to Adult Content - incrypted",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE16X1NCanhoS1pIQ01fTnJxZ1NyYWYyZFQ3cEtFZE1zdjVncm43Ml9vZXBQcnFOVVNzNWR5SmZ0emxlc3dycHYyUXg2dlg0RHU1SjdaVDFLN2ZsVEVpbG9zNEI3UXpZeE0w?oc=5",
+    "pub": "Fri, 26 Jun 2026 11:21:51 GMT",
+    "src": "incrypted",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "China Tops the Supercomputer List Without Using Any GPUs - Business Model Analyst",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE84QnJNWUxxUHNha2JFWTNKYjVMUjR6d3RPVThPckVpalYwaFRRWUdPZzFPeENPU09RRkh2X2s0LTVnNW9BT1htN2RrQi0wVEkycE9mMGw4R1JUcnNvY0ZWZDRublVUNVBSX1pMNA?oc=5",
+    "pub": "Fri, 26 Jun 2026 11:16:31 GMT",
+    "src": "Business Model Analyst",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SoftBank Plunges on OpenAI IPO Delay - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNdklzOENQWmtBMkJGYno0ZEstWDlTVzZFaGJ6WThyZWg0UVNvcS02Q0VJMWxzM25UazFBbm9SZm5uVXNPaVQwajNnSzNtMUlVUmR0VnNpcDVwUjZ6VjRkZmFGR2d6RzhaTkdudndWenFxNi1LQXFwZ2F5MXh0QTUybURVT2VoS3ctVGtSQjFWMFM4eDVVdlVlN0h3eVc?oc=5",
+    "pub": "Fri, 26 Jun 2026 11:14:58 GMT",
+    "src": "TradingView",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Stock market today: S&P 500, Nasdaq futures slide as OpenAI IPO delay report rattles techs - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOZFhaRlhoeVVLSFhOQWgzS1gzekJ1c19TcHFsaldCQ21VeVpnazJDYURfOTJfYXZFNGVuak9yeDhRRWhJR3haNkNGVDVjZ1BJTjQ0dWlwT2k4dGFaNFk5NXRCbjBCcnZIZ1I2Smd1UURxZWZ1UXVuOGNVVGRsYU9PTFpkWGVkVjJBRTlxdE94a0hrUi1xQ2ZGWDI5emNnYzNTR041ajR0NHF2dWJIN2JPOWhFZkJKclZ1SGk3S213ME5PZWNXd05ZaW0yV2M1YmNmdFJEZ0ZvTjA?oc=5",
@@ -1187,38 +1207,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPN3Z3MXdYQkVTTE5Ja1hGdXV6QTRCa1h3MmFYM0MydldTS3hROGFoc3lxcVBMRWFydHduRDdVMnFwMGIxNTBRTGFNVENyb1piWlZpWDY5UEdtRUh5d2gwcXZ2SXRtSk16cVpKakM5MEtiaFJidWdIQVV2WEp3WDZESEZR?oc=5",
     "pub": "Fri, 26 Jun 2026 10:35:07 GMT",
     "src": "Yahoo! Finance Canada",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia Doles Out $6 Billion and Prepares Vera Rubin, Yet the Stock Sits 16% Below Its Peak - Ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPa3prLUdPYjY5SURXbmc5Um5Ma19lRnZMV2V4VUJHWms0RzJYSWp4QXppQzd2UGhPM2c5LUkzMGFqN1pQbnNkWFB5LUc4dlpXR1ZpeDJLYXVlOEVMSGN0VVF2cEFmNkdPVVQ4RnlsYkJpb1VTXzQ1Umdtc1NMRTV0blZtd1A2YVRVY212WmtlbkZLRTlFdFVHdnE1NlJaNmlTNkdKRUJiaWxxUEdUQmZLWF9kOHhDakNBQ295WGdQcTliT2MwUVBEczQyZw?oc=5",
-    "pub": "Fri, 26 Jun 2026 10:12:12 GMT",
-    "src": "Ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI IPO Fears Drag Down Oracle and Other Tech Stocks - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUUtSd19xQ2ZudEYxOFQxRk5INnd3U1BjaUtuVzR4cFpFS1BZakktcUVieGh3OWY4VmsxaUppbTZvM0xaNi0xUVo5amJ0TGtSWThYUi10cWVXSkd5YmRlRC1iUU9jOTJjSkJfRGFhcW5qTndXNHRES1NDT1dzYmp3eA?oc=5",
-    "pub": "Fri, 26 Jun 2026 09:31:00 GMT",
-    "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why a reported delay for OpenAI’s listing complicates further the picture for tech stocks - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWm9iRnFfdlI3UU5McTkxTkh2cC11RkYzZmJ4Y3FtUUhCU1JUZ2ZPa3d0amFjbnRDSDhFbWlpU3JZcW80Y2VaSHhxdDdLMDc0b21Vam5nMjEyVVFleG92THoxWTJKRlVERkh1eDB3bWN0YVdURk9DY3JHX3Flc2UyNXVmUlZPVW42NUp0ekpqZUZlZDVqZFY3N05aS05ZQzV2aFNEb19aSnVBelY5alZpVzBn?oc=5",
-    "pub": "Fri, 26 Jun 2026 09:31:00 GMT",
-    "src": "MarketWatch",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon Stock vs Microsoft Stock: Whose Cloud Is Winning the AI Race in 2026? - WEEX",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQdVdFcXFPclBoZFREbGNtc2tlUnlYYndIU0daN05yNnQ4OG9QQXBiYVlVY2U5LTYxdU1QMkN0MkJwZ0R6V1ptdGFnYml0ZkhiSjV6emdwbWpjQ1pZdWhUcVhMZ1hXNEZ4ekFZUlMtanJ4WlVwOWVLVVNNWXh3SGJlbW90WmNxc2c5Zk1GYzNhWnZ5RGNXRko2Q3JIQ3JPR25nYVZkY1h0RG1JWEs4a2ZnZk5GenFvOTYxUmhlNWQxdm9LWThwbnViWlBqT01oZw?oc=5",
-    "pub": "Fri, 26 Jun 2026 08:59:30 GMT",
-    "src": "WEEX",
     "trig": false,
     "geo": false
    }
@@ -1249,20 +1237,20 @@
     "geo": false
    },
    {
-    "title": "Nifty likely to consolidate as global tech sell-off, monsoon fears weigh - MSN",
-    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQNTRVVFBuaWpLQjVMRzhxeDQzS2xXN0dnakdRTlh2eFR1V2J1ZFdMSlNDc2RJTC1vWVFvbXJfeHRUSVBqbDdiVWpYUTBZbzduRGd3RExjMjZxTzZCSjZnN0YwZTV3TzdXNkFFTWswd2RTb0JjenVCUkU3dUF4X1djU3FxRWVucEhxWUNmUnVkQUhoY1R2eWJFdkhPSmlLTnFIRGROdG9kZENTUXhPb2FRckxsSkxVQU1UT1NrTTJiWDFINGtseS1ubm1QYVVtb0tEZWc3bTZ6dVJRT3ZLcHRGOUx5Q0lMdkpLbXY5LTZTN3JFS1BpLXpBUjhLLU9rcmF1aDhR?oc=5",
-    "pub": "Fri, 26 Jun 2026 07:22:25 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Global Markets Rattled as Hormuz Drone Strike Halts UN Evacuations Amid Tech Sector Sell-Off - streamlinefeed.co.ke",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQZzV3bTlCM2NSVUc1VXpvVzg2M2V5MU1sMFNlU0dRNnBmYTNQeWcwQUowMGwxUXZHNlJvYk1XU0EwMjVtMkFuaWZ4ZzNrNkZaYjEtRnlkQ1FDWWY1MlNzOWpxQnJrbnJSbUxmTEdpdTdLcXVBTUdSamZmbnJZNEE3TGZJRXFUSkJyQXFVdElTTk5qcFJIQVFhVlMzMUlibUFjOVRTMG5zb2JLbElRNTZ6aA?oc=5",
     "pub": "Fri, 26 Jun 2026 07:00:00 GMT",
     "src": "streamlinefeed.co.ke",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Global Energy Markets Alarmingly Complacent Over Strait of Hormuz Supply Crisis, Warns Morgan Stanley - streamlinefeed.co.ke",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNMTB2WVA2bzRTTUc0MG54bXZXUFBOMWZRdzMtVy05S19BRTM3dGVVQy1zNzBoZ1FFLVpIUFd0czNqMmozbU1Xb0pIaGJvUWozdndGMVZMQWo1R0xDZTF2Q25iX0Jfel8xVWtqUmcxalIwZTBVYlFSSUJybGc4cHB2enFmR3oxdmNyRUFNTzA2ZFpram1Nd3NOclk0emt1UzZ4QnFZTjg3ZFpwcVhjbUY2Q3BXTVd0MG02Wm1VZ1pXLUc4Rl9DaWdXNVRjLTAzeGs?oc=5",
+    "pub": "Fri, 26 Jun 2026 06:54:37 GMT",
+    "src": "streamlinefeed.co.ke",
+    "trig": true,
+    "geo": true
    },
    {
     "title": "BNP Paribas sees tech optimism outweighing geopolitical market concerns - investordaily.com.au",
@@ -1274,6 +1262,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Barrick Mining (NYSE:B) Stock Is Back In Focus After An Earnings Beat - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbDI2Z3I5Sk5McGZZaG5ta0pSTjIyVEtYZWZzdHA5cWw5RHhLZnB3c29uRHh1ZG5jdXVmX0M3YWpxTTE5Y1RQMmJNZGctUFFCeXpnU3lLOEtzQW9ZTjluMThfUG1URTlzLWcybEtFWC1MNFl3cUVERWVTbTJMVlBjX0x4eVZoaURHSEl0aFo4YTNkV3NWVHZEOXZIZm5CaDRNYU83eUEwa21SSGtRdVdvb0Y5SjRfbFFuWW5GWnBVNmJFN0ROeXpQVNIBzgFBVV95cUxOUmxJZ3g5ZEhFalRtZnk5aDdKc2hlM3hWNzNvX1QtczVGMkZ2U3BsZUQzSDA3UGhHS0duT0RwM0x3aEVDUFBCT2pndi1sNDRuT0c0YktKX3dubzRrelZ5dzN5UGpIVmxsbi1ZT29veldSSUdqZUR0UDFUcjd6emk0RHZyWkt6ZEhoTjlCeUkzUGszQmx0RHZ0U0J1bjZFUk5nZUtGMFVQYmpwWm43NXozdWwydDVwRmZ3bDhLd1B2bmtYcVMzdzdiRFJxTmxnQQ?oc=5",
+    "pub": "Fri, 26 Jun 2026 11:23:28 GMT",
+    "src": "simplywall.st",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Stocks in Asia Tumble as A.I. Uncertainty Jolts Tech Shares - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05eXd6VnhrV0pYcVhTZWJ1NzJySng3SHNXZC1PcUNvemlkUlZkMjZxVEpCY3NIV2FRR3lNX3M0VFJZOUR0NE0zVVpWcTVVdUViVmJTQ1NLUF9oZlRNTEx4T3pqUFlobWF4MGkyRGJOT2ZCQktDWmc?oc=5",
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNMEs3emxKaGRrZl85emJFcFVPRWF1ZHpGV21DSXJyc0ZnMmVXOElIbnpRSjZhZjdINklueXFncF9ibnQ5MVE0MXBMeDZzVHg5RDRmbHVkeG0zcnRMQVdBa01FbTJRQlg4NTVsQmszRGg3ZC04a3lHTDNOVEdlejJkbENtUmRTU194bWg1WmRfd0Z6NEtOeEJEa04zYTBtelhIS1RubzNUSWpXOEgyT1FqeEg4aWs4WXc?oc=5",
     "pub": "Fri, 26 Jun 2026 09:01:31 GMT",
     "src": "Crux Investor",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SHFE/LME price ratio pulls back, market returns to sluggishness, morning spot copper demand weakens [SMM Yangshan spot copper] - Shanghai Metals Market",
-    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNaGNQc0sxOTlvMnVIXzhpR2QzYWdvMmdyOGdkTVpfNEFDajhSc0pkV09WODk3c0R3b2MtVV9BMzFyekJTRVltaEZ4TWxUTHhSMUIxUU5SZHQ2N3djT2p4TUFmbVpoYkIzMmduMnI2RkRvZF8waW5OSmcycEZwazhVb1lTdGNIZU81eVlEMkdUS0hselZHUkR2Y2tFeDJEeC1LbWpxZGVQNVdYdEQ2MUZDT1dNYjFXd1JvNi1SV1N3UFVza2FXZ1FmcUVNbGVXdkstMXU3SHZEZWVBcjByMTNqRmt0ZVlKTmszZTB2cHVrck9pTzdGaEZnN0tLWC0?oc=5",
-    "pub": "Fri, 26 Jun 2026 09:00:02 GMT",
-    "src": "Shanghai Metals Market",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    15.32,
    21.51,
    17.68,
-   20.11
+   20.04
   ],
   "tnx": [
    4.33,
@@ -1610,7 +1598,7 @@
    73372.52,
    60922.67,
    63543.2,
-   59324.06
+   59333.47
   ],
   "vixts": [
    1.01,
@@ -1625,7 +1613,7 @@
    0.765,
    1.107,
    0.81,
-   1.028
+   1.024
   ],
   "hyoas": [
    2.75,
@@ -1684,7 +1672,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 드론 공격이 지정학 리스크를 부각하는 가운데, 신용 스프레드 2.76%와 NFCI -0.52는 금융 유동성이 여전히 경색된 상태임을 시사한다. OpenAI IPO 연기 뉴스가 기술주 약세를 촉발했으며, 엔비디아 주가 부진과 CoreWeave 실적 부진이 AI capex 사이클의 수익화 우려를 반영하고 있다.",
+  "text": "호르무즈 해협 드론 공격으로 에너지 공급망 리스크가 부각되는 가운데, 저평가된 신용스프레드(2.76%)와 낮은 VIX(20)가 지정학적 위험을 과소평가하고 있습니다. OpenAI IPO 연기 보도로 AI 인프라 투자 심리가 위축되며 SoftBank 등 기술주가 하락했으나, GPU·HBM 수급 자체에는 특이 신호가 없습니다.",
   "by": "claude",
   "_fp": {
    "vix": 20,
@@ -1693,12 +1681,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
-   "geo": 0,
+   "trig": 0,
+   "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 0.5,
@@ -2167,8 +2154,10 @@
   8
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "OBDC"
+  ],
   "core_dead": []
  },
  "breadth": {
@@ -2176,7 +2165,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-26T11:21:59+00:00",
+  "checked": "2026-06-26T11:32:24+00:00",
   "openai": {
    "found": false
   },

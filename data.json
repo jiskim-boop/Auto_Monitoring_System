@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-26T23:41:54+00:00",
+ "updated": "2026-06-26T23:51:46+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59940.94,
-   "chg": 0.37,
-   "chg5": -5.21,
-   "sma20": 63208.01,
-   "sma50": 70229.58,
-   "sma200": 74822.49,
+   "price": 59970.01,
+   "chg": 0.42,
+   "chg5": -5.17,
+   "sma20": 63209.46,
+   "sma50": 70230.16,
+   "sma200": 74822.64,
    "high3m": 82138.93,
-   "reg": 59940.94,
+   "reg": 59970.01,
    "pre": null,
    "post": null,
-   "regClose": 59940.94,
+   "regClose": 59970.01,
    "sess": "reg",
-   "mt": 1782517285,
+   "mt": 1782517881,
    "ok": true
   },
   "USO": {
@@ -1183,14 +1183,6 @@
     "geo": false
    },
    {
-    "title": "Amazon (NASDAQ: AMZN) Emerges As A Top-Three Global Chip Business Hidden Inside Its AI Buildout - foreignpolicyjournal.com",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNU29UdEl6am92M2d1YkxWWGJtVWFYaV95ZUR5QnhwQkNJQTh6YkVnRV9PZ00zRFZUN1JHQ0lHN1BKX00yN0lLdEkxUkM4cGJGTUhLcGd3N0ZOTld5RjFHbERzVm5MT1BVWl80eTJrTklDallYRFFrLUxoY1hUTmxZWFFENUdXa2VNVlZ4RXNTNTdGV2R0Y182UEVtcHFKNVNOcGNocm9LNUdRamdpVHlrR0VyZHoyeWVjZThWWFRXY1A0RngxMFJaTHQ4QVJtYmZ3V1BSV2lwams?oc=5",
-    "pub": "Fri, 26 Jun 2026 22:20:00 GMT",
-    "src": "foreignpolicyjournal.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OpenAI files confidential IPO plans amid trillion-dollar race - MSN",
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQSlNHU3prY1lNd3FCYVpZc0VSSGhxX3VIUDVHSURQYmZxTmh3TGY4ZmowX1pBZ2NWTG1DSENuT3pRNVpUMnBFRkNKU0NrVk1hR0lxYkUwQ2REYmRaelo3NmpwUXdFNndTcFM4SjdVSWVOX09rZDZYOVllXzlsUGVGMURrTHBmT2JZR1gyQm9KYTJkVzdDdEpSNnJ4NE11Z0xJOW42RGRRcDRBT3dhdF8wNVBRZElWWmZ4WkVKQzlnT0plZXhEMkw1cDUyRmp2c1FxQlBYWHRpMnJSVk44akkzZTJpdTZ4T1RNTG8ybUlCU1F3TnpJRWc?oc=5",
     "pub": "Fri, 26 Jun 2026 22:02:21 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNTG0zb2lVM0JWQkxPSVlBY0dqV0U4TTdYeERyVjQ2NV9CTlA0VV9JVGdUQkdQT3paUWNIMmRSN0JnQXA0Z3kyWllZclJxUEVVN0FXMjBqb05FUkNfUFJCOV9qSm5oZkRfbkJLMkVyWWJZUnFIbV8xLUpmcFdjSzZhRnZMb0t2YnN5Zzg0Vm5talBYbGtpN1BTanNVOHVYckdkeGwwQ181MEJPUWhxaHc?oc=5",
     "pub": "Fri, 26 Jun 2026 21:30:31 GMT",
     "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why Reports of a Delayed OpenAI IPO Are Dragging Down ORCL Stock - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdU9mSTZ4UEZyeEN5aDE0RTVZT1JVWGI5cHVTQ0hqTS1TQmlQMjlUV05lSnI1OWVpcDBxNDRCemRxU0FnSkMxMk5TLVZkN19TY1NyYm9CaGpmSG1aRDBBZXBfR2JTWHlRSC1LX09iTGlHcThhbGN4ZXJDZjVHN3dGVGo2bVYydlhuQW5UblR6WmRxelZXM1FSWFozb3ZMLXF3NlBScUViLU9FejhZ?oc=5",
+    "pub": "Fri, 26 Jun 2026 20:44:43 GMT",
+    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73372.52,
    60922.67,
    63543.2,
-   59936.59
+   59970.0
   ],
   "vixts": [
    0.937,
@@ -1697,7 +1697,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2179,7 +2180,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-26T23:41:45+00:00",
+  "checked": "2026-06-26T23:51:42+00:00",
   "openai": {
    "found": false
   },

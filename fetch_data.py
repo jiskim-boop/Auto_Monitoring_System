@@ -719,14 +719,15 @@ def calc_early(prices, fred, charts):
     def gc5(sym):
         q=p.get(sym); return q.get("chg5") if q and q.get("ok") else None
     hits=[]; score=0.0; fast=slow=price_ax=False
-    strong=0
+    strong=0; lead_score=0.0   # 선행약세(축 없음) 별도 누적 — 캡 대상(JS와 동일)
     def add(lbl,w,ax):
-        nonlocal score,fast,slow,price_ax,strong
-        hits.append(lbl); score+=w
+        nonlocal score,fast,slow,price_ax,strong,lead_score
+        hits.append(lbl)
         if w>=1: strong+=1
-        if ax=="fast": fast=True
-        elif ax=="slow": slow=True
-        elif ax=="price": price_ax=True
+        if ax=="fast": fast=True; score+=w
+        elif ax=="slow": slow=True; score+=w
+        elif ax=="price": price_ax=True; score+=w
+        else: lead_score+=w   # 선행약세 → 별도 누적
     # 사모대출 (선행 신용, 클라 sCredit)
     sCredit=_credit_status(p)
     if sCredit=="r": add("사모대출 주가 급약세",1,"slow")
@@ -789,6 +790,7 @@ def calc_early(prices, fred, charts):
     regime_dd=min(_dds) if _dds else None
     regime_active = regime_dd is not None and regime_dd<=-4
     if regime_active: add("조정 지속(고점 %.1f%%)"%regime_dd,0.5,None)  # 점수 0.5 → 주의 기여, 축 미세팅이라 위험엔 X
+    score += min(lead_score,1.0)   # P1: 선행약세 합산 최대 1.0 (상관된 추세 신호 과대계상 방지, JS와 동일)
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
     guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2
     risk = axisCount>=3 and score>=3 and strong>=2        # 위험 = 폭+깊이+질(강한2)

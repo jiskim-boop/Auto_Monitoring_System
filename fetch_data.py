@@ -86,12 +86,15 @@ def fetch_quote(sym):
         sma=lambda n: round(sum(closes[-n:])/min(n,len(closes)),2) if closes else None
         is_fut = sym in FUT_SET
         # 등락률 기준선:
-        # - 장외(애프터/프리) 또는 선물(24h) → 직전 완료 일봉 종가(closes[-1]) = 전 정산가 대비
-        #   선물은 '오늘 정규 종가'가 따로 없어 closes[-1]이 곧 직전 정산가 — closes[-2]는 이틀 전이라 야간 등락률이 축소돼 나옴(버그)
-        # - 정규장 주식/지수 → 전 거래일 종가(closes[-2]) 대비
+        # - 선물(24h): 직전 정산가 대비. 단 야후 일봉이 '현재 진행봉'을 closes[-1]에 넣을 때가 있어(그땐 closes[-1]≈현재가)
+        #   → closes[-1]이 현재가와 사실상 같으면 진행봉으로 보고 closes[-2](직전 정산가)를, 다르면 closes[-1]을 기준.
+        # - 장외(애프터/프리): 오늘 정규 종가(closes[-1]) 대비 (장외 변동만)
+        # - 정규장 주식/지수: 전 거래일 종가(closes[-2]) 대비
         # 주의: meta.chartPreviousClose는 '6개월 차트 시작 직전'이라 어제 종가 아님 → 사용 금지
         extended = (post is not None) or (pre is not None)
-        if (extended or is_fut) and len(closes)>=1:
+        if is_fut and len(closes)>=2:
+            prev = closes[-2] if abs(price-closes[-1]) < abs(closes[-1])*0.0003 else closes[-1]
+        elif extended and len(closes)>=1:
             prev = closes[-1]
         elif len(closes)>1:
             prev = closes[-2]

@@ -772,6 +772,15 @@ def calc_early(prices, fred, charts):
     if v is not None and v3 and v/v3>=0.95 and not (v/v3>=1.02 and v>=20): early_hits.append("기간구조 임박")
     if _falling(ch.get("bizd")): early_hits.append("신용프록시 약화")
     if v is not None and v<20 and sk is not None and sk>=145: early_hits.append("숨은 헤지")
+    # 레짐 지속성: 지수가 3개월 고점 대비 -4%+ 낙폭이면 조정 진행 중 — 급성 스파이크 풀려도 유지 (JS와 동일)
+    def _dd(o):
+        if o and o.get("ok") and o.get("high3m") and o.get("price") is not None:
+            return (o["price"]/o["high3m"]-1)*100
+        return None
+    _dds=[x for x in (_dd(p.get("SPY")),_dd(p.get("QQQ"))) if x is not None]
+    regime_dd=min(_dds) if _dds else None
+    regime_active = regime_dd is not None and regime_dd<=-4
+    if regime_active: add("조정 지속(고점 %.1f%%)"%regime_dd,0.5,None)  # 점수 0.5 → 주의 기여, 축 미세팅이라 위험엔 X
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
     guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2
     risk = axisCount>=3 and score>=3 and strong>=2        # 위험 = 폭+깊이+질(강한2)
@@ -780,6 +789,7 @@ def calc_early(prices, fred, charts):
     elif score>=1: st="a"
     elif len(early_hits)>=2: st="a"
     else: st="g"
+    if regime_active and st=="g": st="a"   # 레짐 지속 floor: 조정 진행 중이면 최소 주의 (JS와 동일)
     return {"score":round(score,1),"axisCount":axisCount,"st":st,"hits":hits,"early":early_hits,"strong":strong,"risk":risk}
 
 def update_history(prev, ew):

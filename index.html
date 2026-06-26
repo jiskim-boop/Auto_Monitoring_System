@@ -91,7 +91,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.17.1</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.18.0</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -267,7 +267,7 @@
         <div class="risk"><b>주의:</b> 이 지표들은 <b>언제</b> 터질지 못 맞춤 — 높을수록 하락 시 충격이 클 뿐. 조기경보(타이밍)와 별개로 해석</div></div>
       <div class="card macro"><div class="top"><span class="nm">변동성 VIX</span><span class="stt s-n" id="st-vix">—</span></div>
         <div class="desc">공포 지수 + 기간구조(VIX/VIX3M) · 높을수록 위험</div><div class="verdict" id="lv-vix">—</div>
-        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~26 주의 · 26+ 위험 · 45+ 항복권 · <b style="color:#8a93a6">기간구조 역전(VIX≥VIX3M)이면 급성 → 한 단계 상향</b></div></div>
+        <div class="risk"><b>기준:</b> 20↓ 정상 · 20~26 주의 · 26+ 위험 · 45+ 항복권 · <b style="color:#8a93a6">기간구조 역전(VIX/VIX3M≥1.02)이면 급성 → 한 단계 상향</b></div></div>
       <div class="card macro"><div class="top"><span class="nm">MOVE 채권변동성</span><span class="stt s-n" id="st-move">—</span></div>
         <div class="desc">채권판 VIX · 금리 변동성 · 주식 스트레스에 선행하기도</div><div class="verdict" id="lv-move">—</div>
         <div class="risk"><b>기준:</b> 100↓ 정상 · 100~125 주의 · 125+ 위험</div></div>
@@ -338,7 +338,7 @@
 
     <div style="margin:10px 0 3px;color:#cdd5e3"><b>② 조기경보</b> <span style="color:#6f7888">— 종합과 <b style="color:#9aa3b3">같은 위험</b>을 더 이른 임계로 먼저 포착(더 민감). 강한 1.0 / 보조·선행약세 0.5 합산</span></div>
     위험 = 3축 + 점수 3.0+ + 강한 2개+ · 경계 = 점수 2.5+ &amp; (강한 1+ 또는 2축) 또는 강한 2개+ · 주의 = 점수 1.0+ 또는 조기징후 2개+<br>
-    <span style="color:#5aa0ff">옵션축</span> 기간구조역전(VIX/VIX3M≥1)·VIX +20%〔강 1.0〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조 0.5〕<br>
+    <span style="color:#5aa0ff">옵션축</span> 기간구조역전(VIX/VIX3M≥1.02)·VIX +20%〔강 1.0〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조 0.5〕<br>
     <span style="color:#ff8a5a">신용축</span> 사모대출 급약세·HY OAS≥5.5%〔강 1.0〕 / 사모대출 약세·NFCI&gt;0.5〔보조 0.5〕<br>
     <span style="color:#c89bff">가격축</span> 당일 −2%↓ 급락〔강 1.0〕 / HYG 5일 −2%↓·안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조 0.5〕<br>
     <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영</b>〕<br>
@@ -500,7 +500,8 @@ function vixAxis(p){const v=num(p['^VIX']),v3=num(p['^VIX3M']);if(v==null){badge
   let st=v>=26?'r':v>=20?'a':'g';
   let tnote='';
   if(v3!=null&&v3>0){const ratio=v/v3;
-    if(ratio>=1){st=st==='g'?'a':'r';tnote=' · 기간구조 역전('+ratio.toFixed(2)+') 급성';}
+    if(ratio>=1.02){st=st==='g'?'a':'r';tnote=' · 기간구조 역전('+ratio.toFixed(2)+') 급성';}
+    else if(ratio>=1){tnote=' · 기간구조 평탄/역전 임박('+ratio.toFixed(2)+')';}
     else if(ratio>=0.97){tnote=' · 기간구조 평탄('+ratio.toFixed(2)+')';}
     else{tnote=' · 기간구조 정상('+ratio.toFixed(2)+')';}}
   badge($('st-vix'),st);
@@ -1102,7 +1103,7 @@ function renderCharts(d){
   const cards=[
     {t:'HY 스프레드', s:ch.hyoas, warn:4.5, danger:5.5, fmt:v=>v.toFixed(2)+'%'},
     {t:'VIX', s:ch.vix, warn:20, danger:26, fmt:v=>v.toFixed(0)},
-    {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1, fmt:v=>v.toFixed(2)},
+    {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1.02, fmt:v=>v.toFixed(2)},
     {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
     {t:'MOVE (채권변동성)', s:ch.move, warn:100, danger:125, fmt:v=>v.toFixed(0)},
     {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, trendOnly:true, fmt:v=>v.toFixed(1)},

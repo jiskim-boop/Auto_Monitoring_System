@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T14:02:35+00:00",
+ "updated": "2026-06-27T14:10:10+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -99,16 +99,16 @@
   },
   "MU": {
    "price": 1132.33,
-   "chg": 7.99,
-   "chg5": 8.54,
-   "sma20": 1024.97,
-   "sma50": 788.62,
-   "sma200": 551.45,
+   "chg": -6.69,
+   "chg5": -0.15,
+   "sma20": 1035.41,
+   "sma50": 802.14,
+   "sma200": 556.14,
    "high3m": 1213.56,
    "reg": 1132.33,
    "pre": null,
    "post": null,
-   "regClose": 1213.56,
+   "regClose": 1132.33,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -131,16 +131,16 @@
   },
   "STX": {
    "price": 899.9,
-   "chg": -9.4,
-   "chg5": -15.59,
-   "sma20": 949.91,
-   "sma50": 802.79,
-   "sma200": 557.5,
+   "chg": -12.24,
+   "chg5": -15.92,
+   "sma20": 950.86,
+   "sma50": 810.4,
+   "sma200": 560.27,
    "high3m": 1094.04,
    "reg": 899.9,
    "pre": null,
    "post": null,
-   "regClose": 1025.36,
+   "regClose": 899.9,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -371,16 +371,16 @@
   },
   "PWR": {
    "price": 687.87,
-   "chg": -2.0,
-   "chg5": -3.77,
-   "sma20": 705.83,
-   "sma50": 701.83,
-   "sma200": 593.11,
+   "chg": -4.28,
+   "chg5": -2.05,
+   "sma20": 703.72,
+   "sma50": 703.75,
+   "sma200": 593.88,
    "high3m": 785.24,
    "reg": 687.87,
    "pre": null,
    "post": null,
-   "regClose": 718.59,
+   "regClose": 687.87,
    "sess": "reg",
    "mt": 1782504002,
    "ok": true
@@ -595,16 +595,16 @@
   },
   "SPCX": {
    "price": 153.23,
-   "chg": -0.85,
-   "chg5": -20.12,
-   "sma20": 173.32,
-   "sma50": 173.32,
-   "sma200": 173.32,
+   "chg": 0.15,
+   "chg5": -17.17,
+   "sma20": 171.31,
+   "sma50": 171.31,
+   "sma200": 171.31,
    "high3m": 211.39,
    "reg": 153.23,
    "pre": null,
    "post": null,
-   "regClose": 153.0,
+   "regClose": 153.23,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -659,16 +659,16 @@
   },
   "HYG": {
    "price": 79.83,
-   "chg": -0.03,
-   "chg5": 0.13,
-   "sma20": 79.85,
-   "sma50": 80.0,
-   "sma200": 80.23,
+   "chg": -0.06,
+   "chg5": -0.22,
+   "sma20": 79.83,
+   "sma50": 79.99,
+   "sma200": 80.22,
    "high3m": 80.65,
    "reg": 79.83,
    "pre": null,
    "post": null,
-   "regClose": 79.88,
+   "regClose": 79.83,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
@@ -771,16 +771,16 @@
   },
   "^SKEW": {
    "price": 139.4,
-   "chg": -4.06,
-   "chg5": -2.26,
-   "sma20": 143.14,
+   "chg": -0.35,
+   "chg5": -4.99,
+   "sma20": 143.13,
    "sma50": 140.92,
-   "sma200": 143.76,
+   "sma200": 143.72,
    "high3m": 156.93,
    "reg": 139.4,
    "pre": null,
    "post": null,
-   "regClose": 139.89,
+   "regClose": 139.4,
    "sess": "reg",
    "mt": 1782507645,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60435.18,
-   "chg": 0.7,
-   "chg5": -5.5,
-   "sma20": 63071.56,
-   "sma50": 69836.06,
-   "sma200": 74676.09,
+   "price": 60500.3,
+   "chg": 0.81,
+   "chg5": -5.4,
+   "sma20": 63074.82,
+   "sma50": 69837.36,
+   "sma200": 74676.44,
    "high3m": 82138.93,
-   "reg": 60435.18,
+   "reg": 60500.3,
    "pre": null,
    "post": null,
-   "regClose": 60435.18,
+   "regClose": 60500.3,
    "sess": "reg",
-   "mt": 1782568927,
+   "mt": 1782569387,
    "ok": true
   },
   "USO": {
@@ -1265,15 +1265,23 @@
     "geo": false
    },
    {
-    "title": "Brent erases Iran war premium as Hormuz flows show signs of recovery - MSN",
-    "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQWkNTOHdxZHVDYjBQeHI1S3k5Y3NNYmlHNHl4MXg3Z3lCZU9leXo5Vmw0b2dSSGVyS3hoRzhQamYta3BhajlzTlhIRC1nSmVZUFNGZFdkTzhVQkJlN1lqQl9INDVnZ0lsekF3eFVZZnR2WWxnOEZFWmpZN0dsRmhYTnBGT1hCcGRPSVl2N3h5cG5icGpOVFlaeGg4WGtDbFQ1Zm9IYkdEd1U5TG1mU2dic1hBUWZnZE1OM0FYV1dNUmFZaDFtZ0tINEtOY3ZybHY1UzF6VUxjdFVqZG90ZE81Z096cV9EWlJ1VFZNcGNpQkVPOGpneXQ1QXBDQkN6dktrUkw5US1NYXBVa3pJT25hX2RXMlFUXzc5MTVydklwTUt5dEFSUDVhTEYzZTFIQXFzUkVxcjZCdHNRa29qOU9SVFRpNEJjWkJDY3JBV0U5eFRiUUZCcFBuTFA2bUVmX0taY0hTR0VQQXdPQjRDTzZrMEFUN25CbUQ1NFY4dkJwYndfSlZua0RReGpCTGIxZ25VZGg1TXdn?oc=5",
-    "pub": "Sat, 27 Jun 2026 08:57:52 GMT",
-    "src": "MSN",
+    "title": "Ukraine Travel Risk Escalates as Unverified Russian Drone-Strike Claims Involving Train, Fuel and Military Logistics Assets Raise New Concerns for Rail-Based Access, Border Corridors, Insurance Validity and Essential Business Movement - Travel And Tour World",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12OVVqV2lLUFU3YlFWbTZuaVl0ZnNzVVVOUGV4ZDA5a2p6eUx3WGtNTlFSNHJyUGJvUk5DTkxtVzk3YWo1c0RuUXI3UmZVS3dWNHJObndCc3J2Q00wT0lMRmg3WlpVdHRhbGJudk1B?oc=5",
+    "pub": "Sat, 27 Jun 2026 07:57:38 GMT",
+    "src": "Travel And Tour World",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold prices close a stormy week, experts split into factions on new trends - Laodong.vn",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVU5DV1VuSXZ2ZGVMb0tuQXlSVnRlWDBRZmNtdzhjMnhqbHlXdHZjTkc5YTlaLWt3MHNka1BMT2VlRk1sbWxKVE1DNS1JSWFFVUUzVVZrOF94ZW8xbDJSU1NRakQtd2kyYXJTV2VWdUdkb3k0Rk1qUWZGZ20xVWtORjhwNFRMVi1iSjV1U1NDenpYV2k3YjFtZGI0Vzd5anBvSk14cmlYUmIyY3NiZmJ4NWdOVVFJS1NwNXc?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:22:39 GMT",
+    "src": "Laodong.vn",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Price to book forward of Los Andes Copper Ltd. – TSXV:LA - TradingView",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSHBmTzB1LTA2aFpNbHpKZE5pNjFMZDNrNFk2M2tKNzNQeEMwbkI5YXRQcEdORS1xcU5fRVpVSWwxUTVqN0NLeUwxLTVGcW9ZUW5VY2NQaEpJMVdtWC02TDBjNzItSmFtdXpMeV9OMFFIQXRKa2xTbjBkTEVUWnZ2SVhxRFBoNFhQTlVxWGZzQXdIbW82d3dN?oc=5",
@@ -1310,14 +1318,6 @@
     "title": "Price to sales forward of Southern Peru Copper Corp. – BVL:SPCCPI1 - TradingView",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHJrVENOYmdDWWNiWWNVVVVpSTJBSDNoUDc5ejZfQXFFakVjbUctOEVsU0p3TWI3WmxQaV81REtnblp0QkRJYVp2aW91OVhRbFozcG8xRnd0MWxUdHRBRkhsSTRsUmFKWndGMlJKUVBTUTdEb244cllwTm5mSDR3SEZNMXFsMHM2Z0RCZUpkODhQNUJFcDF4NHI3bm9IQQ?oc=5",
     "pub": "Sat, 27 Jun 2026 10:40:14 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to earnings forward of Southern Peru Copper Corp. – BVL:SPCCPI1 - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTWZVXzl6dktKb1ZURXFqb0xtbjF1MEg3WFFieURBalRPMzV2VHhKUFRuX0RfTnFXTW9UbVdfbjViSEtqV2pEZ2ZJVU9TMlFJSndJZWVjSE03UTdKWGpQYUZES29BbHkwdG16U0ZuTV9CamlPWF9ieDFfV3l0bXBzSzlaeWFOVVpQUlBjWUl6Tk0tc0kyMjZrdGhXbElYa1pQeHc?oc=5",
-    "pub": "Sat, 27 Jun 2026 10:38:21 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1558,14 +1558,14 @@
    124.82,
    116.04,
    132.4,
-   147.09,
-   134.97,
+   142.8,
+   133.59,
    143.0,
    142.54,
-   130.78,
-   136.74,
-   128.83,
-   109.31
+   129.09,
+   133.02,
+   125.43,
+   105.48
   ],
   "cper": [
    33.45,
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60422.66
+   60488.77
   ],
   "vixts": [
    0.937,
@@ -1697,7 +1697,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2192,7 +2193,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T14:02:26+00:00",
+  "checked": "2026-06-27T14:10:06+00:00",
   "openai": {
    "found": false
   },

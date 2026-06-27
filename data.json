@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T13:51:48+00:00",
+ "updated": "2026-06-27T14:02:35+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -99,16 +99,16 @@
   },
   "MU": {
    "price": 1132.33,
-   "chg": -6.69,
-   "chg5": -0.15,
-   "sma20": 1035.41,
-   "sma50": 802.14,
-   "sma200": 556.14,
+   "chg": 7.99,
+   "chg5": 8.54,
+   "sma20": 1024.97,
+   "sma50": 788.62,
+   "sma200": 551.45,
    "high3m": 1213.56,
    "reg": 1132.33,
    "pre": null,
    "post": null,
-   "regClose": 1132.33,
+   "regClose": 1213.56,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -131,16 +131,16 @@
   },
   "STX": {
    "price": 899.9,
-   "chg": -12.24,
-   "chg5": -15.92,
-   "sma20": 950.86,
-   "sma50": 810.4,
-   "sma200": 560.27,
+   "chg": -9.4,
+   "chg5": -15.59,
+   "sma20": 949.91,
+   "sma50": 802.79,
+   "sma200": 557.5,
    "high3m": 1094.04,
    "reg": 899.9,
    "pre": null,
    "post": null,
-   "regClose": 899.9,
+   "regClose": 1025.36,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -371,16 +371,16 @@
   },
   "PWR": {
    "price": 687.87,
-   "chg": -4.28,
-   "chg5": -2.05,
-   "sma20": 703.72,
-   "sma50": 703.75,
-   "sma200": 593.88,
+   "chg": -2.0,
+   "chg5": -3.77,
+   "sma20": 705.83,
+   "sma50": 701.83,
+   "sma200": 593.11,
    "high3m": 785.24,
    "reg": 687.87,
    "pre": null,
    "post": null,
-   "regClose": 687.87,
+   "regClose": 718.59,
    "sess": "reg",
    "mt": 1782504002,
    "ok": true
@@ -595,16 +595,16 @@
   },
   "SPCX": {
    "price": 153.23,
-   "chg": 0.15,
-   "chg5": -17.17,
-   "sma20": 171.31,
-   "sma50": 171.31,
-   "sma200": 171.31,
+   "chg": -0.85,
+   "chg5": -20.12,
+   "sma20": 173.32,
+   "sma50": 173.32,
+   "sma200": 173.32,
    "high3m": 211.39,
    "reg": 153.23,
    "pre": null,
    "post": null,
-   "regClose": 153.23,
+   "regClose": 153.0,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -659,16 +659,16 @@
   },
   "HYG": {
    "price": 79.83,
-   "chg": -0.06,
-   "chg5": -0.22,
-   "sma20": 79.83,
-   "sma50": 79.99,
-   "sma200": 80.22,
+   "chg": -0.03,
+   "chg5": 0.13,
+   "sma20": 79.85,
+   "sma50": 80.0,
+   "sma200": 80.23,
    "high3m": 80.65,
    "reg": 79.83,
    "pre": null,
    "post": null,
-   "regClose": 79.83,
+   "regClose": 79.88,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
@@ -771,16 +771,16 @@
   },
   "^SKEW": {
    "price": 139.4,
-   "chg": -0.35,
-   "chg5": -4.99,
-   "sma20": 143.13,
+   "chg": -4.06,
+   "chg5": -2.26,
+   "sma20": 143.14,
    "sma50": 140.92,
-   "sma200": 143.72,
+   "sma200": 143.76,
    "high3m": 156.93,
    "reg": 139.4,
    "pre": null,
    "post": null,
-   "regClose": 139.4,
+   "regClose": 139.89,
    "sess": "reg",
    "mt": 1782507645,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60467.01,
-   "chg": 0.75,
-   "chg5": -5.45,
-   "sma20": 63073.16,
-   "sma50": 69836.69,
-   "sma200": 74676.26,
+   "price": 60435.18,
+   "chg": 0.7,
+   "chg5": -5.5,
+   "sma20": 63071.56,
+   "sma50": 69836.06,
+   "sma200": 74676.09,
    "high3m": 82138.93,
-   "reg": 60467.01,
+   "reg": 60435.18,
    "pre": null,
    "post": null,
-   "regClose": 60467.01,
+   "regClose": 60435.18,
    "sess": "reg",
-   "mt": 1782568285,
+   "mt": 1782568927,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "'Who Are These Lunatics?' CoreWeave's Credit Approach Gets A Pep Talk From The 'Dean Of Valuation' - Sahm",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPSVhmVnpDMFNNclNZVjJDUXdkWnpZNUtDZWw4Qk9kWnpZWW01NTVSZnJWdUNLTFlYQS1fSVBMRWcxdHpVdWVydGhHZmN5WmtXaWlDNDVNZE92cUl3VldYODVhSi1lVmt6dnpnS1lwU3ZiWlNTVUVzbDF0WVRhQ3U4VWUtY0MzSHdOMFlYdDlHaFJtZXpndjlMT0dpSVNBUEJDRGltQnBMV0REb1I2eHI3M0txNEVlcU9LWG1zV2tqRzNmVWZYcnQ2SWpSUlprZGdlLThMOUlRYjdpUEdu?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:52:18 GMT",
+    "src": "Sahm",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SM's pickleball gamble pays off as sport reshapes malls, retail spending - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUG10bjU4aWJaZGtNUE1fSUxSSGtJaFlYeU1lT2xFVXd4UzgxVV9WcU1pNjczMklLdG9pVmRKeUdnRU41ZTc4UXJWUW41UnhENjdRclFRNy1YdUFyTXQxYTNVUTRJUWlLV0EyV2NMMVNWR3lQbU1pMFd2ZkpTVlNXM3U2SF9qanNUU1A2bjBXcHJIU1ZWYmxablpyZXhzQTlCaDB4dFllTGVWYnpFU1lOeXp6ZEdoRk5lemxMRXR6b2RLNWVMNVE?oc=5",
     "pub": "Sat, 27 Jun 2026 11:02:45 GMT",
@@ -1162,14 +1170,6 @@
     "pub": "Sat, 27 Jun 2026 01:32:13 GMT",
     "src": "ABS-CBN",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Private credit default fears spook BDC investors - thestreet.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbDYtN2hXS2RiMTVVbWJZWGdvVGp1OWY5V0pVZ3E5Rm1UYXdQOHdnRWZ0enJrX0dTZWJQbU1pZ21pU0QwX1JxNW5ENDdXb0NGcUhpbldsazA3S3VLUkFXTDJRSE1XRlRLakMyNzF0WkxHbGtESUZ6VEtNU0hNMVhRMk1CWUUtdw?oc=5",
-    "pub": "Fri, 26 Jun 2026 19:17:00 GMT",
-    "src": "thestreet.com",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1249,10 +1249,10 @@
     "geo": false
    },
    {
-    "title": "Ukraine says Flamingo missiles strike Russian military plant in Volgograd By Investing.com - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNek1Dc2pkX19YVVZoX29GZ0xBUWh4SlQ2a1NOblNEUzNKTTZuc1paa2pZN3FVZkVCSEpabzY4S2pnZmlRendPVFNra3NDLUQxVzRzMFB3V2luTGk2TG5RYTNsaGxLb2hCeXFwM08tVk05Q0tIMTYwTURxNTF5eVdqSlJWYlpXVlMtM29EZTZTZFYxaTREakFraGdqU2hfVEZUSXBmYkF4dEpvNTVaZmxtb1V0RVdTU3BtUVE2d3dHdXQwdw?oc=5",
-    "pub": "Sat, 27 Jun 2026 10:07:30 GMT",
-    "src": "Investing.com India",
+    "title": "Ukraine says Flamingo missiles strike Russian military plant in Volgograd By Investing.com - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNZHFhN05QdjN5WVNhQ1E3Wl9IS3Q5LVAxX21fQ1hOQ1V4LXliUE1RS0pXMlBVbmZyOVk3V0k2a1Z6eUoxdy00SXhNNVUyN0UwTG1Bd3Z0VHZGMS1fTnNmLVBYVi1nczRxTTRkR01ucUlhU2E5ejFPWFJWSEpKUzFTZFRIT1pLa1dXVTZ3cnRIdDVqZFBPM0RUZUZ3eDhEdFNGY3pySXRlYU5BRWdMUWRVa2lfSncyQVk3SUR0U3VCd2R2UQ?oc=5",
+    "pub": "Sat, 27 Jun 2026 10:07:07 GMT",
+    "src": "Investing.com Canada",
     "trig": false,
     "geo": false
    },
@@ -1265,12 +1265,12 @@
     "geo": false
    },
    {
-    "title": "US Military Strikes Iran Following Strait of Hormuz Vessel Attack - streamlinefeed.co.ke",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkN0NFVFUkgxRXl5TTZDZ01WTWV2NTNxeFVsVnBIUTduRU43SVA5WUk3a251dHRfVTVkV0R2ZjFfSmdPckVFMzR6OWlqaDYyYVBHUWVsQUFVaGc1SURuVVdhWjM4S25MdVNPLVhtRkhHUjR4RFhabWJUQkx4Q09WVGUxeXp0Y05HMWtiV2NMY3U0NkIyWnI2enZwNElvMTNf?oc=5",
-    "pub": "Sat, 27 Jun 2026 08:06:11 GMT",
-    "src": "streamlinefeed.co.ke",
+    "title": "Brent erases Iran war premium as Hormuz flows show signs of recovery - MSN",
+    "link": "https://news.google.com/rss/articles/CBMilgNBVV95cUxQWkNTOHdxZHVDYjBQeHI1S3k5Y3NNYmlHNHl4MXg3Z3lCZU9leXo5Vmw0b2dSSGVyS3hoRzhQamYta3BhajlzTlhIRC1nSmVZUFNGZFdkTzhVQkJlN1lqQl9INDVnZ0lsekF3eFVZZnR2WWxnOEZFWmpZN0dsRmhYTnBGT1hCcGRPSVl2N3h5cG5icGpOVFlaeGg4WGtDbFQ1Zm9IYkdEd1U5TG1mU2dic1hBUWZnZE1OM0FYV1dNUmFZaDFtZ0tINEtOY3ZybHY1UzF6VUxjdFVqZG90ZE81Z096cV9EWlJ1VFZNcGNpQkVPOGpneXQ1QXBDQkN6dktrUkw5US1NYXBVa3pJT25hX2RXMlFUXzc5MTVydklwTUt5dEFSUDVhTEYzZTFIQXFzUkVxcjZCdHNRa29qOU9SVFRpNEJjWkJDY3JBV0U5eFRiUUZCcFBuTFA2bUVmX0taY0hTR0VQQXdPQjRDTzZrMEFUN25CbUQ1NFY4dkJwYndfSlZua0RReGpCTGIxZ25VZGg1TXdn?oc=5",
+    "pub": "Sat, 27 Jun 2026 08:57:52 GMT",
+    "src": "MSN",
     "trig": false,
-    "geo": true
+    "geo": false
    }
   ],
   "flow": [
@@ -1431,8 +1431,8 @@
   "cape": 40.7,
   "cape_manual": false,
   "netliq": {
-   "value": -911964.9,
-   "chg4w": -88371.4,
+   "value": 5812.4,
+   "chg4w": -59.8,
    "asof": "2026-06-24"
   },
   "gm2": {
@@ -1558,14 +1558,14 @@
    124.82,
    116.04,
    132.4,
-   142.8,
-   133.59,
+   147.09,
+   134.97,
    143.0,
    142.54,
-   129.09,
-   133.02,
-   125.43,
-   105.48
+   130.78,
+   136.74,
+   128.83,
+   109.31
   ],
   "cper": [
    33.45,
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60462.66
+   60422.66
   ],
   "vixts": [
    0.937,
@@ -1684,7 +1684,7 @@
   ]
  },
  "summary": {
-  "text": "미국의 이란 보복 공격으로 중동 지정학 리스크가 부각되는 가운데, VIX 18과 안정적 신용스프레드는 시장이 아직 위험자산 선호를 유지 중임을 시사한다. AI 칩 수급에서 엔비디아 독점 약화와 OpenAI 자체 칩 개발 움직임이 확인되며, 메모리·스토리지 가격 상승이 기술 기업 원가 압박으로 이어지는 중이다.",
+  "text": "지정학 긴장(우크라이나·중동)이 고조되는 가운데 미10년 금리 4.37%와 달러강세(DXY 101.4)가 유지되며 신용경색 신호(Morgan Stanley·Apollo의 사모펀드 인출 제한)가 나타나고 있다. AI capex 부문에서 Nvidia 독점 이완 우려(OpenAI 자체 칩 개발, GPU 렌탈료 31% 하락)와 애플의 반도체 원가 상승으로 인한 제품 가격 인상이 진행 중이다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1693,8 +1693,8 @@
    "spy": -1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
-   "geo": 1,
+   "trig": 0,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -1961,10 +1961,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-06-25T14",
-    "v": 2.73
-   },
-   {
     "d": "2026-06-25T15",
     "v": 2.73
    },
@@ -2151,6 +2147,10 @@
    {
     "d": "2026-06-27T13",
     "v": 2.73
+   },
+   {
+    "d": "2026-06-27T14",
+    "v": 2.73
    }
   ],
   "stale": false
@@ -2192,7 +2192,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T13:51:41+00:00",
+  "checked": "2026-06-27T14:02:26+00:00",
   "openai": {
    "found": false
   },

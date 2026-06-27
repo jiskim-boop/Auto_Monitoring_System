@@ -9,6 +9,10 @@ from datetime import datetime, timezone
 
 UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
+# 구글 뉴스 RSS는 봇 UA에 503(Service Unavailable)을 자주 반환 → 실제 브라우저 UA 사용
+BROWSER_UA = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+              "Accept": "application/rss+xml,application/xml,text/xml;q=0.9,*/*;q=0.8",
+              "Accept-Language": "en-US,en;q=0.9"}
 APIKEY = os.environ.get("ANTHROPIC_API_KEY", "").strip()
 FRED_KEY = os.environ.get("FRED_API_KEY", "").strip()
 GPU_KEY = os.environ.get("COMPUTEPRICES_KEY", "").strip()   # 선택: 무키 시간당60회→키 5000회
@@ -164,11 +168,21 @@ def clean(t): return html.unescape(re.sub("<[^>]+>"," ",t)).strip()
 def nomd(s):
     s=re.sub(r'[#*`>_]+',' ',s)      # 마크다운 기호 제거
     return re.sub(r'\s+',' ',s).strip()
+def _get_news(url, tries=3):
+    """구글 뉴스 RSS: 브라우저 UA + 503/429 등 일시 오류 재시도(백오프)"""
+    for i in range(tries):
+        try:
+            return get(url, headers=BROWSER_UA, timeout=20)
+        except Exception as e:
+            code=getattr(e,"code",None)
+            if (code in (503,429,500,502,504) or code is None) and i<tries-1:
+                time.sleep(1.2*(i+1)); continue   # 1.2s, 2.4s 백오프 후 재시도
+            raise
 def fetch_news_query(q):
     url="https://news.google.com/rss/search?q="+urllib.parse.quote(q+" when:14d")+"&hl=en-US&gl=US&ceid=US:en"
     items=[]
     try:
-        xml=get(url)
+        xml=_get_news(url)
         for m in re.finditer(r"<item>(.*?)</item>",xml,re.S):
             b=m.group(1)
             title=clean((re.search(r"<title>(.*?)</title>",b,re.S) or [None,""])[1])
@@ -410,14 +424,14 @@ def _asof(obs, target):
     return obs[-1][1] if obs else None
 
 def fetch_netliq():
-    # 순유동성[$bn] = WALCL(백만)/1000 - WTREGEN(십억) - RRPONTSYD(십억), 날짜 as-of 조인
+    # 순유동성[$bn] = WALCL(백만)/1000 - WTREGEN(백만)/1000 - RRPONTSYD(십억), 날짜 as-of 조인
     if not FRED_KEY: return None
     wal=fred_obs("WALCL",70); tga=fred_obs("WTREGEN",70); rrp=fred_obs("RRPONTSYD",70)
     if not (wal and tga and rrp): return None
     def nl(t):
         w=_asof(wal,t); x=_asof(tga,t); r=_asof(rrp,t)
         if w is None or x is None or r is None: return None
-        return w/1000.0 - x - r
+        return w/1000.0 - x/1000.0 - r   # WALCL·WTREGEN은 백만→십억, RRP는 이미 십억
     anchor=wal[0][0]
     import datetime
     d0=datetime.date.fromisoformat(anchor)

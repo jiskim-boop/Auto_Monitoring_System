@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T14:41:47+00:00",
+ "updated": "2026-06-27T14:51:52+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60529.09,
-   "chg": 0.85,
-   "chg5": -5.35,
-   "sma20": 63076.26,
-   "sma50": 69837.94,
-   "sma200": 74676.6,
+   "price": 60511.51,
+   "chg": 0.82,
+   "chg5": -5.38,
+   "sma20": 63075.38,
+   "sma50": 69837.58,
+   "sma200": 74676.5,
    "high3m": 82138.93,
-   "reg": 60529.09,
+   "reg": 60511.51,
    "pre": null,
    "post": null,
-   "regClose": 60529.09,
+   "regClose": 60511.51,
    "sess": "reg",
-   "mt": 1782571286,
+   "mt": 1782571882,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Apple Wants to Buy Blacklisted Chinese Memory. Micron Has Nothing to Worry About - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNTUdBSkxHZ0QwWFFQYlJnUHV6UmxtcmVWLU50dURRVjJHNUo0bW9DVmNESFpJelBrNjdRZ1A1SDMtYXFPRERlMHdrQ2VLWWhpT05rZEZyLVQ4RklLQi1BTW9hVTR6azNmQWJzOGQzNEIydHp0Z2MwVjNLUktSWlFydV9aWnI5VlpENG5UNFQtTTh0bzA0YVAzdmd5Nmg3Vy1ybG91U0FpOS1kQVlEZENQWGMxcXR5N3ltUXJCSVhKV2I?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:27:33 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nvidia's Moat Crumbles: OpenAI's Jalapeño Chip and a 31% GPU Rental Crash Test Investor Faith - Ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOdGRmS0Z3MEdUTWFIbldkV0JDMlV0UmhqUUxGTVlDOXZGUlhjYmJmNXA3MEExcmFiX0U5dmJKM1lzMFROamtpd3M5dVozamZCWHE4Z3JObjZhVWtjLTU3YTkzZmU3dHk5STBzVFNycEVyWjh5TmJlYWpULVc0QXNRWjVuM0d6UEowV1haMUxFMEMwUHVtZFl5RDBFOHd1YlNZaGJiY0JFZDRiTWJhbm9XX2JBQjVRUW9OSHZHeDdRVkxLZnc?oc=5",
     "pub": "Sat, 27 Jun 2026 13:06:47 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0RfUDYtSjNzVjJxVEFGalVlYVp5bG9SdG9OSl9aekRpc0xuNGNjb190N0dEdkczeGMwLXFTTEc5QmUxNmtRVXpnUHdTa3M0ZVRZakFPMF9UZGdHeThoMlhSNWQ2SVQxMXAxTllNamFMNHBRWktOaVBHQzFfX2FoeXZmb3h0QnhST21VbkR2MS11RnI5N2dod0I2UVRFR0RKZlpRWm83MzdsLUpfOGlJSDFBWmdVRkl6TlV1akZLclZOaWw1ZzZjZlBmT00?oc=5",
     "pub": "Sat, 27 Jun 2026 09:44:58 GMT",
     "src": "Ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The biggest risk to Nvidia's stock price that almost nobody is talking about - MSN",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMWJkOHRSTVByTXdSMUR4eUF6NVhEVjNxaTloS3h3UzVoTXllQlllQ19jVE85QlB4QzVUejZCTG02d2VWY3NDSlVVVDVOWjdxazQ5Nlp0S1lDR19Ybmt3bVFMek5xb28tZmFuVW1ZaW9mSkFuRlVKa2FPaERnRWN3M1RfeEpMRnFyNzhUUzMxMVc5M3A5TENaS1lNS3VCLVZqQXM3djVFQzFpTDd5VklhbjBzMkpfZzJMM3JUdU4wTWI2amsxckFIMUNB?oc=5",
-    "pub": "Sat, 27 Jun 2026 09:13:37 GMT",
-    "src": "MSN",
     "trig": false,
     "geo": false
    }
@@ -1265,15 +1265,23 @@
     "geo": false
    },
    {
-    "title": "US Military Strikes Iran Following Strait of Hormuz Vessel Attack - streamlinefeed.co.ke",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOYkN0NFVFUkgxRXl5TTZDZ01WTWV2NTNxeFVsVnBIUTduRU43SVA5WUk3a251dHRfVTVkV0R2ZjFfSmdPckVFMzR6OWlqaDYyYVBHUWVsQUFVaGc1SURuVVdhWjM4S25MdVNPLVhtRkhHUjR4RFhabWJUQkx4Q09WVGUxeXp0Y05HMWtiV2NMY3U0NkIyWnI2enZwNElvMTNf?oc=5",
-    "pub": "Sat, 27 Jun 2026 08:06:11 GMT",
-    "src": "streamlinefeed.co.ke",
+    "title": "Ukraine Travel Risk Escalates as Unverified Russian Drone-Strike Claims Involving Train, Fuel and Military Logistics Assets Raise New Concerns for Rail-Based Access, Border Corridors, Insurance Validity and Essential Business Movement - Travel And Tour World",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE12OVVqV2lLUFU3YlFWbTZuaVl0ZnNzVVVOUGV4ZDA5a2p6eUx3WGtNTlFSNHJyUGJvUk5DTkxtVzk3YWo1c0RuUXI3UmZVS3dWNHJObndCc3J2Q00wT0lMRmg3WlpVdHRhbGJudk1B?oc=5",
+    "pub": "Sat, 27 Jun 2026 07:57:38 GMT",
+    "src": "Travel And Tour World",
     "trig": false,
-    "geo": true
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold Rate Today LIVE: US Gold Climbs Above $4,088 as Dollar Strength Bullion Market Amid Fed Rate Hike Across Washington, San Francisco, California & Los Angeles – Check 24K, 22K & 18K Gold Prices - The Sunday Guardian",
+    "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOU2N4TXBPc2pTNmJoY01meGt1bVV5VllvR0M5QXotN0IxaVFlSkJkLWJMWnBLWGo5ekFuTmV6RUhDMUZqSGFOMHlpckh6cGNpeDN3SkVXdHhEODgwQm1XUHl3NWhXbmJhUTJ6NW05RV85anBqQWdqQmI4NzVVbF9TWnZNZHlhcVlZXzVKaGZfU2ZfSEhyQmctbmxGbUVmU1gwVWV1TE5MRm5ra0NQU19sN3kybWlpM01ZWnBQd2dVNExENlJzTkM0M0dSbkJfU1JZZXBWWktUODNhUEJpTDhSZHREQnNLTUxKTGtPUzJzOGJrQlRyWmU2MEVSNDduRmdzUXpzZVE3cDF4aUxJaGx0SnVrcVVXR0ZrS1AyWGhjOTJvcTUtdnhmS3FHTXQ5dlRoQ09NdEtVSXJTQ0ozMzdJckhmS2ZhOERsMVp5NHJ3WkNzQTRuaGxF0gHXAkFVX3lxTE5TY3hNcE9zalM2YmhjTWZ4a3VtVXlWWW9HQzlBei03QjFpUWVKQmQtYkxacEtYajl6QW5OZXpFSEMxRmpIYU4weWlySHpwY2l4M3dKRVd0eEQ4ODBCbVdQeXc1aFduYmFRMno1bTlFXzlqcGpBZ2pCYjg3NVVsX1Nadk1keWFxWVlfNUpoZl9TZl9ISHJCZy1ubEZtRWZTWDBVZXVMTkxGbmtrQ1BTX2w3eTJtaWkzTVlacFB3Z1U0TEQ2UnNOQzQzR1JuQl9TUlllcFZaS1Q4M2FQQmlMOFJkdERCc0tNTEpMa09TMnM4YmtCVHJaZTYwRVI0N25GZ3NRenNlUTdwMXhpTElobHRKdWtxVVdHRmtLUDJYaGM5Mm9xNS12eGZLcUdNdDl2VGhDT010S1VJclNDSjMzN0lySGZLZmE4RGwxWnk0cndaQ3NBNG5obEU?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:53:31 GMT",
+    "src": "The Sunday Guardian",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold prices close a stormy week, experts split into factions on new trends - Laodong.vn",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNVU5DV1VuSXZ2ZGVMb0tuQXlSVnRlWDBRZmNtdzhjMnhqbHlXdHZjTkc5YTlaLWt3MHNka1BMT2VlRk1sbWxKVE1DNS1JSWFFVUUzVVZrOF94ZW8xbDJSU1NRakQtd2kyYXJTV2VWdUdkb3k0Rk1qUWZGZ20xVWtORjhwNFRMVi1iSjV1U1NDenpYV2k3YjFtZGI0Vzd5anBvSk14cmlYUmIyY3NiZmJ4NWdOVVFJS1NwNXc?oc=5",
@@ -1310,14 +1318,6 @@
     "title": "Price to book forward of Southern Peru Copper Corp. – BVL:SPCCPI1 - TradingView",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOaWRsRmJMWGZoblpSc0FjUUdIQ1g5M2lwVTRMLUQ3Tll1U1lpNjJLTGpZX1N2YV9GU1VSQUlKVjZfOUtZVkVzTXotZGtiY2tqaEd6cGVpSmFsTTB0cXZ0ZFFYM19kV3UwSlI1NERGN0tBOHc3cWVxYXNsbTR5b2NRWkpJRUFYMDN1SW1Ba0RLWGhtaFZlbnFBYS1ucE0?oc=5",
     "pub": "Sat, 27 Jun 2026 10:42:03 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to sales forward of Southern Peru Copper Corp. – BVL:SPCCPI1 - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQOHJrVENOYmdDWWNiWWNVVVVpSTJBSDNoUDc5ejZfQXFFakVjbUctOEVsU0p3TWI3WmxQaV81REtnblp0QkRJYVp2aW91OVhRbFozcG8xRnd0MWxUdHRBRkhsSTRsUmFKWndGMlJKUVBTUTdEb244cllwTm5mSDR3SEZNMXFsMHM2Z0RCZUpkODhQNUJFcDF4NHI3bm9IQQ?oc=5",
-    "pub": "Sat, 27 Jun 2026 10:40:14 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60523.68
+   60509.98
   ],
   "vixts": [
    0.937,
@@ -1684,7 +1684,7 @@
   ]
  },
  "summary": {
-  "text": "미-이란 군사 긴장 고조 속 달러 강세(DXY 101.4)와 안정적 신용 스프레드(HY 2.78%)가 공존하며 시장이 경착륙 우려보다 지정학 리스크 프리미엄을 선별적으로 반영 중입니다. AI 인프라 수급에서 엔비디아 독점 약화(GPU 렌탈료 31% 하락) 신호가 나타나는 한편 Apple의 메모리·저장소 가격 인상이 AI capex 원가 상승을 반영하고 있습니다.",
+  "text": "중동 지정학 긴장 고조 속 미 10년물 4.37%에서 안정적 금리 기조가 유지되며 신용시장은 사모펀드 환매 제한으로 유동성 압박이 심화하는 상황입니다. AI 칩 수급 측면에서 엔비디아 독점 약화 신호와 함께 메모리 가격 상승으로 인한 최종 완성품 가격 인상 압력이 가시화되고 있습니다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1694,11 +1694,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2193,7 +2192,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T14:41:43+00:00",
+  "checked": "2026-06-27T14:51:42+00:00",
   "openai": {
    "found": false
   },

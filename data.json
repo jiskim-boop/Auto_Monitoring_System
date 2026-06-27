@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T04:41:43+00:00",
+ "updated": "2026-06-27T04:52:04+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -195,32 +195,32 @@
   },
   "ANET": {
    "price": 157.6,
-   "chg": -4.74,
-   "chg5": -7.11,
-   "sma20": 163.67,
-   "sma50": 159.88,
-   "sma200": 144.86,
+   "chg": -2.56,
+   "chg5": -4.44,
+   "sma20": 163.55,
+   "sma50": 159.82,
+   "sma200": 144.76,
    "high3m": 177.73,
    "reg": 157.6,
    "pre": null,
    "post": null,
-   "regClose": 157.6,
+   "regClose": 165.45,
    "sess": "reg",
    "mt": 1782504003,
    "ok": true
   },
   "ALAB": {
    "price": 391.74,
-   "chg": -1.57,
-   "chg5": -6.07,
-   "sma20": 368.99,
-   "sma50": 282.8,
-   "sma200": 199.27,
+   "chg": -2.05,
+   "chg5": 4.55,
+   "sma20": 366.86,
+   "sma50": 278.4,
+   "sma200": 197.7,
    "high3m": 439.66,
    "reg": 391.74,
    "pre": null,
    "post": null,
-   "regClose": 391.74,
+   "regClose": 398.0,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -323,16 +323,16 @@
   },
   "NRG": {
    "price": 149.36,
-   "chg": 1.53,
-   "chg5": 10.59,
-   "sma20": 133.29,
-   "sma50": 140.62,
-   "sma200": 150.89,
+   "chg": 5.03,
+   "chg5": 13.04,
+   "sma20": 132.7,
+   "sma50": 141.0,
+   "sma200": 150.91,
    "high3m": 170.96,
    "reg": 149.36,
    "pre": null,
    "post": null,
-   "regClose": 149.36,
+   "regClose": 147.11,
    "sess": "reg",
    "mt": 1782504003,
    "ok": true
@@ -771,16 +771,16 @@
   },
   "^SKEW": {
    "price": 139.4,
-   "chg": -0.35,
-   "chg5": -4.99,
-   "sma20": 143.13,
+   "chg": -4.06,
+   "chg5": -2.26,
+   "sma20": 143.14,
    "sma50": 140.92,
-   "sma200": 143.72,
+   "sma200": 143.76,
    "high3m": 156.93,
    "reg": 139.4,
    "pre": null,
    "post": null,
-   "regClose": 139.4,
+   "regClose": 139.89,
    "sess": "reg",
    "mt": 1782507645,
    "ok": true
@@ -835,9 +835,9 @@
   },
   "LQD": {
    "price": 109.5,
-   "chg": 0.0,
-   "chg5": 0.39,
-   "sma20": 108.88,
+   "chg": 0.08,
+   "chg5": 0.67,
+   "sma20": 108.87,
    "sma50": 108.87,
    "sma200": 109.63,
    "high3m": 110.04,
@@ -915,50 +915,50 @@
   },
   "^KQ11": {
    "price": 851.37,
-   "chg": -4.1,
-   "chg5": -11.92,
-   "sma20": 981.02,
-   "sma50": 1092.78,
-   "sma200": 1082.4,
+   "chg": -6.37,
+   "chg5": -14.94,
+   "sma20": 993.67,
+   "sma50": 1097.75,
+   "sma200": 1084.33,
    "high3m": 1226.18,
    "reg": 851.37,
    "pre": null,
    "post": null,
-   "regClose": 851.37,
+   "regClose": 887.81,
    "sess": "reg",
    "mt": 1782464740,
    "ok": true
   },
   "GLD": {
    "price": 373.63,
-   "chg": 1.13,
-   "chg5": -3.48,
-   "sma20": 391.6,
-   "sma50": 411.81,
-   "sma200": 431.13,
+   "chg": 2.11,
+   "chg5": -3.85,
+   "sma20": 393.56,
+   "sma50": 413.15,
+   "sma200": 431.6,
    "high3m": 445.93,
    "reg": 373.63,
    "pre": null,
    "post": null,
-   "regClose": 373.63,
+   "regClose": 369.46,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
   },
   "BTC-USD": {
-   "price": 60295.05,
-   "chg": 0.96,
-   "chg5": -4.65,
-   "sma20": 63225.71,
-   "sma50": 70236.66,
-   "sma200": 74755.87,
+   "price": 60222.07,
+   "chg": 0.84,
+   "chg5": -4.77,
+   "sma20": 63222.06,
+   "sma50": 70235.2,
+   "sma200": 74755.46,
    "high3m": 82138.93,
-   "reg": 60295.05,
+   "reg": 60222.07,
    "pre": null,
    "post": null,
-   "regClose": 60295.05,
+   "regClose": 60222.07,
    "sess": "reg",
-   "mt": 1782535280,
+   "mt": 1782535896,
    "ok": true
   },
   "USO": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "LTFRB suspends EV taxi operation over viral robbery prank - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHIweXJaMnRRT0o1SkZiUUtMSDQxNjNQVTBxNEJrZTJtWkJVTEJ2UVYxRklOeXVtTjdLSkswZmtDYmZCdGpaVm1kZnBDV3A0RTBWN0Zwb2dwT1JyMnNqSFBYVWlPS3A5ZFRFeEZZaWlKdWlhRl9SSllNM3VpUlB6emZtNVhvZlBUbE1qODdOcTY5STFveC1OQkVNYUxtTGdPU3VLcE9HS01Ua2xQeUxn?oc=5",
-    "pub": "Sat, 27 Jun 2026 01:32:13 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Apple said it was raising prices for its MacBook computers, iPad tablets and other products, citing spiraling memory and storage costs sparked by the rise of artificial intelligence. I via ANC 24/7 Link of full story in the comment section. - facebook.com",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNGkxZ1ROd2VETTVybmQyTFVaQ1ZZWTFkM3lKUDJZMFVJS2pMUVBSdmtYVU4zWWp4S0NZWjdKMlpVaThmVWRmZGxwdFBMdHotekdITmJhZnZaOXVmalk4R0NYb2VfMTBQYkdxeUVKWWtaTlRCeE1BVTZvXzFzblEwX19qSHNfblpNWkJCaDI1bFd2dFlZUDFQVFZrUnllX29jcGF3ejVubE1nR2pPUU1OQUJBLXFHUlNlNmNuYnVobG5Ha0F5c3V3WjFSY3RyTTZTMmlzSG5qNA?oc=5",
     "pub": "Fri, 26 Jun 2026 23:21:12 GMT",
@@ -1171,9 +1163,25 @@
     "src": "Kavout | AI",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Announcement: The Private Credit Intelligence Mapping - Substack",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOenRwWDRucW16SE1LRWlPVjlNTGJ1bVpYUEJnZHZjYTJpT0pPMjlXRXNfWDZpVlZlb1JreTVxekZJOXRNUkd5cDN0aFl3a3dNNzJ3VVRRSUFMcENnX1UzdDV2WEVZZXJMZ2ZoTUFiS1BRRHpJODNDZk1HdkJrak84SVowQW1udUpNWksxRA?oc=5",
+    "pub": "Fri, 26 Jun 2026 16:53:47 GMT",
+    "src": "Substack",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Nvidia's Two-Front Battle: Record Revenue Meets a Fracturing Market - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEpkZnVJaVlMNWE5UDFBRERYSVdvaDhKd0RoMHhQZmhTamMwblFoZ0ROeXB0d3NTVjljOWc5bEFpY3NEX3prbVVqMHBIcVBtSlcwUmJsSEtnWXFVdHMwd1ktcVpIRWtuMmQxUmEwWDgzV21ZM2VrbDlyVGdmd3NqMHlnVGFQNmgxcG01RVpmRlI2anpva1QyYXA2Mi1wREtfeDBCd1J5c1BtQnJGbzlZNHVBaHdiTGVxVlNOMS1vNDRvSUU?oc=5",
+    "pub": "Sat, 27 Jun 2026 04:35:29 GMT",
+    "src": "Ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Nvidia's Market Cap Just Fell Below $5 Trillion. Here's Why It's a Buying Opportunity - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNSnhOS2dUOE1JRi1DWktUMHQ1d3o0SGpWd0R1M2h0OUctb29WcGxQY29RZ1NHUUl2TGtvVTdpNFNqQjVTalhyNWFKQjE4RnJwOVpPRHZNRmNTNXlJZlVxcVJ6TUxNTE5JTklVZVdyWmtzUFA1VkNXSU0wT1h3OU9faE81NXRaRkNXS0h3WDdtODBVdnJvZ19QVw?oc=5",
@@ -1191,18 +1199,18 @@
     "geo": false
    },
    {
+    "title": "FSU shooting victim latest to sue OpenAI over shooter's use of chatbot - Tallahassee Democrat",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQbVdXNXY2WVFTRW02X19tcFNveFJwa0NxRUM2WHBNSEZ6YXhYZGJzQU1OeDBITm51dnExOTM5WWd6bEQ2bGRaandsaHBPNkNXY0dweGg0UldkR2tKM1BWWUxEaGNhTDJxNC1IdjJyWkxuOE9KNWlvdS02d25zZmd4Qkk4clpGRWluQ1I2eVFpaGZlQWUxSWZPYWxtVGxhMWtMVWswbFhPRzBSb2tuN2FpTGNJOUp6ZDZ4bUZDZnFMM091YUUzNXI5NGZlSFNuQjRDQWpyVA?oc=5",
+    "pub": "Sat, 27 Jun 2026 00:02:00 GMT",
+    "src": "Tallahassee Democrat",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "2026 IPO Watchlist: OpenAI, SpaceX and Other Tech Giants - Built In",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE83Qlg3aEZqbUREYUtLWTlYV2tiU0wtRDRQQkVHWnpTY1NkSlRUUW56RWRnWVpGZzBRWHlXXzJkcHRITHg3Y1NUckRIdVR4eFRhT3JhanY4ejRtbmM?oc=5",
     "pub": "Fri, 26 Jun 2026 23:41:01 GMT",
     "src": "Built In",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic cleared to release Claude Mythos 5 to over 100 US institutions [U] - 9to5Mac",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeDlJRnNOZHVJREEzNTY4ZmNxLXExcTdFQ3JueG5XdE9pYlpibFp0aTZTU3Z2MUdsSHFxNmZhV25QbE5IajVrTldXcUFxZm9UQm54Z1pMR0RqNk5TTFBlbk1IR3NDcVFiaExEWm55MDAtd19SOThZbk9FOU1lTGhWaldxNjlMdFRZNnlXb1BYdkxLQzFvRTZUaEVHS2hjSjdmT0dBVzBNOA?oc=5",
-    "pub": "Fri, 26 Jun 2026 23:03:00 GMT",
-    "src": "9to5Mac",
     "trig": false,
     "geo": false
    },
@@ -1213,17 +1221,17 @@
     "src": "CNBC",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US allows Anthropic to release Mythos AI to 'trusted' US organizations - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOREhtVHBfT0Y3bnFFSm9mMmdvYlFhelN2SkZfWWdkb0lzSkpvazRVUFdoY0l6RVVUNEZqdUIxaWtuQWZ5TXpFRzRSTHlDMkhUOS1MZ1ozVHVHSUJpZVZmQ2pmSmRPVHZSRmxqRm11RzhtLTgxbkJRZkVYeXQ4WFd4bFJxb1Z5Yi0xa2poU3U5SUZDMjVyM3p0T2dUYkRIanlGSjlPOFcyekpnbU5wd3UzY1FYQWJBUQ?oc=5",
-    "pub": "Fri, 26 Jun 2026 22:37:00 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "After its IPO, SpaceX angered the market by issuing an enormous volume of bonds, pushing its debt close to 'junk' status—an unprecedented pace of decline that has surprised traders. - 富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOTlFSmJlMFNzVnBwRkI5bEYyM2FUSzZqWUE2cW9TSWhpZy0ySWt4bUxYMnptY2V2NzU2emFKWHJTbmxJRWN1azZDN2xuNjBLTE1PMzlWNXlTWXRlYlJaOVhVaFFMTVpjdzg1Wml2ZFdlRnNwRWFJcFQ3YXFsN3lJelB6QzU3SmFxZHRLQWF6QjBfV2NZbXdYWTNB?oc=5",
+    "pub": "Sat, 27 Jun 2026 03:59:00 GMT",
+    "src": "富途牛牛",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Following its IPO, SpaceX's massive bond issuance has angered the market, with its bonds now hovering near \"junk\" status—a plunge so rapid it has left traders stunned. - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPdDVDdzdPLVhrRE9WaEhMYWZoNURxLWpOb05YY2MxT0ltZjB5a2NUeGU1Wk94eDI5eUlKV2VlbEN6ZWNrdFlZdmN4MERaWDBkeGJZZ3pKd0psdTJ6QUJTdHVabXhJX2R2d3ZqWVQxZDFBY1BhUEszcWNHX0JlNXFSU1FxZXFwRmh3TTRVUGRWd1B0TThqOEN4X3oxX29oVkN1Szdwcg?oc=5",
@@ -1257,14 +1265,6 @@
     "geo": false
    },
    {
-    "title": "Tensions Rise in the Strait of Hormuz: US and Iran Clash - Devdiscourse",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSHVyQ2JvVW9yNDZ5aC1SVHp0VDN0ai1KV0tFajRpY3VPNDJZM05yRTNpQm1CYmhrZFZQZ3RXWUg2ZjQ4dEowY3lqemlCT1ZmQjlwOFNfbS1GZ05rUWF1alU4a2xJRmJuZHEtWmE2V2FIWWF0WjdkZzI5X1dIS29yRHFIYXpHLUxFa1pxRkdMeUp6LUNwQkp1UVpTUm4zR3MxeXJ5dTVIQjBFSXVlUEhmcXkyd9IBswFBVV95cUxPSHVyQ2JvVW9yNDZ5aC1SVHp0VDN0ai1KV0tFajRpY3VPNDJZM05yRTNpQm1CYmhrZFZQZ3RXWUg2ZjQ4dEowY3lqemlCT1ZmQjlwOFNfbS1GZ05rUWF1alU4a2xJRmJuZHEtWmE2V2FIWWF0WjdkZzI5X1dIS29yRHFIYXpHLUxFa1pxRkdMeUp6LUNwQkp1UVpTUm4zR3MxeXJ5dTVIQjBFSXVlUEhmcXkydw?oc=5",
-    "pub": "Fri, 26 Jun 2026 23:45:06 GMT",
-    "src": "Devdiscourse",
-    "trig": false,
-    "geo": true
-   },
-   {
     "title": "Oil Prices Rise Above $70 on Iran Strike - WSJ",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRoWVBGTVZTdV9oX3FaYkVyOGN1UW9kazF4MXRmaFdORnBWa1ZWUU1iS2lFYkMtVnQ3RDQ1RmtPYk5tYVFZLTFjbl9zSHA3cWVHTkpiU3paak5KaHNlU0pENkY0RWdzYnJ4bWp2MDlVY3VkTEhiZlFOb0hTUmlmT2pjLVRPRlhObEEzRHVxazZaSjNNN0d0NUFNRUlZT1owR0FMZUJiMA?oc=5",
     "pub": "Fri, 26 Jun 2026 22:06:00 GMT",
@@ -1275,10 +1275,10 @@
   ],
   "flow": [
    {
-    "title": "Gold Rate Today, June 27, 2026: Check 22K and 24K Gold Prices in Delhi, Mumbai, Chennai and Other Cities - LatestLY",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxOU0cyaTFULWs4OFVKdi0wYmJ0WUU0bFhwQU1VWVJLQXVTSDJ0LUlYRTBVWC1ONDhtc3cxRV8zcjN3QktSVkhhZmJqajIyV0F2WmN1YjQtX0FUcUdZejQwNnVsSkxrdjJnNkRaUm5sQTlZdERWellEbTVHRHFxRGtfV1NKdW5Bd1dqTnRwNHpsS3dEdmtNNTN1WGdBQ3U3WGFnekZVQ2kzSFNnT1RQYzlwaWtIUTRQYWZzQllhTm11YmVPeHBIcUNHT3lNbGExaTA2YmswR3Z6VktVZ2ZLbkdZ?oc=5",
-    "pub": "Sat, 27 Jun 2026 03:21:32 GMT",
-    "src": "LatestLY",
+    "title": "Gold Prices, the Fed & US-Iran Developments: 2026 Outlook - Discovery Alert",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZ0hlZUlTRXdsN3kzYU9oMTdFN3JGV05DSENyU3JONnZHemNCR3JISjh1Umtsc1dYeWx4VDIydVlLTnBGdnBrNHg4SmFDX1IybDBld3BBRU8wWGN2WGhyUmxvaXFOdF90NVRtRXR1QVhOQ1U3Z1ZEMUR2YXZteW96TlprdzZIOVMwSVo4WnhYa0I?oc=5",
+    "pub": "Sat, 27 Jun 2026 04:44:58 GMT",
+    "src": "Discovery Alert",
     "trig": false,
     "geo": false
    },
@@ -1287,6 +1287,14 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmRpSEF4blQ4a1otV21GSkI5WWhKZlhIQ3dibDFEeGtLRE02WEpxbnpiczNVMnAxYjNmZmZUZHFwRFR3TWVZZ0d0UERTbTFHY3lJZXJONnpsbGpSRERfNDNhTE5IeUxuQ1RuUHprbTFYZFdsV3AtVE9WREprUWVyNG5LYkVtZ3lmYVdtVDREejNHS2RtNWU3X0xMZWdUZzdQT25pUHQ3aEhhcmp6Y3N5eXZXYU1NejNxd2dWai1B?oc=5",
     "pub": "Sat, 27 Jun 2026 02:49:08 GMT",
     "src": "InteractiveCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CFTC Data Show Yen Net Shorts Narrow as BoJ Hike Talk Complicates Carry Trade - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOMjRmYXdITjlHMFI0N09rUVNWVEM1VjJXaGFKZlhabnQ4WG56UnBYOUZSajYxNmVwMUFkSU5VY1g1Qmt0Y180SThQTTBORW1UMXpCYU1GSWdmcFJBV25QbkE2eTdZbFRxbGNxXzJxZUJXdktWTW8yMXRKRW1uY01Yd0oxdkFEck5rRVpJSTR3cVltVWZ5b2ZWWVRTa1JUVktWcWR3QVBNTzNMX041TzlEc1hKLVdwSWcyNTBaWHJTUXZGV1k?oc=5",
+    "pub": "Sat, 27 Jun 2026 02:43:58 GMT",
+    "src": "VT Markets",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRWdlRXZfdlFEdk5zSEd2TXBOc2ZFeWRhcWNPRU5EVGxZZUFYMEg3RmNYSFY4MmhqMUxiUXZqa1hONFVOdEpFTS0wblpPRXFaZEl2ajVobnloYndaNkpoejFRX1Y5VEZLNUtnLW9yVmU0cWdSTWNCTlNjY2hXUW5VY2U4QlpLd3l1dDl3dlNZd1VrOUpaZUVEcW1VWEJvd1U?oc=5",
     "pub": "Sat, 27 Jun 2026 00:53:53 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Volatility: Weekly Review and Analyst Outlook for June 2026 - News and Statistics - IndexBox",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxObWlrYlRZOXJCSzFQYllXZUxfMVdZWk9pbHFxOG5pbUFlWmZJRXhRUGZfZEpKV0pETnpxcFVwbVY0Nm0zZVJWZHBxcXNrVWF5LTVxamRNZ2hLZGpTT2hJUGNQQlpqUVVpUkl4X2Q4RVZ3NHRfc1hoY1drRXkxWEphWl9wYmRHalMteURtU1ZRbGw3ZTBGWThKV3FzaWpTaFJjTjFBT3JZaFdZb0JZUm53eS02dDJSbDRSLXpqNUMxVE1SODVqYUxaQS1wSTE5bG5mVGc?oc=5",
-    "pub": "Sat, 27 Jun 2026 00:22:00 GMT",
-    "src": "IndexBox",
     "trig": false,
     "geo": false
    }
@@ -1498,14 +1498,14 @@
    98.65,
    98.1,
    98.51,
-   98.21,
-   97.84,
+   98.08,
+   98.25,
    98.88,
    99.19,
-   98.91,
-   100.07,
-   99.75,
-   101.36
+   99.02,
+   99.41,
+   99.86,
+   101.43
   ],
   "bizd": [
    12.38,
@@ -1588,14 +1588,14 @@
    437.13,
    445.93,
    433.25,
-   423.18,
-   433.77,
+   423.66,
+   431.68,
    427.21,
    416.99,
-   417.12,
-   396.24,
-   386.54,
-   373.63
+   412.77,
+   411.27,
+   386.32,
+   369.46
   ],
   "btc": [
    66338.38,
@@ -1610,7 +1610,7 @@
    73372.52,
    60922.67,
    63543.2,
-   60289.01
+   60217.75
   ],
   "vixts": [
    0.937,
@@ -1684,7 +1684,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 긴장 고조로 에너지 리스크 부각되는 가운데, 저변동성(VIX 18)과 양호한 신용스프레드(HY 2.78%)가 시장의 낙관적 심리를 반영하고 있으나 사모신용 부실 우려가 잠재 리스크로 작용 중입니다. AI 모델 규제 완화(Anthropic 승인)와 기술기업 가격인상 움직임이 보이나, GPU/HBM 수급 쪽 구체적 병목 신호는 아직 뚜렷하지 않습니다.",
+  "text": "지정학 긴장(이란 공격 우려)과 높은 밸류에이션(CAPE 41) 속에서 신용시장 약화 신호(BDC·사모대출 우려, SpaceX 채권 정크 수준 락)가 점증하는 가운데 VIX 18과 미10년 4.37%는 아직 시장이 경착륙 가능성을 과소평가 중임을 시사한다. AI 인프라 비용 급증으로 Apple 가격 인상 등 공급망 압박이 가시화되고 있으나, Nvidia 시가총액 변동성을 제외하면 GPU/HBM 수급에서 특이 신호 없음.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1694,11 +1694,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 1,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2193,7 +2192,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T04:41:40+00:00",
+  "checked": "2026-06-27T04:51:56+00:00",
   "openai": {
    "found": false
   },

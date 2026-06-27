@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T09:41:46+00:00",
+ "updated": "2026-06-27T09:51:46+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60304.47,
+   "price": 60303.41,
    "chg": 0.48,
-   "chg5": -5.7,
-   "sma20": 63065.03,
-   "sma50": 69833.44,
+   "chg5": -5.71,
+   "sma20": 63064.98,
+   "sma50": 69833.42,
    "sma200": 74675.37,
    "high3m": 82138.93,
-   "reg": 60304.47,
+   "reg": 60303.41,
    "pre": null,
    "post": null,
-   "regClose": 60304.47,
+   "regClose": 60303.41,
    "sess": "reg",
-   "mt": 1782553243,
+   "mt": 1782553884,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Nvidia's Record Cash Returns Can't Mask a 31% GPU Rental Crash and Geopolitical Headwinds - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOT0RfUDYtSjNzVjJxVEFGalVlYVp5bG9SdG9OSl9aekRpc0xuNGNjb190N0dEdkczeGMwLXFTTEc5QmUxNmtRVXpnUHdTa3M0ZVRZakFPMF9UZGdHeThoMlhSNWQ2SVQxMXAxTllNamFMNHBRWktOaVBHQzFfX2FoeXZmb3h0QnhST21VbkR2MS11RnI5N2dod0I2UVRFR0RKZlpRWm83MzdsLUpfOGlJSDFBWmdVRkl6TlV1akZLclZOaWw1ZzZjZlBmT00?oc=5",
+    "pub": "Sat, 27 Jun 2026 09:44:58 GMT",
+    "src": "Ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Ornn Secures $33M in Seed Funding to Build a GPU Compute Trading Market - KuCoin",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzBTV3dYcF9oaVBFQ2tiNnJUYWpOQXp6VERhMlhmR0NsaG1YNnQxZ3VXT0dSUHRnc0RibmFiNjhUcnc2eFYxMzVnbWJSX012MWFWNkxfYXV1UXRoLVJoRjI4bFlJdWdhdEVsd2pfUTlyWkE3SlV1azJ5a2owMHN2RHpWX1RQVGdmc3NpYlJGYnlmTk9mZThhaTMxUG1jc1NI?oc=5",
     "pub": "Sat, 27 Jun 2026 06:58:06 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAzRU5JMHhTSGQ5UFRGdW5UTmdpMzZ1MEpaN0t5NHhOWU5FYXZNMWRHd1YzRkZKNlpUZFVQVUJ5LUpYUkl4UFdjZ2gyWktrTUlyZE43UXQ0NWNWZFZqMTEyYmEwQVFwYjJhZlBKU2JnZmNLdXl6am52bkI3Q2pRa2s?oc=5",
     "pub": "Sat, 27 Jun 2026 03:21:55 GMT",
     "src": "PANews",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US government allows Anthropic limited release of AI model that sparked cybersecurity concerns - CNN",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lX2FHbTI1SEJfWTJ4WmMyeVdfSHo3V3NDbndfbUdaTFAyRlJtX09WY0pUWkIzTkVpOEhpcmEyY2xPeElZdW04eU9hc2Q2TU1xcDhlUzR4WU1iamN1OXJDQkY2d3NMQ3p5WTRYNg?oc=5",
-    "pub": "Sat, 27 Jun 2026 00:22:00 GMT",
-    "src": "CNN",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60318.72
+   60303.41
   ],
   "vixts": [
    0.937,
@@ -2193,7 +2193,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T09:41:42+00:00",
+  "checked": "2026-06-27T09:51:42+00:00",
   "openai": {
    "found": false
   },

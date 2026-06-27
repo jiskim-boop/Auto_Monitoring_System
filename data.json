@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T18:32:18+00:00",
+ "updated": "2026-06-27T18:42:07+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -371,16 +371,16 @@
   },
   "PWR": {
    "price": 687.87,
-   "chg": -4.28,
-   "chg5": -2.05,
-   "sma20": 703.72,
-   "sma50": 703.75,
-   "sma200": 593.88,
+   "chg": -2.0,
+   "chg5": -3.77,
+   "sma20": 705.83,
+   "sma50": 701.83,
+   "sma200": 593.11,
    "high3m": 785.24,
    "reg": 687.87,
    "pre": null,
    "post": null,
-   "regClose": 687.87,
+   "regClose": 718.59,
    "sess": "reg",
    "mt": 1782504002,
    "ok": true
@@ -451,16 +451,16 @@
   },
   "URA": {
    "price": 43.59,
-   "chg": -0.75,
-   "chg5": -8.77,
-   "sma20": 46.94,
-   "sma50": 50.9,
-   "sma200": 51.28,
+   "chg": -2.53,
+   "chg5": -7.45,
+   "sma20": 47.3,
+   "sma50": 51.12,
+   "sma200": 51.34,
    "high3m": 58.26,
    "reg": 43.59,
    "pre": null,
    "post": null,
-   "regClose": 43.59,
+   "regClose": 43.92,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
@@ -755,16 +755,16 @@
   },
   "^VVIX": {
    "price": 89.02,
-   "chg": -6.86,
-   "chg5": -5.83,
-   "sma20": 92.94,
-   "sma50": 94.3,
-   "sma200": 102.93,
+   "chg": -2.38,
+   "chg5": 0.67,
+   "sma20": 93.09,
+   "sma50": 94.13,
+   "sma200": 102.81,
    "high3m": 133.18,
    "reg": 89.02,
    "pre": null,
    "post": null,
-   "regClose": 91.19,
+   "regClose": 89.02,
    "sess": "reg",
    "mt": 1782504901,
    "ok": true
@@ -835,9 +835,9 @@
   },
   "LQD": {
    "price": 109.5,
-   "chg": 0.0,
-   "chg5": 0.39,
-   "sma20": 108.88,
+   "chg": 0.08,
+   "chg5": 0.67,
+   "sma20": 108.87,
    "sma50": 108.87,
    "sma200": 109.63,
    "high3m": 110.04,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60419.98,
-   "chg": 0.67,
-   "chg5": -5.52,
-   "sma20": 63070.8,
-   "sma50": 69835.75,
-   "sma200": 74676.0,
+   "price": 60447.03,
+   "chg": 0.72,
+   "chg5": -5.48,
+   "sma20": 63072.16,
+   "sma50": 69836.3,
+   "sma200": 74676.15,
    "high3m": 82138.93,
-   "reg": 60419.98,
+   "reg": 60447.03,
    "pre": null,
    "post": null,
-   "regClose": 60419.98,
+   "regClose": 60447.03,
    "sess": "reg",
-   "mt": 1782585109,
+   "mt": 1782585695,
    "ok": true
   },
   "USO": {
@@ -1165,11 +1165,11 @@
     "geo": false
    },
    {
-    "title": "LTFRB suspends EV taxi operation over viral robbery prank - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHIweXJaMnRRT0o1SkZiUUtMSDQxNjNQVTBxNEJrZTJtWkJVTEJ2UVYxRklOeXVtTjdLSkswZmtDYmZCdGpaVm1kZnBDV3A0RTBWN0Zwb2dwT1JyMnNqSFBYVWlPS3A5ZFRFeEZZaWlKdWlhRl9SSllNM3VpUlB6emZtNVhvZlBUbE1qODdOcTY5STFveC1OQkVNYUxtTGdPU3VLcE9HS01Ua2xQeUxn?oc=5",
-    "pub": "Sat, 27 Jun 2026 01:32:13 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
+    "title": "Private credit default fears spook BDC investors - thestreet.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbDYtN2hXS2RiMTVVbWJZWGdvVGp1OWY5V0pVZ3E5Rm1UYXdQOHdnRWZ0enJrX0dTZWJQbU1pZ21pU0QwX1JxNW5ENDdXb0NGcUhpbldsazA3S3VLUkFXTDJRSE1XRlRLakMyNzF0WkxHbGtESUZ6VEtNU0hNMVhRMk1CWUUtdw?oc=5",
+    "pub": "Fri, 26 Jun 2026 19:17:00 GMT",
+    "src": "thestreet.com",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1179,6 +1179,14 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5DLXdpSjQwMGNDMGVHX09kMEhTNjBYTHo0SDZYLUF1WkR6Sm5iVWlReUIzNHRIZHE2c1NheEh5UVpDZ3lwNXRjTlZwYTlqZjBIVk5mbE9SWFcyNWppbWxLMWVnNkJ2cXhjQW9YbWpBRUpBeEhfeV9FeQ?oc=5",
     "pub": "Sat, 27 Jun 2026 15:04:29 GMT",
     "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The $2 Trillion Question Nobody’s Asking About the SpaceX IPO - InvestorPlace",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV1lhSVhNSnNkT21EQS1YTGt5Y0NHTUlhVGhpaWtId3k0b1ZIaUl1eVFDZmhBYkxEN1I1Z2wxSUJDZ3JnZWdKcUYtU1UtTlRHNWxuUEgtcGRNNTR3REVrWk9NOTNzRVRud1dZbVhzeGlRbUZ3VDNVX3V6WmZLM0ZYREJ0NjNUOEx4S3NrTXpnbzllTXFVWkQwSlp6YVpzYkM0MjV2YVRkTQ?oc=5",
+    "pub": "Sat, 27 Jun 2026 14:05:48 GMT",
+    "src": "InvestorPlace",
     "trig": false,
     "geo": false
    },
@@ -1199,39 +1207,23 @@
     "geo": false
    },
    {
-    "title": "NVIDIA (NVDA) Weekend Outlook: Why the AI Leader Is Down 17% Despite Record Earnings - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxObmpOaHNnQmpZQmxtbVBxUzJ3Z3M4T0czTXdTcXhqQUxUbEdNRFlTbHF3OEtoLVdKdGNGRjB0TWVEQ0M4bm1wSFBIV2ZVYTlnYzhDcm5QOXJFbHM3eGhtOE5DZTlSeU5obTJYNHFNU2FrSlpZak0tTjNrS3gza3E1ekREWmpWRTJTQWVGZlk1T3RrenplZ1VaSnZXb0JHcDlDT0hUcFkyQzV0YlROTmF4ZW51ci1zeS1nbUxWcnphWVFaYTRsT3Y0c0VLXzc2Y0ZFM2xHb0lsMm1uVWc?oc=5",
-    "pub": "Sat, 27 Jun 2026 12:05:04 GMT",
-    "src": "TradingKey",
+    "title": "SpaceX to launch Falcon 9 rocket Sunday. How to watch CA mission - The Desert Sun",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNTERnRTQ4Rm54MnlUMkc3dHhzQVNXeGZvTzViV3lrcjBDcS1fcGM3endZTnEyZzA1T1RqMVBnc09lT2ZRZkZyRGRpX1hGeHAwTWxnd1E5VXFQcmV1NlJNVjB4T3ZGcU5YNUNuQXRuSDdYZ3kyeDFmbjZhZXBud3IyQ3ZVWXREb05VbXBqclpXamVMN28zNm9SN01ZUzhFZVJ0VmN1bWNZSFc2VmRmU2tn?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:01:00 GMT",
+    "src": "The Desert Sun",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Anthropic Granted Approval To Release Claude Mythos 5 To 100+ U.S. Organizations - LinkedIn",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNYkIwSVpGWDlJeEM0MUNLZFhGOUUwR1R4QjdlRm5TQTJmZVIzNHVQSGFUaEtyS1lqSVlpYXpieWV3UmNjWDllRFpJNDNYY3J3LVZDdUZORjFwaGx2TTJVMmlodndNWU1RWjhVZDFJTzdnOXVGUzRVQVNlU1hZY2RheFFaSGZrMG5uZVFrVzNB?oc=5",
-    "pub": "Sat, 27 Jun 2026 12:00:09 GMT",
-    "src": "LinkedIn",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SoftBank Group (TSE:9984) Faces A Longer Wait As OpenAI IPO May Slip To 2027 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTV9xZkhrNlBtVHVMR3pGbkxZd3N5cEVuYU1SdmMwWG8tU2pCVVU5QnJ0dElMTVhJOWVTWTBXWndpWWNkQ0F3SnFIdkl5OERuR0FpeXZ4MUVqejVPdDNRQjVMcXJ3NVR6Rkl1NXFRYzFfNHpWdy1DMkgwYkJGV2FfeWZ5QnJQWmRwdjBXd2M4MEd1VDUxc0c5UHJR?oc=5",
-    "pub": "Sat, 27 Jun 2026 11:14:34 GMT",
-    "src": "Yahoo Finance",
+    "title": "The SpaceX IPO Put a Spotlight on Starlink -- and on the One Public Company Building a Rival Direct-to-Phone Network - PR Newswire",
+    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxPdVdxNkI4MllZQ0pBS2JQWlZsVzlxX19CZEVSMVVPcGlKdnp3T2JmVjJBMnNhYjg1VVplRjhoMmVrY0gzdGswQlJxdGFvM1dvMy03dDd1YmdJMUxtalgwN2g1b1VnM2cteEtDa0daZHYtWlIxUEp3VjI0bWtQcEZxWGMzQklFZWNFWW1lN2tqYmY1MS10Y1pXQWE2N0FUQy1RTlJ4QzJTU1dhN21mQXpQSHU4ZnZCTDZxVnFvajNEbTk5cGV6ZnQxYlA4ano4WEM4bS12NldoN0YzUmxacmdiR0xKNHp5cUxJeFV1cXRoYTBFdjRrRXh0bjRrVWZrMEU?oc=5",
+    "pub": "Sat, 27 Jun 2026 12:08:00 GMT",
+    "src": "PR Newswire",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "CZ Points to AI, Geopolitics and Market Cycles Behind Crypto Sell-Off - FinanceFeeds",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZFBYYmJDMTk2ZVI1bDc3WEF0MlZkTXMtUk8zRTdkRTNKRnVBMXBDU2M2aF9nX3RFRWxJdzdmVVhGTzRXbFQ4eUlfQnVla0VEWGtjTjFWUm1kNUhRMmVTT1lMS05vWlRZbVl0eW4xemdxZFF5d0VZR2loczZsNXZmeHUzZTVUUThEY0RkTWZkMzc1bktqNElqdDZR?oc=5",
-    "pub": "Sat, 27 Jun 2026 17:11:33 GMT",
-    "src": "FinanceFeeds",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Could SVOL’s High 20% Yield Backfire? 2018 Says “Maybe” - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBCLW5rZm9IU2RIMnIxcndTV2FvOThtdXpwenl1UkpYTlJwdnpXcVFRZVVPaTJJbEpTUV9VdXZXcEI3djVwNXMycEVwU3pianlPQmtVQXZFQi1WQktFYzR6R1JKVHNkNmRnU1V5bExYTW8zeVhnQWo0?oc=5",
@@ -1271,21 +1263,37 @@
     "src": "Investing.com",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Trump accuses Iran of violating ceasefire with drone strike - MSN",
+    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxQTlJ1WEFybDUxazFwOFlwUnNvM1VDS2E2dWp2TjdPUlUtQ0EweXRnSkZXcEZlWnJCRWVZNTBXUzJrYi1hT0ZZLWpXZlRqeVdVYzBlYl9zYTFWU2xXT2F6Ni1KNldEUldERWVTMGVIX2lZUkw4NlhicGNJbnBTejNsVm8xT01seWhicWhDUXYtZGxhX2lzbnQxZ3lUZ2g0cTE3Y0V5T3NLNUdwUDBOal9wajFseTdIcVRMVy1rbVdYbF9VbUFpSTFjOUR4WlFpUGtnbDF0UUJTOTNZWW41ZWVfMkktZ0p1WWRNZFdrUnlYcnkzN29jdmRkckEtVWFHMFVUS3oxa19vSXlDd2Jrb2tfMGpKc2pUdzZzOTRiM2gzMkN5QTdHc2dr?oc=5",
+    "pub": "Sat, 27 Jun 2026 09:29:32 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Price to book forward of Pecoy Copper Corp. – TSXV:PCU - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOWkw3WjVJcDY2WXJDT1c5WUZRVUlBcU5oT3hYY29kdXNUQ1NmT3M2STYxMEVUc1E3bmctN1c0T0gxLXRfZDJESGVZcndqWjZzTGZ4SFdnSllrN0Vka0hKcFpTMHpHMjRGX0U2MWl6WndseF9QdW9wNzFxbUpHR3NiMEhVQmM5LUxEamxyQzU0ZldKU1FvR1pFaA?oc=5",
-    "pub": "Sat, 27 Jun 2026 16:04:37 GMT",
+    "title": "Why Thursday’s June Jobs Report Could Move Markets - Mott Capital Management",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1pNlRvNS1lS0pPN1NSVlBuVHFzR0xmdnpaT2psZUZNaWtEd1JWNHk0Q2h3NzQxTzgwNF9CenRUWV9COUZ2blFMQWdrMnpsR1dyRl9HdmdMSDN3aXR4bW01NjJ4TWI1UWFnZjhsYi1aQ2ozcWk0?oc=5",
+    "pub": "Sat, 27 Jun 2026 17:20:43 GMT",
+    "src": "Mott Capital Management",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Price to earnings forward of Bell Copper Corp. – OTC:BCUFF - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTmpjYm5mdVl3ZHZZVkQ4bExnSkFWSHhfRUVmWk1zTXloSG5BQ3c1OVFlMjZHRWxxLXAzZ25qMFF3Q0NLeVVFd2tXOHdEWlU4VzZySTJHTVZUbHNuZEtUUGFlQUZIbU4xUTdxNTZiaFZjZWdxRTZQaGpVM0pFUjlmSFBCLXFjUlpmUjR5dG1yZVR2YVhjcE9uZkxPZU50VEE?oc=5",
+    "pub": "Sat, 27 Jun 2026 17:08:02 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
    },
    {
     "title": "Gold Rate Today LIVE: US Gold Climbs Above $4,088 as Dollar Strength Bullion Market Amid Fed Rate Hike Across Washington, San Francisco, California & Los Angeles – Check 24K, 22K & 18K Gold Prices - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOU2N4TXBPc2pTNmJoY01meGt1bVV5VllvR0M5QXotN0IxaVFlSkJkLWJMWnBLWGo5ekFuTmV6RUhDMUZqSGFOMHlpckh6cGNpeDN3SkVXdHhEODgwQm1XUHl3NWhXbmJhUTJ6NW05RV85anBqQWdqQmI4NzVVbF9TWnZNZHlhcVlZXzVKaGZfU2ZfSEhyQmctbmxGbUVmU1gwVWV1TE5MRm5ra0NQU19sN3kybWlpM01ZWnBQd2dVNExENlJzTkM0M0dSbkJfU1JZZXBWWktUODNhUEJpTDhSZHREQnNLTUxKTGtPUzJzOGJrQlRyWmU2MEVSNDduRmdzUXpzZVE3cDF4aUxJaGx0SnVrcVVXR0ZrS1AyWGhjOTJvcTUtdnhmS3FHTXQ5dlRoQ09NdEtVSXJTQ0ozMzdJckhmS2ZhOERsMVp5NHJ3WkNzQTRuaGxF0gHXAkFVX3lxTE5TY3hNcE9zalM2YmhjTWZ4a3VtVXlWWW9HQzlBei03QjFpUWVKQmQtYkxacEtYajl6QW5OZXpFSEMxRmpIYU4weWlySHpwY2l4M3dKRVd0eEQ4ODBCbVdQeXc1aFduYmFRMno1bTlFXzlqcGpBZ2pCYjg3NVVsX1Nadk1keWFxWVlfNUpoZl9TZl9ISHJCZy1ubEZtRWZTWDBVZXVMTkxGbmtrQ1BTX2w3eTJtaWkzTVlacFB3Z1U0TEQ2UnNOQzQzR1JuQl9TUlllcFZaS1Q4M2FQQmlMOFJkdERCc0tNTEpMa09TMnM4YmtCVHJaZTYwRVI0N25GZ3NRenNlUTdwMXhpTElobHRKdWtxVVdHRmtLUDJYaGM5Mm9xNS12eGZLcUdNdDl2VGhDT010S1VJclNDSjMzN0lySGZLZmE4RGwxWnk0cndaQ3NBNG5obEU?oc=5",
-    "pub": "Sat, 27 Jun 2026 13:53:31 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxNemtreUxKSS1xRnlZdzdSOFozQXRjZFBoNTVkNVBUdjJDMnk0WE5sakFwMzBpY0ZGOXRvZTZVNjBVUW5DcVNvYkR6bEQta0xwaFhHNWhhWjJYY3hOVWhZTDRndHBUbC1FeHRzcjBNMENGVXRWRDREQ3kzcWg1T2owM0pLVTdfLUVqdWNsRFM2NV9ESHJXNzlJVTVHZk85ejQ4Q2lWYTEwb0FWUHJOTmtiNVpRRkppU29XZUNBZFBCSjFES0kyOEpLaEY1dUxqMUMzTEtLRENaV3pfaHFLdGdZaFJaN0JUTmNqQW9rSlVUQ1lrVldCa1h1RElhQlZrVGl1TkR3TDhwdGhRcU1RcVpCcXc5YXVBUXd4b2xLZ0NMeVBpMEpYemE3UXl6TDRCdjdxNXVIWm5VZGpqNVZvX0o0d3BKdXk1Y0loQmMxRVRPZF84QdIB1wJBVV95cUxOU2N4TXBPc2pTNmJoY01meGt1bVV5VllvR0M5QXotN0IxaVFlSkJkLWJMWnBLWGo5ekFuTmV6RUhDMUZqSGFOMHlpckh6cGNpeDN3SkVXdHhEODgwQm1XUHl3NWhXbmJhUTJ6NW05RV85anBqQWdqQmI4NzVVbF9TWnZNZHlhcVlZXzVKaGZfU2ZfSEhyQmctbmxGbUVmU1gwVWV1TE5MRm5ra0NQU19sN3kybWlpM01ZWnBQd2dVNExENlJzTkM0M0dSbkJfU1JZZXBWWktUODNhUEJpTDhSZHREQnNLTUxKTGtPUzJzOGJrQlRyWmU2MEVSNDduRmdzUXpzZVE3cDF4aUxJaGx0SnVrcVVXR0ZrS1AyWGhjOTJvcTUtdnhmS3FHTXQ5dlRoQ09NdEtVSXJTQ0ozMzdJckhmS2ZhOERsMVp5NHJ3WkNzQTRuaGxF?oc=5",
+    "pub": "Sat, 27 Jun 2026 13:53:25 GMT",
     "src": "The Sunday Guardian",
     "trig": false,
     "geo": false
@@ -1310,14 +1318,6 @@
     "title": "Price to sales forward of Los Andes Copper Ltd. – TSXV:LA - TradingView",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ0VSRXNIeUlCLWJZS1JEOHV0cnczYnlJOUtfeTYtdjUwb1hhdTFZeUhTVUFON2tyLXVuNWd2bGpkdkxmNVU0eW5Xem1lOWFqaGlLMms2dEtNTlRaOUJCODMtU3Bnak9mN0tnNHhUUGNCS1Q0dmN0MXF0ekJ0bEJvbXFSU1I1YWlmLWtpWkY2OHVIYS03YVFGbw?oc=5",
     "pub": "Sat, 27 Jun 2026 11:18:58 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to earnings forward of Los Andes Copper Ltd. – TSXV:LA - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOM1YwQTcteUxnOEFpM2VRWGtmZElvRmpZSG5qQXlZWFF5dm95VjZ2R3dCYnpzekM4WVFRY1hPVnJBTlJQRGtad3VWMjlYMkdYQk91R0YwZkZpSEstdXIxZW1DV00xNjB1SFU1MzRSaVA5Y0hxUm9UZnUxV2dscjk2V2hsQnJvQkVIaGkySURLa012eHVBeFhIVHlyMlM?oc=5",
-    "pub": "Sat, 27 Jun 2026 11:18:09 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60424.46
+   60447.03
   ],
   "vixts": [
    0.937,
@@ -1684,7 +1684,7 @@
   ]
  },
  "summary": {
-  "text": "달러 강세(DXY 101.4)와 높은 밸류에이션(CAPE 41) 속 지정학 리스크가 신용시장 압박으로 작용하며, 모건스탠리·아폴로 등 사모펀드의 출금 제한이 신용경색 신호를 보이고 있다. AI 칩 수급에서 엔비디아 공급망 이탈 움직임과 GPU 렌탈료 급락(31%)이 나타나면서 반도체 가격 인상(애플)이 이어지는 등 AI capex 사이클의 수급 변동성이 확대되는 중이다.",
+  "text": "우크라이나-러시아 지정학 긴장 속 VIX 18으로 변동성이 낮지만, 사모대출 펀드 인출 제한과 HY스프레드 확대(2.78%)로 신용 경색 신호가 나타나고 있다. AI 칩 수급 재편 가운데 엔비디아 독점 약화와 AI 인프라 비용 상승으로 인한 메모리·스토리지 가격 인상이 하드웨어 밸류체인 전반으로 파급되는 중이다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1693,7 +1693,7 @@
    "spy": -1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 0,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -1958,7 +1958,7 @@
   }
  ],
  "gpu": {
-  "median": 2.73,
+  "median": 2.69,
   "hist": [
    {
     "d": "2026-06-25T19",
@@ -2150,7 +2150,7 @@
    },
    {
     "d": "2026-06-27T18",
-    "v": 2.73
+    "v": 2.69
    }
   ],
   "stale": false
@@ -2192,7 +2192,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T18:32:09+00:00",
+  "checked": "2026-06-27T18:41:57+00:00",
   "openai": {
    "found": false
   },

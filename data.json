@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T08:02:10+00:00",
+ "updated": "2026-06-27T08:11:43+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60392.45,
-   "chg": 0.63,
+   "price": 60389.1,
+   "chg": 0.62,
    "chg5": -5.57,
-   "sma20": 63069.43,
-   "sma50": 69835.2,
-   "sma200": 74675.85,
+   "sma20": 63069.26,
+   "sma50": 69835.14,
+   "sma200": 74675.84,
    "high3m": 82138.93,
-   "reg": 60392.45,
+   "reg": 60389.1,
    "pre": null,
    "post": null,
-   "regClose": 60392.45,
+   "regClose": 60389.1,
    "sess": "reg",
-   "mt": 1782547284,
+   "mt": 1782547881,
    "ok": true
   },
   "USO": {
@@ -1183,14 +1183,6 @@
     "geo": false
    },
    {
-    "title": "AI: Blip 2.0++ extends, OpenAI IPO now 2027?, 'RAMAgeddon' reaches Apple, & More. AI-RTZ #1130 - AI: Reset to Zero",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWVhDcUFtc3k0UDY2T0FuYk9uSEQwRjlhNzBveUI3R1pIT3FoZTRRVlNwWU1kYTZ1Mkt5UTRSdEhwRURzNzhtWlg0aGdLQUNRR1k0UmVaRktKM0hzcU1KLUVjcDNsdUtSNG1JamtYQnZtNFBVNzFhSHJ5NFIzU3RJeE1TWng?oc=5",
-    "pub": "Sat, 27 Jun 2026 05:02:31 GMT",
-    "src": "AI: Reset to Zero",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nvidia's Two-Front Battle: Record Revenue Meets a Fracturing Market - Ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNNEpkZnVJaVlMNWE5UDFBRERYSVdvaDhKd0RoMHhQZmhTamMwblFoZ0ROeXB0d3NTVjljOWc5bEFpY3NEX3prbVVqMHBIcVBtSlcwUmJsSEtnWXFVdHMwd1ktcVpIRWtuMmQxUmEwWDgzV21ZM2VrbDlyVGdmd3NqMHlnVGFQNmgxcG01RVpmRlI2anpva1QyYXA2Mi1wREtfeDBCd1J5c1BtQnJGbzlZNHVBaHdiTGVxVlNOMS1vNDRvSUU?oc=5",
     "pub": "Sat, 27 Jun 2026 04:35:29 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFByRGM1ZVBPM1d1STgzNUFTbGFiZHREbUUtUGpVN1BhVS1QLWRMYXgxRFRqNHRSc0RqWHMtSHpza3ZQU2VIZWtMRHJwNV9wVEZweXVBRHZTaFQ2MGhJS1pKV2FOREltckdsWnJ0bi1PaUZtQQ?oc=5",
     "pub": "Sat, 27 Jun 2026 00:26:00 GMT",
     "src": "WIRED",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US government allows Anthropic limited release of AI model that sparked cybersecurity concerns - CNN",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1lX2FHbTI1SEJfWTJ4WmMyeVdfSHo3V3NDbndfbUdaTFAyRlJtX09WY0pUWkIzTkVpOEhpcmEyY2xPeElZdW04eU9hc2Q2TU1xcDhlUzR4WU1iamN1OXJDQkY2d3NMQ3p5WTRYNg?oc=5",
+    "pub": "Sat, 27 Jun 2026 00:22:00 GMT",
+    "src": "CNN",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60392.45
+   60379.92
   ],
   "vixts": [
    0.937,
@@ -2193,7 +2193,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T08:02:06+00:00",
+  "checked": "2026-06-27T08:11:40+00:00",
   "openai": {
    "found": false
   },

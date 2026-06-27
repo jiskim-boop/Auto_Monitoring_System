@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-27T02:51:47+00:00",
+ "updated": "2026-06-27T03:02:32+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -915,16 +915,16 @@
   },
   "^KQ11": {
    "price": 851.37,
-   "chg": -4.1,
-   "chg5": -11.92,
-   "sma20": 981.02,
-   "sma50": 1092.78,
-   "sma200": 1082.4,
+   "chg": -6.37,
+   "chg5": -14.94,
+   "sma20": 993.67,
+   "sma50": 1097.75,
+   "sma200": 1084.33,
    "high3m": 1226.18,
    "reg": 851.37,
    "pre": null,
    "post": null,
-   "regClose": 851.37,
+   "regClose": 887.81,
    "sess": "reg",
    "mt": 1782464740,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60211.89,
-   "chg": 0.82,
-   "chg5": -4.78,
-   "sma20": 63221.55,
-   "sma50": 70235.0,
-   "sma200": 74755.41,
+   "price": 60176.9,
+   "chg": 0.76,
+   "chg5": -4.84,
+   "sma20": 63219.8,
+   "sma50": 70234.3,
+   "sma200": 74755.22,
    "high3m": 82138.93,
-   "reg": 60211.89,
+   "reg": 60176.9,
    "pre": null,
    "post": null,
-   "regClose": 60211.89,
+   "regClose": 60176.9,
    "sess": "reg",
-   "mt": 1782528688,
+   "mt": 1782529324,
    "ok": true
   },
   "USO": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "LTFRB suspends EV taxi operation over viral robbery prank - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZHIweXJaMnRRT0o1SkZiUUtMSDQxNjNQVTBxNEJrZTJtWkJVTEJ2UVYxRklOeXVtTjdLSkswZmtDYmZCdGpaVm1kZnBDV3A0RTBWN0Zwb2dwT1JyMnNqSFBYVWlPS3A5ZFRFeEZZaWlKdWlhRl9SSllNM3VpUlB6emZtNVhvZlBUbE1qODdOcTY5STFveC1OQkVNYUxtTGdPU3VLcE9HS01Ua2xQeUxn?oc=5",
-    "pub": "Sat, 27 Jun 2026 01:32:13 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Apple said it was raising prices for its MacBook computers, iPad tablets and other products, citing spiraling memory and storage costs sparked by the rise of artificial intelligence. I via ANC 24/7 Link of full story in the comment section. - facebook.com",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNNGkxZ1ROd2VETTVybmQyTFVaQ1ZZWTFkM3lKUDJZMFVJS2pMUVBSdmtYVU4zWWp4S0NZWjdKMlpVaThmVWRmZGxwdFBMdHotekdITmJhZnZaOXVmalk4R0NYb2VfMTBQYkdxeUVKWWtaTlRCeE1BVTZvXzFzblEwX19qSHNfblpNWkJCaDI1bFd2dFlZUDFQVFZrUnllX29jcGF3ejVubE1nR2pPUU1OQUJBLXFHUlNlNmNuYnVobG5Ha0F5c3V3WjFSY3RyTTZTMmlzSG5qNA?oc=5",
     "pub": "Fri, 26 Jun 2026 23:21:12 GMT",
@@ -1146,6 +1138,14 @@
     "pub": "Fri, 26 Jun 2026 19:17:00 GMT",
     "src": "thestreet.com",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Consumer confidence drops while business confidence improves—BSP - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOR3RlcHlTU3U4a1hINk0xNkdFOXVzcWxtNWdxalU4a01PLU0tbm1pV05aUWUwbk1PWGREZmRFaDJmeFg2WXRXS1RLY3dwYl9iZV84NVRiT0s5Mk5IdVJ5UjdiOUNKdE1MNmY1Q3ZKczFIc1VEaWhaWGhvb2hNeEZJa3JTaTIxS0g5bFhIRkhnbkMtSnlYNThXRmF1MXUwWk8tMDM2UXpXdjRweURBYmhYVWRyeVFlal9Y?oc=5",
+    "pub": "Fri, 26 Jun 2026 18:57:29 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
     "geo": false
    },
    {
@@ -1275,6 +1275,22 @@
   ],
   "flow": [
    {
+    "title": "Gold Struggles Under Hawkish Fed and Easing Geopolitical Risks on June 27, 2026 - InteractiveCrypto",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZmRpSEF4blQ4a1otV21GSkI5WWhKZlhIQ3dibDFEeGtLRE02WEpxbnpiczNVMnAxYjNmZmZUZHFwRFR3TWVZZ0d0UERTbTFHY3lJZXJONnpsbGpSRERfNDNhTE5IeUxuQ1RuUHprbTFYZFdsV3AtVE9WREprUWVyNG5LYkVtZ3lmYVdtVDREejNHS2RtNWU3X0xMZWdUZzdQT25pUHQ3aEhhcmp6Y3N5eXZXYU1NejNxd2dWai1B?oc=5",
+    "pub": "Sat, 27 Jun 2026 02:49:08 GMT",
+    "src": "InteractiveCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Dollar-yen holds near 162 despite BoJ hike, as carry trade persists and intervention risk builds - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQZVpDWkktQU4yRjdmWHNDQ0FnVjg5Rlg5dlpyNWNpSUdQeWFyMFZvLXNTRHluc2pGT0s1aDdGdEFzbVNhVldldEVjTmRKVnRwbExMdGtJY2xCelkzczNqdEdZZTNXbUV1WHhtYnAtUDVKeGZUT3E3TE5xRFpqSEdOMnk3d214WkEtSjJVUXNzdkNDa3U3UHhybjN2cnpveWVuT19NbDI3QU92M2VYcVZLZV9Xa0pVT2I2ZlNvRVM5bEtGWGlnUXJnZS1LUWp2djRzdlpjaFpkajg?oc=5",
+    "pub": "Sat, 27 Jun 2026 01:39:41 GMT",
+    "src": "VT Markets",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US Dollar Index Drops as Stock Market Rally Softens Liquidity Demand - HarianBasis.co",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jZjdNYzFtTUZWNDgyNFg2RVYtYlJoLUI2VVRXUHpRNHBqQlpMTHdaT09qUWR6a3g2a1FBdEw5MjRqZzZlV040YW1Feklkc0dQNnJJam11eGtQN2JMalAtY2JmS0JHOGJ0RlgtS2ZXZzh3bE03bkdPdFZn?oc=5",
     "pub": "Sat, 27 Jun 2026 01:38:22 GMT",
@@ -1283,42 +1299,26 @@
     "geo": false
    },
    {
+    "title": "Price to earnings forward of Faraday Copper Corp – LS:A3DK5Q - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRWdlRXZfdlFEdk5zSEd2TXBOc2ZFeWRhcWNPRU5EVGxZZUFYMEg3RmNYSFY4MmhqMUxiUXZqa1hONFVOdEpFTS0wblpPRXFaZEl2ajVobnloYndaNkpoejFRX1Y5VEZLNUtnLW9yVmU0cWdSTWNCTlNjY2hXUW5VY2U4QlpLd3l1dDl3dlNZd1VrOUpaZUVEcW1VWEJvd1U?oc=5",
+    "pub": "Sat, 27 Jun 2026 00:53:53 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Price to book forward of Kutcho Copper Corp – GETTEX:1QV - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbVdlWnpYX2JRWnZlU0xETzctc0xERGhGWUZENTkyTVNBOFJpNVQ4aV9xdllIN3hGMWRVZGJHTXAySlRSWmZmTGpOT21VZFhIR2NnRUo1LUF6cTVjMHRQa3NCTzliR05yc0QyRW9yT3MyQWZvT0dRTFctMnI3VzV1Tzc3dW5XZFlWWEQzSEgyVWtFSE9ScExDZHdSWQ?oc=5",
+    "pub": "Sat, 27 Jun 2026 00:51:58 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Rise Above $70 on Iran Strike - WSJ",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVlRoWVBGTVZTdV9oX3FaYkVyOGN1UW9kazF4MXRmaFdORnBWa1ZWUU1iS2lFYkMtVnQ3RDQ1RmtPYk5tYVFZLTFjbl9zSHA3cWVHTkpiU3paak5KaHNlU0pENkY0RWdzYnJ4bWp2MDlVY3VkTEhiZlFOb0hTUmlmT2pjLVRPRlhObEEzRHVxazZaSjNNN0d0NUFNRUlZT1owR0FMZUJiMA?oc=5",
     "pub": "Fri, 26 Jun 2026 22:06:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Stocks in Asia Tumble as A.I. Uncertainty Jolts Tech Shares - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE05eXd6VnhrV0pYcVhTZWJ1NzJySng3SHNXZC1PcUNvemlkUlZkMjZxVEpCY3NIV2FRR3lNX3M0VFJZOUR0NE0zVVpWcTVVdUViVmJTQ1NLUF9oZlRNTEx4T3pqUFlobWF4MGkyRGJOT2ZCQktDWmc?oc=5",
-    "pub": "Fri, 26 Jun 2026 21:43:40 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Return to Prewar Levels, Four Months Later - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOZVFBVG0xbVNkUlBOWnAzbEZvMllFSUlpclhndUxRY1RZUGo0SlMtWDBqWTZlT1FzNDV2SDljWWdPYkJmdi1WUllJWHh1NmxjSGJYVDVNNi14VlBZRms2clVzSXdrYWdiZVJxaE1KeWJSd0lndUdsMkJmUFF6dGo2RE5vWDgxSzRQTjg0Ym8wa2E?oc=5",
-    "pub": "Fri, 26 Jun 2026 21:23:33 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Is Barrick (TSX:ABX) Quietly Reframing Its Safe Haven Gold Narrative After Earnings Beat? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQb1Y5eDlUUk5MRVRWWUl6YXlVQk1zTENxWHZtVUVtTWFTRUxCNktsRVNfdkV3Um4yX0htaklzQi1VYXZyaDJ3RE1fYnZENjl0cmtjM2FZdVdfNUxwUlo5V04wVEZTM0VMdkhwbVBTTDd2a2tVemQ0dlR4VjJaTDFxMmdmY0FycXlUMGM4UF9NMFEzTFFDal80cTZQbU9BdTdPbjVoa3FQaTlnY1JiYzU1dEhxOXE0UC15TzdWOFYzcURUYjYzeDlxRVRrMnJZMXM2VjRj0gHYAUFVX3lxTE5OV1VNeFZIZ2tJakVuRDd4OXl3TExFVFE0RnlfWkl3X2M1SnJYclY5bFBIZ1lRZTlTZF9xM1d2U3VodjBKcENTc1FtRmN0ZlBmSHdISDlIX0FncFpJQW82QklxdkdCLW5raUluMm8xM1Z1RFZYWVlCeFBxUTFiMEQ3d1BoMHRsMFVOOEY4UXNRMWd0dGFjcGp5ZlI0T0JTR2MtRWsyUDJHWFd6S3UzRnIyek10MDBpa1J2bF9LYmxodGl3TUE5dnViVWZpc3dlbUcwTnV0cUlHQQ?oc=5",
-    "pub": "Fri, 26 Jun 2026 20:39:07 GMT",
-    "src": "simplywall.st",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Dollar-Yen Grinds to 40-Year Highs Near ¥161.70 as the Warsh Fed Keeps the Rate Gap Wide and Tokyo's Intervention Threat Loses Its Bite - TradingNEWS",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNV21MVGptbENGUG1ZSkNQOF9NQS1ESjA1djF5cWdQLU43V1A4eWhDWkNLd2pJZVlTNFhrbFBqVmtfV3RyMWJseGxXb3NxVUFQclRFTWNqZ3pwMXVMTmV5SExEVHIyUUI4eG55eUs3QlVDRTBkaHBtcWdSMV83MUt4THVB?oc=5",
-    "pub": "Fri, 26 Jun 2026 20:15:38 GMT",
-    "src": "TradingNEWS",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73372.52,
    60922.67,
    63543.2,
-   60226.91
+   60244.27
   ],
   "vixts": [
    0.937,
@@ -1962,10 +1962,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-06-25T03",
-    "v": 2.73
-   },
-   {
     "d": "2026-06-25T04",
     "v": 2.73
    },
@@ -2152,6 +2148,10 @@
    {
     "d": "2026-06-27T02",
     "v": 2.73
+   },
+   {
+    "d": "2026-06-27T03",
+    "v": 2.73
    }
   ],
   "stale": false
@@ -2193,7 +2193,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-27T02:51:43+00:00",
+  "checked": "2026-06-27T03:02:23+00:00",
   "openai": {
    "found": false
   },

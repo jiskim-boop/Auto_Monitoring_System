@@ -1,0 +1,5 @@
+# 개인용 대시보드 — 검색엔진 크롤링·색인 비허용
+# 참고: 프로젝트 페이지(/ai-monitor)에선 크롤러가 도메인 루트의 robots.txt만 보므로
+# 실효 차단은 index.html의 <meta name="robots" content="noindex"> 가 담당합니다.
+User-agent: *
+Disallow: /

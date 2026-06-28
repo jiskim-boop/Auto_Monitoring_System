@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T02:02:34+00:00",
+ "updated": "2026-06-28T02:11:45+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -339,16 +339,16 @@
   },
   "TLN": {
    "price": 404.09,
-   "chg": -0.44,
-   "chg5": -1.4,
-   "sma20": 386.52,
-   "sma50": 372.03,
-   "sma200": 359.39,
+   "chg": -3.05,
+   "chg5": -7.38,
+   "sma20": 387.65,
+   "sma50": 373.04,
+   "sma200": 359.75,
    "high3m": 438.12,
    "reg": 404.09,
    "pre": null,
    "post": null,
-   "regClose": 416.8,
+   "regClose": 404.09,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -371,16 +371,16 @@
   },
   "PWR": {
    "price": 687.87,
-   "chg": -2.0,
-   "chg5": -3.77,
-   "sma20": 705.83,
-   "sma50": 701.83,
-   "sma200": 593.11,
+   "chg": -4.28,
+   "chg5": -2.05,
+   "sma20": 703.72,
+   "sma50": 703.75,
+   "sma200": 593.88,
    "high3m": 785.24,
    "reg": 687.87,
    "pre": null,
    "post": null,
-   "regClose": 718.59,
+   "regClose": 687.87,
    "sess": "reg",
    "mt": 1782504002,
    "ok": true
@@ -451,16 +451,16 @@
   },
   "URA": {
    "price": 43.59,
-   "chg": -2.53,
-   "chg5": -7.45,
-   "sma20": 47.3,
-   "sma50": 51.12,
-   "sma200": 51.34,
+   "chg": -0.75,
+   "chg5": -8.77,
+   "sma20": 46.94,
+   "sma50": 50.9,
+   "sma200": 51.28,
    "high3m": 58.26,
    "reg": 43.59,
    "pre": null,
    "post": null,
-   "regClose": 43.92,
+   "regClose": 43.59,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
@@ -611,16 +611,16 @@
   },
   "BIZD": {
    "price": 12.44,
-   "chg": 1.88,
-   "chg5": 0.81,
-   "sma20": 12.51,
-   "sma50": 12.7,
-   "sma200": 13.1,
+   "chg": 1.55,
+   "chg5": 0.65,
+   "sma20": 12.5,
+   "sma50": 12.69,
+   "sma200": 13.09,
    "high3m": 13.36,
    "reg": 12.44,
    "pre": null,
    "post": null,
-   "regClose": 12.25,
+   "regClose": 12.44,
    "sess": "reg",
    "mt": 1782504000,
    "ok": true
@@ -867,16 +867,16 @@
   },
   "QQQ": {
    "price": 706.52,
-   "chg": -0.58,
-   "chg5": -2.21,
-   "sma20": 726.22,
-   "sma50": 701.41,
-   "sma200": 645.55,
+   "chg": -1.38,
+   "chg5": -4.6,
+   "sma20": 724.76,
+   "sma50": 702.79,
+   "sma200": 646.04,
    "high3m": 746.16,
    "reg": 706.52,
    "pre": null,
    "post": null,
-   "regClose": 716.38,
+   "regClose": 706.52,
    "sess": "reg",
    "mt": 1782504001,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60153.42,
-   "chg": 0.23,
-   "chg5": -5.94,
-   "sma20": 63057.48,
-   "sma50": 69830.42,
-   "sma200": 74602.42,
+   "price": 60185.4,
+   "chg": 0.28,
+   "chg5": -5.89,
+   "sma20": 63059.08,
+   "sma50": 69831.06,
+   "sma200": 74602.59,
    "high3m": 82138.93,
-   "reg": 60153.42,
+   "reg": 60185.4,
    "pre": null,
    "post": null,
-   "regClose": 60153.42,
+   "regClose": 60185.4,
    "sess": "reg",
-   "mt": 1782612123,
+   "mt": 1782612684,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Live coverage: SpaceX plans Sunday Starlink launch from Vandenberg Space Force Base - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEhFN2xaNlVsa3hGTU83YUlxQWZvS0RmZktGbnhucURVZ2RObDRDN3FSVHh6VHpmdEF1Wl9vZFBxWjZybTRMSFlydjd1ZWNYenE1eU44eTN6QTBQNHNOX2FuOGhpMnNydm9GeFBTdVpsc0NkcC1BNk02b1NndlFSNkVodkZ3TzdTU1plbm1NMGVMRlcyaDh6VUNYdnlpOFJtQnl0Z05QMllxeDQtbG5tZndHeWlCWnpBQ1dIajFB?oc=5",
+    "pub": "Sun, 28 Jun 2026 01:18:55 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street Thinks AI Capex Is Unsustainable -- Here's Why Big Tech Keeps Spending Anyway - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTVhOOUpyc1hDZWdzOFNHNkE2TGEwcUdKT2k2VUlCM2U0TWJNNFd1dHpGdGh6ZDNSdmNvNmVwQlZmWHMxdVBNNHVOTVFnXzJ0RHNES3pVa0UzS0stZFBGWWdNWVEwWS1yX0V5N1JNVmRLYl9fWHZPRmcwZnN0QnB2NFExMWpNbXI5NVRHRFREcnA2SjBtNWk4LQ?oc=5",
     "pub": "Sun, 28 Jun 2026 00:52:34 GMT",
@@ -1191,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI hit with another lawsuit over Florida State mass shooting - WFTV",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMHJXQTNhd3ZJT1FzdldQVlpKdDJFSTJOMmI5c2tPYTlfRGt3WkxsOEFqRnozVnNvaUNJTzZsRjBpaGh3eXNxcVYzVE5ZdzRsRkZ0U1dQN3NIZUVBT256NVJjNUVpdFFjWERGX01LZUIzVURqMXBBRE9vQ2J4NTFwWmNCUEFrMGZONWZsaWM3bG1Tc2VQWi1NdUZoQ0dJMFllVU91NkNwTXpEdGZOQll4S2tRS2ZqNkZUbzlKTXFCRkZ6TUdHSHBV?oc=5",
+    "pub": "Sat, 27 Jun 2026 22:03:41 GMT",
+    "src": "WFTV",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "CI&T (CINT) Joins Anthropic’s Claude Partner Network - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZTRtV2RuMVp5Yl93TlVoSDgweGl3cmM0dWdrTi1fZld4UVpyb1dsek5FcVJnMkRva1l6b29Fek9wMFh6Qk5PNld5bGprOGlJdl93SjgzQUJjcTlnemdnel91cG83M3FvTEJSSXhiY3ozLXJ6Qms0VjJZRll3U1Bhc0QxdkhROXNiS1oxT3Ytam5LTmc?oc=5",
     "pub": "Sat, 27 Jun 2026 20:31:17 GMT",
@@ -1202,22 +1218,6 @@
     "title": "Alphabet Sinks 6%, Amazon Slides 4% Amid AI Capex Anxiety Across the Hyperscalers - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TNnhlWFNHQXNBZmZSSTA1dEZVeWJxX2F0a2dLMl9hXzNKdS1QTi01RHRPa0x6eXdmMHQtTHlfQ0VnbmwtanpFWHhJU0R1Tm9tbno4S1lZSlBjajIxRkFQN3ByNEZHYnlLZkxoU2RxeDM1b2Z1bko1dXFYS1c4Sjg?oc=5",
     "pub": "Sat, 27 Jun 2026 20:10:53 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft (MSFT)-Backed OpenAI May Wait Until 2027 for IPO - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV21BbzJEang2VFNfY2c5Y0hPUTlkQW9zUUNvSEdQQkdyc2lSRWt4dkIxUk1zNkVyQVBiLWJkdXRZU0dBUW9oMERWeHdIVDFKN2NZdkdDZ3EyTDNhZWFMT0Q1ampwbmZEX3Y3b1JTMmZqM0ZldDQtWnVsMUVsVEM3RkYtSEw5Tk42dzUtSHhVNXAwUFU0S1B3dDd2ZDc?oc=5",
-    "pub": "Sat, 27 Jun 2026 19:32:18 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Which AI Server Stock Has Dominated in 2026: Super Micro, Dell, or Hewlett Packard Enterprise? - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBoaUpBRHppU3R5M25UTUdEaTlPSWNYckw4SlRPM2M5dFl0SFBhMWdfVEJRdjJCU0liZnI1VklVRmVQendRVVoxb0dDMUU0cDJzSXlLNW9ualhMN0l6WlRqQmNHUEd5ZXJaRjgzTkxIQ1FuT2RFZEk2OUNwTUNLQQ?oc=5",
-    "pub": "Sat, 27 Jun 2026 19:16:16 GMT",
     "src": "AOL.com",
     "trig": false,
     "geo": false
@@ -1275,9 +1275,9 @@
   ],
   "flow": [
    {
-    "title": "Price to book forward of Bougainville Copper Limited – LSX:852652 - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLTJDOWZYNlZjeDNlbWNKZFpqbXFrX0l4S01Cd1V1UGZlUC1sd1dVWnNZMkp4S0dnN0lSY1lIVjNMR0wzWXo1WDVWTnpXbm1lVVA1YnZ3azY1SHFpZlphWmgyUVAxbm9QV1lidHBaWHlmR3A1NURfMWo2WFYxT3ZneEJ5X0xjNUtZTFJDcDBhT3NJYjRkVnMwejBfaw?oc=5",
-    "pub": "Sun, 28 Jun 2026 00:52:15 GMT",
+    "title": "Price to sales forward of Pecoy Copper Corp. – TSXV:PCU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeXVqTUdrdndUQUF2WVVNdFE3aUYyTkhaV3pnTE5NWGU4LTdzODVBeFd3M3NwclJLc1Jua3JQRC1aWllTeWhCU2VFSWZONm9pSlRZemFoSlkwd2gtNnNGNnRWbU93cW9yYnFhbDZhNlFnNEltempVWV90T0NGWVg4NnBudDdSVzUtY0dNVWhUTmU3Mkw5dTRDN3ZR?oc=5",
+    "pub": "Sat, 27 Jun 2026 23:54:09 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1291,17 +1291,17 @@
     "geo": false
    },
    {
-    "title": "Price to earnings forward of Cascadero Copper Corp. – NEO:CCD - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVg4UjkwT3pZZi1ndUJYSzNheVN4dVNmQldnSEs1dl9lenZOTWFpYlhlekhSOWczbkNjOVFiRmlHWklXZmlwWEZ2djJJR29ES2pVYXZhcGFGY0tDTXJGRHdtVVF2VVBES3FCN1U4R3RxcjJtc0lGdzBGWjh0X0MyUFdEbFR3ajFITUM0OUhvRWI4RXhaS3ZIbUFibWM?oc=5",
-    "pub": "Sat, 27 Jun 2026 21:39:44 GMT",
+    "title": "Price to sales forward of Bell Copper Corporation – TSXV:BCU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcll0TmdpdkpmV3VlLUozb1lVMDU0ZU5XNlJTRXF5c2FlZlhPalJSUnhxWEJTeDRfTjN5Mngyc1FLclM0aWRXQWYzTVF2Y2c3bWVMbll0UkE5VDB6eERocGI0NzJGTFVYRFNZeG14V2tNRFJXUDVOMkRHTVI3bWp3eXJ3NFlhR2VKUmd5OXZhc0hKWmNvbjdKdkRn?oc=5",
+    "pub": "Sat, 27 Jun 2026 22:17:02 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Price to book forward of Bell Copper Corp. – OTC:BCUFF - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdnI2UkgwMExnYk1kWjlTQ2hhSDA1ZDR0NmR6dmIzMjJIRWlOSzFOZGxWYkx4REpDdmhCcF9feDgySWR4azB5ck9BcGVERTVGczhiSWRDbVlIaG9qYWhnbVdMN25lWDVBZDRISmhhTXZ4WVNoZEliQjZILWJUd2JuTHpDaVdHREVpWHpDY0l5MDUxVTV2MGM4b3pR?oc=5",
-    "pub": "Sat, 27 Jun 2026 20:14:11 GMT",
+    "title": "Price to earnings forward of Cascadero Copper Corp. – NEO:CCD - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxONVg4UjkwT3pZZi1ndUJYSzNheVN4dVNmQldnSEs1dl9lenZOTWFpYlhlekhSOWczbkNjOVFiRmlHWklXZmlwWEZ2djJJR29ES2pVYXZhcGFGY0tDTXJGRHdtVVF2VVBES3FCN1U4R3RxcjJtc0lGdzBGWjh0X0MyUFdEbFR3ajFITUM0OUhvRWI4RXhaS3ZIbUFibWM?oc=5",
+    "pub": "Sat, 27 Jun 2026 21:39:44 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   60153.4
+   60185.4
   ],
   "vixts": [
    0.937,
@@ -1697,7 +1697,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2205,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T02:02:25+00:00",
+  "checked": "2026-06-28T02:11:41+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T21:42:04+00:00",
+ "updated": "2026-06-28T21:51:51+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59595.97,
-   "chg": -0.57,
-   "chg5": -4.9,
-   "sma20": 62872.08,
-   "sma50": 69404.79,
-   "sma200": 74519.25,
+   "price": 59266.08,
+   "chg": -1.12,
+   "chg5": -5.43,
+   "sma20": 62855.58,
+   "sma50": 69398.19,
+   "sma200": 74517.45,
    "high3m": 82138.93,
-   "reg": 59595.97,
+   "reg": 59266.08,
    "pre": null,
    "post": null,
-   "regClose": 59595.97,
+   "regClose": 59266.08,
    "sess": "reg",
-   "mt": 1782682898,
+   "mt": 1782683490,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.71,
-   "chg": -0.06,
-   "chg5": 0.17,
+   "price": 161.74,
+   "chg": -0.04,
+   "chg5": 0.19,
    "sma20": 160.67,
    "sma50": 159.39,
    "sma200": 158.05,
    "high3m": 161.8,
-   "reg": 161.71,
+   "reg": 161.74,
    "pre": null,
    "post": null,
-   "regClose": 161.71,
+   "regClose": 161.74,
    "sess": "reg",
-   "mt": 1782682900,
+   "mt": 1782683484,
    "ok": true
   },
   "ES=F": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "xAI unveils Grok 4.5, a significant upgrade powered by 1.5 trillion parameter V9 model - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1va1lHaG5wdVhfTlVhNWhhTTdHc1ZDeGN2SmJYdktEM2ZnTDBYSjRkRk54bXFHMjZ2QVZQX19MLXpsa1FRaHdNb3kzWVlzenZBeWt2S1g4UDR2TTNxSVNtNFRWRkpXRWxH?oc=5",
-    "pub": "Sun, 28 Jun 2026 20:42:30 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SpaceX launches Starlink satellites from Vandenberg Space Force Base - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEhFN2xaNlVsa3hGTU83YUlxQWZvS0RmZktGbnhucURVZ2RObDRDN3FSVHh6VHpmdEF1Wl9vZFBxWjZybTRMSFlydjd1ZWNYenE1eU44eTN6QTBQNHNOX2FuOGhpMnNydm9GeFBTdVpsc0NkcC1BNk02b1NndlFSNkVodkZ3TzdTU1plbm1NMGVMRlcyaDh6VUNYdnlpOFJtQnl0Z05QMllxeDQtbG5tZndHeWlCWnpBQ1dIajFB?oc=5",
     "pub": "Sun, 28 Jun 2026 19:36:27 GMT",
@@ -1195,6 +1187,14 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONUloRzJ5emt4bUZkc2NxeFFvMWpBSDZIT0FWa2R5aW1JRWNGZEROd0hBX2xaR3BGS2F6NzBqZmtiazV0dkdmejlUNDZ0UExybVAtOVNKVmRNQXpFZDJwMDZCU3lmVDZzejFiUEpHdUFrYk9NQUZkUGM2YWowWFJLWU5NUy04YVhLdDRKVnViNA?oc=5",
     "pub": "Sun, 28 Jun 2026 17:55:02 GMT",
     "src": "iNews Zoombangla",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Jensen Huang Admitted Nvidia's China Revenue Has Fallen to Zero. Here Is His $20 Billion Comeback Plan. - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ1NWVjJBcl96dU80OTdmUlZiT2RvRVd2NXJNVlVYSlpfLUFCRTJrbmhsWlIyd0paWUZad2NXT2V1dzc1aXl4ZkxJclJqNXVvZjhZaUNONTJJNXhZZWw0Yl8xeE4tRkhDdzFxZVBWNG5QQkNLckdPNlAyZHpma2ZobHBOZGxXUQ?oc=5",
+    "pub": "Sun, 28 Jun 2026 17:00:09 GMT",
+    "src": "AOL.com",
     "trig": false,
     "geo": false
    },
@@ -1550,7 +1550,7 @@
    159.35,
    160.33,
    159.96,
-   161.71
+   161.73
   ],
   "uso": [
    124.2,
@@ -1610,7 +1610,7 @@
    73579.69,
    63239.52,
    65710.4,
-   59605.73
+   59275.27
   ],
   "vixts": [
    0.937,
@@ -2206,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T21:41:57+00:00",
+  "checked": "2026-06-28T21:51:46+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T19:21:45+00:00",
+ "updated": "2026-06-28T19:32:07+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59427.21,
-   "chg": -0.86,
-   "chg5": -5.17,
-   "sma20": 62863.64,
-   "sma50": 69401.41,
-   "sma200": 74518.33,
+   "price": 59495.97,
+   "chg": -0.74,
+   "chg5": -5.06,
+   "sma20": 62867.08,
+   "sma50": 69402.79,
+   "sma200": 74518.7,
    "high3m": 82138.93,
-   "reg": 59427.21,
+   "reg": 59495.97,
    "pre": null,
    "post": null,
-   "regClose": 59427.21,
+   "regClose": 59495.97,
    "sess": "reg",
-   "mt": 1782674486,
+   "mt": 1782675103,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 161.72,
    "sess": "reg",
-   "mt": 1782674461,
+   "mt": 1782675091,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,34 @@
   ],
   "fundamental": [
    {
+    "title": "Wall Street Calls Micron the Next Nvidia as AI Memory Crunch Deepens - iNews Zoombangla",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONUloRzJ5emt4bUZkc2NxeFFvMWpBSDZIT0FWa2R5aW1JRWNGZEROd0hBX2xaR3BGS2F6NzBqZmtiazV0dkdmejlUNDZ0UExybVAtOVNKVmRNQXpFZDJwMDZCU3lmVDZzejFiUEpHdUFrYk9NQUZkUGM2YWowWFJLWU5NUy04YVhLdDRKVnViNA?oc=5",
+    "pub": "Sun, 28 Jun 2026 17:55:02 GMT",
+    "src": "iNews Zoombangla",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Best Buy Tech Fest Closes Tonight: Buy a Laptop Now or Pay 17% More by November - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNWUVHZDJmRDR0anMwTUQ4VWlGNDRHUVJoTHNveFY3RlZvY2g0X1VDX3hEQ00tSHc1RFB4eGV3aVJsakZYQzdiM0wtZXhMNVRLTzE4YllpRnNxVGlRT1lKRkd6OVUzSEZ2M25ReGhVcmdrTTlBb29xQUJmNG02ZTlidnJoVU43MHZuVEVqTkdGeE90MkRFUVJtcFVqYnhKalhrTnpOeEZnTVRMUFZTQ1BQYTg4OVRpWmhRRVNDM0xacjhFZw?oc=5",
+    "pub": "Sun, 28 Jun 2026 16:12:40 GMT",
+    "src": "Tech Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Prediction: This could be Nvidia's stock price by the end of 2027 - MSN",
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmhLQW9Lc1BfSTgxRGhZc1FMNkxvUjRuYVRsaEs4VmlJZGVKeE9qSDZfbmpEU1I0YTJRUXhmS25oUkRWY1o4cWRGTWcyd095YlBCQWx3czRnS056Y0NWdGhRZ09UVEQycnI1amRGWkI4NUk2MlczSmtEeEViVTRqbkl3c0hlOEtWU2ZfS2NlbkhjVkFscmYxakNZal9UbkhxUERPdXNUcjV1Q0NMR0hncVhVa3huTkROSXZ1aTF0M1IyLW0yTUh6WnFqeUl0c3JVU1NmbnFEdnY1d2Q0?oc=5",
     "pub": "Sun, 28 Jun 2026 15:58:25 GMT",
     "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Wall Street Sees A Nvidia-like Future For Micron — But Memory Cycles Are Unpredictable - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yNWRFUkU0aU5WalVsaXlBSzFUaWloOFZaLUVzTEdFZ0hHWHdjTmx0TTFMZVJCenJrTk5iZEJObkp1MHlSSXNkMDBMZEtzMUwydWRCV3p3eVVhTjJBc2NRdk9OWG1JUVFIUjMxWTEzVHV0Zy1kOFdn?oc=5",
+    "pub": "Sun, 28 Jun 2026 15:55:11 GMT",
+    "src": "Bitcoin World",
     "trig": false,
     "geo": false
    },
@@ -1195,30 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUFIbGdCbC02VTd3RUJ4dlV3UDVKM2dkMFU0UGlxUEwxUVNHR1JVNkdVX2RleExweHgtS3JsOHdtOTQ5ckxtbXV3eXQ5UGJHd0M0THpIWlhVV2w1YTRiaERXY0hJWWFUaXlsV3U3cndRMl9OQWp2Y0ZncFcySVQ5U3N0TTN5UXVXa0dEdU1wN1VRZEQ4OEhhZW00MUd1RjB5SVpoenVn?oc=5",
     "pub": "Sun, 28 Jun 2026 13:58:09 GMT",
     "src": "newskarnataka.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Claude Mythos 5 is back, but only for a select group of US institutions - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BRHRjM20xM1J2aUNXcndwbHR5OHQyWFdxSFpXUXFSRDA0MUlNa1RhNGhlazRaaERxeVVDd2V2Q0o4TkNGM3JFN1oyUkdOU3dDbDdyZkVDTTVwYU9RYTU0Mzk3WFEyMk9xR2tnbFdRTjd0RUQ1Z09vSA?oc=5",
-    "pub": "Sun, 28 Jun 2026 13:30:48 GMT",
-    "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NVIDIA Stock Is Down 18% in 2026. Is the AI Leader Finally Cheap? - TIKR.com",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTURVaVZZaE5DTXVEb1U2NW4tVDV3NFE4T0ZmUXhSdC1pRWRWSndDSEhoZ0xRd01LU29rYnNKZklxUWV6TjFwT2plSi1oTVE4Nm92eWRRLVdUN2Z1S19WNmZ3STYycUdhQVY2Z2k3SWxudDlST09mVXlKODktckVFLXhSYnFkaDRScU4zUDJSZndoUQ?oc=5",
-    "pub": "Sun, 28 Jun 2026 12:13:36 GMT",
-    "src": "TIKR.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI Infrastructure Investment 2026: $600B Hyperscaler Boom - Intellectia AI",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFB0NGtwSUdEY1B4Q0xrSVZ5WXZObXIzVnJscnVYR3V0VVNCTDRfeDdnMkZ5WExOLVZDTW9FZTBaQW5ZSVcyUkpLa191R1NNWVNXWGFqSFVHeTZ6cGhvdmFRYmkxcE91NHllM1ltUWZ3?oc=5",
-    "pub": "Sun, 28 Jun 2026 12:12:04 GMT",
-    "src": "Intellectia AI",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    159.35,
    160.33,
    159.96,
-   161.68
+   161.72
   ],
   "uso": [
    124.2,
@@ -1610,7 +1610,7 @@
    73579.69,
    63239.52,
    65710.4,
-   59427.36
+   59552.56
   ],
   "vixts": [
    0.937,
@@ -2206,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T19:21:41+00:00",
+  "checked": "2026-06-28T19:32:03+00:00",
   "openai": {
    "found": false
   },

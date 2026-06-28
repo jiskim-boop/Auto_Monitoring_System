@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T17:12:09+00:00",
+ "updated": "2026-06-28T17:21:47+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59520.04,
-   "chg": -0.7,
-   "chg5": -5.02,
-   "sma20": 62868.28,
-   "sma50": 69403.27,
-   "sma200": 74518.83,
+   "price": 59562.9,
+   "chg": -0.63,
+   "chg5": -4.95,
+   "sma20": 62870.43,
+   "sma50": 69404.13,
+   "sma200": 74519.07,
    "high3m": 82138.93,
-   "reg": 59520.04,
+   "reg": 59562.9,
    "pre": null,
    "post": null,
-   "regClose": 59520.04,
+   "regClose": 59562.9,
    "sess": "reg",
-   "mt": 1782666699,
+   "mt": 1782667284,
    "ok": true
   },
   "USO": {
@@ -1183,6 +1183,14 @@
     "geo": false
    },
    {
+    "title": "Prediction: This could be Nvidia's stock price by the end of 2027 - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmhLQW9Lc1BfSTgxRGhZc1FMNkxvUjRuYVRsaEs4VmlJZGVKeE9qSDZfbmpEU1I0YTJRUXhmS25oUkRWY1o4cWRGTWcyd095YlBCQWx3czRnS056Y0NWdGhRZ09UVEQycnI1amRGWkI4NUk2MlczSmtEeEViVTRqbkl3c0hlOEtWU2ZfS2NlbkhjVkFscmYxakNZal9UbkhxUERPdXNUcjV1Q0NMR0hncVhVa3huTkROSXZ1aTF0M1IyLW0yTUh6WnFqeUl0c3JVU1NmbnFEdnY1d2Q0?oc=5",
+    "pub": "Sun, 28 Jun 2026 15:58:25 GMT",
+    "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street Sees A Nvidia-like Future For Micron — But Memory Cycles Are Unpredictable - Bitcoin World",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yNWRFUkU0aU5WalVsaXlBSzFUaWloOFZaLUVzTEdFZ0hHWHdjTmx0TTFMZVJCenJrTk5iZEJObkp1MHlSSXNkMDBMZEtzMUwydWRCV3p3eVVhTjJBc2NRdk9OWG1JUVFIUjMxWTEzVHV0Zy1kOFdn?oc=5",
     "pub": "Sun, 28 Jun 2026 15:55:11 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BRHRjM20xM1J2aUNXcndwbHR5OHQyWFdxSFpXUXFSRDA0MUlNa1RhNGhlazRaaERxeVVDd2V2Q0o4TkNGM3JFN1oyUkdOU3dDbDdyZkVDTTVwYU9RYTU0Mzk3WFEyMk9xR2tnbFdRTjd0RUQ1Z09vSA?oc=5",
     "pub": "Sun, 28 Jun 2026 13:30:48 GMT",
     "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NVIDIA Stock Is Down 18% in 2026. Is the AI Leader Finally Cheap? - TIKR.com",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTURVaVZZaE5DTXVEb1U2NW4tVDV3NFE4T0ZmUXhSdC1pRWRWSndDSEhoZ0xRd01LU29rYnNKZklxUWV6TjFwT2plSi1oTVE4Nm92eWRRLVdUN2Z1S19WNmZ3STYycUdhQVY2Z2k3SWxudDlST09mVXlKODktckVFLXhSYnFkaDRScU4zUDJSZndoUQ?oc=5",
-    "pub": "Sun, 28 Jun 2026 12:13:36 GMT",
-    "src": "TIKR.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73579.69,
    63239.52,
    65710.4,
-   59543.79
+   59538.43
   ],
   "vixts": [
    0.937,
@@ -1697,7 +1697,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2205,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T17:12:01+00:00",
+  "checked": "2026-06-28T17:21:43+00:00",
   "openai": {
    "found": false
   },

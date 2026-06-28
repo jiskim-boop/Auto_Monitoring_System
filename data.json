@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T06:02:15+00:00",
+ "updated": "2026-06-28T06:11:48+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59911.99,
-   "chg": -0.17,
-   "chg5": -6.32,
-   "sma20": 63045.4,
-   "sma50": 69825.59,
-   "sma200": 74601.09,
+   "price": 59853.76,
+   "chg": -0.27,
+   "chg5": -6.41,
+   "sma20": 63042.49,
+   "sma50": 69824.43,
+   "sma200": 74600.77,
    "high3m": 82138.93,
-   "reg": 59911.99,
+   "reg": 59853.76,
    "pre": null,
    "post": null,
-   "regClose": 59911.99,
+   "regClose": 59853.76,
    "sess": "reg",
-   "mt": 1782626511,
+   "mt": 1782627088,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,26 @@
   ],
   "fundamental": [
    {
+    "title": "Apple Eyes Chinese CXMT Amid Memory Shortages - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQOURSYmFwUXBaMGNrdUZYd0JYdUNQOHlQMnN6SU5qR05TZ0d2LXNRNzg0cVVNVGNhb0pNb1ZTOTR1UnFjZmhrSm90TU9CNmtHSGo0R3JmYTdPdUtwWExTRTI1M3pHbk1zM09VSUJsQTNPd1lGY3BySThhWElITXRXcFNDV1puVTRl?oc=5",
+    "pub": "Sun, 28 Jun 2026 06:00:51 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI Eyes 2027 IPO Delay As Washington Clears Anthropic's Mythos 5 - Forbes",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOVXlobjR6ZFFkOWFvNWZfUHhTdFFzc0w0SVJCVHNtOUt4SkFETEstSWZuV1FfRHN0ZFk1YmxSSU1XaC1zQ2QxYzFRMlI4Y3ppRFFSeUVLVzdjLWY5MEhXX0hxanpBVVBqN2hWOXBYM2RVdDNyaFJLSWwyYkU1MUo3RmF4QU4zdV9PRUg3U3FRQnMzUFliMDJWY2hiZlZXU0l6U1VTdjJkNjJCdk84MWd6eXpyZGM4UHpFMF9vTw?oc=5",
     "pub": "Sun, 28 Jun 2026 04:12:09 GMT",
     "src": "Forbes",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia targets $1T GPU sales as AI dominance grows - MSN",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQWFVNaUVWRFk2NGF5UEEwOExOVVIyXzE0TzhWLXZGdEs0WkFfVzVpSGZMNDdoWHVYMWZURWpTSWZhaTFRXzQ4c3d3YkFNVVJXVk42emVEZGZIekgzUGE3U1I0bWgtRk5BSllHUnExaXhCMUxZVy1UdE93ZnlzbllYNF84aG5FTTNfZmlDUmFXVkRmT0x2Yy1oUEpldnpKTkN3MVhlckl3?oc=5",
+    "pub": "Sun, 28 Jun 2026 01:45:03 GMT",
+    "src": "MSN",
     "trig": false,
     "geo": false
    },
@@ -1205,22 +1221,6 @@
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Prediction: This could be Nvidia's stock price by the end of 2027 - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQNmhLQW9Lc1BfSTgxRGhZc1FMNkxvUjRuYVRsaEs4VmlJZGVKeE9qSDZfbmpEU1I0YTJRUXhmS25oUkRWY1o4cWRGTWcyd095YlBCQWx3czRnS056Y0NWdGhRZ09UVEQycnI1amRGWkI4NUk2MlczSmtEeEViVTRqbkl3c0hlOEtWU2ZfS2NlbkhjVkFscmYxakNZal9UbkhxUERPdXNUcjV1Q0NMR0hncVhVa3huTkROSXZ1aTF0M1IyLW0yTUh6WnFqeUl0c3JVU1NmbnFEdnY1d2Q0?oc=5",
-    "pub": "Sat, 27 Jun 2026 23:22:58 GMT",
-    "src": "MSN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI hit with another lawsuit over Florida State mass shooting - WFTV",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOMHJXQTNhd3ZJT1FzdldQVlpKdDJFSTJOMmI5c2tPYTlfRGt3WkxsOEFqRnozVnNvaUNJTzZsRjBpaGh3eXNxcVYzVE5ZdzRsRkZ0U1dQN3NIZUVBT256NVJjNUVpdFFjWERGX01LZUIzVURqMXBBRE9vQ2J4NTFwWmNCUEFrMGZONWZsaWM3bG1Tc2VQWi1NdUZoQ0dJMFllVU91NkNwTXpEdGZOQll4S2tRS2ZqNkZUbzlKTXFCRkZ6TUdHSHBV?oc=5",
-    "pub": "Sat, 27 Jun 2026 22:03:41 GMT",
-    "src": "WFTV",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
@@ -1233,19 +1233,19 @@
     "geo": false
    },
    {
-    "title": "When oil prices fall and geopolitical risks recede: The sectors that truly win in India - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQMGJQeUhRam9LZnRrZnF3M1JLWC1qZEpoZWpGNWE1VmM5THFZaF9TblVmanFlV0xDalFJNDhNaHM4SEVHRl9iQi1TOWV3NWtrT0ppTHBiSk1JWnlOb0RsNEV5VmlsZmhoOVNzbnltZkJVNjN3bzFLUk1mZDVLZXg0ZFNUQnY2UnkzU1NXMFZUZVFRR3hrRWNBQnRGUUw2UldoR0NZYW5ud0FMaEd0NmVnSWNvbndnQ0EyZ3V2Y19vbWhqUExudlQwdlQ3NlhMUURkNE1HNDZRUTllNk02ejhLVVRWVjZMQkRHRzl30gHrAUFVX3lxTFAwYlB5SFFqb0tmdGtmcXczUktYLWpkSmhlakY1YTVWYzlMcVloX1NuVWZqcWVXTENqUUk0OE1oczhIRUdGX2JCLVM5ZXc1a2tPSmlMcGJKTUlaeU5vRGw0RXlWaWxmaGg5U3NueW1mQlU2M3dvMUtSTWZkNUtleDRkU1RCdjZSeTNTU1cwVlRlUVFHeGtFY0FCdEZRTDZSV2hHQ1lhbm53QUxoR3Q2ZWdJY29ud2dDQTJndXZjX29taGpQTG52VDB2VDc2WExRRGQ0TUc0NlFROWU2TTZ6OEtVVFZWNkxCREdHOXc?oc=5",
-    "pub": "Sun, 28 Jun 2026 01:32:53 GMT",
-    "src": "Moneycontrol.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US aircraft strike Iranian missile and drone sites over ceasefire violations - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOWXVOUmgxd3UwUUR0UXBIZjJoTVpIeWpWcVJhMkZfdHc2b0RWNWZwZ21vRkVHb0xuMWxYQjVQYXY3RGpnYWs0U2c0b1pZVmFnbzZKalN6V1dhUEp5SmNBNUM2TEVHRE1UZFBVaHJXbnR4ZkFsR1Q1UUZMbUZhVV9tZllB?oc=5",
     "pub": "Sat, 27 Jun 2026 23:23:54 GMT",
     "src": "Crypto Briefing",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "JNK’s 6.5% yield faces a 2026 credit stress test as defaults loom - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE04VHJRekIyTlctd3NVX2NTQzVGTTVBa0dJc0VlZ2FHVVVXZlM1RzlKVi1JMzZybkYzczk3OGY3LWpYZWVKc0RfN3E2WjNPWExqUlJSZ2ZQalkxMlBJbmhQOElUTW1nWmV6UnJ5TGtiWE0?oc=5",
+    "pub": "Sat, 27 Jun 2026 22:35:33 GMT",
+    "src": "AOL.com",
+    "trig": true,
     "geo": false
    },
    {
@@ -1610,7 +1610,7 @@
    73754.84,
    60867.41,
    64421.32,
-   59911.99
+   59847.53
   ],
   "vixts": [
    0.937,
@@ -1697,7 +1697,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2168,7 +2169,7 @@
   ],
   "stale": false
  },
- "visitors": 234,
+ "visitors": 235,
  "visit_hours": [
   8,
   1,
@@ -2185,7 +2186,7 @@
   11,
   11,
   8,
-  5,
+  6,
   9,
   8,
   10,
@@ -2205,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T06:02:09+00:00",
+  "checked": "2026-06-28T06:11:44+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T15:32:00+00:00",
+ "updated": "2026-06-28T15:41:48+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59948.83,
-   "chg": 0.01,
-   "chg5": -4.34,
-   "sma20": 62889.72,
-   "sma50": 69411.85,
-   "sma200": 74521.18,
+   "price": 59836.97,
+   "chg": -0.17,
+   "chg5": -4.52,
+   "sma20": 62884.13,
+   "sma50": 69409.61,
+   "sma200": 74520.57,
    "high3m": 82138.93,
-   "reg": 59948.83,
+   "reg": 59836.97,
    "pre": null,
    "post": null,
-   "regClose": 59948.83,
+   "regClose": 59836.97,
    "sess": "reg",
-   "mt": 1782660701,
+   "mt": 1782661288,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4096.3,
-   "chg": 1.63,
+   "chg": 0.43,
    "chg5": -3.03,
-   "sma20": 4272.73,
-   "sma50": 4488.45,
-   "sma200": 4689.76,
+   "sma20": 4271.85,
+   "sma50": 4488.1,
+   "sma200": 4689.62,
    "high3m": 4857.6,
    "reg": 4096.3,
    "pre": null,
    "post": null,
-   "regClose": 4096.3,
+   "regClose": 4078.7,
    "sess": "24h",
    "mt": 1782507597,
    "ok": true
@@ -1075,16 +1075,16 @@
   },
   "HG=F": {
    "price": 6.21,
-   "chg": 2.25,
+   "chg": 1.07,
    "chg5": -2.63,
-   "sma20": 6.35,
+   "sma20": 6.34,
    "sma50": 6.24,
    "sma200": 5.97,
    "high3m": 6.65,
    "reg": 6.21,
    "pre": null,
    "post": null,
-   "regClose": 6.21,
+   "regClose": 6.14,
    "sess": "24h",
    "mt": 1782507591,
    "ok": true
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Apollo Aligned Credit Fund from Apollo Global Management Inc. - redemptions capped after heavy exit - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPY283SzdmTHJyS2JCZ3hmMktaMnlreG5kTmhmcGhOcHFlcTZSQkNkMERmaE9XMUhUdGVUUXZXME5HNVZ5X0lhZFQ1blk2aWd4OEtWbFg1VUVhT2E1U1dNSE5QLWY2RnctOTBjZDEtUmpaaEdtQjhhaHJFVnhJYndYN0Zxdm1WbkM0UkZfb2JJNFhkdWlISXdtZnhzN3lSUDZZYVQyU3hRUnZnOWo2RzRwY2JTSkRiRkU0d3Br?oc=5",
+    "pub": "Sun, 28 Jun 2026 07:53:58 GMT",
+    "src": "Ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Will MAIN’s Premium to NAV Amid Sector Outflows Recast Main Street Capital's (MAIN) Narrative? - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTmU3V0JnYjNqellNV0RqUkFrYVI5MVZCNkJUazV6eGZUcFc4ekh4ckd2bDhGZXQ5SDdhV2lURnY1U05OZmVKNExlczNJOXhSdklrSDFUTG9mWE90X1p1OC1jUEhUejhlT3hUak5tVlNNYy1oaGpfNUdWME5Femhzb181SldtR2hEZWpDd1N2dkRyM2h5cUNoYmQ2WVZPU1Q5T0JIejBIc01rSTNxdFBHdWh6c3U3QXhtdGpIbHRtYUp5MWRBQzdvb0U0ZG9FX0JCRjFBZDNwU3hmSERlWGRHQ2YxM3rSAeoBQVVfeXFMTTFmdVNta0RISTM3VTN5SE5MZWdzYVY5eG94dzJReEhZd2JnTmUyZ05DaFhaV01xTmVheGxtdFdWbUxZQkQtT1plZTVPT1JKdFdDUmtnNV9Hd1dkaUdQRU9KdGtBdmdzYkxvcjdoZi1Xby1OckNLM3lZXzcwaVhDbl9abW9na1M1M2NCZmZIV2JlZmNIZFI5MXBnRnplTVBuRHN1dDFObmdJUEc5MTFsdnh6Z3YzOWIxbW81ci02NXgwUjBYWm56V0ZCaXhSQ0k5NV95b1JxQzhDN21CVUNNOVFDLXF6aTRkT3BB?oc=5",
     "pub": "Sun, 28 Jun 2026 06:31:47 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOa2JGNW9kRzA0S1VpQjJiSzhGd0RDa0FmNjVOR1VDMm1pUlh4VXdWZXg0eVZpRy1aRjFnR29ybXAxdldLcEp1RzVwQ1BQUEhzOXduWjdETk01SWR5RzRIOFhtSTFOOGRpb0pmN3Ribk8xa0ROdV9CcDZFMFVvOGl4X0JhMVk1RUdBU3dPYWh3TldXeDB0dGxmZXEwOG9oLW9FRml5S1c4UzRZakZoYlNHZU92cGNqTmVDcGg1Wm5lcmxzcWhlelVDY2p0RkRPeEt6SGpEYTAzdkpiRDJHUHhiMlA2VGRsaUdiVjBv?oc=5",
     "pub": "Sat, 27 Jun 2026 17:06:31 GMT",
     "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SM's pickleball gamble pays off as sport reshapes malls, retail spending - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOUG10bjU4aWJaZGtNUE1fSUxSSGtJaFlYeU1lT2xFVXd4UzgxVV9WcU1pNjczMklLdG9pVmRKeUdnRU41ZTc4UXJWUW41UnhENjdRclFRNy1YdUFyTXQxYTNVUTRJUWlLV0EyV2NMMVNWR3lQbU1pMFd2ZkpTVlNXM3U2SF9qanNUU1A2bjBXcHJIU1ZWYmxablpyZXhzQTlCaDB4dFllTGVWYnpFU1lOeXp6ZEdoRk5lemxMRXR6b2RLNWVMNVE?oc=5",
-    "pub": "Sat, 27 Jun 2026 11:02:45 GMT",
-    "src": "ABS-CBN",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    73579.69,
    63239.52,
    65710.4,
-   59939.46
+   59829.13
   ],
   "vixts": [
    0.937,
@@ -2206,7 +2206,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T15:31:57+00:00",
+  "checked": "2026-06-28T15:41:44+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-28T19:51:55+00:00",
+ "updated": "2026-06-28T20:02:19+00:00",
  "prices": {
   "NVDA": {
    "price": 192.53,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59278.35,
-   "chg": -1.1,
-   "chg5": -5.41,
-   "sma20": 62856.2,
-   "sma50": 69398.44,
-   "sma200": 74517.51,
+   "price": 59409.17,
+   "chg": -0.89,
+   "chg5": -5.2,
+   "sma20": 62862.74,
+   "sma50": 69401.05,
+   "sma200": 74518.23,
    "high3m": 82138.93,
-   "reg": 59278.35,
+   "reg": 59409.17,
    "pre": null,
    "post": null,
-   "regClose": 59278.35,
+   "regClose": 59409.17,
    "sess": "reg",
-   "mt": 1782676285,
+   "mt": 1782676911,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.73,
+   "price": 161.72,
    "chg": -0.05,
    "chg5": 0.18,
    "sma20": 160.67,
    "sma50": 159.39,
    "sma200": 158.05,
    "high3m": 161.8,
-   "reg": 161.73,
+   "reg": 161.72,
    "pre": null,
    "post": null,
-   "regClose": 161.73,
+   "regClose": 161.72,
    "sess": "reg",
-   "mt": 1782676275,
+   "mt": 1782676860,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX launches Starlink satellites from Vandenberg Space Force Base - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObEhFN2xaNlVsa3hGTU83YUlxQWZvS0RmZktGbnhucURVZ2RObDRDN3FSVHh6VHpmdEF1Wl9vZFBxWjZybTRMSFlydjd1ZWNYenE1eU44eTN6QTBQNHNOX2FuOGhpMnNydm9GeFBTdVpsc0NkcC1BNk02b1NndlFSNkVodkZ3TzdTU1plbm1NMGVMRlcyaDh6VUNYdnlpOFJtQnl0Z05QMllxeDQtbG5tZndHeWlCWnpBQ1dIajFB?oc=5",
+    "pub": "Sun, 28 Jun 2026 19:36:27 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street Calls Micron the Next Nvidia as AI Memory Crunch Deepens - iNews Zoombangla",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONUloRzJ5emt4bUZkc2NxeFFvMWpBSDZIT0FWa2R5aW1JRWNGZEROd0hBX2xaR3BGS2F6NzBqZmtiazV0dkdmejlUNDZ0UExybVAtOVNKVmRNQXpFZDJwMDZCU3lmVDZzejFiUEpHdUFrYk9NQUZkUGM2YWowWFJLWU5NUy04YVhLdDRKVnViNA?oc=5",
     "pub": "Sun, 28 Jun 2026 17:55:02 GMT",
@@ -1199,26 +1207,18 @@
     "geo": false
    },
    {
+    "title": "Wall Street Sees A Nvidia-like Future For Micron — But Memory Cycles Are Unpredictable - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0yNWRFUkU0aU5WalVsaXlBSzFUaWloOFZaLUVzTEdFZ0hHWHdjTmx0TTFMZVJCenJrTk5iZEJObkp1MHlSSXNkMDBMZEtzMUwydWRCV3p3eVVhTjJBc2NRdk9OWG1JUVFIUjMxWTEzVHV0Zy1kOFdn?oc=5",
+    "pub": "Sun, 28 Jun 2026 15:55:11 GMT",
+    "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Reshaping the Nasdaq-100®: AI CapEx, Leverage Dynamics and What it Means for Investors - Nasdaq",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4xamFpYU5qTHZ3UzdZLWhTaDNXWmVDM0FZWjIyQVR0TWtZR3BCXzBDNV9SLThNUzhZOXV0MFRscE5wVnVhamJJb2swUTRVR2xYUVEtVklEcDhXN29KUk05T2gzQnJFVXJHdVpHOXFpTXhqdXJY?oc=5",
     "pub": "Sun, 28 Jun 2026 14:34:40 GMT",
     "src": "Nasdaq",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon raises AI cloud prices amid growing memory shortage - newskarnataka.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMUFIbGdCbC02VTd3RUJ4dlV3UDVKM2dkMFU0UGlxUEwxUVNHR1JVNkdVX2RleExweHgtS3JsOHdtOTQ5ckxtbXV3eXQ5UGJHd0M0THpIWlhVV2w1YTRiaERXY0hJWWFUaXlsV3U3cndRMl9OQWp2Y0ZncFcySVQ5U3N0TTN5UXVXa0dEdU1wN1VRZEQ4OEhhZW00MUd1RjB5SVpoenVn?oc=5",
-    "pub": "Sun, 28 Jun 2026 13:58:09 GMT",
-    "src": "newskarnataka.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Claude Mythos 5 is back, but only for a select group of US institutions - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BRHRjM20xM1J2aUNXcndwbHR5OHQyWFdxSFpXUXFSRDA0MUlNa1RhNGhlazRaaERxeVVDd2V2Q0o4TkNGM3JFN1oyUkdOU3dDbDdyZkVDTTVwYU9RYTU0Mzk3WFEyMk9xR2tnbFdRTjd0RUQ1Z09vSA?oc=5",
-    "pub": "Sun, 28 Jun 2026 13:30:48 GMT",
-    "src": "Mashable",
     "trig": false,
     "geo": false
    }
@@ -1249,6 +1249,14 @@
     "geo": false
    },
    {
+    "title": "Fed Rate Decision June 2026: A Hawkish Pause Signals Higher for Longer - Intellectia AI",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1DbGJxN3U0TlhXWEdLcG5abFFqZWtmaEszVzZqREZyVW5GTTRYbFRCZHNWS2ZSNk9ZQnJqZ0RseGp5RTNWWklZZ0E4dXlSUlIxMlJrQTQ3MHBFcmxtM0dTOUhFSEFCcUlQblQwTHZWb3UzMUp2YWZTcw?oc=5",
+    "pub": "Sun, 28 Jun 2026 14:15:21 GMT",
+    "src": "Intellectia AI",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Top Economic Indicators That Signal a Recession Early - Analytics Insight",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaTdRTHZuOGpXZVk3SHp4U0FQa1dPdWYxb2NMSUNQbC10V0F3NTEzbENmYlQ0ZUFGWVYta0JpRUJQbHZGX3FFWC12YU43dDZjRm1JSEk4X2M3dEFsa05KVmlEU2dYaFN3MFZKb3lRbTB5aXRtcW40YkhJYjY5T0xyaEJ6TW5VWTlZTVA0VDJHbERMOEFmUW0tTUFrc29QNkxFME14UjN3RlLSAagBQVVfeXFMUGk3UUx2bjhqV2VZN0h6eFNBUGtXT3VmMW9jTElDUGwtdFdBdzUxM2xDZmJUNGVBRllWLWtCaUVCUGx2Rl9xRVgtdmFON3Q2Y0ZtSUhJOF9jN3RBbGtOSlZpRFNnWGhTdzBWSm95UW0weWl0bXFuNGJISWI2OU9McmhCek1uVVk5WU1QNFQyR2xETDhBZlFtLU1Ba3NvUDZMRTBNeFIzd0ZS?oc=5",
     "pub": "Sun, 28 Jun 2026 14:04:02 GMT",
@@ -1257,23 +1265,23 @@
     "geo": false
    },
    {
-    "title": "AI Infrastructure as a Bottomless Money Pit: Tech Giants' Surge in Fundraising Sparks Debt Market Concerns, Widening Credit Spreads for High-Rated Bonds - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVklSTmhrMEQ0YzFnV1hKTWpxRmVCYXZDemRwNGc0XzFyRm9KOUl5ckxFWUFVX2RmM3VRaGc4M2tOQ2F6c0E1aUlWZ0JTTU1yYVdacDVnWnpZUGh0M0pqMGZIclgzbzlHVFhaVkRWNG5vTlNoemFrckVFSEp2SnJHV203Y0U1X01DaDhrYU84OF9rR1M5M1l3ZnJNaDBhWTA2VjZheg?oc=5",
-    "pub": "Sun, 28 Jun 2026 10:50:50 GMT",
-    "src": "富途牛牛",
+    "title": "2 Sneaky Ways Fed Chair Kevin Warsh and the FOMC Can Raise Interest Rates Without Adjusting the Federal Funds Rate - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWkttdzkwSFdLWmNFZUIycUhfMXNtTWc3eDFUbkphSEwzZGRKcGI3aFR2WWtFUzdwYXY5OTg5MEMzVnFGOVQ2MlZzS2tpY2k1ZlZhTk0weTA0WC1kTVJCLTJBdi1qYU5Bd28tQTlqSEx3MnR1blhxcVVCQ3hHR1lQeFJSbEp5ZGpoZ0tfQTJoNE13UQ?oc=5",
+    "pub": "Sun, 28 Jun 2026 13:26:00 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "U.S. Navy and Air Force Strike 10 Iranian Military Targets After Iran Drone Attack on Oil Tanker M/T Kiku - Army Recognition",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQbk13Vi00QVJNd19wQ2lxRnBWWDNPMkFvSk1zS0xzLU10ZjFrZWJESW1xRWRTcG8yQlExZG9BSVBUNjJRRnJWUUpleVd5b3lYakRqWFlkOUxYY1hwMC0zQnBDSllKdEcwVHJYMW1JNmVfTTl1NENsVXRXd3hhQUlFZXB5NFctMUlmVUZFNENiZmpKa2kxQ1dva05CZXlqSTdKUzhpLU0ydnE3cFVGTzA2SWJpRGw4MjRDTnNyaEVwNXNZZ29kWmFOcV9GNEtSVm9RcWx4bUZ3aDBfb3NBNzZRNDRjMW1GYzRWSU8tTA?oc=5",
-    "pub": "Sun, 28 Jun 2026 10:26:53 GMT",
-    "src": "Army Recognition",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
+   {
+    "title": "Price to sales forward of Magellan Copper and Gold Corp. – OTC:MAGE - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNREItdkRjMFJySVh2VHBxeUwxZFg3dVdsNVlLS1dmT1dlZnZTS09NZUFZc1BndGlmWDBqekNOV2UzbUpUc1FaOGNZTVNtbkdvTnlDYXM0YTM4SXRYeFI1NVdwWHRuNE9jbGNya0ZTMXJvbW9XN1d5YVVYb2E2VHVfNUlBQXVScTVVOERyTGpRYTZNbHFJYldWdlFn?oc=5",
+    "pub": "Sun, 28 Jun 2026 18:19:13 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Forget USO. Copper Is the New Crude, and This Miner Fund Is Up 115% in a Year - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQczh5SkktNWNzNk42elFvbUw4eVRlTE9oQjhKWUVqZDFTRmo4aENrVTBjME42Z2lrVTl2VXdqbmYzUkVIbWRuR1V4UzFYdDNMZXJwb2pwR1VYNnBXSGdYa1JuUkdxV2tiaGsteDRhMmhid2ZwY1ZRd1RQNUZuUml6Z1FYS0s1TGZjX3lmaEZNRHJGbVZBZFNjTURMTVhLMFZ0TjRjZVRKejFVMVNWa2pjZUhCekpaVGNFUEE?oc=5",
@@ -1287,14 +1295,6 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOb0czWk5lMC1sRHNUQ1ZrYVpPa2k1al96T1dDMVQ2X1RNblRZM0xQb2JMZkc2eERPYk1kMGVDc0dtLWRiNzRKano0MUU5dDhiQnRjRWhZWWt2dXcwNXRHTGxPR2ladU5yb0ZGVkpSNjg5eGhYYnZfTC1sN2p6d0FRb1QzV3F2b2xYcDk3MWdlWFN5SXhibWVaS19jSEQySVdGWVctWF9JcUxhRVBBSEJRcXB6RU9hd01RUzlkMEdFTl81MmNCckln?oc=5",
     "pub": "Sun, 28 Jun 2026 16:27:00 GMT",
     "src": "FXEmpire",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to sales forward of Atalaya Mining Copper SA – SWB:E5S1 - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSjF2LVdVQTJUdkZOM090UG56d1EzejR2OHN4WGVYR3RpY2U0aEpiajlUYWtQNTRUaVhjMHFFWjgzTkZRUTF5ZXh4c2ljZG1VRmN4anVnc1RaQ3lDS3Ezc2VQYzUzcVlIa05OQmJXTVJwODlQdVZyX3dIOXBIRndzM2c2XzUzbjdaZ3VOTHJ4MW5peG1PVDhhNW9n?oc=5",
-    "pub": "Sun, 28 Jun 2026 15:40:50 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1550,7 +1550,7 @@
    159.35,
    160.33,
    159.96,
-   161.73
+   161.72
   ],
   "uso": [
    124.2,
@@ -1610,7 +1610,7 @@
    73579.69,
    63239.52,
    65710.4,
-   59276.62
+   59411.09
   ],
   "vixts": [
    0.937,
@@ -1684,7 +1684,7 @@
   ]
  },
  "summary": {
-  "text": "미-이란 군사 긴장 고조에도 VIX 18로 낮게 유지되며 신용시장은 안정적이나, AI 인프라 투자 과열로 고신용등급 회사채 스프레드 확대 우려가 점증하고 있다. AI 메모리 수급 병목으로 마이크론 등 반도체 기업 수요가 집중되는 가운데 클라우드 가격 인상이 이어지며 capex 사이클 고착화 신호가 나타나고 있다.",
+  "text": "지정학 긴장(미-이란)이 고조되는 가운데 VIX 18으로 낮게 유지되며 신용장 경색(HY스프레드 2.78%) 신호는 아직 제한적이나 사모펀드 환매제한 사례가 증가하는 상황이다. AI 메모리 수급 부족이 심화되면서 Nvidia 외 Micron 등 후발주자에 대한 기대감이 확대되는 중이며 GPU 투자사이클은 여전히 강건하다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1694,7 +1694,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -1974,10 +1974,6 @@
   "median": 2.69,
   "hist": [
    {
-    "d": "2026-06-26T20",
-    "v": 2.73
-   },
-   {
     "d": "2026-06-26T21",
     "v": 2.73
    },
@@ -2164,6 +2160,10 @@
    {
     "d": "2026-06-28T19",
     "v": 2.69
+   },
+   {
+    "d": "2026-06-28T20",
+    "v": 2.69
    }
   ],
   "stale": false
@@ -2205,7 +2205,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-28T19:51:46+00:00",
+  "checked": "2026-06-28T20:02:12+00:00",
   "openai": {
    "found": false
   },

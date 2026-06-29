@@ -1,5 +1,5 @@
 {
- "updated": "2026-06-29T21:12:06+00:00",
+ "updated": "2026-06-29T21:21:54+00:00",
  "prices": {
   "NVDA": {
    "price": 194.97,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 139.4,
-   "chg": -0.35,
-   "chg5": -4.99,
-   "sma20": 143.13,
-   "sma50": 140.92,
-   "sma200": 143.72,
+   "price": 144.46,
+   "chg": 3.63,
+   "chg5": 1.84,
+   "sma20": 143.15,
+   "sma50": 141.0,
+   "sma200": 143.73,
    "high3m": 156.93,
-   "reg": 139.4,
+   "reg": 144.46,
    "pre": null,
    "post": null,
-   "regClose": 139.4,
+   "regClose": 144.46,
    "sess": "reg",
-   "mt": 1782507645,
+   "mt": 1782766818,
    "ok": true
   },
   "^MOVE": {
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.11,
    "sess": "reg",
-   "mt": 1782766889,
+   "mt": 1782767485,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60256.42,
-   "chg": 1.22,
-   "chg5": -1.21,
-   "sma20": 62799.53,
-   "sma50": 68965.87,
-   "sma200": 74368.2,
+   "price": 60215.79,
+   "chg": 1.15,
+   "chg5": -1.28,
+   "sma20": 62797.5,
+   "sma50": 68965.05,
+   "sma200": 74367.97,
    "high3m": 82138.93,
-   "reg": 60256.42,
+   "reg": 60215.79,
    "pre": null,
    "post": null,
-   "regClose": 60256.42,
+   "regClose": 60215.79,
    "sess": "reg",
-   "mt": 1782767499,
+   "mt": 1782768090,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.87,
-   "chg": 0.05,
-   "chg5": 0.19,
+   "price": 161.91,
+   "chg": 0.07,
+   "chg5": 0.21,
    "sma20": 160.79,
    "sma50": 159.45,
    "sma200": 158.09,
-   "high3m": 161.87,
-   "reg": 161.87,
+   "high3m": 161.91,
+   "reg": 161.91,
    "pre": null,
    "post": null,
-   "regClose": 161.87,
+   "regClose": 161.91,
    "sess": "reg",
-   "mt": 1782767502,
+   "mt": 1782768091,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,26 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic Strikes Deal With California To Roll Out Claude Across State Agencies - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxONmduMjJFd0hOV1hiQnFubUQxZXRsS0tkNTB6X0FRSTVOeVZZZHRoeTk2azM1eU5BZTI5NFBwUEl3TzYxYUZMVXhKbC10THFId2VXQldMcFJjM3VaeEExRzdiWmhXdjNsOUlRRmR5aE54U0Z6cjJmWE1QLVJqSnVIM3dTdEF0RExmOTNIdzBmWlFCWTRhS1p4bkUzUjcyUkdTRXlybXFkajFIdVhZY3dEeWhTT3lkNkJsbzFpQ3lxdjhnd1M0WjJ4QzhyN1lCSnJhbmVWaFJnNHIySVE?oc=5",
+    "pub": "Mon, 29 Jun 2026 20:41:22 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI IPO likely won't wait until 2027 says analyst - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBXWkh4dE1KYmpxa1JXNnJzVzRudWJCcmt1U2oyMTNnMzcwVVp1aTFncjc2WnZTeER6UElRc2d6b2Y2N1h3ZVZ4a1dBZEQwYnh1QXVjOS1TNFVNRUZNVkUyc0Y5T2JuWk0?oc=5",
     "pub": "Mon, 29 Jun 2026 20:32:33 GMT",
     "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Is Anthropic’s Fable 5 Coming Back This Week? - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNGlCUkc1cXpNdzRFZUhQWW5HSGRRUGlJQ3Z6RFQ2dlUzU0pYTFFrNnM5akNxSVhMSmVOWG9MMWJNektqeTdlNnFlaDRfc0pWcXRaRElLbVM1eEVleDRvd24zallvYkFqOHlUbWF5eXNSdS1CX3I3akVYWlR3bVp0Y0tLbFhQZDdiN3ZiMnUzcW1sOGRWVHlfQUFKOEZCUQ?oc=5",
+    "pub": "Mon, 29 Jun 2026 20:25:41 GMT",
+    "src": "Forbes",
     "trig": false,
     "geo": false
    },
@@ -1205,33 +1221,9 @@
     "src": "Sacramento Bee",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "'The Next Vanguard': OpenAI, Altman Hit With New Lawsuit Over FSU Shooting - Law.com",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMVRxb2I2b0tTRnFEaW9TRHR0R3J5ZUNKVU12TUJ6Q1FmLXFaX3poZEl1N0tXVXVhelpQU0xqU3Mwd013SUpEOTVXeHVKS1lTT3lrc3RoSkpsX08wRUwtSmxZR1pVYXVybk94MEJ4a1phdXVrUjZvOXZ4VXZ0X1lJVjFFRm5hUW9DNldUamJFQThIMm8xZG9LcFhXZUFjTDRmdDlUY1VwQmxxS3A3ak80bkkxVjVKcFpaVzBsanBFMA?oc=5",
-    "pub": "Mon, 29 Jun 2026 18:51:00 GMT",
-    "src": "Law.com",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Nvidia Competitor Cerebras Rebounds Nearly 20%. Market Bets It Will Benefit From HBM Shortages, Citi Sees 90% Upside for Stock - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNlVQdVFua203Q3JjS2J5aFhvUldpXzdudU1rVDM5T1YwU1ZEZ0tOUlIzZm9iaEtXM3dGX2xwWnh6bVFkVjd1XzE1Q1dzalRaQkpJbS1LeHppZkVNR0NVTElueU56Mzlqb3Zvb2JKZHVIVTNhdFVZMVJteFpnVHN5SVNJTFcwbUl0ZFF2VzF5RGdzcVd5WEtSNnp3b29IU3k2bjFYbmgwX2gybm8xajNrNHh1Uk1SdS1IekZqeA?oc=5",
-    "pub": "Mon, 29 Jun 2026 18:47:14 GMT",
-    "src": "TradingKey",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Has the US-Iran war’s true cost been eclipsed by economic losses? - Arab News PK",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1maU1UZ3pYX2NLM2NXSVgxSkZqc19IcjVYalQ5X3Jvd1NBbDEyaHdidkZ6TFVoLVpFQnRrMktQemU3QXhGb3J4VGVwOGhOb0dVMDF6amhuZ21LOHh0?oc=5",
-    "pub": "Mon, 29 Jun 2026 19:51:53 GMT",
-    "src": "Arab News PK",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Dollar Strength Against Foreign Currencies: Beyond the Headlines in 2026 - Discovery Alert",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQc0hBc19FRDFhYzdCME1DUG9DVnJYUU5NMG00bndjMGg3aU9uc1ctSHg2R2RnZURDWHRkWXBIMUtkbE1yRjZ3YTQ3cW9aRXMtRzFERUYxUkdRdV95ZC1kd2VaTTByZHpycjlvdng1eUhLaEY0ZlUzeWU0bGZXVkg2R1c2QlNVaFRZRGNWMnk5U1UwaDVZbGc?oc=5",
@@ -1271,6 +1263,14 @@
     "src": "24/7 Wall St.",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "H2 outlook: crude caught between Iran tensions and supply-demand - CMC Markets",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRm1yTnhNM05uNTk5dWhQWXlqRmhxMkIzcFFqd25sYWI2WkRacjV5VjhZV3JlemZMYzJrbTRZYkxnUElMdUs3b0tyMTQyZF9RT2oxb2Qycjc0OEF2MXRScktaUU1QcXIzb29idENjZFJ6WWtZUXhWZUxOSHcySGtEUjE2TzdIR1UtY1YwRnNnNFc3azltXzBDUU94UWE5MFpqdG1nLXFKMjNkLU05RUlNc2V6ajY?oc=5",
+    "pub": "Mon, 29 Jun 2026 14:43:41 GMT",
+    "src": "CMC Markets",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Gold Retreats As Easing US-Iran Tensions Dim Safe-Haven Appeal - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBKTGZVOTREbTZqWDVRcUdaVmJEbDZxRFY4R3RpS1luRW1tNGF4alJ2bmpvNTFzcnJXX0ZmRzh2WW50dHhPcElEVDJGTXJZeC1NTFNucWJ3d2xUNXB5NEVpSzBDaVdsZnFqV0pJTWdadw?oc=5",
-    "pub": "Mon, 29 Jun 2026 18:40:11 GMT",
-    "src": "Bitcoin World",
+    "title": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1BXeVdPR08tTmQ4MHdZMkloUzlsNjRjSE5VVmxyeVRrdDZqbDI3Tm5VVUdfYTdZM0dOYjkzVFBuMGhJUzZEM3E0RDBkc0RTUXd2VFdMdm5uenpPXzJobUNvRklvRkt0S0pfYkZ0UWRXaWRDc09MR1pBUkVDRXN2Y2FINkVmUDBlRkZHNGhzZkNyNk5LUzZrM2VUV1pVOV9N?oc=5",
+    "pub": "Mon, 29 Jun 2026 19:32:54 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1331,6 +1331,7 @@
    "date": "2026-06-29",
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926078916/tm2619102d1_8k.htm",
    "summary": "FS KKR Capital Corp가 2026년 6월 29일 현재 기준으로 8-K를 제출했습니다.",
+   "_cached": true,
    "new": true
   },
   {
@@ -1427,7 +1428,7 @@
    "chg": -0.01
   },
   "sofr_iorb": -3.0,
-  "cape": 40.7,
+  "cape": 41.39,
   "cape_manual": false,
   "netliq": {
    "value": 5812.4,
@@ -1549,7 +1550,7 @@
    159.64,
    160.17,
    160.23,
-   161.89
+   161.88
   ],
   "uso": [
    129.83,
@@ -1609,7 +1610,7 @@
    71319.77,
    63090.59,
    66289.5,
-   60255.05
+   60233.35
   ],
   "vixts": [
    1.051,
@@ -1672,14 +1673,14 @@
    -3.0
   ],
   "cape": [
-   40.7,
-   40.7,
-   40.7,
-   40.7,
-   40.7,
-   40.7,
-   40.7,
-   40.7
+   41.39,
+   41.39,
+   41.39,
+   41.39,
+   41.39,
+   41.39,
+   41.39,
+   41.39
   ]
  },
  "summary": {
@@ -2212,7 +2213,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-06-29T21:11:59+00:00",
+  "checked": "2026-06-29T21:21:48+00:00",
   "openai": {
    "found": false
   },

@@ -793,6 +793,8 @@ def calc_early(prices, fred, charts):
     if _rising(ch.get("hyoas")) and not (hy is not None and hy>=5.5): add("HY 상승추세",0.5,None)
     if _rising(ch.get("vix")) and not (v is not None and v>=26) and not (vix_chg is not None and vix_chg>=20):
         add("VIX 상승추세",0.5,None)
+    if _rising(ch.get("ccc_bb")): add("CCC-BB 확대(품질분산)",0.5,None)   # JS earlyWarning과 동일 미러
+    if _falling(ch.get("rsp_spy")): add("시장 폭 악화(RSP/SPY)",0.5,None)  # JS earlyWarning과 동일 미러
     spy_up=spy_c is not None and spy_c>=0
     hyg_weak=hyg5 is not None and hyg5<=-1
     if spy_up and hyg_weak: add("시장-신용 괴리",0.5,None)

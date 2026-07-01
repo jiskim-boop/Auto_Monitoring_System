@@ -921,7 +921,7 @@ def maybe_alert(prev, ew, summary, prices, fred):
         if hy is not None: meta.append(f"HY {hy:.2f}%")
         if meta: lines.append(" / ".join(meta))
         if summary and summary.get("text"): lines.append("\n"+summary["text"][:120])
-        lines.append("\n<a href='https://jiskim-boop.github.io/ai-monitor/'>대시보드 열기</a>")
+        lines.append("\n<a href='https://jisk.net/'>대시보드 열기</a>")
         lines.append("<i>보조 경보입니다. 단독 매매 근거로 삼지 마세요.</i>")
         sent=tg_send("\n".join(lines))
         print("알림 발송:" , "성공" if sent else "실패/미설정", f"({label[prev_t]}→{label[cur_t]})")

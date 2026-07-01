@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.19.4</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.22.0</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -130,6 +130,7 @@
       <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
     </div>
     <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 3영역</b>(신용=HY/NFCI · AI=바스켓/단가 · 거시=VIX/스프레드/지수추세) · 영역별 <b style="color:#6f7888">안정0 · 주의1 · 위험2점</b> 합산 = 0~6점 · 0~1 안정 · 2~3 주의 · 4~5 경계 · <b style="color:#ff3b6b">6 위험(3영역 전부)</b> · 조기경보와 <b style="color:#6f7888">독립 기준</b>(선행은 아래 조기경보 담당) · 점수로 같은 단계 안 깊이 구분</div>
+    <div style="margin-top:7px;padding:6px 8px;background:#1a1410;border:1px solid #3a2a18;border-radius:6px;font-size:9px;color:#c99a6a;line-height:1.5"><b>⚠️ 외생충격 사각지대:</b> 팬데믹·전쟁·테러 등 <b>시장 외부에서 오는 충격은 어떤 지표로도 사전 포착 불가</b>. '20 코로나는 폭락 3일 전 VIX 14·HY 3.5%로 완전 평온이었음. <b>이 판정이 '안정'이어도 외생충격 리스크는 별개</b> — 조기경보는 신용발(2008형) 내부 균열에 강하고, 외생충격엔 원리적으로 무력.</div>
   </div>
 
   <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
@@ -184,7 +185,7 @@
     <div id="chart-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:10px">
       <div class="empty">로딩…</div>
     </div>
-    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · DXY·BIZD는 절대선 대신 추세로 판단(레벨보다 변화·속도 중요) · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제)</span></div>
+    <div class="risk" style="margin-top:8px"><b style="color:#8a93a6">참고:</b> <span style="color:#8a93a6">점선=위험 임계선 · DXY·BIZD는 절대선 대신 추세로 판단(레벨보다 변화·속도 중요) · 추세는 과거(후행)이며 조기경보(현재 신호)의 보조 · 야후 선물 제외(품질 문제) · <b style="color:#727c8d">📍심도</b>=위기 정점값(지금이 위기 몇 %인지) · <b style="color:#a8946a">⚡선행</b>=폭락 전 나타난 행동 패턴(값 아닌 방향·구조). 둘 다 참고용·판정 임계 아님 · <b style="color:#a8946a">리드타임은 위기마다 다름('08 ~10개월 vs '20 ~0)</b> · 역전·반전 단독은 거짓경보 잦음 · 대공황·닷컴초기는 데이터 없어 제외 · NFCI는 σ단위</span></div>
   </div>
 
   <div class="alert" id="stale" style="border-left-color:#ffb454;background:#1a1505;"><div class="lbl" style="color:#ffb454">⏱ 데이터 낡음</div><div class="txt" id="stale-txt" style="color:#ffd98a"></div></div>
@@ -1110,24 +1111,33 @@ function renderCharts(d){
   const grid=$('chart-grid'); if(!grid) return;
   const ch=d.charts||{};
   const cards=[
-    {t:'HY 스프레드', s:ch.hyoas, warn:4.5, danger:5.5, fmt:v=>v.toFixed(2)+'%'},
-    {t:'VIX', s:ch.vix, warn:20, danger:26, fmt:v=>v.toFixed(0)},
+    {t:'HY 스프레드', s:ch.hyoas, warn:4.5, danger:5.5, fmt:v=>v.toFixed(2)+'%', anchor:"정상~5 · 경계 5.5 · '11 9.1 · '20 10.9 · '08 19.9%", lead:"바닥 반전 후 5% 돌파 = '08 리먼 ~10개월 전 신호 (레벨 낮아도 방향 전환이 핵심 · '20 리드 0)"},
+    {t:'신용 품질분산 (CCC−BB)', s:ch.ccc_bb, warn:null, danger:null, trendOnly:true, fmt:v=>v.toFixed(1)+'%p', lead:"CCC가 먼저·크게 벌어짐 → 전체 HY보다 이른 신용 선행 · 확대(추세)가 핵심 · 절대 임계선은 보정 예정"},
+    {t:'VIX', s:ch.vix, warn:20, danger:26, fmt:v=>v.toFixed(0), anchor:"정상 20 · 공포 28 · '11 48 · '08 81 · '20 83", lead:"레벨보다 기간구조 역전이 선행 · VIX는 폭락 직전 오히려 진정될 수 있음('08 여름 ~20)"},
     {t:'VIX 기간구조', s:ch.vixts, warn:0.95, danger:1.02, fmt:v=>v.toFixed(2)},
     {t:'미 10년 금리', s:ch.tnx, warn:4.5, danger:5, fmt:v=>v.toFixed(2)+'%'},
-    {t:'MOVE (채권변동성)', s:ch.move, warn:100, danger:125, fmt:v=>v.toFixed(0)},
+    {t:'MOVE (채권변동성)', s:ch.move, warn:100, danger:125, fmt:v=>v.toFixed(0), anchor:"정상 100 · 스트레스 150 · '23 200 · '08 265", lead:"채권변동성이 주식 VIX보다 선행('18·'20·'23 SVB 모두) · MOVE 먼저 급등 시 경계"},
     {t:'달러 DXY', s:ch.dxy, warn:null, danger:null, trendOnly:true, fmt:v=>v.toFixed(1)},
-    {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2)},
+    {t:'NFCI', s:ch.nfci, warn:0, danger:0.5, fmt:v=>v.toFixed(2), anchor:"평균 0 · 긴축 +0.5 · '08 +2.3 (σ·재계산)", lead:"레버리지 서브지수가 선행(부채 축적이 스트레스에 앞섬) · 완화→긴축 전환 주목"},
     {t:'레포(SOFR-IORB)', s:ch.sofr_iorb, warn:0, danger:10, fmt:v=>(v>=0?'+':'')+v.toFixed(0)+'bp'},
     {t:'사모대출(BIZD)', s:ch.bizd, warn:null, danger:null, higherWorse:false, trendOnly:true, fmt:v=>'$'+v.toFixed(1)},
     {t:'실러 CAPE', s:ch.cape, warn:30, danger:40, fmt:v=>v.toFixed(0)},
+    {t:'시장 폭 (RSP/SPY)', s:ch.rsp_spy, warn:null, danger:null, trendOnly:true, higherWorse:false, fmt:v=>v.toFixed(3), lead:"하락=소수 대형주가 지수 떠받침(폭 narrowing) · '00·'07 정점 공통 선행 · AVGO 집중 리스크와 직결"},
   ];
   grid.innerHTML='';
   cards.forEach(c=>{
     const div=document.createElement('div');
     div.style.cssText='background:#0d1320;border:1px solid #1b2330;border-radius:8px;padding:7px 9px';
     const tag=c.trendOnly?`<span style="font-size:8px;color:#5f6878;font-weight:400"> · 추세</span>`:'';
+    let refLine='';
+    if(c.anchor||c.lead){
+      refLine='<div style="margin-top:4px;border-top:1px solid #161d2a;padding-top:3px;line-height:1.4">';
+      if(c.anchor)refLine+=`<div style="font-size:8px;color:#5f6878">📍 심도 <span style="color:#727c8d">${c.anchor}</span></div>`;
+      if(c.lead)refLine+=`<div style="font-size:8px;color:#8a7a5a;margin-top:2px">⚡ 선행 <span style="color:#a8946a">${c.lead}</span></div>`;
+      refLine+='</div>';
+    }
     div.innerHTML=`<div style="font-size:10px;color:#aab3c5;margin-bottom:3px;font-weight:600">${c.t}${tag}</div>`+
-      sparkline(c.s,{warn:c.warn,danger:c.danger,higherWorse:c.higherWorse!==false,fmt:c.fmt});
+      sparkline(c.s,{warn:c.warn,danger:c.danger,higherWorse:c.higherWorse!==false,fmt:c.fmt})+refLine;
     grid.appendChild(div);
   });
   // 접힌 상태용 미니 요약 (위험/주의 개수)

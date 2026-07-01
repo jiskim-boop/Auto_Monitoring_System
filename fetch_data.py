@@ -631,6 +631,18 @@ def fetch_charts(fred):
         ch["sofr_iorb"]=[round((a-b)*100,1) for a,b in zip(sofr,iorb)]
     else:
         ch["sofr_iorb"]=None
+    # 신용 품질 분산 (CCC−BB, %p) — 부실 집중도 선행: CCC가 먼저·크게 벌어짐. 확대=조기 신용경색 신호(HY보다 이름)
+    ccc=fred_series("BAMLH0A3HYC"); bb=fred_series("BAMLH0A1HYBB")
+    if ccc and bb and len(ccc)==len(bb):
+        ch["ccc_bb"]=[round(a-b,2) if (a is not None and b is not None) else None for a,b in zip(ccc,bb)]
+    else:
+        ch["ccc_bb"]=None
+    # 시장 폭 (RSP/SPY 동일가중/시총가중 비율) — 하락=소수 대형주가 지수 떠받침(폭 narrowing). '00·'07 정점 공통 선행
+    rsp=fetch_series_yahoo("RSP"); spy=fetch_series_yahoo("SPY")
+    if rsp and spy and len(rsp)==len(spy):
+        ch["rsp_spy"]=[round(a/b,4) if b else None for a,b in zip(rsp,spy)]
+    else:
+        ch["rsp_spy"]=None
     cape=(fred or {}).get("cape")
     ch["cape"]=[cape]*8 if cape is not None else None
     return ch

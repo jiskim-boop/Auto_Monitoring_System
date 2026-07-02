@@ -129,11 +129,15 @@
       <span class="sigmini" id="sig-ai"><span class="sigdot"></span><span class="signm">AI 섹터</span> <span class="sigvl">—</span></span>
       <span class="sigmini" id="sig-macro"><span class="sigdot"></span><span class="signm">거시·시스템</span> <span class="sigvl">—</span></span>
     </div>
-    <div style="margin-top:8px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 3영역</b>(신용=HY/NFCI/CCC-BB · AI=바스켓/단가 · 거시=VIX/스프레드/지수추세) · 영역별 <b style="color:#6f7888">안정0 · 주의1 · 위험2점</b> 합산 = 0~6점 · 0~1 안정 · 2~3 주의 · 4~5 경계 · <b style="color:#ff3b6b">6 위험(3영역 전부)</b> · 조기경보와 <b style="color:#6f7888">독립 기준</b>(선행은 아래 조기경보 담당) · 점수로 같은 단계 안 깊이 구분</div>
-    <div id="frag-strip" style="margin-top:8px;padding:6px 8px;background:#10151d;border:1px solid #232c3a;border-radius:6px">
-      <div style="display:flex;align-items:center;gap:6px;margin-bottom:4px;flex-wrap:wrap"><span class="nm" style="font-size:10px;color:#9aa3b3;font-weight:700">구조 취약성 (연료)</span><span class="stt s-n" id="frag-badge">—</span><span style="font-size:8.5px;color:#5f6878">비점수 · 종합/조기경보 판정 미반영 컨텍스트</span></div>
-      <div id="frag-cells" style="display:flex;gap:4px;flex-wrap:wrap"></div>
-      <div style="margin-top:4px;font-size:8.5px;color:#5f6878;line-height:1.4">취약성=<b style="color:#8a93a6">연료량</b> · 조기경보=<b style="color:#8a93a6">발화 감지</b> — 취약성 높음 + 지표 평온 = <b style="color:#a8946a">마른 장작 국면</b> (평온≠안전 · '20형 외생충격·'07형 급반전 모두 이 국면에서 발생)</div>
+    <div id="comp-calc-toggle" onclick="var d=document.getElementById('comp-calc-detail'),c=document.getElementById('comp-calc-caret');var o=d.style.display==='none';d.style.display=o?'block':'none';if(c)c.textContent=o?'▼ 계산 방식 접기':'▶ 계산 방식';" style="margin-top:8px;font-size:9px;color:#6f7888;cursor:pointer;user-select:none;font-weight:700"><span id="comp-calc-caret">▶ 계산 방식</span></div>
+    <div id="comp-calc-detail" style="display:none;margin-top:5px;font-size:9.5px;color:#5f6878;line-height:1.5">계산 방식: <b style="color:#6f7888">확정 3영역</b>(신용=HY/NFCI/CCC-BB · AI=바스켓/단가 · 거시=VIX/스프레드/지수추세) · 영역별 <b style="color:#6f7888">안정0 · 주의1 · 위험2점</b> 합산 = 0~6점 · 0~1 안정 · 2~3 주의 · 4~5 경계 · <b style="color:#ff3b6b">6 위험(3영역 전부)</b> · 조기경보와 <b style="color:#6f7888">독립 기준</b>(선행은 아래 조기경보 담당) · 점수로 같은 단계 안 깊이 구분</div>
+    <div id="frag-strip" style="margin-top:7px;padding:5px 8px;background:#10151d;border:1px solid #232c3a;border-radius:6px">
+      <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap"><span class="nm" style="font-size:10px;color:#9aa3b3;font-weight:700">구조 취약성 (연료)</span><span class="stt s-n" id="frag-badge">—</span><span id="frag-caret" onclick="var b=document.getElementById('frag-body');var o=b.style.display==='none';b.style.display=o?'block':'none';this.textContent=o?'▼ 접기':'▶ 상세';" style="font-size:9px;color:#6f7888;cursor:pointer;user-select:none;font-weight:700;margin-left:auto">▶ 상세</span></div>
+      <div id="frag-body" style="display:none">
+        <div style="font-size:8.5px;color:#5f6878;margin:4px 0 3px">비점수 · 종합/조기경보 판정 미반영 컨텍스트</div>
+        <div id="frag-cells" style="display:grid;grid-template-columns:repeat(5,1fr);gap:3px"></div>
+        <div style="margin-top:4px;font-size:8.5px;color:#5f6878;line-height:1.4">취약성=<b style="color:#8a93a6">연료량</b> · 조기경보=<b style="color:#8a93a6">발화 감지</b> — 취약성 높음 + 지표 평온 = <b style="color:#a8946a">마른 장작 국면</b> (평온≠안전 · '20형 외생충격·'07형 급반전 모두 이 국면에서 발생)</div>
+      </div>
     </div>
     <div id="comp-warn-toggle" onclick="var d=document.getElementById('comp-warn-detail'),c=document.getElementById('comp-warn-caret');var o=d.style.display==='none';d.style.display=o?'block':'none';if(c)c.textContent=o?'▼ 외생충격 사각지대 접기':'▶ 외생충격 사각지대 (팬데믹·전쟁 등 예측 불가 리스크)';" style="margin-top:7px;font-size:9px;color:#a5824f;cursor:pointer;user-select:none;font-weight:700"><span id="comp-warn-caret">▶ 외생충격 사각지대 (팬데믹·전쟁 등 예측 불가 리스크)</span></div>
     <div id="comp-warn-detail" style="display:none;margin-top:5px;padding:6px 8px;background:#1a1410;border:1px solid #3a2a18;border-radius:6px;font-size:9px;color:#c99a6a;line-height:1.5"><b>⚠️ 외생충격 사각지대:</b> 팬데믹·전쟁·테러 등 <b>시장 외부에서 오는 충격은 어떤 지표로도 사전 포착 불가</b>. '20 코로나는 폭락 3일 전 VIX 14·HY 3.5%로 완전 평온이었음. <b>이 판정이 '안정'이어도 외생충격 리스크는 별개</b> — 조기경보는 신용발(2008형) 내부 균열에 강하고, 외생충격엔 원리적으로 무력.</div>
@@ -227,7 +231,7 @@
         <div class="risk"><b style="color:#8a93a6">판정:</b> <span style="color:#8a93a6">확대(추세)가 핵심 — 질 나쁜 채권이 먼저 차별받으면 신용경색 선행 · <b style="color:#a8946a">확대 추세 → 조기경보 반영 · 절대 ≥12%p → 종합 신용 격상</b></span></div></div>
       <div class="card crit"><div class="top"><span class="nm">금융 상대강도 (XLF/SPY) <span style="font-size:10px;color:#6f7888;font-weight:400">· 선행</span></span><span class="stt s-b" id="st-xlfspy">참고</span></div>
         <div class="desc">금융섹터/시장 · 은행은 신용 익스포저를 가장 먼저 가격 반영 · '07 지수 정점 수개월 선행 이탈 · '23 SVB 수주 선행</div><div class="verdict" id="lv-xlfspy">—</div>
-        <div class="risk"><b style="color:#8a93a6">판정:</b> <span style="color:#8a93a6">하락 추세 = 주의 (신용경색의 주식측 카나리아) · <b style="color:#a8946a">조기경보 반영은 트리거 확정 후(2단계)</b></span></div></div>
+        <div class="risk"><b style="color:#8a93a6">판정:</b> <span style="color:#8a93a6">하락 추세 = 주의 (신용경색의 주식측 카나리아) · <b style="color:#a8946a">하락 + 지수 정상 → 조기경보 반영 (선행약세 · '07형 다이버전스)</b></span></div></div>
       <div class="card crit"><div class="top"><span class="nm">EDGAR 8-K</span><span class="stt s-n">자동</span></div>
         <div class="desc">BDC 중대사건 · 본문 AI 요약 · NEW=3일내</div>
         <ul class="news" id="edgar"><li class="empty">로딩…</li></ul></div>
@@ -360,7 +364,7 @@
     <span style="color:#5aa0ff">옵션축</span> 기간구조역전(VIX/VIX3M≥1.02)·VIX +20%〔강 1.0〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조 0.5〕<br>
     <span style="color:#ff8a5a">신용축</span> 사모대출 급약세·HY OAS≥5.5%〔강 1.0〕 / 사모대출 약세·NFCI&gt;0.5〔보조 0.5〕<br>
     <span style="color:#c89bff">가격축</span> 당일 −2%↓ 급락〔강 1.0〕 / HYG 5일 −2%↓·안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조 0.5〕<br>
-    <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영</b>〕<br>
+    <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·CCC-BB 확대·시장 폭 악화·금융 상대약세(지수 정상시)·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영·합산캡 1.0</b>〕<br>
     <span style="color:#9aa3b3">※ 단계: 점수 1.0+ 주의 · 2.5+ 경계 · <b>경계</b>는 깊이(점수 2.5+)에 더해 <b>질(강한 신호) 또는 폭(2축)</b>이 있어야 함 — 선행약세(합산 최대 1.0)·약한 2축만으론 주의까지. 강한 신호 2개면 점수 무관 경계. <b>위험</b>은 3축+점수3+강한2 (셋 다). 같은 단계 깊이는 카드 게이지·매트릭스로</span><br>
     <span style="color:#6f7888">조기징후(점수 0, 2개+면 주의): 기간구조 임박·BIZD 하락·숨은헤지(VIX&lt;20 &amp; SKEW≥145) · 텔레그램 알림·30일 이력도 동일 로직(서버 동기화)</span>
 
@@ -829,6 +833,8 @@ function earlyWarning(p,fred,sCredit,sChain){
   if(rising(ch.vix)&&!(v!=null&&v>=26)&&!(vix&&vix.ok&&vix.chg!=null&&vix.chg>=20)) add('VIX 상승추세',0.5,null);
   if(rising(ch.ccc_bb)) add('CCC-BB 확대(품질분산)',0.5,null);   // 질 나쁜 채권 먼저 차별 = 신용경색 선행(HY보다 이름)
   if(falling(ch.rsp_spy)) add('시장 폭 악화(RSP/SPY)',0.5,null); // 소수 대형주 쏠림 = 내부 부실 선행(2000형)
+  const idxW5=(spy&&spy.chg5!=null&&spy.chg5<=-2)||(qqq&&qqq.chg5!=null&&qqq.chg5<=-2);
+  if(falling(ch.xlf_spy)&&!idxW5) add('금융 상대약세(XLF/SPY)',0.5,null); // '07형 다이버전스: 지수 정상+금융만 약세 (지수 약하면 '지수 추세 약세' 담당)
   if(falling(ch.bizd)) addEarly('신용프록시 약화','사모대출 프록시(BIZD)가 추세적 하락');
   const spyUp = spy&&spy.chg!=null&&spy.chg>=0;
   const hygWeak = hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-1;
@@ -993,7 +999,7 @@ function earlyWarning(p,fred,sCredit,sChain){
         <span style="color:${lc}">${q.label}</span><b style="color:${pc};font-size:9.5px">${Math.round(q.pct*100)}%</b></span>`;
     }).join('');
     const clusterOf=(l)=>{
-      if(/사모대출|HY스프레드|HY 상승|CCC-BB|NFCI|신용 급약화|시장-신용|신용프록시/.test(l)) return 0;
+      if(/사모대출|HY스프레드|HY 상승|CCC-BB|NFCI|신용 급약화|시장-신용|신용프록시|금융 상대약세/.test(l)) return 0;
       if(/시장 급락|선물 급락|지수 추세|밸류체인|시장 폭|폭 축소/.test(l)) return 1;
       if(/기간구조|VIX|SKEW|VVIX|MOVE|안전자산|숨은 헤지/.test(l)) return 2;
       return -1;};
@@ -1154,9 +1160,9 @@ function renderFragility(d){
   ];
   const C={2:['#ff6b6b','극단'],1:['#c9955f','상위'],0:['#6f7888','정상'],'-1':['#3d4655','대기']};
   cellsEl.innerHTML=items.map(it=>{const c=C[it.s][0],w=C[it.s][1];
-    return '<div style="flex:1;min-width:70px;padding:3px 6px;border-radius:5px;background:#0d1320;border:1px solid '+(it.s>=2?'#5a2a2a':it.s===1?'#4a3a22':'#1d2532')+'">'
-      +'<div style="font-size:8.5px;color:#6f7888">'+it.n+' <span style="color:'+c+';font-weight:700">'+w+'</span></div>'
-      +'<div style="font-size:10px;color:#aeb6c4;font-weight:700">'+(it.v!=null?it.v:'—')+'</div></div>';}).join('');
+    return '<div style="min-width:0;padding:3px 4px;border-radius:5px;background:#0d1320;border:1px solid '+(it.s>=2?'#5a2a2a':it.s===1?'#4a3a22':'#1d2532')+'">'
+      +'<div style="font-size:8px;color:#6f7888;white-space:nowrap;overflow:hidden">'+it.n+' <span style="color:'+c+';font-weight:700">'+w+'</span></div>'
+      +'<div style="font-size:9.5px;color:#aeb6c4;font-weight:700;white-space:nowrap">'+(it.v!=null?it.v:'—')+'</div></div>';}).join('');
   const n=items.filter(it=>it.s===2).length, wait=items.some(it=>it.s===-1);
   badge(bEl, n>=4?'r':n>=2?'a':'g', (n>=4?'극단':n>=2?'높음':'보통')+' '+n+'/5'+(wait?' ·대기有':''));
 }

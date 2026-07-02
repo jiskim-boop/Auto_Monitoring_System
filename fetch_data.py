@@ -873,6 +873,9 @@ def calc_early(prices, fred, charts):
         add("VIX 상승추세",0.5,None)
     if _rising(ch.get("ccc_bb")): add("CCC-BB 확대(품질분산)",0.5,None)   # JS earlyWarning과 동일 미러
     if _falling(ch.get("rsp_spy")): add("시장 폭 악화(RSP/SPY)",0.5,None)  # JS earlyWarning과 동일 미러
+    _s5,_q5=gc5("SPY"),gc5("QQQ")
+    _idxW5=(_s5 is not None and _s5<=-2) or (_q5 is not None and _q5<=-2)
+    if _falling(ch.get("xlf_spy")) and not _idxW5: add("금융 상대약세(XLF/SPY)",0.5,None)  # JS 미러 · '07형 다이버전스(지수 정상+금융만 약세)
     spy_up=spy_c is not None and spy_c>=0
     hyg_weak=hyg5 is not None and hyg5<=-1
     if spy_up and hyg_weak: add("시장-신용 괴리",0.5,None)

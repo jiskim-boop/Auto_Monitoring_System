@@ -163,8 +163,8 @@
     <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     <div class="risk" style="margin-top:8px">
       <b>계산:</b> 강한 1.0 + 보조·선행약세 0.5 합산 → 1+ 주의 · 2.5+(질/폭) 경계 · 3축 동시=위험 · <b style="color:#8a93a6">조기징후만이면 주의까지</b><br>
-      <b>3축〔위험 판정용〕:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 약세·HY급등·NFCI / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
-      <b style="color:#9aa3b3">선행약세〔점수만·축 미반영·합산 최대 1.0〕:</b> 지수추세약세·AI약세·VIX추세·HY추세·CCC-BB확대·시장폭악화·금융상대약세(지수정상시)·괴리·폭축소<br>
+      <b>3축〔위험 판정용〕:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 약세·HY급등·NFCI·다이버전스(지수↑내부↓) / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
+      <b style="color:#9aa3b3">선행약세〔점수만·축 미반영·합산 최대 1.0〕:</b> 지수추세약세·AI약세·VIX추세·HY추세·CCC-BB확대·시장폭악화·금융상대약세(지수정상시)·HY/CCC-BB저점이탈(+30%)·괴리·폭축소<br>
       <b style="color:#8a93a6">표시:</b> <span style="color:#8a93a6">구성(강한/보조/선행약세) · <b style="color:#9aa3b3">선행 클러스터(신용/폭/펀딩 — 어느 영역이 문제인지)</b> · 위험 판정 축별 매트릭스 · 임계 근접도(미점등 상위) 상시 — 같은 단계 안에서도 깊이·다음 후보 식별</span><br>
       <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6"><b style="color:#9aa3b3">선행</b> — 시장 거래 신호(사모ETF 주가 등)로 먼저 울림. 확정 지표(HY/NFCI)는 나중에 따라옴 → 그게 상단 종합위험도. <b style="color:#9aa3b3">조기경보가 종합보다 먼저 반응하는 게 정상</b> · 선행이라 거짓경보 가능 · 보조도구</span>
     </div>
@@ -364,7 +364,7 @@
     <span style="color:#5aa0ff">옵션축</span> 기간구조역전(VIX/VIX3M≥1.02)·VIX +20%〔강 1.0〕 / SKEW≥150·VVIX≥110·MOVE≥125〔보조 0.5〕<br>
     <span style="color:#ff8a5a">신용축</span> 사모대출 급약세·HY OAS≥5.5%〔강 1.0〕 / 사모대출 약세·NFCI&gt;0.5〔보조 0.5〕<br>
     <span style="color:#c89bff">가격축</span> 당일 −2%↓ 급락〔강 1.0〕 / HYG 5일 −2%↓·안전자산 쏠림(金+2%&amp;달러+0.7%)〔보조 0.5〕<br>
-    <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·CCC-BB 확대·시장 폭 악화·금융 상대약세(지수 정상시)·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영·합산캡 1.0</b>〕<br>
+    <span style="color:#9aa3b3">선행약세</span> 지수 5일 −2%↓·AI 밸류체인 약세·VIX 상승추세·HY 상승추세·CCC-BB 확대·시장 폭 악화·금융 상대약세(지수 정상시)·HY/CCC-BB 저점이탈(+30%)·시장−신용 괴리·폭 축소(고점권&amp;50일선위&lt;45%) 〔각 0.5, <b>점수만·축 미반영·합산캡 1.0</b>〕<br>
     <span style="color:#9aa3b3">※ 단계: 점수 1.0+ 주의 · 2.5+ 경계 · <b>경계</b>는 깊이(점수 2.5+)에 더해 <b>질(강한 신호) 또는 폭(2축)</b>이 있어야 함 — 선행약세(합산 최대 1.0)·약한 2축만으론 주의까지. 강한 신호 2개면 점수 무관 경계. <b>위험</b>은 3축+점수3+강한2 (셋 다). 같은 단계 깊이는 카드 게이지·매트릭스로</span><br>
     <span style="color:#6f7888">조기징후(점수 0, 2개+면 주의): 기간구조 임박·BIZD 하락·숨은헤지(VIX&lt;20 &amp; SKEW≥145) · 텔레그램 알림·30일 이력도 동일 로직(서버 동기화)</span>
 
@@ -835,6 +835,10 @@ function earlyWarning(p,fred,sCredit,sChain){
   if(falling(ch.rsp_spy)) add('시장 폭 악화(RSP/SPY)',0.5,null); // 소수 대형주 쏠림 = 내부 부실 선행(2000형)
   const idxW5=(spy&&spy.chg5!=null&&spy.chg5<=-2)||(qqq&&qqq.chg5!=null&&qqq.chg5<=-2);
   if(falling(ch.xlf_spy)&&!idxW5) add('금융 상대약세(XLF/SPY)',0.5,null); // '07형 다이버전스: 지수 정상+금융만 약세 (지수 약하면 '지수 추세 약세' 담당)
+  // 저점이탈(trough-reversal): 90일 저점 대비 +30% 이탈했는데 레벨은 아직 조용 — '07.6 최초 신호 형태(사상최저 반전)
+  const troughUp=(arr,cap)=>{const vv=(arr||[]).filter(x=>x!=null); if(vv.length<5)return false; const lo=Math.min(...vv); return lo>0&&vv[vv.length-1]>=lo*1.3&&vv[vv.length-1]<cap;};
+  if(troughUp(ch.hyoas,5.0)) add('HY 저점이탈(+30%)',0.5,null);
+  if(troughUp(ch.ccc_bb,12)) add('CCC-BB 저점이탈(+30%)',0.5,null);
   if(falling(ch.bizd)) addEarly('신용프록시 약화','사모대출 프록시(BIZD)가 추세적 하락');
   const spyUp = spy&&spy.chg!=null&&spy.chg>=0;
   const hygWeak = hyg&&hyg.ok&&hyg.chg5!=null&&hyg.chg5<=-1;
@@ -858,6 +862,9 @@ function earlyWarning(p,fred,sCredit,sChain){
   })();
   const regimeActive = regimeDD!=null && regimeDD<=-4;   // 3개월 고점 대비 -4%+ = 조정 진행 중
   if(regimeActive) add('조정 지속(고점 '+regimeDD.toFixed(1)+'%)',0.5,null);  // 점수 0.5 → 주의 기여, 축 미세팅이라 '위험'엔 X
+  // 다이버전스 엔진: 지수 고점권(!regimeActive)인데 내부 3종(폭·금융·HY) 중 2+ 미확인 — '00·'07 정점 공통 형태 → 보조·신용축
+  const divN=(falling(ch.rsp_spy)?1:0)+(falling(ch.xlf_spy)?1:0)+(rising(ch.hyoas)?1:0);
+  if(!regimeActive&&divN>=2) add('다이버전스(지수↑·내부↓)',0.5,'slow');
   score += Math.min(leadScore,1);  // P1: 선행약세 합산 최대 1.0 — 상관된 추세 신호(지수·AI·조정 등) 과대계상 방지
   // ── 단계는 확정신호(score+축)만으로 결정 — 조기징후는 단계를 올리지 않음(정확성) ──
   // 단계 판정: 4단계 (안정→주의→경계→위험)
@@ -999,8 +1006,8 @@ function earlyWarning(p,fred,sCredit,sChain){
         <span style="color:${lc}">${q.label}</span><b style="color:${pc};font-size:9.5px">${Math.round(q.pct*100)}%</b></span>`;
     }).join('');
     const clusterOf=(l)=>{
-      if(/사모대출|HY스프레드|HY 상승|CCC-BB|NFCI|신용 급약화|시장-신용|신용프록시|금융 상대약세/.test(l)) return 0;
-      if(/시장 급락|선물 급락|지수 추세|밸류체인|시장 폭|폭 축소/.test(l)) return 1;
+      if(/사모대출|HY스프레드|HY 상승|CCC-BB|NFCI|신용 급약화|시장-신용|신용프록시|금융 상대약세|저점이탈/.test(l)) return 0;
+      if(/시장 급락|선물 급락|지수 추세|밸류체인|시장 폭|폭 축소|다이버전스/.test(l)) return 1;
       if(/기간구조|VIX|SKEW|VVIX|MOVE|안전자산|숨은 헤지/.test(l)) return 2;
       return -1;};
     const CLN=['신용선행','내부선행','구조·펀딩'];

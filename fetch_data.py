@@ -876,6 +876,13 @@ def calc_early(prices, fred, charts):
     _s5,_q5=gc5("SPY"),gc5("QQQ")
     _idxW5=(_s5 is not None and _s5<=-2) or (_q5 is not None and _q5<=-2)
     if _falling(ch.get("xlf_spy")) and not _idxW5: add("금융 상대약세(XLF/SPY)",0.5,None)  # JS 미러 · '07형 다이버전스(지수 정상+금융만 약세)
+    def _trough_up(arr,cap):   # 저점이탈: 90일 저점 대비 +30% 이탈 & 레벨 조용 — '07.6 형태 (JS troughUp 미러)
+        vv=[x for x in (arr or []) if x is not None]
+        if len(vv)<5: return False
+        lo=min(vv)
+        return lo>0 and vv[-1]>=lo*1.3 and vv[-1]<cap
+    if _trough_up(ch.get("hyoas"),5.0): add("HY 저점이탈(+30%)",0.5,None)
+    if _trough_up(ch.get("ccc_bb"),12): add("CCC-BB 저점이탈(+30%)",0.5,None)
     spy_up=spy_c is not None and spy_c>=0
     hyg_weak=hyg5 is not None and hyg5<=-1
     if spy_up and hyg_weak: add("시장-신용 괴리",0.5,None)
@@ -899,6 +906,9 @@ def calc_early(prices, fred, charts):
     regime_dd=min(_dds) if _dds else None
     regime_active = regime_dd is not None and regime_dd<=-4
     if regime_active: add("조정 지속(고점 %.1f%%)"%regime_dd,0.5,None)  # 점수 0.5 → 주의 기여, 축 미세팅이라 위험엔 X
+    # 다이버전스 엔진: 지수 고점권인데 내부(폭·금융·HY) 2+ 미확인 — JS 미러 (보조 0.5·slow축)
+    _divN=(1 if _falling(ch.get("rsp_spy")) else 0)+(1 if _falling(ch.get("xlf_spy")) else 0)+(1 if _rising(ch.get("hyoas")) else 0)
+    if (not regime_active) and _divN>=2: add("다이버전스(지수↑·내부↓)",0.5,"slow")
     score += min(lead_score,1.0)   # P1: 선행약세 합산 최대 1.0 (상관된 추세 신호 과대계상 방지, JS와 동일)
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
     guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2

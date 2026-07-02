@@ -570,34 +570,43 @@ def fred_series_dated(series_id, limit=1000):
     except Exception:
         return None
 
+FINRA_HTML_HEADERS={"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36",
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9"}
+
+def _parse_margin(html):
+    """FINRA 표 텍스트에서 최신월 debit balance 추출 (내림차순 표라 첫 매치=최신)"""
+    txt=re.sub(r"<[^>]+>"," ",html); txt=re.sub(r"\s+"," ",txt)
+    m=re.search(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\s\-\.]{0,2}(?:20)?\d{2})\s*\$?\s*([\d,]{7,11})", txt)
+    if m:
+        val=int(m.group(2).replace(",",""))
+        if 200_000<=val<=5_000_000: return val, m.group(1).strip()   # $200B~$5T sanity ($M 단위)
+    return None,None
+
 def fetch_finra_margin():
-    """FINRA 마진부채 최신월 (debit balances, $M) 스크랩. 실패 시 (None,None) — 호출부에서 이전값 유지"""
-    urls=["https://www.finra.org/investors/learn-to-invest/advanced-investing/margin-statistics",
-          "https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics"]
-    for u in urls:
+    """FINRA 마진부채 최신월 ($M). ①FINRA 직접 ②웨이백 스냅샷 폴백. 실패 시 (None,None,None) → 호출부 prev 유지"""
+    wb="https://web.archive.org/web/"+datetime.now(timezone.utc).strftime("%Y%m%d")+"/https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics"
+    tries=[("finra","https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics"),
+           ("archive",wb)]
+    for tag,u in tries:
         try:
-            html=get(u, headers=BROWSER_UA)
-            if not html: continue
-            txt=re.sub(r"<[^>]+>"," ",html); txt=re.sub(r"\s+"," ",txt)
-            # 최신 행: "May 2026 1,415,557" / "May-26 $1,415,557" 등 — 첫 매치가 최신월(내림차순 표)
-            m=re.search(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\s\-\.]{0,2}(?:20)?\d{2})\s*\$?\s*([\d,]{7,11})", txt)
-            if m:
-                val=int(m.group(2).replace(",",""))
-                if 200_000<=val<=5_000_000:   # $200B~$5T sanity (단위 $M)
-                    return val, m.group(1).strip()
-        except Exception:
-            continue
-    return None, None
+            html=get(u, headers=FINRA_HTML_HEADERS, timeout=30)
+            v,a=_parse_margin(html or "")
+            print(f"[fragility] margin {tag}: len={len(html or '')} → {v} ({a})")
+            if v: return v,a,tag
+        except Exception as e:
+            print(f"[fragility] margin {tag} 실패: {type(e).__name__} {str(e)[:80]}")
+    return None,None,None
 
 def build_fragility(prev):
     """취약성 패널 원자료: 마진부채/GDP + 커브(T10Y2Y) 상태. CAPE·HY·RSP/SPY는 charts에서 클라이언트가 직접 읽음"""
     fr={}
-    mv,masof=fetch_finra_margin()
+    mv,masof,msrc=fetch_finra_margin()
     pf=(prev or {}).get("fragility") or {}
     if mv is None:   # 스크랩 실패 → 월간 지표라 이전값 유지가 합리적
         fr["margin_mn"]=pf.get("margin_mn"); fr["margin_asof"]=pf.get("margin_asof"); fr["margin_src"]="prev" if pf.get("margin_mn") else None
     else:
-        fr["margin_mn"]=mv; fr["margin_asof"]=masof; fr["margin_src"]="finra"
+        fr["margin_mn"]=mv; fr["margin_asof"]=masof; fr["margin_src"]=msrc
     gdp=fred_series_dated("GDP", limit=8)          # 명목 GDP ($B, SAAR) 최신 분기
     gdp_bn=gdp[-1][1] if gdp else None
     fr["margin_gdp_pct"]=round(fr["margin_mn"]/1000.0/gdp_bn*100,2) if (fr.get("margin_mn") and gdp_bn) else None
@@ -614,6 +623,8 @@ def build_fragility(prev):
             fr["curve_uninv_months"]=None   # 조회창 내 역전 없음(=충분히 오래 정상)
     else:
         fr["curve_bp"]=None; fr["curve_inverted"]=None; fr["curve_uninv_months"]=None
+    print("[fragility] margin:",fr.get("margin_mn"),fr.get("margin_asof"),fr.get("margin_src"),
+          "| margin/GDP:",fr.get("margin_gdp_pct"),"% | curve:",fr.get("curve_bp"),"bp · 재정상화",fr.get("curve_uninv_months"),"개월")
     return fr
 
 def fetch_gpu_price(prev):

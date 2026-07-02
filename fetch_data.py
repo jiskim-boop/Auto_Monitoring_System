@@ -715,6 +715,12 @@ def fetch_charts(fred):
         ch["rsp_spy"]=[round(a/b,4) if b else None for a,b in zip(rsp,spy)]
     else:
         ch["rsp_spy"]=None
+    # 금융주 상대강도 (XLF/SPY) — '07 금융섹터가 지수 정점 수개월 전 이탈·시스템 붕괴 주도, '23 지역은행이 SVB 수주 선행. 신용경색의 주식측 카나리아
+    xlf=fetch_series_yahoo("XLF")
+    if xlf and spy and len(xlf)==len(spy):
+        ch["xlf_spy"]=[round(a/b,4) if b else None for a,b in zip(xlf,spy)]
+    else:
+        ch["xlf_spy"]=None
     cape=(fred or {}).get("cape")
     ch["cape"]=[cape]*8 if cape is not None else None
     return ch

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-02T21:32:19+00:00",
+ "updated": "2026-07-02T21:41:57+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.86,
-   "chg": -0.52,
-   "chg5": -0.56,
+   "price": 100.87,
+   "chg": -0.51,
+   "chg5": -0.55,
    "sma20": 100.52,
    "sma50": 99.46,
    "sma200": 98.88,
    "high3m": 101.61,
-   "reg": 100.86,
+   "reg": 100.87,
    "pre": null,
    "post": null,
-   "regClose": 100.86,
+   "regClose": 100.87,
    "sess": "reg",
-   "mt": 1783027303,
+   "mt": 1783027888,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61465.48,
-   "chg": 2.44,
+   "price": 61462.89,
+   "chg": 2.43,
    "chg5": 2.54,
-   "sma20": 62367.36,
-   "sma50": 67734.41,
-   "sma200": 73832.31,
+   "sma20": 62367.23,
+   "sma50": 67734.36,
+   "sma200": 73832.3,
    "high3m": 82138.93,
-   "reg": 61465.48,
+   "reg": 61462.89,
    "pre": null,
    "post": null,
-   "regClose": 61465.48,
+   "regClose": 61462.89,
    "sess": "reg",
-   "mt": 1783027906,
+   "mt": 1783028493,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.09,
-   "chg": -0.89,
-   "chg5": -0.44,
+   "price": 161.1,
+   "chg": -0.88,
+   "chg5": -0.43,
    "sma20": 161.11,
    "sma50": 159.61,
    "sma200": 158.23,
    "high3m": 162.63,
-   "reg": 161.09,
+   "reg": 161.1,
    "pre": null,
    "post": null,
-   "regClose": 161.09,
+   "regClose": 161.1,
    "sess": "reg",
-   "mt": 1783027911,
+   "mt": 1783028495,
    "ok": true
   },
   "ES=F": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "FS KKR Capital Corp outlines its income-focused strategy as a leading BDC - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPYVFIZEVhRFZWN2haem1iN1BHRnVNYl93Tk9JU0E0eXpRY1I3cDdSOEZMc1ZhaFJuUTcwcllWek1SXzV4eWFtU3pwUUFfamF2X09TUUhLZFVVQzZEMHc1QXU5WHpDVlVnUnlvVk5uZVZmMWhMM1pvOVkwODlOSVYzdFBKTzY5dDg1VzhfZ3R1dTdkQ0JmSWVzSWZISktwaDUxazBxYWs0UndNd0padzRuclZrZU43b0pTZmhuV1NEZjZycGp6d2o1bW1aT2E?oc=5",
+    "pub": "Thu, 02 Jul 2026 19:12:41 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Blue Owl stock rises as redemption requests ease at its flagship funds - Invezz",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUU1jYURIMXZRdEFFd3c3RjNLYWJNRjY2RFRGV3pxcXZseHdITk5mQlNxY0FQX0VyVlpETFprSVVYWkVkX3p6RVR3cnlBSmxZSXNsR1hpN1V3ekpKUlJSTHY2Z0hFQlZFTXlTWGw1SWp6c2w3V1B3NEJmUWhQYUNELWNxdEhKTkhBLUcwVjE0Xy1KMWFZU0hZYml2Umt2Tk1oeWl0SEN0ajlWVHpqNmc?oc=5",
     "pub": "Thu, 02 Jul 2026 18:28:42 GMT",
@@ -1162,14 +1170,6 @@
     "pub": "Thu, 02 Jul 2026 16:48:13 GMT",
     "src": "thewealthadvisor.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "BlackRock’s CEO Exit Signals Private Credit Shift - Global Finance Magazine",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQWERfNUVDbXB6ekNITHdlZlhZdHVlUVFpLVZlOWVNV0VqUmdwVmlkUXNUZnBib2toYW51M3ZhQkxhNE5KR1NNQm96M2lFbkZNTXRGc1dwaVJ0S1JkWW1aM2taWGtvdFlaRE5PemFRYzdZM3dLQ0JqdkJPXzFrbm1CWG5sbnNFMlB2TWc?oc=5",
-    "pub": "Thu, 02 Jul 2026 16:31:24 GMT",
-    "src": "Global Finance Magazine",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1275,10 +1275,26 @@
   ],
   "flow": [
    {
+    "title": "US Dollar Index Slides After June Payrolls Shock: Just 57,000 Jobs Added - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPZGx5bHhVdlZsMkwtbUNEQS1xa1BFd0ZPQmNXa01zejRJWjk1YmluSEpZMzBUekVuc25PLTk5ZktUZVoyUzFoVTlUdDZvZ2JMVU5GVjhYb2RmanlVTk9hNzJRTm9Hc0pZOVQ2SUJBcmcyZmtjZm8ta3pBSkdUQndKN21QYnB2Q1p4SXc?oc=5",
+    "pub": "Thu, 02 Jul 2026 20:42:52 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Dollar-Yen Clings to a 40-Year High Near 162.5 as the Carry Trade Overpowers Intervention Warnings - TradingNEWS",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNa2Y2eUhQbEUtNlFiR0dIOV96RXllWTR1VTBKQ0lWZG00X2YyenVha3ZkQ1F0bTd1NERDSlNfSHVCSWcwS0Z0aG9QT1VGS19OUXlERV9qNFZweXdic2ZGclFEbWJEZ1pnRkx6NFJsR19XaUVib0ZZLTE5ejNPanhFelJqVVNPempobEdXeS0zREFOTzBuT21FbTV1SEZEX1ZRdkFZdG45MHdwd1pjX29uRU9SS0ltbVhUaHdVaFJTWThSTmdqMGxZ?oc=5",
     "pub": "Thu, 02 Jul 2026 20:10:32 GMT",
     "src": "TradingNEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Rallies as Weak US Jobs Data Sends Dollar to Two-Week Low - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1WVHNRVnBJc2hCYkppdnNTRF9wc2JNNzJWRGRONTc1ZjNEMTdDQXJPclJSMi12OGlVUjBTZmxlR3c5SWdWS2VBem9rRmRyUkhXVFY5OHdoU1p4c1lGV0haajBRQ0hxeGpTanpDN0Y5ZmRPZW1DYnBqYkJKcjlKWVk?oc=5",
+    "pub": "Thu, 02 Jul 2026 19:40:56 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1303,22 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPZnhuMFpHcEZWTE1KNVlteUFRNzVrR0Z6b3pqbk5xbDA5MEQxVTc4NDJGQjRmdl9PUHVhRmgyTnBwLXB2OTBTaTRUa25BM1JWV0QyMEgwa0xTVm5jM3V0UVB0M1lsM0N3QzBVR19wdjZ4OHpWdzJ3dHM0Q2xpRjJQSFBnTjNyUGJ6?oc=5",
     "pub": "Thu, 02 Jul 2026 17:46:39 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Will Oil Prices Keep Falling? WTI Futures Hit Pre-Iran War Lows - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNZ25fNHB3WXRXZHBIV09CSW1SZWVETDJDbzJ1RklmUTRpTERxTWZtMFViTlhST1hYd0ZfTFJINjdhUXhwNFI3ZGhzTE9qY0w1V05wSVZMNEhkeGZUbkM4SmgtZEtpM0VkRUlQNk94azVKa2hqckNPV19WX25VVnBrLXBRSDRwLTdt?oc=5",
-    "pub": "Thu, 02 Jul 2026 16:25:00 GMT",
-    "src": "Investor's Business Daily",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AAA Fuel Prices - AAA Gas Prices",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbjUzYXJoUmJJbzRuUDdaWWJMSGN4eElGYjFwTk1GVnpyUUp2dGxWLUVxTHZzX0xzdkVLV2ZEQk5Gc1h5ZE1NeVRuejdRbWdTMkVuclNUOXJZMVYzT2pLUGJMb1NpaHlPMS1mLTBoT0xxNlhPb2pQODNPYmJpQkdJOWVweUl5eWc?oc=5",
-    "pub": "Thu, 02 Jul 2026 15:30:04 GMT",
-    "src": "AAA Gas Prices",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    99.41,
    99.86,
    100.85,
-   100.86
+   100.87
   ],
   "bizd": [
    12.53,
@@ -1550,7 +1550,7 @@
    159.99,
    160.13,
    161.29,
-   161.09
+   161.1
   ],
   "uso": [
    138.94,
@@ -1610,7 +1610,7 @@
    63801.57,
    63561.05,
    62896.47,
-   61450.53
+   61450.54
   ],
   "vixts": [
    0.964,
@@ -2303,7 +2303,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-02T21:32:07+00:00",
+  "checked": "2026-07-02T21:41:50+00:00",
   "openai": {
    "found": false
   },

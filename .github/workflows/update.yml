@@ -27,9 +27,7 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase origin main || true
           git add -f data.json
-          git commit -m "auto: update data.json" || { echo "no changes"; exit 0; }
-          for i in 1 2 3; do
-            git pull --rebase --autostash origin main && git push && break
-            echo "retry $i"; sleep 5
-          done
+          git commit -m "auto: update data.json" || echo "no changes"
+          git push

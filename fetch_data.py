@@ -1117,6 +1117,15 @@ def main():
           "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
+    # 월간 아카이브: 이달 스냅샷 없으면 1회 저장 — FRED 3년창 제한 우회 + 자체 히트율/거짓경보율 데이터 축적 (워크플로가 archive/ 커밋)
+    try:
+        os.makedirs("archive",exist_ok=True)
+        _arc=os.path.join("archive",datetime.now(timezone.utc).strftime("%Y-%m")+".json")
+        if not os.path.exists(_arc):
+            import shutil; shutil.copyfile("data.json",_arc)
+            print("[archive] 월간 스냅샷 저장:",_arc)
+    except Exception as e:
+        print("[archive] 실패:",str(e)[:80])
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)
     try: maybe_alert(prev, ew, summary, prices, fred)
     except Exception as e: print("알림 처리 오류:",str(e)[:100])

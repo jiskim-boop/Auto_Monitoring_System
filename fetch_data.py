@@ -555,6 +555,67 @@ def fred_series(series_id, points=13):
     except Exception:
         return None
 
+# ── 구조 취약성 패널 (표시 전용 · 판정 미반영) ───────────────────────────
+def fred_series_dated(series_id, limit=1000):
+    """FRED 원시 시계열 (날짜 포함, asc 정렬). 커브 재정상화 경과월·GDP 최신값용"""
+    if not FRED_KEY: return None
+    url=("https://api.stlouisfed.org/fred/series/observations?series_id="+series_id+
+         "&api_key="+FRED_KEY+"&file_type=json&sort_order=desc&limit="+str(limit))
+    try:
+        raw=get(url)
+        if raw is None: return None
+        obs=json.loads(raw).get("observations",[])
+        out=[(o["date"],float(o["value"])) for o in obs if o["value"] not in (".","")]
+        return out[::-1] or None
+    except Exception:
+        return None
+
+def fetch_finra_margin():
+    """FINRA 마진부채 최신월 (debit balances, $M) 스크랩. 실패 시 (None,None) — 호출부에서 이전값 유지"""
+    urls=["https://www.finra.org/investors/learn-to-invest/advanced-investing/margin-statistics",
+          "https://www.finra.org/rules-guidance/key-topics/margin-accounts/margin-statistics"]
+    for u in urls:
+        try:
+            html=get(u, headers=BROWSER_UA)
+            if not html: continue
+            txt=re.sub(r"<[^>]+>"," ",html); txt=re.sub(r"\s+"," ",txt)
+            # 최신 행: "May 2026 1,415,557" / "May-26 $1,415,557" 등 — 첫 매치가 최신월(내림차순 표)
+            m=re.search(r"((?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*[\s\-\.]{0,2}(?:20)?\d{2})\s*\$?\s*([\d,]{7,11})", txt)
+            if m:
+                val=int(m.group(2).replace(",",""))
+                if 200_000<=val<=5_000_000:   # $200B~$5T sanity (단위 $M)
+                    return val, m.group(1).strip()
+        except Exception:
+            continue
+    return None, None
+
+def build_fragility(prev):
+    """취약성 패널 원자료: 마진부채/GDP + 커브(T10Y2Y) 상태. CAPE·HY·RSP/SPY는 charts에서 클라이언트가 직접 읽음"""
+    fr={}
+    mv,masof=fetch_finra_margin()
+    pf=(prev or {}).get("fragility") or {}
+    if mv is None:   # 스크랩 실패 → 월간 지표라 이전값 유지가 합리적
+        fr["margin_mn"]=pf.get("margin_mn"); fr["margin_asof"]=pf.get("margin_asof"); fr["margin_src"]="prev" if pf.get("margin_mn") else None
+    else:
+        fr["margin_mn"]=mv; fr["margin_asof"]=masof; fr["margin_src"]="finra"
+    gdp=fred_series_dated("GDP", limit=8)          # 명목 GDP ($B, SAAR) 최신 분기
+    gdp_bn=gdp[-1][1] if gdp else None
+    fr["margin_gdp_pct"]=round(fr["margin_mn"]/1000.0/gdp_bn*100,2) if (fr.get("margin_mn") and gdp_bn) else None
+    cur=fred_series_dated("T10Y2Y", limit=1000)    # 일간 ~1000영업일 ≈ 4년 — '24.9 재정상화 포함
+    if cur:
+        last=cur[-1][1]
+        fr["curve_bp"]=round(last*100); fr["curve_inverted"]=last<0
+        neg=[d for d,v in cur if v<0]
+        if fr["curve_inverted"]: fr["curve_uninv_months"]=0.0
+        elif neg:
+            dt=datetime.strptime(neg[-1],"%Y-%m-%d").date()
+            fr["curve_uninv_months"]=round((datetime.now(timezone.utc).date()-dt).days/30.44,1)
+        else:
+            fr["curve_uninv_months"]=None   # 조회창 내 역전 없음(=충분히 오래 정상)
+    else:
+        fr["curve_bp"]=None; fr["curve_inverted"]=None; fr["curve_uninv_months"]=None
+    return fr
+
 def fetch_gpu_price(prev):
     """H100 시세(중앙값) 수집 — computeprices.com 무료 JSON(/api/v1/gpu-prices). 실패시 graceful.
     누적: 시간당 1포인트씩 최근 48개 (추세 그래프용)."""
@@ -1014,6 +1075,7 @@ def main():
         if _c.get("found") and not _p2.get("found"):
             tg_send(f"🚀 <b>{_lb} 상장 감지</b>\n티커: {_c.get('ticker')} ({_c.get('name')})\n야후 티커 등록 확인 — 검증 필요")
     charts=fetch_charts(fred)
+    fragility=build_fragility(prev)
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
     history=update_history(prev,ew)
@@ -1022,7 +1084,7 @@ def main():
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 위험 단계 상향 시 텔레그램 알림 (prev와 비교 — 저장 전 prev 사용)

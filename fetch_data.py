@@ -598,6 +598,53 @@ def fetch_finra_margin():
             print(f"[fragility] margin {tag} 실패: {type(e).__name__} {str(e)[:80]}")
     return None,None,None
 
+def fetch_ebp(prev):
+    """연준 초과 채권 프리미엄(EBP) — GZ(2012) 스프레드 분해의 잔차 = 위험선호.
+    월간 CSV(1973~ 전체 이력 매월 재배포, 4영업일 10시 이후 갱신, 전 이력 수정 가능).
+    일 1회만 fetch(예의), 실패 시 이전값 유지. z·역대 정점은 전체 이력에서 산출(3년창 문제 없음)."""
+    pe=(prev or {}).get("ebp") or {}
+    today=datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    if pe.get("fetched")==today and pe.get("val") is not None:
+        return pe
+    url="https://www.federalreserve.gov/econres/notes/feds-notes/ebp_csv.csv"
+    try:
+        raw=get(url, headers=FINRA_HTML_HEADERS, timeout=30)
+        rows=[r.strip() for r in (raw or "").replace("\r","").split("\n") if r.strip()]
+        if len(rows)<24: raise ValueError("rows<24")
+        hdr=[c.strip().strip('"').lower() for c in rows[0].split(",")]
+        i_e=next((i for i,c in enumerate(hdr) if "ebp" in c), 1)
+        i_p=next((i for i,c in enumerate(hdr) if "prob" in c), 2)
+        data=[]
+        for r in rows[1:]:
+            cs=[c.strip().strip('"') for c in r.split(",")]
+            if len(cs)<=i_e: continue
+            try: e=float(cs[i_e])
+            except Exception: continue
+            p=None
+            if len(cs)>i_p:
+                try: p=float(cs[i_p])
+                except Exception: p=None
+            if abs(e)<10: data.append((cs[0],e,p))
+        if len(data)<24: raise ValueError("data<24")
+        vals=[e for _,e,_ in data]
+        m=sum(vals)/len(vals); sd=(sum((v-m)**2 for v in vals)/len(vals))**0.5 or 1e-9
+        cur_d,cur_e,cur_p=data[-1]
+        if cur_p is not None and cur_p<=1.5: cur_p*=100.0   # 0~1 스케일이면 %로
+        pk=max(data,key=lambda x:x[1])
+        out={"val":round(cur_e,2),"z":round((cur_e-m)/sd,2),
+             "prob":(round(cur_p,1) if cur_p is not None else None),
+             "asof":cur_d,"mean":round(m,2),"sd":round(sd,2),"hist_n":len(data),
+             "peak":round(pk[1],2),"peak_d":pk[0],
+             "prev_val":(round(data[-2][1],2) if len(data)>=2 else None),
+             "fetched":today,"src":"fed"}
+        print("[ebp]",out["asof"],out["val"],"z",out["z"],"prob",out["prob"],"n",out["hist_n"])
+        return out
+    except Exception as e:
+        print("[ebp] 실패:",type(e).__name__,str(e)[:80])
+        if pe.get("val") is not None:
+            pe["src"]="prev"; return pe
+        return {"val":None,"src":None}
+
 def build_fragility(prev):
     """취약성 패널 원자료: 마진부채/GDP + 커브(T10Y2Y) 상태. CAPE·HY·RSP/SPY는 charts에서 클라이언트가 직접 읽음"""
     fr={}
@@ -1106,6 +1153,7 @@ def main():
             tg_send(f"🚀 <b>{_lb} 상장 감지</b>\n티커: {_c.get('ticker')} ({_c.get('name')})\n야후 티커 등록 확인 — 검증 필요")
     charts=fetch_charts(fred)
     fragility=build_fragility(prev)
+    ebp=fetch_ebp(prev)
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
     history=update_history(prev,ew)
@@ -1114,7 +1162,7 @@ def main():
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 월간 아카이브: 이달 스냅샷 없으면 1회 저장 — FRED 3년창 제한 우회 + 자체 히트율/거짓경보율 데이터 축적 (워크플로가 archive/ 커밋)

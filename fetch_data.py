@@ -1194,6 +1194,7 @@ def update_klr(prev, ew, prices, fred):
     adj=[e for e in k["entries"] if e.get("hit60") is True or e.get("td",0)>60 and not e.get("hit60")]
     hit60=sum(1 for e in adj if e.get("hit60"))
     k["stats"]={"n":len(adj),"hit60":hit60,"miss60":len(adj)-hit60,
+                "near7":sum(1 for e in k["entries"] if e.get("td",0)>60 and not e.get("hit_date") and (e.get("min_spx_pct") or 0)<=-7),
                 "open":sum(1 for e in k["entries"] if e.get("status")=="추적중"),
                 "hold":("n<5 결론 유보" if len(adj)<5 else "")}
     return k

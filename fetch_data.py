@@ -892,7 +892,7 @@ def calc_early(prices, fred, charts):
     if cash_drop or fut_drop:
         add("선물 급락(장외)" if (fut_drop and not cash_drop) else "시장 급락",1,"price")
     hy=(fred.get("hyoas") or {}).get("value") if fred and fred.get("ok") else None
-    if hy is not None and hy>=5.5: add("HY스프레드 급등",1,"slow")
+    if hy is not None and hy>=5.0: add("HY스프레드 급등",1,"slow")  # F2: 위험선 5.0
     vix_chg=gc("^VIX")
     if vix_chg is not None and vix_chg>=20: add("VIX 급등",1,"fast")
     # 보조 신호
@@ -915,7 +915,7 @@ def calc_early(prices, fred, charts):
             add("지수 추세 약세",0.5,None)
     sChain=_chain_status(p)
     if sChain in ("r","a"): add("AI 밸류체인 약세",0.5,None)
-    if _rising(ch.get("hyoas")) and not (hy is not None and hy>=5.5): add("HY 상승추세",0.5,None)
+    if _rising(ch.get("hyoas")) and not (hy is not None and hy>=5.0): add("HY 상승추세",0.5,None)  # F2
     if _rising(ch.get("vix")) and not (v is not None and v>=26) and not (vix_chg is not None and vix_chg>=20):
         add("VIX 상승추세",0.5,None)
     if _rising(ch.get("ccc_bb")): add("CCC-BB 확대(품질분산)",0.5,None)   # JS earlyWarning과 동일 미러
@@ -958,8 +958,8 @@ def calc_early(prices, fred, charts):
     if (not regime_active) and _divN>=2: add("다이버전스(지수↑·내부↓)",0.5,"slow")
     score += min(lead_score,1.0)   # P1: 선행약세 합산 최대 1.0 (상관된 추세 신호 과대계상 방지, JS와 동일)
     axisCount=(1 if fast else 0)+(1 if slow else 0)+(1 if price_ax else 0)
-    guard_warn=(score>=2.5 and (strong>=1 or axisCount>=2)) or strong>=2
-    risk = axisCount>=3 and score>=3 and strong>=2        # 위험 = 폭+깊이+질(강한2)
+    guard_warn=(score>=2.5 and axisCount>=2 and strong>=1) or strong>=2  # E1(절충 v2.23)
+    risk = axisCount>=3 and score>=3 and strong>=3        # E2(v2.23): 위험 = 폭+깊이+질(강한3)
     if risk: st="r"
     elif guard_warn: st="r"                              # 경계
     elif score>=1: st="a"

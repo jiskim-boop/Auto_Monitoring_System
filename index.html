@@ -119,9 +119,9 @@
     <div style="display:flex;align-items:center;justify-content:space-between">
       <div style="display:flex;align-items:center;gap:12px">
         <span id="total-dot" style="width:16px;height:16px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
-        <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">종합 위험도</span>
+        <span style="font-size:13px;font-weight:700;color:#c2cad6;font-family:'Space Mono',monospace;letter-spacing:1.5px">종합 위험도</span>
       </div>
-      <span id="total-word" style="font-size:22px;font-weight:900;color:#7b8499">—</span>
+      <span id="total-word" style="font-size:26px;font-weight:900;color:#7b8499">—</span>
     </div>
     <div id="comp-meta-toggle" onclick="var d=document.getElementById('comp-meta-detail'),c=document.getElementById('comp-meta-caret');var o=d.style.display==='none';d.style.display=o?'block':'none';if(c)c.textContent=o?'▼ 접기':'▶ 계산 방식 · 한계(외생충격 사각지대)';" style="margin-top:8px;font-size:9px;color:#6f7888;cursor:pointer;user-select:none;font-weight:700"><span id="comp-meta-caret">▶ 계산 방식 · 한계(외생충격 사각지대)</span></div>
     <div id="comp-meta-detail" style="display:none">
@@ -131,11 +131,11 @@
   </div>
 
   <!-- 구조 취약성 (종합 바로 아래·조기경보 위) — 연료 게이지, 조기경보와 동일 레이아웃 -->
-  <div id="frag-toggle" onclick="var b=document.getElementById('frag-strip'),c=document.getElementById('frag-caret');var o=b.style.display==='none';b.style.display=o?'block':'none';if(c)c.textContent=o?'▼':'▶';" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #4a382a;background:#151016;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
+  <div id="frag-toggle" onclick="var b=document.getElementById('frag-strip'),c=document.getElementById('frag-caret');var o=b.style.display==='none';b.style.display=o?'block':'none';if(c)c.textContent=o?'▼':'▶';" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #1b2330;background:#0d1320;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
     <div style="display:flex;align-items:center;gap:9px">
       <span id="frag-caret" style="font-size:10px;color:#6f7888">▶</span>
       <span id="frag-dot" style="width:10px;height:10px;border-radius:50%;background:#7b8499;flex-shrink:0"></span>
-      <span class="nm" style="font-size:12px;color:#c9955f;font-family:'Space Mono',monospace;letter-spacing:1px">구조 취약성</span>
+      <span class="nm" style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">구조 취약성</span>
       
     </div>
     <span id="frag-badge" style="font-size:15px;font-weight:900;color:#7b8499">—</span>
@@ -146,11 +146,11 @@
   </div>
 
   <!-- 조기경보 (종합 바로 아래) — 헤더에 상태 항상 표시, 탭하면 펼침 -->
-  <div id="ew-toggle" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #355f5a;background:#101a22;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
+  <div id="ew-toggle" style="border-radius:10px;padding:11px 16px;margin-bottom:8px;border:1px solid #1b2330;background:#0d1320;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:space-between">
     <div style="display:flex;align-items:center;gap:9px">
       <span id="ew-caret" style="font-size:10px;color:#6f7888">▶</span>
       <span id="ew-dot" style="width:10px;height:10px;border-radius:50%;background:#37d6a0;flex-shrink:0"></span>
-      <span style="font-size:12px;color:#5fc4bb;font-family:'Space Mono',monospace;letter-spacing:1px">조기경보</span>
+      <span style="font-size:12px;color:#8a93a6;font-family:'Space Mono',monospace;letter-spacing:1px">조기경보</span>
       <span style="font-size:9px;color:#6f7888">빠른 선행 알림</span>
     </div>
     <span id="ew-mini" style="font-size:15px;font-weight:900;color:#37d6a0">—</span>
@@ -921,6 +921,7 @@ function earlyWarning(p,fred,sCredit,sChain){
     mini.textContent = lab;
     mini.style.color = col;
     if(ewdot){ewdot.style.background=col;ewdot.style.boxShadow=`0 0 8px ${col}`;}
+  const etEl=$('ew-toggle'); if(etEl){etEl.style.borderColor=col;}   // 배너와 동일: 프레임=상태색
   }
   const axisTxt = axisCount>=2 ? ` <span style="color:#8a93a6">[${[axisFast?'옵션':'',axisSlow?'신용시스템':'',axisPrice?'가격':''].filter(Boolean).join('+')} 동시]</span>` : '';
   // 다음 단계까지 남은 조건(세분화) — 같은 단계 안에서도 현재 위치를 구체화
@@ -1143,6 +1144,7 @@ function renderFragility(d){
   const fc=fs==='r'?'#ff3b6b':fs==='a'?'#ffb454':'#37d6a0';   // EW 헤더 팔레트(CC)와 동일 계열
   bEl.textContent=fw+(wait?' ·대기':''); bEl.style.color=fc;
   const fd=$('frag-dot'); if(fd){fd.style.background=fc; fd.style.boxShadow='0 0 8px '+fc+'55';}
+  const ftEl=$('frag-toggle'); if(ftEl){ftEl.style.borderColor=fc;}   // 배너와 동일: 프레임=상태색
 }
 // EBP 카드 (표시 전용 · 1단계): 현재값 + 전월대비 방향 + 전체이력 z + 연준 12개월 침체확률
 function renderEbp(d){
@@ -1366,7 +1368,7 @@ function renderSignals(ctx){
   if(banner){banner.style.borderColor=tc;banner.style.background=totalWord==='안정'?'#0d1320':tc+'14';
     banner.style.boxShadow=(totalWord==='위험')?`0 0 18px ${tc}40`:'none';}
   if(dot){dot.style.background=tc;dot.style.boxShadow=`0 0 10px ${tc}`;}
-  if(word){word.innerHTML=`${totalWord} <span style="font-size:12px;color:#8a93a6;font-weight:400">${tot}/${maxPt}</span><div style="font-size:9.5px;color:#6f7888;font-weight:400;margin-top:2px;letter-spacing:0">${doms.map(d=>{const dc=d[1]==='r'?'#ff6b6b':d[1]==='a'?'#ffb454':d[1]==='g'?'#37d6a0':'#7b8499';return '<span style="color:'+dc+'">● '+d[0]+' '+(d[1]&&d[1]!=='n'?PT[d[1]]:'–')+'</span>';}).join(' <span style="color:#2a3340">·</span> ')}</div>`;word.style.color=tc;word.style.fontSize='22px';}
+  if(word){word.innerHTML=`${totalWord} <span style="font-size:12px;color:#8a93a6;font-weight:400">${tot}/${maxPt}</span><div style="font-size:9.5px;color:#6f7888;font-weight:400;margin-top:2px;letter-spacing:0">${doms.map(d=>{const dc=d[1]==='r'?'#ff6b6b':d[1]==='a'?'#ffb454':d[1]==='g'?'#37d6a0':'#7b8499';return '<span style="color:'+dc+'">● '+d[0]+' '+(d[1]&&d[1]!=='n'?PT[d[1]]:'–')+'</span>';}).join(' <span style="color:#2a3340">·</span> ')}</div>`;word.style.color=tc;word.style.fontSize='26px';}
   return credit1;
 }
 function renderHistory(d){

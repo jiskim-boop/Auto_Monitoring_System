@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.0</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.1</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -174,6 +174,7 @@
       <b style="color:#8a93a6">표시:</b> <span style="color:#8a93a6">구성(강한/보조/선행약세) · <b style="color:#9aa3b3">선행 클러스터(신용/폭/펀딩 — 어느 영역이 문제인지)</b> · 위험 판정 축별 매트릭스 · 임계 근접도(미점등 상위) 상시 — 같은 단계 안에서도 깊이·다음 후보 식별</span><br>
       <b style="color:#8a93a6">역할:</b> <span style="color:#8a93a6"><b style="color:#9aa3b3">선행</b> — 시장 거래 신호(사모ETF 주가 등)로 먼저 울림. 확정 지표(HY/NFCI)는 나중에 따라옴 → 그게 상단 종합위험도. <b style="color:#9aa3b3">조기경보가 종합보다 먼저 반응하는 게 정상</b> · 선행이라 거짓경보 가능 · 보조도구</span><br>
       <b style="color:#8a93a6">평가(사전등록·KLR):</b> <span style="color:#8a93a6">'경계'+ 최초 진입 → <b style="color:#9aa3b3">60거래일</b> 내 신호일 대비 SPX <b style="color:#9aa3b3">−10%</b> 또는 HY OAS <b style="color:#9aa3b3">+150bp</b> = 적중 · 재점등 30거래일 쿨다운 · 민감도 40/90일 병기 · <b style="color:#9aa3b3">사건 n&lt;5 결론 유보</b> · NSR 집계 — 월간 아카이브로 산출 · <b style="color:#9aa3b3">게이트 개정 26.07.04</b>(경계 2.5&amp;2축&amp;강1 ∨ 강2 · 위험 강3 — 경계 미진입·시계 미가동 중 개정, 구게이트 병기: 경계 2.5&amp;(강1∨2축)∨강2 · 위험 강2)</span>
+      <div id="klr-ledger" style="margin-top:5px;font-size:9px;color:#8a93a6;line-height:1.6;border-top:1px dashed #232b38;padding-top:4px"></div>
     </div>
     </div>
   </div>
@@ -1446,6 +1447,19 @@ function setVerd(elId,states,kind){
   else{c='#37d6a0';t='안정';lv='g';}
   if(el)el.textContent=t;if(box)box.style.borderLeftColor=c;return lv;}
 
+function renderKLR(d){
+  // KLR 원장(자동 집행) — 서버(update_klr)가 박제·채점한 원장을 그대로 표시. 클라이언트는 계산 안 함(원장 단일 진실원).
+  const el=$('klr-ledger'); if(!el) return;
+  const k=d.klr||{}, ents=k.entries||[];
+  if(!ents.length){
+    el.innerHTML=`<b style="color:#9aa3b3">KLR 원장(자동 집행)</b> · 사건 0건 — 경계+ 최초 진입 시 그날 SPY 종가·HY OAS 자동 박제 → 60거래일 자동 채점 · 쿨다운 30거래일 · 40/90 병기 · 결측 시 원장 동결`;
+    return;}
+  const s=k.stats||{};
+  const rows=ents.slice(-4).reverse().map(e=>{
+    const col=e.status==='적중'?'#ff6b6b':e.status==='미적중(종결)'?'#37d6a0':'#ffb454';
+    return `<div style="margin-top:2px">▸ ${e.entry_date} 진입(${e.tier}) · 기준 SPY ${e.spx0}${e.hy0!=null?' · HY '+e.hy0+'%':''} · ${e.td}거래일 · 최저 SPX ${e.min_spx_pct}%${e.max_hy_bp?' · HY +'+e.max_hy_bp+'bp':''} → <b style="color:${col}">${e.status}</b>${e.hit_reason?` (${e.hit_reason}·${e.hit_td}일차${e.hit40?'·40일내':''})`:''}</div>`;}).join('');
+  el.innerHTML=`<b style="color:#9aa3b3">KLR 원장(자동 집행)</b> — 판정확정 n=${s.n||0} · 적중60 ${s.hit60||0} · 미적중60 ${s.miss60||0}${s.open?` · 추적중 ${s.open}`:''}${s.hold?` · <b style="color:#ffb454">${s.hold}</b>`:''}${rows}`;
+}
 async function load(){
   try{
     let d;
@@ -1491,6 +1505,7 @@ async function load(){
           sAiNight=aiNight(p);
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
+    renderKLR(d);   // KLR 원장(자동 집행) 표시
     // 드리프트 감지: 화면(JS)과 서버(Python) 조기경보가 어긋나면 즉시 경고 — 이중구현 드리프트 재발 방지
     if(d.early && (Number(d.early.score)!==Number(ew.score) || d.early.st!==ew.st)){
       const ff=$('feedfail'), ft=$('feedfail-txt'); const W={g:'안정',a:'주의',r:'경계/위험'};

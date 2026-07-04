@@ -1123,6 +1123,57 @@ def fetch_visit_stats(prev):
     print("[방문자] 수집:", visitors, "| 시간대합:", (sum(hh) if got else "응답에 hourly 없음"))
     return visitors, hours
 
+def update_klr(prev, ew, prices, fred):
+    """KLR 원장(사전등록 자동 집행) — 사람 손 개입 없이:
+    ① '경계'+ 최초 진입일의 SPY 종가·HY OAS를 박제 ② 매 사이클 60거래일(민감도 40/90) 창에서
+    SPX −10% 또는 HY +150bp 적중을 종가 기준 자동 채점 ③ 재점등 30거래일 쿨다운 관리.
+    전향(prospective) 전용 — 과거 소급 없음. 시장데이터 결측 시 원장 동결(전진·진입 모두 정지)."""
+    k=(prev or {}).get("klr") or {"entries":[],"since_last_td":None,"last_mkt":None,
+       "proto":"경계+ 진입 → 60거래일 · SPX −10% ∨ HY +150bp = 적중 · 쿨다운 30거래일 · 민감도 40/90 병기 · n<5 유보"}
+    spy=(prices or {}).get("SPY") or {}
+    px=spy.get("regClose") or spy.get("price"); mt=spy.get("mt")
+    hyo=((fred or {}).get("hyoas") or {}); hy=hyo.get("value")
+    if not (spy.get("ok") and px and mt):
+        return k                                   # 원장 동결
+    mkt_date=datetime.fromtimestamp(mt,tz=timezone.utc).strftime("%Y-%m-%d")
+    new_day=(k.get("last_mkt")!=mkt_date)
+    if new_day:
+        k["last_mkt"]=mkt_date
+        if k.get("since_last_td") is not None: k["since_last_td"]+=1
+    for e in k["entries"]:
+        if e.get("status") in ("추적중","60미적중·90추적"):
+            if new_day and mkt_date>e["entry_date"]: e["td"]=e.get("td",0)+1
+            pct=round((px/e["spx0"]-1)*100,2); e["spx_now_pct"]=pct
+            e["min_spx_pct"]=min(e.get("min_spx_pct",0.0),pct)
+            if hy is not None and e.get("hy0") is not None:
+                bp=round((hy-e["hy0"])*100,1); e["hy_now_bp"]=bp
+                e["max_hy_bp"]=max(e.get("max_hy_bp",0.0),bp)
+            hit_spx=e["min_spx_pct"]<=-10; hit_hy=e.get("max_hy_bp",0.0)>=150
+            if (hit_spx or hit_hy) and not e.get("hit_date"):
+                e["hit_date"]=mkt_date; e["hit_td"]=e["td"]
+                e["hit_reason"]="SPX -10%" if hit_spx else "HY +150bp"
+                e["hit40"]=e["td"]<=40; e["hit60"]=e["td"]<=60
+                e["status"]="적중" if e["td"]<=60 else "90일내 적중(60기준 미적중)"
+            elif e["td"]>=90:
+                e["status"]="미적중(종결)"
+            elif e["td"]>60 and e["status"]=="추적중":
+                e["status"]="60미적중·90추적"
+    tier=3 if ew.get("risk") else (2 if ew.get("st")=="r" else (1 if ew.get("st")=="a" else 0))
+    open_exists=any(e.get("status") in ("추적중","60미적중·90추적") for e in k["entries"])
+    cd_ok=(k.get("since_last_td") is None) or (k["since_last_td"]>=30)
+    dup=any(e.get("entry_date")==mkt_date for e in k["entries"])
+    if tier>=2 and not open_exists and cd_ok and not dup:
+        k["entries"].append({"entry_date":mkt_date,"tier":("위험" if tier==3 else "경계"),
+            "spx0":px,"inst":"SPY종가","hy0":hy,"hy0_date":hyo.get("date"),
+            "td":0,"min_spx_pct":0.0,"max_hy_bp":0.0,"status":"추적중"})
+        k["since_last_td"]=0
+    adj=[e for e in k["entries"] if e.get("hit60") is True or e.get("td",0)>60 and not e.get("hit60")]
+    hit60=sum(1 for e in adj if e.get("hit60"))
+    k["stats"]={"n":len(adj),"hit60":hit60,"miss60":len(adj)-hit60,
+                "open":sum(1 for e in k["entries"] if e.get("status")=="추적중"),
+                "hold":("n<5 결론 유보" if len(adj)<5 else "")}
+    return k
+
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
@@ -1157,12 +1208,23 @@ def main():
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
     history=update_history(prev,ew)
+    klr=update_klr(prev,ew,prices,fred)
+    # KLR 원장 이벤트 알림 — 사전등록 집행 통지 (드문 이벤트만)
+    try:
+        _pk=((prev or {}).get("klr") or {}).get("entries",[]); _ck=klr.get("entries",[])
+        if len(_ck)>len(_pk):
+            _e=_ck[-1]; tg_send(f"📋 <b>KLR 원장 진입</b>\n{_e['entry_date']} {_e['tier']} · 기준 SPY {_e['spx0']} · HY {_e['hy0']}%\n60거래일 자동 채점 시작 (SPX −10% ∨ HY +150bp)")
+        _ps={e.get("entry_date"):e.get("status") for e in _pk}
+        for _e in _ck:
+            if "적중"==(_e.get("status") or "")[:2] and (_ps.get(_e.get("entry_date")) or "")[:2]!="적중":
+                tg_send(f"🎯 <b>KLR 적중</b> {_e['entry_date']} 진입건 — {_e.get('hit_reason')} ({_e.get('hit_td')}거래일차)")
+    except Exception: pass
     gpu=fetch_gpu_price(prev)
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp}
+          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 월간 아카이브: 이달 스냅샷 없으면 1회 저장 — FRED 3년창 제한 우회 + 자체 히트율/거짓경보율 데이터 축적 (워크플로가 archive/ 커밋)

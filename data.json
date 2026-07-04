@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04T18:42:25+00:00",
+ "updated": "2026-07-04T18:52:18+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 19.04,
-   "chg": -6.35,
-   "chg5": -2.71,
-   "sma20": 20.3,
-   "sma50": 20.54,
-   "sma200": 21.55,
-   "high3m": 29.27,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 19.04,
+   "sma50": 19.04,
+   "sma200": 19.04,
+   "high3m": 19.04,
    "reg": 19.04,
    "pre": null,
    "post": null,
-   "regClose": 20.13,
+   "regClose": 19.04,
    "sess": "reg",
    "mt": 1783023301,
    "ok": true
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 65.4,
-   "chg": -2.54,
-   "chg5": 0.01,
-   "sma20": 70.91,
-   "sma50": 72.01,
-   "sma200": 72.7,
-   "high3m": 111.95,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 65.4,
+   "sma50": 65.4,
+   "sma200": 65.4,
+   "high3m": 65.4,
    "reg": 65.4,
    "pre": null,
    "post": null,
-   "regClose": 66.79,
+   "regClose": 65.4,
    "sess": "reg",
    "mt": 1783024215,
    "ok": true
@@ -819,16 +819,16 @@
   },
   "^IRX": {
    "price": 3.67,
-   "chg": -0.33,
-   "chg5": 0.27,
-   "sma20": 3.64,
-   "sma50": 3.61,
-   "sma200": 3.6,
-   "high3m": 3.69,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 3.67,
+   "sma50": 3.67,
+   "sma200": 3.67,
+   "high3m": 3.67,
    "reg": 3.67,
    "pre": null,
    "post": null,
-   "regClose": 3.66,
+   "regClose": 3.67,
    "sess": "reg",
    "mt": 1783018796,
    "ok": true
@@ -883,16 +883,16 @@
   },
   "^TNX": {
    "price": 4.48,
-   "chg": 2.12,
-   "chg5": 0.76,
-   "sma20": 4.47,
-   "sma50": 4.44,
-   "sma200": 4.31,
-   "high3m": 4.67,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 4.48,
+   "sma50": 4.48,
+   "sma200": 4.48,
+   "high3m": 4.48,
    "reg": 4.48,
    "pre": null,
    "post": null,
-   "regClose": 4.37,
+   "regClose": 4.48,
    "sess": "reg",
    "mt": 1783018796,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63069.99,
-   "chg": 0.84,
-   "chg5": 4.87,
-   "sma20": 62142.47,
-   "sma50": 67044.75,
-   "sma200": 73530.59,
+   "price": 63078.62,
+   "chg": 0.85,
+   "chg5": 4.89,
+   "sma20": 62142.9,
+   "sma50": 67044.92,
+   "sma200": 73530.63,
    "high3m": 82138.93,
-   "reg": 63069.99,
+   "reg": 63078.62,
    "pre": null,
    "post": null,
-   "regClose": 63069.99,
+   "regClose": 63078.62,
    "sess": "reg",
-   "mt": 1783190508,
+   "mt": 1783191103,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Should You Buy the Dip in CoreWeave Stock? - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPdXh0RUExUy0tLXlZelVoU3gxOTUyZUQtdV9nXzN5bWhtV3V1XzhwTlpXb3IydDRRU1JZNzNnMVd5MmxnZ3owMjU1MjBvRFB5MXJLM3B1OGFJamJJTy00UmtQU0ZiY2RJbUVSMjRBeDNKMmM0VmNvbGpTWHFTTkI0d2xhaVRhTXFMck5NUjZudTBkbDRHdEdEdU1acDZEdnl3NzdXOTY0a2Rtb05JOEtDM0t1bURWZGJqaFBPaw?oc=5",
+    "pub": "Sat, 04 Jul 2026 17:14:42 GMT",
+    "src": "The Globe and Mail",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Philippines has a rare opportunity to become Southeast Asia's next major hub for artificial intelligence and cloud computing, but only if it moves fast enough to build the digital infrastructure needed to keep pace with soaring demand. | via ANC 24/7 Link to f - facebook.com",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQSUpwZHJtdk1pUWFSb1FuaEJtWlJsTHFUYk50bWUyaUE0SHg1Ty1RRTJ1NzBmMzEyUi0welAzcWNmNTJONFdzSzZSQV85ZzZKc3Ywb3VfekFJdURjNkJFMnNnd01ZX1FtREhDRUdGVTFZSUtkU015VVUxbjdYbURERTk1NGY5NnhSX252ZDBRSk16WVdZZDhrcnA5cEhENUR6YW9ya0NPQnJqeFpHLVZqOEUtczZuMk1MX19JVVJkb2ZqOE5walA1VmtvempTQmZ0U3UwN0Jqdw?oc=5",
     "pub": "Sat, 04 Jul 2026 16:00:05 GMT",
@@ -1163,14 +1171,6 @@
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Tech Selloff Hits Markets | Open Interest 6/23/2026 Ufc White House (SgX5kqfYf9) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQeG5qM3BYTERzbkJ4Skl4bW1BM2U4NGtqR2RlY2tEQmZKSnFLbjRlcjVialpoNS1pTEJJLUhnck9aWFNtMTctRlpPaS1yS0piVlNWSmMwdzdOQUJkNHJQdw?oc=5",
-    "pub": "Fri, 03 Jul 2026 23:09:13 GMT",
-    "src": "Mshale",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1179,6 +1179,14 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOOGFMWVRTUTB1Mm9LMFJBUFQ1RjZ1ckJRSi1JMmtQQWxEVFZNOUlPYW5NYkJmeF9BNU0zaERVdmh1TDVBVGhSZXMwaG5HR0dPeTlmOEt4VE5uNl8weFR4OHlwdlRjNlJBUzd4cWItNGxNWEx5ZHJzc0lUOEcwWmpKbXhpTWlWUENFNVk1akJ1M05hWVhWcUQ2NDZEeXhaaWY5dEE?oc=5",
     "pub": "Sat, 04 Jul 2026 15:51:32 GMT",
     "src": "TechCrunch",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "ICYMI: xAI debuts Grok Voice Agent Builder for Enterprises - TestingCatalog AI News",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOcUZ2R25FVHFfZkk0QTEwWXZNeXRJbE5LNnhSVi05RWdfZmFtTklUSXcxaHhWcEVOWlo5Rzh1R29acnVUdlJXaUUydGxSTVVCWkF0cEtsZkt5QTQ5OTVQWU9CbUxYUjRPTFpqNTlvcW1nN0RwclJHX212X1lpRWwyWE82Tld4Sk1Rb0ZVd0xpaVl0LWs?oc=5",
+    "pub": "Sat, 04 Jul 2026 15:15:08 GMT",
+    "src": "TestingCatalog AI News",
     "trig": false,
     "geo": false
    },
@@ -1213,17 +1221,17 @@
     "src": "Yahoo",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Benchmark reboots its Datadog target as the AI super cycle builds - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORWxaamhsU1E2XzRsY2FHLUNJQzFDVTdxQXhQdWl0Y0plVUZhQ05RYm9kbDk5clFZQ3daQmw1WWlqM3hUWlBrSGdRRVNUQS1PSlBuSmFTbGV0SXpjSklvYVkwdV8tVUN1bnBLVENpS09WRUdBUWJUSVc2TlQ3cm8wenJJbHBJQQ?oc=5",
-    "pub": "Sat, 04 Jul 2026 13:42:36 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Ukrainian drones destroy Russian MiG-29 at Belbek airfield in Crimea - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeC0wTGdRVVl2WnNDRFhxcXc2YmItdnZRZHFtOWpsdlFUWVE3ZHNkSXZtQkZkQjBTMzBSTDkyRFN4QlBUSWZWbGZRRk9ZXzhMdWExRnQ2Q25BeDZLb0RmMTBQSVp3ZlhmTnBNS0xSc2RzMzFvbGlRQnBpNFd4a1NqQjRCNzdvOWVoMkRBb1EzS1VMWFFEaDZ1RFJmRnU?oc=5",
+    "pub": "Sat, 04 Jul 2026 11:35:44 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Iranians protest outside US Embassy in Helsinki against Tehran agreements - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZEx4ZnBXZFpubkRKVWxlSEszWnFwTGNtOUU3ZTYwX2pkaWd4QTdUbU9uXzZmcjRGSDZES2FMWVpyYVFvTzBmRGx5RzVCbWhtUldRTHZ1dW40SlJZd1NYOW1aTWU4YjZlYU51d1Z6VTNxbmJ2dE1VQ2xSUDJ4UV9oM0hTMGh5bF9QN3lLdW83ajYzcGtfN1F1MmNtQnlhWTFzYjBZ?oc=5",
@@ -1263,17 +1271,17 @@
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Drone attack hits oil terminal in St. Petersburg amid Russia-Ukraine conflict - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOOEMzcHVBNUdjeklWU3BxWE0xWU0zX3VYSC1sT04wLUlUR2NqRmxJWVc5QzZnSGpnLXFadU1RTWprMXY0eE9Tc3RMeDJmckJxOGdCeVVKNEUwZUFTeGtVU2dDVGhhNktNNUc5LVoyakRFQ2x1dGthVXFhcnZCYm5OY3FsWmFIWEpHa3ZNcXRfbzJUbHZQNGZZVXJmLU9jb3l5ZU5YWUtYQQ?oc=5",
-    "pub": "Sat, 04 Jul 2026 08:24:38 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Price to earnings forward of Copper Giant Resources Corp – DUS:29H0 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcW5hdHZwSUdMay11U1QxQXc5WVlyenpxZ1dnTjdaMFdZY1FLamR4R2pKVlFCY1ExUWJ6WjBQeWJrOTBaNVBtOVBLM1JrcW81b3ZPTVJka0lSMnlfM2t3UmFKTnktZm40SG5ZWE1tenJTRXFCRjlyUWJQM0hxRjdadlRIeUs3Tlh1QUVMWEFjY05nQTQxN09NeFM5SndHdw?oc=5",
+    "pub": "Sat, 04 Jul 2026 11:54:37 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "How gold's safe-haven appeal has evolved during Iran war and geopolitical uncertainty - thenationalnews.com",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPUFo2cnlpRU1hLTQwd1BQMkNwZWpoYVJmR19ZcFhsX3BucWRiMi1ucHJleUZmVnpiajQ1dXIwYTJCZFNjSTY1WkFQeDdSWDdlYmNtWlFrRDlzbTA5UzN0S1hHXzRHS0h0SzVqdzVuTUMwX2JGc0lfQXA5X19DTjZVM2ZwZkplQV9nZU1nVVlHQlV1YU9RTGtZdTgzQVhha3FNakMyYzdGeURNS2kyRGkyU25Eb1FCc2tjUjVJcHg3elJJeW80aC1XSjE2WTRfRGlmXzg1d0FqWkVWTXlTOGc?oc=5",
@@ -1291,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Price to earnings forward of Copper Fox Metals Inc. – TRADEGATE:HPU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZkx5VjViVkJxZUhzLWdkbHQwUVM5UFJyd09zWnJtTm1qSktRck9GLUdPYzRiQVF2RlVMY05MZ1JwSmRBNG0tSGpOTndza1hxSG9FMFFDWjQ4T01WbC1WLWRybnBnTzNOcHM4QklOOFNYUjRvUTVFWkdESmdlOTZkQ3VEVFhIT1llSkR0TVJFQk1ubGN6QjlpNXBfaW5zVkVWYnB0Xw?oc=5",
+    "pub": "Sat, 04 Jul 2026 08:16:58 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper Price Forecast 2026: AI & EV Demand Drive Bull Market - Intellectia AI",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1laGQ5WnV0WlRaRVlzeHdiNFN0cDViVDVuZ3RXOWlnTWVlMXo2SU1nMjVZWjNKbmo0Uzg1blAtcTU2UVp0ZWI5TkRiVkMyYnU0X0p5OEpJOFUxbHVtNFBMQkY1RG0?oc=5",
     "pub": "Sat, 04 Jul 2026 08:09:17 GMT",
@@ -1303,22 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeWVHVWJLZV9wLXBqaGNxZ1E5NmlxY2xENHo1UjQwUC1UZTRRNnFEZEQ2cFlWVzV5NndQZWlXTDVMQTVVUmVzTDdGeUR6eXZfcUI1RE5rdFZUUHdWQUsxWFI2bV9PWUFZam1FN0xRb0lBYTktb3dDYXQwUEk2dlFsSUxR?oc=5",
     "pub": "Sat, 04 Jul 2026 07:59:16 GMT",
     "src": "priceit",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Rate Today: MCX Gold Near ₹1.48 Lakh as Silver Jumps ₹4,845 per kg Amid Fed Rate Hike – Check 24K, 22K, 18K Gold Prices Across Delhi, Mumbai, Chennai, Kerala, Surat, Pune & More - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiugJBVV95cUxOWTBUMnJxV0dvVEdYRFVkRU5WNVc0OXZfVjVNbmp1bW1vSTc4dXFWLWduc2s1MjYzZ2xGclFxZHhleDFtUHFYVHhWS2ZLcWg4aFlRWldZTDdVSEdNSmpsVTRlRF9ZZm8yRzdVOG9QX1BMZktRRnZqUFd3QlNVY19TRjRCX1AxNGZ4OHJITEE3RGE5Ti1NQVkzcEE0YVBydmNGTE1lUWQ3UjBMNWN5cjIzRXJsTk14dDIxdTA2SlhZQWc0cm1EeV9VZTQzZGsxSkNucVY1d21hTmRHTENjMXlrR2hyMTFWdm9CMVZuUjZKVDdfb1BucU5DeUxVNVNaaTdIVmVHdzFna0ZRZm1WRTRBZWRuQmZscmVVeWw5Mmx3M29xXzNmYzFXWk96UlFVNXBWUWlhdlZTdHVVZ9IBvwJBVV95cUxQeXNOVGZGSVh6dW5fN000Umd6N29HV3BzSmxLYTg5aFBkeTFhXzhMc3JLa0MwQjEtNEN0dy1PNnhGZ21wb3VuTThzdHVNcDZnVnEyUW5jWG00VTlvY0QwZ3ZpN2paeXEyYVZIWFZiMFZyLVROc3lEd0piRVBlbENsYlkxNUcxYjRid3VEdTFENFFEb2prY2lOaWlYWHB4T2JnY3pYOG1QcHpmUGlYemdxNUZaeTdTOXdwa3R2TFJmUTA0VDRHMVA1S2dFTU1pYzd1cFh5cjN3RDkyS2g4TVRNcW5JZWI3bDYxXzBwdW1lY1d6SXozZ0Vuc0ItdUp3V3dHTXBwTlUyanpVMDZWVkRNbnJiTHhEQ1p6WTJCMjNoZWJfeGs0QWZpMlBrZHVxZ3dOWFhmOFJzdnlNZFFGR2xj?oc=5",
-    "pub": "Sat, 04 Jul 2026 05:14:47 GMT",
-    "src": "The Sunday Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "USD/JPY rebounds as Japan intervention fears return amid softer US jobs data and carry trade support - VT Markets",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQTGlZUEZyRUN0aTA2WTM5ZUdwUm5mRUpoWkNFcXNwUkJmSXl3YWs2WW9CRUdEQlBCOEcxUmM3ZF9JakNtSHFGLTVFUTFOcm80emE2eEtYeERRY0U4V0QyMVlxUVdFLWFQX2ZPb1h4bzllNmZyNHBKRlZDTGtpc1FuTzZNUFcydWtRTzM3NE84d2IyYUlkblp4cDIta0RxUzlqWGZsQmRiSE5fUHNoajlqTHZjRV9IdGlCbXRCNmQ1ODZ1dDI4NVNmZElYcW1lWHg2ZzJiVHotMFBjampHT2Q4UG5n?oc=5",
-    "pub": "Sat, 04 Jul 2026 00:29:47 GMT",
-    "src": "VT Markets",
     "trig": false,
     "geo": false
    }
@@ -1478,19 +1478,7 @@
    16.15
   ],
   "tnx": [
-   4.31,
-   4.29,
-   4.31,
-   4.29,
-   4.42,
-   4.42,
-   4.46,
-   4.62,
-   4.49,
-   4.47,
-   4.55,
-   4.49,
-   4.37
+   4.48
   ],
   "dxy": [
    99.98,
@@ -1523,19 +1511,7 @@
    12.51
   ],
   "move": [
-   81.68,
-   72.15,
-   65.89,
-   67.7,
-   74.33,
-   70.63,
-   71.68,
-   85.32,
-   74.95,
-   73.43,
-   76.98,
-   69.38,
-   66.79
+   65.4
   ],
   "jpy": [
    159.49,
@@ -1610,23 +1586,9 @@
    60867.41,
    64421.32,
    64239.68,
-   63076.89
+   63076.94
   ],
-  "vixts": [
-   0.976,
-   0.88,
-   0.842,
-   0.871,
-   0.802,
-   0.836,
-   0.876,
-   0.794,
-   0.791,
-   0.79,
-   0.935,
-   0.847,
-   0.802
-  ],
+  "vixts": null,
   "hyoas": [
    2.69,
    2.81,
@@ -2338,7 +2300,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-04T18:42:06+00:00",
+  "checked": "2026-07-04T18:51:59+00:00",
   "openai": {
    "found": false
   },

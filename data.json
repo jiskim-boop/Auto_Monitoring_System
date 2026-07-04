@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-04T12:42:21+00:00",
+ "updated": "2026-07-04T12:52:02+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62552.0,
-   "chg": 0.01,
-   "chg5": 4.01,
-   "sma20": 62116.57,
-   "sma50": 67034.39,
-   "sma200": 73527.74,
+   "price": 62540.72,
+   "chg": -0.01,
+   "chg5": 3.99,
+   "sma20": 62116.01,
+   "sma50": 67034.16,
+   "sma200": 73527.68,
    "high3m": 82138.93,
-   "reg": 62552.0,
+   "reg": 62540.72,
    "pre": null,
    "post": null,
-   "regClose": 62552.0,
+   "regClose": 62540.72,
    "sess": "reg",
-   "mt": 1783168911,
+   "mt": 1783169492,
    "ok": true
   },
   "USO": {
@@ -1125,9 +1125,17 @@
  "news": {
   "credit": [
    {
+    "title": "Shopee woos more sellers into platform with mobile activation push - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkN5SG16LV8tOGVjQVNyN3pzbHpnZVJ1WS10NDR5REMzUFZXYWwwWmYxT2VZamQ5U3NtNXQ1NjJwSjdpV0QzRUNlSHBTNWFjeDUtOGRQSXZqcE5HekxKM3pyRmR1V2RUWUlKcVZhdy1TeWFMYW9sZjh3MnRUaTRWVGd2bXdURFo3R1RMbzlKLTczZ0tFMERUdGFGYXRlX3NjY25lN0RZcG04d0hFYmFXV0dCWkstVmkxUmc?oc=5",
+    "pub": "Sat, 04 Jul 2026 06:50:45 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Marcos Jr. meets Canadian businesses, mining companies bare expansion plans in PH - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPN1BtemtvazRGS1JHd1VzSzdyZlFsSHVOUUR3eU1QSmlQamR6UXFpLVBlcl81aEV5Q0lxejhsZUJnQ29CRE9JMmJhLXowckQ5NGNQdndncmlvc1BMTXZCOEx4ZGpra0VFOWlOQlJUMFFlaUZSbjhQaHJZVVNwdVVianp0UEZISFRITlRncGZ4bmVuNWZoLWxiekxQc19MZDVkTEE2N0hnWFdoaFVMajhHRENrNWlyR3lNcGtqRDcydWcxYy1aYU1Wa1Nsaw?oc=5",
-    "pub": "Sat, 04 Jul 2026 06:04:36 GMT",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOTjBienVnaEd5OW1aNG1KSG1NbHZtRDVFaF9GMklDb1ZqcTFoUEZubGtKc1g0aURMWHgwOWlBOG0wWlp3U0h2dXBnMFdSMThBMkVKZl9rZ0t1ZDMzZ05PYjJBU1d2MU81eG5MdkR2TFVxMjZFSlR3emh1Nm5fVzhjeWxlMVhXVVd2eTVtbXdiU3YtelZ3ZEZWOHhDNm9uTjg3eGFkVldUWVRmZV9VaHFSMG01bEc0YUxsVW5TMnpPQXdOM2VlbkpDcXJ1djF2dEU?oc=5",
+    "pub": "Sat, 04 Jul 2026 05:30:04 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1162,14 +1170,6 @@
     "pub": "Fri, 03 Jul 2026 15:27:12 GMT",
     "src": "Ad-hoc-news.de",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta (META) Enters Cloud Computing Battle: CoreWeave (CRWV) and Nebius Stocks Plunge - Blockonomi",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeWNtNFVlS0ZISTVhVTFQekVhNGtVQ0hrZ0dHaHVZeEttRWtVZThYZ3lxVDVRZXZ4d0wxTDh0ZElhb3Z3ZzBWa2pFWGFBSVNIaU1oZUcyR3lYc1JhaFZfeE9jRENFYXFlQmZMSFpOTkhHeFV5YXo4czJEYjRwNmNXbFJNTTEzV2pWN2VaV1dfTXhUSmMzOFBPdHMxNDUyak5FQ3dMWTFR?oc=5",
-    "pub": "Fri, 03 Jul 2026 14:11:31 GMT",
-    "src": "Blockonomi",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1215,10 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Microsoft has worst month since 2000; Micron delivers memorable beat - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQMlZFYlV3Vmw5eGY2cEVHSHR1RGt6Ukh0enVDaW1PLTJNTFFGaHJON2djVG9Pa1R4VUY2VzlHZ0FUdVMwUVBKS09YT2Z6YkZBWWN1NmdJZEg3VmxwWGJGSi1IN2pVcHNOa1puLXFhSDB3NUVLT1E2OFdGXzljdkV5dE5n?oc=5",
-    "pub": "Sat, 04 Jul 2026 02:36:41 GMT",
-    "src": "AOL.com",
+    "title": "Claude Mythos 5 is back, but only for a select group of US institutions - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1BRHRjM20xM1J2aUNXcndwbHR5OHQyWFdxSFpXUXFSRDA0MUlNa1RhNGhlazRaaERxeVVDd2V2Q0o4TkNGM3JFN1oyUkdOU3dDbDdyZkVDTTVwYU9RYTU0Mzk3WFEyMk9xR2tnbFdRTjd0RUQ1Z09vSA?oc=5",
+    "pub": "Sat, 04 Jul 2026 01:43:47 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 04 Jul 2026 04:52:32 GMT",
-    "src": "LiteFinance",
+    "title": "Gold rises as weak US payrolls dent dollar, delaying Fed hike expectations and lifting bullion - VT Markets",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPbXdlM3hHZ183M1huc1FvT0dmYlBvX1gzSEdoQTh1aDgxN1luZ0JtWDhRWHIyLTNhX05QQXk1LXR3RHN3Rk95eTJ4ZzJlWnVzT3NzczJHbnRPaFdJbE4xR3gzWGhVb09PQWkxUVJfNWtnUXNBWVJJOUthSlBMUDNfVS1HUTcyWlNELVdBX3NnbHppLTk0NlptalFSUkI3ZUtCZ0NNZXlyODNvR1FRWTMyeGJ0aHFxZ2tJTUNfb2t6cGlxSndFWlloeGxLbmlfTElMM2RCVDRn?oc=5",
+    "pub": "Fri, 03 Jul 2026 23:03:45 GMT",
+    "src": "VT Markets",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Trekor Metals (TSX:TKO) Tests Copper Cathode Technology, Is The Stock Still A Bargain? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNYmcwMzFzcWVFWmxDaV9uTy1Ob3A5bEd5WWV6dEdrZzhydWl4bnZRWFpEMkZkNzVvelczTVBTeUtXZTBQSlZOWkRoaDVqeDlRRGoxZ0xFbDVQdUlWVm1adlJGRmVvaGN3M2tGWXVvUEx1cmVCc0JGRU5qRGx6N0J5bk00NkVTSFRKY29NQVIyWElaWHpudHEwZkxwMzhkS0RDMGEzTEdFNlZOVGhqcGdKckgzZl9uVDBIWnAwN3BkZHRGbzF3U2t6c0g1SWpBZUJBVkVXaUNB0gHWAUFVX3lxTE1iZzAzMXNxZUVabENpX25PLU5vcDlsR3lZZXp0R2tnOHJ1aXhudlFYWkQyRmQ3NW96VzNNUFN5S1dlMFBKVk5aRGhoNWp4OVFEajFnTEVsNVB1SVZWbVp2UkZGZW9oY3cza0ZZdW9QTHVyZUJzQkZFTmpEbHo3QnluTTQ2RVNIVEpjb01BUjJYSVpYem50cTBmTHAzOGRLREMwYTNMR0U2Vk5UaGpwZ0pySDNmX25UMEhacDA3cGRkdEZvMXdTa3pzSDVJakFlQkFWRVdpQ0E?oc=5",
-    "pub": "Sat, 04 Jul 2026 00:41:27 GMT",
-    "src": "simplywall.st",
+    "title": "Gold Price Outlook: What H2 2026 Holds for Investors - Discovery Alert",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNZjJzN0E2Y3FhYlNYV0U0R1J1TkxDdUljdGtHVWJWWXJ1aldXYVJZaHVILW94LThlclNCN256ejZ6T3Ntdkg2a3JhMk9May1hRDJ5ZTZSQlFhMnRGNmlyMnZhTmVINXdMb1JqRGpsRVBwZjJ4WjdzR1B2Mzd3TGpzNDhmQTZ2eHFTdkZF?oc=5",
+    "pub": "Fri, 03 Jul 2026 21:38:31 GMT",
+    "src": "Discovery Alert",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    60867.41,
    64421.32,
    64239.68,
-   62552.0
+   62545.3
   ],
   "vixts": [
    0.976,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "우크라이나-러시아 갈등 고조 속 미 행정부-연준 금리 대립이 시장 불확실성을 높이고 있으나, VIX 16과 HY스프레드 2.75%는 여전히 낮은 수준의 위험자산 선호를 시사한다. AI 인프라 투자 경쟁 심화로 GPU 수급 압박과 공급망 지연(2027년까지)이 예상되는 가운데, 중국 자국 칩 성능 향상과 메타의 클라우드 진출이 NVIDIA 독점 구도에 균열을 만들고 있다.",
+  "text": "우크라이나-러시아 분쟁 재격화 속에서 강달러(DXY 100.9)와 고금리(미10년 4.48%)가 신용스프레드(2.75%)를 안정적으로 유지하고 있으나, 트럼프-파월 금리 갈등이 잠재적 변동성 요인으로 작용 중이다. AI 데이터센터 수요 급증으로 GPU 공급망이 2027년까지 압박받을 전망이며, 중국 자체 칩 개발과 인텔 CPU 납기 연장(6개월)이 수급 불균형을 심화시키는 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,7 +1738,7 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2332,7 +2332,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-04T12:42:09+00:00",
+  "checked": "2026-07-04T12:51:52+00:00",
   "openai": {
    "found": false
   },

@@ -138,7 +138,7 @@
       <span class="nm" style="font-size:12px;color:#c9955f;font-family:'Space Mono',monospace;letter-spacing:1px">구조 취약성</span>
       
     </div>
-    <span id="frag-badge" style="font-size:14px;font-weight:800;color:#7b8499">—</span>
+    <span id="frag-badge" style="font-size:15px;font-weight:900;color:#7b8499">—</span>
   </div>
   <div id="frag-strip" style="display:none;margin-bottom:8px;padding:8px 10px;background:#10151d;border:1px solid #232c3a;border-radius:9px">
     <div id="frag-cells" style="display:grid;grid-template-columns:repeat(5,1fr);gap:3px"></div>
@@ -269,7 +269,7 @@
         <div class="risk"><b style="color:#8a93a6">구성:</b> <span style="color:#8a93a6">하이퍼스케일러(MSFT·GOOGL 등) · 반도체(NVDA·AVGO 등) · 메모리(삼성·SK하이닉스 등) · 네트워킹(ANET·VRT 등) · 전력(VST·GEV 등) · 원자재(구리·우라늄) · <b style="color:#8a93a6">하위 그룹 과반 위험 시 바스켓 위험</b></span></div></div>
       <div class="card ai" style="border-left-color:#5aa0ff"><div class="top"><span class="nm">GPU·HBM 수급 (AI 필수재)</span><span class="stt s-n" id="st-gpu">—</span></div>
         <div class="desc">H100 임대 단가 = AI 필수재 수요·공급 직접 지표 (실시간)</div>
-        <div id="gpu-h100" style="font-size:13px;color:#5aa0ff;margin:7px 0;font-weight:700"></div>
+        <div id="gpu-h100" style="font-size:13px;color:#c2cad6;margin:7px 0;font-weight:700"></div>
         <div style="font-size:9.5px;color:#5f6878;margin-bottom:4px">참고 · 임대사업자 주가</div>
         <div class="mem" id="mem-gpu"></div>
         <div class="risk"><b style="color:#8a93a6">해석:</b> <span style="color:#8a93a6">H100 시간당 임대가(computeprices 중앙값)가 핵심 — 상승=수요 강세(capex 지속), 하락=공급과잉/둔화 · CRWV·NBIS 주가는 보조 참고 · 판정은 임대가 추세 위주</span></div></div>
@@ -1140,7 +1140,7 @@ function renderFragility(d){
       +'<div style="font-size:9.5px;color:#aeb6c4;font-weight:700;white-space:nowrap">'+(it.v!=null?it.v:'—')+'</div></div>';}).join('');
   const n=items.filter(it=>it.s===2).length, wait=items.some(it=>it.s===-1);
   const fs=n>=4?'r':n>=2?'a':'g', fw=n>=4?'극단':n>=2?'높음':'보통';
-  const fc=fs==='r'?'#ff3b6b':fs==='a'?'#ff9f40':'#37d6a0';
+  const fc=fs==='r'?'#ff3b6b':fs==='a'?'#ffb454':'#37d6a0';   // EW 헤더 팔레트(CC)와 동일 계열
   bEl.textContent=fw+(wait?' ·대기':''); bEl.style.color=fc;
   const fd=$('frag-dot'); if(fd){fd.style.background=fc; fd.style.boxShadow='0 0 8px '+fc+'55';}
 }
@@ -1230,14 +1230,14 @@ function renderGpu(d){
     if(first){
       pct=((last/first-1)*100);
       const arrow=pct>=1?'▲':pct<=-1?'▼':'·';
-      const col='#5aa0ff';   // 단가 표기 파랑 통일 — 방향은 화살표·부호로
+      const col=pct>=1?'#37d6a0':pct<=-1?'#ff8a5a':'#9aa3b3';
       trend=` <span style="color:${col};font-size:11px">${arrow} 누적 ${pct>=0?'+':''}${pct.toFixed(1)}% (${hist.length}p)</span>`;
       if(pct<=-10) st='r'; else if(pct<=-5) st='a';
     }
     // 직전 시간 대비 변동률
     if(prev){
       const hc=((last/prev-1)*100);
-      const hcol='#5aa0ff';
+      const hcol=hc>=0.3?'#37d6a0':hc<=-0.3?'#ff8a5a':'#7b8499';
       hourChg=`<div style="font-size:10px;color:#8a93a6;margin-top:2px">직전 시간 대비 <span style="color:${hcol};font-weight:600">${hc>=0?'+':''}${hc.toFixed(2)}%</span></div>`;
     }
     // 스파크라인 SVG
@@ -1249,13 +1249,13 @@ function renderGpu(d){
       const y=H-2-((v-mn)/rng)*(H-4);
       return `${x.toFixed(1)},${y.toFixed(1)}`;
     }).join(' ');
-    const lineCol = '#5aa0ff';
+    const lineCol = pct<=-5?'#ff8a5a':pct>=1?'#37d6a0':'#7aa5d6';
     spark=`<svg width="${W}" height="${H}" style="display:block;margin-top:5px" viewBox="0 0 ${W} ${H}" preserveAspectRatio="none">
       <polyline points="${pts}" fill="none" stroke="${lineCol}" stroke-width="1.5"/>
     </svg>`;
   }
-  const staleTag=g.stale?` <span style="font-size:9px;color:#7aa5d6">· 최근값(수집 일시지연)</span>`:'';
-  el.innerHTML=`<b>H100 임대가</b> <span style="color:#5aa0ff;font-weight:700">$${g.median}/시간</span>${staleTag}${trend}${hourChg}${spark}`;
+  const staleTag=g.stale?` <span style="font-size:9px;color:#c2a35e">· 최근값(수집 일시지연)</span>`:'';
+  el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${staleTag}${trend}${hourChg}${spark}`;
   const sb=$('st-gpu'); if(sb) badge(sb,st);
   return st;
 }

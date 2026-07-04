@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.1</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.2</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -165,10 +165,12 @@
       <div class="verdict" id="early-note">—</div>
       <div id="ew-detail" style="margin-top:8px;font-size:11.5px;line-height:1.6;color:#c2cad6"></div>
     </div>
+    <div id="ew-inputs" style="display:none;margin-top:4px;font-size:9px;color:#ffb454;line-height:1.5"></div>
     <div id="ew-rules-t" onclick="var d=document.getElementById('ew-rules'),c=this.querySelector('span');var o=d.style.display==='none';d.style.display=o?'block':'none';c.textContent=o?'▼ 규칙·범례 접기':'▶ 규칙·범례 (계산 · 3축 · 선행약세 · 평가 사전등록)';" style="margin-top:6px;font-size:9px;color:#6f7888;cursor:pointer;user-select:none;font-weight:700"><span>▶ 규칙·범례 (계산 · 3축 · 선행약세 · 평가 사전등록)</span></div>
     <div id="ew-rules" style="display:none">
     <div class="risk" style="margin-top:5px">
       <b>계산:</b> 강한 1.0 + 보조·선행약세 0.5 합산 → 1+ 주의 · 경계=(2.5+&2축&강1+) 또는 강2 · 위험=3축&3.0+&강3 · <b style="color:#8a93a6">조기징후만이면 주의까지</b><br>
+      <b>결측:</b> 입력(20종: 가격12·FRED2·차트6) 결손 시 해당 신호 미평가 → 점수 하한 편향 — 카드에 ⚠ 경고 자동 표시 · KLR 원장은 결측 시 동결<br>
       <b>3축〔위험 판정용〕:</b> <span style="color:#5aa0ff">옵션</span> 기간구조역전·VIX+20%·SKEW·VVIX·MOVE / <span style="color:#ff8a5a">신용</span> 사모ETF 약세·HY급등·NFCI·다이버전스(지수↑내부↓) / <span style="color:#c89bff">가격</span> 시장·선물급락·HYG·안전자산쏠림<br>
       <b style="color:#9aa3b3">선행약세〔점수만·축 미반영·합산 최대 1.0〕:</b> 지수추세약세·AI약세·VIX추세·HY추세·CCC-BB확대·시장폭악화·금융상대약세(지수정상시)·HY/CCC-BB저점이탈(+30%)·괴리·폭축소<br>
       <b style="color:#8a93a6">표시:</b> <span style="color:#8a93a6">구성(강한/보조/선행약세) · <b style="color:#9aa3b3">선행 클러스터(신용/폭/펀딩 — 어느 영역이 문제인지)</b> · 위험 판정 축별 매트릭스 · 임계 근접도(미점등 상위) 상시 — 같은 단계 안에서도 깊이·다음 후보 식별</span><br>
@@ -1460,6 +1462,14 @@ function renderKLR(d){
     return `<div style="margin-top:2px">▸ ${e.entry_date} 진입(${e.tier}) · 기준 SPY ${e.spx0}${e.hy0!=null?' · HY '+e.hy0+'%':''} · ${e.td}거래일 · 최저 SPX ${e.min_spx_pct}%${e.max_hy_bp?' · HY +'+e.max_hy_bp+'bp':''} → <b style="color:${col}">${e.status}</b>${e.hit_reason?` (${e.hit_reason}·${e.hit_td}일차${e.hit40?'·40일내':''})`:''}</div>`;}).join('');
   el.innerHTML=`<b style="color:#9aa3b3">KLR 원장(자동 집행)</b> — 판정확정 n=${s.n||0} · 적중60 ${s.hit60||0} · 미적중60 ${s.miss60||0}${s.open?` · 추적중 ${s.open}`:''}${s.hold?` · <b style="color:#ffb454">${s.hold}</b>`:''}${rows}`;
 }
+function renderEWInputs(d){
+  // R3 출석부: 서버(ew_inputs)가 매 사이클 점호한 결측 목록 표시 — 결측=신호 미평가=점수 하한 편향 경고
+  const el=$('ew-inputs'); if(!el) return;
+  const inp=(d.early||{}).inputs;
+  if(!inp||!inp.missing||!inp.missing.length){el.style.display='none';el.innerHTML='';return;}
+  el.style.display='block';
+  el.innerHTML=`⚠ 입력 결측 ${inp.missing.length}/${inp.total} (${inp.missing.join(', ')}) — 해당 신호 미평가 · 점수가 실제보다 낮게 나올 수 있음(하한 편향)`;
+}
 async function load(){
   try{
     let d;
@@ -1506,6 +1516,7 @@ async function load(){
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
     renderKLR(d);   // KLR 원장(자동 집행) 표시
+    renderEWInputs(d);  // R3 출석부 — 입력 결측 가시화
     // 드리프트 감지: 화면(JS)과 서버(Python) 조기경보가 어긋나면 즉시 경고 — 이중구현 드리프트 재발 방지
     if(d.early && (Number(d.early.score)!==Number(ew.score) || d.early.st!==ew.st)){
       const ff=$('feedfail'), ft=$('feedfail-txt'); const W={g:'안정',a:'주의',r:'경계/위험'};

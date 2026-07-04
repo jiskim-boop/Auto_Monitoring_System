@@ -860,6 +860,30 @@ def _falling(arr, k=3):
         if t[i] is None or t[i-1] is None or t[i]>=t[i-1]: return False
     return True
 
+def ew_inputs(prices,fred,charts):
+    """R3 출석부: calc_early가 실제 소비하는 입력의 가용성 — 결측=해당 신호 미평가(점수 하한 편향).
+    ⚠ calc_early에 신호 추가/삭제 시 이 목록도 함께 갱신(패치 시점 기계 추출로 동기화됨)."""
+    P=prices or {}; F=fred or {}; C=charts or {}
+    _p=lambda k: bool(P.get(k) and P[k].get("ok") and P[k].get("price") is not None)
+    _f=lambda k: bool((F.get(k) or {}).get("value") is not None)
+    _c=lambda k: bool(C.get(k))
+    items=[("DX-Y.NYB",_p("DX-Y.NYB")),("ES=F",_p("ES=F")),("GLD",_p("GLD")),("HYG",_p("HYG")),("NQ=F",_p("NQ=F")),("QQQ",_p("QQQ")),("SPY",_p("SPY")),("MOVE",_p("^MOVE")),("SKEW",_p("^SKEW")),("VIX",_p("^VIX")),("VIX3M",_p("^VIX3M")),("VVIX",_p("^VVIX")),("HYOAS",_f("hyoas")),("NFCI",_f("nfci")),("차트:bizd",_c("bizd")),("차트:ccc_bb",_c("ccc_bb")),("차트:hyoas",_c("hyoas")),("차트:rsp_spy",_c("rsp_spy")),("차트:vix",_c("vix")),("차트:xlf_spy",_c("xlf_spy"))]
+    missing=[n for n,okv in items if not okv]
+    return {"total":len(items),"ok":len(items)-len(missing),"missing":missing}
+
+def schema_gate(prev_exists, prev, ew, history, klr):
+    """R3 현관 검문(구조 보호): 깨진 실행이 좋은 데이터를 덮어쓰지 않게 저장 전 차단.
+    소스 결측(야후/FRED 다운)은 기존 feed 헬스 라인 담당 — 여기선 구조만 본다.
+    차단 4항: ① 판정 부재 ② 기존 파일 파싱실패(이력·원장 소실 위험) ③ 이력 소실 ④ KLR 원장 축소(append-only 위반)"""
+    miss=[]
+    if not (ew or {}).get("st"): miss.append("early.st 부재")
+    if prev_exists and prev is None: miss.append("이전 data.json 파싱 실패")
+    if not history: miss.append("history 소실")
+    _pk=len((((prev or {}).get("klr") or {}).get("entries")) or [])
+    _ck=len(((klr or {}).get("entries")) or [])
+    if _ck<_pk: miss.append(f"KLR 원장 축소({_pk}→{_ck})")
+    return miss
+
 def calc_early(prices, fred, charts):
     """index.html v1.2와 '동일' 기준 — 알림·이력의 단일 진실원 동기화"""
     p=prices or {}; ch=charts or {}
@@ -1177,6 +1201,7 @@ def update_klr(prev, ew, prices, fred):
 def main():
     # 이전 data.json 로드 (요약 캐싱 + 이력 누적용)
     prev=None
+    prev_exists=os.path.exists("data.json")
     try:
         with open("data.json","r",encoding="utf-8") as f: prev=json.load(f)
     except Exception: prev=None
@@ -1207,6 +1232,7 @@ def main():
     ebp=fetch_ebp(prev)
     summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
+    ew["inputs"]=ew_inputs(prices,fred,charts)   # R3 출석부
     history=update_history(prev,ew)
     klr=update_klr(prev,ew,prices,fred)
     # KLR 원장 이벤트 알림 — 사전등록 집행 통지 (드문 이벤트만)
@@ -1225,6 +1251,12 @@ def main():
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
           "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
+    _gate=schema_gate(prev_exists,prev,ew,history,klr)   # R3 현관 검문
+    if _gate:
+        print("⛔ 스키마 게이트 차단:",_gate)
+        try: tg_send("⛔ <b>스키마 게이트</b>\n"+" · ".join(_gate)+"\ndata.json 미갱신 — 이전 상태 보존, Actions 로그 확인 필요")
+        except Exception: pass
+        return
     with open("data.json","w",encoding="utf-8") as f:
         json.dump(data,f,ensure_ascii=False,indent=1)
     # 월간 아카이브: 이달 스냅샷 없으면 1회 저장 — FRED 3년창 제한 우회 + 자체 히트율/거짓경보율 데이터 축적 (워크플로가 archive/ 커밋)

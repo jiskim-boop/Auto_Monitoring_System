@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05T20:12:10+00:00",
+ "updated": "2026-07-05T20:22:09+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62761.99,
-   "chg": -0.52,
-   "chg5": 7.18,
-   "sma20": 61967.01,
-   "sma50": 66737.73,
-   "sma200": 73373.26,
+   "price": 62709.97,
+   "chg": -0.6,
+   "chg5": 7.09,
+   "sma20": 61964.41,
+   "sma50": 66736.69,
+   "sma200": 73372.98,
    "high3m": 82138.93,
-   "reg": 62761.99,
+   "reg": 62709.97,
    "pre": null,
    "post": null,
-   "regClose": 62761.99,
+   "regClose": 62709.97,
    "sess": "reg",
-   "mt": 1783282301,
+   "mt": 1783282903,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.33,
-   "chg": -0.07,
-   "chg5": -0.28,
-   "sma20": 161.18,
+   "price": 161.27,
+   "chg": -0.11,
+   "chg5": -0.32,
+   "sma20": 161.17,
    "sma50": 159.65,
    "sma200": 158.26,
    "high3m": 162.63,
-   "reg": 161.33,
+   "reg": 161.27,
    "pre": null,
    "post": null,
-   "regClose": 161.33,
+   "regClose": 161.27,
    "sess": "reg",
-   "mt": 1783281351,
+   "mt": 1783282898,
    "ok": true
   },
   "ES=F": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave | AI cloud computing company - Encyclopedia Britannica",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5SR1M5ZVVsUUVsYkd4dlNvRDFvMjFzMWt4cEZPOE14VGxZSXk0b2lsLVRsNnJLdlM0blRQc2Ezd2ptYTA2d0Z6VldKVUN3cEtvUDZ0bTdOR3ZjUQ?oc=5",
-    "pub": "Sun, 05 Jul 2026 15:33:47 GMT",
-    "src": "Encyclopedia Britannica",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Blue Owl Capital: A 4.6% Relief After A 40% Stress Test (NYSE:OWL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmRGV092X0t4dTNDUWg0dlBmS2lXTEVtVTJIdDBJY1hoOHVKbnVreGdtN3JwMG1jSnUtcE1NbDZmZWJzdGE0eC1nM0pEQlozSFFJdENaUThsQkxJNElBd0RBUXhoRGJlc0w1Y0Z4RUFPYWdKeGZhenY2ZUF4WlRXZG5XQkYwMldURzB6SzYwNVJ2WjlEWnhCcnV3aUgwemQ1NGhudFBOT2Q3MUlFZ3c?oc=5",
     "pub": "Sun, 05 Jul 2026 13:30:00 GMT",
@@ -1169,6 +1161,14 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcGpmc3lXQ09TMHNxdU9EMjRzeWlzVFlrQUJlbTRPSDlxTERsS1NVM1JtN3RoTTR5T2FLNmdXRHBUOWZ6Rld6SDd2MHZmR0JudEFHNDRwN25FenJjWnBmTWpXVi1ZQzhHYk5aZ3FJNWdKeGZzMDJFRHVDNU9xMm01LUVPc01OZ1VvcUwzMDE1UDFhYVBhZVd3WUxSaw?oc=5",
     "pub": "Sat, 04 Jul 2026 18:15:55 GMT",
     "src": "MSN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Blue Owl faces $4.7B in withdrawal requests from private credit funds - eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONl82WDVYZE1MS3djb2VxZXRVekVoaW9BbHd5d05xYlhPeFBtSlpzSkM3ZG1YLWZkQkFNa2JLeVRUVWV4MHZ0b2FLZmdSYkZHRzJ0OU96Yk0tSDdDQUI2M1VZWHBtZld6NlhFZFMxSnlRZEdhMVI4QjdJZ1NmeC1EQWNFOA?oc=5",
+    "pub": "Sat, 04 Jul 2026 18:02:20 GMT",
+    "src": "eciks.org",
     "trig": false,
     "geo": false
    }
@@ -1225,14 +1225,6 @@
   ],
   "macro": [
    {
-    "title": "Franklin Total Return Fund Q1 2026 Commentary - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQWTRuZXpVZmFzUVRUcHlRTDZKWGZzRWJEZmhmMHNudlBmUjBXOV8wQ053REdoZDI1R1pRVEtTVFlmQllLMElHNDZ1dDlxOV9Edkx5T1IzelplYmxEeTZaRkIxM04xWEJNM1VOU1J0YjZNNGFwSVJmSEtqNGJBMExDSW1HN1pnUGxCTFBHN3RleGR5a29BeU05VVBwTGk0SHl3UEtVYWRaaTduNHdXOTFkZw?oc=5",
-    "pub": "Sun, 05 Jul 2026 18:58:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil settles near 4-year high as Middle East war drags on - MSN",
     "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOZTNRNkxJQWhUM2VlQ3FzQ0Y1b3BEZnRYTHRiV1NsR1A0NExWa09jNjR2dS0yMTFSQVEyU3lCV0RWdWtHZVdaaElWNWFENDNaaEc4NkxKcG9POE45V0pySWNIRTBRU1V6Z09zMy1vVjZDYXQycnVlandmV0pnNTFZV09Wcm5MSlpPbWVFV3BrSW9fSHVDY3huUHFQSnd4Q253U2ZzaVNzRDV2TmduTkllQ0d6ZzF4cXU5dHJpNWxWbF9PNzJxVTZXTkhxU2lLM3lfeHI1Q2pVMG1rM1NJdTc4STVrZHlxajFXSjNFbEtQTzJoY3BjckJPZlp2SkVPSWpvaTVaakdfSDhtMl9pZzJHNlhSaWpqWFQtN0FVejljdjVMSlQzaHBCNU9idTlkN3EwRlkyZGlFNFMwOG1MZjA2SFJteTNYU2QtZ2RVNWVyUTBPNGVjcmRN?oc=5",
     "pub": "Sun, 05 Jul 2026 18:05:15 GMT",
@@ -1271,6 +1263,14 @@
     "src": "HESPRESS English - Morocco News",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "What will FOMC minutes reveal about Warsh’s debut at the Fed? - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWEpHeHdWaGpNZGJGN2lhWTMzUkNnTUVmeVR6dEoycXFJcDJmbXdBS0dTV0VGakh2QWUyTWVHMGdkRXpRLU0yc2xXZWpqTk1OY3dIX1c1SlprNnhTNWFIX3R6anhZc0lucWdTYW5Rb1dPWmFhcDRkbS0xOUlldU52ZmJkcVM?oc=5",
+    "pub": "Sun, 05 Jul 2026 11:00:03 GMT",
+    "src": "Financial Times",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Gold prices in Pakistan rise Rs8,600 on weekly basis - Pkrevenue.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LMVRtMTJ3a2JEY1EwdFNZd1VhdUIwS25SMkpPMzZmZ1VXVXJmbEZHSVM4cktGZUc2UUZRT2pQMmQ3dUxLN29OdnpfODB1OTVPbzdzRHI0MGtQb1ZWX0Z6d1lyaGxvTzdqbDlhNk5RUWxhMmZfN3JxZWRaa0JLd2c?oc=5",
-    "pub": "Sun, 05 Jul 2026 10:45:51 GMT",
-    "src": "Pkrevenue.com",
+    "title": "Price to earnings forward of District Copper Corp. – TSXV:DCOP - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPM0QzSlM1ZjhheE1NT0IybXltZWEtLUxZbHg2NnJ5dEhXa2dkWVZodlBZZDVyUnRaMjNHYzUxS1hCUWhwTDExdk9pS2x5U0NtNEdKamZkLTF6cW01UE1PenliWHUxcnN5cFVMcnpEZ3hvbFF5ajQ1NjJjYTVZWkNIYTNZam5ianNQQ0pDNHRkWHdDaGEybnMwalRvVTN0ZmM?oc=5",
+    "pub": "Sun, 05 Jul 2026 12:07:26 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Record Yen Short Bets Stoke Fears of Another Global Stock Shock - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1fVV9STXdkc0RUaC1UVkpwakNmMXM1OWR0U0EzSlg5dlh5NUNncXhQSmp0N29ocHk3REFlWlNDOWlSMDVpdk0wU0NSUjhZZHk2VU1yVQ?oc=5",
-    "pub": "Sun, 05 Jul 2026 09:05:46 GMT",
-    "src": "bloomingbit",
+    "title": "Gold prices in Pakistan rise Rs8,600 on weekly basis - Pkrevenue.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9LMVRtMTJ3a2JEY1EwdFNZd1VhdUIwS25SMkpPMzZmZ1VXVXJmbEZHSVM4cktGZUc2UUZRT2pQMmQ3dUxLN29OdnpfODB1OTVPbzdzRHI0MGtQb1ZWX0Z6d1lyaGxvTzdqbDlhNk5RUWxhMmZfN3JxZWRaa0JLd2c?oc=5",
+    "pub": "Sun, 05 Jul 2026 10:45:51 GMT",
+    "src": "Pkrevenue.com",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    160.33,
    159.96,
    161.43,
-   161.33
+   161.27
   ],
   "uso": [
    138.94,
@@ -1610,7 +1610,7 @@
    63239.52,
    65710.4,
    63237.54,
-   62762.67
+   62711.41
   ],
   "vixts": [
    0.976,
@@ -2353,7 +2353,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-05T20:11:58+00:00",
+  "checked": "2026-07-05T20:22:01+00:00",
   "openai": {
    "found": false
   },

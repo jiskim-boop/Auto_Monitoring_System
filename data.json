@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05T05:12:10+00:00",
+ "updated": "2026-07-05T05:22:04+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 19.04,
-   "chg": -6.35,
-   "chg5": -2.71,
-   "sma20": 20.3,
-   "sma50": 20.54,
-   "sma200": 21.55,
-   "high3m": 29.27,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 19.04,
+   "sma50": 19.04,
+   "sma200": 19.04,
+   "high3m": 19.04,
    "reg": 19.04,
    "pre": null,
    "post": null,
-   "regClose": 20.13,
+   "regClose": 19.04,
    "sess": "reg",
    "mt": 1783023301,
    "ok": true
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 65.4,
-   "chg": -2.54,
-   "chg5": 0.01,
-   "sma20": 70.91,
-   "sma50": 72.01,
-   "sma200": 72.7,
-   "high3m": 111.95,
+   "chg": -4.61,
+   "chg5": -2.54,
+   "sma20": 70.08,
+   "sma50": 72.08,
+   "sma200": 72.57,
+   "high3m": 86.07,
    "reg": 65.4,
    "pre": null,
    "post": null,
-   "regClose": 66.79,
+   "regClose": 65.4,
    "sess": "reg",
    "mt": 1783024215,
    "ok": true
@@ -819,16 +819,16 @@
   },
   "^IRX": {
    "price": 3.67,
-   "chg": -0.33,
-   "chg5": 0.27,
-   "sma20": 3.64,
-   "sma50": 3.61,
-   "sma200": 3.6,
-   "high3m": 3.69,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 3.67,
+   "sma50": 3.67,
+   "sma200": 3.67,
+   "high3m": 3.67,
    "reg": 3.67,
    "pre": null,
    "post": null,
-   "regClose": 3.66,
+   "regClose": 3.67,
    "sess": "reg",
    "mt": 1783018796,
    "ok": true
@@ -883,16 +883,16 @@
   },
   "^TNX": {
    "price": 4.48,
-   "chg": 2.12,
-   "chg5": 0.76,
-   "sma20": 4.47,
-   "sma50": 4.44,
-   "sma200": 4.31,
-   "high3m": 4.67,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 4.48,
+   "sma50": 4.48,
+   "sma200": 4.48,
+   "high3m": 4.48,
    "reg": 4.48,
    "pre": null,
    "post": null,
-   "regClose": 4.37,
+   "regClose": 4.48,
    "sess": "reg",
    "mt": 1783018796,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62711.88,
-   "chg": 0.27,
-   "chg5": 4.28,
-   "sma20": 62124.56,
-   "sma50": 67037.59,
-   "sma200": 73429.81,
+   "price": 62721.1,
+   "chg": 0.28,
+   "chg5": 4.29,
+   "sma20": 62125.03,
+   "sma50": 67037.77,
+   "sma200": 73429.86,
    "high3m": 82138.93,
-   "reg": 62711.88,
+   "reg": 62721.1,
    "pre": null,
    "post": null,
-   "regClose": 62711.88,
+   "regClose": 62721.1,
    "sess": "reg",
-   "mt": 1783228303,
+   "mt": 1783228898,
    "ok": true
   },
   "USO": {
@@ -1141,9 +1141,25 @@
     "geo": false
    },
    {
+    "title": "BlackRock cut private credit fund’s value by 5% in first quarter By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUldrUVdzcndYT3pqQ3VEUmpJN1pHZzdrdXh2MW1BNVozUXZSSlBFZTNIbjIwR2FlQ0xNRUpnUkNwY0dtN010d3RDU20zWXNaMWs4d3dDNmswbXNvaXc4THhlVldqNkZXV1pjUWYxM0VseFBPRHRZUzgtdlJpZ3BXd3V3RGNJRllCd0VuSm9EcktxSkJvQW1yRDRVTXB5a1ZVNHpTUTRHNm9qczhXalpNWHF3dUhPODFzbEU4?oc=5",
+    "pub": "Sat, 04 Jul 2026 14:44:36 GMT",
+    "src": "Investing.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "PH can be next Southeast Asia hub for AI data centers, says STT GDC chief - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMmN2QXJoUmYtZGhKMDhubWZmY05fYUktaXZWZnN6NHhpR1FwUWFJZThCSmVGNTNjXzZtek40bkxqUG9vY1lyMFRxd1pSNDMyLWE1QUxNQllSbGIxcUlQaG5GbVFtUkFiUm1IZjRqX1NEMGd0bFZhekg3WER2M1E4dlRwaDUwUHRWVWN5d3RDdnU2MlhLcldjVVhDVFdSZmxXcDctVDdBQk1ScDdhSE9iUEZlVFBkVTNnRzlTZnpIcURCQQ?oc=5",
     "pub": "Sat, 04 Jul 2026 08:27:15 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Shopee woos more sellers into platform with mobile activation push - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOSkN5SG16LV8tOGVjQVNyN3pzbHpnZVJ1WS10NDR5REMzUFZXYWwwWmYxT2VZamQ5U3NtNXQ1NjJwSjdpV0QzRUNlSHBTNWFjeDUtOGRQSXZqcE5HekxKM3pyRmR1V2RUWUlKcVZhdy1TeWFMYW9sZjh3MnRUaTRWVGd2bXdURFo3R1RMbzlKLTczZ0tFMERUdGFGYXRlX3NjY25lN0RZcG04d0hFYmFXV0dCWkstVmkxUmc?oc=5",
+    "pub": "Sat, 04 Jul 2026 06:50:45 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1155,22 +1171,6 @@
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Tech Selloff Hits Markets | Open Interest 6/23/2026 Ufc White House (SgX5kqfYf9) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBQeG5qM3BYTERzbkJ4Skl4bW1BM2U4NGtqR2RlY2tEQmZKSnFLbjRlcjVialpoNS1pTEJJLUhnck9aWFNtMTctRlpPaS1yS0piVlNWSmMwdzdOQUJkNHJQdw?oc=5",
-    "pub": "Fri, 03 Jul 2026 23:09:13 GMT",
-    "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Is CoreWeave (CRWV) Stock A Bargain Or Fully Priced Now? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHFxVGNhTUdaQW9SSm1CUXNVX1g1alpoOHRjM2NRMWhNdy16WHg4NG1lU1B5aS1iVFltTkpfMXRMWml1V3RzUDQ0ZDRyMHhtSlFPcWllUDQ4VmphLXFpd2F6ZFNYOVdrX1dicXFJVTJpTm1Da2JxT0pDaXZuTE1URUxnX2ZVa21oNlJvaDY2eEg3TEQ1SlpNUngwUDlxT3g5MUp6TzNGMnVzanVlclpDWnI0NlRHMGtxSjZTQnln0gHDAUFVX3lxTE1WVUxlUUp3MmdjdWtsSERTNjRNMWs4d2Y3RGpvb0h3ZmhBSmU3ZkpaTjBaV0NtY1JlWXVfOUhyQ1pLcHlaQlF1cDUwMjRUVjRNaENBMmMzVzdlTmJ2VXY4U3cyYTk5S0E1bjBNVmZnODktZHdCRTM2SDN2b3ZYVmxiNUJrekNURHpTeTgyU01PbU9kcWhTWC04Q2RubEh4NjJ5cF9ndE5IWXFRNk9kQy1PdGRjS0Z6YmFTQXU0Ym05bE1yQQ?oc=5",
-    "pub": "Fri, 03 Jul 2026 21:45:02 GMT",
-    "src": "simplywall.st",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1179,14 +1179,6 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNci16Qkt0Sm5jdHVlQlFveldxLXNoYzBfQm1HbDQwdU1BcjZUTVctREhXdmZMZnZMYVpNem5BUHhLTTV6eVJXZlcwTkZVS1Naam1BaXlRcG5pLWV1U25VVVVEVHBmVlE1bEpvaE9Ka3VNRk9YYjd1ZDQxejFvYk9oWE90aEFMZkE0Wno4bng5T2V1ZnlvT0ZvdC1vLS1QamZxYjJnUHpma05MRFctMWpqS3VGNFNEQQ?oc=5",
     "pub": "Sun, 05 Jul 2026 04:31:02 GMT",
     "src": "Tech Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "An investment chief shares 4 tech stocks that can weather an upheaval in the AI trade - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5tZFl6dXU0d0dJTGFuMFY0dGg5NGJORWI1RGRGa3BfYTdILUFtRmJNTGRMeHNPaVNkR05FQVJQT01IcXUtX0VLMDlDbUZVbVcwNndfM0F4ZzdvTlFqR0tCbkZ2OUZqWWJBbEkyOFBzTFM2YUFGVkxRWk1kYVhvSEE?oc=5",
-    "pub": "Sun, 05 Jul 2026 03:30:46 GMT",
-    "src": "AOL.com",
     "trig": false,
     "geo": false
    },
@@ -1221,22 +1213,30 @@
     "src": "Yahoo Finance",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "OpenAI eyes $1T IPO by end of 2026, Microsoft poised for windfall - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX0F0Z2stMjAxbTZRLS1acUhPeW0tZk9OS2xSS2VwOWRpQ2UteUtnXy0waGFya1hTLVU0aEYwblVlcEJ6bngwcWlWRHJ5eG1ueDJOcm8zdThxRzEyVzVKdG84NkdOdTNIOHlHQWoyOEJEUDgwejV2dklGN1h1LXFrU295YU1KWWFMNW5sdjJDTjhPREh6X2c?oc=5",
+    "pub": "Sat, 04 Jul 2026 22:05:35 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "India eyes oil exploration expansion after Middle East war shortages - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZ003YnR5Z00wdl91d0JGRHBEZzNEV1E3U2JQUUd3UGR3MHBObTlkLXVoSUJTNHhLak1GN0Rla04zckZiaGxIQ1dack41RmFCTjlVXy1KU1lXSW1lemFkdDBiVjYteWpiR0Myd2NiYVl1cGgycndBN0RWRmY0UEkyS2J4NFpRS3ViTkJSVVF3Tkl6Q2k2V3hDOFI5bjBGMWtDUjBObVNyV21RemJsVXJzSlJUNlFrRUFaRlhIeWdUbVBoV0JBNkR6SExTVjRHM0ZSQ0RXUEFReHFKVkhhOF9tRDdfS27SAeQBQVVfeXFMUGdNN2J0eWdNMHZfdXdCRkRwRGczRFdRN1NiUFFHd1BkdzBwTm05ZC11aElCUzR4S2pNRjdEZWtOM3JGYmhsSENXWnJONUZhQk45VV8tSlNZV0ltZXphZHQwYlY2LXlqYkdDMndjYmFZdXBoMnJ3QTdEVkZmNFBJMktieDRaUUt1Yk5CUlVRd05JekNpNld4QzhSOW4wRjFrQ1IwTm1TcldtUXpibFVyc0pSVDZRa0VBWkZYSHlnVG1QaFdCQTZEekhMU1Y0RzNGUkNEV1BBUXhxSlZIYThfbUQ3X0tu?oc=5",
+    "pub": "Sun, 05 Jul 2026 03:53:00 GMT",
+    "src": "The Economic Times",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "14:20 Market Rasen - Racing TV",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nUFJObVNLMmwzNzhhc1pqcThWN2lEeHptZlVnWldIWUJQTllZTk91bGlieVZVMDJYS2QxeG9RVjM4RXAzTmI3Q0dPUHV6eFprQ0lYQjEtY0hwNlRMN1B4MHE2bFhQaFNDVUZTOURPNUI?oc=5",
     "pub": "Sun, 05 Jul 2026 03:21:56 GMT",
     "src": "Racing TV",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Australian Dollar Rises After Hawkish RBA Hold; Fed Decision Next in Focus - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxORlJDby1KWkk4ZnhkNjhJUnpuZlVodURYbkxtTUR5c2xQVHg1dFBWaXBOeFNncG45REpJajhjTEd2N0hnaDlWQVo2RXJqcFNtb2QydFhtVU9wczNVaFRzZVZBcHdxbVpKRG9HUHJEbFhZZFN4ckx0SHhZTkVOWGs0TWJRWk1VN0ctcjMxM3YxbDZ6UQ?oc=5",
-    "pub": "Sun, 05 Jul 2026 00:01:37 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Blue Owl Tech Finance Q1 2026 slides: NAV drops on spread widening - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaG55VjdMMzZnbzcxbVRucF9FTkFrS3NCT0s3ekdEQ3U4R1c4TXFPaXpuUVpUNWxvcVhNUnAyM2RuYS1xVHVQNTBpbFhGRHVQS0R0YjBhbjJCUmZFM0REa05rVnRLRTg2M1I4bllBcW5YVXNPYWRtQWJFOEJCYXZKdWlXdVB4bHQ4aE54OE5yb0tzR0F2VW1lZlVNWlo2eUs1YU5JMk5UcTM4Qk1QVk1yZzhoRFJfb2xnSEtMcnVySQ?oc=5",
-    "pub": "Sat, 04 Jul 2026 18:09:41 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Relief as oil producers agree largest-ever emergency stock release amid Middle East war - The Eastleigh Voice",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQbV9Pcml6Ukg2Y1d6NnZ4QTI0dm9vRUxrRWl1NENmR01tY0RkUEN4cXV6Tl84Z01MSDh6RjZDdHJkd0pYWE1uQkN2WV9OT0ZGdjRMa1h5X093dmpjMmFQejMwekxUUUxlVVRicVJDVWdJbzJnX3pZUUFkb0FpQk5UNFBDZ0hRRnRNWkFRQVcxdjBWVlpBMGhyYkw1eHdZd1RKdXhrck1DeEpNVEhMYy1udDlwT3Z2UUxXMy1ZRWEta2VDV2hQQ2ZKalRVekN5MFZpUkFHUjdEXzlyUQ?oc=5",
     "pub": "Sat, 04 Jul 2026 18:02:22 GMT",
     "src": "The Eastleigh Voice",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Asia Bets on Biofuels to Dodge Middle East Oil Shortages - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWmRyaWllVWk4X2xjblhJM2VmdXJLTWdDMWxCSVJ3b3ZESl9TclFPcmtPTW4wMklzNHpBLTloWTkycXJ5bXdOSy05MDR4X2NNMURmUjA4RTZBanVzRktiUGN6RlRETUV0dHJzcnRCckJrX0NPVV9PN2dTRUxZc2FwV0VmRDRUNHFwRXhLTExLV0x6UWFTYjNkenc3VDB2OFRNeEdwN3ZFYVA3Vk1wdGpv0gG0AUFVX3lxTE9vS1FDaVdUbGp6S3ppb3VnWXNycHMwN09rQ09qRF9GUmEzLW0zejY3MTVqRkRndDNsUTNzaFNtZGtzWHpzUUdJN0pUTVVWTmJBMW1Pd0lyYXF3emdxM1VydENfSDMzTWVHakFNMmRub2V0MWYyZzZlSmFOcmtLbVZqcFJ6aENoMnB0THVXcVV4Uk9wRzNVc1Y3b0RpU1VlaXhTSnh6dTdPS1VoQU53SmpycEFFYw?oc=5",
+    "pub": "Sat, 04 Jul 2026 17:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1478,19 +1478,7 @@
    16.15
   ],
   "tnx": [
-   4.31,
-   4.29,
-   4.31,
-   4.29,
-   4.42,
-   4.42,
-   4.46,
-   4.62,
-   4.49,
-   4.47,
-   4.55,
-   4.49,
-   4.37
+   4.48
   ],
   "dxy": [
    99.98,
@@ -1525,17 +1513,17 @@
   "move": [
    81.68,
    72.15,
-   65.89,
-   67.7,
-   74.33,
-   70.63,
-   71.68,
-   85.32,
-   74.95,
-   73.43,
-   76.98,
-   69.38,
-   66.79
+   65.7,
+   66.97,
+   70.41,
+   72.24,
+   69.63,
+   79.72,
+   70.22,
+   71.16,
+   69.45,
+   65.39,
+   65.4
   ],
   "jpy": [
    159.49,
@@ -1610,23 +1598,9 @@
    63239.52,
    65710.4,
    63237.54,
-   62708.0
+   62718.04
   ],
-  "vixts": [
-   0.976,
-   0.88,
-   0.842,
-   0.871,
-   0.802,
-   0.836,
-   0.876,
-   0.794,
-   0.791,
-   0.79,
-   0.935,
-   0.847,
-   0.802
-  ],
+  "vixts": null,
   "hyoas": [
    2.69,
    2.81,
@@ -1729,7 +1703,7 @@
   ]
  },
  "summary": {
-  "text": "지정학적 중동 긴장과 에너지 가격 상승 우려 속에서 VIX 16 저수준 유지로 시장 심리는 안정적이나, 실러CAPE 42의 고평가와 HY스프레드 확대 신호가 신용 경계감을 높이고 있다. AI 인프라 수요 주도로 TSMC 2027년 캡엑스 78억 달러 계획되는 가운데 CoreWeave 급락(48%)과 마이크로소프트 주가 부진(−19%)은 AI 투자 수익성 의문을 반영하는 조정국면이다.",
+  "text": "중동 지정학 긴장이 에너지 공급 불안을 가중하는 가운데, 저VIX·안정적 신용스프레드 속 AI capex 투자 과열에 따른 수익성 우려가 시장 심리를 압박 중입니다. TSMC 2027년 78조 달러 capex 계획 등 반도체 설비 투자 경쟁이 심화하면서 마이크로소프트 주가 급락 같은 개별 기업 실적 리스크가 부각되고 있으며, 에너지 비용 급등은 데이터센터 인프라 수익성 개선을 제약할 가능성을 시사합니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,7 +1712,7 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 0,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2315,7 +2289,7 @@
   ],
   "stale": false
  },
- "visitors": 402,
+ "visitors": 403,
  "visit_hours": [
   9,
   9,
@@ -2331,7 +2305,7 @@
   19,
   18,
   16,
-  14,
+  15,
   20,
   26,
   25,
@@ -2352,7 +2326,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-05T05:11:59+00:00",
+  "checked": "2026-07-05T05:21:54+00:00",
   "openai": {
    "found": false
   },

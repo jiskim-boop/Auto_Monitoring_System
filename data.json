@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-05T04:32:17+00:00",
+ "updated": "2026-07-05T04:42:03+00:00",
  "prices": {
   "NVDA": {
    "price": 194.83,
@@ -787,12 +787,12 @@
   },
   "^MOVE": {
    "price": 65.4,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 65.4,
-   "sma50": 65.4,
-   "sma200": 65.4,
-   "high3m": 65.4,
+   "chg": -4.61,
+   "chg5": -2.54,
+   "sma20": 70.08,
+   "sma50": 72.08,
+   "sma200": 72.57,
+   "high3m": 86.07,
    "reg": 65.4,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62830.92,
-   "chg": 0.46,
-   "chg5": 4.48,
-   "sma20": 62130.52,
-   "sma50": 67039.97,
-   "sma200": 73430.47,
+   "price": 62870.49,
+   "chg": 0.52,
+   "chg5": 4.54,
+   "sma20": 62132.49,
+   "sma50": 67040.76,
+   "sma200": 73430.68,
    "high3m": 82138.93,
-   "reg": 62830.92,
+   "reg": 62870.49,
    "pre": null,
    "post": null,
-   "regClose": 62830.92,
+   "regClose": 62870.49,
    "sess": "reg",
-   "mt": 1783225913,
+   "mt": 1783226499,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SoftBank Launches SB Neo as CoreWeave Slides 48%: Energy Is the New Moat - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNci16Qkt0Sm5jdHVlQlFveldxLXNoYzBfQm1HbDQwdU1BcjZUTVctREhXdmZMZnZMYVpNem5BUHhLTTV6eVJXZlcwTkZVS1Naam1BaXlRcG5pLWV1U25VVVVEVHBmVlE1bEpvaE9Ka3VNRk9YYjd1ZDQxejFvYk9oWE90aEFMZkE0Wno4bng5T2V1ZnlvT0ZvdC1vLS1QamZxYjJnUHpma05MRFctMWpqS3VGNFNEQQ?oc=5",
+    "pub": "Sun, 05 Jul 2026 04:31:02 GMT",
+    "src": "Tech Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Microsoft's Stock Plummets 19%, Worst Since 2000 Amid AI Costs - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOYWszNHJ1UUd0cHRBY3ZadDBjZE92Ni02Q0c4UmJlNDZLMEZ5QUUzQjFpVmhydzh2dmlTN3pSd2VrMDZOTWF6Y3paZjBQcmFYc2JtSjRPbjlBLV9XTUJzMHhGcTVNUnJ1UHJtRExDX0E5TTlBSUdseFc2OG53RkdzTFpiR1ozckI2UjhUa0dn?oc=5",
     "pub": "Sun, 05 Jul 2026 03:01:35 GMT",
@@ -1213,22 +1221,14 @@
     "src": "Spaceflight Now",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Nvidia Is Now Financing Its Own AI Cloud Customers. The Risk Is Its Own. - The Eastern Herald",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNMFlQQmVuVGkxWFh1WkpIdjV4ZWRxRW95ajRzd2pfUkNhNlJWN0dmNHRjNU9EVG9MeEF4YjVsSEk0T2V2SkdZNEU3VGJZbThRaEpGYzFWZWlMbXZ1elJGTlgxZmY0RmNnczUzX1BnVC1YZ0NRWUl2MWdYUTcxZ2Y5bmtRZ05MQl9nUkRr?oc=5",
-    "pub": "Sat, 04 Jul 2026 21:50:42 GMT",
-    "src": "The Eastern Herald",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "India eyes oil exploration expansion after Middle East war shortages - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPZURsTmp2d0JsUzNKeWhQT1QtR1JPaUpYZk1rX1NRbUdJVE1jWm52SmxHM1Y3bEdET1FsakxGVUlKbW9OX1MxZXpMcUhWcjFJeVN1OVd0SjM0WVN4ejN4TnZ4R2xLMHkzcFdhTmlOM1UzSkY3LXFpUWtfcTg1UjJ1NldXNEg4TU02TUFHa0hFQ04xZnVHQ0hWcjB6LTh2OVVrdlFtZ09kai1mNV9hMlM3dTVOSE1MWHJtS0lNQ05kR1N0Xzd3bkMybHVmM3BiOENld2ZZUmFEMDFrTl9XWnJF0gHkAUFVX3lxTFBnTTdidHlnTTB2X3V3QkZEcERnM0RXUTdTYlBRR3dQZHcwcE5tOWQtdWhJQlM0eEtqTUY3RGVrTjNyRmJobEhDV1pyTjVGYUJOOVVfLUpTWVdJbWV6YWR0MGJWNi15amJHQzJ3Y2JhWXVwaDJyd0E3RFZGZjRQSTJLYng0WlFLdWJOQlJVUXdOSXpDaTZXeEM4UjluMEYxa0NSME5tU3JXbVF6YmxVcnNKUlQ2UWtFQVpGWEh5Z1RtUGhXQkE2RHpITFNWNEczRlJDRFdQQVF4cUpWSGE4X21EN19Lbg?oc=5",
-    "pub": "Sun, 05 Jul 2026 03:53:36 GMT",
-    "src": "The Economic Times",
+    "title": "14:20 Market Rasen - Racing TV",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5nUFJObVNLMmwzNzhhc1pqcThWN2lEeHptZlVnWldIWUJQTllZTk91bGlieVZVMDJYS2QxeG9RVjM4RXAzTmI3Q0dPUHV6eFprQ0lYQjEtY0hwNlRMN1B4MHE2bFhQaFNDVUZTOURPNUI?oc=5",
+    "pub": "Sun, 05 Jul 2026 03:21:56 GMT",
+    "src": "Racing TV",
     "trig": false,
     "geo": false
    },
@@ -1249,6 +1249,14 @@
     "geo": false
    },
    {
+    "title": "Blue Owl Tech Finance Q1 2026 slides: NAV drops on spread widening - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQaG55VjdMMzZnbzcxbVRucF9FTkFrS3NCT0s3ekdEQ3U4R1c4TXFPaXpuUVpUNWxvcVhNUnAyM2RuYS1xVHVQNTBpbFhGRHVQS0R0YjBhbjJCUmZFM0REa05rVnRLRTg2M1I4bllBcW5YVXNPYWRtQWJFOEJCYXZKdWlXdVB4bHQ4aE54OE5yb0tzR0F2VW1lZlVNWlo2eUs1YU5JMk5UcTM4Qk1QVk1yZzhoRFJfb2xnSEtMcnVySQ?oc=5",
+    "pub": "Sat, 04 Jul 2026 18:09:41 GMT",
+    "src": "Investing.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Asia Bets on Biofuels to Dodge Middle East Oil Shortages - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWmRyaWllVWk4X2xjblhJM2VmdXJLTWdDMWxCSVJ3b3ZESl9TclFPcmtPTW4wMklzNHpBLTloWTkycXJ5bXdOSy05MDR4X2NNMURmUjA4RTZBanVzRktiUGN6RlRETUV0dHJzcnRCckJrX0NPVV9PN2dTRUxZc2FwV0VmRDRUNHFwRXhLTExLV0x6UWFTYjNkenc3VDB2OFRNeEdwN3ZFYVA3Vk1wdGpv0gG0AUFVX3lxTE9vS1FDaVdUbGp6S3ppb3VnWXNycHMwN09rQ09qRF9GUmEzLW0zejY3MTVqRkRndDNsUTNzaFNtZGtzWHpzUUdJN0pUTVVWTmJBMW1Pd0lyYXF3emdxM1VydENfSDMzTWVHakFNMmRub2V0MWYyZzZlSmFOcmtLbVZqcFJ6aENoMnB0THVXcVV4Uk9wRzNVc1Y3b0RpU1VlaXhTSnh6dTdPS1VoQU53SmpycEFFYw?oc=5",
     "pub": "Sat, 04 Jul 2026 17:00:00 GMT",
@@ -1260,14 +1268,6 @@
     "title": "Ukrainian drones destroy Russian MiG-29 at Belbek airfield in Crimea - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOeC0wTGdRVVl2WnNDRFhxcXc2YmItdnZRZHFtOWpsdlFUWVE3ZHNkSXZtQkZkQjBTMzBSTDkyRFN4QlBUSWZWbGZRRk9ZXzhMdWExRnQ2Q25BeDZLb0RmMTBQSVp3ZlhmTnBNS0xSc2RzMzFvbGlRQnBpNFd4a1NqQjRCNzdvOWVoMkRBb1EzS1VMWFFEaDZ1RFJmRnU?oc=5",
     "pub": "Sat, 04 Jul 2026 11:35:44 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iranians protest outside US Embassy in Helsinki against Tehran agreements - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQZEx4ZnBXZFpubkRKVWxlSEszWnFwTGNtOUU3ZTYwX2pkaWd4QTdUbU9uXzZmcjRGSDZES2FMWVpyYVFvTzBmRGx5RzVCbWhtUldRTHZ1dW40SlJZd1NYOW1aTWU4YjZlYU51d1Z6VTNxbmJ2dE1VQ2xSUDJ4UV9oM0hTMGh5bF9QN3lLdW83ajYzcGtfN1F1MmNtQnlhWTFzYjBZ?oc=5",
-    "pub": "Sat, 04 Jul 2026 11:35:39 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1511,6 +1511,18 @@
    12.51
   ],
   "move": [
+   81.68,
+   72.15,
+   65.7,
+   66.97,
+   70.41,
+   72.24,
+   69.63,
+   79.72,
+   70.22,
+   71.16,
+   69.45,
+   65.39,
    65.4
   ],
   "jpy": [
@@ -1586,7 +1598,7 @@
    63239.52,
    65710.4,
    63237.54,
-   62841.53
+   62866.31
   ],
   "vixts": null,
   "hyoas": [
@@ -2315,7 +2327,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-05T04:32:11+00:00",
+  "checked": "2026-07-05T04:41:55+00:00",
   "openai": {
    "found": false
   },

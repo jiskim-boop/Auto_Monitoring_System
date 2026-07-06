@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-06T21:32:24+00:00",
+ "updated": "2026-07-06T21:42:18+00:00",
  "prices": {
   "NVDA": {
    "price": 195.55,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 318000.0,
-   "chg": 11.19,
-   "chg5": -6.33,
-   "sma20": 327675.0,
-   "sma50": 296350.0,
-   "sma200": 226979.75,
+   "chg": 2.75,
+   "chg5": -1.55,
+   "sma20": 328800.0,
+   "sma50": 298330.0,
+   "sma200": 227725.82,
    "high3m": 362500.0,
    "reg": 318000.0,
    "pre": null,
    "post": null,
-   "regClose": 309500.0,
+   "regClose": 318000.0,
    "sess": "reg",
    "mt": 1783319410,
    "ok": true
   },
   "000660.KS": {
    "price": 2343000.0,
-   "chg": 7.13,
-   "chg5": -12.35,
-   "sma20": 2460000.0,
-   "sma50": 2047040.0,
-   "sma200": 1376438.02,
+   "chg": -3.38,
+   "chg5": -10.84,
+   "sma20": 2481600.0,
+   "sma50": 2069420.0,
+   "sma200": 1384360.66,
    "high3m": 2919000.0,
    "reg": 2343000.0,
    "pre": null,
    "post": null,
-   "regClose": 2425000.0,
+   "regClose": 2343000.0,
    "sess": "reg",
    "mt": 1783319407,
    "ok": true
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 100.87,
    "sess": "reg",
-   "mt": 1783372915,
+   "mt": 1783373507,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64195.39,
-   "chg": 1.02,
-   "chg5": 6.99,
-   "sma20": 61936.04,
-   "sma50": 66488.77,
-   "sma200": 73214.46,
+   "price": 64133.96,
+   "chg": 0.92,
+   "chg5": 6.88,
+   "sma20": 61932.97,
+   "sma50": 66487.54,
+   "sma200": 73214.13,
    "high3m": 82138.93,
-   "reg": 64195.39,
+   "reg": 64133.96,
    "pre": null,
    "post": null,
-   "regClose": 64195.39,
+   "regClose": 64133.96,
    "sess": "reg",
-   "mt": 1783373520,
+   "mt": 1783374111,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.04,
-   "chg": 0.37,
-   "chg5": 0.07,
+   "price": 162.07,
+   "chg": 0.38,
+   "chg5": 0.09,
    "sma20": 161.28,
    "sma50": 159.71,
    "sma200": 158.3,
    "high3m": 162.63,
-   "reg": 162.04,
+   "reg": 162.07,
    "pre": null,
    "post": null,
-   "regClose": 162.04,
+   "regClose": 162.07,
    "sess": "reg",
-   "mt": 1783373521,
+   "mt": 1783374112,
    "ok": true
   },
   "ES=F": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "Drilling & Completion Tech Digest - Drilling Contractor",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zZjA2UTlJV0xqekI5N3J4aFVkbzdvM1JWeEpXVUpZNGZURzFvMEFwMlVGdnZheVViRVFOM0J1b2hIdjRGMExCWFpXUFFGOTFSbzkzWjBfalotaXZDSHV0YVBDR1FQNnpZS2NPSkVjR1Q5ZVhRT1BXdkJ6VQ?oc=5",
-    "pub": "Mon, 06 Jul 2026 20:35:56 GMT",
-    "src": "Drilling Contractor",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Brookfield-backed data center firm to go public - The Real Deal",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPSzRqbWU2VXVkbFk2YWwzclp6a29VdnlXTnY0T2VPWFBSZ1F1VEViTnZCenVKc0p4TkljRVpoM2xkWWZYZFZWdmdHZk42TUdiTkRhZlpsY3B2bUQ2b3ptOTJWczdnbG80OFI1SjRFcFhSQU93OW9WbjFoNFFlNEhZbklTMjdnMGNJdUljc0pEQlpxREp6alE?oc=5",
     "pub": "Mon, 06 Jul 2026 19:15:00 GMT",
@@ -1171,6 +1163,14 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Nixxy, Inc. Regains Full Nasdaq Compliance with Minimum Bid Price Requirement - Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbWhXRGNxemE0TEF5cFBIN0V4a0FhTDlTZnIxS3ltd3VkUFVKVHMzU2lDY0hhNFJEZnlXSHJwS19fLXJPb2hmLU9JRlVqQzZXRmdrY05FX0ZHZ3J2cWdNMHhSWUtYUnZJNHNsV0JFcW1acUc2bzFSaFQzdXF4eGthRHIyODFaMmdNS1lDZVNEdEJjaXp2U1FuYUVZSm0yUXJPOVFyT1BtMWZjYnp0Nm9acU9BQVE4d1FkeXJHZlBxQU1LVXk5QUJwdEYyZFFsUQ?oc=5",
+    "pub": "Mon, 06 Jul 2026 12:30:00 GMT",
+    "src": "Business Wire",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1191,6 +1191,14 @@
     "geo": false
    },
    {
+    "title": "Watch SpaceX Falcon 9 rocket launch 81 satellites early on July 7 - Space",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPR2hocVRRVXlwTzdWdzJzWXMtMTZfWVRMTXZhVUdoYXM1Tl9nZmFLY29fNmRoc016UnQwbnJ5OXhKTlp4czhXNWhMVWlBOWZSQjM2cmlXOHhoekhKV3RsRnVhd3NUVU02dWtkT0N0ZmJ0TWVaUXVreW1lWjhZTTZ1OXhsc0VmTnFyMTNsNnRJUEl5R2R1Q192Uk56d1VFYkNvWEtWcFJfWDQwTDkzNmtwN1FOQl9MdEF0ZVFkU1NB?oc=5",
+    "pub": "Mon, 06 Jul 2026 21:00:00 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "China's Alibaba bans Anthropic AI for employees after 'distillation attack' accusation - CNBC",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE53Ykl5M1J5SW5wclpRaERtUUllclU0clBCaTlPYVJ5WWVGQkpIUTRYaXJJcS1XcmVYa2lVUkZhQnpWQ0NvY3h1alBReENVT1RZa2tJMWQ3SHdMU1F2cVJuWjM0bktmZElSbGE4WVk5VWd2VnRaa2FpRm5PM2cySU3SAYQBQVVfeXFMUC13eFAwV0ZDbm02SURnMjhrd3JvUEUzeHcxdEFkNFQzbFZwUnkyMDU0MnhqYzRzaHpLZjR3MHRSQ2VycnRuaXRVd3YyNzE5UUxMN2NKQU1DamFKYV9qLVNsN0NpS1VabzVnQjluZ05odnViTUZFM2txRUpkZHhRS3hGYUhs?oc=5",
     "pub": "Mon, 06 Jul 2026 20:49:25 GMT",
@@ -1200,8 +1208,8 @@
    },
    {
     "title": "MSFT falls as investors remain focussed on AI spending despite layoffs - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOcTBUMFdNSjZyX1N5QnNSbDhENXBSUEQyZHJYVjYwdm5xZ1A3OFd0N21ram1lXzFxYXdDZ3ZzN1JCc2lSa3hKMDlRRmhlUjVMd0xHUnVONmJOdm91c2dyaDhpS1RheVMwQUdkc3BXMXNkMTAtclFHUDczRFFlUFlJNTJhc1JMa0VIc3RYd0tUeTlNZE9nZWR0a0VNZUMza2dLVGk5M3RXWHVKSFJKM2c?oc=5",
-    "pub": "Mon, 06 Jul 2026 20:15:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOZkxsUEZwaE00dXJoZjd1alo4U0w4Szg4alh3WUFSUGpZd0otQkR0QnR0N3lsbXZTSHAtUk53Y3VRSGVKMkhmWFFURWlnS29kdjdBRU1hbUJRYnd6QnpkV0Z3cmUtR0NEaklDWklGYWgzR2tFZkhLUnZPa2trU01sR2pjWm44WVp0aXZ3RmRsTVZUdmVjUC1yb0I0VXVWNGRtZkQ2cU05MWhxQlQ4Nnc?oc=5",
+    "pub": "Mon, 06 Jul 2026 20:24:01 GMT",
     "src": "Invezz",
     "trig": true,
     "geo": false
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQVXVvLWx0Z1lEcmlBNThGNVc1clp4UV91eno3a3g1LUlNaklnT3ppUk1VNV9PM1hoUTVHZjZaSENRT0lMMDlKekZrV0ZDbzBoeTNHRnFlZkVOTE5FMkNULTZETElPX25EbmstbDV0N3FFVUZrTTNaclgtcURwTEFnWHdTaXpPRnhneGxWSFBTX1FZdFd4Vkd2aHg1MG5wY19xXy1hZlZ6c1RmWTZyTGJZR1ZySURQeVFkZkpzNU9B?oc=5",
     "pub": "Mon, 06 Jul 2026 19:58:58 GMT",
     "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How to Invest in OpenAI: Steps for Direct and Indirect Options - SmartAsset.com",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9WRWlTSFFZRHBvbVVEUDBNQzVkRGFJM1hMRnJNZURtS3ZiQmlNM3Fkd2VoTnlWNjFTcVB2b0M3aWZoaE8wZTNjNDBRaVNzZlpRM0dUNzVsY2t1RmlvbXQtYmFSZlQxS1k?oc=5",
-    "pub": "Mon, 06 Jul 2026 19:30:00 GMT",
-    "src": "SmartAsset.com",
     "trig": false,
     "geo": false
    }
@@ -1233,10 +1233,26 @@
     "geo": false
    },
    {
+    "title": "Putin Just Lost the Oil Windfall That Should Have Saved His War: Russia's Crude Crashed to Half Its Peak as Ukraine Guts Refineries - National Security Journal",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQdDY4T2NkV2hucGZqRS1iWkY4NnloVjZkNi1EUVhGeVdvbk4zdVhzOTBNTk1UZUlmM3BxUE5CVWM3dzBPOHlseUtFRTE0RkxfWE02YWJBSUhJdVVyN1kyc1BtVTVXNVI2bURaZmZMQ3JjSG1IRWk1aUJPZU1UYk9wZnFvMXZlQUZyT0FaYXF3cl9WVkU3QUNjRE5LTWxFQ1lBV1ZpalVfQUNIWWROODdES1JXTFZMZ05oT0hWVHBfUnFYOW81RUJxdXN5OFdPR0pVSFIwV1d3aC1ZWnVZUTJDaElXREdwbFJuM2VtOEloWWxqc2xxbjdaNzln?oc=5",
+    "pub": "Mon, 06 Jul 2026 18:55:17 GMT",
+    "src": "National Security Journal",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Asset Allocation Outlook 3Q 2026: Staying Pro-Risk in a Broadening AI Cycle - Neuberger Berman",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOTVoZ0ljMy1fc1luYTZNU282S2NFcHIwdUJYOWJGTWpjVko1MDlkSkhsdk1FYlFId1QtQko2bENOQXlUcEM0ZXFVV2VObXh5bWRIY2F5dzhvZXBpc1Z5WFZTTHlLRnlLdHNDUU9JdEI0UTB2ZlNmNkdvVm43SEpHeE9OQTVQQQ?oc=5",
     "pub": "Mon, 06 Jul 2026 17:59:30 GMT",
     "src": "Neuberger Berman",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "What’s Affecting Oil Prices This Week? (July 6, 2026) - Hart Energy",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxONWExcmxmMFpQdTdWejFKc0RHSnBsc0NaVTJDQ1l5VW8zR0liVWdUZXNqLXJWS1BOUURDWjZnNVl1aWhmUEgyYmhQMmk0dFpGRG5UREdYTHR2LW1KZ2MxR25QMnNkOVZtLWExYmx1QmNZTmhrRWdBSXlXak4tQjdaUlRPRGRVSUNpTXJzZGZUTkI5MWNzc0hF?oc=5",
+    "pub": "Mon, 06 Jul 2026 16:54:00 GMT",
+    "src": "Hart Energy",
     "trig": false,
     "geo": false
    },
@@ -1255,28 +1271,12 @@
     "src": "Pluang",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Recession Signals Professionals Actually Watch for OANDA:XAUUSD by YCGH_Capital - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNYUhsOTVmSlppTWhkODNCdFlHLUtzNktXMTh3Zk9rZzlCU3RZVU5pdVU0ZERpYVB6dkEtVTBNeG9jN3VyZHhPWDQyLXJsOUx2bDRneFA4aHlUcEd2MWZJc3J2V1p4cUJadW50RHlBVlFtOC1ib1pCdGtIMVRpSXFxRzBJYWhid1FHQUdYUWw4bnQ3Wnc2N0x2ZHc2RHhhSlJYWnA0?oc=5",
-    "pub": "Mon, 06 Jul 2026 15:54:06 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Holds Above $4,000 Floor as FOMC Minutes Test $4,100 Fair Value - Crux Investor",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaklLSTdxanlCLVk3RDJJR3RkMlhlZS00dXVacE9ob3JqMDM5SUF5REQyNHJWbmJ0LW1zQ2Y4TTZod0VXcVdCdnN6WUZuXzFmUGZMamRjUzVKc0p2OVR1dG90N3duaUJNcWNDeTh0LTQtWG1OaGJYdklnbjlyWmNLMTZoMEZhYzJPdG1iMVhkV0RsX0xPYnhiM0FKQXdqaWxLMUF3?oc=5",
-    "pub": "Mon, 06 Jul 2026 15:43:24 GMT",
-    "src": "Crux Investor",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
     "title": "Gold falls Rs2,400 as global rates retreat - The Express Tribune",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmpyRkVpZ2JMWDBWMGZVZ3pWbThWVXVidjEzb0tOVU9tRXBiVFVvWWVqbnUyZkxSZVRHbmJqUU9Ha0lwN20wakRKanNzeEdyd0VBaUl6UmZGSVVpWXAzUjFxQ01WSGFrQnF1bEVseV9CN0l0S042ck9GazJFZV9Db0Fpd2HSAYwBQVVfeXFMTWl5bXBJV09zSEFjZ3ViNjZUUFpjQUtaSS1WMF94UVpIVm42MmQ0UHEyd2VxVDc4RGxlbWUxcnVHNjkyM1F5Ukd0d0ttMWVPSF9udElIUmZicUlXSGlJZDBSY0J0OFFjb1I4N0RxUEpKR0RGNFNla2RQZ3JHM1NjWHBTUkxXSlAteldtU3k?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNWmpyRkVpZ2JMWDBWMGZVZ3pWbThWVXVidjEzb0tOVU9tRXBiVFVvWWVqbnUyZkxSZVRHbmJqUU9Ha0lwN20wakRKanNzeEdyd0VBaUl6UmZGSVVpWXAzUjFxQ01WSGFrQnF1bEVseV9CN0l0S042ck9GazJFZV9Db0Fpd2E?oc=5",
     "pub": "Mon, 06 Jul 2026 21:11:41 GMT",
     "src": "The Express Tribune",
     "trig": false,
@@ -1291,18 +1291,18 @@
     "geo": false
    },
    {
-    "title": "USD/JPY Price Forecast — Dollar/Yen (¥162) Grinds Near 40-Year Highs as the Carry Trade Fights Japan's Intervention Threat — Goldman Lifts Its Target - TradingNEWS",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQMjBQZUx4dDMxU0VTNDY5dFd1Z2FQMzZwS19nU2NZUjdNd2xCT0dudUNpODJraVp1bVJGTm1wWEhZQW5VTGd4ZE9JWHprSTZ4UzhYZnVnWGkyTUFaR3VHcWtSTklya0xuVmxxZW1jeEItaXRpdGo3UXN6Y3NMLUp3NERwZzJfMXlVLW0zcnUzak1xbzZyaFRObTdiVlc1aVhfa2tGUXhVM3lCVlpnSUE?oc=5",
-    "pub": "Mon, 06 Jul 2026 20:13:44 GMT",
-    "src": "TradingNEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold Price Forecast 2026: Fed Policy Shifts & Investment Strategy - Intellectia AI",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5KYllScWRMS2VlT0lDWGl4eElha2wyRzc3dmNWX3M4aHRVSHhrdy1KdVdjc3o3VGw5S0NRUVZ3dTlTazVzZHoxTUdpWjVIZmFrS3Jna0dxX0ZVcFZqQVRxWnVkWk1OTmdlUlB2NklRY3g?oc=5",
     "pub": "Mon, 06 Jul 2026 19:52:30 GMT",
     "src": "Intellectia AI",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US Dollar Index Trims Gains As Fed Rate Hike Bets Fade - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOeTdQTTJqLXhOdV9iZnFWM3lVSHVNd1pLSTVaNTF6cUR1azNxMVZOWmhlbzlMbEVqbzRyZWxhMkFhQWRzeTMycHIwQ0JvdUhBdXFSWXhaSDRVcUE2YlJFbmI4Q2dtZWtYbHR4bEJhWk5KTVlQalEwLTBfRk0tMDdYd0FQcnVIZw?oc=5",
+    "pub": "Mon, 06 Jul 2026 19:25:11 GMT",
+    "src": "Bitcoin World",
     "trig": false,
     "geo": false
    },
@@ -1327,47 +1327,42 @@
  "edgar": [
   {
    "name": "OBDC (Blue Owl Capital)",
-   "form": "8-K",
-   "date": "2026-07-01",
-   "link": "https://www.sec.gov/Archives/edgar/data/1655888/000119312526291625/d152263d8k.htm",
-   "summary": "Blue Owl Capital Corp가 2026년 2분기 실적을 8월 5일 발표하고 8월 6일 어닝콜을 개최할 예정이다.",
-   "_cached": true,
-   "new": false
-  },
-  {
-   "name": "FSK (FS KKR)",
-   "form": "8-K",
-   "date": "2026-06-29",
-   "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926078916/tm2619102d1_8k.htm",
-   "summary": "FS KKR Capital Corp가 2026년 6월 29일 현재 기준으로 8-K를 제출했습니다.",
-   "_cached": true,
+   "form": "ERR",
+   "date": "HTTP Error 429: Too Many Requests",
+   "link": "",
+   "summary": "",
    "new": false
   },
   {
    "name": "ARCC (Ares Capital)",
-   "form": "8-K",
-   "date": "2026-06-22",
-   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026044648/arcc-20260618.htm",
-   "summary": "에어즈캐피털이 BNP파리바스와의 회전신용시설을 2억 달러 증액하여 총 14억 6500만 달러로 확대했다.",
-   "_cached": true,
+   "form": "ERR",
+   "date": "HTTP Error 429: Too Many Requests",
+   "link": "",
+   "summary": "",
    "new": false
   },
   {
    "name": "BXSL (Blackstone Secured Lending)",
-   "form": "8-K",
-   "date": "2026-06-18",
-   "link": "https://www.sec.gov/Archives/edgar/data/1736035/000121390026070092/ea029494501-8k_blackstone.htm",
-   "summary": "Blackstone Secured Lending Fund의 최고운영책임자(COO) Katherine Rubenstein이 2026년 6월 15일 퇴임했다.",
-   "_cached": true,
+   "form": "ERR",
+   "date": "HTTP Error 429: Too Many Requests",
+   "link": "",
+   "summary": "",
+   "new": false
+  },
+  {
+   "name": "FSK (FS KKR)",
+   "form": "ERR",
+   "date": "HTTP Error 429: Too Many Requests",
+   "link": "",
+   "summary": "",
    "new": false
   },
   {
    "name": "GBDC (Golub Capital)",
-   "form": "8-K",
-   "date": "2026-05-27",
-   "link": "https://www.sec.gov/Archives/edgar/data/1476765/000110465926066978/tm2615691d1_8k.htm",
-   "summary": "골럽캐피탈 BDC가 공모 관련해 U.S. Bank Trust Company와 신탁계약을 체결했습니다.",
-   "_cached": true,
+   "form": "ERR",
+   "date": "HTTP Error 429: Too Many Requests",
+   "link": "",
+   "summary": "",
    "new": false
   }
  ],
@@ -1550,7 +1545,7 @@
    160.17,
    160.23,
    161.57,
-   162.04
+   162.08
   ],
   "uso": [
    138.08,
@@ -1610,7 +1605,7 @@
    63090.59,
    66289.5,
    63952.11,
-   64207.25
+   64147.79
   ],
   "vixts": [
    0.945,
@@ -2362,7 +2357,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-06T21:32:17+00:00",
+  "checked": "2026-07-06T21:42:09+00:00",
   "openai": {
    "found": false
   },

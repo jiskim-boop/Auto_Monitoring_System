@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-07T21:32:27+00:00",
+ "updated": "2026-07-07T21:42:15+00:00",
  "prices": {
   "NVDA": {
    "price": 196.93,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 296000.0,
-   "chg": -4.36,
-   "chg5": -8.36,
-   "sma20": 328800.0,
-   "sma50": 298330.0,
-   "sma200": 228459.92,
+   "chg": -6.92,
+   "chg5": -11.38,
+   "sma20": 327500.0,
+   "sma50": 299900.0,
+   "sma200": 229013.52,
    "high3m": 362500.0,
    "reg": 296000.0,
    "pre": null,
    "post": null,
-   "regClose": 318000.0,
+   "regClose": 296000.0,
    "sess": "reg",
    "mt": 1783405812,
    "ok": true
   },
   "000660.KS": {
    "price": 2201000.0,
-   "chg": -9.24,
-   "chg5": -16.25,
-   "sma20": 2481600.0,
-   "sma50": 2069420.0,
-   "sma200": 1389801.65,
+   "chg": -6.06,
+   "chg5": -16.94,
+   "sma20": 2480900.0,
+   "sma50": 2088980.0,
+   "sma200": 1396450.82,
    "high3m": 2919000.0,
    "reg": 2201000.0,
    "pre": null,
    "post": null,
-   "regClose": 2343000.0,
+   "regClose": 2201000.0,
    "sess": "reg",
    "mt": 1783405803,
    "ok": true
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.12,
    "sess": "reg",
-   "mt": 1783459318,
+   "mt": 1783459900,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63444.46,
-   "chg": -0.86,
-   "chg5": 3.19,
-   "sma20": 61877.32,
-   "sma50": 66214.56,
-   "sma200": 73046.96,
+   "price": 63334.13,
+   "chg": -1.03,
+   "chg5": 3.01,
+   "sma20": 61871.81,
+   "sma50": 66212.36,
+   "sma200": 73046.36,
    "high3m": 82138.93,
-   "reg": 63444.46,
+   "reg": 63334.13,
    "pre": null,
    "post": null,
-   "regClose": 63444.46,
+   "regClose": 63334.13,
    "sess": "reg",
-   "mt": 1783459922,
+   "mt": 1783460508,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.11,
+   "price": 162.12,
    "chg": 0.02,
-   "chg5": -0.32,
-   "sma20": 161.36,
+   "chg5": -0.31,
+   "sma20": 161.37,
    "sma50": 159.76,
    "sma200": 158.34,
    "high3m": 162.63,
-   "reg": 162.11,
+   "reg": 162.12,
    "pre": null,
    "post": null,
-   "regClose": 162.11,
+   "regClose": 162.12,
    "sess": "reg",
-   "mt": 1783459925,
+   "mt": 1783460503,
    "ok": true
   },
   "ES=F": {
@@ -1141,14 +1141,6 @@
     "geo": false
    },
    {
-    "title": "HSBC Retreats From Higher-Risk Private Credit Bets - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxObTA2N2VsVWNTRGhkZ1JibUFDNEhsdXZDVGRodWhSYlctVGtoZjU1Rk1Sc3dQcmdyM0NhTGI3dnA0SkIwejQtT0FwOHlxNWtEOU44ajJlWEpxTHJ2ZFNISExQaGxpQS0xcVdHVUF5OWV4RTgxM0pJVzBPN2tLUzZDMzBnSTVUVDhHUHIwdGVJSFdaM2ZfZXpESjdoSHRtdUVhcVI2R21mT3JwQ1QyWGJvMzVMRGw?oc=5",
-    "pub": "Tue, 07 Jul 2026 18:44:17 GMT",
-    "src": "Benzinga",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nebius Is Quietly Dominating CoreWeave And IREN: Here’s Why (NASDAQ:NBIS) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUXozeTY4T25ESDFZNTlfRDdHQ21DVHU1RHFrSFdDRUY2UTltLUhHLVZUeEotdHM3NFIzNVNTOTJVUVUxVEtBcmROZmxLczFsVkl0ZW5oYU96dmRlbkJ1NEJyWFVKT2F5TVRLbEtJbXRHNjVjdE40czExcUdQdlEydXNyS0tMZ05aSElKdnl1SXdfRDVFeVpPZS1uZF9JcHM?oc=5",
     "pub": "Tue, 07 Jul 2026 17:16:15 GMT",
@@ -1165,10 +1157,18 @@
     "geo": false
    },
    {
-    "title": "$360M Samsung Floating Data Center, 50MW Offshore AI Infrastructure Set for 2028 Launch - Construction Review",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNc2RSMVFDUWtjelg3cGRCWTNxMjc2LXRObkc2TEc4aXVQN05wZ3pLS3BXS0V1UllWTXhUVUhhRFIxSFZMZFpEZ1hHNjdtMEJmWDJTZmxqUWhIWTNRQUdsTXhrNFZnQ25RbGhiS2szc3ZSRjF2SE1NZmpaSEhORk9mdDJRM01TV0Vrb2J2QWtBUFhxVW9KSmw5WlFpRzdyUFRRYWIxVmtCampNa2JoMHpTeHQ1MTNXbTJtYkpSWm1KaUs?oc=5",
-    "pub": "Tue, 07 Jul 2026 17:07:49 GMT",
-    "src": "Construction Review",
+    "title": "Nebius, Coreweave, and IREN Tumble on Meta’s Cloud Ambitions. Is This the End of the Neocloud Boom? - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONmlUd1NVVm5obnBya0s4TTdEa2M5RjFyOWVPclZnTE5LRjhiaEFRLVh3cnRmU2FRWnhOSlc0N2NQUEpQSmxRRkZ3alZMYmVFc1JvUkFyQU1kcThLUEpPdEFrcnlhTHJXZ2VKaVNVTEM2T1RXdXg1T3N0akUxMmVZbTRXWQ?oc=5",
+    "pub": "Tue, 07 Jul 2026 16:53:58 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Meta Platforms and CoreWeave Post Sharply Divergent Q1 2026 Financial Profiles - sekbernews.id",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14QWRkeFRSZkZqdlUydzNzS3hLeHVtRk5nMUpHR1ZScjJIQ3Z1NmxZTkxjQnZtMmZ3Yk5kQVJNZWZ1RkFYWkNHc3hqY3ZnSjBLZkdNOUY3ajZ3VkNGQ2M2OS1WZFV2clR4eUkyTzZtRnE3WEJpcFE?oc=5",
+    "pub": "Tue, 07 Jul 2026 16:47:14 GMT",
+    "src": "sekbernews.id",
     "trig": false,
     "geo": false
    }
@@ -1241,18 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Commodities Chief: Gold Headed “Above $4,500,” Don’t Let the Selloff Fool You - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOd2pGUVBPM3dhaDZNTzgwN0Nib1VsdVdJRWh5djR3T2w2VjVSTHNWak5kbVVQeU05QUI5RW15ZUNwSlVMZlhlY0FjRjhadDhVNnpQN2JYYXhuNWpzcmZIb1lwd3pwVnVJNkJmVVVGdl9WRzRRbGkyaEVEYWU1bDF2VVFRSUxQdw?oc=5",
-    "pub": "Tue, 07 Jul 2026 19:23:45 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "What to expect from July's Bank of Canada interest rate update - Daily Hive",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kVXl4MXRLSWRBa1doOG9GRTA0dTJURC0tR3VrZDd0RXllQXY5eEFBSTMzLW82Q0xTRVRBVTNEQUNJVlllOXpVQ0JhaUxNRm5yQ0ttRk54VTFPM01LZTBTZGxkellYMVJqNmh2Zzh3?oc=5",
-    "pub": "Tue, 07 Jul 2026 19:07:00 GMT",
-    "src": "Daily Hive",
+    "title": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5",
+    "pub": "Tue, 07 Jul 2026 21:09:02 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1271,6 +1263,14 @@
     "src": "BNN Bloomberg",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Macro Correction Cycle Signals Further Market Volatility - Bitget",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFB5TjJMUDEzbGNJanQ0XzBLbEhZblJFUGxFS1A4SGJ1d01Od0tKaDdWbGtCazhkZW5FZ1puQlFrVG5jT2JKUDhUQ3Yxd0w5SGlBY29ZQllQX3JkQ1g0N0pvRy13NNIBY0FVX3lxTFB5TjJMUDEzbGNJanQ0XzBLbEhZblJFUGxFS1A4SGJ1d01Od0tKaDdWbGtCazhkZW5FZ1puQlFrVG5jT2JKUDhUQ3Yxd0w5SGlBY29ZQllQX3JkQ1g0N0pvRy13NA?oc=5",
+    "pub": "Tue, 07 Jul 2026 16:40:55 GMT",
+    "src": "Bitget",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1279,6 +1279,14 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5SVkEzR2h0WFZfNnpEMDFfdGFfRGdDcFFsM254aTRYYl9RVjZUbkhtR2tkTW96R2NLT0F6aWF6V2hraVpydFIxRll0TDF1V3dvSXFkalJYbkprbHBJRXd4T0hZWWlsRjVhZU1VbFhvbkxQblJRa2dCbkFNd9IBgwFBVV95cUxNWk15d3VmcF9hUHFpTl9xMk9pUFl5cXpQNE5VX1hRYWJMSG4zMmgzd1d3aHBnNTRIOUI1dXExRWNSVFRIb1pMUVlicEVzX0dmTXBmWUZSbkdVRWJURkJJdDhreTFnS1g4MnVJWi1XQ0NWUm5QWElKdkxpODRDRXQ5X3FsWQ?oc=5",
     "pub": "Tue, 07 Jul 2026 21:09:55 GMT",
     "src": "The Express Tribune",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Saudi Arabia slices crude oil prices, but is it enough? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOekFPUU1Sd0FkaW9fa2UyYi1yT3hVSERZczVuVWVCcEpRQWowc0d3ZXp5LW5FbW1uLWhDYjRtMk0xcU0tdGo3OXV3NXB6WlZILXVPdFBUTVd0TXhEWU9Nd2ZOWHRpS3QyckhzMGlVeWN2amFySVhXR2N3eUFkSW0tNjUwWC1jQjJCbGJ5aU1ZcG1zb1BTSFhyQ2NoNXNkZldGNFd3SlNKdEhkOG9JSUhVd0tiVGpEQ05GelE?oc=5",
+    "pub": "Tue, 07 Jul 2026 21:09:02 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNd19BbmVBdnZDZUprVm1XLVFENU9EeTJTVDJGVW9hZ2N1d1pqWjJBaHp2YTVVRVFCbTFZUGp3MGpOblhPZ3BTcnRtWUlqbGhpaGpnMC1HUTJNaUtuZVlxTmF0anFtZVZjT0RnX1lfUTJZOFpFbWhNUklScGRsc281UTJBMkdrNV9XZnVEZmU5WUNBV1NOS29tWGlEdFc3czJRZXdQV2FWSG9pYktxR2Rpd1l4aExlcjjSAbwBQVVfeXFMUEhMc19XVGJKTXpWZmxISTJHZWltU21oMXRNQWxMTEhCWFhOVThDMXFZd3FxblNGVkJtZzdWTmJWYTVLUEN1LXR3NXMwX3FpVF9IcVBTQzZVU18yZ2Nfako3MWJlcWRpT01hSmxJVm91MlhyZk1xZDRXYXdjSlNzNHNPWjRKeDVOeEVEZ0RiREx0c0VwakF1V2tIcFBQQmtxVFhkcWh5NEdmV2VYTjc5SHI2MTJMY3dfRGhwSFo?oc=5",
     "pub": "Tue, 07 Jul 2026 20:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil prices jump as Iran attacks vessels in Hormuz strait, US revokes license allowing Iran to sell oil - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxQaDcxOFo2a1phUUljVUtDQWZFZ3U0Ujh4S2lKTzRaX0VkcW1KNm9jVWtqbDAxOUZwaDJIRzBlV3hkdXM3bElBQlBZT0IzUFRIZGJLdWgtd1dLV29VR2tBVGVBTjhVR1UxVVM2SU1hY21Pay1MXzB0QTB0OHR0UlUwTVc3ZmcwQXpsUHRYUkNhM3dhMVJQRGxIck9STW1QWlJNN01EdVFnT1BZbzV0QXhPcEp1TnN4VlBGVC1OOEhyQk91UkZ5c3JDVDRkVVhwMGVLcFZMSmZoOE81QTZvVHZnSW44RVhaRGtyR3EwQTFncw?oc=5",
-    "pub": "Tue, 07 Jul 2026 19:53:38 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    160.38,
    160.42,
    161.6,
-   162.12
+   162.13
   ],
   "uso": [
    124.58,
@@ -1610,7 +1610,7 @@
    61643.78,
    65600.64,
    62668.02,
-   63454.29
+   63348.31
   ],
   "vixts": [
    0.928,
@@ -2369,7 +2369,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-07T21:32:20+00:00",
+  "checked": "2026-07-07T21:42:05+00:00",
   "openai": {
    "found": false
   },

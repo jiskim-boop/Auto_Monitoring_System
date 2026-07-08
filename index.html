@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.3</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.4</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -105,7 +105,7 @@
   </div>
 
   <!-- 주요 일정 (맨 위 · 임박만 노출, 전체는 접기) -->
-  <div id="events-strip" style="display:none;margin-bottom:8px;padding:8px 14px;background:#0c1119;border-radius:9px;border-left:3px solid #7a6fd6;font-size:11px;color:#9aa3b3;line-height:1.6">
+  <div id="events-strip" style="display:none;margin-bottom:7px;padding:6px 12px;background:#0c1119;border-radius:9px;border-left:3px solid #7a6fd6;font-size:10px;color:#9aa3b3;line-height:1.6">
     <div id="events-head" style="display:flex;align-items:center;gap:6px;cursor:pointer;user-select:none">
       <span style="font-size:10px;color:#9b8fe6;font-family:'Space Mono',monospace;letter-spacing:1px;flex-shrink:0">📅 일정</span>
       <span id="events-near" style="flex:1"></span>
@@ -1273,7 +1273,12 @@ function renderGpu(d){
   return st;
 }
 function renderEvents(d){
-  const ev=(d.events||[]).slice().sort((a,b)=>(a.dday)-(b.dday));
+  // 스펙: 기본 7일 이내 · 펼침 한 달(31일) · 24h 이내 D-DAY — dday는 클라에서 재계산(서버 스냅샷 노화 방지)
+  const _t0=new Date(); _t0.setHours(0,0,0,0);
+  const rd=e=>{const ref=e.at?Date.parse(e.at):Date.parse(e.date+'T09:00:00');
+    return Math.max(0,Math.floor((ref-_t0)/864e5));};   // 발표시각(로컬) 기준 일수 — 오늘=0
+  const ev=(d.events||[]).map(e=>({...e, dday:(()=>{const v=rd(e); return isNaN(v)?e.dday:v;})()}))
+    .filter(e=>e.dday!=null && e.dday<=31).sort((a,b)=>a.dday-b.dday);
   const strip=$('events-strip'); if(!strip) return;
   if(!ev.length){strip.style.display='none';return;}
   strip.style.display='block';
@@ -1284,14 +1289,14 @@ function renderEvents(d){
       : e.dday<=3?`<b style="color:#ffb454">D-${e.dday}</b>`
       : `<span style="color:#7b8499">D-${e.dday}</span>`;
   };
-  const near=ev.filter(e=>e.dday<=7), rest=ev.filter(e=>e.dday>7);
+  const near=ev.filter(e=>e.dday<=7), rest=ev.filter(e=>e.dday>7);   // rest는 이미 31일 캡
   const nearEl=$('events-near'), moreEl=$('events-more'), restEl=$('events-rest');
   if(nearEl) nearEl.innerHTML = near.length
     ? near.map(e=>`<span style="margin-right:12px">${dd(e)} ${e.name}</span>`).join('')
     : '<span style="color:#5f6878">이번 주 예정 없음</span>';
   if(rest.length){
     if(restEl) restEl.innerHTML = rest.map(e=>`<div>${dd(e)} <span style="color:#9aa3b3">${e.name}</span> <span style="color:#5f6878"> · ${e.date}</span></div>`).join('');
-    if(moreEl) moreEl.textContent = `전체 ${ev.length}건 ▸`;
+    if(moreEl) moreEl.textContent = `한 달 내 +${rest.length}건 ▸`;
   } else {
     if(restEl) restEl.innerHTML='';
     if(moreEl) moreEl.textContent='';
@@ -1516,6 +1521,7 @@ async function load(){
     const sCredit=creditPanel(p);
     const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
     renderKLR(d);   // KLR 원장(자동 집행) 표시
+    renderEvents(d);  // 상단 이벤트 스트립 — 정의만 있고 호출 누락이었음(이번에 배선)
     renderEWInputs(d);  // R3 출석부 — 입력 결측 가시화
     // 드리프트 감지: 화면(JS)과 서버(Python) 조기경보가 어긋나면 즉시 경고 — 이중구현 드리프트 재발 방지
     if(d.early && (Number(d.early.score)!==Number(ew.score) || d.early.st!==ew.st)){

@@ -5,7 +5,7 @@ AI 사이클 모니터 — 데이터 수집기 (v3)
 표준 라이브러리만. Python 3.9+
 """
 import json, os, urllib.request, urllib.parse, re, time, html, gzip
-from datetime import datetime, timezone
+from datetime import datetime, timezone, timedelta
 
 UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
@@ -1019,6 +1019,34 @@ def check_ipo_watch():
             out[key]=None
     return out
 
+EARN_WATCH=["MSFT","META","GOOGL","AMZN","NVDA","AVGO","TSM","MU","ORCL","005930.KS","000660.KS"]
+def fetch_earnings_events():
+    """워치리스트 실적일 확정치 — v7 quote 배치 1콜(earningsTimestamp). 실패 시 [] (정적 예상치로 폴백)."""
+    try:
+        qj=json.loads(get("https://query1.finance.yahoo.com/v7/finance/quote?symbols="+",".join(EARN_WATCH)))
+        out=[]; now=datetime.now(timezone.utc)
+        for r in (qj.get("quoteResponse",{}).get("result") or []):
+            ts=r.get("earningsTimestamp") or r.get("earningsTimestampStart")
+            if not ts: continue
+            at=datetime.fromtimestamp(ts,tz=timezone.utc)
+            if -12*3600 <= (at-now).total_seconds() <= 45*86400:
+                out.append({"date":at.astimezone(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
+                            "name":(r.get("symbol") or "").replace(".KS","")+" 실적","at":at.isoformat(),
+                            "dday":max(0,(at.date()-now.date()).days)})
+        return out
+    except Exception as e:
+        print("[events] 실적일 배치 실패:",repr(e)); return []
+
+def merge_events(base, earn):
+    """확정 실적이 있으면 '(예상)' 실적 플레이스홀더 제거 · (date,name) 중복 제거 · at 정렬 · 14건 캡"""
+    if earn: base=[e for e in base if not ("실적" in e["name"] and "예상" in e["name"])]
+    seen=set(); out=[]
+    for e in sorted(base+earn, key=lambda x:x.get("at") or x["date"]):
+        k=(e["date"],e["name"])
+        if k in seen: continue
+        seen.add(k); out.append(e)
+    return out[:14]
+
 def upcoming_events():
     """주요 거시 이벤트 — 발표 '시각'(미 동부)까지 반영해 24시간 이내면 D-DAY로 계산."""
     from zoneinfo import ZoneInfo
@@ -1042,20 +1070,34 @@ def upcoming_events():
         # 실적 — 회사 공시 전(통상 2~3주 전 확정)이라 예상치
         ("2026-07-23","하이퍼스케일러 실적 시작(예상)","16:00"),
         ("2026-08-27","NVDA 실적(예상)","16:00"),
+        # 한은 금통위 — 통방일 10:00 KST (2026-07-06 검색 검증: 7/16 기대 지배적)
+        ("2026-07-16","한은 금통위(기준금리)","10:00","KST"),
     ]
+    # 미 고용보고서 — 관례(익월 첫 금요일 08:30 ET). 휴일 예외 가능해 '(관례)' 라벨
+    import calendar as _cal
+    _today=datetime.now(timezone.utc).date()   # (EVENTS 정의 시점 — 함수 하단 today보다 먼저 필요)
+    _d=_today.replace(day=1)
+    for _ in range(2):
+        _m=_d.month%12+1; _y=_d.year+(1 if _d.month==12 else 0)
+        _first_fri=next(dd for dd in range(1,8) if _cal.weekday(_y,_m,dd)==4)
+        _ds=f"{_y}-{_m:02d}-{_first_fri:02d}"
+        if _ds>_today.isoformat(): EVENTS.append((_ds,"미 고용보고서(관례)","08:30"))
+        _d=_d.replace(year=_y,month=_m)
     now=datetime.now(timezone.utc); today=now.date()
     out=[]
-    for d,name,t in EVENTS:
+    for row in EVENTS:
+        d,name,t=row[0],row[1],row[2]; _tz=row[3] if len(row)>3 else "ET"
         try:
             ed=datetime.strptime(d,"%Y-%m-%d").date()
             hh,mm=map(int,t.split(":"))
-            rel=datetime(ed.year,ed.month,ed.day,hh,mm,tzinfo=ET).astimezone(timezone.utc)
+            _zone=timezone(timedelta(hours=9)) if _tz=="KST" else ET
+            rel=datetime(ed.year,ed.month,ed.day,hh,mm,tzinfo=_zone).astimezone(timezone.utc)
             if (now-rel).total_seconds() > 12*3600:  # 발표 12시간 경과 → 제외
                 continue
             out.append({"date":d,"name":name,"at":rel.isoformat(),"dday":max(0,(ed-today).days)})
         except Exception: pass
     out.sort(key=lambda x:x.get("at") or x["date"])
-    return out[:6]
+    return out[:14]
 
 
 TG_TOKEN=os.environ.get("TELEGRAM_TOKEN","")
@@ -1251,7 +1293,7 @@ def main():
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":upcoming_events(),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
+          "early":ew,"history":history,"events":merge_events(upcoming_events(), fetch_earnings_events()),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
     _gate=schema_gate(prev_exists,prev,ew,history,klr)   # R3 현관 검문
     if _gate:
         print("⛔ 스키마 게이트 차단:",_gate)

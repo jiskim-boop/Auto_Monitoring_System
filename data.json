@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T20:02:53+00:00",
+ "updated": "2026-07-10T20:12:19+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -274,20 +274,8 @@
    "ok": true
   },
   "COHR": {
-   "price": 324.49,
-   "chg": -0.84,
-   "chg5": -2.66,
-   "sma20": 370.35,
-   "sma50": 368.4,
-   "sma200": 299.21,
-   "high3m": 426.89,
-   "reg": 324.49,
-   "pre": null,
-   "post": null,
-   "regClose": 324.49,
-   "sess": "reg",
-   "mt": 1783713599,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "VST": {
    "price": 158.79,
@@ -722,51 +710,51 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.06,
-   "chg": -4.92,
-   "chg5": -6.75,
+   "price": 15.01,
+   "chg": -5.24,
+   "chg5": -7.06,
    "sma20": 17.18,
-   "sma50": 17.37,
+   "sma50": 17.36,
    "sma200": 19.42,
    "high3m": 22.22,
-   "reg": 15.06,
+   "reg": 15.01,
    "pre": null,
    "post": null,
-   "regClose": 15.06,
+   "regClose": 15.01,
    "sess": "reg",
-   "mt": 1783712821,
+   "mt": 1783713391,
    "ok": true
   },
   "^VIX3M": {
-   "price": 18.59,
-   "chg": -2.36,
-   "chg5": -7.65,
+   "price": 18.58,
+   "chg": -2.42,
+   "chg5": -7.7,
    "sma20": 20.24,
    "sma50": 20.35,
    "sma200": 21.59,
    "high3m": 25.57,
-   "reg": 18.59,
+   "reg": 18.58,
    "pre": null,
    "post": null,
-   "regClose": 18.59,
+   "regClose": 18.58,
    "sess": "reg",
-   "mt": 1783712821,
+   "mt": 1783713391,
    "ok": true
   },
   "^VVIX": {
-   "price": 86.72,
-   "chg": -2.32,
-   "chg5": -2.34,
-   "sma20": 90.75,
-   "sma50": 92.6,
-   "sma200": 102.73,
+   "price": 87.73,
+   "chg": -1.18,
+   "chg5": -1.2,
+   "sma20": 90.8,
+   "sma50": 92.62,
+   "sma200": 102.74,
    "high3m": 108.16,
-   "reg": 86.72,
+   "reg": 87.73,
    "pre": null,
    "post": null,
-   "regClose": 86.72,
+   "regClose": 87.73,
    "sess": "reg",
-   "mt": 1783712821,
+   "mt": 1783713391,
    "ok": true
   },
   "^SKEW": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.98,
-   "chg": 0.04,
-   "chg5": 0.12,
+   "price": 100.95,
+   "chg": 0.01,
+   "chg5": 0.09,
    "sma20": 100.8,
    "sma50": 99.69,
    "sma200": 98.98,
    "high3m": 101.61,
-   "reg": 100.98,
+   "reg": 100.95,
    "pre": null,
    "post": null,
-   "regClose": 100.98,
+   "regClose": 100.96,
    "sess": "reg",
-   "mt": 1783713131,
+   "mt": 1783713704,
    "ok": true
   },
   "^IRX": {
@@ -930,35 +918,23 @@
    "ok": true
   },
   "GLD": {
-   "price": 376.91,
-   "chg": -0.34,
-   "chg5": -0.32,
-   "sma20": 379.43,
-   "sma50": 401.13,
-   "sma200": 428.92,
-   "high3m": 445.93,
-   "reg": 376.91,
-   "pre": null,
-   "post": null,
-   "regClose": 376.91,
-   "sess": "reg",
-   "mt": 1783713600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "BTC-USD": {
-   "price": 63838.39,
-   "chg": 1.02,
-   "chg5": 0.46,
-   "sma20": 61800.58,
-   "sma50": 65362.45,
-   "sma200": 72587.04,
+   "price": 63790.0,
+   "chg": 0.94,
+   "chg5": 0.38,
+   "sma20": 61798.16,
+   "sma50": 65361.48,
+   "sma200": 72586.77,
    "high3m": 82138.93,
-   "reg": 63838.39,
+   "reg": 63790.0,
    "pre": null,
    "post": null,
-   "regClose": 63838.39,
+   "regClose": 63790.0,
    "sess": "reg",
-   "mt": 1783713736,
+   "mt": 1783714307,
    "ok": true
   },
   "USO": {
@@ -978,119 +954,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.71,
-   "chg": -0.4,
-   "chg5": 0.16,
+   "price": 161.73,
+   "chg": -0.39,
+   "chg5": 0.17,
    "sma20": 161.68,
    "sma50": 160.02,
    "sma200": 158.47,
    "high3m": 162.63,
-   "reg": 161.71,
+   "reg": 161.73,
    "pre": null,
    "post": null,
-   "regClose": 161.71,
+   "regClose": 161.73,
    "sess": "reg",
-   "mt": 1783713742,
+   "mt": 1783714312,
    "ok": true
   },
   "ES=F": {
-   "price": 7625.5,
-   "chg": 0.48,
-   "chg5": 1.29,
-   "sma20": 7504.08,
-   "sma50": 7461.91,
-   "sma200": 7107.0,
-   "high3m": 7625.5,
-   "reg": 7625.5,
+   "price": 7623.25,
+   "chg": 0.45,
+   "chg5": 1.26,
+   "sma20": 7503.97,
+   "sma50": 7461.86,
+   "sma200": 7106.98,
+   "high3m": 7623.75,
+   "reg": 7623.25,
    "pre": null,
    "post": null,
-   "regClose": 7625.5,
+   "regClose": 7623.25,
    "sess": "24h",
-   "mt": 1783713141,
+   "mt": 1783713712,
    "ok": true
   },
   "NQ=F": {
-   "price": 30055.0,
+   "price": 30053.0,
    "chg": 0.39,
-   "chg5": 1.69,
-   "sma20": 29878.9,
-   "sma50": 29515.48,
-   "sma200": 26972.13,
+   "chg5": 1.68,
+   "sma20": 29878.8,
+   "sma50": 29515.44,
+   "sma200": 26972.12,
    "high3m": 30712.75,
-   "reg": 30055.0,
+   "reg": 30053.0,
    "pre": null,
    "post": null,
-   "regClose": 30055.0,
+   "regClose": 30053.0,
    "sess": "24h",
-   "mt": 1783713143,
+   "mt": 1783713715,
    "ok": true
   },
   "YM=F": {
-   "price": 52971.0,
-   "chg": 0.4,
-   "chg5": -0.4,
-   "sma20": 52320.75,
-   "sma50": 51064.14,
-   "sma200": 49530.99,
+   "price": 52943.0,
+   "chg": 0.34,
+   "chg5": -0.45,
+   "sma20": 52319.35,
+   "sma50": 51063.58,
+   "sma200": 49530.77,
    "high3m": 53372.0,
-   "reg": 52971.0,
+   "reg": 52943.0,
    "pre": null,
    "post": null,
-   "regClose": 52971.0,
+   "regClose": 52943.0,
    "sess": "24h",
-   "mt": 1783713140,
+   "mt": 1783713715,
    "ok": true
   },
   "GC=F": {
-   "price": 4113.8,
-   "chg": -0.41,
-   "chg5": 0.03,
-   "sma20": 4140.02,
-   "sma50": 4373.44,
-   "sma200": 4667.03,
+   "price": 4121.4,
+   "chg": -0.22,
+   "chg5": 0.21,
+   "sma20": 4140.4,
+   "sma50": 4373.59,
+   "sma200": 4667.09,
    "high3m": 4857.6,
-   "reg": 4113.8,
+   "reg": 4121.4,
    "pre": null,
    "post": null,
-   "regClose": 4113.8,
+   "regClose": 4121.4,
    "sess": "24h",
-   "mt": 1783713142,
+   "mt": 1783713715,
    "ok": true
   },
   "CL=F": {
-   "price": 71.61,
-   "chg": -0.65,
-   "chg5": 4.25,
+   "price": 71.51,
+   "chg": -0.79,
+   "chg5": 4.11,
    "sma20": 73.8,
-   "sma50": 87.87,
+   "sma50": 87.86,
    "sma200": 83.29,
    "high3m": 108.66,
-   "reg": 71.61,
+   "reg": 71.51,
    "pre": null,
    "post": null,
-   "regClose": 71.61,
+   "regClose": 71.51,
    "sess": "24h",
-   "mt": 1783713126,
+   "mt": 1783713712,
    "ok": true
   },
   "HG=F": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 6.28,
+   "chg": 1.1,
+   "chg5": 2.76,
+   "sma20": 6.23,
+   "sma50": 6.26,
+   "sma200": 6.0,
+   "high3m": 6.65,
+   "reg": 6.28,
+   "pre": null,
+   "post": null,
+   "regClose": 6.28,
+   "sess": "24h",
+   "mt": 1783713700,
+   "ok": true
   },
   "ZN=F": {
-   "price": 109.06,
-   "chg": -0.19,
-   "chg5": -0.47,
+   "price": 109.08,
+   "chg": -0.17,
+   "chg5": -0.46,
    "sma20": 109.7,
    "sma50": 109.81,
    "sma200": 111.03,
    "high3m": 111.72,
-   "reg": 109.06,
+   "reg": 109.08,
    "pre": null,
    "post": null,
-   "regClose": 109.06,
+   "regClose": 109.08,
    "sess": "24h",
-   "mt": 1783713145,
+   "mt": 1783713713,
    "ok": true
   },
   "EWY": {
@@ -1163,6 +1151,14 @@
   ],
   "fundamental": [
    {
+    "title": "SK Hynix CEO sees worst-ever memory supply shortage in 2027, says demand to outstrip supply beyond 2030 - SRN News",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQNHFRMGxKYnVqNHhBMEt2empfb29JU2d3d0JBZWRGWFhMWm5ySEZoYkd1T2o5QlFhNGp5eWVjdS03YmtZZDhrZXdKdGtvZlY0X3FodWEydjlUSmpmRTZfUVhQcXpCcmRULTJMTi1abHgyQWJkQTJiN3hmeklJU0s4NXVOQTRNZFY4R2tabjhqd3pfZkFuOENTQmx0QjNMdzhKdk5oUmZEQ1I4Y0JiVjY1NVdTT2x0V3F0ZTBBa1hxcm4?oc=5",
+    "pub": "Fri, 10 Jul 2026 19:36:43 GMT",
+    "src": "SRN News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SK Hynix Says AI Memory Shortages Could Peak In 2027 - Finimize",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNS3RQZnp1YmxNRDRxYm04V1RRaUIwYU01dGNOVTJvZlV3bVBPWUtGeVptcGdpQi1KdzNzR3dfNW1XSzBEeFRnTjhpcUV0RTM5SkZ3ZFB3SWp5UXFMQjZjQy1HSzk2eDdKa0JYVE0tN0lqdUp0UHA3eXVRMnJDbjlUWUUtWURGY2E2?oc=5",
     "pub": "Fri, 10 Jul 2026 19:29:18 GMT",
@@ -1201,17 +1197,17 @@
     "src": "TipRanks",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SK Hynix CEO Warns of Severe Memory Supply Shortage by 2027 - Global Banking & Finance Review",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPMXRPWUdTOVJBVTcwZ19ob2poMktjM0JzRkFmSTQtdGVsSkllcFQ5VV9Wa0JPWGg0aGI2VFRTUHhUYm1OS25QU1hMVWZ2Q2ZXd1NIVlpScDg0aW9aSzA4UlR5akhlcUZTNUNCN19CeGdCaEh2NnUtT0tyMG5QUndoSDJ6N0d5VU1pc2FKM2VWU1dtcTZsclhDcjNyR3BHQQ?oc=5",
-    "pub": "Fri, 10 Jul 2026 18:33:45 GMT",
-    "src": "Global Banking & Finance Review",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision? - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazQyMy1lQ2VGd0hyYWlXeFZGc2ZtRVVvUEJ2UEVEZV9lZUpSX3NoS2s5ZkN5T00tci1ldWZxQVNTanhMVVVLWkRBMDNrSExIN2ZhUWZfT1ljLTNlNGdKX24xQUpoYUhXR0xNc0NVbjY4elU1SXVHQVNGZWJnWEJUUmZqR1R1b2NlLXlKS2prRlQ0cEZvZ1NYb1V4VXRnR3EtcV9Zc2w2b1B4dzltRDN0Rkdyd0FpcWlSZ2pLMmttQjRtTUZKOXpR?oc=5",
+    "pub": "Fri, 10 Jul 2026 19:30:00 GMT",
+    "src": "MarketWatch",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Analyst Reveals How $200 Billion in Leveraged ETFs Could Amplify the Next Market Selloff - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNS0hWZ183MkJfNkprREdfd0xTbFdOdG8wckU3andoVl9vZkNJeWNLODhPd2dyMW1QcEZUY2FheU1xYm92SEx0a3k3ZlhoYzZTNXNfc04tSDJOY1d5dUNUWjl1c0pFNTc5SUNOMnlMRnpvaDAwLUdWRG93QUZ3TnBPbDlQTDdQOEJNYnZoaXlkSmxpM3pmd2hOTmxvaXQxb3ZYQmF5Nk5idTN5b2FGMW94NTBEdC1zcUl0aXBoVGNjWUwzb2lxSmNWTW9OZw?oc=5",
@@ -1249,14 +1245,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcHFKSzQ2U1VWdXo3d1g0ZGhEbnJlcERwWHc5eGRXYld5Z1VoS2NDYUhhR1A2dHJQakp4S0hvRnpCSGE5SVpNU1M4cnpIb0tNRkIxaGt0TGlXbWFhNW1GQkxkOWp1YXp0MDhPWGdDdXNXV1NHUDR0VzhZTUt5a0Jtc3QtdG5nckliMU9mVFJJYmh2MzJZ?oc=5",
     "pub": "Fri, 10 Jul 2026 16:31:50 GMT",
     "src": "Daily Tribune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gilead Sciences Inc Stock (GILD) Moved Down by 3.26% on Jul 10: Facts Behind the Movement - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPUzNJbC1YQ3NwYVJPRW90Z3hpdlkyR0ttVUdfa0Y1RHpDckpCQ2ZJRDB6THo3eERhRDM5NUQ1b1dsc0FDdkNGWlM2MWZDNkJudm0tU3ZzNzlVVGRQRkNPUDZiR3hIQnRuTVV5WUpSZU1PNmFGTFdCZkRVMWg4dHR2RXhTYnowbENoTzlR?oc=5",
-    "pub": "Fri, 10 Jul 2026 16:15:12 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1451,7 @@
    19.44,
    16.4,
    18.41,
-   15.07
+   15.01
   ],
   "tnx": [
    4.32,
@@ -1493,7 +1481,7 @@
    99.86,
    100.85,
    101.36,
-   100.97
+   100.96
   ],
   "bizd": [
    12.51,
@@ -1538,7 +1526,7 @@
    159.96,
    161.43,
    161.79,
-   161.72
+   161.73
   ],
   "uso": [
    128.47,
@@ -1598,7 +1586,7 @@
    63543.2,
    63540.84,
    60016.43,
-   63838.32
+   63787.88
   ],
   "vixts": [
    0.901,
@@ -1613,7 +1601,7 @@
    0.912,
    0.847,
    0.874,
-   0.811
+   0.808
   ],
   "hyoas": [
    2.71,
@@ -1746,8 +1734,10 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "GLD"
+   ]
   }
  },
  "history": [
@@ -2403,18 +2393,19 @@
   16
  ],
  "feed": {
-  "fail": 1,
+  "fail": 2,
   "failed": [
-   "HG=F"
+   "COHR",
+   "GLD"
   ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 51,
-  "n": 35
+  "pct50": 53,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-10T20:02:37+00:00",
+  "checked": "2026-07-10T20:12:07+00:00",
   "openai": {
    "found": false
   },

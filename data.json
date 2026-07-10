@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T21:02:47+00:00",
+ "updated": "2026-07-10T21:12:45+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.98,
-   "chg": 0.04,
-   "chg5": 0.12,
+   "price": 100.97,
+   "chg": 0.02,
+   "chg5": 0.1,
    "sma20": 100.8,
    "sma50": 99.69,
    "sma200": 98.98,
    "high3m": 101.61,
-   "reg": 100.98,
+   "reg": 100.97,
    "pre": null,
    "post": null,
-   "regClose": 100.98,
+   "regClose": 100.96,
    "sess": "reg",
-   "mt": 1783716728,
+   "mt": 1783717199,
    "ok": true
   },
   "^IRX": {
@@ -850,20 +850,8 @@
    "ok": true
   },
   "SPY": {
-   "price": 754.95,
-   "chg": 0.43,
-   "chg5": 1.37,
-   "sma20": 743.81,
-   "sma50": 741.24,
-   "sma200": 705.89,
-   "high3m": 759.57,
-   "reg": 754.95,
-   "pre": null,
-   "post": null,
-   "regClose": 754.95,
-   "sess": "reg",
-   "mt": 1783713600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "QQQ": {
    "price": 725.51,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63692.96,
-   "chg": 0.79,
-   "chg5": 0.23,
-   "sma20": 61793.31,
-   "sma50": 65359.54,
-   "sma200": 72586.24,
+   "price": 63892.01,
+   "chg": 1.11,
+   "chg5": 0.54,
+   "sma20": 61803.26,
+   "sma50": 65363.52,
+   "sma200": 72587.33,
    "high3m": 82138.93,
-   "reg": 63692.96,
+   "reg": 63892.01,
    "pre": null,
    "post": null,
-   "regClose": 63692.96,
+   "regClose": 63892.01,
    "sess": "reg",
-   "mt": 1783715148,
+   "mt": 1783717920,
    "ok": true
   },
   "USO": {
@@ -994,89 +982,89 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7627.0,
-   "chg": 0.5,
-   "chg5": 1.31,
-   "sma20": 7504.16,
-   "sma50": 7461.94,
+   "price": 7626.0,
+   "chg": 0.49,
+   "chg5": 1.3,
+   "sma20": 7504.11,
+   "sma50": 7461.92,
    "sma200": 7107.01,
-   "high3m": 7627.0,
-   "reg": 7627.0,
+   "high3m": 7626.0,
+   "reg": 7626.0,
    "pre": null,
    "post": null,
-   "regClose": 7627.0,
+   "regClose": 7626.0,
    "sess": "24h",
-   "mt": 1783716735,
+   "mt": 1783717199,
    "ok": true
   },
   "NQ=F": {
-   "price": 30060.75,
-   "chg": 0.41,
-   "chg5": 1.71,
-   "sma20": 29879.19,
-   "sma50": 29515.59,
-   "sma200": 26972.18,
+   "price": 30068.5,
+   "chg": 0.44,
+   "chg5": 1.73,
+   "sma20": 29879.58,
+   "sma50": 29515.75,
+   "sma200": 26972.24,
    "high3m": 30712.75,
-   "reg": 30060.75,
+   "reg": 30068.5,
    "pre": null,
    "post": null,
-   "regClose": 30060.75,
+   "regClose": 30068.5,
    "sess": "24h",
-   "mt": 1783716735,
+   "mt": 1783717199,
    "ok": true
   },
   "YM=F": {
-   "price": 52980.0,
-   "chg": 0.42,
-   "chg5": -0.38,
-   "sma20": 52321.2,
-   "sma50": 51064.32,
-   "sma200": 49531.06,
+   "price": 52962.0,
+   "chg": 0.38,
+   "chg5": -0.42,
+   "sma20": 52320.3,
+   "sma50": 51063.96,
+   "sma200": 49530.92,
    "high3m": 53372.0,
-   "reg": 52980.0,
+   "reg": 52962.0,
    "pre": null,
    "post": null,
-   "regClose": 52980.0,
+   "regClose": 52962.0,
    "sess": "24h",
-   "mt": 1783716730,
+   "mt": 1783717196,
    "ok": true
   },
   "GC=F": {
-   "price": 4122.1,
-   "chg": -0.21,
-   "chg5": 0.23,
-   "sma20": 4140.43,
-   "sma50": 4373.61,
-   "sma200": 4667.09,
+   "price": 4128.9,
+   "chg": -0.04,
+   "chg5": 0.39,
+   "sma20": 4140.77,
+   "sma50": 4373.74,
+   "sma200": 4667.15,
    "high3m": 4857.6,
-   "reg": 4122.1,
+   "reg": 4128.9,
    "pre": null,
    "post": null,
-   "regClose": 4122.1,
+   "regClose": 4128.9,
    "sess": "24h",
-   "mt": 1783716727,
+   "mt": 1783717197,
    "ok": true
   },
   "CL=F": {
-   "price": 71.5,
-   "chg": -0.8,
-   "chg5": 4.09,
+   "price": 71.51,
+   "chg": -0.79,
+   "chg5": 4.11,
    "sma20": 73.8,
    "sma50": 87.86,
    "sma200": 83.29,
    "high3m": 108.66,
-   "reg": 71.5,
+   "reg": 71.51,
    "pre": null,
    "post": null,
-   "regClose": 71.5,
+   "regClose": 71.51,
    "sess": "24h",
-   "mt": 1783716729,
+   "mt": 1783717195,
    "ok": true
   },
   "HG=F": {
    "price": 6.29,
-   "chg": 1.15,
-   "chg5": 2.81,
+   "chg": 1.13,
+   "chg5": 2.79,
    "sma20": 6.23,
    "sma50": 6.26,
    "sma200": 6.0,
@@ -1084,9 +1072,9 @@
    "reg": 6.29,
    "pre": null,
    "post": null,
-   "regClose": 6.29,
+   "regClose": 6.28,
    "sess": "24h",
-   "mt": 1783716701,
+   "mt": 1783717183,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 109.06,
    "sess": "24h",
-   "mt": 1783716671,
+   "mt": 1783717198,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1112,30 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Blue Owl Saw Investor Exodus After UBS Flaged Rising Private Credit Default Risk - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVk9OTU5kUWx4VlRCX0xHWHktUHAtWm5pcXBOSEl2YnNSeWJ4WXljNUxrb2VtM1R5ZTl6NDB2aU5oUFZ1eVZoYmRhbF9MbXJrdHZ5Z05uNWowRFZwdjRHR3dHM2hMbnhOLUpfN3Bxc2lfQWRhbTNlM2ZJNk5XSE8tVC16aFlySmVDMWNQNERGUGxUYzVNR3pPYWowaXdicGh4YTBlT0VzTjZERzlXSWtBZG5jeFZUUVBxWTZsbEhlS0cwSWwwY2dmYzFaNUx1ZkNCbTZxdkNWNlh3SjE5?oc=5",
+    "pub": "Fri, 10 Jul 2026 19:15:24 GMT",
+    "src": "Benzinga",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "The Private Credit Headlines Don’t Tell the Whole Story in Multifamily - Urban Land Magazine",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPLW9PQUZDZ2VHSTloMWJYQjlYczg4YzFHT1FYaURwbUJ3VU5yeVhTVVlpVmY4eXRkR3RhV0taeUwweWhqWnIzWndPX0lsbWJucHVfTTBUZVZab0U0elFzNGg2dlh4NGM3TS1aZVZVRzBSZWFleUx5Sl9sSDZ5UllEcmJ2VW5LaDVlbUYwU2ZrMzFtbUlKUFc3NnJ5cmVzM2FqajExdHgtbEZETkhab1hpdmpWMWppOFd2ZGJIS2FJcHU?oc=5",
+    "pub": "Fri, 10 Jul 2026 18:36:12 GMT",
+    "src": "Urban Land Magazine",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apollo Global Management Is Due For Multiple Expansions Despite Private Credit Headlines - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHNZYjM1dGM2cldjUExQNHVhY1pIZWc5WG9BMUVnWlB4TEIxenk0cWpsdGVVMVNEVDVzYW4xUTdPQTlWVjZlS200UDFLdzJpNGVjangybmNHTEFSLURmQ1h1cm1oM2VWYW5XQ2QzLWlrSGpzbk9sVGRfT1ZReDRrMy1PczVMUjA5c0Jva1NmdnB6b0t5TDUyRTBDRXhWWFJwUGNURFBweElHZG1rUFhTcDlGQ1BvelpuNTVmeWh3?oc=5",
+    "pub": "Fri, 10 Jul 2026 16:30:08 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Meta Vs. Coreweave: How Meta is Looking to Bury Coreweave With 'Meta Compute' Sovereign Scale - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPblhfSFlCVnQ1a1BVSHVoZ3FFYVpnbDhNdEZfemhrNFFNakU3M0dRVjJ4MENVcjA4eUxNcWtFVTRmZlNlWTJtY0ZEdGxQU0lTdVZIazdBblZpdGVrczJqUS1UTktZanFyVEplN242dFk3bVVzSXVheVhoa0NfNEMxM0FiZGVDeS1Na3Y4dFVPZjk3VGVPejNqa0dVT0w5b0FBdEtqeTB2eWVKSFRYTFZSalhHa2RzbW96bWFXN01aclp6ZEFoX3k5TWU4QkJmQQ?oc=5",
@@ -1147,46 +1159,30 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The operational layer cake - The Drawdown",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9xZWZNWkNTeGtCbmhHUmpwZG9yMklXamRzQ0dVbDJOSFM5bTduMEwyN1VNYVU5ZWZMRllXNFVRQzNhS1N1cDdfSUVJRUg0ajVNRnJmV0lfdGc1NW9kRzFHWW9fUVlfSG40UjFB?oc=5",
-    "pub": "Fri, 10 Jul 2026 11:05:00 GMT",
-    "src": "The Drawdown",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin ETF News: Outflows & Private Credit Stress: Q2 2026 - 99Bitcoins",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPcHZkUVZCQ0NkVjR4LXlzWHpGZl8yS1M3dU5mU1RHZkJfbnBaXzViYzJHZ3ZqZUl4TTZhMzl3MnNuNmhSSVI4anlSTEhYZ1VkcHpHMTZMRlV0UHJUOVRtaFpONWVLSldKYkRVeEk3NU9qdHN6Tk01NFZFLUxsWl9IMUc2Tzg2MDkxT0NJVWxMb2lmVmVTUmxkb0l1V2UzeTU0OTFN?oc=5",
-    "pub": "Fri, 10 Jul 2026 09:03:49 GMT",
-    "src": "99Bitcoins",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NatWest: Agentic AI Wealth Hyper-Scaling Against Shadow Banking Risks - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcm9Hb0Z6RmNweUY4OF9xWGNmU2xDbmV0QXVsYm10Rzk2T05PM3RzWU9Dc3c4S3drZWhqV2ZQc0Ewc1EzajYxNFE3WTRXYzdtaFkwZEFtRkFDcTFVTTNjWXlfR3BTRlZ2cXdsQkxYRmFKaW1VLVZSUTBaYjVnMlZsRlY1S0UycmpGT3Q0RmdTeWNhdVowaHp1cW85QkZ5eWFTTUtfR2tZdzdmVlVGRFE?oc=5",
-    "pub": "Fri, 10 Jul 2026 08:06:25 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Apple Sues OpenAI, Accusing It of Stealing Company Secrets - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKUzJZN0pQMUl5TnQwdjdMWVJfM3lWVmhOdHhoTlY5RldFcENVRnNOR0N1Q3NrVU9qTzZkZXJGWGtnenY4UWN4WXBZdm1JVjF6OW5PXzV1cGhZUmhYdHdjWFNLT0dOOHpEMTY0RG5HTmxjYzdEaHAza3I4VQ?oc=5",
+    "pub": "Fri, 10 Jul 2026 21:08:13 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets - WBAL-TV",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQa0NLb3prN3k0OVpDMjJnYllWRFRkNjVfNGQ3OC1oRDR2azJxc3BNZVp1WmlHc1pFSTJsNVdCRmRoQ1ZhakE3b0VDV3kybWNTZ2VJeTI2aGE2SXFQcjZiamQ5VEFKcklpOEk5XzVJZjB3Vm4tZXhrMkRRS0puNWVQNUpQM0twQQ?oc=5",
+    "pub": "Fri, 10 Jul 2026 21:03:00 GMT",
+    "src": "WBAL-TV",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdEtlT1V3R2RhTEgtWjlBZmZvQlRsSzNMcmk3Z1ZrdW10c2ppcjFnQVhiNEttWUYtMkFPSm01bTNBUjZRMHRsRTN2a0JrQTNlTXdCcXE0bC0tRlZkTnRUZTVPMWExM094QXR3SlpnRUJkaGZKNGlZc2R1SWhjQkJZdUt6MUxISGxQLW5xZHhEcFVUVjJocjJWU3ZULUpuQ0xWTV9DSExKbDNEcHpoaVdBYk9yd09ZUWlMSGpjd3daYms2QVZsTFFjcVZwNnp2NFk?oc=5",
     "pub": "Fri, 10 Jul 2026 21:00:09 GMT",
     "src": "Spaceflight Now",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple sues OpenAI over ‘pervasive’ theft of trade secrets - Washington Examiner",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZEZJb3JpY3gzR1Jqb2FpdVJlX3UxVl9zMzViUEQ3SUpzVDlxTThiN0hHMWhiRnY1Y2xhWnB3czVNNWdxaFM2enZ0VWhrcnRtTGFpaUthOVpqdW96cXkzZWlzMS1VTDNXYzFUZ0ExRUlaUDFCVm5lMmJRNTJtSGoxMFhJQ3NoeWo5M010Z09zWUxkU1c4WDg4?oc=5",
-    "pub": "Fri, 10 Jul 2026 20:49:00 GMT",
-    "src": "Washington Examiner",
     "trig": false,
     "geo": false
    },
@@ -1199,14 +1195,6 @@
     "geo": false
    },
    {
-    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets - WWLTV.com",
-    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxNdHdrRTlnYkJfSEFuTktYb3l2UmxMMWc1WXdUUDBQRGo4QTdxMDlGNjRNV3Ixdzh4aTdkZkpmRzNNU3pnOTdQc05aVTUxd1I3dTU3dTZZbDJyZnByN2dFOGRRNGNGa24xbG1XanRsc2JORFhIOEJrcUo2bWw3OGhSQ001bEk1aGtOcXVjSVBlV2xKQnFMeEhKYjRnWnVVeWxYeDBlN2F6bHFzUi1MRWdFNXFTLUdZMVR3VmhmNElkeWV1dlAwZUFXU0JYNU45OUtCeGJ3QzA3V3c1TWUyY1pEMmcwOVh4a1RJWXRoS3hvTzV3RnVlVkJRS0JMbm5HOXFEXzZKZg?oc=5",
-    "pub": "Fri, 10 Jul 2026 20:47:00 GMT",
-    "src": "WWLTV.com",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Apple Sues OpenAI, Alleging It Stole Trade Secrets - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5XaDJLOUlqNlc1NW9HckNySzZyWFQzWWF3ZDNXXzJMdE95ck12cEYyck91SGVVeVRYWWVTWUdhTlNuTXFBM1lsX2J1TS1LcGN5MzNiMkVGN0c0cUxhUXBOVktGU1I?oc=5",
     "pub": "Fri, 10 Jul 2026 20:41:00 GMT",
@@ -1215,23 +1203,15 @@
     "geo": false
    },
    {
-    "title": "Apple OpenAI Lawsuit - The Herald Journal",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNcU1qWmdzR2xHa0kxQml3am53YXJZUkF2X1N1WmFhaUtPbFhVeTYtU1pPMnc1R2J5NThSS0pldU5YazhPWVg3WDNVMExjTjNYX3ZSQUtlbG5WWmNBZHMtWVZtcHF0cXVRU1FNVkhVRHBsRFR2WE1ucTJGcFM2WDZodGlmRVlOeUVYQmtZMGVaRWxaajRqdFlyQUJsN3dEUQ?oc=5",
+    "title": "Apple OpenAI Lawsuit - Dayton Daily News",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTThuMlVWYWRoREtmUW1jTkNxT1ZtSmhvQk9vdUEtRjFJTUZMMXM4dlFtallYM2t0TGJnR2w1S0NyWG4yXzNVZl8tOVhEVHNKWWc2VElKLTZsTFRPdnNab0VyS0l2MHVRVEdyQTNzWmJ4ckFLekU0Smt3WGZrVWdaeTU0aWwzWFQ4ck4wd2luYWdfeVlTcndxaW1QMnNkc0V3VnBmbnhFT3NtNjRqNGRsSHBsWQ?oc=5",
     "pub": "Fri, 10 Jul 2026 20:40:28 GMT",
-    "src": "The Herald Journal",
+    "src": "Dayton Daily News",
     "trig": true,
     "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Interest rate decision coming after job market grows in June - CityNews Montreal",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUzJrYndLTk5HM1Q4TmFmdFViTXZXS2VEN1hFX3pDM3FWalBLVE9KOW1WcDNUUWlDMlZTRkpfRG1pWlVQWlU0WkwySXVwT0Z4YjFIQnJEeVNkSlpjMG45UG9LQzIxTG16Mjc3bUxsN2Zmdk9mT3RDNkREZnh0S3J0bE1vem1kMFlvSmhXQkZuRGlxQ3BjOHVMWkVCUkRCQVZ1MGVHUDNoeU1JN00?oc=5",
-    "pub": "Fri, 10 Jul 2026 20:56:26 GMT",
-    "src": "CityNews Montreal",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision? - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazQyMy1lQ2VGd0hyYWlXeFZGc2ZtRVVvUEJ2UEVEZV9lZUpSX3NoS2s5ZkN5T00tci1ldWZxQVNTanhMVVVLWkRBMDNrSExIN2ZhUWZfT1ljLTNlNGdKX24xQUpoYUhXR0xNc0NVbjY4elU1SXVHQVNGZWJnWEJUUmZqR1R1b2NlLXlKS2prRlQ0cEZvZ1NYb1V4VXRnR3EtcV9Zc2w2b1B4dzltRDN0Rkdyd0FpcWlSZ2pLMmttQjRtTUZKOXpR?oc=5",
@@ -1261,6 +1241,14 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OeG9XdzZMTF85c2ZBdXhQLU1lSkRhemJmaTRUXzVUMnQ0a1I2MkpIQVVkbzJKdklxN1lyX3o0TDdxc09HS2U4Y2Ztd0xjSlhNZmFjMngwNENtdXZ1eWFVNkp6Z3RTb3hETl9yOURtdFpRaGlnajI4?oc=5",
     "pub": "Fri, 10 Jul 2026 16:49:30 GMT",
     "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Analysts: Prolonged war could devastate living standards in T&T - Trinidad Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSWY3X1FOQmZvdXZCMTdjczRIelltRVp3bkV0c3RfTnFFTVNiUHY3cGhaWUZja3k1R2V3eVJvbFJNTkhjNTdvUWRFWEl5VzVkczlGSTNXcGZubV8ySkpzUnFrOFNjdTBma0R3bll3N2QybzVTZGp4elMweW02aVZmb1VyZWswajFkc1g4STNQRkk4VkMtQjV2SVBBNzR0N1Rfb3hKWlNKeGlLdkZZSEVuWjBrVG94RlVocTVj?oc=5",
+    "pub": "Fri, 10 Jul 2026 16:42:09 GMT",
+    "src": "Trinidad Guardian",
     "trig": false,
     "geo": false
    },
@@ -1299,6 +1287,14 @@
     "geo": false
    },
    {
+    "title": "Gold (XAU/USD) Price Forecast for Today, Tomorrow, Next Week, and the Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOZ1BXeVdPR08tTmQ4MHdZMkloUzlsNjRjSE5VVmxyeVRrdDZqbDI3Tm5VVUdfYTdZM0dOYjkzVFBuMGhJUzZEM3E0RDBkc0RTUXd2VFdMdm5uenpPXzJobUNvRklvRkt0S0pfYkZ0UWRXaWRDc09MR1pBUkVDRXN2Y2FINkVmUDBlRkZHNGhzZkNyNk5LUzZrM2VUV1pVOV9N?oc=5",
+    "pub": "Fri, 10 Jul 2026 18:43:53 GMT",
+    "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners - Boston Herald",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02cjA0eEIyVWxZTG8yaHE0VnVBYU9PWGdnNm1IeklWOVRSN19QbGNaUnh1MWJERDBycy1oWnloRi1DLVhWNFk1OU9KWGtYeE1SRGgtY1MyY2lkS01BRF9oTzdELVUxeElYcDVGeXVaYzRKZkNrd0o4SnFnOA?oc=5",
     "pub": "Fri, 10 Jul 2026 18:03:13 GMT",
@@ -1307,18 +1303,10 @@
     "geo": false
    },
    {
-    "title": "Gold Holds Near $4,100 but Remains Vulnerable as USD Strengthens on Fed Rate Hike Bets and Iran Tensions - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUmVMTl9NSlRaNzFtT3hXN1RQWEdqdmRUUEN3OXR5TDdlMmNXS1dfZUJzMzRZaGJ3Skt1OXgtSzVVRl8tZUMwZmU0Qk1PV282ZW12ZzllQjFuWnpEWkZHekhScm1KUVBZVm1OVmsyNmNOZThBSURiNnNEZFdkUVRCc3NvOEVJbnc?oc=5",
-    "pub": "Fri, 10 Jul 2026 17:50:10 GMT",
-    "src": "Bitcoin World",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold, silver prices today: Comex extends weekly losses amid renewed Middle East tensions - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNV0FNejhrZ2FkbS1aZERwZExjUjd0R0JYczhIWTRTaXhPOHFDMktEWlB0QURIbC1BVzZEZWU1RkdObF9oeDM5d3Z1QXBkUzJqd0Ezc0hETEhpd2FjSi1JM05WQUtwQzBTXzhXT0FjeGNxOVFrdndwdkZ4eG9QMkc1X3BQNUJUakdqOGhacWpQeExFcG45T2pwZVVxZnVESV8xRG9QajNscFBtMk9tMmNqZXZpeC01cnFYbUxBaUh2M2h5UF83bkJxZXVWOU5xSUliaXNqQmFXdTlzNllPb2IzUzlaX3DSAeoBQVVfeXFMTm9hOENaNlBYU1FsVWgzVG43WWlpYnBTdEdwTkN0dGsyZXdqY1FoTzRfdGNGdTlFckdzNmlqR0xGOWpXb3poSTg4Z1J5MnJyMkhDd0RyaDFZbi11SnBtZnowaEVOcUVNeXpZVlJKaUtqNXhpbDRvd3VZa3VGWVQ4QmhuTTJlWlhrZ3dxTVp6WXJwMlZpR1JYbU5naTRpMXVoMy11S05BOUk2UkhBYkpLTGhuS19xclNjSmstYVV3NnFPcmJIZHZrWXgzRmszRnNpNGR2elZvcG1Pd2FIdU9CeXQ4WFJCQlBqNzh3?oc=5",
-    "pub": "Fri, 10 Jul 2026 17:07:13 GMT",
-    "src": "livemint.com",
+    "title": "Gold Price Analysis: Geopolitical Risks and Economic Data Shape Outlook for July 2026 - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPaVdQcVNUYWJLRVlyQVZHRm82bXZDY1FBUGMzeE43MEhVRXR6ek1PaHktaHRVZ09sYWk4MWt6UkgyamJ2bElpWGdJZl9Kc0QwcDJteUdZVV9NRzcyanZTSW9JRXJlMTQ5SEhhMURsR1RlMElaYVhxcXB1UWZ3OF9OZVhFeXRaRGJSakx6b3RPcHlQVGVBVjUzWnRXNmtPdURaeVlKcXRWUFlPWEE?oc=5",
+    "pub": "Fri, 10 Jul 2026 15:50:00 GMT",
+    "src": "IndexBox",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1493,7 @@
    99.86,
    100.85,
    101.36,
-   100.98
+   100.96
   ],
   "bizd": [
    12.51,
@@ -1610,7 +1598,7 @@
    63543.2,
    63540.84,
    60016.43,
-   63692.96
+   63889.48
   ],
   "vixts": [
    0.901,
@@ -1729,16 +1717,16 @@
   ]
  },
  "summary": {
-  "text": "이란 핵협상 재개 신호로 달러 약세 흐름이 있으나 VIX 15·HY스프레드 2.70%·NFCI -0.52로 신용시장은 여전히 완화적이며, 4.57% 고금리 환경에서 레버리지 ETF 리스크가 누적 중이다. AI 인프라 경쟁 심화로 메타-코어위브 간 컴퓨팅 주권 경쟁과 애플-오픈AI 지적재산권 분쟁이 증가하나 GPU/HBM 수급 상의 특이 신호는 없다.",
+  "text": "이란 핵협상 신호 속 달러가 소폭 약세를 보이는 가운데, 미10년 금리 4.57%와 VIX 15 수준에서 시장은 현 금리 유지를 가정한 상태로 평정심을 유지하고 있으나 사모신용 구조 이슈가 기저에 누적 중이다. AI 인프라 투자 경쟁에서 메타가 자체 칩셈(코어웨이브 경쟁)으로 대응하는 한편, GPU/HBM 수급에 특이 신호는 없으나 기업 기술탈취 분쟁이 증가하면서 공급망 리스크가 산재한 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
    "tnx": 4.6000000000000005,
    "dxy": 101.0,
-   "spy": 0.0,
+   "spy": null,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 0,
+   "trig": 1,
    "geo": 1,
    "capex": 5,
    "news": 16
@@ -1756,8 +1744,10 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "SPY"
+   ]
   }
  },
  "history": [
@@ -2412,16 +2402,20 @@
   16
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 1,
+  "failed": [
+   "SPY"
+  ],
+  "core_dead": [
+   "SPY"
+  ]
  },
  "breadth": {
   "pct50": 51,
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-10T21:02:32+00:00",
+  "checked": "2026-07-10T21:12:21+00:00",
   "openai": {
    "found": false
   },
@@ -2434,7 +2428,7 @@
   "margin_asof": "May-26",
   "margin_src": "archive",
   "margin_gdp_pct": 4.44,
-  "curve_bp": 38,
+  "curve_bp": 35,
   "curve_inverted": false,
   "curve_uninv_months": 22.1
  },

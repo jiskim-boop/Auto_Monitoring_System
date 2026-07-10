@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T13:02:43+00:00",
+ "updated": "2026-07-10T13:12:19+00:00",
  "prices": {
   "NVDA": {
    "price": 202.78,
@@ -178,20 +178,8 @@
    "ok": true
   },
   "000660.KS": {
-   "price": 2180000.0,
-   "chg": -0.27,
-   "chg5": -10.1,
-   "sma20": 2488050.0,
-   "sma50": 2143040.0,
-   "sma200": 1430877.05,
-   "high3m": 2919000.0,
-   "reg": 2180000.0,
-   "pre": null,
-   "post": null,
-   "regClose": 2180000.0,
-   "sess": "reg",
-   "mt": 1783665029,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "ANET": {
    "price": 184.69,
@@ -722,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.78,
-   "chg": -0.38,
-   "chg5": -2.29,
+   "price": 15.79,
+   "chg": -0.32,
+   "chg5": -2.23,
    "sma20": 17.22,
    "sma50": 17.38,
    "sma200": 19.43,
    "high3m": 22.22,
-   "reg": 15.78,
+   "reg": 15.79,
    "pre": null,
    "post": null,
-   "regClose": 15.78,
+   "regClose": 15.79,
    "sess": "reg",
-   "mt": 1783687621,
+   "mt": 1783688191,
    "ok": true
   },
   "^VIX3M": {
@@ -802,35 +790,35 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.89,
-   "chg": -0.05,
-   "chg5": 0.03,
+   "price": 100.87,
+   "chg": -0.07,
+   "chg5": 0.01,
    "sma20": 100.8,
    "sma50": 99.69,
    "sma200": 98.98,
    "high3m": 101.61,
-   "reg": 100.89,
+   "reg": 100.87,
    "pre": null,
    "post": null,
-   "regClose": 100.89,
+   "regClose": 100.87,
    "sess": "reg",
-   "mt": 1783687924,
+   "mt": 1783688503,
    "ok": true
   },
   "^IRX": {
-   "price": 3.67,
-   "chg": -0.19,
-   "chg5": -0.68,
+   "price": 3.68,
+   "chg": -0.11,
+   "chg5": -0.59,
    "sma20": 3.67,
    "sma50": 3.63,
    "sma200": 3.61,
    "high3m": 3.73,
-   "reg": 3.67,
+   "reg": 3.68,
    "pre": null,
    "post": null,
-   "regClose": 3.67,
+   "regClose": 3.68,
    "sess": "reg",
-   "mt": 1783687624,
+   "mt": 1783688204,
    "ok": true
   },
   "LQD": {
@@ -894,7 +882,7 @@
    "post": null,
    "regClose": 4.55,
    "sess": "reg",
-   "mt": 1783687624,
+   "mt": 1783688204,
    "ok": true
   },
   "^KS11": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64285.98,
-   "chg": 1.73,
-   "chg5": 1.16,
-   "sma20": 61822.96,
-   "sma50": 65371.4,
-   "sma200": 72589.5,
+   "price": 64206.39,
+   "chg": 1.6,
+   "chg5": 1.04,
+   "sma20": 61818.98,
+   "sma50": 65369.81,
+   "sma200": 72589.06,
    "high3m": 82138.93,
-   "reg": 64285.98,
+   "reg": 64206.39,
    "pre": null,
    "post": null,
-   "regClose": 64285.98,
+   "regClose": 64206.39,
    "sess": "reg",
-   "mt": 1783688528,
+   "mt": 1783689109,
    "ok": true
   },
   "USO": {
@@ -978,67 +966,67 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.81,
-   "chg": -0.45,
-   "chg5": 0.22,
+   "price": 161.84,
+   "chg": -0.43,
+   "chg5": 0.24,
    "sma20": 161.56,
    "sma50": 159.91,
    "sma200": 158.44,
    "high3m": 162.63,
-   "reg": 161.81,
+   "reg": 161.84,
    "pre": null,
    "post": null,
-   "regClose": 161.81,
+   "regClose": 161.84,
    "sess": "reg",
-   "mt": 1783688533,
+   "mt": 1783689111,
    "ok": true
   },
   "ES=F": {
-   "price": 7589.75,
+   "price": 7589.5,
    "chg": 0.01,
-   "chg5": 0.82,
-   "sma20": 7502.3,
+   "chg5": 0.81,
+   "sma20": 7502.28,
    "sma50": 7461.19,
    "sma200": 7106.71,
    "high3m": 7623.75,
-   "reg": 7589.75,
+   "reg": 7589.5,
    "pre": null,
    "post": null,
-   "regClose": 7589.75,
+   "regClose": 7589.5,
    "sess": "24h",
-   "mt": 1783687930,
+   "mt": 1783688510,
    "ok": true
   },
   "NQ=F": {
-   "price": 29829.25,
-   "chg": -0.36,
-   "chg5": 0.92,
-   "sma20": 29867.62,
-   "sma50": 29510.96,
-   "sma200": 26970.31,
+   "price": 29810.0,
+   "chg": -0.42,
+   "chg5": 0.86,
+   "sma20": 29866.65,
+   "sma50": 29510.58,
+   "sma200": 26970.16,
    "high3m": 30712.75,
-   "reg": 29829.25,
+   "reg": 29810.0,
    "pre": null,
    "post": null,
-   "regClose": 29829.25,
+   "regClose": 29810.0,
    "sess": "24h",
-   "mt": 1783687933,
+   "mt": 1783688513,
    "ok": true
   },
   "YM=F": {
-   "price": 52889.0,
-   "chg": 0.24,
-   "chg5": -0.55,
-   "sma20": 52316.65,
-   "sma50": 51062.5,
-   "sma200": 49530.33,
+   "price": 52898.0,
+   "chg": 0.26,
+   "chg5": -0.54,
+   "sma20": 52317.1,
+   "sma50": 51062.68,
+   "sma200": 49530.4,
    "high3m": 53372.0,
-   "reg": 52889.0,
+   "reg": 52898.0,
    "pre": null,
    "post": null,
-   "regClose": 52889.0,
+   "regClose": 52898.0,
    "sess": "24h",
-   "mt": 1783687925,
+   "mt": 1783688498,
    "ok": true
   },
   "GC=F": {
@@ -1054,7 +1042,7 @@
    "post": null,
    "regClose": 4113.4,
    "sess": "24h",
-   "mt": 1783687931,
+   "mt": 1783688514,
    "ok": true
   },
   "CL=F": {
@@ -1070,39 +1058,39 @@
    "post": null,
    "regClose": 72.12,
    "sess": "24h",
-   "mt": 1783687934,
+   "mt": 1783688514,
    "ok": true
   },
   "HG=F": {
-   "price": 6.26,
-   "chg": 0.8,
-   "chg5": 2.46,
+   "price": 6.27,
+   "chg": 0.93,
+   "chg5": 2.59,
    "sma20": 6.23,
    "sma50": 6.26,
    "sma200": 6.0,
    "high3m": 6.65,
-   "reg": 6.26,
+   "reg": 6.27,
    "pre": null,
    "post": null,
-   "regClose": 6.26,
+   "regClose": 6.27,
    "sess": "24h",
-   "mt": 1783687937,
+   "mt": 1783688511,
    "ok": true
   },
   "ZN=F": {
-   "price": 109.22,
-   "chg": -0.04,
-   "chg5": -0.33,
+   "price": 109.23,
+   "chg": -0.03,
+   "chg5": -0.31,
    "sma20": 109.71,
    "sma50": 109.81,
    "sma200": 111.03,
    "high3m": 111.72,
-   "reg": 109.22,
+   "reg": 109.23,
    "pre": null,
    "post": null,
-   "regClose": 109.22,
+   "regClose": 109.23,
    "sess": "24h",
-   "mt": 1783687932,
+   "mt": 1783688512,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1163,14 @@
   ],
   "fundamental": [
    {
+    "title": "This nighttime rocket launch today may light up California skies - Ventura County Star",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX2RidFdncnZ4aGtHcVZhbFVuMnhfR0IzcFdlTUY0T2VQdFUzSFBFemZWcmVxalhrdmpPRnA1S0pXbERwRWxUc2hEZXUxZjR6em9CbDBtVGdvNk40ZE5IQktPVlprX3lVa3ptZ05adXhHY3RRQ3FmVFNwamZWb0dtZ2htRG8zZTVqaHRSeWIxMXVobDlkSldfZEQ2YUZVdG9YWkRjUUg2TXJHYUczS195cXlVTVhvRHdQU1E?oc=5",
+    "pub": "Fri, 10 Jul 2026 13:06:51 GMT",
+    "src": "Ventura County Star",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "BofA's Extreme Bullish Alarm: Bull & Bear Indicator at 9.5 Flashes Sell Signal Again; Japan Bank Stocks Become \"Canary\" for Global Sell-off - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04VVhnRjAtbE44UTBNVkpCTXN6YnpVenlGbGN3X0FRVUZ3R0hQT0hpcEVyTVFrcFdQckhweXFrZTNqdmhkU2dObHF4SEZTaXNzWDZCQmVtenBkNWdxOWlvYVBQbk54TFFsNXhjZE51bGt4ZDhXdHc?oc=5",
     "pub": "Fri, 10 Jul 2026 12:37:00 GMT",
@@ -1213,17 +1209,17 @@
     "src": "TradingKey",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "China Launches Reusable Rocket, Clearing a Key Hurdle in Race With SpaceX - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMENReDBqTkx3ZjJkU3pDU255YlBUTm1xczV2MkhjRmJtdFQzNjJjQ3RIc0ppSGFNTGVzUlZ3VkhsbzJKY1ZjallmZU12ZG9HYmxQakNSZEJCbTRPalVEV3VXRkZKWGEwY3Q5ckVYaXpHMl9BYzZWdG96VWdoLXhJTW1aOXVhajhjUEwwZkpkUVlWTENHWHBZ?oc=5",
-    "pub": "Fri, 10 Jul 2026 07:39:12 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Posthaste: The Bank of Canada's neutral rate might be too high, says this economist - Financial Post",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1VOWpUY1o1VjdPM3dhOGhlQnplU2FybS1KTnN0S1J6Y3BBcWJQZkZHd2VWT0Z1X21iQmRadFoyNDBLU1h2M3hEYUZTSlY0cjE3SDh1c3JoX01KWndFV1VFM0ZtMFJySVRJWjVxTlJoVUM?oc=5",
+    "pub": "Fri, 10 Jul 2026 12:01:46 GMT",
+    "src": "Financial Post",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "US-Iran escalation threatens oil supply recovery, warns IEA - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNUUFEYlNEcENmdkw0c3dKQVY3RUMtcjlfWDFFNnYwdEMwRmVwcGVrM0NHQld2SE05eXdSZlBqX1pHMGlVT05TRnpRUXN4NHBnQndvRVRTSzVRQ0djRlVZYkJiVDhxVHNDclJJLWc2UUJqNkpYRVdLbmR0ZDVXbjItcUtPZmxENUJKTGszdWNwZnFfOExZeXpaS19sa1c3aWti0gGmAUFVX3lxTE9DU2tuZkdWVG04LVRUX2JjT1pNWjlRMGxnd3A2SnlScUIya2FZbTFjV3BrY2VpRWFIeG8zRGNCdzlueDJUeV9GbGdpS3dNdE5oQl85VXFYVExLLTA4anpTaEw3bEd3eTlnNmZsWDB4ZExiMjhxcWt1bDBDWVJxRUpxc3ByaDA3elZERHlwbjE3YVNCN3pJUWs4bi1KZFF1blUzV1ljOWc?oc=5",
@@ -1261,14 +1257,6 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWlpVZHBYT3UzVGhCOUI3MHVNQ2hIY3pGR1VxUjdSS0JQUVhMaXBtUU81aUVRMlFIVjNjaVNmMFc3R1dKVU0tcHA4WE1mOU1WVDR6Vi0ydjZ2R3l1YXM4VjA2WlNqUGw1YUFhWEFlSlVFdjlvcjJfNm1DYk1LMS1MTHo3NUg5SVRhOGRfLWVmMA?oc=5",
     "pub": "Fri, 10 Jul 2026 09:56:15 GMT",
     "src": "Discovery Alert",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Live: Broader markets outperform this week; Realty sector top gainer | Closing Bell - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOUVdobjc2blNFQXpuMGE3eDVKLVZsS2tVOHg2cWNiVDNtT0ZNd1VjdGU4QUVqeW92VTRiYXYyNE5UZ2VqcXI1ZFNkMko3S0VXbzktQ182aktQaGxSWTVaYkxuM3ZfS2lWaE01cE5EaGN4eVI5bS1nZExJU1Exd1NVVXJicEE4Y2RnRnRKQmtLaE8yb2owc2E5ZElwYjk0bG9kMVdFYVpqZEY1Y2drMmZnd0tEcE85eGR1LVp5QnpkYldBcG4tcnJwT2tyV0s2M0lCZWZSRzBpdnpJcThtZ2hyWHBYTEhFQdIB6wFBVV95cUxOSWdBMU0wZ1J1NXhqWXd3SEVGeHdpMTVfaWVuOWw3ZFloV1RQUV9OUGRwUzFqcEJOVUtTUlVjNWQ4ZlRPZ0h3TjBHNUFNdDZEVEYxTFJEenFOYnZBZ1M0UUF6U2d6UTNtSnFOdlV5RWFJaHJ6enRJZGxhMXM5Mk5JYWJpUnN3NWRtRmRsckItdU05Q2c4bjhqSDhYZlF0X3p4bUJpSkJnRl92TU5mN0dPR2NGTnFpYmRNRmotOURRdkptM1o2Ym0xeUFJcld6WE8tNjYyUEh1WENtbi01MVU2b3lPWTlCdko0WU5j?oc=5",
-    "pub": "Fri, 10 Jul 2026 09:35:43 GMT",
-    "src": "Moneycontrol.com",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    19.44,
    16.4,
    18.41,
-   15.78
+   15.79
   ],
   "tnx": [
    4.32,
@@ -1505,7 +1493,7 @@
    99.86,
    100.85,
    101.36,
-   100.89
+   100.87
   ],
   "bizd": [
    12.36,
@@ -1550,9 +1538,23 @@
    160.13,
    161.29,
    161.8,
-   161.81
+   161.83
   ],
-  "uso": null,
+  "uso": [
+   124.82,
+   125.84,
+   134.72,
+   147.09,
+   134.97,
+   142.04,
+   144.27,
+   130.78,
+   136.74,
+   134.3,
+   114.23,
+   109.31,
+   109.01
+  ],
   "cper": [
    35.87,
    36.94,
@@ -1596,7 +1598,7 @@
    63543.2,
    63540.84,
    60016.43,
-   64274.03
+   64195.02
   ],
   "vixts": [
    0.88,
@@ -1673,36 +1675,8 @@
    7.86,
    8.15
   ],
-  "rsp_spy": [
-   0.2894,
-   0.286,
-   0.2858,
-   0.2831,
-   0.2782,
-   0.2734,
-   0.275,
-   0.276,
-   0.2785,
-   0.2847,
-   0.2821,
-   0.2884,
-   0.284
-  ],
-  "xlf_spy": [
-   0.0747,
-   0.0742,
-   0.0731,
-   0.0725,
-   0.0705,
-   0.0687,
-   0.0697,
-   0.0679,
-   0.0689,
-   0.072,
-   0.0729,
-   0.0728,
-   0.0739
-  ],
+  "rsp_spy": null,
+  "xlf_spy": null,
   "cape": [
    42.0,
    42.0,
@@ -1745,8 +1719,11 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 18,
+   "missing": [
+    "차트:rsp_spy",
+    "차트:xlf_spy"
+   ]
   }
  },
  "history": [
@@ -2403,16 +2380,18 @@
   16
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "000660.KS"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 49,
-  "n": 35
+  "pct50": 47,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-10T13:02:31+00:00",
+  "checked": "2026-07-10T13:12:08+00:00",
   "openai": {
    "found": false
   },

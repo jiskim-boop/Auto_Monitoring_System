@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-10T21:22:24+00:00",
+ "updated": "2026-07-10T21:32:43+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 285000.0,
-   "chg": 2.7,
-   "chg5": -0.35,
-   "sma20": 325200.0,
-   "sma50": 302130.0,
-   "sma200": 232035.95,
+   "chg": 2.52,
+   "chg5": -7.92,
+   "sma20": 323325.0,
+   "sma50": 303340.0,
+   "sma200": 232470.08,
    "high3m": 362500.0,
    "reg": 285000.0,
    "pre": null,
    "post": null,
-   "regClose": 278000.0,
+   "regClose": 285000.0,
    "sess": "reg",
    "mt": 1783665017,
    "ok": true
   },
   "000660.KS": {
    "price": 2180000.0,
-   "chg": 5.01,
-   "chg5": -0.32,
-   "sma20": 2486550.0,
-   "sma50": 2125280.0,
-   "sma200": 1424685.95,
+   "chg": -0.27,
+   "chg5": -10.1,
+   "sma20": 2488050.0,
+   "sma50": 2143040.0,
+   "sma200": 1430877.05,
    "high3m": 2919000.0,
    "reg": 2180000.0,
    "pre": null,
    "post": null,
-   "regClose": 2186000.0,
+   "regClose": 2180000.0,
    "sess": "reg",
    "mt": 1783665029,
    "ok": true
@@ -946,24 +946,36 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63892.26,
-   "chg": 1.11,
-   "chg5": 0.54,
-   "sma20": 61803.27,
-   "sma50": 65363.53,
-   "sma200": 72587.34,
+   "price": 63953.99,
+   "chg": 1.2,
+   "chg5": 0.64,
+   "sma20": 61806.36,
+   "sma50": 65364.76,
+   "sma200": 72587.67,
    "high3m": 82138.93,
-   "reg": 63892.26,
+   "reg": 63953.99,
    "pre": null,
    "post": null,
-   "regClose": 63892.26,
+   "regClose": 63953.99,
    "sess": "reg",
-   "mt": 1783718511,
+   "mt": 1783718849,
    "ok": true
   },
   "USO": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 108.7,
+   "chg": -0.28,
+   "chg5": 4.54,
+   "sma20": 111.45,
+   "sma50": 128.44,
+   "sma200": 111.81,
+   "high3m": 152.96,
+   "reg": 108.7,
+   "pre": null,
+   "post": null,
+   "regClose": 108.7,
+   "sess": "reg",
+   "mt": 1783713600,
+   "ok": true
   },
   "JPY=X": {
    "price": 161.67,
@@ -1179,19 +1191,19 @@
     "geo": false
    },
    {
+    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets - WPBF",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQc3o2X1BwS0hiMXVVSm1rRTJrRG40TlhmYkhWb1dxVFQ5OWMxVUNmenA0VzRGVE9YRzA5cnZxSDJCSXp1U3oyN3g2TVRTcm1DXzl6V09yN1lNS1VkRGRtblRJS2VCQWhLYllSWUpRdFExQVRVeUZROFpzcDc1Mkd2clpoTTQ?oc=5",
+    "pub": "Fri, 10 Jul 2026 21:03:00 GMT",
+    "src": "WPBF",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQdEtlT1V3R2RhTEgtWjlBZmZvQlRsSzNMcmk3Z1ZrdW10c2ppcjFnQVhiNEttWUYtMkFPSm01bTNBUjZRMHRsRTN2a0JrQTNlTXdCcXE0bC0tRlZkTnRUZTVPMWExM094QXR3SlpnRUJkaGZKNGlZc2R1SWhjQkJZdUt6MUxISGxQLW5xZHhEcFVUVjJocjJWU3ZULUpuQ0xWTV9DSExKbDNEcHpoaVdBYk9yd09ZUWlMSGpjd3daYms2QVZsTFFjcVZwNnp2NFk?oc=5",
     "pub": "Fri, 10 Jul 2026 21:00:09 GMT",
     "src": "Spaceflight Now",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets - AP News",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNV2RSRWV0QjJvdUJ5WGR3LVZ4T01uU2tCZDh1V2kzM3p1WnlwbVdLdFE5ZENFMldsZVpvNk9YQTc5Qk5TdlRnb0tGeENUOGM0SjVUOTRtZEpnMHFVcmhLbHhTMnJOWGJfem1rSURRNFpQbFQwYlE5WHFrbjJRVE13YXRPZkVydVNsTGd3WjRiZklZVlJ1ZDRHWDZsNS1NcHl4NGc?oc=5",
-    "pub": "Fri, 10 Jul 2026 20:53:00 GMT",
-    "src": "AP News",
-    "trig": true,
     "geo": false
    },
    {
@@ -1213,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Occidental’s quarterly realized oil prices jump amid Iran war disruption - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWllLRkxWYU9vU0VmaExHa19PemhsVlE1Q3lvZTBnZDN6Q0ZndU95ZllPTE4yN0FseHp3SUlrN1k2N1dWOXVGY3RFbHBMS0d1OHk5bG5kakFiT0tTUllNTXpfTEZOQXFHeDE2dHRMQzNRWTVkVjEwQ1Q2TXdObURMYVJPNlNyUmpBMUd4R3JzR2NaMW80UVpVejVFNjJyV3E1OGc?oc=5",
+    "pub": "Fri, 10 Jul 2026 21:24:10 GMT",
+    "src": "The Mighty 790 KFGO",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Global oil demand is dropping, but US drivers keep buying more gas - Yahoo Finance UK",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPR0hSOTNta1VPcEZxZHBkZUQ0a1ExTXBHZkpLSDNudUg4NEhHdkZQVWlxRXpHekNFRUVoY3ZPdll2c0oxWFdMdkxfMWRsSTgxZmZzSU1IbVZ4UEFQUUtockFnZGV3VWE2b0ZBVVFXVDY3dDlieUJWMFZjRnA2cVlkRkhQMGI?oc=5",
     "pub": "Fri, 10 Jul 2026 21:13:42 GMT",
@@ -1221,18 +1241,18 @@
     "geo": false
    },
    {
-    "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision? - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazQyMy1lQ2VGd0hyYWlXeFZGc2ZtRVVvUEJ2UEVEZV9lZUpSX3NoS2s5ZkN5T00tci1ldWZxQVNTanhMVVVLWkRBMDNrSExIN2ZhUWZfT1ljLTNlNGdKX24xQUpoYUhXR0xNc0NVbjY4elU1SXVHQVNGZWJnWEJUUmZqR1R1b2NlLXlKS2prRlQ0cEZvZ1NYb1V4VXRnR3EtcV9Zc2w2b1B4dzltRDN0Rkdyd0FpcWlSZ2pLMmttQjRtTUZKOXpR?oc=5",
-    "pub": "Fri, 10 Jul 2026 19:30:00 GMT",
-    "src": "MarketWatch",
+    "title": "Interest rate decision coming after job market grows in June - CityNews Montreal",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNUzJrYndLTk5HM1Q4TmFmdFViTXZXS2VEN1hFX3pDM3FWalBLVE9KOW1WcDNUUWlDMlZTRkpfRG1pWlVQWlU0WkwySXVwT0Z4YjFIQnJEeVNkSlpjMG45UG9LQzIxTG16Mjc3bUxsN2Zmdk9mT3RDNkREZnh0S3J0bE1vem1kMFlvSmhXQkZuRGlxQ3BjOHVMWkVCUkRCQVZ1MGVHUDNoeU1JN00?oc=5",
+    "pub": "Fri, 10 Jul 2026 21:08:15 GMT",
+    "src": "CityNews Montreal",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil Prices Rise 3% as Iran War Stand-off Persists - EnergyNow",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPaEtZekdBcmRtVTh4UHUxaERCQWZhWW44cmV5dWJiQkotZ3NZMlRrMmFVUU1NMmY2VXFVMXNkNjZfOGhQN3ZQR2JEblMxNjUtLW9iOFJWN2l5ZXV2VjBSOVVTWWh2MWpIeU5BWnNINDVfTlhYSkpnVnFDdHlVdDlWb1VmbG0?oc=5",
-    "pub": "Fri, 10 Jul 2026 18:22:30 GMT",
-    "src": "EnergyNow",
+    "title": "Where to put cash right now: Should you lock in at 4% — or wait for the next Fed rate decision? - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOazQyMy1lQ2VGd0hyYWlXeFZGc2ZtRVVvUEJ2UEVEZV9lZUpSX3NoS2s5ZkN5T00tci1ldWZxQVNTanhMVVVLWkRBMDNrSExIN2ZhUWZfT1ljLTNlNGdKX24xQUpoYUhXR0xNc0NVbjY4elU1SXVHQVNGZWJnWEJUUmZqR1R1b2NlLXlKS2prRlQ0cEZvZ1NYb1V4VXRnR3EtcV9Zc2w2b1B4dzltRDN0Rkdyd0FpcWlSZ2pLMmttQjRtTUZKOXpR?oc=5",
+    "pub": "Fri, 10 Jul 2026 19:30:00 GMT",
+    "src": "MarketWatch",
     "trig": false,
     "geo": false
    },
@@ -1251,14 +1271,6 @@
     "src": "MSN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "TLT vs. IEF: How Much Treasury Rate Risk Should You Actually Take? - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5OeG9XdzZMTF85c2ZBdXhQLU1lSkRhemJmaTRUXzVUMnQ0a1I2MkpIQVVkbzJKdklxN1lyX3o0TDdxc09HS2U4Y2Ztd0xjSlhNZmFjMngwNENtdXZ1eWFVNkp6Z3RTb3hETl9yOURtdFpRaGlnajI4?oc=5",
-    "pub": "Fri, 10 Jul 2026 16:49:30 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1267,14 +1279,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQSGVFUUdOUVhaRHdkbnBlaGZTd3ZrWFZ6Z0dqTk1mUk1RRmVKMnY0bjRVMDdRMFptMWJBUWNwQ1ZhVjdDZktKRE5TTFMwYWY4NTJpeXNNZFpHOXp4eUlhTUhSa0lfS21ZZWs3MUVUVE1vRlFKaHZHYjBwOGYyV1pWNS0tc2xHLXVyNlV5RTNnUVI3UHFFS1Jnck0wM0xqeWhyUE01SmZ6UE5FZw?oc=5",
     "pub": "Fri, 10 Jul 2026 20:10:26 GMT",
     "src": "Pittsburgh Post-Gazette",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US-Iran tensions revive interest in gold - Deccan Herald",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaTItY1hBeEhlZ0l2TnBxeHNJbGtMVktlVlRjMDRyY0l2LV9tTlhVbkUzYVpRaW9CSUtfeWFMcUoyRzZValBEMVBEVEVEVFRsZl9rOHNHNWQ5WkR4OEd2djdHTjJrcTlXZjM0ZlBwRDlpVF9KcWZrck5pR1pMMFdTZVpOSjlGX0hmNUZ5eTBFOUJjVkVDbmw2ZWozNWduZjA?oc=5",
-    "pub": "Fri, 10 Jul 2026 20:01:00 GMT",
-    "src": "Deccan Herald",
     "trig": false,
     "geo": false
    },
@@ -1291,6 +1295,14 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1QMG1qZHByTVNLT25uSFZmX3ZLRW03eVNhRWV0TG9JQ21kZmFsSE5wSEQwanhwOVozUGxuN0VrTjZ0ODg3V01ldWg5Q2J3ak1Bb1ZjaU8td2FYR1UxY0xJUlVTNjczS3NUOXA5VnNqSjhaeUgtREZjeTQwNA?oc=5",
     "pub": "Fri, 10 Jul 2026 18:55:11 GMT",
     "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US stocks rise as Wall Street shows it’s still hungry for AI winners - Boston Herald",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE02cjA0eEIyVWxZTG8yaHE0VnVBYU9PWGdnNm1IeklWOVRSN19QbGNaUnh1MWJERDBycy1oWnloRi1DLVhWNFk1OU9KWGtYeE1SRGgtY1MyY2lkS01BRF9oTzdELVUxeElYcDVGeXVaYzRKZkNrd0o4SnFnOA?oc=5",
+    "pub": "Fri, 10 Jul 2026 18:03:13 GMT",
+    "src": "Boston Herald",
     "trig": false,
     "geo": false
    },
@@ -1416,7 +1428,7 @@
    "chg": 0.0
   },
   "sofr_iorb": -12.0,
-  "cape": 42.0,
+  "cape": 42.18,
   "cape_manual": false,
   "netliq": {
    "value": 5958.2,
@@ -1598,7 +1610,7 @@
    63543.2,
    63540.84,
    60016.43,
-   63892.32
+   63882.8
   ],
   "vixts": [
    0.901,
@@ -1706,14 +1718,14 @@
    0.0738
   ],
   "cape": [
-   42.0,
-   42.0,
-   42.0,
-   42.0,
-   42.0,
-   42.0,
-   42.0,
-   42.0
+   42.18,
+   42.18,
+   42.18,
+   42.18,
+   42.18,
+   42.18,
+   42.18,
+   42.18
   ]
  },
  "summary": {
@@ -1730,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0.5,
@@ -2400,10 +2413,8 @@
   16
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "USO"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
@@ -2411,7 +2422,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-10T21:22:09+00:00",
+  "checked": "2026-07-10T21:32:28+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T10:32:23+00:00",
+ "updated": "2026-07-11T10:42:24+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64096.74,
+   "price": 64093.94,
    "chg": -0.05,
-   "chg5": 0.16,
-   "sma20": 61857.97,
-   "sma50": 65140.39,
-   "sma200": 72444.18,
+   "chg5": 0.15,
+   "sma20": 61857.83,
+   "sma50": 65140.34,
+   "sma200": 72444.16,
    "high3m": 82138.93,
-   "reg": 64096.74,
+   "reg": 64093.94,
    "pre": null,
    "post": null,
-   "regClose": 64096.74,
+   "regClose": 64093.94,
    "sess": "reg",
-   "mt": 1783765916,
+   "mt": 1783766515,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave's Biggest Fear Looks Overdone (NASDAQ:CRWV) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQdDRCdk8yUEstNE9hNjByNENlNng1d25YaWtLcmkxeXVLbF9PcXo0QjJiNmpTT3RzU1FMbFlaZ2hxQ01BS0lRUmhpblpkRVRaZFVEVEdBOUxKUklBZldjeHNaUFJjNXQ4dXdjSHZQdDJzMUZ0bnVWQjMyUWs5RjJFRTRITU4?oc=5",
+    "pub": "Sat, 11 Jul 2026 10:29:08 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave: Bound To Stay An Industry Leader For A Reason - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYmJUa2w2SHdjVmp2VHdfUktTSVRkN0Y1SHUxb0J6TllPanplQzlRdlNWdGtSNi13aDRfSGdQQld1UVRhdzh0RW9LQ2JMMHhwUjNfS1R3d1E4bFdacU9KekJlVGxiWERnUUo0R2t6XzFCSWNjRGlaVDViOEluRENscllSYXRqMFBIa2NONlFEd29Dd3AzOUJRV3FzTkQ?oc=5",
     "pub": "Sat, 11 Jul 2026 08:04:55 GMT",
@@ -1163,23 +1171,39 @@
     "src": "Mshale",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Blue Owl Saw Investor Exodus After UBS Flaged Rising Private Credit Default Risk - Blue Owl Capital (NYSE - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPVk9OTU5kUWx4VlRCX0xHWHktUHAtWm5pcXBOSEl2YnNSeWJ4WXljNUxrb2VtM1R5ZTl6NDB2aU5oUFZ1eVZoYmRhbF9MbXJrdHZ5Z05uNWowRFZwdjRHR3dHM2hMbnhOLUpfN3Bxc2lfQWRhbTNlM2ZJNk5XSE8tVC16aFlySmVDMWNQNERGUGxUYzVNR3pPYWowaXdicGh4YTBlT0VzTjZERzlXSWtBZG5jeFZUUVBxWTZsbEhlS0cwSWwwY2dmYzFaNUx1ZkNCbTZxdkNWNlh3SjE5?oc=5",
-    "pub": "Fri, 10 Jul 2026 19:15:24 GMT",
-    "src": "Benzinga",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SK Hynix Sets Nasdaq Foreign Listing Record as CEO Warns of Worsening AI Memory Crunch - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRzVBOFNyRlVLVHByV21OZHNFSHdBZWkwUVowQzBWcHVPZkVWb281RXh4eHUxd21Oc3phZ3BzSnVHUDFYQTN1bnFSUVgtN0g1NTlIM05YaV9zMUJlajBURHhQd0tIdnltLXhaaUFaaVBXTnRLS0JzRklpU0FRT293WUd1LXU5bmlFWGMyVGszSURmTG9oTl92dkZHVHJOYV9pSkh2TTBhYm5yc2I0UmxuMk16cHhiLU0yTVRiSFhJMnVMSmVqekZhQjdSTHhEUlZ6?oc=5",
+    "pub": "Sat, 11 Jul 2026 10:37:11 GMT",
+    "src": "Tech Times",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Apple files lawsuit accusing OpenAI of stealing trade secrets - Northeast Mississippi Daily Journal",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOSlpiMXJhQ1ZJazlHamFlQXZaZklYMVRUcDRpUlY4OGlIMHdJbjkzWlpiN29RVlIyZTdyTlA5R3JKTFdNTUZ5clIzTWxVdk0wRkZseEo2NzA5YWd0dGg5a2Z6dVhBc3Qyc0dqUTZyUVlaU3NwMzBWLTBEaG90OXdHVzg2bmhJeUtFTXhLV3VjSlJndlVkZjhSRXJ6b0hoekwyUElJcE81dmNXUWM2THdVNkh6MjduOERGeWxBaEZfbmxTVTR4YmdOb3laRDl6bjM3WmZtdlhwaXVlUGZxR2owRkxVY3Q?oc=5",
+    "pub": "Sat, 11 Jul 2026 10:00:00 GMT",
+    "src": "Northeast Mississippi Daily Journal",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Apple sues OpenAI over alleged trade secret theft - The American Bazaar",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUlEcGN3ZDBfTklvSFFDd0hPMmc3bnoyUVNEdWNXR1dINnAzR3J0Q3BiU3Bob3laaEMzemdkMzFPUjh6RkNZaXY5Z1hleXhqa19uTTRLemFxeF9PbV9KWE9wTWxHSUN4X1V3ZHlfeEJLblI0cGZiZnlWQktCeDk3WjVxT0tEajdTX0YwdFozNVFhWWRRRUtKQnpJWmRsMElSeUdn?oc=5",
     "pub": "Sat, 11 Jul 2026 09:46:32 GMT",
     "src": "The American Bazaar",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Musk's 2024 Apple-OpenAI warning resurfaces after lawsuit - The News International",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQam56Y18zQVBZNnBWLVNRZ204TmpsVmxRZ0l4T2t3WmFnRDhWUG45M2dLS1dxbkhNTDRIaERpZ1JtSlIzNUdPejN5M3dmS1dmUTRyaXRjaEFnb0g3TUxmNUstWWgyWFpwaWdvbXg2dDlzT0pmMjFfYXdBZmlnYnRSN0FpVjNtTEJPQ3dPcWl2T3NGYi0taTF6Qkx4ZVU5alU?oc=5",
+    "pub": "Sat, 11 Jul 2026 09:30:30 GMT",
+    "src": "The News International",
+    "trig": true,
     "geo": false
    },
    {
@@ -1191,34 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Apple OpenAI Lawsuit - Bluefield Daily Telegraph",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOb0F1VUlHMVNoaXoxSGFLNENoaDBabUd4bXpyalZXSmZZY1RlRlhDck1TNUJoWGVJVU5aWnhCdHNpbWZXdVJOTmtlMlU0NzBadXd0dTB1WjkzZFBUZWMxNTBfMGJvRHAwRzhob18tbUNrZEhSbWVQSVBhNEJON21YUzJ3TGNSbWo1dk00Z0pJZ0lnaEtzU3NPbjRKbE5TaEVOWXJmNG4xNzJnazBoRzVKSl93?oc=5",
-    "pub": "Sat, 11 Jul 2026 08:45:59 GMT",
-    "src": "Bluefield Daily Telegraph",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "US judge dismisses Musk's xAI trade secret lawsuit against OpenAI - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQNXJnLTdJc2xxY0VRbzJNNG9lbHNQZ084Y1YxZ3I3VmtSVElBd3BCbDN0cGJYTFNxbWhNZHFIZkZkb1g5ZjBiX0xNYWQ5SDRlNUxOTmktVklwZFZ2LU52THBvVUE4U1Uwd081Yk56ZHJhSkZxc3Q5ZzBlcThDVU9TaUJKcFY?oc=5",
-    "pub": "Sat, 11 Jul 2026 08:41:32 GMT",
-    "src": "AOL.com",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Investors Revive AI Trade, Sparking Tech Rally: What It Means for Markets - Blockchain Council",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnVhY3NjNkV1NEQyQXFZS0RuZDlMWVg5YmNaRDNaVENIWXBVODFOdEdXM3VQX1NXUmE1bFdpRXR1X0EwQ2h4QlRLX0RDbGQtbjhwcVpTSnJRTFlKTDVxUHI0RkJfQUlKdXJERjU0WkViN2dGYUdiNWFITTVCX2trV3YwNjFqcHFKQzFKUk1iOA?oc=5",
-    "pub": "Sat, 11 Jul 2026 06:52:09 GMT",
-    "src": "Blockchain Council",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oracle’s AI Ambitions Weigh on Stock: ~29% YTD Drop Amid Soaring CapEx and Debt - FXLeaders",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNkg3WE1GbUdRSkFucHAzb0FSamNDMkRZRVZ1d2xENUZvT1hENGxkZS0zZlIwYlN1VTBic01RVTc2UHM0TzFFV01nekliT0F2YjNFYjNtaVI3NmZoSmZscFB5ZHdPNElnT3pKUFdvSEo2YWVOUG1qZHI3M1ZRX2M4d1Awck5ES1l0b2JkNGloQnBheFlWZDVsSGx2bWwzbThPaUJqbUdlNFFrejVZOFpER3RRc0R1UTN4Umc?oc=5",
-    "pub": "Sat, 11 Jul 2026 06:36:45 GMT",
-    "src": "FXLeaders",
+    "title": "Anthropic releases Claude Opus 4.7: How to try it, benchmarks, safety - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBoQkkwMnB2b0tyeFllX3Iwa2FrRXNZbW5Dem5ERGlLVzFkbGNycUN1UXVEMnhYVlVmaGNTNDZuSTVWZ3d3alpjN29LbkprZV9qTjg1QVFKdURnYk9FYlFTQWFReVRNdEJPaHdTWlhGUTM?oc=5",
+    "pub": "Sat, 11 Jul 2026 09:00:00 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    64421.32,
    64239.68,
    59940.1,
-   64098.51
+   64095.55
   ],
   "vixts": [
    0.901,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "미-이란 긴장 고조가 유가 전망을 위협하는 가운데 HY스프레드 2.70%와 신용 부실 우려로 사모펀드 투자자 이탈이 가속화되고 있습니다. AI 인프라 업체들의 높은 자본지출과 채무 부담이 가중되면서 GPU/HBM 초과 수요 예상(2027년 이후)에도 불구하고 기술주 수익성 압박이 심화되는 양극화 추세입니다.",
+  "text": "지정학 긴장(미-이란)이 유가 상방압력을 가하는 가운데, 낮은 VIX(15)와 견고한 신용(HY 2.70%)은 시장이 아직 위험자산 선호를 유지 중임을 시사한다. AI 메모리 수급 악화 우려 속 SK하이닉스 나스닥 상장이 추진되는 등 반도체 자본배분 재편이 진행 중이며, 코어위브 등 AI 인프라 관련주의 변동성은 높아지는 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,12 +1738,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 2,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 0.5,
@@ -2422,7 +2421,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-11T10:32:12+00:00",
+  "checked": "2026-07-11T10:42:10+00:00",
   "openai": {
    "found": false
   },

@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.4</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.5</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -473,7 +473,7 @@ function basket(p,syms,memId,stId){
   const sb=$(stId);if(sb)badge(sb,st);return st;}
 
 function creditPanel(p){
-  const rows=$('credit-rows');rows.innerHTML='';let r=0,n=0,early=0;
+  const rows=$('credit-rows');rows.innerHTML='';const S=[];   // C게이트용 심볼별 수집(PY _credit_status 미러)
   function addRow(sym,lbl,grp){
     const q=p[sym];const st=pStatus(q);const row=document.createElement('div');row.className='prow';
     if(q&&q.ok){
@@ -481,17 +481,21 @@ function creditPanel(p){
       const up=q.chg>=0;
       const tag = weak5 ? ' <span style="font-size:9px;color:#ff8a5a">5d약화</span>' : '';
       row.innerHTML=`<span class="tk">${lbl}</span><span class="pr">$${q.price}</span><span class="ch ${up?'up':'dn'}">${up?'+':''}${q.chg}%${tag}</span><span class="ps ${SB[st]}">${WORD[st]}</span>`;
-      if(st==='r')r++;if(weak5)early++;n++;}
+      S.push({sym,st,weak5});}
     else row.innerHTML=`<span class="tk">${lbl}</span><span class="pr" style="color:#5f6878">N/A</span><span></span><span></span>`;
     rows.appendChild(row);}
   [['BIZD','BIZD(BDC지수)'],['ARCC','ARCC'],['OBDC','OBDC'],['CRWV','CRWV·네오']].forEach(([s,l])=>addRow(s,l));
   const sep=document.createElement('div');sep.style.cssText='font-size:9px;color:#6f7888;margin:4px 0 2px;border-top:1px solid #1b2330;padding-top:4px';
   sep.textContent='─ 선행 프록시 (거래되는 사촌자산) ─';rows.appendChild(sep);
   [['BKLN','BKLN(레버리지론)'],['SRLN','SRLN(시니어론)'],['JBBB','JBBB(CLO)']].forEach(([s,l])=>addRow(s,l));
-  if(!n){badge($('credit-verdict'),'n','N/A');return null;}
+  if(!S.length){badge($('credit-verdict'),'n','N/A');return null;}
   // 판정: 카드 자체 ETF로 (HY 외부지표 끌어오지 않음 — 정합성)
-  // 노이즈 보정: 단순 주가 하락(이평선 아래)만으론 부족, 추세 약화(5d) 동반 시 위험 가중
-  // r=이평선 아래 개수, early=5일 추세약화 개수
+  // C게이트(v2.23.5·PY 미러): 차주(CRWV) 단독 약세 = AI 베타 노이즈 → 대주·부채가 r 또는 5d약화로 확인할 때만 투표
+  const others=S.filter(t=>t.sym!=='CRWV');
+  const oConfirm=others.some(t=>t.st==='r')||others.some(t=>t.weak5);
+  const use=oConfirm?S:others;
+  const n=use.length, r=use.filter(t=>t.st==='r').length, early=use.filter(t=>t.weak5).length;
+  const cx=(!oConfirm && S.length>others.length && S.some(t=>t.sym==='CRWV'&&(t.st==='r'||t.weak5)))?' · <span style="color:#8a93a6">CRWV 단독약세 제외(C게이트)</span>':'';
   let st, basis;
   const major = r>n/2;          // 과반이 이평선 아래
   const trendWeak = early>=2;   // 추세 약화 다수
@@ -500,7 +504,7 @@ function creditPanel(p){
   else if(r>=1||early>=1) {st='a'; basis=`${n}개 중 ${r}개 약세 — 부분 경계`;}
   else {st='g'; basis=`${n}개 모두 안정권`;}
   badge($('credit-verdict'),st);
-  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${basis}`;return st;}
+  $('credit-note').innerHTML=`종합: <b>${WORD[st]}</b> — ${basis}${cx}`;return st;}
 
 function vixAxis(p){const v=num(p['^VIX']),v3=num(p['^VIX3M']);if(v==null){badge($('st-vix'),'n','N/A');lvl('lv-vix','실패');return null;}
   let st=v>=26?'r':v>=20?'a':'g';
@@ -1519,7 +1523,7 @@ async function load(){
           sGpuStock=basket(p,['CRWV','NBIS'],'mem-gpu','st-gpu-ignore'),  // 주가는 참고용(mem만)
           sAiNight=aiNight(p);
     const sCredit=creditPanel(p);
-    const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain);
+    const sFred=fredPanel(d.fred); const ew=earlyWarning(p,d.fred,sCredit,sChain); window.__ew=ew;  // 파리티 하네스·드리프트 진단용
     renderKLR(d);   // KLR 원장(자동 집행) 표시
     renderEvents(d);  // 상단 이벤트 스트립 — 정의만 있고 호출 누락이었음(이번에 배선)
     renderEWInputs(d);  // R3 출석부 — 입력 결측 가시화

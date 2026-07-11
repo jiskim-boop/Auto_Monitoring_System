@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T12:32:28+00:00",
+ "updated": "2026-07-11T12:42:20+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64110.6,
-   "chg": -0.03,
-   "chg5": 0.18,
-   "sma20": 61858.67,
-   "sma50": 65140.67,
-   "sma200": 72444.25,
+   "price": 64090.06,
+   "chg": -0.06,
+   "chg5": 0.15,
+   "sma20": 61857.64,
+   "sma50": 65140.26,
+   "sma200": 72444.14,
    "high3m": 82138.93,
-   "reg": 64110.6,
+   "reg": 64090.06,
    "pre": null,
    "post": null,
-   "regClose": 64110.6,
+   "regClose": 64090.06,
    "sess": "reg",
-   "mt": 1783773115,
+   "mt": 1783773709,
    "ok": true
   },
   "USO": {
@@ -1183,10 +1183,18 @@
     "geo": false
    },
    {
-    "title": "What to know about Apple's trade secrets lawsuit against OpenAI - Euronews",
+    "title": "What to know about Apple's trade secrets lawsuit against OpenAI - Euronews.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNWZaZFRWUnZkNzU0T3B0d2toT3l2RVJRQ0taak1qQWhMUGN0STFRM0tkbjl5MTRFWDBKbS1lUlhZRlJLLUpIcEFTaU1RcjB4cXBYQXpiYzF5YW9zVWxJNUQ3ODV4cnpUVlZtZUExQy1hb1BwSkl5YlRVaTZVLTFsLWI0UXcxX2Z3TEpBTGZoY1A2OExfbjZqNkExZE96aU1SQjU2NGFEcmo0UjJuRl95VTR2MA?oc=5",
     "pub": "Sat, 11 Jul 2026 11:34:10 GMT",
-    "src": "Euronews",
+    "src": "Euronews.com",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Analyst Calls Apple’s And OpenAI’s Relationship “Increasingly Fragile,” Says The Lawsuit Can Delay The AI Firm’s Hardware Ambitions “Even If The Allegations Are Not Proven” - Wccftech",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNFN6QzNXUFYyRTJtczVjTXZFVk96Z0Q4Yl92RWdOa25OTDhjSDJiOTNROVZadmtqMUVRZ05fMjNWeXNKNE1HS1h4SDFodzFEaDBzTHE1RnI2cFF2Mm9xOXE3a2JYOWZaZFItNXd2Qi1yZFZJQjZMNjBUVFRkZmMtYzJWd01OWFl1cTRoUzhR0gGTAUFVX3lxTE0wWkEybGs1emtxX0syTHF5V19TNmV1Wlp0Y3FmMVlqamhMYVJFOGtIRG9reXo0czQ1alFqZm9aV0l3ZG4yQzByLUdRZE9zTE1NMzJCcFBIa1NLdlRVRVA1cmJmRVNQOXc2NHZOMkdFOUlra0RDSkVwU1VvVHpRTnpyVC00NVdhS09qc2VSZEJUVnJxUQ?oc=5",
+    "pub": "Sat, 11 Jul 2026 11:25:32 GMT",
+    "src": "Wccftech",
     "trig": true,
     "geo": false
    },
@@ -1212,14 +1220,6 @@
     "pub": "Sat, 11 Jul 2026 10:00:00 GMT",
     "src": "Northeast Mississippi Daily Journal",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "SpaceX IPO Lock-Up Period: A Golden Buying Opportunity or a Liquidity Trap? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOR2hCbTBGZkdjU2lCUGJDaWMzanE1cDIxMzV2Wkh1bTNoV0NJejJhVTZDTWluNTVVUExTdlRoR25qR1lBVENtRC16WEhYNFNUTzhnNWZ6Unc3Z2djWko0TFd4LVZzMU5ZOV9qTFpLc2g5ODVSVDhaaFZza09yUjhaQ1NPeWVPZHJqMzh4dDRZaVlzR3dWQnI1RDhB?oc=5",
-    "pub": "Sat, 11 Jul 2026 09:25:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    64421.32,
    64239.68,
    59940.1,
-   64110.6
+   64090.06
   ],
   "vixts": [
    0.901,
@@ -2422,7 +2422,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-11T12:32:16+00:00",
+  "checked": "2026-07-11T12:42:07+00:00",
   "openai": {
    "found": false
   },

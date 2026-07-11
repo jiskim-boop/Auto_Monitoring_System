@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-11T10:22:27+00:00",
+ "updated": "2026-07-11T10:32:23+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64098.86,
-   "chg": -0.04,
+   "price": 64096.74,
+   "chg": -0.05,
    "chg5": 0.16,
-   "sma20": 61858.08,
-   "sma50": 65140.44,
-   "sma200": 72444.19,
+   "sma20": 61857.97,
+   "sma50": 65140.39,
+   "sma200": 72444.18,
    "high3m": 82138.93,
-   "reg": 64098.86,
+   "reg": 64096.74,
    "pre": null,
    "post": null,
-   "regClose": 64098.86,
+   "regClose": 64096.74,
    "sess": "reg",
-   "mt": 1783765297,
+   "mt": 1783765916,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "HP (HPQ) Is Up 10.4% After Partnering With OpenAI To Power Its Future Of Work - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9FdUhlUGFsTV82RWRCcWVvSVl5X0NsNVBFdk5LTWVxb1VtTUdRYlZsSlFXZ0Q2cTJHOUtGa3hvRDVFeVNMYjVNSjhGNmNzV1l6WWxJUDJJY2lFMTAtZXduWGRybnNkM0R4TjAyb0hCZDVOd1AwYmUyNDlaUQ?oc=5",
-    "pub": "Sat, 11 Jul 2026 10:11:20 GMT",
-    "src": "Yahoo Finance Singapore",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Apple sues OpenAI over alleged trade secret theft - The American Bazaar",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxONUlEcGN3ZDBfTklvSFFDd0hPMmc3bnoyUVNEdWNXR1dINnAzR3J0Q3BiU3Bob3laaEMzemdkMzFPUjh6RkNZaXY5Z1hleXhqa19uTTRLemFxeF9PbV9KWE9wTWxHSUN4X1V3ZHlfeEJLblI0cGZiZnlWQktCeDk3WjVxT0tEajdTX0YwdFozNVFhWWRRRUtKQnpJWmRsMElSeUdn?oc=5",
     "pub": "Sat, 11 Jul 2026 09:46:32 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQSnVhY3NjNkV1NEQyQXFZS0RuZDlMWVg5YmNaRDNaVENIWXBVODFOdEdXM3VQX1NXUmE1bFdpRXR1X0EwQ2h4QlRLX0RDbGQtbjhwcVpTSnJRTFlKTDVxUHI0RkJfQUlKdXJERjU0WkViN2dGYUdiNWFITTVCX2trV3YwNjFqcHFKQzFKUk1iOA?oc=5",
     "pub": "Sat, 11 Jul 2026 06:52:09 GMT",
     "src": "Blockchain Council",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oracle’s AI Ambitions Weigh on Stock: ~29% YTD Drop Amid Soaring CapEx and Debt - FXLeaders",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPNkg3WE1GbUdRSkFucHAzb0FSamNDMkRZRVZ1d2xENUZvT1hENGxkZS0zZlIwYlN1VTBic01RVTc2UHM0TzFFV01nekliT0F2YjNFYjNtaVI3NmZoSmZscFB5ZHdPNElnT3pKUFdvSEo2YWVOUG1qZHI3M1ZRX2M4d1Awck5ES1l0b2JkNGloQnBheFlWZDVsSGx2bWwzbThPaUJqbUdlNFFrejVZOFpER3RRc0R1UTN4Umc?oc=5",
+    "pub": "Sat, 11 Jul 2026 06:36:45 GMT",
+    "src": "FXLeaders",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    64421.32,
    64239.68,
    59940.1,
-   64098.86
+   64098.51
   ],
   "vixts": [
    0.901,
@@ -2422,7 +2422,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-11T10:22:12+00:00",
+  "checked": "2026-07-11T10:32:12+00:00",
   "openai": {
    "found": false
   },

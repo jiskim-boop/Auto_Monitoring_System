@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T15:32:32+00:00",
+ "updated": "2026-07-12T15:42:20+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64187.76,
-   "chg": 0.6,
-   "chg5": 1.41,
-   "sma20": 61855.02,
-   "sma50": 64884.79,
-   "sma200": 72296.18,
+   "price": 64095.27,
+   "chg": 0.46,
+   "chg5": 1.26,
+   "sma20": 61850.4,
+   "sma50": 64882.94,
+   "sma200": 72295.68,
    "high3m": 81728.3,
-   "reg": 64187.76,
+   "reg": 64095.27,
    "pre": null,
    "post": null,
-   "regClose": 64187.76,
+   "regClose": 64095.27,
    "sess": "reg",
-   "mt": 1783870317,
+   "mt": 1783870910,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4113.7,
-   "chg": -0.41,
+   "chg": 0.23,
    "chg5": 0.02,
-   "sma20": 4140.02,
-   "sma50": 4373.44,
-   "sma200": 4667.02,
+   "sma20": 4139.53,
+   "sma50": 4373.25,
+   "sma200": 4666.95,
    "high3m": 4857.6,
    "reg": 4113.7,
    "pre": null,
    "post": null,
-   "regClose": 4113.7,
+   "regClose": 4104.1,
    "sess": "24h",
    "mt": 1783717197,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.28,
-   "chg": 1.08,
+   "chg": 0.78,
    "chg5": 2.74,
    "sma20": 6.23,
    "sma50": 6.26,
@@ -1084,7 +1084,7 @@
    "reg": 6.28,
    "pre": null,
    "post": null,
-   "regClose": 6.28,
+   "regClose": 6.23,
    "sess": "24h",
    "mt": 1783717183,
    "ok": true
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Nvidia Circular Financing: $24.9B CoreWeave Debt Puts Pension Funds at Risk - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdm1UMDNHcVBnUHVlcGo5WEtoV2NSVzViaTFuWk9ZdkZSQWlYWTFVSGs5UGFsT3Q3eHFPbGVzbzlDZzZzSnZScDQtRnhCSDhfdldDVy10Si1VdmJOTXlqZzZTeWpxM0dhYm8yQUxJdnRPeFF2VHRGc29sUi1iUjQtczlpaTdyb1JObXdvYy15bWYybGtKMm1mVndJaG8yODZ4cVB0OUFia0piQVFlZHJTT2wxbWZONWRVZTlHTGprQVN0dw?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:36:55 GMT",
+    "src": "Tech Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "BLACKSTONE'S BCRED: Earned $0.54. Paid $0.60. Cut to $0.54. - THE BIG READ - Substack",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE0tV1Jmd3lUMm9idk1wMTdpVU5lUXh3RVJ3WHFIdjgzT1V6T3AtRnVtc1pqeVFSbXF0M1B5QUhoOTMxTHRrb3owd0pzMjZtaDJac0hLbEJrM1lHUnpwTEt2anVLYjZENGVKejNqeHo1SC03VWV4THMtLWhWbnRYdw?oc=5",
     "pub": "Sun, 12 Jul 2026 14:16:56 GMT",
@@ -1163,30 +1171,30 @@
     "src": "Kavout | AI",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "What Makes Main Street Capital's Business Model Unique - Kavout | AI",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOER1eUxZR0lqMkVVaXhxUXgwbjlQdWtxdmNEX0xRSkhDdGNpM09BVEtDX1R1WlE5VTNiQ29LcXNNNGJHc1pES2x0VFp1MkEwVnVIN0dNY2c2NVE5b3RQUUR1QlZ1WFZHTHRlS3huNVhhX29Wa2IxaGM0NmpRZHhDM3g3bzBXUFd6S0hXdVVLbDNHUHc?oc=5",
-    "pub": "Sat, 11 Jul 2026 19:17:37 GMT",
-    "src": "Kavout | AI",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "SK Hynix Soars 13% on Nasdaq Debut: HBM Architecture Makes It Irreplaceable in AI Chips - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMExLUjFrRzQ2NkttZDk4SDNNeEpJU2c0YkUzbnJvQmVvbm9ic1B3dXNudV9DcE8waEVDc1pXMW1MMkt3MGFYSFFEVnpvRFNWVVREU0hVTnFWRnBIbjdFTzBRbmFodWU1bmc4LTNRdzdQZlJWXzluQkFJSDAxZGptTHhlRlBvLWZQMTBwcVdxMElKUU9hdm91dGVDQVVMVHdyejRvdkxVQ3U4UUJrQ3JoVmItLWJHWDNqbFFVQ2xXUE5KT25jc3F5TmU3UnFSMkU?oc=5",
-    "pub": "Sun, 12 Jul 2026 14:25:01 GMT",
+    "title": "Nvidia Circular Financing: $24.9B CoreWeave Debt Puts Pension Funds at Risk - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdm1UMDNHcVBnUHVlcGo5WEtoV2NSVzViaTFuWk9ZdkZSQWlYWTFVSGs5UGFsT3Q3eHFPbGVzbzlDZzZzSnZScDQtRnhCSDhfdldDVy10Si1VdmJOTXlqZzZTeWpxM0dhYm8yQUxJdnRPeFF2VHRGc29sUi1iUjQtczlpaTdyb1JObXdvYy15bWYybGtKMm1mVndJaG8yODZ4cVB0OUFia0piQVFlZHJTT2wxbWZONWRVZTlHTGprQVN0dw?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:36:55 GMT",
     "src": "Tech Times",
     "trig": false,
     "geo": false
    },
    {
-    "title": "2027 will be the worst memory supply shortage in history: SK Hynix CEO - The Daily Star",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNZGFTaktYemlwWE9rSGhIR3hIa01WdEh3cjhaMzBReTJCdzg3QzNFekFvTHljY203ZkUwNkZGZ3JUS1FoM2xLcGUyaXFXV2t1YUt2UlNITjVSNXFfLWRUQ2JyczVVNTRuM3YyYTYtWEowUm1IUWNYZlpFLXF0X0hPcmJibEVOTDg1MGdidHpreTJpZHdPS2V5WGhxUHpId0FOYVN5c3A5UVcwZXdoM3h4LWNtVmsxUG9JWWQ3NmppaVpCQW9R?oc=5",
-    "pub": "Sun, 12 Jul 2026 13:22:47 GMT",
-    "src": "The Daily Star",
+    "title": "Microsoft Splits the Difference: Job Cuts and In-House AI Models Meet $270 Billion CapEx Plan - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX0U3N3RJM0ZZaXVmNGVMTUltdW9mamlsQ1ktN0JQN3dQSGg0TFpNMnFqSjI2dlBtNV9Weko0WVVpMjE4ak5rblpQd2o4a1Y2VG5XbzlRTUpLcVFacndnbkYxSEpvSV9Ra3ZLd2ZlTUJ0NmUwU1pZTGJ6RkhYN0xiT3k1b3VIRUMwSS1MdUtiVkx2SEZhdFlDbmFGSUtTTUU3ekR6MFg5NEJTTmZnUHdaSjl5aWdfYTBqbVg3eDlZTEJGaElQd2kyMUQ0bw?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:35:57 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "SK Hynix Soars 13% on Nasdaq Debut: HBM Architecture Makes It Irreplaceable in AI Chips - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMExLUjFrRzQ2NkttZDk4SDNNeEpJU2c0YkUzbnJvQmVvbm9ic1B3dXNudV9DcE8waEVDc1pXMW1MMkt3MGFYSFFEVnpvRFNWVVREU0hVTnFWRnBIbjdFTzBRbmFodWU1bmc4LTNRdzdQZlJWXzluQkFJSDAxZGptTHhlRlBvLWZQMTBwcVdxMElKUU9hdm91dGVDQVVMVHdyejRvdkxVQ3U4UUJrQ3JoVmItLWJHWDNqbFFVQ2xXUE5KT25jc3F5TmU3UnFSMkU?oc=5",
+    "pub": "Sun, 12 Jul 2026 14:25:01 GMT",
+    "src": "Tech Times",
     "trig": false,
     "geo": false
    },
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 12 Jul 2026 10:31:00 GMT",
     "src": "Fortune",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Grok Linked to Sickening Crime in Lawsuit That Puts SpaceX in Crosshairs - Futurism",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMMzZPT0RndUlFYkFPaUppbUxMRlZZYUhDT2VCclBySnZhUWJhdVkzUU1GU1Uwc19FSWxtbUpUd1RQQVJwTVhWYXNMTDVNUFpaWUV5TTFqaDZVMURHbHYtV2hEeUR4UU4xeElObGNyc2JobTBtRFFTdld0Z3Y?oc=5",
-    "pub": "Sun, 12 Jul 2026 10:01:00 GMT",
-    "src": "Futurism",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1249,6 +1249,14 @@
     "geo": false
    },
    {
+    "title": "Escalating geopolitical risks drive volatility across major market sectors - DD India",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2RPNnpUNkpHTU04M19MWWE4b0g0UUcxZ1N1ekZtX0hLcXBwdGY5SDAyeEx0cFJJaFVuZUwyMDFWUklJbFI4VXFGX0lud3dCbktSNm5meHpXVElSNld1MDItbXpFNHJZdzRfT3duT1FJUHNoQzlCLVRLeW9QeTh4WUZBTnRzNEZvVDNOdU1XSzZqNUxvRXJ5Y1RlR09pUWx0NU5kNmhQY1U?oc=5",
+    "pub": "Sun, 12 Jul 2026 14:05:11 GMT",
+    "src": "DD India",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Credit Market Is Sending A Warning On AI Stocks - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3hyeGVoZWstbzdmbDV2ZjFBNnhqTVdubDB0TkZxVGRDY2hmY3hoSUs5VUJYXzUwVHJKRTNtYzNQYlo2ZGdYUkFKTlhtQUVHOUlYVXl4eWZaVTdLM1NsbWRYd05pcUF6b09jT2NNNnZQZVBTRTRpNXZ3Tzh2MzVLWkNQMVZjVENuRXpv?oc=5",
     "pub": "Sun, 12 Jul 2026 13:55:00 GMT",
@@ -1257,19 +1265,11 @@
     "geo": false
    },
    {
-    "title": "Iran updates military targets after Trump’s threats - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVUx1YjhjVkRDSGNHTWx2Q1ZWU1B3NWg0U3c3Y2dJSWJPdGwxMmdMMk54VF85VUpZS192Q0dGUnhQT0lTS0hyWWFEMURzaDBJZlcwV1hzS2VvYnpBWVY1QmxuT05EZnlOVElVS3FJUkxZUXYwRVg5MzVJcTFtS2xxalprX1A?oc=5",
-    "pub": "Sun, 12 Jul 2026 12:42:11 GMT",
+    "title": "Graham warns of US retaliation as Iran conflict escalates - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMlduOUlKUG9sUTlXUHZVd3ZmVS1PdTlyeDd5a0dhUEdoSUFNRWJTWGVtcGQwZlowYXdkSGtIU0plT2pFbmw3TnFQc3FWNlNJMzNHM2M3a0ppaWhtWjlsVl9FU1I2c3g4R0FkcmlaWEExdExMZDhVd3d2cDgxSXI4RWlwckxFTFJMWFFsZWRB?oc=5",
+    "pub": "Sun, 12 Jul 2026 13:12:20 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Israeli drone strike kills two Palestinians in Gaza City, violating ceasefire - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVjB6T0JLZWpvaG9LMzZncWZ5OTVGbXFpYkZ3Q2IxUFdzNWZ0TW9ucTdwMHZQUVVQMWRLcFZaOW9JSl9jZUljSEJFZEh4V0IyTzBsRmJHNHVvUTYzaklrM0Z6Q3pwUTdpQkg3MEJvOFRYaVpMTFZGckpHSGVfR2I1ZldsZjdZM2M1bVhEYXIxVzJwOS0tcUJnWU5XQkZzZmgybFVNV2I1VQ?oc=5",
-    "pub": "Sun, 12 Jul 2026 12:23:26 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
+    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64180.48
+   64095.26
   ],
   "vixts": [
    0.901,
@@ -2423,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T15:32:20+00:00",
+  "checked": "2026-07-12T15:42:08+00:00",
   "openai": {
    "found": false
   },

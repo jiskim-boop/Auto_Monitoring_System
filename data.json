@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T07:12:28+00:00",
+ "updated": "2026-07-12T07:22:19+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.57,
-   "chg": -3.08,
-   "chg5": -8.66,
-   "sma20": 20.27,
-   "sma50": 20.4,
-   "sma200": 21.61,
-   "high3m": 25.57,
+   "chg": -2.21,
+   "chg5": -2.47,
+   "sma20": 19.71,
+   "sma50": 20.19,
+   "sma200": 21.51,
+   "high3m": 22.89,
    "reg": 18.57,
    "pre": null,
    "post": null,
-   "regClose": 19.04,
+   "regClose": 18.57,
    "sess": "reg",
    "mt": 1783714501,
    "ok": true
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.55,
-   "chg": 1.44,
-   "chg5": 3.65,
-   "sma20": 70.08,
-   "sma50": 72.08,
-   "sma200": 72.88,
+   "chg": 0.96,
+   "chg5": 6.34,
+   "sma20": 68.71,
+   "sma50": 72.19,
+   "sma200": 72.74,
    "high3m": 86.07,
    "reg": 69.55,
    "pre": null,
    "post": null,
-   "regClose": 65.4,
+   "regClose": 69.55,
    "sess": "reg",
    "mt": 1783715415,
    "ok": true
@@ -820,7 +820,7 @@
   "^IRX": {
    "price": 3.69,
    "chg": 0.35,
-   "chg5": -0.14,
+   "chg5": 0.74,
    "sma20": 3.67,
    "sma50": 3.63,
    "sma200": 3.61,
@@ -884,10 +884,10 @@
   "^TNX": {
    "price": 4.57,
    "chg": 0.66,
-   "chg5": 2.1,
+   "chg5": 1.87,
    "sma20": 4.47,
    "sma50": 4.48,
-   "sma200": 4.32,
+   "sma200": 4.33,
    "high3m": 4.67,
    "reg": 4.57,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63757.55,
-   "chg": -0.07,
-   "chg5": 0.73,
-   "sma20": 61833.51,
-   "sma50": 64876.18,
-   "sma200": 72293.82,
+   "price": 63819.98,
+   "chg": 0.03,
+   "chg5": 0.83,
+   "sma20": 61836.63,
+   "sma50": 64877.43,
+   "sma200": 72294.16,
    "high3m": 81728.3,
-   "reg": 63757.55,
+   "reg": 63819.98,
    "pre": null,
    "post": null,
-   "regClose": 63757.55,
+   "regClose": 63819.98,
    "sess": "reg",
-   "mt": 1783840318,
+   "mt": 1783840909,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Apple challenges OpenAI’s hardware push in trade-secret lawsuit - Jurist.org",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0NIM2tZczlNVFQ2VXgxbUJXbl9UMTNvNEtZeGs3M2xZQ1pRc3hjSjBvcDFrYVBGdHotWFRKQktlazhTbWVWMzBkU3UycXlkOXZnS0NybjlIMHZTbG9odG1hUFllcG4xcnFlOFdYWHg5MEZzYzZyTE5RaWlvTC1lVFl6Sm9kTmZacVNaa0lLdU5ORFI0NS1XeFdMRmJETzRV?oc=5",
+    "pub": "Sun, 12 Jul 2026 07:10:50 GMT",
+    "src": "Jurist.org",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Starship's Thirteenth Flight Test - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
     "pub": "Sun, 12 Jul 2026 01:52:19 GMT",
@@ -1196,14 +1204,6 @@
     "pub": "Sat, 11 Jul 2026 23:18:56 GMT",
     "src": "ValleyCentral.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple challenges OpenAI’s hardware push in trade-secret lawsuit - Jurist.org",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0NIM2tZczlNVFQ2VXgxbUJXbl9UMTNvNEtZeGs3M2xZQ1pRc3hjSjBvcDFrYVBGdHotWFRKQktlazhTbWVWMzBkU3UycXlkOXZnS0NybjlIMHZTbG9odG1hUFllcG4xcnFlOFdYWHg5MEZzYzZyTE5RaWlvTC1lVFl6Sm9kTmZacVNaa0lLdU5ORFI0NS1XeFdMRmJETzRV?oc=5",
-    "pub": "Sat, 11 Jul 2026 23:08:25 GMT",
-    "src": "Jurist.org",
-    "trig": true,
     "geo": false
    },
    {
@@ -1483,13 +1483,13 @@
    4.32,
    4.39,
    4.39,
-   4.48,
-   4.57,
+   4.46,
+   4.59,
    4.45,
    4.48,
-   4.54,
    4.46,
-   4.39,
+   4.45,
+   4.37,
    4.57
   ],
   "dxy": [
@@ -1525,17 +1525,17 @@
   "move": [
    74.42,
    65.7,
-   67.7,
-   72.07,
-   70.63,
-   71.68,
-   85.32,
-   74.95,
-   73.43,
-   76.98,
-   69.36,
-   70.02,
-   65.4
+   66.97,
+   70.41,
+   67.25,
+   69.63,
+   79.72,
+   70.22,
+   75.2,
+   69.45,
+   65.39,
+   66.79,
+   69.55
   ],
   "jpy": [
    159.11,
@@ -1610,22 +1610,22 @@
    65710.4,
    63237.54,
    59532.34,
-   63765.51
+   63816.48
   ],
   "vixts": [
    0.901,
    0.875,
-   0.899,
-   0.841,
-   0.83,
-   0.82,
-   0.794,
-   0.791,
-   0.79,
-   0.935,
-   0.8,
-   0.932,
-   0.789
+   0.907,
+   0.829,
+   0.833,
+   0.828,
+   0.838,
+   0.844,
+   0.706,
+   0.908,
+   0.838,
+   0.915,
+   0.809
   ],
   "hyoas": [
    2.72,
@@ -2423,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T07:12:15+00:00",
+  "checked": "2026-07-12T07:22:07+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T20:42:24+00:00",
+ "updated": "2026-07-12T20:52:20+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64159.27,
-   "chg": 0.56,
-   "chg5": 1.36,
-   "sma20": 61853.6,
-   "sma50": 64884.22,
-   "sma200": 72296.03,
+   "price": 64184.58,
+   "chg": 0.6,
+   "chg5": 1.4,
+   "sma20": 61854.86,
+   "sma50": 64884.72,
+   "sma200": 72296.17,
    "high3m": 81728.3,
-   "reg": 64159.27,
+   "reg": 64184.58,
    "pre": null,
    "post": null,
-   "regClose": 64159.27,
+   "regClose": 64184.58,
    "sess": "reg",
-   "mt": 1783888911,
+   "mt": 1783889511,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 161.62,
-   "chg": -0.46,
-   "chg5": 0.1,
-   "sma20": 161.67,
-   "sma50": 160.01,
+   "price": 161.71,
+   "chg": -0.4,
+   "chg5": 0.16,
+   "sma20": 161.68,
+   "sma50": 160.02,
    "sma200": 158.47,
    "high3m": 162.63,
-   "reg": 161.62,
+   "reg": 161.71,
    "pre": null,
    "post": null,
-   "regClose": 161.62,
+   "regClose": 161.71,
    "sess": "reg",
-   "mt": 1783888831,
+   "mt": 1783889481,
    "ok": true
   },
   "ES=F": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Meta Platforms Just Gave a Massive Warning to CoreWeave and Nebius. Is It Time to Sell These AI Infrastructure Stocks? - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNcUFsZ3JIY2lGaTd3LVgxdUdYNUhRMnd5b1FnV2g3bDhSMmpwODE2UGpaT0EzbHNfQXltZjVsNzdCR25uWVREcDlCUEpVa3ltMWpCZVJTRnk1dEhlbURRT1pTbWRKNEFOSFBNMm1VUmVrOG1wSWhKY25faVZfRkI5cC13?oc=5",
-    "pub": "Sun, 12 Jul 2026 19:09:21 GMT",
-    "src": "AOL.com",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Sam Altman Is Waiting for a $1 Trillion OpenAI Valuation. SoftBank Has a $40 Billion Loan Due March 2027. - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPa1VLWGdFOXFXWkpEYkxVaDZfR0x2bkNhUDdFWnd5X1Y3MFJ3MVJVUUREdHhuYmJZZWtDazl4YXVqV1BUbjQ4MFhVZnQtMTktVkVoY3dWUGlOcFlOUTBOMVpVYmkzUUNBYkpwcUJ5N2tuYk1CdGhiaXRoYzB1MS1WVW9fVjI2d2pIRUdRenpKcVZlUDlVb2JKWjFR?oc=5",
     "pub": "Sun, 12 Jul 2026 17:47:00 GMT",
@@ -1220,6 +1212,14 @@
     "pub": "Sun, 12 Jul 2026 15:36:55 GMT",
     "src": "Tech Times",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Microsoft Splits the Difference: Job Cuts and In-House AI Models Meet $270 Billion CapEx Plan - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX0U3N3RJM0ZZaXVmNGVMTUltdW9mamlsQ1ktN0JQN3dQSGg0TFpNMnFqSjI2dlBtNV9Weko0WVVpMjE4ak5rblpQd2o4a1Y2VG5XbzlRTUpLcVFacndnbkYxSEpvSV9Ra3ZLd2ZlTUJ0NmUwU1pZTGJ6RkhYN0xiT3k1b3VIRUMwSS1MdUtiVkx2SEZhdFlDbmFGSUtTTUU3ekR6MFg5NEJTTmZnUHdaSjl5aWdfYTBqbVg3eDlZTEJGaElQd2kyMUQ0bw?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:35:57 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    159.96,
    161.43,
    161.79,
-   161.62
+   161.71
   ],
   "uso": [
    128.47,
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64150.73
+   64187.75
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 4,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0.5,
@@ -2422,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T20:42:10+00:00",
+  "checked": "2026-07-12T20:52:09+00:00",
   "openai": {
    "found": false
   },

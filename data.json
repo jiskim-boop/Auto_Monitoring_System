@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T17:22:37+00:00",
+ "updated": "2026-07-12T17:32:28+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64098.81,
-   "chg": 0.47,
-   "chg5": 1.27,
-   "sma20": 61850.57,
-   "sma50": 64883.01,
-   "sma200": 72295.7,
+   "price": 64086.39,
+   "chg": 0.45,
+   "chg5": 1.25,
+   "sma20": 61849.95,
+   "sma50": 64882.76,
+   "sma200": 72295.63,
    "high3m": 81728.3,
-   "reg": 64098.81,
+   "reg": 64086.39,
    "pre": null,
    "post": null,
-   "regClose": 64098.81,
+   "regClose": 64086.39,
    "sess": "reg",
-   "mt": 1783876125,
+   "mt": 1783877303,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Sam Altman Is Waiting for a $1 Trillion OpenAI Valuation. SoftBank Has a $40 Billion Loan Due March 2027. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPVEJyeGpnUDZ4bGU4R2UzQjJveEN4YTlCVGxhQThJS3BEc19WRy1TNWpqX2s1X1AxUFlVSnpRcnNmd3l4Tlp2QUVwS3FkMXN2enlET1I2ZDgzeEgwVktWdnZJdS1aemxEckNNODZmakdEY2NyYlBIbmEzZ2MwcGNERkVtOXEyWEVxWjZsSko4di02U2pWWUYyVQ?oc=5",
+    "pub": "Sun, 12 Jul 2026 17:29:39 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "IREN’s Cloud Revenue Under Siege as JPMorgan Flags GPU Price Crunch and Meta’s Looming Rivalry - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPWWRtN3pSQUxVREVQZjJkMkVNYUlscURObk5RekdWbW0yaURrSVNaTDFLR0hUb0VIZzB5azlUTFc1UGZtWjIzSW1XTkNtMWtueHVqcGJjUXhEVWgzUjhJTXphUk90eVU3YktnSHRuQmx6X3ZXdUZEb1RRQ01GdnYyRjJKUVFkZk9kX0lfamFZcGNLOVJVUjNEajRHU1B1c0tHTGNqcTMtOC1WX3dIX1hxeFpTVGVudHRTWFdraDV0QjQzWUtsVWd1aElR?oc=5",
     "pub": "Sun, 12 Jul 2026 16:07:27 GMT",
@@ -1199,31 +1207,39 @@
     "geo": false
    },
    {
+    "title": "Price Prediction: Marvell Will Trade at This Price in 2027 - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNd2dyTF9MWjRHQnZWQnhjSDYzU0Jmd1RGWlZpeW04T2tpYmNLdF9DQ25Yd0k0THM4ZXFaRVJVVEFSVlItdllsMmlZaFFNTW5xdXM5OVNoOWRwWFFFOURUY3dGUHZ3Q1VCaHZVNEJ0NlFFUHdqMUlPdnJuSFFFZGVJVDU0cklwYTNQako4YlRybElsTVlKRWFmUWE1TjV2X000djBN?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:42:21 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nvidia Circular Financing: $24.9B CoreWeave Debt Puts Pension Funds at Risk - Tech Times",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPdm1UMDNHcVBnUHVlcGo5WEtoV2NSVzViaTFuWk9ZdkZSQWlYWTFVSGs5UGFsT3Q3eHFPbGVzbzlDZzZzSnZScDQtRnhCSDhfdldDVy10Si1VdmJOTXlqZzZTeWpxM0dhYm8yQUxJdnRPeFF2VHRGc29sUi1iUjQtczlpaTdyb1JObXdvYy15bWYybGtKMm1mVndJaG8yODZ4cVB0OUFia0piQVFlZHJTT2wxbWZONWRVZTlHTGprQVN0dw?oc=5",
     "pub": "Sun, 12 Jul 2026 15:36:55 GMT",
     "src": "Tech Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Microsoft Splits the Difference: Job Cuts and In-House AI Models Meet $270 Billion CapEx Plan - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPX0U3N3RJM0ZZaXVmNGVMTUltdW9mamlsQ1ktN0JQN3dQSGg0TFpNMnFqSjI2dlBtNV9Weko0WVVpMjE4ak5rblpQd2o4a1Y2VG5XbzlRTUpLcVFacndnbkYxSEpvSV9Ra3ZLd2ZlTUJ0NmUwU1pZTGJ6RkhYN0xiT3k1b3VIRUMwSS1MdUtiVkx2SEZhdFlDbmFGSUtTTUU3ekR6MFg5NEJTTmZnUHdaSjl5aWdfYTBqbVg3eDlZTEJGaElQd2kyMUQ0bw?oc=5",
-    "pub": "Sun, 12 Jul 2026 15:35:57 GMT",
-    "src": "ad-hoc-news.de",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk and Sam Altman spar on X after Apple files OpenAI lawsuit - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9SLXZXRVdMZTFEOGZXeklZZ08teGV4cDBzX0QwamVMaXJwWjRxdjlyeFdEU25HTktDVEpjSHRxZkpBSkR3YmYzV0VvOHptNVV2Wi1INmpkdEpFcW1TTjNhMFRmSWFDbjluM1BJQms2QTEwMkxtTmfSAXtBVV95cUxQVkl1TjhyX0cwZFgxRW03dXRWazV3bUNEVklENjh3SlZPcDBBZFpDWEk4NWlRaGowM2JrY0JnZndKejZlUHd3SDBYQURjTHU5Z1ZseXlvXzdRamZ4VUF6QUQwYXVKSUptOTRJTmlDcFBTT0hyOWN5U3ZVV3M?oc=5",
-    "pub": "Sun, 12 Jul 2026 15:32:34 GMT",
-    "src": "CNBC",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Inflation projections rise, Fed rate cuts off table through 2026: WSJ survey - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTms1Z3hTMTlyV2dpcm9Wb2NId1V3bWRneTR2R2NISzRaVGdvYXdWVGdsWTJWREl1UkQzaHgzcUh5Qml0aWdiNWxRbWlvaVJCNkM2RXFWTnh2eTlDXzg3eV9ya2xRcmtzeVhIVmlzMXVIc2tjemdKSFNFbWRZTm1rcjVhcjQtaHRRQWhWYU4zdHAxWThaWW9kX01sRW1YNWpWUlEyWg?oc=5",
+    "pub": "Sun, 12 Jul 2026 16:28:18 GMT",
+    "src": "Crypto Briefing",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Economists See Lower Recession Risk: Will Fed Still Hike Interest Rates? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CWEI5S0pPek9vNmlfWTV2NHNDZWhaM1VtWkNaaVdRNDRIdnM4ZnRnVUc5VHBRRE5ZZ3hmdWtxNE1yT0ZhV0dyWWxfZmNkdHZ5SHpHR3o2V1Yyd245RGFjWVJfOGJXdnRUOGxYMGtWeEVZczlQaTQ1RmVpbWd0ZTQ?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:57:49 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Strait of Hormuz Tensions Risk Oil Price Surge - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWlMV3VqMnRIR0s4bV93WVJ6TUowcEcyRTNYVjRYc2RIbHRJeDROOEx2aHBpaHVoVUpoREhyWTNyNWFsM2lzeEJibUNNRW1oTjc1cUNaeUp2UDZfYXVtY0t1bkloMEVuSk9kZGtJLUhYZ2Z0aWF5ejRBRlY3R2pRY2dFTDVkQy1B?oc=5",
@@ -1254,22 +1270,6 @@
     "pub": "Sun, 12 Jul 2026 14:07:48 GMT",
     "src": "Crypto Briefing",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Escalating geopolitical risks drive volatility across major market sectors - DD India",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOb2RPNnpUNkpHTU04M19MWWE4b0g0UUcxZ1N1ekZtX0hLcXBwdGY5SDAyeEx0cFJJaFVuZUwyMDFWUklJbFI4VXFGX0lud3dCbktSNm5meHpXVElSNld1MDItbXpFNHJZdzRfT3duT1FJUHNoQzlCLVRLeW9QeTh4WUZBTnRzNEZvVDNOdU1XSzZqNUxvRXJ5Y1RlR09pUWx0NU5kNmhQY1U?oc=5",
-    "pub": "Sun, 12 Jul 2026 14:05:11 GMT",
-    "src": "DD India",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Credit Market Is Sending A Warning On AI Stocks - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3hyeGVoZWstbzdmbDV2ZjFBNnhqTVdubDB0TkZxVGRDY2hmY3hoSUs5VUJYXzUwVHJKRTNtYzNQYlo2ZGdYUkFKTlhtQUVHOUlYVXl4eWZaVTdLM1NsbWRYd05pcUF6b09jT2NNNnZQZVBTRTRpNXZ3Tzh2MzVLWkNQMVZjVENuRXpv?oc=5",
-    "pub": "Sun, 12 Jul 2026 13:55:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64096.76
+   64086.39
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 4,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0.5,
@@ -2422,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T17:22:16+00:00",
+  "checked": "2026-07-12T17:32:17+00:00",
   "openai": {
    "found": false
   },

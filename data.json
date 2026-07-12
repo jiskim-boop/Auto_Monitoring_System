@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T12:12:39+00:00",
+ "updated": "2026-07-12T12:22:19+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64043.73,
-   "chg": 0.38,
-   "chg5": 1.18,
-   "sma20": 61847.82,
-   "sma50": 64881.91,
-   "sma200": 72295.39,
+   "price": 63995.99,
+   "chg": 0.3,
+   "chg5": 1.1,
+   "sma20": 61845.43,
+   "sma50": 64880.95,
+   "sma200": 72295.13,
    "high3m": 81728.3,
-   "reg": 64043.73,
+   "reg": 63995.99,
    "pre": null,
    "post": null,
-   "regClose": 64043.73,
+   "regClose": 63995.99,
    "sess": "reg",
-   "mt": 1783858323,
+   "mt": 1783858905,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Geopolitical Risk Returns as Oil and Bond Yields React: What Markets Are Watching - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQam43cXlnNjlxM0pJTWFDUGRHcTNIbHZrT1pzbzNXT3E0ZTRQSHplUDdmR3M1REFSQUszbGJlUjJSMDFmUzJ0VWpZRDlJeU9zLXpDSnZVcFZHSGoyNV9tSEhDZTh3QzdSNW9PRmNic3ZCUG5mOUl0RUNTZXhBeHpqYnNtWHM5b0ZhUHNaMEd5bGl2TjBhR2c?oc=5",
+    "pub": "Sun, 12 Jul 2026 11:59:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX 30-Year Bond Spread Breaches 2 Percentage Points as AI Long-Term Debt Gets Cold Shoulder - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1KVWdyRWlpczE1WjlMYmV1UXdRdG9PdjA3OHVIVHV2ZWItMk1aUmNXeVB1ZUpJUTBLbTBQcm9ncnE2V2tPcmZrQlNZWHY3T1ZVeHlWTEY1anhjYTFhVDVnNGJQRldxUFU0a2xSOUlyVHBVRkktTVE?oc=5",
     "pub": "Sun, 12 Jul 2026 10:15:00 GMT",
@@ -1263,14 +1271,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Oil Prices Set for More Volatility After Latest Iranian Attack on Ship in Gulf - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcVNCUXM1Rnk0bjJIbzAxT0wzbjZaa1IxWjVZOU80QmxXdXJaeUZ4dFVNSUZoeEFyVnkwRlJjbHFfdlZUZm9UdTF0bHFGRWZRNm5TbVkyS1pTUGNwajRrN3piV0dKRlpEV05SSmZ4b3lsQ01NU01HSEhBTHhydXlGVzlhbkZISWVwdzF5eTBBcGU2QlZk?oc=5",
-    "pub": "Sun, 12 Jul 2026 08:13:49 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64023.08
+   63995.99
   ],
   "vixts": [
    0.901,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장이 고조되며 유가 변동성이 확대되고 있으나, 현물 시장에선 여전히 저금리 환경(미10년 4.57%)과 완화적 신용(HY스프레드 2.70%)이 지배적이어 위험자산 강세가 지속 중이다. AI 데이터센터 수요에 따른 고급 패키징 병목(TSMC CoWoS 부족)과 메모리 칩 공급 제약(2030년까지 부족 예상)이 심화되면서 GPU/HBM 밸류체인의 공급 리스크가 구조화되고 있다.",
+  "text": "지정학 긴장(이란-중동 분쟁)이 유가 상승 압력으로 작용하지만, VIX 15·HY스프레드 2.70%·NFCI -0.52 등 금융조건은 여전히 완화되어 있으며 고금리(미10년 4.57%)에도 리스크자산 쏠림이 지속 중이다. AI 데이터센터 수요에 따른 HBM 공급 병목(SK하이닉스 2030년까지 부족 예상, TSMC CoWoS 포화)이 고심화되는 가운데 애플·마이크로소프트의 고비용 AI capex 경합과 기술분쟁이 밸류체인 단가 압박으로 작용하고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1739,7 +1739,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 3,
+   "geo": 2,
    "capex": 5,
    "news": 16
   }
@@ -2422,7 +2422,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T12:12:21+00:00",
+  "checked": "2026-07-12T12:22:04+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T06:42:14+00:00",
+ "updated": "2026-07-12T06:52:20+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.55,
-   "chg": 0.96,
-   "chg5": 6.34,
-   "sma20": 68.71,
-   "sma50": 72.19,
-   "sma200": 72.74,
+   "chg": 1.44,
+   "chg5": 3.65,
+   "sma20": 70.08,
+   "sma50": 72.08,
+   "sma200": 72.88,
    "high3m": 86.07,
    "reg": 69.55,
    "pre": null,
    "post": null,
-   "regClose": 69.55,
+   "regClose": 65.4,
    "sess": "reg",
    "mt": 1783715415,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63730.73,
-   "chg": -0.11,
-   "chg5": 0.68,
-   "sma20": 61832.17,
-   "sma50": 64875.65,
-   "sma200": 72293.67,
+   "price": 63700.0,
+   "chg": -0.16,
+   "chg5": 0.64,
+   "sma20": 61830.63,
+   "sma50": 64875.03,
+   "sma200": 72293.5,
    "high3m": 81728.3,
-   "reg": 63730.73,
+   "reg": 63700.0,
    "pre": null,
    "post": null,
-   "regClose": 63730.73,
+   "regClose": 63700.0,
    "sess": "reg",
-   "mt": 1783838504,
+   "mt": 1783839110,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Oil Market Risks Breaking $100, Eni CEO Warns - Egypt Oil & Gas",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9TRjBSdElQODhhSlZGUUZ6NG01TDlnbldia1E0WUY2TFItek1haXdtUGhiOTgwemZYOE9sVzgwRzdjTVZySnVISTNnSGZiVDEyb3QzeTF0UXcwdnEzYkU2S3dPZXFsU09ncDh2Vk1GT3RZRTVKZjd2cDRGVVEtVGs?oc=5",
+    "pub": "Sun, 12 Jul 2026 06:41:42 GMT",
+    "src": "Egypt Oil & Gas",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Iran blames US-Israeli drone strike near Yasuj as Middle East tensions simmer, crypto markets shrug - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5qM0M2YjI1TVVHanhISkdiWVRTUzdwcHRMVW5oNlRoTHBIbGp2UTF6SWVqWUwzSFRucENIbDl6VXBDTTJlUjM4NVVSZ3NidkxLMnRmbjM4RkNqUUt5bzRRdE1FSFdaa3NHQnV3b1kwZGdsY211?oc=5",
     "pub": "Sun, 12 Jul 2026 06:26:36 GMT",
@@ -1260,14 +1268,6 @@
     "title": "Russia exploits Japan’s weak anti-espionage laws for military tech boost - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQT3JrZTRycXpVU0QwNmNkcTNCUzQwY0NGSVFlNnhYTTJrSmp5Zy1xREowSlQ5eXRVX2ZtVjFoVE16a09oSUhSbzRXejUycF81WEFUaHl3UndKZk1FbWlnNDNPMFBEUlViUjdZaVFWc3R5aGdEUDEycHpzNUhvZGh1aVdEXzJqcGhlRG90X3dnN1ZYNGw4c1ZtSk1sWHdIejNL?oc=5",
     "pub": "Sun, 12 Jul 2026 04:25:41 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US completes third strike operation against Iran this week - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPQVpQQVZDeEstbm9feDM5NkN1anFTN1JFQ0Nob1ZhYnJiYWk0OEVzVXRmZGlWYnE4VlRhd2FSREEyMi00MXNSYzU0VFI1dWtGNHhERmNhV1NPbDdjMjRRVkRJaGxyRDlvcEF3R2E0SzJHYy1vRGRUX2ZydVJNNTd5Q2ZuZlItakFWZUhfWXZScw?oc=5",
-    "pub": "Sun, 12 Jul 2026 04:13:13 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1525,17 +1525,17 @@
   "move": [
    74.42,
    65.7,
-   66.97,
-   70.41,
-   67.25,
-   69.63,
-   79.72,
-   70.22,
-   75.2,
-   69.45,
-   65.39,
-   66.79,
-   69.55
+   67.7,
+   72.07,
+   70.63,
+   71.68,
+   85.32,
+   74.95,
+   73.43,
+   76.98,
+   69.36,
+   70.02,
+   65.4
   ],
   "jpy": [
    159.11,
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   63714.56
+   63693.25
   ],
   "vixts": [
    0.901,
@@ -2423,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T06:42:03+00:00",
+  "checked": "2026-07-12T06:52:08+00:00",
   "openai": {
    "found": false
   },

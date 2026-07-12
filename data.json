@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T16:52:30+00:00",
+ "updated": "2026-07-12T17:02:46+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64085.85,
-   "chg": 0.44,
-   "chg5": 1.25,
-   "sma20": 61849.93,
-   "sma50": 64882.75,
-   "sma200": 72295.62,
+   "price": 64095.82,
+   "chg": 0.46,
+   "chg5": 1.26,
+   "sma20": 61850.43,
+   "sma50": 64882.95,
+   "sma200": 72295.68,
    "high3m": 81728.3,
-   "reg": 64085.85,
+   "reg": 64095.82,
    "pre": null,
    "post": null,
-   "regClose": 64085.85,
+   "regClose": 64095.82,
    "sess": "reg",
-   "mt": 1783875112,
+   "mt": 1783875723,
    "ok": true
   },
   "USO": {
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Strait of Hormuz Tensions Risk Oil Price Surge - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQRWlMV3VqMnRIR0s4bV93WVJ6TUowcEcyRTNYVjRYc2RIbHRJeDROOEx2aHBpaHVoVUpoREhyWTNyNWFsM2lzeEJibUNNRW1oTjc1cUNaeUp2UDZfYXVtY0t1bkloMEVuSk9kZGtJLUhYZ2Z0aWF5ejRBRlY3R2pRY2dFTDVkQy1B?oc=5",
+    "pub": "Sun, 12 Jul 2026 15:53:06 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Iran justifies missile strike on US base in Qatar amid regional tensions - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQRWtMZzBzMHBvM0dVOWlJVjFwOWpoZjZyZjR5QkZkQ2dwNlJJay1CWU5wQ2NuWFdoamNBV2lIQWZWRzROVVgwWGxGNzNEQ3dTdXE5cUlxUEIwN2RkVUhadHk0SURVR3Y2NHRVU09SYWdsX3dnMEhKN0tuWDZvMk14UlVCRFFKTGJ0MHlQR1phSjFsM2NPaEtvOUhFbUdkaTRqVHc?oc=5",
     "pub": "Sun, 12 Jul 2026 15:02:43 GMT",
@@ -1262,14 +1270,6 @@
     "pub": "Sun, 12 Jul 2026 14:05:11 GMT",
     "src": "DD India",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Credit Market Is Sending A Warning On AI Stocks - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxON3hyeGVoZWstbzdmbDV2ZjFBNnhqTVdubDB0TkZxVGRDY2hmY3hoSUs5VUJYXzUwVHJKRTNtYzNQYlo2ZGdYUkFKTlhtQUVHOUlYVXl4eWZaVTdLM1NsbWRYd05pcUF6b09jT2NNNnZQZVBTRTRpNXZ3Tzh2MzVLWkNQMVZjVENuRXpv?oc=5",
-    "pub": "Sun, 12 Jul 2026 13:55:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64062.0
+   64095.82
   ],
   "vixts": [
    0.901,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장이 고조되는 가운데 AI 인프라 금융화로 인한 신용 리스크가 부각되고 있으며, 낮은 VIX(15)와 견조한 주가에도 불구하고 사모대출 기본값 우려와 기술주 CDS 스프레드 확대가 잠재 위험을 시사한다. Microsoft 연 $270B capex 투자 지속과 GPU 가격 압력 속에서 AI 인프라 파이낸싱($24.9B CoreWeave 채무)의 수익성 검증 이슈가 신용 시장 경고 신호로 작동 중이다.",
+  "text": "중동 지정학 긴장이 고조되면서 유가 상승 리스크가 부각되는 가운데, 낮은 VIX(15)와 강한 달러(DXY 101)로 시장은 여전히 낙관적이나 신용 부문에서는 사모대출 연체율 우려와 기술주 CDS 스프레드 확대가 신호를 보내고 있다. AI capex 경쟁 심화로 GPU 가격 하락 압력이 커지는 가운데 CoreWeave 등 대규모 레버리지 파이낸싱이 연기금 리스크를 증가시키면서 인프라 부문 수익성 우려가 대두되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1739,11 +1739,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 2,
-   "geo": 3,
+   "geo": 4,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 0.5,
@@ -2192,10 +2191,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-10T17",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-10T18",
     "v": 2.73
    },
@@ -2382,6 +2377,10 @@
    {
     "d": "2026-07-12T16",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-12T17",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2423,7 +2422,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T16:52:09+00:00",
+  "checked": "2026-07-12T17:02:23+00:00",
   "openai": {
    "found": false
   },

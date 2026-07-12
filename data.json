@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T12:22:19+00:00",
+ "updated": "2026-07-12T12:32:28+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63995.99,
-   "chg": 0.3,
-   "chg5": 1.1,
-   "sma20": 61845.43,
-   "sma50": 64880.95,
-   "sma200": 72295.13,
+   "price": 64010.45,
+   "chg": 0.33,
+   "chg5": 1.13,
+   "sma20": 61846.16,
+   "sma50": 64881.24,
+   "sma200": 72295.21,
    "high3m": 81728.3,
-   "reg": 63995.99,
+   "reg": 64010.45,
    "pre": null,
    "post": null,
-   "regClose": 63995.99,
+   "regClose": 64010.45,
    "sess": "reg",
-   "mt": 1783858905,
+   "mt": 1783859516,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Israeli drone strike kills two Palestinians in Gaza City, violating ceasefire - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVjB6T0JLZWpvaG9LMzZncWZ5OTVGbXFpYkZ3Q2IxUFdzNWZ0TW9ucTdwMHZQUVVQMWRLcFZaOW9JSl9jZUljSEJFZEh4V0IyTzBsRmJHNHVvUTYzaklrM0Z6Q3pwUTdpQkg3MEJvOFRYaVpMTFZGckpHSGVfR2I1ZldsZjdZM2M1bVhEYXIxVzJwOS0tcUJnWU5XQkZzZmgybFVNV2I1VQ?oc=5",
+    "pub": "Sun, 12 Jul 2026 12:23:26 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Geopolitical Risk Returns as Oil and Bond Yields React: What Markets Are Watching - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQam43cXlnNjlxM0pJTWFDUGRHcTNIbHZrT1pzbzNXT3E0ZTRQSHplUDdmR3M1REFSQUszbGJlUjJSMDFmUzJ0VWpZRDlJeU9zLXpDSnZVcFZHSGoyNV9tSEhDZTh3QzdSNW9PRmNic3ZCUG5mOUl0RUNTZXhBeHpqYnNtWHM5b0ZhUHNaMEd5bGl2TjBhR2c?oc=5",
     "pub": "Sun, 12 Jul 2026 11:59:00 GMT",
@@ -1260,14 +1268,6 @@
     "title": "US strike disrupts communication network in Kerman amid 2026 Iran war - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdUZBOFZoNWNyQm9WYUlrbkxCd0RVRWdiZ1NPcWtnODA0a1JhcTM2TFBIWU1SUnR1WWNKYkYxc25NRHkySERuTG0zblJWczEtckZSSk1ycEtNV2JZS0xOcXBZdDE4R01XaE1qbnhZMUU0QmYxUFZERThVV0ppVnEyaFNiNTkyQVNONE00N2V6bTFKRUUzUENYNTE3bjVzdw?oc=5",
     "pub": "Sun, 12 Jul 2026 08:19:37 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iranian navy officer killed in US strikes amid escalating tensions - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeEtjRmFjM2FGcUNpcnl2cEVFNmZsVVJ3aWtqM21lbWs4MUJYQlhFTTRnTHlXN3lYMHJnampiYUZseHQ2eVNaYm9peWI3NmRmWXY5YW1UVDJmR3c1Si16TGE2YWFySjAxWFVRQm1lRHNzVC1QUXUzLUdKbVVOSi1VLU1kbUlfWVpLUVA4dHNZbjM3a0djM0tGTlFR?oc=5",
-    "pub": "Sun, 12 Jul 2026 08:19:36 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   63995.99
+   64008.84
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0.5,
@@ -2422,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T12:22:04+00:00",
+  "checked": "2026-07-12T12:32:14+00:00",
   "openai": {
    "found": false
   },

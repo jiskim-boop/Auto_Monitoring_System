@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-12T12:32:28+00:00",
+ "updated": "2026-07-12T12:42:22+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64010.45,
-   "chg": 0.33,
-   "chg5": 1.13,
-   "sma20": 61846.16,
-   "sma50": 64881.24,
-   "sma200": 72295.21,
+   "price": 63972.43,
+   "chg": 0.27,
+   "chg5": 1.07,
+   "sma20": 61844.26,
+   "sma50": 64880.48,
+   "sma200": 72295.0,
    "high3m": 81728.3,
-   "reg": 64010.45,
+   "reg": 63972.43,
    "pre": null,
    "post": null,
-   "regClose": 64010.45,
+   "regClose": 63972.43,
    "sess": "reg",
-   "mt": 1783859516,
+   "mt": 1783860112,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4113.7,
-   "chg": -0.41,
+   "chg": 0.23,
    "chg5": 0.02,
-   "sma20": 4140.02,
-   "sma50": 4373.44,
-   "sma200": 4667.02,
+   "sma20": 4139.53,
+   "sma50": 4373.25,
+   "sma200": 4666.95,
    "high3m": 4857.6,
    "reg": 4113.7,
    "pre": null,
    "post": null,
-   "regClose": 4113.7,
+   "regClose": 4104.1,
    "sess": "24h",
    "mt": 1783717197,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.28,
-   "chg": 1.08,
+   "chg": 0.78,
    "chg5": 2.74,
    "sma20": 6.23,
    "sma50": 6.26,
@@ -1084,7 +1084,7 @@
    "reg": 6.28,
    "pre": null,
    "post": null,
-   "regClose": 6.28,
+   "regClose": 6.23,
    "sess": "24h",
    "mt": 1783717183,
    "ok": true
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Why Nebius Rocketed 230% in the First Half of 2026 - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNeDdybWNJeURXbkJsejNGdXZvSWZTYXBPOWY4N2dJSjdoR3ZkcnNTdmt2NnIyQ3BHZVVfdHlhYnpKOXpQQVdWSzZsR1F6MnlQNGM0ekhrVGlaSXJscnNoZWRhMzZlSks0SThpOVRldzM5SzV2dmp5YmR6cnFWVHNUMjYzcEhucy1BMXc5SGhQQkFhUWhQZXRR?oc=5",
+    "pub": "Sun, 12 Jul 2026 12:31:52 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "TSMC Can’t Keep Up With CoWoS Demand, Sending Advanced Packaging Orders Spilling Over To Intel & Rival Taiwanese Fabs - Wccftech",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPVFFMQjdRbGRGbFY0ZDJ5VDk5eFFmdWNIeXhldzdWc05fa25jWkN0TGRERC1ZaE9xN3dHRHJDNXJnVTEzdVpqYXFNaW9yVHNBc3FzMk5SYW9JZjRKMHhhb2dCRjZEWGVtTkttQ2piU1JxRHNOU1FZbHA3LThPREVtNy1wemVVOW9Ybkw0NGtpMjdYM24yUzVyLTFtbVZRREJ6MTZnQW9RalVWTnVhdDZiU084dUc4bzVN0gG-AUFVX3lxTFBUUTJybTc1MnVFN1ZQLWVPSUF4UGdDTDV4WlA1d3JtVlNTcmg2Y3lmdk1DeXhLUVVNWDAzYXlqWlZSRjJCT3pWbmVTYlBILUpmOWFRZHQ1NnB1N0pGVGR3cnZEZldoQUF2eWpjaTJabE5sMmp1aE5kVEpkM21xZEFrT1AweVROYkFPZ3BmWWQ2RW43SjlBUjFObzE1b3pkR2VwSGh6LUo0ZVV6ckRfel9kdlFVeU1hcEpSVEg0LVE?oc=5",
     "pub": "Sun, 12 Jul 2026 11:40:12 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 12 Jul 2026 08:12:00 GMT",
     "src": "Daily Sabah",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple challenges OpenAI’s hardware push in trade-secret lawsuit - Jurist.org",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0NIM2tZczlNVFQ2VXgxbUJXbl9UMTNvNEtZeGs3M2xZQ1pRc3hjSjBvcDFrYVBGdHotWFRKQktlazhTbWVWMzBkU3UycXlkOXZnS0NybjlIMHZTbG9odG1hUFllcG4xcnFlOFdYWHg5MEZzYzZyTE5RaWlvTC1lVFl6Sm9kTmZacVNaa0lLdU5ORFI0NS1XeFdMRmJETzRV?oc=5",
-    "pub": "Sun, 12 Jul 2026 07:10:50 GMT",
-    "src": "Jurist.org",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    65710.4,
    63237.54,
    59532.34,
-   64008.84
+   63966.02
   ],
   "vixts": [
    0.901,
@@ -2423,7 +2423,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-12T12:32:14+00:00",
+  "checked": "2026-07-12T12:42:10+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13T21:52:43+00:00",
+ "updated": "2026-07-13T22:03:06+00:00",
  "prices": {
   "NVDA": {
    "price": 203.53,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.27,
+   "price": 101.28,
    "chg": 0.3,
    "chg5": 0.42,
    "sma20": 100.87,
    "sma50": 99.74,
    "sma200": 99.0,
    "high3m": 101.61,
-   "reg": 101.27,
+   "reg": 101.28,
    "pre": null,
    "post": null,
-   "regClose": 101.27,
+   "regClose": 101.28,
    "sess": "reg",
-   "mt": 1783978921,
+   "mt": 1783979529,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61975.06,
-   "chg": -2.8,
-   "chg5": -0.45,
-   "sma20": 61798.9,
-   "sma50": 64576.07,
-   "sma200": 72133.29,
+   "price": 62096.4,
+   "chg": -2.61,
+   "chg5": -0.26,
+   "sma20": 61804.96,
+   "sma50": 64578.5,
+   "sma200": 72133.95,
    "high3m": 81051.25,
-   "reg": 61975.06,
+   "reg": 62096.4,
    "pre": null,
    "post": null,
-   "regClose": 61975.06,
+   "regClose": 62096.4,
    "sess": "reg",
-   "mt": 1783979526,
+   "mt": 1783980131,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.41,
-   "chg": 0.33,
-   "chg5": 0.2,
-   "sma20": 161.79,
+   "price": 162.44,
+   "chg": 0.34,
+   "chg5": 0.21,
+   "sma20": 161.8,
    "sma50": 160.12,
-   "sma200": 158.5,
+   "sma200": 158.51,
    "high3m": 162.63,
-   "reg": 162.41,
+   "reg": 162.44,
    "pre": null,
    "post": null,
-   "regClose": 162.41,
+   "regClose": 162.43,
    "sess": "reg",
-   "mt": 1783979512,
+   "mt": 1783980137,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,26 @@
   ],
   "fundamental": [
    {
+    "title": "XAI’s Grok Build CLI caught uploading private code and secrets to Google Cloud bucket - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5RRngtVlBKOV9BLVp4SldkU0Rta0VYSWkxR3JKSzFDWFVXcVdnY1ZTR3dJMUF2NDRabzlKeUd4bUdBM29GUVVYNWtUVVFZZmtxUk0yLVdyZjQtZGZTRTI5d3EwUFBMRzlPdzdlVVN4WS03QQ?oc=5",
+    "pub": "Mon, 13 Jul 2026 21:53:08 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "xAI's Grok Build CLI Was Uploading Entire Repositories to Google Cloud. The Company Has Said Nothing. - Glitchwire",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQXBCd2J2WGJ0ZkNlSFdoemgtTUh4LVQyNmt5a3dhemptZkJTanBHU2N4b3hFUVpHNFpkaGt3aUNkSkxxWkJqQ25sMmZiby1qZWo0SkFLM3ZzZW5vVE90UEdTSHo1b3pXaFhPVk5fVnNRS1k5SnJVQUZiZG1nTklVVl9BQnNFeEpiNkh0TFh0TVRTXy1uYlFfTmtreWRYQVBWeE5XVXNia0I3WjdVWFE?oc=5",
     "pub": "Mon, 13 Jul 2026 21:30:28 GMT",
     "src": "Glitchwire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX plans overnight rocket launch from Florida early Tuesday - Florida Today",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNbEFBT1VNQUdvcWhFVTVfb0NUd2tRYUlHcUUwdFNqc19MVnNMckk5QTNlMmFPY2FmNmMtanFIRFBNTl9xWWtpY3lDQmpxbDlZcXJ2UFVOTE5HZXVhSzh2WFRkNW85R0xCMGhQeVh6ZEhZM3Y0RWFKd19HbDZ1OEhNc19TZ3VtODZCaWMxRGxKRGY1NjlIS3VBaEpENlFsd0xhT3NkamVKTGlnT0FWLWVOZU1lZlpCVDVtWUowZFp6X29vZ3FrVk1xSU9EOWJ2U184eEdMRjItNA?oc=5",
+    "pub": "Mon, 13 Jul 2026 21:25:00 GMT",
+    "src": "Florida Today",
     "trig": false,
     "geo": false
    },
@@ -1204,22 +1220,6 @@
     "pub": "Mon, 13 Jul 2026 20:24:00 GMT",
     "src": "Barron's",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Thanks to Apple's lawsuit, OpenAI's hardware might never see the light of day - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeXk5RUNvVTFzSFFyM1hsbUtaNi1jU0p0d09CcElYaHZGdkt2YzFKNW9VdTh5UDFpcWVvMkpJNTlnel82V1BfbXU4QjRmbEdyQkFUZXFvSDV4UVlILUZKeWRTSEhoOGVmZDJ5Zlo2ZTlrbElFdF84d3k4eUVCbzN2SnNQakh0cWlPVUhvd0otcmt2aEwwNDBDNXoxdFAtWlhrVVU1SzNQTzVqWWdaUFlHU3dST3N0eEJyS2JOZzVoeVo5QQ?oc=5",
-    "pub": "Mon, 13 Jul 2026 20:16:19 GMT",
-    "src": "Yahoo Finance UK",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Why Smart Money Is Quietly Swapping VGT for Its Nearly Identical, Cheaper Twin - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRDBZS0lMRW5mY1hnYXQ0WWxHczVkSk5vMmN3QjFzcjdMU1BDTWpMQVNILUNDVlU2SWFhTzNNVVBqTmNSSlBCT2pIaUQxOFkwN0tEd3dYeEdGYmgwQklyb3VMcFhFQ3p3TVltY181Z2QxUFI0UGQzemY2eDd0NFFobE5vNktINTBKbVR3Q3E4WnA3STl6QWpSNlNfYTZSU3J1VEZQb0RnSXRqVnRVbGo1a2pBZkRrcW0zcG0ydFl2Tkk2TmM?oc=5",
-    "pub": "Mon, 13 Jul 2026 20:15:43 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    160.23,
    161.57,
    161.92,
-   162.41
+   162.45
   ],
   "uso": [
    123.85,
@@ -1610,7 +1610,7 @@
    66289.5,
    63952.11,
    60138.38,
-   61988.37
+   62105.03
   ],
   "vixts": [
    0.918,
@@ -2203,10 +2203,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-11T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-11T23",
     "v": 2.73
    },
@@ -2393,6 +2389,10 @@
    {
     "d": "2026-07-13T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-13T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-13T21:52:28+00:00",
+  "checked": "2026-07-13T22:02:43+00:00",
   "openai": {
    "found": false
   },

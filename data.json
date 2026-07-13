@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-13T21:42:23+00:00",
+ "updated": "2026-07-13T21:52:43+00:00",
  "prices": {
   "NVDA": {
    "price": 203.53,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 254500.0,
-   "chg": -8.45,
-   "chg5": -17.77,
-   "sma20": 323325.0,
-   "sma50": 303340.0,
-   "sma200": 233244.21,
+   "chg": -10.7,
+   "chg5": -19.97,
+   "sma20": 319200.0,
+   "sma50": 303990.0,
+   "sma200": 233418.44,
    "high3m": 362500.0,
    "reg": 254500.0,
    "pre": null,
    "post": null,
-   "regClose": 285000.0,
+   "regClose": 254500.0,
    "sess": "reg",
    "mt": 1783924220,
    "ok": true
   },
   "000660.KS": {
    "price": 1845000.0,
-   "chg": -15.6,
-   "chg5": -23.92,
-   "sma20": 2488050.0,
-   "sma50": 2143040.0,
-   "sma200": 1436512.4,
+   "chg": -15.37,
+   "chg5": -21.25,
+   "sma20": 2465900.0,
+   "sma50": 2153940.0,
+   "sma200": 1439860.66,
    "high3m": 2919000.0,
    "reg": 1845000.0,
    "pre": null,
    "post": null,
-   "regClose": 2180000.0,
+   "regClose": 1845000.0,
    "sess": "reg",
    "mt": 1783924213,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.28,
-   "chg": 0.31,
-   "chg5": 0.43,
+   "price": 101.27,
+   "chg": 0.3,
+   "chg5": 0.42,
    "sma20": 100.87,
    "sma50": 99.74,
    "sma200": 99.0,
    "high3m": 101.61,
-   "reg": 101.28,
+   "reg": 101.27,
    "pre": null,
    "post": null,
-   "regClose": 101.28,
+   "regClose": 101.27,
    "sess": "reg",
-   "mt": 1783978308,
+   "mt": 1783978921,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61857.15,
-   "chg": -2.98,
-   "chg5": -0.64,
-   "sma20": 61793.0,
-   "sma50": 64573.72,
-   "sma200": 72132.64,
+   "price": 61975.06,
+   "chg": -2.8,
+   "chg5": -0.45,
+   "sma20": 61798.9,
+   "sma50": 64576.07,
+   "sma200": 72133.29,
    "high3m": 81051.25,
-   "reg": 61857.15,
+   "reg": 61975.06,
    "pre": null,
    "post": null,
-   "regClose": 61857.15,
+   "regClose": 61975.06,
    "sess": "reg",
-   "mt": 1783978914,
+   "mt": 1783979526,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.42,
+   "price": 162.41,
    "chg": 0.33,
    "chg5": 0.2,
-   "sma20": 161.8,
+   "sma20": 161.79,
    "sma50": 160.12,
-   "sma200": 158.51,
+   "sma200": 158.5,
    "high3m": 162.63,
-   "reg": 162.42,
+   "reg": 162.41,
    "pre": null,
    "post": null,
-   "regClose": 162.42,
+   "regClose": 162.41,
    "sess": "reg",
-   "mt": 1783978912,
+   "mt": 1783979512,
    "ok": true
   },
   "ES=F": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Eagle Point Credit (NYSE: ECC) estimates NAV and income for quarter ended June 30, 2026 - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUHcxU2h6YmExYk0yUzBycVRySEVPdWQyMFJQVTVJTDhIT3liRE1qZG9hNmJXSHpZR0dFMVM3WXNrNlB2QTF3dmZ0ODBremYtYXZ4d3lFcXUteDhtd01wRFBOUWRsVnpLWUpac18zalVvbEgtenhodmE3VWRTVWhHVF9tMTBqQ3JaWmRpRm13Vm53V05TUW1JdGJORnp3WGk1aThVVklnQU91SmdnV0E?oc=5",
+    "pub": "Mon, 13 Jul 2026 21:30:11 GMT",
+    "src": "Stock Titan",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Epic vs. Apple Enters New Phase as Court Battle Over App Store Fees Escalates - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxObUJJQ1ROUE1jbkFiNFF0SmU2Vm5rTW05WDBTSlV3RUg3b0h3ZklXM3hsbjdNLWMwUm1HN2x5OWJISDFGX0o1Tk9fY3VuV0hqeC0tN2xPRlBtMjJZN3Z2N21OQXRZeUprLU9GVFRTbURESUdhQ2ZjcjFjdTNBWWo4OTFoeG5zMlFiYjkyNHBudEJxUk1PQ0xzeHpTM3pZcWhuMVdfQS00bDRzanE5UFN6a0hyRGVZMUpPTHVSc1FqSnh1VkNPN1gwSUkwaWJxV0VRYnRxWFNoaw?oc=5",
     "pub": "Mon, 13 Jul 2026 20:16:11 GMT",
@@ -1163,14 +1171,6 @@
     "src": "Alternative Credit Investor",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Data Center Plastics Market Size to Hit USD 5.84 Billion by 2035 - Precedence Research",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE54VWhoWGdiUTlIRFZFUk9aeDFxX0JFNXMxUkRMUzdZRklZY2U4S0hodVpiTnMyaWtTNHRTWkF6ZFlqeUVXV3VBbmc0Ny1hOUEzLUd3MG55bE5MX1hiVlE0TTE0VlFBcWc1WF9aOW5wdw?oc=5",
-    "pub": "Mon, 13 Jul 2026 13:04:05 GMT",
-    "src": "Precedence Research",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1207,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "Thanks to Apple's lawsuit, OpenAI's hardware might never see the light of day - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQdGQ1Vl83QVpEM29TNzlfdW12R1VvRGkzamVIZTJLal9vVXZSODE4bHNOYlFwWUNOU21WeW9LQXlxTTVibjQzRzhlb0lFNFVUYkdFNG5sSGFKcEs4ZmMtUWZvSEdSTVZkcXA1Ymp6WldQYlJBdkFvQmVUWS1peDFhMjJtX1dFUFEzLXJUbWpOd29tNmNJbTFpTzFYZENxUDdMcmdaUTA0dE1vejhLV0YyMTlVQmRfalZreExkZUd3?oc=5",
+    "title": "Thanks to Apple's lawsuit, OpenAI's hardware might never see the light of day - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOeXk5RUNvVTFzSFFyM1hsbUtaNi1jU0p0d09CcElYaHZGdkt2YzFKNW9VdTh5UDFpcWVvMkpJNTlnel82V1BfbXU4QjRmbEdyQkFUZXFvSDV4UVlILUZKeWRTSEhoOGVmZDJ5Zlo2ZTlrbElFdF84d3k4eUVCbzN2SnNQakh0cWlPVUhvd0otcmt2aEwwNDBDNXoxdFAtWlhrVVU1SzNQTzVqWWdaUFlHU3dST3N0eEJyS2JOZzVoeVo5QQ?oc=5",
     "pub": "Mon, 13 Jul 2026 20:16:19 GMT",
-    "src": "Yahoo Finance",
+    "src": "Yahoo Finance UK",
     "trig": true,
     "geo": false
    },
@@ -1276,8 +1276,8 @@
   "flow": [
    {
     "title": "Gold’s Failed War Rally Shows Rates Still Matter More Than Safe Havens - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSzYtZ2h6bFFERTh4QkUwX2lhNnczdmVfNENSOUp2MEhCc1Z0RzZ2Q0JIU3VZUGlBcnBCejlyZ2R0M0dRZWF6SUtiRkI1VExtN3VKdU9mbHJqY3ZMTm4zUnM0ZEVIemlmR0VZb09WQ2VQeFVvcVVZQi0xeFZ0VVgyMzFIR05ydHQwZnRVOVN4RHk0c2pvTldWQVZwZ3Bua2wxU0FmaTBKNEk4bmh3VER3Vm1xYlA?oc=5",
-    "pub": "Mon, 13 Jul 2026 20:48:24 GMT",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONTRkeWVUdWExazJiUDZ6YmcxVVFIcjM3VFpPQ3Yxcll5bUdYWm5sa2ZfWkxZMVNVaV9NbTg0ak05ZGpuMDF6bDhRa194eXlwbndMMlNMSVY0amVWVFNMMUZ2cmxZVnlGTWkwa2FyN3hkQVdYajg3OVJpZG1DejV1MUhkZzZtTXdHZmJyVm5Tcm9HOUFEYlNGTW4xekVLLVFXRGxSTDhDWFZrMHpFV2g2cElNekZha3ZNSHpDV1dUUQ?oc=5",
+    "pub": "Mon, 13 Jul 2026 20:35:00 GMT",
     "src": "Investing.com",
     "trig": false,
     "geo": false
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Why is gold a safe haven investment? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUl92OFgxdjZaakxMLWNlTHI3M1p0Sjk5a256U2lzeDNmcjdlWUc0ZHo0djBrZm4wdTJiaUpGbU5pSlFwY0FYeU1QUGJtZWVpQjB3Tm1nclRLcm1XY2xxeDRGXzdRbHd5RlV5dmtrR1Jqa1VMLURMclRLYkZfRmtRb2l0RFF1RjlCeDJpLVlKRkY2NldaYlQ3VzVEd05xSTVjYXNGX09WSlNsWEVITlRQTg?oc=5",
-    "pub": "Mon, 13 Jul 2026 19:03:43 GMT",
-    "src": "Yahoo Finance",
+    "title": "Investors Turn to Gold as Inflation Worries and Market Volatility Persist - HarianBasis.co",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdmUwdG1XSloyN1dVYjhOdXJ1Q3ZHbVlCamV6MVN6aThaVng0TThCWWkyQnczbFlHRGFVWkQzOFpkQVZsdEZ2RzVxaWZhdmR3dzZoY05aNkZZOVNUSzdIeElhYkNXSUE5Ukg5V2J6QjJBNC14RUUwa1ZyM2RJN1YyTmNscw?oc=5",
+    "pub": "Mon, 13 Jul 2026 19:21:26 GMT",
+    "src": "HarianBasis.co",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Copper Price Forecast 2026: AI & Clean Energy Drive Supply Crunch - Intellectia AI",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBkT2hwa1Z2Z2JHbXJtZnFSVGE5eFJrZVNjTUhzX2NJcDZWSm1ERmFhSlJDNTZPWjBzWmFxRmNVSmFueHM5bEV6YUJSWEczNWZILUFvdzZRcC1EbzVSRS1LNjZ0Q1FlQ2NnemRtUkRtczVPQQ?oc=5",
-    "pub": "Mon, 13 Jul 2026 18:33:45 GMT",
-    "src": "Intellectia AI",
+    "title": "Why is gold a safe haven investment? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPUl92OFgxdjZaakxMLWNlTHI3M1p0Sjk5a256U2lzeDNmcjdlWUc0ZHo0djBrZm4wdTJiaUpGbU5pSlFwY0FYeU1QUGJtZWVpQjB3Tm1nclRLcm1XY2xxeDRGXzdRbHd5RlV5dmtrR1Jqa1VMLURMclRLYkZfRmtRb2l0RFF1RjlCeDJpLVlKRkY2NldaYlQ3VzVEd05xSTVjYXNGX09WSlNsWEVITlRQTg?oc=5",
+    "pub": "Mon, 13 Jul 2026 19:03:43 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    99.75,
    101.02,
    101.11,
-   101.27
+   101.28
   ],
   "bizd": [
    12.85,
@@ -1550,7 +1550,7 @@
    160.23,
    161.57,
    161.92,
-   162.42
+   162.41
   ],
   "uso": [
    123.85,
@@ -1610,7 +1610,7 @@
    66289.5,
    63952.11,
    60138.38,
-   61858.63
+   61988.37
   ],
   "vixts": [
    0.918,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.5,
@@ -2433,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-13T21:42:10+00:00",
+  "checked": "2026-07-13T21:52:28+00:00",
   "openai": {
    "found": false
   },

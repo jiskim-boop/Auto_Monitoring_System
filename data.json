@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T22:37:48+00:00",
+ "updated": "2026-07-14T22:42:27+00:00",
  "prices": {
   "NVDA": {
    "price": 211.8,
@@ -82,8 +82,20 @@
    "ok": true
   },
   "MRVL": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 222.44,
+   "chg": 2.26,
+   "chg5": -3.58,
+   "sma20": 266.15,
+   "sma50": 233.83,
+   "sma200": 153.37,
+   "high3m": 316.43,
+   "reg": 222.44,
+   "pre": null,
+   "post": null,
+   "regClose": 222.44,
+   "sess": "reg",
+   "mt": 1784059201,
+   "ok": true
   },
   "MU": {
    "price": 983.12,
@@ -102,8 +114,20 @@
    "ok": true
   },
   "SNDK": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 1757.82,
+   "chg": 5.01,
+   "chg5": 8.66,
+   "sma20": 1960.85,
+   "sma50": 1713.67,
+   "sma200": 1099.13,
+   "high3m": 2335.0,
+   "reg": 1757.82,
+   "pre": null,
+   "post": null,
+   "regClose": 1757.82,
+   "sess": "reg",
+   "mt": 1784059200,
+   "ok": true
   },
   "STX": {
    "price": 878.31,
@@ -330,8 +354,20 @@
    "ok": true
   },
   "GEV": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 1066.01,
+   "chg": 2.25,
+   "chg5": -1.03,
+   "sma20": 1078.56,
+   "sma50": 1037.97,
+   "sma200": 931.0,
+   "high3m": 1174.86,
+   "reg": 1066.01,
+   "pre": null,
+   "post": null,
+   "regClose": 1066.01,
+   "sess": "reg",
+   "mt": 1784059202,
+   "ok": true
   },
   "PWR": {
    "price": 660.94,
@@ -366,8 +402,20 @@
    "ok": true
   },
   "SCCO": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 182.38,
+   "chg": 4.5,
+   "chg5": 7.44,
+   "sma20": 178.01,
+   "sma50": 180.4,
+   "sma200": 183.19,
+   "high3m": 201.37,
+   "reg": 182.38,
+   "pre": null,
+   "post": null,
+   "regClose": 182.38,
+   "sess": "reg",
+   "mt": 1784059202,
+   "ok": true
   },
   "CPER": {
    "price": 38.54,
@@ -562,8 +610,20 @@
    "ok": true
   },
   "BIZD": {
-   "ok": false,
-   "err": "<urlopen error _ssl.c:999: The handshake operation timed out>"
+   "price": 12.56,
+   "chg": 0.72,
+   "chg5": 1.54,
+   "sma20": 12.43,
+   "sma50": 12.59,
+   "sma200": 12.94,
+   "high3m": 13.36,
+   "reg": 12.56,
+   "pre": null,
+   "post": null,
+   "regClose": 12.56,
+   "sess": "reg",
+   "mt": 1784059200,
+   "ok": true
   },
   "ARCC": {
    "price": 18.79,
@@ -870,23 +930,35 @@
    "ok": true
   },
   "GLD": {
-   "ok": false,
-   "err": "The read operation timed out"
-  },
-  "BTC-USD": {
-   "price": 64911.85,
-   "chg": 4.29,
-   "chg5": 2.72,
-   "sma20": 62007.94,
-   "sma50": 64333.99,
-   "sma200": 71967.65,
-   "high3m": 81051.25,
-   "reg": 64911.85,
+   "price": 372.15,
+   "chg": 1.37,
+   "chg5": -1.41,
+   "sma20": 377.75,
+   "sma50": 399.1,
+   "sma200": 428.07,
+   "high3m": 445.93,
+   "reg": 372.15,
    "pre": null,
    "post": null,
-   "regClose": 64911.85,
+   "regClose": 372.15,
    "sess": "reg",
-   "mt": 1784068552,
+   "mt": 1784059200,
+   "ok": true
+  },
+  "BTC-USD": {
+   "price": 64897.89,
+   "chg": 4.27,
+   "chg5": 2.7,
+   "sma20": 62007.24,
+   "sma50": 64333.72,
+   "sma200": 71967.57,
+   "high3m": 81051.25,
+   "reg": 64897.89,
+   "pre": null,
+   "post": null,
+   "regClose": 64897.89,
+   "sess": "reg",
+   "mt": 1784068912,
    "ok": true
   },
   "USO": {
@@ -918,87 +990,87 @@
    "post": null,
    "regClose": 162.22,
    "sess": "reg",
-   "mt": 1784068555,
+   "mt": 1784068915,
    "ok": true
   },
   "ES=F": {
-   "price": 7590.25,
-   "chg": 0.36,
-   "chg5": 0.52,
-   "sma20": 7519.93,
-   "sma50": 7476.63,
-   "sma200": 7116.11,
+   "price": 7591.0,
+   "chg": 0.37,
+   "chg5": 0.53,
+   "sma20": 7519.97,
+   "sma50": 7476.65,
+   "sma200": 7116.12,
    "high3m": 7623.75,
-   "reg": 7590.25,
+   "reg": 7591.0,
    "pre": null,
    "post": null,
-   "regClose": 7590.25,
+   "regClose": 7591.0,
    "sess": "24h",
-   "mt": 1784067957,
+   "mt": 1784068307,
    "ok": true
   },
   "NQ=F": {
-   "price": 29786.0,
-   "chg": 1.05,
+   "price": 29786.75,
+   "chg": 1.06,
    "chg5": 1.34,
-   "sma20": 29884.52,
-   "sma50": 29601.83,
+   "sma20": 29884.55,
+   "sma50": 29601.85,
    "sma200": 27031.62,
    "high3m": 30712.75,
-   "reg": 29786.0,
+   "reg": 29786.75,
    "pre": null,
    "post": null,
-   "regClose": 29786.0,
+   "regClose": 29786.75,
    "sess": "24h",
-   "mt": 1784067956,
+   "mt": 1784068307,
    "ok": true
   },
   "YM=F": {
-   "price": 52803.0,
-   "chg": 0.07,
+   "price": 52805.0,
+   "chg": 0.08,
    "chg5": -0.74,
-   "sma20": 52490.75,
-   "sma50": 51197.24,
-   "sma200": 49581.67,
+   "sma20": 52490.85,
+   "sma50": 51197.28,
+   "sma200": 49581.69,
    "high3m": 53372.0,
-   "reg": 52803.0,
+   "reg": 52805.0,
    "pre": null,
    "post": null,
-   "regClose": 52803.0,
+   "regClose": 52805.0,
    "sess": "24h",
-   "mt": 1784067954,
+   "mt": 1784068264,
    "ok": true
   },
   "GC=F": {
-   "price": 4057.2,
-   "chg": 1.51,
-   "chg5": -2.13,
-   "sma20": 4126.98,
-   "sma50": 4351.13,
-   "sma200": 4657.76,
+   "price": 4058.0,
+   "chg": 1.53,
+   "chg5": -2.11,
+   "sma20": 4127.02,
+   "sma50": 4351.15,
+   "sma200": 4657.77,
    "high3m": 4857.6,
-   "reg": 4057.2,
+   "reg": 4058.0,
    "pre": null,
    "post": null,
-   "regClose": 4057.2,
+   "regClose": 4058.0,
    "sess": "24h",
-   "mt": 1784067956,
+   "mt": 1784068286,
    "ok": true
   },
   "CL=F": {
-   "price": 80.03,
-   "chg": 2.42,
-   "chg5": 13.61,
-   "sma20": 73.07,
-   "sma50": 86.79,
+   "price": 79.87,
+   "chg": 2.21,
+   "chg5": 13.39,
+   "sma20": 73.06,
+   "sma50": 86.78,
    "sma200": 83.59,
    "high3m": 108.66,
-   "reg": 80.03,
+   "reg": 79.87,
    "pre": null,
    "post": null,
-   "regClose": 80.03,
+   "regClose": 79.87,
    "sess": "24h",
-   "mt": 1784067940,
+   "mt": 1784068310,
    "ok": true
   },
   "HG=F": {
@@ -1012,25 +1084,25 @@
    "reg": 6.37,
    "pre": null,
    "post": null,
-   "regClose": 6.36,
+   "regClose": 6.37,
    "sess": "24h",
-   "mt": 1784067951,
+   "mt": 1784068235,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.94,
-   "chg": 0.22,
-   "chg5": -0.36,
+   "price": 108.95,
+   "chg": 0.23,
+   "chg5": -0.34,
    "sma20": 109.6,
    "sma50": 109.74,
    "sma200": 110.97,
    "high3m": 111.72,
-   "reg": 108.94,
+   "reg": 108.95,
    "pre": null,
    "post": null,
-   "regClose": 108.94,
+   "regClose": 108.95,
    "sess": "24h",
-   "mt": 1784067906,
+   "mt": 1784068303,
    "ok": true
   },
   "EWY": {
@@ -1177,6 +1249,14 @@
     "geo": false
    },
    {
+    "title": "Import Prices Surge 20.6% Year-on-Year Amid High Rates, Oil Costs - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPN1BRZ2Mwc09GZ29HRWU3OXlURjJnV2RDb1dzV3RURmFfZXNtZEdjczlYajVscDZHNlprUVdLUnhPQzJXemtjTXZMcG5ONGlXeF9HVXFNU3hEeDQ2eVNaSjFkcDJ6X2k3RzZhV3VDc0JPQ0dHeV81TE10X0g1MHJDUjRCdDAxc0pEYnh3ZHRB?oc=5",
+    "pub": "Tue, 14 Jul 2026 21:05:03 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Inflation slowed in June. What does that mean for interest rates? - marketplace.org",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa0Z6V0tOMlRUSFEzQjJfTGVRcTBHWklVeGJpOS1RbGJrMFhNRW5KS0NTUloyUHRtRlYtTTZyaHlUUXN2VHlsTzJzNzlYSDU0eWt6SjlhamZuMGtjYi1ycjZyMnFPZjhiWUJFWXVraDRzeWtyYmZPYl9YOFBXTkFwSVdaaTFCU0ZjMG1ydFA5aHNwc2RoVFE?oc=5",
     "pub": "Tue, 14 Jul 2026 20:55:00 GMT",
@@ -1191,14 +1271,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
-    "pub": "Tue, 14 Jul 2026 20:06:28 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1390,7 +1462,21 @@
   }
  },
  "charts": {
-  "vix": null,
+  "vix": [
+   18.36,
+   18.87,
+   18.02,
+   18.29,
+   18.38,
+   17.82,
+   16.59,
+   16.05,
+   18.92,
+   16.2,
+   19.49,
+   16.45,
+   16.5
+  ],
   "tnx": [
    4.26,
    4.25,
@@ -1464,7 +1550,7 @@
    160.42,
    161.6,
    162.63,
-   162.2
+   162.21
   ],
   "uso": [
    122.59,
@@ -1524,9 +1610,23 @@
    65600.64,
    62668.02,
    58558.86,
-   64918.86
+   64891.36
   ],
-  "vixts": null,
+  "vixts": [
+   0.884,
+   0.877,
+   0.879,
+   0.878,
+   0.865,
+   0.852,
+   0.834,
+   0.826,
+   0.91,
+   0.837,
+   0.986,
+   0.842,
+   0.855
+  ],
   "hyoas": [
    2.8,
    2.84,
@@ -1602,7 +1702,21 @@
    0.2849,
    0.2839
   ],
-  "xlf_spy": null,
+  "xlf_spy": [
+   0.0745,
+   0.0743,
+   0.0729,
+   0.0713,
+   0.0699,
+   0.07,
+   0.0691,
+   0.0677,
+   0.0712,
+   0.071,
+   0.0734,
+   0.0718,
+   0.0747
+  ],
   "cape": [
    42.0,
    42.0,
@@ -1646,12 +1760,8 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 17,
-   "missing": [
-    "GLD",
-    "차트:vix",
-    "차트:xlf_spy"
-   ]
+   "ok": 20,
+   "missing": []
   }
  },
  "history": [
@@ -2314,23 +2424,16 @@
   16
  ],
  "feed": {
-  "fail": 6,
-  "failed": [
-   "MRVL",
-   "SNDK",
-   "GEV",
-   "SCCO",
-   "BIZD",
-   "GLD"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 45,
-  "n": 31
+  "pct50": 49,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-14T22:36:12+00:00",
+  "checked": "2026-07-14T22:42:11+00:00",
   "openai": {
    "found": false
   },

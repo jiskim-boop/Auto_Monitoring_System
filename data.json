@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T21:12:37+00:00",
+ "updated": "2026-07-14T21:22:39+00:00",
  "prices": {
   "NVDA": {
    "price": 211.8,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 145.69,
-   "chg": 0.98,
-   "chg5": 0.21,
-   "sma20": 145.15,
-   "sma50": 142.32,
-   "sma200": 143.74,
-   "high3m": 156.93,
-   "reg": 145.69,
+   "price": 145.13,
+   "chg": -0.38,
+   "chg5": -0.42,
+   "sma20": 145.27,
+   "sma50": 142.36,
+   "sma200": 143.75,
+   "high3m": 154.82,
+   "reg": 145.13,
    "pre": null,
    "post": null,
-   "regClose": 145.69,
+   "regClose": 145.13,
    "sess": "reg",
-   "mt": 1783976419,
+   "mt": 1784062818,
    "ok": true
   },
   "^MOVE": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.93,
+   "price": 100.92,
    "chg": -0.35,
    "chg5": -0.21,
    "sma20": 100.93,
    "sma50": 99.8,
    "sma200": 99.01,
    "high3m": 101.61,
-   "reg": 100.93,
+   "reg": 100.92,
    "pre": null,
    "post": null,
-   "regClose": 100.93,
+   "regClose": 100.92,
    "sess": "reg",
-   "mt": 1784062881,
+   "mt": 1784063515,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64576.93,
-   "chg": 3.76,
-   "chg5": 2.19,
-   "sma20": 61991.19,
-   "sma50": 64327.3,
-   "sma200": 71965.81,
+   "price": 64602.39,
+   "chg": 3.8,
+   "chg5": 2.23,
+   "sma20": 61992.46,
+   "sma50": 64327.81,
+   "sma200": 71965.95,
    "high3m": 81051.25,
-   "reg": 64576.93,
+   "reg": 64602.39,
    "pre": null,
    "post": null,
-   "regClose": 64576.93,
+   "regClose": 64602.39,
    "sess": "reg",
-   "mt": 1784063522,
+   "mt": 1784064122,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 162.17,
    "sess": "reg",
-   "mt": 1784063513,
+   "mt": 1784064115,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "How a bungled email soured Apple’s talks with OpenAI months before Apple sued - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWw3VFJzdTlmNnk1cGQzaVZkRFFEUkc4MThOeVRER0Utc3dmUmIyVHY5M0V6cWxacEZCWFdoZkpIYmZhcHhKS2ZnZUlRQ2F6RXdJT0xaQjFyZWYtX29WX0MxMXQzX3h6eEo0T19DVTV3bDZpMUU3eVhDX1N5MFc2V002Z1dlV2kza0dfZGxZYU1LVlFDXzc0LW5rLXVCb1p5XzJ6VGpEOGJ1UTZMTmVmaA?oc=5",
+    "pub": "Tue, 14 Jul 2026 21:18:57 GMT",
+    "src": "NBC News",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Starship's Thirteenth Flight Test - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
     "pub": "Tue, 14 Jul 2026 21:09:57 GMT",
@@ -1213,17 +1221,17 @@
     "src": "The Hill",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceXAI’s Grok programming tool was uploading its users’ entire codebase to cloud storage - The Verge",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMFVoUnJaOFJ2dVZqMmFPeGVkMFhIempiVE5mLWNZMDJGZV9aUlBqLVZHVVMtNFB6UHpmMi1OMUtEOFdFay1qeDM3SE5VOGstVE1GNUR0Qmdxc2lZVkxybk5hTnZJYjBEaHRpeGlXb0lvRngtRGJlRHNvRXNDMTRJd2FpMjBnQjRhNlU4WWlkN2R6Z081VGppaVpWVXc?oc=5",
-    "pub": "Tue, 14 Jul 2026 19:25:00 GMT",
-    "src": "The Verge",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "US retail sales rise 1% in June, marking fifth consecutive gain - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQlF3ZWFRSXB6aFhHSS1TT1JoUkVteFk3QTV5NVAyR1djNmhzV01fWl9HVnpfR0oxRjJTSEhCdGU5ZE9xQzFNTTkxbVYwWDdIMG5YdHVQbjlMeWlmTGEtZ0M1VjdBeEZfVWJCMkg2ZXZqMkRtUDVkYU5xZjhYaVVBVVdR?oc=5",
+    "pub": "Tue, 14 Jul 2026 21:14:14 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Trump threatens strike on Iran’s fortified Pickaxe Mountain nuclear site - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZko4R1Y0ZHYzUFdpdS1tc053VFJ2c3FMZ3FEV3E3bzFCQkRRYTZoVjJhWnR3Y3owem91RHZIWU5aOVVhUzBOdTBUaFhVWXhfMFBSOF9aZ0Q2RGRFejgzaGFRdXlXcXBRbktGSHZWNHhoSW1TUERCb09Eb1k2VEZuME5QbXAyX2xjeEZyNms0d3RoaEpzU3Jud1Yxa2QxOE92?oc=5",
@@ -1263,17 +1271,17 @@
     "src": "finance.biggo.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Trump declares US military no longer needed in Iraq as Baghdad shifts course - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNejNkVjhyV3BLVDM1WWQwTmEtWFBpY2g1eHJCOGRZcmVyYlAzMm05dXdObndnS2xMd3MzVnVZck4xVXpMYkJObmpwS2x6V3poMUJGU0ktQ2pQUmI4eHJYdTU2MXhvWl83NUhfTlFUVS1rQ1dqN21ib3pZaE5ZLU91a04wRlRFZFBOSXM0Vkg2RksxeHJCUXhXVE5qX2JWQ0wwazFjdGdDTQ?oc=5",
-    "pub": "Tue, 14 Jul 2026 18:15:51 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "US Crude Oil, Gasoline Inventories Still Falling - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcGxZRFdEa1JvWmRyYzB1S0xfX2dRd0tWTXNCSG8xb0hiTVVtUXRhTVdwMTJ1TVI3ZjZtR0NPNWgzWlJMajRSaTJwUjFyV3NzajM4WGRPa2xYcUEtT28wUngybHgtZDJKVVQySWhhdW5zUzBHdUdDRHNHeDJ4eVRfZFFXaXN0VnRjOS0yYVRFRVRIZ0YtbWUyUm93b01zS21IbXVWcVB30gGrAUFVX3lxTE1XYmoteVVBZ3ZtWDZ3Tmp6NGNRU3hnX1pZb2tkRE5Yekg5RURmY3BuSXhhYll2N2Noc1FpY3lCM2d5UW05ZEtmeF81eGpjMUtHWWV4WDVBUUx4ajFSbmprOTJOczZidDFtS3otTWthU3U0NjR6dFhUWHJhbjg1MzU2OWpaMEEzMjdyV1ZROFpOM0oxeGN1WkVVMjJaZjJxUXpMVUJqZU8tWFczMA?oc=5",
+    "pub": "Tue, 14 Jul 2026 21:04:18 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil hits $87 per barrel again after latest U.S. strikes on Iran and looming blockade - NBC News",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSVc1RXZGWkRHWTRqZFVUM3hXTHhHQjRGVkhqV2taS1M5b1I5b3NjYm5GeDBEZ25ZT055Tm1sTWxvV3F4dXlvbEIxaFpiUVZMRm9sMDcyb0RSWWoyMjVwc053YmxxSnpSb25SdXF4dXFsN2dhNkIxQUFWYi1QV01lT0FGZzBVQ2RLYy1FS0Ztcw?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNaF9GSmtzNWVoQ25NaEVfSndpSFlrbVpGaWFIUUhSa3ZYOUFMNFpOZFM0UzdjWGdXai1iY0NuZ0d0eEJ2WnFuQk1OOVZ3VGozVkpiMlRRaHpJa2lpMEw3LWttTzVDY1FiZkZIUjUtTDkxakFQQi1QVFc3REhkbGJVUDJiWU03YkRsUWZpT1QwRkRMZHNkTWx1UkZnZFpkMDc5TXgzR1ozVEdpUm9GUnI2NVVSZ2JSZHZvV1d5d0RjTGtwUFJwNmZpUg?oc=5",
     "pub": "Tue, 14 Jul 2026 16:28:02 GMT",
     "src": "Investing.com South Africa",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold & Silver Prices Rebound Strongly Today – July 14, 2026 - - priceit",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9QV1pjRFpNY3NyUzlJekVxcVN4Sm1MdzJXMC1pRFVMN3VZQXR3OUIwN2hONGRNVWFfalNfd2tlYkEwUEd1clRhYmswTVF2X3RJUXd1NmZ3Ri1YdFlrNDlxckdfbHJJUUluNE83dmN5RHB4RllUVk15b2hoR0ZtWWc?oc=5",
-    "pub": "Tue, 14 Jul 2026 16:11:14 GMT",
-    "src": "priceit",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    65600.64,
    62668.02,
    58558.86,
-   64564.02
+   64590.01
   ],
   "vixts": [
    0.884,
@@ -2433,7 +2433,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-14T21:12:22+00:00",
+  "checked": "2026-07-14T21:22:24+00:00",
   "openai": {
    "found": false
   },

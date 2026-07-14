@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-14T21:32:35+00:00",
+ "updated": "2026-07-14T21:42:33+00:00",
  "prices": {
   "NVDA": {
    "price": 211.8,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 263000.0,
-   "chg": -7.72,
-   "chg5": -17.3,
-   "sma20": 319200.0,
-   "sma50": 303990.0,
-   "sma200": 234210.33,
+   "chg": 3.34,
+   "chg5": -11.15,
+   "sma20": 315200.0,
+   "sma50": 304730.0,
+   "sma200": 234446.31,
    "high3m": 362500.0,
    "reg": 263000.0,
    "pre": null,
    "post": null,
-   "regClose": 254500.0,
+   "regClose": 263000.0,
    "sess": "reg",
    "mt": 1784010606,
    "ok": true
   },
   "000660.KS": {
    "price": 1913000.0,
-   "chg": -12.25,
-   "chg5": -18.35,
-   "sma20": 2465900.0,
-   "sma50": 2153940.0,
-   "sma200": 1445661.16,
+   "chg": 3.69,
+   "chg5": -13.08,
+   "sma20": 2442450.0,
+   "sma50": 2166340.0,
+   "sma200": 1449491.8,
    "high3m": 2919000.0,
    "reg": 1913000.0,
    "pre": null,
    "post": null,
-   "regClose": 1845000.0,
+   "regClose": 1913000.0,
    "sess": "reg",
    "mt": 1784010604,
    "ok": true
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 100.92,
    "sess": "reg",
-   "mt": 1784064118,
+   "mt": 1784064709,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64640.83,
-   "chg": 3.86,
-   "chg5": 2.29,
-   "sma20": 61994.38,
-   "sma50": 64328.57,
-   "sma200": 71966.16,
+   "price": 64822.76,
+   "chg": 4.15,
+   "chg5": 2.58,
+   "sma20": 62003.48,
+   "sma50": 64332.21,
+   "sma200": 71967.16,
    "high3m": 81051.25,
-   "reg": 64640.83,
+   "reg": 64822.76,
    "pre": null,
    "post": null,
-   "regClose": 64640.83,
+   "regClose": 64822.76,
    "sess": "reg",
-   "mt": 1784064723,
+   "mt": 1784065315,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.17,
+   "price": 162.18,
    "chg": -0.16,
    "chg5": -0.12,
    "sma20": 161.88,
    "sma50": 160.21,
    "sma200": 158.54,
    "high3m": 162.63,
-   "reg": 162.17,
+   "reg": 162.18,
    "pre": null,
    "post": null,
-   "regClose": 162.17,
+   "regClose": 162.18,
    "sess": "reg",
-   "mt": 1784064726,
+   "mt": 1784065316,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Starship's Thirteenth Flight Test - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
+    "pub": "Tue, 14 Jul 2026 21:38:00 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "How a bungled email soured Apple’s talks with OpenAI months before Apple sued - NBC News",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOUWw3VFJzdTlmNnk1cGQzaVZkRFFEUkc4MThOeVRER0Utc3dmUmIyVHY5M0V6cWxacEZCWFdoZkpIYmZhcHhKS2ZnZUlRQ2F6RXdJT0xaQjFyZWYtX29WX0MxMXQzX3h6eEo0T19DVTV3bDZpMUU3eVhDX1N5MFc2V002Z1dlV2kza0dfZGxZYU1LVlFDXzc0LW5rLXVCb1p5XzJ6VGpEOGJ1UTZMTmVmaA?oc=5",
     "pub": "Tue, 14 Jul 2026 21:18:57 GMT",
@@ -1187,14 +1195,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQMV8tc29zQnVpU2dYRGpuVGhvcmQ5cUZCREVoa1MwSWdYdGdHYmg5X3A2enpiLTJGWmJmYU5Nc1pkRS1hSEYwSEhrUlpQUEhjQzItNjhqdUwtWW4ySWVJUHhUUG9Ta2VNaGZDazNIT3FtSXNDb2F0bUdRbTNXZ2FBNXpWaE9qcU11WkNF?oc=5",
     "pub": "Tue, 14 Jul 2026 21:11:00 GMT",
     "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Starship's Thirteenth Flight Test - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
-    "pub": "Tue, 14 Jul 2026 21:09:57 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1233,20 +1233,20 @@
     "geo": false
    },
    {
+    "title": "Inflation slowed in June. What does that mean for interest rates? - marketplace.org",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOa0Z6V0tOMlRUSFEzQjJfTGVRcTBHWklVeGJpOS1RbGJrMFhNRW5KS0NTUloyUHRtRlYtTTZyaHlUUXN2VHlsTzJzNzlYSDU0eWt6SjlhamZuMGtjYi1ycjZyMnFPZjhiWUJFWXVraDRzeWtyYmZPYl9YOFBXTkFwSVdaaTFCU0ZjMG1ydFA5aHNwc2RoVFE?oc=5",
+    "pub": "Tue, 14 Jul 2026 20:55:00 GMT",
+    "src": "marketplace.org",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Trump threatens strike on Iran’s fortified Pickaxe Mountain nuclear site - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZko4R1Y0ZHYzUFdpdS1tc053VFJ2c3FMZ3FEV3E3bzFCQkRRYTZoVjJhWnR3Y3owem91RHZIWU5aOVVhUzBOdTBUaFhVWXhfMFBSOF9aZ0Q2RGRFejgzaGFRdXlXcXBRbktGSHZWNHhoSW1TUERCb09Eb1k2VEZuME5QbXAyX2xjeEZyNms0d3RoaEpzU3Jud1Yxa2QxOE92?oc=5",
     "pub": "Tue, 14 Jul 2026 20:43:15 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
-    "pub": "Tue, 14 Jul 2026 20:06:28 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
    },
    {
     "title": "The price of diesel again surged on the first day of trading in the world market amid rising tension in the Middle East. I via ANC 24/7 Link of full story in the comment section. - facebook.com",
@@ -1283,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Oil Price Dips From High After Trump Changes Plans for Shipping Fees - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE12Yk9oM1dVZVRuWF9JdUF4cGNpODRKalBtVnJ5X3EzNUZHLXVpLXpuS2NMTExUVVVsbDEtMW1aekpVOS1YSUJuRkE2ckUxQ3Ytd3FzU3M3N0dfeVA4TWRFR3Z4bjRnVnhvZTdDdk84TmNKWmNPaTln?oc=5",
-    "pub": "Tue, 14 Jul 2026 20:06:28 GMT",
-    "src": "The New York Times",
+    "title": "Base Metals Miners: Copper Bullishness Sees Little Value on Offer as We Update our Assumed Prices - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQSElNTFJJeExaalZmLV82dGd6V2J0NmFIZDFiN0lFN3ZEV1l2cnhud29TTzJOV1B3SkVEakhlTkZJU3RpRE84bEdCM2NEYW5lX0VYX3AxYmkwd1BmOENCcU00ZzBSN0RPMy1VZXdvaWMxSEJtNUNvZWx4R1ZZRzVZYnVpYWFVYjlUNHdZYUMyTU51VnJRbWduV1dBbWRROXdSNG5pdXJWb205MlNoZERvQ29xS29ieGxocm5EWkJUbnc4RjYtcTVsV05hT1V6TDZWUDJ4Q3NBdDZJWXpTUWtkazNPY3hjT3BzeEJUaTByQkRtMkxGdExUeUZpRQ?oc=5",
+    "pub": "Tue, 14 Jul 2026 20:15:00 GMT",
+    "src": "Morningstar",
     "trig": false,
     "geo": false
    },
@@ -1300,8 +1300,8 @@
    },
    {
     "title": "3 Gold Stocks Investors Are Watching As Safe Haven Demand Returns - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOVnNZQXZhc2ZyZTlfeG9Hang5RWo2a1NJNmt2RVF4cTlvVWRoRUJpN1J3ck85aGlMTGdOR2ZWUlRYZWZpRzFLVTlQOU5FMGZvOTh6UEJBaHdHUF9hbXZUVWhNYWhpMWNMaFU3Z0w3ZlBhOHA2c3VvS25wRURERUZLM0pxT0hYbk83QU1DaXhzSGowZ21PLUVULTlCU3FWVXI5WUNxajVFME1ZQzJ3NE80Vkdya2d6anVsVHN2eVNyZ0hneEJPTzZEblVBbE5GQVlFc29kYWJ30gHWAUFVX3lxTE5Wc1lBdmFzZnJlOV94b0dqeDlFajZrU0k2a3ZFUXhxOW9VZGhFQmk3UndyTzloaUxMZ05HZlZSVFhlZmlHMUtVOVA5TkUwZm85OHpQQkFod0dQX2FtdlRVaE1haGkxY0xoVTdnTDdmUGE4cDZzdW9LbnBFRERFRkszSnFPSFhuTzdBTUNpeHNIajBnbU8tRVQtOUJTcVZVcjlZQ3FqNUUwTVlDMnc0TzRWR3JrZ3pqdWxUc3Z5U3JnSGd4Qk9PNkRuVUFsTkZBWUVzb2RhYnc?oc=5",
-    "pub": "Tue, 14 Jul 2026 17:54:09 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxON1dRR2g0RmZFVmg4R1NBT1R3czVySFFrNEw0OWlwUTd6ajBrSG1JYkhvZVVuWmJNMmFSV294cGtscXFZRGxZd3cyQ1RQWFZzbVQ1WVYyWHVKclVjR2pqOUJNR19ubC1vRnlsdnAtR0UtU0dvaWdSQ0U1SFE2Zk5XV3VtSGRRQnJ1U2VKRnVmMUhJWjZudVFUMjhzZVNhMTNTTkRJV1BuN0wwR1lrUTF2d21vZk9WSkVCS2UzWjV5OHdSWVRPZzRWSEh2bjMxN2I10gHWAUFVX3lxTE5Wc1lBdmFzZnJlOV94b0dqeDlFajZrU0k2a3ZFUXhxOW9VZGhFQmk3UndyTzloaUxMZ05HZlZSVFhlZmlHMUtVOVA5TkUwZm85OHpQQkFod0dQX2FtdlRVaE1haGkxY0xoVTdnTDdmUGE4cDZzdW9LbnBFRERFRkszSnFPSFhuTzdBTUNpeHNIajBnbU8tRVQtOUJTcVZVcjlZQ3FqNUUwTVlDMnc0TzRWR3JrZ3pqdWxUc3Z5U3JnSGd4Qk9PNkRuVUFsTkZBWUVzb2RhYnc?oc=5",
+    "pub": "Tue, 14 Jul 2026 17:54:07 GMT",
     "src": "simplywall.st",
     "trig": false,
     "geo": false
@@ -1550,7 +1550,7 @@
    160.42,
    161.6,
    162.63,
-   162.16
+   162.18
   ],
   "uso": [
    122.59,
@@ -1610,7 +1610,7 @@
    65600.64,
    62668.02,
    58558.86,
-   64628.16
+   64815.85
   ],
   "vixts": [
    0.884,
@@ -2433,7 +2433,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-14T21:32:22+00:00",
+  "checked": "2026-07-14T21:42:14+00:00",
   "openai": {
    "found": false
   },

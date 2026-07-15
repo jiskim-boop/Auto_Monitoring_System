@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T21:32:30+00:00",
+ "updated": "2026-07-15T21:42:29+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -34,8 +34,20 @@
    "ok": true
   },
   "AMD": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 529.14,
+   "chg": -3.46,
+   "chg5": 2.27,
+   "sma20": 534.17,
+   "sma50": 493.09,
+   "sma200": 337.71,
+   "high3m": 580.91,
+   "reg": 529.14,
+   "pre": null,
+   "post": null,
+   "regClose": 529.14,
+   "sess": "reg",
+   "mt": 1784145600,
+   "ok": true
   },
   "TSM": {
    "price": 419.48,
@@ -151,32 +163,32 @@
   },
   "005930.KS": {
    "price": 279500.0,
-   "chg": 9.82,
-   "chg5": -5.57,
-   "sma20": 315200.0,
-   "sma50": 304730.0,
-   "sma200": 235224.38,
+   "chg": 6.27,
+   "chg5": 0.72,
+   "sma20": 311850.0,
+   "sma50": 305910.0,
+   "sma200": 235587.3,
    "high3m": 362500.0,
    "reg": 279500.0,
    "pre": null,
    "post": null,
-   "regClose": 263000.0,
+   "regClose": 279500.0,
    "sess": "reg",
    "mt": 1784097003,
    "ok": true
   },
   "000660.KS": {
    "price": 2082000.0,
-   "chg": 12.85,
-   "chg5": -5.41,
-   "sma20": 2442450.0,
-   "sma50": 2166340.0,
-   "sma200": 1455338.84,
+   "chg": 8.83,
+   "chg5": 0.29,
+   "sma20": 2420500.0,
+   "sma50": 2182260.0,
+   "sma200": 1460475.41,
    "high3m": 2919000.0,
    "reg": 2082000.0,
    "pre": null,
    "post": null,
-   "regClose": 1913000.0,
+   "regClose": 2082000.0,
    "sess": "reg",
    "mt": 1784097014,
    "ok": true
@@ -694,20 +706,8 @@
    "ok": true
   },
   "JBBB": {
-   "price": 47.42,
-   "chg": -0.05,
-   "chg5": 0.08,
-   "sma20": 47.41,
-   "sma50": 47.41,
-   "sma200": 47.35,
-   "high3m": 47.75,
-   "reg": 47.42,
-   "pre": null,
-   "post": null,
-   "regClose": 47.42,
-   "sess": "reg",
-   "mt": 1784145600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "^VIX": {
    "price": 15.67,
@@ -758,8 +758,20 @@
    "ok": true
   },
   "^SKEW": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 148.51,
+   "chg": 2.33,
+   "chg5": -0.85,
+   "sma20": 145.48,
+   "sma50": 142.5,
+   "sma200": 143.72,
+   "high3m": 154.82,
+   "reg": 148.51,
+   "pre": null,
+   "post": null,
+   "regClose": 148.51,
+   "sess": "reg",
+   "mt": 1784149219,
+   "ok": true
   },
   "^MOVE": {
    "price": 68.48,
@@ -779,8 +791,8 @@
   },
   "DX-Y.NYB": {
    "price": 100.5,
-   "chg": -0.43,
-   "chg5": -0.54,
+   "chg": -0.44,
+   "chg5": -0.55,
    "sma20": 100.98,
    "sma50": 99.84,
    "sma200": 99.02,
@@ -790,7 +802,7 @@
    "post": null,
    "regClose": 100.5,
    "sess": "reg",
-   "mt": 1784150515,
+   "mt": 1784151112,
    "ok": true
   },
   "^IRX": {
@@ -922,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64835.39,
-   "chg": -0.19,
-   "chg5": 1.1,
-   "sma20": 62265.83,
-   "sma50": 64115.07,
-   "sma200": 71791.55,
+   "price": 64770.25,
+   "chg": -0.29,
+   "chg5": 1.0,
+   "sma20": 62262.58,
+   "sma50": 64113.77,
+   "sma200": 71791.19,
    "high3m": 81051.25,
-   "reg": 64835.39,
+   "reg": 64770.25,
    "pre": null,
    "post": null,
-   "regClose": 64835.39,
+   "regClose": 64770.25,
    "sess": "reg",
-   "mt": 1784151122,
+   "mt": 1784151714,
    "ok": true
   },
   "USO": {
@@ -954,19 +966,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.11,
-   "chg": -0.05,
-   "chg5": -0.26,
+   "price": 162.13,
+   "chg": -0.03,
+   "chg5": -0.25,
    "sma20": 161.96,
    "sma50": 160.33,
    "sma200": 158.56,
    "high3m": 162.63,
-   "reg": 162.11,
+   "reg": 162.13,
    "pre": null,
    "post": null,
-   "regClose": 162.11,
+   "regClose": 162.13,
    "sess": "reg",
-   "mt": 1784151122,
+   "mt": 1784151720,
    "ok": true
   },
   "ES=F": {
@@ -1151,18 +1163,34 @@
   ],
   "fundamental": [
    {
-    "title": "Musk's xAI sues Grok user over sexualized 'deepfakes' - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0huVDEzQnBsMXdtRjJnbk04WkhGdTdBdVZSWDNLVDhxLWs0U05hT042MUlfNFUzbkJtVG5naE1RNVVQdndPZ1RQNkVUUzMyZXRhRWJFYTJvVVlnNjJGSUJFc2E3VzdBNmhnU2tROVpacGNpNjNLVjA2TXpLTy1DZnJyUld2Smxxek0tNGJvZ09qVUZQanQzNWQ1VE9YRWwwek1tWlpn?oc=5",
-    "pub": "Wed, 15 Jul 2026 21:16:29 GMT",
-    "src": "Reuters",
+    "title": "xAI sues user for exploiting AI tool to sexualise minors - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNaDBzZnlYT2pHbWJxTkVmbnZkSldSOFVwdnZ5RUJvTmVyUVNlUjEtd3ExUzY0S3ZQVUhUaVdNZVV6bERUM0VSTUV2WnRJOEpvNWc2LVFiMFNaUVRaTjhuVGNHX1UtYnZBbXI0UmRMWVBfVlI3SndfUGpycWFfZ0kyWElfTWVyYmU4WUFjOFhPUWtDLU1DMmZKQXhBSGpuNFE4M0HSAacBQVVfeXFMT2ZfVmNRLW5HaFoyR1hDaVJQYnpybmRjN0h5NVVtdF93TmNlV1UzOXM0WGdfa3I3Y3NCTVJFUUNzNENPbl9LbU4zSURMMnpWZHJjOTBOemo2ZjNOZ2k5WFIyblVEVmlWQWhSN3RpVWVtU2J6cFQ1bkhPX3dCR09hQjhzWENUYzdwZFFYQjcyWkNkRmF1VWIzejRFRVMtUW1ZUmxkaHZEUkk?oc=5",
+    "pub": "Wed, 15 Jul 2026 21:33:45 GMT",
+    "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "xAI sues a man for using Grok to generate CSAM ‘deepfakes’ - The Verge",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONmxNUzRxRWpHdUxFVU1pZ0tYNm9FVVBicWMweGlSZnJkaVJGU25kcW1haGZfYnlDeWNjbDFLLXhkbEw5cTNnS3BjeGphSWw0WWpKYjl0b0VKZ0Q4SkFXN3puZzlsN29Mc2RZdndYMklhdHFzYW5QdUk2Sy10bmpLTzJqTXota3ZWcVZUd3R3?oc=5",
+    "pub": "Wed, 15 Jul 2026 21:33:20 GMT",
+    "src": "The Verge",
     "trig": false,
     "geo": false
    },
    {
     "title": "Starship's Thirteenth Flight Test - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
-    "pub": "Wed, 15 Jul 2026 21:15:47 GMT",
+    "pub": "Wed, 15 Jul 2026 21:31:48 GMT",
     "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Musk's xAI sues Grok user over sexualized 'deepfakes' - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPQ0huVDEzQnBsMXdtRjJnbk04WkhGdTdBdVZSWDNLVDhxLWs0U05hT042MUlfNFUzbkJtVG5naE1RNVVQdndPZ1RQNkVUUzMyZXRhRWJFYTJvVVlnNjJGSUJFc2E3VzdBNmhnU2tROVpacGNpNjNLVjA2TXpLTy1DZnJyUld2Smxxek0tNGJvZ09qVUZQanQzNWQ1VE9YRWwwek1tWlpn?oc=5",
+    "pub": "Wed, 15 Jul 2026 21:16:29 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1179,22 +1207,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2wyVXNZTzhId1dtY21wSTYwVDlIRF96WFpXUTBucXhaaTg3NmpYNHlZdjFUNjNyUElsVVpjZU5UWkpKXzVIS1lWVzNfUklQTGhsckhCR25FU0JuSWN3a0tFd1VZMVlRQlBEcG1aRnpUdkNrZFlveUtUYTliUHdOSENNcVVKYW1IYm1DSzE2ejI2WW80dm9Hc3AzOVAyNzVxcWtQRnRzUC0?oc=5",
     "pub": "Wed, 15 Jul 2026 20:42:00 GMT",
     "src": "The News International",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Cheapest S&P 500 ETF Was Just Picked for Trump Accounts and $30 Billion Followed - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ1VWYUh4MTZFeW14aVRtcm1FS084bWM0Y3NYRldrNWduSlpNT05aSVY4UE1fMk5UajMwN0tOWkd5QWRGNDNMQnZyVEFvd2RDaGg0NXp6QUtrWld1TEh4NkhQZy12VUx1WGo0RmFuLU5sX0Z3bFBlZXc2RnhiLXVPVFdyaGhRRFFBb0EtS1NGVE0zWnBPRlR6dHduZUVoLVE5TGxheFRUZWhWakhTUF9CMUlKSEdVNk1VYkNkWldKVFJoTVd5QVZjdGpn?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:10:41 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Once again we are told AI may be conscious – I study consciousness, and I have my doubts | Anil Seth - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeHdLaGJmaV9lWTBKZEJZTU8wTnp2Ry1tbVlVNUZFX1NXV2dJaVhCOVJqNDBYUHlJVURBcllUY1RkUUw2c2dTck5MZGpUMWx5VmItSENvSGlxR1hlajc4TEFUbW9XYlA5TS1kZkktRXZWaW5BN0hSNlJuOXR6bXBkTjVqaWZ3WG5XS004M0szcDZIX05zYzNjZFZIQQ?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:09:00 GMT",
-    "src": "The Guardian",
     "trig": false,
     "geo": false
    }
@@ -1586,7 +1598,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64835.39
+   64768.49
   ],
   "vixts": [
    0.875,
@@ -1730,15 +1742,15 @@
    "CCC-BB 확대(품질분산)",
    "폭 축소(쏠림 랠리)"
   ],
-  "early": [],
+  "early": [
+   "숨은 헤지"
+  ],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 19,
-   "missing": [
-    "SKEW"
-   ]
+   "ok": 20,
+   "missing": []
   }
  },
  "history": [
@@ -2404,19 +2416,18 @@
   16
  ],
  "feed": {
-  "fail": 2,
+  "fail": 1,
   "failed": [
-   "AMD",
-   "^SKEW"
+   "JBBB"
   ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 35,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-15T21:32:19+00:00",
+  "checked": "2026-07-15T21:42:15+00:00",
   "openai": {
    "found": false
   },

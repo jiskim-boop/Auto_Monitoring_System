@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T20:32:38+00:00",
+ "updated": "2026-07-15T20:44:09+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -306,8 +306,20 @@
    "ok": true
   },
   "CEG": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 258.12,
+   "chg": 0.66,
+   "chg5": 5.56,
+   "sma20": 257.17,
+   "sma50": 270.28,
+   "sma200": 285.48,
+   "high3m": 322.78,
+   "reg": 258.12,
+   "pre": null,
+   "post": null,
+   "regClose": 258.11,
+   "sess": "reg",
+   "mt": 1784145601,
+   "ok": true
   },
   "NRG": {
    "price": 137.9,
@@ -792,9 +804,9 @@
   "DX-Y.NYB": {
    "price": 100.52,
    "chg": -0.42,
-   "chg5": -0.53,
+   "chg5": -0.52,
    "sma20": 100.98,
-   "sma50": 99.84,
+   "sma50": 99.85,
    "sma200": 99.02,
    "high3m": 101.61,
    "reg": 100.52,
@@ -802,7 +814,7 @@
    "post": null,
    "regClose": 100.52,
    "sess": "reg",
-   "mt": 1784146922,
+   "mt": 1784147518,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64999.42,
-   "chg": 0.07,
-   "chg5": 1.36,
-   "sma20": 62274.04,
-   "sma50": 64118.35,
-   "sma200": 71792.45,
+   "price": 64983.36,
+   "chg": 0.04,
+   "chg5": 1.34,
+   "sma20": 62273.23,
+   "sma50": 64118.03,
+   "sma200": 71792.37,
    "high3m": 81051.25,
-   "reg": 64999.42,
+   "reg": 64983.36,
    "pre": null,
    "post": null,
-   "regClose": 64999.42,
+   "regClose": 64983.36,
    "sess": "reg",
-   "mt": 1784147526,
+   "mt": 1784148122,
    "ok": true
   },
   "USO": {
@@ -978,87 +990,87 @@
    "post": null,
    "regClose": 162.21,
    "sess": "reg",
-   "mt": 1784147529,
+   "mt": 1784148127,
    "ok": true
   },
   "ES=F": {
-   "price": 7617.25,
-   "chg": 0.34,
-   "chg5": 1.18,
-   "sma20": 7522.78,
-   "sma50": 7483.84,
-   "sma200": 7121.37,
+   "price": 7616.0,
+   "chg": 0.33,
+   "chg5": 1.16,
+   "sma20": 7522.72,
+   "sma50": 7483.81,
+   "sma200": 7121.36,
    "high3m": 7623.75,
-   "reg": 7617.25,
+   "reg": 7616.0,
    "pre": null,
    "post": null,
-   "regClose": 7617.25,
+   "regClose": 7616.0,
    "sess": "24h",
-   "mt": 1784146929,
+   "mt": 1784147527,
    "ok": true
   },
   "NQ=F": {
-   "price": 29717.75,
-   "chg": -0.24,
-   "chg5": 0.85,
-   "sma20": 29842.65,
-   "sma50": 29639.56,
-   "sma200": 27064.61,
+   "price": 29714.5,
+   "chg": -0.25,
+   "chg5": 0.83,
+   "sma20": 29842.49,
+   "sma50": 29639.49,
+   "sma200": 27064.58,
    "high3m": 30712.75,
-   "reg": 29717.75,
+   "reg": 29714.5,
    "pre": null,
    "post": null,
-   "regClose": 29717.75,
+   "regClose": 29714.5,
    "sess": "24h",
-   "mt": 1784146931,
+   "mt": 1784147530,
    "ok": true
   },
   "YM=F": {
-   "price": 52937.0,
-   "chg": 0.28,
-   "chg5": 0.59,
-   "sma20": 52549.9,
-   "sma50": 51262.82,
-   "sma200": 49610.45,
+   "price": 52916.0,
+   "chg": 0.24,
+   "chg5": 0.55,
+   "sma20": 52548.85,
+   "sma50": 51262.4,
+   "sma200": 49610.28,
    "high3m": 53372.0,
-   "reg": 52937.0,
+   "reg": 52916.0,
    "pre": null,
    "post": null,
-   "regClose": 52937.0,
+   "regClose": 52916.0,
    "sess": "24h",
-   "mt": 1784146915,
+   "mt": 1784147516,
    "ok": true
   },
   "GC=F": {
-   "price": 4067.7,
+   "price": 4067.5,
    "chg": 0.16,
    "chg5": -0.08,
-   "sma20": 4114.16,
-   "sma50": 4339.97,
-   "sma200": 4653.29,
+   "sma20": 4114.15,
+   "sma50": 4339.96,
+   "sma200": 4653.28,
    "high3m": 4857.6,
-   "reg": 4067.7,
+   "reg": 4067.5,
    "pre": null,
    "post": null,
-   "regClose": 4067.7,
+   "regClose": 4067.5,
    "sess": "24h",
-   "mt": 1784146933,
+   "mt": 1784147518,
    "ok": true
   },
   "CL=F": {
-   "price": 80.2,
-   "chg": 1.08,
-   "chg5": 9.09,
-   "sma20": 73.01,
+   "price": 80.36,
+   "chg": 1.29,
+   "chg5": 9.3,
+   "sma20": 73.02,
    "sma50": 86.34,
    "sma200": 83.73,
    "high3m": 108.66,
-   "reg": 80.2,
+   "reg": 80.36,
    "pre": null,
    "post": null,
-   "regClose": 80.2,
+   "regClose": 80.36,
    "sess": "24h",
-   "mt": 1784146932,
+   "mt": 1784147527,
    "ok": true
   },
   "HG=F": {
@@ -1074,23 +1086,23 @@
    "post": null,
    "regClose": 6.38,
    "sess": "24h",
-   "mt": 1784146862,
+   "mt": 1784147527,
    "ok": true
   },
   "ZN=F": {
-   "price": 109.23,
-   "chg": 0.29,
-   "chg5": 0.22,
+   "price": 109.25,
+   "chg": 0.3,
+   "chg5": 0.23,
    "sma20": 109.56,
    "sma50": 109.71,
    "sma200": 110.94,
    "high3m": 111.72,
-   "reg": 109.23,
+   "reg": 109.25,
    "pre": null,
    "post": null,
-   "regClose": 109.23,
+   "regClose": 109.25,
    "sess": "24h",
-   "mt": 1784146925,
+   "mt": 1784147527,
    "ok": true
   },
   "EWY": {
@@ -1153,10 +1165,10 @@
     "geo": false
    },
    {
-    "title": "Final Loop Decides It All In Oslo Sprint | Men’s Sprint Highlights Coreweave Stock (iNiN1pRE3W) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1RNnY4SmdCZzNiaDBQd3U1YV9IZlhTYkw1cHJ1WHZRaWN0NHVXczl2QVc2UGdJWFJRSzlhcHNJTkJVVi1MdUZMSUVWU3Bwd3BaTDdWbzl1MTJGN2lWQTNjTQ?oc=5",
-    "pub": "Wed, 15 Jul 2026 15:16:07 GMT",
-    "src": "Mshale",
+    "title": "Mount Pleasant to join nationwide protest against AI data centers: What to know - WCBD News 2",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQb3dWNmRDLWJYcU1oSU1GYldGYzlKSGxzYVNJZWtHRFVnQ2NqRTFYb2hpdkpZQmpZcFBWU2RxajVObjBjYWtDNnF6X2Fmc3Y0ZUExRnc1dkhLVFNvdEtkRXBhbU0tNHhLSmt1TTNNdzVBVVhSV3VNT3laMVNGLUlkY2t0bTktd3VCb2RsTUhLWmtEc1dod3cwUEREOGgteFRUQ3BubUxBdWVlQVFVTVpWdzRDUUYzWXNod2V30gHAAUFVX3lxTFBjZWNnVEJoa1hjVDNiSlJSdFJEaUtQNUNpel9uZEhKMnFwOTIyQkV5SmJuczcwNHdkeWtwTVJLNG1RODFZaTFfaTBTRVNYWml2bjZsSE9icWVlZnRYLWY1YnRjWjNjWmtTbHZjb2h4cjNXYVpKUDU2QnlzdklfdDcwUS1wTG9uZWNZTGU3WlY3Q19DZTlVZXVReC1iQ1h0d2xaRks3OGxTMTRnVGhvZW50UWFzQVQxWFpfMHozUm1QcQ?oc=5",
+    "pub": "Wed, 15 Jul 2026 15:33:08 GMT",
+    "src": "WCBD News 2",
     "trig": false,
     "geo": false
    }
@@ -1287,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "3 DIGIT XRP IN 2026 POSSIBLE? - XRP & JAPAN YEN CARRY TRADE - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1zd3RiMjU0eHR4T2FRbmNUeXczSWlTZTRuTVFZSjJMRjkybEpSNFh4SngtV3NiYmlrOVBwRDlQMEZub2JmSkpDOEJBVVBGRkRiSnQ4d3cyQktMNHdfdVhEMG9XZ2daZ1ppMUdJQVFzZjZOMk51?oc=5",
+    "pub": "Wed, 15 Jul 2026 17:43:13 GMT",
+    "src": "KuCoin",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Escalating Geopolitical Tensions Haven’t Moved Gold Prices. Here’s Why Some Experts Think They Could Still Climb This Year - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVkxxOG8wNlJnbVI2c1hGZjE0QUpSR3FoaldBQ28xYk9pb1FRQkpTb0ItanVCSmoxZ2ZEVm1YMFNqUnpFOFdhbFJ3aXN4emF3ZS0tR1dDaV9vd0Zudk4zNm51ZWdRdVJaLTFua2R5Y1B3NzdWeDFYVno5SmlWQkt4cTVRTVk1VFhhS2FqSw?oc=5",
     "pub": "Wed, 15 Jul 2026 17:39:48 GMT",
@@ -1299,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNX1UwajMwX1JUSWZZb09tamFuWUNSeWplNm9SQi1hS2o2LTFJWEsxcjU2OV9PR1Q3c1BUX1hrYkVHRG1TSVQ3elhEQzM2WXFaUkp1anVlbElQVzlWYkI5NWdxUnR0WDEtcngybkhPdFJvY2I5a2RnMG54YWpuaVV6NjBFbTBWSlJqdHhhTEVBMkN5MzFSb2laTlFmUGVMX2FLLWNlamxLWGFGejg3Rmk5V1JyRnNjYUtub1E?oc=5",
     "pub": "Wed, 15 Jul 2026 15:32:00 GMT",
     "src": "MarketWatch",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "U.S. Crude Inventories Fall 1.7 Million Barrels As Iran Tensions Rattle Markets - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNTUs5a2RTaHdUb0p3d3lyaTVGcHBqWVJXV1hKbE1tenl2VnBmQjQwVmdtcm5CTlpZeXIyY1V5c1FOa3VheWpMSzVCXzZxSmp6NVRrbUpsTkJ1Zl93UXQ5aWlvbC1zTkg3a2c0U0V1RHk0Xy1UYnN6M2tmYWlLUWtibkJkVVVnT2VYeUFZR2hHd2lZVzBrS2Iyd1ZCem5MajJtSGhFS3pBdk54T0RpT1A3bXpoUWdMZlFEd0sw0gHAAUFVX3lxTE1xOWtYaU95RU96RndieV9QVFQ2cXVscUxkZTFSem9qelZMcFYwakFPeXUtM3RidDBDQ0s4TGtPZ09QVnF5VmFWajlTYVl6ZHZ5alQ2YmthZjY0RHBOb3JVT1gtUVUyakVUX1VEU1JIcGxpbWNvRG1fX3BJaUJMVFB2WGNwc2R0dkZLenZiQXFLRHF2Y1hPZzMzNXBzb2tSMmZkTHZidU5ENi1wUng0Y0dyZE1oMmxENEY3b29oakUzQQ?oc=5",
-    "pub": "Wed, 15 Jul 2026 15:28:17 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1379,12 +1391,7 @@
    "prev": 2.69,
    "chg": 0.03
   },
-  "sofr": {
-   "date": "2026-07-14",
-   "value": 3.63,
-   "prev": 3.6,
-   "chg": 0.03
-  },
+  "sofr": null,
   "iorb": {
    "date": "2026-07-16",
    "value": 3.65,
@@ -1415,7 +1422,6 @@
    "prev": 2.36,
    "chg": -0.03
   },
-  "sofr_iorb": -2.0,
   "cape": 42.0,
   "cape_manual": false,
   "netliq": {
@@ -1493,7 +1499,7 @@
    99.54,
    101.61,
    101.39,
-   100.51
+   100.53
   ],
   "bizd": [
    12.96,
@@ -1538,7 +1544,7 @@
    160.6,
    161.76,
    162.54,
-   162.21
+   162.2
   ],
   "uso": [
    125.84,
@@ -1598,7 +1604,7 @@
    64418.45,
    60995.13,
    60003.76,
-   65009.66
+   64959.52
   ],
   "vixts": [
    0.875,
@@ -1660,21 +1666,7 @@
    -2.0,
    -2.0
   ],
-  "ccc_bb": [
-   7.0,
-   7.22,
-   7.43,
-   7.73,
-   7.79,
-   7.95,
-   7.46,
-   7.37,
-   7.65,
-   7.75,
-   7.87,
-   7.88,
-   8.12
-  ],
+  "ccc_bb": null,
   "rsp_spy": [
    0.286,
    0.2847,
@@ -1739,7 +1731,6 @@
   "st": "a",
   "hits": [
    "AI 밸류체인 약세",
-   "CCC-BB 확대(품질분산)",
    "폭 축소(쏠림 랠리)"
   ],
   "early": [
@@ -1749,8 +1740,10 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "차트:ccc_bb"
+   ]
   }
  },
  "history": [
@@ -2099,7 +2092,6 @@
    "risk": false,
    "hits": [
     "AI 밸류체인 약세",
-    "CCC-BB 확대(품질분산)",
     "폭 축소(쏠림 랠리)"
    ]
   }
@@ -2416,18 +2408,16 @@
   16
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "CEG"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 38,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-15T20:32:25+00:00",
+  "checked": "2026-07-15T20:43:19+00:00",
   "openai": {
    "found": false
   },

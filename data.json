@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T20:44:09+00:00",
+ "updated": "2026-07-15T20:53:02+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -754,20 +754,8 @@
    "ok": true
   },
   "^VVIX": {
-   "price": 91.85,
-   "chg": -1.8,
-   "chg5": 0.51,
-   "sma20": 90.71,
-   "sma50": 92.53,
-   "sma200": 102.59,
-   "high3m": 108.16,
-   "reg": 91.85,
-   "pre": null,
-   "post": null,
-   "regClose": 91.85,
-   "sess": "reg",
-   "mt": 1784146501,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "^SKEW": {
    "price": 145.13,
@@ -786,19 +774,19 @@
    "ok": true
   },
   "^MOVE": {
-   "price": 75.03,
-   "chg": 7.88,
-   "chg5": 14.1,
-   "sma20": 68.99,
-   "sma50": 72.2,
-   "sma200": 73.06,
+   "price": 68.48,
+   "chg": -1.54,
+   "chg5": 4.13,
+   "sma20": 68.66,
+   "sma50": 72.07,
+   "sma200": 73.0,
    "high3m": 86.07,
-   "reg": 75.03,
+   "reg": 68.48,
    "pre": null,
    "post": null,
-   "regClose": 75.03,
+   "regClose": 68.48,
    "sess": "reg",
-   "mt": 1784143800,
+   "mt": 1784147400,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -814,24 +802,12 @@
    "post": null,
    "regClose": 100.52,
    "sess": "reg",
-   "mt": 1784147518,
+   "mt": 1784148109,
    "ok": true
   },
   "^IRX": {
-   "price": 3.69,
-   "chg": -0.32,
-   "chg5": -0.94,
-   "sma20": 3.69,
-   "sma50": 3.64,
-   "sma200": 3.61,
-   "high3m": 3.73,
-   "reg": 3.69,
-   "pre": null,
-   "post": null,
-   "regClose": 3.69,
-   "sess": "reg",
-   "mt": 1784141994,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "LQD": {
    "price": 107.58,
@@ -946,19 +922,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64983.36,
-   "chg": 0.04,
-   "chg5": 1.34,
-   "sma20": 62273.23,
-   "sma50": 64118.03,
-   "sma200": 71792.37,
+   "price": 64942.19,
+   "chg": -0.02,
+   "chg5": 1.27,
+   "sma20": 62271.17,
+   "sma50": 64117.21,
+   "sma200": 71792.14,
    "high3m": 81051.25,
-   "reg": 64983.36,
+   "reg": 64942.19,
    "pre": null,
    "post": null,
-   "regClose": 64983.36,
+   "regClose": 64942.19,
    "sess": "reg",
-   "mt": 1784148122,
+   "mt": 1784148713,
    "ok": true
   },
   "USO": {
@@ -978,105 +954,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.21,
+   "price": 162.2,
    "chg": 0.01,
-   "chg5": -0.2,
+   "chg5": -0.21,
    "sma20": 161.96,
    "sma50": 160.33,
    "sma200": 158.56,
    "high3m": 162.63,
-   "reg": 162.21,
+   "reg": 162.2,
    "pre": null,
    "post": null,
-   "regClose": 162.21,
+   "regClose": 162.2,
    "sess": "reg",
-   "mt": 1784148127,
+   "mt": 1784148718,
    "ok": true
   },
   "ES=F": {
-   "price": 7616.0,
-   "chg": 0.33,
-   "chg5": 1.16,
-   "sma20": 7522.72,
-   "sma50": 7483.81,
-   "sma200": 7121.36,
+   "price": 7617.0,
+   "chg": 0.34,
+   "chg5": 1.17,
+   "sma20": 7522.77,
+   "sma50": 7483.83,
+   "sma200": 7121.37,
    "high3m": 7623.75,
-   "reg": 7616.0,
+   "reg": 7617.0,
    "pre": null,
    "post": null,
-   "regClose": 7616.0,
+   "regClose": 7617.0,
    "sess": "24h",
-   "mt": 1784147527,
+   "mt": 1784148114,
    "ok": true
   },
   "NQ=F": {
-   "price": 29714.5,
+   "price": 29715.0,
    "chg": -0.25,
-   "chg5": 0.83,
-   "sma20": 29842.49,
-   "sma50": 29639.49,
-   "sma200": 27064.58,
+   "chg5": 0.84,
+   "sma20": 29842.52,
+   "sma50": 29639.5,
+   "sma200": 27064.59,
    "high3m": 30712.75,
-   "reg": 29714.5,
+   "reg": 29715.0,
    "pre": null,
    "post": null,
-   "regClose": 29714.5,
+   "regClose": 29715.0,
    "sess": "24h",
-   "mt": 1784147530,
+   "mt": 1784148118,
    "ok": true
   },
   "YM=F": {
-   "price": 52916.0,
-   "chg": 0.24,
+   "price": 52913.0,
+   "chg": 0.23,
    "chg5": 0.55,
-   "sma20": 52548.85,
-   "sma50": 51262.4,
-   "sma200": 49610.28,
+   "sma20": 52548.7,
+   "sma50": 51262.34,
+   "sma200": 49610.26,
    "high3m": 53372.0,
-   "reg": 52916.0,
+   "reg": 52913.0,
    "pre": null,
    "post": null,
-   "regClose": 52916.0,
+   "regClose": 52913.0,
    "sess": "24h",
-   "mt": 1784147516,
+   "mt": 1784148106,
    "ok": true
   },
   "GC=F": {
-   "price": 4067.5,
-   "chg": 0.16,
-   "chg5": -0.08,
-   "sma20": 4114.15,
-   "sma50": 4339.96,
-   "sma200": 4653.28,
+   "price": 4068.6,
+   "chg": 0.18,
+   "chg5": -0.06,
+   "sma20": 4114.21,
+   "sma50": 4339.99,
+   "sma200": 4653.29,
    "high3m": 4857.6,
-   "reg": 4067.5,
+   "reg": 4068.6,
    "pre": null,
    "post": null,
-   "regClose": 4067.5,
+   "regClose": 4068.6,
    "sess": "24h",
-   "mt": 1784147518,
+   "mt": 1784148110,
    "ok": true
   },
   "CL=F": {
-   "price": 80.36,
-   "chg": 1.29,
-   "chg5": 9.3,
+   "price": 80.45,
+   "chg": 1.4,
+   "chg5": 9.43,
    "sma20": 73.02,
    "sma50": 86.34,
    "sma200": 83.73,
    "high3m": 108.66,
-   "reg": 80.36,
+   "reg": 80.45,
    "pre": null,
    "post": null,
-   "regClose": 80.36,
+   "regClose": 80.45,
    "sess": "24h",
-   "mt": 1784147527,
+   "mt": 1784148118,
    "ok": true
   },
   "HG=F": {
    "price": 6.38,
-   "chg": 0.85,
-   "chg5": 5.44,
+   "chg": 0.84,
+   "chg5": 5.43,
    "sma20": 6.22,
    "sma50": 6.28,
    "sma200": 6.0,
@@ -1086,7 +1062,7 @@
    "post": null,
    "regClose": 6.38,
    "sess": "24h",
-   "mt": 1784147527,
+   "mt": 1784148120,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1078,7 @@
    "post": null,
    "regClose": 109.25,
    "sess": "24h",
-   "mt": 1784147527,
+   "mt": 1784148118,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1151,14 @@
   ],
   "fundamental": [
    {
+    "title": "Elon Musk’s xAI sues Grok user over alleged sexualized ‘deepfakes’ - The News International",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2wyVXNZTzhId1dtY21wSTYwVDlIRF96WFpXUTBucXhaaTg3NmpYNHlZdjFUNjNyUElsVVpjZU5UWkpKXzVIS1lWVzNfUklQTGhsckhCR25FU0JuSWN3a0tFd1VZMVlRQlBEcG1aRnpUdkNrZFlveUtUYTliUHdOSENNcVVKYW1IYm1DSzE2ejI2WW80dm9Hc3AzOVAyNzVxcWtQRnRzUC0?oc=5",
+    "pub": "Wed, 15 Jul 2026 20:42:00 GMT",
+    "src": "The News International",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Starship's Thirteenth Flight Test - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
     "pub": "Wed, 15 Jul 2026 20:26:38 GMT",
@@ -1213,17 +1197,17 @@
     "src": "PYMNTS.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Welcome to July 15, 2026 - The Innermost Loop",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02eXBuNDRuVl9QMk43aUZIZlRiYjBaZnVHUGZCOG9XZjNOLWVsNjlnVlNHb0dPTFdpdzM5d0Z5a211VU55aEF6OVdsUmlBdnphYWZmeGtjejZjTG50UzdXTXd4OW56NmFlaUVERVMtSS0?oc=5",
-    "pub": "Wed, 15 Jul 2026 19:24:33 GMT",
-    "src": "The Innermost Loop",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Drone strike hits Kuwait port warehouse amid US-Iran tensions - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMVZJVW9VaTl1YUQyamFGWjdILW9Pd1ZEVFFNOWpFZEFCaFJnaElPYVJvS0FYY0RjQWZGcmViVU9ZQXZFak1DLWo0U0tOeFdpLWhlZkZ2aV9iWUZEYlZpZkZSZmMtMHhBU0txcW1lUm1BTHMyZERjaUxSdzg4Nm9Eb0ZHUHhkZHZQaTN6N3Ruc3RMUEk?oc=5",
+    "pub": "Wed, 15 Jul 2026 20:18:58 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Why Are Semiconductor Stocks Down Today? Micron, AMD, Intel,Lam Research & Chip Stocks Selloff Amid Fresh Market Concerns | Here’s What Investors Need to Know - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOelluVGc0cXIwelBEQ2pBUjJFYk5EeUVjMHptY2RjazBRaFJuWkhhQ2Mxbzg4NzNCVjZmbUFnZ3dVa0Z1R1JYWldiVEtmNE5rUU45cllNaGxZMlFvcWU2NThwOFNJbUZoTWNtSGpQd190YUdTNE4wN05LYzBSVTJuaU9UTi1TMGNDckVxRi1CYlNxcEQ1azdEMFpqeDRGQTV3RkRQZjhIRV9FX2hHOWtqa2NyNnZxNjBwYXZlWjdSUzJEOTVsRWlSMXVrWTM2djBOdFE3eVA1ekswUDBKZ00zQkItbUxJSnRpczVfMHd6SzBiSG14bUxJNFM1bUcxYVlsVnJCQ1RnMkcwdl9oQ0VzLTYxNzdZaTZwcUpSM3BIcDRrbk3SAagCQVVfeXFMTWE5eEhvZkQ0OFAtamhuSThnM2ZnMmtaR1dwNUR4b3pkbFVlWF9hQ1BWUzFsVjFvQXJhTVEtVEZYTV9uWWRSWnZjU2JzSFRGNS1nZFFRSmQ4UzJPbEgtUnNiXzh6cG5Tc0o0Z2M2NGRSR2pFVHRpQzVLNHgxbFpHR0ZIbzFHVjFaakM0eV9LLXFqNGFRWGEtcVplODlrNE1wZVprYW5SdG42YWxZQlpyREtmMzU0cWVWejRURkRkSEpteFBVWFVXNG10NEx5dkVXUm42TW5FbHRsbGNnQ2l4X3p3cHdKZmQ5UGg5emdxOEZRdjRnWmRqbnBpTzVmQlNhQURQcENzZDZ6dVE5R1FRZS00dWc2THVWTkViTVo5cWpJT1ZpcjI4RDg?oc=5",
@@ -1263,14 +1247,6 @@
     "src": "CBC",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US stocks today: Markets open in green despite Iran war tensions, oil price swings - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONnRoWmZua1NOallQa082ZGZ1cUVJSmtZQ19zVFlBRWJXOENuNmlPZlRNbHlLWkRPUFd6cmVhMHJhU3plejdQWkFMZ1dWU0NpQkFrVWppS2o4SEhtTWQxdnBaSHQzbkRNbm8tWVhaNVlDMmJuWFRSdTY0Z3EtZEdTdkhoVDJuWEZLZWp5MlJDdXZ2ZVVna0FzRVRGdy1Va2stR0ZhWDZyM0ItNktSSHhDTzVIUm8tY2I5Vk9NbGhzemxBQ05iN0d1YWZQakNITkNyT21Bb0Z1LUpHUGt3SmtuX05aQ3VITXFCMjZuMGZHd01nQkRZbllMa01WWUg2Nk5ITTdOZVljQ1E1cE1ZZEdBcVVBSU1QZ9IBmwJBVV95cUxQYm9QOEM0UGNYODdvMkljUlNsNU9VNXVLaE5ZYXVOTXlBb1N2cTFmdXRqU1NvUWwtS3Q5R1VaRkh2eFRDR3VDNlNUUUFja3RMSXpQZkl1eUk2RGFaVTRWUU1Ha0JZYjlHTUtWejRzenlQN1k0NXBpZmVKOGc4c0xGNGJoQ2padnA0eXZXVHc0dEEzZEZsMzVybm9aV1BNLXdXb0NxUDZQekFYZGhpZ3VvcU1ZdUJZYnUzOUtaUkw1c1J6QWdJNUx6YjNKLVIwX19Ic2Vvb1RvMTNEejU1ZVVJYzJmVkQ5OGZKX3BRd0xLODhfR0g5eEpPSGp4eDNqTEJqMG01VzVIal81MW1kUHFKaUVuXzA5cDRMekQ4?oc=5",
-    "pub": "Wed, 15 Jul 2026 17:10:00 GMT",
-    "src": "The Times of India",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1283,9 +1259,9 @@
     "geo": false
    },
    {
-    "title": "Yen Hits 40-Year Low as $74 Billion Intervention Struggles to Sl - GuruFocus",
+    "title": "Yen Hits 40-Year Low as $74 Billion Intervention Struggles to Slow Carry Trades - GuruFocus",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNdXZUcG5hZF9nOVk3aDZ2WFR0dHFMLVdqZU9HaXRwSTNDYTE3SkNZc3NobGVieEtGVWh2dUNhUzZLLU9YN1liS0kwM0VGUnpZd3NtcHVpTDVRQnc0VTMzZUdlX1ZoY2c1R05HYUFQa2psRUFTbTZNLXNKaW1teHlJbXY4TXp5NjI0WFJSX2J1QXRUUDlpRjNBY01nTTN0NS1vYktidGZwQkZuWGRIT0pKZTJQSmdlMk0?oc=5",
-    "pub": "Wed, 15 Jul 2026 19:24:58 GMT",
+    "pub": "Wed, 15 Jul 2026 19:25:46 GMT",
     "src": "GuruFocus",
     "trig": false,
     "geo": false
@@ -1391,7 +1367,12 @@
    "prev": 2.69,
    "chg": 0.03
   },
-  "sofr": null,
+  "sofr": {
+   "date": "2026-07-14",
+   "value": 3.63,
+   "prev": 3.6,
+   "chg": 0.03
+  },
   "iorb": {
    "date": "2026-07-16",
    "value": 3.65,
@@ -1422,6 +1403,7 @@
    "prev": 2.36,
    "chg": -0.03
   },
+  "sofr_iorb": -2.0,
   "cape": 42.0,
   "cape_manual": false,
   "netliq": {
@@ -1499,7 +1481,7 @@
    99.54,
    101.61,
    101.39,
-   100.53
+   100.52
   ],
   "bizd": [
    12.96,
@@ -1529,7 +1511,7 @@
    69.38,
    68.78,
    68.14,
-   75.03
+   68.48
   ],
   "jpy": [
    158.79,
@@ -1544,7 +1526,7 @@
    160.6,
    161.76,
    162.54,
-   162.2
+   162.19
   ],
   "uso": [
    125.84,
@@ -1604,7 +1586,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64959.52
+   64939.3
   ],
   "vixts": [
    0.875,
@@ -1666,7 +1648,21 @@
    -2.0,
    -2.0
   ],
-  "ccc_bb": null,
+  "ccc_bb": [
+   7.0,
+   7.22,
+   7.43,
+   7.73,
+   7.79,
+   7.95,
+   7.46,
+   7.37,
+   7.65,
+   7.75,
+   7.87,
+   7.88,
+   8.12
+  ],
   "rsp_spy": [
    0.286,
    0.2847,
@@ -1731,6 +1727,7 @@
   "st": "a",
   "hits": [
    "AI 밸류체인 약세",
+   "CCC-BB 확대(품질분산)",
    "폭 축소(쏠림 랠리)"
   ],
   "early": [
@@ -1742,7 +1739,7 @@
    "total": 20,
    "ok": 19,
    "missing": [
-    "차트:ccc_bb"
+    "VVIX"
    ]
   }
  },
@@ -2092,6 +2089,7 @@
    "risk": false,
    "hits": [
     "AI 밸류체인 약세",
+    "CCC-BB 확대(품질분산)",
     "폭 축소(쏠림 랠리)"
    ]
   }
@@ -2408,8 +2406,11 @@
   16
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 2,
+  "failed": [
+   "^VVIX",
+   "^IRX"
+  ],
   "core_dead": []
  },
  "breadth": {
@@ -2417,7 +2418,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-15T20:43:19+00:00",
+  "checked": "2026-07-15T20:52:33+00:00",
   "openai": {
    "found": false
   },

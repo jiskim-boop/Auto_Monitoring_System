@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T21:02:48+00:00",
+ "updated": "2026-07-15T21:12:28+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -146,20 +146,8 @@
    "ok": true
   },
   "WDC": {
-   "price": 513.84,
-   "chg": -8.78,
-   "chg5": -6.63,
-   "sma20": 616.48,
-   "sma50": 553.36,
-   "sma200": 401.91,
-   "high3m": 746.23,
-   "reg": 513.84,
-   "pre": null,
-   "post": null,
-   "regClose": 513.84,
-   "sess": "reg",
-   "mt": 1784145600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "005930.KS": {
    "price": 279500.0,
@@ -803,8 +791,8 @@
   },
   "DX-Y.NYB": {
    "price": 100.51,
-   "chg": -0.42,
-   "chg5": -0.53,
+   "chg": -0.43,
+   "chg5": -0.54,
    "sma20": 100.98,
    "sma50": 99.84,
    "sma200": 99.02,
@@ -814,7 +802,7 @@
    "post": null,
    "regClose": 100.51,
    "sess": "reg",
-   "mt": 1784148728,
+   "mt": 1784149299,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64956.65,
-   "chg": 0.0,
-   "chg5": 1.29,
-   "sma20": 62271.9,
-   "sma50": 64117.5,
-   "sma200": 71792.22,
+   "price": 64824.65,
+   "chg": -0.2,
+   "chg5": 1.09,
+   "sma20": 62265.3,
+   "sma50": 64114.86,
+   "sma200": 71791.49,
    "high3m": 81051.25,
-   "reg": 64956.65,
+   "reg": 64824.65,
    "pre": null,
    "post": null,
-   "regClose": 64956.65,
+   "regClose": 64824.65,
    "sess": "reg",
-   "mt": 1784149329,
+   "mt": 1784149910,
    "ok": true
   },
   "USO": {
@@ -978,105 +966,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.16,
+   "price": 162.15,
    "chg": -0.02,
    "chg5": -0.24,
    "sma20": 161.96,
    "sma50": 160.33,
    "sma200": 158.56,
    "high3m": 162.63,
-   "reg": 162.16,
+   "reg": 162.15,
    "pre": null,
    "post": null,
    "regClose": 162.15,
    "sess": "reg",
-   "mt": 1784149333,
+   "mt": 1784149912,
    "ok": true
   },
   "ES=F": {
-   "price": 7616.5,
+   "price": 7616.0,
    "chg": 0.33,
-   "chg5": 1.17,
-   "sma20": 7522.75,
-   "sma50": 7483.82,
-   "sma200": 7121.37,
+   "chg5": 1.16,
+   "sma20": 7522.72,
+   "sma50": 7483.81,
+   "sma200": 7121.36,
    "high3m": 7623.75,
-   "reg": 7616.5,
+   "reg": 7616.0,
    "pre": null,
    "post": null,
-   "regClose": 7616.5,
+   "regClose": 7616.0,
    "sess": "24h",
-   "mt": 1784148735,
+   "mt": 1784149199,
    "ok": true
   },
   "NQ=F": {
-   "price": 29716.5,
-   "chg": -0.25,
-   "chg5": 0.84,
-   "sma20": 29842.59,
-   "sma50": 29639.53,
-   "sma200": 27064.6,
+   "price": 29707.5,
+   "chg": -0.28,
+   "chg5": 0.81,
+   "sma20": 29842.14,
+   "sma50": 29639.35,
+   "sma200": 27064.53,
    "high3m": 30712.75,
-   "reg": 29716.5,
+   "reg": 29707.5,
    "pre": null,
    "post": null,
-   "regClose": 29716.5,
+   "regClose": 29707.5,
    "sess": "24h",
-   "mt": 1784148733,
+   "mt": 1784149198,
    "ok": true
   },
   "YM=F": {
-   "price": 52912.0,
-   "chg": 0.23,
-   "chg5": 0.55,
-   "sma20": 52548.65,
-   "sma50": 51262.32,
-   "sma200": 49610.25,
+   "price": 52897.0,
+   "chg": 0.2,
+   "chg5": 0.52,
+   "sma20": 52547.9,
+   "sma50": 51262.02,
+   "sma200": 49610.13,
    "high3m": 53372.0,
-   "reg": 52912.0,
+   "reg": 52897.0,
    "pre": null,
    "post": null,
-   "regClose": 52912.0,
+   "regClose": 52897.0,
    "sess": "24h",
-   "mt": 1784148698,
+   "mt": 1784149197,
    "ok": true
   },
   "GC=F": {
-   "price": 4068.4,
-   "chg": 0.18,
-   "chg5": -0.06,
-   "sma20": 4114.19,
-   "sma50": 4339.98,
-   "sma200": 4653.29,
+   "price": 4066.9,
+   "chg": 0.14,
+   "chg5": -0.1,
+   "sma20": 4114.12,
+   "sma50": 4339.95,
+   "sma200": 4653.28,
    "high3m": 4857.6,
-   "reg": 4068.4,
+   "reg": 4066.9,
    "pre": null,
    "post": null,
-   "regClose": 4068.4,
+   "regClose": 4066.9,
    "sess": "24h",
-   "mt": 1784148701,
+   "mt": 1784149195,
    "ok": true
   },
   "CL=F": {
-   "price": 80.26,
-   "chg": 1.16,
-   "chg5": 9.17,
+   "price": 80.24,
+   "chg": 1.13,
+   "chg5": 9.14,
    "sma20": 73.01,
    "sma50": 86.34,
    "sma200": 83.73,
    "high3m": 108.66,
-   "reg": 80.26,
+   "reg": 80.24,
    "pre": null,
    "post": null,
-   "regClose": 80.26,
+   "regClose": 80.24,
    "sess": "24h",
-   "mt": 1784148727,
+   "mt": 1784149198,
    "ok": true
   },
   "HG=F": {
    "price": 6.38,
-   "chg": 0.87,
-   "chg5": 5.46,
+   "chg": 0.84,
+   "chg5": 5.43,
    "sma20": 6.22,
    "sma50": 6.28,
    "sma200": 6.0,
@@ -1084,9 +1072,9 @@
    "reg": 6.38,
    "pre": null,
    "post": null,
-   "regClose": 6.39,
+   "regClose": 6.38,
    "sess": "24h",
-   "mt": 1784148695,
+   "mt": 1784149184,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 109.23,
    "sess": "24h",
-   "mt": 1784148729,
+   "mt": 1784149199,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1112,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "CoreWeave’s stock suffers another long losing streak. Here’s what’s driving the selling. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOQXlTY2VJNThsMVV1VFAxMFBXSV9hMV9MSnYxNXozSXJtdGJTVEJrZ0xkMG40al9ZNkVIcWxWVDhfWHd1SlVncVN3U0g3N21tX3gtUzd1amlxOEZOdWd5TlFYOXRvTXlKOW9CVTV4TlpreEZLOUg1c1ZWTVF4VjV0ZUVqbExkMVdtVTlXT1BybTVHbGVLd3VpRExGLUh3R2dsdE91MWVrdTJvbDI4bUdPbnY5YVZWNzhZWHdVU0tIWHpNUDVW?oc=5",
+    "pub": "Wed, 15 Jul 2026 21:08:00 GMT",
+    "src": "MarketWatch",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "BlackRock Posts Record $15.3 Trillion AUM, Aladdin Now Powers Rival Portfolios - Tech Times",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNU3F5N09fQ2JyTzlNMy1FcGpodkg5blozR1RyWlN4Q3V1cUlZZnIxUUNCZXBhR1lWN2ZMdTkxT0tGQ2RIRlF3TnNzMzhfcXZRd2RPNjdPN3ZSdzVNeF9wek96R3Z0VDVFZWtYbWxPWFdJY0YxelBMMGVKM1l4Q2lCNHhYMnpEWGktTlRvNVdhOUtuZ3BuclNfNG1Ka0JvYWQ3WTRaamdZUFQtaWl4MERNUDJXN2RmMXVYN0c1bGd1SEJYRTdMaElZakhn?oc=5",
@@ -1163,14 +1159,6 @@
     "src": "Citywire",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "New York became the first U.S. state to halt construction of large new data centers, imposing a one-year moratorium as concerns grow that the facilities driving the artificial-intelligence boom are raising power costs, straining water supplies and burdening local - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOMWRYWHdMYU1QLTh4SE4wNGZBVUh3ZlpqY01FckE2X19OT1ZQZEFPQndwRExieTBQTXBsNXQ1SWhWMWRVWG9pMjhONkNLUjB1dnVLV240cVFDT3RhS0NjZ090UXZST0hPblE1TTZpZVVDTk1ZREhWaE0xdGVyb08wd3EzZUQyV0hoel9ZX0xKaGdiMUpNejNpNXdySjBOSkFqNFJVN0duWmdfemIxcTJIX2MxZm9XblFLR3I1WTF2eklfQVEyVk9lNnJ2dFpjS09Dak1sVUtyMUE?oc=5",
-    "pub": "Wed, 15 Jul 2026 16:15:01 GMT",
-    "src": "facebook.com",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1199,6 +1187,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX stock hits all-time low, dips below IPO price - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQVNhRHpUdF80VV9pN014bFhNakxDX1VCUHN2SVhQbjZOV29rNXdRb29WREllcmdobGpqZGh4RFQtN2dwR3pMN0k5VWtrVzNWMVdQNmIyQzhMQlRYbU42Ty1pUG95UlVPZHNpNHJHckhHQnJvRWxnTWNGT3Z4bUhPMUVHb2hpRjY3S0VSa0lmell0THRpUlJaV3d3QnNSRW9xdmJaMHBkLTlQcFlBVS0yNlZ2VjFTdw?oc=5",
+    "pub": "Wed, 15 Jul 2026 20:13:12 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Cheapest S&P 500 ETF Was Just Picked for Trump Accounts and $30 Billion Followed - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQZ1VWYUh4MTZFeW14aVRtcm1FS084bWM0Y3NYRldrNWduSlpNT05aSVY4UE1fMk5UajMwN0tOWkd5QWRGNDNMQnZyVEFvd2RDaGg0NXp6QUtrWld1TEh4NkhQZy12VUx1WGo0RmFuLU5sX0Z3bFBlZXc2RnhiLXVPVFdyaGhRRFFBb0EtS1NGVE0zWnBPRlR6dHduZUVoLVE5TGxheFRUZWhWakhTUF9CMUlKSEdVNk1VYkNkWldKVFJoTVd5QVZjdGpn?oc=5",
     "pub": "Wed, 15 Jul 2026 20:10:41 GMT",
@@ -1207,18 +1203,10 @@
     "geo": false
    },
    {
-    "title": "SDA’s Third Tranche 1 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53N00wS3dudlltSGp4cGc4UDNvUGFGb1Z1bHlzNld5THFZYjF3dW5la0RrdGxwSWQyUWtKTFJ3WlpsWkdaTEpzUDd4R1Z4dlRGUDBFdQ?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:05:34 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX’s Starship is preparing for a potential 13th test flight launch tomorrow, July 16, between the hours of 5:45 p.m. and 7:15 p.m. CST. Here’s what to know: • Launch window opens at 5:45 p.m. and runs through 7:15 p.m. • Sonic Booms may be heard in Br - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZlBBclFOSU9JMDB3Yk5lcXFwX2VWdGhHZGwwbGFPNTJVN255U2c1M29LT0JKa3p1Z2Y1SVdWb3BVS1BxODVXMXJJYWNFdFg1RG1vem5ObnJrYk56blVKQmNrYjJaZEp0YlhxZnVwYVh5Sy0wUUJ1dnNKWU82WGN2NWhRQVAtTThocmJHZndwTzhFTjVRS2FtQWtEQTUtRXVWOEp1MUNnMTlmN2lHYU9Hb044NzVMSXZ1Qi1HNFgyaWxIWmJESWxjS2hqZDd5bkJSTHEw?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:00:46 GMT",
-    "src": "facebook.com",
+    "title": "Once again we are told AI may be conscious – I study consciousness, and I have my doubts | Anil Seth - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQeHdLaGJmaV9lWTBKZEJZTU8wTnp2Ry1tbVlVNUZFX1NXV2dJaVhCOVJqNDBYUHlJVURBcllUY1RkUUw2c2dTck5MZGpUMWx5VmItSENvSGlxR1hlajc4TEFUbW9XYlA5TS1kZkktRXZWaW5BN0hSNlJuOXR6bXBkTjVqaWZ3WG5XS004M0szcDZIX05zYzNjZFZIQQ?oc=5",
+    "pub": "Wed, 15 Jul 2026 20:09:00 GMT",
+    "src": "The Guardian",
     "trig": false,
     "geo": false
    }
@@ -1249,14 +1237,6 @@
     "geo": false
    },
    {
-    "title": "A 'notable upgrade’: economists weigh in on the Bank of Canada's outlook and latest rate decision - Financial Post",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcUVRQnQ4T0V3M29DSzQwcUM5YVBuaGtDTWdvbTN5OFBmR19qR3ZjMjlGNkM1RVQwX0RHSy1KaUxnYXRsVzVmSmN5ODZVNzE0aFdlVXRuYTczX0dtbW9sVkM3Tk53OHlvOTNua0VfLWdkMnk3NXJiU1lLOXhKcjhMU2NXYzhMRHpfSFk1dHJ3?oc=5",
-    "pub": "Wed, 15 Jul 2026 18:01:35 GMT",
-    "src": "Financial Post",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Bank of Canada holds interest rate at 2.25% for sixth meeting in a row - Financial Post",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOX2FmTTh2Z210UTl4UlI5MmhTNF9NX2trWjZXRkxOTzZqVjdDeVd4dWg2WXlsNWlLMUwzdk42cVpyNXhucUlwQlFqUXR5cXVYajJ3RU54dnBBV21TRTlMTDlBblFleGhYQWlBdVVOdEIzSkR2ZWs3blFKSnBxaldVZ0sweUR3SG5j?oc=5",
     "pub": "Wed, 15 Jul 2026 17:53:01 GMT",
@@ -1269,6 +1249,14 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDRZaXNxN1h4bllOcDg1cHp5SnpBMHRaWlZrSGIzeTFTOFI2RU5veEtpenNOOGFqdXQ5QWV3SnFuWHZWc2ZwRlByTWJ0ZU9YaGVibE1oODlYa1ROLThtYXB4ZUVyY1ZVVkh6RThWajlQVGVRbndrd0ZzS2hrRzQ3U0ZDdlFvNDg?oc=5",
     "pub": "Wed, 15 Jul 2026 17:21:36 GMT",
     "src": "Global News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bank of Canada holds key interest rate at 2.25% as economic growth rebounds - CBC",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOT2dJdG5iVUV1TXIxNENXekVTek91V2xfclJONExlVlYwSnNqTHZHWVZfX1lITDQ1N2RiRUhtYzJvdHdJdnRvdHNSano4Qng2Q2FibGRpZFpaZUdDbWdBT00tZmV1Z3ludmFDM1pRLU56bXVTaC1TcXZ4WWtJaDJzb1F3?oc=5",
+    "pub": "Wed, 15 Jul 2026 17:11:53 GMT",
+    "src": "CBC",
     "trig": false,
     "geo": false
    }
@@ -1582,21 +1570,7 @@
    37.21,
    38.63
   ],
-  "gld": [
-   440.08,
-   435.26,
-   417.41,
-   430.96,
-   430.5,
-   411.5,
-   408.49,
-   407.87,
-   374.58,
-   397.63,
-   365.92,
-   370.6,
-   372.35
-  ],
+  "gld": null,
   "btc": [
    74805.08,
    78203.1,
@@ -1610,7 +1584,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64948.69
+   64833.46
   ],
   "vixts": [
    0.875,
@@ -1729,7 +1703,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(이란)이 제한적 영향을 보이는 가운데 금리 4.5% 고착과 신용스프레드 2.72% 안정으로 사모대출 자산화 움직임이 활발하나, 밸류에이션(CAPE 42)은 여전히 고평가 영역입니다. AI 인프라 수급은 SK하이닉스의 HBM 우위가 공고하나 뉴욕의 데이터센터 건설 모라토리움으로 공급망 제약이 현실화되고 있습니다.",
+  "text": "지정학 긴장(미-이란 무인기 충돌)이 고조되면서 VIX 16·달러 강세(DXY 100.5)로 안전자산 쏠림이 지속되고 있으며, 고금리(미10년 4.54%) 속 신용스프레드 양호(HY 2.72%)는 사모대출 인프라 수요의 강건함을 반영한다. AI 인프라 capex 확대(데이터센터 대출 급증)가 지속되나 GPU/HBM 공급망에서 특이 신호는 없으며, 다만 반도체株 약세와 스페이스X 저평가가 동시 진행 중이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,12 +1712,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2428,16 +2401,18 @@
   16
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "WDC"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 37,
-  "n": 35
+  "pct50": 38,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-15T21:02:35+00:00",
+  "checked": "2026-07-15T21:12:12+00:00",
   "openai": {
    "found": false
   },
@@ -2450,7 +2425,7 @@
   "margin_asof": "May-26",
   "margin_src": "archive",
   "margin_gdp_pct": 4.44,
-  "curve_bp": 40,
+  "curve_bp": 42,
   "curve_inverted": false,
   "curve_uninv_months": 22.3
  },

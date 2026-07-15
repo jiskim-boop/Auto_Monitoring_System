@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T20:22:32+00:00",
+ "updated": "2026-07-15T20:32:38+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -306,20 +306,8 @@
    "ok": true
   },
   "CEG": {
-   "price": 258.12,
-   "chg": 0.66,
-   "chg5": 5.56,
-   "sma20": 257.17,
-   "sma50": 270.28,
-   "sma200": 285.48,
-   "high3m": 322.78,
-   "reg": 258.12,
-   "pre": null,
-   "post": null,
-   "regClose": 258.11,
-   "sess": "reg",
-   "mt": 1784145601,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "NRG": {
    "price": 137.9,
@@ -722,51 +710,51 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.72,
-   "chg": -4.73,
-   "chg5": -6.98,
+   "price": 15.67,
+   "chg": -5.03,
+   "chg5": -7.28,
    "sma20": 16.98,
    "sma50": 17.31,
    "sma200": 19.43,
    "high3m": 22.22,
-   "reg": 15.72,
+   "reg": 15.67,
    "pre": null,
    "post": null,
-   "regClose": 15.72,
+   "regClose": 15.67,
    "sess": "reg",
-   "mt": 1784146006,
+   "mt": 1784146501,
    "ok": true
   },
   "^VIX3M": {
-   "price": 18.88,
-   "chg": 1.67,
-   "chg5": 0.53,
+   "price": 18.91,
+   "chg": 1.83,
+   "chg5": 0.69,
    "sma20": 19.58,
    "sma50": 20.14,
    "sma200": 21.55,
    "high3m": 22.89,
-   "reg": 18.88,
+   "reg": 18.91,
    "pre": null,
    "post": null,
-   "regClose": 18.88,
+   "regClose": 18.91,
    "sess": "reg",
-   "mt": 1784146006,
+   "mt": 1784146501,
    "ok": true
   },
   "^VVIX": {
-   "price": 91.6,
-   "chg": -2.06,
-   "chg5": 0.24,
-   "sma20": 90.7,
+   "price": 91.85,
+   "chg": -1.8,
+   "chg5": 0.51,
+   "sma20": 90.71,
    "sma50": 92.53,
    "sma200": 102.59,
    "high3m": 108.16,
-   "reg": 91.6,
+   "reg": 91.85,
    "pre": null,
    "post": null,
-   "regClose": 91.6,
+   "regClose": 91.85,
    "sess": "reg",
-   "mt": 1784146006,
+   "mt": 1784146501,
    "ok": true
   },
   "^SKEW": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.53,
-   "chg": -0.4,
-   "chg5": -0.51,
+   "price": 100.52,
+   "chg": -0.42,
+   "chg5": -0.53,
    "sma20": 100.98,
-   "sma50": 99.85,
+   "sma50": 99.84,
    "sma200": 99.02,
    "high3m": 101.61,
-   "reg": 100.53,
+   "reg": 100.52,
    "pre": null,
    "post": null,
-   "regClose": 100.53,
+   "regClose": 100.52,
    "sess": "reg",
-   "mt": 1784146316,
+   "mt": 1784146922,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64983.06,
-   "chg": 0.04,
-   "chg5": 1.33,
-   "sma20": 62273.22,
-   "sma50": 64118.03,
-   "sma200": 71792.36,
+   "price": 64999.42,
+   "chg": 0.07,
+   "chg5": 1.36,
+   "sma20": 62274.04,
+   "sma50": 64118.35,
+   "sma200": 71792.45,
    "high3m": 81051.25,
-   "reg": 64983.06,
+   "reg": 64999.42,
    "pre": null,
    "post": null,
-   "regClose": 64983.06,
+   "regClose": 64999.42,
    "sess": "reg",
-   "mt": 1784146920,
+   "mt": 1784147526,
    "ok": true
   },
   "USO": {
@@ -990,87 +978,87 @@
    "post": null,
    "regClose": 162.21,
    "sess": "reg",
-   "mt": 1784146924,
+   "mt": 1784147529,
    "ok": true
   },
   "ES=F": {
-   "price": 7614.0,
-   "chg": 0.3,
-   "chg5": 1.13,
-   "sma20": 7522.62,
-   "sma50": 7483.77,
-   "sma200": 7121.35,
+   "price": 7617.25,
+   "chg": 0.34,
+   "chg5": 1.18,
+   "sma20": 7522.78,
+   "sma50": 7483.84,
+   "sma200": 7121.37,
    "high3m": 7623.75,
-   "reg": 7614.0,
+   "reg": 7617.25,
    "pre": null,
    "post": null,
-   "regClose": 7614.0,
+   "regClose": 7617.25,
    "sess": "24h",
-   "mt": 1784146324,
+   "mt": 1784146929,
    "ok": true
   },
   "NQ=F": {
-   "price": 29698.25,
-   "chg": -0.31,
-   "chg5": 0.78,
-   "sma20": 29841.68,
-   "sma50": 29639.17,
-   "sma200": 27064.45,
+   "price": 29717.75,
+   "chg": -0.24,
+   "chg5": 0.85,
+   "sma20": 29842.65,
+   "sma50": 29639.56,
+   "sma200": 27064.61,
    "high3m": 30712.75,
-   "reg": 29698.25,
+   "reg": 29717.75,
    "pre": null,
    "post": null,
-   "regClose": 29698.25,
+   "regClose": 29717.75,
    "sess": "24h",
-   "mt": 1784146327,
+   "mt": 1784146931,
    "ok": true
   },
   "YM=F": {
-   "price": 52898.0,
-   "chg": 0.2,
-   "chg5": 0.52,
-   "sma20": 52547.95,
-   "sma50": 51262.04,
-   "sma200": 49610.14,
+   "price": 52937.0,
+   "chg": 0.28,
+   "chg5": 0.59,
+   "sma20": 52549.9,
+   "sma50": 51262.82,
+   "sma200": 49610.45,
    "high3m": 53372.0,
-   "reg": 52898.0,
+   "reg": 52937.0,
    "pre": null,
    "post": null,
-   "regClose": 52898.0,
+   "regClose": 52937.0,
    "sess": "24h",
-   "mt": 1784146327,
+   "mt": 1784146915,
    "ok": true
   },
   "GC=F": {
-   "price": 4063.5,
-   "chg": 0.06,
-   "chg5": -0.18,
-   "sma20": 4113.95,
-   "sma50": 4339.88,
-   "sma200": 4653.25,
+   "price": 4067.7,
+   "chg": 0.16,
+   "chg5": -0.08,
+   "sma20": 4114.16,
+   "sma50": 4339.97,
+   "sma200": 4653.29,
    "high3m": 4857.6,
-   "reg": 4063.5,
+   "reg": 4067.7,
    "pre": null,
    "post": null,
-   "regClose": 4063.5,
+   "regClose": 4067.7,
    "sess": "24h",
-   "mt": 1784146323,
+   "mt": 1784146933,
    "ok": true
   },
   "CL=F": {
-   "price": 80.4,
-   "chg": 1.34,
-   "chg5": 9.36,
-   "sma20": 73.02,
+   "price": 80.2,
+   "chg": 1.08,
+   "chg5": 9.09,
+   "sma20": 73.01,
    "sma50": 86.34,
    "sma200": 83.73,
    "high3m": 108.66,
-   "reg": 80.4,
+   "reg": 80.2,
    "pre": null,
    "post": null,
-   "regClose": 80.4,
+   "regClose": 80.2,
    "sess": "24h",
-   "mt": 1784146329,
+   "mt": 1784146932,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1074,7 @@
    "post": null,
    "regClose": 6.38,
    "sess": "24h",
-   "mt": 1784146313,
+   "mt": 1784146862,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 109.23,
    "sess": "24h",
-   "mt": 1784146325,
+   "mt": 1784146925,
    "ok": true
   },
   "EWY": {
@@ -1129,6 +1117,14 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUZfUVBUZkVocHV6Z0dYRTdJSXVqWVFHRGQ5czU1N2JmOUNPelFyZWd1cVRTSjFObXlmZVZBUk5LdDFIaDJiWDRxZGRpQ1BQOXNTX1ZhdUhnNHBtVWdXaG9qdkhCbUY1cTFOUC1qaFZTUnRkMEZDd2VjZi03OW1sMkRzNS12czZZWFM1dmpBRXJxLUxGMDJVR3ZxRG5Ucy01TVRmenpOeEg5VDBkbXA0Nkh2NFBzczgwRkNVbExVZw?oc=5",
     "pub": "Wed, 15 Jul 2026 18:25:00 GMT",
     "src": "Pensions & Investments",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Private credit’s live test: Can managers prove the marks? - With Intelligence",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX090NThOYmlFeW1XRVU3VEVQQ0VNT2NPZ2xuWDJrNzJBWHBnXzdCTEZaSmpHaGdUbjlHYWZBMDY3di1PR19lNi1nY1B4N2xEYUZrU21EbDJEcUQyS2pObVZXTnNpV2tSakdJNnlyMnJqYmNWbHMyYVNmSGt3MUgxczFkdE5HLU5OWjRsZUMzUUNxMU5YWGd4eWpBMDdFdw?oc=5",
+    "pub": "Wed, 15 Jul 2026 18:04:41 GMT",
+    "src": "With Intelligence",
     "trig": false,
     "geo": false
    },
@@ -1163,21 +1159,13 @@
     "src": "Mshale",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave: Zero Room For Error (NASDAQ:CRWV) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11Y29QX0JULS1pUHBiZTlNcDFCV09SbmZFZ2RCZWJ4enlOQ0lnQ2pLN3dFc09neE8tbGtBdFYzanNYX3gzZlNjeGtJMjJpZGYxc19ZNVpIc0ViYWp5RzM1TVdFNHhjTzhfMmtSeWhfRW1OM2c2MW1Hc0N3?oc=5",
-    "pub": "Wed, 15 Jul 2026 15:08:12 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
     "title": "Starship's Thirteenth Flight Test - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:14:33 GMT",
+    "pub": "Wed, 15 Jul 2026 20:26:38 GMT",
     "src": "SpaceX",
     "trig": false,
     "geo": false
@@ -1398,7 +1386,7 @@
    "chg": 0.03
   },
   "iorb": {
-   "date": "2026-07-15",
+   "date": "2026-07-16",
    "value": 3.65,
    "prev": 3.65,
    "chg": 0.0
@@ -1475,7 +1463,7 @@
    16.41,
    18.63,
    16.59,
-   15.71
+   15.67
   ],
   "tnx": [
    4.28,
@@ -1505,7 +1493,7 @@
    99.54,
    101.61,
    101.39,
-   100.53
+   100.51
   ],
   "bizd": [
    12.96,
@@ -1550,7 +1538,7 @@
    160.6,
    161.76,
    162.54,
-   162.2
+   162.21
   ],
   "uso": [
    125.84,
@@ -1610,7 +1598,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64986.02
+   65009.66
   ],
   "vixts": [
    0.875,
@@ -1625,7 +1613,7 @@
    0.848,
    0.885,
    0.849,
-   0.832
+   0.829
   ],
   "hyoas": [
    2.88,
@@ -2428,16 +2416,18 @@
   16
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "CEG"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 37,
-  "n": 35
+  "pct50": 38,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-15T20:22:19+00:00",
+  "checked": "2026-07-15T20:32:25+00:00",
   "openai": {
    "found": false
   },

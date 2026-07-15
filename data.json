@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T20:02:47+00:00",
+ "updated": "2026-07-15T20:12:27+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -290,8 +290,20 @@
    "ok": true
   },
   "VST": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 160.2,
+   "chg": 1.12,
+   "chg5": 3.47,
+   "sma20": 159.58,
+   "sma50": 154.21,
+   "sma200": 157.87,
+   "high3m": 167.77,
+   "reg": 160.2,
+   "pre": null,
+   "post": null,
+   "regClose": 160.2,
+   "sess": "reg",
+   "mt": 1784145595,
+   "ok": true
   },
   "CEG": {
    "price": 258.12,
@@ -598,8 +610,20 @@
    "ok": true
   },
   "BIZD": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 12.67,
+   "chg": 0.88,
+   "chg5": 2.84,
+   "sma20": 12.44,
+   "sma50": 12.58,
+   "sma200": 12.92,
+   "high3m": 13.36,
+   "reg": 12.67,
+   "pre": null,
+   "post": null,
+   "regClose": 12.67,
+   "sess": "reg",
+   "mt": 1784145597,
+   "ok": true
   },
   "ARCC": {
    "price": 18.92,
@@ -634,8 +658,20 @@
    "ok": true
   },
   "HYG": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 79.8,
+   "chg": 0.15,
+   "chg5": 0.18,
+   "sma20": 79.81,
+   "sma50": 79.84,
+   "sma200": 80.12,
+   "high3m": 80.65,
+   "reg": 79.8,
+   "pre": null,
+   "post": null,
+   "regClose": 79.8,
+   "sess": "reg",
+   "mt": 1784145599,
+   "ok": true
   },
   "BKLN": {
    "price": 20.46,
@@ -686,51 +722,51 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.73,
-   "chg": -4.67,
-   "chg5": -6.92,
+   "price": 15.65,
+   "chg": -5.15,
+   "chg5": -7.4,
    "sma20": 16.98,
    "sma50": 17.31,
    "sma200": 19.43,
    "high3m": 22.22,
-   "reg": 15.73,
+   "reg": 15.65,
    "pre": null,
    "post": null,
-   "regClose": 15.73,
+   "regClose": 15.65,
    "sess": "reg",
-   "mt": 1784144821,
+   "mt": 1784145406,
    "ok": true
   },
   "^VIX3M": {
-   "price": 18.91,
-   "chg": 1.83,
-   "chg5": 0.69,
+   "price": 18.84,
+   "chg": 1.45,
+   "chg5": 0.32,
    "sma20": 19.58,
    "sma50": 20.14,
    "sma200": 21.55,
    "high3m": 22.89,
-   "reg": 18.91,
+   "reg": 18.84,
    "pre": null,
    "post": null,
-   "regClose": 18.91,
+   "regClose": 18.84,
    "sess": "reg",
-   "mt": 1784144821,
+   "mt": 1784145406,
    "ok": true
   },
   "^VVIX": {
-   "price": 92.04,
-   "chg": -1.59,
-   "chg5": 0.72,
-   "sma20": 90.72,
+   "price": 91.55,
+   "chg": -2.12,
+   "chg5": 0.19,
+   "sma20": 90.69,
    "sma50": 92.53,
    "sma200": 102.59,
    "high3m": 108.16,
-   "reg": 92.04,
+   "reg": 91.55,
    "pre": null,
    "post": null,
-   "regClose": 92.04,
+   "regClose": 91.55,
    "sess": "reg",
-   "mt": 1784144821,
+   "mt": 1784145406,
    "ok": true
   },
   "^SKEW": {
@@ -766,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.53,
-   "chg": -0.4,
-   "chg5": -0.51,
+   "price": 100.51,
+   "chg": -0.42,
+   "chg5": -0.53,
    "sma20": 100.98,
-   "sma50": 99.85,
+   "sma50": 99.84,
    "sma200": 99.02,
    "high3m": 101.61,
-   "reg": 100.53,
+   "reg": 100.51,
    "pre": null,
    "post": null,
-   "regClose": 100.53,
+   "regClose": 100.51,
    "sess": "reg",
-   "mt": 1784145130,
+   "mt": 1784145713,
    "ok": true
   },
   "^IRX": {
@@ -830,20 +866,8 @@
    "ok": true
   },
   "QQQ": {
-   "price": 717.74,
-   "chg": -0.27,
-   "chg5": 0.89,
-   "sma20": 720.9,
-   "sma50": 718.07,
-   "sma200": 655.61,
-   "high3m": 746.16,
-   "reg": 717.74,
-   "pre": null,
-   "post": null,
-   "regClose": 717.74,
-   "sess": "reg",
-   "mt": 1784145600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "^TNX": {
    "price": 4.54,
@@ -910,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64914.13,
+   "price": 64918.46,
    "chg": -0.06,
    "chg5": 1.23,
-   "sma20": 62269.77,
-   "sma50": 64116.65,
-   "sma200": 71791.99,
+   "sma20": 62269.99,
+   "sma50": 64116.73,
+   "sma200": 71792.01,
    "high3m": 81051.25,
-   "reg": 64914.13,
+   "reg": 64918.46,
    "pre": null,
    "post": null,
-   "regClose": 64914.13,
+   "regClose": 64918.46,
    "sess": "reg",
-   "mt": 1784145732,
+   "mt": 1784146318,
    "ok": true
   },
   "USO": {
@@ -942,105 +966,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.21,
-   "chg": 0.01,
+   "price": 162.22,
+   "chg": 0.02,
    "chg5": -0.2,
-   "sma20": 161.96,
+   "sma20": 161.97,
    "sma50": 160.33,
    "sma200": 158.56,
    "high3m": 162.63,
-   "reg": 162.21,
+   "reg": 162.22,
    "pre": null,
    "post": null,
-   "regClose": 162.21,
+   "regClose": 162.22,
    "sess": "reg",
-   "mt": 1784145738,
+   "mt": 1784146321,
    "ok": true
   },
   "ES=F": {
-   "price": 7611.5,
-   "chg": 0.27,
-   "chg5": 1.1,
-   "sma20": 7522.5,
-   "sma50": 7483.72,
-   "sma200": 7121.33,
+   "price": 7615.5,
+   "chg": 0.32,
+   "chg5": 1.15,
+   "sma20": 7522.7,
+   "sma50": 7483.8,
+   "sma200": 7121.36,
    "high3m": 7623.75,
-   "reg": 7611.5,
+   "reg": 7615.5,
    "pre": null,
    "post": null,
-   "regClose": 7611.5,
+   "regClose": 7615.5,
    "sess": "24h",
-   "mt": 1784145138,
+   "mt": 1784145723,
    "ok": true
   },
   "NQ=F": {
-   "price": 29677.5,
-   "chg": -0.38,
-   "chg5": 0.71,
-   "sma20": 29840.64,
-   "sma50": 29638.75,
-   "sma200": 27064.29,
+   "price": 29718.75,
+   "chg": -0.24,
+   "chg5": 0.85,
+   "sma20": 29842.7,
+   "sma50": 29639.58,
+   "sma200": 27064.62,
    "high3m": 30712.75,
-   "reg": 29677.5,
+   "reg": 29718.75,
    "pre": null,
    "post": null,
-   "regClose": 29677.5,
+   "regClose": 29718.75,
    "sess": "24h",
-   "mt": 1784145140,
+   "mt": 1784145723,
    "ok": true
   },
   "YM=F": {
-   "price": 52904.0,
-   "chg": 0.21,
-   "chg5": 0.53,
-   "sma20": 52548.25,
-   "sma50": 51262.16,
-   "sma200": 49610.19,
+   "price": 52908.0,
+   "chg": 0.22,
+   "chg5": 0.54,
+   "sma20": 52548.45,
+   "sma50": 51262.24,
+   "sma200": 49610.22,
    "high3m": 53372.0,
-   "reg": 52904.0,
+   "reg": 52908.0,
    "pre": null,
    "post": null,
-   "regClose": 52904.0,
+   "regClose": 52908.0,
    "sess": "24h",
-   "mt": 1784145141,
+   "mt": 1784145723,
    "ok": true
   },
   "GC=F": {
-   "price": 4061.5,
-   "chg": 0.01,
-   "chg5": -0.23,
-   "sma20": 4113.85,
-   "sma50": 4339.84,
-   "sma200": 4653.24,
+   "price": 4064.1,
+   "chg": 0.07,
+   "chg5": -0.17,
+   "sma20": 4113.98,
+   "sma50": 4339.9,
+   "sma200": 4653.26,
    "high3m": 4857.6,
-   "reg": 4061.5,
+   "reg": 4064.1,
    "pre": null,
    "post": null,
-   "regClose": 4061.5,
+   "regClose": 4064.1,
    "sess": "24h",
-   "mt": 1784145140,
+   "mt": 1784145722,
    "ok": true
   },
   "CL=F": {
-   "price": 80.27,
-   "chg": 1.17,
-   "chg5": 9.18,
-   "sma20": 73.01,
+   "price": 80.37,
+   "chg": 1.3,
+   "chg5": 9.32,
+   "sma20": 73.02,
    "sma50": 86.34,
    "sma200": 83.73,
    "high3m": 108.66,
-   "reg": 80.27,
+   "reg": 80.37,
    "pre": null,
    "post": null,
-   "regClose": 80.27,
+   "regClose": 80.37,
    "sess": "24h",
-   "mt": 1784145139,
+   "mt": 1784145723,
    "ok": true
   },
   "HG=F": {
    "price": 6.39,
-   "chg": 0.88,
-   "chg5": 5.48,
+   "chg": 0.92,
+   "chg5": 5.51,
    "sma20": 6.22,
    "sma50": 6.28,
    "sma200": 6.0,
@@ -1050,7 +1074,7 @@
    "post": null,
    "regClose": 6.39,
    "sess": "24h",
-   "mt": 1784145133,
+   "mt": 1784145720,
    "ok": true
   },
   "ZN=F": {
@@ -1066,7 +1090,7 @@
    "post": null,
    "regClose": 109.22,
    "sess": "24h",
-   "mt": 1784145106,
+   "mt": 1784145724,
    "ok": true
   },
   "EWY": {
@@ -1093,14 +1117,6 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQOUZfUVBUZkVocHV6Z0dYRTdJSXVqWVFHRGQ5czU1N2JmOUNPelFyZWd1cVRTSjFObXlmZVZBUk5LdDFIaDJiWDRxZGRpQ1BQOXNTX1ZhdUhnNHBtVWdXaG9qdkhCbUY1cTFOUC1qaFZTUnRkMEZDd2VjZi03OW1sMkRzNS12czZZWFM1dmpBRXJxLUxGMDJVR3ZxRG5Ucy01TVRmenpOeEg5VDBkbXA0Nkh2NFBzczgwRkNVbExVZw?oc=5",
     "pub": "Wed, 15 Jul 2026 18:25:00 GMT",
     "src": "Pensions & Investments",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Private credit’s live test: Can managers prove the marks? - With Intelligence",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPX090NThOYmlFeW1XRVU3VEVQQ0VNT2NPZ2xuWDJrNzJBWHBnXzdCTEZaSmpHaGdUbjlHYWZBMDY3di1PR19lNi1nY1B4N2xEYUZrU21EbDJEcUQyS2pObVZXTnNpV2tSakdJNnlyMnJqYmNWbHMyYVNmSGt3MUgxczFkdE5HLU5OWjRsZUMzUUNxMU5YWGd4eWpBMDdFdw?oc=5",
-    "pub": "Wed, 15 Jul 2026 18:04:41 GMT",
-    "src": "With Intelligence",
     "trig": false,
     "geo": false
    },
@@ -1135,9 +1151,25 @@
     "src": "Mshale",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "CoreWeave: Zero Room For Error (NASDAQ:CRWV) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE11Y29QX0JULS1pUHBiZTlNcDFCV09SbmZFZ2RCZWJ4enlOQ0lnQ2pLN3dFc09neE8tbGtBdFYzanNYX3gzZlNjeGtJMjJpZGYxc19ZNVpIc0ViYWp5RzM1TVdFNHhjTzhfMmtSeWhfRW1OM2c2MW1Hc0N3?oc=5",
+    "pub": "Wed, 15 Jul 2026 15:08:12 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SpaceX’s Starship is preparing for a potential 13th test flight launch tomorrow, July 16, between the hours of 5:45 p.m. and 7:15 p.m. CST. Here’s what to know: • Launch window opens at 5:45 p.m. and runs through 7:15 p.m. • Sonic Booms may be heard in Br - facebook.com",
+    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNZlBBclFOSU9JMDB3Yk5lcXFwX2VWdGhHZGwwbGFPNTJVN255U2c1M29LT0JKa3p1Z2Y1SVdWb3BVS1BxODVXMXJJYWNFdFg1RG1vem5ObnJrYk56blVKQmNrYjJaZEp0YlhxZnVwYVh5Sy0wUUJ1dnNKWU82WGN2NWhRQVAtTThocmJHZndwTzhFTjVRS2FtQWtEQTUtRXVWOEp1MUNnMTlmN2lHYU9Hb044NzVMSXZ1Qi1HNFgyaWxIWmJESWxjS2hqZDd5bkJSTHEw?oc=5",
+    "pub": "Wed, 15 Jul 2026 20:00:46 GMT",
+    "src": "facebook.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "xAI sues South Carolina man in Texas federal court over Grok sexual deepfakes - Межа. Новини України.",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5jejc2YTlscjIwRTNtNFhKQWlza3lidUVFczBnT25iYmlFT1FHSnpGcml2UmFkblVUNERNakx4NlVuNlItd0VtMTd1SGFvVmFTR0QzeEJnQXZhNXRob05JM2F3?oc=5",
@@ -1177,14 +1209,6 @@
     "src": "The Straits Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Anthropic schedules investor meetings ahead of potential IPO - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5SaDZ4dFVmeWJnaHc0TktlOFN0SDhpZEZ4UUw4Wi1ZVHVzLVY1VmljVERiaWZmYUxneC1JRmh6a3VTR0ZJUF9iZ2R4Njg3cDV0V0tKUGxSeERDenYxVzdiRWFTcUJvY0VyWWNOUVhn?oc=5",
-    "pub": "Wed, 15 Jul 2026 19:18:16 GMT",
-    "src": "qz.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1193,6 +1217,14 @@
     "link": "https://news.google.com/rss/articles/CBMiowJBVV95cUxOelluVGc0cXIwelBEQ2pBUjJFYk5EeUVjMHptY2RjazBRaFJuWkhhQ2Mxbzg4NzNCVjZmbUFnZ3dVa0Z1R1JYWldiVEtmNE5rUU45cllNaGxZMlFvcWU2NThwOFNJbUZoTWNtSGpQd190YUdTNE4wN05LYzBSVTJuaU9UTi1TMGNDckVxRi1CYlNxcEQ1azdEMFpqeDRGQTV3RkRQZjhIRV9FX2hHOWtqa2NyNnZxNjBwYXZlWjdSUzJEOTVsRWlSMXVrWTM2djBOdFE3eVA1ekswUDBKZ00zQkItbUxJSnRpczVfMHd6SzBiSG14bUxJNFM1bUcxYVlsVnJCQ1RnMkcwdl9oQ0VzLTYxNzdZaTZwcUpSM3BIcDRrbk3SAagCQVVfeXFMTWE5eEhvZkQ0OFAtamhuSThnM2ZnMmtaR1dwNUR4b3pkbFVlWF9hQ1BWUzFsVjFvQXJhTVEtVEZYTV9uWWRSWnZjU2JzSFRGNS1nZFFRSmQ4UzJPbEgtUnNiXzh6cG5Tc0o0Z2M2NGRSR2pFVHRpQzVLNHgxbFpHR0ZIbzFHVjFaakM0eV9LLXFqNGFRWGEtcVplODlrNE1wZVprYW5SdG42YWxZQlpyREtmMzU0cWVWejRURkRkSEpteFBVWFVXNG10NEx5dkVXUm42TW5FbHRsbGNnQ2l4X3p3cHdKZmQ5UGg5emdxOEZRdjRnWmRqbnBpTzVmQlNhQURQcENzZDZ6dVE5R1FRZS00dWc2THVWTkViTVo5cWpJT1ZpcjI4RDg?oc=5",
     "pub": "Wed, 15 Jul 2026 18:19:52 GMT",
     "src": "The Sunday Guardian",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "A 'notable upgrade’: economists weigh in on the Bank of Canada's outlook and latest rate decision - Financial Post",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcUVRQnQ4T0V3M29DSzQwcUM5YVBuaGtDTWdvbTN5OFBmR19qR3ZjMjlGNkM1RVQwX0RHSy1KaUxnYXRsVzVmSmN5ODZVNzE0aFdlVXRuYTczX0dtbW9sVkM3Tk53OHlvOTNua0VfLWdkMnk3NXJiU1lLOXhKcjhMU2NXYzhMRHpfSFk1dHJ3?oc=5",
+    "pub": "Wed, 15 Jul 2026 18:01:35 GMT",
+    "src": "Financial Post",
     "trig": false,
     "geo": false
    },
@@ -1225,14 +1257,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgJBVV95cUxONnRoWmZua1NOallQa082ZGZ1cUVJSmtZQ19zVFlBRWJXOENuNmlPZlRNbHlLWkRPUFd6cmVhMHJhU3plejdQWkFMZ1dWU0NpQkFrVWppS2o4SEhtTWQxdnBaSHQzbkRNbm8tWVhaNVlDMmJuWFRSdTY0Z3EtZEdTdkhoVDJuWEZLZWp5MlJDdXZ2ZVVna0FzRVRGdy1Va2stR0ZhWDZyM0ItNktSSHhDTzVIUm8tY2I5Vk9NbGhzemxBQ05iN0d1YWZQakNITkNyT21Bb0Z1LUpHUGt3SmtuX05aQ3VITXFCMjZuMGZHd01nQkRZbllMa01WWUg2Nk5ITTdOZVljQ1E1cE1ZZEdBcVVBSU1QZ9IBmwJBVV95cUxQYm9QOEM0UGNYODdvMkljUlNsNU9VNXVLaE5ZYXVOTXlBb1N2cTFmdXRqU1NvUWwtS3Q5R1VaRkh2eFRDR3VDNlNUUUFja3RMSXpQZkl1eUk2RGFaVTRWUU1Ha0JZYjlHTUtWejRzenlQN1k0NXBpZmVKOGc4c0xGNGJoQ2padnA0eXZXVHc0dEEzZEZsMzVybm9aV1BNLXdXb0NxUDZQekFYZGhpZ3VvcU1ZdUJZYnUzOUtaUkw1c1J6QWdJNUx6YjNKLVIwX19Ic2Vvb1RvMTNEejU1ZVVJYzJmVkQ5OGZKX3BRd0xLODhfR0g5eEpPSGp4eDNqTEJqMG01VzVIal81MW1kUHFKaUVuXzA5cDRMekQ4?oc=5",
     "pub": "Wed, 15 Jul 2026 17:10:00 GMT",
     "src": "The Times of India",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "372 large US bankruptcies get unexpected credit market response - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNeU9IRWpFcVhFVTVVWVhKTzhGWE41VVVXT09uakFMc1Bzay0tZ3g2M0VCYk9LSnhxbzFKU3poWE8xcUQ1UXE0QXZTanVlZGQ2TVFjaGdDWTl0U0dDcm1CRG81V0RPc2M3MU5SUVVkZ0NHY2RJSFI3cmpQX3h4QXRxNjFISndJRXM?oc=5",
-    "pub": "Wed, 15 Jul 2026 16:54:16 GMT",
-    "src": "AOL.com",
     "trig": false,
     "geo": false
    }
@@ -1439,7 +1463,7 @@
    16.41,
    18.63,
    16.59,
-   15.75
+   15.67
   ],
   "tnx": [
    4.28,
@@ -1469,7 +1493,7 @@
    99.54,
    101.61,
    101.39,
-   100.53
+   100.51
   ],
   "bizd": [
    12.96,
@@ -1514,7 +1538,7 @@
    160.6,
    161.76,
    162.54,
-   162.2
+   162.21
   ],
   "uso": [
    125.84,
@@ -1574,7 +1598,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64912.85
+   64926.17
   ],
   "vixts": [
    0.875,
@@ -1589,7 +1613,7 @@
    0.848,
    0.885,
    0.849,
-   0.833
+   0.832
   ],
   "hyoas": [
    2.88,
@@ -1727,7 +1751,7 @@
    "total": 20,
    "ok": 19,
    "missing": [
-    "HYG"
+    "QQQ"
    ]
   }
  },
@@ -2394,22 +2418,20 @@
   16
  ],
  "feed": {
-  "fail": 3,
+  "fail": 1,
   "failed": [
-   "VST",
-   "BIZD",
-   "HYG"
+   "QQQ"
   ],
   "core_dead": [
-   "HYG"
+   "QQQ"
   ]
  },
  "breadth": {
-  "pct50": 35,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-15T20:02:33+00:00",
+  "checked": "2026-07-15T20:12:15+00:00",
   "openai": {
    "found": false
   },

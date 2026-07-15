@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-15T21:12:28+00:00",
+ "updated": "2026-07-15T21:22:21+00:00",
  "prices": {
   "NVDA": {
    "price": 212.5,
@@ -146,8 +146,20 @@
    "ok": true
   },
   "WDC": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 513.84,
+   "chg": -8.78,
+   "chg5": -6.63,
+   "sma20": 616.48,
+   "sma50": 553.36,
+   "sma200": 401.91,
+   "high3m": 746.23,
+   "reg": 513.84,
+   "pre": null,
+   "post": null,
+   "regClose": 513.84,
+   "sess": "reg",
+   "mt": 1784145600,
+   "ok": true
   },
   "005930.KS": {
    "price": 279500.0,
@@ -758,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 145.13,
-   "chg": -0.38,
-   "chg5": -0.42,
-   "sma20": 145.27,
-   "sma50": 142.36,
-   "sma200": 143.68,
+   "price": 148.51,
+   "chg": 2.33,
+   "chg5": -0.85,
+   "sma20": 145.48,
+   "sma50": 142.5,
+   "sma200": 143.72,
    "high3m": 154.82,
-   "reg": 145.13,
+   "reg": 148.51,
    "pre": null,
    "post": null,
-   "regClose": 145.13,
+   "regClose": 148.51,
    "sess": "reg",
-   "mt": 1784062818,
+   "mt": 1784149219,
    "ok": true
   },
   "^MOVE": {
@@ -802,7 +814,7 @@
    "post": null,
    "regClose": 100.51,
    "sess": "reg",
-   "mt": 1784149299,
+   "mt": 1784149907,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64824.65,
-   "chg": -0.2,
-   "chg5": 1.09,
-   "sma20": 62265.3,
-   "sma50": 64114.86,
-   "sma200": 71791.49,
+   "price": 64870.08,
+   "chg": -0.13,
+   "chg5": 1.16,
+   "sma20": 62267.57,
+   "sma50": 64115.77,
+   "sma200": 71791.74,
    "high3m": 81051.25,
-   "reg": 64824.65,
+   "reg": 64870.08,
    "pre": null,
    "post": null,
-   "regClose": 64824.65,
+   "regClose": 64870.08,
    "sess": "reg",
-   "mt": 1784149910,
+   "mt": 1784150512,
    "ok": true
   },
   "USO": {
@@ -966,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.15,
-   "chg": -0.02,
-   "chg5": -0.24,
+   "price": 162.12,
+   "chg": -0.04,
+   "chg5": -0.25,
    "sma20": 161.96,
    "sma50": 160.33,
    "sma200": 158.56,
    "high3m": 162.63,
-   "reg": 162.15,
+   "reg": 162.12,
    "pre": null,
    "post": null,
-   "regClose": 162.15,
+   "regClose": 162.12,
    "sess": "reg",
-   "mt": 1784149912,
+   "mt": 1784150508,
    "ok": true
   },
   "ES=F": {
@@ -1163,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Starship's Thirteenth Flight Test - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
+    "pub": "Wed, 15 Jul 2026 21:15:47 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Claude for Teachers: Anthropic exec. explains why educators get a year for free - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPTllFUlFvczRlamJVTjRzdVV1YTU0eGpPYy1pdlJkWE9yU1ZxR3lfTEt1eEd6azVJVXVTYi1KSi1iNlNrbFFiZ1NYVDd4dG5BY0hvbjlxSlhVTElvWFVlbG9xUDdwRGJPVmpMV01QdVNfY0NjcW1LOWl6ZVhMTm1iUWJZR1FUZ0doRU04VGFQT2lIenIxLXo5MWlmR0YzaTJHUTVhajdSWnJCVGlYQmxaZnBfdWlDMFhNR1FzVmljMmRvQQ?oc=5",
     "pub": "Wed, 15 Jul 2026 20:48:06 GMT",
@@ -1175,14 +1195,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPa2wyVXNZTzhId1dtY21wSTYwVDlIRF96WFpXUTBucXhaaTg3NmpYNHlZdjFUNjNyUElsVVpjZU5UWkpKXzVIS1lWVzNfUklQTGhsckhCR25FU0JuSWN3a0tFd1VZMVlRQlBEcG1aRnpUdkNrZFlveUtUYTliUHdOSENNcVVKYW1IYm1DSzE2ejI2WW80dm9Hc3AzOVAyNzVxcWtQRnRzUC0?oc=5",
     "pub": "Wed, 15 Jul 2026 20:42:00 GMT",
     "src": "The News International",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Starship's Thirteenth Flight Test - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
-    "pub": "Wed, 15 Jul 2026 20:26:38 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1538,7 +1550,7 @@
    160.6,
    161.76,
    162.54,
-   162.15
+   162.12
   ],
   "uso": [
    125.84,
@@ -1570,7 +1582,21 @@
    37.21,
    38.63
   ],
-  "gld": null,
+  "gld": [
+   440.08,
+   435.26,
+   417.41,
+   430.96,
+   430.5,
+   411.5,
+   408.49,
+   407.87,
+   374.58,
+   397.63,
+   365.92,
+   370.6,
+   372.35
+  ],
   "btc": [
    74805.08,
    78203.1,
@@ -1584,7 +1610,7 @@
    64418.45,
    60995.13,
    60003.76,
-   64833.46
+   64883.13
   ],
   "vixts": [
    0.875,
@@ -1716,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2401,18 +2428,16 @@
   16
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "WDC"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 38,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-15T21:12:12+00:00",
+  "checked": "2026-07-15T21:22:09+00:00",
   "openai": {
    "found": false
   },

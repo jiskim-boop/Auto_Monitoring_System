@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-16T21:22:03+00:00",
+ "updated": "2026-07-16T21:32:40+00:00",
  "prices": {
   "NVDA": {
    "price": 207.4,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 100.73,
    "sess": "reg",
-   "mt": 1784236279,
+   "mt": 1784236908,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64145.52,
-   "chg": -0.88,
-   "chg5": 0.54,
-   "sma20": 62466.14,
-   "sma50": 63908.63,
-   "sma200": 71618.32,
+   "price": 64110.54,
+   "chg": -0.93,
+   "chg5": 0.48,
+   "sma20": 62464.39,
+   "sma50": 63907.93,
+   "sma200": 71618.13,
    "high3m": 79065.68,
-   "reg": 64145.52,
+   "reg": 64110.54,
    "pre": null,
    "post": null,
-   "regClose": 64145.52,
+   "regClose": 64110.54,
    "sess": "reg",
-   "mt": 1784236889,
+   "mt": 1784237516,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.36,
-   "chg": 0.18,
-   "chg5": -0.0,
+   "price": 162.35,
+   "chg": 0.17,
+   "chg5": -0.01,
    "sma20": 162.01,
    "sma50": 160.44,
    "sma200": 158.59,
    "high3m": 162.63,
-   "reg": 162.36,
+   "reg": 162.35,
    "pre": null,
    "post": null,
-   "regClose": 162.36,
+   "regClose": 162.35,
    "sess": "reg",
-   "mt": 1784236889,
+   "mt": 1784237512,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "Starship's Thirteenth Flight Test - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE41MGFNdXBjRXNHRjlCY21CWXJNYVBNdGwzdnE2RWlzeDJ3dGw1SG41MkQyS0ZrZklJekZRejIzRzREZmhkd3Fwc3J6RUxhTUNvMi1VWjF6TndQSkN1c0tN?oc=5",
-    "pub": "Thu, 16 Jul 2026 21:17:47 GMT",
-    "src": "SpaceX",
+    "title": "As SpaceX’s stock notches first close below IPO price, the company is gearing up for a crucial launch - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOSUZxYkQ5TDFYeEZDb1JaaWd0OEdYYV9CVDRqU1BqSDNhVEZGRkVqQUJMT3NtNm1YajRyR3NRUjJ5RnR3czl5Qk9ieEl4dWNkTlNWeXF5LXRqT3JZeGl3alVoR0hzNXVqSnRBZkJpRU9uVjdzZnB5RjNreElWU0d3RTBDeTNVX0FJQlV5WVpuelFIeFhBM1NKa2RLMVlhSzllcjBXbmxhMXllVmFqTHpXTk9MWW93UXZwYU1yZkRhQWw?oc=5",
+    "pub": "Thu, 16 Jul 2026 20:47:00 GMT",
+    "src": "MarketWatch",
     "trig": false,
     "geo": false
    },
@@ -1199,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "SDA’s Third Tranche 1 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53N00wS3dudlltSGp4cGc4UDNvUGFGb1Z1bHlzNld5THFZYjF3dW5la0RrdGxwSWQyUWtKTFJ3WlpsWkdaTEpzUDd4R1Z4dlRGUDBFdQ?oc=5",
+    "pub": "Thu, 16 Jul 2026 20:32:00 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nobody is Immune From the Nvidia GPU Crunch - The Information",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQQUVRODBza0hGLVNNT0toRUpFZndWSk9maEtSVGFTZ0pReGtEdjVUWnlNMXMxTktaVFBSYXlZZndkbTNVNUtfa1NDLU83Qm9TNDd2cjZvSkNTNEtHZTJSM2wzRGpXTmNqWFpaQzE1cVpZU0lOV3QyTTZWcGg3d2pkRUo0c21BNnBMdVU2YVJ3?oc=5",
     "pub": "Thu, 16 Jul 2026 20:28:00 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQanFPYjdydWhqaU5WUjBXRDRTNmlMS3JVQ2tBMGFnSUZHRGQwVDYtQmV4OVFyR0xjTlBMZGtUOWlVOExicXV4NllTS2MyZ01VWldxLUJEWkVrREMtYXlnWkk1b3otNExNNTRDSVRvRXlXSUVVb2FiM2tTSVVMUmVzRllqb0hkRURvMjZMM2dNRU0wNzVpQ25QVWZ5cXJuekprUW9R?oc=5",
     "pub": "Thu, 16 Jul 2026 20:26:23 GMT",
     "src": "Ars Technica",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SDA’s Third Tranche 1 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53N00wS3dudlltSGp4cGc4UDNvUGFGb1Z1bHlzNld5THFZYjF3dW5la0RrdGxwSWQyUWtKTFJ3WlpsWkdaTEpzUDd4R1Z4dlRGUDBFdQ?oc=5",
-    "pub": "Thu, 16 Jul 2026 20:13:09 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    }
@@ -1249,20 +1249,20 @@
     "geo": false
    },
    {
-    "title": "US airstrike hits Bandar Abbas amid escalating tensions with Iran - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPSlpUcHBhTDRfUDZmTEtEaF9xcEMwdVowczFBWl81akcteV8xRzZhR0VzTkhXUE85OWVXbHVxNWtOQl8xVk9zMGxfODFyV0tJU0gyYkE4azc5NGpUWl91Q2tBWndsU2o1bXhIbHJ0NTk5ay0tQy1PVnhkcmVDUGZqVzloc2s4TFBEVUttT2FERDZtYTFpT3VVXw?oc=5",
-    "pub": "Thu, 16 Jul 2026 19:39:04 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": true
-   },
-   {
     "title": "Oil pipelines around the Strait of Hormuz won't end the threat Iran poses to Middle East crude exports - CNBC",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTUhYdDhnVU1uVjNMVHh2OFdNdzM4M05FbVlCdU84TkI2ZEFpWGlOMkdSaXB6M1RTUnFaZkVlRlhlUy1EdDhoNmRCRTF2a2M2bHNOV3ZTRi04bjNfdUZwd1UwTy1mM1VrTWQ1OXJsZHpGa002QUhrdk9DcFhvOFRGVzhFVmZXd1N1dWFNZHhMbDdxcF8yb3fSAZsBQVVfeXFMTVlTekM4aU4xQnZpUDcxNlZvQldZM2RUaGdXSTJ0U2JQQnZMcWlCOWdUYUZtUE1DZ0twY05RWW1zZFVLb2gxMTJMQ3hzdW1BVlY1Z1hzUTNnekk5UG5tenVMXzZzbEhZSVB5RFF2N0szTG1TRVRHQVEtSDduYktkSno1MjQ4T1Q0ZXVjYlZlUzVTRU8zY0IxeTEzTWc?oc=5",
     "pub": "Thu, 16 Jul 2026 19:13:07 GMT",
     "src": "CNBC",
     "trig": false,
     "geo": true
+   },
+   {
+    "title": "S&P 500 Elliott Wave - The VIX Predicted Today's Rally, It's Now Predicting A Selloff By Wednesday Mario Gila (BHgvPtTaVl) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9jUVZFZ2pVWXM3bkpTRW9vSVZ1d3REM09fcURmRlJfTktqZnlzNlM0RXJsTUt1MHg1R0pTQ1BSaE05OF9FWGZvODFGSWlRTGtYdmhvdHBPeGJCOVRyQUVvZQ?oc=5",
+    "pub": "Thu, 16 Jul 2026 19:10:33 GMT",
+    "src": "Mshale",
+    "trig": false,
+    "geo": false
    },
    {
     "title": "Fed’s Logan calls for ‘modestly higher’ interest rates - KELO-AM",
@@ -1274,6 +1274,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Broker tips Caravel as copper standout - The Mercury",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPMldhZm1tTmhHVnRtTU03LU1sOG9pSHJ6TjlRZGZfVGUzZGhIUDZlMEV6N1ZwWlNpRU9FUFdkQ0NZSU9SNUpmOTNsV0VXWkxyVmR6ZXRKUUFyMWxPV2IzTVIwaHN5NVNaWnZUUVVDQ3RUOVNUWjF2WUw1cURkbUpvcXg3V25OZGpCTC1jc2hyeEdQcGdpUU1KODltNml3N3N5Z2NMNmU0REJ2Zl9kaEliR0Y3TE5keHBfOENJWjdhNDZjYkNUMjB5UHJySVBfUzJYcVBQOTNkOUtpcmN2NGxIV3lMcXQ1YlU?oc=5",
+    "pub": "Thu, 16 Jul 2026 20:48:45 GMT",
+    "src": "The Mercury",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "BMI hikes copper price forecast 6.7% on supply deficits - The Northern Miner",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPbGYzZEFYYTZpUWlnQjhJNHZuY2lkVnZvRFppUHdTY2Q1MGdSLVpiSTl0RUFIWVlDLXpCcUIyOWRiUDd1OTF2ZEVmQ2VPY2dkVE9iT3ZpTllnUFpiRFRxVmhNX2p3bjNtYU40SmlxRjFYSjQ1dXpxdEpRSk9TOVRNZXU4S0QzZHJPcllGRU91em0wdm5EVndEM0pQWDJla2tkejcw?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPRnpLdFpzVzhHeDQ3eE5jLUU4b2o4MVRDQVZONmxXRldGMlc5RDI3Q1N3ZDBleXhsSUhjZ05Nall4NkJtNFZLZHdGWjF6QW53akhhTTdTQlNXS0l2RkZlYWN1Z0swWTJ6RWYxbE15SzRNSDNyb0daVkdBakY4aFNJeU9WMDd0SWJmanFrX0ZXT3Vhb0ZhYkdDZzRNN05Kdw?oc=5",
     "pub": "Thu, 16 Jul 2026 16:33:15 GMT",
     "src": "TradingNEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Ero Copper Corp. Stock 12‑Month Price Target Raised to $35.37, Implies 40% Upside - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQOHlnSC13S0pmTmpkdTUxcjByM2p1amJYUTFBeXFuX2tYczhiWndZamp6b1lORjFNY2YyUFhMN3o3Mm5xcHpzZWVNZHIzS291X3VGeDlCb1lMSmw3SmZzUzZFLTcySWUxbG5xaVFlbHFaNmo0LW40bjlmVTdXd2RWUmcyNDhRNXd0bVFsLVVJTEM4Tzc1dGxiN1hkMnRwMlpVeHZ4OHpmRWxySHpHSzQ3MUxSV29HenJGUEFJYzd0ZjI3LVBENTBQQ0dacTZFdmRQeVo4QUpn?oc=5",
-    "pub": "Thu, 16 Jul 2026 16:20:11 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1428,7 +1428,7 @@
    "chg": -0.01
   },
   "sofr_iorb": -1.0,
-  "cape": 42.18,
+  "cape": 41.94,
   "cape_manual": false,
   "netliq": {
    "value": 5986.7,
@@ -1550,7 +1550,7 @@
    161.29,
    161.8,
    161.45,
-   162.36
+   162.35
   ],
   "uso": [
    116.04,
@@ -1610,7 +1610,7 @@
    62896.47,
    59721.68,
    61485.3,
-   64145.53
+   64110.54
   ],
   "vixts": [
    0.875,
@@ -1718,18 +1718,18 @@
    0.0756
   ],
   "cape": [
-   42.18,
-   42.18,
-   42.18,
-   42.18,
-   42.18,
-   42.18,
-   42.18,
-   42.18
+   41.94,
+   41.94,
+   41.94,
+   41.94,
+   41.94,
+   41.94,
+   41.94,
+   41.94
   ]
  },
  "summary": {
-  "text": "중동 긴장 고조에도 VIX 17로 낮은 가운데 미10년물 4.57%와 달러 강세가 유지되며, 신용시장은 BDC 부실징후와 사모펀드 수수료 분쟁으로 구조적 취약성을 드러내고 있다. AI 데이터센터 주식 조정 와중에도 GPU 수급 긴장은 지속되며 엔터프라이즈 AI 경쟁 심화로 capex 수요는 견조한 상태다.",
+  "text": "중동 지정학 긴장으로 유가 공급 리스크가 부각되며 Fed 인상 확률 상승이 금리(4.57%)와 달러(100.7) 강세를 견인하는 상황이고, 신용 스프레드 확대와 BDC 부실 신호는 고금리 장기화 리스크를 내포하고 있습니다. AI 데이터센터 수급과 Nvidia GPU 병목 현상은 지속되나, Nebius 급락과 IPO 약세 등 사모자금 부문에서 선별적 약화 신호가 포착됩니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1739,7 +1739,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 1,
-   "geo": 2,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -2437,7 +2437,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-16T21:21:47+00:00",
+  "checked": "2026-07-16T21:32:16+00:00",
   "openai": {
    "found": false
   },

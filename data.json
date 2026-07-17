@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-17T22:52:03+00:00",
+ "updated": "2026-07-17T23:02:38+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63955.99,
-   "chg": 0.26,
-   "chg5": 0.31,
-   "sma20": 62649.12,
-   "sma50": 63709.89,
-   "sma200": 71442.9,
+   "price": 63888.63,
+   "chg": 0.16,
+   "chg5": 0.2,
+   "sma20": 62645.75,
+   "sma50": 63708.55,
+   "sma200": 71442.53,
    "high3m": 78131.44,
-   "reg": 63955.99,
+   "reg": 63888.63,
    "pre": null,
    "post": null,
-   "regClose": 63955.99,
+   "regClose": 63888.63,
    "sess": "reg",
-   "mt": 1784328687,
+   "mt": 1784329324,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Lawsuit filed against OpenAI after death of Alabama woman - CBS 42",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWpPVmxveE5VTWxaN3h5blUyd1ZnQUptMnhHRzl0Z1JjYjdpb0hqU0ZxbGx0U3JkQ1dneWNVUWJxZHN3RmVEa3lJSlFpMldCT0d4U2l2WUpIcTVHOUhNQUJGdEZ2RnFoalZ3TFZtUnVUWDdtYVRvdEducU5weUsxTUI2T1dqR0oyTTV2V2lB0gGTAUFVX3lxTE0ybEtDcFZ5eDZIQ0dpS1YtQUItSGJRMlJPZV95ejFkNlJ6WWpxVFVuTXBObGtOZGFOS2hIUFYyMFZlZUYyY2h0aGtPcmhGNWQzUm50Y0hUdGhLMHpaNzlHaGxHS3RXWTU5NTE2ZHlCdXp0bEZPS2NOaEZOWlc3ODdPNlpCYTFKNENIVjR4RWRVeGptcw?oc=5",
+    "pub": "Fri, 17 Jul 2026 21:07:06 GMT",
+    "src": "CBS 42",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Meta Platforms faces uncertainty over AI return on invested capital as capex balloons to $145B - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1WZFN4a1pSak9vX09ieFItNktQSDNlME03eXpuT3oydFE4bVhVVXRaMjZOSVl2Rk1taGh4YTMtQmp3OC1fM2htcnNEajYtS0R6VnNDbWwxNXBOSWM1cmVFcHQ2N19PNWNuNjFUbENOVWhhS3RiUmI1b2t5WQ?oc=5",
     "pub": "Fri, 17 Jul 2026 20:41:51 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Fri, 17 Jul 2026 18:43:07 GMT",
     "src": "readsludge.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple vs. OpenAI lawsuit: What happens next? - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9NdlZvNkFOTEdBczFad3NjY1otRXB5RUM2ME5yMTczS25rejk3N2RBQ0RyWWtoS2NyNFYxV3FPS0pkUkU4WVpmZHpnR0xoVzhqMlF3YnJXMzFnYVMxVjdRU1pEQ2Q3SUpaWllkaGVuVXk4LU1ycC1PaG9tdw?oc=5",
-    "pub": "Fri, 17 Jul 2026 18:36:48 GMT",
-    "src": "Mashable",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    63540.84,
    60016.43,
    62544.2,
-   63940.0
+   63877.44
   ],
   "vixts": [
    0.823,
@@ -2212,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-15T23",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-16T00",
     "v": 2.73
    },
@@ -2402,6 +2398,10 @@
    {
     "d": "2026-07-17T22",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-17T23",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2443,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-17T22:51:48+00:00",
+  "checked": "2026-07-17T23:02:25+00:00",
   "openai": {
    "found": false
   },
@@ -2454,7 +2454,7 @@
  "fragility": {
   "margin_mn": 1415557,
   "margin_asof": "May-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.44,
   "curve_bp": 37,
   "curve_inverted": false,

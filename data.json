@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T07:02:28+00:00",
+ "updated": "2026-07-18T07:11:52+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -734,7 +734,7 @@
    "post": null,
    "regClose": 18.77,
    "sess": "reg",
-   "mt": 1784319301,
+   "mt": 1784319300,
    "ok": true
   },
   "^VIX3M": {
@@ -766,7 +766,7 @@
    "post": null,
    "regClose": 104.87,
    "sess": "reg",
-   "mt": 1784319301,
+   "mt": 1784318400,
    "ok": true
   },
   "^SKEW": {
@@ -782,7 +782,7 @@
    "post": null,
    "regClose": 147.28,
    "sess": "reg",
-   "mt": 1784322046,
+   "mt": 1784318400,
    "ok": true
   },
   "^MOVE": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63944.25,
-   "chg": 0.07,
-   "chg5": 2.74,
-   "sma20": 62866.89,
-   "sma50": 63520.2,
-   "sma200": 71271.41,
+   "price": 63957.99,
+   "chg": 0.09,
+   "chg5": 2.76,
+   "sma20": 62867.58,
+   "sma50": 63520.47,
+   "sma200": 71271.48,
    "high3m": 77539.17,
-   "reg": 63944.25,
+   "reg": 63957.99,
    "pre": null,
    "post": null,
-   "regClose": 63944.25,
+   "regClose": 63957.99,
    "sess": "reg",
-   "mt": 1784358113,
+   "mt": 1784358684,
    "ok": true
   },
   "USO": {
@@ -1183,6 +1183,14 @@
     "geo": false
    },
    {
+    "title": "RTX 5070 Ti vs RX 9070 XT: The Quick Answer - tech-insider.org",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBRZ2JKZVU3T3lwYTV3V2E1NnRtejVQbGQwWjR3TlRmTVZaM2dsZW9GajAzRlYwZ1g5ZHprUWZGWUlrdmZ0VThtb3QybkpvWkxEZUZUdk1iOUFBaHdyNmtCYTRValJmRlhueVowSlRLYWFWaGdFR19R?oc=5",
+    "pub": "Sat, 18 Jul 2026 02:25:22 GMT",
+    "src": "tech-insider.org",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "xAI's 2T Model: What Musk Just Revealed About Grok's Successor - BASENOR - Tesla Accessories",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQWUR1bVJheXh4ZWtQU0lUdkh3bkxuRFc0RXBqUWlJMldXbkFwR1dnaU5hdW5Uc29yaUhxQ1RydldESzZqblBJWGliZU1UeXRSTUZxSTFvdnFmSE1WTlRsdE1mbW1PdXhZcng3T0pZc1RZY0Z0aGR1d3FfQUtrUHNtMFNobXFlZ25JZUxEbm4yVTE0d2d2WW9FVWNn?oc=5",
     "pub": "Sat, 18 Jul 2026 02:03:36 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Fri, 17 Jul 2026 22:47:31 GMT",
     "src": "Broadband Breakfast",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Lawsuit filed against OpenAI after death of Alabama woman - CBS 42",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONWpPVmxveE5VTWxaN3h5blUyd1ZnQUptMnhHRzl0Z1JjYjdpb0hqU0ZxbGx0U3JkQ1dneWNVUWJxZHN3RmVEa3lJSlFpMldCT0d4U2l2WUpIcTVHOUhNQUJGdEZ2RnFoalZ3TFZtUnVUWDdtYVRvdEducU5weUsxTUI2T1dqR0oyTTV2V2lB0gGTAUFVX3lxTE0ybEtDcFZ5eDZIQ0dpS1YtQUItSGJRMlJPZV95ejFkNlJ6WWpxVFVuTXBObGtOZGFOS2hIUFYyMFZlZUYyY2h0aGtPcmhGNWQzUm50Y0hUdGhLMHpaNzlHaGxHS3RXWTU5NTE2ZHlCdXp0bEZPS2NOaEZOWlc3ODdPNlpCYTFKNENIVjR4RWRVeGptcw?oc=5",
-    "pub": "Fri, 17 Jul 2026 21:07:06 GMT",
-    "src": "CBS 42",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    64239.68,
    59940.1,
    63088.3,
-   63944.25
+   63957.99
   ],
   "vixts": [
    0.823,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2447,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-18T07:02:14+00:00",
+  "checked": "2026-07-18T07:11:41+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T05:52:08+00:00",
+ "updated": "2026-07-18T06:02:45+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63923.66,
-   "chg": 0.21,
-   "chg5": 0.26,
-   "sma20": 62647.5,
-   "sma50": 63709.25,
-   "sma200": 71312.02,
+   "price": 63909.01,
+   "chg": 0.19,
+   "chg5": 0.24,
+   "sma20": 62646.77,
+   "sma50": 63708.95,
+   "sma200": 71311.94,
    "high3m": 78131.44,
-   "reg": 63923.66,
+   "reg": 63909.01,
    "pre": null,
    "post": null,
-   "regClose": 63923.66,
+   "regClose": 63909.01,
    "sess": "reg",
-   "mt": 1784353889,
+   "mt": 1784354526,
    "ok": true
   },
   "USO": {
@@ -1165,11 +1165,11 @@
     "geo": false
    },
    {
-    "title": "Private credit roundup: HSBC's big loss and an FSB warning - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQNHUzNDFRRVlReHVaXzRqWjhkalpWOVJHMGl5clVNMVJJZlg5c3QzVk81YU9EWEFxbVNScEVBOU1yZFo5NDZaRWhLX05kX3JvRDFDUjBvaW1lNHpLUGdVSzdMeU5nTUFpbGRtNGdpZjhodjM3NlowNGIyblhMWE5FUnln?oc=5",
-    "pub": "Fri, 17 Jul 2026 18:53:23 GMT",
-    "src": "AOL.com",
-    "trig": true,
+    "title": "Blue Owl Capital: A 24% Discount That Is Fair, Not Generous (NYSE:OBDC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSXFHYm1NQ2VRODVOa1NuMjlWRHBJVzV6ZjlfWWJnbWM0dFd4djdJZkk0ekZEek80b2diX3BLcFN6TGpZUW1mWk1UaE9XMV9HdVZDcE1WTXVHcjVqb1F6NXpwNFJoTHFzbkxpc2p6aV9NY09mRXB4M0xUdG1CWEllMjA5YU01bmRfd2R5U2NEVWxiUU5XdzlEMVQ3Y21XYzl5SzNhcjZ0Qk0?oc=5",
+    "pub": "Fri, 17 Jul 2026 18:38:33 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    64239.68,
    59940.1,
    63088.3,
-   63923.66
+   63909.02
   ],
   "vixts": [
    0.823,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "미-이란 긴장 고조로 호르무즈 해협 유사 시 유가 급등 리스크가 부상한 가운데, VIX 19·HY스프레드 2.71%로 신용 조건 완화 상태지만 CAPE 42의 고평가와 AI 기업 대규모 차입 가속화가 숨은 취약성으로 작용 중. AI capex 수요 견조하나 GPU/HBM 수급 정상화 신호와 AI 기업 채무 리스크에 대한 우려 섞인 흐름이 동시 진행 중.",
+  "text": "미-이란 긴장 고조로 유가 상승 리스크가 부상하는 가운데, 저평가 자산(CAPE 42)에도 불구하고 AI 차입 급증(1,820억 달러)이 신용 리스크로 작용하며 시장이 경계 국면(VIX 19, HY스프레드 271bp)에 진입했다. AI 인프라 투자(xAI 2조 모델, GPU 수급)는 계속 추진 중이나 과도한 레버리지 우려가 선물 매수 심리를 제약하는 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1738,7 +1738,7 @@
    "spy": -1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 1,
    "capex": 5,
    "news": 16
@@ -2216,10 +2216,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-16T06",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-16T07",
     "v": 2.73
    },
@@ -2406,6 +2402,10 @@
    {
     "d": "2026-07-18T05",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-18T06",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2447,7 +2447,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-18T05:51:50+00:00",
+  "checked": "2026-07-18T06:02:28+00:00",
   "openai": {
    "found": false
   },

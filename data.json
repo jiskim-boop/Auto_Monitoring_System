@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T03:11:54+00:00",
+ "updated": "2026-07-18T03:22:02+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -734,7 +734,7 @@
    "post": null,
    "regClose": 18.77,
    "sess": "reg",
-   "mt": 1784319300,
+   "mt": 1784319301,
    "ok": true
   },
   "^VIX3M": {
@@ -766,7 +766,7 @@
    "post": null,
    "regClose": 104.87,
    "sess": "reg",
-   "mt": 1784318400,
+   "mt": 1784319301,
    "ok": true
   },
   "^SKEW": {
@@ -782,7 +782,7 @@
    "post": null,
    "regClose": 147.28,
    "sess": "reg",
-   "mt": 1784318400,
+   "mt": 1784322046,
    "ok": true
   },
   "^MOVE": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63933.1,
-   "chg": 0.23,
+   "price": 63930.38,
+   "chg": 0.22,
    "chg5": 0.27,
-   "sma20": 62647.98,
-   "sma50": 63709.44,
-   "sma200": 71312.08,
+   "sma20": 62647.84,
+   "sma50": 63709.38,
+   "sma200": 71312.06,
    "high3m": 78131.44,
-   "reg": 63933.1,
+   "reg": 63930.38,
    "pre": null,
    "post": null,
-   "regClose": 63933.1,
+   "regClose": 63930.38,
    "sess": "reg",
-   "mt": 1784344285,
+   "mt": 1784344886,
    "ok": true
   },
   "USO": {
@@ -1125,11 +1125,11 @@
  "news": {
   "credit": [
    {
-    "title": "Private credit discounts reveal exit costs amid rising redemption pressure - The Journal Record",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0p5c0FzUU9iUlN0VnVMY29MNUlBUWZORVd2NkM3TXNlbXNsdlYwUWg1NnZQSnJ6VXVWdV9OOHZQdTdPMzBjRXlodkNoa2FhT1JIRHpEOWYwcmd0Yk1FaDhIa3E5SWtyUklVN09rdk4tejQ3Z3NaWlJ2d1VLbFQ5eGI0SnpYVnBjazhPdzFNaTAwd3dDUkFnbQ?oc=5",
-    "pub": "Sat, 18 Jul 2026 00:52:37 GMT",
-    "src": "The Journal Record",
-    "trig": true,
+    "title": "AI’s $182 Billion Borrowing Spree Could Become Its Biggest Risk Yet - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jLXQ4WDRpX3ZzbXE3TDd0Z0p1TWlTMnlHOTRsbmRDQ1c0TGx6eGRONk4zTjBoYmpTdU9xTTkzVE83U1FpUmJWTVk5ak93bmltcS1oRFIyX0dRWEVaTFlhOFFKQnQ3T1RHckcwY0RSaGcxUHFzT0VVV05fN0IyWG8?oc=5",
+    "pub": "Sat, 18 Jul 2026 01:41:05 GMT",
+    "src": "AOL.com",
+    "trig": false,
     "geo": false
    },
    {
@@ -1610,7 +1610,7 @@
    64239.68,
    59940.1,
    63088.3,
-   63933.1
+   63930.38
   ],
   "vixts": [
    0.823,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 분쟁 격화로 호르무즈 해협 유가 상승압력이 높아지는 가운데, 4.5% 미 10년물 금리와 낮은 VIX(19)는 시장이 아직 충격을 제한적으로 평가 중임을 시사한다. AI 인프라 자금조달 활발(Nebius 8% 상승)하나 OpenAI 소송 등 정책 불확실성 증가로 향후 capex 심사가 강화될 가능성 있다.",
+  "text": "중동 지정학 긴장으로 유가 상승 우려가 있으나, VIX 19와 HY스프레드 2.71%로 신용시장은 여전히 완화적이며 금리 4.54%에서 안정화 양상을 보이고 있다. AI 인프라 차입 급증($182B)이 신용 리스크로 부각되는 가운데, 메타의 capex 145B 계획으로 GPU 수급 압박이 지속되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1738,12 +1738,11 @@
    "spy": -1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2448,7 +2447,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-18T03:11:41+00:00",
+  "checked": "2026-07-18T03:21:44+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T02:52:02+00:00",
+ "updated": "2026-07-18T03:02:44+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63915.76,
+   "price": 63918.99,
    "chg": 0.2,
    "chg5": 0.25,
-   "sma20": 62647.11,
-   "sma50": 63709.09,
-   "sma200": 71311.98,
+   "sma20": 62647.27,
+   "sma50": 63709.15,
+   "sma200": 71312.0,
    "high3m": 78131.44,
-   "reg": 63915.76,
+   "reg": 63918.99,
    "pre": null,
    "post": null,
-   "regClose": 63915.76,
+   "regClose": 63918.99,
    "sess": "reg",
-   "mt": 1784343093,
+   "mt": 1784343729,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "AI’s $182 Billion Borrowing Spree Could Become Its Biggest Risk Yet - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9jLXQ4WDRpX3ZzbXE3TDd0Z0p1TWlTMnlHOTRsbmRDQ1c0TGx6eGRONk4zTjBoYmpTdU9xTTkzVE83U1FpUmJWTVk5ak93bmltcS1oRFIyX0dRWEVaTFlhOFFKQnQ3T1RHckcwY0RSaGcxUHFzT0VVV05fN0IyWG8?oc=5",
+    "pub": "Sat, 18 Jul 2026 01:41:05 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Private credit discounts reveal exit costs amid rising redemption pressure - The Journal Record",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT0p5c0FzUU9iUlN0VnVMY29MNUlBUWZORVd2NkM3TXNlbXNsdlYwUWg1NnZQSnJ6VXVWdV9OOHZQdTdPMzBjRXlodkNoa2FhT1JIRHpEOWYwcmd0Yk1FaDhIa3E5SWtyUklVN09rdk4tejQ3Z3NaWlJ2d1VLbFQ5eGI0SnpYVnBjazhPdzFNaTAwd3dDUkFnbQ?oc=5",
     "pub": "Sat, 18 Jul 2026 00:52:37 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQSXFHYm1NQ2VRODVOa1NuMjlWRHBJVzV6ZjlfWWJnbWM0dFd4djdJZkk0ekZEek80b2diX3BLcFN6TGpZUW1mWk1UaE9XMV9HdVZDcE1WTXVHcjVqb1F6NXpwNFJoTHFzbkxpc2p6aV9NY09mRXB4M0xUdG1CWEllMjA5YU01bmRfd2R5U2NEVWxiUU5XdzlEMVQ3Y21XYzl5SzNhcjZ0Qk0?oc=5",
     "pub": "Fri, 17 Jul 2026 18:38:33 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nebius Jumps 8% as $775M Debt Deal Eases the Dilution Fears That Sank NBIS Stock - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNR0dqaE5fZVhqak12SWMwbFZITXlmeFpLMGVfOGl4SGNrVTJGdzY4SkRnQ0J4WEluNmxPU0RfQ2hLZEZGQTBvU3BFUEJLdnVJNkx6eUNYbndXMFFmWWZobmd2OXZIaFctRmpyRE01eEc4UG5nUTNZYlNzendkZlN3NjBrVnlVd0lwR2R6bEpwNFdZb3VlWWhrbDh6bEdHTUtKeW1GOUFzbEhsa20xZ3RYdGlMRWVoYkpMY3Y3YmFucw?oc=5",
-    "pub": "Fri, 17 Jul 2026 17:45:49 GMT",
-    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    64239.68,
    59940.1,
    63088.3,
-   63915.76
+   63918.99
   ],
   "vixts": [
    0.823,
@@ -2217,10 +2217,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-16T03",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-16T04",
     "v": 2.73
    },
@@ -2407,6 +2403,10 @@
    {
     "d": "2026-07-18T02",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-18T03",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2448,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-18T02:51:50+00:00",
+  "checked": "2026-07-18T03:02:29+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-18T17:41:57+00:00",
+ "updated": "2026-07-18T17:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64396.31,
-   "chg": 0.78,
-   "chg5": 3.47,
-   "sma20": 62889.49,
-   "sma50": 63529.24,
-   "sma200": 71273.89,
+   "price": 64390.43,
+   "chg": 0.77,
+   "chg5": 3.46,
+   "sma20": 62889.2,
+   "sma50": 63529.12,
+   "sma200": 71273.86,
    "high3m": 77539.17,
-   "reg": 64396.31,
+   "reg": 64390.43,
    "pre": null,
    "post": null,
-   "regClose": 64396.31,
+   "regClose": 64390.43,
    "sess": "reg",
-   "mt": 1784396484,
+   "mt": 1784397084,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Trump threatens Canada with tariffs over wildfire smoke, adding new uncertainty to already jittery markets - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE44Z0hZblVLYmxoY0NjbFJmMUdnY3hLa2VJRUt2VVJHY3VaMGMzRU55eTFtUmhmMDRYVC01YnZ1SVF6dVZ2c0NLZkR5NUNqczdTeERDLUZNV0wyNGhHcWRIOHRRY0RzUFU3blZOYm5kSW8?oc=5",
+    "pub": "Sat, 18 Jul 2026 17:40:52 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Iran condemns US strike on desalination plant as war crime amidst 2026 conflict - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQXhjYkc1b05XSkxJa0hHUllsNnEwc3hiMkRqNkZDSDRZVENKUHN2bEVQQW4wX3oybkdmZ1ZlU1d0allzOWhXa1MwZS1yR2NoRXU5TUFxUnlUbFRUWUZnWXoxT1VwMGhfLVlrZFh3d1BqLWMyYVZCSUhRU3NDSlhaSzhEa2dGZHZHd2dWTkNsQmctWkl6TFQ1bjZnS2tXZTZNbnNzS0g4NlFwMmc?oc=5",
     "pub": "Sat, 18 Jul 2026 15:23:01 GMT",
@@ -1260,14 +1268,6 @@
     "title": "US strikes Iranian military targets, damaging civilian sites in Hormozgan province - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPMEZ0bVMxdU5zXzMwNm1pWGFFSXhTU1NVanRjcno5dmVpNUZMMXZEWXVZcTAwU0ZWUEdoTHl1aDdjN2tXVGp5eTR1WjgxYWd1QUR5cWpFb0h4MkxHOG9ud08tZHJ1NWRKQVMzSW1UekdaNTE1X29IWld4bVpVdWtIaTB0WEZpWEJoZWNGQ3Q4NVlHRDhRdDA1ZGRSVW1iVmVkbHc?oc=5",
     "pub": "Sat, 18 Jul 2026 11:36:02 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump blames Canada for wildfire smoke, threatens to pile pollution costs onto tariffs - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBIUUdHVmppT2x2NDN6UkxiSy0yd18tckhoQXdtYXdFREZ5dWhfTjl0T1R4V3R3LUZTTlpCLTRUaWVpVUM3RlhqUC01cktXT3FXaUl1TG5mSFBnU2Vuc2ZCQ1JvcEE0YkRlTDRWSDBweDg?oc=5",
-    "pub": "Sat, 18 Jul 2026 11:00:23 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    64239.68,
    59940.1,
    63088.3,
-   64405.38
+   64394.96
   ],
   "vixts": [
    0.823,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2447,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-18T17:41:43+00:00",
+  "checked": "2026-07-18T17:51:44+00:00",
   "openai": {
    "found": false
   },
@@ -2458,7 +2459,7 @@
  "fragility": {
   "margin_mn": 1415557,
   "margin_asof": "May-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.44,
   "curve_bp": 37,
   "curve_inverted": false,

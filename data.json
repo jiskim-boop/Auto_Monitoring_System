@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T20:32:36+00:00",
+ "updated": "2026-07-19T20:42:17+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64455.34,
-   "chg": -0.53,
-   "chg5": -0.77,
-   "sma20": 63125.36,
-   "sma50": 63351.25,
-   "sma200": 71115.77,
+   "price": 64438.63,
+   "chg": -0.55,
+   "chg5": -0.8,
+   "sma20": 63124.52,
+   "sma50": 63350.92,
+   "sma200": 71115.68,
    "high3m": 77539.17,
-   "reg": 64455.34,
+   "reg": 64438.63,
    "pre": null,
    "post": null,
-   "regClose": 64455.34,
+   "regClose": 64438.63,
    "sess": "reg",
-   "mt": 1784493119,
+   "mt": 1784493696,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.46,
-   "chg": 0.05,
-   "chg5": 0.36,
+   "price": 162.35,
+   "chg": -0.02,
+   "chg5": 0.29,
    "sma20": 162.06,
    "sma50": 160.55,
    "sma200": 158.62,
    "high3m": 162.63,
-   "reg": 162.46,
+   "reg": 162.35,
    "pre": null,
    "post": null,
-   "regClose": 162.46,
+   "regClose": 162.35,
    "sess": "reg",
-   "mt": 1784493072,
+   "mt": 1784493646,
    "ok": true
   },
   "ES=F": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Price Prediction: Up 230% YTD, Dell Will Hit $500 on This Date - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5NSXZiNEU1TGVRYzRGX3JQd1Z3M1FNTHVlZktvcDZLNHlEWlh4VFRKTTd3QWs2YXhscG5vNjlhMlZxZl9mQktZZVh3Y2ZSZkUwc2dxc0ZXMTFHdjNwcm11ZmhUOUxFdDZIcW9ERFl2VzBHT2hFeVViTGU1Y0VMZw?oc=5",
-    "pub": "Sun, 19 Jul 2026 19:26:26 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Can an Apple lawsuit derail OpenAI’s hardware plans? - TechCrunch",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSVNqN1paNUlrdzltc0F6UnNlZVQ1V0ZrYTVyZW0tdUZpaHVPMUFDa05vZGtLanhWdy1HOTNWOGtWaER0RmFpWjBYanlQYkNXemtJUExxUXY0eDUyV0E5dDFVR0JXTjZGRHN6dlEwZUFTZ3hpTkVubnRFSVdJR21GYWdfNlZuZFFYNVFTSzJR?oc=5",
     "pub": "Sun, 19 Jul 2026 19:24:45 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMGZlUmJHeEZ5TXdFSWtWTFRoV3hJU2lCaUM1YmRKcVk0cEY3R3ZtTnQxcjk1aFBHaXNySE1UbDNBcWRMdFZFLTR2OEFoaWJUWWhfSUt6Vmt1UDBPZlh0Vy1LRzdqdERRSk5jU2JTX2lTbWRXblJPOTY4dXVfRWVrajNkTQ?oc=5",
     "pub": "Sun, 19 Jul 2026 16:30:00 GMT",
     "src": "Yahoo! Finance Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Follows SpaceX Playbook, Claude-Parent Reportedly Pursuing Multibillion-Dollar Credit Lines Ahead of IPO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmJUYXZDTllxeUtmc1h6aHFQdnE4UEE3eGpLUFM4T2RCMGE3Z3dMSEI3dHZMQ2ZadVJKX25QekdmV3k4TktFazhKUW8tbHVpWVNWUDg2WXB4ZVFwSUJZUzBZWVQ0Y0tnX1VRc2w1a0VNV29UV1MxNzN1cEVuRUlDLW81b1ZaX0doZC0yYXdLcVlpSGFMdldTblRQNXZZMEdsc2FvZTYyRQ?oc=5",
+    "pub": "Sun, 19 Jul 2026 14:31:01 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    161.43,
    161.79,
    161.45,
-   162.46
+   162.35
   ],
   "uso": [
    121.32,
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64464.04
+   64438.63
   ],
   "vixts": [
    0.823,
@@ -1742,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2452,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T20:32:19+00:00",
+  "checked": "2026-07-19T20:41:58+00:00",
   "openai": {
    "found": false
   },

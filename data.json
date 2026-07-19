@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T08:21:59+00:00",
+ "updated": "2026-07-19T08:32:47+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64609.76,
-   "chg": -0.29,
-   "chg5": -0.53,
-   "sma20": 63133.08,
-   "sma50": 63354.34,
-   "sma200": 71116.62,
+   "price": 64618.87,
+   "chg": -0.27,
+   "chg5": -0.52,
+   "sma20": 63133.53,
+   "sma50": 63354.52,
+   "sma200": 71116.67,
    "high3m": 77539.17,
-   "reg": 64609.76,
+   "reg": 64618.87,
    "pre": null,
    "post": null,
-   "regClose": 64609.76,
+   "regClose": 64618.87,
    "sess": "reg",
-   "mt": 1784449286,
+   "mt": 1784449908,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SK chief warns AI memory shortage could turn geopolitical - theinvestor.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5wZUlqaHA5YlY5X0xtZFJqb2hnaHZUNlJxNjJ5ekRta3JqbWwyZWt1Mm5PTktQSU1iM04yQ3ZjN19ja0NieDF5SVNxQktzRWxIQ0xwTDdaNkZMUQ?oc=5",
+    "pub": "Sun, 19 Jul 2026 08:16:20 GMT",
+    "src": "theinvestor.co.kr",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Grok Build Explained: What It Does and Who It's For - BASENOR - Tesla Accessories",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNSFpCQ1Rpclc5QXp3czZiZXJuSUVndGlaV2hHOGFzM3FEalNJU0lVeHdHRTNfeXhyc21BZEw4RHE0aHhvVE13QktvdlRoTGN3bEYwazlNYlVyNXN1cWhPTDFDTHJ2bW5GamE0OC1sNTUzbXhsc19xWi0yeHZSUjlTVzZWZlpyMXFLOGhoaA?oc=5",
     "pub": "Sun, 19 Jul 2026 05:03:14 GMT",
@@ -1188,14 +1196,6 @@
     "pub": "Sun, 19 Jul 2026 04:32:34 GMT",
     "src": "AOL.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Nvidia's H100 GPU rental prices surge nearly 40% in 6 months: SemiAnalysis - MSN",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaGNuZ18wZW5xRDVfWVRWTERhSlFyZDF4TlF6VktQTExuYjBmWnM4OURZS3lyQVdsZ1k1R256Qi1ySEVmaUdZa3BpaW9OelhzZXhWcV9jUVkxeTY5eFl2dzZ5dUV3dzRlcjllSkhJSjhrbC1tN2wtUTRVTVBla1phX01KRVZwM2ZRVEp5RVF4RFVhTG8zUzhGWWFZWW96aWJnZWlNZFJ4UUtPTV9VZEoyc2xQaUV3clBqNUxpbGxB?oc=5",
-    "pub": "Sun, 19 Jul 2026 02:25:29 GMT",
-    "src": "MSN",
-    "trig": false,
     "geo": false
    },
    {
@@ -1227,7 +1227,7 @@
    {
     "title": "Nigerian children pay the price for the Iran war as malnutrition and poverty surge - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbDB0T0RpSDlYc2hJN0tRN0RxblRnTDltbWgzSHZpY0JFT2pod1pjcDVWZTBta0laNG1hbzBkNnNZR1NNcVQyenNBUENmWEZ0eHN2VWlRbHNzR2taTjRrY3lsSXB4X3I2V085NDB0UFY4X29WZHpJSEVuT0xkcUJYdXJYLVJ4ald1aXh2U0I5Wi1sSFNfcFc0d0gwUGs4MGIwZW8ydW9pNUFZd2lnWGs4cDBqeTNIbV9TeEZzc3Zqd1ozNjRUdk54NmZKbTQwa095bHZuSzVWcTVlME1qOE03Mg?oc=5",
-    "pub": "Sun, 19 Jul 2026 07:20:13 GMT",
+    "pub": "Sun, 19 Jul 2026 08:30:08 GMT",
     "src": "The Washington Post",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64600.45
+   64618.87
   ],
   "vixts": [
    0.823,
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T08:21:43+00:00",
+  "checked": "2026-07-19T08:32:08+00:00",
   "openai": {
    "found": false
   },
@@ -2462,10 +2462,10 @@
   }
  },
  "fragility": {
-  "margin_mn": 1415557,
-  "margin_asof": "May-26",
-  "margin_src": "prev",
-  "margin_gdp_pct": 4.44,
+  "margin_mn": 1279042,
+  "margin_asof": "Jan-26",
+  "margin_src": "archive",
+  "margin_gdp_pct": 4.01,
   "curve_bp": 37,
   "curve_inverted": false,
   "curve_uninv_months": 22.4

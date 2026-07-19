@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T19:41:57+00:00",
+ "updated": "2026-07-19T19:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64381.97,
-   "chg": -0.64,
-   "chg5": -0.88,
-   "sma20": 63121.69,
-   "sma50": 63349.79,
-   "sma200": 71115.36,
+   "price": 64345.39,
+   "chg": -0.7,
+   "chg5": -0.94,
+   "sma20": 63119.86,
+   "sma50": 63349.06,
+   "sma200": 71115.16,
    "high3m": 77539.17,
-   "reg": 64381.97,
+   "reg": 64345.39,
    "pre": null,
    "post": null,
-   "regClose": 64381.97,
+   "regClose": 64345.39,
    "sess": "reg",
-   "mt": 1784490088,
+   "mt": 1784490684,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.35,
-   "chg": -0.01,
-   "chg5": 0.29,
+   "price": 162.38,
+   "chg": 0.01,
+   "chg5": 0.31,
    "sma20": 162.06,
    "sma50": 160.55,
    "sma200": 158.62,
    "high3m": 162.63,
-   "reg": 162.35,
+   "reg": 162.38,
    "pre": null,
    "post": null,
-   "regClose": 162.35,
+   "regClose": 162.38,
    "sess": "reg",
-   "mt": 1784321993,
+   "mt": 1784490670,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Can an Apple lawsuit derail OpenAI’s hardware plans? - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSVNqN1paNUlrdzltc0F6UnNlZVQ1V0ZrYTVyZW0tdUZpaHVPMUFDa05vZGtLanhWdy1HOTNWOGtWaER0RmFpWjBYanlQYkNXemtJUExxUXY0eDUyV0E5dDFVR0JXTjZGRHN6dlEwZUFTZ3hpTkVubnRFSVdJR21GYWdfNlZuZFFYNVFTSzJR?oc=5",
+    "pub": "Sun, 19 Jul 2026 19:24:45 GMT",
+    "src": "TechCrunch",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Amazon’s Trillion-Dollar Capex Gamble vs Shopify’s Lean Profitability Strategy - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY1VJTGhoTzhrZWpMSXJkZFU1M3NMUExSbHh4NHpFaXAtaDZyUVo5T1FwdXRqdmp2b1ZQVnZTU0tfY080TExkUi1ZOERIVy1vNEhPZWlodXlVX18zMTIxVWlqVTVsUFBCYzVvWWlWODF1cFJhRTJjaEFNQ0JQeHhIRDJVaFMzTmtac3lNZm95cFdjV3dMUDFPOTdOd2xmeXh1Tk5ZU042TlY1U2ItNm9LN0QzZHVJS0JXR0VCUA?oc=5",
     "pub": "Sun, 19 Jul 2026 18:00:44 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 19 Jul 2026 14:31:01 GMT",
     "src": "Yahoo Finance",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why Apple’s Lawsuit Against OpenAI Over Devices Spares Jony Ive - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOek5YX256a1JPWmJMYms3bUxQeTRrZGppZGRsSktVRDNub3FseWRTZEY4a2ZkN29EejVOWmNnYkRuSjdHWnpkR3N0MDVoNEZ0M0lzUUJOU1h4RlRSLTZVRlVVOVp4dXFsaXNMS3VvNXlMblpvUXV4SVBXb3VvSER0cEJUc2tMOUhIcmZ6OF90N3VsVThBX3p1Y3FJUGlsaERkbkZxcGNnaEpzSzA2VG9BaWZqSnJqMFdiTTdCQmVZSGdYc2xVbGdOTHc4SUVtNVVxSXJZX0k1ekQ?oc=5",
-    "pub": "Sun, 19 Jul 2026 14:00:01 GMT",
-    "src": "Bloomberg.com",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    161.43,
    161.79,
    161.45,
-   162.35
+   162.38
   ],
   "uso": [
    121.32,
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64381.97
+   64345.39
   ],
   "vixts": [
    0.823,
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T19:41:45+00:00",
+  "checked": "2026-07-19T19:51:41+00:00",
   "openai": {
    "found": false
   },

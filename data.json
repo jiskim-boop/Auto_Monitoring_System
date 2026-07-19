@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T21:02:35+00:00",
+ "updated": "2026-07-19T21:12:00+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64506.73,
-   "chg": -0.45,
-   "chg5": -0.69,
-   "sma20": 63127.93,
-   "sma50": 63352.28,
-   "sma200": 71116.05,
+   "price": 64448.05,
+   "chg": -0.54,
+   "chg5": -0.78,
+   "sma20": 63124.99,
+   "sma50": 63351.11,
+   "sma200": 71115.73,
    "high3m": 77539.17,
-   "reg": 64506.73,
+   "reg": 64448.05,
    "pre": null,
    "post": null,
-   "regClose": 64506.73,
+   "regClose": 64448.05,
    "sess": "reg",
-   "mt": 1784494923,
+   "mt": 1784495484,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.42,
-   "chg": 0.03,
+   "price": 162.41,
+   "chg": 0.02,
    "chg5": 0.33,
    "sma20": 162.06,
    "sma50": 160.55,
    "sma200": 158.62,
    "high3m": 162.63,
-   "reg": 162.42,
+   "reg": 162.41,
    "pre": null,
    "post": null,
-   "regClose": 162.42,
+   "regClose": 162.41,
    "sess": "reg",
-   "mt": 1784494924,
+   "mt": 1784495472,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Hyperscalers sustain AI spending as bond funding stretches 2–4 years - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxObC03V3l2YXFvNWl6V3Z2M1h3b0g0WkREdkNoUElwSzhxNVRzS3pERmtlQ1dCd09wdU5EUy14Ujl1ZjRUWnJKWnl5VHdPU0hDTnJSeDVMTFdUa0pIR3hjVk45cDNuTGxIMGlCeThqVF9OZ3U2aDlMZll3STJlUzNDdNIBlAFBVV95cUxNVDFHbUJwYTlsN2ZhdjIzZTU1T1ZSV0hiLU1ydDZkc3JrQ25fc3paSi1kVHprZUxaS3o3VnFidmhZajVsdkY3R0VwVmRPWmhlbGlVWHJILW95V05ZcndRT0JyVEU4SUVzLTJDRnA5UUsza0pWejFmRUFreWVDczdtLXlUR2RSTHJERTVBTUZNWnZXazA1?oc=5",
+    "pub": "Sun, 19 Jul 2026 21:01:00 GMT",
+    "src": "Chosunbiz",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Microsoft (NASDAQ:MSFT) advances ahead of Nasdaq as investors anticipate AI capex easing - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNekIxR2dVcXhOWVVOcXVaRUt1VmFWX2tfNm1KZ19YTmQ0R3R0cWg4R2MwaWd5dmlNTFExcWJXMGRWX3NhaVV6Mkd2TVgtWFZ3QzhsTm5wTVJOVzdhazJMdnYxYUpzRTVYMkJGRDdHWnNpaXhCRzlQUWVnMUxUTWNaN25hbGFMa1JqTDNBTnh3NTVtenpSUUQ0UF9YQWhFN0dIbTVINy1jMnQ3QQ?oc=5",
     "pub": "Sun, 19 Jul 2026 20:37:49 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 19 Jul 2026 17:30:26 GMT",
     "src": "24/7 Wall St.",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oracle Just Hit a Fresh 52-Week Low and Had Its Credit Cut Toward Junk. Has the AI-Capex Panic Overshot? - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR0YxemdqQkpybU5GZU1zLUJpNmJKSFk5U0wxYm9HV2tGc0JnUVk0VXVUQ2xmb1ZyRHhUeDFsR1RrRThCV2JVQkpad01VTkVBdTNqVUhwdXJzYXFlZ29pS01OODU4X0FHLWJsOWJXU2xwVWktNURKYzM1NGxmUnh3TVJMRUVRa3R1RDhQaEJlZTB5T3A2RGt1UA?oc=5",
-    "pub": "Sun, 19 Jul 2026 17:09:04 GMT",
-    "src": "The Motley Fool",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1307,17 +1307,17 @@
     "geo": false
    },
    {
-    "title": "Price to sales forward of World Copper Ltd. – OTC:WCUFD - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3VJR1piWVBWRXVSS2xSSnVNRjdyNHVHcUlFTlNPUTNGTk0zelNHTlc0RTVENkxHZU9JeU9LMl9LOUhvWjR5MXJXRXVXMjI1NXpqZkpqMXJfS1pTenpfb2NnZExqbWhtZzExSXJQTTFNWm5TcGxCMTByVUJta3B3VU9UdHhkaXN5czF3TkwtVjV3dnRQeUNfNmM2dw?oc=5",
-    "pub": "Sun, 19 Jul 2026 13:15:04 GMT",
+    "title": "Price to sales ratio of World Copper Ltd. – OTC:WCUFD - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSWRJYlNUeHRmNWlMNG5GNWp3Qmt2Mm5ETFpSWUVZc0hTaVBvSmtidDRkUWxCX2k1ZjNjblVmbEcyV2VQT0VfZUthVkhnZHlFc1R3S2Y4UjNlakw2d1VNbFZJWlRBMkpxYjJZYnQzeUI3UUxYTWctVGk5Q1BXSjhHWDh6ajNEN0hOZ3RhMl9TelZWTVBrRmc?oc=5",
+    "pub": "Sun, 19 Jul 2026 13:12:43 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Price to sales ratio of World Copper Ltd. – OTC:WCUFD - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQSWRJYlNUeHRmNWlMNG5GNWp3Qmt2Mm5ETFpSWUVZc0hTaVBvSmtidDRkUWxCX2k1ZjNjblVmbEcyV2VQT0VfZUthVkhnZHlFc1R3S2Y4UjNlakw2d1VNbFZJWlRBMkpxYjJZYnQzeUI3UUxYTWctVGk5Q1BXSjhHWDh6ajNEN0hOZ3RhMl9TelZWTVBrRmc?oc=5",
-    "pub": "Sun, 19 Jul 2026 13:12:43 GMT",
+    "title": "Price to book ratio of World Copper Ltd. – OTC:WCUFD - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPOGVENk1XUGRRMFYycGluSy12R3RYaHhaMW00SWFNSXM5cFpBWXY2WEEyLWdySkVpWThuTFFqd0lKSnJGY0FUOE1HRkpNc0RVWUczeDZuZThjMTd5alBGRlhiSWtUYWhsY1FLYU9EUDlIbURUam9WczloZzQ3bWVlREgwS29wcjdfRXl5X3NIQTA4Qmox?oc=5",
+    "pub": "Sun, 19 Jul 2026 13:12:29 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1550,7 +1550,7 @@
    161.43,
    161.79,
    161.45,
-   162.42
+   162.41
   ],
   "uso": [
    121.32,
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64506.88
+   64448.05
   ],
   "vixts": [
    0.823,
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T21:02:23+00:00",
+  "checked": "2026-07-19T21:11:48+00:00",
   "openai": {
    "found": false
   },

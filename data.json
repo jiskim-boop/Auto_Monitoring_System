@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T12:52:10+00:00",
+ "updated": "2026-07-19T13:03:12+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64365.34,
+   "price": 64361.98,
    "chg": -0.67,
    "chg5": -0.91,
-   "sma20": 63120.86,
-   "sma50": 63349.45,
-   "sma200": 71115.27,
+   "sma20": 63120.69,
+   "sma50": 63349.39,
+   "sma200": 71115.25,
    "high3m": 77539.17,
-   "reg": 64365.34,
+   "reg": 64361.98,
    "pre": null,
    "post": null,
-   "regClose": 64365.34,
+   "regClose": 64361.98,
    "sess": "reg",
-   "mt": 1784465489,
+   "mt": 1784466125,
    "ok": true
   },
   "USO": {
@@ -1143,7 +1143,7 @@
    {
     "title": "LTFRB sets price caps on booking, platform fees in passenger taxis - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMDBOR2oyVHMtalJmdXZ6RnN1MnJXZlZxaXJ5Z1doZXZhUU9lckNlOEgzV2xhRUNNb2tqNlE5M0RReFNTYlBCTjZhMWNTVXg2Mm5OeDJhRVV5dXI4MTl3V0RPSlRaYlk1Z2lyN3dMdE53V09ZYkg5SkZKVG1PNk5xVmRlemtwVlI2LVd4bEF4aWZyR1lQUV95a0w0QVJiU2t2OHV0VGxwQm9scDBhMXVyWk5EV3JNUDZPR0E?oc=5",
-    "pub": "Sun, 19 Jul 2026 07:44:11 GMT",
+    "pub": "Sun, 19 Jul 2026 07:24:25 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "UAE Stands With Israel, Jordan, Qatar, Bahrain And Among 11 Middle East Countries As US Strikes Iran Again Igniting A Historic Gulf Turmoil That Could Shake Oil Supplies, Airline Operations And Tourism Dreams Across Dubai, Doha, Petra And Abu Dhabi - Travel And Tour World",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBrX0RlaDdSMmZKYmxPZVMxVDNFbHAtejgxZkNhUU5DVjFUaXhlUjBwcENHWEdzbGZwSnNVNzNkTU04VW9WX1ZXOWQ5YVZER0FQaTVaa0VMN3loTDNodG1zdk03c2h4TmNrOURrR3VB?oc=5",
-    "pub": "Sun, 19 Jul 2026 05:09:19 GMT",
-    "src": "Travel And Tour World",
+    "title": "Key events next week: ECB interest rate decision; earnings reports from Google, Tesla, IBM, Intel, and CATL - 富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdDAwRkd0WnNqeURQR2h3N2VLeG0teTNBM1MxWjkxa1VQNVlfcHFHby0wdm5WZ0VRVzJSMWV0U3E1MlpSbkxLVmp1WU9VbU9XWXdmVk1yVkJBbVhGSkI0aXNmc2drdWhMd2pZeDlxNFI5WFBaRnFQOXJHZmVDOWdjb3l4dlFkd01PMHdfQ19VQzFrMnh2cUNVb1MxWk55ckcyejluWHpQb2g?oc=5",
+    "pub": "Sun, 19 Jul 2026 02:10:06 GMT",
+    "src": "富途牛牛",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64382.99
+   64358.3
   ],
   "vixts": [
    0.823,
@@ -2222,10 +2222,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-17T13",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-17T14",
     "v": 2.73
    },
@@ -2412,6 +2408,10 @@
    {
     "d": "2026-07-19T12",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-19T13",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T12:51:53+00:00",
+  "checked": "2026-07-19T13:02:27+00:00",
   "openai": {
    "found": false
   },
@@ -2464,7 +2464,7 @@
  "fragility": {
   "margin_mn": 1415557,
   "margin_asof": "May-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.44,
   "curve_bp": 37,
   "curve_inverted": false,

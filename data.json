@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T17:32:14+00:00",
+ "updated": "2026-07-19T17:42:32+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64635.17,
-   "chg": -0.25,
-   "chg5": -0.49,
-   "sma20": 63134.35,
-   "sma50": 63354.85,
-   "sma200": 71116.75,
+   "price": 64592.64,
+   "chg": -0.31,
+   "chg5": -0.56,
+   "sma20": 63132.22,
+   "sma50": 63354.0,
+   "sma200": 71116.52,
    "high3m": 77539.17,
-   "reg": 64635.17,
+   "reg": 64592.64,
    "pre": null,
    "post": null,
-   "regClose": 64635.17,
+   "regClose": 64592.64,
    "sess": "reg",
-   "mt": 1784482303,
+   "mt": 1784482899,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Wall Street Is Warming to Marvell After Its XConn Acquisition. Here’s The Price Target - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPT0ZOTmRpVTBRUzd4WENmZWQ0bkM1UnJHS2lmZktGU0xvYmNCUnFCOTR2OXJoWnc3anhvbUdrN2lHQ2drdGFta0xnbFNOdTZTLXg1R3gxclFjNGxWRE81WmtVQW1SemdIcXQ0RVhtMFl6QXlOMGNya1dtZld6RHdHM0g3dUdBVmZJOFlYYUFFcHoxdS1sQ1lBVE43NmVna1UxWk9qeUFmRVFlNGJnZlVmaDQweWt0M2hqc180YVA0Wk9ZdlFoWmVv?oc=5",
+    "pub": "Sun, 19 Jul 2026 17:30:26 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oracle Just Hit a Fresh 52-Week Low and Had Its Credit Cut Toward Junk. Has the AI-Capex Panic Overshot? - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOR0YxemdqQkpybU5GZU1zLUJpNmJKSFk5U0wxYm9HV2tGc0JnUVk0VXVUQ2xmb1ZyRHhUeDFsR1RrRThCV2JVQkpad01VTkVBdTNqVUhwdXJzYXFlZ29pS01OODU4X0FHLWJsOWJXU2xwVWktNURKYzM1NGxmUnh3TVJMRUVRa3R1RDhQaEJlZTB5T3A2RGt1UA?oc=5",
     "pub": "Sun, 19 Jul 2026 17:09:04 GMT",
@@ -1191,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "Anthropic Follows SpaceX Playbook, Claude-Parent Reportedly Pursuing Multibillion-Dollar Credit Lines Ahead of IPO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmJUYXZDTllxeUtmc1h6aHFQdnE4UEE3eGpLUFM4T2RCMGE3Z3dMSEI3dHZMQ2ZadVJKX25QekdmV3k4TktFazhKUW8tbHVpWVNWUDg2WXB4ZVFwSUJZUzBZWVQ0Y0tnX1VRc2w1a0VNV29UV1MxNzN1cEVuRUlDLW81b1ZaX0doZC0yYXdLcVlpSGFMdldTblRQNXZZMEdsc2FvZTYyRQ?oc=5",
+    "pub": "Sun, 19 Jul 2026 14:31:01 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Why Apple’s Lawsuit Against OpenAI Over Devices Spares Jony Ive - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOek5YX256a1JPWmJMYms3bUxQeTRrZGppZGRsSktVRDNub3FseWRTZEY4a2ZkN29EejVOWmNnYkRuSjdHWnpkR3N0MDVoNEZ0M0lzUUJOU1h4RlRSLTZVRlVVOVp4dXFsaXNMS3VvNXlMblpvUXV4SVBXb3VvSER0cEJUc2tMOUhIcmZ6OF90N3VsVThBX3p1Y3FJUGlsaERkbkZxcGNnaEpzSzA2VG9BaWZqSnJqMFdiTTdCQmVZSGdYc2xVbGdOTHc4SUVtNVVxSXJZX0k1ekQ?oc=5",
     "pub": "Sun, 19 Jul 2026 14:00:01 GMT",
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPakRPRHUwd1M1b09VMGxEN2t6V3JfNzVsc3Zpcko1djRPaXVpdlAxYTh1eld2MkVSTUVlV1VCOXExUHkzSnFMQ2h3aXV0SHdEN2g4UXRBTlYzMm5rQnBVQmVpNzZwSWdkRG1ybU4zQ1p4dXFaWjUwTGxFQzRQM0FzVUE1TTM4UjllUDFWRjRKZS14MjdTbmhkZVYtR1BaenF2RlRydXZvTWstdmJMRFNhSGZKONIBswFBVV95cUxPLVNNNUpSUTZvb3ZlaUVrN2NWOF9nX21xNTFfbl9BUEg0VkpfZnh5M05HcVhoT0g3NDZsLWVRNlJud21VWGRSdzlweXR5dTN0NzFSLU5Rc1N1cks3SzZkd0JveFdPb0swTC01LWhlbmpfVXF2U3BFQTUtb2RjaXJxQUVqUXpSVlBZWGQzak1BMm5GTUJUZGdNUDc3c3VLeXhSd0pESkdTRXQ5WkkyNGMtdFlfdw?oc=5",
     "pub": "Sun, 19 Jul 2026 13:20:24 GMT",
     "src": "South China Morning Post",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI CapEx, Hyperscalers, And The Next Earnings Wave (NYSEARCA:SPY) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWY0MVBlUGg0Nnhla29hV2tudXRCeDV2WlRTRERxUmNQUnFDaXBSYTJHUjRPZExXNFBrSDNIVTZYSGUxOGpjVEtWVzhlRExKVTQxMzlVYVZFcUkxZ2hQZ284X3U3S243NlpxUU5YY2tUaXRJUzl2b0pSWDRwa3ROSEN1ZUVHVXF2S0NmT2oyWTNGclk?oc=5",
-    "pub": "Sun, 19 Jul 2026 13:00:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why AI Tokens Could Become Significantly Cheaper If the Bubble Bursts — Even Though Providers Are Already Selling “Below Cost” - quasa.io",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcnV4eGZQa3EwTThHV21OcHgwQnhCdFJNeEJMc1p0dkpXaTFnVXI5YmxhZTV1R2ZjOFRKWnc3TGtzVzF5S2JiV2c5UVllcGxCbFl4WVRqdjAtMkdGMHNPYWFfNmJZMmVMYUpKd2JKQl9mUnpJQU5KN1FUYlNLN0I1VGNORFNYTHRrcWVld2UtT2VHVHFsWDN3VWl4anZuRWxoLWttMGw1Ti1BM0gwZ3hJRDFRVFJTSWNRbEVLZFFCakhIRHphZHEtY2dUcm5QNkxxOFVWOXVwNDdRek8wQnc?oc=5",
-    "pub": "Sun, 19 Jul 2026 12:11:00 GMT",
-    "src": "quasa.io",
     "trig": false,
     "geo": false
    }
@@ -1275,18 +1275,18 @@
   ],
   "flow": [
    {
-    "title": "Ultra-low yen rates drove global investment flows, Michael A. Gayed notes - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWFqTWRrR2VCMGtiWXhwbnZTUXF5dDVFUzJVa2VCNU5NNzZFQ0JHdkNMdDNpLVFoUnBzM0R5b0dhc1FUOHBoT1NaTEZUTWtyYUhsOG9oVkxJY3JqYU5QOThXTjEtMkd1bWhZQ0hncjlTUE5FcEJ2aUFfLUZyR1g2bWFNR1JfV3M?oc=5",
-    "pub": "Sun, 19 Jul 2026 14:45:18 GMT",
-    "src": "Traders Union",
+    "title": "Gold is now more than just a safe-haven investment - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOazVleGJjeTRCMFl6SjE5Z25UNDVaNkRqTUVESXZSYThON1FNQ1R3VVBHUzVOWkR1ZDd6WF8zNEZsRW1Yak1QYWtuYnl0N01SMUZWU2tncHRzQ2UtOHFzWUt2dm5vQjktVVZRcUhfaDBDV092ZWxoOG9PUWgzSGRvSTVpdG01cE9SU3h1TWo4eG5BUTRZSWtPNUVfVUt3UQ?oc=5",
+    "pub": "Sun, 19 Jul 2026 17:30:55 GMT",
+    "src": "FXStreet",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Price to sales forward of World Copper Ltd. – OTC:WCUFD - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPQ3VJR1piWVBWRXVSS2xSSnVNRjdyNHVHcUlFTlNPUTNGTk0zelNHTlc0RTVENkxHZU9JeU9LMl9LOUhvWjR5MXJXRXVXMjI1NXpqZkpqMXJfS1pTenpfb2NnZExqbWhtZzExSXJQTTFNWm5TcGxCMTByVUJta3B3VU9UdHhkaXN5czF3TkwtVjV3dnRQeUNfNmM2dw?oc=5",
-    "pub": "Sun, 19 Jul 2026 13:15:04 GMT",
-    "src": "TradingView",
+    "title": "Ultra-low yen rates drove global investment flows, Michael A. Gayed notes - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRWFqTWRrR2VCMGtiWXhwbnZTUXF5dDVFUzJVa2VCNU5NNzZFQ0JHdkNMdDNpLVFoUnBzM0R5b0dhc1FUOHBoT1NaTEZUTWtyYUhsOG9oVkxJY3JqYU5QOThXTjEtMkd1bWhZQ0hncjlTUE5FcEJ2aUFfLUZyR1g2bWFNR1JfV3M?oc=5",
+    "pub": "Sun, 19 Jul 2026 14:45:18 GMT",
+    "src": "Traders Union",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64637.68
+   64588.48
   ],
   "vixts": [
    0.823,
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T17:32:02+00:00",
+  "checked": "2026-07-19T17:42:01+00:00",
   "openai": {
    "found": false
   },

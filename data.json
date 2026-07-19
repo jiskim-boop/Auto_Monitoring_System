@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T09:52:09+00:00",
+ "updated": "2026-07-19T10:03:04+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64495.28,
-   "chg": -0.47,
-   "chg5": -0.71,
-   "sma20": 63127.35,
-   "sma50": 63352.05,
-   "sma200": 71115.99,
+   "price": 64441.99,
+   "chg": -0.55,
+   "chg5": -0.79,
+   "sma20": 63124.69,
+   "sma50": 63350.99,
+   "sma200": 71115.69,
    "high3m": 77539.17,
-   "reg": 64495.28,
+   "reg": 64441.99,
    "pre": null,
    "post": null,
-   "regClose": 64495.28,
+   "regClose": 64441.99,
    "sess": "reg",
-   "mt": 1784454697,
+   "mt": 1784455344,
    "ok": true
   },
   "USO": {
@@ -1059,16 +1059,16 @@
   },
   "CL=F": {
    "price": 81.78,
-   "chg": -0.86,
+   "chg": 3.58,
    "chg5": 14.52,
-   "sma20": 73.41,
-   "sma50": 85.38,
+   "sma20": 73.37,
+   "sma50": 85.37,
    "sma200": 84.07,
    "high3m": 108.66,
    "reg": 81.78,
    "pre": null,
    "post": null,
-   "regClose": 82.49,
+   "regClose": 81.78,
    "sess": "24h",
    "mt": 1784321998,
    "ok": true
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "LTFRB sets price caps on booking, platform fees in passenger taxis - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOMDBOR2oyVHMtalJmdXZ6RnN1MnJXZlZxaXJ5Z1doZXZhUU9lckNlOEgzV2xhRUNNb2tqNlE5M0RReFNTYlBCTjZhMWNTVXg2Mm5OeDJhRVV5dXI4MTl3V0RPSlRaYlk1Z2lyN3dMdE53V09ZYkg5SkZKVG1PNk5xVmRlemtwVlI2LVd4bEF4aWZyR1lQUV95a0w0QVJiU2t2OHV0VGxwQm9scDBhMXVyWk5EV3JNUDZPR0E?oc=5",
+    "pub": "Sun, 19 Jul 2026 07:44:11 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "General Compute: Inference Chips Replace Nvidia GPUs as Loan Collateral in Landmark $400M Deal - Tech Times",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPS1Q5Qk01SXdMNHp3NndCaE11bWYyY3RwQVZtLWt4YWlvZXFKb0Qza252ODdlTUsxNVF0aDFCczd1MDVIYm1WTUxLOVMyaXgyZ2VRWDRuYm9udFdiUG9mYTZnZUxWVkZycUxBR09XdUNIV1ZLbHh6c0xfVGc2aDNIcUxuUXQ0aTJiN09JaVphaURXUHVydnZjOVZwZmhqQUszUzBGSWs2Y3c0WHFENGR4Ylcyd3lZb1JPZTdSNnYydlFQQU5XczhrUTVlNnFORzY2dTJPeVJ5TUI?oc=5",
     "pub": "Sat, 18 Jul 2026 23:21:45 GMT",
@@ -1162,14 +1170,6 @@
     "pub": "Sat, 18 Jul 2026 11:20:54 GMT",
     "src": "Mshale",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "BlackRock’s ETHB Bucks Trend As Other Ethereum ETFs See Outflows - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUFpOLVUyVTRyV0Y0Yi0teE4wblpjaVhTLUU2NmZLNjB1MkZNcEtFanJnTkZiN2kzamdjeTVJLWt5OG5sV04yZk1NMmpaNDRSaXBuVjlETWtDWXRJMkdVRGFuV0xxbVVSd1prZm5BejBwRUxwYXFBUXdKVmN0eDNoSHVIbnJPR1Rqa2hqNmpXOXdEUDFmTTBoWENtY1hvUWc0RWx3Y0dSaGFPQ2tPX244VGJ3X0llcFE3czB5ellXLW1sSkUyZGRqQzd4Z0tabHpYazZxMA?oc=5",
-    "pub": "Sat, 18 Jul 2026 09:22:19 GMT",
-    "src": "Stocktwits",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1215,11 +1215,11 @@
     "geo": false
    },
    {
-    "title": "Investors pivot as AI chip rally falters on spending slowdown fears - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxNaHpmRm01MWM3ME5WbER3S3o5NzJHTHZVNW9Ia25wQ2ZhakMwUXh2ZUNEMndGTVVyWjFab01FT0xfeFJLdWFIbDJGcWEyRjF2Q1hZU3lwcjhCdHU4VVVxbUFQSS1lVEYzdGtIT0w3cmxWZm5wRXdRZU1qMXRfcTh5TllnclVwTWc1RGJsbGQtcnFMTVppelRZMFNINjByT1lZNzZLQ05uVENEcUlESkFKT1Y4emFuOUNYV3FGRTFmekpKVlVySDZNbzZFdWhrVk8wczlBWlBWZFhCYUpfRWJBRGlHY05pQXkwc0ctUGdtZkp4bElIcGdlN0dxRmtqQQ?oc=5",
-    "pub": "Sat, 18 Jul 2026 20:32:21 GMT",
-    "src": "MSN",
-    "trig": true,
+    "title": "Meet Indian-origin tech leader Uday Ruddaraju, who has become OpenAI's CTO of Compute - The Times of India",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQb0U3ekdoc0hTRTgzb0lfMVBRS01YbTh3OWVyanl6SWZrNlFXcklIQlZXYkJPMDlkWlVwbENYRkNZMFM5UldsLWhyMERzaEgzNm1GRFFGd2ctdk1GWENXalQ1ckVMR2JRa0hPZHVoeVNaNEdNLTlIOWRXRVZIZDV4elNYZzVWZG04SHBvSGFZR3R5amlzcGU0LUx3S1pWQzhqaHJiUEVGVDNCeWNMNnIyYm9BNUNVMm1oc0hkT3I0c2xfU2dTeExEMzdfS3NqRWx3eFZSclItZHdSRUxEOVlWRjFmTE1vS0RoS0HSAe8BQVVfeXFMUDlick9EcnZsSWVtUllDY0FUSndCUE1Pb3g1and4N2s3T1FQSFgtOWwzckk5UlMwNUF0clZKMTRTTGlUNkRlcnBCQW9pZkRlZTRqQkhOUGpLVWhldExWMzhWMDdMY3NEZlhkLUZaTmhoandaYllNanVsS1lXSUlLY0FMSklqMkVreTRpRTBpVVZiMkpTSV9DcC0wNzc1OEpwb0puYUtvQ1NuSl93WVFuU2pNTDAzZ2ZRU1NkU192dDhfbHpBTlg5dERUMjVNZF84ZUwzOXRxZ0JnZ3NxaWlFY2h5MXhVWlg2X0Y2TVUyaDg?oc=5",
+    "pub": "Sat, 18 Jul 2026 20:53:00 GMT",
+    "src": "The Times of India",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1227,7 +1227,7 @@
    {
     "title": "Nigerian children pay the price for the Iran war as malnutrition and poverty surge - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQbDB0T0RpSDlYc2hJN0tRN0RxblRnTDltbWgzSHZpY0JFT2pod1pjcDVWZTBta0laNG1hbzBkNnNZR1NNcVQyenNBUENmWEZ0eHN2VWlRbHNzR2taTjRrY3lsSXB4X3I2V085NDB0UFY4X29WZHpJSEVuT0xkcUJYdXJYLVJ4ald1aXh2U0I5Wi1sSFNfcFc0d0gwUGs4MGIwZW8ydW9pNUFZd2lnWGs4cDBqeTNIbV9TeEZzc3Zqd1ozNjRUdk54NmZKbTQwa095bHZuSzVWcTVlME1qOE03Mg?oc=5",
-    "pub": "Sun, 19 Jul 2026 09:28:24 GMT",
+    "pub": "Sun, 19 Jul 2026 10:00:08 GMT",
     "src": "The Washington Post",
     "trig": false,
     "geo": false
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Gold prices slide as Fed stance, energy costs weigh - MSN",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1JnRWlvM2xnc0hiNTRuSVNtNlVGQTNaSEFJb1pXS3p6blpGNUN0bGtrOElGalBwMDh0Z3dGNXZjUjZEQUV2SkhCX3ozZUJoN3dsSjVrM003VUJYTWlKT1Bsb2JPRUY4Ukx5Snd4YmJGOXM1YVc5WEgzeW1kMExGYWtFMUN2NGZLS0tiQ2NlMy1XWU5oZ1BucWg1U0VfZlJjeEIzSDFGUzVXcGgwVkpXblVNbDc1SmxVeWVsNC1VRDdsaUxUaVczZ0tpMnNPVWFfT2NhYWMzUXBwUEVKVFVYb2dmMlA0Yjg?oc=5",
-    "pub": "Sun, 19 Jul 2026 00:04:11 GMT",
-    "src": "MSN",
+    "title": "Gold Prices Record Sharpest Weekly Drop: Investors See Strategic Buying Opportunity - zoomnews.in",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQSjB5dDlHcU9Celkwd195OFVlc001X19WdnpwRlZJWFBKMFBZdXJWSkcyNkgxNDBreE1FMEhJYVVFRHFMVzZvQ2FJNGVTcGhZQXZ4NVc3SUJ4TTNRUUs0WTZxQzVRaGxjMllITjdhZVJZZ3JsTHp3VFFrVldwdEpYWTZXY0FwbkR5cnNISGEyTFpMTDVLdUVZQ0xfQlBVLUZhcWY5ZndhRXd4Vkx4ZXBYUmZ2VGM1dXZBQzlzSWRCM24tZTFT0gHKAUFVX3lxTE0wRmlWWDFxTUlqM3BNWVNnYi1oZTdGZmEyS3VoZThEZXBWZTE2NU9xU1NMd01NLVhGbVlqTloxeXF5UkxiaC01dmxwTjg5Wmh1eUZIdnlXeWhTdjFHb3c3QWNhSW9hVEVIcjJBTlV1czZzek8yMk9tOF83WjRuZ3BFNl81MVFZRVp1eEI3Z2l1bU1yaHF4d0xWMm9DRkpwNHBiSFZiNzBwdjItOTNmNlFxS0FJM09pNHo1X2JvS19GZmtVRHVuNzJxVnc?oc=5",
+    "pub": "Sun, 19 Jul 2026 01:49:32 GMT",
+    "src": "zoomnews.in",
     "trig": false,
     "geo": false
    },
    {
-    "title": "China buys 48 tonnes of gold in May, highest in over a year: Goldman Sachs - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQNm5BMksweXdHcURkbHFaWjRpbF9uYm1nX0RTeWttS1E2dDAzVjdCc01DcnFUMEdpVkI0Qm5PeXZKZ1VGRTJFMThja25iM0V1WWpWMmVfbEEteXpRdzRsRkI5U0JHVGY0OFdmZHFtTl9WaUFpZ0pseDRkcU45ZGthRlVmQmFSeU5qR0EzaDdvOE1DX2txUWV2UVNxNjEwR0tpb2c?oc=5",
-    "pub": "Sat, 18 Jul 2026 22:33:07 GMT",
-    "src": "Crypto Briefing",
+    "title": "Gold prices slide as Fed stance, energy costs weigh - MSN",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNX1JnRWlvM2xnc0hiNTRuSVNtNlVGQTNaSEFJb1pXS3p6blpGNUN0bGtrOElGalBwMDh0Z3dGNXZjUjZEQUV2SkhCX3ozZUJoN3dsSjVrM003VUJYTWlKT1Bsb2JPRUY4Ukx5Snd4YmJGOXM1YVc5WEgzeW1kMExGYWtFMUN2NGZLS0tiQ2NlMy1XWU5oZ1BucWg1U0VfZlJjeEIzSDFGUzVXcGgwVkpXblVNbDc1SmxVeWVsNC1VRDdsaUxUaVczZ0tpMnNPVWFfT2NhYWMzUXBwUEVKVFVYb2dmMlA0Yjg?oc=5",
+    "pub": "Sun, 19 Jul 2026 00:04:11 GMT",
+    "src": "MSN",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64507.1
+   64442.82
   ],
   "vixts": [
    0.823,
@@ -2222,10 +2222,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-17T10",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-17T11",
     "v": 2.73
    },
@@ -2412,6 +2408,10 @@
    {
     "d": "2026-07-19T09",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-19T10",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2453,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T09:51:55+00:00",
+  "checked": "2026-07-19T10:02:41+00:00",
   "openai": {
    "found": false
   },

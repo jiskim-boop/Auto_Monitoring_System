@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-19T17:12:15+00:00",
+ "updated": "2026-07-19T17:21:57+00:00",
  "prices": {
   "NVDA": {
    "price": 202.81,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64605.29,
-   "chg": -0.3,
-   "chg5": -0.54,
-   "sma20": 63132.85,
-   "sma50": 63354.25,
-   "sma200": 71116.59,
+   "price": 64614.25,
+   "chg": -0.28,
+   "chg5": -0.53,
+   "sma20": 63133.3,
+   "sma50": 63354.43,
+   "sma200": 71116.64,
    "high3m": 77539.17,
-   "reg": 64605.29,
+   "reg": 64614.25,
    "pre": null,
    "post": null,
-   "regClose": 64605.29,
+   "regClose": 64614.25,
    "sess": "reg",
-   "mt": 1784481100,
+   "mt": 1784481687,
    "ok": true
   },
   "USO": {
@@ -1191,14 +1191,6 @@
     "geo": false
    },
    {
-    "title": "Anthropic Follows SpaceX Playbook, Claude-Parent Reportedly Pursuing Multibillion-Dollar Credit Lines Ahead of IPO - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNmJUYXZDTllxeUtmc1h6aHFQdnE4UEE3eGpLUFM4T2RCMGE3Z3dMSEI3dHZMQ2ZadVJKX25QekdmV3k4TktFazhKUW8tbHVpWVNWUDg2WXB4ZVFwSUJZUzBZWVQ0Y0tnX1VRc2w1a0VNV29UV1MxNzN1cEVuRUlDLW81b1ZaX0doZC0yYXdLcVlpSGFMdldTblRQNXZZMEdsc2FvZTYyRQ?oc=5",
-    "pub": "Sun, 19 Jul 2026 14:31:01 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why Apple’s Lawsuit Against OpenAI Over Devices Spares Jony Ive - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOek5YX256a1JPWmJMYms3bUxQeTRrZGppZGRsSktVRDNub3FseWRTZEY4a2ZkN29EejVOWmNnYkRuSjdHWnpkR3N0MDVoNEZ0M0lzUUJOU1h4RlRSLTZVRlVVOVp4dXFsaXNMS3VvNXlMblpvUXV4SVBXb3VvSER0cEJUc2tMOUhIcmZ6OF90N3VsVThBX3p1Y3FJUGlsaERkbkZxcGNnaEpzSzA2VG9BaWZqSnJqMFdiTTdCQmVZSGdYc2xVbGdOTHc4SUVtNVVxSXJZX0k1ekQ?oc=5",
     "pub": "Sun, 19 Jul 2026 14:00:01 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPNWY0MVBlUGg0Nnhla29hV2tudXRCeDV2WlRTRERxUmNQUnFDaXBSYTJHUjRPZExXNFBrSDNIVTZYSGUxOGpjVEtWVzhlRExKVTQxMzlVYVZFcUkxZ2hQZ284X3U3S243NlpxUU5YY2tUaXRJUzl2b0pSWDRwa3ROSEN1ZUVHVXF2S0NmT2oyWTNGclk?oc=5",
     "pub": "Sun, 19 Jul 2026 13:00:00 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why AI Tokens Could Become Significantly Cheaper If the Bubble Bursts — Even Though Providers Are Already Selling “Below Cost” - quasa.io",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQcnV4eGZQa3EwTThHV21OcHgwQnhCdFJNeEJMc1p0dkpXaTFnVXI5YmxhZTV1R2ZjOFRKWnc3TGtzVzF5S2JiV2c5UVllcGxCbFl4WVRqdjAtMkdGMHNPYWFfNmJZMmVMYUpKd2JKQl9mUnpJQU5KN1FUYlNLN0I1VGNORFNYTHRrcWVld2UtT2VHVHFsWDN3VWl4anZuRWxoLWttMGw1Ti1BM0gwZ3hJRDFRVFJTSWNRbEVLZFFCakhIRHphZHEtY2dUcm5QNkxxOFVWOXVwNDdRek8wQnc?oc=5",
+    "pub": "Sun, 19 Jul 2026 12:11:00 GMT",
+    "src": "quasa.io",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63237.54,
    59532.34,
    63547.88,
-   64639.2
+   64637.89
   ],
   "vixts": [
    0.823,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2452,7 +2453,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-19T17:11:58+00:00",
+  "checked": "2026-07-19T17:21:45+00:00",
   "openai": {
    "found": false
   },

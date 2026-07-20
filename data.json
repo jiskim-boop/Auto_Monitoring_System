@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-20T21:41:57+00:00",
+ "updated": "2026-07-20T21:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 203.28,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 100.99,
    "sess": "reg",
-   "mt": 1784583083,
+   "mt": 1784583681,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65328.21,
-   "chg": 0.99,
-   "chg5": 0.95,
-   "sma20": 63475.6,
-   "sma50": 63190.93,
-   "sma200": 70967.47,
+   "price": 65263.49,
+   "chg": 0.89,
+   "chg5": 0.85,
+   "sma20": 63472.36,
+   "sma50": 63189.64,
+   "sma200": 70967.11,
    "high3m": 77539.17,
-   "reg": 65328.21,
+   "reg": 65263.49,
    "pre": null,
    "post": null,
-   "regClose": 65328.21,
+   "regClose": 65263.49,
    "sess": "reg",
-   "mt": 1784583685,
+   "mt": 1784584286,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.45,
-   "chg": -0.04,
-   "chg5": 0.01,
+   "price": 162.49,
+   "chg": -0.02,
+   "chg5": 0.03,
    "sma20": 162.11,
    "sma50": 160.65,
    "sma200": 158.66,
    "high3m": 162.63,
-   "reg": 162.45,
+   "reg": 162.49,
    "pre": null,
    "post": null,
-   "regClose": 162.45,
+   "regClose": 162.49,
    "sess": "reg",
-   "mt": 1784583690,
+   "mt": 1784584283,
    "ok": true
   },
   "ES=F": {
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "US stocks drop on Middle East fighting, tech earnings - RTHK News",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTFB0YTV3TnlzWVF2VDFMMktlVlVyNFc0Ujk5cEJjOF83Wmd5WVZWbHpTWlNPTTNSWDEyc200a245aUFUQ29iclJaTGxKSmlWdXpJVnFIdWdKLU9kQjRudUg2ZFhWZmdfd280T2phYk1lRQ?oc=5",
+    "pub": "Mon, 20 Jul 2026 21:19:00 GMT",
+    "src": "RTHK News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Trump vows Iran will pay for killing three US soldiers as Middle East conflict rattles oil and crypto markets - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBBRTBJR0l4UFlVTTdaemJVRjhjbkdabFYyRndRSXVXaGVhTGppX1Q2aC1kVWRvNWd2R2FTQWszT2huVWl3YkhHSWJSN25XWk1XbTkxWmFMU2d3eXI4UG1uMmJtcWNrZHNsNzlBS25pXzAxLWxCc0Uw?oc=5",
     "pub": "Mon, 20 Jul 2026 21:13:54 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNdXItM01GNkdqVEs3VTBHZ1VCYnppT2ZRUUlxbzJ6VHlrSzhFV09rY3cwcVZLZTJ2WGhkLWk1TXE4RTJZTjdmdkRraHk3dV9SbFp0YUU3bmkzcm5sQUhzWnQtUW9iSGpCRk9zNHJHTWpUb0gzZ2VuQ2tYRzRiUW1Jc0gtQVBVMExRQjdKbHdMRUFWS0VvMF9ncnZ5ZFNwNVJ3?oc=5",
     "pub": "Mon, 20 Jul 2026 19:44:48 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil hits one-month high as Mideast war keeps investors on edge - The Rising Nepal",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EdVZSSDNjTG1wUEtwMmU0ZXdHWThMdkJJR0RFR3YwODdqX1FGbFFhcFg4UXFMekdubjRKZDliLW1OLThDWnNQY3B0YUszN3pl?oc=5",
-    "pub": "Mon, 20 Jul 2026 19:26:44 GMT",
-    "src": "The Rising Nepal",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    161.57,
    161.92,
    162.09,
-   162.48
+   162.46
   ],
   "uso": [
    128.25,
@@ -1610,7 +1610,7 @@
    63952.11,
    60138.38,
    63995.02,
-   65328.21
+   65263.5
   ],
   "vixts": [
    0.877,
@@ -2460,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-20T21:41:45+00:00",
+  "checked": "2026-07-20T21:51:44+00:00",
   "openai": {
    "found": false
   },

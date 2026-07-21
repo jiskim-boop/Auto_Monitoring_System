@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21T09:51:56+00:00",
+ "updated": "2026-07-21T10:02:45+00:00",
  "prices": {
   "NVDA": {
    "price": 203.28,
@@ -450,20 +450,8 @@
    "ok": true
   },
   "URA": {
-   "price": 38.67,
-   "chg": -0.15,
-   "chg5": -5.03,
-   "sma20": 42.55,
-   "sma50": 46.75,
-   "sma200": 50.35,
-   "high3m": 58.26,
-   "reg": 38.67,
-   "pre": null,
-   "post": null,
-   "regClose": 38.67,
-   "sess": "reg",
-   "mt": 1784577600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "UEC": {
    "price": 9.4,
@@ -722,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 17.54,
-   "chg": -5.95,
-   "chg5": 6.3,
+   "price": 17.51,
+   "chg": -6.11,
+   "chg5": 6.12,
    "sma20": 17.14,
    "sma50": 17.36,
    "sma200": 19.44,
    "high3m": 22.22,
-   "reg": 17.54,
+   "reg": 17.51,
    "pre": null,
    "post": null,
-   "regClose": 17.54,
+   "regClose": 17.51,
    "sess": "reg",
-   "mt": 1784626576,
+   "mt": 1784627206,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.92,
-   "chg": -0.07,
-   "chg5": -0.02,
+   "price": 100.91,
+   "chg": -0.08,
+   "chg5": -0.03,
    "sma20": 101.07,
    "sma50": 100.05,
    "sma200": 99.08,
    "high3m": 101.61,
-   "reg": 100.92,
+   "reg": 100.91,
    "pre": null,
    "post": null,
-   "regClose": 100.92,
+   "regClose": 100.9,
    "sess": "reg",
-   "mt": 1784626883,
+   "mt": 1784627524,
    "ok": true
   },
   "^IRX": {
@@ -946,8 +934,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 66260.35,
+   "chg": 1.58,
+   "chg5": 3.87,
+   "sma20": 63783.52,
+   "sma50": 63087.78,
+   "sma200": 70845.77,
+   "high3m": 77539.17,
+   "reg": 66260.35,
+   "pre": null,
+   "post": null,
+   "regClose": 66260.35,
+   "sess": "reg",
+   "mt": 1784628127,
+   "ok": true
   },
   "USO": {
    "price": 125.51,
@@ -978,93 +978,93 @@
    "post": null,
    "regClose": 162.67,
    "sess": "reg",
-   "mt": 1784627491,
+   "mt": 1784628134,
    "ok": true
   },
   "ES=F": {
-   "price": 7521.75,
-   "chg": 0.5,
-   "chg5": -0.92,
-   "sma20": 7527.1,
-   "sma50": 7500.02,
-   "sma200": 7138.73,
+   "price": 7525.75,
+   "chg": 0.55,
+   "chg5": -0.86,
+   "sma20": 7527.3,
+   "sma50": 7500.1,
+   "sma200": 7138.76,
    "high3m": 7623.75,
-   "reg": 7521.75,
+   "reg": 7525.75,
    "pre": null,
    "post": null,
-   "regClose": 7521.75,
+   "regClose": 7525.75,
    "sess": "24h",
-   "mt": 1784626886,
+   "mt": 1784627532,
    "ok": true
   },
   "NQ=F": {
-   "price": 29158.75,
-   "chg": 1.32,
-   "chg5": -2.12,
-   "sma20": 29608.29,
-   "sma50": 29691.58,
-   "sma200": 27163.2,
+   "price": 29178.75,
+   "chg": 1.39,
+   "chg5": -2.05,
+   "sma20": 29609.29,
+   "sma50": 29691.98,
+   "sma200": 27163.36,
    "high3m": 30712.75,
-   "reg": 29158.75,
+   "reg": 29178.75,
    "pre": null,
    "post": null,
-   "regClose": 29158.75,
+   "regClose": 29178.75,
    "sess": "24h",
-   "mt": 1784626888,
+   "mt": 1784627535,
    "ok": true
   },
   "YM=F": {
-   "price": 52223.0,
-   "chg": 0.29,
-   "chg5": -1.08,
-   "sma20": 52638.7,
-   "sma50": 51486.66,
-   "sma200": 49706.11,
+   "price": 52240.0,
+   "chg": 0.32,
+   "chg5": -1.04,
+   "sma20": 52639.55,
+   "sma50": 51487.0,
+   "sma200": 49706.25,
    "high3m": 53372.0,
-   "reg": 52223.0,
+   "reg": 52240.0,
    "pre": null,
    "post": null,
-   "regClose": 52223.0,
+   "regClose": 52240.0,
    "sess": "24h",
-   "mt": 1784626891,
+   "mt": 1784627532,
    "ok": true
   },
   "GC=F": {
-   "price": 4066.5,
-   "chg": 1.4,
-   "chg5": 0.13,
-   "sma20": 4061.94,
-   "sma50": 4291.86,
-   "sma200": 4632.76,
+   "price": 4071.9,
+   "chg": 1.54,
+   "chg5": 0.27,
+   "sma20": 4062.21,
+   "sma50": 4291.96,
+   "sma200": 4632.8,
    "high3m": 4732.5,
-   "reg": 4066.5,
+   "reg": 4071.9,
    "pre": null,
    "post": null,
-   "regClose": 4066.5,
+   "regClose": 4071.9,
    "sess": "24h",
-   "mt": 1784626888,
+   "mt": 1784627529,
    "ok": true
   },
   "CL=F": {
-   "price": 82.98,
-   "chg": -0.3,
-   "chg5": 4.59,
+   "price": 83.09,
+   "chg": -0.17,
+   "chg5": 4.73,
    "sma20": 74.15,
    "sma50": 84.91,
    "sma200": 84.25,
    "high3m": 108.66,
-   "reg": 82.98,
+   "reg": 83.09,
    "pre": null,
    "post": null,
-   "regClose": 82.98,
+   "regClose": 83.09,
    "sess": "24h",
-   "mt": 1784626894,
+   "mt": 1784627537,
    "ok": true
   },
   "HG=F": {
    "price": 6.52,
-   "chg": 3.48,
-   "chg5": 2.97,
+   "chg": 3.57,
+   "chg5": 3.06,
    "sma20": 6.19,
    "sma50": 6.31,
    "sma200": 6.02,
@@ -1074,7 +1074,7 @@
    "post": null,
    "regClose": 6.52,
    "sess": "24h",
-   "mt": 1784626894,
+   "mt": 1784627534,
    "ok": true
   },
   "ZN=F": {
@@ -1090,7 +1090,7 @@
    "post": null,
    "regClose": 108.89,
    "sess": "24h",
-   "mt": 1784626868,
+   "mt": 1784627537,
    "ok": true
   },
   "EWY": {
@@ -1112,6 +1112,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Sophistication and size: Inside fund finance boom - Structured Credit Investor",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZVJxODFXSGY2aFZnYWlxT01uU3lRTHVrM2FvUmZwd2ZsaXpJcGFfVW5Pb21ZSGpidlhwS05raVQ0OFoyOWdpWVp2aWR3ZDFiaUN3NjVLcDU0ZzJyZ3ZDUmZZX3ViSkpES3lnQ1VsYURoRmxFd2ZTUmlnYUxCQ0ZBc2d1YXNJUldKbVp4YVNPR050aWhHczYyYnpxemktYXBTS0VacmxrNFFUd2lGWmpwWUZwdUQ5aHk1Z0QzM1ZBRmxvWHQ1NU91Sjg2SQ?oc=5",
+    "pub": "Tue, 21 Jul 2026 09:57:35 GMT",
+    "src": "Structured Credit Investor",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Honda unveils electric ‘big bike’, refreshes leisure bike lineup with e-clutch models - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPUzVZYkdrc2F4Rm15MkFXcWVqYllCSENGc0pIU2dmUkRCZ0ZoZlR2S0JWOWJnWjNfdUFCaWpGZDVYcVM0MlRBTlhBZmNFS3dSN04yZ3g4Z1dobXZLMW5JNTRCaU5HQV9McElNSkdFRkNQb3l4NHdReV9KMko0SDhkUWJQZzdVaVdOcmRqMnd4cHh4RmNwalA4U1QwRFUyY1VnOE1TVjdjTDQ0bHZZRmZwOVpmT1BzaFVldUg0NEJyUjlialNXSHUtVW1VU0h5TXdRUHRV?oc=5",
@@ -1151,14 +1159,6 @@
     "src": "AOL.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave Stock Falls 35 Percent Amid Debt Costs and Meta Threat - sekbernews.id",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE13OWxOOHdFWkpEWVpNZnJUVmVaWl96X3RoSThVbzQtQ2piR2J0UWd0aTRDSkNmSlZ5M3QxRVctZjRQTDY4UzZ5UEdDOUtybFI4ZHFMTm95bExxaFRTaXlGbGFXRjZqNDZ6Z1JzdEt0TQ?oc=5",
-    "pub": "Mon, 20 Jul 2026 14:15:06 GMT",
-    "src": "sekbernews.id",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1196,7 +1196,7 @@
    },
    {
     "title": "AI spending is exploding but cash generation is about to turn negative - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOa0pIZGpxRTFxZ2tZaTk0MGx3cjBiNjUzTWduTWdpT2UyTjdZdG5KVzhJaV9pVjkxV0Zhd1JNd1hxNnhsUEUtOGpEbEVJRzFmTjNGeWVEOE5iX2NlNTZZRENyeVgxeXIzVXplSENEMWVoSkdVMFlndmVDdHctN0Q0elFqd255MFVMYmNGN2ViMjE4T256eWdSLVpxVjdpS21vbnpGeDhvd3VtSnJNWmtvb1BaYW5YRFFkbXpqdDRUVlUwRUlXTVhETnVpSmZLLUhj0gHWAUFVX3lxTE03dFN1d1J0YTZwbGVCMTRjY0RaZTM5bVdvbXRBd01xUUpQSnU2Qkw4YWZZdmxCOHJuTWt4UmF1Skc0ZnZUSVJMelUtdlJFVXhRQXB5OTlJblBHLXJDYkhhUzlmb0hlbEt1cHRuNi1iN0UwenBtbUNLTVpZdHR0UU1zUExnM2lYeFF6UUdrUWRPOERKWU5PbS1TdUxhaWZRT0dKcnc3RmVOY3hYQU1IdkxiWmJ1QTlDZDQtcmhTTWpUOEFJcjBYMVAzX2RUX1RmODlwaWhwX2c?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNN3RTdXdSdGE2cGxlQjE0Y2NEWmUzOW1Xb210QXdNcVFKUEp1NkJMOGFmWXZsQjhybk1reFJhdUpHNGZ2VElSTHpVLXZSRVV4UUFweTk5SW5QRy1yQ2JIYVM5Zm9IZWxLdXB0bjYtYjdFMHpwbW1DS01aWXR0dFFNc1BMZzNpWHhRelFHa1FkTzhESllOT20tU3VMYWlmUU9HSnJ3N0ZlTmN4WEFNSHZMYlpidUE5Q2Q0LXJoU01qVDhBSXIwWDFQM19kVF9UZjg5cGlocF9n0gHWAUFVX3lxTE03dFN1d1J0YTZwbGVCMTRjY0RaZTM5bVdvbXRBd01xUUpQSnU2Qkw4YWZZdmxCOHJuTWt4UmF1Skc0ZnZUSVJMelUtdlJFVXhRQXB5OTlJblBHLXJDYkhhUzlmb0hlbEt1cHRuNi1iN0UwenBtbUNLTVpZdHR0UU1zUExnM2lYeFF6UUdrUWRPOERKWU5PbS1TdUxhaWZRT0dKcnc3RmVOY3hYQU1IdkxiWmJ1QTlDZDQtcmhTTWpUOEFJcjBYMVAzX2RUX1RmODlwaWhwX2c?oc=5",
     "pub": "Tue, 21 Jul 2026 07:14:27 GMT",
     "src": "Moneycontrol.com",
     "trig": false,
@@ -1212,6 +1212,22 @@
    }
   ],
   "macro": [
+   {
+    "title": "Russian army launches fresh strike on Ukraine’s Odesa port: IFX - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPajlNaHQ0REE2NUdabVBqNUZlalp1ZFdwemRqWWo2a3EtNXpJRnAxM09DNE9lWlg0b2RaOGgyenBoLWpRWlZPTGlZSkw3RDU4ZXhxSHNXU0kzVkZzYkYyR1k3TEZ0ZUlOXzV4a2R3QmIxSzQwVGtScnhmQ2hyZEIxb1I1UGVvSk92QklCRWJ2c2tsZUE?oc=5",
+    "pub": "Tue, 21 Jul 2026 09:50:49 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Several US troops killed in strike on military compound in Jordan: IRGC - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNWXJUWVF0TTZMeF90Y0dNaGRWWS10TGtJUjFUck1rSVpZOGlRVklZMzg3WExtcGx3X1ZJYWVoUjhNUmc1T0t5SUhNcXRwdi1TeWlpSHhzbGltRFQ5SHppNVAzai0wa1VTQkZJTC1QWWNpNzVGNVh4R1dKV0xLNEhuZTJjRV80X2JNTmxMX0VLN21ZaTdkbW8wYVRvSmNqQ00?oc=5",
+    "pub": "Tue, 21 Jul 2026 09:46:32 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Global Market: Euro zone banks tighten credit standards amid geopolitical risks, ECB survey shows - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOYVpxbGtzWk9iOHloWmFIbjkweFpBZ3lqZWNrdGpvcjVaSV82QUJ3dFZ1VjV6RndJeVhjR1hSUjFzTzdzT0lLLWNvelBVQWoxZFhyWWppcTNkaTBBeFJKMjZrTG5tbndzYTlpLVJnaTlKSlQ0MlQ3RVZRNUtOcThRSHRpYjV2aGp6R1hWLXJNd2M5T2E2dmRWM2Q2bEV3TThQT0hQZzNhdUg2ZU40NGVuS01GR2Nvdy1lVWtVbkZ5OC1lemEzT1VzeXMyc3NkeE5iTm16ZU42dEhGNHBDYWhjaGI0Z1ZQYnhocV9QX3lYaUplYTNyLVZkTW1YT3lndzFnN3fSAYcCQVVfeXFMUGk1dV9KcVlndTB3VHZKV21kcUk2aUdEdlpjWmxmOWZRZWxBM2Y2Mk9hN1BpVi1aNVNfVEpJZElEWGZPUXk4Si1OUFdDemhuVksxSGJjR0xTV0JQYXdrb0s1U3JCcTNTbGxvOU1TeV9Vc2wtT04zZk5neV9CcFRrTWJpWXdPUGlITDBjQnNEeV9MMndiNEFGSm5GWVMzQW1abGdzMEVmQ1d3QnhWMTZhaFRtSGFNby1yeWpmcHk3WlBpSlhfTGp0eEFLand1TlQ2Wm9iV2RwQ2N1MmJpQ0k1Y0Qwa2FOUWE4eHlKRTloSUIwaG8xWXF0T3JKNjQzajczMnlHU0w5SDg?oc=5",
@@ -1243,25 +1259,17 @@
     "src": "Middle East Eye",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AI Infrastructure Surge May Trigger $769 Billion Funding Gap - Whalesbook",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTXVnSDJweUYxX0Z3QWNza255NFZVVEJJQlRQVXZpSTFlZGZqcW5laUswMmtiZ0pxdW1KNnM5TU9ra3g1ZU9YbWdMa0w1bURtSUZEdDdFTDQtM240WHNNV3l5dkVlZDNtWTZ3RXVNMmhGVWFtcmZEMTlLbW51ZGJUeVFzaEkzY1JVS1c2aG0zd1pQRGlpRFhTWnlxWnBNbzJ6UnpnMXNSbkFiMFZNbFhQMjllYm8xUGlVbWlMaDBmVG1aRVpMZTFtVmUyZmtuNTM0c0g5VDFVaEE?oc=5",
-    "pub": "Tue, 21 Jul 2026 07:20:57 GMT",
-    "src": "Whalesbook",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "IMF says oil prices, weak monsoon pose biggest risks to India's FY27 GDP growth - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdXA1S24xNVNIOVpyN2FjV250Wkx6YjBIQTBzR2pBLVVrZ2Z3SmdZNTNDRWhsUnJaaGFNanVnMHQweERUVndOdE9YN1JoQUtac0xEclMzVC1kYmZjaUxjV1BOcHdISGZRaFBVbEk2Z1c3NHVHWGpkakZYNjUxQjREdkx2eVNodG5FZGM2VFd1M3hmaVpvVE5KUndiNUNERDR4Y0I2dDRGTndlZHlfeXNaaFlMX0ZpTnF1ZTZZenJJVQ?oc=5",
-    "pub": "Tue, 21 Jul 2026 06:56:00 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold price rebounds as US-Iran conflict revives safe-haven demand - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPajVmZHE5WXhyN3dSVmhING5yTjdseTUzc2NNbW0yTHdLenpfOGxFSXFtSUxqRzBCY2Y4VWc1bTRwMHctR3d5dF9Fc3BjbG5nQ2lLcVUtNWhVd3hGcHVaSTlFRXlXNzF3aEVIblAwRWRvbkgxbGhHZ2hBZ3JIQkJGVkdRMENlNFBsUHpkYXVEQ1M4Z2hreXFiUjZNQU9pNEVQMmNpQ2ZORURQRmxJWFFERF9R?oc=5",
+    "pub": "Tue, 21 Jul 2026 09:57:00 GMT",
+    "src": "FXStreet",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Central Banks Hoard Gold at Record Pace as Oil Spikes and Fed Hawkishness Cap Safe-Haven Gains - Ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNZmY1UkJaWC1vbUJrdHNYU0txclNKUXFGYUstVEJrTEIwWWNpSW5zOEM3V3VxUEYxbUFmdDNSLUtwUjhKemlHck9BUGx4T29SMFBVMzJURXVneTA3RFdJb1JxOXM0UEhUbDZxYWx2SHVtTVZQTVpkb3dUUUg5c2VjQ2tFWGZ1b3A1NXpXU3YyRGg4R3B6dGpZVHdKczQzbUlLcm80Q2JOXzFhTDNzb1d6bHFUc29hRmVLNFVRNDFCWjRhY3JJTS1ZZnZlSjU?oc=5",
@@ -1299,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZko2S1VtMnpub3hSc2xHQkJhbjc2czMtWVE0TG52dDk2WDN6OExXOEQxcUJ0dW9Lem9DX3A0TU5GUmxKSFQxNzdaUGlJWVlTUUNPa2ZxU1A2QV9uVnh3X0h0RWdtVjZ0cE1DSXQzMUV6TUZnbE1sdWhXVGN0TnR5ODFScXNkRUEzZmgyWi04R0MxU1pBRlJ5WExYUm1ZZl9RYVhkVkx0TjQ1OGZlOHJoT0Z2YWpYVW1BbTlFWEp4SXAxVnRxOVp1WElJdUs3RUkxenNJems1WWNlUdIB3wFBVV95cUxPSll0Wi1KdGlMUU9YNXR1WGlPTGFGTlgydXpfT2tVWTNDYUtycC0xT1JzejlhR0lZUHE4NFBTUFExYkRZbVZNR19GMVdTR2R4V2hySU5NMTdDYjk4QmNELVo2NVlqYmQ4dGw3b3ZWT1Q4SkVOSzNuMjN4YUR4TnFOOVJGTE1RdUhKaktOTExHLXhEZ3Y2OWZ4YThrajBkWXc5N2VoNVhKYWxZMldfZHpZN0tOTjJwdUs0Y3dQTXpIaUxtcTAyWXlWT2dtaTFNNU1rbE9kY00wTE9zMnVEUVlz?oc=5",
     "pub": "Tue, 21 Jul 2026 06:49:44 GMT",
     "src": "Zee News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold, silver prices jump as safe-haven demand rises amid Middle East tensions - thehawk.in",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOUTljdklLR25LaEJRcmZGWmxiM0pxVVdPZUFhRlVPdDB3bm96MHpIR1lLbHJJMklHQ0kxd0k4Vk9pWlB5NHdnRnlPaFJ4eGZLbWlBbm9IZWhFdmdTNGFKZ2QyTVV3NXFqWE9MRzRaZDc4QVZNT0p1OXBNODlHV21XLXlkbHVsQmI3b2gxZTk5N0NEcTdnLXJ1WWVzWld6OVI5RnI3Ylp4S0JJa0lxSDlkQ0VRVVBtV1lONUhxaXJTY05IeUE?oc=5",
-    "pub": "Tue, 21 Jul 2026 06:34:25 GMT",
-    "src": "thehawk.in",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1463,7 @@
    19.49,
    16.45,
    16.9,
-   17.56
+   17.51
   ],
   "tnx": [
    4.25,
@@ -1493,7 +1493,7 @@
    101.41,
    101.19,
    101.05,
-   100.92
+   100.91
   ],
   "bizd": [
    12.88,
@@ -1538,7 +1538,7 @@
    161.57,
    161.92,
    162.09,
-   162.66
+   162.65
   ],
   "uso": [
    128.25,
@@ -1598,7 +1598,7 @@
    62668.02,
    58558.86,
    63297.39,
-   66268.01
+   66252.34
   ],
   "vixts": [
    0.907,
@@ -1613,7 +1613,7 @@
    0.986,
    0.817,
    0.9,
-   0.855
+   0.852
   ],
   "hyoas": [
    2.86,
@@ -1675,7 +1675,21 @@
    7.95,
    8.12
   ],
-  "rsp_spy": null,
+  "rsp_spy": [
+   0.2877,
+   0.2822,
+   0.2808,
+   0.2759,
+   0.2746,
+   0.2771,
+   0.2758,
+   0.2809,
+   0.282,
+   0.2816,
+   0.2875,
+   0.2872,
+   0.2862
+  ],
   "xlf_spy": [
    0.0743,
    0.0724,
@@ -1738,10 +1752,8 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 19,
-   "missing": [
-    "차트:rsp_spy"
-   ]
+   "ok": 20,
+   "missing": []
   }
  },
  "history": [
@@ -2211,10 +2223,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-19T10",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-19T11",
     "v": 2.73
    },
@@ -2401,6 +2409,10 @@
    {
     "d": "2026-07-21T09",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-21T10",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2435,16 +2447,16 @@
  "feed": {
   "fail": 1,
   "failed": [
-   "BTC-USD"
+   "URA"
   ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 20,
-  "n": 35
+  "pct50": 21,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-21T09:51:44+00:00",
+  "checked": "2026-07-21T10:02:29+00:00",
   "openai": {
    "found": false
   },

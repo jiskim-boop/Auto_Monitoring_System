@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21T10:32:23+00:00",
+ "updated": "2026-07-21T10:42:01+00:00",
  "prices": {
   "NVDA": {
    "price": 203.28,
@@ -210,8 +210,20 @@
    "ok": true
   },
   "ALAB": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 309.09,
+   "chg": 1.8,
+   "chg5": -14.63,
+   "sma20": 392.44,
+   "sma50": 340.8,
+   "sma200": 225.53,
+   "high3m": 483.02,
+   "reg": 309.09,
+   "pre": null,
+   "post": null,
+   "regClose": 309.09,
+   "sess": "reg",
+   "mt": 1784577601,
+   "ok": true
   },
   "CRDO": {
    "price": 212.07,
@@ -406,20 +418,8 @@
    "ok": true
   },
   "CPER": {
-   "price": 38.42,
-   "chg": 1.32,
-   "chg5": 1.27,
-   "sma20": 37.69,
-   "sma50": 38.46,
-   "sma200": 36.87,
-   "high3m": 40.6,
-   "reg": 38.42,
-   "pre": null,
-   "post": null,
-   "regClose": 38.42,
-   "sess": "reg",
-   "mt": 1784577600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "CCJ": {
    "price": 84.85,
@@ -710,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 17.57,
-   "chg": -5.79,
-   "chg5": 6.48,
+   "price": 17.59,
+   "chg": -5.68,
+   "chg5": 6.61,
    "sma20": 17.14,
    "sma50": 17.36,
    "sma200": 19.44,
    "high3m": 22.22,
-   "reg": 17.57,
+   "reg": 17.59,
    "pre": null,
    "post": null,
-   "regClose": 17.57,
+   "regClose": 17.59,
    "sess": "reg",
-   "mt": 1784628991,
+   "mt": 1784629576,
    "ok": true
   },
   "^VIX3M": {
@@ -790,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.91,
-   "chg": -0.08,
-   "chg5": -0.03,
+   "price": 100.89,
+   "chg": -0.1,
+   "chg5": -0.05,
    "sma20": 101.07,
    "sma50": 100.05,
    "sma200": 99.08,
    "high3m": 101.61,
-   "reg": 100.91,
+   "reg": 100.89,
    "pre": null,
    "post": null,
-   "regClose": 100.91,
+   "regClose": 100.89,
    "sess": "reg",
-   "mt": 1784629306,
+   "mt": 1784629883,
    "ok": true
   },
   "^IRX": {
@@ -838,20 +838,8 @@
    "ok": true
   },
   "SPY": {
-   "price": 742.09,
-   "chg": -0.16,
-   "chg5": -0.95,
-   "sma20": 744.79,
-   "sma50": 744.55,
-   "sma200": 708.72,
-   "high3m": 759.57,
-   "reg": 742.09,
-   "pre": null,
-   "post": null,
-   "regClose": 742.09,
-   "sess": "reg",
-   "mt": 1784577600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "QQQ": {
    "price": 696.06,
@@ -934,19 +922,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66357.19,
-   "chg": 1.73,
-   "chg5": 4.03,
-   "sma20": 63788.36,
-   "sma50": 63089.72,
-   "sma200": 70846.31,
+   "price": 66302.85,
+   "chg": 1.64,
+   "chg5": 3.94,
+   "sma20": 63785.64,
+   "sma50": 63088.63,
+   "sma200": 70846.01,
    "high3m": 77539.17,
-   "reg": 66357.19,
+   "reg": 66302.85,
    "pre": null,
    "post": null,
-   "regClose": 66357.19,
+   "regClose": 66302.85,
    "sess": "reg",
-   "mt": 1784629912,
+   "mt": 1784630488,
    "ok": true
   },
   "USO": {
@@ -966,105 +954,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 162.65,
-   "chg": 0.08,
-   "chg5": 0.14,
+   "price": 162.68,
+   "chg": 0.1,
+   "chg5": 0.15,
    "sma20": 162.12,
    "sma50": 160.66,
    "sma200": 158.66,
-   "high3m": 162.65,
-   "reg": 162.65,
+   "high3m": 162.68,
+   "reg": 162.68,
    "pre": null,
    "post": null,
-   "regClose": 162.65,
+   "regClose": 162.68,
    "sess": "reg",
-   "mt": 1784629917,
+   "mt": 1784630492,
    "ok": true
   },
   "ES=F": {
-   "price": 7525.0,
+   "price": 7524.5,
    "chg": 0.54,
-   "chg5": -0.87,
-   "sma20": 7527.26,
-   "sma50": 7500.08,
+   "chg5": -0.88,
+   "sma20": 7527.24,
+   "sma50": 7500.07,
    "sma200": 7138.75,
    "high3m": 7623.75,
-   "reg": 7525.0,
+   "reg": 7524.5,
    "pre": null,
    "post": null,
-   "regClose": 7525.0,
+   "regClose": 7524.5,
    "sess": "24h",
-   "mt": 1784629316,
+   "mt": 1784629891,
    "ok": true
   },
   "NQ=F": {
-   "price": 29176.75,
+   "price": 29174.75,
    "chg": 1.38,
-   "chg5": -2.06,
-   "sma20": 29609.19,
-   "sma50": 29691.94,
-   "sma200": 27163.34,
+   "chg5": -2.07,
+   "sma20": 29609.09,
+   "sma50": 29691.9,
+   "sma200": 27163.33,
    "high3m": 30712.75,
-   "reg": 29176.75,
+   "reg": 29174.75,
    "pre": null,
    "post": null,
-   "regClose": 29176.75,
+   "regClose": 29174.75,
    "sess": "24h",
-   "mt": 1784629317,
+   "mt": 1784629888,
    "ok": true
   },
   "YM=F": {
-   "price": 52247.0,
-   "chg": 0.33,
-   "chg5": -1.03,
-   "sma20": 52639.9,
-   "sma50": 51487.14,
-   "sma200": 49706.3,
+   "price": 52295.0,
+   "chg": 0.43,
+   "chg5": -0.94,
+   "sma20": 52642.3,
+   "sma50": 51488.1,
+   "sma200": 49706.69,
    "high3m": 53372.0,
-   "reg": 52247.0,
+   "reg": 52295.0,
    "pre": null,
    "post": null,
-   "regClose": 52247.0,
+   "regClose": 52295.0,
    "sess": "24h",
-   "mt": 1784629314,
+   "mt": 1784629889,
    "ok": true
   },
   "GC=F": {
-   "price": 4072.3,
-   "chg": 1.55,
-   "chg5": 0.28,
-   "sma20": 4062.23,
-   "sma50": 4291.97,
-   "sma200": 4632.8,
+   "price": 4072.7,
+   "chg": 1.56,
+   "chg5": 0.29,
+   "sma20": 4062.25,
+   "sma50": 4291.98,
+   "sma200": 4632.81,
    "high3m": 4732.5,
-   "reg": 4072.3,
+   "reg": 4072.7,
    "pre": null,
    "post": null,
-   "regClose": 4072.3,
+   "regClose": 4072.7,
    "sess": "24h",
-   "mt": 1784629317,
+   "mt": 1784629871,
    "ok": true
   },
   "CL=F": {
-   "price": 82.92,
-   "chg": -0.37,
-   "chg5": 4.51,
+   "price": 82.82,
+   "chg": -0.49,
+   "chg5": 4.39,
    "sma20": 74.14,
-   "sma50": 84.91,
+   "sma50": 84.9,
    "sma200": 84.25,
    "high3m": 108.66,
-   "reg": 82.92,
+   "reg": 82.82,
    "pre": null,
    "post": null,
-   "regClose": 82.92,
+   "regClose": 82.82,
    "sess": "24h",
-   "mt": 1784629320,
+   "mt": 1784629887,
    "ok": true
   },
   "HG=F": {
    "price": 6.53,
-   "chg": 3.62,
-   "chg5": 3.11,
+   "chg": 3.64,
+   "chg5": 3.13,
    "sma20": 6.19,
    "sma50": 6.31,
    "sma200": 6.02,
@@ -1074,23 +1062,23 @@
    "post": null,
    "regClose": 6.53,
    "sess": "24h",
-   "mt": 1784629321,
+   "mt": 1784629879,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.95,
-   "chg": 0.09,
-   "chg5": 0.03,
+   "price": 108.94,
+   "chg": 0.07,
+   "chg5": 0.01,
    "sma20": 109.42,
    "sma50": 109.6,
    "sma200": 110.86,
    "high3m": 111.3,
-   "reg": 108.95,
+   "reg": 108.94,
    "pre": null,
    "post": null,
-   "regClose": 108.95,
+   "regClose": 108.94,
    "sess": "24h",
-   "mt": 1784629279,
+   "mt": 1784629886,
    "ok": true
   },
   "EWY": {
@@ -1303,10 +1291,10 @@
     "geo": false
    },
    {
-    "title": "Antofagasta stock trades near yearly high as copper-driven earnings grow - Ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWGFZdkZYVm1IdG9QTDNSMi03MlNSR1JzaDQ1R0JBS2tScHI0T3JXR25fcW16LTE4cGJWaVlQYzR1SGZxRzU3Rnd6Q00xUXZvSzFPOEd6dm1xS2dFQTlrd1U5M0VZU2NIakFwU1ZUQzFNSjVka0NHSGhBd3N4dGNMeHg3Rzkya2FVYURaN1YwN3d4aVdqbTRSMjBSNlplVmk1S0dDZk9DLUdXQWpyQVRkWV9BcThxODRZYjZSYXJiNmFvQlFSSm1Yd29IOA?oc=5",
-    "pub": "Tue, 21 Jul 2026 07:11:19 GMT",
-    "src": "Ad-hoc-news.de",
+    "title": "Gold prices rise nearly 2% to $4,080/oz amid Treasury yield surge - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRWdnQ00wT1NkeElOcUl3ZG9rd3NtcDdPbTEzUG1vbktaeURQS3JtMVQySFR6bFM4cFYxWm9YTFQ4QXd4cXByVjdWLW5tWEI1aGU3Mlk5Unc5VnplczlxZWtMYmQydDMtX3NTYlFZS0JMVllfVjFjbjJGX1pvLTBBbXRuQURiRHdTem9KUEo2VEYwMms?oc=5",
+    "pub": "Tue, 21 Jul 2026 07:01:03 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1451,7 @@
    19.49,
    16.45,
    16.9,
-   17.57
+   17.58
   ],
   "tnx": [
    4.25,
@@ -1493,7 +1481,7 @@
    101.41,
    101.19,
    101.05,
-   100.91
+   100.89
   ],
   "bizd": [
    12.88,
@@ -1538,7 +1526,7 @@
    161.57,
    161.92,
    162.09,
-   162.65
+   162.68
   ],
   "uso": [
    128.25,
@@ -1598,7 +1586,7 @@
    62668.02,
    58558.86,
    63297.39,
-   66355.52
+   66294.23
   ],
   "vixts": [
    0.907,
@@ -1613,7 +1601,7 @@
    0.986,
    0.817,
    0.9,
-   0.855
+   0.856
   ],
   "hyoas": [
    2.86,
@@ -1717,21 +1705,20 @@
   ]
  },
  "summary": {
-  "text": "이란 분쟁으로 유가 변동성이 높아지는 가운데 미10년물 4.57%에서 신용스프레드 2.71%로 안정적이며, VIX 18과 강달러(DXY 100.9)는 리스크오프 심화 신호로 작용 중입니다. AI 데이터센터 수요 확대로 GPU/HBM 부족 현상이 지속되고 있으며, CoreWeave 등 인프라 업체 자금조달과 Anthropic IPO 기대감이 AI capex 사이클을 지탱하는 상황입니다.",
+  "text": "중동 지정학 긴장과 우크라이나 사태가 유가와 신용 스프레드 확대 압력을 높이는 가운데, 낮은 VIX(18)와 강한 달러(DXY 100.9)는 시장이 아직 위험 자산 매도로 본격 이동하지 않고 있음을 시사한다. AI 인프라 capex 우려가 부상하면서 GPU 가격 인상(TSMC 2027년 최대 10% 인상 예상)과 대형 AI 기업의 수직 통합 움직임이 활발하나, 수급 쇠퇴 신호는 미미하다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
    "tnx": 4.6000000000000005,
    "dxy": 101.0,
-   "spy": 0.0,
+   "spy": null,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -1742,7 +1729,6 @@
    "지수 추세 약세",
    "AI 밸류체인 약세",
    "CCC-BB 확대(품질분산)",
-   "폭 축소(쏠림 랠리)",
    "조정 지속(고점 -6.7%)"
   ],
   "early": [
@@ -1752,8 +1738,10 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "SPY"
+   ]
   }
  },
  "history": [
@@ -2134,7 +2122,6 @@
     "지수 추세 약세",
     "AI 밸류체인 약세",
     "CCC-BB 확대(품질분산)",
-    "폭 축소(쏠림 랠리)",
     "조정 지속(고점 -6.7%)"
    ]
   }
@@ -2445,18 +2432,21 @@
   17
  ],
  "feed": {
-  "fail": 1,
+  "fail": 2,
   "failed": [
-   "ALAB"
+   "CPER",
+   "SPY"
   ],
-  "core_dead": []
+  "core_dead": [
+   "SPY"
+  ]
  },
  "breadth": {
   "pct50": 21,
   "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-07-21T10:32:11+00:00",
+  "checked": "2026-07-21T10:41:47+00:00",
   "openai": {
    "found": false
   },

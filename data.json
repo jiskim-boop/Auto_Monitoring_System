@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-21T21:52:11+00:00",
+ "updated": "2026-07-21T22:02:57+00:00",
  "prices": {
   "NVDA": {
    "price": 207.29,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.18,
    "sess": "reg",
-   "mt": 1784670092,
+   "mt": 1784670721,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66344.88,
-   "chg": 1.71,
-   "chg5": 4.01,
-   "sma20": 63787.74,
-   "sma50": 63089.47,
-   "sma200": 70846.24,
+   "price": 66300.3,
+   "chg": 1.64,
+   "chg5": 3.94,
+   "sma20": 63785.51,
+   "sma50": 63088.58,
+   "sma200": 70845.99,
    "high3m": 77539.17,
-   "reg": 66344.88,
+   "reg": 66300.3,
    "pre": null,
    "post": null,
-   "regClose": 66344.88,
+   "regClose": 66300.3,
    "sess": "reg",
-   "mt": 1784670697,
+   "mt": 1784671328,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.14,
-   "chg": 0.4,
-   "chg5": 0.59,
+   "price": 163.17,
+   "chg": 0.42,
+   "chg5": 0.6,
    "sma20": 162.19,
    "sma50": 160.76,
    "sma200": 158.7,
-   "high3m": 163.14,
-   "reg": 163.14,
+   "high3m": 163.17,
+   "reg": 163.17,
    "pre": null,
    "post": null,
-   "regClose": 163.14,
+   "regClose": 163.17,
    "sess": "reg",
-   "mt": 1784670700,
+   "mt": 1784671331,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "HBM4 and Fab Limits Prevent 1,000 Vera Rubin Racks Per Day in 2026 or 2027 - NextBigFuture.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQaXRudUxZcGdTRXAwTWdHUGtleHFzVVdMdnEtbXUxbnNSckZrRHdNUHFMcGVDallMZzdVRFluVWhuVEo2VEJFSkZ5Q3kyZWFVd050ZFFtb2V1NEVBejl3OHRQZTdmNkZHYXhfcUpyNGF4V1VWbmFWOER4NnJoSmJKTXJfeTRXdlBpZWU5cHBPUDVKdzJ3WVJaVUVJekh5SWhyeml4b0tNMmRCcTE2T1BaTml5YVdxRlk?oc=5",
+    "pub": "Tue, 21 Jul 2026 21:41:44 GMT",
+    "src": "NextBigFuture.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "2 ETFs to Access the World's Best-Performing Stock Markets In 2026 - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNLVd2dWpROWM4QXhuZkV1RVpXY2ZpaG9RX25Ta3FNMEk5TjZERnhnLUtjczRMOVlWY2h2QXdaUDVuYjRUd3YxUVNXNXdmQS0tSktwRWUyS0JMLVFNR1BfS09TOFlBMy1CSE1LanI2OTVpWF93eU5nMlI1OXdWb25RVDhmU0R2WlVKcnExZVZYWkNia2lkOWpRRnVOU2NRMlhLVEtIVA?oc=5",
     "pub": "Tue, 21 Jul 2026 21:09:11 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Tue, 21 Jul 2026 20:07:29 GMT",
     "src": "Bloomberg.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic sued for infringing neural network technology patents - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQTnlDeHFoNDBpUEtsN3NlR2h3OHY0cHhqUXo5bWRIdmtJT0JyajQwalEwX2I3MnpxUGdMZnJkOVFydy1BSHpzdm5hYmRqbG0wd0pLZXJDVl9sbE5FT0lhTHpSRGtSbDBmR3lhVU9mZDZtMFQzM1czRGt1S0VKMVhlMU8wQ2JOQlNMUUgwbUt1bU5LZzFUMzhWYTBLUGlZQ0F6d1ByNXJtNDUyWmZnTUxvUUw2cGR4U1BXM05B?oc=5",
-    "pub": "Tue, 21 Jul 2026 20:06:26 GMT",
-    "src": "Reuters",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    161.6,
    162.63,
    162.36,
-   163.14
+   163.18
   ],
   "uso": [
    129.4,
@@ -1610,7 +1610,7 @@
    62668.02,
    58558.86,
    63297.39,
-   66340.66
+   66320.29
   ],
   "vixts": [
    0.918,
@@ -2233,10 +2233,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-19T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-19T23",
     "v": 2.73
    },
@@ -2423,6 +2419,10 @@
    {
     "d": "2026-07-21T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-21T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2464,7 +2464,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-21T21:51:57+00:00",
+  "checked": "2026-07-21T22:02:40+00:00",
   "openai": {
    "found": false
   },

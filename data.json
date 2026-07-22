@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22T21:21:57+00:00",
+ "updated": "2026-07-22T21:32:37+00:00",
  "prices": {
   "NVDA": {
    "price": 212.06,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 260500.0,
-   "chg": 6.76,
-   "chg5": 2.36,
-   "sma20": 296250.0,
-   "sma50": 305670.0,
-   "sma200": 239690.42,
+   "chg": 0.58,
+   "chg5": -0.95,
+   "sma20": 293775.0,
+   "sma50": 305510.0,
+   "sma200": 239862.4,
    "high3m": 362500.0,
    "reg": 260500.0,
    "pre": null,
    "post": null,
-   "regClose": 259000.0,
+   "regClose": 260500.0,
    "sess": "reg",
    "mt": 1784701814,
    "ok": true
   },
   "000660.KS": {
    "price": 1830000.0,
-   "chg": 3.74,
-   "chg5": -0.81,
-   "sma20": 2274200.0,
-   "sma50": 2197060.0,
-   "sma200": 1498900.0,
+   "chg": -0.33,
+   "chg5": -4.34,
+   "sma20": 2237950.0,
+   "sma50": 2199940.0,
+   "sma200": 1501636.36,
    "high3m": 2919000.0,
    "reg": 1830000.0,
    "pre": null,
    "post": null,
-   "regClose": 1836000.0,
+   "regClose": 1830000.0,
    "sess": "reg",
    "mt": 1784701805,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.12,
-   "chg": -0.06,
-   "chg5": 0.62,
+   "price": 101.13,
+   "chg": -0.05,
+   "chg5": 0.63,
    "sma20": 101.07,
    "sma50": 100.12,
    "sma200": 99.1,
    "high3m": 101.61,
-   "reg": 101.12,
+   "reg": 101.13,
    "pre": null,
    "post": null,
-   "regClose": 101.12,
+   "regClose": 101.13,
    "sess": "reg",
-   "mt": 1784754681,
+   "mt": 1784755311,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65912.61,
-   "chg": -0.89,
-   "chg5": 3.15,
-   "sma20": 64017.12,
-   "sma50": 63076.86,
-   "sma200": 70718.19,
+   "price": 65883.84,
+   "chg": -0.93,
+   "chg5": 3.11,
+   "sma20": 64015.68,
+   "sma50": 63076.28,
+   "sma200": 70718.04,
    "high3m": 77539.17,
-   "reg": 65912.61,
+   "reg": 65883.84,
    "pre": null,
    "post": null,
-   "regClose": 65912.61,
+   "regClose": 65883.84,
    "sess": "reg",
-   "mt": 1784755285,
+   "mt": 1784755918,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.09,
-   "chg": -0.06,
-   "chg5": 0.63,
+   "price": 163.07,
+   "chg": -0.07,
+   "chg5": 0.62,
    "sma20": 162.26,
    "sma50": 160.87,
    "sma200": 158.73,
    "high3m": 163.19,
-   "reg": 163.09,
+   "reg": 163.07,
    "pre": null,
    "post": null,
-   "regClose": 163.09,
+   "regClose": 163.07,
    "sess": "reg",
-   "mt": 1784755286,
+   "mt": 1784755922,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "OPENAI-LAWSUIT/DISCRIMINATION - San Mateo Daily Journal",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdk9tQTY4ald3enhidFhDOFNHd0drNUN5RXpMb2FRdkw3WGFrdUY4WDRubWhQSExRRHl3VHI4RjNqMXBNcGhBbjNsZEFmR3I3Q3NPd0VsRi1Ia2JiV3hQd2lWelhucE13MXhFZlI0c3BENG15cExyWDVjbDQtamJVWGJQN1FvNGtvdFVYYVdad2ZCdm1uRnVnZGFHbFVsRXhhRTJlbWRGOENranY1?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:23:55 GMT",
+    "src": "San Mateo Daily Journal",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Big Tech Earnings Preview: Is AI Monetization Finally Catching Up To CapEx? - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWHNZSzNjUkhUeUk2SjdINDRGTmh0ZmxHNDlxYVB3MERRV1Y1X3hJaEkweXYtNVFmMEQ0SmV5cWVuM0FBRHZrVnpOQzJfWjROdnBjR3hBd3hvTmxIclJVZy1veGhkLVhlVUVoZFdCOENjQkJ3VmRGM2Nod1BQNElCQVcwMGw3Ny1ZUG9hdUZUVmNYZ3V0SnIxYVBoTlloNjNsOENNOXF1QVdkRVE5WnE4b1JFdGc?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:04:37 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "This $222 Billion Vanguard ETF Is Trailing the S&P 500. That Almost Never Happens. - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPSm11b1UtTEFoZU5HQWZxWkltenNxcHNzQXM4YXpkX0dkYTVldXpiS2l0bDhiQzRncVp0ZlJ1dWc0TmMwUUZDd2NDRXIzLVZRVS1Rb1J2Yl9sbFF2U2dfUWd6aXEyLTZlM3hIal9uS1ZocDV3YVYxOHB5U1BwaVhpTllhYkRVUk1BN2thZjVVWUhLTDc2RUo1Rm9aYkF0OFhLcFdUZ1lYa2pRTmVyeWFQXzdNaGZzdHRKbmtlQWpNLTZPaG4z?oc=5",
     "pub": "Wed, 22 Jul 2026 21:02:59 GMT",
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxObi1LejBRcE1MSjdIMnBIX0dTejFmUmlfWDZyb1FtVy1jRXhaRnVidW91TnBpbjUxYkhUWG1od1NPVjZ3WGo4dXZmei1VMFVHSmtaZ2w3OUl4MjhpRGpjNzBMQTlEVnBCY2Rpckc4TE1EMngzQWdrejlEOUdldVBzbVVVa210V2lM?oc=5",
     "pub": "Wed, 22 Jul 2026 20:34:46 GMT",
     "src": "Brownstone Research",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic partnership is driving uptick in Google could revenue, says DA Davidson's Gil Luria - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUEI0dnZQb0NHejdFWUlkM2Q0RGxOcTZCaTFlQWFpN205bGRmRzBVYVc0cGRoWDJIYlpkMHFiN1doMnJYak9TbkhUaFQzaENndXFFU0tSZEFuRjNCWWVaTFZSMHdkVm9PeGg1U3dWUGxMeFBBUmhTUWZZNWJMVl9LSnBXVWJITFlJUTlES2pySVkwNlNaSHRnUnFXcnBvRXI4WGxFejBmMzU0NDA4bUxwVExLdnZHcTBISEp5ZVBkOWl5THhMS1RGZlBuX25KYUU?oc=5",
-    "pub": "Wed, 22 Jul 2026 20:17:56 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why are OpenAI and Anthropic cheering on regulation in Australia? The answer has global reach - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZEFoRGs4RmIyb2U0c3ktNlBRdHJEcEVDQU4wTnpLOFQwcUJ0R0R1UmpJcDFzR3hpSjNfTFlCNk5aMVA5dlRPMGtDRTV2bk5TOHlJRVdWTlFTUWE1SHcwSTc5c3R3UHZGRTZsZVBTZ1RQbWRmRk5pcWdyTzJOOS14YnJlOTh0OUI4TlkyQ1l2OVo3NFRDeVE?oc=5",
-    "pub": "Wed, 22 Jul 2026 20:17:00 GMT",
-    "src": "The Guardian",
     "trig": false,
     "geo": false
    }
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Interest Rate Predictions for the Next 5 Years: 2026-2030 - Norada Real Estate Investments",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcGJ3UzF5bUljX002ZWZXcm5HdVVhUDBZMEpoQkpuT2dQTFRtemQ1Y0kzQ1dxQmNDSTVRSjRrYnVQekR6Wko3emowOE9yc0pGTm1YdDYycTl2M2FpeTNXUExvanpDZExaZXNLckZKRWtHdXJ4VVhZQ21xYS14ZWhSMjRaMjk3b1VyN1djeFY3OUE?oc=5",
-    "pub": "Wed, 22 Jul 2026 17:01:59 GMT",
-    "src": "Norada Real Estate Investments",
+    "title": "Light-volume rally prompts scrutiny before earnings - msn.com",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQdmxEVmxOejFTUlh2dGoxSThRVWd0bndfYi1rQ2ZsT3NiQ3lXN0lhWlUyYVhPdXJPQ0FiWHRnamhVcnNBb3h5clpxZUZGUGczZHNxeFEtRFFIaHJRT2N0ZTdFQkF3RGZUSEdtVkZqY3o2SDdodS1xUkNFckh4WVVWRmVRSi1rcm9FQmZwTG1ENnJiNzJycmdRdFI5VWZ0Y2xlQTBfVlVMTU5IYlkta19oVkc2c1IwdUJad3hGaTQ4M2FsaHhlVmV4M3lPTlZyS3dMVkpMT1BxUkc?oc=5",
+    "pub": "Wed, 22 Jul 2026 18:45:50 GMT",
+    "src": "msn.com",
     "trig": false,
     "geo": false
    }
@@ -1307,24 +1307,32 @@
     "geo": false
    },
    {
-    "title": "Crude Oil Prices Jump, Stocks Still Holding Up For Now - FOREX.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLXNwLUROWmRlaUQzMHh6anBRcXZvRWh0cE80RUFNdTFHMXloa09mUGpDM1JRWHo3OWhCV3VNNUxyNlUwN1ByUkEzV00tNllVdDJheHI4dGVoQVRFTjRsLThCd3BTZlN3dGEwdlZsV0VyZGM5eDh6NXc4OUx1RjlseW5IWlZRSDR1UExmQVFURGRvVEhmYjlmenFXMVl3WkhUQV91NVk2aDZYeVFIYkHSAa4BQVVfeXFMUC1zcC1ETlpkZWlEMzB4empwUXF2b0VodHBPNEVBTXUxRzF5aGtPZlBqQzNSUVh6NzloQld1TTVMcjZVMDdQclJBM1dNLTZZVXQyYXhyOHRlaEFURU40bC04QndwU2ZTd3RhMHZWbFdFcmRjOXg4ejV3ODlMdUY5bHluSFpWUUg0dVBMZkFRVERkb1RIZmI5ZnpxVzFZd1pIVEFfdTVZNmg2WHlRSGJB?oc=5",
-    "pub": "Wed, 22 Jul 2026 18:47:44 GMT",
-    "src": "FOREX.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Wed, 22 Jul 2026 17:49:49 GMT",
     "src": "LiteFinance",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Gold Extends Rally As Middle East Tensions Intensify: XAU/USD Price Forecast - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMmlfd3NXbHhmYzJObE50SktvcG9LSkthdXE5dU02SzhSM1BkcHRCVi12bXY4eTJWQVpVc1diSzEzV0R5M0plWFlId1F0QnVoNXNuXzlPQm4wTEVITzh5M21EZW5ldVI3aWNyQ09Fa1NSRFBqVnVMRGdpcXROdUlXdjB3?oc=5",
+    "pub": "Wed, 22 Jul 2026 17:40:11 GMT",
+    "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
    }
   ]
  },
  "edgar": [
+  {
+   "name": "ARCC (Ares Capital)",
+   "form": "8-K",
+   "date": "2026-07-22",
+   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000110465926085912/tm2620889d1_8k.htm",
+   "summary": "아레스캐피탈이 자회사 ADL CLO 1의 약 7억 8백만 달러 규모 채무증권을 재융자했다.",
+   "new": true
+  },
   {
    "name": "FSK (FS KKR)",
    "form": "8-K",
@@ -1349,15 +1357,6 @@
    "date": "2026-07-01",
    "link": "https://www.sec.gov/Archives/edgar/data/1655888/000119312526291625/d152263d8k.htm",
    "summary": "Blue Owl Capital Corp가 2026년 2분기 실적을 8월 5일 발표하고 8월 6일 실적설명회를 개최할 예정이라고 공시했다.",
-   "_cached": true,
-   "new": false
-  },
-  {
-   "name": "ARCC (Ares Capital)",
-   "form": "8-K",
-   "date": "2026-06-22",
-   "link": "https://www.sec.gov/Archives/edgar/data/1287750/000162828026044648/arcc-20260618.htm",
-   "summary": "Ares Capital Corporation이 BNP Paribas와의 차입 협약을 수정하여 신용한도를 2억 달러 증액했다.",
    "_cached": true,
    "new": false
   },
@@ -1505,7 +1504,7 @@
    101.61,
    101.39,
    100.94,
-   101.12
+   101.13
   ],
   "bizd": [
    12.71,
@@ -1550,7 +1549,7 @@
    161.76,
    162.54,
    162.54,
-   163.09
+   163.1
   ],
   "uso": [
    134.72,
@@ -1610,7 +1609,7 @@
    60995.13,
    60003.76,
    62257.57,
-   65912.61
+   65883.85
   ],
   "vixts": [
    0.881,
@@ -2469,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-22T21:21:44+00:00",
+  "checked": "2026-07-22T21:32:19+00:00",
   "openai": {
    "found": false
   },

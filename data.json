@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-22T21:12:16+00:00",
+ "updated": "2026-07-22T21:21:57+00:00",
  "prices": {
   "NVDA": {
    "price": 212.06,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 151.66,
-   "chg": 3.84,
-   "chg5": 4.5,
-   "sma20": 146.33,
-   "sma50": 143.27,
-   "sma200": 143.61,
+   "price": 150.19,
+   "chg": -0.97,
+   "chg5": 1.13,
+   "sma20": 146.68,
+   "sma50": 143.51,
+   "sma200": 143.66,
    "high3m": 154.82,
-   "reg": 151.66,
+   "reg": 150.19,
    "pre": null,
    "post": null,
-   "regClose": 151.66,
+   "regClose": 150.19,
    "sess": "reg",
-   "mt": 1784667618,
+   "mt": 1784754018,
    "ok": true
   },
   "^MOVE": {
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.12,
    "sess": "reg",
-   "mt": 1784754081,
+   "mt": 1784754681,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65899.67,
-   "chg": -0.91,
-   "chg5": 3.13,
-   "sma20": 64016.47,
-   "sma50": 63076.6,
-   "sma200": 70718.12,
+   "price": 65912.61,
+   "chg": -0.89,
+   "chg5": 3.15,
+   "sma20": 64017.12,
+   "sma50": 63076.86,
+   "sma200": 70718.19,
    "high3m": 77539.17,
-   "reg": 65899.67,
+   "reg": 65912.61,
    "pre": null,
    "post": null,
-   "regClose": 65899.67,
+   "regClose": 65912.61,
    "sess": "reg",
-   "mt": 1784754689,
+   "mt": 1784755285,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 163.09,
    "sess": "reg",
-   "mt": 1784754682,
+   "mt": 1784755286,
    "ok": true
   },
   "ES=F": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Wellington, Vanguard, Blackstone ‘Alliance’ Eyes ‘Retirement-Specific’ Products - planadviser",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaTd3TlQ3SHlPaE5YOTVDcXpNakQ4MGp2akhmamZiaVZEVlY4Z2o4RTF1bG16YS1TRFNxYVFFa3RyQV9jU2hTQ2h1MGwzWHI0ZkRlaDFSaURvb0NsUGxzOVJUbmY4Y1RLVmcxeVJfMV9JZmx4WFQ2YUF3OTNCUmRkcTU5OHlFOGdYNVpuaW5HUnhrT3NTWDlBYXQzZk1DaDNoVlVZYg?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:10:55 GMT",
+    "src": "planadviser",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Galaxy Digital Unit Plans $3.51 Billion Debt Offering for CoreWeave AI Data Center - 富途牛牛",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWllTRUFheGRpOWo5QlRkbnVPM3hITk90NDVOQ2dScFJoMzhCMlBvMDFiMWxtVnNTcU9yOURVXzNPcVRJal9HdFlabDlTSWNtZTlSOEUxTXZxNE8tNmZGenBTSVVPMXhDenh0Nm1ZOENwRTM5TjlLYmJQQmZ2c2kwRm9tVkQySHN5Qkd6c1FlZFkzbE1DMWlYQm1YSjRIZw?oc=5",
     "pub": "Wed, 22 Jul 2026 18:21:00 GMT",
@@ -1163,14 +1171,6 @@
     "src": "Alternative Credit Investor",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave (CRWV) Is Chasing 108% Q2 Revenue Growth With A Big Power Ramp - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPNVBpcGVmajM4Q0hzT2lzZFh2VGJ2UHEzajdLckY3OExXcndxWVJhZ1lQa0hQNDJMVkw0WWZRSlU4VjZGc1RnMVVFRktOVTdNcGRpeFFoem40TjJkRHYzeWZNWG11UTdpbmdvaVNYM21GOVZKeWRrX2MxbGFCQ0gzRHpCQjZWcS1LRjBCRWRoTkR1RGxsT0pUbQ?oc=5",
-    "pub": "Wed, 22 Jul 2026 14:14:05 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1207,23 +1207,39 @@
     "geo": false
    },
    {
+    "title": "Anthropic partnership is driving uptick in Google could revenue, says DA Davidson's Gil Luria - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQUEI0dnZQb0NHejdFWUlkM2Q0RGxOcTZCaTFlQWFpN205bGRmRzBVYVc0cGRoWDJIYlpkMHFiN1doMnJYak9TbkhUaFQzaENndXFFU0tSZEFuRjNCWWVaTFZSMHdkVm9PeGg1U3dWUGxMeFBBUmhTUWZZNWJMVl9LSnBXVWJITFlJUTlES2pySVkwNlNaSHRnUnFXcnBvRXI4WGxFejBmMzU0NDA4bUxwVExLdnZHcTBISEp5ZVBkOWl5THhMS1RGZlBuX25KYUU?oc=5",
+    "pub": "Wed, 22 Jul 2026 20:17:56 GMT",
+    "src": "CNBC",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Why are OpenAI and Anthropic cheering on regulation in Australia? The answer has global reach - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZEFoRGs4RmIyb2U0c3ktNlBRdHJEcEVDQU4wTnpLOFQwcUJ0R0R1UmpJcDFzR3hpSjNfTFlCNk5aMVA5dlRPMGtDRTV2bk5TOHlJRVdWTlFTUWE1SHcwSTc5c3R3UHZGRTZsZVBTZ1RQbWRmRk5pcWdyTzJOOS14YnJlOTh0OUI4TlkyQ1l2OVo3NFRDeVE?oc=5",
     "pub": "Wed, 22 Jul 2026 20:17:00 GMT",
     "src": "The Guardian",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Claude Can Now Learn Your Workflows By Watching Your Screen - PCMag",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOXNZMzVWRlZ2S08xVVBwclJrVXl5R2hrNnZRa2V4cm5ubHRzSldHN1FvUENPdFVmazdsX19oWDlCOWJremZmUzVpZEQwR0dEa1J1bnIxTmVHaVBNV1NSWTVETkZxdTY2WEdOZlUyZFNxckVvRHNMMFNwdDI0OVU0ZzB3TmxpMG54OTIybGNQZw?oc=5",
-    "pub": "Wed, 22 Jul 2026 19:05:03 GMT",
-    "src": "PCMag",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Mohamed Fahmy: A new threat to oil markets emerges in the Iran war - National Post",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPX1Zaenh1NWhWeGFHWEFjRU9FNW9NQ1o2NE1IUzRpbzVIVkhlNXlhbm5XS09RaXZlUklzeVdhdE5EcW9wa3JnNEVmWHh5VVJ5V05GZmQ3aTMzQnlKZkpOWjYyOW16ZmdBNWU2VWFWanZJV1U5bEdHUTU1VWM5c3FsTEkzcUNfRFZscWNpQTFNS255WXl4Uzg2TjU5cnlLeTA?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:17:49 GMT",
+    "src": "National Post",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "2-Year Treasury Yield Nears Key Breakout as CDS Spreads Widen - Mott Capital Management",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE0xWFAxVEUxMFFfTjFVQzc5MTlFM0xZY2lTdkJ2R0JVdWIzc2VtNlUyR1hKUWdjVFo1dU5YSzdKUldla3huRURQbFNFUi1Wd0RrZ3FqZTZCOU9TcGVyQmNTWWYyVTdmeFFuZ0hTQU5iY192U3RhRG1R?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:07:28 GMT",
+    "src": "Mott Capital Management",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Global Oil Price Jumps as War Threats Intensify - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBsU21OTy10NFdpd2RodTgyVkkzTXdNNk9qemFFVFpyNTNhd1MtdnpubE9yZHRIR3gwZzEzRkF4RW5TU0t2enMzNWhjTU1FOGdwdWJ4MGg3cGcyMzJtR0JxdnlSYURrYWtBcWJLb3RreERyc2o0cExr?oc=5",
@@ -1255,25 +1271,17 @@
     "src": "Norada Real Estate Investments",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Oil Prices Jump On Mid East War, Stock Markets Diverge - Channels Television",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZnpUc2I3QkVvaDVuLUUtZmJjYkNJN244eXdVTFNZc1RLeXItWG9LcHFRSFJuOTYxQTRPNWJ0RWhGUThrbFBaTUdWUDFOeUQxOTg0YU0zTjQtSXRUeWQwbGhqQlJCbjRITGZxb3hFNUlLR0RuSENFTi1uanhla2ZRYk5QbEUySTJUdkR6OFVHakV1V2Y3ZFE?oc=5",
-    "pub": "Wed, 22 Jul 2026 16:59:12 GMT",
-    "src": "Channels Television",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Middle East war deepens 2026 oil deficit outlook, but 2027 glut still looms - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbXFHT0d2ZkNCTzFkQXh0d0VnamRaZTdINFZ1NTgydFBCdGZwclZ2ejlEMTBuSGpYM2Z5QzlzSlhEZEVZOC1sdTJ2UnZMZC1qYVlqTm1XNHNaZUlLQmZTUEdfM1plQjJDTlRCaVZwRy15YzVudUg0LWExTXAxekI5SjdLcWsxQ0t3RVM4djVScDRqaUpvVXhLcFlfMmZoZlhNVEE5S3JrRmppY1NVemNjTVZGeDMzTmZZN2FjV3lQUQ?oc=5",
-    "pub": "Wed, 22 Jul 2026 16:46:46 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Global oil prices rise to highest level in a month amid Iran war escalation - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQZllRZnM4V3ZrWjZTU1U0dWR6ZkNfRDVyVHF5RGlLMXFIZllabmdYLWJKVlRkWTYyb1ViaUlzUjdHcXFnT0R4OEg4bkNrc2gzeEl5NWtfY0RBTm9ad1I1X00yXzZkSkQ4cFB2VHYxQlI2OFJ6ZGNNRkZEczFEQ2todzkyc2NEbFBTeGIwdHN3Y2hlVzTSAZgBQVVfeXFMTVZtaUJJTEw1a051UlI2M1VaV0JTbEVScXAyQmUyajF0ZkdPYkRLX3RZN001aHVtZ05zb3BYWW1IZWVZTkZnZVhvLTVsRzRQd2c2TXhsSWctR1M0Uk1BVkpucXhUMFRKQzVKeXctazJGZXdrcmRkY2IybDAxc2VwdUxxT3ZFRmJwbTdqdnByUjRUalRzU3FRa3I?oc=5",
+    "pub": "Wed, 22 Jul 2026 21:09:33 GMT",
+    "src": "ABC News - Breaking News, Latest News and Videos",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Stocks Settle Lower as Crude Oil Prices Jump - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTHRrTUVJWG40M2h0X28wNTduSFhISFVfbXRRMGlaT3VjZlFvR2dMVmMtUzFfc0hIVFp6SUl0R0JMQmlkalRYTGVBX3hJOUZmZDlZdU1hR3AwZjVlLWJIdUN2TVNBdExvcTJBUThyQ2Q3RFcwMzhKbjJrVVIwVlFySkRwdHlIWDE2QzZlRFJtSEdCQQ?oc=5",
@@ -1299,26 +1307,18 @@
     "geo": false
    },
    {
+    "title": "Crude Oil Prices Jump, Stocks Still Holding Up For Now - FOREX.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQLXNwLUROWmRlaUQzMHh6anBRcXZvRWh0cE80RUFNdTFHMXloa09mUGpDM1JRWHo3OWhCV3VNNUxyNlUwN1ByUkEzV00tNllVdDJheHI4dGVoQVRFTjRsLThCd3BTZlN3dGEwdlZsV0VyZGM5eDh6NXc4OUx1RjlseW5IWlZRSDR1UExmQVFURGRvVEhmYjlmenFXMVl3WkhUQV91NVk2aDZYeVFIYkHSAa4BQVVfeXFMUC1zcC1ETlpkZWlEMzB4empwUXF2b0VodHBPNEVBTXUxRzF5aGtPZlBqQzNSUVh6NzloQld1TTVMcjZVMDdQclJBM1dNLTZZVXQyYXhyOHRlaEFURU40bC04QndwU2ZTd3RhMHZWbFdFcmRjOXg4ejV3ODlMdUY5bHluSFpWUUg0dVBMZkFRVERkb1RIZmI5ZnpxVzFZd1pIVEFfdTVZNmg2WHlRSGJB?oc=5",
+    "pub": "Wed, 22 Jul 2026 18:47:44 GMT",
+    "src": "FOREX.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Wed, 22 Jul 2026 17:49:49 GMT",
     "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Extends Rally As Middle East Tensions Intensify: XAU/USD Price Forecast - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMmlfd3NXbHhmYzJObE50SktvcG9LSkthdXE5dU02SzhSM1BkcHRCVi12bXY4eTJWQVpVc1diSzEzV0R5M0plWFlId1F0QnVoNXNuXzlPQm4wTEVITzh5M21EZW5ldVI3aWNyQ09Fa1NSRFBqVnVMRGdpcXROdUlXdjB3?oc=5",
-    "pub": "Wed, 22 Jul 2026 17:40:11 GMT",
-    "src": "Bitcoin World",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold, silver prices today: Comex gold tops $4,170; silver extends winning streak as safe-haven demand rises - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQVnBuNlFMRTB5V1dvYnNDOXotbHhQM3VtcEVQLVFnSVBpcldnYU5uUEpISEllVFVoNVZTcWtBQ0dIckdPNm83ZEFtU0tRMnlvNmJPRkg1cUxSZnl5Zms3NWIweFBlOWJ4UzBsMWVUbU1pVGhCM1ExdUcyQjM3eF8yOEtaT3VzU1Z3VVNKNkNYZk5XWERDS1ZPTE12WGJ4WnBJZFFHSTlrYXVEaUxyWGZFVG9xRUdLYnpsNE91ZW5MT2NBaVl0LXo5UjVXeFdkdXV2LXprNUJrVm5VX1VTNFFNUmt1cEZQUkFVSG9HOFFEWkdBYm4yY1AwY3N0WdIBgAJBVV95cUxQSmZHZE41MjNSMnhaVVlwRnpCbkk2UGE5cmZkSE5vVDFVdDNEX3NVTWNfSFJJMjhCSm9ndzE4S2t1SlBBdnl3cmZMRERmaFFjdVRISDh3UzI4SGRZZEE0VlNIcnoyVDNkeW4yaXh4UmZqMzcxeHBoSWI5bC14X0MtbXJoNmE1TXhLc20tcTV6NHZwYUtrZUI1YnVKVjk1OHR1c2RVRlY2TG94V1RKRHd6R2Rfb01ldFdDUkl1bG5paVZMckNjUzYybTdfUEJiZVB3QlhyS0oxb2lyeXRGM0FDbGFsdkdIb2VhU1ZKdzRTdXlRYmZULTc0OG8zWHVaRWNK?oc=5",
-    "pub": "Wed, 22 Jul 2026 17:29:48 GMT",
-    "src": "livemint.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    60995.13,
    60003.76,
    62257.57,
-   65887.66
+   65912.61
   ],
   "vixts": [
    0.881,
@@ -2469,7 +2469,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-22T21:11:50+00:00",
+  "checked": "2026-07-22T21:21:44+00:00",
   "openai": {
    "found": false
   },

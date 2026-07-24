@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-24T22:03:04+00:00",
+ "updated": "2026-07-24T22:12:03+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64068.57,
-   "chg": -1.5,
-   "chg5": -0.96,
-   "sma20": 64200.57,
-   "sma50": 63106.57,
-   "sma200": 70445.31,
+   "price": 64103.37,
+   "chg": -1.45,
+   "chg5": -0.91,
+   "sma20": 64202.31,
+   "sma50": 63107.26,
+   "sma200": 70445.5,
    "high3m": 77279.93,
-   "reg": 64068.57,
+   "reg": 64103.37,
    "pre": null,
    "post": null,
-   "regClose": 64068.57,
+   "regClose": 64103.37,
    "sess": "reg",
-   "mt": 1784930525,
+   "mt": 1784931091,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX planning Saturday morning launch from Vandenberg Space Force Base - KSBY News",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSmtna1VxYzBTTXZBd0VuS1BhT3EtSWZ6N29MRHNudy11S3FhVWxrbUtKdzFCaDlKR2pOaDNkRm9yTV9YZE1vMXZVeVlDUU1DVFlPbzJibTQwczdmbi0xeXEzMVpMSnV2QkRUMWl1aUZuUDNldXFhZXNfTEZJT3BjeFJHbmhKLUJfRU1yU0Jvdmw3Y3ItVmFJSXZNd2RENndXMU5XTlotN3VtM0IzcGpoVktGUQ?oc=5",
+    "pub": "Fri, 24 Jul 2026 21:40:46 GMT",
+    "src": "KSBY News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Grok STT on OpenRouter: 5 Details That Matter - BASENOR - Tesla Accessories",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcXJMMUJaaXdtenZBN01mVGlWVzRSdFhKcDBlNFhGOURwREh3OEZZY2lEb2hMWWVfS1FsNFpfWjhVemgxM0txdFZIdk5BbzFaVk9TcTJlMnBFa3ZvOTh5anllMUk2Uk5qdUJKWjlCOG9LUENpQ2RCdnBBLXpIT3VHRWNFTUhTZw?oc=5",
     "pub": "Fri, 24 Jul 2026 21:06:02 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9QMVFubElTTldzb1BrR2ZjNHlaalVXbFBiSVAxLUpDMms3b2dYalQzT05pRncySmhHRmtLSmtPeEl5Qk1aMU5mSjQ0MVN5eTFPUFdlcTFueS1DUTQxa25ReHE5N1J6akVsRFE?oc=5",
     "pub": "Fri, 24 Jul 2026 20:52:23 GMT",
     "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceXAI Will Release Grok 4.6 in 2 Weeks and Grok 4.7 in 4 Weeks - NextBigFuture.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNEpvVlA5bXFPVUlSaTRtU1NMaE5XdFVsRjVpTGJfVVNYZS01LVFSak5QaXBSZEhUOUF1Vlk0WFhPMjR6dXIxdHBpbGhLVWlVcmI5eTJ0SUJLek11VHhNaTg1eUtCQllEYjNyZjF6ZzZhR3pELWdDTEMyMG5WcFdIcGNZQ1E3YkF5SF9aTFBJYV9UM2tzRy1EdjRTOFhDdHRSWjFndXZCT3llWG1l?oc=5",
-    "pub": "Fri, 24 Jul 2026 20:44:38 GMT",
-    "src": "NextBigFuture.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    60016.43,
    62544.2,
    64127.14,
-   64081.37
+   64110.61
   ],
   "vixts": [
    0.901,
@@ -2465,7 +2465,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-24T22:02:48+00:00",
+  "checked": "2026-07-24T22:11:51+00:00",
   "openai": {
    "found": false
   },

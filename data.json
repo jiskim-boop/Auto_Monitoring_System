@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T20:22:15+00:00",
+ "updated": "2026-07-25T20:32:12+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -131,16 +131,16 @@
   },
   "STX": {
    "price": 851.69,
-   "chg": -6.21,
-   "chg5": 14.25,
-   "sma20": 878.33,
-   "sma50": 886.61,
-   "sma200": 641.22,
+   "chg": -6.75,
+   "chg5": 8.13,
+   "sma20": 869.65,
+   "sma50": 887.47,
+   "sma200": 642.9,
    "high3m": 1094.04,
    "reg": 851.69,
    "pre": null,
    "post": null,
-   "regClose": 913.36,
+   "regClose": 851.69,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -275,16 +275,16 @@
   },
   "COHR": {
    "price": 282.39,
-   "chg": -9.55,
-   "chg5": 1.96,
-   "sma20": 329.71,
-   "sma50": 362.43,
-   "sma200": 306.94,
+   "chg": -9.84,
+   "chg5": 1.73,
+   "sma20": 323.47,
+   "sma50": 360.6,
+   "sma200": 306.75,
    "high3m": 426.89,
    "reg": 282.39,
    "pre": null,
    "post": null,
-   "regClose": 313.22,
+   "regClose": 282.39,
    "sess": "reg",
    "mt": 1784923202,
    "ok": true
@@ -547,32 +547,32 @@
   },
   "ORCL": {
    "price": 114.99,
-   "chg": -8.62,
-   "chg5": -7.42,
-   "sma20": 136.28,
-   "sma50": 172.98,
-   "sma200": 164.75,
+   "chg": -4.21,
+   "chg5": -9.03,
+   "sma20": 134.41,
+   "sma50": 171.55,
+   "sma200": 164.35,
    "high3m": 248.15,
    "reg": 114.99,
    "pre": null,
    "post": null,
-   "regClose": 120.04,
+   "regClose": 114.99,
    "sess": "reg",
    "mt": 1784923491,
    "ok": true
   },
   "CRWV": {
    "price": 71.88,
-   "chg": -13.02,
-   "chg5": -1.41,
-   "sma20": 84.96,
-   "sma50": 98.31,
-   "sma200": 96.69,
+   "chg": -11.37,
+   "chg5": -1.82,
+   "sma20": 83.62,
+   "sma50": 97.59,
+   "sma200": 96.49,
    "high3m": 137.98,
    "reg": 71.88,
    "pre": null,
    "post": null,
-   "regClose": 81.1,
+   "regClose": 71.88,
    "sess": "reg",
    "mt": 1784923201,
    "ok": true
@@ -723,16 +723,16 @@
   },
   "^VIX": {
    "price": 18.58,
-   "chg": 11.66,
-   "chg5": 11.06,
-   "sma20": 16.97,
-   "sma50": 17.33,
-   "sma200": 19.48,
+   "chg": -0.64,
+   "chg5": -1.01,
+   "sma20": 16.96,
+   "sma50": 17.34,
+   "sma200": 19.47,
    "high3m": 22.22,
    "reg": 18.58,
    "pre": null,
    "post": null,
-   "regClose": 18.7,
+   "regClose": 18.58,
    "sess": "reg",
    "mt": 1784924101,
    "ok": true
@@ -946,33 +946,33 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64312.42,
-   "chg": 0.33,
-   "chg5": -1.41,
-   "sma20": 64240.3,
-   "sma50": 63174.96,
-   "sma200": 70309.22,
+   "price": 64278.35,
+   "chg": 0.28,
+   "chg5": -1.46,
+   "sma20": 64238.59,
+   "sma50": 63174.28,
+   "sma200": 70309.03,
    "high3m": 77279.93,
-   "reg": 64312.42,
+   "reg": 64278.35,
    "pre": null,
    "post": null,
-   "regClose": 64312.42,
+   "regClose": 64278.35,
    "sess": "reg",
-   "mt": 1785010897,
+   "mt": 1785011503,
    "ok": true
   },
   "USO": {
    "price": 136.69,
-   "chg": 3.8,
-   "chg5": 14.58,
-   "sma20": 115.34,
-   "sma50": 125.54,
-   "sma200": 115.66,
+   "chg": -2.01,
+   "chg5": 10.27,
+   "sma20": 116.71,
+   "sma50": 125.38,
+   "sma200": 115.82,
    "high3m": 152.96,
    "reg": 136.69,
    "pre": null,
    "post": null,
-   "regClose": 139.49,
+   "regClose": 136.69,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -1184,9 +1184,17 @@
    },
    {
     "title": "How to Properly Use Frame Generation Technologies ft. NVIDIA DLSS, AMD FSR, Intel XeSS - Wccftech",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQeDZqWklMMGlXbkNMTktubWhyY1lwcktxcHRuelJqd0kwRkxnR1BOejZ3MFMzMnpORWpYZGZvd05FY2wxUG80UjBOMXZaWkw0QTdENE9IWGFNeGpEZDgtMEl2ZXo2Y0tWUEVKQXREaDFZSUxQRkh6aGVhaGRZV0RSYmxaT2xFNFdmeExuYW5CUkQ0dGdhQ3hpVEhHSU1ORnd6VFHSAacBQVVfeXFMTTFfaFVsdWFkVlYwVHBMUEdzRXBXaF9wRW1nWXdhMmNOdlJ6Y0xGWlRHbjZTdFBsYmJITUJNT2NoaVFWaWlBeVZlb0dxUHIweTVpT3IyNTBCS2RhaFppOG1idkFud0xVWW41WFZucU9xWGNjZ2R5OWpVOW9hNUpWTXN5d2Zxc0pFdDY2dHRMamNMUGJPVzdLVy1FdzRieEotbGxxeG9YV2c?oc=5",
-    "pub": "Sat, 25 Jul 2026 18:35:10 GMT",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMV9oVWx1YWRWVjBUcExQR3NFcFdoX3BFbWdZd2EyY052UnpjTEZaVEduNlN0UGxiYkhNQk1PY2hpUVZpaUF5VmVvR3FQcjB5NWlPcjI1MEJLZGFoWmk4bWJ2QW53TFVZbjVYVm5xT3FYY2NnZHk5alU5b2E1SlZNc3l3ZnFzSkV0NjZ0dExqY0xQYk9XN0tXLUV3NGJ4Si1sbHF4b1hXZ9IBpwFBVV95cUxNMV9oVWx1YWRWVjBUcExQR3NFcFdoX3BFbWdZd2EyY052UnpjTEZaVEduNlN0UGxiYkhNQk1PY2hpUVZpaUF5VmVvR3FQcjB5NWlPcjI1MEJLZGFoWmk4bWJ2QW53TFVZbjVYVm5xT3FYY2NnZHk5alU5b2E1SlZNc3l3ZnFzSkV0NjZ0dExqY0xQYk9XN0tXLUV3NGJ4Si1sbHF4b1hXZw?oc=5",
+    "pub": "Sat, 25 Jul 2026 18:35:00 GMT",
     "src": "Wccftech",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX eyes tower catch for next Starship after auspicious end to 13th flight - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQUzE3eHhwWnhJb3dmcWkwWVdsUElYLVVZUjM0cE9CaUdvalBQSFFjZWdzdURVNi16YWdWNjhlVVUzRVMybGppMDYtY2VUcGwxZU0zVFJiSFVXVzVuUEp5aGU3clZCd2VHRlZzajdITEV2dzdLa3FaZ05JMWhGVThnYXZsSEpsN0E2a3pNUE53UnNBSnVxVzBIWlNGa3p1SEtnMWRxeEZIMW1OZHpjMk52T01nencwbUU?oc=5",
+    "pub": "Sat, 25 Jul 2026 17:47:22 GMT",
+    "src": "Ars Technica",
     "trig": false,
     "geo": false
    },
@@ -1199,26 +1207,18 @@
     "geo": false
    },
    {
+    "title": "Grok 4.5 doesn't win on benchmarks but it wins on the number founders actually pay - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRDZmaVpHVEhFRGtyTmR3YmE2YXhhdFF4MS1JYzlZN09WLXBrd2N6eGFBZGxUT2VMYm02emdiTWc2d29mVk4yWTFRVjY0VFFCWWZMY2dTWTY0a3llLWtSYlVLX0YxdWJzNTY3OGMxV0ZIZzFBc051WVhadmRjM1NsMU8ybjRZSFpERXdsc25HU3V5eWRDR21qNUtmQWU4YktvNzVVQlNGSUthMWRn?oc=5",
+    "pub": "Sat, 25 Jul 2026 16:27:00 GMT",
+    "src": "Startup Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX launches Starship on another test flight, this time with the most advanced Starlinks - ABC News - Breaking News, Latest News and Videos",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbl9PYUM1WUsxOVFXMGNTZjR3ZEY1Nmx2ay1Mam9SYU5zV0RIaFBUMGktbXNjOE5VTTduVkZYaWlsdWhaVW00SVd3ZUlXdl95NF91QzdkcEstWUxaNmFYeU9wSVBVZVJaVnRfb09hczR6VGltdXBkSjNPeHBZRFAyajRlYkh3UzN2bWJkal9CWUJiRHlDY2tscmthbzduVmtHWFZzT296MGJwRXZPQkVzNNIBtgFBVV95cUxNTVF6dlNzZ01lcnYtT0dXc2djc3hUWVFuYUctU3VaQ3gtaTB5T3hJdWphQkV0MlFySWFHNjYtRVpqV3d2eGpKZXRZcVVSb0lSLTIxamFRcnE4YWNUbEc0d0hRU2xneWV4cFlSbFZoTktGUlhIWlNxRGFNb2RJd2ZDWVlJcWhSWG4zN2FrX0toTHRCbkp0N3hOUE1CSjI0MkdyTmFLZ0diVG1UeGVqeTZRT2NhdmIxZw?oc=5",
     "pub": "Sat, 25 Jul 2026 15:53:02 GMT",
     "src": "ABC News - Breaking News, Latest News and Videos",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "RTX 3060 Beats RTX 4060 at 4K: New Data Shows VRAM Capacity Outlasts Raw Speed - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPczkzZEVoRGt5Z2t6a2ZyQ3ZCTHVMd2lCd3dsT2lYQmNDQVhLQ3V4RFp3XzktNVBpN2dxSGJXVW53bkI3OUNLUWJzYzA5NVBlaXRMak9jYWtxS3loR081YVFhUnVWWTRpV2F4VDBsWG5mU2pqUXVxMlFVaFZpVm9Ic25fSUsxbUtkcHlMUnRoSXg2cTljMEw5aHpDYUtNMEg2b1BVcDZVZVlBUVNJUnJYVUtnMDVFRjlWeVhZQTVVRlVhSE5LUXpsNQ?oc=5",
-    "pub": "Sat, 25 Jul 2026 14:57:16 GMT",
-    "src": "Tech Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Not Just Flagships: NVIDIA Raises GPU Kit Costs Across Entire GeForce Lineup - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSDF4Q3RoM1QyWkNsdnAtTlFfbnhaclY3ODA4QXhORE9pc1JDQ1FjVXpIblZEemJnSDZHSmhqdGpzYUNPeVlIaXpuUmI1XzN5UzlVX0k1V3FSem9RWUhmRjF5cUFlNFp0b0pPSzhYQWV0R25NREVkUnJVY05ZS1d6YVk2eDMwamZySzZlVUtGdDlPSTl0bi13a2RhbWUwQUtkRWg5NWNydUpISWJycGIxYlZ2NXZwcDU1dFpTWGJGSUIyTE4zSS1jblR3?oc=5",
-    "pub": "Sat, 25 Jul 2026 14:31:50 GMT",
-    "src": "Tech Times",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   64311.79
+   64278.99
   ],
   "vixts": [
    0.901,
@@ -1692,15 +1692,15 @@
    0.2814,
    0.2767,
    0.2727,
-   0.2745,
+   0.2771,
    0.2761,
    0.2818,
-   0.2828,
-   0.2821,
+   0.2853,
+   0.2816,
    0.2885,
-   0.2861,
+   0.2862,
    0.286,
-   0.2868
+   0.289
   ],
   "xlf_spy": [
    0.0724,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.0,
@@ -2467,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T20:21:57+00:00",
+  "checked": "2026-07-25T20:32:02+00:00",
   "openai": {
    "found": false
   },

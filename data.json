@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T10:51:58+00:00",
+ "updated": "2026-07-25T11:02:31+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63960.05,
-   "chg": -0.22,
-   "chg5": -1.95,
-   "sma20": 64222.68,
-   "sma50": 63167.92,
-   "sma200": 70307.28,
+   "price": 64007.07,
+   "chg": -0.14,
+   "chg5": -1.87,
+   "sma20": 64225.03,
+   "sma50": 63168.86,
+   "sma200": 70307.54,
    "high3m": 77279.93,
-   "reg": 63960.05,
+   "reg": 64007.07,
    "pre": null,
    "post": null,
-   "regClose": 63960.05,
+   "regClose": 64007.07,
    "sess": "reg",
-   "mt": 1784976683,
+   "mt": 1784977320,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Alphabet Earnings Today Could Signal Tech Market's Direction Amid Semiconductor Sell-Off - SSBCrack",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPaktiQTNtXzZlY25xVjM4MXZJMkZsQzkzcUNTaWRnNlRIc0RWRGNCZ0pDZDFDcmdKOGxWTG91VGJmcTBhM3pYTzBPbVNYTWN4OGdpcTItQ2pZbnlhbEJ2U2JiSjJGNnJId2gtY0JzRllzNUZLVGVyMTlxVVBfeVJFNlRpcXZwRjJGeXNaenFKVG0zZkZiZmtPMmtGQ0hacWgtRFdtcWpHREphWXBBS214aktwMk8?oc=5",
+    "pub": "Sat, 25 Jul 2026 09:58:57 GMT",
+    "src": "SSBCrack",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "ChatGPT faces lawsuit, security woes as OpenAI pushes toward GPT-6 - Northeast Times",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNE9va0ItREdROWNKVml1ZjE5V1N1d3RwaGFtZTVDb3NJSThpcU9rWVg0VjhBcjAyS2JoV2x5Qlp4YlJvbmVBLUtoUEozQWZxeWRYUzlPNjNTbU9tZUxQbHhiT1pNMU5CU2RUSEt2SDVnc1o1VkctQXp5QW9BVVE5SjM1NklQTE40U1N1NWFyVk40Z0JKUEZaN0Y3bm02REtSRnZGT1VJcw?oc=5",
     "pub": "Sat, 25 Jul 2026 09:37:30 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNbXdIVGF2aEhFZkd2RUt4cWJPYnRleXU3VVAwQmdzeFhkVFVLSTduM0FuUFhrR052VGNpLVAzLXo4cHo0NTM0NUR3bG94RGowSDFwZ2E2SjZHTG1SM3M1TVU4bkVJSTZteUc5U3JGZ0ZNTGpfamo2UEpfbk9Jdk9hbHVrMC0zUU9ITmdyNTY3VWtvejRRX282N0packdXaDRKeVRjOGhiTUR5d9IBrwFBVV95cUxQMlAtRUpKdjI3MjdkS0JIckxFdGY2MzVxSVN1eWVPMFFHLXVNUF9teGt1SXZPWG9XU24xZTdpUFk2V183UXdUSXE2SnUyR2NfbXBLX0dlOF96VE8wRXd6ekg3QkVJajlPcEE5Z18teXJ4dko3MktYelZmb1BlbGJjRU5ueTlkZ19CbUlMRnJaWVdXd2NjZ2l1VnVsenNJYng3bVVxdkp0bEV6LXg0ZnNz?oc=5",
     "pub": "Sat, 25 Jul 2026 05:00:01 GMT",
     "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Wall Street Sees Memory Supply Shortage Deepening — Are Samsung and SK Hynix a Buying Opportunity? - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TaEJJZ3lSMUYxQ0lINHZUcWdMcWQyWEVfZlFuTkladF9idFhMMFB6bDRkaFViMkR0bU9LR0NIYlhMbDhWSTBKblR0RXliaFFzbzFTWm4tR3RSblZnaVNDOWQtR200SUw3VDdPbFpocXNXc1V4T1E?oc=5",
-    "pub": "Sat, 25 Jul 2026 04:16:00 GMT",
-    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   63960.04
+   64007.08
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.0,
@@ -2236,10 +2237,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-23T11",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-23T12",
     "v": 2.73
    },
@@ -2426,6 +2423,10 @@
    {
     "d": "2026-07-25T10",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-25T11",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2467,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T10:51:43+00:00",
+  "checked": "2026-07-25T11:02:20+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T10:42:00+00:00",
+ "updated": "2026-07-25T10:51:58+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -307,16 +307,16 @@
   },
   "CEG": {
    "price": 274.35,
-   "chg": -0.2,
-   "chg5": 8.97,
-   "sma20": 254.54,
-   "sma50": 264.11,
-   "sma200": 283.51,
+   "chg": -0.45,
+   "chg5": 8.7,
+   "sma20": 254.83,
+   "sma50": 263.72,
+   "sma200": 283.43,
    "high3m": 322.78,
    "reg": 274.35,
    "pre": null,
    "post": null,
-   "regClose": 275.6,
+   "regClose": 274.35,
    "sess": "reg",
    "mt": 1784923201,
    "ok": true
@@ -627,16 +627,16 @@
   },
   "ARCC": {
    "price": 18.78,
-   "chg": -0.42,
-   "chg5": -2.24,
-   "sma20": 18.67,
+   "chg": 0.91,
+   "chg5": -2.03,
+   "sma20": 18.71,
    "sma50": 18.68,
    "sma200": 18.77,
    "high3m": 19.35,
    "reg": 18.78,
    "pre": null,
    "post": null,
-   "regClose": 18.61,
+   "regClose": 18.78,
    "sess": "reg",
    "mt": 1784923201,
    "ok": true
@@ -659,11 +659,11 @@
   },
   "HYG": {
    "price": 79.23,
-   "chg": -0.36,
-   "chg5": -0.71,
-   "sma20": 79.71,
-   "sma50": 79.79,
-   "sma200": 80.05,
+   "chg": -0.0,
+   "chg5": -0.53,
+   "sma20": 79.68,
+   "sma50": 79.78,
+   "sma200": 80.04,
    "high3m": 80.51,
    "reg": 79.23,
    "pre": null,
@@ -707,16 +707,16 @@
   },
   "JBBB": {
    "price": 47.47,
-   "chg": -0.08,
+   "chg": 0.04,
    "chg5": -0.0,
-   "sma20": 47.43,
+   "sma20": 47.42,
    "sma50": 47.42,
    "sma200": 47.32,
    "high3m": 47.75,
    "reg": 47.47,
    "pre": null,
    "post": null,
-   "regClose": 47.45,
+   "regClose": 47.47,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63936.28,
-   "chg": -0.25,
-   "chg5": -1.98,
-   "sma20": 64221.49,
-   "sma50": 63167.44,
-   "sma200": 70307.15,
+   "price": 63960.05,
+   "chg": -0.22,
+   "chg5": -1.95,
+   "sma20": 64222.68,
+   "sma50": 63167.92,
+   "sma200": 70307.28,
    "high3m": 77279.93,
-   "reg": 63936.28,
+   "reg": 63960.05,
    "pre": null,
    "post": null,
-   "regClose": 63936.28,
+   "regClose": 63960.05,
    "sess": "reg",
-   "mt": 1784976087,
+   "mt": 1784976683,
    "ok": true
   },
   "USO": {
@@ -1107,16 +1107,16 @@
   },
   "EWY": {
    "price": 162.96,
-   "chg": -4.38,
-   "chg5": -0.24,
-   "sma20": 180.6,
-   "sma50": 189.53,
-   "sma200": 159.19,
+   "chg": -6.27,
+   "chg5": 0.26,
+   "sma20": 178.5,
+   "sma50": 189.22,
+   "sma200": 159.22,
    "high3m": 219.2,
    "reg": 162.96,
    "pre": null,
    "post": null,
-   "regClose": 173.86,
+   "regClose": 162.96,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Investors bet on Federal Reserve rate rise after oil price surge - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVGdDMHFqX2FBMWZMQVpTd1dYVGF3NkstVW1DNER3WWZqejIwcDJTSEJkYWIzWjdtdDk0elVFRFlRd1FyakxxeXRJVm82TjJTSFo0Vy1PMEN6WklMRnNkaWw1b0lwQW8zOFM0Z1Fzcm5seXBDYVNkcjB4OEFBVkJxdk83YUk?oc=5",
+    "pub": "Sat, 25 Jul 2026 10:00:09 GMT",
+    "src": "Financial Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Russian forces artillery strike kills 1, injures 2 in Kherson: Kyiv Post - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNFBPMjV0b08xcy1ES1lNLW5aRXhoRkEzdFNyZmJSTGlidmp1ek5aRlNQWWtNVHZXRkFNT3VBZHpqYlpxMmFfMDNZUG51SDhRLVAyUzBaS0hUZFpTbUtUcFJaNm9Ma0lJYjdVYkt0Vnl4ZFpiZ2E3cXFzbXdHRHdzZTMyWl9vWlZpc194QTR4ZFhsSkZuT3pGTVVGU2xnNG8?oc=5",
     "pub": "Sat, 25 Jul 2026 08:11:28 GMT",
@@ -1263,14 +1271,6 @@
     "src": "Norada Real Estate Investments",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Houthis claim missile strike on Saudi Arabia as Trump weighs fresh military action against Iran - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxONkJxcjREQ0FfSktMMm54RDRDa0ZoMWNiM2xEemEzQjI5cGEzVWdRVVpmaG5CSzllWHpJVVNscmdIWnVEX1pNRHBiU0ZxNnh3UERaUHJHOHNkbTBQR2VvWjdieEZKWUpLWkl3aVhQTTB2eVFFeWJGTnhEUWZyUGN2ZHA1LXdiUllXOXNFbnBCeVBMU0hPY1NGNjZQUG1xN2RCUmV5a01fR29VTFZMcHdfNFJnU3IxeUpVUUlhMzN1dVU3RDY4aE1Vb01IdUpHWDkxS0R5NkJQY1VTWWFWcE5FV09PUUJWVjlpNFJld9IB7AFBVV95cUxONkJxcjREQ0FfSktMMm54RDRDa0ZoMWNiM2xEemEzQjI5cGEzVWdRVVpmaG5CSzllWHpJVVNscmdIWnVEX1pNRHBiU0ZxNnh3UERaUHJHOHNkbTBQR2VvWjdieEZKWUpLWkl3aVhQTTB2eVFFeWJGTnhEUWZyUGN2ZHA1LXdiUllXOXNFbnBCeVBMU0hPY1NGNjZQUG1xN2RCUmV5a01fR29VTFZMcHdfNFJnU3IxeUpVUUlhMzN1dVU3RDY4aE1Vb01IdUpHWDkxS0R5NkJQY1VTWWFWcE5FV09PUUJWVjlpNFJldw?oc=5",
-    "pub": "Sat, 25 Jul 2026 06:16:29 GMT",
-    "src": "Moneycontrol.com",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1279,6 +1279,14 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPS0tMbnhrSWFlUF9hZl9wS1VFbWpRQ0VrNDdlRkhPOEc5NzV2cV9WYkVLV1I3bGIyRmVzQl81MXpQeXhzeHNYZ0kxTzZJUlhLeWdOZ3FIN3BHX0otcW5rNG9VcHRqaU5YcFN2ZHVPWk42QmRrcDdIQ2NpWU1iVm1ITQ?oc=5",
     "pub": "Sat, 25 Jul 2026 06:57:51 GMT",
     "src": "Discovery Alert",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 25 Jul 2026 06:18:59 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE55RXZNZm5yaGZWbjN1aHVvSUQ5dTVCcW9rb0xvQWhKVFFJTnp4Q3dFcXFKYWM3bGFpcERXdWhkWHk1cFd2c0pqWklqdDc4QkFOS1hpWll0SHVPVVM3RjFteg?oc=5",
     "pub": "Sat, 25 Jul 2026 01:35:10 GMT",
     "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Price (WTI) on Jul 28, 2026 - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNblVpMW81MXktZUpBMTNJRHhHZTlrSnZMeXR2bGNzZVhKSnU3WkVRN0dVX1huUm4zWVJnMDRuRjNOQ2NtemJBam9Bczg1MmM0eHAtaGQzN2hBb3RJbzBITUpveTVIV0dhOFI1SVQyNEhwcVFhN0FqdmNkZDZRLVBxTmhDVlJ4NGVVc292dnZrb29lZDZQVGpka1lOclU0LW40RDBqRHVUTXU?oc=5",
-    "pub": "Sat, 25 Jul 2026 00:17:17 GMT",
-    "src": "Robinhood",
     "trig": false,
     "geo": false
    }
@@ -1484,13 +1484,13 @@
    4.46,
    4.59,
    4.45,
-   4.48,
+   4.54,
    4.46,
    4.45,
-   4.39,
-   4.49,
-   4.57,
-   4.7
+   4.37,
+   4.48,
+   4.61,
+   4.68
   ],
   "dxy": [
    98.48,
@@ -1512,15 +1512,15 @@
    13.29,
    12.9,
    12.61,
-   12.52,
+   12.38,
    12.63,
    12.49,
-   12.62,
-   12.36,
+   12.71,
+   12.22,
    12.44,
-   12.51,
-   12.55,
-   12.3
+   12.45,
+   12.47,
+   12.34
   ],
   "move": [
    68.42,
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   63936.28
+   63960.04
   ],
   "vixts": [
    0.901,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장(후티 미사일·이란 군사 행동)이 고조되는 가운데 미 금리 4.68%와 달러 강세(DXY 101.5)로 신용스프레드는 안정적(2.77%)이나 변동성은 낮은(VIX 19) 혼조 국면으로, 연준 결정 임박 시 방향성 결정될 상황입니다. AI 인프라 투자는 엔비디아의 SK하이닉스 메모리 확보와 슈퍼마이크로 호실적으로 GPU/HBM 수급망이 강화되는 중이나 코어위브 등 AI 데이터센터 관련 신용 약세로 밸류체인 내 신용 리스크가 발생하고",
+  "text": "지정학적 긴장과 유가 상승으로 연방준비제도 인상 가능성이 제기되는 가운데, VIX 19·HY스프레드 2.77%로 신용 스트레스는 제한적이나 CAPE 40은 밸류에이션 과열을 시사한다. AI 인프라 투자(구글 주도)는 지속되나 CoreWeave·Nebius 등 관련주의 신용 악화와 무디스의 신용등급 경고로 AI 밸류체인의 구조적 약점이 노출되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1739,7 +1739,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -2467,7 +2467,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T10:41:46+00:00",
+  "checked": "2026-07-25T10:51:43+00:00",
   "openai": {
    "found": false
   },

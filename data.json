@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T15:41:57+00:00",
+ "updated": "2026-07-25T15:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64167.43,
-   "chg": 0.11,
-   "chg5": -1.63,
-   "sma20": 64233.05,
-   "sma50": 63172.06,
-   "sma200": 70308.42,
+   "price": 64128.5,
+   "chg": 0.05,
+   "chg5": -1.69,
+   "sma20": 64231.1,
+   "sma50": 63171.28,
+   "sma200": 70308.21,
    "high3m": 77279.93,
-   "reg": 64167.43,
+   "reg": 64128.5,
    "pre": null,
    "post": null,
-   "regClose": 64167.43,
+   "regClose": 64128.5,
    "sess": "reg",
-   "mt": 1784994086,
+   "mt": 1784994687,
    "ok": true
   },
   "USO": {
@@ -1183,6 +1183,14 @@
     "geo": false
    },
    {
+    "title": "Not Just Flagships: NVIDIA Raises GPU Kit Costs Across Entire GeForce Lineup - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSDF4Q3RoM1QyWkNsdnAtTlFfbnhaclY3ODA4QXhORE9pc1JDQ1FjVXpIblZEemJnSDZHSmhqdGpzYUNPeVlIaXpuUmI1XzN5UzlVX0k1V3FSem9RWUhmRjF5cUFlNFp0b0pPSzhYQWV0R25NREVkUnJVY05ZS1d6YVk2eDMwamZySzZlVUtGdDlPSTl0bi13a2RhbWUwQUtkRWg5NWNydUpISWJycGIxYlZ2NXZwcDU1dFpTWGJGSUIyTE4zSS1jblR3?oc=5",
+    "pub": "Sat, 25 Jul 2026 14:31:50 GMT",
+    "src": "Tech Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI releases health bot one day after a man alleges ChatGPT almost killed him - SFGATE",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1fcm5wMXk0TUVTdkZ3ZEdrRUdEcm15VlV0NzNhcDZGMHIwdVIzM0x3Z3p5MW1sTVRibXZWWkRzNGktaEw4aThXdGt4UVVmU1h4ZHdRblBVc1cya3dfbXk2Q1d1X1NUX2ctWUJfcXNKekF2blAydnZ5WWNoZw?oc=5",
     "pub": "Sat, 25 Jul 2026 14:01:45 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPSHRJSEUzRzZzOTdVaVJFS01ma1ItQVZuQ2xvUV83dlZNNjBVT2dXY1I1ZFF3Ullfb3lncE0tbVBlQVRKQ01RWVQ5TnAzYncwTDdfUzBJQW5vSE1pYVNUaWU5MlhNR0E4ZjRidzJLU2VwOGZSeHBPRDhXT21qbVp1R0VR?oc=5",
     "pub": "Sat, 25 Jul 2026 13:11:10 GMT",
     "src": "Real Investment Advice",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX launches Starship on another test flight, this time with the most advanced Starlinks - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbl9PYUM1WUsxOVFXMGNTZjR3ZEY1Nmx2ay1Mam9SYU5zV0RIaFBUMGktbXNjOE5VTTduVkZYaWlsdWhaVW00SVd3ZUlXdl95NF91QzdkcEstWUxaNmFYeU9wSVBVZVJaVnRfb09hczR6VGltdXBkSjNPeHBZRFAyajRlYkh3UzN2bWJkal9CWUJiRHlDY2tscmthbzduVmtHWFZzT296MGJwRXZPQkVzNNIBtgFBVV95cUxNTVF6dlNzZ01lcnYtT0dXc2djc3hUWVFuYUctU3VaQ3gtaTB5T3hJdWphQkV0MlFySWFHNjYtRVpqV3d2eGpKZXRZcVVSb0lSLTIxamFRcnE4YWNUbEc0d0hRU2xneWV4cFlSbFZoTktGUlhIWlNxRGFNb2RJd2ZDWVlJcWhSWG4zN2FrX0toTHRCbkp0N3hOUE1CSjI0MkdyTmFLZ0diVG1UeGVqeTZRT2NhdmIxZw?oc=5",
-    "pub": "Sat, 25 Jul 2026 12:51:27 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   64161.99
+   64129.3
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 3.0,
@@ -2469,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T15:41:44+00:00",
+  "checked": "2026-07-25T15:51:44+00:00",
   "openai": {
    "found": false
   },

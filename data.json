@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T15:11:58+00:00",
+ "updated": "2026-07-25T15:22:12+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -675,8 +675,8 @@
   },
   "BKLN": {
    "price": 20.39,
-   "chg": 0.05,
-   "chg5": -0.39,
+   "chg": 0.1,
+   "chg5": -0.44,
    "sma20": 20.4,
    "sma50": 20.45,
    "sma200": 20.51,
@@ -684,7 +684,7 @@
    "reg": 20.39,
    "pre": null,
    "post": null,
-   "regClose": 20.37,
+   "regClose": 20.39,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -867,16 +867,16 @@
   },
   "QQQ": {
    "price": 684.23,
-   "chg": -1.12,
-   "chg5": -1.6,
-   "sma20": 711.71,
-   "sma50": 718.29,
-   "sma200": 659.78,
+   "chg": -2.99,
+   "chg5": -3.08,
+   "sma20": 713.32,
+   "sma50": 718.75,
+   "sma200": 659.58,
    "high3m": 746.16,
    "reg": 684.23,
    "pre": null,
    "post": null,
-   "regClose": 684.23,
+   "regClose": 691.96,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64164.99,
-   "chg": 0.1,
+   "price": 64168.47,
+   "chg": 0.11,
    "chg5": -1.63,
-   "sma20": 64232.93,
-   "sma50": 63172.01,
-   "sma200": 70308.41,
+   "sma20": 64233.1,
+   "sma50": 63172.08,
+   "sma200": 70308.43,
    "high3m": 77279.93,
-   "reg": 64164.99,
+   "reg": 64168.47,
    "pre": null,
    "post": null,
-   "regClose": 64164.99,
+   "regClose": 64168.47,
    "sess": "reg",
-   "mt": 1784992285,
+   "mt": 1784992896,
    "ok": true
   },
   "USO": {
@@ -1125,18 +1125,18 @@
  "news": {
   "credit": [
    {
-    "title": "Why are Nvidia-backed CoreWeave, Nebius, and IREN stocks plunging? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZUZxaWRHOU5SMDdhR1A3X2NnYnRzQnliWktpYm5mMXAzdW5EeTdCeGlyM0YzNUJTQkpmUVYwMkhLTG5UZ0NjR0ItbHdZQVVMUXdjcXJzVTRuU1dSMGtUYjlCcFRGTENxc2xFT25BSXdfTTlMdlROcjIwY2NCSmlYLTcxakVuNU9ZY2pMWWdYYng2bGJOMWw0YWRvOGJyMjhtNXBFUw?oc=5",
-    "pub": "Sat, 25 Jul 2026 10:07:51 GMT",
-    "src": "Invezz",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "2 Millionaire-Maker AI Stocks to Hold for the Next Decade - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQb2VjME44SXR3SjdIcWdwc2F3NlYxZXR0eGpkYnE5S3JsOTdwdGVJR2dqNlh4SDlqejhGRTlORlhHWEJaWXVLbkQ2Qk04SDNlREVQOVRCSWRraFJlSGQ3N09pNno3UGRGcDdDeHlBbFJubVpVbGtBR292QWxvYkYtckZyeUFsZkdyd1RLNnc1WXpDaGdGNG9vVEdlZVR6X2NNUTNXXzI3RkdtaktHZjRJZGpWMThlRE9PVG1aTmtYOUtPNkNkc3RlTVNPT3NTZGFrOGYxam5MbmZDZw?oc=5",
     "pub": "Sat, 25 Jul 2026 09:27:38 GMT",
     "src": "The Globe and Mail",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why are Nvidia-backed CoreWeave, Nebius, and IREN stocks plunging? - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTmx3LUZaM2VfN1FVVUlUaUpxYlBreVZ6YnB1RnBiUEVIZHRsLWp3cE9pZUtidWN6NVdGbGJOTW1HblUycW5uXzB0OXZLc2NhTFVpUXpQazRfaUFMR1FVRHMxT281VmkyTmVNYXlHaU9xZl9oejF3RGYxVlotb1lmS0pPQkxUSGRBZGlSbWJrSWYwUVlxc1ZsOUpDbTFTYWZz?oc=5",
+    "pub": "Sat, 25 Jul 2026 09:15:57 GMT",
+    "src": "Invezz",
     "trig": false,
     "geo": false
    },
@@ -1200,8 +1200,8 @@
    },
    {
     "title": "20 Years Since AMD’s $5.4 Billion ATI Acquisition: The Deal That Shaped Radeon, Consoles, And AMD’s AI Future - Wccftech",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5xdTBSTmlYZGI4X3hISmtrb2ZPMTNxNVpIRl9tN2dhNk9MeG1yX01fUm00VlZxTjVpNGJXMUcxVmhmZjRGaXBDUk1xeGtKMjg3cGVLbVNwU1Z4TWVtaWhPdlpfQ0Q4ZVRVZWZrOEpvTWpWcTRhVTVFQW5HRWhGd9IBfkFVX3lxTE5xdTBSTmlYZGI4X3hISmtrb2ZPMTNxNVpIRl9tN2dhNk9MeG1yX01fUm00VlZxTjVpNGJXMUcxVmhmZjRGaXBDUk1xeGtKMjg3cGVLbVNwU1Z4TWVtaWhPdlpfQ0Q4ZVRVZWZrOEpvTWpWcTRhVTVFQW5HRWhGdw?oc=5",
-    "pub": "Sat, 25 Jul 2026 13:44:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9pYU5Sb3VUd0ZBQVBNSXVJRUpoS0xtcmJXa1p4bXR5M1dCU3pGNThrSG1UTWhneGhzTURxUS1BMnR4bVl3VW1nVUk1N01oV25Dd3pGdUhWc3FHQlMtQWh5Z1Judy1jbHdndTV5MHdwd3QxU1pLbmR5LdIBfkFVX3lxTE5xdTBSTmlYZGI4X3hISmtrb2ZPMTNxNVpIRl9tN2dhNk9MeG1yX01fUm00VlZxTjVpNGJXMUcxVmhmZjRGaXBDUk1xeGtKMjg3cGVLbVNwU1Z4TWVtaWhPdlpfQ0Q4ZVRVZWZrOEpvTWpWcTRhVTVFQW5HRWhGdw?oc=5",
+    "pub": "Sat, 25 Jul 2026 13:44:06 GMT",
     "src": "Wccftech",
     "trig": false,
     "geo": false
@@ -1224,6 +1224,14 @@
    }
   ],
   "macro": [
+   {
+    "title": "Trump delays planned US strike on Iran, and crypto markets are feeling the aftershocks - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1PaFhWRUprRFRNbG1yNUFrVC1ReW5saS10d3J2NFAxa1VoOTFHTElRYWNDbUFCbXAyamVTUWllNFFyUUo3Ni0yRC1kOFlYalZHWFM0aW5jSndENzlpem0xdS1WWGd4UmhtWnozODNocEY0NXFG?oc=5",
+    "pub": "Sat, 25 Jul 2026 15:17:45 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil rally lags initial war surge as Trump's election calculus caps price fears - Anadolu Ajansı",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOZmo1dk1VOXktcThwcG9lRVJWSTEyRDVoMUpXb1h1UnRSU0xCdjNka2Y1Y0M2dWdfcWZYN3htTm5BcHNDd01hQ2V3RG9fbVVxcXJuOTRmbDVybFB1eHhsOTA5Z0c0ZjR5OEYtQW1OTDYyek5YUmhKVnRzalZ5WGo2LVMxOW9yQ2t1LVczb3hFSmFBT2w5VWR6Z1psVTFiMFBpOWdNSFllaTI4QktfRkJqRnpab0ZhZVAzU2s0?oc=5",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSmpFYUVmX0xRazVvZE0zRHZRZFp5bDM5Qkp6ZjRtUFNoc09DaHVQRjJPbmRpODhBSlBnMk9GWDN2YjFKSXk1SVdNUlpKVXlKdTVwMHhHcXE2N3VzbkVOZWpSeE5mNUR2RHZyeGZNV21wRjVEWF81OXNabmp3VzVranIxRnNDakNBYnVQd2xLaGROLVZ3em1LVnQ1UDNSV0JxZmc?oc=5",
     "pub": "Sat, 25 Jul 2026 11:25:00 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Big Tech Debt Flood Is Taking Over Risk In Market: Credit Weekly - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQblAyZXhlQVRzd0V3cE41TUVLV09KdEJtME12dmZ4REE1QlVBenJkZTR2LXZCSUpObzJ1YkpVTmZIaG9RNkJVSlB1bVVkTVZ0SEcyckU0Vk1zQ3hVN3dlSmVLNDdoTmRtSUI5NmZJT29BbTZndm1MYzdqTFhkOGxJT3N6eFRSTV9XaWtLSE4zUXVZNFgyVldGRkhQZTVqQm1NTXd1VlpvdnVycE9qUml0SnF3YnJ5Z9IBuwFBVV95cUxOQk1MMTFubDdfWlBDc2xHeHZrMVphZ2dqaGhvSkp5bGh1aDRHUS1ZWFZobDFJWnFBQUIyV1loUFF0N3lkUU1FRjZpSlFabmxmM0EtNW1keEFnQnlYTTBoWnhJTHJ3X1JHOWNkR1F4Q2FWT2ZyemIxbWtMeWJBWFpWUEUtdDRWYk1hWmpoUXFzNFo1Ynpua25SV1JBaVhIOUsxU25vN1lQSS1yWlBMUy1jWm9kWmJBeHVpWFZr?oc=5",
-    "pub": "Sat, 25 Jul 2026 11:18:00 GMT",
-    "src": "livemint.com",
     "trig": false,
     "geo": false
    }
@@ -1470,12 +1470,12 @@
    16.76,
    15.74,
    15.4,
-   22.22,
-   18.44,
-   18.89,
-   16.15,
-   15.03,
-   18.7
+   19.44,
+   16.4,
+   18.41,
+   15.57,
+   17.16,
+   18.58
   ],
   "tnx": [
    4.31,
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   64164.0
+   64169.25
   ],
   "vixts": [
    0.901,
@@ -1620,12 +1620,12 @@
    0.807,
    0.809,
    0.779,
-   1.043,
-   0.944,
-   0.897,
-   0.827,
-   0.791,
-   0.91
+   0.912,
+   0.84,
+   0.874,
+   0.797,
+   0.903,
+   0.905
   ],
   "hyoas": [
    2.86,
@@ -1742,14 +1742,16 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
-  "score": 2.0,
-  "axisCount": 1,
-  "st": "a",
+  "score": 3.0,
+  "axisCount": 2,
+  "st": "r",
   "hits": [
    "사모대출 주가 급약세",
+   "시장 급락",
    "AI 밸류체인 약세",
    "폭 축소(쏠림 랠리)",
    "조정 지속(고점 -8.3%)"
@@ -1757,7 +1759,7 @@
   "early": [
    "숨은 헤지"
   ],
-  "strong": 1,
+  "strong": 2,
   "risk": false,
   "inputs": {
    "total": 20,
@@ -2146,12 +2148,13 @@
   },
   {
    "d": "2026-07-25",
-   "score": 2.0,
-   "st": "a",
-   "axis": 1,
+   "score": 3.0,
+   "st": "r",
+   "axis": 2,
    "risk": false,
    "hits": [
     "사모대출 주가 급약세",
+    "시장 급락",
     "AI 밸류체인 약세",
     "폭 축소(쏠림 랠리)",
     "조정 지속(고점 -8.3%)"
@@ -2467,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T15:11:44+00:00",
+  "checked": "2026-07-25T15:21:58+00:00",
   "openai": {
    "found": false
   },

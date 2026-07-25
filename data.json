@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-25T01:11:57+00:00",
+ "updated": "2026-07-25T01:22:11+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63980.69,
-   "chg": -1.64,
-   "chg5": -1.1,
-   "sma20": 64196.18,
-   "sma50": 63104.81,
-   "sma200": 70341.7,
+   "price": 63950.25,
+   "chg": -1.68,
+   "chg5": -1.14,
+   "sma20": 64194.66,
+   "sma50": 63104.2,
+   "sma200": 70341.53,
    "high3m": 77279.93,
-   "reg": 63980.69,
+   "reg": 63950.25,
    "pre": null,
    "post": null,
-   "regClose": 63980.69,
+   "regClose": 63950.25,
    "sess": "reg",
-   "mt": 1784941887,
+   "mt": 1784942500,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Moody’s flags Oracle and CoreWeave as AI’s weakest credit link - Cryptopolitan",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOMzJNazB4X3JoTGFQSld0b01NUTZ4cTNkbDJjSk5RMmdHY1ZKTXVOb093MDFzYmhCWl9obVEzOVIzLTVVRHhTVUFrNUtSTUtLRVJINE52RExMNjA5UldzS1VtdGZiZGQ4N1RyMGN6aDVwMzBiWXZiTi1lb3FaTUMyd3NSaEFwYXdBUEJIdDZSSTdlVWpKNGc?oc=5",
+    "pub": "Sat, 25 Jul 2026 01:12:39 GMT",
+    "src": "Cryptopolitan",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Kayne Anderson: The Discounted BDC That's Not A Value Trap (NYSE:KBDC) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNRUVNTFN5UHd0UHRQN24tem5RanRkTEZwMWRrejVQVFItNFF2OTVPR2RhTURQOWZReFhuVFZFNldFellhZksyUkEzbXhFaWtoMGRYcUlyQmJEOHNlTE5mREkxN1Z5TTFwNmxrcjJ0N05XVmdMYTM4SnpnOHoxTlhCdnprUlNjd1NPVDg0RE0tUTdVVEZ2VzRYS3pQZlg3VEdLWUJqNnBKQjJvN0hDeXM1aHpPdlFUWVY2a0lpSU1Lbw?oc=5",
     "pub": "Fri, 24 Jul 2026 21:39:10 GMT",
@@ -1162,14 +1170,6 @@
     "pub": "Fri, 24 Jul 2026 11:45:40 GMT",
     "src": "Kavout | AI",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "What Makes Main Street Capital's Business Model Unique - Kavout | AI",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNOER1eUxZR0lqMkVVaXhxUXgwbjlQdWtxdmNEX0xRSkhDdGNpM09BVEtDX1R1WlE5VTNiQ29LcXNNNGJHc1pES2x0VFp1MkEwVnVIN0dNY2c2NVE5b3RQUUR1QlZ1WFZHTHRlS3huNVhhX29Wa2IxaGM0NmpRZHhDM3g3bzBXUFd6S0hXdVVLbDNHUHc?oc=5",
-    "pub": "Fri, 24 Jul 2026 11:13:58 GMT",
-    "src": "Kavout | AI",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    59940.1,
    63088.3,
    63802.03,
-   63975.88
+   63956.88
   ],
   "vixts": [
    0.901,
@@ -2468,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-25T01:11:47+00:00",
+  "checked": "2026-07-25T01:21:58+00:00",
   "openai": {
    "found": false
   },

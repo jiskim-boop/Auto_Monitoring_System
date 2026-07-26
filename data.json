@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T19:41:53+00:00",
+ "updated": "2026-07-26T19:52:02+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64672.45,
-   "chg": 0.56,
-   "chg5": -2.76,
-   "sma20": 64274.14,
-   "sma50": 63251.05,
-   "sma200": 70188.89,
+   "price": 64644.2,
+   "chg": 0.52,
+   "chg5": -2.8,
+   "sma20": 64272.73,
+   "sma50": 63250.49,
+   "sma200": 70188.73,
    "high3m": 77279.93,
-   "reg": 64672.45,
+   "reg": 64644.2,
    "pre": null,
    "post": null,
-   "regClose": 64672.45,
+   "regClose": 64644.2,
    "sess": "reg",
-   "mt": 1785094882,
+   "mt": 1785095490,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.65,
-   "chg": -0.11,
-   "chg5": 0.7,
+   "price": 163.69,
+   "chg": -0.09,
+   "chg5": 0.72,
    "sma20": 162.45,
    "sma50": 161.07,
    "sma200": 158.81,
    "high3m": 163.83,
-   "reg": 163.65,
+   "reg": 163.69,
    "pre": null,
    "post": null,
-   "regClose": 163.65,
+   "regClose": 163.68,
    "sess": "reg",
-   "mt": 1785094866,
+   "mt": 1785095478,
    "ok": true
   },
   "ES=F": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "Galaxy Digital's $346M Annual Interest Burden on CoreWeave Texas AI Data Center - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONHNVSzdMdWpRTWpTbldHU2cxakVuYk8zVWVKTmJrWllVUnVBNkdvczc3bGQ1VDYxTTBjd3lSNXp5UlZvUGQ1WWtvWkJKeENveTQxaUMxSURQb1JvakUteG5JTnN6MkNCdEpIalBBMV9IcjlJcDFzanlFdmNaYXB1QjJMM1IwbUxMODJmM0FWTC1rVXNndVMyWVdPSWpfMlIxSDVmYWU3Vm5SMnhzNW4wZllB?oc=5",
-    "pub": "Sun, 26 Jul 2026 19:02:43 GMT",
-    "src": "KuCoin",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The brutal $346M math behind Galaxy's high-stakes race to build CoreWeave's Texas AI mega-center - CryptoSlate",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVjRIU3IyMlVfZnVidVd5d0FwT1FYRm5kQXlrcm5qLWlCbjFRdFpIVldmTzlMaENibGs4WlpTNThTVndtOTV3SE5NWmZGVUo0bEdrUHlFUGxsWW92X0UyejBZU3NGWVF4V3JNUURlR1dmVExieWs4ZGdkVVU1ZThydjZaVG9mc3ZPWURGNDY0UWtNMDdrU29nb3lTVGN3TWIwMGY5Mkt2cnpUX3Myb1lVT2hFNDZhcHJ3Umc?oc=5",
     "pub": "Sun, 26 Jul 2026 18:45:36 GMT",
@@ -1169,6 +1161,14 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPcURZZWpwTzZTcS1UUGI5SjgxZnAzV2NRdXRZdWpENlQyZGREejdwbWlETjRwQUdwNjZQLUJxaG5VMXdyVjZ6TmFqVWRrTGlvM2FHLUYxdDlVbHEtNERfcE5IbHotVkFXV2JCekhIMnZKbmh1WnpiMVNXcllVTTkxd1ZFX3h1NGxmUlJ3V2VKS082enpZUGNjWVB0bzVCeHRUODFiT2ZXSlB3UkxUaVhMbXBYV1BIU1A5MWFVQU5hLWU5QUVEczJRcFRn?oc=5",
     "pub": "Sun, 26 Jul 2026 05:40:15 GMT",
     "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia Stakes Claim in Nebius Group: Why It Outshines CoreWeave - sekbernews.id",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE00RFNFMjdYTktOcDBBQUt5YUoxOXBIblBuZ2o4ZGFRMEhzZUF4SVRiVWRCT0pHMWUxbUE2ZEtCQW5NVGtDU21xdDNDcXdOd3d5eEpTbGxNU3RqN1lFUDBrX0hBdngwUzdWRGpkMWR3?oc=5",
+    "pub": "Sat, 25 Jul 2026 15:07:17 GMT",
+    "src": "sekbernews.id",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    161.79,
    161.45,
    161.88,
-   163.65
+   163.69
   ],
   "uso": [
    134.72,
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64672.45
+   64639.01
   ],
   "vixts": [
    0.901,
@@ -2470,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T19:41:43+00:00",
+  "checked": "2026-07-26T19:51:50+00:00",
   "openai": {
    "found": false
   },

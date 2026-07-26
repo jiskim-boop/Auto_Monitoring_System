@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T02:52:04+00:00",
+ "updated": "2026-07-26T03:02:34+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64447.99,
+   "price": 64450.99,
    "chg": 0.55,
-   "chg5": -1.2,
-   "sma20": 64247.08,
-   "sma50": 63177.67,
-   "sma200": 70220.12,
+   "chg5": -1.19,
+   "sma20": 64247.23,
+   "sma50": 63177.73,
+   "sma200": 70220.14,
    "high3m": 77279.93,
-   "reg": 64447.99,
+   "reg": 64450.99,
    "pre": null,
    "post": null,
-   "regClose": 64447.99,
+   "regClose": 64450.99,
    "sess": "reg",
-   "mt": 1785034288,
+   "mt": 1785034924,
    "ok": true
   },
   "USO": {
@@ -1233,14 +1233,6 @@
     "geo": true
    },
    {
-    "title": "US Federal Reserve expected to hold rates steady as inflation swirls - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdV9wbk05cDRwaEVvUDdUWnJYYUNNRThsVUVEaDV2eXl4Zkl4dDk3N2t5UlNqZVpJdks1cXdkWGRfQlMwdjRoNUxYVWtvcF9TeU1RemhtUllxdVQ0UW9MTER6VkFTVThzdnBNU0lWSWZlTkdoY092SDNXQW1ocDNRMHd4MnFqQQ?oc=5",
-    "pub": "Sun, 26 Jul 2026 01:20:00 GMT",
-    "src": "Yahoo Finance UK",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Iran accelerates rebuilding of nuclear sites after US strikes, raising geopolitical risk for markets - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EbUxOVkotRDVMRjhicElXNHU5OVVmTnE5R2Q1T00yREJLRHkzSkRRQnhUNDdrWFk5S21jeFFpaWV0Sjg0NFFLSWEzaHh4T01sVEE5aXQ4V2tIVXQyYlJEM2NGakswUEM1eWZsME02akpGaWY2cmc?oc=5",
     "pub": "Sat, 25 Jul 2026 21:45:47 GMT",
@@ -1269,6 +1261,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaXJpRExmajFDOTZkNVBWU1c1QmRkZFdPaF9ObWpkREoyUUNTMkg5NG5VN2ZMZ1JvekdvSG9WRjFFdkdmY05sQTQ0ZHRMdUNqLXprakZ0MU5FMmw5QkUxdVFqbkMyYlBjZlVtTW9aM3pOb04tNHRibmJCdVpzMjJzVF9sSkluZWMyMzEyQjRRQi1sSFVpNjZyQnJNWWt4REU?oc=5",
     "pub": "Sat, 25 Jul 2026 18:13:39 GMT",
     "src": "TradingKey",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "IRGC claims destruction of US military aircraft and radar systems as crypto markets navigate war volatility - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1FWHEtS3hKM1RneGttOUw4ZXlYMGhYQWgtemdoeWJsc1FiTFJSclJHSGh0cElrQjJrMzYwM184UjNvY2ZiRXh3WTlkd1QtNUtWWlA4LXhYVzk0ZHctNlhfei1XZVlVbnNtbmpsTUp3cndzWXVOSlhDNlR0QzFNUG8?oc=5",
+    "pub": "Sat, 25 Jul 2026 17:47:38 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64446.69
+   64442.68
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 3.0,
@@ -2238,10 +2239,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-24T03",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-24T04",
     "v": 2.73
    },
@@ -2428,6 +2425,10 @@
    {
     "d": "2026-07-26T02",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-26T03",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2469,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T02:51:48+00:00",
+  "checked": "2026-07-26T03:02:23+00:00",
   "openai": {
    "found": false
   },

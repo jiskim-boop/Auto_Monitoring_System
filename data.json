@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T10:02:19+00:00",
+ "updated": "2026-07-26T10:11:57+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -19,16 +19,16 @@
   },
   "AVGO": {
    "price": 381.92,
-   "chg": -2.69,
-   "chg5": 2.99,
-   "sma20": 381.4,
-   "sma50": 399.35,
-   "sma200": 370.72,
+   "chg": -3.75,
+   "chg5": 1.99,
+   "sma20": 381.25,
+   "sma50": 400.09,
+   "sma200": 370.63,
    "high3m": 481.57,
    "reg": 381.92,
    "pre": null,
    "post": null,
-   "regClose": 381.92,
+   "regClose": 392.47,
    "sess": "reg",
    "mt": 1784923201,
    "ok": true
@@ -243,16 +243,16 @@
   },
   "VRT": {
    "price": 290.36,
-   "chg": -4.5,
-   "chg5": 0.28,
-   "sma20": 306.59,
-   "sma50": 316.35,
-   "sma200": 286.29,
+   "chg": -3.59,
+   "chg5": -1.28,
+   "sma20": 308.35,
+   "sma50": 317.88,
+   "sma200": 286.26,
    "high3m": 376.23,
    "reg": 290.36,
    "pre": null,
    "post": null,
-   "regClose": 290.36,
+   "regClose": 304.04,
    "sess": "reg",
    "mt": 1784923203,
    "ok": true
@@ -499,16 +499,16 @@
   },
   "GOOGL": {
    "price": 319.74,
-   "chg": 0.65,
-   "chg5": -7.79,
-   "sma20": 352.19,
-   "sma50": 364.7,
-   "sma200": 340.66,
+   "chg": -6.53,
+   "chg5": -9.8,
+   "sma20": 353.39,
+   "sma50": 366.06,
+   "sma200": 340.83,
    "high3m": 402.62,
    "reg": 319.74,
    "pre": null,
    "post": null,
-   "regClose": 319.74,
+   "regClose": 317.69,
    "sess": "reg",
    "mt": 1784923201,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64460.0,
-   "chg": 0.23,
-   "chg5": -3.08,
-   "sma20": 64263.52,
-   "sma50": 63246.8,
-   "sma200": 70187.72,
+   "price": 64437.39,
+   "chg": 0.2,
+   "chg5": -3.11,
+   "sma20": 64262.39,
+   "sma50": 63246.35,
+   "sma200": 70187.6,
    "high3m": 77279.93,
-   "reg": 64460.0,
+   "reg": 64437.39,
    "pre": null,
    "post": null,
-   "regClose": 64460.0,
+   "regClose": 64437.39,
    "sess": "reg",
-   "mt": 1785060110,
+   "mt": 1785060687,
    "ok": true
   },
   "USO": {
@@ -1107,16 +1107,16 @@
   },
   "EWY": {
    "price": 162.96,
-   "chg": -6.27,
-   "chg5": 0.26,
-   "sma20": 178.5,
-   "sma50": 189.22,
-   "sma200": 159.22,
+   "chg": -4.38,
+   "chg5": -0.24,
+   "sma20": 180.6,
+   "sma50": 189.53,
+   "sma200": 159.19,
    "high3m": 219.2,
    "reg": 162.96,
    "pre": null,
    "post": null,
-   "regClose": 162.96,
+   "regClose": 173.86,
    "sess": "reg",
    "mt": 1784923200,
    "ok": true
@@ -1126,8 +1126,8 @@
   "credit": [
    {
     "title": "Scientists, farm workers dispute BCDA's Pax Silica promises - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNX3pXblNna2IxZ3N5d3pTUWFWeEdBZWphRllIUVRjZk5sS05jZkRvM1lSN1dMZDExQjhOTzJuWmdRUzh0TnZrT1dycjFvQ1BjWlY0S0ZuZTJjUU5zcGFtSlQtTm04UFBJdmd3WFJpYWxWWnhCOFhyWVdDQVQ1VERDMUs1UkwyTG9UZkNSVl9JTHF3QnVodjBINUpyMDFoLXNHOWZnM1NVeXNKV1RJdHFvNA?oc=5",
-    "pub": "Sun, 26 Jul 2026 08:27:19 GMT",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMF9YVW1mcEZTNFN5ZXlWeEEyTVhMbDBkY19CMmdxOHNfZXQ1Vm5pT2RGY1B0cjZzTFhHbDlmbUxjVmg4UTd5cVNqcHpiRVpFbXZ0ZWNtVGFpU2tid1Vzc21LcmMtUlVYaksyV0FMUkRBdlU3LTVhYXVCZlMwWWM2TDgwS2Z5eGd6WFU1eXg5RE9Ubm9ZWWd2TE5VZUY3X1V3WU1yVEpoX2tjc05CdzNpbA?oc=5",
+    "pub": "Sun, 26 Jul 2026 08:25:00 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1191,6 +1191,14 @@
     "geo": false
    },
    {
+    "title": "South Korea Stocks Halt Again, SK Hynix Market Cap Breaks $1 Trillion Mark. - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMi2AJBVV95cUxOOXhNT2twSEpERFJHYy1vdmpPQWVEU2djaVE5c3YxNUlkZnFrTjVLZXVwbXZMb3BKZ3h5ZUVwZ0VHYThFdTRENTV4eTFjRUY0NVEtLVB4Z2hmTExwV0FoUm14Ym0zbWJfaDJidU01TEtyX1FmUFBXaFpJVEZmNldkbTFmREcxT0Vaa2ttSkxDUmpJenVBTUI4Q2RMTkdsMk9JNlR3U2EwTzlpTGM1OEhEaWJXeVFRZHQ3dTNTX19hdFZpOVNRSS0tMEZrY09hbm9vNGNPREtBZHdvVXUxVjFsZi1vMnkxd29XVHFDa0pBemdzU2tmVEQ2cHdUeFZRTlpyWjN3ZmUxM3haVFdlcHRTQ05uUVhja256bndUWjBuZi1DeEF5aER2LVBFd3ZCcnNYRWd4bmZOVTViQWNTMF9MTWVsWmtYUmdUYjlPWlBZXzBkU2NXQ0piRQ?oc=5",
+    "pub": "Sun, 26 Jul 2026 00:40:34 GMT",
+    "src": "TradingKey",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "SpaceX Targets First Starship Upper Stage Tower Catch for Flight 14 - satnews.com",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdklPbjFBek1STENRel9hX3MtaElySVp2VWhWQWh5V3JQa2ppaVRON1BfUEZjVkFfZXRIbGViQzlMV25GcUFZaFRZY0M3SlNqNkhfVXFLanlGVUlITk5rel9KREN1bDhrR0U5UkpLUENDN3pUTTN2ZTd1ejNPWmtDNENJWTFaX3RBVEpPTEhNc09yamg1UFU0STg5Y2hyTHIt?oc=5",
     "pub": "Sat, 25 Jul 2026 23:35:36 GMT",
@@ -1213,22 +1221,14 @@
     "src": "Mashable",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Sam Altman declares AI has reached its singularity moment, and crypto markets should pay attention - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBlSXh5ZUNBcE5qYTBVTWpyclQ0WUhVRm9jUEgyYW9EVHNDbFRtcGJGX2RaUjkyU2JEQWpOR3IxTW5rb080bHNOUGJBdVFfMkhDWTdPczlEQUFQaHd4dVFDY181OTc5ZUhjbC1RVkZqSkp2cTZ2aUF3Yw?oc=5",
-    "pub": "Sat, 25 Jul 2026 20:32:48 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPY1JTRWE1Vk1ULTJjRkJzb1JmbHJlOG15YzBRRHY0SkVTVG1nQ05QM1kydjgtTEd0bFpHTzlWaVE3Q0tkaDhrVmFfd2VDMnk0NUtXbFJ2V0ZFd1hhb1BkQlhoY0hBejdBMnhKSWJ6OU1CcGQ1R1FQSFZqQ2d2a1lHWXE3QQ?oc=5",
+    "title": "Bitcoin price holds above $64,000 as traders brace for upcoming Fed decision - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNNlAxc0VQa2lVVWpZWk00a1k2NlRtRDVuRURINm1VVG1CVWxmUGttT3dQVlVsLVNYWUlGQTNfeXpIckNNQkRmX3NuYlhfTEpEQVplb3hwYmJrV2dLV01xc3Z6VUZ2X3ZPUW9PNV9vNktZR09fd2t5VlZpd2lMNUJMRGYxQQ?oc=5",
     "pub": "Sun, 26 Jul 2026 09:34:09 GMT",
-    "src": "Yahoo! Finance Canada",
+    "src": "Yahoo Finance UK",
     "trig": false,
     "geo": false
    },
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Oil prices, US Fed rate decision, West Asia crisis to drive mkts: Analysts - BusinessLine",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaFUwNFNGNmlQRmJzUklpajBKUzlyS29oXzZQclNFM2tuOFZiWDRweUhCdl9kQV9rZG1kTDNuMk1BZGkxV1hXUEFoUmYyLVdkWFJFd1RESTRkTDJHdy12bUZmM0lkSW44Ym1xS1Rqa1JuV3ROS2ZXdWVBOTdCT0NEMG5BZzM5TUZiM28zZUZMaUJHazJBMnlYNkZRMU5XOFg0eEJPVzVtcHpGVnpGVC1FMlhOTVFMLWVCZXpEUkpzazVLNTI2aFBtdl8ya0lXRUJRbUHSAdgBQVVfeXFMTlo0cWxZcnNYXzRkRnAtaVkwczJEX3AyOHluSUNGaVExRFQ0bU8weHNEQThvMFR2VkVEbXRNeXJxUEx5Wl9DMFNkc0ZnZjE1NzZwdm5iN0dwaDVMNmxHZWNhMkpiMWxuZ2llT0t2ZmstSjJxZ2RQSUxLajE3VUpiMnZrNUhIZEk1RnhfaldZZ05ac3RiMEV3MFp1ZC1FSWYxdjdpTDY5VlJrWUVhRHE3TTUyU3duNVBidUZPZ1NzWVFSejExMVdzYnJxY2l4aWZBcVpJbkdNLWRp?oc=5",
-    "pub": "Sun, 26 Jul 2026 08:29:05 GMT",
-    "src": "BusinessLine",
+    "title": "Oil prices, US Fed rate decision, West Asia crisis to drive markets: Analysts - ET EnergyWorld",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPMl9ZdU1Lc2Y0VEhUbHg5VTFfYVUtSnF1aDRtNktrMXRMdW1ER0FVMVd0ajZ1WWZjR0l1cXdhNFFzNmsxdTE1S052bGJOdjFrWS1yek91a1JoR2VUR2ZXcEZtMGIyU3BBcTNBMzduNjlHTVNDMy0zSGFtZWU5MG1FNXFVUlFRTThWNDhrMVBycFgtaXdCZnNQbklWVE9aU0pnaXVKZzl1aUd5eGRKcHUxZHhDeUsyeDRhbEpobGd4NDRDdk5ISlJWM3dlSlVCT0hCTlFhQk9aVXppZVZGSHF0MzE3V0jSAeoBQVVfeXFMUHYwOHlHb2thcTF6UC12NlJMb0JpM0cxdXlxaGJuVk4yS0YxY2I2WkI5S0hwbmI0QTlzcmw2eHF2Nkp0WGNLcm5pa2NfN2FWT1hQRF9ud2t3Y0lESU5IMDJLbzlrTTBTcFUxLWdXOF9FNi0xckNORkktb2RUVjhLZ3RVTGJmVTFvWDRabVRjLWlDU0ROclFyMGg2WTIzWXFIRHRWT1FZNFhHeDBfcElJMDFiSjFRR3hSdE9fQm9FcHVSRDNyN2ppRy00UFVZNUFMY05vakVYdGNQVDZaUmdQbmNQbm9WV2NrVTJn?oc=5",
+    "pub": "Sun, 26 Jul 2026 08:15:54 GMT",
+    "src": "ET EnergyWorld",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64460.0
+   64443.6
   ],
   "vixts": [
    0.901,
@@ -2468,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T10:02:09+00:00",
+  "checked": "2026-07-26T10:11:46+00:00",
   "openai": {
    "found": false
   },

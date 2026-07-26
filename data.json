@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T09:21:58+00:00",
+ "updated": "2026-07-26T09:32:10+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64485.33,
-   "chg": 0.27,
-   "chg5": -3.04,
-   "sma20": 64264.78,
-   "sma50": 63247.31,
-   "sma200": 70187.86,
+   "price": 64466.84,
+   "chg": 0.24,
+   "chg5": -3.06,
+   "sma20": 64263.86,
+   "sma50": 63246.94,
+   "sma200": 70187.76,
    "high3m": 77279.93,
-   "reg": 64485.33,
+   "reg": 64466.84,
    "pre": null,
    "post": null,
-   "regClose": 64485.33,
+   "regClose": 64466.84,
    "sess": "reg",
-   "mt": 1785057684,
+   "mt": 1785058302,
    "ok": true
   },
   "USO": {
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Oil prices, US Fed rate decision, West Asia crisis to drive mkts: Analysts - BusinessLine",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaFUwNFNGNmlQRmJzUklpajBKUzlyS29oXzZQclNFM2tuOFZiWDRweUhCdl9kQV9rZG1kTDNuMk1BZGkxV1hXUEFoUmYyLVdkWFJFd1RESTRkTDJHdy12bUZmM0lkSW44Ym1xS1Rqa1JuV3ROS2ZXdWVBOTdCT0NEMG5BZzM5TUZiM28zZUZMaUJHazJBMnlYNkZRMU5XOFg0eEJPVzVtcHpGVnpGVC1FMlhOTVFMLWVCZXpEUkpzazVLNTI2aFBtdl8ya0lXRUJRbUHSAdgBQVVfeXFMTlo0cWxZcnNYXzRkRnAtaVkwczJEX3AyOHluSUNGaVExRFQ0bU8weHNEQThvMFR2VkVEbXRNeXJxUEx5Wl9DMFNkc0ZnZjE1NzZwdm5iN0dwaDVMNmxHZWNhMkpiMWxuZ2llT0t2ZmstSjJxZ2RQSUxLajE3VUpiMnZrNUhIZEk1RnhfaldZZ05ac3RiMEV3MFp1ZC1FSWYxdjdpTDY5VlJrWUVhRHE3TTUyU3duNVBidUZPZ1NzWVFSejExMVdzYnJxY2l4aWZBcVpJbkdNLWRp?oc=5",
+    "pub": "Sun, 26 Jul 2026 08:29:05 GMT",
+    "src": "BusinessLine",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Sensex Drops 2,092 Points: Why Geopolitical Risks Impact Markets - Whalesbook",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDJHSFRXZkFXQ0huQ2xfTkg2dmJkVDE0WkdmMEN0OUFQdnZaTGNOVlZzSWUyRnJYWTRzVVhzUmlpSHhiNmpyRF8zZkZldWZZMFRybnZzbERuVjRrMGJOMGo5ZWJJVEZzR2Q3SlVmZGd6VE5lNVhPajZOYjhNVDhiZUotQkpwNklCS0JDNG8taWMzOTMyUXhGb3ZlS2pyamdTZTNHRkJ5RUJMMmJrOVdfMzAxcWJEM3NPZ3U2anMxWTRhSWVwSkw1UXRhUEVJZlRk?oc=5",
     "pub": "Sun, 26 Jul 2026 07:24:32 GMT",
@@ -1263,14 +1271,6 @@
     "src": "The Washington Post",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "What to Expect in the Week Ahead (Big Tech Earnings, Fed Rate Decision, and Core PCE) - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbFR2a1lGUnd3VThYU1gybEV5QjFWTnZOdDkzZi11QXVXY2RudjVyU0hSMUZFUHZudVc1a2RBaHdmQlVXdHlmT2FkQUdPMFVGX2kwVU9OYXpfckprU3hQMmxTLWwzdnJfSEtBNGhxVG9jNy1kZlNkQzJ2cGdZYnhvdmhPUENIWHFtbkdFYWg5TVplNlJZanNIdUJlamlrcjBic2NfNS1tYw?oc=5",
-    "pub": "Sun, 26 Jul 2026 02:54:22 GMT",
-    "src": "Moomoo",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64487.35
+   64466.89
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.0,
@@ -2467,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T09:21:46+00:00",
+  "checked": "2026-07-26T09:31:59+00:00",
   "openai": {
    "found": false
   },

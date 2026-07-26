@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T16:32:15+00:00",
+ "updated": "2026-07-26T16:41:53+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64788.01,
-   "chg": 0.74,
-   "chg5": -2.58,
-   "sma20": 64279.92,
-   "sma50": 63253.36,
-   "sma200": 70189.52,
+   "price": 64774.99,
+   "chg": 0.72,
+   "chg5": -2.6,
+   "sma20": 64279.27,
+   "sma50": 63253.1,
+   "sma200": 70189.45,
    "high3m": 77279.93,
-   "reg": 64788.01,
+   "reg": 64774.99,
    "pre": null,
    "post": null,
-   "regClose": 64788.01,
+   "regClose": 64774.99,
    "sess": "reg",
-   "mt": 1785083502,
+   "mt": 1785084083,
    "ok": true
   },
   "USO": {
@@ -1241,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "How high will oil prices go this time? - The Economist",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQVVNhdFF6QjhvMFhPT0ZmYVhOX21NWTlZdzhXSnJldGZoYTVLejc5SldOazg0TmwzVE9ZQ1lzSHBVUHlLZ3ZJVndaTVBNbWtvd0V2RHJCLUNMNFhFOC1zaXRfTHd4VGduVkVJbzEzNkt5ZDRyLXJFZ0tLQkxEdXJ3a1JEVTdjR0ZxdU1NbEpMc0hzRW9MMEc4ejFSV2w?oc=5",
+    "pub": "Sun, 26 Jul 2026 14:06:48 GMT",
+    "src": "The Economist",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Next Fed Rate Hike May Be Coming Soon - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQbFRndm5kOTMzbkJqMzY5VGEtWW0wVk5hNk1Eb1JQc3UzYjhJVTQtaWRfU2hqWUpmaFh2UUl0Mkh6d19OcWJHa216MXJIUlRVRS1CRnJiOW9FNjQ0Z0xXd2lPYlRJUG12Vl9iZ2ZyUGFGSUw2WlBTOFFvdWVDMklWQzI5Yzg?oc=5",
     "pub": "Sun, 26 Jul 2026 13:55:00 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOWDlBUEU5WTZ6Ql9JYTRoTzFxWEhfVmdfLVJzZHlLTElKWGJTaE1qWllYLW9jeGc4Qk5scEhPb1lKSU52WFZ6ckZfUUZxSVZsaE16N29qUE5mRlZsODVieExHcHdPOU5RYTA4dFo3cklrdzNfalh0R2ViVTdHNW84TW43VGdGVjlCemZ6NHlwN2JwWHJfeTg4eVlwajFzeGI3U3UxWkR1Smx6M1I5RVhSQURVem1mMkNiYXowUmlnbHA4OFFLaEgxRHZzYUYxNnB2QW5z?oc=5",
     "pub": "Sun, 26 Jul 2026 12:40:00 GMT",
     "src": "Investopedia",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Week Ahead: Fed Rate Decision in Focus, Apple, Microsoft, Meta and Amazon Earnings Arrive - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPd2o0UnhxRW44V1NjOU0xWkVGU0FmWW0wUXJLRk9QRVM0ZzhaRkl3OVNid3d0bldKdjZ4eTBMZlh1dUJxUm9KOWZVYUdVSzhJajZETEdTOFhoR01MblpJRUkzVGstUXNLN1RxdnQ1cGV0VnFOYmhLdWdrVWd4Y00zXzNyeFVWMDJJcTMwOWNFNlhpd2lnYjdrZXluTVE0UUVEZDVtazdwWkJqaTdpWmJ3Y1c5N211RmxyRTMwR1FGeGdwaENmeGNpNTJGdUx2V3I1NjFV?oc=5",
-    "pub": "Sun, 26 Jul 2026 12:11:15 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64799.99
+   64775.0
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.0,
@@ -2467,7 +2468,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T16:32:02+00:00",
+  "checked": "2026-07-26T16:41:43+00:00",
   "openai": {
    "found": false
   },

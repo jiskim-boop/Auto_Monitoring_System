@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T14:21:57+00:00",
+ "updated": "2026-07-26T14:32:11+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64599.01,
-   "chg": 0.45,
-   "chg5": -2.87,
-   "sma20": 64270.47,
-   "sma50": 63249.58,
-   "sma200": 70188.49,
+   "price": 64609.51,
+   "chg": 0.46,
+   "chg5": -2.85,
+   "sma20": 64270.99,
+   "sma50": 63249.79,
+   "sma200": 70188.54,
    "high3m": 77279.93,
-   "reg": 64599.01,
+   "reg": 64609.51,
    "pre": null,
    "post": null,
-   "regClose": 64599.01,
+   "regClose": 64609.51,
    "sess": "reg",
-   "mt": 1785075684,
+   "mt": 1785076302,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Broadcom May Be the Biggest Winner From Alphabet's Earnings - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxObEkySTBUYkdyQlM5QlItYi1RX0htUzJkS3RMTllYRUZ1WHF6UjJKUUVhdUx3cDIwUnA3UmJoUllKQ3V1T01MNks1MXdRTzR0S2tvTUMzMUpCM0VjTm9IckhuQWlaUFRrX1dxdU1SX1htLW15UGdzM1dwclo2bGxmQlBpMVU5LUk0LVRvc0V0a3A0blBvVVVzZW5rMA?oc=5",
+    "pub": "Sun, 26 Jul 2026 14:12:53 GMT",
+    "src": "MarketBeat",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Alphabet Raises AI Capital Spending to $205 Billion - iNews Zoombangla",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9YTnUwOHlSYXJtdmJZdUszbDRZTm9tNl9WT0RlTlpiaHYwZDdfdnMyVXZrMUJWOVpLc1k4ZGppbkt5bVpBZUpIeWFLb1BvVTlHRF9oMkl1dl91X0hNNVRRMWQwU2wzUlJVV2NfVndLTTF3dw?oc=5",
     "pub": "Sun, 26 Jul 2026 10:15:47 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 26 Jul 2026 00:40:34 GMT",
     "src": "TradingKey",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Targets First Starship Upper Stage Tower Catch for Flight 14 - satnews.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdklPbjFBek1STENRel9hX3MtaElySVp2VWhWQWh5V3JQa2ppaVRON1BfUEZjVkFfZXRIbGViQzlMV25GcUFZaFRZY0M3SlNqNkhfVXFLanlGVUlITk5rel9KREN1bDhrR0U5UkpLUENDN3pUTTN2ZTd1ejNPWmtDNENJWTFaX3RBVEpPTEhNc09yamg1UFU0STg5Y2hyTHIt?oc=5",
-    "pub": "Sat, 25 Jul 2026 23:35:36 GMT",
-    "src": "satnews.com",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64611.76
+   64609.5
   ],
   "vixts": [
    0.901,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 3.0,
@@ -2469,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T14:21:43+00:00",
+  "checked": "2026-07-26T14:32:01+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T07:32:13+00:00",
+ "updated": "2026-07-26T07:41:57+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -755,32 +755,32 @@
   },
   "^VVIX": {
    "price": 100.73,
-   "chg": -1.41,
-   "chg5": -3.95,
-   "sma20": 93.27,
-   "sma50": 93.04,
-   "sma200": 102.4,
+   "chg": 5.42,
+   "chg5": 3.51,
+   "sma20": 92.79,
+   "sma50": 93.0,
+   "sma200": 102.42,
    "high3m": 108.16,
    "reg": 100.73,
    "pre": null,
    "post": null,
-   "regClose": 100.73,
+   "regClose": 102.17,
    "sess": "reg",
    "mt": 1784924101,
    "ok": true
   },
   "^SKEW": {
    "price": 147.28,
-   "chg": 0.91,
-   "chg5": 0.0,
-   "sma20": 147.08,
-   "sma50": 143.78,
-   "sma200": 143.72,
+   "chg": -1.94,
+   "chg5": 1.07,
+   "sma20": 146.71,
+   "sma50": 143.63,
+   "sma200": 143.7,
    "high3m": 154.82,
    "reg": 147.28,
    "pre": null,
    "post": null,
-   "regClose": 147.28,
+   "regClose": 145.95,
    "sess": "reg",
    "mt": 1784926844,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64300.06,
-   "chg": -0.02,
-   "chg5": -3.32,
-   "sma20": 64255.52,
-   "sma50": 63243.6,
-   "sma200": 70186.84,
+   "price": 64303.74,
+   "chg": -0.01,
+   "chg5": -3.31,
+   "sma20": 64255.7,
+   "sma50": 63243.68,
+   "sma200": 70186.86,
    "high3m": 77279.93,
-   "reg": 64300.06,
+   "reg": 64303.74,
    "pre": null,
    "post": null,
-   "regClose": 64300.06,
+   "regClose": 64303.74,
    "sess": "reg",
-   "mt": 1785051103,
+   "mt": 1785051683,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4070.8,
-   "chg": 0.6,
+   "chg": 0.08,
    "chg5": 1.45,
-   "sma20": 4067.85,
-   "sma50": 4254.9,
-   "sma200": 4613.17,
+   "sma20": 4067.69,
+   "sma50": 4254.84,
+   "sma200": 4613.15,
    "high3m": 4722.3,
    "reg": 4070.8,
    "pre": null,
    "post": null,
-   "regClose": 4070.8,
+   "regClose": 4067.6,
    "sess": "24h",
    "mt": 1784926799,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.36,
-   "chg": 0.83,
+   "chg": 0.59,
    "chg5": 2.21,
    "sma20": 6.24,
    "sma50": 6.31,
@@ -1084,7 +1084,7 @@
    "reg": 6.36,
    "pre": null,
    "post": null,
-   "regClose": 6.36,
+   "regClose": 6.32,
    "sess": "24h",
    "mt": 1784926770,
    "ok": true
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Sensex Drops 2,092 Points: Why Geopolitical Risks Impact Markets - Whalesbook",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZDJHSFRXZkFXQ0huQ2xfTkg2dmJkVDE0WkdmMEN0OUFQdnZaTGNOVlZzSWUyRnJYWTRzVVhzUmlpSHhiNmpyRF8zZkZldWZZMFRybnZzbERuVjRrMGJOMGo5ZWJJVEZzR2Q3SlVmZGd6VE5lNVhPajZOYjhNVDhiZUotQkpwNklCS0JDNG8taWMzOTMyUXhGb3ZlS2pyamdTZTNHRkJ5RUJMMmJrOVdfMzAxcWJEM3NPZ3U2anMxWTRhSWVwSkw1UXRhUEVJZlRk?oc=5",
+    "pub": "Sun, 26 Jul 2026 07:24:32 GMT",
+    "src": "Whalesbook",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Katy Perry slams White House for using Firework in military strike video: 'My music is for bringing people... - Moneycontrol.com",
     "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPbERvNmYzdGUzQ0xPZkZsVUpuNHlBV1JyNVVYOXdtSVVGTlNpd09EUEJlUkZ4NXk2RzVianVuNk13eEk2WndTV2RSQmFidm5aQVV4ekpiOGxyZGI3eENrMTY5S3o3dGdWWnBsd1BZRGwwX2FkSUVwY1E1LU42MGRLekUtY3JiSnRjekNsOWhaSE9JLWQxS29fNHIxb3MtNnFuMGo1WGpmZ1pmTnlYZXFNdWxMclhoY29fS2xJS2ZKWVJxMF9Wc2xJa3pJYTI2RkxmSlZwRmpjLWFGTXBRa01sS2VOaW1XanBJaVdNZFZ4M1VLVDJRS00zUlJxa28wNkhoQnVGNGhlLVlZT1N6RlBzdjRjUWZrcVFWWXdwRXBEWHVFUDlNazlGNWtVWHhBNVnSAa8CQVVfeXFMT2xEbzZmM3RlM0NMT2ZGbFVKbjR5QVdScjVVWDl3bUlVRk5TaXdPRFBCZVJGeDV5Nkc1Ymp1bjZNd3hJNlp3U1dkUkJhYnZuWkFVeHpKYjhscmRiN3hDazE2OUt6N3RnVlpwbHdQWURsMF9hZElFcGNRNS1ONjBkS3pFLWNyYkp0Y3pDbDloWkhPSS1kMUtvXzRyMW9zLTZxbjBqNVhqZmdaZk55WGVxTXVsTHJYaGNvX0tsSUtmSllScTBfVnNsSWt6SWEyNkZMZkpWcEZqYy1hRk1wUWtNbEtlTmltV2pwSWlXTWRWeDNVS1QyUUtNM1JScWtvMDZIaEJ1RjRoZS1ZWU9TekZQc3Y0Y1Fma3FRVll3cEVwRFh1RVA5TWs5RjVrVVh4QTVZ?oc=5",
     "pub": "Sun, 26 Jul 2026 06:20:20 GMT",
@@ -1263,14 +1271,6 @@
     "src": "The Globe and Mail",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Iran accelerates rebuilding of nuclear sites after US strikes, raising geopolitical risk for markets - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5EbUxOVkotRDVMRjhicElXNHU5OVVmTnE5R2Q1T00yREJLRHkzSkRRQnhUNDdrWFk5S21jeFFpaWV0Sjg0NFFLSWEzaHh4T01sVEE5aXQ4V2tIVXQyYlJEM2NGakswUEM1eWZsME02akpGaWY2cmc?oc=5",
-    "pub": "Sat, 25 Jul 2026 21:45:47 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1512,15 +1512,15 @@
    13.29,
    12.9,
    12.61,
-   12.38,
+   12.52,
    12.63,
    12.49,
-   12.71,
-   12.22,
+   12.62,
+   12.36,
    12.44,
-   12.45,
-   12.47,
-   12.34
+   12.51,
+   12.55,
+   12.3
   ],
   "move": [
    68.42,
@@ -1610,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64300.06
+   64303.75
   ],
   "vixts": [
    0.901,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "이란-홍해 지정학 긴장이 고조되는 가운데 미10년 금리 4.68%와 달러강세(DXY 101.5)가 유지되고 있으며, VIX 19와 HY스프레드 2.77%는 시장이 여전히 위험자산을 소화 중임을 시사한다. AI 인프라 투자는 트럼프 관세 위협으로 반도체 수급 악화 우려가 커지고 있으나, 대형 사모펀드의 자산증가와 수수료 성장이 지속되는 상황이다.",
+  "text": "지정학적 긴장(후티 공격)이 고조되는 가운데 VIX 19·HY스프레드 2.77%로 시장 안정성 유지되고 있으나, 실러CAPE 40으로 밸류에이션 과열 우려가 잔존한다. AI 인프라 투자(capex)는 호조를 보이나 트럼프 반도체 관세 위협으로 GPU/HBM 수급난이 심화 우려된다.",
   "by": "claude",
   "_fp": {
    "vix": 18,
@@ -1739,7 +1739,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 2,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -2467,7 +2467,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T07:31:58+00:00",
+  "checked": "2026-07-26T07:41:43+00:00",
   "openai": {
    "found": false
   },

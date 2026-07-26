@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-26T04:32:43+00:00",
+ "updated": "2026-07-26T04:41:55+00:00",
  "prices": {
   "NVDA": {
    "price": 206.84,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64473.9,
-   "chg": 0.59,
-   "chg5": -1.16,
-   "sma20": 64248.37,
-   "sma50": 63178.19,
-   "sma200": 70220.26,
+   "price": 64503.86,
+   "chg": 0.63,
+   "chg5": -1.11,
+   "sma20": 64249.87,
+   "sma50": 63178.79,
+   "sma200": 70220.43,
    "high3m": 77279.93,
-   "reg": 64473.9,
+   "reg": 64503.86,
    "pre": null,
    "post": null,
-   "regClose": 64473.9,
+   "regClose": 64503.86,
    "sess": "reg",
-   "mt": 1785040304,
+   "mt": 1785040886,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Treasury Yields Snapshot: July 24, 2026 (null:US10Y) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPenpzQTZBWXpWNURkUURJQUJ6ZUFJOUE1ZWxBQTFWN3Fwa0puWFF0RV8xVmhIREZRMURfWVN2VUtSYTNtdGFLenZ2WnRTdEQyYnRyaElJdGNLclRsX2dWVUFETWNmclhpUEtsMmpoMTZFTnJsMktvaXM1clZfa1hSYnEwbWU?oc=5",
+    "pub": "Sun, 26 Jul 2026 04:30:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Houthis claim attack on Saudi oil refinery as Iran war widens to Red Sea - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOOVpNZ2psN29sT085Yy0tT0xweWpLcTBRbUxaVlRGS1hJVFRHc3R0QjdlSWEybjlnNmtKYXM4WjQxaG9neGFqZkNrUEthVHJsQ2VEM0VEX2hJc2tIcHNZT0tEV3JQRUtrbk9YT0dGOGo0T0VVbUVkOVZaS29hWHRBcUw0QkJ4VjlSc2h6czhXWGRkT2xiMkJJUlBkcENSX0VjQndrSjJlT25vS2FFSVA4WE5B?oc=5",
     "pub": "Sun, 26 Jul 2026 03:14:19 GMT",
@@ -1237,14 +1245,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbFR2a1lGUnd3VThYU1gybEV5QjFWTnZOdDkzZi11QXVXY2RudjVyU0hSMUZFUHZudVc1a2RBaHdmQlVXdHlmT2FkQUdPMFVGX2kwVU9OYXpfckprU3hQMmxTLWwzdnJfSEtBNGhxVG9jNy1kZlNkQzJ2cGdZYnhvdmhPUENIWHFtbkdFYWg5TVplNlJZanNIdUJlamlrcjBic2NfNS1tYw?oc=5",
     "pub": "Sun, 26 Jul 2026 02:54:22 GMT",
     "src": "Moomoo",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Federal Reserve expected to hold rates steady as inflation swirls - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdV9wbk05cDRwaEVvUDdUWnJYYUNNRThsVUVEaDV2eXl4Zkl4dDk3N2t5UlNqZVpJdks1cXdkWGRfQlMwdjRoNUxYVWtvcF9TeU1RemhtUllxdVQ0UW9MTER6VkFTVThzdnBNU0lWSWZlTkdoY092SDNXQW1ocDNRMHd4MnFqQQ?oc=5",
-    "pub": "Sun, 26 Jul 2026 01:20:00 GMT",
-    "src": "Yahoo Finance UK",
     "trig": false,
     "geo": false
    },
@@ -1435,7 +1435,31 @@
    "chg4w": 105.0,
    "asof": "2026-07-22"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.11,
+   "series": [
+    41.57,
+    41.51,
+    41.62,
+    41.54,
+    41.91,
+    42.15,
+    42.07,
+    41.82,
+    41.93,
+    42.13,
+    41.99,
+    41.83,
+    42.11
+   ],
+   "chg13w": 1.11,
+   "us_chg13w": 1.8,
+   "eu_chg13w": 0.84,
+   "us_t": 23.06,
+   "eu_t": 19.04,
+   "asof": "2026-06-01",
+   "eu_asof": "2026-05-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1586,7 +1610,7 @@
    59532.34,
    63547.88,
    63758.22,
-   64473.99
+   64505.15
   ],
   "vixts": [
    0.901,
@@ -2446,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-26T04:32:31+00:00",
+  "checked": "2026-07-26T04:41:44+00:00",
   "openai": {
    "found": false
   },

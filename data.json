@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-28T21:52:06+00:00",
+ "updated": "2026-07-28T22:04:03+00:00",
  "prices": {
   "NVDA": {
    "price": 197.01,
@@ -804,7 +804,7 @@
   "DX-Y.NYB": {
    "price": 101.38,
    "chg": -0.13,
-   "chg5": 0.38,
+   "chg5": 0.39,
    "sma20": 101.07,
    "sma50": 100.31,
    "sma200": 99.22,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.38,
    "sess": "reg",
-   "mt": 1785274889,
+   "mt": 1785275516,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63946.67,
-   "chg": 0.35,
-   "chg5": -1.69,
-   "sma20": 64413.36,
-   "sma50": 63291.24,
-   "sma200": 69919.49,
+   "price": 63829.0,
+   "chg": 0.16,
+   "chg5": -1.87,
+   "sma20": 64407.48,
+   "sma50": 63288.88,
+   "sma200": 69918.85,
    "high3m": 74344.7,
-   "reg": 63946.67,
+   "reg": 63829.0,
    "pre": null,
    "post": null,
-   "regClose": 63946.67,
+   "regClose": 63829.0,
    "sess": "reg",
-   "mt": 1785275495,
+   "mt": 1785276117,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.78,
-   "chg": 0.0,
-   "chg5": 0.36,
+   "price": 163.83,
+   "chg": 0.03,
+   "chg5": 0.39,
    "sma20": 162.6,
    "sma50": 161.27,
    "sma200": 158.95,
    "high3m": 163.83,
-   "reg": 163.78,
+   "reg": 163.83,
    "pre": null,
    "post": null,
-   "regClose": 163.78,
+   "regClose": 163.83,
    "sess": "reg",
-   "mt": 1785275496,
+   "mt": 1785276122,
    "ok": true
   },
   "ES=F": {
@@ -1225,10 +1225,26 @@
   ],
   "macro": [
    {
+    "title": "July FOMC Preview: Patience Meets Division: The Warsh Fed Faces Its First Test - The Conference Board",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdVU5QTc5R3Vad1dWdldzb0NFUG9PRDd3Wlp2bFNZazdQYVBJcWRWVExrelBlY2ZValJqQmE4bTJZeTY0aTdHSk5qVXc4di1WOEJVejZ6ZGVSZmJkV0FHWm16YXNMcDJHcXc1LWhnOGZPTkU2RHJBVW51dWZtLUtHZEY4MEZ4R09BQ3prUjdDU1N2QnJ6ZEtrTDNaNmJreG9vLVp3?oc=5",
+    "pub": "Tue, 28 Jul 2026 21:53:23 GMT",
+    "src": "The Conference Board",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Fed interest-rate decision could stun Wall Street this week - thestreet.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVTI2UDJUUVZlc0JUV1VfVTA2TlVadGQyMEhqYW10aERySFJvcFo1bHJ1S2RRcnJWRmtxTWZ6RmJFQWotNVFMektDR1pLQVhJa3JCWFctVmlXWG0xaFF6ZVFYWmdkWlpLdGkwbURpV1hfVkZBSllrUWFOVW1vVzhnNVNCa2ZzZjlBRlB5eXBENUhzWU1GUFhqRlRR?oc=5",
     "pub": "Tue, 28 Jul 2026 21:37:00 GMT",
     "src": "thestreet.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed meeting live: Federal Reserve expected to hold rates steady, but Iran war adds tension - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTTljYTNZQTJLV21kdmFqQmpWdDgyVkdHaWpubHFYSFhHOHZjSU5WdlFaMU5COUlERnhtaDhGd0g3R0pfM1l4ZFNnT3NPUDNlV1A2My0tSDNOM1Q3TVA1QWg4UnJzWlRiUkZodlFBWlFITEdETS1qZkZiUXFNbjhFY3NYRmxmNGN1b2FTZHc3Zm9xQUtjcVc4MlAzTG9iMWlxeE5kdDVmM09BRUNDY1BGSEx5SGU?oc=5",
+    "pub": "Tue, 28 Jul 2026 21:00:47 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1249,26 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Renewed inflation fears complicate Fed's next rate decision - WBFF",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQcnhsZm5aNUU0UFJ4aVVEN0JoUC1XbThEZ0JYZmtWaGl1b3lQb05UZzNfanlyeUt1ZGJaakE1WU0wbGg5QlY2OHkzbEplNW1GQmd0MFJyLXpxR2hmQ2dZdGlQY2paWUVGZzJ1VllzRnVlQUtwUlRKWmdZaS1FS0szUWhsQVhLLVRjdnZONXJCbUJfNGV3NGxiRGhKcVpBNTY1Q1R3N0JPNEtrYi1sSThkY2lwWlVuRW1HZWR6SGJLZ3RsNmxMMmFQclRxUVp1cnJENzktR0JWT0NfT2sxUmhMbTdfOE9DTS1NWlljbkdIUEM3RVU1dWVaOWUwNDVrUmVnTDNlWTVncUJTRlU?oc=5",
-    "pub": "Tue, 28 Jul 2026 20:22:06 GMT",
-    "src": "WBFF",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Saudi Arabia intercepts drones targeting oil facilities as geopolitical risk reprices energy markets - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPSkFSaHlGMjlPZjlDMC1LcThrSVlVWmRZN1M1VlRyLTN5ZFB6SzJaWDd0ekN2U29DVGtwbVRVVV9kcm5KWm9SSHpaWHR0RlJ1bm5xRzlNcWFlVlRqQ0ZqbGI0cXl2cFBqbmdOUHFoVUdGT3paTWYzcU9tU2RGdjNsVg?oc=5",
-    "pub": "Tue, 28 Jul 2026 20:12:24 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Renewed inflation fears complicate Fed's next rate decision - KFXL",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxNR1Blc3RKVnFXUUdrMGxiOHAzWDZ6VXFEYm1zbDBaNjRXbC1lWDN0VURrNjA1VzU4ZTdjR2pkUllFYWU1NUpEdVBha19kSHlSNHJwczhGUUNtRmx0cXI0czdSVXFodnk4WWdlZThaQ3FfMUpBRGRDdmlSWWJucm9NWG13Mld1anA5ZEJRSHVUeHRQTEo3aXdqVTl3Y3VHOHNQVlQyLTIwQUJwQ1BpLV9HTnBzU2JNX1JickpRXzUyMTJxVDRvT3ZGeGRrQi1IcHA1VnNXaGZjUmdUQ2xqd1dDUm5FOGs3Y2w0Q1FVUUlLNEdQMHpYbHN4aHB0dVVlMmc?oc=5",
-    "pub": "Tue, 28 Jul 2026 20:04:54 GMT",
-    "src": "KFXL",
+    "title": "Renewed Iran War Affects Gas Prices - News Radio 1190 KEX",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNNjN4NlRDOFlEN0dqYk05WXpLbDU1Yk1qZTRpenhLb3pKMF9XYzFfbC01UGk5OGlwV2d0QU5lQWtNNnZBU2puaWo3UFhXd25XbW40Q3lYS3BiUWZIR3psZTU5Mks1Vl9YRmYzMjk1Z0xzelh4Vkg4a0d1VHhMQ1RqN0ZocmhBSnVCcThuTzczLXVaV3VBYk1TVTJDSkZGR3M0M3hCNjNwLTBtZXZVYk9JctIBkgFBVV95cUxPVENYMl8wT1F5NVFGN0ZUcjJySmpNV3I0SEZ3T0NMUlQ3UFJsbFBYc2VaLVBDMDN1Zk52S2hsUzZuR0NJN3FscVZMcE1wNlA2dE55THJ0dnA0TXRUbXVuWG1uQnNPcEcwRFZtTWs0TjhFNFFBSFB5enRtQ00zMkIzZVNjRnphdDBNZnJtVFlHZWp3dw?oc=5",
+    "pub": "Tue, 28 Jul 2026 20:33:00 GMT",
+    "src": "News Radio 1190 KEX",
     "trig": false,
     "geo": false
    }
@@ -1276,7 +1276,7 @@
   "flow": [
    {
     "title": "Refined Fuels, Not Crude, Are Driving the Oil Market Crunch - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOcjYxeGN1WjJ2ZGo5QzkyQUhrdUU5WFh4aURmZDhjVWd1RmtrTVV6ck5NaHFSOGgtUEdmczV1RUkwaXBuQUNvUmZqQ0dqR3cwU3pIZ3JBVWNxbzFTdmZLR2tSM2NDdmN1RGRDaFNRVHlFLVZ5TUhJemxNa1dpRmFaemo2a0xnVHRwT2JZcVM1WDhVSzkyN0tMOWtRUF9GOTZxUzRNQnBFNVfSAa4BQVVfeXFMTTlCejh2MEtCTF9oVHNUZnpvOTdhb1ZZN24yRlBkVUJkR1RXMHpoajV0OENqRmY4YUoxTUlQZTZ3WFJ5QzZpWVVzTjNPeDhFYW1KVkw1LVUzSHdTdzdzakg5dVVPUndQZWhpd1FhcmpjYll0T19YNzMzQ1JYd3lKY1ZsLVMxWGxrQnltYWxpR05pSUU5QjBNOFZBOTgxNDA0VEt0bXpfUDBzbjhCTEFB?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOUJ6OHYwS0JMX2hUc1Rmem85N2FvVlk3bjJGUGRVQmRHVFcwemhqNXQ4Q2pGZjhhSjFNSVBlNndYUnlDNmlZVXNOM094OEVhbUpWTDUtVTNId1N3N3NqSDl1VU9Sd1BlaGl3UWFyamNiWXRPX1g3MzNDUlh3eUpjVmwtUzFYbGtCeW1hbGlHTmlJRTlCME04VkE5ODE0MDRUS3Rtel9QMHNuOEJMQUHSAa4BQVVfeXFMTTlCejh2MEtCTF9oVHNUZnpvOTdhb1ZZN24yRlBkVUJkR1RXMHpoajV0OENqRmY4YUoxTUlQZTZ3WFJ5QzZpWVVzTjNPeDhFYW1KVkw1LVUzSHdTdzdzakg5dVVPUndQZWhpd1FhcmpjYll0T19YNzMzQ1JYd3lKY1ZsLVMxWGxrQnltYWxpR05pSUU5QjBNOFZBOTgxNDA0VEt0bXpfUDBzbjhCTEFB?oc=5",
     "pub": "Tue, 28 Jul 2026 21:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "HudBay Minerals earnings on deck: Can copper rally offset slump? By Investing.com - Investing.com UK",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNVTF2THljbVIxaWNlc3RSNFhMclhnZTZaamJhTkZyRk5zMDdoeGQ0T1FTb0NaX29Ba2h6ay03b3JES2R0MWhhbFE3TEUzTl9ZdzhnREVRbWs0SVd1R1V6NHVZWW5pMnJXX1hiLVdtcG1GOS1tM1dxazVJZG9ISWhGWWlpd1B2bVVQc1RtdFdHZ0RVWmlEVXlleHRJcEZJQk9ZVWFSMVc0NzVJZlAzaldWV01FU3VUQzN5Mjg4X1RBS2FlMVBl?oc=5",
+    "pub": "Tue, 28 Jul 2026 20:53:00 GMT",
+    "src": "Investing.com UK",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Trekor Metals (TSX:TKO) Reaffirmed 2026 Copper Guidance, Is The 25% Undervaluation Still Compelling? - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNVW00eTRCeHp3RFllRDFNSUg2cjhrTzRqekFIdGd0QmM4UlQ3QU1SdEg0ZmxIaHZsTFpOVjY2VkNSa2g3dXJsU2FqWUYtTVM4NklqUllGRENXek5YZTFldjQyNTZRbUZ4eVZBZzFBZjhUZ1lncnZSdnRWNmd1UXZWRWY5Nm1TN0hfQWN2Q0dmSURiZ0FCYmU5SnpwRGJjdFB4WDhqNW9NWlBMcHpYMlRhdzJKeEpsbC1yOFo5VnRjYjhlY1dJV0NKZGNDZ2dYWUF00gHWAUFVX3lxTFBTVDA4WEwxcjRnd1lEamUzazh3STM4Q21GWkI0TEt6ejBEdXpJeGlKSkZ3eUxNcEJBaGZaY0psMVhWM2Y2blBfX1FJeFltdUt2RGZIVkZydmo2WjYzNWw5N29OaTYxMHdWWHl3dENOTWRqQ0JRSFpfMElUOVJEcmVSSlEzSXVKUV9oSnVYaWgyVUp0Y0M0WXVheGdYZklHcDJvT0pyRVR6b2ZSaXQ2OWMtYjZnMXVsaUtZcUNTMTJCTldiMkxkTm5pU2owb21ESWxIWS02a0E?oc=5",
     "pub": "Tue, 28 Jul 2026 20:42:10 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTHJjX3dSeEtxVTAtU3k4c0YtR3R3WUNNSDFMUHNkYUZaTlZtVzBpN09UN0dPY3N3cXB0SlVfeTJQMjJJSlE2UGt5NnVXWDBhdDFyN3paVXFjUUhrbjJzSGtlLVF3MERvUjZ4dDdnbmRHdm5BcmV2dDhtaDdPSTl3NkxiYmp0Ml9xWmxhMlhlRWczV0lkeEZfdFIwWDQwOTBNa0RKRDMzZ1ZUdHVIUnJGRVgxNndPRlNaZm92RVlUWQ?oc=5",
     "pub": "Tue, 28 Jul 2026 20:15:00 GMT",
     "src": "MarketWatch",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "USDJPY (163.70) Grinds Below 164 as a 250bp Differential Overwhelms ¥11.73T of Intervention - TradingNEWS",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRzhONV8wcmZWMnJkRDVWTUc5Mkt0em9xdkZ3b3lZSFFXVV8wVG9BeHJDeno3Q1NaUmRfOXBmQk5uaVV4ekpidS03cW8wa0Z3bVVzMUFmZXY1dG1lUVlNLVgtTTFyWVFXaTVuMEtHWEJkMXktQmRyZUFpQzZGeHFYRzQzdXNPUXZfNFVMM09SY2I0c1F1ZHYwWkJCUnE?oc=5",
-    "pub": "Tue, 28 Jul 2026 20:06:12 GMT",
-    "src": "TradingNEWS",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    162.63,
    162.36,
    162.19,
-   163.81
+   163.82
   ],
   "uso": [
    150.63,
@@ -1610,7 +1610,7 @@
    58558.86,
    63297.39,
    64956.11,
-   63949.18
+   63900.88
   ],
   "vixts": [
    0.841,
@@ -2242,10 +2242,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-26T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-26T23",
     "v": 2.73
    },
@@ -2432,6 +2428,10 @@
    {
     "d": "2026-07-28T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-07-28T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2473,7 +2473,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-28T21:51:54+00:00",
+  "checked": "2026-07-28T22:03:30+00:00",
   "openai": {
    "found": false
   },

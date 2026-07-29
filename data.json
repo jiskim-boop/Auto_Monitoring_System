@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-29T08:21:53+00:00",
+ "updated": "2026-07-29T08:32:28+00:00",
  "prices": {
   "NVDA": {
    "price": 197.01,
@@ -147,16 +147,16 @@
   },
   "WDC": {
    "price": 463.51,
-   "chg": -6.91,
-   "chg5": -15.48,
-   "sma20": 540.27,
-   "sma50": 558.43,
-   "sma200": 421.38,
+   "chg": -10.83,
+   "chg5": -4.91,
+   "sma20": 549.69,
+   "sma50": 558.94,
+   "sma200": 421.04,
    "high3m": 746.23,
    "reg": 463.51,
    "pre": null,
    "post": null,
-   "regClose": 463.51,
+   "regClose": 497.92,
    "sess": "reg",
    "mt": 1785268801,
    "ok": true
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 18.25,
-   "chg": 0.22,
-   "chg5": 9.68,
+   "price": 18.31,
+   "chg": 0.55,
+   "chg5": 10.04,
    "sma20": 17.09,
    "sma50": 17.38,
    "sma200": 19.52,
    "high3m": 22.22,
-   "reg": 18.25,
+   "reg": 18.31,
    "pre": null,
    "post": null,
-   "regClose": 18.25,
+   "regClose": 18.31,
    "sess": "reg",
-   "mt": 1785312376,
+   "mt": 1785313006,
    "ok": true
   },
   "^VIX3M": {
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 101.32,
    "sess": "reg",
-   "mt": 1785312683,
+   "mt": 1785313310,
    "ok": true
   },
   "^IRX": {
@@ -883,27 +883,27 @@
   },
   "^TNX": {
    "price": 4.6,
-   "chg": -0.8,
-   "chg5": -0.52,
-   "sma20": 4.57,
-   "sma50": 4.53,
+   "chg": -2.11,
+   "chg5": 1.39,
+   "sma20": 4.54,
+   "sma50": 4.52,
    "sma200": 4.36,
    "high3m": 4.7,
    "reg": 4.6,
    "pre": null,
    "post": null,
-   "regClose": 4.6,
+   "regClose": 4.64,
    "sess": "reg",
    "mt": 1785265194,
    "ok": true
   },
   "^KS11": {
    "price": 5663.24,
-   "chg": -5.98,
-   "chg5": -16.69,
-   "sma20": 7091.15,
-   "sma50": 7805.31,
-   "sma200": 6718.59,
+   "chg": -16.17,
+   "chg5": -13.09,
+   "sma20": 7298.99,
+   "sma50": 7860.51,
+   "sma200": 6724.66,
    "high3m": 9114.55,
    "reg": 5663.24,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64320.0,
-   "chg": 0.7,
-   "chg5": 0.35,
-   "sma20": 64465.94,
-   "sma50": 63343.26,
-   "sma200": 69782.46,
+   "price": 64250.0,
+   "chg": 0.59,
+   "chg5": 0.24,
+   "sma20": 64462.44,
+   "sma50": 63341.86,
+   "sma200": 69782.07,
    "high3m": 73754.84,
-   "reg": 64320.0,
+   "reg": 64250.0,
    "pre": null,
    "post": null,
-   "regClose": 64320.0,
+   "regClose": 64250.0,
    "sess": "reg",
-   "mt": 1785313289,
+   "mt": 1785313911,
    "ok": true
   },
   "USO": {
@@ -978,115 +978,115 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.61,
-   "chg": -0.1,
-   "chg5": 0.26,
+   "price": 163.62,
+   "chg": -0.09,
+   "chg5": 0.27,
    "sma20": 162.59,
    "sma50": 161.26,
    "sma200": 159.0,
    "high3m": 163.83,
-   "reg": 163.61,
+   "reg": 163.62,
    "pre": null,
    "post": null,
-   "regClose": 163.61,
+   "regClose": 163.62,
    "sess": "reg",
-   "mt": 1785313292,
+   "mt": 1785313918,
    "ok": true
   },
   "ES=F": {
-   "price": 7479.25,
-   "chg": 0.19,
-   "chg5": -0.81,
-   "sma20": 7532.61,
-   "sma50": 7502.82,
-   "sma200": 7163.14,
+   "price": 7475.25,
+   "chg": 0.13,
+   "chg5": -0.86,
+   "sma20": 7532.41,
+   "sma50": 7502.74,
+   "sma200": 7163.11,
    "high3m": 7623.75,
-   "reg": 7479.25,
+   "reg": 7475.25,
    "pre": null,
    "post": null,
-   "regClose": 7479.25,
+   "regClose": 7475.25,
    "sess": "24h",
-   "mt": 1785312690,
+   "mt": 1785313315,
    "ok": true
   },
   "NQ=F": {
-   "price": 27892.5,
-   "chg": -0.11,
-   "chg5": -4.42,
-   "sma20": 29178.11,
-   "sma50": 29569.99,
-   "sma200": 27285.6,
+   "price": 27868.25,
+   "chg": -0.19,
+   "chg5": -4.5,
+   "sma20": 29176.9,
+   "sma50": 29569.51,
+   "sma200": 27285.41,
    "high3m": 30712.75,
-   "reg": 27892.5,
+   "reg": 27868.25,
    "pre": null,
    "post": null,
-   "regClose": 27892.5,
+   "regClose": 27868.25,
    "sess": "24h",
-   "mt": 1785312692,
+   "mt": 1785313318,
    "ok": true
   },
   "YM=F": {
-   "price": 52997.0,
-   "chg": 0.1,
-   "chg5": 1.04,
-   "sma20": 52681.65,
-   "sma50": 51808.56,
-   "sma200": 49858.38,
+   "price": 52977.0,
+   "chg": 0.06,
+   "chg5": 1.01,
+   "sma20": 52680.65,
+   "sma50": 51808.16,
+   "sma200": 49858.22,
    "high3m": 53372.0,
-   "reg": 52997.0,
+   "reg": 52977.0,
    "pre": null,
    "post": null,
-   "regClose": 52997.0,
+   "regClose": 52977.0,
    "sess": "24h",
-   "mt": 1785312679,
+   "mt": 1785313315,
    "ok": true
   },
   "GC=F": {
-   "price": 4100.4,
-   "chg": 1.59,
-   "chg5": -1.12,
-   "sma20": 4072.06,
-   "sma50": 4220.43,
-   "sma200": 4587.15,
+   "price": 4098.4,
+   "chg": 1.54,
+   "chg5": -1.17,
+   "sma20": 4071.96,
+   "sma50": 4220.39,
+   "sma200": 4587.13,
    "high3m": 4720.4,
-   "reg": 4100.4,
+   "reg": 4098.4,
    "pre": null,
    "post": null,
-   "regClose": 4100.4,
+   "regClose": 4098.4,
    "sess": "24h",
-   "mt": 1785312678,
+   "mt": 1785313317,
    "ok": true
   },
   "CL=F": {
-   "price": 82.14,
-   "chg": 3.63,
-   "chg5": -5.4,
+   "price": 82.04,
+   "chg": 3.51,
+   "chg5": -5.52,
    "sma20": 78.61,
-   "sma50": 83.13,
+   "sma50": 83.12,
    "sma200": 85.42,
    "high3m": 108.66,
-   "reg": 82.14,
+   "reg": 82.04,
    "pre": null,
    "post": null,
-   "regClose": 82.14,
+   "regClose": 82.04,
    "sess": "24h",
-   "mt": 1785312688,
+   "mt": 1785313317,
    "ok": true
   },
   "HG=F": {
-   "price": 6.33,
-   "chg": 0.12,
-   "chg5": -1.88,
+   "price": 6.32,
+   "chg": -0.02,
+   "chg5": -2.02,
    "sma20": 6.27,
    "sma50": 6.3,
    "sma200": 6.04,
    "high3m": 6.65,
-   "reg": 6.33,
+   "reg": 6.32,
    "pre": null,
    "post": null,
-   "regClose": 6.33,
+   "regClose": 6.32,
    "sess": "24h",
-   "mt": 1785312687,
+   "mt": 1785313320,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.7,
    "sess": "24h",
-   "mt": 1785312627,
+   "mt": 1785313310,
    "ok": true
   },
   "EWY": {
@@ -1199,26 +1199,26 @@
     "geo": false
    },
    {
+    "title": "Big Earnings Week: Meta, Amazon and Microsoft in Spotlight - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdzdOT1BzNkpmOUNmTlBBelhpUzR2Q2J0eWE2Y0pBT1VLUnNKRk5FcXNrVnNVTzZoRHpGWEtWQVdoQ3RXaEdtMUo1Q1dqQ2lhU0F4ejhLOXJqN0JqMFRKZmpHVkRzaTljbnlPa2ZTekhjZWpYUkgtTXVNdDVVeklOTGdDd0lmZDg2N3NOVHR5NWZwd2tGQTdGaVZzQ1hWaVV3M0RGZ3ZrOEhhYWg2Znc?oc=5",
+    "pub": "Wed, 29 Jul 2026 06:43:00 GMT",
+    "src": "Investing.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "xAI Is Challenging A New Minnesota Law Banning 'Nudify' Apps - Engadget",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZ0FUQW9VM3RsU0dGdTQxcWlzaG41Ni1vaXVUR0JTZTlVUEdjVUV4N1FJOENoTFNaVVlCY3FlblI1S0ppMEhVbTU4OUNsYW5IMHhmVDZvS2tLVXNkYlRlVmpaR2ZKMndPdVdRU2FSTmtUX1l2ME9zOURKei0xVktiWTdjemFOV1l3NmtXRmhjRmk?oc=5",
+    "pub": "Wed, 29 Jul 2026 06:35:11 GMT",
+    "src": "Engadget",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Micron has sold out its 2027 AI memory production and the cost is coming for everyone - Startup Fortune",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQRGI4T01nVmRjOHNzcENjWHAyRVFycTVmaVR6NWFQMUVuNDdYdFBXRUR4MnkyRE12SVhFMU1Tb2xsbXZQMmVfWHhfTkd2RUNrMGNTSVg2WUplbTVTaTg0SW5OS2RJVDh1X3dlam9Cd2ZxMWtoLVBtN0NPRXpkdFlLWnFwb0o4eFh1NmtKeEc4OHJEVTJtTUh4a2tvdExrN0gyb2VSaURsclM0OHR2dGFaZHRwaw?oc=5",
     "pub": "Wed, 29 Jul 2026 05:58:08 GMT",
     "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Hyperscalers: GPU Spot Prices Hit 2x Contract Rates - blockchain.news",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQZlV5RG9EOXYzLW9ySXI4TmlHQURuekZCMTc3NXZna3JLZUw5TTJObEdMY25ZLXdWemprMEZQSUVmLVg5d1o4R1FCQkRvcEI5d3FTZkRvOUVyU1VnX1BVeXBlRHF6M3BLcjUyRmZtdFhTQnpHS3h4VE9lRExZN2hiWk1QaVhncDJMRU5XMQ?oc=5",
-    "pub": "Wed, 29 Jul 2026 05:38:03 GMT",
-    "src": "blockchain.news",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Starship launch livestream: Watch it live today - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOckgxQ3FzS1lPaHJ4SGRKa0JIZ0hCTkh1SEgwSm02VEMtcGRoaHpReWpQTWQwMUgwdC1xZ1Y3X1ZfeWJDUDdOeGo2cnhiNkt0YnFxTV9uV2lwZjRITVF6VnYtTXdZU3VoRllwRF9qWVZKcWdNcmFiMVhxVHNlVDBZdjFBVWFucHhfNWVLdTZWN1ZZdWFTLUE?oc=5",
-    "pub": "Wed, 29 Jul 2026 04:00:00 GMT",
-    "src": "Mashable",
     "trig": false,
     "geo": false
    }
@@ -1257,23 +1257,31 @@
     "geo": false
    },
    {
+    "title": "The Fed’s interest rate decision, front and center - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPWTZhZGZ2Q2ZoZVB3NHVDaVhYTzFGcXZGcy1HM0s3Z0JVQWMzQWd1Qmw2R3BfR3hOeWt2dnlBVEV3TVJuWm53LW9HZFFlbG93U1JOSXZ6dVVQcmZiY082ZjFteWp0YnNMclNKU1ZEUkFxenJ5MDM4eHdtUTJjRVZJX3l5T1VJeUdNaXZrSngtLUR1Yi1JdzFOWC1QMA?oc=5",
+    "pub": "Wed, 29 Jul 2026 07:22:01 GMT",
+    "src": "FXStreet",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold ticks up ahead of Fed rate decision - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOYmpPZkdUdEJHY2hvRUZxbzItX3lCN3IxR0o0V3dXQnJoYi1xakZBT2xzVFVIZjdnVGZya2pFWDRUb0k1NUpWTjZyYnoyUWJNNzJLekRZcDNNeXhZcXpOeGdnenVPZGtVMlY4Wll5YUVSQklMYktHb0FYckJ5ZkNRajZOT0V6M2hjeUJTMVhZbHoyZlRJcnZxZ1ZyeFlCNzVKU29ETFFFc3o?oc=5",
     "pub": "Wed, 29 Jul 2026 07:11:56 GMT",
     "src": "Reuters",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "KOSPI Crashes 13% as AI Semiconductor Stocks Face Selloff - Whalesbook",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPbTNweDhWMjdwYTRFQVk1eEYxNEo5S2t4WGVab0JfRWxIZkUzMTVvSERhbjdVTmdPZnpMU0hhcmY1RzNVb0k2eGtZV2hNN2hadGV6M2ZOY3kycnFSbUdhVVZKak9fZ09MMDhOdkc2TEpiMEQ1RV9NSDFFXzhoWkRuUXZlV0h1cnUzOXRtdkQwOGJsTHl4QTRHUGg4bU5QeHQxbjAxellPdHRRYUV1c09scXc1aWlsNUNLNnpUelNlLVNjRnJ3VGpBLWR0RWtmOVk?oc=5",
-    "pub": "Wed, 29 Jul 2026 07:05:23 GMT",
-    "src": "Whalesbook",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Copper Price Forecast: China Growth and Chile Supply Drop Support Bullish Outlook - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNR2hiSWpYRmZMU2hEdGEyWjktRDI2ZktnMlRHamIzMEJRMjFWcVl1Q3JxbExaTlprcHZoY3lBd0wzQkhQa0NLRm51bHpDSHN6SmJXcDlEblRfWFoySEs2MnkwNEtFeGdabmZwdURMZGswRksyZGUyM09vSm9lSEUyREdVOFNOQlVJcW53ZC1UOHdlUGsxUVlpMlhya244d0hXbFRjeEFuLXZRREhOQWE3eko5RHhBMjBxbGY4MWNnWnIwRWRnVEFnZUJieC1JZW8yOTNleWJn?oc=5",
+    "pub": "Wed, 29 Jul 2026 08:24:00 GMT",
+    "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold (XAU/USD) price forecast: Fed decision and dollar strength - Capital.com",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9xaUJvSGxFaWFOS3dhXzEtWFhhV00zMWNodWNqMUY1QjluMFBFOC1RZThTQ0Vjck9JUHJLQ3l2V2FyZ2ZXNVZFdDMwak5lLWxpOFhHUmxDQUNEN1N5VjlRaFhvQ3hNUDFVbkJsdWhjQmN5OG90MndiT2ZUanY?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaHc0aVdkUDBrckZCWS01MzZPdHA1OWxlOUczZ2tpVVQ4VXJIM0wxbHNWSWhWeDdIZ096OXN2Q1J4c3VfZ3I0U0JTNnpVNTZYMFZWM3FpV0ZYNEVUemxHVWFrd1pFcjZ1R2lIR0prRVhJUXJrUDhBQV85TDhJdkk3R25uWGV4V1NwWlk1RnNmbmVnVkk1M1FsSXZXdEl5UQ?oc=5",
     "pub": "Wed, 29 Jul 2026 04:55:10 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Surge on Fresh Middle East Strikes and API Crude Draw - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxON05OZUw3SkU1ZU14cmRWNjJobkVsaXM0QjhidTJwNzVwaS04Qm9JQjRWSXhjVjlFQ1ZWeGgzcHRTMW8tLVctWkswSW5XMWJBMXpJWDVvaDRvOFl0SWtzV3NZelRUMXFxR0h4SVRkSmNsYk5SNVdtY19TcGU2YWlobnpMQjE5ZUhjZnVvSEJacVZGai1MSDYxS2l1REFyc3BDaVVQdkZfb2t2N0JHWFRNYjdoSXc4RXhnU016Q9IBwgFBVV95cUxNdmJaN0NEbHZDNVRHN3pDb182Nk1aemtXUHhEUjQteUNNTC1JY2VoRHBHS0dBRl9FMWpPMlhTVE9meFYzM3ZmQ0JWQ25wZEJLaUdoa2gxODlJTDg2QTVfanRNdlROTEtWTFdUU2UyVzhTMG5HQk9nY0Mtb2xnZ0FZVEFwMmsyRm5uZ00yZkFNVWxEVHZzZXFoMkx4VEVMUExtak5zQ3VMeThHQU13QzRPY185XzJibkE2SEU4a1ZrNVRxUQ?oc=5",
-    "pub": "Wed, 29 Jul 2026 03:01:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1475,7 @@
    16.59,
    15.84,
    16.73,
-   18.25
+   18.31
   ],
   "tnx": [
    4.35,
@@ -1505,7 +1505,7 @@
    101.19,
    101.05,
    100.5,
-   101.33
+   101.32
   ],
   "bizd": [
    12.76,
@@ -1550,7 +1550,7 @@
    162.63,
    162.36,
    162.19,
-   163.61
+   163.64
   ],
   "uso": [
    150.63,
@@ -1610,7 +1610,7 @@
    60003.76,
    62257.57,
    64712.38,
-   64310.26
+   64245.8
   ],
   "vixts": [
    0.888,
@@ -1625,7 +1625,7 @@
    0.814,
    0.834,
    0.88,
-   0.889
+   0.891
   ],
   "hyoas": [
    2.92,
@@ -1692,15 +1692,15 @@
    0.2808,
    0.2761,
    0.2748,
-   0.2765,
+   0.2766,
    0.2765,
    0.2838,
-   0.2828,
-   0.2869,
+   0.282,
+   0.2848,
    0.2849,
-   0.2847,
-   0.2822,
-   0.2938
+   0.2872,
+   0.2839,
+   0.2911
   ],
   "xlf_spy": [
    0.073,
@@ -1710,12 +1710,12 @@
    0.0685,
    0.0677,
    0.0712,
-   0.0724,
-   0.0733,
+   0.072,
+   0.0732,
    0.0718,
-   0.0737,
-   0.0749,
-   0.0777
+   0.0735,
+   0.0752,
+   0.0779
   ],
   "cape": [
    40.57,
@@ -2478,7 +2478,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-29T08:21:43+00:00",
+  "checked": "2026-07-29T08:32:14+00:00",
   "openai": {
    "found": false
   },

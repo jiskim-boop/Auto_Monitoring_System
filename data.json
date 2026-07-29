@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-29T21:12:00+00:00",
+ "updated": "2026-07-29T21:22:00+00:00",
  "prices": {
   "NVDA": {
    "price": 190.01,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 142.98,
-   "chg": -2.47,
-   "chg5": -5.72,
-   "sma20": 147.37,
-   "sma50": 143.96,
-   "sma200": 143.67,
+   "price": 139.55,
+   "chg": -2.4,
+   "chg5": -7.08,
+   "sma20": 146.86,
+   "sma50": 143.83,
+   "sma200": 143.63,
    "high3m": 154.82,
-   "reg": 142.98,
+   "reg": 139.55,
    "pre": null,
    "post": null,
-   "regClose": 142.98,
+   "regClose": 139.55,
    "sess": "reg",
-   "mt": 1785272418,
+   "mt": 1785358820,
    "ok": true
   },
   "^MOVE": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.83,
-   "chg": -0.54,
-   "chg5": -0.31,
+   "price": 100.86,
+   "chg": -0.51,
+   "chg5": -0.27,
    "sma20": 101.07,
-   "sma50": 100.39,
+   "sma50": 100.4,
    "sma200": 99.27,
    "high3m": 101.61,
-   "reg": 100.83,
+   "reg": 100.86,
    "pre": null,
    "post": null,
-   "regClose": 100.83,
+   "regClose": 100.86,
    "sess": "reg",
-   "mt": 1785358883,
+   "mt": 1785359485,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63358.4,
-   "chg": -0.8,
-   "chg5": -1.15,
-   "sma20": 64417.86,
-   "sma50": 63324.02,
-   "sma200": 69777.18,
+   "price": 63384.01,
+   "chg": -0.76,
+   "chg5": -1.11,
+   "sma20": 64419.14,
+   "sma50": 63324.54,
+   "sma200": 69777.32,
    "high3m": 73754.84,
-   "reg": 63358.4,
+   "reg": 63384.01,
    "pre": null,
    "post": null,
-   "regClose": 63358.4,
+   "regClose": 63384.01,
    "sess": "reg",
-   "mt": 1785359485,
+   "mt": 1785360092,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 163.38,
+   "price": 163.37,
    "chg": -0.3,
-   "chg5": 0.18,
+   "chg5": 0.17,
    "sma20": 162.65,
    "sma50": 161.36,
    "sma200": 159.03,
    "high3m": 163.86,
-   "reg": 163.38,
+   "reg": 163.37,
    "pre": null,
    "post": null,
-   "regClose": 163.38,
+   "regClose": 163.37,
    "sess": "reg",
-   "mt": 1785359491,
+   "mt": 1785360091,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,18 @@
   ],
   "fundamental": [
    {
-    "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law - theverge.com",
+    "title": "xAI’s last-minute scramble to stop Minnesota’s anti-nudification app law - The Verge",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQV1lHVnA1c24tRlp6Z2JyOUtLQnB0SlBtS2hUbWVrNXRnTlBJSllEajE0YVlqRlAzNnJxWHNiZThpZHIwTFlXX3lNTmk0SGgxVmRnRnBkN21kNmtKVGlncUtkd05lc2pmSktJQi1qcnpyYVY4amV1U050dTNjZ3V4dnphcDk?oc=5",
     "pub": "Wed, 29 Jul 2026 21:06:52 GMT",
-    "src": "theverge.com",
+    "src": "The Verge",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic confirms Claude is down worldwide - BleepingComputer",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOSmRKWTF1ZEpWR21abVYyWDFndHR4dXpJTVlHcjZfRkZSR2xLTGJvWnJJZkxXenA2R09HQXRtRHZwXzI5TF9MMEFCR2lwOWxzRDR4NXJNRG41NlByZEYxOU5sTC1mNzRkc1dhdkFuT1gyRzRydnVMcmszTGxlREN4NVZzN0E0dThSNExFNDlVUmhaLWhpUWFiX0F0Y3BZMHZabmFPSC1PYkF2d9IBrwFBVV95cUxOR0VZbFZ2Z1h3UXRuTGMyMlRSR3g1Nk1OSTJTWE9aRi01bUNyaGFQbk0tdHRyUmhVZUVjVVZvVTMtU0hEMU1xSkFEb01MdEQtQzJUZUpCbk1QU0lsTjlNeGVwcDlJdmdJbWpSNlFmLWYzRnRYUzdLU1QxS0hpcEVIRURsSGxFWVFCdE8tTGtJY2lGUUhocjR1YWtmbVZnWkxabU4yeUNmSVYyd2gxSzlz?oc=5",
+    "pub": "Wed, 29 Jul 2026 20:59:32 GMT",
+    "src": "BleepingComputer",
     "trig": false,
     "geo": false
    },
@@ -1199,31 +1207,39 @@
     "geo": false
    },
    {
+    "title": "Meta and Microsoft report ballooning AI expenses: What to know - Axios",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBVNzVXVFJ2bFBDbldpbTAzSEhXbkU2S0l3RFp1UXZlNXhMVW5VdU0xSktwdXQ2a0U4UGlWYkg1WlI1SkFnb0hPX1NENEgzblZPS2VpRnpOWTBjWVJoTXN5dmRUQUYwcXJmbG1rOERUSkdlbzA4Mnc?oc=5",
+    "pub": "Wed, 29 Jul 2026 20:44:11 GMT",
+    "src": "Axios",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Meta Platforms raises lower end of capex range, sees increased legal expenses in FY26 (META:NASDAQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQNHMwQ2w3bkJRNmFldkVmajFaSWljbHYxUEJhU3NzSUQyM0JWVDZ6THpnc1NDY2ZNeWpEVXZxTWRUSUVYSVFPRHFhY1AwcFNhTHVpVWZUbjJwWWxreGtnVGxWTWNJc0lmbk95aHh2NVpnZFhZaUtfcDVNT00td3RmcXBJUjVhVDVyMDZDU0tGRFRNQnBudkpiYlRvSmZaRmxqOGJ3QjNXNGNfZUIxYnNBNGNobFpQNE5kdE1uMDloQQ?oc=5",
     "pub": "Wed, 29 Jul 2026 20:33:06 GMT",
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Microsoft’s cloud business boosts sales as AI investment climbs to $41bn - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPRmNXUTdDbzJrTGxjRWVfSm0xcUVfcGZjWEhnZXQtdGNLempfcHJhc1RhVWMzd0tWUHVQY3Rka3I0MG9HVk04b3BtaEdfNk1QeWRGWnVJOGNOM0NEZDV5UW1kTGVNVnNwVDdfWVl0ak1fc2I4blRwUVFYZHg1XzYwVDFjeEw?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:30:47 GMT",
-    "src": "Financial Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta's free cash flow wiped out as AI buildout grows - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZVVsNHpKWUwyNmRVZlB2Zml0d0QtZ0U5YTdKeDlIVXNISWdsajRiUE1vQU9JaHlUeDFWRjNUTGw0Y01TTHRiTlZjRDhJUFFSWXA4aktubGNNeURsSWtVTlJMaExmVFRCTFh6U3RKdWZnQnU1dzRTbzR5dTVWNHNkMTV3V3U3a0xxQWNjTnVPMHZCOE01dmt2TWQzZTBUUQ?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:28:53 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Fed holds interest rates steady as inflation raises pressure for a hike - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQRGc4clFvdXhTQk1TMW1fdzBfc2hSYU5GWlNRTXg2N3ZjdC1BdDM5azhUTV92elNvdU9xLUptemxYbVpEMjJONTFZdFJ4eUJxcVpqd3cxR0poeFo5YWhOUzNEeHNQU1pQVEtOVGhvblJlLVlhTHJuUlZGMkdRNlREXzVQWTZQX0FGNEl1cy1WNE02a2FOUGRjVDV4Q3RFVUwzSnFxLVNPTQ?oc=5",
+    "pub": "Wed, 29 Jul 2026 21:15:15 GMT",
+    "src": "The Washington Post",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed divided over decision to keep rates on hold as markets tumble - Politico",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNY0x5Vlh4Vlh5emEzSHFYWGdYWmFKRXBfRUZFYnRPVE5iR2xCc1hRamdJUnotTTdXQjFMdjhScFJnbl9jaWEzMFphSTJERWx5dmJrd05iNWJJajYyOTJmV3hLRC1NWWNObGRudnpKY1pGVVdNYUczOTVWa0tEdHJrcVhaTUR6VkhJNHUxZkNPcw?oc=5",
+    "pub": "Wed, 29 Jul 2026 21:04:00 GMT",
+    "src": "Politico",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Fed Holds Rates Steady but Three Officials Vote for Increase - WSJ",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbWprLW5qMWxhbDFjaU9XY183blpJX09mY0hSOXg3dTVxZ250OFp3cFNPekxFdFkxX09jTzNNNWlFNGtjQnduS2JYX3FPdTZSUVZiMDJZYlRyeXlIX19XaGprcFp5dnhjSWxiOUNZeG16WkJqZXF2dGRIbTI3YzFGR3ZOVXkwbzBpVTFSclNWRmx3OTRPdmg1RTNvQXYzb3p2aGcyMjB2NW9Hc24tYkdsMVgyb3Q?oc=5",
@@ -1249,26 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Fed leaves interest rate unchanged but with 3 dissents as Warsh praises ‘good family fight’ - AP News",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQN0dYeFppekRSNVVZZFhyUjJpLXd4aWlvMWpiZDc5M3lVcXZFWW9WbjVLSzl3MEZDcHhBMkdjZkpWTjRoY2ZRVThJeHN1emVWVzZXRmlOTFEwM0ZiR1d6NWV4b2dqdno0d0F2cU55emE2RjBjNmJtLUIwMzhfcFNlMUdEY0FJNnNTT2N4Sm55RDBJblExX2dYbmJCMWU1ZnNzVE5jbTdLQVZ6VF94OFE?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:36:00 GMT",
-    "src": "AP News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "‘The Fed’s on the case,’ Chair Warsh says as rate pause holds - RealEstateNews.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUjRZalphdG9IN083VXF0cnBRNTYtMzFKVUIyTXV1VkVlNVVpTTl5ZnhiWVNjVFpLaHdHbVY2VTdIOEhKZnJOemUydENyc09DRzQ1RldfdEYtWmpBX2sxYlFhcmtXaUIyQzVjU1NuQUh1enJFN1NGT0lkdklhaHk1T0ZGNjVHb0xZdkRxNzFtUkdDQ1FyczZ5Qk80UVJHOWtS?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:32:14 GMT",
-    "src": "RealEstateNews.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil prices jump following fighting with Iran, while U.S. stocks sink after Fed opts not to raise rates - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQLWZsXzU2RldwRUMxMDNuaFc0SmU3YlhhMHR1WnRRaTlEc3hnVEV4bjNRb1pCbDZfVmZSV2M2NWNPOEFfa0NrbXdCVUdSbVJLUUp6dWZIZHktd1U1bWRDZFNFVktSTXg3blFjcHB4MmdfX19VbkxnYlFGRXZCYU84d096VEtROXp1UVhqWWhNaFVLdlVKWjU5aVF4ZG5FQUhTLUpZUDhrUFN0SDFpR0poS1J6Y0wzQ3ZmeDU3OUUzaXBKUXNkSnVBVXpwNmZlMGc?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:07:57 GMT",
-    "src": "BNN Bloomberg",
+    "title": "What Today's Fed Decision Means for Mortgage Rates - U.S. News - Money",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZER5Wk1oZjBsVTJJd2lBdC02eXhGejdYaFJwWVVNZVB3cnRYczRyYlZtbXVkRXN4bEEyZnZqQW1yNTk3c21KXzZTNWticW5vdmF4Ym1jZXEwd2FCb0w5MU5tS3FyaUVHS1J1ZUhTT0xTd2JKRDQyVldMNW1RREYyWDN6U1NmZ01lYzRHU2ViWmVtZkIzc1hWc2tKdlNhb1lp?oc=5",
+    "pub": "Wed, 29 Jul 2026 20:36:17 GMT",
+    "src": "U.S. News - Money",
     "trig": false,
     "geo": false
    }
@@ -1279,14 +1279,6 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE8wQUZsMVRKYVhqVDAyaUhwRHFqdEJGY3ozVEJWekpDcFUwQWFsODdRMUVlU1RzRzBUUWZlOUx4ZGUxTm9JZHp2SGNVZzZzak9pM3dmNlI3NU9zQUc0R2diMElQSlN2Ylkyd2lnQmpqanpGdUVVU1RDVXRnWQ?oc=5",
     "pub": "Wed, 29 Jul 2026 20:10:41 GMT",
     "src": "TradingNEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil prices jump following fighting with Iran, while US stocks sink after Fed opts not to raise rates - AP News",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVVhqMlRBNU0taHdVcUdHUUE3eDFsZEFQbTZ6dElnTEtMOGVSb1ktYlhpbmJHMm9NY2xRc1lQRWRXcGZ2N0NUNm9FSWV1ZkQ2MjAtaE5WWkwxeHFDMmxxX3I4MHNDNmduRnZ4ODNzNUtSZ2hyZEh3NVBtMmthTHA5UDRzcTBXOWJYNS0yVHlUM0loVXE5VThkeg?oc=5",
-    "pub": "Wed, 29 Jul 2026 20:03:00 GMT",
-    "src": "AP News",
     "trig": false,
     "geo": false
    },
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA4SlBtWlNqSS1jOTRmUi1XQnFocFh5bGZnSWUtMDJRUEZ2ZzhyWUt3RWE0ZXJDbC1Ba1dXZ0tZYkxtcWFBbnM4ZEJZTDRIaDEtVFN0V3dleUVTRUFzMUhKaEw1dFFPdDZ3b1VTOVM1b3dBUEZhVlE?oc=5",
     "pub": "Wed, 29 Jul 2026 18:35:11 GMT",
     "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil prices surge on renewed Middle East tensions - Oil & Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQcUpqc1gwQXYzUUtwTFBtTkhuRHhHSk40bmEwTGEtM3Qta3RoUHR1RWJTN3gydTRIWUFHb2VxUzMwQ3FsX054bWVXUm02ZUVUdkJQdEFldVdwSWd0WHp2ME00Q0JlUVBsd3BBRnFvS1IxY0NRVjJhYXR3YUVsaU13TjhQWkhESFNRQ0pHdXU3WS1xZFF4cnRCcHFQSUpfRDQyUk40el9tY3RTMXJRaHIzMEx1Mjd5dFlt?oc=5",
+    "pub": "Wed, 29 Jul 2026 17:41:19 GMT",
+    "src": "Oil & Gas Journal",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    101.39,
    100.94,
    100.73,
-   100.83
+   100.86
   ],
   "bizd": [
    13.15,
@@ -1550,7 +1550,7 @@
    162.54,
    162.54,
    162.07,
-   163.38
+   163.37
   ],
   "uso": [
    147.09,
@@ -1610,7 +1610,7 @@
    60003.76,
    62257.57,
    64712.38,
-   63339.96
+   63396.09
   ],
   "vixts": [
    0.937,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 2.5,
@@ -2477,7 +2478,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-29T21:11:47+00:00",
+  "checked": "2026-07-29T21:21:49+00:00",
   "openai": {
    "found": false
   },

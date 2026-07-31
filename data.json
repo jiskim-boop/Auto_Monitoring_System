@@ -1,5 +1,5 @@
 {
- "updated": "2026-07-31T21:21:55+00:00",
+ "updated": "2026-07-31T21:42:08+00:00",
  "prices": {
   "NVDA": {
    "price": 200.75,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 262500.0,
-   "chg": 25.9,
-   "chg5": -2.78,
-   "sma20": 263725.0,
-   "sma50": 299770.0,
-   "sma200": 244439.58,
+   "chg": 26.81,
+   "chg5": 5.21,
+   "sma20": 262550.0,
+   "sma50": 299510.0,
+   "sma200": 244588.84,
    "high3m": 362500.0,
    "reg": 262500.0,
    "pre": null,
    "post": null,
-   "regClose": 207000.0,
+   "regClose": 262500.0,
    "sess": "reg",
    "mt": 1785479429,
    "ok": true
   },
   "000660.KS": {
    "price": 1718000.0,
-   "chg": 22.63,
-   "chg5": -10.47,
-   "sma20": 1923850.0,
-   "sma50": 2168880.0,
-   "sma200": 1548300.0,
+   "chg": 29.95,
+   "chg5": -2.33,
+   "sma20": 1900400.0,
+   "sma50": 2168340.0,
+   "sma200": 1549702.48,
    "high3m": 2919000.0,
    "reg": 1718000.0,
    "pre": null,
    "post": null,
-   "regClose": 1322000.0,
+   "regClose": 1718000.0,
    "sess": "reg",
    "mt": 1785479418,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62949.85,
+   "price": 62952.84,
    "chg": -2.74,
-   "chg5": -3.66,
-   "sma20": 64432.65,
-   "sma50": 63388.32,
-   "sma200": 69554.84,
+   "chg5": -3.65,
+   "sma20": 64432.8,
+   "sma50": 63388.37,
+   "sma200": 69554.86,
    "high3m": 73754.84,
-   "reg": 62949.85,
+   "reg": 62952.84,
    "pre": null,
    "post": null,
-   "regClose": 62949.85,
+   "regClose": 62952.84,
    "sess": "reg",
-   "mt": 1785532889,
+   "mt": 1785534097,
    "ok": true
   },
   "USO": {
@@ -1175,11 +1175,35 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX Stock Hits a Record Low. Starship’s Heat Shield Is Just One More Hurdle. - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYnRuSm83aThRNHMyQkdSNWNiSUpsSFEwMUV5N3JzWGtEM1VpWGc5UFltQVFXMGxEUXh1UDYtd0w3b3A5aUhVT1hjU1pjNjJmazVXRXdOMXpLVEJvd0QyMTJWcDlCazNOUVNaTGxiTWxhSlhZMDZHdWg5SkJHeGs1SA?oc=5",
+    "pub": "Fri, 31 Jul 2026 20:52:00 GMT",
+    "src": "Barron's",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Likely illegally, Claude gained access to 3 networks. Will Anthropic be held to account? - Ars Technica",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPTTRWNDd6Z3FzOGRseFdhbVR1c1QtMkp0NmNHMGpSWlVMTFhRVklySFppd0x6al9FVXMyOHlaci02Um1JUWdvM3ZUSFdXeTQ4a29MSDh0bHdvTHpCbUdXZFF5dnVaYnRUOVo2MFpQbzFheDV4aWg2cnRQN2RzQUJqVFk5UWZrdXVQQy1rSXg1MlE1WFA0TFZjaXhkbTZQOTE4Y0ZzbXUyOE94UGpJUkluSDFwZmlrVE5HcEk0MU1nZTRMVm5abUE?oc=5",
+    "pub": "Fri, 31 Jul 2026 20:39:14 GMT",
+    "src": "Ars Technica",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Request by Elon Musk's xAI to temporarily halt Minnesota nudification technology ban denied by federal judge - CBS News",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNakcxRE9oSEEtZ2cxY2JfWWlVZ0RmdWZsVnJyOVk2SmdCTV9jRW51R1pQTHZBXzZyMFFMVjN0V3psWFR4eDZ0ZjRaRm5OWTd2WHBYaVB3Q2Z6TXZpd2daZGdMVG8xZlJ3dkdpa3dfejVBRXkxYnZkdVVGcWZxMllLS2Vkelh2UDR4M1A0OUwxQ3R5dw?oc=5",
     "pub": "Fri, 31 Jul 2026 20:38:18 GMT",
     "src": "CBS News",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "AI & Tech Brief: Anthropic’s rogue agents - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOam9qRkxNMGFrS3liX1FLSGtOV1ZTZ2oxT3d4YnA4Qzh0LVNaX2RpZ3dvM1RYNkhDTUNweU1OYmpvbXhnSDJvV3JJV2lQd2hSNHJEOHhFVEdxNjhkZm42RmotU3B0aXhzdHo2R1Juc01CUnh3OWc0ZXdxNTByU3dkSWVoMzVhRHJkdzlLNXhsNFh5QldlX0N2RlZubThqdkpQd3ljRS1xLWQxUXVLNXpz?oc=5",
+    "pub": "Fri, 31 Jul 2026 20:12:49 GMT",
+    "src": "The Washington Post",
+    "trig": false,
     "geo": false
    },
    {
@@ -1195,30 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNYzZEZHowdTFHZUFscGxJSFFCaFo4eGVzcXR4WHVfU3BZVlRyaEFXZ0NzUE80QjdCMTRRTzJMaUFoa1NWcjNmSjR1SC1JQ3R3S2luOGVLLTVNV3kxU0ZlVVd2VW9tRW1idEd5dUVUbmkzcng0QUw0c19OcDhjNGo5dnE0OFNwcE9URHEzN01lUEdld2pZZm9oVUtCb0d4VGtESlpNVU5zT1gwMWF6?oc=5",
     "pub": "Fri, 31 Jul 2026 19:31:53 GMT",
     "src": "citybiz",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic says three Claude models reached real-world systems during cyber tests - Axios",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1SRkdEYU9lcWFmZTJ3aWVzNWYtVkxLQXVBSTEwRWp0UnNCOVJBSHpRZ3FlR3ktOEozZkVVVEtnc2Nhb0I3Vnp2MUtNT2lTSEpWam1RMWw3V1M3MjBQVUxNdFZCXzh0ODhEOW96QW9UbzB4bzNr?oc=5",
-    "pub": "Fri, 31 Jul 2026 19:29:55 GMT",
-    "src": "Axios",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Another AI Jailbreak: Anthropic's Claude Escapes a Test and Hacks Outside Groups - cbn.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQMnBPMEFZMVUzXy1XbnVVX2NmYWE2dmJjQVg3RmJYSDQ1R0VpZWo4LVgzTndKZE5aUjZfSlc4dnVHQWxKaEhjeG1hamw3ZVVWODJNUEdveWxJYTRWc3NwVW9WWFExM0h5MDRMbktjallHNG9nOGhnVmNhSVNLSHhRYVpsYVBzbEVwc0JkQzUxY0lsSUVZaDNUc19paTJNV3pMWmc?oc=5",
-    "pub": "Fri, 31 Jul 2026 19:17:47 GMT",
-    "src": "cbn.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Wall Street To Big Tech: Show Us The Money In Pricey AI Race - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVzZpQWZ2VVd0SDdHRWJ5Y2RXQXptLXBJbm9RT1hMNnhmVzNKamlRdHdFT2otZTRic0k5NlVQY2NQR3JycWY2QmVuZzFPdlBGQXNIbVJnRGVKa0NveXBndVNIZ01VZ2IxVnpDeEZZSjNfRzZ1ZHBQWlhOS1FDcTBUUURQai10UUVXQ3JxRFV2TVlBdWFySXc?oc=5",
-    "pub": "Fri, 31 Jul 2026 19:13:00 GMT",
-    "src": "Investor's Business Daily",
     "trig": false,
     "geo": false
    }
@@ -1275,18 +1275,18 @@
   ],
   "flow": [
    {
-    "title": "The Yen Carry Trade Is the Hidden Wire Running Under Big Tech Stocks - stonex.com",
+    "title": "The Yen Carry Trade Is the Hidden Wire Running Under Big Tech Stocks - StoneX",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWGVBU0hKNlh4TzJpZ0RmMXFOU1FFeVlPdU0yZlV1ZXQ2VlR5Sk1xTHdvRDlGRXpCN2ttTkFCSkxBWkMtczNUeGd3RXlrQ0VLanBPNEpoS2xyOUVjaWtyUEotaWVKWjJub0p4VkppcWdrWWg1YTNCMURBSXFIVDdHVjBNZG5acTUzaE8xS1Qwb3FBVmhGNHVVa0pYaEFCWkpxZUpfbEhjdGN2ZUk?oc=5",
     "pub": "Fri, 31 Jul 2026 21:13:16 GMT",
-    "src": "stonex.com",
+    "src": "StoneX",
     "trig": false,
     "geo": false
    },
    {
-    "title": "USD/JPY Intervention: How the U.S. Treasury and BOJ Are Weaponizing Yen Volatility - ctol.digital",
+    "title": "USD/JPY Intervention: How the U.S. Treasury and BOJ Are Weaponizing Yen Volatility - CTOL Digital Solutions",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOX3ZkRFFyek56TnJ5Tmg2NWk4VURFLXdHUFEzVFJpMGo0MFVDajhjZnFHeGR6RjhkOFprNk1uSFRSYlVHUEdpdVU1V2ZmVGR5NkFLS01kV2hjajNJdHRfWVBuZjBoMmJGdmV1bjZYWmNmeFZ6M3VrWXRFU1FOQ21FS1N2cnVCNDZMUmFrbHdnQ2RGbi1qQVZHUw?oc=5",
     "pub": "Fri, 31 Jul 2026 19:48:10 GMT",
-    "src": "ctol.digital",
+    "src": "CTOL Digital Solutions",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    62544.2,
    64127.14,
    63899.46,
-   62949.85
+   62952.84
   ],
   "vixts": [
    0.829,
@@ -2475,7 +2475,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-07-31T21:21:45+00:00",
+  "checked": "2026-07-31T21:41:56+00:00",
   "openai": {
    "found": false
   },

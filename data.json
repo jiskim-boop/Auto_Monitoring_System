@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01T13:22:10+00:00",
+ "updated": "2026-08-01T13:32:11+00:00",
  "prices": {
   "NVDA": {
    "price": 200.75,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63028.6,
-   "chg": 0.34,
-   "chg5": -1.09,
-   "sma20": 64389.36,
-   "sma50": 63375.3,
-   "sma200": 69468.42,
+   "price": 63023.05,
+   "chg": 0.33,
+   "chg5": -1.1,
+   "sma20": 64389.08,
+   "sma50": 63375.19,
+   "sma200": 69468.39,
    "high3m": 73579.69,
-   "reg": 63028.6,
+   "reg": 63023.05,
    "pre": null,
    "post": null,
-   "regClose": 63028.6,
+   "regClose": 63023.05,
    "sess": "reg",
-   "mt": 1785590499,
+   "mt": 1785591103,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "CRWV Stock Forecast 2030: Can CoreWeave Outgrow Its Debt? - Northwise Project",
+    "title": "CRWV Stock Forecast 2030: Can CoreWeave Outgrow Its Debt? - northwiseproject.com",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9BR0pUUVhqblV4Z21tZXlUWlQ2dE1adF9Db2JLbUN4LUppVVdyNzJ0cUU4OWlPWmplX1VpRkxMUk5qVzl4OGlwWkxRc2E1dk13UWZWTDFaMDREd2Z4Mi1SWUtzQ0w?oc=5",
     "pub": "Sat, 01 Aug 2026 12:21:33 GMT",
-    "src": "Northwise Project",
+    "src": "northwiseproject.com",
     "trig": false,
     "geo": false
    },
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "AMD Performance Comparison Radeon RX 9050 and NVIDIA GeForce RTX 5050 - GameGPU",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHgwajI1SWlTLTZiMGFLakpuWV9USE84Zkh5MERKV0t5VzZDdmxiVklMZEhlaUFiOXJhMnA2VlJCSVBwTm5hRUNERTU0R0h3SlBCaFF4a19CSFk5b2hpVkt4UDhzZWlhN2VsWVFkTXFaX3Y4emMydEJQSVpuelZneXUyaHNnYXJQWExMNGw0WnVGLVJKa1BjQmxPQjZEaFVFSkZZMmpwZVF6MURI?oc=5",
+    "pub": "Sat, 01 Aug 2026 13:11:32 GMT",
+    "src": "GameGPU",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "5 Tech Stocks Most at Risk From NVIDIA’s Stranglehold on the Industry - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHUxOXhVVlQzT19XLVNCeE1YckRNMlI4cWthdnd6VUFrVUo4NU1WYkF6ZXo1b2x2RFM0VXFoX0JWbmpiRHBELWJPNjRMbGdxVGM0VWxFQTBPMk40WkFZZDVfdTJoUWlJa2JIOV9odEtQd1hYQS11YXBtRGJCSi1uOElRc1Q0WHNJMzVyWHhQQ1l6RlhCdHBJWmcyY05xM3RoeDVyWnZQOWdIZlVwNENsTlB3?oc=5",
     "pub": "Sat, 01 Aug 2026 12:00:07 GMT",
@@ -1191,10 +1199,10 @@
     "geo": false
    },
    {
-    "title": "xAI adds character references and 1080p to Imagine Video 1.5 - testingcatalog.com",
+    "title": "xAI adds character references and 1080p to Imagine Video 1.5 - TestingCatalog AI News",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZlRnUXdjaW44RlhubXlnVk5WMUxjN1VsNVZ5WllqckdYVjdvNUNRalhrdWJtVl9WdkJnbmx5d2NIQ3hCb2h0WGN5eDd2d2N1QjNLLWJnd0plRm1fNG5GYXBsWVNON3A0SVJyWllaV05FNWotdXk4MVFGaEZ4X0F4c3FvM2Z5cmNGVUYzSE9QMzk1a21oV3JR?oc=5",
     "pub": "Sat, 01 Aug 2026 09:55:53 GMT",
-    "src": "testingcatalog.com",
+    "src": "TestingCatalog AI News",
     "trig": false,
     "geo": false
    },
@@ -1208,18 +1216,10 @@
    },
    {
     "title": "Chris Wood warns AI capex binge may burn billions as markets turn against Big Tech spending - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxNU092X25jVFd0S09GamlDRUhrSHlueXFGR3Rna3lWd2VnR1NIcnhqUEZ6VmZiOUd4cmNTWUZBX3BMcVVfYVpzbEtMOXBSNzBZeWVtWThHclZzSG9INmFnNWJWVXA0RW0yMUpkcTR0OE5hWEFsTTBadlVPNV9qZVdGc2xfc1U4RnU1bXJibExPci1MTlkzY0w2NXhSa0RZNVpYenJDZ0k5VHQzQnJNUTRzb1RmbUJuVmlLM2VpZmJaTDVDVVdVNE1QSkc2VHJsZHVHVTdCZzRLLXZiQWdfd040eG4xdXZ0TUtweDVKc29kb3JXUmJDX2FlbtIB_gFBVV95cUxNTHpWZm84SGRBcGVUbkE3RG5vWEhmT3NEZ2RtN3hka1IwZ2RwV1d3Yk9hNnlrUUdKdFgzc0hxX29TN01wZlp0Ml9PWVpXUVp5VngwX2RZS3JoLWNnaHh3SkpFWW9DRU9EMjVWNFhEbHQ3RFBvM1F3RV9BSV80UGd0cVNrRFRzOWV4MXRIY1BWb3dLYm9MTXBPMzB3dU5adnhodUl1cVBpNzNEMFpTbTEyVUNzWktBZHNPcGZIQVQ0RF94S3FMa2ZZdUxRcEdKdUtKSjMxY2dvTjJ6eTVDNXJabUdnTi0xNUd2YU5vd21IeFN0YnItbDVHZnhBcGhidw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPM3JZSVYwejF6TTZHRFhSY09xbm1pOGRrSThRMW1STkJoTFQyeXVfSWxFVXFEVXBjNmFVZFljVWhoMkxBYklBeG91TVdDNFRaVldlNW1OMzl4Z1FfN1pVaWFTZWpkVGpubHljcFl3ekhvX3R0SE1tcGloa2pPN3JOdVJaY2hNTVFPU19WX3JvNnNWR19aWGZlejZoUHlKWUVPNEoxVjd1aUdGODRXTzluODNJTzVCcjhUX3VqUEdZWmtSbXlsUnJwd3JrMUxyODZUakkwNXpCSEZ0bUtaVDU3QVRsYzAxcmhiR3F1cUZ5ZkNMUHdmNFdpOVRjV1ltaXd5ckYtWWx5LTZuZjNNekHSAZMCQVVfeXFMTjF5SjVpaEZVdEpaOURIQm8xekR6bGRqRzMwSHZQNWxfZTJMM0paOEpTWjNkaVJsbGJQQVVlZ0pxb0p3WkVid0c2Z00yMVBIdTNzQUdIM1A1QW90emk2UGV1UXhGd0VzY3FiUXlySkg2d3pyYVZFUmhQWnpjX3NlSC1QR2JhMm9Uc3RjR251MEk3OTBfb3pmeV9xNzZ2Y0pyMGR0QzFfcm01bjV1Uk1udTdqN3plYjdUcjB6RnQzY3hLN0Z4X1VzVFMzSGtyajdSVlIxU3FKV2V0VlVLakJjVTJuZ0FwdkRta2N5dHZjcXdGUFlHbnNOc3ctMWVrNEhkTWdYXzlJWWYyczZFY19RRUFoOGM?oc=5",
     "pub": "Sat, 01 Aug 2026 07:38:20 GMT",
     "src": "The Economic Times",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Intel Plans Customer Volume Production of EMIB-T in 2027, but Cost Advantage Hinges on Yield - XenoSpectrum",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBGVTdHRHdULWFmU1ROaWFGc2Nkb1NpLWphQXhsWmVMWjlLY1FzekRWa1otbjNaODVDYWdiV0ZrVG42U2JtQl9aakJORy03VUFlQ1VWUWZZT2p2WERfTGFzWXpTaXRPX1UwaFE?oc=5",
-    "pub": "Sat, 01 Aug 2026 03:34:17 GMT",
-    "src": "XenoSpectrum",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1249,10 +1249,10 @@
     "geo": false
    },
    {
-    "title": "US and Israel Weigh Iran Energy Strikes as Markets Brace for Weekend Supply Shock - vtmarkets.com",
+    "title": "US and Israel Weigh Iran Energy Strikes as Markets Brace for Weekend Supply Shock - VT Markets",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNTHh6Y3huMWdvSWN0OGpmYUFuejZJdkNEQ0RONEZUQ2pOMFlwSC0wZWVyb2JQNnpEMjcwSklRUnNwRUZ1NVdsZ3ZOR1FRUlVxOHhwNVVob0h0TnRaZFdKaUF3UG5JNnl3ckZ6eXpJQklWeUExQS1fMmI2R0RKeU1JVXJobUFhWnVTYm8wNkllVVVPZ19SUldzRlBreXpzamJUOXZZS3A2ZFJJZEE4cndwSlU1b2hQY1N1OE9kMWVIXzJObl9IMWc?oc=5",
     "pub": "Sat, 01 Aug 2026 04:52:34 GMT",
-    "src": "vtmarkets.com",
+    "src": "VT Markets",
     "trig": false,
     "geo": false
    },
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "UBS Chief Pins Market Risks on Geopolitics While Investors Eye Swiss Capital Relief - AD HOC NEWS",
+    "title": "UBS Chief Pins Market Risks on Geopolitics While Investors Eye Swiss Capital Relief - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPQkl3YzJSLWtSa0h5TC03Qm5PaXNfSlpwYjVBU19vWWJjdTZXY3c2enRuUTdnX2tPWFY1ZVBBZkt5dXFoenpQNUVGM3huSUV4VDd0dFZzVURjT3UxdGN0aWxEb1g5Tnk3TXdnajYxTlNJcWFLVUxwVUcyeUVwOHlPVC1nVXdTVWhqNEFZU01VWklzVTZTS0tKdXQ4cWZPZG95bDVXMTFDQmY3U1g0SnhkeWZWZEtEUnZJaGdNZW96SFB4YVNuTEJsRUo1MU9ma3k2dkJ4bXdTZw?oc=5",
     "pub": "Sat, 01 Aug 2026 01:04:31 GMT",
-    "src": "AD HOC NEWS",
+    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1291,10 +1291,18 @@
     "geo": false
    },
    {
-    "title": "Gold Rate Today: MCX Gold Below ₹1.45 Lakh, Silver Above ₹2.35 Lakh Amid Market Volatility– Check 24K, 22K, 18K Gold Prices Across Delhi, Mumbai, Chennai, Kerala, Surat, Pune & More - sundayguardianlive.com",
+    "title": "Bitcoin just slept through Japan's rate decision, but a swollen yen short is quietly threatening a massive margin call - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPRWJmVjN2NW83Qk9rekZuVnEzUE92Y2VIVHBUOEZKZElDOTRSQ0ZRYTU2UlM4YV9SU1hvVTNUODVPRDdiVTBhNVBqbFBYdlByQzQ1YkRMc2RReVg1QjhTMERlSUNodHRZNnpZeXpaZkl1bWEzZVpTVmh4MVdjWGdfOUk1aDBMTXlHWUg1MzZWS0gxUm1PV0l4NWJ5Y0l0ak8wWmlHb3NKLTMxNVN5T1BmMWQxUXZwbkZUdzhhemwwZndvTXNUR3kxc2V2ZXlFd0plMVprWlZhSkg?oc=5",
+    "pub": "Sat, 01 Aug 2026 12:10:56 GMT",
+    "src": "CryptoSlate",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Rate Today: MCX Gold Below ₹1.45 Lakh, Silver Above ₹2.35 Lakh Amid Market Volatility– Check 24K, 22K, 18K Gold Prices Across Delhi, Mumbai, Chennai, Kerala, Surat, Pune & More - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMiuAJBVV95cUxNRjY5R21BYVNaN3RuRU5YWDBYX0stV1hjLWdNbHJfRVJQaWsyNmlWOEdvVWdUS2hWUHdOcUdYSm81V0RSbURBekJWb2laRm84b2FDOG54N1pQSWVNTjNTcVlGRlhTbWxtOFo3dGNsNWhHN3pvZnJlN2I5d1J6RXlUaTlZLWU1QWEwazRQVmJsb3pVTlpib0J0cGEwQ21TZ3E3Z0J2bnRxYWM2akt5TGNEQWpLZXJlVndZTWNQY1hBUEtiVkhONk1wZnVxQ1paQlhGMXNrUjVOd3MzTVpHbDdUajk3V0JaZnVFZUtDMUk3QURZcldFMWkwcXU3ZDFvRE9fZWkyMUR1cnFfNE1wTFBJNFNrV0l0WWZUaWpEdEVOZEo2UnhHX3B4eEZPaTYyamR1WnFfam9CSjE?oc=5",
     "pub": "Sat, 01 Aug 2026 10:28:20 GMT",
-    "src": "sundayguardianlive.com",
+    "src": "The Sunday Guardian",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE40enNtMUt6WFBvQUNfc3ZzekFNSkYtUzBHMHVjRTJWdXp5Q2lLT0JTUG40VHR0ZlZKVDZqX05sR2dOM0VzOU5vZDB2ZVZSdkVqRFZ6Y3pyeXN0YXVsTU5tR2xrM0tsZw?oc=5",
     "pub": "Sat, 01 Aug 2026 09:11:30 GMT",
     "src": "LiveChennai",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 01 Aug 2026 06:18:34 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63088.3,
    63802.03,
    64796.6,
-   63028.6
+   63023.24
   ],
   "vixts": [
    0.829,
@@ -2474,7 +2474,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-01T13:21:57+00:00",
+  "checked": "2026-08-01T13:32:01+00:00",
   "openai": {
    "found": false
   },

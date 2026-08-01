@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01T00:42:04+00:00",
+ "updated": "2026-08-01T00:52:14+00:00",
  "prices": {
   "NVDA": {
    "price": 200.75,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62928.65,
+   "price": 62924.01,
    "chg": -2.78,
-   "chg5": -3.69,
-   "sma20": 64431.59,
-   "sma50": 63387.89,
-   "sma200": 69504.63,
+   "chg5": -3.7,
+   "sma20": 64431.35,
+   "sma50": 63387.8,
+   "sma200": 69504.61,
    "high3m": 73754.84,
-   "reg": 62928.65,
+   "reg": 62924.01,
    "pre": null,
    "post": null,
-   "regClose": 62928.65,
+   "regClose": 62924.01,
    "sess": "reg",
-   "mt": 1785544894,
+   "mt": 1785545500,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,26 @@
   ],
   "fundamental": [
    {
+    "title": "TSMC's Quiet Consolidation Belies a Packaging War That Could Reshape the AI Supply Chain - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPendlVEhQRUNGTHpQUEVkTkxWaDU4Z0dicjhnelo5ZGtCYWNGUnl0b2lENlVCbE5BdXc0OXkxdGM2QTZzU0E3YndrTkEzRFdkR2I5aWxTZjdfVVNqRlZTYTNKeTYtX08tUXFoa19nRzJodzgxby1XNGdKUUYxOHUzaXNraDBGUlFKZmJlRnpJZTduNUpTcUdaVVpHdUtjc3VBUG9tOFdLZHctWm1TLW9WT2ZyQllObmJVRDdRRkFxUDhCUDFidG5GWm5NVzU0eHRtR3U2aVhSeDBiSEdD?oc=5",
+    "pub": "Sat, 01 Aug 2026 00:11:40 GMT",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "TSMC is quietly borrowing a page from Intel’s playbook - thestreet.com",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOQnk2eHMtYTdGRm94S3FtQ3NOTzdhRWxWSE5JVV84bnpvVmNnaDJaY2QxVTJmYnJpbDJjd29Hbkp5WDdzTU5fTEg3dmlHT0c4WnVWenlaTkdnaEZ5UlBNa3VMZzFOUVhUNTRISndZWnhOd2VyQVhxSU54Ny1YZlVMdg?oc=5",
     "pub": "Fri, 31 Jul 2026 23:33:00 GMT",
     "src": "thestreet.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX's Starship seen in space by next-gen Starlink satellite (video) - Space",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPWEF3elFoc1FSWko2OTJvMmVmcm05eWt3cDVHR0pfV0h6SVZIOEZIS3ZuUFBQS1A5bDdtRFlfU21nTzJzYnpHcTQ1NnpSanpIRlpFeE1hWDJoaWZYMDZoWTFoLWpCbVRib0E2X2xJVzdWNmpFNHFSZ3RMaUNrWGl0V2YzOEo3NVd3dHI4d0U5SkJqcF9qVjV1aDJ5UVd2Nm5LUTVZUUtTdDRxVlVyaEFEdGgxcnBnRnhINHZzejRyZ3k4UVp4VVE?oc=5",
+    "pub": "Fri, 31 Jul 2026 23:27:19 GMT",
+    "src": "Space",
     "trig": false,
     "geo": false
    },
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQMEllSzc4N2gxZ21fbmxvdUxhRUhFVWtFenVxeHFKeWkxajBmS3I0S2RtUFNocE5BZ3BoaVZBUzlldnpyYTNySVVfQ3ZLN3NYV2g5RkFfcWNnV3E1cFBMVlN5YXdLVGpfTHlOVk44RGlQeWNiSE9KLTV5akU5QkFoaFJWLVpzTVhxNFowVjVXRW9EY2NSa2FBWEp0Zjk3V2p3Yk5CLW44UzdONVVFcFBJTUIzZkttbGMwM1pCQnNyUFVNajJoZ3FqQkxNaWpQUGpZaHZidE1XUFgzNEFMTUlj?oc=5",
     "pub": "Fri, 31 Jul 2026 22:19:00 GMT",
     "src": "kcentv.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nudification law to go into effect Saturday after judge denies delay request from Musk’s AI company - Minnesota Reformer",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNXzhBcUdsZUhublZCSDc0X2lzVDQ1VFJnVXdnaklEME1IRXpqOUhycTFTYW9mN2EweklKS0prQ0NVVTRzNXJIVlNMdnFPUlQtZWRGRlZRd2F2ZndKREdQODl5Q3AzSTY0Z3RJNlJ2QjF6MnBLMlc4ZmNFRUp0VjNKZzd6RjVFWDFKQWpPdHpjT2p2bWdEamFJdkM5LUJ5TlJSQjNhcUxWV2drV1lJajFMNmhmZkVXZ0lNRU5majhEWW01ZXdTeHp1Z21admRDLTVnTVE?oc=5",
-    "pub": "Fri, 31 Jul 2026 21:08:12 GMT",
-    "src": "Minnesota Reformer",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Stock Hits a Record Low. Starship’s Heat Shield Is Just One More Hurdle. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNYnRuSm83aThRNHMyQkdSNWNiSUpsSFEwMUV5N3JzWGtEM1VpWGc5UFltQVFXMGxEUXh1UDYtd0w3b3A5aUhVT1hjU1pjNjJmazVXRXdOMXpLVEJvd0QyMTJWcDlCazNOUVNaTGxiTWxhSlhZMDZHdWg5SkJHeGs1SA?oc=5",
-    "pub": "Fri, 31 Jul 2026 20:52:00 GMT",
-    "src": "Barron's",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    62544.2,
    64127.14,
    63899.46,
-   62927.76
+   62918.47
   ],
   "vixts": [
    0.829,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2473,7 +2474,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-01T00:41:50+00:00",
+  "checked": "2026-08-01T00:52:01+00:00",
   "openai": {
    "found": false
   },

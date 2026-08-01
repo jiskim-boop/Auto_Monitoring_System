@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01T16:32:24+00:00",
+ "updated": "2026-08-01T16:42:06+00:00",
  "prices": {
   "NVDA": {
    "price": 200.75,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62898.78,
-   "chg": 0.14,
-   "chg5": -1.3,
-   "sma20": 64382.87,
-   "sma50": 63372.7,
-   "sma200": 69467.7,
+   "price": 62918.64,
+   "chg": 0.17,
+   "chg5": -1.27,
+   "sma20": 64383.86,
+   "sma50": 63373.1,
+   "sma200": 69467.81,
    "high3m": 73579.69,
-   "reg": 62898.78,
+   "reg": 62918.64,
    "pre": null,
    "post": null,
-   "regClose": 62898.78,
+   "regClose": 62918.64,
    "sess": "reg",
-   "mt": 1785601913,
+   "mt": 1785602494,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "Chip ETF's July Whipsaw Ends With Hyperscaler Rescue — But the Memory Price Debate Lingers - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSVZhdHcwVHk3TXNNNkZtZWlWRy12SVdOQW13dklqOHBVV1VXaEZMY0xYa01VNlFxMGlrZFpOcWoycGNaT1Z5cHIzTXlDc0M5dV93QzJPOEM2ckh5cEI3YVVWYjZQQ3dNS2FuTjhqYWxKOTBmOTFYdXlyb2dWR045NmU1R1BOS0N1a3lIYWFEMGI2c0lEWmgydmVTTW5hTENfelljQ1VHNkZYRU5SUDhoWHo1YVRicml1Z29kWDlJb3JURlZtZE9MbGdfVVdXRUJaNlc4d0pB?oc=5",
+    "pub": "Sat, 01 Aug 2026 16:31:40 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Elon Musk’s fortune slumps to pre-SpaceX IPO levels after rout - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSHlIaW1OTzBCbzFMZW9vSXpHQndBSzRtTmxqbEFqZm1fR3RSTWRxSWpjby1Ybk02aFY2R0E4X09WSzkwckR5QVBjOWdnMWttYVVsNTFZbmI2SHpCOENRZGhrWkwwY0RvcGRsVkJQd2VxU0NTbzRJN1hTaXctdzI2VGZsTzlOY01HTkY1cWNvc1A?oc=5",
+    "pub": "Sat, 01 Aug 2026 15:19:00 GMT",
+    "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX Agrees to Remove Temporary Gas Turbines at Colossus Data Center By 2027 - Gizmodo",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWk4zN0MxSFNSckd5ZmxhQUFka0Z6N0xrR0NKakRSMUlwYzlnMGNTUm9MNjVNRUVxd2VpUjVKWWZockJIZF9DRFh6cEl2dlRncGIwa1NsdWJoWUEyVGFrUGZUTVBoNmNtcTJ5SzJIM04yc0NHaDZDYTM0U1h0U3F6elVRbWozOTVTSDdKNm5KeGt2dGQwTjd2SEx3N3JNb1FVN3hHN2ZUdVpDLWN1eHc?oc=5",
     "pub": "Sat, 01 Aug 2026 13:55:37 GMT",
@@ -1199,25 +1215,9 @@
     "geo": false
    },
    {
-    "title": "AMD Performance Comparison Radeon RX 9050 and NVIDIA GeForce RTX 5050 - GameGPU",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNUHgwajI1SWlTLTZiMGFLakpuWV9USE84Zkh5MERKV0t5VzZDdmxiVklMZEhlaUFiOXJhMnA2VlJCSVBwTm5hRUNERTU0R0h3SlBCaFF4a19CSFk5b2hpVkt4UDhzZWlhN2VsWVFkTXFaX3Y4emMydEJQSVpuelZneXUyaHNnYXJQWExMNGw0WnVGLVJKa1BjQmxPQjZEaFVFSkZZMmpwZVF6MURI?oc=5",
-    "pub": "Sat, 01 Aug 2026 13:11:32 GMT",
-    "src": "GameGPU",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "5 Tech Stocks Most at Risk From NVIDIA’s Stranglehold on the Industry - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWHUxOXhVVlQzT19XLVNCeE1YckRNMlI4cWthdnd6VUFrVUo4NU1WYkF6ZXo1b2x2RFM0VXFoX0JWbmpiRHBELWJPNjRMbGdxVGM0VWxFQTBPMk40WkFZZDVfdTJoUWlJa2JIOV9odEtQd1hYQS11YXBtRGJCSi1uOElRc1Q0WHNJMzVyWHhQQ1l6RlhCdHBJWmcyY05xM3RoeDVyWnZQOWdIZlVwNENsTlB3?oc=5",
     "pub": "Sat, 01 Aug 2026 12:00:07 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "3 Semiconductor Stocks to Buy Before AI Demand Explodes in August - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOWTRrNFRUN3VEdEdmeXQ1SE5TOXBBVWpDMHplcnA1OWxjTEhFUmc2dDlEemFzZFlKdmo0Y1UxUThQX0hjZmllMEt0SmNtaUZTdXQtYXRzcm52MEN1WjR4NFNBTFFGXzlPNHcxaEs2YWhJaTg2cHNZU1hac1dhOFBMTXduZl9OejBvTl9qUDc1bmVjSWRJSW5nZGdJSDY5bDhTVWxWbVZyRmVtYUd4a2c?oc=5",
-    "pub": "Sat, 01 Aug 2026 11:00:21 GMT",
     "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    63088.3,
    63802.03,
    64796.6,
-   62887.0
+   62918.64
   ],
   "vixts": [
    0.829,
@@ -2474,7 +2474,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-01T16:32:12+00:00",
+  "checked": "2026-08-01T16:41:53+00:00",
   "openai": {
    "found": false
   },

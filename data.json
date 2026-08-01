@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-01T19:51:55+00:00",
+ "updated": "2026-08-01T20:02:25+00:00",
  "prices": {
   "NVDA": {
    "price": 200.75,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62472.9,
-   "chg": -0.54,
-   "chg5": -1.96,
-   "sma20": 64361.58,
-   "sma50": 63364.19,
-   "sma200": 69465.36,
+   "price": 62435.81,
+   "chg": -0.6,
+   "chg5": -2.02,
+   "sma20": 64359.72,
+   "sma50": 63363.45,
+   "sma200": 69465.16,
    "high3m": 73579.69,
-   "reg": 62472.9,
+   "reg": 62435.81,
    "pre": null,
    "post": null,
-   "regClose": 62472.9,
+   "regClose": 62435.81,
    "sess": "reg",
-   "mt": 1785613887,
+   "mt": 1785614516,
    "ok": true
   },
   "USO": {
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "comexgoldfalls1.41%to$4107.2 - Binance",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQNGRYRTFBYTNVX2tBTDNsMHVEQ3VvX09TTHR3Rkx0dDlkRXZlOS1wckoxelZxUHR1N3dhUFloeEg3emJKZU16VUo2cDUxbzhJdnJXejQwSEdoRmN0OEF5Zm5McE9RbGxISUFHSWQzVmhucnpFc0Q3Qm1md1RIYVpuWEZQYw?oc=5",
+    "pub": "Sat, 01 Aug 2026 18:56:30 GMT",
+    "src": "Binance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold posts 1.16 pc weekly dip amid firmer dollar - thehawk.in",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOYWdheUlEMVctYnE1cEF4bzJuc0daNU1Fbk40WkZ0T2RzYXB3R2hYUlVqV01MWnhsUW93QlJDRGRqVFNWQWhzYlRNWDdSVWJZYjJ3UmpGWVRSTnpsQ0pjTVNmdDQtN0dQVkNqcUM1a3lyYlZQdXIxbmdPazQ0bEt2LV8xU0hrRDl5Y0FSVDk5VDhzOW5yU2VocWltSk8?oc=5",
     "pub": "Sat, 01 Aug 2026 18:33:15 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9GbVRqLTllamtmVmdBYjROVTY0UE45dHFZOFRfeFplRlB1MW8xWjFKZ0xUX21WTTF6MnhTd0VPYVJaUERtMmd1RmE1TG1Hbi0xQ2xuZnlGWkNqTTZUaTZla0NQNHJKT0E?oc=5",
     "pub": "Sat, 01 Aug 2026 09:51:00 GMT",
     "src": "BeInCrypto",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Treasury Informed Banks It May Intervene In Japan's Yen, As Market Laughs At BOJ's Own Attempts To Prop Up Currency - Forex Factory",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQWk0wekdJYUs2ZDA0YmhwN0hWZmhPTWJZUWdpelVKaV9FNFRwRURrMUUxeXo5Y09ack9VZ3VNLWZTOEVzbVBNZG03RDNhcXBNbnh3SFdpd0RhU0xNTGhnRFJ3QlNHNGVmbUZpRDA3Y2Vyc0ZCLUY5eHM3bl9oUmE3UC1uSDJfZFFMR0c0UUhXX0g4UdIBlwFBVV95cUxNek82UV8zZHhBYVVJWHNnQlIzdkN1a0lwbTlSbDc4NmNQWFlBT01KVFlhRkFiNGZBcTJzc0VtYS03Ukd5V21yU3E0QWg0djdCTFUxWXYwc1lOQXZWUjdvTmpvUmVZdEdWMngzbzdIMENNaV85MUVXeUlWY3djelhTZkZaSWRPTzFQTi1EaHFrcjRtOU90RFJv?oc=5",
-    "pub": "Sat, 01 Aug 2026 09:46:43 GMT",
-    "src": "Forex Factory",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63088.3,
    63802.03,
    64796.6,
-   62472.89
+   62438.58
   ],
   "vixts": [
    0.829,
@@ -2243,10 +2243,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-07-30T20",
-    "v": 2.73
-   },
-   {
     "d": "2026-07-30T21",
     "v": 2.73
    },
@@ -2433,6 +2429,10 @@
    {
     "d": "2026-08-01T19",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-01T20",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2474,7 +2474,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-01T19:51:44+00:00",
+  "checked": "2026-08-01T20:02:14+00:00",
   "openai": {
    "found": false
   },

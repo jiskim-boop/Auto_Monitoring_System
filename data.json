@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-02T07:41:59+00:00",
+ "updated": "2026-08-02T07:51:51+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 200.75,
+   "chg": 2.93,
+   "chg5": -2.94,
+   "sma20": 203.3,
+   "sma50": 206.17,
+   "sma200": 197.3,
+   "high3m": 235.74,
+   "reg": 200.75,
+   "pre": null,
+   "post": null,
+   "regClose": 200.75,
+   "sess": "reg",
+   "mt": 1785528001,
+   "ok": true
   },
   "AVGO": {
    "price": 389.28,
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63454.19,
-   "chg": 1.1,
-   "chg5": -0.65,
-   "sma20": 64436.85,
-   "sma50": 63350.65,
-   "sma200": 69392.67,
+   "price": 63437.02,
+   "chg": 1.07,
+   "chg5": -0.68,
+   "sma20": 64435.99,
+   "sma50": 63350.31,
+   "sma200": 69392.58,
    "high3m": 71319.77,
-   "reg": 63454.19,
+   "reg": 63437.02,
    "pre": null,
    "post": null,
-   "regClose": 63454.19,
+   "regClose": 63437.02,
    "sess": "reg",
-   "mt": 1785656491,
+   "mt": 1785657081,
    "ok": true
   },
   "USO": {
@@ -1031,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4107.0,
-   "chg": 1.43,
+   "chg": 0.17,
    "chg5": 0.97,
-   "sma20": 4067.18,
-   "sma50": 4200.92,
-   "sma200": 4571.56,
+   "sma20": 4070.08,
+   "sma50": 4202.08,
+   "sma200": 4572.02,
    "high3m": 4720.4,
    "reg": 4107.0,
    "pre": null,
    "post": null,
-   "regClose": 4049.1,
+   "regClose": 4107.0,
    "sess": "24h",
    "mt": 1785531594,
    "ok": true
@@ -1063,16 +1075,16 @@
   },
   "HG=F": {
    "price": 6.47,
-   "chg": 0.46,
+   "chg": 0.33,
    "chg5": 2.3,
    "sma20": 6.3,
-   "sma50": 6.3,
+   "sma50": 6.31,
    "sma200": 6.05,
    "high3m": 6.65,
    "reg": 6.47,
    "pre": null,
    "post": null,
-   "regClose": 6.44,
+   "regClose": 6.47,
    "sess": "24h",
    "mt": 1785531595,
    "ok": true
@@ -1113,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "Meralco ordered to refund P9.5 billion to consumers - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkdfOW1TNVl3dDc2dnJnazV1T3ZEclVZbXRrY1NRNnVLcDNRLU5jZHJPc1BCMjJGTXRCM2xyRVhoRUdfYVZaejlCSVM3a014MTJKQ2JCSXNXcE1hSF81VGJsOHFBalcwWTZidFU3YVJDVENLeGhUWXA4UWlfdGRFY05ack5VNXZUbERDSWFHT3NxVUs0OWtCQmp4NW1GdS1wS3ZDNFhB?oc=5",
-    "pub": "Sun, 02 Aug 2026 07:02:38 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "P300 o mas mahal pang Globe load, isang taon na ang bisa - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOajFUSElsanJKWWFlWGs5aEVhSmE2TGx4VzBsYlJvUEU1OEZuUXpTcE5NZkVSUE8wWGpIcDJURTVoMGJtMXBQcTdPYjk0YjRCZHZSNlFnTVJzc0VnMDJFNHFvY2pjN3hSd0U2OFRrOUs3N1dJcldSTGg0Mlo4Qm40b2tjcU1MejQ3T2xuZ0VDQ0daT3cxLVhIcGNMWmplUQ?oc=5",
     "pub": "Sun, 02 Aug 2026 03:25:17 GMT",
@@ -1158,6 +1162,14 @@
     "pub": "Fri, 31 Jul 2026 23:54:24 GMT",
     "src": "AOL.com",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Blue Owl Capital (OWL) Stock Faces Margin Strain Despite Fee Growth - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNeENmZDNKS0JPQ0pjMVZORjNIMkxEVjRsQ05COXVoVk5KREhSb0x6ZHZZcEpKQ0piT2o5eXZ0Snd4czNVVzhCdU5saWdTbmFNNFBmU2l4MTJmWkpKZjRZTl93dm9xQUVaek1hMng0djBjazRqSWtTdnQ1eXdXWldsaUVudnBmUFZ6RDJSUWtFNTJ0dF8yV3VIcjhfTGRHdGRDd2l1akhMNm5ybGttSDFjYVo5Uy1GTkxjN19kemlYLWJFWHVGTTV3NEk5alhndzlHYmV2alhPVnlsSWdKTGpV0gHkAUFVX3lxTFBQRWczMXg1b0JGUGpXS3NrbUxCQWprQy0zeS14Z1EtVDFsU3ZYRjdmZWxiNTE4M0tzNGRreVZTaTNMSDl0MUFrWEFfdzJfLXZjLW1scFpQYWJHNmdnRzZvN2tzMGI5Ni16dnJ3ZjA4MDNTdXBjQkRIOHQ2S0xuQXRzLXpxMkVlSkptaDBYRzF1V2NrcUdtQ3dsX1BIOFdTZUljT3ltLTB1WEFkZkw0WG0xYjdxaFhzNGZRTlEwMUxkVFJIM29yUF82ZFd4T19CcWxsY21TTndoTl8tLXFkRk8wNnFTMw?oc=5",
+    "pub": "Fri, 31 Jul 2026 23:31:09 GMT",
+    "src": "simplywall.st",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1229,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "AI's 'cash-burning' effect spreads: CDS on North American tech giants surged across the board in July, significantly raising risk premiums in credit markets - moomoo.com",
+    "title": "AI's 'cash-burning' effect spreads: CDS on North American tech giants surged across the board in July, significantly raising risk premiums in credit markets - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaENPWE1RSVhmaXF4MWVtRThRUmQtUEF4cEd2bnVjVUFzcTQwaDBaRURRQTB3OTZYME1QTFllaW92X1RYZGV0dnd4bXdRd1BranExeGdheFdOQWc2VGYzc3F1Mm1jNGpuUHVETXlzOUk3V0U5T0ZGeGFHTTdORlZJb1otQkNRMDV5dTNhMk9ROWROaU0xX2N0U3BmazA?oc=5",
     "pub": "Sun, 02 Aug 2026 02:10:12 GMT",
-    "src": "moomoo.com",
+    "src": "Moomoo",
     "trig": false,
     "geo": false
    },
@@ -1245,10 +1257,10 @@
     "geo": false
    },
    {
-    "title": "Iran vows to strike back: Hormuz, oil fields and global markets in the crosshairs - The Mt Kenya Times",
+    "title": "Iran vows to strike back: Hormuz, oil fields and global markets in the crosshairs - mountkenyatimes.co.ke",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSDh4ODExdktvYkJ3ZEM5cE9HXzRtV0FMYVFESGN2NWFtUWM0a3piRVhWcGliYmdlTm5ZTFp4TnZaYzVsVm12ZmgxUzZGajVnU1MtSVRTQjQwY3B4REtZa3FSZUUzLXN1UzhTRmZqejZmSGVLRVpYYTkwQUppLVpsV0l4eGotRF93bkxHdDE3OS1qTFJVSHdXYWZzX1N4c29HSHlxanlVcXhpckFWbnJJ?oc=5",
     "pub": "Sat, 01 Aug 2026 22:23:02 GMT",
-    "src": "The Mt Kenya Times",
+    "src": "mountkenyatimes.co.ke",
     "trig": false,
     "geo": false
    },
@@ -1264,8 +1276,8 @@
   "flow": [
    {
     "title": "USD/JPY Forecast: Will US and Japan interventions be enough to stop the yen crash? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN3RIMkJQalFkcUNsRjZUNExvYnctMGl5Y0pZQklmSndqYW9zY3NlT1JFMTRYOEhiSFM5dm5HZFI1OVZaYkNEUUlVQUJhVFhGdnN6UDFhcUtOem5ncU0wR3ZkdWFTd1J4d3pJYWFKczVZZVpDWmNSX3o5RW83NkcwcXN3Vlk0em5BdmhLWm9HaTBXMWpRYTI5Mjg2V05ydHRZV1pJT2lnOURiZXZoZllvUDZOZ2tXalk?oc=5",
-    "pub": "Sun, 02 Aug 2026 06:06:51 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPX0VRME8tWGI1ZDhMMjhTaUdITEhEOFRLSzVyTHcxTXJDNmMtbzVrQkFHXzZiWXZUVmtQUjZCTjhwYnZ3TzhhYTl5N09HZUhVZVJKNndXaV9BMTRqNnhUakE5Smxjc0lBZ2hiYUJ2YWpHNXBXNzdDSC1RTDUyWncxWmNJYVJMc2tJTDlnNWdvcTNxcUxSbnlxYm1JaXhRbTFrcDJKZGRaS2dudEFGYkxTSWFxZG1kcXBVZ0E?oc=5",
+    "pub": "Sun, 02 Aug 2026 06:50:29 GMT",
     "src": "Invezz",
     "trig": false,
     "geo": false
@@ -1275,6 +1287,14 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1TdEdYQ2RLcnU2TFJJeGVORTJiRFU1OUxJLTQzVUZra2lRY3hNYm5PLUZISVEtdnNWMHlkQ1RhNVRNZzktV3BoV3JIcWk1OWw4MFcxX3NCWWpSazhsSzhHN05CQ2VnbVYzT3JaMnEydG1OLTlFZHc?oc=5",
     "pub": "Sun, 02 Aug 2026 05:35:00 GMT",
     "src": "finance.biggo.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Yen rises after reported US‑Japan joint intervention, first since 1998 - Newswav",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObHlka2o1Vkh0UE5MVUQtbk4yTmRwUjhoUXFvZ2NZdm5VWHFDVnRLVW9UeXVKQ1N5c01vcm95WGZxeFk2NmVUZk9FRkhMRUIwNjlHVDFiUkpWamJ2YjFHcVB1TnBLZkM2UHZyazhGUU82amt6cl9NcllFcm1vRFNMZXlOWGhEdmQxWkFLWVlNa0FoX0l3Z1VIUXlILUJ5Y2JfaVB2NG5ULW9zZFBBVjVR?oc=5",
+    "pub": "Sun, 02 Aug 2026 05:11:40 GMT",
+    "src": "Newswav",
     "trig": false,
     "geo": false
    },
@@ -1299,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNm55WV9zMUo1MUI4Rzd4V3dOMmNzc1c5TDBIQkM3c3VzVGtUaW1NbFRETGN6OEhHT0pLdmxPMW1DdWtiZVFURE1JNEtsNGhXTU9zeDBrSEt6NEZtUm1Pdi1LejhBQUh1R19Lems5UGZfZVY0RWthSV9MaE9wMWRZelRHN3VpOGV0cmhRLWFweGVfRUJ6Tmc?oc=5",
     "pub": "Sat, 01 Aug 2026 22:34:07 GMT",
     "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Euro Technical Forecast: EUR/USD Fresh Highs, EUR/JPY Fresh Lows - FOREX.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUVxSTdDYmNuSHhVNmQ0YkRhelpNdFlRS3VnRmMwemRHM2U0SklkbUV5X1FFbmQ2ZFlXb1FCUXc2bEw5ejZ5RE8tcThtMDJiX0RrMzZwbWt3WmVfb0IzWHY5UjNfLTFOUXJPYmMyRzVzazdHclNXazBkdnFxOG9pZWVCN2hFUXlkZE5xYjVoQmhWVGxpbUZFT0ZXVTF0eGRZUWZGWFgwOVladjBTWEE?oc=5",
-    "pub": "Sat, 01 Aug 2026 22:00:00 GMT",
-    "src": "FOREX.com",
     "trig": false,
     "geo": false
    }
@@ -1598,7 +1610,7 @@
    63547.88,
    63758.22,
    64690.8,
-   63454.19
+   63436.98
   ],
   "vixts": [
    0.829,
@@ -2452,18 +2464,16 @@
   20
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 15,
-  "n": 34
+  "pct50": 14,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-02T07:41:49+00:00",
+  "checked": "2026-08-02T07:51:42+00:00",
   "openai": {
    "found": false
   },

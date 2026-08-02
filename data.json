@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-02T07:32:15+00:00",
+ "updated": "2026-08-02T07:41:59+00:00",
  "prices": {
   "NVDA": {
-   "price": 200.75,
-   "chg": 2.93,
-   "chg5": -2.94,
-   "sma20": 203.3,
-   "sma50": 206.17,
-   "sma200": 197.3,
-   "high3m": 235.74,
-   "reg": 200.75,
-   "pre": null,
-   "post": null,
-   "regClose": 200.75,
-   "sess": "reg",
-   "mt": 1785528001,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 389.28,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63424.91,
-   "chg": 1.05,
-   "chg5": -0.7,
-   "sma20": 64435.39,
-   "sma50": 63350.07,
-   "sma200": 69392.51,
+   "price": 63454.19,
+   "chg": 1.1,
+   "chg5": -0.65,
+   "sma20": 64436.85,
+   "sma50": 63350.65,
+   "sma200": 69392.67,
    "high3m": 71319.77,
-   "reg": 63424.91,
+   "reg": 63454.19,
    "pre": null,
    "post": null,
-   "regClose": 63424.91,
+   "regClose": 63454.19,
    "sess": "reg",
-   "mt": 1785655904,
+   "mt": 1785656491,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1031,16 @@
   },
   "GC=F": {
    "price": 4107.0,
-   "chg": 0.17,
+   "chg": 1.43,
    "chg5": 0.97,
-   "sma20": 4070.08,
-   "sma50": 4202.08,
-   "sma200": 4572.02,
+   "sma20": 4067.18,
+   "sma50": 4200.92,
+   "sma200": 4571.56,
    "high3m": 4720.4,
    "reg": 4107.0,
    "pre": null,
    "post": null,
-   "regClose": 4107.0,
+   "regClose": 4049.1,
    "sess": "24h",
    "mt": 1785531594,
    "ok": true
@@ -1075,16 +1063,16 @@
   },
   "HG=F": {
    "price": 6.47,
-   "chg": 0.33,
+   "chg": 0.46,
    "chg5": 2.3,
    "sma20": 6.3,
-   "sma50": 6.31,
+   "sma50": 6.3,
    "sma200": 6.05,
    "high3m": 6.65,
    "reg": 6.47,
    "pre": null,
    "post": null,
-   "regClose": 6.47,
+   "regClose": 6.44,
    "sess": "24h",
    "mt": 1785531595,
    "ok": true
@@ -1125,6 +1113,14 @@
  "news": {
   "credit": [
    {
+    "title": "Meralco ordered to refund P9.5 billion to consumers - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNRkdfOW1TNVl3dDc2dnJnazV1T3ZEclVZbXRrY1NRNnVLcDNRLU5jZHJPc1BCMjJGTXRCM2xyRVhoRUdfYVZaejlCSVM3a014MTJKQ2JCSXNXcE1hSF81VGJsOHFBalcwWTZidFU3YVJDVENLeGhUWXA4UWlfdGRFY05ack5VNXZUbERDSWFHT3NxVUs0OWtCQmp4NW1GdS1wS3ZDNFhB?oc=5",
+    "pub": "Sun, 02 Aug 2026 07:02:38 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "P300 o mas mahal pang Globe load, isang taon na ang bisa - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOajFUSElsanJKWWFlWGs5aEVhSmE2TGx4VzBsYlJvUEU1OEZuUXpTcE5NZkVSUE8wWGpIcDJURTVoMGJtMXBQcTdPYjk0YjRCZHZSNlFnTVJzc0VnMDJFNHFvY2pjN3hSd0U2OFRrOUs3N1dJcldSTGg0Mlo4Qm40b2tjcU1MejQ3T2xuZ0VDQ0daT3cxLVhIcGNMWmplUQ?oc=5",
     "pub": "Sun, 02 Aug 2026 03:25:17 GMT",
@@ -1154,14 +1150,6 @@
     "pub": "Sat, 01 Aug 2026 09:50:09 GMT",
     "src": "Seeking Alpha",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "2026 Half-Year Results - Indovizka.com",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1vdHFVazktNDVPQThCcmdqSUIwM3puX29VS1U0aWZiWGVIakxsaFNNZzlSM3dxeldIU3ZCUFRGQTJ6RXRWVlZQY1QteVNYd0s1MUhwMVJmNDJzNTlySEFBWG1nZWo4SXZoYTQ3VQ?oc=5",
-    "pub": "Sat, 01 Aug 2026 04:40:52 GMT",
-    "src": "Indovizka.com",
-    "trig": false,
     "geo": false
    },
    {
@@ -1241,10 +1229,10 @@
     "geo": false
    },
    {
-    "title": "AI's 'cash-burning' effect spreads: CDS on North American tech giants surged across the board in July, significantly raising risk premiums in credit markets - Moomoo",
+    "title": "AI's 'cash-burning' effect spreads: CDS on North American tech giants surged across the board in July, significantly raising risk premiums in credit markets - moomoo.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaENPWE1RSVhmaXF4MWVtRThRUmQtUEF4cEd2bnVjVUFzcTQwaDBaRURRQTB3OTZYME1QTFllaW92X1RYZGV0dnd4bXdRd1BranExeGdheFdOQWc2VGYzc3F1Mm1jNGpuUHVETXlzOUk3V0U5T0ZGeGFHTTdORlZJb1otQkNRMDV5dTNhMk9ROWROaU0xX2N0U3BmazA?oc=5",
     "pub": "Sun, 02 Aug 2026 02:10:12 GMT",
-    "src": "Moomoo",
+    "src": "moomoo.com",
     "trig": false,
     "geo": false
    },
@@ -1291,14 +1279,6 @@
     "geo": false
    },
    {
-    "title": "Yen rises after reported US‑Japan joint intervention, first since 1998 - Newswav",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxObHlka2o1Vkh0UE5MVUQtbk4yTmRwUjhoUXFvZ2NZdm5VWHFDVnRLVW9UeXVKQ1N5c01vcm95WGZxeFk2NmVUZk9FRkhMRUIwNjlHVDFiUkpWamJ2YjFHcVB1TnBLZkM2UHZyazhGUU82amt6cl9NcllFcm1vRFNMZXlOWGhEdmQxWkFLWVlNa0FoX0l3Z1VIUXlILUJ5Y2JfaVB2NG5ULW9zZFBBVjVR?oc=5",
-    "pub": "Sun, 02 Aug 2026 05:11:40 GMT",
-    "src": "Newswav",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "U.S. and Japan's 30-Year Intervention Sparks Carry Trade Alert - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWNZZzlObElReUM4YkF1amlhRnZyckNuSmZkSUdYQmRoX0w5dzBZNE1FRmg0VVdpbVNSMGJfMHJTZjFZd2lmTmdSUGVWUXM3TXM3eHdOZjRpd2wySnIyb0NwUmxnbzBRSm9OZGpFTGxJQ3h6YnJrcm9aNlFyZS1Nby1wUnA3b21FLWxSZnln?oc=5",
     "pub": "Sun, 02 Aug 2026 04:54:58 GMT",
@@ -1319,6 +1299,14 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPNm55WV9zMUo1MUI4Rzd4V3dOMmNzc1c5TDBIQkM3c3VzVGtUaW1NbFRETGN6OEhHT0pLdmxPMW1DdWtiZVFURE1JNEtsNGhXTU9zeDBrSEt6NEZtUm1Pdi1LejhBQUh1R19Lems5UGZfZVY0RWthSV9MaE9wMWRZelRHN3VpOGV0cmhRLWFweGVfRUJ6Tmc?oc=5",
     "pub": "Sat, 01 Aug 2026 22:34:07 GMT",
     "src": "Startup Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Euro Technical Forecast: EUR/USD Fresh Highs, EUR/JPY Fresh Lows - FOREX.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNUVxSTdDYmNuSHhVNmQ0YkRhelpNdFlRS3VnRmMwemRHM2U0SklkbUV5X1FFbmQ2ZFlXb1FCUXc2bEw5ejZ5RE8tcThtMDJiX0RrMzZwbWt3WmVfb0IzWHY5UjNfLTFOUXJPYmMyRzVzazdHclNXazBkdnFxOG9pZWVCN2hFUXlkZE5xYjVoQmhWVGxpbUZFT0ZXVTF0eGRZUWZGWFgwOVladjBTWEE?oc=5",
+    "pub": "Sat, 01 Aug 2026 22:00:00 GMT",
+    "src": "FOREX.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1598,7 @@
    63547.88,
    63758.22,
    64690.8,
-   63419.48
+   63454.19
   ],
   "vixts": [
    0.829,
@@ -2464,16 +2452,18 @@
   20
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 14,
-  "n": 35
+  "pct50": 15,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-02T07:32:04+00:00",
+  "checked": "2026-08-02T07:41:49+00:00",
   "openai": {
    "found": false
   },

@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-03T05:02:33+00:00",
+ "updated": "2026-08-03T05:11:54+00:00",
  "prices": {
   "NVDA": {
-   "price": 200.75,
-   "chg": 2.93,
-   "chg5": -2.94,
-   "sma20": 203.3,
-   "sma50": 206.17,
-   "sma200": 197.3,
-   "high3m": 235.74,
-   "reg": 200.75,
-   "pre": null,
-   "post": null,
-   "regClose": 200.75,
-   "sess": "reg",
-   "mt": 1785528001,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 389.28,
@@ -162,19 +150,19 @@
    "ok": true
   },
   "005930.KS": {
-   "price": 240000.0,
-   "chg": -8.57,
-   "chg5": -5.51,
-   "sma20": 259075.0,
-   "sma50": 298790.0,
-   "sma200": 245329.34,
+   "price": 240500.0,
+   "chg": -8.38,
+   "chg5": -5.31,
+   "sma20": 259100.0,
+   "sma50": 298800.0,
+   "sma200": 245333.47,
    "high3m": 362500.0,
-   "reg": 240000.0,
+   "reg": 240500.0,
    "pre": null,
    "post": null,
-   "regClose": 240000.0,
+   "regClose": 240500.0,
    "sess": "reg",
-   "mt": 1785732090,
+   "mt": 1785732656,
    "ok": true
   },
   "000660.KS": {
@@ -190,7 +178,7 @@
    "post": null,
    "regClose": 1584000.0,
    "sess": "reg",
-   "mt": 1785732090,
+   "mt": 1785732656,
    "ok": true
   },
   "ANET": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.71,
-   "chg": -0.09,
-   "chg5": -1.77,
+   "price": 99.69,
+   "chg": -0.11,
+   "chg5": -1.79,
    "sma20": 100.89,
    "sma50": 100.44,
    "sma200": 99.34,
    "high3m": 101.61,
-   "reg": 99.71,
+   "reg": 99.69,
    "pre": null,
    "post": null,
-   "regClose": 99.71,
+   "regClose": 99.69,
    "sess": "reg",
-   "mt": 1785732716,
+   "mt": 1785733282,
    "ok": true
   },
   "^IRX": {
@@ -898,35 +886,35 @@
    "ok": true
   },
   "^KS11": {
-   "price": 6265.04,
-   "chg": -5.01,
-   "chg5": -7.26,
-   "sma20": 6811.86,
-   "sma50": 7734.45,
-   "sma200": 6743.87,
+   "price": 6261.48,
+   "chg": -5.06,
+   "chg5": -7.32,
+   "sma20": 6811.68,
+   "sma50": 7734.38,
+   "sma200": 6743.84,
    "high3m": 9114.55,
-   "reg": 6265.04,
+   "reg": 6261.48,
    "pre": null,
    "post": null,
-   "regClose": 6265.04,
+   "regClose": 6261.48,
    "sess": "reg",
-   "mt": 1785732120,
+   "mt": 1785732680,
    "ok": true
   },
   "^KQ11": {
-   "price": 738.91,
-   "chg": 2.66,
-   "chg5": -3.39,
-   "sma20": 766.44,
-   "sma50": 902.55,
+   "price": 739.42,
+   "chg": 2.73,
+   "chg5": -3.33,
+   "sma20": 766.46,
+   "sma50": 902.56,
    "sma200": 1041.53,
    "high3m": 1213.74,
-   "reg": 738.91,
+   "reg": 739.42,
    "pre": null,
    "post": null,
-   "regClose": 738.91,
+   "regClose": 739.42,
    "sess": "reg",
-   "mt": 1785732120,
+   "mt": 1785732680,
    "ok": true
   },
   "GLD": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62759.1,
-   "chg": -0.01,
-   "chg5": -1.74,
-   "sma20": 64402.1,
-   "sma50": 63336.75,
-   "sma200": 69337.47,
+   "price": 62750.29,
+   "chg": -0.02,
+   "chg5": -1.76,
+   "sma20": 64401.66,
+   "sma50": 63336.57,
+   "sma200": 69337.42,
    "high3m": 71319.77,
-   "reg": 62759.1,
+   "reg": 62750.29,
    "pre": null,
    "post": null,
-   "regClose": 62759.1,
+   "regClose": 62750.29,
    "sess": "reg",
-   "mt": 1785733319,
+   "mt": 1785733885,
    "ok": true
   },
   "USO": {
@@ -978,19 +966,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.4,
-   "chg": -2.36,
-   "chg5": -4.41,
+   "price": 156.48,
+   "chg": -2.31,
+   "chg5": -4.36,
    "sma20": 162.33,
    "sma50": 161.33,
    "sma200": 159.14,
    "high3m": 163.86,
-   "reg": 156.4,
+   "reg": 156.48,
    "pre": null,
    "post": null,
-   "regClose": 156.4,
+   "regClose": 156.48,
    "sess": "reg",
-   "mt": 1785733324,
+   "mt": 1785733891,
    "ok": true
   },
   "ES=F": {
@@ -1006,7 +994,7 @@
    "post": null,
    "regClose": 7564.25,
    "sess": "24h",
-   "mt": 1785732721,
+   "mt": 1785733290,
    "ok": true
   },
   "NQ=F": {
@@ -1022,61 +1010,61 @@
    "post": null,
    "regClose": 28660.0,
    "sess": "24h",
-   "mt": 1785732724,
+   "mt": 1785733292,
    "ok": true
   },
   "YM=F": {
-   "price": 52932.0,
-   "chg": 0.56,
-   "chg5": 1.05,
-   "sma20": 52556.25,
-   "sma50": 51956.44,
-   "sma200": 49930.49,
+   "price": 52923.0,
+   "chg": 0.55,
+   "chg5": 1.03,
+   "sma20": 52555.8,
+   "sma50": 51956.26,
+   "sma200": 49930.42,
    "high3m": 53372.0,
-   "reg": 52932.0,
+   "reg": 52923.0,
    "pre": null,
    "post": null,
-   "regClose": 52932.0,
+   "regClose": 52923.0,
    "sess": "24h",
-   "mt": 1785732721,
+   "mt": 1785733281,
    "ok": true
   },
   "GC=F": {
-   "price": 4123.8,
-   "chg": 1.84,
-   "chg5": 1.21,
-   "sma20": 4065.62,
-   "sma50": 4192.77,
-   "sma200": 4567.57,
+   "price": 4119.8,
+   "chg": 1.75,
+   "chg5": 1.11,
+   "sma20": 4065.42,
+   "sma50": 4192.69,
+   "sma200": 4567.54,
    "high3m": 4720.4,
-   "reg": 4123.8,
+   "reg": 4119.8,
    "pre": null,
    "post": null,
-   "regClose": 4123.8,
+   "regClose": 4119.8,
    "sess": "24h",
-   "mt": 1785732725,
+   "mt": 1785733287,
    "ok": true
   },
   "CL=F": {
-   "price": 79.58,
-   "chg": -6.01,
-   "chg5": -3.67,
+   "price": 79.48,
+   "chg": -6.13,
+   "chg5": -3.79,
    "sma20": 80.83,
-   "sma50": 81.84,
+   "sma50": 81.83,
    "sma200": 85.88,
    "high3m": 108.66,
-   "reg": 79.58,
+   "reg": 79.48,
    "pre": null,
    "post": null,
-   "regClose": 79.58,
+   "regClose": 79.48,
    "sess": "24h",
-   "mt": 1785732721,
+   "mt": 1785733292,
    "ok": true
   },
   "HG=F": {
    "price": 6.55,
-   "chg": 1.77,
-   "chg5": 3.33,
+   "chg": 1.76,
+   "chg5": 3.31,
    "sma20": 6.31,
    "sma50": 6.31,
    "sma200": 6.05,
@@ -1086,23 +1074,23 @@
    "post": null,
    "regClose": 6.55,
    "sess": "24h",
-   "mt": 1785732719,
+   "mt": 1785733264,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.36,
-   "chg": 0.33,
-   "chg5": -0.2,
+   "price": 108.38,
+   "chg": 0.35,
+   "chg5": -0.19,
    "sma20": 108.77,
    "sma50": 109.36,
-   "sma200": 110.62,
+   "sma200": 110.63,
    "high3m": 110.8,
-   "reg": 108.36,
+   "reg": 108.38,
    "pre": null,
    "post": null,
-   "regClose": 108.36,
+   "regClose": 108.38,
    "sess": "24h",
-   "mt": 1785732565,
+   "mt": 1785733277,
    "ok": true
   },
   "EWY": {
@@ -1157,10 +1145,10 @@
     "geo": false
    },
    {
-    "title": "Blue Owl's BDC Already Cut Its Base Dividend to $0.31. Here's What to Watch as the Rest Report. - Yahoo Finance",
+    "title": "Blue Owl's BDC Already Cut Its Base Dividend to $0.31. Here's What to Watch as the Rest Report. - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNRUpiV0E0cGYtLVF1alU2Rk04cWFEMks5bWJGdlZXeldxdnBkTjNDcXAtT0tRU1NicE9YYkRKWGFvOGt4QmktYkMtaTFOV2hqMUZXWl9adm9GVm1pd2NDMlJUcjBxUVNNUENGbXNhTElRVGU1R2RmQ1plODZxRXVQSnVvdmhxTkcwTEMwN2hCMllrcWlk?oc=5",
     "pub": "Sun, 02 Aug 2026 11:35:00 GMT",
-    "src": "Yahoo Finance",
+    "src": "finance.yahoo.com",
     "trig": true,
     "geo": false
    },
@@ -1199,6 +1187,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI's ChatGPT Surpasses 1 Billion Users, Revenue Trails - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNTHgyQ0Ztdlc4WHdocTVzc3BhLWJ4QktiYWVGVG9xWDB3dVpwOTFkTHlFVm83NWF4b2Fud2d4RkljVkZKYWd1MFlodGxEem9xXzVfN2t6Sm5lVlZ2bUZuanZzaUczQ1lLZ2Y4NjliaGJBd2xjdHMxbHJjRDhmR3lRTkJveUpjblFy?oc=5",
+    "pub": "Sun, 02 Aug 2026 21:43:27 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Minnesota’s Nudification Ban Is Now in Effect Despite xAI’s Efforts to Stop It - Gizmodo",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQTVU3dl9wVGxVZGJfbUFtTVVmb0dKRWk5UGNTZVNPVjJfTlpuRVJ1X0VvbjQ3Z014b1ZmVjVmWlYzVjhuVENjZm5wNU5zVGg5SC1odzRCemJqTmJOQUJOdnR0d3BUblR0VW5TRHVXc3ZENUpoRUxMd2VnSzdaX1V6ZXROaklIVnVZWU0zeXVnamI1b0xnUGprWVk3elEwakxNMHBGb0hiSE9OTmM?oc=5",
     "pub": "Sun, 02 Aug 2026 18:17:56 GMT",
@@ -1211,14 +1207,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNQ0xVdnNiYVhZT25wNzJLdnlDTWhxcFVTcVcxZGhrRUE1TlRuOU1IdUE4U1ZVV0V5X083UUk1VU5MTGZ4X3V1UWJGUDFtT1Blejc1bkt4SmdScEptRmk2VE9SNmJ3MVhBRTM3QWk2YWd2SVZaTllpUGR4X2NHcmVjWDFBaVJTY18ydkxEbjJEUVpuSDlXZDZoVUE1MVJ5NkprbTN30gGwAUFVX3lxTE9zTHktZ1B4OUZMUGRRUDFZdVMza21nUUtRckZRWEN1Q2VIQzkzLUFBUk1XbGtyMjNoc09PTFZoc1pTelEwSVdpa2VwaTA3X3VrUVZqekE1MzhLUzh0dmItTUpSQTFKcHc2S0lrMm1lZDZxTV9WUk93Y3N6TjZYVGlGQTFERXlqNnhqTUhDak9lUDhEVlBUZ0llcGNpSmp1YWRIM2NPbVY1YTZEcS0taWNv?oc=5",
     "pub": "Sun, 02 Aug 2026 18:00:00 GMT",
     "src": "Analytics Insight",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta boosts AI data center capex, forecasts $130-145bn spend - datacenterdynamics.com",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNVHhNYkU3eU1STUU0cC1FV2U1N09Vdk5uV0cxUDlMQXFMVlZvR09zUGRfWkJWRzVWb28wMVlJb2Q2OU1QSUcxTmZYZTJKcXJ6dnRDVFBLUkN5dTU4MU4yTnlXWW9GaWtfU3NyMUJYczhZMUdMV3Vvai11aGQ3NjdmamlqMUpCSHhjMEtoMEhNNXVqOVRaNGRJaDViSU5iVFZIMmVnbA?oc=5",
-    "pub": "Sun, 02 Aug 2026 16:48:47 GMT",
-    "src": "datacenterdynamics.com",
     "trig": false,
     "geo": false
    }
@@ -1257,10 +1245,10 @@
     "geo": false
    },
    {
-    "title": "Geopolitical risk shapes maritime investment landscape? What Neptune Leasing says - Shipping Telegraph",
+    "title": "Geopolitical risk shapes maritime investment landscape? What Neptune Leasing says - shippingtelegraph.com",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQOWF6SzlDRlRDajJLeFNUb1N6bkd0S3hJM1ZtWjRvMFZqcEFzYTMyc3hTWXZzenhjaG9xNVpTa0JGcXhLQ1l0VTFYdXl3cUszZXEwLWwtMU1ScGRiS01wX2lWU2pFSmdhYkdyV0gxVXZxbjBDckdQa3pMa1lfYnhBajY4dUczV1lzUE9MVno4dlJsUms2UTF0cjQxRC1FQV9LUGxTWE9oSHV4QXp1UXJCVnN4bmJZckYzMnRyMnRwaUYwRTFiSEFLeFk2RmN1bFk?oc=5",
     "pub": "Mon, 03 Aug 2026 00:58:09 GMT",
-    "src": "Shipping Telegraph",
+    "src": "shippingtelegraph.com",
     "trig": false,
     "geo": false
    },
@@ -1299,6 +1287,14 @@
     "geo": false
    },
    {
+    "title": "US-Japan Joint Intervention: A New \"Plaza Accord,\" the Dawn of a Bretton Woods 2.0, and the End of the Yen Carry Trade Era - odaily.news",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ncmpUM0hOSjlQaU4wNkljZG5yaTJNV1dfRXVnck5sYVdxVXNETWNFWGhaNDY5QjBmNlJtaXplekR3X1l5ZldYdHRaVXBaUm1j?oc=5",
+    "pub": "Mon, 03 Aug 2026 03:44:31 GMT",
+    "src": "odaily.news",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US, Japan support yen with first joint intervention since 2011 - France 24",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWlBKZFJaSHQxY2xCVi1TRUdUZzJzWTQ3alE5ZTBoemZuVUU0c2FEZ1pLZllfeHdrM1lOY0dub1E4UXVENDFQQnFCLVFwdzdwOGdneXhhTlBocWxyVlVTZTV3d19rR0lYZDQ1bXFBMUNlMnh3VGltSlZ5UV9CSDlRaFdVZEQ3OHhZNHBWZ3JtZG9qUkVqZ1N5eGZGNjBfbElpWlNUVkI3MkNkZ19u?oc=5",
     "pub": "Mon, 03 Aug 2026 03:29:09 GMT",
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNRWNZZzlObElReUM4YkF1amlhRnZyckNuSmZkSUdYQmRoX0w5dzBZNE1FRmg0VVdpbVNSMGJfMHJTZjFZd2lmTmdSUGVWUXM3TXM3eHdOZjRpd2wySnIyb0NwUmxnbzBRSm9OZGpFTGxJQ3h6YnJrcm9aNlFyZS1Nby1wUnA3b21FLWxSZnln?oc=5",
     "pub": "Mon, 03 Aug 2026 02:46:33 GMT",
     "src": "조선일보",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Japan's yen may rebound as traders unwind speculative bets, and crypto markets should pay attention - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1iX1pHeTBpQTJkTjBSck90Vl9WWVdXeVZLemVGTW9ZVjhVd3hPaDJLcWV3ZmFLUkNjTW1XNW84Ni1GLUxpWHJNWmUtdklmQjQtLXNpZHpQY0VXOVhYMVFtTEpzWlloVDJCdU9aNV9Nb2pBVXFC?oc=5",
-    "pub": "Mon, 03 Aug 2026 02:42:24 GMT",
-    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1493,7 @@
    101.14,
    100.94,
    101.18,
-   99.71
+   99.69
   ],
   "bizd": [
    13.29,
@@ -1550,7 +1538,7 @@
    161.45,
    161.88,
    162.51,
-   156.41
+   156.47
   ],
   "uso": [
    142.8,
@@ -1610,7 +1598,7 @@
    63547.88,
    63758.22,
    64690.8,
-   62763.4
+   62758.78
   ],
   "vixts": [
    0.829,
@@ -2463,16 +2451,18 @@
   20
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 14,
-  "n": 35
+  "pct50": 15,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-03T05:02:21+00:00",
+  "checked": "2026-08-03T05:11:44+00:00",
   "openai": {
    "found": false
   },

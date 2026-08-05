@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-05T21:12:11+00:00",
+ "updated": "2026-08-05T21:21:55+00:00",
  "prices": {
   "NVDA": {
    "price": 219.22,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 126.41,
-   "chg": -9.68,
-   "chg5": -11.59,
-   "sma20": 144.44,
-   "sma50": 143.92,
-   "sma200": 143.39,
+   "price": 133.32,
+   "chg": 5.47,
+   "chg5": -4.46,
+   "sma20": 143.62,
+   "sma50": 143.84,
+   "sma200": 143.31,
    "high3m": 154.82,
-   "reg": 126.41,
+   "reg": 133.32,
    "pre": null,
    "post": null,
-   "regClose": 126.41,
+   "regClose": 133.32,
    "sess": "reg",
-   "mt": 1785877218,
+   "mt": 1785963619,
    "ok": true
   },
   "^MOVE": {
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.68,
    "sess": "reg",
-   "mt": 1785963696,
+   "mt": 1785964284,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64708.21,
-   "chg": 1.02,
-   "chg5": 3.02,
-   "sma20": 64376.61,
-   "sma50": 63243.7,
-   "sma200": 69199.88,
+   "price": 64640.75,
+   "chg": 0.91,
+   "chg5": 2.91,
+   "sma20": 64373.23,
+   "sma50": 63242.35,
+   "sma200": 69199.51,
    "high3m": 66505.12,
-   "reg": 64708.21,
+   "reg": 64640.75,
    "pre": null,
    "post": null,
-   "regClose": 64708.21,
+   "regClose": 64640.75,
    "sess": "reg",
-   "mt": 1785964298,
+   "mt": 1785964889,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.69,
+   "price": 157.7,
    "chg": 0.0,
    "chg5": -3.43,
    "sma20": 161.68,
    "sma50": 161.26,
    "sma200": 159.17,
    "high3m": 163.86,
-   "reg": 157.69,
+   "reg": 157.7,
    "pre": null,
    "post": null,
-   "regClose": 157.69,
+   "regClose": 157.7,
    "sess": "reg",
-   "mt": 1785964300,
+   "mt": 1785964892,
    "ok": true
   },
   "ES=F": {
@@ -1125,19 +1125,11 @@
  "news": {
   "credit": [
    {
-    "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? - nytimes.com",
+    "title": "Larry Ellison Bet It All on the A.I. Boom. Will He Be the Face of the A.I. Bubble? - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFB3b25tYTV5SW12WWpoanVObDdYX0VOLW1QWWFwNHdZVWNIM2N2am4tX3Z3VnVRS3Y2ZkxpOEZ0el9rX0hUNGhaVjBabF9LRmVlUlBuY3VkSFJ2aThVOWR3aTI3d19XcFB3ZUQyeGdnbXB6UnZhNlpHV0p1SDc?oc=5",
     "pub": "Wed, 05 Aug 2026 20:32:11 GMT",
-    "src": "nytimes.com",
+    "src": "The New York Times",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Earnings call transcript: Palmer Square Capital BDC misses Q2 2026 EPS forecast - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPU1dCek5teTZQSF9LaUMtcmY3MTdJZWhDdXhaTnBnc0xsWmNjLW1HclZUUk5zU3I4QjdWcFVMXy1MeHZFaTU4VlNlRDY2eDVnM1JUWGRLcXNOak0xMjRXaXVFcmVGcHFiNWcxRHRHblJTTHRlbS1QY2puYlN5WmladmRMVGFrazBfUVdUU2E4R2VkczFxWVNUOWNYUWpIUTg1X3BmUVdNLTVYRWFnN3pJUGo3cWxmb0JPUkQwYVU0dGRJUl9zMmVuME95dWctLTdpQW5oaVVhMC00TlNpRXc?oc=5",
-    "pub": "Wed, 05 Aug 2026 20:14:51 GMT",
-    "src": "Investing.com South Africa",
-    "trig": true,
     "geo": false
    },
    {
@@ -1149,18 +1141,26 @@
     "geo": false
    },
    {
-    "title": "FS KKR Capital earnings on deck amid portfolio quality concerns - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEYyUjQ4cXBqT2YxOUxfWDBPb0RaLW94S3lsZTh2VmNCTVhveVVYU215cVJGQ3Y3dEJ6dURMMDNMc1VkUl9ZQUJuS2JfZUs3TWtPTDl2aHYwZHR3MDV6UkRVTFpyR2tsblZ4LTBIM1VwdWsxUG9BdWotNGI2U1AwWVljLTVPNVZLbFF4MDlzbE9SZFpfdGFpR2hlREpXRWZUblRzcjN4T2NBWHByNlY5TEF3NDRwTENfc3dsc0pSSEdEQQ?oc=5",
-    "pub": "Wed, 05 Aug 2026 15:45:00 GMT",
-    "src": "Investing.com",
+    "title": "ABS and Samsung Heavy Industries advance floating data centre - Container News",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRzNxZzBVUHFVeTgtcVA1ZzVyb01Hdnh5eUI0Mld3cEc2NmM1MVYxbVd4ZWplT1VaTDV2eG91ckVLNEZFdV91Wk1WTEsxY0tnMFlUdElkWXJ3NXFacnB4THFQejhZelNtT0E5RV9DRnlVNVhiVk0wU2txWFUwTEV6VGRnX0haZUo2bFlPU0wzdFhXX0U?oc=5",
+    "pub": "Wed, 05 Aug 2026 19:00:26 GMT",
+    "src": "Container News",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Blue Owl Tech Finance earnings up next: Can lender rebound? By Investing.com - Investing.com UK",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZnNXb0NndWh4NFpHMU9ud1M1bWNTSlZmZllGc1pTZkM2cGxnTzBPWkFELWFrZTd4ZDUteVVoZTNtMDBpanlzNHJ3bm44V1EyTE11UFVzNzZNWUxOYV8zZEhzb0dyOW5xbDc5YUhWaVJtZVc3SE51SlQ1Z21uYldha29HS2hNWWEtZUhLZ1BUX1VyX2hlRV82eXJSZHZVVTRmdW9xQ3hFVmppeU1OWGxGcXNOMzVSb0hXQ2RoZkdR?oc=5",
-    "pub": "Wed, 05 Aug 2026 15:28:56 GMT",
-    "src": "Investing.com UK",
+    "title": "Earnings call transcript: Palmer Square Capital BDC misses Q2 2026 EPS forecast - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOenFDOVBxcU4xSV9tTTZsbTctME5haHBlbzRwcktyamZRNU1XTXNkVk1oOGdXYzQxUURXamQ0WTlaTlNKT09EVVlLOEpMbjkyekJvWHBfQWdtT2xDcmtIY0R4WHJYSnQ5MGl1QXFwQnVhdFVZOTROTTdXZWU3ZUVlVmF1a1d2X25GYjNVSzYxSXJMZjBTSkNRZUVGekRsR0w1TnBnVlBxQUtydzZiNWZUcTRUdTVSTEhnYnlDSWVzdEJqS1R6ekpuTFpFM2hEQQ?oc=5",
+    "pub": "Wed, 05 Aug 2026 18:38:03 GMT",
+    "src": "Investing.com Canada",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "FS KKR Capital earnings on deck amid portfolio quality concerns - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTEYyUjQ4cXBqT2YxOUxfWDBPb0RaLW94S3lsZTh2VmNCTVhveVVYU215cVJGQ3Y3dEJ6dURMMDNMc1VkUl9ZQUJuS2JfZUs3TWtPTDl2aHYwZHR3MDV6UkRVTFpyR2tsblZ4LTBIM1VwdWsxUG9BdWotNGI2U1AwWVljLTVPNVZLbFF4MDlzbE9SZFpfdGFpR2hlREpXRWZUblRzcjN4T2NBWHByNlY5TEF3NDRwTENfc3dsc0pSSEdEQQ?oc=5",
+    "pub": "Wed, 05 Aug 2026 15:45:00 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "The Stock Market Just Hit a Record. ‘The Big Short’ Investor Michael Burry Says That’s a Warning Sign - inc.com",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQdXJEMnZETUd0d0s4SGF0emNGbHhyN3R3OVRNbWFXSUtFWWxVaUZDY19VTW1ENzBlRmhxa3FMdVM5aHZRY0trWFQ0d2JPXzRpOE1mLVg4RHY3VGNKTjBWXzZmOW9vY1pxRzMzMHE0V0dmYXMyQnc2b3RxTU51NU9COG1Fck1FWkMwcVc3VG5vZks5MWFuVTJralJiLXlRamRPS05QQ2xfYVJDU3luMmJ2MGx2WXUyQ0xMajliUjBOOTg?oc=5",
+    "pub": "Wed, 05 Aug 2026 20:32:11 GMT",
+    "src": "inc.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Yield Curve Steepening 2026: What It Means for Stocks, Banks, and Bonds - MarketWise",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNWXJCS1VzYW5kLXQ2Ti1VSzBwdjl0cGFWVFdrc1JFZmpma1lKTFROSmFMZFB0eGtaOUFjY1YwaF85WlMtenFJdTduZHd5ZUNEcHFrVEYtcElUUWJMY2RQRnNXcTdyOXBaVnlKdEtSaUNkYWhldW5BVl80MllSTTdYMTh3ZUExTHRVNDVUSVRjRG5YRzQxeUN6ZkQ5a1JPdS1NeXhCaEpYUQ?oc=5",
     "pub": "Wed, 05 Aug 2026 18:11:48 GMT",
@@ -1249,26 +1257,18 @@
     "geo": false
    },
    {
-    "title": "The Anatomy of Trade Retaliation Structural Mechanics of the US China Drone and Sanctions Escalation - weddings.lavenderhotels.co.uk",
+    "title": "The Anatomy of Trade Retaliation Structural Mechanics of the US China Drone and Sanctions Escalation - Lavender Hotel",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPTWs3RnRGX3VUZlE3LWxmNWlaVmFiNndJVFpfdGtOdGN1cjhNWnl5ZUlDV2plMUJmWnRFckRhekYxNy1WRkc1WkV6Ri15ZlYtWUdNODVXaXNQQ3FyV3hldmUyRC1hY3BtZnFWSjRGWFV3NjFZU0dDcjNGQWM1Mzl2YVh5czdzZFF4WXNOaDhiZUUteUh1bmdVWkNXSmFjMThnT01NRHFuenhoWkY3Tnc?oc=5",
     "pub": "Wed, 05 Aug 2026 12:01:47 GMT",
-    "src": "weddings.lavenderhotels.co.uk",
+    "src": "Lavender Hotel",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Decoding Treasury Yield Dynamics During Geopolitical Flashpo - weddings.lavenderhotels.co.uk",
+    "title": "Decoding Treasury Yield Dynamics During Geopolitical Flashpo - Lavender Hotel",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPLVF5S0JiUTZrQlFQczVITzcyaFlqNlNHVUJnWkdrWWdtdVlnVkJFN2dLaWhGR25iS2Juay1SckdBVE1hNHR0RDBNZ1Jkb1J2UHhwSnRtR0J4U0FQcmNQeWNlTnJZRmh5MHJ4REIzeEhTaGhWZkF5Z3E5aG40SkM1ZG01RVJCWkRVMHdKVkdXaF9BWHhsZXNZMnZ3TQ?oc=5",
     "pub": "Wed, 05 Aug 2026 11:23:24 GMT",
-    "src": "weddings.lavenderhotels.co.uk",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Market wrap: Shriram Finance, Grasim, TCS among top gainers and losers on Nifty and Sensex on Wednesday - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPajk1RW8wSGlrdDBuSEVUd3Jra1V1azJyMnBCc0lXU0wxalBaTzV2UkU2d2Vlc3NEWTk0LWZQckJsZGxxQ0N0X2NaVFRsU0VpRE1pSU0zNGQ4YTVEVkVQamROeUJGNFhuRnM3LTN2R1ItQW16U181NHFPVVJ5Xzl6SU9UMnQ0TTd0aXBINkdLV2tLdllLUXJKUHJxNUlZZHRVZWRxdU1mNEpWOG4xa29Kbmc3MU5YTEhUaklybC15eFFZT3FGVEJSRzBBMWlMN19YTGVSMzFHOENOUmVrLVhDMTZzdFZZT3ZnMW95UlJINzNySW1Xai10eXgwdjhHNnJWQ2FHb3pFN1RxZ9IBigJBVV95cUxPajk1RW8wSGlrdDBuSEVUd3Jra1V1azJyMnBCc0lXU0wxalBaTzV2UkU2d2Vlc3NEWTk0LWZQckJsZGxxQ0N0X2NaVFRsU0VpRE1pSU0zNGQ4YTVEVkVQamROeUJGNFhuRnM3LTN2R1ItQW16U181NHFPVVJ5Xzl6SU9UMnQ0TTd0aXBINkdLV2tLdllLUXJKUHJxNUlZZHRVZWRxdU1mNEpWOG4xa29Kbmc3MU5YTEhUaklybC15eFFZT3FGVEJSRzBBMWlMN19YTGVSMzFHOENOUmVrLVhDMTZzdFZZT3ZnMW95UlJINzNySW1Xai10eXgwdjhHNnJWQ2FHb3pFN1RxZw?oc=5",
-    "pub": "Wed, 05 Aug 2026 11:02:00 GMT",
-    "src": "The Economic Times",
+    "src": "Lavender Hotel",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    162.54,
    162.07,
    163.08,
-   157.69
+   157.72
   ],
   "uso": [
    133.95,
@@ -1610,7 +1610,7 @@
    62257.57,
    64712.38,
    66100.8,
-   64700.19
+   64649.87
   ],
   "vixts": [
    0.845,
@@ -2469,7 +2469,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-05T21:11:59+00:00",
+  "checked": "2026-08-05T21:21:45+00:00",
   "openai": {
    "found": false
   },

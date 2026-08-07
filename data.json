@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-07T11:32:28+00:00",
+ "updated": "2026-08-07T11:41:58+00:00",
  "prices": {
   "NVDA": {
-   "price": 218.99,
-   "chg": -0.1,
-   "chg5": 12.28,
-   "sma20": 206.17,
-   "sma50": 205.85,
-   "sma200": 198.56,
-   "high3m": 235.74,
-   "reg": 218.99,
-   "pre": null,
-   "post": null,
-   "regClose": 218.99,
-   "sess": "reg",
-   "mt": 1786046400,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 420.56,
@@ -722,19 +710,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.23,
-   "chg": 0.53,
-   "chg5": -4.75,
+   "price": 15.22,
+   "chg": 0.46,
+   "chg5": -4.82,
    "sma20": 17.18,
    "sma50": 17.28,
    "sma200": 19.4,
    "high3m": 22.22,
-   "reg": 15.23,
+   "reg": 15.22,
    "pre": null,
    "post": null,
-   "regClose": 15.23,
+   "regClose": 15.22,
    "sess": "reg",
-   "mt": 1786101391,
+   "mt": 1786101976,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.9,
-   "chg": -0.07,
-   "chg5": 0.1,
+   "price": 99.92,
+   "chg": -0.05,
+   "chg5": 0.12,
    "sma20": 100.67,
    "sma50": 100.49,
    "sma200": 99.41,
    "high3m": 101.61,
-   "reg": 99.9,
+   "reg": 99.92,
    "pre": null,
    "post": null,
-   "regClose": 99.9,
+   "regClose": 99.92,
    "sess": "reg",
-   "mt": 1786101708,
+   "mt": 1786102283,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65037.94,
-   "chg": 1.21,
-   "chg5": 2.45,
-   "sma20": 64401.27,
-   "sma50": 63281.19,
-   "sma200": 69177.52,
+   "price": 64993.48,
+   "chg": 1.14,
+   "chg5": 2.38,
+   "sma20": 64399.05,
+   "sma50": 63280.3,
+   "sma200": 69177.28,
    "high3m": 66505.12,
-   "reg": 65037.94,
+   "reg": 64993.48,
    "pre": null,
    "post": null,
-   "regClose": 65037.94,
+   "regClose": 64993.48,
    "sess": "reg",
-   "mt": 1786102315,
+   "mt": 1786102886,
    "ok": true
   },
   "USO": {
@@ -978,115 +966,115 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.35,
-   "chg": 0.48,
-   "chg5": -1.14,
+   "price": 158.34,
+   "chg": 0.47,
+   "chg5": -1.15,
    "sma20": 161.48,
    "sma50": 161.23,
    "sma200": 159.2,
    "high3m": 163.86,
-   "reg": 158.35,
+   "reg": 158.34,
    "pre": null,
    "post": null,
-   "regClose": 158.35,
+   "regClose": 158.34,
    "sess": "reg",
-   "mt": 1786102317,
+   "mt": 1786102891,
    "ok": true
   },
   "ES=F": {
-   "price": 7751.75,
-   "chg": 0.22,
-   "chg5": 3.09,
-   "sma20": 7559.68,
-   "sma50": 7526.9,
-   "sma200": 7202.43,
+   "price": 7753.75,
+   "chg": 0.25,
+   "chg5": 3.12,
+   "sma20": 7559.77,
+   "sma50": 7526.94,
+   "sma200": 7202.45,
    "high3m": 7765.5,
-   "reg": 7751.75,
+   "reg": 7753.75,
    "pre": null,
    "post": null,
-   "regClose": 7751.75,
+   "regClose": 7753.75,
    "sess": "24h",
-   "mt": 1786101714,
+   "mt": 1786102287,
    "ok": true
   },
   "NQ=F": {
-   "price": 29638.75,
-   "chg": 0.51,
-   "chg5": 4.35,
-   "sma20": 28936.53,
-   "sma50": 29511.02,
-   "sma200": 27492.04,
+   "price": 29652.75,
+   "chg": 0.56,
+   "chg5": 4.4,
+   "sma20": 28937.22,
+   "sma50": 29511.3,
+   "sma200": 27492.15,
    "high3m": 30712.75,
-   "reg": 29638.75,
+   "reg": 29652.75,
    "pre": null,
    "post": null,
-   "regClose": 29638.75,
+   "regClose": 29652.75,
    "sess": "24h",
-   "mt": 1786101718,
+   "mt": 1786102291,
    "ok": true
   },
   "YM=F": {
-   "price": 54056.0,
-   "chg": 0.08,
-   "chg5": 2.7,
-   "sma20": 52843.5,
-   "sma50": 52254.78,
-   "sma200": 50083.22,
+   "price": 54063.0,
+   "chg": 0.09,
+   "chg5": 2.71,
+   "sma20": 52843.85,
+   "sma50": 52254.92,
+   "sma200": 50083.27,
    "high3m": 54494.0,
-   "reg": 54056.0,
+   "reg": 54063.0,
    "pre": null,
    "post": null,
-   "regClose": 54056.0,
+   "regClose": 54063.0,
    "sess": "24h",
-   "mt": 1786101714,
+   "mt": 1786102285,
    "ok": true
   },
   "GC=F": {
-   "price": 4381.3,
-   "chg": 3.28,
-   "chg5": 8.2,
-   "sma20": 4086.79,
-   "sma50": 4170.09,
-   "sma200": 4545.47,
+   "price": 4385.7,
+   "chg": 3.39,
+   "chg5": 8.31,
+   "sma20": 4087.01,
+   "sma50": 4170.17,
+   "sma200": 4545.5,
    "high3m": 4720.4,
-   "reg": 4381.3,
+   "reg": 4385.7,
    "pre": null,
    "post": null,
-   "regClose": 4381.3,
+   "regClose": 4385.7,
    "sess": "24h",
-   "mt": 1786101718,
+   "mt": 1786102287,
    "ok": true
   },
   "CL=F": {
-   "price": 76.87,
-   "chg": -0.54,
-   "chg5": -9.21,
+   "price": 76.76,
+   "chg": -0.69,
+   "chg5": -9.34,
    "sma20": 81.75,
    "sma50": 80.44,
    "sma200": 86.29,
    "high3m": 108.66,
-   "reg": 76.87,
+   "reg": 76.76,
    "pre": null,
    "post": null,
-   "regClose": 76.87,
+   "regClose": 76.76,
    "sess": "24h",
-   "mt": 1786101719,
+   "mt": 1786102293,
    "ok": true
   },
   "HG=F": {
-   "price": 6.63,
-   "chg": -0.91,
-   "chg5": 2.95,
+   "price": 6.64,
+   "chg": -0.7,
+   "chg5": 3.17,
    "sma20": 6.41,
    "sma50": 6.34,
    "sma200": 6.08,
    "high3m": 6.7,
-   "reg": 6.63,
+   "reg": 6.64,
    "pre": null,
    "post": null,
-   "regClose": 6.63,
+   "regClose": 6.64,
    "sess": "24h",
-   "mt": 1786101720,
+   "mt": 1786102295,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 108.61,
    "sess": "24h",
-   "mt": 1786101712,
+   "mt": 1786102292,
    "ok": true
   },
   "EWY": {
@@ -1141,18 +1129,10 @@
     "geo": false
    },
    {
-    "title": "Great Elm Capital Q2 2026 slides: NAV rises despite earnings miss - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODBjQzhINm54Zkp3TWJhOWJnTnd4ZkhYZVNyOWFOejUzZWw2bTk0eWhHSE1GZFMzak10RWhzS2Q3YVd2blIzNHhnaGI4LUdDdXYxbXFuSEV5TzlzMl9zYWxSNS12NHB4S1JoTzQ1bElPNWFfM0MweHcwODNtM054SkZobHhvR21yWEZua3hEX1JjOEpBdUNaSVh2RFZPZlNKSjBOUEo3RDBZbDhDZVp5Qnl1MUJKaGQ5MWhiTDVn?oc=5",
-    "pub": "Fri, 07 Aug 2026 07:22:46 GMT",
-    "src": "Investing.com",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "BlackRock sells nearly half of loan portfolio to Pantheon-backed vehicle in $523M deal - cryptobriefing.com",
+    "title": "BlackRock sells nearly half of loan portfolio to Pantheon-backed vehicle in $523M deal - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9waUZwUFZsM21BQlU1bkc4Q0tGRVVtZUh4dURyOHN3dEp6WDBwMXdlY2FqTGNlTnIxUGZoc2Y0NGRrXzhzdlB5WWFQRDlNUEotQmdHdWc0T212c1h2NHFhTmphd2lRa0prQngzWTM3NVd4NWQt?oc=5",
     "pub": "Fri, 07 Aug 2026 03:22:08 GMT",
-    "src": "cryptobriefing.com",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1171,14 +1151,22 @@
     "src": "stl.news",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Marcos proposes suspension of Real Property Valuation and Assessment Reform Act - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOEtkX2x0b2ZqeTk5YzZoanhpXy1BejNZNlExaXlrUTE0ajhHZDR3bHZIY2hyYVZlR3VOSHR1RFFnOS1WNmszazNDMHhnV2NGRFlqYUpfYkFqU2xZcl92alN5dnk4SF9pZ2NPVlZKX2tabGJOQXRGRVhzbE5aNUJYUml6Nk5GUFp1VzZqMUxmV2huNkt2SXM3dDZUS3BZdTh0YUJhOGg4V3BKMzk1bHlOMUYxWmlYU1poanNZTXZuZ3p2MmZyVzN3Sg?oc=5",
+    "pub": "Fri, 07 Aug 2026 02:10:26 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "AMD Buys Taalas to Hardwire AI Models Into Silicon, Bypassing GPU Memory Wall - Tech Times",
+    "title": "AMD Buys Taalas to Hardwire AI Models Into Silicon, Bypassing GPU Memory Wall - techtimes.com",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNU9WcDhzTjJSREh4MWVtblpjOGFZRmdiS1NOVHR3a0dqSm9Scm5tQlhTb3hJbkMzdzZnVWMyVi1iMHN3U09CdEJDM2QzNTEtc2NfX2tYdVFTMEZreHBlVnEwM2JwSmtrYmN6aG5meE9PWGhjWl9QdzBNNTBoU3ZkZ1RLQ0Y4VkVIZm5LZFdQUjhGSzdqYVM5UXZEdDlnQ2dRM05Lakl5VkpPYjdFRlRXREhwbW1xN0k0blQxdHgxNks?oc=5",
     "pub": "Fri, 07 Aug 2026 11:11:06 GMT",
-    "src": "Tech Times",
+    "src": "techtimes.com",
     "trig": false,
     "geo": false
    },
@@ -1215,10 +1203,10 @@
     "geo": false
    },
    {
-    "title": "Starlink is back: SpaceX rocket launch from Cape Canaveral set for Monday - Florida Today",
-    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZnZmTnlCcHlLeE5pRF9ob3U4OHlsQndLdTItQ3VMR2xWMkM2NENuTG9jWWdTQVlmSHQwQ1A3elhSNVcwTGdIcmJla2lkQmRqVnJpcWZEWnhIZGptSEdrdm5Ha3JFeHljTy11S2U1MzJEWjdmVUVadmI5cXVHNWljcTJEQzNwc0pEOW5aTWJ2c1R1UktETHd6YjhQZ2dMWnloa19NUE5Ta29kT1g5Tmk3cG5RSTBRODh1OWNNcEpSOEFCZk5MUFFRRnNaMlFuWmVOOHVSTHhUM0hWbFRyTjJZUGtfUU5NR0tfQml5NDlmSGIxR01CQ1Fsd1o4aGZac3JLa0ZoVmlIMGlXbFI4T1E?oc=5",
-    "pub": "Fri, 07 Aug 2026 09:06:00 GMT",
-    "src": "Florida Today",
+    "title": "SK Hynix Will Spend $38 Billion Building New Memory Chip Plants - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzROS3BRVzVSZEVlUDBKUTFDLW1TRllDYjk2MGdMcmpLVGdwdjBqYURLVEVmdFhfbEpGX1NtTXJLcVdvYnBqLWZ6S3NmcDVFTWFqbXh3cWxzeG1WRmY3eDFVUG9XQTVsaWFQSVFkN2RWWFNqdnBQeGlxeGpjVnZHSEcwT29JMk9KVEFaU2NJajV1Q3k3?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:06:30 GMT",
+    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    }
@@ -1249,10 +1237,10 @@
     "geo": false
    },
    {
-    "title": "Stocks Under Pressure As Yields Rise And Energy Risks Intensify, Deutsche Bank Warns - Bitcoin World",
+    "title": "Stocks Under Pressure As Yields Rise And Energy Risks Intensify, Deutsche Bank Warns - bitcoinworld.co.in",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaUZQZFg5UFBDS3ZJTUg0UHZ1M2VSODY4bEh4WjZWQlBFd3Y2VHpSMzBJTU5nSTVYMkIwX3Y1SUJxVFJ2MnA4Z2FVbGJoeXRxNUxER3BXNWZfSVV1d241M19BblRCTlBCNmE4VzZmVUl2WWJMQnFKODhXTmYtVmNyejNLUQ?oc=5",
     "pub": "Fri, 07 Aug 2026 08:25:11 GMT",
-    "src": "Bitcoin World",
+    "src": "bitcoinworld.co.in",
     "trig": true,
     "geo": false
    },
@@ -1275,6 +1263,22 @@
   ],
   "flow": [
    {
+    "title": "Crude Prices Rise as Hormuz Concerns Continue - IranWire",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNNkp1RW0yMlJybEhpWERjbmxJSFlYZHlaM014ZGZyaHFmdWtfNTEzREVWV1BfODB3TkY0X2pXa1g0ZVAzSHhEVHRieldxYmJLcUk0R3FCTHlGVlpMQ1JOQnN3LXJhNnFqVjFRZXBJRFo2MGZsTU1PVkVDS3NLdjVVWFZWRjhWbk1lN3c?oc=5",
+    "pub": "Fri, 07 Aug 2026 11:40:13 GMT",
+    "src": "IranWire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Investing in Gold: Will Prices Continue to Rise? Is It Still a Good Investment? - LiveChennai",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1zVVJjOC1UNGpCZVVwMDk5REU2SEJXUTZHVmsybWJvQW12bkVPcHVCazVWaGE3NEctX3BudXRDeUROVkJhU05hWV9BZXFMR0ZhX3hjYVpXV0J1SFpQdE53ZW96ODZ4dw?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:57:08 GMT",
+    "src": "LiveChennai",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US-Japan Yen Intervention Revives Bitcoin Fears of Carry-Trade Unwind - bloomingbit",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9BVzEwby16aFRFNWNSb1N2ZGNEa3M5c0hYUWRocEpvNGpJSFpOS3ZtbGYxSktFU0I2LUw4cUdaMzVrWWk0YU85MktmUmYzMi1WZlMtQg?oc=5",
     "pub": "Fri, 07 Aug 2026 09:23:00 GMT",
@@ -1283,17 +1287,17 @@
     "geo": false
    },
    {
-    "title": "Current price of oil as of August 7, 2026 - fortune.com",
+    "title": "Current price of oil as of August 7, 2026 - Fortune",
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9teXkydUFkUVVQNTdIRmo4aWxuS1pSZkg1MlhXNjNTLXVjZHY1NldjeVUtdDYyMTYxa1BicUZ3U0VxbzB5dm1xb2Vtb3Z6QUlYQVNGVDVsMUFVR2gyQzVvTnp3?oc=5",
     "pub": "Fri, 07 Aug 2026 09:22:00 GMT",
-    "src": "fortune.com",
+    "src": "Fortune",
     "trig": false,
     "geo": false
    },
    {
     "title": "Gold Price Today in India (August 7): MCX Gold Holds Near Record High Above ₹1.49 Lakh as Global Bullion Rally Extends; Check Latest 24K, 22K & 18K Gold Rates Across Delhi, Mumbai, Bengaluru & Pune - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMi0gJBVV95cUxOcjFhYkQ3SGpMTUlKa1NnV2taZTJwckkyRm1ndVR1bUtVY3I5QXk4QWtLTGlCN3VfS1MydjAwd3J3R1VlbGRNTnB2bnRoR2RhcXY0TEdESXM2SkNWaEN0UVdodkpYVTlXQlRtVWRFUUNJMUlTQ3pQTUc5bmdXM2dGN2NkUjNpSmQ4SXZGanRGOGdMNVMwRzgyUl91eTE4RnpGWFpSMTJJaWdnZUhFY1o0bG9ERFVvUm9QM2V4SEpLem5VYlFhN25vYTU1YUNPcTBrTU5PMkNGT3pwQ3UzNVhvMnpEVXdvOGROSTJWMkJjSmlOZEJTWnlIRjh6Z0cwakU3ZkhibDdkTXpHX3dQaDlfOWNFUmVRWV9kVWlTWFprOVA2NThNNXJlR3hiRDYwaFdpVXRHak9yZkZMTzlhT0pBQjZqYkFXQnFzR19uSWNBclJRUdIB1wJBVV95cUxNek82X3Zoc0NuOFZRX25uV0NoMTRoeF8zQ3JmY25TYjVkcjYxemFMVDFQRFNFYzlBRkYxbVZBNVBOSjB4QUk1X0t2NVVFV2d3UWtla0txY1NOZ0hmclpTd0ZYUXZJbW1ERzQzaC1LM01XS0xyWnQ1Wng3RTJpZVA5WGtUS3c3SUxQNGZKdHF4RjRTV01QYzBLQzF3Snotejl4d0IzWlhPV0x1SDRpenozaFlGV0pvQUJVbjNBaEF4U2dpU3lXbGhydExpSkpBQWpJOE4xRHNFR3RTX3l5LXZ0WUtnTXZleVJCRUNLaWg0M0dsbnZFT3N4dTlVWE1ONlpmdi02RWJMd3I2OUJCdDhyZm92R01ZWTFZVW5MUlJkc0haMFNicmJfNEtWZno1dnFMdHp6SmJDUXhTVnRpazFOWVdjZ2RkbEFjTXk2ZzFtVENqRTVNOVFV?oc=5",
-    "pub": "Fri, 07 Aug 2026 09:07:58 GMT",
+    "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNek82X3Zoc0NuOFZRX25uV0NoMTRoeF8zQ3JmY25TYjVkcjYxemFMVDFQRFNFYzlBRkYxbVZBNVBOSjB4QUk1X0t2NVVFV2d3UWtla0txY1NOZ0hmclpTd0ZYUXZJbW1ERzQzaC1LM01XS0xyWnQ1Wng3RTJpZVA5WGtUS3c3SUxQNGZKdHF4RjRTV01QYzBLQzF3Snotejl4d0IzWlhPV0x1SDRpenozaFlGV0pvQUJVbjNBaEF4U2dpU3lXbGhydExpSkpBQWpJOE4xRHNFR3RTX3l5LXZ0WUtnTXZleVJCRUNLaWg0M0dsbnZFT3N4dTlVWE1ONlpmdi02RWJMd3I2OUJCdDhyZm92R01ZWTFZVW5MUlJkc0haMFNicmJfNEtWZno1dnFMdHp6SmJDUXhTVnRpazFOWVdjZ2RkbEFjTXk2ZzFtVENqRTVNOVFV0gHXAkFVX3lxTE16TzZfdmhzQ244VlFfbm5XQ2gxNGh4XzNDcmZjblNiNWRyNjF6YUxUMVBEU0VjOUFGRjFtVkE1UE5KMHhBSTVfS3Y1VUVXZ3dRa2VrS3FjU05nSGZyWlN3RlhRdkltbURHNDNoLUszTVdLTHJadDVaeDdFMmllUDlYa1RLdzdJTFA0Zkp0cXhGNFNXTVBjMEtDMXdKei16OXh3QjNaWE9XTHVINGl6ejNoWUZXSm9BQlVuM0FoQXhTZ2lTeVdsaHJ0TGlKSkFBakk4TjFEc0VHdFNfeXktdnRZS2dNdmV5UkJFQ0tpaDQzR2xudkVPc3h1OVVYTU42WmZ2LTZFYkx3cjY5QkJ0OHJmb3ZHTVlZMVlVbkxSUmRzSFowU2JyYl80S1ZmejV2cUx0enpKYkNReFNWdGlrMU5ZV2NnZGRsQWNNeTZnMW1UQ2pFNU05UVU?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:07:59 GMT",
     "src": "The Sunday Guardian",
     "trig": false,
     "geo": false
@@ -1303,22 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa0lUdjM3ZVFjOHY3QVdZUUZLTTRmMGZlS3NZcUpzYURLcUJ6MWJINlVCNHQtNi1xVXBLc2VSNEV0RHFwTEItNTZjd29hOUd1Wm9xR3hSclUyS3Z2c2c5NFFxOEZtRW94MlVNekRRZ3VHakVBS1A4VnhoZFpQcjQzRHBoMk5tMVRFYXVZdWJfUnRPbm9RNmRtRmpSTUxwemJDS21IVkpkQzc0dnFOM19Pb2NqcFZCQQ?oc=5",
     "pub": "Fri, 07 Aug 2026 08:57:59 GMT",
     "src": "TradingKey",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How US-Japan's coordinated move to support the yen could reshape global currency markets - Firstpost",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNaHZGM0w5ZkZlaUFBVVYxYUVfeU1lTUpFZWxtcFl1OFZSRGwwVzNQZVFXZERvNkhNd1owejVROWZXMjNoQXhvc25zYk8wVzRtRU03b1FDbVVBbzNodUdWVnhFcU5JX2hpYWJPYnBFWFp2aFotRnAwVksxRUlkajlBY3dwQ21jeklMcFg4SzEtTmpsSDBQSm4zQ3BqYzFZREx2MWlDYXlKa2FkYnRsTkZkTHFvLXUwMkxqUW9fUVN4Z0JYZFZfamVGRGFORDNQVGw2eUHSAdcBQVVfeXFMTmpUOWxGZFpRN2x1eVNkdHFxNHJ2aWVQQUtFMkhCZHRiem5SM2V1WEZaM082dDVLSVFidXlkNEFidXJNRzNsVUh4c0dkMjdHWHlxOXA1X0k5S28wbzctOERMcEpuUUZaTmR4ZkxnOFBFbkYzLWpkeDUxXzk3YTN1b1RxN0VUOVdMNlVMOTlBajR3aTNUQklqMWI1S1AxSklOZjYyalduQzVrR21heGpJc0NZQm0tTF81RG1IUnA0NlZPcVZ0R3hxQXB3dnB0Nm1wLUVxU3E4dms?oc=5",
-    "pub": "Fri, 07 Aug 2026 08:48:20 GMT",
-    "src": "Firstpost",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "National average gas price falls to $4.06 as crude oil prices ease, AAA says - WRNJ Radio",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQbkEtdlp2bnp3dFo5bzdrTlZFbDlTdXd6OHVpQjJjSThlakt6QW9BNERHMjJReGxQRjFYcXVTTGhkanRjUFBJUG54OTVqSkxDTkZQY0VZbXBYdlV2Ykk1MUpLNzJZal9XUGFjNDg2SlVFeC1YeEpGZFpMQlZOWEpKOEJCQ2VEY1hvUTYwUDUxRkdrcG5GdW9LYU01OTdIQQ?oc=5",
-    "pub": "Fri, 07 Aug 2026 08:46:06 GMT",
-    "src": "WRNJ Radio",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    17.16,
    18.65,
    18.67,
-   15.23
+   15.22
   ],
   "tnx": [
    4.36,
@@ -1505,7 +1493,7 @@
    101.28,
    100.99,
    101.51,
-   99.91
+   99.92
   ],
   "bizd": [
    13.03,
@@ -1550,7 +1538,7 @@
    162.36,
    162.38,
    163.83,
-   158.35
+   158.32
   ],
   "uso": [
    134.97,
@@ -1610,7 +1598,7 @@
    64127.14,
    63899.46,
    64098.5,
-   65011.58
+   64999.82
   ],
   "vixts": [
    0.839,
@@ -1729,7 +1717,7 @@
   ]
  },
  "summary": {
-  "text": "우크라이나 지정학적 긴장으로 유가 상승 압박이 계속되는 가운데 신용시장에서 사모대출 부실 신호가 나타나고 있으며, 금리 4.67%와 HY스프레드 2.75%에서 신용비용 상승이 차입자 부담을 가중시키는 상황이다. AI 칩 개발에서 AMD의 메모리 벽 우회 기술 확보(Taalas 인수) 움직임이 있으나 GPU/HBM 수급의 구조적 변화는 아직 제한적이다.",
+  "text": "지정학적 긴장(우크라이나 드론 공격, 유가 상승)이 변동성을 억누르고 있으며, 신용시장에서 사모대출 스트레스 신호가 나타나는 가운데 금리 4.67%와 달러 강세가 차입 비용 압박으로 작용하고 있다. AI 인프라 투자 사이클은 SK하이닉스 메모리칩 플랜트 대규모 투자와 AMD의 온칩 AI 모델 내장 전략으로 GPU 메모리 병목 우회 시도가 진행 중이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,7 +1726,7 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 2,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2458,16 +2446,18 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 26,
-  "n": 35
+  "pct50": 24,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-07T11:32:12+00:00",
+  "checked": "2026-08-07T11:41:45+00:00",
   "openai": {
    "found": false
   },

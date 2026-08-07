@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T23:42:27+00:00",
+ "updated": "2026-08-07T23:52:01+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64863.14,
-   "chg": 0.94,
-   "chg5": 2.18,
-   "sma20": 64392.53,
-   "sma50": 63277.69,
-   "sma200": 69176.56,
+   "price": 64878.12,
+   "chg": 0.96,
+   "chg5": 2.2,
+   "sma20": 64393.28,
+   "sma50": 63277.99,
+   "sma200": 69176.65,
    "high3m": 66505.12,
-   "reg": 64863.14,
+   "reg": 64878.12,
    "pre": null,
    "post": null,
-   "regClose": 64863.14,
+   "regClose": 64878.12,
    "sess": "reg",
-   "mt": 1786146094,
+   "mt": 1786146687,
    "ok": true
   },
   "USO": {
@@ -1199,14 +1199,6 @@
     "geo": false
    },
    {
-    "title": "Apple and OpenAI escalate legal battle over devices - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLVdaR2JOeExjMzBXdHZhaXk3MTlPSk9qNGpwVm9CdUNSaUg2VGhiTk1JVktyREpXZEdjTjZ3N0hlNHpjVkxSQ250VWVkek5EZXUtTzFpVl9Yb19CUFY5bGhrOVJXbk5qaGQ5NmN2eDcwVEdTalVKUkNudDRzN0RHeUJvcENRWkRGbkdN?oc=5",
-    "pub": "Fri, 07 Aug 2026 20:39:00 GMT",
-    "src": "Yahoo Finance UK",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SK Hynix invests $38B in new plants amid AI memory shortages - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPZHlEcmI0bXhMYmVRVTFHVE1jYWgxZE5sR09rNzI3MXV6WnZTcUFfcUo5R1NxQnpTMVp1YVJuaGRuUE5ic29tQ1RRUmJHMzZDWlhmMXlUQkNPM2dxMnNoMUItdDRCbHk0cHJwWG9zdGFrSVlsRTQ1dGxhRWtNdHVnMEg5VmwyOVUxV1JFaDRkUHNSaXM4OURjWUwxbjhFRUZHRWtSdUtLYWdFdw?oc=5",
     "pub": "Fri, 07 Aug 2026 20:08:56 GMT",
@@ -1220,6 +1212,14 @@
     "pub": "Fri, 07 Aug 2026 20:08:04 GMT",
     "src": "SemiAnalysis",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "PSA: Claude Code enabling auto mode as default next week, Anthropic says - 9to5Mac",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLXV5d0YyUkM0elFOVWJFNWFEV2dwZDFDUmxvZk5rbWFlanlSMGpjc2dLQ2ZGajRsOHhoWjNyd0ZXMVN5ZGl1QjN5blRKV0hIbjhZenFEcGNyVkdIbXNYcjdDMm10NF9iVmVWSkhYUUhsc3hLcV9fOEFoRmJvZVppYzNvYzgtNXIzTjdPTlBoVXI3anh4N2JXRHJXT2gtLXpYMWN5MQ?oc=5",
+    "pub": "Fri, 07 Aug 2026 18:48:00 GMT",
+    "src": "9to5Mac",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1435,7 +1435,31 @@
    "chg4w": -118.6,
    "asof": "2026-08-05"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.04,
+   "series": [
+    42.15,
+    42.06,
+    41.81,
+    41.95,
+    42.15,
+    42.01,
+    41.85,
+    42.07,
+    41.98,
+    42.16,
+    41.76,
+    41.87,
+    42.04
+   ],
+   "chg13w": 0.33,
+   "us_chg13w": 0.76,
+   "eu_chg13w": 0.84,
+   "us_t": 23.29,
+   "eu_t": 18.75,
+   "asof": "2026-07-06",
+   "eu_asof": "2026-06-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1586,7 +1610,7 @@
    64127.14,
    63899.46,
    64098.5,
-   64863.14
+   64878.12
   ],
   "vixts": [
    0.833,
@@ -2442,7 +2466,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-07T23:42:17+00:00",
+  "checked": "2026-08-07T23:51:49+00:00",
   "openai": {
    "found": false
   },

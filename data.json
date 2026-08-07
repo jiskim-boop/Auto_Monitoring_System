@@ -1,73 +1,277 @@
 {
- "updated": "2026-08-07T08:32:20+00:00",
+ "updated": "2026-08-07T08:42:04+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 218.99,
+   "chg": -0.1,
+   "chg5": 12.28,
+   "sma20": 206.17,
+   "sma50": 205.85,
+   "sma200": 198.56,
+   "high3m": 235.74,
+   "reg": 218.99,
+   "pre": null,
+   "post": null,
+   "regClose": 218.99,
+   "sess": "reg",
+   "mt": 1786046400,
+   "ok": true
   },
   "AVGO": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 420.56,
+   "chg": 0.55,
+   "chg5": 8.44,
+   "sma20": 390.47,
+   "sma50": 394.92,
+   "sma200": 376.17,
+   "high3m": 481.57,
+   "reg": 420.56,
+   "pre": null,
+   "post": null,
+   "regClose": 420.57,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "AMD": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 489.28,
+   "chg": 1.5,
+   "chg5": 0.8,
+   "sma20": 507.17,
+   "sma50": 514.33,
+   "sma200": 371.45,
+   "high3m": 580.91,
+   "reg": 489.28,
+   "pre": null,
+   "post": null,
+   "regClose": 489.28,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "TSM": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 418.2,
+   "chg": 1.01,
+   "chg5": 3.69,
+   "sma20": 409.99,
+   "sma50": 425.93,
+   "sma200": 392.76,
+   "high3m": 477.57,
+   "reg": 418.2,
+   "pre": null,
+   "post": null,
+   "regClose": 418.2,
+   "sess": "reg",
+   "mt": 1786046402,
+   "ok": true
   },
   "ASML": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 1704.37,
+   "chg": 1.56,
+   "chg5": 3.21,
+   "sma20": 1717.78,
+   "sma50": 1757.72,
+   "sma200": 1564.33,
+   "high3m": 1989.44,
+   "reg": 1704.37,
+   "pre": null,
+   "post": null,
+   "regClose": 1704.37,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "MRVL": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 210.54,
+   "chg": -0.23,
+   "chg5": 14.86,
+   "sma20": 200.41,
+   "sma50": 240.49,
+   "sma200": 169.29,
+   "high3m": 316.43,
+   "reg": 210.54,
+   "pre": null,
+   "post": null,
+   "regClose": 210.54,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "MU": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 881.47,
+   "chg": -1.31,
+   "chg5": 0.78,
+   "sma20": 893.35,
+   "sma50": 971.96,
+   "sma200": 683.68,
+   "high3m": 1213.56,
+   "reg": 881.47,
+   "pre": null,
+   "post": null,
+   "regClose": 881.47,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "SNDK": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 1258.58,
+   "chg": -6.81,
+   "chg5": -1.67,
+   "sma20": 1428.24,
+   "sma50": 1695.65,
+   "sma200": 1214.93,
+   "high3m": 2335.0,
+   "reg": 1258.58,
+   "pre": null,
+   "post": null,
+   "regClose": 1258.58,
+   "sess": "reg",
+   "mt": 1786046400,
+   "ok": true
   },
   "STX": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 852.95,
+   "chg": 1.83,
+   "chg5": 0.15,
+   "sma20": 839.09,
+   "sma50": 893.31,
+   "sma200": 674.26,
+   "high3m": 1094.04,
+   "reg": 852.95,
+   "pre": null,
+   "post": null,
+   "regClose": 852.95,
+   "sess": "reg",
+   "mt": 1786046400,
+   "ok": true
   },
   "WDC": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 451.52,
+   "chg": -13.03,
+   "chg5": -15.29,
+   "sma20": 518.89,
+   "sma50": 563.12,
+   "sma200": 434.97,
+   "high3m": 746.23,
+   "reg": 451.52,
+   "pre": null,
+   "post": null,
+   "regClose": 451.52,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "005930.KS": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 231000.0,
+   "chg": 0.22,
+   "chg5": -12.0,
+   "sma20": 247950.0,
+   "sma50": 293770.0,
+   "sma200": 247746.69,
+   "high3m": 362500.0,
+   "reg": 231000.0,
+   "pre": null,
+   "post": null,
+   "regClose": 231000.0,
+   "sess": "reg",
+   "mt": 1786084220,
+   "ok": true
   },
   "000660.KS": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 1422000.0,
+   "chg": -4.88,
+   "chg5": -17.23,
+   "sma20": 1725300.0,
+   "sma50": 2124500.0,
+   "sma200": 1577892.56,
+   "high3m": 2919000.0,
+   "reg": 1422000.0,
+   "pre": null,
+   "post": null,
+   "regClose": 1422000.0,
+   "sess": "reg",
+   "mt": 1786084205,
+   "ok": true
   },
   "ANET": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 192.32,
+   "chg": -2.53,
+   "chg5": 12.45,
+   "sma20": 177.2,
+   "sma50": 169.86,
+   "sma200": 154.21,
+   "high3m": 197.31,
+   "reg": 192.32,
+   "pre": null,
+   "post": null,
+   "regClose": 192.32,
+   "sess": "reg",
+   "mt": 1786046403,
+   "ok": true
   },
   "ALAB": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 331.5,
+   "chg": 4.1,
+   "chg5": 10.61,
+   "sma20": 321.26,
+   "sma50": 357.64,
+   "sma200": 240.87,
+   "high3m": 483.02,
+   "reg": 331.5,
+   "pre": null,
+   "post": null,
+   "regClose": 331.5,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "CRDO": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 230.43,
+   "chg": 2.58,
+   "chg5": 14.6,
+   "sma20": 218.97,
+   "sma50": 235.74,
+   "sma200": 179.25,
+   "high3m": 302.52,
+   "reg": 230.43,
+   "pre": null,
+   "post": null,
+   "regClose": 230.43,
+   "sess": "reg",
+   "mt": 1786046401,
+   "ok": true
   },
   "VRT": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 275.17,
+   "chg": -1.0,
+   "chg5": 20.95,
+   "sma20": 282.18,
+   "sma50": 301.66,
+   "sma200": 292.26,
+   "high3m": 376.23,
+   "reg": 275.17,
+   "pre": null,
+   "post": null,
+   "regClose": 275.17,
+   "sess": "reg",
+   "mt": 1786046402,
+   "ok": true
   },
   "CIEN": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 403.76,
+   "chg": -1.24,
+   "chg5": 8.52,
+   "sma20": 396.98,
+   "sma50": 449.24,
+   "sma200": 441.16,
+   "high3m": 627.0,
+   "reg": 403.76,
+   "pre": null,
+   "post": null,
+   "regClose": 403.76,
+   "sess": "reg",
+   "mt": 1786046403,
+   "ok": true
   },
   "COHR": {
    "price": 334.22,
@@ -518,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.25,
-   "chg": 0.66,
-   "chg5": -4.63,
+   "price": 15.28,
+   "chg": 0.86,
+   "chg5": -4.44,
    "sma20": 17.18,
    "sma50": 17.28,
    "sma200": 19.4,
    "high3m": 22.22,
-   "reg": 15.25,
+   "reg": 15.28,
    "pre": null,
    "post": null,
-   "regClose": 15.25,
+   "regClose": 15.28,
    "sess": "reg",
-   "mt": 1786090591,
+   "mt": 1786091176,
    "ok": true
   },
   "^VIX3M": {
@@ -598,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.97,
-   "chg": -0.0,
-   "chg5": 0.17,
+   "price": 99.98,
+   "chg": 0.01,
+   "chg5": 0.18,
    "sma20": 100.67,
    "sma50": 100.49,
    "sma200": 99.41,
    "high3m": 101.61,
-   "reg": 99.97,
+   "reg": 99.98,
    "pre": null,
    "post": null,
-   "regClose": 99.97,
+   "regClose": 99.98,
    "sess": "reg",
-   "mt": 1786090908,
+   "mt": 1786091482,
    "ok": true
   },
   "^IRX": {
@@ -742,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64420.0,
-   "chg": 0.25,
-   "chg5": 1.48,
-   "sma20": 64370.37,
-   "sma50": 63268.83,
-   "sma200": 69174.13,
+   "price": 64466.98,
+   "chg": 0.32,
+   "chg5": 1.55,
+   "sma20": 64372.72,
+   "sma50": 63269.77,
+   "sma200": 69174.39,
    "high3m": 66505.12,
-   "reg": 64420.0,
+   "reg": 64466.98,
    "pre": null,
    "post": null,
-   "regClose": 64420.0,
+   "regClose": 64466.98,
    "sess": "reg",
-   "mt": 1786091514,
+   "mt": 1786092084,
    "ok": true
   },
   "USO": {
@@ -774,99 +978,99 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.45,
-   "chg": 0.54,
-   "chg5": -1.08,
+   "price": 158.38,
+   "chg": 0.5,
+   "chg5": -1.12,
    "sma20": 161.48,
    "sma50": 161.24,
    "sma200": 159.2,
    "high3m": 163.86,
-   "reg": 158.45,
+   "reg": 158.38,
    "pre": null,
    "post": null,
-   "regClose": 158.45,
+   "regClose": 158.38,
    "sess": "reg",
-   "mt": 1786091515,
+   "mt": 1786092091,
    "ok": true
   },
   "ES=F": {
-   "price": 7743.5,
-   "chg": 0.11,
-   "chg5": 2.98,
-   "sma20": 7559.26,
-   "sma50": 7526.73,
-   "sma200": 7202.36,
+   "price": 7744.25,
+   "chg": 0.12,
+   "chg5": 2.99,
+   "sma20": 7559.3,
+   "sma50": 7526.75,
+   "sma200": 7202.37,
    "high3m": 7765.5,
-   "reg": 7743.5,
+   "reg": 7744.25,
    "pre": null,
    "post": null,
-   "regClose": 7743.5,
+   "regClose": 7744.25,
    "sess": "24h",
-   "mt": 1786090914,
+   "mt": 1786091489,
    "ok": true
   },
   "NQ=F": {
-   "price": 29614.0,
-   "chg": 0.43,
-   "chg5": 4.26,
-   "sma20": 28935.29,
-   "sma50": 29510.52,
-   "sma200": 27491.84,
+   "price": 29631.5,
+   "chg": 0.49,
+   "chg5": 4.32,
+   "sma20": 28936.16,
+   "sma50": 29510.87,
+   "sma200": 27491.98,
    "high3m": 30712.75,
-   "reg": 29614.0,
+   "reg": 29631.5,
    "pre": null,
    "post": null,
-   "regClose": 29614.0,
+   "regClose": 29631.5,
    "sess": "24h",
-   "mt": 1786090915,
+   "mt": 1786091491,
    "ok": true
   },
   "YM=F": {
-   "price": 53941.0,
-   "chg": -0.13,
-   "chg5": 2.48,
-   "sma20": 52837.75,
-   "sma50": 52252.48,
-   "sma200": 50082.3,
+   "price": 53946.0,
+   "chg": -0.12,
+   "chg5": 2.49,
+   "sma20": 52838.0,
+   "sma50": 52252.58,
+   "sma200": 50082.34,
    "high3m": 54494.0,
-   "reg": 53941.0,
+   "reg": 53946.0,
    "pre": null,
    "post": null,
-   "regClose": 53941.0,
+   "regClose": 53946.0,
    "sess": "24h",
-   "mt": 1786090911,
+   "mt": 1786091484,
    "ok": true
   },
   "GC=F": {
-   "price": 4355.1,
-   "chg": 2.67,
-   "chg5": 7.56,
-   "sma20": 4085.48,
-   "sma50": 4169.56,
-   "sma200": 4545.26,
+   "price": 4358.8,
+   "chg": 2.75,
+   "chg5": 7.65,
+   "sma20": 4085.67,
+   "sma50": 4169.64,
+   "sma200": 4545.29,
    "high3m": 4720.4,
-   "reg": 4355.1,
+   "reg": 4358.8,
    "pre": null,
    "post": null,
-   "regClose": 4355.1,
+   "regClose": 4358.8,
    "sess": "24h",
-   "mt": 1786090917,
+   "mt": 1786091492,
    "ok": true
   },
   "CL=F": {
-   "price": 77.84,
-   "chg": 0.71,
-   "chg5": -8.07,
+   "price": 77.85,
+   "chg": 0.72,
+   "chg5": -8.05,
    "sma20": 81.8,
    "sma50": 80.46,
    "sma200": 86.3,
    "high3m": 108.66,
-   "reg": 77.84,
+   "reg": 77.85,
    "pre": null,
    "post": null,
-   "regClose": 77.84,
+   "regClose": 77.85,
    "sess": "24h",
-   "mt": 1786090918,
+   "mt": 1786091494,
    "ok": true
   },
   "HG=F": {
@@ -882,7 +1086,7 @@
    "post": null,
    "regClose": 6.72,
    "sess": "24h",
-   "mt": 1786090911,
+   "mt": 1786091490,
    "ok": true
   },
   "ZN=F": {
@@ -898,7 +1102,7 @@
    "post": null,
    "regClose": 108.5,
    "sess": "24h",
-   "mt": 1786090896,
+   "mt": 1786091461,
    "ok": true
   },
   "EWY": {
@@ -1037,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "Russian forces strike people at market in Sumy Oblast: 10 injured - Українська правда",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1mTVdLdFkzLXhyS0dYSW1YOV9QeF9xUWpzWHBNMzNyMFpjOUk0UmdvWFZJN3dla3NiZzV3SVBaRVpyMlBIUGpyMWVWcFp1TDUtVWlsWmlNTjhVNS1WUFptRC1uTVnSAXBBVV95cUxQczNkYTl5ZzNkUmF4Q2s3RDk4NGQ3TW0tS3BhUkYyLVdUeHFIaGZlbGFwbzd0VVYtVzZveUZTdmIzYXZPUGlsdFZnT3hOQ2pWLVBQQTVVdkJESVZ5T1U5TFQ2anExUzdta2RhZ25kRzQ3?oc=5",
+    "pub": "Fri, 07 Aug 2026 06:24:00 GMT",
+    "src": "Українська правда",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "MUFG: Oil Market Looks Through Hormuz Risks, Prices Remain Rangebound - Bitcoin World",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5jRWxBcUlfSUNBMllFYjUtanFTTzMxNUp1V0lSc3A2YUM5TGZwUHZSNGJINUpWMzhoWUdSMmdONF80bHdUVlN6VU5QVkROWDRzZ2k2amt5bzczdVJfUHZzLS1CYUhpQktPSW9CNHRJSWdjRnZHY2pKX0ZB?oc=5",
     "pub": "Fri, 07 Aug 2026 06:00:12 GMT",
@@ -1057,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxNaERNSnJUZEZxOW5aTnMyWTVTcGUxcW5ta2IyUERUckI1a3gwU005RF9rYThBWDd5dnF4V2Q0VnpRVHNlVzhVLWJ4T0diU0pQcFQwZ0tPRVpQV3hmWlJ2ekFCWFJFNndDSlFUS1hPYmNtZk5NUFM1bEZ3UXFOdXBseVBMTWJHcm9aNjhzRmJQZFhMTmlYV1VDUXVFWEVYR3VHTlVwUHZLRGtlOE1zUVZBYzNpWC1xMUZDQlVVcV9KaEw4ZThBcVNnSFhlQ25TdG5fY2NOb0Q2WkpqRHlHZG5WLWc2b1JDTWFRVjhWQ2RHbkRSZnJWekJ0OXJKRDRfeFZtZWlPNGlWdHJ5MWZ1dzAzVTRB0gGXAkFVX3lxTE4tUGQxWTFKNjRPckZ2WFB0aHJFTHpjdjgtbVhqaGhuVlRoaVBFazBqRTZGUHJJN3IxYzNXVGFpRGxLbkpJbDhXTjJ0SnFfbVRHMnNYSmFSUHFmSUlmVXhTelN1SGVwSGxUOVJ2dWxiLV9UM2ZKTi1keTVnT0U4Yi05RnNSalFRd19lRjgzdklQQUVybU1QWWZ5MFpsRXZVRGhpb3ZtNDc5QmRvOVM5TU5VVXozZmR3Tm1LOGg1WHpOZ1Q3bWl0NlJzakFiOUpOR3hsVy1TNkE3YlRfbGExN09VRWY1Sm9FcU5lN2gzZ1U1enRjUjlGUkdrVUk2NmZXSHBsMlU0aldjdGp5VzY4UjJLYjV4ZWhyMA?oc=5",
     "pub": "Fri, 07 Aug 2026 02:13:00 GMT",
     "src": "The Times of India",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Alphabet’s $25B bond sale and the hyperscaler credit spread widening - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQlNHTTgzcWF3RFZhcW9iUC1MQjhQU3cyT01aWEVjNG41MldPS2VzUG85c3dOR3ZfQ3pnRHZXeC1zdzZBaHBvREpQZG5EWGdTdlRlak9faGNLTkxqRVhnSERHdXBnTHdVdDFwZ0RPNU5nQzBDOGszdVJ0QUo5Z2VPR0FHYjhua1FILXZtUkd5N1NzX3lSWEhEdGRhZms2Yk9PLTI1UkZuSEJ2NkF4Rlo0bDVQMXNpZmpWMzVtQkRxUEEzTlNmc2lv?oc=5",
-    "pub": "Fri, 07 Aug 2026 00:33:45 GMT",
-    "src": "Investing.com",
     "trig": false,
     "geo": false
    }
@@ -1095,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Copper Price Volatility Disrupts Order Releases, Cable Operating Rates Decline Again [SMM Wire and Cable Market Weekly Review] - Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNdERLRlRlTUVYZTVtOERoTXpxck5JSE5xdUNrSDktdC1MdVpIWjd0Y0lvVm9QaW5hajBLV21qZTEwYm1oTTR2Si1VZTRnQjdYeUpEbjA5aWlNbWJFazlfTlhSVUo5bzh0cklDWTdaUEdaUnp4YmRtWU41ZTdzV3FoVmI2QmJQMGdzUUNmb09Vc3ZxWUlTZ24tNEpFNC1jMDRrc3VQTnhpZV9qT3BDRjhIeHZVUjBuX1JxRUx0dXVFOGU0OFdQcGxlc0ZLYXVIWFFBeGg4Rk82QzB6VDcxTmhCYUYxSDNmaXhfN0JnSkltdXpuTDI1RmNkWEotQmw?oc=5",
+    "pub": "Fri, 07 Aug 2026 06:41:44 GMT",
+    "src": "Shanghai Metals Market",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "U.S.-Japan intervention lifts yen as carry risks rise but market impact stays limited - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZUpqYS0xNXIzemRGNVNjaU8tOEVfX0JhSWowQ29rYk4xZnQxeTh0a1NYTzFWbmdFdHBUejVxUWhSR0pPbTl5aGJNNEdzOUFjWktaQWxzLVFBYXFTa241UHJ1NXVrN2hQSi1MbnJWS2RqZDJ1RTNuaXJsc2J6Tzl4eHJpWHdqX1J1ZHQ0R0N6MEt3UTZk0gGUAUFVX3lxTE1lSmphLTE1cjN6ZEY1U2NpTy04RV9fQmFJajBDb2tiTjFmdDF5OHRrU1hPMVZuZ0V0cFR6NXFRaFJHSk9tOXloYk00R3M5QWNaS1pBbHMtUUFhcVNrbjVQcnU1dWs3aFBKLUxuclZLZGpkMnVFM25pcmxzYnpPOXh4cmlYd2pfUnVkdDRHQ3owS3dRNmQ?oc=5",
     "pub": "Fri, 07 Aug 2026 06:22:00 GMT",
@@ -1107,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNGMzbXNRSHB4dDJuWUp2YW9lNWZkTm1obC1jOFZrYm9LWWhVWHVXOUU1Q1FpQTM2WC0zOHMzM1dFUXhHMzBGc2RpZk5lcnkxT0xDOHoxckFic0RsbUZBQ0JEUG4xSkJDRnNMSHJSWXN2QTJMRG91SWRxSzBvdGZaSlM3Rk1mSDBL?oc=5",
     "pub": "Fri, 07 Aug 2026 06:08:58 GMT",
     "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Jump as Houthi Attacks Raise Saudi Supply Risks - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUlg2dk5nTWt0Ry1HOFZ4RWRjZVZUU3VmeXNtYXd1RDY4VUw2bThNcnVZeEJjZXJMcjNicEFJUXdSdTJ1QW1lLVJfUVYzbzRUT09jamFkeHB2cWVEZ2I1WFZjWDh2cmVuMUV0WGpsTHpkUFNhUzNsTzB0djBMY1dUNGMyZlBZVkNuZWZBNEsxVmgxc0E0MmEtRl9SbEQ1X0xwS1JyclY0TWN0ak4zRnlZdThHM0I?oc=5",
-    "pub": "Fri, 07 Aug 2026 05:40:20 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1231,31 +1435,7 @@
    "chg4w": -118.6,
    "asof": "2026-08-05"
   },
-  "gm2": {
-   "value": 42.04,
-   "series": [
-    42.15,
-    42.06,
-    41.81,
-    41.95,
-    42.15,
-    42.01,
-    41.85,
-    42.07,
-    41.98,
-    42.16,
-    41.76,
-    41.87,
-    42.04
-   ],
-   "chg13w": 0.33,
-   "us_chg13w": 0.76,
-   "eu_chg13w": 0.84,
-   "us_t": 23.29,
-   "eu_t": 18.75,
-   "asof": "2026-07-06",
-   "eu_asof": "2026-06-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1271,7 +1451,7 @@
    17.16,
    18.65,
    18.67,
-   15.25
+   15.28
   ],
   "tnx": [
    4.36,
@@ -1301,7 +1481,7 @@
    101.28,
    100.99,
    101.51,
-   99.97
+   99.98
   ],
   "bizd": [
    13.03,
@@ -1346,7 +1526,7 @@
    162.36,
    162.38,
    163.83,
-   158.46
+   158.38
   ],
   "uso": [
    134.97,
@@ -1406,7 +1586,7 @@
    64127.14,
    63899.46,
    64098.5,
-   64419.12
+   64466.99
   ],
   "vixts": [
    0.839,
@@ -1421,7 +1601,7 @@
    0.844,
    0.973,
    0.959,
-   0.742
+   0.744
   ],
   "hyoas": [
    2.95,
@@ -1547,7 +1727,9 @@
   "st": "a",
   "hits": [
    "사모대출 주가 약세",
+   "AI 밸류체인 약세",
    "CCC-BB 확대(품질분산)",
+   "폭 축소(쏠림 랠리)",
    "조정 지속(고점 -4.2%)"
   ],
   "early": [],
@@ -1952,7 +2134,9 @@
    "risk": false,
    "hits": [
     "사모대출 주가 약세",
+    "AI 밸류체인 약세",
     "CCC-BB 확대(품질분산)",
+    "폭 축소(쏠림 랠리)",
     "조정 지속(고점 -4.2%)"
    ]
   }
@@ -2251,29 +2435,16 @@
   21
  ],
  "feed": {
-  "fail": 17,
-  "failed": [
-   "NVDA",
-   "AVGO",
-   "AMD",
-   "TSM",
-   "ASML",
-   "MRVL",
-   "MU",
-   "SNDK",
-   "STX",
-   "WDC",
-   "005930.KS",
-   "000660.KS"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 33,
-  "n": 18
+  "pct50": 26,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-07T08:32:11+00:00",
+  "checked": "2026-08-07T08:41:54+00:00",
   "openai": {
    "found": false
   },

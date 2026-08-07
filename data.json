@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-07T11:41:58+00:00",
+ "updated": "2026-08-07T11:52:08+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 218.99,
+   "chg": -0.1,
+   "chg5": 12.28,
+   "sma20": 206.17,
+   "sma50": 205.85,
+   "sma200": 198.56,
+   "high3m": 235.74,
+   "reg": 218.99,
+   "pre": null,
+   "post": null,
+   "regClose": 218.99,
+   "sess": "reg",
+   "mt": 1786046400,
+   "ok": true
   },
   "AVGO": {
    "price": 420.56,
@@ -710,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.22,
-   "chg": 0.46,
-   "chg5": -4.82,
+   "price": 15.23,
+   "chg": 0.53,
+   "chg5": -4.75,
    "sma20": 17.18,
    "sma50": 17.28,
    "sma200": 19.4,
    "high3m": 22.22,
-   "reg": 15.22,
+   "reg": 15.23,
    "pre": null,
    "post": null,
-   "regClose": 15.22,
+   "regClose": 15.23,
    "sess": "reg",
-   "mt": 1786101976,
+   "mt": 1786102576,
    "ok": true
   },
   "^VIX3M": {
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.92,
-   "chg": -0.05,
-   "chg5": 0.12,
+   "price": 99.89,
+   "chg": -0.08,
+   "chg5": 0.09,
    "sma20": 100.67,
    "sma50": 100.49,
    "sma200": 99.41,
    "high3m": 101.61,
-   "reg": 99.92,
+   "reg": 99.89,
    "pre": null,
    "post": null,
-   "regClose": 99.92,
+   "regClose": 99.89,
    "sess": "reg",
-   "mt": 1786102283,
+   "mt": 1786102889,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64993.48,
-   "chg": 1.14,
-   "chg5": 2.38,
-   "sma20": 64399.05,
-   "sma50": 63280.3,
-   "sma200": 69177.28,
+   "price": 64979.82,
+   "chg": 1.12,
+   "chg5": 2.36,
+   "sma20": 64398.36,
+   "sma50": 63280.03,
+   "sma200": 69177.2,
    "high3m": 66505.12,
-   "reg": 64993.48,
+   "reg": 64979.82,
    "pre": null,
    "post": null,
-   "regClose": 64993.48,
+   "regClose": 64979.82,
    "sess": "reg",
-   "mt": 1786102886,
+   "mt": 1786103493,
    "ok": true
   },
   "USO": {
@@ -966,99 +978,99 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.34,
-   "chg": 0.47,
-   "chg5": -1.15,
-   "sma20": 161.48,
+   "price": 158.32,
+   "chg": 0.45,
+   "chg5": -1.16,
+   "sma20": 161.47,
    "sma50": 161.23,
    "sma200": 159.2,
    "high3m": 163.86,
-   "reg": 158.34,
+   "reg": 158.32,
    "pre": null,
    "post": null,
-   "regClose": 158.34,
+   "regClose": 158.32,
    "sess": "reg",
-   "mt": 1786102891,
+   "mt": 1786103497,
    "ok": true
   },
   "ES=F": {
-   "price": 7753.75,
-   "chg": 0.25,
-   "chg5": 3.12,
-   "sma20": 7559.77,
-   "sma50": 7526.94,
-   "sma200": 7202.45,
+   "price": 7755.0,
+   "chg": 0.26,
+   "chg5": 3.14,
+   "sma20": 7559.84,
+   "sma50": 7526.96,
+   "sma200": 7202.46,
    "high3m": 7765.5,
-   "reg": 7753.75,
+   "reg": 7755.0,
    "pre": null,
    "post": null,
-   "regClose": 7753.75,
+   "regClose": 7755.0,
    "sess": "24h",
-   "mt": 1786102287,
+   "mt": 1786102894,
    "ok": true
   },
   "NQ=F": {
-   "price": 29652.75,
-   "chg": 0.56,
-   "chg5": 4.4,
-   "sma20": 28937.22,
-   "sma50": 29511.3,
-   "sma200": 27492.15,
+   "price": 29660.25,
+   "chg": 0.58,
+   "chg5": 4.42,
+   "sma20": 28937.6,
+   "sma50": 29511.45,
+   "sma200": 27492.21,
    "high3m": 30712.75,
-   "reg": 29652.75,
+   "reg": 29660.25,
    "pre": null,
    "post": null,
-   "regClose": 29652.75,
+   "regClose": 29660.25,
    "sess": "24h",
-   "mt": 1786102291,
+   "mt": 1786102897,
    "ok": true
   },
   "YM=F": {
-   "price": 54063.0,
-   "chg": 0.09,
-   "chg5": 2.71,
-   "sma20": 52843.85,
-   "sma50": 52254.92,
-   "sma200": 50083.27,
+   "price": 54088.0,
+   "chg": 0.14,
+   "chg5": 2.76,
+   "sma20": 52845.1,
+   "sma50": 52255.42,
+   "sma200": 50083.47,
    "high3m": 54494.0,
-   "reg": 54063.0,
+   "reg": 54088.0,
    "pre": null,
    "post": null,
-   "regClose": 54063.0,
+   "regClose": 54088.0,
    "sess": "24h",
-   "mt": 1786102285,
+   "mt": 1786102889,
    "ok": true
   },
   "GC=F": {
-   "price": 4385.7,
-   "chg": 3.39,
-   "chg5": 8.31,
-   "sma20": 4087.01,
-   "sma50": 4170.17,
-   "sma200": 4545.5,
+   "price": 4383.0,
+   "chg": 3.32,
+   "chg5": 8.25,
+   "sma20": 4086.88,
+   "sma50": 4170.12,
+   "sma200": 4545.48,
    "high3m": 4720.4,
-   "reg": 4385.7,
+   "reg": 4383.0,
    "pre": null,
    "post": null,
-   "regClose": 4385.7,
+   "regClose": 4383.0,
    "sess": "24h",
-   "mt": 1786102287,
+   "mt": 1786102898,
    "ok": true
   },
   "CL=F": {
-   "price": 76.76,
-   "chg": -0.69,
-   "chg5": -9.34,
-   "sma20": 81.75,
+   "price": 76.64,
+   "chg": -0.84,
+   "chg5": -9.48,
+   "sma20": 81.74,
    "sma50": 80.44,
    "sma200": 86.29,
    "high3m": 108.66,
-   "reg": 76.76,
+   "reg": 76.64,
    "pre": null,
    "post": null,
-   "regClose": 76.76,
+   "regClose": 76.64,
    "sess": "24h",
-   "mt": 1786102293,
+   "mt": 1786102901,
    "ok": true
   },
   "HG=F": {
@@ -1074,23 +1086,23 @@
    "post": null,
    "regClose": 6.64,
    "sess": "24h",
-   "mt": 1786102295,
+   "mt": 1786102898,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.61,
-   "chg": 0.1,
-   "chg5": 0.56,
+   "price": 108.64,
+   "chg": 0.13,
+   "chg5": 0.59,
    "sma20": 108.68,
    "sma50": 109.29,
-   "sma200": 110.52,
+   "sma200": 110.53,
    "high3m": 110.75,
-   "reg": 108.61,
+   "reg": 108.64,
    "pre": null,
    "post": null,
-   "regClose": 108.61,
+   "regClose": 108.64,
    "sess": "24h",
-   "mt": 1786102292,
+   "mt": 1786102902,
    "ok": true
   },
   "EWY": {
@@ -1113,10 +1125,26 @@
  "news": {
   "credit": [
    {
-    "title": "Signs of distress are showing up in private credit - Axios",
+    "title": "Deep Dive: Challenging private credit backdrop places emphasis on management skill - Investment Week",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZFZPNFBHeW5CR3lJT0hpSllCak1od21QNUtmdW9TWURRZkpfVG5ERWlKYnNoa09IZTJFZDFab2lKR1NOVjRvMUZHa1IwV3FHYlZ3OUh3MHRuaFVwRHZuZnpzc2YzOFd5RnJWN2FDZW5VSDRxYW5iSTBCUkdlRFlzZDkzNTY0RHFBOHJ5X3lfdzNsTU9yekVOR1JUZDRKWlY0bG15NlVSNEUzMTJtTm1uLW9SUS0xeDdKX3NIZ3lR?oc=5",
+    "pub": "Fri, 07 Aug 2026 11:28:23 GMT",
+    "src": "Investment Week",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Signs of distress are showing up in private credit - axios.com",
     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xaGd1aEVZTVNZMGNMODgtOWxaVnJKeC1pVWg4RGdreWJDeXF2bTlQeDg3TFlrYTVuMnNZQkN6TWpHOXd1NHZLbjRaNWt0Rm5OWUxCdGgxdTJVZEkxcFZrR1p0MUJTcGNiajhSNg?oc=5",
     "pub": "Fri, 07 Aug 2026 11:21:54 GMT",
-    "src": "Axios",
+    "src": "axios.com",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "NCDL Q2 2026 slides: dividend covered despite earnings miss - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd3ZmZkt4b1FPRzgzVzJIQXhOX1hVNS1sLVZueExfUEhVSUVxYXJGd28zclhxX3VjVThPM084LTJORlNoWVZxQi03VDYtTkE1amxybFlvY01xNi1UMWFGRnBmYVAySERiZWhEb1BFaUgwYS1IdHVORWh4eDh5a3hMMHR0QkNoc2ktd3h6Qk8zemZrS3hiVFdhQTM4b0JDTW5ZRVFhWENEVlRoQ1NxdFNlNXR6alJDUQ?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:59:48 GMT",
+    "src": "Investing.com",
     "trig": true,
     "geo": false
    },
@@ -1129,44 +1157,28 @@
     "geo": false
    },
    {
-    "title": "BlackRock sells nearly half of loan portfolio to Pantheon-backed vehicle in $523M deal - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9waUZwUFZsM21BQlU1bkc4Q0tGRVVtZUh4dURyOHN3dEp6WDBwMXdlY2FqTGNlTnIxUGZoc2Y0NGRrXzhzdlB5WWFQRDlNUEotQmdHdWc0T212c1h2NHFhTmphd2lRa0prQngzWTM3NVd4NWQt?oc=5",
-    "pub": "Fri, 07 Aug 2026 03:22:08 GMT",
-    "src": "Crypto Briefing",
+    "title": "Cion Investment Corp. Earnings Call Highlights Discount Gap - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeDJ1QURELVB2OXJ4SUpiUFRMTGs4ai1HRVEyWDRCcHA4aU05M0labi1aMkozYmRzMzk0U0JXdmlTdDhXM2g5LVNSWS01Qld6VjZMTk1BTldROFJJUE4tNXdvUjZvTEY4SUY3a1hZNG1jUmJUa0xaUEwtTzBsZTlUQnVnU0RPZlJsMUFjVGE3ZXZjQkhERkxzX3dfUlRzN1ItaDFpcy05QUt3YXJaSmhr?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:42:31 GMT",
+    "src": "TipRanks",
     "trig": false,
     "geo": false
    },
    {
-    "title": "State Street SPDR S&P/ASX 200 Listed Property ETF Reports NAV of $12.82 Per Unit on 6 August 2026 - Kalkine",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNYVFfRV93SHBJdGtsTmZMWmpWRGhXdXhHOWpFZ0FrSFVROHUtVzhlY0dtNzlnNU1kOHAzdUNWZVBtbWlyM2VRTDZWX25DbVdQLVlDaF9BTnpSX0h2cE5LUk1vY3dreXlyNUJOTm93cFZKM1NKSTVtaVFKOVI4elBKZ1pWblBUVGRsWFVXQmxDV3E4WW93QzIya1RBZlQzUzhHQ0hkYjhuYzJSV3BObWZManAybzZqdF9NRXBBYkdfeERsVWotVkxyYy1SLW9kZ2oy?oc=5",
-    "pub": "Fri, 07 Aug 2026 03:17:27 GMT",
-    "src": "Kalkine",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Goldman Sachs BDC Declares $0.35 Quarterly Dividend - stl.news",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1jZlhKb2ZNaFd1Q09qZ3Y2SENpcGh5Q1RwOFFHUWRCVkM1dDdOVE1pTGpEUmRwUWJmV0R1eXlHSlFfVmJqcWR2U0F6TXFVdWlDaUNyR0JENEJUVTVaSXRzRm8wZ3VrakkzVTgyM1ExeE8yYVhjSXJqVW9Ub2g?oc=5",
-    "pub": "Fri, 07 Aug 2026 02:21:51 GMT",
-    "src": "stl.news",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Marcos proposes suspension of Real Property Valuation and Assessment Reform Act - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNOEtkX2x0b2ZqeTk5YzZoanhpXy1BejNZNlExaXlrUTE0ajhHZDR3bHZIY2hyYVZlR3VOSHR1RFFnOS1WNmszazNDMHhnV2NGRFlqYUpfYkFqU2xZcl92alN5dnk4SF9pZ2NPVlZKX2tabGJOQXRGRVhzbE5aNUJYUml6Nk5GUFp1VzZqMUxmV2huNkt2SXM3dDZUS3BZdTh0YUJhOGg4V3BKMzk1bHlOMUYxWmlYU1poanNZTXZuZ3p2MmZyVzN3Sg?oc=5",
-    "pub": "Fri, 07 Aug 2026 02:10:26 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
+    "title": "Great Elm Capital Q2 2026 slides: NAV rises despite earnings miss - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPODBjQzhINm54Zkp3TWJhOWJnTnd4ZkhYZVNyOWFOejUzZWw2bTk0eWhHSE1GZFMzak10RWhzS2Q3YVd2blIzNHhnaGI4LUdDdXYxbXFuSEV5TzlzMl9zYWxSNS12NHB4S1JoTzQ1bElPNWFfM0MweHcwODNtM054SkZobHhvR21yWEZua3hEX1JjOEpBdUNaSVh2RFZPZlNKSjBOUEo3RDBZbDhDZVp5Qnl1MUJKaGQ5MWhiTDVn?oc=5",
+    "pub": "Fri, 07 Aug 2026 07:22:46 GMT",
+    "src": "Investing.com",
+    "trig": true,
     "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "AMD Buys Taalas to Hardwire AI Models Into Silicon, Bypassing GPU Memory Wall - techtimes.com",
+    "title": "AMD Buys Taalas to Hardwire AI Models Into Silicon, Bypassing GPU Memory Wall - Tech Times",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNNU9WcDhzTjJSREh4MWVtblpjOGFZRmdiS1NOVHR3a0dqSm9Scm5tQlhTb3hJbkMzdzZnVWMyVi1iMHN3U09CdEJDM2QzNTEtc2NfX2tYdVFTMEZreHBlVnEwM2JwSmtrYmN6aG5meE9PWGhjWl9QdzBNNTBoU3ZkZ1RLQ0Y4VkVIZm5LZFdQUjhGSzdqYVM5UXZEdDlnQ2dRM05Lakl5VkpPYjdFRlRXREhwbW1xN0k0blQxdHgxNks?oc=5",
     "pub": "Fri, 07 Aug 2026 11:11:06 GMT",
-    "src": "techtimes.com",
+    "src": "Tech Times",
     "trig": false,
     "geo": false
    },
@@ -1203,29 +1215,29 @@
     "geo": false
    },
    {
-    "title": "SK Hynix Will Spend $38 Billion Building New Memory Chip Plants - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRzROS3BRVzVSZEVlUDBKUTFDLW1TRllDYjk2MGdMcmpLVGdwdjBqYURLVEVmdFhfbEpGX1NtTXJLcVdvYnBqLWZ6S3NmcDVFTWFqbXh3cWxzeG1WRmY3eDFVUG9XQTVsaWFQSVFkN2RWWFNqdnBQeGlxeGpjVnZHSEcwT29JMk9KVEFaU2NJajV1Q3k3?oc=5",
-    "pub": "Fri, 07 Aug 2026 09:06:30 GMT",
-    "src": "Startup Fortune",
+    "title": "Starlink is back: SpaceX rocket launch from Cape Canaveral set for Monday - Florida Today",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPZnZmTnlCcHlLeE5pRF9ob3U4OHlsQndLdTItQ3VMR2xWMkM2NENuTG9jWWdTQVlmSHQwQ1A3elhSNVcwTGdIcmJla2lkQmRqVnJpcWZEWnhIZGptSEdrdm5Ha3JFeHljTy11S2U1MzJEWjdmVUVadmI5cXVHNWljcTJEQzNwc0pEOW5aTWJ2c1R1UktETHd6YjhQZ2dMWnloa19NUE5Ta29kT1g5Tmk3cG5RSTBRODh1OWNNcEpSOEFCZk5MUFFRRnNaMlFuWmVOOHVSTHhUM0hWbFRyTjJZUGtfUU5NR0tfQml5NDlmSGIxR01CQ1Fsd1o4aGZac3JLa0ZoVmlIMGlXbFI4T1E?oc=5",
+    "pub": "Fri, 07 Aug 2026 09:06:00 GMT",
+    "src": "Florida Today",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Markets take a breather as Oil rises on geopolitical risks - FXStreet",
+    "title": "Markets take a breather as Oil rises on geopolitical risks - fxstreet.com",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWDl0b0RveVlUZXNibGRCemVWYVVHYjlHQVNCc0dMODZoMXZSVHNfT1lSVDFULWUta3NfSHY5OXNjYVVRNUlwUWM5NThBT1JSUWxhVFJYajlvUm9pMl8wSm5KOTV0UWQ4S1NlaE9CQmZoaEhMbU81ZDhBZkxFZ1ZWLU1YR0N4bXFqU3U5aEcyNElDNEo4SDBUR2tKMnRVYXJxU283R3NMYmQ?oc=5",
     "pub": "Fri, 07 Aug 2026 11:04:36 GMT",
-    "src": "FXStreet",
+    "src": "fxstreet.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Improving economy drives higher corporate borrowing, lower defaults — CBN - National Daily Newspaper",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNMVdGUkRGa0xyUnJieG81SjBCNmp1ekNPaVpjTHI1cW1vbVZtVVZ5QzRYZExNWVJoQTZwSTlKQkRzOTQ1LWJPejk5eTVMeElSU1NZcFVWVDJFOEZ3S2h0TTFmb0JYam40REJMRlJDbXJqWEtjUlB0RDFhLXRkZk96QmE1R2NlODBZU0Q0OVp2R0haT3hfM19QVlQ3b0pFNklhVlJRdW5B0gGmAUFVX3lxTE0xV0ZSREZrTHJScmJ4bzVKMEI2anV6Q09pWmNMcjVxbW9tVm1VVnlDNFhkTE1ZUmhBNnBJOUpCRHM5NDUtYk96OTl5NUx4SVJTU1lwVVZUMkU4RndLaHRNMWZvQlhqbjREQkxGUkNtcmpYS2NSUHREMWEtdGRmT3pCYTVHY2U4MFlTRDQ5WnZHSFpPeF8zX1BWVDdvSkU2SWFWUlF1bkE?oc=5",
-    "pub": "Fri, 07 Aug 2026 09:50:45 GMT",
-    "src": "National Daily Newspaper",
-    "trig": true,
+    "title": "US Euro Sale for Yen Ignites Geopolitical Risk Warnings - streamlinefeed.co.ke",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNVS1iNFphbm9XWDFueFJ1dEloT1pKbEcyYWpxeEhHYWpqckRiS015eTRBQ2hBZnlhSk9zSm9QcWFJbVlxWTd3Vm9qLV82ZXhkM0FoOVphNC0tbGhteGI3NHZUQ24wVllhTzJONkVUWDJoQmU2ejNic3JHUDVaUzRhaUF0bnptMkt3Rzg0M0JsNFBlbXM?oc=5",
+    "pub": "Fri, 07 Aug 2026 10:04:22 GMT",
+    "src": "streamlinefeed.co.ke",
+    "trig": false,
     "geo": false
    },
    {
@@ -1237,10 +1249,10 @@
     "geo": false
    },
    {
-    "title": "Stocks Under Pressure As Yields Rise And Energy Risks Intensify, Deutsche Bank Warns - bitcoinworld.co.in",
+    "title": "Stocks Under Pressure As Yields Rise And Energy Risks Intensify, Deutsche Bank Warns - Bitcoin World",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOaUZQZFg5UFBDS3ZJTUg0UHZ1M2VSODY4bEh4WjZWQlBFd3Y2VHpSMzBJTU5nSTVYMkIwX3Y1SUJxVFJ2MnA4Z2FVbGJoeXRxNUxER3BXNWZfSVV1d241M19BblRCTlBCNmE4VzZmVUl2WWJMQnFKODhXTmYtVmNyejNLUQ?oc=5",
     "pub": "Fri, 07 Aug 2026 08:25:11 GMT",
-    "src": "bitcoinworld.co.in",
+    "src": "Bitcoin World",
     "trig": true,
     "geo": false
    },
@@ -1253,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "What stages a comeback for oil prices? - FXStreet",
+    "title": "What stages a comeback for oil prices? - fxstreet.com",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNNXRsbE1GTGZqLTVxaGd1ZlAyTUJmSkRwamNSRFZpM1JxVThvZ3lBcXRNR1NCZll4dVNkN1E0NEpENDJjenpBbXAwTGRMUlpRRU5INVpvT0RvUFZyR3JFcnA5aFdyWGRmbmJ5ZC14Q2RoRG94emlZakVQUjBBaTNLbW5idTJkVG1QYlBkS0ZrSXFMU0dZVTAzUF9TU3haWXd0SDRkZzdEM1FfU2RnaWNEOThTeU44cHUwZzBTM1Uyc2dmeTRMckhXdlhqRQ?oc=5",
     "pub": "Fri, 07 Aug 2026 06:30:07 GMT",
-    "src": "FXStreet",
+    "src": "fxstreet.com",
     "trig": false,
     "geo": false
    }
@@ -1269,6 +1281,14 @@
     "src": "IranWire",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Oil Prices Tumble as Traders Price In a Strait of Hormuz Breakthrough - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPV1p6X2J1czlGLUNkN0pYQl92d0tqa0hFR0VBdVZKc0IzcFlmMlR2aEQ5WnJGVU81dVZQTTVpNEhPdUkzdklVOXlWZXBxblYyMnJzYzNHSmc1MnlsbXVPbV9jMUJxYjNpWE11Rk5tc05Gdl9jMjVySUxPUUtwWVg5enI0Rjk5WG9icUR1U295LTQyeWs2MXg3cXVrWTJpY2FhOEpEWGhrdEJYaUdRcmJUR25MVUlST1ZN0gG-AUFVX3lxTE1rZXg5OGcyaWhab0FwdnBaT05SOHk3ZlNxS2MyTmhVMkF0QVVJTDItNjVweUtGd1Vtek1QRUJseFdpeUQwYTVlbHFXR2NBNUQyUjZad0pxR05laHdEWUJ2YXNPcTgySVhsZ2VqdHp3Y21DOUVtNTNmU2puWWJhaFlfNGRrNmFhTXg2VGlmX2kyX0RDaFdkY2pzcnFFVmkxcTQyMDh4Y1RyajVqZWdQNmFLMndGeXlVbHpqRUVzeUE?oc=5",
+    "pub": "Fri, 07 Aug 2026 11:30:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": true
    },
    {
     "title": "Investing in Gold: Will Prices Continue to Rise? Is It Still a Good Investment? - LiveChennai",
@@ -1299,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNek82X3Zoc0NuOFZRX25uV0NoMTRoeF8zQ3JmY25TYjVkcjYxemFMVDFQRFNFYzlBRkYxbVZBNVBOSjB4QUk1X0t2NVVFV2d3UWtla0txY1NOZ0hmclpTd0ZYUXZJbW1ERzQzaC1LM01XS0xyWnQ1Wng3RTJpZVA5WGtUS3c3SUxQNGZKdHF4RjRTV01QYzBLQzF3Snotejl4d0IzWlhPV0x1SDRpenozaFlGV0pvQUJVbjNBaEF4U2dpU3lXbGhydExpSkpBQWpJOE4xRHNFR3RTX3l5LXZ0WUtnTXZleVJCRUNLaWg0M0dsbnZFT3N4dTlVWE1ONlpmdi02RWJMd3I2OUJCdDhyZm92R01ZWTFZVW5MUlJkc0haMFNicmJfNEtWZno1dnFMdHp6SmJDUXhTVnRpazFOWVdjZ2RkbEFjTXk2ZzFtVENqRTVNOVFV0gHXAkFVX3lxTE16TzZfdmhzQ244VlFfbm5XQ2gxNGh4XzNDcmZjblNiNWRyNjF6YUxUMVBEU0VjOUFGRjFtVkE1UE5KMHhBSTVfS3Y1VUVXZ3dRa2VrS3FjU05nSGZyWlN3RlhRdkltbURHNDNoLUszTVdLTHJadDVaeDdFMmllUDlYa1RLdzdJTFA0Zkp0cXhGNFNXTVBjMEtDMXdKei16OXh3QjNaWE9XTHVINGl6ejNoWUZXSm9BQlVuM0FoQXhTZ2lTeVdsaHJ0TGlKSkFBakk4TjFEc0VHdFNfeXktdnRZS2dNdmV5UkJFQ0tpaDQzR2xudkVPc3h1OVVYTU42WmZ2LTZFYkx3cjY5QkJ0OHJmb3ZHTVlZMVlVbkxSUmRzSFowU2JyYl80S1ZmejV2cUx0enpKYkNReFNWdGlrMU5ZV2NnZGRsQWNNeTZnMW1UQ2pFNU05UVU?oc=5",
     "pub": "Fri, 07 Aug 2026 09:07:59 GMT",
     "src": "The Sunday Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin Eyes Upside Breakout Ahead of US July Nonfarm Payrolls? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOa0lUdjM3ZVFjOHY3QVdZUUZLTTRmMGZlS3NZcUpzYURLcUJ6MWJINlVCNHQtNi1xVXBLc2VSNEV0RHFwTEItNTZjd29hOUd1Wm9xR3hSclUyS3Z2c2c5NFFxOEZtRW94MlVNekRRZ3VHakVBS1A4VnhoZFpQcjQzRHBoMk5tMVRFYXVZdWJfUnRPbm9RNmRtRmpSTUxwemJDS21IVkpkQzc0dnFOM19Pb2NqcFZCQQ?oc=5",
-    "pub": "Fri, 07 Aug 2026 08:57:59 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1493,7 +1505,7 @@
    101.28,
    100.99,
    101.51,
-   99.92
+   99.89
   ],
   "bizd": [
    13.03,
@@ -1598,7 +1610,7 @@
    64127.14,
    63899.46,
    64098.5,
-   64999.82
+   64976.82
   ],
   "vixts": [
    0.839,
@@ -1717,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학적 긴장(우크라이나 드론 공격, 유가 상승)이 변동성을 억누르고 있으며, 신용시장에서 사모대출 스트레스 신호가 나타나는 가운데 금리 4.67%와 달러 강세가 차입 비용 압박으로 작용하고 있다. AI 인프라 투자 사이클은 SK하이닉스 메모리칩 플랜트 대규모 투자와 AMD의 온칩 AI 모델 내장 전략으로 GPU 메모리 병목 우회 시도가 진행 중이다.",
+  "text": "지정학 긴장(우크라이나·중동)이 유가 변동성을 키우는 가운데, 신용시장에서 사모대출 부실 신호가 나타나며 운용역량 편차가 확대되는 상황입니다. AI 칩 설계 고도화(AMD-Taalas 인수)로 GPU 메모리 병목 우회 움직임이 진행 중이나 전체 capex 수급에 특이 신호는 없습니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1726,8 +1738,8 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
-   "geo": 0,
+   "trig": 3,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -2446,18 +2458,16 @@
   21
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 24,
-  "n": 34
+  "pct50": 26,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-07T11:41:45+00:00",
+  "checked": "2026-08-07T11:51:53+00:00",
   "openai": {
    "found": false
   },

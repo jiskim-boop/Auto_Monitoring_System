@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-07T22:51:59+00:00",
+ "updated": "2026-08-07T23:02:50+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64867.48,
-   "chg": 0.94,
-   "chg5": 2.18,
-   "sma20": 64392.75,
-   "sma50": 63277.78,
-   "sma200": 69176.59,
+   "price": 64852.21,
+   "chg": 0.92,
+   "chg5": 2.16,
+   "sma20": 64391.98,
+   "sma50": 63277.47,
+   "sma200": 69176.5,
    "high3m": 66505.12,
-   "reg": 64867.48,
+   "reg": 64852.21,
    "pre": null,
    "post": null,
-   "regClose": 64867.48,
+   "regClose": 64852.21,
    "sess": "reg",
-   "mt": 1786143092,
+   "mt": 1786143713,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "After milestone landing, SpaceX Starship recovery efforts take a turn - floridatoday.com",
+    "title": "After milestone landing, SpaceX Starship recovery efforts take a turn - Florida Today",
     "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxPVHRUVlBRVHdnemZPR1JicXFNVV9Kajdkbkc0cng0bGNfMGREZF9XRnJZU1ZaRGhLWHlnN3FxamZyTDE5d1hUakItTEFNQkZyY295S2tEaWU1ZnJzSnFob0pwdmptM0xjb0QwWFg3Y3liQkU2NkZlNWgzQnQtUUlpRmpSTFk2UUxoV2xxcEZjWkFrSkl2UzRKR3prY0RjMEd5YU9lZkZZOFVNQU5DVlFSbVNTNURhbVQtRmtEMlRGU3c0Y3NUUTdkX081dGlsbExOVUtHMjBMbzZKMi1fVmxLakRrOTcyUWt1WlhFR19nUTVIZFFZ?oc=5",
     "pub": "Fri, 07 Aug 2026 21:39:00 GMT",
-    "src": "floridatoday.com",
+    "src": "Florida Today",
     "trig": false,
     "geo": false
    },
@@ -1187,6 +1187,14 @@
     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPN3lHdy1mY0Z1WFphcTNzeVQ2RkpsZ0U2M0c2MllLLWR0cjdBbTFNcnBLSUNwUGpmZTJUNXlRYUtBZFdIeGFWNVdRcENaQTV6RTBlaU5LR2FiREtoTUJxbnJJYmNWNHMtUGEtMkpTeFhjUGxJTTQwSjdCQ204TEQxMWpLa3I4bWtxU0NoTlRESFdXdThLTzBFWUtzbVBNZmZWUV9CTnJYYWpCNnc2TG5KbVRZN3E1a01aTXRvSjdnUVlxYW0zUWwzakpUcnI2ODZ3b2YwZGl1MG12MG1vY0F3Y3VSQjlqLVBBbFEzUVZSOWNlUm0tR19GRXZPWFdyQ1A2?oc=5",
     "pub": "Fri, 07 Aug 2026 20:44:20 GMT",
     "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apple and OpenAI escalate legal battle over devices - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPLVdaR2JOeExjMzBXdHZhaXk3MTlPSk9qNGpwVm9CdUNSaUg2VGhiTk1JVktyREpXZEdjTjZ3N0hlNHpjVkxSQ250VWVkek5EZXUtTzFpVl9Yb19CUFY5bGhrOVJXbk5qaGQ5NmN2eDcwVEdTalVKUkNudDRzN0RHeUJvcENRWkRGbkdN?oc=5",
+    "pub": "Fri, 07 Aug 2026 20:39:00 GMT",
+    "src": "Yahoo Finance UK",
     "trig": false,
     "geo": false
    },
@@ -1212,14 +1220,6 @@
     "pub": "Fri, 07 Aug 2026 18:48:00 GMT",
     "src": "9to5Mac",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Minnesota's nudification ban takes effect after judge rejects xAI's bid to pause it - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOXJORzVjdmtxRVlMTDdiYnh3bnZRc2NoMktnS0J1d3ZTdVpvdTlIa2ZkSDV6NjN2UktjUEg2SHR2aDNQVGdCdUxKMC1SLWJmUlZqaHIwdC1IUjhWV2tPZ1VPVXlBcWl0U2FfbTFaaDFvR0RXQmVmRmlWbXRLQWR1Y3h5cw?oc=5",
-    "pub": "Fri, 07 Aug 2026 18:28:39 GMT",
-    "src": "Mashable",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    64127.14,
    63899.46,
    64098.5,
-   64867.48
+   64852.22
   ],
   "vixts": [
    0.833,
@@ -2235,10 +2235,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-05T21",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-05T22",
     "v": 2.73
    },
@@ -2425,6 +2421,10 @@
    {
     "d": "2026-08-07T22",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-07T23",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2466,7 +2466,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-07T22:51:48+00:00",
+  "checked": "2026-08-07T23:02:39+00:00",
   "openai": {
    "found": false
   },

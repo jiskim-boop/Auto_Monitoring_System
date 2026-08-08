@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T17:41:53+00:00",
+ "updated": "2026-08-08T17:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65080.36,
+   "price": 65083.16,
    "chg": 0.31,
-   "chg5": 2.55,
-   "sma20": 64412.86,
-   "sma50": 63308.82,
-   "sma200": 69153.57,
+   "chg5": 2.56,
+   "sma20": 64413.0,
+   "sma50": 63308.88,
+   "sma200": 69153.59,
    "high3m": 66505.12,
-   "reg": 65080.36,
+   "reg": 65083.16,
    "pre": null,
    "post": null,
-   "regClose": 65080.36,
+   "regClose": 65083.16,
    "sess": "reg",
-   "mt": 1786210883,
+   "mt": 1786211482,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Live Coverage: SpaceX West Coast launch surge continues with Starlink mission - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRU1DVjRzOUFZSXl4UlZkVU53V2NIN1g1bGxJaGk1ZHVpYXlzUVlWYlNmREN2YWtLWkgxY2NpRzlxZjZGNnZmaTJnRE05SktRSVQ2TVZxbGpJS0thUlBvWTMtTmhVb05CRGVhdWtOMlNOd3pmZnhTRVJkS3ppY3JRVHpTMl9ZZS1UbmpGVmI3SU81aW5Id2I3VEN6cWFpYnRQb0o0TmZCTnU4NWtKV0QycWwwMmpBQQ?oc=5",
+    "pub": "Sat, 08 Aug 2026 17:37:30 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "What the Anthropic IPO Could Mean for Shrimp Welfare and Other Obscure Causes - The Information",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWw3eVkwTTR3TlNXa0I5SjVuTWxubHRxM25ZRHVoNjFPSUEzZ2cxSk9mQnh4eXQtaExWbVlVQVlsb2F5VlVQV0FuNDNndUhRVGdISHlZNF83VFdnLTFheThIM2lkY0lxZ29zSjVhWlNXUHlvY2Rwcms1RVo5UXNGMkh3Q0hYOE5zTjNBTXkyWWZhdw?oc=5",
     "pub": "Sat, 08 Aug 2026 16:00:00 GMT",
@@ -1191,10 +1199,10 @@
     "geo": false
    },
    {
-    "title": "SpaceX’s wayward Starship may not make it back to shore - expressnews.com",
+    "title": "SpaceX’s wayward Starship may not make it back to shore - San Antonio Express-News",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVpvQ2lLUGEyZm1CeXVDVkh2ejdWcXBnd0Iwc1hacnJ2QTkxemktWURGTVBSSXdxSTcxTjkzY2dsOWppcGxQbF9nQVpFYmpZNl9kcEUyMUJnMXFDZmY3LW1oVV9kN3FNMFo2WjM2ODMxVlhkWVdtS0RWVW4zUE9TN2NHVzdVanVZajJybGZyNDVHa0tNZnk3d01Odw?oc=5",
     "pub": "Sat, 08 Aug 2026 14:11:42 GMT",
-    "src": "expressnews.com",
+    "src": "San Antonio Express-News",
     "trig": false,
     "geo": false
    },
@@ -1203,14 +1211,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVm1VU05YMjVHeElCalVnTTJaRnY4MlJiQWJuRmNwLUI4V2F6N19fcDQwNGlOdGdCQURLNzZyV292YjA3aEREUEJHWFZDNUhlRm9rQjJkX0FreTJrZWlMcU80aXgtSU4xcjhFY1RGMVZMY05vdTJsa3NoYlBLR2szWjh3?oc=5",
     "pub": "Sat, 08 Aug 2026 14:11:16 GMT",
     "src": "Yahoo Finance Singapore",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Live Coverage: SpaceX West Coast launch surge continues with Starlink mission - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRU1DVjRzOUFZSXl4UlZkVU53V2NIN1g1bGxJaGk1ZHVpYXlzUVlWYlNmREN2YWtLWkgxY2NpRzlxZjZGNnZmaTJnRE05SktRSVQ2TVZxbGpJS0thUlBvWTMtTmhVb05CRGVhdWtOMlNOd3pmZnhTRVJkS3ppY3JRVHpTMl9ZZS1UbmpGVmI3SU81aW5Id2I3VEN6cWFpYnRQb0o0TmZCTnU4NWtKV0QycWwwMmpBQQ?oc=5",
-    "pub": "Sat, 08 Aug 2026 14:10:00 GMT",
-    "src": "Spaceflight Now",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   65080.37
+   65083.15
   ],
   "vixts": [
    0.833,
@@ -2467,7 +2467,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-08T17:41:42+00:00",
+  "checked": "2026-08-08T17:51:43+00:00",
   "openai": {
    "found": false
   },

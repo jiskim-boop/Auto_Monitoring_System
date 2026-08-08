@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T08:02:22+00:00",
+ "updated": "2026-08-08T08:11:54+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64929.1,
-   "chg": 0.08,
+   "price": 64925.37,
+   "chg": 0.07,
    "chg5": 2.31,
-   "sma20": 64405.3,
-   "sma50": 63305.8,
-   "sma200": 69152.74,
+   "sma20": 64405.11,
+   "sma50": 63305.72,
+   "sma200": 69152.72,
    "high3m": 66505.12,
-   "reg": 64929.1,
+   "reg": 64925.37,
    "pre": null,
    "post": null,
-   "regClose": 64929.1,
+   "regClose": 64925.37,
    "sess": "reg",
-   "mt": 1786176112,
+   "mt": 1786176682,
    "ok": true
   },
   "USO": {
@@ -1141,14 +1141,6 @@
     "geo": false
    },
    {
-    "title": "Earnings call transcript: BCP Investment beats Q2 2026 estimates as NAV falls By Investing.com - Investing.com UK",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPaVZlUkdxRUw3SS14OTlXM2JTUkN3ajFJNnZOUlNVaENRVVJ1cW10aEd2QXBnZ2FKSmZtMkx5U1hCNEFiNHBUNWJsbkNwVVJBNG1HX01yWHFrSnBWRVRaMHFBR3ZpcmZ2VzBVSVFXdFNmM1FnT1hfalhLU29GenZia3dEeEdST1UtZThUWl9VSWJyN3IzRFhDZlBnY19KVjlEZmhLUXlReTdfckpzM3hScHlUVXRfVUU3V3ZJVU1ST1BmR2JqSFFfdXJDdXB4Ynk1cTVlbXBDRzA0akk?oc=5",
-    "pub": "Fri, 07 Aug 2026 22:49:26 GMT",
-    "src": "Investing.com UK",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Carlyle Secured Lending Q2 2026 slides: dividend covered despite NAV decline - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3VmUlNTLUFDZ3l5RnVnNWF2OUJoUzRyNmdTZUZwMXU2ZlBTV1pjLWlnejk4cC1Bcm9ncnN2dzVCcDUyMEtCQlhqRkFzZ1RETVhQUTZCdWJpRTQ0bWliRFNDUGxxSC1JTGZrckhhMDlBanE4MEhoQzNPV2pUN2M5dnFia0R0c2ZnTldpanAyNFR3RFl2ZURUREpjcFVENklMTGdZWXdwNkRZWTZKNFZGN0hlR1JlX2hQejJUUnBRdWR6T2pyZlNlMGhhZTE?oc=5",
     "pub": "Fri, 07 Aug 2026 20:52:22 GMT",
@@ -1169,6 +1161,14 @@
     "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNaHJBanN1aThwRlFZaHFSZGRyQ19xbUlJSDhBOWx5ZjM5b25QVktRamdwSTlqUlEycUJ2SWpqb01hOHVpdzU4aHczS2Z0YWpJd3dpeUhaUVJfUVF0N0FPUll2cVlFNWtqXzJFbi1FQmZJejRGTUtRR0VqMEpYU0RDa2JQYXZDQ25EcmhCVWY4VURRTEhwbHd1WXJwWmFNT1RxZEJvWEhsM3Y2WEI5WV9hMGpwQjVNZDM2RE5JdHpIeEhBdHhBUWdIWDlkQmcxZ2hGYjdJNFY1aW16NzZfZDcw?oc=5",
     "pub": "Fri, 07 Aug 2026 20:13:13 GMT",
     "src": "Investing.com South Africa",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Blue Owl Capital (NYSE:OWL) Shares Rise as $380 Million Fee Stream May Offset Dividend Shortfall - TechStock²",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNUXVyVEVzLTZhYmhBUmM2NnBoNU01Zl9FUkU0QWNXSzNsZDJOVFMwNjBHbEhKeklTWmV2Zl9ldzZ6eUp4RXo3cURXNWY2VXJESTFkQVpxeW5aTmJKYW5DcFh5WmRKaEd2OVMtanN5cV8yYWp5OUVqS1ZGMmIxYnU0R3ZuYnlDN09mUzY0Tkx6SFk1NnFxc0RPUDlOdWFIOTQ0MmhNbld5UXBVeXFBTG5BaF9law?oc=5",
+    "pub": "Fri, 07 Aug 2026 19:29:04 GMT",
+    "src": "TechStock²",
     "trig": true,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   64929.07
+   64925.37
   ],
   "vixts": [
    0.833,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(우크라이나·이란)이 완화 신호를 보이면서 유가는 하락했으나, 빅테크의 AI 채권 발행($540B)이 가속화되어 신용 사이클 연장이 주요 변수입니다. AI 인프라 투자가 지속되는 가운데 SK하이닉스의 380억 달러 메모리칩 투자와 NVIDIA의 HBM 감산 논의가 GPU/HBM 수급 재편을 시사합니다.",
+  "text": "지정학 긴장(우크라이나·이란)이 부분적 완화 신호를 보이면서 안전자산 선호 약화, 빅테크의 AI 채권발행($540B 규모)이 신용시장 부담 요인으로 작용 중입니다. AI 메모리칩 수급은 SK하이닉스 대규모 투자(38B달러)로 공급 확대되나 엔비디아 HBM용량 조정 신호로 수급 불균형 우려가 지속되고 있습니다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1738,7 +1738,7 @@
    "spy": 1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 2,
+   "trig": 3,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2466,7 +2466,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-08T08:02:10+00:00",
+  "checked": "2026-08-08T08:11:41+00:00",
   "openai": {
    "found": false
   },

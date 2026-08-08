@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T18:51:54+00:00",
+ "updated": "2026-08-08T19:02:33+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65008.46,
-   "chg": 0.2,
-   "chg5": 2.44,
-   "sma20": 64409.26,
-   "sma50": 63307.39,
-   "sma200": 69153.18,
+   "price": 64992.83,
+   "chg": 0.17,
+   "chg5": 2.41,
+   "sma20": 64408.48,
+   "sma50": 63307.07,
+   "sma200": 69153.09,
    "high3m": 66505.12,
-   "reg": 65008.46,
+   "reg": 64992.83,
    "pre": null,
    "post": null,
-   "regClose": 65008.46,
+   "regClose": 64992.83,
    "sess": "reg",
-   "mt": 1786215086,
+   "mt": 1786215721,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "FS KKR: Deep Value 13%+ Yield For Pennies On The Dollar (NYSE:FSK) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT29wYnRVQkFDM2FPYzBDM2pTSFZ5UXR0amRGM1dZdC1GUl9QNWhWR0t1NERkNWl5bXptcXgxYXpaWEpWazhQTng3Y2Q0REw4ZUZGcGUtazdCTUJfM0RmM0JySEFFdTF5ZjhxMDRocEhZQWM1MG1yZDdIb3gwVlo5R19tb05pOGpUemd6d0JKbGV4NlY4LWRRNE9ZcmxaUQ?oc=5",
+    "pub": "Sat, 08 Aug 2026 11:30:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Goldman Sachs BDC Q2 Earnings Call Highlights - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenNwRTR3TmJQTnNvZ1lNRWFBNDlmb0NKYVk4c0wzcXRRZFRQR193YXRFYW4taWxleXM5TGlRUUZCN21sYmw0Zm1lMmZWQVp4V3hlTVcyMXRkVkw5cWdSYmFERlFwZ09zaXp3QWZOMmx5YlBqMUpTZlVYOGF6OFdIcXo2cjFBbmU5c0VBS0plc19NVmZfYk40aFhMWFloY0Ff?oc=5",
     "pub": "Sat, 08 Aug 2026 11:09:47 GMT",
@@ -1162,14 +1170,6 @@
     "pub": "Sat, 08 Aug 2026 03:23:30 GMT",
     "src": "TradingKey",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Signs of distress are showing up in private credit - axios.com",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1xaGd1aEVZTVNZMGNMODgtOWxaVnJKeC1pVWg4RGdreWJDeXF2bTlQeDg3TFlrYTVuMnNZQkN6TWpHOXd1NHZLbjRaNWt0Rm5OWUxCdGgxdTJVZEkxcFZrR1p0MUJTcGNiajhSNg?oc=5",
-    "pub": "Sat, 08 Aug 2026 01:37:28 GMT",
-    "src": "axios.com",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   65008.45
+   64993.9
   ],
   "vixts": [
    0.833,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "러시아-나토 긴장 고조에도 시장이 낮은 변동성(VIX 15)과 강한 달러(DXY 99.6)로 대응하며, 빅테크의 AI 채권 발행 급증($540B)이 신용시장 스트레스 신호와 충돌하고 있다. 아마존 AI 지출이 2026년 $220B 수준으로 가파르게 증가하는 가운데 메모리칩 수급은 2027년까지 완전 예약된 구조적 수요를 보이고 있다.",
+  "text": "러시아-NATO 긴장 고조에도 시장은 저변동성(VIX 15)·낮은신용스프레드(2.71%)로 지정학 리스크를 경시하는 중이며, 미10년 금리 4.66%에서 연준 추가 인하 가능성이 제한적 상황이다. AI capex 사이클은 아마존의 2026년 220억 달러 증액 계획과 GPU 외 반도체(브로드컴)로 수혜 확산 중이나, 코어웨이브 같은 개별 기업 밸류에이션 이미 선반영 신호가 있다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1738,12 +1738,11 @@
    "spy": 1.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2236,10 +2235,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-06T19",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-06T20",
     "v": 2.73
    },
@@ -2426,6 +2421,10 @@
    {
     "d": "2026-08-08T18",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-08T19",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2467,7 +2466,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-08T18:51:44+00:00",
+  "checked": "2026-08-08T19:02:20+00:00",
   "openai": {
    "found": false
   },

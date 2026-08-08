@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T11:32:10+00:00",
+ "updated": "2026-08-08T11:42:11+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64936.58,
-   "chg": 0.09,
-   "chg5": 2.33,
-   "sma20": 64405.67,
-   "sma50": 63305.95,
-   "sma200": 69152.78,
+   "price": 64930.94,
+   "chg": 0.08,
+   "chg5": 2.32,
+   "sma20": 64405.39,
+   "sma50": 63305.83,
+   "sma200": 69152.75,
    "high3m": 66505.12,
-   "reg": 64936.58,
+   "reg": 64930.94,
    "pre": null,
    "post": null,
-   "regClose": 64936.58,
+   "regClose": 64930.94,
    "sess": "reg",
-   "mt": 1786188704,
+   "mt": 1786189300,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "FS KKR: Deep Value 13%+ Yield For Pennies On The Dollar (NYSE:FSK) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT29wYnRVQkFDM2FPYzBDM2pTSFZ5UXR0amRGM1dZdC1GUl9QNWhWR0t1NERkNWl5bXptcXgxYXpaWEpWazhQTng3Y2Q0REw4ZUZGcGUtazdCTUJfM0RmM0JySEFFdTF5ZjhxMDRocEhZQWM1MG1yZDdIb3gwVlo5R19tb05pOGpUemd6d0JKbGV4NlY4LWRRNE9ZcmxaUQ?oc=5",
+    "pub": "Sat, 08 Aug 2026 11:30:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Goldman Sachs BDC Q2 Earnings Call Highlights - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenNwRTR3TmJQTnNvZ1lNRWFBNDlmb0NKYVk4c0wzcXRRZFRQR193YXRFYW4taWxleXM5TGlRUUZCN21sYmw0Zm1lMmZWQVp4V3hlTVcyMXRkVkw5cWdSYmFERlFwZ09zaXp3QWZOMmx5YlBqMUpTZlVYOGF6OFdIcXo2cjFBbmU5c0VBS0plc19NVmZfYk40aFhMWFloY0Ff?oc=5",
     "pub": "Sat, 08 Aug 2026 11:09:47 GMT",
@@ -1163,14 +1171,6 @@
     "src": "finance.biggo.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Carlyle Secured Lending Q2 2026 slides: dividend covered despite NAV decline - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQX3VmUlNTLUFDZ3l5RnVnNWF2OUJoUzRyNmdTZUZwMXU2ZlBTV1pjLWlnejk4cC1Bcm9ncnN2dzVCcDUyMEtCQlhqRkFzZ1RETVhQUTZCdWJpRTQ0bWliRFNDUGxxSC1JTGZrckhhMDlBanE4MEhoQzNPV2pUN2M5dnFia0R0c2ZnTldpanAyNFR3RFl2ZURUREpjcFVENklMTGdZWXdwNkRZWTZKNFZGN0hlR1JlX2hQejJUUnBRdWR6T2pyZlNlMGhhZTE?oc=5",
-    "pub": "Fri, 07 Aug 2026 20:52:22 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "xAI Ships Grok Imagine Image 2.0 With Precise Editing and a Top Arena Ranking - unite.ai",
+    "title": "xAI Ships Grok Imagine Image 2.0 With Precise Editing and a Top Arena Ranking - Unite.AI",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQczVEaFBEZlN3Z1hVS3RLYVliVGFRWFJybTdDZWQ0V3FXOVpZSElDUmpEZVlQN1doUXdrYlZhQnR0MUdTVE5OamItS05fTGNSUFhkV1dyREtxR1V4bzlRaFRkamN0dm44SjVNNlNpQWV0czVLbWJ5X0M4dHJYU1hJY0hjNzhMc3RpcGhFakhyZWJZREthVFktU2poTWhvSnBv?oc=5",
     "pub": "Sat, 08 Aug 2026 04:29:01 GMT",
-    "src": "unite.ai",
+    "src": "Unite.AI",
     "trig": false,
     "geo": false
    },
@@ -1299,14 +1299,6 @@
     "geo": false
    },
    {
-    "title": "Saudi Aramco’s Bumper $33 Billion Profit Gives Kingdom’s Finances a Boost - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxON2x4a0RLYlJZX09jaHpuU0lVRGw0MmIxVG5uS2NyNlV4X09MSjByV3FzSDRTem5oek9sM09hN1g2ZzNZTXFfN3BUanJYYUtScHFBYl84RllwclQtN1VyZkQwZWZXRFVpT3Voc0wtZ1FiWll6Vl95LTdBWjJoSy10LXRFdXVYclViWHFsLU4zNTF2bTVRT0xsNGt6bUxXMEtFSDlOQnNYSENTRlJVbE1sWUJB?oc=5",
-    "pub": "Sat, 08 Aug 2026 10:05:22 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper Scrap Market Struggles with Tight Supply and High Prices in July 2026 - Shanghai Metals Market",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS2RCekxTcVRQWDBVOW5SWWxFOUI0Qmg4S3VlTjJIVm5vLVNjV1FGTTdYcFdyRjVpdXpjOTc4VWY5OEI1aktkalNJRjRxR09zSUhnWTZSWmZ0VEpad1RFN1FNbjhlN0ljc01adE8wSnAxaFJLTFRwdEhFRXdIMjlWWG1BUy1yeXd1QXFPYmtjRFQ5SGRZSVZRQ3o2Q2RPV2lhMnZDeFlLN3pJUEd5T0M3ZWhyVUhJSnhJVEdXSTNnTW9UUQ?oc=5",
     "pub": "Sat, 08 Aug 2026 08:38:34 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOa05hWDNqS0plY0J2c2taWGVSdFdBdjJWcDRqcjNHY2tqcmNCQktqQWN2N1FCdS02MW1mV1BsWGVhOF9oelI0T3p2dkNmY1pJSGtQR3I5Q2NmY1ZkUFdZNC1jLVBPd3F4YzVKTWpLNEdMQl9xOHhmUFMwS1NMYnRYNFA2WEpFZTFlZDhoQnQ1X3pnZ1VremdXN21hN1RYYzVFcFJj0gGjAUFVX3lxTE5UaXZKSzhuMGRZSW83R2d0NDFidkVQR0dlTGpJTXFXMHRNZXR5WlNTdWRqcHhVOFhYWXpLRTZreFo1akl5WUJGVWZkOGVpcVRyb1FMNnpCSGRSUEJrOGpBdlBkcGxFRXdlbDUta2hsY1BQSXNuVjZvbWVqRXozeUJYMExtV3hOWTlYa1dDM0FVSW5xc3NrR1VlZmhOb25mYnliUkk?oc=5",
     "pub": "Sat, 08 Aug 2026 08:30:06 GMT",
     "src": "South China Morning Post",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 08 Aug 2026 05:56:15 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   64934.08
+   64930.94
   ],
   "vixts": [
    0.833,
@@ -2467,7 +2467,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-08T11:31:59+00:00",
+  "checked": "2026-08-08T11:41:57+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-08T14:12:05+00:00",
+ "updated": "2026-08-08T14:21:53+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65000.72,
-   "chg": 0.19,
-   "chg5": 2.43,
-   "sma20": 64408.88,
-   "sma50": 63307.23,
-   "sma200": 69153.13,
+   "price": 65008.69,
+   "chg": 0.2,
+   "chg5": 2.44,
+   "sma20": 64409.28,
+   "sma50": 63307.39,
+   "sma200": 69153.18,
    "high3m": 66505.12,
-   "reg": 65000.72,
+   "reg": 65008.69,
    "pre": null,
    "post": null,
-   "regClose": 65000.72,
+   "regClose": 65008.69,
    "sess": "reg",
-   "mt": 1786198297,
+   "mt": 1786198884,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "Goldman Sachs BDC Q2 Earnings Call Highlights - marketbeat.com",
+    "title": "Goldman Sachs BDC Q2 Earnings Call Highlights - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQenNwRTR3TmJQTnNvZ1lNRWFBNDlmb0NKYVk4c0wzcXRRZFRQR193YXRFYW4taWxleXM5TGlRUUZCN21sYmw0Zm1lMmZWQVp4V3hlTVcyMXRkVkw5cWdSYmFERlFwZ09zaXp3QWZOMmx5YlBqMUpTZlVYOGF6OFdIcXo2cjFBbmU5c0VBS0plc19NVmZfYk40aFhMWFloY0Ff?oc=5",
     "pub": "Sat, 08 Aug 2026 11:09:47 GMT",
-    "src": "marketbeat.com",
+    "src": "MarketBeat",
     "trig": false,
     "geo": false
    },
@@ -1175,10 +1175,34 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX’s wayward Starship may not make it back to shore - San Antonio Express-News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVVpvQ2lLUGEyZm1CeXVDVkh2ejdWcXBnd0Iwc1hacnJ2QTkxemktWURGTVBSSXdxSTcxTjkzY2dsOWppcGxQbF9nQVpFYmpZNl9kcEUyMUJnMXFDZmY3LW1oVV9kN3FNMFo2WjM2ODMxVlhkWVdtS0RWVW4zUE9TN2NHVzdVanVZajJybGZyNDVHa0tNZnk3d01Odw?oc=5",
+    "pub": "Sat, 08 Aug 2026 14:11:42 GMT",
+    "src": "San Antonio Express-News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Live Coverage: SpaceX West Coast launch surge continues with Starlink mission - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQRU1DVjRzOUFZSXl4UlZkVU53V2NIN1g1bGxJaGk1ZHVpYXlzUVlWYlNmREN2YWtLWkgxY2NpRzlxZjZGNnZmaTJnRE05SktRSVQ2TVZxbGpJS0thUlBvWTMtTmhVb05CRGVhdWtOMlNOd3pmZnhTRVJkS3ppY3JRVHpTMl9ZZS1UbmpGVmI3SU81aW5Id2I3VEN6cWFpYnRQb0o0TmZCTnU4NWtKV0QycWwwMmpBQQ?oc=5",
+    "pub": "Sat, 08 Aug 2026 14:10:00 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Micron's Fully Booked 2027: The Memory Giant Caught Between Structural Demand and Cyclical Nerves - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSENPN1VWN19EMFA1VVhBaGNLRUlhc1RqdDdFYl9PZ2l5dEZZVVpDTWhBcFRhbnoydUNPM0V1RUJGYmdyMFFEOTlyTHVXaUNKQkdleGRDcGZmeERzbnBWMWY3NEVpYWNKRWdvM0FJUjJOdnFKblBacTBoOFRUSTViVUx4aGg5WUpYbjVncG5KYWxaTE80bERpTm5WSkdqc1dsTzl0STh4MlEtajBKZWdISEVxUmZ3NmFzckJOVnh2VXN4UENrcktQOWtmdjBFdUROaHdkTkNETW8?oc=5",
     "pub": "Sat, 08 Aug 2026 13:11:42 GMT",
     "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Amazon Earnings: AWS Growth Eases AI Spending Concerns - equiti.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZlpOSExSZHdOa250V1B6bTlTWFVRS19sUXlCc0MzWG9ud1BhdkYwTmRYdW9BZExGNWRwR0drNWZ3dGJQQTBpbWZKbS1OaDlTN1ZYWG1tcThTcFhUTG1kVWZ3TG9EbEZqQ1c0NWVIZHBDNURicnVGeWZCQlF0WFBxNjlCaU8xbHhOenk0SnBCMUYya2RZQzJGSmFaMA?oc=5",
+    "pub": "Sat, 08 Aug 2026 13:01:41 GMT",
+    "src": "equiti.com",
     "trig": false,
     "geo": false
    },
@@ -1192,33 +1216,9 @@
    },
    {
     "title": "Forget the Artificial Intelligence (AI) Capex Bubble: SpaceX CEO Elon Musk Says the Memory Shortage Will Drive Costs Even Higher - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMisgJBVV95cUxNTDItcGh4djd6aDNGaUVYOVUydlIzMS1aX0Fxa1Rac2JsTjJaZWtwTVg4UlkxUHNYRXFWNFN3QU5tdFJKMHFSWWdXaDV0dVZaS3EteHJ3VkhQM2RPYnRZNGg5RmVvOFNqa0pMa0ZKRUpHMzkwU1AzclFWLVpHWkNta3JyTWwtTU9nalFRZV9HRW9tOURSX0NBTWN1UGM5UG9wSEw1Sm5UcHhydHhBN2hXM1JkOWJIMjNYVlZDa3pxdndBb3AxYWJ1bDNObWhPT2FuSi1vem5TUEdEZ1hxeDZmMmNQUFJibnNUZ0FKM3A4cDZCWFBrMWpuRU5scWxiRDJmbXZqSFg0Sl9OODQtY0ZGTFVGYW1iWXZNdmE5R3RpYlVEM24tUGxhcld0TGgySW9EVFE?oc=5",
-    "pub": "Sat, 08 Aug 2026 11:34:14 GMT",
+    "link": "https://news.google.com/rss/articles/CBMitwJBVV95cUxNSFN4bVZGYk9teHBVdjBwWW5nR1FyYmp5R3pMV25xM2oyVXJUa0o5aFFKcFdNRlFRcnR0Uk9kTjd5dlJ0YWtxWVlzX2stbUZOYUxWLUw4ZFVfT05pNEVObHd5aXhIUTZmWDdRbXpacVhBUFBKdmRhdF8yN2RZZ3VOMHFYb1FxNVFOd3YweWJPOGxxNFdWN3JYb0I4a1hlcTJHS0d4YlZPRm9nbklrRW55WlNlcG5SRV9ub2FmeHUtdzFUcDFtOVRnVWlFN200ajN4ZjF2SEtVYWpKaTJmRC1ieHVUM2NlLU5KWVA0aGsyU3FVa2haVXRtZW52c0xMMFhxWWplV09Hd25NNGRaZzAwczJHQ0thM2dUSWpGVVRoNkIyZFhRS0g5cmRqYjE4TjVVd2dOdW1tMA?oc=5",
+    "pub": "Sat, 08 Aug 2026 11:37:40 GMT",
     "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Apple and OpenAI escalate legal battle over devices - Tech Xplore",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObzdCeGdRQ3ZVTUY0LU9yeDB0Si02clU5OGVKVGdQUmxoNzJtOEpZZF9WMEpESGFzamRCOHFNMFIzMkdKbFljMjduazVtWEpsdWtOZVdPa1F3U3pab1ZNazAwZWY4Sk4tdFlWOEVVWGxIQ3Z0WWk4SUZPcHJCemN0dV9R?oc=5",
-    "pub": "Sat, 08 Aug 2026 11:20:01 GMT",
-    "src": "Tech Xplore",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "xAI's Imagine Image 2.0 lands just behind OpenAI's GPT-Image-2 in Arena benchmarks - the-decoder.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRDkzMDdVYlB3NlRvR2dYenhhcnlPVEd5NzdLczdfc0ZzLXVJVkJsZExpZ2hFeDBYOXViNEJlTC1XRXgxWWJhZkx3NVNsMjZsVG9zc2lxakpyTUJndkFmR0pPNUMwLU9HcG1rcVVLT0tjRGhDQVBnVDdGTWdOMzFKWk5VSHp5MDlzOWtuR2ZSNnpYaGpMWUIzUk1BMkhiZ3RJVVhJUmxndlI?oc=5",
-    "pub": "Sat, 08 Aug 2026 08:26:34 GMT",
-    "src": "the-decoder.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Allbirds Ditches Sneakers and Pivots to AI Computing - Is BIRD Stock Still Worth Buying After a 600% Surge? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOHk4a2ZybnpTUDJqSTVxWndTWkhhbC1yeERKYmlpWTNQSS1OQU5hVm4xcEpneHlTdl9NTUZnNEhxOEJsTmV4UU80UDJOWmlZZWpKaWpxd1FvNHhiRjNIbzNrU1dTdURXQWV6S2dsaHE4SDVRT2Vua043ZDYteTZZS0Q5b2luVVBEYkNtVFkyTFR1dVV1cWVqRDI3SllkanM5a1l2cDVRRl9CNjhqTHZpb2FURzB0OHNzNFYxRmlXUTdYcHhoX1BtZ1E4cHRPU3Jfc1F5MHExb2F4U1lOM3ZDSDNkRng?oc=5",
-    "pub": "Sat, 08 Aug 2026 07:22:46 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "World gold price today August 8th: Breakthrough week closing - news.laodong.vn",
+    "title": "World gold price today August 8th: Breakthrough week closing - Laodong.vn",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPd0hTMUVkdG5GeVJhS0lXM0ppeFRoTHY1Y29YTmxsMVN2eGpoZlJlRUFuT2JOcENORDNWendZVFF2WnpXck01UWNRVW5uaXB1eFdjOTZWSG0xWUJheTBxS25maGJKNnBvZ1JPbnFPdjNhcnZJV0RWM1dHQVVteVh1Q0doeWNzemMzTVFrWGJsc18wbGd4ME9jaFVB?oc=5",
     "pub": "Sat, 08 Aug 2026 10:14:09 GMT",
-    "src": "news.laodong.vn",
+    "src": "Laodong.vn",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   65004.2
+   65012.91
   ],
   "vixts": [
    0.833,
@@ -2467,7 +2467,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-08T14:11:53+00:00",
+  "checked": "2026-08-08T14:21:43+00:00",
   "openai": {
    "found": false
   },

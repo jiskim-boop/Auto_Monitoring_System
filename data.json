@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T01:51:56+00:00",
+ "updated": "2026-08-09T02:02:24+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64803.01,
+   "price": 64802.25,
    "chg": -0.12,
    "chg5": 2.11,
-   "sma20": 64398.99,
-   "sma50": 63303.28,
+   "sma20": 64398.95,
+   "sma50": 63303.26,
    "sma200": 69145.9,
    "high3m": 66505.12,
-   "reg": 64803.01,
+   "reg": 64802.25,
    "pre": null,
    "post": null,
-   "regClose": 64803.01,
+   "regClose": 64802.25,
    "sess": "reg",
-   "mt": 1786240287,
+   "mt": 1786240914,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Nvidia's Eurasian Push: A $500 Million AI Factory and the Race to Feed Insatiable GPU Demand - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOMlBzZWJoVUxwYTVrZXlYYlVZWjFrQVBsa0Z0cXZwMW5fczhtYUNBcl9LRGtPZ21XQUl6N09tUlVkcldOZndJT1gzRmNJOGR4TFpaZ1hhSUJaMzJ0T2hTeVN5VXZaVFJNUUpCTUZoRHlfaElmdGVJT19WVGpqMzdBbG96N3laemNFUC1VdDVOa21wQ1lWX3VPQmdGQzg0LV8ydkRxYjZMUFoxQ29udjRONlBKeHBSOWtIcTJZVWhvRGVOTHNMSWUtWDBzYzJzZWR4S0NBQ25rSQ?oc=5",
-    "pub": "Sun, 09 Aug 2026 01:31:17 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Minnesota's nudification ban takes effect after judge rejects xAI's bid to pause it - Mashable",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPOXJORzVjdmtxRVlMTDdiYnh3bnZRc2NoMktnS0J1d3ZTdVpvdTlIa2ZkSDV6NjN2UktjUEg2SHR2aDNQVGdCdUxKMC1SLWJmUlZqaHIwdC1IUjhWV2tPZ1VPVXlBcWl0U2FfbTFaaDFvR0RXQmVmRmlWbXRLQWR1Y3h5cw?oc=5",
     "pub": "Sun, 09 Aug 2026 00:48:12 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxORUgtYm5tQkpwdlREdkFvWVYxdmZESUNvNXNfeXN0Xzg0ajdpOUhzZ3cyQXc0aW40TVoyUHpIUTctbXZGTTFwT3BoYnlaelF6aUJYVlh0YjR1TURlV2dFbWtwbGlqYVVVb2MyS1B0N1VtU3M1Unp6dWZCMFhubTk3REl4TXdyVnB0dXVjUTREVmFoUDJrdE1kMzY2ZXpXcDNpVXRDVGpqZEUtSFhZZzAzZ3VaaWlFbEk?oc=5",
     "pub": "Sat, 08 Aug 2026 18:15:14 GMT",
     "src": "IGN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "What the Anthropic IPO Could Mean for Shrimp Welfare and Other Obscure Causes - The Information",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeWw3eVkwTTR3TlNXa0I5SjVuTWxubHRxM25ZRHVoNjFPSUEzZ2cxSk9mQnh4eXQtaExWbVlVQVlsb2F5VlVQV0FuNDNndUhRVGdISHlZNF83VFdnLTFheThIM2lkY0lxZ29zSjVhWlNXUHlvY2Rwcms1RVo5UXNGMkh3Q0hYOE5zTjNBTXkyWWZhdw?oc=5",
+    "pub": "Sat, 08 Aug 2026 16:00:00 GMT",
+    "src": "The Information",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63802.03,
    64796.6,
    64311.81,
-   64803.0
+   64794.39
   ],
   "vixts": [
    0.833,
@@ -2239,10 +2239,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-07T02",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-07T03",
     "v": 2.73
    },
@@ -2429,6 +2425,10 @@
    {
     "d": "2026-08-09T01",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-09T02",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2470,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-09T01:51:45+00:00",
+  "checked": "2026-08-09T02:02:13+00:00",
   "openai": {
    "found": false
   },

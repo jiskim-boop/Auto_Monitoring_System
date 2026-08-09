@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-09T11:51:53+00:00",
+ "updated": "2026-08-09T12:02:47+00:00",
  "prices": {
   "NVDA": {
    "price": 223.96,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64931.52,
-   "chg": 0.04,
-   "chg5": 1.37,
-   "sma20": 64389.15,
-   "sma50": 63319.15,
-   "sma200": 69123.3,
+   "price": 64875.39,
+   "chg": -0.05,
+   "chg5": 1.28,
+   "sma20": 64386.34,
+   "sma50": 63318.02,
+   "sma200": 69122.99,
    "high3m": 66505.12,
-   "reg": 64931.52,
+   "reg": 64875.39,
    "pre": null,
    "post": null,
-   "regClose": 64931.52,
+   "regClose": 64875.39,
    "sess": "reg",
-   "mt": 1786276282,
+   "mt": 1786276915,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "FS KKR Capital: $600 Million Support Plan Advances As Shares Are Repurchased Roughly 41% Below NAV - Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNMEtFU1NkSW5GY19IQnQ1N3VwTnItQ09HV1FhLTZlSHVpanVabzV2RGVZY0haWTlHbkpxZU1XRFdnV0x4SFdLWUp2bjF3bW5ENVJtby1wc1pTcy0zMURUMXNycmROQTYzTndncUhkSXA3dXd6WnVubFR6am9sU2VFbzNNRXM0MkJ4WlFhS0o5Y2FCLU5YbjdHRVA1WHlrdmNOd1FZNzVUMFZTblVIOWZOU1VIWjU3Z9IBuwFBVV95cUxQanZhRVpJY0htQVJvR2Q5NWVqamNiUGJPN3NLQlJ3Rnk3TUg5OTZzcGN3eXVNajdQOWIwWHh1RTNaZFVHUDFZWi1Nclk2NmdNZDl2MTNiOUpnV0xPa0lXbk1jdklpVkdLdE5JR2l6YlZfMDl6YnUzakEzMkRsd2VoZ0U5b1N4bG1jcVhtUkMyVlZxempkOFl2YTBmNV81M2l5NWoyX1B4VGNUcjhMUG50RS1qbGVMc04zT1dv?oc=5",
+    "pub": "Sun, 09 Aug 2026 11:46:22 GMT",
+    "src": "Pulse 2.0",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Palmer Square Capital BDC Q2 Earnings Call Highlights - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVEdqTXEtTzlNNVFGX0xXSnQwTFlzemp3eVA2RmpsVnV5N0ZnSE1VWWtGSmtpWXBzdldZUmlBUHhiQy0xeFdPVVVmaVZRLUNIUEdjTzBqR3BiYXliVXVqbFJHTmZpamtSV3pDSDNScVNfamppcmlYUTFldmpEVEoteUJyS0hkeEtxYmJFb0RNanRHTFVQU1ZCZU50Znp1ODM1Tzk5WThaeDcxR2s?oc=5",
     "pub": "Sun, 09 Aug 2026 02:08:47 GMT",
@@ -1163,14 +1171,6 @@
     "src": "WSJ",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "FS KKR: Deep Value 13%+ Yield For Pennies On The Dollar (NYSE:FSK) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT29wYnRVQkFDM2FPYzBDM2pTSFZ5UXR0amRGM1dZdC1GUl9QNWhWR0t1NERkNWl5bXptcXgxYXpaWEpWazhQTng3Y2Q0REw4ZUZGcGUtazdCTUJfM0RmM0JySEFFdTF5ZjhxMDRocEhZQWM1MG1yZDdIb3gwVlo5R19tb05pOGpUemd6d0JKbGV4NlY4LWRRNE9ZcmxaUQ?oc=5",
-    "pub": "Sat, 08 Aug 2026 11:30:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1207,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic beats OpenAI to blockbuster IPO filing - Mashable",
+    "title": "Anthropic beats OpenAI to blockbuster IPO filing - mashable.com",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9PcmdOei1fUUN3YmpSaHhZY3NkTHluRXgyOXJrYmpXSXF1NXVoY2lOeXVXd3JJbjYzaUFTajFFVmx0RnFzMXZlOTlsSk53OWd5LUc1OUctWllWOWVad21KMHVVWjd3c3pLc1MweUIxLWtoci11MUVr?oc=5",
     "pub": "Sun, 09 Aug 2026 09:00:00 GMT",
-    "src": "Mashable",
+    "src": "mashable.com",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63758.22,
    64690.8,
    65340.3,
-   64931.52
+   64884.36
   ],
   "vixts": [
    0.833,
@@ -2239,10 +2239,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-07T12",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-07T13",
     "v": 2.73
    },
@@ -2429,6 +2425,10 @@
    {
     "d": "2026-08-09T11",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-09T12",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2470,7 +2470,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-09T11:51:43+00:00",
+  "checked": "2026-08-09T12:02:36+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11T12:12:15+00:00",
+ "updated": "2026-08-11T12:21:56+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -178,8 +178,20 @@
    "ok": true
   },
   "000660.KS": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 1425000.0,
+   "chg": 0.35,
+   "chg5": -9.64,
+   "sma20": 1666300.0,
+   "sma50": 2088960.0,
+   "sma200": 1586834.71,
+   "high3m": 2919000.0,
+   "reg": 1425000.0,
+   "pre": null,
+   "post": null,
+   "regClose": 1425000.0,
+   "sess": "reg",
+   "mt": 1786429808,
+   "ok": true
   },
   "ANET": {
    "price": 191.52,
@@ -710,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.44,
-   "chg": -0.13,
-   "chg5": -6.42,
+   "price": 15.46,
+   "chg": -0.0,
+   "chg5": -6.3,
    "sma20": 17.03,
    "sma50": 17.27,
    "sma200": 19.37,
    "high3m": 22.22,
-   "reg": 15.44,
+   "reg": 15.46,
    "pre": null,
    "post": null,
-   "regClose": 15.44,
+   "regClose": 15.46,
    "sess": "reg",
-   "mt": 1786449376,
+   "mt": 1786449976,
    "ok": true
   },
   "^VIX3M": {
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.86,
-   "chg": 0.05,
-   "chg5": -0.03,
+   "price": 99.83,
+   "chg": 0.02,
+   "chg5": -0.06,
    "sma20": 100.52,
    "sma50": 100.52,
    "sma200": 99.46,
    "high3m": 101.61,
-   "reg": 99.86,
+   "reg": 99.83,
    "pre": null,
    "post": null,
-   "regClose": 99.86,
+   "regClose": 99.83,
    "sess": "reg",
-   "mt": 1786449694,
+   "mt": 1786450286,
    "ok": true
   },
   "^IRX": {
@@ -875,7 +887,7 @@
    "chg5": 0.28,
    "sma20": 4.64,
    "sma50": 4.54,
-   "sma200": 4.39,
+   "sma200": 4.4,
    "high3m": 4.74,
    "reg": 4.7,
    "pre": null,
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64380.92,
-   "chg": 0.74,
-   "chg5": 0.18,
-   "sma20": 64169.1,
-   "sma50": 63339.45,
-   "sma200": 69064.46,
+   "price": 64324.29,
+   "chg": 0.65,
+   "chg5": 0.1,
+   "sma20": 64166.27,
+   "sma50": 63338.32,
+   "sma200": 69064.15,
    "high3m": 66505.12,
-   "reg": 64380.92,
+   "reg": 64324.29,
    "pre": null,
    "post": null,
-   "regClose": 64380.92,
+   "regClose": 64324.29,
    "sess": "reg",
-   "mt": 1786450296,
+   "mt": 1786450888,
    "ok": true
   },
   "USO": {
@@ -966,131 +978,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.21,
-   "chg": 0.83,
-   "chg5": 1.07,
+   "price": 159.28,
+   "chg": 0.88,
+   "chg5": 1.11,
    "sma20": 161.12,
    "sma50": 161.2,
    "sma200": 159.23,
    "high3m": 163.86,
-   "reg": 159.21,
+   "reg": 159.28,
    "pre": null,
    "post": null,
-   "regClose": 159.21,
+   "regClose": 159.29,
    "sess": "reg",
-   "mt": 1786450303,
+   "mt": 1786450892,
    "ok": true
   },
   "ES=F": {
-   "price": 7788.25,
-   "chg": 0.15,
-   "chg5": 0.29,
-   "sma20": 7581.61,
-   "sma50": 7535.21,
-   "sma200": 7215.62,
-   "high3m": 7788.25,
-   "reg": 7788.25,
+   "price": 7791.5,
+   "chg": 0.19,
+   "chg5": 0.33,
+   "sma20": 7581.77,
+   "sma50": 7535.27,
+   "sma200": 7215.64,
+   "high3m": 7791.5,
+   "reg": 7791.5,
    "pre": null,
    "post": null,
-   "regClose": 7788.25,
+   "regClose": 7791.5,
    "sess": "24h",
-   "mt": 1786449702,
+   "mt": 1786450292,
    "ok": true
   },
   "NQ=F": {
-   "price": 29822.5,
-   "chg": 0.29,
-   "chg5": -0.14,
-   "sma20": 28961.0,
-   "sma50": 29491.88,
-   "sma200": 27565.5,
+   "price": 29854.75,
+   "chg": 0.4,
+   "chg5": -0.03,
+   "sma20": 28962.61,
+   "sma50": 29492.53,
+   "sma200": 27565.76,
    "high3m": 30712.75,
-   "reg": 29822.5,
+   "reg": 29854.75,
    "pre": null,
    "post": null,
-   "regClose": 29822.5,
+   "regClose": 29854.75,
    "sess": "24h",
-   "mt": 1786449704,
+   "mt": 1786450295,
    "ok": true
   },
   "YM=F": {
-   "price": 54110.0,
-   "chg": 0.09,
-   "chg5": -0.29,
-   "sma20": 52979.2,
-   "sma50": 52383.76,
-   "sma200": 50145.43,
+   "price": 54128.0,
+   "chg": 0.12,
+   "chg5": -0.26,
+   "sma20": 52980.1,
+   "sma50": 52384.12,
+   "sma200": 50145.58,
    "high3m": 54494.0,
-   "reg": 54110.0,
+   "reg": 54128.0,
    "pre": null,
    "post": null,
-   "regClose": 54110.0,
+   "regClose": 54128.0,
    "sess": "24h",
-   "mt": 1786449698,
+   "mt": 1786450292,
    "ok": true
   },
   "GC=F": {
-   "price": 4444.1,
-   "chg": 1.89,
-   "chg5": 8.51,
-   "sma20": 4122.15,
-   "sma50": 4164.2,
-   "sma200": 4535.15,
+   "price": 4451.0,
+   "chg": 2.05,
+   "chg5": 8.68,
+   "sma20": 4122.5,
+   "sma50": 4164.33,
+   "sma200": 4535.21,
    "high3m": 4697.7,
-   "reg": 4444.1,
+   "reg": 4451.0,
    "pre": null,
    "post": null,
-   "regClose": 4444.1,
+   "regClose": 4451.0,
    "sess": "24h",
-   "mt": 1786449699,
+   "mt": 1786450295,
    "ok": true
   },
   "CL=F": {
-   "price": 82.41,
-   "chg": 0.34,
-   "chg5": 8.76,
-   "sma20": 82.17,
-   "sma50": 80.24,
-   "sma200": 86.59,
+   "price": 81.94,
+   "chg": -0.23,
+   "chg5": 8.14,
+   "sma20": 82.15,
+   "sma50": 80.23,
+   "sma200": 86.58,
    "high3m": 108.66,
-   "reg": 82.41,
+   "reg": 81.94,
    "pre": null,
    "post": null,
-   "regClose": 82.41,
+   "regClose": 81.94,
    "sess": "24h",
-   "mt": 1786449706,
+   "mt": 1786450294,
    "ok": true
   },
   "HG=F": {
-   "price": 6.67,
-   "chg": 1.14,
-   "chg5": 0.78,
+   "price": 6.66,
+   "chg": 0.92,
+   "chg5": 0.55,
    "sma20": 6.44,
    "sma50": 6.35,
    "sma200": 6.09,
    "high3m": 6.7,
-   "reg": 6.67,
+   "reg": 6.66,
    "pre": null,
    "post": null,
-   "regClose": 6.67,
+   "regClose": 6.66,
    "sess": "24h",
-   "mt": 1786449698,
+   "mt": 1786450280,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.3,
-   "chg": -0.07,
-   "chg5": -0.5,
+   "price": 108.41,
+   "chg": 0.03,
+   "chg5": -0.4,
    "sma20": 108.64,
    "sma50": 109.23,
    "sma200": 110.46,
    "high3m": 110.27,
-   "reg": 108.3,
+   "reg": 108.41,
    "pre": null,
    "post": null,
-   "regClose": 108.3,
+   "regClose": 108.41,
    "sess": "24h",
-   "mt": 1786449688,
+   "mt": 1786450294,
    "ok": true
   },
   "EWY": {
@@ -1163,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI Completes $7 Billion Employee Share Buyback at $852 Billion Valuation - citybiz",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQdnFHY0VqNFpKUjZLWlBKTEhtSEtteW5kcklKQTVBaDU2a3hyNEN1RnBEUlhwdm5EeDdyYVh0MnM5N2NYREItZ3NiUFlvTzdRZDFBRXVkQzQwNDNGeVlUbUtZZ0tid2xjSkIxRUxQVnNFMnlTeFA4c1FZS3FucDd2U21sUFhua3dSNjBKNm5ENkY1RlJ0SlplNFA1UU5CNE9XODVSWjNjSVZSLThvcXMyZ0RvSQ?oc=5",
+    "pub": "Tue, 11 Aug 2026 12:12:13 GMT",
+    "src": "citybiz",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI completes $7 billion employee stock tender offer before IPO - qz.com",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9mX2UtOThiNGxMZ2t5NzYzMlhQTlFYRkh5eGtQTnRRckNQWF9WVDI1X0VQVktoOVhiSFFiS3loT1ZRdVBJSDhOZGpUb3VyUktnRE1RU1lVZTd3ZW9sRWg5N3FjemM1UzUtREFub3p0dTQ0VkZETGp2ZV9n?oc=5",
     "pub": "Tue, 11 Aug 2026 11:19:48 GMT",
@@ -1195,18 +1215,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI lets employees cash out $7 billion as IPO plans remain uncertain - calcalistech.com",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBGWkVDdWxFd29uYk5QQ1N1Z2FZVXBEWWZyZHE5N0lxVUNfT1lJRUdTVVR1RTQ5M0Z0ckNZM2c2ZFJLWl9iMWJ4dnhFRmxXWWVfQ2dqdTkzeDB1b1FNQURnZjNWQnE4VVE?oc=5",
-    "pub": "Tue, 11 Aug 2026 10:26:00 GMT",
-    "src": "calcalistech.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Pre-IPO Funds Slump After SpaceX Debut - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE01aFRzT3Y3NTJ5R1FVRUdFWGNiUzV4dHVYUlFsZVVndjY0TEdocENYVnQ2OUZPdlplUlVzbnQ2dDBlOHpFcUhMenRqODJCWV94bVctaFQwUUs1OE5hNXV6R3RJSDNQQ01UVTZ6YlZtb0loZU55WUFBTHVJaGk?oc=5",
-    "pub": "Tue, 11 Aug 2026 10:03:16 GMT",
-    "src": "Morningstar",
+    "title": "[SMM Computing Power Daily] Relocatable H100 Long-Term Contracts Released, A100 80G Whole Machine Channel Quotation 1.34 Million - Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPQ2N0VWx0WW9jYTJNMFlyZG44Zlc1MC1qZ0pWU2hOQ2NvWURDWkRfOFVHX2NRYWNCdUJmcXVRQXB6aVlkdF8zTmJNd3BQLTZEMmZ0dFdPRHFGUVRISHQ1Y0V4VllTaW1xbUJBS0FPNk9RMnlqdjlDZ00wV0JIZmtSLWNESGpqWmZIZ01HV3g1cW91WDlrLTBfRUpTc2g5bjdqZUVFQVNmMktQYXR3WEQ0YVNGaV9KMU5wRVpveUR3emMwTVVpTXhvRDhNMkZ2OGNtdVBDOTZWUXNuVjZlbXFTQ0FJNFE0MERuaGdQU19YMDF0dnlnRFRhTWxiUUU?oc=5",
+    "pub": "Tue, 11 Aug 2026 10:32:36 GMT",
+    "src": "Shanghai Metals Market",
     "trig": false,
     "geo": false
    }
@@ -1221,11 +1233,11 @@
     "geo": false
    },
    {
-    "title": "Generali Investments Management Co LLC Cuts Holdings in Oracle Corporation $ORCL - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOQ1V0cHNEdkJZQ2ZIUXRBcENyQy0zSmg0TndxNFZobXRfcElCZEtNOVdxX1J6SzBqb0dyVjE0OVRZaWpCTzFkRm9ybHRDYXF5d3NrX2ZHMnlCaVpPdEFaOHlfeXhvQjRySGVfbnRIZTV0bzJKMWlfVktBVGdXUHpsYzRzN3RTMFhpVmJZQmlTOUdwV3Q5YkRhU0EyYzVVRTR3Y1p1V2JNNG9vTEtGZjh6WTVLS3JrbW5hN1k5Z0NXN2FkT0FqbDRoMVN4eEsxUjdIQzNpQV82RQ?oc=5",
-    "pub": "Tue, 11 Aug 2026 10:30:23 GMT",
-    "src": "MarketBeat",
-    "trig": true,
+    "title": "[MARKET UPDATE]: Geopolitical risk on trade seen amid reports Pakistani Defence Minister signals US/Iran are close to some agreement and the situation is moving towards peace; oil and Dollar see downside, while stocks, Treasuries, and spot gold gain - Newsquawk",
+    "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxNa01rSXZGLWVtdDEzQU54QVlfYXktWVQ0NUdDZXFlN3JRSXVGdXl4X1hmOHprNmdvd0RNYVRZRURQVm05YWx2cDBzTWx1N3ZCMzFua0ZVNmlnbG95QUx5d3RIazU4LTM5X3dWSVJlbUtSZUZ6Zmx0bVVfZEhUWmRqNFFhaDdLd2l3ZVBoNVY5TXpMY2VhQ21Ld0ZDZUs3SnFaVV91OXJHVGVYWFp3aEpON3phRnhWcUVTZEw1VVJDYlJIMWQ5SG4zaWd6eG1NN3l0bjNhSmJSU0tHX2UwUGhLU2ktZlV6RnZ2OUhkMFl5OFBfODB6RmtKSy1uemNSLURBcEJ6TFpnVEFmRjk3eUlTczVXcnhaQjBjLS1KQl9rMEg2a09HSTdYUHE4djdFYTlkSXJMVWRQRHBpUzluSzljYUFjWXF1d2ZkdUVSYzdocEdTQmo0T1N4ZEdfUUx2c2tOd1FoYmFvcVVmcWYwUUxMcTU3WnMzZEFkQ3hXbHBPVjRaZFhsNEtFV2JIUUZKbGc?oc=5",
+    "pub": "Tue, 11 Aug 2026 11:08:00 GMT",
+    "src": "Newsquawk",
+    "trig": false,
     "geo": false
    },
    {
@@ -1235,6 +1247,14 @@
     "src": "CBS News",
     "trig": false,
     "geo": true
+   },
+   {
+    "title": "Oil futures rise as Middle East truce stalls - Financial Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbVk2c0tIaTBQd1VBdU5jcWt5OUNXOFNQQmk0SzEyeEpwZXFwVUcxMm9zSnRYb0lSRUhKVFdUa0IzMEFSZ2dWT2toVEFtRnZPY3NhVzNPTW1oQVR2RGZta0FtS0d6aUlIdC1wRlZ3R0E1S2tUd2Y1cTFvUVBiNGhuWVpNMW5FV1F0anUwZmJVVTE1bUlVVG5F?oc=5",
+    "pub": "Tue, 11 Aug 2026 09:48:31 GMT",
+    "src": "Financial Nigeria",
+    "trig": false,
+    "geo": false
    },
    {
     "title": "Forget Rate Hikes! Fed Chair Kevin Warsh Can Raise Interest Rates Using 2 Nontraditional Methods. - Yahoo Finance",
@@ -1251,22 +1271,22 @@
     "src": "Anadolu Ajansı",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Live Updates: War returns to Iran with Israel, US strikes - Dawn",
-    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE4wWU1XcTJjVkhydDJ6REhTa1RGZHp5eHJhYXVpQlRoNndhUjBOamFNWlRERkdMYk53LWc4LVhDbktnSXZ3RkJyWmtEMEgycjRFNmJN?oc=5",
-    "pub": "Tue, 11 Aug 2026 07:15:41 GMT",
-    "src": "Dawn",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
     "title": "Copper Price Forecast: AI Boom and Tight Supply Keep $7 in Sight - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQSUNQelVfNmp0a3BibTQ4c2ZSaVpPTlhPWWxGTnVDVUpZODVqbHp3QVpsYlAxNnF1aEc4bC0xVUxJNG5Ma2F1Q1NBUWxDUnF4anBPbzBaQnFCSkg2c1NZQlNhazI4Y2ZwVUY5Zl9pUXgyNkw2RWhXQWM3bjNmRXM3TUdGSmdOaUZiV1kyV2JHNkc5ZWRGMktRX0VUR2ZsNk9tNF9yMHM1MGJUcllvdkFva1RRRVpheXJsUUZWcTBJMWxWWk9BOVhBamt0bw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUnE4aEg5UnlnVFA2VFVtWEFoSHU5TlNmaGllLTFLS1dGczA3Tml5akI4STBZVWhJcFJUQkkySG1xYnR5MkhPNzVHeWFfV3lSemRsTVpVRDZTRHVwRzAyZUtQU2I3WG9jNFdzMHVyeDdvMU9pVDU1VmFUN1dQaGlyQkJBNW9BMk80V2J4VXc4MFp0R2F4LTVMbTVLdHlLbmpmQWFNNjlsZDR0NWVBdFZzemttTGJaTi04cC1XcjBR?oc=5",
     "pub": "Tue, 11 Aug 2026 12:02:00 GMT",
     "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US Dollar Index Steadies as Rising Oil Prices Offer Support - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObnJrcjAtT0ZHSGpwemg1V3g0UXRrYmtjcmRRSHhTaXhsOXh5QjhZczJxWi1hSTV2YWhSYXp5N2p1TXlyM1lpcXVvYmNOVllyd0piU1NuMldGRnJqLWlTMWFmYXJFQVE1OHVwcTcyWEJNMWtrelBNMXlsRFI3TTdoQUZjaFhHZw?oc=5",
+    "pub": "Tue, 11 Aug 2026 10:54:18 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1299,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNTUFEb3pMNFJ4T1hOYzBheDJtQWo4UlpOVlBnOEl6V3JPMHpRTzhYRzROdEpIUmxmUm1kRlhqX2ZnNG5vekpoVGxKWU01VzlZYkRGeGJ6XzZwNG5fdFNnN2dhWFQwTlVrYXJFODBkeUZHazlfY1VPSTB5b1k4N2REUnFFeW5wNFRBTURhX3pUQXZiVnlSSzB3dHk0ajlqdw?oc=5",
     "pub": "Tue, 11 Aug 2026 10:24:36 GMT",
     "src": "Daily Forex",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why copper — ‘the commodity for all seasons’ — is more precious than gold nowadays - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOb2FrbkFReTV5V2E1dTRqR09Pa0J0aWw3TS1FWkVrR2g0Ui1oZXVTeUdSUXF3TEg1eGZxcTFqZ0tLYWJzTTJwNkFOcXpoWXN1RUpqczN4WGx2aVRibXlmZFlWa1dWa2x3aHJTa2ZLUXl1WmtqMjl3bXMzZ0pBbXBkVDJmME9LVHdQOUZIZzRISmM4VnVwbVJNYlRGNl8xWjl6LTE5QVZrOTMySnlvUDlhRXh6WnowNE5kcXFB?oc=5",
-    "pub": "Tue, 11 Aug 2026 09:53:00 GMT",
-    "src": "MarketWatch",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1475,7 @@
    15.67,
    16.64,
    20.66,
-   15.44
+   15.46
   ],
   "tnx": [
    4.41,
@@ -1493,7 +1505,7 @@
    100.5,
    101.14,
    100.8,
-   99.86
+   99.83
   ],
   "bizd": [
    12.62,
@@ -1538,7 +1550,7 @@
    162.43,
    162.49,
    163.77,
-   159.22
+   159.28
   ],
   "uso": [
    138.66,
@@ -1598,7 +1610,7 @@
    64956.11,
    66505.12,
    63871.36,
-   64407.0
+   64324.29
   ],
   "vixts": [
    0.865,
@@ -1613,7 +1625,7 @@
    0.778,
    0.874,
    1.062,
-   0.752
+   0.753
   ],
   "hyoas": [
    2.94,
@@ -2455,18 +2467,16 @@
   21
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "000660.KS"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 38,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-11T12:12:01+00:00",
+  "checked": "2026-08-11T12:21:46+00:00",
   "openai": {
    "found": false
   },

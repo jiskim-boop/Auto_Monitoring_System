@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-11T21:32:34+00:00",
+ "updated": "2026-08-11T21:42:10+00:00",
  "prices": {
   "NVDA": {
    "price": 217.5,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 239500.0,
-   "chg": 3.68,
-   "chg5": 0.0,
-   "sma20": 245200.0,
-   "sma50": 292380.0,
-   "sma200": 248959.58,
+   "chg": 4.13,
+   "chg5": -0.21,
+   "sma20": 244450.0,
+   "sma50": 290830.0,
+   "sma200": 248881.4,
    "high3m": 362500.0,
    "reg": 239500.0,
    "pre": null,
    "post": null,
-   "regClose": 230000.0,
+   "regClose": 239500.0,
    "sess": "reg",
    "mt": 1786429820,
    "ok": true
   },
   "000660.KS": {
    "price": 1425000.0,
-   "chg": 0.21,
-   "chg5": -9.06,
-   "sma20": 1687300.0,
-   "sma50": 2107120.0,
-   "sma200": 1588183.33,
+   "chg": 0.35,
+   "chg5": -9.64,
+   "sma20": 1666300.0,
+   "sma50": 2088960.0,
+   "sma200": 1586834.71,
    "high3m": 2919000.0,
    "reg": 1425000.0,
    "pre": null,
    "post": null,
-   "regClose": 1420000.0,
+   "regClose": 1425000.0,
    "sess": "reg",
    "mt": 1786429808,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.82,
-   "chg": 0.01,
-   "chg5": -0.07,
+   "price": 99.83,
+   "chg": 0.02,
+   "chg5": -0.06,
    "sma20": 100.52,
    "sma50": 100.52,
    "sma200": 99.46,
    "high3m": 101.61,
-   "reg": 99.82,
+   "reg": 99.83,
    "pre": null,
    "post": null,
-   "regClose": 99.82,
+   "regClose": 99.83,
    "sess": "reg",
-   "mt": 1786483299,
+   "mt": 1786483893,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63597.88,
-   "chg": -0.49,
-   "chg5": -1.03,
-   "sma20": 64129.95,
-   "sma50": 63323.79,
-   "sma200": 69060.15,
+   "price": 63607.94,
+   "chg": -0.47,
+   "chg5": -1.02,
+   "sma20": 64130.45,
+   "sma50": 63323.99,
+   "sma200": 69060.21,
    "high3m": 66505.12,
-   "reg": 63597.88,
+   "reg": 63607.94,
    "pre": null,
    "post": null,
-   "regClose": 63597.88,
+   "regClose": 63607.94,
    "sess": "reg",
-   "mt": 1786483905,
+   "mt": 1786484498,
    "ok": true
   },
   "USO": {
@@ -980,7 +980,7 @@
   "JPY=X": {
    "price": 159.25,
    "chg": 0.06,
-   "chg5": 0.98,
+   "chg5": 0.99,
    "sma20": 160.97,
    "sma50": 161.18,
    "sma200": 159.23,
@@ -988,9 +988,9 @@
    "reg": 159.25,
    "pre": null,
    "post": null,
-   "regClose": 159.24,
+   "regClose": 159.25,
    "sess": "reg",
-   "mt": 1786483905,
+   "mt": 1786484501,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic’s Claude Will Add Watermarks to AI-Generated Text and Files - CNET",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQeTVhQkpPVGFnb3lvVXZ1UHRHOXFVNTB5eVIxUXc4b2xiNFpOVFY1QVBpN18tMm1sVDdwSTlGcEljQ2tIazZkMFlWZjM1bURnT2xmT0s4UWJlWTdVUHVTQ2ZtcVI5UW5FVkluZGpVREFoT29SMGNMaVlYRUVPZDFnX2hVdVlCQ2FBWVVnRTk4MGgyOXZFdmFXa2E0U1p1YmdLSDQ2bEFWTzJ2MDdoQnhvVUd2bVp3dFdu?oc=5",
+    "pub": "Tue, 11 Aug 2026 21:35:10 GMT",
+    "src": "CNET",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Claude to start watermarking AI-generated content - mashable.com",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10eGdicG5wZFg0SzkyU1Q5d0JyNHNvRUNxUmQ2YkNGSFd0RUhEeElOd1FMT1BCYk5SemhmRjBQRndGYVhVX2MxY09TVmwtZE16T0QxNmE0OW01TF91ZllldmxDNU9iQzBoaXBBZXdGX3o?oc=5",
+    "pub": "Tue, 11 Aug 2026 21:22:30 GMT",
+    "src": "mashable.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX's Grok Bot turns agents into persistent digital coworkers that can operate your apps for $120-per-month - VentureBeat",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOS3JXM3ZRTldLYWpKRFp5ZUNmeUpUemhtTHdDX0FadHh2Q2RCNG9tMlFSSkpsSXR4OF9Camw3TVF3Rmp3anlxYVBXM0RpUlVMRm1MRF91dGdlSHBwUHpVUFk0SnlDS3k5Zmk5MWNnNWVsOGtJbDF3SkE1QmtOSVBSbzMwVzZzX3hsNzJZR25UaDgza1pjSnFNejFGd3FseTRqVGJDUTRRNnBtN2ZWQUtURjlVMDU1X0MxU0d6X2lDZTA5YVlFMC1menkzUGtkZFRqV1dMcnhzVUNpdTBpZWJ5Rkdn?oc=5",
     "pub": "Tue, 11 Aug 2026 21:07:00 GMT",
@@ -1199,26 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Live coverage: SpaceX to launch 24 Starlink satellites on Falcon 9 rocket from Vandenberg SFB - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOa1Y5Q0wwZGRWTkFpVGdhUm9SNXp3VTg3dWlLYWFhLUlMLTdQRHJKblhYUnVaekVHWWctd1RmNE9TZXJqclRfZmRmTkdHOGNlU0ZCOWs3c3JRRTd1cWwtY0lmQThydnpyRTRqQ3hDUndOVUJZOElBQ1p3eUZPVFUxdFNkaUcyY0RIRldISy1xMHlIYUJtNXhNTXY0QnpCMDR3blZ3c3RWbnI4OVBIekx1VVpiZS1WRXhXOWFWNDNLTG8yMDIxUEhVQkdQZ3Jna1U?oc=5",
-    "pub": "Tue, 11 Aug 2026 20:06:23 GMT",
-    "src": "Spaceflight Now",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Becomes ERock’s Biggest Customer After the Power Company’s Rough IPO - Barron's",
+    "title": "Anthropic Becomes ERock’s Biggest Customer After the Power Company’s Rough IPO - barrons.com",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOU3lQRkZUc292LU03ZzNVZ3JEbnNKWUE1S2cxaHNLVEp5Mm53dDNkVGZfVWVDQlg5VFlkY0VLcDV5WDlYTV9WLWgwZ0lMUktQZG9qLWlRdXhSbFNzWnZ3VkZWSlphenlyd0NrYjRuOVIwRDF4WkhhWHRheDdkV3JJTWhvWWNhUQ?oc=5",
-    "pub": "Tue, 11 Aug 2026 20:05:00 GMT",
-    "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CME Group Will Launch Futures Contracts to Trade the Price of Nvidia GPU Power - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVGhobE5lUl85QUpQVjhVa0hyVTU5akRFSnpJY2ozbndzRm53RGJOMF9YUHRSSTZwd0swQUFrUHJoWURWczJ5a1JjT2NSZjFZNUxnazU5LTlyVG5aNnVKR1k4cHJwX2xLbGpRbnpuY1FkNVBfenlzX1JnbWVPd1FzZ2Z1ajMySTZsUVFrWnFIakxMck0wWmVldjctOGVia2s5ekRPMGVvakVQYVcw?oc=5",
-    "pub": "Tue, 11 Aug 2026 20:03:55 GMT",
-    "src": "TipRanks",
+    "pub": "Tue, 11 Aug 2026 20:24:00 GMT",
+    "src": "barrons.com",
     "trig": false,
     "geo": false
    }
@@ -1241,6 +1241,14 @@
     "geo": true
    },
    {
+    "title": "Why the Middle East war still convulses the oil market – Report - Vanguard News",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMWxza0Z6SW5ob3RMRFloUEZFcnpqNWpBYmhUMkN3NmMwTzBIbVlNbkVnVEh4TUE5dlFLbnFzTF9MR2hhQUY2TjJIM0ZhakNLSkloLW5BaUw0bllrQVBTWlpfYlRORFdVRzVyci1NSHlfX1B6aW1VR0lDWGc4RGRIdkxITWJFRHJQYWx6cHlpRXdrbjRYNmlwRTI1Q2ZSUFY5NzRuU9IBpAFBVV95cUxPMWxza0Z6SW5ob3RMRFloUEZFcnpqNWpBYmhUMkN3NmMwTzBIbVlNbkVnVEh4TUE5dlFLbnFzTF9MR2hhQUY2TjJIM0ZhakNLSkloLW5BaUw0bllrQVBTWlpfYlRORFdVRzVyci1NSHlfX1B6aW1VR0lDWGc4RGRIdkxITWJFRHJQYWx6cHlpRXdrbjRYNmlwRTI1Q2ZSUFY5NzRuUw?oc=5",
+    "pub": "Tue, 11 Aug 2026 19:51:18 GMT",
+    "src": "Vanguard News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US-Israel-Iran War Latest News: US Energy Secretary Claims Oil Flows Through Strait of Hormuz Near 9 Million Barrels Per Day Amid Rising Middle East Tensions - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPdk9fdmc2Skp3dzZiNlVGNkU5WDYxTWVJUU85TW1XR3VmVGVyYTdIMExQd2NVdHRfNDRqU0FzRVBpTTNBdnpTbkg5T2EzaEhMM19mcTBHWGtaS1RmQXVmS0FZQmQ0WUR5RHlNQWpoREc0TTNzWGF0aFItTjV6MGZNYlhJQmw3UmVOWVQ1VTF4U0h3SnlnM2hOTjYtVWF6TWNCYl9NdWpaRVdINmZEQi12bGJJb3lYNkY3MVp1c3hReUdoei01UUNTRG5TbXVxWVhRYVZWQzRzdHBDbU4tV1FRajZrRUY5eGg5VjJyQUlXM1BneVZCeXoweFlSRVJiOVBLVldiLVFoRkl3X1hFcGhwejR0Rm5zeE1SS0N1YkFfbVV4VzRndzhva1RRVEYwZGPSAbQCQVVfeXFMTmMtdTZodFJfbFRybzhpQm5GNHFfRDY1Zy1EbEg3NFNPXzhtMFNDR3VhM2ZHeGEyVDRIa0NuVUJRd3VlT21WTms3ZEowSGpMUC1NZGNpUUdwbGhpTlpKYUo2bkdlcEtQaG5PNzkxOFBXdURmcTI1bGQ2STZFQjZzZldBYXFYWFowa3ZYdVo2RmU0dDVpcDNvTk5JT0dhYnB0WmdkcXlSbm1mdW5mT0lLX1BPZU9LbERJdGxkMVhsbDNkY25QUWhOUXdHR2NnbWQySzd6QUVnSUcwbGowNllmUkhWQUJoMGgwQThXSnd5bmtfeVRyZHNFTm1wdGgtYU4wMHo2a2tqeE9veXNJYXY2b3FqaUJ6UmptU0VQdXBVZlYzc0xNZjZqTjlvYi1udlR1cXJvNlg?oc=5",
     "pub": "Tue, 11 Aug 2026 19:28:09 GMT",
@@ -1257,18 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Hormuz disruption keeps oil market volatile - Pakistan Today",
+    "title": "Hormuz disruption keeps oil market volatile - pakistantoday.com.pk",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNQ1F4MXY2X2xBLW1NQ2pPMmpQMDFHNm1Hd0Z2bkhTT3pqakxqOWZ3Y2JiVU41SG96VGVmOTA3YUVDbDlKX0xQWVJwZGVaTktuSVR4aHU4ZW1WY1BxZlNXT0pXb19tdVVINjU5bEtVX2RZVm1iVkd0dVRJSG43TlRsTHFIMEpUZVB3a2tnbm9yb1FMSktvd3hWUV9BZTVPMVExMzlad1RHRWxveS12c0tz?oc=5",
     "pub": "Tue, 11 Aug 2026 18:19:28 GMT",
-    "src": "Pakistan Today",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why the Middle East war still convulses the oil market - Dawn",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQd1NTSUxIN3pRcF9KTDFQNnltbVRXbmJfbWh4UzRkVHJmYTlpU0tZN1BCc2phM21icVNObmwyUXdTdmZ5RlkzcTlKX1l4ZHZWNU9DalBUT3dYd1pkU3NXaUp0QWo1UGpVZ29DM0Utb1E2SlVZVzJjb0dCSk1PRHpCRy1GekRyYzJmbDgzUGxJOWxHUdIBTkFVX3lxTE5ic0hCa0NlaG5wWDlWSVZBY3prTWkwZ3ZGMTdtRUVaVFF5X1RQZzBLR0RMd0dqOGU4dzJ0cVRfN2ZfM1F1VUlLZXpEa1Ffdw?oc=5",
-    "pub": "Tue, 11 Aug 2026 18:07:58 GMT",
-    "src": "Dawn",
+    "src": "pakistantoday.com.pk",
     "trig": false,
     "geo": false
    }
@@ -1315,11 +1315,11 @@
     "geo": false
    },
    {
-    "title": "Copper price back at record’s edge as Grasberg smelter halt bites, aluminum surges - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQV2FUT2FfMktVVXRvZUYxNFB0WkhqYlZ0RzRkRGJKeHlLVFMtb3BYWExpanFUZkhuaThDeDNHbURaeHRnV09wZXVOODFIODJnbEt6bFBMb19rcV9keFp2QXNtOVd1cXZ4Y3dlYzUwSzdKR2tBZ2ViSzZRT0J1dEtGLUxJd2pQcEcxYnpmX2ZyTVBkakRHRHZkT0lDemtNUmoxd3k4S2VoMA?oc=5",
-    "pub": "Tue, 11 Aug 2026 18:12:01 GMT",
-    "src": "Mining.com",
-    "trig": true,
+    "title": "Gold's Fate Hangs On The Dollar! The FOMC Minutes Could Trigger A Next Pattern ? Mortal Kombat Ii (WS4ul4kJY1) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE42c21VdG0zNHlYLVdzRU9SUmtUaERkOXA4dnZ3dWVVeXVzVWFteUpzYWY5S09IM0FkbUdqWG9oallZejdSdHdsbXJPZ09sN2VuX20xcjd2LUlWS3RpWUxDZw?oc=5",
+    "pub": "Tue, 11 Aug 2026 18:20:45 GMT",
+    "src": "Mshale",
+    "trig": false,
     "geo": false
    }
   ]
@@ -1505,7 +1505,7 @@
    100.5,
    101.14,
    100.8,
-   99.82
+   99.83
   ],
   "bizd": [
    12.67,
@@ -1610,7 +1610,7 @@
    64956.11,
    66505.12,
    63871.36,
-   63590.82
+   63605.23
   ],
   "vixts": [
    0.874,
@@ -1742,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2473,7 +2474,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-11T21:32:20+00:00",
+  "checked": "2026-08-11T21:41:56+00:00",
   "openai": {
    "found": false
   },

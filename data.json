@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T21:41:56+00:00",
+ "updated": "2026-08-12T21:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 224.09,
@@ -325,9 +325,9 @@
    "price": 120.66,
    "chg": 0.73,
    "chg5": -0.06,
-   "sma20": 129.1,
-   "sma50": 133.15,
-   "sma200": 145.93,
+   "sma20": 128.87,
+   "sma50": 133.31,
+   "sma200": 145.77,
    "high3m": 149.36,
    "reg": 120.66,
    "pre": null,
@@ -405,9 +405,9 @@
    "price": 194.89,
    "chg": -2.09,
    "chg5": 4.83,
-   "sma20": 182.86,
-   "sma50": 182.38,
-   "sma200": 182.24,
+   "sma20": 184.93,
+   "sma50": 182.25,
+   "sma200": 182.4,
    "high3m": 201.37,
    "reg": 194.89,
    "pre": null,
@@ -613,9 +613,9 @@
    "price": 13.29,
    "chg": -0.52,
    "chg5": 4.48,
-   "sma20": 12.77,
-   "sma50": 12.61,
-   "sma200": 12.74,
+   "sma20": 12.76,
+   "sma50": 12.6,
+   "sma200": 12.73,
    "high3m": 13.41,
    "reg": 13.29,
    "pre": null,
@@ -645,9 +645,9 @@
    "price": 11.67,
    "chg": -0.09,
    "chg5": 6.38,
-   "sma20": 11.08,
-   "sma50": 11.0,
-   "sma200": 11.19,
+   "sma20": 11.1,
+   "sma50": 11.03,
+   "sma200": 11.2,
    "high3m": 11.68,
    "reg": 11.67,
    "pre": null,
@@ -693,10 +693,10 @@
    "price": 40.52,
    "chg": 0.2,
    "chg5": 0.27,
-   "sma20": 40.38,
-   "sma50": 40.32,
+   "sma20": 40.37,
+   "sma50": 40.33,
    "sma200": 40.31,
-   "high3m": 40.59,
+   "high3m": 40.61,
    "reg": 40.52,
    "pre": null,
    "post": null,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.98,
    "sess": "reg",
-   "mt": 1786570284,
+   "mt": 1786570883,
    "ok": true
   },
   "^IRX": {
@@ -822,8 +822,8 @@
    "chg": -0.62,
    "chg5": -0.48,
    "sma20": 3.73,
-   "sma50": 3.73,
-   "sma200": 3.73,
+   "sma50": 3.69,
+   "sma200": 3.63,
    "high3m": 3.81,
    "reg": 3.71,
    "pre": null,
@@ -885,10 +885,10 @@
    "price": 4.68,
    "chg": -0.04,
    "chg5": 1.41,
-   "sma20": 4.66,
-   "sma50": 4.66,
-   "sma200": 4.66,
-   "high3m": 4.7,
+   "sma20": 4.65,
+   "sma50": 4.55,
+   "sma200": 4.4,
+   "high3m": 4.74,
    "reg": 4.68,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63444.83,
-   "chg": -0.17,
-   "chg5": -2.21,
-   "sma20": 64047.65,
-   "sma50": 63338.41,
-   "sma200": 69040.41,
+   "price": 63460.82,
+   "chg": -0.14,
+   "chg5": -2.19,
+   "sma20": 64048.45,
+   "sma50": 63338.73,
+   "sma200": 69040.5,
    "high3m": 66505.12,
-   "reg": 63444.83,
+   "reg": 63460.82,
    "pre": null,
    "post": null,
-   "regClose": 63444.83,
+   "regClose": 63460.82,
    "sess": "reg",
-   "mt": 1786570890,
+   "mt": 1786571485,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.4,
-   "chg": 0.08,
-   "chg5": 1.14,
+   "price": 159.38,
+   "chg": 0.07,
+   "chg5": 1.13,
    "sma20": 160.84,
    "sma50": 161.17,
    "sma200": 159.27,
    "high3m": 163.86,
-   "reg": 159.4,
+   "reg": 159.38,
    "pre": null,
    "post": null,
-   "regClose": 159.4,
+   "regClose": 159.38,
    "sess": "reg",
-   "mt": 1786570886,
+   "mt": 1786571492,
    "ok": true
   },
   "ES=F": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Shares Jump 11% After AI Cloud Revenue Beats Estimates, Backlog Hits $104bn - Tekedia",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVEd1QXZCY2w2UVFDWHJqdnBEQjlta2JybGxNUU1uYnlPS2VRZXZ5WDZpSWdtTzJXYllJRzJ4N2l5UmhOTUhySUE5d0cwRjdIQzR0RklvaDBQRkh5ZC1QWUcwWkdrWEI2U2FiemlVN2FEb2xFYmlTUlI0cW91QWtYcTRFVTVIYktqWFhzZWlnc21Jb0hFVmZ4OVpZU3duZlZXOGJEZ3NwZTRHcDQ?oc=5",
+    "pub": "Wed, 12 Aug 2026 17:46:44 GMT",
+    "src": "Tekedia",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Next Banking Crisis May Begin Outside the Banking System - globalbankingandfinance.com",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPN3ZLeVE0aXZQZlVxVWVlYnZQOU9mS0FDTHRhMlp2M3ZodTVqTjdsTndNOWRUOWJ6ckxFVWg3N1A0YkJXQ05zY01CejFvMHVQMUpWNHRXRmloaFFWeTdiQlhURlg5OHBiY0NVOGkwM21BdFdHRWJWc2Z6MUVIUlZycWdLTkhsSVNEMEJfRmk3eUNqbnlsQ1p6c3VRNnBwSHFGNVJ3?oc=5",
     "pub": "Wed, 12 Aug 2026 16:16:36 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOZllVcHZrT0V3ZWR6S1BjbERzcEVaV2hjT0hoeTNrTzRSRUtyNUFJa0JtWEFxbHhydjJNbXNDcjBDU005V0RGZUp2amJFTXdTVmoxWllsTkNyU2FYVlJIRl85OE9mZnVlZm91ZTRtZmdacTZYT0JiXzZlQ3dnX1NubUNEOF9aOFNVU0M2cXh4OA?oc=5",
     "pub": "Wed, 12 Aug 2026 15:20:11 GMT",
     "src": "Financial-News.co.uk",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Mid-Week Hot Stocks: CoreWeave, MercadoLibre, and More - Baystreet.ca",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1DcnhFWFlIRThaLUI4emJpdWJuQzMxUnRZdjg0QnpwaW1RZk5sUWtHSDM5MzExbUNYQ0k5aS16NWY0S29GNnYxRUxiN0szNUxVX2w3SzJ5Y09rNWlMVWNEcjZmV1pVQTZmcE5ZajJRWE9Kc3dkZlZ5bGZILWhXQdIBfkFVX3lxTE1DcnhFWFlIRThaLUI4emJpdWJuQzMxUnRZdjg0QnpwaW1RZk5sUWtHSDM5MzExbUNYQ0k5aS16NWY0S29GNnYxRUxiN0szNUxVX2w3SzJ5Y09rNWlMVWNEcjZmV1pVQTZmcE5ZajJRWE9Kc3dkZlZ5bGZILWhXQQ?oc=5",
-    "pub": "Wed, 12 Aug 2026 14:37:17 GMT",
-    "src": "Baystreet.ca",
     "trig": false,
     "geo": false
    }
@@ -1233,14 +1233,6 @@
     "geo": false
    },
    {
-    "title": "Geopolitical Risks Flare as US-Iran Tensions Weigh on Markets - Whalesbook",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQelJtU3RpZm1VV0k4V0l6aTRLNktSbWhJMi12ZTJqNFFuODZPVnU5T01WSFpoenZnVEZHeEVuMUt2NmhPZEtZVk4xZmFBY09BZVd2ODJ6ODU2ZnpkSHctRDhza2hYSWFmcFk0SzA4Vy1USDlLWFdaQkNJYmFtREdPdFZHQUZOVkxNSG9IdTNndnJjbTlfdjBURkIxWVFuaTVpeTFEX1A3OFpsNEpaZVJsd09WR2tPblNScUxtZ1l0NEN2dDZyNDQtdDZ5OTZ1cmphVmxXcFp1SnhwREtwOGc?oc=5",
-    "pub": "Wed, 12 Aug 2026 19:39:52 GMT",
-    "src": "Whalesbook",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Will U.S. CPI inflation data influence the Federal Reserve's decision on interest rate hikes next month? - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdGtLWjRWVllETUlkUFgyUk1JSkx3cGxpeWgtTEIzWDkycW1fOEh5MUhqaURPSi1xN1p2R05LaUhYenNvTnJ1UjUzNGdnY2xrN180LW4wQzdzcHN6dlBqbmRHcHFMRUllU3J2eW5McWlraXYxSW1BM002TDNpV0RHRjh2T3J1NmYyZC1hREZxNXhkdEdhLWlTOVFRblBTa25oNmc?oc=5",
     "pub": "Wed, 12 Aug 2026 19:18:37 GMT",
@@ -1257,6 +1249,14 @@
     "geo": false
    },
    {
+    "title": "US July CPI inflation cools to 3.4% as Fed weighs September rate decision - BusinessLine",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOVzByaEdTcXRsT3E4Ymg3c0otYTg5UGdFQlZZTXJ1ck9OSlBZZDF6eW9ucFZiM2ZJdlNVZ3pmZWRwWjBtQnowWFdFZEE2MEZzcEpSOUItV1haZmdpNkFRenMyRVBCV2tEX3NWX1owSlFvSFQyVEpXREZfSXJxOGstM2ZGZkREeVQ3dW1lNzJ3djBpM1A0MFpkbU9UUnIzZkpDUksyMFlBeUVNRWYzMHFGbmpTTFhzSy05SlpLanc5RkMzemVSLTlFUHdYWW5aWVIxRVHSAdgBQVVfeXFMT3VwcWYyaWZnVlN5T0RuMEVTWmNWUkdmd2Q0eHFxbERXbzVqcUxnSG9RTWs2NjdYSF9MYkR5ZEpsaUtOMTY5cTl6NWxOWWlRaEM5bFNqWldWYXhYeUE4QmJwVV9GRDRBcFVVejB4NjdyVlRKbGFzQWZUS3ROYjE4MUJta1ZYWUd2TDJoVlJpZjJzS2V0OTBZTG5zZER6aS1WVUxmSXBBbm5hRzZRb0J2dzVGTm1KRC0zeHpOdWFIZjUtMHR3cDc2UEpCTW5VNG51b3p5WnViRW5a?oc=5",
+    "pub": "Wed, 12 Aug 2026 18:00:45 GMT",
+    "src": "BusinessLine",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US Consumer Prices Rise As Expected In July, Keeping Fed Rate Cut Debate Alive - Arise News",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPd3pFX3k5Szh2TzhRU2JLUkZoVWFmeGRRYzNBbjJINzl5TzBfVm1GOGlycVlfVVRfd0YzSEEtWnJTSjg2TUNpbF95aWxQQnQ1RHplUjZ6ekd5bGtIb0RqRllBY2VHUGd2b2lxOTlzSEVzVllRNHhNdmFlNGNKN2xfWnItVnVVNzNTUUFnSHpXek9LMklLUE1zY2JoRzA4UDZM?oc=5",
     "pub": "Wed, 12 Aug 2026 17:22:02 GMT",
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "PSH: Better Than JNK In Today's Macro (BATS:PSH) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQU0NpdzkyeWF5UzM5ek92b1ByOUVuc3luLXlocjRzcHdBcUQ2S1Q1YmN1Y0hsdVlvdGY3NG9hempJeE5PVmFMVUs0V2tnU3kzbURHOGwxUmdyQk0tLW5MWFAxM1RwSHJNTGliU1VyUjc2cWJ0MzFxRk1peGwySGRyQ3Jn?oc=5",
-    "pub": "Wed, 12 Aug 2026 17:11:57 GMT",
-    "src": "Seeking Alpha",
+    "title": "Fed expected to leave rates unchanged next month after soft inflation data - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNR2NNM1hicnFuakczck9zME1UVXVFV2hjLVFzbkJMY1NaT3JUcWlfcDN3Rko0RU1iSFEzS3VQaGJibEo5S05icjFXN09POFE0dGFYS3pjTlMxa0hKSnJ2SjdaVDJRZXNIR3h5dTZvTkgxalowRndaeUttbHc0OFZvbmJGcXJ3UnhxYVZrSGdfbmllVXYzMmRUQ2VrMUE2eGJwa1VDdEJCM01fVlp6b1U0?oc=5",
+    "pub": "Wed, 12 Aug 2026 17:09:12 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    }
@@ -1497,15 +1497,15 @@
    98.97,
    99.17,
    99.22,
-   100.05,
-   99.63,
-   101.41,
-   101.11,
-   101.14,
+   99.91,
+   99.54,
+   101.61,
+   101.39,
    100.94,
-   100.99,
-   100.8,
-   99.98
+   100.73,
+   101.43,
+   100.01,
+   99.99
   ],
   "bizd": [
    12.57,
@@ -1538,7 +1538,7 @@
    162.07,
    163.08,
    163.3,
-   159.42
+   159.38
   ],
   "uso": [
    142.04,
@@ -1598,7 +1598,7 @@
    64712.38,
    66100.8,
    63908.17,
-   63463.62
+   63465.41
   ],
   "vixts": [
    0.849,
@@ -1680,14 +1680,14 @@
    0.2748,
    0.2765,
    0.2774,
+   0.2847,
+   0.2821,
    0.2884,
-   0.2863,
+   0.2862,
+   0.284,
    0.2865,
-   0.2853,
-   0.2823,
-   0.2837,
-   0.2882,
-   0.2909,
+   0.2871,
+   0.2904,
    0.2862
   ],
   "xlf_spy": [
@@ -2458,7 +2458,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-12T21:41:46+00:00",
+  "checked": "2026-08-12T21:51:46+00:00",
   "openai": {
    "found": false
   },

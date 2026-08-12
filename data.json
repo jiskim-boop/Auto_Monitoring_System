@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-12T08:12:12+00:00",
+ "updated": "2026-08-12T08:22:15+00:00",
  "prices": {
   "NVDA": {
    "price": 217.5,
@@ -341,8 +341,8 @@
    "price": 357.88,
    "chg": 4.28,
    "chg5": 5.26,
-   "sma20": 357.13,
-   "sma50": 373.25,
+   "sma20": 352.06,
+   "sma50": 371.85,
    "sma200": 358.91,
    "high3m": 438.12,
    "reg": 357.88,
@@ -661,9 +661,9 @@
    "price": 79.51,
    "chg": 0.04,
    "chg5": -0.05,
-   "sma20": 79.49,
-   "sma50": 79.67,
-   "sma200": 79.89,
+   "sma20": 79.5,
+   "sma50": 79.7,
+   "sma200": 79.9,
    "high3m": 80.31,
    "reg": 79.51,
    "pre": null,
@@ -677,7 +677,7 @@
    "price": 20.52,
    "chg": 0.1,
    "chg5": 0.34,
-   "sma20": 20.44,
+   "sma20": 20.43,
    "sma50": 20.43,
    "sma200": 20.48,
    "high3m": 20.66,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.35,
-   "chg": 0.46,
-   "chg5": -2.91,
-   "sma20": 17.0,
-   "sma50": 17.25,
-   "sma200": 19.35,
+   "price": 15.3,
+   "chg": 0.13,
+   "chg5": -3.23,
+   "sma20": 16.98,
+   "sma50": 17.2,
+   "sma200": 19.41,
    "high3m": 22.22,
-   "reg": 15.35,
+   "reg": 15.3,
    "pre": null,
    "post": null,
-   "regClose": 15.35,
+   "regClose": 15.3,
    "sess": "reg",
-   "mt": 1786521376,
+   "mt": 1786521991,
    "ok": true
   },
   "^VIX3M": {
@@ -757,9 +757,9 @@
    "price": 90.9,
    "chg": -1.74,
    "chg5": -1.8,
-   "sma20": 95.79,
-   "sma50": 93.19,
-   "sma200": 101.73,
+   "sma20": 96.16,
+   "sma50": 93.67,
+   "sma200": 101.55,
    "high3m": 109.47,
    "reg": 90.9,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 135.59,
    "chg": -1.12,
    "chg5": 7.26,
-   "sma20": 141.63,
-   "sma50": 143.41,
-   "sma200": 143.08,
+   "sma20": 141.23,
+   "sma50": 143.0,
+   "sma200": 142.97,
    "high3m": 154.82,
    "reg": 135.59,
    "pre": null,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.88,
-   "chg": 0.06,
-   "chg5": 0.19,
+   "price": 99.87,
+   "chg": 0.05,
+   "chg5": 0.18,
    "sma20": 100.49,
    "sma50": 100.53,
    "sma200": 99.48,
    "high3m": 101.61,
-   "reg": 99.88,
+   "reg": 99.87,
    "pre": null,
    "post": null,
-   "regClose": 99.88,
+   "regClose": 99.87,
    "sess": "reg",
-   "mt": 1786521694,
+   "mt": 1786522294,
    "ok": true
   },
   "^IRX": {
@@ -917,9 +917,9 @@
    "price": 858.91,
    "chg": 0.12,
    "chg5": 7.42,
-   "sma20": 773.27,
-   "sma50": 868.13,
-   "sma200": 1026.79,
+   "sma20": 770.06,
+   "sma50": 861.52,
+   "sma200": 1024.25,
    "high3m": 1191.09,
    "reg": 858.91,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63746.38,
-   "chg": 0.31,
-   "chg5": -1.75,
-   "sma20": 64062.72,
-   "sma50": 63344.44,
-   "sma200": 69042.07,
+   "price": 63755.98,
+   "chg": 0.32,
+   "chg5": -1.73,
+   "sma20": 64063.2,
+   "sma50": 63344.63,
+   "sma200": 69042.12,
    "high3m": 66505.12,
-   "reg": 63746.38,
+   "reg": 63755.98,
    "pre": null,
    "post": null,
-   "regClose": 63746.38,
+   "regClose": 63755.98,
    "sess": "reg",
-   "mt": 1786522301,
+   "mt": 1786522897,
    "ok": true
   },
   "USO": {
@@ -978,115 +978,115 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.34,
-   "chg": 0.12,
-   "chg5": 1.05,
+   "price": 159.32,
+   "chg": 0.1,
+   "chg5": 1.03,
    "sma20": 160.97,
    "sma50": 161.18,
    "sma200": 159.27,
    "high3m": 163.86,
-   "reg": 159.34,
+   "reg": 159.32,
    "pre": null,
    "post": null,
-   "regClose": 159.34,
+   "regClose": 159.32,
    "sess": "reg",
-   "mt": 1786522304,
+   "mt": 1786522905,
    "ok": true
   },
   "ES=F": {
-   "price": 7760.0,
-   "chg": 0.16,
-   "chg5": 0.14,
-   "sma20": 7586.84,
-   "sma50": 7537.33,
-   "sma200": 7221.69,
+   "price": 7761.5,
+   "chg": 0.18,
+   "chg5": 0.15,
+   "sma20": 7586.91,
+   "sma50": 7537.36,
+   "sma200": 7221.7,
    "high3m": 7779.75,
-   "reg": 7760.0,
+   "reg": 7761.5,
    "pre": null,
    "post": null,
-   "regClose": 7760.0,
+   "regClose": 7761.5,
    "sess": "24h",
-   "mt": 1786521695,
+   "mt": 1786522304,
    "ok": true
   },
   "NQ=F": {
-   "price": 29759.25,
-   "chg": 0.45,
-   "chg5": 0.49,
-   "sma20": 28954.47,
-   "sma50": 29471.81,
-   "sma200": 27599.7,
+   "price": 29768.5,
+   "chg": 0.48,
+   "chg5": 0.52,
+   "sma20": 28954.94,
+   "sma50": 29472.0,
+   "sma200": 27599.77,
    "high3m": 30712.75,
-   "reg": 29759.25,
+   "reg": 29768.5,
    "pre": null,
    "post": null,
-   "regClose": 29759.25,
+   "regClose": 29768.5,
    "sess": "24h",
-   "mt": 1786521705,
+   "mt": 1786522302,
    "ok": true
   },
   "YM=F": {
-   "price": 53892.0,
-   "chg": 0.02,
-   "chg5": -1.1,
-   "sma20": 53017.3,
-   "sma50": 52434.32,
-   "sma200": 50173.09,
+   "price": 53888.0,
+   "chg": 0.01,
+   "chg5": -1.11,
+   "sma20": 53017.1,
+   "sma50": 52434.24,
+   "sma200": 50173.06,
    "high3m": 54494.0,
-   "reg": 53892.0,
+   "reg": 53888.0,
    "pre": null,
    "post": null,
-   "regClose": 53892.0,
+   "regClose": 53888.0,
    "sess": "24h",
-   "mt": 1786521698,
+   "mt": 1786522292,
    "ok": true
   },
   "GC=F": {
-   "price": 4465.8,
-   "chg": 1.89,
-   "chg5": 5.18,
-   "sma20": 4140.18,
-   "sma50": 4162.79,
-   "sma200": 4529.82,
+   "price": 4468.3,
+   "chg": 1.95,
+   "chg5": 5.24,
+   "sma20": 4140.31,
+   "sma50": 4162.84,
+   "sma200": 4529.84,
    "high3m": 4697.7,
-   "reg": 4465.8,
+   "reg": 4468.3,
    "pre": null,
    "post": null,
-   "regClose": 4465.8,
+   "regClose": 4468.3,
    "sess": "24h",
-   "mt": 1786521706,
+   "mt": 1786522305,
    "ok": true
   },
   "CL=F": {
-   "price": 83.69,
-   "chg": 0.59,
-   "chg5": 11.26,
+   "price": 83.84,
+   "chg": 0.77,
+   "chg5": 11.46,
    "sma20": 82.42,
-   "sma50": 80.08,
+   "sma50": 80.09,
    "sma200": 86.75,
    "high3m": 108.66,
-   "reg": 83.69,
+   "reg": 83.84,
    "pre": null,
    "post": null,
-   "regClose": 83.69,
+   "regClose": 83.84,
    "sess": "24h",
-   "mt": 1786521701,
+   "mt": 1786522306,
    "ok": true
   },
   "HG=F": {
-   "price": 6.67,
-   "chg": 0.89,
-   "chg5": -0.48,
+   "price": 6.68,
+   "chg": 0.97,
+   "chg5": -0.4,
    "sma20": 6.46,
    "sma50": 6.35,
    "sma200": 6.09,
    "high3m": 6.7,
-   "reg": 6.67,
+   "reg": 6.68,
    "pre": null,
    "post": null,
-   "regClose": 6.67,
+   "regClose": 6.68,
    "sess": "24h",
-   "mt": 1786521676,
+   "mt": 1786522304,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.52,
    "sess": "24h",
-   "mt": 1786521705,
+   "mt": 1786522295,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Nvidia $500B AI Financing: Wall Street's New Asset Class Emerges - Intellectia AI",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE40bGdacHBkcV9vUUJQQTFxaTJkYWRoVm5Cc2NPdmQ1cll4WTlLYXRkT3N1N2JUZ0w2OElPSFdsV0RKclFvNDZqcTJLYmEyTGNSZ2ktUmVxWFBGaDBBVU9Tek5XRHhLaS0zRUFBSzVFdkM5aXJMbEtSRFY5UQ?oc=5",
+    "pub": "Wed, 12 Aug 2026 08:11:08 GMT",
+    "src": "Intellectia AI",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "TSMC commits $29.4B to AI chip capacity, launches Sony sensor venture - Dealroom",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaFk0YkFRa0g1anR5UG1ITmdEQk9ZYjR5TXhaMUUxcGVDa1BpRDFZR3pULTlxZFBCaVJLSXo2WnlXZFlPZlNMUzB1QzJhRDQwaXV4U1pwTVRkWmRpb1R6RzR3N05LT3VNWWpHbk1LTmJUeUQzem1OeDBVWmFfTzRRcGlmckh5Ty1MOWFIa0RwMG9VanlwaHRmWG1WR0RFMU51UlA0?oc=5",
     "pub": "Wed, 12 Aug 2026 07:16:13 GMT",
@@ -1191,34 +1199,26 @@
     "geo": false
    },
    {
+    "title": "SpaceXAI launches OpenClaw-style Grok Bot that can work across apps on its own - Neowin",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTF9reExYdGZMdE9NR2F3NFdmazI5cG5ERGowaWZ4ZHV6RVRyT2toM3poQ2lkTHFJVVI1OGloTUhZeDlhRU5lUGFWUFBwc09tWkI3Y2U3b1JSeGl4bzNZZjVZLW1sMkJNcjJtWDJQUEpKOEhxbDlSd1ByZ0FHdlpjQmR0cmtzY2hzanRkOFpXMU5lY3d1TENNdENPaGYtTTNBVDhHY3FpdDdOOGfSAaoBQVVfeXFMTzdBTzgteGx5RVdVZGszMzN2YzdJamVZVE9kZ1FDMUgxaUxLWHdab2hiWHh0TEU3cnI4Vzg1MnJ2T1Z4OVJHZ0JsZ09DZDNrTklab1FBRWxTQzNWNVZ1N2JMaDlYU3NGOXJ5VEgyeVppRFBQMmxMOTFUQWpsQUN5T09pT2YzeG50QnVLcU5HbktuV0FMUE5OQ1VZbUg5dTliZk1nNEFQeFJIUUE?oc=5",
+    "pub": "Wed, 12 Aug 2026 05:17:00 GMT",
+    "src": "Neowin",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic, OpenAI IPO Countdown: Charities Scramble Early for a Slice of the Multi-Hundred-Billion-Dollar \"AI Philanthropy Windfall\" - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vS091NVZveHlac2JaV1lkenJ5QUcxU2JqRzZ2UGVxX2ZXZXVJNjFNV3otN2xXQy1lYWZ5QldOWmpKX004SjNjTWhoejJkYlVQTmtoMWlvcFZuUmZHemdDbVBwWTZGT0l6WmwzRnZ2WnRKZTdDV2c?oc=5",
+    "pub": "Wed, 12 Aug 2026 05:06:00 GMT",
+    "src": "finance.biggo.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "PHOX ETF Investors: Watch These 4 Earnings Dates Before Year-End - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1PTGlGWW9ZYXIyMVd6WVNrckZxVnp6b3lLS0ZvTVpRbldZUTBSVDlJZU4tdVFmQnhMcmtmYjBVMDA0aU54VnhFVTg1Sy1ZQUlwV0hCOUJHY2N1T3VINnVEWEQweEdsbk9UVUczRlczdU56UWNiNUhsYmZR?oc=5",
     "pub": "Wed, 12 Aug 2026 04:05:14 GMT",
     "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Will AI-Driven Take-or-Pay Deals and Tight HBM Supply Reshape Micron’s (MU) Memory-Market Narrative? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdHItcTFQeW1FMlQxdVdaMzl0SG5FRVZTcXBnREdPeTVVTXRwUElCZ2dsMzRnS3d0TmFhSU1ySzFhVjY1Vk1PT2l5Nkt6a0dpT2VLQVRzUnl6Y3BpeGJpVTVnMVdOUEVUZl9adWdvTlcxbnBfa2huRGEtSlhYSzMwanJBSk5vcENXRDd3WG9yOHlJbHdscEJfTVBLNWxJYVpVaUVTOTZScFJveW4yWllWZnRGUnVQdjMwQjJXLWUxSzNHWDNHNHhNV3dpWEFRZWM0RXVqVHhxa9IB3AFBVV95cUxPVUJYOUZ3UVJZQkNxZkc4VXNjREgxT1pUOEEzRFNFUnFWcDVGVmFEaDNOYk1WWXB0ZW5YT3JHNEpYdGVzYUE5U3QwRkN2bHhESlhRREpVd3RsaUZxRjhOYjhOaUg5MGpSNThiNzRRMDNIOTRFOXR0cUk5ZmpoZ0g0Ym1xNTRTTWhnRGswblpRRVVPWVRLRWJqZktqdVUxcTc4elU3cmwtMUJ5a0pOTkw0ZVM1TUdDME1MZjhiNlV6NzJXUkVuWnd4TmNTUF93SUpaMTNuc2ZjcEVVckdJ?oc=5",
-    "pub": "Wed, 12 Aug 2026 03:53:53 GMT",
-    "src": "simplywall.st",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "[News] ASE’s SPIL Breaks Ground on Nearly TWD 100B Plant in Douliu to Boost CoWoS Capacity, Operations Set for 2028 - TrendForce",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQT24zbk9MeDZLTUE3NmluSHVwZDd6NEVOTGpwd3NqdGJSVUNaNHNTTUJpNjUzdTU0U3hHUko5SkY3VXdEaXhJd2gxYmkzOVBwRFFlLXJPRTBaOTZTS0JKenBFX2NRY1NQQmZXUl9FanJYQ1VVMzdabmFacXhIWTlPUUZMRWEtb3dsQXBzRmk4LUluQ3pKaVU3YjVDNG9Xdmx5aHdudnRmSlBhZUJibEIzXzJuZ1lLQ3pBUFRlc0lFcXRhb3pacnh0NEdPbmpLbUZZRzdfS0pxbUdtNXd5ZFVTb0JTd2F0VU9tZWFj?oc=5",
-    "pub": "Wed, 12 Aug 2026 03:42:45 GMT",
-    "src": "TrendForce",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Inside the $500B AI Credit Shift: How CME’s GPU Futures Turn Compute Into Yield Infrastructure - CTOL Digital Solutions",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPdFlQM0trcXhzRkhlTFNyWnkxU1diR1lsbWZybzV6dDZIaEIwVnJTR3ZSajE3WlZyVktobU5HbnVydkQ3RnNHVEU5UGFNbTcyLUN2Tk40akF6WlFfSUdCY2M5Ml92ZGozTGFpS09zbTY4M3ptN1hIVkFPdDZEWWtWeFNka25vN040dkc0?oc=5",
-    "pub": "Wed, 12 Aug 2026 03:21:47 GMT",
-    "src": "CTOL Digital Solutions",
     "trig": false,
     "geo": false
    }
@@ -1237,6 +1237,14 @@
     "link": "https://news.google.com/rss/articles/CBMiswJBVV95cUxNeGhUNVg1cHlNWEpwRk9ZcjJTb3dZMjdjUjdyVlFySGU1Z284eVE1dGpXcUZLa3VRVGktQUUwaC1jSnpDVGdqclU2aE1RSkRvOGpMSDhZaEdqQXpjTzdfdVBfdEFOUkxCaWVzTEVaWWIyaXVfWTNMVlYwQkhXb25GLU03MDFoMnFzMGVMVjRsTzhYa3Y4RWdaRVFrUVRGU1B5YUlXYWNWSFQzZ2FablRJd2RqX2dQeGNlcGpHdUYxSnBUTGdBdDBBdWdURENublZmb1JYbWtZNmktdFJrRllJNFF3cE15TWhCZzhCS29NMHhaMVMyMWV6QkduLXRIN25jNEZLTU1LOEhqT2pMSnB0Ti1qb214dlhqc1N6YmtibEEwMTg0eVhaMDRQSXRZSU9HRkNZ0gG4AkFVX3lxTFBuRkNGTUEyY0NhWW1fQkRHVHZ5dVY4dTdrWVNuV1VPQ0dPT2wzWkNSUUVwUWJOZjJ1SWJOb3dxcUZlS25MRDFXbUlKenZXOGZzMDB4QzI0S25yTEw4WlZlQ19kbWNSOV9nTjFQc2tjRkg4cWRRVkhjMmRRU2c1T3BwMnR3bWRqWDFJaGp4UkxNcnIwTldqN0ZoTTV6d3hTYVpVTTNvOEwzNDRFNm00RUsxY2UwOFlDMlgwRkFkcEE4amFZd1dXN2NLRFl6Uk1ydXFfMC1qbFgxLXRCVUVid3Y1RW4wZzRXdFFmb2JqcVI3ZXdYOE93VWM3eE1YM0VOZk1tbDlFWWUteWYtd3laNV9IWlNCcE1taThjYm9iTTQ0YmRNV1l4U1FaMjU4a2RoeG1WYWdwYUFkUg?oc=5",
     "pub": "Wed, 12 Aug 2026 07:15:51 GMT",
     "src": "sundayguardianlive.com",
+    "trig": false,
+    "geo": true
+   },
+   {
+    "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?oc=5",
+    "pub": "Wed, 12 Aug 2026 06:36:04 GMT",
+    "src": "Al Jazeera",
     "trig": false,
     "geo": true
    },
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5lbDBwSXYtSDBMaGNCMXNiVm1QU0htVGlHU1FDVi1NVE5zai11TmpKc2hydkt1elpKVjZTOVhLNW56clZEZmNmRWtCb1hFYzdIWWdkOFFfeEZVUml0Vm1EaFllV1ZubjJrcUVuLVE5dkVVSEdG?oc=5",
     "pub": "Wed, 12 Aug 2026 03:10:45 GMT",
     "src": "Undercurrent News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil, gold prices rise as geopolitical tensions mount before CPI - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTnAyM2F1aXRKeVZFQU5yVzdLbmplRS1vV28zVXZ0Slo3bmszQjM1enJHU2RlOG5EZWtLYUNmVHdjcHprM19fTnhjUE8tV3VGTFBrelZXM1pOekphNVF1S3EtSTlDcDl5Skw0R19ud3U5NmdhWEk5eVJjV1dudFNhSlhoRQ?oc=5",
-    "pub": "Wed, 12 Aug 2026 02:19:00 GMT",
-    "src": "Reuters",
     "trig": false,
     "geo": false
    }
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Maggie Lawson Teases An Unnerving BOSTON BLUE Case Copper Price (uxkW7NLJDG) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAyS1c1bjU2emV3bFpKeUFteWpQZ3VXcUFUb0NiS3ZIVmZSZmlWMGhZOVo1ZG9BRldRazl3NWhfdGk5SDJ1YW9qTHZuM1BQNmktWHprb25ZblZ1NjA?oc=5",
+    "pub": "Wed, 12 Aug 2026 06:54:41 GMT",
+    "src": "Mshale",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil prices rise as attacks dent hopes for Strait of Hormuz reopening - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQWWotc2YtdGx5bHp5YXZieWNCaVQ0SzhwRzlnbVd1MkFmdXhmUXl3YmdqR2F1Q1ctTGRpVU5GUkZIQkpia3F5bFdSYXJYYjlpSzNTaFkzRjlBVThrdl9XMjFGOXFYbTJnaE5NbEVMTmphNks4ZHpZQjh6ZjVDZzIzYkYwX0wweTEwdlRoX0lDcjdvYWU4RV80SXdWME9CeGRmUGwtUzhWX09TZWpNMnZlSC130gG3AUFVX3lxTFBhZHlEWGh6eEJFRHVWTmxxVEoyTFlRWUpsbHdFU25kWDNWM1RUWlgxNEoxR1NKOFJqOHNtX2pETkY2LVgtdUZvam41SGNVR2RabUc5NU92YnVVSWVUVnZrM0FLTFdldlV6LVlZSXpBSExmWTNpU1hHWTZBWEdyOVNSVnd5dWdaSHlseGpYcGR0Q0VjeG1mSlZVN1AxQjljMWZWY1UtTVd1cjZwdVJ6Z0ZXLVRJNElRSQ?oc=5",
     "pub": "Wed, 12 Aug 2026 06:36:04 GMT",
@@ -1309,14 +1317,6 @@
    {
     "title": "Gold rate in Pune today: 24K, 22K, 18K prices August 12 - Business Upturn",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeGF4aG1nek5McmZVRXU0cFU5TVZXd1pnaFJnRUVVM2xuTHViTkVxTWM3WEhHeERpbEl6S2hyRXJqTVhHdWNjRlF6TW14Y2dkUHlDcE5IdmRqSGNaWWMyTkFhX3pzQUdjVDQweHRyQTBWMUlGYnVDNzY2cXkyMExvNDVhOWhFUUdLNXlFTDZsbmZjUnN0a2ZjTjBlMkR6X2xCTlY2MmdQQk1IYm8xb3FUeUx3UTFUSGRteWh4Ql9QRHdfTlNmRWhHNEdENEk5MjZUcTlV?oc=5",
-    "pub": "Wed, 12 Aug 2026 06:34:52 GMT",
-    "src": "Business Upturn",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold rate in Karnataka today: 22K price in Bangalore, Belgaum - Business Upturn",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxQMnRyX09NWW91OUdvWkdCRzBGOUNWQ2hZOXM2aENyVExsNkJxWEdDS09iMXNpOE9lckpSd0E2aFk5LVlYeFNDQnB1bl9DYjRqNGpWTlVUeXptYlhnQ2h6MDFUUk0yY3l1aUJUTG1XQktqc29QQW1WVDZyTjBfQ3R5ZTk4M3h2b052RE9VdlZjMm4yTEJyS09ybVhaUk5ZV1FkU2FobjRIM3pkSXBIRW42NGlHLU5XMmI5V1Y3YTJDUFN2VVNiMUVQZ2pJS3lHQ1FwemhKakxKcXF0NTZwRUs1UkNRVQ?oc=5",
     "pub": "Wed, 12 Aug 2026 06:34:52 GMT",
     "src": "Business Upturn",
     "trig": false,
@@ -1475,7 +1475,7 @@
    16.73,
    18.7,
    17.09,
-   15.35
+   15.3
   ],
   "tnx": [
    4.41,
@@ -1497,15 +1497,15 @@
    98.97,
    99.17,
    99.22,
-   100.05,
-   99.63,
-   101.41,
-   101.11,
-   101.14,
+   99.91,
+   99.54,
+   101.61,
+   101.39,
    100.94,
-   100.99,
-   100.8,
-   99.88
+   100.73,
+   101.43,
+   100.01,
+   99.87
   ],
   "bizd": [
    12.67,
@@ -1550,7 +1550,7 @@
    162.19,
    163.19,
    163.86,
-   159.33
+   159.32
   ],
   "uso": [
    144.3,
@@ -1610,7 +1610,7 @@
    64712.38,
    66100.8,
    63908.17,
-   63740.78
+   63730.81
   ],
   "vixts": [
    0.855,
@@ -1625,7 +1625,7 @@
    0.831,
    0.982,
    0.878,
-   0.747
+   0.745
   ],
   "hyoas": [
    2.98,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 유가 상승 압력이 있으나, VIX 15와 저금리 환경에서 신용경기는 여전히 견조하며 사모대출 수익률(14%)이 높아진 상태다. AI칩 capex는 TSMC의 $29.4B 투자와 HBM 공급 타이트로 인한 take-or-pay 계약 확대가 지속되고 있으며, CoreWeave 같은 인프라 기업의 매출 성장세는 가시적이다.",
+  "text": "중동 지정학 긴장으로 유가 상승 압력이 높아지는 가운데, 저변동성(VIX 15)과 양호한 신용조건(HY스프레드 2.70%)이 리스크 자산에 방어적 지지를 제공하고 있습니다. AI 인프라 capex 사이클은 엔비디아 $500B 파이낸싱과 TSMC $29.4B 투자 등으로 가속화되는 중이며, 오라클 등 주요 기업의 대규모 자본지출 계획이 2027~28년 정점에 도달할 것으로 예상됩니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1739,11 +1739,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 2,
-   "geo": 2,
+   "geo": 3,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2472,7 +2471,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-12T08:11:58+00:00",
+  "checked": "2026-08-12T08:21:59+00:00",
   "openai": {
    "found": false
   },

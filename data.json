@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-13T21:12:00+00:00",
+ "updated": "2026-08-13T21:21:55+00:00",
  "prices": {
   "NVDA": {
    "price": 225.3,
@@ -325,9 +325,9 @@
    "price": 119.75,
    "chg": -0.75,
    "chg5": 0.59,
-   "sma20": 128.17,
-   "sma50": 132.86,
-   "sma200": 145.59,
+   "sma20": 128.22,
+   "sma50": 133.03,
+   "sma200": 145.43,
    "high3m": 149.36,
    "reg": 119.75,
    "pre": null,
@@ -341,9 +341,9 @@
    "price": 358.4,
    "chg": -1.83,
    "chg5": 5.94,
-   "sma20": 354.2,
-   "sma50": 372.5,
-   "sma200": 358.88,
+   "sma20": 349.81,
+   "sma50": 371.06,
+   "sma200": 358.89,
    "high3m": 438.12,
    "reg": 358.4,
    "pre": null,
@@ -405,9 +405,9 @@
    "price": 187.59,
    "chg": -3.75,
    "chg5": -3.88,
-   "sma20": 185.19,
-   "sma50": 182.18,
-   "sma200": 182.33,
+   "sma20": 183.52,
+   "sma50": 182.34,
+   "sma200": 182.17,
    "high3m": 201.37,
    "reg": 187.59,
    "pre": null,
@@ -693,7 +693,7 @@
    "price": 40.6,
    "chg": 0.2,
    "chg5": 0.5,
-   "sma20": 40.39,
+   "sma20": 40.38,
    "sma50": 40.33,
    "sma200": 40.31,
    "high3m": 40.6,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 136.54,
-   "chg": 0.7,
-   "chg5": 2.42,
-   "sma20": 141.03,
-   "sma50": 143.3,
-   "sma200": 143.03,
+   "price": 134.37,
+   "chg": -1.59,
+   "chg5": -0.27,
+   "sma20": 140.46,
+   "sma50": 143.12,
+   "sma200": 142.96,
    "high3m": 154.82,
-   "reg": 136.54,
+   "reg": 134.37,
    "pre": null,
    "post": null,
-   "regClose": 136.54,
+   "regClose": 134.37,
    "sess": "reg",
-   "mt": 1786568418,
+   "mt": 1786654818,
    "ok": true
   },
   "^MOVE": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.96,
-   "chg": -0.05,
+   "price": 99.97,
+   "chg": -0.04,
    "chg5": -0.01,
    "sma20": 100.46,
    "sma50": 100.55,
    "sma200": 99.51,
    "high3m": 101.61,
-   "reg": 99.96,
+   "reg": 99.97,
    "pre": null,
    "post": null,
    "regClose": 99.96,
    "sess": "reg",
-   "mt": 1786654882,
+   "mt": 1786655482,
    "ok": true
   },
   "^IRX": {
@@ -885,10 +885,10 @@
    "price": 4.64,
    "chg": -0.88,
    "chg5": -0.62,
-   "sma20": 4.66,
-   "sma50": 4.66,
-   "sma200": 4.66,
-   "high3m": 4.7,
+   "sma20": 4.65,
+   "sma50": 4.56,
+   "sma200": 4.41,
+   "high3m": 4.74,
    "reg": 4.64,
    "pre": null,
    "post": null,
@@ -917,9 +917,9 @@
    "price": 861.37,
    "chg": 0.41,
    "chg5": 7.73,
-   "sma20": 773.27,
-   "sma50": 868.13,
-   "sma200": 1025.96,
+   "sma20": 770.06,
+   "sma50": 861.52,
+   "sma200": 1023.41,
    "high3m": 1191.09,
    "reg": 861.37,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63383.46,
+   "price": 63383.56,
    "chg": -0.03,
    "chg5": -2.34,
    "sma20": 64009.78,
    "sma50": 63385.33,
    "sma200": 69024.58,
    "high3m": 66505.12,
-   "reg": 63383.46,
+   "reg": 63383.56,
    "pre": null,
    "post": null,
-   "regClose": 63383.46,
+   "regClose": 63383.56,
    "sess": "reg",
-   "mt": 1786655489,
+   "mt": 1786656084,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.46,
-   "chg": 0.08,
-   "chg5": 0.66,
+   "price": 159.48,
+   "chg": 0.09,
+   "chg5": 0.68,
    "sma20": 160.69,
    "sma50": 161.16,
    "sma200": 159.31,
    "high3m": 163.86,
-   "reg": 159.46,
+   "reg": 159.48,
    "pre": null,
    "post": null,
-   "regClose": 159.46,
+   "regClose": 159.48,
    "sess": "reg",
-   "mt": 1786655485,
+   "mt": 1786656088,
    "ok": true
   },
   "ES=F": {
@@ -1126,7 +1126,7 @@
   "credit": [
    {
     "title": "CoreWeave: Buy The AI Backlog, But Watch The Debt (Downgrade) (NASDAQ:CRWV) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVFNyRXJiR0FBbkZTQ0xxU2pQaG9iRDQxSDNYOFlYSUlyZmJoUVVrNjA2SnI0eGg1eXFxMEhrYURpc3hwNmxtMzE3NEU0R1ItcEZxc3RpS0owbGxyVDRWdGNDbHRiczc4TUZKd2xwYm9veWpIYmJfeDBOdVZEME5KRDFya19IQzBRYV9SRVJXUUgxZkREMEZYMFVKSUVvb2M?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPeE5nVnAzZ3YtRjhzTnV3YS16a0I3UjhBRWtUbWpHWmRVS0tfNlg4Z1BfMjU1X1EtbDBZOEpXZUNiaXptMmtpRTRpZ192RnhhTjdoVHNWZTl4dlBYUkRvY2pMOW9nYmxkYkxUb0xnRHJYUE12OUxScXpKd0ZxWnV2YU0xdkg4UE9BS0k0WUhnMDdfVWVCWmMxVjZOOEo3Skw1WTNwZFUybUJLS01qcU51aE9ZOTdRc3Zh?oc=5",
     "pub": "Thu, 13 Aug 2026 20:59:13 GMT",
     "src": "Seeking Alpha",
     "trig": true,
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI revenue chief Denise Dresser departs – latest high-level exit ahead of blockbuster IPO - nypost.com",
+    "title": "OpenAI revenue chief Denise Dresser departs – latest high-level exit ahead of blockbuster IPO - New York Post",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd25memJGdXMzVjI2QS1lT0ZsQ3luR0ZQU3FJTXlST1drQTRmdFB5RU5JZ0txOEo4TkI1TUJDWG8zc1NWMGRDdG5KbzZqdDBOeWs2V1UzNUFoWWtkd2NNcU1GXzdEYWxCMXYycVpzQWwwQ0E0QjJEX0U1YVBSSzFFcG9mYy1KYjloUHlNMUt6YkYzYXVDS3NoNXJKNjBoTkFLTHJUdEFn?oc=5",
     "pub": "Thu, 13 Aug 2026 20:44:00 GMT",
-    "src": "nypost.com",
+    "src": "New York Post",
     "trig": false,
     "geo": false
    },
@@ -1225,14 +1225,6 @@
   ],
   "macro": [
    {
-    "title": "The US says more oil is leaving the Middle East, but is it really? - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcFpiaHV1WkZPRDd0NDNsalc3RURUajFQYWtJdVE1LU4tQTZBWmhDWGl3RnE0bGVfcjk5TzNsNkVoNFQxbXIwa1paaGRnSnFlY1VoaE1uSUQ0RmNxR3h3cmwxdGcyMjhwWC1ncE04OHJSWGFtOVF1bnRCbWlSam01MkdldGFsaVpIcGxnTVFSQ3pUb0FLZ0JaZlJsUHp6NFN6b0tjck4zUDc3QnZBVDk0YTRLU3cycHoydjBRUERR?oc=5",
-    "pub": "Thu, 13 Aug 2026 19:57:51 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Pulls Back As Risks Of Military Escalation In The Middle East Decline - FXEmpire",
     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxPanM3dW03SGdKMGlpN0xlVVdtM2t2QjVOQ0J2ekV6YVFXaUNBREtNbGxzaC0wNWtZdnZEQUpXbC1CeFpkclBzNlI2NmZhbTd4ZE9IOWdFcmNUQ1dOQnMzdTM1M1JlT0ZHTURWTldCa1o0ejNFWkZvcElONmRBYkZfdjZabXp5WUs0QmNweGN5ZXRnZkVYN1VYOVQ1X1V4NFBXclZpSUVPU1RBa05CTEhON3VPaVd3dHZNdl91M25qM1llMU40cEdsdnM3T3dCQ1JraEJjQ1hGdmRnenRSd3dGZTVKY2FoajB6S1VxZWN4aWRidTE0U1Rj?oc=5",
     "pub": "Thu, 13 Aug 2026 19:13:00 GMT",
@@ -1257,10 +1249,10 @@
     "geo": false
    },
    {
-    "title": "China steps in as Iran war drains US oil reserves to 40-year low - telegraph.co.uk",
+    "title": "China steps in as Iran war drains US oil reserves to 40-year low - The Telegraph",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPV3MzaVpFM09PaENpWFNXUTJpZ21KMnd5Sy15M2c1b3lMZC1Ddkl1QlRPOXVaeTdGMjZuTHRJNTdaODVTMTRXbjlrSjhwLUhPY0JLdzZVVnFwRWVwME9TQmh4b2ZzWUtGbmZRck9taVl0bWlPdnZianlPUmlST3dqeWtHcHNyVFBBUVZXaE13TWF0UjNPUXc?oc=5",
     "pub": "Thu, 13 Aug 2026 15:59:00 GMT",
-    "src": "telegraph.co.uk",
+    "src": "The Telegraph",
     "trig": false,
     "geo": false
    },
@@ -1271,9 +1263,25 @@
     "src": "조선일보",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "Bitcoin keeps traders guessing near $64K as stocks gain on cool US PPI data - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPcWVRVUZOd0ZvN0ktSURjaG5scHZzRUZwUzg3Mjl0RlZFYktrMHo0MlpYbzBuSzNyRVhLMC1NUDB5dFQ2b1MwQWk2Q09VUG1xYktRLXdIUTZ6YnZTNmlwUzZ2M19NaWh4cWllMEdKMUtnMDdud3FRUlJUOGV3V3VjMXc3dm9fRUE0d2s0R1dtelp1UC1UU3YwbEdaTGVVX0hENEtmbEtJTzloWHBMdmdpRUhZYXdDMXl1T25IdUs1TGEwZUlzc0xqV1JfR09BWmdDeExORA?oc=5",
+    "pub": "Thu, 13 Aug 2026 15:07:38 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "USD/JPY Tests Japan’s Intervention Line as Carry Demand Rebuilds - Investing.com Canada",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWWU1elhUbVhKNkdJRTRlNDVYVFVyQzNnRlRNa2NabTk5T3RCeXB6LVk4TDRndkFYZXB0RDVGdUY5andBNFhyVG5nYk84LUp6bnlEV1JJSGdOQTJ1OGhPVmh6dE9FbjNTcHdrTFRQbFdfbmZkT0ZFT01BT2t1RnNZOGVMQXFraUZkeUtkdm51Qlduc3hibWpFSXZmclk3UzFFNXpqYU9CSk85UQ?oc=5",
+    "pub": "Thu, 13 Aug 2026 21:18:38 GMT",
+    "src": "Investing.com Canada",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "US Equity Markets End Higher Amid Weak Producer Inflation Print, Drop in Crude Oil Prices - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ1lIRXk2a1d2S1h6RWczU18yX2t6NFAzRjBIMkt0d1Vael9nY0pkMHV5TFI1UHR6VEpLTW1EX2FpY0RnWmZsS2d5dVVjaVVQc1ZXQ0dkbnJSejk1dGNfbXBnUGdBeXhRUWFndEtNejl5eTYxUEFJbExINVUtb2tIamZ6dGx6QzNjRExnQjRDeHBDeHBWLTZ2Uw?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObTY2Y2lma1NBVE9vdDFLdkxEUVVmejkwdUVSSng4X3U4SE5yN0xiLV9YeERFTWxSQmMzdy1lN3FlNzNPNTRNbXFZR3NtdGhDVW05bjdNcVZBMFBlc3ZuSnZqNDFLRmZUZjM4emhWbHo5M25xaEx3eWdtVlUzaGNoMzJlZV95V0pHcFFHdnNvLUpwQVVKVmJoMFNtdktZTUXSAaQBQVVfeXFMTlU3elNyMlJ5RC10N3lKUWY2eFpqcHlMLUxKNXFadzEyMUhsZGdkOEo2N2hXYjJ3LWhlM0NGa0ljVTVNLWk4MmgzcEJBa3dPcXhlYVc1cF93T0RDdUlRQ2dIS1lmUXd4cHRKdFJ4bElFRTkwWklzTDZCV0NCRlNya2ZYM2NiblVSSWFDY01GN1h5dEg0VFo5TFd2RHprWkFETVI5NEI?oc=5",
     "pub": "Thu, 13 Aug 2026 16:19:34 GMT",
     "src": "upi.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AAA Fuel Prices - AAA Gas Prices",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPc2VSeEtCc3JHN2tNMXpJNVJqV1hGbEVJSHZGbE8zRWtFZEc5RUE3NHV6NE5ubEIyY2ZfdTQ3X3lJWUs5TktHRjRmZ0lhNXR6Smd4alJ5OEt3d2xpWDF4SkJlXzhoY0xRRHA2VlFJV2tfSXRXRXNCV3FVTGVFbUVUS0lHakJnejI1aE00?oc=5",
-    "pub": "Thu, 13 Aug 2026 15:09:29 GMT",
-    "src": "AAA Gas Prices",
     "trig": false,
     "geo": false
    }
@@ -1428,7 +1428,7 @@
    "chg": -0.01
   },
   "sofr_iorb": -3.0,
-  "cape": 42.34,
+  "cape": 42.65,
   "cape_manual": false,
   "netliq": {
    "value": 5795.3,
@@ -1464,32 +1464,32 @@
  "charts": {
   "vix": [
    17.87,
-   17.44,
-   16.29,
-   16.06,
-   22.22,
-   18.44,
-   18.89,
-   16.15,
-   15.03,
-   18.77,
-   18.58,
-   15.99,
+   18.06,
+   17.01,
+   15.77,
+   19.87,
+   16.2,
+   19.49,
+   16.45,
+   16.9,
+   16.5,
+   18.7,
+   17.09,
    14.63
   ],
   "tnx": [
-   4.7,
-   4.68,
-   4.64,
-   4.6,
-   4.62,
-   4.66,
-   4.69,
-   4.62,
+   4.48,
    4.67,
-   4.66,
-   4.7,
+   4.48,
+   4.49,
+   4.54,
+   4.46,
+   4.39,
+   4.49,
+   4.57,
+   4.54,
    4.68,
+   4.74,
    4.64
   ],
   "dxy": [
@@ -1505,7 +1505,7 @@
    100.75,
    101.47,
    99.8,
-   99.96
+   99.97
   ],
   "bizd": [
    12.63,
@@ -1523,6 +1523,18 @@
    13.54
   ],
   "move": [
+   69.63,
+   85.32,
+   78.43,
+   70.22,
+   73.58,
+   77.03,
+   69.36,
+   65.39,
+   69.06,
+   71.96,
+   65.76,
+   69.55,
    69.23
   ],
   "jpy": [
@@ -1538,7 +1550,7 @@
    162.38,
    163.83,
    160.18,
-   159.46
+   159.48
   ],
   "uso": [
    143.0,
@@ -1559,15 +1571,15 @@
    40.02,
    38.57,
    39.06,
-   39.42,
-   37.72,
-   38.64,
-   36.31,
-   37.21,
-   37.07,
-   38.63,
+   39.73,
+   38.94,
+   38.86,
+   37.33,
+   37.29,
+   37.99,
+   37.92,
    38.35,
-   39.34,
+   39.56,
    39.85
   ],
   "gld": [
@@ -1598,21 +1610,21 @@
    63789.28,
    65044.81,
    64725.31,
-   63386.27
+   63372.0
   ],
   "vixts": [
    0.857,
-   0.826,
-   0.813,
-   0.861,
-   1.124,
-   0.865,
-   0.921,
-   0.825,
-   0.738,
-   0.988,
-   0.989,
-   0.861,
+   0.855,
+   0.849,
+   0.845,
+   1.006,
+   0.76,
+   0.95,
+   0.841,
+   0.83,
+   0.868,
+   0.996,
+   0.92,
    0.786
   ],
   "hyoas": [
@@ -1706,14 +1718,14 @@
    0.0749
   ],
   "cape": [
-   42.34,
-   42.34,
-   42.34,
-   42.34,
-   42.34,
-   42.34,
-   42.34,
-   42.34
+   42.65,
+   42.65,
+   42.65,
+   42.65,
+   42.65,
+   42.65,
+   42.65,
+   42.65
   ]
  },
  "summary": {
@@ -1730,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 0.5,
@@ -2449,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-13T21:11:47+00:00",
+  "checked": "2026-08-13T21:21:44+00:00",
   "openai": {
    "found": false
   },

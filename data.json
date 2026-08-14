@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T22:42:02+00:00",
+ "updated": "2026-08-14T22:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -179,16 +179,16 @@
   },
   "000660.KS": {
    "price": 1645000.0,
-   "chg": 3.26,
-   "chg5": 15.68,
-   "sma20": 1611550.0,
-   "sma50": 2043380.0,
-   "sma200": 1604305.79,
+   "chg": 9.38,
+   "chg5": 10.03,
+   "sma20": 1621400.0,
+   "sma50": 2056440.0,
+   "sma200": 1603966.67,
    "high3m": 2919000.0,
    "reg": 1645000.0,
    "pre": null,
    "post": null,
-   "regClose": 1645000.0,
+   "regClose": 1593000.0,
    "sess": "reg",
    "mt": 1786689010,
    "ok": true
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,10 +644,10 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
-   "sma200": 11.19,
+   "chg5": 0.69,
+   "sma20": 11.19,
+   "sma50": 11.05,
+   "sma200": 11.2,
    "high3m": 11.91,
    "reg": 11.72,
    "pre": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,10 +916,10 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.67,
-   "chg5": 8.14,
-   "sma20": 770.23,
-   "sma50": 861.59,
-   "sma200": 1022.74,
+   "chg5": 7.86,
+   "sma20": 771.65,
+   "sma50": 858.23,
+   "sma200": 1021.37,
    "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62810.27,
-   "chg": -0.93,
-   "chg5": -3.14,
-   "sma20": 63935.63,
-   "sma50": 63447.47,
-   "sma200": 68991.46,
+   "price": 62818.63,
+   "chg": -0.92,
+   "chg5": -3.12,
+   "sma20": 63936.05,
+   "sma50": 63447.64,
+   "sma200": 68991.5,
    "high3m": 66505.12,
-   "reg": 62810.27,
+   "reg": 62818.63,
    "pre": null,
    "post": null,
-   "regClose": 62810.27,
+   "regClose": 62818.63,
    "sess": "reg",
-   "mt": 1786747291,
+   "mt": 1786747886,
    "ok": true
   },
   "USO": {
@@ -1149,10 +1149,10 @@
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "fool.com",
+    "src": "The Motley Fool",
     "trig": true,
     "geo": false
    },
@@ -1174,6 +1174,14 @@
    }
   ],
   "fundamental": [
+   {
+    "title": "AWS vs Azure vs GCP: H100 GPU Pricing 2026 - tech-insider.org",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE84VGpZX193UWd2WE1CRjE4ajhvYTFuUmhtNGwzcF9uREN6V3VJQWQ0R1Y2N3dsWXBUeUtLcWpab2VRUVJKdXNocmdGV2NWMEh2cWZOdlllanRJdHRGcHF0cXVxQVRNcXdJMVQyaHFGdmpwcVBfNjVyMkV5QQ?oc=5",
+    "pub": "Fri, 14 Aug 2026 22:38:03 GMT",
+    "src": "tech-insider.org",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Watch OpenAI Barrels Toward IPO, US Readies Iran Econ Attack | Bloomberg Businessweek Daily 8/14/2026 - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON3dQakZIdlBCdDA5YjR1U3pvVVZvTnZJZncyeEkzVXgxUDRoa2Noa09kdDhabXplNzVqRXdyQ2VfRnlPUU02VjBRLUg0aFpVTEw5cXlkYzE1UU9BY3FWZlJQQnE2LURWMGFPdk5OWWZMdWYxeFVlZWhJY29BWExReTFTNGRpRzQ3amtpcVAtQTQtNkU0N0ljLQ?oc=5",
@@ -1199,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI’s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO - International Business Times",
+    "title": "OpenAI’s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO - ibtimes.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3B1eGs3QmNRYXdqWVJ2N0dzYjFVSlVha2E0SncxSlNXcDRCclJ1Y3dJUEZ0eTh2bm42SGp1NnRfUWtGZ3JEaU1BcEZ4SktVMUFuajJSNnB3cmF6cGxiTG5GMFFFRmtwYTBCRUxOSVEzYVdFaDRlZUMyOWNQdl9Id041cTcwTExLWTBEa0QtQzJ5dw?oc=5",
     "pub": "Fri, 14 Aug 2026 21:16:02 GMT",
-    "src": "International Business Times",
+    "src": "ibtimes.com",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaWJTZlhtVTRzSklWWklDbGUyQW9JTC1TSkJkNEhRQlZhMDd2YmJUUlYxUDJ3WGNlblhzOTRRd0NGV3ZlRTNSTk5KZG91cFNuN3pNOFk0RXZDYmV5MWtCUG1fZjA1dTZpZjdGazBldDBYU2w3dDBlN18zLXBENUxXMW9SZGJlelVIaENWb3JvSUtsMnhfSFNRWC16OFF0VmFtWWx1SHhrWS1BWVJ4S3R5YVlHV3RZaTM1dVJF?oc=5",
     "pub": "Fri, 14 Aug 2026 21:08:57 GMT",
     "src": "Bloomberg",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Revenue Surges to Over $11.5 Billion in Second Quarter - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQak4wZEVpaDk1U0UySUVoY0d4VnJNMVltRkc5NzJ3X2JoeXZWWGNpOFV1bEZ2enJqcFhfM2V5RTJBYlZqaEF4SGtrd2hKbHFpTE96MTNEU21GSWt0YTRUQ2lNdzNleUJfcnk4ZDBtazZMWVVfdFMxQVhVVTJuLXJ5eEYtZVFRVkF5NnI2TkcwR0dRaEFlZWZmUVREYy0?oc=5",
-    "pub": "Fri, 14 Aug 2026 21:08:57 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1257,23 +1257,31 @@
     "geo": false
    },
    {
-    "title": "[MARKET UPDATE] Modest equity pressure over the course of ten minutes; US equity futures turn negative with pertinent newsflow absent - Newsquawk",
+    "title": "[MARKET UPDATE] Modest equity pressure over the course of ten minutes; US equity futures turn negative with pertinent newsflow absent - newsquawk.com",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYkhyZUZMMDMyT29UX0F4VENkbkxISVNpU3ZXQ25HV1c1aUl1dUt6S1ZWbnZYNU1iN1hEXzZ6VS1PcUplektVMmduZXlHdVVkRnY4aWkyb2dNTk1hZG5RN1VhWUs3NjBnN0xGZnVMRUVZUFJtNFAxdmJ6a1g2ZGlLVmg5SHdKaFFMX1ZJV1pWOXIwblRsbkpBNm8wNkNQcFF2LUktZlNBeWM2YmY0N0paNWNzcDdkaHhseHdKbXA3ZlFFLUNJUVZUZXhmdU1tbWZZZnZPejRoYkljQzFJby1vYjE3N0JoZw?oc=5",
     "pub": "Fri, 14 Aug 2026 14:28:13 GMT",
-    "src": "Newsquawk",
+    "src": "newsquawk.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "The Nasdaq Just Had Its Worst Month of 2026 and These 3 ETFs Turn Selloffs Into Double-Digit Monthly Income - 24/7 Wall St.",
+    "title": "The Nasdaq Just Had Its Worst Month of 2026 and These 3 ETFs Turn Selloffs Into Double-Digit Monthly Income - 247wallst.com",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOdmJ2N2hRTUVmMi1Sbk1iWHVFdVNvTlNVVTRZUWRiRkt1d29rYmN1ZjBxWGI5YzhldWZ5ZU9adjNFaU1XZTNqUXF1V3hkaFNRSVZyV3RNSWZCc2Q0N0hNaDlwX3cxVVdMbHZuNUVXMGdpazRmZjdXc0phdmVnS0FGb3Y1d2JLNWcwT3hncGpFY3VySWtBTDNBOFk3UlpFQnFQR1lkYzNzQjVXUUx1RGd5VVRxU1NlSG9kYVBoTE40YXV3bm5fMUs4X0xFd0ZvSWswR2hHbk42NDAwclZ4eG1VcDlsOEYtUQ?oc=5",
     "pub": "Fri, 14 Aug 2026 14:00:07 GMT",
-    "src": "24/7 Wall St.",
+    "src": "247wallst.com",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "CopperTech Metals (CUX) Stock Price, News & Analysis $CUX - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JMFRXMU4xbFY5N1dFb05wZWxKQXZiM3R6WFNXQV9Ga2FJYW9kMDF5Z05VaVNhWVFvd1YyWHZiZjlUMjAwUEkzcVZVVGZURndIR1pzWnZn?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:31:19 GMT",
+    "src": "MarketBeat",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
@@ -1294,14 +1302,6 @@
     "title": "Trump memo enlists private firms to hack foreign crypto scam networks - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ3o4YXQ4VmxRRENSVEhkTF81em5kWVM3Y2pOdjNaLTBhamRqSVNzQVpKX29TZktkem1iUTlSbjRNcExXSVFtZVZKcks1akxoQ0RrMVI0OEZwWUxQWmhYaFpwREQ1V3cxcmRSVVJWdWtBcTNhWE1rcTRhblFfT0JfLUJDU2VVdw?oc=5",
     "pub": "Fri, 14 Aug 2026 18:10:39 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX buys Cursor maker Anysphere in $60 billion all-stock deal - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZG5LRjVPeGYxZ1djaHZUUVU3RzRqMFZwYUZYeWdkdHZkcWkzR1piekZzZmVuVTBxak1oM0h3VGw3QUwzV1VOZDdCamdPNnZyWkI0aVRmbUlwWE1iSVNvS0R6SXVUbzU3Sy1JUWcwaUJiOFR0bWUtX1RkWW9kX05pd3pfNVE?oc=5",
-    "pub": "Fri, 14 Aug 2026 18:04:14 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
@@ -1511,15 +1511,15 @@
    12.61,
    12.52,
    12.63,
-   12.49,
-   12.71,
+   12.7,
+   12.62,
    12.36,
-   12.44,
-   12.45,
-   12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.25,
+   12.51,
+   12.28,
+   12.86,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    63899.46,
    64098.5,
    62813.75,
-   62810.26
+   62818.62
   ],
   "vixts": [
    0.808,
@@ -2463,7 +2463,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-14T22:41:51+00:00",
+  "checked": "2026-08-14T22:51:44+00:00",
   "openai": {
    "found": false
   },

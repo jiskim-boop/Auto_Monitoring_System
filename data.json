@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T21:12:11+00:00",
+ "updated": "2026-08-14T21:21:59+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -770,29 +770,29 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 134.37,
-   "chg": -1.59,
-   "chg5": -0.27,
-   "sma20": 140.46,
-   "sma50": 143.12,
-   "sma200": 142.99,
+   "price": 138.36,
+   "chg": 2.97,
+   "chg5": 4.37,
+   "sma20": 140.02,
+   "sma50": 143.15,
+   "sma200": 142.96,
    "high3m": 154.82,
-   "reg": 134.37,
+   "reg": 138.36,
    "pre": null,
    "post": null,
-   "regClose": 134.37,
+   "regClose": 138.36,
    "sess": "reg",
-   "mt": 1786654818,
+   "mt": 1786741245,
    "ok": true
   },
   "^MOVE": {
    "price": 69.58,
-   "chg": -1.83,
-   "chg5": -10.53,
-   "sma20": 69.63,
-   "sma50": 71.95,
-   "sma200": 75.45,
-   "high3m": 86.07,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 69.58,
+   "sma50": 69.58,
+   "sma200": 69.58,
+   "high3m": 69.58,
    "reg": 69.58,
    "pre": null,
    "post": null,
@@ -916,10 +916,10 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.67,
-   "chg5": 8.14,
-   "sma20": 770.23,
-   "sma50": 861.59,
-   "sma200": 1022.74,
+   "chg5": 7.86,
+   "sma20": 771.65,
+   "sma50": 858.23,
+   "sma200": 1021.37,
    "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62843.95,
-   "chg": -0.88,
-   "chg5": -3.09,
-   "sma20": 63937.32,
-   "sma50": 63448.14,
-   "sma200": 68991.64,
+   "price": 62816.26,
+   "chg": -0.92,
+   "chg5": -3.13,
+   "sma20": 63935.93,
+   "sma50": 63447.59,
+   "sma200": 68991.49,
    "high3m": 66505.12,
-   "reg": 62843.95,
+   "reg": 62816.26,
    "pre": null,
    "post": null,
-   "regClose": 62843.95,
+   "regClose": 62816.26,
    "sess": "reg",
-   "mt": 1786741896,
+   "mt": 1786742487,
    "ok": true
   },
   "USO": {
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "CoreWeave Stock Soars 11% As Q2 Revenue Doubles On AI Boom - Yellow.com",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9idGJsS1FxdUZsRy1JYkJVdHUtSEhpRjdIdGhiZXBVWC1OdWlwbXFULTlGbGFxOHZKUk92aXFlVlFOME5rYmJpWHJGTzBPUDdZbENGS3FjOUxSTmY1WjhTbUl0NA?oc=5",
+    "pub": "Fri, 14 Aug 2026 19:03:02 GMT",
+    "src": "Yellow.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - HedgeCo.Net",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdnpIV2dYX2dYV3JGYWs5WEhJSzROUjJLUnU0X1FsaVpIVWNxN0lReFV6endabWYtSHV4dHl6NEo3RkNEd0UyU2hTa0hDTFp1Zm5BTGpOTFE1YVRsRExwSmNGZTUzbUh4Qms1LXlsRjNiaE5adHAyUWd6aDZwNkdKUjh5Z0JUMEF1aDJ5UFBZS3BNcmFhS0NRSEhaZTJnX2xNNkU1Qk9qNG51Zm8taWc3MTd1d056TjFiQnVfa1U3eGxxSVVveUt0NGc0c3ZJQWFLWmJjQTcxRQ?oc=5",
     "pub": "Fri, 14 Aug 2026 16:42:50 GMT",
@@ -1141,10 +1149,10 @@
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 15:48:22 GMT",
-    "src": "The Motley Fool",
+    "src": "fool.com",
     "trig": true,
     "geo": false
    },
@@ -1157,23 +1165,31 @@
     "geo": false
    },
    {
-    "title": "Jim Chanos Warns CoreWeave's AI Moat Depends On Nvidia, Calls Neoclouds ‘Financial Conduits, Not Technology Companies’ - Stocktwits",
+    "title": "Jim Chanos Warns CoreWeave's AI Moat Depends On Nvidia, Calls Neoclouds ‘Financial Conduits, Not Technology Companies’ - stocktwits.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV1RWY3h2VHUyRE1nM25MN0o2U3R6Yk1abzB2dzVrcTMycmxkTlgtSHJleEc4bzR5OEpUd2lOUUQ2LUVNdzlxQ2t3dWJCeFliZXAxQkxGam9YZE9FcGVmZ3FCaWdGN2MxSERsTVhCVEQyVVFwb1ktU2dpeFUxOUF6R2ZaNmJUcjRyTGJUa0F0U2dOc2U4eUtrUzZnamVlZTRXMEhpUGJpMG5yNW94ZlRiVEMtUG15OW40SlFxN1B6V0Y5Zw?oc=5",
     "pub": "Fri, 14 Aug 2026 12:31:00 GMT",
-    "src": "Stocktwits",
+    "src": "stocktwits.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Manufacturing ecozone, not AI Data Hub to be built under Pax Silica — BCDA, BOI - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVTlqVGJucmRwMlhQc18taDlsaVdTa1BMX0dtbmJFd3ZHNWZwWXk0NmJPZW05dWdZWkM5OGpHTkhUc3BNVHpkMTdvQVdjUnNLc19rWk15a3RsRzA0TGFudFp4UW1TVXFvZUMyQjdVZGdVa1JYTVdSSWYxTXJONmdPVWtSdFJmbXdvWDFJazVBYmhRd3BySGwtNjBiOFhrSV9TSXNWVVVjVU5EMnhmM0dOZjZSUU83Skt4TUNuU2hIeFhVcmVwSmZZ?oc=5",
-    "pub": "Fri, 14 Aug 2026 12:29:30 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "OpenAI’s Revenue Is Soaring, Topping $40 Billion Ahead of Its IPO - International Business Times",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNY3B1eGs3QmNRYXdqWVJ2N0dzYjFVSlVha2E0SncxSlNXcDRCclJ1Y3dJUEZ0eTh2bm42SGp1NnRfUWtGZ3JEaU1BcEZ4SktVMUFuajJSNnB3cmF6cGxiTG5GMFFFRmtwYTBCRUxOSVEzYVdFaDRlZUMyOWNQdl9Id041cTcwTExLWTBEa0QtQzJ5dw?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:16:02 GMT",
+    "src": "International Business Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Revenue Surges to Over $11.5 Billion in Second Quarter - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaWJTZlhtVTRzSklWWklDbGUyQW9JTC1TSkJkNEhRQlZhMDd2YmJUUlYxUDJ3WGNlblhzOTRRd0NGV3ZlRTNSTk5KZG91cFNuN3pNOFk0RXZDYmV5MWtCUG1fZjA1dTZpZjdGazBldDBYU2w3dDBlN18zLXBENUxXMW9SZGJlelVIaENWb3JvSUtsMnhfSFNRWC16OFF0VmFtWWx1SHhrWS1BWVJ4S3R5YVlHV3RZaTM1dVJF?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:08:57 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "USSF-366 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOUmpxbHBzSFE3RkwyRXhMTFZNekg3cEtyN2MyY3N1aFh1MzV6R0xGS0ZkTGh4T1RrdHgzZmc4WWNYZVVpcGk4VHFKX3VGMUw2dTRZcXVwMWdpOW4wM3hRZ203QTkzdzRPOS1Id0puUlpWQ1FIekJNRjA2RU9IYmQ0OWg2ZHJtZG1hMFpUa3lnOUJhS2tDaGc1Tmpsel9uYlpfVU1EYU1RNUVIRmZlNHBjZVM2MFV5R0phUXFnbmhwV3l0R2taSTMzN2Fn?oc=5",
     "pub": "Fri, 14 Aug 2026 20:13:17 GMT",
     "src": "BW Businessworld",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Alphabet's SpaceX bet grows 100-fold over a decade to $94 billion - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNOGlSVjd0am5adkxrNm1hX0c3RFVTN0JmZzBjVVluX3M1bjNUWndRRjlGV2IyT1dTbHdHYzh6MlNzOC0zNDFjejRiRzVOcmZCcE9PVEFHV2JxblZsM2xCa0JBcFl2T0FJRzVoUWVvR2FRd0hiOUZuWlZITHVxR0NONDljUm9YT2xMVVk1WjFJUWFzNVdPQmsyV1czWEdxRGRQQVJXWkZjQm1wRUZyZ3lZWQ?oc=5",
-    "pub": "Fri, 14 Aug 2026 20:13:14 GMT",
-    "src": "reuters.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI’s Chief Revenue Officer Is Leaving After 8 Months. She’s Just the Latest Executive to Head for the Exit - inc.com",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxOYjBuTk9sOTBfZFpjVGRrLWN4d3ZoTXpEaVl6WVVKQWo2Y1BLUmVudm1JSUlWNmg1LW4xQThhcFNnXzNUMTNaVGxnRS1tQWl6QndQbUJGdFJHYnlETnVfYTM1T2IzTG5CVThqZFZlS1FpQUZuSGlEOFFhalE4d0l5SjF0bG82dF80YVdsdXNHMzBPUG1URk9jNHg3aU1qT2hWeWhDcjlQSjFwdVpLanRtVmRBX0RoNmZnX3BveFRFbHdmTkdrWWhnWDBuRXZBVmFRVzVHWTVjdDhmRGRPQzBLNy13Zw?oc=5",
-    "pub": "Fri, 14 Aug 2026 20:03:41 GMT",
-    "src": "inc.com",
     "trig": false,
     "geo": false
    }
@@ -1275,10 +1275,10 @@
   ],
   "flow": [
    {
-    "title": "Oil climbs over $1 on tanker attacks, no progrees on peace - reuters.com",
+    "title": "Oil climbs over $1 on tanker attacks, no progrees on peace - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxON2pvV0t4T25LdUVjOHpBU2tzN1RER1ZRQWF3cGZ3aEVZUm1JRXJXSk5xdWxaV3VEbEFMWHAtUkZ6MlpKX0VVRWlmNklKaUM3R3hER1o2WkEydXl0ZzZiS3NpNVNVdm80ck55SktBekVZbG1SaDdVdTJJOWJuUDMyV0RLNlJ5QkpYNUxGVjFQUHNQTWg1bVlJT3RXcXkyNkEwcUFtSGhLOXpWUno0LThMelpqWWRoQW8?oc=5",
     "pub": "Fri, 14 Aug 2026 19:21:47 GMT",
-    "src": "reuters.com",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    63899.46,
    64098.5,
    62813.75,
-   62847.55
+   62817.52
   ],
   "vixts": [
    0.808,
@@ -2463,7 +2463,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-14T21:11:56+00:00",
+  "checked": "2026-08-14T21:21:48+00:00",
   "openai": {
    "found": false
   },

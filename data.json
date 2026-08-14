@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-14T21:42:17+00:00",
+ "updated": "2026-08-14T21:51:54+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62836.32,
-   "chg": -0.89,
-   "chg5": -3.1,
-   "sma20": 63936.94,
-   "sma50": 63447.99,
-   "sma200": 68991.6,
+   "price": 62846.46,
+   "chg": -0.88,
+   "chg5": -3.08,
+   "sma20": 63937.44,
+   "sma50": 63448.2,
+   "sma200": 68991.66,
    "high3m": 66505.12,
-   "reg": 62836.32,
+   "reg": 62846.46,
    "pre": null,
    "post": null,
-   "regClose": 62836.32,
+   "regClose": 62846.46,
    "sess": "reg",
-   "mt": 1786743705,
+   "mt": 1786744285,
    "ok": true
   },
   "USO": {
@@ -1151,7 +1151,7 @@
    {
     "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
-    "pub": "Fri, 14 Aug 2026 15:48:22 GMT",
+    "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
     "src": "fool.com",
     "trig": true,
     "geo": false
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:46:50 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Isaacman “Extremely Confident” Artemis III Will Launch in 2027 - Space Policy Online",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPOE4xT2JxekpsbXQ1SG5Fak5xTlhpYTJMZTlqV0pVX2ZrXzhPaE9YSS1YTGM5OFZWSUc1VXh6ZFRZVTg0c2I5eWt2NHFaRnRrQl9BX2EwalBPeWg2YkdTbDNITHlha0N5VE9VS3Z1b0x5V0FEdkt0ZGtoUEkzSmVzUXRUcl9XVmlJTDVVOElzeThzLTFRSjJhcE9ZVlY?oc=5",
     "pub": "Fri, 14 Aug 2026 21:37:00 GMT",
@@ -1191,10 +1199,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic Revenue Surges to Over $11.5 Billion in Second Quarter - bloomberg.com",
+    "title": "Anthropic Revenue Surges to Over $11.5 Billion in Second Quarter - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaWJTZlhtVTRzSklWWklDbGUyQW9JTC1TSkJkNEhRQlZhMDd2YmJUUlYxUDJ3WGNlblhzOTRRd0NGV3ZlRTNSTk5KZG91cFNuN3pNOFk0RXZDYmV5MWtCUG1fZjA1dTZpZjdGazBldDBYU2w3dDBlN18zLXBENUxXMW9SZGJlelVIaENWb3JvSUtsMnhfSFNRWC16OFF0VmFtWWx1SHhrWS1BWVJ4S3R5YVlHV3RZaTM1dVJF?oc=5",
     "pub": "Fri, 14 Aug 2026 21:08:57 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxPNzhfc0cydVVyUXA1dkVycVhldXpSSkN6VFlzZlh0ZFZudzdXbkdnRjBLb3cybGp2emt2Rl9VM2tqT2pxOUgwUXBWd2ZLbkozQTNnMlR6c0Nkdzg0Rk5KaWVlLWpZa3AzYXJOZjJ2Z1ZqenlUME5ndEllZ09hczFBTUFpcDJlaE9NVGgwd3hwSmJ2cHpvNUFiVVhaMHA4OUZ2akNLSlhHaGpXVm9JWlhXR3RqODRLRUdyeWV6VTNlN3dIWWhVLTk5VFhIUVprSkQzazlreW9oQjg4QzFkNFZ4bHVpRFlPRjBNcmprbUF3MA?oc=5",
     "pub": "Fri, 14 Aug 2026 20:41:00 GMT",
     "src": "Florida Today",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Florida rocket launch this weekend. Best places to see liftoff - Sarasota Herald-Tribune",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPTVVqbElaMHRtUzhZaVdOeG5zUWJ5dUFqR1RBcUM5VGtTX3l6ZnRjMU9reWgzeG4tZXRZR1JSV0hKNUlURHpfdGpsZkJ6MmdIRU02dGNTUWFXemN3NkJSLWhIYXZXT2RabnczY0puTjF0ektRZVp3MkRMeGlmTE9JMHFPWTJaLTBOb2FYSHNaVHgzbmcwc1hMQkVKZFd5Y1BjbnFWRk1KdndhUU5wQ2RvdUVvUFlEMzR1RHkxUnRXdEVMazVjRXhFVDU5SldScF9iODc1dWU4TVZ4ODZ3NnhyZHpmd1R1NWNual9xeEVQbHo?oc=5",
-    "pub": "Fri, 14 Aug 2026 20:41:00 GMT",
-    "src": "Sarasota Herald-Tribune",
     "trig": false,
     "geo": false
    }
@@ -1315,11 +1315,11 @@
     "geo": false
    },
    {
-    "title": "Gold prices fall as RBI approves premature SGB redemption at over four-fold issue price - IBTimes India",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdEVhenRJZ3daMWtQNEE0M3VSWlA0SnF3cXZfdWFTbVhJTXAwQXhXeURxTkF2MUNNT2tPXzdtdkhDTVFmLWdCanBEbUVmTzQ0Vm1ObVloYldCSDU5c3JfYWxkT3hLcExvcDRxNVIzX3RFMEFKNXBQdHNvSzFfRGs3NFV2eWk2YnZta1o5eHZNLXdMM09JZ2NfMDdpclVmVF83ZG1Zd0tvclNJWlZGd0JYYUhzNEE?oc=5",
-    "pub": "Fri, 14 Aug 2026 17:12:43 GMT",
-    "src": "IBTimes India",
-    "trig": true,
+    "title": "Claude agents fought each other with self-replicating malware in Anthropic test - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZUJiSUJYWXdyOXlNQktoRGlqNkVPZ0ZyUGZYeGRqdnhsczNPX3VhUnh4MElrVUMzdUZOd0pValJmWVZyM2dRZFFVanF6ck1BWWFSbUNvM2pTNEN6UXFlRmpYaTdHU1JDNjVGd1FXWlN1X25JMzBWUHk3TU5Ha2locnFn?oc=5",
+    "pub": "Fri, 14 Aug 2026 17:49:00 GMT",
+    "src": "CryptoRank",
+    "trig": false,
     "geo": false
    }
   ]
@@ -1610,7 +1610,7 @@
    63899.46,
    64098.5,
    62813.75,
-   62837.57
+   62845.79
   ],
   "vixts": [
    0.808,
@@ -2463,7 +2463,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-14T21:42:04+00:00",
+  "checked": "2026-08-14T21:51:43+00:00",
   "openai": {
    "found": false
   },

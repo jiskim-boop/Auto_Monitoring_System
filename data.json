@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T10:02:25+00:00",
+ "updated": "2026-08-15T10:11:55+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -405,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 185.35,
-   "sma50": 181.98,
-   "sma200": 182.24,
+   "sma20": 183.96,
+   "sma50": 182.27,
+   "sma200": 182.08,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.46,
-   "sma50": 18.46,
-   "sma200": 18.46,
-   "high3m": 18.46,
+   "chg": -5.33,
+   "chg5": -0.59,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.77,
+   "high3m": 22.89,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 18.46,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6504.36,
-   "sma50": 7530.02,
-   "sma200": 6834.67,
+   "sma20": 6463.32,
+   "sma50": 7408.26,
+   "sma200": 6831.68,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -917,10 +917,10 @@
    "price": 864.65,
    "chg": 0.38,
    "chg5": 8.24,
-   "sma20": 778.9,
-   "sma50": 861.13,
-   "sma200": 1022.57,
-   "high3m": 1191.09,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62959.5,
-   "chg": -0.03,
-   "chg5": -1.49,
-   "sma20": 63824.86,
-   "sma50": 63509.64,
-   "sma200": 68954.96,
+   "price": 62946.34,
+   "chg": -0.05,
+   "chg5": -1.51,
+   "sma20": 63824.2,
+   "sma50": 63509.38,
+   "sma200": 68954.89,
    "high3m": 66505.12,
-   "reg": 62959.5,
+   "reg": 62946.34,
    "pre": null,
    "post": null,
-   "regClose": 62959.5,
+   "regClose": 62946.34,
    "sess": "reg",
-   "mt": 1786788117,
+   "mt": 1786788683,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - seekingalpha.com",
+    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
-    "src": "seekingalpha.com",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1199,10 +1199,18 @@
     "geo": false
    },
    {
-    "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - seekingalpha.com",
+    "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDFTeHlja3VWbWlHVGpYWUVramQ5RGxIT21EVV9XNkRXYWlxdnlMWXl2OTJWbEZBWDhBN29Nd2RadmtSVmVEQzZvMjhxZ0JyYlhvQ3lhQVFyS3dkYXpFX0xRRk81RVVPUVFhQ1pvS3BrYkY4RWk1Qk45NnA4SVJOYUVIcC1tZw?oc=5",
     "pub": "Sat, 15 Aug 2026 08:55:05 GMT",
-    "src": "seekingalpha.com",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Earnings Drive Both Bull and Bear Markets - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY1VoVzBQeDg0anJncmtwWTVmNDMzaENmLVQxOE1lcGRFeTE4bEQ3d0pPMFpQNXlxdWhXUmZDMy1tWlNpVXhERzMtZnEyTGVta2twWWJnRUZuak5hbWNZcVBzRnJWSEh5ak1jYUZaeEY1VXhFQXgyQzdybTZTYmNxVnFhLU1lTTF2UTJwa0Z1NWREcVotSzc1dHV3?oc=5",
+    "pub": "Sat, 15 Aug 2026 08:32:00 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rdTVpTzRCWGc5WWE3TEVkRTJHdFVYVURUdzcxakJ4a1ZWQktueW5lY1Jyano0NjJwLVMxOWtKVDg2OUNra284REpaZExYSHFiNmFVdDVFNW02bWJkSEtMdzZCRS1PdjlVZnFaRHp3UmV4aHNJRDRQdm5DRmk1Mkk?oc=5",
     "pub": "Sat, 15 Aug 2026 06:49:00 GMT",
     "src": "Northwest Arkansas Democrat-Gazette",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Did Oracle’s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjQxcUNseUNOWGxTMmY1dHJja3Y0QWQyWkNpeWJhbjdGY3NqM0U2WktoRkU1Y3BJeDhiSzQtdGMxcHFQZXlSWDNRYXhuVkQ3c3BhbVhtWUFmUVI5eXQ5S0g4UGVjajFVMlZvNnBHNzF0TXgtcTNpQ296Nll4bU9BSGpXZkpkc2labnc4Ty1xa20takxG?oc=5",
-    "pub": "Sat, 15 Aug 2026 06:12:00 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Faraday Copper: A Sensible Speculative Buy - seekingalpha.com",
+    "title": "Faraday Copper: A Sensible Speculative Buy - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUtRYl9WOGRaaFYwWGxhcDE3R0ZfaWhKQkg1enMzXzQ1YVpCSG5IZ3F3REJwQ3BKcXlFYlNHVTE4VkpFWU1xSmV3NjhYc2xkeEEta0llUU9kUlVnT0twam5aOTJZR3I1Y25NQy0yZkVpal9mS0ZjcS1pdkZaVnJjS2Z3MmV4OGQ0dXc?oc=5",
     "pub": "Sat, 15 Aug 2026 04:47:40 GMT",
-    "src": "seekingalpha.com",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   17.44,
-   16.29,
-   16.06,
-   22.22,
-   16.41,
-   18.63,
-   16.59,
-   15.84,
-   15.67,
-   18.58,
+   16.76,
+   15.74,
+   15.4,
+   19.44,
+   16.4,
+   18.41,
+   15.57,
+   17.16,
+   18.65,
+   18.67,
    15.86,
    14.25
   ],
@@ -1598,20 +1598,20 @@
    64796.6,
    64311.81,
    62763.32,
-   62944.45
+   62950.72
   ],
   "vixts": [
    0.808,
-   0.84,
-   0.819,
-   0.861,
-   1.155,
+   0.807,
+   0.791,
+   0.825,
+   1.011,
    0.77,
-   0.908,
-   0.848,
-   0.778,
-   0.802,
-   0.989,
+   0.898,
+   0.796,
+   0.842,
+   0.955,
+   0.994,
    0.835,
    0.694
   ],
@@ -1680,13 +1680,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2828,
-   0.2821,
-   0.2838,
-   0.2861,
-   0.286,
+   0.2853,
+   0.2816,
    0.2875,
-   0.289,
+   0.2862,
+   0.286,
+   0.2862,
+   0.2911,
    0.2865,
    0.2869
   ],
@@ -2448,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T10:02:15+00:00",
+  "checked": "2026-08-15T10:11:44+00:00",
   "openai": {
    "found": false
   },

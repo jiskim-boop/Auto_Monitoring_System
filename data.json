@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T11:12:04+00:00",
+ "updated": "2026-08-15T11:21:57+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -806,8 +806,8 @@
    "chg": -0.32,
    "chg5": 0.04,
    "sma20": 100.4,
-   "sma50": 100.55,
-   "sma200": 99.53,
+   "sma50": 100.47,
+   "sma200": 99.5,
    "high3m": 101.61,
    "reg": 99.64,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62958.11,
+   "price": 62959.13,
    "chg": -0.03,
    "chg5": -1.49,
-   "sma20": 63824.79,
-   "sma50": 63509.61,
-   "sma200": 68954.95,
+   "sma20": 63824.84,
+   "sma50": 63509.63,
+   "sma200": 68954.96,
    "high3m": 66505.12,
-   "reg": 62958.11,
+   "reg": 62959.13,
    "pre": null,
    "post": null,
-   "regClose": 62958.11,
+   "regClose": 62959.13,
    "sess": "reg",
-   "mt": 1786792294,
+   "mt": 1786792886,
    "ok": true
   },
   "USO": {
@@ -1133,14 +1133,6 @@
     "geo": false
    },
    {
-    "title": "CoreWeave Stock Soars 11% As Q2 Revenue Doubles On AI Boom - Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9idGJsS1FxdUZsRy1JYkJVdHUtSEhpRjdIdGhiZXBVWC1OdWlwbXFULTlGbGFxOHZKUk92aXFlVlFOME5rYmJpWHJGTzBPUDdZbENGS3FjOUxSTmY1WjhTbUl0NA?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:03:02 GMT",
-    "src": "Yellow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - HedgeCo.Net",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdnpIV2dYX2dYV3JGYWs5WEhJSzROUjJLUnU0X1FsaVpIVWNxN0lReFV6endabWYtSHV4dHl6NEo3RkNEd0UyU2hTa0hDTFp1Zm5BTGpOTFE1YVRsRExwSmNGZTUzbUh4Qms1LXlsRjNiaE5adHAyUWd6aDZwNkdKUjh5Z0JUMEF1aDJ5UFBZS3BNcmFhS0NRSEhaZTJnX2xNNkU1Qk9qNG51Zm8taWc3MTd1d056TjFiQnVfa1U3eGxxSVVveUt0NGc0c3ZJQWFLWmJjQTcxRQ?oc=5",
     "pub": "Fri, 14 Aug 2026 16:42:50 GMT",
@@ -1171,6 +1163,14 @@
     "src": "Stocktwits",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "Manufacturing ecozone, not AI Data Hub to be built under Pax Silica — BCDA, BOI - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVTlqVGJucmRwMlhQc18taDlsaVdTa1BMX0dtbmJFd3ZHNWZwWXk0NmJPZW05dWdZWkM5OGpHTkhUc3BNVHpkMTdvQVdjUnNLc19rWk15a3RsRzA0TGFudFp4UW1TVXFvZUMyQjdVZGdVa1JYTVdSSWYxTXJONmdPVWtSdFJmbXdvWDFJazVBYmhRd3BySGwtNjBiOFhrSV9TSXNWVVVjVU5EMnhmM0dOZjZSUU83Skt4TUNuU2hIeFhVcmVwSmZZ?oc=5",
+    "pub": "Fri, 14 Aug 2026 12:29:30 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1179,14 +1179,6 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 09:47:07 GMT",
     "src": "Bloomberg",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The AI Compute Boom Isn’t Peaking — It’s Just Getting Started - Investing.com South Africa",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQd1VQUTlKY0Nvbi1ac3ItTE5mak9haFh4anB5amg5UTZsUjRQUEpzdTFQZFNiZmRibXA5S1FSWmwyeFhzSmg0eGROaUZvQmg4SW5mblAyS2xJTVRweUI3dldsOVNqWmRYYmVtcEQyWUJuQ1F0T2F5NjE3UjZ1S0FSUmZab28ycG9vbHdEYlFBWV9YMHRhVGZiYk9nLWpOYW1ELWoxaVZCeVhfWk8ydWJPRllFUGw?oc=5",
-    "pub": "Sat, 15 Aug 2026 09:16:36 GMT",
-    "src": "Investing.com South Africa",
     "trig": false,
     "geo": false
    },
@@ -1215,6 +1207,14 @@
     "geo": false
    },
    {
+    "title": "The AI Compute Boom Isn’t Peaking — It’s Just Getting Started - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZHYzRjVqMjRZSkt5TElDWld1SjJrNWR5eGtLXzhiTG1ZYWl3bG9rcG1kTVZKaExDZC1rS21pN1VMc0hRRnZXT2hadlY3bFkwY0ozaE42aEhGOWRWYXRvLURLNmtWWmxHREdwQWtJbG9XMXpJbVdJYllwaURlMlVPQnpxU2FackVkbXYyRjZ3Z1NHcndBUHg1XzRPTThFcEJuYTVIR09QVzNvRFFUQWRZTg?oc=5",
+    "pub": "Sat, 15 Aug 2026 08:36:00 GMT",
+    "src": "Investing.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Earnings Drive Both Bull and Bear Markets - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY1VoVzBQeDg0anJncmtwWTVmNDMzaENmLVQxOE1lcGRFeTE4bEQ3d0pPMFpQNXlxdWhXUmZDMy1tWlNpVXhERzMtZnEyTGVta2twWWJnRUZuak5hbWNZcVBzRnJWSEh5ak1jYUZaeEY1VXhFQXgyQzdybTZTYmNxVnFhLU1lTTF2UTJwa0Z1NWREcVotSzc1dHV3?oc=5",
     "pub": "Sat, 15 Aug 2026 08:32:00 GMT",
@@ -1224,6 +1224,14 @@
    }
   ],
   "macro": [
+   {
+    "title": "Trending mortgage rates - firsttuesday Journal",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:26:07 GMT",
+    "src": "firsttuesday Journal",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "BTC price on August 15, 4PM UTC - Decrypt",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5GTWNqRTEtMXo2QXFSQmVFVEdNZkMzTFZXTXNMX0RaUm5Eam9XU2pJYjFvZTRUNUhmQldFN3JCaVVCN2VYdGpOU19tRXVIY3lsa2VOUEx2c3BUNEJtZUhnXzlVWVB4TTk0RlFmSkdhMlYzbTZNS3VZ?oc=5",
@@ -1257,18 +1265,10 @@
     "geo": false
    },
    {
-    "title": "September rate decision Archives - GoldSilver",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MLVBuY1Jid1NHS0NPSy1sZVNkUkJ0cjNFYl9KZ0dYcmVKbmN2aHpac3FhR3YtakxTVklaZklRNEdaY05NdkVsREJhbFFqZ3Y3YzdfdWNHeURtdkJhSUFjUA?oc=5",
-    "pub": "Fri, 14 Aug 2026 22:01:56 GMT",
-    "src": "GoldSilver",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bond traders face confusion as geopolitical risks and inflation overtake growth signals, AlphaSimplex says - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRfS25iNV9ZaFR5WUNoR2hId0xlTUZSakZ6SkNVYXcyY0xsdmFHYkhjWEp5SGNlTHpVYm1uYWlaRnIwSnZxbFl4WFBGdENrdFJCdWtIU09iSFZNSUJjd2dCbTJkdC10d21lWF9VRC1IR0lYZVlXTFZnS1lsWkpSNVdHNTczdlFlT0E?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:12:33 GMT",
-    "src": "Crypto Briefing",
+    "title": "BNN Special Coverage Of Bank Of Canada Interest Rate Decision Gary Rowett (JArZk2dnFL) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzQTFHM0w5cWpZMlJVallKVTVacFpsQlo0ekdEMnNPS1VySFVVM0JVd2R2bnRXRlhWNFZwYmV6YmNHODdBd1RQZzdqSXRHZGVBeW04c2hlQ25VZ3FINDkyUw?oc=5",
+    "pub": "Fri, 14 Aug 2026 20:40:12 GMT",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    }
@@ -1496,13 +1496,13 @@
    99.27,
    99.19,
    98.91,
-   100.07,
-   99.75,
-   101.02,
-   101.11,
+   99.41,
+   99.86,
    100.85,
-   101.28,
-   100.99,
+   101.43,
+   100.86,
+   100.94,
+   100.73,
    101.51,
    99.96,
    99.67
@@ -1511,15 +1511,15 @@
    12.61,
    12.52,
    12.63,
-   12.49,
-   12.71,
+   12.7,
+   12.62,
    12.36,
-   12.44,
-   12.45,
-   12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.25,
+   12.51,
+   12.28,
+   12.86,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   62956.47
+   62958.01
   ],
   "vixts": [
    0.808,
@@ -2460,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T11:11:53+00:00",
+  "checked": "2026-08-15T11:21:46+00:00",
   "openai": {
    "found": false
   },

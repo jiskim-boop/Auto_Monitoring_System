@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T13:12:09+00:00",
+ "updated": "2026-08-15T13:22:12+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -806,8 +806,8 @@
    "chg": -0.32,
    "chg5": 0.04,
    "sma20": 100.4,
-   "sma50": 100.47,
-   "sma200": 99.5,
+   "sma50": 100.55,
+   "sma200": 99.53,
    "high3m": 101.61,
    "reg": 99.64,
    "pre": null,
@@ -837,9 +837,9 @@
    "price": 106.12,
    "chg": -0.4,
    "chg5": -0.4,
-   "sma20": 106.58,
-   "sma50": 107.78,
-   "sma200": 108.73,
+   "sma20": 106.43,
+   "sma50": 107.65,
+   "sma200": 108.68,
    "high3m": 109.7,
    "reg": 106.12,
    "pre": null,
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.66,
-   "sma200": 4.66,
-   "high3m": 4.7,
+   "sma50": 4.56,
+   "sma200": 4.41,
+   "high3m": 4.74,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6504.36,
-   "sma50": 7530.02,
-   "sma200": 6834.67,
+   "sma20": 6463.32,
+   "sma50": 7408.26,
+   "sma200": 6831.68,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63005.5,
-   "chg": 0.05,
-   "chg5": -1.42,
-   "sma20": 63827.16,
-   "sma50": 63510.56,
-   "sma200": 68955.21,
+   "price": 62961.43,
+   "chg": -0.02,
+   "chg5": -1.49,
+   "sma20": 63824.96,
+   "sma50": 63509.68,
+   "sma200": 68954.97,
    "high3m": 66505.12,
-   "reg": 63005.5,
+   "reg": 62961.43,
    "pre": null,
    "post": null,
-   "regClose": 63005.5,
+   "regClose": 62961.43,
    "sess": "reg",
-   "mt": 1786799309,
+   "mt": 1786800099,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Fed Decision in September? - Decrypt",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQVnhjejF5WWhQeThwUzg3a2t0VUczVkotTmp5ZV9aNDZsenQxWHMzNTZTaFlhbXVRZDhjSklGX3dfS1Zld3EyMkJSMF9ZX0s3OTE1N1FFMGFobXpsUHEwRWpNek5OSmtxVXcyakpNTDQ?oc=5",
+    "pub": "Sat, 15 Aug 2026 13:15:56 GMT",
+    "src": "Decrypt",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US says lower oil prices, not Iran's nuclear program, are now top priority in war - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2RkUERWUXdITWY3eDE3ZHJUWFJ1MlBpVGFqVUxIdVpJY0x3SHpvRk9ZTTIzWV9rbndLNjU2RDdBVzZLME52dHlCekRYVHNWM0tDVnAzXzZZZUxIajE5czNMbjlhcWZOZFBuZEkzWFJiQWlHRUVWeThfR3YtUXFzT3BCWFBCVzdwSzlzb2luQjU3NDc4UEJYbzNVZl9fNVpnZGVicWpqd3prcXkz?oc=5",
     "pub": "Sat, 15 Aug 2026 09:33:45 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm5JNnI5cXp4cktrZjNOb3VoYjlVdk1tRFQ2bWlyelc3czNfTTAtTFMxbHZhX1hfU25YRm1oQlpkMEd2UVJnY3RUYS1tS3hxVExSOE5iMEc5QjVES1VTazAxMVRuTFRzOHg1V2J5aWhpRjBvSEtTMjF6VFNPVjM3UGVpbVZoaVM0Mnc?oc=5",
     "pub": "Sat, 15 Aug 2026 01:04:04 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Will Chinese Oil Imports Rebound After the Iran War? - The Maritime Executive",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXJyNTByTlNnSTB0Sm5ORGE4Nk5XdndEc2RzVXN1RTBnT0JTSmF6N3Jpa2lVUjNwdy1CN09QTjZqalIyazFmSnMtZW1TQXlUSmc4OWh1Z3NMWW5Id2RGOFp4RmhlYnF3WWhVRmhBS2lXZFlLdHJHbkNZYXhOUDhucTMzaTd3aDNERnJKTG1YRDFXM2ZjajBocw?oc=5",
-    "pub": "Fri, 14 Aug 2026 23:33:45 GMT",
-    "src": "The Maritime Executive",
     "trig": false,
     "geo": false
    }
@@ -1511,19 +1511,31 @@
    12.61,
    12.52,
    12.63,
-   12.7,
-   12.62,
-   12.36,
-   12.25,
-   12.51,
-   12.28,
-   12.86,
+   12.49,
+   12.71,
+   12.22,
+   12.67,
+   12.45,
+   12.47,
+   12.57,
    12.46,
    12.74,
    13.37
   ],
   "move": [
-   69.58
+   79.87,
+   81.53,
+   74.95,
+   70.22,
+   71.16,
+   77.03,
+   69.36,
+   65.39,
+   69.06,
+   68.14,
+   65.76,
+   68.89,
+   70.88
   ],
   "jpy": [
    157.85,
@@ -1559,13 +1571,13 @@
    38.14,
    38.58,
    38.86,
-   39.73,
-   38.94,
-   38.86,
-   36.98,
-   37.29,
-   37.75,
-   38.06,
+   38.08,
+   39.55,
+   38.81,
+   37.23,
+   37.84,
+   37.94,
+   38.42,
    38.77,
    39.64,
    40.01
@@ -1598,9 +1610,23 @@
    64796.6,
    64311.81,
    62763.32,
-   63005.5
+   62959.79
   ],
-  "vixts": null,
+  "vixts": [
+   0.808,
+   0.84,
+   0.819,
+   0.861,
+   1.155,
+   0.77,
+   0.908,
+   0.848,
+   0.778,
+   0.802,
+   0.989,
+   0.835,
+   0.694
+  ],
   "hyoas": [
    3.03,
    3.28,
@@ -2434,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T13:11:55+00:00",
+  "checked": "2026-08-15T13:22:00+00:00",
   "openai": {
    "found": false
   },

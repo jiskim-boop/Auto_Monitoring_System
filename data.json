@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T21:22:04+00:00",
+ "updated": "2026-08-15T21:32:17+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63034.5,
-   "chg": 0.09,
-   "chg5": -1.37,
-   "sma20": 63828.61,
-   "sma50": 63511.14,
-   "sma200": 68955.37,
+   "price": 63070.08,
+   "chg": 0.15,
+   "chg5": -1.32,
+   "sma20": 63830.39,
+   "sma50": 63511.85,
+   "sma200": 68955.57,
    "high3m": 66505.12,
-   "reg": 63034.5,
+   "reg": 63070.08,
    "pre": null,
    "post": null,
-   "regClose": 63034.5,
+   "regClose": 63070.08,
    "sess": "reg",
-   "mt": 1786828891,
+   "mt": 1786829507,
    "ok": true
   },
   "USO": {
@@ -1133,14 +1133,6 @@
     "geo": false
    },
    {
-    "title": "Equus Total Return (NYSE: EQS) warns on going concern amid note default - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXpvNC01M1gtemM5WVpOZjRha2ZtM2pWSS1UQnBfQkEwY2h2ZFBfdWRmUkdoTTJkUHB2dWJTSDdnZXJ6WE5KSlpvM3BhQ1ZQaTk3ZVNMV2l0ZFFlbFhiMHVwVFp6WW1IakxCTWJ2dndjOGVhVFY4OS02aHpJbFdpZ1BITDFfaC1NeGpWRUg5NVpLNTFQc2pHMXV6MUlkQmNEQXgyUlFNdFhDZ0NUeG5sUUVzSTQ?oc=5",
-    "pub": "Fri, 14 Aug 2026 21:02:51 GMT",
-    "src": "Stock Titan",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
@@ -1170,6 +1162,14 @@
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
     "src": "The Motley Fool",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "T. Rowe Price’s OHA Private Credit BDC Posts Income Cover Even as NAV Slips: - HedgeCo.Net",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNekVJTFN5ZTNlNkE4a0kwQW9qUHN2Q01ReDZtTWQ2X1JYRFkxQUItYW9iR05jQi1sZ1kzbFJTUDZlUWcwZ3Fsd3poNF9QTFlGU0gxU3YyVXRCQ09JMC1fNV9iWVRxLVFfQUJaNEpETUZUSkVJbHV3VlhEakhRbU5wVmJhZmJhYjF3RFdjeF90YmNrdHFqd1cxT3dUc1hxWkUzZWV2djVfN2xqRkFaNHNRMA?oc=5",
+    "pub": "Fri, 14 Aug 2026 14:56:12 GMT",
+    "src": "HedgeCo.Net",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   63034.48
+   63070.08
   ],
   "vixts": [
    0.808,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 긴장으로 유가 29% 급등하며 인플레 재점화 우려가 커지는 가운데, VIX 14와 HY스프레드 2.71%는 아직 시장 심리가 안정적임을 시사합니다. AI 인프라 수요는 CoreWeave 등 엔터프라이즈 부문 확산으로 견조하나, GPU/HBM 공급망에서 특이 신호 없습니다.",
+  "text": "중동 지정학 긴장으로 유가 29% 상승 중이나 VIX 14·HY스프레드 2.71%로 시장 리스크 인식은 제한적이며, 실러CAPE 43으로 밸류에이션 과열이 핵심 취약점. AI 인프라 투자(CoreWeave 등)는 계속되나 GPU/HBM 수급 관련 특이 신호 없음.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1738,12 +1738,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 2,
+   "trig": 1,
    "geo": 2,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2460,7 +2459,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T21:21:51+00:00",
+  "checked": "2026-08-15T21:32:04+00:00",
   "openai": {
    "found": false
   },

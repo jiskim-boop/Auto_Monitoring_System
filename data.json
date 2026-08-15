@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T08:02:29+00:00",
+ "updated": "2026-08-15T08:11:54+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": -5.33,
-   "chg5": -0.59,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.46,
+   "sma50": 18.46,
+   "sma200": 18.46,
+   "high3m": 18.46,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.46,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.58,
-   "chg": 2.08,
-   "chg5": 0.04,
-   "sma20": 69.42,
-   "sma50": 71.97,
-   "sma200": 75.51,
-   "high3m": 86.07,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 69.58,
+   "sma50": 69.58,
+   "sma200": 69.58,
+   "high3m": 69.58,
    "reg": 69.58,
    "pre": null,
    "post": null,
-   "regClose": 70.88,
+   "regClose": 69.58,
    "sess": "reg",
    "mt": 1786739520,
    "ok": true
@@ -822,8 +822,8 @@
    "chg": -0.22,
    "chg5": -0.35,
    "sma20": 3.73,
-   "sma50": 3.69,
-   "sma200": 3.64,
+   "sma50": 3.73,
+   "sma200": 3.73,
    "high3m": 3.81,
    "reg": 3.7,
    "pre": null,
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.56,
-   "sma200": 4.41,
-   "high3m": 4.74,
+   "sma50": 4.66,
+   "sma200": 4.66,
+   "high3m": 4.7,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63015.69,
-   "chg": 0.06,
-   "chg5": -1.4,
-   "sma20": 63827.67,
-   "sma50": 63510.76,
-   "sma200": 68955.27,
+   "price": 62995.04,
+   "chg": 0.03,
+   "chg5": -1.43,
+   "sma20": 63826.64,
+   "sma50": 63510.35,
+   "sma200": 68955.15,
    "high3m": 66505.12,
-   "reg": 63015.69,
+   "reg": 62995.04,
    "pre": null,
    "post": null,
-   "regClose": 63015.69,
+   "regClose": 62995.04,
    "sess": "reg",
-   "mt": 1786780921,
+   "mt": 1786781483,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Firms disclose SpaceX holdings - Northwest Arkansas Democrat-Gazette",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5rdTVpTzRCWGc5WWE3TEVkRTJHdFVYVURUdzcxakJ4a1ZWQktueW5lY1Jyano0NjJwLVMxOWtKVDg2OUNra284REpaZExYSHFiNmFVdDVFNW02bWJkSEtMdzZCRS1PdjlVZnFaRHp3UmV4aHNJRDRQdm5DRmk1Mkk?oc=5",
-    "pub": "Sat, 15 Aug 2026 06:49:00 GMT",
-    "src": "Northwest Arkansas Democrat-Gazette",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 06:46:59 GMT",
@@ -1191,10 +1183,18 @@
     "geo": false
    },
    {
-    "title": "USSF-366 Mission - SpaceX",
+    "title": "Did Oracle’s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjQxcUNseUNOWGxTMmY1dHJja3Y0QWQyWkNpeWJhbjdGY3NqM0U2WktoRkU1Y3BJeDhiSzQtdGMxcHFQZXlSWDNRYXhuVkQ3c3BhbVhtWUFmUVI5eXQ5S0g4UGVjajFVMlZvNnBHNzF0TXgtcTNpQ296Nll4bU9BSGpXZkpkc2labnc4Ty1xa20takxG?oc=5",
+    "pub": "Sat, 15 Aug 2026 06:12:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "USSF-366 Mission - spacex.com",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
     "pub": "Sat, 15 Aug 2026 06:10:37 GMT",
-    "src": "SpaceX",
+    "src": "spacex.com",
     "trig": false,
     "geo": false
    },
@@ -1275,10 +1275,18 @@
   ],
   "flow": [
    {
-    "title": "Gold prices fall sharply, but safe-haven status remains intact - arabtimesonline.com",
+    "title": "USD/JPY Breaches 160: What It Means For Markets And Policy Credibility - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TaGt1ZUtoTm51MlhKZ285YzFydUxFZWpmM3ZETDRUbXByLWRORXBuU2R6Z2lhZHFFVzNTaGJmcWZSengwY3lOUFFFdnZ2bGllR0dBQ1JlT0JLMXg1dmNhUzl6SWZmRnBKYzBRRVZ4ak1TNUdv?oc=5",
+    "pub": "Sat, 15 Aug 2026 06:10:11 GMT",
+    "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices fall sharply, but safe-haven status remains intact - Arab Times Kuwait News",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQeWJDTU5JVnRCN1VKdk8waHJBeWhEdEhNSmZDSGp2MWtkSVFOOW05dy1ONFhISS1PclcxYmJxOG1FTkY1MzFvQm9ZYVNtUnQ4TksxSDBSWGw4ZEtkQy1Oa1gtcG9jenNvSGp1NExtZmJiMFotODZzcURpdjY1WUJwVUFmZGs5d1VfaEtoalVWUm1pNWdpVDBIVUJ5dk5SbjF5?oc=5",
     "pub": "Sat, 15 Aug 2026 05:31:31 GMT",
-    "src": "arabtimesonline.com",
+    "src": "Arab Times Kuwait News",
     "trig": false,
     "geo": false
    },
@@ -1310,14 +1318,6 @@
     "title": "Dubai Gold Rate Today: 18K, 22K, 24K Gold Prices for August 15, 2026 - LatestLY",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZVFUWHlxUDVKOGEtblJsU0JGaWtfZnlMMGszTGtyT0JSRW83SzJhMnJJcGN1OWoyczBhZGZFSFJRSnBWRFM0aTU2ekJ0MzR3cThOQm1YeXdYcngwWWhUWHI5eUVVOTlGQnJNTUUyTldONW1oLUJkd195Vkc1TFVrQ1d0a0pqZEstaUs3RlowdFFZMnJrc3ZMWFJBMllCRFdwVjlwTTlaN3h3VTF10gGyAUFVX3lxTFBPQ3VyUmZuSUIxeXAzWTdhTksyNHFiZV9zaTc5U2ZfSTRSakRTQ2J6a3EzOTBRV3E5WTUyLVBaa1dEWHgySmhwdzQ5VGc4Qk1oQ3ZPM3N1ZXl6Y29XNHl1VFpKTmMwQXMzRzFDUmtzTWVfSno4Q085dEZUZkFieEc1MUoxR0NUV0lITHdBZXhWcUtORDRjWC1GMFA5UlFkckNXVXREZ2xHejliMXFEUFlVOEE?oc=5",
     "pub": "Sat, 15 Aug 2026 03:09:31 GMT",
-    "src": "LatestLY",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Rate Today, August 15, 2026: Check 22K and 24K Gold Prices in Delhi, Mumbai, Chennai and Other Cities - LatestLY",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQdlNJd3daOW43Z1pEM2gzQ2p4c0ZfR0lqazJFRTVKSzJmbm5zcTl3TnM2TGQ2eGR0Z1JrSmV3TkFhQWxlMHhka3hxNEN4Y0xiaGNxZzNOcTJ4OGZUVTRZM3ZzNm9lY3A1aWtFR0xUMUcya0JPY202bkl0RHE4X3BuRTV1MERaMDE5c2p3Tl9reXBhMEdOcy04VmFudndlNnVfSUFDMm4yTUt0aHk3ZXgxbkhfRGhEQ1BrVHlHQVFnQjZZU0Y5c0xFNmNCVXMxUi0ydmZxeFVlOGJVLS1pSDJiVExR0gHnAUFVX3lxTE45SjFtel9FeHR4TDk3ODE4NEdHR2ZZY3RkYXRMQWRZM0U3MUtkR3J0bk42cWFaLWVFN2lfRWN2THZSdThUM1hIaEl1bjA5bTJoelpENmY5YWZxN0xpYnNJcGl6bnUxc183b2IycmlDamNJUmlCSW5mRHlOV1IyQ1hNTVZIMGNmZUtSOXJiUzJDenJkRWtheGdoYkhBQ0JjbWNWMURUYkRTS2ZSbDdXN1RnRUlYVHNBRWxaMHpPOUpSNEpGeXQyY2xWQ1MzSGR4eWkxUGo3QUd6QXl3T3RJb1BrQklzUW0ybw?oc=5",
-    "pub": "Sat, 15 Aug 2026 03:02:02 GMT",
     "src": "LatestLY",
     "trig": false,
     "geo": false
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   62997.82
+   62995.04
   ],
   "vixts": [
    0.808,
@@ -1692,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -2460,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T08:02:17+00:00",
+  "checked": "2026-08-15T08:11:44+00:00",
   "openai": {
    "found": false
   },

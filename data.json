@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T05:11:57+00:00",
+ "updated": "2026-08-15T05:21:58+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.49,
-   "sma50": 38.66,
-   "sma200": 37.34,
+   "sma20": 39.3,
+   "sma50": 38.69,
+   "sma200": 37.29,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -680,7 +680,7 @@
    "sma20": 20.45,
    "sma50": 20.43,
    "sma200": 20.48,
-   "high3m": 20.61,
+   "high3m": 20.66,
    "reg": 20.57,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63076.0,
+   "price": 63081.76,
    "chg": -0.51,
-   "chg5": -2.73,
-   "sma20": 63948.92,
-   "sma50": 63452.79,
-   "sma200": 68988.64,
+   "chg5": -2.72,
+   "sma20": 63949.21,
+   "sma50": 63452.9,
+   "sma200": 68988.67,
    "high3m": 66505.12,
-   "reg": 63076.0,
+   "reg": 63081.76,
    "pre": null,
    "post": null,
-   "regClose": 63076.0,
+   "regClose": 63081.76,
    "sess": "reg",
-   "mt": 1786770688,
+   "mt": 1786771290,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
+    "pub": "Sat, 15 Aug 2026 05:16:58 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic backers eye $2 trillion valuation. Its projected Q2 revenue was $10.9B - R&D World",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
     "pub": "Sat, 15 Aug 2026 04:19:26 GMT",
@@ -1195,14 +1203,6 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRXcxN1ZMZG0wZzNlYWtTUVRkS1lJeW52eWh6clBCRWxNWkVXdmlzSHdZQ3lxc1o1a0t6VllWbURuYzNSOUM2ajRlQmVWMUZ5b0lRV3VRV09pNFdWSDdRNEtjUWhDWDBRWDA3WVNyN3hEQVJKdzl0dFAzdzcyOVZMb0VqR0M?oc=5",
     "pub": "Sat, 15 Aug 2026 04:02:14 GMT",
     "src": "Financial Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 03:46:58 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1299,10 +1299,10 @@
     "geo": false
    },
    {
-    "title": "CopperTech Metals (CUX) Stock Price, News & Analysis $CUX - MarketBeat",
+    "title": "CopperTech Metals (CUX) Stock Price, News & Analysis $CUX - marketbeat.com",
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5JMFRXMU4xbFY5N1dFb05wZWxKQXZiM3R6WFNXQV9Ga2FJYW9kMDF5Z05VaVNhWVFvd1YyWHZiZjlUMjAwUEkzcVZVVGZURndIR1pzWnZn?oc=5",
     "pub": "Sat, 15 Aug 2026 02:05:11 GMT",
-    "src": "MarketBeat",
+    "src": "marketbeat.com",
     "trig": false,
     "geo": false
    },
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
@@ -1610,20 +1610,20 @@
    63899.46,
    64098.5,
    62813.75,
-   63079.29
+   63070.06
   ],
   "vixts": [
    0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
+   0.84,
+   0.819,
+   0.861,
+   1.155,
    0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
+   0.908,
+   0.848,
+   0.778,
+   0.802,
+   0.989,
    0.835,
    0.694
   ],
@@ -2460,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T05:11:47+00:00",
+  "checked": "2026-08-15T05:21:48+00:00",
   "openai": {
    "found": false
   },

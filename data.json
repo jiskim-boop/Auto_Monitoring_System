@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T09:51:55+00:00",
+ "updated": "2026-08-15T10:02:25+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -341,9 +341,9 @@
    "price": 362.74,
    "chg": 1.21,
    "chg5": 4.32,
-   "sma20": 352.49,
-   "sma50": 372.02,
-   "sma200": 358.77,
+   "sma20": 349.33,
+   "sma50": 370.72,
+   "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -405,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 183.96,
-   "sma50": 182.27,
-   "sma200": 182.08,
+   "sma20": 185.35,
+   "sma50": 181.98,
+   "sma200": 182.24,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.5,
-   "sma50": 79.67,
-   "sma200": 79.88,
+   "sma20": 79.49,
+   "sma50": 79.66,
+   "sma200": 79.87,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -680,7 +680,7 @@
    "sma20": 20.45,
    "sma50": 20.43,
    "sma200": 20.48,
-   "high3m": 20.66,
+   "high3m": 20.61,
    "reg": 20.57,
    "pre": null,
    "post": null,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": -5.33,
-   "chg5": -0.59,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.46,
+   "sma50": 18.46,
+   "sma200": 18.46,
+   "high3m": 18.46,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.46,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 139.94,
-   "sma50": 142.74,
-   "sma200": 142.84,
+   "sma20": 140.02,
+   "sma50": 143.15,
+   "sma200": 142.96,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.58,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 69.58,
-   "sma50": 69.58,
-   "sma200": 69.58,
-   "high3m": 69.58,
+   "chg": 2.08,
+   "chg5": 0.04,
+   "sma20": 69.42,
+   "sma50": 71.97,
+   "sma200": 75.51,
+   "high3m": 86.07,
    "reg": 69.58,
    "pre": null,
    "post": null,
-   "regClose": 69.58,
+   "regClose": 70.88,
    "sess": "reg",
    "mt": 1786739520,
    "ok": true
@@ -822,8 +822,8 @@
    "chg": -0.22,
    "chg5": -0.35,
    "sma20": 3.73,
-   "sma50": 3.73,
-   "sma200": 3.73,
+   "sma50": 3.69,
+   "sma200": 3.64,
    "high3m": 3.81,
    "reg": 3.7,
    "pre": null,
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.66,
-   "sma200": 4.66,
-   "high3m": 4.7,
+   "sma50": 4.56,
+   "sma200": 4.41,
+   "high3m": 4.74,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6463.32,
-   "sma50": 7408.26,
-   "sma200": 6831.68,
+   "sma20": 6504.36,
+   "sma50": 7530.02,
+   "sma200": 6834.67,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62960.12,
-   "chg": -0.02,
+   "price": 62959.5,
+   "chg": -0.03,
    "chg5": -1.49,
-   "sma20": 63824.89,
-   "sma50": 63509.65,
+   "sma20": 63824.86,
+   "sma50": 63509.64,
    "sma200": 68954.96,
    "high3m": 66505.12,
-   "reg": 62960.12,
+   "reg": 62959.5,
    "pre": null,
    "post": null,
-   "regClose": 62960.12,
+   "regClose": 62959.5,
    "sess": "reg",
-   "mt": 1786787485,
+   "mt": 1786788117,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
+    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - seekingalpha.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
-    "src": "Seeking Alpha",
+    "src": "seekingalpha.com",
     "trig": false,
     "geo": false
    },
@@ -1141,26 +1141,26 @@
     "geo": false
    },
    {
-    "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - hedgeco.net",
+    "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - HedgeCo.Net",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdnpIV2dYX2dYV3JGYWs5WEhJSzROUjJLUnU0X1FsaVpIVWNxN0lReFV6endabWYtSHV4dHl6NEo3RkNEd0UyU2hTa0hDTFp1Zm5BTGpOTFE1YVRsRExwSmNGZTUzbUh4Qms1LXlsRjNiaE5adHAyUWd6aDZwNkdKUjh5Z0JUMEF1aDJ5UFBZS3BNcmFhS0NRSEhaZTJnX2xNNkU1Qk9qNG51Zm8taWc3MTd1d056TjFiQnVfa1U3eGxxSVVveUt0NGc0c3ZJQWFLWmJjQTcxRQ?oc=5",
     "pub": "Fri, 14 Aug 2026 16:42:50 GMT",
-    "src": "hedgeco.net",
+    "src": "HedgeCo.Net",
     "trig": false,
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "fool.com",
+    "src": "The Motley Fool",
     "trig": true,
     "geo": false
    },
    {
-    "title": "T. Rowe Price’s OHA Private Credit BDC Posts Income Cover Even as NAV Slips: - hedgeco.net",
+    "title": "T. Rowe Price’s OHA Private Credit BDC Posts Income Cover Even as NAV Slips: - HedgeCo.Net",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNekVJTFN5ZTNlNkE4a0kwQW9qUHN2Q01ReDZtTWQ2X1JYRFkxQUItYW9iR05jQi1sZ1kzbFJTUDZlUWcwZ3Fsd3poNF9QTFlGU0gxU3YyVXRCQ09JMC1fNV9iWVRxLVFfQUJaNEpETUZUSkVJbHV3VlhEakhRbU5wVmJhZmJhYjF3RFdjeF90YmNrdHFqd1cxT3dUc1hxWkUzZWV2djVfN2xqRkFaNHNRMA?oc=5",
     "pub": "Fri, 14 Aug 2026 14:56:12 GMT",
-    "src": "hedgeco.net",
+    "src": "HedgeCo.Net",
     "trig": false,
     "geo": false
    },
@@ -1199,10 +1199,10 @@
     "geo": false
    },
    {
-    "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - Seeking Alpha",
+    "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - seekingalpha.com",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDFTeHlja3VWbWlHVGpYWUVramQ5RGxIT21EVV9XNkRXYWlxdnlMWXl2OTJWbEZBWDhBN29Nd2RadmtSVmVEQzZvMjhxZ0JyYlhvQ3lhQVFyS3dkYXpFX0xRRk81RVVPUVFhQ1pvS3BrYkY4RWk1Qk45NnA4SVJOYUVIcC1tZw?oc=5",
     "pub": "Sat, 15 Aug 2026 08:55:05 GMT",
-    "src": "Seeking Alpha",
+    "src": "seekingalpha.com",
     "trig": false,
     "geo": false
    },
@@ -1233,10 +1233,10 @@
     "geo": false
    },
    {
-    "title": "Black rain and burning oil: environmental cost of war in the Middle East - The Nation Newspaper",
+    "title": "Black rain and burning oil: environmental cost of war in the Middle East - thenationonlineng.net",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2xMck9NNDMyLWpjcVhKUVRtdUU1UjI5ZXlFWUVlY1RabEhYYUpzanBNOVljeUY1MDYxVmRsU0tNdTFQREljdjRRWGRyTWgzMmp5WmhaNUNvTVRYNnlIU3kzal9sVmJCZzYwRjJEVFhad3FtYUZSQ3Z0S0NwYXZIcnh6SFc0NHY0MjhZVmxiNDJQdEc4Slc1SlVBVHIyZVJ1Qm5odNIBqgFBVV95cUxNNG9EX0s1NmFtVVlkeWNkMnRPUVlaZzBJc190NG5HYlBvbGhET19ZOG5sdWp4MEtSQ01IcVpNR0REaTltYll6eUVqOUhXbU8tOTkzVEh6M0JmT0VHS1FxdDAyb0RPUExMZkJRQU1oUkNjT0F5Wkx6dzlidU9BQkJVbllTZGlRSVpUX0Nzd1d6YkxyOVpfcTJUSzlEM29TNnRFT2pJdFBtT1JIQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 03:24:27 GMT",
-    "src": "The Nation Newspaper",
+    "src": "thenationonlineng.net",
     "trig": false,
     "geo": false
    },
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Bond traders face confusion as geopolitical risks and inflation overtake growth signals, AlphaSimplex says - cryptobriefing.com",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRfS25iNV9ZaFR5WUNoR2hId0xlTUZSakZ6SkNVYXcyY0xsdmFHYkhjWEp5SGNlTHpVYm1uYWlaRnIwSnZxbFl4WFBGdENrdFJCdWtIU09iSFZNSUJjd2dCbTJkdC10d21lWF9VRC1IR0lYZVlXTFZnS1lsWkpSNVdHNTczdlFlT0E?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:12:33 GMT",
-    "src": "cryptobriefing.com",
+    "title": "BNN Special Coverage Of Bank Of Canada Interest Rate Decision Gary Rowett (JArZk2dnFL) - mshale.com",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzQTFHM0w5cWpZMlJVallKVTVacFpsQlo0ekdEMnNPS1VySFVVM0JVd2R2bnRXRlhWNFZwYmV6YmNHODdBd1RQZzdqSXRHZGVBeW04c2hlQ25VZ3FINDkyUw?oc=5",
+    "pub": "Fri, 14 Aug 2026 20:40:12 GMT",
+    "src": "mshale.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Blue-chip firms flood US debt market amid investor caution - cryptobriefing.com",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14RUNoX0wwSGdYNGREdDhSRHA5blh6NzVZb1hpZWg1WGVZTXFHdUJlby1Uc3ktdXFwV1ppRUx1TDZ4eUo5T1dtZmUydzc4MWFrcEpqM0NqcjVVUWVtSXZRbHVYV0FKTl9iX2p2cVRJUW5NZw?oc=5",
-    "pub": "Fri, 14 Aug 2026 18:55:23 GMT",
-    "src": "cryptobriefing.com",
+    "title": "Bond traders face confusion as geopolitical risks and inflation overtake growth signals, AlphaSimplex says - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRfS25iNV9ZaFR5WUNoR2hId0xlTUZSakZ6SkNVYXcyY0xsdmFHYkhjWEp5SGNlTHpVYm1uYWlaRnIwSnZxbFl4WFBGdENrdFJCdWtIU09iSFZNSUJjd2dCbTJkdC10d21lWF9VRC1IR0lYZVlXTFZnS1lsWkpSNVdHNTczdlFlT0E?oc=5",
+    "pub": "Fri, 14 Aug 2026 19:12:33 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1299,26 +1299,26 @@
     "geo": false
    },
    {
-    "title": "Faraday Copper: A Sensible Speculative Buy - Seeking Alpha",
+    "title": "Jinlu Electronics' H1 Revenue Jumps Over 40%, But Copper-Clad Laminate Price Hikes Squeeze Margins - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fd25JNG9nWFFfT2p6c0J1akNpN2VoQkVLTjJwVXdielhOalJxNFd4aHdLRGU5VjYtNi1PeGVXUXZucGlTRXZXMHlHVEYxWE1nSVl1aEo2OFZTMjhfdnRZS19zQlJYSHlMc3NYZTZwNTFiamVNOVE?oc=5",
+    "pub": "Sat, 15 Aug 2026 04:55:00 GMT",
+    "src": "finance.biggo.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Faraday Copper: A Sensible Speculative Buy - seekingalpha.com",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUtRYl9WOGRaaFYwWGxhcDE3R0ZfaWhKQkg1enMzXzQ1YVpCSG5IZ3F3REJwQ3BKcXlFYlNHVTE4VkpFWU1xSmV3NjhYc2xkeEEta0llUU9kUlVnT0twam5aOTJZR3I1Y25NQy0yZkVpal9mS0ZjcS1pdkZaVnJjS2Z3MmV4OGQ0dXc?oc=5",
     "pub": "Sat, 15 Aug 2026 04:47:40 GMT",
-    "src": "Seeking Alpha",
+    "src": "seekingalpha.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - litefinance.org",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 15 Aug 2026 04:30:46 GMT",
-    "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - FOREX.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBxTnB4bGdReERLRG1CNkdqSE91N3RGMWpxVFRwc1NtVjBxMzNXMjF4Q2ZHTnZLMS10QlNYSml4VUdrQWczZ2RrUktyM0paN1MzRlVfTFd3cW5WdngyQWtPWWJJTjFaUFVzM3VMRlUtT1M1RVRXYlM1ZXAxTjJ3QVY4anViaTJ1aFZBWVNTYTBuRjZ2TkNac2VQX0tsaG5mZkY3RnNVZERpSmdETkVvY0dUMEY?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:03:02 GMT",
-    "src": "FOREX.com",
+    "src": "litefinance.org",
     "trig": false,
     "geo": false
    }
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
@@ -1496,13 +1496,13 @@
    99.27,
    99.19,
    98.91,
-   99.41,
-   99.86,
+   100.07,
+   99.75,
+   101.02,
+   101.11,
    100.85,
-   101.43,
-   100.86,
-   100.94,
-   100.73,
+   101.28,
+   100.99,
    101.51,
    99.96,
    99.67
@@ -1511,13 +1511,13 @@
    12.61,
    12.52,
    12.63,
-   12.7,
-   12.62,
-   12.36,
-   12.25,
-   12.51,
-   12.28,
-   12.86,
+   12.49,
+   12.71,
+   12.22,
+   12.67,
+   12.45,
+   12.47,
+   12.57,
    12.46,
    12.74,
    13.37
@@ -1598,20 +1598,20 @@
    64796.6,
    64311.81,
    62763.32,
-   62960.13
+   62944.45
   ],
   "vixts": [
    0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
+   0.84,
+   0.819,
+   0.861,
+   1.155,
    0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
+   0.908,
+   0.848,
+   0.778,
+   0.802,
+   0.989,
    0.835,
    0.694
   ],
@@ -1680,13 +1680,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -2217,10 +2217,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-13T10",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-13T11",
     "v": 2.73
    },
@@ -2407,6 +2403,10 @@
    {
     "d": "2026-08-15T09",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-15T10",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2448,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T09:51:45+00:00",
+  "checked": "2026-08-15T10:02:15+00:00",
   "openai": {
    "found": false
   },

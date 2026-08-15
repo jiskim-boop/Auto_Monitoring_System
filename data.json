@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T20:21:59+00:00",
+ "updated": "2026-08-15T20:32:15+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.5,
-   "sma50": 79.67,
-   "sma200": 79.88,
+   "sma20": 79.49,
+   "sma50": 79.66,
+   "sma200": 79.87,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -806,8 +806,8 @@
    "chg": -0.32,
    "chg5": 0.04,
    "sma20": 100.4,
-   "sma50": 100.55,
-   "sma200": 99.53,
+   "sma50": 100.47,
+   "sma200": 99.5,
    "high3m": 101.61,
    "reg": 99.64,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63007.65,
+   "price": 63004.83,
    "chg": 0.05,
-   "chg5": -1.41,
-   "sma20": 63827.27,
-   "sma50": 63510.6,
-   "sma200": 68955.22,
+   "chg5": -1.42,
+   "sma20": 63827.13,
+   "sma50": 63510.55,
+   "sma200": 68955.21,
    "high3m": 66505.12,
-   "reg": 63007.65,
+   "reg": 63004.83,
    "pre": null,
    "post": null,
-   "regClose": 63007.65,
+   "regClose": 63004.83,
    "sess": "reg",
-   "mt": 1786825289,
+   "mt": 1786825906,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX to launch classified Space Force mission from California - KTLA",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeFl2M0ZHMXNLRmpPUk1VSmZRVkVLcVhYYWJTcjFfWEQzdXR5Z19JNWplejZDX1RGaXlxR19KczJqcXRjTktrRWh4d3pKMWlFMWVZNXVWRzRNdEs2Zktsd25obDN5U2xhTVVyNFVaQnMyNDg0YUltYlFuVkZfNjNxMlg2djd4ejBONlk0NjRlcVFwMnRWMlZjNEtTVnJ0UdIBowFBVV95cUxPRVJPdDE0cjQwYnR3VXg2VzNsQi1Sc1pNcVNON0ZLUlBhWHJqRkFGNUpTd0RoaFlxMDQ3dHJTNkp4clJvb1ZST21vdDVQYkRMalktcFlLcV83cE1oMGlWQ3R4cmZzVlZ3V2t1VXN3U0tDREMzQ0dsQ0w0ZUYzNFdTMHdaeDZUSmkyYmFWOFhhWDFybEx0VEZwUS1QSTdJTVhIbkRZ?oc=5",
+    "pub": "Sat, 15 Aug 2026 20:14:55 GMT",
+    "src": "KTLA",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "USSF-366 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
     "pub": "Sat, 15 Aug 2026 19:16:52 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPeGx0UWs4V0pUcGZSVTR5aXp6Y2ozSkFzU1ZYREVQQTB1bmdOREhsOFY3aGhOcnlhZFhyLVR2QTQyX0lKRWRaaGlxVVN0SmpFcTNkNXBaRUZCbHJDQTV6MFpwS3ctVU1tZjhadXRYWENYV2JHbU16LXVCWGxsd3Z5TFl5MEViUTU0MnUwTGhwaHpUc04tZlVjTGQ0VUhKQ3VC?oc=5",
     "pub": "Sat, 15 Aug 2026 15:09:44 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic revenue surges to over $11.5 billion in second quarter - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbHVOU3cyY0NpeTY1ZHJia1FPdEpGaEhFX2ZzdnNDY2F3ejN6R1YtbTNSUWEyT1MzaXhiS2VIb1ZQb2JuNXp0UTN1aFZIaGM2R0ZQMEJhNXhTaHV4VjlQTFRWbnl5VS15MTFPcVIxTTZCYXJCNGNlLUQ1QXkyYnVEeG14cjhNUQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 14:52:00 GMT",
-    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1464,32 +1464,32 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
   "tnx": [
-   4.46,
-   4.57,
-   4.45,
-   4.48,
-   4.46,
-   4.45,
-   4.37,
-   4.48,
-   4.61,
-   4.6,
+   4.7,
+   4.68,
    4.64,
+   4.6,
+   4.62,
    4.69,
+   4.63,
+   4.62,
+   4.67,
+   4.7,
+   4.68,
+   4.68,
    4.7
   ],
   "dxy": [
@@ -1523,7 +1523,19 @@
    13.37
   ],
   "move": [
-   69.58
+   79.87,
+   81.53,
+   74.95,
+   70.22,
+   71.16,
+   77.03,
+   69.36,
+   65.39,
+   69.06,
+   68.14,
+   65.76,
+   68.89,
+   70.88
   ],
   "jpy": [
    157.85,
@@ -1559,13 +1571,13 @@
    38.14,
    38.58,
    38.86,
-   39.73,
-   38.94,
-   38.86,
-   36.98,
-   37.29,
-   37.75,
-   38.06,
+   38.08,
+   39.55,
+   38.81,
+   37.23,
+   37.84,
+   37.94,
+   38.42,
    38.77,
    39.64,
    40.01
@@ -1598,23 +1610,9 @@
    64796.6,
    64311.81,
    62763.32,
-   63007.64
+   63004.85
   ],
-  "vixts": [
-   0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
-   0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
-   0.835,
-   0.694
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -1730,7 +1728,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2447,16 +2446,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T20:21:46+00:00",
+  "checked": "2026-08-15T20:32:04+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",
    "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T23:02:25+00:00",
+ "updated": "2026-08-15T23:12:01+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 4.32,
-   "sma20": 349.33,
-   "sma50": 370.72,
+   "chg5": 7.22,
+   "sma20": 350.06,
+   "sma50": 371.16,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -405,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 183.96,
-   "sma50": 182.27,
-   "sma200": 182.08,
+   "sma20": 185.35,
+   "sma50": 181.98,
+   "sma200": 182.24,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.3,
-   "sma50": 38.69,
-   "sma200": 37.29,
+   "sma20": 39.49,
+   "sma50": 38.66,
+   "sma200": 37.34,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": -0.3,
-   "sma20": 12.82,
-   "sma50": 12.63,
-   "sma200": 12.73,
+   "chg5": 1.91,
+   "sma20": 12.79,
+   "sma50": 12.61,
+   "sma200": 12.72,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 0.69,
-   "sma20": 11.15,
-   "sma50": 11.03,
+   "chg5": 3.63,
+   "sma20": 11.12,
+   "sma50": 11.02,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.42,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.11,
+   "chg5": 0.13,
    "sma20": 47.4,
-   "sma50": 47.4,
-   "sma200": 47.26,
+   "sma50": 47.41,
+   "sma200": 47.25,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -725,9 +725,9 @@
    "price": 14.25,
    "chg": -2.6,
    "chg5": -4.36,
-   "sma20": 16.71,
-   "sma50": 17.14,
-   "sma200": 19.31,
+   "sma20": 16.63,
+   "sma50": 17.18,
+   "sma200": 19.24,
    "high3m": 22.22,
    "reg": 14.25,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -3.25,
-   "sma20": 95.25,
-   "sma50": 93.31,
-   "sma200": 101.2,
+   "chg5": -1.4,
+   "sma20": 95.43,
+   "sma50": 93.52,
+   "sma200": 101.12,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 8.24,
-   "sma20": 775.29,
-   "sma50": 854.53,
-   "sma200": 1020.07,
-   "high3m": 1172.52,
+   "chg5": 7.86,
+   "sma20": 771.99,
+   "sma50": 858.36,
+   "sma200": 1021.42,
+   "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63059.37,
-   "chg": 0.13,
+   "price": 63060.63,
+   "chg": 0.14,
    "chg5": -1.33,
-   "sma20": 63829.85,
-   "sma50": 63511.64,
+   "sma20": 63829.92,
+   "sma50": 63511.66,
    "sma200": 68955.51,
    "high3m": 66505.12,
-   "reg": 63059.37,
+   "reg": 63060.63,
    "pre": null,
    "post": null,
-   "regClose": 63059.37,
+   "regClose": 63060.63,
    "sess": "reg",
-   "mt": 1786834919,
+   "mt": 1786835489,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "What CoreWeave’s $1.3 Billion deferred revenue reclassification might be telling us - Deep Quarry",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wZE9uM0o2TGxfcHJpcGkweHFDZmpFSTZ1a3FDbnV4WkRHeUR5eVpQLWxLU2s0VWFTaXhsT2ZjSS1nR3EtOXpsY2o4RDdYOUZmenhPYUNIWHdrOWJZbEVUMW8tQXY5cTlWUnBDTWJKMldWczAyRWw4VA?oc=5",
+    "pub": "Sat, 15 Aug 2026 23:01:36 GMT",
+    "src": "Deep Quarry",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated (NASDAQ:CRWV) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYzBwUkZPRFNsT1JYWFJubkh3eWR0Vk44WjVUZm5pRUIxWElVY3VGMjVscGlsQWZsNHM5ZjJFMHduZVFad3JOQnBUQmJKTEZRMlRYYVpCVUJRcEVHMWZSZnVSMU5EajF3MUw2eGRaaWRHeU9yUHdRcGpIWHBKUzlXLVlNcDJVMkhYWVlUc2JZRFBuZUtDS2tmZ3JJblhfeTNZ?oc=5",
     "pub": "Sat, 15 Aug 2026 14:59:41 GMT",
@@ -1157,19 +1165,11 @@
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "The Motley Fool",
+    "src": "fool.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "T. Rowe Price’s OHA Private Credit BDC Posts Income Cover Even as NAV Slips: - HedgeCo.Net",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNekVJTFN5ZTNlNkE4a0kwQW9qUHN2Q01ReDZtTWQ2X1JYRFkxQUItYW9iR05jQi1sZ1kzbFJTUDZlUWcwZ3Fsd3poNF9QTFlGU0gxU3YyVXRCQ09JMC1fNV9iWVRxLVFfQUJaNEpETUZUSkVJbHV3VlhEakhRbU5wVmJhZmJhYjF3RFdjeF90YmNrdHFqd1cxT3dUc1hxWkUzZWV2djVfN2xqRkFaNHNRMA?oc=5",
-    "pub": "Fri, 14 Aug 2026 14:56:12 GMT",
-    "src": "HedgeCo.Net",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1207,23 +1207,31 @@
     "geo": false
    },
    {
-    "title": "USSF-366 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
-    "pub": "Sat, 15 Aug 2026 19:16:52 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Anthropic shares more details about how Claude’s new watermarks will work - TechCrunch",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWJ1ZmhOTldsYm5ndl83cmtEeC03dGxRT28tcEZQOXV3MVZUVmFDS3JhZzVzUDBnMFg5N0hPUE9VYTdRd2ljSGU1TUk0VTE1a0hOcFZ0RTNEWFg1OWJkRVdkcVVQSzM3MmR3WDBqQ1lQbXZFaEhOQ0tDaW9za3REd1RaX3ZZdGMwdzRHb3pOMTd5X004V0RLanFRdEhPT05RbXlWVFhDZklWWlk?oc=5",
     "pub": "Sat, 15 Aug 2026 18:58:39 GMT",
     "src": "TechCrunch",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "In 2016, SpaceX said it would land an uncrewed spacecraft on Mars as soon as 2018. In 2017, Musk moved the first cargo landings to 2022. In 2024, the target became 2026. Now SpaceX says no earlier than 2028. Across a decade, the pattern has been rema - ScienceBlog.com",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5EV2djMTNaZWo4bFdMR0tDT2FuTElXYXUxakN1THRIcHhlWXE2OVZSbkVKai1MSXN0dl9IQ0l3UVI0S001NjA5Qy1yUG5iM1IzeDVaYkxlWnFlRW4wNEN2MHdfWXMwV1FtXy1SUXZUdWdvSzZzWE1CNmdRc1BoQQ?oc=5",
+    "pub": "Sat, 15 Aug 2026 17:30:00 GMT",
+    "src": "ScienceBlog.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
+    "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
+    "src": "Mshale",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTDk2OWNYbWQySEtad3g3SzREZWNvVDduTVVEOEowNWtpQnA5d3BObmdqSmdFbHZRYThRTHhXVHZNQU1TWkw3b2pTcnBYT3M2OWF1QzZVVGMwRDRNZ3hzRGNWZ1J1eFE4ZXBqLWZYdnk4VEJHR1VpeVdGLW5ucDZEc3E2OGl5QjNWS2pmZVNRTnp0dlIyajh6X1JNVmVzZTNQSUdXV3NBLTU2dmNSY3Vua0d4WWZnbFpfYzNoTHV6Ynl5UDhHQWJmN0ZqUGJSWXVGakV2bmxWeTE1M05fZUF1LUVzMkhfX0g4emlidF9NRWpudzU0bUREUFBqUHZCTElUVDNIcWZHcTE1T0pveldobDdKRHNXd0hXY2JsNHNWNDVMR0ZKUy1IZ21QeGo1T2U1bTNfbXRpeld1cnRVYldWaVh0N3l0UdIBywJBVV95cUxObWJkbzBRNG4tSHl5V3N1M2dhQmoxdDhjOGJfenhxLUNKZWVyYmpMMHlCQ1NDTUdMZ25BTUFLd1R1c1RQSTV1d2RPaXJ2ZENmMEd4RkViTFNsNmExaGtXSnNPYkMtRkZ0N2hFWDl1V3NXaV9rdkpzR0dmXzByd1FMZkxzOFJkOGFIN0tuMDJVWVNENDdYdUc1N010MmhVazFReVpsUE4ybWxkSmxLcFRnNTgyQ3BxdHRnZEFNdEtmQTlfY25IMjdFZVNKUDdaTnR5RG9ua3pBZ0ZMT3VaemhMWnNQWXF6SWZhaW9wMGtUSVAxcjVOemdqdnlDeEtBaDVDak1CRjB6b05XY0hiY2hiNHhuMnJnTl9oQXVMM3pMTUhzT3dGdmVpTS1QWFY4cWtmM2kteTRXX2doSVlISW0ydkZTaDdTa0tsTUY0?oc=5",
@@ -1233,10 +1241,10 @@
     "geo": true
    },
    {
-    "title": "Fed Chair Kevin Warsh Is Reshaping the Central Bank, but the Unintended Consequences of His Actions Can Derail Wall Street - The Motley Fool",
+    "title": "Fed Chair Kevin Warsh Is Reshaping the Central Bank, but the Unintended Consequences of His Actions Can Derail Wall Street - fool.com",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdFp5R2RUeGlXblZURG5CNXpCTnNEN2c2LW1rSThRaGJzbkVCV0xVV1JGLUViSGM2dlo1NEVNc0RFUnREMHVjbktNWnU4ak1BM3htVHg0Tlh4WEQwYkVETXhyMVBvVHhwbkVQUE8zREFyNzNuczAwNjlWSEswSFV2UFdGT0dJYU1VUDV5MG42UUVNWXVO?oc=5",
     "pub": "Sat, 15 Aug 2026 14:06:00 GMT",
-    "src": "The Motley Fool",
+    "src": "fool.com",
     "trig": false,
     "geo": false
    },
@@ -1249,26 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Weekly Global Market Recap: The Inflation Turning Point Takes Hold, the AI Supercycle Reboots, and Geopolitical Risks Remain in Play - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sQUxldFVkZ0pjNWliM3RkTk5KTlQ4U2l3b01FRWJTZVZubk1CTDFKWnZ1bWgwS3JRVmtYSE1WaFlkT25peDJ2ZmtxNHRrN1djclNrenpqelJFLS1TcXVJMmxRYkY?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:37:41 GMT",
-    "src": "Binance",
+    "title": "US says lower oil prices, not Iran's nuclear program, are now top priority in war - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2RkUERWUXdITWY3eDE3ZHJUWFJ1MlBpVGFqVUxIdVpJY0x3SHpvRk9ZTTIzWV9rbndLNjU2RDdBVzZLME52dHlCekRYVHNWM0tDVnAzXzZZZUxIajE5czNMbjlhcWZOZFBuZEkzWFJiQWlHRUVWeThfR3YtUXFzT3BCWFBCVzdwSzlzb2luQjU3NDc4UEJYbzNVZl9fNVpnZGVicWpqd3prcXkz?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:33:45 GMT",
+    "src": "ABS-CBN",
     "trig": false,
-    "geo": false
+    "geo": true
    },
    {
-    "title": "Black rain and burning oil: environmental cost of war in the Middle East - The Nation Newspaper",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2xMck9NNDMyLWpjcVhKUVRtdUU1UjI5ZXlFWUVlY1RabEhYYUpzanBNOVljeUY1MDYxVmRsU0tNdTFQREljdjRRWGRyTWgzMmp5WmhaNUNvTVRYNnlIU3kzal9sVmJCZzYwRjJEVFhad3FtYUZSQ3Z0S0NwYXZIcnh6SFc0NHY0MjhZVmxiNDJQdEc4Slc1SlVBVHIyZVJ1Qm5odNIBqgFBVV95cUxNNG9EX0s1NmFtVVlkeWNkMnRPUVlaZzBJc190NG5HYlBvbGhET19ZOG5sdWp4MEtSQ01IcVpNR0REaTltYll6eUVqOUhXbU8tOTkzVEh6M0JmT0VHS1FxdDAyb0RPUExMZkJRQU1oUkNjT0F5Wkx6dzlidU9BQkJVbllTZGlRSVpUX0Nzd1d6YkxyOVpfcTJUSzlEM29TNnRFT2pJdFBtT1JIQQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 03:24:27 GMT",
-    "src": "The Nation Newspaper",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Risk-On Sentiment Holds Steady as Markets Trade Quietly - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm5JNnI5cXp4cktrZjNOb3VoYjlVdk1tRFQ2bWlyelc3czNfTTAtTFMxbHZhX1hfU25YRm1oQlpkMEd2UVJnY3RUYS1tS3hxVExSOE5iMEc5QjVES1VTazAxMVRuTFRzOHg1V2J5aWhpRjBvSEtTMjF6VFNPVjM3UGVpbVZoaVM0Mnc?oc=5",
-    "pub": "Sat, 15 Aug 2026 01:04:04 GMT",
-    "src": "CryptoRank",
+    "title": "Trending mortgage rates - firsttuesday Journal",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:26:07 GMT",
+    "src": "firsttuesday Journal",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Geopolitical Safe-Haven Demand Support Gold — What Could Drive the Next Move? - kalkinemedia.com",
+    "title": "Geopolitical Safe-Haven Demand Support Gold — What Could Drive the Next Move? - Kalkine Media",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNM1NseDM2YUtOejB0SWN2NElBc2tFQVBEU1FQWUVGZWxsbXJ5OWV5YUVSMmxOVFo5RkpFVzFfTF9uMTR6SmxEYmlBVE1PN0hFMXJfTXpISmdrWHB2cGhwU1ZFaldrNnREclYzbW8xc1ZKZm9ySHM3T3lGUkpuYkpSUUpHZUpaMVBGSk9ockl4aTFkN0lfOFQwTXJ3ODJTLTBrSG0tTG1UQlh0SFdtS0hPMUtqMDE?oc=5",
     "pub": "Sat, 15 Aug 2026 14:40:00 GMT",
-    "src": "kalkinemedia.com",
+    "src": "Kalkine Media",
     "trig": false,
     "geo": false
    },
    {
-    "title": "The Gold Price Surge Is Not Translating Into — A Fresh Market Opportunity? - kalkinemedia.com",
+    "title": "The Gold Price Surge Is Not Translating Into — A Fresh Market Opportunity? - Kalkine Media",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTDN0d0JVZUZnbFJwS09QNXRiakVEdFVUZ2pkdjZJXzg0ellSQnZLYW5VaTRLNDBGWDJkdTlCUTZKQTRKMjMwcEl1blJhVklDQVhLTURSVkk2NUtmRkhjZDRlR2dPT091MU9HakNqSGVjbFhYVzJULVF1aUE0S0FMRkJTN3d3SHh0cTY1RTZZN2xkQ3l0RDdBQTZIN1B4TmZjbVF0WXByeThHZnFFUnlQSg?oc=5",
     "pub": "Sat, 15 Aug 2026 14:39:00 GMT",
-    "src": "kalkinemedia.com",
+    "src": "Kalkine Media",
     "trig": false,
     "geo": false
    }
@@ -1496,13 +1496,13 @@
    99.27,
    99.19,
    98.91,
-   99.41,
-   99.86,
+   100.07,
+   99.75,
+   101.02,
+   101.11,
    100.85,
-   101.43,
-   100.86,
-   100.94,
-   100.73,
+   101.28,
+   100.99,
    101.51,
    99.96,
    99.67
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.22,
-   12.67,
+   12.36,
+   12.44,
    12.45,
    12.47,
-   12.57,
-   12.46,
-   12.74,
+   12.72,
+   12.34,
+   12.4,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   63059.15
+   63057.15
   ],
   "vixts": [
    0.808,
@@ -1692,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2828,
-   0.2821,
-   0.2838,
-   0.2861,
-   0.286,
+   0.2853,
+   0.2816,
    0.2875,
-   0.289,
+   0.2862,
+   0.286,
+   0.2862,
+   0.2911,
    0.2865,
    0.2869
   ],
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 에너지 가격 상승압이 있으나, VIX 14의 낮은 변동성과 4.70% 금리 수준에서 시장은 아직 평정심을 유지하고 있는 상태다. AI 인프라 수요 호황 속 CoreWeave 등 엣지 컴퓨팅 기업의 밸류에이션 상승이 두드러지며 GPU/HBM 사이클의 외연 확대가 진행 중이다.",
+  "text": "중동 긴장 고조로 유가 상승 압력이 있으나 VIX 14 수준의 낮은 변동성과 안정적 신용스프레드(2.71%)는 시장이 현물 유가 급등보다 Fed 금리 경로에 초점을 맞추고 있음을 시사한다. AI 인프라 투자 사이클에서 CoreWeave 같은 데이터센터 사모대출 자산의 자금화 흐름이 활발하나 GPU/HBM 수급 부문에서 특이 신호는 없다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,11 +1739,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 1,
-   "geo": 1,
+   "geo": 2,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2460,16 +2459,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T23:02:15+00:00",
+  "checked": "2026-08-15T23:11:48+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

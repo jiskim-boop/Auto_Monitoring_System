@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T09:11:54+00:00",
+ "updated": "2026-08-15T09:21:56+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
-   "sma200": 358.78,
+   "chg5": 4.32,
+   "sma20": 352.49,
+   "sma50": 372.02,
+   "sma200": 358.77,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,10 +644,10 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
-   "sma200": 11.19,
+   "chg5": 0.69,
+   "sma20": 11.19,
+   "sma50": 11.05,
+   "sma200": 11.2,
    "high3m": 11.91,
    "reg": 11.72,
    "pre": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62885.64,
-   "chg": -0.14,
-   "chg5": -1.6,
-   "sma20": 63821.17,
-   "sma50": 63508.16,
-   "sma200": 68954.55,
+   "price": 62892.54,
+   "chg": -0.13,
+   "chg5": -1.59,
+   "sma20": 63821.51,
+   "sma50": 63508.3,
+   "sma200": 68954.59,
    "high3m": 66505.12,
-   "reg": 62885.64,
+   "reg": 62892.54,
    "pre": null,
    "post": null,
-   "regClose": 62885.64,
+   "regClose": 62892.54,
    "sess": "reg",
-   "mt": 1786785085,
+   "mt": 1786785686,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,26 @@
   ],
   "fundamental": [
    {
+    "title": "USSF-366 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:13:21 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Microsoft: AI CapEx Is A Good Problem To Buy (NASDAQ:MSFT) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPRDFTeHlja3VWbWlHVGpYWUVramQ5RGxIT21EVV9XNkRXYWlxdnlMWXl2OTJWbEZBWDhBN29Nd2RadmtSVmVEQzZvMjhxZ0JyYlhvQ3lhQVFyS3dkYXpFX0xRRk81RVVPUVFhQ1pvS3BrYkY4RWk1Qk45NnA4SVJOYUVIcC1tZw?oc=5",
     "pub": "Sat, 15 Aug 2026 08:55:05 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Earnings Drive Both Bull and Bear Markets - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY1VoVzBQeDg0anJncmtwWTVmNDMzaENmLVQxOE1lcGRFeTE4bEQ3d0pPMFpQNXlxdWhXUmZDMy1tWlNpVXhERzMtZnEyTGVta2twWWJnRUZuak5hbWNZcVBzRnJWSEh5ak1jYUZaeEY1VXhFQXgyQzdybTZTYmNxVnFhLU1lTTF2UTJwa0Z1NWREcVotSzc1dHV3?oc=5",
+    "pub": "Sat, 15 Aug 2026 08:32:00 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1199,26 +1215,10 @@
     "geo": false
    },
    {
-    "title": "USSF-366 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
-    "pub": "Sat, 15 Aug 2026 06:10:37 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk admits he was ‘clearly wrong’ about Anthropic, and Amazon investors are paying attention - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOWDlER0ZUb3NUbFI3alJySy1pY0ZiVWZvNzZ1WmlOalI5UG5PYXA0Q05OV2QtQ1F6NG4tSEluYmg1ZHU5YmxCcTVMcXY4WEMxclZIR2tVc2I4Q0lXanlsemhxNVpUbENTRTExZ25KQUhncjR4VnpxRDMyenBfWmZ4QXNQaGFJZU55VGZFTm9hUlNFRFgyV0ktaHFncmt3bHhHMzU4R1pUNHRvY0NmMHNmdXZydDBFZFYzNExGR0VOUDNrRmJxWVdyalhDemc2b3dXRWM5OFd6c3N5YUNtTDhhVmNnaTMzcVYxbWhGVzRmYTB6UQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 05:07:00 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic backers eye $2 trillion valuation. Its projected Q2 revenue was $10.9B - R&D World",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTlpTSVRiYkVEbEZYcTUxcUVmcUlXclhrV3U2em96b015ZXoxY2Z5LWpVemNlM1M1TnNTMUJoX3UzSjhpRlF5WXJicEljS2lZUHgyWl9rSXRUeXBVcngtT1FjZVZQbUJIRGFXcVdPUldPVWlscjFWR1NzM3FqMmdJVmRQcVFleXJCaUZXcXFhVnFEV05PTkxlZDN4OWZMLTM3Nk1USFZYY19oeXZL?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:40:22 GMT",
-    "src": "R&D World",
+    "title": "Did Oracle’s Expanded AWS AI Push and Rising Debt-Funded Capex Just Shift Its (ORCL) Investment Narrative? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQcjQxcUNseUNOWGxTMmY1dHJja3Y0QWQyWkNpeWJhbjdGY3NqM0U2WktoRkU1Y3BJeDhiSzQtdGMxcHFQZXlSWDNRYXhuVkQ3c3BhbVhtWUFmUVI5eXQ5S0g4UGVjajFVMlZvNnBHNzF0TXgtcTNpQ296Nll4bU9BSGpXZkpkc2labnc4Ty1xa20takxG?oc=5",
+    "pub": "Sat, 15 Aug 2026 06:12:00 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1233,10 +1233,10 @@
     "geo": false
    },
    {
-    "title": "Black rain and burning oil: environmental cost of war in the Middle East - The Nation Newspaper",
+    "title": "Black rain and burning oil: environmental cost of war in the Middle East - thenationonlineng.net",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2xMck9NNDMyLWpjcVhKUVRtdUU1UjI5ZXlFWUVlY1RabEhYYUpzanBNOVljeUY1MDYxVmRsU0tNdTFQREljdjRRWGRyTWgzMmp5WmhaNUNvTVRYNnlIU3kzal9sVmJCZzYwRjJEVFhad3FtYUZSQ3Z0S0NwYXZIcnh6SFc0NHY0MjhZVmxiNDJQdEc4Slc1SlVBVHIyZVJ1Qm5odNIBqgFBVV95cUxNNG9EX0s1NmFtVVlkeWNkMnRPUVlaZzBJc190NG5HYlBvbGhET19ZOG5sdWp4MEtSQ01IcVpNR0REaTltYll6eUVqOUhXbU8tOTkzVEh6M0JmT0VHS1FxdDAyb0RPUExMZkJRQU1oUkNjT0F5Wkx6dzlidU9BQkJVbllTZGlRSVpUX0Nzd1d6YkxyOVpfcTJUSzlEM29TNnRFT2pJdFBtT1JIQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 03:24:27 GMT",
-    "src": "The Nation Newspaper",
+    "src": "thenationonlineng.net",
     "trig": false,
     "geo": false
    },
@@ -1257,17 +1257,17 @@
     "geo": false
    },
    {
-    "title": "Bond traders face confusion as geopolitical risks and inflation overtake growth signals, AlphaSimplex says - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRfS25iNV9ZaFR5WUNoR2hId0xlTUZSakZ6SkNVYXcyY0xsdmFHYkhjWEp5SGNlTHpVYm1uYWlaRnIwSnZxbFl4WFBGdENrdFJCdWtIU09iSFZNSUJjd2dCbTJkdC10d21lWF9VRC1IR0lYZVlXTFZnS1lsWkpSNVdHNTczdlFlT0E?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:12:33 GMT",
-    "src": "Crypto Briefing",
+    "title": "BNN Special Coverage Of Bank Of Canada Interest Rate Decision Gary Rowett (JArZk2dnFL) - mshale.com",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzQTFHM0w5cWpZMlJVallKVTVacFpsQlo0ekdEMnNPS1VySFVVM0JVd2R2bnRXRlhWNFZwYmV6YmNHODdBd1RQZzdqSXRHZGVBeW04c2hlQ25VZ3FINDkyUw?oc=5",
+    "pub": "Fri, 14 Aug 2026 20:40:12 GMT",
+    "src": "mshale.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Blue-chip firms flood US debt market amid investor caution - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE14RUNoX0wwSGdYNGREdDhSRHA5blh6NzVZb1hpZWg1WGVZTXFHdUJlby1Uc3ktdXFwV1ppRUx1TDZ4eUo5T1dtZmUydzc4MWFrcEpqM0NqcjVVUWVtSXZRbHVYV0FKTl9iX2p2cVRJUW5NZw?oc=5",
-    "pub": "Fri, 14 Aug 2026 18:55:23 GMT",
+    "title": "Bond traders face confusion as geopolitical risks and inflation overtake growth signals, AlphaSimplex says - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPSkRfS25iNV9ZaFR5WUNoR2hId0xlTUZSakZ6SkNVYXcyY0xsdmFHYkhjWEp5SGNlTHpVYm1uYWlaRnIwSnZxbFl4WFBGdENrdFJCdWtIU09iSFZNSUJjd2dCbTJkdC10d21lWF9VRC1IR0lYZVlXTFZnS1lsWkpSNVdHNTczdlFlT0E?oc=5",
+    "pub": "Fri, 14 Aug 2026 19:12:33 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1291,14 +1291,6 @@
     "geo": false
    },
    {
-    "title": "Jinlu Electronics' H1 Revenue Jumps Over 40%, But Copper-Clad Laminate Price Hikes Squeeze Margins - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fd25JNG9nWFFfT2p6c0J1akNpN2VoQkVLTjJwVXdielhOalJxNFd4aHdLRGU5VjYtNi1PeGVXUXZucGlTRXZXMHlHVEYxWE1nSVl1aEo2OFZTMjhfdnRZS19zQlJYSHlMc3NYZTZwNTFiamVNOVE?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:55:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Faraday Copper: A Sensible Speculative Buy - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbUtRYl9WOGRaaFYwWGxhcDE3R0ZfaWhKQkg1enMzXzQ1YVpCSG5IZ3F3REJwQ3BKcXlFYlNHVTE4VkpFWU1xSmV3NjhYc2xkeEEta0llUU9kUlVnT0twam5aOTJZR3I1Y25NQy0yZkVpal9mS0ZjcS1pdkZaVnJjS2Z3MmV4OGQ0dXc?oc=5",
     "pub": "Sat, 15 Aug 2026 04:47:40 GMT",
@@ -1315,10 +1307,18 @@
     "geo": false
    },
    {
-    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - FOREX.com",
+    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - forex.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBxTnB4bGdReERLRG1CNkdqSE91N3RGMWpxVFRwc1NtVjBxMzNXMjF4Q2ZHTnZLMS10QlNYSml4VUdrQWczZ2RrUktyM0paN1MzRlVfTFd3cW5WdngyQWtPWWJJTjFaUFVzM3VMRlUtT1M1RVRXYlM1ZXAxTjJ3QVY4anViaTJ1aFZBWVNTYTBuRjZ2TkNac2VQX0tsaG5mZkY3RnNVZERpSmdETkVvY0dUMEY?oc=5",
     "pub": "Sat, 15 Aug 2026 04:03:02 GMT",
-    "src": "FOREX.com",
+    "src": "forex.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Dubai Gold Rate Today: 18K, 22K, 24K Gold Prices for August 15, 2026 - LatestLY",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPZVFUWHlxUDVKOGEtblJsU0JGaWtfZnlMMGszTGtyT0JSRW83SzJhMnJJcGN1OWoyczBhZGZFSFJRSnBWRFM0aTU2ekJ0MzR3cThOQm1YeXdYcngwWWhUWHI5eUVVOTlGQnJNTUUyTldONW1oLUJkd195Vkc1TFVrQ1d0a0pqZEstaUs3RlowdFFZMnJrc3ZMWFJBMllCRFdwVjlwTTlaN3h3VTF10gGyAUFVX3lxTFBPQ3VyUmZuSUIxeXAzWTdhTksyNHFiZV9zaTc5U2ZfSTRSakRTQ2J6a3EzOTBRV3E5WTUyLVBaa1dEWHgySmhwdzQ5VGc4Qk1oQ3ZPM3N1ZXl6Y29XNHl1VFpKTmMwQXMzRzFDUmtzTWVfSno4Q085dEZUZkFieEc1MUoxR0NUV0lITHdBZXhWcUtORDRjWC1GMFA5UlFkckNXVXREZ2xHejliMXFEUFlVOEE?oc=5",
+    "pub": "Sat, 15 Aug 2026 03:09:31 GMT",
+    "src": "LatestLY",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   62885.64
+   62895.7
   ],
   "vixts": [
    0.808,
@@ -2460,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T09:11:43+00:00",
+  "checked": "2026-08-15T09:21:46+00:00",
   "openai": {
    "found": false
   },

@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-15T02:12:00+00:00",
+ "updated": "2026-08-15T02:21:56+00:00",
  "prices": {
   "NVDA": {
-   "price": 225.16,
-   "chg": -0.06,
-   "chg5": 0.54,
-   "sma20": 210.39,
-   "sma50": 206.52,
-   "sma200": 200.14,
-   "high3m": 225.32,
-   "reg": 225.16,
-   "pre": null,
-   "post": null,
-   "regClose": 225.16,
-   "sess": "reg",
-   "mt": 1786737600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 392.99,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62986.69,
-   "chg": -0.66,
-   "chg5": -2.87,
-   "sma20": 63944.45,
-   "sma50": 63451.0,
-   "sma200": 68988.14,
+   "price": 63019.74,
+   "chg": -0.6,
+   "chg5": -2.81,
+   "sma20": 63946.11,
+   "sma50": 63451.66,
+   "sma200": 68988.33,
    "high3m": 66505.12,
-   "reg": 62986.69,
+   "reg": 63019.74,
    "pre": null,
    "post": null,
-   "regClose": 62986.69,
+   "regClose": 63019.74,
    "sess": "reg",
-   "mt": 1786759892,
+   "mt": 1786760488,
    "ok": true
   },
   "USO": {
@@ -1149,10 +1137,10 @@
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "The Motley Fool",
+    "src": "fool.com",
     "trig": true,
     "geo": false
    },
@@ -1177,7 +1165,7 @@
    {
     "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 00:46:58 GMT",
+    "pub": "Sat, 15 Aug 2026 02:16:58 GMT",
     "src": "Bloomberg",
     "trig": false,
     "geo": false
@@ -1207,10 +1195,10 @@
     "geo": false
    },
    {
-    "title": "SpaceX’s Starship generates more than twice the thrust of the Saturn V that carried humans to the Moon, yet after 13 test flights it still hasn’t demonstrated ship-to-ship refueling in orbit — one of the biggest technical hurdles standing between Starship and Mars - spacedaily.com",
+    "title": "SpaceX’s Starship generates more than twice the thrust of the Saturn V that carried humans to the Moon, yet after 13 test flights it still hasn’t demonstrated ship-to-ship refueling in orbit — one of the biggest technical hurdles standing between Starship and Mars - Space Daily",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPdFltREdlbGpfR1VQN01CZXNhQ2pTQkZVeWZ2WU8tUFFtRGZ4SjVPdGdiOXBrWFd2bVJ3T3JIbFhTclpOWUpxUDVjS19qdzl5bjdwY1U2aEEwZEpCMUFhcjdZWDlUWE1mNVVETjRDT0Y0djVva2pteG5pbndCeHlwRXZGc3kzWGs?oc=5",
     "pub": "Fri, 14 Aug 2026 22:30:00 GMT",
-    "src": "spacedaily.com",
+    "src": "Space Daily",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1598,7 @@
    63899.46,
    64098.5,
    62813.75,
-   62986.7
+   63026.72
   ],
   "vixts": [
    0.808,
@@ -2451,16 +2439,18 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 60,
-  "n": 35
+  "pct50": 59,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-15T02:11:47+00:00",
+  "checked": "2026-08-15T02:21:45+00:00",
   "openai": {
    "found": false
   },

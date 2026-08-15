@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T12:02:42+00:00",
+ "updated": "2026-08-15T12:11:54+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -325,9 +325,9 @@
    "price": 126.24,
    "chg": 5.42,
    "chg5": 6.87,
-   "sma20": 127.59,
-   "sma50": 132.8,
-   "sma200": 145.22,
+   "sma20": 128.08,
+   "sma50": 132.88,
+   "sma200": 145.07,
    "high3m": 149.36,
    "reg": 126.24,
    "pre": null,
@@ -405,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 185.35,
-   "sma50": 181.98,
-   "sma200": 182.24,
+   "sma20": 183.96,
+   "sma50": 182.27,
+   "sma200": 182.08,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": -5.33,
-   "chg5": -0.59,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.46,
+   "sma50": 18.46,
+   "sma200": 18.46,
+   "high3m": 18.46,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.46,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62938.28,
-   "chg": -0.06,
-   "chg5": -1.52,
-   "sma20": 63823.8,
-   "sma50": 63509.21,
-   "sma200": 68954.84,
+   "price": 62931.73,
+   "chg": -0.07,
+   "chg5": -1.53,
+   "sma20": 63823.47,
+   "sma50": 63509.08,
+   "sma200": 68954.81,
    "high3m": 66505.12,
-   "reg": 62938.28,
+   "reg": 62931.73,
    "pre": null,
    "post": null,
-   "regClose": 62938.28,
+   "regClose": 62931.73,
    "sess": "reg",
-   "mt": 1786795316,
+   "mt": 1786795886,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,18 @@
   ],
   "fundamental": [
    {
-    "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg",
+    "title": "Nvidia-Linked Compute Futures to Launch Oct 5; $500B Fund Set - Whalesbook",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPeUI3TThZRUY5YnhieG85bU9ZQjdTVmwtS3NubVlsYjcwU01jNmFnaHhyMVVJN2VWY1Bzc211a29XYzdSTFIyT2daS3NadmlTb0x1ZjFXVW9TRHZjZzlaMk04WVUxV18yaUZTWUtHV3E3cTUwQU1NWWFMclptVXBuYXpFMmZRcUo1S3ZrVWhvX3dScVNneEo2YnJhMjFYOFY4b1k4UGVvVDFGYWlFdGVuS2RwTDVXb2hVOUxNNlhvUWtvX09QUFp2VVkyWHpDb0ppdDluTEc5WUE?oc=5",
+    "pub": "Sat, 15 Aug 2026 12:01:03 GMT",
+    "src": "Whalesbook",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI’s Revenue Run Rate Tops $40 Billion, Bolstering IPO Case - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVU5keXd6dll5LXFjYWZWa0J6U3BSU0pzZ3pwYUNvVXVnVWJMSkZUeHlTWU1rS0lJTHJfVld2T21qOUIzeTJmSFZ2cGpiQnByMVZiY3Nxd0Q2OG1EM0dCNTJYN3JUNjQybzZreDBNbEdzOXN6all5cFQwek02STcwbGRLUm55Wnc5QWcwc2VqazYzbXdkZ2xqY0V1R2oxOWhYY0prd09YdXFsYkJjS1hjU1dRSWtpQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 09:47:07 GMT",
-    "src": "Bloomberg",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1210,14 +1218,6 @@
     "title": "The AI Compute Boom Isn’t Peaking — It’s Just Getting Started - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZHYzRjVqMjRZSkt5TElDWld1SjJrNWR5eGtLXzhiTG1ZYWl3bG9rcG1kTVZKaExDZC1rS21pN1VMc0hRRnZXT2hadlY3bFkwY0ozaE42aEhGOWRWYXRvLURLNmtWWmxHREdwQWtJbG9XMXpJbVdJYllwaURlMlVPQnpxU2FackVkbXYyRjZ3Z1NHcndBUHg1XzRPTThFcEJuYTVIR09QVzNvRFFUQWRZTg?oc=5",
     "pub": "Sat, 15 Aug 2026 08:36:00 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Earnings Drive Both Bull and Bear Markets - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOY1VoVzBQeDg0anJncmtwWTVmNDMzaENmLVQxOE1lcGRFeTE4bEQ3d0pPMFpQNXlxdWhXUmZDMy1tWlNpVXhERzMtZnEyTGVta2twWWJnRUZuak5hbWNZcVBzRnJWSEh5ak1jYUZaeEY1VXhFQXgyQzdybTZTYmNxVnFhLU1lTTF2UTJwa0Z1NWREcVotSzc1dHV3?oc=5",
-    "pub": "Sat, 15 Aug 2026 08:32:00 GMT",
     "src": "Investing.com",
     "trig": false,
     "geo": false
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "BNN Special Coverage Of Bank Of Canada Interest Rate Decision Gary Rowett (JArZk2dnFL) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFAzQTFHM0w5cWpZMlJVallKVTVacFpsQlo0ekdEMnNPS1VySFVVM0JVd2R2bnRXRlhWNFZwYmV6YmNHODdBd1RQZzdqSXRHZGVBeW04c2hlQ25VZ3FINDkyUw?oc=5",
-    "pub": "Fri, 14 Aug 2026 20:40:12 GMT",
-    "src": "Mshale",
+    "title": "September rate decision Archives - GoldSilver",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1MLVBuY1Jid1NHS0NPSy1sZVNkUkJ0cjNFYl9KZ0dYcmVKbmN2aHpac3FhR3YtakxTVklaZklRNEdaY05NdkVsREJhbFFqZ3Y3YzdfdWNHeURtdkJhSUFjUA?oc=5",
+    "pub": "Fri, 14 Aug 2026 22:01:56 GMT",
+    "src": "GoldSilver",
     "trig": false,
     "geo": false
    }
@@ -1283,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - litefinance.org",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 15 Aug 2026 10:07:50 GMT",
-    "src": "litefinance.org",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1295,6 +1295,14 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPcHVOZmJHWEZWTHlqMXdMc3lZVUtvWVFiR1pEMXZ3YTJPQ3A5amlIZWFhUXpNenFlWmVraVJlNFNJV19pMkdmalAydTZXU19SN2lyS1ZrZFNRWHhMTjlwZGtXenhBOFhOT0tteVZuSE9pdV8zc0JUNkp1WnhKRmZqSFItQzB0MEYtN1lZTlBhSHdFeTNEaDZwWHRpay1WM3NLX2FvNHJNOTcySDJXdzBTUUpyNmRaVWc5SXA2TEZfRFM?oc=5",
     "pub": "Sat, 15 Aug 2026 05:08:22 GMT",
     "src": "InteractiveCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Jinlu Electronics' H1 Revenue Jumps Over 40%, But Copper-Clad Laminate Price Hikes Squeeze Margins - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9fd25JNG9nWFFfT2p6c0J1akNpN2VoQkVLTjJwVXdielhOalJxNFd4aHdLRGU5VjYtNi1PeGVXUXZucGlTRXZXMHlHVEYxWE1nSVl1aEo2OFZTMjhfdnRZS19zQlJYSHlMc3NYZTZwNTFiamVNOVE?oc=5",
+    "pub": "Sat, 15 Aug 2026 04:55:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRjJwd0RMZUozRVB5UDFKb0hpSzRDaGdyNy1UOGc4VUNyQ0V1N2hyNVRYX2M0eE9UcmR6WUhyYzItQVhzR01UcW15cmRYX2JiYjRiZ1VhUjZZTFhqMUxfbTE2ZFFtM0V0UThMNUJENmx3Wk1xY2hCaW9SMjRnR0hoRVdHcU1tblpnTEpmS3JFdzhWX00?oc=5",
     "pub": "Sat, 15 Aug 2026 04:46:53 GMT",
     "src": "TechJuice",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - forex.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBxTnB4bGdReERLRG1CNkdqSE91N3RGMWpxVFRwc1NtVjBxMzNXMjF4Q2ZHTnZLMS10QlNYSml4VUdrQWczZ2RrUktyM0paN1MzRlVfTFd3cW5WdngyQWtPWWJJTjFaUFVzM3VMRlUtT1M1RVRXYlM1ZXAxTjJ3QVY4anViaTJ1aFZBWVNTYTBuRjZ2TkNac2VQX0tsaG5mZkY3RnNVZERpSmdETkVvY0dUMEY?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:03:02 GMT",
-    "src": "forex.com",
     "trig": false,
     "geo": false
    }
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
@@ -1610,23 +1610,9 @@
    64796.6,
    64311.81,
    62763.32,
-   62940.62
+   62931.72
   ],
-  "vixts": [
-   0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
-   0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
-   0.835,
-   0.694
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -2460,7 +2446,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T12:02:30+00:00",
+  "checked": "2026-08-15T12:11:44+00:00",
   "openai": {
    "found": false
   },

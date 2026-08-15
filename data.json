@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T19:22:15+00:00",
+ "updated": "2026-08-15T19:32:26+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63035.98,
-   "chg": 0.1,
-   "chg5": -1.37,
-   "sma20": 63828.68,
-   "sma50": 63511.17,
-   "sma200": 68955.38,
+   "price": 63027.22,
+   "chg": 0.08,
+   "chg5": -1.38,
+   "sma20": 63828.25,
+   "sma50": 63510.99,
+   "sma200": 68955.33,
    "high3m": 66505.12,
-   "reg": 63035.98,
+   "reg": 63027.22,
    "pre": null,
    "post": null,
-   "regClose": 63035.98,
+   "regClose": 63027.22,
    "sess": "reg",
-   "mt": 1786821697,
+   "mt": 1786822314,
    "ok": true
   },
   "USO": {
@@ -1177,8 +1177,16 @@
    {
     "title": "USSF-366 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
-    "pub": "Sat, 15 Aug 2026 18:14:37 GMT",
+    "pub": "Sat, 15 Aug 2026 19:16:52 GMT",
     "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic shares more details about how Claude’s new watermarks will work - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWJ1ZmhOTldsYm5ndl83cmtEeC03dGxRT28tcEZQOXV3MVZUVmFDS3JhZzVzUDBnMFg5N0hPUE9VYTdRd2ljSGU1TUk0VTE1a0hOcFZ0RTNEWFg1OWJkRVdkcVVQSzM3MmR3WDBqQ1lQbXZFaEhOQ0tDaW9za3REd1RaX3ZZdGMwdzRHb3pOMTd5X004V0RLanFRdEhPT05RbXlWVFhDZklWWlk?oc=5",
+    "pub": "Sat, 15 Aug 2026 18:58:39 GMT",
+    "src": "TechCrunch",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQbHVOU3cyY0NpeTY1ZHJia1FPdEpGaEhFX2ZzdnNDY2F3ejN6R1YtbTNSUWEyT1MzaXhiS2VIb1ZQb2JuNXp0UTN1aFZIaGM2R0ZQMEJhNXhTaHV4VjlQTFRWbnl5VS15MTFPcVIxTTZCYXJCNGNlLUQ1QXkyYnVEeG14cjhNUQ?oc=5",
     "pub": "Sat, 15 Aug 2026 14:52:00 GMT",
     "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic revenue reportedly jumps to more than $11.5 billion in second quarter - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNOGFTR2NEWkd0UXZ2Y3pITjZ4MXRQZEREU3A0LU9GXy1aY0Z1bzNUY083NE4xN21wc2V3czEtWC1idGliQzZxM2h4WTRuSzRSVGFUN2tMS2VFN0k2QTlHSEhaWHd3ekpSSS16YTVSdTFwMUtkX1lZYVZGdjA1NEx2aFdQUVJnSXZWRE11RGxJSGpsWG9qZWxYY2s4bGNFSWfSAaQBQVVfeXFMTXllMzRNcmVRZTZib3pmRjVWZHg0ZEoxSkx0VTM2dnR1dWFOOGlxQWZqRVh1dXB5b1BuUjVaaUlCRURqclhkbDZpd3l1V3VnR3RSazBJYUdSYW5zaS1LbnpGNllGakRId1FFYkRWNlZfeGNYUkxUbTl3bzN0eDdZUWdqSVA2eDh4RVQ0NHhmcTlfemp4Tzc2blFNWVNsa2lGSDBJSnU?oc=5",
-    "pub": "Sat, 15 Aug 2026 14:45:31 GMT",
-    "src": "CNBC",
     "trig": false,
     "geo": false
    }
@@ -1464,45 +1464,45 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
   "tnx": [
-   4.46,
-   4.57,
-   4.45,
-   4.48,
-   4.46,
-   4.45,
-   4.37,
-   4.48,
-   4.61,
-   4.6,
+   4.7,
+   4.68,
    4.64,
+   4.6,
+   4.62,
    4.69,
+   4.63,
+   4.62,
+   4.67,
+   4.7,
+   4.68,
+   4.68,
    4.7
   ],
   "dxy": [
    99.27,
    99.19,
    98.91,
-   100.07,
-   99.75,
-   101.02,
-   101.11,
+   99.41,
+   99.86,
    100.85,
-   101.28,
-   100.99,
+   101.43,
+   100.86,
+   100.94,
+   100.73,
    101.51,
    99.96,
    99.67
@@ -1523,19 +1523,7 @@
    13.37
   ],
   "move": [
-   79.87,
-   81.53,
-   74.95,
-   70.22,
-   71.16,
-   77.03,
-   69.36,
-   65.39,
-   69.06,
-   68.14,
-   65.76,
-   68.89,
-   70.88
+   69.58
   ],
   "jpy": [
    157.85,
@@ -1571,13 +1559,13 @@
    38.14,
    38.58,
    38.86,
-   38.08,
-   39.55,
-   38.81,
-   37.23,
-   37.84,
-   37.94,
-   38.42,
+   39.73,
+   38.94,
+   38.86,
+   36.98,
+   37.29,
+   37.75,
+   38.06,
    38.77,
    39.64,
    40.01
@@ -1610,7 +1598,7 @@
    64796.6,
    64311.81,
    62763.32,
-   63035.41
+   63027.21
   ],
   "vixts": null,
   "hyoas": [
@@ -1678,13 +1666,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -1728,7 +1716,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2445,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T19:21:59+00:00",
+  "checked": "2026-08-15T19:32:13+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

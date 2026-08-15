@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-15T02:21:56+00:00",
+ "updated": "2026-08-15T02:32:10+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 225.16,
+   "chg": -0.06,
+   "chg5": 0.54,
+   "sma20": 210.39,
+   "sma50": 206.52,
+   "sma200": 200.14,
+   "high3m": 225.32,
+   "reg": 225.16,
+   "pre": null,
+   "post": null,
+   "regClose": 225.16,
+   "sess": "reg",
+   "mt": 1786737600,
+   "ok": true
   },
   "AVGO": {
    "price": 392.99,
@@ -328,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -393,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 185.35,
-   "sma50": 181.98,
-   "sma200": 182.24,
+   "sma20": 183.96,
+   "sma50": 182.27,
+   "sma200": 182.08,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -600,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -632,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -680,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -696,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -744,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -904,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63019.74,
-   "chg": -0.6,
-   "chg5": -2.81,
-   "sma20": 63946.11,
-   "sma50": 63451.66,
-   "sma200": 68988.33,
+   "price": 63048.9,
+   "chg": -0.56,
+   "chg5": -2.77,
+   "sma20": 63947.57,
+   "sma50": 63452.24,
+   "sma200": 68988.49,
    "high3m": 66505.12,
-   "reg": 63019.74,
+   "reg": 63048.9,
    "pre": null,
    "post": null,
-   "regClose": 63019.74,
+   "regClose": 63048.9,
    "sess": "reg",
-   "mt": 1786760488,
+   "mt": 1786761103,
    "ok": true
   },
   "USO": {
@@ -1137,10 +1149,10 @@
     "geo": false
    },
    {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - fool.com",
+    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
     "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "fool.com",
+    "src": "The Motley Fool",
     "trig": true,
     "geo": false
    },
@@ -1213,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Risk-On Sentiment Holds Steady as Markets Trade Quietly - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm5JNnI5cXp4cktrZjNOb3VoYjlVdk1tRFQ2bWlyelc3czNfTTAtTFMxbHZhX1hfU25YRm1oQlpkMEd2UVJnY3RUYS1tS3hxVExSOE5iMEc5QjVES1VTazAxMVRuTFRzOHg1V2J5aWhpRjBvSEtTMjF6VFNPVjM3UGVpbVZoaVM0Mnc?oc=5",
+    "pub": "Sat, 15 Aug 2026 01:04:04 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Will Chinese Oil Imports Rebound After the Iran War? - The Maritime Executive",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNLXJyNTByTlNnSTB0Sm5ORGE4Nk5XdndEc2RzVXN1RTBnT0JTSmF6N3Jpa2lVUjNwdy1CN09QTjZqalIyazFmSnMtZW1TQXlUSmc4OWh1Z3NMWW5Id2RGOFp4RmhlYnF3WWhVRmhBS2lXZFlLdHJHbkNZYXhOUDhucTMzaTd3aDNERnJKTG1YRDFXM2ZjajBocw?oc=5",
     "pub": "Fri, 14 Aug 2026 23:33:45 GMT",
@@ -1245,18 +1265,10 @@
     "geo": false
    },
    {
-    "title": "EUR/GBP Holds Tight Range As Markets Weigh Geopolitical Risks - Bitcoin World",
+    "title": "EUR/GBP Holds Tight Range As Markets Weigh Geopolitical Risks - bitcoinworld.co.in",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFAxd3dUclliQWdIbFUxWEtiQ3JJaEhFekxXSENWV00zM001cmdfUnFHWXhjeGoyRl9IOE5SRlZfWHQtRGZmeTdQRHJtTFRhUFFrUGdSbjZjUnpxZ2Iydm1leC1wajl2ck9ITmhsN09ldFVTZ2E3?oc=5",
     "pub": "Fri, 14 Aug 2026 16:55:11 GMT",
-    "src": "Bitcoin World",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price FOMC Minutes: Market Reactions Explained - GoldSilver",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQa0RkbVZkdzRqQnhpbHJ2SURtOFRoVlFoaUxvcFEtYUVCNzJRc1VSV3JkdFNpNjhRNjEzdXljRFZ4S2dOVGtDY0RoTlJfT3Y2WTlxTG1xY09ZWUFra0k5Q21iY21YLTdQRVRKVW8wenBiZ0h4UDVsZFhPbmd4Und4LUJQQQ?oc=5",
-    "pub": "Fri, 14 Aug 2026 15:25:11 GMT",
-    "src": "GoldSilver",
+    "src": "bitcoinworld.co.in",
     "trig": false,
     "geo": false
    }
@@ -1501,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1598,7 +1610,7 @@
    63899.46,
    64098.5,
    62813.75,
-   63026.72
+   63047.67
   ],
   "vixts": [
    0.808,
@@ -2439,18 +2451,16 @@
   21
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 59,
-  "n": 34
+  "pct50": 60,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T02:21:45+00:00",
+  "checked": "2026-08-15T02:31:59+00:00",
   "openai": {
    "found": false
   },

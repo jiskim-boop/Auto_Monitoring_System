@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T22:02:32+00:00",
+ "updated": "2026-08-15T22:12:09+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -341,9 +341,9 @@
    "price": 362.74,
    "chg": 1.21,
    "chg5": 4.32,
-   "sma20": 349.33,
-   "sma50": 370.72,
-   "sma200": 358.78,
+   "sma20": 352.49,
+   "sma50": 372.02,
+   "sma200": 358.77,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -645,9 +645,9 @@
    "price": 11.72,
    "chg": -1.6,
    "chg5": 0.69,
-   "sma20": 11.15,
-   "sma50": 11.03,
-   "sma200": 11.19,
+   "sma20": 11.19,
+   "sma50": 11.05,
+   "sma200": 11.2,
    "high3m": 11.91,
    "reg": 11.72,
    "pre": null,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.49,
-   "sma50": 79.66,
-   "sma200": 79.87,
+   "sma20": 79.5,
+   "sma50": 79.67,
+   "sma200": 79.88,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -711,7 +711,7 @@
    "chg5": 0.11,
    "sma20": 47.4,
    "sma50": 47.4,
-   "sma200": 47.26,
+   "sma200": 47.25,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -725,9 +725,9 @@
    "price": 14.25,
    "chg": -2.6,
    "chg5": -4.36,
-   "sma20": 16.63,
-   "sma50": 17.18,
-   "sma200": 19.24,
+   "sma20": 16.71,
+   "sma50": 17.14,
+   "sma200": 19.31,
    "high3m": 22.22,
    "reg": 14.25,
    "pre": null,
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.58,
-   "chg": 2.08,
-   "chg5": 0.04,
-   "sma20": 69.42,
-   "sma50": 71.97,
-   "sma200": 75.51,
-   "high3m": 86.07,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 69.58,
+   "sma50": 69.58,
+   "sma200": 69.58,
+   "high3m": 69.58,
    "reg": 69.58,
    "pre": null,
    "post": null,
-   "regClose": 70.88,
+   "regClose": 69.58,
    "sess": "reg",
    "mt": 1786739520,
    "ok": true
@@ -806,8 +806,8 @@
    "chg": -0.32,
    "chg5": 0.04,
    "sma20": 100.4,
-   "sma50": 100.55,
-   "sma200": 99.53,
+   "sma50": 100.47,
+   "sma200": 99.5,
    "high3m": 101.61,
    "reg": 99.64,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63093.66,
-   "chg": 0.19,
-   "chg5": -1.28,
-   "sma20": 63831.57,
-   "sma50": 63512.32,
-   "sma200": 68955.7,
+   "price": 63080.0,
+   "chg": 0.17,
+   "chg5": -1.3,
+   "sma20": 63830.88,
+   "sma50": 63512.05,
+   "sma200": 68955.62,
    "high3m": 66505.12,
-   "reg": 63093.66,
+   "reg": 63080.0,
    "pre": null,
    "post": null,
-   "regClose": 63093.66,
+   "regClose": 63080.0,
    "sess": "reg",
-   "mt": 1786831320,
+   "mt": 1786831892,
    "ok": true
   },
   "USO": {
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "Equus Total Return (NYSE: EQS) warns on going concern amid note default - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXpvNC01M1gtemM5WVpOZjRha2ZtM2pWSS1UQnBfQkEwY2h2ZFBfdWRmUkdoTTJkUHB2dWJTSDdnZXJ6WE5KSlpvM3BhQ1ZQaTk3ZVNMV2l0ZFFlbFhiMHVwVFp6WW1IakxCTWJ2dndjOGVhVFY4OS02aHpJbFdpZ1BITDFfaC1NeGpWRUg5NVpLNTFQc2pHMXV6MUlkQmNEQXgyUlFNdFhDZ0NUeG5sUUVzSTQ?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:02:51 GMT",
+    "src": "Stock Titan",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
@@ -1163,14 +1171,6 @@
     "src": "The Motley Fool",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "T. Rowe Price’s OHA Private Credit BDC Posts Income Cover Even as NAV Slips: - HedgeCo.Net",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNekVJTFN5ZTNlNkE4a0kwQW9qUHN2Q01ReDZtTWQ2X1JYRFkxQUItYW9iR05jQi1sZ1kzbFJTUDZlUWcwZ3Fsd3poNF9QTFlGU0gxU3YyVXRCQ09JMC1fNV9iWVRxLVFfQUJaNEpETUZUSkVJbHV3VlhEakhRbU5wVmJhZmJhYjF3RFdjeF90YmNrdHFqd1cxT3dUc1hxWkUzZWV2djVfN2xqRkFaNHNRMA?oc=5",
-    "pub": "Fri, 14 Aug 2026 14:56:12 GMT",
-    "src": "HedgeCo.Net",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1187,14 +1187,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQeFl2M0ZHMXNLRmpPUk1VSmZRVkVLcVhYYWJTcjFfWEQzdXR5Z19JNWplejZDX1RGaXlxR19KczJqcXRjTktrRWh4d3pKMWlFMWVZNXVWRzRNdEs2Zktsd25obDN5U2xhTVVyNFVaQnMyNDg0YUltYlFuVkZfNjNxMlg2djd4ejBONlk0NjRlcVFwMnRWMlZjNEtTVnJ0UdIBowFBVV95cUxPRVJPdDE0cjQwYnR3VXg2VzNsQi1Sc1pNcVNON0ZLUlBhWHJqRkFGNUpTd0RoaFlxMDQ3dHJTNkp4clJvb1ZST21vdDVQYkRMalktcFlLcV83cE1oMGlWQ3R4cmZzVlZ3V2t1VXN3U0tDREMzQ0dsQ0w0ZUYzNFdTMHdaeDZUSmkyYmFWOFhhWDFybEx0VEZwUS1QSTdJTVhIbkRZ?oc=5",
     "pub": "Sat, 15 Aug 2026 20:14:55 GMT",
     "src": "KTLA",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "USSF-366 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
-    "pub": "Sat, 15 Aug 2026 19:16:52 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeENSNk5wMnlGV25SZ3o0X0dnTVZNdjNiUlRHVnlERGdkYWc0UF8zQVozSlFzSmh1Z01OWEQ5b0R6cmJ2dEdjNGw0NGhOVlZEc1NSOWZleEZxYkFiRE5kSnBpOWRnTEI3NXRCNHpNemRSakN2UWV5RDM0Ymdhc0ltcnVHTFk5ZUFQTjFCbm9nX1ZPN0NJRUpueNIBmAFBVV95cUxPdmhpbmEwS3NqaHFmNU1xZklSY0xUck9Dd1ZiZkFYa3ZLT29uTHNmS3dpbUJHSllQMWhMRzNwZ1pid3ZCSG9qVVU5TUswTFMyek5ockgzRVd3TnVDaVJUdjN5Mll0SDc1ZE8zQXd3OWVmWUdEc0dfSFhoUnl2emlLTmt6bW9WR0ZtWVFZeUVOdWRMQWg3LXZhdA?oc=5",
     "pub": "Sat, 15 Aug 2026 17:00:52 GMT",
     "src": "DW.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The week in memory - t.co",
+    "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTFBfNkdxV2IwVkd0aGxzRXlQQ2ZhUWxkSExLdEVOcVQyemMwWDk5UjJyLTJzTUQ4VGZlbWg4?oc=5",
+    "pub": "Sat, 15 Aug 2026 16:00:00 GMT",
+    "src": "t.co",
     "trig": false,
     "geo": false
    }
@@ -1598,23 +1598,9 @@
    64796.6,
    64311.81,
    62763.32,
-   63093.66
+   63080.0
   ],
-  "vixts": [
-   0.808,
-   0.84,
-   0.819,
-   0.861,
-   1.155,
-   0.77,
-   0.908,
-   0.848,
-   0.778,
-   0.802,
-   0.989,
-   0.835,
-   0.694
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -1680,13 +1666,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -1717,7 +1703,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 유가 29% 상승 중이나 VIX 14·HY스프레드 2.71%로 시장 리스크 인식은 제한적이며, 실러CAPE 43으로 밸류에이션 과열이 핵심 취약점. AI 인프라 투자(CoreWeave 등)는 계속되나 GPU/HBM 수급 관련 특이 신호 없음.",
+  "text": "중동 긴장 고조로 유가 급등(+29%)이 인플레 재점화 우려를 낳으면서, 저변동성(VIX 14) 속 금리(4.70%)와 신용스프레드(2.71%) 상승 압력이 작용 중이다. AI 인프라 투자는 CoreWeave 등 GPU 관련주 강세로 지속되나, 우주항공 관련 기술 지연과 AI 보안 우려가 부분적 제약으로 작동하고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1726,12 +1712,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 2,
    "geo": 2,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2448,16 +2433,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T22:02:20+00:00",
+  "checked": "2026-08-15T22:11:54+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",
    "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

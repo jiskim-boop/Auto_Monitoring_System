@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-15T13:42:01+00:00",
+ "updated": "2026-08-15T13:51:57+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.3,
-   "sma50": 38.69,
-   "sma200": 37.29,
+   "sma20": 39.49,
+   "sma50": 38.66,
+   "sma200": 37.34,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -645,9 +645,9 @@
    "price": 11.72,
    "chg": -1.6,
    "chg5": 0.69,
-   "sma20": 11.19,
-   "sma50": 11.05,
-   "sma200": 11.2,
+   "sma20": 11.15,
+   "sma50": 11.03,
+   "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
    "pre": null,
@@ -725,9 +725,9 @@
    "price": 14.25,
    "chg": -2.6,
    "chg5": -4.36,
-   "sma20": 16.63,
-   "sma50": 17.18,
-   "sma200": 19.24,
+   "sma20": 16.71,
+   "sma50": 17.14,
+   "sma200": 19.31,
    "high3m": 22.22,
    "reg": 14.25,
    "pre": null,
@@ -822,8 +822,8 @@
    "chg": -0.22,
    "chg5": -0.35,
    "sma20": 3.73,
-   "sma50": 3.69,
-   "sma200": 3.64,
+   "sma50": 3.73,
+   "sma200": 3.73,
    "high3m": 3.81,
    "reg": 3.7,
    "pre": null,
@@ -837,9 +837,9 @@
    "price": 106.12,
    "chg": -0.4,
    "chg5": -0.4,
-   "sma20": 106.43,
-   "sma50": 107.65,
-   "sma200": 108.68,
+   "sma20": 106.58,
+   "sma50": 107.78,
+   "sma200": 108.73,
    "high3m": 109.7,
    "reg": 106.12,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62966.25,
+   "price": 62970.56,
    "chg": -0.01,
-   "chg5": -1.48,
-   "sma20": 63825.2,
-   "sma50": 63509.77,
-   "sma200": 68955.0,
+   "chg5": -1.47,
+   "sma20": 63825.41,
+   "sma50": 63509.86,
+   "sma200": 68955.02,
    "high3m": 66505.12,
-   "reg": 62966.25,
+   "reg": 62970.56,
    "pre": null,
    "post": null,
-   "regClose": 62966.25,
+   "regClose": 62970.56,
    "sess": "reg",
-   "mt": 1786801287,
+   "mt": 1786801889,
    "ok": true
   },
   "USO": {
@@ -1241,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "US says lower oil prices, not Iran's nuclear program, are now top priority in war - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOR2RkUERWUXdITWY3eDE3ZHJUWFJ1MlBpVGFqVUxIdVpJY0x3SHpvRk9ZTTIzWV9rbndLNjU2RDdBVzZLME52dHlCekRYVHNWM0tDVnAzXzZZZUxIajE5czNMbjlhcWZOZFBuZEkzWFJiQWlHRUVWeThfR3YtUXFzT3BCWFBCVzdwSzlzb2luQjU3NDc4UEJYbzNVZl9fNVpnZGVicWpqd3prcXkz?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:33:45 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Trending mortgage rates - firsttuesday Journal",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
     "pub": "Sat, 15 Aug 2026 09:26:07 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOV2xMck9NNDMyLWpjcVhKUVRtdUU1UjI5ZXlFWUVlY1RabEhYYUpzanBNOVljeUY1MDYxVmRsU0tNdTFQREljdjRRWGRyTWgzMmp5WmhaNUNvTVRYNnlIU3kzal9sVmJCZzYwRjJEVFhad3FtYUZSQ3Z0S0NwYXZIcnh6SFc0NHY0MjhZVmxiNDJQdEc4Slc1SlVBVHIyZVJ1Qm5odNIBqgFBVV95cUxNNG9EX0s1NmFtVVlkeWNkMnRPUVlaZzBJc190NG5HYlBvbGhET19ZOG5sdWp4MEtSQ01IcVpNR0REaTltYll6eUVqOUhXbU8tOTkzVEh6M0JmT0VHS1FxdDAyb0RPUExMZkJRQU1oUkNjT0F5Wkx6dzlidU9BQkJVbllTZGlRSVpUX0Nzd1d6YkxyOVpfcTJUSzlEM29TNnRFT2pJdFBtT1JIQQ?oc=5",
     "pub": "Sat, 15 Aug 2026 03:24:27 GMT",
     "src": "The Nation Newspaper",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Risk-On Sentiment Holds Steady as Markets Trade Quietly - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNSm5JNnI5cXp4cktrZjNOb3VoYjlVdk1tRFQ2bWlyelc3czNfTTAtTFMxbHZhX1hfU25YRm1oQlpkMEd2UVJnY3RUYS1tS3hxVExSOE5iMEc5QjVES1VTazAxMVRuTFRzOHg1V2J5aWhpRjBvSEtTMjF6VFNPVjM3UGVpbVZoaVM0Mnc?oc=5",
-    "pub": "Sat, 15 Aug 2026 01:04:04 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   17.44,
-   16.29,
-   16.06,
-   22.22,
-   16.41,
-   18.63,
-   16.59,
-   15.84,
-   15.67,
-   18.58,
+   16.76,
+   15.74,
+   15.4,
+   19.44,
+   16.4,
+   18.41,
+   15.57,
+   17.16,
+   18.65,
+   18.67,
    15.86,
    14.25
   ],
@@ -1523,7 +1523,19 @@
    13.37
   ],
   "move": [
-   69.58
+   79.87,
+   81.53,
+   74.95,
+   70.22,
+   71.16,
+   77.03,
+   69.36,
+   65.39,
+   69.06,
+   68.14,
+   65.76,
+   68.89,
+   70.88
   ],
   "jpy": [
    157.85,
@@ -1598,20 +1610,20 @@
    64796.6,
    64311.81,
    62763.32,
-   62966.24
+   62970.56
   ],
   "vixts": [
    0.808,
-   0.84,
-   0.819,
-   0.861,
-   1.155,
+   0.807,
+   0.791,
+   0.825,
+   1.011,
    0.77,
-   0.908,
-   0.848,
-   0.778,
-   0.802,
-   0.989,
+   0.898,
+   0.796,
+   0.842,
+   0.955,
+   0.994,
    0.835,
    0.694
   ],
@@ -1717,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장과 Fed 정책 불확실성 속에서 VIX 14의 낮은 변동성은 시장의 과신을 반영하며, HY스프레드 2.71%는 신용 위험 상승을 경고하고 있다. AI 인프라 수요는 CoreWeave 등에서 견조하나 Nvidia 의존도 심화와 사모대출 부실화 우려가 향후 capex 사이클의 제약 요인으로 작용할 수 있다.",
+  "text": "미국이 중동 정책을 핵유기에서 유가 억제로 전환하며 지정학 리스크가 완화되는 가운데, VIX 14와 HY스프레드 2.71%는 신용시장의 낮은 경계심을 반영하고 있습니다. AI 인프라 수요는 CoreWeave 등 GPU 임차 기업들의 실적 성장을 견인 중이나, 엔비디아 의존도 심화와 사모채 할인 현상은 밸류에이션 과열 우려를 시사합니다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1727,7 +1739,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 2,
-   "geo": 0,
+   "geo": 1,
    "capex": 5,
    "news": 16
   }
@@ -2447,7 +2459,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-15T13:41:48+00:00",
+  "checked": "2026-08-15T13:51:45+00:00",
   "openai": {
    "found": false
   },

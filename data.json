@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T01:51:54+00:00",
+ "updated": "2026-08-16T02:02:36+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.49,
-   "sma50": 38.66,
-   "sma200": 37.34,
+   "sma20": 39.3,
+   "sma50": 38.69,
+   "sma200": 37.29,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,9 +708,9 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
+   "sma50": 47.4,
    "sma200": 47.25,
    "high3m": 47.75,
    "reg": 47.37,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 140.02,
-   "sma50": 143.15,
-   "sma200": 142.96,
+   "sma20": 139.94,
+   "sma50": 142.74,
+   "sma200": 142.84,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.56,
-   "sma200": 4.41,
-   "high3m": 4.74,
+   "sma50": 4.66,
+   "sma200": 4.66,
+   "high3m": 4.7,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62998.79,
-   "chg": 0.04,
-   "chg5": -1.43,
-   "sma20": 63826.82,
-   "sma50": 63510.43,
-   "sma200": 68956.1,
+   "price": 63014.72,
+   "chg": 0.06,
+   "chg5": -1.4,
+   "sma20": 63827.62,
+   "sma50": 63510.74,
+   "sma200": 68956.19,
    "high3m": 66505.12,
-   "reg": 62998.79,
+   "reg": 63014.72,
    "pre": null,
    "post": null,
-   "regClose": 62998.79,
+   "regClose": 63014.72,
    "sess": "reg",
-   "mt": 1786845083,
+   "mt": 1786845713,
    "ok": true
   },
   "USO": {
@@ -1157,10 +1157,10 @@
     "geo": false
    },
    {
-    "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - hedgeco.net",
+    "title": "Robinhood’s Second Venture BDC Lists at a Discount, Testing Retail Access to Early-Stage Private Markets - HedgeCo.Net",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQdnpIV2dYX2dYV3JGYWs5WEhJSzROUjJLUnU0X1FsaVpIVWNxN0lReFV6endabWYtSHV4dHl6NEo3RkNEd0UyU2hTa0hDTFp1Zm5BTGpOTFE1YVRsRExwSmNGZTUzbUh4Qms1LXlsRjNiaE5adHAyUWd6aDZwNkdKUjh5Z0JUMEF1aDJ5UFBZS3BNcmFhS0NRSEhaZTJnX2xNNkU1Qk9qNG51Zm8taWc3MTd1d056TjFiQnVfa1U3eGxxSVVveUt0NGc0c3ZJQWFLWmJjQTcxRQ?oc=5",
     "pub": "Fri, 14 Aug 2026 16:42:50 GMT",
-    "src": "hedgeco.net",
+    "src": "HedgeCo.Net",
     "trig": false,
     "geo": false
    },
@@ -1215,11 +1215,11 @@
     "geo": false
    },
    {
-    "title": "A woman has joined a lawsuit against xAI over the alleged use of Grok - UA.NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTXV6M2Zad3VhY0tJZjJxeXZObFprd2FoT0NEOGt1dkhXY2VRbXhSWDFpelR4cWRfRXpCUU8yMzlSb2NMaU54YVB6MlRfb2RXT1p4OG9oUk8wMWxJLUlUYlNKYUN1WGhha014aWNzTEVhV3ZUM1RGUF9SUnlEbDg0RXgyTEpYMWJDTWpoQy1NX2hCaWdEN0V1NmhLY3pvaGxsejg4NEs3Q1MxUQ?oc=5",
-    "pub": "Sat, 15 Aug 2026 21:50:44 GMT",
-    "src": "UA.NEWS",
-    "trig": true,
+    "title": "This ETF Got You Into SpaceX Before the IPO. Now That Anyone Can Buy the Stock, What's It For? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPRmd2RVhRai1rZ2g2QjRWVFZaOEV2TXpLNXhuZ0IxRkk4YnFUWHZRTzIwS0xkUGJ1TVhfelBHWThpckdVcWo2LUl4U2Z5NTA1M2RsWk1xOEhxVm40ZmRHOVJrRlVHODFMeFM4WGlWSVVYQUY4Y3pMSE8wQTMwLUk5WDJyaURtTGFkMlNQc1dtdXlvTUl1RDlvX0t5NXVQSGQ4RW9Qanh5Y2hKLXdoVnBmbmdpRkVNaE5QcHhBZmpkRk9NVmxrbm0ydVJ5SW1tR0ktenRkdQ?oc=5",
+    "pub": "Sat, 15 Aug 2026 21:30:34 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1233,18 +1233,18 @@
     "geo": false
    },
    {
-    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - mshale.com",
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
     "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - sundayguardianlive.com",
+    "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTDk2OWNYbWQySEtad3g3SzREZWNvVDduTVVEOEowNWtpQnA5d3BObmdqSmdFbHZRYThRTHhXVHZNQU1TWkw3b2pTcnBYT3M2OWF1QzZVVGMwRDRNZ3hzRGNWZ1J1eFE4ZXBqLWZYdnk4VEJHR1VpeVdGLW5ucDZEc3E2OGl5QjNWS2pmZVNRTnp0dlIyajh6X1JNVmVzZTNQSUdXV3NBLTU2dmNSY3Vua0d4WWZnbFpfYzNoTHV6Ynl5UDhHQWJmN0ZqUGJSWXVGakV2bmxWeTE1M05fZUF1LUVzMkhfX0g4emlidF9NRWpudzU0bUREUFBqUHZCTElUVDNIcWZHcTE1T0pveldobDdKRHNXd0hXY2JsNHNWNDVMR0ZKUy1IZ21QeGo1T2U1bTNfbXRpeld1cnRVYldWaVh0N3l0UdIBywJBVV95cUxObWJkbzBRNG4tSHl5V3N1M2dhQmoxdDhjOGJfenhxLUNKZWVyYmpMMHlCQ1NDTUdMZ25BTUFLd1R1c1RQSTV1d2RPaXJ2ZENmMEd4RkViTFNsNmExaGtXSnNPYkMtRkZ0N2hFWDl1V3NXaV9rdkpzR0dmXzByd1FMZkxzOFJkOGFIN0tuMDJVWVNENDdYdUc1N010MmhVazFReVpsUE4ybWxkSmxLcFRnNTgyQ3BxdHRnZEFNdEtmQTlfY25IMjdFZVNKUDdaTnR5RG9ua3pBZ0ZMT3VaemhMWnNQWXF6SWZhaW9wMGtUSVAxcjVOemdqdnlDeEtBaDVDak1CRjB6b05XY0hiY2hiNHhuMnJnTl9oQXVMM3pMTUhzT3dGdmVpTS1QWFY4cWtmM2kteTRXX2doSVlISW0ydkZTaDdTa0tsTUY0?oc=5",
     "pub": "Sat, 15 Aug 2026 17:02:58 GMT",
-    "src": "sundayguardianlive.com",
+    "src": "The Sunday Guardian",
     "trig": false,
     "geo": true
    },
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1571,13 +1571,13 @@
    38.14,
    38.58,
    38.86,
-   38.08,
-   39.55,
-   38.81,
-   37.23,
-   37.84,
-   37.94,
-   38.42,
+   39.73,
+   38.94,
+   38.86,
+   36.98,
+   37.29,
+   37.75,
+   38.06,
    38.77,
    39.64,
    40.01
@@ -1610,23 +1610,9 @@
    64796.6,
    64311.81,
    62763.32,
-   62993.93
+   63011.14
   ],
-  "vixts": [
-   0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
-   0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
-   0.835,
-   0.694
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -2226,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-14T02",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-14T03",
     "v": 2.73
    },
@@ -2416,6 +2398,10 @@
    {
     "d": "2026-08-16T01",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-16T02",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2457,12 +2443,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T01:51:43+00:00",
+  "checked": "2026-08-16T02:02:21+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

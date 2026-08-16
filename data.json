@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T02:41:54+00:00",
+ "updated": "2026-08-16T02:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 4.32,
-   "sma20": 352.49,
-   "sma50": 372.02,
-   "sma200": 358.77,
+   "chg5": 7.22,
+   "sma20": 350.06,
+   "sma50": 371.16,
+   "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.3,
-   "sma50": 38.69,
-   "sma200": 37.29,
+   "sma20": 39.49,
+   "sma50": 38.66,
+   "sma200": 37.34,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": -0.3,
-   "sma20": 12.86,
-   "sma50": 12.64,
-   "sma200": 12.73,
+   "chg5": 1.91,
+   "sma20": 12.79,
+   "sma50": 12.61,
+   "sma200": 12.72,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 0.69,
-   "sma20": 11.15,
-   "sma50": 11.03,
+   "chg5": 3.63,
+   "sma20": 11.12,
+   "sma50": 11.02,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.42,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.11,
+   "chg5": 0.13,
    "sma20": 47.4,
-   "sma50": 47.4,
-   "sma200": 47.26,
+   "sma50": 47.41,
+   "sma200": 47.25,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -3.25,
-   "sma20": 94.73,
-   "sma50": 93.54,
-   "sma200": 101.04,
+   "chg5": -1.4,
+   "sma20": 95.43,
+   "sma50": 93.52,
+   "sma200": 101.12,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -822,8 +822,8 @@
    "chg": -0.22,
    "chg5": -0.35,
    "sma20": 3.73,
-   "sma50": 3.73,
-   "sma200": 3.73,
+   "sma50": 3.69,
+   "sma200": 3.64,
    "high3m": 3.81,
    "reg": 3.7,
    "pre": null,
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.66,
-   "sma200": 4.66,
-   "high3m": 4.7,
+   "sma50": 4.56,
+   "sma200": 4.41,
+   "high3m": 4.74,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 8.24,
-   "sma20": 775.29,
-   "sma50": 854.53,
-   "sma200": 1020.07,
-   "high3m": 1172.52,
+   "chg5": 7.86,
+   "sma20": 771.99,
+   "sma50": 858.36,
+   "sma200": 1021.42,
+   "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63064.99,
-   "chg": 0.14,
-   "chg5": -1.32,
-   "sma20": 63830.13,
-   "sma50": 63511.75,
-   "sma200": 68956.46,
+   "price": 63043.94,
+   "chg": 0.11,
+   "chg5": -1.36,
+   "sma20": 63829.08,
+   "sma50": 63511.33,
+   "sma200": 68956.35,
    "high3m": 66505.12,
-   "reg": 63064.99,
+   "reg": 63043.94,
    "pre": null,
    "post": null,
-   "regClose": 63064.99,
+   "regClose": 63043.94,
    "sess": "reg",
-   "mt": 1786848085,
+   "mt": 1786848690,
    "ok": true
   },
   "USO": {
@@ -1141,6 +1141,14 @@
     "geo": false
    },
    {
+    "title": "Equus Total Return (NYSE: EQS) warns on going concern amid note default - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdXpvNC01M1gtemM5WVpOZjRha2ZtM2pWSS1UQnBfQkEwY2h2ZFBfdWRmUkdoTTJkUHB2dWJTSDdnZXJ6WE5KSlpvM3BhQ1ZQaTk3ZVNMV2l0ZFFlbFhiMHVwVFp6WW1IakxCTWJ2dndjOGVhVFY4OS02aHpJbFdpZ1BITDFfaC1NeGpWRUg5NVpLNTFQc2pHMXV6MUlkQmNEQXgyUlFNdFhDZ0NUeG5sUUVzSTQ?oc=5",
+    "pub": "Fri, 14 Aug 2026 21:02:51 GMT",
+    "src": "Stock Titan",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
@@ -1163,14 +1171,6 @@
     "src": "HedgeCo.Net",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "I Think You Missed CoreWeave's Zero-Cost-Basis Engine - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPM1dXWWI5SXNLMVRVYkNxLXJjaGluVk1YTm5LT1lEUXZsMDkxY19FM2FUd3VUMUdLMUhuZENoMDJnUV9XZE56Yko1MW04NDhrN2otX2JVZndFai1fV1JzcXVtT3U5X013MmlOcDgxMUhxRWJROEVmbkJycWdMbERTelM4RXlnclRQelhvVzFFSFlTdkVXYl9DUg?oc=5",
-    "pub": "Fri, 14 Aug 2026 16:24:00 GMT",
-    "src": "The Motley Fool",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1187,6 +1187,14 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQTE5adVY0NzhZY1JBNFlBNGYxLUF5dFNPZ3RwaWxHSXFtZkFhc2xfdVBQVFhsUjVMalNPdnBrOUNZYVJ2RDg3T2tFLWRvVzVRRmJhQTZjMU9yNkUtbktWbUF1YVJScEZneC1DOGRnX2ttLV93alUtX2syNDdEUVh6MlptSUhCNnBrOFE3X3oxM3ZxcWQzaUpsX2NRTWV5b2tDN1lVTXNfX0ROUVptSkJxY2kzQlEzeUhsOUxlajZ1elFmbDdxc3FmN0dGNFdKblR5b1E?oc=5",
     "pub": "Sat, 15 Aug 2026 23:52:14 GMT",
     "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Top-secret SpaceX mission to launch from California - New York Post",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTUsxY1hSaFc5Tl93eXF3OVp1S1V0aXA4YWNiVHJlazQxN3FzUFljamVJVV9CT1ZzNjFITGdRZmhWRjVYTjJzY25XblhFZVlSWXplV20xaFdrVlpVS21zUkRQWF9CNXRHQmtKWDBfcE8yb2lyUVZEaE1aRHVuNk5pSDBBTnBwN2Z4bTV2YUs2MUlWaTAtOU1Ib2VCX2RjNjVkbzgxRGRBRm9XUQ?oc=5",
+    "pub": "Sat, 15 Aug 2026 23:35:00 GMT",
+    "src": "New York Post",
     "trig": false,
     "geo": false
    },
@@ -1213,14 +1221,6 @@
     "src": "BASENOR - Tesla Accessories",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "USSF-366 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
-    "pub": "Sat, 15 Aug 2026 21:52:00 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1233,18 +1233,18 @@
     "geo": false
    },
    {
-    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - mshale.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
     "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
-    "src": "Mshale",
+    "src": "mshale.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - The Sunday Guardian",
+    "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - sundayguardianlive.com",
     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTDk2OWNYbWQySEtad3g3SzREZWNvVDduTVVEOEowNWtpQnA5d3BObmdqSmdFbHZRYThRTHhXVHZNQU1TWkw3b2pTcnBYT3M2OWF1QzZVVGMwRDRNZ3hzRGNWZ1J1eFE4ZXBqLWZYdnk4VEJHR1VpeVdGLW5ucDZEc3E2OGl5QjNWS2pmZVNRTnp0dlIyajh6X1JNVmVzZTNQSUdXV3NBLTU2dmNSY3Vua0d4WWZnbFpfYzNoTHV6Ynl5UDhHQWJmN0ZqUGJSWXVGakV2bmxWeTE1M05fZUF1LUVzMkhfX0g4emlidF9NRWpudzU0bUREUFBqUHZCTElUVDNIcWZHcTE1T0pveldobDdKRHNXd0hXY2JsNHNWNDVMR0ZKUy1IZ21QeGo1T2U1bTNfbXRpeld1cnRVYldWaVh0N3l0UdIBywJBVV95cUxObWJkbzBRNG4tSHl5V3N1M2dhQmoxdDhjOGJfenhxLUNKZWVyYmpMMHlCQ1NDTUdMZ25BTUFLd1R1c1RQSTV1d2RPaXJ2ZENmMEd4RkViTFNsNmExaGtXSnNPYkMtRkZ0N2hFWDl1V3NXaV9rdkpzR0dmXzByd1FMZkxzOFJkOGFIN0tuMDJVWVNENDdYdUc1N010MmhVazFReVpsUE4ybWxkSmxLcFRnNTgyQ3BxdHRnZEFNdEtmQTlfY25IMjdFZVNKUDdaTnR5RG9ua3pBZ0ZMT3VaemhMWnNQWXF6SWZhaW9wMGtUSVAxcjVOemdqdnlDeEtBaDVDak1CRjB6b05XY0hiY2hiNHhuMnJnTl9oQXVMM3pMTUhzT3dGdmVpTS1QWFY4cWtmM2kteTRXX2doSVlISW0ydkZTaDdTa0tsTUY0?oc=5",
     "pub": "Sat, 15 Aug 2026 17:02:58 GMT",
-    "src": "The Sunday Guardian",
+    "src": "sundayguardianlive.com",
     "trig": false,
     "geo": true
    },
@@ -1275,18 +1275,18 @@
   ],
   "flow": [
    {
-    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
+    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investinglive.com",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
     "pub": "Sat, 15 Aug 2026 23:13:53 GMT",
-    "src": "investingLive",
+    "src": "investinglive.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Global finance looks like a 'giant Jenga tower' propped up by a Japanese yen that's in deep trouble - Fortune",
+    "title": "Global finance looks like a 'giant Jenga tower' propped up by a Japanese yen that's in deep trouble - fortune.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmtNdlpDSU8zTlhDd1ZIQTFNXzM5TURFQjFxbDVqYll6X1BBaG1kRWdBRExFYTlPZlNCWTZKTzF2cHYtV0RlU2FydG9kN0ZaWTNrQmhESEMwMjlQcnd5Qm5iZEZjOGRQZ0duY0ZjZlNLSzBWMUpfN3lDTnl4S3hHWHBzZXVpQmF1cmhhNUVpMjZGZDRrdm5iZUxoOXBxeGhOTk9UNFlzYUVBTUxubjdsWVIxRjduVkNmSVp3?oc=5",
     "pub": "Sat, 15 Aug 2026 22:20:00 GMT",
-    "src": "Fortune",
+    "src": "fortune.com",
     "trig": false,
     "geo": false
    },
@@ -1299,10 +1299,10 @@
     "geo": false
    },
    {
-    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - forex.com",
+    "title": "US Dollar Awaits NFP as September Fed Hike Odds Hang in the Balance - FOREX.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNbHBxTnB4bGdReERLRG1CNkdqSE91N3RGMWpxVFRwc1NtVjBxMzNXMjF4Q2ZHTnZLMS10QlNYSml4VUdrQWczZ2RrUktyM0paN1MzRlVfTFd3cW5WdngyQWtPWWJJTjFaUFVzM3VMRlUtT1M1RVRXYlM1ZXAxTjJ3QVY4anViaTJ1aFZBWVNTYTBuRjZ2TkNac2VQX0tsaG5mZkY3RnNVZERpSmdETkVvY0dUMEY?oc=5",
     "pub": "Sat, 15 Aug 2026 20:59:16 GMT",
-    "src": "forex.com",
+    "src": "FOREX.com",
     "trig": false,
     "geo": false
    },
@@ -1496,13 +1496,13 @@
    99.27,
    99.19,
    98.91,
-   99.41,
-   99.86,
+   100.07,
+   99.75,
+   101.02,
+   101.11,
    100.85,
-   101.43,
-   100.86,
-   100.94,
-   100.73,
+   101.28,
+   100.99,
    101.51,
    99.96,
    99.67
@@ -1511,19 +1511,31 @@
    12.61,
    12.52,
    12.63,
-   12.7,
-   12.62,
+   12.49,
+   12.71,
    12.36,
-   12.25,
-   12.51,
-   12.28,
-   12.86,
-   12.46,
-   12.74,
+   12.44,
+   12.45,
+   12.47,
+   12.72,
+   12.34,
+   12.4,
    13.37
   ],
   "move": [
-   69.58
+   79.87,
+   81.53,
+   74.95,
+   70.22,
+   71.16,
+   77.03,
+   69.36,
+   65.39,
+   69.06,
+   68.14,
+   65.76,
+   68.89,
+   70.88
   ],
   "jpy": [
    157.85,
@@ -1559,13 +1571,13 @@
    38.14,
    38.58,
    38.86,
-   39.73,
-   38.94,
-   38.86,
-   36.98,
-   37.29,
-   37.75,
-   38.06,
+   38.08,
+   39.55,
+   38.81,
+   37.23,
+   37.84,
+   37.94,
+   38.42,
    38.77,
    39.64,
    40.01
@@ -1598,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   63070.03
+   63043.93
   ],
   "vixts": [
    0.808,
@@ -1680,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2828,
-   0.2821,
-   0.2838,
-   0.2861,
-   0.286,
+   0.2853,
+   0.2816,
    0.2875,
-   0.289,
+   0.2862,
+   0.286,
+   0.2862,
+   0.2911,
    0.2865,
    0.2869
   ],
@@ -2445,16 +2457,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T02:41:43+00:00",
+  "checked": "2026-08-16T02:51:46+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

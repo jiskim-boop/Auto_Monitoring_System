@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T15:41:58+00:00",
+ "updated": "2026-08-16T15:51:58+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
-   "sma200": 358.78,
+   "chg5": 4.32,
+   "sma20": 352.49,
+   "sma50": 372.02,
+   "sma200": 358.77,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.49,
-   "sma50": 38.66,
-   "sma200": 37.34,
+   "sma20": 39.3,
+   "sma50": 38.69,
+   "sma200": 37.29,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 95.25,
+   "sma50": 93.31,
+   "sma200": 101.2,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 140.02,
-   "sma50": 143.15,
-   "sma200": 142.96,
+   "sma20": 139.94,
+   "sma50": 142.74,
+   "sma200": 142.84,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6463.32,
-   "sma50": 7408.26,
-   "sma200": 6831.68,
+   "sma20": 6504.36,
+   "sma50": 7530.02,
+   "sma200": 6834.67,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63062.89,
+   "price": 63061.14,
    "chg": 0.06,
    "chg5": -0.77,
-   "sma20": 63795.0,
-   "sma50": 63573.39,
-   "sma200": 68923.86,
+   "sma20": 63794.91,
+   "sma50": 63573.36,
+   "sma200": 68923.85,
    "high3m": 66505.12,
-   "reg": 63062.89,
+   "reg": 63061.14,
    "pre": null,
    "post": null,
-   "regClose": 63062.89,
+   "regClose": 63061.14,
    "sess": "reg",
-   "mt": 1786894890,
+   "mt": 1786895487,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4437.3,
-   "chg": 1.3,
+   "chg": 1.69,
    "chg5": 2.23,
-   "sma20": 4174.62,
-   "sma50": 4158.01,
-   "sma200": 4519.75,
+   "sma20": 4177.47,
+   "sma50": 4159.15,
+   "sma200": 4520.21,
    "high3m": 4560.5,
    "reg": 4437.3,
    "pre": null,
    "post": null,
-   "regClose": 4380.4,
+   "regClose": 4437.3,
    "sess": "24h",
    "mt": 1786741200,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.2,
+   "chg": 0.31,
    "chg5": 0.65,
    "sma20": 6.49,
    "sma50": 6.35,
@@ -1084,7 +1084,7 @@
    "reg": 6.61,
    "pre": null,
    "post": null,
-   "regClose": 6.6,
+   "regClose": 6.61,
    "sess": "24h",
    "mt": 1786741180,
    "ok": true
@@ -1157,10 +1157,10 @@
     "geo": false
    },
    {
-    "title": "Investor ng ipinapanukalang AI data center sa Oton, Iloilo nag-walkout sa public hearing - ABS-CBN",
+    "title": "Investor ng ipinapanukalang AI data center sa Oton, Iloilo nag-walkout sa public hearing - abs-cbn.com",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLXVhVG1uNHVXNUpvdldxNF9PaUNhakRPUmUxM2ZoMmI3Qi1Lak1BZnJSbWFScTRzTW5RN0EzWWF3b3phbkNmNmZ1b2p3UEx1WV9kbjE1NUpneVZsU1ZxZmJxRDlzWDRndU16cnh0M1pKWThUSmF1aXlkYjlHNnh6U1dtQ2xfc1JfVjdxWUpLdmY3SFV3c1VCeGRtMlB0LXJHbl80bG5Fa3BqRmdqMDF2dU5Mc2VQRzE4SWZVTDdaN1U3VFVLNHdwcVdTX1pNTDBLcHhvdUxn?oc=5",
     "pub": "Sun, 16 Aug 2026 00:43:43 GMT",
-    "src": "ABS-CBN",
+    "src": "abs-cbn.com",
     "trig": false,
     "geo": false
    },
@@ -1215,11 +1215,11 @@
     "geo": false
    },
    {
-    "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
-    "pub": "Sun, 16 Aug 2026 07:10:59 GMT",
-    "src": "ad-hoc-news.de",
-    "trig": false,
+    "title": "Grok AI Used to Generate Explicit Images of Minor, Lawsuit Filed Against xAI - OECD AI Policy Observatory",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Z2oxcEVhS2s5ald1NDBnWk1Wcm1aVzVrbmdDN2dWVERrVENKaW9xTWQ2VFg0YV8tUzF3LTkzakozYVRRbl9tNkVrOG81M190Yl9lTkl6WQ?oc=5",
+    "pub": "Sun, 16 Aug 2026 10:34:28 GMT",
+    "src": "OECD AI Policy Observatory",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
-    "pub": "Sun, 16 Aug 2026 11:13:12 GMT",
-    "src": "investingLive",
+    "title": "5 Best Metals Stocks for 2026 and How to Invest - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcnRUUjNfLUxBaUdVZ0RnVC1TZEJsVzhPU0U4RHp5cVBUeF9xT3VRZkxhcTF6MkgtUnlDNzVtbmdWcExsTXNxUGh4a2lyVk5VRFNCbFk5bG5TWjZtRVM0UTZuWlZUVWhiU1BTMkVDSVN3eFFxOTZpUk5qaTJMWlhZUlJqSE96OEtlanc?oc=5",
+    "pub": "Sun, 16 Aug 2026 12:04:00 GMT",
+    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
-    "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
-    "src": "Mshale",
+    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
+    "pub": "Sun, 16 Aug 2026 11:13:12 GMT",
+    "src": "investingLive",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64690.8,
    65340.3,
    63482.0,
-   63061.37
+   63061.15
   ],
   "vixts": [
    0.808,
@@ -2457,9 +2457,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T15:41:48+00:00",
+  "checked": "2026-08-16T15:51:47+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

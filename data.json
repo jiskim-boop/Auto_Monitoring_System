@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T05:37:17+00:00",
+ "updated": "2026-08-16T05:41:53+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.86,
+   "sma50": 12.64,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -806,8 +806,8 @@
    "chg": -0.32,
    "chg5": 0.04,
    "sma20": 100.4,
-   "sma50": 100.55,
-   "sma200": 99.53,
+   "sma50": 100.47,
+   "sma200": 99.5,
    "high3m": 101.61,
    "reg": 99.64,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63010.37,
-   "chg": 0.06,
+   "price": 63009.36,
+   "chg": 0.05,
    "chg5": -1.41,
-   "sma20": 63827.4,
-   "sma50": 63510.66,
+   "sma20": 63827.35,
+   "sma50": 63510.64,
    "sma200": 68956.16,
    "high3m": 66505.12,
-   "reg": 63010.37,
+   "reg": 63009.36,
    "pre": null,
    "post": null,
-   "regClose": 63010.37,
+   "regClose": 63009.36,
    "sess": "reg",
-   "mt": 1786858606,
+   "mt": 1786858885,
    "ok": true
   },
   "USO": {
@@ -1241,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "10-year Treasury Yield Rises Ahead Of Fed Rate Decision Emily English (VLxL7JMS25) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fTG55Q3djNG9mbS11OTl6Qk5haGE1bGt6VEQ5X09mV0E4X2ZYYU5qMzkxcGpkWTdRd1BGUXNOVHZUWHlGb0hzVzBnQnZITmZlYWNHZmJUNHpMN0k?oc=5",
+    "pub": "Sat, 15 Aug 2026 20:35:34 GMT",
+    "src": "Mshale",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTDk2OWNYbWQySEtad3g3SzREZWNvVDduTVVEOEowNWtpQnA5d3BObmdqSmdFbHZRYThRTHhXVHZNQU1TWkw3b2pTcnBYT3M2OWF1QzZVVGMwRDRNZ3hzRGNWZ1J1eFE4ZXBqLWZYdnk4VEJHR1VpeVdGLW5ucDZEc3E2OGl5QjNWS2pmZVNRTnp0dlIyajh6X1JNVmVzZTNQSUdXV3NBLTU2dmNSY3Vua0d4WWZnbFpfYzNoTHV6Ynl5UDhHQWJmN0ZqUGJSWXVGakV2bmxWeTE1M05fZUF1LUVzMkhfX0g4emlidF9NRWpudzU0bUREUFBqUHZCTElUVDNIcWZHcTE1T0pveldobDdKRHNXd0hXY2JsNHNWNDVMR0ZKUy1IZ21QeGo1T2U1bTNfbXRpeld1cnRVYldWaVh0N3l0UdIBywJBVV95cUxObWJkbzBRNG4tSHl5V3N1M2dhQmoxdDhjOGJfenhxLUNKZWVyYmpMMHlCQ1NDTUdMZ25BTUFLd1R1c1RQSTV1d2RPaXJ2ZENmMEd4RkViTFNsNmExaGtXSnNPYkMtRkZ0N2hFWDl1V3NXaV9rdkpzR0dmXzByd1FMZkxzOFJkOGFIN0tuMDJVWVNENDdYdUc1N010MmhVazFReVpsUE4ybWxkSmxLcFRnNTgyQ3BxdHRnZEFNdEtmQTlfY25IMjdFZVNKUDdaTnR5RG9ua3pBZ0ZMT3VaemhMWnNQWXF6SWZhaW9wMGtUSVAxcjVOemdqdnlDeEtBaDVDak1CRjB6b05XY0hiY2hiNHhuMnJnTl9oQXVMM3pMTUhzT3dGdmVpTS1QWFY4cWtmM2kteTRXX2doSVlISW0ydkZTaDdTa0tsTUY0?oc=5",
     "pub": "Sat, 15 Aug 2026 17:02:58 GMT",
@@ -1263,14 +1271,6 @@
     "src": "Decrypt",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Weekly Global Market Recap: The Inflation Turning Point Takes Hold, the AI Supercycle Reboots, and Geopolitical Risks Remain in Play - Binance",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5sQUxldFVkZ0pjNWliM3RkTk5KTlQ4U2l3b01FRWJTZVZubk1CTDFKWnZ1bWgwS3JRVmtYSE1WaFlkT25peDJ2ZmtxNHRrN1djclNrenpqelJFLS1TcXVJMmxRYkY?oc=5",
-    "pub": "Sat, 15 Aug 2026 04:37:41 GMT",
-    "src": "Binance",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1291,18 +1291,18 @@
     "geo": false
    },
    {
-    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investinglive.com",
+    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
     "pub": "Sat, 15 Aug 2026 23:13:53 GMT",
-    "src": "investinglive.com",
+    "src": "investingLive",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Global finance looks like a 'giant Jenga tower' propped up by a Japanese yen that's in deep trouble - fortune.com",
+    "title": "Global finance looks like a 'giant Jenga tower' propped up by a Japanese yen that's in deep trouble - Fortune",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmtNdlpDSU8zTlhDd1ZIQTFNXzM5TURFQjFxbDVqYll6X1BBaG1kRWdBRExFYTlPZlNCWTZKTzF2cHYtV0RlU2FydG9kN0ZaWTNrQmhESEMwMjlQcnd5Qm5iZEZjOGRQZ0duY0ZjZlNLSzBWMUpfN3lDTnl4S3hHWHBzZXVpQmF1cmhhNUVpMjZGZDRrdm5iZUxoOXBxeGhOTk9UNFlzYUVBTUxubjdsWVIxRjduVkNmSVp3?oc=5",
     "pub": "Sat, 15 Aug 2026 22:20:00 GMT",
-    "src": "fortune.com",
+    "src": "Fortune",
     "trig": false,
     "geo": false
    },
@@ -1511,15 +1511,15 @@
    12.61,
    12.52,
    12.63,
-   12.49,
-   12.71,
+   12.7,
+   12.62,
    12.36,
-   12.44,
-   12.45,
-   12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.25,
+   12.51,
+   12.28,
+   12.86,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64796.6,
    64311.81,
    62763.32,
-   63010.37
+   63010.38
   ],
   "vixts": [
    0.808,
@@ -1692,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -2457,12 +2457,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T05:37:06+00:00",
+  "checked": "2026-08-16T05:41:42+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

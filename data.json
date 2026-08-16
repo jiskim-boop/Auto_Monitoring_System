@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T12:32:12+00:00",
+ "updated": "2026-08-16T12:41:58+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -325,9 +325,9 @@
    "price": 126.24,
    "chg": 5.42,
    "chg5": 6.87,
-   "sma20": 128.08,
-   "sma50": 132.88,
-   "sma200": 145.07,
+   "sma20": 127.59,
+   "sma50": 132.8,
+   "sma200": 145.22,
    "high3m": 149.36,
    "reg": 126.24,
    "pre": null,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -405,9 +405,9 @@
    "price": 184.61,
    "chg": -1.59,
    "chg5": -6.29,
-   "sma20": 185.35,
-   "sma50": 181.98,
-   "sma200": 182.24,
+   "sma20": 183.96,
+   "sma50": 182.27,
+   "sma200": 182.08,
    "high3m": 201.37,
    "reg": 184.61,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -680,7 +680,7 @@
    "sma20": 20.45,
    "sma50": 20.43,
    "sma200": 20.48,
-   "high3m": 20.61,
+   "high3m": 20.66,
    "reg": 20.57,
    "pre": null,
    "post": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 95.25,
+   "sma50": 93.31,
+   "sma200": 101.2,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 140.02,
-   "sma50": 143.15,
-   "sma200": 142.96,
+   "sma20": 139.94,
+   "sma50": 142.74,
+   "sma200": 142.84,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -837,9 +837,9 @@
    "price": 106.12,
    "chg": -0.4,
    "chg5": -0.4,
-   "sma20": 106.43,
-   "sma50": 107.65,
-   "sma200": 108.68,
+   "sma20": 106.58,
+   "sma50": 107.78,
+   "sma200": 108.73,
    "high3m": 109.7,
    "reg": 106.12,
    "pre": null,
@@ -916,10 +916,10 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
+   "chg5": 8.24,
+   "sma20": 778.9,
+   "sma50": 861.13,
+   "sma200": 1022.57,
    "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62928.75,
-   "chg": -0.15,
-   "chg5": -0.98,
-   "sma20": 63788.29,
-   "sma50": 63570.71,
-   "sma200": 68923.12,
+   "price": 62935.02,
+   "chg": -0.14,
+   "chg5": -0.97,
+   "sma20": 63788.61,
+   "sma50": 63570.83,
+   "sma200": 68923.15,
    "high3m": 66505.12,
-   "reg": 62928.75,
+   "reg": 62935.02,
    "pre": null,
    "post": null,
-   "regClose": 62928.75,
+   "regClose": 62935.02,
    "sess": "reg",
-   "mt": 1786883503,
+   "mt": 1786884090,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4437.3,
-   "chg": 1.69,
+   "chg": 1.3,
    "chg5": 2.23,
-   "sma20": 4177.47,
-   "sma50": 4159.15,
-   "sma200": 4520.21,
+   "sma20": 4174.62,
+   "sma50": 4158.01,
+   "sma200": 4519.75,
    "high3m": 4560.5,
    "reg": 4437.3,
    "pre": null,
    "post": null,
-   "regClose": 4437.3,
+   "regClose": 4380.4,
    "sess": "24h",
    "mt": 1786741200,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.31,
+   "chg": 0.2,
    "chg5": 0.65,
    "sma20": 6.49,
    "sma50": 6.35,
@@ -1084,7 +1084,7 @@
    "reg": 6.61,
    "pre": null,
    "post": null,
-   "regClose": 6.61,
+   "regClose": 6.6,
    "sess": "24h",
    "mt": 1786741180,
    "ok": true
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Credit Strategist Michael Lewitt warns CoreWeave’s debt load threatens survival (CRWV:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQd2JlMTdBa1NianFCXzNIVVpNMXpBQUNzendKa29MaFE2Vmg1RTN6QlVQT0dBaUNfbVY2b0VucW12Vkp2NXl4YTVYd3FfQnNWM2FhWTB3ZGttN2dzQ3otcGZTMjNtOGVadnFjTmprWHhfOWRVM0l6NjNIVEZSakdyV2F0T0Fya0p3UE91MWc2VmRsLXpCRWVGNjZkMUtzMXhkMVVrSGl2cGQ1bmxwQTlGTm5nN1FxNGhu?oc=5",
+    "pub": "Sun, 16 Aug 2026 12:35:44 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Trinity Capital Stock: An 11% Yielding BDC Worth Buying (NYSE:TRIN) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUk55V3d4NVRRel9TRDFaVmdhZ0hnM0ItVkw4M1BZYTVvSUxCRWZBTnA5bHpTSkNkcDNrRFVTT2RvaE1LWjdQNzdpZUZmdU1aRlZJN2tTSEgyNVRqaUN0Qk9xOHJiSFdqeGl6Wi0yNjEyQ2lFTnV2bXd3MVNkVDV2MkN3SG5tNlBoSnVnMWpCMEF5M2QxcXRSR3N5ck0?oc=5",
     "pub": "Sun, 16 Aug 2026 09:03:13 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Stocktwits",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Grok AI Used to Generate Explicit Images of Minor, Lawsuit Filed Against xAI - OECD AI Policy Observatory",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Z2oxcEVhS2s5ald1NDBnWk1Wcm1aVzVrbmdDN2dWVERrVENKaW9xTWQ2VFg0YV8tUzF3LTkzakozYVRRbl9tNkVrOG81M190Yl9lTkl6WQ?oc=5",
+    "pub": "Sun, 16 Aug 2026 10:34:28 GMT",
+    "src": "OECD AI Policy Observatory",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1OdF9vcllNcUwyUHR1MmhCSHZmX1UxS0ZSUDdaam42eDhNYzhDLW0wTGtVbm9oVVF6UFUyajdNU3ZJSVNhMnhXYVlabVFoOHk3VU9oNWRIU3lMcDgzWk5USDVYUmJhNG9U?oc=5",
     "pub": "Sun, 16 Aug 2026 05:25:00 GMT",
     "src": "calcalistech.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX launches SOS satellites, brings on sonic boom landing back at launch site - Orlando Sentinel",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQlNrN2VPSXZwNE5sNnNhRkJFd2lzdFU2a29kaDlXeGU2V2pPWlV6QTBKWGMwaXZjcENIeEpmUHVzMXNSTFphUzRwaHF2WHQzVV8yb0xuUmwyT21yLWxjUUp6OHlocy1tc3JTTG5OOUlQclVmVDNfUV9oRXBqVjdHWU1sazdyM0JyaTVsU2pOWmtITTlnRy1ieDNvQ0J2YjFkcXZkZDF3NlFKZFN2VUpKcndQYUtBaTZMb280cHJDaDlrSG8?oc=5",
-    "pub": "Sun, 16 Aug 2026 04:09:27 GMT",
-    "src": "Orlando Sentinel",
     "trig": false,
     "geo": false
    }
@@ -1275,14 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
-    "pub": "Sun, 16 Aug 2026 11:13:12 GMT",
-    "src": "investingLive",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
     "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
@@ -1291,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Gold rates today in Bengaluru and Chennai stable, check the prices on 16 August, 2026 - The Hans India",
+    "title": "Gold rates today in Bengaluru and Chennai stable, check the prices on 16 August, 2026 - thehansindia.com",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQdIBzgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQQ?oc=5",
     "pub": "Sun, 16 Aug 2026 05:07:32 GMT",
-    "src": "The Hans India",
+    "src": "thehansindia.com",
     "trig": false,
     "geo": false
    },
@@ -1303,6 +1295,14 @@
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aOWlqVDdodThsQU5Ta3BEakxyUUtnWmM4OUI4OEZzaUQ4QjRJV1UzLTNmUmFyNFg3eEJOcU1TNlFmNGhxSVNuQmk1THk2WEtVa3Uta090OUlRNkowM0hjSUdqVjU?oc=5",
     "pub": "Sun, 16 Aug 2026 02:21:07 GMT",
     "src": "Binance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
+    "pub": "Sat, 15 Aug 2026 23:13:53 GMT",
+    "src": "investingLive",
     "trig": false,
     "geo": false
    },
@@ -1464,16 +1464,16 @@
  "charts": {
   "vix": [
    17.26,
-   16.76,
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
+   17.44,
+   16.29,
+   16.06,
+   22.22,
+   16.41,
+   18.63,
+   16.59,
+   15.84,
+   15.67,
+   18.58,
    15.86,
    14.25
   ],
@@ -1511,15 +1511,15 @@
    12.61,
    12.52,
    12.63,
-   12.49,
-   12.71,
+   12.7,
+   12.62,
    12.36,
-   12.44,
-   12.45,
-   12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.25,
+   12.51,
+   12.28,
+   12.86,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,20 +1610,20 @@
    64690.8,
    65340.3,
    63482.0,
-   62928.75
+   62935.03
   ],
   "vixts": [
    0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
+   0.84,
+   0.819,
+   0.861,
+   1.155,
    0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
+   0.908,
+   0.848,
+   0.778,
+   0.802,
+   0.989,
    0.835,
    0.694
   ],
@@ -1692,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "러시아의 우크라이나 드론·미사일 공격이 지속되는 가운데 VIX 14로 저변동성이 유지되고 있으며, 미10년 금리 4.70%와 HY스프레드 2.71%는 신용시장의 회복력을 시사한다. AI 인프라 수급은 CoreWeave의 매출 성장과 Anthropic의 높은 수익 전망으로 수요 강세를 보이고 있으나, Nvidia의 오하이오 펀딩 축소는 공급 정상화 신호를 반영한다.",
+  "text": "우크라이나 미사일 공격으로 지정학적 긴장이 고조되는 가운데, VIX 14의 낮은 변동성과 HY스프레드 2.71%는 신용시장이 아직 리스크를 과소평가하고 있음을 시사한다. CoreWeave 등 AI인프라 기업의 부채 부담 우려가 제기되며 사모신용 회복력이 시험받는 상황이다. AI capex 사이클에서는 HBM 메모리 수급 개선 논의와 Nvidia의 공급망 재편이 진행 중이나 아직 특이 공급 차질 신호는 없다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1738,12 +1738,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 0,
+   "trig": 1,
    "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2457,12 +2456,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T12:32:01+00:00",
+  "checked": "2026-08-16T12:41:45+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

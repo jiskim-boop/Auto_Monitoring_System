@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T10:22:06+00:00",
+ "updated": "2026-08-16T10:32:16+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.86,
+   "sma50": 12.64,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.49,
-   "sma50": 79.66,
-   "sma200": 79.87,
+   "sma20": 79.5,
+   "sma50": 79.67,
+   "sma200": 79.88,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": -5.33,
-   "chg5": -0.59,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.46,
+   "sma50": 18.46,
+   "sma200": 18.46,
+   "high3m": 18.46,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.46,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 95.25,
+   "sma50": 93.31,
+   "sma200": 101.2,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62919.82,
-   "chg": -0.17,
-   "chg5": -0.99,
-   "sma20": 63787.85,
-   "sma50": 63570.53,
-   "sma200": 68923.07,
+   "price": 62931.63,
+   "chg": -0.15,
+   "chg5": -0.98,
+   "sma20": 63788.44,
+   "sma50": 63570.77,
+   "sma200": 68923.14,
    "high3m": 66505.12,
-   "reg": 62919.82,
+   "reg": 62931.63,
    "pre": null,
    "post": null,
-   "regClose": 62919.82,
+   "regClose": 62931.63,
    "sess": "reg",
-   "mt": 1786875692,
+   "mt": 1786876299,
    "ok": true
   },
   "USO": {
@@ -1133,14 +1133,6 @@
     "geo": false
    },
    {
-    "title": "Palace orders probe into ambush on BARMM interim chief minister - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQTjI4YVlhR2JvMFJmYVA3c0kyOU9YMTduS0pCVmtCM3hObDhtRTg2YVY3Zm9YYnRkWW5GbmE2X2NzY2ZLU0pYaklMRkFOSG9NeEJyVURsd0FYTVN3V0tIVDhrLVZJdGV6QmVRTEJrNHc5Nm90NHNvdDlXVHU4bVRkcmpCaEpOdWhqcXAwRTd4UUVwVzBHTFd4ckFwLU5VbzVoVlpKaFV5X1ZMY1pvSS02WmFLTXdOUQ?oc=5",
-    "pub": "Sun, 16 Aug 2026 09:00:27 GMT",
-    "src": "ABS-CBN",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "BDC Weekly Review: Market Is Surprised By Private Credit Resilience - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPRlNLZTFCVmd6R1RzR2lzTnNUNm9xRDBQenNjY0VBckU3U01VdzlvUlY4UDllblkwUlE4a19TSUZQUkV1R1dkRWZtQ0V3WnZiYU1kV21zZmdUVnVlLVJmbW5UUGY3Zk5HX0ZKeVRfczgwWjVUeWp0VHk0VndBd1NzUG5BZGRscVZ6bDFaSC1WemJVUlBmQ1F3U3RxOW1qZkIxMVdpM0RBLXYtY28?oc=5",
     "pub": "Sun, 16 Aug 2026 06:26:27 GMT",
@@ -1165,6 +1157,14 @@
     "geo": false
    },
    {
+    "title": "NKE, OWL, SMR Stocks Hit 52-Week Lows Last Week: What Drove The Selloff? - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkNRWkx0MG1tWVVhckZES0VJNk56UE1hbjNLbzRhcWNEa3V0aGZvWF9rODNmcnZvX2FXdm9iYWlIblNKOGt4U2dSWGRBc2g5VGdvenFLWFlFZ0tzV2lMNDR3aDE1TkN1cUFxcWIxVjJnQ09HeVVkX2p1eVNTV2tHcEpsM0tVaTFTY3pZNkNCOGhwNEdGU1hwQy1DUW9pX1RUV3VIbVhuYlZ0V2JKbVE?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:36:31 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
     "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
@@ -1174,6 +1174,14 @@
    }
   ],
   "fundamental": [
+   {
+    "title": "USSF-366 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1uVXc3djI0YUVwMnV0VTRGMm45Z2cxT3dZYUl5SjVkV3NWUGJDdnp6eXpTTzNWVUkxSXRZYjBnOVBaUTFkakNXLXBQQjJyV2ow?oc=5",
+    "pub": "Sun, 16 Aug 2026 10:20:13 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
@@ -1213,14 +1221,6 @@
     "src": "calcalistech.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceX launches SOS satellites, brings on sonic boom landing back at launch site - Orlando Sentinel",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQlNrN2VPSXZwNE5sNnNhRkJFd2lzdFU2a29kaDlXeGU2V2pPWlV6QTBKWGMwaXZjcENIeEpmUHVzMXNSTFphUzRwaHF2WHQzVV8yb0xuUmwyT21yLWxjUUp6OHlocy1tc3JTTG5OOUlQclVmVDNfUV9oRXBqVjdHWU1sazdyM0JyaTVsU2pOWmtITTlnRy1ieDNvQ0J2YjFkcXZkZDF3NlFKZFN2VUpKcndQYUtBaTZMb280cHJDaDlrSG8?oc=5",
-    "pub": "Sun, 16 Aug 2026 04:09:27 GMT",
-    "src": "Orlando Sentinel",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1257,28 +1257,28 @@
     "geo": false
    },
    {
-    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - mshale.com",
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
     "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
    {
-    "title": "10-year Treasury Yield Rises Ahead Of Fed Rate Decision Emily English (VLxL7JMS25) - mshale.com",
+    "title": "10-year Treasury Yield Rises Ahead Of Fed Rate Decision Emily English (VLxL7JMS25) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fTG55Q3djNG9mbS11OTl6Qk5haGE1bGt6VEQ5X09mV0E4X2ZYYU5qMzkxcGpkWTdRd1BGUXNOVHZUWHlGb0hzVzBnQnZITmZlYWNHZmJUNHpMN0k?oc=5",
     "pub": "Sat, 15 Aug 2026 20:35:34 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - mshale.com",
+    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
     "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
@@ -1287,14 +1287,6 @@
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQdIBzgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQQ?oc=5",
     "pub": "Sun, 16 Aug 2026 05:07:32 GMT",
     "src": "The Hans India",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Paradox of Yen Defense: Borrowing Dollars from the Fed Without Selling US Treasuries - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VQmxJemZ1eVNDYzV2ZHVmQWg4QURYVzNJTlUyQzNCT0VxeFRxVGFfTXc1UG9ScFdBaFl5OVFqUG80UmJNeE5VMzl6WjR3ZkUxalhCdGhFUkMyUGVUenNyc3Y5QTJuM2ZfT29oNEw1MHF3Q1BUV0E?oc=5",
-    "pub": "Sun, 16 Aug 2026 03:35:00 GMT",
-    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    },
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmtNdlpDSU8zTlhDd1ZIQTFNXzM5TURFQjFxbDVqYll6X1BBaG1kRWdBRExFYTlPZlNCWTZKTzF2cHYtV0RlU2FydG9kN0ZaWTNrQmhESEMwMjlQcnd5Qm5iZEZjOGRQZ0duY0ZjZlNLSzBWMUpfN3lDTnl4S3hHWHBzZXVpQmF1cmhhNUVpMjZGZDRrdm5iZUxoOXBxeGhOTk9UNFlzYUVBTUxubjdsWVIxRjduVkNmSVp3?oc=5",
     "pub": "Sat, 15 Aug 2026 22:20:00 GMT",
     "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump invites crypto and prediction market CEOs to the White House to discuss regulations - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDhsREN3ZjloQWlKZ0VIUHpCeUcwd0c2d3ZDWHg2X0IwSmZPdVM2QTRXREJzazFuc2ZfX2lVWENwNm1ab2NDU21ZcjlvOWhmR2NwYzktUXBqdEU3QVlDbEtqUkxSakJobUxzN2s1dXAtMDc5bGdJRElkQlZjbVpNSFR6VGlLbEdGRFE?oc=5",
+    "pub": "Sat, 15 Aug 2026 21:18:43 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64690.8,
    65340.3,
    63482.0,
-   62919.82
+   62931.63
   ],
   "vixts": [
    0.808,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "우크라이나 교전 격화로 지정학 리스크가 고조되는 가운데, VIX 14 수준의 낮은 변동성과 미10년 금리 4.70% 유지는 시장이 아직 연착륙 시나리오를 선가격 중임을 시사한다. AI capex 사이클에서 특이 신호 없음—Nvidia의 오하이오 백스톱 축소 논의와 Anthropic의 IPO 준비가 진행 중이나, HBM 수급 긴장이나 구조적 변화는 현재 데이터에서 확인되지 않는다.",
+  "text": "지정학 긴장(우크라이나 미사일 공격)이 고조되면서도 VIX 14와 HY스프레드 2.71%로 신용시장 안정성이 유지되고 있으며, 이는 연방준비제도 금리 인하 기대감과 사모신용 회복력이 지탱하는 상황이다. AI 캐팩스 수급에서 특이 신호는 없으나 엔비디아의 구조 조정과 HBM 메모리 혁신, CoreWeave의 선금 재분류 등이 인프라 투자 재조정 과정을 반영하고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1738,7 +1738,7 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
-   "trig": 1,
+   "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2456,12 +2456,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T10:21:52+00:00",
+  "checked": "2026-08-16T10:32:02+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

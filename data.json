@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T09:42:04+00:00",
+ "updated": "2026-08-16T09:52:02+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.82,
+   "sma50": 12.63,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.49,
-   "sma50": 79.66,
-   "sma200": 79.87,
+   "sma20": 79.5,
+   "sma50": 79.67,
+   "sma200": 79.88,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6463.32,
-   "sma50": 7408.26,
-   "sma200": 6831.68,
+   "sma20": 6504.36,
+   "sma50": 7530.02,
+   "sma200": 6834.67,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -916,10 +916,10 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
+   "chg5": 8.24,
+   "sma20": 778.9,
+   "sma50": 861.13,
+   "sma200": 1022.57,
    "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62977.15,
-   "chg": -0.07,
-   "chg5": -0.9,
-   "sma20": 63790.71,
-   "sma50": 63571.68,
-   "sma200": 68923.39,
+   "price": 62945.05,
+   "chg": -0.13,
+   "chg5": -0.95,
+   "sma20": 63789.11,
+   "sma50": 63571.03,
+   "sma200": 68923.21,
    "high3m": 66505.12,
-   "reg": 62977.15,
+   "reg": 62945.05,
    "pre": null,
    "post": null,
-   "regClose": 62977.15,
+   "regClose": 62945.05,
    "sess": "reg",
-   "mt": 1786873290,
+   "mt": 1786873890,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4437.3,
-   "chg": 1.3,
+   "chg": 1.69,
    "chg5": 2.23,
-   "sma20": 4174.62,
-   "sma50": 4158.01,
-   "sma200": 4519.75,
+   "sma20": 4177.47,
+   "sma50": 4159.15,
+   "sma200": 4520.21,
    "high3m": 4560.5,
    "reg": 4437.3,
    "pre": null,
    "post": null,
-   "regClose": 4380.4,
+   "regClose": 4437.3,
    "sess": "24h",
    "mt": 1786741200,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.2,
+   "chg": 0.31,
    "chg5": 0.65,
    "sma20": 6.49,
    "sma50": 6.35,
@@ -1084,7 +1084,7 @@
    "reg": 6.61,
    "pre": null,
    "post": null,
-   "regClose": 6.6,
+   "regClose": 6.61,
    "sess": "24h",
    "mt": 1786741180,
    "ok": true
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "Wyoming Woman Sues xAI Over Grok Generated Explicit Images of Her as a Child - Startup Fortune",
+    "title": "Wyoming Woman Sues xAI Over Grok Generated Explicit Images of Her as a Child - startupfortune.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSmRfanlLN01ZRHhPUUpWQlhDSkFYUjFWQ1EtYjY0SlFabVVLWkRkTERjRTBOOHl5bHh0bTNPNWN4RjkzSjljQ1JWTFlYeW04ZV85cXZqdUpHTEdKellsV2VrUHZGdGZjSDI1dlg1elpaQ25yd1B2RDJ1SFEySFJ5RUVCdXpNSXN2OFhraW1uWWtFdC04Mmg3VEE5bk9fbTZZZnBxM2Mzbw?oc=5",
     "pub": "Sun, 16 Aug 2026 05:32:13 GMT",
-    "src": "Startup Fortune",
+    "src": "startupfortune.com",
     "trig": false,
     "geo": false
    },
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "U.S. Consumer Sentiment Slumps Amid Inflation and Geopolitical Risks: What Markets Should Watch Next - interactivecrypto.com",
+    "title": "U.S. Consumer Sentiment Slumps Amid Inflation and Geopolitical Risks: What Markets Should Watch Next - InteractiveCrypto",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVWFFY0dhcjhuSFBsT2czNHFLOEdGNnRyX3VDTnhjb3J4bDZpM0FwWmtVWWVDN1JfOTItWW90M2w0NFBJU3g0b3lQZzFKeVVCd2o3YmhzR1d3aWZEdlZqeENuTGZNOG9qS1dWcHAtb09MUGJyb0FvS3Boa0tvcEFHZnlqaktXbmpPUDAxX3h3Wm8wV1I0M2lsVEQ5dEEybmJLbHV0M2IxcjdzNS1LaXNKUXhGRFpBRUdfakxKSjNUVlJWejk2SC1BR2hB?oc=5",
     "pub": "Sun, 16 Aug 2026 02:37:58 GMT",
-    "src": "interactivecrypto.com",
+    "src": "InteractiveCrypto",
     "trig": false,
     "geo": false
    },
@@ -1257,28 +1257,28 @@
     "geo": false
    },
    {
-    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - mshale.com",
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
     "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US-Israel-Iran War Latest Live News: Trump Urges Americans to Pay ‘Little Bit More’ for Gas as Price Rise 29% Amid Strait of Hormuz Crisis Intensifies & Escalating Middle East Tensions - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMixgJBVV95cUxOTDk2OWNYbWQySEtad3g3SzREZWNvVDduTVVEOEowNWtpQnA5d3BObmdqSmdFbHZRYThRTHhXVHZNQU1TWkw3b2pTcnBYT3M2OWF1QzZVVGMwRDRNZ3hzRGNWZ1J1eFE4ZXBqLWZYdnk4VEJHR1VpeVdGLW5ucDZEc3E2OGl5QjNWS2pmZVNRTnp0dlIyajh6X1JNVmVzZTNQSUdXV3NBLTU2dmNSY3Vua0d4WWZnbFpfYzNoTHV6Ynl5UDhHQWJmN0ZqUGJSWXVGakV2bmxWeTE1M05fZUF1LUVzMkhfX0g4emlidF9NRWpudzU0bUREUFBqUHZCTElUVDNIcWZHcTE1T0pveldobDdKRHNXd0hXY2JsNHNWNDVMR0ZKUy1IZ21QeGo1T2U1bTNfbXRpeld1cnRVYldWaVh0N3l0UdIBywJBVV95cUxObWJkbzBRNG4tSHl5V3N1M2dhQmoxdDhjOGJfenhxLUNKZWVyYmpMMHlCQ1NDTUdMZ25BTUFLd1R1c1RQSTV1d2RPaXJ2ZENmMEd4RkViTFNsNmExaGtXSnNPYkMtRkZ0N2hFWDl1V3NXaV9rdkpzR0dmXzByd1FMZkxzOFJkOGFIN0tuMDJVWVNENDdYdUc1N010MmhVazFReVpsUE4ybWxkSmxLcFRnNTgyQ3BxdHRnZEFNdEtmQTlfY25IMjdFZVNKUDdaTnR5RG9ua3pBZ0ZMT3VaemhMWnNQWXF6SWZhaW9wMGtUSVAxcjVOemdqdnlDeEtBaDVDak1CRjB6b05XY0hiY2hiNHhuMnJnTl9oQXVMM3pMTUhzT3dGdmVpTS1QWFY4cWtmM2kteTRXX2doSVlISW0ydkZTaDdTa0tsTUY0?oc=5",
-    "pub": "Sat, 15 Aug 2026 17:02:58 GMT",
-    "src": "The Sunday Guardian",
+    "title": "10-year Treasury Yield Rises Ahead Of Fed Rate Decision Emily English (VLxL7JMS25) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1fTG55Q3djNG9mbS11OTl6Qk5haGE1bGt6VEQ5X09mV0E4X2ZYYU5qMzkxcGpkWTdRd1BGUXNOVHZUWHlGb0hzVzBnQnZITmZlYWNHZmJUNHpMN0k?oc=5",
+    "pub": "Sat, 15 Aug 2026 20:35:34 GMT",
+    "src": "Mshale",
     "trig": false,
-    "geo": true
+    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - mshale.com",
+    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
     "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
@@ -1291,14 +1291,6 @@
     "geo": false
    },
    {
-    "title": "The Paradox of Yen Defense: Borrowing Dollars from the Fed Without Selling US Treasuries - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9VQmxJemZ1eVNDYzV2ZHVmQWg4QURYVzNJTlUyQzNCT0VxeFRxVGFfTXc1UG9ScFdBaFl5OVFqUG80UmJNeE5VMzl6WjR3ZkUxalhCdGhFUkMyUGVUenNyc3Y5QTJuM2ZfT29oNEw1MHF3Q1BUV0E?oc=5",
-    "pub": "Sun, 16 Aug 2026 03:35:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper's Rally Doesn't Look Like a Normal Copper Rally Anymore - Binance",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1aOWlqVDdodThsQU5Ta3BEakxyUUtnWmM4OUI4OEZzaUQ4QjRJV1UzLTNmUmFyNFg3eEJOcU1TNlFmNGhxSVNuQmk1THk2WEtVa3Uta090OUlRNkowM0hjSUdqVjU?oc=5",
     "pub": "Sun, 16 Aug 2026 02:21:07 GMT",
@@ -1307,10 +1299,10 @@
     "geo": false
    },
    {
-    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
+    "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investinglive.com",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
     "pub": "Sat, 15 Aug 2026 23:13:53 GMT",
-    "src": "investingLive",
+    "src": "investinglive.com",
     "trig": false,
     "geo": false
    },
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdmtNdlpDSU8zTlhDd1ZIQTFNXzM5TURFQjFxbDVqYll6X1BBaG1kRWdBRExFYTlPZlNCWTZKTzF2cHYtV0RlU2FydG9kN0ZaWTNrQmhESEMwMjlQcnd5Qm5iZEZjOGRQZ0duY0ZjZlNLSzBWMUpfN3lDTnl4S3hHWHBzZXVpQmF1cmhhNUVpMjZGZDRrdm5iZUxoOXBxeGhOTk9UNFlzYUVBTUxubjdsWVIxRjduVkNmSVp3?oc=5",
     "pub": "Sat, 15 Aug 2026 22:20:00 GMT",
     "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump invites crypto and prediction market CEOs to the White House to discuss regulations - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOaDhsREN3ZjloQWlKZ0VIUHpCeUcwd0c2d3ZDWHg2X0IwSmZPdVM2QTRXREJzazFuc2ZfX2lVWENwNm1ab2NDU21ZcjlvOWhmR2NwYzktUXBqdEU3QVlDbEtqUkxSakJobUxzN2s1dXAtMDc5bGdJRElkQlZjbVpNSFR6VGlLbEdGRFE?oc=5",
+    "pub": "Sat, 15 Aug 2026 21:18:43 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1478,18 +1478,18 @@
    14.25
   ],
   "tnx": [
-   4.46,
-   4.57,
-   4.45,
-   4.48,
-   4.46,
-   4.45,
-   4.37,
-   4.48,
-   4.61,
-   4.6,
+   4.7,
+   4.68,
    4.64,
+   4.6,
+   4.62,
    4.69,
+   4.63,
+   4.62,
+   4.67,
+   4.7,
+   4.68,
+   4.68,
    4.7
   ],
   "dxy": [
@@ -1513,29 +1513,17 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
-   79.87,
-   81.53,
-   74.95,
-   70.22,
-   71.16,
-   77.03,
-   69.36,
-   65.39,
-   69.06,
-   68.14,
-   65.76,
-   68.89,
-   70.88
+   69.58
   ],
   "jpy": [
    157.85,
@@ -1610,23 +1598,9 @@
    64690.8,
    65340.3,
    63482.0,
-   62977.14
+   62945.05
   ],
-  "vixts": [
-   0.808,
-   0.807,
-   0.791,
-   0.825,
-   1.011,
-   0.77,
-   0.898,
-   0.796,
-   0.842,
-   0.955,
-   0.994,
-   0.835,
-   0.694
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -1692,13 +1666,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -1729,7 +1703,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장과 유가 상승 우려가 부각되는 가운데, VIX 14·HY스프레드 2.71%로 신용시장은 여전히 안정적이나 실러CAPE 43은 밸류에이션 과열을 시사한다. AI 인프라 수요 견조 속 CoreWeave 등 클라우드 인프라 업체들이 실적 개선을 보이고 있으나, GPU/HBM 공급 차질 우려나 특이 신호는 아직 제한적이다.",
+  "text": "지정학 긴장(우크라이나·중동)으로 변동성이 억제되는 가운데, 신용시장은 사모대출 회복력과 높은 밸류에이션이 동시에 존재하며 금리 경로 불확실성이 핵심 리스크입니다. AI capex는 CoreWeave의 수익 이중화와 엔터프라이즈 수요 확대로 모멘텀 지속 중이나, 메모리 공급망(HBM·RAM) 제약이 차기 장애물으로 부상하고 있습니다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,7 +1713,7 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.5,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
   }
@@ -2456,12 +2430,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T09:41:50+00:00",
+  "checked": "2026-08-16T09:51:47+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T15:22:02+00:00",
+ "updated": "2026-08-16T15:32:15+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.49,
-   "sma50": 38.66,
-   "sma200": 37.34,
+   "sma20": 39.3,
+   "sma50": 38.69,
+   "sma200": 37.29,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.86,
+   "sma50": 12.64,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
+   "chg5": 0.69,
+   "sma20": 11.15,
+   "sma50": 11.03,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63039.66,
-   "chg": 0.02,
-   "chg5": -0.81,
-   "sma20": 63793.84,
-   "sma50": 63572.93,
-   "sma200": 68923.73,
+   "price": 63052.99,
+   "chg": 0.05,
+   "chg5": -0.79,
+   "sma20": 63794.51,
+   "sma50": 63573.19,
+   "sma200": 68923.8,
    "high3m": 66505.12,
-   "reg": 63039.66,
+   "reg": 63052.99,
    "pre": null,
    "post": null,
-   "regClose": 63039.66,
+   "regClose": 63052.99,
    "sess": "reg",
-   "mt": 1786893688,
+   "mt": 1786894305,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Five Hidden Risks Inside The AI Data Center Boom That Could Hit American Households (NASDAQ: MSFT, META, GOOGL, AMZN, NVDA) - foreignpolicyjournal.com",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZkEwM29nV29wQ3RLeFRoZ0pfbzRUSUU5V3dvNDNEZzhULXJ4VGFHS1plWFp4eUp4ODhieWl0bzJRVXlyRHhLSGRfM0V1WEVEZkpzUjFKbVZoVF9ENVN5R0dXYzdCSFo2WWdUMTIwQXhoSjBNcnRUcV9UUWRXY0c0cmtRNzZjcm1wc0hIVG5vejlXYWVwMkN2ZTNHbTF3VDBWWGJpQ2s3LURMOXN4NVJFdHZMR2tlQUZkNVZtQXVsQ1dabTcxdGgzeWFxZF9fcTg3UXZjMml4RWo0S2FkZmpVUV9sMDJkem1MZ1E4UFNMalJxSGZrdVg0VA?oc=5",
+    "pub": "Sun, 16 Aug 2026 15:24:00 GMT",
+    "src": "foreignpolicyjournal.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "VinSpace Signs SpaceX Launch Agreement to Deploy Vietnam’s First Private Satellite Constellation - satnews.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVjR4dHF6Vmt5UnFhZTZwc3NGQWFoeG5lWF9WLU9RQXFXNWVmbnVnNEpUUWNqdURlQUczNW9NZGMtUzRtelR6cUVhM2UyREpnU3JEOVBDUlNuS0ZVNi1ER1lQRWpvU3JONmNwOHJraGl3V1RWbzdJR1JWSnR5OFpaaGdyVGsxcllPUFFReDhsc1BIX2l6SW05OUZlQWNJLUlRM3ZDby04TzVhVFZuQ0phT2MwUFdzWTRLZ0E2NlplNnFlZm4xLVE?oc=5",
     "pub": "Sun, 16 Aug 2026 14:24:32 GMT",
@@ -1199,27 +1207,19 @@
     "geo": false
    },
    {
-    "title": "Microsoft, TSM, and Cisco Are Breaking the AI Bubble Narrative - InvestorPlace",
+    "title": "Microsoft, TSM, and Cisco Are Breaking the AI Bubble Narrative - investorplace.com",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWswQUNjdHNCSWJXWGFZZUtIeVRnLUxPeTB1dkJPaHhrTGh3cTc5WENOdTlYaU5yZzRlSnA0Y2VIU3JMN3BNcTBUTmlZbjQ2c3RDQUd1QnZub0pRR3Y3ejE5anFHMnpNWGxnTmJ0SlZtTjVOUXBTVzFDUVlfWmlKcE5TUHFQTXFyQk5uUGlPQ2RXbkxsNWFVOE9FV0ZYRnRVZERUSFQ3c3M0UQ?oc=5",
     "pub": "Sun, 16 Aug 2026 12:57:01 GMT",
-    "src": "InvestorPlace",
+    "src": "investorplace.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
-    "pub": "Sun, 16 Aug 2026 07:10:59 GMT",
-    "src": "ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "HBF Flash Memory Could Help Solve the RAM Crisis - noobfeed.com",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5LZDVRLUZlM0FHLTV6M0VBNFplbmV2SmUyWHJLS0tHY2p1ZGZ2RTdWa0QwWFEzY0hqVmlNakp1dDlrRkVXQVZ1NWZlcGV2aFItNHU1OTMzZVRNdG1uM0xkaDd3RWZnM1lsaUlHc1Rn?oc=5",
-    "pub": "Sun, 16 Aug 2026 06:03:07 GMT",
-    "src": "noobfeed.com",
-    "trig": false,
+    "title": "Grok AI Used to Generate Explicit Images of Minor, Lawsuit Filed Against xAI - OECD AI Policy Observatory",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Z2oxcEVhS2s5ald1NDBnWk1Wcm1aVzVrbmdDN2dWVERrVENKaW9xTWQ2VFg0YV8tUzF3LTkzakozYVRRbl9tNkVrOG81M190Yl9lTkl6WQ?oc=5",
+    "pub": "Sun, 16 Aug 2026 10:34:28 GMT",
+    "src": "OECD AI Policy Observatory",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "5 Best Metals Stocks for 2026 and How to Invest - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcnRUUjNfLUxBaUdVZ0RnVC1TZEJsVzhPU0U4RHp5cVBUeF9xT3VRZkxhcTF6MkgtUnlDNzVtbmdWcExsTXNxUGh4a2lyVk5VRFNCbFk5bG5TWjZtRVM0UTZuWlZUVWhiU1BTMkVDSVN3eFFxOTZpUk5qaTJMWlhZUlJqSE96OEtlanc?oc=5",
-    "pub": "Sun, 16 Aug 2026 12:04:00 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
     "pub": "Sun, 16 Aug 2026 11:13:12 GMT",
     "src": "investingLive",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
+    "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.36,
-   12.44,
+   12.22,
+   12.67,
    12.45,
    12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.57,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64690.8,
    65340.3,
    63482.0,
-   63039.66
+   63054.32
   ],
   "vixts": [
    0.808,
@@ -2457,12 +2457,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T15:21:50+00:00",
+  "checked": "2026-08-16T15:32:03+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

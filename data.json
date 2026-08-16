@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T15:32:15+00:00",
+ "updated": "2026-08-16T15:41:58+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 4.32,
-   "sma20": 349.33,
-   "sma50": 370.72,
+   "chg5": 7.22,
+   "sma20": 350.06,
+   "sma50": 371.16,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.3,
-   "sma50": 38.69,
-   "sma200": 37.29,
+   "sma20": 39.49,
+   "sma50": 38.66,
+   "sma200": 37.34,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": -0.3,
-   "sma20": 12.86,
-   "sma50": 12.64,
-   "sma200": 12.73,
+   "chg5": 1.91,
+   "sma20": 12.79,
+   "sma50": 12.61,
+   "sma200": 12.72,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,9 +644,9 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 0.69,
-   "sma20": 11.15,
-   "sma50": 11.03,
+   "chg5": 3.63,
+   "sma20": 11.12,
+   "sma50": 11.02,
    "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.72,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.42,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.11,
+   "chg5": 0.13,
    "sma20": 47.4,
-   "sma50": 47.4,
-   "sma200": 47.26,
+   "sma50": 47.41,
+   "sma200": 47.25,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -3.25,
-   "sma20": 94.73,
-   "sma50": 93.54,
-   "sma200": 101.04,
+   "chg5": -1.4,
+   "sma20": 95.43,
+   "sma50": 93.52,
+   "sma200": 101.12,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 8.24,
-   "sma20": 775.29,
-   "sma50": 854.53,
-   "sma200": 1020.07,
-   "high3m": 1172.52,
+   "chg5": 7.86,
+   "sma20": 771.99,
+   "sma50": 858.36,
+   "sma200": 1021.42,
+   "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63052.99,
-   "chg": 0.05,
-   "chg5": -0.79,
-   "sma20": 63794.51,
-   "sma50": 63573.19,
-   "sma200": 68923.8,
+   "price": 63062.89,
+   "chg": 0.06,
+   "chg5": -0.77,
+   "sma20": 63795.0,
+   "sma50": 63573.39,
+   "sma200": 68923.86,
    "high3m": 66505.12,
-   "reg": 63052.99,
+   "reg": 63062.89,
    "pre": null,
    "post": null,
-   "regClose": 63052.99,
+   "regClose": 63062.89,
    "sess": "reg",
-   "mt": 1786894305,
+   "mt": 1786894890,
    "ok": true
   },
   "USO": {
@@ -1043,16 +1043,16 @@
   },
   "GC=F": {
    "price": 4437.3,
-   "chg": 1.69,
+   "chg": 1.3,
    "chg5": 2.23,
-   "sma20": 4177.47,
-   "sma50": 4159.15,
-   "sma200": 4520.21,
+   "sma20": 4174.62,
+   "sma50": 4158.01,
+   "sma200": 4519.75,
    "high3m": 4560.5,
    "reg": 4437.3,
    "pre": null,
    "post": null,
-   "regClose": 4437.3,
+   "regClose": 4380.4,
    "sess": "24h",
    "mt": 1786741200,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.31,
+   "chg": 0.2,
    "chg5": 0.65,
    "sma20": 6.49,
    "sma50": 6.35,
@@ -1084,7 +1084,7 @@
    "reg": 6.61,
    "pre": null,
    "post": null,
-   "regClose": 6.61,
+   "regClose": 6.6,
    "sess": "24h",
    "mt": 1786741180,
    "ok": true
@@ -1157,18 +1157,18 @@
     "geo": false
    },
    {
-    "title": "What CoreWeave’s $1.3 Billion deferred revenue reclassification might be telling us - Deep Quarry",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wZE9uM0o2TGxfcHJpcGkweHFDZmpFSTZ1a3FDbnV4WkRHeUR5eVpQLWxLU2s0VWFTaXhsT2ZjSS1nR3EtOXpsY2o4RDdYOUZmenhPYUNIWHdrOWJZbEVUMW8tQXY5cTlWUnBDTWJKMldWczAyRWw4VA?oc=5",
-    "pub": "Sat, 15 Aug 2026 23:01:36 GMT",
-    "src": "Deep Quarry",
+    "title": "Investor ng ipinapanukalang AI data center sa Oton, Iloilo nag-walkout sa public hearing - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOLXVhVG1uNHVXNUpvdldxNF9PaUNhakRPUmUxM2ZoMmI3Qi1Lak1BZnJSbWFScTRzTW5RN0EzWWF3b3phbkNmNmZ1b2p3UEx1WV9kbjE1NUpneVZsU1ZxZmJxRDlzWDRndU16cnh0M1pKWThUSmF1aXlkYjlHNnh6U1dtQ2xfc1JfVjdxWUpLdmY3SFV3c1VCeGRtMlB0LXJHbl80bG5Fa3BqRmdqMDF2dU5Mc2VQRzE4SWZVTDdaN1U3VFVLNHdwcVdTX1pNTDBLcHhvdUxn?oc=5",
+    "pub": "Sun, 16 Aug 2026 00:43:43 GMT",
+    "src": "ABS-CBN",
     "trig": false,
     "geo": false
    },
    {
-    "title": "CoreWeave: Tapping Into Broader Enterprise, Yet Stay Updated (NASDAQ:CRWV) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYzBwUkZPRFNsT1JYWFJubkh3eWR0Vk44WjVUZm5pRUIxWElVY3VGMjVscGlsQWZsNHM5ZjJFMHduZVFad3JOQnBUQmJKTEZRMlRYYVpCVUJRcEVHMWZSZnVSMU5EajF3MUw2eGRaaWRHeU9yUHdRcGpIWHBKUzlXLVlNcDJVMkhYWVlUc2JZRFBuZUtDS2tmZ3JJblhfeTNZ?oc=5",
-    "pub": "Sat, 15 Aug 2026 14:59:41 GMT",
-    "src": "Seeking Alpha",
+    "title": "What CoreWeave’s $1.3 Billion deferred revenue reclassification might be telling us - Deep Quarry",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4wZE9uM0o2TGxfcHJpcGkweHFDZmpFSTZ1a3FDbnV4WkRHeUR5eVpQLWxLU2s0VWFTaXhsT2ZjSS1nR3EtOXpsY2o4RDdYOUZmenhPYUNIWHdrOWJZbEVUMW8tQXY5cTlWUnBDTWJKMldWczAyRWw4VA?oc=5",
+    "pub": "Sat, 15 Aug 2026 23:01:36 GMT",
+    "src": "Deep Quarry",
     "trig": false,
     "geo": false
    }
@@ -1207,19 +1207,19 @@
     "geo": false
    },
    {
-    "title": "Microsoft, TSM, and Cisco Are Breaking the AI Bubble Narrative - investorplace.com",
+    "title": "Microsoft, TSM, and Cisco Are Breaking the AI Bubble Narrative - InvestorPlace",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWswQUNjdHNCSWJXWGFZZUtIeVRnLUxPeTB1dkJPaHhrTGh3cTc5WENOdTlYaU5yZzRlSnA0Y2VIU3JMN3BNcTBUTmlZbjQ2c3RDQUd1QnZub0pRR3Y3ejE5anFHMnpNWGxnTmJ0SlZtTjVOUXBTVzFDUVlfWmlKcE5TUHFQTXFyQk5uUGlPQ2RXbkxsNWFVOE9FV0ZYRnRVZERUSFQ3c3M0UQ?oc=5",
     "pub": "Sun, 16 Aug 2026 12:57:01 GMT",
-    "src": "investorplace.com",
+    "src": "InvestorPlace",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Grok AI Used to Generate Explicit Images of Minor, Lawsuit Filed Against xAI - OECD AI Policy Observatory",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Z2oxcEVhS2s5ald1NDBnWk1Wcm1aVzVrbmdDN2dWVERrVENKaW9xTWQ2VFg0YV8tUzF3LTkzakozYVRRbl9tNkVrOG81M190Yl9lTkl6WQ?oc=5",
-    "pub": "Sun, 16 Aug 2026 10:34:28 GMT",
-    "src": "OECD AI Policy Observatory",
-    "trig": true,
+    "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
+    "pub": "Sun, 16 Aug 2026 07:10:59 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1237,6 +1237,14 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01OHBuQzl2MjFaQ2RPUDJxNWgwbHdrN0RQSDlLaksyMVpXNk54cXNxYnk5dGQzcDNHTk1JZG5Ddk01clJUdnVXYVBjR2R2aVpBdnl2NUd5bw?oc=5",
     "pub": "Sun, 16 Aug 2026 12:55:00 GMT",
     "src": "AzerNews",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Federal Reserve holds rates as divided FOMC vote fuels rate hike expectations - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Xa2NRQWVyRE1oRTEzck96dXViSUNDNFk5RGx4WmItRHdHcE9GM3lsWnYyLWEzd2NwSEZlQkt3eERPdGNiTS0xSExpc0VyU1FNYXhzcldLWGhGaVVwVGlMRXNySDhsd0ZkMnc?oc=5",
+    "pub": "Sun, 16 Aug 2026 12:29:18 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNV0hoZ1VJOE44VnMwcldGdHJsTk16T1NTZ2R1SkFkUzI4bXNPTnI4R3NvcHhOeU56V2tlcDI0ckdYbllGUEhkVUdhVkdDTzliU0Z5T1R1Y09BNUdtV0lzOGZpVXJMQXRmUWJNRkxVZEtBWEZHcm9tcTVLQXVLYnVnbTBad01LOGlNclRQanU3TjZsUWE4U0tLNXFQNFZjS1U?oc=5",
     "pub": "Sun, 16 Aug 2026 09:16:41 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Stock Market Today: Live Updates 16.08.2026 - ts2.tech",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE40QWFKazYtWFRPZjE1UWRad0JOUUo5VlNSNzlGYnkzbHFLTDlnNTE2Z2VoeVJrdC16d1VFQTgwZlV3QU43Z1pKOWZ0bGxhZ1Q2LXVwY1VPQmZJd1JGY3RR?oc=5",
-    "pub": "Sun, 16 Aug 2026 08:59:27 GMT",
-    "src": "ts2.tech",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.63,
    12.49,
    12.71,
-   12.22,
-   12.67,
+   12.36,
+   12.44,
    12.45,
    12.47,
-   12.57,
-   12.46,
-   12.74,
+   12.72,
+   12.34,
+   12.4,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64690.8,
    65340.3,
    63482.0,
-   63054.32
+   63061.37
   ],
   "vixts": [
    0.808,
@@ -2457,16 +2457,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T15:32:03+00:00",
+  "checked": "2026-08-16T15:41:48+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

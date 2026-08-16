@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T11:11:55+00:00",
+ "updated": "2026-08-16T11:21:53+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -340,9 +340,9 @@
   "TLN": {
    "price": 362.74,
    "chg": 1.21,
-   "chg5": 7.22,
-   "sma20": 350.06,
-   "sma50": 371.16,
+   "chg5": 4.32,
+   "sma20": 349.33,
+   "sma50": 370.72,
    "sma200": 358.78,
    "high3m": 438.12,
    "reg": 362.74,
@@ -612,10 +612,10 @@
   "BIZD": {
    "price": 13.37,
    "chg": -1.26,
-   "chg5": 1.91,
-   "sma20": 12.79,
-   "sma50": 12.61,
-   "sma200": 12.72,
+   "chg5": -0.3,
+   "sma20": 12.86,
+   "sma50": 12.64,
+   "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.37,
    "pre": null,
@@ -644,10 +644,10 @@
   "OBDC": {
    "price": 11.72,
    "chg": -1.6,
-   "chg5": 3.63,
-   "sma20": 11.12,
-   "sma50": 11.02,
-   "sma200": 11.19,
+   "chg5": 0.69,
+   "sma20": 11.19,
+   "sma50": 11.05,
+   "sma200": 11.2,
    "high3m": 11.91,
    "reg": 11.72,
    "pre": null,
@@ -692,7 +692,7 @@
   "SRLN": {
    "price": 40.57,
    "chg": -0.07,
-   "chg5": 0.42,
+   "chg5": 0.32,
    "sma20": 40.4,
    "sma50": 40.33,
    "sma200": 40.31,
@@ -708,10 +708,10 @@
   "JBBB": {
    "price": 47.37,
    "chg": -0.06,
-   "chg5": 0.13,
+   "chg5": 0.11,
    "sma20": 47.4,
-   "sma50": 47.41,
-   "sma200": 47.25,
+   "sma50": 47.4,
+   "sma200": 47.26,
    "high3m": 47.75,
    "reg": 47.37,
    "pre": null,
@@ -756,10 +756,10 @@
   "^VVIX": {
    "price": 87.48,
    "chg": -2.17,
-   "chg5": -1.4,
-   "sma20": 95.43,
-   "sma50": 93.52,
-   "sma200": 101.12,
+   "chg5": -3.25,
+   "sma20": 95.25,
+   "sma50": 93.31,
+   "sma200": 101.2,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 140.02,
-   "sma50": 143.15,
-   "sma200": 142.96,
+   "sma20": 139.94,
+   "sma50": 142.74,
+   "sma200": 142.84,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -787,16 +787,16 @@
   },
   "^MOVE": {
    "price": 69.58,
-   "chg": 2.08,
-   "chg5": 0.04,
-   "sma20": 69.42,
-   "sma50": 71.97,
-   "sma200": 75.51,
-   "high3m": 86.07,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 69.58,
+   "sma50": 69.58,
+   "sma200": 69.58,
+   "high3m": 69.58,
    "reg": 69.58,
    "pre": null,
    "post": null,
-   "regClose": 70.88,
+   "regClose": 69.58,
    "sess": "reg",
    "mt": 1786739520,
    "ok": true
@@ -886,9 +886,9 @@
    "chg": 1.19,
    "chg5": 0.77,
    "sma20": 4.66,
-   "sma50": 4.56,
-   "sma200": 4.41,
-   "high3m": 4.74,
+   "sma50": 4.66,
+   "sma200": 4.66,
+   "high3m": 4.7,
    "reg": 4.7,
    "pre": null,
    "post": null,
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62933.05,
-   "chg": -0.14,
-   "chg5": -0.97,
-   "sma20": 63788.51,
-   "sma50": 63570.79,
-   "sma200": 68923.14,
+   "price": 62920.42,
+   "chg": -0.16,
+   "chg5": -0.99,
+   "sma20": 63787.88,
+   "sma50": 63570.54,
+   "sma200": 68923.07,
    "high3m": 66505.12,
-   "reg": 62933.05,
+   "reg": 62920.42,
    "pre": null,
    "post": null,
-   "regClose": 62933.05,
+   "regClose": 62920.42,
    "sess": "reg",
-   "mt": 1786878685,
+   "mt": 1786879286,
    "ok": true
   },
   "USO": {
@@ -1157,18 +1157,18 @@
     "geo": false
    },
    {
-    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
-    "src": "Seeking Alpha",
+    "title": "NKE, OWL, SMR Stocks Hit 52-Week Lows Last Week: What Drove The Selloff? - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkNRWkx0MG1tWVVhckZES0VJNk56UE1hbjNLbzRhcWNEa3V0aGZvWF9rODNmcnZvX2FXdm9iYWlIblNKOGt4U2dSWGRBc2g5VGdvenFLWFlFZ0tzV2lMNDR3aDE1TkN1cUFxcWIxVjJnQ09HeVVkX2p1eVNTV2tHcEpsM0tVaTFTY3pZNkNCOGhwNEdGU1hwQy1DUW9pX1RUV3VIbVhuYlZ0V2JKbVE?oc=5",
+    "pub": "Sat, 15 Aug 2026 09:36:31 GMT",
+    "src": "Stocktwits",
     "trig": false,
     "geo": false
    },
    {
-    "title": "CoreWeave Stock Soars 11% As Q2 Revenue Doubles On AI Boom - Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9idGJsS1FxdUZsRy1JYkJVdHUtSEhpRjdIdGhiZXBVWC1OdWlwbXFULTlGbGFxOHZKUk92aXFlVlFOME5rYmJpWHJGTzBPUDdZbENGS3FjOUxSTmY1WjhTbUl0NA?oc=5",
-    "pub": "Fri, 14 Aug 2026 19:03:02 GMT",
-    "src": "Yellow.com",
+    "title": "FSSL: A 36% Discount That Is Hard To Ignore, But Credit Risk Is Rising (NYSE:FSSL) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzVsQk1lZ2RPOUwtMGlWQVh4ZzlvUFRLd0dSVU96MVRRZFRTWXlXR3Y5YWk0ak1IODFVZS1kVWo1dl9RNWxDM3Vlb19wcll6SFdCWnhramVSc2VlNnA2Ym45VE1KMnF3eEk0eUtKZU1JYnhNemhYWTQzc0thN0lwODYwUHpxMi1Da0ZtSFJqSlJMYTQxd2ZxNGVKNEVVSmxHb1B4N3IzSWVjY29TNWM3NVNvN01NbmM?oc=5",
+    "pub": "Fri, 14 Aug 2026 19:45:19 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1265,28 +1265,28 @@
     "geo": false
    },
    {
-    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - mshale.com",
+    "title": "Dow Falls More The 800 Points Ahead Of Interest Rate Decision Playstation Plus Extra (9ZbeWScvhf) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5lMVUyVUZwUFBRb0EtUVBZOHRRSWVFN0JPSFR1RmdLaHk0RlM0bFFpNlUyRUFsRDdkM19SM2I4Q1YzcXM4RTZPWjhpVW01dmV3emtLWUFJSk8taDg?oc=5",
     "pub": "Sat, 15 Aug 2026 21:03:54 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - mshale.com",
+    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
     "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
-    "src": "mshale.com",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Gold rates today in Bengaluru and Chennai stable, check the prices on 16 August, 2026 - The Hans India",
+    "title": "Gold rates today in Bengaluru and Chennai stable, check the prices on 16 August, 2026 - thehansindia.com",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQdIBzgFBVV95cUxNYmhVY1lfb0hHUWF2NWhQSTNGb2pPSTV6Qm1hRnAzVzlYRjFkYmp5eWthLURBLTRtdmhXVllCS1c4eFhSZ2tpaUdSVTMtS2FLOFNyVUxqb05qWWJsTE5QcGxYWnVlcEMwWnBSZ2Y0bjhmekRGTExaczk5QUFHMTM0dGRsSXpHLVRMYWd6RXVORDRfcGZqX2RiOWR3VDFQal9nbTZiSmtiMFpiUnk1N1ZJQXo0SERSeUhhY0ZsYkhqazJ4dUEzc3FBaXFJbXdKQQ?oc=5",
     "pub": "Sun, 16 Aug 2026 05:07:32 GMT",
-    "src": "The Hans India",
+    "src": "thehansindia.com",
     "trig": false,
     "geo": false
    },
@@ -1478,18 +1478,18 @@
    14.25
   ],
   "tnx": [
-   4.46,
-   4.57,
-   4.45,
-   4.48,
-   4.46,
-   4.45,
-   4.37,
-   4.48,
-   4.61,
-   4.6,
+   4.7,
+   4.68,
    4.64,
+   4.6,
+   4.62,
    4.69,
+   4.63,
+   4.62,
+   4.67,
+   4.7,
+   4.68,
+   4.68,
    4.7
   ],
   "dxy": [
@@ -1511,15 +1511,15 @@
    12.61,
    12.52,
    12.63,
-   12.49,
-   12.71,
+   12.7,
+   12.62,
    12.36,
-   12.44,
-   12.45,
-   12.47,
-   12.72,
-   12.34,
-   12.4,
+   12.25,
+   12.51,
+   12.28,
+   12.86,
+   12.46,
+   12.74,
    13.37
   ],
   "move": [
@@ -1610,7 +1610,7 @@
    64690.8,
    65340.3,
    63482.0,
-   62933.04
+   62920.42
   ],
   "vixts": [
    0.808,
@@ -1692,13 +1692,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -2457,12 +2457,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T11:11:44+00:00",
+  "checked": "2026-08-16T11:21:42+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

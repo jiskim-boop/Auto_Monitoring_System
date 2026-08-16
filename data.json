@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-16T15:51:58+00:00",
+ "updated": "2026-08-16T16:02:29+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -325,9 +325,9 @@
    "price": 126.24,
    "chg": 5.42,
    "chg5": 6.87,
-   "sma20": 128.08,
-   "sma50": 132.88,
-   "sma200": 145.07,
+   "sma20": 127.59,
+   "sma50": 132.8,
+   "sma200": 145.22,
    "high3m": 149.36,
    "reg": 126.24,
    "pre": null,
@@ -421,9 +421,9 @@
    "price": 40.01,
    "chg": 0.4,
    "chg5": 0.28,
-   "sma20": 39.3,
-   "sma50": 38.69,
-   "sma200": 37.29,
+   "sma20": 39.49,
+   "sma50": 38.66,
+   "sma200": 37.34,
    "high3m": 40.85,
    "reg": 40.01,
    "pre": null,
@@ -725,9 +725,9 @@
    "price": 14.25,
    "chg": -2.6,
    "chg5": -4.36,
-   "sma20": 16.63,
-   "sma50": 17.18,
-   "sma200": 19.24,
+   "sma20": 16.71,
+   "sma50": 17.14,
+   "sma200": 19.31,
    "high3m": 22.22,
    "reg": 14.25,
    "pre": null,
@@ -757,9 +757,9 @@
    "price": 87.48,
    "chg": -2.17,
    "chg5": -3.25,
-   "sma20": 95.25,
-   "sma50": 93.31,
-   "sma200": 101.2,
+   "sma20": 94.73,
+   "sma50": 93.54,
+   "sma200": 101.04,
    "high3m": 109.47,
    "reg": 87.48,
    "pre": null,
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 139.94,
-   "sma50": 142.74,
-   "sma200": 142.84,
+   "sma20": 140.02,
+   "sma50": 143.15,
+   "sma200": 142.96,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63061.14,
-   "chg": 0.06,
+   "price": 63065.58,
+   "chg": 0.07,
    "chg5": -0.77,
-   "sma20": 63794.91,
-   "sma50": 63573.36,
-   "sma200": 68923.85,
+   "sma20": 63795.13,
+   "sma50": 63573.45,
+   "sma200": 68923.87,
    "high3m": 66505.12,
-   "reg": 63061.14,
+   "reg": 63065.58,
    "pre": null,
    "post": null,
-   "regClose": 63061.14,
+   "regClose": 63065.58,
    "sess": "reg",
-   "mt": 1786895487,
+   "mt": 1786896118,
    "ok": true
   },
   "USO": {
@@ -1215,15 +1215,23 @@
     "geo": false
    },
    {
-    "title": "Grok AI Used to Generate Explicit Images of Minor, Lawsuit Filed Against xAI - OECD AI Policy Observatory",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3Z2oxcEVhS2s5ald1NDBnWk1Wcm1aVzVrbmdDN2dWVERrVENKaW9xTWQ2VFg0YV8tUzF3LTkzakozYVRRbl9tNkVrOG81M190Yl9lTkl6WQ?oc=5",
-    "pub": "Sun, 16 Aug 2026 10:34:28 GMT",
-    "src": "OECD AI Policy Observatory",
-    "trig": true,
+    "title": "Nvidia's Balancing Act: A Slimmer Ohio Backstop, a $500 Billion Alliance, and a Market Waiting on Au - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOR1h2bWpkUmlUdEtuQ3lYZjlmRW9Yd3M4dHFSaEJZWFBjLU5zaFVCb3N0MVByWTRBVEJBcmxtWWgyRnpLdmNQVjN2RFVGVUUxeWxZZzFObHdtcVN0anVvSng1NklUbDE2YTI2UTZueV85bEVTLTRIQjBzLWthVjFBako1eHhQUUNfODNZZ0FCSEFHVmJkYks4U0VFV2dyXy1INGVid3N6dWNkQ0Jvc3hQaElPdlY0ZGptU2xtMnZ1ZUhfRDBFTlFzd3k3LWgtSmVPdmpYeGpGYW8?oc=5",
+    "pub": "Sun, 16 Aug 2026 07:10:59 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": false,
     "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Ukraine: Russian strike destroys Kyiv book market - Inbox.eu",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNWWFQZXN4ckVqa2VPMjN0YWEtSU8xQ1RMb3pieE5Ibm1NejlpVkZIZ3JrYVNjeVgxYi1CeURLUDlXN0FNS2djWjZmQ3BvT1p5bEwwZGNRTnBxNmxSQ1VnNnVkRTA1cG5Fc29GWlREU2RGUTc3aWcybkNqWVFXT0FXSWtaYUZoRHVSRGJzWXNRLUt4clAy?oc=5",
+    "pub": "Sun, 16 Aug 2026 14:40:52 GMT",
+    "src": "Inbox.eu",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "AmeriVet Securities' Greg Faranello explains Fed path ahead of Sept. decision - qz.com",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB2a1pDQ01yV3RQWk41UzB5UHNKOG1rM3NRZTdWN0p2ZTNRa2xYbk5sWVBBREd4Z3BLd09OWmJkYy1DdU83Q0tCX1JsTWVrTGNXbFFSMkZEMnM4anhLRURfd3QzekVRVWx6?oc=5",
@@ -1237,14 +1245,6 @@
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE01OHBuQzl2MjFaQ2RPUDJxNWgwbHdrN0RQSDlLaksyMVpXNk54cXNxYnk5dGQzcDNHTk1JZG5Ddk01clJUdnVXYVBjR2R2aVpBdnl2NUd5bw?oc=5",
     "pub": "Sun, 16 Aug 2026 12:55:00 GMT",
     "src": "AzerNews",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Federal Reserve holds rates as divided FOMC vote fuels rate hike expectations - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5Xa2NRQWVyRE1oRTEzck96dXViSUNDNFk5RGx4WmItRHdHcE9GM3lsWnYyLWEzd2NwSEZlQkt3eERPdGNiTS0xSExpc0VyU1FNYXhzcldLWGhGaVVwVGlMRXNySDhsd0ZkMnc?oc=5",
-    "pub": "Sun, 16 Aug 2026 12:29:18 GMT",
-    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "5 Best Metals Stocks for 2026 and How to Invest - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQcnRUUjNfLUxBaUdVZ0RnVC1TZEJsVzhPU0U4RHp5cVBUeF9xT3VRZkxhcTF6MkgtUnlDNzVtbmdWcExsTXNxUGh4a2lyVk5VRFNCbFk5bG5TWjZtRVM0UTZuWlZUVWhiU1BTMkVDSVN3eFFxOTZpUk5qaTJMWlhZUlJqSE96OEtlanc?oc=5",
-    "pub": "Sun, 16 Aug 2026 12:04:00 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "EIA raises crude oil price forecasts as Middle East supply risks tighten outlook - investingLive",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPMmRRNHZLc0pHeDZkcGxBcm53Y1N5YXgyOWx5cThlWWFlZlFValBMSXNfLXBicnoxRlBjUjFMQncxams0a1BaaW5lQ2ZOMVVFSnhEWnRCYTFidXk1U1VHdnJPdnZSTGNZOEhtRXR4TmxNNzBPWDJyTFRlN0NXU3dYdHNMR0JUdC15YXZkQURucXNkOElPcGZCdTFOQmczUVYxUGNWS2JGR1ZNWm1pQ0VlVExn?oc=5",
     "pub": "Sun, 16 Aug 2026 11:13:12 GMT",
     "src": "investingLive",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Pumas Vs Cavalry | 2025 Concacaf Champions Cup | Round One Copper Price (vCgRb7qtZu) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5GOUZGNXhZN1BtVEFEOFZ2Y2l6em0zMkZuLWl2c1FjaVdDYmNyOGtfM18xYjI2QVZSMmJTSUhCc2dKejR0Tmp5ZXhwZnpNd3EwNmg2VkxLSEVWU1k?oc=5",
+    "pub": "Sun, 16 Aug 2026 06:04:28 GMT",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    }
@@ -1523,19 +1523,7 @@
    13.37
   ],
   "move": [
-   79.87,
-   81.53,
-   74.95,
-   70.22,
-   71.16,
-   77.03,
-   69.36,
-   65.39,
-   69.06,
-   68.14,
-   65.76,
-   68.89,
-   70.88
+   69.58
   ],
   "jpy": [
    157.85,
@@ -1610,7 +1598,7 @@
    64690.8,
    65340.3,
    63482.0,
-   63061.15
+   63068.12
   ],
   "vixts": [
    0.808,
@@ -1692,13 +1680,13 @@
    0.2756,
    0.2761,
    0.2818,
-   0.2853,
-   0.2816,
-   0.2875,
-   0.2862,
+   0.2828,
+   0.2821,
+   0.2838,
+   0.2861,
    0.286,
-   0.2862,
-   0.2911,
+   0.2875,
+   0.289,
    0.2865,
    0.2869
   ],
@@ -2226,10 +2214,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-14T16",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-14T17",
     "v": 2.73
    },
@@ -2416,6 +2400,10 @@
    {
     "d": "2026-08-16T15",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-16T16",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2457,14 +2445,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-16T15:51:47+00:00",
+  "checked": "2026-08-16T16:02:18+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",
    "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

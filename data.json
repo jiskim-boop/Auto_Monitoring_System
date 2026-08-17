@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T20:22:02+00:00",
+ "updated": "2026-08-17T20:32:21+00:00",
  "prices": {
   "NVDA": {
    "price": 225.01,
@@ -644,10 +644,10 @@
   "OBDC": {
    "price": 11.5,
    "chg": -1.88,
-   "chg5": -0.43,
-   "sma20": 11.18,
-   "sma50": 11.04,
-   "sma200": 11.2,
+   "chg5": -1.2,
+   "sma20": 11.14,
+   "sma50": 11.03,
+   "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.5,
    "pre": null,
@@ -692,9 +692,9 @@
   "SRLN": {
    "price": 40.54,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.25,
    "sma20": 40.41,
-   "sma50": 40.34,
+   "sma50": 40.33,
    "sma200": 40.31,
    "high3m": 40.6,
    "reg": 40.54,
@@ -708,8 +708,8 @@
   "JBBB": {
    "price": 47.43,
    "chg": 0.13,
-   "chg5": 0.13,
-   "sma20": 47.39,
+   "chg5": 0.23,
+   "sma20": 47.4,
    "sma50": 47.41,
    "sma200": 47.26,
    "high3m": 47.75,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.21,
-   "chg": 6.74,
-   "chg5": -1.62,
+   "price": 15.19,
+   "chg": 6.6,
+   "chg5": -1.75,
    "sma20": 16.46,
-   "sma50": 17.18,
+   "sma50": 17.17,
    "sma200": 19.21,
    "high3m": 22.22,
-   "reg": 15.21,
+   "reg": 15.19,
    "pre": null,
    "post": null,
-   "regClose": 15.21,
+   "regClose": 15.19,
    "sess": "reg",
-   "mt": 1786997176,
+   "mt": 1786997701,
    "ok": true
   },
   "^VIX3M": {
@@ -750,23 +750,23 @@
    "post": null,
    "regClose": 19.04,
    "sess": "reg",
-   "mt": 1786997176,
+   "mt": 1786997701,
    "ok": true
   },
   "^VVIX": {
-   "price": 94.05,
-   "chg": 7.51,
-   "chg5": 1.66,
-   "sma20": 94.29,
-   "sma50": 93.71,
-   "sma200": 100.98,
+   "price": 93.92,
+   "chg": 7.36,
+   "chg5": 3.87,
+   "sma20": 94.88,
+   "sma50": 93.6,
+   "sma200": 101.06,
    "high3m": 109.47,
-   "reg": 94.05,
+   "reg": 93.92,
    "pre": null,
    "post": null,
-   "regClose": 94.05,
+   "regClose": 93.92,
    "sess": "reg",
-   "mt": 1786997176,
+   "mt": 1786997701,
    "ok": true
   },
   "^SKEW": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.59,
-   "chg": -0.08,
-   "chg5": -0.22,
+   "price": 99.58,
+   "chg": -0.09,
+   "chg5": -0.23,
    "sma20": 100.33,
    "sma50": 100.56,
    "sma200": 99.53,
    "high3m": 101.61,
-   "reg": 99.59,
+   "reg": 99.58,
    "pre": null,
    "post": null,
-   "regClose": 99.59,
+   "regClose": 99.58,
    "sess": "reg",
-   "mt": 1786997488,
+   "mt": 1786998104,
    "ok": true
   },
   "^IRX": {
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 8.24,
-   "sma20": 775.29,
-   "sma50": 854.53,
-   "sma200": 1020.07,
-   "high3m": 1172.52,
+   "chg5": 7.86,
+   "sma20": 771.99,
+   "sma50": 858.36,
+   "sma200": 1021.42,
+   "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64281.06,
-   "chg": 2.33,
-   "chg5": 1.39,
-   "sma20": 63803.27,
-   "sma50": 63663.48,
-   "sma200": 68897.45,
+   "price": 64336.68,
+   "chg": 2.42,
+   "chg5": 1.47,
+   "sma20": 63806.05,
+   "sma50": 63664.59,
+   "sma200": 68897.75,
    "high3m": 66505.12,
-   "reg": 64281.06,
+   "reg": 64336.68,
    "pre": null,
    "post": null,
-   "regClose": 64281.06,
+   "regClose": 64336.68,
    "sess": "reg",
-   "mt": 1786998089,
+   "mt": 1786998711,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.47,
-   "chg": 0.15,
+   "price": 159.48,
+   "chg": 0.16,
    "chg5": 0.2,
    "sma20": 160.37,
    "sma50": 161.12,
    "sma200": 159.41,
    "high3m": 163.86,
-   "reg": 159.47,
+   "reg": 159.48,
    "pre": null,
    "post": null,
-   "regClose": 159.47,
+   "regClose": 159.48,
    "sess": "reg",
-   "mt": 1786998092,
+   "mt": 1786998713,
    "ok": true
   },
   "ES=F": {
@@ -1006,55 +1006,55 @@
    "post": null,
    "regClose": 7767.0,
    "sess": "24h",
-   "mt": 1786997495,
+   "mt": 1786998110,
    "ok": true
   },
   "NQ=F": {
-   "price": 30082.0,
-   "chg": -0.2,
-   "chg5": 1.16,
-   "sma20": 29140.9,
-   "sma50": 29445.25,
-   "sma200": 27705.53,
+   "price": 30079.75,
+   "chg": -0.21,
+   "chg5": 1.15,
+   "sma20": 29140.79,
+   "sma50": 29445.21,
+   "sma200": 27705.51,
    "high3m": 30712.75,
-   "reg": 30082.0,
+   "reg": 30079.75,
    "pre": null,
    "post": null,
-   "regClose": 30082.0,
+   "regClose": 30079.75,
    "sess": "24h",
-   "mt": 1786997498,
+   "mt": 1786998111,
    "ok": true
   },
   "YM=F": {
-   "price": 53512.0,
-   "chg": -0.55,
-   "chg5": -1.02,
-   "sma20": 53217.25,
-   "sma50": 52581.5,
-   "sma200": 50268.07,
+   "price": 53520.0,
+   "chg": -0.53,
+   "chg5": -1.0,
+   "sma20": 53217.65,
+   "sma50": 52581.66,
+   "sma200": 50268.13,
    "high3m": 54494.0,
-   "reg": 53512.0,
+   "reg": 53520.0,
    "pre": null,
    "post": null,
-   "regClose": 53512.0,
+   "regClose": 53520.0,
    "sess": "24h",
-   "mt": 1786997490,
+   "mt": 1786998107,
    "ok": true
   },
   "GC=F": {
-   "price": 4474.1,
+   "price": 4474.0,
    "chg": 2.14,
    "chg5": 2.57,
-   "sma20": 4197.82,
+   "sma20": 4197.81,
    "sma50": 4157.98,
    "sma200": 4519.39,
    "high3m": 4560.5,
-   "reg": 4474.1,
+   "reg": 4474.0,
    "pre": null,
    "post": null,
-   "regClose": 4474.1,
+   "regClose": 4474.0,
    "sess": "24h",
-   "mt": 1786997480,
+   "mt": 1786998082,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 84.73,
    "sess": "24h",
-   "mt": 1786997492,
+   "mt": 1786998117,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.61,
    "sess": "24h",
-   "mt": 1786997498,
+   "mt": 1786997979,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.42,
    "sess": "24h",
-   "mt": 1786997492,
+   "mt": 1786998113,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1124,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Debt Black Hole: Private Credit Markets Showing Signs of Stress - LinkedIn",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOenNwdWpobU94Y2dXWWVINC1iczNUd3hCbC1VRGxIVU51WXdzUWVWVnVOZ2ZBUHZ1VzQ5WjM0NEhQM0lYcnlWLUJkN3hncEhYdHZhOTduM3lDa3hjUlI4T0p6cGFkb1h0NlZyMl9XU2dfYTF5Rl9HY0pLSDFSN3ZEVTc0a1IxcnBMaDVsWnV5NDJmdFdFaDlVWERsbjg?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:22:12 GMT",
+    "src": "LinkedIn",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Op-Ed: Public pensions bet underfunded retirements on private credit's riskiest corner - The Center Square",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZF9nVUFrUWJvb2RzMkw3YzdFdUN1ZVlvaDdTLTBVdlBPWnZYTFNuZmY0NmZsYjRBWGh4QnpOcWQ4S2lQR1JyTVN2SHdYYmRjUGN4TkhMclc4bmxtc2RJdGJMU0pBQ1VuY1lDTUlmV0MtdUtER3Z6VjR4bHhMa3FVVDJYbm5ILVBrT2FMaHM5ZXpQLWPSAZgBQVVfeXFMT0pPR01zQzJXZTllNkFQZDJFYmt3SGZJdDJFdUFHWFY1NjJTSEQ3MURxTDJpd1VraWIzMnNsRnVIR0stT3RySTFDeEhsMk96bUF2MXFZMXJ2X0ltMHZaZWxOLVo3b0tiSC02WHVVTXNfSjM2VnN2WVJJQTc0ZVU0R19kLXc1WWlpWmR0TmtIUTdKZmNsSkhnbFo?oc=5",
@@ -1163,22 +1171,22 @@
     "src": "Yahoo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave and Nebius take advantage of stronger pricing dynamics: BofA - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNVTQ0cmFLeDl2dFB0bFFiVVk0X1RlYlQ2Z2V4RmRHTmlmdnZLTTl1YTUxN0VhX2JsNGdQYzJ4OTlzRUpXM0RKQ3VaRG5xeDllR3FIUTFhM0NTdDNha3prbzNLNkMzX0lMaFQ0cUFvUFFERzV3S21HNWpyZmF2WkV6OEN2OGRkMXVrNWZoV280Y3BEZjE5TFNULU9GVG4xYWNqd3lUX0RydVZ6T1U?oc=5",
-    "pub": "Mon, 17 Aug 2026 16:07:56 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO - bloomberg.com",
+    "title": "Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVktR0ZGanRzYkMwQjBWRkhfbmVfLTVxR3JpYWtRbk1HemlQbjRab2EzTmN1VDNmYmk5Z0xIWGYzVmU2b3VTRENNTy00d1RrLXBoWjFPVE5hNEQyVDdrZ1ZuTzFaczRGODM0VnpycFpDa0tTZWpFSzYyU3d1dVNwQzlicGJPTm9WdlFHczFUMzNOalhjdDIwSWZZcVltMHdsVDY2OXE4QnZOQ2laUlU4Xw?oc=5",
     "pub": "Mon, 17 Aug 2026 19:37:45 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia to provide up to $105 billion guarantee for OpenAI's Ohio data center - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZkxQZ0FIUUQ0X2p6bVF1NWw1eF9PQnBtRVJVbUk4eV83UkU5X0JjdmE0RnFDdkZOLVJNWWlCejVmOTdmdTFoT3FGWmhGOGVYdFdwcXNwWlAtaEVNRnFPYkZFVzhmY3ZBQ0xERGUtWFF6QWdxcVFqR2k4dkdDTkJHNURIdUJ0Rk05NE94ekVPMjYtaWNodnItODdIdGU4Qmw5bndYZ095UF9nRFc5RnRheGxtNXFCM2VWbXd5M2pCTGw?oc=5",
+    "pub": "Mon, 17 Aug 2026 19:36:14 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1213,14 +1221,6 @@
     "src": "Yahoo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AMD Dominates GPU Sales Volume While Nvidia Captures Revenue Lead - Technetbook",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPMFhicWhGX18yX1RNc3IyUzBSQjF1UkQ1X3VvcXJVR3RqdlJpWEhvMk5RdHY5UU1fYUxLRGItU3BDT21fb1o0LXJqcEwwZTNNY1RCSjRoM2QzWHByMFgzQXJ6a3pJYVZ4YmxxUHF4b0xQOG1LS1NBVmFSREd1N0tKdGdyUzI?oc=5",
-    "pub": "Mon, 17 Aug 2026 17:46:00 GMT",
-    "src": "Technetbook",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Shell Pilipinas bludgeoned by Middle East war - business.inquirer.net",
+    "title": "Shell Pilipinas bludgeoned by Middle East war - Inquirer.net",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZHRMWGJwSzRMNmItY1NYUENNQVpYN2NqblFfNzFIbXV4b3JxLVRnSGcyMk9BWDY5a0JKcC11bUM2R1d1TEFrQVlQTjdRT05PNHRyalhTRFRxTnBCU3FveERFQ3FsRFBmbUlBWEpvaFNUZFJIY1hwN2JrVjdyb3dBeE1kd0NCMkJHSWfSAY8BQVVfeXFMUDdXRlV2NDNpRTVCNDZJWThKbzREQXJvWVFKRkppT1NUaF9rU3BWQzJqdktBMlJKamlLYTJoTnNtTmtTM3ZwcHB1ME41azJxQzdHVERGT0xrQTYzc0ZUYlgtTmxCdlFRSlRSWWMwTHB4TmJ3V0FBejd4WDNqZHoyV1cwOWN5SUc2Nm1qb3JQSmc?oc=5",
     "pub": "Mon, 17 Aug 2026 18:08:00 GMT",
-    "src": "business.inquirer.net",
+    "src": "Inquirer.net",
     "trig": false,
     "geo": false
    },
@@ -1275,14 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "Gold begins to regain safe-haven appeal after US-Iran war selloff - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM0NOaGtweEJHOFMwVGZxeHJBd1JucEdNcmhUdmk3dExPSWlKWVZRS2tLcVdXeEhLaXFKUG1oRVJvd29JZjE0d191OFo4MnRRdDRmS2o2aU4xWWxEYjc4MkdjelhyQUtKdjFLeXVPSE5LdUFZSFhPc3BlRzlZcmV3R1VsOC1ZR3FhWXBFRXBTOHV2SXhzak50ZENTaXFGQmlWSENPTXptRjVXTk0tbEt1TVJZaG43c3FTdDBLT1Z5RVpoS3hIRDVWUVh5YkpmRkt3TDVmQVhSbWs0MXJQWXVZZXdMeS1KYXY2cjlRNFJEbk_SAfABQVVfeXFMTjNDTmhrcHhCRzhTMFRmcXhyQXdSbnBHTXJoVHZpN3RMT0lpSllWUUtrS3FXV3hIS2lxSlBtaEVSb3dvSWYxNHdfdThaODJ0UXQ0ZktqNmlOMVlsRGI3ODJHY3pYckFLSnYxS3l1T0hOS3VBWUhYT3NwZUc5WXJld0dVbDgtWUdxYVlwRUVwUzh1dkl4c2pOdGRDU2lxRkJpVkhDT016bUY1V05NLWxLdU1SWWhuN3NxU3QwS09WeUVaaEt4SEQ1VlFYeWJKZkZLd0w1ZkFYUm1rNDFyUFl1WWV3THktSmF2NnI5UTRSRG5P?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:21:00 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper price nears record as LME supply squeeze intensifies - Mining.com.au",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQLVI5RXdlcVdyREZJaThETm9fRzhzMy0xMURoOF9zZnVqaEFwZ0NLVXFhd2JmSDdjY3JqSlEwUlBQa3o0emJ4ejJta2FWb3U1Z1lqcC1nRWdQRGlNcklwRUFCTU1qckVNS1lOSnZDdm1tYlRVZGZCNTM2Z1hBM2xRUmg2aUFrbWtMU1E?oc=5",
     "pub": "Mon, 17 Aug 2026 17:42:50 GMT",
@@ -1291,10 +1283,18 @@
     "geo": false
    },
    {
-    "title": "Copper Heads Toward Record High on LME as Supply Tensions Build - bloomberg.com",
+    "title": "Copper Heads Toward Record High on LME as Supply Tensions Build - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOb1IxdHRTVU5kLUtPOFVNbzMtZkUySzg5amVid1c4a1Q2RGpqRjNZS0JtdU85NGVhVDVzSnpTMnZVRUZKTVk2SWpCQ2Z6Rjg5dlZGb2R1N0ZGTzFpMHJWdjc5a3E2TkhKS1cxalJOSmQ5QS10X3J6MDIwTHEzdk1WNjRoM2Zoem9CcXBMQ051dmRVdEZxMXJmUFJKWHRaNzlsU2ZMdWJvRmoyVHdUS2tBX3BNRzQ?oc=5",
     "pub": "Mon, 17 Aug 2026 17:38:51 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Chevron Strikes Oil and Gas Offshore Angola in Major Discovery - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVkJQcjVpUjRMU3FxY0ZuakRMVXhrT2lXd1dwRVg5UTZ3SXpmSXZqdzc4RWZ0bjhSc3BMRGk2NEdseF9MN2pIUzhEbGNhUHQwenpwY0hJLUR4RFJiVGZVc3pkQkE2R093REFqZXhKQ2tGQzNPX2RkSDA5cEl5a1BtMVdNLV9aemdEYVBlaXdUNWRYRFE3Y0J2UUhWQ3NHMkNGTmstcW5hM0lFYTVuSEVIT0xYcHNIVTFlX1HSAb8BQVVfeXFMTkpRSkthQ1BZN25TMTFNRExOWjRwaTlUM09wejhDdTh5aC1RZ0V2Rm5aZFBJaXUwMnBRWkFPZTR2VzB1MFZPdkw5eS1XV3I3SWE0NjF4SFlBQ0ZyOFd5Y3NPZkU3WVpQV1dseEpOS0pscmtGTTNxYkJRNTZPaG1qZ1F2dnIwUnB0anNzRkpGT2ZwZ3l1Rkc1NG5UN2R5VHJmb1dHN25mOENheWZiWDBleGJHZV9LNHdjdmRxd1NPeUU?oc=5",
+    "pub": "Mon, 17 Aug 2026 17:30:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    },
@@ -1398,7 +1398,7 @@
    "chg": 0.0
   },
   "iorb": {
-   "date": "2026-08-17",
+   "date": "2026-08-18",
    "value": 3.65,
    "prev": 3.65,
    "chg": 0.0
@@ -1475,7 +1475,7 @@
    17.05,
    18.21,
    16.5,
-   15.21
+   15.19
   ],
   "tnx": [
    4.62,
@@ -1505,7 +1505,7 @@
    101.18,
    101.38,
    99.89,
-   99.59
+   99.58
   ],
   "bizd": [
    12.52,
@@ -1513,13 +1513,13 @@
    12.8,
    12.45,
    12.54,
-   12.3,
-   12.66,
+   12.22,
+   12.67,
    12.37,
    12.56,
-   12.59,
-   12.65,
-   12.96,
+   12.57,
+   12.46,
+   12.74,
    13.18
   ],
   "move": [
@@ -1550,7 +1550,7 @@
    162.49,
    163.77,
    157.53,
-   159.46
+   159.48
   ],
   "uso": [
    149.29,
@@ -1610,7 +1610,7 @@
    65230.03,
    63724.9,
    63460.9,
-   64282.13
+   64317.63
   ],
   "vixts": [
    0.852,
@@ -2454,7 +2454,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-17T20:21:51+00:00",
+  "checked": "2026-08-17T20:32:08+00:00",
   "openai": {
    "found": false
   },

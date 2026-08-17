@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T21:02:59+00:00",
+ "updated": "2026-08-17T21:12:13+00:00",
  "prices": {
   "NVDA": {
    "price": 225.01,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 356.92,
    "chg": -1.6,
-   "chg5": 2.65,
-   "sma20": 349.28,
-   "sma50": 370.71,
-   "sma200": 358.77,
+   "chg5": 4.0,
+   "sma20": 349.16,
+   "sma50": 370.3,
+   "sma200": 358.76,
    "high3m": 438.12,
    "reg": 356.92,
    "pre": null,
@@ -612,9 +612,9 @@
   "BIZD": {
    "price": 13.18,
    "chg": -1.42,
-   "chg5": -1.72,
-   "sma20": 12.81,
-   "sma50": 12.63,
+   "chg5": -1.05,
+   "sma20": 12.85,
+   "sma50": 12.64,
    "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.18,
@@ -692,9 +692,9 @@
   "SRLN": {
    "price": 40.54,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.25,
    "sma20": 40.41,
-   "sma50": 40.34,
+   "sma50": 40.33,
    "sma200": 40.31,
    "high3m": 40.6,
    "reg": 40.54,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.59,
-   "chg": -0.08,
-   "chg5": -0.22,
+   "price": 99.57,
+   "chg": -0.1,
+   "chg5": -0.24,
    "sma20": 100.33,
    "sma50": 100.56,
    "sma200": 99.53,
    "high3m": 101.61,
-   "reg": 99.59,
+   "reg": 99.57,
    "pre": null,
    "post": null,
-   "regClose": 99.59,
+   "regClose": 99.57,
    "sess": "reg",
-   "mt": 1786999915,
+   "mt": 1787000481,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64359.91,
-   "chg": 2.45,
-   "chg5": 1.51,
-   "sma20": 63807.22,
-   "sma50": 63665.06,
-   "sma200": 68897.88,
+   "price": 64369.65,
+   "chg": 2.47,
+   "chg5": 1.53,
+   "sma20": 63807.7,
+   "sma50": 63665.25,
+   "sma200": 68897.94,
    "high3m": 66505.12,
-   "reg": 64359.91,
+   "reg": 64369.65,
    "pre": null,
    "post": null,
-   "regClose": 64359.91,
+   "regClose": 64369.65,
    "sess": "reg",
-   "mt": 1787000519,
+   "mt": 1787001100,
    "ok": true
   },
   "USO": {
@@ -978,106 +978,106 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.44,
-   "chg": 0.14,
-   "chg5": 0.18,
+   "price": 159.41,
+   "chg": 0.12,
+   "chg5": 0.16,
    "sma20": 160.37,
    "sma50": 161.12,
    "sma200": 159.41,
    "high3m": 163.86,
-   "reg": 159.44,
+   "reg": 159.41,
    "pre": null,
    "post": null,
-   "regClose": 159.44,
+   "regClose": 159.41,
    "sess": "reg",
-   "mt": 1787000464,
+   "mt": 1787001101,
    "ok": true
   },
   "ES=F": {
-   "price": 7765.0,
+   "price": 7765.5,
    "chg": -0.51,
-   "chg5": -0.15,
-   "sma20": 7629.0,
-   "sma50": 7549.46,
+   "chg5": -0.14,
+   "sma20": 7629.02,
+   "sma50": 7549.47,
    "sma200": 7241.37,
    "high3m": 7822.5,
-   "reg": 7765.0,
+   "reg": 7765.5,
    "pre": null,
    "post": null,
-   "regClose": 7765.0,
+   "regClose": 7765.5,
    "sess": "24h",
-   "mt": 1786999925,
+   "mt": 1787000398,
    "ok": true
   },
   "NQ=F": {
-   "price": 30064.5,
-   "chg": -0.26,
-   "chg5": 1.1,
-   "sma20": 29140.03,
-   "sma50": 29444.9,
-   "sma200": 27705.39,
+   "price": 30078.25,
+   "chg": -0.21,
+   "chg5": 1.15,
+   "sma20": 29140.71,
+   "sma50": 29445.18,
+   "sma200": 27705.5,
    "high3m": 30712.75,
-   "reg": 30064.5,
+   "reg": 30078.25,
    "pre": null,
    "post": null,
-   "regClose": 30064.5,
+   "regClose": 30078.25,
    "sess": "24h",
-   "mt": 1786999926,
+   "mt": 1787000398,
    "ok": true
   },
   "YM=F": {
-   "price": 53508.0,
-   "chg": -0.56,
-   "chg5": -1.03,
-   "sma20": 53217.05,
-   "sma50": 52581.42,
-   "sma200": 50268.04,
+   "price": 53509.0,
+   "chg": -0.55,
+   "chg5": -1.02,
+   "sma20": 53217.1,
+   "sma50": 52581.44,
+   "sma200": 50268.05,
    "high3m": 54494.0,
-   "reg": 53508.0,
+   "reg": 53509.0,
    "pre": null,
    "post": null,
-   "regClose": 53508.0,
+   "regClose": 53509.0,
    "sess": "24h",
-   "mt": 1786999926,
+   "mt": 1787000397,
    "ok": true
   },
   "GC=F": {
-   "price": 4471.9,
-   "chg": 2.09,
-   "chg5": 2.52,
-   "sma20": 4197.7,
-   "sma50": 4157.93,
-   "sma200": 4519.37,
+   "price": 4473.1,
+   "chg": 2.12,
+   "chg5": 2.55,
+   "sma20": 4197.77,
+   "sma50": 4157.96,
+   "sma200": 4519.38,
    "high3m": 4560.5,
-   "reg": 4471.9,
+   "reg": 4473.1,
    "pre": null,
    "post": null,
-   "regClose": 4471.9,
+   "regClose": 4473.1,
    "sess": "24h",
-   "mt": 1786999921,
+   "mt": 1787000396,
    "ok": true
   },
   "CL=F": {
-   "price": 84.96,
-   "chg": 3.11,
-   "chg5": 3.45,
+   "price": 84.95,
+   "chg": 3.09,
+   "chg5": 3.43,
    "sma20": 82.59,
    "sma50": 79.39,
    "sma200": 87.03,
    "high3m": 108.66,
-   "reg": 84.96,
+   "reg": 84.95,
    "pre": null,
    "post": null,
-   "regClose": 84.96,
+   "regClose": 84.95,
    "sess": "24h",
-   "mt": 1786999924,
+   "mt": 1787000394,
    "ok": true
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.13,
-   "chg5": 0.2,
-   "sma20": 6.5,
+   "chg": 0.2,
+   "chg5": 0.28,
+   "sma20": 6.51,
    "sma50": 6.35,
    "sma200": 6.11,
    "high3m": 6.7,
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.61,
    "sess": "24h",
-   "mt": 1786999847,
+   "mt": 1787000396,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.45,
    "sess": "24h",
-   "mt": 1786999927,
+   "mt": 1787000399,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic's revenue run rate reportedly surpasses $65 billion pre-IPO - Axios",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9iSnBXWEFaa1hJVXNlT3YxM3VJalNlaEhTMGtmeUVXMUotcTJ4bzVRbWJIcDVjS0xMZVpEY2hZdTJhZjdtcUd2RHpRazJvRGdPNGlfTFhUc29nZkV5aFk2VXVSclI4aDl5WlNKa2VyTEdISW1TLVdyQ0R3?oc=5",
+    "pub": "Mon, 17 Aug 2026 21:08:30 GMT",
+    "src": "Axios",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Alphabet Drops 0.8% as Berkshire’s $37.8 Billion Stake Faces $200 Billion AI Challenge - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2dMRkxXT3FCNXk4UDU0TXJOYXhudnNsaThfM2pSc0RHbWdmeFdpakgyRGlnSWhyTnJ4ZWNhNXYyaTNWdU9wTWQ1UGtOb0lhaldNRFI4akotakVUbnFpSkVrY1Y5ZG4zWHhqTVpnNkZMbWRfZC1CLW5RMXloeGlFNHJfUU9lVGNxSFBNNGdDNlF4eXJKc3NnMHN3Nll0VEVvcTlFdjA0TQ?oc=5",
     "pub": "Mon, 17 Aug 2026 20:48:53 GMT",
@@ -1184,7 +1192,7 @@
    },
    {
     "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlHSAacBQVVfeXFMUGd5Q3JMSFMxclFGaVNzTFFuXzBZR19PeVJkRVNSU2J4eWd6cVlwX2hTT0kzSnJ3cUE0RlA0TVJxWmVjTm00UHMwWHVrSDhraVFnZTdJbE9sR2pPV2NtOGRxZ0oxR0hEd1J0MWpLYzdnX0VmZUx3cFlOU1pwZ3V5V3hha21LT2hGSS14c2dNa1BHRTlDZ0FRQkR3ZkJ0WGhNdVM4dldOb0k?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlE?oc=5",
     "pub": "Mon, 17 Aug 2026 20:33:35 GMT",
     "src": "CNBC",
     "trig": false,
@@ -1195,14 +1203,6 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVktR0ZGanRzYkMwQjBWRkhfbmVfLTVxR3JpYWtRbk1HemlQbjRab2EzTmN1VDNmYmk5Z0xIWGYzVmU2b3VTRENNTy00d1RrLXBoWjFPVE5hNEQyVDdrZ1ZuTzFaczRGODM0VnpycFpDa0tTZWpFSzYyU3d1dVNwQzlicGJPTm9WdlFHczFUMzNOalhjdDIwSWZZcVltMHdsVDY2OXE4QnZOQ2laUlU4Xw?oc=5",
     "pub": "Mon, 17 Aug 2026 19:37:45 GMT",
     "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWHlaNzZNZjdaNUduQXVCTDJjS0tCcGgyZ1hKdVlGVW9vQUNUVXRzY21fYVJ2aE05WURGbi1LRFA0UkdoRGxiQ08tTUVCWXhCQm5NS0Z5Y1FoamtNaV94Zi1QckdmZ083a25tLVRGM1d4bllrV1JMXzNabHRscWVHRE8tVXExWnRvWmVIQ2xiVnRjRThWNEpXN0p5RjFKYlVGcGc?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:37:45 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Fed's Next Rate Move Just Got More Complicated - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNZGc5WVpwMnlHSHBFSVZCdFVOTy1IcWlma3k0c213eFN2UWZCOEpqNVR3dFFydV8zekhpbVRCQTRiU1c2UTdfZlRXU2RuUVc5TGd3T0wwZ2xRQmxMRUlVRmswWmVtWVpkblFzVXN6aGlVQ3RfWXlMWUpEcDhTcXdfb3NnUzRVbmp4Z3pDYWdVMGs1aEtoM2dnVS16MVdGOTVneXVBLW1TbGZJQQ?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:37:16 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Treasury Yields Rise as Credit Spreads Widen - Mott Capital Management",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOeVdiUjRhTXJyWHZLS09Zb3R0WWlLckV5Tkl4NFQyVFdSZk5VM2lsVm5yZUJIc25SX1Fkb2M3Wk5icHQ0OTE0OXg2OVRlblNxbTU4akN4V1ZDRWpfeF9tVEVRNWhSUlc4MDc0SE93X240QnlpM0ZRczZ2RnhHWmxzVmNR?oc=5",
     "pub": "Mon, 17 Aug 2026 20:34:47 GMT",
@@ -1249,17 +1257,9 @@
     "geo": false
    },
    {
-    "title": "OMERS Returns 4.8% in H1, Rotates Tech Stocks - ai-cio.com",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sZjVEWUNrME1TUTVHSXVKNXhoWjhPRUg0Z2s1Nnl6dXlhUGVBRzBfZ1EzRC1Kb0JSRHpEeHljcVVBdzhuOGdELTVCVHEzZ1gxUDdxWEZxcTNzSFhham9GbFNDdFBueFZhay1TQkZsSlpYaWtBQmpJN0I2bFY?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:00:05 GMT",
-    "src": "ai-cio.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Shell Pilipinas bludgeoned by Middle East war - Inquirer.net",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZHRMWGJwSzRMNmItY1NYUENNQVpYN2NqblFfNzFIbXV4b3JxLVRnSGcyMk9BWDY5a0JKcC11bUM2R1d1TEFrQVlQTjdRT05PNHRyalhTRFRxTnBCU3FveERFQ3FsRFBmbUlBWEpvaFNUZFJIY1hwN2JrVjdyb3dBeE1kd0NCMkJHSWfSAY8BQVVfeXFMUDdXRlV2NDNpRTVCNDZJWThKbzREQXJvWVFKRkppT1NUaF9rU3BWQzJqdktBMlJKamlLYTJoTnNtTmtTM3ZwcHB1ME41azJxQzdHVERGT0xrQTYzc0ZUYlgtTmxCdlFRSlRSWWMwTHB4TmJ3V0FBejd4WDNqZHoyV1cwOWN5SUc2Nm1qb3JQSmc?oc=5",
-    "pub": "Mon, 17 Aug 2026 18:08:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQN1dGVXY0M2lFNUI0NklZOEpvNERBcm9ZUUpGSmlPU1RoX2tTcFZDMmp2S0EyUkpqaUthMmhOc21Oa1MzdnBwcHUwTjVrMnFDN0dUREZPTGtBNjNzRlRiWC1ObEJ2UVFKVFJZYzBMcHhOYndXQUF6N3hYM2pkejJXVzA5Y3lJRzY2bWpvclBKZ9IBjwFBVV95cUxQN1dGVXY0M2lFNUI0NklZOEpvNERBcm9ZUUpGSmlPU1RoX2tTcFZDMmp2S0EyUkpqaUthMmhOc21Oa1MzdnBwcHUwTjVrMnFDN0dUREZPTGtBNjNzRlRiWC1ObEJ2UVFKVFJZYzBMcHhOYndXQUF6N3hYM2pkejJXVzA5Y3lJRzY2bWpvclBKZw?oc=5",
+    "pub": "Mon, 17 Aug 2026 18:13:03 GMT",
     "src": "Inquirer.net",
     "trig": false,
     "geo": false
@@ -1283,8 +1283,8 @@
     "geo": false
    },
    {
-    "title": "Gold begins to regain safe-haven appeal after US-Iran war selloff - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM0NOaGtweEJHOFMwVGZxeHJBd1JucEdNcmhUdmk3dExPSWlKWVZRS2tLcVdXeEhLaXFKUG1oRVJvd29JZjE0d191OFo4MnRRdDRmS2o2aU4xWWxEYjc4MkdjelhyQUtKdjFLeXVPSE5LdUFZSFhPc3BlRzlZcmV3R1VsOC1ZR3FhWXBFRXBTOHV2SXhzak50ZENTaXFGQmlWSENPTXptRjVXTk0tbEt1TVJZaG43c3FTdDBLT1Z5RVpoS3hIRDVWUVh5YkpmRkt3TDVmQVhSbWs0MXJQWXVZZXdMeS1KYXY2cjlRNFJEbk_SAfABQVVfeXFMTjNDTmhrcHhCRzhTMFRmcXhyQXdSbnBHTXJoVHZpN3RMT0lpSllWUUtrS3FXV3hIS2lxSlBtaEVSb3dvSWYxNHdfdThaODJ0UXQ0ZktqNmlOMVlsRGI3ODJHY3pYckFLSnYxS3l1T0hOS3VBWUhYT3NwZUc5WXJld0dVbDgtWUdxYVlwRUVwUzh1dkl4c2pOdGRDU2lxRkJpVkhDT016bUY1V05NLWxLdU1SWWhuN3NxU3QwS09WeUVaaEt4SEQ1VlFYeWJKZkZLd0w1ZkFYUm1rNDFyUFl1WWV3THktSmF2NnI5UTRSRG5P?oc=5",
+    "title": "Gold appears set for a rebound as it regains safe-haven appeal after US-Iran war selloff - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPaXNVRmREcldxY2pla2l4a1B3U0NjakFvUkswczQtd2pxOHNGQ0tYTWt2U080VDdXV0J1YUlnSU8xa2RhUDV6RWpwUTRVbnpKQmF0QlhTdGFkQ1o0NzZrX3ZfNnFDVDVENVBnbEJDdUk4UXp6bTlxMG9EcmlabXlmSVQ5cXRES2ZudXd3X1d6WnI2ZXVFMFpCM2kwRE9iZGFPZDU0S1dKeFlaTjhuekE2RVYxbDZnZVhOeGYwZzNvN1FTZHpMd1RYMUw2cHFSNklDVExNcGVKa2w5eU9uU0tjNEs0TndMQkZweW9lMmpVZl9Ec0VTeDN0OGY4QXNVNnNIOWVOc1d6Qkcya0NTZXBr0gGPAkFVX3lxTE9pc1VGZERyV3FjamVraXhrUHdTQ2NqQW9SSzBzNC13anE4c0ZDS1hNa3ZTTzRUN1dXQnVhSWdJTzFrZGFQNXpFanBRNFVuekpCYXRCWFN0YWRDWjQ3Nmtfdl82cUNUNUQ1UGdsQkN1SThRenptOXEwb0RyaVpteWZJVDlxdERLZm51d3dfV3pacjZldUUwWkIzaTBET2JkYU9kNTRLV0p4WVpOOG56QTZFVjFsNmdlWE54ZjBnM283UVNkekx3VFgxTDZwcVI2SUNUTE1wZUprbDl5T25TS2M0SzROd0xCRnB5b2UyalVmX0RzRVN4M3Q4ZjhBc1U2c0g5ZU5zV3pCRzJrQ1NlcGs?oc=5",
     "pub": "Mon, 17 Aug 2026 19:21:00 GMT",
     "src": "The Economic Times",
     "trig": false,
@@ -1505,7 +1505,7 @@
    101.18,
    101.38,
    99.89,
-   99.59
+   99.55
   ],
   "bizd": [
    12.52,
@@ -1513,13 +1513,13 @@
    12.8,
    12.45,
    12.54,
-   12.3,
-   12.66,
+   12.22,
+   12.67,
    12.37,
    12.56,
-   12.59,
-   12.65,
-   12.96,
+   12.57,
+   12.46,
+   12.74,
    13.18
   ],
   "move": [
@@ -1550,7 +1550,7 @@
    162.49,
    163.77,
    157.53,
-   159.44
+   159.41
   ],
   "uso": [
    149.29,
@@ -1610,7 +1610,7 @@
    65230.03,
    63724.9,
    63460.9,
-   64362.17
+   64369.65
   ],
   "vixts": [
    0.852,
@@ -2454,7 +2454,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-17T21:02:33+00:00",
+  "checked": "2026-08-17T21:11:59+00:00",
   "openai": {
    "found": false
   },
@@ -2465,9 +2465,9 @@
  "fragility": {
   "margin_mn": 1502072,
   "margin_asof": "Jun-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.63,
-  "curve_bp": 51,
+  "curve_bp": 53,
   "curve_inverted": false,
   "curve_uninv_months": 23.4
  },

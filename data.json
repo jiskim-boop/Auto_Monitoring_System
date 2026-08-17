@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T10:51:55+00:00",
+ "updated": "2026-08-17T11:03:54+00:00",
  "prices": {
   "NVDA": {
    "price": 225.16,
@@ -341,9 +341,9 @@
    "price": 362.74,
    "chg": 1.21,
    "chg5": 4.32,
-   "sma20": 349.33,
-   "sma50": 370.72,
-   "sma200": 358.78,
+   "sma20": 352.49,
+   "sma50": 372.02,
+   "sma200": 358.77,
    "high3m": 438.12,
    "reg": 362.74,
    "pre": null,
@@ -661,9 +661,9 @@
    "price": 79.71,
    "chg": -0.1,
    "chg5": 0.13,
-   "sma20": 79.5,
-   "sma50": 79.67,
-   "sma200": 79.88,
+   "sma20": 79.49,
+   "sma50": 79.66,
+   "sma200": 79.87,
    "high3m": 80.31,
    "reg": 79.71,
    "pre": null,
@@ -722,33 +722,33 @@
    "ok": true
   },
   "^VIX": {
-   "price": 14.94,
-   "chg": 4.84,
-   "chg5": -3.36,
+   "price": 14.93,
+   "chg": 4.77,
+   "chg5": -3.43,
    "sma20": 16.45,
    "sma50": 17.17,
    "sma200": 19.21,
    "high3m": 22.22,
-   "reg": 14.94,
+   "reg": 14.93,
    "pre": null,
    "post": null,
-   "regClose": 14.94,
+   "regClose": 14.93,
    "sess": "reg",
-   "mt": 1786962976,
+   "mt": 1786963606,
    "ok": true
   },
   "^VIX3M": {
    "price": 18.46,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.46,
-   "sma50": 18.46,
-   "sma200": 18.46,
-   "high3m": 18.46,
+   "chg": -5.33,
+   "chg5": -0.59,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.77,
+   "high3m": 22.89,
    "reg": 18.46,
    "pre": null,
    "post": null,
-   "regClose": 18.46,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1786738501,
    "ok": true
@@ -773,9 +773,9 @@
    "price": 138.36,
    "chg": 2.97,
    "chg5": 4.37,
-   "sma20": 140.02,
-   "sma50": 143.15,
-   "sma200": 142.96,
+   "sma20": 139.94,
+   "sma50": 142.74,
+   "sma200": 142.84,
    "high3m": 154.82,
    "reg": 138.36,
    "pre": null,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.45,
    "sess": "reg",
-   "mt": 1786963282,
+   "mt": 1786963914,
    "ok": true
   },
   "^IRX": {
@@ -822,8 +822,8 @@
    "chg": -0.22,
    "chg5": -0.35,
    "sma20": 3.73,
-   "sma50": 3.73,
-   "sma200": 3.73,
+   "sma50": 3.69,
+   "sma200": 3.64,
    "high3m": 3.81,
    "reg": 3.7,
    "pre": null,
@@ -837,9 +837,9 @@
    "price": 106.12,
    "chg": -0.4,
    "chg5": -0.4,
-   "sma20": 106.58,
-   "sma50": 107.78,
-   "sma200": 108.73,
+   "sma20": 106.43,
+   "sma50": 107.65,
+   "sma200": 108.68,
    "high3m": 109.7,
    "reg": 106.12,
    "pre": null,
@@ -901,9 +901,9 @@
    "price": 6977.94,
    "chg": 2.42,
    "chg5": 11.49,
-   "sma20": 6504.36,
-   "sma50": 7530.02,
-   "sma200": 6834.67,
+   "sma20": 6463.32,
+   "sma50": 7408.26,
+   "sma200": 6831.68,
    "high3m": 9114.55,
    "reg": 6977.94,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63526.85,
-   "chg": 1.13,
-   "chg5": 0.2,
-   "sma20": 63765.56,
-   "sma50": 63648.4,
-   "sma200": 68893.31,
+   "price": 63603.7,
+   "chg": 1.25,
+   "chg5": 0.32,
+   "sma20": 63769.41,
+   "sma50": 63649.93,
+   "sma200": 68893.73,
    "high3m": 66505.12,
-   "reg": 63526.85,
+   "reg": 63603.7,
    "pre": null,
    "post": null,
-   "regClose": 63526.85,
+   "regClose": 63603.7,
    "sess": "reg",
-   "mt": 1786963885,
+   "mt": 1786964517,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 159.17,
    "sess": "reg",
-   "mt": 1786963891,
+   "mt": 1786964522,
    "ok": true
   },
   "ES=F": {
@@ -1006,87 +1006,87 @@
    "post": null,
    "regClose": 7816.75,
    "sess": "24h",
-   "mt": 1786963287,
+   "mt": 1786963918,
    "ok": true
   },
   "NQ=F": {
-   "price": 30303.0,
-   "chg": 0.53,
-   "chg5": 1.9,
-   "sma20": 29151.95,
-   "sma50": 29449.67,
-   "sma200": 27707.28,
+   "price": 30310.0,
+   "chg": 0.56,
+   "chg5": 1.93,
+   "sma20": 29152.3,
+   "sma50": 29449.81,
+   "sma200": 27707.34,
    "high3m": 30712.75,
-   "reg": 30303.0,
+   "reg": 30310.0,
    "pre": null,
    "post": null,
-   "regClose": 30303.0,
+   "regClose": 30310.0,
    "sess": "24h",
-   "mt": 1786963291,
+   "mt": 1786963920,
    "ok": true
   },
   "YM=F": {
-   "price": 53750.0,
-   "chg": -0.11,
-   "chg5": -0.58,
-   "sma20": 53229.15,
-   "sma50": 52586.26,
-   "sma200": 50269.96,
+   "price": 53742.0,
+   "chg": -0.12,
+   "chg5": -0.59,
+   "sma20": 53228.75,
+   "sma50": 52586.1,
+   "sma200": 50269.9,
    "high3m": 54494.0,
-   "reg": 53750.0,
+   "reg": 53742.0,
    "pre": null,
    "post": null,
-   "regClose": 53750.0,
+   "regClose": 53742.0,
    "sess": "24h",
-   "mt": 1786963290,
+   "mt": 1786963907,
    "ok": true
   },
   "GC=F": {
-   "price": 4454.0,
-   "chg": 1.68,
-   "chg5": 2.11,
-   "sma20": 4196.81,
-   "sma50": 4157.58,
+   "price": 4454.6,
+   "chg": 1.69,
+   "chg5": 2.13,
+   "sma20": 4196.84,
+   "sma50": 4157.59,
    "sma200": 4519.23,
    "high3m": 4560.5,
-   "reg": 4454.0,
+   "reg": 4454.6,
    "pre": null,
    "post": null,
-   "regClose": 4454.0,
+   "regClose": 4454.6,
    "sess": "24h",
-   "mt": 1786963290,
+   "mt": 1786963923,
    "ok": true
   },
   "CL=F": {
-   "price": 82.92,
-   "chg": 0.63,
-   "chg5": 0.96,
-   "sma20": 82.49,
+   "price": 82.78,
+   "chg": 0.46,
+   "chg5": 0.79,
+   "sma20": 82.48,
    "sma50": 79.35,
    "sma200": 87.01,
    "high3m": 108.66,
-   "reg": 82.92,
+   "reg": 82.78,
    "pre": null,
    "post": null,
-   "regClose": 82.92,
+   "regClose": 82.78,
    "sess": "24h",
-   "mt": 1786963292,
+   "mt": 1786963925,
    "ok": true
   },
   "HG=F": {
-   "price": 6.7,
-   "chg": 1.46,
-   "chg5": 1.54,
+   "price": 6.69,
+   "chg": 1.34,
+   "chg5": 1.42,
    "sma20": 6.51,
    "sma50": 6.35,
    "sma200": 6.11,
    "high3m": 6.7,
-   "reg": 6.7,
+   "reg": 6.69,
    "pre": null,
    "post": null,
-   "regClose": 6.7,
+   "regClose": 6.69,
    "sess": "24h",
-   "mt": 1786963292,
+   "mt": 1786963920,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.62,
    "sess": "24h",
-   "mt": 1786963291,
+   "mt": 1786963924,
    "ok": true
   },
   "EWY": {
@@ -1257,23 +1257,31 @@
     "geo": false
    },
    {
+    "title": "Oil Holds Near $90 As Middle East Risks Keep Markets On Edge - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9QMDJUU2MxeDJaR1FidkFkbHVGeXVyMTAydFZEZE8zTlhJc2tLREN0R1lsR2pxZE12TEpweTRHYXBRTkZXU2JaQWdGdGs1MHdZVkxjc2VmS1NPdlRvV0FrVG8tSlFScUZQ?oc=5",
+    "pub": "Mon, 17 Aug 2026 10:05:11 GMT",
+    "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Crypto Market Events Shaping Stablecoin and Regulation Trends - The Cryptonomist",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOTmVtS0g2bFlEbkVqZTBRMnNVa2I2d0FRaW9XUC15WXJKUUNaem9FcnhncUZzcWRqbjRZX0cxWVdkVDRCXzBiWkJiR0h1b0RDQnNZemVIMFZEOTNMQnotV3pRenBlc3RqQjdPQVZ5WUgxZThIUVNJbmFmc01EV000bm8tc1p3ZDhu?oc=5",
     "pub": "Mon, 17 Aug 2026 09:48:53 GMT",
     "src": "The Cryptonomist",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Tech companies’ AI debt surges as Oracle nears junk credit rating - The Cryptonomist",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBsX2pKZ2tpcGVrVkxyMnBicURtM28wbVB2UnE4V0FSRW9ZeUhIaWtXYS1NbHhJN2FRSUxwZUJqOEtmMjBweUtKN09wV3VSYVVScl9JR091Nzl6dGtFV2FlaXJ5T3RzY0pTQWlicHl3?oc=5",
-    "pub": "Mon, 17 Aug 2026 09:47:39 GMT",
-    "src": "The Cryptonomist",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold Price Holds Bullish Bias Near $4,400: What’s Driving XAU/USD? - Bitcoin World",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBEd193YW9oLWtSLUZ0dE1IbXhSYjVSSm9RclFkQld6LUg4aXdSR25JNXdySURuOU8wMjc1dUdzMVZDbjhSOFlrRDRkSVlHdWNzRVB4eGlibERscjYwRDUyckY5RTJnRlFPOUFfb3p1VVVnUnc?oc=5",
+    "pub": "Mon, 17 Aug 2026 10:25:11 GMT",
+    "src": "Bitcoin World",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold Stocks In Focus As Geopolitical Risk Lifts Safe Haven Demand - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNUzBmTnRGdW9fb1c2QW15SWRNb20yNlVWMGd1Wk5tMnQ5Q0ZmYlVYQ1AxY01uVEVxWFBFaUppWUZoWWZHd3BQSl9udlNaSHRpZ2pyRUZweDZfUEVlUVdXZml6eFp4NHg0U0xvWVNJcnplNUI2X2VwenlxanpsY3dDTVliNEtTLS1HR1lDQlVFUnBCRjFzcDNHaUptWHRQckI2cDVpNDk5dmRWLVFyVFFzbWpiUXdsNkRUSllJcU9oQTE3NUpURWJySDVHcTRVUG1EZElF0gHYAUFVX3lxTE1oQmZoQ1ZFQ1R0Y0luSTJMTkpkZk1oLWZNdDZSdU1RWDVDRGdOczRIUnV6QVZIOF9KSWoxRFBpY29yLVp0MUkzVmFBa1FvcXNfbkdqaU95d1JjUUQwSllyNmlWYTNFdWMycXUwQk1fNGtpeG9GaFp0SnF5eWtzZjhGNDUxOEJMaFlULUxEUnE1OC1XZXRudjdoT1RLZmdRVDVJOTdLUUJsRVR0dlh1NzFYcTQ2b3VFRU1mNVdJTGNpbDhkY3NHMjJhM1hXVFNfZWZQaURlQmJvcQ?oc=5",
@@ -1283,10 +1291,10 @@
     "geo": false
    },
    {
-    "title": "Asian Refiners Seek Alternative Pickup Point for Saudi Crude - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQZXQxVmkzMWZfTHRmbW80b2R6MTB2c3J1ZUN5RU5Jc3l4YzBISVdfRVp6NG1YcnZoTlpUb1VSZEpLd2RRN0ZTZFk5enZTOEFXQTMyU0cxNFlDZzVsR09KZkI5NjBZWmN1ZmZUcmtUYmpZN0llaWZiN29ybHltejRVeDMwUFppclNJUllOYks3YldidzZjZVhZc1Q1S29aVnY4azJnMFEzYXFHN0lYMFJUR0RfRGJKZEXSAbwBQVVfeXFMT0QwUFVJejFDaElGQzU2dTRZQWIxTEJHNHJTc2hmVkR3VHUyTTdDTlVUUHBiS092cjhOSkJwbzY1aXNuZ2QzZVBwSlc3RjYyS0VwTUh5MWZVVV8yVEtTT25BdlRlQThvREhTN1VfYTc0YWNyb1FISjVlMnVoLUNvYVZsOUxKYWJkZUlESFdRX28xSDV0RU9RZERhTUllbTNxcFB4VTV6UlE1TTZLc2NXRDl0UERmS28yMVdOT1c?oc=5",
-    "pub": "Mon, 17 Aug 2026 08:55:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Hindustan Copper Share Price More Than Doubles In One Year, Jumps 8% Today: Here's Why - NDTV Profit",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbm5Wa1JBVnpsTmdEX0dhblZUOVVvVGxWOUMyOVF5dURTTWhlRWxNb2xobWpUS3M3N0ZROWJZVkdfQWJCcEJFUm5HdFc1bTVnR3pkbEhfb0tvMmdPM1dvRmtEQWtIN2xFRlBLMXZIRDhYckluc1VBYW9fQzJYaFZqNW9hN2ZjZTNiRVZzU1Uta3QxZVRVczBmdFIyUGthUlBfeHEydHVaVlNSSi0zRHMxOXN0OWdhRU5oVF9WYURqNNIBxwFBVV95cUxOU1AtaFhqSmZZOG5SbnAxZWN0UHZZeEtnQW54ZjZ4NkRxSkNWS3g0UE5vTzBraFhjVEVkUGhsdTFXMjVMc2hDSlVSdFhMNm5OZVZ5TW9WQ1FZNy1VbzAxRHdfbmgtMzJqazlnSFhjNHJkTlM5dFV2V19fX1gzbXBILXNuc3c2N0JWZklCV1NSM1d5LV9abFFCcC16OXljNTRoZl9FVjZsbnhGMldmTUpsOUVYU3hKeXR1cWtrQVJjamFOV1BtTDFn?oc=5",
+    "pub": "Mon, 17 Aug 2026 08:55:43 GMT",
+    "src": "NDTV Profit",
     "trig": false,
     "geo": false
    },
@@ -1300,7 +1308,7 @@
    },
    {
     "title": "Yen Intervention Explained: What’s True, What’s Not and What Markets Should Watch - equiti.com",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWHBHWnhFZDJOcDduX1BNVWpSSFd6X1hWWjdnRjUySlA0eDVMNGstWEVkVDdWYWEzRFNSSThKMVpSdGgyaVo4TFZZTWpOUlI1QjdvMVQtQ3NfREFxVm9DYXhlZFh2RTJLUXNZdDB1SlU4b0ktVDNUa1N6RGNPVDlvMUl1RzIyVTIyVEpTQ1F2MV9ZamN6aThlNUJpUjl1Rmd0cmdjcmlDUQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPcElWSjRfeDZVSmhZOVdIUFc5eHRHLXczdDhCaEFBTkNaM1lFcTdzSFMxSnRhLUp2YWViMnJYQ1I2TGU3N0VTU0dhd2pscE13M0pTWWhfVmRkT0N3Tjd5MFRtWUFBTS14ZFk5YW5DQ2sybkVZU0RzZHg2RUxOTGM5amZPazFjMGxuOVpVazF2c1cyLU5fRVR3VXQ4VFZrOU9aZllyY0NfYw?oc=5",
     "pub": "Mon, 17 Aug 2026 07:51:48 GMT",
     "src": "equiti.com",
     "trig": false,
@@ -1312,14 +1320,6 @@
     "pub": "Mon, 17 Aug 2026 07:50:20 GMT",
     "src": "Moneycontrol.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "LME Copper Spot Premium Hits Four-Year High; Jefferies Warns of 442,000-Ton Global Deficit in 2026 - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9INURmLXJmLTljYVhia0lpRmJpOGdOTjZaa2JoZUpWSUlDMGp2ZXE1Z25TdlhWRUY3THNZVkNocmI3VzFpNU1mZl9zZEk0X184Nk5qanN5SkxuS0tJUmo1aW80Mkw2dktJZ1pyTmFSZ0djSUVyWGc?oc=5",
-    "pub": "Mon, 17 Aug 2026 06:35:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": true,
     "geo": false
    }
   ]
@@ -1467,15 +1467,15 @@
    16.7,
    15.32,
    21.51,
-   19.44,
-   16.4,
-   18.41,
-   16.15,
-   15.03,
-   18.77,
-   18.67,
+   17.68,
+   17.28,
+   17.65,
+   16.13,
    16.5,
-   14.94
+   17.05,
+   18.21,
+   16.5,
+   14.93
   ],
   "tnx": [
    4.46,
@@ -1496,16 +1496,16 @@
    98.97,
    99.32,
    99.2,
-   100.07,
-   99.75,
-   101.02,
-   101.36,
-   100.85,
-   100.97,
-   100.75,
+   100.05,
+   99.63,
+   101.41,
+   101.19,
+   101.14,
+   100.94,
+   101.18,
    101.38,
    99.89,
-   99.45
+   99.46
   ],
   "bizd": [
    12.61,
@@ -1550,7 +1550,7 @@
    162.51,
    163.61,
    157.58,
-   159.16
+   159.17
   ],
   "uso": [
    148.23,
@@ -1610,23 +1610,9 @@
    65230.03,
    63724.9,
    63460.9,
-   63530.65
+   63621.46
   ],
-  "vixts": [
-   0.834,
-   0.804,
-   0.77,
-   1.153,
-   1.011,
-   0.77,
-   0.898,
-   0.825,
-   0.738,
-   0.961,
-   0.994,
-   0.869,
-   0.727
-  ],
+  "vixts": null,
   "hyoas": [
    3.03,
    3.28,
@@ -2223,10 +2209,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-15T11",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-15T12",
     "v": 2.73
    },
@@ -2413,6 +2395,10 @@
    {
     "d": "2026-08-17T10",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-17T11",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2454,7 +2440,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-17T10:51:44+00:00",
+  "checked": "2026-08-17T11:03:29+00:00",
   "openai": {
    "found": false
   },

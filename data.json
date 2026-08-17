@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T21:42:11+00:00",
+ "updated": "2026-08-17T21:52:15+00:00",
  "prices": {
   "NVDA": {
    "price": 225.01,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 356.92,
    "chg": -1.6,
-   "chg5": 4.0,
-   "sma20": 349.16,
-   "sma50": 370.3,
-   "sma200": 358.76,
+   "chg5": 2.65,
+   "sma20": 349.28,
+   "sma50": 370.71,
+   "sma200": 358.77,
    "high3m": 438.12,
    "reg": 356.92,
    "pre": null,
@@ -612,9 +612,9 @@
   "BIZD": {
    "price": 13.18,
    "chg": -1.42,
-   "chg5": -1.72,
-   "sma20": 12.81,
-   "sma50": 12.63,
+   "chg5": -1.05,
+   "sma20": 12.85,
+   "sma50": 12.64,
    "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.18,
@@ -644,10 +644,10 @@
   "OBDC": {
    "price": 11.5,
    "chg": -1.88,
-   "chg5": -0.43,
-   "sma20": 11.18,
-   "sma50": 11.04,
-   "sma200": 11.2,
+   "chg5": -1.2,
+   "sma20": 11.14,
+   "sma50": 11.03,
+   "sma200": 11.19,
    "high3m": 11.91,
    "reg": 11.5,
    "pre": null,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.58,
    "sess": "reg",
-   "mt": 1787002289,
+   "mt": 1787002894,
    "ok": true
   },
   "^IRX": {
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 8.24,
-   "sma20": 775.29,
-   "sma50": 854.53,
-   "sma200": 1020.07,
-   "high3m": 1172.52,
+   "chg5": 7.86,
+   "sma20": 771.99,
+   "sma50": 858.36,
+   "sma200": 1021.42,
+   "high3m": 1191.09,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64293.16,
-   "chg": 2.35,
-   "chg5": 1.4,
-   "sma20": 63803.88,
-   "sma50": 63663.72,
-   "sma200": 68897.52,
+   "price": 64318.42,
+   "chg": 2.39,
+   "chg5": 1.44,
+   "sma20": 63805.14,
+   "sma50": 63664.23,
+   "sma200": 68897.65,
    "high3m": 66505.12,
-   "reg": 64293.16,
+   "reg": 64318.42,
    "pre": null,
    "post": null,
-   "regClose": 64293.16,
+   "regClose": 64318.42,
    "sess": "reg",
-   "mt": 1787002894,
+   "mt": 1787003500,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.38,
-   "chg": 0.1,
-   "chg5": 0.14,
+   "price": 159.4,
+   "chg": 0.11,
+   "chg5": 0.15,
    "sma20": 160.37,
    "sma50": 161.12,
    "sma200": 159.41,
    "high3m": 163.86,
-   "reg": 159.38,
+   "reg": 159.4,
    "pre": null,
    "post": null,
-   "regClose": 159.38,
+   "regClose": 159.4,
    "sess": "reg",
-   "mt": 1787002900,
+   "mt": 1787003501,
    "ok": true
   },
   "ES=F": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic revenue run rate tops $65 billion, source says - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEJ6S2RpblVGQzhVS083a3dqR3JpajJOUkJIVUZIS1ZkQ05PeW9TdkJUazFpRXNybXNDUUNnV3dfWTllcFdsYms2Mm53dGJwY1VyYnVYb0xYSTNwZWoyaC1vM0FDVWJtTlh6VjFyTGxGUUNaYkg0VDdzNlhjMDJ4dUxJVHQzY0dUaWdKd2t3d0NoWk5IQU52bDRXWTJxZWNFdThJ?oc=5",
-    "pub": "Mon, 17 Aug 2026 21:37:12 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Microsoft Stock Loses an Estimated $112 Billion as Software Selloff Tests AI Capex Math - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc1pBT2JHYzhUT1RCbEdLZGVuM1RNTUxwUEp2c0phQkpFWmt3ZlFuLUtCbU90QTJrUW95V043Rmt3cWRjd2FvdDN2OVdLcXBJTjYzTjlDd1NTQ0wzWjRtVGRWR0tBYjE0cnNVb19jOFU3R3BYbHgyMjVKelFpVTVTSmJiTkdMNjNHc1ZVcFkyWjlfbzNGUExVenEyY2h2a3VoUFZ0d0ZJR3Btc1k?oc=5",
     "pub": "Mon, 17 Aug 2026 21:17:05 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
     "pub": "Mon, 17 Aug 2026 20:47:00 GMT",
     "src": "Barron's",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlE?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:33:35 GMT",
+    "src": "CNBC",
     "trig": false,
     "geo": false
    }
@@ -1513,13 +1513,13 @@
    12.8,
    12.45,
    12.54,
-   12.3,
-   12.66,
+   12.22,
+   12.67,
    12.37,
    12.56,
-   12.59,
-   12.65,
-   12.96,
+   12.57,
+   12.46,
+   12.74,
    13.18
   ],
   "move": [
@@ -1550,7 +1550,7 @@
    162.49,
    163.77,
    157.53,
-   159.41
+   159.4
   ],
   "uso": [
    149.29,
@@ -1610,7 +1610,7 @@
    65230.03,
    63724.9,
    63460.9,
-   64294.93
+   64335.25
   ],
   "vixts": [
    0.852,
@@ -2454,7 +2454,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-17T21:41:57+00:00",
+  "checked": "2026-08-17T21:52:02+00:00",
   "openai": {
    "found": false
   },

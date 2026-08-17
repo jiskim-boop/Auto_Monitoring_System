@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-17T21:32:37+00:00",
+ "updated": "2026-08-17T21:42:11+00:00",
  "prices": {
   "NVDA": {
    "price": 225.01,
@@ -340,10 +340,10 @@
   "TLN": {
    "price": 356.92,
    "chg": -1.6,
-   "chg5": 2.65,
-   "sma20": 349.28,
-   "sma50": 370.71,
-   "sma200": 358.77,
+   "chg5": 4.0,
+   "sma20": 349.16,
+   "sma50": 370.3,
+   "sma200": 358.76,
    "high3m": 438.12,
    "reg": 356.92,
    "pre": null,
@@ -612,9 +612,9 @@
   "BIZD": {
    "price": 13.18,
    "chg": -1.42,
-   "chg5": -1.05,
-   "sma20": 12.85,
-   "sma50": 12.64,
+   "chg5": -1.72,
+   "sma20": 12.81,
+   "sma50": 12.63,
    "sma200": 12.73,
    "high3m": 13.54,
    "reg": 13.18,
@@ -692,9 +692,9 @@
   "SRLN": {
    "price": 40.54,
    "chg": -0.07,
-   "chg5": 0.32,
+   "chg5": 0.25,
    "sma20": 40.41,
-   "sma50": 40.34,
+   "sma50": 40.33,
    "sma200": 40.31,
    "high3m": 40.6,
    "reg": 40.54,
@@ -708,8 +708,8 @@
   "JBBB": {
    "price": 47.43,
    "chg": 0.13,
-   "chg5": 0.23,
-   "sma20": 47.4,
+   "chg5": 0.13,
+   "sma20": 47.39,
    "sma50": 47.41,
    "sma200": 47.26,
    "high3m": 47.75,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.57,
-   "chg": -0.1,
-   "chg5": -0.24,
+   "price": 99.58,
+   "chg": -0.09,
+   "chg5": -0.23,
    "sma20": 100.33,
    "sma50": 100.56,
    "sma200": 99.53,
    "high3m": 101.61,
-   "reg": 99.57,
+   "reg": 99.58,
    "pre": null,
    "post": null,
-   "regClose": 99.57,
+   "regClose": 99.58,
    "sess": "reg",
-   "mt": 1787001708,
+   "mt": 1787002289,
    "ok": true
   },
   "^IRX": {
@@ -916,11 +916,11 @@
   "^KQ11": {
    "price": 864.65,
    "chg": 0.38,
-   "chg5": 7.86,
-   "sma20": 771.99,
-   "sma50": 858.36,
-   "sma200": 1021.42,
-   "high3m": 1191.09,
+   "chg5": 8.24,
+   "sma20": 775.29,
+   "sma50": 854.53,
+   "sma200": 1020.07,
+   "high3m": 1172.52,
    "reg": 864.65,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64291.26,
-   "chg": 2.34,
+   "price": 64293.16,
+   "chg": 2.35,
    "chg5": 1.4,
-   "sma20": 63803.78,
-   "sma50": 63663.69,
-   "sma200": 68897.51,
+   "sma20": 63803.88,
+   "sma50": 63663.72,
+   "sma200": 68897.52,
    "high3m": 66505.12,
-   "reg": 64291.26,
+   "reg": 64293.16,
    "pre": null,
    "post": null,
-   "regClose": 64291.26,
+   "regClose": 64293.16,
    "sess": "reg",
-   "mt": 1787002313,
+   "mt": 1787002894,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.37,
-   "chg": 0.09,
+   "price": 159.38,
+   "chg": 0.1,
    "chg5": 0.14,
    "sma20": 160.37,
    "sma50": 161.12,
    "sma200": 159.41,
    "high3m": 163.86,
-   "reg": 159.37,
+   "reg": 159.38,
    "pre": null,
    "post": null,
-   "regClose": 159.37,
+   "regClose": 159.38,
    "sess": "reg",
-   "mt": 1787002317,
+   "mt": 1787002900,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic revenue run rate tops $65 billion, source says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNVEJ6S2RpblVGQzhVS083a3dqR3JpajJOUkJIVUZIS1ZkQ05PeW9TdkJUazFpRXNybXNDUUNnV3dfWTllcFdsYms2Mm53dGJwY1VyYnVYb0xYSTNwZWoyaC1vM0FDVWJtTlh6VjFyTGxGUUNaYkg0VDdzNlhjMDJ4dUxJVHQzY0dUaWdKd2t3d0NoWk5IQU52bDRXWTJxZWNFdThJ?oc=5",
+    "pub": "Mon, 17 Aug 2026 21:37:12 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Microsoft Stock Loses an Estimated $112 Billion as Software Selloff Tests AI Capex Math - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOc1pBT2JHYzhUT1RCbEdLZGVuM1RNTUxwUEp2c0phQkpFWmt3ZlFuLUtCbU90QTJrUW95V043Rmt3cWRjd2FvdDN2OVdLcXBJTjYzTjlDd1NTQ0wzWjRtVGRWR0tBYjE0cnNVb19jOFU3R3BYbHgyMjVKelFpVTVTSmJiTkdMNjNHc1ZVcFkyWjlfbzNGUExVenEyY2h2a3VoUFZ0d0ZJR3Btc1k?oc=5",
     "pub": "Mon, 17 Aug 2026 21:17:05 GMT",
@@ -1191,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "Nvidia and Alphabet hold $115B worth of SpaceX stock - Fierce Network",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOLVI2ZTAxenJ4RXR2NGpzNUZTX25fLTg4dDgwQ05MMlRvN2x3c1FOTExjQlJnV3k1dmVtdXoySThfcmR4R3NObFhlc0ItX2VodkNpNzFvWG10b1d0M0JkSGVleVdLOFBzdk9aOEY3ZkVoNFJyQ2c4c2R0RzZHdzYyN1pmNlB2YXlxXzFDMl9B?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:49:09 GMT",
+    "src": "Fierce Network",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Alphabet Drops 0.8% as Berkshire’s $37.8 Billion Stake Faces $200 Billion AI Challenge - TechStock²",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2dMRkxXT3FCNXk4UDU0TXJOYXhudnNsaThfM2pSc0RHbWdmeFdpakgyRGlnSWhyTnJ4ZWNhNXYyaTNWdU9wTWQ1UGtOb0lhaldNRFI4akotakVUbnFpSkVrY1Y5ZG4zWHhqTVpnNkZMbWRfZC1CLW5RMXloeGlFNHJfUU9lVGNxSFBNNGdDNlF4eXJKc3NnMHN3Nll0VEVvcTlFdjA0TQ?oc=5",
     "pub": "Mon, 17 Aug 2026 20:48:53 GMT",
@@ -1199,26 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic tells investors annualized revenue run rate climbed to $65 billion in July - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUi05NkI4cXl6M3ZhcWx2QlFuYjNJa2xTN3pIUER6YWZ6bGc3TTBUb0VIV3ppTXBXdG5pbEo2b19kRFQ3MW1SR3p3eFQ2RGNlQUdwUFRJRXJtS0ZCemxjZmRRRWl3Y3M0VXo0dU5nZE0tTXVsZ2xGVXZXa1czZWo3alFiTm9GTWtXVHVoOW1FOVY4ZDJWZzN6MHN0SWtPQXRRQlE?oc=5",
-    "pub": "Mon, 17 Aug 2026 20:33:35 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Stock, Recovering From Post-IPO Slump, Rises Ahead of Another Share Unlock - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQQTB6OEtUX1d2ZXdvdko2V3MtUFp6elRfRXQydVRrNm5sc2JKU19GRTZJRGI5OWRyY1hBTTZ2ZUxwd25lNVZqUy1UMDBZaWwtM0dMdXBINWxfUDI3b3k3Z0hzVzNoejdWRnpWY1hXNjJmNzFPUUppa1lVejJfX3FrWng0Y3J6SkRi?oc=5",
-    "pub": "Mon, 17 Aug 2026 20:22:00 GMT",
+    "title": "Nvidia’s Huang Says OpenAI Data Center Could Generate $600 Billion in Revenue - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA3dW9JWUlCUkQtOUVFZW1zSFV2X1p3Vl9HRXpTWEdSLXgzVy1KZThoLVRqYkVkd0xEenZ4encwcExhWlJrSGY4bzZFbmkzY3JBamJ0RzZJYlZvOEFCTDUxREplUlNyc1BlMFVuUGhlcHAwSXlrREE?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:47:00 GMT",
     "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Revenue Run Rate Surpasses $65 Billion Ahead of IPO - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNVktR0ZGanRzYkMwQjBWRkhfbmVfLTVxR3JpYWtRbk1HemlQbjRab2EzTmN1VDNmYmk5Z0xIWGYzVmU2b3VTRENNTy00d1RrLXBoWjFPVE5hNEQyVDdrZ1ZuTzFaczRGODM0VnpycFpDa0tTZWpFSzYyU3d1dVNwQzlicGJPTm9WdlFHczFUMzNOalhjdDIwSWZZcVltMHdsVDY2OXE4QnZOQ2laUlU4Xw?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:37:45 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "OMERS Returns 4.8% in H1, Rotates Tech Stocks - ai-cio.com",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1sZjVEWUNrME1TUTVHSXVKNXhoWjhPRUg0Z2s1Nnl6dXlhUGVBRzBfZ1EzRC1Kb0JSRHpEeHljcVVBdzhuOGdELTVCVHEzZ1gxUDdxWEZxcTNzSFhham9GbFNDdFBueFZhay1TQkZsSlpYaWtBQmpJN0I2bFY?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:00:05 GMT",
-    "src": "ai-cio.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Shell Pilipinas bludgeoned by Middle East war - Inquirer.net",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOZHRMWGJwSzRMNmItY1NYUENNQVpYN2NqblFfNzFIbXV4b3JxLVRnSGcyMk9BWDY5a0JKcC11bUM2R1d1TEFrQVlQTjdRT05PNHRyalhTRFRxTnBCU3FveERFQ3FsRFBmbUlBWEpvaFNUZFJIY1hwN2JrVjdyb3dBeE1kd0NCMkJHSWfSAY8BQVVfeXFMUDdXRlV2NDNpRTVCNDZJWThKbzREQXJvWVFKRkppT1NUaF9rU3BWQzJqdktBMlJKamlLYTJoTnNtTmtTM3ZwcHB1ME41azJxQzdHVERGT0xrQTYzc0ZUYlgtTmxCdlFRSlRSWWMwTHB4TmJ3V0FBejd4WDNqZHoyV1cwOWN5SUc2Nm1qb3JQSmc?oc=5",
     "pub": "Mon, 17 Aug 2026 18:08:00 GMT",
     "src": "Inquirer.net",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "FBND: Falls Short To Justify A Compelling Allocation At Present (NYSEARCA:FBND) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcUdjdmdGYVh4SlFvdW5Db1FFbmV6R0hmS1pyYkVGUHdiS2FmdlJYT2ptSUpfM05IWVkyNlR4NkZZYnRfWVY4NVZhTDkxRXQ3UG9ESDJrNDR3LTd1b2dhUlUxLUNBbVFNb2xuSkE5Z2tNeXh4TmpaWGtKeUstMzJkbkl2cWkxUkg3T3RnX3RzNmE0RGdZQnlxLXB5Q2wwTU5xX1pGcnM3UFozR3NlSkVqU3B5cXMtdkhmQk04c1h3cw?oc=5",
+    "pub": "Mon, 17 Aug 2026 17:30:00 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1283,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Gold begins to regain safe-haven appeal after US-Iran war selloff - economictimes.com",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOM0NOaGtweEJHOFMwVGZxeHJBd1JucEdNcmhUdmk3dExPSWlKWVZRS2tLcVdXeEhLaXFKUG1oRVJvd29JZjE0d191OFo4MnRRdDRmS2o2aU4xWWxEYjc4MkdjelhyQUtKdjFLeXVPSE5LdUFZSFhPc3BlRzlZcmV3R1VsOC1ZR3FhWXBFRXBTOHV2SXhzak50ZENTaXFGQmlWSENPTXptRjVXTk0tbEt1TVJZaG43c3FTdDBLT1Z5RVpoS3hIRDVWUVh5YkpmRkt3TDVmQVhSbWs0MXJQWXVZZXdMeS1KYXY2cjlRNFJEbk_SAfABQVVfeXFMTjNDTmhrcHhCRzhTMFRmcXhyQXdSbnBHTXJoVHZpN3RMT0lpSllWUUtrS3FXV3hIS2lxSlBtaEVSb3dvSWYxNHdfdThaODJ0UXQ0ZktqNmlOMVlsRGI3ODJHY3pYckFLSnYxS3l1T0hOS3VBWUhYT3NwZUc5WXJld0dVbDgtWUdxYVlwRUVwUzh1dkl4c2pOdGRDU2lxRkJpVkhDT016bUY1V05NLWxLdU1SWWhuN3NxU3QwS09WeUVaaEt4SEQ1VlFYeWJKZkZLd0w1ZkFYUm1rNDFyUFl1WWV3THktSmF2NnI5UTRSRG5P?oc=5",
-    "pub": "Mon, 17 Aug 2026 19:21:00 GMT",
-    "src": "economictimes.com",
+    "title": "Gold appears set for a rebound as it regains safe-haven appeal after US-Iran war selloff - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxQUVVfaXB3V2RZS2U1S0ozZHdZaWg1dTJnOVYtQU9tdUo2TElDcW9aMTFZY1dwVzQ4dS1EZmJiOUx3QUFjWmtJRkh4dzFoVmpYZnhFQnFUUTNmQnI2NEdWYUJGX21ackdVR2g2MEZmN1JobVVzSGZEdjRrVjhUcmZXV3BBbW9BNUFYU252Z3B5MmFPQlRFYWFBTmRBdVBKdE1Bb3Bsc0VnRkdaYjlnNzNWcF8zVDFaekxhT2M5eEV2NG1FaUFYYmFMRHRkYXBYa1hBand1RzJTQ3E0TUVSSUZKUjJBdE16bEMwVnZOZjVrcHI4eUZ2bFB3V3JDRGtYXzFxYUtVQWx2NEhWd9IBjwJBVV95cUxPaXNVRmREcldxY2pla2l4a1B3U0NjakFvUkswczQtd2pxOHNGQ0tYTWt2U080VDdXV0J1YUlnSU8xa2RhUDV6RWpwUTRVbnpKQmF0QlhTdGFkQ1o0NzZrX3ZfNnFDVDVENVBnbEJDdUk4UXp6bTlxMG9EcmlabXlmSVQ5cXRES2ZudXd3X1d6WnI2ZXVFMFpCM2kwRE9iZGFPZDU0S1dKeFlaTjhuekE2RVYxbDZnZVhOeGYwZzNvN1FTZHpMd1RYMUw2cHFSNklDVExNcGVKa2w5eU9uU0tjNEs0TndMQkZweW9lMmpVZl9Ec0VTeDN0OGY4QXNVNnNIOWVOc1d6Qkcya0NTZXBr?oc=5",
+    "pub": "Mon, 17 Aug 2026 20:03:17 GMT",
+    "src": "The Economic Times",
     "trig": false,
     "geo": false
    },
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Chevron Strikes Oil and Gas Offshore Angola in Major Discovery - Crude Oil Prices Today | OilPrice.com",
+    "title": "Chevron Strikes Oil and Gas Offshore Angola in Major Discovery - oilprice.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPVkJQcjVpUjRMU3FxY0ZuakRMVXhrT2lXd1dwRVg5UTZ3SXpmSXZqdzc4RWZ0bjhSc3BMRGk2NEdseF9MN2pIUzhEbGNhUHQwenpwY0hJLUR4RFJiVGZVc3pkQkE2R093REFqZXhKQ2tGQzNPX2RkSDA5cEl5a1BtMVdNLV9aemdEYVBlaXdUNWRYRFE3Y0J2UUhWQ3NHMkNGTmstcW5hM0lFYTVuSEVIT0xYcHNIVTFlX1HSAb8BQVVfeXFMTkpRSkthQ1BZN25TMTFNRExOWjRwaTlUM09wejhDdTh5aC1RZ0V2Rm5aZFBJaXUwMnBRWkFPZTR2VzB1MFZPdkw5eS1XV3I3SWE0NjF4SFlBQ0ZyOFd5Y3NPZkU3WVpQV1dseEpOS0pscmtGTTNxYkJRNTZPaG1qZ1F2dnIwUnB0anNzRkpGT2ZwZ3l1Rkc1NG5UN2R5VHJmb1dHN25mOENheWZiWDBleGJHZV9LNHdjdmRxd1NPeUU?oc=5",
     "pub": "Mon, 17 Aug 2026 17:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "src": "oilprice.com",
     "trig": false,
     "geo": false
    },
@@ -1505,7 +1505,7 @@
    101.18,
    101.38,
    99.89,
-   99.57
+   99.58
   ],
   "bizd": [
    12.52,
@@ -1550,7 +1550,7 @@
    162.49,
    163.77,
    157.53,
-   159.37
+   159.41
   ],
   "uso": [
    149.29,
@@ -1610,7 +1610,7 @@
    65230.03,
    63724.9,
    63460.9,
-   64293.77
+   64294.93
   ],
   "vixts": [
    0.852,
@@ -2454,7 +2454,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-17T21:32:14+00:00",
+  "checked": "2026-08-17T21:41:57+00:00",
   "openai": {
    "found": false
   },
@@ -2467,7 +2467,7 @@
  "fragility": {
   "margin_mn": 1502072,
   "margin_asof": "Jun-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.63,
   "curve_bp": 53,
   "curve_inverted": false,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T22:52:00+00:00",
+ "updated": "2026-08-18T23:02:54+00:00",
  "prices": {
   "NVDA": {
    "price": 219.74,
@@ -18,20 +18,8 @@
    "ok": true
   },
   "AVGO": {
-   "price": 380.0,
-   "chg": -3.17,
-   "chg5": -8.67,
-   "sma20": 399.88,
-   "sma50": 389.82,
-   "sma200": 380.12,
-   "high3m": 481.57,
-   "reg": 380.0,
-   "pre": null,
-   "post": null,
-   "regClose": 380.0,
-   "sess": "reg",
-   "mt": 1787083200,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
    "price": 484.39,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64583.36,
-   "chg": 0.12,
-   "chg5": 1.86,
-   "sma20": 63848.29,
-   "sma50": 63756.88,
-   "sma200": 68882.69,
+   "price": 64620.27,
+   "chg": 0.18,
+   "chg5": 1.92,
+   "sma20": 63850.14,
+   "sma50": 63757.62,
+   "sma200": 68882.9,
    "high3m": 66505.12,
-   "reg": 64583.36,
+   "reg": 64620.27,
    "pre": null,
    "post": null,
-   "regClose": 64583.36,
+   "regClose": 64620.27,
    "sess": "reg",
-   "mt": 1787093490,
+   "mt": 1787094127,
    "ok": true
   },
   "USO": {
@@ -978,99 +966,99 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.59,
-   "chg": 0.16,
-   "chg5": 0.21,
+   "price": 159.55,
+   "chg": 0.13,
+   "chg5": 0.18,
    "sma20": 160.18,
-   "sma50": 161.11,
-   "sma200": 159.46,
+   "sma50": 161.1,
+   "sma200": 159.51,
    "high3m": 163.86,
-   "reg": 159.59,
+   "reg": 159.55,
    "pre": null,
    "post": null,
-   "regClose": 159.6,
+   "regClose": 159.55,
    "sess": "reg",
-   "mt": 1787093490,
+   "mt": 1787094129,
    "ok": true
   },
   "ES=F": {
-   "price": 7710.25,
-   "chg": -0.75,
-   "chg5": -0.48,
-   "sma20": 7637.41,
-   "sma50": 7555.73,
-   "sma200": 7248.14,
+   "price": 7708.75,
+   "chg": -0.77,
+   "chg5": -0.5,
+   "sma20": 7637.34,
+   "sma50": 7555.7,
+   "sma200": 7248.13,
    "high3m": 7822.5,
-   "reg": 7710.25,
+   "reg": 7708.75,
    "pre": null,
    "post": null,
-   "regClose": 7710.25,
+   "regClose": 7708.75,
    "sess": "24h",
-   "mt": 1787092888,
+   "mt": 1787093518,
    "ok": true
   },
   "NQ=F": {
-   "price": 29527.25,
-   "chg": -1.89,
-   "chg5": -0.33,
-   "sma20": 29152.16,
-   "sma50": 29455.55,
-   "sma200": 27743.42,
+   "price": 29525.0,
+   "chg": -1.9,
+   "chg5": -0.34,
+   "sma20": 29152.05,
+   "sma50": 29455.5,
+   "sma200": 27743.4,
    "high3m": 30712.75,
-   "reg": 29527.25,
+   "reg": 29525.0,
    "pre": null,
    "post": null,
-   "regClose": 29527.25,
+   "regClose": 29525.0,
    "sess": "24h",
-   "mt": 1787092889,
+   "mt": 1787093526,
    "ok": true
   },
   "YM=F": {
-   "price": 53407.0,
-   "chg": -0.26,
-   "chg5": -0.88,
-   "sma20": 53267.05,
-   "sma50": 52631.56,
-   "sma200": 50298.44,
+   "price": 53399.0,
+   "chg": -0.27,
+   "chg5": -0.89,
+   "sma20": 53266.65,
+   "sma50": 52631.4,
+   "sma200": 50298.38,
    "high3m": 54494.0,
-   "reg": 53407.0,
+   "reg": 53399.0,
    "pre": null,
    "post": null,
-   "regClose": 53407.0,
+   "regClose": 53399.0,
    "sess": "24h",
-   "mt": 1787092891,
+   "mt": 1787093510,
    "ok": true
   },
   "GC=F": {
-   "price": 4387.1,
-   "chg": -0.69,
+   "price": 4386.8,
+   "chg": -0.7,
    "chg5": 0.09,
-   "sma20": 4210.8,
+   "sma20": 4210.78,
    "sma50": 4157.85,
-   "sma200": 4515.01,
+   "sma200": 4515.0,
    "high3m": 4560.5,
-   "reg": 4387.1,
+   "reg": 4386.8,
    "pre": null,
    "post": null,
-   "regClose": 4387.1,
+   "regClose": 4386.8,
    "sess": "24h",
-   "mt": 1787092895,
+   "mt": 1787093529,
    "ok": true
   },
   "CL=F": {
-   "price": 84.48,
-   "chg": -0.02,
-   "chg5": 1.54,
+   "price": 84.44,
+   "chg": -0.07,
+   "chg5": 1.49,
    "sma20": 82.55,
    "sma50": 79.26,
    "sma200": 87.2,
    "high3m": 107.77,
-   "reg": 84.48,
+   "reg": 84.44,
    "pre": null,
    "post": null,
-   "regClose": 84.48,
+   "regClose": 84.44,
    "sess": "24h",
-   "mt": 1787092893,
+   "mt": 1787093523,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1074,7 @@
    "post": null,
    "regClose": 6.45,
    "sess": "24h",
-   "mt": 1787092845,
+   "mt": 1787093522,
    "ok": true
   },
   "ZN=F": {
@@ -1175,10 +1163,42 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX files plans for new Starship test site near Kennedy Space Center - WESH",
+    "title": "Mobile carriers shift CAPEX focus from networks to AI data centres - 디지털투데이",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNTGZqa0Q2Q3dEQ1VzUEtnSmNUbkw0QmxVYkMtTjEzbm5ieGpxVndCTVFmdmdsS3RyOWRpS05mY1E2d3ZIZHNWSHdGNFpjZlphbkZuck9hMVpwbkJ6TldCT2RzS0dySU00VWpTaTllajJDZHlaZkI1d1JVbXFueHlXQmw0TUNlVFJvc283cWVSMjdfM0NNUGZpcHVJZUM4NWRGTk4wZmdJLXU?oc=5",
+    "pub": "Tue, 18 Aug 2026 22:30:00 GMT",
+    "src": "디지털투데이",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Exclusive | OpenAI’s Second-Quarter Sales Show Tepid Growth Compared With Anthropic - wsj.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOEdPZTRQN2NiUEpURUc2cFBxaGN3QlpNV203c05DczRMdFJDWHRoazgtZEVaQlE0aU9CWW9LcC1JcGJwZ1VXd1lsQ0dnOEQ0MzlDdjJZOV9Oend0M1NON0RnUEZ5UHlMMFhrR09UU3pzSlAwRnl5OXRPbWd3NVljR21NNjBmWkVnWm9fZWkxVmZjbFEyQjJod1ZvMjFqSHNFX0VOb0s1X0puUVk?oc=5",
+    "pub": "Tue, 18 Aug 2026 22:29:00 GMT",
+    "src": "wsj.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "How Claude is accelerating protein design and analytical chemistry - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBZSUlFZ25ZeUpwR2FqLUh5WlJpQVRfM3RPaVg5dlo5NWMzbldIOW1WZDR2MklDNWdidlJIN2JKbUV1VU52aDk0YmlpdVJIVmRVTzRfanM5ZmU5MnlWVTZLSHZhTE0wVC1iRzNwUzRKRTk3MC1DMWZR?oc=5",
+    "pub": "Tue, 18 Aug 2026 22:14:57 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic prepares supervoting power for founders ahead of IPO, The Information reports - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdWhlcVlRMWxYS3FJNUhUVXRBbHBaMXh6OTdJYm9JODFsNUF3Z2NVd2tjWGpCUkExSENidW9ZSzlObEtvbWJ4dlIxd21ab3lseXRRY21ad1dyeGdNV2dZdXNWc0lhR3NBYWo4SGwxYm9wZi1CVzNXQlVObGROTVZxcm93SzlIVkhJTG5QWVplMV9WNm9yZEpsOTZxb0Z5QjJ4OWF4czUtRDdkWWV5TlRiVzVqWWV0YXd3WEVQQw?oc=5",
+    "pub": "Tue, 18 Aug 2026 21:25:43 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX files plans for new Starship test site near Kennedy Space Center - wesh.com",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQR2tqbktmNmZDZDdBWHAwUWVuOTdhT3lNRV9KenVvVnd0b2ljc3NhUEI1LUNlYzRwQmR3cEsyMTFZUU1ETUNod2RlbU5mRU0tQTZNbFlHeVRJM0NlQ055STZ6TWkwTFFtanZMX2NETldleDhvREs2T2prajJpaXk2MnRmSnJVMHFzbm9aUnBYYWE?oc=5",
     "pub": "Tue, 18 Aug 2026 21:24:00 GMT",
-    "src": "WESH",
+    "src": "wesh.com",
     "trig": false,
     "geo": false
    },
@@ -1189,54 +1209,22 @@
     "src": "TradingView",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Rare Earth Stocks Drop Tuesday as AI Fears Grow: USA Rare Earth and MP Materials Slide - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHV5NklMRmZPaTBtSlhBbVRjNW5SN195WHptVXE1eVJaUGFaZ1gwMkUwQ2FwbU0yaFhkSWk5eGQzQnBtNXNzS1hCQWhlWXI5VGdDYi01c2NHTHdGVlNubzBwU0E4QW8zbG1hX3FYWVBoc3gyVUJadUU5VnNfMHFGdXB2el84R3E1WkoxR2gtN1RyaS1aU1VES0dhOHQ2bl83UnV4XzB4UG1Ba1V3LXFUa0lqRzRIbGw5S3hwdFB6R2k5ZlZITFFFeQ?oc=5",
-    "pub": "Tue, 18 Aug 2026 20:57:14 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "xAI loses Texas venue bid as court finds Grok terms too faint to bind - PPC Land",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGdJN0NfdXJSTkoyRnFVNkxPV2NwYVZjVUV1TlR2Zy1qdWRkYU9fZ0RmNjkzeWVfTFBReVJCY2d5STdVOEh0QmtVc1dJVDFSc0xFM2Y2ckIycVlRS2lEQkdGc09GZzlzYjNSbV9lVlZzWXdncTdQVE9Bc205azREWEFDYWxWb1p6dFhTdW52U1c?oc=5",
-    "pub": "Tue, 18 Aug 2026 20:54:04 GMT",
-    "src": "PPC Land",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Copies Elon Musk’s SpaceX IPO Playbook With One Major Difference - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPeGZNUlpSNjdubUd1RzVpTVJuVDNBRUMtcjRpb1VDOWJxQ18ycm8tOThXWFJGVzJZQWcySVRxdG01YUlWVW94YlQ1WWZfOUxaUmE4VzlBdzZTckxKUndNYnFJeTdlQ0RzZXJYMG9TSkpQR3V3eTQ2VDU0UXl5ckdPV3l6WHV5VUFrVjRBMUR5RzlwMTllQm1LT0xPcjMxOVE?oc=5",
-    "pub": "Tue, 18 Aug 2026 20:52:41 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic’s Revenue Has Soared. Is It Enough for Investors? - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMC14czQ1QXhyZXBtNms4QVZ2MS1iRkNxY0lKUnY4ZEVPMVNHOWRxRkVsaFdSaHhSSXZfNlZzMUgwcXpoNGltS1I0RWdDU0FOcW1UTExSejVoWUpGNDBrUlBLZjVuRXJnN3B2VktMZTAyMXdHR1ZRT09NYUZGdV9nN05qOFo5Q0l6TmItQUxDbGdRQlBLNzdFZGx2MUlhSDU5S0dWS0RVd0MyS1k?oc=5",
-    "pub": "Tue, 18 Aug 2026 20:34:10 GMT",
-    "src": "Investopedia",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Iran’s Secret Plan to Escalate the War - WSJ",
+    "title": "Iran’s Secret Plan to Escalate the War - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBSTVZDZEJGTmI4U0t3MkVja0N0Z3BhYlpfRzNYYUZRODZOb0RoQ050UFNFaTJfSGRmQm9OTUdtWmtoMVdXT0dxR0RWUThPOFhSU0t0OTA5SUR2U2F3dXd6TTJrcVpvOUd1Z25kVlB5bnhsSXc1d3NnOA?oc=5",
     "pub": "Tue, 18 Aug 2026 22:22:46 GMT",
-    "src": "WSJ",
+    "src": "wsj.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Diesel prices 'really high' as Middle East tensions fester - 1news.co.nz",
+    "title": "Diesel prices 'really high' as Middle East tensions fester - 1News",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQa215M1NTWTdaQ2xSNWtqLWNFS1RNcFBPLV8xQUhMMGhzRG5BX0hlNGVoME1KMjl0UHFMbXQtZ09oOXN1LTdRT3dJb2ZqN3I3Z2l1dEs1bHI2aklnRXM2b2NHemU3b19scFZMQ1p2RFBGMmpOcXNWZUdwTTJuNnVSMTRZdFViZEVlbGNnR3MzcDl4RzBnTG5N?oc=5",
     "pub": "Tue, 18 Aug 2026 22:01:25 GMT",
-    "src": "1news.co.nz",
+    "src": "1News",
     "trig": false,
     "geo": false
    },
@@ -1249,10 +1237,10 @@
     "geo": false
    },
    {
-    "title": "Diesel Buyers Compete for Shrinking Supply Pool - WSJ",
+    "title": "Diesel Buyers Compete for Shrinking Supply Pool - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORjlZbU1kcTNFOER5NHh0eERnMzFtZklOYnprU2hjbW1FSmtoUGlMQ2x0VTBEU1pDQkxMOFRmbmpScWZIZFh5cndxZjg4QlhMTjU0TmdyeVJFOEZSUmNqTkZLRFdqZG1PYk11d25uUkFDSFd0YUF2b1NqRVlBaWxqTmdjdUIwZ0ZDNW9LNzhYcFJWUnE3cHgzWXZJSlg?oc=5",
     "pub": "Tue, 18 Aug 2026 21:42:46 GMT",
-    "src": "WSJ",
+    "src": "wsj.com",
     "trig": false,
     "geo": false
    },
@@ -1315,10 +1303,10 @@
     "geo": false
    },
    {
-    "title": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear - WSJ",
+    "title": "Oil Posts Modest Gains With Strait of Hormuz Situation Unclear - wsj.com",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxObWtNbUJLVWcwSXlhTWl0MjBhY2NxdG96cFYxUHRXN0c2U0FvSjZYTjdGeXZSMkU5czhMb0k4cXhYOXlhTTNES2oxVlpRZUY4c196RTVsd0pFTkhXSU8xLUp1ZzVhc043NUE0c3FsUGtuZmtoX3RyTTlvMmkwdG8wSU5qbWZmN3lCQlA5UUdackVqTGdrY2JfVUlpaE5jeFQ4dzZLZ1Fxc29MaUJDQjdVMmo5TTV2bmxIMENLa3d5NjA2VGJOMFhaTXdxRjZ6UQ?oc=5",
     "pub": "Tue, 18 Aug 2026 19:07:00 GMT",
-    "src": "WSJ",
+    "src": "wsj.com",
     "trig": false,
     "geo": true
    }
@@ -1538,19 +1526,19 @@
    74.98
   ],
   "jpy": [
-   158.84,
+   158.86,
    158.95,
-   159.35,
-   160.33,
-   159.96,
+   159.64,
+   160.17,
+   160.23,
    161.57,
    161.92,
-   162.09,
-   162.43,
+   162.36,
+   162.19,
    163.19,
    163.86,
    157.69,
-   159.6
+   159.55
   ],
   "uso": [
    152.96,
@@ -1610,7 +1598,7 @@
    66505.12,
    63871.36,
    64055.95,
-   64584.61
+   64628.63
   ],
   "vixts": [
    0.844,
@@ -2224,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-16T23",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-17T00",
     "v": 2.73
    },
@@ -2414,6 +2398,10 @@
    {
     "d": "2026-08-18T22",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-18T23",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2446,16 +2434,18 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "AVGO"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 40,
-  "n": 35
+  "pct50": 41,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-18T22:51:47+00:00",
+  "checked": "2026-08-18T23:02:39+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-18T21:22:38+00:00",
+ "updated": "2026-08-18T21:32:32+00:00",
  "prices": {
   "NVDA": {
    "price": 219.74,
@@ -405,9 +405,9 @@
    "price": 187.8,
    "chg": -2.21,
    "chg5": -5.66,
-   "sma20": 185.11,
-   "sma50": 182.15,
-   "sma200": 182.17,
+   "sma20": 186.93,
+   "sma50": 181.62,
+   "sma200": 182.33,
    "high3m": 201.37,
    "reg": 187.8,
    "pre": null,
@@ -661,7 +661,7 @@
    "price": 79.53,
    "chg": -0.1,
    "chg5": 0.03,
-   "sma20": 79.49,
+   "sma20": 79.48,
    "sma50": 79.66,
    "sma200": 79.86,
    "high3m": 80.31,
@@ -680,7 +680,7 @@
    "sma20": 20.46,
    "sma50": 20.43,
    "sma200": 20.48,
-   "high3m": 20.61,
+   "high3m": 20.58,
    "reg": 20.54,
    "pre": null,
    "post": null,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 19.27,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 19.27,
-   "sma50": 19.27,
-   "sma200": 19.27,
-   "high3m": 19.27,
+   "chg": -6.18,
+   "chg5": -1.88,
+   "sma20": 19.52,
+   "sma50": 20.05,
+   "sma200": 21.75,
+   "high3m": 22.89,
    "reg": 19.27,
    "pre": null,
    "post": null,
@@ -787,12 +787,12 @@
   },
   "^MOVE": {
    "price": 74.98,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 74.98,
-   "sma50": 74.98,
-   "sma200": 74.98,
-   "high3m": 74.98,
+   "chg": 5.78,
+   "chg5": -3.59,
+   "sma20": 69.9,
+   "sma50": 72.05,
+   "sma200": 75.57,
+   "high3m": 86.07,
    "reg": 74.98,
    "pre": null,
    "post": null,
@@ -802,28 +802,28 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.65,
-   "chg": 0.01,
-   "chg5": -0.17,
+   "price": 99.64,
+   "chg": -0.0,
+   "chg5": -0.18,
    "sma20": 100.3,
    "sma50": 100.49,
    "sma200": 99.52,
    "high3m": 101.61,
-   "reg": 99.65,
+   "reg": 99.64,
    "pre": null,
    "post": null,
-   "regClose": 99.65,
+   "regClose": 99.64,
    "sess": "reg",
-   "mt": 1787087494,
+   "mt": 1787088104,
    "ok": true
   },
   "^IRX": {
    "price": 3.71,
    "chg": 0.05,
    "chg5": -0.67,
-   "sma20": 3.73,
-   "sma50": 3.73,
-   "sma200": 3.73,
+   "sma20": 3.72,
+   "sma50": 3.7,
+   "sma200": 3.64,
    "high3m": 3.81,
    "reg": 3.71,
    "pre": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64569.88,
+   "price": 64568.47,
    "chg": 0.1,
    "chg5": 1.84,
-   "sma20": 63847.62,
-   "sma50": 63756.62,
-   "sma200": 68882.62,
+   "sma20": 63847.55,
+   "sma50": 63756.59,
+   "sma200": 68882.61,
    "high3m": 66505.12,
-   "reg": 64569.88,
+   "reg": 64568.47,
    "pre": null,
    "post": null,
-   "regClose": 64569.88,
+   "regClose": 64568.47,
    "sess": "reg",
-   "mt": 1787088103,
+   "mt": 1787088706,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.62,
-   "chg": 0.18,
+   "price": 159.61,
+   "chg": 0.17,
    "chg5": 0.22,
-   "sma20": 160.19,
+   "sma20": 160.18,
    "sma50": 161.11,
    "sma200": 159.46,
    "high3m": 163.86,
-   "reg": 159.62,
+   "reg": 159.61,
    "pre": null,
    "post": null,
-   "regClose": 159.62,
+   "regClose": 159.61,
    "sess": "reg",
-   "mt": 1787088106,
+   "mt": 1787088711,
    "ok": true
   },
   "ES=F": {
@@ -1127,7 +1127,7 @@
    {
     "title": "Stock Market Today, Aug. 18: CoreWeave Falls as Debt-Financing Concerns and Capital Spending Pressures Rise With Interest Rates - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxOdEFpa3NLZnRzdzJfUTktZFU1MTJsTG1Wb2dKUGpOSXY5UWRzMklZSm1TYnkwTk44NEs1S2ZSTWpya3NJdlE2UzQyRW5GYWFvc2NQeFNFRVhPZWpkNC11WTJGcWNQTTJHSWxLSGNHaUJJaTVBY1BiNFZ6b1dFMUFfdUQ5V2VMaGpBUXlGMHZWT0x3V3owa0plMTZmWEFrRG5IbXJDc0s4U3JvamN3N3Vqb3d6cjV3MTNadzJ3OE43eGR0MER1cWI1UFdadG00MnRhRWk4YzZESW9jc194WjZTREhDQndRWFk1NXVuU3ZsNXljaVl2ZDBWTmpac2ltOUZwQjY2Sk8zX2pmM3VUOGlVaFdBYw?oc=5",
-    "pub": "Tue, 18 Aug 2026 21:17:31 GMT",
+    "pub": "Tue, 18 Aug 2026 21:29:34 GMT",
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "What Happens If You Don't Update Your Graphics Card Drivers? - bgr.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNbUdGd29iRmxTcndVOHdjR3FKOEtQakNiZHhpWkNLaktkTFN0bkg1V1RZdjduRy1LMmRwcU9POExUa2dXa2lKNzl2WUxWOVBfcmJQTnAybW9wQlA3UldkNjFmQy1rbUZPMjBBVXZFY0w0cFYzbjJJQUhPam9vZDRTR21wNA?oc=5",
+    "pub": "Tue, 18 Aug 2026 21:17:00 GMT",
+    "src": "bgr.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Rare Earth Stocks Drop Tuesday as AI Fears Grow: USA Rare Earth and MP Materials Slide - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOaHV5NklMRmZPaTBtSlhBbVRjNW5SN195WHptVXE1eVJaUGFaZ1gwMkUwQ2FwbU0yaFhkSWk5eGQzQnBtNXNzS1hCQWhlWXI5VGdDYi01c2NHTHdGVlNubzBwU0E4QW8zbG1hX3FYWVBoc3gyVUJadUU5VnNfMHFGdXB2el84R3E1WkoxR2gtN1RyaS1aU1VES0dhOHQ2bl83UnV4XzB4UG1Ba1V3LXFUa0lqRzRIbGw5S3hwdFB6R2k5ZlZITFFFeQ?oc=5",
     "pub": "Tue, 18 Aug 2026 20:57:14 GMT",
@@ -1191,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "Anthropic’s Revenue Has Soared. Is It Enough for Investors? - Investopedia",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQMC14czQ1QXhyZXBtNms4QVZ2MS1iRkNxY0lKUnY4ZEVPMVNHOWRxRkVsaFdSaHhSSXZfNlZzMUgwcXpoNGltS1I0RWdDU0FOcW1UTExSejVoWUpGNDBrUlBLZjVuRXJnN3B2VktMZTAyMXdHR1ZRT09NYUZGdV9nN05qOFo5Q0l6TmItQUxDbGdRQlBLNzdFZGx2MUlhSDU5S0dWS0RVd0MyS1k?oc=5",
+    "pub": "Tue, 18 Aug 2026 20:34:10 GMT",
+    "src": "Investopedia",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "NASA Taps Blue Origin, Firefly For Services. SpaceX Stock Hits Resistance. - Investor's Business Daily",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNX0hMd2FhOWw1bnF3b1BBYjF2OTlQd0xvMHVpRno5ZXhMY1E3Z1JMREJrM0xJaWlmdHk1ZGtIN2NRSTRQSjRDWW1VQ1dJTVBMd3M4NkdwbGFOTF9KS1hzNk1QRFR3bXRRdUZHMGxPM3R4YkNSZk9FZTMtYTlkMmRFYXY1UHRhQl90cG5oVjdrLThtd2xPU3JxVVU2cHMyLXhnckRCTjJR?oc=5",
     "pub": "Tue, 18 Aug 2026 20:25:00 GMT",
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNVnZoX0F2ZHZIRHZZNHlHdGhONDhmMmJ0bVBBaFV1YlpoTm1mWmRpUnJ2VEpqVHdTTTZQRllqa3U5T1ZQRExpb1d3N0tWZHJmMngyNHc3VTItdFVMQ2dkbHgzd1llTkFCN0w5SGMwRVJlTlFwenNBMUFEYVpWU1c3Y25VV3hhcDJ3UXM0am9Uam8yWjJBb2lJSHJXWUZKN3ZXeUpMOUVvNzk1S3NrbVZKdGxJaE5ZUQ?oc=5",
     "pub": "Tue, 18 Aug 2026 20:14:15 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Vietnam’s VinSpace Plans to Launch Tech Demonstration on 2027 SpaceX Rideshare Mission - Via Satellite",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOQUV2YXlKWW81R0dlSVg4X2xoaWxCeVVJV1hkUFJPcDJqMTdxczFVUGtoT3cyc2xtWnROSjBFTUZFNFVIZ0R3c3duQTBlQ2JpenF2YlEtaHAwZEhpSFh1WDhhVVpqeXZ6UG1sNXdaVjFVa2dzRXB5YWw3Zk4ySmNuRXJCT3RUemktZkR6YjNtWGZFcDE1SnB0RlhOQTRQaHV5RXk1RWZWX1JhaExfcDAwaVNHY2RLbXpKN3lqUGctbUJqNlVETHgxbWJheHAtMXpK?oc=5",
-    "pub": "Tue, 18 Aug 2026 19:34:16 GMT",
-    "src": "Via Satellite",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "They’re Worried About The Capex - Heisenberg Report",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQMGYxSnhrdDhQRWFfbnlDS2VwU2pRLTZmcFhVRUw0cU1wWmJIbzNkdmwwcGFPV09pdEJOU0hqcjlNUHhXdDB0Q1c1Vk1udmpOZXJkMl9zM3FRRVllSENBQ05ISnVfYlNGa0phNHZCWkR4YXZHRzRkVWJQbE15RjR4VFNISnhYaGNIbVBnbTVFRQ?oc=5",
-    "pub": "Tue, 18 Aug 2026 19:23:16 GMT",
-    "src": "Heisenberg Report",
     "trig": false,
     "geo": false
    }
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Stock Market Today: S&P 500 Falls as Chip Rout, Treasury Yields Pressure Wall Street - Coinpaper",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR0RoYk42X1o5NGkyZlFXTUhzUURUaW9BMVo3VWxzR2lsTlhHbnc5eEpsQUFnRlNvXzZqQ1U3VVFZZnljSWNLQjVpUWMwR2dNT25JQ1E4Y182VVE0WEs4TEktc3cxeVBzbnNORGJLU3NtX3dsVXFqRk5NXzhVd2liVFlHOXZJYURCZC1Kc1FpWm9sQUhUZTJlc21oTjNyb09oNk1USmpJMG0wNWhCRVE?oc=5",
-    "pub": "Tue, 18 Aug 2026 18:57:22 GMT",
-    "src": "Coinpaper",
+    "title": "Why August 2026’s Bullish Market Sentiment Masks Rising Geopolitical and Economic Risks - InteractiveCrypto",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOQWRfS3h4LTBkVGtsWTRsLUtma19kY081LTNqYm1jRFI3eVdzcVo2XzE2RUJ0TmlFa1R5V1pwQWNrVWFGU09GN1JXVE9qOWN3ZW1zYnc3WUZtOEFJaGRLUDd4MkllckxNbHhTTnd5S0RySVljSW1Ub2lUazdlMnh2d3V5T1R1VUcteGY0d19SWTJhbnJoMGpfSFVfVFVZNE1OVE1XVV9OQl9DRWF4VERZeS1LaktTVWJmMXhtM19nSE9ZQzh0aGNmUjdR?oc=5",
+    "pub": "Tue, 18 Aug 2026 19:01:50 GMT",
+    "src": "InteractiveCrypto",
     "trig": false,
     "geo": false
    },
    {
-    "title": "NZD/USD Falls as Geopolitical Risks Boost Dollar Demand and Pressure Kiwi Sentiment - FXDailyReport.Com",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQUTg0LUo5dzMzckhpMVFDbUljUGhKQUlxbFgtaU5aWXNtaXVQakRhVmp5UXh0bWNONTF6TGs4a01pWlN3bmd6MktGSndvVDBkazRRYWJnaHdjdGwxQXZXdnlBTTZ3N19QLXpwUGN0dDJOck5mNGtNMDhGWkZTeXFHeGpBMzNGVWVmcTUxOGdvOFotQ29fLVBhQ213aG0wTEJYYnkyOEJQelp3U3g0dWxV?oc=5",
-    "pub": "Tue, 18 Aug 2026 18:48:05 GMT",
-    "src": "FXDailyReport.Com",
+    "title": "Stock Market Today: S&P 500 Falls as Chip Rout, Treasury Yields Pressure Wall Street - Coinpaper",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR0RoYk42X1o5NGkyZlFXTUhzUURUaW9BMVo3VWxzR2lsTlhHbnc5eEpsQUFnRlNvXzZqQ1U3VVFZZnljSWNLQjVpUWMwR2dNT25JQ1E4Y182VVE0WEs4TEktc3cxeVBzbnNORGJLU3NtX3dsVXFqRk5NXzhVd2liVFlHOXZJYURCZC1Kc1FpWm9sQUhUZTJlc21oTjNyb09oNk1USmpJMG0wNWhCRVE?oc=5",
+    "pub": "Tue, 18 Aug 2026 18:57:22 GMT",
+    "src": "Coinpaper",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": true
    },
    {
-    "title": "A 4-Million-Bpd Shadow Oil Highway Is Running Through Hormuz - oilprice.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZTFDUmdQWm5lRl80b1FqVUlaZXJFV2MwcFdBSlZRNUppYVRkVXM1dzZfQ2ZGWWI2a0xYS1JFU256TFNDZ0FKS1RRLTlSaFNpTlZoVG9uOGVwTjg0UERXMm9TTEdlVENKSzhaeHh4R3I4ZkxNdTM4Mk5YWG1qOUd3RWRHVC0tUC16a09mNkJkc3llV0xqU2x6cExQUjExX3NsTWpfODZR0gGrAUFVX3lxTE9DbWhSX2RyaVFILXdNMHB0aVFoNXFBaHFra2VBMWZjZTZBUGFpR0Z3R2ZvaFJnY0NwU29lTE92TGotV3ZBNnZLVjRyUXYwS3RvVzVMaE84R2RvNGl4amdjcDdtRUYtbVBKbWFnb0FUMHk2SFFCUUZkN3Q4cEJxdXQ4aEI0VFhFSlFReGFvSjVlVmV3ejJjaGo5T1k2T1g3NFBxTDQyWkhEdVY2Zw?oc=5",
-    "pub": "Tue, 18 Aug 2026 19:00:00 GMT",
-    "src": "oilprice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Tue, 18 Aug 2026 18:25:16 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Silver Price Forecast: XAG/USD Consolidates As Bullish Momentum Fades - bitcoinworld.co.in",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE50dW5UNWxCY05UZVZ0Ny1NOWpNdDR4bXR2cGRmajhOMEpFWXdTbmwtYVh2dHk0Y2s4ZEVMb0ZvYWd1VHdPd3BKVmRYdHFEWndTUzZuaFZEWTFHNGRMSWZ6Y2U5Wm9BWUxzOHpqZElyazlHTGdkOU9NV2ZR?oc=5",
+    "pub": "Tue, 18 Aug 2026 18:00:11 GMT",
+    "src": "bitcoinworld.co.in",
     "trig": false,
     "geo": false
    }
@@ -1497,15 +1497,15 @@
    99.32,
    99.2,
    100.05,
-   99.75,
-   101.02,
-   101.11,
-   100.85,
-   101.28,
-   100.99,
-   101.38,
+   99.63,
+   101.41,
+   101.19,
+   101.05,
+   100.5,
+   101.14,
+   100.8,
    99.69,
-   99.65
+   99.64
   ],
   "bizd": [
    12.41,
@@ -1538,7 +1538,7 @@
    163.19,
    163.86,
    157.69,
-   159.6
+   159.61
   ],
   "uso": [
    152.96,
@@ -1598,7 +1598,7 @@
    66505.12,
    63871.36,
    64055.95,
-   64569.88
+   64568.47
   ],
   "vixts": null,
   "hyoas": [
@@ -1716,7 +1716,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2428,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-18T21:22:04+00:00",
+  "checked": "2026-08-18T21:32:09+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-20T21:32:23+00:00",
+ "updated": "2026-08-20T21:42:10+00:00",
  "prices": {
   "NVDA": {
    "price": 216.85,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 98.87,
    "sess": "reg",
-   "mt": 1787260903,
+   "mt": 1787261490,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 72750.48,
-   "chg": 5.03,
-   "chg5": 15.43,
-   "sma20": 64577.04,
-   "sma50": 64227.91,
-   "sma200": 68930.67,
-   "high3m": 72750.48,
-   "reg": 72750.48,
+   "price": 72800.14,
+   "chg": 5.1,
+   "chg5": 15.51,
+   "sma20": 64579.52,
+   "sma50": 64228.91,
+   "sma200": 68930.94,
+   "high3m": 72800.14,
+   "reg": 72800.14,
    "pre": null,
    "post": null,
-   "regClose": 72750.48,
+   "regClose": 72800.14,
    "sess": "reg",
-   "mt": 1787261509,
+   "mt": 1787262094,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.03,
-   "chg": 0.48,
-   "chg5": -0.25,
+   "price": 159.05,
+   "chg": 0.49,
+   "chg5": -0.24,
    "sma20": 159.7,
    "sma50": 161.04,
    "sma200": 159.53,
    "high3m": 163.86,
-   "reg": 159.03,
+   "reg": 159.05,
    "pre": null,
    "post": null,
-   "regClose": 159.03,
+   "regClose": 159.05,
    "sess": "reg",
-   "mt": 1787261511,
+   "mt": 1787262101,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "The Biggest Risk Facing the Roundhill Memory ETF (DRAM) Right Now - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNcmFUMV91czAyNnY1ZjYzNEM3RmZYUlZsTk14blRlZ1FPbjZNb19pNXRBRms3UmFxS01Ca21FYTQ0VEQ2TzI2dDZEMjVLUjhMaEkxcHdiQTlLMEJESWhUTUVsaDN5eTFhYlJfcUIxMUNwbzFxMkpwZzRvM2drNXVVcTczWjZWMEE?oc=5",
+    "pub": "Thu, 20 Aug 2026 21:38:41 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Biggest Risk Facing the First Trust Nasdaq Semiconductor ETF (FTXL) Right Now - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPOFpYOHNuMWt2ZExRVEUwVGxiRmpfYVlHR1NlU1VtMnVOdDRpRldRZGpWODdEVE5QUy0xM1gxdzRBUjY1TnFFa3FPOC05akk1UWMybFJ2YzhZNUEzSE43bnpqa19tczJ3UGdoZUN0bGxQSUhlTkFaYV96dWZRUFRjYUdRQ0FiMHExaXhYcFQ3NUY2TncxamlsUnFZamo5NVpXUWtkRXdrdVJCT2MxbTMxU05WVmhVT3RfSHhCMDZJakc?oc=5",
     "pub": "Thu, 20 Aug 2026 21:10:39 GMT",
@@ -1199,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic Expects to Match SpaceX’s Record IPO Size or Top It - Bloomberg.com",
+    "title": "Anthropic Expects to Match SpaceX’s Record IPO Size or Top It - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPZjdKM3p6TTVON2FNcXFDRVhHd056NU03dGQxNzFYYkNYc09xWDhwS1hETzdFUkoyVkpWM0o1VENSaENzWnIwODBmUThla2dsUWF5UkRuWThvVmRsRVdCZHhCaDVQZ2NYSVdLU2J4aHdaZ19OeDY5LUREbVg1cmR6ZmZxVk5OcG5YX0lHMmFUelNSYjNoVVBJVWNYdENoeFFZdmxEQVBPSDNsQWdIMFdtQnJn?oc=5",
     "pub": "Thu, 20 Aug 2026 19:22:23 GMT",
-    "src": "Bloomberg.com",
+    "src": "Bloomberg",
     "trig": false,
     "geo": false
    },
@@ -1213,25 +1221,9 @@
     "src": "Yahoo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Elon Musk gives a timeline for SpaceX’s first Starship catch attempt - Teslarati",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE56VmR4VDZsdzRpYWgxSkl3MDRUM093YmNlamJCYXl3cVhRWTdiM3V3MG0wbi0wQ21HNmpzcDIwRVVXVnlOY043YXNJVXFUWWNYMDNfZXVNcmZqcWF3T2ltUUF1ZUIwcUtEUy1DUEE3S3M2Y0ZzRUE?oc=5",
-    "pub": "Thu, 20 Aug 2026 19:17:35 GMT",
-    "src": "Teslarati",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Oil settles up more than 2% after Trump threatens countries supporting Iran - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM1ZTcG5JRHQxeFFrOEd6Q0s4eWdFZGZwRmUyaFlPQkEwWEFLZ2xtLUJxMDFGRzZEZ1VEMjA5MjlMazgtZkJRM01FRXJ3Yk5wZUJSRW8yUEc5THM4VEZBd3V0LVhiRHBBWExnTElPMTRCX3d1ODhKR2lDdHVDVktTZS1BTUtuLXN2ZGRwUmpnNzhEdDJBZnp3cHExVndUYWlrenVEOXI0dVppdw?oc=5",
-    "pub": "Thu, 20 Aug 2026 20:19:12 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "July Fed Meeting Minutes Reveal a Divided Central Bank - SchiffGold.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUldMRHRhbXFMcHA1NDQtWDk2c3NRMzE4aEtxcFd6M0pqWWFtNEI3RXdLTm9fWmdaeUp0MFlNNVVyaHFXd3FhVEZVSS12aFR0MXRKYW5wYVBVY2JFTWYxZTFXbEhTUVpkRFJfQUxYWEdvNEo3ZFY0SF9BWERVUU41bi1ETVJvcVU5WVM2QV9qQWtuMVh0cEtIdG93?oc=5",
@@ -1269,6 +1261,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPZGNtbDc5SVBTQllzVGVTbWMtYzZraS1zQ1hpZngxWUh6SWQzeWxTb3VONHJSUFpramVzczAwVG9YZ1d0TmtMQksxZUhqOEl4OV9lR0gzeE9YSlZNd2Y0SkNETjlnRjFnSTQ2NkYzTW92dUU0MEYwZ1ZzdFpYM3JpSTY3Y0piTUU3S2NOV25JVVIwcUdoZVd6a0QwOVVSQS1U?oc=5",
     "pub": "Thu, 20 Aug 2026 18:28:29 GMT",
     "src": "whbl.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil hits more than three-week high as Trump threatens Iran-related retaliation - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQckNUeTZiSGZBT244S3lyQmNITTlaNW01QnFaZ0d3emMwYTRxWUVSUmRMQmlnd25XaWtlajIwdmtFNzl1ZEUyNV9jSXl2OVgzRm9MblJtWWFhOWxONVZjYi1wY3hLd0wtc1B6bFFjZ1F3SWtoYVBuMGl1dTJ4TEVCX25wZUNZeU8taVRCYU9pd3ZlRVNXMDlGYUVyMEJJaW9jODgtQXA1R3RvenhlNlFOSzNzOGM?oc=5",
+    "pub": "Thu, 20 Aug 2026 18:12:19 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    163.83,
    160.18,
    158.41,
-   158.99
+   159.04
   ],
   "uso": [
    142.54,
@@ -1610,7 +1610,7 @@
    65044.81,
    64725.31,
    64262.11,
-   72763.31
+   72802.88
   ],
   "vixts": [
    0.872,
@@ -2457,7 +2457,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-20T21:32:09+00:00",
+  "checked": "2026-08-20T21:41:56+00:00",
   "openai": {
    "found": false
   },

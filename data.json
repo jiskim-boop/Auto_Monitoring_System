@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-21T21:32:34+00:00",
+ "updated": "2026-08-21T21:42:00+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -9.93,
+   "chg5": -5.8,
+   "sma20": 19.48,
+   "sma50": 20.04,
+   "sma200": 21.75,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78163.89,
-   "chg": 7.03,
-   "chg5": 24.43,
-   "sma20": 65361.18,
-   "sma50": 64567.13,
-   "sma200": 68988.03,
-   "high3m": 78163.89,
-   "reg": 78163.89,
+   "price": 78141.92,
+   "chg": 7.0,
+   "chg5": 24.39,
+   "sma20": 65360.08,
+   "sma50": 64566.69,
+   "sma200": 68987.91,
+   "high3m": 78141.92,
+   "reg": 78141.92,
    "pre": null,
    "post": null,
-   "regClose": 78163.89,
+   "regClose": 78141.92,
    "sess": "reg",
-   "mt": 1787347915,
+   "mt": 1787348486,
    "ok": true
   },
   "USO": {
@@ -1177,8 +1177,32 @@
    {
     "title": "Anthropic Aims for SpaceX’s IPO Record - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkhNQk9nWkkzOHB2bzFsMzdneDJ1Y1ZjRUFpM3gtTzdVZGFMOEhhTlpSS0VKQWpvREdrT01NUVl2ZXYwQ19aa0JkWVdhOFNncTc3RHR4bE1URGRESWEyXzZuLVNPbWYxb0dhRkpRU0t4MlJuUXFfZ2VteHpUZ0E3Y3pCdmNSVlpnYkpiUUZ3UjNfNzM0OXlj?oc=5",
-    "pub": "Fri, 21 Aug 2026 20:04:45 GMT",
+    "pub": "Fri, 21 Aug 2026 21:34:46 GMT",
     "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX launch scheduled for early Saturday morning - KSBY News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR3BRTk1UN1prazJJSHhHZ1ZxemVjY2p3SkhNTnNKNTVhTEktZmNYLXhIY3gzbW1CbzRqWVFsSVllb3FDUGV1SEJtWjF6amV3eEVnRWZwdWZsUHd2eEhaZnAxVUlPaDVGYk1vem9ncmw0cmJlOTZfV19TTG1yTXpHN3JyRkJ2V21XRUZHN29n?oc=5",
+    "pub": "Fri, 21 Aug 2026 21:30:46 GMT",
+    "src": "KSBY News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SK Hynix's Two-Front Push: Nvidia's HBM4 Seal of Approval Meets a Japanese Expansion Gamble - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNYkF3al81TDlCNzBkSHQyX3I0RW9oT1YzNVlyckRiSnByMl9hLU9Rcjh5dWpzeDRRMEZUUzAyeWloMWlRcjZ1b2pJT0ZfVmtkZ1MyeEstYTFOeUJSNk4wLUlJM3Z4WW04VDBFbmpkV1FDeDlzbnV5QXRfQ0dfZG1KU2g1OVZjXzV0SU5kQW1TNFZGV3c2bUd3RWdTeXZKUkplRDFaQmlpU181YUdIUTJnZWh2R1FURWxETlZvMmhuS3Z6OFk1RFZMVFc5T0FsS0I5TEs5Nlk0QUpHMktmU1E?oc=5",
+    "pub": "Fri, 21 Aug 2026 20:11:46 GMT",
+    "src": "Ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CFTC Chairman Selig calls compute the most important commodity of our day, opens door to GPU futures - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE55TG1yWWpRUkRSYzNtSTgtby1CUHZJMnpSMzBCdG9MQU9RVm9pcm9pU3RoOWxWSHdVd0lYNzBkZ0FQVU9SZzI4X19zeGZ1Q1k2LVRvRndGaldBeVpBZVVJd1RrRll6cTBzS0lydldPTTMtUQ?oc=5",
+    "pub": "Fri, 21 Aug 2026 19:57:27 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1197,30 +1221,6 @@
     "src": "Spaceflight Now",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "America's launch boom could reshape Texas as SpaceX develops Starship - Corpus Christi Caller-Times",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVFdpWk5rR2stbDJsblhiWjliVGFVYWpZWkJNWWg3bHlqRjRLYzBlYTVGUnNybkk3SUdKWjFjR283eG93VDhaSkR1c3hEUDBxM3VXTjVFU05YZGVyWU1XZHR5eVNmcEdhZDNhblBvNjFQUkFQM1o5aHkzb0Y5Q0g1bmtrekc1LWlPUWcyNndUTV9rSjRnN3ZXN0JMa09FVlBxVm1FQnJEa1lqWWt0eDlZ?oc=5",
-    "pub": "Fri, 21 Aug 2026 17:30:00 GMT",
-    "src": "Corpus Christi Caller-Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk's xAI suing Bentonville photographer accused of using Grok to generate CSAM - KATV",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNGhHbElPQU9DbnRVSmlGLVZLY1RnTnpJeGJUOVc3YU5TaUhkWk11cGZtSE5mYl9oUnIzSS1SZVBDRjZ4RHJKeG9VQktXUUdDRjRaanBTMDJLT2tYRFdsbkZvblMxMHQwd1J2ZUR4aGZGN1ZqcEZxRHJqNDNRTmpNR1k4MWduSURrVjBIRE9rdmFGSnV0UThzRlNCR2VoRGFlM2tCS045T2dvTU1uZDNQVzV3?oc=5",
-    "pub": "Fri, 21 Aug 2026 17:18:41 GMT",
-    "src": "KATV",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Here's how to watch as SpaceX eyes overnight California rocket launch - The Desert Sun",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNc2hsSjV4TWhUV2xaS2ZxTmVkWUNndDcyU1JyRVAwVWtmRVVOWDZtZ0NmcjAxNGpsZnBwOUtkOXR1WHN0YnBvY1dsRXhMSERCVVZrWFB1VFFUWW1fNmozdUZzZHAxakZITFJiSm9LNVdFUmgzbDZzNVMtdE9McV9fak1NdXU5MlItZkdRZEtZX2xVOUk0ZllhUm9YamUxeDVTaTVub01jZTBoYkJBYkhJbmdlQXd0dldWNzNDelZB?oc=5",
-    "pub": "Fri, 21 Aug 2026 16:01:00 GMT",
-    "src": "The Desert Sun",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1237,6 +1237,14 @@
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1SemhaT2U5YVU0SU41WkVsOHBVSjVvb3lzbjlRNTdzRkxfeXQxVWVvNzUwbmpGVndIQmZFaDBFRTZTejl4eXJ1UVU3Q1lUeER2dmxwRDFIaW9fbnJac3Vnd0NtczVlZUM5Nk5yUTREak9SbjQ2MlI4?oc=5",
     "pub": "Fri, 21 Aug 2026 18:24:15 GMT",
     "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Geopolitical Risk Brief: August 2026 - S&P Global",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakhDc210TlVGY2c1THMzQTBDUl9SRENqRXlTR01RNkpBWmpRTTFlSG5wUFZQYm5Qd01ScklPN19zQmwwX1pMVTV4SDNaZ293bGZNWnd1OW5yUFhoTHpOZ3BYaGJKQ2trQUdmNTA2Q241Z1YzbTE3Zko5dXE4bGswUzdOTE9tTHRRQ0QtMEY3ZmNMZXM3SnZzQm1McjJXN2xkeHVVUmNMbGxvOTBvX1VVdUhHUU0?oc=5",
+    "pub": "Fri, 21 Aug 2026 17:28:17 GMT",
+    "src": "S&P Global",
     "trig": false,
     "geo": false
    },
@@ -1263,17 +1271,17 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Middle East Geopolitical Risks Rise As Lebanon Economy Contracts - Whalesbook",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNdVpPSzZBNzdPVkZndVpKMUg2eHREVF83d0hsdWg2RVhCb19EZzZlYmpieEhULW5aaFA5RWVJamZtVEZmeXpvSW1QampVaGdRdDNteFRyMmh4VEVkQ20tdnBNRjJybXdVZkJOMXc5bld4VGtjeEpVSlFLY0U5OVBPdzlXQkRJZmF5NFJHVW1nMzR4THIwenNQQmZEX2l5R0dkNTJWNXFjdmhQVWtBTXNvd3N3N05aR012LUk2SXQ4V01pQ0tmRk5ZcVVrNk1pQXBlUDZQZUdoazZDRTkyMkJWVnhR?oc=5",
-    "pub": "Fri, 21 Aug 2026 15:30:53 GMT",
-    "src": "Whalesbook",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold’s Upside Asymmetry Into Next Week: TD Securities Weighs In - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5tZU02Q3dkbWZMTENDY2lkakpxdExVS1RuWmZhenpQWmFkcXExNWFoYVJMN3dIczZIcFVWWjRnSC1LVExDMmNjbU5PNVhnZVVLeWJzVlM3ZzRXRFNPZWYzVkwwUGwyQ3ZiWkg4S1hOVUE2MTZsQl9uVmYyeE5iUQ?oc=5",
+    "pub": "Fri, 21 Aug 2026 21:35:05 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Stocks Settle Higher as Crude Oil Prices Stabilize - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaGFRMUxmN1NwSTY1SXZmNjFFRTR4VjlnUW5WelZwdEdRU1p5RU0yNFN6dmlaalFhMzdBQ25vXzlXX3JIQVc2c3E2Z1FwYUlUMDFzYWcxdFhQUjgzZTVQSXdCcnNCdXdLR3ExcnI4VFp1UFozbERBRl9FMkQ5UUs0SDF2LUJLVWRXX0tVYzU0X2Q5WDRDNi1YZmln?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQbTl3R1NtVDE0REx0SVNUNzNpTTRpMWtMUk5aUUJaSXhBTzNtU2pVcjBrMlZGTUdWQVpFLWNwU29ta0I4NmgzbmtmRUduQUN1bmRNTUo4Z3R2Nm5MNDZHR0tzQ29mdmwtY2hUdm1UVEZBMUFEdF9zMTR4Z2JTVTlmYmpnMUFhLUx2czY1bWFMcw?oc=5",
     "pub": "Fri, 21 Aug 2026 18:10:11 GMT",
     "src": "Bitcoin World",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Copper Consolidates Near $6.5 as Inventory Relief Offsets Supply Risks - VT Markets",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVEhyckxpeTByWWxTRVplanJHcS1lOENRazBNbUQ3dTNPOC1zSGpWcjQtT1U1RVZvRk1TdFNleWVWdldoSTN0SFEtZVBtdG45UzE2MENGY2c5Tm53d2FBRG03aHJJQjNhV1dvSzU5M0I4T2R0bm92SWJfa3diSkxIaGJLdk1iYlVBc2VxUS1SdlNhMTA2WlpjX1dZT0d6S3V2X3ROeVlYdUY?oc=5",
-    "pub": "Fri, 21 Aug 2026 17:33:35 GMT",
-    "src": "VT Markets",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    64098.5,
    62813.75,
    64880.19,
-   78154.91
+   78161.58
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.824,
+   0.79,
+   0.891,
+   0.716,
+   0.951,
+   0.796,
+   0.842,
+   0.955,
+   0.981,
+   0.815,
+   0.787,
+   0.818
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2444,14 +2458,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-21T21:32:15+00:00",
+  "checked": "2026-08-21T21:41:48+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

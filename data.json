@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T05:42:01+00:00",
+ "updated": "2026-08-22T05:52:12+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77102.9,
-   "chg": 5.57,
-   "chg5": 22.74,
-   "sma20": 65308.13,
-   "sma50": 64545.91,
-   "sma200": 68987.61,
-   "high3m": 77102.9,
-   "reg": 77102.9,
+   "price": 77458.14,
+   "chg": 6.06,
+   "chg5": 23.3,
+   "sma20": 65325.9,
+   "sma50": 64553.02,
+   "sma200": 68989.57,
+   "high3m": 77458.14,
+   "reg": 77458.14,
    "pre": null,
    "post": null,
-   "regClose": 77102.9,
+   "regClose": 77458.14,
    "sess": "reg",
-   "mt": 1787377290,
+   "mt": 1787377896,
    "ok": true
   },
   "USO": {
@@ -1175,42 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "FPI return to India may be tactical, not structural yet: HSBC MF’s Venugopal Manghat - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWEFBU3VqajR3Ny12YUxfTDY3RktkWENtSEhrTFo0MDl5UnRXQ3pKZGZyOUw1UHQ3dVJUM05JTUpfTmJlU1JoZExVZy1zcWdJVHhiazY3M3dTMFR3eEJINkxxRm9VNS1FREJjNHkyNnMyV2JsV1hpWGRYbFR2alVfcFdhWkJ6V0xFQlJpRE5xT3hSN2x5eWdENE0yc2dtSC1GN3RKUmx4T0ZJMS1mVkFXYW5VSnRRTEFhSmNMX25qZ0pQS0dfUWlaMmxzWWh6bHprZjUteDl6TVdiX2hvczBZb1g4NnB1VEtFdDVr0gHwAUFVX3lxTE1fclN4WU5wbEtyeUJ0YnB2MC1wa2ZXUlV6czdJaTZqM1lXZUxBUkk2aVBDb2ZmcHFva0ZtbXpVdVo5UElWZUdBRVRKRGc1TVdLd2ZPZUNtOWdqSzlmTnBhQVlTNkF5QmRFbUwxY05xak9tRG9pVG1EdVJKZEIwVkVBcTlIUzNjbHl0LXVaMnZZWkozcG1iU2xkUVp0NC01TF9xT2RveUIxa3JXSFI0Z3BwX0c3anM5RzhaendHdzltMEh3Wk5vcWhzcHB6QS1yM1otQ1NJUzJzQ2xVcnFvX1ozcGZqWktQaXRyRThwejBzVg?oc=5",
-    "pub": "Sat, 22 Aug 2026 04:52:22 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AI Capex Slowdown Poses Downside Risk To India's Recovery: Nuvama - BW Businessworld",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUJ1NUV2WTNBX1JyajlQdld1dU00ejZUdWZac0I3ZjN5STE5Z0M5R0VjSkZyTjZZdmJrYVZ5M2dQcU4zeFVNQk0zWXFaOWxlWEwtUW1rMm4xTE95LU1nbnN3RXRGd0VRNXJJeUpqY0hhWHhfZF9SaEVldVFGclRYalhGWWI1OUprQ1E4MVlUdG1FTmpIeGF5NXh2Q3NlVDBGbXQxWkV6RzkwNHZR?oc=5",
     "pub": "Sat, 22 Aug 2026 04:47:56 GMT",
     "src": "BW Businessworld",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "ETMarkets Smart Talk | India’s diverse earnings story could bring FIIs back: Bandhan Life’s Avinash Agarwa - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxNaUl2SHFaeVlLcGdfNnBIa1BsN1NkdFVKUFFfUGhwZXpqcHd2Tk5CVGctVVoxd2xDalZtY2lBZTZzblZSZktHT1BieGdhSjNDTmRyOENaTE9pNk1XZUdXMU5UUS1lRnJtaEpRWUNyRl9wRDFIWGtZVk1Ed2V3QzNGYy11Q3hVaWUzTGJlbGdEbWdCRWM2aGxhRjdRdHdPV2t3ZmRhblJUS0U5UjNVYVd4MHBVejlGQmQzSk1ZazdQX2djRUNCRlRKZFUtZEtJQzRnLUhXN1k5M2Z4eHM1WTRodHhORTJTNk13QnJHM2dpbERWLTlJRG9HY1k1RUYzQXBRekxuMmt0UFlpUmNC0gGMAkFVX3lxTE1pSXZIcVp5WUtwZ182cEhrUGw3U2R0VUpQUV9QaHBlempwd3ZOTkJUZy1VWjF3bENqVm1jaUFlNnNuVlJmS0dPUGJ4Z2FKM0NOZHI4Q1pMT2k2TVdlR1cxTlRRLWVGcm1oSlFZQ3JGX3BEMUhYa1lWTUR3ZXdDM0ZjLXVDeFVpZTNMYmVsZ0RtZ0JFYzZobGFGN1F0d09Xa3dmZGFuUlRLRTlSM1VhV3gwcFV6OUZCZDNKTVlrN1BfZ2NFQ0JGVEpkVS1kS0lDNGctSFc3WTkzZnh4czVZNGh0eE5FMlM2TXdCckczZ2lsRFYtOUlEb0djWTVFRjNBcFF6TG4ya3RQWWlSY0I?oc=5",
-    "pub": "Sat, 22 Aug 2026 04:03:00 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "India's Cyclical Recovery at Risk from AI Capex Slowdown: Report - Asianet Newsable",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTm54QWZMeTZ4dnhWSnBhYW85NUpRaDlmYU4xYWZlUGtRbTFreG1uSWtYazkyWTlhZlBfNGpveUlZXzQzNlRBS1Q5ODlvTHY4eklZMGtUQjMzQzJJV21VOGcwTmh3aTlMUnVPRnJ2cTM5czR4cDlNSTl5elI3b0JOQUUzWF9aWWw3cnNIbU5hMjc3MW4wWFhYVjk4NWRaMmY4Uk1mSW03LWdSQ1k0Y1ZaWWwwemF5NlhScnhpUGNJZjNXNTVXcVRXWtIByAFBVV95cUxNTm54QWZMeTZ4dnhWSnBhYW85NUpRaDlmYU4xYWZlUGtRbTFreG1uSWtYazkyWTlhZlBfNGpveUlZXzQzNlRBS1Q5ODlvTHY4eklZMGtUQjMzQzJJV21VOGcwTmh3aTlMUnVPRnJ2cTM5czR4cDlNSTl5elI3b0JOQUUzWF9aWWw3cnNIbU5hMjc3MW4wWFhYVjk4NWRaMmY4Uk1mSW03LWdSQ1k0Y1ZaWWwwemF5NlhScnhpUGNJZjNXNTVXcVRXWg?oc=5",
-    "pub": "Sat, 22 Aug 2026 03:30:21 GMT",
-    "src": "Asianet Newsable",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Business News | AI Capex Slowdown Could Derail India's Cyclical Recovery, Weigh on Growth: Nuvama - LatestLY",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQRG9NYXNZMUdaaUNKci00SHdHcUx1Q3lGX2tOX2VaZnFIRU9XSGdrbFlRZ2xQN2xjOGRJanIzMDR6OW1JRDB3azV1WlBmeG1oeWtRNWZLcUM2TFBCTDZxOU0tU09hRnlyd2NJcDNIWnVaZWpXMk9nNGNQZC1DdUl4YU1JVjM3UV9vbGtjbjNrdmNBWW9OZWtOZHluUDR2ZjJiQ2hWa3BONTd4Njd6MERSM25ReWNtaFlERDg0X2xjaEZhZVRULUp5eXZpWGw4QUZaMmNLcmlEdjZFbm0wNHY00gHfAUFVX3lxTFBEb01hc1kxR1ppQ0pyLTRId0dxTHVDeUZfa05fZVpmcUhFT1dIZ2tsWVFnbFA3bGM4ZElqcjMwNHo5bUlEMHdrNXVaUGZ4bWh5a1E1ZktxQzZMUEJMNnE5TS1TT2FGeXJ3Y0lwM0hadVplalcyT2c0Y1BkLUN1SXhhTUlWMzdRX29sa2NuM2t2Y0FZb05la05keW5QNHZmMmJDaFZrcE41N3g2N3owRFIzblF5Y21oWUREODRfbGNoRmFlVFQtSnl5dmlYbDhBRloyY0tyaUR2NkVubTA0djQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 03:22:22 GMT",
-    "src": "LatestLY",
     "trig": true,
     "geo": false
    },
@@ -1220,6 +1188,38 @@
     "pub": "Sat, 22 Aug 2026 03:18:12 GMT",
     "src": "The Tribune",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Grok 4.6 on Google Enterprise Agent Platform - x.ai",
+    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE45VkJvRlBPSEdIQUt5VmNpT3k5cU1kNkQyblByT2lHTDlDLUVsanVFV0hGM0NQTDcwMGZyalYwZWI1bHRYUS03NDZ2NVA?oc=5",
+    "pub": "Sat, 22 Aug 2026 01:42:54 GMT",
+    "src": "x.ai",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI's CFO just said something IPO investors should hear - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOSUhYNDNNeXJ1bnliM0EtMEMxZ2thdjZpdVlQdFVZSXBrSm9uMWZ6a1BMSHhiN1p1aUFnSWR6dmprUVRNVzJadHNpWnRkUnlLbDQ3YUFDZ1R2N3g3NnFDaENNblpvcUlmVjZaV0pxZHZXVlF0dEJRWklpVmFrdDdvRnVjdzJKaENocTVDdnJaaUI3aXVNbllXVzQzcGM?oc=5",
+    "pub": "Sat, 22 Aug 2026 01:03:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O. - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUXg2WVgtendKTnJablIxTHFpMzE2Nm91VTR2enZZSk5wWld3Y2pFTGVWQjE2OVpPcTFyUTJRNFU1SkpMOS1ZajQwSDM5RV8tYlEybi1kUGVlWEZhV2pKdW9DYS1Pc1M5cGgzanlUVncyV192cXVxT2VHRFF4dVUyVkNn?oc=5",
+    "pub": "Sat, 22 Aug 2026 00:24:20 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Aims for SpaceX’s IPO Record - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkhNQk9nWkkzOHB2bzFsMzdneDJ1Y1ZjRUFpM3gtTzdVZGFMOEhhTlpSS0VKQWpvREdrT01NUVl2ZXYwQ19aa0JkWVdhOFNncTc3RHR4bE1URGRESWEyXzZuLVNPbWYxb0dhRkpRU0t4MlJuUXFfZ2VteHpUZ0E3Y3pCdmNSVlpnYkpiUUZ3UjNfNzM0OXlj?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:04:46 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1610,23 +1610,9 @@
    64098.5,
    62813.75,
    64880.19,
-   77078.38
+   77459.13
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2460,7 +2446,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T05:41:47+00:00",
+  "checked": "2026-08-22T05:51:56+00:00",
   "openai": {
    "found": false
   },

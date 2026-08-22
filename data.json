@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T03:52:14+00:00",
+ "updated": "2026-08-22T04:02:33+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -812,7 +812,7 @@
    "reg": 98.84,
    "pre": null,
    "post": null,
-   "regClose": 98.84,
+   "regClose": 98.8,
    "sess": "reg",
    "mt": 1787345999,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78677.99,
-   "chg": 7.73,
-   "chg5": 25.25,
-   "sma20": 65386.89,
-   "sma50": 64577.41,
-   "sma200": 68996.31,
-   "high3m": 78677.99,
-   "reg": 78677.99,
+   "price": 78390.23,
+   "chg": 7.34,
+   "chg5": 24.79,
+   "sma20": 65372.5,
+   "sma50": 64571.66,
+   "sma200": 68994.72,
+   "high3m": 78390.23,
+   "reg": 78390.23,
    "pre": null,
    "post": null,
-   "regClose": 78677.99,
+   "regClose": 78390.23,
    "sess": "reg",
-   "mt": 1787370697,
+   "mt": 1787371318,
    "ok": true
   },
   "USO": {
@@ -996,15 +996,15 @@
   "ES=F": {
    "price": 7687.75,
    "chg": 0.33,
-   "chg5": -1.5,
-   "sma20": 7669.93,
-   "sma50": 7575.64,
-   "sma200": 7267.1,
+   "chg5": -1.72,
+   "sma20": 7657.91,
+   "sma50": 7567.46,
+   "sma200": 7263.73,
    "high3m": 7822.5,
    "reg": 7687.75,
    "pre": null,
    "post": null,
-   "regClose": 7687.75,
+   "regClose": 7662.5,
    "sess": "24h",
    "mt": 1787345999,
    "ok": true
@@ -1012,15 +1012,15 @@
   "NQ=F": {
    "price": 29374.0,
    "chg": 0.25,
-   "chg5": -2.55,
-   "sma20": 29260.25,
-   "sma50": 29477.95,
-   "sma200": 27849.48,
+   "chg5": -2.7,
+   "sma20": 29205.66,
+   "sma50": 29461.55,
+   "sma200": 27837.28,
    "high3m": 30712.75,
    "reg": 29374.0,
    "pre": null,
    "post": null,
-   "regClose": 29374.0,
+   "regClose": 29300.5,
    "sess": "24h",
    "mt": 1787345999,
    "ok": true
@@ -1028,15 +1028,15 @@
   "YM=F": {
    "price": 53330.0,
    "chg": 0.91,
-   "chg5": -0.89,
-   "sma20": 53428.95,
-   "sma50": 52790.56,
-   "sma200": 50384.56,
+   "chg5": -1.12,
+   "sma20": 53368.65,
+   "sma50": 52723.76,
+   "sma200": 50361.0,
    "high3m": 54494.0,
    "reg": 53330.0,
    "pre": null,
    "post": null,
-   "regClose": 53330.0,
+   "regClose": 52849.0,
    "sess": "24h",
    "mt": 1787345992,
    "ok": true
@@ -1044,15 +1044,15 @@
   "GC=F": {
    "price": 4661.6,
    "chg": 3.22,
-   "chg5": 6.42,
-   "sma20": 4280.05,
-   "sma50": 4176.69,
-   "sma200": 4504.09,
-   "high3m": 4661.6,
+   "chg5": 6.83,
+   "sma20": 4250.35,
+   "sma50": 4165.63,
+   "sma200": 4502.83,
+   "high3m": 4560.5,
    "reg": 4661.6,
    "pre": null,
    "post": null,
-   "regClose": 4661.6,
+   "regClose": 4516.3,
    "sess": "24h",
    "mt": 1787345998,
    "ok": true
@@ -1060,15 +1060,15 @@
   "CL=F": {
    "price": 86.64,
    "chg": -1.35,
-   "chg5": 5.15,
-   "sma20": 82.17,
-   "sma50": 79.08,
-   "sma200": 87.7,
+   "chg5": 6.63,
+   "sma20": 82.3,
+   "sma50": 79.15,
+   "sma200": 87.71,
    "high3m": 96.6,
    "reg": 86.64,
    "pre": null,
    "post": null,
-   "regClose": 86.64,
+   "regClose": 87.83,
    "sess": "24h",
    "mt": 1787345999,
    "ok": true
@@ -1076,15 +1076,15 @@
   "HG=F": {
    "price": 6.58,
    "chg": 1.86,
-   "chg5": -0.3,
-   "sma20": 6.53,
-   "sma50": 6.37,
+   "chg5": -0.19,
+   "sma20": 6.51,
+   "sma50": 6.36,
    "sma200": 6.13,
    "high3m": 6.7,
    "reg": 6.58,
    "pre": null,
    "post": null,
-   "regClose": 6.58,
+   "regClose": 6.46,
    "sess": "24h",
    "mt": 1787345999,
    "ok": true
@@ -1092,15 +1092,15 @@
   "ZN=F": {
    "price": 108.28,
    "chg": -0.2,
-   "chg5": -0.27,
+   "chg5": -0.59,
    "sma20": 108.58,
-   "sma50": 109.06,
-   "sma200": 110.21,
+   "sma50": 109.09,
+   "sma200": 110.22,
    "high3m": 110.27,
    "reg": 108.28,
    "pre": null,
    "post": null,
-   "regClose": 108.28,
+   "regClose": 108.5,
    "sess": "24h",
    "mt": 1787345999,
    "ok": true
@@ -1129,6 +1129,14 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOXJ0SzI4UXZGSENkMnFHNGJXZTBlX3A3eG5xcmlTVHJobDQwU0Z4cnpKR0VOSlNfZmtSOUFqWGJaeHd6dEJxYWlCaUFwOGNaN3g3OHVDNHdKUFFreFVKcF9uWThudDRjNndMalQ2Vm9wYlZGeV9PdDE0dFhSMkh0ck9NTXVfSVVTN3p5aUJBeVZXZFV1Y3NiUFZOWDc1SGJGT3Z6VEtKX2hUWl9EM2pJQnJMQ2NNZ2prNGlmWTVkSHYtUkZCU24wYXc4WGNGV293bmxPWWNycw?oc=5",
     "pub": "Sat, 22 Aug 2026 03:22:13 GMT",
     "src": "facebook.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Top Executive Makes Bold Insider Move at Crescent Capital BDC - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN1A2cUxmU3dwMTNtMUVpSkpScnlhcGstUE1KMVMtMGF5UXB0QTRQU0syZ3R6Sk15cXBGay1vZDVFcnBkN1R1RENzTk1HOUJVZ0JsNWZpYk1TYW43bHo4LVFBUUhYYjhuSnZhX1VRU2N5SEZuVVdNa0dnanctNFA4M2s0MzJickJVNm9SOWRxbzJLWWJjd3FteTRuSFFJZFZiTkI5NjB0VHNBbFV6X3p3bnlpZ3RvR1NkSXljR1FjZEoxVVo0OFN3?oc=5",
+    "pub": "Sat, 22 Aug 2026 02:53:40 GMT",
+    "src": "TipRanks",
     "trig": false,
     "geo": false
    },
@@ -1162,14 +1170,6 @@
     "pub": "Fri, 21 Aug 2026 20:55:00 GMT",
     "src": "finance.biggo.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Private Credit Is Showing More Signs of Distress - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb1NwV3l0VTExT3g0M0tFYlRLZXdadmhscXZaNE8wNGFHMTliTXg4X2dXTDVvcmstYmZyZVNoZkNETlR4Sm5aLVN2LUNkZzh6V2RQN25yamxTcWlFc3RUWjlTempOMTMyQ1JCMU1mR0ZWX1VScDJRSGxoaUVOMjVIQzFPRDZhUGU1?oc=5",
-    "pub": "Fri, 21 Aug 2026 18:41:26 GMT",
-    "src": "Morningstar",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1207,18 +1207,18 @@
     "geo": false
    },
    {
-    "title": "SMH Is Up 52% This Year — Here's Why I'm Not Adding A Single Share Archie Sussex 7th Birthday Photo (3ez01n8WAj) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1hT2dDOWg3T3ROWWRBRmhEQTZvWkVzYnJVcmNSckhoOThIeTJtNUVQRko3dDZtMi1HSHBWMldVb243YzhvS0hKTE5oSkJDOURpV2FKRnlYZ21oZVNvcWp1aQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 00:49:15 GMT",
-    "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Anthropic Could Aim to Raise $100 Billion in Blockbuster I.P.O. - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQUXg2WVgtendKTnJablIxTHFpMzE2Nm91VTR2enZZSk5wWld3Y2pFTGVWQjE2OVpPcTFyUTJRNFU1SkpMOS1ZajQwSDM5RV8tYlEybi1kUGVlWEZhV2pKdW9DYS1Pc1M5cGgzanlUVncyV192cXVxT2VHRFF4dVUyVkNn?oc=5",
     "pub": "Sat, 22 Aug 2026 00:24:20 GMT",
     "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:50:03 GMT",
+    "src": "Stocktwits",
     "trig": false,
     "geo": false
    }
@@ -1283,6 +1283,14 @@
     "geo": false
    },
    {
+    "title": "Axiom AlphA(@Ahmad_khanGurgaij)'s insights - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5RR1Q4a2h0U243V0laYUllWmdjWDRBazg4TTVxZzRRaXZfVlRhekM5NFhja1dJOC0xcXN5ODlYWHd3VV9MWGJQVlRaNWF1bGlJQURmVmVDREF5Z0FscXpYb1B0QWM?oc=5",
+    "pub": "Sat, 22 Aug 2026 02:57:49 GMT",
+    "src": "Binance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper Prices Approach Record Highs as AI Data Centers and Supply Tightness Converge: Which US Copper Stocks Are Worth Watching? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1BzVVB1QVpXanRkYU43VDBkMUtHYlRiRzZiRGJrTzQ3RlBMdkwyaGgyLXZoUE45Sk44VldsZzB1TEd5LWwxRE1vZG5XY185aUIzMkc3Ni05eUwtNGlWcGx4MDBLWHd2Vy1ZNUdoTG5jRVJCN01pejFmMWhoczFwTkdualNzVHdRcFFrRmVnQ3pBMU1VZUVRTUlxOWhCdDBBUFRWNkcwcDJzcEZjclpSZ3RLZ2NQV3Zkd2o3SG9WMUpLelE?oc=5",
     "pub": "Sat, 22 Aug 2026 02:06:53 GMT",
@@ -1312,14 +1320,6 @@
     "pub": "Fri, 21 Aug 2026 23:05:31 GMT",
     "src": "CryptoRank",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Gold and Silver Surge: Is a 1970s-Style Bull Run on the Horizon? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5RXhKMnkyeEp6TW5kOG5pWWZCaE0xUlBCelZ5V2szSzNPMEJxRWJMQjRPclpaRm0zc05DWGlXTmtCT0lXUk5rS2JsekgyT1h0NHNBTTF0VGNxdWplQ0lfeGw4MGtFSVVROTNMd3M1ckZydw?oc=5",
-    "pub": "Fri, 21 Aug 2026 22:33:21 GMT",
-    "src": "CryptoRank",
-    "trig": false,
     "geo": false
    }
   ]
@@ -1493,19 +1493,19 @@
    4.74
   ],
   "dxy": [
-   99.19,
-   99.02,
-   99.41,
-   99.86,
-   100.85,
-   101.36,
-   100.85,
+   99.32,
+   98.91,
+   100.07,
+   99.75,
+   101.02,
+   101.11,
+   101.14,
    101.28,
    100.99,
    101.51,
    99.96,
    99.81,
-   98.84
+   98.8
   ],
   "bizd": [
    12.38,
@@ -1610,9 +1610,23 @@
    64098.5,
    62813.75,
    64880.19,
-   78657.63
+   78329.11
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -1715,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장이 고조되며 안전자산 수요가 증가하는 가운데, 미10년 금리 4.74%와 달러강세(DXY 98.8)로 신흥국 신용압박이 심화되고 있다. AI 데이터센터 채권스프레드 확대와 네오클라우드 주가 부진으로 고수익채 신용리스크가 표면화되는 상황이다. AI capex 둔화 신호가 인도 등 신흥 이머징마켓 사이클 회복을 저해하고 있으며, 글로벌 인프라 투자 갭이 심화되고 있다.",
+  "text": "지정학 긴장(대만 해협, 중동)이 심화되며 안전자산 수요가 늘고 있고, 금리 4.74%와 달러 강세 속 신용스프레드 확대로 사모대출 시장의 리스크 프리미엄이 상승 중이다. AI 데이터센터 채권 스프레드 확대와 AI 기업들의 부채 우려로 인한 주가 하락이 나타나고 있으며, 동시에 인도 등에서 AI capex 둔화 신호가 포착되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1724,7 +1738,7 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
-   "trig": 1,
+   "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 16
@@ -2214,10 +2228,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-20T04",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-20T05",
     "v": 2.73
    },
@@ -2404,6 +2414,10 @@
    {
     "d": "2026-08-22T03",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-22T04",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2445,7 +2459,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T03:51:56+00:00",
+  "checked": "2026-08-22T04:02:15+00:00",
   "openai": {
    "found": false
   },
@@ -2456,7 +2470,7 @@
  "fragility": {
   "margin_mn": 1502072,
   "margin_asof": "Jun-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.63,
   "curve_bp": 50,
   "curve_inverted": false,

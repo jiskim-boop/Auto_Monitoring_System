@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T06:11:58+00:00",
+ "updated": "2026-08-22T06:22:00+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77253.52,
-   "chg": 5.78,
-   "chg5": 22.98,
-   "sma20": 65315.66,
-   "sma50": 64548.92,
-   "sma200": 68988.44,
-   "high3m": 77253.52,
-   "reg": 77253.52,
+   "price": 77262.58,
+   "chg": 5.79,
+   "chg5": 22.99,
+   "sma20": 65316.12,
+   "sma50": 64549.1,
+   "sma200": 68988.49,
+   "high3m": 77262.58,
+   "reg": 77262.58,
    "pre": null,
    "post": null,
-   "regClose": 77253.52,
+   "regClose": 77262.58,
    "sess": "reg",
-   "mt": 1787379084,
+   "mt": 1787379685,
    "ok": true
   },
   "USO": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "The next big Philippine property story may be less about another condominium tower in Metro Manila and more about where people and businesses are choosing to build outside the capital. | via ANC 24/7 Link to full story in the comments section. - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOXJ0SzI4UXZGSENkMnFHNGJXZTBlX3A3eG5xcmlTVHJobDQwU0Z4cnpKR0VOSlNfZmtSOUFqWGJaeHd6dEJxYWlCaUFwOGNaN3g3OHVDNHdKUFFreFVKcF9uWThudDRjNndMalQ2Vm9wYlZGeV9PdDE0dFhSMkh0ck9NTXVfSVVTN3p5aUJBeVZXZFV1Y3NiUFZOWDc1SGJGT3Z6VEtKX2hUWl9EM2pJQnJMQ2NNZ2prNGlmWTVkSHYtUkZCU24wYXc4WGNGV293bmxPWWNycw?oc=5",
-    "pub": "Sat, 22 Aug 2026 03:22:13 GMT",
-    "src": "facebook.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Top Executive Makes Bold Insider Move at Crescent Capital BDC - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN1A2cUxmU3dwMTNtMUVpSkpScnlhcGstUE1KMVMtMGF5UXB0QTRQU0syZ3R6Sk15cXBGay1vZDVFcnBkN1R1RENzTk1HOUJVZ0JsNWZpYk1TYW43bHo4LVFBUUhYYjhuSnZhX1VRU2N5SEZuVVdNa0dnanctNFA4M2s0MzJickJVNm9SOWRxbzJLWWJjd3FteTRuSFFJZFZiTkI5NjB0VHNBbFV6X3p3bnlpZ3RvR1NkSXljR1FjZEoxVVo0OFN3?oc=5",
     "pub": "Sat, 22 Aug 2026 02:53:40 GMT",
@@ -1171,6 +1163,14 @@
     "src": "finance.biggo.com",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Private Credit Is Showing More Signs of Distress - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQb1NwV3l0VTExT3g0M0tFYlRLZXdadmhscXZaNE8wNGFHMTliTXg4X2dXTDVvcmstYmZyZVNoZkNETlR4Sm5aLVN2LUNkZzh6V2RQN25yamxTcWlFc3RUWjlTempOMTMyQ1JCMU1mR0ZWX1VScDJRSGxoaUVOMjVIQzFPRDZhUGU1?oc=5",
+    "pub": "Fri, 21 Aug 2026 18:41:26 GMT",
+    "src": "Morningstar",
+    "trig": true,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1200,7 +1200,7 @@
    },
    {
     "title": "India's Cyclical Recovery at Risk from AI Capex Slowdown: Report - Asianet Newsable",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTm54QWZMeTZ4dnhWSnBhYW85NUpRaDlmYU4xYWZlUGtRbTFreG1uSWtYazkyWTlhZlBfNGpveUlZXzQzNlRBS1Q5ODlvTHY4eklZMGtUQjMzQzJJV21VOGcwTmh3aTlMUnVPRnJ2cTM5czR4cDlNSTl5elI3b0JOQUUzWF9aWWw3cnNIbU5hMjc3MW4wWFhYVjk4NWRaMmY4Uk1mSW03LWdSQ1k0Y1ZaWWwwemF5NlhScnhpUGNJZjNXNTVXcVRXWtIByAFBVV95cUxNTm54QWZMeTZ4dnhWSnBhYW85NUpRaDlmYU4xYWZlUGtRbTFreG1uSWtYazkyWTlhZlBfNGpveUlZXzQzNlRBS1Q5ODlvTHY4eklZMGtUQjMzQzJJV21VOGcwTmh3aTlMUnVPRnJ2cTM5czR4cDlNSTl5elI3b0JOQUUzWF9aWWw3cnNIbU5hMjc3MW4wWFhYVjk4NWRaMmY4Uk1mSW03LWdSQ1k0Y1ZaWWwwemF5NlhScnhpUGNJZjNXNTVXcVRXWg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHNWNURLRkpBQ0h4b3R6WlJ2Nkt3TXVabG5PVHFRenpxZWEwYlRYNzYzR0Q4dXV5cDNEQUZ1TXQ0RFloaEV2UDBST1RpWlF6OUR0ckdidjZGTGlhb25IaFRqbDYxN0xYcktNTWZyMXU1MEQwYW1ZLVVIUWtVcGRpZHBlMlBwRUp5ZmhRRmNZTFV4UGxrci0yRzJzUFJtclY2azJvZFNDTURfRUFaaVlvVnJzRWs5X1NTR3FweWtXZmxFSzjSAcgBQVVfeXFMTU5ueEFmTHk2eHZ4VkpwYWFvOTVKUWg5ZmFOMWFmZVBrUW0xa3htbklrWGs5Mlk5YWZQXzRqb3lJWV80MzZUQUtUOTg5b0x2OHpJWTBrVEIzM0MySVdtVThnME5od2k5TFJ1T0ZydnEzOXM0eHA5TUk5eXpSN29CTkFFM1hfWllsN3JzSG1OYTI3NzFuMFhYWFY5ODVkWjJmOFJNZkltNy1nUkNZNGNWWllsMHpheTZYUnJ4aVBjSWYzVzU1V3FUV1o?oc=5",
     "pub": "Sat, 22 Aug 2026 03:30:21 GMT",
     "src": "Asianet Newsable",
     "trig": true,
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Global Market: Euro zone bond yields hover near 15-year highs as Middle East war fuels inflation fears - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNU1RDb1lwU3ZlX3VURkRrajhCMEo2T0RFZkxDZVBHY0stUDlXX3NCcmdFUDk5Zl9fU193dlJvTnEybDdxV293Q2xmbERPcC1fU3pGUTRoYlNtYkRYaHFqY2lOQW96WTlwN2JCeVREZnZYajRleklrMDltLTd6TnlUWlhZVGx6OG56Mk44OU85UnBUa3k0MzhsVzRzREhkNUg2a0hZSjFVWERQcXpjOXhfaEptdFV1U0JjdFh4RGVDMG5udmtoRkdndi16dzlNWF9iRXoxQVR1a2lVV0hDWXduR1lCYUxwRGFHczdrOTdpWG0xM29ZNVNqSHhxTjlxS1VyYUFzQXRqM0ZGd9IBjwJBVV95cUxQQ1JoMHdGblZGMVZXcUtBOUlDVmp5U0R5ZkU4bEN3dlhxSzFVTV9JT2RfOWZtY0h4Y1k5aFJPeTNHeUo0MEoxWnM2RVh2U3NJc0d6WDhra2I0QjF5ekxoa2ZPb0pGclFORVIyTVBZaTlaVnlUR2xtaVpzNEliRXczRkVuRS1lUGgtck9ZQ0xMbHhxbEVnRl94TndLSHhhNFctZTdMOEpKZ1AzeWxjd1hjWGhINXhfd0RvRDBKQ1lqQWtXZkthTHFlc3NTel84a3NFWUJySlhnU0NoVjd5RFlDTVozNy1kMEVBZXRKWUtzNnQxWVhsckVBQXdpbmdFZTh5bHlQZnZzNG1GTXJrR3B3?oc=5",
-    "pub": "Fri, 21 Aug 2026 21:02:53 GMT",
-    "src": "The Economic Times",
+    "title": "Indian Rupee Edges Up 3 Paise to 95.71 as Weak Dollar Support Meets Geopolitical Headwinds - Analyst Consensus Shift - vinanet.vn",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVlExWHVhMVBYcDhPNGFpanhudURtWHItZWpaUEhqTFRoTE5NX2s3d3pvNmN2eGoyNDI3dmpEczF2SzVXajFIR0RSeEJWMGVtaV9jbTJERjZLWVBlRU1Va21sOW0ycldHdlpseDBuNDU5NWZ4VXJ1alluQzd6UVk3dzhmeHNfNmpCb0w2UnBqd3FXM291eGRrbFhZblRwTUZ6OXRzZmdURlBGY2pxSHhWa3dvYU9aeV9rVWU2YXpEa0poS3JzelJSQ0lBOA?oc=5",
+    "pub": "Fri, 21 Aug 2026 20:44:15 GMT",
+    "src": "vinanet.vn",
     "trig": false,
     "geo": false
    }
@@ -1292,15 +1292,15 @@
    },
    {
     "title": "#usdollarfallstothreemonthlow Community Insights & Market Sentiment | Binance Square - Binance",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5Td0RmZmgwdW9Qd3lKTEtzWW9NUV9ma185dDhVYVFGZm5kM3hCWFlEa0puMjFlWG82Zl96akhSYkxVTkFydWJOY1hjQmxFbi1uekRyVmtqazhYMGhQQ3B1dGlSMjZtdldBdDZ6dWtxNmMtcWl4NjhUTk9HblFBZw?oc=5",
-    "pub": "Sat, 22 Aug 2026 04:57:28 GMT",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BTllRQWRQdVlIb0JtRUhKdVR1TGxSQ29zcWQyTmpvYWxkeWVLYzhFSUlpRDJZWkdQaUc3RWF4aFpVbHdydXE5ZXh5SjZoRW5GajhxZ1FGVC1JVVRHM1dXaEhPOHl3M01DWEkydnVsQ1pIS1hVZFBfdGpCcnFzZw?oc=5",
+    "pub": "Sat, 22 Aug 2026 04:57:33 GMT",
     "src": "Binance",
     "trig": false,
     "geo": false
    },
    {
     "title": "Gold regains momentum as weak dollar, safe haven demand and seasonal buying support prices - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNdkllcFZ1R0tldmZ1dUVOTDRmMmRKYWpOaDFOYS1ZUTFmVDRSbVBqUU9hZ3BxN1VjUGdGNVVqb1IxWDBXM2xGNm9rRW1mVV93ZkZKSHQzTFZ1NTVRTUozZXdEdVZ1d1gyNzdiT2x6MkdtMjJJdEptMF9iODhRTWdtUFByNVFCWTUzc2Y1cWgtanlSektZbHBwVXRuTi1QaVl6VnVUN0NLVmlxVWIwTHZ3TE5GbGVPdmVTX3BlR1RsYXVEZGZ5NUxjWVkwMkVTRHVpMzNKV29wc2dQVG1WbkpBOUtVZW12bnQ3QVBBNjU3SDl2QnhCc0xvRlYxeGk4NUltXzdaeFdMcHpVZlFXMEdSWEt0VVVqODh1Y2t0cEhIeWpTWHI2aS0tLTdoaEFzYWtBTnZUN2hORFZDOU4tQnNDRnRDVjd2UmZ2RFF0Z3d6ak5Wcjhfa2FTZ05ZLWJvenJUWjZ2VXZR0gGCAkFVX3lxTE13S1UtU0I1UXl5VXhMV1VBeDBWWDJOT1dlTnpCb0FTVE5HZWhvbmNtTmphRjkyZ1llQnVMOEU3cng0UTRTSlBBXzNXZ3FKR1U1djkxekpnMnZTam9xX0xORHA1c0RYVkdPb1pleWJjWGNtQ091SExWLWk4UTBJN3dKY3hUclZRejJuMDBRemQ1clE5ZUVkMHI5ZzJ6cDBmRWhyb0dRMkhZdFJlWU5nRU5uYmNPNmdPZWxwSU9BNHpyc21ZXzhVVF9IZHF6X0ExRHB5bTB6VHFid3h6N1diZlNsV21sZmpQVGR1VUpoS0ZUYjZ5ejFxSTVfRWFfQjFJMk8xUQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxOWENtVmtlS01YNmRkcFlDbjVIXy1lcHI3WjFudUNJYWE3bFFaRDlVY21ubUtuNjNrcGJqdDRTVndtSzNyMXpqdWZ1bVo4QnlwQ1EwVEJHX1hTaGJIRlRobE9QeFdCZ2hlOUZDUEtwNjZkaDhJcXJfekx4Z3lpX285a2VTM0xsNXlXS281aTJJa3hwVHNnT2RNNFEtYVcwRUFuOF8zOG5PY2N0dGpwR0t2WjlyODRXdHVhMnhKZVRDX0VaTmxicHd3Tm1HS0U1bjZxcDhyZUlhb3lJZU1HbU9IVHJOQjZNRE8yQldWa0N4QTA1OGpCaTZuOUZ0U1XSAYICQVVfeXFMTXdLVS1TQjVReXlVeExXVUF4MFZYMk5PV2VOekJvQVNUTkdlaG9uY21OamFGOTJnWWVCdUw4RTdyeDRRNFNKUEFfM1dncUpHVTV2OTF6SmcydlNqb3FfTE5EcDVzRFhWR09vWmV5YmNYY21DT3VITFYtaThRMEk3d0pjeFRyVlF6Mm4wMFF6ZDVyUTllRWQwcjlnMnpwMGZFaHJvR1EySFl0UmVZTmdFTm5iY082Z09lbHBJT0E0enJzbVlfOFVUX0hkcXpfQTFEcHltMHpUcWJ3eHo3V2JmU2xXbWxmalBUZHVVSmhLRlRiNnl6MXFJNV9FYV9CMUkyTzFR?oc=5",
     "pub": "Sat, 22 Aug 2026 04:18:50 GMT",
     "src": "The Economic Times",
     "trig": false,
@@ -1610,9 +1610,23 @@
    64098.5,
    62813.75,
    64880.19,
-   77270.96
+   77259.51
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -1715,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(대만 해협, 중동)이 심화되며 안전자산 수요가 늘고 있고, 금리 4.74%와 달러 강세 속 신용스프레드 확대로 사모대출 시장의 리스크 프리미엄이 상승 중이다. AI 데이터센터 채권 스프레드 확대와 AI 기업들의 부채 우려로 인한 주가 하락이 나타나고 있으며, 동시에 인도 등에서 AI capex 둔화 신호가 포착되고 있다.",
+  "text": "지정학 긴장(미국-이란, 대만 해협)이 심화되는 가운데 금리 4.74%와 저VIX(15) 조합이 위험자산에 대한 신뢰 약화를 시사하며, 사모신용 시장에서 데이터센터 채권 스프레드 확대와 부실 우려가 동시 진행 중이다. AI 데이터센터 capex 둔화로 인한 공급망 부담이 가시화되고 있으며 장기 성장성 재평가 압력이 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1724,12 +1738,11 @@
    "spy": 0.0,
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
-   "trig": 0,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2446,7 +2459,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T06:11:44+00:00",
+  "checked": "2026-08-22T06:21:44+00:00",
   "openai": {
    "found": false
   },

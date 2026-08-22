@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T07:11:56+00:00",
+ "updated": "2026-08-22T07:22:12+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -734,21 +734,21 @@
    "post": null,
    "regClose": 15.13,
    "sess": "reg",
-   "mt": 1787343300,
+   "mt": 1787343301,
    "ok": true
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -766,7 +766,7 @@
    "post": null,
    "regClose": 86.27,
    "sess": "reg",
-   "mt": 1787342400,
+   "mt": 1787343301,
    "ok": true
   },
   "^SKEW": {
@@ -782,7 +782,7 @@
    "post": null,
    "regClose": 143.9,
    "sess": "reg",
-   "mt": 1787342400,
+   "mt": 1787346046,
    "ok": true
   },
   "^MOVE": {
@@ -798,7 +798,7 @@
    "post": null,
    "regClose": 73.4,
    "sess": "reg",
-   "mt": 1787342400,
+   "mt": 1787344215,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77305.35,
-   "chg": -1.31,
-   "chg5": 19.84,
-   "sma20": 66060.92,
-   "sma50": 64865.78,
-   "sma200": 69040.08,
+   "price": 77449.64,
+   "chg": -1.13,
+   "chg5": 20.07,
+   "sma20": 66068.13,
+   "sma50": 64868.66,
+   "sma200": 69040.87,
    "high3m": 78335.19,
-   "reg": 77305.35,
+   "reg": 77449.64,
    "pre": null,
    "post": null,
-   "regClose": 77305.35,
+   "regClose": 77449.64,
    "sess": "reg",
-   "mt": 1787382686,
+   "mt": 1787383298,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Samsung's HBM4 Yield Hits 80% in Race to Challenge SK Hynix's AI Memory Lead - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNWDNuX1ViYm1adlhEdmNDU2djYUFWcF9YcVRUcjdjN0ZaRC0tTnNzeERkNmVJZk9BYktvVjNXRFlEUzlPV1d3QzczdE05cjBkYzJhWXgzbVNGVFRBRldESmctQzhOMnkweVE4OHlZem9DNzE1U1ZPT0xaZVpTdm9vN0xlUUlrRzRaeXdCeVltZWhpY0cyVWdyNUl4bTF2RGhkNlBj?oc=5",
-    "pub": "Sat, 22 Aug 2026 05:33:20 GMT",
-    "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AI Capex Slowdown Poses Downside Risk To India's Recovery: Nuvama - BW Businessworld",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUJ1NUV2WTNBX1JyajlQdld1dU00ejZUdWZac0I3ZjN5STE5Z0M5R0VjSkZyTjZZdmJrYVZ5M2dQcU4zeFVNQk0zWXFaOWxlWEwtUW1rMm4xTE95LU1nbnN3RXRGd0VRNXJJeUpqY0hhWHhfZF9SaEVldVFGclRYalhGWWI1OUprQ1E4MVlUdG1FTmpIeGF5NXh2Q3NlVDBGbXQxWkV6RzkwNHZR?oc=5",
     "pub": "Sat, 22 Aug 2026 04:47:56 GMT",
@@ -1207,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "AI Drives Data Center Capex to Surpass $3 Trillion by 2030 - ET Datacenters",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUlVWOW93VTdCclVVV0paN0I3akJrekRXUm44WTZscUlmNENWZXhhQmljOVh6T3FjM0RyZ0dILTd3RXhnSHMyRFI3WDVDbXFKcTEySS1yekR2NEZpaW1jci12aFl5eHQtSng0ODE2WmhhRGZsQmxMenJvRzluMnAyV01oLTZVbEk3MnZnMFJHbF9obTRUV05pekgxX3FkT2xtZWtwMFJDNi1BajZWN09YbjdvOUdtN2l5ZTNNZVBnR2RwRjVXSnJ0RHNLMFJKS2o4Nk5JWVQzdXNzQ2lpTHk1StIB5AFBVV95cUxPTFlCTnFVQW1HWXdFNXRJUzRDQUdYbjlxc0lyRHRSYmMzeldpQVpkTV9PVE1tN0RBRW9FdFAwbV91c0tFMFFKRnNLSG1KLWFuUy1wMk5yQjF1UktvSXhNelUyR0VLamU0RFdseUdKOHBmSVI0LTMzekVLRDk2eGJJb2QycFE4M0xYUU1ONzFzaDZHTXNKWW1nSmtuaXFoSVhNZWZmRU1oTjVWSVcyT0E3bGdzZnpjYVFjY3RFUEtGeGMtWE44aDhxakJ5MVNkMDVGYmtCSkNSSEZyb190R2tpWXpwZU4?oc=5",
+    "pub": "Sat, 22 Aug 2026 03:21:16 GMT",
+    "src": "ET Datacenters",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI capex slowdown could derail Indias cyclical recovery, weigh on growth: Nuvama - The Tribune",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZVBEOGg2NXJHQ3RNVHhZdEVNNW9TNUpCS0FmRnIyaFd3U2Y1SnNSN1gwcUM5b0dwR081TGFvMU8zNlFxN25helgyTDl1VWh2NW9ucHRUUldOMFhDYmp3ZTdzSUNpdVI0MTBKc3g2SGwxa1ZmWDFoeE0wSjVWZWdrQ05BYzF1dXE5TkFGTXZXTjFTeEFIUWVBS3ltRjBZNFhBWkRCVEsyVDhROVhNUlBZNjB0UlZhMHEzSkxUOXc0amhfUnPSAcMBQVVfeXFMTWVQRDhoNjVyR0N0TVR4WXRFTTVvUzVKQktBZkZyMmhXd1NmNUpzUjdYMHFDOW9HcEdPNUxhbzFPMzZRcTduYXpYMkw5dVVodjVvbnB0VFJXTjBYQ2Jqd2U3c0lDaXVSNDEwSnN4NkhsMWtWZlgxaHhNMEo1VmVna0NOQWMxdXVxOU5BRk12V04xU3hBSFFlQUt5bUYwWTRYQVpEQlRLMlQ4UTlYTVJQWTYwdFJWYTBxM0pMVDl3NGpoX1Jz?oc=5",
     "pub": "Sat, 22 Aug 2026 03:18:12 GMT",
@@ -1224,6 +1224,22 @@
    }
   ],
   "macro": [
+   {
+    "title": "Trump suggests military intervention in US bond market issues - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2kwRGlFVGdoQmxaajlUWi0xUVJBZVFOSXowWG4yRmtaV2stSUtZWEZJRTRhdFh1N3ZROVROaWloa2Q5R29SaFMyTXVRdlpXZloxX001SEZscmtKNUNRQ1hKdjV0TEJncGZwRW9UV0VhRXRsZlNDZHJCNVJGLU9adWpWRTkwTkxqQk1aMjMzc0h1WWM?oc=5",
+    "pub": "Sat, 22 Aug 2026 01:12:30 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US military flight over Taiwan Strait highlights support for free Indo-Pacific - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPdlV4d3d1amVYYzk3SmN4eWhiY25EaHpkX3ZQbGNfSFBtWFY3ZTROWjRkVzZ5b2tEUTZUQWxqeHRTTjlpRm1wWmd1TTRBbmtJYmhYS1VSMDhNaHBNcV9qMVRyZENaZUlWbVpNaGtuUG9YUFYyc2g3LXV1R0xSdFcxdnZiRjVXUmNNVUlYWlBmaTd0TG1zQUZvNFNJVXVRMnhYTk5PWXdGSWVKUQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 00:53:51 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Geopolitical Risk Brief: August 2026 - S&P Global",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakhDc210TlVGY2c1THMzQTBDUl9SRENqRXlTR01RNkpBWmpRTTFlSG5wUFZQYm5Qd01ScklPN19zQmwwX1pMVTV4SDNaZ293bGZNWnd1OW5yUFhoTHpOZ3BYaGJKQ2trQUdmNTA2Q241Z1YzbTE3Zko5dXE4bGswUzdOTE9tTHRRQ0QtMEY3ZmNMZXM3SnZzQm1McjJXN2xkeHVVUmNMbGxvOTBvX1VVdUhHUU0?oc=5",
@@ -1253,22 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNU1RDb1lwU3ZlX3VURkRrajhCMEo2T0RFZkxDZVBHY0stUDlXX3NCcmdFUDk5Zl9fU193dlJvTnEybDdxV293Q2xmbERPcC1fU3pGUTRoYlNtYkRYaHFqY2lOQW96WTlwN2JCeVREZnZYajRleklrMDltLTd6TnlUWlhZVGx6OG56Mk44OU85UnBUa3k0MzhsVzRzREhkNUg2a0hZSjFVWERQcXpjOXhfaEptdFV1U0JjdFh4RGVDMG5udmtoRkdndi16dzlNWF9iRXoxQVR1a2lVV0hDWXduR1lCYUxwRGFHczdrOTdpWG0xM29ZNVNqSHhxTjlxS1VyYUFzQXRqM0ZGd9IBjwJBVV95cUxQQ1JoMHdGblZGMVZXcUtBOUlDVmp5U0R5ZkU4bEN3dlhxSzFVTV9JT2RfOWZtY0h4Y1k5aFJPeTNHeUo0MEoxWnM2RVh2U3NJc0d6WDhra2I0QjF5ekxoa2ZPb0pGclFORVIyTVBZaTlaVnlUR2xtaVpzNEliRXczRkVuRS1lUGgtck9ZQ0xMbHhxbEVnRl94TndLSHhhNFctZTdMOEpKZ1AzeWxjd1hjWGhINXhfd0RvRDBKQ1lqQWtXZkthTHFlc3NTel84a3NFWUJySlhnU0NoVjd5RFlDTVozNy1kMEVBZXRKWUtzNnQxWVhsckVBQXdpbmdFZTh5bHlQZnZzNG1GTXJrR3B3?oc=5",
     "pub": "Fri, 21 Aug 2026 21:02:53 GMT",
     "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Indian Rupee Edges Up 3 Paise to 95.71 as Weak Dollar Support Meets Geopolitical Headwinds - Analyst Consensus Shift - vinanet.vn",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPVlExWHVhMVBYcDhPNGFpanhudURtWHItZWpaUEhqTFRoTE5NX2s3d3pvNmN2eGoyNDI3dmpEczF2SzVXajFIR0RSeEJWMGVtaV9jbTJERjZLWVBlRU1Va21sOW0ycldHdlpseDBuNDU5NWZ4VXJ1alluQzd6UVk3dzhmeHNfNmpCb0w2UnBqd3FXM291eGRrbFhZblRwTUZ6OXRzZmdURlBGY2pxSHhWa3dvYU9aeV9rVWU2YXpEa0poS3JzelJSQ0lBOA?oc=5",
-    "pub": "Fri, 21 Aug 2026 20:44:15 GMT",
-    "src": "vinanet.vn",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Chinese military practices strikes against U.S. missile defenses, Humvees - Washington Times",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNYmVoNmQ4YVMwcnZaeVZ1OUFNUjZ5OWkzdExFeXJ4M1ByekhQS09kc2FuZGZ1U2ZqSFRXZWV6MkRQOUMyY0ZSVWY3c19DY3B4S2FJTVJzOHhfNTluamNqangzYzdtWVZ6VDdxVWxfcmhzRU0wWjNTYV9sUlRVWmlVc3pLcC1ydFhJN2lHNGZma3RHMmdCZGF1aGtNUUpVbDBXVzBTT3BGY19BbU5GMC1adg?oc=5",
-    "pub": "Fri, 21 Aug 2026 19:53:40 GMT",
-    "src": "Washington Times",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "#usdollarfallstothreemonthlow Community Insights & Market Sentiment | Binance Square - Binance",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BTllRQWRQdVlIb0JtRUhKdVR1TGxSQ29zcWQyTmpvYWxkeWVLYzhFSUlpRDJZWkdQaUc3RWF4aFpVbHdydXE5ZXh5SjZoRW5GajhxZ1FGVC1JVVRHM1dXaEhPOHl3M01DWEkydnVsQ1pIS1hVZFBfdGpCcnFzZw?oc=5",
-    "pub": "Sat, 22 Aug 2026 04:57:33 GMT",
-    "src": "Binance",
+    "title": "The price of New York gold futures surged past $4,680 per ounce, with an intraday increase of 2.38%. As a widely recognized safe-haven asset, the sharp rise in gold prices is often closely linked to various market factors, such as global geopolitical fluctuations - Bitget",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wY1dPMWZGRTlCTThhczdXSUFlb0hyUUZtRGtKNFdPdXBYTmhmUVJzMy1ULU5jNC1WaV8yS21GRzR6d2dXNlNkVnFiZHFCVEZLWks2Y21HRXVXb3pEWkdPOHpvZ9IBY0FVX3lxTE5wY1dPMWZGRTlCTThhczdXSUFlb0hyUUZtRGtKNFdPdXBYTmhmUVJzMy1ULU5jNC1WaV8yS21GRzR6d2dXNlNkVnFiZHFCVEZLWks2Y21HRXVXb3pEWkdPOHpvZw?oc=5",
+    "pub": "Sat, 22 Aug 2026 05:07:19 GMT",
+    "src": "Bitget",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Gold regains momentum as weak dollar, safe haven demand and seasonal buying support prices - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxNdkllcFZ1R0tldmZ1dUVOTDRmMmRKYWpOaDFOYS1ZUTFmVDRSbVBqUU9hZ3BxN1VjUGdGNVVqb1IxWDBXM2xGNm9rRW1mVV93ZkZKSHQzTFZ1NTVRTUozZXdEdVZ1d1gyNzdiT2x6MkdtMjJJdEptMF9iODhRTWdtUFByNVFCWTUzc2Y1cWgtanlSektZbHBwVXRuTi1QaVl6VnVUN0NLVmlxVWIwTHZ3TE5GbGVPdmVTX3BlR1RsYXVEZGZ5NUxjWVkwMkVTRHVpMzNKV29wc2dQVG1WbkpBOUtVZW12bnQ3QVBBNjU3SDl2QnhCc0xvRlYxeGk4NUltXzdaeFdMcHpVZlFXMEdSWEt0VVVqODh1Y2t0cEhIeWpTWHI2aS0tLTdoaEFzYWtBTnZUN2hORFZDOU4tQnNDRnRDVjd2UmZ2RFF0Z3d6ak5Wcjhfa2FTZ05ZLWJvenJUWjZ2VXZR0gGCAkFVX3lxTE13S1UtU0I1UXl5VXhMV1VBeDBWWDJOT1dlTnpCb0FTVE5HZWhvbmNtTmphRjkyZ1llQnVMOEU3cng0UTRTSlBBXzNXZ3FKR1U1djkxekpnMnZTam9xX0xORHA1c0RYVkdPb1pleWJjWGNtQ091SExWLWk4UTBJN3dKY3hUclZRejJuMDBRemQ1clE5ZUVkMHI5ZzJ6cDBmRWhyb0dRMkhZdFJlWU5nRU5uYmNPNmdPZWxwSU9BNHpyc21ZXzhVVF9IZHF6X0ExRHB5bTB6VHFid3h6N1diZlNsV21sZmpQVGR1VUpoS0ZUYjZ5ejFxSTVfRWFfQjFJMk8xUQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 04:18:50 GMT",
-    "src": "The Economic Times",
+    "title": "#usdollarfallstothreemonthlow Community Insights & Market Sentiment | Binance Square - Binance",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9BTllRQWRQdVlIb0JtRUhKdVR1TGxSQ29zcWQyTmpvYWxkeWVLYzhFSUlpRDJZWkdQaUc3RWF4aFpVbHdydXE5ZXh5SjZoRW5GajhxZ1FGVC1JVVRHM1dXaEhPOHl3M01DWEkydnVsQ1pIS1hVZFBfdGpCcnFzZw?oc=5",
+    "pub": "Sat, 22 Aug 2026 04:57:33 GMT",
+    "src": "Binance",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   77305.7
+   77433.0
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2460,7 +2446,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T07:11:43+00:00",
+  "checked": "2026-08-22T07:21:56+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T20:32:17+00:00",
+ "updated": "2026-08-22T20:42:00+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77288.59,
-   "chg": -1.34,
-   "chg5": 19.82,
-   "sma20": 66060.08,
-   "sma50": 64865.44,
-   "sma200": 69039.99,
+   "price": 77360.38,
+   "chg": -1.24,
+   "chg5": 19.93,
+   "sma20": 66063.67,
+   "sma50": 64866.88,
+   "sma200": 69040.38,
    "high3m": 78335.19,
-   "reg": 77288.59,
+   "reg": 77360.38,
    "pre": null,
    "post": null,
-   "regClose": 77288.59,
+   "regClose": 77360.38,
    "sess": "reg",
-   "mt": 1787430704,
+   "mt": 1787431289,
    "ok": true
   },
   "USO": {
@@ -1249,11 +1249,11 @@
     "geo": false
    },
    {
-    "title": "US tanker aircraft leave Bulgaria, easing immediate military threat perception - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHN4YjNoTm80WjBfczhJX242cjZfOUFkc2pNQ241M01EMTNtdm5KRDR6T3k4WURkTWZrcy1IWDVBNTZkMFppdlVvUnhjNWtMc21faVFTajdwS29lVHBsZmVkTWhjSnk2QjhGVTV1UlRDaGQyQ3BTS3lESTRmOFFKWVUxNzNhUFhnT0MzeXRSR0kzQ1U1c0xpclBjemVpaXN1UkFNdTVSQXQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 16:00:17 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
+    "title": "Fairmint CEO warns tokenized stocks risk market fragmentation - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjRNcEZZWVNfOExxMlF1di1WYTJnNlZNY3dzaE5IM3ZIcm9tcGl5akNuYXNJUXlNaERacVN3MEVTdmNJMWtraHNlVzJLV0Q2M1F1X3ZIRGEzOU9CNmJZUDV5VXplWWN5N0ZxZmNxTERmcEV5MUxBdWJPZGVKZHhaN2dPY0hPbWhxX09CUDczc2k3RGxwWjhfd0tLWHJHVGRX?oc=5",
+    "pub": "Sat, 22 Aug 2026 15:34:54 GMT",
+    "src": "CryptoRank",
+    "trig": true,
     "geo": false
    },
    {
@@ -1274,6 +1274,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Personal Finance: Oil prices are high. But why aren’t they higher? - Chattanooga Times Free Press",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcjhsUGZBMTZMdW4xRXVGS2VZN1ROYzQ3NE9vYjRrMlFVNnM4T1Q3VlZTMktBVU9SUDlQUzlCcy1ZR0ZvYXF6SkxBeUd1Y05NU2owRFdmR1JqaUh4OE1ZcnoxQ0htNHJYTzJSOEwzeldONDZZUWhHOE5rUkVBZm5GT2hsYnhvQkJSa2N1UmJjTk04UUxXdDBBVg?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcmxVNEwxdlhWV2s4c0otUGZySHIzMTk3dlNDQmZyMUd3VXBCZ2c5blQ5MTJlYkVYbkt2UEx1djMwaVNEV3dNa1lQTGxPRkdSZ1l0OW50bElTZGQ4SXJmMENndEg3WlUxaGh0azZzM2tPeXVjN1dfeF9JWUZwMXJRWlhkWjBlVmZZSllLZ1J4dndPLUFXb2JrTEZTY1c4c3luYVVhTS0yWGt3R09uaUNOR0ZuWDJhY1dHNWJjVQ?oc=5",
     "pub": "Sat, 22 Aug 2026 13:08:00 GMT",
     "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Speculators Deepen Bearish Yen Bets as CFTC Data Shows Wider Net Short Positions - VT Markets",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUktUmhrcjZrY0V4V2lxTDVlb1hmMDM3OEc4UzNXNk5ic2YzRHRfMnpuMXVwNGZ6RkJPeFgyYjBCYXVobkRwRnBnZGRIaktBc3BTNXZ6NkxLZHNxUS1MRllmOHdnTkkzSURBTnpHb2dId2NWZW16RzB6bVZQWU9CcElrRUVrWlNaa0ZYV1l1eE1uLTJSV0IzZUF5bFpiRGt3d1RmUV9OY3d1cHZDSkh5cjNFaXpvT0kwREh5MkZJZmc2cjFO?oc=5",
-    "pub": "Sat, 22 Aug 2026 10:15:50 GMT",
-    "src": "VT Markets",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   77278.46
+   77362.41
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2446,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T20:32:04+00:00",
+  "checked": "2026-08-22T20:41:46+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T04:52:11+00:00",
+ "updated": "2026-08-22T05:02:36+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78502.26,
-   "chg": 7.49,
-   "chg5": 24.97,
-   "sma20": 65378.1,
-   "sma50": 64573.9,
-   "sma200": 68995.34,
-   "high3m": 78502.26,
-   "reg": 78502.26,
+   "price": 78532.4,
+   "chg": 7.53,
+   "chg5": 25.01,
+   "sma20": 65379.61,
+   "sma50": 64574.5,
+   "sma200": 68995.51,
+   "high3m": 78532.4,
+   "reg": 78532.4,
    "pre": null,
    "post": null,
-   "regClose": 78502.26,
+   "regClose": 78532.4,
    "sess": "reg",
-   "mt": 1787374294,
+   "mt": 1787374914,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "FPI return to India may be tactical, not structural yet: HSBC MF’s Venugopal Manghat - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPWEFBU3VqajR3Ny12YUxfTDY3RktkWENtSEhrTFo0MDl5UnRXQ3pKZGZyOUw1UHQ3dVJUM05JTUpfTmJlU1JoZExVZy1zcWdJVHhiazY3M3dTMFR3eEJINkxxRm9VNS1FREJjNHkyNnMyV2JsV1hpWGRYbFR2alVfcFdhWkJ6V0xFQlJpRE5xT3hSN2x5eWdENE0yc2dtSC1GN3RKUmx4T0ZJMS1mVkFXYW5VSnRRTEFhSmNMX25qZ0pQS0dfUWlaMmxzWWh6bHprZjUteDl6TVdiX2hvczBZb1g4NnB1VEtFdDVr0gHwAUFVX3lxTE1fclN4WU5wbEtyeUJ0YnB2MC1wa2ZXUlV6czdJaTZqM1lXZUxBUkk2aVBDb2ZmcHFva0ZtbXpVdVo5UElWZUdBRVRKRGc1TVdLd2ZPZUNtOWdqSzlmTnBhQVlTNkF5QmRFbUwxY05xak9tRG9pVG1EdVJKZEIwVkVBcTlIUzNjbHl0LXVaMnZZWkozcG1iU2xkUVp0NC01TF9xT2RveUIxa3JXSFI0Z3BwX0c3anM5RzhaendHdzltMEh3Wk5vcWhzcHB6QS1yM1otQ1NJUzJzQ2xVcnFvX1ozcGZqWktQaXRyRThwejBzVg?oc=5",
+    "pub": "Sat, 22 Aug 2026 04:52:22 GMT",
+    "src": "The Economic Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI Capex Slowdown Poses Downside Risk To India's Recovery: Nuvama - BW Businessworld",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUJ1NUV2WTNBX1JyajlQdld1dU00ejZUdWZac0I3ZjN5STE5Z0M5R0VjSkZyTjZZdmJrYVZ5M2dQcU4zeFVNQk0zWXFaOWxlWEwtUW1rMm4xTE95LU1nbnN3RXRGd0VRNXJJeUpqY0hhWHhfZF9SaEVldVFGclRYalhGWWI1OUprQ1E4MVlUdG1FTmpIeGF5NXh2Q3NlVDBGbXQxWkV6RzkwNHZR?oc=5",
     "pub": "Sat, 22 Aug 2026 04:47:56 GMT",
@@ -1188,14 +1196,6 @@
     "pub": "Sat, 22 Aug 2026 04:03:00 GMT",
     "src": "The Economic Times",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "India's Cyclical Recovery at Risk from AI Capex Slowdown: Report - Asianet Newsable",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNdHNWNURLRkpBQ0h4b3R6WlJ2Nkt3TXVabG5PVHFRenpxZWEwYlRYNzYzR0Q4dXV5cDNEQUZ1TXQ0RFloaEV2UDBST1RpWlF6OUR0ckdidjZGTGlhb25IaFRqbDYxN0xYcktNTWZyMXU1MEQwYW1ZLVVIUWtVcGRpZHBlMlBwRUp5ZmhRRmNZTFV4UGxrci0yRzJzUFJtclY2azJvZFNDTURfRUFaaVlvVnJzRWs5X1NTR3FweWtXZmxFSzjSAcgBQVVfeXFMTU5ueEFmTHk2eHZ4VkpwYWFvOTVKUWg5ZmFOMWFmZVBrUW0xa3htbklrWGs5Mlk5YWZQXzRqb3lJWV80MzZUQUtUOTg5b0x2OHpJWTBrVEIzM0MySVdtVThnME5od2k5TFJ1T0ZydnEzOXM0eHA5TUk5eXpSN29CTkFFM1hfWllsN3JzSG1OYTI3NzFuMFhYWFY5ODVkWjJmOFJNZkltNy1nUkNZNGNWWllsMHpheTZYUnJ4aVBjSWYzVzU1V3FUV1o?oc=5",
-    "pub": "Sat, 22 Aug 2026 03:30:21 GMT",
-    "src": "Asianet Newsable",
-    "trig": true,
     "geo": false
    },
    {
@@ -1610,9 +1610,23 @@
    64098.5,
    62813.75,
    64880.19,
-   78484.97
+   78501.01
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2215,10 +2229,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-20T05",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-20T06",
     "v": 2.73
    },
@@ -2405,6 +2415,10 @@
    {
     "d": "2026-08-22T04",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-22T05",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2446,7 +2460,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T04:51:55+00:00",
+  "checked": "2026-08-22T05:02:22+00:00",
   "openai": {
    "found": false
   },
@@ -2457,7 +2471,7 @@
  "fragility": {
   "margin_mn": 1502072,
   "margin_asof": "Jun-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.63,
   "curve_bp": 50,
   "curve_inverted": false,

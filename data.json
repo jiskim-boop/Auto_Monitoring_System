@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T00:52:09+00:00",
+ "updated": "2026-08-22T01:02:48+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -9.93,
-   "chg5": -5.8,
-   "sma20": 19.48,
-   "sma50": 20.04,
-   "sma200": 21.75,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77759.93,
-   "chg": 6.47,
-   "chg5": 23.78,
-   "sma20": 65340.99,
-   "sma50": 64559.05,
-   "sma200": 68991.24,
-   "high3m": 77759.93,
-   "reg": 77759.93,
+   "price": 77968.28,
+   "chg": 6.76,
+   "chg5": 24.12,
+   "sma20": 65351.4,
+   "sma50": 64563.22,
+   "sma200": 68992.39,
+   "high3m": 77968.28,
+   "reg": 77968.28,
    "pre": null,
    "post": null,
-   "regClose": 77759.93,
+   "regClose": 77968.28,
    "sess": "reg",
-   "mt": 1787359895,
+   "mt": 1787360527,
    "ok": true
   },
   "USO": {
@@ -1133,14 +1133,6 @@
     "geo": false
    },
    {
-    "title": "ASA Gold & Precious Metals: A 15% Discount Is Tempting (NYSE:ASA) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOYkRka2x1M1BwWWNQZG90OVpCcUlycGJFUnNGWWs4MGRTR19Pc2I0eWprNmNub1JHU0pKV0I4ZExlZDZtTTVwMlhRUGRBRnhTU2pzT2VjS2ItNU9IMFB2cWNrM3FDRnpOSmlmNVVGRXc5YWE0NXRlOXpkV0J6amNvQ0p5SEtQQ2ptQnRFQ1lqRDFUODA1a2FZS0sxSnRHRDVldkRFVkNn?oc=5",
-    "pub": "Fri, 21 Aug 2026 22:34:43 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AI Debt Supply Surge: JPMorgan Says Data Center Bond Spreads Continue to Widen - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5XQ0FONXZ0a280THJWa2Y4QWhpUlgzaXBCSm50R1pDUTluOEJ0ZndLS2syeHV0QWRFRVlKSGRDYWpSX1d2M1ctSzVpdTgwR2VNcDhJUkRwRDBqNlRfZk04QVNKSUxkVHd4ZFBudThkaTRFdUZDeXc?oc=5",
     "pub": "Fri, 21 Aug 2026 20:55:00 GMT",
@@ -1171,6 +1163,14 @@
     "src": "FT Adviser",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Prospect Capital: Yes, A 62% NAV Discount Is Seriously Exaggerated (NASDAQ:PSEC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOaXM0Zk1Qdk0xeVlOQTQ3UmkycnVVSnN0RldKVnMyd1ZJdXNqTlVFSVFseUR3ZGU0dUlHUEpTNGJxWnF4YTRISGVaQmJ1NHVmWEI5NlJLWFBvMW9MMHU0UG41NXhJVFJUUm04Z09HNW1EdUo4VmszRTJIblVWNlpWZHNteksyOUQ0aDhqWE9OcnB5ZUZGVGlhcDZsakdrN3QyQjZEZjZ6THhoN1J5ZWpNLXl3?oc=5",
+    "pub": "Fri, 21 Aug 2026 16:16:55 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1183,10 +1183,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic Aims for SpaceX’s IPO Record - Bloomberg.com",
+    "title": "Anthropic Aims for SpaceX’s IPO Record - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZkhNQk9nWkkzOHB2bzFsMzdneDJ1Y1ZjRUFpM3gtTzdVZGFMOEhhTlpSS0VKQWpvREdrT01NUVl2ZXYwQ19aa0JkWVdhOFNncTc3RHR4bE1URGRESWEyXzZuLVNPbWYxb0dhRkpRU0t4MlJuUXFfZ2VteHpUZ0E3Y3pCdmNSVlpnYkpiUUZ3UjNfNzM0OXlj?oc=5",
     "pub": "Fri, 21 Aug 2026 23:04:46 GMT",
-    "src": "Bloomberg.com",
+    "src": "Bloomberg",
     "trig": false,
     "geo": false
    },
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Gold Poised for Third Weekly Gain as Rate-Cut Bets and Geopolitical Risks Drive Safe-Haven Demand - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12enVYWEdmQVltTnY2STVMeGxnWjNTbjBwbl83MlkwWEUtVTMtNDFzSldfLUc1NnF5YTNCSE40MmNYZ19PSDFVdTZlR29BWDgxVUtHX1hjc2ZfMUVWWnh5T0pReUNPZHp2UWpmSDdsdUpLZkV0VUxseGhKUUUtODQ?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:05:31 GMT",
+    "src": "CryptoRank",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Global Market: Euro zone bond yields hover near 15-year highs as Middle East war fuels inflation fears - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNU1RDb1lwU3ZlX3VURkRrajhCMEo2T0RFZkxDZVBHY0stUDlXX3NCcmdFUDk5Zl9fU193dlJvTnEybDdxV293Q2xmbERPcC1fU3pGUTRoYlNtYkRYaHFqY2lOQW96WTlwN2JCeVREZnZYajRleklrMDltLTd6TnlUWlhZVGx6OG56Mk44OU85UnBUa3k0MzhsVzRzREhkNUg2a0hZSjFVWERQcXpjOXhfaEptdFV1U0JjdFh4RGVDMG5udmtoRkdndi16dzlNWF9iRXoxQVR1a2lVV0hDWXduR1lCYUxwRGFHczdrOTdpWG0xM29ZNVNqSHhxTjlxS1VyYUFzQXRqM0ZGd9IBjwJBVV95cUxQQ1JoMHdGblZGMVZXcUtBOUlDVmp5U0R5ZkU4bEN3dlhxSzFVTV9JT2RfOWZtY0h4Y1k5aFJPeTNHeUo0MEoxWnM2RVh2U3NJc0d6WDhra2I0QjF5ekxoa2ZPb0pGclFORVIyTVBZaTlaVnlUR2xtaVpzNEliRXczRkVuRS1lUGgtck9ZQ0xMbHhxbEVnRl94TndLSHhhNFctZTdMOEpKZ1AzeWxjd1hjWGhINXhfd0RvRDBKQ1lqQWtXZkthTHFlc3NTel84a3NFWUJySlhnU0NoVjd5RFlDTVozNy1kMEVBZXRKWUtzNnQxWVhsckVBQXdpbmdFZTh5bHlQZnZzNG1GTXJrR3B3?oc=5",
     "pub": "Fri, 21 Aug 2026 21:02:53 GMT",
@@ -1263,17 +1271,17 @@
     "src": "TOP1markets",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "3 Healthcare Funds to Play Safe as Fed Readies for Rate Hike - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQbWt0a0pjUS1keW9xb0RENkFWYzhta2JreFNRUldrS1ZkRFRVRVNxSUZJUU1vaklGMHFnYktJenhrQmZRQzlpM1JUUkFPRldwOEpMV0pXdkJzeUVabU1kX29JRFRNNVFMMDlhZHNkRnlHenNvMnIxMEZDWG80VERTU3hhY0lEUTNxUDlMaFJNRlJNLXNfbVBUdDA4TXN0Rzl6TmJpczdDUmZyY1ZGeEhnNG91NGY3bFU?oc=5",
-    "pub": "Fri, 21 Aug 2026 16:28:00 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Gold Poised for Third Weekly Gain as Rate-Cut Bets and Geopolitical Risks Drive Safe-Haven Demand - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12enVYWEdmQVltTnY2STVMeGxnWjNTbjBwbl83MlkwWEUtVTMtNDFzSldfLUc1NnF5YTNCSE40MmNYZ19PSDFVdTZlR29BWDgxVUtHX1hjc2ZfMUVWWnh5T0pReUNPZHp2UWpmSDdsdUpLZkV0VUxseGhKUUUtODQ?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:05:31 GMT",
+    "src": "CryptoRank",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Gold and Silver Surge: Is a 1970s-Style Bull Run on the Horizon? - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFB5RXhKMnkyeEp6TW5kOG5pWWZCaE0xUlBCelZ5V2szSzNPMEJxRWJMQjRPclpaRm0zc05DWGlXTmtCT0lXUk5rS2JsekgyT1h0NHNBTTF0VGNxdWplQ0lfeGw4MGtFSVVROTNMd3M1ckZydw?oc=5",
@@ -1288,14 +1296,6 @@
     "pub": "Fri, 21 Aug 2026 22:19:01 GMT",
     "src": "Binance",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Poised for Third Weekly Gain as Rate-Cut Bets and Geopolitical Risks Drive Safe-Haven Demand - Bitcoin World",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9lWk9tRVBaM2trVXl6MUZXN0l5cEM3YktpdE5keWFxUTh0cUF2clN5Sm04RUN3RUpxMUdYVE9nazl1TmFVaGlJM2syNDFQNXA3RDRfYmFiQThXSzNlcjNKYW5USnJnU3VrOVI4VEVfQXE4Zw?oc=5",
-    "pub": "Fri, 21 Aug 2026 21:50:11 GMT",
-    "src": "Bitcoin World",
-    "trig": true,
     "geo": false
    },
    {
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Stocks Settle Higher as Crude Oil Prices Stabilize - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaGFRMUxmN1NwSTY1SXZmNjFFRTR4VjlnUW5WelZwdEdRU1p5RU0yNFN6dmlaalFhMzdBQ25vXzlXX3JIQVc2c3E2Z1FwYUlUMDFzYWcxdFhQUjgzZTVQSXdCcnNCdXdLR3ExcnI4VFp1UFozbERBRl9FMkQ5UUs0SDF2LUJLVWRXX0tVYzU0X2Q5WDRDNi1YZmln?oc=5",
-    "pub": "Fri, 21 Aug 2026 20:39:00 GMT",
-    "src": "Barchart.com",
+    "title": "Gold Price Climbs to $4,620 as Safe-Haven Demand Returns Across Global Markets - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMTFVdFU1RW5zWmFVMFF4ejVVWi1FVWZhYzBIT3RCN2ZybWY2cmV5ZnlEY21HRW5oZE1oeUd3TzkwNzhqRE5vR2UxeWZxUzcyVzNjN3JQMnFXdEdFYWUxU0p1SVBPZDlRSUVZTkRJdEw1cHFlVGE0cm0xU05URjMyRE12YmpvbkFvMUt3cVRNZ1FiOUd0NV9jelN3elBqd0tieU1ycjFxY0h6QWZKZlNjcGQ2aGk?oc=5",
+    "pub": "Fri, 21 Aug 2026 20:48:59 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64098.5,
    62813.75,
    64880.19,
-   77747.59
+   77981.47
   ],
-  "vixts": [
-   0.837,
-   0.824,
-   0.79,
-   0.891,
-   0.716,
-   0.951,
-   0.796,
-   0.842,
-   0.955,
-   0.981,
-   0.815,
-   0.787,
-   0.818
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2229,10 +2215,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-20T01",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-20T02",
     "v": 2.73
    },
@@ -2419,6 +2401,10 @@
    {
     "d": "2026-08-22T00",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-22T01",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2460,12 +2446,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T00:51:52+00:00",
+  "checked": "2026-08-22T01:02:29+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

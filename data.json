@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T10:11:56+00:00",
+ "updated": "2026-08-22T10:22:09+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76804.93,
-   "chg": -1.95,
-   "chg5": 19.07,
-   "sma20": 66035.89,
-   "sma50": 64855.77,
-   "sma200": 69037.33,
+   "price": 76739.98,
+   "chg": -2.04,
+   "chg5": 18.97,
+   "sma20": 66032.65,
+   "sma50": 64854.47,
+   "sma200": 69036.98,
    "high3m": 78335.19,
-   "reg": 76804.93,
+   "reg": 76739.98,
    "pre": null,
    "post": null,
-   "regClose": 76804.93,
+   "regClose": 76739.98,
    "sess": "reg",
-   "mt": 1787393488,
+   "mt": 1787394093,
    "ok": true
   },
   "USO": {
@@ -1199,14 +1199,6 @@
     "geo": false
    },
    {
-    "title": "AI capex slowdown could derail India's cyclical recovery, weigh on growth: Nuvama - bfsi.economictimes.indiatimes.com",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPWHB2clM5MTdaakNENjVJN2ZQLWt0QzV1Y2ZjZHpzRFRKLTdab0sxZkRkMjh0eWwzMVRYaGZ1eng4aVRSUWljellBcUZsaWZiSmFuRlJxUGZzQXBYaER6YzdocjBjTnE3S00zUkVaR3lBd1lPangxVHpJQTNNNk9IcnI2QjhxYkprVzNqdktWTGtlQk5LU0tyaTJ1aTFHbHBaeUg0U1pJeHRqcTdxRTZoTjdrcEpLRGpfLUtoVWNWamlBaHA0UDFJdG54cng0YnB5TUhEZDdnZHNOeE3SAdsBQVVfeXFMT1hwdnJTOTE3WmpDRDY1STdmUC1rdEM1dWNmY2R6c0RUSi03Wm9LMWZEZDI4dHlsMzFUWGhmdXp4OGlUUlFpY3pZQXFGbGlmYkphbkZScVBmc0FwWGhEemM3aHIwY05xN0tNM1JFWkd5QXdZT2p4MVR6SUEzTTZPSHJyNkI4cWJKa1czanZLVkxrZUJOS1NLcmkydWkxR2xwWnlINFNaSXh0anE3cUU2aE43a3BKS0RqXy1LaFVjVmppQWhwNFAxSXRueHJ4NGJweU1IRGQ3Z2RzTnhN?oc=5",
-    "pub": "Sat, 22 Aug 2026 07:02:00 GMT",
-    "src": "bfsi.economictimes.indiatimes.com",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "AI Drives Data Center Capex to Surpass $3 Trillion by 2030 - ET Datacenters",
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUlVWOW93VTdCclVVV0paN0I3akJrekRXUm44WTZscUlmNENWZXhhQmljOVh6T3FjM0RyZ0dILTd3RXhnSHMyRFI3WDVDbXFKcTEySS1yekR2NEZpaW1jci12aFl5eHQtSng0ODE2WmhhRGZsQmxMenJvRzluMnAyV01oLTZVbEk3MnZnMFJHbF9obTRUV05pekgxX3FkT2xtZWtwMFJDNi1BajZWN09YbjdvOUdtN2l5ZTNNZVBnR2RwRjVXSnJ0RHNLMFJKS2o4Nk5JWVQzdXNzQ2lpTHk1StIB5AFBVV95cUxPTFlCTnFVQW1HWXdFNXRJUzRDQUdYbjlxc0lyRHRSYmMzeldpQVpkTV9PVE1tN0RBRW9FdFAwbV91c0tFMFFKRnNLSG1KLWFuUy1wMk5yQjF1UktvSXhNelUyR0VLamU0RFdseUdKOHBmSVI0LTMzekVLRDk2eGJJb2QycFE4M0xYUU1ONzFzaDZHTXNKWW1nSmtuaXFoSVhNZWZmRU1oTjVWSVcyT0E3bGdzZnpjYVFjY3RFUEtGeGMtWE44aDhxakJ5MVNkMDVGYmtCSkNSSEZyb190R2tpWXpwZU4?oc=5",
     "pub": "Sat, 22 Aug 2026 05:56:24 GMT",
@@ -1221,9 +1213,25 @@
     "src": "Startup Fortune",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "AI Capex Slowdown Poses Downside Risk To India's Recovery: Nuvama - BW Businessworld",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWUJ1NUV2WTNBX1JyajlQdld1dU00ejZUdWZac0I3ZjN5STE5Z0M5R0VjSkZyTjZZdmJrYVZ5M2dQcU4zeFVNQk0zWXFaOWxlWEwtUW1rMm4xTE95LU1nbnN3RXRGd0VRNXJJeUpqY0hhWHhfZF9SaEVldVFGclRYalhGWWI1OUprQ1E4MVlUdG1FTmpIeGF5NXh2Q3NlVDBGbXQxWkV6RzkwNHZR?oc=5",
+    "pub": "Sat, 22 Aug 2026 04:47:56 GMT",
+    "src": "BW Businessworld",
+    "trig": true,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "How the US and Middle East allies flipped the oil script on Iran - CNN",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9YTC0xeHFnRksyMW1Za2NzTTNEdGNRTkpfRXIxNkppdklHTEpDUUd2QXdZd3EzbXB3SVpuVkFsVkUwNHMweVNnNkYwVHZfM3pyM3BnLXp2eTRjeFFPbXVTTmxjY0ZqdlgwSWRlUm9taTdoUFU?oc=5",
+    "pub": "Sat, 22 Aug 2026 09:00:29 GMT",
+    "src": "CNN",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Trump suggests military intervention in US bond market issues - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNa2kwRGlFVGdoQmxaajlUWi0xUVJBZVFOSXowWG4yRmtaV2stSUtZWEZJRTRhdFh1N3ZROVROaWloa2Q5R29SaFMyTXVRdlpXZloxX001SEZscmtKNUNRQ1hKdjV0TEJncGZwRW9UV0VhRXRsZlNDZHJCNVJGLU9adWpWRTkwTkxqQk1aMjMzc0h1WWM?oc=5",
@@ -1263,17 +1271,17 @@
     "src": "Left Voice",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Global Market: Euro zone bond yields hover near 15-year highs as Middle East war fuels inflation fears - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNU1RDb1lwU3ZlX3VURkRrajhCMEo2T0RFZkxDZVBHY0stUDlXX3NCcmdFUDk5Zl9fU193dlJvTnEybDdxV293Q2xmbERPcC1fU3pGUTRoYlNtYkRYaHFqY2lOQW96WTlwN2JCeVREZnZYajRleklrMDltLTd6TnlUWlhZVGx6OG56Mk44OU85UnBUa3k0MzhsVzRzREhkNUg2a0hZSjFVWERQcXpjOXhfaEptdFV1U0JjdFh4RGVDMG5udmtoRkdndi16dzlNWF9iRXoxQVR1a2lVV0hDWXduR1lCYUxwRGFHczdrOTdpWG0xM29ZNVNqSHhxTjlxS1VyYUFzQXRqM0ZGd9IBjwJBVV95cUxQQ1JoMHdGblZGMVZXcUtBOUlDVmp5U0R5ZkU4bEN3dlhxSzFVTV9JT2RfOWZtY0h4Y1k5aFJPeTNHeUo0MEoxWnM2RVh2U3NJc0d6WDhra2I0QjF5ekxoa2ZPb0pGclFORVIyTVBZaTlaVnlUR2xtaVpzNEliRXczRkVuRS1lUGgtck9ZQ0xMbHhxbEVnRl94TndLSHhhNFctZTdMOEpKZ1AzeWxjd1hjWGhINXhfd0RvRDBKQ1lqQWtXZkthTHFlc3NTel84a3NFWUJySlhnU0NoVjd5RFlDTVozNy1kMEVBZXRKWUtzNnQxWVhsckVBQXdpbmdFZTh5bHlQZnZzNG1GTXJrR3B3?oc=5",
-    "pub": "Fri, 21 Aug 2026 21:02:53 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Dollar Index Faces Structural Breakdown Toward 90, EUR/USD Eyes 1.20 Breakout - Action Forex",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxQNXlKenVRUHd6VDFqbEtub2Y4NHRNUXotT2NDQW9BcEFFSnQxaHZSbnBqOHM5a0NlVGVCSDNUQlhxM21kaEQ4VGNoNU5OQ3B5ZUJwV3ZmZEtKNWg4M0Y0NUktZmFvZFJiYl9wcm5MUXhVUDV5THF3YzZvUVNoWmhiMkZuN0RWdXBubUt2dUFyT1pvUTkxRFJKY2lIR0h0bE5VWkNHb2lHLWlDeFhLUl9fOVhpYnNndmxudXdpNTJObGVvNlRpemNzeGR2aUx4NjBZbkdlQ2k4SHNnQXZoU1p4MXhrUTdmS2xqZGhmQUVR?oc=5",
+    "pub": "Sat, 22 Aug 2026 09:40:12 GMT",
+    "src": "Action Forex",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold Mining Stocks Screening For Safety As Investors Revisit Safe Haven Assets - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNN0kwbUpRYUk0QXBfd3FOUnhETTNCWGxSV0l3ZU1PMkZfSVFpNFhnWGNwXzl5NWtITVJWclJvLUpKVlU2NkdFUHhpVmRhZUpzTGRaMzhZekthcVg4YWFwaUExaG1pUVRRaHhkWUY4d0dnRmFGczZhN0xtNUxOREhrXzA3bnpBN2pHbXRsLUNlVVJqY1pCYi1qcWpEbldEMGNWSUpVdTJUZTVYaDF2Ty1nUFMzWkw1WWxPR01qMlBqMENGTEtxaHN0WnM0NjltbE1JYkRuLTZmcDbSAd4BQVVfeXFMT0tJUTVqV1otWWdBY25KVVpXNFJmWGFHNG9tWW8wWVFLdkhucXg1WG5fd29JYnVMSk1VdFFQTTV5clFLVkluUUhZUlpzaEdwNFREbUZUdEpaSkhUTzU2dERjb1FyQ3ZSQ2dJZlpfNDF4c05lZmlxamU3NXIzdnhidXNvMjhlUU9uR05SdVdCZEJKUEY0dzB6SGVrWFlPOVB1NHNNT3Vyc2IwQ0kyamZPdEZzZDA4dnk1MWJFTVVHOE5EaWpMaUc1ZGZhdjhsZm9qREwxeUNReXFSSGVad2Jn?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPR0ZEaWM2RUN0RmcwdElBR3JWN0N4Ui1TSUVaTzJJRmJWQlVuc0N0S0NLWGRHVmthVWVKRkJtelBSOWFON1VIdFBWMzlYLThFcmFKMGpSMjV4MUtnOGNNWU0xck9uY284OC11cUIybkhPaG92XzZ4bjAzc0Q4eVM2Y0sxb2JVcWFkMjdlVUF3Rmo?oc=5",
     "pub": "Sat, 22 Aug 2026 05:15:52 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The price of New York gold futures surged past $4,680 per ounce, with an intraday increase of 2.38%. As a widely recognized safe-haven asset, the sharp rise in gold prices is often closely linked to various market factors, such as global geopolitical fluctuations - Bitget",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5wY1dPMWZGRTlCTThhczdXSUFlb0hyUUZtRGtKNFdPdXBYTmhmUVJzMy1ULU5jNC1WaV8yS21GRzR6d2dXNlNkVnFiZHFCVEZLWks2Y21HRXVXb3pEWkdPOHpvZ9IBY0FVX3lxTE5wY1dPMWZGRTlCTThhczdXSUFlb0hyUUZtRGtKNFdPdXBYTmhmUVJzMy1ULU5jNC1WaV8yS21GRzR6d2dXNlNkVnFiZHFCVEZLWks2Y21HRXVXb3pEWkdPOHpvZw?oc=5",
-    "pub": "Sat, 22 Aug 2026 05:07:19 GMT",
-    "src": "Bitget",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   76803.51
+   76743.79
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2460,7 +2446,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T10:11:44+00:00",
+  "checked": "2026-08-22T10:21:54+00:00",
   "openai": {
    "found": false
   },

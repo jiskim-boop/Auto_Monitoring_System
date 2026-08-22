@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T00:03:35+00:00",
+ "updated": "2026-08-22T00:12:06+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78459.0,
-   "chg": 7.43,
-   "chg5": 24.9,
-   "sma20": 65375.94,
-   "sma50": 64573.03,
-   "sma200": 68995.1,
-   "high3m": 78459.0,
-   "reg": 78459.0,
+   "price": 77975.7,
+   "chg": 6.77,
+   "chg5": 24.13,
+   "sma20": 65351.77,
+   "sma50": 64563.37,
+   "sma200": 68992.43,
+   "high3m": 77975.7,
+   "reg": 77975.7,
    "pre": null,
    "post": null,
-   "regClose": 78459.0,
+   "regClose": 77975.7,
    "sess": "reg",
-   "mt": 1787356933,
+   "mt": 1787357490,
    "ok": true
   },
   "USO": {
@@ -1183,6 +1183,14 @@
     "geo": false
    },
    {
+    "title": "13 executives who left OpenAI in 2026 - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iNHVEVUk4Q252by00eEctNWhFWGFfX1NEbUwyeXZuWGNua2xRcUlmc1BvaTFBU2dadmNxOWpCUFhEWWJiMVIwYzVQV2wxc3dJTTl2RXhmV0p1T0tGVWZIQllIVnpEdWhxQlBEbTFSV2N2M1RZSzM4?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:04:06 GMT",
+    "src": "Business Insider",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX scales back plans for next Starship launch - SpaceNews",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE91UEtiLW1TbzJvY3NOaS1KbFMtMGQxQTBiOE9GdmJ4eUM5VmtyUjI2aUZzNjZ3NXdxbkVvN1Q0ZWtzbEU3eThBY1RVVHc4cUZBX1ZWU29ZUmNwV1V6UTlITm8xelR6a3pFWUdVTFRJQlQ2bUp5YVNBRV9rMlE?oc=5",
     "pub": "Fri, 21 Aug 2026 22:28:53 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNeXdwbzNJcERVMTFvY2JtSkNBMUVaWGpSNlRqYXM1MndRT0lFOWw0NFpURjU4aVFZeTZvdjNRRWs0VWNaWXhzTXQ1QlJ4eUEwR2FXdl9Ca2xIQzVwQmgteVVLRkZneTlHMUt1dXJWNGk3UWladzNVQWZRc3ZpRFlQR2xTbGZLdGlRZzF2RWRvTk5CcVJQM19ZZlA1U2tCN1lkRkHSAacBQVVfeXFMTXQtbkxtMGJVQ0lSUjgwcG1EUFZkb1pWRjY4czE4M3NlQ1RsVWtWOVBESjM2SllMby1jN2haVy1wMWYxR2FnSFpwOUhKT180bVpRTzlETERmYjVQdE1SYjBiYXc0VzRRQnVSUC10Z2lpc0FqZlJibF8waTdOSndRa091YXZwUkRSWnlxbEI3NTYyeW55a1NkZ2NGVTc4YUM3UHZtQ056aGM?oc=5",
     "pub": "Fri, 21 Aug 2026 21:44:30 GMT",
     "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX launch scheduled for early Saturday morning - KSBY News",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNR3BRTk1UN1prazJJSHhHZ1ZxemVjY2p3SkhNTnNKNTVhTEktZmNYLXhIY3gzbW1CbzRqWVFsSVllb3FDUGV1SEJtWjF6amV3eEVnRWZwdWZsUHd2eEhaZnAxVUlPaDVGYk1vem9ncmw0cmJlOTZfV19TTG1yTXpHN3JyRkJ2V21XRUZHN29n?oc=5",
-    "pub": "Fri, 21 Aug 2026 21:30:46 GMT",
-    "src": "KSBY News",
     "trig": false,
     "geo": false
    }
@@ -1430,7 +1430,11 @@
   "sofr_iorb": -2.0,
   "cape": 41.96,
   "cape_manual": false,
-  "netliq": null,
+  "netliq": {
+   "value": 5791.8,
+   "chg4w": -125.6,
+   "asof": "2026-08-19"
+  },
   "gm2": {
    "value": 42.04,
    "series": [
@@ -1606,7 +1610,7 @@
    64098.5,
    62813.75,
    64880.19,
-   78470.03
+   77915.88
   ],
   "vixts": null,
   "hyoas": [
@@ -2442,18 +2446,20 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T00:03:06+00:00",
+  "checked": "2026-08-22T00:11:50+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {
   "margin_mn": 1502072,
   "margin_asof": "Jun-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.63,
   "curve_bp": 50,
   "curve_inverted": false,

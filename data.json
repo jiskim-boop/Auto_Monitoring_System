@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-22T15:32:28+00:00",
+ "updated": "2026-08-22T15:42:09+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77003.56,
-   "chg": -1.7,
-   "chg5": 19.37,
-   "sma20": 66045.83,
-   "sma50": 64859.74,
-   "sma200": 69038.42,
+   "price": 77023.95,
+   "chg": -1.67,
+   "chg5": 19.41,
+   "sma20": 66046.85,
+   "sma50": 64860.15,
+   "sma200": 69038.54,
    "high3m": 78335.19,
-   "reg": 77003.56,
+   "reg": 77023.95,
    "pre": null,
    "post": null,
-   "regClose": 77003.56,
+   "regClose": 77023.95,
    "sess": "reg",
-   "mt": 1787412717,
+   "mt": 1787413293,
    "ok": true
   },
   "USO": {
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "AI Drives Data Center Capex to Surpass $3 Trillion by 2030 - ET Datacenters",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUlVWOW93VTdCclVVV0paN0I3akJrekRXUm44WTZscUlmNENWZXhhQmljOVh6T3FjM0RyZ0dILTd3RXhnSHMyRFI3WDVDbXFKcTEySS1yekR2NEZpaW1jci12aFl5eHQtSng0ODE2WmhhRGZsQmxMenJvRzluMnAyV01oLTZVbEk3MnZnMFJHbF9obTRUV05pekgxX3FkT2xtZWtwMFJDNi1BajZWN09YbjdvOUdtN2l5ZTNNZVBnR2RwRjVXSnJ0RHNLMFJKS2o4Nk5JWVQzdXNzQ2lpTHk1StIB5AFBVV95cUxPTFlCTnFVQW1HWXdFNXRJUzRDQUdYbjlxc0lyRHRSYmMzeldpQVpkTV9PVE1tN0RBRW9FdFAwbV91c0tFMFFKRnNLSG1KLWFuUy1wMk5yQjF1UktvSXhNelUyR0VLamU0RFdseUdKOHBmSVI0LTMzekVLRDk2eGJJb2QycFE4M0xYUU1ONzFzaDZHTXNKWW1nSmtuaXFoSVhNZWZmRU1oTjVWSVcyT0E3bGdzZnpjYVFjY3RFUEtGeGMtWE44aDhxakJ5MVNkMDVGYmtCSkNSSEZyb190R2tpWXpwZU4?oc=5",
+    "pub": "Sat, 22 Aug 2026 05:56:24 GMT",
+    "src": "ET Datacenters",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Top Executive Makes Bold Insider Move at Crescent Capital BDC - TipRanks",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN1A2cUxmU3dwMTNtMUVpSkpScnlhcGstUE1KMVMtMGF5UXB0QTRQU0syZ3R6Sk15cXBGay1vZDVFcnBkN1R1RENzTk1HOUJVZ0JsNWZpYk1TYW43bHo4LVFBUUhYYjhuSnZhX1VRU2N5SEZuVVdNa0dnanctNFA4M2s0MzJickJVNm9SOWRxbzJLWWJjd3FteTRuSFFJZFZiTkI5NjB0VHNBbFV6X3p3bnlpZ3RvR1NkSXljR1FjZEoxVVo0OFN3?oc=5",
     "pub": "Sat, 22 Aug 2026 02:53:40 GMT",
@@ -1163,30 +1171,14 @@
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The next big Philippine property story may be less about another condominium tower in Metro Manila and more about where people and businesses are choosing to build outside the capital. | via ANC 24/7 Link to full story in the comments section. - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQOXJ0SzI4UXZGSENkMnFHNGJXZTBlX3A3eG5xcmlTVHJobDQwU0Z4cnpKR0VOSlNfZmtSOUFqWGJaeHd6dEJxYWlCaUFwOGNaN3g3OHVDNHdKUFFreFVKcF9uWThudDRjNndMalQ2Vm9wYlZGeV9PdDE0dFhSMkh0ck9NTXVfSVVTN3p5aUJBeVZXZFV1Y3NiUFZOWDc1SGJGT3Z6VEtKX2hUWl9EM2pJQnJMQ2NNZ2prNGlmWTVkSHYtUkZCU24wYXc4WGNGV293bmxPWWNycw?oc=5",
-    "pub": "Fri, 21 Aug 2026 21:30:03 GMT",
-    "src": "facebook.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
     "title": "SpaceXAI launches Grok Bot, an always-on AI agent - Mashable",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX2toOENHZFFMdDVHanF2ZGdGdFp5R25KUFNUeEhwZ0hoVUtiUXBKWFQxMEhaaGxoQjd0VEQ2eDY0Sng0SGkzUDdmakMxYm84eGZsdVJFU3lYUXBhbndn?oc=5",
-    "pub": "Sat, 22 Aug 2026 13:48:49 GMT",
+    "pub": "Sat, 22 Aug 2026 13:09:29 GMT",
     "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "LG PRI Reportedly Lands First Production-Line Order for Semiconductor Packaging LDI Tool - XenoSpectrum",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5NamFrYVl4VVVydlVYSlc4QzJCamhfNHRVV3pPUi00bDhsMGVkTlJQMkpwUi1WZzRTTmxfR2UyVmZobmI4TkVWMnNlV3BUYldIZzYyd3BVRnJCZDdGTWdid0hR?oc=5",
-    "pub": "Sat, 22 Aug 2026 12:52:29 GMT",
-    "src": "XenoSpectrum",
     "trig": false,
     "geo": false
    },
@@ -1221,6 +1213,14 @@
     "src": "MarketScale",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Microsoft: Higher Revenue Visibility Met Measured Capex - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeUZOWS1uV1VWbjVFajNNZGVDU2FtTElpWW80UURZU1JIZ3diOV9lYUU3M3FINXBST1lTc3lkZjladVlFRDBPWmQwV1Z5VnlwdVprUUJSWEotLUJxdFBBOWZXMHA4SkxhdlZEUUVvV3lqM3lIU3RobVZUTHVXZXp6dlc1LUZCdDBvVnpXdjNjSzR5YlBDX25QQThGWQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 10:49:08 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1233,27 +1233,11 @@
     "geo": false
    },
    {
-    "title": "Fresenius Medical Care: Time To Buy This High-Yield Dividend Aristocrat (NYSE:FMS) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONkhGWFVxd0ZDdWhjTVlwUUJyY0dhd1h6b19PdzRhN0c1Y0gzS2xib0hLcDBsOUNTcDFid25FZ2ppSm1oRkxYLVlyd1lJYlZpT3pFeDVoN0liT2Y4NFdyN0VOeDA5MEgtTzU5ZUI5ajk0WUI0YXBqaFdncTZoU1FfMkpzc0ZYZm1YZjFNRjVCVVhlaV9zdXNsYkxtaWhmMk80dFZLMmFFVVNieU45UFVHNjJfbVVYUm5TMkl5TXBHMEZNbk9YczF4Tk5yMGJ1LUdNdDJVXzJiMA?oc=5",
-    "pub": "Sat, 22 Aug 2026 13:09:57 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Trump’s envoy warns against escalation after Israeli strike on Syrian base - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1naXZmX29CSmJKenp4LS1nX3ZjMXJLX2Jxa2Ntckd0eTZLblBYa2VLRi1HYzE2QVRhUVZYRXpoNkp4WXlIeEdPdDhadXplclY5NW1uN0x3cG1MN3JaNVlKVDc1aGZzS0F2cC1sME5mRUEzZk0?oc=5",
     "pub": "Sat, 22 Aug 2026 11:27:44 GMT",
     "src": "Crypto Briefing",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Ukraine says it struck Russian oil refinery in overnight attack - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUUh3WlNsaHFNZVlSWlhSSU9KUHJleGoyNUlPc1k3OEhJbGR1a2RZbnNqWDJOTG0wRnFvSDJpNGh3YjBEZjZPWjZSSTJMb2s0cjB6YkZnSkcxbG5jSWNrTkdVbVphTnJOWmxVMkI3TXY5Y3o5Y2JzVXR4YUQ2X05IQ2NLV2JSZC1jU3d5R3JLYkR0VzMza2c?oc=5",
-    "pub": "Sat, 22 Aug 2026 10:36:54 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
     "geo": false
    },
    {
@@ -1270,6 +1254,22 @@
     "pub": "Sat, 22 Aug 2026 01:12:30 GMT",
     "src": "Crypto Briefing",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Geopolitical Risk Brief: August 2026 - S&P Global",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPakhDc210TlVGY2c1THMzQTBDUl9SRENqRXlTR01RNkpBWmpRTTFlSG5wUFZQYm5Qd01ScklPN19zQmwwX1pMVTV4SDNaZ293bGZNWnd1OW5yUFhoTHpOZ3BYaGJKQ2trQUdmNTA2Q241Z1YzbTE3Zko5dXE4bGswUzdOTE9tTHRRQ0QtMEY3ZmNMZXM3SnZzQm1McjJXN2xkeHVVUmNMbGxvOTBvX1VVdUhHUU0?oc=5",
+    "pub": "Sat, 22 Aug 2026 00:08:04 GMT",
+    "src": "S&P Global",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Poised for Third Weekly Gain as Rate-Cut Bets and Geopolitical Risks Drive Safe-Haven Demand - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE12enVYWEdmQVltTnY2STVMeGxnWjNTbjBwbl83MlkwWEUtVTMtNDFzSldfLUc1NnF5YTNCSE40MmNYZ19PSDFVdTZlR29BWDgxVUtHX1hjc2ZfMUVWWnh5T0pReUNPZHp2UWpmSDdsdUpLZkV0VUxseGhKUUUtODQ?oc=5",
+    "pub": "Fri, 21 Aug 2026 23:05:31 GMT",
+    "src": "CryptoRank",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   77009.12
+   77014.68
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2460,7 +2446,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-22T15:32:14+00:00",
+  "checked": "2026-08-22T15:41:54+00:00",
   "openai": {
    "found": false
   },

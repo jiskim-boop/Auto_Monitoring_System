@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T06:22:00+00:00",
+ "updated": "2026-08-23T06:32:42+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76243.77,
-   "chg": -2.67,
-   "chg5": 18.2,
-   "sma20": 66007.84,
-   "sma50": 64844.55,
-   "sma200": 69041.84,
+   "price": 76334.5,
+   "chg": -2.55,
+   "chg5": 18.34,
+   "sma20": 66012.37,
+   "sma50": 64846.36,
+   "sma200": 69042.35,
    "high3m": 78335.19,
-   "reg": 76243.77,
+   "reg": 76334.5,
    "pre": null,
    "post": null,
-   "regClose": 76243.77,
+   "regClose": 76334.5,
    "sess": "reg",
-   "mt": 1787466085,
+   "mt": 1787466728,
    "ok": true
   },
   "USO": {
@@ -1225,22 +1225,6 @@
   ],
   "macro": [
    {
-    "title": "Bank of Korea's Aug. 27 Rate Decision: Hold Favored, but Hiking Cycle Seen Continuing - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12WkdJQU9QLUUzVGRtQVN3Nzg0OV92U05BMkd5bUVRS0xJaTVqelVnYmhhU1BvNE1CeDhOb1FKNDE0OTBidVVlVzUwcUgwaTEwcm1haXUzUGVkTDBTZk5CemtzRXBkV3MtcHpCOURyb1JRYkFrOXc?oc=5",
-    "pub": "Sun, 23 Aug 2026 03:55:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Fed Rate Decision Predictions and Odds - DeFi Rate",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBJak1KdURfNlF4ckYyVlVRQWhWYmQ1VUhjbXJmOUlZQlFvM0x6NW1nZ0xWUWtuYklvMHJkZmpBRjRnZXFGM1dRYkpIX2o3UzY4RTB2NldGTEFWSnFDR3MwdGNjbE4xZlgyWWc?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:47:45 GMT",
-    "src": "DeFi Rate",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "From broken promises to open war: The contradictions of Trump’s Iran policy - Tehran Times",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbV9IR3J3c0MyYmtsM2ZMX3MzQU5yMTlQTmVLdG1Xb1RraHRPQkZrMlBzY0kzYnpPX1ctMWRNc1ZsbXRiUzRiSkNiVE5aM2FDNkNxLUlLcHF3RzAtOXktZG02QjZZNzlQTzliVjVSVFVfaUlJLXpXYWczdFYxQkJjR2hGR0R3OHFGLXVJNHdGcm5paUpjenpRczdYM0dZblFOTnI3Ug?oc=5",
     "pub": "Sat, 22 Aug 2026 18:59:26 GMT",
@@ -1271,6 +1255,22 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
+    "src": "Moneycontrol.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNelVkSEw0UXFVYzlBRGxPZVBDWjY1OGVPZ0x5cnBuOXhIOUJMcWpjdXZSM01kdnJFLTRKS2ZnZWUtQjJJbzJocXk0cDhhZi03bjJSNjRaWnJHd3ZfbVc3Wko4enBkQVRwMkVvTHRuT01ta093MUh5UEpOaU1vWWQwTnByMWdvLWpISjJIdDN3ZFZLcTlFR0E?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:06:00 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1291,6 +1291,14 @@
     "geo": false
    },
    {
+    "title": "Gold and crypto prices soar as rattled investors look for a safe bet - The Observer",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQcnVoRTlWZjg4dTdXVVFfd0NyNDFyM3F2OE9ZcEZIZ2dQQ0RDMlFkQnNqTGhQN2RyWHU3MmpwVGoxZmVzWDlZN0k0N01EY2JLaGN6aklBVDh2TG1LS1pncWRMVENZQlhxUUpHWHJ2NHQ3eTZfV3d4WVhHay1vODdOMm1yUm9EQnFpRnd3MmNCQ2xad1ZGallyaHliRWpoT0ozdnpoS1I2d1dZREd0NEJPMWlJVQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 05:16:57 GMT",
+    "src": "The Observer",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
     "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
@@ -1299,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
-    "src": "CryptoRank",
+    "title": "Price to sales forward of Coast Copper Corp – NEO:COCO - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJ6VDRncU9oajFsTURLMUZ4dGtWWkNpWWl2eHNrc3U4R2ZXcFByeGYzMU5nTkhpazZmTVRYZHhhWXNsMlJPd1p0ZUt1WkdpV0V2RWhvRTdnZDNwR01QWllvTGt4TDQwVjgyUTBSUlNsWUJTUXpzQVZWZVBvRjNXMlhQM2EzUzFKTEkyY3ZnQUJwUENZMWNCc3hR?oc=5",
+    "pub": "Sat, 22 Aug 2026 22:46:59 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
     "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
     "src": "The News Pakistan",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold's Milestone Break: When Washington's Debt Management Becomes Bullion's Tailwind - Ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOWdhRUFONFEtY1k0NVJGLUEtT1lfOVdMU1FaZHhjTUIyQkZTaXY5SEJlS25IRnAyaVRBSWcyN2dRRDJVUlhoTjRFdnoxUW1rM1o3R1VyV2hHdWtxLWxMTXJVaVMxdkp5cFFiSEhxVWs1Q0psY3d6eVNaQlBhbFg4UnRVM0ZoQzd2NDBtd3dEZkFNSHpqWXQ0MkdteFFPNE5iZmphYld2ZlRNN2w5RDJXWndCeHV5QWRHOVpzSUhCbjhwVEQ3Ynl4dTh2Zm9ybG9UWXc?oc=5",
-    "pub": "Sat, 22 Aug 2026 17:11:23 GMT",
-    "src": "Ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   76200.01
+   76330.96
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T06:21:45+00:00",
+  "checked": "2026-08-23T06:32:26+00:00",
   "openai": {
    "found": false
   },
@@ -2473,7 +2459,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

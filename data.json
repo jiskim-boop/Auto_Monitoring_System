@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T05:22:00+00:00",
+ "updated": "2026-08-23T05:32:13+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76103.54,
-   "chg": -2.85,
-   "chg5": 17.98,
-   "sma20": 66000.82,
-   "sma50": 64841.74,
-   "sma200": 69041.07,
+   "price": 76219.52,
+   "chg": -2.7,
+   "chg5": 18.16,
+   "sma20": 66006.62,
+   "sma50": 64844.06,
+   "sma200": 69041.71,
    "high3m": 78335.19,
-   "reg": 76103.54,
+   "reg": 76219.52,
    "pre": null,
    "post": null,
-   "regClose": 76103.54,
+   "regClose": 76219.52,
    "sess": "reg",
-   "mt": 1787462482,
+   "mt": 1787463101,
    "ok": true
   },
   "USO": {
@@ -1215,11 +1215,11 @@
     "geo": false
    },
    {
-    "title": "Nvidia Warns Hyperscalers Its AI Server Prices Are Jumping More Than 15% - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVVZZVRlMFhUNERjdVhsVzBHVjdQb0x1eUtWY3ZNRTFLbTF1bkFrTWx1SkhhTlVzX2J1ck54SjUwejBOMU5FQ0JuWFdlemxYV3pMcG9PYW1CY3M1ekFMdmRNMzJEc21tOXRoczZDeHB2NGNNMFdCWWdfa2lHbkc1cmRXT3hKYXd4bWRKZk1ZSjc1a0JkYVdtd3dkT0YweExN?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:44:51 GMT",
-    "src": "Startup Fortune",
-    "trig": true,
+    "title": "Europe's Next-Gen Rocket Concept Could Be Way More Efficient Than SpaceX's Starship - bgr.com",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE80R1VYajVVS3hwTFdQT2xELVczYmF6eXo0LVFQQmdKd1hDeF95RENNX3ByWEN1U1Y5ZDNBQ2ZXTDg3NVlPaDJQbG1YVVd0Mzg0aGR1U1h0YndNT295ZzlrSkJqZUQ1Q3IxR1ZVYUhzOU0zYXBV?oc=5",
+    "pub": "Sat, 22 Aug 2026 23:17:00 GMT",
+    "src": "bgr.com",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1230,14 +1230,6 @@
     "pub": "Sat, 22 Aug 2026 23:27:36 GMT",
     "src": "Al Jazeera",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Orhan's Morning Book | August 22, 2026 - Buttondown",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1d2VybFpVODNyUUhPY3V3bmF2WlBfY0dhZlRfQ1kzZFVYNzhxQnJWUTJNRmp2X3JWNEZkSUJKVjlKWDVERGFnWHplRS1mYS1wOE1wNVJ0Z2M3U0dIdG1FdXNGSUg0dHljUEJ4LVlZNnNPNEFJYnNwLU45R2k?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:09:32 GMT",
-    "src": "Buttondown",
-    "trig": false,
     "geo": false
    },
    {
@@ -1271,6 +1263,14 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
+    "src": "Moneycontrol.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1279,14 +1279,6 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
     "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
     "src": "Univest",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQ2RnZ4VDdHZnFBa3UwaV9XTHpnNDdnbXpyYW5TYjh6ZC1lYVR4bjE1a2lCWVhTVUJrblZHM0hZVTVraWhnVmF4X3Nlb1B0N1Q0ZTJmcVZDcGh5U0VWQ3AxcnVyYk5jMlh0czRrU1ltVVJ3am9RbDVQbzFiUzRFRw?oc=5",
     "pub": "Sat, 22 Aug 2026 15:59:57 GMT",
     "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Nears $4,600 as U.S. Treasury Bond Buybacks Weaken Dollar and Boost Safe Haven Demand - InteractiveCrypto",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2F5Z1N3Mndja2V0TWJRNjN5eUtMRFB3NW1UVDhlX3hNX3pzUE04aEtYWHZGdmRMdWs2Mmp4N3F3bGZObHN5MFRqc2hGU1kzaVhLLWJmSVVDNmVHUnFGaGMxbGwyZTlkTk9hU0pSNDFxZzVtdUJRSmtGR00wbjNoRDMzUEFSTmRNd2pHX2FESVRxNXNlSFdJUXZkVWprckc1OFhlYkRJY3JqNjFDbkN6NElVX2htSzQyVzJ2cjlkdV9ZSnpIb2pQQ2Vn?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:29:39 GMT",
+    "src": "InteractiveCrypto",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   76109.76
+   76220.99
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,12 +2448,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T05:21:45+00:00",
+  "checked": "2026-08-23T05:31:57+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

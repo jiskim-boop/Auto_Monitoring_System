@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T03:02:31+00:00",
+ "updated": "2026-08-23T03:12:04+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77091.41,
-   "chg": -1.59,
-   "chg5": 19.51,
-   "sma20": 66050.22,
-   "sma50": 64861.5,
-   "sma200": 69046.53,
+   "price": 77020.48,
+   "chg": -1.68,
+   "chg5": 19.4,
+   "sma20": 66046.67,
+   "sma50": 64860.08,
+   "sma200": 69046.14,
    "high3m": 78335.19,
-   "reg": 77091.41,
+   "reg": 77020.48,
    "pre": null,
    "post": null,
-   "regClose": 77091.41,
+   "regClose": 77020.48,
    "sess": "reg",
-   "mt": 1787454117,
+   "mt": 1787454691,
    "ok": true
   },
   "USO": {
@@ -1126,7 +1126,7 @@
   "credit": [
    {
     "title": "Morgan Stanley Direct Lending Stock: High Safety Margin Non-Accrual Challenges (NYSE:MSDL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNbTFSVWpwdEJPY085SDhLbHpsNldNY0FkZDVRNDVQTVVlZklwT2EzZ3JsVWF0UFFyeVB4eTdGcnMzVEFfQVd1RkVQam5zTWlzaXdjbE0wdko5T0xzOWY5WGdKWFg0SUFodmZrajQzM28tOWQ2YmRVd1hNQi1DR1RnMGJsdjhUWUg4ZWNCaDJmbDBKeHJhLVpJTS03Ni1walcwMWRTOEV1Z2ZCTWZ1OXNpYUpwVVJnX2hNYlRRcnJuMExJZndaaHhZQWNhaDBOcXZjY0R1Vm9B?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXRQODlzclZNczFCZTltNXVObFRCRkdPQnpxN2VObVZSTmdZMlpqRFZaNVlaVURBZWdYVUhMN0dLZXB4V3BPb3hSWkNGcUNfdk9rdGREbzZIemZQeEtHbmZKMTl0OWU1VUJfdkdwUFhqd3o5Y0dPVF92Z1JiWjg0LS15MGtSUmtDMHpRSEpwTnBpem1GYk9kV1o4ZU9XTmMtZnhGQV9rbHZicVRsMVI3TXY1bXRZRTFtV0ktVQ?oc=5",
     "pub": "Sun, 23 Aug 2026 02:33:57 GMT",
     "src": "Seeking Alpha",
     "trig": true,
@@ -1241,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "From broken promises to open war: The contradictions of Trump’s Iran policy - Tehran Times",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbV9IR3J3c0MyYmtsM2ZMX3MzQU5yMTlQTmVLdG1Xb1RraHRPQkZrMlBzY0kzYnpPX1ctMWRNc1ZsbXRiUzRiSkNiVE5aM2FDNkNxLUlLcHF3RzAtOXktZG02QjZZNzlQTzliVjVSVFVfaUlJLXpXYWczdFYxQkJjR2hGR0R3OHFGLXVJNHdGcm5paUpjenpRczdYM0dZblFOTnI3Ug?oc=5",
+    "pub": "Sat, 22 Aug 2026 18:59:26 GMT",
+    "src": "Tehran Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The ceasefire has expired. How could the US-Iran war escalate? - The Times",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOOExXOW5EUTJNdUZOVU40dnJiVjA5MjhReERYcFFqQlBjbERVRE8tLW5pb2d5dGpoQlJja2pMT3N3RC03U3V1d1FqY3o3bFR4eHRmTmxmNk9zNmF6UC02bm9fNDNSbDhUaVk0eG1kUW5mcG5ERU5xbExZOERyaFpIbS15SkptMEdZekZ4dVktVQ?oc=5",
     "pub": "Sat, 22 Aug 2026 17:15:38 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHN4YjNoTm80WjBfczhJX242cjZfOUFkc2pNQ241M01EMTNtdm5KRDR6T3k4WURkTWZrcy1IWDVBNTZkMFppdlVvUnhjNWtMc21faVFTajdwS29lVHBsZmVkTWhjSnk2QjhGVTV1UlRDaGQyQ3BTS3lESTRmOFFKWVUxNzNhUFhnT0MzeXRSR0kzQ1U1c0xpclBjemVpaXN1UkFNdTVSQXQ?oc=5",
     "pub": "Sat, 22 Aug 2026 16:00:17 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
-    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
-    "src": "Moneycontrol.com",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   77102.99
+   77020.96
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,14 +2462,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T03:02:16+00:00",
+  "checked": "2026-08-23T03:11:50+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

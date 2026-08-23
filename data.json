@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T11:12:01+00:00",
+ "updated": "2026-08-23T11:22:10+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76814.26,
-   "chg": -0.35,
-   "chg5": 18.76,
-   "sma20": 66717.49,
-   "sma50": 65135.86,
-   "sma200": 69089.16,
+   "price": 77217.49,
+   "chg": 0.17,
+   "chg5": 19.38,
+   "sma20": 66737.65,
+   "sma50": 65143.92,
+   "sma200": 69091.38,
    "high3m": 78335.19,
-   "reg": 76814.26,
+   "reg": 77217.49,
    "pre": null,
    "post": null,
-   "regClose": 76814.26,
+   "regClose": 77217.49,
    "sess": "reg",
-   "mt": 1787483490,
+   "mt": 1787484093,
    "ok": true
   },
   "USO": {
@@ -1059,12 +1059,12 @@
   },
   "CL=F": {
    "price": 87.06,
-   "chg": -0.88,
-   "chg5": 5.66,
-   "sma20": 82.19,
-   "sma50": 79.09,
-   "sma200": 87.7,
-   "high3m": 96.6,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 87.06,
+   "sma50": 87.06,
+   "sma200": 87.06,
+   "high3m": 87.06,
    "reg": 87.06,
    "pre": null,
    "post": null,
@@ -1207,23 +1207,31 @@
     "geo": false
    },
    {
-    "title": "Jensen Huang Makes Low-Key Taiwan Arrival Ahead of Nvidia Earnings; Reportedly Meets TSMC to Lock Down AI Capacity - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuTTdZaWphdnQ3VFlpZVNSN2FkaEtQSm1VZkRnSkZjM3NsSElDcUszX2Rhbm1kb3JlcnNwMjNtUm1EVy1XUHhnV0h2dDB5VllqYnBJdm94cWxFbk9jakRTQ3JCWWZzV2NMSHlJajlHMk10OGZiWWc?oc=5",
-    "pub": "Sun, 23 Aug 2026 08:25:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SpaceXAI launches Grok Bot, an always-on AI agent - Mashable",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX2toOENHZFFMdDVHanF2ZGdGdFp5R25KUFNUeEhwZ0hoVUtiUXBKWFQxMEhaaGxoQjd0VEQ2eDY0Sng0SGkzUDdmakMxYm84eGZsdVJFU3lYUXBhbndn?oc=5",
     "pub": "Sun, 23 Aug 2026 07:51:03 GMT",
     "src": "Mashable",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "NVIDIA Raises AI Server Prices by Over 15% Amid Memory Shortage... What Lies Ahead for Samsung and SK Hynix? - news.sbs.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wcnZCZjNwUy1IUzlCZVdyTWpQNFlqQlY2dnJPWVQ5cFZlelI0VFcyNHJwQmU5aDE4MnRwaXJndy15YVJGTnpFVE9WQVEzRE5FQ2NSbnZjbEZ1ZlVseHF2SWhxYjVvQdIBZkFVX3lxTE5wcnZCZjNwUy1IUzlCZVdyTWpQNFlqQlY2dnJPWVQ5cFZlelI0VFcyNHJwQmU5aDE4MnRwaXJndy15YVJGTnpFVE9WQVEzRE5FQ2NSbnZjbEZ1ZlVseHF2SWhxYjVvQQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 07:41:00 GMT",
+    "src": "news.sbs.co.kr",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Sinopec's half-year profit grew 19.3pc on year despite Iran war, falling demand - The Standard (HK)",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPbTBDZzBPTzlpTW0zeFc3b2xjdW1qUmt5anEyUC12V1g2c1BGNWx5aHdzNVc2ZWZzMXhzdnBPdVNhSGl4Q0NuQXptTmFVbGVJUDVYMkw5Y2dTc1VJU1ZzbjF0bVVtTnNjZmhmVTRQRDBQbkNyUno1TzdIX3RoWU8xYkt5UXNLdzNsZ3V0Y1RRM25mZ1lTNldUUXNCSmU3S0x4R2FnX0drRUNvTWc1UWs4WTYxaUstaGYxcGMxVW1Pa3kyaGMwZl9uS0pB?oc=5",
+    "pub": "Sun, 23 Aug 2026 11:03:08 GMT",
+    "src": "The Standard (HK)",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Chinese oil refiner Sinopec’s half-year profit grows 19.3% despite Iran war, falling demand - The Straits Times",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObnowRHl2NXhtUm1JT180Zm1ZeWdmTnpCUzVaVnBvNUZBcF9VOTdyMXMwYlZTWGllSV9tbmNjVjFva1B3akRZMVUxekZMQS1GeGNDWE8wM1M0RlVKTDV1SjZMN25SVC1HZUFHQnZ6SUpURmN5SDYyUU94R0hnWHZ1U1hSV2NHQUhjN0VBLVlyMGhDby1VaU5aeVVzb3VIZEJqVDVtX3B3NFVpTUM5c1dFNTkwLUtKZWZMX2h2QzBrUmJJRmNa?oc=5",
@@ -1249,14 +1257,6 @@
     "geo": false
    },
    {
-    "title": "US-Iran war: Crude oil price is key | Is Tehran writing the obituary of Turkey-Pakistan-Saudi Arabia's defence pact? - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb2x5UV9hc3FNMmV6TlI4eTAybURUUWRIc3NoMlB4d2dnVnZaUjF1bUcwUGZBUmFsSzFwUXpsQ3RzbVQxSDUtbVlFMW1va0VWbWhaMkktdnJpNmlVcXNMUHJ5MFV5djVZS3pPSnk1SFFmb0VoTjFrVjk1Vlk4WUpJNjgxYmpEQ3FJcXl6UThIN3NzTk8wMUxaRjhKbU1OVzdUcjB6WklRekxUdl9YRUhlX3k3ek55Tk16NC03SUxDQkd1bXRJWjcweVVTUTVyalFFMHR3MFhWT3pfWDMwRFlMTWY4ZFdGaWRNVVVOTDNaTHlSV281anNWUjdGSk9uYXRvcUVESjlR0gGLAkFVX3lxTE4tcm8xcVhzTVlKN2hUN19aTzBKaGFSbkc4NENnTlpzb3FnWFFYZkM5a3J3aWR0NGlWNm5BOV8zRm9IZGNqRDg1dDRKRTRYR2NmSmtzeWlyNE83T0lNSWk0U255U3JkQjE1Y3dmWkhPd2VjWE5seHZYVzcyekgyY1hHcVVOcFdjNnRUdXVTejNNc0ZyMFpUMWYtSWFGQ1NSUUxvek9HUmdSQXlNdWhhWkdxS2RFcVNjc2Z4QTB6SjFuekQ5M004OFNJR0dYTGdieUI4NEI3U0dTLWM2aVhjYnR4NHJUdUVINTkteXhUOWI2OUFDMkZiOW9ZZi1ZWXJoSGEybHZGMFIzVUpDYw?oc=5",
-    "pub": "Sun, 23 Aug 2026 06:04:03 GMT",
-    "src": "livemint.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "\"Despite War and Soaring Oil Prices, the Industry Endured\"... Securities Revisit 'LCCs' [Weekend Money] - 아시아경제",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IOHJyVngzQUFEeGFEMk96S09nQVU3RExLMEpoWmF4aGM4b01ydGE0ejJLM0FBamZfRUdTME8xNEc1Ni1iMDY4UnlOZ2J0YTNXVVFDTlU0ZmpsZ2VSajFfREVxYmU?oc=5",
     "pub": "Sun, 23 Aug 2026 02:18:00 GMT",
@@ -1274,6 +1274,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
+    "pub": "Sun, 23 Aug 2026 09:45:48 GMT",
+    "src": "Univest",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Japanese investors net buy over 5T yen in foreign assets - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY25INk9NY0VCeVBURlhhdHpBdjczRU9oeHM5LTJxakpDTnJqZTczSDBfODZYQjFXTWxuUVVYc3FOTDd4V2NQZnN6UkpxRXZMU2VEQWpuYTB1LS1wVlJhWi1nUlpUdWVFQkp5aU5ZUFRGdG9fSi11NEFEdTN1Mmdyb3pGS3N6bWpjcG9CMA?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWt0ZVFkcTI4XzlTdlNlNG14ejljUGdTTjlzQVNlODd0THVrWmtFRnR0ampKdnlHRG9EVXdkVDBETTJRSlRqR05QeGNsNWpGbG52SEZmRW9KYVZpN2h0S25DQUVIcWM4ZkE4TjFEVWN2Y3IzbnhpVXFyZFV1aWZiSEd1cW1uMk1jYzJlMnYwZnJ6emF2UWlYZmFqUnc?oc=5",
     "pub": "Sun, 23 Aug 2026 05:12:31 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
-    "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
-    "src": "Univest",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    65340.3,
    63482.0,
    64844.89,
-   76820.2
+   77209.84
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T11:11:48+00:00",
+  "checked": "2026-08-23T11:21:54+00:00",
   "openai": {
    "found": false
   },

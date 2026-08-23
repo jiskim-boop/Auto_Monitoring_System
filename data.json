@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T13:21:59+00:00",
+ "updated": "2026-08-23T13:32:17+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77408.49,
-   "chg": 0.42,
-   "chg5": 19.68,
-   "sma20": 66747.2,
-   "sma50": 65147.74,
-   "sma200": 69092.43,
+   "price": 77480.31,
+   "chg": 0.51,
+   "chg5": 19.79,
+   "sma20": 66750.79,
+   "sma50": 65149.18,
+   "sma200": 69092.82,
    "high3m": 78335.19,
-   "reg": 77408.49,
+   "reg": 77480.31,
    "pre": null,
    "post": null,
-   "regClose": 77408.49,
+   "regClose": 77480.31,
    "sess": "reg",
-   "mt": 1787491290,
+   "mt": 1787491904,
    "ok": true
   },
   "USO": {
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "US-Iran war: Crude oil price is key | Is Tehran writing the obituary of Turkey-Pakistan-Saudi Arabia's defence pact? - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb2x5UV9hc3FNMmV6TlI4eTAybURUUWRIc3NoMlB4d2dnVnZaUjF1bUcwUGZBUmFsSzFwUXpsQ3RzbVQxSDUtbVlFMW1va0VWbWhaMkktdnJpNmlVcXNMUHJ5MFV5djVZS3pPSnk1SFFmb0VoTjFrVjk1Vlk4WUpJNjgxYmpEQ3FJcXl6UThIN3NzTk8wMUxaRjhKbU1OVzdUcjB6WklRekxUdl9YRUhlX3k3ek55Tk16NC03SUxDQkd1bXRJWjcweVVTUTVyalFFMHR3MFhWT3pfWDMwRFlMTWY4ZFdGaWRNVVVOTDNaTHlSV281anNWUjdGSk9uYXRvcUVESjlR0gGLAkFVX3lxTE4tcm8xcVhzTVlKN2hUN19aTzBKaGFSbkc4NENnTlpzb3FnWFFYZkM5a3J3aWR0NGlWNm5BOV8zRm9IZGNqRDg1dDRKRTRYR2NmSmtzeWlyNE83T0lNSWk0U255U3JkQjE1Y3dmWkhPd2VjWE5seHZYVzcyekgyY1hHcVVOcFdjNnRUdXVTejNNc0ZyMFpUMWYtSWFGQ1NSUUxvek9HUmdSQXlNdWhhWkdxS2RFcVNjc2Z4QTB6SjFuekQ5M004OFNJR0dYTGdieUI4NEI3U0dTLWM2aVhjYnR4NHJUdUVINTkteXhUOWI2OUFDMkZiOW9ZZi1ZWXJoSGEybHZGMFIzVUpDYw?oc=5",
-    "pub": "Sun, 23 Aug 2026 06:04:03 GMT",
-    "src": "livemint.com",
+    "title": "Bank of Korea's Aug. 27 Rate Decision: Hold Favored, but Hiking Cycle Seen Continuing - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE12WkdJQU9QLUUzVGRtQVN3Nzg0OV92U05BMkd5bUVRS0xJaTVqelVnYmhhU1BvNE1CeDhOb1FKNDE0OTBidVVlVzUwcUgwaTEwcm1haXUzUGVkTDBTZk5CemtzRXBkV3MtcHpCOURyb1JRYkFrOXc?oc=5",
+    "pub": "Sun, 23 Aug 2026 03:55:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    65340.3,
    63482.0,
    64844.89,
-   77434.67
+   77436.41
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T13:21:46+00:00",
+  "checked": "2026-08-23T13:32:02+00:00",
   "openai": {
    "found": false
   },
@@ -2473,7 +2459,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

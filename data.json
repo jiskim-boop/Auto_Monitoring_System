@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T20:02:28+00:00",
+ "updated": "2026-08-23T20:12:03+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77270.97,
+   "price": 77266.32,
    "chg": 0.24,
-   "chg5": 19.47,
-   "sma20": 66740.32,
-   "sma50": 65144.99,
-   "sma200": 69091.67,
+   "chg5": 19.46,
+   "sma20": 66740.09,
+   "sma50": 65144.9,
+   "sma200": 69091.65,
    "high3m": 78335.19,
-   "reg": 77270.97,
+   "reg": 77266.32,
    "pre": null,
    "post": null,
-   "regClose": 77270.97,
+   "regClose": 77266.32,
    "sess": "reg",
-   "mt": 1787515313,
+   "mt": 1787515890,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 158.99,
    "sess": "reg",
-   "mt": 1787515303,
+   "mt": 1787515843,
    "ok": true
   },
   "ES=F": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "I've More Than Tripled My Stake in This Historically Cheap, High-Octane Dividend Stock That's Yielding 13.2% - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTFllZzhseTdidkJvaWxCaWlubk5ha1JtdUFuRWY2YzZKalI3MDZOWWdLTjBaRWVjMDJUeVJFY1gxd1B6eDVnMFZZMTExRnJ5dml3SjRpaHFxTzdUUkNZQW83MDJHY2tZMnl6alJzOEQxanJYOXVnbGRtRmRYbmdJU2dVVlVYQQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 14:36:56 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "PennantPark vs. PennantPark Floating Rate: Which BDC Pays Income Investors Better? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHE5RS1yMUtfSTRKUjZzeUM3MV9RUGY3MzNTR0JfWUxxZVVlVXNsT0JJNnB1bnRhdGVobzFVR05va1VRa0FyOXNEQTRQUUptN1RFOGpRc0NGQTJROFZjRlFnM0d0aXJTcW12MkFUZWpSRFduRjhvNHdzUGtKRlVBVFdNTVVocU5tWWdXUmFNQ3MtN05mNGFoWGluUTN0YlNsZHVERk1IWnJqeEJ3eEZVd3BMX2lyeGpPSmJWaDNkalU?oc=5",
     "pub": "Sun, 23 Aug 2026 14:00:53 GMT",
@@ -1163,14 +1171,6 @@
     "src": "Seeking Alpha",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Great Elm Capital Corp Earnings Call Highlights Resilience - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSHFtMW4yWTJrcm50YTdoNGEzUk1yTkpkWTJFTHFPVjdoY0Y2Y2Z4Ql81RTBBY0NmemdyZ0lHa2NsNUlTVWJMR2RDZjhORjh3Z2VSb0VIYVlSSkpQUVpaNGNFazZraTEyWElLVnl1UVd5WGNnSDB1ODRXSW56ZnpRbXd1ekgwb016UWQ5VUR4T1VGcWhfMjBVTjZjTllPQlI5am13QTc1RWdDdnhEMXJn?oc=5",
-    "pub": "Sun, 23 Aug 2026 00:42:12 GMT",
-    "src": "TipRanks",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1183,18 +1183,18 @@
     "geo": false
    },
    {
-    "title": "Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxPUTVwVXpOYlgtR0p2ZjJnNjRYTk83VGJ5VmRjaHZYcFVCSXQyOTR6Q1p0SllPdTBzZUYtNVNfUTZISFhKQkpxbFpHcllEbzByWHpQUzgwSHpLSFhDTzY2bEktSjduMllvZkpkRkpXNk5yWkI5d3kzZGxOMkxHZFpHUzFyQi1jczYzOGtnbFh6cnAtam5oS1YwOERBSWlWbUoxUWhWeXNpdXdZVDd6cWZPdWZJcXlSRGVwYUVGanJfQk1CSnZfRk1NNmFOZGx4X0F4MGNTUjFEeU8xM3BJSVUyd0hKaEtPMm9EWThxWVdhc1JWMWhsRGEyZ1NFYw?oc=5",
-    "pub": "Sun, 23 Aug 2026 17:42:43 GMT",
-    "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership - KED Global",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYRVBNUHdLcFJxMnJ3cjJ5TVlQNTJlVlNOUm1GLVVURGd4QkU5bWZPamQyTk5XOFp0MS1MVHB5LTFxX3oxMHJKY2FJQVBpSGFpOWthUlIzSHF2ZC0yaHMwY1hfb0VSZ1REb1FuSzByNW4yeUpBcndz?oc=5",
     "pub": "Sun, 23 Aug 2026 17:40:16 GMT",
     "src": "KED Global",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Broadcom vs. Marvell Technology: 1 Critical Metric Decides the Better Custom AI Chip Stock - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMihAJBVV95cUxOYWxNSkd0clJJeXZuWWp1MV9BSmN0TzhqVlBrMXlQVUlacWl5aXUzcFNISXNDVDNZYnFVZWpyekd3VmdRUTdFUjZmazh6cDZpMkFvNnh2dngxUlVmN1daYWtBaTZjNlI2ZzI1WllDSGhGZ09jMFhVSjlpUDc5MHNhWDJFM1VmQlhBdmF5NXdOcFJ2ME5YMFJ6c19FNE5acHpyeWtsV0dSOWhGZFMyRkYtd3FhSTRyNDlnaFJHVk93bVNiUEZUT2hxRWVyVnp4aTBKbW4wVDhBazBsVDVrVnE2T213cUV4eUdhaDVvd3RHbHA1SUJFdWV5Vmh1ZWZkZ0o5RHpxcA?oc=5",
+    "pub": "Sun, 23 Aug 2026 17:32:02 GMT",
+    "src": "The Globe and Mail",
     "trig": false,
     "geo": false
    },
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Price to sales ratio of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZE55SWU5R1g2ZWd5MkFjNFlNbE5WV2xQLV9PQVE5dTJiakppdXNhY0ZEcDdQNlYxamdRT0NhNHQ0MTdvOExUQndSSXhoMXNMS3pCbmg4SGNtRnhIcWJRMlg5VzVTcUo3bS1fblZKSUMtQi1pcWY5QlRKVlVac3RFNjJ3cTNBcWhsOEhqNXdjZWJEWXlPMGZxZQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 11:59:55 GMT",
-    "src": "TradingView",
+    "title": "Gold Price Today in India (August 23): 24K Gold Remains Above ₹1.63 Lakh as Bullion Rally Continues – Check Latest City-Wise Gold Rates Across Delhi, Mumbai, Chennai, Pune, Bangalore & More - The Sunday Guardian",
+    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRNIBzAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRA?oc=5",
+    "pub": "Sun, 23 Aug 2026 10:08:15 GMT",
+    "src": "The Sunday Guardian",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    65340.3,
    63482.0,
    64844.89,
-   77305.34
+   77268.18
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T20:02:12+00:00",
+  "checked": "2026-08-23T20:11:49+00:00",
   "openai": {
    "found": false
   },

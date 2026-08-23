@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T04:52:04+00:00",
+ "updated": "2026-08-23T05:02:25+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76740.29,
-   "chg": -2.04,
-   "chg5": 18.97,
-   "sma20": 66032.66,
-   "sma50": 64854.48,
-   "sma200": 69044.59,
+   "price": 76635.38,
+   "chg": -2.17,
+   "chg5": 18.8,
+   "sma20": 66027.42,
+   "sma50": 64852.38,
+   "sma200": 69044.01,
    "high3m": 78335.19,
-   "reg": 76740.29,
+   "reg": 76635.38,
    "pre": null,
    "post": null,
-   "regClose": 76740.29,
+   "regClose": 76635.38,
    "sess": "reg",
-   "mt": 1787460688,
+   "mt": 1787461311,
    "ok": true
   },
   "USO": {
@@ -1283,14 +1283,6 @@
     "geo": false
    },
    {
-    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Japan’s real problem - The News Pakistan",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
     "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2F5Z1N3Mndja2V0TWJRNjN5eUtMRFB3NW1UVDhlX3hNX3pzUE04aEtYWHZGdmRMdWs2Mmp4N3F3bGZObHN5MFRqc2hGU1kzaVhLLWJmSVVDNmVHUnFGaGMxbGwyZTlkTk9hU0pSNDFxZzVtdUJRSmtGR00wbjNoRDMzUEFSTmRNd2pHX2FESVRxNXNlSFdJUXZkVWprckc1OFhlYkRJY3JqNjFDbkN6NElVX2htSzQyVzJ2cjlkdV9ZSnpIb2pQQ2Vn?oc=5",
     "pub": "Sat, 22 Aug 2026 14:29:39 GMT",
     "src": "InteractiveCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil and Gold Price Outlook: Key Levels and Market Drivers for the Week Ahead - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56VHIwVVhmb3l6TEVfUkszN1V2RkljODdGTC1tZ0FGTkxXNUxZeWxyYnctYXZvT1FJdjBSaXRmNVhrOTA4MHYyRzNHb0V5WW91RlhMUGtMeS1aQzZXVEJaQnZFSV81YWdBQllnaWdPYmp0M2J6bUQ4WVJfSDFkUQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 13:20:10 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   76697.97
+   76630.53
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2231,10 +2217,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-21T05",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-21T06",
     "v": 2.73
    },
@@ -2421,6 +2403,10 @@
    {
     "d": "2026-08-23T04",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-23T05",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2462,18 +2448,20 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T04:51:48+00:00",
+  "checked": "2026-08-23T05:02:12+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

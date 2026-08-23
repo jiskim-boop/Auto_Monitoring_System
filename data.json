@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T11:02:30+00:00",
+ "updated": "2026-08-23T11:12:01+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76811.42,
+   "price": 76814.26,
    "chg": -0.35,
-   "chg5": 18.75,
-   "sma20": 66717.34,
-   "sma50": 65135.8,
-   "sma200": 69089.15,
+   "chg5": 18.76,
+   "sma20": 66717.49,
+   "sma50": 65135.86,
+   "sma200": 69089.16,
    "high3m": 78335.19,
-   "reg": 76811.42,
+   "reg": 76814.26,
    "pre": null,
    "post": null,
-   "regClose": 76811.42,
+   "regClose": 76814.26,
    "sess": "reg",
-   "mt": 1787482915,
+   "mt": 1787483490,
    "ok": true
   },
   "USO": {
@@ -1059,12 +1059,12 @@
   },
   "CL=F": {
    "price": 87.06,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 87.06,
-   "sma50": 87.06,
-   "sma200": 87.06,
-   "high3m": 87.06,
+   "chg": -0.88,
+   "chg5": 5.66,
+   "sma20": 82.19,
+   "sma50": 79.09,
+   "sma200": 87.7,
+   "high3m": 96.6,
    "reg": 87.06,
    "pre": null,
    "post": null,
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "NVIDIA’s Earnings Report Draws Intense Scrutiny: The Rubin Cycle, Rollover Financing, and Forward Market Share - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTNpVEUxWDhoSk5lcFNKTURrcC1OS25Ual9sQnRNX0lyVHRTcHgyeS00enE1MWp1SGRjSHlvVzRLSXNUbmtMd1FtdVg1MjFkUlB6VHRyTXZtekZnSnNrVS1MLXAwUUkzOWd4Y193aFlrTGJDY21NVnY0cFhPcFdpS3A4WkdwWnBRX3Zrd1FlSDI0RGJFdUFiQnNzVWx1SVFXX2JhRFZvdHM?oc=5",
+    "pub": "Sun, 23 Aug 2026 10:56:46 GMT",
+    "src": "Moomoo",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLWhoeGRCdF9ROHlyX0VmVkRGVF9xSUdwZnNNcVFXY3F3WUF5djdpMGJJUzYtR3VQbzIxSGdEc3B3eUpMS1Zkc1BvMnRZUVB1ZHJiSDBBbm1fVnFjQ2NMRTcwaEVlR0lhaWFmUmRndVhQQ1dTSEE?oc=5",
     "pub": "Sun, 23 Aug 2026 08:55:00 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX2toOENHZFFMdDVHanF2ZGdGdFp5R25KUFNUeEhwZ0hoVUtiUXBKWFQxMEhaaGxoQjd0VEQ2eDY0Sng0SGkzUDdmakMxYm84eGZsdVJFU3lYUXBhbndn?oc=5",
     "pub": "Sun, 23 Aug 2026 07:51:03 GMT",
     "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NVIDIA Raises AI Server Prices by Over 15% Amid Memory Shortage... What Lies Ahead for Samsung and SK Hynix? - news.sbs.co.kr",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5wcnZCZjNwUy1IUzlCZVdyTWpQNFlqQlY2dnJPWVQ5cFZlelI0VFcyNHJwQmU5aDE4MnRwaXJndy15YVJGTnpFVE9WQVEzRE5FQ2NSbnZjbEZ1ZlVseHF2SWhxYjVvQdIBZkFVX3lxTE5wcnZCZjNwUy1IUzlCZVdyTWpQNFlqQlY2dnJPWVQ5cFZlelI0VFcyNHJwQmU5aDE4MnRwaXJndy15YVJGTnpFVE9WQVEzRE5FQ2NSbnZjbEZ1ZlVseHF2SWhxYjVvQQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 07:41:00 GMT",
-    "src": "news.sbs.co.kr",
     "trig": false,
     "geo": false
    }
@@ -1275,14 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
-    "pub": "Sun, 23 Aug 2026 09:45:48 GMT",
-    "src": "Univest",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Japanese investors net buy over 5T yen in foreign assets - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY25INk9NY0VCeVBURlhhdHpBdjczRU9oeHM5LTJxakpDTnJqZTczSDBfODZYQjFXTWxuUVVYc3FOTDd4V2NQZnN6UkpxRXZMU2VEQWpuYTB1LS1wVlJhWi1nUlpUdWVFQkp5aU5ZUFRGdG9fSi11NEFEdTN1Mmdyb3pGS3N6bWpjcG9CMA?oc=5",
     "pub": "Sun, 23 Aug 2026 07:19:13 GMT",
@@ -1315,10 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Price to sales forward of Coast Copper Corp – NEO:COCO - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJ6VDRncU9oajFsTURLMUZ4dGtWWkNpWWl2eHNrc3U4R2ZXcFByeGYzMU5nTkhpazZmTVRYZHhhWXNsMlJPd1p0ZUt1WkdpV0V2RWhvRTdnZDNwR01QWllvTGt4TDQwVjgyUTBSUlNsWUJTUXpzQVZWZVBvRjNXMlhQM2EzUzFKTEkyY3ZnQUJwUENZMWNCc3hR?oc=5",
-    "pub": "Sat, 22 Aug 2026 22:46:59 GMT",
+    "title": "Price to book forward of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWt0ZVFkcTI4XzlTdlNlNG14ejljUGdTTjlzQVNlODd0THVrWmtFRnR0ampKdnlHRG9EVXdkVDBETTJRSlRqR05QeGNsNWpGbG52SEZmRW9KYVZpN2h0S25DQUVIcWM4ZkE4TjFEVWN2Y3IzbnhpVXFyZFV1aWZiSEd1cW1uMk1jYzJlMnYwZnJ6emF2UWlYZmFqUnc?oc=5",
+    "pub": "Sun, 23 Aug 2026 05:12:31 GMT",
     "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
+    "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
+    "src": "Univest",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    65340.3,
    63482.0,
    64844.89,
-   76804.93
+   76820.2
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T11:02:14+00:00",
+  "checked": "2026-08-23T11:11:48+00:00",
   "openai": {
    "found": false
   },

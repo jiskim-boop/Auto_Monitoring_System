@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T08:51:57+00:00",
+ "updated": "2026-08-23T09:02:20+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76447.86,
-   "chg": -0.82,
-   "chg5": 18.19,
-   "sma20": 66699.17,
-   "sma50": 65128.53,
-   "sma200": 69087.15,
+   "price": 76525.81,
+   "chg": -0.72,
+   "chg5": 18.31,
+   "sma20": 66703.06,
+   "sma50": 65130.09,
+   "sma200": 69087.58,
    "high3m": 78335.19,
-   "reg": 76447.86,
+   "reg": 76525.81,
    "pre": null,
    "post": null,
-   "regClose": 76447.86,
+   "regClose": 76525.81,
    "sess": "reg",
-   "mt": 1787475084,
+   "mt": 1787475711,
    "ok": true
   },
   "USO": {
@@ -1283,6 +1283,14 @@
     "geo": false
    },
    {
+    "title": "This 'Mineral' Hits Record Highs... How to Invest [Weekend Money] - 아시아경제",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5tRWVUSmszZ01HSWI0UkdwZnNqdWdyMDdYanpWMWtCbGlZNnp6RHJlSjhVdmVwX0RBMExDMTZYZ1FvY2JkclpyY002ME5FdER1OXg2M2RhX0F3ejB3UTFvd25pUHk?oc=5",
+    "pub": "Sun, 23 Aug 2026 07:02:00 GMT",
+    "src": "아시아경제",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Week Ahead: Warsh At Jackson Hole - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5QanRYMmd1eHNmZWFUR0cyRU9sODNCMktsSVZXbTJmb0xEY29Ra3ZlUVptTVI2OEkyYU9Ndms1TDlxdU1OaHVkNVNZQ0d2QThlcG5lSVZybnBtc3U0MzFpdjZMNjFLNEJiVTh3X24xSlRFX3JTRVhUYzlhUVZtdw?oc=5",
     "pub": "Sun, 23 Aug 2026 06:05:00 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
     "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
     "src": "Univest",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    65340.3,
    63482.0,
    64844.89,
-   76447.87
+   76555.21
   ],
   "vixts": null,
   "hyoas": [
@@ -1728,7 +1728,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2216,10 +2217,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-21T09",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-21T10",
     "v": 2.73
    },
@@ -2406,6 +2403,10 @@
    {
     "d": "2026-08-23T08",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-23T09",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2447,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T08:51:40+00:00",
+  "checked": "2026-08-23T09:02:09+00:00",
   "openai": {
    "found": false
   },
@@ -2458,7 +2459,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

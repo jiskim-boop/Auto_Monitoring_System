@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T04:32:15+00:00",
+ "updated": "2026-08-23T04:42:13+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76908.75,
-   "chg": -1.82,
-   "chg5": 19.23,
-   "sma20": 66041.09,
-   "sma50": 64857.85,
-   "sma200": 69045.52,
+   "price": 76866.05,
+   "chg": -1.88,
+   "chg5": 19.16,
+   "sma20": 66038.95,
+   "sma50": 64856.99,
+   "sma200": 69045.28,
    "high3m": 78335.19,
-   "reg": 76908.75,
+   "reg": 76866.05,
    "pre": null,
    "post": null,
-   "regClose": 76908.75,
+   "regClose": 76866.05,
    "sess": "reg",
-   "mt": 1787459503,
+   "mt": 1787460099,
    "ok": true
   },
   "USO": {
@@ -1610,7 +1610,7 @@
    64311.81,
    62763.32,
    64904.69,
-   76889.45
+   76839.31
   ],
   "vixts": null,
   "hyoas": [
@@ -2448,20 +2448,18 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T04:31:58+00:00",
+  "checked": "2026-08-23T04:41:57+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

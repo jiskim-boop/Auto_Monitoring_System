@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T13:41:58+00:00",
+ "updated": "2026-08-23T13:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77520.46,
-   "chg": 0.57,
-   "chg5": 19.85,
-   "sma20": 66752.8,
-   "sma50": 65149.98,
-   "sma200": 69093.04,
+   "price": 77425.86,
+   "chg": 0.44,
+   "chg5": 19.7,
+   "sma20": 66748.07,
+   "sma50": 65148.09,
+   "sma200": 69092.52,
    "high3m": 78335.19,
-   "reg": 77520.46,
+   "reg": 77425.86,
    "pre": null,
    "post": null,
-   "regClose": 77520.46,
+   "regClose": 77425.86,
    "sess": "reg",
-   "mt": 1787492488,
+   "mt": 1787493086,
    "ok": true
   },
   "USO": {
@@ -1199,14 +1199,6 @@
     "geo": false
    },
    {
-    "title": "Anthropic Could Outdo SpaceX With Its IPO. Here's How Much Investors Think It's Worth Right Now and Why. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2NqLWI3X1ZXb1FLSUV0djhIVUZjZnQzcDJoQzRtalhobjY2Sk43Vk9tdGZYbkFfWFpBUi1TUmFvb3ZDV2lUbWctVGItNkFUemEzdWV4b3h4NW9rRnhFY2VEZzdDZ0NoamFIM1Nrck0yLXl6SFd3Nkc0OHhISGJLS3Z0enpLMVd0TVBlR0pIc3A3djh5ZzBVZE1KU3U0QQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:25:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLWhoeGRCdF9ROHlyX0VmVkRGVF9xSUdwZnNNcVFXY3F3WUF5djdpMGJJUzYtR3VQbzIxSGdEc3B3eUpMS1Zkc1BvMnRZUVB1ZHJiSDBBbm1fVnFjQ2NMRTcwaEVlR0lhaWFmUmRndVhQQ1dTSEE?oc=5",
     "pub": "Sun, 23 Aug 2026 08:55:00 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE93Mm1xeFN3MkdqQ080OEljbUJyM3NINTFVY044elpDWDVwVDNHQWZPQjNDWHlodFBxUkJ0NW5jWS1zeUlHb1VSU3NZM1pHeFJUenYtTHhxbnllS01PX0dfVWpZZzNneEdjT1VDSFF5anRmSk1NTkE?oc=5",
     "pub": "Sun, 23 Aug 2026 08:42:03 GMT",
     "src": "Pasquale Pillitteri",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA Raises AI Server Prices 15% Amid Memory Shortage - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
+    "pub": "Sun, 23 Aug 2026 08:34:22 GMT",
+    "src": "조선일보",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    65340.3,
    63482.0,
    64844.89,
-   77515.53
+   77405.34
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T13:41:46+00:00",
+  "checked": "2026-08-23T13:51:45+00:00",
   "openai": {
    "found": false
   },

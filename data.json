@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T12:21:54+00:00",
+ "updated": "2026-08-23T12:32:29+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77096.96,
-   "chg": 0.02,
-   "chg5": 19.2,
-   "sma20": 66731.62,
-   "sma50": 65141.51,
-   "sma200": 69090.72,
+   "price": 77053.42,
+   "chg": -0.04,
+   "chg5": 19.13,
+   "sma20": 66729.44,
+   "sma50": 65140.64,
+   "sma200": 69090.48,
    "high3m": 78335.19,
-   "reg": 77096.96,
+   "reg": 77053.42,
    "pre": null,
    "post": null,
-   "regClose": 77096.96,
+   "regClose": 77053.42,
    "sess": "reg",
-   "mt": 1787487683,
+   "mt": 1787488311,
    "ok": true
   },
   "USO": {
@@ -1059,12 +1059,12 @@
   },
   "CL=F": {
    "price": 87.06,
-   "chg": -0.88,
-   "chg5": 5.66,
-   "sma20": 82.19,
-   "sma50": 79.09,
-   "sma200": 87.7,
-   "high3m": 96.6,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 87.06,
+   "sma50": 87.06,
+   "sma200": 87.06,
+   "high3m": 87.06,
    "reg": 87.06,
    "pre": null,
    "post": null,
@@ -1191,14 +1191,6 @@
     "geo": false
    },
    {
-    "title": "Anthropic Could Outdo SpaceX With Its IPO. Here's How Much Investors Think It's Worth Right Now and Why. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2NqLWI3X1ZXb1FLSUV0djhIVUZjZnQzcDJoQzRtalhobjY2Sk43Vk9tdGZYbkFfWFpBUi1TUmFvb3ZDV2lUbWctVGItNkFUemEzdWV4b3h4NW9rRnhFY2VEZzdDZ0NoamFIM1Nrck0yLXl6SFd3Nkc0OHhISGJLS3Z0enpLMVd0TVBlR0pIc3A3djh5ZzBVZE1KU3U0QQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:25:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nvidia Delivers First 'Vera Rubin' Systems to Microsoft, Notifies Customers of 15% AI Server Price Hike - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5zLWhoeGRCdF9ROHlyX0VmVkRGVF9xSUdwZnNNcVFXY3F3WUF5djdpMGJJUzYtR3VQbzIxSGdEc3B3eUpMS1Zkc1BvMnRZUVB1ZHJiSDBBbm1fVnFjQ2NMRTcwaEVlR0lhaWFmUmRndVhQQ1dTSEE?oc=5",
     "pub": "Sun, 23 Aug 2026 08:55:00 GMT",
@@ -1221,6 +1213,14 @@
     "src": "조선일보",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Jensen Huang Makes Low-Key Taiwan Arrival Ahead of Nvidia Earnings; Reportedly Meets TSMC to Lock Down AI Capacity - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBuTTdZaWphdnQ3VFlpZVNSN2FkaEtQSm1VZkRnSkZjM3NsSElDcUszX2Rhbm1kb3JlcnNwMjNtUm1EVy1XUHhnV0h2dDB5VllqYnBJdm94cWxFbk9jakRTQ3JCWWZzV2NMSHlJajlHMk10OGZiWWc?oc=5",
+    "pub": "Sun, 23 Aug 2026 08:25:00 GMT",
+    "src": "finance.biggo.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1234,17 +1234,9 @@
    },
    {
     "title": "Chinese oil refiner Sinopec’s half-year profit grows 19.3% despite Iran war, falling demand - The Straits Times",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQNzZhNmdOV3YySnNaVGF5b3V5RXFBdkc1ZzZfMEd3aEZVZUxHRERYZjEycjVtLUNySkJ5TmxMWUFhX3ZqMDFXNHFGTVJaQVlzR2ZGN2s4QVQtVHVIUlhJR2VfQWltb20zZk90UjNJanF0ZENmTm9wWWhXdGhFc1NIRFZrQjdOczlFaHdzeXpSaTl2QV9RNGZ1WWlpcHhaVW1WemJkeGxFSlZ3TDBCSTI5N05rX3YtSzJ2aFhLbFBVUlBkNkViLUJSNmwzOWk4TmRodnpn?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObnowRHl2NXhtUm1JT180Zm1ZeWdmTnpCUzVaVnBvNUZBcF9VOTdyMXMwYlZTWGllSV9tbmNjVjFva1B3akRZMVUxekZMQS1GeGNDWE8wM1M0RlVKTDV1SjZMN25SVC1HZUFHQnZ6SUpURmN5SDYyUU94R0hnWHZ1U1hSV2NHQUhjN0VBLVlyMGhDby1VaU5aeVVzb3VIZEJqVDVtX3B3NFVpTUM5c1dFNTkwLUtKZWZMX2h2QzBrUmJJRmNa?oc=5",
     "pub": "Sun, 23 Aug 2026 10:53:00 GMT",
     "src": "The Straits Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Prediction Markets Under Pressure: South Korea’s Polymarket Block Signals Global Crackdown - The Crypto Times",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeXFoU0hCaldIUmtxWWhGcko0TW1oeXRBdUJKM2FQd0p2bkRxZGJIbjNieDJjRnRfazUzRGNjdEhwekhHM3NEanppendNRGNtYzZIS0JfRHI0azFvVHBGMjJ0TjEtcEVxdTVtYzVmMlNySHlRSzdneFRiZDZfNUxPUUMtaDRpaElRYklFX3VDSHE1M1dUaEFwanlmSjJxU0t1NzJieXY5X0RZdw?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:30:00 GMT",
-    "src": "The Crypto Times",
     "trig": false,
     "geo": false
    },
@@ -1265,6 +1257,14 @@
     "geo": false
    },
    {
+    "title": "US-Iran war: Crude oil price is key | Is Tehran writing the obituary of Turkey-Pakistan-Saudi Arabia's defence pact? - livemint.com",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb2x5UV9hc3FNMmV6TlI4eTAybURUUWRIc3NoMlB4d2dnVnZaUjF1bUcwUGZBUmFsSzFwUXpsQ3RzbVQxSDUtbVlFMW1va0VWbWhaMkktdnJpNmlVcXNMUHJ5MFV5djVZS3pPSnk1SFFmb0VoTjFrVjk1Vlk4WUpJNjgxYmpEQ3FJcXl6UThIN3NzTk8wMUxaRjhKbU1OVzdUcjB6WklRekxUdl9YRUhlX3k3ek55Tk16NC03SUxDQkd1bXRJWjcweVVTUTVyalFFMHR3MFhWT3pfWDMwRFlMTWY4ZFdGaWRNVVVOTDNaTHlSV281anNWUjdGSk9uYXRvcUVESjlR0gGLAkFVX3lxTE4tcm8xcVhzTVlKN2hUN19aTzBKaGFSbkc4NENnTlpzb3FnWFFYZkM5a3J3aWR0NGlWNm5BOV8zRm9IZGNqRDg1dDRKRTRYR2NmSmtzeWlyNE83T0lNSWk0U255U3JkQjE1Y3dmWkhPd2VjWE5seHZYVzcyekgyY1hHcVVOcFdjNnRUdXVTejNNc0ZyMFpUMWYtSWFGQ1NSUUxvek9HUmdSQXlNdWhhWkdxS2RFcVNjc2Z4QTB6SjFuekQ5M004OFNJR0dYTGdieUI4NEI3U0dTLWM2aVhjYnR4NHJUdUVINTkteXhUOWI2OUFDMkZiOW9ZZi1ZWXJoSGEybHZGMFIzVUpDYw?oc=5",
+    "pub": "Sun, 23 Aug 2026 06:04:03 GMT",
+    "src": "livemint.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "\"Despite War and Soaring Oil Prices, the Industry Endured\"... Securities Revisit 'LCCs' [Weekend Money] - 아시아경제",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IOHJyVngzQUFEeGFEMk96S09nQVU3RExLMEpoWmF4aGM4b01ydGE0ejJLM0FBamZfRUdTME8xNEc1Ni1iMDY4UnlOZ2J0YTNXVVFDTlU0ZmpsZ2VSajFfREVxYmU?oc=5",
     "pub": "Sun, 23 Aug 2026 02:18:00 GMT",
@@ -1275,10 +1275,10 @@
   ],
   "flow": [
    {
-    "title": "Gold Price Today in India (August 23): 24K Gold Remains Above ₹1.63 Lakh as Bullion Rally Continues – Check Latest City-Wise Gold Rates Across Delhi, Mumbai, Chennai, Pune, Bangalore & More - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRNIBzAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRA?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:08:15 GMT",
-    "src": "The Sunday Guardian",
+    "title": "US Treasury bond intervention struggles as yields rebound - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMW1FY3dhbzZJT21hdHFld1dkbkhidExHZjRYeE5WUURoSDJnOVRyRldhZUtNN0tFc25JRTl3Y3JCaG9Ec3hyX2JSSnJpaUwxbDdLVzN6aVMzalJtY284OXpBdzdkWGtMdTZKQ2EybVdxUG9PMjBwWFlMdUh3TmVNSG5PdWJVRVhEdUp5X3hn?oc=5",
+    "pub": "Sun, 23 Aug 2026 12:12:13 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1610,23 +1610,9 @@
    65340.3,
    63482.0,
    64844.89,
-   77087.61
+   77059.98
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T12:21:42+00:00",
+  "checked": "2026-08-23T12:32:13+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T08:02:28+00:00",
+ "updated": "2026-08-23T08:11:56+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75945.3,
-   "chg": -1.48,
-   "chg5": 17.42,
-   "sma20": 66674.04,
-   "sma50": 65118.48,
-   "sma200": 69084.39,
+   "price": 76189.91,
+   "chg": -1.16,
+   "chg5": 17.79,
+   "sma20": 66686.27,
+   "sma50": 65123.37,
+   "sma200": 69085.73,
    "high3m": 78335.19,
-   "reg": 75945.3,
+   "reg": 76189.91,
    "pre": null,
    "post": null,
-   "regClose": 75945.3,
+   "regClose": 76189.91,
    "sess": "reg",
-   "mt": 1787472117,
+   "mt": 1787472688,
    "ok": true
   },
   "USO": {
@@ -1215,20 +1215,28 @@
     "geo": false
    },
    {
-    "title": "\"AI Boom Bill Is Coming\": Nvidia AI Server Prices to Rise More Than 15% - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsU0ZERWgxQjBIM2QySWJ5QzNBREx3Z29wdFNxN1lqUmV6QlhUWVJVVFk4aTJDTVUwdkltY0p4R0pRMi1DQ2hadmhyeTlYV0dyZW1RRA?oc=5",
-    "pub": "Sun, 23 Aug 2026 04:44:40 GMT",
-    "src": "bloomingbit",
+    "title": "Even Nvidia can't absorb memory costs — AI server prices to rise more than 15% - 헤럴드경제",
+    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4yTU13Y3RHV1hmcWV1RzFCdEI0d0NfQUlTc3lDRGJ3LVhsRjNobFhkbjhzQkFCRDV0dTBseFdTekNpTEl1YjdZYzVkV1MtYzRkOXk0bUU5UQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 04:45:24 GMT",
+    "src": "헤럴드경제",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
-    "title": "The Expected Shock from the US-Iran War Wasn't as Severe... This Industry Outperformed Expectations [Weekend Money] - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5IOHJyVngzQUFEeGFEMk96S09nQVU3RExLMEpoWmF4aGM4b01ydGE0ejJLM0FBamZfRUdTME8xNEc1Ni1iMDY4UnlOZ2J0YTNXVVFDTlU0ZmpsZ2VSajFfREVxYmU?oc=5",
-    "pub": "Sun, 23 Aug 2026 02:18:00 GMT",
-    "src": "아시아경제",
+    "title": "Back From The Dead - Is The FOMC Meeting LIVE For A Rate Hike? | Daily Market Update, July 28 2026 St. Louis Vs Colorado (r1D7GKCd2Q) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JdFZHVWtqSmZxSExJV0hnMzRkX0VRMlhya0V4eVhlbTNjY0cxcmNIS2dmZmdqVWRIamFxN3hYenh5TXhGRWdOaVlmemFoaElJaDFpbHp0MW5iMDg?oc=5",
+    "pub": "Sun, 23 Aug 2026 06:33:24 GMT",
+    "src": "Mshale",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US-Iran war: Crude oil price is key | Is Tehran writing the obituary of Turkey-Pakistan-Saudi Arabia's defence pact? - livemint.com",
+    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb2x5UV9hc3FNMmV6TlI4eTAybURUUWRIc3NoMlB4d2dnVnZaUjF1bUcwUGZBUmFsSzFwUXpsQ3RzbVQxSDUtbVlFMW1va0VWbWhaMkktdnJpNmlVcXNMUHJ5MFV5djVZS3pPSnk1SFFmb0VoTjFrVjk1Vlk4WUpJNjgxYmpEQ3FJcXl6UThIN3NzTk8wMUxaRjhKbU1OVzdUcjB6WklRekxUdl9YRUhlX3k3ek55Tk16NC03SUxDQkd1bXRJWjcweVVTUTVyalFFMHR3MFhWT3pfWDMwRFlMTWY4ZFdGaWRNVVVOTDNaTHlSV281anNWUjdGSk9uYXRvcUVESjlR0gGLAkFVX3lxTE4tcm8xcVhzTVlKN2hUN19aTzBKaGFSbkc4NENnTlpzb3FnWFFYZkM5a3J3aWR0NGlWNm5BOV8zRm9IZGNqRDg1dDRKRTRYR2NmSmtzeWlyNE83T0lNSWk0U255U3JkQjE1Y3dmWkhPd2VjWE5seHZYVzcyekgyY1hHcVVOcFdjNnRUdXVTejNNc0ZyMFpUMWYtSWFGQ1NSUUxvek9HUmdSQXlNdWhhWkdxS2RFcVNjc2Z4QTB6SjFuekQ5M004OFNJR0dYTGdieUI4NEI3U0dTLWM2aVhjYnR4NHJUdUVINTkteXhUOWI2OUFDMkZiOW9ZZi1ZWXJoSGEybHZGMFIzVUpDYw?oc=5",
+    "pub": "Sun, 23 Aug 2026 06:04:03 GMT",
+    "src": "livemint.com",
     "trig": false,
     "geo": false
    },
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHN4YjNoTm80WjBfczhJX242cjZfOUFkc2pNQ241M01EMTNtdm5KRDR6T3k4WURkTWZrcy1IWDVBNTZkMFppdlVvUnhjNWtMc21faVFTajdwS29lVHBsZmVkTWhjSnk2QjhGVTV1UlRDaGQyQ3BTS3lESTRmOFFKWVUxNzNhUFhnT0MzeXRSR0kzQ1U1c0xpclBjemVpaXN1UkFNdTVSQXQ?oc=5",
     "pub": "Sat, 22 Aug 2026 16:00:17 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
-    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
-    "src": "Moneycontrol.com",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
-    "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
-    "src": "Univest",
+    "title": "Price to book forward of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPaWt0ZVFkcTI4XzlTdlNlNG14ejljUGdTTjlzQVNlODd0THVrWmtFRnR0ampKdnlHRG9EVXdkVDBETTJRSlRqR05QeGNsNWpGbG52SEZmRW9KYVZpN2h0S25DQUVIcWM4ZkE4TjFEVWN2Y3IzbnhpVXFyZFV1aWZiSEd1cW1uMk1jYzJlMnYwZnJ6emF2UWlYZmFqUnc?oc=5",
+    "pub": "Sun, 23 Aug 2026 05:12:31 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Japan’s real problem - The News Pakistan",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
-    "src": "The News Pakistan",
+    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
+    "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
+    "src": "Univest",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    65340.3,
    63482.0,
    64844.89,
-   75960.7
+   76207.54
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T08:02:14+00:00",
+  "checked": "2026-08-23T08:11:44+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T14:11:59+00:00",
+ "updated": "2026-08-23T14:22:11+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77496.99,
-   "chg": 0.54,
-   "chg5": 19.81,
-   "sma20": 66751.62,
-   "sma50": 65149.51,
-   "sma200": 69092.92,
+   "price": 77479.16,
+   "chg": 0.51,
+   "chg5": 19.79,
+   "sma20": 66750.73,
+   "sma50": 65149.16,
+   "sma200": 69092.82,
    "high3m": 78335.19,
-   "reg": 77496.99,
+   "reg": 77479.16,
    "pre": null,
    "post": null,
-   "regClose": 77496.99,
+   "regClose": 77479.16,
    "sess": "reg",
-   "mt": 1787494289,
+   "mt": 1787494895,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYm5jakF6bVZpaEliMHN4dE5vVW1lU2NTQmRNV0RSeTllanZER1hkVUVaNmNON0pYVUYzOU14bTUzbkJseXBTWFBBNWVyU0NQbmxVcjhtU1piLXQtQ19sWFNubUkyaGhVdHNrNjFNQzRlNUtVOFRGUWh2ZFBsSU8zdnNmOGVuaTVzREE1ajlJejZnalZwRGxhbg?oc=5",
+    "pub": "Sun, 23 Aug 2026 14:18:55 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "HSBC: Two Hidden Nvidia Narratives Emerge — Open-Source Models and Supply Chain Lockups as Re-Rating Catalysts - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tWUIzMzdMdnlRTDJuZlNFdi0xUjluRk9VTWd1dVpyaEk2UVZ3Q3hydEtGeWtkU0dLV1doU3I4VTQzMjNDcFJoX1puVUhkZ092MkhCaVUtNjdpa29EVzhIS0J1emZKMjE3M3ZvcVBrOGJKTTFkN0E?oc=5",
     "pub": "Sun, 23 Aug 2026 13:30:35 GMT",
@@ -1203,14 +1211,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQYTNpVEUxWDhoSk5lcFNKTURrcC1OS25Ual9sQnRNX0lyVHRTcHgyeS00enE1MWp1SGRjSHlvVzRLSXNUbmtMd1FtdVg1MjFkUlB6VHRyTXZtekZnSnNrVS1MLXAwUUkzOWd4Y193aFlrTGJDY21NVnY0cFhPcFdpS3A4WkdwWnBRX3Zrd1FlSDI0RGJFdUFiQnNzVWx1SVFXX2JhRFZvdHM?oc=5",
     "pub": "Sun, 23 Aug 2026 10:56:46 GMT",
     "src": "Moomoo",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Could Outdo SpaceX With Its IPO. Here's How Much Investors Think It's Worth Right Now and Why. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT2NqLWI3X1ZXb1FLSUV0djhIVUZjZnQzcDJoQzRtalhobjY2Sk43Vk9tdGZYbkFfWFpBUi1TUmFvb3ZDV2lUbWctVGItNkFUemEzdWV4b3h4NW9rRnhFY2VEZzdDZ0NoamFIM1Nrck0yLXl6SFd3Nkc0OHhISGJLS3Z0enpLMVd0TVBlR0pIc3A3djh5ZzBVZE1KU3U0QQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:25:00 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    65340.3,
    63482.0,
    64844.89,
-   77503.97
+   77490.91
   ],
   "vixts": null,
   "hyoas": [
@@ -2448,14 +2448,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T14:11:47+00:00",
+  "checked": "2026-08-23T14:21:58+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

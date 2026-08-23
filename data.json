@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T07:02:35+00:00",
+ "updated": "2026-08-23T07:11:57+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76097.77,
-   "chg": -2.86,
-   "chg5": 17.97,
-   "sma20": 66000.54,
-   "sma50": 64841.63,
-   "sma200": 69041.04,
+   "price": 76247.2,
+   "chg": -2.67,
+   "chg5": 18.2,
+   "sma20": 66008.01,
+   "sma50": 64844.62,
+   "sma200": 69041.86,
    "high3m": 78335.19,
-   "reg": 76097.77,
+   "reg": 76247.2,
    "pre": null,
    "post": null,
-   "regClose": 76097.77,
+   "regClose": 76247.2,
    "sess": "reg",
-   "mt": 1787468525,
+   "mt": 1787469081,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLXNfa0lwS28wQm5VcDl5ZUd0ZmpZVWo1M3ZFRVpVbUViZW1NaV9VR1pUZU9EOEg3RWNzQVY1UTduVEFZNUVKS0JQWF9DWmdpZERJRHB6STdNRm1FU1FaSDlPVjlTTURjZ3JSYW9YVDgyRTBBcTZtN2hJY0F4UklYLWd2LU01bDF1emxFNw?oc=5",
+    "pub": "Sun, 23 Aug 2026 07:00:00 GMT",
+    "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Indias private credit market set for stronger growth as insolvency reforms reshape lending strategies: Report - The Tribune",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHoyVnFONHdZMTRnNDNHRVp1Uk5lS2tZcG9yZ1I2VHZ0Nmc0aFlxcXliMHhaNFJFdjNmWjJjY3ppQ2J4VFJ4UGhvMFp0RGxJakV1cUxjMHVLVThvcHJPQ21HdHdjelJIMVJpZldMd0JHUlJmbThGTTZ6U2F2cEtsY2RhcGJ0VVI5M1ltcWVuWGNKdzVacG5HYV9qSERhdld4OExVbHZndzNja0E2M3JjcG5qMW8xMy1EOWwxeVVkTFpicHhWZUoweGZfcTNjVVdwTjNPLXN3R1Rjc0VqWUNUY1VfOVdYQ0HSAesBQVVfeXFMTkhNb2UxVXJ6VVhtRlF1SEhHLWY1WkNWajQ1VnJnbXJoVC01cUtHcXVOSHQxem5SeWsyVmlKdEFRaXRNaERSQXRHUk1VcC1HVXJNWjdLWjJqWG9ySlJaMlRLOWktZVJhd2dCMTJEemRDNXJ3dkNyRjM3eGxVdHp4TDM0WEVCeHNocy1VeUJNMm1tMllWUFM4LUFpXzJrNG1vNjVFSENXWHRGMk5FUjQ2S0xDX0ppOGdtY0YxcFNUSmN3a3MtVDI4Ti1oRmdCWWdjQzVacU90QXhFUDFDWm8zd0FfZ0dnQ2N5aEs4Zw?oc=5",
     "pub": "Sun, 23 Aug 2026 05:03:13 GMT",
@@ -1163,14 +1171,6 @@
     "src": "TradingKey",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Morgan Stanley Direct Lending Fund: The Dividend Is Likely To Get Slashed (NYSE:MSDL) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOV0ZINHBIVWx1bF92Vm1IOC1vR2V0VWNBbUFMbHBpTHZKR2otUWR1YUtocHJadlpCZUZoR3lLc1R2bjRnQXRsSVNOYkZPUWk4a2pHcTJZRGxqaVJGaGNmdEJsWnJhYzNxMUFTYUF1ZHVsMjUtSk9CQlJBdlYwbTRMYWRVRGtxVGNpeDVSQnU1eFB2X1JUUUJCNllXY3FIdzFYRjJpd2RBU3ZHaGxEM2RSdDRfb1I2SW12VlJBUFhvLXRlT2ZWVGJoWkxxREI2dXdGc0JzMlJfQjVWODZLcnN0Y0F2LWM1Q281ck1NS2Nn?oc=5",
-    "pub": "Sat, 22 Aug 2026 13:15:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1179,6 +1179,14 @@
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9icVRMd3dSeFhQTWpObmNESTFpUlhLUjdiY3E1eW9YZlE1ZktBRDctX04tMkRjQ2FjTVFUS3ZRRUZRdFA2UjhkbEQ1R0RIUU5vVGhsZ3hWRktLeC14NWplbVFoeXZpQXdR?oc=5",
     "pub": "Sun, 23 Aug 2026 06:38:00 GMT",
     "src": "calcalistech.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceXAI launches Grok Bot, an always-on AI agent - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX2toOENHZFFMdDVHanF2ZGdGdFp5R25KUFNUeEhwZ0hoVUtiUXBKWFQxMEhaaGxoQjd0VEQ2eDY0Sng0SGkzUDdmakMxYm84eGZsdVJFU3lYUXBhbndn?oc=5",
+    "pub": "Sun, 23 Aug 2026 06:00:36 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
     "pub": "Sun, 23 Aug 2026 04:56:52 GMT",
     "src": "조선일보",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Even Nvidia can't absorb memory costs — AI server prices to rise more than 15% - 헤럴드경제",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE4yTU13Y3RHV1hmcWV1RzFCdEI0d0NfQUlTc3lDRGJ3LVhsRjNobFhkbjhzQkFCRDV0dTBseFdTekNpTEl1YjdZYzVkV1MtYzRkOXk0bUU5UQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 04:45:24 GMT",
-    "src": "헤럴드경제",
     "trig": false,
     "geo": false
    }
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Fairmint CEO warns tokenized stocks risk market fragmentation - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjRNcEZZWVNfOExxMlF1di1WYTJnNlZNY3dzaE5IM3ZIcm9tcGl5akNuYXNJUXlNaERacVN3MEVTdmNJMWtraHNlVzJLV0Q2M1F1X3ZIRGEzOU9CNmJZUDV5VXplWWN5N0ZxZmNxTERmcEV5MUxBdWJPZGVKZHhaN2dPY0hPbWhxX09CUDczc2k3RGxwWjhfd0tLWHJHVGRX?oc=5",
-    "pub": "Sat, 22 Aug 2026 15:34:54 GMT",
-    "src": "CryptoRank",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
     "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
     "src": "Moneycontrol.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNelVkSEw0UXFVYzlBRGxPZVBDWjY1OGVPZ0x5cnBuOXhIOUJMcWpjdXZSM01kdnJFLTRKS2ZnZWUtQjJJbzJocXk0cDhhZi03bjJSNjRaWnJHd3ZfbVc3Wko4enBkQVRwMkVvTHRuT01ta093MUh5UEpOaU1vWWQwTnByMWdvLWpISjJIdDN3ZFZLcTlFR0E?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:06:00 GMT",
+    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Japan’s real problem - The News Pakistan",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
     "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
     "src": "The News Pakistan",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold's Milestone Break: When Washington's Debt Management Becomes Bullion's Tailwind - Ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPOWdhRUFONFEtY1k0NVJGLUEtT1lfOVdMU1FaZHhjTUIyQkZTaXY5SEJlS25IRnAyaVRBSWcyN2dRRDJVUlhoTjRFdnoxUW1rM1o3R1VyV2hHdWtxLWxMTXJVaVMxdkp5cFFiSEhxVWs1Q0psY3d6eVNaQlBhbFg4UnRVM0ZoQzd2NDBtd3dEZkFNSHpqWXQ0MkdteFFPNE5iZmphYld2ZlRNN2w5RDJXWndCeHV5QWRHOVpzSUhCbjhwVEQ3Ynl4dTh2Zm9ybG9UWXc?oc=5",
+    "pub": "Sat, 22 Aug 2026 17:11:23 GMT",
+    "src": "Ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   76081.48
+   76230.11
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2462,12 +2448,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T07:02:22+00:00",
+  "checked": "2026-08-23T07:11:43+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

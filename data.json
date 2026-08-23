@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T02:42:06+00:00",
+ "updated": "2026-08-23T02:52:22+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77185.48,
-   "chg": -1.47,
-   "chg5": 19.66,
-   "sma20": 66054.92,
-   "sma50": 64863.38,
-   "sma200": 69047.05,
+   "price": 77199.99,
+   "chg": -1.45,
+   "chg5": 19.68,
+   "sma20": 66055.65,
+   "sma50": 64863.67,
+   "sma200": 69047.13,
    "high3m": 78335.19,
-   "reg": 77185.48,
+   "reg": 77199.99,
    "pre": null,
    "post": null,
-   "regClose": 77185.48,
+   "regClose": 77199.99,
    "sess": "reg",
-   "mt": 1787452892,
+   "mt": 1787453361,
    "ok": true
   },
   "USO": {
@@ -1191,6 +1191,14 @@
     "geo": false
    },
    {
+    "title": "Prediction: Microsoft’s AI Boom Is Bigger Than Investors Realize - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxON3FndHdLTHAzUGhoX096Skl3X3gwRzJRdGZHYldoMkx6cFFzSDRxOTNjZGNFZlFJY2djSGo3SU5YQXJzaGQxWDg0eGJKMWJLSHdYT3l0NXNvMC0wNXM1TFFWVWVOekpycTN6dlVrT2szTHFVeXkzRXpwQV9zd3NLeWV0R0JkUQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 00:48:10 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nvidia Warns Hyperscalers Its AI Server Prices Are Jumping More Than 15% - Startup Fortune",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNMVVZZVRlMFhUNERjdVhsVzBHVjdQb0x1eUtWY3ZNRTFLbTF1bkFrTWx1SkhhTlVzX2J1ck54SjUwejBOMU5FQ0JuWFdlemxYV3pMcG9PYW1CY3M1ekFMdmRNMzJEc21tOXRoczZDeHB2NGNNMFdCWWdfa2lHbkc1cmRXT3hKYXd4bWRKZk1ZSjc1a0JkYVdtd3dkT0YweExN?oc=5",
     "pub": "Sat, 22 Aug 2026 19:44:51 GMT",
@@ -1213,14 +1221,6 @@
     "src": "AzerNews",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "AI's Absurd Spending Boom? Hyperscalers Are Spending 102% of Cloud Revenue on Capex - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOYzNEZWx5U0l4Y1pCTm10eUJLWnpZWVVvMzNfaF96TVhMYTBBbTFWbzBlOC1oWGtSSDhqMnNrOUpLbDRKclhjQkRwblBfNWNuRmpoS1dOR3pEdXY4SGpfcjZMSTMtUkFBbWxTWXN2ZzNlRi1sYkNNSWVJdHVCdlkwMTJ1ejFSMzJXem1QNERtb05zYmktYml1S1hhMXZfMXhTZUhrQkdmd2c5dWwza0M3cnl1NkxGeXpXVWd5OEs1X1R5Zw?oc=5",
-    "pub": "Sat, 22 Aug 2026 16:27:09 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1237,14 +1237,6 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA1d2VybFpVODNyUUhPY3V3bmF2WlBfY0dhZlRfQ1kzZFVYNzhxQnJWUTJNRmp2X3JWNEZkSUJKVjlKWDVERGFnWHplRS1mYS1wOE1wNVJ0Z2M3U0dIdG1FdXNGSUg0dHljUEJ4LVlZNnNPNEFJYnNwLU45R2k?oc=5",
     "pub": "Sat, 22 Aug 2026 19:09:32 GMT",
     "src": "Buttondown",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "From broken promises to open war: The contradictions of Trump’s Iran policy - Tehran Times",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbV9IR3J3c0MyYmtsM2ZMX3MzQU5yMTlQTmVLdG1Xb1RraHRPQkZrMlBzY0kzYnpPX1ctMWRNc1ZsbXRiUzRiSkNiVE5aM2FDNkNxLUlLcHF3RzAtOXktZG02QjZZNzlQTzliVjVSVFVfaUlJLXpXYWczdFYxQkJjR2hGR0R3OHFGLXVJNHdGcm5paUpjenpRczdYM0dZblFOTnI3Ug?oc=5",
-    "pub": "Sat, 22 Aug 2026 18:59:26 GMT",
-    "src": "Tehran Times",
     "trig": false,
     "geo": false
    },
@@ -1271,9 +1263,25 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
+    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
+    "src": "Moneycontrol.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Japan’s real problem - The News Pakistan",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
+    "src": "The News Pakistan",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Personal Finance: Oil prices are high. But why aren’t they higher? - Chattanooga Times Free Press",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcjhsUGZBMTZMdW4xRXVGS2VZN1ROYzQ3NE9vYjRrMlFVNnM4T1Q3VlZTMktBVU9SUDlQUzlCcy1ZR0ZvYXF6SkxBeUd1Y05NU2owRFdmR1JqaUh4OE1ZcnoxQ0htNHJYTzJSOEwzeldONDZZUWhHOE5rUkVBZm5GT2hsYnhvQkJSa2N1UmJjTk04UUxXdDBBVg?oc=5",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOcmxVNEwxdlhWV2s4c0otUGZySHIzMTk3dlNDQmZyMUd3VXBCZ2c5blQ5MTJlYkVYbkt2UEx1djMwaVNEV3dNa1lQTGxPRkdSZ1l0OW50bElTZGQ4SXJmMENndEg3WlUxaGh0azZzM2tPeXVjN1dfeF9JWUZwMXJRWlhkWjBlVmZZSllLZ1J4dndPLUFXb2JrTEZTY1c4c3luYVVhTS0yWGt3R09uaUNOR0ZuWDJhY1dHNWJjVQ?oc=5",
     "pub": "Sat, 22 Aug 2026 13:08:00 GMT",
     "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Copper Prices Approach Record Highs as AI Data Centers and Supply Tightness Converge: Which US Copper Stocks Are Worth Watching? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN1BzVVB1QVpXanRkYU43VDBkMUtHYlRiRzZiRGJrTzQ3RlBMdkwyaGgyLXZoUE45Sk44VldsZzB1TEd5LWwxRE1vZG5XY185aUIzMkc3Ni05eUwtNGlWcGx4MDBLWHd2Vy1ZNUdoTG5jRVJCN01pejFmMWhoczFwTkdualNzVHdRcFFrRmVnQ3pBMU1VZUVRTUlxOWhCdDBBUFRWNkcwcDJzcEZjclpSZ3RLZ2NQV3Zkd2o3SG9WMUpLelE?oc=5",
-    "pub": "Sat, 22 Aug 2026 11:07:30 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    64311.81,
    62763.32,
    64904.69,
-   77179.29
+   77199.99
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -1742,7 +1728,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2461,18 +2448,20 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T02:41:49+00:00",
+  "checked": "2026-08-23T02:52:08+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

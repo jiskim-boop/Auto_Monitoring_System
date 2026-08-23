@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T03:21:56+00:00",
+ "updated": "2026-08-23T03:32:13+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77065.17,
-   "chg": -1.62,
-   "chg5": 19.47,
-   "sma20": 66048.91,
-   "sma50": 64860.98,
-   "sma200": 69046.38,
+   "price": 76931.29,
+   "chg": -1.79,
+   "chg5": 19.26,
+   "sma20": 66042.21,
+   "sma50": 64858.3,
+   "sma200": 69045.64,
    "high3m": 78335.19,
-   "reg": 77065.17,
+   "reg": 76931.29,
    "pre": null,
    "post": null,
-   "regClose": 77065.17,
+   "regClose": 76931.29,
    "sess": "reg",
-   "mt": 1787455284,
+   "mt": 1787455904,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "AI boom slowdown could shift balance-of-payments stress from Asia to US: Report - ANI News",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQSDAyWElWSkhsMmNVdmlhTGFfZHZzaXp6SnpJSHhZamhzd3Nqa21qYkozaTFEbzNFbDhKeGlkVXpXc3pDUElJa3dFNzE0ODVLRC1Cel9XV01VMDBuQ2pIbjBlbmUwYkFlV09OaXh5a1NvY0RxRnk1eGI4aVp5M0UxcFZMQ1BQN1NoSDlwVXZlT3ZtNmlzU0gxdXczSnpkZWh4NElYSmlvNWdhOGU3SjB3b0JWSXh3dlJYZ0tybHc0X2s2ME9GVS04Vg?oc=5",
+    "pub": "Sun, 23 Aug 2026 03:16:00 GMT",
+    "src": "ANI News",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "IPO Fever Heats Up for OpenAI and Anthropic - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQUmFobjRZR2hxMGRKcEhsa3J0LS0xODg0c1BxUHpKTlh2VS1oZmJmVlZlWG5famo3OHl3QkFUeURTMUotX2ZjTmEtY2lodjFWUklNSW5jNERvZ1RpQ2FxQUlrTndtb2oxNXBDZzBIX3lqR1I2YktPODNWOFY3UjcxZkdzZ0h6a193SnAtejBiSQ?oc=5",
     "pub": "Sun, 23 Aug 2026 01:33:34 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sat, 22 Aug 2026 19:43:05 GMT",
     "src": "AOL.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Department of Justice decides to back Elon Musk in AI nudifying ban lawsuit - AzerNews",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBtYnBNQlVzdFU0OC1CWXo3akthWHRXUy0wcUpDdUgxTHJoMlhGQmdrWmZab1FJaDZJSUswZEl3SFVEMDlVeUZSWUdWYnlyZ1I1T0p2cg?oc=5",
-    "pub": "Sat, 22 Aug 2026 16:59:00 GMT",
-    "src": "AzerNews",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   77053.23
+   76921.5
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,14 +2462,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T03:21:43+00:00",
+  "checked": "2026-08-23T03:32:01+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

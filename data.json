@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T05:51:54+00:00",
+ "updated": "2026-08-23T06:02:47+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76159.35,
-   "chg": -2.78,
-   "chg5": 18.07,
-   "sma20": 66003.62,
-   "sma50": 64842.86,
-   "sma200": 69041.38,
+   "price": 76034.7,
+   "chg": -2.94,
+   "chg5": 17.87,
+   "sma20": 65997.38,
+   "sma50": 64840.37,
+   "sma200": 69040.69,
    "high3m": 78335.19,
-   "reg": 76159.35,
+   "reg": 76034.7,
    "pre": null,
    "post": null,
-   "regClose": 76159.35,
+   "regClose": 76034.7,
    "sess": "reg",
-   "mt": 1787464283,
+   "mt": 1787464917,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI IPO Odds: AI Panel Vs Kalshi Timeline - OddsShopper",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16bGhrVjJhTDhhUFFlODZoR1hlYTBmTHpHNVJhMFJLVGs5eW5wdVFzMXMxN0c4N1NhTXFBcjlTMWhNQWlWMWxQRVIyOGlwX0VJaHo3aTJ3N1N3TUNucXJ0X0tBbnpQVW8tZGJNd0JUN2RCa29lMEx1RUx5aw?oc=5",
+    "pub": "Sun, 23 Aug 2026 05:53:34 GMT",
+    "src": "OddsShopper",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership - KED Global",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYRVBNUHdLcFJxMnJ3cjJ5TVlQNTJlVlNOUm1GLVVURGd4QkU5bWZPamQyTk5XOFp0MS1MVHB5LTFxX3oxMHJKY2FJQVBpSGFpOWthUlIzSHF2ZC0yaHMwY1hfb0VSZ1REb1FuSzByNW4yeUpBcndz?oc=5",
     "pub": "Sun, 23 Aug 2026 05:32:57 GMT",
@@ -1213,25 +1221,9 @@
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "OpenAI Is Adding Business Users Faster Than Anthropic. That May Matter More Than Valuation - inc.com",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZ2hVS3doNVlVVGdCeEQ0UnM1R0dhTGdXX2hxZ2xodVdONkk1TXZCNXVUUF9TRER1MFQ5RERTd0JNbHc5cnVXZ0tOUWx2Nlo2Y0duOVJQRVQ3WkQzWHRLUFdBMDFMNm5zTkJWVGRsQjh6NlQwbXlTTkFvUU9ZcW5kOGRudDZRU3luUUdPR3BaREpaQ3oxZzFrZ3dJWF81NVRRWjNLekhoS2s0TmI5VWFMcnpCemJwRUdSSkozeVNpcF8xcmhsbXZvM2tlTQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 01:28:29 GMT",
-    "src": "inc.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Iran warns nearby nations against joining US ‘economic war’ efforts - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORlFYOHBOWnRTWC00UkQ2U2FBWWJYRXFNT2NXUXJla1pNU1JFTzJZX1dsOGVvVGJLdEItUlBHUHlrMkJJSE1lS0gxSGIzTTR5T0F3RkRfbGNhalRQV3dsQ3dHbEx4OS1yOG9ldjAtamVWVUpnZHNyekhLYVdMRWpaa1k3a1ExdDFheHYzMGVrWDFmczktdHpjOXNnX0pkSVFVZzBKcnNLTEhxQdIBrwFBVV95cUxQT3VjZlFtdm1HYzhhQmZyZ05QWXAxUFJFc2J3d2NiSWRtbVFmWUhXSk9qNmF3dHotQmhJWm9aakxEcDkwb2cydU5KclJ2WlpYODhmZTFaZENuVmdiVWdicU4xdHBMaGIxcXY5VFk2RG1SZld2WkhWeGp5TlN0TjdVWWpOYmtSZllhQzZRMzduby1CWGJNdkRPM3g2MmJGSnJaWnBkWVpMZVA3YS1pYy1v?oc=5",
-    "pub": "Sat, 22 Aug 2026 23:27:36 GMT",
-    "src": "Al Jazeera",
-    "trig": true,
-    "geo": false
-   },
    {
     "title": "From broken promises to open war: The contradictions of Trump’s Iran policy - Tehran Times",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbV9IR3J3c0MyYmtsM2ZMX3MzQU5yMTlQTmVLdG1Xb1RraHRPQkZrMlBzY0kzYnpPX1ctMWRNc1ZsbXRiUzRiSkNiVE5aM2FDNkNxLUlLcHF3RzAtOXktZG02QjZZNzlQTzliVjVSVFVfaUlJLXpXYWczdFYxQkJjR2hGR0R3OHFGLXVJNHdGcm5paUpjenpRczdYM0dZblFOTnI3Ug?oc=5",
@@ -1265,6 +1257,14 @@
     "geo": false
    },
    {
+    "title": "Fairmint CEO warns tokenized stocks risk market fragmentation - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjRNcEZZWVNfOExxMlF1di1WYTJnNlZNY3dzaE5IM3ZIcm9tcGl5akNuYXNJUXlNaERacVN3MEVTdmNJMWtraHNlVzJLV0Q2M1F1X3ZIRGEzOU9CNmJZUDV5VXplWWN5N0ZxZmNxTERmcEV5MUxBdWJPZGVKZHhaN2dPY0hPbWhxX09CUDczc2k3RGxwWjhfd0tLWHJHVGRX?oc=5",
+    "pub": "Sat, 22 Aug 2026 15:34:54 GMT",
+    "src": "CryptoRank",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
     "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
@@ -1274,14 +1274,6 @@
    }
   ],
   "flow": [
-   {
-    "title": "Gold & Silver Prices Show a Strong Upwards Momentum as Market Closes for the Weekend - TechJuice",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZklPVlFvWnpDLWZmc3ZYcTV5Rk4xZ05EdklpSUdyZDJ6NmFTNUpXMlh2R3pWSmhyTHZwdmp4LUNHV0N1Z3ZUeXMwdGtHQTVZVXBQT3hKRmowQVlLclNQNWpVTGNqYVh6TXh1OFhKWDhHY2VtREZzSGlYeGNpVWlJanFjVDBGOUVIbHMxNjlBU2JOZGVuQUpTZDZ0endCQnVab0g1VGtPcWdpMWJt?oc=5",
-    "pub": "Sun, 23 Aug 2026 05:43:39 GMT",
-    "src": "TechJuice",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "The price difference between primary metal and scrap has widened, but it is not solely due to rising copper prices! - Shanghai Metals Market",
     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPSld0QkJxb2VOeGFUSEdaUzZQZzVZTmJPaVN1TksxSEJ1UFh5WDVQVWtaT2VXX3hLN3FNb0hBMk1pX0EwUjJKcnQ2V0tjYmdicC1WVi05cERHWnhtam10eEhCdDdRMHM4eUYzaEZaZFYzQ3g1RW92R21JUUtRQjI2ZUJMNEVXNFdoY1puazRUZ2o2ZGRxWkFVZVJJTmVBRUpfajFJa1doa0M4ZnBQRkphS3ZoVjU0U0laNGFTa1Q4OEp4ZnA3ZHVDX1V4b3BVM2RRYl9sajVfV3doa3hhNkR3S1MxcjNKZngySFUxaVFEX1JZS2s?oc=5",
@@ -1295,6 +1287,14 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
     "pub": "Sun, 23 Aug 2026 03:02:18 GMT",
     "src": "Univest",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   76117.31
+   76048.56
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2217,10 +2231,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-21T06",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-21T07",
     "v": 2.73
    },
@@ -2407,6 +2417,10 @@
    {
     "d": "2026-08-23T05",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-23T06",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2448,20 +2462,18 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T05:51:40+00:00",
+  "checked": "2026-08-23T06:02:31+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

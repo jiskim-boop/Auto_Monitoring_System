@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T06:42:09+00:00",
+ "updated": "2026-08-23T06:52:04+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76278.09,
-   "chg": -2.63,
-   "chg5": 18.25,
-   "sma20": 66009.55,
-   "sma50": 64845.23,
-   "sma200": 69042.03,
+   "price": 76194.01,
+   "chg": -2.73,
+   "chg5": 18.12,
+   "sma20": 66005.35,
+   "sma50": 64843.55,
+   "sma200": 69041.57,
    "high3m": 78335.19,
-   "reg": 76278.09,
+   "reg": 76194.01,
    "pre": null,
    "post": null,
-   "regClose": 76278.09,
+   "regClose": 76194.01,
    "sess": "reg",
-   "mt": 1787467292,
+   "mt": 1787467888,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Decart’s $7 billion Anthropic deal could become far more valuable after the IPO - calcalistech.com",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9icVRMd3dSeFhQTWpObmNESTFpUlhLUjdiY3E1eW9YZlE1ZktBRDctX04tMkRjQ2FjTVFUS3ZRRUZRdFA2UjhkbEQ1R0RIUU5vVGhsZ3hWRktLeC14NWplbVFoeXZpQXdR?oc=5",
+    "pub": "Sun, 23 Aug 2026 06:38:00 GMT",
+    "src": "calcalistech.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI IPO Odds: AI Panel Vs Kalshi Timeline - OddsShopper",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE16bGhrVjJhTDhhUFFlODZoR1hlYTBmTHpHNVJhMFJLVGs5eW5wdVFzMXMxN0c4N1NhTXFBcjlTMWhNQWlWMWxQRVIyOGlwX0VJaHo3aTJ3N1N3TUNucXJ0X0tBbnpQVW8tZGJNd0JUN2RCa29lMEx1RUx5aw?oc=5",
     "pub": "Sun, 23 Aug 2026 05:53:34 GMT",
@@ -1213,14 +1221,6 @@
     "src": "헤럴드경제",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "\"AI Boom Bill Is Coming\": Nvidia AI Server Prices to Rise More Than 15% - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsU0ZERWgxQjBIM2QySWJ5QzNBREx3Z29wdFNxN1lqUmV6QlhUWVJVVFk4aTJDTVUwdkltY0p4R0pRMi1DQ2hadmhyeTlYV0dyZW1RRA?oc=5",
-    "pub": "Sun, 23 Aug 2026 04:44:40 GMT",
-    "src": "bloomingbit",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
+    "title": "Fairmint CEO warns tokenized stocks risk market fragmentation - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjRNcEZZWVNfOExxMlF1di1WYTJnNlZNY3dzaE5IM3ZIcm9tcGl5akNuYXNJUXlNaERacVN3MEVTdmNJMWtraHNlVzJLV0Q2M1F1X3ZIRGEzOU9CNmJZUDV5VXplWWN5N0ZxZmNxTERmcEV5MUxBdWJPZGVKZHhaN2dPY0hPbWhxX09CUDczc2k3RGxwWjhfd0tLWHJHVGRX?oc=5",
+    "pub": "Sat, 22 Aug 2026 15:34:54 GMT",
+    "src": "CryptoRank",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
     "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
     "src": "Moneycontrol.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The U.S. Treasury's Bond Market Intervention Is a Nightmare Scenario for Fed Chair Kevin Warsh and the FOMC - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNelVkSEw0UXFVYzlBRGxPZVBDWjY1OGVPZ0x5cnBuOXhIOUJMcWpjdXZSM01kdnJFLTRKS2ZnZWUtQjJJbzJocXk0cDhhZi03bjJSNjRaWnJHd3ZfbVc3Wko4enBkQVRwMkVvTHRuT01ta093MUh5UEpOaU1vWWQwTnByMWdvLWpISjJIdDN3ZFZLcTlFR0E?oc=5",
-    "pub": "Sat, 22 Aug 2026 14:06:00 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Price to sales forward of Coast Copper Corp – NEO:COCO - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVWJ6VDRncU9oajFsTURLMUZ4dGtWWkNpWWl2eHNrc3U4R2ZXcFByeGYzMU5nTkhpazZmTVRYZHhhWXNsMlJPd1p0ZUt1WkdpV0V2RWhvRTdnZDNwR01QWllvTGt4TDQwVjgyUTBSUlNsWUJTUXpzQVZWZVBvRjNXMlhQM2EzUzFKTEkyY3ZnQUJwUENZMWNCc3hR?oc=5",
-    "pub": "Sat, 22 Aug 2026 22:46:59 GMT",
-    "src": "TradingView",
+    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   76284.24
+   76198.52
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T06:41:52+00:00",
+  "checked": "2026-08-23T06:51:48+00:00",
   "openai": {
    "found": false
   },

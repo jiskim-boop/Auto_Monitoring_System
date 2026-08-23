@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T05:02:25+00:00",
+ "updated": "2026-08-23T05:11:56+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76635.38,
-   "chg": -2.17,
-   "chg5": 18.8,
-   "sma20": 66027.42,
-   "sma50": 64852.38,
-   "sma200": 69044.01,
+   "price": 76330.01,
+   "chg": -2.56,
+   "chg5": 18.33,
+   "sma20": 66012.15,
+   "sma50": 64846.27,
+   "sma200": 69042.32,
    "high3m": 78335.19,
-   "reg": 76635.38,
+   "reg": 76330.01,
    "pre": null,
    "post": null,
-   "regClose": 76635.38,
+   "regClose": 76330.01,
    "sess": "reg",
-   "mt": 1787461311,
+   "mt": 1787461886,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Indias private credit market set for stronger growth as insolvency reforms reshape lending strategies: Report - The Tribune",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPOHoyVnFONHdZMTRnNDNHRVp1Uk5lS2tZcG9yZ1I2VHZ0Nmc0aFlxcXliMHhaNFJFdjNmWjJjY3ppQ2J4VFJ4UGhvMFp0RGxJakV1cUxjMHVLVThvcHJPQ21HdHdjelJIMVJpZldMd0JHUlJmbThGTTZ6U2F2cEtsY2RhcGJ0VVI5M1ltcWVuWGNKdzVacG5HYV9qSERhdld4OExVbHZndzNja0E2M3JjcG5qMW8xMy1EOWwxeVVkTFpicHhWZUoweGZfcTNjVVdwTjNPLXN3R1Rjc0VqWUNUY1VfOVdYQ0HSAesBQVVfeXFMTkhNb2UxVXJ6VVhtRlF1SEhHLWY1WkNWajQ1VnJnbXJoVC01cUtHcXVOSHQxem5SeWsyVmlKdEFRaXRNaERSQXRHUk1VcC1HVXJNWjdLWjJqWG9ySlJaMlRLOWktZVJhd2dCMTJEemRDNXJ3dkNyRjM3eGxVdHp4TDM0WEVCeHNocy1VeUJNMm1tMllWUFM4LUFpXzJrNG1vNjVFSENXWHRGMk5FUjQ2S0xDX0ppOGdtY0YxcFNUSmN3a3MtVDI4Ti1oRmdCWWdjQzVacU90QXhFUDFDWm8zd0FfZ0dnQ2N5aEs4Zw?oc=5",
+    "pub": "Sun, 23 Aug 2026 05:03:13 GMT",
+    "src": "The Tribune",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Morgan Stanley Direct Lending: High Safety Margin Despite Non-Accrual Challenges - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZXRQODlzclZNczFCZTltNXVObFRCRkdPQnpxN2VObVZSTmdZMlpqRFZaNVlaVURBZWdYVUhMN0dLZXB4V3BPb3hSWkNGcUNfdk9rdGREbzZIemZQeEtHbmZKMTl0OWU1VUJfdkdwUFhqd3o5Y0dPVF92Z1JiWjg0LS15MGtSUmtDMHpRSEpwTnBpem1GYk9kV1o4ZU9XTmMtZnhGQV9rbHZicVRsMVI3TXY1bXRZRTFtV0ktVQ?oc=5",
     "pub": "Sun, 23 Aug 2026 02:33:57 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AI Drives Data Center Capex to Surpass $3 Trillion by 2030 - ET Datacenters",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNUlVWOW93VTdCclVVV0paN0I3akJrekRXUm44WTZscUlmNENWZXhhQmljOVh6T3FjM0RyZ0dILTd3RXhnSHMyRFI3WDVDbXFKcTEySS1yekR2NEZpaW1jci12aFl5eHQtSng0ODE2WmhhRGZsQmxMenJvRzluMnAyV01oLTZVbEk3MnZnMFJHbF9obTRUV05pekgxX3FkT2xtZWtwMFJDNi1BajZWN09YbjdvOUdtN2l5ZTNNZVBnR2RwRjVXSnJ0RHNLMFJKS2o4Nk5JWVQzdXNzQ2lpTHk1StIB5AFBVV95cUxPTFlCTnFVQW1HWXdFNXRJUzRDQUdYbjlxc0lyRHRSYmMzeldpQVpkTV9PVE1tN0RBRW9FdFAwbV91c0tFMFFKRnNLSG1KLWFuUy1wMk5yQjF1UktvSXhNelUyR0VLamU0RFdseUdKOHBmSVI0LTMzekVLRDk2eGJJb2QycFE4M0xYUU1ONzFzaDZHTXNKWW1nSmtuaXFoSVhNZWZmRU1oTjVWSVcyT0E3bGdzZnpjYVFjY3RFUEtGeGMtWE44aDhxakJ5MVNkMDVGYmtCSkNSSEZyb190R2tpWXpwZU4?oc=5",
-    "pub": "Sat, 22 Aug 2026 05:56:24 GMT",
-    "src": "ET Datacenters",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "NVIDIA Raises AI Server Prices by 15% Amid Memory Shortages - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQNTB6VXNURWRMZFJTaE9pSUVrREo3SlFQa3I0dHFsckh1bDZWQjZWU1MzR1VTUEpoZlk2NDE3N3BZSVZEdmdzSXUtQ21mUUpwRkJJX0d3eFcxMmN0Mkk1eUdta0hlSHU2ZWoyWEZCNkJETUJ1T3dBZ0RrZXF3TzdjVlpqR2ltOTRT?oc=5",
+    "pub": "Sun, 23 Aug 2026 04:56:52 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "AI boom slowdown could shift balance-of-payments stress from Asia to US: Report - The Tribune",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNd1RiZUJOc3ZleFM5c1hVdENoVmRIRG83WFdWdllXcE0taG92aXhvTU1jbE9zVzdLS19UUG9DbWdVQWF6ZHVWNmw2aTExUW05NVF4dkN1UXVsUVN5TDM4Y3lZd3N0Y0dIY2VRaDE2LVh0NmJkamdHM3dPM3ZkbmtVNjNfWjZvQzBLeHRKYlJpSmdySHNFVjBfVEUxNmFsNEZZbU1fMEZzbUxjM1hxcFd4a2stQ0o2bVlKeGg2SzhVX0R1LTDSAcMBQVVfeXFMTXdUYmVCTnN2ZXhTOXNYVXRDaFZkSERvN1hXVnZZV3BNLWhvdml4b01NY2xPc1c3S0tfVFBvQ21nVUFhemR1VjZsNmkxMVFtOTVReHZDdVF1bFFTeUwzOGN5WXdzdGNHSGNlUWgxNi1YdDZiZGpnRzN3TzN2ZG5rVTYzX1o2b0MwS3h0SmJSaUpnckhzRVYwX1RFMTZhbDRGWW1NXzBGc21MYzNYcXBXeGtrLUNKNm1ZSnhoNks4VV9EdS0w?oc=5",
@@ -1213,14 +1221,6 @@
     "src": "Startup Fortune",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Analysis-Big investors hunt for tomorrow's AI winners as capex angst fades - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPdHozM3EtSUtuWVFNclBQSEdnM0lWUW9fRnpoNUllSXRHU1ZlSHpydVpGWTVVdzBTVWJGd0ZJQ0FKS2Z1Unp6bVh1bTRRc0NrRXBJa3RSdmtqSFVXSkFocUJDWFRWMnJKeF8wLU5BQTVjQXBnZFFNNmVMbll3NmF4Ti1fXzJSVEZo?oc=5",
-    "pub": "Sat, 22 Aug 2026 19:43:05 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1230,6 +1230,14 @@
     "pub": "Sat, 22 Aug 2026 23:27:36 GMT",
     "src": "Al Jazeera",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Kevin Warsh to Make First Jackson Hole Speech as Fed Chair - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVEVPbGNlWlprdllRS05ISmRyVHhxVGlmYkxuaG55OURubkVfTEUxN01jek1oR3JCbFotMFdPUFhzTGtXZl9saWhHSHdxVEJSRjVLbXhibDh5V2x4MDRmQWpjTG1xeUJLZVZxQmNmZ0lhOW9jWU5CbDdtZUlWZk00bWtuMU9rdElRMHlZcTNlbkdWTkxBaWh2cmwwY0pMNkJjMTNaTkE3aURDQ1hiQnc?oc=5",
+    "pub": "Sat, 22 Aug 2026 20:00:00 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
     "geo": false
    },
    {
@@ -1263,14 +1271,6 @@
     "src": "Defence Security Asia",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US tanker aircraft leave Bulgaria, easing immediate military threat perception - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQcHN4YjNoTm80WjBfczhJX242cjZfOUFkc2pNQ241M01EMTNtdm5KRDR6T3k4WURkTWZrcy1IWDVBNTZkMFppdlVvUnhjNWtMc21faVFTajdwS29lVHBsZmVkTWhjSnk2QjhGVTV1UlRDaGQyQ3BTS3lESTRmOFFKWVUxNzNhUFhnT0MzeXRSR0kzQ1U1c0xpclBjemVpaXN1UkFNdTVSQXQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 16:00:17 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1283,6 +1283,30 @@
     "geo": false
    },
    {
+    "title": "Europe Dodges a Rhine Crisis for the Worst Possible Reason - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxORnllX0RoUnZVaHNiQ3kyRzVfU1JWNTg3VFpBTmh6U3Mwanp5Z2ptb2pERkhCbFZ1MDhtX0xJY0xfM3FCT2VWM2E1cUFvNk9wZS1JWFRNM2gxeDZJd21Ia09yNXpMMjBkbjJMUnR5NXVzZFhWaFBCN1lvUGNrdmw3MHd4QTRRRVJEdTg2QTRmZWlqSkxQMVNrOEUzQjQ2NHJUQzVCSFdNNHlrZ9IBrwFBVV95cUxOMVZqaDRNZjlMaVBpUy1KMk9mdzdwcVVlckwzdF9tQVVVUWpGbnF6YjM5NUZoUWdwTkl0eUR2QTY1X2FKM1pub0xiNzVEWlVMeGR4SnZjOXBkb1JqU2xmdUwtaTRFR0trTGlSUHRTME5rOGRFV19wcXhaTWNILUJoSzZ0aGNjZTk0NnZEZnFOSk96c1dUNmJTM05yb0d3Y2F4Y0xiMlM5TWJ4T0JuLWxB?oc=5",
+    "pub": "Sat, 22 Aug 2026 23:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US-Canada Trade War Heats Up: What Traders Need to Watch - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWklIbUJCbVNaTnBFNHhzMVJXZzhBMlpBY2RrbDFGQXgtTWJYZGYzUFpmSXdObmVmTFRaamZ0NmtlV0h2c0tPcks5aWl2bG93Q1c1SkNJV1ZLVEFZOHFZV2NpSzY2MUhUa08yczJKWVJ1RlF1OXhtVmZ5OUtJeDZwY2RSWW55MmREVUQzWDdjMzVuZUl5dThaWQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:59 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Clean Energy Spending Tracking Toward Record $180 Billion in 2026 - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQU2VzR21RdlVuMVNmRnZwQmhieGUtRndhR2s2X2dmalMzSGM2ZW9MYVRjU01GOU9IWmlqT3M2Zl82RkhweDVaWjdRQ0hId1RWSkNZWVJFelVnYm1SMUJXZFpkbUFVRUNTNUJZR0ZzNTZKQ05zdXFRQm84RWM0c2JIazRYMERic1MwYzRpQVBab3kzTFNPVjV5Wm9aQ01zd1BqemxoRlFld29QQnVJUTdRcUV30gG3AUFVX3lxTE9SQm1FWkFXMV9WcXBEMDNjOFFQZG5nOE4tZW5wVTU5ZXU3eXRsRlRESk1BbU5NOHUwaTR2WlBBQnJIRVBXN0p4VDlLbDMtOUVOS0hPdkk2d28xZkJiQzd2Tm5BWEhPWlY2U05NZDVXYVpvVmU1SXNwNEdhQUFoMHlrbDM0VTUxVk1JWnhmSjZMaUoydHRwdC1JWWh1OXpTb1p2RFlMdWVxRmY0N05hcWlCWnlUZ2RSTQ?oc=5",
+    "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Japan’s real problem - The News Pakistan",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ObzZCY3dJS1d1NUFBQTQ1aDRQamdJZ0RGQ2FKV2s1aXpZMWVBQXBWU2pnLWN5b1R2NlhsSFU3S0xPX2RTc0FaY2FqTXV1T0V6eE14NFJvSGhxTlBWcXlNWHY2RmxzOHFp?oc=5",
     "pub": "Sat, 22 Aug 2026 19:00:00 GMT",
@@ -1291,34 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Personal Finance: Oil prices are high. But why aren’t they higher? - Chattanooga Times Free Press",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcjhsUGZBMTZMdW4xRXVGS2VZN1ROYzQ3NE9vYjRrMlFVNnM4T1Q3VlZTMktBVU9SUDlQUzlCcy1ZR0ZvYXF6SkxBeUd1Y05NU2owRFdmR1JqaUh4OE1ZcnoxQ0htNHJYTzJSOEwzeldONDZZUWhHOE5rUkVBZm5GT2hsYnhvQkJSa2N1UmJjTk04UUxXdDBBVg?oc=5",
-    "pub": "Sat, 22 Aug 2026 16:00:00 GMT",
-    "src": "Chattanooga Times Free Press",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin Nears a Risk Zone as RSI Hits Extreme Levels: Back to $70,000? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNVjQ2RnZ4VDdHZnFBa3UwaV9XTHpnNDdnbXpyYW5TYjh6ZC1lYVR4bjE1a2lCWVhTVUJrblZHM0hZVTVraWhnVmF4X3Nlb1B0N1Q0ZTJmcVZDcGh5U0VWQ3AxcnVyYk5jMlh0czRrU1ltVVJ3am9RbDVQbzFiUzRFRw?oc=5",
-    "pub": "Sat, 22 Aug 2026 15:59:57 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Nears $4,600 as U.S. Treasury Bond Buybacks Weaken Dollar and Boost Safe Haven Demand - InteractiveCrypto",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQM2F5Z1N3Mndja2V0TWJRNjN5eUtMRFB3NW1UVDhlX3hNX3pzUE04aEtYWHZGdmRMdWs2Mmp4N3F3bGZObHN5MFRqc2hGU1kzaVhLLWJmSVVDNmVHUnFGaGMxbGwyZTlkTk9hU0pSNDFxZzVtdUJRSmtGR00wbjNoRDMzUEFSTmRNd2pHX2FESVRxNXNlSFdJUXZkVWprckc1OFhlYkRJY3JqNjFDbkN6NElVX2htSzQyVzJ2cjlkdV9ZSnpIb2pQQ2Vn?oc=5",
-    "pub": "Sat, 22 Aug 2026 14:29:39 GMT",
-    "src": "InteractiveCrypto",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil and Gold Price Outlook: Key Levels and Market Drivers for the Week Ahead - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56VHIwVVhmb3l6TEVfUkszN1V2RkljODdGTC1tZ0FGTkxXNUxZeWxyYnctYXZvT1FJdjBSaXRmNVhrOTA4MHYyRzNHb0V5WW91RlhMUGtMeS1aQzZXVEJaQnZFSV81YWdBQllnaWdPYmp0M2J6bUQ4WVJfSDFkUQ?oc=5",
-    "pub": "Sat, 22 Aug 2026 13:20:10 GMT",
-    "src": "CryptoRank",
+    "title": "Every Chokepoint That Isn't Hormuz - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOOXpDWEsyazVqUndPX3FOaDJySnBRenZFTlFISWk4M0plbnRPajNrdFZjdTNWQ3RhWTNQeHdJY2VfRUtDaFZXWW9vSXJMbVUzRENVbTBTNlZXcFNEMHBNalY5ZGU5QV9NOFlYdGJRNFVuR2JvSXhtZThhN290MmxVZ2JLXzJELXVF0gGOAUFVX3lxTE1UMkxPT3V0OXhNbGZEQkFOblRKY0MyMHl2U1ZUdWJ3azdhZFlVeEZQSDN2LVhPRnNmR0dnSFF0R0I3MG1xMElVb3dPaHNKa0RwVVNPVl82dXF5TkZ5cV9lQ21HV2JndWRsTXlmRERFOUR5d2gyUUNlOWZkYTR5VGhRNnFTRVdQdDZmLWJVWmc?oc=5",
+    "pub": "Sat, 22 Aug 2026 17:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   76630.53
+   76315.97
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,14 +2462,12 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T05:02:12+00:00",
+  "checked": "2026-08-23T05:11:43+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {

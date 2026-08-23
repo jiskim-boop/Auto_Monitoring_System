@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T17:22:05+00:00",
+ "updated": "2026-08-23T17:32:19+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77338.71,
-   "chg": 0.33,
-   "chg5": 19.57,
-   "sma20": 66743.71,
-   "sma50": 65146.35,
-   "sma200": 69092.05,
+   "price": 77146.6,
+   "chg": 0.08,
+   "chg5": 19.27,
+   "sma20": 66734.1,
+   "sma50": 65142.51,
+   "sma200": 69090.99,
    "high3m": 78335.19,
-   "reg": 77338.71,
+   "reg": 77146.6,
    "pre": null,
    "post": null,
-   "regClose": 77338.71,
+   "regClose": 77146.6,
    "sess": "reg",
-   "mt": 1787505694,
+   "mt": 1787506305,
    "ok": true
   },
   "USO": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "I've More Than Tripled My Stake in This Historically Cheap, High-Octane Dividend Stock That's Yielding 13.2% - AOL.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQTFllZzhseTdidkJvaWxCaWlubk5ha1JtdUFuRWY2YzZKalI3MDZOWWdLTjBaRWVjMDJUeVJFY1gxd1B6eDVnMFZZMTExRnJ5dml3SjRpaHFxTzdUUkNZQW83MDJHY2tZMnl6alJzOEQxanJYOXVnbGRtRmRYbmdJU2dVVlVYQQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 14:36:56 GMT",
-    "src": "AOL.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "PennantPark vs. PennantPark Floating Rate: Which BDC Pays Income Investors Better? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNOHE5RS1yMUtfSTRKUjZzeUM3MV9RUGY3MzNTR0JfWUxxZVVlVXNsT0JJNnB1bnRhdGVobzFVR05va1VRa0FyOXNEQTRQUUptN1RFOGpRc0NGQTJROFZjRlFnM0d0aXJTcW12MkFUZWpSRFduRjhvNHdzUGtKRlVBVFdNTVVocU5tWWdXUmFNQ3MtN05mNGFoWGluUTN0YlNsZHVERk1IWnJqeEJ3eEZVd3BMX2lyeGpPSmJWaDNkalU?oc=5",
     "pub": "Sun, 23 Aug 2026 14:00:53 GMT",
@@ -1171,6 +1163,14 @@
     "src": "Seeking Alpha",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "Great Elm Capital Corp Earnings Call Highlights Resilience - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQSHFtMW4yWTJrcm50YTdoNGEzUk1yTkpkWTJFTHFPVjdoY0Y2Y2Z4Ql81RTBBY0NmemdyZ0lHa2NsNUlTVWJMR2RDZjhORjh3Z2VSb0VIYVlSSkpQUVpaNGNFazZraTEyWElLVnl1UVd5WGNnSDB1ODRXSW56ZnpRbXd1ekgwb016UWQ5VUR4T1VGcWhfMjBVTjZjTllPQlI5am13QTc1RWdDdnhEMXJn?oc=5",
+    "pub": "Sun, 23 Aug 2026 00:42:12 GMT",
+    "src": "TipRanks",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1207,23 +1207,31 @@
     "geo": false
    },
    {
+    "title": "Nvidia’s 15% Price Hike Reveals the Hidden Cost of the AI Boom - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdlgtS3ZfV2VIX2ttYzd3YmEtUFlHYU1UdUxsV3hSaG4zWlJvd3FHcm9COTNDNmI3Y2U3YnF4YWpjdUl0VVJxN1BOYkFDVkJvOEs2Wk9TQmFxVzdlbWlSYW44LUpiRTRMSEZ2b3N6ekpIcHpYbTJteEJVcUZyRUtOYV9acjdlZmsxMHBtNno0MWY1bEhyWTBJV0ZwVElkNXhWaHlRQlNrQQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 14:43:54 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating. - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYm5jakF6bVZpaEliMHN4dE5vVW1lU2NTQmRNV0RSeTllanZER1hkVUVaNmNON0pYVUYzOU14bTUzbkJseXBTWFBBNWVyU0NQbmxVcjhtU1piLXQtQ19sWFNubUkyaGhVdHNrNjFNQzRlNUtVOFRGUWh2ZFBsSU8zdnNmOGVuaTVzREE1ajlJejZnalZwRGxhbg?oc=5",
     "pub": "Sun, 23 Aug 2026 14:43:13 GMT",
     "src": "The Motley Fool",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "HSBC: Two Hidden Nvidia Narratives Emerge — Open-Source Models and Supply Chain Lockups as Re-Rating Catalysts - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE4tWUIzMzdMdnlRTDJuZlNFdi0xUjluRk9VTWd1dVpyaEk2UVZ3Q3hydEtGeWtkU0dLV1doU3I4VTQzMjNDcFJoX1puVUhkZ092MkhCaVUtNjdpa29EVzhIS0J1emZKMjE3M3ZvcVBrOGJKTTFkN0E?oc=5",
-    "pub": "Sun, 23 Aug 2026 13:30:35 GMT",
-    "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Iran attacks expose vulnerabilities in US Gulf bases, sparking strategic debate - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOWWFibE9QeU1HLUxTUXgtR3JJNjRsWUxpSFZWazN2VUw1bjNUVHBFZjFZLTJHVzNVeGtFRHNmVHZMbDNPRzVIWGFPNl9naFdEUlBYanBYVk1zODBweE9EU1pfOEpVbmJIMDhQX3JwaERXTk5ZWUdDWHJRbjAweEpJb0FobXFNRTkxQkxzalFPSXROc3ZRNkI5SXBaenY1dVhic3E2NFVoLVlWUQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 16:06:14 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Why Has the Price of Oil Remained Below War-Time Expectations? - Middle East Council on Global Affairs",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhKWExvbENhZHdWR3ZiLWxQUXVSTFROVHpOR2VFYnk5NHF6d2w5RnVuVG9NYnEtQzhILWY0V185Szl0MnNxem80WGtWYkI3RlJtRU9rdjI2T3NBT2xGNTNCMjBrN21KRmdYdVZscl9yUVZfaVV5dnZFLXVqbjQ5WjhvVkFwM25tVjI3b1FKbE9DTUZxOWttdjUzRQ?oc=5",
@@ -1263,14 +1271,6 @@
     "src": "The Crypto Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US-Iran War Update: How the Strait of Hormuz Could Move Oil Prices and Global Stock Markets - India Infoline",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQTlZUZXk5QjBmRlJpcS01T3VUbEp1bXMtSDRVQUE3NXdib3Z4VUVYamM3eW1vRUdGSVhrTk54VnAyMkZfT0NwbUwzZ2tQTXlfcnpjSGxQRUlEbFFkbUl6d3U3LXUyVkdjSTJHQ1FsOGV2VnNKUWJja3RWNkV5c2hJVGxnbGRVUmJwbWxtdm9ZTVRTXzF5VzlPeUo5bklaVU0wenFOaTNpVTlPSWo3YkZ3RkRQNzNnVmxYR1hMSHZlMm83U1E?oc=5",
-    "pub": "Sun, 23 Aug 2026 08:35:10 GMT",
-    "src": "India Infoline",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Gold & Silver Prices Show a Strong Upwards Momentum as Market Closes for the Weekend - TechJuice",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZklPVlFvWnpDLWZmc3ZYcTV5Rk4xZ05EdklpSUdyZDJ6NmFTNUpXMlh2R3pWSmhyTHZwdmp4LUNHV0N1Z3ZUeXMwdGtHQTVZVXBQT3hKRmowQVlLclNQNWpVTGNqYVh6TXh1OFhKWDhHY2VtREZzSGlYeGNpVWlJanFjVDBGOUVIbHMxNjlBU2JOZGVuQUpTZDZ0endCQnVab0g1VGtPcWdpMWJt?oc=5",
+    "pub": "Sun, 23 Aug 2026 12:39:13 GMT",
+    "src": "TechJuice",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US Treasury bond intervention struggles as yields rebound - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMW1FY3dhbzZJT21hdHFld1dkbkhidExHZjRYeE5WUURoSDJnOVRyRldhZUtNN0tFc25JRTl3Y3JCaG9Ec3hyX2JSSnJpaUwxbDdLVzN6aVMzalJtY284OXpBdzdkWGtMdTZKQ2EybVdxUG9PMjBwWFlMdUh3TmVNSG5PdWJVRVhEdUp5X3hn?oc=5",
     "pub": "Sun, 23 Aug 2026 12:12:13 GMT",
@@ -1307,18 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Gold Price Today in India (August 23): 24K Gold Remains Above ₹1.63 Lakh as Bullion Rally Continues – Check Latest City-Wise Gold Rates Across Delhi, Mumbai, Chennai, Pune, Bangalore & More - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRNIBzAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRA?oc=5",
-    "pub": "Sun, 23 Aug 2026 10:08:15 GMT",
-    "src": "The Sunday Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
-    "pub": "Sun, 23 Aug 2026 09:45:48 GMT",
-    "src": "Univest",
+    "title": "Price to sales ratio of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZE55SWU5R1g2ZWd5MkFjNFlNbE5WV2xQLV9PQVE5dTJiakppdXNhY0ZEcDdQNlYxamdRT0NhNHQ0MTdvOExUQndSSXhoMXNMS3pCbmg4SGNtRnhIcWJRMlg5VzVTcUo3bS1fblZKSUMtQi1pcWY5QlRKVlVac3RFNjJ3cTNBcWhsOEhqNXdjZWJEWXlPMGZxZQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 11:59:55 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    65340.3,
    63482.0,
    64844.89,
-   77336.7
+   77154.46
   ],
-  "vixts": [
-   0.837,
-   0.809,
-   0.793,
-   1.011,
-   0.77,
-   0.898,
-   0.755,
-   0.815,
-   0.926,
-   0.974,
-   0.834,
-   0.833,
-   0.737
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -1729,7 +1715,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 긴장으로 유가 변동성이 고조되는 가운데, VIX 15와 신용스프레드 275bps는 시장이 아직 지정학 리스크를 완전히 가격화하지 않았음을 시사한다. AI 칩셈 수급 악화로 엔비디아가 서버 가격을 15% 이상 인상했고 DDR5 메모리 기록 고가까지 나타나며 AI capex 비용 상승이 가시화되고 있다.",
+  "text": "이란 공격 등 지정학 긴장이 고조되면서 금값이 3개월 고점을 경신했으나, 달러 강세와 낮은 VIX(15)는 시장이 여전히 리스크를 과소평가하고 있음을 시사한다. AI 칩 부족이 심화되면서 엔비디아가 가격 인상을 강행 중이고, 메타·AMD 등 주요 플레이어의 거액 capex 투자가 계속되는 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1739,11 +1725,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
    "trig": 1,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2462,7 +2447,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T17:21:50+00:00",
+  "checked": "2026-08-23T17:32:04+00:00",
   "openai": {
    "found": false
   },
@@ -2473,7 +2458,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T15:02:30+00:00",
+ "updated": "2026-08-23T15:12:06+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77254.74,
-   "chg": 0.22,
-   "chg5": 19.44,
-   "sma20": 66739.51,
-   "sma50": 65144.67,
-   "sma200": 69091.58,
+   "price": 77278.23,
+   "chg": 0.25,
+   "chg5": 19.48,
+   "sma20": 66740.69,
+   "sma50": 65145.14,
+   "sma200": 69091.71,
    "high3m": 78335.19,
-   "reg": 77254.74,
+   "reg": 77278.23,
    "pre": null,
    "post": null,
-   "regClose": 77254.74,
+   "regClose": 77278.23,
    "sess": "reg",
-   "mt": 1787497320,
+   "mt": 1787497894,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Why Has the Price of Oil Remained Below War-Time Expectations? - Middle East Council on Global Affairs",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhKWExvbENhZHdWR3ZiLWxQUXVSTFROVHpOR2VFYnk5NHF6d2w5RnVuVG9NYnEtQzhILWY0V185Szl0MnNxem80WGtWYkI3RlJtRU9rdjI2T3NBT2xGNTNCMjBrN21KRmdYdVZscl9yUVZfaVV5dnZFLXVqbjQ5WjhvVkFwM25tVjI3b1FKbE9DTUZxOWttdjUzRQ?oc=5",
+    "pub": "Sun, 23 Aug 2026 15:07:54 GMT",
+    "src": "Middle East Council on Global Affairs",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Sinopec's half-year profit grew 19.3% on year despite Iran war, falling demand - CNBC",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMTZockNXakhFX2pvbDFfNjdqZ0ZNV2Vva2hTRE5NTV9EYXZJRjdNMEN1SUdKcDZ0TExaWmdhQm9nRnNxNTZ5aWtnX3dxQ0hUeDl5VjdGSHJOZERJVUJ6aWh2Y2Vod0FfSElVX19ES19uT0RIVVR6dnBRaHViSmxabl81V2ZTcERuOXp1WlpDeXFLdy1qRjlLVlJQaVNPR2Y3cXpXQW5nRDVROE1W0gGyAUFVX3lxTE5qVjNXNWR6MTM0MWtSaGdpYXVXVEs5bmJONENPc19ueGdLX0tUV3lrcXJmZlI1YjNLT0J4RmkyTVF6T0hENFExU3dQSUItSWQwVjEtTzJMa0RpNGtNeFZvek1RTG4xX2h5RkdGWmlYdEdleGlzb1d2SGJBSWNXenZZTHZJdjRMeVhLY1FDcUJxVWQ4elozSHlfZmVFSTJONXVNbVU3UElqcURoN0tHZnRldmc?oc=5",
     "pub": "Sun, 23 Aug 2026 13:10:04 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9JdFZHVWtqSmZxSExJV0hnMzRkX0VRMlhya0V4eVhlbTNjY0cxcmNIS2dmZmdqVWRIamFxN3hYenh5TXhGRWdOaVlmemFoaElJaDFpbHp0MW5iMDg?oc=5",
     "pub": "Sun, 23 Aug 2026 06:33:24 GMT",
     "src": "Mshale",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US-Iran war: Crude oil price is key | Is Tehran writing the obituary of Turkey-Pakistan-Saudi Arabia's defence pact? - livemint.com",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNb2x5UV9hc3FNMmV6TlI4eTAybURUUWRIc3NoMlB4d2dnVnZaUjF1bUcwUGZBUmFsSzFwUXpsQ3RzbVQxSDUtbVlFMW1va0VWbWhaMkktdnJpNmlVcXNMUHJ5MFV5djVZS3pPSnk1SFFmb0VoTjFrVjk1Vlk4WUpJNjgxYmpEQ3FJcXl6UThIN3NzTk8wMUxaRjhKbU1OVzdUcjB6WklRekxUdl9YRUhlX3k3ek55Tk16NC03SUxDQkd1bXRJWjcweVVTUTVyalFFMHR3MFhWT3pfWDMwRFlMTWY4ZFdGaWRNVVVOTDNaTHlSV281anNWUjdGSk9uYXRvcUVESjlR0gGLAkFVX3lxTE4tcm8xcVhzTVlKN2hUN19aTzBKaGFSbkc4NENnTlpzb3FnWFFYZkM5a3J3aWR0NGlWNm5BOV8zRm9IZGNqRDg1dDRKRTRYR2NmSmtzeWlyNE83T0lNSWk0U255U3JkQjE1Y3dmWkhPd2VjWE5seHZYVzcyekgyY1hHcVVOcFdjNnRUdXVTejNNc0ZyMFpUMWYtSWFGQ1NSUUxvek9HUmdSQXlNdWhhWkdxS2RFcVNjc2Z4QTB6SjFuekQ5M004OFNJR0dYTGdieUI4NEI3U0dTLWM2aVhjYnR4NHJUdUVINTkteXhUOWI2OUFDMkZiOW9ZZi1ZWXJoSGEybHZGMFIzVUpDYw?oc=5",
-    "pub": "Sun, 23 Aug 2026 06:04:03 GMT",
-    "src": "livemint.com",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    65340.3,
    63482.0,
    64844.89,
-   77228.95
+   77240.41
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T15:02:17+00:00",
+  "checked": "2026-08-23T15:11:50+00:00",
   "openai": {
    "found": false
   },

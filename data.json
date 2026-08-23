@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T02:02:41+00:00",
+ "updated": "2026-08-23T02:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77190.74,
-   "chg": -1.46,
-   "chg5": 19.66,
-   "sma20": 66055.19,
-   "sma50": 64863.49,
-   "sma200": 69047.08,
+   "price": 77084.05,
+   "chg": -1.6,
+   "chg5": 19.5,
+   "sma20": 66049.85,
+   "sma50": 64861.35,
+   "sma200": 69046.49,
    "high3m": 78335.19,
-   "reg": 77190.74,
+   "reg": 77084.05,
    "pre": null,
    "post": null,
-   "regClose": 77190.74,
+   "regClose": 77084.05,
    "sess": "reg",
-   "mt": 1787450525,
+   "mt": 1787451084,
    "ok": true
   },
   "USO": {
@@ -1265,11 +1265,11 @@
     "geo": false
    },
    {
-    "title": "Israel says US criticism of Syria strike ‘full of inaccuracies’: What happened at Abu al-Duhur? - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPRlpVdFZoWDdWMG93SW1yM25SQnIzNDQ3WEhTVDMxNF9NV3NyTjJGZVZ2aENBSHFYbGpmamdxaWVEaU9WLUdCSGl3NGhNWGZoeUw4c1dPcXphNHVSYm1JV1hBczZBb3Q1YmozVk5WTk9EOXVvcFR4TWtNS0lBaUdkWVBtSFRPUE9hR19WMDJEQThSVmh2aUFtOFZpVm0tVmJvU2plaHZ2UndHcjlZamU0OGdCR0tyR0phdV8ydzRDaEdvTzVFalFDb3laMDFFY0NYdkdvRlJ0dnJrMTVHajRMY1dqS1JfMVHSAecBQVVfeXFMT0ZaVXRWaFg3VjBvd0ltcjNuUkJyMzQ0N1hIU1QzMTRfTVdzck4yRmVWdmhDQUhxWGxqZmpncWllRGlPVi1HQkhpdzRoTVhmaHlMOHNXT3F6YTR1UmJtSVdYQXM2QW90NWJqM1ZOVk5PRDl1b3BUeE1rTUtJQWlHZFlQbUhUT1BPYUdfVjAyREE4UlZodmlBbThWaVZtLVZib1NqZWh2dlJ3R3I5WWplNDhnQkdLckdKYXVfMnc0Q2hHb081RWpRQ295WjAxRWNDWHZHb0ZSdHZyazE1R2o0TGNXaktSXzFR?oc=5",
-    "pub": "Sat, 22 Aug 2026 14:11:08 GMT",
-    "src": "Moneycontrol.com",
-    "trig": false,
+    "title": "Fairmint CEO warns tokenized stocks risk market fragmentation - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjRNcEZZWVNfOExxMlF1di1WYTJnNlZNY3dzaE5IM3ZIcm9tcGl5akNuYXNJUXlNaERacVN3MEVTdmNJMWtraHNlVzJLV0Q2M1F1X3ZIRGEzOU9CNmJZUDV5VXplWWN5N0ZxZmNxTERmcEV5MUxBdWJPZGVKZHhaN2dPY0hPbWhxX09CUDczc2k3RGxwWjhfd0tLWHJHVGRX?oc=5",
+    "pub": "Sat, 22 Aug 2026 15:34:54 GMT",
+    "src": "CryptoRank",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1610,9 +1610,23 @@
    64311.81,
    62763.32,
    64904.69,
-   77206.5
+   77064.68
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2448,20 +2462,18 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T02:02:25+00:00",
+  "checked": "2026-08-23T02:11:43+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": true,
-   "ticker": "ANTW",
-   "name": "Anthropic AI Lab Ecosystem ETF"
+   "found": false
   }
  },
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

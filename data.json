@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T17:32:19+00:00",
+ "updated": "2026-08-23T17:41:59+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77146.6,
-   "chg": 0.08,
-   "chg5": 19.27,
-   "sma20": 66734.1,
-   "sma50": 65142.51,
-   "sma200": 69090.99,
+   "price": 77234.59,
+   "chg": 0.2,
+   "chg5": 19.41,
+   "sma20": 66738.5,
+   "sma50": 65144.27,
+   "sma200": 69091.47,
    "high3m": 78335.19,
-   "reg": 77146.6,
+   "reg": 77234.59,
    "pre": null,
    "post": null,
-   "regClose": 77146.6,
+   "regClose": 77234.59,
    "sess": "reg",
-   "mt": 1787506305,
+   "mt": 1787506887,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SK Hynix considers building memory plant in Japan to bolster global HBM leadership - KED Global",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBYRVBNUHdLcFJxMnJ3cjJ5TVlQNTJlVlNOUm1GLVVURGd4QkU5bWZPamQyTk5XOFp0MS1MVHB5LTFxX3oxMHJKY2FJQVBpSGFpOWthUlIzSHF2ZC0yaHMwY1hfb0VSZ1REb1FuSzByNW4yeUpBcndz?oc=5",
+    "pub": "Sun, 23 Aug 2026 17:33:49 GMT",
+    "src": "KED Global",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Micron's Memory Squeeze: When the World's Most Valuable Chipmaker Has to Pass on the Bill - Ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMTlSdjBLeklvMzN0RzcxSlhDWHRVVnI3UU9leWtnWGlEdFpsMDZQc3Z4Tm5ucEJpTk9Ienc3ZEI5VmFMUE92SEhqR190QjQ1eDlHSUg5XzlHNTdTSzhST0x4Q3F5UE9QRXIxSHNvMEl3eVlnamRTR3JCN2lDUmYzS3ZxeEFNMGtCZ3lpcFJSZmlyVHBhdGxaeHdiUk5tcG01MElhcXpGc082YnFVNVFucXA3VVJpWGk2dzUxZ3NzVGFMNWdwc2NHdHdRYm12c1cwTjVYaWNmUG9HWnc?oc=5",
     "pub": "Sun, 23 Aug 2026 17:10:43 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdlgtS3ZfV2VIX2ttYzd3YmEtUFlHYU1UdUxsV3hSaG4zWlJvd3FHcm9COTNDNmI3Y2U3YnF4YWpjdUl0VVJxN1BOYkFDVkJvOEs2Wk9TQmFxVzdlbWlSYW44LUpiRTRMSEZ2b3N6ekpIcHpYbTJteEJVcUZyRUtOYV9acjdlZmsxMHBtNno0MWY1bEhyWTBJV0ZwVElkNXhWaHlRQlNrQQ?oc=5",
     "pub": "Sun, 23 Aug 2026 14:43:54 GMT",
     "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYm5jakF6bVZpaEliMHN4dE5vVW1lU2NTQmRNV0RSeTllanZER1hkVUVaNmNON0pYVUYzOU14bTUzbkJseXBTWFBBNWVyU0NQbmxVcjhtU1piLXQtQ19sWFNubUkyaGhVdHNrNjFNQzRlNUtVOFRGUWh2ZFBsSU8zdnNmOGVuaTVzREE1ajlJejZnalZwRGxhbg?oc=5",
-    "pub": "Sun, 23 Aug 2026 14:43:13 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1299,14 +1299,6 @@
     "geo": false
    },
    {
-    "title": "Gold & Silver Prices Show a Strong Upwards Momentum as Market Closes for the Weekend - TechJuice",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOZklPVlFvWnpDLWZmc3ZYcTV5Rk4xZ05EdklpSUdyZDJ6NmFTNUpXMlh2R3pWSmhyTHZwdmp4LUNHV0N1Z3ZUeXMwdGtHQTVZVXBQT3hKRmowQVlLclNQNWpVTGNqYVh6TXh1OFhKWDhHY2VtREZzSGlYeGNpVWlJanFjVDBGOUVIbHMxNjlBU2JOZGVuQUpTZDZ0endCQnVab0g1VGtPcWdpMWJt?oc=5",
-    "pub": "Sun, 23 Aug 2026 12:39:13 GMT",
-    "src": "TechJuice",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US Treasury bond intervention struggles as yields rebound - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMW1FY3dhbzZJT21hdHFld1dkbkhidExHZjRYeE5WUURoSDJnOVRyRldhZUtNN0tFc25JRTl3Y3JCaG9Ec3hyX2JSSnJpaUwxbDdLVzN6aVMzalJtY284OXpBdzdkWGtMdTZKQ2EybVdxUG9PMjBwWFlMdUh3TmVNSG5PdWJVRVhEdUp5X3hn?oc=5",
     "pub": "Sun, 23 Aug 2026 12:12:13 GMT",
@@ -1315,10 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Price to sales ratio of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZE55SWU5R1g2ZWd5MkFjNFlNbE5WV2xQLV9PQVE5dTJiakppdXNhY0ZEcDdQNlYxamdRT0NhNHQ0MTdvOExUQndSSXhoMXNMS3pCbmg4SGNtRnhIcWJRMlg5VzVTcUo3bS1fblZKSUMtQi1pcWY5QlRKVlVac3RFNjJ3cTNBcWhsOEhqNXdjZWJEWXlPMGZxZQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 11:59:55 GMT",
-    "src": "TradingView",
+    "title": "Gold Price Today in India (August 23): 24K Gold Remains Above ₹1.63 Lakh as Bullion Rally Continues – Check Latest City-Wise Gold Rates Across Delhi, Mumbai, Chennai, Pune, Bangalore & More - The Sunday Guardian",
+    "link": "https://news.google.com/rss/articles/CBMizAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRNIBzAJBVV95cUxOUHAxa01MaHpkbl9kWHdRZHpBM183c1R1amJPVVJmMW9PRWFIb09LUlBEb1ppZEZYQ1pwNjZrR29TejVPZVJ5M2dTVGQ2LXFmR3l3ajAtampZdWtlZWx6Z29OOG9YeDJjUG5KTmZpOEVnMEtMNU9yTXdoR3dxRlpLR2ROOVM0dUg3ZjgwMzRId214VGw5ajdHdGpUZXpwbzRIOXRhU0lqbHNScG9JbXc3Wk9PTVVqRTJjVHY2TVM2cGVTRW50Qy1XSWN5U0xJdnUyVVZsWXFOLUN3Yi13QW04TXJ3aXZCcE5SNmNTRWhkZTNieFFnMHBoNzNscENNbGFIazVKcVgtdUFqaVBEVFQ5ZFZ1dFQwSlgySlRhWUVLeUhDRV8taGJzaHNrUmFUbmkwazRhaGRPdWxaM1NUVWVxVm5hZEp5ZDFDMlhIRA?oc=5",
+    "pub": "Sun, 23 Aug 2026 10:08:15 GMT",
+    "src": "The Sunday Guardian",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Price Prediction for Monday 24 Aug 2026 MCX - Univest",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5SQ1NsRnZJRGxjNjNEeElUcEtwbmt0RndLYVpsMlNlOXhCZjdaZm82YTBrZFUxQmJrZl9DSEd2OGpmV08yWVlCTWdwTEMwSUkxUS16VVFRSmdham9PdUo1SzhDVTRleXBXX3RRb0ZqbFVwZDJVNC1qSnBJWnk?oc=5",
+    "pub": "Sun, 23 Aug 2026 09:45:48 GMT",
+    "src": "Univest",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    65340.3,
    63482.0,
    64844.89,
-   77154.46
+   77228.95
   ],
-  "vixts": null,
+  "vixts": [
+   0.837,
+   0.809,
+   0.793,
+   1.011,
+   0.77,
+   0.898,
+   0.755,
+   0.815,
+   0.926,
+   0.974,
+   0.834,
+   0.833,
+   0.737
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -1728,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2447,7 +2462,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T17:32:04+00:00",
+  "checked": "2026-08-23T17:41:46+00:00",
   "openai": {
    "found": false
   },
@@ -2458,7 +2473,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.36,
   "curve_bp": 50,
   "curve_inverted": false,

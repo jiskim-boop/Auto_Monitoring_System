@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-23T20:42:03+00:00",
+ "updated": "2026-08-23T20:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77409.84,
-   "chg": 0.42,
-   "chg5": 19.68,
-   "sma20": 66747.27,
-   "sma50": 65147.77,
-   "sma200": 69092.44,
+   "price": 77413.94,
+   "chg": 0.43,
+   "chg5": 19.69,
+   "sma20": 66747.47,
+   "sma50": 65147.85,
+   "sma200": 69092.46,
    "high3m": 78335.19,
-   "reg": 77409.84,
+   "reg": 77413.94,
    "pre": null,
    "post": null,
-   "regClose": 77409.84,
+   "regClose": 77413.94,
    "sess": "reg",
-   "mt": 1787517689,
+   "mt": 1787518290,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.96,
-   "chg": 0.05,
+   "price": 158.97,
+   "chg": 0.06,
    "chg5": -0.16,
    "sma20": 159.46,
    "sma50": 161.01,
    "sma200": 159.56,
    "high3m": 163.86,
-   "reg": 158.96,
+   "reg": 158.97,
    "pre": null,
    "post": null,
-   "regClose": 158.96,
+   "regClose": 158.97,
    "sess": "reg",
-   "mt": 1787517673,
+   "mt": 1787518271,
    "ok": true
   },
   "ES=F": {
@@ -1175,11 +1175,27 @@
   ],
   "fundamental": [
    {
+    "title": "This Company Just Paid Out $6.8 Billion. Its AI Bill Was 4x That - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQYmI3Z0NTWDZ4NTlhaDFYM1NOeUh0MkJUblhLMXF2eFNLaGVGUW1nYVRfVDNOUzFlNEhxaW1tam1OcTF4dXYwOVdVelZOWms5dW9nMFlHeHlhcVlDa0VGQ2lLREtGVjI4MENwTTNsa3ZTekkyR1pndnZzalNZLUFpcjhZblk5WWJENGhuTUVWYnRUUG5INEQ1SzFsV25OUzduZTF5NFcxMUxtdw?oc=5",
+    "pub": "Sun, 23 Aug 2026 20:38:55 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "This Chinese Tech Giant Quietly Cut Its Buyback 80% to Fund AI - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNMGdkTTlrOG5LR01uS2lwdzJnVWRxOFVTNzhvZGVxMHJmYjJ6Y01OM0N3THkyUEY4a2kzYk5CWUFRU2Nwak9PR0dpUFdSU0lydTFjUzQ1SmdPNGdJQTBnak82TjZSRmVUNkdaR1gxU1d0amxJTzFmOWtBaEdnblpQc3dERTNsa1NhN2ppMDc4ZndRTVl6NGdQeG1PZWc1ZC1NLUo2UU5IeDc?oc=5",
     "pub": "Sun, 23 Aug 2026 19:17:45 GMT",
     "src": "24/7 Wall St.",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "SpaceXAI launches Grok Bot, an always-on AI agent - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE5rX2toOENHZFFMdDVHanF2ZGdGdFp5R25KUFNUeEhwZ0hoVUtiUXBKWFQxMEhaaGxoQjd0VEQ2eDY0Sng0SGkzUDdmakMxYm84eGZsdVJFU3lYUXBhbndn?oc=5",
+    "pub": "Sun, 23 Aug 2026 19:11:18 GMT",
+    "src": "Mashable",
+    "trig": false,
     "geo": false
    },
    {
@@ -1203,22 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMTlSdjBLeklvMzN0RzcxSlhDWHRVVnI3UU9leWtnWGlEdFpsMDZQc3Z4Tm5ucEJpTk9Ienc3ZEI5VmFMUE92SEhqR190QjQ1eDlHSUg5XzlHNTdTSzhST0x4Q3F5UE9QRXIxSHNvMEl3eVlnamRTR3JCN2lDUmYzS3ZxeEFNMGtCZ3lpcFJSZmlyVHBhdGxaeHdiUk5tcG01MElhcXpGc082YnFVNVFucXA3VVJpWGk2dzUxZ3NzVGFMNWdwc2NHdHdRYm12c1cwTjVYaWNmUG9HWnc?oc=5",
     "pub": "Sun, 23 Aug 2026 17:10:43 GMT",
     "src": "Ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AMD invests over $10B in Taiwan for advanced chip packaging with TSMC - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1pRkd4aGN0alMwNFdSMFNKVkVBRDJyTWxBakhHRTZEbmpUYjVtOGhhejFqMExOS0ZoS0ZhTWx1VFNyNkJxdWprdUt2UUVRYnpsUHBDSF96TUdPLW9JclM2VmJtU1I0YmVFMUd4Y1k1NXhoTThydWJDOA?oc=5",
-    "pub": "Sun, 23 Aug 2026 15:59:07 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon's Free Cash Flow Went Negative by $7.6 Billion Even as Operating Cash Flow Rose 33%. Here's the Gap AI Capex Is Actually Creating. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOYm5jakF6bVZpaEliMHN4dE5vVW1lU2NTQmRNV0RSeTllanZER1hkVUVaNmNON0pYVUYzOU14bTUzbkJseXBTWFBBNWVyU0NQbmxVcjhtU1piLXQtQ19sWFNubUkyaGhVdHNrNjFNQzRlNUtVOFRGUWh2ZFBsSU8zdnNmOGVuaTVzREE1ajlJejZnalZwRGxhbg?oc=5",
-    "pub": "Sun, 23 Aug 2026 15:15:00 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1283,6 +1283,14 @@
     "geo": false
    },
    {
+    "title": "Price to sales forward of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOd21Dc0tVdHBXM3FIaW9RRGRrVExOQU9iTjBnVWEwYldSeHNPcHJGWmhnVUJUdGpnR2pNRi0zZEkzc2d4Wl8xUWJEd2R0VXVuZkM5ZlRWV3F1MUhnWUpXRF9rUWJhakhFaWZjNHZ0QVJXanBScG1Yd3lEcDdLVUlsUksyd05uMXVKRDllVEp5YzBzVEl2ZkFXNE03dXNSdw?oc=5",
+    "pub": "Sun, 23 Aug 2026 15:30:26 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Dollar system in crisis: The real reason the US bailed out Japan - Geopolitical Economy Report",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRTFSZ1RNWlhmd2taNWpIdDY0RjRiNEpBNjRYbS1IUXNfZUJvb2YwaDdLd0otUmJfbzgxMjRXTUcxUHgtSTFMYmRVRFhSS293cloza1psZ0diRFdjcVpkaWJhQ1hsWUlLSVpXSF8wa1NjYlY1czMyWmgxMVlULWFDVDdGLXY0ZEhwczIwNUN3?oc=5",
     "pub": "Sun, 23 Aug 2026 13:30:58 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQMW1FY3dhbzZJT21hdHFld1dkbkhidExHZjRYeE5WUURoSDJnOVRyRldhZUtNN0tFc25JRTl3Y3JCaG9Ec3hyX2JSSnJpaUwxbDdLVzN6aVMzalJtY284OXpBdzdkWGtMdTZKQ2EybVdxUG9PMjBwWFlMdUh3TmVNSG5PdWJVRVhEdUp5X3hn?oc=5",
     "pub": "Sun, 23 Aug 2026 12:12:13 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to sales ratio of Copper One Resources Corp Warrant 2026-24.06.2027 on Copper One – NEO:CEXY.WT - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOZE55SWU5R1g2ZWd5MkFjNFlNbE5WV2xQLV9PQVE5dTJiakppdXNhY0ZEcDdQNlYxamdRT0NhNHQ0MTdvOExUQndSSXhoMXNMS3pCbmg4SGNtRnhIcWJRMlg5VzVTcUo3bS1fblZKSUMtQi1pcWY5QlRKVlVac3RFNjJ3cTNBcWhsOEhqNXdjZWJEWXlPMGZxZQ?oc=5",
-    "pub": "Sun, 23 Aug 2026 11:59:55 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    163.61,
    157.58,
    157.89,
-   158.96
+   158.97
   ],
   "uso": [
    140.92,
@@ -1610,7 +1610,7 @@
    65340.3,
    63482.0,
    64844.89,
-   77409.84
+   77425.52
   ],
   "vixts": null,
   "hyoas": [
@@ -2448,7 +2448,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-23T20:41:48+00:00",
+  "checked": "2026-08-23T20:51:46+00:00",
   "openai": {
    "found": false
   },

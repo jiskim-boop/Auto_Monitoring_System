@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T21:12:23+00:00",
+ "updated": "2026-08-24T21:22:05+00:00",
  "prices": {
   "NVDA": {
    "price": 208.48,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 18.56,
-   "chg": -9.64,
-   "chg5": -5.5,
-   "sma20": 19.48,
-   "sma50": 20.04,
-   "sma200": 21.75,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.56,
+   "sma50": 18.56,
+   "sma200": 18.56,
+   "high3m": 18.56,
    "reg": 18.56,
    "pre": null,
    "post": null,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 143.9,
-   "chg": 0.47,
-   "chg5": 4.0,
-   "sma20": 138.79,
-   "sma50": 142.99,
-   "sma200": 143.03,
+   "price": 145.64,
+   "chg": 1.21,
+   "chg5": 1.91,
+   "sma20": 138.74,
+   "sma50": 143.04,
+   "sma200": 143.05,
    "high3m": 154.82,
-   "reg": 143.9,
+   "reg": 145.64,
    "pre": null,
    "post": null,
-   "regClose": 143.9,
+   "regClose": 145.64,
    "sess": "reg",
-   "mt": 1787346046,
+   "mt": 1787605219,
    "ok": true
   },
   "^MOVE": {
@@ -803,7 +803,7 @@
   },
   "DX-Y.NYB": {
    "price": 98.99,
-   "chg": 0.19,
+   "chg": 0.2,
    "chg5": -0.65,
    "sma20": 99.76,
    "sma50": 100.47,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 98.99,
    "sess": "reg",
-   "mt": 1787605297,
+   "mt": 1787605885,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79030.28,
-   "chg": 1.64,
-   "chg5": 14.1,
-   "sma20": 67513.25,
-   "sma50": 65464.33,
-   "sma200": 69173.53,
-   "high3m": 79030.28,
-   "reg": 79030.28,
+   "price": 78860.32,
+   "chg": 1.42,
+   "chg5": 13.85,
+   "sma20": 67504.76,
+   "sma50": 65460.93,
+   "sma200": 69172.6,
+   "high3m": 78860.32,
+   "reg": 78860.32,
    "pre": null,
    "post": null,
-   "regClose": 79030.28,
+   "regClose": 78860.32,
    "sess": "reg",
-   "mt": 1787605905,
+   "mt": 1787606488,
    "ok": true
   },
   "USO": {
@@ -978,33 +978,33 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.04,
-   "chg": 0.09,
+   "price": 159.03,
+   "chg": 0.08,
    "chg5": -0.19,
    "sma20": 159.22,
    "sma50": 160.99,
    "sma200": 159.59,
    "high3m": 163.86,
-   "reg": 159.04,
+   "reg": 159.03,
    "pre": null,
    "post": null,
-   "regClose": 159.04,
+   "regClose": 159.03,
    "sess": "reg",
-   "mt": 1787605902,
+   "mt": 1787606490,
    "ok": true
   },
   "ES=F": {
-   "price": 7674.25,
+   "price": 7674.0,
    "chg": -0.22,
    "chg5": -1.22,
-   "sma20": 7681.4,
-   "sma50": 7581.28,
-   "sma200": 7273.66,
+   "sma20": 7681.39,
+   "sma50": 7581.27,
+   "sma200": 7273.65,
    "high3m": 7822.5,
-   "reg": 7674.25,
+   "reg": 7674.0,
    "pre": null,
    "post": null,
-   "regClose": 7674.25,
+   "regClose": 7674.0,
    "sess": "24h",
    "mt": 1787605198,
    "ok": true
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "BlackRock Puts TCP Capital's $671 Million of Loans on the Block - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSVRVRFFLVlhvU2FTRnN5TnpVcVhscTAwVjA4VEYyVmNaR3IyVUVwcjctMjlfbUo5SzU1ajBjMEpac0hqcVR4a2pQMlZMdXF0OE9VYzAwUFBmRGpHOU9oNDJlSXgwMDdDdS05MDhZbDQ3TXhNa3VvLUZSZm1RdTAwTUhoNGVMbVlNaThLNVFoOTg1cnNvZUdvclZWOVlNYlBKUTFsN2Rxd2RwbmZZQi1CNkxnTS13ZG03Y21qOWd5cF96cWs?oc=5",
+    "pub": "Mon, 24 Aug 2026 21:11:14 GMT",
+    "src": "Benzinga",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Colliers Philippines sees Pax Silica as potentially accelerating transformation from condo to industrial investments but also offers an important distinction from the usual data-center narrative. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNMVQ2Qk5RMVFyOXdLMUQ5S2ZzalYwcmFhY0dfdXliZ1ZHUkJrQi14ZHI5a3Vwa2lSTm1OVmEzWHhPZHJUZEpNcUxOcTFoWEtSUGx3dHlXVmJndUh1aGIwSTkzaHZtRTE4RS1tY21Rd0U3d0k3d3NacjNrWVBON2g4dHE4MjdZOExUaVp1T1BjTmhIS0hyOU9lbDBkMlJYNTRRNzEyaFIzT2hQVWN6dHJwOFZFUHotdTZ0VFRGTGdvZjdBRkdNWjZVUmVDT3hIOTBEWjlTdXk1Yw?oc=5",
     "pub": "Mon, 24 Aug 2026 20:55:42 GMT",
@@ -1163,14 +1171,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Forget CoreWeave — This Is the AI Stock You Should Instead Be Buying - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcTBNY3FBcUJ4V0xTX2lOZ05FQ2dUbGpnbGFiai1zQVpGNEtidmVGTjBJQlJtNDZmbUZtckNOamMtbnZZaHdXVkgzaEh0YWotbjJCUUtSWllpUk9qNXBNQmlndXUxWnBGclBub2JMSUNYWktQeWlaVkhyRnJscnFWTk81RkV4clFPTkJvbVFHVVIxYW5tYk9tUU1aWVFodFhqM0VfdWstWmNCQV8zUm13?oc=5",
-    "pub": "Mon, 24 Aug 2026 17:31:26 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1191,14 +1191,6 @@
     "geo": false
    },
    {
-    "title": "Is Claude Down? Anthropic Says It Fixed the Latest AI Outage - PCMag",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRTBkdnJrRXAzd1F2OGg3bk1BdEpCX3dtTmFIRlhiLUtTR3VwZ0haQS13bFVZSGdtQUh6XzYwZGN4VFU5RVM2cjNpLXB3d3pEcVBLX2NMdlJRZi05eWo3WTRJaTd1dDZYZTB6NFNGZC1uMzVXZnpoYlRRNTdKV0RPLWRtaWlmbm5mdTh4M2QtbnE?oc=5",
-    "pub": "Mon, 24 Aug 2026 19:28:20 GMT",
-    "src": "PCMag",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Live coverage: SpaceX to launch Starlink mission on a Falcon booster’s record-breaking 37th flight - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQM25rOTdTQ1BkOExQRXAydnpzS2ZTZzEtMFFBUHY1WF9fa2NVZVhucXp3bDNEa2wtZHVDMEVkVnBULXU2SDNMTGYtb0F3TWY0cUE2MEwtcTJtTlpGby1wQmEtQWk0eG90SjBSWkhLdkdfSDFBWnA2MHZ6SDAtdGNHOVhZX2dGSkNRUmZMUzdOaWFSOEpfZC1RZlVNbUlQaWlyZDhwdjQyNW9kRDI3dzZ6OFZiSGkwaUJlV0E2Z1NfM05hQTE3c2gzRTVlU28zVjMt?oc=5",
     "pub": "Mon, 24 Aug 2026 19:21:19 GMT",
@@ -1207,18 +1199,26 @@
     "geo": false
    },
    {
-    "title": "xAI loses Texas venue bid as court finds Grok terms too faint to bind - PPC Land",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSGdJN0NfdXJSTkoyRnFVNkxPV2NwYVZjVUV1TlR2Zy1qdWRkYU9fZ0RmNjkzeWVfTFBReVJCY2d5STdVOEh0QmtVc1dJVDFSc0xFM2Y2ckIycVlRS2lEQkdGc09GZzlzYjNSbV9lVlZzWXdncTdQVE9Bc205azREWEFDYWxWb1p6dFhTdW52U1c?oc=5",
-    "pub": "Mon, 24 Aug 2026 18:58:57 GMT",
-    "src": "PPC Land",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Trump bought shares in Elon Musk's SpaceX in June, financial disclosure shows - Reuters",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZHBZd3V0b2sySFhUajY0b2NBeVcwZzFLdGpNMENHWGRyMHEtX0NqYi1fUXU2a1E4UGVqS25vS3hpTkd2MW5xLVRtTi1pSnZ3R1VpZDBxY1lLLW9WbEdKdzFZbTlzbjZMRlJGQmt1OS1kTlBpZkhkbVJXYWd4elhfRTV5SENBRG80WHlhbURPeGZRYWt5TmxoN0FlSHVZb2QweFJlQWtkemoyQnRhak5ncnl6S29SWHdadjRUamdRdw?oc=5",
     "pub": "Mon, 24 Aug 2026 18:57:27 GMT",
     "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CryptoQuant analyst reports $215B entered altcoins in three days - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1sVU5YLTlXUHRSUjV4dGNvOHFEbTVEZXJ6b0txWnVLY0l2MVJHUEp0RTlndXkzNTk5RE45ZmNZVEE5RHRrdXgtM1pjVWhNYzhDakRWcXBIWG1mLXNyOFgyUW95OUlSM0E1NmlDeDlBQlY2S29VU3dv?oc=5",
+    "pub": "Mon, 24 Aug 2026 18:39:13 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CME Group builds marketplace to hedge AI risks with GPU futures contracts - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9UREJjTTRYYnFaRlc2NlNLRUxPbThYNkNDTjBmSndvREJ3YXZsZU5PZ0U3cjhUemp6eXh3NHpoOG5BSVpmbWdqNGhSODZjcTIwcHBKanE5UDJDWi1FX1BmbExkT1VpeEJDeE5zLTR1Ny1RNnN1?oc=5",
+    "pub": "Mon, 24 Aug 2026 18:29:11 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1428,7 +1428,7 @@
    "chg": 0.05
   },
   "sofr_iorb": 0.0,
-  "cape": 41.96,
+  "cape": 41.84,
   "cape_manual": false,
   "netliq": {
    "value": 5791.8,
@@ -1505,7 +1505,7 @@
    101.38,
    99.89,
    99.82,
-   99.0
+   98.99
   ],
   "bizd": [
    12.57,
@@ -1610,23 +1610,9 @@
    63724.9,
    63460.9,
    63910.59,
-   79030.28
+   78872.72
   ],
-  "vixts": [
-   0.834,
-   0.802,
-   1.104,
-   0.81,
-   0.755,
-   0.912,
-   0.824,
-   0.81,
-   0.873,
-   0.956,
-   0.848,
-   0.778,
-   0.854
-  ],
+  "vixts": null,
   "hyoas": [
    3.06,
    3.19,
@@ -1718,14 +1704,14 @@
    0.0763
   ],
   "cape": [
-   41.96,
-   41.96,
-   41.96,
-   41.96,
-   41.96,
-   41.96,
-   41.96,
-   41.96
+   41.84,
+   41.84,
+   41.84,
+   41.84,
+   41.84,
+   41.84,
+   41.84,
+   41.84
   ]
  },
  "summary": {
@@ -1755,7 +1741,9 @@
    "폭 축소(쏠림 랠리)",
    "조정 지속(고점 -5.3%)"
   ],
-  "early": [],
+  "early": [
+   "숨은 헤지"
+  ],
   "strong": 0,
   "risk": false,
   "inputs": {
@@ -2460,12 +2448,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-24T21:12:05+00:00",
+  "checked": "2026-08-24T21:21:48+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

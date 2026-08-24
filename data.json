@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T10:03:26+00:00",
+ "updated": "2026-08-24T10:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -734,21 +734,21 @@
    "post": null,
    "regClose": 15.89,
    "sess": "reg",
-   "mt": 1787564821,
+   "mt": 1787565376,
    "ok": true
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 18.5,
-   "sma50": 18.5,
-   "sma200": 18.5,
-   "high3m": 18.5,
+   "chg": -5.13,
+   "chg5": -0.38,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
+   "high3m": 22.89,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 18.5,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -803,8 +803,8 @@
   },
   "DX-Y.NYB": {
    "price": 98.98,
-   "chg": 0.19,
-   "chg5": -0.66,
+   "chg": 0.18,
+   "chg5": -0.67,
    "sma20": 99.76,
    "sma50": 100.47,
    "sma200": 99.58,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 98.98,
    "sess": "reg",
-   "mt": 1787565126,
+   "mt": 1787565686,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77545.61,
-   "chg": -0.27,
-   "chg5": 11.95,
-   "sma20": 67439.02,
-   "sma50": 65434.63,
-   "sma200": 69165.37,
+   "price": 77717.77,
+   "chg": -0.05,
+   "chg5": 12.2,
+   "sma20": 67447.63,
+   "sma50": 65438.08,
+   "sma200": 69166.32,
    "high3m": 78335.19,
-   "reg": 77545.61,
+   "reg": 77717.77,
    "pre": null,
    "post": null,
-   "regClose": 77545.61,
+   "regClose": 77717.77,
    "sess": "reg",
-   "mt": 1787565733,
+   "mt": 1787566292,
    "ok": true
   },
   "USO": {
@@ -978,35 +978,35 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.21,
+   "price": 159.2,
    "chg": 0.2,
-   "chg5": -0.01,
+   "chg5": -0.02,
    "sma20": 159.47,
    "sma50": 161.02,
    "sma200": 159.6,
    "high3m": 163.86,
-   "reg": 159.21,
+   "reg": 159.2,
    "pre": null,
    "post": null,
-   "regClose": 159.21,
+   "regClose": 159.2,
    "sess": "reg",
-   "mt": 1787565736,
+   "mt": 1787566293,
    "ok": true
   },
   "ES=F": {
-   "price": 7680.25,
+   "price": 7680.75,
    "chg": -0.14,
-   "chg5": -1.14,
-   "sma20": 7681.7,
-   "sma50": 7581.4,
-   "sma200": 7273.7,
+   "chg5": -1.13,
+   "sma20": 7681.73,
+   "sma50": 7581.41,
+   "sma200": 7273.71,
    "high3m": 7822.5,
-   "reg": 7680.25,
+   "reg": 7680.75,
    "pre": null,
    "post": null,
-   "regClose": 7680.25,
+   "regClose": 7680.75,
    "sess": "24h",
-   "mt": 1787565120,
+   "mt": 1787565690,
    "ok": true
   },
   "NQ=F": {
@@ -1022,61 +1022,61 @@
    "post": null,
    "regClose": 29234.0,
    "sess": "24h",
-   "mt": 1787565130,
+   "mt": 1787565696,
    "ok": true
   },
   "YM=F": {
-   "price": 53338.0,
-   "chg": -0.03,
+   "price": 53340.0,
+   "chg": -0.02,
    "chg5": -0.38,
-   "sma20": 53477.9,
-   "sma50": 52840.28,
-   "sma200": 50420.37,
+   "sma20": 53478.0,
+   "sma50": 52840.32,
+   "sma200": 50420.39,
    "high3m": 54494.0,
-   "reg": 53338.0,
+   "reg": 53340.0,
    "pre": null,
    "post": null,
-   "regClose": 53338.0,
+   "regClose": 53340.0,
    "sess": "24h",
-   "mt": 1787565135,
+   "mt": 1787565661,
    "ok": true
   },
   "GC=F": {
-   "price": 4698.1,
-   "chg": 1.6,
-   "chg5": 6.34,
-   "sma20": 4309.36,
-   "sma50": 4188.1,
-   "sma200": 4499.77,
-   "high3m": 4698.1,
-   "reg": 4698.1,
+   "price": 4703.7,
+   "chg": 1.72,
+   "chg5": 6.47,
+   "sma20": 4309.64,
+   "sma50": 4188.21,
+   "sma200": 4499.82,
+   "high3m": 4703.7,
+   "reg": 4703.7,
    "pre": null,
    "post": null,
-   "regClose": 4698.1,
+   "regClose": 4703.7,
    "sess": "24h",
-   "mt": 1787565130,
+   "mt": 1787565696,
    "ok": true
   },
   "CL=F": {
-   "price": 85.17,
-   "chg": -2.17,
-   "chg5": 0.79,
+   "price": 85.12,
+   "chg": -2.23,
+   "chg5": 0.73,
    "sma20": 82.32,
    "sma50": 79.04,
    "sma200": 87.85,
    "high3m": 96.02,
-   "reg": 85.17,
+   "reg": 85.12,
    "pre": null,
    "post": null,
-   "regClose": 85.17,
+   "regClose": 85.12,
    "sess": "24h",
-   "mt": 1787565136,
+   "mt": 1787565695,
    "ok": true
   },
   "HG=F": {
    "price": 6.61,
-   "chg": 0.46,
-   "chg5": 0.09,
+   "chg": 0.48,
+   "chg5": 0.11,
    "sma20": 6.54,
    "sma50": 6.37,
    "sma200": 6.14,
@@ -1086,23 +1086,23 @@
    "post": null,
    "regClose": 6.61,
    "sess": "24h",
-   "mt": 1787565123,
+   "mt": 1787565695,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.44,
-   "chg": 0.16,
-   "chg5": -0.01,
+   "price": 108.45,
+   "chg": 0.17,
+   "chg5": 0.0,
    "sma20": 108.57,
    "sma50": 109.03,
    "sma200": 110.17,
    "high3m": 110.27,
-   "reg": 108.44,
+   "reg": 108.45,
    "pre": null,
    "post": null,
-   "regClose": 108.44,
+   "regClose": 108.45,
    "sess": "24h",
-   "mt": 1787565074,
+   "mt": 1787565659,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1124,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Private credit’s quiet insurance trap - NAI500",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1CQWtXNkhPZlRNZEh5VDhjbjdmY3VSZl9jcjlEUVdnWHVNQ2FMVlBfOHBlV1BuRXRwd3dVRXQxUGxNUTgyNGhnN1lzcjNKdXFPSG83MEk1UWFTVU5DUEZOblpSbFhXNVdnVFJxSVJnUzhyNnZiMFRwcldn?oc=5",
+    "pub": "Mon, 24 Aug 2026 10:08:21 GMT",
+    "src": "NAI500",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Michael Burry Says Nvidia's $500 Billion AI Funding Deal Has 'Shades of Enron' - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBxeVZXNmlQVExzWUd5OVh6MjFaRHd1a0x1S3JqMDFrN2IwNHRmWGY1aTNuRGxxWE1xaHlMbDFYWm45bnVpMUVCQmFGUGVTcV83MmZaeEZHQXpSTGFucWVTWUdfRVAwU2pzdXhQS2Vlc2x2NEVVZ0E?oc=5",
@@ -1163,14 +1171,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Mark Walter’s sports empire offers a glimpse of the money machine behind private credit—and the plumbing keeping it together - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOLXNfa0lwS28wQm5VcDl5ZUd0ZmpZVWo1M3ZFRVpVbUViZW1NaV9VR1pUZU9EOEg3RWNzQVY1UTduVEFZNUVKS0JQWF9DWmdpZERJRHB6STdNRm1FU1FaSDlPVjlTTURjZ3JSYW9YVDgyRTBBcTZtN2hJY0F4UklYLWd2LU01bDF1emxFNw?oc=5",
-    "pub": "Sun, 23 Aug 2026 07:00:00 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1191,18 +1191,18 @@
     "geo": false
    },
    {
-    "title": "SpaceX expected to launch Louisiana coast spaceport project for Starship - San Antonio Express-News",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHlTQVVvaHp0X3hZMnd6OERQM0RvRWxtSkdaaF9yTkZaM2RIYVJWQ3Q1NG5Qb3BSa2pNd28zTHV0VmlmUGZ0bV9XYnRDZGI4a0FuXzdBOC1FWmowaXM3dS1UNWtDXzlZd2U5REZyQUtZbTdwdmQ0UWVVWXZiU2R3aGlCa25QNTY1djRUQWNnN243RWZZdnJxWg?oc=5",
-    "pub": "Mon, 24 Aug 2026 09:07:38 GMT",
-    "src": "San Antonio Express-News",
+    "title": "10 Stocks Top Fund Managers Have Been Buying Amid Market Uncertainty - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzlWT1ZIaGtrcUMzbzEta04weVZvYzFnS19YaG1FMWZLR0l5THhWYUU1RXJyZE1ZeVN1c2xmb2dlOFZObFRtMnR2dDBGRExPNFA1REVlQzZDY1pFNUN0R0Z6TV9VY3ZmRDVvUWVsVU9kVXRjX2t0WW1UR2tmaUY4N3BFOUpES0pwSGsxSWxaX2ZtYkxWdHNSbmpodlc2Q2FUUHdOeTln?oc=5",
+    "pub": "Mon, 24 Aug 2026 09:11:15 GMT",
+    "src": "Morningstar",
     "trig": false,
     "geo": false
    },
    {
-    "title": "10 Stocks Top Fund Managers Have Been Buying Amid Market Uncertainty - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzlWT1ZIaGtrcUMzbzEta04weVZvYzFnS19YaG1FMWZLR0l5THhWYUU1RXJyZE1ZeVN1c2xmb2dlOFZObFRtMnR2dDBGRExPNFA1REVlQzZDY1pFNUN0R0Z6TV9VY3ZmRDVvUWVsVU9kVXRjX2t0WW1UR2tmaUY4N3BFOUpES0pwSGsxSWxaX2ZtYkxWdHNSbmpodlc2Q2FUUHdOeTln?oc=5",
-    "pub": "Mon, 24 Aug 2026 09:02:38 GMT",
-    "src": "Morningstar",
+    "title": "SpaceX expected to launch Louisiana coast spaceport project for Starship - San Antonio Express-News",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRHlTQVVvaHp0X3hZMnd6OERQM0RvRWxtSkdaaF9yTkZaM2RIYVJWQ3Q1NG5Qb3BSa2pNd28zTHV0VmlmUGZ0bV9XYnRDZGI4a0FuXzdBOC1FWmowaXM3dS1UNWtDXzlZd2U5REZyQUtZbTdwdmQ0UWVVWXZiU2R3aGlCa25QNTY1djRUQWNnN243RWZZdnJxWg?oc=5",
+    "pub": "Mon, 24 Aug 2026 09:07:38 GMT",
+    "src": "San Antonio Express-News",
     "trig": false,
     "geo": false
    },
@@ -1275,6 +1275,30 @@
   ],
   "flow": [
    {
+    "title": "BofA: Copper takes over as mining's growth story, raises Thyssenkrupp price target - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNekFjdHlyMFJJQ3hCaEd4a1NiQ1NYNE1nSTRoRm9kVVpmYnBVSWJuQWpOOTllaWlOSUV5LThOdFF6aHlhdGNqbWJRdE9DSG00azJxeDFjdDd1QUN4YmFLUXFxLW13SXBNZDVabXpCLUJEemF2dW5jX29YUVZ3THRidU5qUzIwNlBjX2oyMlp3eWlrejdOWlVLSjFyVktmemxKaUQxU0dVNTMwcWRON1BfXzNOREZnY0owRi1hOFgwb2Rya3hZYUh0a2lOcWRoZw?oc=5",
+    "pub": "Mon, 24 Aug 2026 10:04:25 GMT",
+    "src": "marketscreener.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Canadian dollar slides as US-Canada trade tensions escalate - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOa2FmbkFiLTdrdFpzM3U0dDVpWjNyTVhtMmg5UmlnSDZaMWZ5ZFRMTy1qZ21SaVlweTJ1dUttUHQyMFdVSE1PaGIzVjBiUS1SRVBsWmROZDFsY20wSWdUYlNGQWtsay1CcmtNVzJTd1B3Z2lyd2pmQlBaVlhJZlpKTEJoUGlzTkI4dnp5RlVhUWw?oc=5",
+    "pub": "Mon, 24 Aug 2026 09:47:12 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "India lifts wheat export ban to ease global supply strain - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5lQUY0ODExNXp5V0ljclJBblFOdHZCdEFfRWFyREVDRmo5RjFtUUYtemZhcmxSSTU1YVI2TGV2WFRSb0JqYXdyVkdPRWZuSVRTX1lxLVNrdFFBaVBtWDNZdmlnVHZQajQ?oc=5",
+    "pub": "Mon, 24 Aug 2026 09:47:11 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold Hits Three-Month High as Investors Boost Safe-Haven Demand - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQnF3N2pteHpQLUdJRzhIQUVySFZUdnRCdUYwOFZCbG0xdXdQTi03S0xCM2szZXQxZTVWeEcxTXoyVTFobHJtcEtZN3YzMDF5UTdVN0VTT0I1Yjg0TWpHY21LYTA0NV9zdFdGRkF6ZExpVnRHLTRVRkprcEphT0N1Y1NCNFdMVVBIR2xuVEZHNHZWaWhUbHNCYXZMMnlnZ2tNZThFVVEtUFRpVFVqSHJKVktUUHRNNzQ?oc=5",
     "pub": "Mon, 24 Aug 2026 09:08:29 GMT",
@@ -1295,30 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBKT01WWUpLSHlydDlCOGF0Y2Y4dlU4WGc5R19wRWQwWlZnVENnWHBhSmI2TDRuam1uOHBodnA5cklIdFVram44b285dDBicUsycnFSR1ZnX0hISWxmMGZDOE9SakpMWlFYUExr?oc=5",
     "pub": "Mon, 24 Aug 2026 08:30:52 GMT",
     "src": "Banglanews24",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "British Pound hits monthly high vs weak JPY as carry trade persists - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNZVV5UmdXYjRYRDRuUk0zS3cyTFpTWGdTdHc3dDFtN2VFZDNybkx5aU5ScFh4Z3BUQ1BETWFXdURQSVdmNnMxRDhZaTg5bHFyOGdtS2dKSUxseTJBWkJWVFhNeGpLWjM2Z3BqUzhJNWczd2NZYUF2NEg5aFpPSlF3Z2dsWGl0b2hEbEtPcWxodHJwU2hBWEdhMTZ1M09iY2VoTU5KckJqbjVHeS1kREttMVhwd3NsSE1KNHNzMXQ1bHgzSW8?oc=5",
-    "pub": "Mon, 24 Aug 2026 08:08:53 GMT",
-    "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Dollar Slumps, Gold and Bitcoin Rally on Buyback News - CryptoTicker",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNMFlSMVhjd3Znemw4REpOSFY5TG5JcG9CMExialQ2Wk1iMVB0SnRuakJKYldJanBZb1NWOGhmQnJ0RjdOUjc5ZkZ1eWZacUVaVGdkQzBwYVNKMWFuMlQ5TUVOT0N3aUdDU2dlU2U4Xy1ucFdTRnp6WmVZNU85eHR3aXkwVQ?oc=5",
-    "pub": "Mon, 24 Aug 2026 06:20:44 GMT",
-    "src": "CryptoTicker",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "“Dr. Copper” Expands His Role - Cabot Wealth Network",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaEZxbmJ4Q1pzdktZcmdvWi1DYnBTSXl2Y1dsYkJSY0VZSnhKV0JKZnhaQ24tek5PbGlweEdiNDhzek9iN3VnUXNLbm4tdHJWdm9MU0hvanZHN3AtQ2pGUGhOUHB1X2xUMTFYZElVajZBTXJhTDQ5blpzaTUxUQ?oc=5",
-    "pub": "Mon, 24 Aug 2026 06:01:54 GMT",
-    "src": "Cabot Wealth Network",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    163.61,
    157.58,
    157.89,
-   159.21
+   159.2
   ],
   "uso": [
    140.92,
@@ -1610,9 +1610,23 @@
    63724.9,
    63460.9,
    63910.59,
-   77579.72
+   77790.68
   ],
-  "vixts": null,
+  "vixts": [
+   0.828,
+   0.788,
+   1.107,
+   0.919,
+   0.811,
+   0.861,
+   0.782,
+   0.783,
+   0.847,
+   0.95,
+   0.868,
+   0.823,
+   0.774
+  ],
   "hyoas": [
    3.19,
    3.24,
@@ -2450,7 +2464,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-24T10:02:56+00:00",
+  "checked": "2026-08-24T10:11:48+00:00",
   "openai": {
    "found": false
   },

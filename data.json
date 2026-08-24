@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-24T07:32:17+00:00",
+ "updated": "2026-08-24T07:41:57+00:00",
  "prices": {
   "NVDA": {
    "price": 214.72,
@@ -722,33 +722,33 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.9,
-   "chg": 5.09,
-   "chg5": 4.67,
+   "price": 15.89,
+   "chg": 5.02,
+   "chg5": 4.61,
    "sma20": 15.86,
    "sma50": 16.69,
    "sma200": 19.03,
    "high3m": 22.22,
-   "reg": 15.9,
+   "reg": 15.89,
    "pre": null,
    "post": null,
-   "regClose": 15.9,
+   "regClose": 15.89,
    "sess": "reg",
-   "mt": 1787555791,
+   "mt": 1787556376,
    "ok": true
   },
   "^VIX3M": {
    "price": 18.5,
-   "chg": -5.13,
-   "chg5": -0.38,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.78,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 18.5,
+   "sma50": 18.5,
+   "sma200": 18.5,
+   "high3m": 18.5,
    "reg": 18.5,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 18.5,
    "sess": "reg",
    "mt": 1787343301,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.9,
+   "price": 98.91,
    "chg": 0.11,
    "chg5": -0.74,
    "sma20": 99.75,
    "sma50": 100.46,
    "sma200": 99.58,
    "high3m": 101.61,
-   "reg": 98.9,
+   "reg": 98.91,
    "pre": null,
    "post": null,
-   "regClose": 98.9,
+   "regClose": 98.91,
    "sess": "reg",
-   "mt": 1787556100,
+   "mt": 1787556683,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77519.7,
-   "chg": -0.3,
-   "chg5": 11.92,
-   "sma20": 67437.72,
-   "sma50": 65434.12,
-   "sma200": 69165.23,
+   "price": 77395.5,
+   "chg": -0.46,
+   "chg5": 11.74,
+   "sma20": 67431.51,
+   "sma50": 65431.63,
+   "sma200": 69164.55,
    "high3m": 78335.19,
-   "reg": 77519.7,
+   "reg": 77395.5,
    "pre": null,
    "post": null,
-   "regClose": 77519.7,
+   "regClose": 77395.5,
    "sess": "reg",
-   "mt": 1787556703,
+   "mt": 1787557287,
    "ok": true
   },
   "USO": {
@@ -978,83 +978,83 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.12,
+   "price": 159.13,
    "chg": 0.15,
-   "chg5": -0.07,
+   "chg5": -0.06,
    "sma20": 159.47,
    "sma50": 161.02,
    "sma200": 159.6,
    "high3m": 163.86,
-   "reg": 159.12,
+   "reg": 159.13,
    "pre": null,
    "post": null,
-   "regClose": 159.12,
+   "regClose": 159.13,
    "sess": "reg",
-   "mt": 1787556709,
+   "mt": 1787557292,
    "ok": true
   },
   "ES=F": {
-   "price": 7676.0,
-   "chg": -0.2,
-   "chg5": -1.19,
-   "sma20": 7681.49,
-   "sma50": 7581.31,
-   "sma200": 7273.67,
+   "price": 7675.25,
+   "chg": -0.21,
+   "chg5": -1.2,
+   "sma20": 7681.45,
+   "sma50": 7581.3,
+   "sma200": 7273.66,
    "high3m": 7822.5,
-   "reg": 7676.0,
+   "reg": 7675.25,
    "pre": null,
    "post": null,
-   "regClose": 7676.0,
+   "regClose": 7675.25,
    "sess": "24h",
-   "mt": 1787556105,
+   "mt": 1787556691,
    "ok": true
   },
   "NQ=F": {
-   "price": 29188.5,
-   "chg": -0.68,
-   "chg5": -3.02,
-   "sma20": 29310.86,
-   "sma50": 29472.7,
-   "sma200": 27884.71,
+   "price": 29184.5,
+   "chg": -0.69,
+   "chg5": -3.03,
+   "sma20": 29310.66,
+   "sma50": 29472.62,
+   "sma200": 27884.68,
    "high3m": 30712.75,
-   "reg": 29188.5,
+   "reg": 29184.5,
    "pre": null,
    "post": null,
-   "regClose": 29188.5,
+   "regClose": 29184.5,
    "sess": "24h",
-   "mt": 1787556108,
+   "mt": 1787556693,
    "ok": true
   },
   "YM=F": {
-   "price": 53324.0,
-   "chg": -0.05,
-   "chg5": -0.41,
-   "sma20": 53477.2,
-   "sma50": 52840.0,
-   "sma200": 50420.26,
+   "price": 53303.0,
+   "chg": -0.09,
+   "chg5": -0.45,
+   "sma20": 53476.15,
+   "sma50": 52839.58,
+   "sma200": 50420.1,
    "high3m": 54494.0,
-   "reg": 53324.0,
+   "reg": 53303.0,
    "pre": null,
    "post": null,
-   "regClose": 53324.0,
+   "regClose": 53303.0,
    "sess": "24h",
-   "mt": 1787556082,
+   "mt": 1787556684,
    "ok": true
   },
   "GC=F": {
-   "price": 4701.6,
-   "chg": 1.68,
-   "chg5": 6.42,
-   "sma20": 4309.53,
-   "sma50": 4188.17,
-   "sma200": 4499.8,
-   "high3m": 4701.6,
-   "reg": 4701.6,
+   "price": 4697.4,
+   "chg": 1.59,
+   "chg5": 6.33,
+   "sma20": 4309.32,
+   "sma50": 4188.09,
+   "sma200": 4499.77,
+   "high3m": 4697.4,
+   "reg": 4697.4,
    "pre": null,
    "post": null,
-   "regClose": 4701.6,
+   "regClose": 4697.4,
    "sess": "24h",
-   "mt": 1787556110,
+   "mt": 1787556691,
    "ok": true
   },
   "CL=F": {
@@ -1070,23 +1070,23 @@
    "post": null,
    "regClose": 85.21,
    "sess": "24h",
-   "mt": 1787556109,
+   "mt": 1787556694,
    "ok": true
   },
   "HG=F": {
-   "price": 6.58,
-   "chg": 0.07,
-   "chg5": -0.3,
+   "price": 6.59,
+   "chg": 0.13,
+   "chg5": -0.24,
    "sma20": 6.54,
    "sma50": 6.37,
    "sma200": 6.14,
    "high3m": 6.7,
-   "reg": 6.58,
+   "reg": 6.59,
    "pre": null,
    "post": null,
-   "regClose": 6.58,
+   "regClose": 6.59,
    "sess": "24h",
-   "mt": 1787556110,
+   "mt": 1787556669,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.44,
    "sess": "24h",
-   "mt": 1787556112,
+   "mt": 1787556689,
    "ok": true
   },
   "EWY": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "AI: Anthropic’s mega-IPO Aims Past SpaceXAI & OpenAI. AI-RTZ #1188 - AI: Reset to Zero",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5YUkJnSk9ZdE5EUDdubHVMZ1U5cmFhckVqLWx4bE5VLUptSEdmQjNPcy1UQUdYcmtabkNJdDd5RU5jeHVEcEMwV194V296NFZlVEhZcXBBdDF0UDI1YjZZWW9sRGI1THU1S0JHLTdfX1F4cENEVGpUZQ?oc=5",
-    "pub": "Mon, 24 Aug 2026 05:02:40 GMT",
-    "src": "AI: Reset to Zero",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "NVIDIA Earnings Test AI Stocks' Resilience - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZFlZQ2M5QUtZZXByZzkwZVVVdkJ5VXdmajQ0SnNqSFNoeDhKRzB4bzFIU292N2FKLV9CTlRjcmlJX1M5MjlCbmlRUjcydk8ybXd5MDIxRl9nU3k2c2ZaaDV6OEM0OGVuSjgzN3RVYjlfNVlVU0VqV25JeWNOQkdDMlhSaUppSnRQX2IzdVBB?oc=5",
     "pub": "Mon, 24 Aug 2026 04:35:17 GMT",
@@ -1221,6 +1213,14 @@
     "src": "KED Global",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "If U.S. Long-Term Rates Stay Elevated, Liquidity Expected to Compress into Top 2 Semiconductor Names - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9kTzZmc3lReXdxeElYZnZiWXh3RWFBWTBJYnNyaGJ3U0lEdkFNX0p4U3ZhRFBrY19XdEpnY2llMUFRajdzR1R1ektVM1NvSEROQVBueklFeFdqWjRweGp2YXlkU0tBaTk2cGdKclFVYkhTYkdmWVE?oc=5",
+    "pub": "Mon, 24 Aug 2026 01:30:40 GMT",
+    "src": "finance.biggo.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1229,6 +1229,14 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOaW1QN2xSdHpyRUVqRklUX01ya1VyTnNHOHRZY1NxdDRNcTJkZnFLYjYwVVNTNURWMnA1Zi1Bc3JLNHJwVWN1TlNTX1FRaTZVMmV5aUFIVGQ1QVJOYjZ6eXltVnBnYWJmLXNSLVY1eHhPNGpFXzBqS09KMHduM0tZakQ4aURSSGxoRjFjaDZCbXhoWUZodjY3LUxubjkzTUh4bGRWaXhEcnhYNVVLWDFxT25tV2hJdXU1TWVWQy0tOA?oc=5",
     "pub": "Mon, 24 Aug 2026 07:08:41 GMT",
     "src": "Ahram Online",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "FX Daily: Dollar soft, US policy in spotlight - ING THINK economic and financial analysis | ING THINK",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPdnBjbE5OQ1hfY2s1am5mWDdzRlg3RVdDMlZoeWMyTldWRDN4enJzVEZJUzNhWkxxZUV3ZE54MDJBbmxkOVNkQm5FZzFLNFdsbW9qX2RJanktS3FDUTlVV1BybDNOU1ljdXcwWVZpb0FScHBuQTZvb0czelp2WVRseg?oc=5",
+    "pub": "Mon, 24 Aug 2026 07:04:45 GMT",
+    "src": "ING THINK economic and financial analysis | ING THINK",
     "trig": false,
     "geo": false
    },
@@ -1263,14 +1271,6 @@
     "src": "aapnews.aap.com.au",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Asia-Pacific Equities Open Mixed Amid US-Canada Trade Friction And Key Macro Catalysts - Sahi",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQbWZHOVV2VFJjUVlCVFhpanN2d200SGFfZkZ1bjA0VV9uZEhtNFJOVUdtUGN4S21KMm9WZ3JIRXVCVEpfSEFacU1IS0RFY25NME1tZGxOdnhSM0pSTWFJd25PZ3FuZksxSHRBbHd5bWhWLUdWQkVZRmJnaHhFMFNBWTlmRTRmNTdsMzV5UmhwbGV0RzBWOUREd190WGk3SXJjUHZOUldOdk5Cb19URU1aZElIdXFNc3hTOXRHY0RtdGxhUTA?oc=5",
-    "pub": "Mon, 24 Aug 2026 00:51:16 GMT",
-    "src": "Sahi",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1287,14 +1287,6 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBEaEZxbmJ4Q1pzdktZcmdvWi1DYnBTSXl2Y1dsYkJSY0VZSnhKV0JKZnhaQ24tek5PbGlweEdiNDhzek9iN3VnUXNLbm4tdHJWdm9MU0hvanZHN3AtQ2pGUGhOUHB1X2xUMTFYZElVajZBTXJhTDQ5blpzaTUxUQ?oc=5",
     "pub": "Mon, 24 Aug 2026 06:01:54 GMT",
     "src": "Cabot Wealth Network",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "What’s Driving Metal Markets Prices for Copper, Steel and Aluminum in 2026? - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPQzFtQmIyRi0xRTJDYXpZQW1PWElMeTlINWl2NDNMYlY0OUw3T0ZscjF2bzFLRFVvNU9Cb0M2YVpLeWxBYnJjMkQ5eUpFYXVtRVZqUkNqbWtZZnQ5QzJNN2tac0l5cG80bVJJY0NDVWVCTGp6QWdrWG0zQXhYaVhwcXhaU0xyakhWcmdFcndNOXRRSUtFSnVoRFZaRXVUMkkxZUQ2N2NneE5MSExsbWh1Y0J2bjFiWjZ4OU9tWEpBakJtY1E?oc=5",
-    "pub": "Mon, 24 Aug 2026 05:57:00 GMT",
-    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVEIwYkwwc1AxWVZsNDFoVXQtSEVodHFQREhRV2xYOVloNHFQVEZWMVA3ZFF3aS1VUElmOFNtWmdOUm1QenphOVNfZVI4MjhtRG1GLXNyOFpWV2wyYmVhTS05ZkdsdTNKNXp0Sm4yWlRKRk8xVHdtVVdoRW5qTTQ4ZENwalhLMWFQVGpHZ2g1M2FjbWlFOVROS3dvNzFzSGNoSWJyT2VONFBOQzBqZHZRMnVSaFM1RkRremM1QmFFQjdWYlnSAcMBQVVfeXFMT1RCMGJMMHNQMVlWbDQxaFV0LUhFaHRxUERIUVdsWDlZaDRxUFRGVjFQN2RRd2ktVVBJZjhTbVpnTlJtUHp6YTlTX2VSODI4bURtRi1zcjhaVldsMmJlYU0tOWZHbHUzSjV6dEpuMlpUSkZPMVR3bVVXaEVuak00OGRDcGpYSzFhUFRqR2doNTNhY21pRTlUTkt3bzcxc0hjaElick9lTjRQTkMwamR2UTJ1UmhTNUZEa3pjNUJhRUI3VmJZ?oc=5",
     "pub": "Mon, 24 Aug 2026 04:48:31 GMT",
     "src": "Analytics Insight",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Strive CEO says bitcoin bear market is over after breakouts against gold and dollar - 디지털투데이",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb295dDI3OWlGQkl4LXlGdktoZEVrLWFjcFdPajFrck40MnA2cEFrVFRrVkx0NkwxalRIVEpEb1JhYkVyT0VxTnhhSzdzcm8xZjAtb0dlNGJ6ZkdCYlpuOEFCZlNqR3JoNm1PNWdnTmxHSG5WZnVXUXFZblhZdVdGd19EeGdiOElmaUYtM3AtTF9IekxvU2trajFtaWxLb1dXVUJRdFdoekdNdDdkU1lBRS1RVzE5QQ?oc=5",
+    "pub": "Mon, 24 Aug 2026 04:47:08 GMT",
+    "src": "디지털투데이",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1475,7 @@
    18.21,
    16.5,
    15.28,
-   15.91
+   15.89
   ],
   "tnx": [
    4.59,
@@ -1550,7 +1550,7 @@
    163.61,
    157.58,
    157.89,
-   159.12
+   159.14
   ],
   "uso": [
    140.92,
@@ -1610,23 +1610,9 @@
    63724.9,
    63460.9,
    63910.59,
-   77513.04
+   77382.28
   ],
-  "vixts": [
-   0.828,
-   0.788,
-   1.107,
-   0.919,
-   0.811,
-   0.861,
-   0.782,
-   0.783,
-   0.847,
-   0.95,
-   0.868,
-   0.823,
-   0.775
-  ],
+  "vixts": null,
   "hyoas": [
    3.19,
    3.24,
@@ -2464,7 +2450,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-24T07:32:03+00:00",
+  "checked": "2026-08-24T07:41:46+00:00",
   "openai": {
    "found": false
   },

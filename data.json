@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T21:52:24+00:00",
+ "updated": "2026-08-26T22:03:11+00:00",
  "prices": {
   "NVDA": {
    "price": 209.66,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.14,
    "sess": "reg",
-   "mt": 1787780494,
+   "mt": 1787781116,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78729.59,
-   "chg": 0.21,
-   "chg5": 0.5,
-   "sma20": 68931.71,
-   "sma50": 66063.05,
-   "sma200": 69311.93,
+   "price": 78782.96,
+   "chg": 0.28,
+   "chg5": 0.57,
+   "sma20": 68934.38,
+   "sma50": 66064.12,
+   "sma200": 69312.22,
    "high3m": 78964.48,
-   "reg": 78729.59,
+   "reg": 78782.96,
    "pre": null,
    "post": null,
-   "regClose": 78729.59,
+   "regClose": 78782.96,
    "sess": "reg",
-   "mt": 1787781100,
+   "mt": 1787781722,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.25,
-   "chg": 0.02,
-   "chg5": 0.62,
+   "price": 159.28,
+   "chg": 0.04,
+   "chg5": 0.64,
    "sma20": 158.79,
    "sma50": 160.94,
    "sma200": 159.65,
    "high3m": 163.86,
-   "reg": 159.25,
+   "reg": 159.28,
    "pre": null,
    "post": null,
-   "regClose": 159.25,
+   "regClose": 159.28,
    "sess": "reg",
-   "mt": 1787781100,
+   "mt": 1787781724,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Grok Bot is now included with more plans - X.ai",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9wWkEtS2NGZ19UTFo2SGt3TEhKNmNtZ3plYUJIS1JzcXFkSWpKQldqRFM3TWpHa25ZVFZzR3RqR252aFhoeE9Jd1FUNm9jZw?oc=5",
+    "pub": "Wed, 26 Aug 2026 21:51:38 GMT",
+    "src": "X.ai",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "This $11 Billion ETF Owns the Companies Wiring America’s $68 Billion Data Center Boom - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNaVRGS0x3aFk2SGtacFFFSlIzOHc1LTRjbEgydWtXMmRDTUhqMlVMVWo3NWpQZ2dSLU0zS3lQTmYxb1BscWJNa2dTaWFQdnczOFFPNVRCR0V2ZTVNVExHbVROQ0hBTWtST1F5VDR2TzE4NUd2dEFJNkZjcHhsY1ZnYUZMd2lSY2J2M1JnSnRpQXpOVGtDSWtlbnBuQk5paTRGalRUS0k0TkcwU1JrblRFREl2cTVDN1JWaW1wTU1wRWh0ZVFmdHVCN1JB?oc=5",
     "pub": "Wed, 26 Aug 2026 21:43:00 GMT",
@@ -1195,14 +1203,6 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcEoyUF9Ld21PQTVDY3JLWm1rNWdISk9RazdSaFNlNFJnZHRrRFVPT1J5MXU5SzZfOXJ4ZFRDM1Vnd3hiTDhxRGRsd2xyWHpyZW5xTnNWTS1jMHNYU0lvTDRwRTZMMnVzRkFwVlZJYTN2UGRmRnZ4dTNSSk02VTQyUFFRX2lsSzBSRXotc21MOEQ?oc=5",
     "pub": "Wed, 26 Aug 2026 21:26:02 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "13 executives who left OpenAI in 2026 - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iNHVEVUk4Q252by00eEctNWhFWGFfX1NEbUwyeXZuWGNua2xRcUlmc1BvaTFBU2dadmNxOWpCUFhEWWJiMVIwYzVQV2wxc3dJTTl2RXhmV0p1T0tGVWZIQllIVnpEdWhxQlBEbTFSV2N2M1RZSzM4?oc=5",
-    "pub": "Wed, 26 Aug 2026 20:38:41 GMT",
-    "src": "Business Insider",
     "trig": false,
     "geo": false
    },
@@ -1267,7 +1267,7 @@
    {
     "title": "Kevin Warsh Just Got Another Reason to Raise Rates in September - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWnNTU3J3ZkltU3FialA3MmZJTG00WENQdUl3M2d6eWpkRk9BUzE0eVJWMW14b0E3SnEtMVZPOVVwWTNxOVBsVHpoSnJkYVlUbE1DTFNRd1pwdGZqS1d5UGJrZzV3SkpXbXpJQnBhRTY1ZGZkYVlnaVE3WEtYMHRDaEJnVVFBOXR6TFNkVXktLVNmdUlNb0pGemFwRWxlS2drTFBMYWVoQ0VGTzA?oc=5",
-    "pub": "Wed, 26 Aug 2026 15:52:51 GMT",
+    "pub": "Wed, 26 Aug 2026 15:52:00 GMT",
     "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
@@ -1550,7 +1550,7 @@
    163.3,
    157.6,
    159.33,
-   159.26
+   159.27
   ],
   "uso": [
    131.03,
@@ -1610,7 +1610,7 @@
    63908.17,
    64597.5,
    63402.43,
-   78736.88
+   78791.27
   ],
   "vixts": null,
   "hyoas": [
@@ -2212,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-24T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-24T23",
     "v": 2.73
    },
@@ -2402,6 +2398,10 @@
    {
     "d": "2026-08-26T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-26T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2443,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-26T21:52:01+00:00",
+  "checked": "2026-08-26T22:02:45+00:00",
   "openai": {
    "found": false
   },

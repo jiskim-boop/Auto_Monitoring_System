@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-26T21:22:02+00:00",
+ "updated": "2026-08-26T21:32:40+00:00",
  "prices": {
   "NVDA": {
    "price": 209.66,
@@ -164,31 +164,31 @@
   "005930.KS": {
    "price": 261500.0,
    "chg": 1.75,
-   "chg5": -2.61,
-   "sma20": 246750.0,
-   "sma50": 279810.0,
-   "sma200": 254024.18,
+   "chg5": 5.66,
+   "sma20": 248825.0,
+   "sma50": 278300.0,
+   "sma200": 254084.96,
    "high3m": 362500.0,
    "reg": 261500.0,
    "pre": null,
    "post": null,
-   "regClose": 257000.0,
+   "regClose": 261500.0,
    "sess": "reg",
    "mt": 1787725819,
    "ok": true
   },
   "000660.KS": {
    "price": 1688000.0,
-   "chg": 1.02,
-   "chg5": 1.56,
-   "sma20": 1561950.0,
-   "sma50": 1992120.0,
-   "sma200": 1633081.97,
+   "chg": 0.6,
+   "chg5": 12.53,
+   "sma20": 1568850.0,
+   "sma50": 1980120.0,
+   "sma200": 1633528.46,
    "high3m": 2919000.0,
    "reg": 1688000.0,
    "pre": null,
    "post": null,
-   "regClose": 1678000.0,
+   "regClose": 1688000.0,
    "sess": "reg",
    "mt": 1787725812,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.15,
-   "chg": 0.24,
-   "chg5": 0.33,
+   "price": 99.14,
+   "chg": 0.22,
+   "chg5": 0.31,
    "sma20": 99.55,
    "sma50": 100.44,
    "sma200": 99.6,
    "high3m": 101.61,
-   "reg": 99.15,
+   "reg": 99.14,
    "pre": null,
    "post": null,
-   "regClose": 99.15,
+   "regClose": 99.14,
    "sess": "reg",
-   "mt": 1787778685,
+   "mt": 1787779317,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78808.99,
-   "chg": 0.31,
-   "chg5": 0.6,
-   "sma20": 68935.68,
-   "sma50": 66064.64,
-   "sma200": 69312.36,
+   "price": 78659.15,
+   "chg": 0.12,
+   "chg5": 0.41,
+   "sma20": 68928.19,
+   "sma50": 66061.65,
+   "sma200": 69311.54,
    "high3m": 78964.48,
-   "reg": 78808.99,
+   "reg": 78659.15,
    "pre": null,
    "post": null,
-   "regClose": 78808.99,
+   "regClose": 78659.15,
    "sess": "reg",
-   "mt": 1787779292,
+   "mt": 1787779923,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.24,
-   "chg": 0.01,
-   "chg5": 0.61,
+   "price": 159.26,
+   "chg": 0.03,
+   "chg5": 0.62,
    "sma20": 158.79,
    "sma50": 160.94,
    "sma200": 159.65,
    "high3m": 163.86,
-   "reg": 159.24,
+   "reg": 159.26,
    "pre": null,
    "post": null,
-   "regClose": 159.24,
+   "regClose": 159.26,
    "sess": "reg",
-   "mt": 1787779292,
+   "mt": 1787779927,
    "ok": true
   },
   "ES=F": {
@@ -1133,14 +1133,6 @@
     "geo": false
    },
    {
-    "title": "This Aerospace Stock Got A Big Wall Street Nod – And It Is On Track To Hit All-Time High - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOM2pzOWZuMnlZRFVGUWxFMU95ZEJ3dERMVWpvZTdXLU1WNW9ESUFsNVpzQTJhaXg3bW1hbHZlWmNsZ0o1ZjhmbkpSYzhWM0RZZVIzNWJDcEVER09KMjd2ek9JdjJQbDRqbWRkQ2RWUF9tbzkwbG9hWjRfcURBWHVRNDZXZ3h2NmMySmVON0FscEdmeW8yS1lTbW05NnhrMUtKa0RuV3JJVzU4NTdVWXFzOXV4cEF2cElIZENiQg?oc=5",
-    "pub": "Wed, 26 Aug 2026 16:14:17 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave Q2FY26 Results: Revenue surges 112% to $2.58 billion - scanx.trade",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOU2VraWw0dmFtcUZOWktJYTM0M2JtemNfTnRlVVpZWDVkSVR1eVlrX1dvT2tkdElIeWZ5QWZmWHUtLWkzdGhadVlMTXItZ1FsZDVSd21WMHppblFmYmtZNVBMaHBLenlWSGVGbDlOb0paWGRZQkl5VHY2STlOcmVTSXUtcFdPY1FfRmdPczlWc1lEV1pJMXNzNWxHdGlHVHUxa1dCdnpGenBTNGJyWkpHdlRkWQ?oc=5",
     "pub": "Wed, 26 Aug 2026 16:14:06 GMT",
@@ -1171,14 +1163,30 @@
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "'Big Short' investor Michael Burry says a big threat to the AI boom is lurking in private credit - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxNWjRlNTItdk8xUVRsSlhuN0dfeF9NUDB1THpEWUp0eGRzMGxBQ1ZuQUt5MXdlc243VE53T3hJeVNiTVlwc0Q1dUJuTHY4aGtrSW1GdEhlMnVxZHdiR3pyTWtRVEV0VG5BWGNBdVkzcGkwTUpjWnRFMUZ0ZUlMVnBlcTB0Q2RScUtJVk13U1hLbDJQTnp5NDJ4ODBTQnNGZy1KeHh1bGM0ZV81UmhVS2RuQzV4VzRKVFM1YmpQeXNNZDR1MnVMdWhCOFJic0NzbVZLLVJ3bXdmdkdCOS1YeV8xUVZnSEJYOTIza1lfdU9yT2NrQ2Vla1RvS2VCM2hJdU9uZVhqaF9TNVFQZw?oc=5",
+    "pub": "Wed, 26 Aug 2026 06:51:52 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Salesforce Profit, Revenue Rise, Expands Partnership with Anthropic’s Claude - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSFpqV2tQWnJEcXhJRUJhZVFIblRMOWV2NDBCenVXcFh0M3N6YWpCcXZ2MGZueXowZWlaQy1uUXdEY3JVUzBHcVk4dHZKWHNkSHh4d0NEZ0RIVUQwZXZhdjZYLVdWNy1lZjNSRXR4akhmRTZSaEo1dTVIQlAyeVByMV9UX0V2aE9LNzRCUDBqaGNzLWY3Z2xibWFHbTF1amM4akhRZGlpWUFKQWtkWmZuWXhKU3QzTExPaWFQRQ?oc=5",
-    "pub": "Wed, 26 Aug 2026 20:24:00 GMT",
-    "src": "WSJ",
+    "title": "The AI CapEx Trifecta: Grid, Gear, And Local Pushback (NASDAQ:SMH) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQcEoyUF9Ld21PQTVDY3JLWm1rNWdISk9RazdSaFNlNFJnZHRrRFVPT1J5MXU5SzZfOXJ4ZFRDM1Vnd3hiTDhxRGRsd2xyWHpyZW5xTnNWTS1jMHNYU0lvTDRwRTZMMnVzRkFwVlZJYTN2UGRmRnZ4dTNSSk02VTQyUFFRX2lsSzBSRXotc21MOEQ?oc=5",
+    "pub": "Wed, 26 Aug 2026 21:26:02 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "13 executives who left OpenAI in 2026 - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iNHVEVUk4Q252by00eEctNWhFWGFfX1NEbUwyeXZuWGNua2xRcUlmc1BvaTFBU2dadmNxOWpCUFhEWWJiMVIwYzVQV2wxc3dJTTl2RXhmV0p1T0tGVWZIQllIVnpEdWhxQlBEbTFSV2N2M1RZSzM4?oc=5",
+    "pub": "Wed, 26 Aug 2026 20:38:41 GMT",
+    "src": "Business Insider",
     "trig": false,
     "geo": false
    },
@@ -1207,18 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Louisiana governor ‘not concerned’ about environmental impact of Gulf Coast SpaceX facility - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQUUloSThSSWVlN1JfcVBObmVzcGhvS215T1BnNl9pNWZFWDZWNkJ6S25JeVBCNE8wQ2oyOUlBM3VDYS1sSU8ya3BKQ0UyMThFcGE1VmI5ZkhjZmZ2eDNaby1Fc3F1OThHbGZGSUliZkZvVkRoY1ZTUkxGOGlXOGx6SlUwUFg4d1hpTlZhU182VnVJWmtiMUREMXVR0gGfAUFVX3lxTE1TNlpuN2ZncVduSmVuNXNHbHhkbzBkY0libGNiTHpEMUl0Y2xfbXhGY19FWnJreGUyd1VueGFNdTNIc0Z4SkpINm9xWGM0RHl3d2pwSGloWDQ1QXJQcUwwdkpJaDZzY0FyTXBVcGlibWw5VHdib0hLT1R0amlPSXBEY1pQYlV5RThhajFGS1RVaW42VFczNmVWaVo4b0NmSQ?oc=5",
-    "pub": "Wed, 26 Aug 2026 19:55:00 GMT",
-    "src": "The Hill",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "13 executives who left OpenAI in 2026 - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1iNHVEVUk4Q252by00eEctNWhFWGFfX1NEbUwyeXZuWGNua2xRcUlmc1BvaTFBU2dadmNxOWpCUFhEWWJiMVIwYzVQV2wxc3dJTTl2RXhmV0p1T0tGVWZIQllIVnpEdWhxQlBEbTFSV2N2M1RZSzM4?oc=5",
-    "pub": "Wed, 26 Aug 2026 19:38:42 GMT",
-    "src": "Business Insider",
+    "title": "How do we explain OpenAI’s executive exodus? - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPSnVHRnFsUmo5Tk0tOHJVQnFNaWpqOFFvNTNGMkpjVWVSTURwd092RzMxcXBLNlVPcUh5LUhRT0lTRktQMVRteGcweXBrai16a3U2WDN6VE1KdXozay1LeEFvaU5HWFRNaElzOUZfb21zZE9NSjJjSDFUSTdjei1xZUhTbw?oc=5",
+    "pub": "Wed, 26 Aug 2026 19:34:04 GMT",
+    "src": "TechCrunch",
     "trig": false,
     "geo": false
    }
@@ -1265,15 +1265,23 @@
     "geo": false
    },
    {
-    "title": "Kevin Warsh Just Got Another Reason to Raise Rates in September - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQWnNTU3J3ZkltU3FialA3MmZJTG00WENQdUl3M2d6eWpkRk9BUzE0eVJWMW14b0E3SnEtMVZPOVVwWTNxOVBsVHpoSnJkYVlUbE1DTFNRd1pwdGZqS1d5UGJrZzV3SkpXbXpJQnBhRTY1ZGZkYVlnaVE3WEtYMHRDaEJnVVFBOXR6TFNkVXktLVNmdUlNb0pGemFwRWxlS2drTFBMYWVoQ0VGTzA?oc=5",
-    "pub": "Wed, 26 Aug 2026 15:52:51 GMT",
-    "src": "24/7 Wall St.",
+    "title": "Oil prices dip as optimism over Iran trumps new fears of a Russian escalation in Ukraine - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS3NPa3NJalRQcVRiUjVQa1NhN295bGVBWDZUWV9faktoMXhQLXpFVnQ0WnVrTDMtMTI1cC1nampaZkZVVHdNRzluNTBodVIyeGVqTjBEeUFtS25Ldk5MaHk3dzVDZXVpRXNrYVpUX3FYNXJIbk1LMDhZdjBqbS1CUVE5ZmIydW0wbXZGM01JQTBJeWZCUlE?oc=5",
+    "pub": "Wed, 26 Aug 2026 17:27:41 GMT",
+    "src": "NBC News",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Global oil prices cross $100 a barrel as Iran war sends fuel prices surging - ABC7 Los Angeles",
+    "link": "https://news.google.com/rss/articles/CBMisghBVV95cUxOX3d2WFZ0b0ZWSlVKWkY3SHJoOFphVnZFZUUxeDQxVnB3T21ySE1sQ05YWGhSdGlseVg1NGlXcVV2SGpkMFB5RFVVOXdBMEJtN1BjOXZBUGdrcUNWUmk2YWRJVkZWNllQQmVuV0g1RUw2NEtNNTROVGhqSnBWMUtqNEEyVEJybTZXN3VtaFFEcUpHRVFJckk0eXRBbUc0eWFVSnhCYXVDRWw1YnJ3ZlU4ek1nUk5iQ2dMS3ZuQkY0anlkcF9DSXF2RlI1Tzd3R1dPLTgtR0tacmkyV284TFpBSEpuMHNYMGdfSHJHOUVBd1BGSDZCNnhMbnpaLUg4bFBnT1lLWXVEZ19BSUdtRWszdzlRbHRqYVVXUGlOVVR2Y182dGMwYTBJcFFLSGdzQ25aQXRXakhZTk1jN0FEcmZSSzFmUjBvVXhaZlY4NEFRVGd0aG9LSlBWN0wzN0I5T2hLNXc3OEd6MGFraWpISFN1blg1Q3pERS1YZ0tkUXRnaUN2LWtJVjNGOHZZYWVJY2xaXzVNSlVNU1RjQk1kc1hRZlkyY2o5ZnNaOVVHd3NVVG5MNjZVblMtSnNZYnBKQlJaNHo5LWlxQXd6V3VzekdvZ2haQzBqeVFZSTZPMkxnS2Z5R2dkbERFeWZicmxiakU4VmtLUlZMSkJuT0dibVFJSzI3WkJHRTk0cXUxN1lCaVRjOVRiYXJ3TXRKRGRWWHAxYjA1TURFZC1La1hPdnVmMm9kMThQM1QwX3BDQnhHd0ZFMnpiRF9sUl9Xc1dKd3RPU3ZzQTBDV0NpUXhZamNGWk1ZMVEtSURocnkwczRUNXVremkydjRFaG4zUGNaTVJHamVFaEJaVW0yUmZaMXlGUEVXMXNCZ2VWNnRCUnVDZF9Weng4cHZPR0FoNjc3R3A0d0hfVXZWcjlSWU5BYnc1eVlXSFQ5WjAyOExhLU9LYWxNS1BIYzZiMU1GRGNpckFWYVVUenpQZE1tN3J3ZENncmdIN3R1ZllidWZVYWJNUzJVVEpybVB4YThRdXRXWGtMNGJsamRIMDlLeEZhbEdjaHhyUzl2ZW5aMkxWOERGaGpibldXd0Q2azJCWTluZktiTHlKbVUxOEc1UmFVWGFPekpoYlBiZUlTci10WWQxS2Z1MWZmS1NZUlh2VUdSTE1MeFQtTy1HZ09HeUdiWGlFaTY0eUJvYk5mNnhaRzBMbm9zMjItX1Y0bkJTUERZUThSTDlTYjZEVjlLZWtDczVjWkJSUEd5U2NvbjFiT2pKWHNZWEs1Y1dTVUNqYjNPSFYtNjJJcDFaaXhHZFpnTlA0RnFCNFg5eklCSjJla2ZMLWpBVlM3X1BLd3lXcmo2RmpfS1RmZnBqWEFWcWtpc2l4Rk1UQzBqZmRwbzBpeU1kU2N6Q3lyNWFDT0VNc25TRHBOMmc?oc=5",
+    "pub": "Wed, 26 Aug 2026 20:17:39 GMT",
+    "src": "ABC7 Los Angeles",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Aramco Finds a New Way to Keep Saudi Crude Flowing to China - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPbTJaY0EwVU92c2xSdmpyZjUyM0kyQ2FNQ0tzeWJVN3J1VzJPczA0SS15b2l5a250UjNxWVp3bXFtZnc0czdZdmdOc0tOUFFoeGlaMWxPY25OMS1kWmFudDZ0MjdhUHY1aG5xdjhTUTY2OF9HWm5oUzhPTVM2TWd3UUZ4SnNoaVRzOF9iWDRaOUFUVHJ4QjhNYmZKbXhhcnVyZW9tX9IBqgFBVV95cUxPNm9VSy1EX0VNbk5TVmRkZmJJOHk2SE1uSXBVTkpBYUtKZERYTE5WX3VFbU1YR0ozejdZWUhYU0h0dXFiMHJvMDVzYzg5a0ZPeF9sRjFQV0RWVVRLMlo0Tm9hZkNEQVhneG9vd3pXbVR0cVlmZGs5ZGNGR2VTaWFXN1I5d3gyaGQ3UXd4Szk5dlhXdVFNaUdRUlVkdktsU3FYeWZKcWpuYnRGdw?oc=5",
@@ -1299,26 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Oil prices tumble amid renewed optimism over the Strait of Hormuz - NBC News",
+    "title": "Oil prices dip as optimism over Iran trumps new fears of a Russian escalation in Ukraine - NBC News",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNS3NPa3NJalRQcVRiUjVQa1NhN295bGVBWDZUWV9faktoMXhQLXpFVnQ0WnVrTDMtMTI1cC1nampaZkZVVHdNRzluNTBodVIyeGVqTjBEeUFtS25Ldk5MaHk3dzVDZXVpRXNrYVpUX3FYNXJIbk1LMDhZdjBqbS1CUVE5ZmIydW0wbXZGM01JQTBJeWZCUlE?oc=5",
     "pub": "Wed, 26 Aug 2026 17:27:41 GMT",
     "src": "NBC News",
     "trig": false,
-    "geo": true
+    "geo": false
    },
    {
     "title": "Copper price notches another record before retreating as squeeze eases - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQdjVkeFFvTmN4WWRIUWI1OFpGdmY3TUhaYXVPVzdpUDQtUGFocjF3Y2FfWjhPcWFoTC1jeHFIdjhLX25BZDRFTXJJNFQ4eHRmblFuUl9xVFF5UGRiR1ppeWpMdFlmWmduSnVoR3RDeHJlNEM3QWVJVnpBakRyLUZMUWpwWW9yX2dabmhPOFNqdlpxUXduYTNBZC1B?oc=5",
     "pub": "Wed, 26 Aug 2026 17:02:19 GMT",
     "src": "Mining.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Wed, 26 Aug 2026 16:54:54 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    100.01,
    99.97,
    99.96,
-   99.15
+   99.14
   ],
   "bizd": [
    12.57,
@@ -1550,7 +1550,7 @@
    163.3,
    157.6,
    159.33,
-   159.25
+   159.26
   ],
   "uso": [
    131.03,
@@ -1610,7 +1610,7 @@
    63908.17,
    64597.5,
    63402.43,
-   78809.41
+   78668.34
   ],
   "vixts": null,
   "hyoas": [
@@ -1715,7 +1715,7 @@
   ]
  },
  "summary": {
-  "text": "중동 긴장 완화로 유가 하락 중이나, 미 금리 4.66%와 실러CAPE 42의 고평가 환경에서 Fed 인상 우려가 신용스프레드(2.70%)를 압박하고 있으며, 사모대출 시장의 구조적 위험이 금융위기 전 신호로 지목되고 있다. AI 인프라 수요는 견조하나 OpenAI 경영진 이탈과 Anthropic IPO 신중론이 제기되며, 공급 부족이 지속되는 가운데 업계 리더십 불확실성이 고조되고 있다.",
+  "text": "지정학 리스크와 인플레이션 둔화 속 달러 강세(DXY 99.1)와 신용스프레드 확대(HY 2.70%)가 심화되는 가운데, 사모대출 시장의 소매 확산이 신용 리스크 요인으로 부상하고 있다. AI 인프라 수급 불균형 해소를 위한 대규모 capex 투자가 진행 중이나, 전력·환경 제약과 인력 수급이 걸림돌로 작용하는 상황이다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1725,11 +1725,10 @@
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2443,7 +2442,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-26T21:21:48+00:00",
+  "checked": "2026-08-26T21:32:21+00:00",
   "openai": {
    "found": false
   },

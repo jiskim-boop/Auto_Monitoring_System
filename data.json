@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T21:22:05+00:00",
+ "updated": "2026-08-27T21:32:33+00:00",
  "prices": {
   "NVDA": {
    "price": 227.98,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 266000.0,
-   "chg": 3.5,
-   "chg5": 7.47,
-   "sma20": 248825.0,
-   "sma50": 278300.0,
-   "sma200": 254380.74,
+   "chg": 1.72,
+   "chg5": -1.85,
+   "sma20": 251700.0,
+   "sma50": 276760.0,
+   "sma200": 254475.2,
    "high3m": 362500.0,
    "reg": 266000.0,
    "pre": null,
    "post": null,
-   "regClose": 261500.0,
+   "regClose": 266000.0,
    "sess": "reg",
    "mt": 1787812211,
    "ok": true
   },
   "000660.KS": {
    "price": 1730000.0,
-   "chg": 3.1,
-   "chg5": 15.33,
-   "sma20": 1568850.0,
-   "sma50": 1980120.0,
-   "sma200": 1637909.84,
+   "chg": 2.49,
+   "chg5": 2.31,
+   "sma20": 1585300.0,
+   "sma50": 1967080.0,
+   "sma200": 1638658.54,
    "high3m": 2919000.0,
    "reg": 1730000.0,
    "pre": null,
    "post": null,
-   "regClose": 1688000.0,
+   "regClose": 1730000.0,
    "sess": "reg",
    "mt": 1787812211,
    "ok": true
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.56,
-   "chg": -14.51,
-   "chg5": -10.59,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.76,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.56,
+   "sma50": 17.56,
+   "sma200": 17.56,
+   "high3m": 17.56,
    "reg": 17.56,
    "pre": null,
    "post": null,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.15,
-   "chg": -0.02,
-   "chg5": 0.25,
+   "price": 99.13,
+   "chg": -0.04,
+   "chg5": 0.23,
    "sma20": 99.51,
    "sma50": 100.43,
    "sma200": 99.62,
    "high3m": 101.61,
-   "reg": 99.15,
+   "reg": 99.13,
    "pre": null,
    "post": null,
-   "regClose": 99.15,
+   "regClose": 99.13,
    "sess": "reg",
-   "mt": 1787865089,
+   "mt": 1787865713,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80001.76,
-   "chg": 1.23,
-   "chg5": 3.79,
-   "sma20": 69702.68,
-   "sma50": 66423.9,
-   "sma200": 69382.51,
-   "high3m": 80001.76,
-   "reg": 80001.76,
+   "price": 80080.14,
+   "chg": 1.33,
+   "chg5": 3.89,
+   "sma20": 69706.6,
+   "sma50": 66425.46,
+   "sma200": 69382.94,
+   "high3m": 80080.14,
+   "reg": 80080.14,
    "pre": null,
    "post": null,
-   "regClose": 80001.76,
+   "regClose": 80080.14,
    "sess": "reg",
-   "mt": 1787865692,
+   "mt": 1787866316,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.39,
-   "chg": 0.09,
-   "chg5": 0.32,
+   "price": 159.36,
+   "chg": 0.07,
+   "chg5": 0.3,
    "sma20": 158.75,
    "sma50": 160.9,
    "sma200": 159.68,
    "high3m": 163.86,
-   "reg": 159.39,
+   "reg": 159.36,
    "pre": null,
    "post": null,
-   "regClose": 159.39,
+   "regClose": 159.36,
    "sess": "reg",
-   "mt": 1787865696,
+   "mt": 1787866318,
    "ok": true
   },
   "ES=F": {
@@ -1215,15 +1215,39 @@
     "geo": false
    },
    {
-    "title": "Anthropic Considers Letting Shareholders Sell In IPO, Departing from SpaceX Playbook - The Information",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNRlBPakdvNTViSHNvdWxubjlLejMtS0dwbkdseEczM0NlelloNENycmdNYlNQbHhTZVI0OWtxbEtZczR0OXVPRmpKZkhuRXRtTW05ZF9KV3ZPaWpaTnNnZlpYM0dWNVhrM0VCakMzNTJpQzZ1X1ZEUUFEd3h0Q3JPVTNLSFJlR0VXN21ONVZvRjFTREFnVVdoR1NDNmVHc25PcHhTVVB0TllWMmc0a0tCOEdZcHZ3dw?oc=5",
-    "pub": "Thu, 27 Aug 2026 18:12:00 GMT",
-    "src": "The Information",
+    "title": "FSU shooting survivor sues OpenAI, claims ChatGPT helped plan fatal campus attack - WTXL ABC 27 Tallahassee News",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOblFLVk52dWk5QW1CQWljS0NsOUJkTkVDR080T0RjeEgyVnZRM2RzU2hnSVRuZklfUGRVNnVyeXpxVWZlQUNZOTV4VFJhd2V3RU9VaElpdTY0cWNPZDJ4VGRKZkdYTUhkUWFueDJnNDR2VTBRRUdZd1FiSU1HM2dxMDR3MXF0VHhtNmhuc2tzZkQ3VVFrU041NVNMVHkxb0IxUGJ6S05EU09pZw?oc=5",
+    "pub": "Thu, 27 Aug 2026 18:44:41 GMT",
+    "src": "WTXL ABC 27 Tallahassee News",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Middle East war, oil prices expected to push Alberta’s budget back into the black - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkNjWE03b2FRRThyNERFNXZia1U5WERxdGtIdnVQUzNiUFNYMldfSVVITE5CUDJkWlhqTVpwQlBKZ2Ftd3I0ekI4Y0R1c3EzRDNTZ0NkZzJLRXVfWVd5VkZMR0JqeFJaUHRScWNWa3hRcWxVc0hGeG9YN2tielFKZ3pXeHZHX3c?oc=5",
+    "pub": "Thu, 27 Aug 2026 21:15:50 GMT",
+    "src": "Yahoo! Finance Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Intraday Stocks for Today, 28 August 2026 - Univest",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsMUJBMWk5UHEzNzZRRWZyd0lhX0RrN014dUljcjQxV1dBM1BhOUNrQlliY1ludmxkTk5SOUtJbjRsTS1rUUYwd3dxMmt2eXo0VWNzQk53YkZRbFN5Rk5mTXFlcWFpWkwtZnFDU3JMUEEwLUk?oc=5",
+    "pub": "Thu, 27 Aug 2026 19:57:33 GMT",
+    "src": "Univest",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Russia says it could strike UK military targets in response to Kyiv's use of British missiles - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVB4M2NDa28tblBTTVZjdGtZb3d5MGtYMURzeDBCYmVqYjRxbzEzOHh3aFpRRUpIdDl2RW5scE5USEIwOWQ4eXZYWmV6dEN2aG9Uc2VfY0dkRTBxb28yYXFqYkhJeFU2aGJxaTdWR1gwVXZNejdXaXZScjdPTlk5NDFFWXlBNW1NQUR4M2pqQVNkNzFXZWxOOVFsQUVLT0EyeHFjNF84Z3lGQzN1X1dNTGtwc3luOThCLUV4eDR5alBwT2F5VmhLeA?oc=5",
+    "pub": "Thu, 27 Aug 2026 17:52:19 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OPEC+ Can’t Control Oil Prices Like It Used To. China Is Filling the Power Vacuum. - International Business Times",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSVM3NGhoR0U1YW45eGVKSlJUVjhzRlNoMURydVNSMDBDVHJJV28tWjRRbGp1T3E5cDc3cVdfNmJOVnZVN1lHLVlJYjRBaGJ2MVlnX1k0NndSeHRYaXotZE5vN0FabUtNYV9PZHBYWmNoV3QtSHFUZmdpZFZtZkc4dHNpRGZOQm0tUGdwb3FENWhDN1VLaEx1M3pxblFlZjZxb0E?oc=5",
@@ -1241,34 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Middle East war, oil prices expected to push Alberta’s budget back into the black - The Spec",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNSGU1WWVWZWpUOUhKLXhIV3J2RlIyVDA1cEdQSjJFVlozODNjcms3bGpvUlgwRkhPcVprQl9GekxzWW0xTnJDNlZSWlZfOXpOOTk5TGVIWTZmeEE3SzdjRk1nZ3RNOXlFYVVQTUpuamFublJRVTNtajg4Mlc1VHBBNTl3UXc5eFpNbDU1N2haNmowdV9ULXBZalBEUjYtbldkakxzV3BFMVduYVFwNFlVekJGOEduWUxMTjdHQ1NLOU1hckgwTVNQcHAyWVNxZnQtUHQyYWQwQkNHTjhtdU9zVXFiUHVfNVZ6WDQySEo5aw?oc=5",
-    "pub": "Thu, 27 Aug 2026 17:12:49 GMT",
-    "src": "The Spec",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why is US Stock Market Up Today? Dow Jones Rises 0.29%, S&P 500 Gains 0.62%, Nasdaq Jumps 1.27% Ahead Of Nvidia Earnings, PCE Inflation Data & Fed Rate Outlook; Check What Investors Should Know - The Sunday Guardian",
     "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxPMUJDVVNyTnBMTEZDbEZpWXhsM1RpV1RJUVo1ZDYwT0ZkVl8yNXZ4dUREY2Ixdm1tbEdXMGZ0clE0XzhpZFFzS2FkRHZKZ3hrZnJYTy1obkJrTnpqUXhlZ1FNRE5wRVNleUdORjlLd1JjREladDRoSWxTRmU4Rm1NNTlDc3loS0hTUHR3NkF1MDJ5a1VYUERWNE9xcjFvRGxWTFkwQmstZ2tCOGs3ZzBwZ1o4YjhnNGd0ODVDQjZYczJWVmM2c3l4SV9hcE1qT0VYaVlzQ2w0YnZXbW5PNGlMSDdDemZoZXAxSjVSZlZxa3Z4dDBPbk0zcWNEN1FyVE4tWjB1QmdMSFN1aGdmdTMyRTVxY3JMcTNMSjVoRXF2LXd4Qkx6SEpFQ1lmR1prakhQVElyU1pWZmh4YXBWUTNyNWx3MWU1OG5vSmpj0gHQAkFVX3lxTFBUelpSZV80NnUyZ1FURWVmRGMtLVVBZVVaNkN3OGlPZDhLaTFwU3RRYnBHZnYzYlNvWFpjOFdHSW4xMjRER3Q4UVhXaVBKekVrQWgtU1l3MElSQnFvR3NCT3Q3dDlDNDQ0dHBHS25XZFFHaURGc2VlX1ZvN2RrbnpFRkYyRWgzMnFvYjhGS0YwSTdJMnVrX3FDRjZ6alp0SVMyVXRXNDkwSUMzUTdEYkt4YUI3WXByd0hja1lyYnM4TWVUVXI2dUZLVWc2R0VjYTFjSEs0WFY2UTEzWGw4OTV3dW40RFE2NEVob1pvYUpQSVdONlBlcXpRME16Y0VuMEdacU9PbGgtSWVmeWJQWmR5ZGlNZDF6WEtxN1J6UEl1RnFMaGRTOHdDSGlBdV9rYUJvcWpUaFdub1NHY1JPX3lCNUlZdGpuUGtvUkxxbS1peA?oc=5",
     "pub": "Thu, 27 Aug 2026 16:36:17 GMT",
     "src": "The Sunday Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Cleveland Fed President Hammack Reaffirms Support for Rate Hikes, Warning of Stubborn Inflation - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lcUxacUtETjFNaTlkT2VTQVVvNzRFcW94QkpORzQ2TkNmSXJqR2xGQjBQU0xVUm1qdTdjYWtEN2JhT0tldm42TnR3Mk52YTg2WGE3NTVPWGN1N1dRb2V1UkxUaU1aOG9PeHpDOTFvYmdDd1VsM2c?oc=5",
-    "pub": "Thu, 27 Aug 2026 16:25:00 GMT",
-    "src": "finance.biggo.com",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Oil prices rise as investors weigh lack of progress in Middle East negotiations - sundayworld.co.za",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOcHkyVVBSUXNGT2hqdXhEYm1OdXlCeWhOSUhpOF9YYlA1cUZIZGQwWU1pR0x5U2JDVUJxQnRFcGpvc3NXekpwN05jaGNjUWJBM2NHUGZ3b2JXb3EtSF9QTFg5Rm0zbVl2VFhZMWVNcXVEQWFCeUJyemdPd0tYUGltTTBmcFlma2RaQjBmTG45YUtndlZRcmUzRzI2RE9EeW5Qb1VmVXdWa0RobjJSZkhIXw?oc=5",
-    "pub": "Thu, 27 Aug 2026 16:00:36 GMT",
-    "src": "sundayworld.co.za",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "White House Signals Possible Gold Price Revaluation: What It Means for Markets - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbUFzVnBTTnB3QkhubmhMdlFlV0xZaFB4M0RTYWMwUURvQVJ6YmFZTHU4OVJISUdtNWdSdmVXbkItRzVHQkE5bUlVVjU3bE5kd3UzczhCR0ZET2k0d0NxX1BUZ043NF9jcHpGSy10ZHRmWjE0dWx2a0VOUHVmanFNTXB2QlNzQQ?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:08:31 GMT",
-    "src": "CryptoRank",
+    "title": "When Will Crude Oil Prices Stabilize? - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkM5eEFJbEttTkFtTk5GTHpPYXhFeDBkTVJCYWRka0ZubzhGbmhoV3Q1YmRqYy1YLWdZdnpFaGlpUEdORlF3ZGtSVk1JdGZYLVppOUJ1ZVRHdGJTakdqWkN2anp0RE9VNnVlRkw3dFJ2YkJYUXJkSWd2czA5dnNudDBfcGV3Zk0?oc=5",
+    "pub": "Thu, 27 Aug 2026 19:00:02 GMT",
+    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    99.8,
    99.6,
    99.67,
-   99.15
+   99.13
   ],
   "bizd": [
    12.59,
@@ -1610,23 +1610,9 @@
    64725.31,
    64262.11,
    63402.17,
-   80001.76
+   80119.47
   ],
-  "vixts": [
-   0.852,
-   0.827,
-   1.155,
-   0.865,
-   0.921,
-   0.827,
-   0.761,
-   0.923,
-   0.978,
-   0.84,
-   0.766,
-   0.726,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.28,
    3.21,
@@ -2453,7 +2439,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-27T21:21:52+00:00",
+  "checked": "2026-08-27T21:32:19+00:00",
   "openai": {
    "found": false
   },

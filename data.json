@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-27T20:02:34+00:00",
+ "updated": "2026-08-27T20:12:04+00:00",
  "prices": {
   "NVDA": {
-   "price": 227.98,
-   "chg": 8.74,
-   "chg5": 5.13,
-   "sma20": 217.21,
-   "sma50": 208.16,
-   "sma200": 202.02,
-   "high3m": 227.98,
-   "reg": 227.98,
-   "pre": null,
-   "post": null,
-   "regClose": 227.98,
-   "sess": "reg",
-   "mt": 1787860800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 371.54,
@@ -722,51 +710,51 @@
    "ok": true
   },
   "^VIX": {
-   "price": 14.49,
-   "chg": -4.73,
-   "chg5": -9.49,
+   "price": 14.46,
+   "chg": -4.93,
+   "chg5": -9.68,
    "sma20": 15.32,
    "sma50": 16.59,
    "sma200": 18.94,
    "high3m": 22.22,
-   "reg": 14.49,
+   "reg": 14.46,
    "pre": null,
    "post": null,
-   "regClose": 14.49,
+   "regClose": 14.46,
    "sess": "reg",
-   "mt": 1787860006,
+   "mt": 1787860576,
    "ok": true
   },
   "^VIX3M": {
-   "price": 17.49,
+   "price": 17.5,
    "chg": 0.0,
    "chg5": null,
-   "sma20": 17.49,
-   "sma50": 17.49,
-   "sma200": 17.49,
-   "high3m": 17.49,
-   "reg": 17.49,
+   "sma20": 17.5,
+   "sma50": 17.5,
+   "sma200": 17.5,
+   "high3m": 17.5,
+   "reg": 17.5,
    "pre": null,
    "post": null,
-   "regClose": 17.49,
+   "regClose": 17.5,
    "sess": "reg",
-   "mt": 1787860006,
+   "mt": 1787860576,
    "ok": true
   },
   "^VVIX": {
-   "price": 82.58,
-   "chg": -3.12,
-   "chg5": -8.1,
-   "sma20": 89.25,
+   "price": 82.75,
+   "chg": -2.92,
+   "chg5": -7.91,
+   "sma20": 89.26,
    "sma50": 92.3,
    "sma200": 99.63,
    "high3m": 109.47,
-   "reg": 82.58,
+   "reg": 82.75,
    "pre": null,
    "post": null,
-   "regClose": 82.58,
+   "regClose": 82.75,
    "sess": "reg",
-   "mt": 1787860006,
+   "mt": 1787860576,
    "ok": true
   },
   "^SKEW": {
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.16,
-   "chg": -0.01,
-   "chg5": 0.27,
+   "price": 99.15,
+   "chg": -0.02,
+   "chg5": 0.26,
    "sma20": 99.51,
    "sma50": 100.43,
    "sma200": 99.62,
    "high3m": 101.61,
-   "reg": 99.16,
+   "reg": 99.15,
    "pre": null,
    "post": null,
-   "regClose": 99.16,
+   "regClose": 99.15,
    "sess": "reg",
-   "mt": 1787860317,
+   "mt": 1787860889,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79891.88,
-   "chg": 1.09,
-   "chg5": 3.64,
-   "sma20": 69697.19,
-   "sma50": 66421.7,
-   "sma200": 69381.91,
-   "high3m": 79891.88,
-   "reg": 79891.88,
+   "price": 79986.92,
+   "chg": 1.21,
+   "chg5": 3.77,
+   "sma20": 69701.94,
+   "sma50": 66423.6,
+   "sma200": 69382.43,
+   "high3m": 79986.92,
+   "reg": 79986.92,
    "pre": null,
    "post": null,
-   "regClose": 79891.88,
+   "regClose": 79986.92,
    "sess": "reg",
-   "mt": 1787860921,
+   "mt": 1787861493,
    "ok": true
   },
   "USO": {
@@ -978,83 +966,83 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.42,
-   "chg": 0.1,
-   "chg5": 0.34,
+   "price": 159.4,
+   "chg": 0.09,
+   "chg5": 0.33,
    "sma20": 158.75,
    "sma50": 160.9,
    "sma200": 159.68,
    "high3m": 163.86,
-   "reg": 159.42,
+   "reg": 159.4,
    "pre": null,
    "post": null,
-   "regClose": 159.42,
+   "regClose": 159.4,
    "sess": "reg",
-   "mt": 1787860925,
+   "mt": 1787861496,
    "ok": true
   },
   "ES=F": {
-   "price": 7738.0,
-   "chg": 0.62,
-   "chg5": 0.99,
-   "sma20": 7722.73,
-   "sma50": 7593.29,
-   "sma200": 7292.16,
+   "price": 7740.75,
+   "chg": 0.66,
+   "chg5": 1.02,
+   "sma20": 7722.86,
+   "sma50": 7593.35,
+   "sma200": 7292.19,
    "high3m": 7822.5,
-   "reg": 7738.0,
+   "reg": 7740.75,
    "pre": null,
    "post": null,
-   "regClose": 7738.0,
+   "regClose": 7740.75,
    "sess": "24h",
-   "mt": 1787860325,
+   "mt": 1787860897,
    "ok": true
   },
   "NQ=F": {
-   "price": 29645.25,
-   "chg": 1.21,
-   "chg5": 1.18,
-   "sma20": 29542.21,
-   "sma50": 29430.95,
-   "sma200": 27985.0,
+   "price": 29691.75,
+   "chg": 1.37,
+   "chg5": 1.34,
+   "sma20": 29544.54,
+   "sma50": 29431.88,
+   "sma200": 27985.37,
    "high3m": 30712.75,
-   "reg": 29645.25,
+   "reg": 29691.75,
    "pre": null,
    "post": null,
-   "regClose": 29645.25,
+   "regClose": 29691.75,
    "sess": "24h",
-   "mt": 1787860327,
+   "mt": 1787860899,
    "ok": true
   },
   "YM=F": {
-   "price": 53596.0,
-   "chg": 0.14,
-   "chg5": 1.41,
-   "sma20": 53669.1,
-   "sma50": 52958.28,
-   "sma200": 50520.47,
+   "price": 53628.0,
+   "chg": 0.2,
+   "chg5": 1.47,
+   "sma20": 53670.7,
+   "sma50": 52958.92,
+   "sma200": 50520.72,
    "high3m": 54494.0,
-   "reg": 53596.0,
+   "reg": 53628.0,
    "pre": null,
    "post": null,
-   "regClose": 53596.0,
+   "regClose": 53628.0,
    "sess": "24h",
-   "mt": 1787860323,
+   "mt": 1787860897,
    "ok": true
   },
   "GC=F": {
-   "price": 4661.2,
-   "chg": 1.37,
-   "chg5": 3.21,
-   "sma20": 4392.81,
-   "sma50": 4207.43,
+   "price": 4660.7,
+   "chg": 1.36,
+   "chg5": 3.2,
+   "sma20": 4392.79,
+   "sma50": 4207.42,
    "sma200": 4486.29,
-   "high3m": 4661.2,
-   "reg": 4661.2,
+   "high3m": 4660.7,
+   "reg": 4660.7,
    "pre": null,
    "post": null,
-   "regClose": 4661.2,
+   "regClose": 4660.7,
    "sess": "24h",
-   "mt": 1787860326,
+   "mt": 1787860890,
    "ok": true
   },
   "CL=F": {
@@ -1070,13 +1058,13 @@
    "post": null,
    "regClose": 83.65,
    "sess": "24h",
-   "mt": 1787860326,
+   "mt": 1787860896,
    "ok": true
   },
   "HG=F": {
    "price": 6.69,
-   "chg": 1.4,
-   "chg5": 3.51,
+   "chg": 1.43,
+   "chg5": 3.54,
    "sma20": 6.59,
    "sma50": 6.39,
    "sma200": 6.16,
@@ -1086,7 +1074,7 @@
    "post": null,
    "regClose": 6.69,
    "sess": "24h",
-   "mt": 1787860323,
+   "mt": 1787860876,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 108.33,
    "sess": "24h",
-   "mt": 1787860322,
+   "mt": 1787860898,
    "ok": true
   },
   "EWY": {
@@ -1165,10 +1153,10 @@
     "geo": false
    },
    {
-    "title": "Private Credit Investors Prefer to Be Trapped Than Take 26% Loss - Bloomberg",
+    "title": "Private Credit Investors Prefer to Be Trapped Than Take 26% Loss - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUpYYXBMOEhUSGZFcmVORUxoVV9FUTJ3V01VbHFEWUdweF9LbXhvcEtRQTZWRjVtb1RBejdMMkFwRC1mbGM2YTdOMThJd0QweTF0YjliMHRFQnQxdVJjYUt6bHdmQjFlMVRGZkE3Umo5RzFzVGdtX2lFekczZ0laYzBHSWhqZVhQaDNRLWwyNEdXdkZqZUQxZDhPQ1ZFNlMwa1M5WC1fcjRoRlV4eEFaUm02VmM?oc=5",
     "pub": "Thu, 27 Aug 2026 14:20:41 GMT",
-    "src": "Bloomberg",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1215,11 +1203,11 @@
     "geo": false
    },
    {
-    "title": "FSU student injured in 2025 campus shooting files lawsuit against OpenAI - WCTV",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOVnNtODB2ZUQ4OUpqQ3E2OWlOMElBRWdJODdtdnl1Uk5fZ1VrQkJiczJmR2tiTFFaQ2NqRFhUWklXQkFLVDRleEVOc1FvU1RYX3RINmtFYW1ScTJXQjZYTlRSWk9xN3puLXhQNkg5RGU2Y1M5bkdtelVKMmsyRUlTQTkzXy1zZUVRSXFNRE03ZDJSNDB0YlhOTXBKU1dmODZ5UmxVREVtVVlMdWfSAb8BQVVfeXFMTVZyRTZucHZNNGZSZHNCcjgxNHBBLUlNYUpvU1dDX0F0TFJwZWRxYTZDVWpralFSOVhTN0RkRDJIaXpPOFBZSFlkVmFETnZkRFdYMXFHLW5lWTdNZUJuNGZGWG5sU1RTT2ZWTGF4UmJ5Y1I4X2JLN09XTDV6VTNrTUtCX19YWTl5MXhYMmh2dE03YnJKX0xURkFaLU1lNGw1WDlVcldzRG01dzV6XzVScDhXeFdSbGpsS0RWWGJxVlU?oc=5",
-    "pub": "Thu, 27 Aug 2026 17:37:00 GMT",
-    "src": "WCTV",
-    "trig": true,
+    "title": "SK Hynix to start AI chip output in Indiana in 2029, sees memory shortage through 2030 - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPbGFaaDN4azFXVkpsOXY3T3VNbk9KOEdHQ2xqN1R4aGxVMWtnUERCWE0yN0pDRWhVNDUwTG1aekxQTEk0X2taY09ZN1JGTXNHNUMyR1Q2SmY5TEhOYVBHVzVSTTltVnRoeDhoem9vXzNZTjI5Q0NHWjBZU3Z3MDF3YTNnZ0pvOS1vRHUyQ1gxQ3NXdXhyeENEeXFlUWU3X0lCWG9UakIyUVVqaEs5NkRsemxJUnNDVHJwV21fZ2N3VUpuTUhTMnA3Rw?oc=5",
+    "pub": "Thu, 27 Aug 2026 17:51:29 GMT",
+    "src": "Reuters",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1275,6 +1263,22 @@
   ],
   "flow": [
    {
+    "title": "USD/JPY Price Forecast — Dollar-Yen (159.29) Capped At The 159.47 EMA — 156.30 Downside - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNanBiUlVkc21UTWlzZWR4dUNxYXJzd2NnOW1mVTEwX3RfU3RBRzVlQTM3S29LY0pFTHB1RmF5V2hFdDI3OVdMQU16QUxGbTAzX1d6Rnd2X1NhWm9vVFN3VUVxaFRJdFp4dGNldUhzRmU0OFIyZG1WcHVZQjFELTBPU000WE9mMHhLLUFPTnYzOEtMdw?oc=5",
+    "pub": "Thu, 27 Aug 2026 20:07:30 GMT",
+    "src": "TradingNEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold (XAUUSD) Price Forecast: Gold Waits on Warsh as Dollar Weakness Stalls - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd2E5TmJ4OWZZcm03ZDFPQzBCN1EwaWZXSHhzQVFRb05mVFVZTzl5aUlZWUZpdHZqa0dka0NHYm96ak5aZnF4d2JPWjViNDFYRnQyV0xFNlFlcm1lUUJsN2NJdXBtczRtWGpFemtLR0J1WG5KaEw0UkhPYlhiN0VVRWVlOGJlZ09KMHM5MUVCRXMtYi1MWGJmNTh2bG82ZmptdUZfSS1WaWw1aTVnUjVKdHoyWFR4eGZZaVdVQTBUV3M?oc=5",
+    "pub": "Thu, 27 Aug 2026 20:04:00 GMT",
+    "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "When Will Crude Oil Prices Stabilize? - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkM5eEFJbEttTkFtTk5GTHpPYXhFeDBkTVJCYWRka0ZubzhGbmhoV3Q1YmRqYy1YLWdZdnpFaGlpUEdORlF3ZGtSVk1JdGZYLVppOUJ1ZVRHdGJTakdqWkN2anp0RE9VNnVlRkw3dFJ2YkJYUXJkSWd2czA5dnNudDBfcGV3Zk0?oc=5",
     "pub": "Thu, 27 Aug 2026 19:00:02 GMT",
@@ -1303,22 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMzNEQ1dCUG1RcDBGY2JISkNGeFU0M0VvY1U4QmVUbjZZbjlBSmRxTGZLUzduMk5DSlBfVU13bVNfeElvTDFQc0RPMHFKSGhGUmdYeXlxd25pbjRTM1JHUmVEUWo5TmUzTFB1SExXOWxhV3dOQ0dIb1BLdFd0TnZfQ0NxcjdLcUl1NVN5Q2hLZk05UU5qeGNrTDVEbW4?oc=5",
     "pub": "Thu, 27 Aug 2026 17:44:19 GMT",
     "src": "Mining.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Outlook: Can It Realistically Reach $5,000? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15VVJDWUdHWHJRSGEzbUxYNzhoQUxKLURlV2tybWtLSzJrUVJnWGlzYkNoY0ZVNTVGTTVad0w4VFJrcjZGVFpOcXJPRWhfSVVNLTVqSUE4MlhBUTZ2eVA0Qi02MEwzSUpwem81aFRB?oc=5",
-    "pub": "Thu, 27 Aug 2026 15:56:07 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crude Oil Prices Pressured as Middle East Crude Supplies Increase - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQVnE1YXkxUC1IanBjaEZjc1hueW5OdHRQTVN2R2czZEd4RWVZNVJsOUlZSUx6LVpDdUdNNnBCbExhUjROY2NTSG8tMXp3cE1vNjh4S0NPbWpUbjJsQnRpdEFfZ2hTTzk1UmNZZFZ1Nk9hNy1YeGZxM0VaejNyRzZYaGhQVmhnaUcwVldhdEhNbk1UeGZlSGhVZWRJNFpXR3M5bDBPbV9pU2VaUW9ZeFE?oc=5",
-    "pub": "Thu, 27 Aug 2026 15:40:18 GMT",
-    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    15.99,
    14.9,
    14.25,
-   14.48
+   14.46
   ],
   "tnx": [
    4.48,
@@ -1505,7 +1493,7 @@
    99.8,
    99.6,
    99.67,
-   99.17
+   99.15
   ],
   "bizd": [
    12.59,
@@ -1550,7 +1538,7 @@
    160.18,
    158.41,
    159.43,
-   159.42
+   159.4
   ],
   "uso": [
    130.78,
@@ -1610,7 +1598,7 @@
    64725.31,
    64262.11,
    63402.17,
-   79891.89
+   79997.84
   ],
   "vixts": null,
   "hyoas": [
@@ -2430,16 +2418,18 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 43,
-  "n": 35
+  "pct50": 41,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-27T20:02:22+00:00",
+  "checked": "2026-08-27T20:11:51+00:00",
   "openai": {
    "found": false
   },

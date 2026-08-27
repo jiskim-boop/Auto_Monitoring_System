@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-27T21:12:02+00:00",
+ "updated": "2026-08-27T21:22:05+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 227.98,
+   "chg": 8.74,
+   "chg5": 5.13,
+   "sma20": 217.21,
+   "sma50": 208.16,
+   "sma200": 202.02,
+   "high3m": 227.98,
+   "reg": 227.98,
+   "pre": null,
+   "post": null,
+   "regClose": 227.98,
+   "sess": "reg",
+   "mt": 1787860800,
+   "ok": true
   },
   "AVGO": {
    "price": 371.54,
@@ -758,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 142.96,
-   "chg": -0.22,
-   "chg5": 0.02,
-   "sma20": 138.93,
-   "sma50": 143.03,
+   "price": 144.05,
+   "chg": 0.76,
+   "chg5": 0.57,
+   "sma20": 139.14,
+   "sma50": 143.06,
    "sma200": 143.01,
    "high3m": 154.82,
-   "reg": 142.96,
+   "reg": 144.05,
    "pre": null,
    "post": null,
-   "regClose": 142.96,
+   "regClose": 144.05,
    "sess": "reg",
-   "mt": 1787778018,
+   "mt": 1787864418,
    "ok": true
   },
   "^MOVE": {
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.14,
-   "chg": -0.03,
-   "chg5": 0.24,
+   "price": 99.15,
+   "chg": -0.02,
+   "chg5": 0.25,
    "sma20": 99.51,
    "sma50": 100.43,
    "sma200": 99.62,
    "high3m": 101.61,
-   "reg": 99.14,
+   "reg": 99.15,
    "pre": null,
    "post": null,
-   "regClose": 99.14,
+   "regClose": 99.15,
    "sess": "reg",
-   "mt": 1787864482,
+   "mt": 1787865089,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80080.0,
-   "chg": 1.33,
-   "chg5": 3.89,
-   "sma20": 69706.59,
-   "sma50": 66425.46,
-   "sma200": 69382.94,
-   "high3m": 80080.0,
-   "reg": 80080.0,
+   "price": 80001.76,
+   "chg": 1.23,
+   "chg5": 3.79,
+   "sma20": 69702.68,
+   "sma50": 66423.9,
+   "sma200": 69382.51,
+   "high3m": 80001.76,
+   "reg": 80001.76,
    "pre": null,
    "post": null,
-   "regClose": 80080.0,
+   "regClose": 80001.76,
    "sess": "reg",
-   "mt": 1787865086,
+   "mt": 1787865692,
    "ok": true
   },
   "USO": {
@@ -966,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.4,
+   "price": 159.39,
    "chg": 0.09,
-   "chg5": 0.33,
+   "chg5": 0.32,
    "sma20": 158.75,
    "sma50": 160.9,
    "sma200": 159.68,
    "high3m": 163.86,
-   "reg": 159.4,
+   "reg": 159.39,
    "pre": null,
    "post": null,
-   "regClose": 159.4,
+   "regClose": 159.39,
    "sess": "reg",
-   "mt": 1787865086,
+   "mt": 1787865696,
    "ok": true
   },
   "ES=F": {
@@ -1263,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "WTI Crude Oil Price Tests $79 Support After Wedge Breakdown - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOSU5zNkZldmFfWVR0ek9sLWQxMjd6SVRLZGpDX2dKRzFna0tPVUNCRk9VRWV6d051a2dyaUZFZjZ3ckF2UW5jM1puU0tCMXdCcmhLbmV0REZtVXFOWWdnN3o5S1dUVTljSm1FanIzVHJBWEpueXgyUmI3WUNiQnJfR0JCbzlGVlN0LWlIYjh4YzZtTWppeFp1OHJ0dUtyVFpNaXFsLTVnbDhGWHdLd1E?oc=5",
+    "pub": "Thu, 27 Aug 2026 21:07:00 GMT",
+    "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "McEwen Copper closes $240M loan; Los Azules targets 2030 output, subject to financing and approvals - Stock Titan",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQbWdaZHhGRlgwOTJPN2tOamZRelVGbG9yOWtHNTBSNXZibWpHWkxzVkZVMnhSd0drS2NCbWx2MkgzZGxSZ2hoSHhtZUpZUE9JNWFxaEVyaDlFcUJpTHRPLVBoams4dmZ5bUJLeUwzelRoZkhQZldPR0JQWEJsMlh3WnlwXzZGQWJyaWtOX01WVkNhYjdxMFYxOXVwQk5NeFNEX09VbHA2UTkzT25yLWx3bE1uRmo0VUU1TFE?oc=5",
     "pub": "Thu, 27 Aug 2026 21:00:00 GMT",
@@ -1299,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbUFzVnBTTnB3QkhubmhMdlFlV0xZaFB4M0RTYWMwUURvQVJ6YmFZTHU4OVJISUdtNWdSdmVXbkItRzVHQkE5bUlVVjU3bE5kd3UzczhCR0ZET2k0d0NxX1BUZ043NF9jcHpGSy10ZHRmWjE0dWx2a0VOUHVmanFNTXB2QlNzQQ?oc=5",
     "pub": "Thu, 27 Aug 2026 19:08:31 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "When Will Crude Oil Prices Stabilize? - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNbkM5eEFJbEttTkFtTk5GTHpPYXhFeDBkTVJCYWRka0ZubzhGbmhoV3Q1YmRqYy1YLWdZdnpFaGlpUEdORlF3ZGtSVk1JdGZYLVppOUJ1ZVRHdGJTakdqWkN2anp0RE9VNnVlRkw3dFJ2YkJYUXJkSWd2czA5dnNudDBfcGV3Zk0?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:00:02 GMT",
-    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
@@ -1416,7 +1428,7 @@
    "chg": 0.02
   },
   "sofr_iorb": -1.0,
-  "cape": 41.98,
+  "cape": 42.27,
   "cape_manual": false,
   "netliq": {
    "value": 5779.5,
@@ -1493,7 +1505,7 @@
    99.8,
    99.6,
    99.67,
-   99.14
+   99.15
   ],
   "bizd": [
    12.59,
@@ -1538,7 +1550,7 @@
    160.18,
    158.41,
    159.43,
-   159.4
+   159.37
   ],
   "uso": [
    130.78,
@@ -1598,7 +1610,7 @@
    64725.31,
    64262.11,
    63402.17,
-   80120.63
+   80001.76
   ],
   "vixts": [
    0.852,
@@ -1706,14 +1718,14 @@
    0.0751
   ],
   "cape": [
-   41.98,
-   41.98,
-   41.98,
-   41.98,
-   41.98,
-   41.98,
-   41.98,
-   41.98
+   42.27,
+   42.27,
+   42.27,
+   42.27,
+   42.27,
+   42.27,
+   42.27,
+   42.27
   ]
  },
  "summary": {
@@ -2432,18 +2444,16 @@
   21
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 41,
-  "n": 34
+  "pct50": 43,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-27T21:11:49+00:00",
+  "checked": "2026-08-27T21:21:52+00:00",
   "openai": {
    "found": false
   },

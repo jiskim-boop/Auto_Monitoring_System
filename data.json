@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T21:42:07+00:00",
+ "updated": "2026-08-27T21:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 227.98,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.56,
-   "chg": -14.51,
-   "chg5": -10.59,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.76,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.56,
+   "sma50": 17.56,
+   "sma200": 17.56,
+   "high3m": 17.56,
    "reg": 17.56,
    "pre": null,
    "post": null,
@@ -804,7 +804,7 @@
   "DX-Y.NYB": {
    "price": 99.11,
    "chg": -0.06,
-   "chg5": 0.22,
+   "chg5": 0.21,
    "sma20": 99.51,
    "sma50": 100.43,
    "sma200": 99.61,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.11,
    "sess": "reg",
-   "mt": 1787866290,
+   "mt": 1787866885,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80056.77,
-   "chg": 1.3,
-   "chg5": 3.86,
-   "sma20": 69705.43,
-   "sma50": 66425.0,
-   "sma200": 69382.81,
-   "high3m": 80056.77,
-   "reg": 80056.77,
+   "price": 80100.95,
+   "chg": 1.36,
+   "chg5": 3.91,
+   "sma20": 69707.64,
+   "sma50": 66425.88,
+   "sma200": 69383.05,
+   "high3m": 80100.95,
+   "reg": 80100.95,
    "pre": null,
    "post": null,
-   "regClose": 80056.77,
+   "regClose": 80100.95,
    "sess": "reg",
-   "mt": 1787866894,
+   "mt": 1787867488,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.38,
-   "chg": 0.08,
-   "chg5": 0.31,
+   "price": 159.36,
+   "chg": 0.07,
+   "chg5": 0.3,
    "sma20": 158.75,
    "sma50": 160.9,
    "sma200": 159.68,
    "high3m": 163.86,
-   "reg": 159.38,
+   "reg": 159.36,
    "pre": null,
    "post": null,
-   "regClose": 159.38,
+   "regClose": 159.36,
    "sess": "reg",
-   "mt": 1787866897,
+   "mt": 1787867490,
    "ok": true
   },
   "ES=F": {
@@ -1241,14 +1241,6 @@
     "geo": false
    },
    {
-    "title": "Russia says it could strike UK military targets in response to Kyiv's use of British missiles - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQVB4M2NDa28tblBTTVZjdGtZb3d5MGtYMURzeDBCYmVqYjRxbzEzOHh3aFpRRUpIdDl2RW5scE5USEIwOWQ4eXZYWmV6dEN2aG9Uc2VfY0dkRTBxb28yYXFqYkhJeFU2aGJxaTdWR1gwVXZNejdXaXZScjdPTlk5NDFFWXlBNW1NQUR4M2pqQVNkNzFXZWxOOVFsQUVLT0EyeHFjNF84Z3lGQzN1X1dNTGtwc3luOThCLUV4eDR5alBwT2F5VmhLeA?oc=5",
-    "pub": "Thu, 27 Aug 2026 17:52:19 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OPEC+ Can’t Control Oil Prices Like It Used To. China Is Filling the Power Vacuum. - International Business Times",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQSVM3NGhoR0U1YW45eGVKSlJUVjhzRlNoMURydVNSMDBDVHJJV28tWjRRbGp1T3E5cDc3cVdfNmJOVnZVN1lHLVlJYjRBaGJ2MVlnX1k0NndSeHRYaXotZE5vN0FabUtNYV9PZHBYWmNoV3QtSHFUZmdpZFZtZkc4dHNpRGZOQm0tUGdwb3FENWhDN1VLaEx1M3pxblFlZjZxb0E?oc=5",
     "pub": "Thu, 27 Aug 2026 17:36:41 GMT",
@@ -1270,6 +1262,14 @@
     "pub": "Thu, 27 Aug 2026 16:36:17 GMT",
     "src": "The Sunday Guardian",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Cleveland Fed President Hammack Reaffirms Support for Rate Hikes, Warning of Stubborn Inflation - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lcUxacUtETjFNaTlkT2VTQVVvNzRFcW94QkpORzQ2TkNmSXJqR2xGQjBQU0xVUm1qdTdjYWtEN2JhT0tldm42TnR3Mk52YTg2WGE3NTVPWGN1N1dRb2V1UkxUaU1aOG9PeHpDOTFvYmdDd1VsM2c?oc=5",
+    "pub": "Thu, 27 Aug 2026 16:25:00 GMT",
+    "src": "finance.biggo.com",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    160.18,
    158.41,
    159.43,
-   159.36
+   159.37
   ],
   "uso": [
    130.78,
@@ -1610,23 +1610,9 @@
    64725.31,
    64262.11,
    63402.17,
-   80053.15
+   80099.1
   ],
-  "vixts": [
-   0.852,
-   0.827,
-   1.155,
-   0.865,
-   0.921,
-   0.827,
-   0.761,
-   0.923,
-   0.978,
-   0.84,
-   0.766,
-   0.726,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.28,
    3.21,
@@ -2453,7 +2439,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-27T21:41:54+00:00",
+  "checked": "2026-08-27T21:51:48+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-27T22:12:00+00:00",
+ "updated": "2026-08-27T22:21:59+00:00",
  "prices": {
   "NVDA": {
    "price": 227.98,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.56,
-   "chg": -14.51,
-   "chg5": -10.59,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.76,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.56,
+   "sma50": 17.56,
+   "sma200": 17.56,
+   "high3m": 17.56,
    "reg": 17.56,
    "pre": null,
    "post": null,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.12,
-   "chg": -0.05,
-   "chg5": 0.22,
+   "price": 99.13,
+   "chg": -0.04,
+   "chg5": 0.23,
    "sma20": 99.51,
    "sma50": 100.43,
    "sma200": 99.62,
    "high3m": 101.61,
-   "reg": 99.12,
+   "reg": 99.13,
    "pre": null,
    "post": null,
-   "regClose": 99.12,
+   "regClose": 99.13,
    "sess": "reg",
-   "mt": 1787868086,
+   "mt": 1787868298,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80226.17,
-   "chg": 1.52,
-   "chg5": 4.08,
-   "sma20": 69713.9,
-   "sma50": 66428.38,
-   "sma200": 69383.74,
-   "high3m": 80226.17,
-   "reg": 80226.17,
+   "price": 80418.09,
+   "chg": 1.76,
+   "chg5": 4.33,
+   "sma20": 69723.5,
+   "sma50": 66432.22,
+   "sma200": 69384.8,
+   "high3m": 80418.09,
+   "reg": 80418.09,
    "pre": null,
    "post": null,
-   "regClose": 80226.17,
+   "regClose": 80418.09,
    "sess": "reg",
-   "mt": 1787868688,
+   "mt": 1787869287,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.35,
-   "chg": 0.06,
-   "chg5": 0.29,
+   "price": 159.36,
+   "chg": 0.07,
+   "chg5": 0.3,
    "sma20": 158.75,
    "sma50": 160.9,
    "sma200": 159.68,
    "high3m": 163.86,
-   "reg": 159.35,
+   "reg": 159.36,
    "pre": null,
    "post": null,
-   "regClose": 159.35,
+   "regClose": 159.36,
    "sess": "reg",
-   "mt": 1787868689,
+   "mt": 1787869286,
    "ok": true
   },
   "ES=F": {
@@ -1006,77 +1006,77 @@
    "post": null,
    "regClose": 7730.75,
    "sess": "24h",
-   "mt": 1787868091,
+   "mt": 1787868687,
    "ok": true
   },
   "NQ=F": {
-   "price": 29608.75,
-   "chg": 1.09,
-   "chg5": 1.05,
-   "sma20": 29540.39,
-   "sma50": 29430.22,
-   "sma200": 27984.72,
+   "price": 29617.5,
+   "chg": 1.12,
+   "chg5": 1.08,
+   "sma20": 29540.83,
+   "sma50": 29430.4,
+   "sma200": 27984.78,
    "high3m": 30712.75,
-   "reg": 29608.75,
+   "reg": 29617.5,
    "pre": null,
    "post": null,
-   "regClose": 29608.75,
+   "regClose": 29617.5,
    "sess": "24h",
-   "mt": 1787868096,
+   "mt": 1787868691,
    "ok": true
   },
   "YM=F": {
-   "price": 53605.0,
-   "chg": 0.16,
+   "price": 53603.0,
+   "chg": 0.15,
    "chg5": 1.43,
-   "sma20": 53669.55,
-   "sma50": 52958.46,
-   "sma200": 50520.54,
+   "sma20": 53669.45,
+   "sma50": 52958.42,
+   "sma200": 50520.52,
    "high3m": 54494.0,
-   "reg": 53605.0,
+   "reg": 53603.0,
    "pre": null,
    "post": null,
-   "regClose": 53605.0,
+   "regClose": 53603.0,
    "sess": "24h",
-   "mt": 1787868045,
+   "mt": 1787868632,
    "ok": true
   },
   "GC=F": {
-   "price": 4659.7,
-   "chg": 1.34,
-   "chg5": 3.18,
-   "sma20": 4392.74,
-   "sma50": 4207.4,
-   "sma200": 4486.28,
-   "high3m": 4659.7,
-   "reg": 4659.7,
+   "price": 4658.4,
+   "chg": 1.31,
+   "chg5": 3.15,
+   "sma20": 4392.67,
+   "sma50": 4207.37,
+   "sma200": 4486.27,
+   "high3m": 4658.4,
+   "reg": 4658.4,
    "pre": null,
    "post": null,
-   "regClose": 4659.7,
+   "regClose": 4658.4,
    "sess": "24h",
-   "mt": 1787868094,
+   "mt": 1787868654,
    "ok": true
   },
   "CL=F": {
-   "price": 83.57,
-   "chg": 1.63,
-   "chg5": -4.85,
-   "sma20": 82.35,
+   "price": 83.65,
+   "chg": 1.73,
+   "chg5": -4.76,
+   "sma20": 82.36,
    "sma50": 79.17,
-   "sma200": 88.26,
+   "sma200": 88.27,
    "high3m": 96.02,
-   "reg": 83.57,
+   "reg": 83.65,
    "pre": null,
    "post": null,
-   "regClose": 83.57,
+   "regClose": 83.65,
    "sess": "24h",
-   "mt": 1787868097,
+   "mt": 1787868695,
    "ok": true
   },
   "HG=F": {
    "price": 6.69,
-   "chg": 1.45,
-   "chg5": 3.56,
+   "chg": 1.46,
+   "chg5": 3.58,
    "sma20": 6.59,
    "sma50": 6.39,
    "sma200": 6.16,
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.69,
    "sess": "24h",
-   "mt": 1787868095,
+   "mt": 1787868612,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 108.31,
    "sess": "24h",
-   "mt": 1787868096,
+   "mt": 1787868680,
    "ok": true
   },
   "EWY": {
@@ -1165,15 +1165,39 @@
     "geo": false
    },
    {
-    "title": "Private Credit Investors Prefer to Be Trapped Than Take 26% Loss - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaUpYYXBMOEhUSGZFcmVORUxoVV9FUTJ3V01VbHFEWUdweF9LbXhvcEtRQTZWRjVtb1RBejdMMkFwRC1mbGM2YTdOMThJd0QweTF0YjliMHRFQnQxdVJjYUt6bHdmQjFlMVRGZkE3Umo5RzFzVGdtX2lFekczZ0laYzBHSWhqZVhQaDNRLWwyNEdXdkZqZUQxZDhPQ1ZFNlMwa1M5WC1fcjRoRlV4eEFaUm02VmM?oc=5",
-    "pub": "Thu, 27 Aug 2026 14:20:41 GMT",
-    "src": "Bloomberg.com",
+    "title": "AI Infrastructure Stocks: What CoreWeave's Debt Reveals - MarketWise",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVU1mcFRxSGFhMnluODItWVF6a0p0Y1lPTGlmVFNLX0FTc19kRTF4V0xENy1pMkFETFZIcHRsWVBuVFZLR2xLVURpNGtTYlp3VHJRcU1SZm04azFBMHZDcVNjY0lPZDNEaFZfWHdnS1EtY1BDMHl4OExfRkNSSUJnRXF6RVhyVVo4bm1IbEQ1WEFpeGdVZ1JVWW5XUERhUzhHb1kxZWJB?oc=5",
+    "pub": "Thu, 27 Aug 2026 14:04:30 GMT",
+    "src": "MarketWise",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SK Hynix CEO expects memory chip shortage to persist until 2030 - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbVRkaktXYUdFVmNnOGt6THlXbm1vZGphbUM0VU9nbEUzSXR6ZURaU0NLcHYyWHczbS12cUJveE9nc2lsWjVJUjdfaW5Xc3hjdWJEbXFiNFVBcXdiRS05MWVoZkVmMGhVdDEyUHEwMWc0cFgwUE5rQmNJaWViOERpdmctUkx4R1B4MVktaHNNTUtfQ2pFS1VBZkFwendGXzMxZEE?oc=5",
+    "pub": "Thu, 27 Aug 2026 22:10:40 GMT",
+    "src": "Moomoo",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia's Record Results Lift Profit Outlook for Samsung, SK hynix - Seoul Economic Daily",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbVZZOUhxTTUyd24zUzFsREVwTU1fS3dYZ0JSXzEwQ1JVd0ltNFQ5bVlyaE1nMm9MR2VjTXU2RExnVkl4QmlxT2xUdEZkSm83MzhGOUY0MjJMVDFHRXR5aHFvZHM0S29rU1puQ3hoV3hzNlB5Y2owNzZGSUJiaDliUlNBVFgxc3UxZjhKMlpuTnEzNllLX0VXNkNqWVZKM1JH?oc=5",
+    "pub": "Thu, 27 Aug 2026 22:00:05 GMT",
+    "src": "Seoul Economic Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Elon Musk's xAI Sued For Using Child Survivor Photos To Generate Abusive Content - NDTV",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTZJa1dUWVJ6cHB1ZjQtLVFPYW5PbHVZeUZpMkY4Zzh4UXR0T2ZLd2lTdWNWS3M2ank1M05mOVVnUmRFblREQ0dkeHFqOEFYSUd6SGI2RUpYV0gzbVJ0MU1tT1EyZkhKbHpsWUljanNqeTBqNVVlWXFSWFZhVVJKdk5oUTdDdUppend4ZTBnSDl5QWVjajJjQ2x6X2hneEZaR1gyXzBuZkVWcDdSNURSLUxIc1RSYmR1V24wM29HWjh5X285a0HSAc4BQVVfeXFMUEtTQ0pQZVExUzhTcng2d21aeDZuaFJBRTN0VVpzNm1lUUw1MWw1dERoMkl3VVpYZ1NkOXdXZEx6bDYwTmZjR3luTy0tdFJNWkUyUHBydTVncWpkUXotVnBpb0d5RzZfV1lnQlQ2NjlaM3dMMTFlQXhCV1pYOEF4eF9WZFRwWUVoLXg5QXZFTXc0V1UtN0Rwb1VhMG5wV1U1RGhmdm9YZ1JXdXVqNFQ2UWJpNExOeDlLcTlCbzVqdnVIakpEZk1fRUNVX0FjMmc?oc=5",
+    "pub": "Thu, 27 Aug 2026 21:39:52 GMT",
+    "src": "NDTV",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Elon Musk’s xAI used child porn to train Grok models, lawsuit says - Ars Technica",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR2xvS1BEUmtXZ2ZPVkJlYVE0Ylh2SzNoaExwdGktZ2lRUVRQd2lEbHNaWTN2ZU9qN3hHaWkyWlhVeGdsNURLc09nemsxeGNtQzFpUExrUXY3UlNnbk1DM042N19kbWR0VnE4UEtwOVNvRDcycml6ZUNZbHRpUE1HUWZ6cHpSbmNIRlBTM3ZvZ0hMMWZmb3ZzQVMwQ0lmaXZpZEJrR0VRMTltdWZvZ1E?oc=5",
@@ -1197,30 +1221,6 @@
     "src": "Reuters",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Nvidia CFO Says Demand Points to 140% Growth: Supply Delivers Only Half - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNenc5dU1vRHBBRTlYWUhCVDhrNTJkOExnMXE5R0g2akhqRm1DdEtLQXhnYlllWVctSTJTNXJoOUs0MEJZcWV6a0o1NmQ5RmJZMWtrUnFmWEd5ZFIyNXF0clJ6Z19SZXZhMkROdXlhSVQ3ZDFVT2VKYXRZTjBCeXV0dm1FWjRVU01TcGt6a1ZpbmVVeWw0RnREbXM0REpfMlZBX2FSdVBzS0JCX1JkQW5IcHVQQnM2WnRGQ1gwV1ZR?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:06:03 GMT",
-    "src": "Tech Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk's xAI Sued For Using Child Survivor Photos To Generate Sexual Abusive Content - NDTV",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQQTZJa1dUWVJ6cHB1ZjQtLVFPYW5PbHVZeUZpMkY4Zzh4UXR0T2ZLd2lTdWNWS3M2ank1M05mOVVnUmRFblREQ0dkeHFqOEFYSUd6SGI2RUpYV0gzbVJ0MU1tT1EyZkhKbHpsWUljanNqeTBqNVVlWXFSWFZhVVJKdk5oUTdDdUppend4ZTBnSDl5QWVjajJjQ2x6X2hneEZaR1gyXzBuZkVWcDdSNURSLUxIc1RSYmR1V24wM29HWjh5X285a0HSAc4BQVVfeXFMUEtTQ0pQZVExUzhTcng2d21aeDZuaFJBRTN0VVpzNm1lUUw1MWw1dERoMkl3VVpYZ1NkOXdXZEx6bDYwTmZjR3luTy0tdFJNWkUyUHBydTVncWpkUXotVnBpb0d5RzZfV1lnQlQ2NjlaM3dMMTFlQXhCV1pYOEF4eF9WZFRwWUVoLXg5QXZFTXc0V1UtN0Rwb1VhMG5wV1U1RGhmdm9YZ1JXdXVqNFQ2UWJpNExOeDlLcTlCbzVqdnVIakpEZk1fRUNVX0FjMmc?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:01:09 GMT",
-    "src": "NDTV",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "If You Invested $1,000 In Nvidia Stock at IPO, Here's How Much You'd Have Now - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOR3Q1ZHl3YnBCbEwzb3lDeG9iYWZIdTh5a1Nycm55OVA2UTI2cnFfWlJiSFFVZDZmVVJtU0hpZUt1UnZCT0JDdW1YNmlPUmM1SmdjMVJDNEkzbXBDX24zZGxfRk96bDhWU2o5c2pOUzE0Qk93UmFka0hqdW1oNDBVOEdINE1jYmJNRV9yTXFCek94UDdQRFc4TmhLWVY2aFNQNE0ybENqNTVZUUZPbUJ3MWdkbHJoNkZfaU1OXzdidWRZN1p0V2pLWnNFOTE2Zk0?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:00:48 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1237,14 +1237,6 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Gdlo0N0FXNGRhUTlGLU5kLXozN2taOWNBNl9aUjNFSTdWMWxDRGEzMWdRWUpaLTNuNTdCVGV1STZrYWoxMDU5OHc1bkdEYlJGdlNPQUxqcjZIRGdtcURJS2d1eUlwMUZSNmVFcjVnX3dSTFdZNGFlQVBB?oc=5",
     "pub": "Thu, 27 Aug 2026 19:59:37 GMT",
     "src": "Global News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Intraday Stocks for Today, 28 August 2026 - Univest",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBsMUJBMWk5UHEzNzZRRWZyd0lhX0RrN014dUljcjQxV1dBM1BhOUNrQlliY1ludmxkTk5SOUtJbjRsTS1rUUYwd3dxMmt2eXo0VWNzQk53YkZRbFN5Rk5mTXFlcWFpWkwtZnFDU3JMUEEwLUk?oc=5",
-    "pub": "Thu, 27 Aug 2026 19:57:33 GMT",
-    "src": "Univest",
     "trig": false,
     "geo": false
    },
@@ -1270,6 +1262,14 @@
     "pub": "Thu, 27 Aug 2026 16:36:17 GMT",
     "src": "The Sunday Guardian",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Cleveland Fed President Hammack Reaffirms Support for Rate Hikes, Warning of Stubborn Inflation - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lcUxacUtETjFNaTlkT2VTQVVvNzRFcW94QkpORzQ2TkNmSXJqR2xGQjBQU0xVUm1qdTdjYWtEN2JhT0tldm42TnR3Mk52YTg2WGE3NTVPWGN1N1dRb2V1UkxUaU1aOG9PeHpDOTFvYmdDd1VsM2c?oc=5",
+    "pub": "Thu, 27 Aug 2026 16:25:00 GMT",
+    "src": "finance.biggo.com",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1505,7 +1505,7 @@
    99.8,
    99.6,
    99.67,
-   99.12
+   99.13
   ],
   "bizd": [
    12.59,
@@ -1550,7 +1550,7 @@
    160.18,
    158.41,
    159.43,
-   159.35
+   159.37
   ],
   "uso": [
    130.78,
@@ -1610,23 +1610,9 @@
    64725.31,
    64262.11,
    63402.17,
-   80255.56
+   80411.53
   ],
-  "vixts": [
-   0.852,
-   0.827,
-   1.155,
-   0.865,
-   0.921,
-   0.827,
-   0.761,
-   0.923,
-   0.978,
-   0.84,
-   0.766,
-   0.726,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.28,
    3.21,
@@ -2453,7 +2439,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-27T22:11:48+00:00",
+  "checked": "2026-08-27T22:21:47+00:00",
   "openai": {
    "found": false
   },

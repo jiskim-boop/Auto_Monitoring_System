@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-28T11:02:53+00:00",
+ "updated": "2026-08-28T11:12:08+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 227.98,
+   "chg": 8.74,
+   "chg5": 5.13,
+   "sma20": 217.21,
+   "sma50": 208.16,
+   "sma200": 202.22,
+   "high3m": 227.98,
+   "reg": 227.98,
+   "pre": null,
+   "post": null,
+   "regClose": 227.98,
+   "sess": "reg",
+   "mt": 1787860800,
+   "ok": true
   },
   "AVGO": {
    "price": 371.54,
@@ -722,7 +734,7 @@
    "post": null,
    "regClose": 14.49,
    "sess": "reg",
-   "mt": 1787914006,
+   "mt": 1787914576,
    "ok": true
   },
   "^VIX3M": {
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.18,
-   "chg": 0.02,
-   "chg5": 0.39,
+   "price": 99.17,
+   "chg": 0.01,
+   "chg5": 0.37,
    "sma20": 99.48,
    "sma50": 100.41,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.18,
+   "reg": 99.17,
    "pre": null,
    "post": null,
-   "regClose": 99.18,
+   "regClose": 99.17,
    "sess": "reg",
-   "mt": 1787914321,
+   "mt": 1787914891,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79571.45,
-   "chg": -0.85,
-   "chg5": 2.34,
-   "sma20": 70448.81,
-   "sma50": 66756.58,
-   "sma200": 69459.13,
+   "price": 79653.42,
+   "chg": -0.75,
+   "chg5": 2.44,
+   "sma20": 70452.91,
+   "sma50": 66758.22,
+   "sma200": 69459.58,
    "high3m": 80257.54,
-   "reg": 79571.45,
+   "reg": 79653.42,
    "pre": null,
    "post": null,
-   "regClose": 79571.45,
+   "regClose": 79653.42,
    "sess": "reg",
-   "mt": 1787914924,
+   "mt": 1787915495,
    "ok": true
   },
   "USO": {
@@ -966,131 +978,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.64,
-   "chg": 0.24,
-   "chg5": 0.48,
+   "price": 159.67,
+   "chg": 0.26,
+   "chg5": 0.49,
    "sma20": 158.77,
    "sma50": 160.91,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 159.64,
+   "reg": 159.67,
    "pre": null,
    "post": null,
-   "regClose": 159.64,
+   "regClose": 159.67,
    "sess": "reg",
-   "mt": 1787914929,
+   "mt": 1787915499,
    "ok": true
   },
   "ES=F": {
-   "price": 7737.0,
-   "chg": -0.07,
-   "chg5": 0.59,
-   "sma20": 7733.84,
-   "sma50": 7599.63,
-   "sma200": 7298.93,
+   "price": 7739.25,
+   "chg": -0.04,
+   "chg5": 0.62,
+   "sma20": 7733.95,
+   "sma50": 7599.68,
+   "sma200": 7298.95,
    "high3m": 7822.5,
-   "reg": 7737.0,
+   "reg": 7739.25,
    "pre": null,
    "post": null,
-   "regClose": 7737.0,
+   "regClose": 7739.25,
    "sess": "24h",
-   "mt": 1787914320,
+   "mt": 1787914899,
    "ok": true
   },
   "NQ=F": {
-   "price": 29602.75,
-   "chg": -0.31,
-   "chg5": 0.73,
-   "sma20": 29604.66,
-   "sma50": 29430.27,
-   "sma200": 28021.9,
+   "price": 29623.25,
+   "chg": -0.24,
+   "chg5": 0.8,
+   "sma20": 29605.69,
+   "sma50": 29430.68,
+   "sma200": 28022.06,
    "high3m": 30712.75,
-   "reg": 29602.75,
+   "reg": 29623.25,
    "pre": null,
    "post": null,
-   "regClose": 29602.75,
+   "regClose": 29623.25,
    "sess": "24h",
-   "mt": 1787914329,
+   "mt": 1787914901,
    "ok": true
   },
   "YM=F": {
-   "price": 53636.0,
-   "chg": 0.03,
-   "chg5": 0.53,
-   "sma20": 53720.4,
-   "sma50": 53001.12,
-   "sma200": 50557.46,
+   "price": 53625.0,
+   "chg": 0.01,
+   "chg5": 0.51,
+   "sma20": 53719.85,
+   "sma50": 53000.9,
+   "sma200": 50557.37,
    "high3m": 54494.0,
-   "reg": 53636.0,
+   "reg": 53625.0,
    "pre": null,
    "post": null,
-   "regClose": 53636.0,
+   "regClose": 53625.0,
    "sess": "24h",
-   "mt": 1787914325,
+   "mt": 1787914898,
    "ok": true
   },
   "GC=F": {
-   "price": 4652.5,
-   "chg": 0.93,
-   "chg5": 0.61,
-   "sma20": 4420.41,
-   "sma50": 4212.27,
-   "sma200": 4481.3,
-   "high3m": 4652.5,
-   "reg": 4652.5,
+   "price": 4651.0,
+   "chg": 0.9,
+   "chg5": 0.58,
+   "sma20": 4420.33,
+   "sma50": 4212.24,
+   "sma200": 4481.28,
+   "high3m": 4651.0,
+   "reg": 4651.0,
    "pre": null,
    "post": null,
-   "regClose": 4652.5,
+   "regClose": 4651.0,
    "sess": "24h",
-   "mt": 1787914330,
+   "mt": 1787914901,
    "ok": true
   },
   "CL=F": {
-   "price": 83.38,
-   "chg": -0.18,
-   "chg5": -4.23,
-   "sma20": 82.29,
+   "price": 83.19,
+   "chg": -0.41,
+   "chg5": -4.45,
+   "sma20": 82.28,
    "sma50": 79.3,
    "sma200": 88.39,
    "high3m": 96.02,
-   "reg": 83.38,
+   "reg": 83.19,
    "pre": null,
    "post": null,
-   "regClose": 83.38,
+   "regClose": 83.19,
    "sess": "24h",
-   "mt": 1787914333,
+   "mt": 1787914904,
    "ok": true
   },
   "HG=F": {
-   "price": 6.72,
-   "chg": 2.1,
-   "chg5": 2.21,
+   "price": 6.73,
+   "chg": 2.11,
+   "chg5": 2.23,
    "sma20": 6.6,
    "sma50": 6.39,
    "sma200": 6.16,
-   "high3m": 6.72,
-   "reg": 6.72,
+   "high3m": 6.73,
+   "reg": 6.73,
    "pre": null,
    "post": null,
-   "regClose": 6.72,
+   "regClose": 6.73,
    "sess": "24h",
-   "mt": 1787914328,
+   "mt": 1787914898,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.23,
-   "chg": -0.32,
-   "chg5": -0.03,
+   "price": 108.25,
+   "chg": -0.3,
+   "chg5": -0.01,
    "sma20": 108.58,
    "sma50": 108.93,
    "sma200": 110.01,
    "high3m": 110.27,
-   "reg": 108.23,
+   "reg": 108.25,
    "pre": null,
    "post": null,
-   "regClose": 108.23,
+   "regClose": 108.25,
    "sess": "24h",
-   "mt": 1787914327,
+   "mt": 1787914904,
    "ok": true
   },
   "EWY": {
@@ -1163,22 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Musk’s AI company sues its users as victim lawsuits over Grok deepfakes mount - Politico",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOQlZJbi1FeDJrVHdzOGFoVWNKTG5MNFpVVDFyc0ZDM3RfYmVXZWtDMlZlYzVLelZ6MVliWGlqYlR5U2hPZGhDXzcyMEsxTU5VbF9UeExqLXBaTF9aVnZsNndBNXMtNUpqazNVcjFlQW5aUUJ4TDR1dm5mbnVDMFkxQzFXQUtjZHM5Y01ndTZBb2M?oc=5",
-    "pub": "Fri, 28 Aug 2026 09:00:00 GMT",
-    "src": "Politico",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "SK hynix CEO Sees Memory Shortage Lasting Through 2030 - Seoul Economic Daily",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNX0Q5OFh3TzRqMU50RldhLTdQY2k4aTlwOVR5UzEtN3BHSzFYYnpYTXBfOFdvVVQ1SGRTcjZaZXlmV0cyM1FnSE43M29hTXVRc2lyVjJXOFlOSE5zY2xJMkY0ckFhVmRUWURaQ2J1WWdBTVZqdU93cmVSU0YzRkR4a0wwMkE5VXZRV3JPWGV3TmdLdkVIcmh4elpSM25rb1QxU3oyWA?oc=5",
-    "pub": "Fri, 28 Aug 2026 08:49:15 GMT",
-    "src": "Seoul Economic Daily",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AMD Stock Price: Why AMD Is Moving After Nvidia Earnings and What Comes Next - MEXC",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTFBVQ2dGV1BkdXRIZ0dhbTlQLWZrSlZScXpEcllYTWlkS2VsY25lczFxRVJrOWdsUkl3Uk8zNHpKZlV4SklDMTRPTTVFaUlzeXpicUNMNDJTUmhuTWlZTloya01rMHdFTWR6MDV0UG9BZ3ZJdw?oc=5",
     "pub": "Fri, 28 Aug 2026 08:23:02 GMT",
@@ -1204,9 +1200,25 @@
    },
    {
     "title": "SoftBank Seeks Another $10 Billion Loan for OpenAI Stake Funding - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQN0hlNFdmem8tSVBJUmFsNVlkQkZVTE1uNTZvMWNpVHl4X0NEWGY5eUlhTXVxalhhZ0EtdlBSTUM0TXkzc3c5Y1M4bTMwYU9ENkU3QjNrZzBpVkNlcGpLVllGWGdZR3NINWFvcVcwbGNrbzgtSlY4OVRrcnRPem5wS0NabDdVSjJ2bUxHbmg4QVUtbktmOWNUVVh2Rmp1S1Vsb0ZpanRGVDNsYXdCcjBnbWNBWS1BZk9DWVRQX1JoX0ZxWkctYjA2U0g4WldPSFE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMWwyWWJqTmNhQ0dDN2JwSHRFQWljX0JTUFo0OWt3LWVFRkN4LS1tVVVRdlNEcXBzN3VLS2dITk5feTB2Y2hrMmlKTWJNdDBESGZjSjFuZTg0TDVXT0dYQTJNalhIbmZHMU9RSTBUdWt1UmszSGMzRGF1U1RLT2t1d01PWXBHakY4NjdZOW5YejRzWjZQczdTVHQ3eWRzNUlRS0JYcElHRDBXWmt2Um9zWGxCc1k?oc=5",
     "pub": "Fri, 28 Aug 2026 06:50:00 GMT",
     "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "TSLA Stock Shows Signs Of Rebound — But Influencers Debate Whether Musk Needs SpaceXAI To Win AI Race - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWDdsVzFVQlowZ3pBenhlYmR6TEZWZXN6UEg3TG9fZ0w5cGx3aHA4LWNQR3ZZNWE0X1l4VjB6cWlFbWt2a3duYlltejNSeXJSYVJyVmRWdm1QYXNQajdxRkItY2k5MGxkSGk3THgtcmhSdVg1aS0wcnNmZUVZWTlmelNHUmdzQkoxX291dmEzSzc1NVZsMmNuVm5IR1F3TENUUHVOUmZNYUczV2RYSTZFWTZ6N2JQM2dHby16Q0xWRW8wdw?oc=5",
+    "pub": "Fri, 28 Aug 2026 06:00:06 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA Leads AI Race, AMD Chases; Wall Street Eyes Growth - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOekNwdVFqMTltLWRPM2NqOHpHYWtkN1hLY0FiQi1seGR6S2puQTA2RElfaFhYZXVCN2JRRGw3NW02QlBUVnBjeGNUYVZQbVF0SW5vVUUwNlQtSlIzYTRUaHJrV1QzMkJZY1lVZkdSVDctMkc1RnE2Rkd6dkYycHo2SkhHelR0dXJiWUY4T2RB?oc=5",
+    "pub": "Fri, 28 Aug 2026 05:12:53 GMT",
+    "src": "조선일보",
     "trig": false,
     "geo": false
    }
@@ -1263,18 +1275,18 @@
   ],
   "flow": [
    {
-    "title": "Gulf Oil Exports Rebound Despite Iran War - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxObEJLYWlobzg2NDd2dW5UeHIzb3ZRVjRTYnJhS19RX0JURnloMHNDY0IzcV9tUFhpUWUzd2NqMy1DUm04dEpFa3JKeUN1UVV0aEQ5UjRvR0pDekNkSlNyNjRkb3NsUUhUNkFOeFMyRjE4YkNfTlJkUTh1YkxIelZRY18zQ3BjQkFsbUhWbjBOZUpNdDV4MXBEbWhFTDZwZ9IBowFBVV95cUxNYmwwMWRlU3p0V0ZVdF9DR1V2S1lReU12aV9YOVZMQWo5a01NUUU5RWhoM2lTLTE4dUxGZ09aNzNwUDZGd0lTU0pTWnZtX3pENUZ4NnlPLU1kYzctSG9vS2tnaVFYX0tCRUhKVXZYb3ZFMTlGWTN3amlZZVA5N0NRekc5NnZwdnRXZVcwZEE3QkNQdzdvamxGMjdxYjN3dnM0akRJ?oc=5",
-    "pub": "Fri, 28 Aug 2026 09:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "GBP/JPY Forecast 28/08: GBP Punishes Yen In Carry Trade - Mena FN",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObnF4anBicFA5ZjhxQVV6aWs4a0xTYlhENzBjNF9oRUE0eFNrVFNIZmo1VmxFMU52bmgwNEFNMS1ZZ1ZFbmQ4NmN4WXVwSDYwSF95d2djOHBYd3FrRVdMT2gxVjJ6WGNjY2xVb01GVmFUQ3hvRUZIZF9VTzJ1Q0pjWUpGOFRqMFVJRVE?oc=5",
     "pub": "Fri, 28 Aug 2026 08:10:51 GMT",
     "src": "Mena FN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "MR TALHA King(@Square-Creator-4e7984f6aedff)'s insights - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBqSVllbk52Q1BjSlFlTDRKUW5uODE3UVJ1bUxUbWlaVXV3ODFBNHVpZl9QMnpROEw4NXhCeTc2cWljRExJTEEwMldMVkdpZ01ydkRIekE5OWJiSXVsVldSYzFYeHk?oc=5",
+    "pub": "Fri, 28 Aug 2026 08:05:22 GMT",
+    "src": "Binance",
     "trig": false,
     "geo": false
    },
@@ -1493,7 +1505,7 @@
    99.96,
    99.81,
    99.64,
-   99.19
+   99.16
   ],
   "bizd": [
    12.59,
@@ -1538,7 +1550,7 @@
    160.18,
    158.41,
    159.43,
-   159.63
+   159.66
   ],
   "uso": [
    130.78,
@@ -1598,7 +1610,7 @@
    62813.75,
    64880.19,
    62975.59,
-   79607.21
+   79650.0
   ],
   "vixts": null,
   "hyoas": [
@@ -2410,18 +2422,16 @@
   21
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 41,
-  "n": 34
+  "pct50": 43,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-28T11:02:36+00:00",
+  "checked": "2026-08-28T11:11:54+00:00",
   "openai": {
    "found": false
   },

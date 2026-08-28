@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-28T21:12:16+00:00",
+ "updated": "2026-08-28T21:21:59+00:00",
  "prices": {
   "NVDA": {
-   "price": 217.55,
-   "chg": -4.57,
-   "chg5": 1.32,
-   "sma20": 218.05,
-   "sma50": 208.42,
-   "sma200": 202.34,
-   "high3m": 227.98,
-   "reg": 217.55,
-   "pre": null,
-   "post": null,
-   "regClose": 217.55,
-   "sess": "reg",
-   "mt": 1787947200,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 368.79,
@@ -194,20 +182,8 @@
    "ok": true
   },
   "ANET": {
-   "price": 195.38,
-   "chg": -2.84,
-   "chg5": 3.57,
-   "sma20": 194.38,
-   "sma50": 180.48,
-   "sma200": 161.4,
-   "high3m": 210.5,
-   "reg": 195.38,
-   "pre": null,
-   "post": null,
-   "regClose": 195.38,
-   "sess": "reg",
-   "mt": 1787947203,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ALAB": {
    "price": 289.47,
@@ -370,20 +346,8 @@
    "ok": true
   },
   "PWR": {
-   "price": 602.7,
-   "chg": -3.08,
-   "chg5": -5.73,
-   "sma20": 661.17,
-   "sma50": 662.0,
-   "sma200": 652.08,
-   "high3m": 740.14,
-   "reg": 602.7,
-   "pre": null,
-   "post": null,
-   "regClose": 602.7,
-   "sess": "reg",
-   "mt": 1787947202,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "FCX": {
    "price": 76.45,
@@ -626,20 +590,8 @@
    "ok": true
   },
   "ARCC": {
-   "price": 19.95,
-   "chg": 0.35,
-   "chg5": 0.15,
-   "sma20": 19.81,
-   "sma50": 19.08,
-   "sma200": 18.8,
-   "high3m": 20.19,
-   "reg": 19.95,
-   "pre": null,
-   "post": null,
-   "regClose": 19.95,
-   "sess": "reg",
-   "mt": 1787947201,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "OBDC": {
    "price": 11.3,
@@ -739,12 +691,12 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -14.9,
-   "chg5": -11.0,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
@@ -770,19 +722,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 144.05,
-   "chg": 0.76,
-   "chg5": 0.57,
-   "sma20": 139.14,
-   "sma50": 143.06,
-   "sma200": 142.99,
+   "price": 149.77,
+   "chg": 3.97,
+   "chg5": 4.08,
+   "sma20": 139.56,
+   "sma50": 143.2,
+   "sma200": 143.04,
    "high3m": 154.82,
-   "reg": 144.05,
+   "reg": 149.77,
    "pre": null,
    "post": null,
-   "regClose": 144.05,
+   "regClose": 149.77,
    "sess": "reg",
-   "mt": 1787864418,
+   "mt": 1787950845,
    "ok": true
   },
   "^MOVE": {
@@ -946,19 +898,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77346.24,
-   "chg": -3.63,
-   "chg5": -0.53,
-   "sma20": 70337.55,
-   "sma50": 66712.07,
-   "sma200": 69446.91,
+   "price": 77395.77,
+   "chg": -3.57,
+   "chg5": -0.46,
+   "sma20": 70340.02,
+   "sma50": 66713.06,
+   "sma200": 69447.18,
    "high3m": 80257.54,
-   "reg": 77346.24,
+   "reg": 77395.77,
    "pre": null,
    "post": null,
-   "regClose": 77346.24,
+   "regClose": 77395.77,
    "sess": "reg",
-   "mt": 1787951493,
+   "mt": 1787952090,
    "ok": true
   },
   "USO": {
@@ -1241,7 +1193,7 @@
     "geo": false
    },
    {
-    "title": "Fed's September Rate Decision Hangs in Balance After Hawkish Signals - Briefs Finance",
+    "title": "Fed's September Rate Hike Odds Jump After Signals - Briefs Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaFJXdEJHcWpoeEZXenA5UFl4LURwZnJNSmltX3BwUWUzUGhsR3lnUVVPekZFSE1aUWtSaWVwY2wyRWVkdnBrZVlYbDlFZ1lOaTN2aDAxajZGU3NsdTh3c1M3UmY5OVZoM1V6RHBSR0VIbW5hekRGUmVtZ3lVbmZuQW01TXR4ZDhZWTRCajJmakdiZw?oc=5",
     "pub": "Fri, 28 Aug 2026 18:48:34 GMT",
     "src": "Briefs Finance",
@@ -1257,19 +1209,19 @@
     "geo": false
    },
    {
-    "title": "How Will the New Canadian Tariffs Affect the U.S. Economy? - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNOUZ3T2JDeUpVQkdBTk5JOE54eVVnSThTRnluQldoUjZRUzg0bktWWFRPckVWOWgyRUhrXzRWa29hNTVUc0dIMUpDWjRIR0dzNWFsNTNWakF1YnkzSmRHTFY1cjh1ZGpmUEpNQk1lanZldXN4WHRDc3d0bHhCMlFtczJR?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:06:45 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Fed likely to hike rates soon as current policy... - Pluang",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMXU5RExHdmY2MUpsSW51dmw0aEJCTmhoSGhEblVGSnJOam1scDNNYndUSDVlVktFeDB6UTFZRGd5RnVtamt0STBkb1BPdFVCYW9lTjdjVkZyQU1UTG1kSDVac3JiN3dkNjVDRWR0N29DaFhoZExObVhlaEJmYml1Qlp3?oc=5",
     "pub": "Fri, 28 Aug 2026 18:05:49 GMT",
     "src": "Pluang",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Fed Just Delivered A Warning To Markets - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0RrdjRhTzlwNDVmSzBabmVoTjdOQ25RVlpiNW40QndkeFJ6UHRoSXZoZExqaVVCOWJDQ0JnVVMxSU1Ea1pCZGVFQnF3cVNwRGdVWUgtLVlGaXJRSnF3UmZXNnZfZlQ3bjJWYng0ckhtcmtCdUJaempMRGRVSDJoSjF3TmhnRFREMWZTeg?oc=5",
+    "pub": "Fri, 28 Aug 2026 17:50:08 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1610,23 +1562,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77335.88
+   77395.78
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.716,
-   0.898,
-   0.755,
-   0.815,
-   0.917,
-   0.983,
-   0.845,
-   0.794,
-   0.773,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -1687,36 +1625,8 @@
    8.61,
    8.78
   ],
-  "rsp_spy": [
-   0.2761,
-   0.2785,
-   0.2843,
-   0.2812,
-   0.2885,
-   0.2862,
-   0.286,
-   0.2862,
-   0.2911,
-   0.2865,
-   0.2849,
-   0.2857,
-   0.2869
-  ],
-  "xlf_spy": [
-   0.0682,
-   0.0689,
-   0.0713,
-   0.0717,
-   0.0735,
-   0.0747,
-   0.0748,
-   0.0755,
-   0.077,
-   0.0757,
-   0.0748,
-   0.0745,
-   0.0755
-  ],
+  "rsp_spy": null,
+  "xlf_spy": null,
   "cape": [
    42.27,
    42.27,
@@ -1742,7 +1652,8 @@
    "geo": 2,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -1753,13 +1664,18 @@
    "CCC-BB 확대(품질분산)",
    "폭 축소(쏠림 랠리)"
   ],
-  "early": [],
+  "early": [
+   "숨은 헤지"
+  ],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 18,
+   "missing": [
+    "차트:rsp_spy",
+    "차트:xlf_spy"
+   ]
   }
  },
  "history": [
@@ -2435,16 +2351,21 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 4,
+  "failed": [
+   "NVDA",
+   "ANET",
+   "PWR",
+   "ARCC"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 34,
-  "n": 35
+  "pct50": 31,
+  "n": 32
  },
  "ipo_watch": {
-  "checked": "2026-08-28T21:11:57+00:00",
+  "checked": "2026-08-28T21:21:48+00:00",
   "openai": {
    "found": false
   },

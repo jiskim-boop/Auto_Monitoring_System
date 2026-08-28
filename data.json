@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-28T23:22:00+00:00",
+ "updated": "2026-08-28T23:32:15+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -14.9,
-   "chg5": -11.0,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77678.0,
-   "chg": -3.21,
-   "chg5": -0.1,
-   "sma20": 70354.14,
-   "sma50": 66718.71,
-   "sma200": 69448.73,
+   "price": 77694.85,
+   "chg": -3.19,
+   "chg5": -0.08,
+   "sma20": 70354.98,
+   "sma50": 66719.04,
+   "sma200": 69448.82,
    "high3m": 80257.54,
-   "reg": 77678.0,
+   "reg": 77694.85,
    "pre": null,
    "post": null,
-   "regClose": 77678.0,
+   "regClose": 77694.85,
    "sess": "reg",
-   "mt": 1787959289,
+   "mt": 1787959902,
    "ok": true
   },
   "USO": {
@@ -1176,7 +1176,7 @@
   "fundamental": [
    {
     "title": "NASA Sets Coverage for Roman Space Telescope Launch from Florida - NASA Jet Propulsion Laboratory (JPL) (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbGhwWUg0eXRidHVTTzFrWC04b3RfcE9zWElRV19iQXF0UE96UnNvbWpxMVRyb3d1T2ZkYkJWSnJVMlBwMGJZeHJZdUdDSm15dTRFblZMUzdFN3dtVl9lOVY3dlNWR2FIUXVhQkN4c0s4RTRlUV9hcHc5RmVBSzV1dG1SUEUyTkNmRmJ2NDV3OUx0aHlzMWVubkR6Yw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPblRIejBOOHA5SUk1aGFUaDBXZV9PdER3NkdmNmtRakNGbmFfbGNZeEk0RjVrV1Bfdm5BNnh2dWZ5Yy0xV2VaeU81a1hOOTluRnJtc2pPUkRubU5tYTVOaXg1SFhCT2hLa3prYXpHRkZEak91T1FTRjRRNlNGcVlDeld3WXhwcEN5VGFRYk1UemtDU1ZPc05nUnBEazVnV2xfbUE?oc=5",
     "pub": "Fri, 28 Aug 2026 23:10:56 GMT",
     "src": "NASA Jet Propulsion Laboratory (JPL) (.gov)",
     "trig": false,
@@ -1233,14 +1233,6 @@
     "geo": false
    },
    {
-    "title": "Nigeria MPC: What will influence Nigeria’s MPC interest rate decision? - The Guardian Nigeria News",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnpwcHhZeERiZ215RTNiMnB4anVnZ1dha2l2VldydFJtcVllVnNIeDlVTDVwRHE2R0oyc2o0ZjBlSWRYODRYTk14N3NXT0tqcmdyTHVFd2g5d29MMlJGUUplN2xsV1ptWmsyR1Z2aFB1bF9mUmtNM045NnhoT0JCcGZ2cmRsVThuQzgyY3FZMkZHd0I2LWc?oc=5",
-    "pub": "Fri, 28 Aug 2026 20:29:14 GMT",
-    "src": "The Guardian Nigeria News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Dana Milbank: Allow Me to Present the Secret War Plans for Trump’s Military Attack on the Bond Market - News of the United States - NOTUS",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGFGRjhiRUdVQldKQ3l5Wi1HZWNROWlacFkydmVLVXRFLWlwMkxlOGd4YmRjUkl6RXRkUDRscFNRMEVyMWI1Zk5FSWl6OFB3VklfeDdRNzFhRDZSVVJtQTZfTWZweWJqZE1sLUx0dGNGdXZiOXNBM2ViamFiQjZYTlI2S1gwc2dQaXBBSDV3N1dJYUF3VWNGZ25IZDh4NlNPZXlQUVROTUpWOE9FdkVpUUZVTy1mRXI4clpfdF92ZEFIZ3RFT0FmWU5wWXU2QWs?oc=5",
     "pub": "Fri, 28 Aug 2026 19:53:53 GMT",
@@ -1257,18 +1249,26 @@
     "geo": false
    },
    {
-    "title": "Dow Jones Round-Trips as Fed Holds Rates, Signals No Imminent Cuts - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQ2Y0a3ZlVnIwZG9iN0J4Z09NeTlWYkR2dDJtQmxsR1hVRkJ2Ym50eGk2WXZkTTJiVG8yZVdydXFJME0tLVdIUjc2TGxLalJISDlTQTBpMU9ScHZjZlBQQUtjd0ZNTGs2XzhLaThFVzZvaElIckhBdUJndmlJWEo2Nw?oc=5",
-    "pub": "Fri, 28 Aug 2026 19:05:27 GMT",
-    "src": "CryptoRank",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Fed's September Rate Hike Odds Jump After Signals - Briefs Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOaFJXdEJHcWpoeEZXenA5UFl4LURwZnJNSmltX3BwUWUzUGhsR3lnUVVPekZFSE1aUWtSaWVwY2wyRWVkdnBrZVlYbDlFZ1lOaTN2aDAxajZGU3NsdTh3c1M3UmY5OVZoM1V6RHBSR0VIbW5hekRGUmVtZ3lVbmZuQW01TXR4ZDhZWTRCajJmakdiZw?oc=5",
     "pub": "Fri, 28 Aug 2026 18:48:34 GMT",
     "src": "Briefs Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SAF accused of deadly market strike, fighting intensifies in Kordofan and Blue Nile - Dabanga Radio TV Online",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQWm1TNV9WVHFqTWNOMlpiTTJ0emxtVWVoMXdMcUM1UTVBa0tYSHp2N0dUc3dtMFhzS3Etb1RCZmMtZnJSTHdzV29vb2dNN296QXhmWHdjd3Ixc1pRWWgyNHRoeTcxLWZqUkJKVVFvdGxFSG96ZEwxSEpRMHRVVFp2aDhiOXpheXBEN3lHTnRUVG1RZVVvZFJfT0JXOFgzT2EyQ29OVTNHVUYwVVdBQllqd1JEUXhlOGpER296Z1NkajI5R1JHLU9PbFZWWQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 18:13:38 GMT",
+    "src": "Dabanga Radio TV Online",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed likely to hike rates soon as current policy... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMXU5RExHdmY2MUpsSW51dmw0aEJCTmhoSGhEblVGSnJOam1scDNNYndUSDVlVktFeDB6UTFZRGd5RnVtamt0STBkb1BPdFVCYW9lTjdjVkZyQU1UTG1kSDVac3JiN3dkNjVDRWR0N29DaFhoZExObVhlaEJmYml1Qlp3?oc=5",
+    "pub": "Fri, 28 Aug 2026 18:05:49 GMT",
+    "src": "Pluang",
     "trig": false,
     "geo": false
    }
@@ -1280,14 +1280,6 @@
     "pub": "Fri, 28 Aug 2026 23:03:45 GMT",
     "src": "The Star",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
-    "src": "Moomoo",
-    "trig": true,
     "geo": false
    },
    {
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IY25wRnRHei1qeGF6Z0VQRHZCQjBGVjNHYm4xaV9DNXEteGE3S242WlR0b3Z6UnNCTmJBeGxFUFJYWHE1cHk1VjRaN1oyVGlyMHJfNEhNdHNJNGxBeG1VVDNfa1N4d1hoMlJhVEln?oc=5",
     "pub": "Fri, 28 Aug 2026 20:12:54 GMT",
     "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Yen Carry Traders Possibly Expect Aggressive Fed Rate Hikes (NASDAQ:QQQI) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX204Q1lfbDlBWFFKRDNCSVBCek9laXptUWlWU2xoM21SaEJnNzlmd2ZoOS1sNXZBWjNRcXhzYVhqT2NpVzBJb3VFTDhrNFJ1UWNKYjM0WWkzUlg5aTRNMi1nUDlLNmNMa0htNjN1aG04SEZITUJxbDNKYnRtQl9rZXFoM2RvR3FpT1JuRVBSQl9GS2VUNlktMnF0V0o5WnRJUlE?oc=5",
+    "pub": "Fri, 28 Aug 2026 17:53:52 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77668.23
+   77697.42
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.716,
-   0.898,
-   0.755,
-   0.815,
-   0.917,
-   0.983,
-   0.845,
-   0.794,
-   0.773,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2447,7 +2433,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-28T23:21:47+00:00",
+  "checked": "2026-08-28T23:32:03+00:00",
   "openai": {
    "found": false
   },

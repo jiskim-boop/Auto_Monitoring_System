@@ -1,9 +1,21 @@
 {
- "updated": "2026-08-28T21:21:59+00:00",
+ "updated": "2026-08-28T21:32:30+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 217.55,
+   "chg": -4.57,
+   "chg5": 1.32,
+   "sma20": 218.05,
+   "sma50": 208.42,
+   "sma200": 202.34,
+   "high3m": 227.98,
+   "reg": 217.55,
+   "pre": null,
+   "post": null,
+   "regClose": 217.55,
+   "sess": "reg",
+   "mt": 1787947200,
+   "ok": true
   },
   "AVGO": {
    "price": 368.79,
@@ -182,8 +194,20 @@
    "ok": true
   },
   "ANET": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 195.38,
+   "chg": -2.84,
+   "chg5": 3.57,
+   "sma20": 194.38,
+   "sma50": 180.48,
+   "sma200": 161.4,
+   "high3m": 210.5,
+   "reg": 195.38,
+   "pre": null,
+   "post": null,
+   "regClose": 195.38,
+   "sess": "reg",
+   "mt": 1787947203,
+   "ok": true
   },
   "ALAB": {
    "price": 289.47,
@@ -346,8 +370,20 @@
    "ok": true
   },
   "PWR": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 602.7,
+   "chg": -3.08,
+   "chg5": -5.73,
+   "sma20": 661.17,
+   "sma50": 662.0,
+   "sma200": 652.08,
+   "high3m": 740.14,
+   "reg": 602.7,
+   "pre": null,
+   "post": null,
+   "regClose": 602.7,
+   "sess": "reg",
+   "mt": 1787947202,
+   "ok": true
   },
   "FCX": {
    "price": 76.45,
@@ -590,8 +626,20 @@
    "ok": true
   },
   "ARCC": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 19.95,
+   "chg": 0.35,
+   "chg5": 0.15,
+   "sma20": 19.81,
+   "sma50": 19.08,
+   "sma200": 18.8,
+   "high3m": 20.19,
+   "reg": 19.95,
+   "pre": null,
+   "post": null,
+   "regClose": 19.95,
+   "sess": "reg",
+   "mt": 1787947201,
+   "ok": true
   },
   "OBDC": {
    "price": 11.3,
@@ -898,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77395.77,
-   "chg": -3.57,
-   "chg5": -0.46,
-   "sma20": 70340.02,
-   "sma50": 66713.06,
-   "sma200": 69447.18,
+   "price": 77477.96,
+   "chg": -3.46,
+   "chg5": -0.36,
+   "sma20": 70344.13,
+   "sma50": 66714.71,
+   "sma200": 69447.63,
    "high3m": 80257.54,
-   "reg": 77395.77,
+   "reg": 77477.96,
    "pre": null,
    "post": null,
-   "regClose": 77395.77,
+   "regClose": 77477.96,
    "sess": "reg",
-   "mt": 1787952090,
+   "mt": 1787952716,
    "ok": true
   },
   "USO": {
@@ -1077,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "Can AI Go Green? How Data Centers Are Using Green Bonds to Finance Clean Infrastructure - VanEck",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeGp3MEh4VHFnWUsxQjJ2cF8xX1ZQOVFUV25vTTNhZVpiT0V1bUZrMnVYOW9OTVVkRmlrVnU0Vk56YU5YR2FIZVBVWmpFa1pWeXRRaWw0SHd6QTE0TmNacmJiTVFlUkpwSUxucUMzelEyOWdqQ2pxcWNYYTFqcU0yN3U5XzFoYXZGNGswcVFmQmt3TWJaWklfYTgzRmVxdXpUbzNnOTYzZFBQdHp3OU82SElZclBhTEVuUnNxZFpvdU40akxqSWJhZURHNA?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:52:13 GMT",
-    "src": "VanEck",
+    "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
+    "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    },
@@ -1127,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
+    "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
+    "src": "Chosunbiz",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Grok Not Only Generates Child Porn but Was Also Trained On It, New Lawsuit Claims - Gizmodo",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOODZyVU8wNURyXzFsV1NEdE9fdkJDaFJWanVsNndXZW9QOE51ZEpZTVEzSDVyRU9fUmxPcjduaTNZTHBtS0dLbkpKdDVRV09rbVY5NXBPX1NFMTBNUXVqcDZlUHRuSHBfSXhLRTdqaURxX211T2xMTXYzZ3M4WVlUWVhiQUtuMWdzY0pLQ1pNQmljU0U0RW1xaXpxcTFkd2dfcWpWRVRCZF95TE53OFdtaA?oc=5",
     "pub": "Fri, 28 Aug 2026 20:50:13 GMT",
@@ -1163,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeldTY25na0hXQjNTMVk2TkZSQ2ZpSHFzMEVubXVoY1pfQm15NUEta0Nsenp3N0cyUlItSjM2ZURWMV81T1hXTTRHRUpSRmludmQ2ZUV3Q0NVUjBVc3pnVEFxX0Y0a1c4SERKSEtDcDN0SERFZVBLcXVvekN4Q1ExZnY5U2ZEc2Q2TFczWGhKZVY5MzctUUxMSjZSYjBvQlIyT3RwNjhZc2pXS1dmX09ONGg4c1hoUm1pQVR0ZUNIeXVxQ1JXNzhMcmhB?oc=5",
     "pub": "Fri, 28 Aug 2026 18:30:00 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX launch with sonic boom. Where to watch liftoff from Jacksonville - The Florida Times-Union",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQSnQ1WXRUdlpHU0J6dGlWNkF4d1E2UEdMN3pPQ3RpbG0yZlM4bzUzcmliUlNqaE9fZzFMaUlyQUlBU2VOWEVVLXRRUHlhTDBIaGFCbXpQSDZmaTEtUk1PSlpMZWJ1Qkp1RlduMzZkdC1IYktzZmg2TjR3NU1JcjZqd0NkaVlhc0pmX01yS2c4cHlsbjBZWjVfdDB6Z1lTVGVoUnpKNDBhcjhtTW83U2xfcy1hUzY5TjNmV0ZKZTU4RXVacVdVOE1GeE5yMjdqX25id2draFNfaG9QNy1MRnZEa1hmbldUT1Jxc2F4OUJCOXc?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:21:39 GMT",
-    "src": "The Florida Times-Union",
     "trig": false,
     "geo": false
    }
@@ -1217,11 +1265,11 @@
     "geo": false
    },
    {
-    "title": "The Fed Just Delivered A Warning To Markets - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOa0RrdjRhTzlwNDVmSzBabmVoTjdOQ25RVlpiNW40QndkeFJ6UHRoSXZoZExqaVVCOWJDQ0JnVVMxSU1Ea1pCZGVFQnF3cVNwRGdVWUgtLVlGaXJRSnF3UmZXNnZfZlQ3bjJWYng0ckhtcmtCdUJaempMRGRVSDJoSjF3TmhnRFREMWZTeg?oc=5",
-    "pub": "Fri, 28 Aug 2026 17:50:08 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
+    "title": "Polymarket prediction markets daily volume $12.4M - StartupHub.ai",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTFdlRDdkQklEa1hYLVM4YVlIY3BzTHVfS01taG5CZ3VKZHlkVUE1SDVxaDlRd2FVZkZfWk5aVDB0RFRoT1BtY01oN2lxR1ZaVW9iWHYyMzVkUWhXcGE3M1B1U2xSVGx0aHFXNFZlelE5c1dnSjdpcjJqazVwS2x1ZFJuZXVPdWFGNlRibDlFcDltMU9UYk9yVDlBNzFqRWthY2hRWUFuVHhjQQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 18:04:43 GMT",
+    "src": "StartupHub.ai",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1380,7 +1428,7 @@
    "chg": 0.0
   },
   "sofr_iorb": -1.0,
-  "cape": 42.27,
+  "cape": 42.17,
   "cape_manual": false,
   "netliq": {
    "value": 5779.5,
@@ -1562,7 +1610,7 @@
    62813.75,
    64880.19,
    62975.59,
-   77395.78
+   77485.22
   ],
   "vixts": null,
   "hyoas": [
@@ -1625,17 +1673,45 @@
    8.61,
    8.78
   ],
-  "rsp_spy": null,
-  "xlf_spy": null,
+  "rsp_spy": [
+   0.2761,
+   0.2785,
+   0.2843,
+   0.2812,
+   0.2885,
+   0.2862,
+   0.286,
+   0.2862,
+   0.2911,
+   0.2865,
+   0.2849,
+   0.2857,
+   0.2869
+  ],
+  "xlf_spy": [
+   0.0682,
+   0.0689,
+   0.0713,
+   0.0717,
+   0.0735,
+   0.0747,
+   0.0748,
+   0.0755,
+   0.077,
+   0.0757,
+   0.0748,
+   0.0745,
+   0.0755
+  ],
   "cape": [
-   42.27,
-   42.27,
-   42.27,
-   42.27,
-   42.27,
-   42.27,
-   42.27,
-   42.27
+   42.17,
+   42.17,
+   42.17,
+   42.17,
+   42.17,
+   42.17,
+   42.17,
+   42.17
   ]
  },
  "summary": {
@@ -1671,11 +1747,8 @@
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 18,
-   "missing": [
-    "차트:rsp_spy",
-    "차트:xlf_spy"
-   ]
+   "ok": 20,
+   "missing": []
   }
  },
  "history": [
@@ -2351,21 +2424,16 @@
   21
  ],
  "feed": {
-  "fail": 4,
-  "failed": [
-   "NVDA",
-   "ANET",
-   "PWR",
-   "ARCC"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 31,
-  "n": 32
+  "pct50": 34,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-28T21:21:48+00:00",
+  "checked": "2026-08-28T21:32:16+00:00",
   "openai": {
    "found": false
   },

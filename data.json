@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T11:02:35+00:00",
+ "updated": "2026-08-29T11:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -734,21 +734,21 @@
    "post": null,
    "regClose": 14.51,
    "sess": "reg",
-   "mt": 1787948101,
+   "mt": 1787948100,
    "ok": true
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -766,7 +766,7 @@
    "post": null,
    "regClose": 82.9,
    "sess": "reg",
-   "mt": 1787948101,
+   "mt": 1787947200,
    "ok": true
   },
   "^SKEW": {
@@ -782,13 +782,13 @@
    "post": null,
    "regClose": 144.05,
    "sess": "reg",
-   "mt": 1787950845,
+   "mt": 1787947200,
    "ok": true
   },
   "^MOVE": {
    "price": 70.97,
    "chg": 2.2,
-   "chg5": -3.03,
+   "chg5": -3.02,
    "sma20": 74.04,
    "sma50": 72.5,
    "sma200": 75.97,
@@ -798,7 +798,7 @@
    "post": null,
    "regClose": 69.86,
    "sess": "reg",
-   "mt": 1787949015,
+   "mt": 1787947200,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77614.09,
-   "chg": -3.29,
-   "chg5": -0.18,
-   "sma20": 70350.94,
-   "sma50": 66717.43,
-   "sma200": 69448.38,
+   "price": 77701.74,
+   "chg": -3.18,
+   "chg5": -0.07,
+   "sma20": 70355.32,
+   "sma50": 66719.18,
+   "sma200": 69448.86,
    "high3m": 80257.54,
-   "reg": 77614.09,
+   "reg": 77701.74,
    "pre": null,
    "post": null,
-   "regClose": 77614.09,
+   "regClose": 77701.74,
    "sess": "reg",
-   "mt": 1788001318,
+   "mt": 1788001883,
    "ok": true
   },
   "USO": {
@@ -1175,9 +1175,25 @@
   ],
   "fundamental": [
    {
+    "title": "Nvidia is using its balance sheet to fuel the AI boom. Is it a double-edged sword? - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOUmJ4MXlKWmdQamN3RUtKcElrbXZMZGtCUXAwR3V0cm56MEhDTDY4d3RWTk9vMkNBTmJ3QTU0MnZWNV9ZMWNwYWpoWllVTExabG5LVFpBX1B3OFdJQW5CVjlwVi0yd095VjVrRFBtdDV2OUpTNUlDWV93TTFLdmx2NDVqUDZSQzVTUlZ5RVNCMWpJbGRJbjdWVG5iYzE4QTFRd0VCLWRHVlVxbFZfaTltOF9ueTk4YlJmT0ln?oc=5",
+    "pub": "Sat, 29 Aug 2026 11:09:34 GMT",
+    "src": "Invezz",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Survivor says xAI trained Grok on her childhood abuse images - Daily Journal",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUtvVHNPSWdNeUVDZEozamdFMVoyM1BUYUFUQU1fMkZKZWlBRHJGSkU2WWRlcWk2b0pjYXpyaXhBYXlWSHFKMTZLYTdBQ1hsNkREN3J2dVk3aTlTMmNiRXpGX3FDbnhudTA1am91MHlHNUw0VXlTUDVrMC05cGRqZWZzOGJYMzF3Y2UwX0tJQXoydzFwcWY1NG9HSzd3MUJjVmtqN3lmTQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 11:01:04 GMT",
+    "src": "Daily Journal",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 10:31:12 GMT",
+    "pub": "Sat, 29 Aug 2026 10:15:06 GMT",
     "src": "NASA Science (.gov)",
     "trig": false,
     "geo": false
@@ -1199,44 +1215,28 @@
     "geo": false
    },
    {
-    "title": "SpaceX IPO: Everything You Need to Know About SpaceX - stonex.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVY4aGZPa2tGUEN5dDVYbTN0RHl6MHgzVmVNYVVrNGVtV3JwTzQyYThTblUyaTFXUWFxcU9nc0ZVYzhUZGhJNlRnTFp3TnFBemVTUWdFQmp6aXcySGpuam1LMVRqYlE0UUFMQm04dnJiMzhyaUpSNTdZUUQzX2MwVF9pOHkxb214UEhxRFQxSk93M1g3UGVjUnRYRG9vOWc0?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:07:58 GMT",
-    "src": "stonex.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OpenAI says it's ending its deal with Cursor because Elon Musk's companies violate contracts - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSDJrSTF4N1dNX0paYUVuMmE4dnBQSWlxU0U4bzdJSF9FSG44VExZdktHRDA5RW1BeXE5YmFtQXBxa1ozSVh5aTUydk1xaGFtZkp0ZkQtZk1Bb0VMMDh4SnFqN0V1QmlSUEdwaWZYMWtSTDIyZ2JPOHpBakhJS1I4RlZNdGUycGhnb1JxX1RlQnNULVdha3JTaUJ0ZEdBTFNx?oc=5",
     "pub": "Sat, 29 Aug 2026 03:57:00 GMT",
     "src": "Business Insider",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "What Shapes Grok's Political Alignment? Musk Explains - BASENOR - Tesla Accessories",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOanRRVk92SzlHVWhVQXJ2RnhQb0xOdC1rVjNtaDU1MV9tRGZLeTI2VHJxdWQ2M0JGbUJid2psRERjMDNCV3VZMkFWUHh0aVNtZ1AxMjJ0WEE3QjBJWDJLRFF3VXV2SXk3am0xeUlxb0NsZkZEM2R2QjdrbGR5QTVPaU14RnVLTkxJaE9uNFA1OA?oc=5",
-    "pub": "Sat, 29 Aug 2026 02:09:32 GMT",
-    "src": "BASENOR - Tesla Accessories",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "FED Chair Kevin Warsh’s Jackson Hole Speech Today : Here’s What To Expect - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHFWVlZVSzVkNnFIN2s5S0plMXFrQkV1ZjRfVEpqaGhLVFhfRm1kczhfVU9JQWE2a2dnVGF5ODkwNUJMVUlBV0dhVUNqODRTWGpWVGlGVElCZHk3eEJucng2SEJwR3JvbXlOOTZyend1WUdWRHdRUnVJa2ZaTWwzTFNVNzQzM3IxNEJyVEMtR2lrUGY3SlJ5bHpqMmdRSlVZVk9yZTBmbGJLNTQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 08:42:36 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Trending mortgage rates - firsttuesday Journal",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
     "pub": "Sat, 29 Aug 2026 08:15:04 GMT",
     "src": "firsttuesday Journal",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed: September Rate Decision Now Coin Flip - blockchain.news",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeEVZSV8xckU2Um1ORmdlQnVFV0drLVZwOXVJTVBRRlZpeEVjTTBNOGNOM1VSanlaWTBKMXBDZEJaeDNManAyNzV0ZldNVU9TR0J2Vm5nQmtSZ0tKTERSTFVfSFFHdjR3MDJ5a0FPdUJyZXNSNmk0OWZxSzFEWXBzRA?oc=5",
+    "pub": "Sat, 29 Aug 2026 07:43:26 GMT",
+    "src": "blockchain.news",
     "trig": false,
     "geo": false
    },
@@ -1283,14 +1283,6 @@
     "geo": false
    },
    {
-    "title": "Oil Price (WTI) on Sep 1, 2026 - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVVh5dTJONmVRbGpDNURDbWJ3NkhTODZkdFkyaFBtOEZlSkVNUVNsSTF2QkJycDlKUGpuN1pRSjVUNGx6OFZzN1MweF9hSDhlQ2FvNUpqX0J3V2QweGFlc2Y5SkZ1YjA3bDgtYVpDT2FZV2lpSTIzR2M5WHpjQlhkWGt0ZUxYazVrZE1XSlYwYWszWkttQ3hsTFJiaW5OdkVweHExR3o2Yw?oc=5",
-    "pub": "Sat, 29 Aug 2026 01:18:11 GMT",
-    "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 29 Aug 2026 01:16:14 GMT",
@@ -1315,12 +1307,20 @@
     "geo": false
    },
    {
-    "title": "Yen Dips Despite Hotter Inflation as Jackson Hole Takes Center Stage - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnhpTFV4TTVINlRWeUhhR240TjlBYWZFNlAyLTlhNXpwZzNhQXhmMkkyRGFPY2FiVzd4NVhaeDVtdGpfQnUwaWpzNW9hN2RzRnZ0dENCejFadlJQQ3FhdFdTTGVhRGtsRFlOMjRPa0otelhiX0N6RUtvSktKNnRRR0VjX0tmYnJ5RDBPckJSdks?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:10:32 GMT",
-    "src": "CryptoRank",
-    "trig": false,
+    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
+    "src": "Moomoo",
+    "trig": true,
     "geo": false
+   },
+   {
+    "title": "Oil prices fall on Strait of Hormuz bypass tactics - Oil & Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON2hJbFAxTzFiLXIzUmtGcEROZlZXUXNSZDJxcG1jZ2V6clNFT1duUk1hY2E2VE9fUHJ5WEUxRERaeVpZaVZUMW9wcGQzMjgtenlxME1yS1lDUnpjRkcxSlZ0blRHMkktWmNXTmZKZkRpbmZCdFg0cjk3OTZKTmZkTlJXRlJMd25HMXFOZ0I5VVhTbGRwLUw3NzJTN3hMcTJPZ0VYS09Rem8zR25JakZiSnRycmE4SktBN3o0?oc=5",
+    "pub": "Fri, 28 Aug 2026 20:50:58 GMT",
+    "src": "Oil & Gas Journal",
+    "trig": false,
+    "geo": true
    }
   ]
  },
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77614.09
+   77692.81
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -1729,7 +1715,7 @@
   ]
  },
  "summary": {
-  "text": "저금리·낮은 변동성 환경에서 신용스프레드 정상화로 자금 흐름이 안정적이며, GPU 담보 대출 등 AI 금융화가 가속화되고 있습니다. HBM 수급 부족이 2027년 심화될 전망인 가운데 엔비디아 중심의 대규모 컴퓨팅 파이낸싱이 부동산 사이클을 반복하는 구조적 위험을 내포하고 있습니다.",
+  "text": "유가 하락으로 지정학 리스크 일단 완화되는 가운데, VIX 14·HY스프레드 2.63%로 신용 여건 양호하나 미10년물 4.72%는 여전히 높은 수준이다. AI 인프라 금융화 심화로 GPU담보 대출·데이터센터 프로젝트 파이낸싱이 급증하고 있으며, 2027년 메모리 부족 우려가 대두되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,11 +1725,10 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 0,
+   "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2445,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T11:02:22+00:00",
+  "checked": "2026-08-29T11:11:45+00:00",
   "openai": {
    "found": false
   },

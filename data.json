@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T05:22:02+00:00",
+ "updated": "2026-08-29T05:32:14+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77671.16,
-   "chg": -3.22,
-   "chg5": -0.11,
-   "sma20": 70353.79,
-   "sma50": 66718.57,
-   "sma200": 69448.69,
+   "price": 77656.88,
+   "chg": -3.24,
+   "chg5": -0.13,
+   "sma20": 70353.08,
+   "sma50": 66718.29,
+   "sma200": 69448.61,
    "high3m": 80257.54,
-   "reg": 77671.16,
+   "reg": 77656.88,
    "pre": null,
    "post": null,
-   "regClose": 77671.16,
+   "regClose": 77656.88,
    "sess": "reg",
-   "mt": 1787980893,
+   "mt": 1787981499,
    "ok": true
   },
   "USO": {
@@ -1225,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Volta Finance Delivers Modest July Gain as CLO Portfolio Drives Income - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2JCckt2WWwyM2U0Mm5zbks0ejcxaVdWV0JINkd2RnBnSUUwelJaTHFWaDg3Vms1VnZaNDJpeU5QaFA0VnItcXZhQTd1Ny1UVkdOUzRhZ0N2cWFlR0Jpa1ZqWXljNWZzeWsxZVRTNlNGMWUtX1AtR2ppbDExanNFQ2FsaXotU2tBR29Ya2xYTjBQNWZRdUFRa1FaZWdWQXdyb1VGTG1SQzVhNldCN1VsaW1pWldlS29iM1hTLXJoNA?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:53:55 GMT",
+    "src": "TipRanks",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Canada Tariffs, Again - WSJ",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5weXFUSTRRYktBZEtYLXMtU1JtMXloUUdJYWRHQ1hLZXNSaC1vd3pNblhuQ3JVMjFLSW94OV8zbHlGYXlqOTd3eG1QdEJHRWpnUlRjRnZrYnYyaE14NWxmYlEwbjluY1JFYV85dWszeWxBVXljRHc?oc=5",
     "pub": "Sat, 29 Aug 2026 03:06:34 GMT",
@@ -1263,14 +1271,6 @@
     "src": "eciks.org",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Strait of Hormuz crisis threatened Asia's oil and gas lifeline. Here's how the region is rewriting its energy playbook - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPWHhCVlVlUTU5N29RSU9Qb2puLVZJR19kSlhUNC0xMkFGTDBvaWhoZG8yVTJ5NWQybXlXZllsS3Roa2tlSmNkR1ppUXBiT08wamhkYXpPLVkxdU5VdE41Zmo3WWJ5ZGl5eVJ2SlZDTnl2TjJKWm53Z013dE41ZUZ3LUZqSjlVQzhReUE?oc=5",
-    "pub": "Sat, 29 Aug 2026 00:00:00 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1610,7 +1610,7 @@
    62813.75,
    64880.19,
    62975.59,
-   77671.16
+   77652.99
   ],
   "vixts": [
    0.844,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장으로 유가가 배럴당 90달러대로 오르는 가운데, 저변동성(VIX 14)과 완화적 금융조건(NFCI -0.57) 속에서 신용시장은 안정적이나 고금리(미10년 4.72%) 구조가 지속되고 있습니다. AI 인프라 파이낸싱이 활발해지며 엔비디아 GPU 기반 2.4조원대 프로젝트 펀딩이 진행 중이나, RISC-V 서버 등 비엔비디아 칩 옵션이 부상하는 흐름이 보입니다.",
+  "text": "저금리·완화적 금융 여건(NFCI -0.57, VIX 14)이 지속되는 가운데 AI 인프라 자금조달이 활발해지며 신용시장이 견조를 유지하고 있습니다(HY스프레드 2.63%). AI 캐팩스 자금화는 진행 중이나 GPU 수급·밸류체인에서 특이 공급 제약 신호는 없는 상태입니다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,11 +1739,10 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 1,
+   "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2445,7 +2444,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T05:21:49+00:00",
+  "checked": "2026-08-29T05:31:59+00:00",
   "openai": {
    "found": false
   },

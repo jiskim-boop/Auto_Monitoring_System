@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T01:21:58+00:00",
+ "updated": "2026-08-29T01:32:54+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -14.9,
-   "chg5": -11.0,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77719.45,
-   "chg": -3.16,
-   "chg5": -0.05,
-   "sma20": 70356.21,
-   "sma50": 66719.54,
-   "sma200": 69448.96,
+   "price": 77791.37,
+   "chg": -3.07,
+   "chg5": 0.05,
+   "sma20": 70359.8,
+   "sma50": 66720.98,
+   "sma200": 69449.35,
    "high3m": 80257.54,
-   "reg": 77719.45,
+   "reg": 77791.37,
    "pre": null,
    "post": null,
-   "regClose": 77719.45,
+   "regClose": 77791.37,
    "sess": "reg",
-   "mt": 1787966488,
+   "mt": 1787967111,
    "ok": true
   },
   "USO": {
@@ -1165,10 +1165,10 @@
     "geo": false
    },
    {
-    "title": "The CV boom reaches fund finance - PEI Secondaries Investor",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TcjFuSUcyQ3FBX1UzQjJjcHVERVR1VnI0empqMXNJOEpubTE4ZG12cndtemRsN0xPVHNtWFl5N3h5UHpYT2p0eVA5Z0lLUXppbUNOR2NqR1lBZU1zWlN0VmhlajE4VngzWmxVZTNVNE95SmZLT0s1X3FkTQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 10:46:01 GMT",
-    "src": "PEI Secondaries Investor",
+    "title": "Private credit roundup-Institutional investors step up allocations to Asia - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0taTnJFM1pNX3VFZHBXTlluQmg0MkxMODRPSWc0bk1FUHZ6YVI3cDhqVVlIYmtzbGd4M0MzSGF0LTdBSmpWa2UxM2g4alpZX0U5ZlR1SnN5NHVOaGxTQkYxR3VCVnBOdTVpc1VBaW9WVTVUYTZpUUR6a1ZJTHBoMzU1N2o4b085RzVWeVdIal8yNzhQVTk4bXdhaHlHXzh1U05VV3R3?oc=5",
+    "pub": "Fri, 28 Aug 2026 13:44:26 GMT",
+    "src": "The Mighty 790 KFGO",
     "trig": false,
     "geo": false
    }
@@ -1435,31 +1435,7 @@
    "chg4w": -45.4,
    "asof": "2026-08-26"
   },
-  "gm2": {
-   "value": 42.12,
-   "series": [
-    42.11,
-    41.97,
-    41.8,
-    42.03,
-    41.94,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12
-   ],
-   "chg13w": 0.51,
-   "us_chg13w": 1.63,
-   "eu_chg13w": 0.81,
-   "us_t": 23.21,
-   "eu_t": 18.92,
-   "asof": "2026-08-03",
-   "eu_asof": "2026-07-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1610,23 +1586,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77720.45
+   77803.1
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.716,
-   0.898,
-   0.755,
-   0.815,
-   0.917,
-   0.983,
-   0.845,
-   0.794,
-   0.773,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2407,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T01:21:45+00:00",
+  "checked": "2026-08-29T01:32:39+00:00",
   "openai": {
    "found": false
   },

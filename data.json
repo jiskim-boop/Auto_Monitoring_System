@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T10:12:03+00:00",
+ "updated": "2026-08-29T10:21:58+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77555.71,
-   "chg": -3.37,
-   "chg5": -0.26,
-   "sma20": 70348.02,
-   "sma50": 66716.26,
-   "sma200": 69448.06,
+   "price": 77717.99,
+   "chg": -3.16,
+   "chg5": -0.05,
+   "sma20": 70356.14,
+   "sma50": 66719.51,
+   "sma200": 69448.95,
    "high3m": 80257.54,
-   "reg": 77555.71,
+   "reg": 77717.99,
    "pre": null,
    "post": null,
-   "regClose": 77555.71,
+   "regClose": 77717.99,
    "sess": "reg",
-   "mt": 1787998292,
+   "mt": 1787998890,
    "ok": true
   },
   "USO": {
@@ -1283,18 +1283,18 @@
     "geo": false
    },
    {
-    "title": "Oil Price (WTI) on Sep 1, 2026 - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVVh5dTJONmVRbGpDNURDbWJ3NkhTODZkdFkyaFBtOEZlSkVNUVNsSTF2QkJycDlKUGpuN1pRSjVUNGx6OFZzN1MweF9hSDhlQ2FvNUpqX0J3V2QweGFlc2Y5SkZ1YjA3bDgtYVpDT2FZV2lpSTIzR2M5WHpjQlhkWGt0ZUxYazVrZE1XSlYwYWszWkttQ3hsTFJiaW5OdkVweHExR3o2Yw?oc=5",
-    "pub": "Sat, 29 Aug 2026 01:18:11 GMT",
-    "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 29 Aug 2026 01:16:14 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CZ Says Bitcoin Could Overtake Gold, But India’s Gold Rally Tests His Bet - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVW1GUGVtN3ptc2F5OWJGeGtkSVRNWVJRd3lOX2ZnLXAwT285Q2ZnMG9ZYmw3QnEtRFN2eVBPUzBhTXVCRmtkWi1yTWExdXNpT29zbmh1Slo5OExvQTVrek5HWV84RldSNkM1bnBLREt4MnRuMDl1SlhHQlh4MVBKbVlSSW1CalpLSlRlREFRTHM4RnFLVkdWUzhlNmNQTFRKRjlXQ0trVTAwMkw0N0E?oc=5",
+    "pub": "Sat, 29 Aug 2026 00:05:54 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77555.71
+   77685.17
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T10:11:50+00:00",
+  "checked": "2026-08-29T10:21:47+00:00",
   "openai": {
    "found": false
   },

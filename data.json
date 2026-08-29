@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T04:51:56+00:00",
+ "updated": "2026-08-29T05:02:26+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -723,16 +723,16 @@
   },
   "^VIX": {
    "price": 14.43,
-   "chg": -0.55,
-   "chg5": -4.63,
-   "sma20": 15.25,
-   "sma50": 16.51,
-   "sma200": 18.9,
+   "chg": -5.13,
+   "chg5": -9.87,
+   "sma20": 15.32,
+   "sma50": 16.59,
+   "sma200": 18.94,
    "high3m": 22.22,
    "reg": 14.43,
    "pre": null,
    "post": null,
-   "regClose": 14.43,
+   "regClose": 14.51,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -819,8 +819,8 @@
   },
   "^IRX": {
    "price": 3.73,
-   "chg": 1.41,
-   "chg5": 0.54,
+   "chg": 1.08,
+   "chg5": 0.73,
    "sma20": 3.71,
    "sma50": 3.71,
    "sma200": 3.64,
@@ -828,7 +828,7 @@
    "reg": 3.73,
    "pre": null,
    "post": null,
-   "regClose": 3.73,
+   "regClose": 3.68,
    "sess": "reg",
    "mt": 1787943594,
    "ok": true
@@ -883,8 +883,8 @@
   },
   "^TNX": {
    "price": 4.72,
-   "chg": 1.03,
-   "chg5": -0.38,
+   "chg": 1.2,
+   "chg5": 0.51,
    "sma20": 4.68,
    "sma50": 4.6,
    "sma200": 4.46,
@@ -892,7 +892,7 @@
    "reg": 4.72,
    "pre": null,
    "post": null,
-   "regClose": 4.72,
+   "regClose": 4.67,
    "sess": "reg",
    "mt": 1787943594,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77633.78,
-   "chg": -3.27,
-   "chg5": -0.16,
-   "sma20": 70351.93,
-   "sma50": 66717.82,
-   "sma200": 69448.49,
+   "price": 77640.88,
+   "chg": -3.26,
+   "chg5": -0.15,
+   "sma20": 70352.28,
+   "sma50": 66717.97,
+   "sma200": 69448.53,
    "high3m": 80257.54,
-   "reg": 77633.78,
+   "reg": 77640.88,
    "pre": null,
    "post": null,
-   "regClose": 77633.78,
+   "regClose": 77640.88,
    "sess": "reg",
-   "mt": 1787979084,
+   "mt": 1787979715,
    "ok": true
   },
   "USO": {
@@ -1251,7 +1251,7 @@
    {
     "title": "Oracle Stock Price Forecast: Wins Citi Bullish Call After 50% Pullback, Can the Stock Recover? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOU0s1Y0NWb0JWLXNMYU83WE9kd2ZuQTN0WmpEekRpOWFEZ2F4dUpGMENEZEhfVkhOemROSUYwRnVSVXdhcm1ROFk3bl91RjFyckpfZWpZZ2V0UGtfalQyRTg1YXk2M3ZtRmIwRWhndjdEd0RMdmMwNFk4VHJsX3RmaU42QmswTkd3WVFZMFdQRVlDaEE0em5NWEgwanJGbko5Nlh3VHY5ZTVNb3hsVllETEVHNW56Q0NaYkpzT01ERnlqYXdoNW5PSl9id09OSk1BaGc?oc=5",
-    "pub": "Sat, 29 Aug 2026 00:09:22 GMT",
+    "pub": "Sat, 29 Aug 2026 00:18:26 GMT",
     "src": "TradingKey",
     "trig": false,
     "geo": false
@@ -1464,33 +1464,33 @@
  "charts": {
   "vix": [
    15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
-   18.65,
-   18.67,
-   15.86,
-   15.46,
-   15.19,
-   14.43
+   16.06,
+   22.22,
+   18.44,
+   18.89,
+   16.15,
+   15.03,
+   18.77,
+   18.58,
+   15.99,
+   14.9,
+   14.25,
+   14.51
   ],
   "tnx": [
    4.45,
-   4.48,
+   4.49,
+   4.54,
    4.46,
-   4.45,
-   4.37,
-   4.48,
-   4.61,
-   4.6,
-   4.64,
-   4.69,
+   4.39,
+   4.49,
+   4.57,
+   4.54,
+   4.68,
+   4.74,
+   4.66,
    4.7,
-   4.72,
-   4.72
+   4.67
   ],
   "dxy": [
    98.91,
@@ -1610,22 +1610,22 @@
    62813.75,
    64880.19,
    62975.59,
-   77649.99
+   77636.77
   ],
   "vixts": [
    0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
+   0.824,
+   1.018,
+   0.865,
+   0.921,
+   0.783,
+   0.761,
+   0.923,
+   0.951,
+   0.84,
+   0.766,
+   0.767,
+   0.706
   ],
   "hyoas": [
    3.27,
@@ -2214,10 +2214,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-27T05",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-27T06",
     "v": 2.73
    },
@@ -2404,6 +2400,10 @@
    {
     "d": "2026-08-29T04",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-29T05",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2445,7 +2445,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T04:51:43+00:00",
+  "checked": "2026-08-29T05:02:14+00:00",
   "openai": {
    "found": false
   },

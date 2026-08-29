@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T11:51:56+00:00",
+ "updated": "2026-08-29T12:02:26+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77632.82,
-   "chg": -3.27,
-   "chg5": -0.16,
-   "sma20": 70351.88,
-   "sma50": 66717.8,
-   "sma200": 69448.48,
+   "price": 77581.74,
+   "chg": -3.33,
+   "chg5": -0.22,
+   "sma20": 70349.32,
+   "sma50": 66716.78,
+   "sma200": 69448.2,
    "high3m": 80257.54,
-   "reg": 77632.82,
+   "reg": 77581.74,
    "pre": null,
    "post": null,
-   "regClose": 77632.82,
+   "regClose": 77581.74,
    "sess": "reg",
-   "mt": 1788004279,
+   "mt": 1788004914,
    "ok": true
   },
   "USO": {
@@ -1149,6 +1149,14 @@
     "geo": false
    },
    {
+    "title": "Could CoreWeave (CRWV) Stock Win as AI Demand Continues to Outpace GPU Supply? - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSHdKUV9DcDl3ZjRvWF9TNWdSbTAtQ0Zrc2hpbF9NWDZscEZqQ2pFQzc3V0FHZV9WdWszQ2lvUHc5XzJhYnJIZFN1M2cyRDB1M3ZSRDNWaC1PWlk3cU9Bd3RmaHJtSkl1dS16T2VWUGRFWC02Vmt3M3ZSS094R2dtNGlod25EY3lGRlhrVnNCQk5JcWZ5cWF5eUJ3?oc=5",
+    "pub": "Fri, 28 Aug 2026 21:01:40 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
     "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWV9CeWctMThLWDMzSkVmYXd6Rkh5Z205X3N6bjl0N1JsWDFsMG82Zk0zSGlhV0FEaU4zR2R4NHFBV1lnd1VRbm1pXzNLalJ1cmpCMU13cFNmVER6N1g2cmVVVy10MEwzSEpDOURUX3BnX0FWeTFLdHZwQkNUQ2V6aGtiSFQzdEtZbE4wYVdJaHdlVGpXR21fcUtnSko3RmYyaEdlaHoxM1NzdkpEZW5vZEEtWk9iR1JNc3c?oc=5",
     "pub": "Fri, 28 Aug 2026 18:48:53 GMT",
     "src": "Stock Titan",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Blue Owl Funds Lead $2.4B AI Factory Equipment Financing for IREN - Unite.AI",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd2xKbGtHX2tNNFJMZTk1dmM5V3dTNFhJRmlycHJZTzY4RjRRUjBwS0FXSEo2VmVJOXNrbFVuV0JXd3hVOVI0VEY1ZGpvY1p3Y1NUalNsc3VkY2xxM0N1T2VTbVQxaGJwbHgxLVRDMHdVQzdTQ3JNN1hjWGE4WlRYRHFib3RReUdiNUtaRHlsTQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:43:01 GMT",
-    "src": "Unite.AI",
     "trig": false,
     "geo": false
    }
@@ -1193,8 +1193,16 @@
    {
     "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 10:31:12 GMT",
+    "pub": "Sat, 29 Aug 2026 10:15:06 GMT",
     "src": "NASA Science (.gov)",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI’s Potential IPO Could Put a Trillion-Dollar Value on the Future of AI - Share Talk",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa3U3d1BQVm92NjUxYkMtM2tiaHkxRW1weDFEY0NUQW1VVlBBaGxUUzdBR0RBaF9iQUpkNk1WQkVsTzJSUXNVd3FZeTVWcTI3ZXVyNVJlRzBtS0VVenA2X3dHUC1CQ1k3UENoVkRMTHQwTUh4SVl2aEZYSUVHSzB4b0Y1RDh6WVZZTDhZS1RvVWxwUnFKVklLcmpRbDJkcmJOZmdtQnNn?oc=5",
+    "pub": "Sat, 29 Aug 2026 08:47:30 GMT",
+    "src": "Share Talk",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQkdDelR2aFFuV3pGVTA5N2t0dXJ0eUpqLXE0c2FwME8yNVdUbzFmUHZuRnFMSmNTeGJhRTgzTDFFQnRFSDlyM25KZGlTWG04QXpJNmVGano3Nl9LSzdVcFlSTllrSENpTUlrLUpFQTVlNE5UbE5wVFc5TW91SkdvRDdoOTJnaHBOZDBZdFdvSDNLbXRhUng1Zk9pNzFzT2M?oc=5",
     "pub": "Sat, 29 Aug 2026 05:51:12 GMT",
     "src": "富途牛牛",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX IPO: Everything You Need to Know About SpaceX - stonex.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPaVY4aGZPa2tGUEN5dDVYbTN0RHl6MHgzVmVNYVVrNGVtV3JwTzQyYThTblUyaTFXUWFxcU9nc0ZVYzhUZGhJNlRnTFp3TnFBemVTUWdFQmp6aXcySGpuam1LMVRqYlE0UUFMQm04dnJiMzhyaUpSNTdZUUQzX2MwVF9pOHkxb214UEhxRFQxSk93M1g3UGVjUnRYRG9vOWc0?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:07:58 GMT",
-    "src": "stonex.com",
     "trig": false,
     "geo": false
    }
@@ -1275,22 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 29 Aug 2026 10:29:41 GMT",
-    "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Current price of oil as of August 28, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xNGVGWjNpNlM2U2kzdDVuV1pCdUhncTJzYzl4YXhHUzY3cHItbXNTYUExWGxEdVZiM0NqMVRwUldVcENFcjVLeXlra2FOMUVqSk51WGJ3VDJWeWkwa3NRM1Zn?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:18:51 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "After a record $96 billion intervention over one month, the yen fell below 160, returning to pre-intervention levels. - 富途牛牛",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEtGOHYyay16Z09zbmNsUUk5VlFtSno2UmFRbXhsR1ZPUDZXb0s0Q2JITHR1d0N2SldGMENBNmhFWHhlOTY3cmxLcUw5ZlBZdEZFalRVdGZOdGVCWEtwdG9DVnpzWHltZFVuOE05TTZhOEs2SEEtUnh0U0xGb2pOdzB5d2NUbUJ6b2hLQ0RkUkNaay1LeFlaaW53dFdHN1U?oc=5",
     "pub": "Sat, 29 Aug 2026 02:07:01 GMT",
@@ -1303,6 +1287,14 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVVh5dTJONmVRbGpDNURDbWJ3NkhTODZkdFkyaFBtOEZlSkVNUVNsSTF2QkJycDlKUGpuN1pRSjVUNGx6OFZzN1MweF9hSDhlQ2FvNUpqX0J3V2QweGFlc2Y5SkZ1YjA3bDgtYVpDT2FZV2lpSTIzR2M5WHpjQlhkWGt0ZUxYazVrZE1XSlYwYWszWkttQ3hsTFJiaW5OdkVweHExR3o2Yw?oc=5",
     "pub": "Sat, 29 Aug 2026 01:18:11 GMT",
     "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 29 Aug 2026 01:16:14 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1320,6 +1312,14 @@
     "pub": "Fri, 28 Aug 2026 22:15:34 GMT",
     "src": "Codelco",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
+    "src": "Moomoo",
+    "trig": true,
     "geo": false
    }
   ]
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77653.95
+   77581.74
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2214,10 +2200,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-27T12",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-27T13",
     "v": 2.73
    },
@@ -2404,6 +2386,10 @@
    {
     "d": "2026-08-29T11",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-29T12",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T11:51:43+00:00",
+  "checked": "2026-08-29T12:02:15+00:00",
   "openai": {
    "found": false
   },

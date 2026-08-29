@@ -1,21 +1,9 @@
 {
- "updated": "2026-08-28T23:51:55+00:00",
+ "updated": "2026-08-29T00:03:00+00:00",
  "prices": {
   "NVDA": {
-   "price": 217.55,
-   "chg": -4.57,
-   "chg5": 1.32,
-   "sma20": 218.05,
-   "sma50": 208.42,
-   "sma200": 202.34,
-   "high3m": 227.98,
-   "reg": 217.55,
-   "pre": null,
-   "post": null,
-   "regClose": 217.55,
-   "sess": "reg",
-   "mt": 1787947200,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 368.79,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77713.18,
-   "chg": -3.17,
-   "chg5": -0.05,
-   "sma20": 70355.89,
-   "sma50": 66719.41,
-   "sma200": 69448.92,
+   "price": 77826.56,
+   "chg": -3.03,
+   "chg5": 0.09,
+   "sma20": 70361.56,
+   "sma50": 66721.68,
+   "sma200": 69449.55,
    "high3m": 80257.54,
-   "reg": 77713.18,
+   "reg": 77826.56,
    "pre": null,
    "post": null,
-   "regClose": 77713.18,
+   "regClose": 77826.56,
    "sess": "reg",
-   "mt": 1787961084,
+   "mt": 1787961736,
    "ok": true
   },
   "USO": {
@@ -1165,10 +1153,10 @@
     "geo": false
    },
    {
-    "title": "The CV boom reaches fund finance - PEI Secondaries Investor",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TcjFuSUcyQ3FBX1UzQjJjcHVERVR1VnI0empqMXNJOEpubTE4ZG12cndtemRsN0xPVHNtWFl5N3h5UHpYT2p0eVA5Z0lLUXppbUNOR2NqR1lBZU1zWlN0VmhlajE4VngzWmxVZTNVNE95SmZLT0s1X3FkTQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 10:46:01 GMT",
-    "src": "PEI Secondaries Investor",
+    "title": "Private credit roundup-Institutional investors step up allocations to Asia - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0taTnJFM1pNX3VFZHBXTlluQmg0MkxMODRPSWc0bk1FUHZ6YVI3cDhqVVlIYmtzbGd4M0MzSGF0LTdBSmpWa2UxM2g4alpZX0U5ZlR1SnN5NHVOaGxTQkYxR3VCVnBOdTVpc1VBaW9WVTVUYTZpUUR6a1ZJTHBoMzU1N2o4b085RzVWeVdIal8yNzhQVTk4bXdhaHlHXzh1U05VV3R3?oc=5",
+    "pub": "Fri, 28 Aug 2026 13:44:26 GMT",
+    "src": "The Mighty 790 KFGO",
     "trig": false,
     "geo": false
    }
@@ -1241,14 +1229,6 @@
     "geo": false
    },
    {
-    "title": "Nigeria MPC: What will influence Nigeria’s MPC interest rate decision? - The Guardian Nigeria News",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQnpwcHhZeERiZ215RTNiMnB4anVnZ1dha2l2VldydFJtcVllVnNIeDlVTDVwRHE2R0oyc2o0ZjBlSWRYODRYTk14N3NXT0tqcmdyTHVFd2g5d29MMlJGUUplN2xsV1ptWmsyR1Z2aFB1bF9mUmtNM045NnhoT0JCcGZ2cmRsVThuQzgyY3FZMkZHd0I2LWc?oc=5",
-    "pub": "Fri, 28 Aug 2026 20:29:14 GMT",
-    "src": "The Guardian Nigeria News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Dana Milbank: Allow Me to Present the Secret War Plans for Trump’s Military Attack on the Bond Market - News of the United States - NOTUS",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRGFGRjhiRUdVQldKQ3l5Wi1HZWNROWlacFkydmVLVXRFLWlwMkxlOGd4YmRjUkl6RXRkUDRscFNRMEVyMWI1Zk5FSWl6OFB3VklfeDdRNzFhRDZSVVJtQTZfTWZweWJqZE1sLUx0dGNGdXZiOXNBM2ViamFiQjZYTlI2S1gwc2dQaXBBSDV3N1dJYUF3VWNGZ25IZDh4NlNPZXlQUVROTUpWOE9FdkVpUUZVTy1mRXI4clpfdF92ZEFIZ3RFT0FmWU5wWXU2QWs?oc=5",
     "pub": "Fri, 28 Aug 2026 19:53:53 GMT",
@@ -1261,6 +1241,14 @@
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOS0poR0cxeEhTNVdyN2loczFEdzVtNXVoVHhOX1FSdHQweU5HZ0pud1BQak9pTVc4ajNSWTQ5U3pqSm0tcVBIVUMwOGk5TG1PdXVtLW9LMGtZQ3UxV0pXbXV1MTd5UTBoelhENEphaXIwZy1GNlF1d1dBR2oxQzhGbWJOcUlwMjA0WW5XSVdXUU40QQ?oc=5",
     "pub": "Fri, 28 Aug 2026 19:41:08 GMT",
     "src": "The Mighty 790 KFGO",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Week Ahead for FX, Bonds: U.S. Jobs Data in Focus; Bank of Canada Decision Due - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaWxpSnFEYUFYdlFHN0tuZ2RxbGlWSzVJdHZXWEgxYUREY2tfaVhlMW8xQzdqbk5YY3pFbGJCYkhyU2N2UFB3V3VRYVc5MmdVbjZuMmh2dEt4eU5HbDMzQm5PNEhNYzlpT0QzOTBSUmR1UTBqdUlKdk9KTnU0UktMNUhpMlNrLWJmdGpfUFVVSkhOMl94QVlMOGxBWF9CaElKdV85S3BhcWQ3dElGSXFkSkNfaWYtd2hMM190Ym02bHdqSmp4WFE?oc=5",
+    "pub": "Fri, 28 Aug 2026 19:31:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1280,6 +1268,14 @@
     "pub": "Fri, 28 Aug 2026 23:03:45 GMT",
     "src": "The Star",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
+    "src": "Moomoo",
+    "trig": true,
     "geo": false
    },
    {
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IY25wRnRHei1qeGF6Z0VQRHZCQjBGVjNHYm4xaV9DNXEteGE3S242WlR0b3Z6UnNCTmJBeGxFUFJYWHE1cHk1VjRaN1oyVGlyMHJfNEhNdHNJNGxBeG1VVDNfa1N4d1hoMlJhVEln?oc=5",
     "pub": "Fri, 28 Aug 2026 20:12:54 GMT",
     "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen Carry Traders Possibly Expect Aggressive Fed Rate Hikes (NASDAQ:QQQI) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNX204Q1lfbDlBWFFKRDNCSVBCek9laXptUWlWU2xoM21SaEJnNzlmd2ZoOS1sNXZBWjNRcXhzYVhqT2NpVzBJb3VFTDhrNFJ1UWNKYjM0WWkzUlg5aTRNMi1nUDlLNmNMa0htNjN1aG04SEZITUJxbDNKYnRtQl9rZXFoM2RvR3FpT1JuRVBSQl9GS2VUNlktMnF0V0o5WnRJUlE?oc=5",
-    "pub": "Fri, 28 Aug 2026 17:53:52 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1598,19 +1586,19 @@
    408.89
   ],
   "btc": [
-   73536.55,
-   63801.57,
-   63561.05,
-   62896.47,
-   59721.68,
-   61485.3,
-   63193.15,
+   73372.52,
+   60922.67,
+   63543.2,
+   63540.84,
+   60016.43,
+   62544.2,
+   64127.14,
    63899.46,
    64098.5,
    62813.75,
    64880.19,
    62975.59,
-   77696.88
+   77826.24
   ],
   "vixts": null,
   "hyoas": [
@@ -1752,20 +1740,6 @@
   }
  },
  "history": [
-  {
-   "d": "2026-07-30",
-   "score": 1.5,
-   "st": "a",
-   "axis": 1,
-   "risk": false,
-   "hits": [
-    "사모대출 주가 약세",
-    "AI 밸류체인 약세",
-    "CCC-BB 확대(품질분산)",
-    "폭 축소(쏠림 랠리)",
-    "조정 지속(고점 -8.4%)"
-   ]
-  },
   {
    "d": "2026-07-31",
    "score": 1.5,
@@ -2140,6 +2114,18 @@
     "CCC-BB 확대(품질분산)",
     "폭 축소(쏠림 랠리)"
    ]
+  },
+  {
+   "d": "2026-08-29",
+   "score": 1.0,
+   "st": "a",
+   "axis": 0,
+   "risk": false,
+   "hits": [
+    "AI 밸류체인 약세",
+    "CCC-BB 확대(품질분산)",
+    "폭 축소(쏠림 랠리)"
+   ]
   }
  ],
  "events": [
@@ -2147,64 +2133,60 @@
    "date": "2026-09-04",
    "name": "미 고용보고서(관례)",
    "at": "2026-09-04T12:30:00+00:00",
-   "dday": 7
+   "dday": 6
   },
   {
    "date": "2026-09-11",
    "name": "미 CPI(8월)",
    "at": "2026-09-11T12:30:00+00:00",
-   "dday": 14
+   "dday": 13
   },
   {
    "date": "2026-09-16",
    "name": "FOMC 금리결정",
    "at": "2026-09-16T18:00:00+00:00",
-   "dday": 19
+   "dday": 18
   },
   {
    "date": "2026-10-02",
    "name": "미 고용보고서(관례)",
    "at": "2026-10-02T12:30:00+00:00",
-   "dday": 35
+   "dday": 34
   },
   {
    "date": "2026-10-14",
    "name": "미 CPI(9월)",
    "at": "2026-10-14T12:30:00+00:00",
-   "dday": 47
+   "dday": 46
   },
   {
    "date": "2026-10-28",
    "name": "FOMC 금리결정",
    "at": "2026-10-28T18:00:00+00:00",
-   "dday": 61
+   "dday": 60
   },
   {
    "date": "2026-11-10",
    "name": "미 CPI(10월)",
    "at": "2026-11-10T13:30:00+00:00",
-   "dday": 74
+   "dday": 73
   },
   {
    "date": "2026-12-09",
    "name": "FOMC 금리결정",
    "at": "2026-12-09T19:00:00+00:00",
-   "dday": 103
+   "dday": 102
   },
   {
    "date": "2026-12-10",
    "name": "미 CPI(11월)",
    "at": "2026-12-10T13:30:00+00:00",
-   "dday": 104
+   "dday": 103
   }
  ],
  "gpu": {
   "median": 2.73,
   "hist": [
-   {
-    "d": "2026-08-27T00",
-    "v": 2.73
-   },
    {
     "d": "2026-08-27T01",
     "v": 2.73
@@ -2392,6 +2374,10 @@
    {
     "d": "2026-08-28T23",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-29T00",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2424,16 +2410,18 @@
   21
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 34,
-  "n": 35
+  "pct50": 32,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-08-28T23:51:43+00:00",
+  "checked": "2026-08-29T00:02:43+00:00",
   "openai": {
    "found": false
   },
@@ -2448,7 +2436,7 @@
   "margin_gdp_pct": 4.36,
   "curve_bp": 39,
   "curve_inverted": false,
-  "curve_uninv_months": 23.7
+  "curve_uninv_months": 23.8
  },
  "ebp": {
   "val": -0.32,
@@ -2461,7 +2449,7 @@
   "peak": 3.4,
   "peak_d": "10/1/2008",
   "prev_val": -0.29,
-  "fetched": "2026-08-28",
+  "fetched": "2026-08-29",
   "src": "fed"
  },
  "klr": {

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T06:02:44+00:00",
+ "updated": "2026-08-29T06:11:54+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77577.01,
-   "chg": -3.34,
-   "chg5": -0.23,
-   "sma20": 70349.09,
-   "sma50": 66716.69,
-   "sma200": 69448.17,
+   "price": 77533.53,
+   "chg": -3.39,
+   "chg5": -0.29,
+   "sma20": 70346.91,
+   "sma50": 66715.82,
+   "sma200": 69447.94,
    "high3m": 80257.54,
-   "reg": 77577.01,
+   "reg": 77533.53,
    "pre": null,
    "post": null,
-   "regClose": 77577.01,
+   "regClose": 77533.53,
    "sess": "reg",
-   "mt": 1787983312,
+   "mt": 1787983886,
    "ok": true
   },
   "USO": {
@@ -1225,14 +1225,6 @@
   ],
   "macro": [
    {
-    "title": "Volta Finance Delivers Modest July Gain as CLO Portfolio Drives Income - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2JCckt2WWwyM2U0Mm5zbks0ejcxaVdWV0JINkd2RnBnSUUwelJaTHFWaDg3Vms1VnZaNDJpeU5QaFA0VnItcXZhQTd1Ny1UVkdOUzRhZ0N2cWFlR0Jpa1ZqWXljNWZzeWsxZVRTNlNGMWUtX1AtR2ppbDExanNFQ2FsaXotU2tBR29Ya2xYTjBQNWZRdUFRa1FaZWdWQXdyb1VGTG1SQzVhNldCN1VsaW1pWldlS29iM1hTLXJoNA?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:53:55 GMT",
-    "src": "TipRanks",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Jackson Hole: New Fed Chair Signals An Era Of No Guidance — Where He Stands Versus Powell, Yellen & Bernanke - NDTV Profit",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFlWS3lLY3dXa2dUUy1fdE43QkNmUkd5bVppU0IzdEdMWDZRNkpLTUJmX3NSVzRsUDRiY0VTdkJ4UWZGeGNUUFJJeS14dmxXZENGRF9CSFdPSVJ0RDJPVHQ2V2ZRQlAxUmd0dDhuUU0yR3N6ZHVHUWVMMkJId2E3d1llMGFXbFB3cXhrZTR1aDlSdGEyVV8zWDJjWjNDZFk5bFZVNHViTU1kQWR3dno0R0twOHJYQ2ZWQjBDR1RxWDFrQkJlVWxfddIB0AFBVV95cUxPLTJhaXJ1RVNXRDRCcHc0QV9GY0Y0SWV3MWVfRHNuVm80OFY4c0lWUmllUjZzWDZaUjlqRWZEWFVVN0p0eUJ0QmU1bjgzSk1Uc082aUppQ08xVzhJdGpIaEpXN2k2bXotdXJOWmpOZncta0NWRXdXMU4xV25Fei1kRzFfOVFrT3k4SUVlU1hsY25OR3NLZl9qcXIyWktwWnVOTUFkTXVEb0JzRko1QlV6MnkxZ0VKVWQ5LW9KVFNCSTFWTzlUeDBYTnJvdzFUd2RL?oc=5",
     "pub": "Sat, 29 Aug 2026 01:54:35 GMT",
@@ -1271,6 +1263,14 @@
     "src": "Fortune",
     "trig": false,
     "geo": true
+   },
+   {
+    "title": "Fed chair Warsh, concerned about inflation, says bank may have ‘work to do’ - The Washington Post",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQaDFpTWxQbW1YQ0U3M0pkd2xDc0F4UUJSYTZmTjc0VUthQ3YxLWhoa3pjU2tvaDdYVUtXNTkzQXIzb3VpaVpYOTZHREtWSllxSXJtM2ZyTWVoNDdLZHp4bmRralNuWkRiWWtXR1BaSHlEU1l1ZTk3MXVpaDNHMUN3RHVaWlY4MkJDUjNQSTQtbTRza0NxMU9JQ2tSbUdNaUU?oc=5",
+    "pub": "Fri, 28 Aug 2026 23:58:12 GMT",
+    "src": "The Washington Post",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1307,19 +1307,19 @@
     "geo": false
    },
    {
-    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMXhmUkxhXzhoZGFJTlNvWS01ZDlTcXNKN2Nmbm9nbFJaaWI0eGU2blpUNkwyQjdvWkNRb05QdkdwTHdXWGZyU2JkRlY3Y2VpWWJVenZZUzF0cjJCYWFrX29EZDc1UHZ4a0hfOFIzY0J0M0ZaU3RnYmY4UlNiZ0ZCVHVaZVZ6TmJPMlFfZ1VZVnRERF8waHRXZFpvOA?oc=5",
-    "pub": "Fri, 28 Aug 2026 21:15:58 GMT",
-    "src": "Moomoo",
-    "trig": true,
+    "title": "Yen Dips Despite Hotter Inflation as Jackson Hole Takes Center Stage - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnhpTFV4TTVINlRWeUhhR240TjlBYWZFNlAyLTlhNXpwZzNhQXhmMkkyRGFPY2FiVzd4NVhaeDVtdGpfQnUwaWpzNW9hN2RzRnZ0dENCejFadlJQQ3FhdFdTTGVhRGtsRFlOMjRPa0otelhiX0N6RUtvSktKNnRRR0VjX0tmYnJ5RDBPckJSdks?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:10:32 GMT",
+    "src": "CryptoRank",
+    "trig": false,
     "geo": false
    },
    {
-    "title": "Japan spent record ¥15.4 tril in yen interventions: ministry - Japan Today",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2c4RmFHRzlWbmUzSE84aWg1NERXb0NrSWVGdjlTRV95YlFqYmFBbW5qWmU1ZXhNWnVKM28xVk9oOFFNajk2TXlIRF9mRkpXeWY1cGlOU1AtZ085ZnVRQkZrVXZwV29JaExabDlTaVlIRDltZlhVS3N3SUs4b0dSNDlzTUhtbWJMMDNOdFdnX0hvNF9aaGhLcF82SQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 20:44:00 GMT",
-    "src": "Japan Today",
-    "trig": false,
+    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
+    "src": "Moomoo",
+    "trig": true,
     "geo": false
    }
   ]
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77577.0
+   77552.39
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T06:02:30+00:00",
+  "checked": "2026-08-29T06:11:42+00:00",
   "openai": {
    "found": false
   },

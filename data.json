@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T09:22:15+00:00",
+ "updated": "2026-08-29T09:32:19+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77637.21,
-   "chg": -3.26,
-   "chg5": -0.15,
-   "sma20": 70352.1,
-   "sma50": 66717.89,
-   "sma200": 69448.51,
+   "price": 77625.93,
+   "chg": -3.28,
+   "chg5": -0.17,
+   "sma20": 70351.53,
+   "sma50": 66717.67,
+   "sma200": 69448.44,
    "high3m": 80257.54,
-   "reg": 77637.21,
+   "reg": 77625.93,
    "pre": null,
    "post": null,
-   "regClose": 77637.21,
+   "regClose": 77625.93,
    "sess": "reg",
-   "mt": 1787995298,
+   "mt": 1787995905,
    "ok": true
   },
   "USO": {
@@ -1175,18 +1175,18 @@
   ],
   "fundamental": [
    {
-    "title": "The Memory Shortage Gets Worse In 2027 (NASDAQ:QQQ) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSEtyUy1uUG0yckZtdWE0S1R2TVpiQW9Xb0J6cXRBZHd1X3E1YkhKbEdwczdLSFpjdUZQVlJFcHpXZmlGRHlFUVV3M0Y0ZFlnTmJlWi1tOUwyNWd0c1l6UmM5TDVYM2xXQmZ0QjRTRjYwaExhX0wtMEtfMTdyajdvNUR5VW1Mdw?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:58:13 GMT",
-    "src": "Seeking Alpha",
+    "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 08:09:07 GMT",
+    "src": "NASA Science (.gov)",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:40:58 GMT",
-    "src": "NASA Science (.gov)",
+    "title": "The Memory Shortage Gets Worse In 2027 (NASDAQ:QQQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSEtyUy1uUG0yckZtdWE0S1R2TVpiQW9Xb0J6cXRBZHd1X3E1YkhKbEdwczdLSFpjdUZQVlJFcHpXZmlGRHlFUVV3M0Y0ZFlnTmJlWi1tOUwyNWd0c1l6UmM5TDVYM2xXQmZ0QjRTRjYwaExhX0wtMEtfMTdyajdvNUR5VW1Mdw?oc=5",
+    "pub": "Sat, 29 Aug 2026 07:58:13 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    62813.75,
    64880.19,
    62975.59,
-   77637.21
+   77625.93
   ],
   "vixts": null,
   "hyoas": [
@@ -1728,7 +1728,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2430,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T09:21:59+00:00",
+  "checked": "2026-08-29T09:32:07+00:00",
   "openai": {
    "found": false
   },

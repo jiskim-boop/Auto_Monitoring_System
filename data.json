@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T12:41:58+00:00",
+ "updated": "2026-08-29T12:53:12+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77562.9,
-   "chg": -3.36,
-   "chg5": -0.25,
-   "sma20": 70348.38,
-   "sma50": 66716.41,
-   "sma200": 69448.1,
+   "price": 77554.57,
+   "chg": -3.37,
+   "chg5": -0.26,
+   "sma20": 70347.96,
+   "sma50": 66716.24,
+   "sma200": 69448.05,
    "high3m": 80257.54,
-   "reg": 77562.9,
+   "reg": 77554.57,
    "pre": null,
    "post": null,
-   "regClose": 77562.9,
+   "regClose": 77554.57,
    "sess": "reg",
-   "mt": 1788007290,
+   "mt": 1788007956,
    "ok": true
   },
   "USO": {
@@ -1176,8 +1176,8 @@
   "fundamental": [
    {
     "title": "Nvidia is using its balance sheet to fuel the AI boom. Is it a double-edged sword? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS0Zzd1BycmdnbWozeWFZaFBvMUZjYktBZ3MxeTQ0M0txdlR1Nl9MV2Jub2dTWUszdjNwTDMtT3d6bnFVLVZQTEJwcDd4X2FqZ2VSVFlIS1BzeElwUkdEc3pha2l5dlNad1FIQlMtbEpoVllKNVkyeVB0U0FRX3F4elNYSVBnN2o3d3ZnbEx3NTEzWkZ2WHhHRVByb2xRYUM2bkFkV2pXYkdkZjRZNi16M1JpQllSUmYtRUVJ?oc=5",
-    "pub": "Sat, 29 Aug 2026 11:11:18 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbVQ3M05kMnJDOWpvSXdVUUpYRmJzTG83cndYMjRtRmV3MmRTd3k2Rm9nRmpPVXlYdlhRcmdrb2pDMjJya0FROGZXSHhfQ3YxUlowVzI1bUprQnZrSHphSkJzMzRVaVFHU3doQlFiQjMxMll1RDhzcGxXZEthODhqSDYxLXNzTlJIRnpQbC1UTGMxVThubkdVYkFqcGtZRi02ZEFoRnNKLUEyZXZfenRmV0d4Yl9QMGZRdjQw?oc=5",
+    "pub": "Sat, 29 Aug 2026 11:27:32 GMT",
     "src": "Invezz",
     "trig": false,
     "geo": false
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Russia plans operations targeting Kyiv and Chernihiv, Ukraine confirms - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3F0cnF1dHYxQ2JtWkpCaU9QdkswbjAzam1JSlpxU3dCQ3d5djQxVkVoZktkUzgyd1dNM0N6bnc3bnVYMnJZQUE0R2JUMks5dkNXNl95U1hseW1MYnYwSHM1c0E0VlNmNWtOd2M0cWRadXM5TlZnM3BhYWpsZWVORHpNMGdkMmlGNVB4dGE2b2h1NzFPVWN2djA4eWV2Zw?oc=5",
+    "pub": "Sat, 29 Aug 2026 11:13:03 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "FED Chair Kevin Warsh’s Jackson Hole Speech Today : Here’s What To Expect - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOZHFWVlZVSzVkNnFIN2s5S0plMXFrQkV1ZjRfVEpqaGhLVFhfRm1kczhfVU9JQWE2a2dnVGF5ODkwNUJMVUlBV0dhVUNqODRTWGpWVGlGVElCZHk3eEJucng2SEJwR3JvbXlOOTZyend1WUdWRHdRUnVJa2ZaTWwzTFNVNzQzM3IxNEJyVEMtR2lrUGY3SlJ5bHpqMmdRSlVZVk9yZTBmbGJLNTQ?oc=5",
     "pub": "Sat, 29 Aug 2026 08:42:36 GMT",
@@ -1249,14 +1257,6 @@
     "geo": false
    },
    {
-    "title": "Fed: September Rate Decision Now Coin Flip - blockchain.news",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOeEVZSV8xckU2Um1ORmdlQnVFV0drLVZwOXVJTVBRRlZpeEVjTTBNOGNOM1VSanlaWTBKMXBDZEJaeDNManAyNzV0ZldNVU9TR0J2Vm5nQmtSZ0tKTERSTFVfSFFHdjR3MDJ5a0FPdUJyZXNSNmk0OWZxSzFEWXBzRA?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:43:26 GMT",
-    "src": "blockchain.news",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why Are Americans Still Taking on Vacation Debt Despite Rising Fed Rates and Travel Costs? - InteractiveCrypto",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSmNwMEcyOFJiQ200dUVKVTFSWlJfekNQcGZtNzlKaHBGU2JCMnhYV0JzMVpqNmN0VUVJaDlwMURCN3F1ZWFGR2FHYkhjRnJFM2JSU1JVRm1WNnRzenBXMGxvRVlpVm9IbnZsOXJlOXd4dVNuZW9ORmdJYmVFUTZ4NVRVOE9nbUlKNTZSM1VsTWk3cjNxWnBGeWhXVHYxRzRYc1QyQkpVemhvbC0yclk1N2Y3QkVtWWFFam9WSHk1MkV3Q3NTMVJsYmF3?oc=5",
     "pub": "Sat, 29 Aug 2026 06:36:07 GMT",
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Jackson Hole: New Fed Chair Signals An Era Of No Guidance — Where He Stands Versus Powell, Yellen & Bernanke - NDTV Profit",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQOFlWS3lLY3dXa2dUUy1fdE43QkNmUkd5bVppU0IzdEdMWDZRNkpLTUJmX3NSVzRsUDRiY0VTdkJ4UWZGeGNUUFJJeS14dmxXZENGRF9CSFdPSVJ0RDJPVHQ2V2ZRQlAxUmd0dDhuUU0yR3N6ZHVHUWVMMkJId2E3d1llMGFXbFB3cXhrZTR1aDlSdGEyVV8zWDJjWjNDZFk5bFZVNHViTU1kQWR3dno0R0twOHJYQ2ZWQjBDR1RxWDFrQkJlVWxfddIB0AFBVV95cUxPLTJhaXJ1RVNXRDRCcHc0QV9GY0Y0SWV3MWVfRHNuVm80OFY4c0lWUmllUjZzWDZaUjlqRWZEWFVVN0p0eUJ0QmU1bjgzSk1Uc082aUppQ08xVzhJdGpIaEpXN2k2bXotdXJOWmpOZncta0NWRXdXMU4xV25Fei1kRzFfOVFrT3k4SUVlU1hsY25OR3NLZl9qcXIyWktwWnVOTUFkTXVEb0JzRko1QlV6MnkxZ0VKVWQ5LW9KVFNCSTFWTzlUeDBYTnJvdzFUd2RL?oc=5",
-    "pub": "Sat, 29 Aug 2026 01:54:35 GMT",
-    "src": "NDTV Profit",
+    "title": "Volta Finance Delivers Modest July Gain as CLO Portfolio Drives Income - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2JCckt2WWwyM2U0Mm5zbks0ejcxaVdWV0JINkd2RnBnSUUwelJaTHFWaDg3Vms1VnZaNDJpeU5QaFA0VnItcXZhQTd1Ny1UVkdOUzRhZ0N2cWFlR0Jpa1ZqWXljNWZzeWsxZVRTNlNGMWUtX1AtR2ppbDExanNFQ2FsaXotU2tBR29Ya2xYTjBQNWZRdUFRa1FaZWdWQXdyb1VGTG1SQzVhNldCN1VsaW1pWldlS29iM1hTLXJoNA?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:53:55 GMT",
+    "src": "TipRanks",
     "trig": false,
     "geo": false
    }
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Markets Begin Pricing in an Uncertainty Premium as Risks Mount - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9ON1A1ZC14VUJRR1dPNl82dnN0WHFBSUJTSldaSUI5VXFsY2p0Yi1INHlwZ2o4MHJXOWJpYmdlQkxPQnpwTW9aVldWZlFJQVhfSzdZWVRDVTNORV9wUVpQMHRyZkpzMzFleUQ0RW1vOFRZVTQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 23:54:19 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Carry trades in play - The Star",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3Y1VXVXM0hMZ21PX2s3ZTM1WWhLWWhrV1VsVjlNOWlMamZfUkNDMk4zdGlqYVNOdUgzSjZHeDUyUGZCU3pFbGRQb2xOb3I1NXVwNHNzWERSTHpUdmUzMjBOR2xmb0pzSTRkWk5JZDhxVnJDZ2xxejVocHZYYU9nUUc4Xy1sNFRx?oc=5",
     "pub": "Fri, 28 Aug 2026 23:05:52 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnRBblp6T2V0YUN6bjVDeEdrTmttTjh2ZUxOdXNJaVlXZk5xeEVmcVo1cFllaDFreFVVZ01lUHlEaUk3aU02TzVDU3k1OG9Dd2FXNWtzZFdydVQtZU05Rlk5Q01CSW9yeDlfNUprNElqOHpSR1VxczdreldPc3VWaVpXSTJWM1FQc2tnUzBZSGI1ZUpFVjlKaDhSb1VFS0xIWVZBeHctU2FOdw?oc=5",
     "pub": "Fri, 28 Aug 2026 22:15:34 GMT",
     "src": "Codelco",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen Dips Despite Hotter Inflation as Jackson Hole Takes Center Stage - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnhpTFV4TTVINlRWeUhhR240TjlBYWZFNlAyLTlhNXpwZzNhQXhmMkkyRGFPY2FiVzd4NVhaeDVtdGpfQnUwaWpzNW9hN2RzRnZ0dENCejFadlJQQ3FhdFdTTGVhRGtsRFlOMjRPa0otelhiX0N6RUtvSktKNnRRR0VjX0tmYnJ5RDBPckJSdks?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:10:32 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77570.0
+   77554.57
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T12:41:46+00:00",
+  "checked": "2026-08-29T12:52:58+00:00",
   "openai": {
    "found": false
   },

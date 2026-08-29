@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T09:41:55+00:00",
+ "updated": "2026-08-29T09:51:52+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77704.4,
-   "chg": -3.18,
-   "chg5": -0.07,
-   "sma20": 70355.46,
-   "sma50": 66719.24,
-   "sma200": 69448.87,
+   "price": 77668.32,
+   "chg": -3.23,
+   "chg5": -0.11,
+   "sma20": 70353.65,
+   "sma50": 66718.51,
+   "sma200": 69448.68,
    "high3m": 80257.54,
-   "reg": 77704.4,
+   "reg": 77668.32,
    "pre": null,
    "post": null,
-   "regClose": 77704.4,
+   "regClose": 77668.32,
    "sess": "reg",
-   "mt": 1787996484,
+   "mt": 1787997082,
    "ok": true
   },
   "USO": {
@@ -1201,7 +1201,7 @@
    {
     "title": "OpenAI says it's ending its deal with Cursor because Elon Musk's companies violate contracts - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSDJrSTF4N1dNX0paYUVuMmE4dnBQSWlxU0U4bzdJSF9FSG44VExZdktHRDA5RW1BeXE5YmFtQXBxa1ozSVh5aTUydk1xaGFtZkp0ZkQtZk1Bb0VMMDh4SnFqN0V1QmlSUEdwaWZYMWtSTDIyZ2JPOHpBakhJS1I4RlZNdGUycGhnb1JxX1RlQnNULVdha3JTaUJ0ZEdBTFNx?oc=5",
-    "pub": "Sat, 29 Aug 2026 03:57:00 GMT",
+    "pub": "Sat, 29 Aug 2026 03:41:42 GMT",
     "src": "Business Insider",
     "trig": false,
     "geo": false
@@ -1224,14 +1224,6 @@
    }
   ],
   "macro": [
-   {
-    "title": "Trending mortgage rates - firsttuesday Journal",
-    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
-    "pub": "Sat, 29 Aug 2026 08:15:04 GMT",
-    "src": "firsttuesday Journal",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Why Are Americans Still Taking on Vacation Debt Despite Rising Fed Rates and Travel Costs? - InteractiveCrypto",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSmNwMEcyOFJiQ200dUVKVTFSWlJfekNQcGZtNzlKaHBGU2JCMnhYV0JzMVpqNmN0VUVJaDlwMURCN3F1ZWFGR2FHYkhjRnJFM2JSU1JVRm1WNnRzenBXMGxvRVlpVm9IbnZsOXJlOXd4dVNuZW9ORmdJYmVFUTZ4NVRVOE9nbUlKNTZSM1VsTWk3cjNxWnBGeWhXVHYxRzRYc1QyQkpVemhvbC0yclk1N2Y3QkVtWWFFam9WSHk1MkV3Q3NTMVJsYmF3?oc=5",
@@ -1271,6 +1263,14 @@
     "src": "TradingKey",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Oil prices rise to $90.55 a barrel as geopolitical tensions persist - eciks.org",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9pU05qQV8yN28wQndfbnI3dFpodjFGX1ZxYWY4dGZyT1Ric1ljXzhFOHpFTFZXMzJORVFEM3FVTWhUa3d0bVRtMG1ZQTFGZ01rajlUcllRSTg1cUVfdjgydA?oc=5",
+    "pub": "Sat, 29 Aug 2026 00:05:43 GMT",
+    "src": "eciks.org",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1287,6 +1287,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 29 Aug 2026 01:16:14 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CZ Says Bitcoin Could Overtake Gold, But India’s Gold Rally Tests His Bet - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVW1GUGVtN3ptc2F5OWJGeGtkSVRNWVJRd3lOX2ZnLXAwT285Q2ZnMG9ZYmw3QnEtRFN2eVBPUzBhTXVCRmtkWi1yTWExdXNpT29zbmh1Slo5OExvQTVrek5HWV84RldSNkM1bnBLREt4MnRuMDl1SlhHQlh4MVBKbVlSSW1CalpLSlRlREFRTHM4RnFLVkdWUzhlNmNQTFRKRjlXQ0trVTAwMkw0N0E?oc=5",
+    "pub": "Sat, 29 Aug 2026 00:05:54 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1312,14 +1320,6 @@
     "pub": "Fri, 28 Aug 2026 22:10:32 GMT",
     "src": "CryptoRank",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
-    "src": "Moomoo",
-    "trig": true,
     "geo": false
    }
   ]
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77693.44
+   77673.59
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T09:41:42+00:00",
+  "checked": "2026-08-29T09:51:42+00:00",
   "openai": {
    "found": false
   },

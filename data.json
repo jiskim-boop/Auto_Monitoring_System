@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T07:51:54+00:00",
+ "updated": "2026-08-29T08:02:27+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77628.27,
-   "chg": -3.28,
-   "chg5": -0.16,
-   "sma20": 70351.65,
-   "sma50": 66717.71,
-   "sma200": 69448.46,
+   "price": 77585.12,
+   "chg": -3.33,
+   "chg5": -0.22,
+   "sma20": 70349.49,
+   "sma50": 66716.85,
+   "sma200": 69448.22,
    "high3m": 80257.54,
-   "reg": 77628.27,
+   "reg": 77585.12,
    "pre": null,
    "post": null,
-   "regClose": 77628.27,
+   "regClose": 77585.12,
    "sess": "reg",
-   "mt": 1787989883,
+   "mt": 1787990517,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Can AI Go Green? Why Data Centers Are The Next Frontier For Green Bond Issuance - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEtta1VfOWZ6azNDVTExTFFTYWlTS3hpRHRCRWFhcUNnRzZ6Tmd0am9RVDZuZXRFYUJlZFJNaW0tMnUxVjE5SmRUemZJMkNBOTcyaWU2RWlBX01YMXVMU2t6QUxmQi1na09naTRwU1Z1bWlGTzVLVnE2VXpNVTRMZWc1dkJ3d0RVREFiRlkyZU1PazlKR1Vwc1piZU5FYXA4Y2V5V05nMHlCZWJsN3NnRQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 07:50:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "This Canadian Dividend Stock Has Data Centre Upside I Didn’t Expect - The Motley Fool Canada",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazBCUXdWZ0pMZXo1ZGxfYTYwMlJ6eWk5cGk0M0RTYjBSUFowQ2xmZ09nRzRHRkc3VzBFWjBOU1ZXSjQzSmJTVW5XbTlXcFNiZmdmREsyOTZSQjFDQ3dJWjZsMHdmNE1KZE9XZGFKRm83TXQtUE1PRnhodDhNcTFWTW9nMWJMZF9nTFBNVG1KT19rTFBmeUlRT3B5eTJzNFk?oc=5",
     "pub": "Sat, 29 Aug 2026 01:30:00 GMT",
@@ -1133,18 +1141,18 @@
     "geo": false
    },
    {
-    "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
-    "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
-    "src": "Chosunbiz",
+    "title": "Bullish Provides USD.AI $100 Million Facility for GPU-Backed Loans - The Defiant",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQjZIM296NU5oTXRlNkFMeFBRX0Qtc2F5NDlhSlloUmgxcFRBb1c0QTRoZHh6UmNrN2ZESHNIdmNnUGRoamtEYnB4LW1pSnh6SnNNeW5TQVFMWTJkdUgzTXAyY1MzczJfbFpfY2RCR0NwRWc4Z3p0dnh6OHNDVThock5hLW1mUE9xUmxEUGk0UXRzR01Nd2c5Z20zeUJsQQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 23:54:07 GMT",
+    "src": "The Defiant",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Can AI Go Green? How Data Centers Are Using Green Bonds to Finance Clean Infrastructure - VanEck",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNeGp3MEh4VHFnWUsxQjJ2cF8xX1ZQOVFUV25vTTNhZVpiT0V1bUZrMnVYOW9OTVVkRmlrVnU0Vk56YU5YR2FIZVBVWmpFa1pWeXRRaWw0SHd6QTE0TmNacmJiTVFlUkpwSUxucUMzelEyOWdqQ2pxcWNYYTFqcU0yN3U5XzFoYXZGNGswcVFmQmt3TWJaWklfYTgzRmVxdXpUbzNnOTYzZFBQdHp3OU82SElZclBhTEVuUnNxZFpvdU40akxqSWJhZURHNA?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:52:13 GMT",
-    "src": "VanEck",
+    "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
+    "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    },
@@ -1163,21 +1171,13 @@
     "src": "Unite.AI",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "BLUE OWL MANAGED FUNDS LEAD $2.4 BILLION AI FACTORY FINANCING FOR IREN - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeldTY25na0hXQjNTMVk2TkZSQ2ZpSHFzMEVubXVoY1pfQm15NUEta0Nsenp3N0cyUlItSjM2ZURWMV81T1hXTTRHRUpSRmludmQ2ZUV3Q0NVUjBVc3pnVEFxX0Y0a1c4SERKSEtDcDN0SERFZVBLcXVvekN4Q1ExZnY5U2ZEc2Q2TFczWGhKZVY5MzctUUxMSjZSYjBvQlIyT3RwNjhZc2pXS1dmX09ONGg4c1hoUm1pQVR0ZUNIeXVxQ1JXNzhMcmhB?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:30:00 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
     "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:49:00 GMT",
+    "pub": "Sat, 29 Aug 2026 07:55:02 GMT",
     "src": "NASA Science (.gov)",
     "trig": false,
     "geo": false
@@ -1299,14 +1299,6 @@
     "geo": false
    },
    {
-    "title": "CZ Says Bitcoin Could Overtake Gold, But India’s Gold Rally Tests His Bet - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVW1GUGVtN3ptc2F5OWJGeGtkSVRNWVJRd3lOX2ZnLXAwT285Q2ZnMG9ZYmw3QnEtRFN2eVBPUzBhTXVCRmtkWi1yTWExdXNpT29zbmh1Slo5OExvQTVrek5HWV84RldSNkM1bnBLREt4MnRuMDl1SlhHQlh4MVBKbVlSSW1CalpLSlRlREFRTHM4RnFLVkdWUzhlNmNQTFRKRjlXQ0trVTAwMkw0N0E?oc=5",
-    "pub": "Sat, 29 Aug 2026 00:05:54 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Carry trades in play - The Star",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3Y1VXVXM0hMZ21PX2s3ZTM1WWhLWWhrV1VsVjlNOWlMamZfUkNDMk4zdGlqYVNOdUgzSjZHeDUyUGZCU3pFbGRQb2xOb3I1NXVwNHNzWERSTHpUdmUzMjBOR2xmb0pzSTRkWk5JZDhxVnJDZ2xxejVocHZYYU9nUUc4Xy1sNFRx?oc=5",
     "pub": "Fri, 28 Aug 2026 23:05:52 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4xNGVGWjNpNlM2U2kzdDVuV1pCdUhncTJzYzl4YXhHUzY3cHItbXNTYUExWGxEdVZiM0NqMVRwUldVcENFcjVLeXlra2FOMUVqSk51WGJ3VDJWeWkwa3NRM1Zn?oc=5",
     "pub": "Fri, 28 Aug 2026 22:37:14 GMT",
     "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Codelco improves its financial results in a favorable scenario for copper and prioritizes recovering productivity - Codelco",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQTnRBblp6T2V0YUN6bjVDeEdrTmttTjh2ZUxOdXNJaVlXZk5xeEVmcVo1cFllaDFreFVVZ01lUHlEaUk3aU02TzVDU3k1OG9Dd2FXNWtzZFdydVQtZU05Rlk5Q01CSW9yeDlfNUprNElqOHpSR1VxczdreldPc3VWaVpXSTJWM1FQc2tnUzBZSGI1ZUpFVjlKaDhSb1VFS0xIWVZBeHctU2FOdw?oc=5",
+    "pub": "Fri, 28 Aug 2026 22:15:34 GMT",
+    "src": "Codelco",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62813.75,
    64880.19,
    62975.59,
-   77628.28
+   77573.77
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.824,
+   1.018,
+   0.865,
+   0.921,
+   0.783,
+   0.761,
+   0.923,
+   0.951,
+   0.84,
+   0.766,
+   0.767,
+   0.706
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2200,10 +2214,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-27T08",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-27T09",
     "v": 2.73
    },
@@ -2390,6 +2400,10 @@
    {
     "d": "2026-08-29T07",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-29T08",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2431,7 +2445,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T07:51:43+00:00",
+  "checked": "2026-08-29T08:02:15+00:00",
   "openai": {
    "found": false
   },

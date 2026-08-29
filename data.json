@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T15:02:41+00:00",
+ "updated": "2026-08-29T15:12:01+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -734,7 +734,7 @@
    "post": null,
    "regClose": 14.51,
    "sess": "reg",
-   "mt": 1787948101,
+   "mt": 1787948100,
    "ok": true
   },
   "^VIX3M": {
@@ -766,7 +766,7 @@
    "post": null,
    "regClose": 82.9,
    "sess": "reg",
-   "mt": 1787948101,
+   "mt": 1787947200,
    "ok": true
   },
   "^SKEW": {
@@ -782,7 +782,7 @@
    "post": null,
    "regClose": 144.05,
    "sess": "reg",
-   "mt": 1787950845,
+   "mt": 1787947200,
    "ok": true
   },
   "^MOVE": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77950.26,
+   "price": 77952.67,
    "chg": -2.87,
    "chg5": 0.25,
-   "sma20": 70367.75,
-   "sma50": 66724.15,
-   "sma200": 69450.23,
+   "sma20": 70367.87,
+   "sma50": 66724.2,
+   "sma200": 69450.24,
    "high3m": 80257.54,
-   "reg": 77950.26,
+   "reg": 77952.67,
    "pre": null,
    "post": null,
-   "regClose": 77950.26,
+   "regClose": 77952.67,
    "sess": "reg",
-   "mt": 1788015722,
+   "mt": 1788016289,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Altman-Musk Feud Escalates as OpenAI Cuts Off Cursor Access After SpaceX Merger - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQR1MzZFo4WkxhWEJyc1ItM1A5ZXpkdEFvZXNzSlBuSXlnamw1c0VKVTB0aUJhXzVsd1FUNjVWUV9rdlNqSTBzSF9aV2hIQ3hiT253b3Fqb3ZhYWwwdk42cjlrTnZOV2ZwTlR3MkppU1dTb2FLYTA4dTVZNkk3bDJBQW9HclR5RWZpZndjZGxkUVhFWDdadnlKTWF1aUFPRmxKclp5bzJiZWE3STRUNjV6YTlJUG9PdUozUzBWNUFQVlc?oc=5",
+    "pub": "Sat, 29 Aug 2026 15:05:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "'This looks like legit magic … the tech is amazing': Nvidia DLSS 5 leak sparks a major turnaround in the opinions of PC gamers - TechRadar",
     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxOM3pZVXN5RE44QkNsZjVySnluYUJJNFFtd2dKc0Z5d3lTbzYxTlZ5NTd6ZzJtYW1lQm1scmpjYVhaejlKOUVMbXVhUFhDb25uRm5fcnlZb1RfdmhzM1h4alpuenpyVG5pSWR0bGg1dUJOTHVJbG9rMkZNT09kaEhYX0Iwb0VvWlpRVWJieGJ0LTdleEZ4RFdKRlBTSVJIS080MkR4ZXhlQmR2ZWxqb2pzYjZGYl92Yk81V3dZT05ZaEdGMzdzZHR2RldncndUSEVKY3AwbHFnd1N3NUlTcXBlXzVobmNhcWJEdWQ4ZnZzMTYzQWRmZGI1LXhXNlJzb1hndHdteTdRTm9vUlIyVGc?oc=5",
     "pub": "Sat, 29 Aug 2026 14:00:00 GMT",
@@ -1213,14 +1221,6 @@
     "src": "Yahoo! Finance Canada",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Survivor says xAI trained Grok on her childhood abuse images - Daily Journal",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxONUtvVHNPSWdNeUVDZEozamdFMVoyM1BUYUFUQU1fMkZKZWlBRHJGSkU2WWRlcWk2b0pjYXpyaXhBYXlWSHFKMTZLYTdBQ1hsNkREN3J2dVk3aTlTMmNiRXpGX3FDbnhudTA1am91MHlHNUw0VXlTUDVrMC05cGRqZWZzOGJYMzF3Y2UwX0tJQXoydzFwcWY1NG9HSzd3MUJjVmtqN3lmTQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 11:01:04 GMT",
-    "src": "Daily Journal",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1237,14 +1237,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTUJuUFhPT001NS1uQjBkVWt1VGs0UXRNLTUwSThmS2RKcVFrTU41eWg1Z1VJNzdfNE5HZ2FPdzNpOUJMelEzNEctRmllYWRjYnB5dU1IRVlLZVdTaXhvaFBuSlg3Njd2Q0g2MEpPZWFvcnJQOWMwQzF1NVJRWkNkYzVCRUlnLXNDTVFPSkQzOWxJUl9sdURPMDdaNFNkN1U?oc=5",
     "pub": "Sat, 29 Aug 2026 12:20:09 GMT",
     "src": "Norada Real Estate Investments",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Russia plans operations targeting Kyiv and Chernihiv, Ukraine confirms - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPd3F0cnF1dHYxQ2JtWkpCaU9QdkswbjAzam1JSlpxU3dCQ3d5djQxVkVoZktkUzgyd1dNM0N6bnc3bnVYMnJZQUE0R2JUMks5dkNXNl95U1hseW1MYnYwSHM1c0E0VlNmNWtOd2M0cWRadXM5TlZnM3BhYWpsZWVORHpNMGdkMmlGNVB4dGE2b2h1NzFPVWN2djA4eWV2Zw?oc=5",
-    "pub": "Sat, 29 Aug 2026 11:13:03 GMT",
-    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1269,6 +1261,14 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOSmNwMEcyOFJiQ200dUVKVTFSWlJfekNQcGZtNzlKaHBGU2JCMnhYV0JzMVpqNmN0VUVJaDlwMURCN3F1ZWFGR2FHYkhjRnJFM2JSU1JVRm1WNnRzenBXMGxvRVlpVm9IbnZsOXJlOXd4dVNuZW9ORmdJYmVFUTZ4NVRVOE9nbUlKNTZSM1VsTWk3cjNxWnBGeWhXVHYxRzRYc1QyQkpVemhvbC0yclk1N2Y3QkVtWWFFam9WSHk1MkV3Q3NTMVJsYmF3?oc=5",
     "pub": "Sat, 29 Aug 2026 06:36:07 GMT",
     "src": "InteractiveCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Volta Finance Delivers Modest July Gain as CLO Portfolio Drives Income - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNM2JCckt2WWwyM2U0Mm5zbks0ejcxaVdWV0JINkd2RnBnSUUwelJaTHFWaDg3Vms1VnZaNDJpeU5QaFA0VnItcXZhQTd1Ny1UVkdOUzRhZ0N2cWFlR0Jpa1ZqWXljNWZzeWsxZVRTNlNGMWUtX1AtR2ppbDExanNFQ2FsaXotU2tBR29Ya2xYTjBQNWZRdUFRa1FaZWdWQXdyb1VGTG1SQzVhNldCN1VsaW1pWldlS29iM1hTLXJoNA?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:53:55 GMT",
+    "src": "TipRanks",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Carry trades in play - The Star",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOS3Y1VXVXM0hMZ21PX2s3ZTM1WWhLWWhrV1VsVjlNOWlMamZfUkNDMk4zdGlqYVNOdUgzSjZHeDUyUGZCU3pFbGRQb2xOb3I1NXVwNHNzWERSTHpUdmUzMjBOR2xmb0pzSTRkWk5JZDhxVnJDZ2xxejVocHZYYU9nUUc4Xy1sNFRx?oc=5",
-    "pub": "Fri, 28 Aug 2026 23:05:52 GMT",
-    "src": "The Star",
+    "title": "CZ Says Bitcoin Could Overtake Gold, But India’s Gold Rally Tests His Bet - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVW1GUGVtN3ptc2F5OWJGeGtkSVRNWVJRd3lOX2ZnLXAwT285Q2ZnMG9ZYmw3QnEtRFN2eVBPUzBhTXVCRmtkWi1yTWExdXNpT29zbmh1Slo5OExvQTVrek5HWV84RldSNkM1bnBLREt4MnRuMDl1SlhHQlh4MVBKbVlSSW1CalpLSlRlREFRTHM4RnFLVkdWUzhlNmNQTFRKRjlXQ0trVTAwMkw0N0E?oc=5",
+    "pub": "Sat, 29 Aug 2026 00:05:54 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    62813.75,
    64880.19,
    62975.59,
-   77929.04
+   77952.68
   ],
   "vixts": null,
   "hyoas": [
@@ -2431,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T15:02:28+00:00",
+  "checked": "2026-08-29T15:11:49+00:00",
   "openai": {
    "found": false
   },

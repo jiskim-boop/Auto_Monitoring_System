@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T21:51:56+00:00",
+ "updated": "2026-08-29T22:02:44+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78158.02,
-   "chg": -2.62,
-   "chg5": 0.52,
-   "sma20": 70378.14,
-   "sma50": 66728.31,
-   "sma200": 69451.37,
+   "price": 78149.98,
+   "chg": -2.63,
+   "chg5": 0.51,
+   "sma20": 70377.73,
+   "sma50": 66728.15,
+   "sma200": 69451.32,
    "high3m": 80257.54,
-   "reg": 78158.02,
+   "reg": 78149.98,
    "pre": null,
    "post": null,
-   "regClose": 78158.02,
+   "regClose": 78149.98,
    "sess": "reg",
-   "mt": 1788040287,
+   "mt": 1788040923,
    "ok": true
   },
   "USO": {
@@ -996,15 +996,15 @@
   "ES=F": {
    "price": 7722.0,
    "chg": -0.26,
-   "chg5": 0.4,
-   "sma20": 7733.09,
-   "sma50": 7599.33,
-   "sma200": 7298.81,
+   "chg5": 0.78,
+   "sma20": 7722.95,
+   "sma50": 7593.38,
+   "sma200": 7295.42,
    "high3m": 7822.5,
    "reg": 7722.0,
    "pre": null,
    "post": null,
-   "regClose": 7722.0,
+   "regClose": 7742.5,
    "sess": "24h",
    "mt": 1787950799,
    "ok": true
@@ -1012,15 +1012,15 @@
   "NQ=F": {
    "price": 29491.75,
    "chg": -0.69,
-   "chg5": 0.35,
-   "sma20": 29599.11,
-   "sma50": 29428.05,
-   "sma200": 28021.02,
+   "chg5": 0.65,
+   "sma20": 29544.74,
+   "sma50": 29431.96,
+   "sma200": 28009.25,
    "high3m": 30712.75,
    "reg": 29491.75,
    "pre": null,
    "post": null,
-   "regClose": 29491.75,
+   "regClose": 29695.75,
    "sess": "24h",
    "mt": 1787950799,
    "ok": true
@@ -1028,31 +1028,31 @@
   "YM=F": {
    "price": 53584.0,
    "chg": -0.07,
-   "chg5": 0.43,
-   "sma20": 53717.8,
-   "sma50": 53000.08,
-   "sma200": 50557.05,
+   "chg5": 1.39,
+   "sma20": 53670.35,
+   "sma50": 52958.78,
+   "sma200": 50532.83,
    "high3m": 54494.0,
    "reg": 53584.0,
    "pre": null,
    "post": null,
-   "regClose": 53584.0,
+   "regClose": 53621.0,
    "sess": "24h",
    "mt": 1787950796,
    "ok": true
   },
   "GC=F": {
    "price": 4529.9,
-   "chg": 1.16,
-   "chg5": -2.04,
-   "sma20": 4411.69,
-   "sma50": 4208.78,
-   "sma200": 4479.91,
+   "chg": -1.73,
+   "chg5": 0.3,
+   "sma20": 4390.24,
+   "sma50": 4206.4,
+   "sma200": 4479.93,
    "high3m": 4640.8,
    "reg": 4529.9,
    "pre": null,
    "post": null,
-   "regClose": 4478.1,
+   "regClose": 4609.7,
    "sess": "24h",
    "mt": 1787950797,
    "ok": true
@@ -1060,47 +1060,47 @@
   "CL=F": {
    "price": 83.4,
    "chg": -0.16,
-   "chg5": -4.2,
-   "sma20": 82.29,
-   "sma50": 79.3,
-   "sma200": 88.39,
+   "chg5": -5.04,
+   "sma20": 82.35,
+   "sma50": 79.17,
+   "sma200": 88.43,
    "high3m": 96.02,
    "reg": 83.4,
    "pre": null,
    "post": null,
-   "regClose": 83.4,
+   "regClose": 83.53,
    "sess": "24h",
    "mt": 1787950798,
    "ok": true
   },
   "HG=F": {
    "price": 6.66,
-   "chg": 1.48,
-   "chg5": 1.21,
-   "sma20": 6.59,
+   "chg": 1.09,
+   "chg5": 3.08,
+   "sma20": 6.58,
    "sma50": 6.38,
    "sma200": 6.16,
    "high3m": 6.71,
    "reg": 6.66,
    "pre": null,
    "post": null,
-   "regClose": 6.56,
+   "regClose": 6.59,
    "sess": "24h",
    "mt": 1787950755,
    "ok": true
   },
   "ZN=F": {
    "price": 107.88,
-   "chg": -0.22,
-   "chg5": -0.36,
+   "chg": -0.65,
+   "chg5": -0.58,
    "sma20": 108.57,
-   "sma50": 108.92,
-   "sma200": 110.01,
+   "sma50": 108.96,
+   "sma200": 110.03,
    "high3m": 110.27,
    "reg": 107.88,
    "pre": null,
    "post": null,
-   "regClose": 108.11,
+   "regClose": 108.58,
    "sess": "24h",
    "mt": 1787950799,
    "ok": true
@@ -1157,18 +1157,18 @@
     "geo": false
    },
    {
-    "title": "Could CoreWeave (CRWV) Stock Win as AI Demand Continues to Outpace GPU Supply? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSHdKUV9DcDl3ZjRvWF9TNWdSbTAtQ0Zrc2hpbF9NWDZscEZqQ2pFQzc3V0FHZV9WdWszQ2lvUHc5XzJhYnJIZFN1M2cyRDB1M3ZSRDNWaC1PWlk3cU9Bd3RmaHJtSkl1dS16T2VWUGRFWC02Vmt3M3ZSS094R2dtNGlod25EY3lGRlhrVnNCQk5JcWZ5cWF5eUJ3?oc=5",
-    "pub": "Fri, 28 Aug 2026 21:01:40 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
     "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
     "src": "Chosunbiz",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA GPUs get $2.4B financing as IREN builds an AI campus - Stock Titan",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWV9CeWctMThLWDMzSkVmYXd6Rkh5Z205X3N6bjl0N1JsWDFsMG82Zk0zSGlhV0FEaU4zR2R4NHFBV1lnd1VRbm1pXzNLalJ1cmpCMU13cFNmVER6N1g2cmVVVy10MEwzSEpDOURUX3BnX0FWeTFLdHZwQkNUQ2V6aGtiSFQzdEtZbE4wYVdJaHdlVGpXR21fcUtnSko3RmYyaEdlaHoxM1NzdkpEZW5vZEEtWk9iR1JNc3c?oc=5",
+    "pub": "Fri, 28 Aug 2026 18:48:53 GMT",
+    "src": "Stock Titan",
     "trig": false,
     "geo": false
    }
@@ -1215,10 +1215,10 @@
     "geo": false
    },
    {
-    "title": "NASA Roman Space Telescope to launch Sunday from KSC on Falcon Heavy rocket - Florida Today",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOOUZvamJLZ1J6VklmeXktd1daQTEwbnFxTVVvbWNDWnpNb2NXNGhLeV8xaG5nOUlVbUkzRVdoQkNIcnFtZkZGd2JMbXF3YjE5Z1dxY3M1SlZfZ0NxNmRlYzdBVGdrRXh3bU9Nakkzb0p3R1RZS1BmcHZMa01VNzdoeGZYOU1NMnJ5ZGFJMjdsWml4cWNkQ2tRRGRfeVlhN2lGSlI2YlBpX2tCdE1EZFVnYnBxcUFlQ1k2ckRFOUVHTEtveFFuZXNBS0pKamotY0I1OTQtRlkwbldHY1pzbXpuRUFyS0lJNmtw?oc=5",
-    "pub": "Sat, 29 Aug 2026 16:47:00 GMT",
-    "src": "Florida Today",
+    "title": "Anthropic Is Chasing a $2T Valuation — A Wall Street Veteran Says Its Biggest IPO Risk Isn't What Investors Think - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNT2FNOWlWZGdFMVE2eElZYlBmYzh2R2dOOVhHSVdZZWtIS0hLLUZGX3R5WUZUMllvOUVOOVJRRVB5b19nQWNqajBvUWJ1d29qaDVOVzMyVTNQTERaQUxiYm92S2ZfcjVKMUVISHRjTzFPRmxxSGNkcE5haWluNUdsQzFfM1VRQzJKNXR2S1I4eWdBM2d5b1JzWXo5RHpVaExF?oc=5",
+    "pub": "Sat, 29 Aug 2026 16:31:12 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   78158.03
+   78155.99
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2214,10 +2200,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-27T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-27T23",
     "v": 2.73
    },
@@ -2404,6 +2386,10 @@
    {
     "d": "2026-08-29T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-29T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T21:51:43+00:00",
+  "checked": "2026-08-29T22:02:29+00:00",
   "openai": {
    "found": false
   },

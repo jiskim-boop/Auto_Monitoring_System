@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T13:22:16+00:00",
+ "updated": "2026-08-29T13:32:15+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77648.72,
-   "chg": -3.25,
-   "chg5": -0.14,
-   "sma20": 70352.67,
-   "sma50": 66718.12,
-   "sma200": 69448.57,
+   "price": 77657.85,
+   "chg": -3.24,
+   "chg5": -0.13,
+   "sma20": 70353.13,
+   "sma50": 66718.3,
+   "sma200": 69448.62,
    "high3m": 80257.54,
-   "reg": 77648.72,
+   "reg": 77657.85,
    "pre": null,
    "post": null,
-   "regClose": 77648.72,
+   "regClose": 77657.85,
    "sess": "reg",
-   "mt": 1788009699,
+   "mt": 1788010306,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Forget SaaSpocalypse And Buy These 2 BDCs Now - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSC14ZUZBWUl3MC1KRWE2VWFsWmRhZURXcmY0My1ONjRnVjVYUjJsVHB3ZVNiRnpFYVNvQWswZHUzM0dQWW5saXozWkhidHhMa3JMQjVPUWY1cWFBNFZsS0E1aTRvMFBtUW9wdnhzMzlhTGw0OXJxeDhseGVKbVBtQ2hWSkYyMTN2TWc?oc=5",
+    "pub": "Sat, 29 Aug 2026 13:15:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Can AI Go Green? Why Data Centers Are The Next Frontier For Green Bond Issuance - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEtta1VfOWZ6azNDVTExTFFTYWlTS3hpRHRCRWFhcUNnRzZ6Tmd0am9RVDZuZXRFYUJlZFJNaW0tMnUxVjE5SmRUemZJMkNBOTcyaWU2RWlBX01YMXVMU2t6QUxmQi1na09naTRwU1Z1bWlGTzVLVnE2VXpNVTRMZWc1dkJ3d0RVREFiRlkyZU1PazlKR1Vwc1piZU5FYXA4Y2V5V05nMHlCZWJsN3NnRQ?oc=5",
     "pub": "Sat, 29 Aug 2026 07:50:00 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Stock Titan",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Blue Owl Funds Lead $2.4B AI Factory Equipment Financing for IREN - Unite.AI",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNd2xKbGtHX2tNNFJMZTk1dmM5V3dTNFhJRmlycHJZTzY4RjRRUjBwS0FXSEo2VmVJOXNrbFVuV0JXd3hVOVI0VEY1ZGpvY1p3Y1NUalNsc3VkY2xxM0N1T2VTbVQxaGJwbHgxLVRDMHdVQzdTQ3JNN1hjWGE4WlRYRHFib3RReUdiNUtaRHlsTQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:43:01 GMT",
-    "src": "Unite.AI",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Nvidia Expands Its AI Lead Beyond GPUs Into Full Data Center Infrastructure - Межа. Новини України.",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1scUE0RmM2T3Z2dDNPQk5UMkg1X1EtQWVYZENScXMzb0JlcVo1NDhiTTNHR0M2QWxFTUJyNWp6VDFjdFNwRWM3RnIxZk5vNlUzT3pHMHpjZG50QjFpcXgwY0I3YkpjRlE?oc=5",
+    "pub": "Sat, 29 Aug 2026 13:20:29 GMT",
+    "src": "Межа. Новини України.",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Nvidia’s AI advantage is moving beyond the GPU - TechCrunch",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOa3NWOXg4X1dBMmtBMlVxVnAzOEktMHdrdHo2M05SVWctNGktUmxEMkJOMUdvRXhWWllQbnZmbGxZY0JKRjhtT2lGaTlKTG1wdGVLODB2dklZcmU1QzFxNlNGNEJNSEJFclNyb3JqRDRpSm1qY2x2ZGhYZmhzN3Bza3hCdnExMXc?oc=5",
@@ -1183,17 +1191,9 @@
     "geo": false
    },
    {
-    "title": "Wall Street is building a futures market around Nvidia’s AI chips: Chart of the Day - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQckZ5OUVBUGk2Z2FHRXRuSGF0azhzaklLZTFRQ0RvaVl6U1FXQzRvTG9WbzQ2MUJrSmd5MzRjTWtqRUg2dzFXS3d0SVgza2licDJRQzhKbVRzcHFuWVF2OWFFbjNhNmtEdkZJaDA1NFBwYU4xcmdVeGk1a3VHNkpqYWVWVU02WWU4a29XUEJGRlprWkhLLS1lcU9hR0NrWW9SRjN4TkFQYXF3X1BQVDZLWUowVE9WaDczOXBwZThwOEhabEFhQ25QYkhRdw?oc=5",
-    "pub": "Sat, 29 Aug 2026 11:51:18 GMT",
-    "src": "Yahoo! Finance Canada",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nvidia is using its balance sheet to fuel the AI boom. Is it a double-edged sword? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNbVQ3M05kMnJDOWpvSXdVUUpYRmJzTG83cndYMjRtRmV3MmRTd3k2Rm9nRmpPVXlYdlhRcmdrb2pDMjJya0FROGZXSHhfQ3YxUlowVzI1bUprQnZrSHphSkJzMzRVaVFHU3doQlFiQjMxMll1RDhzcGxXZEthODhqSDYxLXNzTlJIRnpQbC1UTGMxVThubkdVYkFqcGtZRi02ZEFoRnNKLUEyZXZfenRmV0d4Yl9QMGZRdjQw?oc=5",
-    "pub": "Sat, 29 Aug 2026 11:27:32 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPS0Zzd1BycmdnbWozeWFZaFBvMUZjYktBZ3MxeTQ0M0txdlR1Nl9MV2Jub2dTWUszdjNwTDMtT3d6bnFVLVZQTEJwcDd4X2FqZ2VSVFlIS1BzeElwUkdEc3pha2l5dlNad1FIQlMtbEpoVllKNVkyeVB0U0FRX3F4elNYSVBnN2o3d3ZnbEx3NTEzWkZ2WHhHRVByb2xRYUM2bkFkV2pXYkdkZjRZNi16M1JpQllSUmYtRUVJ?oc=5",
+    "pub": "Sat, 29 Aug 2026 11:11:18 GMT",
     "src": "Invezz",
     "trig": false,
     "geo": false
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "#yenpasses160perdollartoonemonthlow Community Insights & Market Sentiment | Binance Square - Binance",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQdkIyN1NUaExqbjRMTWxhQUMxQ2x5X1QySjdjeC1jY0RXQ3ZNTDdYbGJUek1xQUViSlJvLVZOVGJzckNLOVUtRVJLdTRwbk8ybVlWV1owSVZ3R0lsbFpGc1RaeWlUemhEaG9jOTByZjJBb2lwVUhScU5ucjlkZ0FPV1RfVGFrUQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 12:31:30 GMT",
+    "src": "Binance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 29 Aug 2026 10:29:41 GMT",
@@ -1312,14 +1320,6 @@
     "pub": "Fri, 28 Aug 2026 22:15:34 GMT",
     "src": "Codelco",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
-    "src": "Moomoo",
-    "trig": true,
     "geo": false
    }
   ]
@@ -1610,9 +1610,23 @@
    62813.75,
    64880.19,
    62975.59,
-   77673.56
+   77655.35
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.824,
+   1.018,
+   0.865,
+   0.921,
+   0.783,
+   0.761,
+   0.923,
+   0.951,
+   0.84,
+   0.766,
+   0.767,
+   0.706
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2431,7 +2445,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T13:22:01+00:00",
+  "checked": "2026-08-29T13:32:03+00:00",
   "openai": {
    "found": false
   },

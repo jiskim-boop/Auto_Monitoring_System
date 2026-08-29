@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T05:11:58+00:00",
+ "updated": "2026-08-29T05:22:02+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77672.66,
+   "price": 77671.16,
    "chg": -3.22,
    "chg5": -0.11,
-   "sma20": 70353.87,
-   "sma50": 66718.6,
-   "sma200": 69448.7,
+   "sma20": 70353.79,
+   "sma50": 66718.57,
+   "sma200": 69448.69,
    "high3m": 80257.54,
-   "reg": 77672.66,
+   "reg": 77671.16,
    "pre": null,
    "post": null,
-   "regClose": 77672.66,
+   "regClose": 77671.16,
    "sess": "reg",
-   "mt": 1787980284,
+   "mt": 1787980893,
    "ok": true
   },
   "USO": {
@@ -1307,19 +1307,19 @@
     "geo": false
    },
    {
-    "title": "Yen Dips Despite Hotter Inflation as Jackson Hole Takes Center Stage - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOVnhpTFV4TTVINlRWeUhhR240TjlBYWZFNlAyLTlhNXpwZzNhQXhmMkkyRGFPY2FiVzd4NVhaeDVtdGpfQnUwaWpzNW9hN2RzRnZ0dENCejFadlJQQ3FhdFdTTGVhRGtsRFlOMjRPa0otelhiX0N6RUtvSktKNnRRR0VjX0tmYnJ5RDBPckJSdks?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:10:32 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPMXhmUkxhXzhoZGFJTlNvWS01ZDlTcXNKN2Nmbm9nbFJaaWI0eGU2blpUNkwyQjdvWkNRb05QdkdwTHdXWGZyU2JkRlY3Y2VpWWJVenZZUzF0cjJCYWFrX29EZDc1UHZ4a0hfOFIzY0J0M0ZaU3RnYmY4UlNiZ0ZCVHVaZVZ6TmJPMlFfZ1VZVnRERF8waHRXZFpvOA?oc=5",
     "pub": "Fri, 28 Aug 2026 21:15:58 GMT",
     "src": "Moomoo",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Japan spent record ¥15.4 tril in yen interventions: ministry - Japan Today",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2c4RmFHRzlWbmUzSE84aWg1NERXb0NrSWVGdjlTRV95YlFqYmFBbW5qWmU1ZXhNWnVKM28xVk9oOFFNajk2TXlIRF9mRkpXeWY1cGlOU1AtZ085ZnVRQkZrVXZwV29JaExabDlTaVlIRDltZlhVS3N3SUs4b0dSNDlzTUhtbWJMMDNOdFdnX0hvNF9aaGhLcF82SQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 20:44:00 GMT",
+    "src": "Japan Today",
+    "trig": false,
     "geo": false
    }
   ]
@@ -1610,9 +1610,23 @@
    62813.75,
    64880.19,
    62975.59,
-   77694.99
+   77671.16
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.824,
+   1.018,
+   0.865,
+   0.921,
+   0.783,
+   0.761,
+   0.923,
+   0.951,
+   0.84,
+   0.766,
+   0.767,
+   0.706
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2431,7 +2445,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T05:11:46+00:00",
+  "checked": "2026-08-29T05:21:49+00:00",
   "openai": {
    "found": false
   },

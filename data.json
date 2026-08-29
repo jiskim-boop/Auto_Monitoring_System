@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T00:12:02+00:00",
+ "updated": "2026-08-29T00:22:13+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -14.9,
-   "chg5": -11.0,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.77,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77844.94,
-   "chg": -3.01,
-   "chg5": 0.12,
-   "sma20": 70362.48,
-   "sma50": 66722.05,
-   "sma200": 69449.65,
+   "price": 77894.13,
+   "chg": -2.94,
+   "chg5": 0.18,
+   "sma20": 70364.94,
+   "sma50": 66723.03,
+   "sma200": 69449.92,
    "high3m": 80257.54,
-   "reg": 77844.94,
+   "reg": 77894.13,
    "pre": null,
    "post": null,
-   "regClose": 77844.94,
+   "regClose": 77894.13,
    "sess": "reg",
-   "mt": 1787962290,
+   "mt": 1787962898,
    "ok": true
   },
   "USO": {
@@ -1165,20 +1165,20 @@
     "geo": false
    },
    {
-    "title": "The CV boom reaches fund finance - PEI Secondaries Investor",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5TcjFuSUcyQ3FBX1UzQjJjcHVERVR1VnI0empqMXNJOEpubTE4ZG12cndtemRsN0xPVHNtWFl5N3h5UHpYT2p0eVA5Z0lLUXppbUNOR2NqR1lBZU1zWlN0VmhlajE4VngzWmxVZTNVNE95SmZLT0s1X3FkTQ?oc=5",
-    "pub": "Fri, 28 Aug 2026 10:46:01 GMT",
-    "src": "PEI Secondaries Investor",
+    "title": "Private credit roundup-Institutional investors step up allocations to Asia - The Mighty 790 KFGO",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0taTnJFM1pNX3VFZHBXTlluQmg0MkxMODRPSWc0bk1FUHZ6YVI3cDhqVVlIYmtzbGd4M0MzSGF0LTdBSmpWa2UxM2g4alpZX0U5ZlR1SnN5NHVOaGxTQkYxR3VCVnBOdTVpc1VBaW9WVTVUYTZpUUR6a1ZJTHBoMzU1N2o4b085RzVWeVdIal8yNzhQVTk4bXdhaHlHXzh1U05VV3R3?oc=5",
+    "pub": "Fri, 28 Aug 2026 13:44:26 GMT",
+    "src": "The Mighty 790 KFGO",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Anthropic’s Pentagon blacklist struck down: How the conflict unfolded - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdEE5dlpOenBnWFhOMW9iOXBBOHJBbTQxSURnRVdfUWhVWHVlYUdNVWtjN2gwUUFpQWZ3cFF0NklQcEVsTXlMVW5xTFhxS1hxbFhYQmZxSDdxazBScm42MUg4QktMY2JiMXBFaTNQOGpzb2xabVRveE4tNGtHTWR3Vk52N2Z0bDdOVndYZk96WHFWWVkzZHZkdmFoWE55aVF2Z0Fj?oc=5",
-    "pub": "Fri, 28 Aug 2026 23:23:09 GMT",
-    "src": "Reuters",
+    "title": "NASA Sets Coverage for Roman Space Telescope Launch from Florida - NASA Jet Propulsion Laboratory (JPL) (.gov)",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNbGhwWUg0eXRidHVTTzFrWC04b3RfcE9zWElRV19iQXF0UE96UnNvbWpxMVRyb3d1T2ZkYkJWSnJVMlBwMGJZeHJZdUdDSm15dTRFblZMUzdFN3dtVl9lOVY3dlNWR2FIUXVhQkN4c0s4RTRlUV9hcHc5RmVBSzV1dG1SUEUyTkNmRmJ2NDV3OUx0aHlzMWVubkR6Yw?oc=5",
+    "pub": "Fri, 28 Aug 2026 23:10:56 GMT",
+    "src": "NASA Jet Propulsion Laboratory (JPL) (.gov)",
     "trig": false,
     "geo": false
    },
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77845.71
+   77914.55
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.716,
-   0.898,
-   0.755,
-   0.815,
-   0.917,
-   0.983,
-   0.845,
-   0.794,
-   0.773,
-   0.826
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -1742,7 +1728,8 @@
    "geo": 3,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2444,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T00:11:48+00:00",
+  "checked": "2026-08-29T00:21:59+00:00",
   "openai": {
    "found": false
   },

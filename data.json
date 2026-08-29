@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T01:32:54+00:00",
+ "updated": "2026-08-29T01:42:00+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 257000.0,
-   "chg": -1.72,
-   "chg5": -5.17,
-   "sma20": 251700.0,
-   "sma50": 276760.0,
-   "sma200": 254786.48,
+   "chg": -3.38,
+   "chg5": -8.7,
+   "sma20": 254200.0,
+   "sma50": 274970.0,
+   "sma200": 254804.47,
    "high3m": 362500.0,
    "reg": 257000.0,
    "pre": null,
    "post": null,
-   "regClose": 266000.0,
+   "regClose": 257000.0,
    "sess": "reg",
    "mt": 1787898611,
    "ok": true
   },
   "000660.KS": {
    "price": 1653000.0,
-   "chg": -2.07,
-   "chg5": -2.25,
-   "sma20": 1585300.0,
-   "sma50": 1967080.0,
-   "sma200": 1643393.44,
+   "chg": -4.45,
+   "chg5": -4.45,
+   "sma20": 1601850.0,
+   "sma50": 1949720.0,
+   "sma200": 1643471.54,
    "high3m": 2919000.0,
    "reg": 1653000.0,
    "pre": null,
    "post": null,
-   "regClose": 1730000.0,
+   "regClose": 1653000.0,
    "sess": "reg",
    "mt": 1787898629,
    "ok": true
@@ -739,12 +739,12 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -14.9,
+   "chg5": -11.0,
+   "sma20": 19.43,
+   "sma50": 20.02,
+   "sma200": 21.77,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77791.37,
+   "price": 77792.64,
    "chg": -3.07,
    "chg5": 0.05,
-   "sma20": 70359.8,
-   "sma50": 66720.98,
-   "sma200": 69449.35,
+   "sma20": 70359.87,
+   "sma50": 66721.0,
+   "sma200": 69449.36,
    "high3m": 80257.54,
-   "reg": 77791.37,
+   "reg": 77792.64,
    "pre": null,
    "post": null,
-   "regClose": 77791.37,
+   "regClose": 77792.64,
    "sess": "reg",
-   "mt": 1787967111,
+   "mt": 1787967691,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "This Canadian Dividend Stock Has Data Centre Upside I Didn’t Expect - The Motley Fool Canada",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNazBCUXdWZ0pMZXo1ZGxfYTYwMlJ6eWk5cGk0M0RTYjBSUFowQ2xmZ09nRzRHRkc3VzBFWjBOU1ZXSjQzSmJTVW5XbTlXcFNiZmdmREsyOTZSQjFDQ3dJWjZsMHdmNE1KZE9XZGFKRm83TXQtUE1PRnhodDhNcTFWTW9nMWJMZF9nTFBNVG1KT19rTFBmeUlRT3B5eTJzNFk?oc=5",
+    "pub": "Sat, 29 Aug 2026 01:30:00 GMT",
+    "src": "The Motley Fool Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street backs Nvidia-led GPU loans to reshape global AI finance - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XYTQ1ZEFEYTVQREZtYlVrVzJobk5seGthSnFqYnZ2Y2ZXdi1jVlBJSjgzTE9xalZNN1hZRXlBVzJucFJtZjZwazYwaHQ5dnAwMG5Bc3FZVGUyZ2M5bUs5RWc2MWY0dnpoLXpRQ25DdVZDUlNOdVlRVDFR0gGOAUFVX3lxTFBxZVcwc0tFeFFSNnZ6V3FFNGRrdHJpNWl4T1B0bXlHVEdSTElqeTh0UzZyNHVObUZ5bHVFeXFsZzdzT0pIcTZGbTAwejZoWHN6RVVXMkFJZFp4NExGV2psZldmOEFyTVlJb0wyQU9RcEZ4T1RjT1lmQWhCYWxFU0VuRG5xNFJjUlFTcGZfTVE?oc=5",
     "pub": "Fri, 28 Aug 2026 21:01:00 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQeldTY25na0hXQjNTMVk2TkZSQ2ZpSHFzMEVubXVoY1pfQm15NUEta0Nsenp3N0cyUlItSjM2ZURWMV81T1hXTTRHRUpSRmludmQ2ZUV3Q0NVUjBVc3pnVEFxX0Y0a1c4SERKSEtDcDN0SERFZVBLcXVvekN4Q1ExZnY5U2ZEc2Q2TFczWGhKZVY5MzctUUxMSjZSYjBvQlIyT3RwNjhZc2pXS1dmX09ONGg4c1hoUm1pQVR0ZUNIeXVxQ1JXNzhMcmhB?oc=5",
     "pub": "Fri, 28 Aug 2026 18:30:00 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Private credit roundup-Institutional investors step up allocations to Asia - The Mighty 790 KFGO",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0taTnJFM1pNX3VFZHBXTlluQmg0MkxMODRPSWc0bk1FUHZ6YVI3cDhqVVlIYmtzbGd4M0MzSGF0LTdBSmpWa2UxM2g4alpZX0U5ZlR1SnN5NHVOaGxTQkYxR3VCVnBOdTVpc1VBaW9WVTVUYTZpUUR6a1ZJTHBoMzU1N2o4b085RzVWeVdIal8yNzhQVTk4bXdhaHlHXzh1U05VV3R3?oc=5",
-    "pub": "Fri, 28 Aug 2026 13:44:26 GMT",
-    "src": "The Mighty 790 KFGO",
     "trig": false,
     "geo": false
    }
@@ -1283,14 +1283,6 @@
     "geo": false
    },
    {
-    "title": "Yen falls below the 160 mark; Bessent defends last month's intervention, warning that yen disorder would push up U.S. interest rates - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPM0RFbUhWSDJ2XzgwQ2I4dDR0Qm1GWFN1NS1LV0hpQXN1ZG5ZZUEtc1hXeW5jNjYzRVh3S0V1U0kxMEp4elo5QWRfRm1sXzZsdVJIN3JQX05Oa1YxemxLRnh3RVdCcDYtcTREd2ExSFd5cVpYR1BJUHR5dkkzZFpwTDBMSl9rWE5NM2J6WDdody1yNDJXc3pDb1pTR0VYZw?oc=5",
-    "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
-    "src": "Moomoo",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Oil prices fall on Strait of Hormuz bypass tactics - Oil & Gas Journal",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxON2hJbFAxTzFiLXIzUmtGcEROZlZXUXNSZDJxcG1jZ2V6clNFT1duUk1hY2E2VE9fUHJ5WEUxRERaeVpZaVZUMW9wcGQzMjgtenlxME1yS1lDUnpjRkcxSlZ0blRHMkktWmNXTmZKZkRpbmZCdFg0cjk3OTZKTmZkTlJXRlJMd25HMXFOZ0I5VVhTbGRwLUw3NzJTN3hMcTJPZ0VYS09Rem8zR25JakZiSnRycmE4SktBN3o0?oc=5",
     "pub": "Fri, 28 Aug 2026 20:50:58 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9IY25wRnRHei1qeGF6Z0VQRHZCQjBGVjNHYm4xaV9DNXEteGE3S242WlR0b3Z6UnNCTmJBeGxFUFJYWHE1cHk1VjRaN1oyVGlyMHJfNEhNdHNJNGxBeG1VVDNfa1N4d1hoMlJhVEln?oc=5",
     "pub": "Fri, 28 Aug 2026 20:12:54 GMT",
     "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Codelco: profit and EBITDA jump 68%, despite lower copper output in H1 - BNamericas",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPeWpZRWhuOXFONS1hMkRGdUtNRDdUaFNhZ0dDU3VVLXRtNExiaGJrQjV1SkVpak1oeVdaemdVUlB2NFJjTHpkaUJ4RXczRVo0dmVWUmhLS0NUWVR4RlpRQUFzMDRPWHJLNnU2RkU4b0x4QU43UnhJQmo2a3o1eE1mZmpQRE5uYXppTGxGcGlOQ1piMFVleHZxZWdpQWVBNThONkRLRkpZQjR0QQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 19:16:25 GMT",
+    "src": "BNamericas",
     "trig": false,
     "geo": false
    }
@@ -1435,7 +1435,31 @@
    "chg4w": -45.4,
    "asof": "2026-08-26"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.12,
+   "series": [
+    42.11,
+    41.97,
+    41.8,
+    42.03,
+    41.94,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12
+   ],
+   "chg13w": 0.51,
+   "us_chg13w": 1.63,
+   "eu_chg13w": 0.81,
+   "us_t": 23.21,
+   "eu_t": 18.92,
+   "asof": "2026-08-03",
+   "eu_asof": "2026-07-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1586,9 +1610,23 @@
    62813.75,
    64880.19,
    62975.59,
-   77803.1
+   77804.15
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.716,
+   0.898,
+   0.755,
+   0.815,
+   0.917,
+   0.983,
+   0.845,
+   0.794,
+   0.773,
+   0.826
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2407,7 +2445,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T01:32:39+00:00",
+  "checked": "2026-08-29T01:41:47+00:00",
   "openai": {
    "found": false
   },

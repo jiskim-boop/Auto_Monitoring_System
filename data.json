@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-29T08:41:53+00:00",
+ "updated": "2026-08-29T08:52:07+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77585.56,
-   "chg": -3.33,
-   "chg5": -0.22,
-   "sma20": 70349.51,
-   "sma50": 66716.86,
-   "sma200": 69448.22,
+   "price": 77589.6,
+   "chg": -3.32,
+   "chg5": -0.21,
+   "sma20": 70349.72,
+   "sma50": 66716.94,
+   "sma200": 69448.24,
    "high3m": 80257.54,
-   "reg": 77585.56,
+   "reg": 77589.6,
    "pre": null,
    "post": null,
-   "regClose": 77585.56,
+   "regClose": 77589.6,
    "sess": "reg",
-   "mt": 1787992886,
+   "mt": 1787993495,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 08:35:53 GMT",
-    "src": "NASA Science (.gov)",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The Memory Shortage Gets Worse In 2027 (NASDAQ:QQQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQSEtyUy1uUG0yckZtdWE0S1R2TVpiQW9Xb0J6cXRBZHd1X3E1YkhKbEdwczdLSFpjdUZQVlJFcHpXZmlGRHlFUVV3M0Y0ZFlnTmJlWi1tOUwyNWd0c1l6UmM5TDVYM2xXQmZ0QjRTRjYwaExhX0wtMEtfMTdyajdvNUR5VW1Mdw?oc=5",
     "pub": "Sat, 29 Aug 2026 07:58:13 GMT",
@@ -1191,10 +1183,10 @@
     "geo": false
    },
    {
-    "title": "Grok Is The Most Neutral AI Model, All Other Lean Heavily Left-Libertarian On Political Compass - OfficeChai",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQamlISHZIcEpXa0xsQkQ4SGxEbFVpODhKVjBEWWJJR1JLbWRMSHZkQUpsVnVCWlg2dzZJbTJVMzBKWU5zejBlMVlVOVFYcWF2ajFrTlFCd0RDR3ZfQjhXb2tRcUFkaUt4TEhxLWRWT1BLdEttNDVheTZOWlhlY0Z3RVJGNTA0ZzdqWWlIU0xJY2NvWHJTU3IycDNubGtpeVRRVVMtZXFWaVJ2VVFzZjVxZnZVb1A2Z1NGTC1TVGRB?oc=5",
-    "pub": "Sat, 29 Aug 2026 06:50:15 GMT",
-    "src": "OfficeChai",
+    "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 07:40:58 GMT",
+    "src": "NASA Science (.gov)",
     "trig": false,
     "geo": false
    },
@@ -1215,11 +1207,19 @@
     "geo": false
    },
    {
-    "title": "OpenAI Cuts Off Cursor’s Access To Its Models, Says xAI Broke Terms Of Service - OfficeChai",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcHZJR1VCMzRKRnRwZmsxMGp1Ynk0clBFcEI3NWptdlFhZWZ3S1g3VUp0R05HZGhfbUJCRFVIZElmT296SkFQdXJxUjM0ODZHeERXN2Z5NHN4dE5FQVZKRUVVU1hWdGFIU3dPQmFlb3lDMUdiandwa3dBTncyX1pENm8wSnI1UHF0WjNFbHFiNGwzY084Sm9IaTVBdXdiREpOb2tpeFJ3?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:04:17 GMT",
-    "src": "OfficeChai",
-    "trig": true,
+    "title": "OpenAI says it's ending its deal with Cursor because Elon Musk's companies violate contracts - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOSDJrSTF4N1dNX0paYUVuMmE4dnBQSWlxU0U4bzdJSF9FSG44VExZdktHRDA5RW1BeXE5YmFtQXBxa1ozSVh5aTUydk1xaGFtZkp0ZkQtZk1Bb0VMMDh4SnFqN0V1QmlSUEdwaWZYMWtSTDIyZ2JPOHpBakhJS1I4RlZNdGUycGhnb1JxX1RlQnNULVdha3JTaUJ0ZEdBTFNx?oc=5",
+    "pub": "Sat, 29 Aug 2026 03:41:42 GMT",
+    "src": "Business Insider",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "What Shapes Grok's Political Alignment? Musk Explains - BASENOR - Tesla Accessories",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOanRRVk92SzlHVWhVQXJ2RnhQb0xOdC1rVjNtaDU1MV9tRGZLeTI2VHJxdWQ2M0JGbUJid2psRERjMDNCV3VZMkFWUHh0aVNtZ1AxMjJ0WEE3QjBJWDJLRFF3VXV2SXk3am0xeUlxb0NsZkZEM2R2QjdrbGR5QTVPaU14RnVLTkxJaE9uNFA1OA?oc=5",
+    "pub": "Sat, 29 Aug 2026 02:09:32 GMT",
+    "src": "BASENOR - Tesla Accessories",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1275,14 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "Japan spent record ¥15.4 tril in yen interventions: ministry - Japan Today",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2c4RmFHRzlWbmUzSE84aWg1NERXb0NrSWVGdjlTRV95YlFqYmFBbW5qWmU1ZXhNWnVKM28xVk9oOFFNajk2TXlIRF9mRkpXeWY1cGlOU1AtZ085ZnVRQkZrVXZwV29JaExabDlTaVlIRDltZlhVS3N3SUs4b0dSNDlzTUhtbWJMMDNOdFdnX0hvNF9aaGhLcF82SQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:05:34 GMT",
-    "src": "Japan Today",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "After a record $96 billion intervention over one month, the yen fell below 160, returning to pre-intervention levels. - 富途牛牛",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEtGOHYyay16Z09zbmNsUUk5VlFtSno2UmFRbXhsR1ZPUDZXb0s0Q2JITHR1d0N2SldGMENBNmhFWHhlOTY3cmxLcUw5ZlBZdEZFalRVdGZOdGVCWEtwdG9DVnpzWHltZFVuOE05TTZhOEs2SEEtUnh0U0xGb2pOdzB5d2NUbUJ6b2hLQ0RkUkNaay1LeFlaaW53dFdHN1U?oc=5",
     "pub": "Sat, 29 Aug 2026 02:07:01 GMT",
@@ -1320,6 +1312,14 @@
     "pub": "Fri, 28 Aug 2026 22:09:25 GMT",
     "src": "Moomoo",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Japan spent record ¥15.4 tril in yen interventions: ministry - Japan Today",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNT2c4RmFHRzlWbmUzSE84aWg1NERXb0NrSWVGdjlTRV95YlFqYmFBbW5qWmU1ZXhNWnVKM28xVk9oOFFNajk2TXlIRF9mRkpXeWY1cGlOU1AtZ085ZnVRQkZrVXZwV29JaExabDlTaVlIRDltZlhVS3N3SUs4b0dSNDlzTUhtbWJMMDNOdFdnX0hvNF9aaGhLcF82SQ?oc=5",
+    "pub": "Fri, 28 Aug 2026 20:44:00 GMT",
+    "src": "Japan Today",
+    "trig": false,
     "geo": false
    }
   ]
@@ -1610,23 +1610,9 @@
    62813.75,
    64880.19,
    62975.59,
-   77585.56
+   77598.91
   ],
-  "vixts": [
-   0.844,
-   0.824,
-   1.018,
-   0.865,
-   0.921,
-   0.783,
-   0.761,
-   0.923,
-   0.951,
-   0.84,
-   0.766,
-   0.767,
-   0.706
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2445,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-29T08:41:42+00:00",
+  "checked": "2026-08-29T08:51:54+00:00",
   "openai": {
    "found": false
   },

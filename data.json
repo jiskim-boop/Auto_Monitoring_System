@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T22:03:55+00:00",
+ "updated": "2026-08-30T22:12:04+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.68,
-   "chg": 0.52,
-   "chg5": 0.89,
-   "sma20": 99.51,
-   "sma50": 100.42,
+   "price": 99.71,
+   "chg": 0.01,
+   "chg5": 0.72,
+   "sma20": 99.5,
+   "sma50": 100.4,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.68,
+   "reg": 99.71,
    "pre": null,
    "post": null,
-   "regClose": 99.7,
+   "regClose": 99.71,
    "sess": "reg",
-   "mt": 1787950799,
+   "mt": 1788127286,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78783.02,
-   "chg": 1.22,
-   "chg5": -0.23,
-   "sma20": 71058.66,
-   "sma50": 67014.87,
-   "sma200": 69500.57,
+   "price": 78580.73,
+   "chg": 0.96,
+   "chg5": -0.49,
+   "sma20": 71048.54,
+   "sma50": 67010.83,
+   "sma200": 69499.46,
    "high3m": 80257.54,
-   "reg": 78783.02,
+   "reg": 78580.73,
    "pre": null,
    "post": null,
-   "regClose": 78783.02,
+   "regClose": 78580.73,
    "sess": "reg",
-   "mt": 1788127318,
+   "mt": 1788127894,
    "ok": true
   },
   "USO": {
@@ -978,105 +978,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.15,
-   "chg": 0.52,
-   "chg5": 0.78,
+   "price": 160.12,
+   "chg": 0.5,
+   "chg5": 0.76,
    "sma20": 158.88,
-   "sma50": 160.88,
+   "sma50": 160.87,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.15,
+   "reg": 160.12,
    "pre": null,
    "post": null,
-   "regClose": 160.15,
+   "regClose": 160.12,
    "sess": "reg",
-   "mt": 1788127323,
+   "mt": 1788127895,
    "ok": true
   },
   "ES=F": {
    "price": 7722.0,
-   "chg": -0.26,
-   "chg5": 0.4,
-   "sma20": 7733.09,
-   "sma50": 7599.33,
-   "sma200": 7298.81,
+   "chg": 0.0,
+   "chg5": 0.68,
+   "sma20": 7737.77,
+   "sma50": 7603.6,
+   "sma200": 7302.14,
    "high3m": 7822.5,
    "reg": 7722.0,
    "pre": null,
    "post": null,
    "regClose": 7722.0,
    "sess": "24h",
-   "mt": 1787950799,
+   "mt": 1788127295,
    "ok": true
   },
   "NQ=F": {
    "price": 29491.75,
-   "chg": -0.69,
-   "chg5": 0.35,
-   "sma20": 29599.11,
-   "sma50": 29428.05,
-   "sma200": 28021.02,
+   "chg": 0.0,
+   "chg5": 1.33,
+   "sma20": 29629.11,
+   "sma50": 29412.62,
+   "sma200": 28032.6,
    "high3m": 30712.75,
    "reg": 29491.75,
    "pre": null,
    "post": null,
    "regClose": 29491.75,
    "sess": "24h",
-   "mt": 1787950799,
+   "mt": 1788127298,
    "ok": true
   },
   "YM=F": {
    "price": 53584.0,
-   "chg": -0.07,
-   "chg5": 0.43,
-   "sma20": 53717.8,
-   "sma50": 53000.08,
-   "sma200": 50557.05,
+   "chg": 0.0,
+   "chg5": 0.18,
+   "sma20": 53730.3,
+   "sma50": 53032.52,
+   "sma200": 50580.88,
    "high3m": 54494.0,
    "reg": 53584.0,
    "pre": null,
    "post": null,
    "regClose": 53584.0,
    "sess": "24h",
-   "mt": 1787950796,
+   "mt": 1788127292,
    "ok": true
   },
   "GC=F": {
    "price": 4529.9,
-   "chg": -1.73,
-   "chg5": -2.04,
-   "sma20": 4414.28,
-   "sma50": 4209.82,
-   "sma200": 4480.32,
+   "chg": 1.16,
+   "chg5": -2.39,
+   "sma20": 4436.5,
+   "sma50": 4214.9,
+   "sma200": 4480.3,
    "high3m": 4640.8,
    "reg": 4529.9,
    "pre": null,
    "post": null,
    "regClose": 4529.9,
    "sess": "24h",
-   "mt": 1787950797,
+   "mt": 1788127298,
    "ok": true
   },
   "CL=F": {
    "price": 83.4,
-   "chg": -0.16,
-   "chg5": -4.2,
-   "sma20": 82.29,
-   "sma50": 79.3,
-   "sma200": 88.39,
+   "chg": -0.0,
+   "chg5": -1.89,
+   "sma20": 82.44,
+   "sma50": 79.44,
+   "sma200": 88.35,
    "high3m": 96.02,
    "reg": 83.4,
    "pre": null,
    "post": null,
    "regClose": 83.4,
    "sess": "24h",
-   "mt": 1787950798,
+   "mt": 1788127300,
    "ok": true
   },
   "HG=F": {
    "price": 6.66,
-   "chg": 1.09,
-   "chg5": 1.21,
+   "chg": 1.48,
+   "chg5": 0.91,
    "sma20": 6.59,
    "sma50": 6.39,
    "sma200": 6.16,
@@ -1086,23 +1086,23 @@
    "post": null,
    "regClose": 6.66,
    "sess": "24h",
-   "mt": 1787950755,
+   "mt": 1788127295,
    "ok": true
   },
   "ZN=F": {
    "price": 107.88,
-   "chg": -0.65,
-   "chg5": -0.36,
-   "sma20": 108.56,
-   "sma50": 108.92,
-   "sma200": 110.01,
+   "chg": -0.22,
+   "chg5": -0.53,
+   "sma20": 108.54,
+   "sma50": 108.88,
+   "sma200": 110.0,
    "high3m": 110.27,
    "reg": 107.88,
    "pre": null,
    "post": null,
    "regClose": 107.88,
    "sess": "24h",
-   "mt": 1787950799,
+   "mt": 1788127292,
    "ok": true
   },
   "EWY": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 22:06:35 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SK hynix CEO Says Memory Shortage Will Last Through 2030 - TechPowerUp",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRHdrekFPSXhheEk3WWQyUUhJb2tiMTlHcnhJQkZZdGxDSEozdHVhclR5OS16RXNSUU43U0RQeHB1a2dQeWZxUklUeTNWUXVqdzBBVnBVMW82bEo0dzdXeDFlY0NlR3c5djd0UzFkeHEzNExVM1J1V0xFaGFsNXJ5bDhfUVRmb04yLTRJeXExZUlOMnFkOHfSAZsBQVVfeXFMUHZ3ZUZWSVdfQ3BXaGJDeC15elZZVlI4RXBWUHpfT2ZlTW5CcWl6SjloSzM5czAwcFpqbmZsN2lXYVRtRUdUZW1PdFB0RTBhVTJFWUdqN1FzZHg4UzloYlRCMjJKQmJ0YzRGMU92Ml8wblU0QS16eVotRVBocWRNLU9jV0VjTjZFRFkyUnpMS193aEtxNUx1RjAxWnc?oc=5",
     "pub": "Sun, 30 Aug 2026 19:45:35 GMT",
@@ -1213,21 +1221,13 @@
     "src": "Space",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028 - quasa.io",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
-    "src": "quasa.io",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
     "title": "Fedwatch Turns Hawkish With 57% Odds of September Rate Increase - Cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9FQm90TkQ2M0JFekZtckRRRnBDRTQyZlkycGxNdF9HU2MxYjI3N0FnRmVMaWV3ZFkxSGlsZ3UxeUROb2ZxcEJXc2xFYm1BNUY4dThITnZDZmM?oc=5",
-    "pub": "Sun, 30 Aug 2026 21:49:23 GMT",
+    "pub": "Sun, 30 Aug 2026 21:48:45 GMT",
     "src": "Cryptonews.net",
     "trig": false,
     "geo": false
@@ -1257,23 +1257,31 @@
     "geo": true
    },
    {
+    "title": "Fedwatch Turns Hawkish With 57% Odds of September Rate Increase - Bitcoin News",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMGVvNzlpM2pieUNqRkg5dmJVVjRJTmlkdzR4dTNJNWhvM3JpNmk0YVM1eVNPT2dlSzc4czRsTE1TT3E1LWZWM1VtUUJoLVBFb19FLVZPUjhRM0RlNUIxbmM4bUxiTHJjZVF3QmczMkctSzVXcnBDZ0JPdzN5aVUyTy00Z3IwTXdpRzR3VkQzQlNiUlp0ZW15V0RBYzI?oc=5",
+    "pub": "Sun, 30 Aug 2026 16:26:04 GMT",
+    "src": "Bitcoin News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Fed Rate Hike Odds Rise After Warsh’s Jackson Hole Speech - Forbes",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVzRNdXJXQjFJM0NNV1VramhzVFJHdXRxcmNlNlNxQTB0ZmxsN04wZ2JCUllCeHAxQmpnMUZFSHJDc0p6c1RQcDA1bEhrRUpDWW95Y2l5SzI0Zm15aDBwWEtvYm5SUUZYREo2RGllaC04TUl5WmpiTGhDY1g4OW5icUZUWXdEOEtnRmFyc3pwV3NOaFZLaHhUZ0VLQ0dwNU8yTnhQN2xrWEpxa25o?oc=5",
     "pub": "Sun, 30 Aug 2026 13:23:10 GMT",
     "src": "Forbes",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Scott Bessent faces challenges at G20 over Iran sanctions and US debt - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EX0g3cE0zV3A2SXJyT3NSQm96VzhaNXBWUWRIeWlsakM4QzRNVmx5dHlqQXk3WHM1ZzdZLUJfNmgyeE9BWVZKdVd5TDBmY2RLd3Rza09wSUhPNUljaHpYM3prQ2xLNTh3cjhQSzRoVQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:57:58 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Japan’s Yen Falls Again Despite $97 Billion Aid. Risk For Bitcoin? - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTFBNRWhwVHc1X25BWndYVFFydWpRX01yTHdnYTZ6M2xGV05aLTVVVU9UelNhNWVtdHNvRlZKS1M2ZkgwWjN6MGpvTzBKMWpCTW5pcTZvZVVGcm8wWExsR21neDBRMEI?oc=5",
+    "pub": "Sun, 30 Aug 2026 21:28:00 GMT",
+    "src": "BeInCrypto",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Bessent Warns Disorderly Yen Selloff Could Trigger Global Market Turmoil - Hokanews",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE42Wmo4OUZmX1VvS2dDdUpfVWNvdXdiRF9iMTZkelB4UWV3SHVPZENjcDQtX0R2ZEZ1akcyU0dnTElxb2RqYkdTY0F1Z0hIdkh6SDNYamstY3lrTmRXYkE5ZVFTeGF4TGhyRzBVZ2I0NXN5S0UtY1EzR3pHcVFialE?oc=5",
@@ -1299,26 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Copper Just Hit a Record Above $14,800 a Tonne and AI Is Partly to Blame - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2lmWjJqTUt4Nk45QnZlY3h5bVZIS2NPSTNiX1JsSG9RdGhfb3JoRmo5WmdHdEZUZFk0NjdpVUZEOUZIRlRwVU1aV1ZPaVZ5blRkREdGUk1qd1dCNG5ZdlFRTHE4aW1fMzFCekg5X0RpRGtCLURWRGpmRkRTNFZ1WjVkakI5a05kcExUWE9RMGs5czFWaUlyV0k1Q2dhUkE?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:55:46 GMT",
-    "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Copper Index Fund (Ondo Tokenized) - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83c2JNV0o5NXdRb2Q3a3QzeVVSV0p3dWtRSmFydnpRaTA2MC1OYmV6UW9lb0E3bnd6Wm85eVJYbWdxQVFLQ1hIUlhYcVlJUFFIVFlpcmZzQXFXT2pQNmNENlNMd1ZvamhpTDVGSnBvYy1PREozeE80OUdSYw?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:52:15 GMT",
+    "title": "US Copper Index Fund (Ondo Tokenized) (CPERon) Chart - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRbXZWYTR0dmhuZnItdmRFTWtwWHp6SkVJNmdhdzJTVmNIUTh4QnB0WV9DcGlmNExWTkNyQll1dG8yOHFOaVFoNGttc1FjR2dZaDEwWU9qRUFKelRQeDE1c05ERTQtYnZtT191UWs2V2ZoaHB2d1E?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:50:14 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US Copper Index Fund (Ondo Tokenized) Analytics - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdzBoNjB3aElCZHN1ekVLNEJuNTJ3QmtQeHVfNHhMQkpNbElQYzd1ZEdxcVdBNzNqVUVKVUNtc0hBOGs1ZUxoRTB1UXdOS2ROX1hmc3ZRRzBPeDlvdlJjY29KeS03Mi1OM3BBaGVLOVlFaTJTTjl3aDNDVVV2SWNZb2F4aw?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:50:16 GMT",
-    "src": "CryptoRank",
+    "title": "Gold Falls 3.24% This Week: Federal Reserve Hawkish Signals Shift Safe-Haven Dynamics #GoldFalls3.24 - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE4tazZLNW82QkNKLVBWV09hem5IYTBta3FpaGcxOXdOY05HaTVzenI2NndMNlRyWGJNU3h1WWF1b2gtcE8wMlFtWWdlVWN6bER2Q1RfTXd2SVBXbWtwWHZrQ0V5MFg?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:04:42 GMT",
+    "src": "Binance",
     "trig": false,
     "geo": false
    }
@@ -1500,12 +1500,12 @@
    101.11,
    101.14,
    100.94,
-   100.99,
-   101.51,
-   99.96,
-   99.81,
-   99.64,
-   99.7
+   101.18,
+   101.38,
+   99.89,
+   99.82,
+   99.65,
+   99.71
   ],
   "bizd": [
    12.63,
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78740.0
+   78564.54
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T22:03:16+00:00",
+  "checked": "2026-08-30T22:11:51+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T07:02:33+00:00",
+ "updated": "2026-08-30T07:21:56+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78258.89,
-   "chg": 0.55,
-   "chg5": -0.89,
-   "sma20": 71032.45,
-   "sma50": 67004.39,
-   "sma200": 69497.7,
+   "price": 78230.01,
+   "chg": -2.53,
+   "chg5": 0.61,
+   "sma20": 70381.74,
+   "sma50": 66729.75,
+   "sma200": 69451.76,
    "high3m": 80257.54,
-   "reg": 78258.89,
+   "reg": 78230.01,
    "pre": null,
    "post": null,
-   "regClose": 78258.89,
+   "regClose": 78230.01,
    "sess": "reg",
-   "mt": 1788073308,
+   "mt": 1788074485,
    "ok": true
   },
   "USO": {
@@ -1177,7 +1177,7 @@
    {
     "title": "Roman Space Telescope Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 04:47:49 GMT",
+    "pub": "Sun, 30 Aug 2026 05:27:55 GMT",
     "src": "SpaceX",
     "trig": false,
     "geo": false
@@ -1185,7 +1185,7 @@
    {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
+    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1283,6 +1283,14 @@
     "geo": false
    },
    {
+    "title": "CFTC Fines Former White House Aide $172,000 Over Kalshi Speech Trades - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWg2WTI3Y0phcU9HMkMxWUR4WUxHWUliYk95WWc5REprcnJXSFI0NUhFb01BWEJJRURkVUd1dDN5YXNmN1ozSkdrT0hjY0Vnbmdya1Z5T3VBVHRHb1paTWJpMFBmaEFmZ3RTWFNqbjJvczJYRlhjMmdVM1BoY2lRRDZWcmxWZkVjT3haR1VUTnFSZ0kyMWc?oc=5",
+    "pub": "Sun, 30 Aug 2026 00:15:58 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Iran War Adds $330 Billion to Global Energy Import Bill - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnZrellKdEdBVTMxeUtzUXd6WlM5NlhUeFRPSXRSV2VRNFFGbTNkSjRoUC1xQTJ2MWpoZTFUYUJzSGV6MEtqa0JVZlZ4Qno1bk5WaVhsMW90NkYwTHZRV0Q5OHcxcWVoS1Q5dW1GX3RqSkc0dVVLNVpfYTZMUDREeUlYWTQwR0hHbm9Fd3NCUDVTOXdnNjRSLVh6X2J5Y0E2SVZzTNIBqgFBVV95cUxNdmczS2ZwWkNBdjBSUDNkWllWN1NLVjJLUGRidG1UZUhodDRva3B0RXNDLXd3WFZjYVRxSm9KZzNLYUdJR0o5OE45NzhtRlFEak1CT3MtYktyakpKcjFqOXNsRWZLaElDZTViQlVGTlBERTNpaGRDRVlPU3VhcS1DZDhUZWVEMUJXTExRaERZRzhKbGR1Ui11RVl5NjBDNVUzVGRpQmhiMUxrQQ?oc=5",
     "pub": "Sat, 29 Aug 2026 23:00:00 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT0JPSHY0RHFKRnFEWjlTbXl3cEdmNzJyWExhYzRTLXUyOFM4MXZ3ZFlBTVNpUk96bFVNZXpab1RMWkdzYW5FREdVdFptenhES0IxWGg2MWZueEJ5ZHhGejdhYjdYV2RVQ2pxWUVLeTNSMVNwbWVXRWVzalUzbFZUV2VQTFJRcEZxWGRKOTQyVGdfdEk?oc=5",
     "pub": "Sat, 29 Aug 2026 13:33:38 GMT",
     "src": "stonex.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crude Oil Option - Contract Specs - CME Group",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPU3l0N0RPODZIVkh4U3A3Z296MlVoTS05THZLSlRYSHdEMENKZjdrdjRnVUZYNXNybWhtbDdaSEdqRUI3RlJfNzVIb005enI1ZTVraHd2cEtfejRyRS13eFVTczIxbWlKWkUzMWwtVkVWdDFYSmxHUkFMUkZGemw4U284M19UYWlpZ3IxbnVGRXZiQU9Edkt5TGFwa2xHdFpjeGxENTNHQmNjZ1Rpa3dNX1R5dlBMTU5zVVh3TGlWeUpfbl9sSWpSM2k4RHd6MUFJdGIxekQxa2Zyd1lRa3lQanZMc054dVFFbWdPeU5TcFJBZWtuZmVyRWZGZXZNXzlibTZUYzBmV2NKb3JVTHpIdXVhdXJvNFE?oc=5",
-    "pub": "Sat, 29 Aug 2026 06:59:33 GMT",
-    "src": "CME Group",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78255.67
+   78230.01
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T07:02:19+00:00",
+  "checked": "2026-08-30T07:21:44+00:00",
   "openai": {
    "found": false
   },

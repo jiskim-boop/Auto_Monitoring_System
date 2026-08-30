@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T12:12:04+00:00",
+ "updated": "2026-08-30T12:22:11+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78655.4,
-   "chg": 1.06,
-   "chg5": -0.39,
-   "sma20": 71052.28,
-   "sma50": 67012.32,
-   "sma200": 69499.87,
+   "price": 78489.26,
+   "chg": 0.85,
+   "chg5": -0.6,
+   "sma20": 71043.97,
+   "sma50": 67009.0,
+   "sma200": 69498.96,
    "high3m": 80257.54,
-   "reg": 78655.4,
+   "reg": 78489.26,
    "pre": null,
    "post": null,
-   "regClose": 78655.4,
+   "regClose": 78489.26,
    "sess": "reg",
-   "mt": 1788091885,
+   "mt": 1788092494,
    "ok": true
   },
   "USO": {
@@ -1175,18 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "Nancy Grace Roman Space Telescope - NASA Science (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NZVYtamo1VEwtbm5IbW16RGFtMG5VdEJJcWhsWWdXdmxBNnQ4dk1jc3JRaWdIaC1UUkQ2ZkhjSkJ4NUQ5N0FiNHBGaFRvZFlXYklWZG15ZUppTEtxMndlSVpQcmwwQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:06:20 GMT",
-    "src": "NASA Science (.gov)",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:06:15 GMT",
-    "src": "SpaceX",
+    "title": "Watch SpaceX Launch NASA’s Roman Telescope to Chart the Stars - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWm5nWEJ6b3MtWjRNUnB3ZWJtdWpqc1NhZ0swWnJfQ1Z2LWU2Z0ROYVFYQmRVWlFDRG4zdEVvRlF3SWg1UmlhU2RlWFQzMjJVM0p0ZlNGMFMyZTBPUVlrbkduU1F0aWRIUTA0d3JTakNRdDFFbktKOHJfLWx5c1RDY0xUNA?oc=5",
+    "pub": "Sun, 30 Aug 2026 11:55:41 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1207,7 +1199,7 @@
     "geo": false
    },
    {
-    "title": "WATCH LIVE: NASA successfully launches its newest space telescope - NPR",
+    "title": "NASA has successfully launched its newest space telescope - NPR",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQY3ZQa3UxTWJvMHdUZHdrb3FsRDdPa1FXUnZITEppOVJINWs0OHZzdHNDRWtKM1RMbDM2Vm03M1ZUeV84RVRCVnhuYzdvaUxoMTZndjU3bGhGUnF4bGh5Q0NtY09lUnZzVUtRUzlfbjhnYy15YU4wempWNnZrOXBLMXptQm9GdEk4ckhpeTFwUkR6a1d0?oc=5",
     "pub": "Sun, 30 Aug 2026 10:30:00 GMT",
     "src": "NPR",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0tuUDdYbU5wVGFUREI1Y1ozSGJUcDlqbnZjNVVScEtmVzU3LWVWWVQzVzJKV0Jhb3h1S1VxdzhydEpwMVZnal9PVFBCRlliQjU2SXF1YmVKTmp5YmZsTnRfakVKcXRwZDZRa1RXcGxZdG1DQk11STlHZGM2SGxRWXdHWDdGb3FBWkZOZWZvNmRzdXRETUZNaGs2dFBYTTM5ck9zV2VfWUd4cEhrQWppY2NiMTA2NG9QbGc?oc=5",
     "pub": "Sun, 30 Aug 2026 10:27:41 GMT",
     "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 10:15:58 GMT",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "3 Gold Mining Stocks Retail Investors Are Watching As Debt Fears Lift Safe Haven Demand - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0FtMHF1bUJxWjhBb1ZZNWw0QW53dG90VjNTMTRlbkZpbG45UkRCSW1TczI5dHI2bDhoRkhKcE8xOTJkZFlvZ3NaRUk2eHE1bkpOcEpNSU1Ic2lXYnB5M2ZDd21LQnpfTzN6X3F4d0dpNHAybnJFaExHSkxfc0pIUEZmSXd6X05rX1Q4cy14Y0lCSjBZb3dYQlN3cGJ2ZmZCWTVudUhOd2lWVkk0TGN5UXN1WXJULUhzb0RjSGNKd3FKSUJVN0xPZ3BTalRQaXJVcHdpamxFTVPSAd4BQVVfeXFMTUU3N3NSS0xrM2owTENGUTc4Wkl5RmNLbmV5R2lhMHlZaDVRMDY0N29GYk9WajRyc3ZzTEwxUXd3OGlDRDdkSWhlYk1BX1p0eTBMcVV1bFRQdFNlOUxOZ001bHdXT2NLRWluSFV2T19aODZ0SVlDUDd5VzZWN3g3NUIyMElWNHh2ZUxIZk03eXlsN0RrVXcyZEVFUDkzZGg0OW15NzljcVlXUm45RklIY3BPYUJZUmRwcV9UYm82WGxBQ0VGZ2ljVlJ2bnpsUVlRUmVNUnp6dE1RS3RlVjJR?oc=5",
     "pub": "Sun, 30 Aug 2026 04:17:19 GMT",
     "src": "simplywall.st",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CFTC Fines Former White House Aide $172,000 Over Kalshi Speech Trades - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWg2WTI3Y0phcU9HMkMxWUR4WUxHWUliYk95WWc5REprcnJXSFI0NUhFb01BWEJJRURkVUd1dDN5YXNmN1ozSkdrT0hjY0Vnbmdya1Z5T3VBVHRHb1paTWJpMFBmaEFmZ3RTWFNqbjJvczJYRlhjMmdVM1BoY2lRRDZWcmxWZkVjT3haR1VUTnFSZ0kyMWc?oc=5",
+    "pub": "Sun, 30 Aug 2026 00:15:58 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78650.0
+   78513.83
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T12:11:49+00:00",
+  "checked": "2026-08-30T12:21:57+00:00",
   "openai": {
    "found": false
   },

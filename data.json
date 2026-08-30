@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T19:41:59+00:00",
+ "updated": "2026-08-30T19:52:04+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78815.25,
-   "chg": 1.27,
-   "chg5": -0.19,
-   "sma20": 71060.27,
-   "sma50": 67015.52,
-   "sma200": 69500.74,
+   "price": 78810.3,
+   "chg": 1.26,
+   "chg5": -0.2,
+   "sma20": 71060.02,
+   "sma50": 67015.42,
+   "sma200": 69500.72,
    "high3m": 80257.54,
-   "reg": 78815.25,
+   "reg": 78810.3,
    "pre": null,
    "post": null,
-   "regClose": 78815.25,
+   "regClose": 78810.3,
    "sess": "reg",
-   "mt": 1788118885,
+   "mt": 1788119491,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.09,
-   "chg": 0.48,
-   "chg5": 0.74,
-   "sma20": 158.87,
+   "price": 160.1,
+   "chg": 0.49,
+   "chg5": 0.75,
+   "sma20": 158.88,
    "sma50": 160.87,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.09,
+   "reg": 160.1,
    "pre": null,
    "post": null,
-   "regClose": 160.09,
+   "regClose": 160.1,
    "sess": "reg",
-   "mt": 1788118886,
+   "mt": 1788119456,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "Trump calls in to NASA press conference to celebrate launch of Roman Space Telescope, a mission he tried to cancel - Space",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXhzdGlmWnZNWmdrYnladE9CMTZVOG9QM29ndk1FNFJGMjRyMWFIN1lPYzYxTU5Id19wVDBXWmtDNTZOWkNidlFxQkV0MUdVZWhOZWM4QmR4NDZIZEE3akJjMHU5SXU4bWFacUhqc1BXMF9EZFhHaGRFRkRaVzNiNm1IZXRZMFFQSFpiRzh1LXRWNTRxUHB2N292djhjVWVidVA2TWZIazBMcWJRdkd6RW9pWjdocGNlbDJ3c3VmcTlqcXdZZHFYUGlYQVZHenVVNmNwNHktQnRscjNMYllqb0MyZW9EYUs4?oc=5",
+    "pub": "Sun, 30 Aug 2026 19:00:00 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "'What a glorious dawn launch': Why the Roman Space Telescope's picture-perfect liftoff beyond Earth is such a big deal - Space",
+    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVUMzaWF5MkhybG5UellVcWg2eEgzSWd3MUFlLVFFOTVkV1VhUUp4QmFvTFpCSTRqdjRYQ3Z6b1dZQ09zWUczUG5qOEJMQzNXZjNFbEF5R3ZhTVdUSlVpZnVhZDZjRWlrbFpadVd2MGJxTFVOUGhPWUw4U29rRTh4V1FONmdyMW9oVThQcWxidm1DeVFrVzFkZTBZR1ZobEg4aC1zUkc5WTUxQmJibGU0b3FKOXc4QlZqT2E4MzFUYkJhZmlXaVQ5a1ZPMWRXQ2dMSVhJYThoeXRIMnhDaFl3?oc=5",
+    "pub": "Sun, 30 Aug 2026 18:44:59 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Roman Space Telescope Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
     "pub": "Sun, 30 Aug 2026 18:07:23 GMT",
@@ -1205,33 +1221,9 @@
     "src": "The New York Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Micron Stock: HBM Shortage & Tight DRAM Supply Fuel Bullish Case - Watcher Guru",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVS1zdnZHMzlHMzFXWFRwaHhkM1Y0Wmg3UnlXQ2Z2YVJuUVl4S3lES3lnWXEyM20weHI4MTJHem9DVVBtNEhnR2EtdFJSUGtNRUpHeFhuZTlpemY2bEhCTC0zazloSUlMMGJyVnhKbld3UTIzLVdoVXZPUUZMLUYtdXZ2Y3RETVZMRmRDbnBpdHM?oc=5",
-    "pub": "Sun, 30 Aug 2026 15:06:29 GMT",
-    "src": "Watcher Guru",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX launches NASA's Roman Space Telescope on Falcon Heavy rocket (video) - Space",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaU03dXREZG5wLU92THY2NFdQYzBhakN6MFlobUh5ZjZLRW9iWTdGZktFelBlbXhsSUVheGdqUTEtNWxrTjR5V09aQzUzRkUtc1pNUkZ1TzZFdGV6dnN5M21xOER4N3F4RC1wS05sWUpuTkRyUHNlMjkzXzJ5SnM0dXdyano2Y1hMZWRsSGM1U3BaOHdaYkthYTNJdjZ0UWM2MkdOSTBxVWx3WnBVT3VzcEdla09yUmpWcXgzNnJ2bTNjSmZacm1ZZkhOT3F1LVVVbXZRbWh2dURyamw2TGt3MmRmcno3MzI5ZEZTYUFWcw?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:56:57 GMT",
-    "src": "Space",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Bitcoin, Ethereum and XRP Prices Brace For Jobs Report Week as Fed Decision Looms - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjM5aWdGR3ZYaDdwNElnc2l6a3VqTlo1THN6RGxRUnZPSV82TmEtekJPMmtRWmVJYy1OVzRVdFJHajlMLTNGQlRVSkdsYVNXQWZzVTZjWFRRenFya3BUSXVYelRiRlVzV1h3bUktN29ldzhWZDZRbFI2T3daWXgydmNULXBCSXptc3kyM3hJM254WncwVTRPMWVpYzdtUzdrREY2ZFdlYXJwSXdXNlR5TU9udThkMTVEMHc?oc=5",
-    "pub": "Sun, 30 Aug 2026 18:25:20 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Fedwatch Turns Hawkish With 57% Odds of September Rate Increase - Bitcoin News",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMGVvNzlpM2pieUNqRkg5dmJVVjRJTmlkdzR4dTNJNWhvM3JpNmk0YVM1eVNPT2dlSzc4czRsTE1TT3E1LWZWM1VtUUJoLVBFb19FLVZPUjhRM0RlNUIxbmM4bUxiTHJjZVF3QmczMkctSzVXcnBDZ0JPdzN5aVUyTy00Z3IwTXdpRzR3VkQzQlNiUlp0ZW15V0RBYzI?oc=5",
@@ -1241,10 +1233,10 @@
     "geo": false
    },
    {
-    "title": "Fed Rate Hike Odds Rise After Warsh’s Jackson Hole Speech - Forbes",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVzRNdXJXQjFJM0NNV1VramhzVFJHdXRxcmNlNlNxQTB0ZmxsN04wZ2JCUllCeHAxQmpnMUZFSHJDc0p6c1RQcDA1bEhrRUpDWW95Y2l5SzI0Zm15aDBwWEtvYm5SUUZYREo2RGllaC04TUl5WmpiTGhDY1g4OW5icUZUWXdEOEtnRmFyc3pwV3NOaFZLaHhUZ0VLQ0dwNU8yTnhQN2xrWEpxa25o?oc=5",
-    "pub": "Sun, 30 Aug 2026 13:23:10 GMT",
-    "src": "Forbes",
+    "title": "Bitcoin, Ethereum and XRP Prices Brace For Jobs Report Week as Fed Decision Looms - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV2xTeF92TjJmTi1QNTdYRWJWQkt5M3g5TWQ0WTROb1M1NExpd3JYdnNPekw0bVQzdjZxdmhqMmZhOGpjUHdseWhaekQ1NDk4RHlGcUx3cmF0Y0lVclJTQ2pYRDl5WnJIZHA3c2RudVNrUTBoMW9KTUFvX2E1WkZKdDRKRmd5TUlGWE9WRFJuZFBpQksyYWg3cV9aQ0RfV1FHbVJZT3dBUjBfWDRmOVhzMnpQV0RtZi14dUw2MDNsdzNfTVZtNmZrX1VvQ29VRURuNElwWTNtNA?oc=5",
+    "pub": "Sun, 30 Aug 2026 15:51:38 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1269,6 +1261,14 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalprVVJWeE5qUlBuYWFRMzA4YUdzckllZnJYZE5WLUFDOTBGTFJzcVNDd0Q5RFJPTUs3ZG9ldF96MkhsZ05XVTR0dHV3eTV2TFlVd3ZuendWRFJLRFNvdi1SOHFXMHJGSm9BSHVlTjd5Z0NmbkdFZVFFNjhwbFhpQ3dnVXI0cEd6UXl2TmZncWMyR3Ywd3FKNXBWeTRKUFJ2WnVmd185ei15WmloLXV0Vnpmb9IBuAFBVV95cUxNaEFGcGwxNzJ3RFEyTG04T1d6ZWl3cEpZWmF0dXljcGdOUWc2dm05RDFwYURjVU5aZkFaVnlvb3did2JuYWxtVjI3MDYzRFN6MlpRTm1SenJQeDdUcnB0aU45V2VlYk5SU3E2dEpwajRWajhqT19TaFZlSW5OVFF2ME5aRml6cHVVenY1MXBqVG45YTljLUNyMXBtVVM0eGthUXhQVk9YTEc4em1ITEYxMjZ4d193MFJ2?oc=5",
     "pub": "Sun, 30 Aug 2026 05:21:59 GMT",
     "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "American Century Short Duration Inflation Protection Bond Q2 2026 Commentary (APOIX) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1IycDI3eUpOOU40c1FDdWRTaHgyZWJYcGJESXV4Z1ZCTUdOX2hqLTRkS2s0UTl6ZUYwT01oMzBWWWF3ZzVhT2hFVW4wMkJIeER2SEhRM0UzZGNqN0xsNzJxT1A2c2pVYmlaMGNWUjN3bWlZTjQzLUVnVWlGRUx5ZjNKR25LMU5vQVlCSFFRQTlKZFBtYmNvdUw1WmdsQlJRb0FZYUpjTDNnWE5FcUZfcnZnaXlPVjA?oc=5",
+    "pub": "Sun, 30 Aug 2026 02:15:00 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Japan's Yen Crisis: Why The BOJ Can't Save It I Morti Non Muoiono (H9iRBGA4xS) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFcTBnXzdiRFFrUEphZ3oxYlBXZlNlY1BfWldQeTAxZXhTNFB6RlBiVDYzdzNSYXNFYUNoSl9NcHVzWTVCX2hRRlVoNTRmaVhLVU9YeTdlSGtURXM?oc=5",
-    "pub": "Sun, 30 Aug 2026 10:00:48 GMT",
-    "src": "Mshale",
+    "title": "US Copper Index Fund (Ondo Tokenized) - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83c2JNV0o5NXdRb2Q3a3QzeVVSV0p3dWtRSmFydnpRaTA2MC1OYmV6UW9lb0E3bnd6Wm85eVJYbWdxQVFLQ1hIUlhYcVlJUFFIVFlpcmZzQXFXT2pQNmNENlNMd1ZvamhpTDVGSnBvYy1PREozeE80OUdSYw?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:52:15 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    157.58,
    157.89,
    159.22,
-   160.09
+   160.1
   ],
   "uso": [
    129.09,
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78819.86
+   78814.99
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T19:41:47+00:00",
+  "checked": "2026-08-30T19:51:49+00:00",
   "openai": {
    "found": false
   },

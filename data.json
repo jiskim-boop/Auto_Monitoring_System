@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T08:22:08+00:00",
+ "updated": "2026-08-30T08:32:20+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78173.78,
-   "chg": -2.6,
-   "chg5": 0.54,
-   "sma20": 70378.93,
-   "sma50": 66728.62,
-   "sma200": 69451.45,
+   "price": 78117.48,
+   "chg": 0.37,
+   "chg5": -1.07,
+   "sma20": 71025.38,
+   "sma50": 67001.56,
+   "sma200": 69496.93,
    "high3m": 80257.54,
-   "reg": 78173.78,
+   "reg": 78117.48,
    "pre": null,
    "post": null,
-   "regClose": 78173.78,
+   "regClose": 78117.48,
    "sess": "reg",
-   "mt": 1788078095,
+   "mt": 1788078709,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 08:25:28 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "xAI Sued Over Claims Grok Was Trained on Child Sexual Abuse Material - eGamers.io",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWdsbUpZLTEtM3pMcEYxeHNhanVwVHcwalFOc3BJYXB0VE5SOFBOT1JlbDUzOXlHc1ZaNzhfX2IxT3VWckU5cFRmVzR4UVhwdElkTFBsMUpDVE5LZVp3WGhmV3g5YUQxT3N3SzUwSFA4OVBJckhJYXZuVlo1bmpoNkFFUGM1YnN4MlN0aE56UEFjdw?oc=5",
     "pub": "Sun, 30 Aug 2026 07:44:37 GMT",
@@ -1183,26 +1191,10 @@
     "geo": false
    },
    {
-    "title": "NASA set to launch Roman telescope to map the universe - France 24",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNNlRDZXZHTnpxMkJOSVNHN0lJRXV3blpNNHBFVTFiWW1PTkRuQVpoX1l2Y3lsUlRSc1FSRFdpM2JOQU5vSHBuZXhPYkRfWXRsMlNZOXo0YzRScWJBLTEtZHpIV2hzRC1QaE1kNEp0OVlBSEtRM2haVXRYSzVWaFhqUDR5QnJENHZvQWNqdkRrR2ctWHJReGswZnJHTG5UTlZLR0E?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:26:07 GMT",
-    "src": "France 24",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
     "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
     "src": "The Daily Star",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX retrieved Starship from the Indian Ocean a month after launch - Українські Національні Новини (УНН)",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLV84Tml1TkR4Q25pbW1ucXVpb1lPQjVqR3VxbWdEMmFSQUhxWFd6SVduUVVEUld3Njk3MGlvVnl1Wkd3RndHOTRFa3p2LUotUlZJRXYxQmxRRFBzQWo3MzVOQmgxbzJmYS1XeG1FTDJFeU40bERnRkcxMWNWNGFtVVlzeFhBWUZuOWVuTmswNUdDNjJ6RkHSAZQBQVVfeXFMTjFCbzdSRHAyQVYzUFJ5ZEk2azhmMUc4a2JXZDRWM254REQtVmZFcjY0RlFJX081UC1VUXdJSjRxLU9OQlZyaXJBU3c0cHhPbkNnQkNGMjJyYkVTTlBJTFNpRHBkQlRibWkxWFpwNlp3Nl83emNiLV8zV2lzZzZYMGtLQzZyVFhDRXBSUEJVb3lZOWtudg?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:55:59 GMT",
-    "src": "Українські Національні Новини (УНН)",
     "trig": false,
     "geo": false
    },
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
     "pub": "Sun, 30 Aug 2026 01:16:30 GMT",
     "src": "NASA (.gov)",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Roman Space Telescope, NASA’s next ‘great observatory,’ poised for Sunday launch - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWpjenoxQy04NElHaVNZTXFHUThjWUZtY19GS3k1TlREZ2kwdmkzczVpVFJQTEVsV1I0M3RsOWl2c3h5ZmJJTGxhVzFZdk5KS280SEZKc2VXT1lBMGpVSzlqNjJOcG5JeU5KaUQtdTZLY3hPZm1TbkQxVHo0VjJpcEV1a1Y4Sm9WSnFHZzhjYndyYll0MDRiOXVwZ0pzWEQwV3Jud1hLd3hxMmw5MWU0ODl3VUM?oc=5",
+    "pub": "Sat, 29 Aug 2026 23:55:10 GMT",
+    "src": "Spaceflight Now",
     "trig": false,
     "geo": false
    }
@@ -1275,25 +1275,9 @@
   ],
   "flow": [
    {
-    "title": "US Copper Index Fund (Ondo Tokenized) Analytics - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdzBoNjB3aElCZHN1ekVLNEJuNTJ3QmtQeHVfNHhMQkpNbElQYzd1ZEdxcVdBNzNqVUVKVUNtc0hBOGs1ZUxoRTB1UXdOS2ROX1hmc3ZRRzBPeDlvdlJjY29KeS03Mi1OM3BBaGVLOVlFaTJTTjl3aDNDVVV2SWNZb2F4aw?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:50:16 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US Copper Index Fund (Ondo Tokenized) (CPERon) Chart - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRbXZWYTR0dmhuZnItdmRFTWtwWHp6SkVJNmdhdzJTVmNIUTh4QnB0WV9DcGlmNExWTkNyQll1dG8yOHFOaVFoNGttc1FjR2dZaDEwWU9qRUFKelRQeDE1c05ERTQtYnZtT191UWs2V2ZoaHB2d1E?oc=5",
     "pub": "Sun, 30 Aug 2026 05:50:14 GMT",
-    "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
@@ -1319,6 +1303,22 @@
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnZrellKdEdBVTMxeUtzUXd6WlM5NlhUeFRPSXRSV2VRNFFGbTNkSjRoUC1xQTJ2MWpoZTFUYUJzSGV6MEtqa0JVZlZ4Qno1bk5WaVhsMW90NkYwTHZRV0Q5OHcxcWVoS1Q5dW1GX3RqSkc0dVVLNVpfYTZMUDREeUlYWTQwR0hHbm9Fd3NCUDVTOXdnNjRSLVh6X2J5Y0E2SVZzTNIBqgFBVV95cUxNdmczS2ZwWkNBdjBSUDNkWllWN1NLVjJLUGRidG1UZUhodDRva3B0RXNDLXd3WFZjYVRxSm9KZzNLYUdJR0o5OE45NzhtRlFEak1CT3MtYktyakpKcjFqOXNsRWZLaElDZTViQlVGTlBERTNpaGRDRVlPU3VhcS1DZDhUZWVEMUJXTExRaERZRzhKbGR1Ui11RVl5NjBDNVUzVGRpQmhiMUxrQQ?oc=5",
     "pub": "Sat, 29 Aug 2026 23:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "XRP Price Prediction: Veteran Trader Says XRP Could Be Forming a Major Bottom - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQWEo2Tm1oMkF3R0llN2NvWjYyNlh5ZGFzZUlvTEp1VzhkS1NFMVNIU25RN3JRVjZVOWljUUZOa1pHX25CcDdFYkJnbzBpU1hvYUZfbXJzSVBaVGMwd3NvSVF4Y01RRTIzM202czNQSVQ1S1A4bHBaV25yVHpUU2c3VElwMmlxSC1KTEVlNDBrbEk0dG1vWEd5V2o5Z3gyak54ZEN6cGhId1VyR3dpLXRFN0Y3MFY?oc=5",
+    "pub": "Sat, 29 Aug 2026 18:06:30 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Stocks Retail Investors Are Watching As Safe Haven Demand Returns - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOYU03Q1JUazFXamhYS2pqWmtXcUZZZTlBZUc4czd2X1NoaUYzTGZJVEJNUmVBVldyNEdSeG0xb25TVGtyUmtQd2ZWV3F3Unpoc281ckx4eWNPc3BWZW1DNGs4WmQ3MzgtWWZFX3c5Smp3MlhIZm9vellNXzNQMElOSGtJMTQ3X3NhbzlsTHBEQ05fQW9jd0pHMEVnVjlQYWlUMDFCSEJFTmxFUFZLZHpqZXBqZnkxMTBuSG9QR3lWU09CN0VjcEVmUk80WGxOcUx3c3FCRtIB2gFBVV95cUxNZUtPS0thbzhjd3pmRnNuTmpmS2FTRDNnN0Z4MldSX0RMZ3ZVeF9DVE1kUDE1ajBlcGd0T1ptZ2d3blVOSEhNZm5saG1SZGRCSGxZWElRZW92a01KaW1HQ01GeUxhZVhYb292aWFJTUR2dU8wZVNuVDlxOUFBQTVjRmdjUjZDSTBMZFdzYXVCenpRRVo0V1V0TVVwUUpQWGowQ1c5VzhNWThkWnN5SzNjNUI5N0dsbkY3NGQtbkU5TFduSjJDaDJxNW45ZDVhTm4zWlJQem9aUWV4QQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 14:38:56 GMT",
+    "src": "simplywall.st",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78173.79
+   78123.34
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T08:21:54+00:00",
+  "checked": "2026-08-30T08:32:07+00:00",
   "openai": {
    "found": false
   },

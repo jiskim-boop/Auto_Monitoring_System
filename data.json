@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T14:41:56+00:00",
+ "updated": "2026-08-30T14:51:56+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78738.77,
-   "chg": 1.17,
-   "chg5": -0.29,
-   "sma20": 71056.44,
-   "sma50": 67013.99,
-   "sma200": 69500.33,
+   "price": 78784.91,
+   "chg": 1.23,
+   "chg5": -0.23,
+   "sma20": 71058.75,
+   "sma50": 67014.91,
+   "sma200": 69500.58,
    "high3m": 80257.54,
-   "reg": 78738.77,
+   "reg": 78784.91,
    "pre": null,
    "post": null,
-   "regClose": 78738.77,
+   "regClose": 78784.91,
    "sess": "reg",
-   "mt": 1788100889,
+   "mt": 1788101485,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,34 @@
  "news": {
   "credit": [
    {
+    "title": "Ares Capital's Non-Accruals Rose to 2.4% of Its Portfolio, Still Below Its Own Historical Average - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNOFp2T0lSbzRmWk11YkZhc0lrRXdsWkItaldkQWNJSDVqdjdNTlNoOG1IZ0c5ZlpLbGIzNG5QTW5Yd3dWQUNQaVd0SUNYZGZBalNvVkMzZG9EcU16S1k1dElSRjRxOC1KcXk0Y1dNVExmWU5tZ05pZWRZY29kZlJ2Rg?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:35:00 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Chicago Atlantic BDC reports strong Q2 credit q... - Pluang",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQd05yV2dFeWZaaUZLcjA5aUlqUmxsMG9kUV9Sc0hfdnhQWnQ2QXFvVWlJNnNuUHVGc3hnVDcweGtiSDdKWjdlMTBQcVYydUQzY29Na2Yxc0gzRmZqSXpTTEFmMEJwd3ZhVmNkWjdGZV9KVjFCTGh0eUR5SjdvTUh3TVlHWFBMRkxQZlVZYW5aYmZKVUlhRmZ0M1NBT0IwOVJzNmZUSA?oc=5",
     "pub": "Sun, 30 Aug 2026 10:30:54 GMT",
     "src": "Pluang",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CRWV Stock Gains Premarket Amid Market Rebound: Neocloud Operator Announces $3.5B Debt Raise - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOa2JGNW9kRzA0S1VpQjJiSzhGd0RDa0FmNjVOR1VDMm1pUlh4VXdWZXg0eVZpRy1aRjFnR29ybXAxdldLcEp1RzVwQ1BQUEhzOXduWjdETk01SWR5RzRIOFhtSTFOOGRpb0pmN3Ribk8xa0ROdV9CcDZFMFVvOGl4X0JhMVk1RUdBU3dPYWh3TldXeDB0dGxmZXEwOG9oLW9FRml5S1c4UzRZakZoYlNHZU92cGNqTmVDcGg1Wm5lcmxzcWhlelVDY2p0RkRPeEt6SGpEYTAzdkpiRDJHUHhiMlA2VGRsaUdiVjBv?oc=5",
+    "pub": "Sun, 30 Aug 2026 06:13:53 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Blue Owl Leads $2.4 Billion IREN AI Factory Financing For NVIDIA Blackwell Ultra Infrastructure - Pulse 2.0",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOXzNMT0Z3RWJrOXNNRy16WU5Eejh4dlA5MEF1ZXFKS1ExRGhRak5kazM1VXZJenozOVJ6NmZkQzE2QnZScjBYTW53d2FqNW41dHVYVTJjNk9JT3ZETkRfaXhHSEh4LUt0aTVTeDdMa0d1dERjajVVYl9EZ1VxMEVvT2hLelVoaWRXcUVLTzBrSmlMejIyd2xDM0NFcUJQZnBNc2JDTXYxZVlmS3J0dUgxSHFqX1czSkJEcEHSAboBQVVfeXFMTl8zTE9Gd0ViazlzTUctellORHo4eHZQOTBBdWVxSktRMURoUWpOZGszNVV2SXp6MzlSejZmZEMxNkJ2UnIwWE1ud3dhajVuNXR1WFUyYzZPSU92RE5EX2l4R0hIeC1LdGk1U3g3TGtHdXREY2o1VWJfRGdVcTBFb09oS3pVaGlkV3FFS08wa0ppTHoyMndsQzNDRXFCUGZwTXNiQ012MWVZZktydHVIMUhxal9XM0pCRHBB?oc=5",
+    "pub": "Sun, 30 Aug 2026 03:16:52 GMT",
+    "src": "Pulse 2.0",
     "trig": false,
     "geo": false
    },
@@ -1141,47 +1165,15 @@
     "geo": false
    },
    {
-    "title": "CRWV Stock Gains Premarket Amid Market Rebound: Neocloud Operator Announces $3.5B Debt Raise - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOa2JGNW9kRzA0S1VpQjJiSzhGd0RDa0FmNjVOR1VDMm1pUlh4VXdWZXg0eVZpRy1aRjFnR29ybXAxdldLcEp1RzVwQ1BQUEhzOXduWjdETk01SWR5RzRIOFhtSTFOOGRpb0pmN3Ribk8xa0ROdV9CcDZFMFVvOGl4X0JhMVk1RUdBU3dPYWh3TldXeDB0dGxmZXEwOG9oLW9FRml5S1c4UzRZakZoYlNHZU92cGNqTmVDcGg1Wm5lcmxzcWhlelVDY2p0RkRPeEt6SGpEYTAzdkpiRDJHUHhiMlA2VGRsaUdiVjBv?oc=5",
-    "pub": "Sat, 29 Aug 2026 23:46:27 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NBIS Stock Tanks Amid CoreWeave Decline — What Does Retail Think? - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcXE4QkV4a0RqTEpmSVpRV0RaSTJXejlYUE1FMGY4WlZBVW42SzFxZ0NfOTlBNlJxbEpPTkV2QmpqWjRFTHU4R3dGTi13dC1MTnUtMkdGclNoYXF2c2c5Q3pyTTlLSWVzeVYzX01iX0pLZ3ZNLThWSFR4VjBjdkVucWxublVWM0FEZ21semQtTWh6YWNVTHE0N2k0S2hsNk5kQzdUdEZObWZFS2R1cU15Mm9EMDVETU04UVBxVmVabVY2VlRC?oc=5",
-    "pub": "Sat, 29 Aug 2026 18:32:59 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Forget SaaSpocalypse And Buy These 2 BDCs Now - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSC14ZUZBWUl3MC1KRWE2VWFsWmRhZURXcmY0My1ONjRnVjVYUjJsVHB3ZVNiRnpFYVNvQWswZHUzM0dQWW5saXozWkhidHhMa3JMQjVPUWY1cWFBNFZsS0E1aTRvMFBtUW9wdnhzMzlhTGw0OXJxeDhseGVKbVBtQ2hWSkYyMTN2TWc?oc=5",
     "pub": "Sat, 29 Aug 2026 13:15:00 GMT",
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Can AI Go Green? Why Data Centers Are The Next Frontier For Green Bond Issuance - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEtta1VfOWZ6azNDVTExTFFTYWlTS3hpRHRCRWFhcUNnRzZ6Tmd0am9RVDZuZXRFYUJlZFJNaW0tMnUxVjE5SmRUemZJMkNBOTcyaWU2RWlBX01YMXVMU2t6QUxmQi1na09naTRwU1Z1bWlGTzVLVnE2VXpNVTRMZWc1dkJ3d0RVREFiRlkyZU1PazlKR1Vwc1piZU5FYXA4Y2V5V05nMHlCZWJsN3NnRQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:50:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
-   {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 14:38:39 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "SpaceX launches NASA's Roman Space Telescope on Falcon Heavy rocket (video) - Space",
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaU03dXREZG5wLU92THY2NFdQYzBhakN6MFlobUh5ZjZLRW9iWTdGZktFelBlbXhsSUVheGdqUTEtNWxrTjR5V09aQzUzRkUtc1pNUkZ1TzZFdGV6dnN5M21xOER4N3F4RC1wS05sWUpuTkRyUHNlMjkzXzJ5SnM0dXdyano2Y1hMZWRsSGM1U3BaOHdaYkthYTNJdjZ0UWM2MkdOSTBxVWx3WnBVT3VzcEdla09yUmpWcXgzNnJ2bTNjSmZacm1ZZkhOT3F1LVVVbXZRbWh2dURyamw2TGt3MmRmcno3MzI5ZEZTYUFWcw?oc=5",
@@ -1195,6 +1187,14 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
     "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
     "src": "quasa.io",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:10:16 GMT",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1224,14 +1224,6 @@
    }
   ],
   "macro": [
-   {
-    "title": "EUR/USD Tests Support as Fed Tightening Signals Diverge - DailyForex",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPM0kwLW1uUEwyUW10U1o1ZG9wYzcxNTFFZUViSTh4MEtnZmo4bjQ1WG5fMGpkZXBWb1JyMzRLZGp3M2ltdEVocjBFQXk3TXpRQ3c3dl80c3VTbDh0TFZwN00wdXlBelN1UDM4UU8tTlBXaXlCa2NYY094Y2pCc0xmeXNyVU1LSURzek93UGVzeGlrTHBQRUtPRmZsQlpSeHdJRTY3cjZB?oc=5",
-    "pub": "Sun, 30 Aug 2026 13:31:21 GMT",
-    "src": "DailyForex",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Scott Bessent faces challenges at G20 over Iran sanctions and US debt - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1EX0g3cE0zV3A2SXJyT3NSQm96VzhaNXBWUWRIeWlsakM4QzRNVmx5dHlqQXk3WHM1ZzdZLUJfNmgyeE9BWVZKdVd5TDBmY2RLd3Rza09wSUhPNUljaHpYM3prQ2xLNTh3cjhQSzRoVQ?oc=5",
@@ -1271,6 +1263,14 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Israel Strikes Southern Lebanon Across Multiple Sites, Lebanese Military Source Says - The Eastern Herald",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNVEM4ZzQ0R3FTbzRQZFdsTTd0bGRBSTJNZVctRFc4Yy1SdHkxUk10ZWhwQlVKUGVJdEs1OFZvekRTa0lzamNkc1lfeGpqdDNNd2Y5c1VSRHVIM3NZMGpxbUwxdjVWc0hIRUFVMW9QaHNKTkUtUnhBbl9sRUhlb01KWUZrdUdWemJTelRHXw?oc=5",
+    "pub": "Sun, 30 Aug 2026 01:49:36 GMT",
+    "src": "The Eastern Herald",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1287,14 +1287,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWnNROXltWUl4Mjhvd3ZoclhKVzEyT2FaY3EzbmpuUFpJcDZQdzM0cFNQSHlYQmw4dHhUZXJjNDgteTZiV0ZjN2J4UUpXM2VFTnZVS1FocmZKMDN3Y3VuY3p2NE9xbzNjc3hXVkZpZUROZDF3THNDYkREZ2xrWVY1ZEM0QmdhT1JCcmxaRW9SZnpOYmVLNUcwN3B1TktMQQ?oc=5",
     "pub": "Sun, 30 Aug 2026 11:31:36 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Japan's Yen Crisis: Why The BOJ Can't Save It I Morti Non Muoiono (H9iRBGA4xS) - Mshale",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFcTBnXzdiRFFrUEphZ3oxYlBXZlNlY1BfWldQeTAxZXhTNFB6RlBiVDYzdzNSYXNFYUNoSl9NcHVzWTVCX2hRRlVoNTRmaVhLVU9YeTdlSGtURXM?oc=5",
-    "pub": "Sun, 30 Aug 2026 10:00:48 GMT",
-    "src": "Mshale",
     "trig": false,
     "geo": false
    },
@@ -1318,6 +1310,14 @@
     "title": "US Copper Index Fund (Ondo Tokenized) (CPERon) Chart - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRbXZWYTR0dmhuZnItdmRFTWtwWHp6SkVJNmdhdzJTVmNIUTh4QnB0WV9DcGlmNExWTkNyQll1dG8yOHFOaVFoNGttc1FjR2dZaDEwWU9qRUFKelRQeDE1c05ERTQtYnZtT191UWs2V2ZoaHB2d1E?oc=5",
     "pub": "Sun, 30 Aug 2026 05:50:14 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78751.28
+   78784.9
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T14:41:45+00:00",
+  "checked": "2026-08-30T14:51:44+00:00",
   "openai": {
    "found": false
   },

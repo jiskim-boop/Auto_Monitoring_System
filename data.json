@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T10:21:55+00:00",
+ "updated": "2026-08-30T10:32:19+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78013.64,
-   "chg": -2.8,
-   "chg5": 0.33,
-   "sma20": 70370.92,
-   "sma50": 66725.42,
-   "sma200": 69450.57,
+   "price": 78070.39,
+   "chg": 0.31,
+   "chg5": -1.13,
+   "sma20": 71023.03,
+   "sma50": 67000.62,
+   "sma200": 69496.67,
    "high3m": 80257.54,
-   "reg": 78013.64,
+   "reg": 78070.39,
    "pre": null,
    "post": null,
-   "regClose": 78013.64,
+   "regClose": 78070.39,
    "sess": "reg",
-   "mt": 1788085285,
+   "mt": 1788085903,
    "ok": true
   },
   "USO": {
@@ -1191,6 +1191,14 @@
     "geo": false
    },
    {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 08:07:23 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "xAI Sued Over Claims Grok Was Trained on Child Sexual Abuse Material - eGamers.io",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWdsbUpZLTEtM3pMcEYxeHNhanVwVHcwalFOc3BJYXB0VE5SOFBOT1JlbDUzOXlHc1ZaNzhfX2IxT3VWckU5cFRmVzR4UVhwdElkTFBsMUpDVE5LZVp3WGhmV3g5YUQxT3N3SzUwSFA4OVBJckhJYXZuVlo1bmpoNkFFUGM1YnN4MlN0aE56UEFjdw?oc=5",
     "pub": "Sun, 30 Aug 2026 07:44:37 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOXzFlVkxpYXhVNUpPanVKX2tnZnBtS3VTM1Exd2cyeFNYRXU3S0M3SnZOVnFObU9hYlVqamtsd3Q3T01LX09jTldWVklrVWNZaUhaSTlFM3RKeXN1WXhxbnhQLWw3MkVvek5NeUlLMGk3ekRJRk5PYWZpRkV1U180Q2tUaDg1MjY1Zm9rMVRUOG5JTlFPZ0ZzdUZQckNqQXhMTVM1Q0x2RjNfdlJWRU1vcVlaVlBDYWR1WDMzb18yRXU1cjlsQTBuVW5iU0RNd1B5bWhLakh6WnpXZw?oc=5",
     "pub": "Sun, 30 Aug 2026 01:34:00 GMT",
     "src": "Florida Today",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NASA, SpaceX Adjust Crew-13 Launch Date - NASA (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
-    "pub": "Sun, 30 Aug 2026 01:16:30 GMT",
-    "src": "NASA (.gov)",
     "trig": false,
     "geo": false
    }
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "3 Gold Mining Stocks Retail Investors Are Watching As Debt Fears Lift Safe Haven Demand - simplywall.st",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0FtMHF1bUJxWjhBb1ZZNWw0QW53dG90VjNTMTRlbkZpbG45UkRCSW1TczI5dHI2bDhoRkhKcE8xOTJkZFlvZ3NaRUk2eHE1bkpOcEpNSU1Ic2lXYnB5M2ZDd21LQnpfTzN6X3F4d0dpNHAybnJFaExHSkxfc0pIUEZmSXd6X05rX1Q4cy14Y0lCSjBZb3dYQlN3cGJ2ZmZCWTVudUhOd2lWVkk0TGN5UXN1WXJULUhzb0RjSGNKd3FKSUJVN0xPZ3BTalRQaXJVcHdpamxFTVPSAd4BQVVfeXFMTUU3N3NSS0xrM2owTENGUTc4Wkl5RmNLbmV5R2lhMHlZaDVRMDY0N29GYk9WajRyc3ZzTEwxUXd3OGlDRDdkSWhlYk1BX1p0eTBMcVV1bFRQdFNlOUxOZ001bHdXT2NLRWluSFV2T19aODZ0SVlDUDd5VzZWN3g3NUIyMElWNHh2ZUxIZk03eXlsN0RrVXcyZEVFUDkzZGg0OW15NzljcVlXUm45RklIY3BPYUJZUmRwcV9UYm82WGxBQ0VGZ2ljVlJ2bnpsUVlRUmVNUnp6dE1RS3RlVjJR?oc=5",
     "pub": "Sun, 30 Aug 2026 04:17:19 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWg2WTI3Y0phcU9HMkMxWUR4WUxHWUliYk95WWc5REprcnJXSFI0NUhFb01BWEJJRURkVUd1dDN5YXNmN1ozSkdrT0hjY0Vnbmdya1Z5T3VBVHRHb1paTWJpMFBmaEFmZ3RTWFNqbjJvczJYRlhjMmdVM1BoY2lRRDZWcmxWZkVjT3haR1VUTnFSZ0kyMWc?oc=5",
     "pub": "Sun, 30 Aug 2026 00:15:58 GMT",
     "src": "CryptoRank",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iran War Adds $330 Billion to Global Energy Import Bill - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTnZrellKdEdBVTMxeUtzUXd6WlM5NlhUeFRPSXRSV2VRNFFGbTNkSjRoUC1xQTJ2MWpoZTFUYUJzSGV6MEtqa0JVZlZ4Qno1bk5WaVhsMW90NkYwTHZRV0Q5OHcxcWVoS1Q5dW1GX3RqSkc0dVVLNVpfYTZMUDREeUlYWTQwR0hHbm9Fd3NCUDVTOXdnNjRSLVh6X2J5Y0E2SVZzTNIBqgFBVV95cUxNdmczS2ZwWkNBdjBSUDNkWllWN1NLVjJLUGRidG1UZUhodDRva3B0RXNDLXd3WFZjYVRxSm9KZzNLYUdJR0o5OE45NzhtRlFEak1CT3MtYktyakpKcjFqOXNsRWZLaElDZTViQlVGTlBERTNpaGRDRVlPU3VhcS1DZDhUZWVEMUJXTExRaERZRzhKbGR1Ui11RVl5NjBDNVUzVGRpQmhiMUxrQQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 23:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78013.64
+   78082.66
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T10:21:44+00:00",
+  "checked": "2026-08-30T10:32:06+00:00",
   "openai": {
    "found": false
   },

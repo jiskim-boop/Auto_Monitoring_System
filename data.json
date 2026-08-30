@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T21:51:57+00:00",
+ "updated": "2026-08-30T22:03:55+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78558.85,
-   "chg": 0.94,
-   "chg5": -0.51,
-   "sma20": 71047.45,
-   "sma50": 67010.39,
-   "sma200": 69499.34,
+   "price": 78783.02,
+   "chg": 1.22,
+   "chg5": -0.23,
+   "sma20": 71058.66,
+   "sma50": 67014.87,
+   "sma200": 69500.57,
    "high3m": 80257.54,
-   "reg": 78558.85,
+   "reg": 78783.02,
    "pre": null,
    "post": null,
-   "regClose": 78558.85,
+   "regClose": 78783.02,
    "sess": "reg",
-   "mt": 1788126686,
+   "mt": 1788127318,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.07,
-   "chg": 0.47,
-   "chg5": 0.74,
-   "sma20": 158.87,
-   "sma50": 160.87,
+   "price": 160.15,
+   "chg": 0.52,
+   "chg5": 0.78,
+   "sma20": 158.88,
+   "sma50": 160.88,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.07,
+   "reg": 160.15,
    "pre": null,
    "post": null,
-   "regClose": 160.07,
+   "regClose": 160.15,
    "sess": "reg",
-   "mt": 1788126690,
+   "mt": 1788127323,
    "ok": true
   },
   "ES=F": {
@@ -1175,10 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 21:44:32 GMT",
-    "src": "SpaceX",
+    "title": "SK hynix CEO Says Memory Shortage Will Last Through 2030 - TechPowerUp",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRHdrekFPSXhheEk3WWQyUUhJb2tiMTlHcnhJQkZZdGxDSEozdHVhclR5OS16RXNSUU43U0RQeHB1a2dQeWZxUklUeTNWUXVqdzBBVnBVMW82bEo0dzdXeDFlY0NlR3c5djd0UzFkeHEzNExVM1J1V0xFaGFsNXJ5bDhfUVRmb04yLTRJeXExZUlOMnFkOHfSAZsBQVVfeXFMUHZ3ZUZWSVdfQ3BXaGJDeC15elZZVlI4RXBWUHpfT2ZlTW5CcWl6SjloSzM5czAwcFpqbmZsN2lXYVRtRUdUZW1PdFB0RTBhVTJFWUdqN1FzZHg4UzloYlRCMjJKQmJ0YzRGMU92Ml8wblU0QS16eVotRVBocWRNLU9jV0VjTjZFRFkyUnpMS193aEtxNUx1RjAxWnc?oc=5",
+    "pub": "Sun, 30 Aug 2026 19:45:35 GMT",
+    "src": "TechPowerUp",
     "trig": false,
     "geo": false
    },
@@ -1187,14 +1187,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOVUZyNnZKUzR6VV9kSG1yeEZhTkFNaF9rYUxvbGh1THRJMXBodUNMMmZIeV9xQzE3ZzNsZFdvWFFJZnAySDAwbDhFRklFc3VKR3Fuakk3MUo3cGFsVnYwbWFsZlpKaWFrR2F1dzNNVkREM1RibDY1cVkyeVlnVkppOFh1Q21ieFFVQnZPeTl5dXNQYVhYOXp2TEM2N2s5RHVibkE?oc=5",
     "pub": "Sun, 30 Aug 2026 16:58:15 GMT",
     "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NASA’s Nancy Grace Roman Telescope Leaves Earth to Chart the Stars - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWm5nWEJ6b3MtWjRNUnB3ZWJtdWpqc1NhZ0swWnJfQ1Z2LWU2Z0ROYVFYQmRVWlFDRG4zdEVvRlF3SWg1UmlhU2RlWFQzMjJVM0p0ZlNGMFMyZTBPUVlrbkduU1F0aWRIUTA0d3JTakNRdDFFbktKOHJfLWx5c1RDY0xUNA?oc=5",
-    "pub": "Sun, 30 Aug 2026 16:39:48 GMT",
-    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaU03dXREZG5wLU92THY2NFdQYzBhakN6MFlobUh5ZjZLRW9iWTdGZktFelBlbXhsSUVheGdqUTEtNWxrTjR5V09aQzUzRkUtc1pNUkZ1TzZFdGV6dnN5M21xOER4N3F4RC1wS05sWUpuTkRyUHNlMjkzXzJ5SnM0dXdyano2Y1hMZWRsSGM1U3BaOHdaYkthYTNJdjZ0UWM2MkdOSTBxVWx3WnBVT3VzcEdla09yUmpWcXgzNnJ2bTNjSmZacm1ZZkhOT3F1LVVVbXZRbWh2dURyamw2TGt3MmRmcno3MzI5ZEZTYUFWcw?oc=5",
     "pub": "Sun, 30 Aug 2026 12:56:57 GMT",
     "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028 - quasa.io",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
+    "src": "quasa.io",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    157.58,
    157.89,
    159.22,
-   160.08
+   160.13
   ],
   "uso": [
    129.09,
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78558.83
+   78740.0
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2212,10 +2198,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-28T22",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-28T23",
     "v": 2.73
    },
@@ -2402,6 +2384,10 @@
    {
     "d": "2026-08-30T21",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-30T22",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T21:51:44+00:00",
+  "checked": "2026-08-30T22:03:16+00:00",
   "openai": {
    "found": false
   },

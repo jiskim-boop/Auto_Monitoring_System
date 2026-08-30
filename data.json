@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T06:32:13+00:00",
+ "updated": "2026-08-30T06:41:57+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78178.2,
-   "chg": -2.59,
-   "chg5": 0.54,
-   "sma20": 70379.15,
-   "sma50": 66728.71,
-   "sma200": 69451.48,
+   "price": 78283.85,
+   "chg": 0.58,
+   "chg5": -0.86,
+   "sma20": 71033.7,
+   "sma50": 67004.89,
+   "sma200": 69497.84,
    "high3m": 80257.54,
-   "reg": 78178.2,
+   "reg": 78283.85,
    "pre": null,
    "post": null,
-   "regClose": 78178.2,
+   "regClose": 78283.85,
    "sess": "reg",
-   "mt": 1788071503,
+   "mt": 1788072084,
    "ok": true
   },
   "USO": {
@@ -1177,7 +1177,7 @@
    {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
+    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78178.2
+   78291.57
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T06:32:02+00:00",
+  "checked": "2026-08-30T06:41:45+00:00",
   "openai": {
    "found": false
   },

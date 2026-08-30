@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T03:02:31+00:00",
+ "updated": "2026-08-30T03:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78126.24,
-   "chg": -2.66,
-   "chg5": 0.48,
-   "sma20": 70376.55,
-   "sma50": 66727.67,
-   "sma200": 69451.19,
+   "price": 78079.7,
+   "chg": -2.71,
+   "chg5": 0.42,
+   "sma20": 70374.22,
+   "sma50": 66726.74,
+   "sma200": 69450.94,
    "high3m": 80257.54,
-   "reg": 78126.24,
+   "reg": 78079.7,
    "pre": null,
    "post": null,
-   "regClose": 78126.24,
+   "regClose": 78079.7,
    "sess": "reg",
-   "mt": 1788058918,
+   "mt": 1788059489,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Data center backlash scrambles US midterm politics - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT3huRWxGd3ZwVHdJRHZsd2lWYzlEQW1Fd05INWhWQ1V4T2pmdDU4SmIzeER0Z3l0Wi1MSTI5TjZhbzlMUkdjVTVDbFhJUnBrdV9LMy14M1V5LWtzbDJRZUJEb3o2czQyZlNlamwtcS03SjhHN2hISHNEUF9yZUkyMGphTnZBdEpMN2QxTXRDSnRFYkRrbDJDajVIYlhRQ2ktTlhyWVZMZ2g?oc=5",
+    "pub": "Sun, 30 Aug 2026 03:05:09 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Forget SaaSpocalypse And Buy These 2 BDCs Now - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSC14ZUZBWUl3MC1KRWE2VWFsWmRhZURXcmY0My1ONjRnVjVYUjJsVHB3ZVNiRnpFYVNvQWswZHUzM0dQWW5saXozWkhidHhMa3JMQjVPUWY1cWFBNFZsS0E1aTRvMFBtUW9wdnhzMzlhTGw0OXJxeDhseGVKbVBtQ2hWSkYyMTN2TWc?oc=5",
     "pub": "Sat, 29 Aug 2026 13:15:00 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Chosunbiz",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "NVIDIA GPUs get $2.4B financing as IREN builds an AI campus - Stock Titan",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOWV9CeWctMThLWDMzSkVmYXd6Rkh5Z205X3N6bjl0N1JsWDFsMG82Zk0zSGlhV0FEaU4zR2R4NHFBV1lnd1VRbm1pXzNLalJ1cmpCMU13cFNmVER6N1g2cmVVVy10MEwzSEpDOURUX3BnX0FWeTFLdHZwQkNUQ2V6aGtiSFQzdEtZbE4wYVdJaHdlVGpXR21fcUtnSko3RmYyaEdlaHoxM1NzdkpEZW5vZEEtWk9iR1JNc3c?oc=5",
-    "pub": "Fri, 28 Aug 2026 18:48:53 GMT",
-    "src": "Stock Titan",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
+    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
+    "src": "The Daily Star",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "NASA, SpaceX Adjust Crew-13 Launch Date - NASA (.gov)",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
@@ -1183,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "Roman Space Telescope, NASA’s next ‘great observatory,’ poised for Sunday launch - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWpjenoxQy04NElHaVNZTXFHUThjWUZtY19GS3k1TlREZ2kwdmkzczVpVFJQTEVsV1I0M3RsOWl2c3h5ZmJJTGxhVzFZdk5KS280SEZKc2VXT1lBMGpVSzlqNjJOcG5JeU5KaUQtdTZLY3hPZm1TbkQxVHo0VjJpcEV1a1Y4Sm9WSnFHZzhjYndyYll0MDRiOXVwZ0pzWEQwV3Jud1hLd3hxMmw5MWU0ODl3VUM?oc=5",
-    "pub": "Sat, 29 Aug 2026 23:55:10 GMT",
-    "src": "Spaceflight Now",
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 00:31:17 GMT",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2tLOUZfZFFzSF80dkh6UWpSNFVmTTVUWENJTWd4ellYSXJjRjZ5R052UFc3N21MUGhYbzBIcjZod0RSTHpURTBfeXdYMGt2blpVY2E0cXl0endab3pMSzBMdGVDelBlVldsSjdiZXA2YXRRY2t1VjNEbkN1SkFOX1ZTbkNRNU5VZEhGZm4zRXd3VVRxVDRrbXJLcjhETUdNc0Uw?oc=5",
     "pub": "Sat, 29 Aug 2026 21:13:21 GMT",
     "src": "Klover.ai",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Sam Altman Told Time Magazine, \"I Think It Is a Good Time to Slow Down\" on AI Model Development After Recent Safety Failures. What Would a Pace Change Mean for OpenAI's Growth Story Heading Into an IPO? - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYmRfVzRoYzNrQk11eW5RLTFxMjBITklqX3pWUkpFRVpESTAwb3hIbVFILS03OTVGRkVZOGNrN3NMc0J6UnhQX3lZcFN2bmxRdXBZUzdJbjYyRHdhOUp0QjRsdDRKUi1BRFliOUs5bUhfSzRMSUJuNy1IWjNrRXg4WWlJTE45RXdPd21odk5mU1NpLWlCalBGTQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 20:38:00 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "How China’s Xi Jinping Turned Oil From a Weakness Into a Geopolitical Weapon - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZmRZdEtickdiNVlKZk56RlBmbTFsTFNGa0lsb2liTUthT1NNTzZmbUpaZHlTNHd5Z0ZDY2JPNVpMRHgxcE9VSWNkMDFGSmJzY3JGeWtBMHp6ZDdWZER3cnViX0ctaFB6?oc=5",
-    "pub": "Sat, 29 Aug 2026 03:00:00 GMT",
-    "src": "WSJ",
+    "title": "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - stonex.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaC1qMHFrX2RnbTFzWXk4cHVrSldMeDhVenl5VDFOYVg5TXEyUy1JOVRjTFJqOXhyQTVIQ19JTDYzY3ozbUFDY3NYdlg3S0lkNEg5NmM0NGJuSUdoOHZzQXZDbjE3SjFiYnpDcTFieUs3U01MQU9pY2RUanZ6cmlRUkpaQUhuTHJHRjJKbzluLTZEWFgxOTZMdEVWbHVZSjRZdkdsaEpn?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:47:14 GMT",
+    "src": "stonex.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "After a record $96 billion intervention over one month, the yen fell below 160, returning to pre-intervention levels. - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEtGOHYyay16Z09zbmNsUUk5VlFtSno2UmFRbXhsR1ZPUDZXb0s0Q2JITHR1d0N2SldGMENBNmhFWHhlOTY3cmxLcUw5ZlBZdEZFalRVdGZOdGVCWEtwdG9DVnpzWHltZFVuOE05TTZhOEs2SEEtUnh0U0xGb2pOdzB5d2NUbUJ6b2hLQ0RkUkNaay1LeFlaaW53dFdHN1U?oc=5",
-    "pub": "Sat, 29 Aug 2026 02:07:01 GMT",
-    "src": "富途牛牛",
+    "title": "How China’s Xi Jinping Turned Oil From a Weakness Into a Geopolitical Weapon - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZmRZdEtickdiNVlKZk56RlBmbTFsTFNGa0lsb2liTUthT1NNTzZmbUpaZHlTNHd5Z0ZDY2JPNVpMRHgxcE9VSWNkMDFGSmJzY3JGeWtBMHp6ZDdWZER3cnViX0ctaFB6?oc=5",
+    "pub": "Sat, 29 Aug 2026 03:00:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78127.51
+   78082.75
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T03:02:18+00:00",
+  "checked": "2026-08-30T03:11:46+00:00",
   "openai": {
    "found": false
   },

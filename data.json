@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T06:02:47+00:00",
+ "updated": "2026-08-30T06:11:55+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78113.75,
-   "chg": -2.67,
+   "price": 78109.95,
+   "chg": -2.68,
    "chg5": 0.46,
-   "sma20": 70375.92,
-   "sma50": 66727.42,
-   "sma200": 69451.12,
+   "sma20": 70375.73,
+   "sma50": 66727.35,
+   "sma200": 69451.1,
    "high3m": 80257.54,
-   "reg": 78113.75,
+   "reg": 78109.95,
    "pre": null,
    "post": null,
-   "regClose": 78113.75,
+   "regClose": 78109.95,
    "sess": "reg",
-   "mt": 1788069719,
+   "mt": 1788070285,
    "ok": true
   },
   "USO": {
@@ -1134,7 +1134,7 @@
    },
    {
     "title": "Data center backlash scrambles US midterm politics - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN19rNlJ0YnI5al9wRlFTNG84SGRRQTBWYVkzQV9tZXQtMUszLS1GVWg1aUd0REdVWGZ0LWlHMUNhaGNpM2dTZWZuQTMxSjZwQXBabWZqeUpEREdtUEFpSjU3em9qbW1QVTF6SDRQZW5hQWtRVlJIWENuN1h6Z01CY0gtZjRNeG03TUdrU1BPREFqcUxGT29uWUpGalhqc25Da3h4Y1lVMUxzdw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjQ0eWZxcmVxcFR1enJIV3R0c0RqNWhTTDZFQk12MjRkQmdWTTNnR0FPRDg3QnhvTVhwbXJ2dE5yUTJjNUVGMnp3ek11Q2VGRG5DeGFaWWQ1NTgyaWkwcUVHU1FPTGQ4QV9mbU9Wa2Y3TWNpN2tuQ3ZNVjNXQmpFcVluWlRTVHlDMTJxQlhPaHZXUmh6UTNYZnJBUWZGMllxUjFBNWJfcG9PQQ?oc=5",
     "pub": "Sun, 30 Aug 2026 03:04:00 GMT",
     "src": "ABS-CBN",
     "trig": false,
@@ -1177,7 +1177,7 @@
    {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
+    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1397,7 +1397,12 @@
    "prev": 3.64,
    "chg": 0.0
   },
-  "iorb": null,
+  "iorb": {
+   "date": "2026-08-31",
+   "value": 3.65,
+   "prev": 3.65,
+   "chg": 0.0
+  },
   "dsr": {
    "date": "2026-01-01",
    "value": 11.164,
@@ -1422,6 +1427,7 @@
    "prev": 2.34,
    "chg": 0.0
   },
+  "sofr_iorb": -1.0,
   "cape": 42.17,
   "cape_manual": false,
   "netliq": {
@@ -1604,7 +1610,7 @@
    62763.32,
    64904.69,
    63024.32,
-   78113.75
+   78109.49
   ],
   "vixts": null,
   "hyoas": [
@@ -2423,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T06:02:30+00:00",
+  "checked": "2026-08-30T06:11:43+00:00",
   "openai": {
    "found": false
   },

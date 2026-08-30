@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T12:22:11+00:00",
+ "updated": "2026-08-30T12:32:18+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78489.26,
-   "chg": 0.85,
-   "chg5": -0.6,
-   "sma20": 71043.97,
-   "sma50": 67009.0,
-   "sma200": 69498.96,
+   "price": 78642.34,
+   "chg": 1.04,
+   "chg5": -0.41,
+   "sma20": 71051.62,
+   "sma50": 67012.06,
+   "sma200": 69499.8,
    "high3m": 80257.54,
-   "reg": 78489.26,
+   "reg": 78642.34,
    "pre": null,
    "post": null,
-   "regClose": 78489.26,
+   "regClose": 78642.34,
    "sess": "reg",
-   "mt": 1788092494,
+   "mt": 1788093103,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028 - quasa.io",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
+    "src": "quasa.io",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Watch SpaceX Launch NASA’s Roman Telescope to Chart the Stars - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWm5nWEJ6b3MtWjRNUnB3ZWJtdWpqc1NhZ0swWnJfQ1Z2LWU2Z0ROYVFYQmRVWlFDRG4zdEVvRlF3SWg1UmlhU2RlWFQzMjJVM0p0ZlNGMFMyZTBPUVlrbkduU1F0aWRIUTA0d3JTakNRdDFFbktKOHJfLWx5c1RDY0xUNA?oc=5",
     "pub": "Sun, 30 Aug 2026 11:55:41 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQU0tuUDdYbU5wVGFUREI1Y1ozSGJUcDlqbnZjNVVScEtmVzU3LWVWWVQzVzJKV0Jhb3h1S1VxdzhydEpwMVZnal9PVFBCRlliQjU2SXF1YmVKTmp5YmZsTnRfakVKcXRwZDZRa1RXcGxZdG1DQk11STlHZGM2SGxRWXdHWDdGb3FBWkZOZWZvNmRzdXRETUZNaGs2dFBYTTM5ck9zV2VfWUd4cEhrQWppY2NiMTA2NG9QbGc?oc=5",
     "pub": "Sun, 30 Aug 2026 10:27:41 GMT",
     "src": "Space",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 10:15:58 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    }
@@ -1275,14 +1275,6 @@
   ],
   "flow": [
    {
-    "title": "How China’s Xi Jinping Turned Oil From a Weakness Into a Geopolitical Weapon - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZmRZdEtickdiNVlKZk56RlBmbTFsTFNGa0lsb2liTUthT1NNTzZmbUpaZHlTNHd5Z0ZDY2JPNVpMRHgxcE9VSWNkMDFGSmJzY3JGeWtBMHp6ZDdWZER3cnViX0ctaFB6?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:01:51 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US Copper Index Fund (Ondo Tokenized) - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83c2JNV0o5NXdRb2Q3a3QzeVVSV0p3dWtRSmFydnpRaTA2MC1OYmV6UW9lb0E3bnd6Wm85eVJYbWdxQVFLQ1hIUlhYcVlJUFFIVFlpcmZzQXFXT2pQNmNENlNMd1ZvamhpTDVGSnBvYy1PREozeE80OUdSYw?oc=5",
     "pub": "Sun, 30 Aug 2026 05:52:15 GMT",
@@ -1302,6 +1294,14 @@
     "title": "US Copper Index Fund (Ondo Tokenized) (CPERon) Chart - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBRbXZWYTR0dmhuZnItdmRFTWtwWHp6SkVJNmdhdzJTVmNIUTh4QnB0WV9DcGlmNExWTkNyQll1dG8yOHFOaVFoNGttc1FjR2dZaDEwWU9qRUFKelRQeDE1c05ERTQtYnZtT191UWs2V2ZoaHB2d1E?oc=5",
     "pub": "Sun, 30 Aug 2026 05:50:14 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78513.83
+   78693.18
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T12:21:57+00:00",
+  "checked": "2026-08-30T12:32:05+00:00",
   "openai": {
    "found": false
   },

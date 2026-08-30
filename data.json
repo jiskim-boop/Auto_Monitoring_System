@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T07:21:56+00:00",
+ "updated": "2026-08-30T07:32:19+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78230.01,
-   "chg": -2.53,
-   "chg5": 0.61,
-   "sma20": 70381.74,
-   "sma50": 66729.75,
-   "sma200": 69451.76,
+   "price": 78211.04,
+   "chg": 0.49,
+   "chg5": -0.95,
+   "sma20": 71030.06,
+   "sma50": 67003.43,
+   "sma200": 69497.44,
    "high3m": 80257.54,
-   "reg": 78230.01,
+   "reg": 78211.04,
    "pre": null,
    "post": null,
-   "regClose": 78230.01,
+   "regClose": 78211.04,
    "sess": "reg",
-   "mt": 1788074485,
+   "mt": 1788075107,
    "ok": true
   },
   "USO": {
@@ -1175,17 +1175,9 @@
   ],
   "fundamental": [
    {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:27:55 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
+    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1221,9 +1213,25 @@
     "src": "BleepingComputer",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "NASA's Roman Space Telescope is ready for launch aboard SpaceX Falcon Heavy rocket - Space",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTRINk8tb08xZi1NSndhejV6bFVsalAtb3pFSlI3S2RFeE96LVNzTlFFeWV5LWVNZi1rUTIwcmdKSDFFQjVHYnNETThxWTNjZlhrMWdENEZFLTJxLUlWU3lzc0tnNnQ2cmdZTjNjZ2FJYzJEamloVEU0ZUZoa1lwcThYNTRPVlN6eE1tVElXaktlcUp4cXFkdExhRnB1ZHJnMmx2RGlEVERWb2hBUzg1bkVVS2xZVDRVZUVBU3Q2anFFWXUySVJEMEtfbFZGaHZkRGFIM2pZaGU?oc=5",
+    "pub": "Sat, 29 Aug 2026 22:44:18 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Mapping the Iran war’s strikes on Gulf energy – and what comes next for oil - Al Jazeera",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalprVVJWeE5qUlBuYWFRMzA4YUdzckllZnJYZE5WLUFDOTBGTFJzcVNDd0Q5RFJPTUs3ZG9ldF96MkhsZ05XVTR0dHV3eTV2TFlVd3ZuendWRFJLRFNvdi1SOHFXMHJGSm9BSHVlTjd5Z0NmbkdFZVFFNjhwbFhpQ3dnVXI0cEd6UXl2TmZncWMyR3Ywd3FKNXBWeTRKUFJ2WnVmd185ei15WmloLXV0Vnpmb9IBuAFBVV95cUxNaEFGcGwxNzJ3RFEyTG04T1d6ZWl3cEpZWmF0dXljcGdOUWc2dm05RDFwYURjVU5aZkFaVnlvb3did2JuYWxtVjI3MDYzRFN6MlpRTm1SenJQeDdUcnB0aU45V2VlYk5SU3E2dEpwajRWajhqT19TaFZlSW5OVFF2ME5aRml6cHVVenY1MXBqVG45YTljLUNyMXBtVVM0eGthUXhQVk9YTEc4em1ITEYxMjZ4d193MFJ2?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:21:59 GMT",
+    "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "WB on middle-east war fallout: Job loss, rise in poverty feared in Bangladesh - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN3pLU1lkc1dHVmJabVNJc2lydHN4S01ob2xOaUpnN043UEJLLWdSZE9zLXZEUk9PUGFzRjZWbHcwYmlPYkw0UDhqLU1Na2k2Wm5uMG0wYXZjTDI4MGY3cEprakxlWHIxNTQzV3Zvc2QzQlc3N0JiTzBDYWdwQk1KLTBrM3dlcEJXaFZ6YnBKTW5zNUk2MzFHVWh1OEtzM01oRXJFV1BEa2oySVk0WWlDS0g3eU9hR3NUdnhWSTJrU2o4Zw?oc=5",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE16OHFPZ0JxN2ZIVlB5UTd0RkVQQi1QZFNwdVFHV3VzNVh2NGJTZldIdU9GZ1phSng4NWo4cWhJUWJoa0pSa3lvSlJ5ckVCNlplbDZEaFc4Znc1VE10Tk00NHhXOXZQZU9IeEk3cmNncEdxbEE?oc=5",
     "pub": "Sat, 29 Aug 2026 22:31:54 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The deadline for using \"high oil price damage subsidies\" paid in the aftermath of the Middle East wa.. - 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBnenZUVFNxMHFZWklraWRXUmVwWHRITEtrZW45WHd3RzdZVmVlNWNFN0Q4aHExQlhwallYZ2VVbzdFUGVYNTAtbGZ1ZlZFazFEc1E?oc=5",
-    "pub": "Sat, 29 Aug 2026 22:03:58 GMT",
-    "src": "매일경제",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78230.01
+   78211.04
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T07:21:44+00:00",
+  "checked": "2026-08-30T07:32:06+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T02:51:54+00:00",
+ "updated": "2026-08-30T03:02:31+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78138.39,
-   "chg": -2.64,
-   "chg5": 0.49,
-   "sma20": 70377.16,
-   "sma50": 66727.92,
-   "sma200": 69451.26,
+   "price": 78126.24,
+   "chg": -2.66,
+   "chg5": 0.48,
+   "sma20": 70376.55,
+   "sma50": 66727.67,
+   "sma200": 69451.19,
    "high3m": 80257.54,
-   "reg": 78138.39,
+   "reg": 78126.24,
    "pre": null,
    "post": null,
-   "regClose": 78138.39,
+   "regClose": 78126.24,
    "sess": "reg",
-   "mt": 1788058286,
+   "mt": 1788058918,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX Falcon Heavy rocket launch in Florida: How to submit photos, video - Florida Today",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOXzFlVkxpYXhVNUpPanVKX2tnZnBtS3VTM1Exd2cyeFNYRXU3S0M3SnZOVnFObU9hYlVqamtsd3Q3T01LX09jTldWVklrVWNZaUhaSTlFM3RKeXN1WXhxbnhQLWw3MkVvek5NeUlLMGk3ekRJRk5PYWZpRkV1U180Q2tUaDg1MjY1Zm9rMVRUOG5JTlFPZ0ZzdUZQckNqQXhMTVM1Q0x2RjNfdlJWRU1vcVlaVlBDYWR1WDMzb18yRXU1cjlsQTBuVW5iU0RNd1B5bWhLakh6WnpXZw?oc=5",
-    "pub": "Sun, 30 Aug 2026 01:34:00 GMT",
-    "src": "Florida Today",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "NASA, SpaceX Adjust Crew-13 Launch Date - NASA (.gov)",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOd3N4dmdkUUZqNXA1Q0VBNUp2aldyM1BUbjU4bWs1bl9MTnRSNEwwQ2IxX2pkSnhhXzRYX2tKZUlQWTAyX3h5aF84M1RwZEhFR3g5eTRiNTkzVDh6ZmZCQllRX1FaLTBoWEl2dnhRUHZ5RVZ1Uk1DSFZPbnFrbHJPM3FsQTlvNnF0RzNkZzdJWG9wcl80?oc=5",
     "pub": "Sun, 30 Aug 2026 01:16:30 GMT",
@@ -1219,6 +1211,14 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNU2tLOUZfZFFzSF80dkh6UWpSNFVmTTVUWENJTWd4ellYSXJjRjZ5R052UFc3N21MUGhYbzBIcjZod0RSTHpURTBfeXdYMGt2blpVY2E0cXl0endab3pMSzBMdGVDelBlVldsSjdiZXA2YXRRY2t1VjNEbkN1SkFOX1ZTbkNRNU5VZEhGZm4zRXd3VVRxVDRrbXJLcjhETUdNc0Uw?oc=5",
     "pub": "Sat, 29 Aug 2026 21:13:21 GMT",
     "src": "Klover.ai",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Sam Altman Told Time Magazine, \"I Think It Is a Good Time to Slow Down\" on AI Model Development After Recent Safety Failures. What Would a Pace Change Mean for OpenAI's Growth Story Heading Into an IPO? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQYmRfVzRoYzNrQk11eW5RLTFxMjBITklqX3pWUkpFRVpESTAwb3hIbVFILS03OTVGRkVZOGNrN3NMc0J6UnhQX3lZcFN2bmxRdXBZUzdJbjYyRHdhOUp0QjRsdDRKUi1BRFliOUs5bUhfSzRMSUJuNy1IWjNrRXg4WWlJTE45RXdPd21odk5mU1NpLWlCalBGTQ?oc=5",
+    "pub": "Sat, 29 Aug 2026 20:38:00 GMT",
+    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - stonex.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaC1qMHFrX2RnbTFzWXk4cHVrSldMeDhVenl5VDFOYVg5TXEyUy1JOVRjTFJqOXhyQTVIQ19JTDYzY3ozbUFDY3NYdlg3S0lkNEg5NmM0NGJuSUdoOHZzQXZDbjE3SjFiYnpDcTFieUs3U01MQU9pY2RUanZ6cmlRUkpaQUhuTHJHRjJKbzluLTZEWFgxOTZMdEVWbHVZSjRZdkdsaEpn?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:47:14 GMT",
-    "src": "stonex.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "How China’s Xi Jinping Turned Oil From a Weakness Into a Geopolitical Weapon - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZmRZdEtickdiNVlKZk56RlBmbTFsTFNGa0lsb2liTUthT1NNTzZmbUpaZHlTNHd5Z0ZDY2JPNVpMRHgxcE9VSWNkMDFGSmJzY3JGeWtBMHp6ZDdWZER3cnViX0ctaFB6?oc=5",
     "pub": "Sat, 29 Aug 2026 03:00:00 GMT",
     "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "After a record $96 billion intervention over one month, the yen fell below 160, returning to pre-intervention levels. - 富途牛牛",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEtGOHYyay16Z09zbmNsUUk5VlFtSno2UmFRbXhsR1ZPUDZXb0s0Q2JITHR1d0N2SldGMENBNmhFWHhlOTY3cmxLcUw5ZlBZdEZFalRVdGZOdGVCWEtwdG9DVnpzWHltZFVuOE05TTZhOEs2SEEtUnh0U0xGb2pOdzB5d2NUbUJ6b2hLQ0RkUkNaay1LeFlaaW53dFdHN1U?oc=5",
+    "pub": "Sat, 29 Aug 2026 02:07:01 GMT",
+    "src": "富途牛牛",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78138.4
+   78127.51
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2198,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-28T03",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-28T04",
     "v": 2.73
    },
@@ -2388,6 +2398,10 @@
    {
     "d": "2026-08-30T02",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-30T03",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T02:51:43+00:00",
+  "checked": "2026-08-30T03:02:18+00:00",
   "openai": {
    "found": false
   },

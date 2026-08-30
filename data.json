@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T06:52:04+00:00",
+ "updated": "2026-08-30T07:02:33+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78258.08,
-   "chg": -2.49,
-   "chg5": 0.65,
-   "sma20": 70383.14,
-   "sma50": 66730.31,
-   "sma200": 69451.92,
+   "price": 78258.89,
+   "chg": 0.55,
+   "chg5": -0.89,
+   "sma20": 71032.45,
+   "sma50": 67004.39,
+   "sma200": 69497.7,
    "high3m": 80257.54,
-   "reg": 78258.08,
+   "reg": 78258.89,
    "pre": null,
    "post": null,
-   "regClose": 78258.08,
+   "regClose": 78258.89,
    "sess": "reg",
-   "mt": 1788072690,
+   "mt": 1788073308,
    "ok": true
   },
   "USO": {
@@ -1134,7 +1134,7 @@
    },
    {
     "title": "Data center backlash scrambles US midterm politics - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjQ0eWZxcmVxcFR1enJIV3R0c0RqNWhTTDZFQk12MjRkQmdWTTNnR0FPRDg3QnhvTVhwbXJ2dE5yUTJjNUVGMnp3ek11Q2VGRG5DeGFaWWQ1NTgyaWkwcUVHU1FPTGQ4QV9mbU9Wa2Y3TWNpN2tuQ3ZNVjNXQmpFcVluWlRTVHlDMTJxQlhPaHZXUmh6UTNYZnJBUWZGMllxUjFBNWJfcG9PQQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNN19rNlJ0YnI5al9wRlFTNG84SGRRQTBWYVkzQV9tZXQtMUszLS1GVWg1aUd0REdVWGZ0LWlHMUNhaGNpM2dTZWZuQTMxSjZwQXBabWZqeUpEREdtUEFpSjU3em9qbW1QVTF6SDRQZW5hQWtRVlJIWENuN1h6Z01CY0gtZjRNeG03TUdrU1BPREFqcUxGT29uWUpGalhqc25Da3h4Y1lVMUxzdw?oc=5",
     "pub": "Sun, 30 Aug 2026 03:04:00 GMT",
     "src": "ABS-CBN",
     "trig": false,
@@ -1175,9 +1175,17 @@
   ],
   "fundamental": [
    {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 04:47:49 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
+    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPb3lzZENsdmlkQU5TVWo4VGFNdVYwV05wVDVEdEdEelc5dkhNeDVkQ3FqR0JPNHdLaXllWHphTWFSd3FkRUFCYTR5OUVFdGhVVzM5emZjalZHTDYxLTI1RXhvcGplRERpZ0dVR0RZWm5MU29uLVhURHREd1MzdjJHNFJMaGtxSUU3S0dDSXI4RXRKSEpjS2FiWDVQNS14MG1IZEo5a0pkcVJVY2tWV0hCaDJxSDN5Sjlpc3gwSTBTcnpMQmFJQ2p4UUttZTfSAdIBQVVfeXFMTll1YlFSYW1Ec3V6VFBOZzE2OE9mUC1nR1FLeWlZMHNXbk1ndzBYZm11SzQ4OWhQQWhZSnBTbkRYLTRaNG0tQTZSRmdTRXdDcDZpR3kzdUVjdWppdlp1d2ZwUTJGZEZGaFlGeVNOSnNiZGFvRmdGT0Fucjlkd3V2S0tRVmc1VnN4SXhSdGhlMG91QWxtRzhsSkNoUG5IdmtEeHFCc3JRVng4ZmdZeVJEZUpnWnQ0MnBOeHBoUk1aUm1rSVlyZk9WLXlkYV85WldhcENR?oc=5",
     "pub": "Sat, 29 Aug 2026 23:11:51 GMT",
     "src": "BleepingComputer",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NASA's Roman Space Telescope is ready for launch aboard SpaceX Falcon Heavy rocket - Space",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPSTRINk8tb08xZi1NSndhejV6bFVsalAtb3pFSlI3S2RFeE96LVNzTlFFeWV5LWVNZi1rUTIwcmdKSDFFQjVHYnNETThxWTNjZlhrMWdENEZFLTJxLUlWU3lzc0tnNnQ2cmdZTjNjZ2FJYzJEamloVEU0ZUZoa1lwcThYNTRPVlN6eE1tVElXaktlcUp4cXFkdExhRnB1ZHJnMmx2RGlEVERWb2hBUzg1bkVVS2xZVDRVZUVBU3Q2anFFWXUySVJEMEtfbFZGaHZkRGFIM2pZaGU?oc=5",
-    "pub": "Sat, 29 Aug 2026 22:44:18 GMT",
-    "src": "Space",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - stonex.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaC1qMHFrX2RnbTFzWXk4cHVrSldMeDhVenl5VDFOYVg5TXEyUy1JOVRjTFJqOXhyQTVIQ19JTDYzY3ozbUFDY3NYdlg3S0lkNEg5NmM0NGJuSUdoOHZzQXZDbjE3SjFiYnpDcTFieUs3U01MQU9pY2RUanZ6cmlRUkpaQUhuTHJHRjJKbzluLTZEWFgxOTZMdEVWbHVZSjRZdkdsaEpn?oc=5",
-    "pub": "Sat, 29 Aug 2026 04:47:14 GMT",
-    "src": "stonex.com",
+    "title": "Crude Oil Option - Contract Specs - CME Group",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPU3l0N0RPODZIVkh4U3A3Z296MlVoTS05THZLSlRYSHdEMENKZjdrdjRnVUZYNXNybWhtbDdaSEdqRUI3RlJfNzVIb005enI1ZTVraHd2cEtfejRyRS13eFVTczIxbWlKWkUzMWwtVkVWdDFYSmxHUkFMUkZGemw4U284M19UYWlpZ3IxbnVGRXZiQU9Edkt5TGFwa2xHdFpjeGxENTNHQmNjZ1Rpa3dNX1R5dlBMTU5zVVh3TGlWeUpfbl9sSWpSM2k4RHd6MUFJdGIxekQxa2Zyd1lRa3lQanZMc054dVFFbWdPeU5TcFJBZWtuZmVyRWZGZXZNXzlibTZUYzBmV2NKb3JVTHpIdXVhdXJvNFE?oc=5",
+    "pub": "Sat, 29 Aug 2026 06:59:33 GMT",
+    "src": "CME Group",
     "trig": false,
     "geo": false
    }
@@ -1610,9 +1610,23 @@
    62763.32,
    64904.69,
    63024.32,
-   78258.08
+   78255.67
   ],
-  "vixts": null,
+  "vixts": [
+   0.844,
+   0.79,
+   0.891,
+   0.77,
+   0.898,
+   0.755,
+   0.868,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2198,10 +2212,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-28T07",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-28T08",
     "v": 2.73
    },
@@ -2388,6 +2398,10 @@
    {
     "d": "2026-08-30T06",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-30T07",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2429,7 +2443,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T06:51:50+00:00",
+  "checked": "2026-08-30T07:02:19+00:00",
   "openai": {
    "found": false
   },
@@ -2440,7 +2454,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.36,
   "curve_bp": 39,
   "curve_inverted": false,

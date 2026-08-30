@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T06:41:57+00:00",
+ "updated": "2026-08-30T06:52:04+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78283.85,
-   "chg": 0.58,
-   "chg5": -0.86,
-   "sma20": 71033.7,
-   "sma50": 67004.89,
-   "sma200": 69497.84,
+   "price": 78258.08,
+   "chg": -2.49,
+   "chg5": 0.65,
+   "sma20": 70383.14,
+   "sma50": 66730.31,
+   "sma200": 69451.92,
    "high3m": 80257.54,
-   "reg": 78283.85,
+   "reg": 78258.08,
    "pre": null,
    "post": null,
-   "regClose": 78283.85,
+   "regClose": 78258.08,
    "sess": "reg",
-   "mt": 1788072084,
+   "mt": 1788072690,
    "ok": true
   },
   "USO": {
@@ -1177,7 +1177,7 @@
    {
     "title": "Grok users hit by glitch producing strings of nonsensical responses - The Daily Star",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPN1VLdGxuZTFDbnZUT0pqbVlzbFpKRktJQlA3eVh5NFhwTFlmM3BsZ2s2VlBfc28tckgtbl9rY1hGMjMxY0paVWp6TXZxbEVJTkd2YVJhT1VIMndJMG0yWXJlaG1ZMGpSMjBRakl0S3AyY2ZKYzBvYXFJSGlIQ2ZtcFd6S1VNV2dLazNTR0c1Y0pIZ3BTRmdDaGpsWFR0Rkk3WUs4TTFlNEMtX1dIeHBlQzBnM2NkVDYwNWww?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:07:16 GMT",
+    "pub": "Sun, 30 Aug 2026 04:36:53 GMT",
     "src": "The Daily Star",
     "trig": false,
     "geo": false
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Crude Oil Option - Contract Specs - CME Group",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxPU3l0N0RPODZIVkh4U3A3Z296MlVoTS05THZLSlRYSHdEMENKZjdrdjRnVUZYNXNybWhtbDdaSEdqRUI3RlJfNzVIb005enI1ZTVraHd2cEtfejRyRS13eFVTczIxbWlKWkUzMWwtVkVWdDFYSmxHUkFMUkZGemw4U284M19UYWlpZ3IxbnVGRXZiQU9Edkt5TGFwa2xHdFpjeGxENTNHQmNjZ1Rpa3dNX1R5dlBMTU5zVVh3TGlWeUpfbl9sSWpSM2k4RHd6MUFJdGIxekQxa2Zyd1lRa3lQanZMc054dVFFbWdPeU5TcFJBZWtuZmVyRWZGZXZNXzlibTZUYzBmV2NKb3JVTHpIdXVhdXJvNFE?oc=5",
-    "pub": "Sat, 29 Aug 2026 06:59:33 GMT",
-    "src": "CME Group",
+    "title": "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - stonex.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaC1qMHFrX2RnbTFzWXk4cHVrSldMeDhVenl5VDFOYVg5TXEyUy1JOVRjTFJqOXhyQTVIQ19JTDYzY3ozbUFDY3NYdlg3S0lkNEg5NmM0NGJuSUdoOHZzQXZDbjE3SjFiYnpDcTFieUs3U01MQU9pY2RUanZ6cmlRUkpaQUhuTHJHRjJKbzluLTZEWFgxOTZMdEVWbHVZSjRZdkdsaEpn?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:47:14 GMT",
+    "src": "stonex.com",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78291.57
+   78258.08
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T06:41:45+00:00",
+  "checked": "2026-08-30T06:51:50+00:00",
   "openai": {
    "found": false
   },

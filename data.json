@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T02:11:57+00:00",
+ "updated": "2026-08-30T02:22:13+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78070.0,
-   "chg": -2.73,
-   "chg5": 0.4,
-   "sma20": 70373.74,
-   "sma50": 66726.55,
-   "sma200": 69450.88,
+   "price": 78061.97,
+   "chg": -2.74,
+   "chg5": 0.39,
+   "sma20": 70373.33,
+   "sma50": 66726.39,
+   "sma200": 69450.84,
    "high3m": 80257.54,
-   "reg": 78070.0,
+   "reg": 78061.97,
    "pre": null,
    "post": null,
-   "regClose": 78070.0,
+   "regClose": 78061.97,
    "sess": "reg",
-   "mt": 1788055888,
+   "mt": 1788056497,
    "ok": true
   },
   "USO": {
@@ -1175,18 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:09:47 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Falcon Heavy rocket launch in Florida: How to submit photos, video - Florida Today",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOXzFlVkxpYXhVNUpPanVKX2tnZnBtS3VTM1Exd2cyeFNYRXU3S0M3SnZOVnFObU9hYlVqamtsd3Q3T01LX09jTldWVklrVWNZaUhaSTlFM3RKeXN1WXhxbnhQLWw3MkVvek5NeUlLMGk3ekRJRk5PYWZpRkV1U180Q2tUaDg1MjY1Zm9rMVRUOG5JTlFPZ0ZzdUZQckNqQXhMTVM1Q0x2RjNfdlJWRU1vcVlaVlBDYWR1WDMzb18yRXU1cjlsQTBuVW5iU0RNd1B5bWhLakh6WnpXZw?oc=5",
+    "title": "SpaceX Falcon Heavy rocket launch in Florida: How to submit photos, video - Palm Beach Daily News",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQQTRwamJ3S0dRU09KQ3R4eFFXSEliTV9aMTZzZDlmb1pwcFRNSFVpV2VGeF9kT251ZGZBS29FbkNsenVLaDJhMXdJY0h4eUc3aEVjTzJfRFBXcHNpcnR2Zllic2RHZWF2aFFzSUcwNnFWZDFHYkRoQzdQN3dNN3FGdlhVVjNvd0N1OTh0dkJITlBid3ZKSG5wempfRXFZSTg3N3FqVlVzN25vRUhlV2hmRDliZXpsRDRHbE5BNVBlRWJ3eXJDOVowZk4yTWJ3UnFLNDZQclZvMFpoQVpQWGsyR0xB?oc=5",
     "pub": "Sun, 30 Aug 2026 01:34:00 GMT",
-    "src": "Florida Today",
+    "src": "Palm Beach Daily News",
     "trig": false,
     "geo": false
    },
@@ -1199,19 +1191,19 @@
     "geo": false
    },
    {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 00:31:17 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Roman Space Telescope, NASA’s next ‘great observatory,’ poised for Sunday launch - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQcWpjenoxQy04NElHaVNZTXFHUThjWUZtY19GS3k1TlREZ2kwdmkzczVpVFJQTEVsV1I0M3RsOWl2c3h5ZmJJTGxhVzFZdk5KS280SEZKc2VXT1lBMGpVSzlqNjJOcG5JeU5KaUQtdTZLY3hPZm1TbkQxVHo0VjJpcEV1a1Y4Sm9WSnFHZzhjYndyYll0MDRiOXVwZ0pzWEQwV3Jud1hLd3hxMmw5MWU0ODl3VUM?oc=5",
     "pub": "Sat, 29 Aug 2026 23:55:10 GMT",
     "src": "Spaceflight Now",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Music publishers sue Anthropic, allege \"blantant theft\" of copyrighted music - Axios",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4yWkVsWkZ5bXMySGRnSmIwVWNQR2x6Z3B6ZzF0TVU1WGZtN1R2bVczRkFJOU5HZE93VlJFbmZGU3RVeEdPWC1IalN4bXEzbmhPb3RpTGt2TmE0U0lqcTdrR0QtT1VYY05za0hkRGVrOV9sU3hvU2JOX1JR?oc=5",
-    "pub": "Sat, 29 Aug 2026 23:29:25 GMT",
-    "src": "Axios",
-    "trig": true,
     "geo": false
    },
    {
@@ -1221,9 +1213,25 @@
     "src": "Space",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "xAI Says Grok Bot Now Works With X - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQZW9XSVJrb3FjREsxWllibE5SaGFIY0o4eUktZzhYcjY3MnVieUJBS2llWlhoSzlpaFR5M1pEZ0JZZTJ2ZHl5RVk4MTgwb3RxRDMtRzBIaHJyOUZpZ3QxbTVZLWVtTFBNVGJJZVdLdUgxOW9Vcjd2SHZMZ2c5eFBsRndKaEFUUUcySWtWcHVqUkp2b0hnTW5XRzNZSVpjRHhVQzFqckhzcw?oc=5",
+    "pub": "Sat, 29 Aug 2026 22:03:27 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "American Century Short Duration Inflation Protection Bond Q2 2026 Commentary (APOIX) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNcVJXWGhEbFNaUTVYbERucklneGZDNVhmZ2hMNGhmNkdaelVRSkZZWF9iblNNMGpkR05YVE5OeE91LWxlaWVHc280R2xZdmp3c0NMa1FkUE8xM3NVekpWa1NSYkVLN21TZTRUSWdNdjNuMzh4dGQ0OHU5aG4yaE4xOTZ1Z2pjRnVMbGZPYUMxeVpZU21KZDJBLVk0UElTb0xzdWFjYnVJOVUwLVNCakpOQUR0dTVlcmJPT0VEblJLS1FkMUZ5aUNBdkw0VUhuTWFZc243enIzYmM?oc=5",
+    "pub": "Sun, 30 Aug 2026 02:15:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Warsh signals September Fed hike, defies Trump to prioritize inflation fight - CHOSUNBIZ - Chosunbiz",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWR1d2t1b0tya0VzM0ZRVHNkdXNXdklyOGVfOTBGN00ySTQzNHRaai1OZzMyM3hQdVBGN1RyMUZnQ2c5TGgzaVVRVkp3QVB3SVpjNlFCSVpqNTRicXZ1dnozQ3M5Nk5BbmFRT2J2NmQ0eVZ0MjRvQ1RyLXpBVDQ0djF5NVQwTXhvZW1JVUFRZ0dwR2NJbWkxNTIydGjSAZwBQVVfeXFMTllkdXdrdW9LcmtFczNGUVRzZHVzV3ZJcjhlXzkwRjdNMkk0MzR0WmotTmczMjN4UHVQRjdUcjFGZ0NnOUxoM2lVUVZKd0FQd0laYzZRQklaajU0YnF2dXZ6M0NzOTZOQW5hUU9idjZkNHlWdDI0b0NUci16QVQ0NHYxeTVUME14b2VtSVVBUWdHcEdjSW1pMTUyMnRo?oc=5",
@@ -1263,14 +1271,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "WB on middle-east war fallout: Job loss, rise in poverty feared in Bangladesh - The Daily Star",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQN3pLU1lkc1dHVmJabVNJc2lydHN4S01ob2xOaUpnN043UEJLLWdSZE9zLXZEUk9PUGFzRjZWbHcwYmlPYkw0UDhqLU1Na2k2Wm5uMG0wYXZjTDI4MGY3cEprakxlWHIxNTQzV3Zvc2QzQlc3N0JiTzBDYWdwQk1KLTBrM3dlcEJXaFZ6YnBKTW5zNUk2MzFHVWh1OEtzM01oRXJFV1BEa2oySVk0WWlDS0g3eU9hR3NUdnhWSTJrU2o4Zw?oc=5",
-    "pub": "Sat, 29 Aug 2026 18:25:37 GMT",
-    "src": "The Daily Star",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "US Dollar Rally Builds Momentum, Crude Oil Holds the Key - stonex.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQaC1qMHFrX2RnbTFzWXk4cHVrSldMeDhVenl5VDFOYVg5TXEyUy1JOVRjTFJqOXhyQTVIQ19JTDYzY3ozbUFDY3NYdlg3S0lkNEg5NmM0NGJuSUdoOHZzQXZDbjE3SjFiYnpDcTFieUs3U01MQU9pY2RUanZ6cmlRUkpaQUhuTHJHRjJKbzluLTZEWFgxOTZMdEVWbHVZSjRZdkdsaEpn?oc=5",
+    "pub": "Sat, 29 Aug 2026 04:47:14 GMT",
+    "src": "stonex.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "How China’s Xi Jinping Turned Oil From a Weakness Into a Geopolitical Weapon - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1YZmRZdEtickdiNVlKZk56RlBmbTFsTFNGa0lsb2liTUthT1NNTzZmbUpaZHlTNHd5Z0ZDY2JPNVpMRHgxcE9VSWNkMDFGSmJzY3JGeWtBMHp6ZDdWZER3cnViX0ctaFB6?oc=5",
     "pub": "Sat, 29 Aug 2026 03:00:00 GMT",
@@ -1310,14 +1318,6 @@
     "title": "After a record $96 billion intervention over one month, the yen fell below 160, returning to pre-intervention levels. - 富途牛牛",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNEtGOHYyay16Z09zbmNsUUk5VlFtSno2UmFRbXhsR1ZPUDZXb0s0Q2JITHR1d0N2SldGMENBNmhFWHhlOTY3cmxLcUw5ZlBZdEZFalRVdGZOdGVCWEtwdG9DVnpzWHltZFVuOE05TTZhOEs2SEEtUnh0U0xGb2pOdzB5d2NUbUJ6b2hLQ0RkUkNaay1LeFlaaW53dFdHN1U?oc=5",
     "pub": "Sat, 29 Aug 2026 02:07:01 GMT",
-    "src": "富途牛牛",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Following a record $96 billion intervention over the past month, the yen fell below 160, “returning to pre-intervention levels”. - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQZXhkVldhVWZ6SS1tWVhpNWZGMWRFYndSR0UtMUM1X2ZDRkRUVHQtSk9Lb1M0WkY5THhvNE95QzM4UkJSZ2ttckdUTkdNZ2J1MFZCcXV3a2hKUExCOTE4SEJFVGhXdVlKMFVvZUlRUnhmN1lOVnRDelNUMDROblZhY0lNdWZZNnBKLWhRcWxmMWRFS041S3gtOHNkQUtqbWFmeGNlMDZR?oc=5",
-    "pub": "Sat, 29 Aug 2026 02:07:00 GMT",
     "src": "富途牛牛",
     "trig": false,
     "geo": false
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78062.76
+   78071.0
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T02:11:45+00:00",
+  "checked": "2026-08-30T02:21:58+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T13:21:58+00:00",
+ "updated": "2026-08-30T13:32:14+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78670.31,
-   "chg": 1.08,
-   "chg5": -0.37,
-   "sma20": 71053.02,
-   "sma50": 67012.62,
-   "sma200": 69499.95,
+   "price": 78722.52,
+   "chg": 1.15,
+   "chg5": -0.31,
+   "sma20": 71055.63,
+   "sma50": 67013.66,
+   "sma200": 69500.24,
    "high3m": 80257.54,
-   "reg": 78670.31,
+   "reg": 78722.52,
    "pre": null,
    "post": null,
-   "regClose": 78670.31,
+   "regClose": 78722.52,
    "sess": "reg",
-   "mt": 1788096084,
+   "mt": 1788096704,
    "ok": true
   },
   "USO": {
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "Batangas State U grad tops mechanical engineering licensure exams - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTC12dU5PTkNGZkRNOWZ3ZWhZU3pMbS0zSUpfNGtVV1FjWjFmY0VZcUpSU0Z3SUloU2dkSVdnTlFjRU1ENEYtVGhnbTItRUNEVWtjb3hMeGFSdTNRRExNR1FfY2N2bWdlUE5QNDhQZ1JFaTJUeEN1QmdqaFRHRXlxUGxmY2RhMjU2TGR5aEw3SXBDSE5QRUlGZzhKSFVfZjhObzFVSV93?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:15:08 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Blue Owl Leads $2.4 Billion IREN AI Factory Financing For NVIDIA Blackwell Ultra Infrastructure - Pulse 2.0",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOXzNMT0Z3RWJrOXNNRy16WU5Eejh4dlA5MEF1ZXFKS1ExRGhRak5kazM1VXZJenozOVJ6NmZkQzE2QnZScjBYTW53d2FqNW41dHVYVTJjNk9JT3ZETkRfaXhHSEh4LUt0aTVTeDdMa0d1dERjajVVYl9EZ1VxMEVvT2hLelVoaWRXcUVLTzBrSmlMejIyd2xDM0NFcUJQZnBNc2JDTXYxZVlmS3J0dUgxSHFqX1czSkJEcEHSAboBQVVfeXFMTl8zTE9Gd0ViazlzTUctellORHo4eHZQOTBBdWVxSktRMURoUWpOZGszNVV2SXp6MzlSejZmZEMxNkJ2UnIwWE1ud3dhajVuNXR1WFUyYzZPSU92RE5EX2l4R0hIeC1LdGk1U3g3TGtHdXREY2o1VWJfRGdVcTBFb09oS3pVaGlkV3FFS08wa0ppTHoyMndsQzNDRXFCUGZwTXNiQ012MWVZZktydHVIMUhxal9XM0pCRHBB?oc=5",
     "pub": "Sun, 30 Aug 2026 03:16:52 GMT",
@@ -1163,30 +1171,22 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Can AI Go Green? Why Data Centers Are The Next Frontier For Green Bond Issuance - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOMEtta1VfOWZ6azNDVTExTFFTYWlTS3hpRHRCRWFhcUNnRzZ6Tmd0am9RVDZuZXRFYUJlZFJNaW0tMnUxVjE5SmRUemZJMkNBOTcyaWU2RWlBX01YMXVMU2t6QUxmQi1na09naTRwU1Z1bWlGTzVLVnE2VXpNVTRMZWc1dkJ3d0RVREFiRlkyZU1PazlKR1Vwc1piZU5FYXA4Y2V5V05nMHlCZWJsN3NnRQ?oc=5",
-    "pub": "Sat, 29 Aug 2026 07:50:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Roman Space Telescope Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 13:24:29 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028 - quasa.io",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
     "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
     "src": "quasa.io",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 12:10:16 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1241,14 +1241,6 @@
     "geo": false
    },
    {
-    "title": "Ringgit expected to remain well supported next week ahead of BNM OPR decision - The Star",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPTFhSM3o4SUVJeUxVTEhXVkIwU0JoWjZnS1YtaldOV21SblJkMVhmbndzNVY2NTRINGg3T1hLc0pMYVBKS3Flb3dIV200bmc1WnQwSVhHYnVGamVMalJManBJM082MWpEMTZPY2t1LVZTOWJMRkhidmphVi1SMXYzb2VXVWItRDdnT3J5YTNqdGVGNnNzQWZiN1lQRlZIb3NNbUNJOUZMZWVFd3RDY3Y2VkRzY2d0UTljZkRTdXliN0FUZzdaYXBoaU1LMnRDTVpHUG1IMQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:25:00 GMT",
-    "src": "The Star",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Mapping Iran war’s strikes on Gulf energy and its impact on future of oil - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalprVVJWeE5qUlBuYWFRMzA4YUdzckllZnJYZE5WLUFDOTBGTFJzcVNDd0Q5RFJPTUs3ZG9ldF96MkhsZ05XVTR0dHV3eTV2TFlVd3ZuendWRFJLRFNvdi1SOHFXMHJGSm9BSHVlTjd5Z0NmbkdFZVFFNjhwbFhpQ3dnVXI0cEd6UXl2TmZncWMyR3Ywd3FKNXBWeTRKUFJ2WnVmd185ei15WmloLXV0Vnpmb9IBuAFBVV95cUxNaEFGcGwxNzJ3RFEyTG04T1d6ZWl3cEpZWmF0dXljcGdOUWc2dm05RDFwYURjVU5aZkFaVnlvb3did2JuYWxtVjI3MDYzRFN6MlpRTm1SenJQeDdUcnB0aU45V2VlYk5SU3E2dEpwajRWajhqT19TaFZlSW5OVFF2ME5aRml6cHVVenY1MXBqVG45YTljLUNyMXBtVVM0eGthUXhQVk9YTEc4em1ITEYxMjZ4d193MFJ2?oc=5",
     "pub": "Sun, 30 Aug 2026 05:21:59 GMT",
@@ -1269,6 +1261,14 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1IycDI3eUpOOU40c1FDdWRTaHgyZWJYcGJESXV4Z1ZCTUdOX2hqLTRkS2s0UTl6ZUYwT01oMzBWWWF3ZzVhT2hFVW4wMkJIeER2SEhRM0UzZGNqN0xsNzJxT1A2c2pVYmlaMGNWUjN3bWlZTjQzLUVnVWlGRUx5ZjNKR25LMU5vQVlCSFFRQTlKZFBtYmNvdUw1WmdsQlJRb0FZYUpjTDNnWE5FcUZfcnZnaXlPVjA?oc=5",
     "pub": "Sun, 30 Aug 2026 02:15:00 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Warsh signals September Fed hike, defies Trump to prioritize inflation fight - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWWR1d2t1b0tya0VzM0ZRVHNkdXNXdklyOGVfOTBGN00ySTQzNHRaai1OZzMyM3hQdVBGN1RyMUZnQ2c5TGgzaVVRVkp3QVB3SVpjNlFCSVpqNTRicXZ1dnozQ3M5Nk5BbmFRT2J2NmQ0eVZ0MjRvQ1RyLXpBVDQ0djF5NVQwTXhvZW1JVUFRZ0dwR2NJbWkxNTIydGjSAZwBQVVfeXFMTllkdXdrdW9LcmtFczNGUVRzZHVzV3ZJcjhlXzkwRjdNMkk0MzR0WmotTmczMjN4UHVQRjdUcjFGZ0NnOUxoM2lVUVZKd0FQd0laYzZRQklaajU0YnF2dXZ6M0NzOTZOQW5hUU9idjZkNHlWdDI0b0NUci16QVQ0NHYxeTVUME14b2VtSVVBUWdHcEdjSW1pMTUyMnRo?oc=5",
+    "pub": "Sun, 30 Aug 2026 00:14:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    }
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "3 Gold Mining Stocks Retail Investors Are Watching As Debt Fears Lift Safe Haven Demand - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0FtMHF1bUJxWjhBb1ZZNWw0QW53dG90VjNTMTRlbkZpbG45UkRCSW1TczI5dHI2bDhoRkhKcE8xOTJkZFlvZ3NaRUk2eHE1bkpOcEpNSU1Ic2lXYnB5M2ZDd21LQnpfTzN6X3F4d0dpNHAybnJFaExHSkxfc0pIUEZmSXd6X05rX1Q4cy14Y0lCSjBZb3dYQlN3cGJ2ZmZCWTVudUhOd2lWVkk0TGN5UXN1WXJULUhzb0RjSGNKd3FKSUJVN0xPZ3BTalRQaXJVcHdpamxFTVPSAd4BQVVfeXFMTUU3N3NSS0xrM2owTENGUTc4Wkl5RmNLbmV5R2lhMHlZaDVRMDY0N29GYk9WajRyc3ZzTEwxUXd3OGlDRDdkSWhlYk1BX1p0eTBMcVV1bFRQdFNlOUxOZ001bHdXT2NLRWluSFV2T19aODZ0SVlDUDd5VzZWN3g3NUIyMElWNHh2ZUxIZk03eXlsN0RrVXcyZEVFUDkzZGg0OW15NzljcVlXUm45RklIY3BPYUJZUmRwcV9UYm82WGxBQ0VGZ2ljVlJ2bnpsUVlRUmVNUnp6dE1RS3RlVjJR?oc=5",
-    "pub": "Sun, 30 Aug 2026 04:17:19 GMT",
-    "src": "simplywall.st",
+    "title": "How High Can Solana Price Go This Rally? - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRVlhUUZCb3hFMEk5X3dEaDMtNlQwcWNDWmR1ZVZtaHdtZW1QYXRrd2VDYmw1dmlkWi1UOTJpQ2ZIbmpLQ0ZacG9VaDd6aThFRF9KWnJLTm5pNWRmc2xtT2s1QS05WHVod21kdzQ1eFBSWFREWXhJTkhfLVFPQkhqUVNUUQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:48:13 GMT",
+    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
    {
-    "title": "CFTC Fines Former White House Aide $172,000 Over Kalshi Speech Trades - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNLWg2WTI3Y0phcU9HMkMxWUR4WUxHWUliYk95WWc5REprcnJXSFI0NUhFb01BWEJJRURkVUd1dDN5YXNmN1ozSkdrT0hjY0Vnbmdya1Z5T3VBVHRHb1paTWJpMFBmaEFmZ3RTWFNqbjJvczJYRlhjMmdVM1BoY2lRRDZWcmxWZkVjT3haR1VUTnFSZ0kyMWc?oc=5",
-    "pub": "Sun, 30 Aug 2026 00:15:58 GMT",
-    "src": "CryptoRank",
+    "title": "3 Gold Mining Stocks Retail Investors Are Watching As Debt Fears Lift Safe Haven Demand - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQc0FtMHF1bUJxWjhBb1ZZNWw0QW53dG90VjNTMTRlbkZpbG45UkRCSW1TczI5dHI2bDhoRkhKcE8xOTJkZFlvZ3NaRUk2eHE1bkpOcEpNSU1Ic2lXYnB5M2ZDd21LQnpfTzN6X3F4d0dpNHAybnJFaExHSkxfc0pIUEZmSXd6X05rX1Q4cy14Y0lCSjBZb3dYQlN3cGJ2ZmZCWTVudUhOd2lWVkk0TGN5UXN1WXJULUhzb0RjSGNKd3FKSUJVN0xPZ3BTalRQaXJVcHdpamxFTVPSAd4BQVVfeXFMTUU3N3NSS0xrM2owTENGUTc4Wkl5RmNLbmV5R2lhMHlZaDVRMDY0N29GYk9WajRyc3ZzTEwxUXd3OGlDRDdkSWhlYk1BX1p0eTBMcVV1bFRQdFNlOUxOZ001bHdXT2NLRWluSFV2T19aODZ0SVlDUDd5VzZWN3g3NUIyMElWNHh2ZUxIZk03eXlsN0RrVXcyZEVFUDkzZGg0OW15NzljcVlXUm45RklIY3BPYUJZUmRwcV9UYm82WGxBQ0VGZ2ljVlJ2bnpsUVlRUmVNUnp6dE1RS3RlVjJR?oc=5",
+    "pub": "Sun, 30 Aug 2026 04:17:19 GMT",
+    "src": "simplywall.st",
     "trig": false,
     "geo": false
    }
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78675.36
+   78722.51
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T13:21:46+00:00",
+  "checked": "2026-08-30T13:32:03+00:00",
   "openai": {
    "found": false
   },

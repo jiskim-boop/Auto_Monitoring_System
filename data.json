@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T20:22:11+00:00",
+ "updated": "2026-08-30T20:32:20+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78871.37,
-   "chg": 1.34,
-   "chg5": -0.12,
-   "sma20": 71063.07,
-   "sma50": 67016.64,
-   "sma200": 69501.05,
+   "price": 78748.56,
+   "chg": 1.18,
+   "chg5": -0.27,
+   "sma20": 71056.93,
+   "sma50": 67014.18,
+   "sma200": 69500.38,
    "high3m": 80257.54,
-   "reg": 78871.37,
+   "reg": 78748.56,
    "pre": null,
    "post": null,
-   "regClose": 78871.37,
+   "regClose": 78748.56,
    "sess": "reg",
-   "mt": 1788121287,
+   "mt": 1788121907,
    "ok": true
   },
   "USO": {
@@ -1149,39 +1149,31 @@
     "geo": false
    },
    {
-    "title": "SOGIE: Hard questions over bill vs gender-based discrimination - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOEtGZVRGNkQ3Q0dhRG1aYmQ0Rzgwalp6Y1BvRnUyc1hKcGFhOExrWFRXZ1BEcjNSQU5SRFYzbHJEbXB0dHRuMVB4SWU0WFEyY1ZXbEZUVGlNU1ZFcG5xd2tEeDJfa3NlaWpocVVzdkM0RDNOWFc4bWQ3WUVIcnBPMTR0QXZUbFRhUUFrbE1iNjJESjdsNDhNbTNTdm9ETFdC?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:38:33 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Batangas State U grad tops mechanical engineering licensure exams - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTC12dU5PTkNGZkRNOWZ3ZWhZU3pMbS0zSUpfNGtVV1FjWjFmY0VZcUpSU0Z3SUloU2dkSVdnTlFjRU1ENEYtVGhnbTItRUNEVWtjb3hMeGFSdTNRRExNR1FfY2N2bWdlUE5QNDhQZ1JFaTJUeEN1QmdqaFRHRXlxUGxmY2RhMjU2TGR5aEw3SXBDSE5QRUlGZzhKSFVfZjhObzFVSV93?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:15:08 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Blue Owl Leads $2.4 Billion IREN AI Factory Financing For NVIDIA Blackwell Ultra Infrastructure - Pulse 2.0",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOXzNMT0Z3RWJrOXNNRy16WU5Eejh4dlA5MEF1ZXFKS1ExRGhRak5kazM1VXZJenozOVJ6NmZkQzE2QnZScjBYTW53d2FqNW41dHVYVTJjNk9JT3ZETkRfaXhHSEh4LUt0aTVTeDdMa0d1dERjajVVYl9EZ1VxMEVvT2hLelVoaWRXcUVLTzBrSmlMejIyd2xDM0NFcUJQZnBNc2JDTXYxZVlmS3J0dUgxSHFqX1czSkJEcEHSAboBQVVfeXFMTl8zTE9Gd0ViazlzTUctellORHo4eHZQOTBBdWVxSktRMURoUWpOZGszNVV2SXp6MzlSejZmZEMxNkJ2UnIwWE1ud3dhajVuNXR1WFUyYzZPSU92RE5EX2l4R0hIeC1LdGk1U3g3TGtHdXREY2o1VWJfRGdVcTBFb09oS3pVaGlkV3FFS08wa0ppTHoyMndsQzNDRXFCUGZwTXNiQ012MWVZZktydHVIMUhxal9XM0pCRHBB?oc=5",
     "pub": "Sun, 30 Aug 2026 03:16:52 GMT",
     "src": "Pulse 2.0",
     "trig": false,
     "geo": false
-   }
-  ],
-  "fundamental": [
+   },
    {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 18:07:23 GMT",
-    "src": "SpaceX",
+    "title": "Data center backlash scrambles US midterm politics - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjQ0eWZxcmVxcFR1enJIV3R0c0RqNWhTTDZFQk12MjRkQmdWTTNnR0FPRDg3QnhvTVhwbXJ2dE5yUTJjNUVGMnp3ek11Q2VGRG5DeGFaWWQ1NTgyaWkwcUVHU1FPTGQ4QV9mbU9Wa2Y3TWNpN2tuQ3ZNVjNXQmpFcVluWlRTVHlDMTJxQlhPaHZXUmh6UTNYZnJBUWZGMllxUjFBNWJfcG9PQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 03:04:00 GMT",
+    "src": "ABS-CBN",
     "trig": false,
     "geo": false
    },
+   {
+    "title": "NBIS Stock Tanks Amid CoreWeave Decline — What Does Retail Think? - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNcXE4QkV4a0RqTEpmSVpRV0RaSTJXejlYUE1FMGY4WlZBVW42SzFxZ0NfOTlBNlJxbEpPTkV2QmpqWjRFTHU4R3dGTi13dC1MTnUtMkdGclNoYXF2c2c5Q3pyTTlLSWVzeVYzX01iX0pLZ3ZNLThWSFR4VjBjdkVucWxublVWM0FEZ21semQtTWh6YWNVTHE0N2k0S2hsNk5kQzdUdEZObWZFS2R1cU15Mm9EMDVETU04UVBxVmVabVY2VlRC?oc=5",
+    "pub": "Sat, 29 Aug 2026 18:32:59 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   }
+  ],
+  "fundamental": [
    {
     "title": "Sony accuses Anthropic of 'brazen campaign' to train Claude on its music — and wants up to $150,000 a song - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQY1dOTkh6UXNpOE9KQi1RU3pCTnlNNE9sS1JjQmdlQUxtaWpJNWZMdVNHUndvYWNVRlpSRTlCVEFCNXdLdjhCR1BfNTVNVkVjRmsxaEU2Wm9IdVpXSm1KYlJfeVk1NElXWFlPbjhld0VaXzNzTkp2T0ZjT0hLTVI5RWV1eEQ2bU1mbmRSNThVVU82MjZ6VE1Kam91M0N6Y05ia2c?oc=5",
@@ -1221,9 +1213,25 @@
     "src": "Space",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "AWS Plans 2 Million More Nvidia GPUs for 2027–2028 - quasa.io",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQ24wRVlDX1NjcGNOR0h1NkJwOXZRY1BTQngzS0J5aGtyUkNIZVJGX2hhUVlhaVBRLTZrQldxOTZ3WFZsTlF1WVMwMUhYQ0xRT2haaU1BajJ5YjVZYmdpYU9jS3A5b1R1NDBEV082S29NZE41R1h1dWpjaFFkMTd0LU1BV09SeGdjMDkzckJ4dDhQcE1o?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:20:00 GMT",
+    "src": "quasa.io",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "US forces strike Iranian rocket launchers on Strait of Hormuz in first military action in weeks - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi9AJBVV95cUxNTzU3SDh0RktPdDFmcG8zTFYwcmFtVXRncE9TYU11czJLSTdLYTQwRzJLWjc4VHI5bTkwemUxTWxFV0psR0JOVWJFWXBldHdQLUtSR1JSYlhYUUFpUXpRUmFLdVNjMENvbGlyQldfRC1sRTJHWHdQOVNSWXgxWnE5MHlLQ0R1ZUptSWRlcXNSQmNzUXI3ZWItZHBhZzljSXF0OGtOUlZ5cXVfUmh0SFFfNktJLVZlQzJ0NktTOVZXNjcxNjJDaHZjbzhPV1lNdERraklhb2ZHaXNxbGd4Ui14b3d0dy1HZjlQQmU3UGx2RjI1NHBHY2ItWGNhdlZ4REtjU2s5b1B5OUM2UFBIZE5fWTNhTlFEeldKajVQOWdFZlNWWkRlcXltZVBBVXFkSnJCRFpVVEFQU0pwLU5qbVVSV2lOOUREbHlDNjhzLVh5MHlkaWpjUjItRGhDZVpmdVBaa0VaR3FXbExZZUlzRkRIQTh6d1M?oc=5",
+    "pub": "Sun, 30 Aug 2026 20:21:51 GMT",
+    "src": "The Economic Times",
+    "trig": false,
+    "geo": true
+   },
    {
     "title": "US forces strike Iranian rocket launchers on the Strait of Hormuz in first military action in weeks, US official says - KSWO 7News",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2ZtRjk1TDF0aVdjd01taVFqQkNCZ2tpUDFHYnpJejFMaGJlWjloV3FOQ0cxekVhZ3JiYWZBZEhZaWNybV9xV0pCc3dRZHdhRkFMR3UtcGdQYVVHcnlmT0J3WW9rV3VLU2hVblc5YWQ5SjlDRlhDSGFILW5Lc2otSjV4dzRJMHNVeUVST1NRaE4zMDE0TFRRSC10dWtQYjA1UG8tY19DNmVmSHM2NjFhX1RRUEtzMnM2aU9ZN2wzV0lDeVFNOWJGMDJYdTRfQQ?oc=5",
@@ -1263,14 +1271,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Fed awaits key inflation data before September rate decision - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPbmttMW9LRXh5a1NIY2pRRzVsVmE4NXYyTXdFR0pVYUtEaWZpMmhOdTEtVlM4UnBweURZU1VyOGJVei04cXZiSzZyTTFiVk5UanNJRVBRZ1BCOFpDejg2YXZjdkgtYTl0VUJRcTVuT3QySWlDVU1kOUFOSHQ5R0xpZktYU1NrdEx2NXVFZThjMnlmZw?oc=5",
-    "pub": "Sun, 30 Aug 2026 10:35:41 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1307,17 +1307,17 @@
     "geo": false
    },
    {
-    "title": "Solana Price Prediction: Is SOL Ready for Its Next Big Rally? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWnNROXltWUl4Mjhvd3ZoclhKVzEyT2FaY3EzbmpuUFpJcDZQdzM0cFNQSHlYQmw4dHhUZXJjNDgteTZiV0ZjN2J4UUpXM2VFTnZVS1FocmZKMDN3Y3VuY3p2NE9xbzNjc3hXVkZpZUROZDF3THNDYkREZ2xrWVY1ZEM0QmdhT1JCcmxaRW9SZnpOYmVLNUcwN3B1TktMQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 11:31:36 GMT",
+    "title": "US Copper Index Fund (Ondo Tokenized) - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83c2JNV0o5NXdRb2Q3a3QzeVVSV0p3dWtRSmFydnpRaTA2MC1OYmV6UW9lb0E3bnd6Wm85eVJYbWdxQVFLQ1hIUlhYcVlJUFFIVFlpcmZzQXFXT2pQNmNENlNMd1ZvamhpTDVGSnBvYy1PREozeE80OUdSYw?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:52:15 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US Copper Index Fund (Ondo Tokenized) - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE83c2JNV0o5NXdRb2Q3a3QzeVVSV0p3dWtRSmFydnpRaTA2MC1OYmV6UW9lb0E3bnd6Wm85eVJYbWdxQVFLQ1hIUlhYcVlJUFFIVFlpcmZzQXFXT2pQNmNENlNMd1ZvamhpTDVGSnBvYy1PREozeE80OUdSYw?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:52:15 GMT",
+    "title": "US Copper Index Fund (Ondo Tokenized) Analytics - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdzBoNjB3aElCZHN1ekVLNEJuNTJ3QmtQeHVfNHhMQkpNbElQYzd1ZEdxcVdBNzNqVUVKVUNtc0hBOGs1ZUxoRTB1UXdOS2ROX1hmc3ZRRzBPeDlvdlJjY29KeS03Mi1OM3BBaGVLOVlFaTJTTjl3aDNDVVV2SWNZb2F4aw?oc=5",
+    "pub": "Sun, 30 Aug 2026 05:50:16 GMT",
     "src": "CryptoRank",
     "trig": false,
     "geo": false
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78865.52
+   78743.02
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -1729,7 +1715,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 미-이란 군사 충돌이 지정학적 긴장을 고조시키는 가운데, 신용시장은 안정적이나 Fed 인상 재검토 신호가 금리 재평가 압력으로 작용 중입니다. AI 인프라 파이낸싱 확대(NVIDIA Blackwell 관련 $2.4B 조달)로 capex 사이클 지속 모멘텀은 유지되고 있습니다.",
+  "text": "호르무즈 해협 미군 작전으로 지정학적 긴장이 고조되는 가운데, 금리 인상 가능성 상승이 신용스프레드(2.63%)와 저평가 지표(CAPE 42)에 반영되고 있다. AI 인프라 자금조달은 활발(NVIDIA Blackwell용 $2.4B 파이낸싱)하나 데이터센터 백래시 우려가 제기되고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,7 +1725,7 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 1,
+   "geo": 2,
    "capex": 5,
    "news": 16
   }
@@ -2442,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T20:21:53+00:00",
+  "checked": "2026-08-30T20:32:05+00:00",
   "openai": {
    "found": false
   },

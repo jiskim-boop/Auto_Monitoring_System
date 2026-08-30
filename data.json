@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-30T19:52:04+00:00",
+ "updated": "2026-08-30T20:02:36+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": -10.36,
-   "chg5": -5.87,
-   "sma20": 19.53,
-   "sma50": 20.08,
-   "sma200": 21.81,
-   "high3m": 22.89,
+   "chg": 0.0,
+   "chg5": null,
+   "sma20": 17.48,
+   "sma50": 17.48,
+   "sma200": 17.48,
+   "high3m": 17.48,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 20.54,
+   "regClose": 17.48,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78810.3,
-   "chg": 1.26,
-   "chg5": -0.2,
-   "sma20": 71060.02,
-   "sma50": 67015.42,
-   "sma200": 69500.72,
+   "price": 78884.03,
+   "chg": 1.35,
+   "chg5": -0.1,
+   "sma20": 71063.71,
+   "sma50": 67016.89,
+   "sma200": 69501.12,
    "high3m": 80257.54,
-   "reg": 78810.3,
+   "reg": 78884.03,
    "pre": null,
    "post": null,
-   "regClose": 78810.3,
+   "regClose": 78884.03,
    "sess": "reg",
-   "mt": 1788119491,
+   "mt": 1788120118,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.1,
-   "chg": 0.49,
-   "chg5": 0.75,
-   "sma20": 158.88,
+   "price": 160.08,
+   "chg": 0.48,
+   "chg5": 0.74,
+   "sma20": 158.87,
    "sma50": 160.87,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.1,
+   "reg": 160.08,
    "pre": null,
    "post": null,
-   "regClose": 160.1,
+   "regClose": 160.08,
    "sess": "reg",
-   "mt": 1788119456,
+   "mt": 1788120094,
    "ok": true
   },
   "ES=F": {
@@ -1149,51 +1149,35 @@
     "geo": false
    },
    {
-    "title": "SOGIE: Hard questions over bill vs gender-based discrimination - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOEtGZVRGNkQ3Q0dhRG1aYmQ0Rzgwalp6Y1BvRnUyc1hKcGFhOExrWFRXZ1BEcjNSQU5SRFYzbHJEbXB0dHRuMVB4SWU0WFEyY1ZXbEZUVGlNU1ZFcG5xd2tEeDJfa3NlaWpocVVzdkM0RDNOWFc4bWQ3WUVIcnBPMTR0QXZUbFRhUUFrbE1iNjJESjdsNDhNbTNTdm9ETFdC?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:38:33 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Batangas State U grad tops mechanical engineering licensure exams - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTC12dU5PTkNGZkRNOWZ3ZWhZU3pMbS0zSUpfNGtVV1FjWjFmY0VZcUpSU0Z3SUloU2dkSVdnTlFjRU1ENEYtVGhnbTItRUNEVWtjb3hMeGFSdTNRRExNR1FfY2N2bWdlUE5QNDhQZ1JFaTJUeEN1QmdqaFRHRXlxUGxmY2RhMjU2TGR5aEw3SXBDSE5QRUlGZzhKSFVfZjhObzFVSV93?oc=5",
-    "pub": "Sun, 30 Aug 2026 05:15:08 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Blue Owl Leads $2.4 Billion IREN AI Factory Financing For NVIDIA Blackwell Ultra Infrastructure - Pulse 2.0",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOXzNMT0Z3RWJrOXNNRy16WU5Eejh4dlA5MEF1ZXFKS1ExRGhRak5kazM1VXZJenozOVJ6NmZkQzE2QnZScjBYTW53d2FqNW41dHVYVTJjNk9JT3ZETkRfaXhHSEh4LUt0aTVTeDdMa0d1dERjajVVYl9EZ1VxMEVvT2hLelVoaWRXcUVLTzBrSmlMejIyd2xDM0NFcUJQZnBNc2JDTXYxZVlmS3J0dUgxSHFqX1czSkJEcEHSAboBQVVfeXFMTl8zTE9Gd0ViazlzTUctellORHo4eHZQOTBBdWVxSktRMURoUWpOZGszNVV2SXp6MzlSejZmZEMxNkJ2UnIwWE1ud3dhajVuNXR1WFUyYzZPSU92RE5EX2l4R0hIeC1LdGk1U3g3TGtHdXREY2o1VWJfRGdVcTBFb09oS3pVaGlkV3FFS08wa0ppTHoyMndsQzNDRXFCUGZwTXNiQ012MWVZZktydHVIMUhxal9XM0pCRHBB?oc=5",
     "pub": "Sun, 30 Aug 2026 03:16:52 GMT",
     "src": "Pulse 2.0",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Data center backlash scrambles US midterm politics - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWjQ0eWZxcmVxcFR1enJIV3R0c0RqNWhTTDZFQk12MjRkQmdWTTNnR0FPRDg3QnhvTVhwbXJ2dE5yUTJjNUVGMnp3ek11Q2VGRG5DeGFaWWQ1NTgyaWkwcUVHU1FPTGQ4QV9mbU9Wa2Y3TWNpN2tuQ3ZNVjNXQmpFcVluWlRTVHlDMTJxQlhPaHZXUmh6UTNYZnJBUWZGMllxUjFBNWJfcG9PQQ?oc=5",
+    "pub": "Sun, 30 Aug 2026 03:04:00 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Forget SaaSpocalypse And Buy These 2 BDCs Now - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSC14ZUZBWUl3MC1KRWE2VWFsWmRhZURXcmY0My1ONjRnVjVYUjJsVHB3ZVNiRnpFYVNvQWswZHUzM0dQWW5saXozWkhidHhMa3JMQjVPUWY1cWFBNFZsS0E1aTRvMFBtUW9wdnhzMzlhTGw0OXJxeDhseGVKbVBtQ2hWSkYyMTN2TWc?oc=5",
+    "pub": "Sat, 29 Aug 2026 13:15:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Trump calls in to NASA press conference to celebrate launch of Roman Space Telescope, a mission he tried to cancel - Space",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQQXhzdGlmWnZNWmdrYnladE9CMTZVOG9QM29ndk1FNFJGMjRyMWFIN1lPYzYxTU5Id19wVDBXWmtDNTZOWkNidlFxQkV0MUdVZWhOZWM4QmR4NDZIZEE3akJjMHU5SXU4bWFacUhqc1BXMF9EZFhHaGRFRkRaVzNiNm1IZXRZMFFQSFpiRzh1LXRWNTRxUHB2N292djhjVWVidVA2TWZIazBMcWJRdkd6RW9pWjdocGNlbDJ3c3VmcTlqcXdZZHFYUGlYQVZHenVVNmNwNHktQnRscjNMYllqb0MyZW9EYUs4?oc=5",
-    "pub": "Sun, 30 Aug 2026 19:00:00 GMT",
-    "src": "Space",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "'What a glorious dawn launch': Why the Roman Space Telescope's picture-perfect liftoff beyond Earth is such a big deal - Space",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNVUMzaWF5MkhybG5UellVcWg2eEgzSWd3MUFlLVFFOTVkV1VhUUp4QmFvTFpCSTRqdjRYQ3Z6b1dZQ09zWUczUG5qOEJMQzNXZjNFbEF5R3ZhTVdUSlVpZnVhZDZjRWlrbFpadVd2MGJxTFVOUGhPWUw4U29rRTh4V1FONmdyMW9oVThQcWxidm1DeVFrVzFkZTBZR1ZobEg4aC1zUkc5WTUxQmJibGU0b3FKOXc4QlZqT2E4MzFUYkJhZmlXaVQ5a1ZPMWRXQ2dMSVhJYThoeXRIMnhDaFl3?oc=5",
-    "pub": "Sun, 30 Aug 2026 18:44:59 GMT",
-    "src": "Space",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Roman Space Telescope Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 18:07:23 GMT",
+    "pub": "Sun, 30 Aug 2026 18:31:27 GMT",
     "src": "SpaceX",
     "trig": false,
     "geo": false
@@ -1221,9 +1205,33 @@
     "src": "The New York Times",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "SpaceX to build its largest-ever, $100 billion spaceport in Louisiana - Planetizen",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQa3RGV09fQkRlLTY0ek43dy0wVFJ5OG1KWi1Bc3YwdVFTNXpSNUk3ZDhFc0R0VmhhWmd5ODFmZEdvWkhpcUpZZkljVy1ydzZuX05pSmNuVDRBZURYellaZ3lISE5zVVN4NE5LUExtdmJOUno3a29sM2dwTjE2OUxYU05WdEVIQVV2cVh5TkpQQXRYZUQ1Rk56RXotanJoZERpWHFGY201dkl3STlV?oc=5",
+    "pub": "Sun, 30 Aug 2026 13:00:00 GMT",
+    "src": "Planetizen",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX launches NASA's Roman Space Telescope on Falcon Heavy rocket (video) - Space",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOaU03dXREZG5wLU92THY2NFdQYzBhakN6MFlobUh5ZjZLRW9iWTdGZktFelBlbXhsSUVheGdqUTEtNWxrTjR5V09aQzUzRkUtc1pNUkZ1TzZFdGV6dnN5M21xOER4N3F4RC1wS05sWUpuTkRyUHNlMjkzXzJ5SnM0dXdyano2Y1hMZWRsSGM1U3BaOHdaYkthYTNJdjZ0UWM2MkdOSTBxVWx3WnBVT3VzcEdla09yUmpWcXgzNnJ2bTNjSmZacm1ZZkhOT3F1LVVVbXZRbWh2dURyamw2TGt3MmRmcno3MzI5ZEZTYUFWcw?oc=5",
+    "pub": "Sun, 30 Aug 2026 12:56:57 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Bitcoin, Ethereum and XRP Prices Brace For Jobs Report Week as Fed Decision Looms - CryptoRank",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxObjM5aWdGR3ZYaDdwNElnc2l6a3VqTlo1THN6RGxRUnZPSV82TmEtekJPMmtRWmVJYy1OVzRVdFJHajlMLTNGQlRVSkdsYVNXQWZzVTZjWFRRenFya3BUSXVYelRiRlVzV1h3bUktN29ldzhWZDZRbFI2T3daWXgydmNULXBCSXptc3kyM3hJM254WncwVTRPMWVpYzdtUzdrREY2ZFdlYXJwSXdXNlR5TU9udThkMTVEMHc?oc=5",
+    "pub": "Sun, 30 Aug 2026 18:25:20 GMT",
+    "src": "CryptoRank",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Fedwatch Turns Hawkish With 57% Odds of September Rate Increase - Bitcoin News",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPMGVvNzlpM2pieUNqRkg5dmJVVjRJTmlkdzR4dTNJNWhvM3JpNmk0YVM1eVNPT2dlSzc4czRsTE1TT3E1LWZWM1VtUUJoLVBFb19FLVZPUjhRM0RlNUIxbmM4bUxiTHJjZVF3QmczMkctSzVXcnBDZ0JPdzN5aVUyTy00Z3IwTXdpRzR3VkQzQlNiUlp0ZW15V0RBYzI?oc=5",
@@ -1233,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Bitcoin, Ethereum and XRP Prices Brace For Jobs Report Week as Fed Decision Looms - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOV2xTeF92TjJmTi1QNTdYRWJWQkt5M3g5TWQ0WTROb1M1NExpd3JYdnNPekw0bVQzdjZxdmhqMmZhOGpjUHdseWhaekQ1NDk4RHlGcUx3cmF0Y0lVclJTQ2pYRDl5WnJIZHA3c2RudVNrUTBoMW9KTUFvX2E1WkZKdDRKRmd5TUlGWE9WRFJuZFBpQksyYWg3cV9aQ0RfV1FHbVJZT3dBUjBfWDRmOVhzMnpQV0RtZi14dUw2MDNsdzNfTVZtNmZrX1VvQ29VRURuNElwWTNtNA?oc=5",
-    "pub": "Sun, 30 Aug 2026 15:51:38 GMT",
-    "src": "TradingView",
+    "title": "Fed Rate Hike Odds Rise After Warsh’s Jackson Hole Speech - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNVzRNdXJXQjFJM0NNV1VramhzVFJHdXRxcmNlNlNxQTB0ZmxsN04wZ2JCUllCeHAxQmpnMUZFSHJDc0p6c1RQcDA1bEhrRUpDWW95Y2l5SzI0Zm15aDBwWEtvYm5SUUZYREo2RGllaC04TUl5WmpiTGhDY1g4OW5icUZUWXdEOEtnRmFyc3pwV3NOaFZLaHhUZ0VLQ0dwNU8yTnhQN2xrWEpxa25o?oc=5",
+    "pub": "Sun, 30 Aug 2026 13:23:10 GMT",
+    "src": "Forbes",
     "trig": false,
     "geo": false
    },
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOalprVVJWeE5qUlBuYWFRMzA4YUdzckllZnJYZE5WLUFDOTBGTFJzcVNDd0Q5RFJPTUs3ZG9ldF96MkhsZ05XVTR0dHV3eTV2TFlVd3ZuendWRFJLRFNvdi1SOHFXMHJGSm9BSHVlTjd5Z0NmbkdFZVFFNjhwbFhpQ3dnVXI0cEd6UXl2TmZncWMyR3Ywd3FKNXBWeTRKUFJ2WnVmd185ei15WmloLXV0Vnpmb9IBuAFBVV95cUxNaEFGcGwxNzJ3RFEyTG04T1d6ZWl3cEpZWmF0dXljcGdOUWc2dm05RDFwYURjVU5aZkFaVnlvb3did2JuYWxtVjI3MDYzRFN6MlpRTm1SenJQeDdUcnB0aU45V2VlYk5SU3E2dEpwajRWajhqT19TaFZlSW5OVFF2ME5aRml6cHVVenY1MXBqVG45YTljLUNyMXBtVVM0eGthUXhQVk9YTEc4em1ITEYxMjZ4d193MFJ2?oc=5",
     "pub": "Sun, 30 Aug 2026 05:21:59 GMT",
     "src": "Al Jazeera",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "American Century Short Duration Inflation Protection Bond Q2 2026 Commentary (APOIX) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOT1IycDI3eUpOOU40c1FDdWRTaHgyZWJYcGJESXV4Z1ZCTUdOX2hqLTRkS2s0UTl6ZUYwT01oMzBWWWF3ZzVhT2hFVW4wMkJIeER2SEhRM0UzZGNqN0xsNzJxT1A2c2pVYmlaMGNWUjN3bWlZTjQzLUVnVWlGRUx5ZjNKR25LMU5vQVlCSFFRQTlKZFBtYmNvdUw1WmdsQlJRb0FZYUpjTDNnWE5FcUZfcnZnaXlPVjA?oc=5",
-    "pub": "Sun, 30 Aug 2026 02:15:00 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Solana Price Prediction: Is SOL Ready for Its Next Big Rally? - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQWnNROXltWUl4Mjhvd3ZoclhKVzEyT2FaY3EzbmpuUFpJcDZQdzM0cFNQSHlYQmw4dHhUZXJjNDgteTZiV0ZjN2J4UUpXM2VFTnZVS1FocmZKMDN3Y3VuY3p2NE9xbzNjc3hXVkZpZUROZDF3THNDYkREZ2xrWVY1ZEM0QmdhT1JCcmxaRW9SZnpOYmVLNUcwN3B1TktMQQ?oc=5",
-    "pub": "Sun, 30 Aug 2026 11:31:36 GMT",
-    "src": "CryptoRank",
+    "title": "Japan's Yen Crisis: Why The BOJ Can't Save It I Morti Non Muoiono (H9iRBGA4xS) - Mshale",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBFcTBnXzdiRFFrUEphZ3oxYlBXZlNlY1BfWldQeTAxZXhTNFB6RlBiVDYzdzNSYXNFYUNoSl9NcHVzWTVCX2hRRlVoNTRmaVhLVU9YeTdlSGtURXM?oc=5",
+    "pub": "Sun, 30 Aug 2026 10:00:48 GMT",
+    "src": "Mshale",
     "trig": false,
     "geo": false
    },
@@ -1550,7 +1550,7 @@
    157.58,
    157.89,
    159.22,
-   160.1
+   160.08
   ],
   "uso": [
    129.09,
@@ -1610,23 +1610,9 @@
    62763.32,
    64904.69,
    63024.32,
-   78814.99
+   78884.03
   ],
-  "vixts": [
-   0.844,
-   0.79,
-   0.891,
-   0.77,
-   0.898,
-   0.755,
-   0.868,
-   0.917,
-   0.956,
-   0.833,
-   0.794,
-   0.818,
-   0.703
-  ],
+  "vixts": null,
   "hyoas": [
    3.27,
    3.42,
@@ -2212,10 +2198,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-28T20",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-28T21",
     "v": 2.73
    },
@@ -2402,6 +2384,10 @@
    {
     "d": "2026-08-30T19",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-30T20",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2443,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-30T19:51:49+00:00",
+  "checked": "2026-08-30T20:02:22+00:00",
   "openai": {
    "found": false
   },

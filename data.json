@@ -1,5 +1,5 @@
 {
- "updated": "2026-08-31T06:51:54+00:00",
+ "updated": "2026-08-31T07:03:04+00:00",
  "prices": {
   "NVDA": {
    "price": 217.55,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.48,
-   "chg": 0.0,
-   "chg5": null,
-   "sma20": 17.48,
-   "sma50": 17.48,
-   "sma200": 17.48,
-   "high3m": 17.48,
+   "chg": -10.36,
+   "chg5": -5.87,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.81,
+   "high3m": 22.89,
    "reg": 17.48,
    "pre": null,
    "post": null,
-   "regClose": 17.48,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1787948101,
    "ok": true
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.6,
-   "chg": -0.1,
-   "chg5": 0.61,
+   "price": 99.62,
+   "chg": -0.08,
+   "chg5": 0.63,
    "sma20": 99.49,
    "sma50": 100.4,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.6,
+   "reg": 99.62,
    "pre": null,
    "post": null,
-   "regClose": 99.6,
+   "regClose": 99.62,
    "sess": "reg",
-   "mt": 1788158481,
+   "mt": 1788159120,
    "ok": true
   },
   "^IRX": {
@@ -898,35 +898,35 @@
    "ok": true
   },
   "^KS11": {
-   "price": 6820.1,
+   "price": 6820.02,
    "chg": 0.46,
    "chg5": 1.84,
-   "sma20": 6633.06,
+   "sma20": 6633.05,
    "sma50": 7114.55,
    "sma200": 6875.58,
    "high3m": 9114.55,
-   "reg": 6820.1,
+   "reg": 6820.02,
    "pre": null,
    "post": null,
-   "regClose": 6820.1,
+   "regClose": 6820.02,
    "sess": "reg",
-   "mt": 1788157880,
+   "mt": 1788157950,
    "ok": true
   },
   "^KQ11": {
-   "price": 834.44,
-   "chg": -0.47,
-   "chg5": 2.6,
-   "sma20": 824.74,
-   "sma50": 821.22,
+   "price": 834.29,
+   "chg": -0.49,
+   "chg5": 2.58,
+   "sma20": 824.73,
+   "sma50": 821.21,
    "sma200": 996.21,
    "high3m": 1050.03,
-   "reg": 834.44,
+   "reg": 834.29,
    "pre": null,
    "post": null,
-   "regClose": 834.44,
+   "regClose": 834.29,
    "sess": "reg",
-   "mt": 1788157880,
+   "mt": 1788157960,
    "ok": true
   },
   "GLD": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78001.03,
-   "chg": 0.22,
-   "chg5": -1.22,
-   "sma20": 71019.56,
-   "sma50": 66999.23,
-   "sma200": 69496.3,
+   "price": 78126.82,
+   "chg": 0.38,
+   "chg5": -1.06,
+   "sma20": 71025.85,
+   "sma50": 67001.75,
+   "sma200": 69496.98,
    "high3m": 80257.54,
-   "reg": 78001.03,
+   "reg": 78126.82,
    "pre": null,
    "post": null,
-   "regClose": 78001.03,
+   "regClose": 78126.82,
    "sess": "reg",
-   "mt": 1788159084,
+   "mt": 1788159723,
    "ok": true
   },
   "USO": {
@@ -978,35 +978,35 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.87,
-   "chg": 0.34,
-   "chg5": 0.61,
+   "price": 159.8,
+   "chg": 0.3,
+   "chg5": 0.57,
    "sma20": 158.86,
    "sma50": 160.87,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 159.87,
+   "reg": 159.8,
    "pre": null,
    "post": null,
-   "regClose": 159.87,
+   "regClose": 159.8,
    "sess": "reg",
-   "mt": 1788159088,
+   "mt": 1788159730,
    "ok": true
   },
   "ES=F": {
-   "price": 7709.75,
-   "chg": -0.16,
-   "chg5": 0.52,
-   "sma20": 7737.16,
-   "sma50": 7603.36,
+   "price": 7710.5,
+   "chg": -0.15,
+   "chg5": 0.53,
+   "sma20": 7737.2,
+   "sma50": 7603.38,
    "sma200": 7302.05,
    "high3m": 7822.5,
-   "reg": 7709.75,
+   "reg": 7710.5,
    "pre": null,
    "post": null,
-   "regClose": 7709.75,
+   "regClose": 7710.5,
    "sess": "24h",
-   "mt": 1788158481,
+   "mt": 1788159117,
    "ok": true
   },
   "NQ=F": {
@@ -1022,87 +1022,87 @@
    "post": null,
    "regClose": 29513.25,
    "sess": "24h",
-   "mt": 1788158488,
+   "mt": 1788159124,
    "ok": true
   },
   "YM=F": {
-   "price": 53505.0,
-   "chg": -0.15,
-   "chg5": 0.03,
-   "sma20": 53726.35,
-   "sma50": 53030.94,
-   "sma200": 50580.26,
+   "price": 53520.0,
+   "chg": -0.12,
+   "chg5": 0.06,
+   "sma20": 53727.1,
+   "sma50": 53031.24,
+   "sma200": 50580.38,
    "high3m": 54494.0,
-   "reg": 53505.0,
+   "reg": 53520.0,
    "pre": null,
    "post": null,
-   "regClose": 53505.0,
+   "regClose": 53520.0,
    "sess": "24h",
-   "mt": 1788158480,
+   "mt": 1788159117,
    "ok": true
   },
   "GC=F": {
-   "price": 4490.7,
-   "chg": 0.28,
-   "chg5": -3.23,
-   "sma20": 4434.54,
-   "sma50": 4214.11,
-   "sma200": 4480.0,
+   "price": 4488.0,
+   "chg": 0.22,
+   "chg5": -3.29,
+   "sma20": 4434.4,
+   "sma50": 4214.06,
+   "sma200": 4479.97,
    "high3m": 4640.8,
-   "reg": 4490.7,
+   "reg": 4488.0,
    "pre": null,
    "post": null,
-   "regClose": 4490.7,
+   "regClose": 4488.0,
    "sess": "24h",
-   "mt": 1788158489,
+   "mt": 1788159131,
    "ok": true
   },
   "CL=F": {
-   "price": 85.7,
-   "chg": 2.76,
-   "chg5": 0.81,
+   "price": 85.55,
+   "chg": 2.58,
+   "chg5": 0.64,
    "sma20": 82.55,
    "sma50": 79.48,
    "sma200": 88.37,
    "high3m": 96.02,
-   "reg": 85.7,
+   "reg": 85.55,
    "pre": null,
    "post": null,
-   "regClose": 85.7,
+   "regClose": 85.55,
    "sess": "24h",
-   "mt": 1788158489,
+   "mt": 1788159131,
    "ok": true
   },
   "HG=F": {
-   "price": 6.68,
-   "chg": 1.87,
-   "chg5": 1.3,
+   "price": 6.69,
+   "chg": 1.95,
+   "chg5": 1.38,
    "sma20": 6.6,
    "sma50": 6.39,
    "sma200": 6.17,
    "high3m": 6.71,
-   "reg": 6.68,
+   "reg": 6.69,
    "pre": null,
    "post": null,
-   "regClose": 6.68,
+   "regClose": 6.69,
    "sess": "24h",
-   "mt": 1788158491,
+   "mt": 1788159129,
    "ok": true
   },
   "ZN=F": {
-   "price": 108.02,
-   "chg": -0.09,
-   "chg5": -0.4,
+   "price": 108.03,
+   "chg": -0.07,
+   "chg5": -0.39,
    "sma20": 108.55,
    "sma50": 108.89,
    "sma200": 110.0,
    "high3m": 110.27,
-   "reg": 108.02,
+   "reg": 108.03,
    "pre": null,
    "post": null,
-   "regClose": 108.02,
+   "regClose": 108.03,
    "sess": "24h",
-   "mt": 1788158487,
+   "mt": 1788159114,
    "ok": true
   },
   "EWY": {
@@ -1141,9 +1141,9 @@
     "geo": false
    },
    {
-    "title": "REVIEW: Asus ExpertBook Ultra pushes the limits of on-device AI - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPYWZHalZaTlJYa2lfVXRTdF9mQWNaSGlzeWxpczRPQzlkcThWcGRndjg0c1pDQ1dRSEJaNEpReXFhaFNKTTFMd2tVOHgyRGNoYnhOcGdZTS1kdXA1bUZjNXE5WXphTEdBQjRtcHFXeHJOU0p0QXE1OE54LVNZbGl3ZDdGVGtGaTN0am9NQ2VhZzkyaHJFRG1McWZpbW0zcVd2dEdwR3hMa2VJV1NWNkxUWGdDdG8tRmthZXc?oc=5",
-    "pub": "Mon, 31 Aug 2026 01:00:00 GMT",
+    "title": "John Ternus to lead Apple into the age of AI - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNa0hVWm5YYkZiR0lBY2k2ZkVHcXBJNF9kbEpJc25kY0xXdDg2Q28tYWtwLUJFMTJnczc3T0dVWnZ6WkJBVUpiaUlIN19Qei1ia0VoaENsOFZHbGVpQkZWeDJ4MWQxUjRUR2lhNjBLR3ZXT011dXN1Y3FhMWg5WUd4RGUtRXBmcWdHcDdFczduZjJweHBtWjlwcGlhSHhSYjVta3c?oc=5",
+    "pub": "Mon, 31 Aug 2026 02:17:00 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1183,18 +1183,18 @@
     "geo": false
    },
    {
-    "title": "Roman Space Telescope Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE0yLWdieFJLakhJV012S0pjNFpfWjFVNktfU2tuYW12eDZDMG9KUkhzVmd4Y0lvTTA1b0ZTbTJOcE1kYkFmVHNQR0pDWTlyQQ?oc=5",
-    "pub": "Mon, 31 Aug 2026 06:03:10 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "[SMM Computing Power Midday Review] A800 Highest Price in Yangtze River Delta Up 13%, H200 Five-Year Fixed Price Benchmarked to Spot Price - Shanghai Metals Market",
     "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPTXZXQlJOa3BYelluU29wdkN0Vm1WRjd1WFNmUjdWYzczMV9UUW4wanFGeWVqcGYwdlRSTUVSQkxrNDF0WHJZSTFZX3pMWGNpS3pVOGV6cmh6dndrai04V3pyM043alJnSUFWNmt5SHhiTHo4SGdUNmFPRUFtcXIydW15bVo4TjE1NmNKaW5mT3FnV0FiSmowLXFHZHNhT29mX2FacWJtMERZNkp6a1BJWmI1cW84THNvSWpxeUJaZGpXLTh6TUlNSmRuQ2RLbElqcXpieFRqbk9NVWNjbzZxVFZKSDVaVzk3TzhFTFlXY0lZcUZ6VC0tdmRDdWJGQWduNWFRTGFrZldkZzk0b1VJ?oc=5",
     "pub": "Mon, 31 Aug 2026 05:00:49 GMT",
     "src": "Shanghai Metals Market",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Exclusive | The $5.5 Billion Perk SoftBank’s Data-Center Venture Offered to Land OpenAI - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNzAwSUdZUG94Mk5nbE5nODgtYlBITDNKQ3NuYmlHeUg1ZGJreGxZSWtndjMwdDlmZkNyYzN4akNaY1hXQ0RvYjdHbklvblFKRW82QnFqcVZuMDg2VmhLLVdiQXpJTEpfMDdKdE43YkhZUkpRTmlLNm1ib1lBeHZHMnNSeEdUMEJFWUtnU01yWUs2QUJQaTZtSktPU0lGZkJEcWMzLWlUOGlPeGJNRmFF?oc=5",
+    "pub": "Mon, 31 Aug 2026 03:55:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1243,7 +1243,7 @@
    {
     "title": "US-Iran Tensions Worsen Again Over the Weekend; Oil Returns to $90, Gold Drops Below $4,400 - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOZkdCSTN3N25uZ0Q3cFBfV2dIX25ieDBFQVl6aTdoM0FTaEpwMEVSQmFUTnJ1WlBtc19MeWRxd1ZwZXFrOV9VVjRzR0xLYXhTYlgxNjRfbmMwYWZ1U01XMXZKdVVyNnpGVGpLcGZST1RZU1lEUzdpLXdKbUwyZEtjV1hSblZMQXlrb0RKT3pzdTAyek9DLWc5SjVPd2F3NVE4RS1FTVFHM2E3RHhMSi1DRU1xZ0FpcDYwZEJzbDBXZFpnOEJhSUp3NFpqd25PVjUtdmc?oc=5",
-    "pub": "Mon, 31 Aug 2026 06:26:52 GMT",
+    "pub": "Mon, 31 Aug 2026 06:27:40 GMT",
     "src": "TradingKey",
     "trig": false,
     "geo": false
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Bond investors wary after Warsh speech fuels rate-hike bets - The Edge Malaysia",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1Oa0VZM0x3R1h1WldVdFBwYzZ4Rk5VZnluWUpyU2RncmM0SDM0RlpfTEhPU1FoVUVWRnRJWG12NW04bFdaaDNleTRKTkgxbWxO?oc=5",
-    "pub": "Mon, 31 Aug 2026 05:05:58 GMT",
-    "src": "The Edge Malaysia",
+    "title": "ENG stock trades without fresh US quote as broader markets move on macro signals - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWlJEUm5TUnZpWm1zb0xBcTJfeXM1aEVGWXZpWkkwV2w2YmpxSjlfbzZxTUdhSHJBaEtFQ1VxNVYzdHl2M194dnpMb25mWERiZl9KeGloRmFXcUpRSjhQUmlheXgxLWluVUhTWHlkS2s1RzFreGlsdXd4YlJjdHVaQjFxcDN1WFF0WVUxSnJpT3dLdTl6OEI1dkUxbTVXQjlWYTB4Z2l3NGVBOVdHWUN3VktsMThwdU5aU29talBSTjZEOGg3MmFPUHF3MA?oc=5",
+    "pub": "Mon, 31 Aug 2026 05:21:34 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
@@ -1279,6 +1279,14 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1sN3FoYmI3VHZiMEFyc0JqbXZyWW1HWmpqekJ6UFh4WjF4a3o4SU1yVVpYMDVNWEUxakc0SFFjenY4YXdEaHpfd3cxMlFDd2JyTV9EZWs5dDQyOUdObUE?oc=5",
     "pub": "Mon, 31 Aug 2026 06:35:04 GMT",
     "src": "Mining.com.au",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump Says Venezuelan Oil Will Refill U.S. Strategic Petroleum Reserve - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONzVjNDZGV1YydVJQVmxCSi0wempyWXNWLXdwRjA4SUlwSVhBSFhfMnFhQVROT3NlUC02Ml9MRXVWMk1kRGxSUGI2RW1qODZfYmF1bjRMbGVBcVFSSjBRd2J1YlRqTWFqNTdkMG1Pd0Q0T3ZhZlhIcUJFbHpQdU9GMzI5TW5kRkZvU3ZWUFUtdXBLdF9qckRvNEZ3LXJOaFp3TDNVRzVFYXg3OUJoeEc2RDBvYXBMUlBRRmhBQ0o2TGlEQdIBxwFBVV95cUxNZW1IQk52Q0JKYlg0Tlg3WmdOUFdLa3c5aG9OQVVRam5pTU53QU9tQXNSTUVwTV82RVBrVUp4WHRab01VQ3BBNEYwMjZ5bHNfcVdhaDNjLWM1YnBUNmg2WVE5WW1WZzJQYjBVdFMtX1NXa3V5SDZ2UEtxY3BhRm5iRjFFczhtb3RnN2dyVkExcEp6ZzJEeEZ4SERSZFFyQzgtdUFWRE5hVkE5aVQtLTZsYXlsemtrZjJUODhWMFJRMWtPRXVjS3RB?oc=5",
+    "pub": "Mon, 31 Aug 2026 05:35:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOcS0yWXNKOE5jODMtOS0wWUxmV3ZXNFVhOXJvblRSc1lPWU5nR2VNWXctM3lRc3dIUW5sRDFyWXRqckFMME41QlBMazIzcno0MWJvTXpiaS1Rekw3RVQ4dTEycHdYTzE1VGFGZFowcEtOMjVyUTdaVUlNVHc5ckhKbmdicU01a3prTzdNVVFHVzFLM1pBcmFQNA?oc=5",
     "pub": "Mon, 31 Aug 2026 03:17:38 GMT",
     "src": "CME Group",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Surge as U.S. and Iran Exchange Strikes - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPLXFxQW1zX2d4SWhLbUhmUWsteDhNakJ6OXFaT0tqY3hTVTFUMFIySG5zR3JKcHEzallnOE9uU3dydFduN1JxcWxBSVd1OVdxTHBtdEY0eG1qaUpnM0xzeXZvYzdfNXkxQXdUczUxaTdsWEh0Q2dkNE9wbF84ZXJ3SS1pZHo5T054UXBkNjhzV0cyQVozQWlF0gGcAUFVX3lxTFBjTjBnUkVNeWVWc09Fa3NBcVJlX3M2VkZEcUJjanRFV0JkSWQyVjBfSzlUMFFPZlpHRnN0N09QaHktUFBOc3ZxZ2Y1UENkMEF1ZmhuS3BiY3J0YWNmak0tcHo4cHdfYVpUTmRxNkh0Q21zaUg5cmpiR1lwaVhiSXVNV3BKaTBaQ3pLQnZGX3Z2NENHclhhVkRFcTI2SQ?oc=5",
-    "pub": "Mon, 31 Aug 2026 02:30:06 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1463,13 +1463,13 @@
  },
  "charts": {
   "vix": [
-   15.74,
-   15.4,
-   19.44,
-   16.4,
-   18.41,
-   15.57,
-   17.16,
+   16.05,
+   21.51,
+   17.68,
+   17.28,
+   17.65,
+   16.13,
+   16.5,
    18.65,
    18.67,
    15.86,
@@ -1505,7 +1505,7 @@
    99.89,
    99.82,
    99.65,
-   99.6
+   99.62
   ],
   "bizd": [
    12.63,
@@ -1550,7 +1550,7 @@
    157.58,
    157.89,
    159.22,
-   159.87
+   159.8
   ],
   "uso": [
    129.09,
@@ -1610,9 +1610,23 @@
    63482.0,
    64844.89,
    62818.65,
-   78001.03
+   78098.43
   ],
-  "vixts": null,
+  "vixts": [
+   0.86,
+   1.104,
+   0.81,
+   0.811,
+   0.861,
+   0.782,
+   0.835,
+   0.917,
+   0.956,
+   0.833,
+   0.794,
+   0.818,
+   0.703
+  ],
   "hyoas": [
    3.27,
    3.42,
@@ -2196,10 +2210,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-08-29T07",
-    "v": 2.73
-   },
-   {
     "d": "2026-08-29T08",
     "v": 2.73
    },
@@ -2386,6 +2396,10 @@
    {
     "d": "2026-08-31T06",
     "v": 2.73
+   },
+   {
+    "d": "2026-08-31T07",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2427,7 +2441,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-08-31T06:51:42+00:00",
+  "checked": "2026-08-31T07:02:46+00:00",
   "openai": {
    "found": false
   },

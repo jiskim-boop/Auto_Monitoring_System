@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T21:22:05+00:00",
+ "updated": "2026-09-01T21:32:20+00:00",
  "prices": {
   "NVDA": {
    "price": 217.44,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 261000.0,
-   "chg": 1.56,
+   "chg": 0.38,
    "chg5": 1.56,
-   "sma20": 254075.0,
-   "sma50": 272920.0,
-   "sma200": 254846.37,
+   "sma20": 255150.0,
+   "sma50": 271060.0,
+   "sma200": 254895.6,
    "high3m": 362500.0,
    "reg": 261000.0,
    "pre": null,
    "post": null,
-   "regClose": 260000.0,
+   "regClose": 261000.0,
    "sess": "reg",
    "mt": 1788244224,
    "ok": true
   },
   "000660.KS": {
    "price": 1693000.0,
-   "chg": 2.42,
-   "chg5": 1.32,
-   "sma20": 1599650.0,
-   "sma50": 1929500.0,
-   "sma200": 1643717.74,
+   "chg": 1.14,
+   "chg5": 0.89,
+   "sma20": 1605950.0,
+   "sma50": 1908080.0,
+   "sma200": 1644112.0,
    "high3m": 2919000.0,
    "reg": 1693000.0,
    "pre": null,
    "post": null,
-   "regClose": 1674000.0,
+   "regClose": 1693000.0,
    "sess": "reg",
    "mt": 1788244221,
    "ok": true
@@ -626,8 +626,20 @@
    "ok": true
   },
   "ARCC": {
-   "ok": false,
-   "err": "HTTP Error 400: Bad Request"
+   "price": 19.91,
+   "chg": -0.8,
+   "chg5": -0.7,
+   "sma20": 19.85,
+   "sma50": 19.12,
+   "sma200": 18.81,
+   "high3m": 20.19,
+   "reg": 19.91,
+   "pre": null,
+   "post": null,
+   "regClose": 19.91,
+   "sess": "reg",
+   "mt": 1788292801,
+   "ok": true
   },
   "OBDC": {
    "price": 11.37,
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.67,
-   "chg": 0.24,
-   "chg5": 0.68,
+   "price": 99.68,
+   "chg": 0.25,
+   "chg5": 0.69,
    "sma20": 99.48,
    "sma50": 100.4,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.67,
+   "reg": 99.68,
    "pre": null,
    "post": null,
-   "regClose": 99.67,
+   "regClose": 99.68,
    "sess": "reg",
-   "mt": 1788297087,
+   "mt": 1788297704,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77042.94,
-   "chg": -1.92,
-   "chg5": -4.01,
-   "sma20": 73151.51,
-   "sma50": 67873.32,
-   "sma200": 69645.03,
+   "price": 77079.14,
+   "chg": -1.87,
+   "chg5": -3.96,
+   "sma20": 73153.32,
+   "sma50": 67874.05,
+   "sma200": 69645.22,
    "high3m": 80257.54,
-   "reg": 77042.94,
+   "reg": 77079.14,
    "pre": null,
    "post": null,
-   "regClose": 77042.94,
+   "regClose": 77079.14,
    "sess": "reg",
-   "mt": 1788297695,
+   "mt": 1788298306,
    "ok": true
   },
   "USO": {
@@ -966,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.14,
-   "chg": 0.25,
-   "chg5": 0.58,
+   "price": 160.16,
+   "chg": 0.26,
+   "chg5": 0.59,
    "sma20": 159.11,
    "sma50": 160.81,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.14,
+   "reg": 160.16,
    "pre": null,
    "post": null,
-   "regClose": 160.14,
+   "regClose": 160.16,
    "sess": "reg",
-   "mt": 1788297696,
+   "mt": 1788298312,
    "ok": true
   },
   "ES=F": {
@@ -1113,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave (CRWV) Stock May Be Cheap On Sales Yet Weak On Broader Checks - ca.finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN05hd2tJY0UzMHNYYU5zaUMwWFpjVWJVMEdsc1F4NjkyM1F2MTFsUlY2NHI2RzhTQUd0RmxmTldXSG1kZk9mc0R3THB2a3ZDMm9TMDZjaWJfWlU1Nmg0eE1MYklLVFM4Nk02MGkzZ1UwZmlPeXZtTFRybk44dHNhV0RZZ2FDUQ?oc=5",
+    "title": "CoreWeave (CRWV) Stock May Be Cheap On Sales Yet Weak On Broader Checks - Yahoo Finance Singapore",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmFPMGpjdnZaZUxoaHlJdjR2dHd4eFJ6OWptSUNtSkhpbU9RRldtTk83TWZYVHpsT0xXQTdtaDFLRy1RSUR4bGxRUFlOdC1xY0VQVUt0LWp4NjJkNUVIR1NWa3djUHBVZFNjY0JvdW9PWF8wS1JaMXdVdC1ZaEhGWFp1RjlkUQ?oc=5",
     "pub": "Tue, 01 Sep 2026 18:12:44 GMT",
-    "src": "ca.finance.yahoo.com",
+    "src": "Yahoo Finance Singapore",
     "trig": false,
     "geo": false
    },
@@ -1145,10 +1157,10 @@
     "geo": false
    },
    {
-    "title": "ABS Innovation Summit Puts AI And Robotics At The Center Of Maritime Operations - oceannews.com",
+    "title": "ABS Innovation Summit Puts AI And Robotics At The Center Of Maritime Operations - Ocean News & Technology",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS3JXS3hxeWJhNEJVczF5S2dmcl9NUHoyVE9RNG5CbXktUHdqZkR4RkdZWGhCSU8xcl9PVzZZSzM0TXNTOWlad1F2TE5VZVRhQWRMei1BZkJwdU9lZEpoZ3RIdzNnZ295cGVicXJKX3BCV1JzYk5IN1JiNjdNZng4RTgxMHhSTk10bDg1ZWw1OFVDUXhjV1NWdkx0Z044UGhNSUU1RXhKa3ZpeTBCTkFDOEhfT3BTeDU3clE?oc=5",
     "pub": "Tue, 01 Sep 2026 13:45:23 GMT",
-    "src": "oceannews.com",
+    "src": "Ocean News & Technology",
     "trig": false,
     "geo": false
    },
@@ -1163,10 +1175,18 @@
   ],
   "fundamental": [
    {
-    "title": "OpenAI winds up on nearly every side of a data center developer's business - businessinsider.com",
+    "title": "How tropical storms, hurricanes can affect launch sites as SpaceX plans Louisiana project - KATU",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOR28zcEw2OEp1NHk2S2lUR29QUTluemU1VWU4ME5GM2Znek10dUJQUUxGZkdMdzJ1X0g1VXZmS0JUZDRQNkx4R0hCR3RUaUtmeFVrOVdqWDF4SmhiQWd4LWxaNHpzVlFfblQxNzNqWnJ1UWtTbXZZQklKZGN5VEpGRUIxSXRnX2lfZ2VWWFBJbmxrek1naDF0RDJ4b0JMZ0tWRm1URA?oc=5",
+    "pub": "Tue, 01 Sep 2026 21:10:56 GMT",
+    "src": "KATU",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI's entanglements with a data center company go on display in a new filing - Business Insider",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQSlkyTFFPVlRwcDF6S3ZCdU0zSDR6czBsaXUtdjh3SmJldFF2a0FXRnQxY213dEFORHI4cjZDZWp4RTlvOVNwRTBSSmNScW1VWm9hVG1hbUlMVFAwOEEwTGoxTWJ2NG9xbjBObzk3TC1QeXFkc1JvLU55ZkpjN2pVLWptU09JbHVmN21DY1Fn?oc=5",
     "pub": "Tue, 01 Sep 2026 21:02:14 GMT",
-    "src": "businessinsider.com",
+    "src": "Business Insider",
     "trig": false,
     "geo": false
    },
@@ -1179,8 +1199,8 @@
     "geo": false
    },
    {
-    "title": "Anthropic launches Claude Fable 5.1, inks $35B cloud deal with Lambda - SiliconANGLE",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNZU0tWHBNMzdlbHVvVWZRTlF3MDR6dVdzREc1VF9pSWxlaXBXMVNyaVozTEN6VTVNYkExaTYyT2ZfRkxUcDE3WVVleUpjVnNHRnU4UjU0SEJuRUdIdXRJYnV4ZnF3dHRqUHg4NFdTcmU5aWhHVng0VGZSUlQ4alhVNkVtaWxYVVBUaUhwN1M3TFQ1RmJuYk1qS2twOTVxcW5LWXB3blJuTQ?oc=5",
+    "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda - SiliconANGLE",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVpGSE5BbjNsX0dYRXhJVVQ0dTZRTG1wYWh6TkEyNDZHaGFLQXJCblRjRmRjdkVYZGhieVVSVzZlZzFDR2F1cnBESG8tZXZ3NlROU05Zd2xySmJrTWFXZWNzMmI2aTVDQU9JejFlck5IXzk1cXZ5TkhmSU16LVRsWWZDSENLTlpiNXpmRVhZOF8wT1VXZTJySGFoOUdJMVljeExqbHp0LXBudw?oc=5",
     "pub": "Tue, 01 Sep 2026 20:50:00 GMT",
     "src": "SiliconANGLE",
     "trig": false,
@@ -1195,14 +1215,6 @@
     "geo": false
    },
    {
-    "title": "Anthropic releases new models, cuts agent costs - Axios",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOT2phY0R2b1N5eTVJRXNMM21ubUlFYUhaWjZCY0VDb3pFMXJsSWlxOWhsQ0RXRmVVM0RTejN0OVp4TEtVRm02SlRydW5yS2YzV1dtbVNGeVZocDNaeTIwYzNVSnBST1hSbGZvR25Ba3IwaWowTklveUhyZHo0M21HSEI3V1Mtbk1kdkgwYWwtamt5UzYtenZfVQ?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:17:20 GMT",
-    "src": "Axios",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Anthropic's Claude Fable 5.1 promises better coding and research at up to 45 percent less - the-decoder.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRnp1eXc3c2lFVmFzbDZLb3p6aU5JN0lqS2F6SDROdGhyVWV4VU1zOHotLXNmQkhxUUNvbHFicUZxcnBYTzBETkdKZ0ViMUlUS2paTkY5TmZZSzcwM29KRE44UWRIcU5CMldPRUR6U3o1R3RxSlRhQW95VHNqYnYyMjNoY2RuZDV3VjV6NmVEQzg0N1B6bEhvSDM4d0ZOUmxjV2owcmZRdm5mUEVNMG9WT0xxYw?oc=5",
     "pub": "Tue, 01 Sep 2026 20:05:44 GMT",
@@ -1213,6 +1225,14 @@
   ],
   "macro": [
    {
+    "title": "Wall Street closes sharply down on geopolitical risks - Breakingthenews.net",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjQ1RXExOGRJYTlSSnp5a0VTQmxoQmVScFJ4bTNvdFM0OFFGcDBkZmVrbEphVkp6bW5zazlibTd3LXNZY2xlV1BFN0lZTkZUd3IwQWpiLXZaTmhZTW9oZ3lnQ3NKbDV0LWdsUm1FeWtXR1oyTjhnZGltSVB0d2hJb2k2TlZkT0M0aTFVNGVpS094RHppR0JNY25xMWZobW8?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:00:00 GMT",
+    "src": "Breakingthenews.net",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Expose the Gap Between Geopolitical Risk and Physical Supply - Investing.com UK",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM2NwNjZUY2REbjFQQThUVjVvTWVfSkY2UEp4MHZZZzVVLWpRZ2x1Y09ZSks2eHNhOHQ0OG9kTk8yN3JabVRIeG9objYtektEOVk5WUJ2YjluMmlNbVl2ckpKSGM3eFJNZ2FvT3BtNEtNQTlZdlhtbGZWdEp4NEMyWkNka25JR01UZURjQ1QtQkdZb2lMMWhBbEhIdmxGYVRpZnpGOWh4d3MyR3JVcXdlcjBUYXBYdw?oc=5",
     "pub": "Tue, 01 Sep 2026 19:37:00 GMT",
@@ -1221,26 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Bond Market Dynamics: Is Appetite For AI Debt Reaching Its Limits? - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFZ4Q2g4cVA0a3lLSkF3bWlod0ZKM0xMWkd6YTdUT01tUWNhWXBRM3VTdW1Wa2g0Z1VhZnBYTDQtZmJLNFVWOGM3ZnEydXhVRVJOd0ozM1E4TzlBQTZ5LUJvcl9KRUZpMUxYRDNhRFRub2llTWZHLVNXS2UxLUpIZU9TT2o1X0J4Q3NLeTFpYVV0c3h0eDlQZVN3?oc=5",
-    "pub": "Tue, 01 Sep 2026 19:20:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US reportedly attacks residential area in Iran’s Hormozgan Governorate: Fars - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWhKRW0zTWl1ejliOEhvVHVNTElqeXdVcENaV011M2g5aHpHWFNYUkV2c21YSE4yNHNzeE8zLUdOZkZPLVluMjcyV1Q4SF9YUWg5ZEJmcjJUNjczUkZQbTNma3UyNUFIT0p6ZzFvN21oWjdoMG5iUXJVMWhLWG9ucmI4djc5RGZaTVZqM01QQWxtMHJla0tteFFoS2I5M0xQOWNvSw?oc=5",
     "pub": "Tue, 01 Sep 2026 18:55:30 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Calamos Short Term Bond Fund Q2 2026 Commentary - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNGw0NjBVUmZQYVdDTERvRGJtQ1NGejlCY1VkWW4xVTBkTlE4d3VfVWZGQmFJS1B5T2RjVnNocTk4V0VtM1NoY19sdDhyN3lqazh6Q25ERld1RjNsYS1PSXZ3VjJRamdlQkNqdTFvXzJMOG5LSkZMbWtLVktLbkhLejU1bktfdl90YkNOcnZwT1hnZw?oc=5",
-    "pub": "Tue, 01 Sep 2026 18:52:00 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1259,14 +1263,30 @@
     "src": "calcalistech.com",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "Canadian dollar weakens ahead of BoC rate decision, 10-year yield hits a 2-year high - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbFJCQmpwWVg1UkZ6NHdGVmY5Z3hsVDZCS0pjaDR5am1SQlE3c1J3amtyTGdyRGRYNkZpUDJRTzAwX3ZxanJYYlBWdWhfN0lMaGdVci02QlNRdXVOMnN2UkdCNllhOWhyaVRiUlJkNW1FUzJ5dzBJUjBhM25OZlFrci1WYXBKbVlyUU9kTnFGSGhqUGVYajNVN0E1eFRrejlxbUpXdlFfeE5XUGttd0hJMm95aEx1Z0VidXJjZzBiRTQ?oc=5",
+    "pub": "Tue, 01 Sep 2026 17:41:10 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Wall Street ends lower on higher yields, oil prices - detroitnews.com",
+    "title": "U.S. Crude Inventories Drop amid Continued SPR Draws - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzZadWFkUDZmVXU3dXB1amhIaXg4d3dtOHlaalF0VWl6dlU2SzZaclN0TXIxSXhzRkxqUkRhdlFmNk1mYWNxNnhacU55Q19HN3NlWjlQV205ZFBfZGlZX2JpaWZ0QXdpaGotU21GUDEyNTRnWW5CM194UHowbFpUNHhWSC1Oa0I3QURuYjhscTRwbFRjVXNrSFVRM01DaV9pSGt2REFIQzJWQdIBrwFBVV95cUxOWnl6NHBsaVBKa0ZoLWxIcUk5UFpablprbmRVdHV5RXBuMHV5OXNNMjdaVDBSOHpCeVhsNHFDSlI4ckQ5bDlFel8xbUlxYzN6NmtjOWU0c0F0ZzdnenZ6bjYyVzR4c3hnVnphOG52X0JxeDhWZl8zamVrMVBQZWxGQnU1Y1RkWC1kOUwyeVVoU1pWSW5MUkR4VjBTbzRFbDBHdEdZcFpKTnJZcFBVc25v?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:56:27 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Wall Street ends lower on higher yields, oil prices - The Detroit News",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOTWZSbllyYjFOcl9EQ2RMODFfSWZpQm15R29aRTZ2MUlJWkxOTmFvMGF6Mm5yY2NlU2k5Q1U1aUVUcjlwQ09pcDh3V3VwYk1obTJGNW5JQzJXTU41Q1d3ZlJLMFk5dXZVelNfa0tMTnFSd0MxMHgyUVl6NGpfVHpUbkMxWTRwUnQxUUlHc1l5QkRNQ1ZicEt3YkVsMHpCWGxkZmo3eHRoX1Q4ZjI3UWY4aWl6TEJ0Zkd5amVfQ0p6cW8yRElJdEE?oc=5",
     "pub": "Tue, 01 Sep 2026 20:42:00 GMT",
-    "src": "detroitnews.com",
+    "src": "The Detroit News",
     "trig": false,
     "geo": false
    },
@@ -1287,14 +1307,6 @@
     "geo": false
    },
    {
-    "title": "#japan10yyieldhits3%firstsince1996 Community Insights & Market Sentiment | Binance Square - Binance",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOZXhibmVzMklGODh3djhRcTB6LXlfaF9fMGdWWC1ORUtMRXVWMVJ6ZnIwcHpodjlwX3Fza2NNUEI0QnZwZ1ZSZ0p0YTBXV2ROWG44TW1HU2NXZDZZVU9Sa0ozOGdDd2FRbG52MS0yYkxBMEg4Y09tWUEzZkJFdVZRT2tMM19TUmM?oc=5",
-    "pub": "Tue, 01 Sep 2026 18:58:36 GMT",
-    "src": "Binance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US Dollar Technical Forecast: DXY Breakout Failure Threatens the Yearly Uptrend - FOREX.com",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3IyUlZKdV9KNUU1aHJiNnZPMHRDUlFaaTk2NFhGODlJdFdIbXExdzV0S0JBbVc0dEdHMnNzNkdZR0Y5cjJsZERCZHgyc240TVRtWDZFNDhid0FfcDhBdmRJTm9IVUJkVjFqVUFoeUljY0kxeUxTRWxKWkJCNm1XWWlnZ1pLNVVuTlB4RjJ5czJEVVc0LWNHSEhrVEl4bGRaOXRacFZmV3M1dVpxS0NtYUoyTW1tbW5pVHhDVzdJS0NTZ0U4ZGZUa1BiVUZ6Sjg?oc=5",
     "pub": "Tue, 01 Sep 2026 18:30:00 GMT",
@@ -1303,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "U.S.-Iran Strikes Put $100 Oil Back in Focus - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQMm1FS0l1RF9kMWhsQzZneE05NVRJMjVlMGg0U2p4QjlCT2hGM0NNQ0lWSFNfcUtEVVNyaDVYZWRLa2F3aHVwRGFfT0hLdjMzNWNjY3hTMENVYjFkMUljcXZoVlZIdzd2a1IycHI1ZGVmalF0OEt4Z1dTSDhZVnpvNW9UNGpseENUdnRpRNIBkgFBVV95cUxPNHBUV2NwTXNDZDM2MjRhWHFaM1h6ZGhSNTFRcUpyeGwtVmdubzEyNV9XaVUwNUV6Z1JrZDAwZHZBVTJFWkt1OHZicE5QbGRNMVhfTkp3bmMtY19vQ3ZaanZsVDM5MFZKM3ZNakdUOGVvNHhkbmJybFlSeVB0eFYyR2lsOHktNl9nXzd4ZHdzX0g2QQ?oc=5",
-    "pub": "Tue, 01 Sep 2026 15:10:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Tue, 01 Sep 2026 16:08:35 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1493,7 +1505,7 @@
    99.89,
    99.82,
    99.65,
-   99.67
+   99.68
   ],
   "bizd": [
    12.71,
@@ -1598,9 +1610,23 @@
    64055.95,
    63551.88,
    64680.71,
-   77037.07
+   77054.15
   ],
-  "vixts": null,
+  "vixts": [
+   0.823,
+   1.119,
+   0.83,
+   0.807,
+   0.904,
+   0.824,
+   0.81,
+   0.847,
+   0.95,
+   0.879,
+   0.805,
+   0.807,
+   0.891
+  ],
   "hyoas": [
    3.2,
    3.28,
@@ -2407,10 +2433,8 @@
   22
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "ARCC"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
@@ -2418,7 +2442,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-01T21:21:52+00:00",
+  "checked": "2026-09-01T21:32:08+00:00",
   "openai": {
    "found": false
   },

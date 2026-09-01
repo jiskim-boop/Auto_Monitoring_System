@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T13:11:59+00:00",
+ "updated": "2026-09-01T13:22:01+00:00",
  "prices": {
   "NVDA": {
    "price": 220.78,
@@ -18,8 +18,20 @@
    "ok": true
   },
   "AVGO": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 370.34,
+   "chg": 0.42,
+   "chg5": 3.23,
+   "sma20": 389.96,
+   "sma50": 385.29,
+   "sma200": 382.22,
+   "high3m": 481.57,
+   "reg": 370.34,
+   "pre": null,
+   "post": null,
+   "regClose": 370.34,
+   "sess": "reg",
+   "mt": 1788206401,
+   "ok": true
   },
   "AMD": {
    "price": 470.72,
@@ -710,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.88,
-   "chg": 6.43,
-   "chg5": 2.78,
+   "price": 15.98,
+   "chg": 7.1,
+   "chg5": 3.43,
    "sma20": 15.17,
    "sma50": 16.45,
    "sma200": 18.85,
    "high3m": 22.22,
-   "reg": 15.88,
+   "reg": 15.98,
    "pre": null,
    "post": null,
-   "regClose": 15.88,
+   "regClose": 15.98,
    "sess": "reg",
-   "mt": 1788267376,
+   "mt": 1788267976,
    "ok": true
   },
   "^VIX3M": {
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.62,
-   "chg": 0.19,
-   "chg5": 0.71,
+   "price": 99.63,
+   "chg": 0.2,
+   "chg5": 0.72,
    "sma20": 99.47,
    "sma50": 100.37,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.62,
+   "reg": 99.63,
    "pre": null,
    "post": null,
-   "regClose": 99.62,
+   "regClose": 99.63,
    "sess": "reg",
-   "mt": 1788267684,
+   "mt": 1788268283,
    "ok": true
   },
   "^IRX": {
@@ -818,7 +830,7 @@
    "post": null,
    "regClose": 3.77,
    "sess": "reg",
-   "mt": 1788267384,
+   "mt": 1788267984,
    "ok": true
   },
   "LQD": {
@@ -871,8 +883,8 @@
   },
   "^TNX": {
    "price": 4.78,
-   "chg": 0.55,
-   "chg5": 3.13,
+   "chg": 0.5,
+   "chg5": 3.08,
    "sma20": 4.69,
    "sma50": 4.61,
    "sma200": 4.47,
@@ -882,7 +894,7 @@
    "post": null,
    "regClose": 4.78,
    "sess": "reg",
-   "mt": 1788267384,
+   "mt": 1788267984,
    "ok": true
   },
   "^KS11": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77803.15,
-   "chg": -0.95,
-   "chg5": -3.06,
-   "sma20": 73189.52,
-   "sma50": 67888.53,
-   "sma200": 69649.14,
+   "price": 77780.0,
+   "chg": -0.98,
+   "chg5": -3.09,
+   "sma20": 73188.36,
+   "sma50": 67888.06,
+   "sma200": 69649.01,
    "high3m": 80257.54,
-   "reg": 77803.15,
+   "reg": 77780.0,
    "pre": null,
    "post": null,
-   "regClose": 77803.15,
+   "regClose": 77780.0,
    "sess": "reg",
-   "mt": 1788268289,
+   "mt": 1788268888,
    "ok": true
   },
   "USO": {
@@ -966,105 +978,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.13,
-   "chg": 0.01,
-   "chg5": 0.63,
-   "sma20": 159.01,
+   "price": 160.09,
+   "chg": -0.02,
+   "chg5": 0.59,
+   "sma20": 159.0,
    "sma50": 160.85,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.13,
+   "reg": 160.09,
    "pre": null,
    "post": null,
-   "regClose": 160.13,
+   "regClose": 160.09,
    "sess": "reg",
-   "mt": 1788268292,
+   "mt": 1788268891,
    "ok": true
   },
   "ES=F": {
-   "price": 7645.25,
-   "chg": -0.7,
-   "chg5": -0.61,
-   "sma20": 7730.61,
-   "sma50": 7605.23,
+   "price": 7644.25,
+   "chg": -0.71,
+   "chg5": -0.62,
+   "sma20": 7730.56,
+   "sma50": 7605.2,
    "sma200": 7304.64,
    "high3m": 7822.5,
-   "reg": 7645.25,
+   "reg": 7644.25,
    "pre": null,
    "post": null,
-   "regClose": 7645.25,
+   "regClose": 7644.25,
    "sess": "24h",
-   "mt": 1788267691,
+   "mt": 1788268292,
    "ok": true
   },
   "NQ=F": {
-   "price": 29110.25,
-   "chg": -1.36,
-   "chg5": -0.57,
-   "sma20": 29592.51,
-   "sma50": 29382.17,
-   "sma200": 28041.18,
+   "price": 29098.5,
+   "chg": -1.4,
+   "chg5": -0.61,
+   "sma20": 29591.92,
+   "sma50": 29381.94,
+   "sma200": 28041.09,
    "high3m": 30653.5,
-   "reg": 29110.25,
+   "reg": 29098.5,
    "pre": null,
    "post": null,
-   "regClose": 29110.25,
+   "regClose": 29098.5,
    "sess": "24h",
-   "mt": 1788267693,
+   "mt": 1788268292,
    "ok": true
   },
   "YM=F": {
-   "price": 52914.0,
-   "chg": -0.61,
-   "chg5": -1.36,
-   "sma20": 53645.4,
-   "sma50": 53041.54,
-   "sma200": 50596.42,
+   "price": 52924.0,
+   "chg": -0.59,
+   "chg5": -1.34,
+   "sma20": 53645.9,
+   "sma50": 53041.74,
+   "sma200": 50596.5,
    "high3m": 54494.0,
-   "reg": 52914.0,
+   "reg": 52924.0,
    "pre": null,
    "post": null,
-   "regClose": 52914.0,
+   "regClose": 52924.0,
    "sess": "24h",
-   "mt": 1788267692,
+   "mt": 1788268287,
    "ok": true
   },
   "GC=F": {
-   "price": 4394.9,
-   "chg": -0.82,
-   "chg5": -5.24,
-   "sma20": 4446.53,
-   "sma50": 4217.18,
-   "sma200": 4478.87,
+   "price": 4379.3,
+   "chg": -1.17,
+   "chg5": -5.58,
+   "sma20": 4445.75,
+   "sma50": 4216.87,
+   "sma200": 4478.74,
    "high3m": 4640.8,
-   "reg": 4394.9,
+   "reg": 4379.3,
    "pre": null,
    "post": null,
-   "regClose": 4394.9,
+   "regClose": 4379.3,
    "sess": "24h",
-   "mt": 1788267695,
+   "mt": 1788268295,
    "ok": true
   },
   "CL=F": {
-   "price": 88.03,
-   "chg": 2.65,
-   "chg5": 6.88,
-   "sma20": 83.17,
+   "price": 88.23,
+   "chg": 2.88,
+   "chg5": 7.13,
+   "sma20": 83.18,
    "sma50": 79.75,
    "sma200": 88.37,
    "high3m": 96.02,
-   "reg": 88.03,
+   "reg": 88.23,
    "pre": null,
    "post": null,
-   "regClose": 88.03,
+   "regClose": 88.23,
    "sess": "24h",
-   "mt": 1788267695,
+   "mt": 1788268294,
    "ok": true
   },
   "HG=F": {
    "price": 6.6,
-   "chg": 0.15,
-   "chg5": -1.58,
+   "chg": 0.07,
+   "chg5": -1.66,
    "sma20": 6.59,
    "sma50": 6.39,
    "sma200": 6.17,
@@ -1074,7 +1086,7 @@
    "post": null,
    "regClose": 6.6,
    "sess": "24h",
-   "mt": 1788267695,
+   "mt": 1788268291,
    "ok": true
   },
   "ZN=F": {
@@ -1090,7 +1102,7 @@
    "post": null,
    "regClose": 107.52,
    "sess": "24h",
-   "mt": 1788267692,
+   "mt": 1788268295,
    "ok": true
   },
   "EWY": {
@@ -1112,6 +1124,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Golub Capital: The 15% Dividend Cut May Not Be The Last (NASDAQ:GBDC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZURyY0wxRkZuMlB5UGg4bFBkTTJWNzM3SnUtWU42U3RqNzhDR3VXYjNqQXJ3dVQ0eWpsN0FDMWg3eWtTb2hkQW1DQS1jblJiOUMtZW5nZGhJOF8wY2lrTExkT0xhQTR2ZzZOa0gzSmRxNlZJMmFEdDdNallRTGExR0RUMkJpNU5RZkNueGxBckFGSVlhQXVFNUdR?oc=5",
+    "pub": "Tue, 01 Sep 2026 11:00:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "VH Global Energy Infrastructure kick starts its wind-down with £99m sale of Texas oil terminals - QuotedData",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVUhyWDNqN2lrYmZfYzdTWWd5T2F5UGdaSmpzejhRMkdHZ210bXJGR003UUVOdFN6RXA0SlY4Z2o1a09jY19NSUhvZEFiTm93SzlZR1YyWWwtY1dfME81bExJeXdLSm5OWDU2ZWFkdGVwUlNfamdFN2ZkaTViYWw4TV9NSm9YWVlzU1lmLVRES1puYmZsRkQ5dDFPUkdHU1F0U244b1BydklPSEk4TTFNQlNwMGRNdnBpeFZwd04taFlrOGhO?oc=5",
@@ -1145,23 +1165,23 @@
     "geo": false
    },
    {
-    "title": "CoreWeave's CEO Dumps Over 300,000 Shares Worth $27.3 Million - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOdGZ2RlVFcngxQmhZaVB4MERiWGIzM2lsUGVyb1o5YV9Dd3Uxa3JQRjNhN2FyTk5Hb1dSc2c1RTRTT09TM3FucUVwZS00YTJ6TGwyMl9UOXhqVXBzWDJaMkMwQkJXRTF5R0NhM2tfaml6YlFGLXZlZlhKRkFIX2U0azZFYWQzVTZtb3JxRmJoXzdkQU1FY1RjdlpGWkUzZ0FlQzRBa0lsc2VhT2tyMEtqbzdXcw?oc=5",
-    "pub": "Tue, 01 Sep 2026 05:06:00 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crescent Capital BDC holds at 0.600x NAV with 1... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQQ1lyWE5WZU16ZS1yUlJFN1FmdmVKUjI0WVc5T3VseUw1Y0xzSkFMdDdwdjMtWnlCTlplWVA4ODhxNVRRZ0ZXRF9Wa3ZxYUZxSDFwX3JCQ0NRQjR5RVVUMmZ1Tm5KdWJ4bkxtWlJWQ1BxS3VUNWxHQU53ZElmajUtMF9falpTc3B6a2c?oc=5",
-    "pub": "Tue, 01 Sep 2026 03:18:58 GMT",
-    "src": "Pluang",
+    "title": "Resilient OWL stock edges higher as dividend and NAV discount draw income investors - AD HOC NEWS",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWTJsNXVia2ozelNGdk1nN19DZHhCckhHa1hPQWY4dWhfSXVVd3VBVEZzRE9oOXNhN1JaLXhqT1Z4UTRZdDBTNmRoOUY1UXpNQzV0LVAyTHJweFVkWHV4Y0ZNWG02YXhjVnh4MTcwa1JiNDQxV2VjMjlPVDNabmRoYnpXdDZ0WmItSV9DLW1mdjRLNDRGM2dyWWRWaGtlQXBzMDFVTWdnYzhlbEVEaWcwS0ZXMTZmM2JZYXhmUXljVXM1UFZtS0pHc2R0dTU?oc=5",
+    "pub": "Tue, 01 Sep 2026 07:03:40 GMT",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SB Energy IPO filing: Nvidia invests $3B, OpenAI gets warrants - qz.com",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5NM3ZQMGVsM3BxY3VrREUtbzk3ZS1Wb0VNUlJVajRNZEpYZ0R1YnNRcFI2aEVScVdoZHBORlI3bUdLVlJncWJhMHJ5S05TVmFEUUNzdFVrV2NFUi1TdjFxUlZfTFNiWnpuV1E?oc=5",
+    "pub": "Tue, 01 Sep 2026 13:07:30 GMT",
+    "src": "qz.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OpenAI blames Apple security practices in trade secrets lawsuit - qz.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5DenF2TzRTcnZsV3FHQmtPdmhtUFlLWUhrVzVyS3EtajlGUEV6MVE0SndKRlEwWU1ib2JIemVTSUVabHhEYnFocDZxYUdMbDhIa0xiNU9aaGZ0RWtUekdET25hQ1ZIUjh4MXQycmJseUdVS3M0cEE?oc=5",
@@ -1179,10 +1199,10 @@
     "geo": false
    },
    {
-    "title": "How to Tell Whether Big Tech’s AI Spending Is Actually Paying Off? - coinpaper.com",
+    "title": "How to Tell Whether Big Tech’s AI Spending Is Actually Paying Off? - Coinpaper",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxObFhiaGRYaFE5THJpRWFxZ0hWeWx4clZ0MDlLcFRhY3Q1RHIzOUxQcTNIOW1GR0x0aElVNzVub2s2S0YydnVZWlJuRGFmSVhmbE5pQ0xsbW05R1RJbHpNd0dndDJCMnV6UWo0cnBILUw3ZTRFMW5Pdmt5eEc5TjNyNHVFX2RNMzhxaFNCbVV5RGRCWk9DVjk0?oc=5",
     "pub": "Tue, 01 Sep 2026 12:30:14 GMT",
-    "src": "coinpaper.com",
+    "src": "Coinpaper",
     "trig": false,
     "geo": false
    },
@@ -1195,19 +1215,11 @@
     "geo": false
    },
    {
-    "title": "Custom Silicon Kings: When to Choose Broadcom and When to Choose Marvell Technology - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNU04zN29JdlRKcG43aWo3bkQ4dE9sMjczb21OdzZuRXQtcWFMR3J2WWwwY2dQRUd2SVVKeHB3UkpNbVRKcGdsbXlqWXZ0MW1zRjItajJZMWVwT25IbEZPVmEtLUI4NkJKT3FyWkM5enl5SmFNbFVUSjNnYWtjTjdMODRneGdndXd4OHlZdXAxZk15SldYZ2ZTZW1Qb2xxeS1oZE5ZQnphcTQ4a1ZhVWpCUno3b0Z1X2h3N042WEY4ZmdCaEd1?oc=5",
-    "pub": "Tue, 01 Sep 2026 11:41:00 GMT",
-    "src": "24/7 Wall St.",
+    "title": "SB Energy Files for IPO With Backing From Nvidia, OpenAI -- Update - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOUW1wTS1rSGJZOGM0cDJGLWtmTWNPd2R5N28wdzZqWTh1WC00MVYxUlNmZ1FNaklDYVoxb1dGVXJJNlo3RTgtbzZjeFlUbTdjYk1HQVBfYzZZMWc0RkNBbFdHcEJmTklHdFczb0lGdTRvRTRXME1DZ0hKVGs1QVIzd2d1UnRTYS1KZF9UQWFNOWRmSVN0Qms5Y2QySWt3SUN1NDBSSHdHM1BIcEsyeDFiN1Vwc3B0UQ?oc=5",
+    "pub": "Tue, 01 Sep 2026 12:02:50 GMT",
+    "src": "marketscreener.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oracle India Reports Second Layoff Wave: Bangalore Engineers Wait for 6 AM Email Again - Tech Times",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQcllaYVhvZXFZUjRvN0F0UFdXNWxjVGtUWkRzWVNLeHdQNzZhVVRKcG9DNWhUTEV5VkM0a3laM3MwZ3AwbEJkeTVNM3NzRW1wb1hXX050UHdCQnh5MWVIcF93Ml90MzlNNUY4TldqdVJjMV8yMnlTRGhjX2lQUVo5Ym1Lem12OW43ajU2LVk4RmV2ZVhoa0VhR3doamZvZWVNQlBvY2Utb3NCeWZadXVnaG42MkVzSkRodlcwNHozelhBcWN1MFREdW1CQTdud3Y5NGc?oc=5",
-    "pub": "Tue, 01 Sep 2026 11:36:23 GMT",
-    "src": "Tech Times",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1229,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "【US Pre-Market】US Futures and Chip Stocks Fall as Global Bond Sell-Off Deepens; Gold Drops Below $4,400, Brent Crude Tops $92 - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNVTRyU0hiQXMxdHFkODNPYkhjVU01cHM1N3dHdmVnRVJxbXFOUjFKQno1c215RkJKLUIxaXlRd1ZQeVNNOFdEN2lTVlR3eEtUbzRFN25JTHgwZnM1ZHR0QVY4bGhkbTNneHRZMk43N0JpSnQ1cHJlN2VIN3JlZ1VDcjZqdEQxYnI0TnZMM2J3T3E?oc=5",
-    "pub": "Tue, 01 Sep 2026 12:08:18 GMT",
-    "src": "TradingKey",
+    "title": "Oil up about 2% as renewed US-Iran strikes stoke supply fears - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNXzNva1pxcDRaVGJ0WkYwOFJ2Zm8wNFBiMmkxLUVIZVJZaUV4WlRGNVRZbk1JZHdpMUpXbXJ6VHZsVUtzS2haZ0M2bDd4d3RTa19vTHZTOWc3MFlGaW1jU3gwMG13cFhFY0hOR2tWSjM1cWQzd2pfUEZFRlpSRWdEcmJ3NHdlM3BydlNkQUgxY3lMYjBybFMwZ1Vxcjk2clc3cHZKdWxtMHlFWHBMNDREaEJoZlBIc2U5TGMyWF9GaEZhX0JlMlA4THpn?oc=5",
+    "pub": "Tue, 01 Sep 2026 12:30:55 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1263,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "US Dollar Rebound Puts Gold Bear Pennant In Focus - Investing.com Australia",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOY2xybUVxLXI0MjVDUnZpakN4M3NZa25kSGwtUUNEcjZFczAwNFpnbGs2RHgtb29zeGs5RlhUclEydEotbG96TFdmOFQxQnJFTlA4OHFZbV93VFhZOFN5U0NDZkI2N0tEamRySGE4ekpBQmxJdFJaWGpteDB2Zzl2RlFoNVAwTXNRb2FlZ1pickVnLWdFbjhFb0pOZk5mTFEzSkdCS3Y1emc?oc=5",
+    "pub": "Tue, 01 Sep 2026 12:33:07 GMT",
+    "src": "Investing.com Australia",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "One Story, Four Markets: Oil, Global Yields, Tech and the Carry Unwind - Action Forex",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOS1MxWFYyOHdCeVAxOThvVGRNZTFhaHVLY2J0b1ZCa3FMUWR3ZEZQOWllM0RkdWxsUHdDaS1BZVdkQnpyX2R3NHlGNmdBNW5uaXpkaW9SSmpnb2l5ZDFOMl8xTTBHQWZ2d1FiRm1VaWNPbDdJOVRUMVB1ZXlNZmJFendZRlcwYmtXRUZyRlFwVjdPVU9NWmV5NGx1Q1phR2IzbUtWRmxYTkpuR3pLMUhWLTgwbVNsMmhDTU9aN1RvUVl0VWdxVDFsb2Q4RGZvUQ?oc=5",
     "pub": "Tue, 01 Sep 2026 12:20:35 GMT",
@@ -1279,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Two Supertankers Hit by Unknown Projectiles in Strait of Hormuz - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOa1ZUNHo0c1RXbkJhdlRFNVd5YzBhSXM5T0JCR25sRHdONHppYUk0UmxEVDNaem0yRFpCcXJqSl90d0tXb1piMDhFZEU3M041NHFBcllYVzRtb01PakhPV3p1RjF5ZEJvOWhXVmV4bm9XYll3bWVBZHozMm1pMzF6YXRubjkyY2R3Wm9wQl8tMnkzZnd2RXIyNEJ6NnJKaU04WUlGT1RYR2F4NmJMX0ZLOWpoaVpmVEFGUDdB0gHAAUFVX3lxTE9Mcnl4OWo5dk4tTnNYRkZrSGJ2S3BkdjhzUkdGcDQ2NU9qdl91VFpmVlFvVnFjMkp3RFU0Qm4zRmdhQ1hDWDVuZ0NtUklvcW5uSW1SQjU0ck5iWXE4VGdkTHNpZTN5RzdZazNjY0tCcnVRQ0xvNmVkMjFySWZDVFVhUFFFeWFBQ0NIWDk0cHlfYjB1Y1JTc2VQc0x2MjRITzRRczJQVVNQbzluWkszTVFVYU5wS00taFNwbTFxbUZmUg?oc=5",
+    "pub": "Tue, 01 Sep 2026 11:35:16 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Gold Price Forecast: Will $4,300 Support Hold Amid Fed Rate Hike Fears? - FXEmpire",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQXEtQ3BWSUhRLWlDbTV1a25Rd01lWXBtYTBJazQzVl9fWWVpRkh3bmFJTWktUzREZlNVaUJYQXFrWDdQWmp2cDlRckNlaWhjWjM5enE2VEpIOWwteEZGOGl3dVUtN21TZTNRcVI4Z000ZUdWc0EzZG01bXZ6aE5KdXNJN0RTWEt3bm8tNTZ1eGxiTFJuSGNSdmpNa1ZYRHQzb3RVYnpmQXdvUFVjNHRWOFhfVnZteVFXd1lCbmRRSkRieXVlT2o0ajRseDlVZHpucWc?oc=5",
     "pub": "Tue, 01 Sep 2026 10:30:00 GMT",
@@ -1291,22 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPdlFvUExxWldKSTJ0VWRfalMxUGZVUmJ4a3NicGR1ZDNZTGwwS1ZFZUZyZHJDSWdJR3FqWm1MTll5Zi03MWpIOFF5alduV3lzVU9TYWJCZklGQUpTelJGNDQxQ3g5X0ZwamZWVzhlX19FazdIbzRyZzlRSzF2VHVmUG44MkxtYnFiejk0VWJuMFdvVi1iMDhVU1dEbXoxaVdRWW8tX3ZoOEpYSGhHcjF6TtIBtgFBVV95cUxPYnpsay1FVkJzeDNIMGlZZTJhMUhXSmcxZDk4Q1hfLXQ1TlZhYy1lMFBzb25sSzRjQUNqVFZCWUdDSG9vbHF5by16WFRJSzRBTXJFaFRROGRfLUg4ZjVpQ0xNeTdOV0VaREZOUm5NX0FScmkwVTdsckdZRDFGNlZYVU9sbFBKOVh3bDRyNWprUzNaVUhCUU1fVElVQlVSTVRqZV9PTmRTYWVkUmNJdVctY00teW5Vdw?oc=5",
     "pub": "Tue, 01 Sep 2026 09:30:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Dollar Index Price Forecast: DXY eyes 99.75 confluence hurdle amid Fed bets, Iran risks - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS3NQQ242a2dEYjBVQzN1ZnExNkhjWEdZZE0xQlRJU2p0WDhGZm5rMUVnRDE5TU1zaENtc19XTHBfMHRqc29odXY1MmhIMjNTMEFlOEFzQlZ2R3pEWWpSMzlFXzRjWVp4TVF5QmdfYWp3cVE5RXRrbkJrNm5VWmRSalVvUHI1dzdOWnNJaURQSXlfMFpYR0FlaFBNaXlobDNuc01oRVUxUlRnWDlVNXVGWDQyWFpwXzZJYUtxWHYxQTNnemZlclhQc0x3?oc=5",
-    "pub": "Tue, 01 Sep 2026 09:04:29 GMT",
-    "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Tue, 01 Sep 2026 09:03:11 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1475,7 @@
    15.81,
    14.55,
    14.89,
-   15.87
+   15.99
   ],
   "tnx": [
    4.47,
@@ -1493,7 +1505,7 @@
    99.69,
    100.01,
    98.83,
-   99.62
+   99.63
   ],
   "bizd": [
    12.8,
@@ -1538,7 +1550,7 @@
    157.53,
    159.16,
    159.34,
-   160.14
+   160.1
   ],
   "uso": [
    135.5,
@@ -1598,7 +1610,7 @@
    64055.95,
    63551.88,
    64680.71,
-   77838.46
+   77787.57
   ],
   "vixts": [
    0.826,
@@ -1613,7 +1625,7 @@
    0.83,
    0.748,
    0.802,
-   0.773
+   0.778
   ],
   "hyoas": [
    3.22,
@@ -1717,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(이란 사태)과 연준 금리 인상 베팅이 맞물리며 달러 강세와 신용스프레드 확대가 동시진행 중이고, 변동성은 낮으나 구조적 리스크가 내재된 상태다. AI 캐팩스 과열로 GDP 왜곡 우려가 제기되는 가운데 기술주 경영진의 주식 매도와 구조조정이 증가하고 있어 사이클 과열 신호가 감지된다.",
+  "text": "호르무즈 해협 유조선 공격으로 유가 상승세를 보이는 가운데, 미10년물 4.78%와 달러 강세(DXY 99.6)가 지속되며 신용스프레드는 양호한 수준을 유지 중입니다. AI 인프라 투자는 엔비디아-OpenAI 협력(SB Energy IPO) 등으로 견고한 흐름을 보이고 있으며, 특이 신호는 없습니다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1726,12 +1738,11 @@
    "spy": 0.0,
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
-   "trig": 0,
-   "geo": 0,
+   "trig": 1,
+   "geo": 1,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -2421,18 +2432,16 @@
   22
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "AVGO"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 38,
-  "n": 34
+  "pct50": 37,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-01T13:11:46+00:00",
+  "checked": "2026-09-01T13:21:47+00:00",
   "openai": {
    "found": false
   },

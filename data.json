@@ -1,9 +1,21 @@
 {
- "updated": "2026-09-01T23:11:53+00:00",
+ "updated": "2026-09-01T23:22:14+00:00",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 217.44,
+   "chg": -1.51,
+   "chg5": 2.06,
+   "sma20": 219.03,
+   "sma50": 208.8,
+   "sma200": 202.6,
+   "high3m": 227.98,
+   "reg": 217.44,
+   "pre": null,
+   "post": null,
+   "regClose": 217.44,
+   "sess": "reg",
+   "mt": 1788292800,
+   "ok": true
   },
   "AVGO": {
    "price": 369.68,
@@ -312,10 +324,10 @@
   "NRG": {
    "price": 109.51,
    "chg": -0.55,
-   "chg5": -2.03,
-   "sma20": 117.14,
-   "sma50": 129.74,
-   "sma200": 140.1,
+   "chg5": -3.61,
+   "sma20": 116.85,
+   "sma50": 129.18,
+   "sma200": 139.87,
    "high3m": 149.36,
    "reg": 109.51,
    "pre": null,
@@ -440,11 +452,11 @@
   "URA": {
    "price": 43.94,
    "chg": -3.45,
-   "chg5": -3.83,
-   "sma20": 45.1,
-   "sma50": 43.03,
-   "sma200": 47.8,
-   "high3m": 53.42,
+   "chg5": -8.72,
+   "sma20": 45.25,
+   "sma50": 43.01,
+   "sma200": 47.79,
+   "high3m": 50.39,
    "reg": 43.94,
    "pre": null,
    "post": null,
@@ -616,10 +628,10 @@
   "ARCC": {
    "price": 19.91,
    "chg": -0.8,
-   "chg5": -0.7,
-   "sma20": 19.85,
-   "sma50": 19.12,
-   "sma200": 18.81,
+   "chg5": -0.1,
+   "sma20": 19.87,
+   "sma50": 19.16,
+   "sma200": 18.82,
    "high3m": 20.19,
    "reg": 19.91,
    "pre": null,
@@ -696,8 +708,8 @@
   "JBBB": {
    "price": 47.45,
    "chg": 0.19,
-   "chg5": -0.19,
-   "sma20": 47.44,
+   "chg5": -0.36,
+   "sma20": 47.45,
    "sma50": 47.43,
    "sma200": 47.27,
    "high3m": 47.75,
@@ -760,10 +772,10 @@
   "^SKEW": {
    "price": 149.23,
    "chg": 0.47,
-   "chg5": 2.46,
-   "sma20": 139.96,
-   "sma50": 143.23,
-   "sma200": 143.08,
+   "chg5": 4.16,
+   "sma20": 141.13,
+   "sma50": 143.38,
+   "sma200": 143.13,
    "high3m": 154.82,
    "reg": 149.23,
    "pre": null,
@@ -792,9 +804,9 @@
   "DX-Y.NYB": {
    "price": 99.65,
    "chg": 0.23,
-   "chg5": 0.66,
-   "sma20": 99.48,
-   "sma50": 100.4,
+   "chg5": 0.74,
+   "sma20": 99.47,
+   "sma50": 100.37,
    "sma200": 99.63,
    "high3m": 101.61,
    "reg": 99.65,
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77231.68,
+   "price": 77232.31,
    "chg": -1.68,
    "chg5": -3.77,
-   "sma20": 73160.95,
-   "sma50": 67877.1,
+   "sma20": 73160.98,
+   "sma50": 67877.11,
    "sma200": 69646.05,
    "high3m": 80257.54,
-   "reg": 77231.68,
+   "reg": 77232.31,
    "pre": null,
    "post": null,
-   "regClose": 77231.68,
+   "regClose": 77232.31,
    "sess": "reg",
-   "mt": 1788304280,
+   "mt": 1788304896,
    "ok": true
   },
   "USO": {
@@ -966,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.22,
+   "price": 160.2,
    "chg": 0.29,
    "chg5": 0.62,
    "sma20": 159.11,
    "sma50": 160.81,
    "sma200": 159.72,
    "high3m": 163.86,
-   "reg": 160.22,
+   "reg": 160.2,
    "pre": null,
    "post": null,
-   "regClose": 160.22,
+   "regClose": 160.2,
    "sess": "reg",
-   "mt": 1788304285,
+   "mt": 1788304901,
    "ok": true
   },
   "ES=F": {
@@ -994,77 +1006,77 @@
    "post": null,
    "regClose": 7645.75,
    "sess": "24h",
-   "mt": 1788303686,
+   "mt": 1788304296,
    "ok": true
   },
   "NQ=F": {
-   "price": 29132.0,
+   "price": 29131.5,
    "chg": -1.29,
-   "chg5": -0.49,
-   "sma20": 29593.6,
-   "sma50": 29382.61,
+   "chg5": -0.5,
+   "sma20": 29593.58,
+   "sma50": 29382.6,
    "sma200": 28041.35,
    "high3m": 30653.5,
-   "reg": 29132.0,
+   "reg": 29131.5,
    "pre": null,
    "post": null,
-   "regClose": 29132.0,
+   "regClose": 29131.5,
    "sess": "24h",
-   "mt": 1788303685,
+   "mt": 1788304298,
    "ok": true
   },
   "YM=F": {
-   "price": 52840.0,
-   "chg": -0.75,
+   "price": 52838.0,
+   "chg": -0.76,
    "chg5": -1.5,
-   "sma20": 53641.7,
-   "sma50": 53040.06,
-   "sma200": 50595.84,
+   "sma20": 53641.6,
+   "sma50": 53040.02,
+   "sma200": 50595.83,
    "high3m": 54494.0,
-   "reg": 52840.0,
+   "reg": 52838.0,
    "pre": null,
    "post": null,
-   "regClose": 52840.0,
+   "regClose": 52838.0,
    "sess": "24h",
-   "mt": 1788303672,
+   "mt": 1788304296,
    "ok": true
   },
   "GC=F": {
-   "price": 4374.1,
-   "chg": -1.29,
-   "chg5": -5.69,
-   "sma20": 4445.49,
-   "sma50": 4216.76,
-   "sma200": 4478.7,
+   "price": 4377.0,
+   "chg": -1.22,
+   "chg5": -5.63,
+   "sma20": 4445.64,
+   "sma50": 4216.82,
+   "sma200": 4478.73,
    "high3m": 4640.8,
-   "reg": 4374.1,
+   "reg": 4377.0,
    "pre": null,
    "post": null,
-   "regClose": 4374.1,
+   "regClose": 4377.0,
    "sess": "24h",
-   "mt": 1788303677,
+   "mt": 1788304298,
    "ok": true
   },
   "CL=F": {
-   "price": 90.85,
-   "chg": 5.94,
-   "chg5": 10.31,
+   "price": 90.78,
+   "chg": 5.85,
+   "chg5": 10.22,
    "sma20": 83.31,
    "sma50": 79.8,
    "sma200": 88.39,
    "high3m": 96.02,
-   "reg": 90.85,
+   "reg": 90.78,
    "pre": null,
    "post": null,
-   "regClose": 90.85,
+   "regClose": 90.78,
    "sess": "24h",
-   "mt": 1788303690,
+   "mt": 1788304295,
    "ok": true
   },
   "HG=F": {
    "price": 6.54,
-   "chg": -0.86,
-   "chg5": -2.57,
+   "chg": -0.83,
+   "chg5": -2.55,
    "sma20": 6.59,
    "sma50": 6.39,
    "sma200": 6.17,
@@ -1074,7 +1086,7 @@
    "post": null,
    "regClose": 6.54,
    "sess": "24h",
-   "mt": 1788303662,
+   "mt": 1788304208,
    "ok": true
   },
   "ZN=F": {
@@ -1090,7 +1102,7 @@
    "post": null,
    "regClose": 107.41,
    "sess": "24h",
-   "mt": 1788303691,
+   "mt": 1788304182,
    "ok": true
   },
   "EWY": {
@@ -1153,28 +1165,28 @@
     "geo": false
    },
    {
-    "title": "Golub Capital: The 15% Dividend Cut May Not Be The Last (NASDAQ:GBDC) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNZURyY0wxRkZuMlB5UGg4bFBkTTJWNzM3SnUtWU42U3RqNzhDR3VXYjNqQXJ3dVQ0eWpsN0FDMWg3eWtTb2hkQW1DQS1jblJiOUMtZW5nZGhJOF8wY2lrTExkT0xhQTR2ZzZOa0gzSmRxNlZJMmFEdDdNallRTGExR0RUMkJpNU5RZkNueGxBckFGSVlhQXVFNUdR?oc=5",
-    "pub": "Tue, 01 Sep 2026 11:00:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
+    "title": "Banking and Private Credit: Balancing strategy and control - kpmg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVUk4cm5JYWxScXlhVHRzQ1dhYVMyUS1mbjNZelh4M3N0QUp3R2p6bTJ1ZTZ3dldRRkJvUHZiVmE2LW15M0hYSmk5NWVEVzFsLW9RY184d000QUdMQS1oUWxiZlQ0M09rVi1ZMDZqRXFURFJQUHFTRm5uNDZLWFlPdm41WUpYbTFUYm9QSzAzeVllUVREMWYyYnZNWl9vd1F3OU1qaE1WdXROeHhsZHc?oc=5",
+    "pub": "Tue, 01 Sep 2026 10:10:56 GMT",
+    "src": "kpmg.com",
+    "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
    {
+    "title": "Apple’s OpenAI Lawsuit Gets a New Twist: A MacBook Full of Evidence - appleosophy.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOcFJOVTk1Q3RhQkcyWnc1UXZ5X3ZFX1NFVWhVOVQtNlZLV1NPdFBiSEZ5bEMzek1RWS1NdEFRVmRNbmw0QjFNanEySGNITVlDTXIzR2N3cGNrOF9vcWsxUU1iNjVkNDVyRzIweHlwWUo2aXlKdGdvNkVjanhTeHA5Ujk2SXl1UDQxYlJjcTZZODY0alc0WHlHN2dpY3lBMEt5YWM4?oc=5",
+    "pub": "Tue, 01 Sep 2026 23:00:42 GMT",
+    "src": "appleosophy.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "SpaceX launches may be visible in Reno early Wednesday, early Sunday - Reno Gazette Journal",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTV9TX2lFSGtYTHRFeXFiRkk5SjVCR3RLMExXN2ozMkVZWTJ5ekxjSjJoOUxzUEtGeXhrN2tKN19DbjlUcTU0dDJFWW1Hd19FMEFtc1NNY1c4LTBFSE9kekxQTXBDWnJsX1NYNTA1WWJWN0tjVjh1NHM1cnpYZ3paYVRrdlBac0s4Y2V5NGdGY1VCaUpHM2NkVF9sOVJUd2JIaFhoQVdaam01WTRQTVdoZG5NaWdtVFl2Yjl3V3RlUQ?oc=5",
     "pub": "Tue, 01 Sep 2026 22:14:00 GMT",
     "src": "Reno Gazette Journal",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta May Overtake Google Search This Year. That Makes Its AI Capex Harder to Dismiss - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOVC1aM3VPTXNTVTNqNW00NFhSZlh5M2ZtcTVWTTBOUkR4YmdQVXlmSXJqTmFCNktoNWVrN3RpUlRRZW5jQlVCYW1aRGdqb0dBN2VDLUJsOUhWUkt0blhpZlVWWUxfQmVtRzk3WjBLTjhtTFkwcVBZcDQ5bEZXSGM0eDZINjVsNm8?oc=5",
-    "pub": "Tue, 01 Sep 2026 21:49:53 GMT",
-    "src": "Yahoo Finance UK",
     "trig": false,
     "geo": false
    },
@@ -1203,20 +1215,20 @@
     "geo": false
    },
    {
-    "title": ":Claude: Fable 5.1 and Mythos 5.1 - anthropic.com",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:50:51 GMT",
-    "src": "anthropic.com",
+    "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda - SiliconANGLE",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVpGSE5BbjNsX0dYRXhJVVQ0dTZRTG1wYWh6TkEyNDZHaGFLQXJCblRjRmRjdkVYZGhieVVSVzZlZzFDR2F1cnBESG8tZXZ3NlROU05Zd2xySmJrTWFXZWNzMmI2aTVDQU9JejFlck5IXzk1cXZ5TkhmSU16LVRsWWZDSENLTlpiNXpmRVhZOF8wT1VXZTJySGFoOUdJMVljeExqbHp0LXBudw?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:50:00 GMT",
+    "src": "SiliconANGLE",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
-    "title": "S&P 500 Today: Wall Street Slides to 7,631.47 as Geopolitical Risk and Bond Yields Weigh on Market Sentiment - BBN Times",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQX1p0YkpUU0xUa01VX2tTaGljOWcwam5XS1MyV1ZtOUExQm5vMGJrMTNtOU5sbkY5TUd0ejNFVUVVTXJNNDF3Y01NWTVwMmVIVnJJQlptZHNEbUhzMmM1bVk1elFYWWlFUi03Z0ZRYVJLVGdmQTBmYkJLZ0pkS1lHX2t5cWUyTmhBZ2k1RlJlMGc0VWFCMjJZRjkwLUxWa3ZxTGNhYThBcDNkVG1OTW00RXFfNEY0RDBCVkpValhvcGhwM0dRNzZ3OE5EVlp5QTB4V0lRUHgxNERfdw?oc=5",
-    "pub": "Tue, 01 Sep 2026 21:52:17 GMT",
-    "src": "BBN Times",
+    "title": "Canadian dollar weakens ahead of BoC rate decision, 10-year yield hits a two-year high - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclBYT2NsUXdISkp6X2dGLWphc1piZlpoNDJaV3dnaW9PTUZGc2t6dGRFZ1AySmQxSy1UT2lRalJrUzBaVVBBRHJnVVctZVZiRUlzOWNsRkRTX24yZWd0UFMzaWVYd2M4SWFsZGVxdDNpaGJqak5lNmYzV3ZUTjBWZzhseWt4SGpIUVZVSG55ekY0TUE1TGh2VDNvZHI1QXBfM0dZaW1qUm9GRjZyUUp4Nlg4MEtDREV6dkp1Tw?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:22:21 GMT",
+    "src": "The Globe and Mail",
     "trig": false,
     "geo": false
    },
@@ -1227,14 +1239,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "Wall Street closes sharply down on geopolitical risks - Breakingthenews.net",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNdjQ1RXExOGRJYTlSSnp5a0VTQmxoQmVScFJ4bTNvdFM0OFFGcDBkZmVrbEphVkp6bW5zazlibTd3LXNZY2xlV1BFN0lZTkZUd3IwQWpiLXZaTmhZTW9oZ3lnQ3NKbDV0LWdsUm1FeWtXR1oyTjhnZGltSVB0d2hJb2k2TlZkT0M0aTFVNGVpS094RHppR0JNY25xMWZobW8?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:00:00 GMT",
-    "src": "Breakingthenews.net",
-    "trig": false,
-    "geo": false
    },
    {
     "title": "Oil Prices Expose the Gap Between Geopolitical Risk and Physical Supply - Investing.com UK",
@@ -1259,6 +1263,14 @@
     "src": "InteractiveCrypto",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "US Forces Strike Iranian Targets Near Strait Of Hormuz, Sending Oil Prices Higher — USO, SPY, QQQ, DIA In Focus - newsable.asianetnews.com",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQVFlENmpnVnhNZHh5aDczd29EZ3hTTFFQYWtjSE1aZWd4UXB2VDhwaXFpYUFhUE1zNVpMZURqTVlfZ3RBTk1XUzd4NjZzaTZoN1VzdmxMN2kwd0MyMkhMVzJ4WlhJbEpiZVkyRjBuZjA2WU01YzhtSmw5VmJVSFpsbzM0bS1EbkZIMVRDVGU2c29Cb2diazc2XzYwejU1cVZJdW1DU0Y5Sjh4eFN1MnJ2enFtZnZucGNjLUdJcTNWVUlVRF9jWnEzd05RaDI0QVJJX21JTF9qOVFZa3BmYWFDXzN2QzhUZ01kUGM4d0EzSGM0X1pFcENNZklB0gH_AUFVX3lxTE1xU3VpeTNwRTgwVWtBZDdFYms3Rl94elY4aERIN2ZsY200OE1lX2JEX0RLVV9aRDZHV1ZDQm1fSnN6OHNPR3VsS08xNjdJMTdHX0ctNG5PekNxQ2FiUDZTY05KN0FjNWtWY3cxWFhFOGJBLThHSGlReGUwTEhOb1hJMzJoYm14QndSZThSVEowR3BvVk9uR2FqT01GbzFPVW9Ec29tZTBvVUx6NHhjYUZUQnR6RXUxeDlEcFpLajZuQlBpMUNTNExMVWkwRWhWcWotVDgxM2RTcW5fSHoyTGFMbnoxLTJoNDhwMWtKMHpvU3ZubWZ2M1hrTmVRWF9UQQ?oc=5",
+    "pub": "Tue, 01 Sep 2026 18:30:08 GMT",
+    "src": "newsable.asianetnews.com",
+    "trig": false,
+    "geo": true
    }
   ],
   "flow": [
@@ -1271,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Japan Rate Shock Is Hitting Markets. How Will Bitcoin React? - finance.yahoo.com",
+    "title": "Japan Rate Shock Is Hitting Markets. How Will Bitcoin React? - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQVFk1b2tKaUo3WC1jS1R4VHdXb09zX3h1NkhNcEJCSjBfSG5rSUNHNkZrU0Z2ZjI5YmtxOHhNVHNhU1ZwNXhRVVJQSlNzUktXakJIN0JsNE9oVXRrekdMR3ZVTThndnNWTUJTLXdMQW5jNVFGZGRtXzBWS1VPRlpEVTd5V0xfRVV5UUpzQWkxazJxZ2JzMGxPQUxHRVBuZw?oc=5",
     "pub": "Tue, 01 Sep 2026 21:00:00 GMT",
-    "src": "finance.yahoo.com",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1283,14 +1295,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzZadWFkUDZmVXU3dXB1amhIaXg4d3dtOHlaalF0VWl6dlU2SzZaclN0TXIxSXhzRkxqUkRhdlFmNk1mYWNxNnhacU55Q19HN3NlWjlQV205ZFBfZGlZX2JpaWZ0QXdpaGotU21GUDEyNTRnWW5CM194UHowbFpUNHhWSC1Oa0I3QURuYjhscTRwbFRjVXNrSFVRM01DaV9pSGt2REFIQzJWQdIBrwFBVV95cUxOWnl6NHBsaVBKa0ZoLWxIcUk5UFpablprbmRVdHV5RXBuMHV5OXNNMjdaVDBSOHpCeVhsNHFDSlI4ckQ5bDlFel8xbUlxYzN6NmtjOWU0c0F0ZzdnenZ6bjYyVzR4c3hnVnphOG52X0JxeDhWZl8zamVrMVBQZWxGQnU1Y1RkWC1kOUwyeVVoU1pWSW5MUkR4VjBTbzRFbDBHdEdZcFpKTnJZcFBVc25v?oc=5",
     "pub": "Tue, 01 Sep 2026 20:56:27 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Prices Waver as Middle East Tensions Ease, but Uncertainty Lingers - CryptoRank",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE04c01pdVZtRVpCd0VHRnFKWGhSRXprbTV1LTFUazlvRjl2RXRiMFgzcmFpV2ZvUEpUZGdQVjBHVWc4MmNvajZWMTdnWXNXMHBhd2JtVTJ1YWV2V3VVZWk5eXhXVU5ZaXFlTzBGTU4xWkJ0VkxVQmZIVjZR?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:45:02 GMT",
-    "src": "CryptoRank",
     "trig": false,
     "geo": false
    },
@@ -1307,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMUpfZ1FlYmo2S1BzUllpY0liWWZXUm1mX3BDTnN3X0E1czhWVUt5SHdYNkt6ZmRubmpnRGYwT2M1dTlQRTBBOEk0RGJJOGw0NDNMX1EzVGRLTlJVajZjc0FLaUwzRzhKbmI0LW5GTU10ZUREMUlPOWg4VU9zd2pURmhFOXEyREhBMENCRWI4SE16aWhjTmd0MlN4M05PUG91bmNZRzVIc3ZTZGxrVG5yZXd5Ui0xcjh5WGdYU0FvczJITFVBVk1JcEw2S3lIRVU?oc=5",
     "pub": "Tue, 01 Sep 2026 20:31:28 GMT",
     "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "As Bonds Rout, Lean On These Short-Term Bond ETFs for Help - ETF Database",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOcU5JWUVFclF6VjdpXzhkc2FnbHdKbXRZSzZNNFJ4cVZacUJ3dFNvY2tuZk81bGI5Rk5CdFVuTzRfYkw2b3NsWXJNeXM3LVZtaXlHajE5ZTk1VkREMGVyUDQ1V0xWOTJtdXZiZk9RRzNSTTh2bEVVUVU4dE1GdFJCU2RwYmJlc0Uxdkh5VnF6RUxDc2FBZWc?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:13:21 GMT",
+    "src": "ETF Database",
     "trig": false,
     "geo": false
    }
@@ -1538,7 +1550,7 @@
    157.69,
    159.26,
    159.55,
-   160.22
+   160.21
   ],
   "uso": [
    137.27,
@@ -1598,7 +1610,7 @@
    64055.95,
    63551.88,
    64680.71,
-   77255.76
+   77221.04
   ],
   "vixts": [
    0.823,
@@ -1717,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "미-이란 긴장 고조로 유가 상승 압박이 커지는 가운데, 고금리(4.8%)와 고평가(CAPE 42)가 맞물려 주식 조정 심화 신호를 보이고 있다. AI 인프라 투자는 계속되나 CoreWeave 같은 상장사 밸류에이션 재평가와 사모대출 배당 축소 움직임이 신용 경계 필요성을 시사한다.",
+  "text": "이란 인근 미군 공습으로 지정학적 긴장이 고조되는 가운데, 저유가·저변동성(VIX 16)이 신용위험 상승(HY 2.63%)을 충분히 반영하지 못한 상태로 자산가격 조정 리스크가 존재한다. AI 데이터센터 수요 증가에도 CoreWeave 등 AI인프라 기업들의 밸류에이션 과다에 대한 시장 경고가 나오고 있으며, GPU/HBM 수급 측면에서 특이 신호는 없다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1726,12 +1738,11 @@
    "spy": -1.0,
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
-   "trig": 2,
-   "geo": 1,
+   "trig": 1,
+   "geo": 2,
    "capex": 5,
    "news": 15
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.0,
@@ -2421,18 +2432,16 @@
   22
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 32,
-  "n": 34
+  "pct50": 34,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-01T23:11:42+00:00",
+  "checked": "2026-09-01T23:21:57+00:00",
   "openai": {
    "found": false
   },

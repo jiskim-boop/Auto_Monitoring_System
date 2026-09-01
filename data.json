@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-01T21:32:20+00:00",
+ "updated": "2026-09-01T21:41:58+00:00",
  "prices": {
   "NVDA": {
    "price": 217.44,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.68,
+   "price": 99.67,
    "chg": 0.25,
-   "chg5": 0.69,
+   "chg5": 0.68,
    "sma20": 99.48,
    "sma50": 100.4,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.68,
+   "reg": 99.67,
    "pre": null,
    "post": null,
    "regClose": 99.68,
    "sess": "reg",
-   "mt": 1788297704,
+   "mt": 1788298281,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77079.14,
-   "chg": -1.87,
-   "chg5": -3.96,
-   "sma20": 73153.32,
-   "sma50": 67874.05,
-   "sma200": 69645.22,
+   "price": 77140.81,
+   "chg": -1.79,
+   "chg5": -3.88,
+   "sma20": 73156.4,
+   "sma50": 67875.28,
+   "sma200": 69645.56,
    "high3m": 80257.54,
-   "reg": 77079.14,
+   "reg": 77140.81,
    "pre": null,
    "post": null,
-   "regClose": 77079.14,
+   "regClose": 77140.81,
    "sess": "reg",
-   "mt": 1788298306,
+   "mt": 1788298882,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 160.16,
+   "price": 160.17,
    "chg": 0.26,
    "chg5": 0.59,
    "sma20": 159.11,
    "sma50": 160.81,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 160.16,
+   "reg": 160.17,
    "pre": null,
    "post": null,
-   "regClose": 160.16,
+   "regClose": 160.17,
    "sess": "reg",
-   "mt": 1788298312,
+   "mt": 1788298888,
    "ok": true
   },
   "ES=F": {
@@ -1090,20 +1090,8 @@
    "ok": true
   },
   "ZN=F": {
-   "price": 107.38,
-   "chg": -0.49,
-   "chg5": -1.36,
-   "sma20": 108.47,
-   "sma50": 108.85,
-   "sma200": 109.98,
-   "high3m": 110.27,
-   "reg": 107.38,
-   "pre": null,
-   "post": null,
-   "regClose": 107.38,
-   "sess": "24h",
-   "mt": 1788296399,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 400: Bad Request"
   },
   "EWY": {
    "price": 175.8,
@@ -1125,10 +1113,10 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave (CRWV) Stock May Be Cheap On Sales Yet Weak On Broader Checks - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPbmFPMGpjdnZaZUxoaHlJdjR2dHd4eFJ6OWptSUNtSkhpbU9RRldtTk83TWZYVHpsT0xXQTdtaDFLRy1RSUR4bGxRUFlOdC1xY0VQVUt0LWp4NjJkNUVIR1NWa3djUHBVZFNjY0JvdW9PWF8wS1JaMXdVdC1ZaEhGWFp1RjlkUQ?oc=5",
+    "title": "CoreWeave (CRWV) Stock May Be Cheap On Sales Yet Weak On Broader Checks - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN05hd2tJY0UzMHNYYU5zaUMwWFpjVWJVMEdsc1F4NjkyM1F2MTFsUlY2NHI2RzhTQUd0RmxmTldXSG1kZk9mc0R3THB2a3ZDMm9TMDZjaWJfWlU1Nmg0eE1MYklLVFM4Nk02MGkzZ1UwZmlPeXZtTFRybk44dHNhV0RZZ2FDUQ?oc=5",
     "pub": "Tue, 01 Sep 2026 18:12:44 GMT",
-    "src": "Yahoo Finance Singapore",
+    "src": "Yahoo! Finance Canada",
     "trig": false,
     "geo": false
    },
@@ -1150,9 +1138,17 @@
    },
    {
     "title": "CoreWeave stock flashes a warning sign despite strong revenue growth - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOaWZmS1ZMR1Etd3RlamM4UW1HMS1NejFxT19SckhCbktwNUVEMVdFLVBvV0pPMVpfSW5sdFpsalV3RXI1UERYZVJnem85ZlRLRWJwMW5QQ2FhVDFGaFI4QzEtQkI0YXR1VzhfUTljeFY5cUxQeVU1dm93STA5WWl2ZW9LcXBTZGF1VEliamZ6QklXTmtEekFvaEZSVTdMUEdBcVR6Y3Z1WEJnbzA?oc=5",
-    "pub": "Tue, 01 Sep 2026 16:40:38 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb0ZFUHF4YmE4ODJRY0d2V0x2T2hxX1VyeVQ5WjBpdEthQk1zYzZvaHpwTTM2N3JIQlN5ZXdCV04xaEM1bko1bDd1NS0zNWNVdVlsUktiM0RHd29xRXdCWnNUUmF1QzE2bHhlVnZFeF9PNS1HU0p5aGFCM09jaU5UZ2w1b3pVME1oLTVHMXc0QXU0WlRIWkdsekhkTVRwUFNBdXR2MF9UZGhISXM?oc=5",
+    "pub": "Tue, 01 Sep 2026 16:18:35 GMT",
     "src": "Invezz",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave stock flashes a warning sign despite strong revenue growth - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRzI1ZFEwMVNJV1pRLU5EUzktWEpxUlVoaVhDTzJTOWJvS2s2VElwWm4yZDdpb3EzQlpHOWlNZHVqU1BRMXFGT2JkZFp5b2wzUzl4M1Q1MW1XSUxUbTdia2VEeXQ3UHFJbUZNUU4wQ3J6OWxvQTQwWlBTV2ZUa1JRXzlUNjhBQVAycGl6VUR5TjEtY2pOeG5CMHhTeDZ2M05ZRjduM2l5YUtER0NBMjBHX3RnRngxWXE2WEp6aWpOU0ozZTQ?oc=5",
+    "pub": "Tue, 01 Sep 2026 16:08:43 GMT",
+    "src": "TradingView",
     "trig": true,
     "geo": false
    },
@@ -1161,14 +1157,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPS3JXS3hxeWJhNEJVczF5S2dmcl9NUHoyVE9RNG5CbXktUHdqZkR4RkdZWGhCSU8xcl9PVzZZSzM0TXNTOWlad1F2TE5VZVRhQWRMei1BZkJwdU9lZEpoZ3RIdzNnZ295cGVicXJKX3BCV1JzYk5IN1JiNjdNZng4RTgxMHhSTk10bDg1ZWw1OFVDUXhjV1NWdkx0Z044UGhNSUU1RXhKa3ZpeTBCTkFDOEhfT3BTeDU3clE?oc=5",
     "pub": "Tue, 01 Sep 2026 13:45:23 GMT",
     "src": "Ocean News & Technology",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "[In This Economy] Risks of Pax Silica - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVl9sMk0zdTYxVURhQ1FlOHRfZVFDUUx2SUJDelh3YUNtSWpKYTQyZTYxN3psNTRTYnpXZzdoS1V1TDNMYVA0TXdBYUJzUDJHb0tZUVlnY29wOC1iZVJMdDBJUXFRWTNpaFVTaHRKN2k4RUxsVXdWR3NzN0p5c3hCcHkwbmtLQ0U?oc=5",
-    "pub": "Tue, 01 Sep 2026 13:13:28 GMT",
-    "src": "Rappler",
     "trig": false,
     "geo": false
    }
@@ -1199,18 +1187,18 @@
     "geo": false
    },
    {
-    "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda - SiliconANGLE",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVpGSE5BbjNsX0dYRXhJVVQ0dTZRTG1wYWh6TkEyNDZHaGFLQXJCblRjRmRjdkVYZGhieVVSVzZlZzFDR2F1cnBESG8tZXZ3NlROU05Zd2xySmJrTWFXZWNzMmI2aTVDQU9JejFlck5IXzk1cXZ5TkhmSU16LVRsWWZDSENLTlpiNXpmRVhZOF8wT1VXZTJySGFoOUdJMVljeExqbHp0LXBudw?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:50:00 GMT",
-    "src": "SiliconANGLE",
+    "title": ":Claude: Fable 5.1 and Mythos 5.1 - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE8wODA3NURfTHVDbUZnSE12Q3A0TFpvYjhDLU1rT1NVZ2xmM2Z0VWJPc1ZRM0RVVkpIckh6b0ROcXIxTHgzODZWYV9yekV1dTJiMk1KbkVWcThSeUYxcUpDUy1KZw?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:50:51 GMT",
+    "src": "Anthropic",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Micron’s 2028 Risk Is Fading (NASDAQ:MU) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QZnVpc0h5MkRzODJJQnBsM2Nld3dNR2g3UkpRM0gzWlc1WGxQV1ljaXE4Mk9EeUxMcS03a1FJRkdyRWdwYzBkNXlFb09hUGo4aHQ1MWI5SmRBWFdXMGItSHk1UmVSZG5HRHFBLV8za1k1NlZPNlE?oc=5",
-    "pub": "Tue, 01 Sep 2026 20:28:06 GMT",
-    "src": "Seeking Alpha",
+    "title": "Anthropic launches Claude Fable 5.1 after inking $35B cloud deal with Lambda - SiliconANGLE",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOQVpGSE5BbjNsX0dYRXhJVVQ0dTZRTG1wYWh6TkEyNDZHaGFLQXJCblRjRmRjdkVYZGhieVVSVzZlZzFDR2F1cnBESG8tZXZ3NlROU05Zd2xySmJrTWFXZWNzMmI2aTVDQU9JejFlck5IXzk1cXZ5TkhmSU16LVRsWWZDSENLTlpiNXpmRVhZOF8wT1VXZTJySGFoOUdJMVljeExqbHp0LXBudw?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:50:00 GMT",
+    "src": "SiliconANGLE",
     "trig": false,
     "geo": false
    },
@@ -1241,6 +1229,14 @@
     "geo": false
    },
    {
+    "title": "Bond Market Dynamics: Is Appetite For AI Debt Reaching Its Limits? - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPRFZ4Q2g4cVA0a3lLSkF3bWlod0ZKM0xMWkd6YTdUT01tUWNhWXBRM3VTdW1Wa2g0Z1VhZnBYTDQtZmJLNFVWOGM3ZnEydXhVRVJOd0ozM1E4TzlBQTZ5LUJvcl9KRUZpMUxYRDNhRFRub2llTWZHLVNXS2UxLUpIZU9TT2o1X0J4Q3NLeTFpYVV0c3h0eDlQZVN3?oc=5",
+    "pub": "Tue, 01 Sep 2026 19:20:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US reportedly attacks residential area in Iran’s Hormozgan Governorate: Fars - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPZWhKRW0zTWl1ejliOEhvVHVNTElqeXdVcENaV011M2g5aHpHWFNYUkV2c21YSE4yNHNzeE8zLUdOZkZPLVluMjcyV1Q4SF9YUWg5ZEJmcjJUNjczUkZQbTNma3UyNUFIT0p6ZzFvN21oWjdoMG5iUXJVMWhLWG9ucmI4djc5RGZaTVZqM01QQWxtMHJla0tteFFoS2I5M0xQOWNvSw?oc=5",
     "pub": "Tue, 01 Sep 2026 18:55:30 GMT",
@@ -1263,22 +1259,30 @@
     "src": "calcalistech.com",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Canadian dollar weakens ahead of BoC rate decision, 10-year yield hits a 2-year high - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbFJCQmpwWVg1UkZ6NHdGVmY5Z3hsVDZCS0pjaDR5am1SQlE3c1J3amtyTGdyRGRYNkZpUDJRTzAwX3ZxanJYYlBWdWhfN0lMaGdVci02QlNRdXVOMnN2UkdCNllhOWhyaVRiUlJkNW1FUzJ5dzBJUjBhM25OZlFrci1WYXBKbVlyUU9kTnFGSGhqUGVYajNVN0E1eFRrejlxbUpXdlFfeE5XUGttd0hJMm95aEx1Z0VidXJjZzBiRTQ?oc=5",
-    "pub": "Tue, 01 Sep 2026 17:41:10 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Japan's bond yields hit decades highs, risking yen carry trade and pressuring Bitcoin and other assets. - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQVGlzYXZIRXd5US1kdzI0eElwazVlbElDQnJyVXI3VFd3X0t1S09XMDRGYTRGWm1Mclo0bGFWaXQwSkFNeXJwUmVWZkpHa1pYNTdXTF8xNmVWLWlSOXVLN0xZdjRucEc0akt0MXVGR2FlZ2dmN0lrOXZuaXpsQWVULXU4NWJYbHdjTURXdg?oc=5",
+    "pub": "Tue, 01 Sep 2026 21:34:29 GMT",
+    "src": "Pluang",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "U.S. Crude Inventories Drop amid Continued SPR Draws - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQXzZadWFkUDZmVXU3dXB1amhIaXg4d3dtOHlaalF0VWl6dlU2SzZaclN0TXIxSXhzRkxqUkRhdlFmNk1mYWNxNnhacU55Q19HN3NlWjlQV205ZFBfZGlZX2JpaWZ0QXdpaGotU21GUDEyNTRnWW5CM194UHowbFpUNHhWSC1Oa0I3QURuYjhscTRwbFRjVXNrSFVRM01DaV9pSGt2REFIQzJWQdIBrwFBVV95cUxOWnl6NHBsaVBKa0ZoLWxIcUk5UFpablprbmRVdHV5RXBuMHV5OXNNMjdaVDBSOHpCeVhsNHFDSlI4ckQ5bDlFel8xbUlxYzN6NmtjOWU0c0F0ZzdnenZ6bjYyVzR4c3hnVnphOG52X0JxeDhWZl8zamVrMVBQZWxGQnU1Y1RkWC1kOUwyeVVoU1pWSW5MUkR4VjBTbzRFbDBHdEdZcFpKTnJZcFBVc25v?oc=5",
     "pub": "Tue, 01 Sep 2026 20:56:27 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Crude Oil Inventories Drop, Surpassing Forecasts - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPV1d3VzNTc3AyQzBXUzRwOTFCWFJpanBETzJOb1EtMkhZelNvbE5QRFZmXzc0VkF3RG16VHZhanZ4TjBES1N0aEUxMlZlRktCVTF3NnhSSm51VXNuUy1HT3ZiM1Byc2FIUTFmQk42dGJJZk5EajgxbVEzQktqdV9vcGV2NDItYVlyUDhPVGNzTDFHbkVIVDE2OTM1WVlfck1ibWxDVUw3TkwzZkg2Si1oWg?oc=5",
+    "pub": "Tue, 01 Sep 2026 20:56:04 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1303,22 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOS3g4S18zWDBxZWcyMDAxZzNSSkZBUWFYYXhrR2d0NWhjWnF2YmJmT3FCSEszSDlJdGxBWk5yQndhbDhGcVk0N0xhaE1MeFcwYXBIUC1LVFFYWE5Ya3U4dy12aThqbUIxbHI0cTJjSlRDa1dYNWxWQjVjRWhyMkVnaXluenh3LUJzT1dwUkp6MkxOSnpYT25BWVJzUzg5aEVPRDI4RGVhU09ocFFTM0JpNVZVONIBuAFBVV95cUxPU2wtUjdFVEVFM0tJOEoyRVYyY2wwV3YxakVFSlF0UU5qTDdSYjFCajdOUkhnd1F0ZGYwN01maVlfZUNWYjB6aE1fSXlLOUlCNWdGSktxX2NYRnpSRUFEWmlHQW41WGJ3VUFVcDQ1elFGQTZ4U3ctbTRQT0pPYWJBX01MYlNHMUVDRk11SFNKdW1EOFZrbDZwcEJHVXBPdzVBZjQwZ1d4Rl85aWdycVFCY0NSTXBDbUNE?oc=5",
     "pub": "Tue, 01 Sep 2026 20:30:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Dollar Technical Forecast: DXY Breakout Failure Threatens the Yearly Uptrend - FOREX.com",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPd3IyUlZKdV9KNUU1aHJiNnZPMHRDUlFaaTk2NFhGODlJdFdIbXExdzV0S0JBbVc0dEdHMnNzNkdZR0Y5cjJsZERCZHgyc240TVRtWDZFNDhid0FfcDhBdmRJTm9IVUJkVjFqVUFoeUljY0kxeUxTRWxKWkJCNm1XWWlnZ1pLNVVuTlB4RjJ5czJEVVc0LWNHSEhrVEl4bGRaOXRacFZmV3M1dVpxS0NtYUoyTW1tbW5pVHhDVzdJS0NTZ0U4ZGZUa1BiVUZ6Sjg?oc=5",
-    "pub": "Tue, 01 Sep 2026 18:30:00 GMT",
-    "src": "FOREX.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Tue, 01 Sep 2026 16:08:35 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1538,7 @@
    157.69,
    159.26,
    159.55,
-   160.14
+   160.16
   ],
   "uso": [
    137.27,
@@ -1610,7 +1598,7 @@
    64055.95,
    63551.88,
    64680.71,
-   77054.15
+   77131.56
   ],
   "vixts": [
    0.823,
@@ -1729,7 +1717,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 근처 이란 타격으로 지정학 긴장이 고조되는 가운데, 안정적 금융조건(NFCI -0.57)과 낮은 변동성(VIX 16) 속에서도 고평가 우려(CAPE 42)가 시장 심리를 제약하고 있다. AI 데이터센터 수요는 견고하나 CoreWeave 같은 인프라 기업의 밸류에이션 의문과 고가 GPU 진입장벽이 capex 확대의 지속성에 의문을 제기하고 있다.",
+  "text": "지정학 긴장(호르무즈 해협 근처 미-이란 군사 충돌)이 유가를 상승시키면서 주식이 하락 중이나, VIX 16과 안정적 신용 스프레드(2.63%)는 시장 공황이 제한적임을 시사한다. AI 클라우드 인프라 기업들(CoreWeave 등)의 밸류에이션 논쟁이 지속되는 가운데 Anthropic의 대규모 클라우드 협력 발표(Lambda와 $35B 거래)로 GPU/HBM 수급 긴장은 완화 추세다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,12 +1726,11 @@
    "spy": -1.0,
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
-   "trig": 1,
+   "trig": 2,
    "geo": 1,
    "capex": 5,
-   "news": 15
-  },
-  "_cached": true
+   "news": 16
+  }
  },
  "early": {
   "score": 1.0,
@@ -2433,8 +2420,10 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "ZN=F"
+  ],
   "core_dead": []
  },
  "breadth": {
@@ -2442,7 +2431,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-01T21:32:08+00:00",
+  "checked": "2026-09-01T21:41:43+00:00",
   "openai": {
    "found": false
   },

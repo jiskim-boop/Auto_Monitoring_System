@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T07:21:52+00:00",
+ "updated": "2026-09-02T07:32:38+00:00",
  "prices": {
   "NVDA": {
    "price": 217.44,
@@ -468,11 +468,11 @@
   "UEC": {
    "price": 11.59,
    "chg": -5.31,
-   "chg5": -7.35,
-   "sma20": 11.69,
-   "sma50": 10.76,
+   "chg5": -12.66,
+   "sma20": 11.79,
+   "sma50": 10.77,
    "sma200": 12.54,
-   "high3m": 15.44,
+   "high3m": 14.14,
    "reg": 11.59,
    "pre": null,
    "post": null,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 16.34,
-   "chg": 9.52,
-   "chg5": 3.09,
+   "price": 16.36,
+   "chg": 0.12,
+   "chg5": 5.89,
    "sma20": 15.29,
-   "sma50": 16.52,
-   "sma200": 18.89,
+   "sma50": 16.5,
+   "sma200": 18.87,
    "high3m": 22.22,
-   "reg": 16.34,
+   "reg": 16.36,
    "pre": null,
    "post": null,
-   "regClose": 16.34,
+   "regClose": 16.36,
    "sess": "reg",
-   "mt": 1788293701,
+   "mt": 1788333391,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.78,
-   "chg": 0.11,
-   "chg5": 0.86,
+   "price": 99.76,
+   "chg": 0.09,
+   "chg5": 0.85,
    "sma20": 99.47,
    "sma50": 100.37,
    "sma200": 99.63,
    "high3m": 101.61,
-   "reg": 99.78,
+   "reg": 99.76,
    "pre": null,
    "post": null,
-   "regClose": 99.78,
+   "regClose": 99.76,
    "sess": "reg",
-   "mt": 1788333080,
+   "mt": 1788333710,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77632.81,
-   "chg": 0.3,
-   "chg5": -0.25,
-   "sma20": 73881.08,
-   "sma50": 68134.07,
-   "sma200": 69711.27,
+   "price": 77594.23,
+   "chg": 0.25,
+   "chg5": -0.3,
+   "sma20": 73879.15,
+   "sma50": 68133.3,
+   "sma200": 69711.06,
    "high3m": 80257.54,
-   "reg": 77632.81,
+   "reg": 77594.23,
    "pre": null,
    "post": null,
-   "regClose": 77632.81,
+   "regClose": 77594.23,
    "sess": "reg",
-   "mt": 1788333684,
+   "mt": 1788334316,
    "ok": true
   },
   "USO": {
@@ -978,131 +978,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.72,
-   "chg": -0.01,
-   "chg5": 0.32,
-   "sma20": 159.09,
+   "price": 159.58,
+   "chg": -0.1,
+   "chg5": 0.22,
+   "sma20": 159.08,
    "sma50": 160.8,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 159.72,
+   "reg": 159.58,
    "pre": null,
    "post": null,
-   "regClose": 159.73,
+   "regClose": 159.58,
    "sess": "reg",
-   "mt": 1788333688,
+   "mt": 1788334322,
    "ok": true
   },
   "ES=F": {
-   "price": 7646.0,
-   "chg": 0.04,
-   "chg5": -0.57,
-   "sma20": 7725.31,
-   "sma50": 7609.35,
-   "sma200": 7307.27,
+   "price": 7644.0,
+   "chg": 0.02,
+   "chg5": -0.6,
+   "sma20": 7725.21,
+   "sma50": 7609.31,
+   "sma200": 7307.25,
    "high3m": 7822.5,
-   "reg": 7646.0,
+   "reg": 7644.0,
    "pre": null,
    "post": null,
-   "regClose": 7646.0,
+   "regClose": 7644.0,
    "sess": "24h",
-   "mt": 1788333089,
+   "mt": 1788333721,
    "ok": true
   },
   "NQ=F": {
-   "price": 29112.0,
-   "chg": -0.05,
-   "chg5": -0.61,
-   "sma20": 29568.12,
-   "sma50": 29371.4,
-   "sma200": 28049.6,
+   "price": 29108.75,
+   "chg": -0.06,
+   "chg5": -0.62,
+   "sma20": 29567.96,
+   "sma50": 29371.33,
+   "sma200": 28049.58,
    "high3m": 30653.5,
-   "reg": 29112.0,
+   "reg": 29108.75,
    "pre": null,
    "post": null,
-   "regClose": 29112.0,
+   "regClose": 29108.75,
    "sess": "24h",
-   "mt": 1788333086,
+   "mt": 1788333719,
    "ok": true
   },
   "YM=F": {
-   "price": 52906.0,
-   "chg": 0.15,
-   "chg5": -1.15,
-   "sma20": 53561.7,
-   "sma50": 53056.3,
-   "sma200": 50613.66,
+   "price": 52876.0,
+   "chg": 0.09,
+   "chg5": -1.21,
+   "sma20": 53560.2,
+   "sma50": 53055.7,
+   "sma200": 50613.43,
    "high3m": 54494.0,
-   "reg": 52906.0,
+   "reg": 52876.0,
    "pre": null,
    "post": null,
-   "regClose": 52906.0,
+   "regClose": 52876.0,
    "sess": "24h",
-   "mt": 1788333088,
+   "mt": 1788333714,
    "ok": true
   },
   "GC=F": {
-   "price": 4375.7,
-   "chg": 0.64,
-   "chg5": -4.84,
-   "sma20": 4450.69,
-   "sma50": 4221.16,
-   "sma200": 4477.7,
+   "price": 4372.5,
+   "chg": 0.56,
+   "chg5": -4.91,
+   "sma20": 4450.52,
+   "sma50": 4221.09,
+   "sma200": 4477.68,
    "high3m": 4640.8,
-   "reg": 4375.7,
+   "reg": 4372.5,
    "pre": null,
    "post": null,
-   "regClose": 4375.7,
+   "regClose": 4372.5,
    "sess": "24h",
-   "mt": 1788333091,
+   "mt": 1788333722,
    "ok": true
   },
   "CL=F": {
-   "price": 90.21,
-   "chg": -0.01,
-   "chg5": 9.7,
-   "sma20": 84.03,
+   "price": 90.32,
+   "chg": 0.11,
+   "chg5": 9.84,
+   "sma20": 84.04,
    "sma50": 80.13,
    "sma200": 88.4,
    "high3m": 93.04,
-   "reg": 90.21,
+   "reg": 90.32,
    "pre": null,
    "post": null,
-   "regClose": 90.21,
+   "regClose": 90.32,
    "sess": "24h",
-   "mt": 1788333091,
+   "mt": 1788333725,
    "ok": true
   },
   "HG=F": {
-   "price": 6.55,
-   "chg": 0.65,
-   "chg5": -0.7,
+   "price": 6.54,
+   "chg": 0.54,
+   "chg5": -0.8,
    "sma20": 6.58,
    "sma50": 6.4,
    "sma200": 6.17,
    "high3m": 6.71,
-   "reg": 6.55,
+   "reg": 6.54,
    "pre": null,
    "post": null,
-   "regClose": 6.55,
+   "regClose": 6.54,
    "sess": "24h",
-   "mt": 1788333091,
+   "mt": 1788333689,
    "ok": true
   },
   "ZN=F": {
-   "price": 107.38,
-   "chg": -0.23,
-   "chg5": -1.18,
+   "price": 107.39,
+   "chg": -0.22,
+   "chg5": -1.16,
    "sma20": 108.41,
    "sma50": 108.81,
    "sma200": 109.96,
    "high3m": 110.27,
-   "reg": 107.38,
+   "reg": 107.39,
    "pre": null,
    "post": null,
-   "regClose": 107.38,
+   "regClose": 107.39,
    "sess": "24h",
-   "mt": 1788333090,
+   "mt": 1788333720,
    "ok": true
   },
   "EWY": {
@@ -1141,14 +1141,6 @@
     "geo": false
    },
    {
-    "title": "[In This Economy] Risks of Pax Silica - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVl9sMk0zdTYxVURhQ1FlOHRfZVFDUUx2SUJDelh3YUNtSWpKYTQyZTYxN3psNTRTYnpXZzdoS1V1TDNMYVA0TXdBYUJzUDJHb0tZUVlnY29wOC1iZVJMdDBJUXFRWTNpaFVTaHRKN2k4RUxsVXdWR3NzN0p5c3hCcHkwbmtLQ0U?oc=5",
-    "pub": "Wed, 02 Sep 2026 01:19:43 GMT",
-    "src": "Rappler",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave (CRWV) Stock May Be Cheap On Sales Yet Weak On Broader Checks - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN05hd2tJY0UzMHNYYU5zaUMwWFpjVWJVMEdsc1F4NjkyM1F2MTFsUlY2NHI2RzhTQUd0RmxmTldXSG1kZk9mc0R3THB2a3ZDMm9TMDZjaWJfWlU1Nmg0eE1MYklLVFM4Nk02MGkzZ1UwZmlPeXZtTFRybk44dHNhV0RZZ2FDUQ?oc=5",
     "pub": "Tue, 01 Sep 2026 18:12:44 GMT",
@@ -1171,6 +1163,14 @@
     "src": "TradingView",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "CoreWeave stock flashes a warning sign despite strong revenue growth - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPdk03Y2Z0UnU3M01fRVYyU01hc19jMEdaZm5oeWk5aGgwZzV2OTRMd25ldUctNTFjd2IyM3ZjeXh1anF4MTdpX3dsbm11QUlDYklPZlNsZEhfSm02QWFQN3JhNFIyWTNLXzVkb0l6ajlHR3pLQzlPTk1QaWFEUGR6M2NIcGhXNVNRZ2FpeUl5Z2JLWk5uckYxeTl1ZGhGWUtiNmdLa3JiUQ?oc=5",
+    "pub": "Tue, 01 Sep 2026 16:16:33 GMT",
+    "src": "Invezz",
+    "trig": true,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "Intel attracts MediaTek, Broadcom, and Meta for AI chip packaging amid TSMC shortage - Sammy Fans",
+    "title": "Intel attracts MediaTek, Broadcom, and Meta for AI chip packaging amid TSMC shortage - sammyfans.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQdjhSRHN3cjhOMjlUYXIwVEYtTWNyVlJXWjFfMUJaMWNnTWtRdTlBckp4LUhzeW5XTVEzY29aQWlnMUIyVFc4TWF6UXczNVdxajVkaUExemIzTVhjcGZzNE1XM2VqVjg0QlJoOXFjSVNFOWhGOVhRUTlYaWFCQmVnODVRODhjejRMeVU3RXZiZW1LLURoN2pTaUh2ZTRsbGt0RWNjSU56cnRJdTNRT3l2X3NYOFJudmJKRnlTZdIBwgFBVV95cUxOY29hMVBOdGZRM1d2ejNMMnNkd1hCZjY0em8zd0UtYkFKczhYN29PLXh2aE5tTHUwT0hWYnZPZkNnTW9wUlpPQWJfUERyRnhiUmJRZjJEMExGaTZkVDBMTlpXa0VqbnY3aUtob3VlSXU5c2xVSnZObzRqcDhfVjZsNXE2Q2FyZ2JjVUtjVnZ5NVRNSHprZjctTVc4T0F1QjMxcFZNdzFlS01SV1QyLWRaYjlqUDJONjNudFgyWjZOeEVZQQ?oc=5",
     "pub": "Wed, 02 Sep 2026 06:22:30 GMT",
-    "src": "Sammy Fans",
+    "src": "sammyfans.com",
     "trig": false,
     "geo": false
    },
@@ -1215,10 +1215,10 @@
     "geo": false
    },
    {
-    "title": "TSMC to establish advanced packaging hub in Kaohsiung industrial park - focustaiwan.tw",
+    "title": "TSMC to establish advanced packaging hub in Kaohsiung industrial park - Focus Taiwan",
     "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1GWjNpMHVEV3dfUk9ZWG4tY1Z5bDgteWxHRC14ZHFZNXNOUmd3eS1XZ2pEeUhSX05tWkc1T0g2OVNxeENLR1RzQU9IRzQ2akJDUkRjaXVnaw?oc=5",
     "pub": "Wed, 02 Sep 2026 04:33:00 GMT",
-    "src": "focustaiwan.tw",
+    "src": "Focus Taiwan",
     "trig": false,
     "geo": false
    }
@@ -1233,10 +1233,10 @@
     "geo": false
    },
    {
-    "title": "Jobs Data Could Complicate the Fed’s Rate Hike Plans - Barron's",
+    "title": "Jobs Data Could Complicate the Fed’s Rate Hike Plans - barrons.com",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5aMHVqLWhqN0VEQ3plY1QtcnhBNzVGc1hoVWVWSDlKeS1tZzBOU203QW1HcmF0dHlTUXJrcFJfZElhSENodzZJcUthZG41Rk50endNVDNNUXRIeVdfdl9PclNWMzltYkFzdmd0UEwyWHZlMUZZcEFxa3ZqUllwbmM?oc=5",
     "pub": "Wed, 02 Sep 2026 06:15:00 GMT",
-    "src": "Barron's",
+    "src": "barrons.com",
     "trig": false,
     "geo": false
    },
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "West Asia tensions, oil surge trigger market rout; Sensex tanks 789 points, Nifty sheds 269 - The New Indian Express",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNaE9UTFhoZE16YmZveXcwdWduUTlJaERfcHhIb1UwY2RDSE1HSU9MZ0I2RGpma0lyS3lnMnVPa3huM3ZJWktuZS0tY3Y0UHBGLUNaMzZHRi11YVNHZG11WVZfTXVCSkhwM0ljX3dsNVhiZGc2VFVZTmMwU21kNFU3RTAxc3Brd1l3VUhMYzVRYlZ2OVJjOWVGbTU1aWVrQXlGUzM4TTQ0bS1qRFp0cm5DcXVBOERuY1pqa0c3RElHeXZxMkNleUxnWUNKUGNUa1c5b2JDd3VIZFU0UdIB5wFBVV95cUxOa3Y5Z2hIeWdqb1pyLS1BdzN0QTducG1DVDI2cFYwNUFBN211LTc3ekZEQmJQNHlmUlhlRzRRd1BVQXRVX1FFMVp3dk02LVFrcGE2clVUTnhTTDh6SDhVaFQ4MENJdEQ2Y082Yk1XUGVCcTFWVm9iTHBSN2RkTDVJdTRPSXVwemNZQl9NVC00elppbEZBY3hfVVJLc0NESEFCeFV3MzNtNURQRVdQeExRcGphdGNQclFIdnhFQWVVa3RMMmJSdmoyUmhNU0twSlpzUVpoTDFETmU5R0Fwb0xpaWF2S3hadjg?oc=5",
-    "pub": "Wed, 02 Sep 2026 04:35:05 GMT",
-    "src": "The New Indian Express",
+    "title": "Oil prices extend gains as US and Iran trade fresh strikes - Aaj English TV",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0xd2xSSC1qalUxQ3o5aEo1NUZSRldGSmVNMUR6eFh1Q1I0YlI3bWdaVkRnZG14eU5icW1JRTI4ZWlHcXU5N3Y4VVZQekN6bFhHZHdz0gFTQVVfeXFMTTF3bFJILWpqVTFDejloSjU1RlJGV0ZKZU0xRHp4WHVDUjRiUjdtZ1pWRGdkbXh5TmJxbUlFMjhlaUdxdTk3djhVVlB6Q3psWEdkd3M?oc=5",
+    "pub": "Wed, 02 Sep 2026 04:12:55 GMT",
+    "src": "Aaj English TV",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Hezbollah outlet claims IDF struck southern Lebanon after drone attack intercepted over Israel - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRThmbk9fakJjaWlaUWtIYng4VGZtekh4bWZfMkdtWm5Iak1DT3RGYlIwUm9IWmNTNXFJQm9yakQ3b3pxb0gtOFJiQUpFSVdoRWdEUV9hRVdaN2ZEWVJnRzRHYXBOT28yYTl3YUFjLS1RZWlJYnlPQUxwOHhaemhuOXI4MFdXV1VRSzVkb1Ata0hBTGhUODhGamtSa04xclk?oc=5",
-    "pub": "Wed, 02 Sep 2026 04:16:42 GMT",
-    "src": "Crypto Briefing",
+    "title": "Why is market falling today? Sensex, Nifty selloff wipes out Rs 5 lakh crore investor wealth: 5 key factor - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMimgJBVV95cUxPV1haNDl4LUdpMFdTYW52WG9uQzhIaEJnaUZBaE9tWTRtRWNSaktQam1aRWlQTV9jV0JNOXBTWE1LU3lPcjlZTU5mYWJRTzZuWHZXTjlFYUVEU3U5OFVlbXQyNWpheWRVU3lkcmVWSVVNSnNqWkVaQ2E5MXZOdnRoSllBZDhNWW1NZ3lBd2htNHdkY3RYWnlyVFU1ZHE2N0RHRVFzX21HUkItMk16b2Nhc3dEZjVOcmxZcGFvYktfY1NmLUVfTDNMdkxuVDItQU5feDI4RHpFVHhpdC0wb2xmeU1id3hFb0pRa29yMDBiVlJvVUtrWURvbi1jQXFxS0pLa3BoNlB2U2hpSjRwNjNQWXNuQ1YyN0IxWlHSAZ8CQVVfeXFMT3pwZ2h3a2VqLVdUTnYyd3llUVVCZ1ROT2kxNG93bGtUTzlSMGZCOWFWZFpCOWlkUEdPQjhaakhEelZnbWRvQ3BIOUN2bEMzZzYzeGkxR2FOU2FER3I3VWRkcWNlMkI1N3Rqc2VYTG9McFFjNVRQV1JWYmdvb0IxZ3R0X0ZCaWd1VkJRbzRxcW9rX09oM2xVU054TlI2RG9aVkNLbzcxSkZlczRyU3VUdXpxTXN0ZGRSU0FaVm1HRGJvUGJlY0VUaFl6MUhQVDdWZGFSMjUxU3h6TXRwdXhiemExN0JsOVV0TnY3NEs4U0JfQ1ZaVy02RERmWl96UWxWbUxnQ0VBV0EwTW5FejFrT3F2X2JXaU81OGtlcVc2WFU?oc=5",
+    "pub": "Wed, 02 Sep 2026 03:58:06 GMT",
+    "src": "The Economic Times",
     "trig": false,
     "geo": false
    }
@@ -1283,19 +1283,19 @@
     "geo": false
    },
    {
+    "title": "Wall Street drops as U.S. strikes in Iran push crude oil higher - Honolulu Star-Advertiser",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQ3Q1WEx6QmZNejljR0NDcmt4UktfNXE4RllVc0VmWUNlbmQzcHJVRE1taWd3ZDBFdUViS2c2TXB6bWlfaWd6c25ncG9nZlpuZ2wtRHZLYTJtSzZBU3RaWDg2dVlwS1luMXVad0VsWWZxM1lFU21zY0ZTV1Z1a29nSXpXV1NNb2gtaXJYNzkzdUtLSFFSVlUyZVZrVThsYUxTVy10SmJkbDJaQW8wRWVPdFQtWGdlYTVYeWhpTzFRcw?oc=5",
+    "pub": "Wed, 02 Sep 2026 05:55:11 GMT",
+    "src": "Honolulu Star-Advertiser",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Back price spread between futures contracts widens, suppliers cut prices continuously to boost transactions [SMM Shanghai spot copper] - Shanghai Metals Market",
     "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxQY2VpMXlYeExzWWRMeEhGeUZJeTBIRkZvVWpPZTRXYlVjWEpXUEFTX0kwZzRINzJZV2lqdGJEMERsR1JocXBMUkZYcGdqMC1BVmZfd0d6Nl9ncExLWlBpUkdBbEdvQ1RMNFlYdi1CX2Q4QnVBRTQxR25FejNIb0wzbXdTTkMtUWF2UjNFQWhueUQzN01pMS05TVVndEtnYzhaR1RZa29fQTI4cDlRd1VldTRMQnJRbkxXUTY2ejdFeTA2bWkxRDFNS2hYMmRYUEVoM2ozVzZPTFZNMXU5VkdQVzdXdmRlQmRiQzgyekgxYmN5Z3NDUTljRWNjRDIzN3hiaC0xb2tvaVNHODg?oc=5",
     "pub": "Wed, 02 Sep 2026 05:27:38 GMT",
     "src": "Shanghai Metals Market",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "USD/JPY Price Forecast: Sits near late July high; bulls retain control above 160.00 - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNaldFRkFPbkJOMzZRcS1NY1N0M0RYVk4zN1FXbnNBWEZHaWRPQXBMeDlrV0Fuc1IteXdlV1VpN0J5eVdTUV9HeUFxRExhR3VFMDAxX1ZIejJvUVM5OHZLdmlWZmp1bVNJNmh1am5TRElHbEVwdHdZbHNPUTZrNG5ReUh1NFhPSXdwR3A4eWlPR0V3RUN0ZlMxLUZXUkU4VDhKdW9falZkNmhoa1pxQy1UQ0ZGVkpyMG5vZ1FLckZRU3o?oc=5",
-    "pub": "Wed, 02 Sep 2026 04:18:08 GMT",
-    "src": "FXStreet",
-    "trig": false,
     "geo": false
    },
    {
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Japanese Yen drops to fresh low since late July vs USD on fiscal concerns and rate gap - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPMmlydS1RMjhxZHlCUVRpTS0tOXdTazVMSHRqRjVKeHlLSElPUnhodTNoX0s2Z0g1ZWhWTW5xN0FNVlBCT3lxUlBXRVZIM0tTTlhoN1J6T0R3RFkxYklqSE9oeERmY2FQTWZBeElKbExKX28yTUNCLVVJMUNmZjBtOU9XcEpCX0VybnR0YmpISW5xQXV4QzVzNUtBakN6WTFNWURVR0oySFpwcmI0Skx2SDZoM2RKTzZVUmNkRnc1dTBLTWpiUmNmdA?oc=5",
-    "pub": "Wed, 02 Sep 2026 01:11:51 GMT",
-    "src": "FXStreet",
+    "title": "US Dollar Outlook: DXY Seasonality Meets NFP Volatility - forex.com",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOZ254bERJMThJalJ4SnJKVURKazBVaUt3Rmtud0pFZEp5Z3V1blpPb0FkMGY5NzdWSEotYWZIT1J6ZHpzdXNxUndjenhPMDRLTktINFNLOXd1bzFfWjB2SnY4eWJUQ2o2OFExd01heTktUzlpOGZxTUp6VVlTZ0M1V1BBclBHSG55eEE2OHI5VHRDNkE5cnJ6WDFRb05MeWJVWGEw0gGvAUFVX3lxTE9aaU9hb1BaZ1VGNjgzVER2cW9DdXBmUFA5MzVaWkVBcXQ0TVA0dFFzQ1gyUXhmbVA3elNnX0x5bXNXbkVzdVdRVjdKQjRXU0gzVTRuUk50NVdWdGZ5bEQzeElfcVRXbXRYN190VGpvdWVnSDZaX0lCTG9EZVhocVprZzczV0pYcjFPeEpkXzV0enFtanZ4dkY0ME92U0NBNTl3eWhrOEl5amdpaklyaWs?oc=5",
+    "pub": "Wed, 02 Sep 2026 02:06:22 GMT",
+    "src": "forex.com",
     "trig": false,
     "geo": false
    }
@@ -1470,12 +1470,12 @@
    16.45,
    16.9,
    15.67,
-   17.05,
-   18.21,
-   16.5,
-   15.28,
-   15.84,
-   16.34
+   16.64,
+   20.66,
+   15.81,
+   14.55,
+   14.89,
+   16.36
   ],
   "tnx": [
    4.47,
@@ -1550,7 +1550,7 @@
    157.69,
    159.26,
    159.55,
-   159.73
+   159.6
   ],
   "uso": [
    137.27,
@@ -1610,7 +1610,7 @@
    64597.5,
    63402.43,
    69266.19,
-   77645.01
+   77581.42
   ],
   "vixts": [
    0.809,
@@ -1620,11 +1620,11 @@
    0.85,
    0.864,
    0.744,
-   0.847,
-   0.958,
-   0.879,
-   0.785,
-   0.807,
+   0.827,
+   1.087,
+   0.842,
+   0.748,
+   0.758,
    0.796
   ],
   "hyoas": [
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(러-우크라, 중동)이 고조되는 가운데 금리 4.8%와 높은 신용스프레드(2.63%)가 유지되며 리스크 자산에 대한 조정 압력이 지속 중이다. AI 인프라 수요는 견고하나 CoreWeave 같은 고레버리지 인프라 업체의 이자비용 급증(연 2.4배)이 신용 사이클 압박 신호로 작용하고 있다.",
+  "text": "러시아-우크라이나 갈등 고조로 지정학 리스크가 부상하는 가운데, 미 금리 4.80%와 달러 강세(DXY 99.8) 속에서 신용스프레드 확대(HY 2.63%)와 CoreWeave의 이자비용 급증(전년比 2.4배)이 고금리 시대 차입 기업의 펀더멘털 악화를 시사한다. AI 데이터센터 인프라 제약과 TSMC HBM 수급 병목이 지속되면서 capex 수요는 강하나 장기 공급망 불확실성이 마진 압박 요인으로 작용하고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1738,12 +1738,11 @@
    "spy": -1.0,
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
-   "trig": 0,
+   "trig": 1,
    "geo": 0,
    "capex": 5,
-   "news": 15
-  },
-  "_cached": true
+   "news": 16
+  }
  },
  "early": {
   "score": 1.0,
@@ -2441,7 +2440,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-02T07:21:41+00:00",
+  "checked": "2026-09-02T07:32:19+00:00",
   "openai": {
    "found": false
   },

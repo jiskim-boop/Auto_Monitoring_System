@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-02T21:41:56+00:00",
+ "updated": "2026-09-02T21:51:57+00:00",
  "prices": {
   "NVDA": {
    "price": 224.41,
@@ -804,7 +804,7 @@
   "DX-Y.NYB": {
    "price": 99.56,
    "chg": -0.11,
-   "chg5": 0.64,
+   "chg5": 0.65,
    "sma20": 99.46,
    "sma50": 100.37,
    "sma200": 99.63,
@@ -814,7 +814,7 @@
    "post": null,
    "regClose": 99.56,
    "sess": "reg",
-   "mt": 1788384682,
+   "mt": 1788385283,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77364.04,
-   "chg": -0.05,
-   "chg5": -0.6,
-   "sma20": 73867.64,
-   "sma50": 68128.69,
-   "sma200": 69709.82,
+   "price": 77283.01,
+   "chg": -0.16,
+   "chg5": -0.7,
+   "sma20": 73863.59,
+   "sma50": 68127.07,
+   "sma200": 69709.38,
    "high3m": 80257.54,
-   "reg": 77364.04,
+   "reg": 77283.01,
    "pre": null,
    "post": null,
-   "regClose": 77364.04,
+   "regClose": 77283.01,
    "sess": "reg",
-   "mt": 1788385283,
+   "mt": 1788385886,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.69,
-   "chg": -0.94,
-   "chg5": -0.36,
+   "price": 158.67,
+   "chg": -0.95,
+   "chg5": -0.37,
    "sma20": 159.17,
    "sma50": 160.75,
    "sma200": 159.71,
    "high3m": 163.86,
-   "reg": 158.69,
+   "reg": 158.67,
    "pre": null,
    "post": null,
-   "regClose": 158.69,
+   "regClose": 158.67,
    "sess": "reg",
-   "mt": 1788385282,
+   "mt": 1788385891,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic’s Content Checker Tool Is Here, With One Big Catch - CNET",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOekcySUo4UFFDZG5id3g0YUVhWm85MG9FT1ZpNkttdHU0TTNpbHJtOXB5MmhZMkRRLU53R0pLT1RZQVZIZm1wZG0ybW1FUWwtakg3TXcwWUpwa1FSam5lLUM4TjZLV3FIT2tDaFF3OE5FZjB2Y3ZRTFRzY1RIa2tKQVdyTnNrRHpSSWlOTjJVZWVwTWRhS0VJVjdweUs3ZFNnak4xR01qYmJ6N0U?oc=5",
+    "pub": "Wed, 02 Sep 2026 21:31:17 GMT",
+    "src": "CNET",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump administration sides with OpenAI in lawsuit against New York Times - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOTm1LUjVYZDhGWjNwdUdfc0ZpZHlhMzJubGpjWm5wc3Iyd0JpZWJOdmpIVTd5M0N3MEM0YlJmZmNXX0NuaF8yR3VIVjRiSWR6UmhRSDNjaVlrTWZtVTJHc2x0WHNpaWVsX1hCYlpiUl9TZTNsWkRheUhLdzZCUk1kSWNQZ21Hcks5WVE?oc=5",
+    "pub": "Wed, 02 Sep 2026 20:40:02 GMT",
+    "src": "The Guardian",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s Claude failures have made agent observability a security priority - The New Stack",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1kTVlZQVNyUVRyQ2dhYjY0UmFsWkRld2NySkVOdWNiZk9WNWlpQ3B2eFJfUm1jbkJadENDZ19UQTdOQnVPdlpNdUVIQURSOWVyNnNJcE9jT0V1bThFR2Z4RjBjRHNOdw?oc=5",
     "pub": "Wed, 02 Sep 2026 20:14:18 GMT",
@@ -1199,39 +1215,15 @@
     "geo": false
    },
    {
-    "title": "US government backs OpenAI in New York Times copyright case - reuters.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOODVsb2JiWUlRc3pRYm51czFaekswTjZmUXNCc3N6R0FhVllZNTJ3OXp6dHBiamNYazFmdHNpTUswSUZ3U3AwbENheHhKbjJmN2hwaS0zZUlMcEp5cm9LWDlLUkZUZlBLc21NZk5IMkNtQ3JzVFdUcGhVaWJCemgxZGtRdkFpR0lpbzA4WUhEX0FqQjZVaklRdUVuU2o3SkxWVEpFRkZyNUt0cThiTVE?oc=5",
-    "pub": "Wed, 02 Sep 2026 19:37:14 GMT",
-    "src": "reuters.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Trump Administration Sides With OpenAI in New York Times Copyright Lawsuit - WIRED",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFFFQkg1Q1ctamphbkh3TUpYcGFkRi0zSjdVaEkyQk9OTURYeWpfa1JCX3pPR294Q1J0NnRBbjF2dEhkbU45MFY0YVlLUEIwOVh6TzZHQW5LRXRHVE9tV2pscTFVM0p1WGRoZEJKLW5CeThnYVkzOHBzZGlxRndBOTE2ZWVrSWNzMmdZZE1QeEY5OXRQTm9JSg?oc=5",
     "pub": "Wed, 02 Sep 2026 18:41:00 GMT",
     "src": "WIRED",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "CrowdStrike Brings the Falcon Platform to the Anthropic Claude Marketplace - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOY2pfNHJIbDN5R2dKM2ZqYWRDdDRKcDBJN2ZjVXR6bGh1WWdzTUF5c2pBWnM0Zk5XdTBOQzJ1cS1zZUpDVHFTaURLUG5vWlYyV19rUTVqaHhjdjdVVHFSN1paVHdwcE1OdW1WY2wtVi1FRFl0ZWViOHRrTm8tRlBaSkcwSWlCM19BS19xWW5pWHNWeUd0SThaTlFiTXZMRkNENDl1bzEwTk5nS19ISWNWT2JBVkR6cEFWcjVITG54YTBoTVRKUnc?oc=5",
-    "pub": "Wed, 02 Sep 2026 17:32:04 GMT",
-    "src": "marketscreener.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Trump administration says more oil left Hormuz this week than before war, but data says otherwise - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxObWIxUWdjc3JUcnV1bHp3cTlSUGpMcGZpMmtYcWxKclNQdzVNcnY1YkdMUWJqSU5qSDZZUVBEdm1pT0hqankwVW55RU5mWXQ2Vi03STVpaDVrMFNzOG93cVZpWlVPaXR0UjhtcjVwUEFZN0VIc0JLUEluZS1tN0Qxb0hOaHFadmF4YWYtaTdZdEI1ak15Vmc?oc=5",
-    "pub": "Wed, 02 Sep 2026 20:06:00 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Fed Rate Decision: Goldman Versus Citi on Whether Your Savings Account Gets a Boost - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQV1E0Qk9qMm1Wb1ZVRVNsUHAzcXYyTk1HaEVqUUt4a081VE5lNjhUTGx5c1ZMV3FONk82UVhyUmNZa0t2b21pV1gxSHkwZVFubE5JbENib3FKcDZIV3JRVi0tWkV5OFRKSDZoQ2tkMGhFYUlscTFIZy01c1NxZVl6LW5B?oc=5",
@@ -1249,6 +1241,14 @@
     "geo": false
    },
    {
+    "title": "Bank of Canada holds interest rate at 2.25% as trade war clouds outlook - Financial Post",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQdmlwUDlSdlB4eXc2S0JwUDhWTTRRLW9aOG1zSklWM25hUVpscEJOUUM1elRmRGZySFdJX0JXRnA1dDVVNHotWkMzUDNBYzFBZjJfWEZIeEFiTGt0TkFmZjdwdkpCc0dYclJmZXlJSUFSekt1bW1DRGdPMDdKSC0za0VaaDZzM1BwS21EUnhn?oc=5",
+    "pub": "Wed, 02 Sep 2026 18:14:48 GMT",
+    "src": "Financial Post",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Why Friday’s Jobs Report Could Surprise the Fed and Shock Markets - Barron's",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWmRVYzIySUNQNmpGdFkxR2R2NHJOeUpLX3NJdVpnV1RwU3FwYURVbWJ0dGdvUDJER291ZVZ6T3I2MDZxWThlOXJwWDUwN19JcUgxSEtGOWs5aDNOcE8xeHJtT3daWF9IYVM3RU5IY0VodHlLVnJRUXNpVkZkdHpFNmZQRWhVeHZaXzVNanphaWw2YWM?oc=5",
     "pub": "Wed, 02 Sep 2026 17:53:00 GMT",
@@ -1257,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Crypto Market Eyes US Job Data But JPMorgan Focuses on CPI for Fed Rate Hike Decision - cryptonews.net",
+    "title": "Crypto Market Eyes US Job Data But JPMorgan Focuses on CPI for Fed Rate Hike Decision - Cryptonews.net",
     "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5FTnFJZC04cENDZHU5TUlCVnU4bVFPVllTM3Rtc29PUzViSDMtMVZvUXFYVVhJbEVvM05iSDEzTU1UM0Izc1h3Q1owMEdtZTJhY1p1RkdBSUc?oc=5",
     "pub": "Wed, 02 Sep 2026 17:39:36 GMT",
-    "src": "cryptonews.net",
+    "src": "Cryptonews.net",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Bank of Canada holds key rate at 2.25% as tariffs, Iran war cloud outlook - Kelowna Courier",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQYWtHem9EY2dVSmxTTGd3Zk9LcVhzMXhRWWRaQXNTeWQxMlVrVFc4YkJ3eG9vVzMzcGVfdVJIb211aUxaYVJtZWp0clNTVnRCY2Y0UzNQOUFIT2JRMGJFT25VX1J2b1ZSeWFROXh1LWJ2WnliMm9ubVVRaElxVWxjYUlWUUZybzd3OEQzNWxQRGdEQVhCSm1NOW5BcGdaWWgySjFDYWhR?oc=5",
-    "pub": "Wed, 02 Sep 2026 17:33:28 GMT",
-    "src": "Kelowna Courier",
+    "title": "US private credit firms mark down more loans - WTAQ",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE84alh0bHV1dm1SdkVfUi03cG12eWpmOFgyc3gtSnVHeVU0WFhJaUVGQUlQZF9xM0VHYVdiT1R0UndpVkcwZWY3QmYteTJrMEw3MS0zODBuTWU3cnVmSlVMVTNoU2F2NlNuNmNyalY4dEhZbndJek1fRjZmOUtmUQ?oc=5",
+    "pub": "Wed, 02 Sep 2026 14:51:41 GMT",
+    "src": "WTAQ",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1550,7 @@
    157.6,
    159.33,
    158.28,
-   158.69
+   158.68
   ],
   "uso": [
    140.86,
@@ -1610,7 +1610,7 @@
    64597.5,
    63402.43,
    69266.19,
-   77359.04
+   77282.72
   ],
   "vixts": [
    0.798,
@@ -2441,7 +2441,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-02T21:41:44+00:00",
+  "checked": "2026-09-02T21:51:45+00:00",
   "openai": {
    "found": false
   },

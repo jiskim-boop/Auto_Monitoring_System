@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-03T07:22:05+00:00",
+ "updated": "2026-09-03T07:32:32+00:00",
  "prices": {
   "NVDA": {
    "price": 224.41,
@@ -628,10 +628,10 @@
   "ARCC": {
    "price": 20.02,
    "chg": 0.55,
-   "chg5": 0.6,
-   "sma20": 19.9,
-   "sma50": 19.21,
-   "sma200": 18.83,
+   "chg5": 0.45,
+   "sma20": 19.87,
+   "sma50": 19.17,
+   "sma200": 18.82,
    "high3m": 20.19,
    "reg": 20.02,
    "pre": null,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.2,
-   "chg": -6.98,
-   "chg5": -0.07,
+   "price": 15.25,
+   "chg": 0.33,
+   "chg5": 5.1,
    "sma20": 15.16,
-   "sma50": 16.37,
-   "sma200": 18.8,
+   "sma50": 16.31,
+   "sma200": 18.78,
    "high3m": 22.22,
-   "reg": 15.2,
+   "reg": 15.25,
    "pre": null,
    "post": null,
-   "regClose": 15.2,
+   "regClose": 15.25,
    "sess": "reg",
-   "mt": 1788380101,
+   "mt": 1788419791,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 99.17,
-   "chg": -0.39,
-   "chg5": 0.01,
-   "sma20": 99.42,
-   "sma50": 100.28,
+   "price": 99.25,
+   "chg": -0.31,
+   "chg5": 0.09,
+   "sma20": 99.43,
+   "sma50": 100.29,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 99.17,
+   "reg": 99.25,
    "pre": null,
    "post": null,
-   "regClose": 99.17,
+   "regClose": 99.25,
    "sess": "reg",
-   "mt": 1788419486,
+   "mt": 1788420109,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77897.08,
-   "chg": 0.77,
-   "chg5": -0.45,
-   "sma20": 74610.53,
-   "sma50": 68391.12,
-   "sma200": 69758.78,
+   "price": 77836.87,
+   "chg": 0.69,
+   "chg5": -0.52,
+   "sma20": 74607.52,
+   "sma50": 68389.91,
+   "sma200": 69758.46,
    "high3m": 80257.54,
-   "reg": 77897.08,
+   "reg": 77836.87,
    "pre": null,
    "post": null,
-   "regClose": 77897.08,
+   "regClose": 77836.87,
    "sess": "reg",
-   "mt": 1788420088,
+   "mt": 1788420715,
    "ok": true
   },
   "USO": {
@@ -978,140 +978,140 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.69,
-   "chg": -2.19,
-   "chg5": -1.61,
+   "price": 156.8,
+   "chg": -2.12,
+   "chg5": -1.54,
    "sma20": 159.07,
    "sma50": 160.71,
    "sma200": 159.72,
    "high3m": 163.86,
-   "reg": 156.69,
+   "reg": 156.8,
    "pre": null,
    "post": null,
-   "regClose": 156.7,
+   "regClose": 156.8,
    "sess": "reg",
-   "mt": 1788420093,
+   "mt": 1788420718,
    "ok": true
   },
   "ES=F": {
-   "price": 7679.25,
+   "price": 7679.5,
    "chg": 0.04,
-   "chg5": -0.82,
-   "sma20": 7724.06,
+   "chg5": -0.81,
+   "sma20": 7724.07,
    "sma50": 7614.98,
    "sma200": 7313.64,
    "high3m": 7822.5,
-   "reg": 7679.25,
+   "reg": 7679.5,
    "pre": null,
    "post": null,
-   "regClose": 7679.25,
+   "regClose": 7679.5,
    "sess": "24h",
-   "mt": 1788419496,
+   "mt": 1788420115,
    "ok": true
   },
   "NQ=F": {
-   "price": 29200.0,
-   "chg": 0.05,
-   "chg5": -1.67,
-   "sma20": 29557.42,
-   "sma50": 29366.6,
-   "sma200": 28082.54,
+   "price": 29208.0,
+   "chg": 0.07,
+   "chg5": -1.64,
+   "sma20": 29557.83,
+   "sma50": 29366.76,
+   "sma200": 28082.6,
    "high3m": 30653.5,
-   "reg": 29200.0,
+   "reg": 29208.0,
    "pre": null,
    "post": null,
-   "regClose": 29200.0,
+   "regClose": 29208.0,
    "sess": "24h",
-   "mt": 1788419495,
+   "mt": 1788420119,
    "ok": true
   },
   "YM=F": {
-   "price": 53182.0,
-   "chg": 0.11,
-   "chg5": -0.82,
-   "sma20": 53530.9,
-   "sma50": 53078.66,
-   "sma200": 50648.17,
+   "price": 53175.0,
+   "chg": 0.1,
+   "chg5": -0.83,
+   "sma20": 53530.55,
+   "sma50": 53078.52,
+   "sma200": 50648.12,
    "high3m": 54494.0,
-   "reg": 53182.0,
+   "reg": 53175.0,
    "pre": null,
    "post": null,
-   "regClose": 53182.0,
+   "regClose": 53175.0,
    "sess": "24h",
-   "mt": 1788419485,
+   "mt": 1788420113,
    "ok": true
   },
   "GC=F": {
-   "price": 4469.8,
-   "chg": 2.37,
+   "price": 4470.0,
+   "chg": 2.38,
    "chg5": -3.03,
-   "sma20": 4461.6,
+   "sma20": 4461.61,
    "sma50": 4230.56,
    "sma200": 4471.24,
    "high3m": 4640.8,
-   "reg": 4469.8,
+   "reg": 4470.0,
    "pre": null,
    "post": null,
-   "regClose": 4469.8,
+   "regClose": 4470.0,
    "sess": "24h",
-   "mt": 1788419497,
+   "mt": 1788420120,
    "ok": true
   },
   "CL=F": {
-   "price": 90.1,
-   "chg": -1.0,
-   "chg5": 7.87,
-   "sma20": 84.71,
-   "sma50": 80.54,
-   "sma200": 88.55,
+   "price": 90.38,
+   "chg": -0.69,
+   "chg5": 8.2,
+   "sma20": 84.72,
+   "sma50": 80.55,
+   "sma200": 88.56,
    "high3m": 92.19,
-   "reg": 90.1,
+   "reg": 90.38,
    "pre": null,
    "post": null,
-   "regClose": 90.1,
+   "regClose": 90.38,
    "sess": "24h",
-   "mt": 1788419495,
+   "mt": 1788420123,
    "ok": true
   },
   "HG=F": {
-   "price": 6.58,
-   "chg": 1.22,
-   "chg5": -0.11,
+   "price": 6.59,
+   "chg": 1.34,
+   "chg5": 0.02,
    "sma20": 6.57,
    "sma50": 6.41,
-   "sma200": 6.17,
+   "sma200": 6.18,
    "high3m": 6.71,
-   "reg": 6.58,
+   "reg": 6.59,
    "pre": null,
    "post": null,
-   "regClose": 6.58,
+   "regClose": 6.59,
    "sess": "24h",
-   "mt": 1788419474,
+   "mt": 1788420096,
    "ok": true
   },
   "ZN=F": {
-   "price": 107.61,
-   "chg": -0.06,
-   "chg5": -0.89,
+   "price": 107.58,
+   "chg": -0.09,
+   "chg5": -0.92,
    "sma20": 108.38,
    "sma50": 108.77,
    "sma200": 109.92,
    "high3m": 110.27,
-   "reg": 107.61,
+   "reg": 107.58,
    "pre": null,
    "post": null,
-   "regClose": 107.61,
+   "regClose": 107.58,
    "sess": "24h",
-   "mt": 1788419496,
+   "mt": 1788420123,
    "ok": true
   },
   "EWY": {
    "price": 178.86,
    "chg": 1.74,
-   "chg5": -0.18,
-   "sma20": 175.59,
-   "sma50": 175.19,
-   "sma200": 167.18,
+   "chg5": -0.72,
+   "sma20": 175.03,
+   "sma50": 175.43,
+   "sma200": 167.08,
    "high3m": 219.2,
    "reg": 178.86,
    "pre": null,
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Should CoreWeave and Nebius Group Investors Be Worried About Circular Financing? Here's What the Numbers Say - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOMkYydGUtbHZ5eGVWTzR1Z09obDJlODQyX0F4WjBwSlc4Mk1EamtsOXZ2QmQ3VjY4NWFncEJHb09DQWo3c1daS0ZKaXdraFdQNXZfTEZPV3JoUXpHZzJXc3UzNUpJSDRqQ2JkeHJieUw5LXdseVdXbTZieDhuQ082TjFzcFVtUVJGeGQ5b2xDclVmeUxwdVJv?oc=5",
+    "pub": "Thu, 03 Sep 2026 07:27:35 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Turn Investment Ideas Into Actions For The Second Half Of 2026: Outlook Implementation Guide - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVm04ZnpJMFc5UjBjcktrcnk1Qk4tQnROWnZOWDhzU1pnUHpWQUxJTUdXVGZ5a1BnSl9ZdGVPbWZtNlkza1N5bkIxUWE2b2t4SmNqT0VSQlljbDdmNDJZZDhnS0czNGQ4aGJhem1zY0VjaF95T3J3SVRrZzJVMlBpdXVVSDR5LTFENVJBUk10SXlwczE4V1A2VkJibFZsa2R4eWZvTFRyS1JiS3JOdWt2SzQ4dUFfY2ZTTDQ1VnpCSm9vYUU?oc=5",
     "pub": "Thu, 03 Sep 2026 05:30:00 GMT",
@@ -1133,18 +1141,18 @@
     "geo": false
    },
    {
-    "title": "New ABS CIF Turkey symbols - spglobal.com",
+    "title": "New ABS CIF Turkey symbols - S&P Global",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbXdveXpfWFdqQ3VPRmZ2eFpIMTVIZ3oyTHJBMlRFN1pMeEFZeVQwZUpaYlVzQ2kyYWVDdThZc0NXSVhic2tDaW1Hb2hTR0dGbXQ3eFVqSXFhbHF2MHdiUVQzZjcyX0lpazFGYXVnVjJoZUt0V01JN1RncTN6SS1KV21jQUtWTEp3SVd4VllDVlZQSHhYbWh6QWxxTjMxQ2wwWWNSWllobnJqZWpYYU1JSmZxcmF2Tlct?oc=5",
     "pub": "Wed, 02 Sep 2026 18:49:35 GMT",
-    "src": "spglobal.com",
+    "src": "S&P Global",
     "trig": false,
     "geo": false
    },
    {
-    "title": "US private credit firms mark down more loans - whtc.com",
+    "title": "US private credit firms mark down more loans - 1450 AM 99.7 FM WHTC",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5aT2VYMGxkb3ZmLXNXcnlZUE9kM09KRDVVc3J4OGFUejB6Nm5BamN0dHYzTmExQjlra3hSVi1IN1FvV3FWUWttdy1naFh4c3Q1b0UwQmJvbjdUd3hfdXpfVWJLVUdWbVJiSWNKSENObjJlQTdSVTVXdVFDVUZUZw?oc=5",
     "pub": "Wed, 02 Sep 2026 14:54:49 GMT",
-    "src": "whtc.com",
+    "src": "1450 AM 99.7 FM WHTC",
     "trig": false,
     "geo": false
    },
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5QbjNIWk8zQXlCSk1YRmg0S1M4Z05WQVk2V0U0NXp2MFlkX0lQci1HcUVUWkVINGxEVzlNY1VnU29ZcnA1SFlvemMwTWRFRUxmUTVpNE52LWtaYzFVTTdjNHZuRkY3dUt0Z2k2aFhrOUthMHc?oc=5",
     "pub": "Wed, 02 Sep 2026 10:47:36 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Shawn O'Malley: The $1,800 Contractor Stock Is Now a Bet, Not an Investment - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFA5Q0ttQXVRYVV0NEgza0xRTkk3V2xhRXRsRHlESjVKSGFKZHhlcFN2Q2RRTHhPclZXTW9IQ3RxRk96cFNvZm5DUFRmU0pzWTdFVHhaenJHYlFuT1k?oc=5",
-    "pub": "Wed, 02 Sep 2026 10:14:21 GMT",
-    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1207,28 +1207,28 @@
     "geo": false
    },
    {
+    "title": "Anthropic’s September 1 Triple Release Is a $2 Trillion IPO Playbook - forkast.news",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQaWo3Y0JZRWx2eDl1ekVvTDBvckNUZThCakJSbU5HVzJiSXE3LVBhY0lsYVdzQUJBQUJDVzNkWV9feEZrcHUzSUJNVnIyakFRanNDempWdlg0V2tYbE5iOEt4YXMyWFEyb2tEZDhRUVpIT2Z2VGRrNEQyWm9xTmFXVXJ4MVltNjY4UERTUGRfVHhOQQ?oc=5",
+    "pub": "Thu, 03 Sep 2026 01:23:00 GMT",
+    "src": "forkast.news",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "DOJ urges judge to rule for OpenAI, Microsoft in N.Y. Times lawsuit - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNR0dkWmwxWFVnc2QzNnprVzNMLVRkVjVLOGZ0NUQwVEw0VHZ3dWlPSmJYUnptSGJfM0FrZURMTzV5SWRxSUZUa0dpR0ZFNWZkSE1GUUw4eXBnU05OVUNIZHF2OGtnUWFBNHB2bk1saUJMZWRrRjNJVUZNQVBDUXVXR0JRTnpCUDJ6WUFJWGdVY1Y3NFY4ZVRWa3RTTFJIa1IxNFVZSlBfd3BnTThR?oc=5",
     "pub": "Thu, 03 Sep 2026 00:55:07 GMT",
     "src": "The Washington Post",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Anthony Armstrong, former CFO at Elon Musk's xAI and X, joins Coinbase board - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE8tX3FibXhmU2ZIeG5BV0JvTTdzUkg0aHpMTXhsTGJTWlRDZER4OTZvWERnYWJLVFJDYTVBOEhqRVdmZDJacUZHYkFUbF9ZXzBGT1BIT09n?oc=5",
-    "pub": "Thu, 03 Sep 2026 00:30:00 GMT",
-    "src": "Cryptonews.net",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Foreign support, drones fuel Sudan war and possible war crimes, UN probe says - WTVB",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNLTBXX0JKVkxoRmFPS3BxYy02ZTF6a3RQVlVrY0lrbHBtMVJLUWJXX1M4c2FBX0dON1UteDdTeHRoeUVCaTdxV1hnbEYxWjh6c3VacnV2X295Tng5MFJTREJ0bWNWTWh2aHpTVl9naFRTc2pCR3NWbV9kSEhJVUdtNVp0Q2NWTTNxOXJ3bC1nWWRVRWp0TnNyUzB5b0EzZ3N4cjMwejc0cTBKdw?oc=5",
-    "pub": "Thu, 03 Sep 2026 07:16:39 GMT",
-    "src": "WTVB",
+    "title": "Foreign support, drones fuel Sudan war and possible war crimes, UN probe says - WKZO",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOb3Mzb1RVVmJIMy0xSC1jNzRRZ0NSQ2JpRDNsUjQ2U3ZwaXd0dFZTVEM2TWNzTWt1dUpuVmsxcjkzVkxTVnlDY3hGUlg2TTdyaUlmVU45RGtDcTJyM2M0QUxkOTIwZVB0YmZVdGhpYzJaelJ4WlV5YU5jOEQ2MnRmTDl0dzYwbXNfNl9mZk5zR250ZVFkdGItdGtSdEtlWVBDZUZYQkZSQQ?oc=5",
+    "pub": "Thu, 03 Sep 2026 07:25:24 GMT",
+    "src": "WKZO",
     "trig": true,
     "geo": false
    },
@@ -1257,10 +1257,10 @@
     "geo": true
    },
    {
-    "title": "Equinix director Paisley sells $4.08m in stock By Investing.com - Investing.com UK",
+    "title": "Equinix director Paisley sells $4.08m in stock By Investing.com - uk.investing.com",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOblZYWlZ0dVpNYkdnVjJPUWx5amFjU1F6YmY2RjJWWHFMa21xM25HYnZwWWhId1QyaC1BeHFQemZYQ2F3RmlHRUx1VDZoY2EzdF9GTEhfM2d0Nlk0Mmc5NFpLWTNvbWJJNEtaaDl6azY1NlJXMnVVc0RrbU9RWXBpMGp1QXMtUzRWaXJDTXZUYWZkVUI3M2NwaFZyUGExYkxNbDhxSm1nVm8?oc=5",
     "pub": "Wed, 02 Sep 2026 23:02:00 GMT",
-    "src": "Investing.com UK",
+    "src": "uk.investing.com",
     "trig": false,
     "geo": false
    },
@@ -1283,6 +1283,14 @@
     "geo": false
    },
    {
+    "title": "SHFE/LME price ratio slowly recovers, port congestion persists, market remains sluggish [SMM Yangshan spot copper] - Shanghai Metals Market",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTVJicnM2cW90bFFiTkdPMk10Y2dtcHFnakdBQUlHQVFPbkQ0bDZrVTh2MnhTbl9lMW9Dd1d3czgydEJQNjBIVV9jSnM2dmhFOGVCazJoR3BNUDYyQldwSFdyX2ZSaWFwR19UOWZkSWV0a0lSSFlNV3BIWWNISklZNkNnRGJ3SjB2M3I4Y2Y5T2EyMlpGQVZKdkxBZ0N2bVlPUGdRUmJVU01zZWt2UEVYalFCbU1KTmNVSkhhRlV0RDJwMnJwYnBCOGVneUQteFp3SDBEdVctY0N3M2VMTjZuSE9kWHRfazVKS1plSzZB?oc=5",
+    "pub": "Thu, 03 Sep 2026 06:30:55 GMT",
+    "src": "Shanghai Metals Market",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Asian Oil Buying Spree Sends Dubai Crude Toward $100 - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxObDlYX09WTWtmOTZaSmNqSERJemw0LWVIcXJVdUo1ampsSHQ1YXRST3NJOFB4QlkwaG1EcTVMbVJJazBYdTV1X0RsNDhqdWNUZDhZV1pzVWUwR29zdjd1OEhLenE3bmxUc1J2a0RMb2lCdFhjNkdidnVzdkMzQjhuRkRDRUtmYkYxN3pOeE5KVDRrdldsaU5jOVF2Y0k4cmd3TWNLb25UNmFYcUHSAbABQVVfeXFMUE81UzlDTVdJSkRkX09OcDlYeUM1Y3BjMEUxMUFKY3QzLWhJVkstUWp3TkFKc2NEVGtPa2toc2QxYXBDbkY4Y2x0LXlENG5BVnJaMm5HdHdObmlSOUR1cGxKa1hDMlFtYVdmODQ5aHJNaV82blR2OEFPWDRJN1Y4ZlEtQXk4QWdHdTRhT1RrbVVLTG9YUVVkSHJ6ZnZMSkhyV1d5S1JoMTl0UlNtcXpIcG8?oc=5",
     "pub": "Thu, 03 Sep 2026 06:30:00 GMT",
@@ -1299,26 +1307,18 @@
     "geo": false
    },
    {
+    "title": "United States Dollar Index weakens below 99.50 as yields ease - tmgm.com",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQZ2FDbWcyaWFHZ1hTWmxOcGhqV3JQRlZXR2xNUWtvUzVleFgtc2NhaTVXS2FGUWhMWDF4YzZycGthUzhDMWtUbkMzN0VkSGNnZ01FSE16VHFsdnlMZTlibGQtOS1EUGU5ZHhmYUZONTIxMGhqNUxUdlNEU3pLazA4ZVk5NnlIVkdUSUg3cEg0Q0ZNd2xsWTNobXFyWFlCcU1sUWNvcjU1aUFCYUNOUlJDOV93UU00UTF5R0kzOUJJVEQzMXl5?oc=5",
+    "pub": "Thu, 03 Sep 2026 06:02:26 GMT",
+    "src": "tmgm.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Up - 02-09-26 - Armenpress",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFB5QVJqLVB5TUFxd0VHTjh5UjZjX1RnTS1MQmJZTzZEMnZpdnVyVUNvNGUzSmVjX1c3SnlhN05EejRsREY1YTljTG9ZTk5lUVgwOGfSAVdBVV95cUxQUkttNml4RzRzcGtGZ0hteWxLZ1VuMnJqZWQtNnJxdUpEZkZFcTdJOWF6aXpyTXc3SUlxZFVDRG91RGJtTTR6QkVHdzF0cm9ZTmMzVThNNE0?oc=5",
     "pub": "Thu, 03 Sep 2026 05:35:00 GMT",
     "src": "Armenpress",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "United States Dollar Index weakens below 99.50 as yields ease - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUXR3cnF2elF4ZURMU05fcWt5WXZ6NDJQbGRFVWU3ckoxSEstQTFBSmlXT3JUTld1a0lkalktclg1TFNud3dJdDFhVDFQMHAwakdYZng5c1RiMV9GbmNBWWlmOE94TVladmlzNHZIZFhJQ05XdDZkZDNpUlRnMi1KTEUwSFRjMTBWVmdIdG4zaWZJLUlacnRWdFBWdVAyWUI0SHAzcXFn?oc=5",
-    "pub": "Thu, 03 Sep 2026 05:10:26 GMT",
-    "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil prices edge lower, while Asian shares rise, tracking Wal... - seMissourian",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQRzhRbGxfcTZlblVWUjNfNG9jb3p1b2tHVi1DOXdjSldXc1phdEhGX3lwNUViRGl6ZXA2djYtQ2lyQWVqT2dHSDI0RW1PNnhsVC1tYU5aWTZYMWZZenBSa2tmNkg1YVE0bDNkTW9xaVVxbmFfMkJILXhOT1hQYkhBcDZ2eE1uNVVPSTltN1U2dU9ybVNEenhjWjFxTTVSWFhsRlotQno5ZzJCd1lsZzhvSWtRMzJhLXc?oc=5",
-    "pub": "Thu, 03 Sep 2026 05:00:19 GMT",
-    "src": "seMissourian",
     "trig": false,
     "geo": false
    }
@@ -1464,18 +1464,18 @@
  "charts": {
   "vix": [
    16.06,
-   19.87,
-   16.41,
-   18.63,
-   16.59,
-   15.84,
-   16.73,
-   18.7,
-   17.09,
-   15.15,
-   14.63,
-   16.01,
-   15.2
+   22.22,
+   18.44,
+   18.89,
+   16.15,
+   15.03,
+   18.77,
+   18.58,
+   15.99,
+   14.9,
+   14.25,
+   15.13,
+   15.25
   ],
   "tnx": [
    4.45,
@@ -1505,7 +1505,7 @@
    99.6,
    99.67,
    98.8,
-   99.19
+   99.25
   ],
   "bizd": [
    12.42,
@@ -1550,7 +1550,7 @@
    157.6,
    159.33,
    158.28,
-   156.7
+   156.77
   ],
   "uso": [
    140.86,
@@ -1610,22 +1610,22 @@
    64262.11,
    63402.17,
    73032.76,
-   77912.65
+   77824.39
   ],
   "vixts": [
    0.813,
-   0.911,
+   1.018,
+   0.865,
+   0.921,
+   0.827,
+   0.768,
+   0.921,
+   0.923,
+   0.835,
+   0.793,
+   0.732,
    0.77,
-   0.908,
-   0.849,
-   0.809,
-   0.821,
-   0.929,
-   0.892,
-   0.807,
-   0.752,
-   0.815,
-   0.74
+   0.742
   ],
   "hyoas": [
    3.27,
@@ -1742,7 +1742,8 @@
    "geo": 1,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.0,
@@ -2439,12 +2440,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-03T07:21:49+00:00",
+  "checked": "2026-09-03T07:32:16+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

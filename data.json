@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-04T21:41:59+00:00",
+ "updated": "2026-09-04T21:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79839.97,
-   "chg": -1.76,
-   "chg5": 2.8,
-   "sma20": 75620.05,
-   "sma50": 68779.62,
-   "sma200": 69839.43,
+   "price": 79756.85,
+   "chg": -1.86,
+   "chg5": 2.69,
+   "sma20": 75615.89,
+   "sma50": 68777.96,
+   "sma200": 69838.99,
    "high3m": 81271.74,
-   "reg": 79839.97,
+   "reg": 79756.85,
    "pre": null,
    "post": null,
-   "regClose": 79839.97,
+   "regClose": 79756.85,
    "sess": "reg",
-   "mt": 1788558081,
+   "mt": 1788558686,
    "ok": true
   },
   "USO": {
@@ -1123,139 +1123,58 @@
   }
  },
  "news": {
-  "credit": [
-   {
-    "title": "Pagaya's latest ABS raises $414.4 million from unsecured consumer loans - Asset Securitization Report",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPLVlSc1h6VmpKY3JIU2pUb0xJenM4T29xMHVkZEhrd1FvQWhJSUIybWwxQXlETVo2RWJBcFpvN3hQaFVHVjR4ODJDNUJDeVdLOW9DV2NlTWI0dExoa0M0MkV4OURwcFYyTDBhRkNhblBqUEhGZURZblF0MlB0QlREcmp4SlhqUmNkUmRMZUpqVjJjbkt2OHZ2Q0N5Ui1IZWtHUGNxNkptMjQ5NHF4dWhZ?oc=5",
-    "pub": "Fri, 04 Sep 2026 16:17:00 GMT",
-    "src": "Asset Securitization Report",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Term Sheet: Data center CMBS momentum; Boston landmark refinanced; Pollen Street’s German backing - pei-privaterealestate.com",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNc3RvbnI0TVVnQmJyTUd4M2VoLUhZdGNBc2hyblJRWW1Gc3lKYXZqbnpaYjc1WC11ZkFMUkZSbVZ0QnVGd0ljSm5LVWFmTkpPWVZZN1JoZVByaWpIMUgxc0kzR1RIeWxlamI4Y29DSTdIR1NwV3E0RFktWU13ZHA1UThDbEZwZFE0b3lFZll2TW8taWVfdGZMVlRzQW1kNkNFSDUyQVZWcDltLW9tM196MWMtUGxKVFpRWFI5WW13bWNGZDZ3VnRzdGptUkFSWkJEbEVId09n?oc=5",
-    "pub": "Fri, 04 Sep 2026 11:46:45 GMT",
-    "src": "pei-privaterealestate.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SCI In Focus: AI rewrites data centre capital stack - structuredcreditinvestor.com",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOVFlMMzFBSmdaaTVWVkUySEVLVTRzeGN0UzRtVWpjOXBwbktLSzBVR1dVUnhtX1czLUEwMnlpQVVhQWpqNThxTi1tXzNMUVFVRS0wR1JkZ0hlMnNmSGNEQmdrSkFNbTRhUXVZbU5YWXpEX192OWNJdkg3LUtxVkQ3X3lnZjNrYTNkcVRDOVpMeXZ2Qk45TUJZUG1ta1JlcDdrT2IxRUtIQ0ppVjI4ZzRsSlIxOXZudi1Jc18wZ09jVTh2QVFpcFFJVmphenZPUQ?oc=5",
-    "pub": "Fri, 04 Sep 2026 09:47:01 GMT",
-    "src": "structuredcreditinvestor.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "[In This Economy] Risks of Pax Silica - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVl9sMk0zdTYxVURhQ1FlOHRfZVFDUUx2SUJDelh3YUNtSWpKYTQyZTYxN3psNTRTYnpXZzdoS1V1TDNMYVA0TXdBYUJzUDJHb0tZUVlnY29wOC1iZVJMdDBJUXFRWTNpaFVTaHRKN2k4RUxsVXdWR3NzN0p5c3hCcHkwbmtLQ0U?oc=5",
-    "pub": "Fri, 04 Sep 2026 06:56:38 GMT",
-    "src": "Rappler",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The rapid growth of artificial intelligence is putting pressure on technology companies to reconcile rising demand for electricity and computing infrastructure with their climate commitments, with AI development driving greater energy consumption and challengi - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPcVVRNkpiWG50TFN6bzFjT3ktOVRmZ0F2THlvTjVLNXVvNTd6eUlzeTk3X1NwSDZrU1QxRlB4T3FXbzNkUExTbmhtRlJKdVd0amRDY2p6UTE2a3RZZXREdm92Y1o1YzJ2dlR1YXVoRV84TzctUDlnZ2d5U2FveG5pNUwwSm5uN1NMd1RMNmVRcFg0OEZjMmZHVjRpY1IwTFlCQm04ZjFWSVh2X1F3SDI2UEJnVDVQdmwwbHNWR2otNFRzNU9aVjlDbGk2OU1wcGNDQWs0ZjF2d3A?oc=5",
-    "pub": "Thu, 03 Sep 2026 20:00:03 GMT",
-    "src": "facebook.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "New calls for public ownership of AI infrastructure to stop Australia ‘being held hostage by other nations’ - Capital Brief",
-    "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxPM2VfV1h3ZFY0U0VjYXVFY21DMHlTZnF2dy1kbVctUlBKb2pVT2ZDdnM5RmNtbjdlaDJ1TnNFZ0lkRG1adThDQ0dyUU9aVFMtOGMyNDlLSzB1SFpKSzNPdHU5OWZiV1JMUHphUEx6UEtOYjZiNjNzTG0tRVlMa29RalRtTVEwdnhfN0lnZ2ZaNnJnenptY0c1Zk5Ud0Vpc05jTTgyQk5zdnhGNDZhekNDcnZ0ODF6ZkRmeUpmSnBvUVhSZW1Hek83b3RBd1ZTaEZBZVJBZllELTJDT09zN3BPQmZPZFRVNmhoYUFDNlZvcUdGSFJuMmotUEtOMlk2NXRyeVhyT0pCSUg5RGd1?oc=5",
-    "pub": "Thu, 03 Sep 2026 19:00:00 GMT",
-    "src": "Capital Brief",
-    "trig": false,
-    "geo": false
-   }
-  ],
+  "credit": [],
   "fundamental": [
    {
-    "title": "Federal judge again rules against Musk's xAI, allowing Minnesota 'nudification' ban to continue - 5 EYEWITNESS NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmYyS2NWNnI0aTg3VUc2b1c3eHpwZ1ZCbnh1a3psWkY1emExVE9vMHBNTjV2MGVEakxBc1loWXYySkRTRzdoRFkySTIxNVV0TWxkSDlYZnFWQ3U1dEdLeWpjck9xb1ZreU96SldTZWwxZE5ucFE2V05KVmI4V3BMSU03TFBSdkpxUnVibDZ2THRldWtaV0Y5MF8xdF9zc1loYXY5YUNlTjJRR212blZHOXI5UkpjLU1hT2J6TXBFdF9FU2J0RVFibDZB?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:45:09 GMT",
-    "src": "5 EYEWITNESS NEWS",
+    "title": "Anthropic calls SFPD over threat against CEO in Claude. User says it’s a misunderstanding - The San Francisco Standard",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DY0E3Y1ZLcnJQamRtLUl3c19Za0Q1RmJzZDVSR3pMb3V2QjltWnJkR2FYeVBzQlhYdXhjUVFxOGNHb2xPWHpuV0hRS0JQZFA0RHp3bjB6bHpNV1lFM1VwWnREZGotdFBQY2lLT3hEOGE?oc=5",
+    "pub": "Fri, 04 Sep 2026 20:55:26 GMT",
+    "src": "The San Francisco Standard",
     "trig": false,
     "geo": false
    },
    {
-    "title": "MN lawmakers defend nudification ban after Musk lawsuit - FOX 9 Minneapolis-St. Paul",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUUFmUWtNZEEtTG5WdnFIc2IwazZlWlNPRFd4VjRsYXZkUzc4N1VHUk05dGxxMWtNR3hqU2xNUjZ1dGcwNjdjRThneUhJd09FWGRVVXdiXzRlY0Rid2JZYUtfVzktS0hIWnQzOGF6MnRQX0d6ckpRM29zdEVfSTJFQlRHdS1WQzlkLVJJSmNLWWtFd2h0bUNZWjh0MkZnSU9D0gGmAUFVX3lxTE5FNGVNdE9jRXRJLTFlYTk5S2MwbGdwdVlBMGdKR1BVRXBXbllEZ3cweXloY1RJYzF1c0xFQ1hKOHdjRUFobW5RMmNmdmZ0dVlWYTF1UjdsdEYyel9jUi1oZnRCVnV1eTNHY1NOS012eFptQ3RNTnl2VGgybWtlVFJld1VEMWtCRUxLUEl6Y3hBUm1EVkNPejFMQUV4ZXF2NElUQmx2U0E?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:40:04 GMT",
-    "src": "FOX 9 Minneapolis-St. Paul",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Judge lets Minnesota enforce anti-nudification app law over xAI objection as case proceeds - MPR News",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOR2Ridzc5TjhDVGlLdFZoZTlfWjRtODJCaGdkMHdNeHk1bTU3a2hXdGo3UzJkR2EtOHlXZ0lFTzBzNnRCVmJ5MlU5ek1xaVlSakhEQTlDWXM5Q0dsQ1ZjdFVHS1k5Tnk0Nmd6QzBOTThIZVlRVElVaE03NkhoRGNXaXgwMXo1RnpLVGcyOWZ1emY2QWNTQXo1eUk2Z0MxaV94eDB5VGp2ZEVHNFpOcUNjS210cWFKbDE0TDgzNHJPRGlSeS1iRDVqT05B?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:23:00 GMT",
-    "src": "MPR News",
+    "title": "Anthropic's Claude is Coming to CarPlay - MacRumors",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPc1BMYlFwTmJBcURwSktsTVN3NVlhczhTTDZKcEd5U1FoSjg0WnRneXRCM1YyTlJldUtqSDJXejJWVmhITG12dnN6S0dYSVllN0JJUUowNV9pRlp1ZFZYN2ZaOFBKeTFlME9NdjFDSkNUYy0yakMySjBEVDdPRlpMd3FB?oc=5",
+    "pub": "Fri, 04 Sep 2026 20:43:31 GMT",
+    "src": "MacRumors",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Musk's XAI Can't Block Minn. Ban On Image 'Nudification' - law360.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUjFidUhnRFZiOFF1V3B1ZG1ZbENpOWZrLXU3ck82UEZwcU5UMmFRdXVROVRDOWtKVlBSNjQwYUpZM0NXeHBVczJyZXFheTNpY05TUjNDNU80N1RJRDdGNzV5NGo1d0lqNU5tZFFwSlU0SWxtQzhOVTZacDBoN21hXy1XcHJzWGJPTUQ5NHRDd1RtQ1lxMnhRTXVyMjdDVTZXcHV6R3FCZGzSAVZBVV95cUxPYXo5a3RRamtwYjNKTnEyaUZmTXFLeFE1cjVsdG9YWHhPS3p6ZTVLamlZVzlHQkRfWXFTVVBnTE1qZGtVWVpkdUlFWkQ2aDJkMU1TZW9EZw?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:19:00 GMT",
-    "src": "law360.com",
+    "title": "Anthropic close to awarding Morgan Stanley and Goldman Sachs top roles in $2tn IPO - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNaWxaRF9ValREekRRNE00M0JmTWVkZE9hN0hyLXlhVTktdFVtdjBqaENTcTBJZUdmbHJ6UEtHVTB4Z3JqcTBRWjhoYWkxYWgtbGNhTkRxclJJT0hLUHJYTDRUV1NINERTal82WVZjRVJYekIwZ0stYjFYdk9YSEx3eUNSRkw?oc=5",
+    "pub": "Fri, 04 Sep 2026 19:46:21 GMT",
+    "src": "Financial Times",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Judge keeps Minnesota ‘nudification’ law in effect over challenge from Elon Musk’s AI company - Star Tribune",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOVW9wVkZUVXZSTVZ0RVR6ZDMwSExDVVQ0QWdPQXZVOF9WQXZpTjloMmEyeHBibUZzUzEwRy15MTFOZkc2bXNPbmh0SnZzMlRJem5zMFdOajctcWNabHVNQXVmZE41TVdRVmw0V3hhMjVvbEZlV1NRYTNWOWdZdW96S0Fmcnp0SllVbm5xNDltT2lRcE9YRnFRUHdka1d6dlRGVUxuQ1VVWE9RLWdEU0hibDRSQTM5b05wY1UzbC1SRzlCN3BVanRn?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:15:58 GMT",
-    "src": "Star Tribune",
+    "title": "3 REITs Getting Paid as Big Tech Builds Out AI - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPZDhtMVBMaGNqVzVXQk5WcmFUalVMMTdEdUFuUEJ0N21INlRQUGdaUTU4SlBGWFlCb21HaklCUWpjOF95UmYzV0RialBWWDFlX0M0dTh2UUZUN3NkaWlRaFNnQUdnYm5SdjZjQncyMHg3NUJ1VnJqMUU1QUhrZFRZei1id09wUU5lb0JfVlNqdGQ1Y2hLM0ZQTXdDQVVOVnpNLVNBVTY3dWk2T0FQLTFmM2NYYlQxR3VzMWs5SjhTVF95WFZnTzV4VURBWEo3YVhT?oc=5",
+    "pub": "Fri, 04 Sep 2026 19:22:00 GMT",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Musk’s xAI loses court bid to block Minnesota's AI ‘nudification’ ban - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQS1VRQXhtR19VS2tKbVEzTnB6YjFUNl8zV3NFSURDZDRTcmZRS2tHa0RPOHdlMklXMWVSckNXdm5HWjdYNWhSTlFNeUlkdWFxWHo2SFdXU19ieWlQaUlEUjNrUjJkV1JSajZaNGxxUkVkM19qR2NOMkZvcWMwRHpIVTJybUlQZFB2ZmpvRy1CeURQcmp0ZFctU3RzMnItM29yajY5blZoT1ZjY0cwWFg1aVFoSGtpZw?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:11:05 GMT",
-    "src": "Reuters",
+    "title": "Formalizing Fermat's Last Theorem - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWFpGbGlCLVpoN2ZBUGs1UUZNSXJDaHNZNWZoV0g1RFVLc3BKbi1Nc2xVUWZ6SWZPR2JsanI3X1BIb25vZURqckE0Q1ltM1U3RnZXRkR1STVYei1VQ00tenotVjhNS0FfV2lIQ25WTXY5VlRPamc?oc=5",
+    "pub": "Fri, 04 Sep 2026 18:35:51 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Marvell Rises 6% as Beaten-Down AI Silicon Bounces, Qualcomm Barely Budges - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOTnlBVG9kM1c4WkRjMjJKVmFTa1NNQThFeFIxZVZ3ZGtPaEZNc2poS1BEdThVSjR5bUhrU1hVNk5Ud2JkczBUMGVrMDV4d05QbGxPR21TX1pLaU01bjA5d1g0TTN1bEc1WWNoUG8wb3Q1TVJyTDNocmNTeGlyTTlKSVZ0VkNtOFNxek9qNVVoZDdNdWo1NzU4YVBXbi1YTnpXYjBscy0taUVmT19UUFR0R25xX25Wb2c?oc=5",
+    "pub": "Fri, 04 Sep 2026 16:02:00 GMT",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "US President Trump claims US sank ships in the Strait of Hormuz - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPTm9kcmRyc01TZHBDMjFLZzRjRXdIX25zc3Ffa1R1c1VmX3BIOGVDNmsta2RMQncwSXRsOTNnQ0dGbDY1RTN1cVVvTTcxbkpucEN5TnlJcml0SUhjdVJ5UXZNUXNSNl9uUU1xanJDZ0pTQnUzM1NmQmJSOXBLLU9zRGY3RWh3WklXMHc5c21qN0p6eFUxaVE?oc=5",
-    "pub": "Fri, 04 Sep 2026 18:46:30 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": true
-   },
-   {
-    "title": "Canada Tariffs, Again - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5weXFUSTRRYktBZEtYLXMtU1JtMXloUUdJYWRHQ1hLZXNSaC1vd3pNblhuQ3JVMjFLSW94OV8zbHlGYXlqOTd3eG1QdEJHRWpnUlRjRnZrYnYyaE14NWxmYlEwbjluY1JFYV85dWszeWxBVXljRHc?oc=5",
-    "pub": "Fri, 04 Sep 2026 18:19:47 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "‘Astronomical’ fuel price surge hits farmers in UK and US - theguardian.com",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdG5xYTlMai02VjZCc1llYTJBOV90ZGFyOXVfdmticjhDUkJHZmNLS0hlU3FieXZCbDc1bS1Eb0JNVXZBdGs4ZXNwdUczd1pQSlpKNjRaU1BDc3U2MjBlOUUxMktBMDA2WndramxOOGVjSkw4UXlXYWUwRF9yX3RPOEdnN3pac1Q1WkEycHlFZw?oc=5",
-    "pub": "Fri, 04 Sep 2026 17:26:00 GMT",
-    "src": "theguardian.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "VCLT: High Duration And Tight Credit Spreads Leave Little Allocation Merit (NASDAQ:VCLT) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPNjktUGR5d2szSnBmQWtwazgwaVRYbDhJX19rN0RpQy1oN1NodlZBYlNITGp4OU5LcUtnWWdlcm05dDA3WUF3czg5VjZwNW5iVE9aeld1OE55LTlmVENmOUZrVnRweE9ka1AtODZ2aXBFVG9EdmFCWlpJLUg5dm90Nm9LNW1FQmhleGNGd1JuWDY1Y1pXQXRGSlNlMng1V1l5QVoyN3NzbVRXN0cyQXQtTk9PZTk?oc=5",
-    "pub": "Fri, 04 Sep 2026 17:25:35 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Ortec Finance warns on cascading polycrisis risk - FinTech Global",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQUDdyb1cxYlo4REt1YnQ5d0t2M3pkTmNPbXdISG05VFF3S2ZPZzI2aUhEQlIwVlZXN09JMWY1TGxObEJSVUY1SjdwUlF1WURJUjJzY05NVzZITHdRRzdhdzhRekVtWkVFYXJ1OTVEQjVHS3AzNWRCcmZCcEVyMS1fMm16WUQ2aTA0alo4?oc=5",
@@ -1265,60 +1184,92 @@
     "geo": false
    },
    {
-    "title": "Oil prices are expected to rise in the second week of September as global crude prices are pushed higher with tensions in the Middle East and disruptions around the Strait of Hormuz. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUXdDbi14ZTJnQ1FTT2kxclFVdHRmNGtFbTZSaEd0OFd1Sl82T2ZmYU5OMDg3WkVHS3NoRzVJNklhYXBRQjhXT3VlNGl2WDQ0aFdfWUhaaWtpS3gtNVE0RV9xMHM5VWdENmt1RUU3YWh0STdGNGRQS2hFY2tJY2poNEZWQmJaYnNMWS1kT1NVUnpPX1h3NTBSNFRhREpjSXFzZjM5dzlxYnhVeVAtamRqNXNMZVF1NXc1NTY5SGZIV3RXdDF4bWZzYW9vaGJ5M29nV1owUF9RMA?oc=5",
-    "pub": "Fri, 04 Sep 2026 14:50:01 GMT",
-    "src": "facebook.com",
+    "title": "J.S. Held Lending Climate Survey Finds Growing Lender Caution Amid Rising Economic and Geopolitical Risks - ABF Journal",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOUGluUXBtU0xnejY4VWpfUmFkaDl6T1ZZX0pBcjl3ekNhTUVnSVNvWVNZQ241UjJLNGpCZFV6ckRQMzQxQmhpZ1VkMWQwVU5ObHB5T0FPOFBNdDk0X0FXNUpBYVpKVzBfZkMwMU56aDhPUlltbFNtQmlpOW11c1N1YUNHLVo2cmVFa0tSMUhsMVVybUZnSDBJcWh3aGhMdkJOSE1rSkxsNDRZWkw5S1ZKZC1MejlRYmdhSEc4VjlCcm1UcXBzRklETy1mMWw?oc=5",
+    "pub": "Fri, 04 Sep 2026 10:53:33 GMT",
+    "src": "ABF Journal",
     "trig": false,
-    "geo": true
+    "geo": false
+   },
+   {
+    "title": "Al Ramz’s Karim Schoeib on making strategic decisions when markets won’t sit still - Gulf Business",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdHhCN3JjdjJSdFB2NW9vV29QSFluVVUyY3RkX0ptd3AtQm1NSGlwck1IMXRkeGNha0tqdXRfb1NjbWFCVzJ6dDVMc2Y4ZjlwSHBZRG4tSmxaVmlJb3BXQnpPNThtQU1RVEhuLTJFLTd5TmxMbi1IM3FpeVFwbG9uZ1ptaFNrbnBjejl5dVRCZTJpR0NpZF9nR0FaMm1WeFRKR1BrYVo3RGhrN3VPZ1JmREZ5UXBvdlMwVDZlSW9n?oc=5",
+    "pub": "Fri, 04 Sep 2026 10:27:17 GMT",
+    "src": "Gulf Business",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Economic Watch: Inflation, fiscal risks pressure Europe's sovereign bond markets - Big News Network.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPX3R6SjBjUHVzdFR2U3h0QjhaYTdvWXo3N3lCNTBRZ1VDeUQ1N0ZLOEJ2WlJDWkx3VW1GU1YyRE5KNnh6ZnlLeXhpUkRhazkwT0NlSzdPMWlQVzhJYzdmakx6U05CWHhCUEl1NEVCdHFreWhuWXE4UldOX3JCVVdMZUI2SFhUT1dpdjdVaElKVzJhSVdTaTNjS2FEdkxMM1B1OTlsQVZLWkYtc1ZhQW00QUNJZ3AwcERBbEIxOXpUQQ?oc=5",
+    "pub": "Fri, 04 Sep 2026 07:15:00 GMT",
+    "src": "Big News Network.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why investors can’t ignore the uncertainty-risk gap - FinTech Global",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUGdsRUxHd29Od0JQS3NWdDRabGhvS1dXVXVacXZXOHFzdTFzRG5nVWxkdUcxbnNKaHBlUkNlSVRQbDRCOXR6d3hGSHd1ZzVRNWRVbHhZQ25La0xCYVloTkNTa0ZsZ0tsN29PZ2JuaUg1WUNTTHViRmw4OTluU2JvM1RweTZVQ045VzhBVENB?oc=5",
+    "pub": "Thu, 03 Sep 2026 17:18:47 GMT",
+    "src": "FinTech Global",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AllianceBernstein – Climate Power Plays: Energy, Geopolitics and the Repricing of Risk - CSRwire",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOX1FIYnVlYjJmdlphYkgtN1Rsd2JmVjVDTXh4dHc1bXREeS1xeGRjbmE0QUxQeWM4bTlOT0pMcFR6WkZxdjFfeEhEem1Pa2hzd3kycmtnMFJXamZ6UFRldktsVWxKQ1RQYVVQdVg1MDlGQ0JZeGlROGxjc2VhOElLeDlpMXNacXNZZGxTYjZYM3A1amxJdzBTOVp5bk90Q2hhWHBHSC1hOXlLVS1ySm5v?oc=5",
+    "pub": "Thu, 03 Sep 2026 17:01:45 GMT",
+    "src": "CSRwire",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Oil Futures Post Weekly Gains on Middle East Escalation - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZWdtX2IwaGpUZzJTdUp3VzRMNk9ZZ3UzbTBxZDFyZ2ZsSFY0ODN3VXA5NjUzaldWc24zRGxYVTl3SVlZMGZFcXRrVkxfZVZDMUNES1E0Z0xWMVhoLW9oUVM1Z1lTdFBuSjdEUkc2WUdOS2JOdFFWdGUya09DZmtzUG9XNFFocVI0UG1Ma2pJbWFzOHZVRDBGbHJucWFkbHZySzlNMGxmWk9uNlE?oc=5",
-    "pub": "Fri, 04 Sep 2026 20:02:00 GMT",
-    "src": "WSJ",
+    "title": "What’s Next for Gold Prices After the Latest Rebound? - Morningstar",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa0lhRkZCQ0hJeFRBSzlnbXhmSEJlUlZ0RFB4ZF9lQnFBeDlXZkVSNGphOHhlNXc1eE1OcENXYmRDd1FwMWE3dTZZWHlwakZ3SUZfNzhybjVHV1BicGtodlJzb0NFTXc4YXVjVndaT0VvaGZJVGRoaGduOFE2dzh4OUxkWWhQME5yMHFYTWlqOWJrUQ?oc=5",
+    "pub": "Fri, 04 Sep 2026 21:16:34 GMT",
+    "src": "Morningstar",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Crude Oil Prices Push Higher Ahead of Holiday Weekend - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZERzOVpINFVMM1RjSFducXY0ZVhqTi0zUEM0QTVjZnBkUzktdGtEQ2h1WnlXdFlWSWJqVmVkVVBfTXJ4cm52WXRZMHZUNXg1TWVadVBIRXc0WkhpMTZpR1lVbUNsLU9NQkpQSjBqQnh3U09UZlZMQlBxWmR5VFZCSHFRQURrNEtZSVlkdURqWDdUTExPTXYyUkFodk9LZw?oc=5",
-    "pub": "Fri, 04 Sep 2026 19:14:07 GMT",
-    "src": "Barchart.com",
+    "title": "Precious Metals Surge: Gold Approaches $4,500 Mark, Silver Reclaims $66 - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxTUhJVFR3RXFNV3VTVFBNTl9OUXhvNmx6R01EZjFqSW05UWJjN3JIUGltNUNobFJKazVGR0lhb1J2bS1iRDdSeC1Fa0YtNU1BQi1xM1hnVjhaZklSUjFpU0ZHWV9GOHlncUtZMmtKTzRxQV8zM2c?oc=5",
+    "pub": "Fri, 04 Sep 2026 15:35:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "‘Astronomical’ fuel price surge hits farmers in UK and US - theguardian.com",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPdG5xYTlMai02VjZCc1llYTJBOV90ZGFyOXVfdmticjhDUkJHZmNLS0hlU3FieXZCbDc1bS1Eb0JNVXZBdGs4ZXNwdUczd1pQSlpKNjRaU1BDc3U2MjBlOUUxMktBMDA2WndramxOOGVjSkw4UXlXYWUwRF9yX3RPOEdnN3pac1Q1WkEycHlFZw?oc=5",
-    "pub": "Fri, 04 Sep 2026 17:26:00 GMT",
-    "src": "theguardian.com",
+    "title": "US Employment Surprises Threefold, Renewing Tightening Concerns... Dollar and Interest Rates Rise Together - WEEX",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQQTdDaHdYNDlsRVdDUF9QRERCNkFqUlVPVVdWY2hfeEMzUGN2Wnk4OV9hdE96Qlo3ZEdVVG5LdHF0M2FtZXJ1Nnd5eU1CTThLZVNYSTllajFieDVaRmxWdTlBNjBGb3d6ek0xMW9wN0VDRG1yWnA0NWJ2X0ZTOThWdm5fY2c4Q1dQNnFhREx3NDNnd3VQX0dIbm9VQmNOTG02bFRZT2VpUDFyYktFMFNmQWw4Q1RtdGM5T1djcm9kUEtNYWdYcHlzZG9Dd3dPei10LTVkTVFnWEZaZVByS0xwUkNlcHNwOUNWc2NSaGRJNFE0dw?oc=5",
+    "pub": "Fri, 04 Sep 2026 14:34:39 GMT",
+    "src": "WEEX",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil prices up sharply this week - Transport Topics",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1nN01UQ2h3bmtzYjhrWG0yckM0a01FcW5YWTRERXMwTDJBTjQzb2M4TnZhUko2QUt6QzR2TUZkbW5BTVJFVzg1NENOVzhQY1BNYjFiT1VEcVBjQVRCNFFJSlBsMGtCQQ?oc=5",
-    "pub": "Fri, 04 Sep 2026 17:09:00 GMT",
-    "src": "Transport Topics",
+    "title": "Euro slips against US Dollar as Nonfarm Payrolls crush expectations - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQOTgtc2pYZm5BOGlncUpxakNVNThkUzYwS05NYmlCVjdHQ256WE91MUpNRkt2U053UXh2eTV2cHJBclc5UGIyOU9Tb2ZLSHk3Rjk1TkI4Y05Va0lqQXNUM21DN1N5eC1LWUV3Zmk5Zl92YW10SllSNThfSFBzd0lHZnlXLTlzLTg3ZnFZbWt3Tm1PdHc5Z0tkbndDZl9PSUFpdEhzcUgzWnRmUDBmaDJF?oc=5",
+    "pub": "Fri, 04 Sep 2026 13:21:03 GMT",
+    "src": "FXStreet",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Fri, 04 Sep 2026 16:46:46 GMT",
-    "src": "LiteFinance",
+    "title": "Gold Price Forecast: US Jobs Data Tests $4,500–$4,700 Range - DailyForex",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPdTg2a3pLR195NTJHNnF0cm1xV21OUEpQZlY2cE9tN1FOczhtR0hrMWEybXZLcXVxTXlyZ1R1OWtDa0dZMHZFYW56Rl80MXhsS0VNbWg4aDRUM0NrNUM1ZXNfNzlVTFFyR2ozZTdBUWhiQ2tyaXlVelFlZTcwaktRcmQwT2p1UWU3amVsUmJNWFRYWmcyME4xUy1vMXZRZw?oc=5",
+    "pub": "Fri, 04 Sep 2026 13:02:32 GMT",
+    "src": "DailyForex",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Rosneft CEO China Calls The Shots in Oil Markets, Not OPEC - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeENIS3lxaDY3a1JPV0luOERIN0tNeXlSMVdhVFpVVW9sT01Lbk45RWFKUjhBUDBtSUJqS1pnRldjTVZoaXVrNkd6TVEwakR6WEFuMlktOW1oX2R6U1JMbEVZM1kzOUxDTFdjSEhaTV8zU3VETGFsS2xOSEp3VmdGUDl6Wk00YV9nZ2ItOTBMaXpacmtuR2p3SFZ1cHFnLWRURWt0cmhaV2N2ODNQekdLZlNDSdIBuAFBVV95cUxPMzJhN0NscWpURmlJeG03UWE3bWpwem9YNGd2TXc0MUJXemlVbURLUTN6RUwtWVA0RXBQa3hiOEFuSEpNd18xU180d3FnSW9ESGtWMU9wT3l4c3RmUVB3emZ4ZHlHM3QtOE8xa2pvRENOODRzbzZ3RXE1anJSUFEyVWdHR21xc1VMdjlJWlNyVVNvYUNEQ0t5MHlKUThCZU12U01SSHhQWFl1bkNyUUdlRVhzSUYySlBH?oc=5",
-    "pub": "Fri, 04 Sep 2026 16:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Gold Price Prediction September 2026: Will Gold Surge or Crash? Gold Gains 9.6% in August as Fed Rate-Hike Odds Hit 64% – Can Gold Reclaim ₹1.65 Lakh? - The Sunday Guardian",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxNX05XOXcyT2o3em5uOVRyaWl0ei0zS3RhdHh1RGk5eVRiZldOU2p4dWNJemVpekFVVzU3TXE2cEk3SFRvY2xPS0E1bTh3MXFaaHptdEFudlFkbGRXWVg2Mm5mR2JtQmVyaEJyZXFiM05FbjhsY1ZRMEtBQ2hmZGhjWnkzS2RRaTUtMnVESnBJNFQ1TUhhOUs2cnBVaHdORE5MZ1YtWDhGQ0wtNnFaSkxGWG02N2kwcEdnNXpRVXl0Tk1ldHlXbm1tVVpFMjExaVdvV2ZXcnJXOExxZHlzRVl6SkVUUkRjUEpka1ZqREpJRVNxYjlSM1dUMU1HUDB1RHcyRTFBZU0zZkdSSUxpYXN2ZFd3NXYtSzTSAZwCQVVfeXFMUDBwaVNtVHdMWVJaaEwyUEVzbzU3dWF5czFCblBjajZUVENjQ1REYWxsNFNUUmpPYVRuTUtROHp1enhDTjRuS2owd290Z0diZFNUS1F4bFpVYjVoTzVKVy05U2RhcV81V2QxS1NkLU9XaDJyR01NZEtGNDg5UVhfSHNvYXZIVWhxTTl2VnhqT2NHSk1WM3NSV1V0SWlqMnQtRGp5Wjh1b1hDUzVIb2Z2X2dvVndpN3JvX2VFNi1zc0hEX3lzZ1VkUW93VmJ6R0FLb0NKWlZud1lXbHNaSEhYX3FTWFZGbGJSWERkMXJtMHoxSU5Cd09sS190LUdBSC0xOHM0MTBxQ2I4MXZGcGhNc29LV1BQaXZocVBWQ3E?oc=5",
+    "pub": "Fri, 04 Sep 2026 10:47:22 GMT",
+    "src": "The Sunday Guardian",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1561,7 @@
    64880.19,
    62975.59,
    78335.19,
-   79844.24
+   79759.6
   ],
   "vixts": [
    0.706,
@@ -1729,7 +1680,7 @@
   ]
  },
  "summary": {
-  "text": "호르무즈 해협 긴장으로 지정학 리스크가 부상 중이며, 저변동성(VIX 15) 속 신용스프레드 2.65%는 여전히 타이트해 시장이 경기 회복력을 낙관하고 있습니다. AI 인프라 수요 증가에 따른 데이터센터 capex 모멈텀은 지속되나, GPU/HBM 수급과 관련된 공급 이슈는 특이 신호 없습니다.",
+  "text": "지정학·경제 불확실성이 고조되는 가운데 VIX 15·HY스프레드 2.65%로 신용시장은 여전히 안정적이나, 실러CAPE 42는 밸류에이션 과열을 경고하고 있다. AI 캡엑스 사이클은 Anthropic의 IPO 추진과 빅테크의 인프라 투자 가속으로 견고하나, GPU·HBM 수급에서 특이 신호는 없다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,9 +1690,9 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 2,
+   "geo": 0,
    "capex": 5,
-   "news": 15
+   "news": 10
   }
  },
  "early": {
@@ -2439,7 +2390,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-04T21:41:37+00:00",
+  "checked": "2026-09-04T21:51:44+00:00",
   "openai": {
    "found": false
   },

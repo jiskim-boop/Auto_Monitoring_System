@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T04:02:38+00:00",
+ "updated": "2026-09-05T04:11:56+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79563.25,
-   "chg": -2.1,
-   "chg5": 2.44,
-   "sma20": 75606.21,
-   "sma50": 68774.09,
-   "sma200": 69822.33,
+   "price": 79527.22,
+   "chg": -2.15,
+   "chg5": 2.39,
+   "sma20": 75604.41,
+   "sma50": 68773.37,
+   "sma200": 69822.13,
    "high3m": 81271.74,
-   "reg": 79563.25,
+   "reg": 79527.22,
    "pre": null,
    "post": null,
-   "regClose": 79563.25,
+   "regClose": 79527.22,
    "sess": "reg",
-   "mt": 1788580914,
+   "mt": 1788581485,
    "ok": true
   },
   "USO": {
@@ -1141,10 +1141,10 @@
     "geo": false
    },
    {
-    "title": "Redemptions Ease at KKR's Private Credit Fund as Rivals Cap Withdrawals - Benzinga",
+    "title": "Redemptions Ease at KKR's Private Credit Fund as Rivals Cap Withdrawals - benzinga.com",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMWFrR2czN2RManRZQ3JjOFZmSDRxajJhdFZFX2R6NjdIRWtzVGZkTHFxTllIR1YtWllsSW1tSWY0d1QtUVlDS1JwQklUblZ4MVB3dnVUSjZncWdseXFYTUtPdUlGbWhaM1Q3cUhKdmxUdGxHYW5aUEY0UGh6ZnR1dXN4alFMNzJuY202ZV9Pb0dzMGJJcTRFU09lQW5qM3ZTdS1wOFpqQ1dEMW5KXzhCaVdoRzNPOTY5cjNFT19vRC1ZT3hkUGpHVWdNalBNS00?oc=5",
     "pub": "Fri, 04 Sep 2026 19:16:20 GMT",
-    "src": "Benzinga",
+    "src": "benzinga.com",
     "trig": false,
     "geo": false
    },
@@ -1409,7 +1409,12 @@
    "prev": 11.323,
    "chg": -0.159
   },
-  "hhdebt": null,
+  "hhdebt": {
+   "date": "2025-04-01",
+   "value": 68.548,
+   "prev": 67.951,
+   "chg": 0.598
+  },
   "ffr": {
    "date": "2026-09-03",
    "value": 3.63,
@@ -1605,7 +1610,7 @@
    64880.19,
    62975.59,
    78335.19,
-   79570.48
+   79532.99
   ],
   "vixts": [
    0.706,
@@ -1737,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 15
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2432,7 +2438,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-05T04:02:24+00:00",
+  "checked": "2026-09-05T04:11:43+00:00",
   "openai": {
    "found": false
   },

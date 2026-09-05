@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T03:52:01+00:00",
+ "updated": "2026-09-05T04:02:38+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -739,16 +739,16 @@
   },
   "^VIX3M": {
    "price": 17.61,
-   "chg": -14.26,
-   "chg5": -10.34,
-   "sma20": 19.43,
-   "sma50": 20.02,
-   "sma200": 21.74,
+   "chg": -9.69,
+   "chg5": -5.17,
+   "sma20": 19.53,
+   "sma50": 20.08,
+   "sma200": 21.78,
    "high3m": 22.89,
    "reg": 17.61,
    "pre": null,
    "post": null,
-   "regClose": 17.61,
+   "regClose": 20.54,
    "sess": "reg",
    "mt": 1788552901,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79631.05,
-   "chg": -2.02,
-   "chg5": 2.53,
-   "sma20": 75609.6,
-   "sma50": 68775.45,
-   "sma200": 69822.7,
+   "price": 79563.25,
+   "chg": -2.1,
+   "chg5": 2.44,
+   "sma20": 75606.21,
+   "sma50": 68774.09,
+   "sma200": 69822.33,
    "high3m": 81271.74,
-   "reg": 79631.05,
+   "reg": 79563.25,
    "pre": null,
    "post": null,
-   "regClose": 79631.05,
+   "regClose": 79563.25,
    "sess": "reg",
-   "mt": 1788580287,
+   "mt": 1788580914,
    "ok": true
   },
   "USO": {
@@ -999,7 +999,7 @@
    "chg5": 0.0,
    "sma20": 7724.95,
    "sma50": 7622.46,
-   "sma200": 7321.18,
+   "sma200": 7324.66,
    "high3m": 7822.5,
    "reg": 7722.0,
    "pre": null,
@@ -1015,7 +1015,7 @@
    "chg5": 0.25,
    "sma20": 29560.19,
    "sma50": 29369.9,
-   "sma200": 28122.34,
+   "sma200": 28145.73,
    "high3m": 30653.5,
    "reg": 29565.25,
    "pre": null,
@@ -1027,80 +1027,80 @@
   },
   "YM=F": {
    "price": 53275.0,
-   "chg": -0.87,
+   "chg": -0.31,
    "chg5": -0.58,
-   "sma20": 53515.2,
-   "sma50": 53108.64,
-   "sma200": 50689.09,
+   "sma20": 53523.45,
+   "sma50": 53111.94,
+   "sma200": 50705.16,
    "high3m": 54494.0,
    "reg": 53275.0,
    "pre": null,
    "post": null,
-   "regClose": 53275.0,
+   "regClose": 53440.0,
    "sess": "24h",
    "mt": 1788555597,
    "ok": true
   },
   "GC=F": {
    "price": 4477.2,
-   "chg": -0.32,
+   "chg": 1.07,
    "chg5": -0.02,
-   "sma20": 4469.52,
-   "sma50": 4239.93,
-   "sma200": 4466.52,
+   "sma20": 4467.15,
+   "sma50": 4238.98,
+   "sma200": 4461.04,
    "high3m": 4640.8,
    "reg": 4477.2,
    "pre": null,
    "post": null,
-   "regClose": 4477.2,
+   "regClose": 4429.8,
    "sess": "24h",
    "mt": 1788555598,
    "ok": true
   },
   "CL=F": {
    "price": 91.22,
-   "chg": -0.09,
+   "chg": -0.28,
    "chg5": 9.38,
-   "sma20": 85.42,
-   "sma50": 80.95,
-   "sma200": 88.69,
+   "sma20": 85.44,
+   "sma50": 80.96,
+   "sma200": 88.8,
    "high3m": 92.19,
    "reg": 91.22,
    "pre": null,
    "post": null,
-   "regClose": 91.22,
+   "regClose": 91.48,
    "sess": "24h",
    "mt": 1788555598,
    "ok": true
   },
   "HG=F": {
    "price": 6.67,
-   "chg": 1.38,
+   "chg": 1.08,
    "chg5": 1.62,
-   "sma20": 6.58,
+   "sma20": 6.57,
    "sma50": 6.42,
    "sma200": 6.18,
    "high3m": 6.71,
    "reg": 6.67,
    "pre": null,
    "post": null,
-   "regClose": 6.67,
+   "regClose": 6.6,
    "sess": "24h",
    "mt": 1788555597,
    "ok": true
   },
   "ZN=F": {
    "price": 107.5,
-   "chg": -0.39,
+   "chg": -0.22,
    "chg5": -0.56,
-   "sma20": 108.34,
-   "sma50": 108.72,
-   "sma200": 109.88,
+   "sma20": 108.35,
+   "sma50": 108.73,
+   "sma200": 109.85,
    "high3m": 110.27,
    "reg": 107.5,
    "pre": null,
    "post": null,
-   "regClose": 107.5,
+   "regClose": 107.73,
    "sess": "24h",
    "mt": 1788555599,
    "ok": true
@@ -1133,6 +1133,14 @@
     "geo": false
    },
    {
+    "title": "[In This Economy] Risks of Pax Silica - Rappler",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVl9sMk0zdTYxVURhQ1FlOHRfZVFDUUx2SUJDelh3YUNtSWpKYTQyZTYxN3psNTRTYnpXZzdoS1V1TDNMYVA0TXdBYUJzUDJHb0tZUVlnY29wOC1iZVJMdDBJUXFRWTNpaFVTaHRKN2k4RUxsVXdWR3NzN0p5c3hCcHkwbmtLQ0U?oc=5",
+    "pub": "Sat, 05 Sep 2026 00:23:47 GMT",
+    "src": "Rappler",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Redemptions Ease at KKR's Private Credit Fund as Rivals Cap Withdrawals - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPMWFrR2czN2RManRZQ3JjOFZmSDRxajJhdFZFX2R6NjdIRWtzVGZkTHFxTllIR1YtWllsSW1tSWY0d1QtUVlDS1JwQklUblZ4MVB3dnVUSjZncWdseXFYTUtPdUlGbWhaM1Q3cUhKdmxUdGxHYW5aUEY0UGh6ZnR1dXN4alFMNzJuY202ZV9Pb0dzMGJJcTRFU09lQW5qM3ZTdS1wOFpqQ1dEMW5KXzhCaVdoRzNPOTY5cjNFT19vRC1ZT3hkUGpHVWdNalBNS00?oc=5",
     "pub": "Fri, 04 Sep 2026 19:16:20 GMT",
@@ -1149,36 +1157,28 @@
     "geo": false
    },
    {
-    "title": "Blue Owl Technology Finance closes $150M note placement, lifting recent debt to $800M - Dealroom",
+    "title": "Blue Owl Technology Finance closes $150M note placement, lifting recent debt to $800M - app.dealroom.co",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNN1prTEZITm94UUNWanp1V2otaTVkeG1WQjUwSnpNd3hYNmx3cTJJejdqNUtaLVNwU0VmNlM5Vko4TzFoWUlpVEhGakFJUnpTU2FKYmpJT2FuMFU1bFlxQkdXcENJNGpwZ1dvZHhXWXNlMU5TT0VNdXFNOGc1YTZOZHdIWlVwNWJqRDQtei15V2RCZGV3d2QtUmh2MVdoS25XVXJ3WWJPWmZrNGFIYkJEc3RnOFFIWXM?oc=5",
     "pub": "Fri, 04 Sep 2026 18:25:14 GMT",
-    "src": "Dealroom",
+    "src": "app.dealroom.co",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Blackstone Keeps 5% Cap as Private Credit Exits Rise - Serrari Group",
+    "title": "Blackstone Keeps 5% Cap as Private Credit Exits Rise - serrarigroup.com",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdnRUQjQ0empuOXFWZG1ZcFdJbDMzVlBJaVZ4anhtd2NuU2ZXZXZUNDBKRWJpSEVKbGVka2hhcDNVbG5feS1GaHdjdmRiMWpfV0xOTWM3cXVKLUpiUGFsaWg5b1RSblFuUl9FeUh6R0lMTDhld21YRkVqZVZwcjg1cGpCOA?oc=5",
     "pub": "Fri, 04 Sep 2026 18:24:19 GMT",
-    "src": "Serrari Group",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "BlackRock's private credit fund head Phil Tseng departs amid NAV meltdown and regulatory scrutiny - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9FeVF5WHM5UFByVUpHbFhzaEpzeXZscnlfSVViakcxZUtrUjdHYnNJZEpGdEIzVlNWREh1aUlOd053SEJjMHpvS21IZVdHX1RHODJ6VFo4dXdOWTIxcGFQNjlGaVAtczc1WFM2ellQUHo?oc=5",
-    "pub": "Fri, 04 Sep 2026 15:44:57 GMT",
-    "src": "Crypto Briefing",
+    "src": "serrarigroup.com",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "The artificial intelligence (AI) company xAI led by Elon Musk filed a court injunction to prevent th.. - 매일경제",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5ZTV9jb2FuNjkwZEJGMzVhb2Z4N2kyNUhFczZ1XzlRbnZBcHdhWVBma0Z4UFdmLWpYa0txYTZmNzk3QzNKQmRSX1ZKb21wTTg?oc=5",
-    "pub": "Sat, 05 Sep 2026 02:28:22 GMT",
-    "src": "매일경제",
+    "title": "xAI launches Grok Bot for business, always-on agents that log into your apps as you - Pasquale Pillitteri",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMTUzYnJNUnQ1ZzBiY3RYeGxrek1sVDh1Qk5CUGZObTA1RXdYYklrbml5WHV2cUtQT0JVVjkxSXFVVWJKR2VtZG1Qb0xPUlE0QmcyNU1VY1ZIVUVMOHdlR3ZBaVMyem9BeHE4YWFVTDhfWEROM0RmOUN3and5Z0o0T2t2c1FlUk0?oc=5",
+    "pub": "Sat, 05 Sep 2026 02:10:19 GMT",
+    "src": "Pasquale Pillitteri",
     "trig": false,
     "geo": false
    },
@@ -1199,14 +1199,6 @@
     "geo": false
    },
    {
-    "title": "Mercury News, NY Times want ‘fair use’ argument rejected in copyright case against OpenAI, Microsoft - SiliconValley.com",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQYjVwREpRVGsyZGt6ek1tQUhXZ1VtU01oTUl2Q01jUk1FTTlwVlBNQVBjWmswNGlLVHU1ZFRmdGNyNWdrVkMzUGMxQUF1REJxVms2UkNfMl84ekI1czUya3ROSjR4MWh1dG9pbm9hS1hHOXhMdjMyTkZZaTltVFJ4ekZkallFSkxoa3VDcy1JYklXN2hrSHpZUkpFOW51WkdaT3BKenBLeWZNOUV2dzJmRHliX1Zra3NnSmJ0TTZvb1RnNE1yc1BoSzNSZlNVNXp50gHWAUFVX3lxTE9HUUJRRFZGTUx1QmZWSE52YU9fUmZBUEdqZ2Y5bHNFNUNCdE5sTG5BbjVMeW9nSWNpWlRVekM2aWgya1liV0szRkgtdkRoeWhWOGdFaEg1ZXFXN3FlandhdkNPR1R1T2RPaEhYS3lnaUNScUpPLXR0R3Z2eWpPbzI0NG9pSHNsV2lzUUFXQXYxcDVxdm9IQ2JaSml1WExMa3pNdzd3dW80MHNtMkdSaVNKcHVqMlB4Unk1ZjFvX2dkZEM0VWRMYmZreUI3NHVPLXYwakNldmc?oc=5",
-    "pub": "Fri, 04 Sep 2026 23:29:13 GMT",
-    "src": "SiliconValley.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Federal judge again rules against Musk's xAI, allowing Minnesota 'nudification' ban to continue - 5 EYEWITNESS NEWS",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQmYyS2NWNnI0aTg3VUc2b1c3eHpwZ1ZCbnh1a3psWkY1emExVE9vMHBNTjV2MGVEakxBc1loWXYySkRTRzdoRFkySTIxNVV0TWxkSDlYZnFWQ3U1dEdLeWpjck9xb1ZreU96SldTZWwxZE5ucFE2V05KVmI4V3BMSU03TFBSdkpxUnVibDZ2THRldWtaV0Y5MF8xdF9zc1loYXY5YUNlTjJRR212blZHOXI5UkpjLU1hT2J6TXBFdF9FU2J0RVFibDZB?oc=5",
     "pub": "Fri, 04 Sep 2026 23:15:04 GMT",
@@ -1221,6 +1213,14 @@
     "src": "Moneycontrol.com",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Mercury News, NY Times want ‘fair use’ argument rejected in copyright case against OpenAI, Microsoft - The Mercury News",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTjY4Yy1mRXV2d1kydUVJMU02Ui1kaExZYVdNUjc4N3lpbUliX3A0cHNkVTcwWFJZM3NpWS1pZTQwQmFlVWc1VzJwRmNiamluc3MzSjRYSUkydU1pYjFWaFhRZEpTZExxSzN6YW42eWZzcE5SdGFuZ09FUHhqM3hnUGExLTVERU1UMXVxTGFYVnR1Q0tBcU04QXJxaE9vZWdDX1pJaHBUcGthR1BqMGRBNDg0dWZYLWh2dXF6Z0tIOGxwYWRGWlpWZ3JESDJRZ9IB0wFBVV95cUxPRGhGMkdVVnh1RFBVOFZUaUpxWVFOTXNUOEMtOC1hZks2YzZncVVkVVduSVFfNDNickwyaXJSa196R3N0aHBkSzB0Xzdsb0tOakR1M2kzeHdMUHpEQXQ1bHdaZ1puR2o0MldQYjNEY1ZicnhCakJXTV9LUHllSmp5aXZtc2ZpUGVJMGNua0tnVlZXaTNLWG5JeDVKZHJsN0xLT1F2TXM5QVVkVFFIR0hUSXJ6eGVtS2hZZ3Qzc1d3UGlFRVZwTmlKaHBkZGhCVmxpVUow?oc=5",
+    "pub": "Fri, 04 Sep 2026 22:46:01 GMT",
+    "src": "The Mercury News",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1230,6 +1230,14 @@
     "pub": "Sat, 05 Sep 2026 03:32:58 GMT",
     "src": "Aaj English TV",
     "trig": true,
+    "geo": true
+   },
+   {
+    "title": "Oil prices are expected to rise in the second week of September as global crude prices are pushed higher with tensions in the Middle East and disruptions around the Strait of Hormuz. I via ANC 24/7 Link to full story in the comments section. - facebook.com",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOUXdDbi14ZTJnQ1FTT2kxclFVdHRmNGtFbTZSaEd0OFd1Sl82T2ZmYU5OMDg3WkVHS3NoRzVJNklhYXBRQjhXT3VlNGl2WDQ0aFdfWUhaaWtpS3gtNVE0RV9xMHM5VWdENmt1RUU3YWh0STdGNGRQS2hFY2tJY2poNEZWQmJaYnNMWS1kT1NVUnpPX1h3NTBSNFRhREpjSXFzZjM5dzlxYnhVeVAtamRqNXNMZVF1NXc1NTY5SGZIV3RXdDF4bWZzYW9vaGJ5M29nV1owUF9RMA?oc=5",
+    "pub": "Sat, 05 Sep 2026 02:47:57 GMT",
+    "src": "facebook.com",
+    "trig": false,
     "geo": true
    },
    {
@@ -1257,28 +1265,20 @@
     "geo": false
    },
    {
-    "title": "Dow Jones (DJIA) Jumps to 53,061.95 as Easing Oil Prices and a Pause in the Bond Selloff Lifted Blue-Chip Cyclicals. - bbntimes.com",
+    "title": "Dow Jones (DJIA) Jumps to 53,061.95 as Easing Oil Prices and a Pause in the Bond Selloff Lifted Blue-Chip Cyclicals. - BBN Times",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPNlRSOHJ1YjhuU3pXa3FJbUZ3cENhOVN1OWhRVHAzeXVBQUlvcnNGSTB0aGRlZDdOTHMtUDdmdnVhSHlKYm1GWi1wNEQ0WERKYjRJd2p3NnVIZGc1MEFTc0FDSnd2LWpFYWc1VFFTbDFDZlItTGdiZEJ4c3lnajN6T05sbHVhaG8yak1vWjdPb0F2SmhoekdWazFwSElSWHFnV3hpX3YyX3BaNExOb1FfX3NYUjNxWVFxdU0wd3VyLVBKYkFWN25UOGFaanV4MFR0Rm85d1d1TjctN0NTSS1PV3BR?oc=5",
     "pub": "Fri, 04 Sep 2026 22:06:14 GMT",
-    "src": "bbntimes.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Starr and Goalhanger launch geopolitical risk series at Lloyd’s of London - Beinsure",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPRml4TW91ekdubklYQ0Y1dC1YYWxnUEJCenV1MmYxR0VSaGo5dHpFbHpoM196cW00dWluX1pCbjkyWTQxWlQzbDNhREdGSW5kQjhVMGZvYVlhSWVucms5U0ZReG9vR0x6MzRkMnNpZktfYXpuSFNaNTFLWWF4SThvNUJvdXpnS0VkcXVtNTg2OHNPeUU?oc=5",
-    "pub": "Fri, 04 Sep 2026 21:40:20 GMT",
-    "src": "Beinsure",
+    "src": "BBN Times",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Yen’s changing fortunes might finally be spooking the bears - japantimes.co.jp",
+    "title": "Yen’s changing fortunes might finally be spooking the bears - The Japan Times",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2pyMlNjS2RUVHVwLUdiZzliaFVOYTVnbnQ4UWZMSnFObnE5ZElyUTFDNUZJTXpjQThLUnhDOERPb205bmR6Q3lvbDBsZkg1T01RVnJmWk9EeVBobDJQdnl5LVNnTXRJUDEyR0E0aS0xWDJZN2dLU1Y0SGhyeFczdC0zODdIN1ZNenlfTlF3?oc=5",
     "pub": "Sat, 05 Sep 2026 02:30:00 GMT",
-    "src": "japantimes.co.jp",
+    "src": "The Japan Times",
     "trig": false,
     "geo": false
    },
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "What’s Next for Gold Prices After the Latest Rebound? - Morningstar",
+    "title": "What’s Next for Gold Prices After the Latest Rebound? - global.morningstar.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa0lhRkZCQ0hJeFRBSzlnbXhmSEJlUlZ0RFB4ZF9lQnFBeDlXZkVSNGphOHhlNXc1eE1OcENXYmRDd1FwMWE3dTZZWHlwakZ3SUZfNzhybjVHV1BicGtodlJzb0NFTXc4YXVjVndaT0VvaGZJVGRoaGduOFE2dzh4OUxkWWhQME5yMHFYTWlqOWJrUQ?oc=5",
     "pub": "Fri, 04 Sep 2026 21:16:34 GMT",
-    "src": "Morningstar",
+    "src": "global.morningstar.com",
     "trig": false,
     "geo": false
    }
@@ -1409,12 +1409,7 @@
    "prev": 11.323,
    "chg": -0.159
   },
-  "hhdebt": {
-   "date": "2025-04-01",
-   "value": 68.548,
-   "prev": 67.951,
-   "chg": 0.598
-  },
+  "hhdebt": null,
   "ffr": {
    "date": "2026-09-03",
    "value": 3.63,
@@ -1493,7 +1488,7 @@
    4.78
   ],
   "dxy": [
-   99.41,
+   100.07,
    99.86,
    100.85,
    101.36,
@@ -1610,22 +1605,22 @@
    64880.19,
    62975.59,
    78335.19,
-   79617.33
+   79570.48
   ],
   "vixts": [
    0.706,
    0.912,
    0.766,
    0.951,
-   0.796,
+   0.755,
    0.815,
    0.917,
-   0.983,
-   0.833,
+   0.956,
+   0.828,
    0.813,
-   0.818,
-   0.821,
-   0.825
+   0.8,
+   0.807,
+   0.707
   ],
   "hyoas": [
    3.19,
@@ -1729,7 +1724,7 @@
   ]
  },
  "summary": {
-  "text": "이란 핵시설 군사 위협으로 지정학적 리스크가 고조되는 가운데, VIX 15의 낮은 변동성과 HY스프레드 2.65%는 신용시장이 아직 경고신호를 반영하지 못한 상태를 시사한다. 사모펀드 환매 압력 증가와 BlackRock 펀드의 순자산가 부실 논란은 신용 부실 리스크가 점진적으로 누적되고 있음을 보여준다. AI capex는 아마존의 높은 투자에도 불구하고 특이 신호 없으며, 저작권 분쟁과 규제 불확실성이 산업 전개 경로에 영향을 미치는 중이다.",
+  "text": "중동 긴장 고조로 유가 상승 압력이 있으나 VIX 15 수준에서 안정적이며, 고금리(4.78%) 환경에서 신용스프레드 2.65%는 여전히 관리 가능 상태다. AI 인프라 수요는 지속되고 있으나 대형 기술주 밸류에이션(CAPE 41) 조정 압력과 사모대출 환매 증가가 자금 흐름의 불안정성을 시사한다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,9 +1734,9 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 0,
-   "geo": 1,
+   "geo": 2,
    "capex": 5,
-   "news": 16
+   "news": 15
   }
  },
  "early": {
@@ -2206,10 +2201,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-03T04",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-03T05",
     "v": 2.73
    },
@@ -2396,6 +2387,10 @@
    {
     "d": "2026-09-05T03",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-05T04",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2437,7 +2432,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-05T03:51:45+00:00",
+  "checked": "2026-09-05T04:02:24+00:00",
   "openai": {
    "found": false
   },

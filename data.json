@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-05T09:52:38+00:00",
+ "updated": "2026-09-05T10:02:25+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79658.98,
-   "chg": -0.02,
-   "chg5": 1.41,
-   "sma20": 76453.66,
-   "sma50": 69091.45,
-   "sma200": 69876.09,
+   "price": 79640.61,
+   "chg": -0.04,
+   "chg5": 1.39,
+   "sma20": 76452.75,
+   "sma50": 69091.09,
+   "sma200": 69875.99,
    "high3m": 81271.74,
-   "reg": 79658.98,
+   "reg": 79640.61,
    "pre": null,
    "post": null,
-   "regClose": 79658.98,
+   "regClose": 79640.61,
    "sess": "reg",
-   "mt": 1788601927,
+   "mt": 1788602517,
    "ok": true
   },
   "USO": {
@@ -1291,14 +1291,6 @@
     "geo": false
    },
    {
-    "title": "What’s Next for Gold Prices After the Latest Rebound? - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPa0lhRkZCQ0hJeFRBSzlnbXhmSEJlUlZ0RFB4ZF9lQnFBeDlXZkVSNGphOHhlNXc1eE1OcENXYmRDd1FwMWE3dTZZWHlwakZ3SUZfNzhybjVHV1BicGtodlJzb0NFTXc4YXVjVndaT0VvaGZJVGRoaGduOFE2dzh4OUxkWWhQME5yMHFYTWlqOWJrUQ?oc=5",
-    "pub": "Sat, 05 Sep 2026 06:26:02 GMT",
-    "src": "Morningstar",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why is fuel expensive when crude oil hasn't hit record highs? - Euronews.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQS0ptR3VKUzRaTlowU0pQY0JsNjBWcE1mSXVIcEdVemJXTF9tY2c1YWEwenZmWEdVWm9JYmlERG40N0s2QUxSSFNqaTJGakoxMkhHNThBNlQwWElDalM2c2lvMkx2Q2hQeElJMmY2dC1MU1RiMkh2Q25iRmlIdm9fTmxnUTlkMHQzLU40VTBENHFjTWZmbGVUdGJDUnNFcHQ4Z0VEWWlKcUhiWl9kbmN2eHlaWTdQeW5DbDUwbmZBTllKTkdXQlE?oc=5",
     "pub": "Sat, 05 Sep 2026 05:00:50 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVWNzVEZ1MjBlLVU5ODE3Rm5jSjhodkJvTm5ISFFhRUNNV3VuQ1R1dVJoV3pqZnV6VEpNODhjWWtTRm5FQXR1VkgzSnM0OFVRVi1BWE5oaFZreXRBVWUyWkJUYUdKeXFQQm1ZYVhLLTJISXNpeW05cTZwM2ZOTGl6NDVSc01aWWtHN2JvczFFSGlaTFQxeHFCcUp6cndXYlZYU3NOclhYdWJacDQyZnlhZzFEeWktbGV0?oc=5",
     "pub": "Sat, 05 Sep 2026 03:55:58 GMT",
     "src": "CleanTechnica",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Yen’s changing fortunes might finally be spooking the bears - The Japan Times",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZ2pyMlNjS2RUVHVwLUdiZzliaFVOYTVnbnQ4UWZMSnFObnE5ZElyUTFDNUZJTXpjQThLUnhDOERPb205bmR6Q3lvbDBsZkg1T01RVnJmWk9EeVBobDJQdnl5LVNnTXRJUDEyR0E0aS0xWDJZN2dLU1Y0SGhyeFczdC0zODdIN1ZNenlfTlF3?oc=5",
+    "pub": "Sat, 05 Sep 2026 02:30:00 GMT",
+    "src": "The Japan Times",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    64904.69,
    63024.32,
    77083.41,
-   79658.98
+   79641.62
   ],
   "vixts": [
    0.706,
@@ -1742,7 +1742,8 @@
    "geo": 2,
    "capex": 5,
    "news": 14
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2206,10 +2207,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-03T10",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-03T11",
     "v": 2.73
    },
@@ -2396,6 +2393,10 @@
    {
     "d": "2026-09-05T09",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-05T10",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2437,7 +2438,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-05T09:52:22+00:00",
+  "checked": "2026-09-05T10:02:14+00:00",
   "openai": {
    "found": false
   },

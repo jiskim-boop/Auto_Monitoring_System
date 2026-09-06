@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-06T05:32:13+00:00",
+ "updated": "2026-09-06T05:41:55+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79868.32,
-   "chg": 0.25,
-   "chg5": 1.68,
-   "sma20": 76464.13,
-   "sma50": 69095.64,
-   "sma200": 69871.98,
+   "price": 80093.45,
+   "chg": 0.53,
+   "chg5": 1.97,
+   "sma20": 76475.39,
+   "sma50": 69100.14,
+   "sma200": 69873.2,
    "high3m": 81271.74,
-   "reg": 79868.32,
+   "reg": 80093.45,
    "pre": null,
    "post": null,
-   "regClose": 79868.32,
+   "regClose": 80093.45,
    "sess": "reg",
-   "mt": 1788672699,
+   "mt": 1788673280,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "[In This Economy] Risks of Pax Silica - Rappler",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVl9sMk0zdTYxVURhQ1FlOHRfZVFDUUx2SUJDelh3YUNtSWpKYTQyZTYxN3psNTRTYnpXZzdoS1V1TDNMYVA0TXdBYUJzUDJHb0tZUVlnY29wOC1iZVJMdDBJUXFRWTNpaFVTaHRKN2k4RUxsVXdWR3NzN0p5c3hCcHkwbmtLQ0U?oc=5",
+    "pub": "Sun, 06 Sep 2026 03:38:21 GMT",
+    "src": "Rappler",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Weather to gradually improve as habagat weakens: PAGASA - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOX0lNSExpSEY5czQ1SDBySDRkNUZPdHh6SklROEc3cU1yNTN0U2FZc19mMUdSVlg1UXhHMGhVWkNZdXktU0JxeTVhU3QzZDRCQnRnYzVNTk5OTW1VVGN2TDVxbUxzcXFRRXhCR1l1ejlsODgxVFduUF9YT2E4VV9uWUM5UjdtWkd5Nk5uX3d0UV9OM1E?oc=5",
     "pub": "Sun, 06 Sep 2026 01:32:52 GMT",
@@ -1160,14 +1168,6 @@
     "title": "Bitcoin surges 40% from July low, reigniting $100,000 speculation - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQcmdEdHMwX29HcExud1RKV3U5N3pHbkdGSHBvM0hSX1FmVTlHZG5ObzQ4dEQxTjE0MmlfOWlmRnhvSHVGTnIwZzFKSWpCOG0wbmIxUWpRRjJRcmJfMF9QeVFIcl85ZlhLR1NOWllJZlpjOHhhdTlHYnFQSWRhMzhTVGhFRWxsZFBHZVE5dUN2dVJJclp6dzNkZnhPRHdSTWhJX0U2cG5BRQ?oc=5",
     "pub": "Sat, 05 Sep 2026 14:35:36 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Blue Owl slashes loan value to near zero, raising doubts in private credit market - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5mUnVlOHFYNllVV2o0c3o3cXlWcHVIOFBqNV9qN3ZUTU9QdXdxdFVEQlZaMFlDaEFlbDNISUlscktaS3pRR0JuTDlvNUphNXR2a1haTzZha3BiaWRuRGh1Sk5vZm11NlBVREJMajc1emtYRkFRQjhwWHJqQlo?oc=5",
-    "pub": "Sat, 05 Sep 2026 14:19:55 GMT",
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    64904.69,
    63024.32,
    77083.41,
-   79877.98
+   80095.02
   ],
   "vixts": [
    0.706,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학적 긴장(이란 사태)이 유가 변동성을 높이는 가운데, 미 금리 4.78%와 달러 강세가 신용시장 스프레드 안정을 견인하고 있으나 사모대출 자산가치 하락이 신용 리스크를 내재하고 있다. AI 인프라 수급에서 Cerebras 대규모 백로그와 테이프 저장 수요 증가 등 장기 capex 수요는 견고하나, 단기 GPU/HBM 순환 변화에 대한 명확한 신호는 부재하다.",
+  "text": "중동 지정학 긴장이 고조되며 유가가 $100 근처까지 상승 추세를 보이고 있고, 트럼프의 금리 인하 압박 속 고금리(미10년 4.78%)와 높은 밸류에이션(CAPE 41)이 시장의 구조적 리스크로 작용 중입니다. AI 인프라 투자는 메모리칩 가격 상승과 저장 수요 증가 신호가 나타나고 있으나, GPU 수급 불균형에 대한 명확한 시장 신호는 아직 제한적입니다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1741,9 +1741,8 @@
    "trig": 0,
    "geo": 0,
    "capex": 5,
-   "news": 16
-  },
-  "_cached": true
+   "news": 15
+  }
  },
  "early": {
   "score": 1.5,
@@ -2437,7 +2436,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-06T05:31:57+00:00",
+  "checked": "2026-09-06T05:41:40+00:00",
   "openai": {
    "found": false
   },

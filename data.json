@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T21:12:00+00:00",
+ "updated": "2026-09-07T21:21:56+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -18,20 +18,8 @@
    "ok": true
   },
   "AVGO": {
-   "price": 357.89,
-   "chg": 0.21,
-   "chg5": -2.95,
-   "sma20": 378.32,
-   "sma50": 383.66,
-   "sma200": 383.15,
-   "high3m": 427.76,
-   "reg": 357.89,
-   "pre": null,
-   "post": null,
-   "regClose": 357.9,
-   "sess": "reg",
-   "mt": 1788552001,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
    "price": 477.57,
@@ -814,7 +802,7 @@
    "post": null,
    "regClose": 99.18,
    "sess": "reg",
-   "mt": 1788814882,
+   "mt": 1788815480,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79201.63,
-   "chg": -1.43,
-   "chg5": 2.46,
-   "sma20": 77980.14,
-   "sma50": 69696.04,
-   "sma200": 69988.19,
+   "price": 79241.98,
+   "chg": -1.38,
+   "chg5": 2.51,
+   "sma20": 77982.16,
+   "sma50": 69696.84,
+   "sma200": 69988.41,
    "high3m": 81271.74,
-   "reg": 79201.63,
+   "reg": 79241.98,
    "pre": null,
    "post": null,
-   "regClose": 79201.63,
+   "regClose": 79241.98,
    "sess": "reg",
-   "mt": 1788815488,
+   "mt": 1788816084,
    "ok": true
   },
   "USO": {
@@ -978,19 +966,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.34,
-   "chg": -1.19,
+   "price": 154.33,
+   "chg": -1.2,
    "chg5": -3.39,
    "sma20": 158.72,
    "sma50": 160.37,
    "sma200": 159.7,
    "high3m": 163.86,
-   "reg": 154.34,
+   "reg": 154.33,
    "pre": null,
    "post": null,
-   "regClose": 154.34,
+   "regClose": 154.33,
    "sess": "reg",
-   "mt": 1788815483,
+   "mt": 1788816085,
    "ok": true
   },
   "ES=F": {
@@ -1125,22 +1113,6 @@
  "news": {
   "credit": [
    {
-    "title": "Now an MIFF icon, Lea Salonga hopes to continue paving the way for Filipino artists - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS0NpR2xYbVowVl9RLWRCeFNpSHp4X2Y5YmpuWE41VkpUal9OZnZybXFfQVZWcGpLdDMyOGVfWUQ5eFZNUGY1dWpPcVBwV2pUeFdMb2pPUjFEODJsRVhiSFNSNzBNNU8yZVlwX2p5ZnBObjVnTklhU3ZMZ1NTTXduX3ZnYkl5QzFRRXFCWFlpMUN3blllMWNXbUxFMWFJN3lKa2p6SEpJLUl0ckZScGhPbVE1SVk5YjdCYTVGX3NCTVpxMVlCUVpQWEpBTkdORTlCZVg4elVLVWd6TVJxNHp3WE1SbWtkdU0?oc=5",
-    "pub": "Mon, 07 Sep 2026 18:18:09 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Data centers are running into a wall of public anger in the United States over their thirst for water and power. I via ANC 24/7 Link to the full story in the comments section. - facebook.com",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPbGRDT1loU245cjh5ZHl2TUxGbVRSR2tncW1ySnZvcDg1TVhNUXpWUHp2UDFmYUtLaU9BYjFSZkY5MzFVT05EUzdjbUZlMVVWUzdVTGNnVy1IenBZNy1sbDQ0dEZLNlcwZG1mampIZS0xX2pnRWFmZ25QN2tfeWlNclRLd2xNM3JMRmxMd1RwS1EyWTJLcUpNbnU5SmtmcV9wRHJGWndUSnBDMWNQQ0FYYXJHdUtUc2cyTE1hbXptX0FvNWhNM3I2SE9rc2VzUlFHQ3N6MWFKTQ?oc=5",
-    "pub": "Mon, 07 Sep 2026 17:00:04 GMT",
-    "src": "facebook.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Jakarta airport extends closure after volcano eruption - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbHZraHpIeWR1Y2xiMXBTYXM2Tk95bEtOTFV2T0tzd2RqR3c3a0hveUJjUEVTN0dOejNqQnUzT2Q1VGpGTVp6NVVXUjBSUjk4eFlUTURZR2sycW5INEUxa2tMbDFUcnhNSU1LdVY4YnlfOHhXSFdja1BEMlY5Rk1Tb1UwRWVhTmhmYXp4Nm9mOVlkRndTX0ZzQldIV3hjMDJKRXI1eGZR?oc=5",
     "pub": "Mon, 07 Sep 2026 16:38:43 GMT",
@@ -1169,6 +1141,22 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajd5Z041NkxncDZpQzEzSThRTjdBcnc4ZmYtbzViVUU0aGhWNFFPbGpSSjRUTVBHWjZpekx2RG1WQk9ZS3Y3WVlNSEY5N1I2Sy10SmlQa3dKNV8yNnZ5R0lORXpMYlBpdDBBdExoZ0c1NEV1LTU5LXgtOVdBMzh4Q3FtbkxPZ2RXYUpDWHNWX3BSQXA1Z2tNWXZsVzdjNU1OVWNnd3gtd0F4Xzd5djFKWllZU2gwQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 14:18:03 GMT",
     "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Roblox required to implement age verification through nat’l ID by October—DICT - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOZk5MNWp1U2M3SzZaT2lwcUVFSWh4bVZqN1kzbXVxLVZwRGFYcHRDRGVNSVhES18xUXVKVkRpeHdSa0xPS0dfMWE0bUcwTE1KWmxncUo5UXJJaWhmSnA0TXFJc2ZZdkI1MnBTdHYtanlTUmZ5amFTZF9ETm5sSVlsYjFDREZTdzBGTVhMblBNR3lBeGluNEUxVlQ5dFBLVXlRVjFsY256akwyMmRfVXBRZzhCYkJ1ZjV6bzlYMkdlTGhCMFBhTkRfQm4yV3ZrQQ?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:50:00 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Ares Capital Yields 9.6%, And Q2 Reinforced Why It’s My Favorite BDC (NASDAQ:ARCC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaG9CZWp6NlhXbFh5c3dkcUpOU1IzTGMxcS1IRmw5Q2t3QXlzM3FuSVVTQ3VZUUhkaEVOMmo2SmNTY2RwVXlyYnduMjNQTS1xSUV6Tlh6eUhEVW5STjU3M3dOekU3Y01iZDJZZDI1OXhpeUVldmtiZG9XRW44eGQzbFBQY0FtZk1WWnA4djF2bVV0NE93VlBmc2JucC1Ha3BUelRLcUlSZGhTNjhtbmdid0YxMmR4UQ?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:00:06 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1225,18 +1213,18 @@
   ],
   "macro": [
    {
-    "title": "4 Monthly Dividend ETFs Paying 11 to 14 Percent to Start 2027 - 24/7 Wall St.",
+    "title": "4 Monthly Dividend ETFs Paying 11 to 14 Percent to Start 2027 - 247wallst.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYXh1eDNQNExlWkVTTTFjdFpBSG1XeGRfYUZJZEpNQ2RFUTVWLWFKU1l3V0hwRFdiTHM2V1ZnWlpwaHRuZ1NyRjRrSHh6QXZxeVdBVF9mdjFHUDBBckFqTlVuMzdsSXZQdHZKTWp2QWdqTFZOempGOEhQR1NmRmU2V3RSRGVnVks2cXJ5LU05LVlySDItbEFKTnBacWppWEsxTVlmMnQ3WHEzTWlrMGc?oc=5",
     "pub": "Mon, 07 Sep 2026 21:05:00 GMT",
-    "src": "24/7 Wall St.",
+    "src": "247wallst.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - Bloomberg.com",
+    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUUwR280MkZ0emFzbnVoLUNmNlNZYnQ1cEZFSzZLRm9zODBBNmd6WWUtRk5NSElNYTRRdi1xVDlncjNsV3ZEU1VyVV9uczlMQjVLMUxUWlJsUEZFbGtXZ1A4ODloUzRXWktQMEZzYVJBYTYtVzNxRVFFWmRJeFBlS2RYOUZYNkRpZ25HRDBqeGFHVEhLS2ItNU9BMmJlZXdvd09pOGFYUHNORkd0VlRRMy1pZ0Q0UTluSWg3a1VuVzhkQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 20:00:46 GMT",
-    "src": "Bloomberg.com",
+    "src": "bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1257,18 +1245,18 @@
     "geo": false
    },
    {
-    "title": "Oil prices stay elevated as Middle East tensions raise supply concerns - Financial Nigeria",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPODFOcE5kSWlRRGFoam5EZzRWZVFDNGQ1cEdzdTVVdFBrb29ZcURPQzNRa2JHc1RkRlIwTVRBNTlXX25iU2UxalY0aWE1ZjNBUnpOdTNCSkpEMEJSaTg3cklYWW1XT2lGM0FBb2Q4cV9XTU5VejRnVkpuRW9ZY1lOZjRNSVNnQ2VFMFdhUWwwTjcta25WdnhBRXBHOEhSWXZKbnJma0VmX1BTNFU3MWxqR1NrU0lCM1c2dEE?oc=5",
-    "pub": "Mon, 07 Sep 2026 15:19:05 GMT",
-    "src": "Financial Nigeria",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Fed Rate Hike Expectations Surge: 58.4% Probability of 25bps Increase at September FOMC - News and Statistics - IndexBox",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlF5d2NqZkhESGRUWkQ4T0gyNmczV0tJM0VOYnpIS08tVDBTZ25KVFM1OHA0QzY3aTFQenRPX3VSRmo2dW9RUXdZTElLNmZWUXMzQk1xYm5YWnZHQ29KRDc1TF83aUFSMHZNTFlpN2ZITXo0al94MllGZ1VwMzY0NkFUYm5QUVdOQ3BTRU9QV0otUF9KVjJ3?oc=5",
     "pub": "Mon, 07 Sep 2026 15:00:53 GMT",
     "src": "IndexBox",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil prices rise to six-week highs on worsening Middle East conflict - BNN Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkg5MGRZZ1JidGlSV0RIdWZwYmJWQ2EzaUhGWkVtOVRKUU5wMU11Y0NJOFliWEtJT2FOZWF3QUowb0dkc29GR011akp3MDZnbVg1bWgyYTBZQzhMYWJva0xXdGpVV0c1Z2F5Mllzb0ktNm11bUpMdDBpclk4ODg3OHpZTVFRX3hJRzYxeVFqQnczMVZ0Uk1ISHdhSXRDaWswSFpmUlU1ekxraUxMR2dOR2MtZEtVdEZNZG9Z?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:47:59 GMT",
+    "src": "BNN Bloomberg",
     "trig": false,
     "geo": false
    }
@@ -1279,6 +1267,14 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOR1JqRWRmdDN0amV3Wldwa3JJbFFPRTBHX3E3WUlhVXFCZW9UOXVwTExTclhQT3VDdXBpWkZZcVJrc3BndWh4a1VkQm50UlZxT3pPeEFVX1c0aDNVc282eWhNeGdwRnJLZFYwR041b3ZkNnQwWk42NGhoOWd3SmI5R1B2OGhWSlg0eTAzSEUxRnVad2d6QzNYNnNvSU55bEVNbUpTZ0Zyd9IBrAFBVV95cUxPd19kN2ozcnhCaHA2VVV2VC02YXVRUnJkWDh1ajVGYWxGdWNXWVN4WmJaVldHZlc1LW84REJ0MkgtNFJWN1FYRkp5UE9aWTNja0JudnhtNjNiek43RTl0SmU5NW03ZS04MUdCTnRZV0R6dlNjd2xldjFTMkhLcmZzejBrUlRoZnBCWHVjNnNVSTVjVGJHcEJybTRlNi1vajgxUVBFX2xnMW9JVmFs?oc=5",
     "pub": "Mon, 07 Sep 2026 21:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "London Copper Surges to Record High as Tariff Arbitrage Drains Inventories and Mine Output Declines - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5QSWc0eXZBNUZidkNUb0lrcjZBdXVRcjcwMDVhanNFOXIzZ3RsV2F2ejB0NXVPUmpXUWZtT052WExBMExvWDg3cGlJbGthRjN5LXYzYlBYRmJPMWtYZHhHSHQ0NGNWdWtGaUJycmFGYkxOUGlpM2c?oc=5",
+    "pub": "Mon, 07 Sep 2026 20:35:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    },
@@ -1299,10 +1295,10 @@
     "geo": false
    },
    {
-    "title": "Dollar-Yen Falls To Seven-Month Lows: Is the Carry Trade Now Broken? - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPVk5MZ3oweWFJMmczSlRuNFpYWEpRdkdVNkl6Ri1zVUNpOWZsU1h6UnpsaXhRakEwMkhadlZtOFZFanBzblVadERfXy1rQnI3MWVNZmYxR28ta2RNVUJYWkpZZmdHbDVmNVljc1M5aG9fa0ZwLUxjZWZldzA2YUJfT0xtOEJDRHJtSmhpenpFalRCTmZHRFF0MTdtdUxxYjJKQVpVYTVMOGFCYlczbGNYUDdTZ2pWcnVzWEluUlZxd0htZ1U?oc=5",
+    "title": "Dollar-Yen Hits 7-Month Low: Is The Carry Trade Broken? - JPMorgan Chase (NYSE:JPM), Invesco CurrencyShar - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQdmFCWTBSNWtKZmlwNGU1MmFUR1dXSThkTllFc2t1cmUzLUZGLXVGRFYxLWRzQ1Y2cDRaNnU4emxNbmc4Z3lHdHhqdFZHbEczWTh4M3ZOQmdKdWQ4c0VwTnB6ZUQ4Vzh1a2Q3SUtraDZMaFN3dk1iREtNWElWdk9fM1NvakRYd3RPaGdydlNhSW4yRjNHSm1lT282UQ?oc=5",
     "pub": "Mon, 07 Sep 2026 19:35:05 GMT",
-    "src": "TradingView",
+    "src": "Benzinga",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Mon, 07 Sep 2026 19:23:28 GMT",
     "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin Just Survived the Yen Shock That Crushed Crypto 2 Years Ago - BeInCrypto",
-    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1ZSXppWm1sLU52cUJEY1dmQzZXVW54c1BVUHlDUnpDSWVYUFVvV0Y0bFQ1S09EU2VHYUVlQzBuZHkxNUhaZHRETFdSbFZJV1JLaWJXRG1Ud1BDbU5nN1hmWkIxTlh2MzRzYmxZ?oc=5",
-    "pub": "Mon, 07 Sep 2026 19:04:00 GMT",
-    "src": "BeInCrypto",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1538,7 @@
    159.16,
    159.34,
    159.14,
-   154.34
+   154.32
   ],
   "uso": [
    133.02,
@@ -1610,7 +1598,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79200.33
+   79241.92
   ],
   "vixts": [
    0.867,
@@ -2425,16 +2413,18 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "AVGO"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 51,
-  "n": 35
+  "pct50": 53,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-09-07T21:11:46+00:00",
+  "checked": "2026-09-07T21:21:43+00:00",
   "openai": {
    "found": false
   },

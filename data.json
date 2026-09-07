@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T18:21:56+00:00",
+ "updated": "2026-09-07T18:32:13+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 270000.0,
-   "chg": 8.0,
-   "chg5": 5.06,
-   "sma20": 257125.0,
-   "sma50": 266100.0,
-   "sma200": 257022.98,
+   "chg": 5.68,
+   "chg5": 3.85,
+   "sma20": 259075.0,
+   "sma50": 264330.0,
+   "sma200": 257126.8,
    "high3m": 362500.0,
    "reg": 270000.0,
    "pre": null,
    "post": null,
-   "regClose": 255500.0,
+   "regClose": 270000.0,
    "sess": "reg",
    "mt": 1788762629,
    "ok": true
   },
   "000660.KS": {
    "price": 1783000.0,
-   "chg": 11.72,
-   "chg5": 7.86,
-   "sma20": 1611750.0,
-   "sma50": 1843300.0,
-   "sma200": 1667072.58,
+   "chg": 8.26,
+   "chg5": 6.51,
+   "sma20": 1629800.0,
+   "sma50": 1820620.0,
+   "sma200": 1668000.0,
    "high3m": 2919000.0,
    "reg": 1783000.0,
    "pre": null,
    "post": null,
-   "regClose": 1647000.0,
+   "regClose": 1783000.0,
    "sess": "reg",
    "mt": 1788762612,
    "ok": true
@@ -803,8 +803,8 @@
   },
   "DX-Y.NYB": {
    "price": 98.91,
-   "chg": -0.26,
-   "chg5": -0.53,
+   "chg": -0.25,
+   "chg5": -0.52,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
@@ -812,9 +812,9 @@
    "reg": 98.91,
    "pre": null,
    "post": null,
-   "regClose": 98.9,
+   "regClose": 98.91,
    "sess": "reg",
-   "mt": 1788804677,
+   "mt": 1788805294,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79183.03,
-   "chg": -1.45,
-   "chg5": 2.44,
-   "sma20": 77979.21,
-   "sma50": 69695.67,
-   "sma200": 69988.09,
+   "price": 79120.61,
+   "chg": -1.53,
+   "chg5": 2.35,
+   "sma20": 77976.09,
+   "sma50": 69694.42,
+   "sma200": 69987.75,
    "high3m": 81271.74,
-   "reg": 79183.03,
+   "reg": 79120.61,
    "pre": null,
    "post": null,
-   "regClose": 79183.03,
+   "regClose": 79120.61,
    "sess": "reg",
-   "mt": 1788805282,
+   "mt": 1788805904,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.34,
-   "chg": -0.85,
-   "chg5": -3.61,
+   "price": 154.35,
+   "chg": -0.84,
+   "chg5": -3.6,
    "sma20": 158.86,
    "sma50": 160.48,
    "sma200": 159.73,
    "high3m": 163.86,
-   "reg": 154.34,
+   "reg": 154.35,
    "pre": null,
    "post": null,
-   "regClose": 154.34,
+   "regClose": 154.35,
    "sess": "reg",
-   "mt": 1788805285,
+   "mt": 1788805901,
    "ok": true
   },
   "ES=F": {
@@ -1054,7 +1054,7 @@
    "post": null,
    "regClose": 4476.6,
    "sess": "24h",
-   "mt": 1788804688,
+   "mt": 1788805302,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 91.48,
    "sess": "24h",
-   "mt": 1788804663,
+   "mt": 1788805290,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.68,
    "sess": "24h",
-   "mt": 1788804640,
+   "mt": 1788805218,
    "ok": true
   },
   "ZN=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Introducing Claude Design by Anthropic Labs - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMiyAxBVV95cUxQV1lKeHVOTjk0MzdaMG5DMUo5RTAwNzhnWnpobDhXMGVjdlVFUjc1aEhHeE14dkNXdU95RFZlV012MEhIRU5OZHRxdUNLOUx6azV1a1QtbGhnTEhrTUxvM3hpbFowc3RTVkRzajVVZGFXOXJMVlVITFNhQ2xIRWVpYXpzVlBERjFFZERMTE0temJHb1k1ZHppUWxKeFgyWnFISDVyRGJFSlRoOTJhUk9mbWRIOF9tWnJZOXZ6WlZPNHpNSVJXWmk3aGxBSjlUcG5QUjROSURKeEFySVVLOVAtUUNnM0xzSTB5cHc2Rk85cWRMUUJDN245Wlh0X0xCSW1vckpEVHpGc0QxeHBrSVF6UDBiVlNPMEMtemVyUERsVmV4dHNJZVNJbXRONUxGdVRPOVFFUVIyNHN0aDM0NGlEajc5NkpkRGtXeXVkMjZzcmtNOXk3c3Y2UWpweWNwZ1BBTzg2TFd2ZGItYUQtaVRLMWJxdjJpdzJyWXBLeTlLYVBKdzVwVGswbTRqaFlNb1dYeFpFWEpzOWVlMzhlVnhpa1l3QUtobkNzcHJ5N1V6NWZWZ0ZXeDRfYUxMQkZKUGN5MS1HcHhfaUlvRWcyQ2VhOXFWU09ydS1FSjFuek5iMDVzTEtzcEVaN1VMd3dSMkpRbUsyY0t2M1NTM2k4ZjA2blhuZGZWc21vVlZWb1ZCSGg0VVNpTS1MQ0FZZXZqSzRyc1VBWC16c1ZDdlI5ZDlxRjZPRFFKT1BjUWtKenNhY2ZRQUc2dVg2TEVtZTRsRG1GV091a3NMV1p3X085dXhJNHJRaEVKVFJQQW9YczJvZ0VSR3pNOUV0bUhZczlQUmtzbXVVUzFwOU8zbzNZdlluSXBDT1l0RnhCeXdGMnd1aUs3R3dIVmlpNHhERUJHOF91QVFiSm9RZHNyTnZDTzBlOTZvcnNLbm1qOHJieVZqdVcwR0dGcXJfS2dEakoxQUh5aFBNNHRsTWdBbXdGdHVISkpYeW1JMEpScndqa3YxbS1yQVhZeTJxMm5LYzNZaHJFRzltYUJvTHdsVW9iU0FPT2o1Y2dZMl9iVjBMNHJtUkNianlPWlk2VlZzdDVtbTJaZnprWHJ0MmVqck1aek1TQ2RmZHFCNE80NUxxdXVwbzRpRU5aUXVVUFBOc3dDVDVzTnVxdmt5Q0MtRzBnbkN6bThJbWp5NW9ZSVY2TGhzeER5bXpRTGVzRUdmd3FvZTVlWEJPZXFhU09qWnExTmlrM0lBZWF1NFNDVTJnUFhTZFhjNy1FM2lmN21rX29pa0NvZ2c5UjBIbHJDS242TTJSVEZPTTBtNGo3QWR1ekVSenVxMjB2bDB0WVZkX21Rdm4zTjgyWjZHOVlQYVU5MEdZWmpXZGVoSVh3ODhmY0VSeVBFQ0tJZEhweUNzc3Jvd3F5NzZiU3V6Mmowd2l6TGcydmFkYS1NWWJIRS05LTBMM2xieWhuMmNqbVhJNzlXVFBWY3p6SThGTEMwU0VRX1F2Y05oNGFNVGZQQXo0Um1BWXNtMmpKNTJZSTVGd2I1WEtDcVhKSWdIcXJKbkNza1ZUZ2JENVZBaHNEQlh3Rk04aWZRWHc1Vk5ycF83NnpLRkVoQWRmQXMzNVl4U1JtU04wdTdKVjZvS2FQRWU0bGIzMVhsRWlXTHFrS3FNLUd2akxJbzNmb24xcHk1TUxtOXlrTFRwRlZaYmxRd1J5Y3h6R2dJTC1KWnFCSzFrb3RxTzVDWGd0WmdCV3RESTJaMmpZZ0I5ZHF4YmZfS29fZG9PNi1iQlp6b2h2alBxdUpSanRfelN2dHladGJOVWlFaTNQZldfaEp3UnhLRlA5c2R1Rk1KVTRMampfeV94T0VoeVRUcE5hNGFnYnZnNjYwVXZQd1pfSEowT01PYTZzNmFzMUstRGtJMDBTN0U0OXgwVldnZVpPT04xMUhocDZ2TU16dnhxd0xhZUhXaGlGZVgteld5N0Z4N3FnSW9lSks0M1lYb2ZaTTZWQV9MVkhLNFR6c29nd3loV0NLcVJRTTBmcXJOU1RKazVOUVJUNGlRckp0OVJvVXdDWmtfVUstUGJVakxGT0RKVEZ4WHNWaVN6QTY2NjQ4R1J0TDhsNnBleG9UZXZkTllPSXc?oc=5",
+    "pub": "Mon, 07 Sep 2026 17:00:18 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX launch slowdown, NASA Crew-13 delay lead Florida space news roundup - Sarasota Herald-Tribune",
     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPX1VlUU55dFQxV1RodlhiSEJvc0Njai1JSWpKS0RYNjBnMmV3V3JYci1EU2FRQ3E1cXpEM2NfM04tRWlJcWpSWGdxa3RUdXJnMlVtc05oZUR4RThVdjZOZjBrWjl3N3p5UWhxTnlDY2xJSzIyQVFTR0tZcUdRMkw1RWVONGRqTzNFMXpCSFAzd2dsYTdpUlJ5Q05qcV9BTWRoNU5ZSHQ1dUlkUmhCZGhPNjgxVGtJR1plSWdvNDVZNGNicldrb2JMOGVtUmRtSk1lUndQRTIxa2Q1WlQ1aHcybGk5cFd4aXhoMDRuYjZJMUZDQjZzd0R1VFNKS25ZU0V5?oc=5",
     "pub": "Mon, 07 Sep 2026 15:38:00 GMT",
@@ -1213,22 +1221,14 @@
     "src": "TechSpot",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Meta Platforms stock slips as investors weigh earnings and capex - AD HOC NEWS",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSEVnS2k1TUVENWJiUjNiWnY3TXJ1SFJRdVJROGZ3THVSMldCS0g2WmVwLTlBeXZpenZ2UjRzUkNTcEZ3Qms3QXQ3U3ZPY2E3M2RxczBfNGRhQTgwQ2hXRlR1VmtOX1hab2ctakFjSXhTdDRNOEczQ0tpbERWWEw2NEdSajFmaEM2bGxlU2pJZmFaWU1wcjc3X2JZc3ZnZlZLSDlyRndEVlFOXzdNSjViak82UkVUSEFlbkwtYVozcGJyMm5pYXc?oc=5",
-    "pub": "Mon, 07 Sep 2026 14:01:45 GMT",
-    "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - Bloomberg.com",
+    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUUwR280MkZ0emFzbnVoLUNmNlNZYnQ1cEZFSzZLRm9zODBBNmd6WWUtRk5NSElNYTRRdi1xVDlncjNsV3ZEU1VyVV9uczlMQjVLMUxUWlJsUEZFbGtXZ1A4ODloUzRXWktQMEZzYVJBYTYtVzNxRVFFWmRJeFBlS2RYOUZYNkRpZ25HRDBqeGFHVEhLS2ItNU9BMmJlZXdvd09pOGFYUHNORkd0VlRRMy1pZ0Q0UTluSWg3a1VuVzhkQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 15:30:46 GMT",
-    "src": "Bloomberg.com",
+    "src": "bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1276,17 +1276,17 @@
   "flow": [
    {
     "title": "USD/JPY signal: forecast as a death cross forms ahead of key US, Japan macro data - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZlpoV3V1UU45WjFwV0VJUWFOTXNFSjM0bm41TFBNWmJCbG1leGhHcVlHbE1nZ2ItaVZjQTdHaWdKWVNkWGNfV25VNktvclR6a0ZiaFd0V3JkUEtWVGtaNGlWaVlCSmdBVUQteklDby1DSG5pSEgxQ2ZLdVRaeXpFMGJyc19ucUc1UmxyWmwwNDRNcEN3ekhWX0JsMjJpenBHNFVSckhMaTYxemxHcm1MZGF4UG1uOTJt?oc=5",
-    "pub": "Mon, 07 Sep 2026 18:07:38 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdV9qWFpPQjVsQVNTTHRWa0UtQzl3TUpEZ1AtS1Z5UGpVTi1ldmlHdnpVaTRXVmpQNFNqMjNqdnFVUnl0SjByb3FUV2QwSHlKeGloZUlqSDJNZzBSUnR4N0dCel8ybXVfNkZ0UW5EOEtOZzZLWnJJQjF1czd1ZmtRRVFuTkxnTVkzVllzSVhaMW9YNzFvMGdWRGpURy04VDhLSlpTY2x4Q2V5R0tiZWNleDR6Wkxpb2Uw?oc=5",
+    "pub": "Mon, 07 Sep 2026 18:11:40 GMT",
     "src": "Invezz",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Nobody has unwound the Japanese Yen carry trade yet - Mitrade",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPc3FfTTNvYkU0bFh5dFRNNTdHUm1EOTlteXBOUWdWXzY5cXZBOVQyRGxwLVNncy1UbU9NX3dSYU5OeThCVFY5TzU2YTh0RjFSdFA3QzR2NHRuSzVZSWhEcW41V3NLWlR0bGFTa0FxazJrckd0NUIyREc4V2R2Q1BpczZmQQ?oc=5",
-    "pub": "Mon, 07 Sep 2026 17:32:33 GMT",
-    "src": "Mitrade",
+    "title": "Copper Surges to All-Time High as Tariff Turmoil Rocks Market - bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPbXFyZDVyUXl3bDVvdEd4eGlKR1l4ZFViTGdGMFdieWhVY1UwazUwQ2IyOFhiVkhwWlk4NFVBVk8teXpJd21IMEZNYjdtYWFhRmlieDc0enZjOXZYUDN0aGtfdlFiX1p4SVhJaGozU1ZrQVFodVZGRWJlZ0FmZzJWMXI2czdLYUJnRHdRREVpX1NxUGxLOXdodjhLNGFjQ2dMQURwSzdrRmo4SEUyRWNmSUdn?oc=5",
+    "pub": "Mon, 07 Sep 2026 17:54:49 GMT",
+    "src": "bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Nobody has unwound the Japanese Yen carry trade yet - tmgm.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOdDFfZTE1X1Q2U3VidkpYaGpMMFVnN3JKbjYxZjIzNzZlWXZ2YzNFekRZcXIwdkxreU8xclM5WHdya2ZjdTdYSGM1eHNOVFNNYjFZRDQwckpwRWNtZjQ2c2tURDFhN0FWQXpVNzBtYjh2NGlaRmM5Q005aGh6NHJ4TFJsZklRYkNhNGMtWFJTRDFzU3F2QmxySVpTMk9tVlgyZEpPYnZ4Zlh4VTNkeGNVVWtWemZmdE14?oc=5",
+    "pub": "Mon, 07 Sep 2026 17:04:39 GMT",
+    "src": "tmgm.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "India Isn’t Japan: Why the Yen Carry Trade Analogy Could Mislead Indian Investors - CryptoRank",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOVjl5bkdyZnpXRDltdi0tWTNwdVZ2WnNvcVJweFBlQmRfX0EzQXFSYVV5RURpdXdab2t2b0NrN2NtRFBzTE4wcmVlUlpDZ3JXLWJNUDZEYVotYmJNS0VEU3Z2elBmLTNlNDVWdUlEcEExVmxzTkJMa1dlczZYNWxLSjhVaE1PMDNzWXNKM25takF4cGxkNkVmQTZ4OGxacUtSOU0xRmxsTWh5eXdYNlp3S1FQeVpoNURR?oc=5",
     "pub": "Mon, 07 Sep 2026 17:00:47 GMT",
@@ -1307,18 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Copper price hits LME record on tariff, supply concerns - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOWnQ2U2FKZy15ZDJrZnlmdUQ0aXA1X0FfbU5LNlZLeE1fYi15VDRZOV9LTTUtUUdnTmlpaWJNV1ozZktSTHdnZTJUbGxqY21fcVdXMW1HV1JNMElYUVRJU1lQOGNaN3BQRTJIci15VDVBTlVFWE1TdDZjZWtBSU5LOW1RMA?oc=5",
-    "pub": "Mon, 07 Sep 2026 16:54:55 GMT",
-    "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US dollar steadies as payrolls lift Fed hike odds, with CPI set to guide DXY - vtmarkets.com",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPY0JoNFVUZENweGdKYUt0VUNnZm90OUhkU0xiWTJxUFNFV3Bqc3d5SnlJaXlwMTBBbFNNQWlodkJHakpHdjFzME4xYnY1RVBFWVprNldrYXl5a1BtSFlhRXpKUWVCTEZXcHBpenZLMlh3WjFGMU1fZC15blJpY3NFelp0cllOTFdhYTlCd0ZTX25WT1ZBNER6QXdZdDB6M0psV1VqazZON01oRkhTYm5iSnFVbmMwVUd2Z0J3YzVB?oc=5",
-    "pub": "Mon, 07 Sep 2026 16:27:49 GMT",
-    "src": "vtmarkets.com",
+    "title": "Copper touches record high, focus on tight supplies outside US - economictimes.com",
+    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPNnZrNDNOLUxHMEQ3NlhhenBnd0FiTjI1aTZ0elZEWTUwS20yaXBYS2kxXzk4aTdsR0xVTkZFOC1EZDNKRUludWRMUWd6N2dDN0JNdEZXVXlWYnRMQlZiby1kT3V3eThpQmlZUm5JaExaaldwWWJHZUpvd1JoaHp2bVJSR1p2NUNfN2RjM1EwYzBQUjZRWUVVcGZYendtd1IwT3gwR09GTDFEdWl4cDFFb2w1cnhlLXNuZkx1XzdSRnVFSjE0cHhJbFB5M0ItVFNBWElBS2NZUTdjUU5IcjZKY2lVc0ZpV0dzbTVn0gHrAUFVX3lxTE82dms0M04tTEcwRDc2WGF6cGd3QWJOMjVpNnR6VkRZNTBLbTJpcFhLaTFfOThpN2xHTFVORkU4LURkM0pFSW51ZExRZ3o3Z0M3Qk10RldVeVZidExCVmJvLWRPdXd5OGlCaVlSbkloTFpqV3BZYkdlSm93UmhoenZtUlJHWnY1Q183ZGMzUTBjMFBSNlFZRVVwZlh6d213UjBPeDBHT0ZMMUR1aXhwMUVvbDVyeGUtc25mTHVfN1JGdUVKMTRweElsUHkzQi1UU0FYSUFLY1lRN2NRTkhyNkpjaVVzRmlXR3NtNWc?oc=5",
+    "pub": "Mon, 07 Sep 2026 16:24:00 GMT",
+    "src": "economictimes.com",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    99.82,
    99.65,
    98.92,
-   98.9
+   98.91
   ],
   "bizd": [
    12.49,
@@ -1610,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79183.03
+   79125.0
   ],
   "vixts": [
    0.867,
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T18:21:44+00:00",
+  "checked": "2026-09-07T18:32:02+00:00",
   "openai": {
    "found": false
   },

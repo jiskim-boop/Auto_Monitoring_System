@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T13:41:58+00:00",
+ "updated": "2026-09-07T13:52:15+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.09,
-   "chg": 3.85,
-   "chg5": 1.14,
+   "price": 15.1,
+   "chg": 3.92,
+   "chg5": 1.21,
    "sma20": 15.08,
    "sma50": 16.13,
    "sma200": 18.53,
    "high3m": 22.22,
-   "reg": 15.09,
+   "reg": 15.1,
    "pre": null,
    "post": null,
-   "regClose": 15.09,
+   "regClose": 15.1,
    "sess": "reg",
-   "mt": 1788787576,
+   "mt": 1788788176,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.93,
-   "chg": -0.23,
+   "price": 98.92,
+   "chg": -0.24,
    "chg5": -0.51,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.93,
+   "reg": 98.92,
    "pre": null,
    "post": null,
-   "regClose": 98.93,
+   "regClose": 98.92,
    "sess": "reg",
-   "mt": 1788787885,
+   "mt": 1788788491,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79349.91,
-   "chg": -1.24,
-   "chg5": 2.65,
-   "sma20": 77987.56,
-   "sma50": 69699.0,
-   "sma200": 69988.99,
+   "price": 79326.34,
+   "chg": -1.27,
+   "chg5": 2.62,
+   "sma20": 77986.38,
+   "sma50": 69698.53,
+   "sma200": 69988.86,
    "high3m": 81271.74,
-   "reg": 79349.91,
+   "reg": 79326.34,
    "pre": null,
    "post": null,
-   "regClose": 79349.91,
+   "regClose": 79326.34,
    "sess": "reg",
-   "mt": 1788788489,
+   "mt": 1788789095,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.44,
-   "chg": -0.79,
-   "chg5": -3.55,
+   "price": 154.49,
+   "chg": -0.75,
+   "chg5": -3.52,
    "sma20": 158.87,
    "sma50": 160.48,
    "sma200": 159.73,
    "high3m": 163.86,
-   "reg": 154.44,
+   "reg": 154.49,
    "pre": null,
    "post": null,
-   "regClose": 154.44,
+   "regClose": 154.49,
    "sess": "reg",
-   "mt": 1788788492,
+   "mt": 1788789101,
    "ok": true
   },
   "ES=F": {
@@ -1006,7 +1006,7 @@
    "post": null,
    "regClose": 7722.0,
    "sess": "24h",
-   "mt": 1788787890,
+   "mt": 1788788494,
    "ok": true
   },
   "NQ=F": {
@@ -1022,7 +1022,7 @@
    "post": null,
    "regClose": 29565.25,
    "sess": "24h",
-   "mt": 1788787895,
+   "mt": 1788788499,
    "ok": true
   },
   "YM=F": {
@@ -1038,7 +1038,7 @@
    "post": null,
    "regClose": 53440.0,
    "sess": "24h",
-   "mt": 1788787890,
+   "mt": 1788788500,
    "ok": true
   },
   "GC=F": {
@@ -1054,7 +1054,7 @@
    "post": null,
    "regClose": 4476.6,
    "sess": "24h",
-   "mt": 1788787891,
+   "mt": 1788788504,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 91.48,
    "sess": "24h",
-   "mt": 1788787885,
+   "mt": 1788788503,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.68,
    "sess": "24h",
-   "mt": 1788787894,
+   "mt": 1788788499,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 107.47,
    "sess": "24h",
-   "mt": 1788787832,
+   "mt": 1788788481,
    "ok": true
   },
   "EWY": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "Theater review: ‘The Notebook’ turns a familiar love story into something memorable - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQZUc1TTZOdDRRdDhXUk5vdjFhU2FIUmdSUmd1ci1SYjdMVnhKd1FCVGE3ejZiVFBPOWhOZWh4eVRjSXhfcUJCN3JHaEZRNHNESWhQX3ZNQUpvamI2NTRoQnJEMVg2Vm9nMS1QcUQ2dGJSSzlWOXRpVU1pQlhyVWNOLUJCUEc2dnNPcWZSX256cmhfa0VZVDl0QklpTG5Zb2tFMmFDZ3pxSFhCZ184ZXdENnp6NUpZUFFQd2ZoaE5TSTBhbXgxcGhhMDduSFN6dTU4RDU5Y0RqR0lzbUh2djd2b3JJbW0?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:19:33 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Ares Capital Yields 9.6%, And Q2 Reinforced Why It’s My Favorite BDC (NASDAQ:ARCC) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNaG9CZWp6NlhXbFh5c3dkcUpOU1IzTGMxcS1IRmw5Q2t3QXlzM3FuSVVTQ3VZUUhkaEVOMmo2SmNTY2RwVXlyYnduMjNQTS1xSUV6Tlh6eUhEVW5STjU3M3dOekU3Y01iZDJZZDI1OXhpeUVldmtiZG9XRW44eGQzbFBQY0FtZk1WWnA4djF2bVV0NE93VlBmc2JucC1Ha3BUelRLcUlSZGhTNjhtbmdid0YxMmR4UQ?oc=5",
     "pub": "Mon, 07 Sep 2026 13:00:06 GMT",
@@ -1141,10 +1133,18 @@
     "geo": false
    },
    {
-    "title": "Tokenized Funds: Subscriptions, Redemptions, NAV, and Transfers - Securities.io",
+    "title": "DSP 10 year Constant Maturity Gilt Fund Direct-Growth (₹ 23.03) - NAV, Reviews & asset allocation - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdGt0WDJiVjVBMDRvU0kyYnBIMGZUc0hyU1dtR0swdUdYNUI3MzZaNVVzTmZ3LWVwNUktdkk4OWx5ems0N1pCM2tLZjZfRm5UdHpDNjhmZUkwRjZIdW9nd19mSm4zNkhGc1ZKMkdfWjRCaFU4Wl8yS3VCU3Nnb1RqWE1ESkU0Rk5lbHRCY1RJWkIzbjlNZFBTaVhOOWlIMDBxWUltdEdjWGtMV2E5empR?oc=5",
+    "pub": "Mon, 07 Sep 2026 12:18:45 GMT",
+    "src": "The Economic Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Tokenized Funds: Subscriptions, Redemptions, NAV, and Transfers - securities.io",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2NNZHBkVDFZal8xY2FDR2FTZ2s3SFlVYXR5NXFiNWE2c0ZuaFNQeFFQcm9sWWJZNmtxTWdQeU1iMUpOdmRzWng1TlZLTUhwNE9GSHhOVEtrOVlzWVZvSUNSWFVfQVlNYmpNdEswcUF0UnVIbnllcGw1TkxkQkxDc2pHRVBHZTR2akxjbHgyOA?oc=5",
     "pub": "Mon, 07 Sep 2026 12:00:00 GMT",
-    "src": "Securities.io",
+    "src": "securities.io",
     "trig": false,
     "geo": false
    },
@@ -1177,15 +1177,31 @@
    {
     "title": "Is AI Making iPhones More Expensive? Micron Among Big Winners as Global Memory Shortage Escalates - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFp2TEJ4cGwtLUhPWkFJTGJvTXlrblIxOXpuMDliR20tZ2NhTGVWUW5GeHdSRExqUzI0QV9nR1pKYnpEdFViMHBBaHlJdFluMHdOWXlGN2FRQ3ZYZVItX0FidWVucDh1dHFXQVhveUNKWVc5Y2pLQVl2UU5MdW1WMHVzcmRqNFQ3S3VHZkRnci1PLWtoNjZtTldVZUxpWWhtWWx3NUZjRzNydGVrRzJPU21QYjA1WnQyWDk2bW5qU29sZm5tTExYRw?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:31:43 GMT",
+    "pub": "Mon, 07 Sep 2026 13:36:26 GMT",
     "src": "TradingKey",
     "trig": false,
     "geo": false
    },
    {
+    "title": "Which Optics Stock Has Dominated in 2026: Applied Optoelectronics, Lumentum, or Coherent? - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQNG43TDBTTDRfS0FGa1drX0hUNVVOWENydFVqYkRnWXNKci15M0lnd0ZISmU0ZFBsaUc3aEdjQWZaZzAzVTFRX0FqVmRyU1RYVmVqdnZ0WDQ2VGNHcl9xRndTWk41dDVrdmFxclZGWWVpb053Qmc2b083eTVOS09BVkZtbERjdw?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:30:22 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Tesla Optimus, Grok, and TSLA Stock: Inside the Physical-AI Bet That Now Defines Tesla - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQUR3V2VDUENFQmlrQlFBaXlYU203R2VZN1JpTDZyU3ptUWQ5UDNWbWtqWTU5Sk1oYkRpZDYzTmVUOWVmS3YweUVQdXpMSExZYVE4eVdPZmtMTFRKYlV0Y2dKUHVsck5pZUZzLWwzNkVTWHlhZ211TGkydEdPdUhLRnBObXUyY1pwbjcybEJmaXNGaHFmS1JwRzU2NkpWWjhSM3RVSUtWNEk0ZkdBeG9hUzZXakxlTi02eWlXSjNGYXFtVGpPQjYxdUhuNXJIcVYzUkZ3VHJGY2ViRl9fbG9uQQ?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:30:00 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Micron stock: Could doubling HBM capacity create an oversupply headwind? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPN2VLcXVIc3lLS1RVOWpCT3NsSkQyelh1YVBOa2ZleHlidlBjcGtOUVdvUG5SQkxVZUQ2V29sS21wLTJpb0RscnVvWF9DNUlGMUE0ZHdIQzkyVXBYczhqU0NOUHNNdF9nUnh5ZDRQc0MzeW1jc19Tb0NUSUZzR1Y1Z2Z6ZlhaZk9xTlBTVnVFY0dGb0dyMnh1blJTcTlfbWhQT3hMTkFjUnlDbTJjR2c?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:16:25 GMT",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPa19YT2FLUGw3TnBoWlZvbTRGS3hETFlZSGxpQmN6NnRGRlNxVi1Lbk5KVm82RFJ1NkZjYnRwUzBlbTFmQ21oVGtUZVhDc1o2Sk8zRHQ5ei16SF9lQnFJOHFwc3c3a2pwa3BHYXBpS1VGSFR2c0gtOTJ0bGlKYzJ4ektaQndZb0lLUVkzZzFBdncyZ3FvUlp0LWItazg4Ymt2Q3VlSFBTaFlUOUUtNEE?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:12:25 GMT",
     "src": "Invezz",
     "trig": false,
     "geo": false
@@ -1205,33 +1221,9 @@
     "src": "Analytics Insight",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3RrTEI3WGZWNmhSMWU3YnNiRHBaNE1vdzlSLWJGWUZZdzNwQ0hEWFRDZkpJWkdKYjdfa1R1eDF4Y0dFbWRRbTBfbWJnVjVrNEF1WW1yMTlqZ3l4LTBYN0dmc2lqV1pyVGl3UkI1ZU82dWkwdjVkcWxLdnFwclpfeDJCa3fSAYoBQVVfeXFMUGN5V2JLOVpDVjNTRXVPQ2pfRUtyTFpSMnhQbllJODV5NlI1cVVMZXhNMGdCMnEyVGp0UlhsOHBoLTQwT0VyTzdJaXhOR3BTRThIblE3MmxkLWpmenNlc0FnLUVBYjlHT0RxcGh4WHU5OHQwZlNrcGgteEd3M3ZENG50dVM5bHZ4UUNn?oc=5",
-    "pub": "Mon, 07 Sep 2026 10:51:03 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Equity Buybacks: Shifting Buyer Base Drives Record-High Activity - Neuberger Berman",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWplLXpsYmZDcHRVSEh1RTRZN2xObzV6TDNSV1FzWnFUa2M0Tm5UXzJtZmlFZ282UlI5ZmxjX0NKYkRhcjUxX29tcnB2QUNXalpFMGx1NDBzZFZRSFd2VXk4TGVpZi1ZaUpTcHFXOHpBeVR2UDZZcnNRWlhkSFFCR0VYeVZrbzN1VEdxSF9reE1YQk9vRHNPeEhJVVlnblN0S1VuV0ZhakFORm9famc?oc=5",
-    "pub": "Mon, 07 Sep 2026 10:45:11 GMT",
-    "src": "Neuberger Berman",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Oil Prices Rise After U.S. and Iran Trade Strikes - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tdXhlb3hCRjN0TWt4Vkl1THhuUklqUGJTbzgybGZ4WFB2Q2oxUVd1Mk5Zd09MS3FuZ0pMd29lMk9WSmMzMktxZkpVaTQxczI3UEJnSkxlMkl4dEE1ODcyX2xPZmQweDJSeVpuamRyS1dBdGJZVDVzT2trSWY?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:24:00 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "PSEi edges lower on weak peso, Middle East war - BusinessWorld - BusinessWorld Online",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQVlh0SVdRZXY5WldlS3hvNEJtTjY5cG1naER0WC1NSEFXQTB2ZG54SHZPRFpWQkVweEhTUldReERTRkh0YW1iUFIteGhhZEtoOGtwcGtzd0x2YXFoelB5d3hUYjNpdjRPZkxrbEtuUkJ3NUpsQ2VfZkZIUzd0LW5PakpsN3hTQ3ExWnE2V051M3BuREJVWEI4cWhweFpFOEtucFh0cQ?oc=5",
@@ -1271,22 +1263,30 @@
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "India VIX Rises 4.49% as Oil and Geopolitical Risks Hit Markets - HDFC Sky",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPVXF0WWxLS09uTS0xekRzdEdhNHpIT2VGYmtHd3o5T3VhSkVyaFBrMUJaZW1uZ1hJU1IxamRHRjhlQUptVXo1SUxORFJ0Y2FvTDlXOUtKeDZzcVpKZFN5NGNBY2NSdjVhTVR5TGl2VjZkRC1ZMEVzLVRZRS1SOEhvM09GS0RUSjlQTDJnTkRGZzFWZlVpY2FnLTlSaHJINGpSbU0yTGZqUkp3ZnFVbFhSMA?oc=5",
+    "pub": "Mon, 07 Sep 2026 10:57:22 GMT",
+    "src": "HDFC Sky",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Japanese Yen hits six-and-a-half-month high on hawkish BoJ bets - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVJCYnFBWEt0LXUzRGpGZ2txV1dURkZna2xybHZ5NGY1djFVQWl6Y2liTjB6UWFLZjB1NjhMRlVFdFkxMmNodHR4NmQtajBLLXJDcU9aUW5GYWxCU01mWlB3QzgzUDlqcHlEekpXOFVNY19Kc0dwQ2ZkN3hmLVZOeC1GZEwyYVQzMXlNRTU1OEp4QTNQRWhicUtuQkZHX3REQ0tFQlVqZWlMdw?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:37:38 GMT",
+    "src": "FXStreet",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "High Crude and LNG Prices Weigh on India's Oil and Gas Sector - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkdQcVZBcHJ4bzk4STlUWVhBdzM5V0RTNkJIYjZFaVM1R1AxRUFfV201emh4djJ1RzFtbUZxTy0wQUF3UWRvU19yX3VtdUU4Y3pJLWhGSmJmRGp3bXdHektWdnA0ZlpQZEtmUlNDVndVTG5HMTNjVEJVRmZQcEw4cXNrcS1ocjcwN3hGb0ZLbTIxVU5tZmJaQmxaVUdQY2NKd2tlLWdWMXRCSG9QMmRoUWRTYkpIdU3SAbwBQVVfeXFMT2lFWnh2dWoySG9XRU53U2lzeG01LXlfSk8yRHV2UFI0NWpWaVZ0WEJTaVM5T1puNWlkQU83cXRqcFE4Yk10U0hRTFJuT1dLeUc0d3F3blQ1NXd2MUN4VnhuQW50NFZnZGsweHZzWmZMcDdENVZPcjhWSlZzY3VjRngtcEd2SVA3RTA0aWgxNVlGSlQ3ZzM1XzhteVAzcVBxRUhjOU1xT3NVMUFDU252SkhJS3lpZzZHeWgtbWc?oc=5",
     "pub": "Mon, 07 Sep 2026 13:30:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Rise After U.S. and Iran Trade Strikes - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1tdXhlb3hCRjN0TWt4Vkl1THhuUklqUGJTbzgybGZ4WFB2Q2oxUVd1Mk5Zd09MS3FuZ0pMd29lMk9WSmMzMktxZkpVaTQxczI3UEJnSkxlMkl4dEE1ODcyX2xPZmQweDJSeVpuamRyS1dBdGJZVDVzT2trSWY?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:24:00 GMT",
-    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "India Isn’t Japan: Why the Yen Carry Trade Analogy Could Mislead Indian Investors - coinedition.com",
+    "title": "India Isn’t Japan: Why the Yen Carry Trade Analogy Could Mislead Indian Investors - Coin Edition",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamN3VUJ3dUxleURyVmdFVnd3OG56MFFUSXR5VkJlU1gtcXR1aEVzb2h5M0dKcklmRHB4aEVHQ0hCa255Y0xXRHhpSi1hbkxtWTFtdEF4cmVnZl9FWkJBMWdaRjFIOG82RVVtcFF3ZGpNdEp2VFRJUG1KbmNIQU9PWXRFWHhqMVd5WGdIVjNBSFlJOHFMcWpiaG9jYzlqa3BYQzNXRTRYdw?oc=5",
     "pub": "Mon, 07 Sep 2026 12:25:10 GMT",
-    "src": "coinedition.com",
+    "src": "Coin Edition",
     "trig": false,
     "geo": false
    },
@@ -1475,7 +1475,7 @@
    15.28,
    15.84,
    15.45,
-   15.09
+   15.1
   ],
   "tnx": [
    4.48,
@@ -1550,7 +1550,7 @@
    157.89,
    159.22,
    158.9,
-   154.43
+   154.49
   ],
   "uso": [
    133.02,
@@ -1610,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79343.96
+   79326.33
   ],
   "vixts": [
    0.867,
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T13:41:47+00:00",
+  "checked": "2026-09-07T13:51:59+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T14:22:17+00:00",
+ "updated": "2026-09-07T14:32:34+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.16,
-   "chg": 4.34,
-   "chg5": 1.61,
-   "sma20": 15.08,
-   "sma50": 16.13,
+   "price": 15.18,
+   "chg": 4.47,
+   "chg5": 1.74,
+   "sma20": 15.09,
+   "sma50": 16.14,
    "sma200": 18.53,
    "high3m": 22.22,
-   "reg": 15.16,
+   "reg": 15.18,
    "pre": null,
    "post": null,
-   "regClose": 15.16,
+   "regClose": 15.18,
    "sess": "reg",
-   "mt": 1788789991,
+   "mt": 1788790606,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.9,
-   "chg": -0.27,
-   "chg5": -0.54,
+   "price": 98.88,
+   "chg": -0.28,
+   "chg5": -0.55,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.9,
+   "reg": 98.88,
    "pre": null,
    "post": null,
-   "regClose": 98.9,
+   "regClose": 98.88,
    "sess": "reg",
-   "mt": 1788790298,
+   "mt": 1788790916,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79056.58,
-   "chg": -1.61,
-   "chg5": 2.27,
-   "sma20": 77972.89,
-   "sma50": 69693.14,
-   "sma200": 69987.4,
+   "price": 79031.08,
+   "chg": -1.64,
+   "chg5": 2.24,
+   "sma20": 77971.62,
+   "sma50": 69692.63,
+   "sma200": 69987.27,
    "high3m": 81271.74,
-   "reg": 79056.58,
+   "reg": 79031.08,
    "pre": null,
    "post": null,
-   "regClose": 79056.58,
+   "regClose": 79031.08,
    "sess": "reg",
-   "mt": 1788790903,
+   "mt": 1788791520,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.39,
+   "price": 154.41,
    "chg": -0.81,
-   "chg5": -3.58,
+   "chg5": -3.57,
    "sma20": 158.87,
    "sma50": 160.48,
    "sma200": 159.73,
    "high3m": 163.86,
-   "reg": 154.39,
+   "reg": 154.41,
    "pre": null,
    "post": null,
-   "regClose": 154.39,
+   "regClose": 154.41,
    "sess": "reg",
-   "mt": 1788790907,
+   "mt": 1788791525,
    "ok": true
   },
   "ES=F": {
@@ -1006,7 +1006,7 @@
    "post": null,
    "regClose": 7722.0,
    "sess": "24h",
-   "mt": 1788790302,
+   "mt": 1788790925,
    "ok": true
   },
   "NQ=F": {
@@ -1022,7 +1022,7 @@
    "post": null,
    "regClose": 29565.25,
    "sess": "24h",
-   "mt": 1788790307,
+   "mt": 1788790926,
    "ok": true
   },
   "YM=F": {
@@ -1038,7 +1038,7 @@
    "post": null,
    "regClose": 53440.0,
    "sess": "24h",
-   "mt": 1788790307,
+   "mt": 1788790925,
    "ok": true
   },
   "GC=F": {
@@ -1054,7 +1054,7 @@
    "post": null,
    "regClose": 4476.6,
    "sess": "24h",
-   "mt": 1788790300,
+   "mt": 1788790926,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 91.48,
    "sess": "24h",
-   "mt": 1788790309,
+   "mt": 1788790928,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.68,
    "sess": "24h",
-   "mt": 1788790306,
+   "mt": 1788790920,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 107.47,
    "sess": "24h",
-   "mt": 1788790264,
+   "mt": 1788790919,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1124,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Lebanon says 12 killed in strikes as Israel vows to 'remove threats' - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOajd5Z041NkxncDZpQzEzSThRTjdBcnc4ZmYtbzViVUU0aGhWNFFPbGpSSjRUTVBHWjZpekx2RG1WQk9ZS3Y3WVlNSEY5N1I2Sy10SmlQa3dKNV8yNnZ5R0lORXpMYlBpdDBBdExoZ0c1NEV1LTU5LXgtOVdBMzh4Q3FtbkxPZ2RXYUpDWHNWX3BSQXA1Z2tNWXZsVzdjNU1OVWNnd3gtd0F4Xzd5djFKWllZU2gwQQ?oc=5",
+    "pub": "Mon, 07 Sep 2026 14:15:00 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Roblox required to implement age verification through nat’l ID by October—DICT - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOWnVlVlNObzU4V05GTUp1RGEwd3Q3eWUxekJTZ09oYkJIaUdyc21VLTgtSGc3TlJIQzd4UzlNellnbDUwcS0xNTgyV0VzM3JMaHlxeURrdWdSM2lNRVJORnlMNGpoMEJwZVo2bnRBcGdqTjNRTlJreTkzNTIyaWp0TkVsU2hyd2lXRDB1UHQ1eDJGeTMwZzQyeHlaN0ZldEtibUFFOU9GSFhmdmRad2dnTWJWeEg4Umh3UEl1QWpyQkplUGFvU2tzYnMxUms?oc=5",
@@ -1163,30 +1171,30 @@
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Loan Note: American GPs dominate fundraising; unitranche makes comeback in Europe - pei-privatecredit.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPY1RkWGV4dGpLMWNiN1BhV2tUNE9PcGlyZWRickF2cmliMW93UGZjel9jMFZNSXNKR3VXWDdjQXIzYnVucjVIY2lrNWpqbTNtZk5YQ1lxVmJoNnRHYzFxcjZnbHdoeEdHU0Z4ZTU0NlFhamtWa3BOTV8weHUzd0dYc25INTc4aHdHQklFX1kxOWQ1NXh5VE84ellVVkdZaGdmc09tZlo1RWxscG0zdFBqTm9uTXBHdkE?oc=5",
-    "pub": "Mon, 07 Sep 2026 11:34:46 GMT",
-    "src": "pei-privatecredit.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "AI-Driven Memory Shortage Is Pushing Gaming Hardware Costs Higher for Australian Player - MKAU Gaming",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNNkF5THlCRFE3MEFKaTdwSUV2RFJ2dW4zQVlqcEd1VDV2UU1leklESG5VODJhQWI4VFVhZlZ2ZFJDZ2xiRHZqNlJnZndKXzhuUmN4X3hfdjVJMnFXeXNOb3dKYlBVQVoxa0t2aGhxbGtpRkxYQU9JMWhodDNiZUo3OGlhYTRKWWtuWmFYbEN0NHVaTl9uZ09FenNaU3lKUC1QbC1Va0R1YVdpTmhOQWdINzJ4bFBQQQ?oc=5",
+    "pub": "Mon, 07 Sep 2026 14:21:35 GMT",
+    "src": "MKAU Gaming",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Elon Musk's xAI fails to block Minnesota law banning AI-generated nudify apps - TechSpot",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWkVDb0g4NU91Y2dNYVhVRHoxdEhGYk5nbUJPa1hFM01oaWpOa2ZRTHUzQ09IU21xSjB5UWpxT1JkSGJTRi1DTkRHNkxibnlzTmU4b3lBbHFueG1wTDJtb196SG1abUVRaXIxbE1CUVMxVW8talRsaERpX0VrS19KeUdlU1hCR3YtTnd5SUYwanltb2JES3hUdGVJQlN1S00w?oc=5",
+    "pub": "Mon, 07 Sep 2026 14:03:00 GMT",
+    "src": "TechSpot",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Meta Platforms stock slips as investors weigh earnings and capex - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSEVnS2k1TUVENWJiUjNiWnY3TXJ1SFJRdVJROGZ3THVSMldCS0g2WmVwLTlBeXZpenZ2UjRzUkNTcEZ3Qms3QXQ3U3ZPY2E3M2RxczBfNGRhQTgwQ2hXRlR1VmtOX1hab2ctakFjSXhTdDRNOEczQ0tpbERWWEw2NEdSajFmaEM2bGxlU2pJZmFaWU1wcjc3X2JZc3ZnZlZLSDlyRndEVlFOXzdNSjViak82UkVUSEFlbkwtYVozcGJyMm5pYXc?oc=5",
     "pub": "Mon, 07 Sep 2026 14:01:45 GMT",
     "src": "ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Micron stock: Could doubling HBM capacity create an oversupply headwind? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZ3lNSXZvY1hIQk1PQTZrWXRON2VDcjJNQ0xHUU01VWdpZDNDd2wtX1VWVGU4NnJQWGloTjdMbzlOUGo2S3ZhZkdtZE1XTG85akNQSUo1azhpUElQak0xWlQxR3huck8xTDFzOWM5WW1kWU9FY2NySW9DREtaUGFHMUZkbWdDZTB6T1VQVDA4c0FzZm83M29fUHdDQmFXcnFjU1Y3NFllbXhYeTIwSXc?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:40:30 GMT",
-    "src": "Invezz",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOQUR3V2VDUENFQmlrQlFBaXlYU203R2VZN1JpTDZyU3ptUWQ5UDNWbWtqWTU5Sk1oYkRpZDYzTmVUOWVmS3YweUVQdXpMSExZYVE4eVdPZmtMTFRKYlV0Y2dKUHVsck5pZUZzLWwzNkVTWHlhZ211TGkydEdPdUhLRnBObXUyY1pwbjcybEJmaXNGaHFmS1JwRzU2NkpWWjhSM3RVSUtWNEk0ZkdBeG9hUzZXakxlTi02eWlXSjNGYXFtVGpPQjYxdUhuNXJIcVYzUkZ3VHJGY2ViRl9fbG9uQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 13:30:00 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NVIDIA DLSS 5 Comes to RTX 40 GPUs: What Gamers Need to Know - Analytics Insight",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNdWx6bFlPaW9JeGNXSFM1N0hzSWhsbjFBTjAycUJDM1pReVJGeE16YXg0dFdRMXR5SlNXRnhLWHJ2dU1MVlNMX1QxUmJBQmp1THZ0Qk9EMGZCaE9Jd3NDNEZZLUYyWThPalRaQ2RfUUY3MkYyTGozZldZbE9ldlZFZ3lkUmVkNk9vdmRCX0VveWRZSlpCZ2dJbGhWaGJieVhmSXdZdmxCM3BaLTDSAasBQVVfeXFMTXVsemxZT2lvSXhjV0hTNTdIc0lobG4xQU4wMnFCQzNaUXlSRnhNemF4NHRXUTF0eUpTV0Z4S1hydnVNTFZTTF9UMVJiQUJqdUx2dEJPRDBmQmhPSXdzQzRGWS1GMlk4T2pUWkNkX1FGNzJGMkxqM2ZXWWxPZXZWRWd5ZFJlZDZPb3ZkQl9Fb3lkWUpaQmdnSWxoVmhiYnlYZkl3WXZsQjNwWi0w?oc=5",
-    "pub": "Mon, 07 Sep 2026 12:45:58 GMT",
-    "src": "Analytics Insight",
     "trig": false,
     "geo": false
    }
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "Chile Copper Shipments Sink to One-Year Low Despite Price Rally - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWpHc3BJU2xYbEFobmhabWxBdGM3a01tRDdBQkFYdHJhOU9vdS1Rb3FQS2k5S2kycExUbXVWTjhuNHl4bUlxQTBsdEVYc1RLd1c4MmduZWlVX1B3THlIOWI1VS12UzdjU2dBS1lBOTBjVVFEeEVLWi05WEZiWGhWRllsZWNialpFQzMxWW0ydjNpNDNjUVRpdFNMaHlKZzRYeWRVRVcza0VBYkpGVUozcXRRQTg?oc=5",
+    "pub": "Mon, 07 Sep 2026 14:14:37 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Star Copper's Share Price Rally Outpaces Fundamentals as Investors Bet on September Assay Results - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTmJwa2NTSEZ6SGE0X2ZPN0ltN3J0cDQ0eDRjaWhRdmZpNjFzSDJmWGZQb0FqZHZ3YjRFZ3pUTF9RUm91aDFvNEF4NGRNTnJyMHFlVUNQWkQ5dU9oNkNaVXU1LTNLX2JKMzZFTXdZUVIzdnUzM2tySWtrbWJLREF2SER6U2RtUHotTHN3MDN0aWVaQ2xTeDlfNnEwTm5JMlR6Yjd2c25PS3Y2bVZmNnlIVnV5NjVyRnhCNng1RjByZ0pYcW41aEVNVkxSdnMxSUpKSC1mNFU0ZVpxZk01Q1E?oc=5",
     "pub": "Mon, 07 Sep 2026 13:51:24 GMT",
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPN2htUU5kWjFBQ1RXUzN2d18wc001N0o4dXZlVS10enpzV19hb0VsRFJnWDdGUXZJLW9pVzlsSFdYczNoYmFjQlRRdnIwYmJwcFpQb2ZSc1BFUURjN0hUeDVfUmQxWFZxNC1STC1wd0ZLRHhTZXNnSVAtUlg0UEEwVHVCRjg4M3g1aTllMHNuenE?oc=5",
     "pub": "Mon, 07 Sep 2026 12:36:26 GMT",
     "src": "Traders Union",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "India Isn’t Japan: Why the Yen Carry Trade Analogy Could Mislead Indian Investors - Coin Edition",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamN3VUJ3dUxleURyVmdFVnd3OG56MFFUSXR5VkJlU1gtcXR1aEVzb2h5M0dKcklmRHB4aEVHQ0hCa255Y0xXRHhpSi1hbkxtWTFtdEF4cmVnZl9FWkJBMWdaRjFIOG82RVVtcFF3ZGpNdEp2VFRJUG1KbmNIQU9PWXRFWHhqMVd5WGdIVjNBSFlJOHFMcWpiaG9jYzlqa3BYQzNXRTRYdw?oc=5",
-    "pub": "Mon, 07 Sep 2026 12:25:10 GMT",
-    "src": "Coin Edition",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1475,7 @@
    15.28,
    15.84,
    15.45,
-   15.16
+   15.18
   ],
   "tnx": [
    4.48,
@@ -1505,7 +1505,7 @@
    99.82,
    99.65,
    98.92,
-   98.9
+   98.88
   ],
   "bizd": [
    12.49,
@@ -1610,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79095.13
+   79096.48
   ],
   "vixts": [
    0.867,
@@ -1625,7 +1625,7 @@
    0.804,
    0.834,
    0.787,
-   0.738
+   0.739
   ],
   "hyoas": [
    3.19,
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T14:22:03+00:00",
+  "checked": "2026-09-07T14:32:20+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T12:21:57+00:00",
+ "updated": "2026-09-07T12:32:49+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.24,
-   "chg": 4.89,
-   "chg5": 2.14,
+   "price": 15.26,
+   "chg": 5.02,
+   "chg5": 2.28,
    "sma20": 15.09,
    "sma50": 16.14,
    "sma200": 18.53,
    "high3m": 22.22,
-   "reg": 15.24,
+   "reg": 15.26,
    "pre": null,
    "post": null,
-   "regClose": 15.24,
+   "regClose": 15.26,
    "sess": "reg",
-   "mt": 1788782776,
+   "mt": 1788783406,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.96,
-   "chg": -0.2,
-   "chg5": -0.47,
+   "price": 98.95,
+   "chg": -0.21,
+   "chg5": -0.48,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.96,
+   "reg": 98.95,
    "pre": null,
    "post": null,
-   "regClose": 98.96,
+   "regClose": 98.95,
    "sess": "reg",
-   "mt": 1788783083,
+   "mt": 1788783712,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79493.52,
-   "chg": -1.07,
-   "chg5": 2.84,
-   "sma20": 77994.74,
-   "sma50": 69701.88,
-   "sma200": 69989.77,
+   "price": 79504.57,
+   "chg": -1.05,
+   "chg5": 2.85,
+   "sma20": 77995.29,
+   "sma50": 69702.1,
+   "sma200": 69989.83,
    "high3m": 81271.74,
-   "reg": 79493.52,
+   "reg": 79504.57,
    "pre": null,
    "post": null,
-   "regClose": 79493.52,
+   "regClose": 79504.57,
    "sess": "reg",
-   "mt": 1788783685,
+   "mt": 1788784315,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.61,
-   "chg": -0.67,
-   "chg5": -3.44,
-   "sma20": 158.88,
-   "sma50": 160.49,
+   "price": 154.47,
+   "chg": -0.76,
+   "chg5": -3.53,
+   "sma20": 158.87,
+   "sma50": 160.48,
    "sma200": 159.73,
    "high3m": 163.86,
-   "reg": 154.61,
+   "reg": 154.47,
    "pre": null,
    "post": null,
-   "regClose": 154.61,
+   "regClose": 154.47,
    "sess": "reg",
-   "mt": 1788783690,
+   "mt": 1788784321,
    "ok": true
   },
   "ES=F": {
@@ -1006,7 +1006,7 @@
    "post": null,
    "regClose": 7722.0,
    "sess": "24h",
-   "mt": 1788783090,
+   "mt": 1788783720,
    "ok": true
   },
   "NQ=F": {
@@ -1022,7 +1022,7 @@
    "post": null,
    "regClose": 29565.25,
    "sess": "24h",
-   "mt": 1788783090,
+   "mt": 1788783707,
    "ok": true
   },
   "YM=F": {
@@ -1038,7 +1038,7 @@
    "post": null,
    "regClose": 53440.0,
    "sess": "24h",
-   "mt": 1788783090,
+   "mt": 1788783708,
    "ok": true
   },
   "GC=F": {
@@ -1054,7 +1054,7 @@
    "post": null,
    "regClose": 4476.6,
    "sess": "24h",
-   "mt": 1788783090,
+   "mt": 1788783721,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 91.48,
    "sess": "24h",
-   "mt": 1788783091,
+   "mt": 1788783724,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.68,
    "sess": "24h",
-   "mt": 1788783062,
+   "mt": 1788783683,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 107.47,
    "sess": "24h",
-   "mt": 1788783082,
+   "mt": 1788783715,
    "ok": true
   },
   "EWY": {
@@ -1125,9 +1125,25 @@
  "news": {
   "credit": [
    {
+    "title": "Tokenized Funds: Subscriptions, Redemptions, NAV, and Transfers - Securities.io",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2NNZHBkVDFZal8xY2FDR2FTZ2s3SFlVYXR5NXFiNWE2c0ZuaFNQeFFQcm9sWWJZNmtxTWdQeU1iMUpOdmRzWng1TlZLTUhwNE9GSHhOVEtrOVlzWVZvSUNSWFVfQVlNYmpNdEswcUF0UnVIbnllcGw1TkxkQkxDc2pHRVBHZTR2akxjbHgyOA?oc=5",
+    "pub": "Mon, 07 Sep 2026 12:00:00 GMT",
+    "src": "Securities.io",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Now an MIFF icon, Lea Salonga hopes to continue paving the way for Filipino artists - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPS0NpR2xYbVowVl9RLWRCeFNpSHp4X2Y5YmpuWE41VkpUal9OZnZybXFfQVZWcGpLdDMyOGVfWUQ5eFZNUGY1dWpPcVBwV2pUeFdMb2pPUjFEODJsRVhiSFNSNzBNNU8yZVlwX2p5ZnBObjVnTklhU3ZMZ1NTTXduX3ZnYkl5QzFRRXFCWFlpMUN3blllMWNXbUxFMWFJN3lKa2p6SEpJLUl0ckZScGhPbVE1SVk5YjdCYTVGX3NCTVpxMVlCUVpQWEpBTkdORTlCZVg4elVLVWd6TVJxNHp3WE1SbWtkdU0?oc=5",
+    "pub": "Mon, 07 Sep 2026 11:22:50 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI could pose 'existential risk to humanity': UN rights chief - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNeXdveWNnRUJWWHhlLVI3LU8wb0NaV2lRWnd3aDRPYVM0bTBrY0lwN0o4UndPa2w1TG5KMGEtUThHSU1aYW1XS1EyXy1VUTJpNDQ3YWgzMGNjcFBnTFY2azFSRGp1NzhMUGZscjNGRWFGb3dJMDl3UWhEVHY4LWpvbmw4c2lzNFo1MGoyeFNRaTJpd0s4NFJ6Z1gwdnEzeUV6VGJ3OTFQbFdUT2c?oc=5",
-    "pub": "Mon, 07 Sep 2026 10:49:45 GMT",
+    "pub": "Mon, 07 Sep 2026 08:53:02 GMT",
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
@@ -1155,38 +1171,22 @@
     "src": "ABS-CBN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Filipino artists turn gallery into protest site against proposed Pax Silica initiative - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSU11RGhwbFdVMmJTQVZmWFRnVmRlOEZZV3l6THFCRkx6ZmNiR3cxSVhtSm1heHdJaUp1NHRzQmJ2NTVmRktJZUhsLXRPajRFeDNoVUhHbng2c3FKSFlFT2FsV082djJvSXdhWEdFelZwcmJFNGJGWWI3alFGcjBMRVhmZ18xWWNkRGt1eVJIZmpnbXd5bUQtZFFxM0NaaEFmOHRROXBDOHRBWWRFV2N4QUpoWXJZdmFwN0lUeW1lRlBBWDF5WVRwaS1uQTdOSjVxWHdFRkdKU0tmQ0o2T1dwekoxWWYtZGNpbDFUMg?oc=5",
-    "pub": "Mon, 07 Sep 2026 02:20:21 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Acrylonitrile-Butadiene-Styrene Modifiers Market Outlook to 2035 - indexbox.io",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNcDM2Ykl3WllKSHBBOUJxeS1hdVRSbXMxekFoU1BsMEZuekNpbGJnS3V2eU90VXo3cWVGaDNLTkRYdGhoOWFiWkdsTmY2d29mTjZZVGJOQXhCdExnXzVkS3FiQjdTRGVLUmk2bFlnTTd5MW1pNHNwdDRnN1pqUU5yWUphU1lzdzZLM19zbDBmMk5DMHNKazBDdmd3?oc=5",
-    "pub": "Mon, 07 Sep 2026 00:31:20 GMT",
-    "src": "indexbox.io",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more - cnbc.com",
+    "title": "SpaceX rival launches rocket in historic first, says industry is 'desperate' for more - CNBC",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOS3RrTEI3WGZWNmhSMWU3YnNiRHBaNE1vdzlSLWJGWUZZdzNwQ0hEWFRDZkpJWkdKYjdfa1R1eDF4Y0dFbWRRbTBfbWJnVjVrNEF1WW1yMTlqZ3l4LTBYN0dmc2lqV1pyVGl3UkI1ZU82dWkwdjVkcWxLdnFwclpfeDJCa3fSAYoBQVVfeXFMUGN5V2JLOVpDVjNTRXVPQ2pfRUtyTFpSMnhQbllJODV5NlI1cVVMZXhNMGdCMnEyVGp0UlhsOHBoLTQwT0VyTzdJaXhOR3BTRThIblE3MmxkLWpmenNlc0FnLUVBYjlHT0RxcGh4WHU5OHQwZlNrcGgteEd3M3ZENG50dVM5bHZ4UUNn?oc=5",
     "pub": "Mon, 07 Sep 2026 10:51:03 GMT",
-    "src": "cnbc.com",
+    "src": "CNBC",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Equity Buybacks: Shifting Buyer Base Drives Record-High Activity - nb.com",
+    "title": "Equity Buybacks: Shifting Buyer Base Drives Record-High Activity - Neuberger Berman",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOVWplLXpsYmZDcHRVSEh1RTRZN2xObzV6TDNSV1FzWnFUa2M0Tm5UXzJtZmlFZ282UlI5ZmxjX0NKYkRhcjUxX29tcnB2QUNXalpFMGx1NDBzZFZRSFd2VXk4TGVpZi1ZaUpTcHFXOHpBeVR2UDZZcnNRWlhkSFFCR0VYeVZrbzN1VEdxSF9reE1YQk9vRHNPeEhJVVlnblN0S1VuV0ZhakFORm9famc?oc=5",
     "pub": "Mon, 07 Sep 2026 10:45:11 GMT",
-    "src": "nb.com",
+    "src": "Neuberger Berman",
     "trig": false,
     "geo": false
    },
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "India Isn’t Japan: Why the Yen Carry Trade Analogy Could Mislead Indian Investors - Coin Edition",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOamN3VUJ3dUxleURyVmdFVnd3OG56MFFUSXR5VkJlU1gtcXR1aEVzb2h5M0dKcklmRHB4aEVHQ0hCa255Y0xXRHhpSi1hbkxtWTFtdEF4cmVnZl9FWkJBMWdaRjFIOG82RVVtcFF3ZGpNdEp2VFRJUG1KbmNIQU9PWXRFWHhqMVd5WGdIVjNBSFlJOHFMcWpiaG9jYzlqa3BYQzNXRTRYdw?oc=5",
+    "pub": "Mon, 07 Sep 2026 12:25:10 GMT",
+    "src": "Coin Edition",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Yen Surges to Seven-Month High as Traders Bet on Faster BOJ Rate Hikes - Brand Icon Image",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOZjZIdDJFNE1vaWJPNlpxM0VfcDZldmRRV3k2dzFUQU1pSHBkc1hOMXk1VXFrVXk3VktjX2ZUUkh0ZkNubE9nX3RGSTh0RjYtSWpUeTFvSnBXLWJoSDV0cEFtQXVValN4NkNWb2RtcHV1enRCS1BtTXdaSVRxdXk1cjNwQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 12:05:00 GMT",
@@ -1283,10 +1291,10 @@
     "geo": false
    },
    {
-    "title": "Gold, Silver, Copper & Crude: Why Experts Says Buy On Dips, Avoid Shorting Commodities Now - Business Today",
+    "title": "Gold, Silver, Copper & Crude: Why Experts Says Buy On Dips, Avoid Shorting Commodities Now - businesstoday.in",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNdVluTXlIUnd3X1BORklaTU1SbV93Wm9nVkNrTXh3M3pabU5iSDN4anBvTGpaMkFQVnFMM2lqanVxQVZRV3llYmx4amVoT0l6Wl95NlAydHRvZzUwT2tVZTQwR0pUd1J6OWlkMXRaTDFUYmRKRWgtNkdSNlhVcGNOcHNINnUtRjRpMGMydXFaNnlBbEZDZV83V0FrclNhSy14SVVSQzdsVWVhLTlGdHRGUGs4b24tSXRacDc1TVJ5bDdBaXZvSWYxMFVudGhyX3AtVFhhOVRVaThGb2VyTktISDJueDFWTUFFenJ2UdIB8gFBVV95cUxOTV9RM1JQUkdERnBqYTVRZzRydnZJN0NXU2tHTjFadlVSRDB0UWtCY0NDTTVvSTNzTTVWOU9BMkl0N1ViN1lORVc1ZEU1MWxsUEpya3JiR1NEdFEzbko1cTFfTlpEV2ZkWGFMQWNBb2NFZGFSZzREUDI3YUpRNzRhMVlGbk9ucDllaUZvNV9BdEV2dnhBODhPdlg3VWV3bW9Ba2NMdEhscXpsMUVQbkFKbHdMTUVUSjF0QUJfektkdy1zbW9jb3AzRTBzNlB2YldWTTI3WXRnckJPRk9zWTkwZmRISkhONkYtZ25NWDNZRUsyQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 11:30:27 GMT",
-    "src": "Business Today",
+    "src": "businesstoday.in",
     "trig": false,
     "geo": false
    },
@@ -1299,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - reuters.com",
+    "title": "COMMENTARY: China's crude oil imports stayed weak in August. Can this continue? - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQNjJvZmc3M0wteXQ1VzNhSUZHY3p4eGl4UjNUWC1BYi16ajFCbzZYUlBfV0tQajNaSVFvWVRWTmY5WlhpT1hPb0JwRUF4OHY2NG96bl9xTVppUTFyZUN3clpMLTJfNnRhenNsTVVuUXlXZmxxMDV6R00tQk1MWVBkOTlUdi1uOUxuV1l2WnZaODZESnNLWVdzM0RxSFlQZTF5ZWhiUkZtSExpWmQ5cGZ1M0dnTTdjNjNRR3hqV21pT3lOMlZlZEJRQ0lB?oc=5",
     "pub": "Mon, 07 Sep 2026 11:08:03 GMT",
-    "src": "reuters.com",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPa0tTdGFiNVJlVXJjTFNDZTBVRVBtdFhZdUh0NnJQUUNRdFNXZkQtanZ2OExUaUxOLTQwOUdZZmtZNFhRTlh4YTloX3hEdTM0VmdtWUZxS1Y1OVl4alI3QVZhRUpLNzFNeTd0M0ZaNEV0aVBEZ3VoQjNHekY5UzFxcndvZWpWNEVlMHVtNkJ2MVY3eUNLbE42WU12SjA1V0owYmNoSE5XM1NXZlU4VXAwZGFad3VyUmNFVjVCZNIBwgFBVV95cUxOVzNGa0ZGaEt2R0g0YU1CRVhyTm1HMUQyOV9WSXZFbHBOVlhDTFE3YkFhOUw2VnBjZnZ3NXVNd1hZYWVLc0J0c1BUUTlHYnJVdmF2N1NuY00yUVBmQlJhSDNhN250OWVLYk9QMzFrN1lTQlpnNk5vRmtwc3gxLWY3Y0FQTmF0bVVkanctcmhWRXJwYnd0Z0RvWXZrWVZpbnd5ZTc5dHdXbUZocnU1S2Fac1o3U3dCUlg3bDZMTGRscEl2UQ?oc=5",
     "pub": "Mon, 07 Sep 2026 11:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen hits seven-month high with US dollar soft ahead of inflation data - The Straits Times",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOdU1sZDRZLXlYcnFqWkVaTXBRQmJtYjdvcWdidkFwcmY5dDlCUHRlRTdzbENKelFuOWRFOVJmaVpXV253NUxKV2pfcFpaVDgwMkxpWkRGZk54TzhfdWRUWDljMTJkQUZTOFpxamJZRGJNSUVvMDh2VDBQMEVvYXlPTUhmTmpqaUZjVE94b05odTBCSmJTc0gzQXBqMzV6eW8zZzR5SXFzeGlVQVlPbEwxb0Vxb0dmRmFwZDJBVExYbGhWOFJZdnBZ?oc=5",
-    "pub": "Mon, 07 Sep 2026 10:43:00 GMT",
-    "src": "The Straits Times",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1475,7 @@
    15.28,
    15.84,
    15.45,
-   15.23
+   15.26
   ],
   "tnx": [
    4.48,
@@ -1505,7 +1505,7 @@
    99.82,
    99.65,
    98.92,
-   98.97
+   98.94
   ],
   "bizd": [
    12.49,
@@ -1550,7 +1550,7 @@
    157.89,
    159.22,
    158.9,
-   154.61
+   154.45
   ],
   "uso": [
    133.02,
@@ -1610,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79493.52
+   79521.92
   ],
   "vixts": [
    0.867,
@@ -1625,7 +1625,7 @@
    0.804,
    0.834,
    0.787,
-   0.741
+   0.743
   ],
   "hyoas": [
    3.19,
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T12:21:44+00:00",
+  "checked": "2026-09-07T12:32:26+00:00",
   "openai": {
    "found": false
   },

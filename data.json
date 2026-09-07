@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T14:51:59+00:00",
+ "updated": "2026-09-07T15:03:43+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -163,32 +163,32 @@
   },
   "005930.KS": {
    "price": 270000.0,
-   "chg": 5.68,
-   "chg5": 3.85,
-   "sma20": 259075.0,
-   "sma50": 264330.0,
-   "sma200": 257126.8,
+   "chg": 8.0,
+   "chg5": 5.06,
+   "sma20": 257125.0,
+   "sma50": 266100.0,
+   "sma200": 257022.98,
    "high3m": 362500.0,
    "reg": 270000.0,
    "pre": null,
    "post": null,
-   "regClose": 270000.0,
+   "regClose": 255500.0,
    "sess": "reg",
    "mt": 1788762629,
    "ok": true
   },
   "000660.KS": {
    "price": 1783000.0,
-   "chg": 8.26,
-   "chg5": 6.51,
-   "sma20": 1629800.0,
-   "sma50": 1820620.0,
-   "sma200": 1668000.0,
+   "chg": 11.72,
+   "chg5": 7.86,
+   "sma20": 1611750.0,
+   "sma50": 1843300.0,
+   "sma200": 1667072.58,
    "high3m": 2919000.0,
    "reg": 1783000.0,
    "pre": null,
    "post": null,
-   "regClose": 1783000.0,
+   "regClose": 1647000.0,
    "sess": "reg",
    "mt": 1788762612,
    "ok": true
@@ -722,19 +722,19 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.25,
-   "chg": 4.96,
-   "chg5": 2.21,
+   "price": 15.2,
+   "chg": 4.61,
+   "chg5": 1.88,
    "sma20": 15.09,
    "sma50": 16.14,
    "sma200": 18.53,
    "high3m": 22.22,
-   "reg": 15.25,
+   "reg": 15.2,
    "pre": null,
    "post": null,
-   "regClose": 15.25,
+   "regClose": 15.2,
    "sess": "reg",
-   "mt": 1788791776,
+   "mt": 1788792421,
    "ok": true
   },
   "^VIX3M": {
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.87,
-   "chg": -0.3,
-   "chg5": -0.57,
+   "price": 98.89,
+   "chg": -0.27,
+   "chg5": -0.54,
    "sma20": 99.35,
-   "sma50": 100.18,
+   "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.87,
+   "reg": 98.89,
    "pre": null,
    "post": null,
-   "regClose": 98.87,
+   "regClose": 98.89,
    "sess": "reg",
-   "mt": 1788792081,
+   "mt": 1788792728,
    "ok": true
   },
   "^IRX": {
@@ -899,32 +899,32 @@
   },
   "^KS11": {
    "price": 6995.39,
-   "chg": 4.61,
-   "chg5": 2.57,
-   "sma20": 6727.59,
-   "sma50": 6912.32,
-   "sma200": 6913.42,
+   "chg": 6.32,
+   "chg5": 3.04,
+   "sma20": 6690.76,
+   "sma50": 6951.02,
+   "sma200": 6912.76,
    "high3m": 9114.55,
    "reg": 6995.39,
    "pre": null,
    "post": null,
-   "regClose": 6995.39,
+   "regClose": 6687.21,
    "sess": "reg",
    "mt": 1788771940,
    "ok": true
   },
   "^KQ11": {
    "price": 822.19,
-   "chg": 1.07,
-   "chg5": -1.45,
-   "sma20": 831.38,
-   "sma50": 809.76,
-   "sma200": 985.55,
+   "chg": 4.05,
+   "chg5": -1.93,
+   "sma20": 830.21,
+   "sma50": 811.08,
+   "sma200": 986.87,
    "high3m": 1034.03,
    "reg": 822.19,
    "pre": null,
    "post": null,
-   "regClose": 822.19,
+   "regClose": 813.5,
    "sess": "reg",
    "mt": 1788771940,
    "ok": true
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79081.28,
-   "chg": -1.58,
-   "chg5": 2.3,
-   "sma20": 77974.13,
-   "sma50": 69693.63,
-   "sma200": 69987.54,
+   "price": 79163.13,
+   "chg": -1.48,
+   "chg5": 2.41,
+   "sma20": 77978.22,
+   "sma50": 69695.27,
+   "sma200": 69987.98,
    "high3m": 81271.74,
-   "reg": 79081.28,
+   "reg": 79163.13,
    "pre": null,
    "post": null,
-   "regClose": 79081.28,
+   "regClose": 79163.13,
    "sess": "reg",
-   "mt": 1788792687,
+   "mt": 1788793333,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.45,
-   "chg": -0.78,
-   "chg5": -3.54,
+   "price": 154.4,
+   "chg": -0.81,
+   "chg5": -3.57,
    "sma20": 158.87,
    "sma50": 160.48,
    "sma200": 159.73,
    "high3m": 163.86,
-   "reg": 154.45,
+   "reg": 154.4,
    "pre": null,
    "post": null,
-   "regClose": 154.45,
+   "regClose": 154.4,
    "sess": "reg",
-   "mt": 1788792690,
+   "mt": 1788793339,
    "ok": true
   },
   "ES=F": {
@@ -1006,7 +1006,7 @@
    "post": null,
    "regClose": 7722.0,
    "sess": "24h",
-   "mt": 1788792080,
+   "mt": 1788792737,
    "ok": true
   },
   "NQ=F": {
@@ -1022,7 +1022,7 @@
    "post": null,
    "regClose": 29565.25,
    "sess": "24h",
-   "mt": 1788792086,
+   "mt": 1788792739,
    "ok": true
   },
   "YM=F": {
@@ -1038,7 +1038,7 @@
    "post": null,
    "regClose": 53440.0,
    "sess": "24h",
-   "mt": 1788792066,
+   "mt": 1788792738,
    "ok": true
   },
   "GC=F": {
@@ -1054,7 +1054,7 @@
    "post": null,
    "regClose": 4476.6,
    "sess": "24h",
-   "mt": 1788792090,
+   "mt": 1788792741,
    "ok": true
   },
   "CL=F": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 91.48,
    "sess": "24h",
-   "mt": 1788792093,
+   "mt": 1788792735,
    "ok": true
   },
   "HG=F": {
@@ -1086,7 +1086,7 @@
    "post": null,
    "regClose": 6.68,
    "sess": "24h",
-   "mt": 1788792090,
+   "mt": 1788792744,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1102,7 @@
    "post": null,
    "regClose": 107.47,
    "sess": "24h",
-   "mt": 1788792059,
+   "mt": 1788792700,
    "ok": true
   },
   "EWY": {
@@ -1157,10 +1157,10 @@
     "geo": false
    },
    {
-    "title": "Tokenized Funds: Subscriptions, Redemptions, NAV, and Transfers - Securities.io",
+    "title": "Tokenized Funds: Subscriptions, Redemptions, NAV, and Transfers - securities.io",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOR2NNZHBkVDFZal8xY2FDR2FTZ2s3SFlVYXR5NXFiNWE2c0ZuaFNQeFFQcm9sWWJZNmtxTWdQeU1iMUpOdmRzWng1TlZLTUhwNE9GSHhOVEtrOVlzWVZvSUNSWFVfQVlNYmpNdEswcUF0UnVIbnllcGw1TkxkQkxDc2pHRVBHZTR2akxjbHgyOA?oc=5",
     "pub": "Mon, 07 Sep 2026 12:00:00 GMT",
-    "src": "Securities.io",
+    "src": "securities.io",
     "trig": false,
     "geo": false
    },
@@ -1207,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "Is AI Making iPhones More Expensive? Micron Among Big Winners as Global Memory Shortage Escalates - tradingkey.com",
+    "title": "Is AI Making iPhones More Expensive? Micron Among Big Winners as Global Memory Shortage Escalates - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNSFp2TEJ4cGwtLUhPWkFJTGJvTXlrblIxOXpuMDliR20tZ2NhTGVWUW5GeHdSRExqUzI0QV9nR1pKYnpEdFViMHBBaHlJdFluMHdOWXlGN2FRQ3ZYZVItX0FidWVucDh1dHFXQVhveUNKWVc5Y2pLQVl2UU5MdW1WMHVzcmRqNFQ3S3VHZkRnci1PLWtoNjZtTldVZUxpWWhtWWx3NUZjRzNydGVrRzJPU21QYjA1WnQyWDk2bW5qU29sZm5tTExYRw?oc=5",
     "pub": "Mon, 07 Sep 2026 13:36:26 GMT",
-    "src": "tradingkey.com",
+    "src": "TradingKey",
     "trig": false,
     "geo": false
    },
@@ -1233,18 +1233,18 @@
     "geo": false
    },
    {
-    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - Bloomberg.com",
+    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUUwR280MkZ0emFzbnVoLUNmNlNZYnQ1cEZFSzZLRm9zODBBNmd6WWUtRk5NSElNYTRRdi1xVDlncjNsV3ZEU1VyVV9uczlMQjVLMUxUWlJsUEZFbGtXZ1A4ODloUzRXWktQMEZzYVJBYTYtVzNxRVFFWmRJeFBlS2RYOUZYNkRpZ25HRDBqeGFHVEhLS2ItNU9BMmJlZXdvd09pOGFYUHNORkd0VlRRMy1pZ0Q0UTluSWg3a1VuVzhkQQ?oc=5",
     "pub": "Mon, 07 Sep 2026 14:00:46 GMT",
-    "src": "Bloomberg.com",
+    "src": "bloomberg.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Silver Outlook: $60–$70 Range Faces Fed Test - dailyforex.com",
+    "title": "Silver Outlook: $60–$70 Range Faces Fed Test - DailyForex",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbEw0dDFNQTBRSVZGOEQyVEVaWXplckstZ1B0MElIX1JGaUFLX2hvSFNIWnJxU2ZWN1pnM0VUbkpKZExTUk5vT1VZSDM0Z2E5QWpDaVlhZlBIekw5QjZ6ZWRLUnlyUHA2ZlNBTEdxTkMwTkg3T01xTGZlZ1pYbWhRY0loWEhSM3JwZTRUZldkUExHYmlqcU1uV3JvVUN4bXJC?oc=5",
     "pub": "Mon, 07 Sep 2026 12:37:36 GMT",
-    "src": "dailyforex.com",
+    "src": "DailyForex",
     "trig": false,
     "geo": false
    },
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "Yen's Resurgence: A Bullish Wave - Devdiscourse",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNkRteHpVRTVaaXlWblVQaUgzTDNXWll3bE5GMnAtcUVmM3VRTTRmbGlLa1FtbXJNLW5WTlBDR3k1bDdqMk8tU0tYcmZpNTVWRElRRktaV0ozdU1wSlEzZzZKQWxZdHFuTlRGS2RfT3dqYktFZGQzZFdhUDRNcXJEbkh2a2U2aGlrXzlUZdIBkgFBVV95cUxPVDk4V212dW5HcXJHZTVZZnQ5QW5UZWYwMENzSzFYSWoyczlsQXZvZkJZTW5JYTBHaUgyTjF5X2hXY0ZpNmk3emY1SDNuNEtneHFhVDFETEpBZXctd3JuczQ4cUpaSXlPNGtkTHJ5NVJJb2haMDg2LURqcGo1Szd5WGpnZXdISWlnLUdvLXhZZVF2dw?oc=5",
+    "pub": "Mon, 07 Sep 2026 14:48:54 GMT",
+    "src": "Devdiscourse",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "American and African Crudes Soar as China's Oil Imports Rebound - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeFBWX1ZBZVZGTmNSM1oyWVJnNFhqMGxkM2tpYk9rNXpkcFF2Y09Ca1BOejEyTUpBVkF5b2ZtVlpScG4tenJyalZxeDVmckViNzZUaU5ROUFpRmJOVV9hcHdwQjdpa0ZXWjN4T2tTNERjbmpJTi1KaEtqdW5pWjdDU3NCaG1LRkNvRS00ZEowYUhFejE1RWk2TS10UTRDdnVCWnp5eE5rTXhZRWZvQVpLSk9ld0ZXOXZLbmfSAb8BQVVfeXFMTTdPUkhTUl9YTFZwLTdDZTZZZmRwUVFwVFA5VnJ1M1FiMm5FVjdZZ3Y1NmdUMmZtUXhRaENvZjMtY2h3TXhhNUtLRkJiNmtCZ1Qxa2Z5aTZrMnF4UEotem1VaUpBNlNKcXZGQ0V0Q1FBQkhmVi1KUGlGT0thZUdfdk5hb2NfQ2s2ME84czN5TDFKa1QzbTJ2UERUNjRrZ2Q3dHJTRzZzeUF6SVRUc0F3b2RtMXBNNGtVb0ZQajIyMWM?oc=5",
     "pub": "Mon, 07 Sep 2026 14:30:00 GMT",
@@ -1283,10 +1291,10 @@
     "geo": false
    },
    {
-    "title": "Chile Copper Shipments Sink to One-Year Low Despite Price Rally - Bloomberg.com",
+    "title": "Chile Copper Shipments Sink to One-Year Low Despite Price Rally - bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNMWpHc3BJU2xYbEFobmhabWxBdGM3a01tRDdBQkFYdHJhOU9vdS1Rb3FQS2k5S2kycExUbXVWTjhuNHl4bUlxQTBsdEVYc1RLd1c4MmduZWlVX1B3THlIOWI1VS12UzdjU2dBS1lBOTBjVVFEeEVLWi05WEZiWGhWRllsZWNialpFQzMxWW0ydjNpNDNjUVRpdFNMaHlKZzRYeWRVRVcza0VBYkpGVUozcXRRQTg?oc=5",
     "pub": "Mon, 07 Sep 2026 14:14:37 GMT",
-    "src": "Bloomberg.com",
+    "src": "bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1299,26 +1307,18 @@
     "geo": false
    },
    {
+    "title": "Freeport-McMoRan Has Ripped 44% in 2026. What Would It Take to Get FCX Stock Up to $100? - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNRGRIQ3J3WjJHcU50NEo2MW14NHlXbG9RWXNOOXhCazRkVVItRUZoWW5QTlRjQkh2RW9zWWgyd1RiZmFpaHZQVFRGemlzUVkydHBzQU91RGxCdjNmNzZ4emxaYTluOEttUm8tbzRhMjhPRmtQbTBsZGJCelBLUmJnVU11SXJMLWxRSmtrUzlfNTFjYjNtWHlDSlY5UVpPZkF1MjZmSTYzWjdBbU1pTzlLcnVGazRPQ29DdEVaY2x1THdraEVGMDlz?oc=5",
+    "pub": "Mon, 07 Sep 2026 13:50:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Japanese Yen hits six-and-a-half-month high on hawkish BoJ bets - FXStreet",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQVJCYnFBWEt0LXUzRGpGZ2txV1dURkZna2xybHZ5NGY1djFVQWl6Y2liTjB6UWFLZjB1NjhMRlVFdFkxMmNodHR4NmQtajBLLXJDcU9aUW5GYWxCU01mWlB3QzgzUDlqcHlEekpXOFVNY19Kc0dwQ2ZkN3hmLVZOeC1GZEwyYVQzMXlNRTU1OEp4QTNQRWhicUtuQkZHX3REQ0tFQlVqZWlMdw?oc=5",
     "pub": "Mon, 07 Sep 2026 13:37:38 GMT",
     "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "High Crude and LNG Prices Weigh on India's Oil and Gas Sector - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNVkdQcVZBcHJ4bzk4STlUWVhBdzM5V0RTNkJIYjZFaVM1R1AxRUFfV201emh4djJ1RzFtbUZxTy0wQUF3UWRvU19yX3VtdUU4Y3pJLWhGSmJmRGp3bXdHektWdnA0ZlpQZEtmUlNDVndVTG5HMTNjVEJVRmZQcEw4cXNrcS1ocjcwN3hGb0ZLbTIxVU5tZmJaQmxaVUdQY2NKd2tlLWdWMXRCSG9QMmRoUWRTYkpIdU3SAbwBQVVfeXFMT2lFWnh2dWoySG9XRU53U2lzeG01LXlfSk8yRHV2UFI0NWpWaVZ0WEJTaVM5T1puNWlkQU83cXRqcFE4Yk10U0hRTFJuT1dLeUc0d3F3blQ1NXd2MUN4VnhuQW50NFZnZGsweHZzWmZMcDdENVZPcjhWSlZzY3VjRngtcEd2SVA3RTA0aWgxNVlGSlQ3ZzM1XzhteVAzcVBxRUhjOU1xT3NVMUFDU252SkhJS3lpZzZHeWgtbWc?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Yen Surges Past 155 to Six-Month High as Markets Bet on BOJ Rate Hike Next Week - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QOHpqbGZIVjJKVmRxVWpoQ1I0YVBDTG9JOXpTc3l0ZVJhazRTbEMtRmg3SXJvZEx2QVd3RGFFSjQwOEFCTVVsZVdralN5VXQycGVTU21QZ0tkRHJzVGJjbW5odFp6OTNIeWhSQUxLTjdmeEJnVlE?oc=5",
-    "pub": "Mon, 07 Sep 2026 12:55:00 GMT",
-    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1475,7 @@
    15.28,
    15.84,
    15.45,
-   15.24
+   15.21
   ],
   "tnx": [
    4.48,
@@ -1505,7 +1505,7 @@
    99.82,
    99.65,
    98.92,
-   98.87
+   98.89
   ],
   "bizd": [
    12.49,
@@ -1550,7 +1550,7 @@
    157.89,
    159.22,
    158.9,
-   154.43
+   154.35
   ],
   "uso": [
    133.02,
@@ -1610,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79081.73
+   79140.33
   ],
   "vixts": [
    0.867,
@@ -1625,7 +1625,7 @@
    0.804,
    0.834,
    0.787,
-   0.742
+   0.741
   ],
   "hyoas": [
    3.19,
@@ -2203,10 +2203,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-05T15",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-05T16",
     "v": 2.73
    },
@@ -2393,6 +2389,10 @@
    {
     "d": "2026-09-07T14",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-07T15",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2434,7 +2434,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T14:51:46+00:00",
+  "checked": "2026-09-07T15:03:22+00:00",
   "openai": {
    "found": false
   },

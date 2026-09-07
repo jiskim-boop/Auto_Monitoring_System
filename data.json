@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-07T21:21:56+00:00",
+ "updated": "2026-09-07T21:32:13+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -18,8 +18,20 @@
    "ok": true
   },
   "AVGO": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 357.89,
+   "chg": 0.21,
+   "chg5": -2.95,
+   "sma20": 378.32,
+   "sma50": 383.66,
+   "sma200": 383.15,
+   "high3m": 427.76,
+   "reg": 357.89,
+   "pre": null,
+   "post": null,
+   "regClose": 357.9,
+   "sess": "reg",
+   "mt": 1788552001,
+   "ok": true
   },
   "AMD": {
    "price": 477.57,
@@ -802,7 +814,7 @@
    "post": null,
    "regClose": 99.18,
    "sess": "reg",
-   "mt": 1788815480,
+   "mt": 1788816096,
    "ok": true
   },
   "^IRX": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79241.98,
-   "chg": -1.38,
-   "chg5": 2.51,
-   "sma20": 77982.16,
-   "sma50": 69696.84,
-   "sma200": 69988.41,
+   "price": 79214.92,
+   "chg": -1.41,
+   "chg5": 2.48,
+   "sma20": 77980.81,
+   "sma50": 69696.3,
+   "sma200": 69988.26,
    "high3m": 81271.74,
-   "reg": 79241.98,
+   "reg": 79214.92,
    "pre": null,
    "post": null,
-   "regClose": 79241.98,
+   "regClose": 79214.92,
    "sess": "reg",
-   "mt": 1788816084,
+   "mt": 1788816700,
    "ok": true
   },
   "USO": {
@@ -966,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.33,
-   "chg": -1.2,
-   "chg5": -3.39,
-   "sma20": 158.72,
+   "price": 154.31,
+   "chg": -1.21,
+   "chg5": -3.4,
+   "sma20": 158.71,
    "sma50": 160.37,
    "sma200": 159.7,
    "high3m": 163.86,
-   "reg": 154.33,
+   "reg": 154.31,
    "pre": null,
    "post": null,
-   "regClose": 154.33,
+   "regClose": 154.31,
    "sess": "reg",
-   "mt": 1788816085,
+   "mt": 1788816701,
    "ok": true
   },
   "ES=F": {
@@ -1213,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "4 Monthly Dividend ETFs Paying 11 to 14 Percent to Start 2027 - 247wallst.com",
+    "title": "4 Monthly Dividend ETFs Paying 11 to 14 Percent to Start 2027 - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPYXh1eDNQNExlWkVTTTFjdFpBSG1XeGRfYUZJZEpNQ2RFUTVWLWFKU1l3V0hwRFdiTHM2V1ZnWlpwaHRuZ1NyRjRrSHh6QXZxeVdBVF9mdjFHUDBBckFqTlVuMzdsSXZQdHZKTWp2QWdqTFZOempGOEhQR1NmRmU2V3RSRGVnVks2cXJ5LU05LVlySDItbEFKTnBacWppWEsxTVlmMnQ3WHEzTWlrMGc?oc=5",
     "pub": "Mon, 07 Sep 2026 21:05:00 GMT",
-    "src": "247wallst.com",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    },
@@ -1245,18 +1257,18 @@
     "geo": false
    },
    {
-    "title": "Fed Rate Hike Expectations Surge: 58.4% Probability of 25bps Increase at September FOMC - News and Statistics - IndexBox",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlF5d2NqZkhESGRUWkQ4T0gyNmczV0tJM0VOYnpIS08tVDBTZ25KVFM1OHA0QzY3aTFQenRPX3VSRmo2dW9RUXdZTElLNmZWUXMzQk1xYm5YWnZHQ29KRDc1TF83aUFSMHZNTFlpN2ZITXo0al94MllGZ1VwMzY0NkFUYm5QUVdOQ3BTRU9QV0otUF9KVjJ3?oc=5",
-    "pub": "Mon, 07 Sep 2026 15:00:53 GMT",
-    "src": "IndexBox",
+    "title": "Oil prices stay elevated as Middle East tensions raise supply concerns - Financial Nigeria",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPODFOcE5kSWlRRGFoam5EZzRWZVFDNGQ1cEdzdTVVdFBrb29ZcURPQzNRa2JHc1RkRlIwTVRBNTlXX25iU2UxalY0aWE1ZjNBUnpOdTNCSkpEMEJSaTg3cklYWW1XT2lGM0FBb2Q4cV9XTU5VejRnVkpuRW9ZY1lOZjRNSVNnQ2VFMFdhUWwwTjcta25WdnhBRXBHOEhSWXZKbnJma0VmX1BTNFU3MWxqR1NrU0lCM1c2dEE?oc=5",
+    "pub": "Mon, 07 Sep 2026 15:19:05 GMT",
+    "src": "Financial Nigeria",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil prices rise to six-week highs on worsening Middle East conflict - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxONkg5MGRZZ1JidGlSV0RIdWZwYmJWQ2EzaUhGWkVtOVRKUU5wMU11Y0NJOFliWEtJT2FOZWF3QUowb0dkc29GR011akp3MDZnbVg1bWgyYTBZQzhMYWJva0xXdGpVV0c1Z2F5Mllzb0ktNm11bUpMdDBpclk4ODg3OHpZTVFRX3hJRzYxeVFqQnczMVZ0Uk1ISHdhSXRDaWswSFpmUlU1ekxraUxMR2dOR2MtZEtVdEZNZG9Z?oc=5",
-    "pub": "Mon, 07 Sep 2026 13:47:59 GMT",
-    "src": "BNN Bloomberg",
+    "title": "Fed Rate Hike Expectations Surge: 58.4% Probability of 25bps Increase at September FOMC - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQUlF5d2NqZkhESGRUWkQ4T0gyNmczV0tJM0VOYnpIS08tVDBTZ25KVFM1OHA0QzY3aTFQenRPX3VSRmo2dW9RUXdZTElLNmZWUXMzQk1xYm5YWnZHQ29KRDc1TF83aUFSMHZNTFlpN2ZITXo0al94MllGZ1VwMzY0NkFUYm5QUVdOQ3BTRU9QV0otUF9KVjJ3?oc=5",
+    "pub": "Mon, 07 Sep 2026 15:00:53 GMT",
+    "src": "IndexBox",
     "trig": false,
     "geo": false
    }
@@ -1538,7 +1550,7 @@
    159.16,
    159.34,
    159.14,
-   154.32
+   154.3
   ],
   "uso": [
    133.02,
@@ -1598,7 +1610,7 @@
    63910.59,
    64506.25,
    78964.48,
-   79241.92
+   79213.4
   ],
   "vixts": [
    0.867,
@@ -2413,18 +2425,16 @@
   22
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "AVGO"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 53,
-  "n": 34
+  "pct50": 51,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-07T21:21:43+00:00",
+  "checked": "2026-09-07T21:32:01+00:00",
   "openai": {
    "found": false
   },

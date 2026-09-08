@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T12:42:22+00:00",
+ "updated": "2026-09-08T12:52:03+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,8 +722,20 @@
    "ok": true
   },
   "^VIX": {
-   "ok": false,
-   "err": "HTTP Error 500: Internal Server Error"
+   "price": 16.73,
+   "chg": 2.39,
+   "chg5": 8.28,
+   "sma20": 15.31,
+   "sma50": 16.51,
+   "sma200": 18.87,
+   "high3m": 22.22,
+   "reg": 16.73,
+   "pre": null,
+   "post": null,
+   "regClose": 16.73,
+   "sess": "reg",
+   "mt": 1788339376,
+   "ok": true
   },
   "^VIX3M": {
    "price": 17.61,
@@ -790,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.92,
-   "chg": -0.24,
-   "chg5": -0.51,
+   "price": 98.91,
+   "chg": -0.25,
+   "chg5": -0.52,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.92,
+   "reg": 98.91,
    "pre": null,
    "post": null,
-   "regClose": 98.92,
+   "regClose": 98.91,
    "sess": "reg",
-   "mt": 1788870697,
+   "mt": 1788871286,
    "ok": true
   },
   "^IRX": {
@@ -818,7 +830,7 @@
    "post": null,
    "regClose": 3.76,
    "sess": "reg",
-   "mt": 1788870393,
+   "mt": 1788870983,
    "ok": true
   },
   "LQD": {
@@ -870,19 +882,19 @@
    "ok": true
   },
   "^TNX": {
-   "price": 4.79,
-   "chg": 0.08,
-   "chg5": 0.63,
-   "sma20": 4.72,
+   "price": 4.78,
+   "chg": -0.04,
+   "chg5": 0.5,
+   "sma20": 4.71,
    "sma50": 4.64,
    "sma200": 4.49,
    "high3m": 4.8,
-   "reg": 4.79,
+   "reg": 4.78,
    "pre": null,
    "post": null,
-   "regClose": 4.79,
+   "regClose": 4.78,
    "sess": "reg",
-   "mt": 1788870393,
+   "mt": 1788870983,
    "ok": true
   },
   "^KS11": {
@@ -934,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78290.14,
-   "chg": -1.04,
-   "chg5": -3.67,
-   "sma20": 78427.05,
-   "sma50": 69955.52,
-   "sma200": 70047.28,
+   "price": 78310.01,
+   "chg": -1.02,
+   "chg5": -3.64,
+   "sma20": 78428.05,
+   "sma50": 69955.92,
+   "sma200": 70047.39,
    "high3m": 81271.74,
-   "reg": 78290.14,
+   "reg": 78310.01,
    "pre": null,
    "post": null,
-   "regClose": 78290.14,
+   "regClose": 78310.01,
    "sess": "reg",
-   "mt": 1788871301,
+   "mt": 1788871886,
    "ok": true
   },
   "USO": {
@@ -966,131 +978,131 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.01,
-   "chg": -1.4,
-   "chg5": -3.59,
-   "sma20": 158.7,
+   "price": 153.88,
+   "chg": -1.48,
+   "chg5": -3.67,
+   "sma20": 158.69,
    "sma50": 160.36,
    "sma200": 159.7,
    "high3m": 163.86,
-   "reg": 154.01,
+   "reg": 153.88,
    "pre": null,
    "post": null,
-   "regClose": 154.01,
+   "regClose": 153.88,
    "sess": "reg",
-   "mt": 1788871306,
+   "mt": 1788871893,
    "ok": true
   },
   "ES=F": {
-   "price": 7706.75,
-   "chg": -0.2,
-   "chg5": 0.1,
-   "sma20": 7721.45,
-   "sma50": 7628.56,
-   "sma200": 7336.09,
+   "price": 7709.0,
+   "chg": -0.17,
+   "chg5": 0.13,
+   "sma20": 7721.56,
+   "sma50": 7628.6,
+   "sma200": 7336.11,
    "high3m": 7822.5,
-   "reg": 7706.75,
+   "reg": 7709.0,
    "pre": null,
    "post": null,
-   "regClose": 7706.75,
+   "regClose": 7709.0,
    "sess": "24h",
-   "mt": 1788870706,
+   "mt": 1788871293,
    "ok": true
   },
   "NQ=F": {
-   "price": 29602.0,
-   "chg": 0.12,
-   "chg5": 0.3,
-   "sma20": 29553.44,
-   "sma50": 29374.58,
-   "sma200": 28208.94,
+   "price": 29614.25,
+   "chg": 0.17,
+   "chg5": 0.34,
+   "sma20": 29554.05,
+   "sma50": 29374.83,
+   "sma200": 28209.04,
    "high3m": 30653.5,
-   "reg": 29602.0,
+   "reg": 29614.25,
    "pre": null,
    "post": null,
-   "regClose": 29602.0,
+   "regClose": 29614.25,
    "sess": "24h",
-   "mt": 1788870707,
+   "mt": 1788871294,
    "ok": true
   },
   "YM=F": {
-   "price": 53049.0,
-   "chg": -0.73,
-   "chg5": -0.36,
-   "sma20": 53472.75,
-   "sma50": 53128.74,
-   "sma200": 50770.16,
+   "price": 53070.0,
+   "chg": -0.69,
+   "chg5": -0.32,
+   "sma20": 53473.8,
+   "sma50": 53129.16,
+   "sma200": 50770.32,
    "high3m": 54494.0,
-   "reg": 53049.0,
+   "reg": 53070.0,
    "pre": null,
    "post": null,
-   "regClose": 53049.0,
+   "regClose": 53070.0,
    "sess": "24h",
-   "mt": 1788870703,
+   "mt": 1788871287,
    "ok": true
   },
   "GC=F": {
-   "price": 4445.6,
-   "chg": 0.36,
-   "chg5": 0.33,
-   "sma20": 4471.34,
-   "sma50": 4246.32,
-   "sma200": 4450.77,
+   "price": 4442.5,
+   "chg": 0.29,
+   "chg5": 0.26,
+   "sma20": 4471.19,
+   "sma50": 4246.26,
+   "sma200": 4450.75,
    "high3m": 4640.8,
-   "reg": 4445.6,
+   "reg": 4442.5,
    "pre": null,
    "post": null,
-   "regClose": 4445.6,
+   "regClose": 4442.5,
    "sess": "24h",
-   "mt": 1788870709,
+   "mt": 1788871290,
    "ok": true
   },
   "CL=F": {
-   "price": 93.56,
-   "chg": 2.27,
-   "chg5": 9.1,
-   "sma20": 86.01,
+   "price": 93.33,
+   "chg": 2.02,
+   "chg5": 8.83,
+   "sma20": 86.0,
    "sma50": 81.44,
    "sma200": 88.89,
-   "high3m": 93.56,
-   "reg": 93.56,
+   "high3m": 93.33,
+   "reg": 93.33,
    "pre": null,
    "post": null,
-   "regClose": 93.56,
+   "regClose": 93.33,
    "sess": "24h",
-   "mt": 1788870710,
+   "mt": 1788871295,
    "ok": true
   },
   "HG=F": {
-   "price": 6.81,
-   "chg": 3.27,
-   "chg5": 3.33,
+   "price": 6.82,
+   "chg": 3.42,
+   "chg5": 3.47,
    "sma20": 6.58,
    "sma50": 6.44,
    "sma200": 6.2,
-   "high3m": 6.81,
-   "reg": 6.81,
+   "high3m": 6.82,
+   "reg": 6.82,
    "pre": null,
    "post": null,
-   "regClose": 6.81,
+   "regClose": 6.82,
    "sess": "24h",
-   "mt": 1788870710,
+   "mt": 1788871273,
    "ok": true
   },
   "ZN=F": {
-   "price": 107.47,
-   "chg": -0.25,
-   "chg5": -0.41,
-   "sma20": 108.3,
+   "price": 107.52,
+   "chg": -0.2,
+   "chg5": -0.36,
+   "sma20": 108.31,
    "sma50": 108.67,
    "sma200": 109.79,
    "high3m": 110.27,
-   "reg": 107.47,
+   "reg": 107.52,
    "pre": null,
    "post": null,
-   "regClose": 107.47,
+   "regClose": 107.52,
    "sess": "24h",
-   "mt": 1788870710,
+   "mt": 1788871295,
    "ok": true
   },
   "EWY": {
@@ -1179,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "Anthropic IPO update, Oracle earnings, August CPI: What to Watch - finance.yahoo.com",
+    "title": "Anthropic IPO update, Oracle earnings, August CPI: What to Watch - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQc2tudWd6ZUpCU2R2bng1Tm1jXzd5NDNoVE40N0R3dEVkbDB3N2hndFdweGViaENnbUh0d2hwX09oZFFMUEd5TE9CYnE4YjlLaTJDb2p4azFseGJMYi1CZmM3TS0zTnV2VWRrNTliQUN2WXRIY0dZYUdVQkhzb2pEbzF6QTY3NnhTalh3?oc=5",
     "pub": "Tue, 08 Sep 2026 12:00:00 GMT",
-    "src": "finance.yahoo.com",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1213,18 +1225,18 @@
   ],
   "macro": [
    {
-    "title": "Oil prices approach $100 as Middle East conflict flares, Goldman sees potential upside to $120 - finance.yahoo.com",
+    "title": "Oil prices approach $100 as Middle East conflict flares, Goldman sees potential upside to $120 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPYnExaGlxd1VwUWJRRHdGSjNqY3QzckNtaW1YQy1iMjV4M19PYXdBWEVVNXVYcFdvZGdValBJX2pNcGtISG1NQ3RsaDVzMEFFdjNmVHRfVkUyd2Q1RV95Z0pzZUd5Q21veFN1YzJDdmNDTno1RFdpSjE3TFk5RVVZY2VZRWhvY1gxWGV3a3RLWE16UmxfcEpBQk5TTWFyYnRHblpfNHNaeUoxVVpVV1pKemVWa2VXUnFrZ2llNTJNaG9CQ1JRUlhuVzVOUkZDeFNYNlZJY3ZXX1VlQjJ5T2RBOG53?oc=5",
     "pub": "Tue, 08 Sep 2026 12:22:34 GMT",
-    "src": "finance.yahoo.com",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Oil nears $100 as Middle East war flares - Kuwait Times",
+    "title": "Oil nears $100 as Middle East war flares - kuwaittimes.com",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVDBlMHJTRk9uR2hqWEFRSFJtWGxBWmVpSmI0TC1zZXpQODJ1djhNZFNaUjhIXzJKV0ItQmRBVUVJSFZDMXlacS1Nc2QxV256b0pRV3UySEFjYk5tYzlXRW1VaV9LSkVKMFFNQ29GZmdRdTBjOG9aMGJnT2tqUzg1MTFRT28xSFBEdk5qMDVCTjfSAZQBQVVfeXFMT3RIaDdZRWw3RFBmZi1oVDlxMzVVbmtBWnhxQnF6Unhqb3kxSVFuYWZPeURYOTBlYzNBbUV3OTZHTWRyaVh3TVhvT1RBd25CTS1INnIwMGdmdGRwYjh2WmNYV25CeElwR0NkN0ZVRUVYSDExRExtbUItOUNwMVZ4Wm1JWTBzamZ1S2hrMDhJVmV2UlVMRA?oc=5",
     "pub": "Tue, 08 Sep 2026 11:45:40 GMT",
-    "src": "Kuwait Times",
+    "src": "kuwaittimes.com",
     "trig": false,
     "geo": false
    },
@@ -1253,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "PSX sheds nearly 1,000 points as Middle East conflict hits investor sentiments - Geo News",
+    "title": "PSX sheds nearly 1,000 points as Middle East conflict hits investor sentiments - geo.tv",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNa3JNYnc5MjVicUVnWTR4bFdqRGtreExNR25oN2M5ZVJCRDJFbmNOVktoOWp5SWI4aDgxNFRJcHl2c0Itak9zTlBfaXpoNzdkN0pmTlBqWjhSVUNMVEdNUl80WFpvMTA4VGJ0bVl2ZThYWmtsT3VDajdJOU9Qb1RSYVpSR3ROclJBTVVIWjBaR1d5c3c2UmRQV29Xa0NNd25wdXJZNGFB?oc=5",
     "pub": "Tue, 08 Sep 2026 11:30:57 GMT",
-    "src": "Geo News",
+    "src": "geo.tv",
     "trig": false,
     "geo": false
    }
@@ -1463,7 +1475,7 @@
    14.55,
    14.89,
    15.21,
-   15.63
+   15.53
   ],
   "tnx": [
    4.55,
@@ -1478,7 +1490,7 @@
    4.68,
    4.71,
    4.64,
-   4.79
+   4.78
   ],
   "dxy": [
    100.05,
@@ -1493,7 +1505,7 @@
    99.82,
    99.65,
    98.92,
-   98.93
+   98.92
   ],
   "bizd": [
    12.49,
@@ -1538,7 +1550,7 @@
    159.16,
    159.34,
    159.14,
-   153.99
+   153.88
   ],
   "uso": [
    133.02,
@@ -1598,7 +1610,7 @@
    63551.88,
    64680.71,
    78564.98,
-   78323.98
+   78326.4
   ],
   "vixts": [
    0.867,
@@ -1613,7 +1625,7 @@
    0.765,
    0.784,
    0.774,
-   0.761
+   0.756
   ],
   "hyoas": [
    3.19,
@@ -1717,10 +1729,10 @@
   ]
  },
  "summary": {
-  "text": "중동 분쟁 심화로 유가가 배럴당 $100 근처까지 상승 중이며, 이는 글로벌 인플레이션 재상승과 금리 고착화 압력으로 작용하고 있습니다. AI 인프라 수요는 지속되나 OpenAI·Anthropic의 IPO 추진과 CoreWeave의 자금난 사이에서 AI capex 사이클의 과열 신호가 나타나고 있습니다.",
+  "text": "중동 지정학 긴장이 유가를 $100 근처로 몰아올리며 인플레이션 압력이 재점화되는 가운데, 금리 4.78%와 HY스프레드 2.65%로 신용 조건은 여전히 완화적이나 변동성 재상승 여지가 있습니다. AI 인프라 투자는 CoreWeave 등 신규 파운딩으로 자본 공급이 활발하며 GPU/HBM 수급 긴장은 현재 특이 신호 없습니다.",
   "by": "claude",
   "_fp": {
-   "vix": null,
+   "vix": 16,
    "tnx": 4.800000000000001,
    "dxy": 99.0,
    "spy": 0.0,
@@ -1741,15 +1753,16 @@
    "VIX 상승추세",
    "CCC-BB 확대(품질분산)"
   ],
-  "early": [],
+  "early": [
+   "기간구조 임박",
+   "숨은 헤지"
+  ],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 19,
-   "missing": [
-    "VIX"
-   ]
+   "ok": 20,
+   "missing": []
   }
  },
  "history": [
@@ -2412,20 +2425,16 @@
   22
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "^VIX"
-  ],
-  "core_dead": [
-   "^VIX"
-  ]
+  "fail": 0,
+  "failed": [],
+  "core_dead": []
  },
  "breadth": {
   "pct50": 51,
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-08T12:42:04+00:00",
+  "checked": "2026-09-08T12:51:48+00:00",
   "openai": {
    "found": false
   },

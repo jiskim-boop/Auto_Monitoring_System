@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T08:03:24+00:00",
+ "updated": "2026-09-08T08:12:00+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,20 +722,8 @@
    "ok": true
   },
   "^VIX": {
-   "price": 15.3,
-   "chg": 5.3,
-   "chg5": 2.55,
-   "sma20": 15.09,
-   "sma50": 16.14,
-   "sma200": 18.53,
-   "high3m": 22.22,
-   "reg": 15.3,
-   "pre": null,
-   "post": null,
-   "regClose": 15.3,
-   "sess": "reg",
-   "mt": 1788795001,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 500: Internal Server Error"
   },
   "^VIX3M": {
    "price": 17.61,
@@ -802,19 +790,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.93,
-   "chg": -0.23,
+   "price": 98.92,
+   "chg": -0.24,
    "chg5": -0.51,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.93,
+   "reg": 98.92,
    "pre": null,
    "post": null,
    "regClose": 98.93,
    "sess": "reg",
-   "mt": 1788853920,
+   "mt": 1788854483,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78269.16,
-   "chg": -1.07,
-   "chg5": -3.69,
-   "sma20": 78426.0,
-   "sma50": 69955.1,
-   "sma200": 70047.17,
+   "price": 78336.73,
+   "chg": -0.98,
+   "chg5": -3.61,
+   "sma20": 78429.38,
+   "sma50": 69956.46,
+   "sma200": 70047.53,
    "high3m": 81271.74,
-   "reg": 78269.16,
+   "reg": 78336.73,
    "pre": null,
    "post": null,
-   "regClose": 78269.16,
+   "regClose": 78336.73,
    "sess": "reg",
-   "mt": 1788854523,
+   "mt": 1788855087,
    "ok": true
   },
   "USO": {
@@ -978,115 +966,115 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 153.78,
-   "chg": -1.55,
-   "chg5": -3.74,
+   "price": 153.85,
+   "chg": -1.5,
+   "chg5": -3.69,
    "sma20": 158.69,
    "sma50": 160.36,
    "sma200": 159.7,
    "high3m": 163.86,
-   "reg": 153.78,
+   "reg": 153.85,
    "pre": null,
    "post": null,
-   "regClose": 153.78,
+   "regClose": 153.85,
    "sess": "reg",
-   "mt": 1788854529,
+   "mt": 1788855091,
    "ok": true
   },
   "ES=F": {
-   "price": 7693.0,
-   "chg": -0.38,
-   "chg5": -0.08,
-   "sma20": 7720.76,
-   "sma50": 7628.28,
+   "price": 7692.25,
+   "chg": -0.39,
+   "chg5": -0.09,
+   "sma20": 7720.73,
+   "sma50": 7628.27,
    "sma200": 7335.98,
    "high3m": 7822.5,
-   "reg": 7693.0,
+   "reg": 7692.25,
    "pre": null,
    "post": null,
-   "regClose": 7693.0,
+   "regClose": 7692.25,
    "sess": "24h",
-   "mt": 1788853929,
+   "mt": 1788854491,
    "ok": true
   },
   "NQ=F": {
-   "price": 29546.5,
-   "chg": -0.06,
-   "chg5": 0.11,
-   "sma20": 29550.66,
-   "sma50": 29373.47,
-   "sma200": 28208.51,
+   "price": 29525.5,
+   "chg": -0.13,
+   "chg5": 0.04,
+   "sma20": 29549.61,
+   "sma50": 29373.05,
+   "sma200": 28208.34,
    "high3m": 30653.5,
-   "reg": 29546.5,
+   "reg": 29525.5,
    "pre": null,
    "post": null,
-   "regClose": 29546.5,
+   "regClose": 29525.5,
    "sess": "24h",
-   "mt": 1788853931,
+   "mt": 1788854491,
    "ok": true
   },
   "YM=F": {
-   "price": 52951.0,
-   "chg": -0.92,
-   "chg5": -0.54,
-   "sma20": 53467.85,
-   "sma50": 53126.78,
-   "sma200": 50769.39,
+   "price": 52987.0,
+   "chg": -0.85,
+   "chg5": -0.48,
+   "sma20": 53469.65,
+   "sma50": 53127.5,
+   "sma200": 50769.67,
    "high3m": 54494.0,
-   "reg": 52951.0,
+   "reg": 52987.0,
    "pre": null,
    "post": null,
-   "regClose": 52951.0,
+   "regClose": 52987.0,
    "sess": "24h",
-   "mt": 1788853922,
+   "mt": 1788854492,
    "ok": true
   },
   "GC=F": {
-   "price": 4436.2,
-   "chg": 0.14,
-   "chg5": 0.12,
-   "sma20": 4470.88,
-   "sma50": 4246.13,
-   "sma200": 4450.7,
+   "price": 4434.2,
+   "chg": 0.1,
+   "chg5": 0.07,
+   "sma20": 4470.77,
+   "sma50": 4246.09,
+   "sma200": 4450.68,
    "high3m": 4640.8,
-   "reg": 4436.2,
+   "reg": 4434.2,
    "pre": null,
    "post": null,
-   "regClose": 4436.2,
+   "regClose": 4434.2,
    "sess": "24h",
-   "mt": 1788853929,
+   "mt": 1788854493,
    "ok": true
   },
   "CL=F": {
-   "price": 94.36,
-   "chg": 3.15,
-   "chg5": 10.03,
+   "price": 94.43,
+   "chg": 3.22,
+   "chg5": 10.11,
    "sma20": 86.05,
    "sma50": 81.46,
    "sma200": 88.89,
-   "high3m": 94.36,
-   "reg": 94.36,
+   "high3m": 94.43,
+   "reg": 94.43,
    "pre": null,
    "post": null,
-   "regClose": 94.36,
+   "regClose": 94.43,
    "sess": "24h",
-   "mt": 1788853929,
+   "mt": 1788854494,
    "ok": true
   },
   "HG=F": {
-   "price": 6.79,
-   "chg": 2.86,
-   "chg5": 2.91,
+   "price": 6.78,
+   "chg": 2.73,
+   "chg5": 2.78,
    "sma20": 6.58,
    "sma50": 6.44,
    "sma200": 6.2,
-   "high3m": 6.79,
-   "reg": 6.79,
+   "high3m": 6.78,
+   "reg": 6.78,
    "pre": null,
    "post": null,
-   "regClose": 6.79,
+   "regClose": 6.78,
    "sess": "24h",
-   "mt": 1788853925,
+   "mt": 1788854485,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 107.34,
    "sess": "24h",
-   "mt": 1788853823,
+   "mt": 1788854484,
    "ok": true
   },
   "EWY": {
@@ -1141,18 +1129,26 @@
     "geo": false
    },
    {
-    "title": "Artificial Intelligence - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHQWNlSHQzMUlJUTg1elY2MnlhM0JMRDkyUlMtYUdwNDFYYmF2cktZZzg2X3pDMVluRVhBS01LY0VnRVI0bnk2eElyWkczd0dLdktiOFMybWl5STktVHc?oc=5",
-    "pub": "Mon, 07 Sep 2026 20:50:10 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
+    "title": "'The ber months': Christmas arrives early in the Philippines - abs-cbn.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcXRDalpWYnV0SkhMMGZjRDVONUM0NG9hTko5NTFlaGk5R3VHSFhiN0NYVVQyNlpTMG9ER3FOS05BenhvMWpWMHlaakNlZWpheEppSGFnUmpZZEVKQzhmQ0w0NHN0NUZ4N1p5YlkzNnl6Wkp2RWMtT1ZPSU5TUzRYVnFSSWtabnlNcnZDclZXcTAyNVJwZ0h0YVBSMHdKbHBEVkZ5QjFKSXZOUl9ITjZFRHFSMTM3TGRtM2xzWG83NlZDRXZOMVV3?oc=5",
+    "pub": "Tue, 08 Sep 2026 05:48:45 GMT",
+    "src": "abs-cbn.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Jakarta airport extends closure after volcano eruption - ABS-CBN",
+    "title": "GPs turn to NAV loans amid tough fundraising market - Alternative Credit Investor",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZnpBM0lGQzlRNjZ3dFdScHEwS0ozdTRseHhvMk9wanVSejdoclc4YjVDZktPRGM5WmhwbElhZk9PR2pmUmUyN1dxenA4eXZBd3BLZlZlVnBYc3pzVE9xODJjUFJtWGZ1REluSmpkZU81RXd6T1RKaXhhTUxKbnVTLTAwcDgxbDJzTWFITkl3V2E0ZmZtdmtRNXdzc040WjFldkdn?oc=5",
+    "pub": "Tue, 08 Sep 2026 05:15:28 GMT",
+    "src": "Alternative Credit Investor",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Jakarta airport extends closure after volcano eruption - abs-cbn.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQbHZraHpIeWR1Y2xiMXBTYXM2Tk95bEtOTFV2T0tzd2RqR3c3a0hveUJjUEVTN0dOejNqQnUzT2Q1VGpGTVp6NVVXUjBSUjk4eFlUTURZR2sycW5INEUxa2tMbDFUcnhNSU1LdVY4YnlfOHhXSFdja1BEMlY5Rk1Tb1UwRWVhTmhmYXp4Nm9mOVlkRndTX0ZzQldIV3hjMDJKRXI1eGZR?oc=5",
     "pub": "Mon, 07 Sep 2026 16:38:43 GMT",
-    "src": "ABS-CBN",
+    "src": "abs-cbn.com",
     "trig": false,
     "geo": false
    },
@@ -1161,14 +1157,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQVHgtNXZLVTFzSTJuZTFBdGNUajVCODl2enhUSDlQRXEyQ2tMMEVrSTZLMGVYeVRrdUxUaHVNMGdRdnBJMHdsMFQzZmZvMC1fUV9FakJTWlhGQ1ozbVFLSjZvM3hVcm9MUDVIcnUyOWFOMjZJa0tBSDNIR0FhQVp5ZHRQSFZnMFJxcTkwUS1mdkVtbk9BWVptVnllWGowYUh5cnN5T1Mybw?oc=5",
     "pub": "Mon, 07 Sep 2026 15:42:36 GMT",
     "src": "Alternative Credit Investor",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CRWV Stock Takes a 13% Hit in 3 Months: Time to Buy, Hold or Bail Out? - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNa3NHekRZOHNHcXFaWXRLaVhlcTdtT0tuS0FXbUcweTc4R0duLURQN1ZQOTVTLUM5N2RMa3czN2dBcGFxU1VFUzd3OS1VdHZvX0REMXVnRUxLYmQwX3lOVEd2bTc5b3FWRG4xakMzdTRVYVF4UmN3MTluVk44bEo2ZDVUQS1XNWx4UU8xZWZ5UGxmaENsa1VKYXQxcjZtVkNQTlR0RjJLYWtNbzRzRWJHNXBWRTZnNEJveFUyOVZ2Yw?oc=5",
-    "pub": "Mon, 07 Sep 2026 14:42:00 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1215,15 +1203,31 @@
     "geo": false
    },
    {
-    "title": "H100 lending fees jump as AI demand outstrips latest chip supply - CHOSUNBIZ - Chosunbiz",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxObE91SFNnWWxta0V5Z0Q2MnJ1NlZhR3REQUlKbTVNaWtUaE56UkFuYnc1THhQX3l4RW52N0tITXRtNEZDMXMwTzZGV1VmRF84cHllM1BmbkotRldIbjB1U3loeEJoUzUxUzBqZE9UNnQ1dXBncF91TFBtS0g4ZVBPMTZtdWsweEs1a0tuY0Jn0gGOAUFVX3lxTE5sT3VIU2dZbG1rRXlnRDYycnU2VmFHdERBSUptNU1pa1RoTnpSQW5idzVMeFBfeXhFbnY3S0hNdG00RkMxczBPNkZXVWZEXzhweWUzUGZuSi1GV0huMHVTeWh4QmhTNTFTMGpkT1Q2dDV1cGdwX3VMUG1LSDhlUE8xNm11azB4SzVrS25jQmc?oc=5",
-    "pub": "Tue, 08 Sep 2026 06:21:00 GMT",
-    "src": "Chosunbiz",
+    "title": "H100 lending fees jump as AI demand outstrips latest chip supply - CHOSUNBIZ - biz.chosun.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE52WFFoc08tRnUzQVBRN3B2UkpGV3hhbkU1Q09JTnFicXZORkNPd2hqTW1iYUgyOEgzcTA2UXFKMnFjWWpjd25rNGFYUmxjLTVtRkg3ZjdzMVdRUWlabWVCZHJPVkc4T21OSUFoOG5MMkJsOEZMU1Y5enRR0gGOAUFVX3lxTE5sT3VIU2dZbG1rRXlnRDYycnU2VmFHdERBSUptNU1pa1RoTnpSQW5idzVMeFBfeXhFbnY3S0hNdG00RkMxczBPNkZXVWZEXzhweWUzUGZuSi1GV0huMHVTeWh4QmhTNTFTMGpkT1Q2dDV1cGdwX3VMUG1LSDhlUE8xNm11azB4SzVrS25jQmc?oc=5",
+    "pub": "Tue, 08 Sep 2026 06:24:19 GMT",
+    "src": "biz.chosun.com",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Iran war is changing the oil game. 5 shifts the world can’t ignore - Moneycontrol.com",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONkJHMEZfT2o2Z0wtZFE0XzBPMy1OcW9wT0EtWm8yVm92czl3LWlUeGtDUkIyLVZwWFc0dUNXR1JYNVhDYm1TWnBKTzBBbE1oMktxaDJubjJYT0NRYkNYWjE4Vmdjd01EVVVfemhFVmtBN0VfR2YxQ2ZSamI4QVUzUU9lZEFDM0dBUWZTdVFuRW1JS01sdjR3ZnJydlZEWi1HTWVST0N3b3BYdjRkdmt5djVTZVo1RlFzM2tnRlFCc9IBxAFBVV95cUxPeUt0b3hXZU4xYXVaczJNUU43VWlneUlxRDg4QVlBdEZhOGVTTDVqZ1ZtT21WSXV4MmFQUUJkN0FxejEzU1VhdmZpTzE0T2NwU0w5MUVHMzYzemZqWHgwTG5nQnpuc0o4ZlgyZ1U2ci1ENl9MczFvUjBueHJ5dEJENHlzcUQ3ZklSUk9rTlVTc2FxdlNRc3pwREJyVjNaM2Zzc1RTdDFTbWljVDVjRWVjMW5DRE9MRkVITmRKT1JnOFhVcldh?oc=5",
+    "pub": "Tue, 08 Sep 2026 08:02:42 GMT",
+    "src": "Moneycontrol.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUUwR280MkZ0emFzbnVoLUNmNlNZYnQ1cEZFSzZLRm9zODBBNmd6WWUtRk5NSElNYTRRdi1xVDlncjNsV3ZEU1VyVV9uczlMQjVLMUxUWlJsUEZFbGtXZ1A4ODloUzRXWktQMEZzYVJBYTYtVzNxRVFFWmRJeFBlS2RYOUZYNkRpZ25HRDBqeGFHVEhLS2ItNU9BMmJlZXdvd09pOGFYUHNORkd0VlRRMy1pZ0Q0UTluSWg3a1VuVzhkQQ?oc=5",
+    "pub": "Tue, 08 Sep 2026 08:01:21 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil prices rise as US-Iran tensions threaten Middle East supplies - Anadolu Ajansı",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNTVdxSEZORkpsN3JHcXctNS12b0FoWDZVTE9XUjNScUVZNzR3NVVTcU8tVW1Rcm5oUEVyLTIxZXNrejlPcks4clNjcmZlUkhMNG9wVG1tQWlhX09QbW1GbXk5TVh2eWlHOVdtSVl5T21zTlUxRmt1VDhJUm4xY0t0dVloUktPT1AwNTN2SkRtVFdKUlJkOVpkcnpvNnZtNWYzZzBuMnNMeGd5Uzg?oc=5",
@@ -1233,10 +1237,10 @@
     "geo": false
    },
    {
-    "title": "Brent Crude Nears $100 as Middle East War Fears Intensify - MM News",
+    "title": "Brent Crude Nears $100 as Middle East War Fears Intensify - mmnews.tv",
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQV0g4cW1PNF84OUtpSGw4WFh3RWs4VmZYZWo4X1lTVWVDN0hHNmlCMlZ1aXBPZW85STAxQm93VnQ5Tm9oV2pNQ3NPXzJ4Y2FiaHpkaGRkTmozcUx4aEVaejZhTmRYSkpmck03OG1rc1ZXeGszc1lsRnRpX3dvT080NA?oc=5",
     "pub": "Tue, 08 Sep 2026 07:25:23 GMT",
-    "src": "MM News",
+    "src": "mmnews.tv",
     "trig": false,
     "geo": false
    },
@@ -1255,25 +1259,17 @@
     "src": "CryptoRank",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "Data deep-dive: BDCs keep slashing value of loans but losses moderate in Q2 - Citywire",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNN3NWOEdMX0h5cjlLZjdpcVNaM29xR0ZQYzRtcjZZbFlLNXlZSkNaeDEwY2NSYlk2bGdiM2NTR3pyMkNKV3RXa0dleXEzSmwzdExabXdsQl9oWkFYMW9uV3NDWjJ5V2pCeUFvZ2toczd6Q3ZTZmtxYmlVYWh3dThUaG50dkpLWDEwQ2JqQTBvOWFzTHlSUHotQlBDZEo2anNDS2hvbUl1SDhyYkswMDdjR3JlenVfMzYtZlE?oc=5",
-    "pub": "Tue, 08 Sep 2026 07:00:21 GMT",
-    "src": "Citywire",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Fed’s ‘Family Fight’ Spills Into the Open Before Key Rate Decision - bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPZUUwR280MkZ0emFzbnVoLUNmNlNZYnQ1cEZFSzZLRm9zODBBNmd6WWUtRk5NSElNYTRRdi1xVDlncjNsV3ZEU1VyVV9uczlMQjVLMUxUWlJsUEZFbGtXZ1A4ODloUzRXWktQMEZzYVJBYTYtVzNxRVFFWmRJeFBlS2RYOUZYNkRpZ25HRDBqeGFHVEhLS2ItNU9BMmJlZXdvd09pOGFYUHNORkd0VlRRMy1pZ0Q0UTluSWg3a1VuVzhkQQ?oc=5",
-    "pub": "Tue, 08 Sep 2026 06:31:21 GMT",
-    "src": "bloomberg.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "FX Daily : Three Times Is a Charm: USD/JPY Finally Breaks 155 - The Dark Side Of The Boom",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEUtb0hOYm10OU5ybFpQNE16a3U2c184NGVUUmlKZjlHeDBLVzFoVl9NTkFqOEhoUmt6MU1NTnlZRjZhWHBpV3lfTTZ0RzF3YjNnV2EwRnE0T1NRRkU5RVQxVDRqM0ZzTTFlbFZDblQzNmV1TWUxNXpFUkc5bUR1QUY3Sy1ibUFiYmc?oc=5",
+    "pub": "Tue, 08 Sep 2026 08:02:44 GMT",
+    "src": "The Dark Side Of The Boom",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Asia stocks fall as yen surges, Iran warns US of retaliation - Euronext Markets: Real-time Stock Market Data | live",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQV0tXa0ZXOUFlSGV4aFkwTFNBNWQwcnhDN3R5Q2hWeWlPNDVpVkpqb3BNRE1nbmgwcWpWRnNLd3lfRlA5LV9YTjhoVmVDQnRLU2Zmb1VyZ0hocHZDckVra0N1THhoS0M1SE5PNzRucElHZlZuUlZqdGFYYmpGNTBSQnFEVzRQM2Nta0lVTm85YXZkYjgyOGp4QmlxRVJZZw?oc=5",
@@ -1283,10 +1279,10 @@
     "geo": false
    },
    {
-    "title": "Global Market: Yen rally threatens to unravel lucrative carry trade ahead of BOJ rate decision - economictimes.indiatimes.com",
-    "link": "https://news.google.com/rss/articles/CBMi-gJBVV95cUxPVVdzMk42SmZ1ZTYyZE81czEwMTItU1NCLXFtSUg0U1lQeXd0dHlJbW9HbnhYWXkxdUpSb0VGOGRmWktyZUd0TWZJeTN6MF80d2dKSll0dmNHRWxmVGJPdVB1QWFtVkU5dXB4eV9pVWRXODZYRFJIeEdPYWJOX1Uyc1hFSVhueWRFVFRBcXRuSXRUMTNvQUJ6YVZneU5TZDVrTXZxLWw2VzNULTZiaGN3ZjRxLVI2RHlfaVNyb01SVUVQUnBUZTlaUTlhZjVVVlJXVE1mM1pyTTFkcS16TDhlNEI5VVJ2N2xTcEFRS0RHQ2lVbXI5RDRHQklVd2gxUDBMbDc2bjMxRWZwam50RWo5cElHczVRcjVzRXBPZm5lSm5LUVRrZVZsRGdlMHNUci1JR291eFlac3hSRVhVdXZFbWJrUEhCRFRSQ1JoV2w0Ql90eEJ4d0hFTnV4YVJtTWVpQTB0cnJOU1RQMmF2VEJsanoyYU9kYmpaN1HSAZYCQVVfeXFMTTF1cUc4RXNtME9qb3pvd2Nhc2JpMTE5ZEdzOEtnU1hkOVJlQmZPTlZOUkd3UEEyXzJrQ1BSOHNJLThxSEx6WmdrVWNfUk42aWV2VWN2b244R1U0aVdTdjNiZ0RxbXZtaTlESTJkWUZzUXRqWEhNak5ZWnJncHA2Qnd6Um5iRVdJd0dkWWZpQ21VbDFzTzltcW4zYUhoempGc2hVTHU2a292TGV0d083QmY3RGlDaEs4RFdTMHdGaWloRXc5ZVBEcnNPdHFCWjdzd2RaRmd1bGpYTGExWHllSG5DUlpqSWdSOFFWTUdXZ2UzSzZLazg4UmRIME5NTFl0azg5UGNENkUycGQyUGRpSDVMM0VWamc?oc=5",
+    "title": "Global Market: Yen rally threatens to unravel lucrative carry trade ahead of BOJ rate decision - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxQSnJlb093WldRUWI2b2JXbTlfV2VFb1dIVDdvZ0lOekFicTZFb0Frc25PWk1oRWdWSUIzbTg0bWNHeE1QS2NmeUhGaERWaTZjU3R3UlNZYVV1di16Q29NcjNaWlBfYW1hMnhmOFozWVZiRFQ2SzdEaVU4RGxpb3pWVUtNcjRfX1ZadER3cG5ZbGhUWEw2N1IyV21pck5iSTNSYTVyZDlqMVRZck9Icm9YdHlJMlZNMlZqUlBxYTFFS21pTGFHZUI2T0ZLaklsM29CQnBGZGRiUVd0c0xIV0xsdmlsa1doRXhjYkp2WVh5cmdaTnBBaW0tbzhEa0RvNmtBOUNWNjBHbDRGdHQzX29JcdIBlgJBVV95cUxNMXVxRzhFc20wT2pvem93Y2FzYmkxMTlkR3M4S2dTWGQ5UmVCZk9OVk5SR3dQQTJfMmtDUFI4c0ktOHFITHpaZ2tVY19STjZpZXZVY3ZvbjhHVTRpV1N2M2JnRHFtdm1pOURJMmRZRnNRdGpYSE1qTllacmdwcDZCd3pSbmJFV0l3R2RZZmlDbVVsMXNPOW1xbjNhSGh6akZzaFVMdTZrb3ZMZXR3TzdCZjdEaUNoSzhEV1Mwd0ZpaWhFdzllUERyc090cUJaN3N3ZFpGZ3VsalhMYTFYeWVIbkNSWmpJZ1I4UVZNR1dnZTNLNktrODhSZEgwTk1MWXRrODlQY0Q2RTJwZDJQZGlINUwzRVZqZw?oc=5",
     "pub": "Tue, 08 Sep 2026 07:14:32 GMT",
-    "src": "economictimes.indiatimes.com",
+    "src": "The Economic Times",
     "trig": false,
     "geo": false
    },
@@ -1299,10 +1295,10 @@
     "geo": false
    },
    {
-    "title": "Yen’s Carry-Trade Unwind Rattles Asia Stocks - finimize.com",
+    "title": "Yen’s Carry-Trade Unwind Rattles Asia Stocks - Finimize",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1LbkhSeXM4eVgxdmt6WXZtTHEzRExOQ1VmMXZGdTVqUWRTZFJMaEc1cUJwbG9JR3MtSlQwZnJKSEJvNmNGZXVxcTRNQmVCem8tMWs5bUVHbUE3ZnAtQjBCaXQ0dFRoZzZRTFN0bjZ2Sm5fRllYMlQ5ZXZaTDA?oc=5",
     "pub": "Tue, 08 Sep 2026 07:03:28 GMT",
-    "src": "finimize.com",
+    "src": "Finimize",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNVUVxSHFHMnhmSjdlMG9qU3NKVUhNTjdQRkJxanNlV1hrTmFUUTBvc3FTUFZfQ0stMG4wZVpSZk51M0JlQ214M0R4emZ4eGVJMFI1eE9RYlUtdjFnT3pJSmRnTmlfTmdnUERmb0RNSmZ3WWZtZmJselhuTkhKRVlrQ1NaUHBDRmNkUkZCaFAwVVBWdWpSSkdQWGZIRVVQNm15a0FsRFg3YUduRjR3YXFfRmRZTWZiZS1yVktQVWEyNEpObk9iMUZZQkNlRk9YaWRDUVY2cnd0ejVwSzh3Qkk5WHZXekplU01vZTMxSmhWQ3ZmTU5idmlvaHhfSVdGbGpBNnAtbjRvVQ?oc=5",
     "pub": "Tue, 08 Sep 2026 06:50:24 GMT",
     "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Hovers Near $4,400 As Market Weighs US Jobs Data - Whalesbook",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPamJPNER0R0czTmF5ZTZxaGVXVk14RWZWRkNCY3p2X0piWjhKVG05YnRMWEQzM254d2lFZEVBRW5Ld0NfX1kxd1dUSU1DbHNmTDEtRndBQXNIbFliMXc2ZlpreG5pVUlONVR0dlZNS1ZuTTljOVM3LWI5eEhHOGwzN2JwSVdKcWM5bmNwNm5MMG9CRGVCcE9HYlRLWTA1R0RXd1VmTEJSZ1dDSlltNTBPOHRLMHFrU1VTYWM3VkRfV2NxVmFxbElaWEpjQU9aQWs?oc=5",
-    "pub": "Tue, 08 Sep 2026 06:43:25 GMT",
-    "src": "Whalesbook",
     "trig": false,
     "geo": false
    }
@@ -1475,7 +1463,7 @@
    14.55,
    14.89,
    15.21,
-   15.72
+   15.79
   ],
   "tnx": [
    4.48,
@@ -1550,7 +1538,7 @@
    159.16,
    159.34,
    159.14,
-   153.73
+   153.84
   ],
   "uso": [
    133.02,
@@ -1610,7 +1598,7 @@
    63551.88,
    64680.71,
    78564.98,
-   78314.16
+   78332.9
   ],
   "vixts": [
    0.867,
@@ -1625,7 +1613,7 @@
    0.765,
    0.784,
    0.774,
-   0.765
+   0.769
   ],
   "hyoas": [
    3.19,
@@ -1729,10 +1717,10 @@
   ]
  },
  "summary": {
-  "text": "이란-이스라엘 긴장으로 유가 상승 압박이 높아지는 가운데, 신용 스프레드 2.65%와 VIX 15 수준에서 시장은 현 상황을 아직 관리 가능한 것으로 평가하고 있습니다. AI 인프라 자금 조달 압박(CoreWeave)과 H100 렌탈료 급등(22% 상승)이 동시에 발생하며 고성능 칩 수급 긴장이 고조되는 신호입니다.",
+  "text": "중동 지정학 긴장으로 유가 상승 압력이 가해지는 가운데, 높은 실질금리(4.78%)와 달러강세(DXY 98.9)가 신용스프레드 확대(HY 2.65%)와 사모대출 펀딩 악화를 동시에 심화시키고 있습니다. AI 인프라 투자는 엔비디아의 허깅페이스 인수($12.93B)와 H100 렌탈료 급등(22% 월간 상승)으로 수급 타이트함이 지속되나, 코어웨이브 펀딩 압박은 인프라 확장 속도 조절의 신호입니다.",
   "by": "claude",
   "_fp": {
-   "vix": 16,
+   "vix": null,
    "tnx": 4.800000000000001,
    "dxy": 99.0,
    "spy": 0.0,
@@ -1753,15 +1741,15 @@
    "VIX 상승추세",
    "CCC-BB 확대(품질분산)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "VIX"
+   ]
   }
  },
  "history": [
@@ -2424,16 +2412,20 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 1,
+  "failed": [
+   "^VIX"
+  ],
+  "core_dead": [
+   "^VIX"
+  ]
  },
  "breadth": {
   "pct50": 51,
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-08T08:03:06+00:00",
+  "checked": "2026-09-08T08:11:45+00:00",
   "openai": {
    "found": false
   },

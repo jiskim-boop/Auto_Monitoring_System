@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-08T12:32:51+00:00",
+ "updated": "2026-09-08T12:42:22+00:00",
  "prices": {
   "NVDA": {
    "price": 230.36,
@@ -722,20 +722,8 @@
    "ok": true
   },
   "^VIX": {
-   "price": 14.53,
-   "chg": 1.47,
-   "chg5": 0.69,
-   "sma20": 15.1,
-   "sma50": 16.2,
-   "sma200": 18.7,
-   "high3m": 22.22,
-   "reg": 14.53,
-   "pre": null,
-   "post": null,
-   "regClose": 14.53,
-   "sess": "reg",
-   "mt": 1788552901,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 500: Internal Server Error"
   },
   "^VIX3M": {
    "price": 17.61,
@@ -802,25 +790,25 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 98.95,
-   "chg": -0.21,
-   "chg5": -0.48,
+   "price": 98.92,
+   "chg": -0.24,
+   "chg5": -0.51,
    "sma20": 99.35,
    "sma50": 100.19,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 98.95,
+   "reg": 98.92,
    "pre": null,
    "post": null,
-   "regClose": 98.95,
+   "regClose": 98.92,
    "sess": "reg",
-   "mt": 1788870108,
+   "mt": 1788870697,
    "ok": true
   },
   "^IRX": {
    "price": 3.76,
-   "chg": 0.45,
-   "chg5": 0.72,
+   "chg": 0.16,
+   "chg5": 0.83,
    "sma20": 3.72,
    "sma50": 3.72,
    "sma200": 3.65,
@@ -830,7 +818,7 @@
    "post": null,
    "regClose": 3.76,
    "sess": "reg",
-   "mt": 1788548394,
+   "mt": 1788870393,
    "ok": true
   },
   "LQD": {
@@ -882,19 +870,19 @@
    "ok": true
   },
   "^TNX": {
-   "price": 4.78,
-   "chg": 0.46,
-   "chg5": 1.36,
-   "sma20": 4.71,
-   "sma50": 4.63,
+   "price": 4.79,
+   "chg": 0.08,
+   "chg5": 0.63,
+   "sma20": 4.72,
+   "sma50": 4.64,
    "sma200": 4.49,
    "high3m": 4.8,
-   "reg": 4.78,
+   "reg": 4.79,
    "pre": null,
    "post": null,
-   "regClose": 4.78,
+   "regClose": 4.79,
    "sess": "reg",
-   "mt": 1788548394,
+   "mt": 1788870393,
    "ok": true
   },
   "^KS11": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 78366.54,
-   "chg": -0.95,
-   "chg5": -3.57,
-   "sma20": 78430.87,
-   "sma50": 69957.05,
-   "sma200": 70047.69,
+   "price": 78290.14,
+   "chg": -1.04,
+   "chg5": -3.67,
+   "sma20": 78427.05,
+   "sma50": 69955.52,
+   "sma200": 70047.28,
    "high3m": 81271.74,
-   "reg": 78366.54,
+   "reg": 78290.14,
    "pre": null,
    "post": null,
-   "regClose": 78366.54,
+   "regClose": 78290.14,
    "sess": "reg",
-   "mt": 1788870710,
+   "mt": 1788871301,
    "ok": true
   },
   "USO": {
@@ -978,105 +966,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.05,
-   "chg": -1.38,
-   "chg5": -3.57,
+   "price": 154.01,
+   "chg": -1.4,
+   "chg5": -3.59,
    "sma20": 158.7,
    "sma50": 160.36,
    "sma200": 159.7,
    "high3m": 163.86,
-   "reg": 154.05,
+   "reg": 154.01,
    "pre": null,
    "post": null,
-   "regClose": 154.05,
+   "regClose": 154.01,
    "sess": "reg",
-   "mt": 1788870717,
+   "mt": 1788871306,
    "ok": true
   },
   "ES=F": {
-   "price": 7702.5,
-   "chg": -0.25,
-   "chg5": 0.05,
-   "sma20": 7721.24,
-   "sma50": 7628.48,
-   "sma200": 7336.06,
+   "price": 7706.75,
+   "chg": -0.2,
+   "chg5": 0.1,
+   "sma20": 7721.45,
+   "sma50": 7628.56,
+   "sma200": 7336.09,
    "high3m": 7822.5,
-   "reg": 7702.5,
+   "reg": 7706.75,
    "pre": null,
    "post": null,
-   "regClose": 7702.5,
+   "regClose": 7706.75,
    "sess": "24h",
-   "mt": 1788870115,
+   "mt": 1788870706,
    "ok": true
   },
   "NQ=F": {
-   "price": 29579.0,
-   "chg": 0.05,
-   "chg5": 0.22,
-   "sma20": 29552.29,
-   "sma50": 29374.12,
-   "sma200": 28208.76,
+   "price": 29602.0,
+   "chg": 0.12,
+   "chg5": 0.3,
+   "sma20": 29553.44,
+   "sma50": 29374.58,
+   "sma200": 28208.94,
    "high3m": 30653.5,
-   "reg": 29579.0,
+   "reg": 29602.0,
    "pre": null,
    "post": null,
-   "regClose": 29579.0,
+   "regClose": 29602.0,
    "sess": "24h",
-   "mt": 1788870118,
+   "mt": 1788870707,
    "ok": true
   },
   "YM=F": {
-   "price": 53006.0,
-   "chg": -0.81,
-   "chg5": -0.44,
-   "sma20": 53470.6,
-   "sma50": 53127.88,
-   "sma200": 50769.82,
+   "price": 53049.0,
+   "chg": -0.73,
+   "chg5": -0.36,
+   "sma20": 53472.75,
+   "sma50": 53128.74,
+   "sma200": 50770.16,
    "high3m": 54494.0,
-   "reg": 53006.0,
+   "reg": 53049.0,
    "pre": null,
    "post": null,
-   "regClose": 53006.0,
+   "regClose": 53049.0,
    "sess": "24h",
-   "mt": 1788870117,
+   "mt": 1788870703,
    "ok": true
   },
   "GC=F": {
-   "price": 4438.2,
-   "chg": 0.19,
-   "chg5": 0.16,
-   "sma20": 4470.98,
-   "sma50": 4246.17,
-   "sma200": 4450.71,
+   "price": 4445.6,
+   "chg": 0.36,
+   "chg5": 0.33,
+   "sma20": 4471.34,
+   "sma50": 4246.32,
+   "sma200": 4450.77,
    "high3m": 4640.8,
-   "reg": 4438.2,
+   "reg": 4445.6,
    "pre": null,
    "post": null,
-   "regClose": 4438.2,
+   "regClose": 4445.6,
    "sess": "24h",
-   "mt": 1788870118,
+   "mt": 1788870709,
    "ok": true
   },
   "CL=F": {
-   "price": 93.92,
-   "chg": 2.67,
-   "chg5": 9.51,
-   "sma20": 86.03,
-   "sma50": 81.45,
+   "price": 93.56,
+   "chg": 2.27,
+   "chg5": 9.1,
+   "sma20": 86.01,
+   "sma50": 81.44,
    "sma200": 88.89,
-   "high3m": 93.92,
-   "reg": 93.92,
+   "high3m": 93.56,
+   "reg": 93.56,
    "pre": null,
    "post": null,
-   "regClose": 93.92,
+   "regClose": 93.56,
    "sess": "24h",
-   "mt": 1788870119,
+   "mt": 1788870710,
    "ok": true
   },
   "HG=F": {
    "price": 6.81,
-   "chg": 3.22,
-   "chg5": 3.28,
+   "chg": 3.27,
+   "chg5": 3.33,
    "sma20": 6.58,
    "sma50": 6.44,
    "sma200": 6.2,
@@ -1086,23 +1074,23 @@
    "post": null,
    "regClose": 6.81,
    "sess": "24h",
-   "mt": 1788870109,
+   "mt": 1788870710,
    "ok": true
   },
   "ZN=F": {
-   "price": 107.44,
-   "chg": -0.28,
-   "chg5": -0.43,
+   "price": 107.47,
+   "chg": -0.25,
+   "chg5": -0.41,
    "sma20": 108.3,
    "sma50": 108.67,
    "sma200": 109.79,
    "high3m": 110.27,
-   "reg": 107.44,
+   "reg": 107.47,
    "pre": null,
    "post": null,
-   "regClose": 107.44,
+   "regClose": 107.47,
    "sess": "24h",
-   "mt": 1788870119,
+   "mt": 1788870710,
    "ok": true
   },
   "EWY": {
@@ -1124,6 +1112,14 @@
  },
  "news": {
   "credit": [
+   {
+    "title": "Acer’s concept mini PC brings 1 petaflop of local AI power to your desk - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNLXg3Y1ktdUN6Ry1ubURpcmRvaWs4ek5DOWFiODNId2lrRkdKekpaWEN5cGxOS0xJSmtWaGd3ai1SX0dpYlVqQVBIR3VjOWxBZFYzYVRzT1d4cEFGSk9EZHd4Uy1pOXBEeEhFaFFseERCUWpPWmZVWGcyNmxjaENzZ0dNZHJQNUcwQTlYU0V3QXFiY0FJRnFINVplZmI3V2JJRjJZOWF2X3dIUXhRbFRFdlhYVEtKU2ZVei1DdWxqTldRMDg?oc=5",
+    "pub": "Tue, 08 Sep 2026 11:40:38 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Beyond capital adequacy: Four insights from Europe for Apac insurers - AsianInvestor",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2lIcWlnSURxQnJ3ZUI2MXEzVmoxTjBQblQ1Zlhpd3R5YllxeW5GclBPYjRQLTZaNnNzUzdKSUtnRHVyYWhLaENCOGF2MjFBUVN2YmNzRFh0U0pJajVnTm5SUHJ0TXp4NGhjZGxoM3IxWVhmeV9aRG50dmxqU3NUcE5yMGJzREpfem9QZ0NudTUwNTUxeWJvb0k0Y04xV2J2eDVybUFhbFdwOU9TcGVGb3pB?oc=5",
@@ -1163,14 +1159,6 @@
     "src": "facebook.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Data deep-dive: BDCs keep slashing value of loans but losses moderate in Q2 - Citywire",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQbWNFMFppY09WUkc2RUJfSFZyUzZERjNsLTRNRndtTTVyMnA4WUh6ZzdSZ0ZXd3p0MHJZck5FM3Z4TW5HQ0o3aEdrY190Wks3c29kNFhwSDhJY3ZWSFJ2TXNOZzZPWThFZGNrQW9ocFVlM0NzUW9sa0ZrV1NldjZfMWE4elN5cmlaYTdVMmhWa1RtZkVDX2dsa2VNYldZcDFsb0tvUnZKTFZEWlVpb2MwTVFVbllPRHhaYk1j?oc=5",
-    "pub": "Tue, 08 Sep 2026 07:02:02 GMT",
-    "src": "Citywire",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1179,6 +1167,14 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPajNfSzNaU3NFemppNUtHZmtYTTdhMHZBVjBOVWIyaXoybjlUV1dBcENJNkZIRmpQQWRSOWJ3eDVRLTNpM2lFVVJvemlTVXd0d0dydVc1ZElGNm0tUHlxSnlDTHY0YU53Qlk4dmFSVGR4Mk9OT0dVTmdiWjJMZldjUHd2VXk0U3JzVXM0VTJFRnc5a2pwZVdNNA?oc=5",
     "pub": "Tue, 08 Sep 2026 12:03:00 GMT",
     "src": "Investor's Business Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Introducing CUDA Rust: Two Tracks for Writing GPU Kernels | NVIDIA Technical Blog - NVIDIA Developer",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTHU4bTNfMV9DOThPNENkaVlQazROZnNmalh3TEdOdnFSLW1sUS1ueDkyaUs0a3B1amhoLW1QQXBjTGNzR1gzMW9JMWk0a2hkeVlsN3dUd25CRFFLbUV4Y09ROW8wWm5PdG51M1BuSm1jVTViclpoYTlSeXI4c2R5ampOeE1ra2lhbzJHNDFoN252aHB3T2c?oc=5",
+    "pub": "Tue, 08 Sep 2026 12:02:31 GMT",
+    "src": "NVIDIA Developer",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1207,6 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOS1lKcDVDTDcteHBvWTUwWHNPS04tMVZLUTR6V01GSGdJQjhCRWlYSFJkZFVyVFRiWGdhMzBvSTJWdUp5dC1CTGdKMVJfRG43a1NYRWNmTi1YQTNUVVlFOEJrTlI0N0tJdWZNM1k3ZHc5cWV3N3hOaVQ0VmdQX2VnNzVjbWoxZzA0MWRxY2lINmV4STBFMHRKbUt4V2NRaFYzZlJtbmhGRU1GZUZOb0RVc3pOTjlOcFhWU3VvczdVYnlXUmV3ZHRmTzRiX0NyUWFZS1pj?oc=5",
     "pub": "Tue, 08 Sep 2026 11:08:12 GMT",
     "src": "TradingKey",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia (NVDA) Stock Climbs as CEO Jensen Huang Defends H100 Chip Profitability - Blockonomi",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd04zMjhpSDYwSjBPcGhISWU2TEZFb2xiUnpKSWhGdGwySEZYYnhaZVJLRnQ3cjljZmtDUEhnSy13MnN6WF9GT092Tm5GaFpBRmF2WVY5ZFpSc2lTV0ZmaDJOVWxfT1EySTZRUTctNlJlME9Db2FKNDM5ZDNoNW82Q0ItWHNhUW9wNXV4c25vdFFzQzhNY1RjZTk3Q2dGRGE2S0E?oc=5",
-    "pub": "Tue, 08 Sep 2026 10:50:24 GMT",
-    "src": "Blockonomi",
     "trig": false,
     "geo": false
    }
@@ -1275,6 +1263,14 @@
   ],
   "flow": [
    {
+    "title": "155.00: Why the Japanese Yen just broke through the level that could define a new range - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNUDk3WFo1cEY5QjFKNXhTZ1Zxc2Q2NVp5ZWhKZVRCWlQzdDQtWXduVWl0R3JES2FDU3RzN0YyXzcwRTJFQ19FUUlEa204am9UUmhtVGp3WFk4NlowOGIwTDRpRm5zUGh4LTRJQ1E0SGxTaHNEb0hJeU5GTXNYVUJIUzlXbklkWG9lWUFTcUtnVGJqQ0NvdXJBeExXd0lJZndwdWUwSHZEaGVJWFFBeFlMQVlLVUFWUmQ0MHBsVEFzdXRjU2dqdE00?oc=5",
+    "pub": "Tue, 08 Sep 2026 12:34:52 GMT",
+    "src": "FXStreet",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper rally sets record LME price as US tariff fears fuel supply ‘scramble’ - South China Morning Post",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNRVFXcV9wU01EWkppam1sazBmYUk2WFpIWWNkazVqU2o3QW5jOUh3ai13TXZoemZYVERxRmdITGxweWlneTVwV2lhNVFWTnJTbzBVcmpMaHl3Q2ZiU3ZieWY3OWQyYXhQbXI2N0NDSmtBTmZLUzFOeG5fME9qSDlkb3BJVUNPUkpGVzdIcnlOUUdyRDlVTzhTbDc4cnRfaEppUVBGSEthNHc2VHpYZ2lJTGFvNWc1Vmw0V2UySU1ab0w5UkVrYkVQR2hFYXp0Vzln0gHQAUFVX3lxTE5DZFpKS1h1UG00dVlscm05VEE2MTdqbWNwc0lKRlB1NV9nWGdCV2k2T2dWQW5QYVJyZGk1N1d2dWcwanFxdDY3Slh6VjVJcXdyWExzYlgycnlnOGFtNTRVTE1XeWFpdVo4OF9YTGxPSlY3bTJzQlJ5aEctbXU2dzQ3RG1WTnJPT2cyd0pueWh5LUw2OFl2dk5XWjByNDFVQ2xHTTlvXzNYZjktbXduU0x4TWZqdFpqQW13cjZ1WDVvb1RLUG5LRlVGdnJnSzcyZHg?oc=5",
     "pub": "Tue, 08 Sep 2026 12:00:13 GMT",
@@ -1291,10 +1287,10 @@
     "geo": false
    },
    {
-    "title": "How US Tariff Fears Are Driving Record Copper Prices - bloomberg.com",
+    "title": "How US Tariff Fears Are Driving Record Copper Prices - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNX3Z0UGVlZTVrSEdhWUVFLWNKT3JRWUhlREhWNUZ5YjlxbndiR3dPakhuLUpyelBreFJ3bGM4NlE5dF9MVE12dUprWml2SURSNjVEWXJJZHAtdTM2cHhIQ2Y5OWJ2Q0QzcFBRT21VbGxvN3d1dmk5UjlVclBnY2N1bHJNSW42X29vbFR3NjVNcXdyQVlRVU9jYVN6YnVYd3dKNUpPOGJXbHViYjlfQklDdFNJWnBSQ2NDY28xa2ln?oc=5",
     "pub": "Tue, 08 Sep 2026 11:59:00 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOeGtGeU5tNE5aQnZBRzd3NDMtQzNZR19hT2NHMzFwWkNTOThaYWhfM3BlRkNsblk2dzBsdVFXWG85SVNMZ2dQbUxLYXgtQk04dTVQUnBtMjZjcXJtTUpZN1B1d011Qkoya0J4emx1ME83OUFoRXpXZmNWY2NuQkpDMU9jT3hfY3dPd2VBYWwwUWVFaEJKdHJmNFVTaHpjdw?oc=5",
     "pub": "Tue, 08 Sep 2026 11:42:00 GMT",
     "src": "MarketWatch",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "COPPER PRICE RECORD EXPLAINED | America is Hoarding Today’s Metal Before AI Creates Tomorrow’s Shortage - Open Magazine",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOeGk4cFA0SURvYWQ1dGtwVDZPYVBuMkEzelpOSzRPWXZMUDV4eDRJc19YTGFySG9lS2lPdU5iXzRNTm43Y3RUY05LTzNGRVpIYjFlU1F1RGJoTFRSSDVzUUc5cG5vRVJQZEtERUxPZld6WDNTd3lhSTgzYnhINHl5cEpmenR0V2JhZWNyaXFXdWdYTzlWR1lzNFVfbUlYTlZGVjBBMFZjR2JIbWZYTFdobGhuU2MxbTJ3eWZzcTA0enVhLU84bHFsUXFDTGJmQmFSNGc?oc=5",
-    "pub": "Tue, 08 Sep 2026 11:32:29 GMT",
-    "src": "Open Magazine",
     "trig": false,
     "geo": false
    }
@@ -1435,7 +1423,31 @@
    "chg4w": -70.8,
    "asof": "2026-09-02"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.12,
+   "series": [
+    42.11,
+    41.97,
+    41.8,
+    42.03,
+    41.94,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12
+   ],
+   "chg13w": 0.51,
+   "us_chg13w": 1.63,
+   "eu_chg13w": 0.81,
+   "us_t": 23.21,
+   "eu_t": 18.92,
+   "asof": "2026-08-03",
+   "eu_asof": "2026-07-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1451,7 +1463,7 @@
    14.55,
    14.89,
    15.21,
-   15.7
+   15.63
   ],
   "tnx": [
    4.55,
@@ -1461,12 +1473,12 @@
    4.53,
    4.59,
    4.63,
+   4.6,
+   4.63,
+   4.68,
+   4.71,
    4.64,
-   4.69,
-   4.7,
-   4.72,
-   4.7,
-   4.78
+   4.79
   ],
   "dxy": [
    100.05,
@@ -1481,7 +1493,7 @@
    99.82,
    99.65,
    98.92,
-   98.94
+   98.93
   ],
   "bizd": [
    12.49,
@@ -1526,7 +1538,7 @@
    159.16,
    159.34,
    159.14,
-   154.02
+   153.99
   ],
   "uso": [
    133.02,
@@ -1586,7 +1598,7 @@
    63551.88,
    64680.71,
    78564.98,
-   78407.36
+   78323.98
   ],
   "vixts": [
    0.867,
@@ -1601,7 +1613,7 @@
    0.765,
    0.784,
    0.774,
-   0.764
+   0.761
   ],
   "hyoas": [
    3.19,
@@ -1705,10 +1717,10 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 유가가 배럴당 $100 근처까지 상승하면서 글로벌 인플레이션 압력이 재점화되고 있으며, VIX 15·HY스프레드 2.65%로 신용 여건은 여전히 완화적이나 금리 구조적 상승 우려가 잠재돼 있다. Nvidia H100 렌탈가가 월간 22% 급등하며 GPU 수급 타이트닝이 심화되고 있으나, CoreWeave의 자금 조달 압박은 인프라 투자 지속성에 대한 우려를 시사한다.",
+  "text": "중동 분쟁 심화로 유가가 배럴당 $100 근처까지 상승 중이며, 이는 글로벌 인플레이션 재상승과 금리 고착화 압력으로 작용하고 있습니다. AI 인프라 수요는 지속되나 OpenAI·Anthropic의 IPO 추진과 CoreWeave의 자금난 사이에서 AI capex 사이클의 과열 신호가 나타나고 있습니다.",
   "by": "claude",
   "_fp": {
-   "vix": 14,
+   "vix": null,
    "tnx": 4.800000000000001,
    "dxy": 99.0,
    "spy": 0.0,
@@ -1718,8 +1730,7 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -1730,15 +1741,15 @@
    "VIX 상승추세",
    "CCC-BB 확대(품질분산)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "VIX"
+   ]
   }
  },
  "history": [
@@ -2401,16 +2412,20 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 1,
+  "failed": [
+   "^VIX"
+  ],
+  "core_dead": [
+   "^VIX"
+  ]
  },
  "breadth": {
   "pct50": 51,
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-08T12:32:37+00:00",
+  "checked": "2026-09-08T12:42:04+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-09T05:22:06+00:00",
+ "updated": "2026-09-09T05:32:23+00:00",
  "prices": {
   "NVDA": {
    "price": 225.73,
@@ -174,23 +174,23 @@
    "post": null,
    "regClose": 270000.0,
    "sess": "reg",
-   "mt": 1788930055,
+   "mt": 1788930672,
    "ok": true
   },
   "000660.KS": {
-   "price": 1859000.0,
-   "chg": 3.68,
-   "chg5": 15.25,
-   "sma20": 1670150.0,
-   "sma50": 1787640.0,
-   "sma200": 1670488.19,
+   "price": 1857000.0,
+   "chg": 3.57,
+   "chg5": 15.13,
+   "sma20": 1670050.0,
+   "sma50": 1787600.0,
+   "sma200": 1670472.44,
    "high3m": 2919000.0,
-   "reg": 1859000.0,
+   "reg": 1857000.0,
    "pre": null,
    "post": null,
-   "regClose": 1859000.0,
+   "regClose": 1857000.0,
    "sess": "reg",
-   "mt": 1788930056,
+   "mt": 1788930672,
    "ok": true
   },
   "ANET": {
@@ -722,20 +722,8 @@
    "ok": true
   },
   "^VIX": {
-   "price": 14.53,
-   "chg": 1.47,
-   "chg5": 0.69,
-   "sma20": 15.1,
-   "sma50": 16.2,
-   "sma200": 18.7,
-   "high3m": 22.22,
-   "reg": 14.53,
-   "pre": null,
-   "post": null,
-   "regClose": 14.53,
-   "sess": "reg",
-   "mt": 1788552901,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 500: Internal Server Error"
   },
   "^VIX3M": {
    "price": 18.39,
@@ -814,7 +802,7 @@
    "post": null,
    "regClose": 98.73,
    "sess": "reg",
-   "mt": 1788930685,
+   "mt": 1788931298,
    "ok": true
   },
   "^IRX": {
@@ -898,35 +886,35 @@
    "ok": true
   },
   "^KS11": {
-   "price": 7055.49,
-   "chg": 1.45,
-   "chg5": 7.51,
-   "sma20": 6795.83,
-   "sma50": 6856.4,
-   "sma200": 6914.87,
+   "price": 7058.51,
+   "chg": 1.5,
+   "chg5": 7.55,
+   "sma20": 6795.98,
+   "sma50": 6856.46,
+   "sma200": 6914.89,
    "high3m": 9114.55,
-   "reg": 7055.49,
+   "reg": 7058.51,
    "pre": null,
    "post": null,
-   "regClose": 7055.49,
+   "regClose": 7058.51,
    "sess": "reg",
-   "mt": 1788930080,
+   "mt": 1788930700,
    "ok": true
   },
   "^KQ11": {
-   "price": 828.18,
-   "chg": 2.01,
-   "chg5": 3.01,
-   "sma20": 827.77,
-   "sma50": 807.13,
+   "price": 827.55,
+   "chg": 1.93,
+   "chg5": 2.93,
+   "sma20": 827.73,
+   "sma50": 807.11,
    "sma200": 982.94,
    "high3m": 1034.03,
-   "reg": 828.18,
+   "reg": 827.55,
    "pre": null,
    "post": null,
-   "regClose": 828.18,
+   "regClose": 827.55,
    "sess": "reg",
-   "mt": 1788930090,
+   "mt": 1788930700,
    "ok": true
   },
   "GLD": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79269.67,
-   "chg": 0.19,
-   "chg5": -2.46,
-   "sma20": 78476.03,
-   "sma50": 69975.12,
-   "sma200": 70074.76,
+   "price": 78961.26,
+   "chg": -0.2,
+   "chg5": -2.84,
+   "sma20": 78460.61,
+   "sma50": 69968.95,
+   "sma200": 70073.09,
    "high3m": 81271.74,
-   "reg": 79269.67,
+   "reg": 78961.26,
    "pre": null,
    "post": null,
-   "regClose": 79269.67,
+   "regClose": 78961.26,
    "sess": "reg",
-   "mt": 1788931288,
+   "mt": 1788931900,
    "ok": true
   },
   "USO": {
@@ -978,115 +966,115 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 153.4,
-   "chg": -0.3,
-   "chg5": -4.24,
+   "price": 153.34,
+   "chg": -0.33,
+   "chg5": -4.28,
    "sma20": 158.4,
    "sma50": 160.17,
    "sma200": 159.65,
    "high3m": 163.86,
-   "reg": 153.4,
+   "reg": 153.34,
    "pre": null,
    "post": null,
-   "regClose": 153.4,
+   "regClose": 153.34,
    "sess": "reg",
-   "mt": 1788931293,
+   "mt": 1788931906,
    "ok": true
   },
   "ES=F": {
-   "price": 7688.5,
-   "chg": 0.1,
-   "chg5": 0.6,
-   "sma20": 7717.19,
-   "sma50": 7631.8,
-   "sma200": 7338.64,
+   "price": 7683.75,
+   "chg": 0.04,
+   "chg5": 0.54,
+   "sma20": 7716.95,
+   "sma50": 7631.7,
+   "sma200": 7338.6,
    "high3m": 7822.5,
-   "reg": 7688.5,
+   "reg": 7683.75,
    "pre": null,
    "post": null,
-   "regClose": 7688.5,
+   "regClose": 7683.75,
    "sess": "24h",
-   "mt": 1788930691,
+   "mt": 1788931306,
    "ok": true
   },
   "NQ=F": {
-   "price": 29605.75,
-   "chg": 0.23,
-   "chg5": 1.65,
-   "sma20": 29549.26,
-   "sma50": 29364.38,
-   "sma200": 28219.36,
+   "price": 29567.5,
+   "chg": 0.1,
+   "chg5": 1.52,
+   "sma20": 29547.35,
+   "sma50": 29363.61,
+   "sma200": 28219.06,
    "high3m": 30653.5,
-   "reg": 29605.75,
+   "reg": 29567.5,
    "pre": null,
    "post": null,
-   "regClose": 29605.75,
+   "regClose": 29567.5,
    "sess": "24h",
-   "mt": 1788930693,
+   "mt": 1788931306,
    "ok": true
   },
   "YM=F": {
-   "price": 52825.0,
-   "chg": -0.01,
-   "chg5": -0.01,
-   "sma20": 53409.15,
-   "sma50": 53129.46,
-   "sma200": 50784.52,
+   "price": 52807.0,
+   "chg": -0.05,
+   "chg5": -0.04,
+   "sma20": 53408.25,
+   "sma50": 53129.1,
+   "sma200": 50784.38,
    "high3m": 54494.0,
-   "reg": 52825.0,
+   "reg": 52807.0,
    "pre": null,
    "post": null,
-   "regClose": 52825.0,
+   "regClose": 52807.0,
    "sess": "24h",
-   "mt": 1788930686,
+   "mt": 1788931307,
    "ok": true
   },
   "GC=F": {
-   "price": 4429.3,
-   "chg": 0.81,
-   "chg5": 1.87,
-   "sma20": 4471.07,
-   "sma50": 4253.43,
-   "sma200": 4450.2,
+   "price": 4427.7,
+   "chg": 0.77,
+   "chg5": 1.83,
+   "sma20": 4470.99,
+   "sma50": 4253.4,
+   "sma200": 4450.19,
    "high3m": 4640.8,
-   "reg": 4429.3,
+   "reg": 4427.7,
    "pre": null,
    "post": null,
-   "regClose": 4429.3,
+   "regClose": 4427.7,
    "sess": "24h",
-   "mt": 1788930693,
+   "mt": 1788931308,
    "ok": true
   },
   "CL=F": {
-   "price": 93.95,
-   "chg": 0.99,
-   "chg5": 4.13,
+   "price": 93.96,
+   "chg": 1.0,
+   "chg5": 4.15,
    "sma20": 86.52,
    "sma50": 81.9,
    "sma200": 88.92,
-   "high3m": 93.95,
-   "reg": 93.95,
+   "high3m": 93.96,
+   "reg": 93.96,
    "pre": null,
    "post": null,
-   "regClose": 93.95,
+   "regClose": 93.96,
    "sess": "24h",
-   "mt": 1788930674,
+   "mt": 1788931309,
    "ok": true
   },
   "HG=F": {
-   "price": 6.77,
-   "chg": 0.42,
-   "chg5": 4.01,
+   "price": 6.76,
+   "chg": 0.33,
+   "chg5": 3.91,
    "sma20": 6.59,
    "sma50": 6.45,
    "sma200": 6.2,
-   "high3m": 6.77,
-   "reg": 6.77,
+   "high3m": 6.76,
+   "reg": 6.76,
    "pre": null,
    "post": null,
-   "regClose": 6.77,
+   "regClose": 6.76,
    "sess": "24h",
-   "mt": 1788930659,
+   "mt": 1788931307,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 107.36,
    "sess": "24h",
-   "mt": 1788930692,
+   "mt": 1788931300,
    "ok": true
   },
   "EWY": {
@@ -1125,18 +1113,18 @@
  "news": {
   "credit": [
    {
-    "title": "Pengana Global Private Credit Trust Posts Updated NAV and Distribution Data - TipRanks",
+    "title": "Pengana Global Private Credit Trust Posts Updated NAV and Distribution Data - tipranks.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNMFp5dks0MjduR2ZQcXhqWUVIVTVnTWw4TXR5T3UxZVBUam9FN2puTjVRbmhnNGIxaFNVSHdXekN0NGdYQkVNT2FsY3pUaE9SRHpWY1hLV3RCWVJYcl90YjlPejBpTTkwZUJ1bHdmYVJabHZSa3JiSC1TSlRXdzVQVXJubS1NLUJKTDQwZi1UOGI3N0gxdUp0RWVqcHhnb2ZyY1EtYVVkWnN5OG05bm5tMnVWX21sRlkyOWlPdU43SFBfU3NEUXc?oc=5",
     "pub": "Wed, 09 Sep 2026 00:17:14 GMT",
-    "src": "TipRanks",
+    "src": "tipranks.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "'The ber months': Christmas arrives early in the Philippines - ABS-CBN",
+    "title": "'The ber months': Christmas arrives early in the Philippines - abs-cbn.com",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNcXRDalpWYnV0SkhMMGZjRDVONUM0NG9hTko5NTFlaGk5R3VHSFhiN0NYVVQyNlpTMG9ER3FOS05BenhvMWpWMHlaakNlZWpheEppSGFnUmpZZEVKQzhmQ0w0NHN0NUZ4N1p5YlkzNnl6Wkp2RWMtT1ZPSU5TUzRYVnFSSWtabnlNcnZDclZXcTAyNVJwZ0h0YVBSMHdKbHBEVkZ5QjFKSXZOUl9ITjZFRHFSMTM3TGRtM2xzWG83NlZDRXZOMVV3?oc=5",
     "pub": "Tue, 08 Sep 2026 23:49:51 GMT",
-    "src": "ABS-CBN",
+    "src": "abs-cbn.com",
     "trig": false,
     "geo": false
    },
@@ -1191,6 +1179,14 @@
     "geo": false
    },
    {
+    "title": "Google Cloud touts TPU lead over rivals, accelerates external sales - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdVMyV2ZOWHlVRTdxbTVLTFJObS00WDk4VHFqeExnT1M4WVJTNjdNRVhycXljZnlPUHQ2WTJlMEpOVlRGdVp2TlBLNXhqWGptVHhsZGFyRDdseTVxMDlMa1hqUW1EcVQxTXdNN0RhcjFWX190NDdyRWN4V0tUcEhHYnFWc3pHYk4xbmw4aG9n0gGOAUFVX3lxTE11UzJXZk5YeVVFN3FtNUtMUk5tLTRYOThUcWp4TGdPUzhZUlM2N01FWHJxeWNmeU9QdDZZMmUwSk5WVEZ1WnZOUEs1eGpYam1UeGxkYXJEN2x5NXEwOUxrWGpRbURxVDFNd003RGFyMVZfX3Q0N3JFY3hXS1RwSEdicVZzekdiTjFubDhob2c?oc=5",
+    "pub": "Wed, 09 Sep 2026 03:52:00 GMT",
+    "src": "Chosunbiz",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "1 Chart That Destroys The Nvidia Bear Thesis - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNeTBsdUw4ZW12dzhmSEFha29NcUhIaG9HZmRXNnh1WEU5Z0dmeExpMTJNZnRVelFiUTNXN2xCVVpuZG9jYW9rUzl6X3gzR0hWWVE2am5SM3lHcW1zLXk2VVJCYWtIcjVSWkEtYmZ4SXlvd1VFZU96c0tUR192cTYwWF92eHViY2VFY29JZ2x3SFJjTXg0?oc=5",
     "pub": "Wed, 09 Sep 2026 03:28:34 GMT",
@@ -1212,14 +1208,6 @@
     "pub": "Wed, 09 Sep 2026 00:14:38 GMT",
     "src": "Startup Fortune",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why Price Cuts May Rattle Anthropic's IPO Pitch - The Information",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQWlJmZ295LW9UZlRIYW5PQTVBQXd6b19UR29sWC1XY1FYNHhoTzVrX0dHclpYVjFQNHpmbjJ0SjJZUEw0VVlsc3BHY3dxZVlpYS1mcG1McGpwYllSOTVjTF96S05xM1hFVkhKNjBKNXJ3SGxDQUwyZC1id1QxSmplb2VBbnQxV3VGSGtBVW9nMzlacEV0UFdCWDR6cFVmTjQ?oc=5",
-    "pub": "Wed, 09 Sep 2026 00:00:00 GMT",
-    "src": "The Information",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1275,18 +1263,26 @@
   ],
   "flow": [
    {
-    "title": "Japanese yen turbulence continues to threaten global financial markets - World Socialist Web Site",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xUTZvTGtVcUVVSWRWZnRSajVYWmItbWFzZmpPcm1zaTh3cUVhSXJnNGRrMllGNWQ5bFRzLU4zMVFKOXRhUHJRV3FodlBvN0VVMndLNUJkSjhDQm4ya2NhakRsNkV6OVhS?oc=5",
-    "pub": "Wed, 09 Sep 2026 05:13:48 GMT",
-    "src": "World Socialist Web Site",
+    "title": "Explainer: What is the yen carry trade? - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPUU4wYlJybXRLcFlOVVJnd0dRb2tEcVd0ZnNVczZpN1FDTGZIQkVvV081QjRnWThySmQ2NG5FVlBhZ3h0ZlRJYTlRemtJdDBxZWxoMFo5VGQwbmg4UmxrS1BGVEpyV1dHQnlsYUpSeENHdVhEYzBEMGhjdFlNZVZYZEVmSEM?oc=5",
+    "pub": "Wed, 09 Sep 2026 05:19:11 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
    {
-    "title": "What is the yen carry trade? - marketscreener.com",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQcmFNeFQyNTVxcGlzeXZuT2tnbXhZMWE0cmEzdVJyclh0MHNpYWlmWHlUTkdnVlZHWEdmMDdZcHpfamhqaG14T0xYMVd5WEJKSDlZQjNXaFcza1NnRFRPamtFd3Q1NGlSS0JPUUJneVRsQnBLZ202NWJqcndSanN5eWFqTS10em8?oc=5",
-    "pub": "Wed, 09 Sep 2026 05:12:21 GMT",
-    "src": "marketscreener.com",
+    "title": "Explainer-What is the yen carry trade? - channelnewsasia.com",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQQ2ZjU3paNGh5Qzh3V3hPeTVTeWd0SWJsUDI0Z0R1QXpoNFVKa25TU3pKdDhLVHhVVG81SUthZW1PQ0ptajNmZGRjRHgwNzUyb3VzRDhlUXNmaFhYUE5BQjluMjhUbjhVUFZCcVJkXzYzcldMQkVrOGwwZ0ktN3d4Y19hS3Rpdw?oc=5",
+    "pub": "Wed, 09 Sep 2026 05:15:09 GMT",
+    "src": "channelnewsasia.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Japanese yen turbulence continues to threaten global financial markets - World Socialist Web Site",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE8xUTZvTGtVcUVVSWRWZnRSajVYWmItbWFzZmpPcm1zaTh3cUVhSXJnNGRrMllGNWQ5bFRzLU4zMVFKOXRhUHJRV3FodlBvN0VVMndLNUJkSjhDQm4ya2NhakRsNkV6OVhS?oc=5",
+    "pub": "Wed, 09 Sep 2026 05:13:48 GMT",
+    "src": "World Socialist Web Site",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1307,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOQVhLZkZMTkR0OUV5WnFwQ2stSk9uTEgxZHIwLVZOSVZMaEtJNHlGUUZTMm10OGpuLTVVRXZjQUJsSkhWTE5qMkhyWU9nRkVwbm5hX2otNHJYbUVUMmR2aHpudy1YbzBZRkZHcHQ3QkNuckd2MUxQZUd3VnR4dXl3Zm9R?oc=5",
     "pub": "Wed, 09 Sep 2026 04:25:00 GMT",
     "src": "Yahoo Finance UK",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold overtakes uranium as Namibia’s largest export commodity in July - Windhoek Observer",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNby1veEx4MEpMZjQyRkZjNnZLdG9QNFZUYWFBREdVdURXdXN5ZmstUWdTZEFIeEw0QkNRVWc5Y0xFR2xBU3gzTndwSzhvM1llNUFySkVSOEFFVG4xc2VlT0dEdGViZXhFcU1jejlVZmJsU2UxdTVDX20yUUtWU0NyZmJMTlo5YlJ3RkVVZW9oU2toYzY0cVJUeXdn?oc=5",
-    "pub": "Wed, 09 Sep 2026 04:17:47 GMT",
-    "src": "Windhoek Observer",
     "trig": false,
     "geo": false
    }
@@ -1550,7 +1538,7 @@
    159.26,
    159.55,
    159.22,
-   153.41
+   153.34
   ],
   "uso": [
    131.3,
@@ -1610,7 +1598,7 @@
    63551.88,
    64680.71,
    78564.98,
-   79245.78
+   78970.82
   ],
   "vixts": [
    0.888,
@@ -1729,10 +1717,10 @@
   ]
  },
  "summary": {
-  "text": "중동 긴장 고조로 유가가 배럴당 $100 근처까지 상승하면서 공급 리스크가 심화되고 있으며, 이는 인플레이션 재점화 우려와 맞물려 금리 경로 불확실성을 높이는 상황이다. AI 캐팩스 사이클은 엔비디아 등 칩 제조사들의 가격 인상 여력이 확대되는 한편, 코어웨이브 같은 인프라 기업들의 지속 불가능한 선급금 의존 구조가 신용 리스크로 부상하는 양극화 신호를 보이고 있다.",
+  "text": "중동 지정학적 긴장으로 유가가 $100 근처까지 급등하면서 공급 리스크가 고조되었고, 이는 인플레이션 재점화 우려와 맞물려 달러 강세(DXY 98.7)와 고금리(10년물 4.81%)를 지탱하고 있습니다. 사모신용 시장에서는 선급금 구조의 지속가능성 문제가 대두되는 가운데 신용스프레드 확대(HY 2.68%)로 조정 압력이 가중되고 있습니다. AI 캡엑스는 Nvidia 강세, Intel 가격 인상 여력, Google TPU 외부 판매 확대 등으로 GPU/칩 공급 경합이 심화되고 있으며",
   "by": "claude",
   "_fp": {
-   "vix": 14,
+   "vix": null,
    "tnx": 4.800000000000001,
    "dxy": 98.5,
    "spy": -1.0,
@@ -1753,15 +1741,15 @@
    "VIX 상승추세",
    "CCC-BB 확대(품질분산)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 19,
+   "missing": [
+    "VIX"
+   ]
   }
  },
  "history": [
@@ -2423,16 +2411,20 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 1,
+  "failed": [
+   "^VIX"
+  ],
+  "core_dead": [
+   "^VIX"
+  ]
  },
  "breadth": {
   "pct50": 69,
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-09T05:21:49+00:00",
+  "checked": "2026-09-09T05:32:03+00:00",
   "openai": {
    "found": false
   },

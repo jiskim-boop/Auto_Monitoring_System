@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-11T22:41:59+00:00",
+ "updated": "2026-09-11T22:52:01+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77173.96,
-   "chg": 0.79,
-   "chg5": -3.95,
-   "sma20": 78611.99,
-   "sma50": 70645.51,
-   "sma200": 70197.82,
+   "price": 77031.97,
+   "chg": 0.61,
+   "chg5": -4.13,
+   "sma20": 78604.89,
+   "sma50": 70642.67,
+   "sma200": 70197.06,
    "high3m": 81271.74,
-   "reg": 77173.96,
+   "reg": 77031.97,
    "pre": null,
    "post": null,
-   "regClose": 77173.96,
+   "regClose": 77031.97,
    "sess": "reg",
-   "mt": 1789166488,
+   "mt": 1789167089,
    "ok": true
   },
   "USO": {
@@ -1125,14 +1125,6 @@
  "news": {
   "credit": [
    {
-    "title": "DILG eyes conditional amnesty for loose firearms - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOVzMtUnhNWk80N3pKZ3Fza1pJdkNqMGlwbEJjekNtc2MzazJBa1pSQ0RZc1NXU3ZPWUl6aWliR3MzOU9qZkdiRWlHeDFZaHlLUVR4bzUtUmhyYzl6Wl9DUFpDMjhvYWdNZUtzVXdGVVlpVGpVUmVqTUx1dTA2N2E0TnkydnZha254R3FrMUdzaW5Ha2hOenpOVzJBamkxbUth?oc=5",
-    "pub": "Fri, 11 Sep 2026 21:44:23 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "House prosecution welcomes amici curiae appointed by Senate Impeachment Court - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNSDAtaUxrWVI1TElVNjgxVHNkSkpOVmxoakM3cUgyUWxOVXpEU2NvTTg0VHBmb0t0dXFaLWtxSG5qMFhUM0gtNUFfVXl0VWVEQm5ac1kweXlOWVRVSHBISUozQnFScWtWVk5ZNFBlT0g3SldRVDFDcExuZFZBbHdzeVJpSlhidFVjWllGX3VUTThid2pGXzBTQXNTR0M4TlB5VUFQZlNmYXE4MDdLY2xvWU5LajRxclh5N1c5dVItM3ZCa191aGZj?oc=5",
     "pub": "Fri, 11 Sep 2026 20:03:45 GMT",
@@ -1165,10 +1157,18 @@
     "geo": false
    },
    {
-    "title": "Nebius' Heavy CapEx Push: Can Customer Prepayments Ease the Strain? - tradingview.com",
+    "title": "Nebius' Heavy CapEx Push: Can Customer Prepayments Ease the Strain? - TradingView",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd0V3MGNfWjBOY1pQa213QnJmRGc4LWNGaFMzeEhxcUpZeGt3ODBjZGpGcmxKSGZQaV9hVWNLSWlDcjJMckdmOXpoNXV2cFNiUXQ3eFV1LTdwQUpESEh1QlU5bV9ONjZDSU43TmJVU0Z4NTlEYU83UnpQR1V5RW5fVnBJYmh2Q3lockQtRTREb1pEWEFxbkFHYkJadGJyVmVIQ1phV05EVHU5ZVRFZmcyeWdxT2NLRU42eXlicA?oc=5",
     "pub": "Fri, 11 Sep 2026 12:22:00 GMT",
-    "src": "tradingview.com",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia (NVDA) CEO Confirms Bold 70% Revenue Growth Target Through 2027 - Blockonomi",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbUE4X3FsUENKLUc1RnVQVDBjODR4WHJLRDZtSU1ibW1kTEV4ejhYMm9NVDdxZ1N4NnJhS1pycFpCYTJlbng1UXJ3N3JleGx3VGdGUV9Yd3o2ekFmbzc0ZU96ZVl2bmQ2ckk4eVRYcnVZZUZRY0Q5NXBEQWJGajBodmNleFB1VUZEU2NLdV9iUkNVQkxpVmc?oc=5",
+    "pub": "Fri, 11 Sep 2026 12:04:14 GMT",
+    "src": "Blockonomi",
     "trig": false,
     "geo": false
    }
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Stock Market Rebounds, Trims Weekly Losses; Fed Rate Decision, Retail Sales Due - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQRXB6VXFncVdDeDR5TUw1SXZZaGtSUEdCUmprcmt0aFdhR3BMN3BwVDRCU09LUno0T1pWWEVCeXNWaHFmOWh1dm42RGlWNmNZbUt1MVlKMC1kb1ZaOG9xenc1QWN3Q0tLeks5aTNJNzhIWjdSamIyTHJobzZHZmZvMzJWV2dJdHZhSDEyOV9haEdpcDVQR2xvU0hVZHV4WHlvVW9DV3RRV2sxNEJ5X3NTbXRGby1McnZ4Smo2S2wwR21yNUpXZ3BlMlpB?oc=5",
+    "pub": "Fri, 11 Sep 2026 21:38:00 GMT",
+    "src": "Investor's Business Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByYjJ4ZE5yM1dTaDdycGR4bHBPV2U1NG1zWnlJeTQ4d0I2dk5WNTVXWnhXUEhId1JjMy1UYUo0cUZZMzZFUHRYSThQdXdTSndpRFVsaEhreV9nLVQzdjJwa1U0ZHNCLXNkOC1tRzBYajV0bFAwWkQ2ZFZKc0k?oc=5",
     "pub": "Fri, 11 Sep 2026 20:46:29 GMT",
@@ -1257,18 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Israel kills Hamas commander in Gaza strike, military and militants say By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeDNQSGl4a2VZcXBiMjlZWVp0UHpDcGNRd3l4ZVlpeHdOb3BuSGR4Q0x5aVlLZ2haT2NhbWFhTFJVSWRlMF9MTk9VVGZabXczczZlSEtieWtMQ091aFozSEg5WUhnOV9wOHZkd1AybWc0bi1RMjlvU3o1V3AwVjh1ak9GLXViQWljc0lwdF9MTVl4ZUlpNUtaMmdib3BWRWdk?oc=5",
-    "pub": "Fri, 11 Sep 2026 20:15:00 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Futures Rise With Help From Oracle’s Beat and Cooler Oil Prices - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOemw5SW0wbTlzN0hCcUx5YVJMR3Z5WmdVamxJYnBhZmVTVWswQlZFeGM1czNqRTdpNUI3MVdweV9NeFhnWlNLeFEtZmhjZWE1dC1yTG0tT2lOeFBiN3lfX2x1UnYzWmRuZGNRLWVJS3FUNWNmc1JRVUoyYzBVcXlBZkdrMTJrWW5ZY1lGZThERGdWaWZSNzZwQjhhYnROOWxxVjhMcTlnOUE4N2x6a3NOYVM2bzI?oc=5",
-    "pub": "Fri, 11 Sep 2026 20:10:52 GMT",
-    "src": "Bloomberg.com",
+    "title": "Fed rate hike odds surge to 90% on monthly jump in core prices - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQSmJyWnJFSG1GbXlkWkRuSUdOcFNoZ2xWUjB4MWFIYXNKbWkwY3BvMFhyM0NHSGF2d0tPQWFONVUzTFdYdkdYWk1EaFZlemJYelZ5ZUdHWl9WVlJNa0tzZXFxdUpRYWNhTEpPb1F6bUppYXlydW5TQVdGTTVxVl9PeEtzYks0SUFnWFNzXzRfSzJaWTlWcnE2YnhMTldWZHVWRlh5allpWTh2ZXV4cU9lQ3ZSRndHMzZKQUJTTTBWd1h2OWM?oc=5",
+    "pub": "Fri, 11 Sep 2026 20:17:14 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1299,10 +1299,10 @@
     "geo": false
    },
    {
-    "title": "Citi Reiterates 0–3 Month Copper Price Target Of $15,000/T - tradingview.com",
+    "title": "Citi Reiterates 0–3 Month Copper Price Target Of $15,000/T - TradingView",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPM2JHZjNYaldIT2NVMEVCSDB1djRHcGZmOEljdGlVUFoyX1J6YjRrbHFYRzNhSFNHSU9IWm9WcjlvaUQ4SjFZckVpVks0bG83ajczZG5wQUhIVVU2YnlkUHNIYXhIRWNvZDFRdW56RHdsZFQwOTB4MjdpSVNMeGFneXJLUW1nSEw5ck5kMHJkaHk2S1pKa0gyNC1tVVJpLS1BdThHd0NTZnR0ZGVQSGVETnZQbU5fLThDckF6aHpfWEtZNzZwb1E?oc=5",
     "pub": "Fri, 11 Sep 2026 16:36:47 GMT",
-    "src": "tradingview.com",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    62975.59,
    78335.19,
    77830.29,
-   77166.95
+   77020.02
   ],
   "vixts": [
    0.948,
@@ -2433,7 +2433,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-11T22:41:46+00:00",
+  "checked": "2026-09-11T22:51:49+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

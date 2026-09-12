@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T13:21:59+00:00",
+ "updated": "2026-09-12T13:32:28+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -18,52 +18,16 @@
    "ok": true
   },
   "AVGO": {
-   "price": 361.99,
-   "chg": 0.32,
-   "chg5": 1.35,
-   "sma20": 367.49,
-   "sma50": 383.09,
-   "sma200": 384.3,
-   "high3m": 427.76,
-   "reg": 361.99,
-   "pre": null,
-   "post": null,
-   "regClose": 361.99,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
-   "price": 516.13,
-   "chg": 2.49,
-   "chg5": 13.15,
-   "sma20": 482.04,
-   "sma50": 496.55,
-   "sma200": 422.14,
-   "high3m": 580.91,
-   "reg": 516.13,
-   "pre": null,
-   "post": null,
-   "regClose": 516.13,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TSM": {
-   "price": 433.24,
-   "chg": 1.22,
-   "chg5": 3.89,
-   "sma20": 421.71,
-   "sma50": 418.93,
-   "sma200": 403.59,
-   "high3m": 477.57,
-   "reg": 433.24,
-   "pre": null,
-   "post": null,
-   "regClose": 433.24,
-   "sess": "reg",
-   "mt": 1789156802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ASML": {
    "price": 1698.3,
@@ -98,52 +62,16 @@
    "ok": true
   },
   "MU": {
-   "price": 975.26,
-   "chg": -0.22,
-   "chg5": 1.78,
-   "sma20": 962.81,
-   "sma50": 928.61,
-   "sma200": 784.05,
-   "high3m": 1213.56,
-   "reg": 975.26,
-   "pre": null,
-   "post": null,
-   "regClose": 975.26,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SNDK": {
-   "price": 1633.35,
-   "chg": -3.5,
-   "chg5": 5.04,
-   "sma20": 1602.13,
-   "sma50": 1517.87,
-   "sma200": 1384.88,
-   "high3m": 2335.0,
-   "reg": 1633.35,
-   "pre": null,
-   "post": null,
-   "regClose": 1633.35,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "STX": {
-   "price": 830.17,
-   "chg": -3.73,
-   "chg5": 3.95,
-   "sma20": 856.43,
-   "sma50": 848.21,
-   "sma200": 757.52,
-   "high3m": 1094.04,
-   "reg": 830.17,
-   "pre": null,
-   "post": null,
-   "regClose": 830.17,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "WDC": {
    "price": 447.18,
@@ -162,20 +90,8 @@
    "ok": true
   },
   "005930.KS": {
-   "price": 259500.0,
-   "chg": -3.53,
-   "chg5": 1.57,
-   "sma20": 262800.0,
-   "sma50": 259460.0,
-   "sma200": 258637.4,
-   "high3m": 362500.0,
-   "reg": 259500.0,
-   "pre": null,
-   "post": null,
-   "regClose": 259500.0,
-   "sess": "reg",
-   "mt": 1789108205,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "000660.KS": {
    "price": 1812000.0,
@@ -194,20 +110,8 @@
    "ok": true
   },
   "ANET": {
-   "price": 199.59,
-   "chg": 5.61,
-   "chg5": 4.26,
-   "sma20": 193.16,
-   "sma50": 185.3,
-   "sma200": 165.3,
-   "high3m": 210.5,
-   "reg": 199.59,
-   "pre": null,
-   "post": null,
-   "regClose": 199.59,
-   "sess": "reg",
-   "mt": 1789156803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ALAB": {
    "price": 291.22,
@@ -226,20 +130,8 @@
    "ok": true
   },
   "CRDO": {
-   "price": 162.95,
-   "chg": 1.65,
-   "chg5": -0.74,
-   "sma20": 211.29,
-   "sma50": 223.1,
-   "sma200": 197.71,
-   "high3m": 302.52,
-   "reg": 162.95,
-   "pre": null,
-   "post": null,
-   "regClose": 162.95,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "VRT": {
    "price": 257.06,
@@ -258,20 +150,8 @@
    "ok": true
   },
   "CIEN": {
-   "price": 349.54,
-   "chg": 4.48,
-   "chg5": 10.11,
-   "sma20": 375.42,
-   "sma50": 393.78,
-   "sma200": 450.2,
-   "high3m": 490.56,
-   "reg": 349.54,
-   "pre": null,
-   "post": null,
-   "regClose": 349.54,
-   "sess": "reg",
-   "mt": 1789156802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "COHR": {
    "price": 305.37,
@@ -290,68 +170,20 @@
    "ok": true
   },
   "VST": {
-   "price": 148.38,
-   "chg": 0.9,
-   "chg5": 2.88,
-   "sma20": 142.75,
-   "sma50": 148.85,
-   "sma200": 152.79,
-   "high3m": 168.98,
-   "reg": 148.38,
-   "pre": null,
-   "post": null,
-   "regClose": 148.38,
-   "sess": "reg",
-   "mt": 1789156803,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CEG": {
-   "price": 284.75,
-   "chg": -0.43,
-   "chg5": -0.11,
-   "sma20": 281.54,
-   "sma50": 269.53,
-   "sma200": 278.49,
-   "high3m": 299.05,
-   "reg": 284.75,
-   "pre": null,
-   "post": null,
-   "regClose": 284.75,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NRG": {
-   "price": 113.46,
-   "chg": 1.62,
-   "chg5": 1.45,
-   "sma20": 115.1,
-   "sma50": 124.98,
-   "sma200": 137.25,
-   "high3m": 149.36,
-   "reg": 113.46,
-   "pre": null,
-   "post": null,
-   "regClose": 113.46,
-   "sess": "reg",
-   "mt": 1789156802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "TLN": {
-   "price": 312.74,
-   "chg": 0.39,
-   "chg5": 2.36,
-   "sma20": 314.75,
-   "sma50": 342.01,
-   "sma200": 351.84,
-   "high3m": 438.12,
-   "reg": 312.74,
-   "pre": null,
-   "post": null,
-   "regClose": 312.74,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GEV": {
    "price": 957.27,
@@ -434,20 +266,8 @@
    "ok": true
   },
   "CCJ": {
-   "price": 96.68,
-   "chg": -0.76,
-   "chg5": -3.92,
-   "sma20": 100.03,
-   "sma50": 95.18,
-   "sma200": 104.83,
-   "high3m": 108.89,
-   "reg": 96.68,
-   "pre": null,
-   "post": null,
-   "regClose": 96.68,
-   "sess": "reg",
-   "mt": 1789156802,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "URA": {
    "price": 43.53,
@@ -466,20 +286,8 @@
    "ok": true
   },
   "UEC": {
-   "price": 10.45,
-   "chg": -5.17,
-   "chg5": -9.21,
-   "sma20": 11.86,
-   "sma50": 10.85,
-   "sma200": 12.37,
-   "high3m": 13.62,
-   "reg": 10.45,
-   "pre": null,
-   "post": null,
-   "regClose": 10.45,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "MSFT": {
    "price": 495.63,
@@ -498,20 +306,8 @@
    "ok": true
   },
   "GOOGL": {
-   "price": 338.5,
-   "chg": 1.77,
-   "chg5": -1.16,
-   "sma20": 341.06,
-   "sma50": 347.18,
-   "sma200": 347.84,
-   "high3m": 377.65,
-   "reg": 338.5,
-   "pre": null,
-   "post": null,
-   "regClose": 338.5,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMZN": {
    "price": 256.78,
@@ -546,36 +342,12 @@
    "ok": true
   },
   "ORCL": {
-   "price": 150.28,
-   "chg": -1.74,
-   "chg5": -2.44,
-   "sma20": 149.38,
-   "sma50": 140.68,
-   "sma200": 161.51,
-   "high3m": 192.64,
-   "reg": 150.28,
-   "pre": null,
-   "post": null,
-   "regClose": 150.28,
-   "sess": "reg",
-   "mt": 1789157082,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "CRWV": {
-   "price": 88.99,
-   "chg": -0.15,
-   "chg5": 5.24,
-   "sma20": 90.04,
-   "sma50": 85.53,
-   "sma200": 95.93,
-   "high3m": 117.95,
-   "reg": 88.99,
-   "pre": null,
-   "post": null,
-   "regClose": 88.99,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NBIS": {
    "price": 224.55,
@@ -594,20 +366,8 @@
    "ok": true
   },
   "SPCX": {
-   "price": 151.21,
-   "chg": 2.04,
-   "chg5": 0.98,
-   "sma20": 142.99,
-   "sma50": 135.07,
-   "sma200": 142.21,
-   "high3m": 211.39,
-   "reg": 151.21,
-   "pre": null,
-   "post": null,
-   "regClose": 151.21,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BIZD": {
    "price": 13.05,
@@ -626,20 +386,8 @@
    "ok": true
   },
   "ARCC": {
-   "price": 19.74,
-   "chg": 0.3,
-   "chg5": -1.35,
-   "sma20": 19.86,
-   "sma50": 19.39,
-   "sma200": 18.88,
-   "high3m": 20.19,
-   "reg": 19.74,
-   "pre": null,
-   "post": null,
-   "regClose": 19.74,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "OBDC": {
    "price": 11.08,
@@ -674,20 +422,8 @@
    "ok": true
   },
   "BKLN": {
-   "price": 20.59,
-   "chg": -0.0,
-   "chg5": -0.0,
-   "sma20": 20.56,
-   "sma50": 20.49,
-   "sma200": 20.5,
-   "high3m": 20.61,
-   "reg": 20.59,
-   "pre": null,
-   "post": null,
-   "regClose": 20.59,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SRLN": {
    "price": 40.53,
@@ -706,36 +442,12 @@
    "ok": true
   },
   "JBBB": {
-   "price": 47.35,
-   "chg": -0.02,
-   "chg5": -0.2,
-   "sma20": 47.48,
-   "sma50": 47.43,
-   "sma200": 47.3,
-   "high3m": 47.75,
-   "reg": 47.35,
-   "pre": null,
-   "post": null,
-   "regClose": 47.35,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VIX": {
-   "price": 15.84,
-   "chg": -11.21,
-   "chg5": 9.02,
-   "sma20": 15.45,
-   "sma50": 16.12,
-   "sma200": 18.36,
-   "high3m": 20.66,
-   "reg": 15.84,
-   "pre": null,
-   "post": null,
-   "regClose": 15.84,
-   "sess": "reg",
-   "mt": 1789157701,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^VIX3M": {
    "price": 18.6,
@@ -754,20 +466,8 @@
    "ok": true
   },
   "^VVIX": {
-   "price": 91.28,
-   "chg": -11.09,
-   "chg5": 8.93,
-   "sma20": 88.76,
-   "sma50": 91.93,
-   "sma200": 97.44,
-   "high3m": 109.47,
-   "reg": 91.28,
-   "pre": null,
-   "post": null,
-   "regClose": 91.28,
-   "sess": "reg",
-   "mt": 1789157701,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^SKEW": {
    "price": 154.49,
@@ -786,20 +486,8 @@
    "ok": true
   },
   "^MOVE": {
-   "price": 82.21,
-   "chg": 0.14,
-   "chg5": 10.08,
-   "sma20": 74.6,
-   "sma50": 74.14,
-   "sma200": 76.01,
-   "high3m": 83.02,
-   "reg": 82.21,
-   "pre": null,
-   "post": null,
-   "regClose": 82.21,
-   "sess": "reg",
-   "mt": 1789158615,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "DX-Y.NYB": {
    "price": 99.09,
@@ -818,52 +506,16 @@
    "ok": true
   },
   "^IRX": {
-   "price": 3.91,
-   "chg": 1.77,
-   "chg5": 4.63,
-   "sma20": 3.74,
-   "sma50": 3.73,
-   "sma200": 3.66,
-   "high3m": 3.91,
-   "reg": 3.91,
-   "pre": null,
-   "post": null,
-   "regClose": 3.91,
-   "sess": "reg",
-   "mt": 1789153194,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "LQD": {
-   "price": 104.32,
-   "chg": -0.04,
-   "chg5": -1.12,
-   "sma20": 105.82,
-   "sma50": 106.47,
-   "sma200": 107.93,
-   "high3m": 109.7,
-   "reg": 104.32,
-   "pre": null,
-   "post": null,
-   "regClose": 104.32,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "SPY": {
-   "price": 764.29,
-   "chg": 0.85,
-   "chg5": -1.15,
-   "sma20": 766.88,
-   "sma50": 758.62,
-   "sma200": 730.64,
-   "high3m": 777.88,
-   "reg": 764.29,
-   "pre": null,
-   "post": null,
-   "regClose": 764.29,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "QQQ": {
    "price": 714.88,
@@ -882,20 +534,8 @@
    "ok": true
   },
   "^TNX": {
-   "price": 4.97,
-   "chg": 0.63,
-   "chg5": 4.47,
-   "sma20": 4.75,
-   "sma50": 4.67,
-   "sma200": 4.51,
-   "high3m": 4.97,
-   "reg": 4.97,
-   "pre": null,
-   "post": null,
-   "regClose": 4.97,
-   "sess": "reg",
-   "mt": 1789153194,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "^KS11": {
    "price": 6909.91,
@@ -930,52 +570,28 @@
    "ok": true
   },
   "GLD": {
-   "price": 398.77,
-   "chg": 0.61,
-   "chg5": -2.79,
-   "sma20": 409.43,
-   "sma50": 391.22,
-   "sma200": 406.56,
-   "high3m": 428.07,
-   "reg": 398.77,
-   "pre": null,
-   "post": null,
-   "regClose": 398.77,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "BTC-USD": {
-   "price": 77267.31,
-   "chg": 0.12,
-   "chg5": -2.34,
-   "sma20": 78587.58,
-   "sma50": 70908.88,
-   "sma200": 70236.0,
+   "price": 77278.47,
+   "chg": 0.14,
+   "chg5": -2.32,
+   "sma20": 78588.14,
+   "sma50": 70909.11,
+   "sma200": 70236.06,
    "high3m": 81271.74,
-   "reg": 77267.31,
+   "reg": 77278.47,
    "pre": null,
    "post": null,
-   "regClose": 77267.31,
+   "regClose": 77278.47,
    "sess": "reg",
-   "mt": 1789219288,
+   "mt": 1789219909,
    "ok": true
   },
   "USO": {
-   "price": 154.9,
-   "chg": -2.2,
-   "chg5": 9.02,
-   "sma20": 137.11,
-   "sma50": 127.62,
-   "sma200": 128.17,
-   "high3m": 158.38,
-   "reg": 154.9,
-   "pre": null,
-   "post": null,
-   "regClose": 154.9,
-   "sess": "reg",
-   "mt": 1789156800,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "JPY=X": {
    "price": 153.55,
@@ -994,20 +610,8 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7659.5,
-   "chg": 0.8,
-   "chg5": -1.23,
-   "sma20": 7698.2,
-   "sma50": 7634.23,
-   "sma200": 7355.84,
-   "high3m": 7822.5,
-   "reg": 7659.5,
-   "pre": null,
-   "post": null,
-   "regClose": 7659.5,
-   "sess": "24h",
-   "mt": 1789160399,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "NQ=F": {
    "price": 29387.0,
@@ -1026,20 +630,8 @@
    "ok": true
   },
   "YM=F": {
-   "price": 52576.0,
-   "chg": 0.92,
-   "chg5": -2.18,
-   "sma20": 53232.85,
-   "sma50": 53108.3,
-   "sma200": 50879.81,
-   "high3m": 54494.0,
-   "reg": 52576.0,
-   "pre": null,
-   "post": null,
-   "regClose": 52585.0,
-   "sess": "24h",
-   "mt": 1789160397,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "GC=F": {
    "price": 4408.9,
@@ -1058,20 +650,8 @@
    "ok": true
   },
   "CL=F": {
-   "price": 100.05,
-   "chg": -2.37,
-   "chg5": 9.58,
-   "sma20": 88.52,
-   "sma50": 83.23,
-   "sma200": 89.14,
-   "high3m": 102.48,
-   "reg": 100.05,
-   "pre": null,
-   "post": null,
-   "regClose": 100.05,
-   "sess": "24h",
-   "mt": 1789160399,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "HG=F": {
    "price": 6.55,
@@ -1090,20 +670,8 @@
    "ok": true
   },
   "ZN=F": {
-   "price": 106.17,
-   "chg": -0.18,
-   "chg5": -1.62,
-   "sma20": 108.03,
-   "sma50": 108.49,
-   "sma200": 109.66,
-   "high3m": 110.27,
-   "reg": 106.17,
-   "pre": null,
-   "post": null,
-   "regClose": 106.36,
-   "sess": "24h",
-   "mt": 1789160400,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "EWY": {
    "price": 188.72,
@@ -1175,14 +743,6 @@
   ],
   "fundamental": [
    {
-    "title": "Prediction: This Tech Giant Could Be Worth Twice as Much by 2030 - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV19aMWpTWi1VdEYzTVczdnZTZWd1YjZOei1nSExPcEF0dlMyRXpzSjJxdFRKczJOREN3ZVBsUEVLU2JDRjZnLU1aRHcyVWk2QlVXNGNWVGVrMk9NdkIxb1VLV2tJV1puTjRac3ZCc2EtRUtFdlE5SHJnTUZHM0dxYncyQy1jclpCLTlOYnVGdVFxeWg5Ykl0WjgtSVFVXzlPd0ktRVZOSFN3S2s?oc=5",
-    "pub": "Sat, 12 Sep 2026 13:00:00 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Anthropic report: 5 ways Claude was exploited for war, spying and repression - Axios",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPN3UtUzlPZk9tWHZsV21qVFBnN1Y1dlhrM25jZl9sMmdPcWRMd1RTT2ctYzJ6NTl3MmVfWElNclhRYXVOWG02ZDdzVzJLZXBXbHNBclY1Vkt4ckJYVjVuTnNWRDdGMEt5dVdaa254U0FfX2M0LWJ5T2Jkd1dBWHhWN3piVQ?oc=5",
     "pub": "Sat, 12 Sep 2026 12:40:47 GMT",
@@ -1221,6 +781,14 @@
     "src": "Florida Today",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "SpaceX IPO Pricing At $135 Per Share Will Value The Rocket Maker At $1.77 Trillion — Musk To Keep Ironclad Control - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1AtcFRjWWZXS0xVT1gwYlBwT0psS08xdzNsUklqaEVvR3NrcTE1OVMtQlVvWjRMVXRTd2tIUXFTZG5QenhSS1FvcWtoUFlQbjhCSDZpeWluY0VJdXBPaXZxRjlvYU5pTkxqVG1heEZmSjdjSUNIUXRvcGFvNXVSUW1mYmVzR2d3ZVpwS0RJTDRUcWZLcUNFdlc2YmF4MlpDcXBIV1Z2NVNSZlUwdzJMbUFldzRia19IbEs4UGdsZmJEV3FMdTZVQS1STVZMNVZUMWtRRXlnY08?oc=5",
+    "pub": "Sat, 12 Sep 2026 07:57:12 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1237,6 +805,14 @@
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE56dlhoUmFzYjFwamxKSGZpZEltZ3laVUJZdmNNYUJCQUR6RE5Gc3p4NF81bldSbGhoM0Z4SFM2UW1oWUFnc2pEV29Fb2xnaUF3WUViektRUHUzT3NvZ0paNEdYWjlXNUJtZy00?oc=5",
     "pub": "Sat, 12 Sep 2026 10:30:29 GMT",
     "src": "CNN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "EU gasoline prices up 24%, diesel up 33% since Middle East war began - Anadolu Ajansı",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGpZcnlMZW52emotRGs1a2FNME9LcHVEa3ZzM3hGYS1kOTFublkyWDFIblcwZUtxQllSbjhORmJId2hpd3BBbEdKaDY5VHlhQ21WZ2JybnU4UHVKNFY1REcxNS04c3VqUGcwZHYwb210QVUzejVWN1N2V0lOUy1kX1E2VC0xbDc4OFNJekkyREw1VlJzUy01SkZzQkJlZjI1WFV1UFBWc2FKQ1XSAbMBQVVfeXFMUEVGT3N3VV91aVdPWDhndmZuZXcxZXVXeE5DU2V1SlpQVTlIeHI4RW94TkJIZHRoT1pudGJlSmRnNS1ZaW1abGJnSUFMbl9wMlZaY3pDWE1jd2lRdndkOURsbHgzY1NkQWtBcGFxY041ckpsZThrVnJZX3dobUZRSGZiZHY1b0RYZkZxZGFGZkFITHpZYzRaSXNYY2R2NFV3Ml81RDdhRGMwTjF5REVCWDdFSWs?oc=5",
+    "pub": "Sat, 12 Sep 2026 08:39:45 GMT",
+    "src": "Anadolu Ajansı",
     "trig": false,
     "geo": false
    },
@@ -1263,17 +839,17 @@
     "src": "Stocktwits",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Fed Rate Hike Odds Jump to 87% as FOMC Meeting Nears - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNaUQyYnFLbTBELVp1LVcwTTlGeFVtMElWY25Ed0plWF8tU2JueXp5NEFjdnZpMnZsM2g5VlY3d0dtTllPWFJGa1dEeUVMWi0tSGQzWC1CRmo4djhfbkxyRXZoNk5LTkZqQlVqWm1mY3R2UVJDWFhTcG1BempJdkRSMkVWbFJLXzBDcTVhd0hZQlQ1OEp1eHZ5Y2M5TjVHN1hvZEp2VmRXXzF1enVsTUlLZQ?oc=5",
-    "pub": "Sat, 12 Sep 2026 06:24:49 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Trump sees Iran war ending soon after mid-term elections, predicts oil prices will then fall sharply - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnNmT0R6dktjR19lNm1jYUVSaTk5dmJTTWhsZXNoeVFwT2haX0JRZFBhT3lXUTA2V3Myem1NTEEwQ2RNRGZMcVdnaTYxZzlySVJyaW82Mm1TcmRjQmRJSmc0ZXV5V3V6TE90RjlVc3JPS1hMdG95dS05R1lMNFV3OWc5bmtPQlJzTkhod3lBRnFLZklfeVlJSXpKVkMzd9IBowFBVV95cUxPU3BrdUFqUUl0UkctWHNVOXFjcUZFWkZaYlFXWlJTNGJrQWpjMTNERXdxX09Oa0IxQmVqTzZsSDdkZl9MQS1JaTlsa1prbWdxNkZ4aGhZOEZjeExHd0Vjc095QXBXaWpuRjZSZV8xaGZpUFpKSklQM3dESXVOSGtYNWs4NFQzR1doRmtzaXFjcEtqbHVkS3A3VWIyZlZsenVZTXFB?oc=5",
+    "pub": "Sat, 12 Sep 2026 13:02:15 GMT",
+    "src": "CNBC",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil's roundtrip back to $100. Why China could determine what happens next - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOa0xDNl91YjR4WVVvTXU5UlVvMnVQWUs0SDVCRFZFV0VxWVJzLVdsTWZuN1RiSjkxamJwdUkyVUdzZndiTXlITFdQWEVrSzJmSjN1bkczVjhhRktQSHR1UlMzMUtRalJZbmtLbDAtX0FJb1Ntb213dXFxeHMtVXh0NG5sd2ctUVdMWUJDQmF4R1U4V0hQZXQ0WVJDbVBWZDItbXAwbGxiWVFFSGs?oc=5",
@@ -1311,14 +887,6 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOOUZ4bkVtVzU3RHp3cUhQaEc1Znk1b0lLUHJyTTk3ekZwOEQ5WE1wRmp4ZVBaSlNUNEh0UURaRmRLQ0Zia2lKQXFvS1lkN3R6a1dzQU52ZkRjRktKTmZQbERvOHhqQW5Xb2JMZFF4aklZcERwTHZTbjRUUUQzelZsdEtRYjNoVnROeG1mQVluQ2JlVWRmQ19ZNGZQRkN5LVpHRmE5aFZPWmtDMHFGSVFURVQtQmk2LVNlbW9VcjNwakp5R1JQZ0JieUJWdkFlZE5UdHZkT2930gHbAUFVX3lxTE1rMFp5ckJDSERTaFNxLUgzMUJ1X1poS1MwTjhJOVBYVk9hTEgzM2pSUGZzSnhOb0M4WjcwY3BxanNua2xIVVVSbHVLV2dxbFIycDQzTWJLZDVKbDMtdVlaME0tbXFGdl82My1ZZmlIWERSYUVQWHI3SmE0Vjk3eGhFSy1qLXVJWVFUS0YxOURFNkZ0c2xPMlN3Z1JVd0ZUS21Fb2J6WDhxcVZZT3Jjc1NjdGhWdU5yRzZVajQzR3JQLTIzU3ZUNWwzSW5WNlN3VEtGN2ZMTldmdkwwUQ?oc=5",
     "pub": "Sat, 12 Sep 2026 04:07:30 GMT",
     "src": "simplywall.st",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Is the yen carry trade starting to unravel as Japan’s currency strengthens? - South China Morning Post",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWVJiZ2xVck4zTUh0dngyeDd4LUZVNE1TaXJOWTFaZlptM2dYcE5ENVZicHdqUXI0aTZWS1VnUzdCaV8zNVd1YUQ4UU9TVlI1UEF2MkY3cmFqT09LUG9INy1TOHp3RzExSDNYZjlJcUhhaG1SWjdWcDZzOFRhSklsdEduMnpzMi1EU3BGNkV5ank5dEgxdXVZWWQ5RkFpNGwzWm1fVHp3eEZXbjNZUVY4UjAtY1hMRGV4SG5IX9IBvAFBVV95cUxPTTFWRWFvY0JsSVNwaVNOY240bW51TVNab29ua2RjaXhLbmY4cS1tdzR3SHAyajZOX1o5QVU1MFo0SWlNYTVjOEFRR0h0eHU5Q3VHYm5xbkdHeG5odzhYbXZ2cHVhOWcyRFZSQTdHZDRKdE9YUHAxSnAtV0JHY0dMUE10b3F0NnQtQTZyWEVPZWFEd0hxblhDUjJ6bzFvRG1lRjh3eUxWWFJkWTJSYlRKNjZMVnkzbHkwRmVLVg?oc=5",
-    "pub": "Sat, 12 Sep 2026 04:00:12 GMT",
-    "src": "South China Morning Post",
     "trig": false,
     "geo": false
    }
@@ -1522,36 +1090,8 @@
    13.36,
    13.05
   ],
-  "move": [
-   69.36,
-   65.39,
-   66.79,
-   65.76,
-   77.77,
-   72.66,
-   77.21,
-   83.02,
-   72.03,
-   69.58,
-   73.4,
-   70.97,
-   82.21
-  ],
-  "jpy": [
-   160.53,
-   160.6,
-   161.76,
-   162.54,
-   162.54,
-   162.38,
-   163.83,
-   160.18,
-   158.41,
-   159.22,
-   158.9,
-   160.12,
-   153.55
-  ],
+  "move": null,
+  "jpy": null,
   "uso": [
    125.43,
    114.87,
@@ -1567,66 +1107,10 @@
    129.7,
    154.9
   ],
-  "cper": [
-   39.55,
-   38.86,
-   37.33,
-   37.84,
-   37.94,
-   38.42,
-   38.77,
-   39.56,
-   39.9,
-   40.01,
-   39.99,
-   39.67,
-   39.18
-  ],
-  "gld": [
-   386.54,
-   387.12,
-   373.63,
-   382.13,
-   367.13,
-   367.6,
-   374.63,
-   371.54,
-   398.47,
-   401.48,
-   423.36,
-   408.89,
-   398.77
-  ],
-  "btc": [
-   63543.2,
-   63540.84,
-   60016.43,
-   62544.2,
-   64127.14,
-   63899.46,
-   64098.5,
-   62763.32,
-   64904.69,
-   63024.32,
-   77083.41,
-   78245.81,
-   77265.52
-  ],
-  "vixts": [
-   0.948,
-   0.847,
-   0.893,
-   0.788,
-   0.842,
-   0.926,
-   0.983,
-   0.828,
-   0.823,
-   0.781,
-   0.854,
-   0.773,
-   0.771
-  ],
+  "cper": null,
+  "gld": null,
+  "btc": null,
+  "vixts": null,
   "hyoas": [
    3.46,
    2.94,
@@ -1687,36 +1171,8 @@
    8.59,
    9.15
   ],
-  "rsp_spy": [
-   0.2853,
-   0.2812,
-   0.2885,
-   0.2862,
-   0.286,
-   0.2862,
-   0.2911,
-   0.2878,
-   0.2846,
-   0.2869,
-   0.2895,
-   0.2869,
-   0.2811
-  ],
-  "xlf_spy": [
-   0.0719,
-   0.0717,
-   0.0735,
-   0.0747,
-   0.0748,
-   0.0755,
-   0.077,
-   0.0762,
-   0.0745,
-   0.0749,
-   0.0751,
-   0.0755,
-   0.0749
-  ],
+  "rsp_spy": null,
+  "xlf_spy": null,
   "cape": [
    41.09,
    41.09,
@@ -1729,21 +1185,20 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 에너지 가격이 급등하는 가운데 미10년물 4.97%에서 안정적이며, VIX 16 수준의 낮은 변동성과 HY스프레드 2.70%는 신용시장이 아직 리스크를 경시하고 있음을 시사한다. 오라클 등 대형 기술기업의 대규모 AI 캡엑스 계획이 GPU·HBM 수급 긴장을 지속시키고 있으며, 화웨이 고성능 칩 출시로 인한 HBM 가격 상승이 공급망 경쟁을 심화시키는 중이다.",
+  "text": "달러 강세(DXY 99.1)와 중동 지정학 긴장이 에너지 가격과 신용스프레드(2.70%)를 압박하면서 경기 민감도 높은 자산의 조정 압력이 지속되는 중입니다. AI 캡엑스는 마이크로소프트 같은 주요 플레이어의 성장 견인으로 견고하나, GPU/HBM 수급 이슈나 공급망 병목은 아직 뚜렷한 신호가 없습니다.",
   "by": "claude",
   "_fp": {
-   "vix": 16,
-   "tnx": 5.0,
+   "vix": null,
+   "tnx": null,
    "dxy": 99.0,
-   "spy": 1.0,
+   "spy": null,
    "hyoas": 2.8000000000000003,
    "nfci": -0.6000000000000001,
    "trig": 0,
    "geo": 0,
    "capex": 5,
    "news": 15
-  },
-  "_cached": true
+  }
  },
  "early": {
   "score": 1.5,
@@ -1754,15 +1209,22 @@
    "SKEW 급등",
    "CCC-BB 확대(품질분산)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
    "total": 20,
-   "ok": 20,
-   "missing": []
+   "ok": 12,
+   "missing": [
+    "ES=F",
+    "GLD",
+    "SPY",
+    "MOVE",
+    "VIX",
+    "VVIX",
+    "차트:rsp_spy",
+    "차트:xlf_spy"
+   ]
   }
  },
  "history": [
@@ -2419,22 +1881,34 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
-  "core_dead": []
+  "fail": 36,
+  "failed": [
+   "AVGO",
+   "AMD",
+   "TSM",
+   "MU",
+   "SNDK",
+   "STX",
+   "005930.KS",
+   "ANET",
+   "CRDO",
+   "CIEN",
+   "VST",
+   "CEG"
+  ],
+  "core_dead": [
+   "^VIX",
+   "SPY"
+  ]
  },
  "breadth": {
-  "pct50": 57,
-  "n": 35
+  "pct50": 65,
+  "n": 17
  },
  "ipo_watch": {
-  "checked": "2026-09-12T13:21:46+00:00",
-  "openai": {
-   "found": false
-  },
-  "anthropic": {
-   "found": false
-  }
+  "checked": "2026-09-12T13:32:12+00:00",
+  "openai": null,
+  "anthropic": null
  },
  "fragility": {
   "margin_mn": 1417225,

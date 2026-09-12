@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T18:51:59+00:00",
+ "updated": "2026-09-12T19:12:18+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77159.19,
-   "chg": -0.02,
-   "chg5": -2.47,
-   "sma20": 78582.18,
-   "sma50": 70906.72,
-   "sma200": 70235.41,
+   "price": 77115.79,
+   "chg": -0.08,
+   "chg5": -2.53,
+   "sma20": 78580.01,
+   "sma50": 70905.85,
+   "sma200": 70235.18,
    "high3m": 81271.74,
-   "reg": 77159.19,
+   "reg": 77115.79,
    "pre": null,
    "post": null,
-   "regClose": 77159.19,
+   "regClose": 77115.79,
    "sess": "reg",
-   "mt": 1789239085,
+   "mt": 1789240297,
    "ok": true
   },
   "USO": {
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "O3b mPOWER Mission - spacex.com",
+    "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 16:37:41 GMT",
-    "src": "spacex.com",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Fed rate cut, retail sales and jobs data: What to watch - ca.finance.yahoo.com",
+    "title": "Fed rate cut, retail sales and jobs data: What to watch - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcGNvdXkxUndNYUFZZ1NoTzhiZEZ3OUJNdTAwbWNOdlh4QUNSZUx4SXhCSU4xdE1fZGtWWnFzeHR6T1M3SExsX2ZTVXcyY0l3VmtPRkx2dFU3RG9aeFNfV2F3dFdVMmFSaHR3cWRVVUFueXQ2VmlmSW5GTzFXaEh3WHVqVlIyLUFGdzFvUC1CeTU2Vmg5WjZlTWxIZEVYVXJhZjY1eUdB?oc=5",
     "pub": "Sat, 12 Sep 2026 12:00:00 GMT",
-    "src": "ca.finance.yahoo.com",
+    "src": "Yahoo! Finance Canada",
     "trig": true,
     "geo": false
    }
@@ -1283,10 +1283,10 @@
     "geo": false
    },
    {
-    "title": "Copper Price September 14 2026 - Robinhood",
+    "title": "Copper Price September 14 2026 - robinhood.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbklpTHF1UUFldFJqdEFMWUpCWEh6MlV0dXpjZ0FQNTJ4Rmo0MVdBWjJoTDdmcVBWbUU1M19xRmhUckpzLTMyNm0tNFJfNWhZRXE3eGlJaTdtVVYxeldKbFdFWUJrWndNdlBwakIwZFNQTkxLWndicjFRTFBOZklsQUNpLVQ3REVOX3VUaWJfM3psbDBSd0FaX1lUSE1WeFJ1T3VyQlJoOA?oc=5",
     "pub": "Sat, 12 Sep 2026 15:09:57 GMT",
-    "src": "Robinhood",
+    "src": "robinhood.com",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77159.2
+   77135.08
   ],
   "vixts": [
    0.948,
@@ -2197,10 +2197,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-10T19",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-10T20",
     "v": 2.73
    },
@@ -2387,6 +2383,10 @@
    {
     "d": "2026-09-12T18",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-12T19",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2428,11 +2428,9 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T18:51:45+00:00",
+  "checked": "2026-09-12T19:12:03+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
    "found": false

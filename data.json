@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T13:42:05+00:00",
+ "updated": "2026-09-12T13:52:35+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77282.53,
-   "chg": 0.14,
-   "chg5": -2.32,
-   "sma20": 78588.34,
-   "sma50": 70909.19,
-   "sma200": 70236.08,
+   "price": 77286.77,
+   "chg": 0.15,
+   "chg5": -2.31,
+   "sma20": 78588.56,
+   "sma50": 70909.27,
+   "sma200": 70236.1,
    "high3m": 81271.74,
-   "reg": 77282.53,
+   "reg": 77286.77,
    "pre": null,
    "post": null,
-   "regClose": 77282.53,
+   "regClose": 77286.77,
    "sess": "reg",
-   "mt": 1789220485,
+   "mt": 1789221094,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,18 @@
   ],
   "fundamental": [
    {
-    "title": "O3b mPOWER Mission - SpaceX",
+    "title": "O3b mPOWER Mission - spacex.com",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 13:35:02 GMT",
-    "src": "SpaceX",
+    "src": "spacex.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Prediction: This Tech Giant Could Be Worth Twice as Much by 2030 - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQV19aMWpTWi1VdEYzTVczdnZTZWd1YjZOei1nSExPcEF0dlMyRXpzSjJxdFRKczJOREN3ZVBsUEVLU2JDRjZnLU1aRHcyVWk2QlVXNGNWVGVrMk9NdkIxb1VLV2tJV1puTjRac3ZCc2EtRUtFdlE5SHJnTUZHM0dxYncyQy1jclpCLTlOYnVGdVFxeWg5Ykl0WjgtSVFVXzlPd0ktRVZOSFN3S2s?oc=5",
+    "pub": "Sat, 12 Sep 2026 13:00:00 GMT",
+    "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
    },
@@ -1213,22 +1221,14 @@
     "src": "Florida Today",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceX IPO Pricing At $135 Per Share Will Value The Rocket Maker At $1.77 Trillion — Musk To Keep Ironclad Control - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1AtcFRjWWZXS0xVT1gwYlBwT0psS08xdzNsUklqaEVvR3NrcTE1OVMtQlVvWjRMVXRTd2tIUXFTZG5QenhSS1FvcWtoUFlQbjhCSDZpeWluY0VJdXBPaXZxRjlvYU5pTkxqVG1heEZmSjdjSUNIUXRvcGFvNXVSUW1mYmVzR2d3ZVpwS0RJTDRUcWZLcUNFdlc2YmF4MlpDcXBIV1Z2NVNSZlUwdzJMbUFldzRia19IbEs4UGdsZmJEV3FMdTZVQS1STVZMNVZUMWtRRXlnY08?oc=5",
-    "pub": "Sat, 12 Sep 2026 07:57:12 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Fed rate cut, retail sales and jobs data: What to watch - Yahoo! Finance Canada",
+    "title": "Fed rate cut, retail sales and jobs data: What to watch - ca.finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcGNvdXkxUndNYUFZZ1NoTzhiZEZ3OUJNdTAwbWNOdlh4QUNSZUx4SXhCSU4xdE1fZGtWWnFzeHR6T1M3SExsX2ZTVXcyY0l3VmtPRkx2dFU3RG9aeFNfV2F3dFdVMmFSaHR3cWRVVUFueXQ2VmlmSW5GTzFXaEh3WHVqVlIyLUFGdzFvUC1CeTU2Vmg5WjZlTWxIZEVYVXJhZjY1eUdB?oc=5",
     "pub": "Sat, 12 Sep 2026 12:00:00 GMT",
-    "src": "Yahoo! Finance Canada",
+    "src": "ca.finance.yahoo.com",
     "trig": true,
     "geo": false
    },
@@ -1307,10 +1307,10 @@
     "geo": false
    },
    {
-    "title": "Gold vs Silver: Why Is Yellow Metal More Expensive Than Silver? Check Out Price Difference For 12 September - Jagran Josh",
+    "title": "Gold vs Silver: Why Is Yellow Metal More Expensive Than Silver? Check Out Price Difference For 12 September - jagranjosh.com",
     "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxNN2U1UGNoRW41RGZ4LWZka3M5cmFYUm9ZUWFFOVc0QUZ2WkU1YmxCUkUzaWZCOGRzU1NfM29Wd0N1ZVVDcnN6WmZ5djBDbUpuQkxNaG1aNmZ6WGdUdHQybVVzLXRTUUUtSm10ak9KYWwtNWV3SGt6YjZ2WnFNOUc0MG04Tlp3MVdmQzR2UFVoVUVqSWVreV9Fa1YwQTVraWktSXU3YnVqdEVUaW8zenJQeWRmNVZIVzJ1R2ZwX0tjX25aMTdvT0U0U0x4VDJFNTRza2pVa211Ri1tOUhJT0hrX2pPNHNJOVJ4Vmx2aEJpVGJWRGUwTHMwMXlycUFsSUNXU0tSUFh30gGGAkFVX3lxTE03ZTVQY2hFbjVEZngtZmRrczlyYVhSb1lRYUU5VzRBRnZaRTVibEJSRTNpZkI4ZHNTU18zb1Z3Q3VlVUNyc3paZnl2MENtSm5CTE1obVo2ZnpYZ1R0dDJtVXMtdFNRRS1KbXRqT0phbC01ZXdIa3piNnZacU05RzQwbThOWncxV2ZDNHZQVWhVRWpJZWt5X0VrVjBBNWtpaS1JdTdidWp0RVRpbzN6clB5ZGY1VkhXMnVHZnBfS2NfbloxN29PRTRTTHhUMkU1NHNralVrbXVGLW05SElPSGtfak80c0k5UnhWbHZoQmlUYlZEZTBMczAxeXJxQWxJQ1dTS1JQWHc?oc=5",
     "pub": "Sat, 12 Sep 2026 05:09:30 GMT",
-    "src": "Jagran Josh",
+    "src": "jagranjosh.com",
     "trig": false,
     "geo": false
    },
@@ -1421,12 +1421,7 @@
    "prev": 3.63,
    "chg": 0.0
   },
-  "realrate": {
-   "date": "2026-09-10",
-   "value": 2.55,
-   "prev": 2.46,
-   "chg": 0.09
-  },
+  "realrate": null,
   "sofr_iorb": -3.0,
   "cape": 41.09,
   "cape_manual": false,
@@ -1610,7 +1605,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77282.53
+   77303.76
   ],
   "vixts": [
    0.948,
@@ -1742,7 +1737,8 @@
    "geo": 0,
    "capex": 5,
    "news": 15
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2427,9 +2423,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T13:41:50+00:00",
+  "checked": "2026-09-12T13:52:22+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

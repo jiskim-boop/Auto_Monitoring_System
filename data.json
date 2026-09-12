@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T15:22:05+00:00",
+ "updated": "2026-09-12T15:32:22+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77422.02,
-   "chg": 0.32,
-   "chg5": -2.14,
-   "sma20": 78595.32,
-   "sma50": 70911.98,
-   "sma200": 70236.83,
+   "price": 77433.87,
+   "chg": 0.34,
+   "chg5": -2.13,
+   "sma20": 78595.91,
+   "sma50": 70912.22,
+   "sma200": 70236.9,
    "high3m": 81271.74,
-   "reg": 77422.02,
+   "reg": 77433.87,
    "pre": null,
    "post": null,
-   "regClose": 77422.02,
+   "regClose": 77433.87,
    "sess": "reg",
-   "mt": 1789226489,
+   "mt": 1789227111,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Here's who stands to make money from the Anthropic IPO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeVpmU0JnRFZzaXNNSXlMZzQtVkwyNHB6dzc0bldFRldIRFpYdGRVNm1zRTFhWUVRNkZmR3ZJcnVTc1RLS0k5dHpmaEdYZ0tWTHFPUkhnMzdJb014a1paR1NBalljbE1vOUNMTlhhc0hXQ2J5Yms5NmVVZm1XS0NlV1BWYmo4X3BSMmh0R3ZzVk53UTVQbHlSX21La0ZOd0NMVmNvYV9kZ3lNQVk0a2tj?oc=5",
+    "pub": "Sat, 12 Sep 2026 15:16:19 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nvidia May Invest Up to $10 Billion in Anthropic’s $2.3 Trillion IPO - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPYm9tZGNJR09GZXBLeDhSZV85aEdoWVFrTUYxaUxtRjJhUkNnbzl2NlpMNERKbExFZVFMQ25xdV9ud3ROeGJkMHV4UlF2LVdfdHNoRlhtZHVyZHp3Sjg5dW54SlFyZkRmZkRZNEZGZXdHUHdWQUpWRHZaczJFREkydHRkOUFLcTUwNjhwby1nX2JLTzN4TUhpVw?oc=5",
     "pub": "Sat, 12 Sep 2026 14:23:37 GMT",
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd2YtTFNwOWM2UG1meFQxZnhGMDRMWmF3UEpiWHAzd2ZoaGJKRzdqOC1KSEtqNlQ0c0Y5MEpuWUlOWlZOMHMyOUlvdkliSk9qWV9pRkVpaTU4V29SUXhyYnd3dm9fX0RkRl8ydV9aZk9YeEZlNlN1NE4wSzVYUlJ0MFRzYWNFOFJWWWxrVXNUaVRweW5VSWMtaUNsLUVCZ0JlQmdjZVN2VUk1X3pkaUtlMDgtaVVaWlFxd2JkbFBCQk9fWjNGM1pPX3FRVF9peGpNVkE?oc=5",
     "pub": "Sat, 12 Sep 2026 12:05:36 GMT",
     "src": "ad-hoc-news.de",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia Could Make Anthropic IPO Bigger than SpaceX With $10 Billion - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQV2l4VEx2TzVsTGRJbkRNUUdXVGVTVjY0M2FWSTc4LTRkSUhhd0tTZkZodzVaR1BpRlViOGdFMDdEVzV5RkZmdHFUN2poTXdvQWNoV3V2UDFrRjVmbkszV0lNdE5PWlBSODlJQ3FVanRsNXJFbUpvaWQtRGQ0NE9BUUt0Mmljei1mR3Q3VHlMczBEcENKZjNJSDlqa2ZwNVE?oc=5",
-    "pub": "Sat, 12 Sep 2026 12:02:59 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77418.87
+   77433.87
   ],
   "vixts": [
    0.948,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T15:21:51+00:00",
+  "checked": "2026-09-12T15:32:09+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

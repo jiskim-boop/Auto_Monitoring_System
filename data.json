@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T21:12:09+00:00",
+ "updated": "2026-09-12T21:22:30+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77216.22,
-   "chg": 0.05,
-   "chg5": -2.4,
-   "sma20": 78585.03,
-   "sma50": 70907.86,
-   "sma200": 70235.72,
+   "price": 77156.28,
+   "chg": -0.02,
+   "chg5": -2.48,
+   "sma20": 78582.03,
+   "sma50": 70906.66,
+   "sma200": 70235.4,
    "high3m": 81271.74,
-   "reg": 77216.22,
+   "reg": 77156.28,
    "pre": null,
    "post": null,
-   "regClose": 77216.22,
+   "regClose": 77156.28,
    "sess": "reg",
-   "mt": 1789247494,
+   "mt": 1789248091,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI IPO won't happen this year, says Sam Altman - CoinDesk",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPZ1NGNkZiUV9EM25CcFl5RnNkR280OXA4djJLNElPUl82ZU9qTk9ZVEFzZkRQY2hGNTlSbGRrcERhTFRjYWl2MC1YdUg2X2ZxV05pSU5kWW5Rai1pX2NfSkZpQ2M1TmxNLU5Cc1VtUmFKT3ZOenU3VkFkdm9hMUJ1RGhoUmE0QkJQN3d0RTdPSWhxdUNJMmktLQ?oc=5",
+    "pub": "Sat, 12 Sep 2026 21:09:31 GMT",
+    "src": "CoinDesk",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Sam Altman says OpenAI IPO won't happen in 2026, cites safety concerns - qz.com",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9waVhtd0t2aElMREtYc3dCeHBKbFZ6bUZlQTk0TDA1dDlaTDRudzFUWUhRckdpSW5YVnV2RjdDSGVEMm9YZ2I0dElhS0pMdklVWDd4d0h2eGVFR1ZURWdSLXYyNzE5ZTNKTU9HaVRB?oc=5",
     "pub": "Sat, 12 Sep 2026 20:49:18 GMT",
@@ -1183,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says - reuters.com",
+    "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSkNHUFFrUlZCVWVKZ2dpVVkxSzBmcy16aFFHVTJDV25PZ0YzMjBLVlFQZ0pJcU5EVWJlUW13azNiV1BwOENLcTFVOFpZYVVlT0haaXI2ZkFaOUZxTGp2eE1kaGZCb2pXV1dBQy1XcjQ2NmNXMFA3Nnk5ZnA3MU5wWGZCV0ktTWZad2o0LVBmeW1BclBndWRfWEJScFduQklEZUFEX0NteFBhNDYxRG5keUdiUml3dVYz?oc=5",
     "pub": "Sat, 12 Sep 2026 20:46:43 GMT",
-    "src": "reuters.com",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNVDYteTJ4VHRtbkNDNEhiVHFralh2cTZ2TUZIQ0E4aVNmcEctV1dxQjVuSmxLZGdrelcweXNvSEphQ1l0bmkzSjdzZC1NeGkwSE5JNmpRY21pVG5reDhwaklRVnFXY2VoYmJuRHBfc2lXVWIwTnVycTBVNFZzdnRjRFFnY2dMb1NSaktMNkdraEVlWlJKYmY3cms3VXVTSzJqa256Q0dn?oc=5",
     "pub": "Sat, 12 Sep 2026 20:19:16 GMT",
     "src": "TechCrunch",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI delaying IPO amid AI safety concerns, Sam Altman says - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPb29LUUQ4aXFETXNZcElGd0l4aW9NOElzVWo0R3ZTSVpfbm5oc0hpS0xON1BwZkRHWlFLaTVNNFo0UTV1SXdIdnk2dTl4UVJEeV80R2tlWHpVbFpfTXk5cUdIam54YlkzczcySUJQbWdHSlgtZVNzOGI2emRTTjNScnd1UUVUcm1XZFRjbENwMENlVWEzWFE?oc=5",
-    "pub": "Sat, 12 Sep 2026 19:50:44 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1435,31 +1435,7 @@
    "chg4w": 61.6,
    "asof": "2026-09-09"
   },
-  "gm2": {
-   "value": 42.12,
-   "series": [
-    42.11,
-    41.97,
-    41.8,
-    42.03,
-    41.94,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12
-   ],
-   "chg13w": 0.51,
-   "us_chg13w": 1.63,
-   "eu_chg13w": 0.81,
-   "us_t": 23.21,
-   "eu_t": 18.92,
-   "asof": "2026-08-03",
-   "eu_asof": "2026-07-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1610,7 +1586,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77216.22
+   77156.28
   ],
   "vixts": [
    0.948,
@@ -1742,7 +1718,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2427,7 +2404,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T21:11:52+00:00",
+  "checked": "2026-09-12T21:22:16+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

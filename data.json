@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T04:42:03+00:00",
+ "updated": "2026-09-12T04:52:01+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77276.99,
-   "chg": 0.93,
-   "chg5": -3.82,
-   "sma20": 78617.14,
-   "sma50": 70647.57,
-   "sma200": 70198.35,
+   "price": 77250.77,
+   "chg": 0.89,
+   "chg5": -3.86,
+   "sma20": 78615.83,
+   "sma50": 70647.05,
+   "sma200": 70198.2,
    "high3m": 81271.74,
-   "reg": 77276.99,
+   "reg": 77250.77,
    "pre": null,
    "post": null,
-   "regClose": 77276.99,
+   "regClose": 77250.77,
    "sess": "reg",
-   "mt": 1789188090,
+   "mt": 1789188693,
    "ok": true
   },
   "USO": {
@@ -1233,6 +1233,14 @@
     "geo": false
    },
    {
+    "title": "Fed Rate Hike Nears Certainty After Hotter Inflation Report - DeFi Rate",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBSRGV0OEpXSDF3V0VMbEZQVW54SDRPa2dJYTdmc0FMeFJQWnFaNnNLcS0ybHdIZGpSUFhuQ1dzQUhDWFZUZGEyV0lKNUN5bzZEMl9rNHhDUFp6V3lqNEhIeVFPMGNOdVJTTGhUcDQ4QVVSZnU1?oc=5",
+    "pub": "Sat, 12 Sep 2026 02:17:00 GMT",
+    "src": "DeFi Rate",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Elevated Inflation Keeps Pressure on Fed to Raise Rates - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPak4wQ1JYNHFfS3Y1cGl2dldRYVJPb2h1VUsxb3lhc2tUekdDOWJRVHJEcGNDOVdxdEdpTmlrNVV1VFF6UjhkMElTLUF5c25aNERWbDFRME5CaFBka2NJMG4yNGZyek84dElkbjZ3cXQwX2laZFNEVndNV291ODhGRzM1WQ?oc=5",
     "pub": "Sat, 12 Sep 2026 01:25:46 GMT",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPMWVvcm9Wd1lzb2hKWlhRMmVTeXhHbXRGd1AxLXFYbmg2UTVKVWUtTnFXV0hMWFBQUGZQV0tQU2pubk5NNjI1VUNGTF9tZEhuc3JxTXZxT2pPSVI5ekdQbmFKTXROTklrdG5BcFRYU0ppa2Z0QmtjdUp4VXlSVURzYzVBaTQzQ0E?oc=5",
     "pub": "Fri, 11 Sep 2026 22:51:56 GMT",
     "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Proxy fight in Yemen heats up, risking new front in US-Iran war - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQRWZLSk1pRDluSm9VVU96b3Q5TEdPOUF2NTlYbXZIQ2FnbWVhZWozRzZGUjNYdElfS1UwQ0ZGa3hidF92bVcxVjg0N1FLUTFDcTk5WFloN1NLcWR4aXRMZk9CWjcxVjE4WnNzSDhZb3VJNHdRYUlBMVhoYVpCR1JkN0ROSHNHcG82SHdvN9IBkgFBVV95cUxPMEduRnVLUnBHRWQ4dFBsUDZaN0U2ZmZDMnk0bHh6S0lxazJCTGhKNEpUck1uNTBCcU1ybUxiejZVaHE1b2NtVFFnb2tWYmU4bWFQVzV2N3ZPb2hXcmNIV0xpSUc4U2J0SGdobk9TQUhJZndWV2ItNUgzYnUtZ1BoenNkYm5YMW5aZ1BvMlN3LWZxQQ?oc=5",
-    "pub": "Fri, 11 Sep 2026 22:45:00 GMT",
-    "src": "The Hill",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    62975.59,
    78335.19,
    77830.29,
-   77279.77
+   77250.76
   ],
   "vixts": [
    0.948,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T04:41:50+00:00",
+  "checked": "2026-09-12T04:51:49+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

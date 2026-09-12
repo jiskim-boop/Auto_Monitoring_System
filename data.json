@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T00:42:05+00:00",
+ "updated": "2026-09-12T00:52:09+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77245.92,
-   "chg": 0.89,
-   "chg5": -3.86,
-   "sma20": 78615.59,
-   "sma50": 70646.95,
-   "sma200": 70198.18,
+   "price": 77260.0,
+   "chg": 0.9,
+   "chg5": -3.85,
+   "sma20": 78616.29,
+   "sma50": 70647.23,
+   "sma200": 70198.25,
    "high3m": 81271.74,
-   "reg": 77245.92,
+   "reg": 77260.0,
    "pre": null,
    "post": null,
-   "regClose": 77245.92,
+   "regClose": 77260.0,
    "sess": "reg",
-   "mt": 1789173692,
+   "mt": 1789174293,
    "ok": true
   },
   "USO": {
@@ -1175,18 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "The IPO That Asks You to Buy AI Hype Today and Get Paid Years Later - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPTnlXZ3paUlVZSGRCZlVldVYwYXV2S1MyV3lUeXNJZ21TQ0lybDJSaWYzb3Y3VnBFN0dVOHB5U1RMT0Q1eXpXbmFrODNqaG9mU0Z0d2FtWERHRi05aDUtZGpqbnJLUnE3YkRlSklUd0d6Z3d2R0FyZEJsakF1d2NpNHEybkR2Z1BmS3pUNVRpMFkyQi00YkY5Ti11eWlMekZiOHVGWTFmSDV0ck0wRklIaHNuRkczMFk?oc=5",
-    "pub": "Sat, 12 Sep 2026 00:31:31 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmduYjZNYlh4TmVDd3dMTzZmU21ud1Q5WVVaYXBOM2hUQ201U2tjeDhoWHd6ZjhlQzdtUWxiNmFibkRpc2VlcmxjbWMzTWljZ0ZZSkF6VHFPWnJVUFQwc2g4RDNtb1FCWjN1R3BBcFRzUHkyTXJiRXZpa0NxV29IWFc1LV9lUXh0bXc3TWNrSHZhT0lPTVU2dEswYWhSVUw2SzFkRkVmSHU0S3c?oc=5",
-    "pub": "Fri, 11 Sep 2026 23:13:59 GMT",
-    "src": "Reuters",
+    "title": "Nvidia Mulls $10 Billion Anthropic IPO Backing, Reuters Says - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdDBsRHFoaDBPR1JoeTZ4cmZ4a2U1dnhTWGpyd1BlTUJmLXZuZGZDbG9BNVpmMW9RZE9LR0RBVWpCdVRnZ3NYQUkwTjlFTnBENDU2QkR3dUhIM0ZlSldKOXVMSmhNYXQ2Z1hBN2NjRUM1UzBDd1RsRDhqcGFiNkgxOVRoaF9oTmlaamZPR3FmWjdmY3ZSak1uMVN4bmJ6Z05mVy01bzM4VXZlUzBabmNLYg?oc=5",
+    "pub": "Fri, 11 Sep 2026 23:19:47 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1195,6 +1187,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE1OOG1aM2U5aVdfeVdTUjF5eEVOX0hBRTVic2p3SjFQVW1ZcjBYU0h2TmtsczRENFo2UF9PSFpxRG9BS3lwZHJNQWFtZEsxemZFVEdtS1JVZ1kzMlRvcVBIYnlRcDdkcVZEcFIwSzVEbG5JTElCbUtqWVlFU0o1N2RyU01uWGhWcE1WYkxHNDNmRU1jLXc1dkNXQnA0XzA?oc=5",
     "pub": "Fri, 11 Sep 2026 23:01:33 GMT",
     "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "EXCLUSIVE: Nvidia in talks to invest in Anthropic’s mega IPO, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPbmduYjZNYlh4TmVDd3dMTzZmU21ud1Q5WVVaYXBOM2hUQ201U2tjeDhoWHd6ZjhlQzdtUWxiNmFibkRpc2VlcmxjbWMzTWljZ0ZZSkF6VHFPWnJVUFQwc2g4RDNtb1FCWjN1R3BBcFRzUHkyTXJiRXZpa0NxV29IWFc1LV9lUXh0bXc3TWNrSHZhT0lPTVU2dEswYWhSVUw2SzFkRkVmSHU0S3c?oc=5",
+    "pub": "Fri, 11 Sep 2026 23:01:00 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Morgan Stanley Favors Trade With Yen Weakening to 163 per Dollar - bloomberg.com",
+    "title": "Morgan Stanley Favors Trade With Yen Weakening to 163 per Dollar - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQXzNRNGNCQlh0UFJ5cllUdDdyS1hKaXpzYVhxZFR2ZC1SWWE1MTFyYTBaZDZLcm5pSG92Yld6LWpNdThjdG5ucVFUdEdRRXdKSUpPN3JYeGpETlNOckhmZDAxRWtDa0xyM0NZZlpNdVJodWNYMzNQbjdfZ2dONjhCWmpVRWg5VlQ3bEhfUlFoWDVRcmczdVRlYTJ5Y0RkYjQ1bkQ5M3hpT1cxc3Aydmtubm9qNlFTQQ?oc=5",
     "pub": "Fri, 11 Sep 2026 18:12:05 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Copper Prices Just Fell Sharply, But Don't Call It Relief Just Yet - ACHR News",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSHhzRXllYjZCY3ZQbFNTbUltUXJkSXYtN0tLQWxaTGtwSnhSQzFUV3dLcEo4X241MjVkaTVXSUFLeXVhbmJfUXlEcXpMSVpFcHBJbER5ak5IakNvLXNhZ3RBUEFTRndEeFRzN3d5dE5iT3hGNXoybnJ5UVJGUUtHVUxNeFNWZGdBaHBMdHRrTkFIZXZsbUtoTkxtOXVtMUs0dHN2bHAzWGs?oc=5",
-    "pub": "Fri, 11 Sep 2026 17:29:02 GMT",
-    "src": "ACHR News",
+    "title": "Copper Price September 14 2026 - Robinhood",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbklpTHF1UUFldFJqdEFMWUpCWEh6MlV0dXpjZ0FQNTJ4Rmo0MVdBWjJoTDdmcVBWbUU1M19xRmhUckpzLTMyNm0tNFJfNWhZRXE3eGlJaTdtVVYxeldKbFdFWUJrWndNdlBwakIwZFNQTkxLWndicjFRTFBOZklsQUNpLVQ3REVOX3VUaWJfM3psbDBSd0FaX1lUSE1WeFJ1T3VyQlJoOA?oc=5",
+    "pub": "Fri, 11 Sep 2026 17:49:14 GMT",
+    "src": "Robinhood",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    62975.59,
    78335.19,
    77830.29,
-   77247.3
+   77267.53
   ],
   "vixts": [
    0.948,
@@ -2430,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T00:41:53+00:00",
+  "checked": "2026-09-12T00:51:54+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

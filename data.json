@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T12:11:59+00:00",
+ "updated": "2026-09-12T12:22:09+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77308.73,
-   "chg": 0.17,
-   "chg5": -2.28,
-   "sma20": 78589.65,
-   "sma50": 70909.71,
-   "sma200": 70236.22,
+   "price": 77292.08,
+   "chg": 0.15,
+   "chg5": -2.31,
+   "sma20": 78588.82,
+   "sma50": 70909.38,
+   "sma200": 70236.13,
    "high3m": 81271.74,
-   "reg": 77308.73,
+   "reg": 77292.08,
    "pre": null,
    "post": null,
-   "regClose": 77308.73,
+   "regClose": 77292.08,
    "sess": "reg",
-   "mt": 1789215084,
+   "mt": 1789215692,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Microsoft stock gains as AI-driven growth and heavy capex reshape outlook - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQd2YtTFNwOWM2UG1meFQxZnhGMDRMWmF3UEpiWHAzd2ZoaGJKRzdqOC1KSEtqNlQ0c0Y5MEpuWUlOWlZOMHMyOUlvdkliSk9qWV9pRkVpaTU4V29SUXhyYnd3dm9fX0RkRl8ydV9aZk9YeEZlNlN1NE4wSzVYUlJ0MFRzYWNFOFJWWWxrVXNUaVRweW5VSWMtaUNsLUVCZ0JlQmdjZVN2VUk1X3pkaUtlMDgtaVVaWlFxd2JkbFBCQk9fWjNGM1pPX3FRVF9peGpNVkE?oc=5",
+    "pub": "Sat, 12 Sep 2026 12:05:36 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 10:34:22 GMT",
@@ -1213,14 +1221,6 @@
     "src": "Stocktwits",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Huawei Ascend 950DT: HBM shortage drives the price of the AI accelerator significantly higher - igor´sLAB",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOc1pHQ0hGejBlSE5vdmtzeFo5ZFpXOHFCREhZSGFYNmNqc2pWN2JfVi1jNEJiRmp3eUk4MUZnakdXYnJ0U3FuWE1MeWhxT2h4aTJtLVRBS2s0aENfRjRKQVFYN3QwblZCTndzMnMtOE9mS0ZSQjJVelVmTzYwbHVjdWw3ZzZublRFUDlva1F4bXZ3eXYya25nX1Ytbw?oc=5",
-    "pub": "Sat, 12 Sep 2026 04:00:00 GMT",
-    "src": "igor´sLAB",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1257,10 +1257,10 @@
     "geo": false
    },
    {
-    "title": "Next Thursday, 17th - Fed Interest Rate Decision - moomoo.com",
+    "title": "Next Thursday, 17th - Fed Interest Rate Decision - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQY3BHaGdPX1E1N0xpaVpqZU9uWUZNbExINDE0YXYySEpGckplSzVpOHpSYXFxeXB2ODdjTmdTTUQzTE5ZMzRtM0dxaHhyS242a1V2WWpOY0lldGpkdUFEbWExSjk3amppaHJDb0duSUt6aHQ4QTRGTmJRZjUxTGh6WjU3UXJUOVphbjE2NFBqQlB3bG05TmlCeEtZQzVWRDl6?oc=5",
     "pub": "Sat, 12 Sep 2026 08:00:21 GMT",
-    "src": "moomoo.com",
+    "src": "Moomoo",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77308.72
+   77292.08
   ],
   "vixts": [
    0.948,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T12:11:46+00:00",
+  "checked": "2026-09-12T12:21:51+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T13:52:35+00:00",
+ "updated": "2026-09-12T14:02:31+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77286.77,
-   "chg": 0.15,
-   "chg5": -2.31,
-   "sma20": 78588.56,
-   "sma50": 70909.27,
-   "sma200": 70236.1,
+   "price": 77350.06,
+   "chg": 0.23,
+   "chg5": -2.23,
+   "sma20": 78591.72,
+   "sma50": 70910.54,
+   "sma200": 70236.45,
    "high3m": 81271.74,
-   "reg": 77286.77,
+   "reg": 77350.06,
    "pre": null,
    "post": null,
-   "regClose": 77286.77,
+   "regClose": 77350.06,
    "sess": "reg",
-   "mt": 1789221094,
+   "mt": 1789221720,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "Voting machines delivered to voting centers in Maguindanao del Sur - ABS-CBN",
+    "title": "Voting machines delivered to voting centers in Maguindanao del Sur - news.abs-cbn.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcnpwa1J4QmlVYkNUSjRKTzVjdHZJV3BNYkhRNmtEM1VoLTFnWkdWSHhQa19VOFNNbzViZDJuM0gwaEtpUWZtR045SDFSaXBoLUk1OXBUOE5NX090ZGY5NkZHZGlLQ1Q4Y2dUSHcyM2VEQVNVX0xiLUNWazVZYTItV3RCV01JdFpoa2FaLXdlNC1JQ3ZscXdBTS0wY2NqZmY4Sm56UnNFcWpjTXRhMnhPUHdya0hiZ1FndUE?oc=5",
     "pub": "Sat, 12 Sep 2026 08:04:00 GMT",
-    "src": "ABS-CBN",
+    "src": "news.abs-cbn.com",
     "trig": false,
     "geo": false
    },
@@ -1175,10 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "O3b mPOWER Mission - spacex.com",
+    "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 13:35:02 GMT",
-    "src": "spacex.com",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1421,7 +1421,12 @@
    "prev": 3.63,
    "chg": 0.0
   },
-  "realrate": null,
+  "realrate": {
+   "date": "2026-09-10",
+   "value": 2.55,
+   "prev": 2.46,
+   "chg": 0.09
+  },
   "sofr_iorb": -3.0,
   "cape": 41.09,
   "cape_manual": false,
@@ -1605,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77303.76
+   77350.06
   ],
   "vixts": [
    0.948,
@@ -2192,10 +2197,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-10T14",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-10T15",
     "v": 2.73
    },
@@ -2382,6 +2383,10 @@
    {
     "d": "2026-09-12T13",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-12T14",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2423,11 +2428,9 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T13:52:22+00:00",
+  "checked": "2026-09-12T14:02:20+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
    "found": false

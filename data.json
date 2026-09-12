@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T22:41:59+00:00",
+ "updated": "2026-09-12T22:51:59+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77191.68,
-   "chg": 0.02,
-   "chg5": -2.43,
-   "sma20": 78583.8,
-   "sma50": 70907.37,
-   "sma200": 70235.59,
+   "price": 77210.15,
+   "chg": 0.05,
+   "chg5": -2.41,
+   "sma20": 78584.72,
+   "sma50": 70907.74,
+   "sma200": 70235.69,
    "high3m": 81271.74,
-   "reg": 77191.68,
+   "reg": 77210.15,
    "pre": null,
    "post": null,
-   "regClose": 77191.68,
+   "regClose": 77210.15,
    "sess": "reg",
-   "mt": 1789252884,
+   "mt": 1789253486,
    "ok": true
   },
   "USO": {
@@ -1191,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI’s Altman says no IPO in 2026, company will prioritize safety - The Seattle Times",
+    "title": "OpenAI’s Altman says no IPO in 2026, company will prioritize safety - seattletimes.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQd1lpNnhWTGo5RXcydGxUMktUTF9kSERzeUFwekNnYVJlVGREVzhOajItNExfRDJCSUIwajBnMnVDN1k5TlBhcmd0cWZVRHg1eE1DSmpkVU5iZGxuY21ST2o1UWVoRFFmVW1iUTdFaXhLYUU2VlNuOVF1ck94YkRXY0g0UC1jbGtUN0tRWnVDQk1xa1JZQlZ5NGZZRmJzWkp1SDZ4TjJINA?oc=5",
     "pub": "Sat, 12 Sep 2026 21:58:04 GMT",
-    "src": "The Seattle Times",
+    "src": "seattletimes.com",
     "trig": false,
     "geo": false
    },
@@ -1207,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "Sam Altman says OpenAI IPO not happening in 2026 - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNd1prZDFiMmhfaF8yUXNTcnhoVk1TNFFKaXV5SGZvWHBMZm03RWowSkQtTFVud19CeWxFSkk0bmVmeDFUT1hHbV9ZOGFYeV9SREIwQmtGUWk0ZFVsYzlPUnFFZHdHUHJVellYRnd6SWhoQm5iRnZsY29hYl9XQ19LVFVvMFhld3NPcUxCYzRhMzdjeWNqM3pQaHBHcXg1SUFLWEpQSVhMSzJidHJFRlFBWA?oc=5",
+    "title": "Sam Altman says OpenAI IPO not happening in 2026 - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVWQ4NGZYaGhEWDkzM3lyOHBIOVUyMFJMWnlFV0pXUFN1YmZWUGpMeHBOQVZPUzdzTVNmWm14UEUxaV9ZQ05uZ3ZFYklvM3FkNDlSRHdDMmZmd0cyQlp3YkRCV1NldDN3NGNacldlcHZlWnpQMXIwRjdlMjJ1NkVSX21MV1V4QTE1UUVZ?oc=5",
     "pub": "Sat, 12 Sep 2026 21:27:43 GMT",
-    "src": "TradingView",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1225,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks - bloomberg.com",
+    "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdVhuTWZWU0tXWGxwRk9MNXVZY1BzM1kzZnN5WnZXR0wzMzM0Um1HR2k1dkh2N2FPVW1haGFNRUFDay15WURXREhJR3J4S2ZWN3JWYWZ5bDFmUEJNNEJDeW9PRVRFRzFwMi1wYVhfYWV5N3AwRUU5THhaak8wMlFWaExmbU94OUoxNTh4ZjJJb1oyemt2UV9vSE1wa2NXZjVyOWlhdFhuVUdpek9pMTVGRlpjWVpPSFJoNHNF?oc=5",
     "pub": "Sat, 12 Sep 2026 20:00:00 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77191.67
+   77229.91
   ],
   "vixts": [
    0.948,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2427,11 +2428,9 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T22:41:44+00:00",
+  "checked": "2026-09-12T22:51:47+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
    "found": false

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T23:42:18+00:00",
+ "updated": "2026-09-12T23:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77236.45,
-   "chg": 0.08,
-   "chg5": -2.38,
-   "sma20": 78586.04,
-   "sma50": 70908.27,
-   "sma200": 70235.83,
+   "price": 77274.92,
+   "chg": 0.13,
+   "chg5": -2.33,
+   "sma20": 78587.96,
+   "sma50": 70909.04,
+   "sma200": 70236.04,
    "high3m": 81271.74,
-   "reg": 77236.45,
+   "reg": 77274.92,
    "pre": null,
    "post": null,
-   "regClose": 77236.45,
+   "regClose": 77274.92,
    "sess": "reg",
-   "mt": 1789256502,
+   "mt": 1789257083,
    "ok": true
   },
   "USO": {
@@ -1175,10 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "O3b mPOWER Mission - spacex.com",
+    "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 22:39:44 GMT",
-    "src": "spacex.com",
+    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1225,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "Oil Industry Braces for Years-Long Iran War - oilprice.com",
+    "title": "Oil Industry Braces for Years-Long Iran War - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONE56Q0YwT3QtWkRMbTBuSF9mZHZmcWlqM0kzaWl4YXptZ2E1anREcHlKdm5qckY3SVJzaXpXRm9Ncm05a3pmY1ZOYnlDZlF0SFhjNkYyT0pfNk45a3VqM1FZOWhNdjB0Xy1ReDc1MDNaa1NBNUdDVUpmMmpBLTNvNTZXODlnNHFSc3UxeDBELULSAZYBQVVfeXFMTVNlUmRXWGNUUFcxR2RZWkVKU2ZUOFhwQWtGWEwySGVEVlFhTW15dGo5YWROVWxBU2pvUXBJZ3VacEJscUk3bTFPY0puaXhtLVF1Zm41alNkeHBiMXhmRnhuc1hHa05MUkQ0bk5iNVhFaERrbzBjZHFkMEpyNTRuemg3TVJMY0tqRXNnb2RCSElETVJyYmNR?oc=5",
     "pub": "Sat, 12 Sep 2026 23:00:00 GMT",
-    "src": "oilprice.com",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    },
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline - The New York Times",
+    "title": "Saudi Oil Exports Face Heightened Threats After Attacks on Pipeline - nytimes.com",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFByYjJ4ZE5yM1dTaDdycGR4bHBPV2U1NG1zWnlJeTQ4d0I2dk5WNTVXWnhXUEhId1JjMy1UYUo0cUZZMzZFUHRYSThQdXdTSndpRFVsaEhreV9nLVQzdjJwa1U0ZHNCLXNkOC1tRzBYajV0bFAwWkQ2ZFZKc0k?oc=5",
     "pub": "Sat, 12 Sep 2026 18:55:00 GMT",
-    "src": "The New York Times",
+    "src": "nytimes.com",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77236.36
+   77280.01
   ],
   "vixts": [
    0.948,
@@ -2428,9 +2428,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T23:42:05+00:00",
+  "checked": "2026-09-12T23:51:48+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

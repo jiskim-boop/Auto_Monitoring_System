@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T19:32:23+00:00",
+ "updated": "2026-09-12T19:42:20+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77116.32,
-   "chg": -0.07,
-   "chg5": -2.53,
-   "sma20": 78580.03,
-   "sma50": 70905.86,
-   "sma200": 70235.18,
+   "price": 77078.89,
+   "chg": -0.12,
+   "chg5": -2.57,
+   "sma20": 78578.16,
+   "sma50": 70905.12,
+   "sma200": 70234.98,
    "high3m": 81271.74,
-   "reg": 77116.32,
+   "reg": 77078.89,
    "pre": null,
    "post": null,
-   "regClose": 77116.32,
+   "regClose": 77078.89,
    "sess": "reg",
-   "mt": 1789241510,
+   "mt": 1789242103,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "ABS Opens Marine and Offshore Support Center in Bergen, Norway - Data Portuaria",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOd3JHSW1IQVlCdGstVHltTl9VY1dQcWs5blBRZ2h3dmRRUzZzLUJxUW5haUJnQ3E2TWlmOGxlWjgxb05WTE44OU14Vkc4bkFEamRzaDZyQXRSUFFCajhDZDNhUzVDRlU2MGhTY3ktWmJ2WmdKOU9JVDlIdENiRk1tc1JSeGZoeDVTVm0wdHdBRV9xbi0zbUwxeklkd0VMVzR4UmJXVkk3bG8xZXBIRnpLbXo5NjFobHc?oc=5",
+    "pub": "Sat, 12 Sep 2026 16:41:05 GMT",
+    "src": "Data Portuaria",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Voting machines delivered to voting centers in Maguindanao del Sur - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPcnpwa1J4QmlVYkNUSjRKTzVjdHZJV3BNYkhRNmtEM1VoLTFnWkdWSHhQa19VOFNNbzViZDJuM0gwaEtpUWZtR045SDFSaXBoLUk1OXBUOE5NX090ZGY5NkZHZGlLQ1Q4Y2dUSHcyM2VEQVNVX0xiLUNWazVZYTItV3RCV01JdFpoa2FaLXdlNC1JQ3ZscXdBTS0wY2NqZmY4Sm56UnNFcWpjTXRhMnhPUHdya0hiZ1FndUE?oc=5",
     "pub": "Sat, 12 Sep 2026 08:04:00 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Stocktwits",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
-    "pub": "Sat, 12 Sep 2026 02:00:00 GMT",
-    "src": "Rappler",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "O3b mPOWER Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
+    "pub": "Sat, 12 Sep 2026 19:36:57 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OpenAI delaying IPO amid AI safety concerns, Sam Altman says - Axios",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5kOTVXM1dpbzZyS3lOVnlHTFBkQlIxZUJDTWRoZ1doeEg2TWl5czhzWnVsWWRuclZLcThWM3RjN3J0Ym5nWEdHRl9LM0cyckVyLW9aWGxMU05XbVpVcThqVEZIYndSTm04V2tLUll6QVV1YVlaUWc?oc=5",
@@ -1207,18 +1215,10 @@
     "geo": false
    },
    {
-    "title": "O3b mPOWER Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
-    "pub": "Sat, 12 Sep 2026 16:37:41 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Grok Models Now in Microsoft Copilot: What You Need to Know - BASENOR - Tesla Accessories",
+    "title": "Grok Models Now in Microsoft Copilot: What You Need to Know - basenor.com",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOSWRoOXBXcHBSZWswR3piLU1iX3ZDc2Z0dUpWNGxhRG9FWEdBMDJjeUJGMGZPZUFVMGFpRC1uRUhEZWJaSFVIdXNPY0dyUWZUNWVOMzN5dG5OTHl4N2dVRG5Fc25DalRWMElGeFc5VDFzT1RleXBVSWpnbW9taUxFbzFCMWttaS11ekdLTzJzZkpSdTNJTnYyag?oc=5",
     "pub": "Sat, 12 Sep 2026 16:03:28 GMT",
-    "src": "BASENOR - Tesla Accessories",
+    "src": "basenor.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77116.58
+   77065.8
   ],
   "vixts": [
    0.948,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "지정학 긴장(중동 전쟁)으로 에너지 가격이 오르는 와중에도 VIX 16과 안정적 신용스프레드(2.70%)로 시장이 현물 낙관을 유지 중이며, 연준의 금리 결정을 앞두고 4.97% 고금리 환경이 지속되고 있다. AI 인프라 투자는 마이크로소프트·엔비디아 등 주요 기업들의 대규모 캐팩스 확대로 모멘텀을 유지하고 있으나 GPU/HBM 수급 관련 특이 신호는 없는 상태다.",
+  "text": "미10년물 4.97%와 달러 강세 속 금리 재상향 우려가 부상하는 가운데, HY스프레드 2.70%와 NFCI -0.56은 신용시장의 완충력이 아직 유지되고 있음을 시사한다. AI 캡엑스 사이클에서는 OpenAI의 IPO 연기와 Microsoft의 Grok 확대 같은 기업 구조 조정이 진행 중이나, GPU/HBM 수급의 구체적 병목 신호는 아직 미약하다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1741,9 +1741,8 @@
    "trig": 0,
    "geo": 0,
    "capex": 5,
-   "news": 15
-  },
-  "_cached": true
+   "news": 16
+  }
  },
  "early": {
   "score": 1.5,
@@ -2428,11 +2427,9 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T19:32:09+00:00",
+  "checked": "2026-09-12T19:42:02+00:00",
   "openai": {
-   "found": true,
-   "ticker": "OAIW",
-   "name": "OpenAI Lab Ecosystem ETF"
+   "found": false
   },
   "anthropic": {
    "found": false

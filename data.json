@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-12T10:03:23+00:00",
+ "updated": "2026-09-12T10:12:27+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77347.15,
-   "chg": 0.22,
-   "chg5": -2.24,
-   "sma20": 78591.57,
-   "sma50": 70910.48,
-   "sma200": 70236.43,
+   "price": 77378.63,
+   "chg": 0.27,
+   "chg5": -2.2,
+   "sma20": 78593.15,
+   "sma50": 70911.11,
+   "sma200": 70236.6,
    "high3m": 81271.74,
-   "reg": 77347.15,
+   "reg": 77378.63,
    "pre": null,
    "post": null,
-   "regClose": 77347.15,
+   "regClose": 77378.63,
    "sess": "reg",
-   "mt": 1789207320,
+   "mt": 1789207886,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,22 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX rocket launch from Florida this weekend. Where to see liftoff - Florida Today",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNSHlHTUktN0RsdGJVbFBZZ2h5WVh0ai1mWUhZd1BERmh6VWRSNHB0bVdMTGxUMW1hMkpxMTdRd0l4TnNhZ3pWUDJQekdWNUlIZ2JZNDdnWFlSR1V3b2ZlZWtDMkhhanhHZmYwczVRZ1NxZXQ4SFVtTGRJY2hwUVA2YnROY0Z4dDBuZFVOS1g5bUNMVXl3cHE2MjF2ZWlSdUFsanlaWXRBTVozaHNFcHBPbjBVUi12d1FKSEJheTV1cHRadXVJNU00UkVHMHZtNTBpRGpHNmUtdXhFbVV5MWxrbld4dGtjSEFXejhDQVY0d2pXdjAyNDFFT1Jfbw?oc=5",
+    "pub": "Sat, 12 Sep 2026 10:02:00 GMT",
+    "src": "Florida Today",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX IPO Pricing At $135 Per Share Will Value The Rocket Maker At $1.77 Trillion — Musk To Keep Ironclad Control - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOU1AtcFRjWWZXS0xVT1gwYlBwT0psS08xdzNsUklqaEVvR3NrcTE1OVMtQlVvWjRMVXRTd2tIUXFTZG5QenhSS1FvcWtoUFlQbjhCSDZpeWluY0VJdXBPaXZxRjlvYU5pTkxqVG1heEZmSjdjSUNIUXRvcGFvNXVSUW1mYmVzR2d3ZVpwS0RJTDRUcWZLcUNFdlc2YmF4MlpDcXBIV1Z2NVNSZlUwdzJMbUFldzRia19IbEs4UGdsZmJEV3FMdTZVQS1STVZMNVZUMWtRRXlnY08?oc=5",
+    "pub": "Sat, 12 Sep 2026 07:57:12 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sat, 12 Sep 2026 07:32:48 GMT",
@@ -1205,30 +1221,14 @@
     "src": "The Information",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Nvidia Mulls $10 Billion Anthropic IPO Backing, Reuters Says - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdDBsRHFoaDBPR1JoeTZ4cmZ4a2U1dnhTWGpyd1BlTUJmLXZuZGZDbG9BNVpmMW9RZE9LR0RBVWpCdVRnZ3NYQUkwTjlFTnBENDU2QkR3dUhIM0ZlSldKOXVMSmhNYXQ2Z1hBN2NjRUM1UzBDd1RsRDhqcGFiNkgxOVRoaF9oTmlaamZPR3FmWjdmY3ZSak1uMVN4bmJ6Z05mVy01bzM4VXZlUzBabmNLYg?oc=5",
-    "pub": "Fri, 11 Sep 2026 23:35:17 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI’s HBM Shortage Strengthens Micron’s Hand—and Pressures Nvidia’s GPU Economics - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRE1OOG1aM2U5aVdfeVdTUjF5eEVOX0hBRTVic2p3SjFQVW1ZcjBYU0h2TmtsczRENFo2UF9PSFpxRG9BS3lwZHJNQWFtZEsxemZFVEdtS1JVZ1kzMlRvcVBIYnlRcDdkcVZEcFIwSzVEbG5JTElCbUtqWVlFU0o1N2RyU01uWGhWcE1WYkxHNDNmRU1jLXc1dkNXQnA0XzA?oc=5",
-    "pub": "Fri, 11 Sep 2026 23:01:33 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "EU gasoline prices up 24%, diesel up 33% since Middle East war began - Anadolu Ajansı",
+    "title": "EU gasoline prices up 24%, diesel up 33% since Middle East war began - aa.com.tr",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMGpZcnlMZW52emotRGs1a2FNME9LcHVEa3ZzM3hGYS1kOTFublkyWDFIblcwZUtxQllSbjhORmJId2hpd3BBbEdKaDY5VHlhQ21WZ2JybnU4UHVKNFY1REcxNS04c3VqUGcwZHYwb210QVUzejVWN1N2V0lOUy1kX1E2VC0xbDc4OFNJekkyREw1VlJzUy01SkZzQkJlZjI1WFV1UFBWc2FKQ1XSAbMBQVVfeXFMUEVGT3N3VV91aVdPWDhndmZuZXcxZXVXeE5DU2V1SlpQVTlIeHI4RW94TkJIZHRoT1pudGJlSmRnNS1ZaW1abGJnSUFMbl9wMlZaY3pDWE1jd2lRdndkOURsbHgzY1NkQWtBcGFxY041ckpsZThrVnJZX3dobUZRSGZiZHY1b0RYZkZxZGFGZkFITHpZYzRaSXNYY2R2NFV3Ml81RDdhRGMwTjF5REVCWDdFSWs?oc=5",
     "pub": "Sat, 12 Sep 2026 08:39:45 GMT",
-    "src": "Anadolu Ajansı",
+    "src": "aa.com.tr",
     "trig": false,
     "geo": false
    },
@@ -1275,10 +1275,10 @@
   ],
   "flow": [
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - litefinance.org",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 12 Sep 2026 07:44:29 GMT",
-    "src": "litefinance.org",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1307,18 +1307,18 @@
     "geo": false
    },
    {
-    "title": "Gold Tops $5K, Beating US Treasuries And Bitcoin As The Safe Haven Of Choice - Yellow.com",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPakk4MDlxWl8wdGVzREpUWDZ3WUNSaE00SGNZdDgweDR4MmZBV0pwZVFEcXFpZ0pSb0lTT1dqUHVrQjRjUFVJTzQ2NFRKb3c0R3ljTWdtREF1X3o1Sk1kQ05fb190ZkUxUmFMM05wYktVUVNhRk5WcTBxWHRuVEppTi1DdDIwVXNhd0hpbktQMWxZTkZ5RVpQMmJpSWpvTFhNMUFwN2ZvblZJWTZBYTB6V2ZZNE43VlZDd0dSdVJqT29yQ290YkhlT1dFUDVpeTd3Z3ltd2RzMA?oc=5",
-    "pub": "Fri, 11 Sep 2026 22:33:21 GMT",
-    "src": "Yellow.com",
+    "title": "Is BHP Group (ASX:BHP) Priced Too Richly Following Copper Price Volatility? - simplywall.st",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOdVpQazhtRWs4Xy1ZdXV4c3BjXzJ0VkNxMlZqX0UtbUhQVmhRQ1BLMUR5cm12UV9VVy1BOHpodlMyeGpkTm9QQ1pxdDh0VWRlNy1mNGRxLUhmRVJUUTB2STc1eHBWSUw3WmVpS0tzSmlKVmxlTzlwWF91dENxU19KVUFBQ1hGeWhjSGIwMmJfR2F0MWxleG43cjJSd2NiSERqeVhtd2tkaWo2R0Nwd2swZ1Uzb2VJUFd4UFU4SUlIWllhRXgxbGViZkhWRm3SAdIBQVVfeXFMTko2ZG4zYVJScjA4NFZZRTJVam5wTENVM3RzZGFTRkdiWW0wNDNDbVg5SzBJWVRwSklXUFhNMXpnbzBSR2JQTmgyTmpUcWJFbUo4ZWpWZTFSUEJ0a0U3eFdTeVY3TTd0Q2w0c3lhWFIwN1NNYXA5LW9SWWF1VkdUMUs2YS1KaTN0ZmpLaEt0TWFjNlA5YXFlMDdaN3NmTEk4TEc4eFJlUmM3VERjQXRhNW4xU2RUVWJ6TE5qWGo3WUhhQ1ExMWFXV2U4NHVCbzU1Unl3?oc=5",
+    "pub": "Sat, 12 Sep 2026 02:29:21 GMT",
+    "src": "simplywall.st",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Gold's Iran-war paradox: why bullion keeps stumbling as the conflict widens - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVFM5cEpoRFNLSmZPUnVLbXBXbjhwU3ZNQ1BWVWVJSTdEcUtwMF9CSDA0QkVtMFZ1dlpHQWlpel9wc1ZYRTZTN3MwYWVTMnMzRmg4bjNTMzB5ZHlBemY1a0szLWh5a3ZCM0V2ZXY3NlNpSFhKWjJmanVHTEFxbTh3MHRRai11MHpXc0d6UVl3YTlkdHZpMTJvX2RMendpVy1YUUlXbUI3YkxicDJkNzJqcXgzdw?oc=5",
-    "pub": "Fri, 11 Sep 2026 21:09:56 GMT",
-    "src": "investingLive",
+    "title": "Gold Tops $5K, Beating US Treasuries And Bitcoin As The Safe Haven Of Choice - Yellow.com",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPakk4MDlxWl8wdGVzREpUWDZ3WUNSaE00SGNZdDgweDR4MmZBV0pwZVFEcXFpZ0pSb0lTT1dqUHVrQjRjUFVJTzQ2NFRKb3c0R3ljTWdtREF1X3o1Sk1kQ05fb190ZkUxUmFMM05wYktVUVNhRk5WcTBxWHRuVEppTi1DdDIwVXNhd0hpbktQMWxZTkZ5RVpQMmJpSWpvTFhNMUFwN2ZvblZJWTZBYTB6V2ZZNE43VlZDd0dSdVJqT29yQ290YkhlT1dFUDVpeTd3Z3ltd2RzMA?oc=5",
+    "pub": "Fri, 11 Sep 2026 22:33:21 GMT",
+    "src": "Yellow.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77372.45
+   77378.59
   ],
   "vixts": [
    0.948,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-12T10:02:57+00:00",
+  "checked": "2026-09-12T10:11:46+00:00",
   "openai": {
    "found": false
   },

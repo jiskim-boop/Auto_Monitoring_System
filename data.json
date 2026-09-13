@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T12:21:57+00:00",
+ "updated": "2026-09-13T12:32:14+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76798.26,
+   "price": 76797.0,
    "chg": -0.61,
    "chg5": -2.09,
-   "sma20": 78479.43,
-   "sma50": 71158.68,
-   "sma200": 70270.1,
+   "sma20": 78479.37,
+   "sma50": 71158.65,
+   "sma200": 70270.09,
    "high3m": 81271.74,
-   "reg": 76798.26,
+   "reg": 76797.0,
    "pre": null,
    "post": null,
-   "regClose": 76798.26,
+   "regClose": 76797.0,
    "sess": "reg",
-   "mt": 1789302084,
+   "mt": 1789302705,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Hanwha Ocean Unveils 60MW Floating Data Center as AI Infrastructure Moves Offshore - Korea IT Times",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFA1X19Ib1VXMkNBd1FaaXhSZkdScGE3d016ODZMUkJ1LUlGYTRLQk00WlJwNmlXZThEYm5iMkxuMnA2OTRYWm4yUzlRUTRKN050bExfd2V4V0R2dm1NSi1nMzNsQ0ZnWWQ2Wm9wSldhMGE?oc=5",
+    "pub": "Sun, 13 Sep 2026 10:13:45 GMT",
+    "src": "Korea IT Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "How will private credit and equity stocks react to Fed rate hikes? - Invezz",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVko4bHJaYU1TNXlsSEQwcGVyd01sdmRfRml5b3hxblB4bHR4cGUyUWQ5RFNYa3AxYXM5eVoyZG03N0FvYXZkY01YYUpPSEdqekZwWGUxSUFZY3A4MndqbzMyejhIQ01jenJXNlR4RG84SUh0RF9oc2FGZldJQVo1UXZOWU9SelVLeW1BMU1rX0RHenloUXJtYjE0TkpxYnhrNnUzZW52Zw?oc=5",
     "pub": "Sun, 13 Sep 2026 08:11:26 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1BWjZQZ0Y3WHZTUkNkUkVKRVU5c1BIMFN3N3VRMEJ1cEpPejFWNjlLQlZTLVVxT0ZNb0RPVzJlakpPN1VrZnZ5bXFxbGpvUTVyWnJv?oc=5",
     "pub": "Sun, 13 Sep 2026 03:48:02 GMT",
     "src": "매일경제",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Floating Data Centers on the Sea... Hanwha Ocean Unveils World’s First 60MW-Class FDC - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5NbmVEX2hzRm5uUkVaa24zTElqakdfY3JDOEVwTmdKUHZkTVBUWmxCajZUUU5JSlBpb01yZndSaVpiNHBYclo3clNkYktSVTUwNlI3TFhXblkxMlFYLTVQck00Nk0?oc=5",
-    "pub": "Sun, 13 Sep 2026 02:15:11 GMT",
-    "src": "아시아경제",
     "trig": false,
     "geo": false
    }
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks - bloomberg.com",
+    "title": "All Eyes on Warsh as Rate-Hike Fever Spreads Across G7 Central Banks - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdVhuTWZWU0tXWGxwRk9MNXVZY1BzM1kzZnN5WnZXR0wzMzM0Um1HR2k1dkh2N2FPVW1haGFNRUFDay15WURXREhJR3J4S2ZWN3JWYWZ5bDFmUEJNNEJDeW9PRVRFRzFwMi1wYVhfYWV5N3AwRUU5THhaak8wMlFWaExmbU94OUoxNTh4ZjJJb1oyemt2UV9vSE1wa2NXZjVyOWlhdFhuVUdpek9pMTVGRlpjWVpPSFJoNHNF?oc=5",
     "pub": "Sun, 13 Sep 2026 06:31:00 GMT",
-    "src": "bloomberg.com",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    62818.65,
    77755.27,
    77667.57,
-   76798.27
+   76782.49
   ],
   "vixts": [
    0.948,
@@ -2429,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T12:21:44+00:00",
+  "checked": "2026-09-13T12:32:03+00:00",
   "openai": {
    "found": false
   },

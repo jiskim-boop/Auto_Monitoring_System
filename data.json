@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T03:02:47+00:00",
+ "updated": "2026-09-13T03:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77252.73,
-   "chg": 0.1,
-   "chg5": -2.35,
-   "sma20": 78586.85,
-   "sma50": 70908.59,
-   "sma200": 70234.52,
+   "price": 77260.69,
+   "chg": 0.11,
+   "chg5": -2.34,
+   "sma20": 78587.25,
+   "sma50": 70908.75,
+   "sma200": 70234.56,
    "high3m": 81271.74,
-   "reg": 77252.73,
+   "reg": 77260.69,
    "pre": null,
    "post": null,
-   "regClose": 77252.73,
+   "regClose": 77260.69,
    "sess": "reg",
-   "mt": 1789268525,
+   "mt": 1789269087,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Hanwha Ocean Unveils 60MW-Class Floating Data Center for the First Time - asiae.co.kr",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9MUm13TWMyVlJDc0UzRG9TSnpBVmk5UV9UV3NSSldMYzB5Y2ljbzk3NUxpZ3kyRENtYkFXYXUtVnJPWjJIdUZvam9mR1hWVjJyalZLR2hTa0tnQ0JBbDI2Z1RtYndIbDhM?oc=5",
+    "pub": "Sun, 13 Sep 2026 01:02:11 GMT",
+    "src": "asiae.co.kr",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "NKE, OWL, SMR Stocks Hit 52-Week Lows Last Week: What Drove The Selloff? - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkNRWkx0MG1tWVVhckZES0VJNk56UE1hbjNLbzRhcWNEa3V0aGZvWF9rODNmcnZvX2FXdm9iYWlIblNKOGt4U2dSWGRBc2g5VGdvenFLWFlFZ0tzV2lMNDR3aDE1TkN1cUFxcWIxVjJnQ09HeVVkX2p1eVNTV2tHcEpsM0tVaTFTY3pZNkNCOGhwNEdGU1hwQy1DUW9pX1RUV3VIbVhuYlZ0V2JKbVE?oc=5",
     "pub": "Sat, 12 Sep 2026 17:09:58 GMT",
@@ -1149,14 +1157,6 @@
     "geo": false
    },
    {
-    "title": "BlackRock’s ETHB Bucks Trend As Other Ethereum ETFs See Outflows - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUFpOLVUyVTRyV0Y0Yi0teE4wblpjaVhTLUU2NmZLNjB1MkZNcEtFanJnTkZiN2kzamdjeTVJLWt5OG5sV04yZk1NMmpaNDRSaXBuVjlETWtDWXRJMkdVRGFuV0xxbVVSd1prZm5BejBwRUxwYXFBUXdKVmN0eDNoSHVIbnJPR1Rqa2hqNmpXOXdEUDFmTTBoWENtY1hvUWc0RWx3Y0dSaGFPQ2tPX244VGJ3X0llcFE3czB5ellXLW1sSkUyZGRqQzd4Z0tabHpYazZxMA?oc=5",
-    "pub": "Sat, 12 Sep 2026 08:00:36 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CRWV Stock Gains Premarket Amid Market Rebound: Neocloud Operator Announces $3.5B Debt Raise - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxOa2JGNW9kRzA0S1VpQjJiSzhGd0RDa0FmNjVOR1VDMm1pUlh4VXdWZXg0eVZpRy1aRjFnR29ybXAxdldLcEp1RzVwQ1BQUEhzOXduWjdETk01SWR5RzRIOFhtSTFOOGRpb0pmN3Ribk8xa0ROdV9CcDZFMFVvOGl4X0JhMVk1RUdBU3dPYWh3TldXeDB0dGxmZXEwOG9oLW9FRml5S1c4UzRZakZoYlNHZU92cGNqTmVDcGg1Wm5lcmxzcWhlelVDY2p0RkRPeEt6SGpEYTAzdkpiRDJHUHhiMlA2VGRsaUdiVjBv?oc=5",
     "pub": "Sat, 12 Sep 2026 05:26:46 GMT",
@@ -1165,10 +1165,10 @@
     "geo": false
    },
    {
-    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
-    "pub": "Sat, 12 Sep 2026 02:00:00 GMT",
-    "src": "Rappler",
+    "title": "Blackstone’s $48 Billion Private Credit Fund Breaks 3-Year Streak—What It Means For Bitcoin - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQnZVQlk1UjZWdTd4eEZodlNoQTRpTzI2allpTDlJbWN6RktHRXVMUDZXZWNwVzFlbFUzZDJlS3RjTlV2X0VjQS14d01GMUhQRDhydjhnT2t2ZUZTMFJRc1JhZzF4WE4tT05oYm54YVlhOFQwd3hGeWowa2pranpKTzB2aHNIcU9pZm1mSnp4VXVJdGF2cFZFckRKLUFISHBGRG9velJtOGN1Y0UwbzBNTUl5dXA4RFJo?oc=5",
+    "pub": "Sat, 12 Sep 2026 03:01:05 GMT",
+    "src": "Stocktwits",
     "trig": false,
     "geo": false
    }
@@ -1225,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - moomoo.com",
+    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - Moomoo",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM29uTWh0N2REYlFUSE5DZmxHcTFVMWwtUVJlbmlLMUJRbWZBUDV3VFJjWFVaM2JaQVZfcEFWTmNlR3hiaXZqZzgwcnFVdXd1SE1xVXpLbkNxdTJJVGlOREl2SGE2LWNuLXNRNHRDV1dUeDY3LVlxWlRfRk5mcEhXSWJhX1QwdTY1d0hMMHRmdEdXZ21pemxGNU1zUWNyN0pjUUtFSGljWQ?oc=5",
     "pub": "Sun, 13 Sep 2026 02:39:12 GMT",
-    "src": "moomoo.com",
+    "src": "Moomoo",
     "trig": false,
     "geo": false
    },
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Trump sees Iran war ending soon after midterm elections, predicts oil prices will then fall sharply - cnbc.com",
+    "title": "Trump sees Iran war ending soon after midterm elections, predicts oil prices will then fall sharply - CNBC",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQNnNmT0R6dktjR19lNm1jYUVSaTk5dmJTTWhsZXNoeVFwT2haX0JRZFBhT3lXUTA2V3Myem1NTEEwQ2RNRGZMcVdnaTYxZzlySVJyaW82Mm1TcmRjQmRJSmc0ZXV5V3V6TE90RjlVc3JPS1hMdG95dS05R1lMNFV3OWc5bmtPQlJzTkhod3lBRnFLZklfeVlJSXpKVkMzd9IBowFBVV95cUxPU3BrdUFqUUl0UkctWHNVOXFjcUZFWkZaYlFXWlJTNGJrQWpjMTNERXdxX09Oa0IxQmVqTzZsSDdkZl9MQS1JaTlsa1prbWdxNkZ4aGhZOEZjeExHd0Vjc095QXBXaWpuRjZSZV8xaGZpUFpKSklQM3dESXVOSGtYNWs4NFQzR1doRmtzaXFjcEtqbHVkS3A3VWIyZlZsenVZTXFB?oc=5",
     "pub": "Sat, 12 Sep 2026 13:02:15 GMT",
-    "src": "cnbc.com",
+    "src": "CNBC",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77241.39
+   77260.69
   ],
   "vixts": [
    0.948,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 지정학 긴장으로 유가 공급 리스크가 부각되는 가운데, VIX 16과 HY스프레드 2.70%는 신용시장이 여전히 완화적이나 Fed 금리결정을 앞두고 경계심이 커지고 있음을 시사한다. AI 개발 속도 둔화론과 주요 스타트업의 IPO 미연기가 확산되면서 대규모 capex 사이클의 지속성에 대한 불확실성이 높아지고 있다.",
+  "text": "중동 지정학 긴장(이란 전쟁, 사우디 석유시설 공격)이 유가 상승 압박을 가하는 가운데, 미 금리 4.97%와 달러 강세(DXY 99.1) 속 신용 스프레드는 양호(HY 2.70%)하며 안정적 자금 흐름을 유지 중이다. AI 캐팩스 견인력은 여전하나 OpenAI·xAI 최고경영진의 개발 속도 조정 언급과 Anthropic 고평가의 공급 제약 문제 지적으로 실적 기대치 재조정 신호가 나타나고 있다.",
   "by": "claude",
   "_fp": {
    "vix": 16,
@@ -1741,7 +1741,7 @@
    "trig": 0,
    "geo": 0,
    "capex": 5,
-   "news": 15
+   "news": 16
   }
  },
  "early": {
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T03:02:30+00:00",
+  "checked": "2026-09-13T03:11:45+00:00",
   "openai": {
    "found": false
   },

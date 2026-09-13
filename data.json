@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T01:02:41+00:00",
+ "updated": "2026-09-13T01:11:59+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77260.33,
-   "chg": 0.11,
-   "chg5": -2.35,
-   "sma20": 78587.23,
-   "sma50": 70908.74,
-   "sma200": 70234.56,
+   "price": 77250.01,
+   "chg": 0.1,
+   "chg5": -2.36,
+   "sma20": 78586.72,
+   "sma50": 70908.54,
+   "sma200": 70234.51,
    "high3m": 81271.74,
-   "reg": 77260.33,
+   "reg": 77250.01,
    "pre": null,
    "post": null,
-   "regClose": 77260.33,
+   "regClose": 77250.01,
    "sess": "reg",
-   "mt": 1789261321,
+   "mt": 1789261887,
    "ok": true
   },
   "USO": {
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77258.78
+   77245.77
   ],
   "vixts": [
    0.948,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2428,9 +2429,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T01:02:25+00:00",
+  "checked": "2026-09-13T01:11:46+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

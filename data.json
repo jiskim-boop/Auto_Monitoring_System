@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T12:41:56+00:00",
+ "updated": "2026-09-13T12:51:58+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76709.75,
-   "chg": -0.73,
-   "chg5": -2.2,
-   "sma20": 78475.0,
-   "sma50": 71156.91,
-   "sma200": 70269.62,
+   "price": 76695.56,
+   "chg": -0.74,
+   "chg5": -2.22,
+   "sma20": 78474.29,
+   "sma50": 71156.62,
+   "sma200": 70269.54,
    "high3m": 81271.74,
-   "reg": 76709.75,
+   "reg": 76695.56,
    "pre": null,
    "post": null,
-   "regClose": 76709.75,
+   "regClose": 76695.56,
    "sess": "reg",
-   "mt": 1789303286,
+   "mt": 1789303886,
    "ok": true
   },
   "USO": {
@@ -1029,30 +1029,30 @@
    "price": 52576.0,
    "chg": 0.92,
    "chg5": -2.18,
-   "sma20": 53232.85,
-   "sma50": 53108.3,
-   "sma200": 50912.82,
+   "sma20": 53232.4,
+   "sma50": 53108.12,
+   "sma200": 50912.75,
    "high3m": 54494.0,
    "reg": 52576.0,
    "pre": null,
    "post": null,
-   "regClose": 52585.0,
+   "regClose": 52576.0,
    "sess": "24h",
    "mt": 1789160397,
    "ok": true
   },
   "GC=F": {
    "price": 4408.9,
-   "chg": 0.98,
+   "chg": 1.02,
    "chg5": -1.84,
-   "sma20": 4468.32,
-   "sma50": 4265.95,
-   "sma200": 4426.5,
+   "sma20": 4470.45,
+   "sma50": 4266.81,
+   "sma200": 4426.83,
    "high3m": 4640.8,
    "reg": 4408.9,
    "pre": null,
    "post": null,
-   "regClose": 4366.2,
+   "regClose": 4408.9,
    "sess": "24h",
    "mt": 1789160399,
    "ok": true
@@ -1075,7 +1075,7 @@
   },
   "HG=F": {
    "price": 6.55,
-   "chg": 1.21,
+   "chg": 1.25,
    "chg5": -0.44,
    "sma20": 6.58,
    "sma50": 6.46,
@@ -1084,23 +1084,23 @@
    "reg": 6.55,
    "pre": null,
    "post": null,
-   "regClose": 6.47,
+   "regClose": 6.55,
    "sess": "24h",
    "mt": 1789160397,
    "ok": true
   },
   "ZN=F": {
    "price": 106.17,
-   "chg": -0.18,
+   "chg": -0.44,
    "chg5": -1.62,
-   "sma20": 108.03,
-   "sma50": 108.49,
+   "sma20": 108.02,
+   "sma50": 108.48,
    "sma200": 109.65,
    "high3m": 110.27,
    "reg": 106.17,
    "pre": null,
    "post": null,
-   "regClose": 106.36,
+   "regClose": 106.17,
    "sess": "24h",
    "mt": 1789160400,
    "ok": true
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "Altman: OpenAI IPO Won't Happen in 2026 - صحيفة مال",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBQZ1NFemU5WF9qNmZ3QmlkdkRfdkN2RGZZdzlfblRobFl0a0xCaE51U2hFTjNEUVdYbFJRRk1VZFdTMWZyR1pwWU1fbTFFLUtWdU5IcUhRVVkxbU5xMUhFTV9xUkswS2c1?oc=5",
-    "pub": "Sun, 13 Sep 2026 12:30:12 GMT",
-    "src": "صحيفة مال",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "O3b mPOWER Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
     "pub": "Sun, 13 Sep 2026 11:01:55 GMT",
@@ -1221,9 +1213,25 @@
     "src": "thenationalnews.com",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Super Micro Computer Q4 Results: Stock surges 8% on Microsoft AI capex - scanx.trade",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQVHd2WmdxS19oSm1CNkl0S2dqLUM2RXpyREllNVUyckNQYWJkUVdBVFZwaXpoWlhxeTdDajAyZVNTZzFvVmdlekEwU2ZHdUxwNy1fOWNvRWpJQTd1VEw5LVNnWDlnSnZ6ZHlyUGVmMjN6R0RicFo4d09VekVhQnRXbzc2d0FfVmUySEU1MUpSUGtCd3d0TjltMzhGX1ZIcHJJZ1VKTGZUOVJ4cHR5cmdZbW00dEpEb3hPRkRVZXJONjdOV2M?oc=5",
+    "pub": "Sun, 13 Sep 2026 05:09:37 GMT",
+    "src": "scanx.trade",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "'This is the test': All eyes turn to Fed as rate hike probable - Daily Sabah",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMlA3cDNlRmFfM0FHZGo4S1VLak16UmlTUlRXWkZxRGJrdExpb0RSYWFqSnB2VlRhVXNxSEU5ME9QQ0NVNG5Pc0dwVkxTZk9wUC1SN2xfUTFRRUlHN0Nsd2JEeHZWYlFBc2hZZGhIaXpYTU12aXAxbFBycjRpbENQS3J6Zm9Mc09EeERwSUxVUUVaOTNvMnFTMWpIbHo5RmhSYkU2OWp3LUhoeXM?oc=5",
+    "pub": "Sun, 13 Sep 2026 11:23:47 GMT",
+    "src": "Daily Sabah",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "What to Expect in Markets This Week: Fed Interest-Rate Decision; U.S. Retail Sales Data; Salesforce Conference - Investopedia",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOTzd3emRxb0pBb180Y1k0U2k4amZlaUEwX0p4QndKOXNKVXJRUHhwX25zd0wwLU9aMzZzeG0ycVl5YzhrSTVVN2QzTjhMTldkWGZTamU0TGdZRFJCMUlMOVYyQUZ0d21TZVR5LVZMQnpidzNabWVUWXRLY0RYQzZFTlE1SmowSDdKa010b0JlaGpNcUNEY3JITFlZN1hTQ3RKQ0JuOS1wc3luLW1ESF9aTHMxMXRKMDl6TFhrV3pXWQ?oc=5",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM29uTWh0N2REYlFUSE5DZmxHcTFVMWwtUVJlbmlLMUJRbWZBUDV3VFJjWFVaM2JaQVZfcEFWTmNlR3hiaXZqZzgwcnFVdXd1SE1xVXpLbkNxdTJJVGlOREl2SGE2LWNuLXNRNHRDV1dUeDY3LVlxWlRfRk5mcEhXSWJhX1QwdTY1d0hMMHRmdEdXZ21pemxGNU1zUWNyN0pjUUtFSGljWQ?oc=5",
     "pub": "Sun, 13 Sep 2026 02:39:12 GMT",
     "src": "Moomoo",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Industry Braces for Years-Long Iran War - oilprice.com",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONE56Q0YwT3QtWkRMbTBuSF9mZHZmcWlqM0kzaWl4YXptZ2E1anREcHlKdm5qckY3SVJzaXpXRm9Ncm05a3pmY1ZOYnlDZlF0SFhjNkYyT0pfNk45a3VqM1FZOWhNdjB0Xy1ReDc1MDNaa1NBNUdDVUpmMmpBLTNvNTZXODlnNHFSc3UxeDBELULSAZYBQVVfeXFMTVNlUmRXWGNUUFcxR2RZWkVKU2ZUOFhwQWtGWEwySGVEVlFhTW15dGo5YWROVWxBU2pvUXBJZ3VacEJscUk3bTFPY0puaXhtLVF1Zm41alNkeHBiMXhmRnhuc1hHa05MUkQ0bk5iNVhFaERrbzBjZHFkMEpyNTRuemg3TVJMY0tqRXNnb2RCSElETVJyYmNR?oc=5",
-    "pub": "Sat, 12 Sep 2026 23:00:00 GMT",
-    "src": "oilprice.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    62818.65,
    77755.27,
    77667.57,
-   76682.02
+   76692.3
   ],
   "vixts": [
    0.948,
@@ -2429,9 +2429,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T12:41:45+00:00",
+  "checked": "2026-09-13T12:51:46+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

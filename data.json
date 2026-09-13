@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T03:32:39+00:00",
+ "updated": "2026-09-13T03:42:00+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77223.27,
-   "chg": 0.06,
-   "chg5": -2.39,
-   "sma20": 78585.38,
-   "sma50": 70908.0,
-   "sma200": 70234.36,
+   "price": 77189.16,
+   "chg": 0.02,
+   "chg5": -2.44,
+   "sma20": 78583.67,
+   "sma50": 70907.32,
+   "sma200": 70234.17,
    "high3m": 81271.74,
-   "reg": 77223.27,
+   "reg": 77189.16,
    "pre": null,
    "post": null,
-   "regClose": 77223.27,
+   "regClose": 77189.16,
    "sess": "reg",
-   "mt": 1789270325,
+   "mt": 1789270885,
    "ok": true
   },
   "USO": {
@@ -1225,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - Moomoo",
+    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - moomoo.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM29uTWh0N2REYlFUSE5DZmxHcTFVMWwtUVJlbmlLMUJRbWZBUDV3VFJjWFVaM2JaQVZfcEFWTmNlR3hiaXZqZzgwcnFVdXd1SE1xVXpLbkNxdTJJVGlOREl2SGE2LWNuLXNRNHRDV1dUeDY3LVlxWlRfRk5mcEhXSWJhX1QwdTY1d0hMMHRmdEdXZ21pemxGNU1zUWNyN0pjUUtFSGljWQ?oc=5",
     "pub": "Sun, 13 Sep 2026 02:39:12 GMT",
-    "src": "Moomoo",
+    "src": "moomoo.com",
     "trig": false,
     "geo": false
    },
@@ -1291,10 +1291,10 @@
     "geo": false
    },
    {
-    "title": "Copper Price Forecast: US Refined Copper Tariffs May Be Delayed, Copper Prices Plunge After Record High, Can They Still Rise? - tradingkey.com",
+    "title": "Copper Price Forecast: US Refined Copper Tariffs May Be Delayed, Copper Prices Plunge After Record High, Can They Still Rise? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQd1Q1TmwxZ1ZWU0tOdnBVTFk3WktlcjFiaDg4M0lrRDhSd2FwTEdXcjU3SW13TGRGZkpHRV9WT1ktMkpkN2N4YzNmNVRkS2NMYWdHSGVFMHZwTFhlR2JOZC1Ed3hnVEhubnFwRDRlWHpaZWhkR1lJaXVDXzNnanlwSVZaRVczazUwSF9vc1lYNGhFTjM4ZWtibWVTWHhBNGw0NWFRbDBjVEZobk90ek9nSzFGSFV0di1xTkQtdHlfZlRzUHVTeU9XQnhMWFM4SnpSOEpLRUVRcWlleU1rY1VMZzNnbTBRNzdCVy1DYmhWSzhndWc4ZzBkM1NscFpPZWZxZmlKNnotaFYxZW5F?oc=5",
     "pub": "Sun, 13 Sep 2026 02:05:23 GMT",
-    "src": "tradingkey.com",
+    "src": "TradingKey",
     "trig": true,
     "geo": false
    },
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77224.8
+   77189.15
   ],
   "vixts": [
    0.948,
@@ -2429,9 +2429,11 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T03:32:24+00:00",
+  "checked": "2026-09-13T03:41:46+00:00",
   "openai": {
-   "found": false
+   "found": true,
+   "ticker": "OAIW",
+   "name": "OpenAI Lab Ecosystem ETF"
   },
   "anthropic": {
    "found": false

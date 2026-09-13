@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T08:02:50+00:00",
+ "updated": "2026-09-13T08:11:55+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -18,20 +18,8 @@
    "ok": true
   },
   "AVGO": {
-   "price": 361.99,
-   "chg": 0.32,
-   "chg5": 1.35,
-   "sma20": 367.49,
-   "sma50": 383.09,
-   "sma200": 384.3,
-   "high3m": 427.76,
-   "reg": 361.99,
-   "pre": null,
-   "post": null,
-   "regClose": 361.99,
-   "sess": "reg",
-   "mt": 1789156801,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AMD": {
    "price": 516.13,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77107.39,
-   "chg": -0.21,
-   "chg5": -1.7,
-   "sma20": 78494.89,
-   "sma50": 71164.86,
-   "sma200": 70271.77,
+   "price": 77043.77,
+   "chg": -0.29,
+   "chg5": -1.78,
+   "sma20": 78491.7,
+   "sma50": 71163.59,
+   "sma200": 70271.42,
    "high3m": 81271.74,
-   "reg": 77107.39,
+   "reg": 77043.77,
    "pre": null,
    "post": null,
-   "regClose": 77107.39,
+   "regClose": 77043.77,
    "sess": "reg",
-   "mt": 1789286517,
+   "mt": 1789287083,
    "ok": true
   },
   "USO": {
@@ -1249,10 +1237,10 @@
     "geo": false
    },
    {
-    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - Moomoo",
+    "title": "What to Expect in the Week Ahead (Fed Interest Rate Decision) - moomoo.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPM29uTWh0N2REYlFUSE5DZmxHcTFVMWwtUVJlbmlLMUJRbWZBUDV3VFJjWFVaM2JaQVZfcEFWTmNlR3hiaXZqZzgwcnFVdXd1SE1xVXpLbkNxdTJJVGlOREl2SGE2LWNuLXNRNHRDV1dUeDY3LVlxWlRfRk5mcEhXSWJhX1QwdTY1d0hMMHRmdEdXZ21pemxGNU1zUWNyN0pjUUtFSGljWQ?oc=5",
     "pub": "Sun, 13 Sep 2026 02:39:12 GMT",
-    "src": "Moomoo",
+    "src": "moomoo.com",
     "trig": false,
     "geo": false
    },
@@ -1291,10 +1279,10 @@
     "geo": false
    },
    {
-    "title": "Copper Price Forecast: US Refined Copper Tariffs May Be Delayed, Copper Prices Plunge After Record High, Can They Still Rise? - TradingKey",
+    "title": "Copper Price Forecast: US Refined Copper Tariffs May Be Delayed, Copper Prices Plunge After Record High, Can They Still Rise? - tradingkey.com",
     "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQd1Q1TmwxZ1ZWU0tOdnBVTFk3WktlcjFiaDg4M0lrRDhSd2FwTEdXcjU3SW13TGRGZkpHRV9WT1ktMkpkN2N4YzNmNVRkS2NMYWdHSGVFMHZwTFhlR2JOZC1Ed3hnVEhubnFwRDRlWHpaZWhkR1lJaXVDXzNnanlwSVZaRVczazUwSF9vc1lYNGhFTjM4ZWtibWVTWHhBNGw0NWFRbDBjVEZobk90ek9nSzFGSFV0di1xTkQtdHlfZlRzUHVTeU9XQnhMWFM4SnpSOEpLRUVRcWlleU1rY1VMZzNnbTBRNzdCVy1DYmhWSzhndWc4ZzBkM1NscFpPZWZxZmlKNnotaFYxZW5F?oc=5",
     "pub": "Sun, 13 Sep 2026 02:05:23 GMT",
-    "src": "TradingKey",
+    "src": "tradingkey.com",
     "trig": true,
     "geo": false
    },
@@ -1610,7 +1598,7 @@
    62818.65,
    77755.27,
    77667.57,
-   77135.0
+   77049.17
   ],
   "vixts": [
    0.948,
@@ -2420,16 +2408,18 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "AVGO"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 57,
-  "n": 35
+  "pct50": 59,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-09-13T08:02:38+00:00",
+  "checked": "2026-09-13T08:11:44+00:00",
   "openai": {
    "found": false
   },

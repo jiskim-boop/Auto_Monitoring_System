@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T01:32:23+00:00",
+ "updated": "2026-09-13T01:42:00+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77228.26,
-   "chg": 0.07,
-   "chg5": -2.39,
-   "sma20": 78585.63,
-   "sma50": 70908.1,
-   "sma200": 70234.39,
+   "price": 77271.83,
+   "chg": 0.13,
+   "chg5": -2.33,
+   "sma20": 78587.81,
+   "sma50": 70908.97,
+   "sma200": 70234.62,
    "high3m": 81271.74,
-   "reg": 77228.26,
+   "reg": 77271.83,
    "pre": null,
    "post": null,
-   "regClose": 77228.26,
+   "regClose": 77271.83,
    "sess": "reg",
-   "mt": 1789263104,
+   "mt": 1789263691,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "O3b mPOWER Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
+    "pub": "Sun, 13 Sep 2026 01:40:10 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI CEO Rules Out 2026 IPO, Citing AI Safety Concerns - Northeast Times",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa3RwbVFfS09fUUo2XzJRU3I2X0pnVEUzYnZCS0d5Y3FCd05PeUVHN2JoT2ZMRnM4VEJ4azBSeW9uTW05Z2ZESHhOdmQ1aXdmaVJwRXA1Q0RzTG5XQzFLbm9xUzRlcWZsMUFhY3dVNUp5a3BwblY4Qml1NF94TXJhb0gyaVlDdHNaYTJ5TmtsMjc3NTFNSXhmMnN3?oc=5",
     "pub": "Sat, 12 Sep 2026 23:54:22 GMT",
@@ -1188,14 +1196,6 @@
     "pub": "Sat, 12 Sep 2026 23:39:51 GMT",
     "src": "voz.us",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "O3b mPOWER Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBIYUsyVG9uT19hQ3VRelpYX3RvZUVkclgxbXJFdGtvSFJGa0pqU0dxbnBnX1N0b3pKNTh0V3BjSFVROXFDMkQ5Zk43SU9sc0o2alE?oc=5",
-    "pub": "Sat, 12 Sep 2026 23:36:33 GMT",
-    "src": "SpaceX",
-    "trig": false,
     "geo": false
    },
    {
@@ -1215,10 +1215,10 @@
     "geo": false
    },
    {
-    "title": "Altman: IPO unlikely this year - politico.com",
+    "title": "Altman: IPO unlikely this year - Politico",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5idkxmTGxtak5KbG82VFRsbllKWjFuS011Q3IyNHN3MFV3bWRnQzd1dmNaNEE2U1hGUU9RSEZsUzZqYVdIMmdTQzR0SDBtam54RENNVXhxYWJvZHQ0cTk2OVRKQWJ0QV9Vc1FYZzBHeENPQ2Ywa29KMU1Bbw?oc=5",
     "pub": "Sat, 12 Sep 2026 22:02:00 GMT",
-    "src": "politico.com",
+    "src": "Politico",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "CFTC Data Show Speculators Flip to Net Long Yen as Carry Trade Unwinds - VT Markets",
+    "title": "CFTC Data Show Speculators Flip to Net Long Yen as Carry Trade Unwinds - vtmarkets.com",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOX0VFcXlkTFhVRFdReEk4QjV6WTZqcWhERlJQMV9MN1h5bmJDVHBxY1FfLWpJUXIwenZvSmJaOWZFUDZfWlhndjZYclZ2TVk3Z25xNkotR2owa3dKSUp5aFR3NkRRRUlDQk9IT3FKUldNNklQcmdBdmtyMzczVjRDSEhHNkdkY3JIZEZPWFpUcncyVFpBWjZ5Qkp6bTFMWTFxNkVkcno0Z0h4SFpYZEg2OThnZHNoaXpERVE?oc=5",
     "pub": "Sat, 12 Sep 2026 08:55:54 GMT",
-    "src": "VT Markets",
+    "src": "vtmarkets.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    63024.32,
    77083.41,
    78245.81,
-   77228.26
+   77279.98
   ],
   "vixts": [
    0.948,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 15
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2428,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T01:32:04+00:00",
+  "checked": "2026-09-13T01:41:48+00:00",
   "openai": {
    "found": false
   },

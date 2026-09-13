@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-13T21:42:08+00:00",
+ "updated": "2026-09-13T21:52:03+00:00",
  "prices": {
   "NVDA": {
    "price": 218.29,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77355.79,
-   "chg": 0.11,
-   "chg5": -1.38,
-   "sma20": 78507.31,
-   "sma50": 71169.83,
-   "sma200": 70273.11,
+   "price": 77308.21,
+   "chg": 0.05,
+   "chg5": -1.44,
+   "sma20": 78504.93,
+   "sma50": 71168.88,
+   "sma200": 70272.85,
    "high3m": 81271.74,
-   "reg": 77355.79,
+   "reg": 77308.21,
    "pre": null,
    "post": null,
-   "regClose": 77355.79,
+   "regClose": 77308.21,
    "sess": "reg",
-   "mt": 1789335692,
+   "mt": 1789336294,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 153.41,
-   "chg": -0.69,
-   "chg5": -1.78,
+   "price": 153.39,
+   "chg": -0.71,
+   "chg5": -1.8,
    "sma20": 157.58,
-   "sma50": 159.7,
+   "sma50": 159.69,
    "sma200": 159.55,
    "high3m": 163.86,
-   "reg": 153.41,
+   "reg": 153.39,
    "pre": null,
    "post": null,
-   "regClose": 153.41,
+   "regClose": 153.39,
    "sess": "reg",
-   "mt": 1789335691,
+   "mt": 1789336296,
    "ok": true
   },
   "ES=F": {
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Stock Futures Poised to Trade Ahead of Fed Rate Decision - barrons.com",
+    "title": "Stock Futures Poised to Trade Ahead of Fed Rate Decision - Barron's",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5DS0dEakhraTBKLV9LN2NiSDJ4VnMzTzB6VnB1dkxvYVdQUVo4bEFHdGdtT011NmNqV05pYmNmeUt6M3JFaHJyU0ItRWFiYWlLSUdJMWRXN29lOEJ3NXRZbWFsUGxrTXY5YlRWQmtvZ0JMQTN6WDhCdDNB?oc=5",
     "pub": "Sun, 13 Sep 2026 18:08:00 GMT",
-    "src": "barrons.com",
+    "src": "Barron's",
     "trig": false,
     "geo": false
    },
@@ -1274,6 +1274,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Further Oil Price Spikes Could Rekindle Recession Fears - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdERGM1lxRUJ0U1ZNVEZmbWJsNV9takZ5ZHZwZnd2OF96VjZwY01oY2dTMG1pdS0zM3R5WUY5Zi1SeTdYSkNrMWk3a3RscXhtUVhBUHRmZnVmZG9yU2dUeGpObmFSRGZGZGRYRDloclE3MmJhWkplaDRYYXJ3N0lKR1RJUHo4c0NkZGJRNjlLclczdDVkTzM0clRDdHJCQi1N0gGmAUFVX3lxTE5hZ1pkVWx1Zy03Zm13S2tmMjBzZkMzNXMwa2FPcXg1aHRzUVpGQVMtcTc4bGxYTGlVNjVQNnBkZ0pkRWs0Rk1uVjNhSmFTcnlQM3ZDQkd0WWFtUllybUFvMUg5TG83bDFEcWQzZHhoUU12ZkV1aVFLQjFrUHc3bTI4T3BxOUhJLVhIN0hfVC0yUURia1h2NVl0c1FTeU9MakpXZTNucUE?oc=5",
+    "pub": "Sun, 13 Sep 2026 21:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Copper’s Record Rally Highlights a Deeper Supply Problem - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWTh3Ym9TZ2FyY1BocFhDWkxrcVdWVGZ3Z2FqTmRydTI0RkI0UXFuaDAxamhYdDVBMERwWVZNRTV6amgxT3pWX3NkMmQ3TWpsUXdqYzhrSXR4ZGswSXJSQWh2WEtCLTdtWThLa2tYejFIeFRrWEhyOWo0VWpra25HUHdicURXSTlOQkhUNHZqUUxWQXZOMVVN?oc=5",
@@ -1312,14 +1320,6 @@
     "pub": "Sun, 13 Sep 2026 02:05:23 GMT",
     "src": "TradingKey",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Freeport-McMoRan (FCX) Slides On Copper Tariff Doubts, Is Fair Value Still Higher? - simplywall.st",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQZ3ByNVpkNGpSeVd5cVhlaVE4SDY2YUhEZUZESUJJenBYR3d6ekVndHlMM2d5QmdfZjdQVFptMk16Q2tFMzY0VzlCalpXemRWeExFcWwyckg5WldjZlk3b0VNTDZqc0ZUN281NVZROEh4ZnUyRHVrc29BRjVSbHZqTjdwLWp0V19OOExxdlFMdXlJQ0lKR2I4REFNUlVMVm1fSVpfRXdEOS03SkJYOTdpb2xGQ01TaTUxUkphQ3Z0OEw1Zl9vbk9SckZ3UF9WT1I0YnfSAdIBQVVfeXFMUGdwcjVaZDRqUnlXeXFYZWlROEg2NmFIRGVGRElCSXpwWEd3enpFZ3R5TDNneUJnX2Y3UFRabTJNekNrRTM2NFc5QmpaV3pkVnhMRXFsMnJIOVpXY2ZZN29FTUw2anNGVDdvNTVWUThIeGZ1MkR1a3NvQUY1Umx2ak43cC1qdFdfTjhMcXZRTHV5SUNJSkdiOERBTVJVTFZtX0laX0V3RDktN0pCWDk3aW9sRkNNU2k1MVJKYUN2dDhMNWZfb25PUnJGd1BfVk9SNGJ3?oc=5",
-    "pub": "Sat, 12 Sep 2026 23:22:22 GMT",
-    "src": "simplywall.st",
-    "trig": false,
     "geo": false
    }
   ]
@@ -1550,7 +1550,7 @@
    159.22,
    158.9,
    160.12,
-   153.41
+   153.4
   ],
   "uso": [
    125.43,
@@ -1610,7 +1610,7 @@
    62818.65,
    77755.27,
    77667.57,
-   77364.35
+   77308.44
   ],
   "vixts": [
    0.948,
@@ -2429,7 +2429,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-13T21:41:55+00:00",
+  "checked": "2026-09-13T21:51:50+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-15T04:11:52+00:00",
+ "updated": "2026-09-15T04:21:57+00:00",
  "prices": {
   "NVDA": {
    "price": 210.96,
@@ -50,20 +50,8 @@
    "ok": true
   },
   "TSM": {
-   "price": 418.01,
-   "chg": -3.52,
-   "chg5": -2.54,
-   "sma20": 421.29,
-   "sma50": 418.61,
-   "sma200": 404.75,
-   "high3m": 477.57,
-   "reg": 418.01,
-   "pre": null,
-   "post": null,
-   "regClose": 418.01,
-   "sess": "reg",
-   "mt": 1789416003,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "ASML": {
    "price": 1575.15,
@@ -162,35 +150,35 @@
    "ok": true
   },
   "005930.KS": {
-   "price": 250500.0,
-   "chg": 0.6,
-   "chg5": -7.05,
-   "sma20": 260625.0,
-   "sma50": 257540.0,
-   "sma200": 260198.81,
+   "price": 249500.0,
+   "chg": 0.2,
+   "chg5": -7.42,
+   "sma20": 260575.0,
+   "sma50": 257520.0,
+   "sma200": 260190.87,
    "high3m": 362500.0,
-   "reg": 250500.0,
+   "reg": 249500.0,
    "pre": null,
    "post": null,
-   "regClose": 250500.0,
+   "regClose": 249500.0,
    "sess": "reg",
-   "mt": 1789444252,
+   "mt": 1789444855,
    "ok": true
   },
   "000660.KS": {
-   "price": 1717000.0,
-   "chg": 1.18,
-   "chg5": -4.24,
-   "sma20": 1703750.0,
-   "sma50": 1732720.0,
-   "sma200": 1703642.86,
+   "price": 1705000.0,
+   "chg": 0.47,
+   "chg5": -4.91,
+   "sma20": 1703150.0,
+   "sma50": 1732480.0,
+   "sma200": 1703547.62,
    "high3m": 2919000.0,
-   "reg": 1717000.0,
+   "reg": 1705000.0,
    "pre": null,
    "post": null,
-   "regClose": 1717000.0,
+   "regClose": 1705000.0,
    "sess": "reg",
-   "mt": 1789444253,
+   "mt": 1789444855,
    "ok": true
   },
   "ANET": {
@@ -804,7 +792,7 @@
   "DX-Y.NYB": {
    "price": 99.6,
    "chg": 0.14,
-   "chg5": 0.76,
+   "chg5": 0.77,
    "sma20": 99.19,
    "sma50": 100.0,
    "sma200": 99.63,
@@ -814,7 +802,7 @@
    "post": null,
    "regClose": 99.6,
    "sess": "reg",
-   "mt": 1789444879,
+   "mt": 1789445483,
    "ok": true
   },
   "^IRX": {
@@ -898,35 +886,35 @@
    "ok": true
   },
   "^KS11": {
-   "price": 6688.36,
-   "chg": 0.06,
-   "chg5": -3.83,
-   "sma20": 6799.46,
-   "sma50": 6752.33,
-   "sma200": 6968.54,
+   "price": 6665.7,
+   "chg": -0.28,
+   "chg5": -4.15,
+   "sma20": 6798.33,
+   "sma50": 6751.88,
+   "sma200": 6968.36,
    "high3m": 9114.55,
-   "reg": 6688.36,
+   "reg": 6665.7,
    "pre": null,
    "post": null,
-   "regClose": 6688.36,
+   "regClose": 6665.7,
    "sess": "reg",
-   "mt": 1789444280,
+   "mt": 1789444880,
    "ok": true
   },
   "^KQ11": {
-   "price": 821.52,
-   "chg": 1.83,
-   "chg5": 1.19,
-   "sma20": 821.21,
-   "sma50": 801.27,
-   "sma200": 971.78,
+   "price": 819.14,
+   "chg": 1.53,
+   "chg5": 0.89,
+   "sma20": 821.09,
+   "sma50": 801.23,
+   "sma200": 971.76,
    "high3m": 1031.96,
-   "reg": 821.52,
+   "reg": 819.14,
    "pre": null,
    "post": null,
-   "regClose": 821.52,
+   "regClose": 819.14,
    "sess": "reg",
-   "mt": 1789444280,
+   "mt": 1789444880,
    "ok": true
   },
   "GLD": {
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77653.75,
-   "chg": 1.06,
-   "chg5": -0.77,
-   "sma20": 78435.86,
-   "sma50": 71405.74,
-   "sma200": 70301.51,
+   "price": 77636.42,
+   "chg": 1.04,
+   "chg5": -0.8,
+   "sma20": 78435.0,
+   "sma50": 71405.4,
+   "sma200": 70301.42,
    "high3m": 81271.74,
-   "reg": 77653.75,
+   "reg": 77636.42,
    "pre": null,
    "post": null,
-   "regClose": 77653.75,
+   "regClose": 77636.42,
    "sess": "reg",
-   "mt": 1789445481,
+   "mt": 1789446088,
    "ok": true
   },
   "USO": {
@@ -978,105 +966,105 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 154.67,
-   "chg": 0.81,
-   "chg5": 0.53,
-   "sma20": 157.34,
+   "price": 154.71,
+   "chg": 0.84,
+   "chg5": 0.55,
+   "sma20": 157.35,
    "sma50": 159.55,
    "sma200": 159.53,
    "high3m": 163.86,
-   "reg": 154.67,
+   "reg": 154.71,
    "pre": null,
    "post": null,
-   "regClose": 154.67,
+   "regClose": 154.71,
    "sess": "reg",
-   "mt": 1789445487,
+   "mt": 1789446091,
    "ok": true
   },
   "ES=F": {
-   "price": 7682.25,
-   "chg": 0.75,
-   "chg5": -0.51,
-   "sma20": 7689.2,
-   "sma50": 7636.16,
-   "sma200": 7369.07,
+   "price": 7681.25,
+   "chg": 0.74,
+   "chg5": 0.01,
+   "sma20": 7684.82,
+   "sma50": 7637.96,
+   "sma200": 7371.53,
    "high3m": 7822.5,
-   "reg": 7682.25,
+   "reg": 7681.25,
    "pre": null,
    "post": null,
-   "regClose": 7625.0,
+   "regClose": 7681.25,
    "sess": "24h",
-   "mt": 1789444798,
+   "mt": 1789445492,
    "ok": true
   },
   "NQ=F": {
-   "price": 29416.25,
-   "chg": 0.91,
-   "chg5": -0.5,
-   "sma20": 29415.96,
-   "sma50": 29311.25,
-   "sma200": 28378.45,
+   "price": 29415.75,
+   "chg": 0.9,
+   "chg5": -0.42,
+   "sma20": 29381.95,
+   "sma50": 29300.74,
+   "sma200": 28386.62,
    "high3m": 30653.5,
-   "reg": 29416.25,
+   "reg": 29415.75,
    "pre": null,
    "post": null,
-   "regClose": 29152.25,
+   "regClose": 29415.75,
    "sess": "24h",
-   "mt": 1789444797,
+   "mt": 1789445493,
    "ok": true
   },
   "YM=F": {
-   "price": 52722.0,
+   "price": 52723.0,
    "chg": 0.54,
    "chg5": -0.21,
-   "sma20": 53123.4,
-   "sma50": 53080.44,
-   "sma200": 50973.11,
+   "sma20": 53123.45,
+   "sma50": 53080.46,
+   "sma200": 50973.12,
    "high3m": 54494.0,
-   "reg": 52722.0,
+   "reg": 52723.0,
    "pre": null,
    "post": null,
-   "regClose": 52722.0,
+   "regClose": 52723.0,
    "sess": "24h",
-   "mt": 1789444850,
+   "mt": 1789445433,
    "ok": true
   },
   "GC=F": {
-   "price": 4343.3,
-   "chg": -0.2,
-   "chg5": -1.15,
-   "sma20": 4465.3,
-   "sma50": 4275.35,
-   "sma200": 4420.66,
+   "price": 4345.6,
+   "chg": -0.14,
+   "chg5": -1.1,
+   "sma20": 4465.42,
+   "sma50": 4275.4,
+   "sma200": 4420.68,
    "high3m": 4640.8,
-   "reg": 4343.3,
+   "reg": 4345.6,
    "pre": null,
    "post": null,
-   "regClose": 4343.3,
+   "regClose": 4345.6,
    "sess": "24h",
-   "mt": 1789444888,
+   "mt": 1789445490,
    "ok": true
   },
   "CL=F": {
-   "price": 102.97,
-   "chg": 1.56,
-   "chg5": 10.68,
+   "price": 102.95,
+   "chg": 1.54,
+   "chg5": 10.66,
    "sma20": 90.4,
    "sma50": 84.57,
    "sma200": 89.22,
-   "high3m": 102.97,
-   "reg": 102.97,
+   "high3m": 102.95,
+   "reg": 102.95,
    "pre": null,
    "post": null,
-   "regClose": 102.97,
+   "regClose": 102.95,
    "sess": "24h",
-   "mt": 1789444885,
+   "mt": 1789445489,
    "ok": true
   },
   "HG=F": {
    "price": 6.4,
    "chg": 1.07,
-   "chg5": -5.07,
+   "chg5": -5.06,
    "sma20": 6.55,
    "sma50": 6.47,
    "sma200": 6.22,
@@ -1086,7 +1074,7 @@
    "post": null,
    "regClose": 6.4,
    "sess": "24h",
-   "mt": 1789444883,
+   "mt": 1789445494,
    "ok": true
   },
   "ZN=F": {
@@ -1102,7 +1090,7 @@
    "post": null,
    "regClose": 105.84,
    "sess": "24h",
-   "mt": 1789444806,
+   "mt": 1789445493,
    "ok": true
   },
   "EWY": {
@@ -1149,10 +1137,18 @@
     "geo": false
    },
    {
-    "title": "HD Hyundai receives U.S. approval for barge-mounted power plant - en.yna.co.kr",
+    "title": "HD Hyundai receives U.S. approval for barge-mounted power plant - Yonhap News Agency",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE96ZXp4a3NLNlFTTUZ1aE1VRkxpQlNIVkZuN2IzMEpJaFp3dTBPeFY3M2FuVktUS3JIalljZjJNMGVlb3d2NW9XVndMdnVYdnBpZmI5Q0FzZTRoUQ?oc=5",
     "pub": "Tue, 15 Sep 2026 02:30:01 GMT",
-    "src": "en.yna.co.kr",
+    "src": "Yonhap News Agency",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "HD Hyundai wins AIP for barge power plant, targets global power market - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNZXBvR0c0bkx4NEZUbllkakFzWVlyNmJubEhSNTlPUjMwZFRNakVoSld5c3hoNWNUeFdtZ1ZTWTd1V181R1JOeVc1SWlPOEd6T3RVeUFQcVMyUnhvU2N0b2RBUFZ2M25pdHhPbXNkbDNHcmVMbk02OWN4YTZzaEVxVkNqcU9fNmMwZ082RE9TUHY2dHdpaWfSAZYBQVVfeXFMTWVwb0dHNG5MeDRGVG5ZZGpBc1lZcjZibmxIUjU5T1IzMGRUTWpFaEpXeXN4aDVjVHhXbWdWU1k3dVdfNUdSTnlXNUlpTzhHek90VXlBUHFTMlJ4b1NjdG9kQVBWdjNuaXR4T21zZGwzR3JlTG5NNjljeGE2c2hFcVZDanFPXzZjMGdPNkRPU1B2NnR3aWln?oc=5",
+    "pub": "Tue, 15 Sep 2026 02:30:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    },
@@ -1161,14 +1157,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQS2JITEcxV3A0SkdleXA5MDcyMm5jUE5tVkdqX2t2dV85enQwRU5sekhVTkxaQ0d5X3B3cTRtdS0tZU50YzdkT0c1djlqSk9oY3pfWXlub0JLSWZiU1JhRkY0bzYyWnFwRkhqeFg5M2haRFEwMEU4QVJkNE9yUU9qQVJqOHkyZTVaTUJHV2RoLVRQaDZY?oc=5",
     "pub": "Mon, 14 Sep 2026 21:55:30 GMT",
     "src": "Traders Union",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave draws $2.6B AI loan at SOFR +5.5%, triple Nebius's rate - Dealroom",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOaUViX0J2VTBQWWxzQ01oaWxjb2pEU0ZNM3NfZDljM3Zjd3V0bjhsRGMzREdDY1dkUmx3QkFHLTVWRnl4Rms4anBxcmN2Ql9NYlc1bVZELTI4NS02QmE4SXRBaWFmQkl3NHotX1Zad3BmcllBcmx6T09oOFpHOUgzR2FaM2RoNFIxWlFHV3dzb1FOdzJVc0ZYd21nSQ?oc=5",
-    "pub": "Mon, 14 Sep 2026 21:06:02 GMT",
-    "src": "Dealroom",
     "trig": false,
     "geo": false
    }
@@ -1183,18 +1171,18 @@
     "geo": false
    },
    {
-    "title": "Musk's X Corp and SpaceXAI resolve antitrust lawsuit against Apple - Firstpost",
+    "title": "Musk's X Corp and SpaceXAI resolve antitrust lawsuit against Apple - firstpost.com",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNZUEwSEFCV2VSMTIyQXgwamQtNDFBYzZORFN2QjVVSlgzaXMzeTRZSTgtWFAzWnpaMTc0dmR3ZmdZSXUxUy01R1pxd1hhaGtJZUZMMXhrWmtHZnZhV2x4SmFfSl9zTlFpaEdOcW5UQ0t6Vm5IaU41dlRzUXlOeW9tbFZfQV91OG1oSWo1WktDS3NLSlpYRUFLejU4blVuS2MyUjdEZmVMelJCXy1aU0xv0gG0AUFVX3lxTE1tcVZndlY5WEVDQm9GVmk0NGVDQmdEYkQ0NTZSYjRwaXlUMHJ0YzdwakNPYklJMjFERFEwTkUyMzB5OFUyVXZVWndNZmx2YkczbkNFWUJWc3V2dmtCdnE3bGNYd04yOXdpakNTMUwxSjJRNXVGLXE3U2ROQjIyckt0OXBGZHlFOXJTUFVpajQyVmdzMU5oVWJ4R09TQjh2SHJkTG0zazEzSFFPSk9iakY4VjRWcg?oc=5",
     "pub": "Tue, 15 Sep 2026 03:34:38 GMT",
-    "src": "Firstpost",
+    "src": "firstpost.com",
     "trig": true,
     "geo": false
    },
    {
-    "title": "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity - digitimes.com",
+    "title": "TSMC 3nm, 2nm, and CoWoS stay tight as AWS, MediaTek, TPU shift capacity - digitimes",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMWlJSzVXejJINEpIdUVtNkFtendtcW9LYUFWUkpmbDF1WWpoNlJMRUhQNlA0RXhJZ0xDUS1MY0hyTmhsWUlXaUdqTmdPdlpMS0FFLVhtV2tndHZNRkhNdjBmd1pJeFBtX01DOE1PV1NmNjlIbklTaHhMUU9oeEFqSTdEZ1I?oc=5",
     "pub": "Tue, 15 Sep 2026 03:30:07 GMT",
-    "src": "digitimes.com",
+    "src": "digitimes",
     "trig": false,
     "geo": false
    },
@@ -1233,14 +1221,6 @@
     "geo": false
    },
    {
-    "title": "Venezuela to join G20 energy meetings in Texas at US's invitation - France 24",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPZmx6cEx0TmNoN3Y4ZXNVN1B4ZDE5VFNFUmdkLUJwcUZlZjFlalNrZ1BUR0w5Qzc2dkFfUVVyb1ZPVGFMNTJGLUJNOU8zVUJHN1EzamNBNTVXT3pKZ2tHRmlYei11dkYzWjN0dWExUjFlTkczQTF0alU0MjhFa2xEZFVnVXE4OEZaQXVMMnFCWkRxd045RFZZMHNxNTIzWU1kVDY4ZlUxSFNUTmpRb2c?oc=5",
-    "pub": "Tue, 15 Sep 2026 02:44:46 GMT",
-    "src": "France 24",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Tight Supply Worries Lift Oil As Middle East Conflict Heats Up - WSJ",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPWFBUTWh0bXNxSnhsbmZLVjFFUDNTYTRlT3FKcW1VSlppUnYzT2J3VklDUzhBMVZxSWlzcGkyOGkwcmpGVllpUEFaaFlnaXJFcE5iUTlWOTRTWjRrVHh0MG5ELVhBZ0N2SG1qdGhXQnh1RGRCS29rZ1ZyOThzbk5fSmxiS2g0dXZ0SXY2aFFMbEhJYm9ENXkwQ1l3NTZLQm5TV2FTRQ?oc=5",
     "pub": "Tue, 15 Sep 2026 02:36:17 GMT",
@@ -1271,6 +1251,14 @@
     "src": "WSJ",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Speculation builds over Fed interest rate decision - FOX 13 Seattle",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NNDNiR0hQY29XeGptd3FYaWpKWU0tQi0xeG1xYkcwSDR2OHZHZXRxaHpPMHBsWUlGbmZ6czJuNWtRb0I5dElLc3doa2l5M19Nb0hTaE9BZWtFZzItLU55UWR3bGhMd9IBa0FVX3lxTE1Rc29IV3ZleGFQOU5xUFl4LWJmTzNUeWwwNkYyWllRNkxDOWM3UkgyUy1iSkxyZ1ZZak14U3dPbDZjQ0lJclRiSWZOWkNfTU5CVVBhMjFxR2ItaGdaSHdPWTEtZ1JkeWpRUWdr?oc=5",
+    "pub": "Mon, 14 Sep 2026 23:43:07 GMT",
+    "src": "FOX 13 Seattle",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1299,10 +1287,10 @@
     "geo": false
    },
    {
-    "title": "Costco hikes motor oil prices and puts limits on how much members can buy - cnbc.com",
+    "title": "Costco hikes motor oil prices and puts limits on how much members can buy - CNBC",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE53bGl3MDJpWXVfUkZzY1FCa1FrMndxVTB5T0s4eHNWejVtWnpMWmctZm1FdktPSmpJaDk5T2c0M0hmWUVXMTZPSFVsQVZUcWhCTXFZNk95c2g5ckt4OEY4MEwyaFlaSlBBWnU1NVN0djBtSDNxV1HSAXtBVV95cUxPOW9TZm83d0RxY2FRM21TM1gzekZMNkdXZmM3MEd6UWJBb3J3VGVPUm50QVcyZGYtbmt5bkFxNkM0c1NMVTN6a0JXbk84ZWZvLVBqbE0yVUI0cWdITlFYUzViajRtTGs1VVl6QXJ1eVpSYUpiUmhvU2lTMms?oc=5",
     "pub": "Mon, 14 Sep 2026 21:29:39 GMT",
-    "src": "cnbc.com",
+    "src": "CNBC",
     "trig": false,
     "geo": false
    },
@@ -1505,7 +1493,7 @@
    99.65,
    98.92,
    99.67,
-   99.6
+   99.61
   ],
   "bizd": [
    12.54,
@@ -1550,7 +1538,7 @@
    159.34,
    159.14,
    159.75,
-   154.68
+   154.7
   ],
   "uso": [
    121.21,
@@ -1610,7 +1598,7 @@
    64506.25,
    78964.48,
    78548.63,
-   77652.4
+   77660.96
   ],
   "vixts": [
    0.837,
@@ -2431,16 +2419,18 @@
   22
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "TSM"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 23,
-  "n": 35
+  "pct50": 24,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-09-15T04:11:41+00:00",
+  "checked": "2026-09-15T04:21:46+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-16T21:42:04+00:00",
+ "updated": "2026-09-16T21:52:05+00:00",
  "prices": {
   "NVDA": {
    "price": 213.9,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.31,
+   "price": 100.32,
    "chg": 0.67,
-   "chg5": 1.56,
+   "chg5": 1.57,
    "sma20": 99.23,
    "sma50": 99.98,
    "sma200": 99.64,
    "high3m": 101.61,
-   "reg": 100.31,
+   "reg": 100.32,
    "pre": null,
    "post": null,
    "regClose": 100.32,
    "sess": "reg",
-   "mt": 1789594286,
+   "mt": 1789594886,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75901.01,
+   "price": 75900.37,
    "chg": 0.38,
    "chg5": -1.65,
-   "sma20": 78072.77,
-   "sma50": 71894.28,
+   "sma20": 78072.74,
+   "sma50": 71894.27,
    "sma200": 70349.79,
    "high3m": 81271.74,
-   "reg": 75901.01,
+   "reg": 75900.37,
    "pre": null,
    "post": null,
-   "regClose": 75901.01,
+   "regClose": 75900.37,
    "sess": "reg",
-   "mt": 1789594888,
+   "mt": 1789595489,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.2,
+   "price": 156.21,
    "chg": 0.6,
    "chg5": 1.71,
    "sma20": 157.01,
    "sma50": 159.27,
    "sma200": 159.47,
    "high3m": 163.86,
-   "reg": 156.2,
+   "reg": 156.21,
    "pre": null,
    "post": null,
-   "regClose": 156.2,
+   "regClose": 156.21,
    "sess": "reg",
-   "mt": 1789594894,
+   "mt": 1789595495,
    "ok": true
   },
   "ES=F": {
@@ -1076,7 +1076,7 @@
   "HG=F": {
    "price": 6.44,
    "chg": 1.15,
-   "chg5": -5.32,
+   "chg5": -5.31,
    "sma20": 6.55,
    "sma50": 6.47,
    "sma200": 6.22,
@@ -1176,7 +1176,7 @@
   "fundamental": [
    {
     "title": "Copyright Lawsuit Against OpenAI and Microsoft Grows to More Than 550 Publications - Insider NJ",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNmlRM3VyOXJvWURaSHgzMEd2U3N4VVRLVlhrUEFqTVlxR1VQSm8tMXR4bHJPbkRqeVM2bjVhVkt0Qjd2bUk1NW1GanN3V1RCOEVmQzV3dVRaN1Y4X2ZYMDFnSTFBemZkWTdkMmJpM20yVGZzYlUzV3hrR2hsMmJsYjhqTkFfbldoY1d5N2RMNzdKUm9XUkFXOTVjU2ljbW01dlFiZWF2cllyWHR6Y2FkeWJqVW5tSmhvRDF3UVVTRS0?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOY3o3bXIzTzNydlN1VWtoTEVpTVh1cWRfWUpIU1oxdmxGUm9CaUllT3FuSFZrMXlhc3RsdlVJclB1NUdTcHB1MWg5dFROOXh0Vy1lVTZxaVoyVzNvMW96Sm9CZ1MxM2JCSGJ6ZktFSjgxRWx2eGJCbjRNeUpEa3JMLTZWS0lJZ2dQdE03OUIwM05XQmpYMkF3dXptVndzMURJTWhHS2xra3NLcUlYaEE?oc=5",
     "pub": "Wed, 16 Sep 2026 20:47:00 GMT",
     "src": "Insider NJ",
     "trig": true,
@@ -1233,6 +1233,22 @@
     "geo": false
    },
    {
+    "title": "Trump demands lower interest rates after Fed decision - Axios",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB4NnNCai1Rcmc5dmZoWk1Fclc3U0p2VU5pV1N3S2t4eUIxUWJuMnV2LVNqOUE4ZGNIRnZnQnNLeXBBeUlzY29VVHhyaDQ1a2lTR2hQZEJVRkV0N2VoWk44ak96d3QxREhDOHZKVktuNzN4MVFnZ2FZ?oc=5",
+    "pub": "Wed, 16 Sep 2026 21:26:24 GMT",
+    "src": "Axios",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed Raises Rates in First Major Step by Warsh to Contain Inflation - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNRXNJaUw1MEZvcHA2N19Dd0hBbjlCYkFqOFNjclNYRTl4WkxkRENSbnZ2b1djdnZEN2FXZjJWVktja1BINHUxNkp6dFNPTHdkYy1nWXNVSUV4U1RzazVUajhndFlwUU5NVU10WkJ6MmU0YUhsa2tMTUVoVmV0c1BidFU1OHFiOXZ0bkpoaHdjWjh1a2piWWVqSw?oc=5",
+    "pub": "Wed, 16 Sep 2026 21:16:50 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Trump offers fiery response to Federal Reserve rate hike - The Hill",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNREJYYUpwQi1LREE0OFNCVUZZcnhRTGxzNXVFc1hSYjdCSmtnRWF5NFk3dUR6Q2xoT2xfQzRLLXVFY24tUXljQ0dWaFB5UlFCNnZQRU5TbXhyWS1xSXZScXY2ckRxNThCV193dGRQbTdpQzZBdnc3T1R2LXRrVElzdEl4cjdiZXh1QW1INENOaWNteVhobzZYMndR0gGfAUFVX3lxTFBfYnViN0FUQVY1U2oxRGpLOEd1VkZ6WDZ0NFdub3VvdTVuandDNms1TVJtNzgwMUNCVE9fbmtxZk9MZ2YydGNzc1czMERXX2JCbUpwY0hIeEdIblJpTS1jNFZwQ1dDU19JWDVnZmJyam9PZDB3ajRLWkk3M085Ym9vSFdycmJEX1UwZm1tM1JpX1ZvWVZOWWxzc0JscFZIOA?oc=5",
     "pub": "Wed, 16 Sep 2026 21:08:00 GMT",
@@ -1249,26 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Federal Reserve raises interest rates for the first time since 2023 - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9aQTI5TnA0bk5pNlk0b0E3NkpjR1Jfd1BFa1FwZ1ZhY01FS1NfMFBHVnBySWdFY1FBN1RibF9hZk1tU180bU1EdTFQS3JuNHotRE5TNjk1REFsdG5iY2hqeXpmeEJNMVNFWnQ5aF9fSQ?oc=5",
-    "pub": "Wed, 16 Sep 2026 20:54:56 GMT",
-    "src": "CBS News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump demands 1% or lower interest rate after first Fed hike since 2023 - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBzYXVXRVNMRmFVMkVqeGJMLVhsQklJNlVTOU4yN09nMVJMcXozWmJRUUFORlpzTTdBWHB2dU1aS1pGRkY0cWpBc3FjV1RaV3h1ZzdnbVVKQXNiVjBvY1NGYWFwRkdrQ2R6c3hyRjlGbzB6TXV10gF6QVVfeXFMTzlzVC1yMDVCc3UwVld5bEpIbm04VWx4Q3JYR1c4NVZDXy1YUElET05SNG82TVJnVUcydVo3UHozTHBXRDNQcm05YTRCOEo2M3BjTHUycko0MUZteEJzU0NRM2RsdWpJRkt0aU8weS1LRjhhVzdncWxiQXc?oc=5",
-    "pub": "Wed, 16 Sep 2026 20:45:38 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iran air traffic control strike causes flight delays amid US tensions - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeDdwRFRlUVhDeE5jN3RBUnRNSGJ4azB1RmZwLUs1UWxxQmgtSXJtNFpGSjlRSDd3T2VFTUlqUFZTbVphVklheHVWN2VSdm5pMFRkQkdJa3QyQ2p0bi1tSmhjRlBsOUhtWFBUQUhYUnBnc0JTb05zZGR4M2c4elVWTlZtczRwa0lWWWJiSXBFSHR2el9ELXF2VEFDVVpQUQ?oc=5",
-    "pub": "Wed, 16 Sep 2026 20:32:07 GMT",
-    "src": "Crypto Briefing",
+    "title": "US stocks slip after the Fed hikes interest rates and hints more increases may be on the way - AP News",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNTW5lU3JQLXljZW5VaC1SY3Y4Y1IzVk9ncDBrUVFuZHFkZXRQSVQzTVI4Y0x0Z1NwazVzVkR5cmNxWkdPOXE0VGNTd1M1YWVwZVlNclRQOC1JMmdxWXZSVnpiYXpBNFExNlc5RGJfbldXNmlVY0RlTWdlSW1wc25HNHlTQjdfRjloQ3FEMnRMNWZPTGxpZnUzRGVLUWQ?oc=5",
+    "pub": "Wed, 16 Sep 2026 20:55:00 GMT",
+    "src": "AP News",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    98.83,
    99.17,
    99.56,
-   100.31
+   100.32
   ],
   "bizd": [
    12.34,
@@ -1550,7 +1550,7 @@
    158.28,
    159.26,
    158.92,
-   156.2
+   156.21
   ],
   "uso": [
    114.23,
@@ -1610,7 +1610,7 @@
    69266.19,
    79027.42,
    77300.48,
-   75900.0
+   75900.69
   ],
   "vixts": null,
   "hyoas": [
@@ -2425,7 +2425,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-16T21:41:51+00:00",
+  "checked": "2026-09-16T21:51:53+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

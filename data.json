@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-18T23:42:08+00:00",
+ "updated": "2026-09-18T23:52:11+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80870.02,
-   "chg": 5.85,
-   "chg5": 5.25,
-   "sma20": 78145.12,
-   "sma50": 72472.07,
-   "sma200": 70397.03,
+   "price": 80906.25,
+   "chg": 5.89,
+   "chg5": 5.29,
+   "sma20": 78146.93,
+   "sma50": 72472.8,
+   "sma200": 70397.23,
    "high3m": 81271.74,
-   "reg": 80870.02,
+   "reg": 80906.25,
    "pre": null,
    "post": null,
-   "regClose": 80870.02,
+   "regClose": 80906.25,
    "sess": "reg",
-   "mt": 1789774884,
+   "mt": 1789775495,
    "ok": true
   },
   "USO": {
@@ -1183,6 +1183,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI expects to burn $280bn by 2030 - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPcFJUYnM1WGQ5aHhEU0FMdHRPbjkzSWI4UnNHTkRESlJ6OURsTlNzN25fWWsyTHhHcGpSM0xQZXVuU1FtRW1WNFZ6T3BJcXRNTWFoRlhZcktaVE1IUmZ4Ykkwc253em1Jai10dGxUbFk0d0t5VEUyemwtajF2MURaQnFKTW8?oc=5",
+    "pub": "Fri, 18 Sep 2026 22:33:32 GMT",
+    "src": "Financial Times",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5",
     "pub": "Fri, 18 Sep 2026 22:32:05 GMT",
@@ -1210,14 +1218,6 @@
     "title": "Anthropic’s IPO Will Happen a Month Later Than Expected - WSJ",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUg4bGdBLTJ6cjNUSm9yN2I3NVRjRDlRTU1MSHc5cEMtbkVBbW9NWjJYaWppbmtaTkxqckpYZmVieXp5ZGt0YUotOEdBNXlRZXZHNmJxVDRlbkxGSm5zTDd5WUVrZ20td05ZaXF3ME9nMW84Zks0OHJSWXlrTDZQTnV0WkRQdG1qalVRUnFyb3FWSEFlS2c?oc=5",
     "pub": "Fri, 18 Sep 2026 21:43:00 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Shifts Planned IPO to November - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPbk5sMkZNUldpZHpHcUVHRnlEODktVGI3al93TzY0RXA3MGJaZjBydDJCZlI1TlRiRVFmZXd4N2w1b1NUZlFPLTVDRnhra1hpZWFyR180SHdIbnY2Ti0xZk5mSE84bUxhV0JMUkhURTBpeW9CNkdqczAyUjFXdWJZa2twZw?oc=5",
-    "pub": "Fri, 18 Sep 2026 21:25:33 GMT",
     "src": "WSJ",
     "trig": false,
     "geo": false
@@ -1435,7 +1435,31 @@
    "chg4w": 72.4,
    "asof": "2026-09-16"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.12,
+   "series": [
+    42.11,
+    41.97,
+    41.8,
+    42.03,
+    41.94,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12
+   ],
+   "chg13w": 0.51,
+   "us_chg13w": 1.63,
+   "eu_chg13w": 0.81,
+   "us_t": 23.21,
+   "eu_t": 18.92,
+   "asof": "2026-08-03",
+   "eu_asof": "2026-07-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1586,7 +1610,7 @@
    78335.19,
    77830.29,
    79671.97,
-   80881.5
+   80940.57
   ],
   "vixts": [
    0.83,
@@ -2408,7 +2432,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-18T23:41:54+00:00",
+  "checked": "2026-09-18T23:51:56+00:00",
   "openai": {
    "found": false
   },

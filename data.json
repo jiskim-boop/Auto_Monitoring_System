@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T16:51:58+00:00",
+ "updated": "2026-09-19T17:02:24+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81802.27,
-   "chg": 1.11,
-   "chg5": 4.66,
-   "sma20": 78353.43,
-   "sma50": 72852.47,
-   "sma200": 70454.27,
-   "high3m": 81802.27,
-   "reg": 81802.27,
+   "price": 81775.52,
+   "chg": 1.08,
+   "chg5": 4.62,
+   "sma20": 78352.09,
+   "sma50": 72851.94,
+   "sma200": 70454.12,
+   "high3m": 81775.52,
+   "reg": 81775.52,
    "pre": null,
    "post": null,
-   "regClose": 81802.27,
+   "regClose": 81775.52,
    "sess": "reg",
-   "mt": 1789836686,
+   "mt": 1789837312,
    "ok": true
   },
   "USO": {
@@ -1177,9 +1177,17 @@
    {
     "title": "Exclusive | Hackers Used Anthropic’s Claude to Break Into OpenAI - WSJ",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQmNxc081M1NZa0l1MDZtRG16czdBY2M3X09PVUNCcFUzdS14ZEk1dEdDS0diT2toWlY4VmtMMkNaU1pVVDRaOEpDY0tMRi0zc3dweFpEMWZQOFpPQklqTUcwelZXelBDVXJQWE1GM25BYXgxbHc3ZHBBTk1xV3ViUzloX2s2d0tCd0RLS3lKZmFNdw?oc=5",
-    "pub": "Sat, 19 Sep 2026 16:41:39 GMT",
+    "pub": "Sat, 19 Sep 2026 16:57:39 GMT",
     "src": "WSJ",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - bozemandailychronicle.com",
+    "link": "https://news.google.com/rss/articles/CBMimAJBVV95cUxOM0VjTlQyQmZYR2gteGQ3eE5WbVIxWnNTVzM3WUczLVhOd2M4Vk9abHQxNzhmR0RNLXJxcjQwMVNRMmU5NTRxLUhVZFYxX3RucDk5RkpwcVk4Z3RNckNibTd4emV0Q0luY3NoNzlLVWJZdzhPSzhXbngwazVkQVo2THlkaE94ZWw5UVBfV0xSejl4UVdXSFFVUFRfNWtFaGJ4WlFUdjMzNXBDYVVDOTRUSzIxdGdoS2dDTldJbm53d1Y3cDA4VHRJYUd0VkRVaVUtM2txa3RpNkF6SFlyYlpjQXlwTE1fNjlqTmpSbXBEcHNQWXpBeFVEX1VZWm9DQURiOFFRV0pYcHpjcnJyaFB2X0JpeXpsajBH?oc=5",
+    "pub": "Sat, 19 Sep 2026 16:39:14 GMT",
+    "src": "bozemandailychronicle.com",
+    "trig": true,
     "geo": false
    },
    {
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPTlBjSGFmWU81WWhkSVdxeTl2S1lVNVZOczFyUUVKUXN5OFFPSVl6eXNFRmhSTVVBTWtxRVMxTjRrbl9JZk9TQkFfSmFYQy1mZkpnaWRIcWtmdVl5cnNlbTdsNTR0RUlFc0N4X1YtUlB3RnpJYWR1QkZJNHdvOTlsdFZ1cUY?oc=5",
     "pub": "Sat, 19 Sep 2026 14:06:00 GMT",
     "src": "timothysykes.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic's IPO Is Coming. Here's What That Means for S&P 500 Investors. - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNTkhsRXN5TkR3Uk9jOEFRcGlvVi1rOG10eE14ZU5lcnRjblRMcU1sNUZKakZWVUxmRnRKS1NBMDZlX3NNalNQS0gyZmppbTZ5OUpsbmxkX3Y0VmpXWEZsRkVTS3B3TmJ0WGQxU3FaUGZkcHMxVmE3ZkVLUWwyQS1VeWszZzR2LXZTdDJCb05kQ0NjMlNIcm5wODFRY1RLWDQ?oc=5",
-    "pub": "Sat, 19 Sep 2026 14:05:00 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81817.61
+   81775.52
   ],
   "vixts": [
    0.83,
@@ -2199,10 +2199,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-17T17",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-17T18",
     "v": 2.73
    },
@@ -2389,6 +2385,10 @@
    {
     "d": "2026-09-19T16",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-19T17",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2430,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T16:51:45+00:00",
+  "checked": "2026-09-19T17:02:11+00:00",
   "openai": {
    "found": false
   },

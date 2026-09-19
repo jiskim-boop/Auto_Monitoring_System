@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T17:12:12+00:00",
+ "updated": "2026-09-19T17:22:11+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81778.72,
-   "chg": 1.08,
-   "chg5": 4.63,
-   "sma20": 78352.25,
-   "sma50": 72852.0,
-   "sma200": 70454.14,
-   "high3m": 81778.72,
-   "reg": 81778.72,
+   "price": 81695.0,
+   "chg": 0.98,
+   "chg5": 4.52,
+   "sma20": 78348.07,
+   "sma50": 72850.33,
+   "sma200": 70453.69,
+   "high3m": 81695.0,
+   "reg": 81695.0,
    "pre": null,
    "post": null,
-   "regClose": 81778.72,
+   "regClose": 81695.0,
    "sess": "reg",
-   "mt": 1789837894,
+   "mt": 1789838495,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Morgan Stanley’s Private Credit Fund Keeps Facing Redemptions - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQNENCWDlqem1rT0s2cTRJX0NyallZTm9QY3c2VkJ3cEpiZnlQUjJxbHMtY0piUUdVMUhUUExXVnQxTXVrdXl2Z3RQTjh1b290U2FubWh4TjVxLVBJZ2RQNHJBRTVBZXRJU0pDOHd0bkUyMWcwQUp2bk9Qc3hxLVJvY1VDUGpNVWZfYm45RHdTNWVLcUk?oc=5",
+    "pub": "Sat, 19 Sep 2026 12:11:02 GMT",
+    "src": "Finimize",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Most Undervalued 9-13% Yields I Am Buying Right Now - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0tob1F1bGFsNVVvNkF5cm1xM3NZSXpMalA1UmljZG40RXQwMWgwZmlqOC1HY2w2c3hKZnVqX2lXQU5GY2l0LTBsVkI5YWE1VlJfSURwVGtBZFh3NWRJUVV5eVJlNVpHLUpDa3hCUnNjUDdTR3VQQTgtaFFBUVZLTXo0TW9uNVJYOXY0bDhhVG5rNzR6MEFqWUlnQm5ma1Zi?oc=5",
     "pub": "Sat, 19 Sep 2026 11:05:00 GMT",
@@ -1161,14 +1169,6 @@
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQdzQwVU5JOVF1WkNaVGE2bTk4cy1RZU9JWmtudlg5T2pVUEtWS3hFOVBmYmdvRjN0MXpvV2phdlA0STNOM0dxSjdnSmpVemFfWlFrR3VIb2dTYUNsSG9yRk9VQzRWbDBPQjZBTFZQY3JuZWo3bjRDR1Z2WlVndjBodTJoSloweHBUdnY2ME03cHJSeHJsd2pz?oc=5",
     "pub": "Fri, 18 Sep 2026 16:09:14 GMT",
     "src": "Benzinga",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Upsizes Convertible Debt Deal to $3.7B and Sets $97.85 Conversion Price - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNekF6emtCYVpaS3h0ckQwY21xLU5uazFlMHJ2SXZnM0l1NFZndUgxbXJRRVF5UUxDTFcyZGZMYnQxX1hmVE5wMUVaX29JVWFGVTMzS294cmN6YTVOQWlheDF4N3JnWEJNMGhxeTZaY3UzY0ZGVVJUY3BJRTVHYklxajMxb2U4eTZfQkpFT2JWR3NaT25ScUdJdUJ5cnBleEtoN1ZTcW13emdjUjMydlE?oc=5",
-    "pub": "Fri, 18 Sep 2026 15:53:05 GMT",
-    "src": "TipRanks",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81774.63
+   81678.99
   ],
   "vixts": [
    0.83,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2429,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T17:11:53+00:00",
+  "checked": "2026-09-19T17:21:56+00:00",
   "openai": {
    "found": false
   },

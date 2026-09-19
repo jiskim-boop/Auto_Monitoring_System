@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T00:03:57+00:00",
+ "updated": "2026-09-19T00:11:57+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80871.0,
-   "chg": 5.85,
-   "chg5": 5.25,
-   "sma20": 78145.17,
-   "sma50": 72472.09,
-   "sma200": 70392.43,
+   "price": 80905.86,
+   "chg": 5.89,
+   "chg5": 5.29,
+   "sma20": 78146.91,
+   "sma50": 72472.79,
+   "sma200": 70392.62,
    "high3m": 81271.74,
-   "reg": 80871.0,
+   "reg": 80905.86,
    "pre": null,
    "post": null,
-   "regClose": 80871.0,
+   "regClose": 80905.86,
    "sess": "reg",
-   "mt": 1789776115,
+   "mt": 1789776686,
    "ok": true
   },
   "USO": {
@@ -1299,14 +1299,6 @@
     "geo": false
    },
    {
-    "title": "Gold shrugs off Fed rate hike as deeper forces drive safe-haven demand - KITCO",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUhaQWVKMFNWdlo1UG9Kc0Z0VnkxdVJIQVBCQmtxcXg0Z3NOcTNDYXJXNkRpazhnbUFVRVc2NTd6WXVzdXc3SG50SWFYeGRvX1g1SEhYUV9lczVad3h6cjczZDUyZzZST21fSXZjREd2MTdvcVQ2N0NrQ0hoWGxPNkxUVXRiMzlSQWtIX1VpNFNsdElWTU9QYmcxNllkT0xPS2REWWU1bzY0aUF1RWc?oc=5",
-    "pub": "Fri, 18 Sep 2026 20:01:57 GMT",
-    "src": "KITCO",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil Futures Fall for Third Day on Easing Supply Concerns - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjZGMnVLdmRRX0tKcXZDZnMzaFBGbXZwUVNDYW5BQnBNclpEZmVLVnFfSFJQM2gwVW1wQXlIWVRqNmU4c0ZPOE9Wd3NJUy1TVWJRNGtrcElWeWZzb0hnWjI5cDhYMGFraFFVX09CRlJKWlBFX2tJYW1YcTV1bEduS2dOYXhFUkR6SmEwUVJBeHlxRi15VnlLUXAzX3d0b2lhUV9z?oc=5",
     "pub": "Fri, 18 Sep 2026 19:40:00 GMT",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Fri, 18 Sep 2026 18:36:45 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bank of Japan Hikes Key Rate to 1.25%, Highest Since 1995 - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0zSWtJNGc4bzA1U1IxTl80U0QzeXpWR1ZhQW1XaVpSZ1FKUWkteUFaSklqNG9sak5RUDRDaHRJaVZocmJRdzVjTlctTU9fWmdwU3hCbHNHUnp0bER6ZzNoNkU2RGEzdWhUNjV6QW50cUprS24zNnc?oc=5",
+    "pub": "Fri, 18 Sep 2026 18:18:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1435,7 +1435,31 @@
    "chg4w": 72.4,
    "asof": "2026-09-16"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.12,
+   "series": [
+    42.11,
+    41.97,
+    41.8,
+    42.03,
+    41.94,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12
+   ],
+   "chg13w": 0.51,
+   "us_chg13w": 1.63,
+   "eu_chg13w": 0.81,
+   "us_t": 23.21,
+   "eu_t": 18.92,
+   "asof": "2026-08-03",
+   "eu_asof": "2026-07-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1586,7 +1610,7 @@
    78335.19,
    77830.29,
    79671.97,
-   80847.24
+   80919.99
   ],
   "vixts": [
    0.83,
@@ -1718,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 16
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2405,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T00:03:20+00:00",
+  "checked": "2026-09-19T00:11:44+00:00",
   "openai": {
    "found": false
   },

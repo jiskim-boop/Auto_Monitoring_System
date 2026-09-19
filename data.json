@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T03:12:12+00:00",
+ "updated": "2026-09-19T03:22:06+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81266.22,
-   "chg": 6.36,
-   "chg5": 5.76,
-   "sma20": 78164.93,
-   "sma50": 72480.0,
-   "sma200": 70394.58,
+   "price": 81172.36,
+   "chg": 6.24,
+   "chg5": 5.64,
+   "sma20": 78160.24,
+   "sma50": 72478.12,
+   "sma200": 70394.07,
    "high3m": 81271.74,
-   "reg": 81266.22,
+   "reg": 81172.36,
    "pre": null,
    "post": null,
-   "regClose": 81266.22,
+   "regClose": 81172.36,
    "sess": "reg",
-   "mt": 1789787484,
+   "mt": 1789788085,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Plans $3 Billion Debt Sale to Fund AI Infrastructure Expansion - Channel Insider",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekxGN3phNy1EOWh1dXVjRFZJOGlyRjR4elNPXzhMMmMxNlpabXBnWFM0SUZ1Rng0S0hzNEt5NkRpN3RlSUxHSlNDSkJXRUdDV2Q3dl9VcHc4MWtQcHVrZHpsTm5fMGhnX0oxVjVPZ3JyQ1hfV0hGQUhWRmRKTFZTYi14aTdsZnFlWUtKd3F1UWRsM3YyTnNnanVR?oc=5",
+    "pub": "Sat, 19 Sep 2026 02:03:47 GMT",
+    "src": "Channel Insider",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "DENR budget sponsor Rep. Jose Alvarez says the proposed Pax Silica data center to be built in the country could serve as an important backup plan in case China overruns Taiwan, a global hub for the technology industry. | via ANC 24/7 - facebook.com",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxONGdCZjdfOHlRTm56NTg1c190WjZ4RENPWXI5WDBTVjNOQnBlOUk1UXhpdzdvN1h5UU9VZkFWUXM5VllNY2lnSjhXUENJRXFiekZjUGxybl8tRHZaM19haFBob0hPVzVicURjMVlNVk03VUFUQVgwMU5jSnRPcWhWaEpKdG4zclRKZWlUeVNEZTc4Z1R0LU9jbk5IWmVlNGxMOHRUd2hEVThrXy1lYkNYZXFZdDdUOVhpaXprcFpHd1V2MElOOHh0V2xUbGE0TFpsU3RXWFoyaw?oc=5",
     "pub": "Fri, 18 Sep 2026 21:39:56 GMT",
@@ -1163,17 +1171,25 @@
     "src": "TipRanks",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Buyout firms are chopping up their debt to win over cautious insurance money - Insurance Business",
-    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNZUd1Vk9pRTY5RkR3MHVrY185M0w2UTJXXzJXM1FYWUdyR2JYNklYaEhNYU5ha3VrLTBqMHRIaVRPVTdJSzVXclJrYlVfSHlwUC1zOUNRRFY5aTdrVDNkMkpsLWkweS1qbTR1dFBvUFhMX3R3dm1BY2h0T1hhaUJ3RkkxTjBlOGFFLTdPM2JMU1BnUmtaWjhsSDMzQ08xNWhKVlIzb3U0Umc2dDFjMFBsYm9jM3JQcENRLWs4R0ZKb3hYRzc4SDlKc0RjWUEyZ09ieFJSWEswWFRGWXNEbjdpS2hB?oc=5",
-    "pub": "Fri, 18 Sep 2026 14:04:01 GMT",
-    "src": "Insurance Business",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - spectrum.ieee.org",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5",
+    "pub": "Sat, 19 Sep 2026 03:09:59 GMT",
+    "src": "spectrum.ieee.org",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3hWLW1IUElCTmg4TGwzNXN4RkxMVjRlTXZ3Uk9NMnNFOWV3WjZFaDN1cm5XYkdBNDZXbThZeDVadWg0djZiUzc1UWZDQ21ucTVOdmhrc3RwUUhSdEI3c0cyLUM5VUE5ZE8tMm56a3dxc2VsZGxvN0ZTMkg5VjBoT1ZTdm9xRGVPbFFFZEVRdWNkVWNtclF4cE1hNjNmeEowOFBiVkZOZC0zaWNidjg5Tw?oc=5",
+    "pub": "Sat, 19 Sep 2026 02:58:38 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mR1hsU2VJeGxWWE9wLTBlYjhrTFhKSVljcXBOa2NyUXhWeV9HY3RGa3R5YkR1ejJLX2FFakxidEpRWFBUUm5Ka2ktVDVTYnpkXzFuTy1BaWUxWDhTbTJla0JPMnBBSkk?oc=5",
@@ -1205,30 +1221,14 @@
     "src": "The New York Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - spectrum.ieee.org",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5",
-    "pub": "Sat, 19 Sep 2026 00:09:20 GMT",
-    "src": "spectrum.ieee.org",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "EXCLUSIVE: Anthropic considers releasing new AI model ahead of IPO, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUhNb1VBaVJWRXQwZGlnTGk1N1B2UjFyNkltbzJUOGhxZThUdXhNN1BWSGxwNkRsMWVmTjFqSlZ6eFpLY3dkZ0VVVHdIN2NTTFNURVBPd3JZM0lQS1FVQUJ3UUJ0c3RmZXNwamkzV1pkXzduU1pVSFN6bjdON1JoQlFRMzJlNFdKTndsS2tJdzhxVG12cTBfbGREUjkwQTdIdDlhYzE3czdEMU5xMHc?oc=5",
-    "pub": "Sat, 19 Sep 2026 00:05:00 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "AI hallucination nearly triggers US military action against Chinese vessel - Crypto Briefing",
+    "title": "AI hallucination nearly triggers US military action against Chinese vessel - cryptobriefing.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWY4LWIzTHh0MEVONC1yTEl3OTZsTktBemVGczVCUlUxZnR2US15Sm5OQkZ1aDgwaExzb2VMV195YUdQcWRnVy0tazJLT3hCZkx5QWRUVGpnREZqd1V0UWtfbDE5cHNwRnZJZUtPZ2FhazR2WUVJWXFZektNaWZ6SmxxOFVzeTRCWGowMWdhNHA4OFVBeW04QXhGVjRQbWN4RDJoVg?oc=5",
     "pub": "Fri, 18 Sep 2026 23:14:21 GMT",
-    "src": "Crypto Briefing",
+    "src": "cryptobriefing.com",
     "trig": false,
     "geo": false
    },
@@ -1249,10 +1249,18 @@
     "geo": false
    },
    {
-    "title": "Inside the US ‘Kill Chain’ That Destroyed an Iranian School - Bloomberg",
+    "title": "Saudi Arabia cancels oil shipments to European refineries - Middle East Eye",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVEt6Nm4zX1pzcGd1SjV6bV94bG1wT2JJZjRJcmtBV3hRNWY1LTUzbFN4VVlvaHhWSkZ0OHB1RGZ2eUtHb0tmTU5CMFhISnJQYTE4d19nTHJwR3VZbkVRbHZiSFZ4d01UeVJhVVZScDd3TWlpSkI5aUtrWnBsOUpxdEpOUG1tYnhrLUtvd1l2MW45Y19ZRTljV3Y0MTl5U0lJZkJtNEhKNktwMjdoRXNkcEFSeWdFSGc0TGdvcnFlYUctZFpTTnBGd1Y0SW8zYzA0RDk1WWJmd2UwWGdGTWtmUnQ1YkdvZkMzVGluWmRoUkw?oc=5",
+    "pub": "Fri, 18 Sep 2026 21:55:00 GMT",
+    "src": "Middle East Eye",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Inside the US ‘Kill Chain’ That Destroyed an Iranian School - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE04V2x1Z1ZNWExtTF9jNlg0WnJCNWEtUUViQjBBVFByc1Z2bUhvNlh3Z09PbU5hU2ZJR1ROZEhvR2N5SHR0QllKcUstTl9FU0ViRzM2RnA4U1pLbU9KZ0N5bHZXc2VrMTV3d3hz?oc=5",
     "pub": "Fri, 18 Sep 2026 21:00:00 GMT",
-    "src": "Bloomberg",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1263,25 +1271,9 @@
     "src": "Traders Union",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Russian double-tap drone strike on Odesa injures 10, including rescuers - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPWGhhaktGUEFGM01TdlotYzBpR28wdHNDV1Vpa1JKTUhqbVpMYzhDZ0lLTDMtUUlSdEVMNXdQcDFSZjVFeUlzeDU2dmhVZDRnTFJzMG5JcWxEMXRkSzRLUlRjM19IQnhQM1BkYkxYalgxZ09EQTNhZnlIMENMbmlzUlI5U2Z0ajl3dGZraE4yanBOaV9oRmE3aktlUlVrSE0?oc=5",
-    "pub": "Fri, 18 Sep 2026 19:02:11 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "Weekly Market Recap (September 19) - Copper Mining Output Set for First Annual Decline Since 2017 Even as Prices Hit Records - NAI500",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPMkR1eFBySk5KNHJjNU5UQzZfWlNlWDMyZmFMd2g2d3JfZ3AzNWd3cFlkMXh0c2o3aUlaYnpGb0Z0am9UX1pIcDZSOFd6LVg0OWJXWmdhUjZqMGxNbDZ2V1FmY1lxMnZhQjd6WFFycjlkZnNyVWtqSk5UcjZ1UDlsRll0YThLRjFyek1zZ3RjZ3ExVzhXeTh5LW5QRWNTOXR0Tlp1QXlidlBkQ1p5akhCY1pzUVRDN2RVTjdRdFVtVXdLWDNYWEZxQ2Ewb0p2ci1ja2lkbUVwMzdqV3dWaGw1TnBTZ1B2T0tF?oc=5",
-    "pub": "Sat, 19 Sep 2026 02:44:37 GMT",
-    "src": "NAI500",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "The Weekly Spread: What Shaped Yields And The Dollar This Week - TradingView",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNeGtnUWNxbHlSMGw4dnpvdjJWN3lBcTE4b2h4amFHY0J4QlI4NmhRZks3QnN5U0tUN2NKaFBLMndiT0VpSGhJNFlnanM2aDlBN0RJOW91ZVZfUjJUSG9IOFEtX0otNWVXOE9vWVE0NzdhRHEyUkVsaWNocWNDeDlCZUNIdFoxdG9sT2dKcVkzVnpra1BBamcycnQ4WVgtTmkxRXIwbVpPejd4YUpVZGNDcm44RjFqQ00zOEhzVHlRaw?oc=5",
@@ -1319,6 +1311,14 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS2VCWDBCdG8zRFluUklzZEp3SXM1YmF6MzFMdy1IZV9VNVBBVkRjcUVyMURIVXBBSWVpQUNKVFhYV2RQZ2tGY09rcnB3eHlGVmhodmJzU244SFJ0NWF0VXJWNzlISUJheGhycnVsYlpPUno4VDVMdTZPa21xU3BzLWpMSnI2UVE?oc=5",
     "pub": "Fri, 18 Sep 2026 21:32:04 GMT",
     "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold rises Rs6,900 on global bullion strength - The Express Tribune",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPVjBJUTVMRFBlTklwR3RmR3lOVk9OY3gwRlRRa1hkeEpGZTN6Wkx5YmhvcFYyMXZZQk1hTDF5aEtyamQxbHpvQVV3d1JDX2J4Mll1ZmZvcF9aZlJaT3FjTDhFUjhhUE5XRlJSNWFPVUNBYlBfSWRycVFxZzdYUDA4MjdRUXNSRW1y0gGQAUFVX3lxTE51WjRIcTFINHNwQVY2RmQwUng1MjcyMU1lVU9hZDZ5Ym9paTk3dTI5SlA4RktuRS1zVGppRUZMLTBFbjB0WUJFV3l0MXVPdDFSb2gxMF9rbmNESURiYlA5b1NVeDZSa28wRktlMEk3SmZPRzBPVWVJSTlJcFp6Nm1IbEgtZDNjVmY5NGZjeWQzag?oc=5",
+    "pub": "Fri, 18 Sep 2026 21:10:34 GMT",
+    "src": "The Express Tribune",
     "trig": false,
     "geo": false
    }
@@ -1435,31 +1435,7 @@
    "chg4w": 72.4,
    "asof": "2026-09-16"
   },
-  "gm2": {
-   "value": 42.12,
-   "series": [
-    42.11,
-    41.97,
-    41.8,
-    42.03,
-    41.94,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12
-   ],
-   "chg13w": 0.51,
-   "us_chg13w": 1.63,
-   "eu_chg13w": 0.81,
-   "us_t": 23.21,
-   "eu_t": 18.92,
-   "asof": "2026-08-03",
-   "eu_asof": "2026-07-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1610,7 +1586,7 @@
    78335.19,
    77830.29,
    79671.97,
-   81255.01
+   81205.17
   ],
   "vixts": [
    0.83,
@@ -2430,7 +2406,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T03:11:58+00:00",
+  "checked": "2026-09-19T03:21:54+00:00",
   "openai": {
    "found": false
   },

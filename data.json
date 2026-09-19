@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T07:22:13+00:00",
+ "updated": "2026-09-19T07:32:22+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81144.0,
-   "chg": 6.2,
-   "chg5": 5.6,
-   "sma20": 78158.82,
-   "sma50": 72477.55,
-   "sma200": 70393.91,
+   "price": 81050.0,
+   "chg": 6.08,
+   "chg5": 5.48,
+   "sma20": 78154.12,
+   "sma50": 72475.67,
+   "sma200": 70393.4,
    "high3m": 81271.74,
-   "reg": 81144.0,
+   "reg": 81050.0,
    "pre": null,
    "post": null,
-   "regClose": 81144.0,
+   "regClose": 81050.0,
    "sess": "reg",
-   "mt": 1789802495,
+   "mt": 1789803106,
    "ok": true
   },
   "USO": {
@@ -1175,14 +1175,6 @@
   ],
   "fundamental": [
    {
-    "title": "The Startup That Built OpenAI’s Biggest Data Center Is Now Making Tiny Ones - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNT3hWLW1IUElCTmg4TGwzNXN4RkxMVjRlTXZ3Uk9NMnNFOWV3WjZFaDN1cm5XYkdBNDZXbThZeDVadWg0djZiUzc1UWZDQ21ucTVOdmhrc3RwUUhSdEI3c0cyLUM5VUE5ZE8tMm56a3dxc2VsZGxvN0ZTMkg5VjBoT1ZTdm9xRGVPbFFFZEVRdWNkVWNtclF4cE1hNjNmeEowOFBiVkZOZC0zaWNidjg5Tw?oc=5",
-    "pub": "Sat, 19 Sep 2026 06:49:11 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - IEEE Spectrum",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5",
     "pub": "Sat, 19 Sep 2026 06:14:45 GMT",
@@ -1221,13 +1213,21 @@
     "src": "Technobezz",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
+    "pub": "Sat, 19 Sep 2026 00:24:05 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Eyes on Fed Decision After Bitcoin Trades Near 4-Week Low on Failed Clarity Vote - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPUmVpUXdQdmtOUnNRRVJ1TXRVQy1acy14c0hvbFVjWkFuOUtHcHpNWXZYeGNNeGcyNXhoY3JtWldpdW5RRGFYUjNoN081R1VfWVlTX1QyZ1hrSE9OTml0anYwelhyTU1NZGdYd2hJT1dqNzZiU18tSW1TM1J1WWpQek9ncF9haXJpUVVqYWRuWnpyRXZQYjAtM0lOelVpWjVSbkRpS3h2YUVuNWpxUUlIZ0F3dFlMd1FTazFPMW5JWVpCZmFaV3cw?oc=5",
-    "pub": "Sat, 19 Sep 2026 06:38:44 GMT",
+    "title": "Dow Falls 500 Points as the Federal Reserve Raises Key Interest Rate - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPczAxbFRYYU1qN0lvd0FyaWUyX3BKTVc0OThtOXk2MS0wU1Vwb1hjTEE4WFNyVkpnS216RENLTHh3bXFXeWRTSEd0SWpXbEpmUjBFV09YdHNRZDFiZER6a3J5VW5oaVhqMUF5cFpKZENNZFZ2TUtvSU5ZN0F1WS12NXNTNUV1ejJUOGhxMjNUTExnLXlXaEp5VjNPbmVhWWFUenBYSWxOYmpoWmVfNXNMMDVqaXdFdTJm?oc=5",
+    "pub": "Sat, 19 Sep 2026 06:53:15 GMT",
     "src": "WSJ",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    78335.19,
    77830.29,
    79671.97,
-   81145.07
+   81039.0
   ],
   "vixts": [
    0.83,
@@ -2430,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T07:21:57+00:00",
+  "checked": "2026-09-19T07:32:08+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T01:52:02+00:00",
+ "updated": "2026-09-19T02:02:38+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81314.29,
-   "chg": 6.43,
-   "chg5": 5.83,
-   "sma20": 78167.34,
-   "sma50": 72480.96,
-   "sma200": 70394.84,
-   "high3m": 81314.29,
-   "reg": 81314.29,
+   "price": 81254.26,
+   "chg": 6.35,
+   "chg5": 5.75,
+   "sma20": 78164.33,
+   "sma50": 72479.76,
+   "sma200": 70394.51,
+   "high3m": 81271.74,
+   "reg": 81254.26,
    "pre": null,
    "post": null,
-   "regClose": 81314.29,
+   "regClose": 81254.26,
    "sess": "reg",
-   "mt": 1789782688,
+   "mt": 1789783320,
    "ok": true
   },
   "USO": {
@@ -1175,18 +1175,10 @@
   ],
   "fundamental": [
    {
-    "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mR1hsU2VJeGxWWE9wLTBlYjhrTFhKSVljcXBOa2NyUXhWeV9HY3RGa3R5YkR1ejJLX2FFakxidEpRWFBUUm5Ka2ktVDVTYnpkXzFuTy1BaWUxWDhTbTJla0JPMnBBSkk?oc=5",
-    "pub": "Sat, 19 Sep 2026 01:27:49 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic, OpenAI, SpaceXAI, Google sued over call to ‘pace’ AI development - politico.com",
+    "title": "Anthropic, OpenAI, SpaceXAI, Google sued over call to ‘pace’ AI development - Politico",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQY2RBMnFCQ3BDbW1ZM0VJa2lWbGd6cExDbVI5elZTSmdvTUlmSDZ1S3BzYnRLLU9LSlltWTZCektKb2FQSU1tX1FKWWFuWUs0Q1JiUndJRGpJc3pQbGlvN0J3WTBLTE5ycnFtN3Q4Z0FuWUNlLUxNYmlyazhranVVZGlBSS1aTmlXWWViT2sxaEgwZTh0bnRIQk1zRWMtbGNxNkZGYXlWVWE4c2ZBbHZxQzVLeXpQMTlqZFI1Wmhn?oc=5",
     "pub": "Sat, 19 Sep 2026 01:04:00 GMT",
-    "src": "politico.com",
+    "src": "Politico",
     "trig": true,
     "geo": false
    },
@@ -1207,28 +1199,36 @@
     "geo": false
    },
    {
-    "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - nytimes.com",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5",
-    "pub": "Sat, 19 Sep 2026 00:23:01 GMT",
-    "src": "nytimes.com",
+    "title": "Nvidia may bankroll Anthropic's massive IPO - mashable.com",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
+    "pub": "Sat, 19 Sep 2026 00:24:05 GMT",
+    "src": "mashable.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - IEEE Spectrum",
+    "title": "Anthropic Pursues IPO Despite Its A.I. Safety Warnings - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBzNk1Xck9GUE41UTZPc1p6elBuenQyZnA3bEg0WFEyeHNLNXBfNXZmZUNIOUtodnVSaWFXRGtueDFzenhuMS1xYVBvSjIwM0RQM25fSWtoVUszVmJCZEg5Q2RFb1llLVNlOEN4VjR1eDg0dWJyc09tN0QxNnZQeWc?oc=5",
+    "pub": "Sat, 19 Sep 2026 00:23:01 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why AI’s Inference Boom Is Forcing a Rethink Of Chips and Memory - spectrum.ieee.org",
     "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1sZkl4SF95TDVhWHlKWV91VWFOX01IakF4clJUWkxKNDZUel9xMnZ5bEZTZmNPRDFDU3JWSmlWdFRoaW1jcFBibWZ4eksyRXFaNDJXaXZJSkJSYUptZUxKMm1NU2tOZw?oc=5",
     "pub": "Sat, 19 Sep 2026 00:09:20 GMT",
-    "src": "IEEE Spectrum",
+    "src": "spectrum.ieee.org",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
-    "title": "AI hallucination nearly triggers US military action against Chinese vessel - Crypto Briefing",
+    "title": "AI hallucination nearly triggers US military action against Chinese vessel - cryptobriefing.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbWY4LWIzTHh0MEVONC1yTEl3OTZsTktBemVGczVCUlUxZnR2US15Sm5OQkZ1aDgwaExzb2VMV195YUdQcWRnVy0tazJLT3hCZkx5QWRUVGpnREZqd1V0UWtfbDE5cHNwRnZJZUtPZ2FhazR2WUVJWXFZektNaWZ6SmxxOFVzeTRCWGowMWdhNHA4OFVBeW04QXhGVjRQbWN4RDJoVg?oc=5",
     "pub": "Fri, 18 Sep 2026 23:14:21 GMT",
-    "src": "Crypto Briefing",
+    "src": "cryptobriefing.com",
     "trig": false,
     "geo": false
    },
@@ -1241,10 +1241,10 @@
     "geo": false
    },
    {
-    "title": "Global Financial Conditions Are Tightening. The Growth Scare May Be Next - The Dark Side Of The Boom",
+    "title": "Global Financial Conditions Are Tightening. The Growth Scare May Be Next - thedarksideoftheboom.substack.com",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPcDhJYWVoRlNKby1LQzd5ejJJcGJ4VWdMUWZDNkVmTVBWZmJRSDNNX1NBZGhiNG1FNDRuSlg0TEtBWXIwZEVXT1lqNEZma2dDLXd6UDVabnV5bEtWTkxZaGcyNy1xc29GU21pM3R3aGp5eFpvcDltaHBhcXZrYTF1b3paQ0Vma09GVmJzaGR4UQ?oc=5",
     "pub": "Fri, 18 Sep 2026 22:30:51 GMT",
-    "src": "The Dark Side Of The Boom",
+    "src": "thedarksideoftheboom.substack.com",
     "trig": false,
     "geo": false
    },
@@ -1274,6 +1274,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 19 Sep 2026 01:08:14 GMT",
+    "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Yen Carry Trade: Checking Unwind Signals for Crypto - CryptoTicker",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE8tSG1PNmxNdEl2Z19RNENNNC1lZFE4cmZGLTFrVTNzNG1iSm42dlAyNUVyT0pwS2pLTHVNMnVQYnVMTzVQbk1OQnJJVFJQeV9UUTZjb3hfa3ZJTWRXRUJ3bTlWMFdDcGxJVGFJYlB6VjE?oc=5",
@@ -1307,18 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Oil Futures Fall for Third Day on Easing Supply Concerns - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRjZGMnVLdmRRX0tKcXZDZnMzaFBGbXZwUVNDYW5BQnBNclpEZmVLVnFfSFJQM2gwVW1wQXlIWVRqNmU4c0ZPOE9Wd3NJUy1TVWJRNGtrcElWeWZzb0hnWjI5cDhYMGFraFFVX09CRlJKWlBFX2tJYW1YcTV1bEduS2dOYXhFUkR6SmEwUVJBeHlxRi15VnlLUXAzX3d0b2lhUV9z?oc=5",
-    "pub": "Fri, 18 Sep 2026 19:40:00 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Fri, 18 Sep 2026 18:36:45 GMT",
-    "src": "LiteFinance",
+    "title": "Gold shrugs off Fed rate hike as deeper forces drive safe-haven demand - KITCO",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNLUhaQWVKMFNWdlo1UG9Kc0Z0VnkxdVJIQVBCQmtxcXg0Z3NOcTNDYXJXNkRpazhnbUFVRVc2NTd6WXVzdXc3SG50SWFYeGRvX1g1SEhYUV9lczVad3h6cjczZDUyZzZST21fSXZjREd2MTdvcVQ2N0NrQ0hoWGxPNkxUVXRiMzlSQWtIX1VpNFNsdElWTU9QYmcxNllkT0xPS2REWWU1bzY0aUF1RWc?oc=5",
+    "pub": "Fri, 18 Sep 2026 20:01:57 GMT",
+    "src": "KITCO",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    78335.19,
    77830.29,
    79671.97,
-   81326.02
+   81284.95
   ],
   "vixts": [
    0.83,
@@ -2199,10 +2199,6 @@
   "median": 2.73,
   "hist": [
    {
-    "d": "2026-09-17T02",
-    "v": 2.73
-   },
-   {
     "d": "2026-09-17T03",
     "v": 2.73
    },
@@ -2389,6 +2385,10 @@
    {
     "d": "2026-09-19T01",
     "v": 2.73
+   },
+   {
+    "d": "2026-09-19T02",
+    "v": 2.73
    }
   ],
   "stale": true
@@ -2430,12 +2430,14 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T01:51:50+00:00",
+  "checked": "2026-09-19T02:02:23+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANTW",
+   "name": "Anthropic AI Lab Ecosystem ETF"
   }
  },
  "fragility": {

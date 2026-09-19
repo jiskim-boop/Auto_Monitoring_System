@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-19T22:32:13+00:00",
+ "updated": "2026-09-19T22:42:06+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81054.84,
-   "chg": 0.19,
-   "chg5": 3.7,
-   "sma20": 78316.06,
-   "sma50": 72837.52,
-   "sma200": 70450.23,
+   "price": 81182.84,
+   "chg": 0.35,
+   "chg5": 3.86,
+   "sma20": 78322.46,
+   "sma50": 72840.08,
+   "sma200": 70450.92,
    "high3m": 81271.74,
-   "reg": 81054.84,
+   "reg": 81182.84,
    "pre": null,
    "post": null,
-   "regClose": 81054.84,
+   "regClose": 81182.84,
    "sess": "reg",
-   "mt": 1789857102,
+   "mt": 1789857688,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX Starship to attempt first orbital mission with 14th flight - ABC13 Houston",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPQXJ3OHRpV3RqVVZ6VzI3T2ZmeHpVRFJ2M1BOVDJqdWlYdWRsa0pibTRkRHVZcllyZ01Ia1BId1ItZmxiLXJUem5Eb0o2S29vcVhJdDNGZ2Q0Nmp0Wnh4dUdRckNBUk5KelN1QXRWeHBMYUstRUZ4dEZCazBJb1FDVWRIV19XY2VCN3l2dzFwZXVmanJy0gGaAUFVX3lxTFBCSjVMS0FBakFSZE9HWmZLUjVJOGE3M2czRmI2elllV1ZXbXZuMmthMDY3bVZDOWQtcTRIUUJ4OTFfR0M5em4taFRCUVplOVJyQjFXTXJzY1ViU0RUTlA3TzB2cjgtaU5mNlZCRmh6dXRIRmtuVzZmOFgtVlFXVnpVUl96Skg1N0szVXNHZ2lrZlFkMnRQNFJWNXc?oc=5",
+    "pub": "Sat, 19 Sep 2026 22:32:50 GMT",
+    "src": "ABC13 Houston",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
     "pub": "Sat, 19 Sep 2026 22:27:27 GMT",
@@ -1183,10 +1191,18 @@
     "geo": false
    },
    {
-    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal deal on AI slowdown - cbsnews.com",
+    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - AP News",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNIX0w3dGlsV1dsUUdPS1l6TXFWSm8yUVBkTlVhZl85V1hGNHVadW9LZFRHRl95Y2VBY0Nvc3FvbDBOcXpfdFlYc1dEckQtbk9BMVlEeHBIYkdBVjJmZDYxMFFpVlR6Mm1NeEZ3cEFvcmtLLXRTWDZjQjRtRWxuYnNQQ204Q0I0Z3haTXRSN0w3QnhSYXZDOG00eXhQd2ZyTVhZc09SR3lSb0ZSMU5mYktsNzNjWTdLVGV6dmZNVQ?oc=5",
+    "pub": "Sat, 19 Sep 2026 22:05:00 GMT",
+    "src": "AP News",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal deal on AI slowdown - CBS News",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1GVVBaS2xGSGM2NGFSNmhpemxXOTZRZkg0MHh3a1RCbGtUUjFvZzFxUkN1T0RlSmJodXdpVjM3TWFEWVpCQS0zZFd4YmphTFBIckhSY0ZfekhWTUIxVlhRTXFRa0gyNVBRTHRySHVRMWxzQTFPZlQwSFkzUWlrUQ?oc=5",
     "pub": "Sat, 19 Sep 2026 22:01:32 GMT",
-    "src": "cbsnews.com",
+    "src": "CBS News",
     "trig": true,
     "geo": false
    },
@@ -1205,25 +1221,17 @@
     "src": "OregonLive.com",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Live coverage: SpaceX to launch 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZk9xc2tFc2RBNXJaNGNYNG5fdDhod1F2enpRaUdHZWllWEdkVHZrRFViNjNvU0FZcVB3TnJ0aDlLczBYM1JIN3FWM2YtcTdyODhLbDZ4RktULVpvbFVnX3dKY1QzQVR6MXpJeG41UEtQbHpSTkVqQ1FIWEQ1bFFHQmhEQXpZRFNHSGVPMjBqRFkzRGNtd3ZvVUhCQUZFY3ktazl4QXFEeVlkV0JsejAwY2V2NkRjMldPY3RxYmRHMkJBSGI0VFJIZmh6ZHpfWkJa?oc=5",
-    "pub": "Sat, 19 Sep 2026 20:06:36 GMT",
-    "src": "Spaceflight Now",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oracle's $664B backlog drives heavy capex, pres... - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQTGRldXpoTVg5MWhvUmlKbm9rQTdQR0dNRldsR3dyelhldllSbW9GLTMzRDF1bU5Tc21COWhNeWRicS1LcExBaVhmMGRJRmJXVFhOVC1keXVRZXlUQjVvOTBxV0M0OXVqeHA3Vm1RU2VHZklsYlR1Yk5CaHlKUnQxRUYtX1hrM0FhMzNvRnpNOHFoQ0k?oc=5",
-    "pub": "Sat, 19 Sep 2026 18:46:20 GMT",
-    "src": "Pluang",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Economist warns Fed, Warsh on track for big surprise - thestreet.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNczVVYUM2ZHdHaXRxbERQd3VVejJyRnVNWk1QSzVFV0g2MmV1bmdxbXZGRnE5bGtlaG1zQVRGZGw3RUJ1dnplRFVkaTJfOVRyWWJBNVMwc2pSRjVzZDAzcXctVnBxMXdiLV82b0xBa1dvODNtZmtPQ0swd2pEX1YtMW1Sb3hrRDk5?oc=5",
+    "pub": "Sat, 19 Sep 2026 22:37:00 GMT",
+    "src": "thestreet.com",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Trump’s Russia sanctions gamble could come at a global energy price - weeklyblitz.net",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeVYzalo1YW5QenpCMVd6VHNuM1ZmTFZGNmtuVnZwclBmV085ejlxX29fNi1hVjZweUVVZnY3SW45TmRjYVRPaGV4T1FqOVdRRkZnTnJXRFdNVDY5eTA5ZEx3dUMzelFnNHlfSlMzOE5fSVFsNjM2bEk3dmowNmxpNmxSWC04bTA5MDRSNnlLb2h3NUFjWXN6M2drVHE1MmpzNUcyYw?oc=5",
@@ -1257,18 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Fed Chair Kevin Warsh and the FOMC Just Hiked Interest Rates, and 36 Years of History Make Clear What Comes Next for Stocks - finance.yahoo.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVVNlVFUzSE4tQlg3RVk3a0t5cXRscU5OTnFVaWd0TGtJU2U4VmI3UDRUNWtETUZsQ1QwWWdRYnRwNXFIajVyY1lHM0pkX2R0QW1BVlhFWUdkemtYQmV0OG8yRy1ETUxEQTlCN2lPNFRnZVpJODYzNm9KVmE0N2dsVG9UVkI1OXpBaXNsNHpaRkdnZFdjYVE?oc=5",
-    "pub": "Sat, 19 Sep 2026 13:26:01 GMT",
-    "src": "finance.yahoo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying. - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOYmVOR1lFNlFEaGVrVmZpX1Y5dmtrVUFCZDZQYXh4RW0xWVIzZC1PWm1Ma25sTHY0ZDlqZkN0Ykg2SXRua016THh2MXc3MzZsYWQ4TWdQcV8tMkxGX0QtT3JBT2xCWDltSUt1cWNEZWVRLUxNZFBvQVZnVnktYnJKX0F4QlRVbGxmWmxfaVh2QVdiSml6ek5IUjRtdU1uR2sxSjJsMW95Wk9Sdm1tRXBJd0dpQUgtcjZtQk9DbmdJbm5rWWFTOVhZOGF0RnpIdFJDaHQtTlpSaVFGME9ETlhkRDhpRF9UUmFxT3ptRlFqaE1MQQ?oc=5",
-    "pub": "Sat, 19 Sep 2026 12:00:00 GMT",
-    "src": "MarketWatch",
+    "title": "A Small Country’s Huge Windfall from the War in Iran - nytimes.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9yeEctVlotRFZjaWw1Q09IaXRKYXQwRTJPRjBpUFluYVhiTVh6S2JjbmRLRVlNY2RDS3h6WHo4UXZ1dWUtMXdIaW1WVEluMEZWQ0k2VC12ZVBBMXo1UDJZdVk5ZFBfRENXbkR6RmlWT0xNOWt4aktpcm9B?oc=5",
+    "pub": "Sat, 19 Sep 2026 13:47:42 GMT",
+    "src": "nytimes.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81070.08
+   81173.68
   ],
   "vixts": [
    0.83,
@@ -1742,7 +1742,8 @@
    "geo": 0,
    "capex": 5,
    "news": 15
-  }
+  },
+  "_cached": true
  },
  "early": {
   "score": 1.5,
@@ -2429,7 +2430,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-19T22:31:58+00:00",
+  "checked": "2026-09-19T22:41:52+00:00",
   "openai": {
    "found": false
   },

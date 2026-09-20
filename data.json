@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T00:03:20+00:00",
+ "updated": "2026-09-20T00:12:06+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81215.09,
-   "chg": 0.39,
-   "chg5": 3.9,
-   "sma20": 78324.07,
-   "sma50": 72840.73,
-   "sma200": 70454.02,
+   "price": 81248.99,
+   "chg": 0.43,
+   "chg5": 3.95,
+   "sma20": 78325.76,
+   "sma50": 72841.41,
+   "sma200": 70454.2,
    "high3m": 81271.74,
-   "reg": 81215.09,
+   "reg": 81248.99,
    "pre": null,
    "post": null,
-   "regClose": 81215.09,
+   "regClose": 81248.99,
    "sess": "reg",
-   "mt": 1789862519,
+   "mt": 1789863089,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,18 @@
  "news": {
   "credit": [
    {
-    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - ad-hoc-news.de",
+    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZjdzYTJKaUFJeTVZMW1KM3VpTkVyTzh6aDVzQ1dpV0VfWTh1RWMtOTVuTHZFLUVqSWQ4Z09iYmxKb3ozbXZWQ2t5V1JvYk5mbERMT01VWTJYLXZ3TmQ3UVZnbWktcXE1QjNYc1NlTTJzOG44Zm9RN0R4Z1JScDlpM3JaVjVrRjkzdFpULVowNGRVdFRBWF9hT1hVOW1oYVhuaEdWeTdCLVY5OVR5ZnVhN1V6ZkFFTk5lN2RIUmpyXy1tcm1XV2ZGbkhlX3Y?oc=5",
     "pub": "Sat, 19 Sep 2026 17:19:35 GMT",
-    "src": "ad-hoc-news.de",
+    "src": "AD HOC NEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Insurers boost private credit allocations selectively - scanx.trade",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOZ2VMY1BqbmNRUUVsT3d3LWxmZ2ZURnhUYjEyMlFxbkxwQ2UxcW04SXZ0eGE3YXV1Z0Y1YjVzRExoV09vTlBzVzhYOGxpS0tIYTFIekVwdVh6anFzeC0takFpUkdsSTFRYmNCQmxBME01TUNPa3l3NnRvenlFMFpJUzdPa3ZRaGdnbVU1LUpUTEJJejMtVEd1SDV4Nk1FMW5OSHhramNzbzlWM3l6S3NSbjFKZw?oc=5",
+    "pub": "Sat, 19 Sep 2026 14:18:35 GMT",
+    "src": "scanx.trade",
     "trig": false,
     "geo": false
    },
@@ -1163,14 +1171,6 @@
     "src": "Rappler",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave Plans $3 Billion Debt Sale to Fund AI Infrastructure Expansion - Channel Insider",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOekxGN3phNy1EOWh1dXVjRFZJOGlyRjR4elNPXzhMMmMxNlpabXBnWFM0SUZ1Rng0S0hzNEt5NkRpN3RlSUxHSlNDSkJXRUdDV2Q3dl9VcHc4MWtQcHVrZHpsTm5fMGhnX0oxVjVPZ3JyQ1hfV0hGQUhWRmRKTFZTYi14aTdsZnFlWUtKd3F1UWRsM3YyTnNnanVR?oc=5",
-    "pub": "Sat, 19 Sep 2026 02:03:47 GMT",
-    "src": "Channel Insider",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1199,18 +1199,10 @@
     "geo": false
    },
    {
-    "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
-    "pub": "Sat, 19 Sep 2026 21:11:26 GMT",
-    "src": "Mashable",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Lawsuit says Anthropic, OpenAI, Google and SpaceXAI of illegal agreement to slow AI - independent.co.uk",
+    "title": "Lawsuit says Anthropic, OpenAI, Google and SpaceXAI of illegal agreement to slow AI - The Independent",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeHZTeFpScnZCX1lxOFlJdVFacHBuOUFheWtIVGJRWWhCUHR0YjJlTlE0N2RuNmI1NVN1aEhLMlVEaTNVRWkyUHB5aUpqMmRJV1ZELWlNR3RsaDdsRE5GNmR5TDVnTUR6bUxYTlRacmExT0d3eUR2VklPLU84dG8tUGxQZEFBWlM5OFZCZVgzMmtvYW1Td1dReEVXZ2I3VGhfbUpLdW1ucW1YRmJ2cmtYblpWMjVSNWVvcmJR?oc=5",
     "pub": "Sat, 19 Sep 2026 21:02:00 GMT",
-    "src": "independent.co.uk",
+    "src": "The Independent",
     "trig": true,
     "geo": false
    },
@@ -1220,6 +1212,14 @@
     "pub": "Sat, 19 Sep 2026 20:16:00 GMT",
     "src": "OregonLive.com",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Live coverage: SpaceX to launch 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg - spaceflightnow.com",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZk9xc2tFc2RBNXJaNGNYNG5fdDhod1F2enpRaUdHZWllWEdkVHZrRFViNjNvU0FZcVB3TnJ0aDlLczBYM1JIN3FWM2YtcTdyODhLbDZ4RktULVpvbFVnX3dKY1QzQVR6MXpJeG41UEtQbHpSTkVqQ1FIWEQ1bFFHQmhEQXpZRFNHSGVPMjBqRFkzRGNtd3ZvVUhCQUZFY3ktazl4QXFEeVlkV0JsejAwY2V2NkRjMldPY3RxYmRHMkJBSGI0VFJIZmh6ZHpfWkJa?oc=5",
+    "pub": "Sat, 19 Sep 2026 20:06:36 GMT",
+    "src": "spaceflightnow.com",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Oil prices extend losses as fears of Middle East supply disruptions ease - The Business Standard",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeTFscUJqT1NXT0ZTXzJTdUdZQTdkbmdpck1NX2txVDVfdEpvbUFHbVpHQkl3eUtrVGJKT3NRZzJfV0M3S0UzYW5jSDllX2lmV1BUUmJHcjJ3M2Q3OGRLYi15ZEhuMUpXczUxd2tpSVZ1a3ZuZ01vdjR6UDJxLWtGYjdveGhmbnJudVU5UjROS3RhSmNSbC0td0JVbzVac2JQSnR6eWR5cw?oc=5",
-    "pub": "Sat, 19 Sep 2026 15:43:46 GMT",
-    "src": "The Business Standard",
+    "title": "Fed Chair Kevin Warsh and the FOMC Just Hiked Interest Rates, and 36 Years of History Make Clear What Comes Next for Stocks - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVVNlVFUzSE4tQlg3RVk3a0t5cXRscU5OTnFVaWd0TGtJU2U4VmI3UDRUNWtETUZsQ1QwWWdRYnRwNXFIajVyY1lHM0pkX2R0QW1BVlhFWUdkemtYQmV0OG8yRy1ETUxEQTlCN2lPNFRnZVpJODYzNm9KVmE0N2dsVG9UVkI1OXpBaXNsNHpaRkdnZFdjYVE?oc=5",
+    "pub": "Sat, 19 Sep 2026 13:26:01 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81217.89
+   81250.86
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T00:02:52+00:00",
+  "checked": "2026-09-20T00:11:51+00:00",
   "openai": {
    "found": false
   },

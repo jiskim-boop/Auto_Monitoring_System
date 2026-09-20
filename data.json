@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T18:42:44+00:00",
+ "updated": "2026-09-20T18:52:00+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81205.56,
-   "chg": -0.03,
-   "chg5": 7.4,
-   "sma20": 78457.85,
-   "sma50": 73209.95,
-   "sma200": 70512.24,
+   "price": 81087.6,
+   "chg": -0.18,
+   "chg5": 7.24,
+   "sma20": 78451.95,
+   "sma50": 73207.59,
+   "sma200": 70511.6,
    "high3m": 81271.74,
-   "reg": 81205.56,
+   "reg": 81087.6,
    "pre": null,
    "post": null,
-   "regClose": 81205.56,
+   "regClose": 81087.6,
    "sess": "reg",
-   "mt": 1789929722,
+   "mt": 1789930283,
    "ok": true
   },
   "USO": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic’s IPO Will Happen a Month Later Than Expected - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUg4bGdBLTJ6cjNUSm9yN2I3NVRjRDlRTU1MSHc5cEMtbkVBbW9NWjJYaWppbmtaTkxqckpYZmVieXp5ZGt0YUotOEdBNXlRZXZHNmJxVDRlbkxGSm5zTDd5WUVrZ20td05ZaXF3ME9nMW84Zks0OHJSWXlrTDZQTnV0WkRQdG1qalVRUnFyb3FWSEFlS2c?oc=5",
+    "pub": "Sun, 20 Sep 2026 18:45:14 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
     "pub": "Sun, 20 Sep 2026 18:07:13 GMT",
@@ -1186,14 +1194,6 @@
     "title": "The SpaceX IPO Gave This Couple License to Chase Their Dreams - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5mR1hsU2VJeGxWWE9wLTBlYjhrTFhKSVljcXBOa2NyUXhWeV9HY3RGa3R5YkR1ejJLX2FFakxidEpRWFBUUm5Ka2ktVDVTYnpkXzFuTy1BaWUxWDhTbTJla0JPMnBBSkk?oc=5",
     "pub": "Sun, 20 Sep 2026 17:32:43 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic’s IPO Will Happen a Month Later Than Expected - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUg4bGdBLTJ6cjNUSm9yN2I3NVRjRDlRTU1MSHc5cEMtbkVBbW9NWjJYaWppbmtaTkxqckpYZmVieXp5ZGt0YUotOEdBNXlRZXZHNmJxVDRlbkxGSm5zTDd5WUVrZ20td05ZaXF3ME9nMW84Zks0OHJSWXlrTDZQTnV0WkRQdG1qalVRUnFyb3FWSEFlS2c?oc=5",
-    "pub": "Sun, 20 Sep 2026 17:15:13 GMT",
     "src": "WSJ",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    77755.27,
    77667.57,
    80350.05,
-   81199.18
+   81081.92
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T18:42:21+00:00",
+  "checked": "2026-09-20T18:51:44+00:00",
   "openai": {
    "found": false
   },
@@ -2439,7 +2439,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 25,
   "curve_inverted": false,

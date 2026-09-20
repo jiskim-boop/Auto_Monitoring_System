@@ -1,21 +1,9 @@
 {
- "updated": "2026-09-20T01:02:26+00:00",
+ "updated": "2026-09-20T01:11:57+00:00",
  "prices": {
   "NVDA": {
-   "price": 222.27,
-   "chg": 1.34,
-   "chg5": 1.82,
-   "sma20": 218.88,
-   "sma50": 214.27,
-   "sma200": 206.39,
-   "high3m": 230.36,
-   "reg": 222.27,
-   "pre": null,
-   "post": null,
-   "regClose": 222.27,
-   "sess": "reg",
-   "mt": 1789761600,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 357.61,
@@ -946,19 +934,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81277.17,
-   "chg": 0.46,
-   "chg5": 3.98,
-   "sma20": 78327.17,
-   "sma50": 72841.97,
-   "sma200": 70454.36,
-   "high3m": 81277.17,
-   "reg": 81277.17,
+   "price": 81157.85,
+   "chg": 0.32,
+   "chg5": 3.83,
+   "sma20": 78321.21,
+   "sma50": 72839.58,
+   "sma200": 70453.71,
+   "high3m": 81271.74,
+   "reg": 81157.85,
    "pre": null,
    "post": null,
-   "regClose": 81277.17,
+   "regClose": 81157.85,
    "sess": "reg",
-   "mt": 1789866116,
+   "mt": 1789866686,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1113,10 @@
  "news": {
   "credit": [
    {
-    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - ad-hoc-news.de",
+    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZjdzYTJKaUFJeTVZMW1KM3VpTkVyTzh6aDVzQ1dpV0VfWTh1RWMtOTVuTHZFLUVqSWQ4Z09iYmxKb3ozbXZWQ2t5V1JvYk5mbERMT01VWTJYLXZ3TmQ3UVZnbWktcXE1QjNYc1NlTTJzOG44Zm9RN0R4Z1JScDlpM3JaVjVrRjkzdFpULVowNGRVdFRBWF9hT1hVOW1oYVhuaEdWeTdCLVY5OVR5ZnVhN1V6ZkFFTk5lN2RIUmpyXy1tcm1XV2ZGbkhlX3Y?oc=5",
     "pub": "Sat, 19 Sep 2026 17:19:35 GMT",
-    "src": "ad-hoc-news.de",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    },
@@ -1157,18 +1145,18 @@
     "geo": false
    },
    {
-    "title": "The Most Undervalued 9-13% Yields I Am Buying Right Now - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0tob1F1bGFsNVVvNkF5cm1xM3NZSXpMalA1UmljZG40RXQwMWgwZmlqOC1HY2w2c3hKZnVqX2lXQU5GY2l0LTBsVkI5YWE1VlJfSURwVGtBZFh3NWRJUVV5eVJlNVpHLUpDa3hCUnNjUDdTR3VQQTgtaFFBUVZLTXo0TW9uNVJYOXY0bDhhVG5rNzR6MEFqWUlnQm5ma1Zi?oc=5",
-    "pub": "Sat, 19 Sep 2026 11:05:00 GMT",
-    "src": "Seeking Alpha",
+    "title": "[Photo] ALLDAY PROJECT's Annie reveals abs through see-through outfit - CHOSUNBIZ - Chosunbiz",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNa3V6LUxILTVNU0xEYmNmUi1ZdXlnQllKUURMbkJXTjR0TDloQmtTTjF4UmFWZ1hDMUlBQjBCZ05YcXhzTFY1dl9WV0dGQ0tMa2lac0xNRTFaclI4MGVTcHhLTk5rc2EyNWpXNURZanNKNVhLSkcyN1VJdzY3Q2ZWY1pUd9IBlwFBVV95cUxPME9SdnAxbE9mRkllOEFrMkVlZXVDSWxLMVBKdXhSVVpoNGZpSlRLT3pUajd0MkhmWWZLYXhVcU00SGZFT0lsS0hBeWJnZ3haZkVYU0Z6MHZQWVItSzUtWFBnN1hiX3Y1VDk2c0hLZUVmN3Z1LVJyWkdSSUlPbjRmOFdOelRHYk5vTzYzTmFmeFlXTWZyVVBz?oc=5",
+    "pub": "Sat, 19 Sep 2026 11:11:00 GMT",
+    "src": "Chosunbiz",
     "trig": false,
     "geo": false
    },
    {
-    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
-    "pub": "Sat, 19 Sep 2026 09:00:00 GMT",
-    "src": "Rappler",
+    "title": "The Most Undervalued 9-13% Yields I Am Buying Right Now - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOc0tob1F1bGFsNVVvNkF5cm1xM3NZSXpMalA1UmljZG40RXQwMWgwZmlqOC1HY2w2c3hKZnVqX2lXQU5GY2l0LTBsVkI5YWE1VlJfSURwVGtBZFh3NWRJUVV5eVJlNVpHLUpDa3hCUnNjUDdTR3VQQTgtaFFBUVZLTXo0TW9uNVJYOXY0bDhhVG5rNzR6MEFqWUlnQm5ma1Zi?oc=5",
+    "pub": "Sat, 19 Sep 2026 11:05:00 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1225,6 +1213,14 @@
   ],
   "macro": [
    {
+    "title": "US military strike kills ‘narco-terrorists’ on boat - The Nightly",
+    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUVpHMHhGaTZ4WDRXWW85WVRKbm04RFptMk9DN2lRcXhTQ3VocDhrZnFQNjAycElsaU9lWUJlbEZxXzU1b1JRaUN3bU5TZDBfeHRBYVhHZFF6THhCbi02UUdSZzBEVE5TWEk3bllyRHlVcVRlZFBiWXIyczR4dmxUNFZRekdHN3JKYjlXaXVWbEZralBVM1RtT1N1eWgzRUU1bmI0dzc4bTBJcnBxZ2s3QXlJVzNiREJQdG41T2JITVN2SXpCRFRmbWJYQ09lLW1kYXdHUGdOcWk2blE4bmQ0c0dQT1NhNjE1ZUhlbmxBcV9BQQ?oc=5",
+    "pub": "Sun, 20 Sep 2026 01:06:55 GMT",
+    "src": "The Nightly",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNclg4Y3lVVHJ6VTVFMnZaNnVIc2xta2xoTGRpRS1xX1Q0RW1RYl9YNW5MYmVSWFV2NGRWZWo3Vld0X1FXbmlnQjh0blFqckp1SXM5MGE0d2lXblVuRkZheVltYzdCZjk2dHZRZk55cG5mWXJvSXRzUlM4UXVsMUVRNUJqa1Q1NVZYZ3owSGREYktLcWJUNTg1U3d0NzRTbTVFb05BYmFNYXY2Z2JjTjRLd0tBS0hJMDM1Z1NncWJUWG05Yk5vRGJyRVZ4a3ItbEZGZ0FnTXVNX3RZTlRKSzgxZnFkYXpuZXNQbEkzMUkxamVRVE12Q3F6b2dHV0ZiLUtMRExoTVhOc181aW0yam00MEhxM3NfdHplV1VhNGVuOG5iRTRfTFJoWm5INmtCMzJ3ZllIOXlfcFU2MlZQcHVENDMyMTV2MWduNWktTjNZUU45MXRZbUHSAfIBQVVfeXFMUFl2TEFXUW1BWmJxbzdldDNTRDV4MVFZTjJnNlJraGprSmh0OGFyNzltYVJCeUFib3dMeHhRb0E1OTJEdTFjTGF3QURKRUJCazlfS2FGd1BxTE55TnY4ZFRxcnF2NmVBUE5pSVJpd083XzQya1dCZHNiZlJVMUM5U0QySWZtQnlib2RSSEFZSWt3cEpkc2ZlQkNldGgwZU4xYURGN3RzOUNWQnhXdC1BUnRIanNKa2RsbmVJcmVxcGg2THV2VGtqNWRZR1VfN1ZaYW1PNUZ4TmZjUUdoRW9YZVdubnNKMjROQXUyeXh3YnlXZFE?oc=5",
     "pub": "Sun, 20 Sep 2026 00:46:30 GMT",
@@ -1257,18 +1253,10 @@
     "geo": false
    },
    {
-    "title": "Iran-backed proxies strike Saudi Arabia’s oil pipeline and military bases - cryptobriefing.com",
+    "title": "Iran-backed proxies strike Saudi Arabia’s oil pipeline and military bases - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sdU95eC1kdjhwTG9zNUR3ekpKOFVYYmd6UnFiSEtiR0xzTjRDQlNERUQtQ2JmQTJZU19fbmZGRHBmeW5KeUoyRy1saWplbzNoeUVtYXFzSGhMWlhXSE9wREhLcy0tekpwUk0xRUxmMU9jSFdF?oc=5",
     "pub": "Sat, 19 Sep 2026 18:04:46 GMT",
-    "src": "cryptobriefing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Iran-backed proxies strike Saudi oil pipeline, gain Red Sea territory - cryptobriefing.com",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdUk4aHg4MHAzbHZoTUc1TWlWbWdBTUo4cVNXV1JNVjVlNkp3YnFaVmUzWmVlZDJaWlVzTTY0TE01V25xVVM2WVVMNGJfUTB4N29aamFmeGVxVjFzYkdlYnc2N01VRjlSblNsS1NBYnFocVU0MUtHaXZKRDBJc0dxNXRYVkUxV3RaQk5Gb0RjeDc1LWNpZnQyVzN4MTA?oc=5",
-    "pub": "Sat, 19 Sep 2026 18:02:44 GMT",
-    "src": "cryptobriefing.com",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1598,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81277.17
+   81168.3
   ],
   "vixts": [
    0.83,
@@ -2419,16 +2407,18 @@
   24
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 51,
-  "n": 35
+  "pct50": 50,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-09-20T01:02:15+00:00",
+  "checked": "2026-09-20T01:11:45+00:00",
   "openai": {
    "found": false
   },

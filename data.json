@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T21:02:50+00:00",
+ "updated": "2026-09-20T21:12:06+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80987.83,
-   "chg": -0.3,
-   "chg5": 7.11,
-   "sma20": 78446.96,
-   "sma50": 73205.59,
-   "sma200": 70511.06,
+   "price": 80605.42,
+   "chg": -0.77,
+   "chg5": 6.6,
+   "sma20": 78427.84,
+   "sma50": 73197.94,
+   "sma200": 70508.99,
    "high3m": 81271.74,
-   "reg": 80987.83,
+   "reg": 80605.42,
    "pre": null,
    "post": null,
-   "regClose": 80987.83,
+   "regClose": 80605.42,
    "sess": "reg",
-   "mt": 1789938120,
+   "mt": 1789938691,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.85,
-   "chg": 0.47,
-   "chg5": 2.24,
+   "price": 156.79,
+   "chg": 0.42,
+   "chg5": 2.2,
    "sma20": 156.76,
    "sma50": 159.04,
    "sma200": 159.42,
    "high3m": 163.86,
-   "reg": 156.85,
+   "reg": 156.79,
    "pre": null,
    "post": null,
-   "regClose": 156.85,
+   "regClose": 156.79,
    "sess": "reg",
-   "mt": 1789878074,
+   "mt": 1789938686,
    "ok": true
   },
   "ES=F": {
@@ -1177,8 +1177,16 @@
    {
     "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-    "pub": "Sun, 20 Sep 2026 18:07:13 GMT",
+    "pub": "Sun, 20 Sep 2026 21:08:10 GMT",
     "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Arkansas family sues xAI over use of Grok to create deepfake child sex abuse material - KATV",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOSjE0NHBFMXczeEhmU2VyMEVwSGF6Vm54V2pEZmNpcWhab1V3YVVZZGFvUEZXTk5xTE5IbW9CREJhTVpnVFNXdXh1emlOcmpfMEQ3NGUwdFl6Qms0ZXdKRmRVdmRIblpISDFhakswRGVRdHpvVEk4SWZQRlBCUlhSSHpqOXhxYU5sa0xxM1FRTHVpdHFrVkZZdjNfUjMtNVNZRUpZVmpVWENienV1b1VsaW0xS1lMN3d2QWpRc1pnLW14SnNOWEt3Rg?oc=5",
+    "pub": "Sun, 20 Sep 2026 18:57:30 GMT",
+    "src": "KATV",
     "trig": false,
     "geo": false
    },
@@ -1212,14 +1220,6 @@
     "pub": "Sun, 20 Sep 2026 13:00:14 GMT",
     "src": "TradingKey",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI, Google, Anthropic, and SpaceXAI face antitrust lawsuit over conspiring against consumers - Milwaukee Independent",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNVliaXIzdXRTYzR0NE52ZEZMUy1JM3F1RjVYbEpTaV9qd1lCTDNtX1RPX29KdWpaM0dzellwd3Z2ZGJMcUpoSmVVVmk4em9hcEJVckpCTDByZFZfbUFfYjU0aUVEeTdtb2ZLTklqVEJJNDZKUTFHNWFZR1hYNTBobG9KbG50STk2WUhjbnUyaVZuNEZ3VExob0tzSlcwOUlteS1MS2hsMDdrVWU2OC0xNlhiczNOM09uZzNsa01BUQ?oc=5",
-    "pub": "Sun, 20 Sep 2026 10:00:18 GMT",
-    "src": "Milwaukee Independent",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1550,7 +1550,7 @@
    158.9,
    160.12,
    156.2,
-   156.85
+   156.79
   ],
   "uso": [
    112.69,
@@ -1610,7 +1610,7 @@
    77755.27,
    77667.57,
    80350.05,
-   80873.14
+   80629.5
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T21:02:35+00:00",
+  "checked": "2026-09-20T21:11:52+00:00",
   "openai": {
    "found": false
   },

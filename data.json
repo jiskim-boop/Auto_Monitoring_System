@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T04:42:11+00:00",
+ "updated": "2026-09-20T04:51:58+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80417.12,
-   "chg": -0.6,
-   "chg5": 2.88,
-   "sma20": 78284.17,
-   "sma50": 72824.77,
-   "sma200": 70449.68,
+   "price": 80372.97,
+   "chg": -0.65,
+   "chg5": 2.83,
+   "sma20": 78281.96,
+   "sma50": 72823.89,
+   "sma200": 70449.44,
    "high3m": 81271.74,
-   "reg": 80417.12,
+   "reg": 80372.97,
    "pre": null,
    "post": null,
-   "regClose": 80417.12,
+   "regClose": 80372.97,
    "sess": "reg",
-   "mt": 1789879289,
+   "mt": 1789879883,
    "ok": true
   },
   "USO": {
@@ -1191,10 +1191,18 @@
     "geo": false
    },
    {
-    "title": "Ex-Intel Veterans Team Up to Challenge NVIDIA NVLink with Next-Gen High-Speed Interconnect Technology - eu.36kr.com",
+    "title": "Ex-Intel Veterans Team Up to Challenge NVIDIA NVLink with Next-Gen High-Speed Interconnect Technology - 36Kr",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80MlJScUIxR1MtazFqMlg4bEp1REEzcUx2cHhSem51Y3piMVYwNFdvZklpMjROaHlGZGZFTnZyaV9uenRuNjlFUUxQYWpTMHpHMDBv?oc=5",
     "pub": "Sun, 20 Sep 2026 03:23:09 GMT",
-    "src": "eu.36kr.com",
+    "src": "36Kr",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
+    "pub": "Sun, 20 Sep 2026 02:57:36 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    },
@@ -1213,17 +1221,17 @@
     "src": "ABC13 Houston",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Lawsuit says Anthropic, OpenAI, SpaceXAI and Google made illegal agreement on AI slowdown - AP News",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcGNIX0w3dGlsV1dsUUdPS1l6TXFWSm8yUVBkTlVhZl85V1hGNHVadW9LZFRHRl95Y2VBY0Nvc3FvbDBOcXpfdFlYc1dEckQtbk9BMVlEeHBIYkdBVjJmZDYxMFFpVlR6Mm1NeEZ3cEFvcmtLLXRTWDZjQjRtRWxuYnNQQ204Q0I0Z3haTXRSN0w3QnhSYXZDOG00eXhQd2ZyTVhZc09SR3lSb0ZSMU5mYktsNzNjWTdLVGV6dmZNVQ?oc=5",
-    "pub": "Sat, 19 Sep 2026 22:05:00 GMT",
-    "src": "AP News",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Ukrainian drones strike near Moscow, killing two civilians - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbmFQVkF2NE5IRmZPQlpOVUpHaGNBU0RpUWVLdnBac05GcENXUm9ybWdSRGRsZ1RQbkxoemFWZkN4MHF3NEhqR3hOQWMtcUFrUllBSFBGU3BpUjNmT053dllOOXJBNmstZEdZNkdLMktRYXQySFlYdHlKX3dvVU5RbGlHVlM0LXllV2ExbV9B?oc=5",
+    "pub": "Sun, 20 Sep 2026 04:34:04 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "September LPR Unchanged for 16th Straight Month; Widening China-US Rate Inversion Squeezes Window for Cuts - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBsV0tnNkFzZW9zdkJuRlhVLVdFYUdUeXA4NFRLdFVhZmZ2MUVWUWtRbWVUbU9oUHlnamd1d1NSNXE5SGJ1WHU3a3BQRW51TU1KSkpnZ3ZsdlBEYllqMm5qWEF2REhVaWJDN1Fva1BfSjRGUlVPdVE?oc=5",
@@ -1261,14 +1269,6 @@
     "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOUVpHMHhGaTZ4WDRXWW85WVRKbm04RFptMk9DN2lRcXhTQ3VocDhrZnFQNjAycElsaU9lWUJlbEZxXzU1b1JRaUN3bU5TZDBfeHRBYVhHZFF6THhCbi02UUdSZzBEVE5TWEk3bllyRHlVcVRlZFBiWXIyczR4dmxUNFZRekdHN3JKYjlXaXVWbEZralBVM1RtT1N1eWgzRUU1bmI0dzc4bTBJcnBxZ2s3QXlJVzNiREJQdG41T2JITVN2SXpCRFRmbWJYQ09lLW1kYXdHUGdOcWk2blE4bmQ0c0dQT1NhNjE1ZUhlbmxBcV9BQQ?oc=5",
     "pub": "Sun, 20 Sep 2026 01:06:55 GMT",
     "src": "The Nightly",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US military says it killed four in strike on alleged drug-smuggling boat in the Caribbean - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi1gJBVV95cUxNclg4Y3lVVHJ6VTVFMnZaNnVIc2xta2xoTGRpRS1xX1Q0RW1RYl9YNW5MYmVSWFV2NGRWZWo3Vld0X1FXbmlnQjh0blFqckp1SXM5MGE0d2lXblVuRkZheVltYzdCZjk2dHZRZk55cG5mWXJvSXRzUlM4UXVsMUVRNUJqa1Q1NVZYZ3owSGREYktLcWJUNTg1U3d0NzRTbTVFb05BYmFNYXY2Z2JjTjRLd0tBS0hJMDM1Z1NncWJUWG05Yk5vRGJyRVZ4a3ItbEZGZ0FnTXVNX3RZTlRKSzgxZnFkYXpuZXNQbEkzMUkxamVRVE12Q3F6b2dHV0ZiLUtMRExoTVhOc181aW0yam00MEhxM3NfdHplV1VhNGVuOG5iRTRfTFJoWm5INmtCMzJ3ZllIOXlfcFU2MlZQcHVENDMyMTV2MWduNWktTjNZUU45MXRZbUHSAfIBQVVfeXFMUFl2TEFXUW1BWmJxbzdldDNTRDV4MVFZTjJnNlJraGprSmh0OGFyNzltYVJCeUFib3dMeHhRb0E1OTJEdTFjTGF3QURKRUJCazlfS2FGd1BxTE55TnY4ZFRxcnF2NmVBUE5pSVJpd083XzQya1dCZHNiZlJVMUM5U0QySWZtQnlib2RSSEFZSWt3cEpkc2ZlQkNldGgwZU4xYURGN3RzOUNWQnhXdC1BUnRIanNKa2RsbmVJcmVxcGg2THV2VGtqNWRZR1VfN1ZaYW1PNUZ4TmZjUUdoRW9YZVdubnNKMjROQXUyeXh3YnlXZFE?oc=5",
-    "pub": "Sun, 20 Sep 2026 00:46:30 GMT",
-    "src": "The Economic Times",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   80417.12
+   80355.41
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T04:41:49+00:00",
+  "checked": "2026-09-20T04:51:42+00:00",
   "openai": {
    "found": false
   },
@@ -2439,7 +2439,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.36,
   "curve_bp": 25,
   "curve_inverted": false,

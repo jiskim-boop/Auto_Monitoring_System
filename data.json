@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T00:22:09+00:00",
+ "updated": "2026-09-20T00:32:20+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81189.1,
-   "chg": 0.36,
-   "chg5": 3.87,
-   "sma20": 78322.77,
-   "sma50": 72840.21,
-   "sma200": 70453.88,
+   "price": 81238.5,
+   "chg": 0.42,
+   "chg5": 3.93,
+   "sma20": 78325.24,
+   "sma50": 72841.2,
+   "sma200": 70454.15,
    "high3m": 81271.74,
-   "reg": 81189.1,
+   "reg": 81238.5,
    "pre": null,
    "post": null,
-   "regClose": 81189.1,
+   "regClose": 81238.5,
    "sess": "reg",
-   "mt": 1789863696,
+   "mt": 1789864307,
    "ok": true
   },
   "USO": {
@@ -1125,10 +1125,10 @@
  "news": {
   "credit": [
    {
-    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - AD HOC NEWS",
+    "title": "Apollo Global Management stock gains as EasyJet takeover and AI financing drive focus - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZjdzYTJKaUFJeTVZMW1KM3VpTkVyTzh6aDVzQ1dpV0VfWTh1RWMtOTVuTHZFLUVqSWQ4Z09iYmxKb3ozbXZWQ2t5V1JvYk5mbERMT01VWTJYLXZ3TmQ3UVZnbWktcXE1QjNYc1NlTTJzOG44Zm9RN0R4Z1JScDlpM3JaVjVrRjkzdFpULVowNGRVdFRBWF9hT1hVOW1oYVhuaEdWeTdCLVY5OVR5ZnVhN1V6ZkFFTk5lN2RIUmpyXy1tcm1XV2ZGbkhlX3Y?oc=5",
     "pub": "Sat, 19 Sep 2026 17:19:35 GMT",
-    "src": "AD HOC NEWS",
+    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    },
@@ -1177,7 +1177,7 @@
    {
     "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-    "pub": "Sat, 19 Sep 2026 23:59:38 GMT",
+    "pub": "Sun, 20 Sep 2026 00:29:44 GMT",
     "src": "Anthropic",
     "trig": false,
     "geo": false
@@ -1199,6 +1199,14 @@
     "geo": false
    },
    {
+    "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
+    "pub": "Sat, 19 Sep 2026 21:11:26 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Lawsuit says Anthropic, OpenAI, Google and SpaceXAI of illegal agreement to slow AI - The Independent",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOeHZTeFpScnZCX1lxOFlJdVFacHBuOUFheWtIVGJRWWhCUHR0YjJlTlE0N2RuNmI1NVN1aEhLMlVEaTNVRWkyUHB5aUpqMmRJV1ZELWlNR3RsaDdsRE5GNmR5TDVnTUR6bUxYTlRacmExT0d3eUR2VklPLU84dG8tUGxQZEFBWlM5OFZCZVgzMmtvYW1Td1dReEVXZ2I3VGhfbUpLdW1ucW1YRmJ2cmtYblpWMjVSNWVvcmJR?oc=5",
     "pub": "Sat, 19 Sep 2026 21:02:00 GMT",
@@ -1212,14 +1220,6 @@
     "pub": "Sat, 19 Sep 2026 20:16:00 GMT",
     "src": "OregonLive.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Live coverage: SpaceX to launch 27 Starlink V2 Mini satellites on Falcon 9 rocket from Vandenberg - spaceflightnow.com",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQZk9xc2tFc2RBNXJaNGNYNG5fdDhod1F2enpRaUdHZWllWEdkVHZrRFViNjNvU0FZcVB3TnJ0aDlLczBYM1JIN3FWM2YtcTdyODhLbDZ4RktULVpvbFVnX3dKY1QzQVR6MXpJeG41UEtQbHpSTkVqQ1FIWEQ1bFFHQmhEQXpZRFNHSGVPMjBqRFkzRGNtd3ZvVUhCQUZFY3ktazl4QXFEeVlkV0JsejAwY2V2NkRjMldPY3RxYmRHMkJBSGI0VFJIZmh6ZHpfWkJa?oc=5",
-    "pub": "Sat, 19 Sep 2026 20:06:36 GMT",
-    "src": "spaceflightnow.com",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1241,18 +1241,18 @@
     "geo": false
    },
    {
-    "title": "Iran-backed proxies strike Saudi Arabia’s oil pipeline and military bases - Crypto Briefing",
+    "title": "Iran-backed proxies strike Saudi Arabia’s oil pipeline and military bases - cryptobriefing.com",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5sdU95eC1kdjhwTG9zNUR3ekpKOFVYYmd6UnFiSEtiR0xzTjRDQlNERUQtQ2JmQTJZU19fbmZGRHBmeW5KeUoyRy1saWplbzNoeUVtYXFzSGhMWlhXSE9wREhLcy0tekpwUk0xRUxmMU9jSFdF?oc=5",
     "pub": "Sat, 19 Sep 2026 18:04:46 GMT",
-    "src": "Crypto Briefing",
+    "src": "cryptobriefing.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Iran-backed proxies strike Saudi oil pipeline, gain Red Sea territory - Crypto Briefing",
+    "title": "Iran-backed proxies strike Saudi oil pipeline, gain Red Sea territory - cryptobriefing.com",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdUk4aHg4MHAzbHZoTUc1TWlWbWdBTUo4cVNXV1JNVjVlNkp3YnFaVmUzWmVlZDJaWlVzTTY0TE01V25xVVM2WVVMNGJfUTB4N29aamFmeGVxVjFzYkdlYnc2N01VRjlSblNsS1NBYnFocVU0MUtHaXZKRDBJc0dxNXRYVkUxV3RaQk5Gb0RjeDc1LWNpZnQyVzN4MTA?oc=5",
     "pub": "Sat, 19 Sep 2026 18:02:44 GMT",
-    "src": "Crypto Briefing",
+    "src": "cryptobriefing.com",
     "trig": false,
     "geo": false
    },
@@ -1265,10 +1265,10 @@
     "geo": false
    },
    {
-    "title": "Fed Chair Kevin Warsh and the FOMC Just Hiked Interest Rates, and 36 Years of History Make Clear What Comes Next for Stocks - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVVNlVFUzSE4tQlg3RVk3a0t5cXRscU5OTnFVaWd0TGtJU2U4VmI3UDRUNWtETUZsQ1QwWWdRYnRwNXFIajVyY1lHM0pkX2R0QW1BVlhFWUdkemtYQmV0OG8yRy1ETUxEQTlCN2lPNFRnZVpJODYzNm9KVmE0N2dsVG9UVkI1OXpBaXNsNHpaRkdnZFdjYVE?oc=5",
-    "pub": "Sat, 19 Sep 2026 13:26:01 GMT",
-    "src": "Yahoo Finance",
+    "title": "Oil prices extend losses as fears of Middle East supply disruptions ease - The Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOeTFscUJqT1NXT0ZTXzJTdUdZQTdkbmdpck1NX2txVDVfdEpvbUFHbVpHQkl3eUtrVGJKT3NRZzJfV0M3S0UzYW5jSDllX2lmV1BUUmJHcjJ3M2Q3OGRLYi15ZEhuMUpXczUxd2tpSVZ1a3ZuZ01vdjR6UDJxLWtGYjdveGhmbnJudVU5UjROS3RhSmNSbC0td0JVbzVac2JQSnR6eWR5cw?oc=5",
+    "pub": "Sat, 19 Sep 2026 15:43:46 GMT",
+    "src": "The Business Standard",
     "trig": false,
     "geo": false
    }
@@ -1315,10 +1315,10 @@
     "geo": false
    },
    {
-    "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - Reuters",
+    "title": "Oil slides after China asks Iran to limit Houthi attacks on Saudi oil facilities - reuters.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDVrUGNRTzdTOG1wQ1ljY2w0Y002MjMxSVNvM2RrLTBhM3B1dEJVS1B6bnJWTjhydS1BUHpfTVFtbHh2QkdMdFU1ZVo3MDJtQ01kbldpa0lfWFM0QXFWbmVsN1RqcjcxMHczN3JGSHItelVZMzQtYklTN1kwVlJxLU5RVzAwc3BEQV9iVFI1N0xhRXluaGZxN0NrWkxFMDk5Q0pYZw?oc=5",
     "pub": "Sat, 19 Sep 2026 08:20:38 GMT",
-    "src": "Reuters",
+    "src": "reuters.com",
     "trig": false,
     "geo": false
    }
@@ -1610,7 +1610,7 @@
    77083.41,
    78245.81,
    79823.87,
-   81189.1
+   81228.0
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T00:21:54+00:00",
+  "checked": "2026-09-20T00:32:07+00:00",
   "openai": {
    "found": false
   },

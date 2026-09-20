@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-20T14:21:57+00:00",
+ "updated": "2026-09-20T14:32:38+00:00",
  "prices": {
   "NVDA": {
    "price": 222.27,
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80462.07,
-   "chg": -0.95,
-   "chg5": 6.41,
-   "sma20": 78420.67,
-   "sma50": 73195.08,
-   "sma200": 70508.22,
+   "price": 80499.99,
+   "chg": -0.9,
+   "chg5": 6.46,
+   "sma20": 78422.57,
+   "sma50": 73195.83,
+   "sma200": 70508.42,
    "high3m": 81271.74,
-   "reg": 80462.07,
+   "reg": 80499.99,
    "pre": null,
    "post": null,
-   "regClose": 80462.07,
+   "regClose": 80499.99,
    "sess": "reg",
-   "mt": 1789914087,
+   "mt": 1789914713,
    "ok": true
   },
   "USO": {
@@ -1125,6 +1125,14 @@
  "news": {
   "credit": [
    {
+    "title": "Ares Capital Remains The Gold Standard In BDCs (NASDAQ:ARCC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOTc1NFVqcmVrNmdlVUMzQmxhRjVpTU9rZDNZQ1l4SEJVcVczanVVN3dOcUZWaTk1N0QxZl8wczV5dzFpcHFjemkwb2taNVFVLTRhVDktaHdqb19JNUh3NUdoaGJ5VTQtd1EycEIwQ2ZhU0dCS3R5b0tzMnpGYjNmZkZoVFAtYUNZNFFjM0tUdVRLSTl2ay02c0lIYVV4YW9EZnJzQQ?oc=5",
+    "pub": "Sun, 20 Sep 2026 14:15:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI’s $5 Trillion Buildout Is Becoming a Credit Market Stress Test - The Dark Side Of The Boom",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQMVBrQ2V0R0ZrOGhEVjE4R2VCaUZYQUVNUU5veVdlejZjeDA1R2FtTnJrU293ZDZDMzU0Y2o0dTk1S3VUcWVQRHEtQ3RUX2h3LWFZaVBnNEh0ZDd5cXZOejZiQi1wZHRWam1pZWZVdEw5RVVLcWJKYlczLVdESkY3LUU0ZFVjQQ?oc=5",
     "pub": "Sun, 20 Sep 2026 10:59:47 GMT",
@@ -1163,17 +1171,17 @@
     "src": "Finimize",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "NKE, OWL, SMR Stocks Hit 52-Week Lows Last Week: What Drove The Selloff? - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMkNRWkx0MG1tWVVhckZES0VJNk56UE1hbjNLbzRhcWNEa3V0aGZvWF9rODNmcnZvX2FXdm9iYWlIblNKOGt4U2dSWGRBc2g5VGdvenFLWFlFZ0tzV2lMNDR3aDE1TkN1cUFxcWIxVjJnQ09HeVVkX2p1eVNTV2tHcEpsM0tVaTFTY3pZNkNCOGhwNEdGU1hwQy1DUW9pX1RUV3VIbVhuYlZ0V2JKbVE?oc=5",
-    "pub": "Sat, 19 Sep 2026 11:39:13 GMT",
-    "src": "Stocktwits",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+    "pub": "Sun, 20 Sep 2026 14:25:57 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Anthropic’s IPO Will Happen a Month Later Than Expected - WSJ",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQdUg4bGdBLTJ6cjNUSm9yN2I3NVRjRDlRTU1MSHc5cEMtbkVBbW9NWjJYaWppbmtaTkxqckpYZmVieXp5ZGt0YUotOEdBNXlRZXZHNmJxVDRlbkxGSm5zTDd5WUVrZ20td05ZaXF3ME9nMW84Zks0OHJSWXlrTDZQTnV0WkRQdG1qalVRUnFyb3FWSEFlS2c?oc=5",
@@ -1191,14 +1199,6 @@
     "geo": false
    },
    {
-    "title": "Measurements for understanding the pace of AI development inside frontier labs - anthropic.com",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-    "pub": "Sun, 20 Sep 2026 12:33:34 GMT",
-    "src": "anthropic.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OpenAI, Google, Anthropic, and SpaceXAI face antitrust lawsuit over conspiring against consumers - Milwaukee Independent",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNNVliaXIzdXRTYzR0NE52ZEZMUy1JM3F1RjVYbEpTaV9qd1lCTDNtX1RPX29KdWpaM0dzellwd3Z2ZGJMcUpoSmVVVmk4em9hcEJVckpCTDByZFZfbUFfYjU0aUVEeTdtb2ZLTklqVEJJNDZKUTFHNWFZR1hYNTBobG9KbG50STk2WUhjbnUyaVZuNEZ3VExob0tzSlcwOUlteS1MS2hsMDdrVWU2OC0xNlhiczNOM09uZzNsa01BUQ?oc=5",
     "pub": "Sun, 20 Sep 2026 10:00:18 GMT",
@@ -1207,18 +1207,18 @@
     "geo": false
    },
    {
-    "title": "Report: Chinese AI Models Generate About 10% of OpenAI and Anthropic’s Revenue - forklog.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUG5RWllucjBLUzlXYkM0blNlR2J4Qm1HWTBILXYyN1phaWFVb0ZUMmdDZDEtVW50TmhoMUFZNjhrVXdpQ2Q4YnZuM05KeVpEUXhVVllKbEFkZU5TdUZaaW05QlRjNVpMTUFRME1QMnJVcVFSckVIWk1QVklWaDdULXczLVhycVZKTlBobWdzUGsxdWN3X1ZYS1hqWmloZV9k?oc=5",
-    "pub": "Sun, 20 Sep 2026 08:26:54 GMT",
-    "src": "forklog.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nvidia may bankroll Anthropic's massive IPO - Mashable",
     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1Bb01qUGttTkxJUEt3SWdwakxaMzZjTXd3V3E5RjhXXzMyZW9YX0pjUmtlcGZyYXp1amRTbVlVMmxka284RWxFcGp5Tnp0TDEtbHUzeU1rcXZfdkFkTU53UnR0ZEdndDc2RVF1R0RB?oc=5",
     "pub": "Sun, 20 Sep 2026 07:32:36 GMT",
     "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI is seeking another round of financing: With a valuation of $1.2 trillion, who dares to take the next step? - Moomoo",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMWxOSjFUQXYzb1JWdE1VYkZERllGRFd4NHFtVU54MEd4UEZpUEk4a1ZHSlRZOVgzd3NoRUs2bkRmbEFMM013dHJ3WlFzWG45Q1ZrUEFDWmFIX0hmLUF4cWQ5b1U3a0xwaTlJOGdoRzJuNmVPUlg1c0Q0UUFwbVk4Vk9lUDFIUmVxYkJ2dHN0dGtRMnlXeE5FZUo2RE1Ea2pDWHQzMzhn?oc=5",
+    "pub": "Sun, 20 Sep 2026 06:53:38 GMT",
+    "src": "Moomoo",
     "trig": false,
     "geo": false
    }
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Gold is not expected to get cheaper - It will become even more expensive - Modern.az",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNS2kxU3BHRkplQXVuUkhmMUdlbHJLQkpUdzFmWnp6T0kyaFFycUNSY3M1WjItTThnUjF4VlBoZXZSeGxwYXloUHQyem9VTmt0WmhUSDRDalNLb0F0d0xDUzFYbEhFMWQtcDRNWVB1eW9VTVVKdVFoNnR1YmJjMVdSNGk1MjdQZmxSTU9WQ1lCdWRzZWJQNFNPaGRBSUFVMW1zZERvRVpGYVdDSGc?oc=5",
+    "pub": "Sun, 20 Sep 2026 07:13:59 GMT",
+    "src": "Modern.az",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Governor Newsom signs bill expanding fuel options to help Californians save at the pump, amid Donald Trump’s gas price crisis - California State Portal | CA.gov",
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOSnR4MDN2NC1kbGhUYVdGTUhPbGExekZDSHAyS0ZmZGZ2MEJya2pnVDdKUkFYdENRZEJmbXAxcmhBR3FQX0lGOGtwb1JEdGU2YkpwekQ0dW94S2pRRkhOdEVnVHR6eDJsanJpSklueGdPQy1zMnhta2ktUUdXeEprSU0xR1FNTW96UU9wLXFQMm1VVnhzV3kyNl9xN295WmNaVjhWTGdCdUhMSmlUSmxjQi01X1lDQXVBWW5DOFRoMDM5dU9mcUhlQWRyd3RhclRWbHE2WmhsWGNxUzFmblRxWUpjZGtPLS1xMHp6c1M4MA?oc=5",
     "pub": "Sat, 19 Sep 2026 22:30:53 GMT",
@@ -1310,14 +1318,6 @@
     "title": "Price to sales ratio of Lion Copper Corp. – LSX:A42GNX - TradingView",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZHN2LXFsWFdHanZXc2xfaTR6OWhyVS1BcjlWYW9NLTNrRnZqZVVXTXBpTkplQ0JSaS1vQ1ZqVGxYb2JGaWJiejkzOUt4cTZMNTF0emxISTNPb2w4OWI1bEV0aE51bEtRTVJjSlVHYU52T0NRNlVpY3NDaExheEJhWUJtbXNrOHlJZDRhTm53VTZTTmxPMjBv?oc=5",
     "pub": "Sat, 19 Sep 2026 18:02:48 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to book ratio of Lion Copper Corp. – LS:A42GNX - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeElsTU04MzJWZWMwaTBEQU1oQndiMzJiTlVON1BUcWtlRmxZNV92RlpHTGRIXzdERjNYTDZISlQ4N1FCTUNnZTEteFk2M040ZnU0dkdfbERiQkFueTN5OVRRRW1tUVROdlNsN3FJeW40ZHdobXVLZGM5Q1BMdGE4QlZHSWRkeVpDeGhPaGNoWkt2TG4w?oc=5",
-    "pub": "Sat, 19 Sep 2026 17:43:18 GMT",
     "src": "TradingView",
     "trig": false,
     "geo": false
@@ -1610,7 +1610,7 @@
    77755.27,
    77667.57,
    80350.05,
-   80447.04
+   80501.6
   ],
   "vixts": [
    0.83,
@@ -2428,7 +2428,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-20T14:21:43+00:00",
+  "checked": "2026-09-20T14:32:13+00:00",
   "openai": {
    "found": false
   },

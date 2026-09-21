@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T21:12:05+00:00",
+ "updated": "2026-09-21T21:22:06+00:00",
  "prices": {
   "NVDA": {
    "price": 227.38,
@@ -770,19 +770,19 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 148.1,
-   "chg": 1.65,
-   "chg5": -4.14,
-   "sma20": 147.59,
-   "sma50": 144.03,
-   "sma200": 143.19,
+   "price": 142.19,
+   "chg": -3.99,
+   "chg5": -6.51,
+   "sma20": 147.5,
+   "sma50": 143.99,
+   "sma200": 143.18,
    "high3m": 154.82,
-   "reg": 148.1,
+   "reg": 142.19,
    "pre": null,
    "post": null,
-   "regClose": 148.1,
+   "regClose": 142.19,
    "sess": "reg",
-   "mt": 1789765246,
+   "mt": 1790024419,
    "ok": true
   },
   "^MOVE": {
@@ -803,7 +803,7 @@
   },
   "DX-Y.NYB": {
    "price": 100.41,
-   "chg": 0.18,
+   "chg": 0.19,
    "chg5": 0.95,
    "sma20": 99.44,
    "sma50": 99.94,
@@ -812,9 +812,9 @@
    "reg": 100.41,
    "pre": null,
    "post": null,
-   "regClose": 100.4,
+   "regClose": 100.41,
    "sess": "reg",
-   "mt": 1790024487,
+   "mt": 1790025090,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 86655.32,
-   "chg": 6.79,
-   "chg5": 13.8,
-   "sma20": 78917.28,
-   "sma50": 73672.15,
-   "sma200": 70599.1,
-   "high3m": 86655.32,
-   "reg": 86655.32,
+   "price": 86588.0,
+   "chg": 6.71,
+   "chg5": 13.71,
+   "sma20": 78913.92,
+   "sma50": 73670.81,
+   "sma200": 70598.74,
+   "high3m": 86588.0,
+   "reg": 86588.0,
    "pre": null,
    "post": null,
-   "regClose": 86655.32,
+   "regClose": 86588.0,
    "sess": "reg",
-   "mt": 1790025090,
+   "mt": 1790025696,
    "ok": true
   },
   "USO": {
@@ -978,19 +978,19 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.24,
-   "chg": 0.12,
-   "chg5": 1.85,
+   "price": 157.29,
+   "chg": 0.16,
+   "chg5": 1.88,
    "sma20": 156.68,
    "sma50": 158.94,
    "sma200": 159.42,
    "high3m": 163.86,
-   "reg": 157.24,
+   "reg": 157.29,
    "pre": null,
    "post": null,
-   "regClose": 157.24,
+   "regClose": 157.29,
    "sess": "reg",
-   "mt": 1790025093,
+   "mt": 1790025696,
    "ok": true
   },
   "ES=F": {
@@ -1175,6 +1175,14 @@
   ],
   "fundamental": [
    {
+    "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+    "pub": "Mon, 21 Sep 2026 21:12:53 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Perpetual underdog AMD nips at Nvidia's heels as it joins the $1T club - The Register",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWjlOdlE1WXlKcS05bHlUNmF1VzZWVkVDOW5kdXZCTUF2ZkFnODk4eVdSeHo5SHJZZUgwRHBJQUpuS3BxRVNmVXdJZG9EZ2thYzg3am1ua21ud3d0eHpMMnp2eTRiYVIwSFU0bndsdXB4SkhteFZVWlViMzlKZTBlaXZJTkt0b3FJMmFxMnVmVkQyUlhZSUVUOEUta0w3MlZnSzU3UU1FUUFHRFN3eHFjNkJ6TGdpa0JPMUVQaU83SU8?oc=5",
     "pub": "Mon, 21 Sep 2026 20:59:00 GMT",
@@ -1183,10 +1191,10 @@
     "geo": false
    },
    {
-    "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-    "pub": "Mon, 21 Sep 2026 19:55:22 GMT",
-    "src": "Anthropic",
+    "title": "B.C. government suing OpenAI for alleged role in Tumbler Ridge mass shooting - CBC",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQb2RnZWN1UURBRWZ1RXlxQ3RlREsycWYxOXNzd2tXcG13N1BjZWZuc2xmQTgwdHY3UGxrSURDeUxGSVJUdGRzS1VtRXp3Qkt4VFFNUWFaX3pyUXdOVDhrZzdqZG5sWHc3cm1NbGxaQ1Y5cmstYjJHcko4TTl6SXVoZlFfUWR2QjJqZnJQcXE0elZkWkozb1FlWWZ6MmEyU3lISURtckE4Sy12WU0?oc=5",
+    "pub": "Mon, 21 Sep 2026 19:13:46 GMT",
+    "src": "CBC",
     "trig": false,
     "geo": false
    },
@@ -1199,10 +1207,10 @@
     "geo": false
    },
    {
-    "title": "SpaceX rolls giant Super Heavy booster to pad ahead of Starship's 1st orbital flight (photos) - Space",
+    "title": "SpaceX rolls giant Super Heavy booster to pad ahead of Starship's 1st orbital flight (photos) - space.com",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPR3hUdDVpRFJMcTZieDR6YjRvVnNicG5kSUdmTVZoMVVwQ2hxbmVVSmlSOHF3enZ6VGUxWGxFTlJQRFdrbWQxbzdib2JaU3RsSG9UZFNNaXlLQTNzN2lVaHNVLUlzVnNLM0xUelNTZTdtenhraS0zT2Q1OEoxd29mc01uQUNDVUZmSlJEdW1kRjhvbkd4SDg3amd6aFVtVzl0bUJEbDVldWdsZEZFR2FTZTBLaWlMa3ZIZUJFN1VDLUJMbENFMnZhNThIZlJETUMtR1IxUmh1cC02N01LdlE1SldaOWc?oc=5",
     "pub": "Mon, 21 Sep 2026 19:00:00 GMT",
-    "src": "Space",
+    "src": "space.com",
     "trig": false,
     "geo": false
    },
@@ -1211,14 +1219,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQY2J3U1NNNWEwYzFCMXY1cFU2X2lLWDFESHlGblJkLUNNcjI2ZDdWNFo5REZ2ak90NVFjUHZXQmxCQkJIeXFnMDlBbzdsZjZWMXZKc3ZqSDd0M01sRlpVZDFGam1Za3VrdTZabmFJZ3JTdk1RUGxCcnA3dDYxbzdQdGFNNlVqS0hsTE1QcUtQQXVvQWJyNUVOU19UZkRmdTNwaXhQTEpoeVVXSDlhUzcxWGZxRS0wdFZud0E?oc=5",
     "pub": "Mon, 21 Sep 2026 18:56:00 GMT",
     "src": "24/7 Wall St.",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "OpenAI’s Compute Costs Could Burn Through $280 Billion by 2030 - TechRepublic",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONVRPRnFMMTZJNDJ0OWhaZEF2eW1YYWFfemVQWGlDUlhZMVhnLTZ3Y2lkWXRQNlBNZHA4QXlwVFJXenFLVWo2cHJyWDhsUlRkYlFuWXdob0c2RFN0azd1Y3VTTkJwUmZSa3A4QkxjQ1RyRW5vdEZRVmFvOGRoWHZ4aHh3LUstc3g2bUI4UE1n?oc=5",
-    "pub": "Mon, 21 Sep 2026 18:53:46 GMT",
-    "src": "TechRepublic",
     "trig": true,
     "geo": false
    }
@@ -1233,10 +1233,10 @@
     "geo": false
    },
    {
-    "title": "UN mission finds US airstrikes in Iran may constitute war crimes - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1fTzNTZVFoNmNUaEFPOHY3RFYtX0F1eGdjaFBQakF4VFVpV1Y4Rzk1V2Y3VVY2OUtMVHlEZzZPRXRyQkNtQThBWkdoaXlLc3dTZkc4NEFqdGFBRE9fWlJndnRKcU1EWTk3ckU3eg?oc=5",
-    "pub": "Mon, 21 Sep 2026 18:08:24 GMT",
-    "src": "Crypto Briefing",
+    "title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "pub": "Mon, 21 Sep 2026 18:33:01 GMT",
+    "src": "BlackRock",
     "trig": false,
     "geo": false
    },
@@ -1249,10 +1249,10 @@
     "geo": true
    },
    {
-    "title": "Houthi offensive threatens to pull US deeper into Middle East conflict - WBFF",
-    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOMGZpNlVYLXpqbUF3SGdzTkl5anFSWlFUNmwxdkM3bWJ5dEdaOUt0QjFJRGRvVWw0Mno2YXRqb3VabElfdmFiZGNzU2VyQjdzcUJTb0ZtY0tURDBPakprM3ZyYVpma0k0MF9Jb3Raei1qeXg4OENzZlFCMHBsS0dxal9tTW1UcFJGbzlKUWFtTXY0SUczX1lpOXlvVUh3M0Z0TEZzNjZ1V0o1MnFXdzljTGk1OHRnQmxVdFpSZ1o3LU5Tb21BUDB5T2NNMGhJaWZxNnFZcXF6ZVNIVDBXRXgwU0hYMV8yMHBycEg3Sm1hd21KRklidlpPUXFFRnU2RVV0?oc=5",
-    "pub": "Mon, 21 Sep 2026 17:39:55 GMT",
-    "src": "WBFF",
+    "title": "Houthi offensive threatens to pull US deeper into Middle East conflict - KEYE",
+    "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxPUDQ3dEZXMUduTEZNQ3NsWmZKYVZEU1hHd1ltOGVFbm44aHdkc0VPSmFQNjBRUEZia1p4cmdLVnJ3RnJzbURhdm5aQmlQVDRjQTV0MTJJMk1mX0VOQTJKVVdzQVRPeEFIU01TMGVWUUswdVR0eDAwRVBFb05iaDdXdzllcUpnMEkwOVZNUjdnM1R5NWMwR3ZUcEhYNUxRcFAxOVp4Y1ZXcDc0amJZT2Q4VWM2VW5adXhjb1dCalFOY3Vzb0xoMEx4elVlTUg5MjFhRTlTcHBMdm5PNXh3TVlPQkxGZGJGSmM4NktWMjc3azJ4aHQwUFRsWDV1enM?oc=5",
+    "pub": "Mon, 21 Sep 2026 17:37:36 GMT",
+    "src": "KEYE",
     "trig": false,
     "geo": false
    },
@@ -1299,6 +1299,14 @@
     "geo": false
    },
    {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Mon, 21 Sep 2026 19:58:19 GMT",
+    "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper price approaches record on strong Chinese demand - Mining.com.au",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQWUhwT2JzQXJMQlhpRUZLTGc4Z0RGZ3c4YnJ5UGIzQVdWUFI0X1k2TmQ4SHhHdG84Nkp2bEdrcUpBYnJmM1E2bTU2akRFcEZ5aFIxamh4TWtSUDBzVkhFMHV2OHZjUUNJXzFjMVpDcjBlQlBPa0dIYXgxVVI3WFJhMEtyVU8?oc=5",
     "pub": "Mon, 21 Sep 2026 19:52:30 GMT",
@@ -1307,20 +1315,12 @@
     "geo": false
    },
    {
-    "title": "Copper Price September 22 2026 - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPYXg0MldNNko2cU5qWldpNDhfQ2piLWtwWEIwblN5RVkzYWZJYnZHQWRYWWZJanlvTFJmdkJpTEprZ0hVQUF2ZTFLVm1XVFBoOWVsVXFZUjV6MjdLY25MQ2tiM2RHXzRWY0QxYWVuU2NfcWk1NFE1REtVeUxvSGRMelR6empxS0N4eU1YS0FmbTZsVnI0eTdSYmRzRWdLb3J4X01kdVFETQ?oc=5",
-    "pub": "Mon, 21 Sep 2026 17:52:25 GMT",
-    "src": "Robinhood",
+    "title": "Improved Crude Flows Through the Strait of Hormuz Sink Oil Prices - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNNmNuSzhEYjJ4QTJCcUtOSDZfaXVEQS1hLXJRWUhYVVhJTXJQTFl2QldERGRfaGw2bVBmdFFVTWpLUm5VQ3d2dmprWGpuMG9pNVNKOEFKbFRoUjhvUVk3ejhIdFlVcE1IbGFadktHdE9IZ3ItZGhMRDZOSUZCaHpFYUN4eTI5VGhWQ0U3YWJ0Y0FtNm5HNmx5VHozdkZjcmdLQm1lRXVQSXFVOTMwZ3c?oc=5",
+    "pub": "Mon, 21 Sep 2026 19:15:55 GMT",
+    "src": "Barchart.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Rising imports of oil by China pose another risk to the price of crude - Financial Post",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOT3RuOGJIYXhTODVfbENpb05XYXpjWTBUbTdBeFFwMkZQRTZQbGlRQWJmT0pUblFWajJvRHRyZ1AwcEFlZ2RBNFo3OFpNU0c4SjJuY1VXejFUNnk4VkZUbV9Oc3QwZnc0cGM1NjljNnZHVzJtU2s4SWN0ekNRbHZhdHRBNlhlUWxRMHVmNVhObGRLX3FxR0I1WHpB?oc=5",
-    "pub": "Mon, 21 Sep 2026 17:03:45 GMT",
-    "src": "Financial Post",
-    "trig": false,
-    "geo": false
+    "geo": true
    }
   ]
  },
@@ -1550,7 +1550,7 @@
    159.14,
    159.75,
    153.85,
-   157.24
+   157.27
   ],
   "uso": [
    112.69,
@@ -1610,7 +1610,7 @@
    78964.48,
    78548.63,
    79115.85,
-   86624.07
+   86639.84
   ],
   "vixts": [
    0.874,
@@ -1729,7 +1729,7 @@
   ]
  },
  "summary": {
-  "text": "중동 분쟁으로 호르무즈 해협 해상 운송이 제약되며 에너지·지정학 리스크가 부각되는 가운데, VIX 15 저수준과 S&P +1.6% 상승으로 위험자산 선호가 지속되고 있다. AI 인프라 투자(Meta-CoreWeave 계약 등)는 견고하나 GPU 공급 과잉 우려로 Nebius·CoreWeave 같은 인프라 업체는 하향 평가 압력을 받는 중이다.",
+  "text": "중동 분쟁으로 호르무즈 해협 유동성 제약이 지속되나 유가 압력은 제한적이며, 저변동성(VIX 15)과 강달러 속 신용스프레드 안정으로 리스크 자산이 완만한 상승세를 보이고 있다. AI 인프라 수요 견조로 CoreWeave 등 컴퓨팅 플랫폼 매출이 급증하고 있으나, 밸류체인 전반에서 특이한 공급 병목 신호는 없다.",
   "by": "claude",
   "_fp": {
    "vix": 14,
@@ -1739,7 +1739,7 @@
    "hyoas": 2.6,
    "nfci": -0.6000000000000001,
    "trig": 2,
-   "geo": 1,
+   "geo": 2,
    "capex": 5,
    "news": 16
   }
@@ -1755,9 +1755,7 @@
    "금융 상대약세(XLF/SPY)",
    "다이버전스(지수↑·내부↓)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
@@ -2427,7 +2425,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-21T21:11:50+00:00",
+  "checked": "2026-09-21T21:21:52+00:00",
   "openai": {
    "found": false
   },

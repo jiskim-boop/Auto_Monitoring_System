@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-22T21:21:57+00:00",
+ "updated": "2026-09-22T21:32:30+00:00",
  "prices": {
   "NVDA": {
    "price": 228.87,
@@ -802,19 +802,19 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 100.53,
-   "chg": 0.1,
-   "chg5": 0.89,
+   "price": 100.55,
+   "chg": 0.12,
+   "chg5": 0.9,
    "sma20": 99.52,
-   "sma50": 99.92,
+   "sma50": 99.93,
    "sma200": 99.66,
    "high3m": 101.61,
-   "reg": 100.53,
+   "reg": 100.55,
    "pre": null,
    "post": null,
-   "regClose": 100.54,
+   "regClose": 100.55,
    "sess": "reg",
-   "mt": 1790111484,
+   "mt": 1790112102,
    "ok": true
   },
   "^IRX": {
@@ -946,19 +946,19 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 86237.83,
-   "chg": -0.42,
-   "chg5": 12.87,
-   "sma20": 79361.53,
-   "sma50": 74126.64,
-   "sma200": 70693.55,
+   "price": 86272.23,
+   "chg": -0.38,
+   "chg5": 12.92,
+   "sma20": 79363.25,
+   "sma50": 74127.33,
+   "sma200": 70693.74,
    "high3m": 86602.91,
-   "reg": 86237.83,
+   "reg": 86272.23,
    "pre": null,
    "post": null,
-   "regClose": 86237.83,
+   "regClose": 86272.23,
    "sess": "reg",
-   "mt": 1790112089,
+   "mt": 1790112705,
    "ok": true
   },
   "USO": {
@@ -990,7 +990,7 @@
    "post": null,
    "regClose": 157.41,
    "sess": "reg",
-   "mt": 1790112091,
+   "mt": 1790112711,
    "ok": true
   },
   "ES=F": {
@@ -1225,10 +1225,10 @@
   ],
   "macro": [
    {
-    "title": "The bond market is flashing a warning for stocks. These sectors are already wobbling. - MarketWatch",
+    "title": "The bond market is flashing a warning for stocks. These sectors are already wobbling. - marketwatch.com",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVDlYOGhoZTkzZnRTNDUzQTliMGFIZnZmS2taMG9nekxKMXpjWlFadW1ZN3R6ckV1d0xLb0N3RDNGN1JFRGo1NXJabnUxbFJoYXRLcjVRM1o3OGhqLVBYT19rUng5emFuanBldm9UVkJWS3dzdFgtNHA0SThpSk84SzZHWl9pUVNUQ0lSLTFsd3FpX194OU9ad0NVMkEtYVMxTVZJZzNSQ0hydzhfUC1WSWVBd1Z0ek5uMWJXSVRSNnBnNUNr?oc=5",
     "pub": "Tue, 22 Sep 2026 19:00:00 GMT",
-    "src": "MarketWatch",
+    "src": "marketwatch.com",
     "trig": true,
     "geo": false
    },
@@ -1275,6 +1275,14 @@
   ],
   "flow": [
    {
+    "title": "US Gasoline, Distillate Inventories Continue to Fall as Crude Stocks Hold - oilprice.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRGphLWxCd0VwTndicnM0LTJpUHBZaDBjd0ZfOGZJM0R4X2ZhQno2WGpYV1R2Y1I2YkFUQWhwc1ZNc05oQW92S256OTQtMGFNZGlhX01IdkxhLTdFdEh0cTVPOGdoZTc2d3BCcTN0bm0tWWhzTnVvTFpSdmhqaVhGWjNjdmpNNXp5dklieE5JVTBmZm9HQThSbFZGWHJVQ2YtNHFkdWtpcmJFU1ZPT0hCakRCOW9tNk52VXJURXBxQnpfZ3dsT2Iw0gHMAUFVX3lxTE9sWFBHRnhZVl9uYU1sTzZUbWpJS1F5MFlaX3VsbXBGdzVGQUR6Ml8xOC1UcW41SEF2bHVPamtVRzJEUWtpOV83ekZOUUpsNzNzdzMyNDBYcUFmS18wOTV4YzlWTW9ZNnlXSjdxc0xJa3N3UlExeUJmZWM2c2dkZGxMM2lJaUdGOExMdjNLSUdmY3ZfTXVYYzFCa29jY3lXdUhpZVBUTUQxTElNckJ2WTB6WGRvaUR6ODBtSV8wVTcyMG11eDJwZHJwVUFtSw?oc=5",
+    "pub": "Tue, 22 Sep 2026 21:08:45 GMT",
+    "src": "oilprice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Why Should Gold Watch the Yen? A Full Breakdown of How the Yen Affects Gold - tradingkey.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNTDlkSGkwY2xXNjE4eE1GaTFXWXZHS20xWEhpU29oNXJwclJKc1FFU3d5R1E1N0FzejRUVE1GTlViUUNJeG5wM3AwTVRFUldaU1Rma1ZIdGgwTlFWMUU0TzJQU2VaeTQ1S19OUWdfTWV2LTFrX3E2Q1lOUGxjS1k3QzAxb2xsTWpxQVdxcTFaMXFFaUxiTVRieWZFRVFiNzZPdElHSg?oc=5",
     "pub": "Tue, 22 Sep 2026 21:02:13 GMT",
@@ -1291,10 +1299,10 @@
     "geo": false
    },
    {
-    "title": "Oil Prices Tumble Again - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE04SzctMDNsU3pqSnBUejhaU04wTmgyMG9CUjhVWHFGeVhzTDc5dDdXTnBaQjIwYmpaTFFhOVBwM1A4aERoQ3lreG92djFqMGNiQTRpN3JKNWJiWmNXU3JiWEVoUVhMYVY5UWh0eXR4Z3JCUkM5Qmc?oc=5",
-    "pub": "Tue, 22 Sep 2026 20:40:00 GMT",
-    "src": "WSJ",
+    "title": "Wall Street holds near record as Brent crude falls below $100 - thebusinessjournal.com",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBWZWs1U05EWnppeDYxRTZLZWhmWDN1MDVnSmwxNFhXSTRLc1V3TTM1S2Vwejh6ZE5fS1JzY0NINFNFV2VxX3dFbnBLYzRWaGhKb1lRUkFZRFdVYVJQbVY4QnV4U3gzTHMyTTBTVzJUQm1FT0tNME5JMFln?oc=5",
+    "pub": "Tue, 22 Sep 2026 20:45:23 GMT",
+    "src": "thebusinessjournal.com",
     "trig": false,
     "geo": false
    },
@@ -1311,14 +1319,6 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPbExBeUk4V29ES20wUEQtM2pPa3Z2WVpDZGRwcUlIY1lCbGdUTC1KbFBpcEdYSjcxdXpxeThxT3QyUUZmZVdKMFRzUGRTVnYzWTdxRXg3c0FzaFhEb0pvbWNweldyOXNFSnlrZ3pqbW5ONFJxQUpHRW5VRnpfZ2t1SU9JMEk?oc=5",
     "pub": "Tue, 22 Sep 2026 20:03:45 GMT",
     "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil prices see-saw, as markets weigh Trump’s UN speech, potential Saudi pipeline fix - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObU1tZnZwTkhweW9HMkM5cDFMMjB3YUY1ZFdaN3ZfRzktSEhudU5wYzVPVVNZcDhIVFBZaWNBT2ItVFo1VmJPZUZETmRzR1pUU3Z1Qk1Nc0Y1dmNSRTNPZ2RBeUkySDBGcGJGMlFxa1JTLUI2SDVTYXgyX2JIX3NzUXZLbm1Kcmt2enRjSThGaVItRVJCb09jOENjVU95NGdoam5RUS1fZlg0cUtCNVA0N2N3?oc=5",
-    "pub": "Tue, 22 Sep 2026 19:55:10 GMT",
-    "src": "NBC News",
     "trig": false,
     "geo": false
    }
@@ -1505,7 +1505,7 @@
    98.92,
    99.67,
    98.77,
-   100.54
+   100.55
   ],
   "bizd": [
    12.3,
@@ -1610,7 +1610,7 @@
    78564.98,
    77403.62,
    78438.58,
-   86221.34
+   86298.47
   ],
   "vixts": [
    0.821,
@@ -2425,7 +2425,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-22T21:21:45+00:00",
+  "checked": "2026-09-22T21:32:16+00:00",
   "openai": {
    "found": true,
    "ticker": "OAIW",

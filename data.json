@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-24T21:42:07+00:00",
+ "updated": "2026-09-24T21:52:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,7 +853,7 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.25,
+   "price": 101.26,
    "chg": 0.15,
    "chg5": 0.94,
    "chg20": 2.36,
@@ -861,12 +861,12 @@
    "sma50": 99.94,
    "sma200": 99.68,
    "high3m": 101.51,
-   "reg": 101.25,
+   "reg": 101.26,
    "pre": null,
    "post": null,
-   "regClose": 101.25,
+   "regClose": 101.26,
    "sess": "reg",
-   "mt": 1790285484,
+   "mt": 1790286086,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84435.7,
-   "chg": 0.06,
-   "chg5": 3.94,
-   "chg20": 5.98,
-   "sma20": 79752.0,
-   "sma50": 74928.64,
-   "sma200": 70855.68,
+   "price": 84405.63,
+   "chg": 0.03,
+   "chg5": 3.9,
+   "chg20": 5.94,
+   "sma20": 79750.5,
+   "sma50": 74928.04,
+   "sma200": 70855.51,
    "high3m": 86602.91,
-   "reg": 84435.7,
+   "reg": 84405.63,
    "pre": null,
    "post": null,
-   "regClose": 84435.7,
+   "regClose": 84405.63,
    "sess": "reg",
-   "mt": 1790286089,
+   "mt": 1790286694,
    "ok": true
   },
   "USO": {
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 158.76,
    "sess": "reg",
-   "mt": 1790286092,
+   "mt": 1790286694,
    "ok": true
   },
   "KRW=X": {
-   "price": 1365.54,
-   "chg": 0.22,
-   "chg5": -1.01,
-   "chg20": -1.08,
-   "sma20": 1359.62,
-   "sma50": 1399.27,
-   "sma200": 1463.98,
+   "price": 1365.74,
+   "chg": 0.24,
+   "chg5": -1.0,
+   "chg20": -1.07,
+   "sma20": 1359.63,
+   "sma50": 1399.28,
+   "sma200": 1463.99,
    "high3m": 1551.81,
-   "reg": 1365.54,
+   "reg": 1365.74,
    "pre": null,
    "post": null,
-   "regClose": 1365.54,
+   "regClose": 1365.74,
    "sess": "reg",
-   "mt": 1790286068,
+   "mt": 1790286686,
    "ok": true
   },
   "^OVX": {
@@ -1177,8 +1177,8 @@
   },
   "HG=F": {
    "price": 6.77,
-   "chg": 1.43,
-   "chg5": 2.84,
+   "chg": 1.42,
+   "chg5": 2.83,
    "chg20": 2.71,
    "sma20": 6.58,
    "sma50": 6.53,
@@ -1297,10 +1297,18 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX is bringing jobs — is Acadiana ready to fill them? - The Current – Lafayette’s Community Voice",
+    "title": "SpaceX is bringing jobs — is Acadiana ready to fill them? - thecurrentla.com",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQeUxOeEpzSkNtaVpSb1BYZG9jZmdRdzhPbkpqamQ2eEgtR1FxQkpOZFVSX0MxUlhGY3Boc1J1bWxXOG85X2RlalM2Ny1oT1NuYmRROWswVVJSdE83LVVTanlHWS1nUGk1TTJlOVBxeU5xOUF4VlA5UjN1RVo0bGV1TlB1Ulk2Vy11UkxGYXhR?oc=5",
     "pub": "Thu, 24 Sep 2026 20:16:45 GMT",
-    "src": "The Current – Lafayette’s Community Voice",
+    "src": "thecurrentla.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
+    "pub": "Thu, 24 Sep 2026 20:08:55 GMT",
+    "src": "Anthropic",
     "trig": false,
     "geo": false
    },
@@ -1313,26 +1321,18 @@
     "geo": false
    },
    {
-    "title": "Measurements for understanding the pace of AI development inside frontier labs - Anthropic",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1hSlNaZU5CMXdjOERiMTltcEVxMXduUXVrT1UtSExlUGlUUHFCc2huOVM0NEY0cmhCMVF6X0o2QjMwUUZOQkhuSGlHVjFlaWdKelR3ZTEzUV9SRzRIdkxhV3RfQ0N2OUI5U214a0RqZjh3c2MxUktr?oc=5",
-    "pub": "Thu, 24 Sep 2026 19:14:13 GMT",
-    "src": "Anthropic",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why this data storage company jumped 13% and become S&P 500's top gainer today - Invezz",
+    "title": "Why this data storage company jumped 13% and become S&P 500's top gainer today - invezz.com",
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQRU5UcU5EYVFuZTYwaG1OZ043MEZnVjVJellteURvZzB1X2QtWlZXdGs4RUxpVkh5NmVuQWJ3WE1hd3pzM1BQUG1nYmI4TlFBZERoVndQMDJFMTk3aHJPbVlkSktQaEhXVnFjUjVyemo5d1o3RTVUUmlPeHhBS3RITGVqNVdwN0N4M0IzQnlRVFJKUkpfV1YzZDlJRWpiLVdweVRPM1o0Ny11dU93LTlwbGhwbWowRjJodjBlMFFHaFdSaFFmTXc?oc=5",
     "pub": "Thu, 24 Sep 2026 18:54:58 GMT",
-    "src": "Invezz",
+    "src": "invezz.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Should Devs Upgrade Their GPU or Use Cloud Rendering? - Tech4Gamers",
+    "title": "Should Devs Upgrade Their GPU or Use Cloud Rendering? - tech4gamers.com",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE0wZVh5WTlvRnVQd2pSTE1pcEhQMGFvRDZrbXZ4TzlJTldVdlB1Vkl2Z195TjBrLUpTaVF5MUNoaXhVZFc0d190MVJMM3NZNmN6cFFzYWdLTFZxQjlpNERhaTFXU002LXJUc0pLZzNQdGE0TWZEQlk5aTZMVQ?oc=5",
     "pub": "Thu, 24 Sep 2026 18:21:48 GMT",
-    "src": "Tech4Gamers",
+    "src": "tech4gamers.com",
     "trig": false,
     "geo": false
    },
@@ -1353,6 +1353,14 @@
     "src": "CityNews Winnipeg",
     "trig": false,
     "geo": true
+   },
+   {
+    "title": "HYS: High-Risk Credit Remains Unsupportive (NYSEARCA:HYS) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQaXhrODBxRFZUQWhETUFhdVNFekUta1ZVeVU2elA3NXNfUmNNaXhSSUs0dV9hRmszWFk3X2JxUXAzSEtlT3M4THpaSEpWY21XaU9vWUpuekFzZjExdDN3b0hSajVSZ1VhZUdRNm1lY1BUbW1wc25fUFZhN1Z2Zl9GWl80Q2NPR0VfVkE?oc=5",
+    "pub": "Thu, 24 Sep 2026 21:22:13 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
    },
    {
     "title": "Global stocks mostly fall as oil prices and bond yields rise - Yahoo Finance Singapore",
@@ -1385,22 +1393,14 @@
     "src": "financialexpress.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Russian military marketplace Roy.Market, launched amid strikes on Wildberries and Ozon warehouses, is tied to former President Dmitry Medvedev and his son’s circle, investigation finds - Meduza",
-    "link": "https://news.google.com/rss/articles/CBMixAJBVV95cUxQa252b1hvTTd4cXI1WmhjYVRfbG9ETHV3cUFqTC1VelRab2dPaUN1cnhnODFKU09FNEdsYVlESlE5Y2RFZHh2d1hmaHdhaUhmVnBJOVlwWlpWT3k0OVJLazM0UVlGVGxwLXIwdlN4YWhRYk53WE5jd0NlVUp4cVhscmprSjVRUVZ6UTJxT0NHdHN4bnVsSVZWQmE1M3U2MU9JQ1NvRXBXZkIyckxlR0N4Y09HZ09jcmhUZXNyY241WXNxTjJYSGpMZmsxNWE2Szloa0JCNmdXdnQ4ZHVuVnJZTVpLOU5XNzRwUUFwOGcyaWxfWWJWTlJxMzFFZjA2c29xblNpLWdmYk11MkhwTUt5dUotN0hTR1Joa1pRVVJjRXFudVhpdWFtRThUR3B5TGpDcGczenl5TVhGOFFLZjRKU21jTVDSAcQCQVVfeXFMUGtudm9Yb003eHFyNVpoY2FUX2xvREx1d3FBakwtVXpUWm9nT2lDdXJ4ZzgxSlNPRTRHbGFZREpROWNkRWR4dndYZmh3YWlIZlZwSTlZcFpaVk95NDlSS2szNFFZRlRscC1yMHZTeGFoUWJOd1hOY3dDZVVKeHFYbHJqa0o1UVFWelEycU9DR3RzeG51bElWVkJhNTN1NjFPSUNTb0VwV2ZCMnJMZUdDeGNPR2dPY3JoVGVzcmNuNVlzcU4yWEhqTGZrMTVhNks5aGtCQjZnV3Z0OGR1blZyWU1aSzlOVzc0cFFBcDhnMmlsX1liVk5ScTMxRWYwNnNvcW5TaS1nZmJNdTJIcE1LeXVKLTdIU0dSaGtaUVVSY0VxbnVYaXVhbUU4VEdweUxqQ3BnM3p5eU1YRjhRS2Y0SlNtY01Q?oc=5",
-    "pub": "Thu, 24 Sep 2026 18:13:00 GMT",
-    "src": "Meduza",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Oil Futures Post Back-to-Back Gains on Escalation Concerns - wsj.com",
+    "title": "Oil Futures Post Back-to-Back Gains on Escalation Concerns - WSJ",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNc29xMFBSemJycEFLTjczSkpBdEtkcVVaZTZfYmJ0NkpfTl81cjdocU14c2tqNnBPOTZ1VnZEeGxCaHN2a3VHQUUwRDhnR2w1N2Q3aC1kbkJHRzZqMzNQeGxRdzZYYjF5amJiTWJNNklyZHZQNWJaelhxRTdsTEpYZ3ktOE1nZzVMMGlCV1JaWnhCUDY2aFVZYlc4V0hrak0xdm9xUThsanREZGlzclFGX09aVVBYZw?oc=5",
     "pub": "Thu, 24 Sep 2026 20:54:00 GMT",
-    "src": "wsj.com",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1429,18 +1429,18 @@
     "geo": false
    },
    {
-    "title": "Copper Price September 25 2026 - Robinhood",
+    "title": "Copper Price September 25 2026 - robinhood.com",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUDZMbTAxc3U4ZldJMkYxdDdxX2ZqN3F1dkJ2M3lfbEkwUmVDVXlhamtNUGFwdjlRdkxGel9wTl9od0c1S2FKcGN6ZXBqYUVVdFJDSzRjcVhjZnlpTTJLS0JtTFlwQWh6bHFfdU9BSnVCbzE0bm9vZnVTdDV2MDVEZGJBV19hWmlyQk9WdThrb0sxYmJaSzRTNE1EXzdiSWY3c2o2ek5wYw?oc=5",
     "pub": "Thu, 24 Sep 2026 18:15:52 GMT",
-    "src": "Robinhood",
+    "src": "robinhood.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "High copper prices support miners in Chile, but investments dent gains - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOc002eEtSX2gxS0lqc05WOVdBNmpnR0tsSUdUc3dCbFIxZnVUQW5vbUxkRFpXeVV5QzRQM3dXOFJock9faXJwTGpZUzRZa3VhZFNNR3RpUmVQbkVZbTZuOGxyZ1dZSjFNMmsyY0pHaEx1VjZkYkRhZktlRW5EeDlnQzhSU0tyWV9SdF9YZzE0UEdHakJjVm1ROTJBRFpqUQ?oc=5",
-    "pub": "Thu, 24 Sep 2026 16:34:13 GMT",
-    "src": "Mining.com",
+    "title": "Why Are Diesel Prices So High - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYTZiRFdXTGNTSjJ3czJhcWVWMERmOGw3LXgtWHJwcmhPazBiS1ZYNlA3RW9feS1XRVNkQS01cWc3M0QtSDhLSjNDYVlfWDZEeXRFeHdVa005Tjh6TjJ2NzNvZHhrZFVRemk0ZjhTZlE0SEVRVW9jODFIM1hRaGdMZE5NSdIBiAFBVV95cUxPR0dxcTNwYnhMbzQ3anA3bEg3dWJFc0lIbXdjdzB3c2hzQ3R5X0FFWnJPdk5fQnJsOEV3a0xDTHNMT0R3al9wbTd6WkJwUnlqNlkyTm1VNEdpNTZ4YTFGV1AzbUxlQ2RNVllzZEp5cGhVTTRyUmlSTHYtQjFQakJ3bEt3ZmY5RlBx?oc=5",
+    "pub": "Thu, 24 Sep 2026 18:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    99.17,
    99.56,
    99.09,
-   101.25
+   101.26
   ],
   "bizd": [
    12.25,
@@ -1675,7 +1675,7 @@
    159.32,
    155.66,
    154.48,
-   158.76
+   158.77
   ],
   "uso": [
    109.31,
@@ -1735,7 +1735,7 @@
    80257.54,
    81271.74,
    76568.12,
-   84468.57
+   84412.11
   ],
   "vixts": [
    0.916,
@@ -2456,7 +2456,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 35
   },
@@ -2716,7 +2716,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-24T21:41:50+00:00",
+  "checked": "2026-09-24T21:51:56+00:00",
   "openai": {
    "found": false
   },
@@ -2812,10 +2812,10 @@
    "missing": []
   },
   "dollar": {
-   "dxy": 101.25,
+   "dxy": 101.26,
    "dxy_chg20": 2.36,
-   "usdkrw": 1365.54,
-   "usdkrw_chg20": -1.08,
+   "usdkrw": 1365.74,
+   "usdkrw_chg20": -1.07,
    "hit": false,
    "missing": []
   },

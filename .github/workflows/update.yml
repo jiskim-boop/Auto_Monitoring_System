@@ -23,11 +23,13 @@ jobs:
           GOATCOUNTER_API_TOKEN: ${{ secrets.GOATCOUNTER_API_TOKEN }}
           TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          COMPUTEPRICES_KEY: ${{ secrets.COMPUTEPRICES_KEY }}   # v2.23.6: 시크릿 미설정이면 빈 문자열(무키 모드) — H100 API가 '26.7부터 401
       - name: Commit data.json
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git pull --rebase origin main || true
           git add -f data.json
+          git add archive 2>/dev/null || true   # v2.23.6: 월간 스냅샷(archive/YYYY-MM.json) — fetch_data가 저장해도 커밋이 빠져 있었음
           git commit -m "auto: update data.json" || echo "no changes"
           git push

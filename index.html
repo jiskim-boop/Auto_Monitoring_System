@@ -94,7 +94,7 @@
 </head>
 <body>
   <h1 style="display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:8px">
-    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.5</span></span>
+    <span>시장 조기경보 시스템 <span style="font-size:11px;color:#5f6878;font-weight:400;letter-spacing:0">v2.23.6</span></span>
     <span style="display:flex;flex-direction:column;align-items:flex-end;gap:3px">
       <span id="visit-count" style="font-size:10px;color:#5f6878;font-weight:400;letter-spacing:0;font-family:'Space Mono',monospace"></span>
       <span id="view-hours" title="오늘 시간대별 뷰" style="display:none;align-items:flex-end;gap:1px;height:11px"></span>
@@ -1268,10 +1268,13 @@ function renderGpu(d){
     </svg>`;
   }
   // S2(v2.23): 수집 48h+ 중단 → 판정 제외('n') — 낡은 앵커의 AI 도메인 고정 방지(표시 유지, vAi는 체인 단독 모드)
+  // v2.23.6: 기준 시각 = g.last_ok(서버가 기록한 마지막 '실수집' 시간키). 구버전 데이터(last_ok 없음)면 hist 마지막 점으로 폴백.
+  //   배경: 서버가 실패 유지값을 매 시각 재스탬프해 hist 마지막 점이 항상 '지금'이었음 → S2가 영구 미발동('26.7.9 401 이후 77일).
   let excl=false;
-  {const ld=hist.length?hist[hist.length-1].d:null;
+  {const ld=g.last_ok||(hist.length?hist[hist.length-1].d:null);
    if(ld){const t=Date.parse(ld.length===13?ld+':00:00Z':ld); if(!isNaN(t)&&(Date.now()-t)/3600000>48){st='n';excl=true;}}}
-  const staleTag=excl?` <span style="font-size:9px;color:#c2a35e">· 판정 제외(수집 48h+ 중단)</span>`:(g.stale?` <span style="font-size:9px;color:#c2a35e">· 최근값(수집 일시지연)</span>`:'');
+  const sinceTag=(excl&&g.last_ok)?` · 마지막 실수집 ${g.last_ok.replace('T',' ')}Z`:'';
+  const staleTag=excl?` <span style="font-size:9px;color:#c2a35e">· 판정 제외(수집 48h+ 중단${sinceTag})</span>`:(g.stale?` <span style="font-size:9px;color:#c2a35e">· 최근값(수집 일시지연)</span>`:'');
   el.innerHTML=`<b>H100 임대가</b> $${g.median}/시간${staleTag}${trend}${hourChg}${spark}`;
   const sb=$('st-gpu'); if(sb) badge(sb,st);
   return st;
@@ -1468,7 +1471,8 @@ function renderKLR(d){
   const s=k.stats||{};
   const rows=ents.slice(-4).reverse().map(e=>{
     const col=e.status==='적중'?'#ff6b6b':e.status==='미적중(종결)'?'#37d6a0':'#ffb454';
-    return `<div style="margin-top:2px">▸ ${e.entry_date} 진입(${e.tier}) · 기준 SPY ${e.spx0}${e.hy0!=null?' · HY '+e.hy0+'%':''} · ${e.td}거래일 · 최저 SPX ${e.min_spx_pct}%${e.max_hy_bp?' · HY +'+e.max_hy_bp+'bp':''} → <b style="color:${col}">${e.status}</b>${e.hit_reason?` (${e.hit_reason}·${e.hit_td}일차${e.hit40?'·40일내':''})`:''}</div>`;}).join('');
+    const corr=e.td_corr?` <span title="${(e.td_corr.reason||'').replace(/"/g,'')}" style="color:#c2a35e;cursor:help">(td 보정 ${e.td_corr.delta>0?'+':''}${e.td_corr.delta})</span>`:'';   // v2.23.6: 시장일 역행 과다계수 1회 보정 — 감사 표기
+    return `<div style="margin-top:2px">▸ ${e.entry_date} 진입(${e.tier}) · 기준 SPY ${e.spx0}${e.hy0!=null?' · HY '+e.hy0+'%':''} · ${e.td}거래일${corr} · 최저 SPX ${e.min_spx_pct}%${e.max_hy_bp?' · HY +'+e.max_hy_bp+'bp':''} → <b style="color:${col}">${e.status}</b>${e.hit_reason?` (${e.hit_reason}·${e.hit_td}일차${e.hit40?'·40일내':''})`:''}</div>`;}).join('');
   el.innerHTML=`<b style="color:#9aa3b3">KLR 원장(자동 집행)</b> — 판정확정 n=${s.n||0} · 적중60 ${s.hit60||0} · 미적중60 ${s.miss60||0}${s.near7?` · <span style="color:#ffb454">근접미달(−7%↓) ${s.near7}건</span>`:''}${s.open?` · 추적중 ${s.open}`:''}${s.hold?` · <b style="color:#ffb454">${s.hold}</b>`:''}${rows}`;
 }
 function renderEWInputs(d){

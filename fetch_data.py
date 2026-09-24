@@ -4,9 +4,10 @@ AI 사이클 모니터 — 데이터 수집기 (v3)
 시세 + 신용 종합패널 + 뉴스 + EDGAR 8-K(AI 본문요약) + 한 문장 요약 -> data.json
 표준 라이브러리만. Python 3.9+
 """
-import json, os, urllib.request, urllib.parse, re, time, html, gzip
+import json, os, urllib.request, urllib.parse, re, time, html, gzip, hashlib
 from datetime import datetime, timezone, timedelta
 
+VERSION = "2.23.6"   # index.html 헤더 · data.json.version 과 단일 유지
 UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 # 구글 뉴스 RSS는 봇 UA에 503(Service Unavailable)을 자주 반환 → 실제 브라우저 UA 사용
@@ -678,6 +679,7 @@ def fetch_gpu_price(prev):
     """H100 시세(중앙값) 수집 — computeprices.com 무료 JSON(/api/v1/gpu-prices). 실패시 graceful.
     누적: 시간당 1포인트씩 최근 48개 (추세 그래프용)."""
     hist=((prev or {}).get("gpu") or {}).get("hist",[]) if prev else []  # 이전 이력은 gpu.hist에서
+    last_ok=((prev or {}).get("gpu") or {}).get("last_ok") if prev else None  # 마지막 '실수집' 시각(시간키)
     median=None; stale=False
     hdr=dict(UA); 
     if GPU_KEY: hdr["X-API-Key"]=GPU_KEY   # 키 있으면 한도 상향(없으면 무키 60회/시)
@@ -711,15 +713,24 @@ def fetch_gpu_price(prev):
         last=[h.get("v") for h in hist if h.get("v") is not None]
         if last: median=last[-1]; stale=True
     # 누적: 시간 단위 포인트 (실시간성). 같은 시(hour)면 덮어쓰고, 새 시간이면 추가. 최근 48개(약 2일).
+    # v2.23.6: stale(유지값)은 hist에 재스탬프하지 않는다 — 이전엔 실패 시 유지값을 매 시각 '현재 시각'으로 기록해
+    #   S2(48h+ 중단 → AI 앵커 판정 제외)가 영구 미발동('26.7.9 API 401 이후 77일간 2.73 고정). last_ok = 마지막 실수집 시각.
     now=datetime.now(timezone.utc)
     hourkey=now.strftime("%Y-%m-%dT%H")    # 시간 단위 키
-    if median is not None:
+    if median is not None and not stale:
         if hist and hist[-1].get("d")==hourkey:
             hist[-1]={"d":hourkey,"v":median}
         else:
             hist.append({"d":hourkey,"v":median})
         hist=hist[-48:]
-    return {"median":median,"hist":hist,"stale":stale}
+        last_ok=hourkey
+    if stale and last_ok is None:
+        last_ok="2026-07-09T15"   # 1회성 시드: 재스탬프 결함으로 유실된 마지막 실수집 시각(data.json 커밋 a0259225 = stale:false 최종)
+    excluded=False   # S2 상태(알림·요약용 — 판정 자체는 index.html renderGpu가 last_ok로 동일 계산)
+    if last_ok:
+        try: excluded=(now-datetime.strptime(last_ok,"%Y-%m-%dT%H").replace(tzinfo=timezone.utc)).total_seconds()>48*3600
+        except Exception: excluded=False
+    return {"median":median,"hist":hist,"stale":stale,"last_ok":last_ok,"excluded":excluded}
 
 def fetch_charts(fred):
     ch={}
@@ -871,10 +882,10 @@ def ew_inputs(prices,fred,charts):
     missing=[n for n,okv in items if not okv]
     return {"total":len(items),"ok":len(items)-len(missing),"missing":missing}
 
-def schema_gate(prev_exists, prev, ew, history, klr):
+def schema_gate(prev_exists, prev, ew, history, klr, ipo=None):
     """R3 현관 검문(구조 보호): 깨진 실행이 좋은 데이터를 덮어쓰지 않게 저장 전 차단.
     소스 결측(야후/FRED 다운)은 기존 feed 헬스 라인 담당 — 여기선 구조만 본다.
-    차단 4항: ① 판정 부재 ② 기존 파일 파싱실패(이력·원장 소실 위험) ③ 이력 소실 ④ KLR 원장 축소(append-only 위반)"""
+    차단 5항: ① 판정 부재 ② 기존 파일 파싱실패(이력·원장 소실 위험) ③ 이력 소실 ④ KLR 원장 축소(append-only 위반) ⑤ ipo_watch.alerted 축소(v2.23.6 — 통지 기억 소실=스팸 재발)"""
     miss=[]
     if not (ew or {}).get("st"): miss.append("early.st 부재")
     if prev_exists and prev is None: miss.append("이전 data.json 파싱 실패")
@@ -882,6 +893,9 @@ def schema_gate(prev_exists, prev, ew, history, klr):
     _pk=len((((prev or {}).get("klr") or {}).get("entries")) or [])
     _ck=len(((klr or {}).get("entries")) or [])
     if _ck<_pk: miss.append(f"KLR 원장 축소({_pk}→{_ck})")
+    _pi=(prev or {}).get("ipo_watch") if isinstance((prev or {}).get("ipo_watch"),dict) else {}
+    _pa=len(_pi.get("alerted") or []); _ca=len(((ipo or {}).get("alerted")) or [])
+    if ipo is not None and _ca<_pa: miss.append(f"ipo_watch.alerted 축소({_pa}→{_ca})")
     return miss
 
 def calc_early(prices, fred, charts):
@@ -1003,27 +1017,77 @@ def update_history(prev, ew):
         hist.append(entry)
     return hist[-30:]  # 최근 30일
 
-def check_ipo_watch():
-    """OpenAI/Anthropic 상장 자동 감지 — 야후 EQUITY 티커 등록 순간 포착. 실패=None(체크불가)."""
+IPO_DENY_DEFAULT=["OAIW","ANTW"]   # Harbor ETF Trust 테마 ETF — 야후가 quoteType=EQUITY(PCX)로 표기하지만 상장 본체 아님
+IPO_NAME_EXCL=re.compile(r"(ETF|Fund|Trust|Ecosystem|Index|Tokenized|Pre-?IPO|Derivatives|\d+x\s*(Long|Short))",re.I)
+IPO_EXCH_OK={"NMS","NYQ","NGM","NCM"}    # 나스닥 GS/GM/CM · NYSE 본시장 — PCX(NYSE Arca, ETF 거래소) 제외
+def check_ipo_watch(prev):
+    """OpenAI/Anthropic 상장 자동 감지(v2.6 도입 · v2.23.6 재설계).
+    필터: quoteType=EQUITY ∧ 본시장 거래소 ∧ 이름 ^OpenAI\\b / ^Anthropic\\b ∧ ETF·Fund·Trust·Ecosystem 제외 ∧ denylist 제외.
+    상태: candidates(필터 통과·최초 발견일) · alerted(1회 통지한 티커) · denylist(수동 제외).
+    배경: 야후 검색 상위 8개가 사이클마다 달라 OAIW/ANTW가 들락날락 → found false↔true 재발화(8/15~9/24 ~600회). 실패=None(체크불가).
+    반환: (ipo_watch dict, [(label, cand), ...] 신규 통지 대상)"""
+    pi=((prev or {}).get("ipo_watch") or {}) if isinstance((prev or {}).get("ipo_watch"),dict) else {}
+    alerted=[t for t in (pi.get("alerted") or []) if isinstance(t,str)]
+    deny=sorted(set([t for t in (pi.get("denylist") or []) if isinstance(t,str)]+IPO_DENY_DEFAULT))
+    cands={c.get("ticker"):c for c in (pi.get("candidates") or []) if isinstance(c,dict) and c.get("ticker")}
+    today=datetime.now(timezone.utc).strftime("%Y-%m-%d")
     out={"checked":datetime.now(timezone.utc).isoformat(timespec="seconds")}
-    for key,query in (("openai","OpenAI"),("anthropic","Anthropic")):
+    new_alerts=[]
+    for key,label in (("openai","OpenAI"),("anthropic","Anthropic")):
+        rx=re.compile(r"^"+label+r"\b",re.I)
         try:
-            j=json.loads(get(f"https://query1.finance.yahoo.com/v1/finance/search?q={query}&quotesCount=8&newsCount=0"))
+            j=json.loads(get(f"https://query1.finance.yahoo.com/v1/finance/search?q={label}&quotesCount=8&newsCount=0"))
             found=None
             for q in j.get("quotes",[]):
-                nm=((q.get("shortname") or "")+" "+(q.get("longname") or "")).strip().lower()
-                if q.get("quoteType")=="EQUITY" and nm.startswith(key):
-                    found={"ticker":q.get("symbol"),"name":(q.get("shortname") or q.get("longname"))}; break
+                sym=q.get("symbol") or ""; sn=(q.get("shortname") or "").strip(); ln=(q.get("longname") or "").strip()
+                if q.get("quoteType")!="EQUITY": continue
+                if not (rx.match(sn) or rx.match(ln)): continue
+                if IPO_NAME_EXCL.search(sn+" "+ln): continue
+                if q.get("exchange") not in IPO_EXCH_OK: continue
+                if sym in deny: continue
+                found={"ticker":sym,"name":sn or ln,"quoteType":"EQUITY","exchange":q.get("exchange")}; break
+            if found:
+                c=cands.get(found["ticker"]) or {**found,"first_seen":today}
+                cands[found["ticker"]]=c
+                if found["ticker"] not in alerted:
+                    alerted.append(found["ticker"]); new_alerts.append((label,found))
             out[key]={"found":bool(found),**(found or {})}
         except Exception:
             out[key]=None
-    return out
+    out["candidates"]=sorted(cands.values(),key=lambda c:c.get("first_seen") or "")[-20:]
+    out["alerted"]=alerted; out["denylist"]=deny
+    return out,new_alerts
 
 EARN_WATCH=["MSFT","META","GOOGL","AMZN","NVDA","AVGO","TSM","MU","ORCL","005930.KS","000660.KS"]
-def fetch_earnings_events():
-    """워치리스트 실적일 확정치 — v7 quote 배치 1콜(earningsTimestamp). 실패 시 [] (정적 예상치로 폴백)."""
+_YCRUMB={"crumb":None,"opener":None}
+def _yahoo_crumb():
+    """야후 v7/v10 엔드포인트 — '26.7 이후 쿠키+crumb 없으면 401 Unauthorized → fc.yahoo.com 쿠키 → getcrumb. 실패 (None,None)."""
+    if _YCRUMB["crumb"]: return _YCRUMB["crumb"],_YCRUMB["opener"]
     try:
-        qj=json.loads(get("https://query1.finance.yahoo.com/v7/finance/quote?symbols="+",".join(EARN_WATCH)))
+        import http.cookiejar
+        op=urllib.request.build_opener(urllib.request.HTTPCookieProcessor(http.cookiejar.CookieJar()))
+        op.addheaders=[("User-Agent",BROWSER_UA["User-Agent"]),("Accept","*/*"),("Accept-Language","en-US,en;q=0.9")]
+        try: op.open("https://fc.yahoo.com",timeout=15).read()
+        except Exception: pass   # 404여도 쿠키는 설정됨(쿠키 처리기가 오류 처리기보다 먼저 실행)
+        cr=op.open("https://query2.finance.yahoo.com/v1/test/getcrumb",timeout=15).read().decode("utf-8","replace").strip()
+        if cr and "<" not in cr and len(cr)<64:
+            _YCRUMB.update(crumb=cr,opener=op); return cr,op
+    except Exception as e:
+        print("[yahoo] crumb 확보 실패:",repr(e)[:80])
+    return None,None
+
+def fetch_earnings_events():
+    """워치리스트 실적일 확정치 — v7 quote 배치 1콜(earningsTimestamp). 무쿠키 401 시 crumb 재시도(v2.23.6 · 7/23·8/27 시즌 내내 실패했던 결함). 실패 시 [] (정적 예상치로 폴백)."""
+    syms=",".join(EARN_WATCH)
+    def _load():
+        try: return json.loads(get("https://query1.finance.yahoo.com/v7/finance/quote?symbols="+syms))
+        except Exception as e:
+            if "401" not in str(e) and "403" not in str(e): raise
+        cr,op=_yahoo_crumb()
+        if not cr: raise Exception("v7 401 + crumb 없음")
+        return json.loads(op.open("https://query2.finance.yahoo.com/v7/finance/quote?symbols="+syms+"&crumb="+urllib.parse.quote(cr),timeout=25).read().decode("utf-8","replace"))
+    try:
+        qj=_load()
         out=[]; now=datetime.now(timezone.utc)
         for r in (qj.get("quoteResponse",{}).get("result") or []):
             ts=r.get("earningsTimestamp") or r.get("earningsTimestampStart")
@@ -1102,13 +1166,24 @@ def upcoming_events():
 
 TG_TOKEN=os.environ.get("TELEGRAM_TOKEN","")
 TG_CHAT=os.environ.get("TELEGRAM_CHAT_ID","")
-def tg_send(text):
+NOTIFY_LOG={}        # {sha1[:16](본문): ISO시각} — data.json.notify_log 로 영속 (main에서 prev 복원)
+NOTIFY_TTL_H=24
+def tg_send(text, force=False):
+    """텔레그램 발송 — 공통 dedup 계층(v2.23.6, HANDOFF §7.7): 동일 본문 24h 내 재송신 금지. force=True(🎯 적중 등)만 TTL 무시."""
     if not TG_TOKEN or not TG_CHAT: return False
+    now=datetime.now(timezone.utc)
+    for k,ts in list(NOTIFY_LOG.items()):   # TTL 만료 정리
+        try:
+            if (now-datetime.fromisoformat(ts)).total_seconds()>NOTIFY_TTL_H*3600: NOTIFY_LOG.pop(k,None)
+        except Exception: NOTIFY_LOG.pop(k,None)
+    h=hashlib.sha1(text.encode("utf-8")).hexdigest()[:16]
+    if not force and h in NOTIFY_LOG:
+        print("텔레그램 dedup 억제(24h 내 동일 본문):",text[:40].replace("\n"," ")); return False
     try:
-        import urllib.parse
         data=urllib.parse.urlencode({"chat_id":TG_CHAT,"text":text,"parse_mode":"HTML","disable_web_page_preview":"true"}).encode()
         req=urllib.request.Request(f"https://api.telegram.org/bot{TG_TOKEN}/sendMessage",data=data)
         urllib.request.urlopen(req,timeout=10).read()
+        NOTIFY_LOG[h]=now.isoformat(timespec="seconds")
         return True
     except Exception as e:
         print("텔레그램 발송 실패:",str(e)[:100]); return False
@@ -1202,6 +1277,19 @@ def update_klr(prev, ew, prices, fred):
     if not (spy.get("ok") and px and mt):
         return k                                   # 원장 동결
     mkt_date=datetime.fromtimestamp(mt,tz=timezone.utc).strftime("%Y-%m-%d")
+    # 가드(v2.23.6): 야후가 전일 regularMarketTime을 되돌려주는 사이클(8/6 실측 — last_mkt 8/05↔8/06 4회 왕복 → td +4 과다계수)
+    #   → 시장일 '역행'이면 이 사이클 원장 동결(전진·진입 정지). 거래일 = 시장일 전진 횟수만 계수.
+    if k.get("last_mkt") and mkt_date<k["last_mkt"]:
+        print("[klr] 시장일 역행 감지:",k["last_mkt"],"→",mkt_date,"— 원장 동결"); return k
+    # 1회성 보정(v2.23.6): 위 결함으로 2026-07-07 진입건 td·since_last_td가 NYSE 실거래일보다 +4 → −4. 감사 필드 td_corr 박제(append-only 유지)
+    if not k.get("td_corr_v2236"):
+        for e in k["entries"]:
+            if e.get("entry_date")=="2026-07-07" and not e.get("hit_date") and e.get("status") in ("추적중","60미적중·90추적"):
+                e["td"]=max(0,e.get("td",0)-4)
+                e["td_corr"]={"delta":-4,"reason":"8/6 last_mkt 역행 4회(data.json 커밋 239fbea7·482a0677·e5788e7c·c7ecb354)","applied":mkt_date}
+                if e["td"]<=60 and e["status"]=="60미적중·90추적": e["status"]="추적중"
+        if k.get("since_last_td") is not None: k["since_last_td"]=max(0,k["since_last_td"]-4)
+        k["td_corr_v2236"]=True
     new_day=(k.get("last_mkt")!=mkt_date)
     if new_day:
         k["last_mkt"]=mkt_date
@@ -1248,6 +1336,9 @@ def main():
     try:
         with open("data.json","r",encoding="utf-8") as f: prev=json.load(f)
     except Exception: prev=None
+    # v2.23.6: 텔레그램 dedup 로그 복원(24h TTL) — 모든 발송이 tg_send 한 곳을 거침
+    NOTIFY_LOG.clear()
+    if isinstance((prev or {}).get("notify_log"),dict): NOTIFY_LOG.update(prev["notify_log"])
     news=fetch_news()
     prices=fetch_prices()
     fred=fetch_fred()
@@ -1264,12 +1355,9 @@ def main():
         tg_send("🔌 <b>데이터 수집 이상</b>\n실패 "+str(len(_failed))+"종목"
                 +(" · 코어 사망: "+", ".join(_core_dead) if _core_dead else "")
                 +"\n대시보드 판정 신뢰 불가 — Actions 로그 확인 필요")
-    ipo=check_ipo_watch()
-    _pi=(prev or {}).get("ipo_watch",{}) if prev else {}
-    for _k,_lb in (("openai","OpenAI"),("anthropic","Anthropic")):
-        _c=(ipo.get(_k) or {}); _p2=(_pi.get(_k) or {}) if isinstance(_pi.get(_k),dict) else {}
-        if _c.get("found") and not _p2.get("found"):
-            tg_send(f"🚀 <b>{_lb} 상장 감지</b>\n티커: {_c.get('ticker')} ({_c.get('name')})\n야후 티커 등록 확인 — 검증 필요")
+    ipo,_ipo_new=check_ipo_watch(prev)
+    for _lb,_c in _ipo_new:   # 필터 통과 + 미통지 티커만 1회 (v2.23.6 — OAIW/ANTW 테마 ETF 재발화 차단)
+        tg_send(f"🚀 <b>{_lb} 상장 감지</b>\n티커: {_c.get('ticker')} ({_c.get('name')}) · {_c.get('exchange')}\n야후 EQUITY 등록 확인 — 검증 필요 · 이 티커는 재통지하지 않음")
     charts=fetch_charts(fred)
     fragility=build_fragility(prev)
     ebp=fetch_ebp(prev)
@@ -1286,15 +1374,22 @@ def main():
         _ps={e.get("entry_date"):e.get("status") for e in _pk}
         for _e in _ck:
             if "적중"==(_e.get("status") or "")[:2] and (_ps.get(_e.get("entry_date")) or "")[:2]!="적중":
-                tg_send(f"🎯 <b>KLR 적중</b> {_e['entry_date']} 진입건 — {_e.get('hit_reason')} ({_e.get('hit_td')}거래일차)")
+                tg_send(f"🎯 <b>KLR 적중</b> {_e['entry_date']} 진입건 — {_e.get('hit_reason')} ({_e.get('hit_td')}거래일차)",force=True)
     except Exception: pass
     gpu=fetch_gpu_price(prev)
+    # S2 전이 통지(1회 · v2.23.6, A7 피드장애 알림 사각 보강): 48h+ 수집 중단 → AI 앵커 판정 제외 진입/해제
+    _pg=((prev or {}).get("gpu") or {}) if prev else {}
+    if gpu.get("excluded") and not _pg.get("excluded"):
+        tg_send("🔌 <b>GPU 시세 수집 중단 48h+</b>\nH100 임대가 마지막 실수집 "+str(gpu.get("last_ok"))+"Z · 유지값 $"+str(gpu.get("median"))
+                +"\nS2 규칙: AI 앵커는 종합 판정에서 제외(체인 단독 모드) — computeprices 401 → COMPUTEPRICES_KEY 시크릿 확인")
+    elif _pg.get("excluded") and not gpu.get("excluded"):
+        tg_send("✅ <b>GPU 시세 수집 복구</b>\nH100 $"+str(gpu.get("median"))+"/시간 · AI 앵커 판정 복귀")
     visitors, visit_hours = fetch_visit_stats(prev)
-    data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),
-          "prices":prices,"news":news,"edgar":fetch_edgar(prev),
+    data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),"version":VERSION,
+          "prices":prices,"news":news,"edgar":fetch_edgar(prev),"notify_log":dict(NOTIFY_LOG),
           "fred":fred,"charts":charts,"summary":summary,
           "early":ew,"history":history,"events":merge_events(upcoming_events(), fetch_earnings_events()),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
-    _gate=schema_gate(prev_exists,prev,ew,history,klr)   # R3 현관 검문
+    _gate=schema_gate(prev_exists,prev,ew,history,klr,ipo)   # R3 현관 검문
     if _gate:
         print("⛔ 스키마 게이트 차단:",_gate)
         try: tg_send("⛔ <b>스키마 게이트</b>\n"+" · ".join(_gate)+"\ndata.json 미갱신 — 이전 상태 보존, Actions 로그 확인 필요")

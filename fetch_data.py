@@ -7,7 +7,7 @@ AI 사이클 모니터 — 데이터 수집기 (v3)
 import json, os, urllib.request, urllib.parse, re, time, html, gzip, hashlib
 from datetime import datetime, timezone, timedelta
 
-VERSION = "2.23.6"   # index.html 헤더 · data.json.version 과 단일 유지
+VERSION = "2.24.0"   # index.html 헤더 · data.json.version 과 단일 유지
 UA = {"User-Agent": "ai-cycle-monitor/1.0 (personal research)"}
 SEC_UA = {"User-Agent": "ai-cycle-monitor jiskim.boop@gmail.com", "Accept-Encoding": "gzip, deflate"}
 # 구글 뉴스 RSS는 봇 UA에 503(Service Unavailable)을 자주 반환 → 실제 브라우저 UA 사용
@@ -60,11 +60,11 @@ PRICE_SYMBOLS = [
     # 한국 지수
     "%5EKS11","%5EKQ11",
     # 자금흐름
-    "GLD","BTC-USD","USO","JPY=X",
+    "GLD","BTC-USD","USO","JPY=X","KRW=X","%5EOVX",   # v2.24.0 관찰: 원화(USD/KRW)·유가 변동성(OVX)
     # 선물 (24시간 — 장외/주말 시장 방향)
-    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY",
+    "ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","EWY","BZ=F",   # v2.24.0 관찰: 브렌트
 ]
-FUT_SET = {"ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F"}
+FUT_SET = {"ES=F","NQ=F","YM=F","GC=F","CL=F","HG=F","ZN=F","BZ=F"}
 def _chart_json(sym):
     # 야후 chart: query1 404 시 query2로 재시도 (^VIX 등 간헐적 단일심볼 404 대응)
     last=None
@@ -107,6 +107,7 @@ def fetch_quote(sym):
             prev = reg
         chg=round((price/prev-1)*100,2) if prev else 0
         chg5=round((price/closes[-6]-1)*100,2) if len(closes)>5 else None
+        chg20=round((price/closes[-21]-1)*100,2) if len(closes)>20 else None   # v2.24.0: 20거래일 변화(관찰 지표·요약 변화분)
         # 세션: 선물은 거의 24시간이라 '24h'로, 주식·지수는 pre/post/reg
         if is_fut:
             sess = "24h"
@@ -114,7 +115,7 @@ def fetch_quote(sym):
             sess = "post" if post is not None else ("pre" if pre is not None else "reg")
         # 가격 신선도(체결시각) — 디버그/표시용
         mt = meta.get("regularMarketTime")
-        return {"price":round(price,2),"chg":chg,"chg5":chg5,
+        return {"price":round(price,2),"chg":chg,"chg5":chg5,"chg20":chg20,
                 "sma20":sma(20),"sma50":sma(50),"sma200":sma(200),
                 "high3m":round(max(closes[-63:]),2) if closes else None,
                 "reg":round(reg,2) if reg is not None else None,
@@ -131,7 +132,7 @@ def fetch_quote(sym):
                 price=r.get("postMarketPrice") or r.get("preMarketPrice") or r["regularMarketPrice"]
                 prevc=r.get("regularMarketPreviousClose")
                 chg=round((price/prevc-1)*100,2) if prevc else r.get("regularMarketChangePercent")
-                return {"price":round(price,2),"chg":chg,"chg5":None,
+                return {"price":round(price,2),"chg":chg,"chg5":None,"chg20":None,
                         "sma20":None,"sma50":None,"sma200":None,"high3m":None,
                         "sess":"reg","mt":r.get("regularMarketTime"),"ok":True,"degraded":True}
         except Exception: pass
@@ -275,92 +276,219 @@ def fetch_edgar(prev=None):
     return out
 
 # ---- 한 문장 요약 (AI 섹터 + 거시 통합)
-def summarize_news(news, prices=None, fred=None, prev=None):
-    hc=[it["title"] for it in news.get("credit",[]) if not it["title"].startswith("[")][:8]
-    hf=[it["title"] for it in news.get("fundamental",[]) if not it["title"].startswith("[")][:5]
-    hm=[it["title"] for it in news.get("macro",[]) if not it["title"].startswith("[")][:5]
-    # 핵심 지표 스냅샷
-    snap=[]
-    p=prices or {}
-    def g(sym):
-        q=p.get(sym); return q.get("price") if q and q.get("ok") else None
-    def gc(sym):
-        q=p.get(sym); return q.get("chg") if q and q.get("ok") else None
-    vix=g("^VIX"); v3=g("^VIX3M"); tnx=g("^TNX"); dxy=g("DX-Y.NYB")
-    spy_c=gc("SPY"); qqq_c=gc("QQQ")
-    if vix is not None:
-        ts = (vix/v3) if (v3 and v3>0) else None
-        snap.append(f"VIX {vix:.0f}" + (" (기간구조 역전)" if ts and ts>=1 else ""))
-    if tnx is not None: snap.append(f"미10년 금리 {tnx:.2f}%")
-    if dxy is not None: snap.append(f"달러 DXY {dxy:.1f}")
-    if spy_c is not None: snap.append(f"S&P {spy_c:+.1f}%")
-    hyoas_v=None; nfci_v=None
-    if fred and fred.get("ok"):
-        if fred.get("hyoas") and fred["hyoas"].get("value") is not None:
-            hyoas_v=fred["hyoas"]["value"]; snap.append(f"HY스프레드 {hyoas_v:.2f}%")
-        if fred.get("nfci") and fred["nfci"].get("value") is not None:
-            nfci_v=fred["nfci"]["value"]; snap.append(f"NFCI {nfci_v:+.2f}")
-        if fred.get("cape") is not None:
-            snap.append(f"실러CAPE {fred['cape']:.0f}")
-    snaptxt=" · ".join(snap) if snap else "(지표 없음)"
+# ── 관찰 지표 (v2.24.0 · HANDOFF §11C/§4) — 외생충격·배관·실물 5종. 판정(calc_early·종합) 무영향 ──
+#   트리거는 '사전등록 후보'로 문서화만(판정 통합은 KLR 원장 n≥5 확정 후 제안). [제안]=이번 세션에서 수치화한 부분.
+OBS_TRIG={
+  "energy":"브렌트 +20%/20d ∨ OVX>50",
+  "carry":"USDJPY −5%/20d ∧ VIX 5d 상승",
+  "dollar":"USDKRW ≥1,550 ∨ DXY +5%/20d[제안]",
+  "plumbing":"재할인창구 1차신용 전주 대비 2배+ ∧ ≥$10bn[제안 · '23.3: 4.6→152bn]",
+  "real":"Sahm ≥0.5 (신규실업 4주평균은 참고)",
+}
+def fetch_obs(prices):
+    """관찰 전용 5종 — 야후(chg20 포함)·FRED(WLCFLPCL 주간 $mn · SAHMREALTIME 월간 · IC4WSA 주간). hit=트리거 후보 충족(표시용).
+    결측은 각 칸 missing[]에 명시(배지). 어떤 값도 calc_early/종합에 들어가지 않는다."""
+    P=prices or {}
+    def q(sym):
+        x=P.get(sym) or {}; return x if x.get("ok") else {}
+    def nz(*vals): return all(v is not None for v in vals)
+    o={"note":"관찰 전용 · 종합/조기경보 판정 무영향 · 트리거=사전등록 후보(문서화만, 통합은 원장 n≥5 후)","trig":OBS_TRIG}
+    bz,ovx=q("BZ=F"),q("^OVX")
+    e={"brent":bz.get("price"),"brent_chg20":bz.get("chg20"),"ovx":ovx.get("price")}
+    e["hit"]=bool((nz(e["brent_chg20"]) and e["brent_chg20"]>=20) or (nz(e["ovx"]) and e["ovx"]>50))
+    e["missing"]=[k for k in ("brent","brent_chg20","ovx") if e[k] is None]
+    o["energy"]=e
+    jp,vix=q("JPY=X"),q("^VIX")
+    c={"usdjpy":jp.get("price"),"usdjpy_chg20":jp.get("chg20"),"vix_chg5":vix.get("chg5")}
+    c["hit"]=bool(nz(c["usdjpy_chg20"],c["vix_chg5"]) and c["usdjpy_chg20"]<=-5 and c["vix_chg5"]>0)
+    c["missing"]=[k for k in ("usdjpy","usdjpy_chg20","vix_chg5") if c[k] is None]
+    o["carry"]=c
+    dx,kr=q("DX-Y.NYB"),q("KRW=X")
+    d={"dxy":dx.get("price"),"dxy_chg20":dx.get("chg20"),"usdkrw":kr.get("price"),"usdkrw_chg20":kr.get("chg20")}
+    d["hit"]=bool((nz(d["usdkrw"]) and d["usdkrw"]>=1550) or (nz(d["dxy_chg20"]) and d["dxy_chg20"]>=5))
+    d["missing"]=[k for k in ("dxy","dxy_chg20","usdkrw","usdkrw_chg20") if d[k] is None]
+    o["dollar"]=d
+    dw=fred_latest("WLCFLPCL") if FRED_KEY else None; time.sleep(0.2)
+    sa=fred_latest("SAHMREALTIME") if FRED_KEY else None; time.sleep(0.2)
+    ic=fred_obs("IC4WSA",10) if FRED_KEY else None   # 최근 10주(내림차순)
+    p={"dw_bn":round(dw["value"]/1000,2) if dw else None,
+       "dw_prev_bn":round(dw["prev"]/1000,2) if dw and dw.get("prev") is not None else None,
+       "dw_date":dw["date"] if dw else None}
+    p["dw_ratio"]=round(p["dw_bn"]/p["dw_prev_bn"],2) if nz(p["dw_bn"],p["dw_prev_bn"]) and p["dw_prev_bn"]>0 else None
+    p["hit"]=bool(nz(p["dw_ratio"],p["dw_bn"]) and p["dw_ratio"]>=2 and p["dw_bn"]>=10)
+    p["missing"]=[k for k in ("dw_bn","dw_prev_bn") if p[k] is None]
+    o["plumbing"]=p
+    r={"sahm":sa["value"] if sa else None,"sahm_date":sa["date"] if sa else None,
+       "ic4w":ic[0][1] if ic else None,"ic4w_date":ic[0][0] if ic else None,
+       "ic4w_chg8w":round((ic[0][1]/ic[8][1]-1)*100,1) if ic and len(ic)>8 and ic[8][1] else None}
+    r["hit"]=bool(nz(r["sahm"]) and r["sahm"]>=0.5)
+    r["missing"]=[k for k in ("sahm","ic4w") if r[k] is None]
+    o["real"]=r
+    o["hits"]=[k for k in ("energy","carry","dollar","plumbing","real") if o[k]["hit"]]
+    o["missing_n"]=sum(len(o[k]["missing"]) for k in ("energy","carry","dollar","plumbing","real"))
+    return o
 
-    # ── 변동 감지 캐싱: 큰 변동 없으면 이전 요약 재사용(API 절약) ──
-    # 핵심 지표 + 트리거 뉴스 개수로 '상태 지문' 생성
-    trig_n=sum(1 for it in news.get("credit",[]) if it.get("trig"))
-    geo_n=sum(1 for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo"))
-    geo_titles=[it["title"] for k in ("macro","flow") for it in news.get(k,[]) if it.get("geo")][:3]
-    def rnd(v,step):  # 구간화 — 작은 변동은 같은 값으로
-        return None if v is None else round(v/step)*step
-    fp={
-        "vix": rnd(vix,2),            # VIX 2p 단위
-        "tnx": rnd(tnx,0.1),          # 금리 0.1% 단위
-        "dxy": rnd(dxy,0.5),          # 달러 0.5 단위
-        "spy": rnd(spy_c,1.0),        # S&P 등락 1% 단위
-        "hyoas": rnd(hyoas_v,0.2),    # HY 0.2% 단위
-        "nfci": rnd(nfci_v,0.1),
-        "trig": trig_n,
-        "geo": geo_n,                 # 지정학 중대 뉴스 — 뜨면 새로 요약
-        "capex": len(hf),             # AI capex·GPU/HBM 수급 뉴스 개수
-        "news": len(hc)+len(hf)+len(hm),
-    }
-    prev_fp = (prev or {}).get("summary",{}).get("_fp") if prev else None
-    prev_text = (prev or {}).get("summary",{}).get("text") if prev else None
-    prev_by = (prev or {}).get("summary",{}).get("by") if prev else None
-    # 지문이 같고 이전이 AI 요약이면 → 재사용(호출 skip)
-    if prev_fp==fp and prev_text and prev_by=="claude":
-        return {"text":prev_text,"by":"claude","_fp":fp,"_cached":True}
+# ── 요약 v2 (v2.24.0 · HANDOFF §10.2 재설계) — 입력=엔진 실측(뉴스 서사 아님) · 출력=①변화 요약(전일 대비·숫자 인용) + ②레짐 설명 ──
+#   규칙: 변화 목록이 비면 문자 그대로 "전일 대비 유의 변화 없음" · 숫자는 실측값만 · 판정과 모순 서술 금지(기계 검증, 위반 시 결정적 문장 폴백)
+#   · 뉴스는 '(뉴스 기준)' 격리 표기로만 · 레짐 설명은 레짐 키(판정·밴드·일자)가 바뀔 때만 재생성(고정 허용) → API 호출은 변화 시점에만
+#   배경: 이전 요약은 헤드라인 8~18건 입력 → 같은 HY 2.68%를 두고 "경색"↔"양호"가 사이클마다 뒤집힘(9/23 실측) · 판정(신용 0)과 모순
+EW_WORD={"g":"안정","a":"주의","r":"경계"}
+def _band(v, warn, danger, higher_worse=True):
+    if v is None: return None
+    if higher_worse: return "위험" if v>=danger else "주의" if v>=warn else "정상"
+    return "위험" if v<=danger else "주의" if v<=warn else "정상"
 
-    if APIKEY and (hc or hf or hm or snap):
-        geo_block = ("\n\n[⚠ 지정학·돌발 거시 이벤트]\n"+"\n".join("- "+t for t in geo_titles)) if geo_titles else ""
-        s=claude(
-            "당신은 거시·신용 시장 애널리스트다. 아래 데이터로 '지금 시장 상황'을 한국어로 요약하되, "
-            "정확히 2문장으로 작성하라.\n"
-            "1문장: 거시·자금 흐름 — 금리·지정학·변동성(VIX)·신용·사모대출 중 지금 가장 중요한 것을 중심으로 '무엇을 의미하는지'.\n"
-            "2문장: AI 사이클 — capex·GPU/HBM 수급·밸류체인 관련해 특이 흐름이 있으면 한 줄, 없으면 '특이 신호 없음' 수준으로 짧게.\n"
-            "각 문장 50자 내외로 압축. 나열 금지, 핵심만. 지정학 이벤트가 있으면 1문장에서 우선 언급. "
-            "과장·투자권유 없이 사실 위주. 마크다운·제목·번호 없이 두 문장만 이어서.\n\n"
-            "[핵심 지표]\n"+snaptxt+"\n\n[신용·사모대출 뉴스]\n"+("\n".join("- "+h for h in hc) or "- 특이사항 없음")+
-            "\n\n[AI capex·GPU/HBM 수급 뉴스]\n"+("\n".join("- "+h for h in hf) or "- 특이사항 없음")+
-            "\n\n[거시 뉴스]\n"+("\n".join("- "+h for h in hm) or "- 특이사항 없음")+geo_block, max_tokens=250)
-        if s: return {"text":nomd(s),"by":"claude","_fp":fp}
-    # 폴백: 키 없을 때도 사람이 읽기 좋게 풀어서
-    trig=sum(1 for it in news.get("credit",[]) if it.get("trig"))
-    parts=[]
-    if geo_n>0:
-        parts.append(f"지정학 돌발 이벤트 {geo_n}건 — 유가·변동성 영향 주시")
-    if vix is not None and vix>=20:
-        parts.append(f"VIX {vix:.0f}로 변동성 {'공포 구간' if vix>=28 else '경계 수준'}")
-    if fred and fred.get("ok") and fred.get("hyoas") and fred["hyoas"].get("value") is not None:
-        hy=fred["hyoas"]["value"]
-        if hy>=5: parts.append(f"HY스프레드 {hy:.1f}%로 신용 {'경색' if hy>=7 else '확대'}")
-    if trig>0: parts.append(f"신용 트리거 {trig}건")
-    if fred and fred.get("cape") is not None and fred["cape"]>=40:
-        parts.append(f"CAPE {fred['cape']:.0f} 고밸류")
-    if parts:
-        body=" · ".join(parts[:2])
-    else:
-        body="특이 신호 적음"+(f" (VIX {vix:.0f}·안정)" if vix is not None else "")
-    return {"text":body+".","by":"heuristic","_fp":fp}
+def engine_facts(prices, fred, charts, ew, klr, gpu, obs):
+    """요약 입력 팩트 — 전부 실측 + 임계 밴드 병기(임계값은 index.html 카드와 동일: HY 4.5/5.0 · 실질 1.8/2.3 · VIX 20/26 · MOVE 100/125 · 커브 0.5/0 · 순유동성 −1.2/−3)."""
+    p=prices or {}; Fd=fred or {}; ch=charts or {}
+    def g(sym,k="price"):
+        q=p.get(sym); return q.get(k) if q and q.get("ok") else None
+    def fv(k): return (Fd.get(k) or {}).get("value") if isinstance(Fd.get(k),dict) else None
+    def fc(k): return (Fd.get(k) or {}).get("chg") if isinstance(Fd.get(k),dict) else None
+    def last(a):
+        v=[x for x in (a or []) if x is not None]; return v[-1] if v else None
+    def d20(a):   # 13pt/90일 시계열 → 약 20거래일 전 ≈ 3포인트 전
+        v=[x for x in (a or []) if x is not None]; return round(v[-1]-v[-4],2) if len(v)>=4 else None
+    tnx,irx=g("^TNX"),g("^IRX")
+    curve=round(tnx-irx,2) if tnx is not None and irx is not None else None
+    vix,v3=g("^VIX"),g("^VIX3M")
+    spy,s50=g("SPY"),g("SPY","sma50")
+    f={"ew_st":EW_WORD.get(ew.get("st"),"?")+("(위험)" if ew.get("risk") else ""),"ew_score":ew.get("score"),"ew_axis":ew.get("axisCount"),"ew_strong":ew.get("strong"),
+       "ew_hits":list(ew.get("hits") or []),"ew_missing":list(((ew.get("inputs") or {}).get("missing")) or []),
+       "hy":fv("hyoas"),"hy_chg1":fc("hyoas"),"hy_chg20":d20(ch.get("hyoas")),"hy_band":_band(fv("hyoas"),4.5,5.0),
+       "nfci":fv("nfci"),"nfci_band":_band(fv("nfci"),0,0.5),
+       "cccbb":last(ch.get("ccc_bb")),"cccbb_band":_band(last(ch.get("ccc_bb")),12,15),
+       "real":fv("realrate"),"real_chg1":fc("realrate"),"real_band":_band(fv("realrate"),1.8,2.3),
+       "vix":vix,"vix_chg1":g("^VIX","chg"),"vix_band":_band(vix,20,26),"vixts":round(vix/v3,2) if vix and v3 else None,
+       "move":g("^MOVE"),"move_chg1":g("^MOVE","chg"),"move_band":_band(g("^MOVE"),100,125),
+       "tnx":tnx,"curve":curve,"curve_band":_band(curve,0.5,0,False),
+       "netliq_chg4w":(Fd.get("netliq") or {}).get("chg4w") if isinstance(Fd.get("netliq"),dict) else None,
+       "spy":spy,"spy_chg1":g("SPY","chg"),"spy_chg5":g("SPY","chg5"),"spy_chg20":g("SPY","chg20"),
+       "spy_vs50":round((spy/s50-1)*100,1) if spy and s50 else None,"qqq_chg1":g("QQQ","chg"),
+       "gpu_excluded":bool((gpu or {}).get("excluded")),"gpu_median":(gpu or {}).get("median"),
+       "obs_hits":list((obs or {}).get("hits") or [])}
+    f["netliq_band"]=_band(f["netliq_chg4w"],-1.2,-3.0,False)
+    f["broad_band"]=None if f["spy_vs50"] is None else ("주의" if f["spy_vs50"]<0 else "정상")
+    ents=[e for e in ((klr or {}).get("entries") or []) if e.get("status") in ("추적중","60미적중·90추적")]
+    if ents:
+        e=ents[-1]; f["klr"]={"entry":e.get("entry_date"),"td":e.get("td"),"min_spx":e.get("min_spx_pct"),"max_hy_bp":e.get("max_hy_bp"),"left":max(0,60-(e.get("td") or 0)),"status":e.get("status")}
+    else: f["klr"]=None
+    return f
+
+SIG={"vix":2.0,"hy":0.10,"move":8.0,"real":0.10,"tnx":0.10,"curve":0.15,"cccbb":0.5,"nfci":0.10}   # 유의 변화 문턱(수치 지표)
+def facts_delta(base, cur):
+    """전일 기준(base) 대비 유의 변화 목록 — 판정·밴드 전환은 항상 유의, 수치는 SIG 문턱. 비면 '유의 변화 없음'."""
+    if not base: return []
+    out=[]
+    def num(k,label,fmt,thr,unit=""):
+        a,b=base.get(k),cur.get(k)
+        if a is None or b is None: return
+        d=b-a
+        if abs(d)<thr: return
+        out.append(f"{label} {fmt%a}→{fmt%b}{unit}({'+' if d>=0 else ''}{fmt%d})")
+    if base.get("ew_st")!=cur.get("ew_st") or base.get("ew_score")!=cur.get("ew_score"):
+        out.append(f"조기경보 {base.get('ew_st')} {base.get('ew_score')}점→{cur.get('ew_st')} {cur.get('ew_score')}점")
+    for k,label in (("hy_band","HY 밴드"),("real_band","실질10Y 밴드"),("vix_band","VIX 밴드"),("move_band","MOVE 밴드"),("curve_band","커브 밴드"),
+                    ("netliq_band","순유동성 밴드"),("broad_band","SPY 50일선 밴드"),("nfci_band","NFCI 밴드"),("cccbb_band","CCC-BB 밴드")):
+        if base.get(k) and cur.get(k) and base[k]!=cur[k]: out.append(f"{label} {base[k]}→{cur[k]}")
+    num("vix","VIX","%.2f",SIG["vix"]); num("hy","HY OAS","%.2f",SIG["hy"],"%"); num("move","MOVE","%.2f",SIG["move"])
+    num("real","실질10Y","%.2f",SIG["real"],"%"); num("tnx","10Y","%.2f",SIG["tnx"],"%"); num("curve","10Y−3M","%.2f",SIG["curve"],"%p")
+    num("cccbb","CCC−BB","%.2f",SIG["cccbb"],"%p"); num("nfci","NFCI","%.3f",SIG["nfci"])
+    if cur.get("spy_chg1") is not None and abs(cur["spy_chg1"])>=1.0: out.append(f"SPY 당일 {cur['spy_chg1']:+.2f}%")
+    if set(base.get("ew_missing") or [])!=set(cur.get("ew_missing") or []): out.append(f"입력 결측 {len(base.get('ew_missing') or [])}→{len(cur.get('ew_missing') or [])}종")
+    if bool(base.get("gpu_excluded"))!=bool(cur.get("gpu_excluded")): out.append("GPU 앵커 판정 "+("제외 진입" if cur.get("gpu_excluded") else "복귀"))
+    if set(base.get("obs_hits") or [])!=set(cur.get("obs_hits") or []): out.append("관찰 트리거 "+(",".join(cur.get("obs_hits") or []) or "없음"))
+    bk,ck=(base.get("klr") or {}),(cur.get("klr") or {})
+    if bk.get("status")!=ck.get("status") or (bk and ck and bk.get("min_spx")!=ck.get("min_spx")):
+        out.append(f"KLR {ck.get('entry')}건 {ck.get('td')}td 최저 {ck.get('min_spx')}%" if ck else "KLR 추적 종결")
+    return out
+
+def regime_text(f):
+    """결정적 레짐 설명(폴백·무키) — 판정·임계 거리·KLR·결측만 나열."""
+    parts=[f"조기경보 {f['ew_st']} {f['ew_score']}점·{f['ew_axis']}축"]
+    if f.get("hy") is not None: parts.append(f"HY {f['hy']:.2f}%({f['hy_band']}·위험선 5.0)")
+    if f.get("real") is not None: parts.append(f"실질10Y {f['real']:.2f}%({f['real_band']}·위험선 2.3)")
+    if f.get("move") is not None: parts.append(f"MOVE {f['move']:.2f}({f['move_band']})")
+    if f.get("vix") is not None: parts.append(f"VIX {f['vix']:.2f}({f['vix_band']})")
+    if f.get("curve") is not None: parts.append(f"10Y−3M {f['curve']:+.2f}%p({f['curve_band']})")
+    if f.get("spy_vs50") is not None: parts.append(f"SPY 50일선 대비 {f['spy_vs50']:+.1f}%")
+    if f.get("klr"): k=f["klr"]; parts.append(f"KLR {k['entry']} 진입 {k['td']}/60td 최저 {k['min_spx']}%")
+    if f.get("gpu_excluded"): parts.append("GPU 앵커 판정 제외(수집 중단)")
+    if f.get("ew_missing"): parts.append(f"입력 결측 {len(f['ew_missing'])}종")
+    return " · ".join(parts)
+
+_NUM=re.compile(r"\d+(?:[.,]\d+)?")
+THRESH_NUMS={4.5,5.0,0.0,0.5,12.0,15.0,1.8,2.3,20.0,26.0,0.95,1.02,100.0,125.0,1.2,3.0,60.0,30.0,40.0,90.0,10.0,150.0,50.0,200.0,1550.0}   # 카드 임계·KLR 규칙 상수
+def _nums_in(t):
+    out=set()
+    for m in _NUM.findall(t or ""):
+        try: out.add(float(m.replace(",","")))
+        except ValueError: pass
+    return out
+def validate_summary(text, facts_txt, f, require_num=False):
+    """모델 출력 기계 검증 — 위반 사유 문자열, 통과 None.
+    ① 실측·변화목록·임계 상수에 없는 숫자(수치 비교 · 19.5↔19.50 동일 취급) ② 변화행 숫자 인용 필수 ③ '정상' 밴드 지표에 악화 서술 ④ 마크다운"""
+    if not text or re.search(r"[#*`]",text): return "형식"
+    if require_num and not re.search(r"\d",text): return "숫자 없음"
+    allowed=_nums_in(facts_txt)|THRESH_NUMS
+    bad=[n for n in _nums_in(text) if not any(abs(n-a)<0.006 for a in allowed) and not (n==int(n) and 0<=n<=12)]
+    if bad: return "실측 외 숫자 "+",".join(f"{b:g}" for b in bad[:3])
+    if f.get("hy_band")=="정상" and re.search(r"스프레드\s*(확대|급등|상승)|신용\s*경색|신용경색",text): return "HY 모순"
+    if f.get("vix_band")=="정상" and re.search(r"변동성\s*(급등|폭발)|공포\s*(구간|확산|장세)",text): return "VIX 모순"
+    if f.get("real_band")=="정상" and re.search(r"실질금리\s*(급등|고공)",text): return "실질금리 모순"
+    return None
+
+def summarize_engine(prev, prices, fred, charts, ew, klr, gpu, obs, news):
+    f=engine_facts(prices,fred,charts,ew,klr,gpu,obs)
+    ps=((prev or {}).get("summary") or {}) if isinstance((prev or {}).get("summary"),dict) else {}
+    today=datetime.now(timezone(timedelta(hours=9))).strftime("%Y-%m-%d")   # KST 일자(사용자 시간대) — '전일'의 정의
+    base=ps.get("_base") if isinstance(ps.get("_base"),dict) else None
+    tod=ps.get("_today") if isinstance(ps.get("_today"),dict) else None
+    if tod and tod.get("d")!=today: base=tod          # 날짜 바뀜 → 어제 마지막 팩트가 오늘의 비교 기준
+    if not base: base={"d":today,"f":f}                # 첫 가동: 오늘 첫 팩트 기준(전일 비교는 내일부터)
+    tod={"d":today,"f":f}
+    deltas=facts_delta(base.get("f"),f)
+    facts_txt=json.dumps(f,ensure_ascii=False)
+    val_txt=facts_txt+" "+" ".join(deltas)+" "+str(base.get("d"))+" "+today   # 인용 허용 숫자 풀 = 실측 + 변화목록(차이값 포함) + 기준일
+    geo_titles=[it["title"] for k in ("macro","flow") for it in (news or {}).get(k,[]) if it.get("geo")][:2]
+    delta_key=hashlib.sha1(("|".join(deltas)+"|"+str(base.get("d"))).encode("utf-8")).hexdigest()[:10]
+    rk={k:f.get(k) for k in ("ew_st","hy_band","real_band","vix_band","move_band","curve_band","netliq_band","broad_band","gpu_excluded","obs_hits")}
+    regime_key=hashlib.sha1((json.dumps(rk,ensure_ascii=False,sort_keys=True)+today).encode("utf-8")).hexdigest()[:10]
+    src=dict(ps.get("_src") or {}) if isinstance(ps.get("_src"),dict) else {}
+    change_txt=regime_txt=None
+    if not deltas:
+        change_txt="전일 대비 유의 변화 없음 (기준 "+str(base.get("d"))+")"; src["change"]="engine"
+    elif ps.get("_delta_key")==delta_key and ps.get("change"):
+        change_txt=ps["change"]                       # 같은 변화 집합 → 재생성 안 함(호출 절약·문장 안정)
+    if ps.get("_regime_key")==regime_key and ps.get("regime"):
+        regime_txt=ps["regime"]
+    if APIKEY and (change_txt is None or regime_txt is None):
+        prompt=("당신은 시장 조기경보 대시보드 엔진의 해설자다. 아래 [엔진 실측]만 사실이다. 뉴스는 참고이며 언급하려면 반드시 '(뉴스 기준)'을 붙인다.\n"
+                "정확히 두 줄만 출력(라벨·번호·마크다운 금지):\n"
+                "1행 = 변화 요약: [전일 대비 유의 변화] 항목만 근거로, 어떤 값이 얼마에서 얼마로 바뀌었는지 숫자를 그대로 인용해 한국어 60~100자. 목록에 없는 변화는 쓰지 말 것. 목록이 비면 '전일 대비 유의 변화 없음'이라고만 쓸 것.\n"
+                "2행 = 레짐 설명: [엔진 실측]의 판정·밴드·임계 거리로 현재 국면을 한국어 60~100자. 밴드가 '정상'인 지표에 '확대·경색·급등' 같은 악화 표현 금지. 투자권유·과장 금지.\n"
+                "숫자는 [엔진 실측]에 있는 값만 그대로(반올림·환산 금지).\n\n"
+                "[전일 대비 유의 변화] (기준일 "+str(base.get("d"))+")\n"+("\n".join("- "+d for d in deltas) or "- 없음")+
+                "\n\n[엔진 실측]\n"+facts_txt+
+                ("\n\n[지정학 뉴스 제목(참고)]\n"+"\n".join("- "+t for t in geo_titles) if geo_titles else ""))
+        s=claude(prompt,max_tokens=400)
+        if s:
+            lines=[nomd(l) for l in s.split("\n") if l.strip()]
+            if len(lines)>=2:
+                c_txt,r_txt=lines[0],lines[1]
+                vc,vr=validate_summary(c_txt,val_txt,f,require_num=bool(deltas)),validate_summary(r_txt,val_txt,f)
+                if change_txt is None and vc is None: change_txt=c_txt; src["change"]="claude"
+                if regime_txt is None and vr is None: regime_txt=r_txt; src["regime"]="claude"
+                if vc or vr: print("[summary] 모델 출력 검증 실패 → 결정적 문장 폴백:",vc,"/",vr)
+    if change_txt is None:
+        change_txt="전일("+str(base.get("d"))+") 대비: "+" · ".join(deltas[:6]); src["change"]="engine"
+    if regime_txt is None:
+        regime_txt=regime_text(f); src["regime"]="engine"
+    if geo_titles and "(뉴스 기준)" not in (change_txt+regime_txt):
+        regime_txt+=" · (뉴스 기준) "+(geo_titles[0] if len(geo_titles[0])<=80 else geo_titles[0][:79]+"…")
+    by="claude" if "claude" in (src.get("change"),src.get("regime")) else "engine"
+    return {"text":change_txt+"\n"+regime_txt,"change":change_txt,"regime":regime_txt,"by":by,"base_d":base.get("d"),
+            "_base":base,"_today":tod,"_delta_key":delta_key,"_regime_key":regime_key,"_deltas":deltas[:12],"_src":src}
 
 # ---- FRED 유동성·시스템 스트레스 (선행지표)
 FRED_SERIES = {
@@ -1090,13 +1218,15 @@ def fetch_earnings_events():
         qj=_load()
         out=[]; now=datetime.now(timezone.utc)
         for r in (qj.get("quoteResponse",{}).get("result") or []):
-            ts=r.get("earningsTimestamp") or r.get("earningsTimestampStart")
-            if not ts: continue
-            at=datetime.fromtimestamp(ts,tz=timezone.utc)
-            if -12*3600 <= (at-now).total_seconds() <= 45*86400:
-                out.append({"date":at.astimezone(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
-                            "name":(r.get("symbol") or "").replace(".KS","")+" 실적","at":at.isoformat(),
-                            "dday":max(0,(at.date()-now.date()).days)})
+            # v2.24.0 정정: earningsTimestamp는 '직전 발표'일 수 있음(MSFT 실측 9/24: Timestamp=7/29 과거, Start/End=10/28 차기)
+            #   → 세 필드 중 [−12h, +45d] 창 안의 가장 이른 시각 채택 · isEarningsDateEstimate면 "(예상)" 라벨
+            cands=[t for t in (r.get("earningsTimestamp"),r.get("earningsTimestampStart"),r.get("earningsTimestampEnd")) if t]
+            cands=[t for t in cands if -12*3600 <= (datetime.fromtimestamp(t,tz=timezone.utc)-now).total_seconds() <= 45*86400]
+            if not cands: continue
+            at=datetime.fromtimestamp(min(cands),tz=timezone.utc)
+            out.append({"date":at.astimezone(timezone(timedelta(hours=9))).strftime("%Y-%m-%d"),
+                        "name":(r.get("symbol") or "").replace(".KS","")+" 실적"+("(예상)" if r.get("isEarningsDateEstimate") else ""),
+                        "at":at.isoformat(),"dday":max(0,(at.date()-now.date()).days)})
         return out
     except Exception as e:
         print("[events] 실적일 배치 실패:",repr(e)); return []
@@ -1361,7 +1491,6 @@ def main():
     charts=fetch_charts(fred)
     fragility=build_fragility(prev)
     ebp=fetch_ebp(prev)
-    summary=summarize_news(news,prices,fred,prev)
     ew=calc_early(prices,fred,charts)
     ew["inputs"]=ew_inputs(prices,fred,charts)   # R3 출석부
     history=update_history(prev,ew)
@@ -1384,11 +1513,13 @@ def main():
                 +"\nS2 규칙: AI 앵커는 종합 판정에서 제외(체인 단독 모드) — computeprices 401 → COMPUTEPRICES_KEY 시크릿 확인")
     elif _pg.get("excluded") and not gpu.get("excluded"):
         tg_send("✅ <b>GPU 시세 수집 복구</b>\nH100 $"+str(gpu.get("median"))+"/시간 · AI 앵커 판정 복귀")
+    obs=fetch_obs(prices)                                              # v2.24.0 관찰전용 5종(판정 무영향)
+    summary=summarize_engine(prev,prices,fred,charts,ew,klr,gpu,obs,news)   # v2.24.0 엔진 실측 접지 요약(변화+레짐)
     visitors, visit_hours = fetch_visit_stats(prev)
     data={"updated":datetime.now(timezone.utc).isoformat(timespec="seconds"),"version":VERSION,
           "prices":prices,"news":news,"edgar":fetch_edgar(prev),"notify_log":dict(NOTIFY_LOG),
           "fred":fred,"charts":charts,"summary":summary,
-          "early":ew,"history":history,"events":merge_events(upcoming_events(), fetch_earnings_events()),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr}
+          "early":ew,"history":history,"events":merge_events(upcoming_events(), fetch_earnings_events()),"gpu":gpu,"visitors":visitors,"visit_hours":visit_hours,"feed":feed,"breadth":dict(zip(("pct50","n"),_breadth(prices))),"ipo_watch":ipo,"fragility":fragility,"ebp":ebp,"klr":klr,"obs":obs}
     _gate=schema_gate(prev_exists,prev,ew,history,klr,ipo)   # R3 현관 검문
     if _gate:
         print("⛔ 스키마 게이트 차단:",_gate)

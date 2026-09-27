@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T01:02:31+00:00",
+ "updated": "2026-09-27T01:12:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84279.36,
-   "chg": 0.29,
-   "chg5": -2.68,
-   "chg20": 4.89,
-   "sma20": 80156.19,
-   "sma50": 75710.94,
-   "sma200": 71010.54,
+   "price": 84350.8,
+   "chg": 0.38,
+   "chg5": -2.6,
+   "chg20": 4.98,
+   "sma20": 80159.76,
+   "sma50": 75712.37,
+   "sma200": 71010.92,
    "high3m": 86602.91,
-   "reg": 84279.36,
+   "reg": 84350.8,
    "pre": null,
    "post": null,
-   "regClose": 84279.36,
+   "regClose": 84350.8,
    "sess": "reg",
-   "mt": 1790470912,
+   "mt": 1790471488,
    "ok": true
   },
   "USO": {
@@ -1305,6 +1305,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX Crew Launch - Times Argus",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRkhXNTh0dVBFM0JNTDhobVJJYlNiUjVKaFJmYmNhLVZsNGpHSWZONDRrRlZLN1NLMzlyVlZKNkcwUDJYcjdfZnZ2VTI0UEZ2NnU1OVBSZXRTek4zVWExTms1OEtmVmc0Z3RaSTJSNkZOUnk5RVpqSkxDeGVPWV9wcV9hVE9OOEdxZVE1V3Fnd3lHM3hrRXE5Tkp3US1ueUxkUmZOR3V0WnZSQUU?oc=5",
+    "pub": "Sat, 26 Sep 2026 18:59:22 GMT",
+    "src": "Times Argus",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX Crew Launch - postregister.com",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUUwtQTVoSHAyRHp2TG84R2t5a1BnZHUzQTlTQzhrNGNmaElaSEl6ZmJjTVU0WjA3WWxRNVJmU0R6YjFteUp4cTZURjFKZVdzckMzRVphNk54TjJrcHd3RlRDZFFqcXdFMWVDaHdDVmwwcllmSWRmemJYd080WGhBRURoVndjQXo2dzJtRnVoTHd6X1FuWHJjRXpfQnEwUDQ5ckdYUDhYSWFMRDJYMEE?oc=5",
     "pub": "Sat, 26 Sep 2026 18:44:11 GMT",
@@ -1329,18 +1337,10 @@
     "geo": false
    },
    {
-    "title": "SpaceX Crew Launch - gazettextra.com",
+    "title": "SpaceX Crew Launch - GazetteXtra",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPTVk0NW1OV0E3Z0g5VDdtWVlFYnBhLTdOaTAzRzJIbnpWZ08yOEF2SU1yS09raFVuQ1Q1aE5ab2ZrUjd5VlcydkxfTnplVWY4ZTNzWGRSaWdwMFkzU3N0MldXMEFpeWFNLWVPM09FREJZZTlDTXRoMU9jMUw5VUV1NVVVYlktNDFHQ2JtSlRwQm5vVXNLbXlFRnVMZEREcUw1bERnenFUUEtNeDV6SHFPdXdB?oc=5",
     "pub": "Sat, 26 Sep 2026 18:28:52 GMT",
-    "src": "gazettextra.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Crew Launch - The Herald Journal",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPVTBLdF85MTlTMWYtc1VOT0ZqenBBcWpIZkpJSUpRbHBFa3VPMklEODdOSmVON1p5czJ6SlVLRnBMVmJleXBVdnJuVUJvSEVCRkp1bjlxREgtSFJLeFdZM0txSDVEZlBoU3ItSVJSaW9xMTh5al8wU3FSUW5Nc1Z5eDVTcnZVbDdWOWcxSWQ1YWZLNXdrNFEtdlpteFc?oc=5",
-    "pub": "Sat, 26 Sep 2026 18:02:18 GMT",
-    "src": "The Herald Journal",
+    "src": "GazetteXtra",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    78245.81,
    79823.87,
    77270.47,
-   84275.93
+   84363.83
   ],
   "vixts": [
    0.938,
@@ -2459,7 +2459,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 32
   },
@@ -2719,7 +2719,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-27T01:02:16+00:00",
+  "checked": "2026-09-27T01:11:49+00:00",
   "openai": {
    "found": false
   },

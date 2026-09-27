@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-27T05:21:59+00:00",
+ "updated": "2026-09-27T05:32:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84379.94,
-   "chg": 0.41,
-   "chg5": -2.57,
-   "chg20": 5.02,
-   "sma20": 80161.22,
-   "sma50": 75712.96,
-   "sma200": 71011.08,
+   "price": 84395.51,
+   "chg": 0.43,
+   "chg5": -2.55,
+   "chg20": 5.03,
+   "sma20": 80162.0,
+   "sma50": 75713.27,
+   "sma200": 71011.17,
    "high3m": 86602.91,
-   "reg": 84379.94,
+   "reg": 84395.51,
    "pre": null,
    "post": null,
-   "regClose": 84379.94,
+   "regClose": 84395.51,
    "sess": "reg",
-   "mt": 1790486488,
+   "mt": 1790487099,
    "ok": true
   },
   "USO": {
@@ -1297,10 +1297,10 @@
   ],
   "fundamental": [
    {
-    "title": "Nvidia GPUs are massively overpriced, and AMD's performance advantage is too big to ignore just for DLSS - How-To Geek",
+    "title": "Nvidia GPUs are massively overpriced, and AMD's performance advantage is too big to ignore just for DLSS - howtogeek.com",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPZTJCcUtVVm9xYUJTZVNsYTdJTmRiN2dmdHZXRHN1bV9Iak1MUjlSdzdMSmJVXzZ5VDY5enBVbEV2LWQwZnNqN2U5emxDV1NGdG9TemlySkM1TFA0UlhYVEZmUlBXR01wZW16ZnliaFlXSUZ3Sk9qVWhTeFdUeXRjNmNocUxPaGxkRzVVZ3ZSU2tIdURucG9odGlad1BGdEpsNDhvUXFnVDBnVXVrU2tRN1p4eXdUUWdXbDJzTGh1NWZvUUdaRUozeA?oc=5",
     "pub": "Sat, 26 Sep 2026 22:00:14 GMT",
-    "src": "How-To Geek",
+    "src": "howtogeek.com",
     "trig": false,
     "geo": false
    },
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "What will drive stock market this week? US yields, crude and geopolitics in focus - Fortune India",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQd2FOeHlYcE5pOG0tX2Z2d09FY2h3dVR2XzI0V1VqUkY0Wk5FSFFOQldoRFV0eTZaS1ZReTFTSmEyZmxaN0ZmSENjaldTYkJBNUNrX0ZGU3A1cXZUb2J4bGZpandHeWppVEZiRnJLbzY1QkFfeFZUclFwY2NRMGdzal9ESjMzSWR1UUVHTG5BSEFHelUyNlcxaW90T2NvWEJPSE1Id1JuVFNuRUdhUmdXTW1CYlNQMjlSYm95M1JwbGTSAc4BQVVfeXFMTkNCUnR0Z0JuSXdFWmpzdXNRTkNGLXlrckVRRlNzc3NRWXl3TmdfQlppakRxTm5XSm0wc2VvNjJ4eHVlWDU2TW5oUlJLMm5TalRhRTRLTnRsZjlJOWZGZW1mSXNHT25hOXFHT1JYeEFlS19BZlpLSDZPeDgtVE1CVlVjQ3dLR09mb1RGc3lxVlgzSEhOa3lBQ0E0OTZYcVhDQ3V1NFNlVTlxYnBIWGtGUF90UU9mM1pEU3ZTMFBhSzhWMnA3T3JRRFFRTEMtMlE?oc=5",
+    "pub": "Sun, 27 Sep 2026 05:16:07 GMT",
+    "src": "Fortune India",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Rate market fear gauge is warning for corporate bonds - AFR",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWkJRdFUyamNWSC1xRVlBbWw0V0kzVjZ3SFFHTTk5ZGNUcUlTOEp4cDJrdkdfVmhRV3d6dHdSZkZYQTBoVjVGVTA0M0JjZmw0NHl6YklnZHZOSjdVU1h1OWU2QTBTMGNZOVZaMFo2enZ4dTJyWnhUSjZSNkJYbFhnRUc4U0xadmVWdHRLOFpDMXB3elY0U09lRkE0WWgxRzlGY29xeXk2c2s5MlVsSEVr?oc=5",
     "pub": "Sun, 27 Sep 2026 02:06:00 GMT",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNdGJIRWt4WkViYkFxRE1BMDh6OHMwRGJWNEZrMEd6OXBPOElLTWR0QjJwMGU5amNzMVNVUl9yTjdnb04xdXlEMmtCNmd0Q1RORDdDVHhXTXU1M0tZeXhDMGZlTEEwalpnd1E4elNIM3BZVnc5TjhRbXFHT0tQWjVJbEVxZzQzVWVEdWpsVVVmcUVSaXY1QTFYd1FtQnZFZDh3NTI0NllXeXVrdU96Y3NQbEI4dnBDOU1kZGRUaWJxdnhzQjc4MHhN?oc=5",
     "pub": "Sat, 26 Sep 2026 12:23:33 GMT",
     "src": "scanx.trade",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOYVJvTS1CRXVsT2ZzNUhBV0piRVV1UnZTeDVEcDJmRElmWHB5WkZsM2s5YzlYaXJuVU9vVjQ2dE5XVk93WTVVLUx2d19wRm9lc2YzWW9xX0F1YWJCTUJtMURwVzRxbC1vUlNDWEpLRUZibzdnbVdjdEJUeThfeHZLSXpwTktCQnlMM0tTNUhwWmplMHJKb2ptYmVn?oc=5",
-    "pub": "Sat, 26 Sep 2026 12:11:07 GMT",
-    "src": "Liquide Blog",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    78245.81,
    79823.87,
    77270.47,
-   84379.95
+   84378.17
   ],
   "vixts": [
    0.938,
@@ -2719,7 +2719,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-27T05:21:46+00:00",
+  "checked": "2026-09-27T05:32:01+00:00",
   "openai": {
    "found": false
   },

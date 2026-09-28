@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T21:22:14+00:00",
+ "updated": "2026-09-28T21:33:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -854,9 +854,9 @@
   },
   "DX-Y.NYB": {
    "price": 101.2,
-   "chg": 0.23,
-   "chg5": 0.77,
-   "chg20": 1.51,
+   "chg": 0.22,
+   "chg5": 0.76,
+   "chg20": 1.5,
    "sma20": 99.9,
    "sma50": 99.96,
    "sma200": 99.71,
@@ -864,9 +864,9 @@
    "reg": 101.2,
    "pre": null,
    "post": null,
-   "regClose": 101.21,
+   "regClose": 101.2,
    "sess": "reg",
-   "mt": 1790629889,
+   "mt": 1790630494,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83463.3,
-   "chg": -1.18,
-   "chg5": -1.09,
-   "chg20": 6.41,
-   "sma20": 80680.89,
-   "sma50": 76476.92,
-   "sma200": 71176.48,
+   "price": 83389.29,
+   "chg": -1.27,
+   "chg5": -1.18,
+   "chg20": 6.31,
+   "sma20": 80677.19,
+   "sma50": 76475.44,
+   "sma200": 71176.08,
    "high3m": 86602.91,
-   "reg": 83463.3,
+   "reg": 83389.29,
    "pre": null,
    "post": null,
-   "regClose": 83463.3,
+   "regClose": 83389.29,
    "sess": "reg",
-   "mt": 1790630495,
+   "mt": 1790631101,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.35,
-   "chg": -0.07,
-   "chg5": -0.01,
-   "chg20": -1.5,
+   "price": 157.33,
+   "chg": -0.08,
+   "chg5": -0.02,
+   "chg20": -1.51,
    "sma20": 156.27,
    "sma50": 158.5,
    "sma200": 159.38,
    "high3m": 163.86,
-   "reg": 157.35,
+   "reg": 157.33,
    "pre": null,
    "post": null,
-   "regClose": 157.35,
+   "regClose": 157.33,
    "sess": "reg",
-   "mt": 1790630478,
+   "mt": 1790631098,
    "ok": true
   },
   "KRW=X": {
-   "price": 1359.77,
-   "chg": 0.39,
-   "chg5": -1.01,
-   "chg20": -0.5,
-   "sma20": 1358.24,
-   "sma50": 1394.35,
+   "price": 1360.21,
+   "chg": 0.42,
+   "chg5": -0.98,
+   "chg20": -0.47,
+   "sma20": 1358.26,
+   "sma50": 1394.36,
    "sma200": 1461.35,
    "high3m": 1542.13,
-   "reg": 1359.77,
+   "reg": 1360.21,
    "pre": null,
    "post": null,
-   "regClose": 1359.77,
+   "regClose": 1360.21,
    "sess": "reg",
-   "mt": 1790630491,
+   "mt": 1790631007,
    "ok": true
   },
   "^OVX": {
@@ -1315,8 +1315,16 @@
    {
     "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUnYxaG95N2h5Nzh6aFJjdEM3aWVKOVhMQ2NlN1VsRk8xUGNyMUhPNHhmQ1N3T1JicTZmcUpYNnNqaXVyeVEyNF80UWFGQ0Y0ZmlSZ2RRdHVub1dwamdicDFHREVwaGljMlR1NDFCVU9DRHUyWkRUSS1BdTlJczR0cGF5RTRKYUgwbExndnplSlN0VjJKNFpMZ2s2bjNENmZ3RmxGalktdWs4WXAyZVNWMFpoR05QOTFHbXV4aWU1ZjhwZjg?oc=5",
-    "pub": "Mon, 28 Sep 2026 20:41:12 GMT",
+    "pub": "Mon, 28 Sep 2026 20:43:14 GMT",
     "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX Stock Falls Despite Starship Reaching Orbit for First Time. Time to Buy? - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QdGpJNUFhcmRfcnBCU0pfcGFYWWZ1UFlGRGQ2QWd0aXRaQlZkTjVnX19pVnR4Y3hpbC1RYU95Z29WT1M0MDBaU1ZXeGJrRkRWbHRfRmVzOFZVcVNIRXZ6TzNld1ZoMlhwWG1FVmhOOU51VEp1dDYtVlh3MVd0QQ?oc=5",
+    "pub": "Mon, 28 Sep 2026 20:36:00 GMT",
+    "src": "Barron's",
     "trig": false,
     "geo": false
    },
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4zWnBoQ3ZkMUhQVmkxYkN0X1VVdHNrQlEzdVMxcXZhc3B4OWZOSkkzMy1rTTFLTGR1TmY1NEg2c01aaUdZeWNNaWdka2UtTzMzRDVSbnlzbVVGRXMzRDRxb0Y3U0RSTmNXLWRYLWt0UmJDYTFoTEg2TzhtUQ?oc=5",
     "pub": "Mon, 28 Sep 2026 19:22:46 GMT",
     "src": "Time Magazine",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How states could effectively ban ChatGPT - Axios",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9rVVludzdORnRIVGdaQWRiVHQtc1g5MVloalBlSjVlTGF6VUtETWF2cXl0R3F3OEtXOU9MZHJLU0QxanUtT2NvZDdubFUyNzBiTVFxSnFQUWlJalNaWVRUQl9sZENlV0lEbmQySGpfVVBZbjdKWDMwbFp3?oc=5",
-    "pub": "Mon, 28 Sep 2026 19:18:35 GMT",
-    "src": "Axios",
     "trig": false,
     "geo": false
    }
@@ -1363,10 +1363,10 @@
     "geo": false
    },
    {
-    "title": "Goldman Says High-Yield Debt Deluge Overwhelming Investors - livemint.com",
+    "title": "Goldman Says High-Yield Debt Deluge Overwhelming Investors - Livemint",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPWXlkbVBQaXlkNjRmS19nb3hWemJyWkU3SXJoVjFsREZqOUpwejlKYjB0MnU1dUh6V3paMFVLY0E5UUEtM1YtRDA3RW9DbmdXRFp3c3ZSaWpabENzSm9EeElhU09Ma3BQLXJkb085YXFDTHhoVkFpZXFEZk9EVTJOcFJvVE9nT1RWczFsVXhINVdMOWg5dzItNzlUbDVsZlZRN0RQazdSbmdna0xfMnBJ0gG0AUFVX3lxTE1tQXJ6Rnd5ZmhrOGdtVm80TG5LTjJUd3M1b2dtamM3dXl6bGJmaHp3Vmt1Qy1aSTlBSXpCVHVXVmJNeFU0cWI3RHZWcnQ1cFBaRk1DX01vcEM4d3FTWEdDMlZ5TGpIRVJxNmxkM250S3pxTm5HMEV1WUZ0emoydFF1UzVBWVozeExXTTJJcUYwejFETE05aHBlSDhDUnFTV011c3FZTFJXNU9qeXdmRUNpdmR4Mg?oc=5",
     "pub": "Mon, 28 Sep 2026 20:30:58 GMT",
-    "src": "livemint.com",
+    "src": "Livemint",
     "trig": false,
     "geo": false
    },
@@ -1387,10 +1387,10 @@
     "geo": false
    },
    {
-    "title": "Weekly market commentary - blackrock.com",
+    "title": "Weekly market commentary - BlackRock",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
     "pub": "Mon, 28 Sep 2026 18:51:25 GMT",
-    "src": "blackrock.com",
+    "src": "BlackRock",
     "trig": false,
     "geo": false
    }
@@ -1676,7 +1676,7 @@
    159.75,
    153.85,
    154.38,
-   157.36
+   157.37
   ],
   "uso": [
    107.08,
@@ -1736,7 +1736,7 @@
    78548.63,
    79115.85,
    78163.38,
-   83455.35
+   83379.99
   ],
   "vixts": [
    0.904,
@@ -2720,7 +2720,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-28T21:21:57+00:00",
+  "checked": "2026-09-28T21:32:40+00:00",
   "openai": {
    "found": false
   },
@@ -2809,17 +2809,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.35,
-   "usdjpy_chg20": -1.5,
+   "usdjpy": 157.33,
+   "usdjpy_chg20": -1.51,
    "vix_chg5": 8.07,
    "hit": false,
    "missing": []
   },
   "dollar": {
    "dxy": 101.2,
-   "dxy_chg20": 1.51,
-   "usdkrw": 1359.77,
-   "usdkrw_chg20": -0.5,
+   "dxy_chg20": 1.5,
+   "usdkrw": 1360.21,
+   "usdkrw_chg20": -0.47,
    "hit": false,
    "missing": []
   },

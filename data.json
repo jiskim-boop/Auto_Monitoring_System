@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-28T21:51:59+00:00",
+ "updated": "2026-09-28T22:04:26+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -856,7 +856,7 @@
    "price": 101.19,
    "chg": 0.22,
    "chg5": 0.76,
-   "chg20": 1.49,
+   "chg20": 1.5,
    "sma20": 99.9,
    "sma50": 99.96,
    "sma200": 99.71,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.19,
    "sess": "reg",
-   "mt": 1790631681,
+   "mt": 1790632317,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83349.22,
-   "chg": -1.31,
-   "chg5": -1.23,
-   "chg20": 6.26,
-   "sma20": 80675.19,
-   "sma50": 76474.64,
-   "sma200": 71175.86,
+   "price": 83126.74,
+   "chg": -1.58,
+   "chg5": -1.49,
+   "chg20": 5.98,
+   "sma20": 80664.06,
+   "sma50": 76470.19,
+   "sma200": 71174.66,
    "high3m": 86602.91,
-   "reg": 83349.22,
+   "reg": 83126.74,
    "pre": null,
    "post": null,
-   "regClose": 83349.22,
+   "regClose": 83126.74,
    "sess": "reg",
-   "mt": 1790632283,
+   "mt": 1790632922,
    "ok": true
   },
   "USO": {
@@ -1040,24 +1040,24 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.35,
-   "chg": -0.07,
-   "chg5": -0.01,
-   "chg20": -1.5,
+   "price": 157.37,
+   "chg": -0.06,
+   "chg5": 0.0,
+   "chg20": -1.49,
    "sma20": 156.27,
    "sma50": 158.5,
    "sma200": 159.38,
    "high3m": 163.86,
-   "reg": 157.35,
+   "reg": 157.37,
    "pre": null,
    "post": null,
-   "regClose": 157.35,
+   "regClose": 157.37,
    "sess": "reg",
-   "mt": 1790632288,
+   "mt": 1790632923,
    "ok": true
   },
   "KRW=X": {
-   "price": 1359.8,
+   "price": 1359.81,
    "chg": 0.39,
    "chg5": -1.01,
    "chg20": -0.5,
@@ -1065,12 +1065,12 @@
    "sma50": 1394.35,
    "sma200": 1461.35,
    "high3m": 1542.13,
-   "reg": 1359.8,
+   "reg": 1359.81,
    "pre": null,
    "post": null,
-   "regClose": 1359.8,
+   "regClose": 1359.81,
    "sess": "reg",
-   "mt": 1790631797,
+   "mt": 1790632806,
    "ok": true
   },
   "^OVX": {
@@ -1297,11 +1297,19 @@
   ],
   "fundamental": [
    {
-    "title": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach - fox49.tv",
+    "title": "Florida AG says state lawsuit targets OpenAI after alleged HuggingFace breach - wtwcfox",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOajVrMjI0a3hvSGhCVDlQbzd1MXBrWUJMckdpLUdoWDUwTHZXdnozMllrNHE3bkw1NG1xZVRremJ4M2tYbVRieXJ1bnltWVBsbGNyUmlyNW5qQUZ3MElWcVduUVFpNUJtQ015Zkptc2g2UFYzQUtJN2NrYWpkc3FLSGpKYkZ6alV4X0U5YVdIZlRfUkhRVHd6YWo2YjEwTzE2QVlzUkx5dk0?oc=5",
     "pub": "Mon, 28 Sep 2026 21:13:05 GMT",
-    "src": "fox49.tv",
+    "src": "wtwcfox",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "China Eases NVIDIA GPU Restrictions in AI Strategy Shift - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPMkJCeEZqSUVFOEhkbFQ4cVZPSEFFdi1YWTdZdjBiWjVGckZiNV93cHE3MzFJX3AxdENQYTQwQ0ZidGlvMkJmTS16NWdhUmloVFpJYy1EeEY1ZkhIVjJRSlhDZlotLTBLelJub1VEYjdTeEVBZUo2Sjlwa21qeWxrUFVTN0pCOThS?oc=5",
+    "pub": "Mon, 28 Sep 2026 21:08:20 GMT",
+    "src": "조선일보",
+    "trig": false,
     "geo": false
    },
    {
@@ -1313,10 +1321,10 @@
     "geo": false
    },
    {
-    "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight - Spaceflight Now",
+    "title": "Starship returns to Earth; rocket splashes down north of Hawaii after three-hour flight - spaceflightnow.com",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNUnYxaG95N2h5Nzh6aFJjdEM3aWVKOVhMQ2NlN1VsRk8xUGNyMUhPNHhmQ1N3T1JicTZmcUpYNnNqaXVyeVEyNF80UWFGQ0Y0ZmlSZ2RRdHVub1dwamdicDFHREVwaGljMlR1NDFCVU9DRHUyWkRUSS1BdTlJczR0cGF5RTRKYUgwbExndnplSlN0VjJKNFpMZ2s2bjNENmZ3RmxGalktdWs4WXAyZVNWMFpoR05QOTFHbXV4aWU1ZjhwZjg?oc=5",
     "pub": "Mon, 28 Sep 2026 20:43:14 GMT",
-    "src": "Spaceflight Now",
+    "src": "spaceflightnow.com",
     "trig": false,
     "geo": false
    },
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQV2tOX3hqcjgtWDYwbllnSXM3RF9HZFNwczdjZlE3Q1NhZnRfZmVQTG9VOEV1Y3BlR0YtdFpmX3hwYjVCYUNBaTRXV3RwYk1YcE5mTzlmR3FuVlUyNmlWMk9ZV0lSZi1LVzQ5QWRydWluZk4yMUFQVDNVLTd2b18yNWxqZmluWVo5RC1rSm10eGFYWEE?oc=5",
     "pub": "Mon, 28 Sep 2026 20:32:19 GMT",
     "src": "NPR",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Team Bots: AI coworkers that learn from your team - xAI",
-    "link": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE5HYnpIUnhxb2dGRndDaVZCOWJWY2dSR1Bib1BvSDFJZ3NFanMtWjY5eTVoZU1Mck9SMDN0NTVXYU0?oc=5",
-    "pub": "Mon, 28 Sep 2026 19:53:47 GMT",
-    "src": "xAI",
     "trig": false,
     "geo": false
    }
@@ -1379,18 +1379,18 @@
     "geo": false
    },
    {
-    "title": "Oil Prices Climb on Continued Impasse in U.S.-Iran Talks - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wRlA1VlY2Nkw2SGJULTYySUR3QW9ILTRzMkJhSFZPUHJYNEZ3UFpjdUZCMk5xRlZGZGpBYzYzVzlOdmlacWNzU1NaSjlieXIxV1RPSGgyZjZhTVJTY0pfeE5uS2JGU2duWlRGQkZfbWduSXpXUWpGenJ3?oc=5",
-    "pub": "Mon, 28 Sep 2026 20:08:47 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Myanmar army air strike kills dozens in Rakhine state - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNQ2VKLXZUQlpCelJoUV9mQ0R5ckUwREFUZ1dsTVRveDFMRnFBY2tTdVlaQmppbGdrS3J0cE9IdkxEa0xJeF8ta3ZBRXpOWXE5S2p5TF84a3R4MVphb1dmWi1HNVdTNmZmcTBOOUQzbDQxU3ZLOGk0bWotaEpHbG5kZXpOa1ZOeXVia2swdkN1M3oyOUZHdFVlRFVR0gGfAUFVX3lxTE9LUmNGMWc4bFJuYkhYaDdZXzkwWDhGYXNfY0FWc25JX3FweW5xMnNQdTFJNnFrYlhpUUZINXVEc1RfSnExYmowd01tZWoxTXMzSFNiTmwwZ19jZVE3YVUxcnN4QkVOUWI2WGNWd0h3Q083dGt5M2Rfc21aUDdNLWxtRUtpaG5fYTl4bklKaGJuYUdjVlF3ZDROSV9YYkJ5cw?oc=5",
     "pub": "Mon, 28 Sep 2026 19:37:05 GMT",
     "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Weekly market commentary - BlackRock",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQLWJDTjBBalYwVHVpc0VxV1BwRE1xeUt1RWlLQ1VJdnJQRXNnb3p6MnFNbjRBV0s0TnlldW4wSVIycFRQeVNISWJ3VV9wMWdjX1ZndE1Tc24tNzc0anNYWjl0SVBsRDhSa0dVTWlyVVYxX0w5b2JhTFB0Tm9Vb2FwYVZubTU1SVJlcy0zMEpXOEM4ZlhiSU1QazdVQVlldw?oc=5",
+    "pub": "Mon, 28 Sep 2026 18:51:25 GMT",
+    "src": "BlackRock",
     "trig": false,
     "geo": false
    }
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Oil Prices Climb on Continued Impasse in U.S.-Iran Talks - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1wRlA1VlY2Nkw2SGJULTYySUR3QW9ILTRzMkJhSFZPUHJYNEZ3UFpjdUZCMk5xRlZGZGpBYzYzVzlOdmlacWNzU1NaSjlieXIxV1RPSGgyZjZhTVJTY0pfeE5uS2JGU2duWlRGQkZfbWduSXpXUWpGenJ3?oc=5",
-    "pub": "Mon, 28 Sep 2026 20:08:47 GMT",
-    "src": "The New York Times",
+    "title": "U.S. Strategic Petroleum Reserve Falls to Lowest Level Since 1982 - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQdWhuVHJRM3BncmhTWmZhckUwWVRfX1AxcExYYkJxMjFnd192eGFaTVZNb00xdjdLSng0WG95ZnBFY3FDbW5MaGMyMHppdU5qSkk1cHczc0ZseGhuVUhHMWVtb3hqNHg2WjZrM1ZFNUdReERrZ1ROcjh0ZzNteVluTEdjckdXWWF3UHZiWXdGaDBkLWpkNUhMQkVWZXdCbV84Y1pISWZYak9kV1FLN0hFdXIyRGlfcjhRNjJF0gHAAUFVX3lxTE9tWVh1RllQOUs0bTdXbUhZTTltTDJ3MThFZzd4WGdWdmFfbTBLZUtyenlQeDVPY3dObmFiZ2ZEbnphV1NRRmlNQmNOREdzZnhYUUlRSzJUQ1J2cDJxSmxZenhVYUVYajk2VE5qMGVTeEg3dURHWDVCNFl2R1ZUSl9TSEJkTEFRWS1fUmhIOUtzbnFaRjV3a2V6bGFRMnNFbGtkUXVyWEJoTk1QaTBuaU5LSHRNdGgwQ2xyNmlxdUdObA?oc=5",
+    "pub": "Mon, 28 Sep 2026 18:30:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1676,7 +1676,7 @@
    159.75,
    153.85,
    154.38,
-   157.37
+   157.38
   ],
   "uso": [
    107.08,
@@ -1736,7 +1736,7 @@
    78548.63,
    79115.85,
    78163.38,
-   83280.0
+   83130.0
   ],
   "vixts": [
    0.904,
@@ -2460,7 +2460,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 31
   },
@@ -2720,7 +2720,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-28T21:51:47+00:00",
+  "checked": "2026-09-28T22:03:22+00:00",
   "openai": {
    "found": false
   },
@@ -2809,16 +2809,16 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.35,
-   "usdjpy_chg20": -1.5,
+   "usdjpy": 157.37,
+   "usdjpy_chg20": -1.49,
    "vix_chg5": 8.07,
    "hit": false,
    "missing": []
   },
   "dollar": {
    "dxy": 101.19,
-   "dxy_chg20": 1.49,
-   "usdkrw": 1359.8,
+   "dxy_chg20": 1.5,
+   "usdkrw": 1359.81,
    "usdkrw_chg20": -0.5,
    "hit": false,
    "missing": []

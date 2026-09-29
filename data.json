@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-29T21:12:06+00:00",
+ "updated": "2026-09-29T21:22:00+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 146.25,
-   "chg": 0.92,
-   "chg5": 2.86,
-   "chg20": -2.35,
-   "sma20": 147.62,
-   "sma50": 143.9,
-   "sma200": 143.34,
+   "price": 144.58,
+   "chg": -1.14,
+   "chg5": -0.15,
+   "chg20": -2.66,
+   "sma20": 147.43,
+   "sma50": 143.87,
+   "sma200": 143.35,
    "high3m": 154.82,
-   "reg": 146.25,
+   "reg": 144.58,
    "pre": null,
    "post": null,
-   "regClose": 146.25,
+   "regClose": 144.58,
    "sess": "reg",
-   "mt": 1790629221,
+   "mt": 1790715620,
    "ok": true
   },
   "^MOVE": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.39,
-   "chg": 0.19,
-   "chg5": 0.79,
-   "chg20": 1.97,
+   "price": 101.38,
+   "chg": 0.18,
+   "chg5": 0.78,
+   "chg20": 1.96,
    "sma20": 100.0,
    "sma50": 99.97,
    "sma200": 99.72,
    "high3m": 101.51,
-   "reg": 101.39,
+   "reg": 101.38,
    "pre": null,
    "post": null,
-   "regClose": 101.39,
+   "regClose": 101.38,
    "sess": "reg",
-   "mt": 1790715675,
+   "mt": 1790716283,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83516.06,
-   "chg": 0.02,
-   "chg5": -1.02,
-   "chg20": 6.72,
-   "sma20": 80945.68,
-   "sma50": 76869.82,
-   "sma200": 71269.65,
+   "price": 83427.66,
+   "chg": -0.09,
+   "chg5": -1.13,
+   "chg20": 6.6,
+   "sma20": 80941.26,
+   "sma50": 76868.05,
+   "sma200": 71269.17,
    "high3m": 86602.91,
-   "reg": 83516.06,
+   "reg": 83427.66,
    "pre": null,
    "post": null,
-   "regClose": 83516.06,
+   "regClose": 83427.66,
    "sess": "reg",
-   "mt": 1790716290,
+   "mt": 1790716846,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.28,
-   "chg": -0.05,
-   "chg5": -0.11,
+   "price": 157.27,
+   "chg": -0.06,
+   "chg5": -0.12,
    "chg20": -1.82,
    "sma20": 156.12,
    "sma50": 158.38,
    "sma200": 159.36,
    "high3m": 163.86,
-   "reg": 157.28,
+   "reg": 157.27,
    "pre": null,
    "post": null,
-   "regClose": 157.29,
+   "regClose": 157.27,
    "sess": "reg",
-   "mt": 1790716285,
+   "mt": 1790716886,
    "ok": true
   },
   "KRW=X": {
-   "price": 1352.35,
+   "price": 1352.33,
    "chg": -0.53,
    "chg5": 0.15,
-   "chg20": -1.49,
-   "sma20": 1357.21,
+   "chg20": -1.5,
+   "sma20": 1357.2,
    "sma50": 1391.8,
    "sma200": 1460.53,
    "high3m": 1531.0,
-   "reg": 1352.35,
+   "reg": 1352.33,
    "pre": null,
    "post": null,
-   "regClose": 1352.35,
+   "regClose": 1352.33,
    "sess": "reg",
-   "mt": 1790716289,
+   "mt": 1790716879,
    "ok": true
   },
   "^OVX": {
@@ -1297,9 +1297,17 @@
   ],
   "fundamental": [
    {
+    "title": "Transporter-18 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UYVlhMzVMakRkVVVCdmlYLTRJT1BmVkwtNTRPTGtFTkY2b1V1a1o4bXJsM0V5U25rc1BVeENrUFVDUVVFUjhDY3BWeXJVQmdydGdXZW1lOTM?oc=5",
+    "pub": "Tue, 29 Sep 2026 21:10:33 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "EXCLUSIVE: Anthropic IPO prospectus lays bare deep dependence on Big Tech partners - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQ1Q4X3lqOUdZYllBZFVuZFBIWGt6dmdua2JoVnZ0aVVnWnd0M2lscWd0UFB6c3QxRmNJdXJ2T3ppbXR5TW8wZ2lzQU5obDR2U2t0WldJUWx4MEo2V29HVldhSEtVUWVPdkdIQ1dVSUtkcG5hTE5UWDVKek9hTjhkNGU4eGNKcmRPY1JjWmRaTXJVblBoWldzNU1PalhocDRfRHdPRnhxVEV5ckRsenJZ?oc=5",
-    "pub": "Tue, 29 Sep 2026 20:53:10 GMT",
+    "pub": "Tue, 29 Sep 2026 21:03:09 GMT",
     "src": "Reuters",
     "trig": false,
     "geo": false
@@ -1321,14 +1329,6 @@
     "geo": false
    },
    {
-    "title": "OpenAI Launches AI Agent 'Dots', While Reportedly Seeking A $30B Funding Bridge At $1.4 Trillion Valuation - tradingview.com",
-    "link": "https://news.google.com/rss/articles/CBMi9AFBVV95cUxOTzItREhBalhxX0NVa0Z0VU1tY0hlMFltMTV1WlBEWWprVktzbjFOeFhPRlY5c2Q4LTREMGs2T1NSOWNqbko2ZDJNbHpfUHIwb0NlcnZsckFsNF9BM0VJbktvUXpNQmpha0FTS3FQdnpfUmRiWGdYYmxja19PZ0RWZ0xTQmhURXFlN2tqT2dUWkdlVTNGdi15T0lRbUNhcG9BOHl6b0NPYTFtTk1ScWpZaS12SjlWOUxoTlhwRUlUcE9WaDZ6ZFR6eUdRVk1JT3dtd2xJR0ZoaWFaaXpaMFZ3R2RxZHBJYzRPTFNBV0dSc1duNkda?oc=5",
-    "pub": "Tue, 29 Sep 2026 20:27:33 GMT",
-    "src": "tradingview.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Amazon Stock Price Forecast — AMZN ($246.15) Sits 14% Below Its High With AWS Up 37%, a $496B Backlog and $220B of Capex - TradingNEWS",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcUFfY3M0VkVQNW5XM1ZmQXNxbUNOTDZUZTBYQUd3QlN3NS1vc21qVkt1TUZuR2xVUUN2LTVFRWljX0hkSXR4SlAwQnh6QUtFUFFvQXZmdmZIUlN4SE1INEpQaEJfY01QQVZmQjNUeUI1ZXVMVzdGZXoxdV9wMTBCeXJFZnhQU01sV1hyazJ4OC0xSV9ZVzRjZVl6YzkzOHJqYzl6M1M1WEFhR2M?oc=5",
     "pub": "Tue, 29 Sep 2026 20:22:21 GMT",
@@ -1346,6 +1346,14 @@
    }
   ],
   "macro": [
+   {
+    "title": "Mideast Oil Exports Rebound Even as Prices Remain Elevated - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPRzljeTVxYzlLdkp0c0pTcXRMd3EtaFFmZXNzdUoya3JfeTR6Y0dQRVo0OVQ0V2tQVUpIbDlzTDc5NjlkeS1famFDNFg1TV9UWElSSGpBVWwtaThjcUFCVWFGalRJbThCbHltd3ZsYnUxb0lmbDQ3VkhlZ1g0MHdVX09KNA?oc=5",
+    "pub": "Tue, 29 Sep 2026 21:03:56 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "UN alarmed by reports that Myanmar air strike killed 50 - Reuters",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdXNfc0kxMkFDRU1CWGhNZy1DWmF2U2lHTXZJa0RxWTJzU1I2cDcyQ1d3ajg5Zm1xYTdqNEVNamVmX2dVYWdVc0U1UTVOeXFHcHhsVmhTSlN5dDVhM2RlTkNfcGpsQTczdlIyQ0lRcmQtMG5WQ0lUT0NFUUp2RUE3bXNGM0V4dnVNNXV2LWtfY2RjZmo5YUZFeUthcE1FeDhoXzV4aGJJMkFyTXlfSmVn?oc=5",
@@ -1385,22 +1393,22 @@
     "src": "Rolling Out",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "MYANMAR MARKET AIR STRIKE TOLL RISES TO 50 - Oman Observer",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTV9KTXJMTUhWaXpDUUVTRmp0ZmNlQkRPamd4ZTc1OUIzVlF1YTVBUnQtaDZ6SDc5Ul9EemI2YXlva2dZYXpZSkdGU0RybmJTWElWelJXRFhUazNpeUxKNllrQ1JyVDdTS0o3eTI5SW43ZFBRRUpQMGhWNk44U19zR1Z0a1phQlNVaTRqRk9uOW4zVEZaM0c0cUZ4ak9qUdIBWkFVX3lxTE16RFVobk1aVTdpTXNQWUtVMTAtMGsxOEVHY0lPM3ZOU3RoQXotMjBoMlhScWx0REJvMGVzdG5yX3VtcjZNaTJTNTg5aG5xREFRYmNVaXl0LUxTUQ?oc=5",
-    "pub": "Tue, 29 Sep 2026 15:23:24 GMT",
-    "src": "Oman Observer",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Gold retreats as Treasury yields above 5% pressure safe-haven demand - Traders Union",
+    "title": "US Distillate Stocks Continue to Fall As Crude Inventories Build - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNelRlVUxpc3htcC1yX0szYmR1WnAxbHVramIwMVhBZHFSc25HMThGbHZadFM0MVAwY2xHajhOMjNBOWprY3d1Tl9QUzk1Ujk3QmhpNWRKZkNHNEhVc2VUYkY2UUd5bkVsejVVQzE3NW50MU5jazRjX0RlYy1uejh5eV9QSkw4YTh4RTVEME9ndGFvTVhLQzNmdXZHZVM4dGRpLTFWU005TjJuT0VWMDQzbUgxUVNka0Vwbi1wSdIBwgFBVV95cUxNLXV6cDFIUzc5TjVaVVZEODhDVVdjdl94cXo1Wk55OEV4TWRDUVd5SW5OQnNPVDk5OXJrbFd5QnhGSGJJWFJpSC1uMFJmVENyRDlCVHdQTEY2R2pDNTUzZ3ZWZ01JUTJrU0tsMW1xZTJZblhLNVdwWjE4U1RlN01PY3FFTjFydU9zVy1RSDhKemJjMU1VdTFqaEJ1TDZ0MkZDR1A2NTVicFc4QTRGMEw4MjJOLXBXWU12MDBzS2pRUUdPdw?oc=5",
+    "pub": "Tue, 29 Sep 2026 21:02:23 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold retreats as Treasury yields above 5% pressure safe-haven demand - tradersunion.com",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOakNSRUNtcXRQUXBxTkRTQUZFZ3BVQm1valp2d1hBVWpvLWxITW5jSUNQZExnRDdPcjFLMEdJLWUxRmpIRExnM1NHalNwd0lSX0gyNVlVRVZ3NzU1dUxRWVpldXoxdFZYNjRIQUhoNllidE13bFJrZ041Vm9TQXVlb2szb3o1cXo5Y0hfbFYyY1ljbVE1U29RNDZ1Mk52dw?oc=5",
     "pub": "Tue, 29 Sep 2026 20:19:33 GMT",
-    "src": "Traders Union",
+    "src": "tradersunion.com",
     "trig": false,
     "geo": false
    },
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPSzcwbldKcTMwX3dNUXlQRFpuWjhKSmhIOHdRZ1U5VXBwN3F5bV81c0VEV25jRDBBcnVkSGpoRXozYTliTGFuODR3VXQtb1dJTU8zQWVNb25DVlRlMDNqbm5kVkFqWlFkbm5xZ0p4U0FxczZxVkxvdC1yeEJfN2Z1V1hMSTdnWDJwYkVKc2owOS0?oc=5",
     "pub": "Tue, 29 Sep 2026 19:09:13 GMT",
     "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Current price of oil as of Sept. 29, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE05M1BBWmVuSnc4a3h2OVlsS3FvQjhxb1VwY2s1M1lIQTc5cDF0Nk85Q3QxaVc5cXdrbzQteTR0Z2tSdjNXUndWQk5xQkNMR1lhZHpYdGZkdm9nOUU5YkM0MA?oc=5",
-    "pub": "Tue, 29 Sep 2026 18:52:00 GMT",
-    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1554,7 +1554,7 @@
    "chg": 0.07
   },
   "sofr_iorb": 0.0,
-  "cape": 41.16,
+  "cape": 41.08,
   "cape_manual": false,
   "netliq": {
    "value": 5770.2,
@@ -1676,7 +1676,7 @@
    160.2,
    153.48,
    155.27,
-   157.29
+   157.27
   ],
   "uso": [
    106.44,
@@ -1736,7 +1736,7 @@
    77403.62,
    78438.58,
    75612.51,
-   83509.56
+   83427.66
   ],
   "vixts": [
    0.929,
@@ -1844,14 +1844,14 @@
    0.0707
   ],
   "cape": [
-   41.16,
-   41.16,
-   41.16,
-   41.16,
-   41.16,
-   41.16,
-   41.16,
-   41.16
+   41.08,
+   41.08,
+   41.08,
+   41.08,
+   41.08,
+   41.08,
+   41.08,
+   41.08
   ]
  },
  "summary": {
@@ -1998,9 +1998,7 @@
    "금융 상대약세(XLF/SPY)",
    "CCC-BB 저점이탈(+30%)"
   ],
-  "early": [
-   "숨은 헤지"
-  ],
+  "early": [],
   "strong": 0,
   "risk": false,
   "inputs": {
@@ -2721,7 +2719,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-29T21:11:49+00:00",
+  "checked": "2026-09-29T21:21:48+00:00",
   "openai": {
    "found": false
   },
@@ -2738,7 +2736,7 @@
  "fragility": {
   "margin_mn": 1417225,
   "margin_asof": "Jul-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.36,
   "curve_bp": 37,
   "curve_inverted": false,
@@ -2810,17 +2808,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.28,
+   "usdjpy": 157.27,
    "usdjpy_chg20": -1.82,
    "vix_chg5": 12.88,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.39,
-   "dxy_chg20": 1.97,
-   "usdkrw": 1352.35,
-   "usdkrw_chg20": -1.49,
+   "dxy": 101.38,
+   "dxy_chg20": 1.96,
+   "usdkrw": 1352.33,
+   "usdkrw_chg20": -1.5,
    "hit": false,
    "missing": []
   },

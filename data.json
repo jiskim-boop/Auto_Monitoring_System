@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-30T21:12:06+00:00",
+ "updated": "2026-09-30T21:22:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 144.58,
-   "chg": -1.14,
-   "chg5": -0.15,
-   "chg20": -2.66,
-   "sma20": 147.43,
-   "sma50": 143.87,
-   "sma200": 143.35,
-   "high3m": 154.82,
-   "reg": 144.58,
+   "price": 141.92,
+   "chg": -1.84,
+   "chg5": -2.89,
+   "chg20": -4.9,
+   "sma20": 147.06,
+   "sma50": 143.68,
+   "sma200": 143.34,
+   "high3m": 154.49,
+   "reg": 141.92,
    "pre": null,
    "post": null,
-   "regClose": 144.58,
+   "regClose": 141.92,
    "sess": "reg",
-   "mt": 1790715620,
+   "mt": 1790802020,
    "ok": true
   },
   "^MOVE": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.47,
-   "chg": 0.1,
-   "chg5": 0.36,
-   "chg20": 1.8,
+   "price": 101.45,
+   "chg": 0.08,
+   "chg5": 0.35,
+   "chg20": 1.79,
    "sma20": 100.09,
    "sma50": 99.97,
    "sma200": 99.74,
    "high3m": 101.51,
-   "reg": 101.47,
+   "reg": 101.45,
    "pre": null,
    "post": null,
-   "regClose": 101.47,
+   "regClose": 101.45,
    "sess": "reg",
-   "mt": 1790802084,
+   "mt": 1790802685,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83695.21,
-   "chg": 0.09,
-   "chg5": -0.4,
-   "chg20": 9.31,
-   "sma20": 81307.36,
-   "sma50": 77274.81,
-   "sma200": 71366.11,
+   "price": 83737.77,
+   "chg": 0.14,
+   "chg5": -0.35,
+   "chg20": 9.36,
+   "sma20": 81309.48,
+   "sma50": 77275.66,
+   "sma200": 71366.34,
    "high3m": 86602.91,
-   "reg": 83695.21,
+   "reg": 83737.77,
    "pre": null,
    "post": null,
-   "regClose": 83695.21,
+   "regClose": 83737.77,
    "sess": "reg",
-   "mt": 1790802591,
+   "mt": 1790803294,
    "ok": true
   },
   "USO": {
@@ -1053,7 +1053,7 @@
    "post": null,
    "regClose": 157.35,
    "sess": "reg",
-   "mt": 1790802694,
+   "mt": 1790803292,
    "ok": true
   },
   "KRW=X": {
@@ -1297,10 +1297,18 @@
   ],
   "fundamental": [
    {
-    "title": "‘Close to Home’ in AI. OpenAI, Washington & Wall Street. ARD #174 - AI: Reset to Zero",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5NVGRjdk9zODJoNlRObHJPRTNCTHFJZGJKQmZqYng3NzJQT2hPNVY1WWotbFpON1J6dklwclVtX0RPeF81UEF3dGM2ZWJDV1d4VERsYm94Rlh5b3FmTHQ4YmZWdEhLanZibTd3N2oxOXUzaV9SMkIyN091YzBkeVU?oc=5",
-    "pub": "Wed, 30 Sep 2026 21:01:38 GMT",
-    "src": "AI: Reset to Zero",
+    "title": "Transporter-18 Mission - spacex.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1UYVlhMzVMakRkVVVCdmlYLTRJT1BmVkwtNTRPTGtFTkY2b1V1a1o4bXJsM0V5U25rc1BVeENrUFVDUVVFUjhDY3BWeXJVQmdydGdXZW1lOTM?oc=5",
+    "pub": "Wed, 30 Sep 2026 21:18:47 GMT",
+    "src": "spacex.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NASA, SpaceX Conclude Review, Crew-13 ‘Go’ for Launch - NASA (.gov)",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZFVrMnZBWXJVakFJY0xoT01PS0pPU0VfOUx3cHNuUlVraXFZMHJiQ3hfR1RYcU44ZTQxR0VtcEZjbUV5TnhYMzBIcS1lVFJ0TmNLT0lNT200YURvR2g3VS1TS3ZtcWN6YzVMM2lZRV96NURrMktWc1RoeDVZcWduTFUzbWxabG9kV3lhOTJjcndEazA1U2N1OWJLTWlqZnYyMDFtVXpn?oc=5",
+    "pub": "Wed, 30 Sep 2026 20:37:30 GMT",
+    "src": "NASA (.gov)",
     "trig": false,
     "geo": false
    },
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNkV1TVJQcy02X3YzYVEzd0RmZTNKZ2RfOHd2S3hNOFpaWFN1OE53ZlEtelBaWkFNNEh5RTEtX1IzNlhXUUNlYlMxNzZyTlczQzItamRJb3FMNXBwcWdnTFRodVRmOWZraVg4TEluOW1xblJhcVBGZ0wyUHBtejZXUDc3Qk91aEpZ?oc=5",
     "pub": "Wed, 30 Sep 2026 19:28:38 GMT",
     "src": "Dealroom",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Synopsys, OpenAI strike deal to develop AI model for chip design work - WTVB",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQdWs1M0pXQVhvT2dJVzFkT0dSdFgwblFFYmNPMEFmdng3RklBb2NCOUtQc0o4QzI1VnRhd1JkbEFFUVliRmRxaDV6dGlIS2xSbFYtSEwyYTdjOTRMU1NNMjBkVVQwMTJpS1NpQXBiamluSERFM0pLNTFlMTcyQmlqQkJzWHRKVExSeXJGbWhrZXBlVmhxUjg0V2tmN2drUWJn?oc=5",
-    "pub": "Wed, 30 Sep 2026 19:21:03 GMT",
-    "src": "WTVB",
     "trig": false,
     "geo": false
    }
@@ -1405,10 +1405,10 @@
     "geo": false
    },
    {
-    "title": "Copper price set for 3rd straight monthly gain; aluminum hits 2-month low - kitco.com",
+    "title": "Copper price set for 3rd straight monthly gain; aluminum hits 2-month low - Kitco",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQRHNsOW95eng5QVlhS1I4d2xPS0pjT0syZWpUWWNWR0MzN180Y293SHpXVk1qOTlDYWE1ZEdhZ2hKSDl3QTdCX1JvV3NnR3ZITUtNYnk0NTEyR0QxNmJkNUJkelNXNW1wX2NQVUNzMWpGY3h6QWJiVU1SVERwTzhCZWl6SXF6WjFNV3ZhMkEtWXJ0S3dkWi11VHh6RUt2LThMZnJGTHFHSG8zMzJyMXZFRnVTWWlKWUN3ODlj?oc=5",
     "pub": "Wed, 30 Sep 2026 19:48:10 GMT",
-    "src": "kitco.com",
+    "src": "Kitco",
     "trig": false,
     "geo": false
    },
@@ -1554,7 +1554,7 @@
    "chg": 0.01
   },
   "sofr_iorb": -2.0,
-  "cape": 41.08,
+  "cape": 41.0,
   "cape_manual": false,
   "netliq": {
    "value": 5770.2,
@@ -1631,7 +1631,7 @@
    99.56,
    99.09,
    100.22,
-   101.47
+   101.45
   ],
   "bizd": [
    12.54,
@@ -1676,7 +1676,7 @@
    158.92,
    153.57,
    156.01,
-   157.37
+   157.35
   ],
   "uso": [
    103.27,
@@ -1736,7 +1736,7 @@
    77300.48,
    78259.52,
    76150.32,
-   83709.31
+   83737.31
   ],
   "vixts": [
    0.859,
@@ -1844,14 +1844,14 @@
    0.07
   ],
   "cape": [
-   41.08,
-   41.08,
-   41.08,
-   41.08,
-   41.08,
-   41.08,
-   41.08,
-   41.08
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0,
+   41.0
   ]
  },
  "summary": {
@@ -2465,7 +2465,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 29
   },
@@ -2725,7 +2725,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-09-30T21:11:52+00:00",
+  "checked": "2026-09-30T21:21:55+00:00",
   "openai": {
    "found": false
   },
@@ -2821,8 +2821,8 @@
    "missing": []
   },
   "dollar": {
-   "dxy": 101.47,
-   "dxy_chg20": 1.8,
+   "dxy": 101.45,
+   "dxy_chg20": 1.79,
    "usdkrw": 1356.19,
    "usdkrw_chg20": -0.16,
    "hit": false,

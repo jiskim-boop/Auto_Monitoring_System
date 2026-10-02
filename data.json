@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-02T23:22:37+00:00",
+ "updated": "2026-10-02T23:32:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84478.55,
-   "chg": -0.44,
-   "chg5": 0.02,
-   "chg20": 9.33,
-   "sma20": 82044.66,
-   "sma50": 78122.53,
-   "sma200": 71570.21,
+   "price": 84538.97,
+   "chg": -0.37,
+   "chg5": 0.1,
+   "chg20": 9.41,
+   "sma20": 82047.68,
+   "sma50": 78123.73,
+   "sma200": 71570.54,
    "high3m": 86602.91,
-   "reg": 84478.55,
+   "reg": 84538.97,
    "pre": null,
    "post": null,
-   "regClose": 84478.55,
+   "regClose": 84538.97,
    "sess": "reg",
-   "mt": 1790983324,
+   "mt": 1790983900,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Claude Frontier Academy: $100M to train 10,000 engineers - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
+    "pub": "Fri, 02 Oct 2026 23:01:00 GMT",
+    "src": "Anthropic",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI IPO Date: Investor Timeline, Valuation and Expectations - SmartAsset",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNaUZMX0tXaVBQLTZhYVhQSGhWYndyQUo3TVBpMm9fU21lQWRzOFpBcHZubmxQeEJEMW0xcUUweEhxaDVwUHdwc1ItWVZxV3FlRHIzRVhlWXRDbGo1akJlb0p4SHJYVFJtUVRzNlJhek44eHRlaGtsVW55eUZRREZILV9TMFJOWUFCZlh5WjNBNTVWOXhKMWlyag?oc=5",
     "pub": "Fri, 02 Oct 2026 22:52:30 GMT",
@@ -1325,14 +1333,6 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdmR4TEo3ck1aSjA1eDZ1eVVWTE1qT0tUX2xHOXgwUXhoLWV5NzFiU0pnUTcxb1dnZmE1T0p5Mk0xbXNSejc0UXJBc2lhM1M2Q29xZlhJUDNjZGItLXl0aHNvMFRCZVdLSDJkdE1kcVhIQ1haU3JMZ2xVNHZqeFMxcGdCS2FDa2I5Q3pGaU5QWmdkSzBOTV9RV0lYY0dNQnN3LXJ4Q3lVWEctd1A0cDhn?oc=5",
     "pub": "Fri, 02 Oct 2026 20:41:00 GMT",
     "src": "Investor's Business Daily",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Claude Frontier Academy: $100M to train 10,000 engineers - Anthropic",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9FNlFxVHBSRkl5bVF0c253UE5sUEFac3dDZmQ4bzFjc2lER0hNcjFmUUxPVFI5T0xQcldFTXhsd1diR2h4UUVoRnl4TWxEVnp5WXpCMFdkZHNKdlA1bFV4QTVqUDI?oc=5",
-    "pub": "Fri, 02 Oct 2026 20:21:12 GMT",
-    "src": "Anthropic",
     "trig": false,
     "geo": false
    },
@@ -1736,7 +1736,7 @@
    79671.97,
    77173.8,
    80901.46,
-   84478.54
+   84538.98
   ],
   "vixts": [
    0.86,
@@ -2733,7 +2733,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-02T23:22:24+00:00",
+  "checked": "2026-10-02T23:32:03+00:00",
   "openai": {
    "found": false
   },

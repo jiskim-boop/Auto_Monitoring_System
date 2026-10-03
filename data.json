@@ -1,23 +1,10 @@
 {
- "updated": "2026-10-03T00:11:58+00:00",
+ "updated": "2026-10-03T00:22:23+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "price": 233.95,
-   "chg": 2.44,
-   "chg5": 4.17,
-   "chg20": 4.25,
-   "sma20": 223.51,
-   "sma50": 217.77,
-   "sma200": 210.77,
-   "high3m": 230.86,
-   "reg": 233.95,
-   "pre": null,
-   "post": null,
-   "regClose": 230.86,
-   "sess": "reg",
-   "mt": 1790971200,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 355.14,
@@ -1006,20 +993,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84479.03,
-   "chg": -0.44,
-   "chg5": 0.02,
-   "chg20": 9.33,
-   "sma20": 82044.68,
-   "sma50": 78122.54,
-   "sma200": 71595.79,
+   "price": 84523.02,
+   "chg": -0.39,
+   "chg5": 0.08,
+   "chg20": 9.39,
+   "sma20": 82046.88,
+   "sma50": 78123.42,
+   "sma200": 71596.03,
    "high3m": 86602.91,
-   "reg": 84479.03,
+   "reg": 84523.02,
    "pre": null,
    "post": null,
-   "regClose": 84479.03,
+   "regClose": 84523.02,
    "sess": "reg",
-   "mt": 1790986286,
+   "mt": 1790986887,
    "ok": true
   },
   "USO": {
@@ -1287,10 +1274,10 @@
     "geo": false
    },
    {
-    "title": "Blue Owl flagship fund withdrawal requests slow as private credit turmoil eases - aol.com",
+    "title": "Blue Owl flagship fund withdrawal requests slow as private credit turmoil eases - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTjRYa1FqNTZ5Z05fdVlUb1MtXzNRczlfaV9MdlBheVlJSEViQUJhV3YwZWt6dkJjekF5N1Q4dkEzYUdoaEJSRFE1SWxoWnBZTC1xV2Vsb3k3dnpFZ2xrQWlsUmJDY3JhM1Jjc21JOWozbVdKR3Q5akxXX1prYmd2LTZpQQ?oc=5",
     "pub": "Fri, 02 Oct 2026 15:30:58 GMT",
-    "src": "aol.com",
+    "src": "AOL.com",
     "trig": false,
     "geo": false
    }
@@ -1561,31 +1548,7 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": {
-   "value": 42.41,
-   "series": [
-    41.93,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12,
-    42.25,
-    42.39,
-    42.44,
-    42.41
-   ],
-   "chg13w": 0.92,
-   "us_chg13w": 1.23,
-   "eu_chg13w": 0.6,
-   "us_t": 23.31,
-   "eu_t": 19.11,
-   "asof": "2026-08-31",
-   "eu_asof": "2026-08-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1736,7 +1699,7 @@
    79671.97,
    77173.8,
    80901.46,
-   84461.01
+   84523.02
   ],
   "vixts": [
    0.86,
@@ -2727,16 +2690,18 @@
   25
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 60,
-  "n": 35
+  "pct50": 59,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-10-03T00:11:45+00:00",
+  "checked": "2026-10-03T00:22:10+00:00",
   "openai": {
    "found": false
   },

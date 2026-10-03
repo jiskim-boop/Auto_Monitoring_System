@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T21:32:52+00:00",
+ "updated": "2026-10-03T21:42:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84702.24,
-   "chg": 0.24,
-   "chg5": 1.44,
-   "chg20": 10.23,
-   "sma20": 82438.8,
-   "sma50": 78557.43,
-   "sma200": 71667.12,
+   "price": 84694.74,
+   "chg": 0.23,
+   "chg5": 1.43,
+   "chg20": 10.22,
+   "sma20": 82438.42,
+   "sma50": 78557.28,
+   "sma200": 71667.08,
    "high3m": 86602.91,
-   "reg": 84702.24,
+   "reg": 84694.74,
    "pre": null,
    "post": null,
-   "regClose": 84702.24,
+   "regClose": 84694.74,
    "sess": "reg",
-   "mt": 1791063110,
+   "mt": 1791063693,
    "ok": true
   },
   "USO": {
@@ -1347,10 +1347,10 @@
   ],
   "macro": [
    {
-    "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
+    "title": "Fed holds interest rates steady as inflation hits 3-year high - abcnews.com",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
     "pub": "Sat, 03 Oct 2026 17:46:01 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
+    "src": "abcnews.com",
     "trig": false,
     "geo": false
    },
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1712,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84684.02
+   84695.94
   ],
   "vixts": [
    0.86,
@@ -2441,7 +2465,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 26
   },
@@ -2713,7 +2737,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T21:32:36+00:00",
+  "checked": "2026-10-03T21:41:51+00:00",
   "openai": {
    "found": false
   },

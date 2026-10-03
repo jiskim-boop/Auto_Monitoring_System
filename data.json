@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T18:22:01+00:00",
+ "updated": "2026-10-03T18:32:46+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84949.43,
-   "chg": 0.54,
+   "price": 84947.07,
+   "chg": 0.53,
    "chg5": 1.73,
-   "chg20": 10.56,
-   "sma20": 82451.15,
-   "sma50": 78562.38,
-   "sma200": 71668.46,
+   "chg20": 10.55,
+   "sma20": 82451.04,
+   "sma50": 78562.33,
+   "sma200": 71668.45,
    "high3m": 86602.91,
-   "reg": 84949.43,
+   "reg": 84947.07,
    "pre": null,
    "post": null,
-   "regClose": 84949.43,
+   "regClose": 84947.07,
    "sess": "reg",
-   "mt": 1791051682,
+   "mt": 1791052310,
    "ok": true
   },
   "USO": {
@@ -1263,10 +1263,10 @@
     "geo": false
    },
    {
-    "title": "Blue Owl Capital (NYSE:OWL) Coverage Initiated by Analysts at Wells Fargo & Company - marketbeat.com",
+    "title": "Blue Owl Capital (NYSE:OWL) Coverage Initiated by Analysts at Wells Fargo & Company - MarketBeat",
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQS1tby1yZzNjeEc5NEMxbzI3V0lIT3JGZDZWSTFILXoxWXZxTEFTemxjYUtTbXdXLWdya3BlZFdaU3JINERWRmxWWngwNUlQelczbWt5WDB5SVZUMnJLOVRFQ3NEMFZQdU4ycHN5MWZONVpKQ19CQ2g5TzZuOURjODJrQlB6MjNRcVlVdUlXOGVCcWxZUTFUX0RSU3hlcWxnbUJjUzFjeGliTV9qRnpCTDhJN2ZkY0EwbGFHVWpTMWI1SXQ0R0NLenJqZnJBR2J0WmdkQVg5aGY?oc=5",
     "pub": "Sat, 03 Oct 2026 10:11:16 GMT",
-    "src": "marketbeat.com",
+    "src": "MarketBeat",
     "trig": false,
     "geo": false
    },
@@ -1379,18 +1379,18 @@
     "geo": false
    },
    {
-    "title": "Brent shorts hit 600k lots: OIES - Oil & Gas Middle East",
+    "title": "Brent shorts hit 600k lots: OIES - oilandgasmiddleeast.com",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pMVVsNmtaNTZiTjhWMlFlcUdiTTdSMXFIXzB6T3RNbTBaaktrWWw5S0JKQ01tVnlxY1phZ19UMk04WXNLcS1GdklZVlhXa1lhMXMtYzBoS1dhUzBpX0l1WFUwOFI3VVVPZlY3Tzg5X3FSeGk5NEF4Z3NR?oc=5",
     "pub": "Sat, 03 Oct 2026 04:41:44 GMT",
-    "src": "Oil & Gas Middle East",
+    "src": "oilandgasmiddleeast.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Middle East Oil Exports Recover to 98% of Pre-War Levels: JP Morgan - News and Statistics - IndexBox",
+    "title": "Middle East Oil Exports Recover to 98% of Pre-War Levels: JP Morgan - News and Statistics - indexbox.io",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUFNiNDkyMUQzNk5nUEhpalhnZ2hudnZqZHpSSHFYaWliMldldjhuVlFSbzM2R1VJdXRwekp1WWFfbXZwd0hla0c2WndyZnItbFplOFpfNjRoSjFHXzREbVZPTW5zcUJVN25WWi1DZlNYLUx2TjhOV3J5M1dMbUdxc2VNQ1UtTHRnSzA4aFJ4TWlodw?oc=5",
     "pub": "Sat, 03 Oct 2026 04:20:47 GMT",
-    "src": "IndexBox",
+    "src": "indexbox.io",
     "trig": false,
     "geo": false
    }
@@ -1561,31 +1561,7 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": {
-   "value": 42.41,
-   "series": [
-    41.93,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12,
-    42.25,
-    42.39,
-    42.44,
-    42.41
-   ],
-   "chg13w": 0.92,
-   "us_chg13w": 1.23,
-   "eu_chg13w": 0.6,
-   "us_t": 23.31,
-   "eu_t": 19.11,
-   "asof": "2026-08-31",
-   "eu_asof": "2026-08-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1736,7 +1712,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84949.43
+   84947.07
   ],
   "vixts": [
    0.86,
@@ -2465,7 +2441,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 26
   },
@@ -2737,7 +2713,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T18:21:47+00:00",
+  "checked": "2026-10-03T18:32:33+00:00",
   "openai": {
    "found": false
   },

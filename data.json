@@ -1,10 +1,23 @@
 {
- "updated": "2026-10-03T00:22:23+00:00",
+ "updated": "2026-10-03T00:32:25+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 233.95,
+   "chg": 2.44,
+   "chg5": 4.17,
+   "chg20": 4.25,
+   "sma20": 223.51,
+   "sma50": 217.77,
+   "sma200": 210.77,
+   "high3m": 230.86,
+   "reg": 233.95,
+   "pre": null,
+   "post": null,
+   "regClose": 230.86,
+   "sess": "reg",
+   "mt": 1790971200,
+   "ok": true
   },
   "AVGO": {
    "price": 355.14,
@@ -993,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84523.02,
-   "chg": -0.39,
-   "chg5": 0.08,
-   "chg20": 9.39,
-   "sma20": 82046.88,
-   "sma50": 78123.42,
-   "sma200": 71596.03,
+   "price": 84575.93,
+   "chg": -0.33,
+   "chg5": 0.14,
+   "chg20": 9.45,
+   "sma20": 82049.53,
+   "sma50": 78124.47,
+   "sma200": 71596.32,
    "high3m": 86602.91,
-   "reg": 84523.02,
+   "reg": 84575.93,
    "pre": null,
    "post": null,
-   "regClose": 84523.02,
+   "regClose": 84575.93,
    "sess": "reg",
-   "mt": 1790986887,
+   "mt": 1790987507,
    "ok": true
   },
   "USO": {
@@ -1242,14 +1255,6 @@
     "geo": false
    },
    {
-    "title": "SEC Staff Issues Statement on Fair Value Measurement and Disclosure Considerations for Private Assets - Faegre Drinker Biddle & Reath LLP",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQTXFrb3QtUjdncGJDYkdtZ0ZhVWdQTl9sV0IzNjZxeXdjcTZyTmJNSnE0UDR2bng5cHdCNjVQMjBCaHhWcUtvREFBTWtOU2gtWVo2YTEyLXRtSHFBeURtMHRiaW9jLXhoRF9ZYzZVMGxsOU5PRDdVNTFpMU45LVJsQTdESUVBRDVpQlZjTzZ1R0VIeEJQdHlyUHVvdmZsbmNDQ2c2VXNDY1M5SDVNLWYxR1h1QUxBYUpmNnZvRXQ1c3U1RnNqcVRyLVliVUFmMlZTcjgwMXFDZzRTVi1EcnJXM1JndWV4ejl0Q2tUc1NvZTctbHdJcGlz?oc=5",
-    "pub": "Fri, 02 Oct 2026 18:00:22 GMT",
-    "src": "Faegre Drinker Biddle & Reath LLP",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "What Is CoreWeave Worth After the Cost of Replacing Its GPUs? - Yahoo Finance Australia",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0pacFk1V0FGRkNRSWFvX3RYWHcwaHVsekpIbVRzUzRORDFYbWxaZEZwWk9NZEF5eE1pNzBsbmQ3bW1qLXUxM25hS2RzT2M1UlBhdFVGZGZXejVQRVpYeGxiMERkN2hVcEhIenBNSkF4QTNyYjY3LWppUjNIMDdTQ21VbnZkdUZoa3hZcA?oc=5",
     "pub": "Fri, 02 Oct 2026 16:52:09 GMT",
@@ -1258,10 +1263,10 @@
     "geo": false
    },
    {
-    "title": "AI Debt Is a ‘Brewing Crisis,’ Ed Zitron Warns as Amazon, CoreWeave Turn to Complex Financing - Yahoo Finance",
+    "title": "AI Debt Is a ‘Brewing Crisis,’ Ed Zitron Warns as Amazon, CoreWeave Turn to Complex Financing - finance.yahoo.com",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOOU5xRExxaEx5R19RcjNsd0pZaHBUMExqWDQ0UVpyNWxEU2RWQU92QjhnNkd5cEhDLUtIWHR3ZmR3eXMycWIyMG5qODdUWmVXUXNuajBudWJhSGxuTHVxWjB1dWRWZXFHUi1STHp5WENVRXdHOFJ2SjItckN3Y2tIYl9HRW1obTUzRGRTaTNYR1BqWGM?oc=5",
     "pub": "Fri, 02 Oct 2026 15:45:35 GMT",
-    "src": "Yahoo Finance",
+    "src": "finance.yahoo.com",
     "trig": true,
     "geo": false
    },
@@ -1279,6 +1284,14 @@
     "pub": "Fri, 02 Oct 2026 15:30:58 GMT",
     "src": "AOL.com",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Two Blue Owl Private Credit Funds See Redemption Requests Well Above 5% - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPYTFjMXduVmIzSFdZT2hlRHY5TUo4VXZKYlVzUlRWbUVOWmtnaFRyUGc4bndWX3RFNlRZYnJTZkNhSTRkc0wyZ2d3b3Y3OF9wQTJUMk92dVpiQjRDMlcxejZkYXVyY2tZbDVqeFg4Sml2QWI2b2s2WXJEWnlYdVdjeTVQQm0yS2QtOHFZMFY3VXNhdnl1di1MWHhHNTc1WXlWMUp4bFROQ3E2YV96YTFoY0NQenZaU0FE?oc=5",
+    "pub": "Fri, 02 Oct 2026 14:12:00 GMT",
+    "src": "WSJ",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1400,10 +1413,10 @@
     "geo": false
    },
    {
-    "title": "The Case for Gold as an 'All-Weather' Investment - ETF Database",
+    "title": "The Case for Gold as an 'All-Weather' Investment - etfdb.com",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRVJ6VXJTWngwWE40RmlDRDJvZVZyZFhOd3V2UHlHQ0dfWkRaR1ZvR3BDblUtVkNHUGgwYXJQN1BTTlRTV0J6QUVXQlYxdHRDemVwd1V0eFIxWlBuWnpSNElnQTdRWnVKUTNUODZwRkVicVBjMGpQaC1MbGNHQWJoeDZ2dzh3S3JQOVNJNXV3?oc=5",
     "pub": "Fri, 02 Oct 2026 21:20:02 GMT",
-    "src": "ETF Database",
+    "src": "etfdb.com",
     "trig": false,
     "geo": false
    },
@@ -1548,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1699,7 +1736,7 @@
    79671.97,
    77173.8,
    80901.46,
-   84523.02
+   84587.99
   ],
   "vixts": [
    0.86,
@@ -2690,18 +2727,16 @@
   25
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 59,
-  "n": 34
+  "pct50": 60,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T00:22:10+00:00",
+  "checked": "2026-10-03T00:32:11+00:00",
   "openai": {
    "found": false
   },

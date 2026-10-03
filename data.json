@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T15:52:31+00:00",
+ "updated": "2026-10-03T16:02:30+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84858.92,
-   "chg": 0.43,
-   "chg5": 1.62,
-   "chg20": 10.44,
-   "sma20": 82446.63,
-   "sma50": 78560.57,
-   "sma200": 71667.97,
+   "price": 84846.37,
+   "chg": 0.41,
+   "chg5": 1.61,
+   "chg20": 10.42,
+   "sma20": 82446.0,
+   "sma50": 78560.31,
+   "sma200": 71667.9,
    "high3m": 86602.91,
-   "reg": 84858.92,
+   "reg": 84846.37,
    "pre": null,
    "post": null,
-   "regClose": 84858.92,
+   "regClose": 84846.37,
    "sess": "reg",
-   "mt": 1791042694,
+   "mt": 1791043315,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Nvidia RTX 5070 becomes Steam’s most-used GPU in the latest hardware survey - DLCompare.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNFc3Y3VkeklrbDZhVE4wczM3SFhNMkV2a2lLRHcwSW1XcHlvRTRjMWd0OGlSV0tHa3NFOUtrS0pXZ0NPLTMwVmRKbEtSOUhNR2kwa241WHlxajA5ME5Ia3ZuRXR5RFJTeF9oVlp0TDlhanZ5bW52eFNva1hCZWZMUV9ScGhtUjB5NmxpeUNhMURWMEpXLTZrVlV1MDhmbXYwMUdKaU1jRnEwMHY2VUdWY0hYaUdIeVJDM1BJ?oc=5",
+    "pub": "Sat, 03 Oct 2026 16:00:00 GMT",
+    "src": "DLCompare.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
     "pub": "Sat, 03 Oct 2026 13:36:15 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOd2htWF9tWV84WUlKUWdrUm9WRUdGeWw3ZE41QVZiYW1qTXp1bUdGazVEMDE5MzJEekxDenlJcWYtM3JjSm5XTHNjTWo5RkxaNVFMSlVDelBjUXdVQ1dSMlpCZlh1VHk2MGJRdVpyUC1yNWlxSllKYk9KVThOVFdYMjhxVVZLVUZBNDZCelY3ejl3OEJCTnR0ZkMtQ2M2N0tZTUwyLTZ1aFNodTN5dUJQN1EyVV9leEFVTm43U1VtMnJJWFdxd1dmN01IUlJnSlo0Wmc?oc=5",
     "pub": "Sat, 03 Oct 2026 10:40:56 GMT",
     "src": "AD HOC NEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Memory maker Micron says RAM shortages will last until 2028 as prices keep climbing - Eurogamer.net",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53bDRsNEgzRmE5VjNDTHo0c2J5bkdHc0Y4akpGQ2NxSXZ3VllQUlY5LWJ6Qlo5UTVTT050OFpSTTNfbnpzakdreUJYU0tQcG5GamZlc0tSNHdUMTBVamdtbXJBalFORUliOXFlS3BiVUxMQkh0S3laNQ?oc=5",
-    "pub": "Sat, 03 Oct 2026 10:34:13 GMT",
-    "src": "Eurogamer.net",
     "trig": false,
     "geo": false
    }
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1712,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84858.92
+   84846.37
   ],
   "vixts": [
    0.86,
@@ -2713,7 +2737,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T15:52:17+00:00",
+  "checked": "2026-10-03T16:02:16+00:00",
   "openai": {
    "found": false
   },

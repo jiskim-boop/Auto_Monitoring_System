@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T16:22:14+00:00",
+ "updated": "2026-10-03T16:32:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84778.84,
-   "chg": 0.33,
-   "chg5": 1.53,
-   "chg20": 10.33,
-   "sma20": 82442.63,
-   "sma50": 78558.96,
-   "sma200": 71667.54,
+   "price": 84802.77,
+   "chg": 0.36,
+   "chg5": 1.56,
+   "chg20": 10.37,
+   "sma20": 82443.82,
+   "sma50": 78559.44,
+   "sma200": 71667.67,
    "high3m": 86602.91,
-   "reg": 84778.84,
+   "reg": 84802.77,
    "pre": null,
    "post": null,
-   "regClose": 84778.84,
+   "regClose": 84802.77,
    "sess": "reg",
-   "mt": 1791044492,
+   "mt": 1791045113,
    "ok": true
   },
   "USO": {
@@ -1347,14 +1347,6 @@
   ],
   "macro": [
    {
-    "title": "Is the AI Bull Market About to Crash? This Risk Indicator Is Saying Yes - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQMEZKT2JKMmsyZlF4c2VCV3owdmc0cE51QXcxeWVDT21aek1PM18zX0J6Mm1kcFhLUUQ5VzZrWTNvRWJrdzhFZUYwYmNfTzJGOGNVQWhRM2JEZkxwOTZPNklIdHc3NUtLOF94dVRQODdCUFJ5OHBLekNiYWRvcnRqMnJhd1BDWVdQU2dWQllwLTBvUTZpLWdxNi1oblRLaG9PcTF4dTFpV2FJUFB6WnJoSlFyTVc?oc=5",
-    "pub": "Sat, 03 Oct 2026 14:44:00 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Global Bond Selloff Pushes U.S. Treasury Yields to 24-Year Highs - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWTJUMGp1Tnl0QzRubXFmSTViTG9kVUdQQXpZRzlhUjNJalBsMHk5WS1qdWhybDFPaDZ2YVMtMEZPRHVMMTliaE1xdlVMQzkyRGZKdVZWMzJMWE9OYmpPOEpkZTRaMk9kcEtCekZnS1RqT1ZIaXJnWkQzanJObEE3RlhJOXlTbm1DX09sbDExSVk1RThMN1pueFRBa1djWFU1WTVxek9mbjVLajQ?oc=5",
     "pub": "Sat, 03 Oct 2026 13:22:00 GMT",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pMVVsNmtaNTZiTjhWMlFlcUdiTTdSMXFIXzB6T3RNbTBaaktrWWw5S0JKQ01tVnlxY1phZ19UMk04WXNLcS1GdklZVlhXa1lhMXMtYzBoS1dhUzBpX0l1WFUwOFI3VVVPZlY3Tzg5X3FSeGk5NEF4Z3NR?oc=5",
     "pub": "Sat, 03 Oct 2026 04:41:44 GMT",
     "src": "oilandgasmiddleeast.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Middle East Oil Exports Recover to 98% of Pre-War Levels: JP Morgan - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUFNiNDkyMUQzNk5nUEhpalhnZ2hudnZqZHpSSHFYaWliMldldjhuVlFSbzM2R1VJdXRwekp1WWFfbXZwd0hla0c2WndyZnItbFplOFpfNjRoSjFHXzREbVZPTW5zcUJVN25WWi1DZlNYLUx2TjhOV3J5M1dMbUdxc2VNQ1UtTHRnSzA4aFJ4TWlodw?oc=5",
+    "pub": "Sat, 03 Oct 2026 04:20:47 GMT",
+    "src": "IndexBox",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84778.84
+   84802.77
   ],
   "vixts": [
    0.86,
@@ -2465,7 +2465,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 26
   },
@@ -2737,7 +2737,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T16:21:57+00:00",
+  "checked": "2026-10-03T16:32:15+00:00",
   "openai": {
    "found": false
   },

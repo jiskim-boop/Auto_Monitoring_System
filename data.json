@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T19:52:43+00:00",
+ "updated": "2026-10-03T20:02:36+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84774.28,
-   "chg": 0.33,
-   "chg5": 1.52,
-   "chg20": 10.33,
-   "sma20": 82442.4,
-   "sma50": 78558.87,
-   "sma200": 71667.51,
+   "price": 84860.76,
+   "chg": 0.43,
+   "chg5": 1.63,
+   "chg20": 10.44,
+   "sma20": 82446.72,
+   "sma50": 78560.6,
+   "sma200": 71667.98,
    "high3m": 86602.91,
-   "reg": 84774.28,
+   "reg": 84860.76,
    "pre": null,
    "post": null,
-   "regClose": 84774.28,
+   "regClose": 84860.76,
    "sess": "reg",
-   "mt": 1791057114,
+   "mt": 1791057719,
    "ok": true
   },
   "USO": {
@@ -1347,14 +1347,6 @@
   ],
   "macro": [
    {
-    "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
-    "pub": "Sat, 03 Oct 2026 17:46:01 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Global Bond Selloff Pushes U.S. Treasury Yields to 24-Year Highs - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWTJUMGp1Tnl0QzRubXFmSTViTG9kVUdQQXpZRzlhUjNJalBsMHk5WS1qdWhybDFPaDZ2YVMtMEZPRHVMMTliaE1xdlVMQzkyRGZKdVZWMzJMWE9OYmpPOEpkZTRaMk9kcEtCekZnS1RqT1ZIaXJnWkQzanJObEE3RlhJOXlTbm1DX09sbDExSVk1RThMN1pueFRBa1djWFU1WTVxek9mbjVLajQ?oc=5",
     "pub": "Sat, 03 Oct 2026 13:22:00 GMT",
@@ -1387,10 +1379,18 @@
     "geo": false
    },
    {
-    "title": "Brent shorts hit 600k lots: OIES - oilandgasmiddleeast.com",
+    "title": "Brent shorts hit 600k lots: OIES - Oil & Gas Middle East",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9pMVVsNmtaNTZiTjhWMlFlcUdiTTdSMXFIXzB6T3RNbTBaaktrWWw5S0JKQ01tVnlxY1phZ19UMk04WXNLcS1GdklZVlhXa1lhMXMtYzBoS1dhUzBpX0l1WFUwOFI3VVVPZlY3Tzg5X3FSeGk5NEF4Z3NR?oc=5",
     "pub": "Sat, 03 Oct 2026 04:41:44 GMT",
-    "src": "oilandgasmiddleeast.com",
+    "src": "Oil & Gas Middle East",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Middle East Oil Exports Recover to 98% of Pre-War Levels: JP Morgan - News and Statistics - IndexBox",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUFNiNDkyMUQzNk5nUEhpalhnZ2hudnZqZHpSSHFYaWliMldldjhuVlFSbzM2R1VJdXRwekp1WWFfbXZwd0hla0c2WndyZnItbFplOFpfNjRoSjFHXzREbVZPTW5zcUJVN25WWi1DZlNYLUx2TjhOV3J5M1dMbUdxc2VNQ1UtTHRnSzA4aFJ4TWlodw?oc=5",
+    "pub": "Sat, 03 Oct 2026 04:20:47 GMT",
+    "src": "IndexBox",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84785.91
+   84860.75
   ],
   "vixts": [
    0.86,
@@ -2465,7 +2465,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 26
   },
@@ -2482,6 +2482,12 @@
    "dday": 38
   },
   {
+   "date": "2026-11-18",
+   "name": "NVDA 실적",
+   "at": "2026-11-17T20:00:00+00:00",
+   "dday": 45
+  },
+  {
    "date": "2026-12-04",
    "name": "미 고용보고서(관례)",
    "at": "2026-12-04T13:30:00+00:00",
@@ -2492,12 +2498,6 @@
    "name": "FOMC 금리결정",
    "at": "2026-12-09T19:00:00+00:00",
    "dday": 67
-  },
-  {
-   "date": "2026-12-10",
-   "name": "미 CPI(11월)",
-   "at": "2026-12-10T13:30:00+00:00",
-   "dday": 68
   }
  ],
  "gpu": {
@@ -2737,7 +2737,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T19:52:21+00:00",
+  "checked": "2026-10-03T20:02:22+00:00",
   "openai": {
    "found": false
   },

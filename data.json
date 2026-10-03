@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T11:12:31+00:00",
+ "updated": "2026-10-03T11:22:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84621.05,
+   "price": 84625.88,
    "chg": 0.15,
-   "chg5": 1.34,
-   "chg20": 10.13,
-   "sma20": 82434.74,
-   "sma50": 78555.81,
-   "sma200": 71666.68,
+   "chg5": 1.35,
+   "chg20": 10.14,
+   "sma20": 82434.98,
+   "sma50": 78555.9,
+   "sma200": 71666.71,
    "high3m": 86602.91,
-   "reg": 84621.05,
+   "reg": 84625.88,
    "pre": null,
    "post": null,
-   "regClose": 84621.05,
+   "regClose": 84625.88,
    "sess": "reg",
-   "mt": 1791025890,
+   "mt": 1791026486,
    "ok": true
   },
   "USO": {
@@ -1379,10 +1379,10 @@
     "geo": false
    },
    {
-    "title": "How Do Fed Rate Hikes Affect US Stocks? A Detailed Breakdown of the Logic - TradingKey",
+    "title": "How Do Fed Rate Hikes Affect US Stocks? A Detailed Breakdown of the Logic - tradingkey.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQNUVZWk5MSTJmR3FOSGNkdVFaNTVjLUxQUUhpeTUzaGdLVm1PV2hwVHYzY1dNM01odFBTQjJ3bUdSNHptdWhaNTEyZ1ZobDlMLXBHQ1ctVkNTdlU3amJ3UVNpU09RUWxxYzh6Y1NZOGNtSGUySElpVE00b3VPTDcwZ0NCVHhjN0VKSmxzRHVKQzhEU0U1ZUJ5UHg5MVdfVmc0dDNQM1RiTW5EVVpUMnVTX1ZITVJTSUE?oc=5",
     "pub": "Sat, 03 Oct 2026 02:07:26 GMT",
-    "src": "TradingKey",
+    "src": "tradingkey.com",
     "trig": false,
     "geo": false
    },
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1712,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84621.05
+   84625.87
   ],
   "vixts": [
    0.86,
@@ -2712,7 +2736,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T11:12:15+00:00",
+  "checked": "2026-10-03T11:21:46+00:00",
   "openai": {
    "found": false
   },

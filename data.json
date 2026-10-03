@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-03T09:32:25+00:00",
+ "updated": "2026-10-03T09:41:57+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84570.14,
-   "chg": 0.09,
-   "chg5": 1.28,
+   "price": 84565.0,
+   "chg": 0.08,
+   "chg5": 1.27,
    "chg20": 10.06,
-   "sma20": 82432.19,
-   "sma50": 78554.79,
-   "sma200": 71666.4,
+   "sma20": 82431.93,
+   "sma50": 78554.69,
+   "sma200": 71666.38,
    "high3m": 86602.91,
-   "reg": 84570.14,
+   "reg": 84565.0,
    "pre": null,
    "post": null,
-   "regClose": 84570.14,
+   "regClose": 84565.0,
    "sess": "reg",
-   "mt": 1791019908,
+   "mt": 1791020484,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "NVIDIA Corporation (NVDA) Stock Price, News, Quote & History - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE51M3YyYUhDNzU1Y2Rjb1RZakJNc2s1NWlnbHBYS1RWTTJyNnpzNUFiUEVJQmRoSElldkd0Z3Bva0s1UURoUFpJcDVxZnRJZXdDcGc?oc=5",
+    "pub": "Sat, 03 Oct 2026 07:54:46 GMT",
+    "src": "Yahoo! Finance Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nebius Stock: Broadcom-Anthropic Funding Buzz and a 21% GPU Price Hike Power a 193% Rally - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPMWJlX2dYSk9DMV9MemlVQXlseXJsQ1lyT0JaUUk1LTh5TmwzZG5JblhnSjBuX2oyWWlHSXpvU21ja0had2J4a3p2bHFSUnR1T0FyTUhFNDJhVWQ2eWU0Qm1GbFJEdlB6U0FNenQ2UHZUaV9MSTczUTg1TUdGSkVzZTVmZnM1RFo0bUhBWFNaVng1VWJMbHppd2pVRjBkYmxQXzh6NWNXRS0wVDFITFUyZmYwNFFneUZxMUxsOXp6RklxRVlneENxZERPaFdSeHJtc3JzclZKWHYtRVk?oc=5",
     "pub": "Sat, 03 Oct 2026 07:40:21 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNV2NqbWtDbjVfc2dZYWtJWEp3ZnI5M1o5UWhkQndYZV83T3BxTE1VeDFNclNIeUZCMnV2a1NIVXc2enlzV3lFWktoWE11NUF0RlNjTGk1c1RTSEVsUEtGUU9HZlVuRVVhQ2ZFZTU2UHBoRVozX3pJeS1vRmtoM0w5dndmWnJ2YjQxYi03TDl4X3ZQNlhWdXBfQnRsRjByYllpaXF3VlEzWVdrS28?oc=5",
     "pub": "Sat, 03 Oct 2026 05:06:00 GMT",
     "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI: Anthropic’s IPO Go Time, OpenAI’s $1.4 Trillion, Gemini 4 & More. AI-RTZ #1228 - AI: Reset to Zero",
-    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBMbG9rZU4yZmNGYjBVRlpGYmo0M3FCMi0wRjl4amJFNGJ3aG5EZUIybDlGTFJnN2xodjdTRVUzQkc4Z210VGZNTmFyV3pTa1I1RDJwOUtyRURiOGhiSVJFenc2TjdKS0FzRVpvbmdGdS1qNjlWN1FSNmxR?oc=5",
-    "pub": "Sat, 03 Oct 2026 05:02:37 GMT",
-    "src": "AI: Reset to Zero",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84570.15
+   84565.0
   ],
   "vixts": [
    0.86,
@@ -2736,7 +2736,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-03T09:32:08+00:00",
+  "checked": "2026-10-03T09:41:45+00:00",
   "openai": {
    "found": false
   },
@@ -2753,7 +2753,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 45,
   "curve_inverted": false,

@@ -1,10 +1,23 @@
 {
- "updated": "2026-10-04T09:03:04+00:00",
+ "updated": "2026-10-04T09:12:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 233.95,
+   "chg": 1.34,
+   "chg5": 3.95,
+   "chg20": 2.41,
+   "sma20": 223.79,
+   "sma50": 218.28,
+   "sma200": 210.96,
+   "high3m": 233.95,
+   "reg": 233.95,
+   "pre": null,
+   "post": null,
+   "regClose": 233.95,
+   "sess": "reg",
+   "mt": 1790971201,
+   "ok": true
   },
   "AVGO": {
    "price": 355.14,
@@ -993,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85086.68,
-   "chg": 0.38,
-   "chg5": 1.75,
-   "chg20": 8.86,
-   "sma20": 82788.03,
-   "sma50": 78999.91,
-   "sma200": 71766.13,
+   "price": 85123.99,
+   "chg": 0.43,
+   "chg5": 1.8,
+   "chg20": 8.91,
+   "sma20": 82789.89,
+   "sma50": 79000.65,
+   "sma200": 71766.33,
    "high3m": 86602.91,
-   "reg": 85086.68,
+   "reg": 85123.99,
    "pre": null,
    "post": null,
-   "regClose": 85086.68,
+   "regClose": 85123.99,
    "sess": "reg",
-   "mt": 1791104522,
+   "mt": 1791105088,
    "ok": true
   },
   "USO": {
@@ -1274,10 +1287,10 @@
     "geo": false
    },
    {
-    "title": "Blue Owl caps redemptions at 5% amid AI fears - Briefs Finance",
+    "title": "Blue Owl caps redemptions at 5% amid AI fears - briefs.co",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2xXb0NRNDRIRlFPYmxTMFh5d3NDSzh5dTctSlJNRXFzd2gtbkR1cHN5UkY5MmdsT2tFeGwwcGg2QUhDdFJTXzN1OWVDVkw5aGhWMG1HTVNtYVZZaGNrNXhkMkZWLTA5bVowWnBzYkRMT1hQRElMbVphV3hnU0ZxY0dWd1NhcU0zdHhlcjQyaGlBdw?oc=5",
     "pub": "Fri, 02 Oct 2026 23:54:37 GMT",
-    "src": "Briefs Finance",
+    "src": "briefs.co",
     "trig": false,
     "geo": false
    }
@@ -1316,10 +1329,10 @@
     "geo": false
    },
    {
-    "title": "Elon Musk's xAI stops new law prohibiting AI-powered 'nudification' tools by arguing free-speech violations - TweakTown",
+    "title": "Elon Musk's xAI stops new law prohibiting AI-powered 'nudification' tools by arguing free-speech violations - tweaktown.com",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSW5Jc0x4aGY0bDdpQjNESFlkOU10c3hLeTNsY0dNYWtrWWRQVk8wSG84VHYyY0dzRU0wU0I3al84YTVLNDBBZDUxM2VxLVVCdF9md1Y3T21rOXNKbVdvTVBDVFltNlJIblR6ZktOdEFWZjU5SjdMak00M0FkLUwzcFJPejYyOFV3UHRGYVE2bExRdTFSMXRsSG5DbEMwRVlTT09iR25PR3BDdWZMbGp4RjdJMUhoRVBnNmM0UllmTlVTR1ROWDJ4N3E5RmQtYnFReS1taEFFZTF5UU5sMkhaXzk5WXlnWHY0?oc=5",
     "pub": "Sun, 04 Oct 2026 02:43:14 GMT",
-    "src": "TweakTown",
+    "src": "tweaktown.com",
     "trig": false,
     "geo": false
    },
@@ -1408,10 +1421,10 @@
     "geo": false
    },
    {
-    "title": "Southern Copper Corporation stock gains 3.17 percent on earnings beat and copper demand - ad-hoc-news.de",
+    "title": "Southern Copper Corporation stock gains 3.17 percent on earnings beat and copper demand - AD HOC NEWS",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdXNXMlptcml5OEFIUDdhTm1IaWhsOG9EZUVqcGNsWWRUeG1YS2E0TGZVVERpeVBnRFBKVkZJV19uZkg3MzA0NzFiUEVJQ0g2QVdRLUJGV3MzT2lnU180NDJYNTNmMDhldzcwYmtjdEVzcUE0SzNIVXpjODktZ0hmaEJpX05JSnhRbkw0MXZrS0pnRU9lS0RlMHpRU1lZeHZDcU5tTzlrUWUza3FfTGR5SzBPMm9qczBUbTJ1ZXdzSHRYQnlaWWpqTTBNcFlPSmR3V0tzRVExSDlVOTJ5bHpRejJ1UFE?oc=5",
     "pub": "Sat, 03 Oct 2026 20:05:26 GMT",
-    "src": "ad-hoc-news.de",
+    "src": "AD HOC NEWS",
     "trig": false,
     "geo": false
    },
@@ -1548,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1699,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85066.97
+   85123.99
   ],
   "vixts": [
    0.86,
@@ -2695,18 +2732,16 @@
   25
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 59,
-  "n": 34
+  "pct50": 60,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T09:02:48+00:00",
+  "checked": "2026-10-04T09:11:51+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T05:32:09+00:00",
+ "updated": "2026-10-04T05:42:29+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84845.38,
-   "chg": 0.41,
-   "chg5": 1.61,
-   "chg20": 10.42,
-   "sma20": 82445.95,
-   "sma50": 78560.29,
-   "sma200": 71693.78,
+   "price": 84888.25,
+   "chg": 0.46,
+   "chg5": 1.66,
+   "chg20": 10.48,
+   "sma20": 82448.1,
+   "sma50": 78561.15,
+   "sma200": 71694.02,
    "high3m": 86602.91,
-   "reg": 84845.38,
+   "reg": 84888.25,
    "pre": null,
    "post": null,
-   "regClose": 84845.38,
+   "regClose": 84888.25,
    "sess": "reg",
-   "mt": 1791091897,
+   "mt": 1791092486,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Wall Street Week Ahead: Q4 Has the Seasonals, but the Bond Market Has the Veto - The Dark Side Of The Boom",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVEpFLUpjRTBCejBFSER3SVF3TDZXTEhWWW5ra3BlUHhYbVdrY0ZERk9YUnR6Y3BidEZJczR2MF81clNJdE9EN1JfYVNyUkowenVzWEZGTHJzZVdrQjVvNmFESlJRZXFpd1JjU3hZMGNBVWpnLUk0MU9NVVpTSFU2dUVPRQ?oc=5",
+    "pub": "Sun, 04 Oct 2026 05:30:42 GMT",
+    "src": "The Dark Side Of The Boom",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Hyperscaler Capex Growth Expectations Peak; AI Boom Shows First Structural Divergence at the Funding Layer - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44dlZYeGE4cU9nRjFJNEROSG1VMk02Ty1zVGJ3dEhoMW9VWDB3b0IzU2xHdjZ1M2xXTV9RSzZ0a0Z5VWRCQy1sUlROd0ZtQVA1S1N2WXJNZFpXbXVld2FYMFB5SzI4Y3JHQ2hOTGQ5YWxIa2NNNUE?oc=5",
     "pub": "Sun, 04 Oct 2026 03:05:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBSUFgwVi1fWU56LTdfVmJ5OEJXRDdqY2xnelZpd0VnUVlsOXVfamFlOHRJSXdab1RZOVYtSThRdXJlaXJkNzF5TXZqeTBwNFU2b1FLUjEzbUlhWVU?oc=5",
     "pub": "Sat, 03 Oct 2026 16:08:00 GMT",
     "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia RTX 5070 becomes Steam’s most-used GPU in the latest hardware survey - DLCompare.com",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPNFc3Y3VkeklrbDZhVE4wczM3SFhNMkV2a2lLRHcwSW1XcHlvRTRjMWd0OGlSV0tHa3NFOUtrS0pXZ0NPLTMwVmRKbEtSOUhNR2kwa241WHlxajA5ME5Ia3ZuRXR5RFJTeF9oVlp0TDlhanZ5bW52eFNva1hCZWZMUV9ScGhtUjB5NmxpeUNhMURWMEpXLTZrVlV1MDhmbXYwMUdKaU1jRnEwMHY2VUdWY0hYaUdIeVJDM1BJ?oc=5",
-    "pub": "Sat, 03 Oct 2026 16:00:00 GMT",
-    "src": "DLCompare.com",
     "trig": false,
     "geo": false
    }
@@ -1561,31 +1561,7 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": {
-   "value": 42.41,
-   "series": [
-    41.93,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12,
-    42.25,
-    42.39,
-    42.44,
-    42.41
-   ],
-   "chg13w": 0.92,
-   "us_chg13w": 1.23,
-   "eu_chg13w": 0.6,
-   "us_t": 23.31,
-   "eu_t": 19.11,
-   "asof": "2026-08-31",
-   "eu_asof": "2026-08-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1736,7 +1712,7 @@
    79823.87,
    77270.47,
    81233.68,
-   84851.0
+   84888.25
   ],
   "vixts": [
    0.86,
@@ -2741,7 +2717,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T05:31:57+00:00",
+  "checked": "2026-10-04T05:42:14+00:00",
   "openai": {
    "found": false
   },

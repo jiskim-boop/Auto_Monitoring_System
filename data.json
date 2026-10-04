@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T13:21:58+00:00",
+ "updated": "2026-10-04T13:32:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85184.25,
-   "chg": 0.5,
-   "chg5": 1.87,
-   "chg20": 8.98,
-   "sma20": 82792.91,
-   "sma50": 79001.86,
-   "sma200": 71766.66,
+   "price": 85243.05,
+   "chg": 0.57,
+   "chg5": 1.94,
+   "chg20": 9.06,
+   "sma20": 82795.85,
+   "sma50": 79003.03,
+   "sma200": 71766.98,
    "high3m": 86602.91,
-   "reg": 85184.25,
+   "reg": 85243.05,
    "pre": null,
    "post": null,
-   "regClose": 85184.25,
+   "regClose": 85243.05,
    "sess": "reg",
-   "mt": 1791120082,
+   "mt": 1791120698,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Consumer Tech (Sep 28-Oct 2): Anthropic Preparing for IPO, Trump Weighs AI Stakes & More - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOYXRIMGo5WmZ6bEZCYm5JVEZNQkk0dUhGSFFrbUhzUWVQMU5jeVlGdXo4LWtaQ3dYUmJCaWxuVHFkMVo4QUFGYzJ2R3lUSmFoRE8wMFRuaHdlNkh4TjhMcDhuaXV3M3lVMmM4ZXNUaWxYaU1NWk9kYVdsSXJIaWpQc01sZmJJZHhVRlRsY0pKWFczYjlOaVFtRG9kZkQ2U1VmT0RfaTkxajlqVUxCUE9wU2NwMk9zcGxGbnRzQnR5LU90dDRyZFJ4Q2l6UkVXQmJwM3M0X0tUNUY?oc=5",
+    "pub": "Sun, 04 Oct 2026 11:30:06 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Bambu Lab cuts 3D printer prices up to 30% in Halloween sale - news.lavx.hu",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQVzJ0R2ZkWXphOGlBNVFqcGs2UUdPdEU1Ym4tVGFtSFZReGRqT2pMQjVkOUdkMVBsVWxaM3dWcUU3TnNnQ2NFZWhoakVlNVhXNzA3MWp3REtsTk16amE3QVNJZ2JrZmttc21pWFlBZ09pWnlDVnNvemYwMEYtbEQ4dGFtemdGVE1SNGhzbFhhczBidw?oc=5",
     "pub": "Sun, 04 Oct 2026 04:41:21 GMT",
@@ -1285,14 +1293,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Main Street Capital Vs. MSC Income Fund: A Hold And A Buy - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUVFMTUFRZXFnYVlJMWhYNFdSOWRUOEdtU2lxcER1Y0hQS1VTLVBJMVJwU0hFVDNQVnBzZmxBd2hJYllNX1VDb18wWkVlWmV1bVNyZGczc1Y3TFhQc2oxS0FsZExXeUlKQ0l0aTRnTjF1ZE94NHdwUEVicC1sbmxRTVVYODlnVGVoS0ZkRzdNMGVYTkh3ZERySk1sdmxndw?oc=5",
-    "pub": "Sat, 03 Oct 2026 11:20:23 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1307,7 +1307,7 @@
    {
     "title": "OpenAI says its own models optimised Astra Ultrafast's inference on Nvidia GPUs - MIXED Reality News",
     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRUxYYWFoY0k1bFJfOVNEM3AwVmxBRVZKRExlTkNteENzSkZDbTNrbGg4ZXB5OFNiZkFXTDRMb2tfUWhkRlJzTjRlb2R6MHpNLVpIbGtLdUMtVllMQVlzTF9uM1VyTjlIMjVjRTgzZHprYnN0ZlpHVHZJeXRWVy1XWWZicklhNjBFS2lMSkRZR3ppLVh3ZE9r?oc=5",
-    "pub": "Sun, 04 Oct 2026 09:54:52 GMT",
+    "pub": "Sun, 04 Oct 2026 10:39:52 GMT",
     "src": "MIXED Reality News",
     "trig": false,
     "geo": false
@@ -1347,14 +1347,6 @@
   ],
   "macro": [
    {
-    "title": "OPEC+ keeps November oil output targets unchanged as supply remains disrupted - Gulf News",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQWV9FZ29TdUNDQUNUR0phbHI3SUtZQ3hzcTc5VV9UUXpRdnJZbnJpcUl0TkZneF9RS1oxMkVpN3FJNlhCYi16NmpzZTBTNnVqM2lXRWdUbWVyVFdhZjhPN3pVVHNSaER2UHppTjBYUVRnaWpzak5aV2VRVzBibUotZjI1ckRLVUtTNU93TU5STjlNM3FVajg1QlUzRE50UTlzenRmT0NZNl8xRDNaMENoUi1zRzJOOURTTGpZeHZuUjVMbFnSAdYBQVVfeXFMTlFtNjJkcG9PWk4xTFN2N1JGSXN6dndsM1ZMZjV4M3pHMm04NGtMWTlQZExmbFYtVDlWYTI3Z3RENXh5ODJjRVdZTGxkSnhEd1owTk5ZOU8wNWtiOWJHNTBIT043Qm5zQVI2MnV1d3BRUkQ0NnlSQk56TFlmS1VNaXQxbGdVT1BPSmc5Q28yVUowVHNwS0VVOTZvLVY3cjhQbGxMN3hUYm9fUXdQeWFmQVk0SlNJWG45Y0d1OHdyVmlaNlM2d2pZMndObEFLeDN0WUctTjNydw?oc=5",
-    "pub": "Sun, 04 Oct 2026 12:28:27 GMT",
-    "src": "Gulf News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Bitcoin faces major US Fed and inflation events in October that could cause big market swings. - Pluang",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZDEwUE50RE8yNDZSYVVMNDdjUFljeVZleW13Z19Bcm80NXE2LWd0b0FMNFpfYzhEZEFNem5qQWJ6NmZOc0hSYkRHUGpraThFNWhIUDVsLTVmZnpvdmdxaXJJMWltcWFneGM4RUYtUDE5TW5zMVcyYmpVSzFHekxwN2J0c3Z0Rlk?oc=5",
     "pub": "Sun, 04 Oct 2026 12:24:19 GMT",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ1VvRzhOMmt0VVZjUHF4WHFhdl92Nm1ENTFDQXNIZGczQXhjQVMwOWY5Tm1CclVRdU5aejFKX05Ga1dxNjhTODhsYXhCUVgzNzBYMFdySDZLc3EyLUs4VEp1V3hBOG9Sc01zVFFpWVF0ZDdROHFzRm1vdXNoa3dnZXYycjFEcHNiNUR5aVNiSzlia0s1a25xcnVRbTF1N1o2dEEzWGxJR016ZExVTnA1cFJRNVV1RDRTTlEyeDlpSE0wZUhmU2hoVjc2bw?oc=5",
     "pub": "Sun, 04 Oct 2026 06:08:27 GMT",
     "src": "TradingKey",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed Must Decide on Rates This Month Without the Data It Normally Uses - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNMExrek85clhLclVNREtoZDVrUlhQUnJVUTk2S0JkbWpxYTJsU0tJeWdZbk92VDdUbGFqMjNERXJqMVpGOC1HYXNKTE5rY2t2Z3hsNWIzSXpibWQ0UXM5OExydW83S3lOY3dUVGNqUjB2Z1RUUUJ2VEMxRmc5cEJqUFVBRC1aR1JKa1NjcEQ5dnJWbWtsWFFrX0YzNVBVdw?oc=5",
+    "pub": "Sun, 04 Oct 2026 05:18:40 GMT",
+    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85184.25
+   85239.59
   ],
   "vixts": [
    0.86,
@@ -2741,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T13:21:44+00:00",
+  "checked": "2026-10-04T13:32:01+00:00",
   "openai": {
    "found": false
   },

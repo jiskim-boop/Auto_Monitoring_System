@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T15:22:27+00:00",
+ "updated": "2026-10-04T15:32:35+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85451.84,
-   "chg": 0.81,
-   "chg5": 2.19,
-   "chg20": 9.32,
-   "sma20": 82806.29,
-   "sma50": 79007.21,
-   "sma200": 71768.11,
+   "price": 85300.45,
+   "chg": 0.63,
+   "chg5": 2.01,
+   "chg20": 9.13,
+   "sma20": 82798.72,
+   "sma50": 79004.18,
+   "sma200": 71767.29,
    "high3m": 86602.91,
-   "reg": 85451.84,
+   "reg": 85300.45,
    "pre": null,
    "post": null,
-   "regClose": 85451.84,
+   "regClose": 85300.45,
    "sess": "reg",
-   "mt": 1791127286,
+   "mt": 1791127921,
    "ok": true
   },
   "USO": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "Fed Rate Decision Odds: Oct. 28 FOMC Hike or Hold - defirate.com",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE4zNDBSUXRBcXNVV29wd3FvZGFkUXdlQW5Hck1LX045aENFbktiV3B0WWVqMVFzY1U0QWhDWEZDMlFjN2tRYmdOTERtODNQUUdR?oc=5",
+    "pub": "Sun, 04 Oct 2026 13:02:00 GMT",
+    "src": "defirate.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Share Market News: Nifty 50 Outlook & Prediction - Liquide Blog",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ1pWNnU5Rl9feER0WXN1ZFB1MmdLb1pQUFVvTTBFTmFDeXBMd1FWbEdTOUZ4a3hTMHhXSUlSTkpnVFo2N254SHV6YWJoS00tTEVxaWZ5UFNDNTZ5Z0E4V3p4dXVvNVByR3FRY1Vib0hSd2ZOZG9qNUJiLTRhZWhZd3h4VzNUaUFYeEVDVE1FdlBBNENGeHg2aWZn?oc=5",
     "pub": "Sun, 04 Oct 2026 12:57:45 GMT",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaURiM0o2bmdScUJZcnI0MkJWcm5qcWVpU0lYbEVPZ0xfcFRvUXNqanRkUUpzemFqX1NWeDFIQkppdW1GdmZLQ1NKeFBVaF9FUC16UzFMSC1nVHJRcW1FSFNNaG9KTjktMGlhbGVjbWI0M2tQZUQ0VXAySHl1RVV4eTN4VkdfSEJkOU5lVTNqTmdTQjJnNTRNY3B0SQ?oc=5",
     "pub": "Sun, 04 Oct 2026 10:33:35 GMT",
     "src": "Global Banking & Finance Review",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices? - aljazeera.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWE16VFQ0OUl3bzdndnJJWThfVk44RkJpSW5DVnNhVlpvUEVXRERibG9uY1JHRjJfUDd3NWJjN1RKSjl5UWlzN0dfLTFOY1hWQTJRZm9YUDhOMlJldWNJbzdYRVgzUDFud3RCVzJURDU3bnNHZEpWaWNudGFZcXpfa004eTFPY1d0dkJ1TWZadWJyT29pd3M5UktYX3AyX2RydkJxZUxNak40b2t0YU9XdEVR0gG3AUFVX3lxTE5SbFhyWHIxSVZyTDJxQkQzeUo5VWRJYlBvN0ptQ0stVXNTN1lNbXh1X2xRMUVTWDl6akZEYlZYcmRWdFdIbWROQVBOX0hPc1NjRDFyM1hBYlloTXNtb2xocWZXWnA4SWNxTVNCVno3N042V3V1U195bjU4cWlZSWx6SGJXQ1Y1UlFtX0RSaEZ0T0UxemhCTzgwS0VuWUF2bkhldEt5UkRZZVJ6VWsxaTBRNGJScVNQdw?oc=5",
-    "pub": "Sun, 04 Oct 2026 09:54:13 GMT",
-    "src": "aljazeera.com",
     "trig": false,
     "geo": false
    }
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1712,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85390.2
+   85303.3
   ],
   "vixts": [
    0.86,
@@ -2717,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T15:22:13+00:00",
+  "checked": "2026-10-04T15:32:22+00:00",
   "openai": {
    "found": false
   },

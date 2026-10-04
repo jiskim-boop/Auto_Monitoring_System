@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T09:41:56+00:00",
+ "updated": "2026-10-04T09:51:58+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85266.99,
-   "chg": 0.59,
-   "chg5": 1.97,
-   "chg20": 9.09,
-   "sma20": 82797.04,
-   "sma50": 79003.51,
-   "sma200": 71767.11,
+   "price": 85235.16,
+   "chg": 0.56,
+   "chg5": 1.93,
+   "chg20": 9.05,
+   "sma20": 82795.45,
+   "sma50": 79002.88,
+   "sma200": 71766.93,
    "high3m": 86602.91,
-   "reg": 85266.99,
+   "reg": 85235.16,
    "pre": null,
    "post": null,
-   "regClose": 85266.99,
+   "regClose": 85235.16,
    "sess": "reg",
-   "mt": 1791106882,
+   "mt": 1791107486,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "‘Pharma Bro’ Martin Shkreli Says CRWV Stock Is A ‘Short’, While Wall Street Raises Price Targets After Earnings - stocktwits.com",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQNkhfSTdoa0RaSWpBRnpGSjlsblQxNmNzNXRiSnYweWo4LXRidWJhUUtsdE5nMUZZRlphTmxCY0dHNTdXQU5SamxGc0ZFOEpGTHpDWWpoVzhHQzVaUjIwYTRFSlhROUl4OG9HMGJyRU40dG81YjB4X1dxRlVkWlFuSmtES2hMWWE4U0E3VFZsNVVBYWdNNnA4b0JXX29VSzd4bFRMZHNQeWdWRC1YZlVaYndLU214bTcwNTl3andR?oc=5",
+    "pub": "Sun, 04 Oct 2026 02:37:07 GMT",
+    "src": "stocktwits.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI Bond Issuance Freezes in September at Just $23 Billion; Morgan Stanley: Hyperscale Cloud Providers to Return to Market in Q4 - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAxQ1JXSHAxUmE1WnRWTkNKZHNVRlhBYXNBUDNIY254dnVpN2RnYlFoR3ZLNjNpQkt0RVE0Q3gzT2RJQXBDdlVZUGVzRkpkYS0tR0RCb2ZEbThDQWtTVFpvMmRTbGNHT1c0LUtvcGxaNlc2bGFsZ0E?oc=5",
     "pub": "Sat, 03 Oct 2026 18:17:00 GMT",
@@ -1279,28 +1287,36 @@
     "geo": false
    },
    {
-    "title": "Blue Owl Capital (NYSE:OWL) Coverage Initiated by Analysts at Wells Fargo & Company - MarketBeat",
-    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPQS1tby1yZzNjeEc5NEMxbzI3V0lIT3JGZDZWSTFILXoxWXZxTEFTemxjYUtTbXdXLWdya3BlZFdaU3JINERWRmxWWngwNUlQelczbWt5WDB5SVZUMnJLOVRFQ3NEMFZQdU4ycHN5MWZONVpKQ19CQ2g5TzZuOURjODJrQlB6MjNRcVlVdUlXOGVCcWxZUTFUX0RSU3hlcWxnbUJjUzFjeGliTV9qRnpCTDhJN2ZkY0EwbGFHVWpTMWI1SXQ0R0NLenJqZnJBR2J0WmdkQVg5aGY?oc=5",
-    "pub": "Sat, 03 Oct 2026 10:11:16 GMT",
-    "src": "MarketBeat",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Blue Owl caps redemptions at 5% amid AI fears - briefs.co",
+    "title": "Blue Owl caps redemptions at 5% amid AI fears - Briefs Finance",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOY2xXb0NRNDRIRlFPYmxTMFh5d3NDSzh5dTctSlJNRXFzd2gtbkR1cHN5UkY5MmdsT2tFeGwwcGg2QUhDdFJTXzN1OWVDVkw5aGhWMG1HTVNtYVZZaGNrNXhkMkZWLTA5bVowWnBzYkRMT1hQRElMbVphV3hnU0ZxY0dWd1NhcU0zdHhlcjQyaGlBdw?oc=5",
     "pub": "Fri, 02 Oct 2026 23:54:37 GMT",
-    "src": "briefs.co",
+    "src": "Briefs Finance",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
+    "title": "OpenAI says its own models optimised Astra Ultrafast's inference on Nvidia GPUs - MIXED Reality News",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQRUxYYWFoY0k1bFJfOVNEM3AwVmxBRVZKRExlTkNteENzSkZDbTNrbGg4ZXB5OFNiZkFXTDRMb2tfUWhkRlJzTjRlb2R6MHpNLVpIbGtLdUMtVllMQVlzTF9uM1VyTjlIMjVjRTgzZHprYnN0ZlpHVHZJeXRWVy1XWWZicklhNjBFS2lMSkRZR3ppLVh3ZE9r?oc=5",
+    "pub": "Sun, 04 Oct 2026 09:09:52 GMT",
+    "src": "MIXED Reality News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SDA’s Fourth Tranche 1 Mission - spacex.com",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
     "pub": "Sun, 04 Oct 2026 07:47:22 GMT",
-    "src": "SpaceX",
+    "src": "spacex.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Cerebras bets its whole chip design on dodging the packaging queue crushing rivals - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQYTkydDJCX1ZLamQ0amJFZS1CTEczMlFISFNXbXRxRVhvcE5JVUR3SVZBQVItWW42Zm5XckZuM0xLRWJWaGJqaE93bVRYS3dYY3JheGlPQXdIVEp2aTQwUXhfUXIxeGdyb1BUSUNZN0VCTmR6VXl5dDZkNUVqaUZLa2RHUUxwUHZ4N084dGw3VmRWTVk4Tk1EX21EX3lFZ1FCbVA4QlBqWUZQeXZDcklz?oc=5",
+    "pub": "Sun, 04 Oct 2026 07:16:49 GMT",
+    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    },
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE44dlZYeGE4cU9nRjFJNEROSG1VMk02Ty1zVGJ3dEhoMW9VWDB3b0IzU2xHdjZ1M2xXTV9RSzZ0a0Z5VWRCQy1sUlROd0ZtQVA1S1N2WXJNZFpXbXVld2FYMFB5SzI4Y3JHQ2hOTGQ5YWxIa2NNNUE?oc=5",
     "pub": "Sun, 04 Oct 2026 03:05:00 GMT",
     "src": "finance.biggo.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk's xAI stops new law prohibiting AI-powered 'nudification' tools by arguing free-speech violations - tweaktown.com",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNSW5Jc0x4aGY0bDdpQjNESFlkOU10c3hLeTNsY0dNYWtrWWRQVk8wSG84VHYyY0dzRU0wU0I3al84YTVLNDBBZDUxM2VxLVVCdF9md1Y3T21rOXNKbVdvTVBDVFltNlJIblR6ZktOdEFWZjU5SjdMak00M0FkLUwzcFJPejYyOFV3UHRGYVE2bExRdTFSMXRsSG5DbEMwRVlTT09iR25PR3BDdWZMbGp4RjdJMUhoRVBnNmM0UllmTlVTR1ROWDJ4N3E5RmQtYnFReS1taEFFZTF5UU5sMkhaXzk5WXlnWHY0?oc=5",
-    "pub": "Sun, 04 Oct 2026 02:43:14 GMT",
-    "src": "tweaktown.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SKHY Stock Slips Premarket After Korean Memory Giant Reveals $38B Expansion Plan Amid AI Hyperscaler Capex Frenzy - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxPX1dwdDRtU2w0Q2dSWW1ESHk4dFhKMThjOS1nc2dQSFpnbm1NUl9UOWMzVjFBZndoQU8ydUczYUdDRG1VdWRHaWpLb2RZMUEwcHRET0ZjNEk0NUFuRnJBci1KZGJ5Y1hmb181bXA5U213QkFQWjRXNnFIR2cyU2kxanFxTkZhWXlBQ3FYTEw0RGxvYVQ1aktNVVdhdXR3amxMX3g1S25HRDVFVXJRa2RLdGlGSk9yczNFT01YTklSdFhtb1RLcUhGeXJOdDdBdG40cGFDOFktTWZfbjRnM3pDQ2NFVW13dWVoY1lrazVZazBkTGxYRVpSYjBFY280aVJ4cEJPTTZB?oc=5",
-    "pub": "Sat, 03 Oct 2026 22:47:13 GMT",
-    "src": "Stocktwits",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85269.46
+   85238.22
   ],
   "vixts": [
    0.86,
@@ -2469,7 +2469,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 25
   },
@@ -2741,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T09:41:43+00:00",
+  "checked": "2026-10-04T09:51:45+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T04:42:21+00:00",
+ "updated": "2026-10-04T04:51:58+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,7 +1006,7 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 84801.99,
+   "price": 84802.0,
    "chg": 0.36,
    "chg5": 1.56,
    "chg20": 10.36,
@@ -1014,12 +1014,12 @@
    "sma50": 78559.43,
    "sma200": 71693.55,
    "high3m": 86602.91,
-   "reg": 84801.99,
+   "reg": 84802.0,
    "pre": null,
    "post": null,
-   "regClose": 84801.99,
+   "regClose": 84802.0,
    "sess": "reg",
-   "mt": 1791088884,
+   "mt": 1791089485,
    "ok": true
   },
   "USO": {
@@ -1387,10 +1387,10 @@
     "geo": false
    },
    {
-    "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
-    "pub": "Sat, 03 Oct 2026 17:46:01 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
+    "title": "Weak Jobs Report Paves Way for Fed to Pause Rate Hikes in October - finance.biggo.com",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE14NmlnVHNUc0k3WXVmYktxRThYbDVESEJQNGp4Xzk5OGgwUGFoRGdlR2I0YjlNOTZsZzc2cWJQWFJBaGhJalRDb2lWVWwzcWVBRXRFZFlQVjNfVkxWeVlPSWlPVmNOQ2g4X191VGhkQ0RtWVR6Snc?oc=5",
+    "pub": "Sat, 03 Oct 2026 18:16:00 GMT",
+    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -2717,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T04:42:08+00:00",
+  "checked": "2026-10-04T04:51:43+00:00",
   "openai": {
    "found": false
   },

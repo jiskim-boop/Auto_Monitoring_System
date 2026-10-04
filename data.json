@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T19:22:26+00:00",
+ "updated": "2026-10-04T19:32:24+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85380.34,
-   "chg": 0.73,
-   "chg5": 2.1,
-   "chg20": 9.23,
-   "sma20": 82802.71,
-   "sma50": 79005.78,
-   "sma200": 71767.72,
+   "price": 85458.06,
+   "chg": 0.82,
+   "chg5": 2.2,
+   "chg20": 9.33,
+   "sma20": 82806.6,
+   "sma50": 79007.33,
+   "sma200": 71768.14,
    "high3m": 86602.91,
-   "reg": 85380.34,
+   "reg": 85458.06,
    "pre": null,
    "post": null,
-   "regClose": 85380.34,
+   "regClose": 85458.06,
    "sess": "reg",
-   "mt": 1791141683,
+   "mt": 1791142304,
    "ok": true
   },
   "USO": {
@@ -1405,14 +1405,6 @@
     "geo": false
    },
    {
-    "title": "Oil Prices Lower On G-7 Fuel Release Plan - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnBHZHk3blRobW1RR1dhMnZOcjBhNHhXN3ZWZHdpMVpkTHRiU1dSN1c0TjVEUWxPVDFacG84LXc5aDEwQkNhWF9JUjVZTTNaTG5Rb3JBNUVoa1ZvVjhEajBxdlBVTWYzTXl2X1I2TGllakdEQkNNcGt1UzZDaUZnbkprMENuVkpZMWlfYmhCUDI1bjhEc291U25Mc0R0TFpzVlQzMkZOZGVZTldLUWFHMVJ5VGN6RG1Jal9qNXF1MHZ3QzUwc2c?oc=5",
-    "pub": "Sun, 04 Oct 2026 17:48:11 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Predicted to hit Rs 2 lakh, will gold prices fall to Rs 1.25 lakh per 10 grams? - The Times of India",
     "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOUmF3Mld0WUo3UXdoWTY4bnBBaTdqSC1QcFFoYzFvM0FKZGs5U2M3ZmRmaHVRM0FNMWRrdVoxUjEyWkdZNjNRNnh1M3J4MmNHQzdLQjhXNVMtT2ZJV2pZX1l1VDhSc2dtbGhQc1NobWdySExTUEhNU1dWcUZObXpZeGpIbk9GYjlLb2ZNU0JZalloSXVoMHlrVTRoVVlLdDdUVUxTOWx3bVlkWFlvd0lCVm5IcEppbF9jd2xRVWpsbHRQZUwyaUVaSkdHT0xXVFJOYktLM0U0Z2dzUFJJMU05eE9qcmNhQ0JVLVZNbF85T1BnTEVkNVE?oc=5",
     "pub": "Sun, 04 Oct 2026 13:41:00 GMT",
@@ -1443,6 +1435,14 @@
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": true
+   },
+   {
+    "title": "Stern Drew (@SternDrewCrypto) on X - t.co",
+    "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE00QmFpampIanZ4ZGdrSDJpX25TaTF1QzVXUktNTFZjdU1WNG10RTk5SzVwd216NC1Zemhv?oc=5",
+    "pub": "Sat, 03 Oct 2026 17:25:00 GMT",
+    "src": "t.co",
+    "trig": false,
+    "geo": false
    }
   ]
  },
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1712,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85382.24
+   85488.09
   ],
   "vixts": [
    0.86,
@@ -2717,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T19:22:12+00:00",
+  "checked": "2026-10-04T19:32:10+00:00",
   "openai": {
    "found": false
   },

@@ -1,23 +1,10 @@
 {
- "updated": "2026-10-04T08:52:02+00:00",
+ "updated": "2026-10-04T09:03:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "price": 233.95,
-   "chg": 1.34,
-   "chg5": 3.95,
-   "chg20": 2.41,
-   "sma20": 223.79,
-   "sma50": 218.28,
-   "sma200": 210.96,
-   "high3m": 233.95,
-   "reg": 233.95,
-   "pre": null,
-   "post": null,
-   "regClose": 233.95,
-   "sess": "reg",
-   "mt": 1790971201,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 355.14,
@@ -1006,20 +993,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85092.66,
-   "chg": 0.39,
-   "chg5": 1.76,
-   "chg20": 8.87,
-   "sma20": 82788.33,
-   "sma50": 79000.03,
-   "sma200": 71766.16,
+   "price": 85086.68,
+   "chg": 0.38,
+   "chg5": 1.75,
+   "chg20": 8.86,
+   "sma20": 82788.03,
+   "sma50": 78999.91,
+   "sma200": 71766.13,
    "high3m": 86602.91,
-   "reg": 85092.66,
+   "reg": 85086.68,
    "pre": null,
    "post": null,
-   "regClose": 85092.66,
+   "regClose": 85086.68,
    "sess": "reg",
-   "mt": 1791103884,
+   "mt": 1791104522,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1284,14 @@
   ],
   "fundamental": [
    {
+    "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
+    "pub": "Sun, 04 Oct 2026 07:47:22 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Lenovo Takes Aim At AI Deployment Delays With Pre-Validated Nvidia GPU Servers - SMBtech",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMEdLZS1VSUxOTlMxOEw2cVF3VHRETWFlWEZ1ejRuLW9YXzd1bXF3Sm9vcGhtUVRXUFVrQm5odERqWXBOQVpONWdJOTMzNEQ3b3d0ZnR5cVF5VUVVYmkxTXdfdWFUY0tQZjliQVR1MEViYVRvWVY0eTU5S0pyWkRPYXNOZzctT0dBbkw3ZlEtTTQtU2lmTTlXZ25qYkU4b0tSdWpGOFBB?oc=5",
     "pub": "Sun, 04 Oct 2026 06:00:51 GMT",
@@ -1309,14 +1304,6 @@
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOVEpFLUpjRTBCejBFSER3SVF3TDZXTEhWWW5ra3BlUHhYbVdrY0ZERk9YUnR6Y3BidEZJczR2MF81clNJdE9EN1JfYVNyUkowenVzWEZGTHJzZVdrQjVvNmFESlJRZXFpd1JjU3hZMGNBVWpnLUk0MU9NVVpTSFU2dUVPRQ?oc=5",
     "pub": "Sun, 04 Oct 2026 05:30:42 GMT",
     "src": "The Dark Side Of The Boom",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
-    "pub": "Sun, 04 Oct 2026 04:46:41 GMT",
-    "src": "SpaceX",
     "trig": false,
     "geo": false
    },
@@ -1397,6 +1384,14 @@
   ],
   "flow": [
    {
+    "title": "Oil Prices Lower On G-7 Fuel Release Plan - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOdnBHZHk3blRobW1RR1dhMnZOcjBhNHhXN3ZWZHdpMVpkTHRiU1dSN1c0TjVEUWxPVDFacG84LXc5aDEwQkNhWF9JUjVZTTNaTG5Rb3JBNUVoa1ZvVjhEajBxdlBVTWYzTXl2X1I2TGllakdEQkNNcGt1UzZDaUZnbkprMENuVkpZMWlfYmhCUDI1bjhEc291U25Mc0R0TFpzVlQzMkZOZGVZTldLUWFHMVJ5VGN6RG1Jal9qNXF1MHZ3QzUwc2c?oc=5",
+    "pub": "Sun, 04 Oct 2026 08:48:11 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices? - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWE16VFQ0OUl3bzdndnJJWThfVk44RkJpSW5DVnNhVlpvUEVXRERibG9uY1JHRjJfUDd3NWJjN1RKSjl5UWlzN0dfLTFOY1hWQTJRZm9YUDhOMlJldWNJbzdYRVgzUDFud3RCVzJURDU3bnNHZEpWaWNudGFZcXpfa004eTFPY1d0dkJ1TWZadWJyT29pd3M5UktYX3AyX2RydkJxZUxNak40b2t0YU9XdEVR0gG3AUFVX3lxTE5SbFhyWHIxSVZyTDJxQkQzeUo5VWRJYlBvN0ptQ0stVXNTN1lNbXh1X2xRMUVTWDl6akZEYlZYcmRWdFdIbWROQVBOX0hPc1NjRDFyM1hBYlloTXNtb2xocWZXWnA4SWNxTVNCVno3N042V3V1U195bjU4cWlZSWx6SGJXQ1Y1UlFtX0RSaEZ0T0UxemhCTzgwS0VuWUF2bkhldEt5UkRZZVJ6VWsxaTBRNGJScVNQdw?oc=5",
     "pub": "Sun, 04 Oct 2026 05:14:25 GMT",
@@ -1433,14 +1428,6 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNUlZlOUliM3RUd2NlU0tHSFJ2LTBYSkFhUmxGU2k0S0xOQ3RZc1ItdUViRG9LWWcwQ3NPblNyYlRwZUQ0WkpjU1BUTTVjOVVEejRSZ1c3bmhkTURhcEZ0VzNhXzJfbERzX2VOOGYxMGNBUWNSOTBxSmljOTM5c2M1dGtzcm96ZHZISzNlOTF1TXRhaUo3RmdMTTdzeTNGQlFZVWpPdzYtS0VmMi1UMnhR?oc=5",
     "pub": "Sat, 03 Oct 2026 14:06:43 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Global X Copper Miners ETF - Backpack Securities Price, COPX Price, Live Charts, and Marketcap - Coinbase",
-    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQa09QQkJCZUh3NUp0WTNfMXhkNFM3YWpkS3dJMUJiX3pOZlZtcEN1bjd0aG55S0ZiTVcyeF9YTllFYXk3ckdQelNINF9KMEwwVEVIQ284ZUwyeVpwNW9pLVdiQTdpd25iV3dZamFfRTYyalBBdTYyX0NDVXBIS093YU5LTU9KN00weUR4QlY1aVhwS2U1Zml3Z1N1Z1RMOFlxNWs3ZDd6bERXcHhlVWtwY01teDFEb1NlbWs1LWRHTjFuRFpxOFl6MkxPQ1dPa3NXOW5z?oc=5",
-    "pub": "Sat, 03 Oct 2026 12:04:36 GMT",
-    "src": "Coinbase",
     "trig": false,
     "geo": false
    }
@@ -1561,31 +1548,7 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": {
-   "value": 42.41,
-   "series": [
-    41.93,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12,
-    42.25,
-    42.39,
-    42.44,
-    42.41
-   ],
-   "chg13w": 0.92,
-   "us_chg13w": 1.23,
-   "eu_chg13w": 0.6,
-   "us_t": 23.31,
-   "eu_t": 19.11,
-   "asof": "2026-08-31",
-   "eu_asof": "2026-08-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1736,7 +1699,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85088.11
+   85066.97
   ],
   "vixts": [
    0.86,
@@ -2469,7 +2432,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 25
   },
@@ -2732,16 +2695,18 @@
   25
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 1,
+  "failed": [
+   "NVDA"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 60,
-  "n": 35
+  "pct50": 59,
+  "n": 34
  },
  "ipo_watch": {
-  "checked": "2026-10-04T08:51:48+00:00",
+  "checked": "2026-10-04T09:02:48+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-04T17:02:31+00:00",
+ "updated": "2026-10-04T17:12:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85378.03,
-   "chg": 0.72,
-   "chg5": 2.1,
-   "chg20": 9.23,
-   "sma20": 82802.59,
-   "sma50": 79005.73,
-   "sma200": 71767.71,
+   "price": 85321.36,
+   "chg": 0.66,
+   "chg5": 2.03,
+   "chg20": 9.16,
+   "sma20": 82799.76,
+   "sma50": 79004.6,
+   "sma200": 71767.4,
    "high3m": 86602.91,
-   "reg": 85378.03,
+   "reg": 85321.36,
    "pre": null,
    "post": null,
-   "regClose": 85378.03,
+   "regClose": 85321.36,
    "sess": "reg",
-   "mt": 1791133315,
+   "mt": 1791133894,
    "ok": true
   },
   "USO": {
@@ -1247,10 +1247,10 @@
  "news": {
   "credit": [
    {
-    "title": "Is CoreWeave Stock a Buy Right Now? - The Globe and Mail",
+    "title": "Is CoreWeave Stock a Buy Right Now? - theglobeandmail.com",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNWExycHVaRWktbDY0MTdLb0lDXy1UZGROTS0tSHdEMmtWSDNNQlZwcnl0bUN0SHJqNGZKUDZJQTQ5QzlJX1BKRUx5M3B1RXFjVXVtNFpCSzRaZ3dtR2JBcjBFbnR6U2Y2S1BWSWlZb09FS2xiMDJiNTZHdE1KMXZDLXQ2WUcxQVl2Mm9TcXprYkhEbFN0NWVURnRzWXNzWkF3aG1RZ3lUbTFoNGZMQ0lTQVBYMklnVENFZmVB?oc=5",
     "pub": "Sun, 04 Oct 2026 16:20:52 GMT",
-    "src": "The Globe and Mail",
+    "src": "theglobeandmail.com",
     "trig": false,
     "geo": false
    },
@@ -1279,10 +1279,10 @@
     "geo": false
    },
    {
-    "title": "Goldman Sachs BDC stock posts USD 83.7 million in Q2 income - AD HOC NEWS",
+    "title": "Goldman Sachs BDC stock posts USD 83.7 million in Q2 income - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPQkRiOUExbDJBWXE1YmxXdVRYM0lndEVwUmVjWWh5MzdBc2VlUWNzdjIwVmJEQVhGRUp4cUYwYUpuLXcwcnRBSHVja3ZuMVZady1EV193Yi1abkVudDdUbE1kN3luSl9icUJrQ245bnd4ZkxxY2FpR21QaWY5em9vWkFUZVpvR1MtcjBfeUE5TFFsVW9vbmxnVEVKQmp2QnNscFB0VnNBYTFoM3JjYnhRb2VrWkZQV0ZKUG9XblhJNA?oc=5",
     "pub": "Sun, 04 Oct 2026 14:20:50 GMT",
-    "src": "AD HOC NEWS",
+    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    },
@@ -1296,6 +1296,14 @@
    }
   ],
   "fundamental": [
+   {
+    "title": "AI Custom Chip Stocks Roundup: Beyond Broadcom, Which Deserves More Attention Among Marvell Technology, TSMC, and Amkor? - TradingKey",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNdHAzazlpbUdCc21oSjFIN1lFUHoxcW5xbm5oSEdkRm5kbDE1OEtIbWxtNzAzQ0FYUjctS3FNNUNOUGlIN2NOMUZ5WWxvWnlCTXlhakFFTHZpbEdsNGtkTFRUWWpwZFFsMWE2V1k3Y1F5N3BtMUx5ZUdYTWNrSU0takxxU3UzWXZ4bEg3bDIwSEVXN05tX3FnWXVKUDhvb1FJSWxhSWs4b1Y?oc=5",
+    "pub": "Sun, 04 Oct 2026 17:05:42 GMT",
+    "src": "TradingKey",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "SDA’s Fourth Tranche 1 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1XbnVpODR4eS1keE1WaDNVU1hmQ2N4YnY3eWdCcW1KSWM4dk5KSWFscDk0eERzQ0ZnXzlhSTBZbkZtbS1uM2V1VVdGUTNGNjhHZXhVNQ?oc=5",
@@ -1335,22 +1343,22 @@
     "src": "BASENOR",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AMD Reaches a $1 Trillion Market Cap. Can It Finally Dethrone Nvidia? - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOTF8wZnZpQnRNRjFlSHZad3hjM2lTdk0wQnZtaklzYnFIaWpjWUI4enFDQ3lHOHF6M0ZDVWFzOXpjbFV2UWpsWTVzNElXX21jWUFMWFhuNlVZQWNFcTdmS2pEUDJMREhTWHpOeHZ2Yi1DNHNRb1B2UExEdHBnYS16Z2hIcXl3U2RVdURCQ1RjWXphLUxBbWJlVEZsZ0paRnpaNEI3dlgtVkZxWmZKQk5yZnV0NkxiUzFrXzhxZE5JOWtfc1FMd2EweDFXU0lMSVA1eGRaMU52R2cwNVpndFhtOW5keno?oc=5",
-    "pub": "Sun, 04 Oct 2026 13:34:54 GMT",
-    "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Shulyatyeva: Labor Market Will Take Back Seat to Inflation in Fed’s Coming Rate Decision - kathleenhays.substack.com",
+    "title": "FOMC Minutes, Interest Rates and Other Key Things to Watch this Week - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNV3ZjdlhpWEhyb2FQUW9kRkhhRGNyY2N1VklKWnVtdVhOUjBic0c0TEhsb3dIcUFwUEY5VHFuWFV4RWRXejg5LWdDVG8zclpqblFhamg3NVZIRE0tcFBpVm1IVW5veE85MDNkak5wamtpVEtPLWFpRF9XVU5GaHZjdTA5bGVJd2JqU3NLWVZ0aGZiZDhZeVJSU3pOQWZDVnVsMUVLSEVuOFJtWUFMS25JQQ?oc=5",
+    "pub": "Sun, 04 Oct 2026 17:00:02 GMT",
+    "src": "Barchart.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Shulyatyeva: Labor Market Will Take Back Seat to Inflation in Fed’s Coming Rate Decision - Kathleen Hays Presents: Central Bank Central",
     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8xZ2NXSktMaTBscUxQWlgzWEs0U1Z4OUxXamU3V0JRUVgzV0V6UWp3M21wM1RkLUV5MmN1am56Z3ZWdWFVRThwMUc2OXFwUmtGbW5OY2xsYk9NY0V5eEdGel9MdWEtTHNMZWlOSGVKQ0ZYVm9zT1pHcTRB?oc=5",
     "pub": "Sun, 04 Oct 2026 16:37:37 GMT",
-    "src": "kathleenhays.substack.com",
+    "src": "Kathleen Hays Presents: Central Bank Central",
     "trig": false,
     "geo": false
    },
@@ -1375,14 +1383,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ1pWNnU5Rl9feER0WXN1ZFB1MmdLb1pQUFVvTTBFTmFDeXBMd1FWbEdTOUZ4a3hTMHhXSUlSTkpnVFo2N254SHV6YWJoS00tTEVxaWZ5UFNDNTZ5Z0E4V3p4dXVvNVByR3FRY1Vib0hSd2ZOZG9qNUJiLTRhZWhZd3h4VzNUaUFYeEVDVE1FdlBBNENGeHg2aWZn?oc=5",
     "pub": "Sun, 04 Oct 2026 12:57:45 GMT",
     "src": "Liquide Blog",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin faces major US Fed and inflation events in October that could cause big market swings. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZDEwUE50RE8yNDZSYVVMNDdjUFljeVZleW13Z19Bcm80NXE2LWd0b0FMNFpfYzhEZEFNem5qQWJ6NmZOc0hSYkRHUGpraThFNWhIUDVsLTVmZnpvdmdxaXJJMWltcWFneGM4RUYtUDE5TW5zMVcyYmpVSzFHekxwN2J0c3Z0Rlk?oc=5",
-    "pub": "Sun, 04 Oct 2026 12:24:19 GMT",
-    "src": "Pluang",
     "trig": false,
     "geo": false
    },
@@ -1421,10 +1421,10 @@
     "geo": false
    },
    {
-    "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices? - Al Jazeera",
+    "title": "G7 to release 100 million barrels of oil and diesel, will it curb prices? - aljazeera.com",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNWE16VFQ0OUl3bzdndnJJWThfVk44RkJpSW5DVnNhVlpvUEVXRERibG9uY1JHRjJfUDd3NWJjN1RKSjl5UWlzN0dfLTFOY1hWQTJRZm9YUDhOMlJldWNJbzdYRVgzUDFud3RCVzJURDU3bnNHZEpWaWNudGFZcXpfa004eTFPY1d0dkJ1TWZadWJyT29pd3M5UktYX3AyX2RydkJxZUxNak40b2t0YU9XdEVR0gG3AUFVX3lxTE5SbFhyWHIxSVZyTDJxQkQzeUo5VWRJYlBvN0ptQ0stVXNTN1lNbXh1X2xRMUVTWDl6akZEYlZYcmRWdFdIbWROQVBOX0hPc1NjRDFyM1hBYlloTXNtb2xocWZXWnA4SWNxTVNCVno3N042V3V1U195bjU4cWlZSWx6SGJXQ1Y1UlFtX0RSaEZ0T0UxemhCTzgwS0VuWUF2bkhldEt5UkRZZVJ6VWsxaTBRNGJScVNQdw?oc=5",
     "pub": "Sun, 04 Oct 2026 09:54:13 GMT",
-    "src": "Al Jazeera",
+    "src": "aljazeera.com",
     "trig": false,
     "geo": false
    },
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Southern Copper Corporation stock gains 3.17 percent on earnings beat and copper demand - AD HOC NEWS",
+    "title": "Southern Copper Corporation stock gains 3.17 percent on earnings beat and copper demand - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPdXNXMlptcml5OEFIUDdhTm1IaWhsOG9EZUVqcGNsWWRUeG1YS2E0TGZVVERpeVBnRFBKVkZJV19uZkg3MzA0NzFiUEVJQ0g2QVdRLUJGV3MzT2lnU180NDJYNTNmMDhldzcwYmtjdEVzcUE0SzNIVXpjODktZ0hmaEJpX05JSnhRbkw0MXZrS0pnRU9lS0RlMHpRU1lZeHZDcU5tTzlrUWUza3FfTGR5SzBPMm9qczBUbTJ1ZXdzSHRYQnlaWWpqTTBNcFlPSmR3V0tzRVExSDlVOTJ5bHpRejJ1UFE?oc=5",
     "pub": "Sat, 03 Oct 2026 20:05:26 GMT",
-    "src": "AD HOC NEWS",
+    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    80350.05,
    76838.16,
    81142.61,
-   85364.93
+   85321.06
   ],
   "vixts": [
    0.86,
@@ -2469,7 +2469,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 25
   },
@@ -2741,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-04T17:02:18+00:00",
+  "checked": "2026-10-04T17:11:55+00:00",
   "openai": {
    "found": false
   },

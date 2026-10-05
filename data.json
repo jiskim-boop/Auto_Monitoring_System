@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-05T12:32:57+00:00",
+ "updated": "2026-10-05T12:42:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -768,20 +768,20 @@
    "ok": true
   },
   "^VIX": {
-   "price": 16.11,
-   "chg": 5.23,
-   "chg5": 0.25,
-   "chg20": 5.29,
+   "price": 16.13,
+   "chg": 5.36,
+   "chg5": 0.37,
+   "chg20": 5.42,
    "sma20": 15.96,
    "sma50": 15.73,
    "sma200": 17.04,
    "high3m": 20.66,
-   "reg": 16.11,
+   "reg": 16.13,
    "pre": null,
    "post": null,
-   "regClose": 16.11,
+   "regClose": 16.13,
    "sess": "reg",
-   "mt": 1791202606,
+   "mt": 1791203176,
    "ok": true
   },
   "^VIX3M": {
@@ -853,28 +853,28 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.25,
-   "chg": 0.32,
-   "chg5": 1.04,
-   "chg20": 3.12,
+   "price": 102.18,
+   "chg": 0.25,
+   "chg5": 0.97,
+   "chg20": 3.05,
    "sma20": 100.52,
    "sma50": 100.02,
    "sma200": 99.78,
-   "high3m": 102.25,
-   "reg": 102.25,
+   "high3m": 102.18,
+   "reg": 102.18,
    "pre": null,
    "post": null,
-   "regClose": 102.25,
+   "regClose": 102.18,
    "sess": "reg",
-   "mt": 1791202915,
+   "mt": 1791203486,
    "ok": true
   },
   "^IRX": {
    "price": 3.99,
-   "chg": 0.28,
-   "chg5": -1.89,
-   "chg20": 6.76,
-   "sma20": 3.96,
+   "chg": -0.0,
+   "chg5": -1.58,
+   "chg20": 6.28,
+   "sma20": 3.97,
    "sma50": 3.82,
    "sma200": 3.71,
    "high3m": 4.07,
@@ -883,7 +883,7 @@
    "post": null,
    "regClose": 3.99,
    "sess": "reg",
-   "mt": 1790967595,
+   "mt": 1791203181,
    "ok": true
   },
   "LQD": {
@@ -938,20 +938,20 @@
    "ok": true
   },
   "^TNX": {
-   "price": 5.28,
-   "chg": 0.76,
-   "chg5": 1.79,
-   "chg20": 10.81,
-   "sma20": 5.05,
-   "sma50": 4.83,
-   "sma200": 4.6,
+   "price": 5.27,
+   "chg": -0.11,
+   "chg5": 0.59,
+   "chg20": 10.18,
+   "sma20": 5.07,
+   "sma50": 4.84,
+   "sma200": 4.61,
    "high3m": 5.29,
-   "reg": 5.28,
+   "reg": 5.27,
    "pre": null,
    "post": null,
-   "regClose": 5.28,
+   "regClose": 5.27,
    "sess": "reg",
-   "mt": 1790967595,
+   "mt": 1791203181,
    "ok": true
   },
   "^KS11": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85992.75,
-   "chg": -0.56,
-   "chg5": 2.92,
-   "chg20": 13.73,
-   "sma20": 83376.72,
-   "sma50": 79491.26,
-   "sma200": 71875.34,
+   "price": 85867.89,
+   "chg": -0.71,
+   "chg5": 2.77,
+   "chg20": 13.56,
+   "sma20": 83370.48,
+   "sma50": 79488.76,
+   "sma200": 71874.66,
    "high3m": 86602.91,
-   "reg": 85992.75,
+   "reg": 85867.89,
    "pre": null,
    "post": null,
-   "regClose": 85992.75,
+   "regClose": 85867.89,
    "sess": "reg",
-   "mt": 1791203519,
+   "mt": 1791204090,
    "ok": true
   },
   "USO": {
@@ -1040,24 +1040,24 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.2,
+   "price": 158.19,
    "chg": 0.17,
-   "chg5": 0.47,
+   "chg5": 0.46,
    "chg20": 1.28,
    "sma20": 156.27,
    "sma50": 158.05,
    "sma200": 159.33,
    "high3m": 163.86,
-   "reg": 158.2,
+   "reg": 158.19,
    "pre": null,
    "post": null,
-   "regClose": 158.2,
+   "regClose": 158.19,
    "sess": "reg",
-   "mt": 1791203523,
+   "mt": 1791204094,
    "ok": true
   },
   "KRW=X": {
-   "price": 1343.48,
+   "price": 1343.49,
    "chg": -1.26,
    "chg5": -0.81,
    "chg20": -0.12,
@@ -1065,12 +1065,12 @@
    "sma50": 1384.82,
    "sma200": 1456.19,
    "high3m": 1505.91,
-   "reg": 1343.48,
+   "reg": 1343.49,
    "pre": null,
    "post": null,
-   "regClose": 1343.48,
+   "regClose": 1343.49,
    "sess": "reg",
-   "mt": 1791203519,
+   "mt": 1791204089,
    "ok": true
   },
   "^OVX": {
@@ -1091,122 +1091,122 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7777.5,
-   "chg": 0.0,
-   "chg5": 0.4,
-   "chg20": 0.72,
-   "sma20": 7706.59,
-   "sma50": 7690.9,
-   "sma200": 7497.27,
+   "price": 7775.5,
+   "chg": -0.02,
+   "chg5": 0.37,
+   "chg20": 0.69,
+   "sma20": 7706.49,
+   "sma50": 7690.86,
+   "sma200": 7497.26,
    "high3m": 7833.5,
-   "reg": 7777.5,
+   "reg": 7775.5,
    "pre": null,
    "post": null,
-   "regClose": 7777.5,
+   "regClose": 7775.5,
    "sess": "24h",
-   "mt": 1791202922,
+   "mt": 1791203490,
    "ok": true
   },
   "NQ=F": {
-   "price": 31008.25,
-   "chg": -0.17,
-   "chg5": 1.45,
-   "chg20": 4.88,
-   "sma20": 30129.18,
-   "sma50": 29631.53,
-   "sma200": 29082.4,
+   "price": 30993.25,
+   "chg": -0.22,
+   "chg5": 1.4,
+   "chg20": 4.83,
+   "sma20": 30128.43,
+   "sma50": 29631.23,
+   "sma200": 29082.28,
    "high3m": 31061.75,
-   "reg": 31008.25,
+   "reg": 30993.25,
    "pre": null,
    "post": null,
-   "regClose": 31008.25,
+   "regClose": 30993.25,
    "sess": "24h",
-   "mt": 1791202922,
+   "mt": 1791203496,
    "ok": true
   },
   "YM=F": {
-   "price": 51502.0,
-   "chg": 0.05,
+   "price": 51500.0,
+   "chg": 0.04,
    "chg5": -0.65,
    "chg20": -3.63,
-   "sma20": 51955.55,
-   "sma50": 52838.94,
-   "sma200": 51563.11,
+   "sma20": 51955.45,
+   "sma50": 52838.9,
+   "sma200": 51563.09,
    "high3m": 54494.0,
-   "reg": 51502.0,
+   "reg": 51500.0,
    "pre": null,
    "post": null,
-   "regClose": 51502.0,
+   "regClose": 51500.0,
    "sess": "24h",
-   "mt": 1791202921,
+   "mt": 1791203490,
    "ok": true
   },
   "GC=F": {
-   "price": 4183.5,
-   "chg": 0.51,
-   "chg5": 0.36,
-   "chg20": -6.55,
-   "sma20": 4319.67,
-   "sma50": 4368.53,
-   "sma200": 4404.09,
+   "price": 4191.4,
+   "chg": 0.7,
+   "chg5": 0.55,
+   "chg20": -6.37,
+   "sma20": 4320.07,
+   "sma50": 4368.68,
+   "sma200": 4404.15,
    "high3m": 4697.8,
-   "reg": 4183.5,
+   "reg": 4191.4,
    "pre": null,
    "post": null,
-   "regClose": 4183.5,
+   "regClose": 4191.4,
    "sess": "24h",
-   "mt": 1791202925,
+   "mt": 1791203495,
    "ok": true
   },
   "CL=F": {
-   "price": 90.41,
-   "chg": -0.77,
-   "chg5": -2.37,
-   "chg20": -1.17,
+   "price": 90.38,
+   "chg": -0.8,
+   "chg5": -2.4,
+   "chg20": -1.2,
    "sma20": 95.99,
    "sma50": 88.6,
    "sma200": 88.93,
    "high3m": 105.83,
-   "reg": 90.41,
+   "reg": 90.38,
    "pre": null,
    "post": null,
-   "regClose": 90.41,
+   "regClose": 90.38,
    "sess": "24h",
-   "mt": 1791202924,
+   "mt": 1791203495,
    "ok": true
   },
   "HG=F": {
-   "price": 6.62,
-   "chg": 2.05,
-   "chg5": 0.9,
-   "chg20": 0.42,
+   "price": 6.63,
+   "chg": 2.08,
+   "chg5": 0.93,
+   "chg20": 0.45,
    "sma20": 6.58,
    "sma50": 6.56,
    "sma200": 6.34,
    "high3m": 6.8,
-   "reg": 6.62,
+   "reg": 6.63,
    "pre": null,
    "post": null,
-   "regClose": 6.62,
+   "regClose": 6.63,
    "sess": "24h",
-   "mt": 1791202926,
+   "mt": 1791203484,
    "ok": true
   },
   "ZN=F": {
-   "price": 104.44,
-   "chg": 0.07,
-   "chg5": -0.04,
-   "chg20": -3.06,
-   "sma20": 105.64,
+   "price": 104.42,
+   "chg": 0.06,
+   "chg5": -0.06,
+   "chg20": -3.07,
+   "sma20": 105.63,
    "sma50": 107.31,
    "sma200": 108.93,
    "high3m": 109.3,
-   "reg": 104.44,
+   "reg": 104.42,
    "pre": null,
    "post": null,
-   "regClose": 104.44,
+   "regClose": 104.42,
    "sess": "24h",
-   "mt": 1791202929,
+   "mt": 1791203496,
    "ok": true
   },
   "EWY": {
@@ -1227,30 +1227,38 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 102.69,
-   "chg": 0.43,
-   "chg5": -2.46,
-   "chg20": 6.66,
+   "price": 102.68,
+   "chg": 0.42,
+   "chg5": -2.47,
+   "chg20": 6.65,
    "sma20": 103.63,
    "sma50": 94.93,
    "sma200": 94.2,
    "high3m": 108.75,
-   "reg": 102.69,
+   "reg": 102.68,
    "pre": null,
    "post": null,
-   "regClose": 102.69,
+   "regClose": 102.68,
    "sess": "24h",
-   "mt": 1791202919,
+   "mt": 1791203501,
    "ok": true
   }
  },
  "news": {
   "credit": [
    {
-    "title": "Is the AI opportunity bigger than tech stocks? - Investment Executive",
+    "title": "Why did investors ask to pull 39% of a USD 5 billion private credit fund, and who else is facing withdrawals? - kalkine.ca",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOY0N0MHoxeW5VbXZJZ3pBNVdHcmR3MllWZlIzU0hpOW9tWjZPNEdQMjIwWXU2MnZmU0hfZV9ibzUyU3VRWFpLcWp2ZllPdUUtaFJuN0g3U0g3Q0xtUUJsaE1JVGdQRlMwTnZNLW5ZUTZFQ0NyYVFNZ0RSeWZBdmFEanpuNWpLNGx2RHU1dmktVWIyUWs0ZzN0RHJRbktJWTlrT2txZFJlNWR0dkpBbVRuQ0ZwMy1lalpUTEYxS1h6TDVxUWNWVV9mcnVlZVJZd1A4clFxd2xDYw?oc=5",
+    "pub": "Mon, 05 Oct 2026 12:28:00 GMT",
+    "src": "kalkine.ca",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Is the AI opportunity bigger than tech stocks? - investmentexecutive.com",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObWtZM2o4NWRlS0xkbGZyTHNRWVcyYjJucDYwZ083aDBDMlI2NGVDcFFuUE9KbU1VTUlVamdOQ3pRZFNyd0NlRkpDTnFLeFZ4M2c0ZUxLZGNHaXAzOWdQTlVtMjFEWnhaaDRpcldCc0poSEhtT2JVUFNkb1pudzFvd2RaNFF3ck1qa0xWVjlXbWd0cDVvNlBMUGo0M3hJc0luWVpGTklrVm02T2xfcjMzQWR3?oc=5",
     "pub": "Mon, 05 Oct 2026 12:04:56 GMT",
-    "src": "Investment Executive",
+    "src": "investmentexecutive.com",
     "trig": false,
     "geo": false
    },
@@ -1285,14 +1293,6 @@
     "src": "HedgeCo.Net",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Phase 2 Trial Plans Could Be A Game Changer For Absci Stock (ABSI) - Simply Wall Street",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPVkJIZDMyOGZaekY5bXIwTjNqTkFxUWZSSlhwc212bUN3anVqaXVta0VnN3NGMW9OWE1fWGQtaTJIaVUtUlNCTTAzSnR2aHNzaUZSZ1ZQd2xiMTdXRmdnZFlNWG1EZVY1SXltdHZIcEE2dTBMTEhBMjFpSFZoTDFYWTlkTFRfN29KVGtWMGQ0OFhLQW1UeWdtOGFDUDRVZjNDVk1PM3NDYmJxM2lGdGhoZ2VHMmYwVDlXQUhENTJRNThvY1p3V2d1ZWFJZlR0bnRpTS10UNIB2gFBVV95cUxNZ1ZOeWxPQXFBQzlPd3BCRXpVT2VMZDJ3Zi1JMm9OS3Q3Q0syVTd2Q3FLR3pLdk1xQTI4WlI5aTJjck1kV3FiTkVxN0h0S2s0eWl3bXBSMThvSzU4cGVsaTZJRUtzejh3M1hLWmlOOVdzQUhrOHhYcUhlOE1kRzl2VUJEYi03c3gtSDcwTngzVXFYM1NYZnNLa3FldEpNTmpRVUVVM1JEdVFuS2VNSzR2Z0pFWVBpeUF5UmFDYnpHMVlmSWpwM3RJVGtCZEdOQ3huTVFYTlVPY0JCQQ?oc=5",
-    "pub": "Sun, 04 Oct 2026 21:30:17 GMT",
-    "src": "Simply Wall Street",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1306,8 +1306,8 @@
    },
    {
     "title": "Can AI GPUs Become Financial Assets? - Analytics Insight",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZHJDcjRRV29lVGwwSkwzUVE4YWhUSVdOdm5uQWVyUDMxMHJTaGpHMHlLYzBHVmlGQWhxM2FjWGNrSkEzc2I3Q0t4enFOTTFLQ3NYblFHaGJ3ekxFNHJvQXNXSTM5dFNpbGpRYklpZXROUl9TYlNkUkpJeFQyNHJ5Z015OHJsNm9FTWdlVk1OZEw3YXPSAZMBQVVfeXFMTWRyQ3I0UVdvZVRsMEpMM1FROGFoVElXTnZubkFlclAzMTByU2hqRzB5S2MwR1ZpRkFocTNhY1hja0pBM3NiN0NLeHpxTk0xS0NzWG5RR2hid3pMRTRyb0FzV0kzOXRTaWxqUWJJaWV0TlJfU2JTZFJKSXhUMjRyeWdNeThybDZvRU1nZVZNTmRMN2Fz?oc=5",
-    "pub": "Mon, 05 Oct 2026 11:14:45 GMT",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPeEtmSGVfdGNuRXl1UTFMcGRoQmE5aGl2Sk1uVVVLekh6czNHZ2xlclBER2lHNWQ1NDBMZ2ptZ3Y1aWVrcXNpdHVfVXlnUHQzcC05Z00wbDRSbTZaaThZaXhrTVQ1c0puSlgwTmlDYzR1azdDcWRGMXlGb0hWQ2tNeHQ1WDI4d9IBkwFBVV95cUxNZHJDcjRRV29lVGwwSkwzUVE4YWhUSVdOdm5uQWVyUDMxMHJTaGpHMHlLYzBHVmlGQWhxM2FjWGNrSkEzc2I3Q0t4enFOTTFLQ3NYblFHaGJ3ekxFNHJvQXNXSTM5dFNpbGpRYklpZXROUl9TYlNkUkpJeFQyNHJ5Z015OHJsNm9FTWdlVk1OZEw3YXM?oc=5",
+    "pub": "Mon, 05 Oct 2026 11:00:11 GMT",
     "src": "Analytics Insight",
     "trig": false,
     "geo": false
@@ -1329,10 +1329,10 @@
     "geo": false
    },
    {
-    "title": "Sterlite Tech Stock: 875% YTD Rally, 40% Upside, Do You Own? - Univest",
+    "title": "Sterlite Tech Stock: 875% YTD Rally, 40% Upside, Do You Own? - univest.in",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQMFNSQnNMTEhsekNRUG1sWC1GU3k0NHMtSjd6VEhOYWRCd2prdnNyb29PQ0Y5YlNrODBETE9WM05oUTdVd1ZTUlBicGRZaV9ib2NmVjA3Y1k2SFNLOUdiSGRMSzlEeWo4RDdUanRLcllUQ3hBZ3lRM2kzaWRhLXZBU215TVhtT3FqeGcwNDA5dWRCR1R1b2lvdHJCUmdkWlhacXMtbGFR?oc=5",
     "pub": "Mon, 05 Oct 2026 10:45:00 GMT",
-    "src": "Univest",
+    "src": "univest.in",
     "trig": false,
     "geo": false
    },
@@ -1355,18 +1355,26 @@
     "geo": false
    },
    {
+    "title": "Kevin Warsh’s Fed has a rent problem: Higher rates could fuel a ‘doom loop’ in housing, top economist warns - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZXY5alBmU2F2UHhTS2tRN3hNZl9uOHRUTEZRdTBmTzR0RlhFZDQ3c0ZFWDRqYUhialBJeEhLbmFJQ2ZMaU5MdGtvR0RmcE1YRFdVa3QyRUtFUmpHUmZJbmtWbkZpNlFhZ1FpbjRUYW9pSzdLTjlGY254NUp5Y3lyZ3V4NnZ5aHhLYkd5b1lPc0Nfdw?oc=5",
+    "pub": "Mon, 05 Oct 2026 11:02:00 GMT",
+    "src": "Fortune",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Oil price today: Why Brent stays above $100 despite G7 supply boost and rising Middle East war risks | Hindustan Times - Hindustan Times",
-    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOS1l6TGZVcTZmT3o2REtMYmJHd0VxRVdBSTkxVWEtY1VQSC1BRWdhRGFYQzZEUWpDc253V2VEQUhuODZuWEcxUTJwU2VzQU9wcWhwOUN0TVZsUDJMLTdMSjFwN19wa1JYck1SWE84SF9pNk1wNHRzVDRaSHduT2VaLUNXZS1WTkZkTVFzRnFtc21sOV9CTXVjTXBza1BvZkJfMWQ5c0l4UHlLMC1PUUhoczAzMFNxUTB6SnZWakE5cnEzRVp6Tmt6THZSZDV3RE9LTUtEdS1Nci1MTzFfR2VXUkc0VUVwNWV1SE8tWURVX3VoZDVid3NQVDlEclJTd9IBgwJBVV95cUxOanZIN3Y3VDR0WkF4VFJGbmR2VnVyQy1oWnUwNElvTndzY1BMLVJPSzd1Q3FKQURPMlBKWGxldTVLNkN1VzRtVHYyM3VzdndYT1lVR0dZNWl5QzFhNzlqalhqOGduS21TNGpVTDhHZnFIdmVuM0FMV2pQcFBBLUNyWDdubVJrRWJJcmwyRFlNUGNxYWhRX0JkV2lTWi0tS1c2Z3lhRlVaWE1tT08tZnR5VUMwTDA5bDlVbnpDcTBOQmdtNGZnNU9qb0JEWjYxbXBCaExuQUtQTG1RVVRkS05JVnlZU2FmZWx0UTFLSVhDVWM5MFlaWFBKbGdhN2JQVGszanRj?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxOanZIN3Y3VDR0WkF4VFJGbmR2VnVyQy1oWnUwNElvTndzY1BMLVJPSzd1Q3FKQURPMlBKWGxldTVLNkN1VzRtVHYyM3VzdndYT1lVR0dZNWl5QzFhNzlqalhqOGduS21TNGpVTDhHZnFIdmVuM0FMV2pQcFBBLUNyWDdubVJrRWJJcmwyRFlNUGNxYWhRX0JkV2lTWi0tS1c2Z3lhRlVaWE1tT08tZnR5VUMwTDA5bDlVbnpDcTBOQmdtNGZnNU9qb0JEWjYxbXBCaExuQUtQTG1RVVRkS05JVnlZU2FmZWx0UTFLSVhDVWM5MFlaWFBKbGdhN2JQVGszanRj0gGDAkFVX3lxTE5qdkg3djdUNHRaQXhUUkZuZHZWdXJDLWhadTA0SW9Od3NjUEwtUk9LN3VDcUpBRE8yUEpYbGV1NUs2Q3VXNG1UdjIzdXN2d1hPWVVHR1k1aXlDMWE3OWpqWGo4Z25LbVM0alVMOEdmcUh2ZW4zQUxXalBwUEEtQ3JYN25tUmtFYklybDJEWU1QY3FhaFFfQmRXaVNaLS1LVzZneWFGVVpYTW1PTy1mdHlVQzBMMDlsOVVuekNxME5CZ200Zmc1T2pvQkRaNjFtcEJoTG5BS1BMbVFVVGRLTklWeVlTYWZlbHRRMUtJWENVYzkwWVpYUEpsZ2E3YlBUazNqdGM?oc=5",
     "pub": "Mon, 05 Oct 2026 10:40:56 GMT",
     "src": "Hindustan Times",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Middle East oil exports return to pre-war levels, excluding Iran - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMUgtZVBtZ1dKSjZKT1g4MlI2VUtMcGRZX0piTXVRRnRYeVctSXQwMFd3QTBwc3BmeTZKc1lwT3djWmlQN0VkRm9rYVpDSGJLNVVfVkxXRHBJdDc1SUVJckpnTmRDWEZ1Q2JqVW5YRmc3eEFUWGswLW1PUTN4NWVVWkxOclVldw?oc=5",
+    "title": "Middle East oil exports return to pre-war levels, excluding Iran - Yahoo Finance Australia",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMlRMVnZlSHptbV9YZTItZENfR2o5UlVlTWJubFVVSU1wcFAtZEh0VUVXYWFiMW9zWDYzb1JrcFpWeGItV1JWcFY4Z2xHbFNlQm5jdG9Hb083UUZSVVUtMWVLcThuZ01oUWhmMmNERnlVcVV2Vk5pSTdxNUdMdkFtMVo3YVFZZw?oc=5",
     "pub": "Mon, 05 Oct 2026 09:53:32 GMT",
-    "src": "Yahoo Finance UK",
+    "src": "Yahoo Finance Australia",
     "trig": false,
     "geo": false
    },
@@ -1380,17 +1388,9 @@
    },
    {
     "title": "Treasury yields inch lower as investors pare back Fed rate hike bets - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9IaFZaeFFMQnFxZVQ0dXBXRmExY1pmcHNKUVM1ejBOSWtSQ3huNTlpV2pnTDVvQlJtbV8xV3pyaWFQT1FTWVF2VWgxZDNuR0ZxT2w0YXFCWGs4My1mNFJtcW5ERU1BeUczVHJPdzNoeFZQVTRMaVE4?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBubWVvVGJCU2VtOUdzYjRnVG92WXdqbjhaOEtodFJmbnZCeEdoUVNHeWgzNVphV2NQQXctWVo0OGhrY1RQUEhxMEp5RWJDS0pYRXhYc1Rhc3NOdEM2akU1ZHM1RXY5YmdEbUQ5anVmVzRVd2pmOGQ0ZUNuUUvSAXxBVV95cUxQbm1lb1RiQlNlbTlHc2I0Z1Rvdll3am44WjhLaHRSZm52QnhHaFFTR3loMzVaYVdjUEF3LVlaNDhoa2NUUFBIcTBKeUViQ0tKWEV4WHNUYXNzTnRDNmpFNWRzNUV2OWJnRG1EOWp1Zlc0VXdqZjhkNGVDblFL?oc=5",
     "pub": "Mon, 05 Oct 2026 08:00:01 GMT",
     "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Middle East oil exports surpass pre-war levels as crude prices ease - وكالة الأنباء السورية – سانا",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFA3Z3ktSlNXOUdFcHVvSWRnRFBJNlkxdm5Ya1IxblFPRDVFNHk3dExVMlhob3ZpVHg4dV8zdGxNdkY5S2tHRXB4bFV4bG0?oc=5",
-    "pub": "Mon, 05 Oct 2026 07:46:58 GMT",
-    "src": "وكالة الأنباء السورية – سانا",
     "trig": false,
     "geo": false
    }
@@ -1561,7 +1561,31 @@
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.41,
+   "series": [
+    41.93,
+    42.12,
+    41.72,
+    41.83,
+    42.01,
+    41.89,
+    41.89,
+    41.72,
+    42.12,
+    42.25,
+    42.39,
+    42.44,
+    42.41
+   ],
+   "chg13w": 0.92,
+   "us_chg13w": 1.23,
+   "eu_chg13w": 0.6,
+   "us_t": 23.31,
+   "eu_t": 19.11,
+   "asof": "2026-08-31",
+   "eu_asof": "2026-08-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1577,22 +1601,22 @@
    15.3,
    17.1,
    14.87,
-   16.11
+   16.13
   ],
   "tnx": [
    4.48,
-   4.57,
-   4.54,
-   4.68,
-   4.74,
-   4.66,
+   4.61,
+   4.6,
+   4.64,
+   4.69,
    4.7,
-   4.74,
    4.72,
-   4.78,
-   4.96,
-   4.96,
-   5.28
+   4.7,
+   4.76,
+   4.81,
+   5.0,
+   4.97,
+   5.27
   ],
   "dxy": [
    100.85,
@@ -1607,7 +1631,7 @@
    98.84,
    99.65,
    100.6,
-   102.26
+   102.19
   ],
   "bizd": [
    12.45,
@@ -1652,7 +1676,7 @@
    156.2,
    153.42,
    157.05,
-   158.18
+   158.19
   ],
   "uso": [
    104.35,
@@ -1712,7 +1736,7 @@
    79115.85,
    78163.38,
    86602.91,
-   85990.0
+   85865.0
   ],
   "vixts": [
    0.829,
@@ -1727,7 +1751,7 @@
    0.869,
    0.887,
    0.822,
-   0.895
+   0.896
   ],
   "hyoas": [
    2.87,
@@ -1926,15 +1950,15 @@
     "real": 2.88,
     "real_chg1": -0.05,
     "real_band": "위험",
-    "vix": 16.11,
-    "vix_chg1": 5.23,
+    "vix": 16.13,
+    "vix_chg1": 5.36,
     "vix_band": "정상",
-    "vixts": 0.89,
+    "vixts": 0.9,
     "move": 107.29,
     "move_chg1": -0.78,
     "move_band": "주의",
-    "tnx": 5.28,
-    "curve": 1.29,
+    "tnx": 5.27,
+    "curve": 1.28,
     "curve_band": "정상",
     "netliq_chg4w": 14.1,
     "spy": 769.64,
@@ -2721,7 +2745,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-05T12:32:44+00:00",
+  "checked": "2026-10-05T12:41:52+00:00",
   "openai": {
    "found": false
   },
@@ -2803,23 +2827,23 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 102.69,
-   "brent_chg20": 6.66,
+   "brent": 102.68,
+   "brent_chg20": 6.65,
    "ovx": 51.0,
    "hit": true,
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.2,
+   "usdjpy": 158.19,
    "usdjpy_chg20": 1.28,
-   "vix_chg5": 0.25,
+   "vix_chg5": 0.37,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.25,
-   "dxy_chg20": 3.12,
-   "usdkrw": 1343.48,
+   "dxy": 102.18,
+   "dxy_chg20": 3.05,
+   "usdkrw": 1343.49,
    "usdkrw_chg20": -0.12,
    "hit": false,
    "missing": []

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-06T21:12:08+00:00",
+ "updated": "2026-10-06T21:22:18+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 143.04,
-   "chg": -1.27,
-   "chg5": -2.19,
-   "chg20": -5.63,
-   "sma20": 146.28,
-   "sma50": 143.42,
-   "sma200": 143.3,
+   "price": 141.21,
+   "chg": -1.28,
+   "chg5": -2.33,
+   "chg20": -5.14,
+   "sma20": 145.9,
+   "sma50": 143.32,
+   "sma200": 143.29,
    "high3m": 154.49,
-   "reg": 143.04,
+   "reg": 141.21,
    "pre": null,
    "post": null,
-   "regClose": 143.04,
+   "regClose": 141.21,
    "sess": "reg",
-   "mt": 1791234019,
+   "mt": 1791320420,
    "ok": true
   },
   "^MOVE": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.85,
    "sess": "reg",
-   "mt": 1791320484,
+   "mt": 1791321091,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 85526.05,
-   "chg": -0.3,
+   "price": 85520.57,
+   "chg": -0.31,
    "chg5": 0.79,
-   "chg20": 12.31,
-   "sma20": 83835.2,
-   "sma50": 79907.53,
-   "sma200": 71964.14,
+   "chg20": 12.3,
+   "sma20": 83834.93,
+   "sma50": 79907.42,
+   "sma200": 71964.11,
    "high3m": 86602.91,
-   "reg": 85526.05,
+   "reg": 85520.57,
    "pre": null,
    "post": null,
-   "regClose": 85526.05,
+   "regClose": 85520.57,
    "sess": "reg",
-   "mt": 1791321086,
+   "mt": 1791321698,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.12,
-   "chg": 0.1,
-   "chg5": 0.45,
-   "chg20": 3.02,
+   "price": 158.14,
+   "chg": 0.11,
+   "chg5": 0.47,
+   "chg20": 3.04,
    "sma20": 156.69,
    "sma50": 157.81,
    "sma200": 159.3,
    "high3m": 163.86,
-   "reg": 158.12,
+   "reg": 158.14,
    "pre": null,
    "post": null,
-   "regClose": 158.12,
+   "regClose": 158.14,
    "sess": "reg",
-   "mt": 1791321091,
+   "mt": 1791321701,
    "ok": true
   },
   "KRW=X": {
-   "price": 1337.15,
-   "chg": -0.49,
-   "chg5": -0.99,
-   "chg20": -0.15,
+   "price": 1337.27,
+   "chg": -0.48,
+   "chg5": -0.98,
+   "chg20": -0.14,
    "sma20": 1357.08,
    "sma50": 1380.07,
    "sma200": 1454.45,
    "high3m": 1498.48,
-   "reg": 1337.15,
+   "reg": 1337.27,
    "pre": null,
    "post": null,
-   "regClose": 1337.15,
+   "regClose": 1337.27,
    "sess": "reg",
-   "mt": 1791321089,
+   "mt": 1791321617,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "'Gen Z has risen up': Tens of thousands demand better education in France - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVQ0VEpfTU9pZm53cUJJZ0tiWnRxaUJyN2ZnalJrSEp3S0NNLU1lcENlcHlPT19hanlFNko5ZUktU2hnbTROanVTd2FROGpwNzJvSzlqN0wyVlJreWJ3T0lNSlRHNEFTQzVuYk1sS2NwQ1B3eEZfRFJBRGt3YjdteEtPOWZGRnhGV3kxMGF0SlpZa1lrOTlWWkxLZXJ6X1ZvSWc0WVNRTWlHUXJ2RXVxQnZ4cE1ES2p2SEdVUnl3?oc=5",
+    "pub": "Tue, 06 Oct 2026 20:48:45 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Jacob Coxon, a former OpenAI and Anthropic employee and whistleblower, claims that AI firms cannot control their models and \"will kill us all by the end of the decade.\" Link to the full story in the comments section. | via ANC 24/7 - Facebook",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPWlAwdkduRW1kWTFTeUtQN0MwSjdPdTFYMUtpZ2d4d0RFVGpLczJ3bExLMjVJa09pT2w4OXpYWTYxOUM1WDliUm9OWnB0V19oaW5vUVc3TGpsbzYtRVlDdllqazhOSlViSFFUb05qbFlhdE5yWUVlal8zOU1SSlRjRXZrZGZ5STFDdW96cDVWbXVfNk9JcVlLalRIdE9jSGpYRnF4aUktQ0EtT0hFVDlaUl90OXNudGhLeXdwTC1GdENwZ2xFc0cyZDRDLTBPZGlaYTROLUVmaw?oc=5",
     "pub": "Tue, 06 Oct 2026 20:43:03 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPdDNYTWUtV1VRMTNRVDhlLVVUeE9wdkdhaW5XdFNySTFVRUJfNDE5VllPakFkN2VHenota3VQd1FfMlB3MEpoVmZNMUhaZnU5LThsQjNKTHlTRVhqYVNRZmNUeXpnaU9kUEE0bFJuaGZsTm91djNOQUZDcDhuX1lGbjFmTTZfWEZuQmo4TzBidnc1QjV5MndMdWVfZmR3THdLUUFfMzUzZlFLREtrbkk5OUlKcWdlTHlFOUpEVGliZ09DVjM0TGkzNGRuVXhVdF93T3QxWHdkT0c?oc=5",
     "pub": "Tue, 06 Oct 2026 17:00:40 GMT",
     "src": "Facebook",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "'Gen Z has risen up': Tens of thousands demand better education in France - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPdVQ0VEpfTU9pZm53cUJJZ0tiWnRxaUJyN2ZnalJrSEp3S0NNLU1lcENlcHlPT19hanlFNko5ZUktU2hnbTROanVTd2FROGpwNzJvSzlqN0wyVlJreWJ3T0lNSlRHNEFTQzVuYk1sS2NwQ1B3eEZfRFJBRGt3YjdteEtPOWZGRnhGV3kxMGF0SlpZa1lrOTlWWkxLZXJ6X1ZvSWc0WVNRTWlHUXJ2RXVxQnZ4cE1ES2p2SEdVUnl3?oc=5",
-    "pub": "Tue, 06 Oct 2026 16:05:01 GMT",
-    "src": "ABS-CBN",
     "trig": false,
     "geo": false
    }
@@ -1355,14 +1355,6 @@
     "geo": false
    },
    {
-    "title": "John Lloyd: AI Investment Cycle and Corporate Credit - Funds Society",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSzlTVXROSVNUM0puTkhpZllVREU0b19aXzI2NHhDQjQtTDRQWFF5WWwwYmFzUjJ0RDg5SUNGbFphTUZXT3o2NG0xejlhLWEwUjhZRkVVT2U5MFFMWklrVkJvcHlKWXZVZWhWeV83MHNreEJPT1BUS1NZRjU5MzZ2REl5eXlFTURZR1pYUXdNR0tCelowSVBCTHZVOWtYTFBHU0ZudXFOOGM1bkhSMGQyTk9WNnV2WWcyc3JQWDlTZ21pc0xXc01DZTBfM2U3SEpDMFNfRjZlVG1zWHpzM3FF?oc=5",
-    "pub": "Tue, 06 Oct 2026 20:24:58 GMT",
-    "src": "Funds Society",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Lowest-Rated US Corporate Bond Yields Rise More Than 4 Percentage Points This Year - bloomingbit",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1ZVzRXQThPUW5INWJFSmdRdUtVYzBTVlZLeC1iMUxxTjVpY1lCMU9MS2ZDWlUwUG5LcERFWE5UUkgzWHdDWjgzcTdRSEVWT05LMjZZWQ?oc=5",
     "pub": "Tue, 06 Oct 2026 20:20:15 GMT",
@@ -1393,6 +1385,14 @@
     "src": "investingLive",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Long bonds light a short fuse - RBC Wealth Management",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbHJOZUFPSzg0ZHVDMFRGWTR1Z28ybk1Qd2NybHlrSTBSNml1X0loNDR1TFI3ZkFqeTVCUm5hdlBPcFc2NDdvd28wX3o1X2k3SGV2R3pNSjZxeTB1c2xXS0tsR004Q2Ezdm1JMlJPZmJLTzJiNENic0MzMXlJVW85T2Q1SEJsbXJqVWc?oc=5",
+    "pub": "Tue, 06 Oct 2026 18:00:08 GMT",
+    "src": "RBC Wealth Management",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1409,14 +1409,6 @@
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxONUtscjBad2NrYlFpckhZRUc0SUFnc3YzYjhqenRqaHlUUHE5Z1BpVGJlRjZWaE5BSzZxUWtoNnFoXzg1VVd5QlNWY3RMLVBiUW1QUXNaTUFBMExBMTNEaXQ3bU13QnlfbUJScW5yNUJDQTJ2SUJXMmo3NXZyOTBtb2FNOThkNjc1ZlgwU3JGRkRSclhaS25UQjk4QWNiZ2Y2bkpiMkJidk1LakNnTmNodTVYN0Q0cTg?oc=5",
     "pub": "Tue, 06 Oct 2026 19:31:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Global oil prices cross $100 a barrel as Iran war sends fuel prices surging - ABC7 San Francisco",
-    "link": "https://news.google.com/rss/articles/CBMi9AlBVV95cUxOTGhJeVlNWlNma0RWZHN4YnhENzhFa18zSVh1Ym9mTTExSjRhTXdzRlZGenE0MEVWSG5JVjVTRFZTWHY4dGJyWUFmSG1feG5KMXc3eUU0TXNBREthU1NNTlNjRDkyZk5Tdm03OTVUM0tJOWVVV0U1aEhUM1JlNmExOFJsUVVESnVUODMxV3Ryc0hWYUQ5R1I4bnhLU2lmN1JWWnpKVU01QlFRdUY1VXdKZmhpUjc0Q1RvdFMxaU1sT3pfUHZPM3huckNVRjV0Y3Btd24tYXRfLVVlQm1ZV0E5M1pFOVNLOVhKNERHcDdqNDRUVS1acTZsaFUxa3Z3NTlvS2NqdnZ6NGxEc0QxYlBtOFBjckpOODlpU09CNHM4aFg3TDlNNkdsUlY3MVFnTUp5WEtCNjZ5ZllUTmNNd0w2cDZRTk9VWEV1STY4aWpNdWxlZ1RORi1hdHhISzdCTXpqeWIwVnZGODJBUGIxNlJEQW0yaEZmXzRPS09iTXRwcmxFWFotbk0zZHFEZDhNVWllU0NlTE15QzFoWmpEX0FIY3pDSkowdnR2Q2RaRUVDV3JHR2lnbU1lenB6dlFZNk1kMk43ekJvYWVrSUZ6RzZhRl9pNzJUSG1zamlHYW5NYTNld3JuWVI5RUdDMklmWXlYWXBwMzlId0Q0QlMyQ1VNSGVrNG83a2hoUC1aYk8wTzYzVDVOZFJOS0FOSTlVNlhxNVhVY2FteUN0dkdiOEFKeXpLQzVuQWRqQ29tU0lpTVUwNGxCei1wR2gxazAyLVBnRWZCWE5PRGIyT3VWdUNKWjJXY0RBam42bU9tNFdyX0RlQUhYSWdxNzNMb1lVYmp0eGtEcS1xWDY0ZEp4RGo5LXBVUkFUYmN3NUtqUTB5MjVua3ZDbGFvOUI0SF8tMFFmSDNMTHFGTFB0S2JSRGNpQ1lKU0VvUFFUdWttNEFYTVd6WGdzWk53WHJoVkdpV1hfYzJDaVlFdUJVNTVrU0pGMi1maHNCWGswdmdlT0M1RjQ4LWxYTnI0UDNpZTdycGFoTzk3Y3F2eDVVRWlXNXVUNjAzdGRHbEh1ck9jNEhxWDF0MGt5RTloSkVpdjZxQTdhRE9sb0FQNFE4Xzl1S0xNb21HQzhJa3gtSDR1TVdjN0ZfSTl0WEhUWnlwcUhSdGhxMEo0SFdYNnFHZXJfY2wzallWdzNNOWRubm1IaTVmdmZXSVQ3SkdYeTBjY3JJMkFKZlR3eUMwZE5wS1VCSUZpVEFhYXRJejRseldWbF8zMC1kYXZkQXZaTi0yd3dYdFg4R01JRlA5TExOang4cVBtMFI5Z2Y2eV9tMmxTVFo3OHZpYkhfUTB1T1NxaXhuLVFXNVJOZG9QcDVGaXF4MDFMT0Vud1JNYldDMzlPMXFXcEhUeFUxMlp2TFlfOGdqYV9lM0ZWbEFpVUF6S242dEgxY2pmejZ5WkI4TTVvTjdIQkMxTVFTQTBnRUR1VHBjRDNFV0dxNnlVUDloWkRsNmdGbGxncjF2UjdRVkF6Y0oxN2pfZXZCRzN6SUlWU2NuUlNCaURDZVhyU1hsaEJWTVROeVpSSnNBQ0tKOFVUUGhNVGlLcDVKVWJjYlkwbjlzTm5mOWhyRXZYRy13VVZ0WElYdGFRcHhYVXBYTTZTbFFwc21xSnJIczh4ODJQWU4xbTVlN1h2OA?oc=5",
-    "pub": "Tue, 06 Oct 2026 18:50:54 GMT",
-    "src": "ABC7 San Francisco",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Tue, 06 Oct 2026 17:48:28 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US EIA hikes oil price forecasts again as Iran war drains global stockpile - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQZk8xUmkwZm83ZUdaTWpWaEVibFZzckNxOVFNOG9OTjlWdzJBdXRqWk5GUUFoME5DWXJmNThNRlIzdVBxUXNfeGd5cTFFNjlVZmg1VkFwVXdONzVLNGh0RVF5S203NlRieWFBNEY3b0dnZlZ3MERxUGlYWTRDaGwzYUJaYWJxWjI1WTlJbDNfMFJ0TVlqSjdFNnl6SVF6UVhmQlhNM2pRUnltSDVMMXNmS21JZkMySWNFVjhtbXVSMUw?oc=5",
+    "pub": "Tue, 06 Oct 2026 17:39:05 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    }
@@ -1554,7 +1554,7 @@
    "chg": 0.03
   },
   "sofr_iorb": -1.0,
-  "cape": 41.67,
+  "cape": 41.9,
   "cape_manual": false,
   "netliq": {
    "value": 5782.8,
@@ -1676,7 +1676,7 @@
    153.48,
    155.27,
    157.46,
-   158.11
+   158.14
   ],
   "uso": [
    108.92,
@@ -1736,7 +1736,7 @@
    78438.58,
    75612.51,
    86172.28,
-   85531.74
+   85520.56
   ],
   "vixts": [
    0.819,
@@ -1844,14 +1844,14 @@
    0.0693
   ],
   "cape": [
-   41.67,
-   41.67,
-   41.67,
-   41.67,
-   41.67,
-   41.67,
-   41.67,
-   41.67
+   41.9,
+   41.9,
+   41.9,
+   41.9,
+   41.9,
+   41.9,
+   41.9,
+   41.9
   ]
  },
  "summary": {
@@ -2730,7 +2730,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-06T21:11:49+00:00",
+  "checked": "2026-10-06T21:22:01+00:00",
   "openai": {
    "found": false
   },
@@ -2819,8 +2819,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.12,
-   "usdjpy_chg20": 3.02,
+   "usdjpy": 158.14,
+   "usdjpy_chg20": 3.04,
    "vix_chg5": -6.42,
    "hit": false,
    "missing": []
@@ -2828,8 +2828,8 @@
   "dollar": {
    "dxy": 101.85,
    "dxy_chg20": 3.05,
-   "usdkrw": 1337.15,
-   "usdkrw_chg20": -0.15,
+   "usdkrw": 1337.27,
+   "usdkrw_chg20": -0.14,
    "hit": false,
    "missing": []
   },

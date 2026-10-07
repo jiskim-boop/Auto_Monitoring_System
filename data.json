@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-07T21:12:11+00:00",
+ "updated": "2026-10-07T21:22:32+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 141.21,
-   "chg": -1.28,
-   "chg5": -2.33,
-   "chg20": -5.14,
-   "sma20": 145.9,
-   "sma50": 143.32,
-   "sma200": 143.25,
+   "price": 141.84,
+   "chg": 0.45,
+   "chg5": -0.06,
+   "chg20": -4.96,
+   "sma20": 145.53,
+   "sma50": 143.29,
+   "sma200": 143.24,
    "high3m": 154.49,
-   "reg": 141.21,
+   "reg": 141.84,
    "pre": null,
    "post": null,
-   "regClose": 141.21,
+   "regClose": 141.84,
    "sess": "reg",
-   "mt": 1791320419,
+   "mt": 1791406819,
    "ok": true
   },
   "^MOVE": {
@@ -854,9 +854,9 @@
   },
   "DX-Y.NYB": {
    "price": 102.27,
-   "chg": 0.43,
+   "chg": 0.44,
    "chg5": 0.81,
-   "chg20": 3.54,
+   "chg20": 3.55,
    "sma20": 100.84,
    "sma50": 100.04,
    "sma200": 99.82,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.27,
    "sess": "reg",
-   "mt": 1791406888,
+   "mt": 1791407486,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83297.98,
-   "chg": -2.64,
-   "chg5": -1.42,
-   "chg20": 9.02,
-   "sma20": 84181.48,
-   "sma50": 80280.51,
-   "sma200": 72042.78,
+   "price": 83337.57,
+   "chg": -2.59,
+   "chg5": -1.37,
+   "chg20": 9.08,
+   "sma20": 84183.46,
+   "sma50": 80281.3,
+   "sma200": 72042.99,
    "high3m": 86602.91,
-   "reg": 83297.98,
+   "reg": 83337.57,
    "pre": null,
    "post": null,
-   "regClose": 83297.98,
+   "regClose": 83337.57,
    "sess": "reg",
-   "mt": 1791407496,
+   "mt": 1791408089,
    "ok": true
   },
   "USO": {
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 158.01,
    "sess": "reg",
-   "mt": 1791407497,
+   "mt": 1791408077,
    "ok": true
   },
   "KRW=X": {
-   "price": 1338.7,
-   "chg": -0.08,
-   "chg5": -1.34,
-   "chg20": -0.04,
-   "sma20": 1357.18,
-   "sma50": 1378.05,
-   "sma200": 1453.18,
+   "price": 1339.34,
+   "chg": -0.03,
+   "chg5": -1.29,
+   "chg20": 0.01,
+   "sma20": 1357.21,
+   "sma50": 1378.06,
+   "sma200": 1453.19,
    "high3m": 1497.7,
-   "reg": 1338.7,
+   "reg": 1339.34,
    "pre": null,
    "post": null,
-   "regClose": 1338.7,
+   "regClose": 1339.34,
    "sess": "reg",
-   "mt": 1791407499,
+   "mt": 1791407940,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Goldman Sachs: $150B in Paper Gains Inflated Q2 S&P 500 Earnings as Q3 Season Opens - Tech Times",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNRjZJU3psamhBZmZKWFJLNW84Vlg1ZGZ3VjNOSGhnWEQtaFNrSUhHVEswQmlWeTdUYXVZbUc3eW44VjNPM3Z1c0gyNGZqOWRuYkV6NDlGaEJUSmFES1NVZzZTSWMxc3pyRjV3TmxkZkZwV1J5clRhYlJhdVh2QjRud2REVkluTXQwRlJNQmZPY1pRYlV1WDJOekxUMmxKUXZrWlVIQXowQmpfLW55N0RYS2I2MVhLMS03NUw3WHdxbWgzMkJXTFpURg?oc=5",
+    "pub": "Wed, 07 Oct 2026 18:24:30 GMT",
+    "src": "Tech Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic launches third Claude 5.5 model, expanding AI lineup before planned IPO - Reuters",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPbENadk1Lcm1iLUZOd0hYSmRZLWJHLTd0YjAwTExuMVozWW9McllnVWJuTHdPY3ZfRWJwVGdzMmpVaHhvODVVMkFMd0U0ejdyRjQxcEJMVzRqcTJqbWVaLXI5QnM1ckRSYmZVYjlBR2NqRTZaaW42QjFZMC00ZmxKOF9Fal9EODV2dEZnb1BPUDBlSFJrRDVtWkNLTWhacE04b3dyemlvckZTR3JmR0xONmxGb19hNU1tWFJMcVlJajNYUQ?oc=5",
     "pub": "Wed, 07 Oct 2026 18:07:44 GMT",
@@ -1335,14 +1343,6 @@
     "src": "NVIDIA Developer",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Recession Warning: The Signals Are Lining Up - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWFh3V3pXZ1lCMGloQVdZXzJXYkJmUGZUTTRKdi1EaUVMQ3hLdHFydTlYYXZGNkMzdll0VEJUdHZiWGthVWVJMHN1THYwYUNmRFl5S0h0OG5Cd0dCeGZ4bHVjdnJYbWFTcEZmOVhFUVFYckxrRE9jQjNVMDRjMnFWdWs5WGZrNTAtNmU5UQ?oc=5",
-    "pub": "Wed, 07 Oct 2026 16:04:05 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
@@ -1359,6 +1359,14 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNUVJMRjNDd1BzNDdRUDNOemw4NkZKNlRNLXdaRWdRNWoxczhDMzJBR3BKckp2NXJyTWhfYXRiR0xzOVFqSzU2aTAtTjg4WkZFMlBkcDdYbWdxTlRHRnJnbFhWRlNtMENwem9CVXBOVlJBRTFnTkxLTDJMbTVJZDczZGZtdzRYc3JoRzBvN28xT3BYdm8tQ3dMMkJlUERiMFFJREZWMVdUOFl4ZmRYS3BRbWJRMDlYQ3U3SUdnYmFSOUFMX213ZURlbUxHTXgzWGs?oc=5",
     "pub": "Wed, 07 Oct 2026 20:51:42 GMT",
     "src": "CFO Dive",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed minutes show most policymakers see another rate hike by year end - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcWhpWk5uY3NST1ZOaDNiM0NnUTBHUkdYaEJWa1daUjdjQXU0bmhNN3AyR0R4UXlydXZXdXZRVlEtTWNsNUlTZWtTRUdyNXNQc3hMQi1wc2t4TEVtcEdRazE1dkhUa0hCUWZxcnBTZXp6cU8wRl9vUDhCazVEbFR4RTVrWjZ4MGdSNmNZczRldFBTOHFxRzFKTVFoTnZkVTE2S1BBTGN3RHFBSUstSjQybmJWWFkxT1EyU1RsQg?oc=5",
+    "pub": "Wed, 07 Oct 2026 20:29:43 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    },
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQUGhrVEZHQ0FpVVl5c0lSMXkxbUZLMmdvTm5XR0xsUEVtMVZfUXFBYjRueHNEQzBpQTlKcnV3VDR0cUE2ZVdUV3FScEthRG10N1hoQjIzUFJHblRITGd0VTBDVW1YY2p3ZGxTR09YNzF5cEJnbmY1dEMxSWlXVnp3bE94cnZOTjJsQ0RRQzFkZVk?oc=5",
     "pub": "Wed, 07 Oct 2026 19:37:02 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Fed’s minutes show no appetite for a series of interest-rate hikes - MarketWatch",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaF9QQWc3MVFwTXJjNGdBRjd0NUZ6aExkdFpqRkxBSThxMUZteXNiSWJDak1qdTdwRXBkNkdQdDRfekQzN243ODFqNUhBQllGV0pQS3pWY090WThXMTVzZmFnc3pBbENCMGJLaVRXSF9zRUZtZ2dzZE0zelF5dzBadldsZm51dVNVaVpHQTNvVHA3Q2wzQWFmemJIOEs1RzZmQUp5N1hKZzJ1Umc?oc=5",
-    "pub": "Wed, 07 Oct 2026 19:35:00 GMT",
-    "src": "MarketWatch",
     "trig": false,
     "geo": false
    }
@@ -1554,38 +1554,14 @@
    "chg": -0.04
   },
   "sofr_iorb": 0.0,
-  "cape": 41.9,
+  "cape": 41.8,
   "cape_manual": false,
   "netliq": {
    "value": 5782.8,
    "chg4w": 14.1,
    "asof": "2026-09-30"
   },
-  "gm2": {
-   "value": 42.41,
-   "series": [
-    41.93,
-    42.12,
-    41.72,
-    41.83,
-    42.01,
-    41.89,
-    41.89,
-    41.72,
-    42.12,
-    42.25,
-    42.39,
-    42.44,
-    42.41
-   ],
-   "chg13w": 0.92,
-   "us_chg13w": 1.23,
-   "eu_chg13w": 0.6,
-   "us_t": 23.31,
-   "eu_t": 19.11,
-   "asof": "2026-08-31",
-   "eu_asof": "2026-08-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1631,7 +1607,7 @@
    98.77,
    100.31,
    101.1,
-   102.26
+   102.3
   ],
   "bizd": [
    12.32,
@@ -1736,7 +1712,7 @@
    78259.52,
    76150.32,
    84383.01,
-   83297.98
+   83349.34
   ],
   "vixts": [
    0.829,
@@ -1844,14 +1820,14 @@
    0.0692
   ],
   "cape": [
-   41.9,
-   41.9,
-   41.9,
-   41.9,
-   41.9,
-   41.9,
-   41.9,
-   41.9
+   41.8,
+   41.8,
+   41.8,
+   41.8,
+   41.8,
+   41.8,
+   41.8,
+   41.8
   ]
  },
  "summary": {
@@ -2468,7 +2444,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 22
   },
@@ -2740,7 +2716,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-07T21:11:56+00:00",
+  "checked": "2026-10-07T21:22:17+00:00",
   "openai": {
    "found": false
   },
@@ -2837,9 +2813,9 @@
   },
   "dollar": {
    "dxy": 102.27,
-   "dxy_chg20": 3.54,
-   "usdkrw": 1338.7,
-   "usdkrw_chg20": -0.04,
+   "dxy_chg20": 3.55,
+   "usdkrw": 1339.34,
+   "usdkrw_chg20": 0.01,
    "hit": false,
    "missing": []
   },

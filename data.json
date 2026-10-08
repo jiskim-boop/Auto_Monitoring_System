@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-08T21:42:14+00:00",
+ "updated": "2026-10-08T21:52:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.11,
-   "chg": -0.13,
-   "chg5": 0.01,
+   "price": 102.1,
+   "chg": -0.14,
+   "chg5": -0.0,
    "chg20": 3.04,
    "sma20": 100.99,
    "sma50": 100.06,
    "sma200": 99.84,
    "high3m": 102.24,
-   "reg": 102.11,
+   "reg": 102.1,
    "pre": null,
    "post": null,
-   "regClose": 102.11,
+   "regClose": 102.1,
    "sess": "reg",
-   "mt": 1791495092,
+   "mt": 1791495691,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81663.15,
-   "chg": -1.94,
-   "chg5": -3.66,
-   "chg20": 0.94,
-   "sma20": 84218.47,
-   "sma50": 80528.01,
-   "sma200": 72095.5,
+   "price": 81561.26,
+   "chg": -2.06,
+   "chg5": -3.78,
+   "chg20": 0.82,
+   "sma20": 84213.37,
+   "sma50": 80525.97,
+   "sma200": 72094.94,
    "high3m": 86602.91,
-   "reg": 81663.15,
+   "reg": 81561.26,
    "pre": null,
    "post": null,
-   "regClose": 81663.15,
+   "regClose": 81561.26,
    "sess": "reg",
-   "mt": 1791495693,
+   "mt": 1791496290,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.78,
-   "chg": -0.18,
-   "chg5": -0.09,
-   "chg20": 2.14,
+   "price": 157.8,
+   "chg": -0.17,
+   "chg5": -0.08,
+   "chg20": 2.15,
    "sma20": 157.09,
    "sma50": 157.66,
    "sma200": 159.28,
    "high3m": 163.86,
-   "reg": 157.78,
+   "reg": 157.8,
    "pre": null,
    "post": null,
-   "regClose": 157.78,
+   "regClose": 157.8,
    "sess": "reg",
-   "mt": 1791495701,
+   "mt": 1791496299,
    "ok": true
   },
   "KRW=X": {
-   "price": 1341.96,
-   "chg": 0.22,
-   "chg5": -1.37,
-   "chg20": -0.46,
-   "sma20": 1356.89,
+   "price": 1342.35,
+   "chg": 0.24,
+   "chg5": -1.34,
+   "chg20": -0.43,
+   "sma20": 1356.91,
    "sma50": 1376.49,
    "sma200": 1451.94,
    "high3m": 1487.88,
-   "reg": 1341.96,
+   "reg": 1342.35,
    "pre": null,
    "post": null,
-   "regClose": 1341.96,
+   "regClose": 1342.35,
    "sess": "reg",
-   "mt": 1791495701,
+   "mt": 1791496294,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "FirstFT: OpenAI’s $20bn annualised revenue gap - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNeEsxSDhNeTJrQnN5Wlg3UnYwNVNnR2Q4MWp5bEYzZl9pdkNwVXBEWUJVWVlZRlJOVjM3OVpKZWNCalVqTlZYT1VnUXBNUVJkNFdTa3d3Q0dHem9yVW1NT2Y2M0IwWUg2aU1qUkRzYnFZUG10RTdwTm9WVEcwcEtBbFhWV3k?oc=5",
+    "pub": "Thu, 08 Oct 2026 21:48:24 GMT",
+    "src": "Financial Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI's annualized revenue $20 billion less than previously signaled, FT reports - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPY2Rpc3hlMnpvWXFsalBIcXZ4WlZKMEpkMzdoYkhySkw2UjczRHpFMmlVY0s4MTg3YmVSUW5aOENaSW84U1JydTZ4bE5RTEVBV0pUS2l4YzlDRktyNURnNFRHdk9rZHhpVzNXemJvMjlwLUUwVzJvWHIzMnFqX1J6ZU54b3M3YmZFdC1rR3I3QzNkOHpXREhVR1RUcGNlS2lMQ3M1d0ZkMUtIY0h3bUNIanJyMGRjbHE4MlUtb1JSOEtXSmoteFB4QkprQWJzVThybnpROUU3SzVSdEFEU183dmNGQQ?oc=5",
     "pub": "Thu, 08 Oct 2026 21:10:47 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVGRLems4alpPMS1vZHpFZU1URzE0VW0yNldNWEFGbFFjTFpERXhicGJ1b2kwOEJxVjNaYldlRm1hVU44dlV6R1JES0FRSHNMeXJZdmhna1dUdW16NmtHYnVHTko1V1FqZHNnYWg2Ul9xbGM1MmlUNXZVaFBxaWpxZURpTlZFX3VrNTFDY0NaOHJHX1NqbXJWcXNEMA?oc=5",
     "pub": "Thu, 08 Oct 2026 20:36:00 GMT",
     "src": "The Tech Buzz",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI’s annualized revenue is about $50 billion, not $70 billion - mezha.net",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBGUnRrQTl5cEJtcWZKYjlrY0dtZ09yZXFQcUN2dDBtdDFoQkpYYkNNRWVpYTZkRXYwaVpna2lmOU40RjJSWjZ0M0NVRkNpenBUTXA1ejBQa3J4b0tGX2tHdFk1Wlc3Unp3OHZDOUxWZUUtS0FRTWc?oc=5",
-    "pub": "Thu, 08 Oct 2026 20:31:03 GMT",
-    "src": "mezha.net",
     "trig": false,
     "geo": false
    }
@@ -1397,18 +1397,18 @@
   ],
   "flow": [
    {
-    "title": "Rising oil prices, falling technology stocks and reversing bond yields keep Wall Street unsettled - AP News",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNVZ6OTdhWTZlWUJFbTdTSHZOeG1lZEV3UEc2RDdhOVNqYjFWcTFwWUU5Qlk0RU5nTGlTMi1Tc1N5N3ktTGFiYUJUeWtod1lMbHJQQjcxMElFRjZHTlJtd0hlT2V5c0xVS2xqTkdsczJ2cG96NWlsMDEyZjc1TXAyUnhnTVd2RnVPQ1pHM3VXazc?oc=5",
-    "pub": "Thu, 08 Oct 2026 20:41:00 GMT",
-    "src": "AP News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Trump’s pledge not to strike Iran before midterms fails to soothe oil markets - NBC News",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPLTA0TXdyTldZVG9YbjBHRHJZUXJvN3JVZHlmRlRnVVgwOFJSVHZlM3ItWG9QeWUyVUJObVd0WjgtUGhES1NkOE9QSFJ1dFBZV3FtX2ctdkNHSjgyWU9RN184RTh3akIwcXE4SU9qaktLTGNlTE5WLW1OUC0xMzBEV0hneW9ZQQ?oc=5",
     "pub": "Thu, 08 Oct 2026 20:19:19 GMT",
     "src": "NBC News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Thu, 08 Oct 2026 20:17:38 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Thu, 08 Oct 2026 17:11:17 GMT",
-    "src": "LiteFinance",
+    "title": "Copper price sinks as oil surge fuels demand concerns - Mining.com.au",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPQ2JjS0p1WWROMUE1TnJOQlJNZnhPeTFILTVXeVpPQ0FERDJ1NnBpd3dTYU84d2ZzODh0VzVjNFVyc2kxN3NicUF5cFRjYXhOWUxaRExvSDdOZnMzLUoyeFlhUXd0ZFV0MktEY2tPNWRhdXQ5Z0Q0S0phX3NGdFkyV3lR?oc=5",
+    "pub": "Thu, 08 Oct 2026 16:39:02 GMT",
+    "src": "Mining.com.au",
     "trig": false,
     "geo": false
    }
@@ -1631,7 +1631,7 @@
    99.09,
    100.22,
    101.29,
-   102.11
+   102.1
   ],
   "bizd": [
    12.28,
@@ -1676,7 +1676,7 @@
    154.48,
    156.13,
    158.81,
-   157.79
+   157.8
   ],
   "uso": [
    109.01,
@@ -1736,7 +1736,7 @@
    76568.12,
    76403.77,
    84379.06,
-   81653.24
+   81598.03
   ],
   "vixts": [
    0.89,
@@ -2741,7 +2741,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-08T21:41:59+00:00",
+  "checked": "2026-10-08T21:51:57+00:00",
   "openai": {
    "found": false
   },
@@ -2830,17 +2830,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.78,
-   "usdjpy_chg20": 2.14,
+   "usdjpy": 157.8,
+   "usdjpy_chg20": 2.15,
    "vix_chg5": -5.98,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.11,
+   "dxy": 102.1,
    "dxy_chg20": 3.04,
-   "usdkrw": 1341.96,
-   "usdkrw_chg20": -0.46,
+   "usdkrw": 1342.35,
+   "usdkrw_chg20": -0.43,
    "hit": false,
    "missing": []
   },

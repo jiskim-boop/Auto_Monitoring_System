@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T21:22:16+00:00",
+ "updated": "2026-10-09T21:32:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82522.7,
-   "chg": 1.04,
-   "chg5": -4.58,
-   "chg20": 1.59,
-   "sma20": 84283.58,
-   "sma50": 80718.07,
-   "sma200": 72157.52,
+   "price": 82502.02,
+   "chg": 1.01,
+   "chg5": -4.6,
+   "chg20": 1.56,
+   "sma20": 84282.54,
+   "sma50": 80717.66,
+   "sma200": 72157.41,
    "high3m": 86602.91,
-   "reg": 82522.7,
+   "reg": 82502.02,
    "pre": null,
    "post": null,
-   "regClose": 82522.7,
+   "regClose": 82502.02,
    "sess": "reg",
-   "mt": 1791580897,
+   "mt": 1791581513,
    "ok": true
   },
   "USO": {
@@ -1159,18 +1159,18 @@
    "ok": true
   },
   "CL=F": {
-   "price": 91.67,
-   "chg": 0.2,
-   "chg5": 0.61,
-   "chg20": -8.38,
-   "sma20": 94.41,
+   "price": 91.66,
+   "chg": 0.19,
+   "chg5": 0.6,
+   "chg20": -8.39,
+   "sma20": 94.4,
    "sma50": 89.2,
    "sma200": 88.55,
    "high3m": 105.83,
-   "reg": 91.67,
+   "reg": 91.66,
    "pre": null,
    "post": null,
-   "regClose": 91.67,
+   "regClose": 91.66,
    "sess": "24h",
    "mt": 1791579598,
    "ok": true
@@ -1249,7 +1249,7 @@
    {
     "title": "SEC Staff Statement Highlights Valuation and Disclosure Expectations for Private Credit and Other Illiquid Assets - JDSupra",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tWVlVTTNyUU93dndScm5RWHd6TFJrT1d5cWt1cW1zeWNkcklrRXRzVEM0T25EVDFDeXFyN2Q4eEtJb3hheURRNG1EY2tVYzRibms0ZWgyVDVKVFdRWEdhYTdpc2wtaHpmTDZ2ZWNxZmhfWjdvT2tBWlpYUEtpZw?oc=5",
-    "pub": "Fri, 09 Oct 2026 21:10:37 GMT",
+    "pub": "Fri, 09 Oct 2026 21:09:04 GMT",
     "src": "JDSupra",
     "trig": false,
     "geo": false
@@ -1313,6 +1313,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI to bring in $20 billion less than previously expected - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wRW5JWTFpTG5WZ0taSEZ0YUkwUlJhV3Z2S19uNElZV3BoYnVpQVJHaVBrU00xLU80S2dYdFZNUV9NQlJxMEhzOXRQN2tSNTZtaHh5ODJRSXdENXdMOXZEV1c0MDRMc2c?oc=5",
+    "pub": "Fri, 09 Oct 2026 18:59:42 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s Mega-IPO: The Case Behind the $2 Trillion Valuation - Tema ETFs",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWXJYdExkTE9GMmFaRzNsZmJiWk5USkRjN21UN1FyT3dqcVJ4NnhhRDZlQllZSUtLNTRDNGp3UzI1V2NwVThrXzVCQWFiYjEybk42dHRsal9ZaGtvV1dZbmJqd3AzamNUZFlqRFE5em8xM2hwU1l2UEl1Nzc4QmszdW02TjFseWN4RGRpUXRYcXdpU3hEaUE0SmJSRmxNYVBjUi1tQVBUeHZvZ9IBqgFBVV95cUxPWXJYdExkTE9GMmFaRzNsZmJiWk5USkRjN21UN1FyT3dqcVJ4NnhhRDZlQllZSUtLNTRDNGp3UzI1V2NwVThrXzVCQWFiYjEybk42dHRsal9ZaGtvV1dZbmJqd3AzamNUZFlqRFE5em8xM2hwU1l2UEl1Nzc4QmszdW02TjFseWN4RGRpUXRYcXdpU3hEaUE0SmJSRmxNYVBjUi1tQVBUeHZvZw?oc=5",
     "pub": "Fri, 09 Oct 2026 18:47:09 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOYkhILXo3RWYzbS1GOWtma3NKS2p1VnhtWFE3QmFLMzhwcExvVkpYSmpKUDJXQzc3QnJUcVB2QmxyMHRaQUhrOHFLU1BmdzRHcmFNTFlvNjM1c2R4UnFweXl5TmJhZHdrSFhDSlhLYXRBRGZSZUlBRS00TGFycFFrTHI3Qk5OU2Vuc01fZURJaFUxUmZ2bXRxa0hzT2xTSThSWDJIeGtSSDFOZEF3SXBidmFR?oc=5",
     "pub": "Fri, 09 Oct 2026 18:23:00 GMT",
     "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Samsung's chip profit jumps nearly ninefold as AI memory demand soars - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbTcxTE9DZFEwM2p1QnhzdW51cndiWC1lQ0R0RnFDZlZ4QkgyanI0VVRYMlBUdk1MWFhGc2VKeVRYTG5ON0o0b21FTDFIMVh4eG96dG93UkZ4RmMtdERzNVpLdVBZNVpMSk43NmxWRjc0SU5ycXFxZzNjTzI1VnlpZFVrVGFtb0ZYbGp4Wno0SDE0NThYRnZsdHRmbUo?oc=5",
-    "pub": "Fri, 09 Oct 2026 18:19:37 GMT",
-    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    77173.8,
    80901.46,
    84034.92,
-   82510.81
+   82493.91
   ],
   "vixts": [
    0.853,
@@ -2753,7 +2753,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-09T21:21:59+00:00",
+  "checked": "2026-10-09T21:32:16+00:00",
   "openai": {
    "found": false
   },

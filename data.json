@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T02:42:08+00:00",
+ "updated": "2026-10-10T02:52:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82569.6,
+   "price": 82569.2,
    "chg": 1.09,
    "chg5": -4.52,
    "chg20": 1.64,
-   "sma20": 84285.92,
-   "sma50": 80719.01,
-   "sma200": 72159.91,
+   "sma20": 84285.9,
+   "sma50": 80719.0,
+   "sma200": 72159.9,
    "high3m": 86602.91,
-   "reg": 82569.6,
+   "reg": 82569.2,
    "pre": null,
    "post": null,
-   "regClose": 82569.6,
+   "regClose": 82569.2,
    "sess": "reg",
-   "mt": 1791600091,
+   "mt": 1791600697,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Carlyle Secured Lending Stock: Dividend Restoration Rate Cuts NAV Discount (NASDAQ:CGBD) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjBndGhUbUJJM0pBLWNRQVdxZ0tDNlRRYmhTV3VhN2JoSnFSbElaWjVOaFFBUm1BcGJFa1ZuSHpUUWg1d1U3TGVHWGhDTmc3ZkVDejFRUF96U2lCQm5yMjFLN3Nsd3RpT1hiQ1A3UDZKeElRMWJ2QW5GcklETjdFYklrMmgyU21NR3V4NmpHdTdHUDhxaXQ5VXo4RFNoa1FkSkVMWWpfYWdGZUlUaXc4OWdR?oc=5",
+    "pub": "Sat, 10 Oct 2026 02:22:52 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "SEC Staff Statement Highlights Valuation and Disclosure Expectations for Private Credit and Other Illiquid Assets - JDSupra",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tWVlVTTNyUU93dndScm5RWHd6TFJrT1d5cWt1cW1zeWNkcklrRXRzVEM0T25EVDFDeXFyN2Q4eEtJb3hheURRNG1EY2tVYzRibms0ZWgyVDVKVFdRWEdhYTdpc2wtaHpmTDZ2ZWNxZmhfWjdvT2tBWlpYUEtpZw?oc=5",
     "pub": "Fri, 09 Oct 2026 21:09:04 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOc3pOcUMyd25DVGUtajY3cE5TLThMaHhuQ0xnQmVPb3VnX1JLMTRrRW9Yd1h4alMxVlhsMUJxSnJBOVNzRkNwUFVQSGx0c3hyZmpLSG9SM1ZzX0xHN2FNQUxVYXplOXkxUng0SEpNaURqSGphV2drb1JRSDUtb2dHZHdHTlVwcGNVc2xFTnFlMDJPTkJPR0ZCYjBOTExURm52YWtOaEtET2gxS3JsRHZOemoyVUNoZzFjNW11UjZ0T3hnLTBnMnBEajU0dFpSb1pNX2ZfejhPSGpoeGN5R1cxVllNNDR6TEU?oc=5",
     "pub": "Fri, 09 Oct 2026 19:35:00 GMT",
     "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "KBRA Assigns Preliminary Ratings to DataBank Issuer, LLC and DataBank Co-Issuer, LLC Series 2026-2/3/4 - FinancialContent",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTmNibU5iejU2SHJQYTVBbHByN3lEdHRXb1M5ZzhBRURuTXpOWDVPQ3dXSjU3X1VmUC05UkFWXzMwa0FxTHRhNUhFakFLckY0cFJjSFZjc2daQk04OHJQendEMzhNMWEtaDd1R2k2OS1iMFRXbHZWYzZQMU43SkRLdUNuUjZxaklScmIzUXhwM2EzVm8tSW8xcjJ6Ym9KTTFLWW1ocEZ3NDkybVhYQUF6ajlDd0J1TDlxRUNJSXhxbmd0LXlSd2lIVFZIczlRSkRKVy1RUk56RWVacU9OWUVzdXRBeEF2T2REcGQtd1NB?oc=5",
-    "pub": "Fri, 09 Oct 2026 17:45:00 GMT",
-    "src": "FinancialContent",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    77173.8,
    80901.46,
    84034.92,
-   82571.5
+   82577.88
   ],
   "vixts": [
    0.853,
@@ -2757,7 +2757,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T02:41:54+00:00",
+  "checked": "2026-10-10T02:51:56+00:00",
   "openai": {
    "found": false
   },

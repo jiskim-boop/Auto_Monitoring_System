@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T21:12:21+00:00",
+ "updated": "2026-10-10T21:22:02+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82946.72,
-   "chg": 0.49,
-   "chg5": -3.31,
-   "chg20": 2.22,
-   "sma20": 84374.96,
-   "sma50": 80810.77,
-   "sma200": 72218.4,
+   "price": 82988.76,
+   "chg": 0.54,
+   "chg5": -3.26,
+   "chg20": 2.28,
+   "sma20": 84377.07,
+   "sma50": 80811.61,
+   "sma200": 72218.63,
    "high3m": 86602.91,
-   "reg": 82946.72,
+   "reg": 82988.76,
    "pre": null,
    "post": null,
-   "regClose": 82946.72,
+   "regClose": 82988.76,
    "sess": "reg",
-   "mt": 1791666699,
+   "mt": 1791667288,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Goldman says SpaceX’s GPU rental boom exposes AI’s revenue gap - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9DTjJXZnkxMU14S08xbnRlY2ZjZDkteS1RaUpIMFlPRjBzakJlZmM4MVRWWDRkX2tkUmctellJZ1B6WG9NSE1GWFNzZk9EWGRKVndBLUxQQWp3S3dnYW8yRkV5MTY2WWI5UlN6OEVHNU1qamxP?oc=5",
+    "pub": "Sat, 10 Oct 2026 21:00:13 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - ABC7 San Francisco",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQQzI3SVkyNXF0blQxemt0YmRQUnNLckl1R3JpTUhYcFU5WUp3VDZrU1REZ3ZjUmY4MjdESWtacGVBT0R1NnBsaFRnNmFRUFUyd0FpTmhlVlp3NmdNNGtwNDdvOE5aT3owdl9PVGJMM2JoeWNzd1BKbVRVYTlyN0VLbUlHeEg2bGd2cHotakVtbVVpSXlqazdvbXhwbE1GZ3M1VkdZOXdFczQwTXpMYktreGxTdU_SAbQBQVVfeXFMUEMyN0lZMjVxdG5UMXprdGJkUFJzS3JJdUdyaU1IWHBVOVlKd1Q2a1NURGd2Y1JmODI3RElrWnBlQU9EdTZwbGhUZzZhUVBVMndBaU5oZVZadzZnTTRrcDQ3bzhOWk96MHZfT1RiTDNiaHljc3dQSm1UVWE5cjdFS21JR3hINmxndnB6LWpFbW1VaUl5ams3b214cGxNRmdzNVZHWTl3RXM0ME16TGJLa3hsU3VP?oc=5",
     "pub": "Sat, 10 Oct 2026 18:15:10 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdzg4ZWVJWW13RFN2ZWljVF9fOERBa1hZbVp5UHhDbVJoZWRwY3lVRkhEUXp6ejhLMGo2SEZfTVZreldBbHA4VHhGZlFiVjUzdERDeXRjUmlzWXNtOTk3QjJMMF9RaURza0ZUT1Vmc1pfY2thR0JiVWVwdFpQZnY4WkFiTlRneUNJT09nalEzSVNXLXNGRk9yclZTT1lEbzJxVjhpMTNYb0VfcnlsNFpBd0lUSHVWTS1lZUlHMTJkZnRic205dFVMekRYQmp5cnlvN3ZhdFJDSnlXNUljbTJGU3RzWHRUdUdDZXl1bnlDelNFaVgteHdVWUR5WjJLZ0xxbWc?oc=5",
     "pub": "Sat, 10 Oct 2026 11:25:59 GMT",
     "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Ep. 037 - Who's Funding the $11 Trillion AI Buildout? (Capital Markets)｜SemiAnalysis - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01ZWtPMkJsWUgzb1IxYmVNNXZqUEVNSjZsM1Z6SnJRLWlYYl9MSVU5R2tWZGxEWlpPWjNkUlN3SWRCRzltSjBHQkQ2eV9jcU9teDh0b3d0NGRsWm5malVv?oc=5",
-    "pub": "Sat, 10 Oct 2026 09:16:51 GMT",
-    "src": "finance.biggo.com",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    77270.47,
    81233.68,
    84406.45,
-   82947.51
+   82988.76
   ],
   "vixts": [
    0.853,
@@ -2483,7 +2483,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 19
   },
@@ -2755,7 +2755,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T21:12:03+00:00",
+  "checked": "2026-10-10T21:21:49+00:00",
   "openai": {
    "found": false
   },

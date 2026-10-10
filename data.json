@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T01:02:36+00:00",
+ "updated": "2026-10-10T01:12:33+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82489.14,
-   "chg": 1.0,
-   "chg5": -4.62,
-   "chg20": 1.55,
-   "sma20": 84281.9,
-   "sma50": 80717.4,
-   "sma200": 72159.47,
+   "price": 82579.04,
+   "chg": 1.11,
+   "chg5": -4.51,
+   "chg20": 1.66,
+   "sma20": 84286.39,
+   "sma50": 80719.2,
+   "sma200": 72159.96,
    "high3m": 86602.91,
-   "reg": 82489.14,
+   "reg": 82579.04,
    "pre": null,
    "post": null,
-   "regClose": 82489.14,
+   "regClose": 82579.04,
    "sess": "reg",
-   "mt": 1791594123,
+   "mt": 1791594690,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI to bring in $20 billion less than previously expected - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1wRW5JWTFpTG5WZ0taSEZ0YUkwUlJhV3Z2S19uNElZV3BoYnVpQVJHaVBrU00xLU80S2dYdFZNUV9NQlJxMEhzOXRQN2tSNTZtaHh5ODJRSXdENXdMOXZEV1c0MDRMc2c?oc=5",
+    "pub": "Sat, 10 Oct 2026 00:56:15 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Recent reporting of OpenAI's revenue was like a game of telephone, says Jim Cramer - CNBC",
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNTkpLVlBuT3M5cmhudmFqeU1MZmdzMnNIOUxHUFV3N2JrbGs3bHZoMktSSmRMaldjNlg2Y1lWZ3lxNGxJUXEwNGhOT1NuUlJGRjZianZlV3J1QjE1bktIX1BvdWE1ODFwamxTdmpKczZUUUlzSHJtVDZoWHotX3JDMmpXMXd6aWljeEVrN25fSGYySzQtZ2VGOUNGVTFENjI4S21NLVV6Ml9Od3IwSDVxbGJQMGxyU0R6amNvc1Q1ejRDaUxmQ283RHNNUm9qbGpSc0hB?oc=5",
     "pub": "Fri, 09 Oct 2026 23:19:46 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE45b253TFpiMEVVdF8xNUhpWklYLVdyNHlMNU1CbC1oMERUNWFscDBycW4yaUN0a3h0Z1AxaTBMbjd4a2czV19Gc3VNTFItUldyemMzQ2RMZ3dPbGdCU3J3U2xkenVEUFVNemVMZHF3WHM?oc=5",
     "pub": "Fri, 09 Oct 2026 21:42:51 GMT",
     "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft vs. Alphabet: Which AI Cloud Stock Is Cheaper After the Capital Spending? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMTNhblBCUDFuWkdhV2dLV19HSExrcGVQYzM1aDBDa0pjZ0FiMUpTTU92WkVoUzBybm5pQ0xjYk9wUzhEMjNjUnJHY0FnbkZNdV9JMjlsRG1rRi1KWWpoazlBUERyVlozclV1RTZuTzZxakhOWHhSN2NOQU9OVXBuSV85X09sYU5yZUI3MjR3d09WdW9kSWRyd0d3?oc=5",
-    "pub": "Fri, 09 Oct 2026 21:20:27 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1505,12 +1505,7 @@
    "prev": -0.51,
    "chg": 0.016
   },
-  "nfcicredit": {
-   "date": "2026-10-02",
-   "value": -0.026,
-   "prev": -0.032,
-   "chg": 0.006
-  },
+  "nfcicredit": null,
   "hyoas": {
    "date": "2026-10-08",
    "value": 3.15,
@@ -1736,7 +1731,7 @@
    77173.8,
    80901.46,
    84034.92,
-   82489.15
+   82579.96
   ],
   "vixts": [
    0.853,
@@ -2479,7 +2474,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 19
   },
@@ -2751,7 +2746,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T01:02:23+00:00",
+  "checked": "2026-10-10T01:12:17+00:00",
   "openai": {
    "found": false
   },

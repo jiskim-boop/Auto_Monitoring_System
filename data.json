@@ -1,23 +1,10 @@
 {
- "updated": "2026-10-10T20:02:49+00:00",
+ "updated": "2026-10-10T20:12:16+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "price": 229.28,
-   "chg": -0.52,
-   "chg5": -2.0,
-   "chg20": 5.03,
-   "sma20": 226.73,
-   "sma50": 222.08,
-   "sma200": 212.87,
-   "high3m": 239.24,
-   "reg": 229.28,
-   "pre": null,
-   "post": null,
-   "regClose": 229.28,
-   "sess": "reg",
-   "mt": 1791576000,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "AVGO": {
    "price": 361.54,
@@ -122,21 +109,8 @@
    "ok": true
   },
   "SNDK": {
-   "price": 1581.82,
-   "chg": -1.72,
-   "chg5": -8.03,
-   "chg20": -3.15,
-   "sma20": 1697.46,
-   "sma50": 1582.5,
-   "sma200": 1542.66,
-   "high3m": 1887.04,
-   "reg": 1581.82,
-   "pre": null,
-   "post": null,
-   "regClose": 1581.82,
-   "sess": "reg",
-   "mt": 1791576000,
-   "ok": true
+   "ok": false,
+   "err": "HTTP Error 429: Too Many Requests"
   },
   "STX": {
    "price": 783.0,
@@ -1006,20 +980,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83017.12,
-   "chg": 0.57,
-   "chg5": -3.23,
-   "chg20": 2.31,
-   "sma20": 84378.48,
-   "sma50": 80812.18,
-   "sma200": 72218.79,
+   "price": 82982.2,
+   "chg": 0.53,
+   "chg5": -3.27,
+   "chg20": 2.27,
+   "sma20": 84376.74,
+   "sma50": 80811.48,
+   "sma200": 72218.6,
    "high3m": 86602.91,
-   "reg": 83017.12,
+   "reg": 82982.2,
    "pre": null,
    "post": null,
-   "regClose": 83017.12,
+   "regClose": 82982.2,
    "sess": "reg",
-   "mt": 1791662533,
+   "mt": 1791663099,
    "ok": true
   },
   "USO": {
@@ -1297,10 +1271,10 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - 6abc Philadelphia",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaFV2M0dmWVdEeE0xWUhudFNmOEo2bFZoVWxCQW41bmswSy1pOFBSRXZjSGtETkl0cm80a191Rm1HNFp5N0JSZFFnRV85OFpreDZLTVZ1S2tYcUV3X1F6dk0zaTVIZVF1UFY4Zml3UGtnOHFCRE55Rnp2X0dpMjFTSmZUOFBXU2tpVmp1RXp3UVlLY0dTWHV5M2VDSFRWSW03OW5EUEVmekNyR05NT1pn0gGvAUFVX3lxTE9oVXYzR2ZZV0R4TTFZSG50U2Y4SjZsVmhVbEJBbjVuazBLLWk4UFJFdmNIa0ROSXRybzRrX3VGbUc0Wnk3QlJkUWdFXzk4Wmt4NktNVnVLa1hxRXdfUXp2TTNpNUhlUXVQVjhmaXdQa2c4cUJETnlGenZfR2kyMVNKZlQ4UFdTa2lWanVFendRWUtjR1NYdXkzZUNIVFZJbTc5bkRQRWZ6Q3JHTk1PWmc?oc=5",
-    "pub": "Sat, 10 Oct 2026 16:46:26 GMT",
-    "src": "6abc Philadelphia",
+    "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - ABC7 San Francisco",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdDF5WmEzaEMwUll4Yzl3TFVtYmNNV1FoOXpubUh3cng3Q3RnX3hXUnVRdkQxNUN2Nldmclh2OEIzSHdVTnlsYUhKeFRyeFVrSEdPUEE1Ti1fdTdPMzRtdjhSRW5XYkFQNXBjTHAwTkVUeGM4WFJzbll3OXlaX0o3TkNNb3UyOTllV0VZUUNUckVTcHE3XzlfMzlPdTBqTlZwWmxTWEliNko3SHdxdndR0gG0AUFVX3lxTFBDMjdJWTI1cXRuVDF6a3RiZFBSc0tySXVHcmlNSFhwVTlZSndUNmtTVERndmNSZjgyN0RJa1pwZUFPRHU2cGxoVGc2YVFQVTJ3QWlOaGVWWnc2Z000a3A0N284TlpPejB2X09UYkwzYmh5Y3N3UEptVFVhOXI3RUttSUd4SDZsZ3Zwei1qRW1tVWlJeWprN29teHBsTUZnczVWR1k5d0VzNDBNekxiS2t4bFN1Tw?oc=5",
+    "pub": "Sat, 10 Oct 2026 16:51:52 GMT",
+    "src": "ABC7 San Francisco",
     "trig": false,
     "geo": false
    },
@@ -1337,10 +1311,10 @@
     "geo": false
    },
    {
-    "title": "Ep. 037 - Who's Funding the $11 Trillion AI Buildout? (Capital Markets)｜SemiAnalysis - finance.biggo.com",
-    "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE01ZWtPMkJsWUgzb1IxYmVNNXZqUEVNSjZsM1Z6SnJRLWlYYl9MSVU5R2tWZGxEWlpPWjNkUlN3SWRCRzltSjBHQkQ2eV9jcU9teDh0b3d0NGRsWm5malVv?oc=5",
-    "pub": "Sat, 10 Oct 2026 09:16:51 GMT",
-    "src": "finance.biggo.com",
+    "title": "Rogue Anthropic AI agent gave police fake tip in unsolved murder case - BBC",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE12Zjh2Z2tETEw5MzJ4VEZnV2wxUVFCY09JWTVhNEktZDZSR3ZPN1VVaWkzblc1WkJXeDJ4VmNvbUIxUFBMUGpIUkJzRVJSRGJHaWpTYk9LYklpenM?oc=5",
+    "pub": "Sat, 10 Oct 2026 10:06:23 GMT",
+    "src": "BBC",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1710,7 @@
    77270.47,
    81233.68,
    84406.45,
-   83026.21
+   82982.2
   ],
   "vixts": [
    0.853,
@@ -2746,19 +2720,20 @@
   25
  ],
  "feed": {
-  "fail": 0,
-  "failed": [],
+  "fail": 2,
+  "failed": [
+   "NVDA",
+   "SNDK"
+  ],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 71,
-  "n": 35
+  "pct50": 73,
+  "n": 33
  },
  "ipo_watch": {
-  "checked": "2026-10-10T20:02:33+00:00",
-  "openai": {
-   "found": false
-  },
+  "checked": "2026-10-10T20:12:01+00:00",
+  "openai": null,
   "anthropic": {
    "found": false
   },

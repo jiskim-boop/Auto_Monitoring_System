@@ -1,10 +1,23 @@
 {
- "updated": "2026-10-10T20:12:16+00:00",
+ "updated": "2026-10-10T20:22:02+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 229.28,
+   "chg": -0.52,
+   "chg5": -2.0,
+   "chg20": 5.03,
+   "sma20": 226.73,
+   "sma50": 222.08,
+   "sma200": 212.87,
+   "high3m": 239.24,
+   "reg": 229.28,
+   "pre": null,
+   "post": null,
+   "regClose": 229.28,
+   "sess": "reg",
+   "mt": 1791576000,
+   "ok": true
   },
   "AVGO": {
    "price": 361.54,
@@ -109,8 +122,21 @@
    "ok": true
   },
   "SNDK": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 1581.82,
+   "chg": -1.72,
+   "chg5": -8.03,
+   "chg20": -3.15,
+   "sma20": 1697.46,
+   "sma50": 1582.5,
+   "sma200": 1542.66,
+   "high3m": 1887.04,
+   "reg": 1581.82,
+   "pre": null,
+   "post": null,
+   "regClose": 1581.82,
+   "sess": "reg",
+   "mt": 1791576000,
+   "ok": true
   },
   "STX": {
    "price": 783.0,
@@ -980,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82982.2,
-   "chg": 0.53,
-   "chg5": -3.27,
-   "chg20": 2.27,
-   "sma20": 84376.74,
-   "sma50": 80811.48,
-   "sma200": 72218.6,
+   "price": 82975.62,
+   "chg": 0.52,
+   "chg5": -3.28,
+   "chg20": 2.26,
+   "sma20": 84376.41,
+   "sma50": 80811.35,
+   "sma200": 72218.56,
    "high3m": 86602.91,
-   "reg": 82982.2,
+   "reg": 82975.62,
    "pre": null,
    "post": null,
-   "regClose": 82982.2,
+   "regClose": 82975.62,
    "sess": "reg",
-   "mt": 1791663099,
+   "mt": 1791663687,
    "ok": true
   },
   "USO": {
@@ -1271,10 +1297,10 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - ABC7 San Francisco",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNdDF5WmEzaEMwUll4Yzl3TFVtYmNNV1FoOXpubUh3cng3Q3RnX3hXUnVRdkQxNUN2Nldmclh2OEIzSHdVTnlsYUhKeFRyeFVrSEdPUEE1Ti1fdTdPMzRtdjhSRW5XYkFQNXBjTHAwTkVUeGM4WFJzbll3OXlaX0o3TkNNb3UyOTllV0VZUUNUckVTcHE3XzlfMzlPdTBqTlZwWmxTWEliNko3SHdxdndR0gG0AUFVX3lxTFBDMjdJWTI1cXRuVDF6a3RiZFBSc0tySXVHcmlNSFhwVTlZSndUNmtTVERndmNSZjgyN0RJa1pwZUFPRHU2cGxoVGc2YVFQVTJ3QWlOaGVWWnc2Z000a3A0N284TlpPejB2X09UYkwzYmh5Y3N3UEptVFVhOXI3RUttSUd4SDZsZ3Zwei1qRW1tVWlJeWprN29teHBsTUZnczVWR1k5d0VzNDBNekxiS2t4bFN1Tw?oc=5",
-    "pub": "Sat, 10 Oct 2026 16:51:52 GMT",
-    "src": "ABC7 San Francisco",
+    "title": "Anthropic's Claude AI submits a false tip on a Philadelphia unsolved homicide case - ABC11 News",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOV1FraGVBaW5fb2UzcVJMWEo4bzA0dENJLTN0dGlmbmg5bUJJN25rZjFQeHNWYkw0eFpzVEFQTFNXR2VlM2ltS2NVWFNvaExralNCM3lIa2c0aDBPVklsMk8zanpNQ25GaW10YWRGYlVPRzA0NjJWUmtTcnpZTnFha21LVGNiYk1aVHNhcExlR0ZzcmV5WXJaN1Q4ZUVNWUw1UHU1M3lsNHRWTno4M1EtVdIBsAFBVV95cUxOV1FraGVBaW5fb2UzcVJMWEo4bzA0dENJLTN0dGlmbmg5bUJJN25rZjFQeHNWYkw0eFpzVEFQTFNXR2VlM2ltS2NVWFNvaExralNCM3lIa2c0aDBPVklsMk8zanpNQ25GaW10YWRGYlVPRzA0NjJWUmtTcnpZTnFha21LVGNiYk1aVHNhcExlR0ZzcmV5WXJaN1Q4ZUVNWUw1UHU1M3lsNHRWTno4M1EtVQ?oc=5",
+    "pub": "Sat, 10 Oct 2026 17:08:43 GMT",
+    "src": "ABC11 News",
     "trig": false,
     "geo": false
    },
@@ -1371,14 +1397,6 @@
   ],
   "flow": [
    {
-    "title": "UBS Expects Copper Market Shortfall to Increase in 2027, Forecasts $15,500 Price - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeVo0eXJrS01GdWZRdW1TSG43YkFxN3k5Z1E2QlZBQkFnOEFoc1gxYXQtY2tPckVZcUg4dXktekVxYXV6MGxWNmlfX2w5dEFwYldSOW9hNGF6LXExR3dCM0tRU3FncGdSakE2aVNPdGdCZVZvZTRzb3BWM2sxNFMtTWp5TEZjSjZrVFg5aA?oc=5",
-    "pub": "Sat, 10 Oct 2026 13:04:00 GMT",
-    "src": "Yahoo Finance UK",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Copper Price Forecast: Copper Nears Record High, Chilean Mine Strike Hits Supply, Could It Break $15,000? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX01TR1FVM0duQ1MzbS1fZFNDbjlFOEd2bUdWS2dYZEhYazMyOE5fdlM3eFV3Rk5fOEFsdjdYenhGeXRYTDNsS04xS0p2Y1p6WGRPS3gyeWQ5UlJQZE53MXpZdWxKa21uQTB1bWZXRkNCNjZQd1J3T0pvN3lreklaU01naWVMMEZMV1QwbDhQYUlLTU55VWZBM3NObUl4MXV2aGVsb1p2ekVLQk4xUDhvRjBlQWNkZ2tTRUNsZGxCajhWdTNBcy1XZG5GaFdkUQ?oc=5",
     "pub": "Sat, 10 Oct 2026 12:02:46 GMT",
@@ -1415,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxOX19DclJIUmhkdldfZHJmSkNsbzlFYlljYzFqUG5tX2o3U1NfRUNEQUw5VGxERU8wSDRsNjJLYlpEUGU5RERTQVRhcks0V21oRzRiOXZ2Z19ZTFlBNkNqcktPX1NRYWVlQl9MM2tOY2hCTDFybW1JTWo2b2VyR2xudWZRSjFSVFowYkdIM1ZidGJMbG5JNXRoVkthcmk4ZTI1T05FSzhoWThRLVJHcnRfUWdvbkJRTlZCZkgzRmMyZ1ZDX0JvU3V2RHpzWTc3MDRnYjU5RkRRQUo3WFFRcFVxV2VVdWtSc0VkOG5UQ1BiNG96YTNiOFF3cUFMY1AyQkNBVnVpZ2FiRjNIdGZxeUhJSmhpbHE5aVQzcTU4c01FTEROOTBiSDJ2ZFBEaHZ0VFp6S2hJSkw1bGViUVdINm1oaFpQcFByYk9KYjFPajQwTzZUbFJDcTJYSEFR0gHaAkFVX3lxTE5fX0NyUkhSaGR2V19kcmZKQ2xvOUViWWNjMWpQbm1fajdTU19FQ0RBTDlUbERFTzBINGw2MktiWkRQZTlERFNBVGFySzRXbWhHNGI5dnZnX1lMWUE2Q2pyS09fU1FhZWVCX0wza05jaEJMMXJtbUlNajZvZXJHbG51ZlFKMVJUWjBiR0gzVmJ0Ykxsbkk1dGhWS2FyaThlMjVPTkVLOGhZOFEtUkdydF9RZ29uQlFOVkJmSDNGYzJnVkNfQm9TdXZEenNZNzcwNGdiNTlGRFFBSjdYUVFwVXFXZVV1a1JzRWQ4blRDUGI0b3phM2I4UXdxQUxjUDJCQ0FWdWlnYWJGM0h0ZnF5SElKaGlscTlpVDNxNThzTUVMRE45MGJIMnZkUERodnRUWnpLaElKTDVsZWJRV0g2bWhoWlBwUHJiT0piMU9qNDBPNlRsUkNxMlhIQVE?oc=5",
     "pub": "Sat, 10 Oct 2026 07:27:38 GMT",
     "src": "The Sunday Guardian",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Global gold prices recover after hitting a two-month low. - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdFJ3TGQ5dGptalBUUmtfa3R1aWEtUHlrU1lZaHR1V19fdXl4Z1hSRll2STlWMldjUUoyWmgzbHdWa3ZDZlEyeU9ySTN1R0k5NGdobVRWSXRpbndwbDlEdlpacVJscFZpMnNBbk1vQ1ExQU9OdUl2cXBfbXkza25jRWszcw?oc=5",
+    "pub": "Sat, 10 Oct 2026 06:04:17 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    }
@@ -1710,7 +1736,7 @@
    77270.47,
    81233.68,
    84406.45,
-   82982.2
+   82975.62
   ],
   "vixts": [
    0.853,
@@ -2457,7 +2483,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적(예상)",
+   "name": "AMZN 실적",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 19
   },
@@ -2720,20 +2746,19 @@
   25
  ],
  "feed": {
-  "fail": 2,
-  "failed": [
-   "NVDA",
-   "SNDK"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
-  "pct50": 73,
-  "n": 33
+  "pct50": 71,
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T20:12:01+00:00",
-  "openai": null,
+  "checked": "2026-10-10T20:21:49+00:00",
+  "openai": {
+   "found": false
+  },
   "anthropic": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T16:22:04+00:00",
+ "updated": "2026-10-10T16:32:37+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82991.0,
-   "chg": 0.54,
-   "chg5": -3.26,
-   "chg20": 2.28,
-   "sma20": 84377.18,
-   "sma50": 80811.66,
-   "sma200": 72218.64,
+   "price": 82923.96,
+   "chg": 0.46,
+   "chg5": -3.34,
+   "chg20": 2.2,
+   "sma20": 84373.83,
+   "sma50": 80810.32,
+   "sma200": 72218.28,
    "high3m": 86602.91,
-   "reg": 82991.0,
+   "reg": 82923.96,
    "pre": null,
    "post": null,
-   "regClose": 82991.0,
+   "regClose": 82923.96,
    "sess": "reg",
-   "mt": 1791649288,
+   "mt": 1791649915,
    "ok": true
   },
   "USO": {
@@ -1305,6 +1305,14 @@
     "geo": false
    },
    {
+    "title": "NVIDIA Reportedly Ending the RTX 5090, Reserves GB202 Silicon for Workstation GPUs - TechPowerUp",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOMFFOWUwxeWx5d0oxZnVjVEJhSy0wZ0JkWnN1SldpdlNPYUpBNHhFOU5OOFFockJNZU1fb0xMNVNOV2tuX3g1NzktTHhZakxYa3c0WG54Z3Z0cFkxVnVtS1pDdGNpWXBiU0RfaDRTVmNSOS0yOU5KQms2NldHLTJoOTh2X0VtbmtqbjhoMXg1YW5PeG04ejNLU0d6Zmt6ODRUZTMzeUM3blBFZ1Qzd0prRWxVclF1bWvSAbwBQVVfeXFMT3hDcjVITzBRUFhGalJncURuSWY1ckh2QWZodHhycE83cTVtT0RoMW1mdzBiSmRfT001bjRteHFxUWlCSFNJbWJUNGZJbTM4TTN5eFFOd1E3X2NMT3ZrRzNBSTVvR1lOQUd2clF0M0FNZWtEM3puQUlIbEhXTnJHREMwX3BOdWo5eVhFaGloYUNzZkZGUzVuYXRsMmpyT1NkQW01cVZwR0otVHViYkJuUkZxWDExX053OGNRVDA?oc=5",
+    "pub": "Sat, 10 Oct 2026 13:23:46 GMT",
+    "src": "TechPowerUp",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Prediction: This Will Be the Next Big AI Gold Rush and This Company Will Be the Winner. - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxOdzg4ZWVJWW13RFN2ZWljVF9fOERBa1hZbVp5UHhDbVJoZWRwY3lVRkhEUXp6ejhLMGo2SEZfTVZreldBbHA4VHhGZlFiVjUzdERDeXRjUmlzWXNtOTk3QjJMMF9RaURza0ZUT1Vmc1pfY2thR0JiVWVwdFpQZnY4WkFiTlRneUNJT09nalEzSVNXLXNGRk9yclZTT1lEbzJxVjhpMTNYb0VfcnlsNFpBd0lUSHVWTS1lZUlHMTJkZnRic205dFVMekRYQmp5cnlvN3ZhdFJDSnlXNUljbTJGU3RzWHRUdUdDZXl1bnlDelNFaVgteHdVWUR5WjJLZ0xxbWc?oc=5",
     "pub": "Sat, 10 Oct 2026 11:25:59 GMT",
@@ -1335,14 +1343,6 @@
     "src": "Pluang",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceX launches 21 data satellites for the Space Development Agency - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcTNwSkFjSE1zZHBUT05GcTRKd3FkaHNySnZJblhYMEp4bUpQSXFfanpvXzVJUW9LSHk3OVF3ZVAtTE5BWktiZXU5S3pQZTRmaWI1TnFmOWlrMjBQeTBxdFdNdE5YQ3NRUTg5cVJxSzBOM3J5SUxqS2p1U1RnVkc3TjFDVGJOTXJ1dkFNNW1sNVVjdTR2RGQtQ2hKbXFXdGJDeFFRTUQ0dDEzanRxcURxNi0zbUtUeTJ5M0ZCODZEdElsSlFFTXc?oc=5",
-    "pub": "Sat, 10 Oct 2026 08:26:33 GMT",
-    "src": "Spaceflight Now",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1351,6 +1351,14 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
     "pub": "Sat, 10 Oct 2026 15:22:35 GMT",
     "src": "The Washington Post",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bond investors are starting to say no to the AI debt binge - Startup Fortune",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUjVnRlhEempCcWQ0RjRrN21Wdmt1bU1Dank5QU10RVFVUWZkcUwtd0RoZVhLVzNPWENUcmtqVVpKNndTQzhzeGo4VmRaa3hWNnNRTEZPMVRTLWplOThBY2pQWGdyR09XWFZEQ1kxaDNUTFN0elZ1MEdnajBESUhiLU5iMkRNSG1SMjZiVWZXTQ?oc=5",
+    "pub": "Sat, 10 Oct 2026 13:35:17 GMT",
+    "src": "Startup Fortune",
     "trig": false,
     "geo": false
    },
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE40OXVqVHNEUDh6RGlNWGFmQ1VhOEtsSFBrcTlJQkNUbm5fWWhoX0hLTlhWR1R1dXhMaFpfNmtwdDRERUtoMlFmRVNwV2U2dF9HejIzdg?oc=5",
     "pub": "Sat, 10 Oct 2026 07:51:02 GMT",
     "src": "bloomingbit",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Brent commands a war premium as Middle East supply risks keep oil on edge - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbHU0TEdGNGd3Q0pncDMwSnZ6cXBQUHdBalBaSXRWdHVjS0w0Vm5Xcm9pYWRXSGxqVFFObXQ1QmNGTVFNcnNQcEVlWF9QRjdXQWF4dTdGa0pxSVBRM3J5NGhNc3JPanFlUVdiVWpwMmtUYS1fdm5rWElrX0hIdVllOGlmTXJYYkVoSE0xWnNfcEZCUFdGaENVZWZDd2hmNURUSFMycm9VRVpNbUJxU05sSWRsQ3ZXUnZfbEtHUXFmQXVSSk1lU25PUWhoZVY5STc0UkVBV2RScmJCRV82ZFVnbmFGdktKZHfSAewBQVVfeXFMT1FCOXdkQW9xWWozZ2dmZ0MtOU5heGszLXpxZ2ZZc1NPV2pOX2JPeUxST2EzS19sUUF4aXIxaWlkdUQ2ZF81b19qQmV1UldYd1ZyalFIb3l6bFdUZUQ0ZkxrQXVfSjhweE1YRTBWNEtEbnJJcnNVR3pkcWVxUkZ0Um1zYjVvQkgxV09SaWNQaGEyRUJsdERMdGFoMVFpak5tUTRieUNibElwUEUtSEFuaGw4b3VwQUg1Q3dpTmdodFFuQTVFc1Q0b1F5M3djMGdWc1FUYm9JWmZLZFdjeHFRbzhqRlk3SEtObkJlYXE?oc=5",
-    "pub": "Sat, 10 Oct 2026 05:56:50 GMT",
-    "src": "The Economic Times",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    77270.47,
    81233.68,
    84406.45,
-   82963.29
+   82928.14
   ],
   "vixts": [
    0.853,
@@ -2755,7 +2755,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T16:21:50+00:00",
+  "checked": "2026-10-10T16:32:22+00:00",
   "openai": {
    "found": false
   },

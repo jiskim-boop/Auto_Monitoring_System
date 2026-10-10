@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T07:12:09+00:00",
+ "updated": "2026-10-10T07:22:16+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -832,7 +832,7 @@
    "post": null,
    "regClose": 154.34,
    "sess": "reg",
-   "mt": 1791576000,
+   "mt": 1791579646,
    "ok": true
   },
   "^MOVE": {
@@ -849,7 +849,7 @@
    "post": null,
    "regClose": 98.47,
    "sess": "reg",
-   "mt": 1791576000,
+   "mt": 1791577050,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82636.88,
-   "chg": 0.11,
-   "chg5": -3.67,
-   "chg20": 1.84,
-   "sma20": 84359.47,
-   "sma50": 80804.58,
-   "sma200": 72216.72,
+   "price": 82560.23,
+   "chg": 0.02,
+   "chg5": -3.76,
+   "chg20": 1.75,
+   "sma20": 84355.64,
+   "sma50": 80803.04,
+   "sma200": 72216.3,
    "high3m": 86602.91,
-   "reg": 82636.88,
+   "reg": 82560.23,
    "pre": null,
    "post": null,
-   "regClose": 82636.88,
+   "regClose": 82560.23,
    "sess": "reg",
-   "mt": 1791616285,
+   "mt": 1791616890,
    "ok": true
   },
   "USO": {
@@ -1087,7 +1087,7 @@
    "post": null,
    "regClose": 48.9,
    "sess": "reg",
-   "mt": 1791576000,
+   "mt": 1791576121,
    "ok": true
   },
   "ES=F": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Key facts: MSFT $90B Q1; capex doubles, launches Execution Containers - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQN0FKODN0eXU2bzAyd01sVElQRWxSNlp2UEV5bzZOcE1OWGlCWVVvM2J3bmRoRTFCVlhnbmJHX0tkSDhOaEpBM0Y2bUZFeTBJZ1I5dDRPelpQMnAwUmVGdkpDRm9hS3d4LVZNTlMtQ1VCSGhCYkM4cTB3Q1FtLU1hYlYwMkZsRzJsVE14c1lqSnlDVGYwUUcxb1Zibk5Xa1V4SWNSTmYzR3RTdklpdUdadW1YZUpZNHJ4blphclp6U3JONFdCdVE?oc=5",
+    "pub": "Sat, 10 Oct 2026 07:00:00 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "TSMC to Have CoWoS Interposers Manufactured at GlobalFoundries - igor´sLAB",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZE56OFZNSklPV0VXTGE2VTF0TDlwYU9CTGpxcElNWG9nclpKTWp4RFhCdDF4Q0JZZzhJdk81aU5MLWVkTHRCSzljb3g0dGstUVFNZTZfdmNNWFRqZ3VabEZKNDVPa1dzVHEyWi1NSlJhXzdjQkpOX3JzNjVEYWN1ekxycmVoSEQwQWxrQ0dCY1cwUQ?oc=5",
     "pub": "Sat, 10 Oct 2026 04:00:00 GMT",
@@ -1335,20 +1343,12 @@
     "src": "BGNES",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Jefferies’ Chris Wood warns US AI boom could end in massive capital destruction - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBpaGVBaUMzMmxKeVNoclJ5d0dva1lmcHZ0dkx6SnZBbWt1YzNBdS05b0xUcVE1RkpNLW15WHdUZ29MbmpFdExtbzB5WjkyUzliTi1TRUwxRTM2cUZqSnlsSDVmT0VwTFRGamhDM2dVemx6UzZicURZYw?oc=5",
-    "pub": "Sat, 10 Oct 2026 01:54:56 GMT",
-    "src": "Crypto Briefing",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
    {
     "title": "Brent commands a war premium as Middle East supply risks keep oil on edge - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNb0puZUI4OG5pM2gxVDBMbks3bUxzbXNOWG1rN3c5Nm5GX3dkTm5FQUlEWVRnSUFiRmlhdWM2TVVCYVlIT2E0T1gyYWZka2hYZjN5NTBUblZERHU4MUtELWVBTTlkUk5RVm9XZGVGeWZGOWc5UXlqNlVnX1J6ejF2aThwTlJyOGMwVWlPd2FaRHY2bldMYVN5S3hUYmJhQnhMVjlYbF95QW1CRmR2cl93REdNNW90NDhrc2NhNWRzX1lBWUUxZ0Y4d0QzdldsRk9CVUVtejY0THpqcjY5RlN1VEh6cFFoVDFnNTZySmhkV3Bja3fSAewBQVVfeXFMT1FCOXdkQW9xWWozZ2dmZ0MtOU5heGszLXpxZ2ZZc1NPV2pOX2JPeUxST2EzS19sUUF4aXIxaWlkdUQ2ZF81b19qQmV1UldYd1ZyalFIb3l6bFdUZUQ0ZkxrQXVfSjhweE1YRTBWNEtEbnJJcnNVR3pkcWVxUkZ0Um1zYjVvQkgxV09SaWNQaGEyRUJsdERMdGFoMVFpak5tUTRieUNibElwUEUtSEFuaGw4b3VwQUg1Q3dpTmdodFFuQTVFc1Q0b1F5M3djMGdWc1FUYm9JWmZLZFdjeHFRbzhqRlk3SEtObkJlYXE?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxNbHU0TEdGNGd3Q0pncDMwSnZ6cXBQUHdBalBaSXRWdHVjS0w0Vm5Xcm9pYWRXSGxqVFFObXQ1QmNGTVFNcnNQcEVlWF9QRjdXQWF4dTdGa0pxSVBRM3J5NGhNc3JPanFlUVdiVWpwMmtUYS1fdm5rWElrX0hIdVllOGlmTXJYYkVoSE0xWnNfcEZCUFdGaENVZWZDd2hmNURUSFMycm9VRVpNbUJxU05sSWRsQ3ZXUnZfbEtHUXFmQXVSSk1lU25PUWhoZVY5STc0UkVBV2RScmJCRV82ZFVnbmFGdktKZHfSAewBQVVfeXFMT1FCOXdkQW9xWWozZ2dmZ0MtOU5heGszLXpxZ2ZZc1NPV2pOX2JPeUxST2EzS19sUUF4aXIxaWlkdUQ2ZF81b19qQmV1UldYd1ZyalFIb3l6bFdUZUQ0ZkxrQXVfSjhweE1YRTBWNEtEbnJJcnNVR3pkcWVxUkZ0Um1zYjVvQkgxV09SaWNQaGEyRUJsdERMdGFoMVFpak5tUTRieUNibElwUEUtSEFuaGw4b3VwQUg1Q3dpTmdodFFuQTVFc1Q0b1F5M3djMGdWc1FUYm9JWmZLZFdjeHFRbzhqRlk3SEtObkJlYXE?oc=5",
     "pub": "Sat, 10 Oct 2026 05:56:50 GMT",
     "src": "The Economic Times",
     "trig": false,
@@ -1736,7 +1736,7 @@
    77270.47,
    81233.68,
    84406.45,
-   82636.88
+   82573.19
   ],
   "vixts": [
    0.853,
@@ -2757,7 +2757,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-10T07:11:54+00:00",
+  "checked": "2026-10-10T07:22:03+00:00",
   "openai": {
    "found": false
   },

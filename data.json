@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T10:12:01+00:00",
+ "updated": "2026-10-11T10:22:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82973.58,
-   "chg": 0.07,
-   "chg5": -3.02,
-   "chg20": -4.19,
-   "sma20": 84191.77,
-   "sma50": 80927.89,
-   "sma200": 72272.53,
+   "price": 82925.27,
+   "chg": 0.02,
+   "chg5": -3.08,
+   "chg20": -4.25,
+   "sma20": 84189.36,
+   "sma50": 80926.92,
+   "sma200": 72272.27,
    "high3m": 86602.91,
-   "reg": 82973.58,
+   "reg": 82925.27,
    "pre": null,
    "post": null,
-   "regClose": 82973.58,
+   "regClose": 82925.27,
    "sess": "reg",
-   "mt": 1791713484,
+   "mt": 1791714095,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Cheaper AI tokens are driving more demand, and that's Jensen Huang's best-case scenario - The Decoder",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hUblN4TjUyZ3p0em1pMFF2amh1djhSXzAyOHA5MUdGZk93akVMdmRiSExYUUFxdXU3eV9NX2hmaWRBZENmVm1tRF9qTE9ic0ltWXZSVGR4MW9CbU5nZmxzYldQeHhEcjRpZTVCUzM4Tm16SUJJQWRPem41SjB0WDZSWmZ1U2JPaHhwdjVXdzVLeHVBYi1qc1VWN2g5V0VFTXdlMm4zX3hRTnFPX3c?oc=5",
+    "pub": "Sun, 11 Oct 2026 09:54:19 GMT",
+    "src": "The Decoder",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s inference business could hit 88% margins, SemiAnalysis estimates - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcWp6S0JlbTNmUml1cm5ld1Y1TURydmF6S2lHcFhnU0ZRbllnRUhkR2ItUGE0czRfQjNTZDdQRFk0dzFHc0Q4ektHSWU3R1AwLXlZWEVtaV85aHU0MUl4VWo4bk1PMnRIbHh0aG90dUVmTF9hX2d6NGo5QXN2RDg5R2I2b2U5UQ?oc=5",
     "pub": "Sun, 11 Oct 2026 01:27:22 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeElGamhIZ2Z1VV9pcXpsMG9wb2lVVDFlS1BBc0dzU3lVWW1nWkV2blJEYXVVeHFGR21PYWV4dHYzcGEzN2ZlbkhpWUtkQlJjTFFIcm9GVmVVTkpCampZSDkwTzc4M19MR3VRRU9jUk51dUdpODlVZ1VOcUdMX3ZNNmRlb3BoQkp3cHFMMFVVUjNnZF92R3BzQ1lPd2RHUEZiSnRPVzNHSTRDSUsySVE?oc=5",
     "pub": "Sat, 10 Oct 2026 21:06:37 GMT",
     "src": "Los Angeles Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft Stock Forecast: Is Spending $190 Billion on AI Infrastructure in 2026 — Is MSFT a Buy at $452? - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPSzQzUHo1QjF5QktqWDB4dWJVLXhIYldVYlQ5TW14ai12WG0yQlhGcjUxSW5ZMHBtZExmNkMzVXBqd3E1Wk1vcjBsQlhDelBZQXNLQWtfTDhIZUdGVjRKYXNjZUw5RlFlMmpsNUE3Y3AxWGJIYnlVcUs3Ym1JX21CSTZfT1FkSEdHR0FjTW1MSXkyYWNicXV1Zm1nZ1VUNm1ydHMwbVl3TExqaVpjQTl3QzBaZV8tTVRtN3RmX3dGSWVTdjl6NmQtN0NNNGNwV0E?oc=5",
-    "pub": "Sat, 10 Oct 2026 20:24:38 GMT",
-    "src": "TradingKey",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    76838.16,
    81142.61,
    84458.09,
-   82973.58
+   82934.76
   ],
   "vixts": [
    0.853,
@@ -2486,7 +2486,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 18
   },
@@ -2758,7 +2758,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-11T10:11:49+00:00",
+  "checked": "2026-10-11T10:22:00+00:00",
   "openai": {
    "found": false
   },

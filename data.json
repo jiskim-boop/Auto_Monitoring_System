@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T14:02:35+00:00",
+ "updated": "2026-10-11T14:12:19+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82980.84,
-   "chg": 0.08,
-   "chg5": -3.01,
-   "chg20": -4.18,
-   "sma20": 84192.14,
-   "sma50": 80928.03,
-   "sma200": 72272.57,
+   "price": 82988.59,
+   "chg": 0.09,
+   "chg5": -3.0,
+   "chg20": -4.17,
+   "sma20": 84192.52,
+   "sma50": 80928.19,
+   "sma200": 72272.62,
    "high3m": 86602.91,
-   "reg": 82980.84,
+   "reg": 82988.59,
    "pre": null,
    "post": null,
-   "regClose": 82980.84,
+   "regClose": 82988.59,
    "sess": "reg",
-   "mt": 1791727322,
+   "mt": 1791727894,
    "ok": true
   },
   "USO": {
@@ -1057,20 +1057,20 @@
    "ok": true
   },
   "KRW=X": {
-   "price": 1340.9,
-   "chg": -0.16,
-   "chg5": -0.12,
-   "chg20": -0.28,
-   "sma20": 1356.75,
-   "sma50": 1374.61,
-   "sma200": 1450.76,
+   "price": 1340.02,
+   "chg": -0.22,
+   "chg5": -0.19,
+   "chg20": -0.34,
+   "sma20": 1356.71,
+   "sma50": 1374.59,
+   "sma200": 1450.75,
    "high3m": 1487.39,
-   "reg": 1340.9,
+   "reg": 1340.02,
    "pre": null,
    "post": null,
-   "regClose": 1340.9,
+   "regClose": 1340.02,
    "sess": "reg",
-   "mt": 1791689433,
+   "mt": 1791727728,
    "ok": true
   },
   "^OVX": {
@@ -1305,6 +1305,14 @@
     "geo": false
    },
    {
+    "title": "CRS-35 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBiQUk3UGNxTlZuMl92Qml4aU1Ob25ZRU42bEEtTnhuY0dENm1WZVRyQUhRMzFlRTUtV3JPNC02YkE0aWdnVTBWZ3JseFdLUQ?oc=5",
+    "pub": "Sun, 11 Oct 2026 11:46:36 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Explaining hyperscaler - PPC Land",
     "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE82WlQySXpLR21qOUFpdTBHNExHT2I1RTFjY2I1alJEVGxJMzdkMi1yUnh4dl8zZnNNVW0tV3dvQ3dmNzg?oc=5",
     "pub": "Sun, 11 Oct 2026 10:57:34 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hUblN4TjUyZ3p0em1pMFF2amh1djhSXzAyOHA5MUdGZk93akVMdmRiSExYUUFxdXU3eV9NX2hmaWRBZENmVm1tRF9qTE9ic0ltWXZSVGR4MW9CbU5nZmxzYldQeHhEcjRpZTVCUzM4Tm16SUJJQWRPem41SjB0WDZSWmZ1U2JPaHhwdjVXdzVLeHVBYi1qc1VWN2g5V0VFTXdlMm4zX3hRTnFPX3c?oc=5",
     "pub": "Sun, 11 Oct 2026 09:54:19 GMT",
     "src": "The Decoder",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
-    "pub": "Sun, 11 Oct 2026 03:36:07 GMT",
-    "src": "Stocktwits",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    76838.16,
    81142.61,
    84458.09,
-   82988.85
+   82988.59
   ],
   "vixts": [
    0.853,
@@ -2758,7 +2758,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-11T14:02:22+00:00",
+  "checked": "2026-10-11T14:12:02+00:00",
   "openai": {
    "found": false
   },
@@ -2856,8 +2856,8 @@
   "dollar": {
    "dxy": 102.23,
    "dxy_chg20": 3.14,
-   "usdkrw": 1340.9,
-   "usdkrw_chg20": -0.28,
+   "usdkrw": 1340.02,
+   "usdkrw_chg20": -0.34,
    "hit": false,
    "missing": []
   },

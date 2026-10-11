@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T10:52:10+00:00",
+ "updated": "2026-10-11T11:02:48+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82906.24,
-   "chg": -0.01,
-   "chg5": -3.1,
-   "chg20": -4.27,
-   "sma20": 84188.41,
-   "sma50": 80926.54,
-   "sma200": 72272.17,
+   "price": 82924.91,
+   "chg": 0.02,
+   "chg5": -3.08,
+   "chg20": -4.25,
+   "sma20": 84189.34,
+   "sma50": 80926.91,
+   "sma200": 72272.27,
    "high3m": 86602.91,
-   "reg": 82906.24,
+   "reg": 82924.91,
    "pre": null,
    "post": null,
-   "regClose": 82906.24,
+   "regClose": 82924.91,
    "sess": "reg",
-   "mt": 1791715894,
+   "mt": 1791716530,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
+    "pub": "Sun, 11 Oct 2026 05:59:34 GMT",
+    "src": "Rappler",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "JPMorgan's Dimon Warns Private Credit Losses Will Exceed Expectations in Next Downturn - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5STk5mTmRYRXNoSml4aHUyRmlvRjBDcXp1UlQ2Ym82UG55NEU1SUhNTkhxMDdlcEVCcGhQQ09COWd3cXZGczNMQm5OekhWODdOSElvUXdWRW0ybW9NWEY1a0hoVEwyMzlobTdrLVlndmRCMmJKWEE?oc=5",
     "pub": "Sat, 10 Oct 2026 13:05:00 GMT",
@@ -1285,17 +1293,17 @@
     "src": "Investing.com India",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SEC Staff Statement Highlights Valuation and Disclosure Expectations for Private Credit and Other Illiquid Assets - JD Supra",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tWVlVTTNyUU93dndScm5RWHd6TFJrT1d5cWt1cW1zeWNkcklrRXRzVEM0T25EVDFDeXFyN2Q4eEtJb3hheURRNG1EY2tVYzRibms0ZWgyVDVKVFdRWEdhYTdpc2wtaHpmTDZ2ZWNxZmhfWjdvT2tBWlpYUEtpZw?oc=5",
-    "pub": "Fri, 09 Oct 2026 21:09:04 GMT",
-    "src": "JD Supra",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Explaining hyperscaler - PPC Land",
+    "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE82WlQySXpLR21qOUFpdTBHNExHT2I1RTFjY2I1alJEVGxJMzdkMi1yUnh4dl8zZnNNVW0tV3dvQ3dmNzg?oc=5",
+    "pub": "Sun, 11 Oct 2026 10:57:34 GMT",
+    "src": "PPC Land",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Elon Musk renames SpaceXAI to SpaceX Super Intelligence - The Standard (HK)",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNzRVUzdsUFhSWU9PR0V4Y3prT3FTUVBTbDFQQy1jel82akNmNFFJcVM4MzVmYTcyd3BORzhEd2ZPMFFEb0JrWjFEblpmM0pXNDBjLUlyaXI2U1NBN185d0RkZEljdzBWWWJFM1FYZHg3SWpHYzgteWVzVWpybl9SQVQwVDlHTVBGUTJOZFl3ejVVaVFUTjJVVXktR0hJS0pNSW5tZmVTeFlqU01WSzNDRHZn?oc=5",
@@ -1309,14 +1317,6 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hUblN4TjUyZ3p0em1pMFF2amh1djhSXzAyOHA5MUdGZk93akVMdmRiSExYUUFxdXU3eV9NX2hmaWRBZENmVm1tRF9qTE9ic0ltWXZSVGR4MW9CbU5nZmxzYldQeHhEcjRpZTVCUzM4Tm16SUJJQWRPem41SjB0WDZSWmZ1U2JPaHhwdjVXdzVLeHVBYi1qc1VWN2g5V0VFTXdlMm4zX3hRTnFPX3c?oc=5",
     "pub": "Sun, 11 Oct 2026 09:54:19 GMT",
     "src": "The Decoder",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
-    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
-    "pub": "Sun, 11 Oct 2026 03:36:07 GMT",
-    "src": "Stocktwits",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    76838.16,
    81142.61,
    84458.09,
-   82906.24
+   82924.92
   ],
   "vixts": [
    0.853,
@@ -2486,7 +2486,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 18
   },
@@ -2758,7 +2758,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-11T10:51:55+00:00",
+  "checked": "2026-10-11T11:02:33+00:00",
   "openai": {
    "found": false
   },

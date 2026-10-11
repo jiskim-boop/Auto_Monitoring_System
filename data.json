@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-11T10:32:30+00:00",
+ "updated": "2026-10-11T10:42:23+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82908.47,
-   "chg": -0.0,
-   "chg5": -3.1,
-   "chg20": -4.27,
-   "sma20": 84188.52,
-   "sma50": 80926.58,
-   "sma200": 72272.18,
+   "price": 82894.69,
+   "chg": -0.02,
+   "chg5": -3.11,
+   "chg20": -4.28,
+   "sma20": 84187.83,
+   "sma50": 80926.31,
+   "sma200": 72272.11,
    "high3m": 86602.91,
-   "reg": 82908.47,
+   "reg": 82894.69,
    "pre": null,
    "post": null,
-   "regClose": 82908.47,
+   "regClose": 82894.69,
    "sess": "reg",
-   "mt": 1791714712,
+   "mt": 1791715297,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
-    "pub": "Sun, 11 Oct 2026 05:59:34 GMT",
-    "src": "Rappler",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "JPMorgan's Dimon Warns Private Credit Losses Will Exceed Expectations in Next Downturn - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5STk5mTmRYRXNoSml4aHUyRmlvRjBDcXp1UlQ2Ym82UG55NEU1SUhNTkhxMDdlcEVCcGhQQ09COWd3cXZGczNMQm5OekhWODdOSElvUXdWRW0ybW9NWEY1a0hoVEwyMzlobTdrLVlndmRCMmJKWEE?oc=5",
     "pub": "Sat, 10 Oct 2026 13:05:00 GMT",
@@ -1293,6 +1285,14 @@
     "src": "Investing.com India",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "SEC Staff Statement Highlights Valuation and Disclosure Expectations for Private Credit and Other Illiquid Assets - JD Supra",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE8tWVlVTTNyUU93dndScm5RWHd6TFJrT1d5cWt1cW1zeWNkcklrRXRzVEM0T25EVDFDeXFyN2Q4eEtJb3hheURRNG1EY2tVYzRibms0ZWgyVDVKVFdRWEdhYTdpc2wtaHpmTDZ2ZWNxZmhfWjdvT2tBWlpYUEtpZw?oc=5",
+    "pub": "Fri, 09 Oct 2026 21:09:04 GMT",
+    "src": "JD Supra",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1301,6 +1301,14 @@
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOQ0hUblN4TjUyZ3p0em1pMFF2amh1djhSXzAyOHA5MUdGZk93akVMdmRiSExYUUFxdXU3eV9NX2hmaWRBZENmVm1tRF9qTE9ic0ltWXZSVGR4MW9CbU5nZmxzYldQeHhEcjRpZTVCUzM4Tm16SUJJQWRPem41SjB0WDZSWmZ1U2JPaHhwdjVXdzVLeHVBYi1qc1VWN2g5V0VFTXdlMm4zX3hRTnFPX3c?oc=5",
     "pub": "Sun, 11 Oct 2026 09:54:19 GMT",
     "src": "The Decoder",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Microsoft, Meta And Google Just Silenced AI Spending Critics In One Earnings Night As Big Tech Capex Swells To $725B - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiiwJBVV95cUxNQ2ZDQkRWWGZaNVdBV1UwS0FEY0RvVVJqUFUxNXd2eHpWM1haeXltLUNpaXB2TW5kcHlJRFo0WFNOQWZFaGNDZ2p3WlcwZjhPVndrYkQwWVAxR0tVVnotaFdDNnZHT1IxZ1BJVHJXZXFpVG5ROUlMcGZoR29iczhkOGM4VG9UMEVWWHJoUEY5TlBCN0RiTEotLTFWNVdFZHZpUmVBOHBuYWVaN0xYMEJzSkgtSno4WHhuc2x4TmpMUkV5bHJDaTNqVHFKalBIMl9pZ01MSjF2a0hpczUtYjMxUHk1OGt0VUxxbHRuaHZ3Nkt4ekRLTl9YZzVQX04wYjFUS25wLUZwWUJwTFU?oc=5",
+    "pub": "Sun, 11 Oct 2026 03:36:07 GMT",
+    "src": "Stocktwits",
     "trig": false,
     "geo": false
    },
@@ -1335,25 +1343,9 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Anthropic’s Claude AI submits a false tip on a Philadelphia crime website - Los Angeles Times",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNeElGamhIZ2Z1VV9pcXpsMG9wb2lVVDFlS1BBc0dzU3lVWW1nWkV2blJEYXVVeHFGR21PYWV4dHYzcGEzN2ZlbkhpWUtkQlJjTFFIcm9GVmVVTkpCampZSDkwTzc4M19MR3VRRU9jUk51dUdpODlVZ1VOcUdMX3ZNNmRlb3BoQkp3cHFMMFVVUjNnZF92R3BzQ1lPd2RHUEZiSnRPVzNHSTRDSUsySVE?oc=5",
-    "pub": "Sat, 10 Oct 2026 21:06:37 GMT",
-    "src": "Los Angeles Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "What the Iran war has done to the world’s energy supply, in charts - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPRzFYc2VSOHpyUE1vTFZCazhLczV3dWpZaUQzdmY3bExLeTMySVNpdm9OdzNtN29MTDRfRThhRzB2NnFGQXV6TjFXdzhkVXBnNksydE1mc2d4ZE1zNzJ0bm9qZVpPMDBQcVJBUy10NHdSQnNfcEwwQTEwTV91RklEZlpwb3dIYTFQWm5tV3BWbmJBYXdUT2pHRDF1dUw5cmpmYzk4eDljNVJKZw?oc=5",
-    "pub": "Sun, 11 Oct 2026 08:29:37 GMT",
-    "src": "Al Jazeera",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "12 killed, hundreds injured in Saudi Arabia airport attack as Houthi strikes intensify - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQX1ZaSjhHakhEb2hLUXUxdWZVb1pVQXJicTgtVENldndaRTI4VG5iaFJyV0sxSTRieVliX0c3SV81SEYtNmFxOXd2YUM2bDh6Tjk0cnBCVWM0RWNJeE4xLUVKXy10ZUM5cVNHc2tZYXR2R1A5U21MRVVjb0hMcHp5VTNfc29FTWFUaW51MVhnemJfRW9CMk8wb29HWVpzQ3pENDZscW43SEVxNHhUcUxrN3JBaUo4bWtENEE?oc=5",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQQ1QwaTRtZExULTV0cDZzMkhoVHJTcGRYUy10T0szanh0T0IxT3lZdXdiR2g0YzFyQm1lTDNFTG9XMEZfY0JkSVp4UzQyY1ZpQnZ4OWZfQ2ZHRUtwMFR2RlJfYldPRW5sOGctWENQTnZiWmMycmpoMTNzVUZQTXJvMER3?oc=5",
     "pub": "Sat, 10 Oct 2026 18:45:00 GMT",
     "src": "Barron's",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Morocco eyes Israel’s LORA ballistic missiles as North African military rivalry intensifies - Business Insider Africa",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNY2NGdzFWLTluYkFhV255d3NhUDJPUjRoRjRsdlo5dDBadlpYMkRLWHpmS0lsWW1UbjRGS3U3SkdIT0R5ejl2QjNCM0ltM084M3l0U0JCT1RDZXBXakMzVFMwQUVzdWlhWGo3N1BXM3RVZDFSNkN3YnBrTHFYeGZjNHBKNjFQV2o3Tmo4UUt4UURQckZKVzlwSmltSkxYUGR4MHYtNGk4bXJPZjdQTmtLQlN2VVJHd01yRGQyZTJscXV3VEdlZGNXTFo5b3pvcG9k?oc=5",
+    "pub": "Sat, 10 Oct 2026 17:40:03 GMT",
+    "src": "Business Insider Africa",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    76838.16,
    81142.61,
    84458.09,
-   82908.47
+   82894.69
   ],
   "vixts": [
    0.853,
@@ -2758,7 +2758,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-11T10:32:15+00:00",
+  "checked": "2026-10-11T10:42:04+00:00",
   "openai": {
    "found": false
   },

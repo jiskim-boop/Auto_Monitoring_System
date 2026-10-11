@@ -1,10 +1,23 @@
 {
- "updated": "2026-10-11T04:32:38+00:00",
+ "updated": "2026-10-11T04:42:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 229.28,
+   "chg": -0.52,
+   "chg5": -2.0,
+   "chg20": 5.03,
+   "sma20": 226.73,
+   "sma50": 222.08,
+   "sma200": 212.87,
+   "high3m": 239.24,
+   "reg": 229.28,
+   "pre": null,
+   "post": null,
+   "regClose": 229.28,
+   "sess": "reg",
+   "mt": 1791576000,
+   "ok": true
   },
   "AVGO": {
    "price": 361.54,
@@ -993,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82862.39,
-   "chg": 0.38,
-   "chg5": -3.41,
-   "chg20": 2.12,
-   "sma20": 84370.75,
-   "sma50": 80809.09,
-   "sma200": 72213.79,
+   "price": 82886.36,
+   "chg": 0.41,
+   "chg5": -3.38,
+   "chg20": 2.15,
+   "sma20": 84371.95,
+   "sma50": 80809.57,
+   "sma200": 72213.92,
    "high3m": 86602.91,
-   "reg": 82862.39,
+   "reg": 82886.36,
    "pre": null,
    "post": null,
-   "regClose": 82862.39,
+   "regClose": 82886.36,
    "sess": "reg",
-   "mt": 1791693119,
+   "mt": 1791693623,
    "ok": true
   },
   "USO": {
@@ -1250,14 +1263,6 @@
     "geo": false
    },
    {
-    "title": "CALAX Corridor nears 'full completion' — operator - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPVEN5eXFvaHRNaGVuU2xkaWFVd0FxNDFSNWVUVE5nZWZhRERQa3F3WldPRTl2bzVqMmltZllOOVUySmlRUU1BM3cxZEkxTEp3QVZaMDlYcnh4ZWdXTWdYeUNCT1poNEM0bHdOWTBLeW5jTUc1Ml9YbnZlRWlDejR4a2xzbExMaWctZHJveXcyTVpzN296ZWk5QmdUZ1g1Mlk?oc=5",
-    "pub": "Sat, 10 Oct 2026 04:45:04 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Carlyle Secured Lending: Dividend Coverage Restoration, Fed Rate Cuts, NAV Discount - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNTjBndGhUbUJJM0pBLWNRQVdxZ0tDNlRRYmhTV3VhN2JoSnFSbElaWjVOaFFBUm1BcGJFa1ZuSHpUUWg1d1U3TGVHWGhDTmc3ZkVDejFRUF96U2lCQm5yMjFLN3Nsd3RpT1hiQ1A3UDZKeElRMWJ2QW5GcklETjdFYklrMmgyU21NR3V4NmpHdTdHUDhxaXQ5VXo4RFNoa1FkSkVMWWpfYWdGZUlUaXc4OWdR?oc=5",
     "pub": "Sat, 10 Oct 2026 02:22:52 GMT",
@@ -1278,6 +1283,14 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPcFNJOUtPNHRZTDJDMEFpamUyRDhfN3RkZ1h1bkJ6MjRJN3IxMm5XcmtfaXp0QnFXVXUwcmJiRjlpclNnX2VmME9WUms3SGlzNW5UalFfMjlwbk5tREdhejVseUhCcjYzRGZrc1ZwZ0JHaTNpSjkzbjUxbk1pcUVKYWtCUUxWWWt4S3dCX05zRXVIbk1vdGRmNk5keU5DVm56YVhiZEd6cXJwQ3prdU5LVFFJSEM4SXcyY1FHLQ?oc=5",
     "pub": "Fri, 09 Oct 2026 19:40:59 GMT",
     "src": "Trefis",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave's Backlog Is Huge. Here's the Risk Investors Shouldn't Ignore - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWUJHVXF3ajY5ODZ4VEZTbW9uVlBxM180RHZ0dXhZdDlUbEFZS0s4OU9kSGRDNnByR2JBa1dGYlJGNE5kOGdITDVtQWF1YWcxb2VFakRNT1RKMEc3eEtaWmxwaGJVNFZNUTZTeVpBb0tJOEl3aDZpN0NVbFdscmozMVd5NkdoNE9wWWdkV1BCdFpaZjN5UlcyVWtuSkx0R2Jj?oc=5",
+    "pub": "Fri, 09 Oct 2026 19:35:00 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1722,7 +1735,7 @@
    77270.47,
    81233.68,
    84406.45,
-   82873.8
+   82886.36
   ],
   "vixts": [
    0.853,
@@ -2736,18 +2749,16 @@
   25
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "NVDA"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
   "pct50": 71,
-  "n": 34
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-11T04:32:22+00:00",
+  "checked": "2026-10-11T04:41:48+00:00",
   "openai": {
    "found": false
   },

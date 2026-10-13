@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T21:42:13+00:00",
+ "updated": "2026-10-13T21:52:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -855,7 +855,7 @@
   "DX-Y.NYB": {
    "price": 102.2,
    "chg": -0.37,
-   "chg5": 0.37,
+   "chg5": 0.36,
    "chg20": 2.56,
    "sma20": 101.43,
    "sma50": 100.21,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.2,
    "sess": "reg",
-   "mt": 1791927091,
+   "mt": 1791927692,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 83379.79,
-   "chg": 1.98,
-   "chg5": 2.09,
-   "chg20": -1.19,
-   "sma20": 83956.42,
-   "sma50": 81110.46,
-   "sma200": 72392.32,
+   "price": 83419.22,
+   "chg": 2.03,
+   "chg5": 2.13,
+   "chg20": -1.14,
+   "sma20": 83958.39,
+   "sma50": 81111.24,
+   "sma200": 72392.53,
    "high3m": 86602.91,
-   "reg": 83379.79,
+   "reg": 83419.22,
    "pre": null,
    "post": null,
-   "regClose": 83379.79,
+   "regClose": 83419.22,
    "sess": "reg",
-   "mt": 1791927693,
+   "mt": 1791928298,
    "ok": true
   },
   "USO": {
@@ -1051,9 +1051,9 @@
    "reg": 158.31,
    "pre": null,
    "post": null,
-   "regClose": 158.31,
+   "regClose": 158.32,
    "sess": "reg",
-   "mt": 1791927676,
+   "mt": 1791928301,
    "ok": true
   },
   "KRW=X": {
@@ -1271,14 +1271,6 @@
     "geo": false
    },
    {
-    "title": "Artificial Intelligence - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHQWNlSHQzMUlJUTg1elY2MnlhM0JMRDkyUlMtYUdwNDFYYmF2cktZZzg2X3pDMVluRVhBS01LY0VnRVI0bnk2eElyWkczd0dLdktiOFMybWl5STktVHc?oc=5",
-    "pub": "Tue, 13 Oct 2026 17:24:53 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Moody’s: life insurers increasingly rely on RNFs - Alternative Credit Investor",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOOW9FbXphYUQ4U2xpeEhKQm93cmtMeTJJVTFtbW1LcE5obzAzS0NNdG9rTThodjZqSWVyMENWaklxVjdsSU5idFNMaTQ1VDJKYlNyMVdKem5TYnBMNUNGaU1qR1ltVE9LU3VlU05ZS1Fqci1QbTNPNDhBZU4xRjIwdTVBVThFbTIxd2VoYmhZaTRtWmpXYThlSHJCOVE?oc=5",
     "pub": "Tue, 13 Oct 2026 17:01:57 GMT",
@@ -1291,6 +1283,14 @@
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1hQVVZZWVJem5WU0FRVFJjMGpiTDJNam5JQnhYTHhIMzZQZ1NyQzA5QXFBMk1SY2lSS3RicmFHYWVicEFoLXJBWEl4WDBCZTUxYklDc2ptQlBwU3NsdFFqNXYyMG1GLVh3SG5Rd0syR0JFUG1jTWVqNGcxSjU?oc=5",
     "pub": "Tue, 13 Oct 2026 16:50:54 GMT",
     "src": "Rolling Out",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Artificial Intelligence - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBHQWNlSHQzMUlJUTg1elY2MnlhM0JMRDkyUlMtYUdwNDFYYmF2cktZZzg2X3pDMVluRVhBS01LY0VnRVI0bnk2eElyWkczd0dLdktiOFMybWl5STktVHc?oc=5",
+    "pub": "Tue, 13 Oct 2026 16:26:01 GMT",
+    "src": "ABC News - Breaking News, Latest News and Videos",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    155.27,
    157.46,
    157.4,
-   158.3
+   158.32
   ],
   "uso": [
    120.17,
@@ -1735,7 +1735,7 @@
    75612.51,
    86172.28,
    83622.43,
-   83371.56
+   83417.25
   ],
   "vixts": [
    0.889,
@@ -2487,7 +2487,7 @@
   },
   {
    "date": "2026-10-30",
-   "name": "AMZN 실적",
+   "name": "AMZN 실적(예상)",
    "at": "2026-10-29T20:00:00+00:00",
    "dday": 16
   },
@@ -2759,7 +2759,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-13T21:41:59+00:00",
+  "checked": "2026-10-13T21:52:01+00:00",
   "openai": {
    "found": false
   },

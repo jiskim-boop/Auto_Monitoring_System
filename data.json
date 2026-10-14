@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:32:32+00:00",
+ "updated": "2026-10-14T21:42:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.55,
    "sess": "reg",
-   "mt": 1792012909,
+   "mt": 1792013487,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81822.76,
-   "chg": -1.53,
-   "chg5": -0.88,
-   "chg20": -3.03,
-   "sma20": 83814.37,
-   "sma50": 81169.92,
-   "sma200": 72430.65,
+   "price": 81755.86,
+   "chg": -1.61,
+   "chg5": -0.96,
+   "chg20": -3.11,
+   "sma20": 83811.03,
+   "sma50": 81168.58,
+   "sma200": 72430.29,
    "high3m": 86602.91,
-   "reg": 81822.76,
+   "reg": 81755.86,
    "pre": null,
    "post": null,
-   "regClose": 81822.76,
+   "regClose": 81755.86,
    "sess": "reg",
-   "mt": 1792013513,
+   "mt": 1792014090,
    "ok": true
   },
   "USO": {
@@ -1042,7 +1042,7 @@
   "JPY=X": {
    "price": 158.29,
    "chg": -0.02,
-   "chg5": 0.14,
+   "chg5": 0.15,
    "chg20": 1.46,
    "sma20": 157.81,
    "sma50": 157.72,
@@ -1053,7 +1053,7 @@
    "post": null,
    "regClose": 158.29,
    "sess": "reg",
-   "mt": 1792013514,
+   "mt": 1792014094,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1341.14,
    "sess": "reg",
-   "mt": 1792013300,
+   "mt": 1792013754,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,22 @@
  "news": {
   "credit": [
    {
+    "title": "Jim Cramer Calls CoreWeave the \"Real Deal,\" but the Stock Crashed 15% the Very Next Day. Should You Buy the Dip? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaGQ2UTMwMUdIbnN0aDVsSURMT21VMVJ2c0ZEeEVyTVNQNDJzc3FEVlQzZGlFNE9OLS0xcjZwTEJpUjFYcUc5cTR5NUptUW5LWDBfWGdTZ0JvLUNpa2NZdVZ2MlZxNEd6eDJTd0ltZXBuNnRPb0ptWUxhNUhGRWIxZE5xSnpoaDlwUGh0SHFpalk4TnhKUmV3aw?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:36:03 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave chief says failed Firmus float ‘bleeding into the narrative’ - AFR",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMngxU3lWTkhiRkhZWlRTNUNsdjVxaTc3dGVCMHdvRGMzZkZCMUdGWmdGWEU1ZHlGQ2d2VTdNMUJEUzFYZnBDWVRwbHh3RU5Uekt5aVlaU3d2Sld6SEJxZ1NlWjVrYUxPMnFoSXp4UC1YY3N2WkUwMUZ6WnRud1BnWnZ5enNLOXFOMTJObjJYRXdGWHBBZUhmSVpHMTNzRWF1QWRrYm1nandPOTJ3X3BjTE0xVzVhaUFuMjBkNTV0OEl3azQ?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:35:00 GMT",
+    "src": "AFR",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave bonds plunge, yield hits 15% — warning sign for AI infrastructure financing - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1SR2ZLZ0pzOEJNWDRiVlkzU2JkLXViR3hNckxZVWx3VVp5azN1eWdFVThfSUhRWGVIWkxsSUd5Wm03ZkFocU9GYlk0Y0hvdnUxQkxrZ2NmdkVxT2VPNkNodUtJMkMwaUM3MDUzTjNmQWlKQ0VNZnc?oc=5",
     "pub": "Wed, 14 Oct 2026 21:05:00 GMT",
@@ -1277,25 +1293,17 @@
     "src": "GuruFocus",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Nvidia-Backed CoreWeave’s Stock Plunges Amid Worries About AI Debt - Investopedia",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNaWJjYi1CbG9vVy11VURiQ2gwWVJWSC0tdnhRaXcyMzR6aHYxZEtSSkV3SERheWZkNU9iWUR0bjNvQVc1YlQyV3lzU1cySHU5Vk9CaFVneVVFTlhhLV9YVGJTelpXcFFUUVV0SUNjb2hMX0FWU3lBa0xDLXYwdm5WTVpNeGVrbU1ZRnNwbXJxTWFuXzRfNWFBYmE1cWNON0xFaU1oMVNRR2hQYnM?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:27:22 GMT",
-    "src": "Investopedia",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Stock Sinks. The Credit Market Is Flashing a Warning Sign. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBvd3VrcEJNdlpYclptNE9EVFdQOEFUV3NOel9JaXBqOThVVDRTSVZTMklhc2xLaVljZVZ5amJmeE5KMUhoYVpKYm5CSTBtMXhxNG5KMHgwTm1CNXVFaGllcE0ybEpYaTZiSjdmZnpDUU5WTkhVNllKaQ?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:25:00 GMT",
-    "src": "Barron's",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Nebius Group declines 10% amid tech sell-off (NBIS:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWY2MU9GMVF0VWRnRDVlRXhObnNuQUZGZlJlVzhGUk12b1FWREJDZ25NRzlfbFpwakdtSEY2MC1lNGhxSzN5WE12TGpyaENETnEzWFl4eExLZTgzU3FJY1ZwQXlmTVZqY3NKM1JoWW5zUzBYRlhIOGNtaGVpc28wX1VPMEg3dXhz?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:32:06 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Kansas AG Kris Kobach announces lawsuit against OpenAI - KCTV",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPS1BCLUcxazVxblpvNldGWHZMa1lxRElKb29kNjZoSW44QXpfSGtsQlJEUVpTb1ZZLXBNZnpmLUMySUQzV09sc1RSYVZUZUZrUWRmNy1IMG1Mci1UUkFpQWFObWJSRWxQNXlpSlpGVnFkMktUWnU3RHBQR3lONTI5dm1IVVJnejd0RjZHYmxRbzdkZw?oc=5",
@@ -1313,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX rocket launch causes stunning ‘jellyfish cloud’ visible off US east coast - The Guardian",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTzg5WF95OVh5dmpfZ1RfTl95Q2w1eUd3dDQtVEhNZF9CS29NbDB1S21GTVQ0RmVWZVIwWHItaDVCM2ZDRVgyVnVtOEFGaHQ1em9vNHFmd2lWSlF2aG1NSjg4WFEtSWRfQkU0YWQ2MVVITmV6enhHZWoxT2FTQ2ZOWUR6MzZWOGwxWGxvbw?oc=5",
+    "pub": "Wed, 14 Oct 2026 20:39:00 GMT",
+    "src": "The Guardian",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Apple Minions: Idle Mac GPU Cloud Research [2026] - https://tech-insider.org/",
     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82ZEpvbVNfc1dnQzVfazdFRk5SWUVOWU1vTUhvdV9rSF8wd0d2aWRRTXIteEF0cGM1TUN3bnh1UDlpSEhXWDk5S2d5a2poQ2JpV3RNQTY4dGVNWEdOcnFabkFZMkc0bzBpX0tkaUVudGU?oc=5",
     "pub": "Wed, 14 Oct 2026 20:35:03 GMT",
@@ -1327,30 +1343,14 @@
     "src": "TradingView",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Eight states accuse OpenAI of coaching children to harm themselves in lawsuit - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUFRZb3RDSE9DZDBnMmVaMm1ldEV2TUZaM3ZiVHhUWkFVbG1CS3EwU3ZzUTRvT2l2elVHR2NLc2thQXJpRElxcEhJcDBPN1pwVmhvQllETVl0QVpucUFTMXJiQldCQXlLUlJMZmFQSS1wZWRhY2VpcDFOWWtwZWZuWjA4bmNVMVhw?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:28:00 GMT",
-    "src": "The Guardian",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Anthropic to add US voting information to Claude before midterms - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVDFNaU9UVC05ZVJoREFVemFrck5lenlVUnZoOWlOeWRJYlFmMTVPTm1vLUhWUXd3eENSUFczUnR3b01ReW04NU0xaVpmZ2dZcVVOZDhIZDduYk40RWJFSENHdjZ6SDZoRXRwQ0NXcVhwb1lQeHpkOWYySDdhSWwtdlplRlRnc2ZjVWFWeUZqSnFYRGZidlFyM1dZSENhWEhiOW9pVnVn?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:17:16 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
    {
-    "title": "SA analyst says a stagflationary recession risk is growing - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWXRFcGFreTEwYjNrOUFXWlk4MnJldW8wOGZGVHdtVjRJdzIzQ1ItZHBBcnBmajFJaDdMV3pVdHNyREZvZXdEb3NFdXdLa3JQVjFfSnZjRzBjeTBBck1TSFlqZUhMRkV6cWd0QjN0X1FzbXlNY3BMZzFJcUpKMjl5U0Q3bDJkVGJfbmZxVXJma1dBYktBRmpfdmlZeVlMYjdNTjkzMldNVkYyTmdjSUNmMlNXalNBYWg1V2tMNGxR?oc=5",
+    "title": "SA analyst says a stagflationary recession risk is growing - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXgtbHAzUVFvME1jTEtWdW1nZ1RPWjRZWUp2MTUyMkxkY1ZTWW5tLU1WSm83bkI4MWQ5OXUtRTdtcE9vNi1QOER0UmNEejNhV1pCV25GZHpNQTRWVXE2WmlzWDltdk9feVJ0VEp4VlIzejE0cmt2bmdHUVhudDI3QjNZV3JOYnc4ZjhfakJ5dHpqMVRmMEVXZmZteko?oc=5",
     "pub": "Wed, 14 Oct 2026 20:03:55 GMT",
-    "src": "TradingView",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1405,6 +1405,22 @@
     "geo": false
    },
    {
+    "title": "USD/JPY Price Forecast — USD/JPY (158.87) Hot CPI Breaks the 200-Day as BoJ Pause Bets Grow — 160 Target - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWTdIUFdMU0wteEkxTThyZEMyZ1VyY1JYN2xoSzcxY2FWemVFeVZfT3pCMk1GeWRPMEZaYnlKMFE4eVFKb2tXNmpiWFZXQ3lSajI3OEwtOHI5SE9KLU16MklDTHNTeHpUeHgwd0RRWG9qWGw1c1Z2WUlLZE9fbUVocXU0N3dRVFB1MnFjeTRXajlCOFZjTmJvTTVSQnZNQ0VHVkJISWRSTldaWDhxbkd6ZkdMckw?oc=5",
+    "pub": "Wed, 14 Oct 2026 20:08:51 GMT",
+    "src": "TradingNEWS",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "ICSG sees global refined copper surplus widening in 2027 - Mining.com.au",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXBRbWp4X3ZXUGl6dDlBTm1yS0VkZ3g1SkgzXzVSQTBfdUFpVkRRd2dSY2s2ak9GaWFIYTdSSDNkWFBjaVk4c0E4a0V5N2EzSGFWcVhXNlZzblZoZGhLam95U3g5dHEzRS0yWjZrVWdGME54eEtocjY2ZkZPTEVKU1E2SU1jZw?oc=5",
+    "pub": "Wed, 14 Oct 2026 19:48:17 GMT",
+    "src": "Mining.com.au",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper price falls; aluminium price hits lowest this year - Mining.com.au",
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNU3NlQThYZ0prcVRRVVJKMlVCNXVndU5OMXV3OE91NFFGbUI5c3dSazZINHB1ZGRzRGMyYnJxeXFyZXZRNGFCMXJZeTFfTGEzZ0FDNXV4VndHaVNnNUt1cFRxZUgtcnM0bEtLS2VpZENrbUFINXhGT2RmQTdtZzRGc1VtWGlTUQ?oc=5",
     "pub": "Wed, 14 Oct 2026 19:41:15 GMT",
@@ -1421,26 +1437,10 @@
     "geo": false
    },
    {
-    "title": "ICSG sees global refined copper surplus widening in 2027 - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMXBRbWp4X3ZXUGl6dDlBTm1yS0VkZ3g1SkgzXzVSQTBfdUFpVkRRd2dSY2s2ak9GaWFIYTdSSDNkWFBjaVk4c0E4a0V5N2EzSGFWcVhXNlZzblZoZGhLam95U3g5dHEzRS0yWjZrVWdGME54eEtocjY2ZkZPTEVKU1E2SU1jZw?oc=5",
-    "pub": "Wed, 14 Oct 2026 19:41:15 GMT",
-    "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil Price Predictions: Why Paul Tudor Jones Says Crude Can Gain Another $25 - Barchart.com",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOZ0dLVTllMWJUa0dVZ2ZlWU0yQUQyekktWDFBQUVQcTUtOTd4dC1uWnV4NkRvY29TYUh3NGFjeFhwSEQ5QzM0Nk9TZVZ3VmtVeUdMVy1RVml4dUtIT3ZDdlpRNWh3R2ZaQjJUTU5vVnFpTFpCUnVrTmJ4UElWbk1FRnNUQXI0dVRYV2E1REp2aWhrbW9kZUdiT2s2N3FWeVJXcVVqSEZzc1NjcXE1VHNBWFQ4VV9PeWNC?oc=5",
     "pub": "Wed, 14 Oct 2026 19:26:25 GMT",
     "src": "Barchart.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "A Leveraged Bond Market Storm - American Enterprise Institute - AEI",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5qVDVBa1hyaG50bml0OThONk9oNWxVTWZmZ1NCQUJEMG1hbXQ2VFE5Qmg4V0Via0hnbzlxbVpHaEU5MjRELXlKNlBzN3otRzZZSXYwU0pncjQ5dkw1eS1oN2FCdzJhemtPSWt2NQ?oc=5",
-    "pub": "Wed, 14 Oct 2026 18:38:19 GMT",
-    "src": "American Enterprise Institute - AEI",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    76150.32,
    84383.01,
    83553.85,
-   81832.17
+   81742.31
   ],
   "vixts": [
    0.873,
@@ -2771,7 +2771,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-14T21:32:18+00:00",
+  "checked": "2026-10-14T21:41:51+00:00",
   "openai": {
    "found": false
   },

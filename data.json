@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-14T21:42:05+00:00",
+ "updated": "2026-10-14T21:52:23+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.55,
    "sess": "reg",
-   "mt": 1792013487,
+   "mt": 1792014096,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81755.86,
-   "chg": -1.61,
-   "chg5": -0.96,
-   "chg20": -3.11,
-   "sma20": 83811.03,
-   "sma50": 81168.58,
-   "sma200": 72430.29,
+   "price": 81700.1,
+   "chg": -1.68,
+   "chg5": -1.03,
+   "chg20": -3.17,
+   "sma20": 83808.24,
+   "sma50": 81167.47,
+   "sma200": 72429.99,
    "high3m": 86602.91,
-   "reg": 81755.86,
+   "reg": 81700.1,
    "pre": null,
    "post": null,
-   "regClose": 81755.86,
+   "regClose": 81700.1,
    "sess": "reg",
-   "mt": 1792014090,
+   "mt": 1792014701,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.29,
-   "chg": -0.02,
-   "chg5": 0.15,
-   "chg20": 1.46,
+   "price": 158.28,
+   "chg": -0.03,
+   "chg5": 0.14,
+   "chg20": 1.45,
    "sma20": 157.81,
    "sma50": 157.72,
    "sma200": 159.26,
    "high3m": 163.86,
-   "reg": 158.29,
+   "reg": 158.28,
    "pre": null,
    "post": null,
-   "regClose": 158.29,
+   "regClose": 158.28,
    "sess": "reg",
-   "mt": 1792014094,
+   "mt": 1792014703,
    "ok": true
   },
   "KRW=X": {
-   "price": 1341.14,
-   "chg": 0.06,
-   "chg5": 0.15,
-   "chg20": -2.58,
-   "sma20": 1353.24,
-   "sma50": 1369.36,
+   "price": 1340.86,
+   "chg": 0.04,
+   "chg5": 0.13,
+   "chg20": -2.6,
+   "sma20": 1353.23,
+   "sma50": 1369.35,
    "sma200": 1447.62,
    "high3m": 1479.72,
-   "reg": 1341.14,
+   "reg": 1340.86,
    "pre": null,
    "post": null,
-   "regClose": 1341.14,
+   "regClose": 1340.86,
    "sess": "reg",
-   "mt": 1792013754,
+   "mt": 1792014374,
    "ok": true
   },
   "^OVX": {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI lawsuit alleges company 'stole' children's data - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE5NRFpvc2tkZzhkUl9ZSmwxZlVsdERqSWQ4cUI0UjV6bU5FR2IzTWZCdXNVeDFNYkE2Yy1VWEx6aEdpMndRTWVtWGZLLVNnNmlvMXpmX3cyWDlhSG9rZk0tYmhzbjdwZw?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:48:54 GMT",
+    "src": "Mashable",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Nebius Group declines 10% amid tech sell-off (NBIS:NASDAQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMWY2MU9GMVF0VWRnRDVlRXhObnNuQUZGZlJlVzhGUk12b1FWREJDZ25NRzlfbFpwakdtSEY2MC1lNGhxSzN5WE12TGpyaENETnEzWFl4eExLZTgzU3FJY1ZwQXlmTVZqY3NKM1JoWW5zUzBYRlhIOGNtaGVpc28wX1VPMEg3dXhz?oc=5",
     "pub": "Wed, 14 Oct 2026 21:32:06 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic to add US voting information to Claude before midterms - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVDFNaU9UVC05ZVJoREFVemFrck5lenlVUnZoOWlOeWRJYlFmMTVPTm1vLUhWUXd3eENSUFczUnR3b01ReW04NU0xaVpmZ2dZcVVOZDhIZDduYk40RWJFSENHdjZ6SDZoRXRwQ0NXcVhwb1lQeHpkOWYySDdhSWwtdlplRlRnc2ZjVWFWeUZqSnFYRGZidlFyM1dZSENhWEhiOW9pVnVn?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:05:02 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1327,25 +1343,17 @@
     "src": "The Guardian",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Apple Minions: Idle Mac GPU Cloud Research [2026] - https://tech-insider.org/",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE82ZEpvbVNfc1dnQzVfazdFRk5SWUVOWU1vTUhvdV9rSF8wd0d2aWRRTXIteEF0cGM1TUN3bnh1UDlpSEhXWDk5S2d5a2poQ2JpV3RNQTY4dGVNWEdOcnFabkFZMkc0bzBpX0tkaUVudGU?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:35:03 GMT",
-    "src": "https://tech-insider.org/",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "RBC Capital Markets Echoes Deutsche Bank In Asking Clients To Steer Clear Of Tech In Medium Term - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOY3IyaDhMZ0lDLVlUU1k4c0tfQ1pSa2ZvQWZUaFZvMl9henE3RjN2WE9nSDc2T01VQmNIcmkwOE8tZlRaNlpGaWY4dnVXbjRTU0szN3Bsd0g0QURiUlhlUTFXa2JHdnlmaExpMkZSSmt5RFhjNFNscEhoZFVVMDZTR0x3anJ5ckEwUEMzLVcwN0NjZHNkMXFNRTJ3RXF5VXFaY3lTSHY4bzNSMHhSdnZLVUhPUzdaZ3NBNmJZLXk0bUpNZ0diRjNGZzNLTGk4SW5LVFNia2loWUYxbVdjd1MtLVJ3MHpNR24tcDJaSFl3?oc=5",
-    "pub": "Wed, 14 Oct 2026 20:34:47 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Opinion | Can China’s coal industry ride to the rescue of a world in oil shock? - South China Morning Post",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPQzJDdzQyT2pOSGZxR1RaNjU5N2k2czR2M1dfV1hGN01qZFBtSU1kSWViM0hQd1RJSDhsbHBEa0hhN3ZRb0JIbXkzdjJTMjZac09BVVU5RkV5SlVyaG5RblV3eVFhanlWNUdfSE5ZcTc2SWU0N2RQaHludEZZX1p5YU10bFBfZWNTbXJZN29vTVV4M0FpYk53MFNKU0FXc0hnd2M1R3VWSUZMQTBBTEZoUg?oc=5",
+    "pub": "Wed, 14 Oct 2026 21:30:06 GMT",
+    "src": "South China Morning Post",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "SA analyst says a stagflationary recession risk is growing - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZXgtbHAzUVFvME1jTEtWdW1nZ1RPWjRZWUp2MTUyMkxkY1ZTWW5tLU1WSm83bkI4MWQ5OXUtRTdtcE9vNi1QOER0UmNEejNhV1pCV25GZHpNQTRWVXE2WmlzWDltdk9feVJ0VEp4VlIzejE0cmt2bmdHUVhudDI3QjNZV3JOYnc4ZjhfakJ5dHpqMVRmMEVXZmZteko?oc=5",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNV2NfUEFMcENaUmhTU25ZZk82bGxMWjRzU004YjVXcXppWUhMTFBkcTI1MG9fbmlULVFEYjhuanl4U1V2a0lIdjVzY296ZG1LOTY4S2JuMzkxYVB4Z1NJWWNuU2p1LWlUVTdDSTlwaDFEZW5aeUlJbWs4cHJqeWc5SXVlMEVaaGdWOTVsNEpYM1VoVExhN3FlNWJ2TV9QOVFBbDRsMEs3VjU3cGto?oc=5",
     "pub": "Wed, 14 Oct 2026 19:18:48 GMT",
     "src": "KELO-AM",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Fed's Barkin (2027 Voter) says he does not want to project the outcome of the October FOMC meeting; CPI report was higher than what he would have hoped, tomorrow's PPI will help inform his inflation outlook - Newsquawk",
-    "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNY2V2bjJnTGlOTlFhYjU3OVp1blcxVWk0a181S19aemtSVlRVd2padEtOM29xSTZTa1BDUi0zVUcwQjJsRDRXbnBRS3dFbW9Db081VVpfX3YtNTkzdld2a3M5RXhoN0hoRTgtY3RvdHI5WndVLTN0bWdNMXlaZGZOV0tXWFJadkNXRzVQZFUzTU9SQWJHNTVwN0V6MGM4cm4xV1NHRlNyaC1lUENLSjhfaHU2dlZoRnRGOVBtZ01GNzhSemJzWE9wc3ZINXFtQTVhY21XYnlEQnNQdjNXdmpyVHl2ZV92VVpYUW96LUFIWVVZMjN2dG9xLVI0OUdtTVFTRlIxQlFvUllIbkpyQTJ6OFpES2lUUkpLaTBmN0FOdmgyN3hqeGVZVm8wOXBDRXN1WmFrcWNzN0xUb20tdGdQa253eFZ1Z3pVRW9zR2x4THNCY1E0OWQ0?oc=5",
-    "pub": "Wed, 14 Oct 2026 18:58:05 GMT",
-    "src": "Newsquawk",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    76150.32,
    84383.01,
    83553.85,
-   81742.31
+   81704.63
   ],
   "vixts": [
    0.873,
@@ -2771,7 +2771,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-14T21:41:51+00:00",
+  "checked": "2026-10-14T21:52:05+00:00",
   "openai": {
    "found": false
   },
@@ -2860,8 +2860,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.29,
-   "usdjpy_chg20": 1.46,
+   "usdjpy": 158.28,
+   "usdjpy_chg20": 1.45,
    "vix_chg5": 11.87,
    "hit": false,
    "missing": []
@@ -2869,8 +2869,8 @@
   "dollar": {
    "dxy": 102.55,
    "dxy_chg20": 2.23,
-   "usdkrw": 1341.14,
-   "usdkrw_chg20": -2.58,
+   "usdkrw": 1340.86,
+   "usdkrw_chg20": -2.6,
    "hit": false,
    "missing": []
   },

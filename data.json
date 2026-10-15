@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:32:38+00:00",
+ "updated": "2026-10-15T21:42:18+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -854,7 +854,7 @@
   },
   "DX-Y.NYB": {
    "price": 102.01,
-   "chg": -0.53,
+   "chg": -0.52,
    "chg5": -0.13,
    "chg20": 1.79,
    "sma20": 101.63,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.01,
    "sess": "reg",
-   "mt": 1792099310,
+   "mt": 1792099891,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82240.87,
-   "chg": 0.83,
-   "chg5": -0.81,
-   "chg20": -2.13,
-   "sma20": 83711.66,
-   "sma50": 81228.98,
-   "sma200": 72473.04,
+   "price": 82251.49,
+   "chg": 0.84,
+   "chg5": -0.8,
+   "chg20": -2.12,
+   "sma20": 83712.19,
+   "sma50": 81229.19,
+   "sma200": 72473.1,
    "high3m": 86602.91,
-   "reg": 82240.87,
+   "reg": 82251.49,
    "pre": null,
    "post": null,
-   "regClose": 82240.87,
+   "regClose": 82251.49,
    "sess": "reg",
-   "mt": 1792099917,
+   "mt": 1792100498,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.96,
-   "chg": 0.0,
-   "chg5": -0.06,
-   "chg20": 1.17,
+   "price": 157.98,
+   "chg": 0.01,
+   "chg5": -0.05,
+   "chg20": 1.19,
    "sma20": 157.89,
    "sma50": 157.71,
    "sma200": 159.25,
    "high3m": 163.86,
-   "reg": 157.96,
+   "reg": 157.98,
    "pre": null,
    "post": null,
-   "regClose": 157.96,
+   "regClose": 157.98,
    "sess": "reg",
-   "mt": 1792099920,
+   "mt": 1792100491,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1341.34,
    "sess": "reg",
-   "mt": 1792099660,
+   "mt": 1792100491,
    "ok": true
   },
   "^OVX": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "Global stocks flat as AI and rate fears hit tech - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
+    "pub": "Thu, 15 Oct 2026 21:19:22 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Import Prices Rise 17.6% as Oil Costs Surge Amid Middle East War - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPX0tYbEFVVHZwRmJ2RW5Yd2RITGRheGdyaURMUDRfN1JLT0JXRmpfYTFwRTNRR0RGQ2FoYVhxNUZzV0c1SWRfRjFkSHc0aFpLOS16RWI0MGVfZ0l6MXFxaFhWTHhPeVlkRHAyUnNBaHBFb0RkMEV0dGpsXzdkUzl4bWFDYVZVSUt0Q0JzOWFB?oc=5",
     "pub": "Thu, 15 Oct 2026 21:01:10 GMT",
@@ -1375,14 +1383,6 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBjRExQLS1VQnZRUHludEJMXzA4TFF0bmh3MnVjMVNRUVpPazVEajFSYVctckl1VnBPeWE1QndRRnFsUTFoZ2FhT09tYlVqTzJWZVRWa3dGb1BsRUdyOVlMYmtnbnNGLXVCM2tXZjRlWGROVGUwd2c?oc=5",
     "pub": "Thu, 15 Oct 2026 16:44:33 GMT",
     "src": "CBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Global stocks edge lower as AI and rate fears hit tech - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
-    "pub": "Thu, 15 Oct 2026 16:16:58 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1675,7 +1675,7 @@
    156.13,
    158.81,
    157.93,
-   157.97
+   157.98
   ],
   "uso": [
    119.3,
@@ -1735,7 +1735,7 @@
    76403.77,
    84379.06,
    84853.1,
-   82236.25
+   82232.99
   ],
   "vixts": [
    0.804,
@@ -2775,7 +2775,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-15T21:32:20+00:00",
+  "checked": "2026-10-15T21:41:58+00:00",
   "openai": {
    "found": false
   },
@@ -2864,8 +2864,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.96,
-   "usdjpy_chg20": 1.17,
+   "usdjpy": 157.98,
+   "usdjpy_chg20": 1.19,
    "vix_chg5": 6.81,
    "hit": false,
    "missing": []

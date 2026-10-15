@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-15T21:52:22+00:00",
+ "updated": "2026-10-15T22:03:28+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -855,7 +855,7 @@
   "DX-Y.NYB": {
    "price": 102.0,
    "chg": -0.53,
-   "chg5": -0.13,
+   "chg5": -0.14,
    "chg20": 1.78,
    "sma20": 101.63,
    "sma50": 100.31,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.0,
    "sess": "reg",
-   "mt": 1792100495,
+   "mt": 1792101131,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82259.82,
-   "chg": 0.85,
-   "chg5": -0.79,
-   "chg20": -2.11,
-   "sma20": 83712.6,
-   "sma50": 81229.36,
-   "sma200": 72473.14,
+   "price": 82494.04,
+   "chg": 1.14,
+   "chg5": -0.5,
+   "chg20": -1.83,
+   "sma20": 83724.31,
+   "sma50": 81234.05,
+   "sma200": 72474.42,
    "high3m": 86602.91,
-   "reg": 82259.82,
+   "reg": 82494.04,
    "pre": null,
    "post": null,
-   "regClose": 82259.82,
+   "regClose": 82494.04,
    "sess": "reg",
-   "mt": 1792101099,
+   "mt": 1792101737,
    "ok": true
   },
   "USO": {
@@ -1040,24 +1040,24 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.98,
-   "chg": 0.01,
-   "chg5": -0.05,
-   "chg20": 1.18,
+   "price": 158.01,
+   "chg": 0.03,
+   "chg5": -0.03,
+   "chg20": 1.2,
    "sma20": 157.89,
    "sma50": 157.71,
    "sma200": 159.25,
    "high3m": 163.86,
-   "reg": 157.98,
+   "reg": 158.01,
    "pre": null,
    "post": null,
-   "regClose": 157.98,
+   "regClose": 158.01,
    "sess": "reg",
-   "mt": 1792101096,
+   "mt": 1792101738,
    "ok": true
   },
   "KRW=X": {
-   "price": 1341.23,
+   "price": 1341.22,
    "chg": 0.14,
    "chg5": -0.13,
    "chg20": -2.78,
@@ -1065,12 +1065,12 @@
    "sma50": 1367.7,
    "sma200": 1446.58,
    "high3m": 1479.72,
-   "reg": 1341.23,
+   "reg": 1341.22,
    "pre": null,
    "post": null,
-   "regClose": 1341.23,
+   "regClose": 1341.22,
    "sess": "reg",
-   "mt": 1792101077,
+   "mt": 1792101665,
    "ok": true
   },
   "^OVX": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "Ukraine says it damaged six Russian military jets in missile strike on airfield By Reuters - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNanhtNlE2NlRINWFpbkVETmJvaWhLT0RMR24tVkU4RERuS3NySEcwS0k3VHhkUHgzOXRCN2FYTy13eDYtbVdyaGpKSjlNaXZzU1VMNzM4OEMwSDRLdFV2N3FEeFhpMFJEUi16Q0JrVFJJZ1ExV0JOQXNUbkJ5VE9DTlJRbDdUcUtQbzJkY2dZWFpjVzlMOTJsT2hWOE51X3Z3VnNZWFF3X001SERzRkNVSFNqZF9iQWhwdmhJV0VwNUZwd3ZUemd1Nw?oc=5",
+    "pub": "Thu, 15 Oct 2026 21:42:27 GMT",
+    "src": "Investing.com",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Global stocks flat as AI and rate fears hit tech - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOeTRzUk5SRExJbm1EUXdJWG9JaXdKSEdtX29rb0k3ZkRTRFZIeHRxb0xMcm00eUF0NzhCS1owVkp4OWQ2eHF2dWl3aVpPak85emN3eGdqX1hEOW0zNjVlTWs3eGVUSlFUME1fVHVXRTFtNEZ4aVBZS1pSQmJnOVdHZTNZQkQwMnowenVWaW9PVFZnSG5i?oc=5",
     "pub": "Thu, 15 Oct 2026 21:19:22 GMT",
@@ -1385,14 +1393,6 @@
     "src": "CBC",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Ukraine says it damaged six Russian military jets in missile strike on airfield By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNanhtNlE2NlRINWFpbkVETmJvaWhLT0RMR24tVkU4RERuS3NySEcwS0k3VHhkUHgzOXRCN2FYTy13eDYtbVdyaGpKSjlNaXZzU1VMNzM4OEMwSDRLdFV2N3FEeFhpMFJEUi16Q0JrVFJJZ1ExV0JOQXNUbkJ5VE9DTlJRbDdUcUtQbzJkY2dZWFpjVzlMOTJsT2hWOE51X3Z3VnNZWFF3X001SERzRkNVSFNqZF9iQWhwdmhJV0VwNUZwd3ZUemd1Nw?oc=5",
-    "pub": "Thu, 15 Oct 2026 15:18:45 GMT",
-    "src": "Investing.com",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1675,7 +1675,7 @@
    156.13,
    158.81,
    157.93,
-   157.98
+   157.99
   ],
   "uso": [
    119.3,
@@ -1735,7 +1735,7 @@
    76403.77,
    84379.06,
    84853.1,
-   82259.83
+   82379.45
   ],
   "vixts": [
    0.804,
@@ -2775,7 +2775,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-15T21:52:03+00:00",
+  "checked": "2026-10-15T22:03:05+00:00",
   "openai": {
    "found": false
   },
@@ -2864,8 +2864,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.98,
-   "usdjpy_chg20": 1.18,
+   "usdjpy": 158.01,
+   "usdjpy_chg20": 1.2,
    "vix_chg5": 6.81,
    "hit": false,
    "missing": []
@@ -2873,7 +2873,7 @@
   "dollar": {
    "dxy": 102.0,
    "dxy_chg20": 1.78,
-   "usdkrw": 1341.23,
+   "usdkrw": 1341.22,
    "usdkrw_chg20": -2.78,
    "hit": false,
    "missing": []

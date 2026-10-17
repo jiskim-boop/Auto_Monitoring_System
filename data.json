@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:42:12+00:00",
+ "updated": "2026-10-17T21:52:03+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81000.36,
-   "chg": -0.61,
-   "chg5": -0.93,
-   "chg20": -4.09,
-   "sma20": 83388.52,
-   "sma50": 81315.26,
-   "sma200": 72540.67,
+   "price": 80984.21,
+   "chg": -0.63,
+   "chg5": -0.95,
+   "chg20": -4.11,
+   "sma20": 83387.71,
+   "sma50": 81314.94,
+   "sma200": 72540.59,
    "high3m": 86602.91,
-   "reg": 81000.36,
+   "reg": 80984.21,
    "pre": null,
    "post": null,
-   "regClose": 81000.36,
+   "regClose": 80984.21,
    "sess": "reg",
-   "mt": 1792273297,
+   "mt": 1792273888,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 18:00:06 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nebius Stock Fell 12% in a Day as CoreWeave’s Debt Scare Spread. Here’s Why Its Balance Sheet Isn’t CoreWeave’s Yet - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1N1RXBUbS1EVEtHQUpaT1h4Sk9HbkNDU0lCMVFONjVfM2s2YWs3WTZCMWZTMkczdGxGbnpLQmdjSFEtaFZ2RVl5T05sZUJIWUxXeW5FRk4tR01ZM0VhWHRPYUkxb3d4UTFLQzAwMkhPLWZHTUc0dExoZXJYcEU2S2t6dGI2X2E1dDdjY1RDdFo0X2dTNUpGcjB4ZHZBMkxLUWx0dGFhT3BjRGxvbkdua2p6R25qU1BoU3o0T0t6eGxWS2k1TmlaWTJ1elkxelRN?oc=5",
     "pub": "Sat, 17 Oct 2026 17:47:12 GMT",
@@ -1259,14 +1267,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0RqY1JjcXVtOWFoM2F2ZmRINWluWTJqV2UyQU5UaldWN1ozeDhrMHV0X280WWIzYlU5dTVRUTFwbDB1OXJZc3ZHeU9zRWhMOV90dlZYQkFyR0ViSXRRbTQxbjFDQ1MwNXlrTTh6Vld2clBiS256VlR4UkNKUTRWbUZjcjBSTWZBZ1pWZ3ZRa1MydEQ3cHowaA?oc=5",
     "pub": "Sat, 17 Oct 2026 17:35:13 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
-    "pub": "Sat, 17 Oct 2026 09:00:52 GMT",
-    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1298,8 +1298,8 @@
   "fundamental": [
    {
     "title": "Micron’s Edge Inference Memory Could Solve HBM’s Power Efficiency Weakness, Ushering The Age Of AI-Powered Robots With A Mass Production Target Of 2028 - Wccftech",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNSmlnVXdHQTNwN3F4NlVENTB2UjhHZjUzZnE1TEc4UWtzSTJDVndhMHdGX3JLV0ZBT3VvSEE1SW9ndU9uLXJ6VXJXekZwRy05UUYzcGk3NmZYWDFOQUNTMVNnUi1EM1JWTkJESW1iOEF1UWVINmdXVGdLdWtqNFVjWFJwdUJpZk1VbXF6ZXhR0gGOAUFVX3lxTE1KaWdVd0dBM3A3cXg2VUQ1MHZSOEdmNTNmcTVMRzhRa3NJMkNWd2Ewd0ZfcktXRkFPdW9IQTVJb2d1T24tcnpVcld6RnBHLTlRRjNwaTc2ZlhYMU5BQ1MxU2dSLUQzUlZOQkRJbWI4QXVRZUg2Z1dUZ0t1a2o0VWNYUnB1QmlmTVVtcXpleFE?oc=5",
-    "pub": "Sat, 17 Oct 2026 20:22:00 GMT",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMVBQcGpmM2w0ZTZTajZtV1dwTHpNSGstNkVSVTlfY1I4RlJzb1dNckkyWDdEQlhXYkp6RG8ydWI0S3FQLUtEY3p6ZmJSUmNpTmxGbzI4MXJ5NzdyOF92MDViS0hjMkpJX2EtX185MHVxdFcwMUVJTzNQS2puVzFDak1HbUNQWk100gGOAUFVX3lxTE1KaWdVd0dBM3A3cXg2VUQ1MHZSOEdmNTNmcTVMRzhRa3NJMkNWd2Ewd0ZfcktXRkFPdW9IQTVJb2d1T24tcnpVcld6RnBHLTlRRjNwaTc2ZlhYMU5BQ1MxU2dSLUQzUlZOQkRJbWI4QXVRZUg2Z1dUZ0t1a2o0VWNYUnB1QmlmTVVtcXpleFE?oc=5",
+    "pub": "Sat, 17 Oct 2026 20:22:53 GMT",
     "src": "Wccftech",
     "trig": false,
     "geo": false
@@ -1363,6 +1363,14 @@
     "geo": false
    },
    {
+    "title": "DOJ arrests soldier who made $400,000 betting on Maduro's removal - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPTk1fM2t3N3M2NmpDZmtRejI3RDBmcThDenVjOVRDUGkwa0pRUkVTclB2SnZlYnZoME0xTzl0R1RHZTdKRWNWNHBRdWx0UzFSU0RSeEFuUnlfUnRDQzdQQ0I3ZGFfLUhkTmpTU1NjdXIwbkV5Q01wWHF5WEptTGcxMm1WZVNsUDZaSExuZGt0aWV0b0U0RkZDcVdPUlV2QdIBowFBVV95cUxNLTRlOV9KZDBhY0xsLXJCdm1tMFRfY3VFamhWSUdRbjlNTGpaTUJWZFI4WS03NUh4VE1TY2F2dkUtV2FiS2RTXzdkczM1amcxSGFHSk9JQnF3V3doR05IRkEtX2ZyN20wbC1oQi1uYmYtRFFfcUNxVGxmdWJyR3FiR3VKaG8wQllIYVRlbUNGTURfQlZQZEdSdl9QYjkxa1pGM2Vj?oc=5",
+    "pub": "Sat, 17 Oct 2026 17:45:27 GMT",
+    "src": "ABC News - Breaking News, Latest News and Videos",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Middle East crude oil exports exceed pre-war levels but tanker attacks increase - Gulf Business",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYzdDNGtiMlRJZFBwUWtGMmFqMWt2MzB4eDdxLTc4WTFHTTFTaEhlTDJRczhTcXNjaGVyc1JrZDBYcWVKU2dsbDZ1ZlJENFNlVzNpNjk0Wm9PbEZRSlNhS3M1NmhxaTM0Z1ZlUXlORzVHR09MeTJuLW9wbGlFakpPaVYxcW90LUxCVHVLcWdR?oc=5",
     "pub": "Sat, 17 Oct 2026 14:31:50 GMT",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN2dmWWlRLWg4NVRRa2ptMWFaMkw5aXZQZWpBSGtseDVMRWFueHJLQ0xfNFozdEFQY3EyVjMzdV9PQnJmSDN5eW9FcVFocmFSdGptZzBLZWo5NWdBN3p0a3FncTJ3SXpjbktiQnJ0dUhnbzVnRDhoczRQMlJ3Nks3ckFERklNZkZlSDZ5bg?oc=5",
     "pub": "Sat, 17 Oct 2026 13:33:10 GMT",
     "src": "Urban Acres",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump dramatically lowers Russia sanctions wall by suspending 500% tariffs - Bankingnews",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNWEdqQmZfZ2ppbzJNUTlJamxUZDJmN1dORkpFSEdzRXlYbzRKWXZLZTNRRFgxRWo3WUlCVVFmSm5WSFNFaHRQNExVUUxxX2Q2OHM3RjRzZkxOUmdVZ3ZVWFplQVJkZFVYYTdKdmtUQ2RrbDd6M1RUWUxBQjhtSmNUX1kxU2tyYVVGYmhXS2s3d2hCZV9uZFpXaEhqN1BZV3JaYkFIVnJzcDV0U1BBZXV4Si1Rb3VfMUpUX2otX2JMUDY0ZzVFT2JadFZHYW5OLU05ZWtRWHMyTnVQRkZqeE9mSA?oc=5",
-    "pub": "Sat, 17 Oct 2026 13:29:11 GMT",
-    "src": "Bankingnews",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   80984.73
+   80985.03
   ],
   "vixts": [
    0.815,
@@ -2786,7 +2786,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T21:41:56+00:00",
+  "checked": "2026-10-17T21:51:48+00:00",
   "openai": {
    "found": false
   },

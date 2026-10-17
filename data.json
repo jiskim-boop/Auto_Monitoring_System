@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T11:02:50+00:00",
+ "updated": "2026-10-17T11:12:12+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81571.96,
-   "chg": 0.09,
-   "chg5": -0.23,
-   "chg20": -3.42,
-   "sma20": 83417.1,
-   "sma50": 81326.69,
-   "sma200": 72543.78,
+   "price": 81524.59,
+   "chg": 0.03,
+   "chg5": -0.29,
+   "chg20": -3.47,
+   "sma20": 83414.73,
+   "sma50": 81325.75,
+   "sma200": 72543.52,
    "high3m": 86602.91,
-   "reg": 81571.96,
+   "reg": 81524.59,
    "pre": null,
    "post": null,
-   "regClose": 81571.96,
+   "regClose": 81524.59,
    "sess": "reg",
-   "mt": 1792234925,
+   "mt": 1792235491,
    "ok": true
   },
   "USO": {
@@ -1347,6 +1347,22 @@
   ],
   "macro": [
    {
+    "title": "Fed interest-rate decision this month is a closer call than markets think - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOWG1TSFJvUk1SVTFSN1pNX0NvU2ZjSlNrb0E3aHRzNTlRZkJ3Z2FCZUd3aW56bXJEbERUc3ktcXloS3RXQWtoNTlvMDdHTW5wY0REcy1TMUl5clExUnRKeFBVWG0xM2pqbmNLdkNmcENYWUZocU1zNXE4eTI2VlhrZjVwUHlnaGUwZVZZMGsyTmJXd18wUU5laXVrVmpELWFheWZ3dHliSGk4RDh3SVJDNmhJc2ZIMVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 11:00:00 GMT",
+    "src": "MarketWatch",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Prediction Markets Raise Odds of No Fed Rate Hike in October - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNYmQtdXFjbGc4Z1R1ZTU0NmwtUVZBbWtrTWIwSEtpclFodmxJNUNoSUh1TWNlMXc1VV9rOUtGd2toSmdHRjFKMnRWN0RpMl84QVkxMmRVNnp6VGJGNmc0QzdFLUx4eDJDY29fNThfdTZBTExhLTRBbkw3NC1NREtJYnpjSDByaHd6NVYwNElMNEdDdTZWaVJuaGt3?oc=5",
+    "pub": "Sat, 17 Oct 2026 10:54:08 GMT",
+    "src": "KuCoin",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Binance Market Update | S&P 500 Near a Record While Half the Russell 3000 Is in a Bear Market — Bitcoin Held as AI Credit Spreads Blew Out and Strategy Fell 9% - Binance",
     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE10ZkkyUkRZNDAyTGNPVVYwTjYtSnMzX3JIdzVvQkY2NDhRZTlOd0hycGF1NkJqcmFEdEZ4VF9sVUd2TXNndXBwQlBtZDZSNy1uZ1Z2UVBGT1pwWENsc3lOeEVlNzM?oc=5",
     "pub": "Sat, 17 Oct 2026 09:53:34 GMT",
@@ -1377,38 +1393,22 @@
     "src": "The Economic Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "IDEAS Calls On Malaysia To Cooperate With Germany For Energy Security Amid Geopolitical Risks - BusinessToday Malaysia",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOZFpibThSamVvNmVhbEdlbkUyUDUzV3lpa2ZMVTQwT2J2MnN1M3pYYVV1NnV5SHRrNnNsU2tJa2pkdHhqM0xmWVlNUFFJSnpGUjlMLVhrQko1VzM1RVFyMGdSdnZwSDdkWW85UEltRmROTVhadnVUSEZCdDhmRlhDelJmWndIcjFpeGVQY1hzMmhJSXJGSFltM0dPY09nSUl5dnduNHllRTJ5STltNXN1aXdkV3ROY3poZUVNQllQWldQME0yWHpmSlhtTHRhNkZvb0I4VQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 07:34:55 GMT",
-    "src": "BusinessToday Malaysia",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Can the Russia Sanctions Bill waiver by Donald Trump bring more relief to Indian markets? - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1pMMHpVWVdVcXVEQWhKdUF0bWtNbHNLMnE3VFRBSjVWX0FPZWVNdXJaTzBVQnJIblNQQVJBeWFERlZCZERsSlpyUW9ISnZ5N09xU0o3dUlVUGNaei11YU80LWNhMDJiSFYxNmdOX1BCeHhlZkRnUEl0eUhrbVhhS1pLMWp0YnNzUmhKTndyN1VlMU11ZnExMGo2aEVvb3kzYWdMVGJrWmpDaVozeEVmVDB3a1RuOWc2RTFaQjJiOWFCZkJwbHJTNzdaY3bSAdIBQVVfeXFMUEI4U3VZek9rbllSQlBiWkhZWFA1RldwdW9wOTlSbG1JYmo4UG9uVGRvWUt1N2JhNmt0RVBfSUhqemFpUGMxUUdybU5ZZU56WjJlU3VWb0xpbHlaSDRoZVVxUXdKVFVPeDRGc0IxLXBpZEJ3cjNUdVBaWWRIanVkdHRpZ19tZWZiNWtjd3dFVnlSc3V6OXFnVmZ2MHdHR2cyekVZUS1EQnptUVJOMHpMSEgwSkVfTi1iZVNCVWU5anQ0d1ZFUW93eWFoN1kyX21OSnVB?oc=5",
-    "pub": "Sat, 17 Oct 2026 05:20:39 GMT",
-    "src": "CNBC TV18",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 17 Oct 2026 08:50:36 GMT",
+    "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "What’s the likelihood of Yen carry trade reversing? - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPSjhIbzVHODdJbGRwNGszU0Q5bm5ZUWNkRC1CaFRtX3BiT25BVy1ZdUNIZW90X3dIT2RXUUdXWFl2VHRVNjhZVHVOQmpueTFpZzNfSWtWOGxZSE5wN19sbURCV3NZRFpULWlYb2ctbWsxa3ltMF9sbjlySFRDZkc5Q1hMZFdFVmEzdGs1Mlp2RXpITUxlVlp6alhRLUlCUUlD?oc=5",
     "pub": "Sat, 17 Oct 2026 08:20:49 GMT",
     "src": "Investing.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 17 Oct 2026 07:37:48 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Current price of oil as of October 16, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tazZoMXNjRjhIY1U2T1RELWVQcjNJenBzYWhMWjRNX29ydFBBWEJJejhwVjZ2QnZ3dWlyNVJjZW5mdEcwVnNzYzE1TEhFVnJLNV9VaWoxVTBLcE9tc1c0YmNn?oc=5",
-    "pub": "Fri, 16 Oct 2026 23:36:53 GMT",
-    "src": "Fortune",
+    "title": "Oil prices rise as Iran, proxies lash out - Oil & Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHFxTl9ZWHV5cWJkRXpBOFJOT1FJZDN2OHYwZHNMZnVCT0Z2a05tNWtubHI1ZUkxTTA3NXFiblY0OC11Z1FsMmFaSlNBZ1p5UGZ3TUNua1ZLbjVVV1hGdmJQOUExc0I2Rmt4MTVlX0hSODloNEtsaUJnU2x1VEpQWV9zYVlVNWY1bVBfNG1LZEhON19YQVV3RVFwc09mQ24yaGlOVFZQYkt5LXdhNUlzR2hB?oc=5",
+    "pub": "Fri, 16 Oct 2026 23:09:00 GMT",
+    "src": "Oil & Gas Journal",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81577.85
+   81525.42
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T11:02:32+00:00",
+  "checked": "2026-10-17T11:11:57+00:00",
   "openai": {
    "found": false
   },

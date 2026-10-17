@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:32:26+00:00",
+ "updated": "2026-10-17T14:42:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81427.73,
-   "chg": -0.09,
-   "chg5": -0.41,
-   "chg20": -3.59,
-   "sma20": 83409.88,
-   "sma50": 81323.81,
-   "sma200": 72543.0,
+   "price": 81451.07,
+   "chg": -0.06,
+   "chg5": -0.38,
+   "chg20": -3.56,
+   "sma20": 83411.05,
+   "sma50": 81324.27,
+   "sma200": 72543.12,
    "high3m": 86602.91,
-   "reg": 81427.73,
+   "reg": 81451.07,
    "pre": null,
    "post": null,
-   "regClose": 81427.73,
+   "regClose": 81451.07,
    "sess": "reg",
-   "mt": 1792247509,
+   "mt": 1792248089,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave Stock Faces A Debt Funding Test - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPUEp6QTBfWnVuZkxiT2FIWEdmSTJ1MTkzRjV1TUllT0RwcHR3VWx1UFVlc0g1ZHNvNzFneUY2LXRLTXpqeFk2blotczB6RDEwQWFnNVJfRFV5RVBOdVZaeWtFei1EU2tZUW14MVdCOTFQTkY5TnVPU2VZX0h0WkxmTmhtNW0zQTVaM2dNckRKYlp6S0dnd2ZCdEVVeHNPQ3k2?oc=5",
-    "pub": "Sat, 17 Oct 2026 05:18:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Eagle Point Credit: A New Strategy Has Not Changed The Market's Opinion - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMzBYYmt6Q19kelM1UmZhd0hRNnNXbDhhT0xhZjY1MGhIVkFvcnVzZGktYktsRE9ocGNCSHpReG1SSl9oa0huZjhuNHZnR2w1eFRnWFVScDBzYW1UdERzQVpHamx6Nk1Vc2NqMUVlTkg5SjlqaVpqYmZqYjNrbTVIS3l4Wm5Xa0dUSEo1bjJqa2VVUGpFeTNJRjl5eW5ocUNKd0R2aGxid0hNY1paNUhV?oc=5",
     "pub": "Sat, 17 Oct 2026 03:32:17 GMT",
@@ -1293,6 +1285,14 @@
     "src": "WSJ",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Why did CoreWeave stock get crushed this week? Look to this corner of the debt market for clues - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeEFNbTJkZS16Qmw2cG1XaEdEZzZpbXNQY2lQWjVmODEyTzVwTVlWU2czMlpQT2QxZ0x4SnpYOTFncFR2eTM4OWh4dWFoaFBFXy01UEFieXJ5MXFUcG4wMEp6MGpReVRhQkNDd0hqU1NMY01IM1FyN1BZQWk2QVo0Qng3YUhLVmNh?oc=5",
+    "pub": "Fri, 16 Oct 2026 20:29:29 GMT",
+    "src": "CNBC",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1329,23 +1329,31 @@
     "geo": false
    },
    {
-    "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
-    "pub": "Sat, 17 Oct 2026 10:10:22 GMT",
-    "src": "Reuters",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Florida SpaceX rocket launch next week could bring 'space jellyfish' - Florida Today",
     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX0hsS3ZjOWwzOVlRdVNIQmV6QWtLNmd5dE1SZUFtX1Nka0NLczVmbGxrdnY2dFd1NVNMMk4tNnBXTEZWSkczWUE3Z0M2a3c0WnQ2TXhCNTM2bThBOWpkMC1fay1oWFkyNlQxbFdqRnUwdUd1c0JCaTltcVVlanlEUnh1SGV4QU9jUGtHVHR4OWhpajQxWDI2WTg0VGxLS291dFA0UVhGaUdVamNGWEFJSlcwaE44c0VIMGhKRDdPYlBNZjB4RWtLZU4zaWs1RllmN2RBR1oydmlRMW81eXhuLUhETmhLZDFTems3NDF4RHUtdDQ?oc=5",
     "pub": "Sat, 17 Oct 2026 10:04:00 GMT",
     "src": "Florida Today",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The Quantum Insider",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYURjUkQ4Wk91LUpUaXNlYmdUS0Q3UmNFTUFvSEN5c1pYRUx2NXgwTmhUQS16MV9oLW9ZNmJJR2laeGwxRFlxMmtxZUVkaGR3dHlocUlYMFpKYVkzbzNHYUJ2WFUtcnNQVDhuSHQxTTdkUi1vYXR3SVZQOXJkVmhXeVB4Z1BlSDZVRE9XaWZ6YWt0TWFiQmlieklTMnZDdGJLbDdXTzNKc3VnSEhwRW5IaUxFeUdtQ2R1NS0wSVdHNHA2bmNTWUgxTmF6Y1lmc0t4a0gxcg?oc=5",
+    "pub": "Sat, 17 Oct 2026 08:12:06 GMT",
+    "src": "The Quantum Insider",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Nasdaq Index: AI Selloff Deepens as Chips and CoreWeave Break - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOM2U2MmNMMXFZWUxWUjBtWEFKNVN0bF9Udk5wZkR5R2VtQ0NwcHVmOVByUlh1ckQ3eXFSQ2VlTDJLbEcwaDB6dTZoMDVtUlo1LVVvOGNveTd4WGdBRnduakZRblg3bzFTOU9lR0kyNmF2S2pmVnNuZlcwSklQMW5GVi1LaC1jMVVDQV9JMFAzZ0V5MTdaRW1neU5kOHdXbm5KT04wSE9KYkpWWXowNjRoSw?oc=5",
+    "pub": "Sat, 17 Oct 2026 14:27:33 GMT",
+    "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "India Russia Oil Tariff Waiver Eases Pressure, Not Uncertainty - urbanacres.in",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPN2dmWWlRLWg4NVRRa2ptMWFaMkw5aXZQZWpBSGtseDVMRWFueHJLQ0xfNFozdEFQY3EyVjMzdV9PQnJmSDN5eW9FcVFocmFSdGptZzBLZWo5NWdBN3p0a3FncTJ3SXpjbktiQnJ0dUhnbzVnRDhoczRQMlJ3Nks3ckFERklNZkZlSDZ5bg?oc=5",
@@ -1385,14 +1393,6 @@
     "src": "Securities.io",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Fed May Pause Rate Hike in October, but a December Hike Is Still on the Table - Coinpedia",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQQjEzaDg2NHRGQzgwRTZWWEd0cWFkSHo3S3g5U1huVnJFVXBHLTBITkpwd2ZmYWdqM242SW1lZmhwOGd6Ylhfd0lLYnk0dW1fQkV4UzZNQjc5WmFGUTlPWUJpcW14WHkyV1lvSVhuYTNpRE9DblY2d0V4WTVBTzhTMXYyMGhfUjcza1VhSWVKc2YtNmotTm1ZX2xCY0xWOGtCWWYxM3pBNNIBrAFBVV95cUxQOEo5MTVhNUd4NXloZ0oyN0FKTF9oZTN4SEZVYUFwa2RlaUZ2RllmNDhnR0cwNjgzMmtlSlFyRXFrcEl5cUhXN0xyOFc4a24waGRTV25nTDJHSURlb2hvbGxkQ0hUZ2JsMTdzekk3NXd5Yk9pSHExNkltOVZSUFpmcmU2STg3azZsdUdobEZURkNMcEtzM0NxVGc3RS1DaDFGb0FuY3ZRTWxsUmJO?oc=5",
-    "pub": "Sat, 17 Oct 2026 11:31:47 GMT",
-    "src": "Coinpedia",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1421,14 +1421,6 @@
     "geo": false
    },
    {
-    "title": "Gold Price Prediction 2026: Is $4,000 an Important Support Level? - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03cFlXVzV1ZFpXUmg4SWtmaE5HaXFoajN4MnNSempqUFVhN21tbXVKM3N3b1dsVUdrblhlMzZkTDRCeFRud0NBQTc4aXpyRHhlenpreVZ2ZnAyMlhWVGtnVktGR1F2SUhjTWJvODBMSTdRYmcyMGFaNG9uSXNrUQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:25:57 GMT",
-    "src": "KuCoin",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold price outlook: Can it dip further or reclaim its all-time peak? - The Financial Express",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZnp1Qzlkb2hSTjMwMTBjOXRXNzhvZF81ejcyVkVEODd5c0pWVGduV0JGNXZxSjU2OFpxVENjWk1uR2ZZUzNFMzNFaTRnUmE3RmhMQ0VIUzA3VVlQT0hoLVlheEhOcS1GM3FqNWhDTEJVdi15X3pUUzUyTjJ1NzFhcC0yOFFwclhyaFJ5aWdfWlhMNW9HTnFzdDdNT3FiTlItOEpjMlhKaHcyMl85SU1KUHhrUUJZdUkzWFhtYnZEWjlvV08xNU16SDVJcEVLaUdkLTRycdIB2wFBVV95cUxQaHJ1QWJuTzUzcEcwN1dCZmZobzVkOTBZaDV0WUFHcy1NZ29iRlV5XzktTVRERVZ3SndlNXpxR1FfYml0MTlJRDN0bUczZUFWUXFyVlRVaVVNV0luV1pyNkowMm44U0F2ZmJuUzgteFRTRzJtWmdNTVhzUE9SMlY3NDVVdEU2eUpyYWx2M3hBY29uOFd0dWVzOU5SUjdYeXF0UVdqVG9DZFNIcVNkby1PY3Y0Y1hlOThDZkZTbUUtZV9rQVljekFsTTE3LTRWOWVGcUctTnVzcTBqWXM?oc=5",
     "pub": "Sat, 17 Oct 2026 00:36:00 GMT",
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBtNExtRjE5Z2Fjc1I5ZTVmZzd4VFFveG1sLWhJSHlObV9BWkJYRElrZUZRVFp1Ui15ZjFpRGN2QWxxTG9OZWhSQmUwX0laWDNpTmhlTUpn?oc=5",
     "pub": "Sat, 17 Oct 2026 00:30:00 GMT",
     "src": "tokenpost.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why do investors believe gold will reach a new peak? - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qbUpMSTV6dnd3eS1LLUEyaWE3UTNuUENPazN3cjJVMnZDU0N6VXFyNkxUU2pkam9CbzBUOEpiZVg1aVNqZ3dTaDRabVBuZTUzbUgzZEt6R2gwSFp1RzYzeDE2bnEzTEQzUnZSOFJPT0pfekVidU1FQw?oc=5",
+    "pub": "Fri, 16 Oct 2026 23:38:35 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81428.12
+   81451.07
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T14:32:12+00:00",
+  "checked": "2026-10-17T14:41:51+00:00",
   "openai": {
    "found": false
   },
@@ -2806,7 +2806,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

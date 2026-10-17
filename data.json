@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T05:22:12+00:00",
+ "updated": "2026-10-17T05:32:55+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81494.67,
-   "chg": -0.79,
-   "chg5": -2.61,
-   "chg20": -3.45,
-   "sma20": 83561.1,
-   "sma50": 81251.74,
-   "sma200": 72494.41,
+   "price": 81482.96,
+   "chg": -0.8,
+   "chg5": -2.62,
+   "chg20": -3.46,
+   "sma20": 83560.51,
+   "sma50": 81251.5,
+   "sma200": 72494.35,
    "high3m": 86602.91,
-   "reg": 81494.67,
+   "reg": 81482.96,
    "pre": null,
    "post": null,
-   "regClose": 81494.67,
+   "regClose": 81482.96,
    "sess": "reg",
-   "mt": 1792214491,
+   "mt": 1792215114,
    "ok": true
   },
   "USO": {
@@ -1255,14 +1255,6 @@
     "geo": false
    },
    {
-    "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXBpcEpXNEdyTTRkb0VfcDRmVEdGM0NTbEY5ZXlBc2N2STdjLXBtWGtTVnZYbHlkNFlFVVBnWFdxUlgzNzR2bFlWQjJ2Q3lQYXo4NXFfSEN3bmJPME5BMDdvcjBtSWJqSmRaM2txNVg0MHZzOXg2M2MyWVV3U1BzZjRBY25lWG8xb1JZalBGV0EwdV85RTI1cnlQd0U?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:18:30 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWEF2WkpYSkMtZWpqenZaeW1rc0k0Y3l1M3QyU2F4cVNpczVlaEpqTVVsVVVUQ3RZZkZMd25Qc0U0UG1FZ2t4WDlOeTNmUzFfT080M1BCWGZHMmhYRUI3THUwdExMVktPRU5BZG83NjZMZUNxeENzRk9ndGo0aGFfTnFFRWdreHAyYUJTTUtlUjY5WEFVUnlQSjh1aWp1c3RmQVdnczNXX3h4cUlfWmtOWHpoVmZPbjF4SFhEZk5COEZ0bFhwcWpzZHNMVEd4QQ?oc=5",
     "pub": "Sat, 17 Oct 2026 00:57:19 GMT",
@@ -1276,6 +1268,14 @@
     "pub": "Fri, 16 Oct 2026 22:39:27 GMT",
     "src": "Yahoo Finance",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXBpcEpXNEdyTTRkb0VfcDRmVEdGM0NTbEY5ZXlBc2N2STdjLXBtWGtTVnZYbHlkNFlFVVBnWFdxUlgzNzR2bFlWQjJ2Q3lQYXo4NXFfSEN3bmJPME5BMDdvcjBtSWJqSmRaM2txNVg0MHZzOXg2M2MyWVV3U1BzZjRBY25lWG8xb1JZalBGV0EwdV85RTI1cnlQd0U?oc=5",
+    "pub": "Fri, 16 Oct 2026 21:39:00 GMT",
+    "src": "WSJ",
+    "trig": false,
     "geo": false
    },
    {
@@ -1347,18 +1347,26 @@
   ],
   "macro": [
    {
-    "title": "AI Tech Stocks Sell Off as US Mega-Cap Tech Sector Posts Biggest Weekly Drop in Over a Year - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ULW9iSDlFa29iTHVHbjNRbGVLR01TQXRVWHRjbUhQcll3aGpZaGJhY2FlQnI3aW9kQWlOdG1MdUNIUzN4UmdrRWN5dUs0ZGlNSWl1djlqVkZpRGtVc3VKbTdYLWpLTmZIeHhhUXpFV05QTWZGS2c?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:55:00 GMT",
+    "title": "Can the Russia Sanctions Bill waiver by Donald Trump bring more relief to Indian markets? - CNBC TV18",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1pMMHpVWVdVcXVEQWhKdUF0bWtNbHNLMnE3VFRBSjVWX0FPZWVNdXJaTzBVQnJIblNQQVJBeWFERlZCZERsSlpyUW9ISnZ5N09xU0o3dUlVUGNaei11YU80LWNhMDJiSFYxNmdOX1BCeHhlZkRnUEl0eUhrbVhhS1pLMWp0YnNzUmhKTndyN1VlMU11ZnExMGo2aEVvb3kzYWdMVGJrWmpDaVozeEVmVDB3a1RuOWc2RTFaQjJiOWFCZkJwbHJTNzdaY3bSAdIBQVVfeXFMUEI4U3VZek9rbllSQlBiWkhZWFA1RldwdW9wOTlSbG1JYmo4UG9uVGRvWUt1N2JhNmt0RVBfSUhqemFpUGMxUUdybU5ZZU56WjJlU3VWb0xpbHlaSDRoZVVxUXdKVFVPeDRGc0IxLXBpZEJ3cjNUdVBaWWRIanVkdHRpZ19tZWZiNWtjd3dFVnlSc3V6OXFnVmZ2MHdHR2cyekVZUS1EQnptUVJOMHpMSEgwSkVfTi1iZVNCVWU5anQ0d1ZFUW93eWFoN1kyX21OSnVB?oc=5",
+    "pub": "Sat, 17 Oct 2026 05:20:39 GMT",
+    "src": "CNBC TV18",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US AI Stocks Hit by Selloff; VIX Fear Gauge Surges 21% in a Day; Large Call Option Bets Position for Volatility to Persist into November - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xNlA1eGFOdjl4Y2pYVGxEcU1tYTFCNkUyTDZKZWFXQ0hEbG5IYTNERk9NNFlQTzh1N1NHMHl4T0dqY3gtekd5TW9PSjg0b0RQYTZWeXdtc2NxMWVsb0ptcWxaRFpNcjE5TjZyc1FBWWkxNjVpOVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 05:05:00 GMT",
     "src": "BigGo Finance",
     "trig": false,
     "geo": false
    },
    {
-    "title": "AI trading fears and oil prices drive U.S. market sell-off; semiconductor stocks fall for eighth consecutive day - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOZkxlUkoxTzBwdUpkMzlST21uZkxoczFiSnF5QlNzcHhQa0hjMjVGdGNUMWxOQTJwNHdoYnBYYUFwSDE5OVRsNzFwTFdjVTZVZkl4VXRMYWFQYmJiRkNsYU8xUTN0aVo2cGJWWFJkQ1VKUmIwajBEYXpDeWRZR1JJcjBUT1BtVDd2c2p0LUlmWFZhQklieGtSMU1EN0JNM1RRSm1oX0Z2eWdFcjJ6U0VLcjNoaXRMcVlROWdjX2VSZTRNSHdLaXpzcTliMA?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:49:57 GMT",
-    "src": "KuCoin",
+    "title": "AI Tech Stocks Sell Off as US Mega-Cap Tech Sector Posts Biggest Weekly Drop in Over a Year - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ULW9iSDlFa29iTHVHbjNRbGVLR01TQXRVWHRjbUhQcll3aGpZaGJhY2FlQnI3aW9kQWlOdG1MdUNIUzN4UmdrRWN5dUs0ZGlNSWl1djlqVkZpRGtVc3VKbTdYLWpLTmZIeHhhUXpFV05QTWZGS2c?oc=5",
+    "pub": "Sat, 17 Oct 2026 02:55:00 GMT",
+    "src": "BigGo Finance",
     "trig": false,
     "geo": false
    },
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQcW5DQTV5TmVDWURnM242WElIYnRNTm1NMTlkWE5Pa2pqLVpWb3dqNmdBM2E3c0hUTDUzaXA4cWVlUkNzOUFkWDVZZWRVblFXUnJwcUt0ckN3aHN3V05KTWxzYTBOZ1NIdWVZdGMwRE9ES1BkU0VDXzJ1VDBXZzVYME81OXhtb1ZaVWt5eHNmRkR5QUduQjh2eURhVG9lTENZdTNHY3EtdER0VWY4MzIzX1lIWGg2OUdBR2NrbFpsMlZERW9NTHBKUzl0V2hjRUZ1MmtvdUtEWVNwREZlcmRmeERWQXNCZnNadjNRellLN2RPZy1ySXhIVzJJQjdSQjAzWTNFdE54NHN4eHVwaGstM1hRWnJkR2F3MkdMOA?oc=5",
     "pub": "Sat, 17 Oct 2026 00:22:30 GMT",
     "src": "Moomoo",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
-    "pub": "Fri, 16 Oct 2026 23:35:39 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80901.46,
    84034.92,
    84497.21,
-   81509.67
+   81483.16
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T05:21:58+00:00",
+  "checked": "2026-10-17T05:32:25+00:00",
   "openai": {
    "found": false
   },

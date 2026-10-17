@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:22:17+00:00",
+ "updated": "2026-10-17T14:32:26+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81381.01,
-   "chg": -0.15,
-   "chg5": -0.47,
-   "chg20": -3.64,
-   "sma20": 83407.55,
-   "sma50": 81322.87,
-   "sma200": 72542.74,
+   "price": 81427.73,
+   "chg": -0.09,
+   "chg5": -0.41,
+   "chg20": -3.59,
+   "sma20": 83409.88,
+   "sma50": 81323.81,
+   "sma200": 72543.0,
    "high3m": 86602.91,
-   "reg": 81381.01,
+   "reg": 81427.73,
    "pre": null,
    "post": null,
-   "regClose": 81381.01,
+   "regClose": 81427.73,
    "sess": "reg",
-   "mt": 1792246899,
+   "mt": 1792247509,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Taiwan Semiconductor Manufacturing Company Limited Shows 2-Nanometer Growth - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzNHplVXVtWE5vOThxdFIxTzltZ1JKNGF4RThDRWlxMHd3MVBkbmZrMVVvdkJrcmlBbm1qcHlzMXF2Mnc5R0lMcmViVzUyVkF1WnF2VjY2MkI?oc=5",
+    "pub": "Sat, 17 Oct 2026 13:16:25 GMT",
+    "src": "www.tokenpost.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "BofA Warns AI Investors Could Lose Even If the Technology Works - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOEl5M0Q5MEY5eE5uWXpRQzdGVmZwNVZWZ1VjM1YwU1gxYy1nZElMeHVENEtGR0otTVIwa05obDgxRzNyT2xGaGZqTzhkYTZPVHYyZUFfRl85ZHl2eHBvSXJpSzRzOU9hdEJFeFYweXhtQkFMY3QtUldlSjlTRVJORlE1SFFLY0NzS1ZjZkxUdE03WU9TcjJlOUdlODlyOXNCRVNIVVQ2bjV4dkU?oc=5",
     "pub": "Sat, 17 Oct 2026 11:44:00 GMT",
@@ -1321,26 +1329,18 @@
     "geo": false
    },
    {
+    "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
+    "pub": "Sat, 17 Oct 2026 10:10:22 GMT",
+    "src": "Reuters",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Florida SpaceX rocket launch next week could bring 'space jellyfish' - Florida Today",
     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX0hsS3ZjOWwzOVlRdVNIQmV6QWtLNmd5dE1SZUFtX1Nka0NLczVmbGxrdnY2dFd1NVNMMk4tNnBXTEZWSkczWUE3Z0M2a3c0WnQ2TXhCNTM2bThBOWpkMC1fay1oWFkyNlQxbFdqRnUwdUd1c0JCaTltcVVlanlEUnh1SGV4QU9jUGtHVHR4OWhpajQxWDI2WTg0VGxLS291dFA0UVhGaUdVamNGWEFJSlcwaE44c0VIMGhKRDdPYlBNZjB4RWtLZU4zaWs1RllmN2RBR1oydmlRMW81eXhuLUhETmhLZDFTems3NDF4RHUtdDQ?oc=5",
     "pub": "Sat, 17 Oct 2026 10:04:00 GMT",
     "src": "Florida Today",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The Quantum Insider",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYURjUkQ4Wk91LUpUaXNlYmdUS0Q3UmNFTUFvSEN5c1pYRUx2NXgwTmhUQS16MV9oLW9ZNmJJR2laeGwxRFlxMmtxZUVkaGR3dHlocUlYMFpKYVkzbzNHYUJ2WFUtcnNQVDhuSHQxTTdkUi1vYXR3SVZQOXJkVmhXeVB4Z1BlSDZVRE9XaWZ6YWt0TWFiQmlieklTMnZDdGJLbDdXTzNKc3VnSEhwRW5IaUxFeUdtQ2R1NS0wSVdHNHA2bmNTWUgxTmF6Y1lmc0t4a0gxcg?oc=5",
-    "pub": "Sat, 17 Oct 2026 08:12:06 GMT",
-    "src": "The Quantum Insider",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI hires former xAI sales executive to lead cybersecurity business - ET Enterprise AI",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUjVVcGJpbGtibjBNUTh3ZjJ6OElyeFNkenF0RHVVZW1Jd0wwT3hTVTBnZ1N1N2VmNnZkYnlFRDlBT0diVzNBdWR4VDlYVTk0d01UMWEzSWR6TVRReHJ2UVJZaGlrRlkzWHZseTZ5THdkV01FME5YTllrajZVZDRQckNBeE9vWTBlaTJGZDNCaUU0a2VCaUpOdllRVzJxbmpsTzd4eHdrX2NGdTJRa0QtdUZGSXpHdS1TMXFvdTVoOG4tN2RGMng2Tm55LXdNOXV2bE01SmhyZ190Ynh10gHiAUFVX3lxTFB1NXBCaWdyUGFjWE04eEV6dHV4cXVleEhCSVMweUdXQnBuNk1xV3J1OFFKN3MtTG9JdnQtVldCWnB0d05GWGNuU1pvM01aaHVsaDZtTDI0OUtMem9CcG5qakJGT1NTTy11SXl4bHZObWp5QTJ0bWdnYWhlMGRqZGxKUmFTb1V3UUJ3elE5UzBJVnpyazJtbXRQbFBuSXp3VTJXeGpnZDZDci05UXVlLWFTM1MzWjY2Z3JLM0tVV1dzQk1zU21PNXNjZU5EYklzRHN5ZHdJWS1YWm1GLThWbGZzRFE?oc=5",
-    "pub": "Sat, 17 Oct 2026 08:07:30 GMT",
-    "src": "ET Enterprise AI",
     "trig": false,
     "geo": false
    }
@@ -1397,14 +1397,6 @@
   ],
   "flow": [
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 17 Oct 2026 10:39:44 GMT",
-    "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold Rates Surge on Festive Demand Today: City-Wise Breakdown of 24K, 22K, and 18K Prices for October 17, 2026 - Punjab Kesari English",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQ19KU1pGY2tYbF9pQUF1X3Vod1NvdTlNeVBnSVQ4STJVWlZsNmgxdTBLMGtZZnZ5ejdKWGQyZnlubjNfYzMzVGJmNHgxWDFhYWNocjZsT3pkNUZyOU51bXRodlBhdWU3TmZwZjZ1bmxQc2VtaE9nbURRZ1lYeU1iRDNSb08xT0xsOU9LRk44d0ZhX2l4X2l1UkkzQm5UX0FYVi1PTzJYVWI2TEU?oc=5",
     "pub": "Sat, 17 Oct 2026 08:28:20 GMT",
@@ -1425,6 +1417,14 @@
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQSjl1cFNfdjNIMVZDZ3IzZHFZa2xZaTFnQUlIUjdGaFVqVXVwV0JMaWdwYXV3UE9pUHRXLV9mUC1QbzVOaGFrN1l5TlBkbEVCZXBNQ3BYenBSTFQ5bkFoNnBQTFZXMmlQYnM2RGZNUjUxZVRGeThtMnQ0U1gyM3VsR1hrSlhZNUFaVHZCdlM3aUI?oc=5",
     "pub": "Sat, 17 Oct 2026 04:36:00 GMT",
     "src": "EUWID Recycling and Waste Management",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Price Prediction 2026: Is $4,000 an Important Support Level? - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03cFlXVzV1ZFpXUmg4SWtmaE5HaXFoajN4MnNSempqUFVhN21tbXVKM3N3b1dsVUdrblhlMzZkTDRCeFRud0NBQTc4aXpyRHhlenpreVZ2ZnAyMlhWVGtnVktGR1F2SUhjTWJvODBMSTdRYmcyMGFaNG9uSXNrUQ?oc=5",
+    "pub": "Sat, 17 Oct 2026 02:25:57 GMT",
+    "src": "KuCoin",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81388.47
+   81428.12
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T14:22:02+00:00",
+  "checked": "2026-10-17T14:32:12+00:00",
   "openai": {
    "found": false
   },
@@ -2806,7 +2806,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

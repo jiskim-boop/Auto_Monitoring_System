@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T14:12:10+00:00",
+ "updated": "2026-10-17T14:22:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81375.25,
+   "price": 81381.01,
    "chg": -0.15,
    "chg5": -0.47,
-   "chg20": -3.65,
-   "sma20": 83407.26,
-   "sma50": 81322.76,
-   "sma200": 72542.71,
+   "chg20": -3.64,
+   "sma20": 83407.55,
+   "sma50": 81322.87,
+   "sma200": 72542.74,
    "high3m": 86602.91,
-   "reg": 81375.25,
+   "reg": 81381.01,
    "pre": null,
    "post": null,
-   "regClose": 81375.25,
+   "regClose": 81381.01,
    "sess": "reg",
-   "mt": 1792246292,
+   "mt": 1792246899,
    "ok": true
   },
   "USO": {
@@ -1297,14 +1297,6 @@
   ],
   "fundamental": [
    {
-    "title": "TSMC: The AI Cycle Just Sent Another Signal (NYSE:TSM) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNbkVHWlpUaXptOXI0ckY2cThDMVRqX2xhWUJNdWNSOTdUMFIwbGhvSHVfMElJekUySnE1TGhabkNXREpwOWdoREdwbURmX21JSGk4VjhWV2l4UUlFZTVPcHhRaTE4Tjl3Tlo4ODNwTTd3c01HX0w2SGxtSzZsYmtQUzZaMkJjaGE5UUJF?oc=5",
-    "pub": "Sat, 17 Oct 2026 12:36:43 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "BofA Warns AI Investors Could Lose Even If the Technology Works - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPOEl5M0Q5MEY5eE5uWXpRQzdGVmZwNVZWZ1VjM1YwU1gxYy1nZElMeHVENEtGR0otTVIwa05obDgxRzNyT2xGaGZqTzhkYTZPVHYyZUFfRl85ZHl2eHBvSXJpSzRzOU9hdEJFeFYweXhtQkFMY3QtUldlSjlTRVJORlE1SFFLY0NzS1ZjZkxUdE03WU9TcjJlOUdlODlyOXNCRVNIVVQ2bjV4dkU?oc=5",
     "pub": "Sat, 17 Oct 2026 11:44:00 GMT",
@@ -1329,18 +1321,26 @@
     "geo": false
    },
    {
-    "title": "Investors temper Anthropic IPO valuation expectations over revenue growth slowdown, sources say - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQRW4tSGppV2U0ZWtvaXBsQmlyaDVVLVFCSmJNMWdmMHpod0FWd25kUXRNQzFvZXJPTmhoQUNvMlFrQzI3NjBQVG9McWFPRHdUODhMbVItOGg4S0N3ZmJ4R2psZVd1aWFZM2M0aEY4R3VaYnFZWUxhOFZiRXAxTnc5UG9hMm1ERGpKbURkX3BWYzQ5UWl3THBFTDhWUWR0SVhUSWJsekpMZjM4OUZRQl9BVmY2djVKRENDSldCSUpOWmdvbHVK?oc=5",
-    "pub": "Sat, 17 Oct 2026 10:10:22 GMT",
-    "src": "Reuters",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Florida SpaceX rocket launch next week could bring 'space jellyfish' - Florida Today",
     "link": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxPX0hsS3ZjOWwzOVlRdVNIQmV6QWtLNmd5dE1SZUFtX1Nka0NLczVmbGxrdnY2dFd1NVNMMk4tNnBXTEZWSkczWUE3Z0M2a3c0WnQ2TXhCNTM2bThBOWpkMC1fay1oWFkyNlQxbFdqRnUwdUd1c0JCaTltcVVlanlEUnh1SGV4QU9jUGtHVHR4OWhpajQxWDI2WTg0VGxLS291dFA0UVhGaUdVamNGWEFJSlcwaE44c0VIMGhKRDdPYlBNZjB4RWtLZU4zaWs1RllmN2RBR1oydmlRMW81eXhuLUhETmhLZDFTems3NDF4RHUtdDQ?oc=5",
     "pub": "Sat, 17 Oct 2026 10:04:00 GMT",
     "src": "Florida Today",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic’s Claude Designs Leaner Quantum Circuits, Reducing Resources Needed for Key Calculations - The Quantum Insider",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYURjUkQ4Wk91LUpUaXNlYmdUS0Q3UmNFTUFvSEN5c1pYRUx2NXgwTmhUQS16MV9oLW9ZNmJJR2laeGwxRFlxMmtxZUVkaGR3dHlocUlYMFpKYVkzbzNHYUJ2WFUtcnNQVDhuSHQxTTdkUi1vYXR3SVZQOXJkVmhXeVB4Z1BlSDZVRE9XaWZ6YWt0TWFiQmlieklTMnZDdGJLbDdXTzNKc3VnSEhwRW5IaUxFeUdtQ2R1NS0wSVdHNHA2bmNTWUgxTmF6Y1lmc0t4a0gxcg?oc=5",
+    "pub": "Sat, 17 Oct 2026 08:12:06 GMT",
+    "src": "The Quantum Insider",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI hires former xAI sales executive to lead cybersecurity business - ET Enterprise AI",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPUjVVcGJpbGtibjBNUTh3ZjJ6OElyeFNkenF0RHVVZW1Jd0wwT3hTVTBnZ1N1N2VmNnZkYnlFRDlBT0diVzNBdWR4VDlYVTk0d01UMWEzSWR6TVRReHJ2UVJZaGlrRlkzWHZseTZ5THdkV01FME5YTllrajZVZDRQckNBeE9vWTBlaTJGZDNCaUU0a2VCaUpOdllRVzJxbmpsTzd4eHdrX2NGdTJRa0QtdUZGSXpHdS1TMXFvdTVoOG4tN2RGMng2Tm55LXdNOXV2bE01SmhyZ190Ynh10gHiAUFVX3lxTFB1NXBCaWdyUGFjWE04eEV6dHV4cXVleEhCSVMweUdXQnBuNk1xV3J1OFFKN3MtTG9JdnQtVldCWnB0d05GWGNuU1pvM01aaHVsaDZtTDI0OUtMem9CcG5qakJGT1NTTy11SXl4bHZObWp5QTJ0bWdnYWhlMGRqZGxKUmFTb1V3UUJ3elE5UzBJVnpyazJtbXRQbFBuSXp3VTJXeGpnZDZDci05UXVlLWFTM1MzWjY2Z3JLM0tVV1dzQk1zU21PNXNjZU5EYklzRHN5ZHdJWS1YWm1GLThWbGZzRFE?oc=5",
+    "pub": "Sat, 17 Oct 2026 08:07:30 GMT",
+    "src": "ET Enterprise AI",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81381.73
+   81388.47
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T14:11:52+00:00",
+  "checked": "2026-10-17T14:22:02+00:00",
   "openai": {
    "found": false
   },
@@ -2806,7 +2806,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

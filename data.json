@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T07:02:48+00:00",
+ "updated": "2026-10-17T07:12:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -781,7 +781,7 @@
    "post": null,
    "regClose": 19.99,
    "sess": "reg",
-   "mt": 1792181701,
+   "mt": 1792181700,
    "ok": true
   },
   "^VIX3M": {
@@ -798,7 +798,7 @@
    "post": null,
    "regClose": 20.5,
    "sess": "reg",
-   "mt": 1792181701,
+   "mt": 1792180800,
    "ok": true
   },
   "^VVIX": {
@@ -815,7 +815,7 @@
    "post": null,
    "regClose": 109.91,
    "sess": "reg",
-   "mt": 1792181701,
+   "mt": 1792180800,
    "ok": true
   },
   "^SKEW": {
@@ -832,14 +832,14 @@
    "post": null,
    "regClose": 168.59,
    "sess": "reg",
-   "mt": 1792184445,
+   "mt": 1792180800,
    "ok": true
   },
   "^MOVE": {
    "price": 101.1,
-   "chg": -1.35,
+   "chg": -1.36,
    "chg5": 0.4,
-   "chg20": 32.65,
+   "chg20": 32.64,
    "sma20": 99.75,
    "sma50": 85.09,
    "sma200": 77.54,
@@ -849,7 +849,7 @@
    "post": null,
    "regClose": 101.1,
    "sess": "reg",
-   "mt": 1792181850,
+   "mt": 1792180800,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -985,7 +985,7 @@
    "post": null,
    "regClose": 794.78,
    "sess": "reg",
-   "mt": 1792148740,
+   "mt": 1792130400,
    "ok": true
   },
   "GLD": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81521.69,
+   "price": 81523.13,
    "chg": -0.75,
    "chg5": -2.58,
    "chg20": -3.42,
-   "sma20": 83562.45,
-   "sma50": 81252.28,
-   "sma200": 72494.56,
+   "sma20": 83562.52,
+   "sma50": 81252.31,
+   "sma200": 72494.57,
    "high3m": 86602.91,
-   "reg": 81521.69,
+   "reg": 81523.13,
    "pre": null,
    "post": null,
-   "regClose": 81521.69,
+   "regClose": 81523.13,
    "sess": "reg",
-   "mt": 1792220520,
+   "mt": 1792221086,
    "ok": true
   },
   "USO": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "Yemen's Houthis claim responsibility for fresh missile strike on Aden airport - France 24",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPRXI2eVY0anF2R092SHJ2VkRrUzNULUlsbmpSblYxaU91YmZJZDZBNlZTZTN0MWV3Z2NBVkdxbVdGWG5MYzVPcHl2bk5DTWF6RXBXeHFlN0c4T1p1ejZNa2ZxOE1OanEyMDF4TmpDTTZESlJHamppMTNJS3NjN00xZFE5NTV4enF5TGh1cVdoNXU1em9KMEVPWUJDWVZxT0NvakhrT1RZbHQweXJHcjRfQ1FBRGJLU19zZzNUUzdLX0F2Y2oz?oc=5",
+    "pub": "Sat, 17 Oct 2026 06:00:32 GMT",
+    "src": "France 24",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Can the Russia Sanctions Bill waiver by Donald Trump bring more relief to Indian markets? - CNBC TV18",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1pMMHpVWVdVcXVEQWhKdUF0bWtNbHNLMnE3VFRBSjVWX0FPZWVNdXJaTzBVQnJIblNQQVJBeWFERlZCZERsSlpyUW9ISnZ5N09xU0o3dUlVUGNaei11YU80LWNhMDJiSFYxNmdOX1BCeHhlZkRnUEl0eUhrbVhhS1pLMWp0YnNzUmhKTndyN1VlMU11ZnExMGo2aEVvb3kzYWdMVGJrWmpDaVozeEVmVDB3a1RuOWc2RTFaQjJiOWFCZkJwbHJTNzdaY3bSAdIBQVVfeXFMUEI4U3VZek9rbllSQlBiWkhZWFA1RldwdW9wOTlSbG1JYmo4UG9uVGRvWUt1N2JhNmt0RVBfSUhqemFpUGMxUUdybU5ZZU56WjJlU3VWb0xpbHlaSDRoZVVxUXdKVFVPeDRGc0IxLXBpZEJ3cjNUdVBaWWRIanVkdHRpZ19tZWZiNWtjd3dFVnlSc3V6OXFnVmZ2MHdHR2cyekVZUS1EQnptUVJOMHpMSEgwSkVfTi1iZVNCVWU5anQ0d1ZFUW93eWFoN1kyX21OSnVB?oc=5",
     "pub": "Sat, 17 Oct 2026 05:20:39 GMT",
@@ -1385,25 +1393,9 @@
     "src": "CNBC TV18",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CBOE Volatility S&P 500 Index(.VIX) Stock Price Today | Quotes & News - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxQcW5DQTV5TmVDWURnM242WElIYnRNTm1NMTlkWE5Pa2pqLVpWb3dqNmdBM2E3c0hUTDUzaXA4cWVlUkNzOUFkWDVZZWRVblFXUnJwcUt0ckN3aHN3V05KTWxzYTBOZ1NIdWVZdGMwRE9ES1BkU0VDXzJ1VDBXZzVYME81OXhtb1ZaVWt5eHNmRkR5QUduQjh2eURhVG9lTENZdTNHY3EtdER0VWY4MzIzX1lIWGg2OUdBR2NrbFpsMlZERW9NTHBKUzl0V2hjRUZ1MmtvdUtEWVNwREZlcmRmeERWQXNCZnNadjNRellLN2RPZy1ySXhIVzJJQjdSQjAzWTNFdE54NHN4eHVwaGstM1hRWnJkR2F3MkdMOA?oc=5",
-    "pub": "Sat, 17 Oct 2026 00:22:30 GMT",
-    "src": "Moomoo",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "Gold Price Prediction 2026: Is $4,000 an Important Support Level? - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03cFlXVzV1ZFpXUmg4SWtmaE5HaXFoajN4MnNSempqUFVhN21tbXVKM3N3b1dsVUdrblhlMzZkTDRCeFRud0NBQTc4aXpyRHhlenpreVZ2ZnAyMlhWVGtnVktGR1F2SUhjTWJvODBMSTdRYmcyMGFaNG9uSXNrUQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:25:57 GMT",
-    "src": "KuCoin",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Gold price outlook: Can it dip further or reclaim its all-time peak? - The Financial Express",
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZnp1Qzlkb2hSTjMwMTBjOXRXNzhvZF81ejcyVkVEODd5c0pWVGduV0JGNXZxSjU2OFpxVENjWk1uR2ZZUzNFMzNFaTRnUmE3RmhMQ0VIUzA3VVlQT0hoLVlheEhOcS1GM3FqNWhDTEJVdi15X3pUUzUyTjJ1NzFhcC0yOFFwclhyaFJ5aWdfWlhMNW9HTnFzdDdNT3FiTlItOEpjMlhKaHcyMl85SU1KUHhrUUJZdUkzWFhtYnZEWjlvV08xNU16SDVJcEVLaUdkLTRycdIB2wFBVV95cUxQaHJ1QWJuTzUzcEcwN1dCZmZobzVkOTBZaDV0WUFHcy1NZ29iRlV5XzktTVRERVZ3SndlNXpxR1FfYml0MTlJRDN0bUczZUFWUXFyVlRVaVVNV0luV1pyNkowMm44U0F2ZmJuUzgteFRTRzJtWmdNTVhzUE9SMlY3NDVVdEU2eUpyYWx2M3hBY29uOFd0dWVzOU5SUjdYeXF0UVdqVG9DZFNIcVNkby1PY3Y0Y1hlOThDZkZTbUUtZV9rQVljekFsTTE3LTRWOWVGcUctTnVzcTBqWXM?oc=5",
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHFxTl9ZWHV5cWJkRXpBOFJOT1FJZDN2OHYwZHNMZnVCT0Z2a05tNWtubHI1ZUkxTTA3NXFiblY0OC11Z1FsMmFaSlNBZ1p5UGZ3TUNua1ZLbjVVV1hGdmJQOUExc0I2Rmt4MTVlX0hSODloNEtsaUJnU2x1VEpQWV9zYVlVNWY1bVBfNG1LZEhON19YQVV3RVFwc09mQ24yaGlOVFZQYkt5LXdhNUlzR2hB?oc=5",
     "pub": "Fri, 16 Oct 2026 23:09:00 GMT",
     "src": "Oil & Gas Journal",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Current price of oil as of October 16, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tazZoMXNjRjhIY1U2T1RELWVQcjNJenBzYWhMWjRNX29ydFBBWEJJejhwVjZ2QnZ3dWlyNVJjZW5mdEcwVnNzYzE1TEhFVnJLNV9VaWoxVTBLcE9tc1c0YmNn?oc=5",
+    "pub": "Fri, 16 Oct 2026 22:28:12 GMT",
+    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80901.46,
    84034.92,
    84497.21,
-   81516.52
+   81523.13
   ],
   "vixts": [
    0.815,
@@ -1854,9 +1854,9 @@
   ]
  },
  "summary": {
-  "text": "조기경보 주의 2.0점에서 경계 4.0점으로 상향되었고, MOVE 밴드 정상에서 주의로, SPY 50일선 밴드 정상에서 주의로 변화했으며, VIX는 15.93에서 19.99로 상승했습니다.\n현재 경계 판정에서 실질금리 2.78은 위험 밴드, MOVE 101.1은 주의 밴드, 광폭 지표는 주의 밴드를 나타내고 있는 상황입니다.",
+  "text": "조기경보 주의 2.0점에서 경계 4.0점으로 상향되었고, MOVE 밴드 정상에서 주의로, SPY 50일선 밴드 정상에서 주의로 변화했으며, VIX는 15.93에서 19.99로 상승했습니다.\n현재 경계 판정에서 실질금리 2.78은 위험 밴드, MOVE 101.1은 주의 밴드, 광폭 지표는 주의 밴드를 나타내고 있는 상황입니다. · (뉴스 기준) Yemen's Houthis claim responsibility for fresh missile strike on Aden airport -…",
   "change": "조기경보 주의 2.0점에서 경계 4.0점으로 상향되었고, MOVE 밴드 정상에서 주의로, SPY 50일선 밴드 정상에서 주의로 변화했으며, VIX는 15.93에서 19.99로 상승했습니다.",
-  "regime": "현재 경계 판정에서 실질금리 2.78은 위험 밴드, MOVE 101.1은 주의 밴드, 광폭 지표는 주의 밴드를 나타내고 있는 상황입니다.",
+  "regime": "현재 경계 판정에서 실질금리 2.78은 위험 밴드, MOVE 101.1은 주의 밴드, 광폭 지표는 주의 밴드를 나타내고 있는 상황입니다. · (뉴스 기준) Yemen's Houthis claim responsibility for fresh missile strike on Aden airport -…",
   "by": "claude",
   "base_d": "2026-10-16",
   "_base": {
@@ -1956,7 +1956,7 @@
     "vix_band": "정상",
     "vixts": 0.98,
     "move": 101.1,
-    "move_chg1": -1.35,
+    "move_chg1": -1.36,
     "move_band": "주의",
     "tnx": 5.1,
     "curve": 1.03,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T07:02:30+00:00",
+  "checked": "2026-10-17T07:11:49+00:00",
   "openai": {
    "found": false
   },

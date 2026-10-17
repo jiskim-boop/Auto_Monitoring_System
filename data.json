@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T02:32:24+00:00",
+ "updated": "2026-10-17T02:42:09+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81345.11,
-   "chg": -0.97,
-   "chg5": -2.79,
-   "chg20": -3.63,
-   "sma20": 83553.62,
-   "sma50": 81248.75,
-   "sma200": 72493.59,
+   "price": 81310.72,
+   "chg": -1.01,
+   "chg5": -2.83,
+   "chg20": -3.67,
+   "sma20": 83551.9,
+   "sma50": 81248.06,
+   "sma200": 72493.41,
    "high3m": 86602.91,
-   "reg": 81345.11,
+   "reg": 81310.72,
    "pre": null,
    "post": null,
-   "regClose": 81345.11,
+   "regClose": 81310.72,
    "sess": "reg",
-   "mt": 1792204312,
+   "mt": 1792204893,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXBpcEpXNEdyTTRkb0VfcDRmVEdGM0NTbEY5ZXlBc2N2STdjLXBtWGtTVnZYbHlkNFlFVVBnWFdxUlgzNzR2bFlWQjJ2Q3lQYXo4NXFfSEN3bmJPME5BMDdvcjBtSWJqSmRaM2txNVg0MHZzOXg2M2MyWVV3U1BzZjRBY25lWG8xb1JZalBGV0EwdV85RTI1cnlQd0U?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:18:30 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Anthropic offers Blackstone double-digit yield in chip-financing deal, FT reports - marketscreener.com",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPWEF2WkpYSkMtZWpqenZaeW1rc0k0Y3l1M3QyU2F4cVNpczVlaEpqTVVsVVVUQ3RZZkZMd25Qc0U0UG1FZ2t4WDlOeTNmUzFfT080M1BCWGZHMmhYRUI3THUwdExMVktPRU5BZG83NjZMZUNxeENzRk9ndGo0aGFfTnFFRWdreHAyYUJTTUtlUjY5WEFVUnlQSjh1aWp1c3RmQVdnczNXX3h4cUlfWmtOWHpoVmZPbjF4SFhEZk5COEZ0bFhwcWpzZHNMVEd4QQ?oc=5",
     "pub": "Sat, 17 Oct 2026 00:57:19 GMT",
@@ -1268,6 +1260,14 @@
     "pub": "Fri, 16 Oct 2026 22:39:27 GMT",
     "src": "Yahoo Finance",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXBpcEpXNEdyTTRkb0VfcDRmVEdGM0NTbEY5ZXlBc2N2STdjLXBtWGtTVnZYbHlkNFlFVVBnWFdxUlgzNzR2bFlWQjJ2Q3lQYXo4NXFfSEN3bmJPME5BMDdvcjBtSWJqSmRaM2txNVg0MHZzOXg2M2MyWVV3U1BzZjRBY25lWG8xb1JZalBGV0EwdV85RTI1cnlQd0U?oc=5",
+    "pub": "Fri, 16 Oct 2026 21:39:00 GMT",
+    "src": "WSJ",
+    "trig": false,
     "geo": false
    },
    {
@@ -1347,10 +1347,10 @@
   ],
   "macro": [
    {
-    "title": "Nasdaq sell-off extends; Semiconductor ETF posts worst week in 18 months while Cboe VIX jumps - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOVnA0d1k3c2lDSldyX2c5MFhDbmhYMEV6ZWlVeUF4ODROdll1Y0tsdzZSVldwZy11a25HQl83bVVjWE1IR0djbDMzaHIwZm1SSGhaaUJjX0hxZW4wTU1sZHpRRlI1VHM1MzVyaFUzbUs0OFA3Rlp3RDBZa3BuVUk2Q0hKZElvdnZVcmFYeVFIZWU3ZDUyZnNwd09XTDVMYWNyOUZzRThxTmh1QVZXTTdrRTdMZUFLUE4zWUlkNkdrdVExQ2U1QlA3NXVZZzhCSlZYSVBVQUdudnJSckZ5a1NhcjBUZmlSX05FMVpmaTRqa9IB9AFBVV95cUxQQVdiVTlFbXYydk9oU0FockZfX2ktcXJEMUdvTkRYSzY4bWljZV9rM0JpT0c2Z3pfZDFBU1ZTVWhObVlCTl9XNjRMeUtUYnBvd3Z5Y0JNdFFaczN6c1M1TjB2SHRoMnQwNVNOcEUwYlE5UFhsTlJBem4tRVpoRldkanc0bVU4aGlFUTBkamVFbzlzT0t5YmZ0NlkxU0N6S0lJT1NpTkVUbE04V0JrREFmMkI1RWZVakJqMVVWdzR5YnhjZjBuSmpiN2wtX0EwM3B4V0Z0Wi1xV1UyaG93dE9tbHJRMUx3MUsxeVNkTE9VRVBEal9O?oc=5",
+    "title": "News by CNBC TV18 on TradingView, 2026-10-17 — cnbctv:73cfdfea6094b:0 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1lM1lGLThkNnFTRkFwaWRvTXFXTzVIU1JXbUZudDJMS285d2FBbW9KZDR0MXZHaElCejRDRTVyejNQYV9laDBMakNCQ2tlNi1TclJreFhWOTk3UTZlb1ByQmJSeU1mX3M?oc=5",
     "pub": "Sat, 17 Oct 2026 01:46:29 GMT",
-    "src": "CNBC TV18",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1371,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "Fed holds interest rates steady as inflation hits 3-year high - ABC News - Breaking News, Latest News and Videos",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObE9meWdub2FOS2dVY0pKYUxReEZrZGJhMnIyNG9JTEJpZlhISXFXMlZGZk1kSjRPWlRPejV6aTdXSHZnWWFkeHBvZVEydk9Sa1dLallzVGtIenB2OV9yR2daTDNrb2psQW5uZ2JSYnlOMUxmYzExZ1NBT1V3OGVlaERaZ1pPaVYwTDUyNVJCR1lJUkpoRFhhMzJha09TOVXSAaQBQVVfeXFMUGc0WHV5TzVaUnlTZjZ2Y1h3RHdSSnc0LWZoTzF3Uzk4WFkyQVByY1kxNkNoeDREX3Z6TDRSOUsyMmFvbHBGUWNlWUlXZGxJZFN6RFB5NWREWWtlRXUyMXJyUUlMTXo0cmh4NlpfT1pMUklyOGJLb1F5SDdteTItMzl5NVQybXk5U2ZQWkRGYmhnU0dJZ2hoTEFjb3FLaktRcjZNbDc?oc=5",
+    "pub": "Fri, 16 Oct 2026 23:35:39 GMT",
+    "src": "ABC News - Breaking News, Latest News and Videos",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Russian attacks kill eight in Ukraine, cut power to over a million - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOMFIxaDNFUTFsWnMxSEY0d1NycVhrbEtVbHlGZHJpZDVVa3RuekIwVDFmejhRUWdoeVY4YUQxSXhmeU1NalJwZThXdUlIN1BBV0MyRUFYUmo4VWZ3RTV0VnBZc0xEM3VScTFDbnh0STBER0t6TVFFcnNubkxXM0t4M04zcVBGeW1iaXQ0X3JHQmE5a09KTlQ1UmRBUUJKMVJScnhsRVk1T0tsUS1YUlBGOUw2Zno?oc=5",
     "pub": "Fri, 16 Oct 2026 22:48:56 GMT",
@@ -1385,20 +1393,12 @@
     "src": "UA.NEWS",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Oil hits five-month high of $110 on new escalation in Middle East - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdjl0NmpNRTZlNkxJSVR6TEFaeTl0NGV3NURnczBNaWU4bGtaNFE5OXhVUTZrVHExQVB2SjhrcXhhbThheTV6NE1VUzNzMm1uOVhBZmRhUFc5RnpKeEVlTXlUVXZUWHpyWTducjQwT2tISGFNdFNDSUgxc1ZLOWR6enQwalM?oc=5",
-    "pub": "Fri, 16 Oct 2026 20:55:28 GMT",
-    "src": "Financial Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
     "title": "Gold price outlook: Can it dip further or reclaim its all-time peak? - The Financial Express",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaHJ1QWJuTzUzcEcwN1dCZmZobzVkOTBZaDV0WUFHcy1NZ29iRlV5XzktTVRERVZ3SndlNXpxR1FfYml0MTlJRDN0bUczZUFWUXFyVlRVaVVNV0luV1pyNkowMm44U0F2ZmJuUzgteFRTRzJtWmdNTVhzUE9SMlY3NDVVdEU2eUpyYWx2M3hBY29uOFd0dWVzOU5SUjdYeXF0UVdqVG9DZFNIcVNkby1PY3Y0Y1hlOThDZkZTbUUtZV9rQVljekFsTTE3LTRWOWVGcUctTnVzcTBqWXPSAdsBQVVfeXFMUGhydUFibk81M3BHMDdXQmZmaG81ZDkwWWg1dFlBR3MtTWdvYkZVeV85LU1UREVWd0p3ZTV6cUdRX2JpdDE5SUQzdG1HM2VBVlFxclZUVWlVTVdJbldacjZKMDJuOFNBdmZiblM4LXhUU0cybVpnTU1Yc1BPUjJWNzQ1VXRFNnlKcmFsdjN4QWNvbjhXdHVlczlOUlI3WHlxdFFXalRvQ2RTSHFTZG8tT2N2NGNYZTk4Q2ZGU21FLWVfa0FZY3pBbE0xNy00VjllRnFHLU51c3Ewallz?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZnp1Qzlkb2hSTjMwMTBjOXRXNzhvZF81ejcyVkVEODd5c0pWVGduV0JGNXZxSjU2OFpxVENjWk1uR2ZZUzNFMzNFaTRnUmE3RmhMQ0VIUzA3VVlQT0hoLVlheEhOcS1GM3FqNWhDTEJVdi15X3pUUzUyTjJ1NzFhcC0yOFFwclhyaFJ5aWdfWlhMNW9HTnFzdDdNT3FiTlItOEpjMlhKaHcyMl85SU1KUHhrUUJZdUkzWFhtYnZEWjlvV08xNU16SDVJcEVLaUdkLTRycdIB2wFBVV95cUxQaHJ1QWJuTzUzcEcwN1dCZmZobzVkOTBZaDV0WUFHcy1NZ29iRlV5XzktTVRERVZ3SndlNXpxR1FfYml0MTlJRDN0bUczZUFWUXFyVlRVaVVNV0luV1pyNkowMm44U0F2ZmJuUzgteFRTRzJtWmdNTVhzUE9SMlY3NDVVdEU2eUpyYWx2M3hBY29uOFd0dWVzOU5SUjdYeXF0UVdqVG9DZFNIcVNkby1PY3Y0Y1hlOThDZkZTbUUtZV9rQVljekFsTTE3LTRWOWVGcUctTnVzcTBqWXM?oc=5",
     "pub": "Sat, 17 Oct 2026 00:36:00 GMT",
     "src": "The Financial Express",
     "trig": false,
@@ -1735,7 +1735,7 @@
    80901.46,
    84034.92,
    84497.21,
-   81359.16
+   81307.39
   ],
   "vixts": [
    0.815,
@@ -2786,7 +2786,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T02:32:11+00:00",
+  "checked": "2026-10-17T02:41:56+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T03:12:06+00:00",
+ "updated": "2026-10-17T03:22:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -837,9 +837,9 @@
   },
   "^MOVE": {
    "price": 101.1,
-   "chg": -1.36,
+   "chg": -1.35,
    "chg5": 0.4,
-   "chg20": 32.64,
+   "chg20": 32.65,
    "sma20": 99.75,
    "sma50": 85.09,
    "sma200": 77.54,
@@ -849,7 +849,7 @@
    "post": null,
    "regClose": 101.1,
    "sess": "reg",
-   "mt": 1792180800,
+   "mt": 1792181850,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -985,7 +985,7 @@
    "post": null,
    "regClose": 794.78,
    "sess": "reg",
-   "mt": 1792130400,
+   "mt": 1792148740,
    "ok": true
   },
   "GLD": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81312.72,
-   "chg": -1.01,
-   "chg5": -2.83,
-   "chg20": -3.67,
-   "sma20": 83552.0,
-   "sma50": 81248.1,
-   "sma200": 72493.42,
+   "price": 81381.52,
+   "chg": -0.93,
+   "chg5": -2.75,
+   "chg20": -3.58,
+   "sma20": 83555.44,
+   "sma50": 81249.47,
+   "sma200": 72493.79,
    "high3m": 86602.91,
-   "reg": 81312.72,
+   "reg": 81381.52,
    "pre": null,
    "post": null,
-   "regClose": 81312.72,
+   "regClose": 81381.52,
    "sess": "reg",
-   "mt": 1792206691,
+   "mt": 1792207299,
    "ok": true
   },
   "USO": {
@@ -1429,18 +1429,18 @@
     "geo": false
    },
    {
-    "title": "Current price of oil as of October 16, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE0tazZoMXNjRjhIY1U2T1RELWVQcjNJenBzYWhMWjRNX29ydFBBWEJJejhwVjZ2QnZ3dWlyNVJjZW5mdEcwVnNzYzE1TEhFVnJLNV9VaWoxVTBLcE9tc1c0YmNn?oc=5",
-    "pub": "Fri, 16 Oct 2026 22:06:53 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Tech stocks erase $1 trillion of wealth as oil surges to $110 for the first time since May - NBC News",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNcWwtaE0zalpGS3dlQkJuT2lJSHdXdEVjbkItLUVDMlYzWHNjYnpQWGF3TlpnNDV5ME9DWG5YU0ZtbVVGdnZNRndsSkdOZHRzUU5iQjVhd20yY1h6WF9VUjMwVXdLQktSX0o3amgyZVpmeXJiY1gtRHVCbTNfV3VsQ2ZLcHU2ek9a?oc=5",
     "pub": "Fri, 16 Oct 2026 21:16:52 GMT",
     "src": "NBC News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The US Dollar Is Falling, But Bitcoin Isn’t Rallying: Why BTC Price Is Ignoring Dollar Weakness - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE4zXzkxSDBwV2VuZUx2QTgwTTliQjZ5NjFlc3RpaWMxUk5VWjQtTUJLMHBCQi00M3J5dGpDekNsR3Rrckp0cVUxdVJrNXdfSURRckMtWkNkbjY?oc=5",
+    "pub": "Fri, 16 Oct 2026 21:11:24 GMT",
+    "src": "Cryptonews.net",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80901.46,
    84034.92,
    84497.21,
-   81312.72
+   81396.32
   ],
   "vixts": [
    0.815,
@@ -1956,7 +1956,7 @@
     "vix_band": "정상",
     "vixts": 0.98,
     "move": 101.1,
-    "move_chg1": -1.36,
+    "move_chg1": -1.35,
     "move_band": "주의",
     "tnx": 5.1,
     "curve": 1.03,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T03:11:51+00:00",
+  "checked": "2026-10-17T03:22:14+00:00",
   "openai": {
    "found": false
   },

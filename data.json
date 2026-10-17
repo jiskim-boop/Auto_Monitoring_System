@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T09:12:03+00:00",
+ "updated": "2026-10-17T09:22:08+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81615.76,
-   "chg": 0.14,
-   "chg5": -0.18,
-   "chg20": -3.37,
-   "sma20": 83419.29,
-   "sma50": 81327.57,
-   "sma200": 72544.02,
+   "price": 81594.32,
+   "chg": 0.11,
+   "chg5": -0.21,
+   "chg20": -3.39,
+   "sma20": 83418.21,
+   "sma50": 81327.14,
+   "sma200": 72543.9,
    "high3m": 86602.91,
-   "reg": 81615.76,
+   "reg": 81594.32,
    "pre": null,
    "post": null,
-   "regClose": 81615.76,
+   "regClose": 81594.32,
    "sess": "reg",
-   "mt": 1792228285,
+   "mt": 1792228893,
    "ok": true
   },
   "USO": {
@@ -1347,10 +1347,34 @@
   ],
   "macro": [
    {
+    "title": "US tariff waiver on Russian crude a comforting relief,… - inkl",
+    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxObGs3bUY3emtPMVd0eEtjaWFJa1ZVZVJqVWxTTGU5dmlGX3htNC1pd3NEbThDUXdtUHFYOFlSTXNYOVFhQW1fMVlaeEhoYkRqVFFSRzNrelJ2X2ZnNE96aTJEQmsyem1fSjAtWm45TERieFdJeWVyaUZzbDZVNmlocURMNnBzV3VwMmUxd2lYZ0NtQVl6bDFCd1BzUjZxU2pOYUJjTUl4T2FBYllrSjMxbnRKeDZPRzFXMlFTOFNOVkV2dllNU0ROTDF0b3p0SW1yMTNCNGRNbGlwdGZ0ZE9WdGZ2TQ?oc=5",
+    "pub": "Sat, 17 Oct 2026 09:14:00 GMT",
+    "src": "inkl",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Houthis strike Aden airport as Saudi Arabia intercepts missile attacks - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTG1rWHhXeGU0eGlFZFFPVmZvUHNtaE5TeTBmdm93STNwNEVQaU5TakM4Zjg3Ujl2aEJtSFYzWGs0UEZoRDgwOVRBdjVlNGYyRHVzOXlvUTNKckRnX0dFcHpuSnp6bFhkMmxlT041bzNyUnQyX1pVY3BwOHplcVNTZVUyd3ZFRmNvQmZ0WS0xbzBSMGtQVFlYRXV4ckt4djA?oc=5",
+    "pub": "Sat, 17 Oct 2026 09:10:57 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "500%, 100%, then a waiver: How India escaped Trump's Russia tariff threat - The Economic Times",
     "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxObThBcWppU2s4MkQyZVdTekZnTUdqdnNHTU1NdlNBcXZEMTRJRGVZQkc1d05IU05LdGxYVF9kLWgzMUNOSHByM3BYenc2djcwaW5lOElrWUhQUFVYcWNPOHpzOXNITmNIVjR0T0hIODJCSU16WkxaUGRfa2syVWx4YVcyd18zN05NRW91VGRWaS1ycWxwUlNhdXA5SUZ2bW4tUkhaVmZMcGs5UHBaaXQxTW01QjYxZzlTWHBCd1dIcnNjX21OczlIc2NwX1UxV1Y1b2ZhSTZ3dXJVODg2c2fSAeMBQVVfeXFMUHQ5US1VLVVKLUg2eEY5RTJ4ZDVGbFcxMlZSaHc5MWp0UzRHYlpQUmhTaTVEekM2SFlsZ2xBMTJkYTE3YmgwSnRTM01Xb1Nfd0ZTTUVRSzVOeXM5NWtTeTd6c1p6VkJFU1Bsc2tnSUNRYXR2Sldmb2lncldLMzN0cWFIZHFvWnppTGR6eVFWRlFNR1ctb1Z5MFZhMjdSUDBMZzNQM3JrNEdiWXJMWFhoaElWRHBCYkEwdkMyZVFMYkRsNkFVWkJWRE5RSUgtSTk0c2VXWE41OGdXajRKUTNrYm5Ed0U?oc=5",
     "pub": "Sat, 17 Oct 2026 07:43:19 GMT",
     "src": "The Economic Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Russian strikes hit two Kharkiv districts; 13-year-old girl and boy among injured - The New Voice of Ukraine",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNb3NRaUZGTUxnNnRpZEJzelA1dWcyN3BheWdaOWV5MjdGM3U0QlloM1FlUjh3bFZkdHFQYy1WWmdpS0tOMk9mTnFUWUZTN1hTd01zb0NvMXFoMWNFcG56eHUwZlNwWXpPZEtQNDFZQWFpN2s1OUVzMzgweE4tRXlkMjVBSU5WVk45X3hLRzI0TkRSYlh0WTF5aTNkUDJNaHhiQ3BXMUNNYmhFTHJxcFpnRlU3WWpWMmstT0tlU01jeV_SAbwBQVVfeXFMTlZoVU9UVFhGSUM5MUF1eml2YXA4UWFpRzFOWmgwbmdYaktqVjVEZVBFNjkxQlcxVEJ1TDl1OGQ3OUpBSnoxbFNEYmhVRE5KSFFtR1J1V0hEb0RHMDl5cUlKTDNOTktDYUExQWNCZTFJeHFZN0NuUl9LbzF2ak1zXzhzZE5VY3ZlOF9sQlVSNXdlbFlKMXNiVWc2OHhFY2VqeUQyb2tsRjNqRmtXSmFZSFR5MFRlUWcteWxFZjI?oc=5",
+    "pub": "Sat, 17 Oct 2026 07:39:00 GMT",
+    "src": "The New Voice of Ukraine",
     "trig": false,
     "geo": false
    },
@@ -1369,30 +1393,6 @@
     "src": "France 24",
     "trig": false,
     "geo": true
-   },
-   {
-    "title": "Can the Russia Sanctions Bill waiver by Donald Trump bring more relief to Indian markets? - CNBC TV18",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNX1pMMHpVWVdVcXVEQWhKdUF0bWtNbHNLMnE3VFRBSjVWX0FPZWVNdXJaTzBVQnJIblNQQVJBeWFERlZCZERsSlpyUW9ISnZ5N09xU0o3dUlVUGNaei11YU80LWNhMDJiSFYxNmdOX1BCeHhlZkRnUEl0eUhrbVhhS1pLMWp0YnNzUmhKTndyN1VlMU11ZnExMGo2aEVvb3kzYWdMVGJrWmpDaVozeEVmVDB3a1RuOWc2RTFaQjJiOWFCZkJwbHJTNzdaY3bSAdIBQVVfeXFMUEI4U3VZek9rbllSQlBiWkhZWFA1RldwdW9wOTlSbG1JYmo4UG9uVGRvWUt1N2JhNmt0RVBfSUhqemFpUGMxUUdybU5ZZU56WjJlU3VWb0xpbHlaSDRoZVVxUXdKVFVPeDRGc0IxLXBpZEJ3cjNUdVBaWWRIanVkdHRpZ19tZWZiNWtjd3dFVnlSc3V6OXFnVmZ2MHdHR2cyekVZUS1EQnptUVJOMHpMSEgwSkVfTi1iZVNCVWU5anQ0d1ZFUW93eWFoN1kyX21OSnVB?oc=5",
-    "pub": "Sat, 17 Oct 2026 05:20:39 GMT",
-    "src": "CNBC TV18",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US AI Stocks Hit by Selloff; VIX Fear Gauge Surges 21% in a Day; Large Call Option Bets Position for Volatility to Persist into November - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE0xNlA1eGFOdjl4Y2pYVGxEcU1tYTFCNkUyTDZKZWFXQ0hEbG5IYTNERk9NNFlQTzh1N1NHMHl4T0dqY3gtekd5TW9PSjg0b0RQYTZWeXdtc2NxMWVsb0ptcWxaRFpNcjE5TjZyc1FBWWkxNjVpOVE?oc=5",
-    "pub": "Sat, 17 Oct 2026 05:05:00 GMT",
-    "src": "BigGo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump's waiver of Graham law curbs comes as a relief to India, other Russian energy buyers - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPV0dxbU9Cb2xqR2Fyek12ZWVXNkJISTJ0V2xuMUllRkJOcGw2WUVDQVdCRmxrSWU1ektFdm1PenoySTNuNGlmZmxsV2xjTkhMRXVsQm94cmNYZ19HOFRiMUw4V0QyUThvOG15YjhWSHp3am9WdXMzRWh5dk5HOS04Rk84elFSN2I0cXI2TVBZR2FlazBfb3hHc3o1V3FWaEhSUXEyTGNfcGs1eUU0bERRcFpzNURRTXJzaTNFazFsWDJkN1FLOXlvdnBrelA2dHl3T0g2UGt3SmY3SzBLVzBoMWNfdk92MUxSSzRSazlaNGtqQlgxc0VKNjhn0gH_AUFVX3lxTE1LQkoxYkV2T2xKQUtFcEpyaGw2cm9USGJUQW4yMmZuUFNYUm5wMVc3TVJ4dUZFUk13QUdFMXpWeUJ1NDVuY2xpZkZxWEtOM0NqbGxkWVJBblJ6d1ZWVTBSS3h4VWxwdUhIbzM4bDAwQjl1dGxvcTVtMTlocE1WQ2wtcHlQR1NrQmNBU2VlQ1JyM3BfbDNzZy10WFgtNnhlYmJMV1BVT1RxZDVfNHVtVWVIZmN0alpoa2RqcWhCT2ZmdHFHb1F6UzdhYnREMzhIS0stb1hMSkF0MEdCX2hMd2F0WDFtTDcyRG82OUdWbjlFY3JpcGJOLU54ZHJHeVJiVQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 03:47:20 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1409,14 +1409,6 @@
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Sat, 17 Oct 2026 07:37:48 GMT",
     "src": "LiteFinance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Prediction 2026: Is $4,000 an Important Support Level? - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03cFlXVzV1ZFpXUmg4SWtmaE5HaXFoajN4MnNSempqUFVhN21tbXVKM3N3b1dsVUdrblhlMzZkTDRCeFRud0NBQTc4aXpyRHhlenpreVZ2ZnAyMlhWVGtnVktGR1F2SUhjTWJvODBMSTdRYmcyMGFaNG9uSXNrUQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:25:57 GMT",
-    "src": "KuCoin",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9qbUpMSTV6dnd3eS1LLUEyaWE3UTNuUENPazN3cjJVMnZDU0N6VXFyNkxUU2pkam9CbzBUOEpiZVg1aVNqZ3dTaDRabVBuZTUzbUgzZEt6R2gwSFp1RzYzeDE2bnEzTEQzUnZSOFJPT0pfekVidU1FQw?oc=5",
     "pub": "Fri, 16 Oct 2026 23:38:35 GMT",
     "src": "Vietnam.vn",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil prices rise as Iran, proxies lash out - Oil & Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQaHFxTl9ZWHV5cWJkRXpBOFJOT1FJZDN2OHYwZHNMZnVCT0Z2a05tNWtubHI1ZUkxTTA3NXFiblY0OC11Z1FsMmFaSlNBZ1p5UGZ3TUNua1ZLbjVVV1hGdmJQOUExc0I2Rmt4MTVlX0hSODloNEtsaUJnU2x1VEpQWV9zYVlVNWY1bVBfNG1LZEhON19YQVV3RVFwc09mQ24yaGlOVFZQYkt5LXdhNUlzR2hB?oc=5",
+    "pub": "Fri, 16 Oct 2026 23:09:00 GMT",
+    "src": "Oil & Gas Journal",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81615.75
+   81594.32
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T09:11:50+00:00",
+  "checked": "2026-10-17T09:21:54+00:00",
   "openai": {
    "found": false
   },

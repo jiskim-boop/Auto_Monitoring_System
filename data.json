@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T21:02:48+00:00",
+ "updated": "2026-10-17T21:12:20+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81546.53,
-   "chg": 0.06,
-   "chg5": -0.26,
-   "chg20": -3.45,
-   "sma20": 83415.82,
-   "sma50": 81326.18,
-   "sma200": 72543.64,
+   "price": 81529.27,
+   "chg": 0.03,
+   "chg5": -0.29,
+   "chg20": -3.47,
+   "sma20": 83414.96,
+   "sma50": 81325.84,
+   "sma200": 72543.55,
    "high3m": 86602.91,
-   "reg": 81546.53,
+   "reg": 81529.27,
    "pre": null,
    "post": null,
-   "regClose": 81546.53,
+   "regClose": 81529.27,
    "sess": "reg",
-   "mt": 1792270922,
+   "mt": 1792271498,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
-    "pub": "Sat, 17 Oct 2026 18:00:06 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nebius Stock Fell 12% in a Day as CoreWeave’s Debt Scare Spread. Here’s Why Its Balance Sheet Isn’t CoreWeave’s Yet - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1N1RXBUbS1EVEtHQUpaT1h4Sk9HbkNDU0lCMVFONjVfM2s2YWs3WTZCMWZTMkczdGxGbnpLQmdjSFEtaFZ2RVl5T05sZUJIWUxXeW5FRk4tR01ZM0VhWHRPYUkxb3d4UTFLQzAwMkhPLWZHTUc0dExoZXJYcEU2S2t6dGI2X2E1dDdjY1RDdFo0X2dTNUpGcjB4ZHZBMkxLUWx0dGFhT3BjRGxvbkdua2p6R25qU1BoU3o0T0t6eGxWS2k1TmlaWTJ1elkxelRN?oc=5",
     "pub": "Sat, 17 Oct 2026 17:47:12 GMT",
@@ -1267,6 +1259,14 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0RqY1JjcXVtOWFoM2F2ZmRINWluWTJqV2UyQU5UaldWN1ozeDhrMHV0X280WWIzYlU5dTVRUTFwbDB1OXJZc3ZHeU9zRWhMOV90dlZYQkFyR0ViSXRRbTQxbjFDQ1MwNXlrTTh6Vld2clBiS256VlR4UkNKUTRWbUZjcjBSTWZBZ1pWZ3ZRa1MydEQ3cHowaA?oc=5",
     "pub": "Sat, 17 Oct 2026 17:35:13 GMT",
     "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 09:00:52 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1296,6 +1296,14 @@
    }
   ],
   "fundamental": [
+   {
+    "title": "Micron’s Edge Inference Memory Could Solve HBM’s Power Efficiency Weakness, Ushering The Age Of AI-Powered Robots With A Mass Production Target Of 2028 - Wccftech",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNMVBQcGpmM2w0ZTZTajZtV1dwTHpNSGstNkVSVTlfY1I4RlJzb1dNckkyWDdEQlhXYkp6RG8ydWI0S3FQLUtEY3p6ZmJSUmNpTmxGbzI4MXJ5NzdyOF92MDViS0hjMkpJX2EtX185MHVxdFcwMUVJTzNQS2puVzFDak1HbUNQWk100gGOAUFVX3lxTE1KaWdVd0dBM3A3cXg2VUQ1MHZSOEdmNTNmcTVMRzhRa3NJMkNWd2Ewd0ZfcktXRkFPdW9IQTVJb2d1T24tcnpVcld6RnBHLTlRRjNwaTc2ZlhYMU5BQ1MxU2dSLUQzUlZOQkRJbWI4QXVRZUg2Z1dUZ0t1a2o0VWNYUnB1QmlmTVVtcXpleFE?oc=5",
+    "pub": "Sat, 17 Oct 2026 20:22:53 GMT",
+    "src": "Wccftech",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Reality Check: What can and can’t be said about revenues at OpenAI and Anthropic - Deep Quarry",
     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBNMzF0eTM4UVc2dmJXSE52ZF90SmJtYndDWlZkeEF2NHRRV0hPVnFuZUIxZElMUWQ4Mk9JV0F5R0RYTXdzTnpJYTd2QWhsOW8yRXFZeVpuOURsZHpYNjNHclRCd2ZndXFvU0F0STZIckN0YWUtbUFz?oc=5",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPVndFZDV2OEU0dmx1U1N1Ri1MTnRjeFBpOHlGU040ekJHZ1VHZkhkcWhvYV9qVFdKNXdjdFpZZ0JWbW1wN1BWcGNHakgwY29GYjZRanRXLXl1QTlPaVhiNGg0WDhOZXhYQnNzUEhtRkREVl9nOGRDMXRieDhMUTNPLXNuWF9LSlByZGpqSXFxZEpWWmd5OC0wZDBzclNVUnh0dk1PeHRzR2o?oc=5",
     "pub": "Sat, 17 Oct 2026 13:28:00 GMT",
     "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Taiwan Semiconductor Manufacturing Company Limited Shows 2-Nanometer Growth - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBzNHplVXVtWE5vOThxdFIxTzltZ1JKNGF4RThDRWlxMHd3MVBkbmZrMVVvdkJrcmlBbm1qcHlzMXF2Mnc5R0lMcmViVzUyVkF1WnF2VjY2MkI?oc=5",
-    "pub": "Sat, 17 Oct 2026 13:16:25 GMT",
-    "src": "www.tokenpost.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81548.14
+   81529.27
   ],
   "vixts": [
    0.815,
@@ -2786,7 +2786,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T21:02:29+00:00",
+  "checked": "2026-10-17T21:12:01+00:00",
   "openai": {
    "found": false
   },

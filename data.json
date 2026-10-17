@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-17T03:42:01+00:00",
+ "updated": "2026-10-17T03:52:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81487.33,
+   "price": 81482.83,
    "chg": -0.8,
-   "chg5": -2.62,
+   "chg5": -2.63,
    "chg20": -3.46,
-   "sma20": 83560.73,
-   "sma50": 81251.59,
-   "sma200": 72494.37,
+   "sma20": 83560.5,
+   "sma50": 81251.5,
+   "sma200": 72494.35,
    "high3m": 86602.91,
-   "reg": 81487.33,
+   "reg": 81482.83,
    "pre": null,
    "post": null,
-   "regClose": 81487.33,
+   "regClose": 81482.83,
    "sess": "reg",
-   "mt": 1792208486,
+   "mt": 1792209097,
    "ok": true
   },
   "USO": {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
+    "title": "TSMC Signals It Could Help Customers Using Intel's EMIB-T Packaging if Supply Falls Short - XenoSpectrum",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE85S3ZCOHVsbXB2RmlhTnl6V3VuU3NkSDJuZktMWnhTdEp2dnh4OVdFd1A3ZS1sMjVDVjBJVXM5QkpidS1VZHNzWWJ3a0QwOWFfSnVnS0hnckZiRG5lYV9oMWM2cDdiQzBjdUR5aVBmUzAwUQ?oc=5",
+    "pub": "Sat, 17 Oct 2026 02:48:03 GMT",
+    "src": "XenoSpectrum",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "NYC Comptroller Levine Calls for Pause in Anthropic IPO Plans - Chief Investment Officer",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOSXJuemZyMm5rQ0ItX2JoTHhBTkpEVXgybDZGaUdCUVI5QVV5emExSmxTOWFwR21PamQxamU3NzhsZXBQSFRBODlXTm9udmt5eWk5SG95RTh6Q19wTElQZ1NBcllBdkZ5Q2hLa2pOWGRoNWxjSVdNVjdoUW41WDVVVXZsUWY3ckRGcFJEZFV6NXIzYlFj?oc=5",
     "pub": "Sat, 17 Oct 2026 00:45:00 GMT",
     "src": "Chief Investment Officer",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic quietly pitches its own AI safety bill to lawmakers - Politico",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0ydWVrbHdHeGNraEdTSHQ5eExwZ2lLRUU1U1BoVFJUTWNLenpWTXJOMHNnWnhaa0thQXlRbk1KdEliVVVGUEJXZWwtcWtUZE9Ielo2X05DaHJKSmJpd05rRl9vMWdQQUE4ZnVRRFBLQ3hlcm9FNG12bg?oc=5",
+    "pub": "Fri, 16 Oct 2026 21:45:00 GMT",
+    "src": "Politico",
     "trig": false,
     "geo": false
    },
@@ -1326,22 +1342,6 @@
     "pub": "Fri, 16 Oct 2026 20:28:25 GMT",
     "src": "TradingView",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave and Data Center Bonds Slide on Capex and Debt Overhang Concerns - Morningstar",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNV3NUSXl3MWlnMGVxQVJJdkRJU3JPR2FTbXBTVWFlZUFnTmIyZmc5c3ZEMlNXX2YtZWlMQ1Z1aGFXVGZZVTJVVFEyU1pFc0o1bG5RYjVZXzdkTlBSX1lfci1tQ1ZMblhlTGVab3RRXzBmMFJpdGYwckJSdEJodEFPT2F1eGlJVXlqdklQeXI2S3FCRlQyOUZvejg3dHk?oc=5",
-    "pub": "Fri, 16 Oct 2026 20:03:09 GMT",
-    "src": "Morningstar",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Google explores biologically grounded AI for autonomous wet labs - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBvRFpkcm5rSVh2T3NNWm5DX1RuTG0waWRNUHdyY3FHWlRHNnZkVzdGSC1ZdWk4bjhYTnRzc2l1dzJNZGlCUHdTN3NCM3FaQlhLckVWRWNsd291ZThRNWdLLVozallNRHY1WEdWdWNoeGo?oc=5",
-    "pub": "Fri, 16 Oct 2026 19:09:53 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1735,7 +1735,7 @@
    80901.46,
    84034.92,
    84497.21,
-   81485.71
+   81452.8
   ],
   "vixts": [
    0.815,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-17T03:41:48+00:00",
+  "checked": "2026-10-17T03:52:00+00:00",
   "openai": {
    "found": false
   },

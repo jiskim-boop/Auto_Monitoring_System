@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T17:22:07+00:00",
+ "updated": "2026-10-18T17:32:28+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81064.96,
-   "chg": -0.39,
-   "chg5": -2.44,
-   "chg20": -2.92,
-   "sma20": 83285.72,
-   "sma50": 81379.28,
-   "sma200": 72564.15,
+   "price": 81018.06,
+   "chg": -0.45,
+   "chg5": -2.5,
+   "chg20": -2.98,
+   "sma20": 83283.38,
+   "sma50": 81378.34,
+   "sma200": 72563.9,
    "high3m": 86602.91,
-   "reg": 81064.96,
+   "reg": 81018.06,
    "pre": null,
    "post": null,
-   "regClose": 81064.96,
+   "regClose": 81018.06,
    "sess": "reg",
-   "mt": 1792344090,
+   "mt": 1792344710,
    "ok": true
   },
   "USO": {
@@ -1347,14 +1347,6 @@
   ],
   "macro": [
    {
-    "title": "Inflation, AI Jitters, and VIX Bets Rattle a Once-Steady Market - Briefs Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNWHBKZmJRRDVnNGhMRG5ueHRSNXdMZ3ZvTlM1V2dIT0xRX2ZZeWJTREJ1WUZ5X3lSRkwyVFZsSXJma2dSbHpxd19QUHFVcER5SVJ4eW53VjE5VkpiaV84U1ZoY0h5eTRtVExlYmZQN3NHa3U4bk5wcy1YVkhsVDJnS3piaXdLTVZfYXU5TmNuZWRHQQ?oc=5",
-    "pub": "Sun, 18 Oct 2026 16:34:50 GMT",
-    "src": "Briefs Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "US, Israel face threats of war if oil prices keep rising - The Jerusalem Post",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBsY1JDdGkySENGaDFUSGF4MTdTTlNMeXFSYXhnZWZKdWxjeV9BREF3X0FVY2hCWmlQNl9DRE1ZdktlZWdqMGxQRE15dHZJdEc0c2NJdE1tLTQ5MzJwcEpjUGxkRmNPUE40NkE?oc=5",
     "pub": "Sun, 18 Oct 2026 15:31:45 GMT",
@@ -1393,9 +1385,25 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
+    "pub": "Sun, 18 Oct 2026 11:19:41 GMT",
+    "src": "Goodreturns",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Oil Futures Rise on Middle East, Russia-Ukraine Concerns - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNQlhVbW1hN3VaS2xQWTRNVHc1MGNIektPR0wzd2V5LWEtcmtZUXRSY1ZWYjJjSUVZZElTaFV4c0VfSnJhbHhBdGlHbjE4bkZDN0lfTnNxLXFxeFR3bnVqY21tSl9YdkZHTlY4VjYwYTVxZmFZV181ZHo0RXVFOEw0UDJoVXNYbWpfT1d2cHUza0FBekFXZzRRMTZlUkJYd2RUSlFxWEhLTHVRNjVZRk9xa0JhQzl0UQ?oc=5",
+    "pub": "Sun, 18 Oct 2026 17:11:41 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold ends week at $4,165 as US inflation data weighs - Kuwait Times",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNZ3R1RFFVbmM3a25QR0JMYjQteWotV0tNNEhwenJMeVFiUGV2eV9nR2dwMHZvbFR0QzBMZGtSQWRHUjZBVDdFeWlpSm9DOGxOc1loakpXUkdMTS0zSmJfQkJPTEhNeEhSVUNxaEdxNEhkX05LRVFwYVFMd0k5M3NSMkRVYlBMS282LXoydEhFenhISDVPTHRNbFVSMVZYMmw3MG9Z0gGjAUFVX3lxTE1ndHVEUVVuYzdrblBHQkxiNC15ai1XS000SHB6ckx5UWJQZXZ5X2dHZ3Awdm9sVHRDMExka1JBZEdSNkFUN0V5aWlKb0M4bE5zWWhqSldSR0xNLTNKYl9CQk9MSE14SFJVQ3FoR3E0SGRfTktFUXBhUUx3STkzc1IyRFViUExLbzYtejJ0SEV6eEhINU9MdE1sVVIxVlgybDcwb1k?oc=5",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOdWk4WFNnZ1pCa1hzQ3FlZWNhMmJlVC1QejlndUplUDllMWtOVXNpbklEZ1ZsRFBldlgtNURlQWJlSVMzQjBESkFtMzdVWjUxVHNJWk1ITDV2Z280VWFZY3J6Y0xTZHNTdDJMZElwa2FZUzU5QjlIMzJXNmQ0TUo3T0N6UmFReXk2VDV1czdlT2FVT1VDZXVVbl9fOFhfV2xvbEHSAacBQVVfeXFMTnhFV1FibGFVc2t2YnRBdkt6NmhNWDNSSmNQMjJSeE5IZUx0MFFwWV9Kb0dHaHliYVJmZkMtVGZ0RlhpLWNiSk1XaXBILURySi1Ca3ktZGNWbllfQUxmdEJJZVpTUmRpSnY2cWszdU1uVUdRLWYxN25xamQ3ZGZFb29lNmlFdVNqLUt0R0UxNi1PUWtIZldkekJTMjYtOFVQZWY3SmkxczQ?oc=5",
     "pub": "Sat, 17 Oct 2026 23:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "4 Charts That Explain the Copper Supply Crunch Investors Should Watch - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTzZFY0kxSFE0R1lNVGVaU2lGMjdYYUxyaVlYTkZYS2dBZXBMazFRWHRuN1pIaU1aYkJ3bDh1eHUzU1JBdWpoSGx4X2RrSUU0ekNXZV84Vy16WTByU3VJWElOTTRDUXRGWDJELVBiM0xmdHlpaW1xY3JIZ2gwTTY5SFdkRWduYUc3RGttcUQyUXJ1YzVfd0VjUg?oc=5",
-    "pub": "Sat, 17 Oct 2026 21:05:00 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   81066.78
+   81021.47
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T17:21:52+00:00",
+  "checked": "2026-10-18T17:32:12+00:00",
   "openai": {
    "found": false
   },

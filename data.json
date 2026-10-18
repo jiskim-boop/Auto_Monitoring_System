@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T21:22:06+00:00",
+ "updated": "2026-10-18T21:32:42+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80964.9,
-   "chg": -0.51,
-   "chg5": -2.56,
-   "chg20": -3.04,
-   "sma20": 83280.72,
-   "sma50": 81377.28,
-   "sma200": 72563.61,
+   "price": 80929.86,
+   "chg": -0.56,
+   "chg5": -2.61,
+   "chg20": -3.08,
+   "sma20": 83278.97,
+   "sma50": 81376.58,
+   "sma200": 72563.42,
    "high3m": 86602.91,
-   "reg": 80964.9,
+   "reg": 80929.86,
    "pre": null,
    "post": null,
-   "regClose": 80964.9,
+   "regClose": 80929.86,
    "sess": "reg",
-   "mt": 1792358491,
+   "mt": 1792359121,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.0,
-   "chg": -0.09,
-   "chg5": -0.13,
-   "chg20": 0.61,
+   "price": 157.99,
+   "chg": -0.1,
+   "chg5": -0.14,
+   "chg20": 0.6,
    "sma20": 157.94,
    "sma50": 157.71,
    "sma200": 159.24,
    "high3m": 163.86,
-   "reg": 158.0,
+   "reg": 157.99,
    "pre": null,
    "post": null,
-   "regClose": 158.0,
+   "regClose": 157.99,
    "sess": "reg",
-   "mt": 1792358483,
+   "mt": 1792359120,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1335.94,
    "sess": "reg",
-   "mt": 1792358266,
+   "mt": 1792358637,
    "ok": true
   },
   "^OVX": {
@@ -1675,7 +1675,7 @@
    157.05,
    157.46,
    157.73,
-   158.02
+   157.99
   ],
   "uso": [
    123.96,
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   80965.0
+   80933.21
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T21:21:49+00:00",
+  "checked": "2026-10-18T21:32:22+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,
@@ -2880,8 +2880,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.0,
-   "usdjpy_chg20": 0.61,
+   "usdjpy": 157.99,
+   "usdjpy_chg20": 0.6,
    "vix_chg5": 34.7,
    "hit": false,
    "missing": []

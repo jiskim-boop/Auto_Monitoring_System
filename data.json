@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T16:02:45+00:00",
+ "updated": "2026-10-18T16:12:19+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81027.36,
+   "price": 81025.21,
    "chg": -0.44,
    "chg5": -2.49,
-   "chg20": -2.96,
-   "sma20": 83283.84,
-   "sma50": 81378.53,
-   "sma200": 72563.95,
+   "chg20": -2.97,
+   "sma20": 83283.74,
+   "sma50": 81378.48,
+   "sma200": 72563.93,
    "high3m": 86602.91,
-   "reg": 81027.36,
+   "reg": 81025.21,
    "pre": null,
    "post": null,
-   "regClose": 81027.36,
+   "regClose": 81025.21,
    "sess": "reg",
-   "mt": 1792339329,
+   "mt": 1792339900,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "'How many canaries have we killed in the coal mine?' — Wall Street debates if the latest AI bubble warnings are another head fake or the real thing - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNRl9iOXhNbXZ3M1hkQlRfaXhlaG9yNmJhYm9TR0VRNjZNWlBLbGsteHNNV2xUbjJZLXVQcmVTYmlXRGZQS3JPUGhLckFiU3dPU0h6QXBhdnQwREhGS25HQXN1Z1N0MmNsOHJMTVNvZXZoczAxa3YwbnMycExVY0dpXzUyMzVYOW83MFlqa0JyLWpWWjV4Q3MwYTZpVmcwMDdTRGJraGhQSEQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 19:43:00 GMT",
-    "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nebius Stock Fell 12% in a Day as CoreWeave’s Debt Scare Spread. Here’s Why Its Balance Sheet Isn’t CoreWeave’s Yet - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1N1RXBUbS1EVEtHQUpaT1h4Sk9HbkNDU0lCMVFONjVfM2s2YWs3WTZCMWZTMkczdGxGbnpLQmdjSFEtaFZ2RVl5T05sZUJIWUxXeW5FRk4tR01ZM0VhWHRPYUkxb3d4UTFLQzAwMkhPLWZHTUc0dExoZXJYcEU2S2t6dGI2X2E1dDdjY1RDdFo0X2dTNUpGcjB4ZHZBMkxLUWx0dGFhT3BjRGxvbkdua2p6R25qU1BoU3o0T0t6eGxWS2k1TmlaWTJ1elkxelRN?oc=5",
     "pub": "Sat, 17 Oct 2026 17:47:12 GMT",
@@ -1293,6 +1285,14 @@
     "src": "BigGo Finance",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Eagle Point Credit trades near lows with 25.3% yield but faces earnings and sustainability concerns. - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZkxpTTdxZ3Jfc2VnM0h5UDEwMWtTbHpGaFlUcW5fd3dNSmxkeU5GaFU0ZGoxcV9XNG9TZFhjTWgxQTBrdW9yM01OUUFJX3g0NjNqZ1g3ZDFYcmNEZUFmYVVZb2FlOGZjSUY3U3VhbFhwRXRwa3JzQ0FLX09MQ1czcF9BYjBNZm9EdE1DQkh3?oc=5",
+    "pub": "Sat, 17 Oct 2026 03:43:38 GMT",
+    "src": "Pluang",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1315,7 +1315,7 @@
    {
     "title": "The AI Bubble Didn’t Pop. Hedge Fund Leverage Did.｜Jordi Visser - finance.biggo.com",
     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1GMkZrS2I1YnNVUDduTUcxQmZWd1kyaWFDT3ZqMnR1SXhUOG1fM3NILVVmaThfMEZKblgxbnctNHNaUllFOTMxNUlHZUkwR3V3cnFtUEVodzAzRDNDZjk0?oc=5",
-    "pub": "Sun, 18 Oct 2026 13:22:44 GMT",
+    "pub": "Sun, 18 Oct 2026 13:02:57 GMT",
     "src": "finance.biggo.com",
     "trig": false,
     "geo": false
@@ -1329,18 +1329,18 @@
     "geo": false
    },
    {
-    "title": "Nvidia Reports After the Bell Today — Five Things That Will Move NVDA After the Close - TradingKey",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxOZkVmQ2FKc01fYmN0bXZ0M1J0eFM1STRQTzlsREJ4VXI3UzVOMm5DbVczRkp1WUJhWHBCS2M4dFNnSk1BVjgyUWsyZnAweV9xbFd5NTZ2LU1JamJKR0RzeTZQbTY2UjRqaW0wMkJTVE9rT2VwX25hR3N6N1VBNjFDNnFGT1NLdEpLb0xYeEhwNUpuUWNDcnk2Qkttckw0SEhDem5xamt4QTd6OHUtN2Q2WEFMMzVDbExIaVVKcGd1V1RoQUFwVFR4MEhnMnItd0pJS0RRY21sRWRkWEluX0luNlhnejJVNnZheTlvV0lnY0hXZ0tCSE1OZA?oc=5",
-    "pub": "Sun, 18 Oct 2026 12:00:00 GMT",
-    "src": "TradingKey",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Elon Musk's xAI Rebrands As SpaceXAI, Drops New Logo As It Fully Merges Into SpaceX - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQN2FQMndjT043NXJpWTNUUFJaanNsQXNmSGg3cmUzbTVITDROQzBvRldCSjF0OWNQeTUweUJCNTdfRmRsdzNaalF6VWp2LWVfc0FCUWZWdzFHWTJyaUlHQVV0OG9UeHAzci0wb1VlRS00MWtIOUMzN01JcFFsMEUwU09FVkE3b3IwMG5BNUJ0MWtzZUhoSmwwcVpWTVhPVTBxSDdzM3dzMkt5SkhjLWE4S1RnNVpIajg?oc=5",
     "pub": "Sun, 18 Oct 2026 10:29:58 GMT",
     "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Install a Graphics Card: RTX 5080 Guide [2026] - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5INVNVejA2XzNQd3NNbTBibEkxREFMelVuUGNDSVdXSFdLVHU0X2xnVElGNkU0Z04taTBBRnNXcnRXUVczMnFlQzVsQW9LWUhkNm1Na3JiTFNmcHhYUWtsWWozSDNPZWdP?oc=5",
+    "pub": "Sun, 18 Oct 2026 10:25:21 GMT",
+    "src": "shattered.io",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   81016.32
+   81038.27
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T16:02:31+00:00",
+  "checked": "2026-10-18T16:12:01+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

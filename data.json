@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T20:52:04+00:00",
+ "updated": "2026-10-18T21:03:03+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80771.8,
-   "chg": -0.75,
-   "chg5": -2.8,
-   "chg20": -3.27,
-   "sma20": 83271.07,
-   "sma50": 81373.42,
-   "sma200": 72562.56,
+   "price": 80909.37,
+   "chg": -0.58,
+   "chg5": -2.63,
+   "chg20": -3.11,
+   "sma20": 83277.94,
+   "sma50": 81376.17,
+   "sma200": 72563.3,
    "high3m": 86602.91,
-   "reg": 80771.8,
+   "reg": 80909.37,
    "pre": null,
    "post": null,
-   "regClose": 80771.8,
+   "regClose": 80909.37,
    "sess": "reg",
-   "mt": 1792356686,
+   "mt": 1792357331,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.91,
-   "chg": -0.15,
-   "chg5": -0.18,
-   "chg20": 0.55,
+   "price": 157.86,
+   "chg": -0.18,
+   "chg5": -0.22,
+   "chg20": 0.52,
    "sma20": 157.94,
    "sma50": 157.71,
    "sma200": 159.24,
    "high3m": 163.86,
-   "reg": 157.91,
+   "reg": 157.86,
    "pre": null,
    "post": null,
-   "regClose": 157.91,
+   "regClose": 157.86,
    "sess": "reg",
-   "mt": 1792356691,
+   "mt": 1792357141,
    "ok": true
   },
   "KRW=X": {
-   "price": 1334.2,
-   "chg": -0.5,
-   "chg5": -0.5,
-   "chg20": -3.66,
-   "sma20": 1348.69,
+   "price": 1334.36,
+   "chg": -0.49,
+   "chg5": -0.48,
+   "chg20": -3.65,
+   "sma20": 1348.7,
    "sma50": 1366.24,
    "sma200": 1445.57,
    "high3m": 1475.63,
-   "reg": 1334.2,
+   "reg": 1334.36,
    "pre": null,
    "post": null,
-   "regClose": 1334.2,
+   "regClose": 1334.36,
    "sess": "reg",
-   "mt": 1792338455,
+   "mt": 1792357316,
    "ok": true
   },
   "^OVX": {
@@ -1675,7 +1675,7 @@
    157.05,
    157.46,
    157.73,
-   157.91
+   157.86
   ],
   "uso": [
    123.96,
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   80757.39
+   80951.77
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T20:51:50+00:00",
+  "checked": "2026-10-18T21:02:38+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,
@@ -2880,8 +2880,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.91,
-   "usdjpy_chg20": 0.55,
+   "usdjpy": 157.86,
+   "usdjpy_chg20": 0.52,
    "vix_chg5": 34.7,
    "hit": false,
    "missing": []
@@ -2889,8 +2889,8 @@
   "dollar": {
    "dxy": 101.78,
    "dxy_chg20": 1.56,
-   "usdkrw": 1334.2,
-   "usdkrw_chg20": -3.66,
+   "usdkrw": 1334.36,
+   "usdkrw_chg20": -3.65,
    "hit": false,
    "missing": []
   },

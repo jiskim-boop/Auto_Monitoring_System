@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T06:03:23+00:00",
+ "updated": "2026-10-18T06:12:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81662.92,
-   "chg": 0.2,
-   "chg5": -0.12,
-   "chg20": -3.31,
-   "sma20": 83421.64,
-   "sma50": 81328.51,
-   "sma200": 72519.23,
+   "price": 81642.45,
+   "chg": 0.17,
+   "chg5": -0.15,
+   "chg20": -3.33,
+   "sma20": 83420.62,
+   "sma50": 81328.1,
+   "sma200": 72519.12,
    "high3m": 86602.91,
-   "reg": 81662.92,
+   "reg": 81642.45,
    "pre": null,
    "post": null,
-   "regClose": 81662.92,
+   "regClose": 81642.45,
    "sess": "reg",
-   "mt": 1792303325,
+   "mt": 1792303894,
    "ok": true
   },
   "USO": {
@@ -1247,18 +1247,26 @@
  "news": {
   "credit": [
    {
-    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
-    "pub": "Sat, 17 Oct 2026 18:00:06 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Nebius Stock Fell 12% in a Day as CoreWeave’s Debt Scare Spread. Here’s Why Its Balance Sheet Isn’t CoreWeave’s Yet - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1N1RXBUbS1EVEtHQUpaT1h4Sk9HbkNDU0lCMVFONjVfM2s2YWs3WTZCMWZTMkczdGxGbnpLQmdjSFEtaFZ2RVl5T05sZUJIWUxXeW5FRk4tR01ZM0VhWHRPYUkxb3d4UTFLQzAwMkhPLWZHTUc0dExoZXJYcEU2S2t6dGI2X2E1dDdjY1RDdFo0X2dTNUpGcjB4ZHZBMkxLUWx0dGFhT3BjRGxvbkdua2p6R25qU1BoU3o0T0t6eGxWS2k1TmlaWTJ1elkxelRN?oc=5",
     "pub": "Sat, 17 Oct 2026 17:47:12 GMT",
     "src": "TIKR.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Dan Ives Calls CoreWeave Sell-Off A ‘False Narrative’ — Sees Buying Opportunity With AI Demand Accelerating As CRWV Stock Sees Worst Week In 11 Months - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMirwJBVV95cUxPZzVRcHVGeGJweHJseU0zSmJjMHllb2pEZTU5dDVqcGFYZkNhM1VfR0d3SVR3TWlMLW1sSHItYzNQelctYUh3NUVDSDJBSnJxZ0ExanhzcDZ1V3g3QzFFTzE4OG1SN3Z6b05Ia2hOa2JtM1R5YThlamFmbWRZZGhhNVhpR0tpYVlqUWtNVm1neW9uVndIM2ozeUdjaFpidHNxZng1Sy0zSUN5TzZDT1FsbUo1S1NiZjJSUkRWd2txTHFOUmVSb3VNQjNLRWZyY2E1Y1ZpODBRVGRJSUppMVFsWjVscXpGWTM5ZVBBbTJpTkxfdXV6aVlBRWJXVm11UC1KcThaMlZIbFVaNnJDRVl0bmQ2VjFFWVZDeG9Td0RveFdwRzhIakMtakJRV2pGTWs?oc=5",
+    "pub": "Sat, 17 Oct 2026 10:05:23 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 09:00:52 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMzBYYmt6Q19kelM1UmZhd0hRNnNXbDhhT0xhZjY1MGhIVkFvcnVzZGktYktsRE9ocGNCSHpReG1SSl9oa0huZjhuNHZnR2w1eFRnWFVScDBzYW1UdERzQVpHamx6Nk1Vc2NqMUVlTkg5SjlqaVpqYmZqYjNrbTVIS3l4Wm5Xa0dUSEo1bjJqa2VVUGpFeTNJRjl5eW5ocUNKd0R2aGxid0hNY1paNUhV?oc=5",
     "pub": "Sat, 17 Oct 2026 03:32:17 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
-    "pub": "Sat, 17 Oct 2026 02:30:00 GMT",
-    "src": "Rappler",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81667.46
+   81648.55
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T06:02:54+00:00",
+  "checked": "2026-10-18T06:11:58+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

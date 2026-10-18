@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T13:12:22+00:00",
+ "updated": "2026-10-18T13:22:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81824.24,
-   "chg": 0.54,
-   "chg5": -1.53,
-   "chg20": -2.01,
-   "sma20": 83323.69,
-   "sma50": 81394.46,
-   "sma200": 72568.28,
+   "price": 81798.22,
+   "chg": 0.51,
+   "chg5": -1.56,
+   "chg20": -2.04,
+   "sma20": 83322.39,
+   "sma50": 81393.94,
+   "sma200": 72568.14,
    "high3m": 86602.91,
-   "reg": 81824.24,
+   "reg": 81798.22,
    "pre": null,
    "post": null,
-   "regClose": 81824.24,
+   "regClose": 81798.22,
    "sess": "reg",
-   "mt": 1792329098,
+   "mt": 1792329688,
    "ok": true
   },
   "USO": {
@@ -1255,6 +1255,14 @@
     "geo": false
    },
    {
+    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
+    "pub": "Sat, 17 Oct 2026 18:00:06 GMT",
+    "src": "The New York Times",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nebius Stock Fell 12% in a Day as CoreWeave’s Debt Scare Spread. Here’s Why Its Balance Sheet Isn’t CoreWeave’s Yet - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxQS1N1RXBUbS1EVEtHQUpaT1h4Sk9HbkNDU0lCMVFONjVfM2s2YWs3WTZCMWZTMkczdGxGbnpLQmdjSFEtaFZ2RVl5T05sZUJIWUxXeW5FRk4tR01ZM0VhWHRPYUkxb3d4UTFLQzAwMkhPLWZHTUc0dExoZXJYcEU2S2t6dGI2X2E1dDdjY1RDdFo0X2dTNUpGcjB4ZHZBMkxLUWx0dGFhT3BjRGxvbkdua2p6R25qU1BoU3o0T0t6eGxWS2k1TmlaWTJ1elkxelRN?oc=5",
     "pub": "Sat, 17 Oct 2026 17:47:12 GMT",
@@ -1267,14 +1275,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0RqY1JjcXVtOWFoM2F2ZmRINWluWTJqV2UyQU5UaldWN1ozeDhrMHV0X280WWIzYlU5dTVRUTFwbDB1OXJZc3ZHeU9zRWhMOV90dlZYQkFyR0ViSXRRbTQxbjFDQ1MwNXlrTTh6Vld2clBiS256VlR4UkNKUTRWbUZjcjBSTWZBZ1pWZ3ZRa1MydEQ3cHowaA?oc=5",
     "pub": "Sat, 17 Oct 2026 17:35:13 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Weak Links Start to Show in A.I. Borrowing - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNaG5jQ0JtclR4S2w1dzdJeFNQWmdXLTlwaDJ0SWhseFFKTHdUb2tHaHIzd0R4cEhobmFjV21TRXVDdS1HeUVGZm5RbDRCcGRMYlhCMnB0QkYzV3FrX2hhLXB2X0lnSUI3c2QzQWpTREdxLVRaUjVfOEtHQ2VrMlZrV0c5VHNTNjV0OVE?oc=5",
-    "pub": "Sat, 17 Oct 2026 09:00:52 GMT",
-    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   81839.11
+   81794.47
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T13:12:00+00:00",
+  "checked": "2026-10-18T13:21:51+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

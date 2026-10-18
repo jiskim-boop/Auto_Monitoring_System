@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T05:52:10+00:00",
+ "updated": "2026-10-18T06:03:23+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81619.99,
-   "chg": 0.15,
-   "chg5": -0.17,
-   "chg20": -3.36,
-   "sma20": 83419.5,
-   "sma50": 81327.65,
-   "sma200": 72519.0,
+   "price": 81662.92,
+   "chg": 0.2,
+   "chg5": -0.12,
+   "chg20": -3.31,
+   "sma20": 83421.64,
+   "sma50": 81328.51,
+   "sma200": 72519.23,
    "high3m": 86602.91,
-   "reg": 81619.99,
+   "reg": 81662.92,
    "pre": null,
    "post": null,
-   "regClose": 81619.99,
+   "regClose": 81662.92,
    "sess": "reg",
-   "mt": 1792302688,
+   "mt": 1792303325,
    "ok": true
   },
   "USO": {
@@ -1263,14 +1263,6 @@
     "geo": false
    },
    {
-    "title": "Nvidia (NVDA) Trades Far Below Its Usual Multiple, Is Customer Debt the Real Risk? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZ0RqY1JjcXVtOWFoM2F2ZmRINWluWTJqV2UyQU5UaldWN1ozeDhrMHV0X280WWIzYlU5dTVRUTFwbDB1OXJZc3ZHeU9zRWhMOV90dlZYQkFyR0ViSXRRbTQxbjFDQ1MwNXlrTTh6Vld2clBiS256VlR4UkNKUTRWbUZjcjBSTWZBZ1pWZ3ZRa1MydEQ3cHowaA?oc=5",
-    "pub": "Sat, 17 Oct 2026 17:35:13 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave's Debt Is Now a Coin Flip, a16z's Ben Horowitz Says - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1mSWJvd2lTQUVIMV9sNmxiSlNWQU05bVNMWERyam12Ti1adlF4Z2MybVZXZXZhMm1qNC1EQVRMbXoxZ1VYWHlPVkx5S2I1Zldzd093YVBoMVFna0E?oc=5",
     "pub": "Sat, 17 Oct 2026 04:08:00 GMT",
@@ -1291,6 +1283,14 @@
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOMzBYYmt6Q19kelM1UmZhd0hRNnNXbDhhT0xhZjY1MGhIVkFvcnVzZGktYktsRE9ocGNCSHpReG1SSl9oa0huZjhuNHZnR2w1eFRnWFVScDBzYW1UdERzQVpHamx6Nk1Vc2NqMUVlTkg5SjlqaVpqYmZqYjNrbTVIS3l4Wm5Xa0dUSEo1bjJqa2VVUGpFeTNJRjl5eW5ocUNKd0R2aGxid0hNY1paNUhV?oc=5",
     "pub": "Sat, 17 Oct 2026 03:32:17 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "[ANALYSIS] First of its kind: PLDT’s P24.2B data center REIT IPO - Rappler",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNNDdDX19LUklHd19nZXUyWW5zQnFvRk9lOGduUXhtN0t3TXhqTTBnM01GYVBmckdmeG11TklSYWxoUjVNemROelJNN3dWWFRQTW1oaUItQWRwclBvQXlfbzh4LVdnREtVLXVHQks4N2h3eHpIWG9ndHNwSnA1S212V3lNaU9STm9pRUQ1QXROY0ZUTEE0NjFfMUFET3BVdmRGUGtPeGZVVmZPQQ?oc=5",
+    "pub": "Sat, 17 Oct 2026 02:30:00 GMT",
+    "src": "Rappler",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81233.68,
    84406.45,
    84763.58,
-   81608.76
+   81667.46
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T05:51:53+00:00",
+  "checked": "2026-10-18T06:02:54+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

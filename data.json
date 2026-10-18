@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T20:22:07+00:00",
+ "updated": "2026-10-18T20:32:33+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80716.09,
-   "chg": -0.82,
-   "chg5": -2.86,
-   "chg20": -3.34,
-   "sma20": 83268.28,
-   "sma50": 81372.3,
-   "sma200": 72562.25,
+   "price": 80876.89,
+   "chg": -0.62,
+   "chg5": -2.67,
+   "chg20": -3.14,
+   "sma20": 83276.32,
+   "sma50": 81375.52,
+   "sma200": 72563.13,
    "high3m": 86602.91,
-   "reg": 80716.09,
+   "reg": 80876.89,
    "pre": null,
    "post": null,
-   "regClose": 80716.09,
+   "regClose": 80876.89,
    "sess": "reg",
-   "mt": 1792354892,
+   "mt": 1792355508,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.97,
-   "chg": -0.11,
-   "chg5": -0.15,
-   "chg20": 0.59,
+   "price": 157.94,
+   "chg": -0.13,
+   "chg5": -0.16,
+   "chg20": 0.57,
    "sma20": 157.94,
    "sma50": 157.71,
    "sma200": 159.24,
    "high3m": 163.86,
-   "reg": 157.97,
+   "reg": 157.94,
    "pre": null,
    "post": null,
-   "regClose": 157.96,
+   "regClose": 157.95,
    "sess": "reg",
-   "mt": 1792354891,
+   "mt": 1792355461,
    "ok": true
   },
   "KRW=X": {
@@ -1305,14 +1305,6 @@
     "geo": false
    },
    {
-    "title": "Anthropic to commit 5% stake to new public benefit fund - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTU1DN2huekhBZWNURTRJZ25wdC1XZVlqcWtpQkNNSnhlME9tbWxGUkhKZi1zVTZKeWdmb2ZJT1NzcGJ0Z3JoalE5QnpIbnZPd3d5ZHk1dzRtUlpOSzZJWWZxM2VJZXVxcTNKb0wxdWQ2OFA1NlhmRl9YQ2VVRFFBWHMySEVITDA?oc=5",
-    "pub": "Sun, 18 Oct 2026 19:11:15 GMT",
-    "src": "Yahoo! Finance Canada",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Samsung Taps TSMC 3nm for Nvidia NVHBM Chips [2026] - https://tech-insider.org/",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5lU3VIa096VDdKaTZIU3VFWEtqa1V1UVpzR1gzWlNYR0g1bElnbGVWN2d6T1JUR1c5aVlUcGNRR3d3UVRYS2thVWRSYTRkTHhUTFFpaXh3alNIU0NoTEJYcHUxN2ZMODd6UDFkNkU2TWROVV9SYUVUMXh6ZC1TUQ?oc=5",
     "pub": "Sun, 18 Oct 2026 16:36:42 GMT",
@@ -1341,6 +1333,14 @@
     "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE12cnFZbWxXblppdnBwR0JrYVpFYXdXeGlWNVJyV3A1R3NYR0Y0MTdUSTZKQXNKYTJ2RVNvYS1RSXpTQ29OaVJidzR4UDVUcG5uTlZadWw1enF0SG82YWc?oc=5",
     "pub": "Sun, 18 Oct 2026 15:49:08 GMT",
     "src": "Memeburn",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "MNX - Howl.link",
+    "link": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9vZ1JpN05wMThhMHo1eUFzXzVGMEtkMDQ3V3RiU3ZrSlBwalhPd3FjQWp3TUxQTkU3VGdv?oc=5",
+    "pub": "Sun, 18 Oct 2026 15:45:01 GMT",
+    "src": "Howl.link",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.05,
    157.46,
    157.73,
-   157.96
+   157.95
   ],
   "uso": [
    123.96,
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   80700.36
+   80860.37
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T20:21:53+00:00",
+  "checked": "2026-10-18T20:32:11+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,
@@ -2880,8 +2880,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.97,
-   "usdjpy_chg20": 0.59,
+   "usdjpy": 157.94,
+   "usdjpy_chg20": 0.57,
    "vix_chg5": 34.7,
    "hit": false,
    "missing": []

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-18T12:52:13+00:00",
+ "updated": "2026-10-18T13:02:52+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81885.59,
-   "chg": 0.62,
-   "chg5": -1.46,
-   "chg20": -1.94,
-   "sma20": 83326.76,
-   "sma50": 81395.69,
-   "sma200": 72568.61,
+   "price": 81853.02,
+   "chg": 0.58,
+   "chg5": -1.49,
+   "chg20": -1.98,
+   "sma20": 83325.13,
+   "sma50": 81395.04,
+   "sma200": 72568.43,
    "high3m": 86602.91,
-   "reg": 81885.59,
+   "reg": 81853.02,
    "pre": null,
    "post": null,
-   "regClose": 81885.59,
+   "regClose": 81853.02,
    "sess": "reg",
-   "mt": 1792327896,
+   "mt": 1792328528,
    "ok": true
   },
   "USO": {
@@ -1160,17 +1160,17 @@
   },
   "CL=F": {
    "price": 99.02,
-   "chg": -2.36,
+   "chg": 1.07,
    "chg5": 7.81,
    "chg20": -1.28,
-   "sma20": 92.94,
-   "sma50": 90.98,
-   "sma200": 88.58,
+   "sma20": 92.82,
+   "sma50": 90.93,
+   "sma200": 88.57,
    "high3m": 105.83,
    "reg": 99.02,
    "pre": null,
    "post": null,
-   "regClose": 101.41,
+   "regClose": 99.02,
    "sess": "24h",
    "mt": 1792184398,
    "ok": true
@@ -1357,7 +1357,7 @@
    {
     "title": "Stock Market Outlook Today, September 8: Sensex, Nifty Likely To Remain Under Pressure Amid Geopolitical Risks - Goodreturns",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdzRiMDZDRG9LdEVYOXVUQjVzdVNTaU9DRW5jN3oySTIycFc5emZLcVNzM1hWdDlPTlhiQ1JaWWs1R2d2Q3J6SG9yUHlHT1hucTcyQl9fLU94VmliQjF5S3VDVFA4UENQTHBFRWJMZS1FTFJJdDhzbHRYTk5WUVFNNjA2UWVUNFV3ZXIzNEJ4NzUxQmhUMlVwTEVRQTFISEpWTHBld2pQaURXZUkwandyRjFVaGhDMktMSENGRE1UMzlWWW53TGdZeW5MUFBaVFlSM0drdFhZTTRwZw?oc=5",
-    "pub": "Sun, 18 Oct 2026 07:19:16 GMT",
+    "pub": "Sun, 18 Oct 2026 11:19:41 GMT",
     "src": "Goodreturns",
     "trig": false,
     "geo": false
@@ -1735,7 +1735,7 @@
    81142.61,
    84458.09,
    86480.3,
-   81884.18
+   81855.67
   ],
   "vixts": [
    0.815,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-18T12:51:57+00:00",
+  "checked": "2026-10-18T13:02:33+00:00",
   "openai": {
    "found": false
   },
@@ -2808,7 +2808,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 35,
   "curve_inverted": false,

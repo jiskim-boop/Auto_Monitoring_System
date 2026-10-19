@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-19T21:52:23+00:00",
+ "updated": "2026-10-19T22:03:00+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.98,
-   "chg": 0.14,
-   "chg5": -0.58,
-   "chg20": 1.54,
+   "price": 101.97,
+   "chg": 0.12,
+   "chg5": -0.6,
+   "chg20": 1.53,
    "sma20": 101.79,
    "sma50": 100.39,
    "sma200": 100.05,
    "high3m": 102.58,
-   "reg": 101.98,
+   "reg": 101.97,
    "pre": null,
    "post": null,
-   "regClose": 101.98,
+   "regClose": 101.96,
    "sess": "reg",
-   "mt": 1792446093,
+   "mt": 1792446719,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81916.18,
-   "chg": -0.12,
-   "chg5": 0.43,
-   "chg20": -2.04,
-   "sma20": 83248.04,
-   "sma50": 81483.3,
-   "sma200": 72602.97,
+   "price": 82015.3,
+   "chg": -0.0,
+   "chg5": 0.56,
+   "chg20": -1.92,
+   "sma20": 83253.0,
+   "sma50": 81485.29,
+   "sma200": 72603.51,
    "high3m": 86602.91,
-   "reg": 81916.18,
+   "reg": 82015.3,
    "pre": null,
    "post": null,
-   "regClose": 81916.18,
+   "regClose": 82015.3,
    "sess": "reg",
-   "mt": 1792446700,
+   "mt": 1792447326,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.45,
-   "chg": 0.41,
-   "chg5": -0.04,
-   "chg20": 0.69,
+   "price": 158.5,
+   "chg": 0.44,
+   "chg5": -0.01,
+   "chg20": 0.72,
    "sma20": 157.99,
    "sma50": 157.7,
    "sma200": 159.24,
    "high3m": 163.86,
-   "reg": 158.45,
+   "reg": 158.5,
    "pre": null,
    "post": null,
-   "regClose": 158.45,
+   "regClose": 158.51,
    "sess": "reg",
-   "mt": 1792446701,
+   "mt": 1792447327,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1332.32,
    "sess": "reg",
-   "mt": 1792446603,
+   "mt": 1792447208,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave’s debt is becoming the whole AI industry’s problem - The Verge",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPbXRMaHlBc1NsSkNNQVNFSGJNRkdRQk9OSGhPbjFhNloyeXpRWEdBTzU2RllTSjVKVWVFem92QkxkRHZRTWhBanlheEhmOU43eTN6LXpDYnFNejUtcS1XVmVGZEJSS3dMQ1FHMko1Y25DYl82SkFwdHFFSUFranZSNU1oTEFwZjluSmpHRzAteWZqSi1l?oc=5",
+    "pub": "Mon, 19 Oct 2026 21:28:20 GMT",
+    "src": "The Verge",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The Philippine country head for Lenovo said he expects device makers to continue competing with AI firms for critical PC components. Link to the full story in the comments section. | via ANC 24/7 - Facebook",
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNX3NWR3NBeVIyaFQ4bG5rd1NuX0o2R25Cd3NsNXF1ZmJfUEQ0TldEMHpPejlQd3pCMDJRcFV1clRobnNzQmZ4WnJxb2JkQWxZSk9hSUVMUDh3Vnd0T2UtWlU4ZEpEbVpieEJBSk5mXzBWRVAyRkpxNWhXbWVldTJ4VHpwR1FGVG9fY1o3X3ozUjBsNmpZQkt1RmxnVHFqSF9adm04anZGMFcxMmE4TnFmYm41dzRldzBTUzhWMzVuREZQaUxtUy1YZ04wQ2J2T3ljdG9pSml3VQ?oc=5",
     "pub": "Mon, 19 Oct 2026 20:45:18 GMT",
@@ -1285,14 +1293,6 @@
     "src": "Bloomberg",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave’s Business Is Sound Despite Debt Fears, JPMorgan Says - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNdHVkRTl2eFhEWGl5ZHdUQ243XzRxNTJrWDJUUVBJaV9DcHN5V3lWdjRFNjlOUXlLcmZEZ29BX0Y3aEszd2w3UVJzZ0FPVjZYb21ROVlzR3FWWDJHQ0dsUGxiVG1ULThuQVYtZTY3ZFZ6OTBFb0RLclcycXFvdEUtcjMxZ282NjJfM1NCd2w0QQ?oc=5",
-    "pub": "Mon, 19 Oct 2026 17:51:27 GMT",
-    "src": "Yahoo! Finance Canada",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX ‘Space Jellyfish’ cloud could be visible from Louisiana Tuesday morning - WDSU",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOa1BueXlaYnE2T1JYdUxja0VIdjBOdmo4VDJZT3Ixdy1mOFQ3Y19tU3ZGUlAwdzkwR3ZGd0gxRXpuSWI5UGFEUS1CZHU0ZjcyV3cySjlCeWY0RFM0c1IwbkNGSjM1VF9jdkN5Y2IweWpsQ3d4eEhmODlzNUxQa3oyOUhwaVh2VENuWkE?oc=5",
+    "pub": "Mon, 19 Oct 2026 20:10:00 GMT",
+    "src": "WDSU",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "S&P 500, Nasdaq advance ahead of mega-cap companies’ earnings - TradingView",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNSGtobEFVckM2M2lNSEpXLVU3YS13TjlFZHdVNXdnQzlwamVMMEpMN3BqWEVXdEJZTjFfaHV1SkpVN09SamN0Vk9yaHRyMFdSSjJya2MxUDR1eWxnRU5MdzlLajNoTGtaRzgycExZejdPbmhZNWRmd0FBMHZsa1BsNnVsZlR1OHltS3RyVm84UU5WLWRWRzB6YUFOVDEtQjBKUVNYd21jZE1VRXpNWTk2S1ZaQTgtM1Q3UW8xRVkzTQ?oc=5",
     "pub": "Mon, 19 Oct 2026 20:03:53 GMT",
@@ -1335,14 +1343,6 @@
     "src": "tastylive",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Homebuilder Sentiment Hits 2012 Lows As Stocks Trade Like They Did During COVID-19 Pandemic - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTTVDLTA5dDBfTlRaVXI4Q2R1RDNfMG5FeUhBVzk0aXd4a1hkRTNzUkdGSV9SSzJNZHRHaDdBREtZd0JraWJ1Y0ZyNmR3OHFsd0syRUUyUWx0Z2xPVlB4bjFwMldnbkRHdTlwVy1ON2RsN1EyN2JnekRtQWtNeGJocjgtbWdmM01NSko2OUpuQkRVZDhmYjd2R3JLaTJfWnMwVjRRRTc3QVhuaVA4cVNWa3A4cDAxeWNDZXR4UU5JYThCNnJNNEZxWWg3N3YycU84VlNEbGU0ckdHWGk2RVBtSExrYlM?oc=5",
-    "pub": "Mon, 19 Oct 2026 18:13:01 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1355,11 +1355,11 @@
     "geo": false
    },
    {
-    "title": "US-Israel-Iran War Latest Live News: Iran Warns 9 Nations ‘If US Strikes Resume’ as Oil Prices Surge Above $110 Amid Renewed Houthi Attacks on Saudi Arabia - The Sunday Guardian",
-    "link": "https://news.google.com/rss/articles/CBMipwJBVV95cUxPQlc3YXB1R3hHd05mamdCOGtRTC1sX1piUDNmUXFmbHlqLUp0UVhLYnVhNzBSdEpnX05WT1JGWF9wWDlMNjJTUTVyc2dSTXpLQVd5N2RSVmhLNS1aUjRYS2ZKd3ZaR0htaWtvN3paMDcxYUNCVFd5OEJNczY3ZVVEdVhiR1dualFOcGgxWVVqT0p3Ml9ma1Z4QU1SWjRJbVVXSkdSQXVxVDhCOERlWW1PR3pqSjNoUV9kVmNLdjZRcnF3VXcwd3BZVGhVLUdYYnFWTnNhYUJPVTU4dG1hWEo1c093MFZVN1BMd1NOTkNXaGgzenhTMDZxS0JMejlmWWhpVmZOTEFVU1V0azI4S1NpTGZUM1dMMkh3My1kZ3ZtVEFJaEFoS3U00gGnAkFVX3lxTE9CVzdhcHVHeEd3TmZqZ0I4a1FMLWxfWmJQM2ZRcWZseWotSnRRWEtidWE3MFJ0SmdfTlZPUkZYX3BYOUw2MlNRNXJzZ1JNektBV3k3ZFJWaEs1LVpSNFhLZkp3dlpHSG1pa283elowNzFhQ0JUV3k4Qk1zNjdlVUR1WGJHV25qUU5waDFZVWpPSncyX2ZrVnhBTVJaNEltVVdKR1JBdXFUOEI4RGVZbU9HempKM2hRX2RWY0t2NlFycXdVdzB3cFlUaFUtR1hicVZOc2FhQk9VNTh0bWFYSjVzT3cwVlU3UEx3U05OQ1doaDN6eFMwNnFLQkx6OWZZaGlWZk5MQVVTVXRrMjhLU2lMZlQzV0wySHczLWRndm1UQUloQWhLdTQ?oc=5",
-    "pub": "Mon, 19 Oct 2026 19:49:28 GMT",
-    "src": "The Sunday Guardian",
-    "trig": true,
+    "title": "Oil Prices Hover Near Five-Month High - Rigzone",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPUWFjR1QyakFhZEpfSzZXWDJGT1BSRDlvLVl4LWY5Z1NjdXc0ZXpGVFhCeml1bnBxZE5CVHFQdmFBc1N3RUgyclcyLUdrSDkwM2R4SFdXclRUYllYcmlBb0RnczJScEljQWlELWxvblB1bWxKaVdLZEZrWld5YVdGTjdVUk9OdGkxUjlsSnl4MlFVNjJaX3BIRC1mZFU4aDA?oc=5",
+    "pub": "Mon, 19 Oct 2026 20:12:56 GMT",
+    "src": "Rigzone",
+    "trig": false,
     "geo": false
    },
    {
@@ -1630,7 +1630,7 @@
    100.6,
    101.37,
    101.83,
-   101.98
+   101.97
   ],
   "bizd": [
    12.57,
@@ -1675,7 +1675,7 @@
    157.37,
    157.36,
    157.96,
-   158.46
+   158.51
   ],
   "uso": [
    125.51,
@@ -1735,7 +1735,7 @@
    86602.91,
    83502.61,
    85786.59,
-   81916.18
+   81981.46
   ],
   "vixts": [
    0.914,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-19T21:52:05+00:00",
+  "checked": "2026-10-19T22:02:43+00:00",
   "openai": {
    "found": false
   },
@@ -2806,7 +2806,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 38,
   "curve_inverted": false,
@@ -2878,15 +2878,15 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.45,
-   "usdjpy_chg20": 0.69,
+   "usdjpy": 158.5,
+   "usdjpy_chg20": 0.72,
    "vix_chg5": 21.24,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.98,
-   "dxy_chg20": 1.54,
+   "dxy": 101.97,
+   "dxy_chg20": 1.53,
    "usdkrw": 1332.32,
    "usdkrw_chg20": -3.01,
    "hit": false,

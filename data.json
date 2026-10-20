@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:32:58+00:00",
+ "updated": "2026-10-20T21:42:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.71,
    "sess": "reg",
-   "mt": 1792531315,
+   "mt": 1792531893,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82792.48,
-   "chg": 1.15,
-   "chg5": 0.79,
-   "chg20": -0.91,
-   "sma20": 83206.84,
-   "sma50": 81566.93,
-   "sma200": 72651.19,
+   "price": 82762.65,
+   "chg": 1.11,
+   "chg5": 0.76,
+   "chg20": -0.95,
+   "sma20": 83205.35,
+   "sma50": 81566.33,
+   "sma200": 72651.03,
    "high3m": 86602.91,
-   "reg": 82792.48,
+   "reg": 82762.65,
    "pre": null,
    "post": null,
-   "regClose": 82792.48,
+   "regClose": 82762.65,
    "sess": "reg",
-   "mt": 1792531917,
+   "mt": 1792532496,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.1,
-   "chg": -0.26,
-   "chg5": -0.14,
-   "chg20": 0.41,
-   "sma20": 158.02,
+   "price": 158.13,
+   "chg": -0.25,
+   "chg5": -0.12,
+   "chg20": 0.43,
+   "sma20": 158.03,
    "sma50": 157.67,
    "sma200": 159.23,
    "high3m": 163.86,
-   "reg": 158.1,
+   "reg": 158.13,
    "pre": null,
    "post": null,
-   "regClose": 158.1,
+   "regClose": 158.13,
    "sess": "reg",
-   "mt": 1792531919,
+   "mt": 1792532501,
    "ok": true
   },
   "KRW=X": {
-   "price": 1326.18,
-   "chg": -0.29,
+   "price": 1326.24,
+   "chg": -0.28,
    "chg5": -1.05,
    "chg20": -1.79,
    "sma20": 1345.26,
    "sma50": 1362.76,
    "sma200": 1443.34,
    "high3m": 1464.44,
-   "reg": 1326.18,
+   "reg": 1326.24,
    "pre": null,
    "post": null,
-   "regClose": 1326.18,
+   "regClose": 1326.24,
    "sess": "reg",
-   "mt": 1792531913,
+   "mt": 1792532355,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,22 @@
   ],
   "fundamental": [
    {
+    "title": "Index providers adapt IPO inclusion rules for SpaceX: the governance trade-offs for institutional investors - Investment & Pensions Europe",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQU09yZlRHdGhpVjhMdjRiVER6alJQa2tCV1JtUkozYlVoYlo3YXZYMWNJQ3dONktWUms1d1hwdWZkTDU0ZjBBNHU1QndHMmVydV9hOWR2SXpyamJ6cFgyeXA0dUtjV1o2UFp4UkE2bV9kVThuZEppcFB0UUtjTXYyZDZ5Z2ktVTZCcE51Y1hCcTJZblpLSlREZFlhZ09Wa1R4MjdkRjhlTUcyODdnT1RDYm1IckotcVJOc1hWMkxFSW0xUlJqV096ZXR4RGtyZGN5dlRtallVT0tIWUs3SUxiREM1TDZSbF9UUndJNms4ZkY?oc=5",
+    "pub": "Tue, 20 Oct 2026 21:35:08 GMT",
+    "src": "Investment & Pensions Europe",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AFRL demonstrates Rocket Cargo delivery with SpaceX Starfall reentry capsule - Department of the Air Force (.mil)",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZ2txNmlXTDFORFBGbmZUSDRsZkllYUljb2xFU0pOMFJHUUZLVVlyUjVLVEZKRkdodXJ4NER2T2t1QzB0YjFpdTRlNkJhMDdMejctakZRckVEaWNrdjd1Vm0yWVVlNWtpMGNxNi11NmFCUGNMU1FwYTdIS2hZU1RvZXBpeDBiTzhsaktQWVJHOTlEXzFFdkFtT1lUYWx3MXlaaDBvYjJDQkFHeFl0Si1nbk9MMHRpODlCY0FGSGM1OEl4aGhxSFVfN3FMVDBacWlh?oc=5",
+    "pub": "Tue, 20 Oct 2026 21:23:43 GMT",
+    "src": "Department of the Air Force (.mil)",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Live coverage: SpaceX to launch 27 Starlink satellites on Falcon 9 rocket from Vandenberg SFB - Spaceflight Now",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVGROSVRDU2ZpNE9XVzRtMWhKUFR1aWFLazlEaFdGanZxNTFWaTZScHY5cG5uT01HZGZwWldYOHNRcVRjdXZzSjhSdVdQbU50cmtvVmxaNHhTY2FWeElwN0s1NktlT3hhbjNmTVphMXV5UTE5MldBeElVSWp5UmJrdWtQcXhiT1ZVQklJTDhXZ0FfemRjd2lLazFjOGFZR29VMkYxUzJkTFBFeF9Oa1pLZ0RYSmc3NnBTSmUtWGZlMzFjMEMyTmp1NXNOY0U3UQ?oc=5",
     "pub": "Tue, 20 Oct 2026 21:20:03 GMT",
@@ -1305,10 +1321,18 @@
     "geo": false
    },
    {
-    "title": "AFRL demonstrates Rocket Cargo delivery with SpaceX Starfall reentry capsule - Wright-Patterson AFB (.mil)",
-    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTm96SDhTbG01OFRNU0Z2Z2pHODY3SU5NNnZQdGN4bkR2Wk1iM1dLRDMtYUxhQTYwN3d6QThjeTVGR0pOWmxVeklKRURNSkEwQmx1MnJBV2VLa1g5Yl9ua0NjNGxFekl0LXdKMXBtX0RZcENxckRMTEt5QWN5aG8xckdhY3M2SVFWdDlSUk1MdEUzeVFDU1FjOV9pZVBQMFpoN1lKOHdJQzZvcXo0bG5STnhxWGQ4TDRkanNvOEhKVUYzT0ZJZWtzaEJ0ZmJkMy1vaExpOHNn?oc=5",
-    "pub": "Tue, 20 Oct 2026 21:09:39 GMT",
-    "src": "Wright-Patterson AFB (.mil)",
+    "title": "SpaceX quarterly revenue jumps, beats estimates as AI business surges - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONHZoMzBtaGg1TmlMN19NRUEzM1lOZkpYb1ZXeWlLTnR4SkxObm1xbDBlN0RsQ2huaHBCMzRxU0VLb3ZPSS1ZeEdhampNY3VNclpoU2xGOWpoQjNfVzVDTHpqOVVRd0pZcVY3eGlpVkxjWTRrMGh4aWtCbVJVVnZ1Nnd1RkU1dFNtcUZCUnVxX1pRWXRTd09QUnpodWJSeEhpS3BKcmxsQkM1aFA1eExGSkNMMVIteV93OXZWa0Q2Vl9yUQ?oc=5",
+    "pub": "Tue, 20 Oct 2026 20:27:22 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "What is space jellyfish? Strange rocket launch contrail seen in Florida sky - Florida Today",
+    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOVmY2d3ExX3RYbzE3aWZqTXJmQ0I2Z0trc0pMQnNqTHluemlUY0phbTloMk1TTlFhWnRZX3F3YmJ2RzgtYnktUVlzYlR6VGZwSFFVVWF4QTVoRGt3U3hHTXdFMUJ3d1R2V3M0S0hZUjJQcFVmTFJuTlQzUEFhS2U4eFI3UlJsMkhUUy1lRlBPVW9QRjh6RnRjYzJWNUF6UE9oTHIwTnJ5NXVkWk1QQkVEUENMTXZXNmNCVmg5aENDcUhFdmpDZkhVOFZhRzBXeWdaQmJ6ZA?oc=5",
+    "pub": "Tue, 20 Oct 2026 20:15:00 GMT",
+    "src": "Florida Today",
     "trig": false,
     "geo": false
    },
@@ -1317,30 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQU1dQSTBzcW81bUc2bk0wTTlwTkF6VnJlWk9MX3NFVG1NQXpwOE90WjJBSkJnZGpFUXcyenZNSFNJR3dNM2FYOE5nU3JERnRDQnRON2pfcl92WFlQSmV3ZlE0Z21UeXRjRWFnRWZPU0JPZm5qY1I1U0lfUWxZRU1ObQ?oc=5",
     "pub": "Tue, 20 Oct 2026 20:12:00 GMT",
     "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump administration loses bid to block NAACP lawsuit against Musk's xAI over data center - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxQS0s0cm9kQTZtSWVYc3pFdXgtWkpvNmdqbXRzQWg2cTBCclNFcWhlUzU1VHNRZUxZQXNwbk5qWjk3cUYyYjNaNEJfdnFRQjJUeF9BSFdWUnBTdWtWVk1oaWhMb1BWbG0xZ2pNaFZ4Z1MxQ0JQVEVEUmYxQTQ3ZjBQYVFYUG4yUThPXzlFWTFzNVpPdDU2aHctN0dTdW5ORkJldmZhcm90VW9LUVNsTFRXRHU4VWQyQ09yRDQwYmNFYnd1U2MzYzd5U1ZBUlNMem5ySGN3R1FINE92X2htb1UyUkVrdVRiQk9LUnFWaGJoVGQ?oc=5",
-    "pub": "Tue, 20 Oct 2026 20:10:35 GMT",
-    "src": "TradingView",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Anthropic logged net loss of over $80 billion in first half of 2026, WSJ reports - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOWDd1N2Q1aDhCMXdIcnhsNC1meEdkVGlZdGJBR1dabnotaThiMGF5R2NvTVluM3NTY2dFMEJfT21EeF9OR3d6cFE1eVpsZnVZeU82aVlOUVQ0ZElXVlVGMTJ0NzM0a2R0Z2hrQk1RRGJlWFB1VmMzS1djQ3ZpVkc2SmR3MlRBQXRGN1E1aXlJX1pOOEc0bFF6OFhBYTRSamFtR1pmNGhMbFpzS25keENuR1IyMkljTG1lUHE2TVh3?oc=5",
-    "pub": "Tue, 20 Oct 2026 20:00:42 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic revenue hits $16.3 billion as preliminary S-1 outlines IPO risks - WSJ - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV01vVFJFczZpUUJmOFVadllTVFFKa3VpRHRNN1RUeXNxd1d0Y29rTXFrWUh3OHJPWTJDc2pjYmtJTXdhSUQyWFNBYy1PZk9vTTdzQTg1UV90R2QxNlp5cHAya3BUdkVYdkZmZnBObFNhNTh4YW4ySVk4Ri1SUFlQQ0pzNVp3T0xYMXBab05YZUlmVnppLVFFSFM5aXZyRUd2bS1jZUhsXzVVVTQyN0YzaFFrWFlZWm1yQVVhN0NRc2xmeG1FN2hFb0stY3dWQQ?oc=5",
-    "pub": "Tue, 20 Oct 2026 19:48:28 GMT",
-    "src": "Investing.com",
     "trig": false,
     "geo": false
    }
@@ -1388,7 +1388,7 @@
    },
    {
     "title": "S&P 500 Could Hit 8,300 By May 2027, Says Morgan Stanley Investment Chief Predicting ‘Final Innings’ Of Stock Market Correction - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVzhkTFJPazFWYWVLNVdyTkVnaVpZdXdfOTVsQjQ2dlVRVTYtNnlTSEhSc1I3R1ktbnhhdlg4VGdkU3Itcld5d1RNNnRIdF9LSXQxRGpTTUZEOGNRdlVoZWZZQkh6Xzl6NW5ucGJhYTlIRkNrcENVd1ZpTWVHQWlyWjJ3WGlyeElncmFVNmlWaVNXdlVMRmlGd0pzRmdEalFVZldVX0EwazV1ZG1hX2hxbzNESjZ5ZjdPaTFVU0VubG9ZV0lpOW1MZHh2NzNCR2JmM0F4d2MyRUYwM0gwVWw1N01BQVQ1azBtYnRGc0MwLWRlZHlmaUY1bk9XRUFqbkJsUVJUeUV5VlEzbjAyWDc5RWpRTQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxQaThTNTdGZVJiZW1lT2RpbGJQX21RRU9QWFdDaVRQVjRLR2RlTHh3V0x2X2NtRTVidGk0QVRfNlZIVmdBdTlBTGVjTGJ6UGpVRFZYX0ZMWUw5UEIxak16S0VOUVIxS1ZhNl92c3I4cGJ0N3JhUDFlVkdoMWxEZnBwLUJZZEtXZGlnbEhURXpjenhzbkZjT29vRDkzeFhZYW9yb1dCRU5qanMzeXBJN2NYQTYwTXQ5d1ZCOF9lR0s5cmc5Q2hkODFJWTFBUVhMd2dVVk1ickZ6cEtRdk5ESHdHUUd1aDhsc2w3TUl2WnZhaGg1WVAzM0xVcVpILVFfaFk1S2tGUS1rMktRc2owZjhENmtR?oc=5",
     "pub": "Tue, 20 Oct 2026 17:24:23 GMT",
     "src": "TradingView",
     "trig": false,
@@ -1396,6 +1396,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Current price of oil as of October 20, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rTUlwQUZDRU1uLS1LYTNKdWdDSG5xUGxVaGVDTk9ESXhNczk1UHE1UXZoaE9EQTlJeTFVSmhhWUlyVWlmM0ItYkZyQ0lCd0U2NnNyX0ZMYUhYLWdCYjdOcnV3?oc=5",
+    "pub": "Tue, 20 Oct 2026 20:34:09 GMT",
+    "src": "Fortune",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Yen Firms to 158.08 as Katayama’s Warning and Ueda’s 2% Inflation Signal Cap Dollar Below 160 - TradingNEWS",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd2RYcC1vYmRfemc3N0NaOWhOVHBHNGh6VTRpSzlQNExXYnlya2VYV2NQWGR5MEpOeEpVOWx3aV9YQ0N4MW15X2ctdndYbnlPdXAxZzV2Unh3bzFpSGNwUE54UDBRRm9pbjZEeFVnaXdNaU05TFhaSDYxYU9fYVREbmtmTlNXaDNTeFFZUlVpZTJLQ1NXRVRPRHJDRzBTSFZycXJfX2RPRHZhVUZhZGJFYVRMaw?oc=5",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUURBVXVmTXJQOUdQTW5PSEJ5eHN0bjAySEdPWjhBYU1YdEtaeGpEV2V3Z3BSdEsyMW5xQkZWaDFZOVRJamJBdEthQks5WjdFMXJIX2NVOC04aTl1a2RzVl9jRk9QYlU3ZDNNa2l0VUp3SzRWTnhpblo3amFFbWZoNDd2QjNDSlRYWUxDUmkzUEZ3NkZ5eUx4am42Y3JmLWMzbmwwcVFGN18?oc=5",
     "pub": "Tue, 20 Oct 2026 17:33:46 GMT",
     "src": "StoneX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Current price of oil as of October 20, 2026 - Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rTUlwQUZDRU1uLS1LYTNKdWdDSG5xUGxVaGVDTk9ESXhNczk1UHE1UXZoaE9EQTlJeTFVSmhhWUlyVWlmM0ItYkZyQ0lCd0U2NnNyX0ZMYUhYLWdCYjdOcnV3?oc=5",
-    "pub": "Tue, 20 Oct 2026 17:04:09 GMT",
-    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.46,
    157.4,
    158.3,
-   158.1
+   158.13
   ],
   "uso": [
    128.85,
@@ -1735,7 +1735,7 @@
    86172.28,
    83622.43,
    85557.56,
-   82770.77
+   82751.36
   ],
   "vixts": [
    0.952,
@@ -2797,7 +2797,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-20T21:32:37+00:00",
+  "checked": "2026-10-20T21:42:01+00:00",
   "openai": {
    "found": false
   },
@@ -2814,7 +2814,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.46,
   "curve_bp": 33,
   "curve_inverted": false,
@@ -2886,8 +2886,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.1,
-   "usdjpy_chg20": 0.41,
+   "usdjpy": 158.13,
+   "usdjpy_chg20": 0.43,
    "vix_chg5": 13.36,
    "hit": false,
    "missing": []
@@ -2895,7 +2895,7 @@
   "dollar": {
    "dxy": 101.71,
    "dxy_chg20": 1.1,
-   "usdkrw": 1326.18,
+   "usdkrw": 1326.24,
    "usdkrw_chg20": -1.79,
    "hit": false,
    "missing": []

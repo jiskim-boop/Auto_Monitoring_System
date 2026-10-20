@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:12:12+00:00",
+ "updated": "2026-10-20T21:22:23+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 161.86,
-   "chg": -3.99,
-   "chg5": 4.39,
-   "chg20": 13.83,
-   "sma20": 149.5,
-   "sma50": 146.77,
-   "sma200": 143.95,
+   "price": 160.4,
+   "chg": -0.9,
+   "chg5": 3.66,
+   "chg20": 10.77,
+   "sma20": 150.28,
+   "sma50": 147.24,
+   "sma200": 144.08,
    "high3m": 168.59,
-   "reg": 161.86,
+   "reg": 160.4,
    "pre": null,
    "post": null,
-   "regClose": 161.86,
+   "regClose": 160.4,
    "sess": "reg",
-   "mt": 1792443620,
+   "mt": 1792530021,
    "ok": true
   },
   "^MOVE": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.71,
-   "chg": -0.26,
-   "chg5": -0.46,
+   "price": 101.7,
+   "chg": -0.27,
+   "chg5": -0.47,
    "chg20": 1.1,
    "sma20": 101.84,
    "sma50": 100.43,
    "sma200": 100.07,
    "high3m": 102.58,
-   "reg": 101.71,
+   "reg": 101.7,
    "pre": null,
    "post": null,
-   "regClose": 101.71,
+   "regClose": 101.7,
    "sess": "reg",
-   "mt": 1792530093,
+   "mt": 1792530698,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82796.36,
-   "chg": 1.15,
-   "chg5": 0.8,
-   "chg20": -0.91,
-   "sma20": 83207.04,
-   "sma50": 81567.01,
-   "sma200": 72651.22,
+   "price": 82831.79,
+   "chg": 1.2,
+   "chg5": 0.84,
+   "chg20": -0.86,
+   "sma20": 83208.81,
+   "sma50": 81567.71,
+   "sma200": 72651.41,
    "high3m": 86602.91,
-   "reg": 82796.36,
+   "reg": 82831.79,
    "pre": null,
    "post": null,
-   "regClose": 82796.36,
+   "regClose": 82831.79,
    "sess": "reg",
-   "mt": 1792530696,
+   "mt": 1792531303,
    "ok": true
   },
   "USO": {
@@ -1041,10 +1041,10 @@
   },
   "JPY=X": {
    "price": 158.12,
-   "chg": -0.25,
-   "chg5": -0.12,
+   "chg": -0.26,
+   "chg5": -0.13,
    "chg20": 0.42,
-   "sma20": 158.03,
+   "sma20": 158.02,
    "sma50": 157.67,
    "sma200": 159.23,
    "high3m": 163.86,
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 158.12,
    "sess": "reg",
-   "mt": 1792530701,
+   "mt": 1792531307,
    "ok": true
   },
   "KRW=X": {
-   "price": 1325.55,
-   "chg": -0.33,
-   "chg5": -1.1,
-   "chg20": -1.84,
-   "sma20": 1345.23,
-   "sma50": 1362.75,
-   "sma200": 1443.33,
+   "price": 1326.18,
+   "chg": -0.29,
+   "chg5": -1.05,
+   "chg20": -1.79,
+   "sma20": 1345.26,
+   "sma50": 1362.76,
+   "sma200": 1443.34,
    "high3m": 1464.44,
-   "reg": 1325.55,
+   "reg": 1326.18,
    "pre": null,
    "post": null,
-   "regClose": 1325.55,
+   "regClose": 1326.18,
    "sess": "reg",
-   "mt": 1792530107,
+   "mt": 1792530833,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Live coverage: SpaceX to launch 27 Starlink satellites on Falcon 9 rocket from Vandenberg SFB - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNVGROSVRDU2ZpNE9XVzRtMWhKUFR1aWFLazlEaFdGanZxNTFWaTZScHY5cG5uT01HZGZwWldYOHNRcVRjdXZzSjhSdVdQbU50cmtvVmxaNHhTY2FWeElwN0s1NktlT3hhbjNmTVphMXV5UTE5MldBeElVSWp5UmJrdWtQcXhiT1ZVQklJTDhXZ0FfemRjd2lLazFjOGFZR29VMkYxUzJkTFBFeF9Oa1pLZ0RYSmc3NnBTSmUtWGZlMzFjMEMyTmp1NXNOY0U3UQ?oc=5",
+    "pub": "Tue, 20 Oct 2026 21:20:03 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AFRL demonstrates Rocket Cargo delivery with SpaceX Starfall reentry capsule - Wright-Patterson AFB (.mil)",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTm96SDhTbG01OFRNU0Z2Z2pHODY3SU5NNnZQdGN4bkR2Wk1iM1dLRDMtYUxhQTYwN3d6QThjeTVGR0pOWmxVeklKRURNSkEwQmx1MnJBV2VLa1g5Yl9ua0NjNGxFekl0LXdKMXBtX0RZcENxckRMTEt5QWN5aG8xckdhY3M2SVFWdDlSUk1MdEUzeVFDU1FjOV9pZVBQMFpoN1lKOHdJQzZvcXo0bG5STnhxWGQ4TDRkanNvOEhKVUYzT0ZJZWtzaEJ0ZmJkMy1vaExpOHNn?oc=5",
     "pub": "Tue, 20 Oct 2026 21:09:39 GMT",
@@ -1335,14 +1343,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Hyperliquid Policy Center Asks CFTC to Allow AI Compute Futures - TOKENPOST",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9CRlpzcjRvd0lucmpDS1VhdVNzZFFWMV9vR2t1SmZqNzhKOUw3dWdpXzFQNjNZUDhhQmg0QUxabXp4OFpKaXZQVEJiY1FrbmdVa1YtRFZhbnhnbWs?oc=5",
-    "pub": "Tue, 20 Oct 2026 19:32:18 GMT",
-    "src": "TOKENPOST",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1371,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "The Safety Trade Gets Crowded: Wall Street's Next Bubble May Be Hiding in Plain Sight - The Dark Side Of The Boom",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZkVOTTR4OWVwejh4U2hMd05NTGxNSzhIcTE1VzNyZE9mWHVnVEFoWUxGQ3c2OTRKTmZnY2tNbFQ2MGl4YUtPNXpUY2NOeGZsX3JkeWdyNWMtdS1BeUEzWVVaeUZvMlhCR2RJQTlKcEVfTFBDRmtwZUhhWTNTV1JJeXBScDg?oc=5",
+    "pub": "Tue, 20 Oct 2026 19:01:12 GMT",
+    "src": "The Dark Side Of The Boom",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Sudan drone strike kills around 150 in Abyei market - DW.com",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQblNlSV83RmJ6UTJyMXg5YmZYeTQtRmdyTm5SY3FfMkpnbmU3MGhnaUpoM0FhQmhFMGlJWnU5bTBxRXZKRC1oOU42TW9aTS1GZVh2bXlvN19jc2xhSTZ5dWgzdVctNE1fRk1xTEhJdnZaajRXNWVYc0kzWk53QnF6UExpNmlEOGVXYWFYatIBjAFBVV95cUxOVElndHpZZW9HNjdKNDNVdnBYa2l2OGF1dXdoUU9XZW5RVl96bWRyTS11ZHN4TENYVnZnRlVGa1JNUjdIODBfMGNUUjhVN01OcVFtRGw2OWFTaW9aelhLZjNRMjE1S2xUTFhPaGtfd292Tk5oeGJ2RjkzMURSYk1PSDlqVnlfSlpKQzljRQ?oc=5",
     "pub": "Tue, 20 Oct 2026 18:15:08 GMT",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQVzhkTFJPazFWYWVLNVdyTkVnaVpZdXdfOTVsQjQ2dlVRVTYtNnlTSEhSc1I3R1ktbnhhdlg4VGdkU3Itcld5d1RNNnRIdF9LSXQxRGpTTUZEOGNRdlVoZWZZQkh6Xzl6NW5ucGJhYTlIRkNrcENVd1ZpTWVHQWlyWjJ3WGlyeElncmFVNmlWaVNXdlVMRmlGd0pzRmdEalFVZldVX0EwazV1ZG1hX2hxbzNESjZ5ZjdPaTFVU0VubG9ZV0lpOW1MZHh2NzNCR2JmM0F4d2MyRUYwM0gwVWw1N01BQVQ1azBtYnRGc0MwLWRlZHlmaUY1bk9XRUFqbkJsUVJUeUV5VlEzbjAyWDc5RWpRTQ?oc=5",
     "pub": "Tue, 20 Oct 2026 17:24:23 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Drone strike on market in Abyei kills at least 153 people — France 24 - UA.NEWS",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPUUJNZVhWQ01waERjRVVpNHVmZVh3Q01ZMTliZmVRYXF6M2F2T0lkeTgxclZxTTdEanRsYlZsVmhNVXRTY1paWWVmd0w5b3M4UG9YaFAxbXY1OXdOSms0YnJ6VEs0Z2V6eDVuSmhBUU04amw3WDluVTRMcWw0eklPRXBBUDlvRldQaWpCZkNlZGlTMHdhVEsxYmQxUEd0d3ljaXU1VnFpeTE?oc=5",
-    "pub": "Tue, 20 Oct 2026 16:39:44 GMT",
-    "src": "UA.NEWS",
     "trig": false,
     "geo": false
    }
@@ -1421,6 +1421,14 @@
     "geo": false
    },
    {
+    "title": "EU Stands Firm Against Arctic Oil and Gas Drilling Despite Energy Crisis - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQX0gyS2pJYjQwMlpiVy1EX0k4M2pHVTJ2ejU0ZGFMTkNiZjRaU1k2VnZYeTIxRlNLNnRYRlpsNVNqRVpqT2JmdzdPQk9EV012eXE5VkRlVko1QkRhRUw2cWdyaEFBa2k3QThGS1hXR1ctVHd1Q3IxQUFXa2pzMFlkWW5NMHlZTWN1QVRYckJiZ2VlZXA5eVQ3cXRCeGJBX2Nkd3lvSnlsNFJFWVpEVDE2N01BT1hBVDNyZWFUZ2tGaEQ5UDNLYmRB0gHMAUFVX3lxTE04Yjhxc0ZJVlJiY0ZneFJlWTFya0tqemNGYmRHT3pPLWtRY3d2Z0UtUGQ5TXJUNDdEeFdZLXhKT3E2YlEtd3AtbWlMQWRpUXhFSFBYMTZOTTVfQzN3cWp0U1hqNWxDdDdVMU9lakUyTlBwRXFPQm11VkJ2NEhabk5Vc0tOaFlNYnBwQ0U4d1R4eTFYWGtyTU4zMmF2SmwwOGVLWlB6clMxWUVSZlNsU2lsVThRVEh4VUlTSkQ5aVlmRGVQcHBVeU9OVWtkTA?oc=5",
+    "pub": "Tue, 20 Oct 2026 17:45:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "LME Copper Options Open Interest Climbs as Futures Prove Too Volatile - StoneX",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNUURBVXVmTXJQOUdQTW5PSEJ5eHN0bjAySEdPWjhBYU1YdEtaeGpEV2V3Z3BSdEsyMW5xQkZWaDFZOVRJamJBdEthQks5WjdFMXJIX2NVOC04aTl1a2RzVl9jRk9QYlU3ZDNNa2l0VUp3SzRWTnhpblo3amFFbWZoNDd2QjNDSlRYWUxDUmkzUEZ3NkZ5eUx4am42Y3JmLWMzbmwwcVFGN18?oc=5",
     "pub": "Tue, 20 Oct 2026 17:33:46 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rTUlwQUZDRU1uLS1LYTNKdWdDSG5xUGxVaGVDTk9ESXhNczk1UHE1UXZoaE9EQTlJeTFVSmhhWUlyVWlmM0ItYkZyQ0lCd0U2NnNyX0ZMYUhYLWdCYjdOcnV3?oc=5",
     "pub": "Tue, 20 Oct 2026 17:04:09 GMT",
     "src": "Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "In The Shadow Of Copper -The Price Of Mining In Serbia | Dw Documentary - Modern Ghana",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1DRFZQTUQtcUMtd005NEV1Y2oyWndManNfTmFmTUk3WVFSaEw5bTkxellLY2F2bjdLZEJwYVVWV1VGUEhOd3F3d3BPc003cHUzRWFPSTlaSFItZFRwZjNYQ2JzaHpyd9IBXkFVX3lxTE45VWNTWFpBSlV0NkxHdUNvYW4wSUs4U1NxOVM0Q2NhVktHWlFvMEE1YWc5ZUlDWkRnRlh0Q3FQYlIzaGxfdkJLWFR4NjFOMXpPbUlMQVZVQVBSVVAwNnc?oc=5",
-    "pub": "Tue, 20 Oct 2026 16:27:20 GMT",
-    "src": "Modern Ghana",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.46,
    157.4,
    158.3,
-   158.14
+   158.12
   ],
   "uso": [
    128.85,
@@ -1735,7 +1735,7 @@
    86172.28,
    83622.43,
    85557.56,
-   82787.1
+   82845.09
   ],
   "vixts": [
    0.952,
@@ -2797,7 +2797,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-20T21:11:58+00:00",
+  "checked": "2026-10-20T21:22:06+00:00",
   "openai": {
    "found": false
   },
@@ -2893,10 +2893,10 @@
    "missing": []
   },
   "dollar": {
-   "dxy": 101.71,
+   "dxy": 101.7,
    "dxy_chg20": 1.1,
-   "usdkrw": 1325.55,
-   "usdkrw_chg20": -1.84,
+   "usdkrw": 1326.18,
+   "usdkrw_chg20": -1.79,
    "hit": false,
    "missing": []
   },

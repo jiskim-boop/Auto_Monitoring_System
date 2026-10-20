@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T21:22:23+00:00",
+ "updated": "2026-10-20T21:32:58+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.7,
+   "price": 101.71,
    "chg": -0.27,
-   "chg5": -0.47,
+   "chg5": -0.46,
    "chg20": 1.1,
    "sma20": 101.84,
    "sma50": 100.43,
    "sma200": 100.07,
    "high3m": 102.58,
-   "reg": 101.7,
+   "reg": 101.71,
    "pre": null,
    "post": null,
-   "regClose": 101.7,
+   "regClose": 101.71,
    "sess": "reg",
-   "mt": 1792530698,
+   "mt": 1792531315,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 82831.79,
-   "chg": 1.2,
-   "chg5": 0.84,
-   "chg20": -0.86,
-   "sma20": 83208.81,
-   "sma50": 81567.71,
-   "sma200": 72651.41,
+   "price": 82792.48,
+   "chg": 1.15,
+   "chg5": 0.79,
+   "chg20": -0.91,
+   "sma20": 83206.84,
+   "sma50": 81566.93,
+   "sma200": 72651.19,
    "high3m": 86602.91,
-   "reg": 82831.79,
+   "reg": 82792.48,
    "pre": null,
    "post": null,
-   "regClose": 82831.79,
+   "regClose": 82792.48,
    "sess": "reg",
-   "mt": 1792531303,
+   "mt": 1792531917,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.12,
+   "price": 158.1,
    "chg": -0.26,
-   "chg5": -0.13,
-   "chg20": 0.42,
+   "chg5": -0.14,
+   "chg20": 0.41,
    "sma20": 158.02,
    "sma50": 157.67,
    "sma200": 159.23,
    "high3m": 163.86,
-   "reg": 158.12,
+   "reg": 158.1,
    "pre": null,
    "post": null,
-   "regClose": 158.12,
+   "regClose": 158.1,
    "sess": "reg",
-   "mt": 1792531307,
+   "mt": 1792531919,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1326.18,
    "sess": "reg",
-   "mt": 1792530833,
+   "mt": 1792531913,
    "ok": true
   },
   "^OVX": {
@@ -1337,10 +1337,10 @@
     "geo": false
    },
    {
-    "title": "OpenAI valuation odds jump after $30B raise report (OPENAI:Private) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOb3lDMGZUNk5ZV1YzUTRnMVZBNGEtYU9oNWNacjM5WXl1eDhhaW04Q0tLRjJ3M2x0ZEVBMk9mSFJlMmFJZkNKYjd0M3FBa3VXcFBrT3F0ZG03SF94em9VNUp6OWZ1RmRkSUloTzI3enhFVWZETHlhaXNZTFQ4SGlwbkN5VW9XSTNUYkZZb0R5TVU?oc=5",
-    "pub": "Tue, 20 Oct 2026 19:34:09 GMT",
-    "src": "Seeking Alpha",
+    "title": "Anthropic revenue hits $16.3 billion as preliminary S-1 outlines IPO risks - WSJ - Investing.com",
+    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPV01vVFJFczZpUUJmOFVadllTVFFKa3VpRHRNN1RUeXNxd1d0Y29rTXFrWUh3OHJPWTJDc2pjYmtJTXdhSUQyWFNBYy1PZk9vTTdzQTg1UV90R2QxNlp5cHAya3BUdkVYdkZmZnBObFNhNTh4YW4ySVk4Ri1SUFlQQ0pzNVp3T0xYMXBab05YZUlmVnppLVFFSFM5aXZyRUd2bS1jZUhsXzVVVTQyN0YzaFFrWFlZWm1yQVVhN0NRc2xmeG1FN2hFb0stY3dWQQ?oc=5",
+    "pub": "Tue, 20 Oct 2026 19:48:28 GMT",
+    "src": "Investing.com",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.46,
    157.4,
    158.3,
-   158.12
+   158.1
   ],
   "uso": [
    128.85,
@@ -1735,7 +1735,7 @@
    86172.28,
    83622.43,
    85557.56,
-   82845.09
+   82770.77
   ],
   "vixts": [
    0.952,
@@ -2797,7 +2797,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-20T21:22:06+00:00",
+  "checked": "2026-10-20T21:32:37+00:00",
   "openai": {
    "found": false
   },
@@ -2814,7 +2814,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 33,
   "curve_inverted": false,
@@ -2886,14 +2886,14 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.12,
-   "usdjpy_chg20": 0.42,
+   "usdjpy": 158.1,
+   "usdjpy_chg20": 0.41,
    "vix_chg5": 13.36,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.7,
+   "dxy": 101.71,
    "dxy_chg20": 1.1,
    "usdkrw": 1326.18,
    "usdkrw_chg20": -1.79,

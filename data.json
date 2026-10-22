@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T21:22:17+00:00",
+ "updated": "2026-10-22T21:32:41+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.64,
-   "chg": -0.14,
-   "chg5": -0.36,
-   "chg20": 0.34,
+   "price": 101.62,
+   "chg": -0.16,
+   "chg5": -0.37,
+   "chg20": 0.33,
    "sma20": 101.89,
    "sma50": 100.5,
    "sma200": 100.12,
    "high3m": 102.58,
-   "reg": 101.64,
+   "reg": 101.62,
    "pre": null,
    "post": null,
-   "regClose": 101.64,
+   "regClose": 101.62,
    "sess": "reg",
-   "mt": 1792703490,
+   "mt": 1792704114,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81428.92,
+   "price": 81432.14,
    "chg": -3.07,
    "chg5": 0.06,
    "chg20": -3.63,
-   "sma20": 83018.8,
-   "sma50": 81784.63,
-   "sma200": 72723.83,
+   "sma20": 83018.96,
+   "sma50": 81784.7,
+   "sma200": 72723.84,
    "high3m": 86602.91,
-   "reg": 81428.92,
+   "reg": 81432.14,
    "pre": null,
    "post": null,
-   "regClose": 81428.92,
+   "regClose": 81432.14,
    "sess": "reg",
-   "mt": 1792704094,
+   "mt": 1792704720,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.77,
-   "chg": -0.86,
-   "chg5": -0.87,
-   "chg20": -1.29,
+   "price": 156.79,
+   "chg": -0.85,
+   "chg5": -0.85,
+   "chg20": -1.27,
    "sma20": 157.92,
    "sma50": 157.6,
    "sma200": 159.21,
    "high3m": 163.86,
-   "reg": 156.77,
+   "reg": 156.79,
    "pre": null,
    "post": null,
-   "regClose": 156.77,
+   "regClose": 156.79,
    "sess": "reg",
-   "mt": 1792704094,
+   "mt": 1792704718,
    "ok": true
   },
   "KRW=X": {
-   "price": 1325.69,
-   "chg": 0.01,
-   "chg5": -1.14,
-   "chg20": -3.05,
-   "sma20": 1341.22,
-   "sma50": 1359.07,
+   "price": 1326.1,
+   "chg": 0.04,
+   "chg5": -1.11,
+   "chg20": -3.02,
+   "sma20": 1341.24,
+   "sma50": 1359.08,
    "sma200": 1441.19,
    "high3m": 1453.16,
-   "reg": 1325.69,
+   "reg": 1326.1,
    "pre": null,
    "post": null,
-   "regClose": 1325.69,
+   "regClose": 1326.1,
    "sess": "reg",
-   "mt": 1792703988,
+   "mt": 1792704595,
    "ok": true
   },
   "^OVX": {
@@ -1305,6 +1305,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI closing in on new funding round at $1.25 trillion valuation - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNOTh6dkZRWDRmTkFNY3Z1UFdlUEw2dkt2c0cwc0ltR3dlUXhHVWtyRm5PRHY5S2h3LVBqbS0zMER3X1V3Tlg5VTJQbEZWOW1YQjU1dGc3bTNSZ3FRNmhlcXNuTE13clJ4aHJSZ1dtQkNiT2N3RHdDNzkyMHFFd3hEVGppRU11eV80NmFRc0M3aENqSXRtdlNVMEtaWHllMklkQTdFNHZvaklvakdfNEpZamZqNDk?oc=5",
+    "pub": "Thu, 22 Oct 2026 20:34:57 GMT",
+    "src": "CNBC",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI nears $30 billion funding round at $1.25 trillion valuation - Investing.com",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOOV9hSkNKUHN5RkplRXJoMFQxWjFWTW15OUZ0cG4tSkEwYXVTWEJYRWFzbEVmRWxEa01HcTlVWVFJTDNySlpsZ2tnTFJBREhZSEZHOEdzaHN4LTR0Y3FRcmVjckJwQXRJV0tHSlI4dl9sZnhuMkxONjRSd1E3NHY1UVZCYnBYSU10a2tydTZIUVNmSWluY291TTF4ZHhLSURXVmVSenZHZWtReU9VVWIzQzQ0dG9mTWdkY3h3QQ?oc=5",
     "pub": "Thu, 22 Oct 2026 20:34:31 GMT",
@@ -1335,14 +1343,6 @@
     "src": "TradingNEWS",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "OpenAI nears up to $30 billion funding round at $1.25 trillion valuation led by UAE investors - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE4yWm1VRnpOb00tR0ZfUDVmaVh2S1dyNVhia0J4OWJ5anpxRUUtbjhHX19IbHZDUEdlVEc4OEE3aHQxNGw0ajhwR0ZDTFdPcC01YzZ6My1HVW84bzFzRHpnNGdkNnRCSnVrYTZMcnBGMjZVd0tIVUI5cWkxQdIBgAFBVV95cUxPeVdKRHhVdHUwa3ZfVkMxQm1od1YycVNSZURFaU1yeS1jUGhUNVF6MTh1aDdObmNuUks4d2k3empTZFNGUnFmZjYzNWR2VTJNbnlhNzI0dmpZZ0ctR3NwT05yTGdqRU5yaGFzX0FWVFpNY1BnbmVMaldMU3NZXzh1OA?oc=5",
-    "pub": "Thu, 22 Oct 2026 20:15:19 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1371,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "Oil prices top $113 on worries of Iran-US escalations after midterms - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ1lrWWZEZzJjT3ZLejlfMHVYXzhoWkMtMWlJMzZEelp6aWNsNk5wZU9mOFBwZDFhUi04SnpjTU1WQ3NndjZXeUJUNl9sTXBWakw2TTRRN2NWSGVmME9sWnpLcVZreVFfS25heWdwRk16RDZSRzhxbkFxckNxR3NQV244SEF1Yk5HaWJ0c2dVV0xFZnhzRGlzU0l0cm5Bb1dSTlk0NnIwZWhrbEJHdmdLangtUnAwcHJqTmhVTFFVUlFYTFpBb0pOYjlB?oc=5",
+    "pub": "Thu, 22 Oct 2026 20:04:36 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Market shows unusual patience on low oil inventory and geopolitical risk, Rory Johnston notes - Traders Union",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQYjk5NDJKOW55bjdkc19UMklfbWJ4a0NRU3JneUtJazNuUFI1bTBsNFppbWx1aURtaThQMkNnNktyTzZnU3paSVMxSENoRElabnVoVGJGTXFWU3oxdmRyNlFxc0FWRzlxaDdXVEFyaDRnSGVBbXVaNVZrT21tdThfejZ4ZWMwX3dCQ3c?oc=5",
     "pub": "Thu, 22 Oct 2026 20:00:34 GMT",
@@ -1385,14 +1393,6 @@
     "src": "Bloomberg.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Sensex, Nifty decline as geopolitical tensions and rising oil prices pressure markets - DD News",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnEtOEpza2RBX1U2Z3VETVNvOG5wcW9yYXJscFY1Ql9YbjNRZDctR2thT08zclRnbzVVSmtvN29UMzdTSGY2MzBtSnFpRWhlU3lFZVRYNk13UEdRakRYR09wR28tYmJldHhDZjVOZDFwZTg4engxUVVWci1NWU5STGhNR0JtdndtX2dXU21tenhlcU9ZWUE4NGI2YWE2bFZBNFpaeXdWTnhNeHdZYlF3?oc=5",
-    "pub": "Thu, 22 Oct 2026 18:32:11 GMT",
-    "src": "DD News",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1401,6 +1401,14 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxObk14cVFZWWtrMGF3MXp5N0RLVm1kejFHclNXQVRwZXZaZk1Ickhybjl2dG9nMkt2cGs5MngtQzJPeTBrSGhGaXhTcWJWRHplc1FpbF9XcUp5b25TclpuQUtvMTFPLUVMQ21nSTFRclZFOXAwWEFuVXpicjlMNnh5aVRtRG91QmhpWjV3RDFWN2RhOTZhSVhRUTNJZ0NZcmNLUjY3ZjRuN25Ba3FORXFEZTk4TklPc3pVanNSYV93?oc=5",
     "pub": "Thu, 22 Oct 2026 20:24:39 GMT",
     "src": "KARK",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil prices top $113 on worries of Iran-US escalations after midterms - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOZ1lrWWZEZzJjT3ZLejlfMHVYXzhoWkMtMWlJMzZEelp6aWNsNk5wZU9mOFBwZDFhUi04SnpjTU1WQ3NndjZXeUJUNl9sTXBWakw2TTRRN2NWSGVmME9sWnpLcVZreVFfS25heWdwRk16RDZSRzhxbkFxckNxR3NQV244SEF1Yk5HaWJ0c2dVV0xFZnhzRGlzU0l0cm5Bb1dSTlk0NnIwZWhrbEJHdmdLangtUnAwcHJqTmhVTFFVUlFYTFpBb0pOYjlB?oc=5",
+    "pub": "Thu, 22 Oct 2026 20:04:36 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1429,18 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Gold slides as safe-haven demand shifts to US Treasuries despite lower yields - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNR3R0a3pNU2ItV205c3pIcGlQQTA0VzRkVVh5VVpZV3pPanRCZ0FuNHhiZFdUeHpuNlE1RFBKbUtXSlYzemZPbTBWR2NVOHJnd0ppd05FbWdVNklDR2NHVi15OUpkNjBsTXg3eTdxN3hsZ3BlVnYwbEV3bDFnRXV6cmo2WVFzd2RLX0g3T3htYzNwVVRDMDl1X0d1eGV2OFZaeDJrMzBPLVlpTUlTclhZeDdHMHVpM3FKR0ZrYg?oc=5",
-    "pub": "Thu, 22 Oct 2026 18:37:32 GMT",
-    "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Copper Price October 23 2026 - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUmJoUHFrMlh3VGpLV2hWdTNQRzA3RkdiUXJBRC1TZXR6WUlud01sT0pkVWhPNktvOUNURl9xR3ZkZVhtV3MtYXRYZ2VWYzVIM0xGcFpsVXl5dnhwMmNfRFByX2lkZ2lQaUNLSHZvTzBubHluczN2QUlXbHBkU29KMVIyME1pNEYycTV5N2hGNnRpZGRoblBRUTZtdUNhWDFVTVJkcA?oc=5",
-    "pub": "Thu, 22 Oct 2026 18:35:38 GMT",
-    "src": "Robinhood",
+    "title": "Oil Futures Settle Lower in Volatile Session - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPTUxmM3AtZ2FXSDFNbHBRTVlickI1OXNDdU1BeGZwOHZ6NVd5SW9RaUx0ZFlMTGVTN3J1QXFzUEc2Z3JOaVFzTTRQV1VXVVVpTktIaV9HYnU3Z2U1UmJCZExNdlZiWlhyMzlJRmh3X0Z5bHhNYW02R09JbE1nSWxEVW9hbXFsdTZuOVVuVjVvYlFEazFqR012VU40cTdnS096MmFQY1h0VQ?oc=5",
+    "pub": "Thu, 22 Oct 2026 19:09:18 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    101.29,
    102.1,
    102.14,
-   101.64
+   101.62
   ],
   "bizd": [
    12.3,
@@ -1675,7 +1675,7 @@
    158.81,
    157.93,
    158.06,
-   156.76
+   156.79
   ],
   "uso": [
    139.49,
@@ -1735,7 +1735,7 @@
    84379.06,
    84853.1,
    81676.34,
-   81428.92
+   81425.01
   ],
   "vixts": [
    0.808,
@@ -2797,7 +2797,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-22T21:22:00+00:00",
+  "checked": "2026-10-22T21:32:22+00:00",
   "openai": {
    "found": false
   },
@@ -2814,7 +2814,7 @@
  "fragility": {
   "margin_mn": 1453832,
   "margin_asof": "Aug-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.46,
   "curve_bp": 31,
   "curve_inverted": false,
@@ -2886,17 +2886,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 156.77,
-   "usdjpy_chg20": -1.29,
+   "usdjpy": 156.79,
+   "usdjpy_chg20": -1.27,
    "vix_chg5": 15.61,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.64,
-   "dxy_chg20": 0.34,
-   "usdkrw": 1325.69,
-   "usdkrw_chg20": -3.05,
+   "dxy": 101.62,
+   "dxy_chg20": 0.33,
+   "usdkrw": 1326.1,
+   "usdkrw_chg20": -3.02,
    "hit": false,
    "missing": []
   },

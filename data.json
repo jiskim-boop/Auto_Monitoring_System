@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T02:12:09+00:00",
+ "updated": "2026-10-24T02:22:02+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80817.5,
-   "chg": -0.61,
-   "chg5": -1.46,
-   "chg20": -4.66,
-   "sma20": 82815.64,
-   "sma50": 81773.21,
-   "sma200": 72707.17,
+   "price": 80785.85,
+   "chg": -0.65,
+   "chg5": -1.5,
+   "chg20": -4.69,
+   "sma20": 82814.06,
+   "sma50": 81772.58,
+   "sma200": 72707.0,
    "high3m": 86602.91,
-   "reg": 80817.5,
+   "reg": 80785.85,
    "pre": null,
    "post": null,
-   "regClose": 80817.5,
+   "regClose": 80785.85,
    "sess": "reg",
-   "mt": 1792807892,
+   "mt": 1792808487,
    "ok": true
   },
   "USO": {
@@ -1247,18 +1247,42 @@
  "news": {
   "credit": [
    {
-    "title": "KBRA Assigns Preliminary Ratings to US Signal Issuer LLC and US Signal Co-Issuer LLC Series 2026-1/2 - Business Wire",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPUTRENDczekRCQmRnVVFvWkhhSkplUG1kLXhWOS1fWEpOZFhHWWFUaTZLTmpHdGdzbHpid2w0OGRlLW1mRWdYc3FtSERxRUtRaGVtSG83OXhxcURMcHlqNzJ5b3hMR29DdEwzZm1GaGZSeXFaRl9fT2YyQlRLY0ZFWnNXV2Z2TG4wX3lES1lweTRsdVNjZTVoV1ZPTXFURi14alpTcHNDSFNsdWpSLUVJWjBoMU9XSTBPekwzZ1U5ZmRNYk44XzFzRThNakZJTVJUN2xLcGFVQll3MGYwY1dCdFJCS29MdXBhOGFwYQ?oc=5",
-    "pub": "Fri, 23 Oct 2026 21:02:00 GMT",
-    "src": "Business Wire",
+    "title": "PHP, Node.js, eMudhra, and LiteLLM lead busy week for security teams - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSm1MZFJsdWg5UENyN0NacVBrbXNFODg4cWpWelpuV2xMdzJRZFpJUjBrUXA0bllaNU1OWUtveVRRYjNwUzFNSG9GMXgyWUt4N1o3a2htb29ZWkhTVHJrUU9xaTJtNE90QUEweVZGemhPemtFUl9HWTVYSlV0d3psZzkzZzNUbjluWmhsMFUzZkZ6RnNveTBkTGJsSlBvUDRYeDcyLWJLNFJja245cFgyOHhZbVBFWnRQV09MS2RB?oc=5",
+    "pub": "Sat, 24 Oct 2026 01:15:50 GMT",
+    "src": "ABS-CBN",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Golub Capital BDC Inc. R (OGL.DU) Q2 FY2026 earnings call transcript - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeTY3UDFDYXVxU2p1Nl9pbGNoaEpfSjZ1UzB3Nm9ONW5uQ2NuVVdjVWJCYUFyLXhvUWlrSHd2TzZfMngtcE52eWQxTDBZOXJSYnJWcy0zcFhkNExDaGtnaFJLS2tCUGJ3aHd3a05EZkZ6QmFxeW4wRFUzZDY0c2xsWU9MV0hZYUNVYk9Ub0czMTJvZw?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:28:54 GMT",
-    "src": "Yahoo Finance",
+    "title": "Private Equity’s Stale Marks Fuel Debate Over Fairness, Study Finds - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVNOeng2ZlJBRmcyZ0FmZ3lJLUh1YjgtYmlfU2tGUmthSHJWV0tHMlpsMXNUT3RHb01pVzZXRW8zN3RwTDJSN2pfVTBDVVBpTGRSc3FiRFU5M2RZQjJTUXp4bURFR0RhekhPdHFubzFZMk0zUzI2bUVLWllJanRjbVkyS0hTMVJDbjZEaFFmdUJuR053bHhlZ2k1TnEwcE9TNlJVVV9NUFdXVjhuZFVaU0g5NWE?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:14:23 GMT",
+    "src": "Bloomberg",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "KBRA assigns preliminary ratings to U.S. Signal data center ABS notes - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXp0RTlGSHNxalpuT19Gd1ZHb3BHbkM4dXZVRHl1Q3BhWFBBT3NRN0xIVDRVc01GVFdkWTU3ZjJlcXV4cmhXU0wzOWd0cE02OVpZY1pIdFFBODFOMmZzN08wZW5RelNvWmd4VWNmanYtU2p0V0pVZDNON0Z1Rk81RC1vMGJIN3ZGYmRoX1dLS3ZoYmhw?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:23:31 GMT",
+    "src": "Traders Union",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "First Eagle Private Credit Fund Class I And Class D Nav $23.51 Per Share As Of Sept 30, 2026 - SEC Filing - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ0s1UDVwczhoMGNSZE9nNTNTUFN6eVRZQnV5dWlUcHVBcmJPbzQ5cDhMcFhZbTY3dEwzazE5ZklhSWpYSHQwMGdiYkNtWDJrQWE5dk9ibFYyNkxQZzNnVmVGMjhCLUxoaHkxa09xMlB1Y2o4ZGdLVm9ESGVKWlBad1lVVnRXRmRoZVFGZjhGT0ExR1Z0S3p0ZDR5ZEtBcGR0NmVuRUZqV0pJbzFpZlpnUDF5dmdxNWktdGdqSFctTUc1YzdObm5FVEpMdUpzY3g1OTgtQWNqU1hUMlpIS2l1NVNsVERrVDNac2UyRy1TX05VSXZMZ1B0TWxCWUVUM205?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:17:23 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "KBRA Assigns Preliminary Ratings to US Signal Issuer LLC and US Signal Co-Issuer LLC Series 2026-1/2 - FinancialContent",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOMnlBYUJsRVkwMGYxSEtTWVRIVDhDc0V5cGg0UEdHcTBsanAwVWp0UmJrc21CWDJCZmhWSER1X1BOMFpUYVd0QWdtRDFMZDNwSEZnektRSzlxcEg5dmJYcU8xdnlMVVR3b2NwbTBjaUNRdno0bDZBc2FSRWQ1Ri1tcDIydHJtNUYwMGtvWmNHY1lpUkZpOHl6MjkwOWFCSXd5a09XTkw5ZTFoMVRybTZkYlItRHJPOTMzU1VLMlRMcVladjludG9wRXI0cXY5OEZPTEo4alZRZ3ZreXprVVFMWHBiLWJac1VSYnZNY2otbzM?oc=5",
+    "pub": "Fri, 23 Oct 2026 21:02:00 GMT",
+    "src": "FinancialContent",
     "trig": false,
     "geo": false
    },
@@ -1267,30 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1JGbmhfX3I2VXNRc2hWbl9MVENSN0QyMXdycm9qOE1uM1J5RkZRS2pHS19BMElhWFpTaEs0bGJ2Y3RZeEx5ajN1M3gxZjk1a05IQ0c1TUxlMnM3M2VWakhVM0EwR0tTVXNhek40T2hqYmNKOV91bGk4SVh1RUNfMndxejVNUVQzT00tQmRXbmN5b1ZUckN3ZXJqOVNPT29UOUs1VkZGVUZOdmNXNGZRRGpSbnNIU3Az?oc=5",
     "pub": "Fri, 23 Oct 2026 17:05:46 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "PHP, Node.js, eMudhra, and LiteLLM lead busy week for security teams - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNSm1MZFJsdWg5UENyN0NacVBrbXNFODg4cWpWelpuV2xMdzJRZFpJUjBrUXA0bllaNU1OWUtveVRRYjNwUzFNSG9GMXgyWUt4N1o3a2htb29ZWkhTVHJrUU9xaTJtNE90QUEweVZGemhPemtFUl9HWTVYSlV0d3psZzkzZzNUbjluWmhsMFUzZkZ6RnNveTBkTGJsSlBvUDRYeDcyLWJLNFJja245cFgyOHhZbVBFWnRQV09MS2RB?oc=5",
-    "pub": "Fri, 23 Oct 2026 15:17:46 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Linden Capital Partners on why healthcare CVs are gaining traction - PEI Private Equity",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWdsanM1azctMzJlMWRpdE1fNW1qLW9KTk5nSHBEUlktTVRxcHFEX2xTNTNULW85cExpZHNrTHFKVm51d05tQmc0czZsNmJ2Skx0V1lyQ1dRYmFldmQydWtVdWhCNmpFWkFmS0p2TVdJMFRPUzJWOVVFeC1UT2dZV1doa2t6THJJbkNhSTl0UlBHTzVfdXktdTlnVDg2cHdGNHMxSEVaRVR4bjc5akhZ?oc=5",
-    "pub": "Fri, 23 Oct 2026 14:51:07 GMT",
-    "src": "PEI Private Equity",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "S&P Global Ratings launches data center tracking dashboard - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPMVg1dVU4WWJJNUQtYU5PYWE2OUZCYTRULXJwbkFZQnppSDAzenNKRHlpa0ZfYW5lbXN4QUJsZUN3QzMtXzhidGZXUG1OMjhfQXRrYWlfaTd5UkxuXzMyVmYxY0o2VEIwWXpNLThpcU02alVoRG1XRnlWU3BkMnJ3bllwOFZBT2FnZUNraU5KZjdEVnJrR3BMRDhkY1JYQUd3RFpfa05rSENfWlZQSnZscnZqT3A?oc=5",
-    "pub": "Fri, 23 Oct 2026 13:45:57 GMT",
-    "src": "Investing.com",
     "trig": false,
     "geo": false
    }
@@ -1329,18 +1329,18 @@
     "geo": false
    },
    {
-    "title": "The Final Hurdle in Turning Semiconductors into Oil... What Are \"GPU Futures\"? [Tech Talk] - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UYzJsRTRjclBLdm1LYlB1WmJOSDRaV0s3MFo2VDd3S191Tzc3eGJYZ3RIMUtiMmE4c3lNVkVHczBfSUI4ZnVBdkFOU0hDNVVXYXhjXzNtZ01NNUNLZTYzVzFJaEc?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:14:00 GMT",
-    "src": "아시아경제",
+    "title": "Nutanix and Supermicro Take on Runaway AI Costs with Jointly Engineered System for Private Inference - HPCwire",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQTWlBcWJ6TEplZDVaVjNBU3NJcTB1Q2tCckhMY3p5M0VEV2JVUTlSQlNHVGVnd1Z1Y3dORW5EYmRma0UwekJnalR0TVV6RW1BczNYdzdNWTVwZ0tSamZjVmoyTzRYa0hSWnEzdWp0NlV4Wmdhb1NHOGZ3VWJiQ1VWOHRVa2JNYTBkLXU0NDBaaHZUcmphdUZ4c2ZISkhoTFhmWlZwWmRBOVQtUlRJLXRrTjRsX01YS19XRVp5NTRBWktlcFRNX2RJcmVBNXNvdFgzdUg0WENaSnhsMU85Z2hqcWlZZkc?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:36:34 GMT",
+    "src": "HPCwire",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Anthropic IPO is biggest question mark for entire market: Vital Knowledge's Crisafulli - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcENaNDR3dGQ2VVB0Q3RLMS11MEJaOTdORXpvOGdWRUowYk9xdHFxSzRfQVRSOTNqM1RKeXlFT0lVZjhwWUJXcEtyYmxQSi1RYl9pNDJUYkFudWJnelFXeWUzUGE1RUVvbk1xeGZ0UHF1M2pkdmlibXJsTS1PWmxmQ0pGVndGWnhSaF9HYVpRMUFEanZpNVJReDhVME1Ec2UzWVJwUGYybENhS1pRSTlibUxwSXlsbHkxUXBlTnJJS2FMdHFZUGc?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:06:56 GMT",
-    "src": "CNBC",
+    "title": "The Final Hurdle in Turning Semiconductors into Oil... What Are \"GPU Futures\"? [Tech Talk] - 아시아경제",
+    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UYzJsRTRjclBLdm1LYlB1WmJOSDRaV0s3MFo2VDd3S191Tzc3eGJYZ3RIMUtiMmE4c3lNVkVHczBfSUI4ZnVBdkFOU0hDNVVXYXhjXzNtZ01NNUNLZTYzVzFJaEc?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:14:00 GMT",
+    "src": "아시아경제",
     "trig": false,
     "geo": false
    }
@@ -1387,23 +1387,15 @@
     "geo": false
    },
    {
-    "title": "Global Oil Price Hits $116 a Barrel, Highest Since April - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONjZmQ1hOTHp4RFVzdWVRRWdzYnFPeEExcnNLS3J3RlRlc3A1OVprRXoxck1hUy1iejdTSGtucjFVSFFSQzFSelg3ZjFmRzNPSDlMdU1OX3F1YUJmZVBjNnY2Ykx3LTV4Q2VBZHRkQmJqcTRubnpqSTFKa1V5b24walJCTC1nT2ZfQ1hJalg4aHo?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:03:29 GMT",
-    "src": "The New York Times",
+    "title": "How to Use Prediction Markets Before a Fed Decision - Barchart.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOS3IyTjRaWHFVRzhkVG4wS2tORVV1VktJcktqZHBfMXlOMWpYZG4xYXBIbDZvQmh2N3VuR2hHSWpaRkV0ejE0bU01SXBXSXluVldkVFQ4SUZqaDNSNnF3a2NuUDhibmhiVnBEQ1k3dW5udXJoRlBMa0hRR1drMHh2czctQXk2eURGOFIyNGJxTmxxMG5QcjdXR2lPSQ?oc=5",
+    "pub": "Fri, 23 Oct 2026 20:21:44 GMT",
+    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "Oil Futures Post Weekly Gains on Middle East Escalation Fears - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUprNnpxZE5idzlOR3htMEsyS0FmSHFfUi1EZ2dpZEVzNGd5ckRsQnVob0daYXdVMzZBbm9YdFBHQk5fV0NIeU5oZjZZdDdCY0FGbXRoUXNtblo4UmF2OUR6VG54LW95ekJ0eFNPbjBRUGp6R1F0S0xsdEc3MmZReXpCT0lIUmxyR1Npd2pYMlRFb3RndXBjU05OTXM0bFBmazFkY09lcnVJUG1LU3ItNlJpYnl5X01x?oc=5",
-    "pub": "Fri, 23 Oct 2026 23:11:45 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Copper price rebounds as inventories, stock markets stabilize - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVRDWXFQeXhaWC1lck9NcUNsSTdWN3ZhSTNPQndWR0x5UlBabXdSRm4yLVZ2UF92V0JjLTlFLWt5SDF2NTlDYmtCUFlKcUJnZVREdG9JZC1MVTF0d1dpamFXMTFEWFpBUHJWSWlyeXZudkZzUjF2RmFOUl9HeFM2NENRRHdScFdPX052dEl5WHFtQQ?oc=5",
@@ -1425,6 +1417,14 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwWE1xZzVvZ2dLQTM1TnFySHVianFuS0c1T0M5UFNMOU90MXcwUmdSenBjcHpObDc5TW1FQWVsZzZTZVlMc1lJUll2SVJWRk9XMjRYT21DeENIRlJiUUZrUmtoa1pmTV9sbG01eC10cEQ3X3dabGNkZVhQQnotYUk?oc=5",
     "pub": "Fri, 23 Oct 2026 20:51:45 GMT",
     "src": "Boston Herald",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Futures Post Weekly Gains on Middle East Escalation Fears - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUprNnpxZE5idzlOR3htMEsyS0FmSHFfUi1EZ2dpZEVzNGd5ckRsQnVob0daYXdVMzZBbm9YdFBHQk5fV0NIeU5oZjZZdDdCY0FGbXRoUXNtblo4UmF2OUR6VG54LW95ekJ0eFNPbjBRUGp6R1F0S0xsdEc3MmZReXpCT0lIUmxyR1Npd2pYMlRFb3RndXBjU05OTXM0bFBmazFkY09lcnVJUG1LU3ItNlJpYnl5X01x?oc=5",
+    "pub": "Fri, 23 Oct 2026 20:47:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    84034.92,
    84497.21,
    82546.32,
-   80818.51
+   80785.85
   ],
   "vixts": [
    0.912,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T02:11:55+00:00",
+  "checked": "2026-10-24T02:21:50+00:00",
   "openai": {
    "found": false
   },

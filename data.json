@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T06:32:41+00:00",
+ "updated": "2026-10-24T06:42:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -20,8 +20,21 @@
    "ok": true
   },
   "AVGO": {
-   "ok": false,
-   "err": "HTTP Error 429: Too Many Requests"
+   "price": 321.68,
+   "chg": -0.48,
+   "chg5": -2.15,
+   "chg20": -8.82,
+   "sma20": 348.71,
+   "sma50": 356.76,
+   "sma200": 385.12,
+   "high3m": 427.76,
+   "reg": 321.68,
+   "pre": null,
+   "post": null,
+   "regClose": 321.68,
+   "sess": "reg",
+   "mt": 1792785601,
+   "ok": true
   },
   "AMD": {
    "price": 516.79,
@@ -993,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80688.92,
-   "chg": -0.77,
-   "chg5": -1.62,
-   "chg20": -4.81,
-   "sma20": 82809.21,
-   "sma50": 81770.64,
-   "sma200": 72706.47,
+   "price": 80679.0,
+   "chg": -0.78,
+   "chg5": -1.63,
+   "chg20": -4.82,
+   "sma20": 82808.72,
+   "sma50": 81770.44,
+   "sma200": 72706.41,
    "high3m": 86602.91,
-   "reg": 80688.92,
+   "reg": 80679.0,
    "pre": null,
    "post": null,
-   "regClose": 80688.92,
+   "regClose": 80679.0,
    "sess": "reg",
-   "mt": 1792823512,
+   "mt": 1792824087,
    "ok": true
   },
   "USO": {
@@ -1316,18 +1329,18 @@
     "geo": false
    },
    {
-    "title": "Meta raises capex outlook to USD 135–145 billion amid AI expansion - DQ",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFI1UWFsV0h6M1h4X0did1JHVUFtRGtCa0NCXy0wR1VEel9vZlF0czAxd09vcXlsYWVsU19GZnRxOVlMOHNFT2pkeTlhQzdsVGxoNHhwckNOX3VLejZ4dTVxQ2hxQ2NDUEVlVzZGeDM5UkRWUUFxb1pna1g1RU03VUFJajB2UExsWk0xX3IwbXNYWGh0Qy14ZmtFSEdBQkd5YVFMN0tn0gGmAUFVX3lxTFBQUjVRYWxXSHozWHhfR2J3UkdVQW1Ea0JrQ0JfLTBHVUR6X29mUXRzMDF3T29xeWxhZWxTX0ZmdHE5WUw4c0VPamR5OWFDN2xUbGg0eHByQ05fdUt6Nnh1NXFDaHFDY0NQRWVXNkZ4MzlSRFZRQXFvWmdrWDVFTTdVQUlqMHZQTGxaTTFfcjBtc1hYaHRDLXhma0VIR0FCR3lhUUw3S2c?oc=5",
-    "pub": "Sat, 24 Oct 2026 02:30:37 GMT",
-    "src": "DQ",
+    "title": "SpaceX Q3 Sales Rose 161% in Q3. Here's What Starlink, Starship, and AI Results Reveal About the Stock. - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPZUZlU3hydG1RZmxEcVRFVElhR0E3SUpHeGN6Wlk4SUdGMXMyS2hqYUdBLXNWOGh2ZlplWVlDT05tYm9sNmM2bEx3NWc5NUVpZFVXbk1xSHlRTklZMlBEcVpVZ2FBb09yQVQ5ZTgyTElqd3VJeERkSlZEU1h0QkNhaXV6UWZ3VzNlNXNVZW5UNHRDdnM?oc=5",
+    "pub": "Sat, 24 Oct 2026 02:35:00 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Grok's Secure Vault Explained: What It Stores and Who Gets It - BASENOR",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPTjJ3b2pCdGJXUU9keVdZVEh4UHl0MUdzS19BZy1wbm9keWRoVkw0SXVBZGFmaENteG1rWUhRN0tMdVB2Ny14N0pHaFNGOFZQc3dHaklMTU9SSzlDb3VVTXZtOWI4aV9vY1BHMk9Gblg0RVpyMC10QUl5YjdseGtSMG5BelNyS3RqSEdjaTliU1p4N0Z1YU5jQ0h3?oc=5",
-    "pub": "Sat, 24 Oct 2026 01:03:37 GMT",
-    "src": "BASENOR",
+    "title": "Meta raises capex outlook to USD 135–145 billion amid AI expansion - DQ",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUFI1UWFsV0h6M1h4X0did1JHVUFtRGtCa0NCXy0wR1VEel9vZlF0czAxd09vcXlsYWVsU19GZnRxOVlMOHNFT2pkeTlhQzdsVGxoNHhwckNOX3VLejZ4dTVxQ2hxQ2NDUEVlVzZGeDM5UkRWUUFxb1pna1g1RU03VUFJajB2UExsWk0xX3IwbXNYWGh0Qy14ZmtFSEdBQkd5YVFMN0tn0gGmAUFVX3lxTFBQUjVRYWxXSHozWHhfR2J3UkdVQW1Ea0JrQ0JfLTBHVUR6X29mUXRzMDF3T29xeWxhZWxTX0ZmdHE5WUw4c0VPamR5OWFDN2xUbGg0eHByQ05fdUt6Nnh1NXFDaHFDY0NQRWVXNkZ4MzlSRFZRQXFvWmdrWDVFTTdVQUlqMHZQTGxaTTFfcjBtc1hYaHRDLXhma0VIR0FCR3lhUUw3S2c?oc=5",
+    "pub": "Sat, 24 Oct 2026 02:30:37 GMT",
+    "src": "DQ",
     "trig": false,
     "geo": false
    }
@@ -1392,10 +1405,10 @@
     "geo": false
    },
    {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 24 Oct 2026 02:10:45 GMT",
-    "src": "LiteFinance",
+    "title": "Oil Futures End Mixed as Traders Weigh Supply Recovery Against Shipping Risks - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUThvQVl1RnVpSjI0NnV3VGhRWUU2eWVmOC01c3hpOXJ6eTR0OXNUOTh3VE1vNW1jNFlobjF6QmJRcDc5eF9nbTZQbngzUlZWbWJ6aXpSYndoNHhsRVFoWURGWHF1WmwwOS1QUTRyTmgwaUZLVlB0UTJqMmUyTTY0SnluSUhTVGR4anFHZGhMTUItM3I5VUlIZkhRVEQydw?oc=5",
+    "pub": "Sat, 24 Oct 2026 05:17:51 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1408,18 +1421,18 @@
     "geo": false
    },
    {
-    "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclU0Y1VkczdDOXdMQXdoNDRidnBsR3B3SWdVUi1NS2k5V21oUEMyQm9ndnRLb2Y5c0s2ZUZLWl93NVhQSk1MOVpDQTM1c2c5Nm80SVBxdlpNblBhOWpFajMzZHNPSnNvWk5wVHE1SEZ3MUYyNU8yRGpqcEpqamVPbW83YS1aU2N2eVlRY1JGU21NSUlreDdBdHl4c2dKV0Z4RzY0MWZhVGtwT215MEh4cHVNcUg4ZUVaVnEyZNIBwgFBVV95cUxPc2t1eE9SeWpTeVBWTVlwdFdZbUM2V09NaUs0N0U4eUNXalFqX2k2RGxjakEwMHpaTmdiQ013eEdhdFRMUTNBd1dmc2RpNmZYTGFJU1huOVFRelgxbWxsVVQzcGkwbUZ1cnFGZEdub1VVRTN2WWI4aGFoYms5Nks1V2Y4Z3NJdElUTTh1dnNRQnRIejdURDRMTEc0SEpGWGZuZ0ZNNWE4ZWhsNlc1SlhIRXppWFB0c2NVcnk1QktiVWlnZw?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Copper price rebounds as inventories, stock markets stabilize - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVRDWXFQeXhaWC1lck9NcUNsSTdWN3ZhSTNPQndWR0x5UlBabXdSRm4yLVZ2UF92V0JjLTlFLWt5SDF2NTlDYmtCUFlKcUJnZVREdG9JZC1MVTF0d1dpamFXMTFEWFpBUHJWSWlyeXZudkZzUjF2RmFOUl9HeFM2NENRRHdScFdPX052dEl5WHFtQQ?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:03:51 GMT",
+    "src": "Mining.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Copper price rebounds as inventories, stock markets stabilise - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNQk4zTXpPbW14SWhmV0cwc0JtRzM3VVo1WlBpNXBWMUJhX2FDenpZejUwSVFJSk13dGk1enlYZ05qUDJoRS1Pa1B1b09VS2paa2RVZlpMb0VST0lLVVFWejhJb0VfVGUzSlluSmpUNkp2U2pSdzFuYzN4OEtQU2tLeHdWMjI4R0hRUnVn?oc=5",
-    "pub": "Fri, 23 Oct 2026 21:35:20 GMT",
-    "src": "Mining.com.au",
+    "title": "U.S. Dips Into Strategic Oil Reserve Again Amid Supply Disruptions - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQclU0Y1VkczdDOXdMQXdoNDRidnBsR3B3SWdVUi1NS2k5V21oUEMyQm9ndnRLb2Y5c0s2ZUZLWl93NVhQSk1MOVpDQTM1c2c5Nm80SVBxdlpNblBhOWpFajMzZHNPSnNvWk5wVHE1SEZ3MUYyNU8yRGpqcEpqamVPbW83YS1aU2N2eVlRY1JGU21NSUlreDdBdHl4c2dKV0Z4RzY0MWZhVGtwT215MEh4cHVNcUg4ZUVaVnEyZNIBwgFBVV95cUxPc2t1eE9SeWpTeVBWTVlwdFdZbUM2V09NaUs0N0U4eUNXalFqX2k2RGxjakEwMHpaTmdiQ013eEdhdFRMUTNBd1dmc2RpNmZYTGFJU1huOVFRelgxbWxsVVQzcGkwbUZ1cnFGZEdub1VVRTN2WWI4aGFoYms5Nks1V2Y4Z3NJdElUTTh1dnNRQnRIejdURDRMTEc0SEpGWGZuZ0ZNNWE4ZWhsNlc1SlhIRXppWFB0c2NVcnk1QktiVWlnZw?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:30:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    },
@@ -1722,7 +1735,7 @@
    84034.92,
    84497.21,
    82546.32,
-   80688.49
+   80679.0
   ],
   "vixts": [
    0.912,
@@ -2783,18 +2796,16 @@
   26
  ],
  "feed": {
-  "fail": 1,
-  "failed": [
-   "AVGO"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
   "pct50": 6,
-  "n": 34
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T06:32:21+00:00",
+  "checked": "2026-10-24T06:41:49+00:00",
   "openai": {
    "found": false
   },

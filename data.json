@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T17:12:41+00:00",
+ "updated": "2026-10-24T17:22:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80028.53,
-   "chg": -1.29,
-   "chg5": -2.23,
-   "chg20": -7.46,
-   "sma20": 82505.89,
-   "sma50": 81785.47,
-   "sma200": 72748.36,
+   "price": 80128.28,
+   "chg": -1.17,
+   "chg5": -2.11,
+   "chg20": -7.35,
+   "sma20": 82510.88,
+   "sma50": 81787.47,
+   "sma200": 72748.9,
    "high3m": 86602.91,
-   "reg": 80028.53,
+   "reg": 80128.28,
    "pre": null,
    "post": null,
-   "regClose": 80028.53,
+   "regClose": 80128.28,
    "sess": "reg",
-   "mt": 1792861917,
+   "mt": 1792862496,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX Will Spend Up to $40 Billion in a Single Quarter. Its CFO Says the Payback Is “Less Than a Year.” - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNVmI2bjB3bVRHR29mdXh6b0RuWnBWeDY4eHQwZHJhX3lIdHF0ZVVrd0lBb0tGdUdpR3YzUnlqZlJEZ00xY3ZrTUtrdy05eWhaTVNPdjkxRmNSZEdyR0F0bXVnS1Q0Y1YtYWVlNkVHcUJfVW9fc0x0WDZNS2oxYWFsZUxNUGtLZ0o0NnF1cFh5X3dZaWtNdjV4ckZVeURnelBEQ0xESHBRUTQ1ekJZZjViVlE2TDVDZjZCNkRDM3ZuWlZBclk?oc=5",
+    "pub": "Sat, 24 Oct 2026 16:32:08 GMT",
+    "src": "TIKR.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Microsoft's $50 Billion Gamble: Can Microsoft’s Azure Growth Justify Its Exploding AI Budget? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQMUsyVnlVRjI5ZjFFeTQzdG55X3hyaVhqU1VKaFVjMENpZWxoMF9WQUdzRDM2VXg5T1NsTTdNalFCRGtwcG1DaThUOTc1VzlJdlpmdDk2bXBXRjRUOTNkZ1pZdEVPOHByNS1JMFRQLThsTkhscmdwVnNUbHpyellqTEdXMWZGWjZoc3Q4N2dKLVJoazU0YnJfeVhRemFtMmt0UkdqSWpud1IzV2N3SGU3Q1hOYThmRWVOd0I0UWNhTDVtR1NVbGQ1eTdhb1M?oc=5",
     "pub": "Sat, 24 Oct 2026 15:44:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNUHVQUVlaMjhDeU5uZ2Q1QXVWbjNvTlhmWE54enFfR0pYRDR4TElydFZLRUFDb3FZWEwyNDRoSTVIazZSbVBmVVBtMUpjRUtiTk1KbGF3M0l6aXRBdjhYWXMzenpHNENzVVRHNGpSR1JiV3dvenZ2WW1nU2gtOE1WWU0zVTMyUTVGLTU1VXhrcDhuQ1VuQzQtZ0Z3?oc=5",
     "pub": "Sat, 24 Oct 2026 10:04:17 GMT",
     "src": "Data Center Dynamics",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "10 best GPU cloud providers for AI and machine learning - Hostinger",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLQ1VQOThTMGJrTmJfa1ltaEdEazB0YkNzTzMxTVYxUm42UXlXb1NNZFdyNzljOHkzNFNNZDhpbFU1Szd6YjE4a3lDQnU5aExBb3BsaVNFajBwM3E5cXNGQWRua1pteFA2TlRSUGln?oc=5",
-    "pub": "Sat, 24 Oct 2026 08:20:07 GMT",
-    "src": "Hostinger",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84406.45,
    84763.58,
    82912.23,
-   80034.96
+   80128.12
   ],
   "vixts": [
    0.912,
@@ -2800,7 +2800,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T17:12:19+00:00",
+  "checked": "2026-10-24T17:21:57+00:00",
   "openai": {
    "found": false
   },
@@ -2817,7 +2817,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.55,
   "curve_bp": 31,
   "curve_inverted": false,

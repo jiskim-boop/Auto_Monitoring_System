@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:42:41+00:00",
+ "updated": "2026-10-24T05:52:00+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80651.73,
-   "chg": -0.81,
-   "chg5": -1.67,
-   "chg20": -4.85,
-   "sma20": 82807.35,
-   "sma50": 81769.89,
-   "sma200": 72706.27,
+   "price": 80658.31,
+   "chg": -0.8,
+   "chg5": -1.66,
+   "chg20": -4.84,
+   "sma20": 82807.68,
+   "sma50": 81770.03,
+   "sma200": 72706.3,
    "high3m": 86602.91,
-   "reg": 80651.73,
+   "reg": 80658.31,
    "pre": null,
    "post": null,
-   "regClose": 80651.73,
+   "regClose": 80658.31,
    "sess": "reg",
-   "mt": 1792820528,
+   "mt": 1792821086,
    "ok": true
   },
   "USO": {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI Nears $1.25 Trillion Valuation. What That Tells Investors Ahead of a Potential 2027 IPO. - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRmxKd3dXUmU0Qmc3MnJRUjVxVHZVNHgzbGxGYV9GenE4TVNiVFFPOGlhVjd3blhSUHJlSEFVSEdPbC0wZi1fQjlwcDFxZTJUSDFPdkdUR0tMLVViNDNtRUJhOHgyV2dfMnJ1NFNzeXhMUzdTcjJ1b2tHTTVid1IwbWc4dHFURnRrSXZkaUs4MU5OMDh0YmMzT0FlSnlqd3VWeFBsTlJnZnNQZGY2SWtKOUpSU3Njei1ITGxKNjJWd2FDc2g1RXdMNFdDZXV2c00?oc=5",
+    "pub": "Sat, 24 Oct 2026 05:46:28 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "AI: Anthropic’s $750B Compute Bill, OpenAI’s Trim, Nvidia’s Safety Net & More. AI-RTZ #1249 - AI: Reset to Zero",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOamx2aHBHdFpLMDNFLTVtSU03YnIwOHU2aDJuNGtMRzB5OGFTV3Q0SGZPdVVZTG9YTmNRNmoxclE2MklHeXpTeXFDX2JTRk54dHhsejY2ZjZUWkhxaHFMbnFOZ19RMC1fei1lc0lZRXZuV1EzSy1jQlZsdXFRZENyNkd3?oc=5",
     "pub": "Sat, 24 Oct 2026 05:02:33 GMT",
     "src": "AI: Reset to Zero",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA B300 China Telecom: 32 GPUs Spotted [2026] - https://tech-insider.org/",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5TMGVIaTZWdkhvdVE4Q0RZTEk3cnZZblFMWFhVTmQ4OXZSam53YWpCdVk5YUNMTU1GUlZGVWQwVjJpOUNNdjc2VUlWRnd6enRsbUZaWENqN2FFeWQ1U1U4NFNfYWlTQ0lnQjhTcDE0Rk5RanhhM1VrR1g1U0M?oc=5",
+    "pub": "Sat, 24 Oct 2026 04:08:07 GMT",
+    "src": "https://tech-insider.org/",
     "trig": false,
     "geo": false
    },
@@ -1327,33 +1343,9 @@
     "src": "BASENOR",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "NASA, Partners Accelerate Lander Development for 2028 Moon Missions - NASA (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNT2EzLVNyT2FBeVJRVEJuN1VibVU4V2JXZlRWSHFhT1ctUzczSGoyTDlvamNXU3hMbm1TbTZIS0t1SlV0TWloUDVFOEg4MHlLZEhEaEEtRnVLRXhpMVkxTkVkSk12N0N3d0w2RDhHNTZMcDdzN2lENGFYMFBqT04yZkhXVElRRm1wVGQ2UVBvMEtxMUktNnlkc3ZNOHhXZGZLcjZRM0RhWmU?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:39:39 GMT",
-    "src": "NASA (.gov)",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations - NASA (.gov)",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckE2a2ROazlEbHgwOEZFOTJiOXVDUHkxbjlmM2NlMUxzMWJBMnRRWFd5VWRMcjNXc2F4NGpqclBYMW5CMjJ2UGhQaFd0SWpHUGZoeUQtc19zOFg5R3l5dHZnTlVsZXZkMmduUnRJTzA4bWRLejRTZ0hjWTJ1bFQ3X3NVdHJQWmJpbHRxeDIxa1lKd3pYWmlTNDhZVXNtMXV6M0NlRA?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:37:53 GMT",
-    "src": "NASA (.gov)",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Sell-Off Widens As Oil Rallies Amid Middle East Conflict - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOTHQwNTF6XzNQSHJlUkVoUXU0Z21TR0pOTVBDbXRLZlMzeUFFRnR6b3pxdldtbC1mNVlPM2kxdVNRNFdkbTdnRWhrNXJJSmlvdVRrVjE0RHlnd0xBUURyYlZfUkdXTTNmSW50ajhwTTVXMEVqZklsTGdfdXBZdVVKRVZfdkRIVzVBQ2FaUWNTdDg1YlhPUXl6dkN3?oc=5",
-    "pub": "Sat, 24 Oct 2026 03:59:00 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Treasury Yields Snapshot: October 23, 2026 - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOazlKeUFDcFNtdk5WSVk2eF9MWVdiRjNHQ1VtbGp5N2NiVEFHX3YzRVRpOElfdDBTVkFnSXplb0lhT3RpV01zS0JGWUh2UXJPd21uZUdjbnRJN205aEFPZ29XcDJ6QVZLZ1A0czhORy1DUWJ4OTVEZUdrVVpJNVdNZEJaVlVXZ1I4?oc=5",
@@ -1371,14 +1363,6 @@
     "geo": false
    },
    {
-    "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT290YlQ1WkhKZTc5bmZmTjRUWk9PQ0hiRjNzRXNkRzF6eW0xVjdTMjZQbzdiaXBEakxXZ3VjdXZDNmxsRXlMdFNiOTVPR0xVN3Bqb09sYXV0V1Y5eXIxRVNac1B0amlkQ2dLTm43c09YQURkNkw4U1U5c3lkTWVxUjZickRIMWFVdVhMOVdPQUQ0VlN2cGxzbm9CdTVGaXJmdkZkU2FQTUlERER0bzZnWHoxaGg2UFdXRVM2Wmt4WllUdEhEYXdJRUU4VC1XTTFWNmxLSw?oc=5",
-    "pub": "Sat, 24 Oct 2026 01:00:00 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Global Credit Spreads Hit 17-Month High Amid AI Investment Worries - FindArticles",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPZ054bGoxSEtmdlpXcG5aOFF6Zl92R1FxOC01V2psV2ZqUzl0aUlrOHM1OTlfaFpNY2JncXU4LTJJLWlPamx4M196cTlPRTdUZi1EckMyS25SQ1g3WVAxcGNPYnltcEtadkxPSGRiSUNiVlQ5RnREZl9ubXJiV3FTT3M1c08wSElIMFU1YVhpamfSAZgBQVVfeXFMTXE0clF4cFRMSmtja2s0Q0xlLUJBbVk2dFN2Mkl1UG1KQk10Q3NMVHJZYzFxTnd5SmpiRjRmaVY1LXpSaFBQeUZKalhFLWU2bXhtaHd6cldyUlZRMWk2Qjg1bXY2Ym5YVk41NjhlbkszbWlJYXNWemJwdG9iU2QtQjRiM0diaW9NVzh6dnRnNHBPc3N5Rm9CRGY?oc=5",
     "pub": "Sat, 24 Oct 2026 00:47:16 GMT",
@@ -1391,6 +1375,22 @@
     "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVmRYdHRTa2xKaTAtUEMySWtwQThXWHlRZEVjeUpTbWxHMGY1UlpRTnhLZDRsT3YyTWpRX3VsMUo5bG1KZTBFTWhNWWQ5WWdDOU56T3pDU1BiRWVoOWtBVFlQSFgxWWY4YVVjNldxZzZnYm0yWHZHdy1TM1RRaHAwSW1Za3hvOUpaa0RLTGloMWtKald3OVpIZ3F6dzFnd0w2T0g0NmppUlRScE53WlI2VW5HRDBfSFBuczNZQ2g3bkhmeDYtcUFLSkhuX0tDMGpMdExQOGNpUmdnZGJn?oc=5",
     "pub": "Sat, 24 Oct 2026 00:16:57 GMT",
     "src": "Facebook",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "pub": "Sat, 24 Oct 2026 00:02:54 GMT",
+    "src": "EnergyNow.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil rallies on dual-front war - Oil & Gas Journal",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZUV2X3ota3FtSC1qbWVYWmZOdXhMaDhYTjd3QkNqSTg0MjBMVGRGNDI2X3R0UEE5a01LMldNdENEa2dwSlZ3SkhaSXFiT3FJa2c0b0RtSE1iZ2RUY0tHZFFEVmU3aU9HWTE0NUhpMGRkUGtmTGJxaTJHYUJ4aDhXejFfZTJ6ODZpbFBiRWRqakZEb1ptQkZ4RGFfVE9oLXJOMFk0?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:26:54 GMT",
+    "src": "Oil & Gas Journal",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84034.92,
    84497.21,
    82546.32,
-   80660.1
+   80645.55
   ],
   "vixts": [
    0.912,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T05:42:28+00:00",
+  "checked": "2026-10-24T05:51:47+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T14:22:11+00:00",
+ "updated": "2026-10-24T14:32:29+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80207.91,
-   "chg": -1.07,
-   "chg5": -2.01,
-   "chg20": -7.25,
-   "sma20": 82514.86,
-   "sma50": 81789.06,
-   "sma200": 72749.33,
+   "price": 80234.51,
+   "chg": -1.04,
+   "chg5": -1.98,
+   "chg20": -7.22,
+   "sma20": 82516.19,
+   "sma50": 81789.59,
+   "sma200": 72749.48,
    "high3m": 86602.91,
-   "reg": 80207.91,
+   "reg": 80234.51,
    "pre": null,
    "post": null,
-   "regClose": 80207.91,
+   "regClose": 80234.51,
    "sess": "reg",
-   "mt": 1792851696,
+   "mt": 1792852313,
    "ok": true
   },
   "USO": {
@@ -1247,10 +1247,26 @@
  "news": {
   "credit": [
    {
+    "title": "Why I'm Capping My BDC Exposure At 15% - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdU9zVm5HMFB3N2hkWTRUNGNYSTBzXzNTNTFUZmxPRmdCME9XYWFMM0pkTnhPTTJCbnU5TUtRQ3VXWTF2dWFxek15MEpzZmZsNVpCaWRRSzNvOFBDYWtacFlLSEI3bjVXdllRaFJlT3hEQ2w1bTNHTGlsdVp1aWdNeHhrWElIMllLT3BhOFQ2VUhCNVR1N0RyRUwxV3RzQ1pya0dR?oc=5",
+    "pub": "Sat, 24 Oct 2026 13:15:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "3 Ultra-High-Yield Lenders Paying Over 13%: Which Payouts Hold Up? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcFUyQmRBU1NrVS1IX0JrUzFBcTZWOWdQU3BwN0daODdyMEEzY3hNcmczb0ZSSk9QaHl3bHJWZDhzdkp3elRQWWxucWV3T2tfRVd5anFtd3p3bHBDSnRFM2JoRzJselJFMGxVN1FxeHlvVzFWRlFRcHhFUGpPZmxXZkpMdzlhVG5Jdk1fZDVxalJWVkNVMXh0c0hDdVk3dDNhclg1dV9IRHFNdUU?oc=5",
     "pub": "Sat, 24 Oct 2026 12:45:00 GMT",
     "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Private Equity’s Stale Marks Fuel Debate Over Fairness, Study Finds - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVNOeng2ZlJBRmcyZ0FmZ3lJLUh1YjgtYmlfU2tGUmthSHJWV0tHMlpsMXNUT3RHb01pVzZXRW8zN3RwTDJSN2pfVTBDVVBpTGRSc3FiRFU5M2RZQjJTUXp4bURFR0RhekhPdHFubzFZMk0zUzI2bUVLWllJanRjbVkyS0hTMVJDbjZEaFFmdUJuR053bHhlZ2k1TnEwcE9TNlJVVV9NUFdXVjhuZFVaU0g5NWE?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:14:23 GMT",
+    "src": "Bloomberg",
     "trig": false,
     "geo": false
    },
@@ -1277,28 +1293,12 @@
     "src": "FinancialContent",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Golub Capital BDC Inc. R (OGL.DU) Q2 FY2026 earnings call transcript - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPeTY3UDFDYXVxU2p1Nl9pbGNoaEpfSjZ1UzB3Nm9ONW5uQ2NuVVdjVWJCYUFyLXhvUWlrSHd2TzZfMngtcE52eWQxTDBZOXJSYnJWcy0zcFhkNExDaGtnaFJLS2tCUGJ3aHd3a05EZkZ6QmFxeW4wRFUzZDY0c2xsWU9MV0hZYUNVYk9Ub0czMTJvZw?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:28:54 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The More They Drop, The More I Buy: 11%+ Yields With Massive Upside - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1JGbmhfX3I2VXNRc2hWbl9MVENSN0QyMXdycm9qOE1uM1J5RkZRS2pHS19BMElhWFpTaEs0bGJ2Y3RZeEx5ajN1M3gxZjk1a05IQ0c1TUxlMnM3M2VWakhVM0EwR0tTVXNhek40T2hqYmNKOV91bGk4SVh1RUNfMndxejVNUVQzT00tQmRXbmN5b1ZUckN3ZXJqOVNPT29UOUs1VkZGVUZOdmNXNGZRRGpSbnNIU3Az?oc=5",
-    "pub": "Fri, 23 Oct 2026 17:05:46 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
     "title": "TSMC Debunks Irrational AI Fears As Pricing Power Expands (Rating Upgrade) (NYSE:TSM) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNemI2TDJxY0had3cwcERUWnFyalY2TnVkQ0poSUl6Wk5kSTg0V2xWa1ZQWTdsVWk0Ykh5YzF6MDNvcDZiSVZNdUtKOG0wenNCOE0wTmJfZlJkRHdSRm9sR0VNeWNXRWI1SU1SY2RlaDFaa1dOSzN1T3lzc2tmRGRCZ09FaDBXb2ZOOE9VdEtjYUc4ZjlOVlRCcjBvT29YVWNHbU5PVTl5cWZ2N3ZVeTFkZ0JHcl9OUGJoVWJ1QTB1TG9CNHBBSGdmWF9EbjBLQnM0UjgzYg?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOZzRTQmVJMUs2MWxGa2xPZ3ZmUU1pSjBjUUMwMlQ3MXYwVTNlUGU2VVNxYnVkM2VTZHBUMEhSNzVLcjNWUE5pejV1cXlTWkJyTnh3R2xnVjJ6OFg0aEtScEJMcmtnWnIwN0xGbTVuNUhkOUNnTmEzUzlVR0Z1emVtSE9ObTFuUU9uZDdXTTVvd0dSS1l3SFQ5Q1R5Z3ZscWMyOUdDMk9ORG00Nm5lS3FUM0F0ODZST1N6azhwZ0d4b1EzU2xKNzZWc0FkLTk?oc=5",
     "pub": "Sat, 24 Oct 2026 12:19:00 GMT",
     "src": "Seeking Alpha",
     "trig": false,
@@ -1735,7 +1735,7 @@
    84406.45,
    84763.58,
    82912.23,
-   80261.87
+   80273.67
   ],
   "vixts": [
    0.912,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T14:21:56+00:00",
+  "checked": "2026-10-24T14:32:14+00:00",
   "openai": {
    "found": false
   },

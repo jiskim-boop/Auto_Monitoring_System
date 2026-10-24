@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:42:12+00:00",
+ "updated": "2026-10-24T21:52:00+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80312.76,
-   "chg": -0.94,
-   "chg5": -1.88,
-   "chg20": -7.13,
-   "sma20": 82520.1,
-   "sma50": 81791.16,
-   "sma200": 72749.9,
+   "price": 80250.33,
+   "chg": -1.02,
+   "chg5": -1.96,
+   "chg20": -7.2,
+   "sma20": 82516.98,
+   "sma50": 81789.91,
+   "sma200": 72749.56,
    "high3m": 86602.91,
-   "reg": 80312.76,
+   "reg": 80250.33,
    "pre": null,
    "post": null,
-   "regClose": 80312.76,
+   "regClose": 80250.33,
    "sess": "reg",
-   "mt": 1792878097,
+   "mt": 1792878686,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Linden Capital Partners on why healthcare CVs are gaining traction - PEI Private Equity",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWdsanM1azctMzJlMWRpdE1fNW1qLW9KTk5nSHBEUlktTVRxcHFEX2xTNTNULW85cExpZHNrTHFKVm51d05tQmc0czZsNmJ2Skx0V1lyQ1dRYmFldmQydWtVdWhCNmpFWkFmS0p2TVdJMFRPUzJWOVVFeC1UT2dZV1doa2t6THJJbkNhSTl0UlBHTzVfdXktdTlnVDg2cHdGNHMxSEVaRVR4bjc5akhZ?oc=5",
+    "pub": "Sat, 24 Oct 2026 13:44:19 GMT",
+    "src": "PEI Private Equity",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Why I'm Capping My BDC Exposure At 15% - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQkJzVTEtREd1NnN2OHZEYVVOUXdWUFNHbk9tSGpwUjJqYkJFQ3ZkOTFIUlpIcTI2SDk3V1dEQmZORVhxUGw0RTcycEhienh1dGlkN2pTelpaV2k2Q3Bzd1VRZHc2WFdNYVY2ZklJeUtDa2ZEZ0ZKWkNWMm5QM2xGUlVBSTI1bWk1a2c?oc=5",
     "pub": "Sat, 24 Oct 2026 13:15:00 GMT",
@@ -1285,17 +1293,17 @@
     "src": "Bloomberg",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "KBRA assigns preliminary ratings to U.S. Signal data center ABS notes - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXp0RTlGSHNxalpuT19Gd1ZHb3BHbkM4dXZVRHl1Q3BhWFBBT3NRN0xIVDRVc01GVFdkWTU3ZjJlcXV4cmhXU0wzOWd0cE02OVpZY1pIdFFBODFOMmZzN08wZW5RelNvWmd4VWNmanYtU2p0V0pVZDNON0Z1Rk81RC1vMGJIN3ZGYmRoX1dLS3ZoYmhw?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:23:31 GMT",
-    "src": "Traders Union",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Musk forecast a wider enterprise rollout for Grok Bot - NeoTeo",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcjhQeU05TXJJR2NMbkhSMEE3V0pMSy1xMFdpZ3R1ZlA1dkM3aWVHY2J6QVoybGxCVmxGYkxmaWUyZUpMUGNfSDBJVWQtMlU4MjRLYlMwUjByZHd0RHRLZWhsVkR1RWhaWkhZdm1JSmJDVElXdUdpa28xcFJEbGpUU0xDNTk4UQ?oc=5",
+    "pub": "Sat, 24 Oct 2026 20:00:35 GMT",
+    "src": "NeoTeo",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Grok's Odyssey Remake: 5 Details That Matter - BASENOR - Tesla Accessories",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHZTLWpiTXNGQUZLTXZvQkxSd0J6VjVJdV9ydE1XeDRuOThlajJLdVpvQWlLRDR6RW92ZVZnYmhOQWtUVDE1V21NamcyZjVLa19zMlpwQk1DbzVNU01HajUzTE5JNlNjeWY3ZDU3YkpwaGhoLVQ3U3BCRzNpU3FuWHM2TQ?oc=5",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4xOHJVYnZDQ2ljUl9UbW9iZ0U5OEt3TVp5TC1ZQ0dWOW5pU1pmT0ZpYklxOHh0R0tmb1J1ZkhDQ2t3RlJwSXc2SFVBTTk2VGNmZVlYQ3hGZVljaGNGTEJZbThLSEhibG0xSE84VzJjeUVmc3J5QWhiV0diREpNd9IBgwFBVV95cUxNSVlBWHphV0plOUxxOUtCMXZvSmV5THdrd191N1FFUEhybWJyWGRXUUt3SUZPMkRWZ25HRjRqTHlwUkN6STRQZ093M0VreHM4aHlrVVVScnpXaG94TW1GVkt5RFlfbVZlakxFRTE3N2p1dHE2Uk9KTU5SYXpybl95UGRRdw?oc=5",
     "pub": "Sat, 24 Oct 2026 12:05:52 GMT",
     "src": "Wccftech",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta’s Capex Rose 80% and Free Cash Flow Swung to -$2.1B - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZklmM2xGU2VYWl9aLXFoUTFIdFY0ZDlsSVlMc0FycTl0akhIMHljV2tXWkNxVi1YSS1BR0xUZS12bi1OYnZvRkcxS2VDVTJJRnBsTHpoUlExNVl4UFlWeUZ4b3NRM3NZdmRvbXBXRlNiSEdSUjBzY1RXb2NNdnVTTXBSMjJyNUV6aFE?oc=5",
-    "pub": "Sat, 24 Oct 2026 10:18:20 GMT",
-    "src": "FourWeekMBA",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84406.45,
    84763.58,
    82912.23,
-   80313.67
+   80258.96
   ],
   "vixts": [
    0.912,
@@ -2800,7 +2800,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T21:41:57+00:00",
+  "checked": "2026-10-24T21:51:48+00:00",
   "openai": {
    "found": false
   },

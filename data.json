@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T21:52:00+00:00",
+ "updated": "2026-10-24T22:02:55+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80250.33,
-   "chg": -1.02,
-   "chg5": -1.96,
-   "chg20": -7.2,
-   "sma20": 82516.98,
-   "sma50": 81789.91,
-   "sma200": 72749.56,
+   "price": 80355.0,
+   "chg": -0.89,
+   "chg5": -1.83,
+   "chg20": -7.08,
+   "sma20": 82522.21,
+   "sma50": 81792.0,
+   "sma200": 72750.13,
    "high3m": 86602.91,
-   "reg": 80250.33,
+   "reg": 80355.0,
    "pre": null,
    "post": null,
-   "regClose": 80250.33,
+   "regClose": 80355.0,
    "sess": "reg",
-   "mt": 1792878686,
+   "mt": 1792879333,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Linden Capital Partners on why healthcare CVs are gaining traction - PEI Private Equity",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWdsanM1azctMzJlMWRpdE1fNW1qLW9KTk5nSHBEUlktTVRxcHFEX2xTNTNULW85cExpZHNrTHFKVm51d05tQmc0czZsNmJ2Skx0V1lyQ1dRYmFldmQydWtVdWhCNmpFWkFmS0p2TVdJMFRPUzJWOVVFeC1UT2dZV1doa2t6THJJbkNhSTl0UlBHTzVfdXktdTlnVDg2cHdGNHMxSEVaRVR4bjc5akhZ?oc=5",
-    "pub": "Sat, 24 Oct 2026 13:44:19 GMT",
-    "src": "PEI Private Equity",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why I'm Capping My BDC Exposure At 15% - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQkJzVTEtREd1NnN2OHZEYVVOUXdWUFNHbk9tSGpwUjJqYkJFQ3ZkOTFIUlpIcTI2SDk3V1dEQmZORVhxUGw0RTcycEhienh1dGlkN2pTelpaV2k2Q3Bzd1VRZHc2WFdNYVY2ZklJeUtDa2ZEZ0ZKWkNWMm5QM2xGUlVBSTI1bWk1a2c?oc=5",
     "pub": "Sat, 24 Oct 2026 13:15:00 GMT",
@@ -1293,17 +1285,17 @@
     "src": "Bloomberg",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "KBRA assigns preliminary ratings to U.S. Signal data center ABS notes - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNcXp0RTlGSHNxalpuT19Gd1ZHb3BHbkM4dXZVRHl1Q3BhWFBBT3NRN0xIVDRVc01GVFdkWTU3ZjJlcXV4cmhXU0wzOWd0cE02OVpZY1pIdFFBODFOMmZzN08wZW5RelNvWmd4VWNmanYtU2p0V0pVZDNON0Z1Rk81RC1vMGJIN3ZGYmRoX1dLS3ZoYmhw?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:23:31 GMT",
+    "src": "Traders Union",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
-   {
-    "title": "Musk forecast a wider enterprise rollout for Grok Bot - NeoTeo",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPcjhQeU05TXJJR2NMbkhSMEE3V0pMSy1xMFdpZ3R1ZlA1dkM3aWVHY2J6QVoybGxCVmxGYkxmaWUyZUpMUGNfSDBJVWQtMlU4MjRLYlMwUjByZHd0RHRLZWhsVkR1RWhaWkhZdm1JSmJDVElXdUdpa28xcFJEbGpUU0xDNTk4UQ?oc=5",
-    "pub": "Sat, 24 Oct 2026 20:00:35 GMT",
-    "src": "NeoTeo",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Grok's Odyssey Remake: 5 Details That Matter - BASENOR - Tesla Accessories",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNRHZTLWpiTXNGQUZLTXZvQkxSd0J6VjVJdV9ydE1XeDRuOThlajJLdVpvQWlLRDR6RW92ZVZnYmhOQWtUVDE1V21NamcyZjVLa19zMlpwQk1DbzVNU01HajUzTE5JNlNjeWY3ZDU3YkpwaGhoLVQ3U3BCRzNpU3FuWHM2TQ?oc=5",
@@ -1343,9 +1335,25 @@
     "src": "Wccftech",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Meta’s Capex Rose 80% and Free Cash Flow Swung to -$2.1B - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZklmM2xGU2VYWl9aLXFoUTFIdFY0ZDlsSVlMc0FycTl0akhIMHljV2tXWkNxVi1YSS1BR0xUZS12bi1OYnZvRkcxS2VDVTJJRnBsTHpoUlExNVl4UFlWeUZ4b3NRM3NZdmRvbXBXRlNiSEdSUjBzY1RXb2NNdnVTTXBSMjJyNUV6aFE?oc=5",
+    "pub": "Sat, 24 Oct 2026 10:18:20 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "More Oil Is Now Coming Out of the Persian Gulf Than Before the Iran War - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOQ25MSXRodmt6X1ZwZFZ1b01nR01ZTE1PWDU0SGVaWTRKMXJLdl9FbXVHSnZTMGxiV1pMbGtOZTVUMjZER01kVHQ1TmtIczlGZ3Z3X2djQng0b0RrOEQtZkk4REEtYTE2U1JxVlpLMzAtUnNycVhiQXVqV3BET09SZDZLbWtfZGp3NFl6eDZPakRzeDk4N3VydmJucDB6SlgwNmNNWVlrVTVRdGQ2RTVVOUpqTXBJa3RWaXc?oc=5",
+    "pub": "Sat, 24 Oct 2026 21:55:37 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "October 2026 FOMC Meeting Preview: Will the Fed Raise Rates Again? What Does This Mean for US Stocks? - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNTmNSdDB4VzhxMnpPSENiZWFBNzQ1ODlmM0pIazRwVEc3VzlBd1AwdzFxQlFVNTcwUlFPWUoybFVnUDFOamtmOWgxeFloTnFiNHZCOE5IUC1IZkdTQ0R0aXJycEdGSXNST1AzY3ZISjVHRng3eXlpMlY3aGlOZFNzb1dWWFVpb1VqcVM2WlJicXdnR0lsTXhhWjZ6ZEFMSk1sU0dLVVY5bmRUUEF0MVphRDJHRjMyMDVFY1NObGxGRXZ3Zw?oc=5",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQRjl1bEEwRXhlbUllRjhudk5fT2p6ZzFSX2RSZWh1WXRkTVpvb1k2WjhSZDJzcHpxNlplVGtQc29oWU1ocU1yckVfYWNZY3BNTEtGdW1rVjJEV0ZQdFc3VWp4UU9Day11T3c2dXEwbFJWSDBGNF9OV3lrTmg1cWEtUlcyQzRFTWg5QVBwMEFtbw?oc=5",
     "pub": "Sat, 24 Oct 2026 11:49:00 GMT",
     "src": "Yahoo Finance UK",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "How Saudi Arabia drew Britain into another war in the Middle East - The Telegraph",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPQTFLSS1GemR6d3VLZGpwTU5IV09tZUlnVFRnaGxleUZoUE55eVVLdFVwU2VRdFpBM2hHd3kzbjUxUUk4dmtrT1NrU3hrelNWN2wzaV80WktLYUZCdmpfUDFheGdBRTRrNzNXTEg2Q0w2dVd4Qll0U3UtU1pJSUdTQXlDT2hseTh0b0hjNjFfcUlxTkxsN1pEV3VlLXlHVy1ZNkJfeXpQSXFyQQ?oc=5",
-    "pub": "Sat, 24 Oct 2026 10:00:00 GMT",
-    "src": "The Telegraph",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84406.45,
    84763.58,
    82912.23,
-   80258.96
+   80356.61
   ],
   "vixts": [
    0.912,
@@ -2800,7 +2800,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T21:51:48+00:00",
+  "checked": "2026-10-24T22:02:37+00:00",
   "openai": {
    "found": false
   },

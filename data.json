@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T05:32:33+00:00",
+ "updated": "2026-10-24T05:42:41+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80621.3,
-   "chg": -0.85,
-   "chg5": -1.7,
-   "chg20": -4.89,
-   "sma20": 82805.83,
-   "sma50": 81769.29,
-   "sma200": 72706.1,
+   "price": 80651.73,
+   "chg": -0.81,
+   "chg5": -1.67,
+   "chg20": -4.85,
+   "sma20": 82807.35,
+   "sma50": 81769.89,
+   "sma200": 72706.27,
    "high3m": 86602.91,
-   "reg": 80621.3,
+   "reg": 80651.73,
    "pre": null,
    "post": null,
-   "regClose": 80621.3,
+   "regClose": 80651.73,
    "sess": "reg",
-   "mt": 1792819916,
+   "mt": 1792820528,
    "ok": true
   },
   "USO": {
@@ -1397,6 +1397,14 @@
   ],
   "flow": [
    {
+    "title": "Gold Prices Drop Ksh18,551 in One Week, CBK Reports - Kenyans.co.ke",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMFl6cFB6ajYzTU40UjhMa1FMMkk2bWZwNDRsVTFCcVRGdlBrazJYeDJ4TTNTdGtLMkdfRXQwbFp0U21OWWpZTUFlWXV1NnBUcG1oZlF4WkFKZmZ2SUpsNzNKS2U4cmtZRmEtZjk3dW1VWG1aWkloQW04dUhFTUpsVnEtWFRORGtBbk5NdGdfSExrcTdKWFJBVW83TnMyWC1I?oc=5",
+    "pub": "Sat, 24 Oct 2026 05:31:56 GMT",
+    "src": "Kenyans.co.ke",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gold Falls Below $4,000 Mark; Japanese Yen Emerges as New Safe Haven; US Treasuries Regain Favor - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3akctOVBCdlRycklwazlCZmZmVFdyOVJBMHA4YUs0VjFiOUZkdUJVUUxlUlpTT052NExXUHRraWM1LWlWNDRwUkYzRTltWFhEZzdNdG9YcjVHMjZWNkd1M2tfai1ySkpxVW1YaVpRNDNMWmJNVWc?oc=5",
     "pub": "Sat, 24 Oct 2026 01:55:00 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUprNnpxZE5idzlOR3htMEsyS0FmSHFfUi1EZ2dpZEVzNGd5ckRsQnVob0daYXdVMzZBbm9YdFBHQk5fV0NIeU5oZjZZdDdCY0FGbXRoUXNtblo4UmF2OUR6VG54LW95ekJ0eFNPbjBRUGp6R1F0S0xsdEc3MmZReXpCT0lIUmxyR1Npd2pYMlRFb3RndXBjU05OTXM0bFBmazFkY09lcnVJUG1LU3ItNlJpYnl5X01x?oc=5",
     "pub": "Fri, 23 Oct 2026 20:47:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil hits $117 for first time since April on fears of flare-up in Iran hostilities - Financial Times",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb0xETHRnbVdab1RJSlI5NGFLRXdZdF9jV2dVcjlnV3FzTkl2MFkwRlhQVkFYcFZPOXhjM1RTckp5VHZNblBuWmJGRGZVRmtUVVlwcWNuc3dERFlkQjk1N19kYW1wcWl0dXYtWHRfQnNLcWxqY3FZLW84ck52eS1paFdycXc?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:13:21 GMT",
-    "src": "Financial Times",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84034.92,
    84497.21,
    82546.32,
-   80621.29
+   80660.1
   ],
   "vixts": [
    0.912,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T05:32:17+00:00",
+  "checked": "2026-10-24T05:42:28+00:00",
   "openai": {
    "found": false
   },
@@ -2822,7 +2822,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.55,
   "curve_bp": 31,
   "curve_inverted": false,

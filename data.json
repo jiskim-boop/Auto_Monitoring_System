@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-24T03:32:24+00:00",
+ "updated": "2026-10-24T03:42:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80902.57,
-   "chg": -0.5,
-   "chg5": -1.36,
-   "chg20": -4.56,
-   "sma20": 82819.9,
-   "sma50": 81774.91,
-   "sma200": 72707.64,
+   "price": 80850.11,
+   "chg": -0.57,
+   "chg5": -1.42,
+   "chg20": -4.62,
+   "sma20": 82817.27,
+   "sma50": 81773.86,
+   "sma200": 72707.35,
    "high3m": 86602.91,
-   "reg": 80902.57,
+   "reg": 80850.11,
    "pre": null,
    "post": null,
-   "regClose": 80902.57,
+   "regClose": 80850.11,
    "sess": "reg",
-   "mt": 1792812709,
+   "mt": 1792813288,
    "ok": true
   },
   "USO": {
@@ -1057,20 +1057,20 @@
    "ok": true
   },
   "KRW=X": {
-   "price": 1323.66,
-   "chg": -0.18,
-   "chg5": -0.73,
-   "chg20": -2.28,
-   "sma20": 1339.69,
-   "sma50": 1357.25,
-   "sma200": 1439.97,
+   "price": 1325.4,
+   "chg": -0.04,
+   "chg5": -0.6,
+   "chg20": -2.15,
+   "sma20": 1339.78,
+   "sma50": 1357.28,
+   "sma200": 1439.99,
    "high3m": 1442.28,
-   "reg": 1323.66,
+   "reg": 1325.4,
    "pre": null,
    "post": null,
-   "regClose": 1323.66,
+   "regClose": 1325.4,
    "sess": "reg",
-   "mt": 1792790945,
+   "mt": 1792812652,
    "ok": true
   },
   "^OVX": {
@@ -1255,6 +1255,22 @@
     "geo": false
    },
    {
+    "title": "Nebius Secures $3.5B From Citi, Says Larger Asset-Backed Loans Are Still Ahead - Stocktwits",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQZW8xVVZNbkt3MDlRWFlYdm5aQS1EMjQxamRtWFUzYW9lalNJQ09TOHpfcDZNWTBkLXFncG9VNTlpd2lJVUlXX0ptSVlzNlRkT0VsWHNFVV9jZG96aVlLTlRSU19JQkp2cTA1NE5MV1NJdE5sWGhhQjJxSDJGUlpKSURtQmFwaXpNUm43aWxRa0xvSUxReVd2RFRxeHhhSEpkQXFpdzhFTHF5c2pROUZuWUpReUMtZVBqNmduSjFzdVFIWFlmS1ZST1VZNA?oc=5",
+    "pub": "Sat, 24 Oct 2026 00:30:22 GMT",
+    "src": "Stocktwits",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "U.S. Stocks Fall as Credit Fears Haunt Tech Sector - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNeXBpcEpXNEdyTTRkb0VfcDRmVEdGM0NTbEY5ZXlBc2N2STdjLXBtWGtTVnZYbHlkNFlFVVBnWFdxUlgzNzR2bFlWQjJ2Q3lQYXo4NXFfSEN3bmJPME5BMDdvcjBtSWJqSmRaM2txNVg0MHZzOXg2M2MyWVV3U1BzZjRBY25lWG8xb1JZalBGV0EwdV85RTI1cnlQd0U?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:47:05 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Private Equity’s Stale Marks Fuel Debate Over Fairness, Study Finds - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNQVNOeng2ZlJBRmcyZ0FmZ3lJLUh1YjgtYmlfU2tGUmthSHJWV0tHMlpsMXNUT3RHb01pVzZXRW8zN3RwTDJSN2pfVTBDVVBpTGRSc3FiRFU5M2RZQjJTUXp4bURFR0RhekhPdHFubzFZMk0zUzI2bUVLWllJanRjbVkyS0hTMVJDbjZEaFFmdUJuR053bHhlZ2k1TnEwcE9TNlJVVV9NUFdXVjhuZFVaU0g5NWE?oc=5",
     "pub": "Fri, 23 Oct 2026 23:14:23 GMT",
@@ -1275,22 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOZ0s1UDVwczhoMGNSZE9nNTNTUFN6eVRZQnV5dWlUcHVBcmJPbzQ5cDhMcFhZbTY3dEwzazE5ZklhSWpYSHQwMGdiYkNtWDJrQWE5dk9ibFYyNkxQZzNnVmVGMjhCLUxoaHkxa09xMlB1Y2o4ZGdLVm9ESGVKWlBad1lVVnRXRmRoZVFGZjhGT0ExR1Z0S3p0ZDR5ZEtBcGR0NmVuRUZqV0pJbzFpZlpnUDF5dmdxNWktdGdqSFctTUc1YzdObm5FVEpMdUpzY3g1OTgtQWNqU1hUMlpIS2l1NVNsVERrVDNac2UyRy1TX05VSXZMZ1B0TWxCWUVUM205?oc=5",
     "pub": "Fri, 23 Oct 2026 22:17:23 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "KBRA Assigns Preliminary Ratings to US Signal Issuer LLC and US Signal Co-Issuer LLC Series 2026-1/2 - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOcEtqMVNuNENaeXFONXFoUTlSTmdPTWZFWEtQWFNCZ2l2Rk5Nd3BOMUl2ZDR6cXlIYXpwMXVPVEFUY3A1M0lsTW43Rm9uZzhyaEwwemZIQzFaN3BIQXViQ3daTWpRVnp1bUVjS0o0Z212MzYtLVlQdF95bGVTVDY5S285eXlFN2tpM2pKeEdHMjhKMGVUcWs4ZzBVRWFKN0xRNHc?oc=5",
-    "pub": "Fri, 23 Oct 2026 21:02:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The More They Drop, The More I Buy: 11%+ Yields With Massive Upside - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNb1JGbmhfX3I2VXNRc2hWbl9MVENSN0QyMXdycm9qOE1uM1J5RkZRS2pHS19BMElhWFpTaEs0bGJ2Y3RZeEx5ajN1M3gxZjk1a05IQ0c1TUxlMnM3M2VWakhVM0EwR0tTVXNhek40T2hqYmNKOV91bGk4SVh1RUNfMndxejVNUVQzT00tQmRXbmN5b1ZUckN3ZXJqOVNPT29UOUs1VkZGVUZOdmNXNGZRRGpSbnNIU3Az?oc=5",
-    "pub": "Fri, 23 Oct 2026 17:05:46 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "Vandenberg Supports 71st Launch of 2026 - Vandenberg Space Force Base (.mil)",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPc205NmxtMXFjVFBpUi1QbFd6Q0VrcVBtalV3TkJnQ3NseFZlSmFHS0FlenY2N2NWX0hrLWNNYTRTZlFTS290ekpOM3JOYlVyeEtmS05ZYk5NeVlDRVl5LVFXWlUzdTlsdUl1QkhURXdXZmVQOFA0Q284Q19MMmd2bkpvcWZsOFBTc0NfQzJSMzJid0ZIclU0NE5lcXhkUkpMNmFJcnB3MWN6LWhudU1PMVg0d0otQQ?oc=5",
+    "pub": "Sat, 24 Oct 2026 00:09:11 GMT",
+    "src": "Vandenberg Space Force Base (.mil)",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "NASA’s Artemis III Mission to Test Future Moon Lander Operations - NASA (.gov)",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQckE2a2ROazlEbHgwOEZFOTJiOXVDUHkxbjlmM2NlMUxzMWJBMnRRWFd5VWRMcjNXc2F4NGpqclBYMW5CMjJ2UGhQaFd0SWpHUGZoeUQtc19zOFg5R3l5dHZnTlVsZXZkMmduUnRJTzA4bWRLejRTZ0hjWTJ1bFQ3X3NVdHJQWmJpbHRxeDIxa1lKd3pYWmlTNDhZVXNtMXV6M0NlRA?oc=5",
     "pub": "Fri, 23 Oct 2026 22:37:53 GMT",
@@ -1335,14 +1343,6 @@
     "src": "HPCwire",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Final Hurdle in Turning Semiconductors into Oil... What Are \"GPU Futures\"? [Tech Talk] - 아시아경제",
-    "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1UYzJsRTRjclBLdm1LYlB1WmJOSDRaV0s3MFo2VDd3S191Tzc3eGJYZ3RIMUtiMmE4c3lNVkVHczBfSUI4ZnVBdkFOU0hDNVVXYXhjXzNtZ01NNUNLZTYzVzFJaEc?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:14:00 GMT",
-    "src": "아시아경제",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1351,14 +1351,6 @@
     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQOFJDbDZaTWVTVkh5UnY2WlBNd1B2YVBBWGIwRWZqTG1wZVlBVnB4ZUdtWmdVUjhqVVJETGc4Njc2ZkZVUFdyMUsxM0xWeElKNWJiY21HclZJbmpMZ2RtMFdMNmsyU1piazRVbVZSQndFVjFROFR1c1FKM0U0ejR3My1xbFZYV3dyZlYzYjhLcFI4VnlZbFd6MDY2QlJiNm5XWTNIbUdPMWthc0stemRyQWl4bU9qNFdFSlluU0t5VHBBZmFSNzZReHdENVdJUmZLT2gw0gHYAUFVX3lxTE5GSHNYZUpFT2t3R0VscHBYMnppWGQ1Y1AzazJZdnMxeTEzQUhzMWhLU0NkelJhQVhVMUJiaGtWVDdvVk9VTzM0aXVySC1FMGc4Q281cE1JUnY3UHpFSW1nM1p0dkxteGlmaXBOcUVhWHhCWUpxUC1kbmtHR3l5WUhXV1pWX1A1dzVJay1lbXJzdzdQTEtHTjVpTjJWVmt0YzBaWVROV0xFNktDWm9JZUpITExuR1RzcmtBYXhoaDVfMFdDazJDZFprOUlZTzNtZ3BTV3kxcnZ6Yg?oc=5",
     "pub": "Sat, 24 Oct 2026 02:36:47 GMT",
     "src": "The Economic Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Stocktwits Weekly Spread: What Shaped Treasury Yields And The Dollar This Week - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPT290YlQ1WkhKZTc5bmZmTjRUWk9PQ0hiRjNzRXNkRzF6eW0xVjdTMjZQbzdiaXBEakxXZ3VjdXZDNmxsRXlMdFNiOTVPR0xVN3Bqb09sYXV0V1Y5eXIxRVNac1B0amlkQ2dLTm43c09YQURkNkw4U1U5c3lkTWVxUjZickRIMWFVdVhMOVdPQUQ0VlN2cGxzbm9CdTVGaXJmdkZkU2FQTUlERER0bzZnWHoxaGg2UFdXRVM2Wmt4WllUdEhEYXdJRUU4VC1XTTFWNmxLSw?oc=5",
-    "pub": "Sat, 24 Oct 2026 01:00:00 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1379,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
+    "pub": "Sat, 24 Oct 2026 00:02:54 GMT",
+    "src": "EnergyNow.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil rallies on dual-front war - Oil & Gas Journal",
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPZUV2X3ota3FtSC1qbWVYWmZOdXhMaDhYTjd3QkNqSTg0MjBMVGRGNDI2X3R0UEE5a01LMldNdENEa2dwSlZ3SkhaSXFiT3FJa2c0b0RtSE1iZ2RUY0tHZFFEVmU3aU9HWTE0NUhpMGRkUGtmTGJxaTJHYUJ4aDhXejFfZTJ6ODZpbFBiRWRqakZEb1ptQkZ4RGFfVE9oLXJOMFk0?oc=5",
     "pub": "Fri, 23 Oct 2026 23:26:54 GMT",
@@ -1387,10 +1387,10 @@
     "geo": false
    },
    {
-    "title": "Oil Tops $117 as Fears of Wider Middle East War Reignite Inflation Anxiety - bloomingbit",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE10UkpuUFFaS2FqZ3RZMGp1cGtoMDVxYmhGNGlrSllNSjA3aThCQXc3OHN6cUl5UUFjYmNMLW9PM0hUbk5BUF9qeGVoNjR2MG82dkE5LQ?oc=5",
-    "pub": "Fri, 23 Oct 2026 22:35:52 GMT",
-    "src": "bloomingbit",
+    "title": "Global Oil Output to Return to Pre-Iran War Level by Year’s End, US EIA Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNFA1a0JOZkNidjVKMUdMeFhSZ2dCTFpYbzlER0pmZGRWZUtjMkEtLVVTOUZHSkFwbFQ3cUV5WDNsSldBVVdBdlVqYXpzWllJSTJqNmNVTlpsRVZsU3lOdlNFaE9ZcDVDUHdvdkpjSTl1OFZhTEpmT2hZUGg5cVZ3blpSUFRsODROR3p0TmlnM0habkI3dHZsRm82VVoxY2NOQ20xYjNLTDY?oc=5",
+    "pub": "Fri, 23 Oct 2026 22:54:47 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    }
@@ -1413,34 +1413,34 @@
     "geo": false
    },
    {
+    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:33:45 GMT",
+    "src": "EnergyNow.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxON1BJTnRPVzRvWThVQmxiYVA5SDRZc1lJVXhCeENHMGVpaThRRTVJN0hvbGtXaWsxZmc2VEctOE1SRjhhR0lRcUVWeVdtdGJZbzVIWUpNelVha0M2aFctTEZzYUxKOHpiVkpvMlp6LVotLXF1MVlrWTNFemRsVjlmcE1Rd2hoT2FTUElLLUVCUEN1ZUhXTjRjdDNoZw?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:33:24 GMT",
+    "src": "EnergyNow.com",
+    "trig": false,
+    "geo": true
+   },
+   {
+    "title": "Middle East physical oil prices are falling while Brent crude soars to six-month highs - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQdGdEOEdtRWEzNUZFRGdWN1BGR0h6cnd5eGpMeEhzTjhMTDBlMGtmZE95WUh3WW16ZUtoRURxX2NUQTNRZE9rSU9aOEhITkRMbGpNOE9LWXNoLUpnSTUzMVBEZUtUejVNQ1dVSlVmZmdEZm5OQzRLTDgtb21UZXNpUXZGUzN6YkliZkVFdXNUSGItM3ZHVkdSa01DU2lzUUM1OHlhZmgxUHJuOG1rbjAwUDBKSmE2ZkQ0TzRUdFdwcUxHUQ?oc=5",
+    "pub": "Fri, 23 Oct 2026 23:17:17 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper price rebounds as inventories, stock markets stabilize - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNdVRDWXFQeXhaWC1lck9NcUNsSTdWN3ZhSTNPQndWR0x5UlBabXdSRm4yLVZ2UF92V0JjLTlFLWt5SDF2NTlDYmtCUFlKcUJnZVREdG9JZC1MVTF0d1dpamFXMTFEWFpBUHJWSWlyeXZudkZzUjF2RmFOUl9HeFM2NENRRHdScFdPX052dEl5WHFtQQ?oc=5",
     "pub": "Fri, 23 Oct 2026 23:03:51 GMT",
     "src": "Mining.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Chile copper output faces 9% annual decline - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1BNW9DZFEtVXl6aDRhRndaVjROU1VWSGlwUWRxbFFIYm5oZFpWMFIxVGFST3lOVUE5UkRXeHQzYVBxZWM0bGpnWjIwZlJ6OENkQjB6RlotaG16WjVpOThJSVJOM3Q4TnphZUczNnYxdVBYbnc?oc=5",
-    "pub": "Fri, 23 Oct 2026 21:33:45 GMT",
-    "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Wall Street loses ground under pressure from rising oil prices - Boston Herald",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFAwWE1xZzVvZ2dLQTM1TnFySHVianFuS0c1T0M5UFNMOU90MXcwUmdSenBjcHpObDc5TW1FQWVsZzZTZVlMc1lJUll2SVJWRk9XMjRYT21DeENIRlJiUUZrUmtoa1pmTV9sbG01eC10cEQ3X3dabGNkZVhQQnotYUk?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:51:45 GMT",
-    "src": "Boston Herald",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Futures Post Weekly Gains on Middle East Escalation Fears - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOUUprNnpxZE5idzlOR3htMEsyS0FmSHFfUi1EZ2dpZEVzNGd5ckRsQnVob0daYXdVMzZBbm9YdFBHQk5fV0NIeU5oZjZZdDdCY0FGbXRoUXNtblo4UmF2OUR6VG54LW95ekJ0eFNPbjBRUGp6R1F0S0xsdEc3MmZReXpCT0lIUmxyR1Npd2pYMlRFb3RndXBjU05OTXM0bFBmazFkY09lcnVJUG1LU3ItNlJpYnl5X01x?oc=5",
-    "pub": "Fri, 23 Oct 2026 20:47:00 GMT",
-    "src": "WSJ",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84034.92,
    84497.21,
    82546.32,
-   80906.23
+   80860.31
   ],
   "vixts": [
    0.912,
@@ -1854,9 +1854,9 @@
   ]
  },
  "summary": {
-  "text": "조기경보 주의 2.5점에서 2.0점으로 하락, VIX 밴드 주의에서 정상으로 개선, 실질10Y 수익률은 2.76%에서 2.64%로 0.12%p 저하했습니다.\n현재 조기경보 주의 판정 중 실질금리는 위험 밴드이나 신용스프레드와 유동성은 정상, 채권변동성 밴드는 주의 수준으로 광범위하게 조정 국면이 진행 중입니다.",
+  "text": "조기경보 주의 2.5점에서 2.0점으로 하락, VIX 밴드 주의에서 정상으로 개선, 실질10Y 수익률은 2.76%에서 2.64%로 0.12%p 저하했습니다.\n현재 조기경보 주의 판정 중 실질금리는 위험 밴드이나 신용스프레드와 유동성은 정상, 채권변동성 밴드는 주의 수준으로 광범위하게 조정 국면이 진행 중입니다. · (뉴스 기준) Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - EnergyNow…",
   "change": "조기경보 주의 2.5점에서 2.0점으로 하락, VIX 밴드 주의에서 정상으로 개선, 실질10Y 수익률은 2.76%에서 2.64%로 0.12%p 저하했습니다.",
-  "regime": "현재 조기경보 주의 판정 중 실질금리는 위험 밴드이나 신용스프레드와 유동성은 정상, 채권변동성 밴드는 주의 수준으로 광범위하게 조정 국면이 진행 중입니다.",
+  "regime": "현재 조기경보 주의 판정 중 실질금리는 위험 밴드이나 신용스프레드와 유동성은 정상, 채권변동성 밴드는 주의 수준으로 광범위하게 조정 국면이 진행 중입니다. · (뉴스 기준) Brent Crude Oil Price Jumps After Attack on Iran’s South Pars Field - EnergyNow…",
   "by": "claude",
   "base_d": "2026-10-23",
   "_base": {
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-24T03:32:11+00:00",
+  "checked": "2026-10-24T03:41:50+00:00",
   "openai": {
    "found": false
   },
@@ -2903,8 +2903,8 @@
   "dollar": {
    "dxy": 101.75,
    "dxy_chg20": 0.77,
-   "usdkrw": 1323.66,
-   "usdkrw_chg20": -2.28,
+   "usdkrw": 1325.4,
+   "usdkrw_chg20": -2.15,
    "hit": false,
    "missing": []
   },

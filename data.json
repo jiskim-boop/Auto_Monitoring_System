@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T07:42:03+00:00",
+ "updated": "2026-10-25T07:52:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80592.84,
+   "price": 80591.97,
    "chg": -0.25,
    "chg5": -2.83,
-   "chg20": -6.05,
-   "sma20": 82284.32,
-   "sma50": 81816.1,
+   "chg20": -6.06,
+   "sma20": 82284.27,
+   "sma50": 81816.08,
    "sma200": 72769.55,
    "high3m": 86602.91,
-   "reg": 80592.84,
+   "reg": 80591.97,
    "pre": null,
    "post": null,
-   "regClose": 80592.84,
+   "regClose": 80591.97,
    "sess": "reg",
-   "mt": 1792914086,
+   "mt": 1792914689,
    "ok": true
   },
   "USO": {
@@ -1177,17 +1177,17 @@
   },
   "HG=F": {
    "price": 6.51,
-   "chg": 0.49,
+   "chg": 2.29,
    "chg5": -0.35,
    "chg20": -2.8,
-   "sma20": 6.55,
+   "sma20": 6.56,
    "sma50": 6.57,
    "sma200": 6.41,
    "high3m": 6.8,
    "reg": 6.51,
    "pre": null,
    "post": null,
-   "regClose": 6.48,
+   "regClose": 6.51,
    "sess": "24h",
    "mt": 1792789175,
    "ok": true
@@ -1313,6 +1313,14 @@
     "geo": false
    },
    {
+    "title": "Microsoft cancels UK AI data center project due to power delays - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBMWm4wSGExanZNb3NHZWdBbEo4a2dNaWxCSGp5bEp6Rkc3Qk54bTExYnk1Um5vWkUyOHZJQ21rNmIzSF9oLWNJZHVCaWZDR2tFOW5mNTlDdlNRbnJMRUxPcTQ0MjJtSVZVXzBkWER3eWg3c09sYl9sWQ?oc=5",
+    "pub": "Sun, 25 Oct 2026 05:11:16 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Gamers are turning old Nvidia GPUs into cheap AI chips as rental prices spike - Startup Fortune",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOTW0wbmhkVnJycDQ1TGktZWctX0YxUkhqd25GeEpCU1h4eTdtbWhjQnhsdUhmRzRQamFITDdDeXVkNGh0ZEktU1pBUU5FeExqNjF4Nkt3eGdYTlUwLThtV1NHOG9xZFY5dURKOV9kVnJMQVd1STkySjVVNmY3bk1iRWVzRVJvWXNQU1FQaExETGt5ZWpLWmFBUEFST1lFcnpQZnc3cUxYaUg?oc=5",
     "pub": "Sun, 25 Oct 2026 04:24:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNT3l1R19oZXVNSzhoOVdBdFZEWmpiQmM0aE5pTEZPZEV0TGhzZnBaN3lrTEZMNXhtS05ycWxCS056ZVpjVEtlcW5CY1cycXB2WU01MEE4QjFaNmNVTWk4NmVSV1N2azhqNnlPWGx6UnRXTEU4S1dmUUVsYzZjNld6TzFDekFybk1xUkZSQTV0ZTh3ZFdUaHJMOWtkbmZBUQ?oc=5",
     "pub": "Sun, 25 Oct 2026 03:09:40 GMT",
     "src": "NeoTeo",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Grok Sued Over Face Scans Under Illinois BIPA - openclassactions.com",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPSEtna0gxM0xULU1xclRwOTk2QXBwaWlHSktoSXgyTl9BMkNSZGZOQUJVdzVCMzZEeFNfWDdOTUZueFE0ZGR5Z2Iwb3RqOGR6WHg5MUl5bjluTFgxdkt4NmFEd19QT3AtYXZJMTJsUkNwTUE3SmhHdWZvMnZnX3Fjd2ZvYlJpRWpLUEt0bTRxTHo1ak1P?oc=5",
-    "pub": "Sun, 25 Oct 2026 02:05:00 GMT",
-    "src": "openclassactions.com",
     "trig": true,
     "geo": false
    }
@@ -1397,10 +1397,34 @@
   ],
   "flow": [
    {
+    "title": "3 Oil Stocks Worth Watching As Brent Crude Tests $117 - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPUUNoQnhNMEw1OW9ETlhtc2JSN0pnVHp3ZmpvVHFfdXVEYjJZeHU5dXVtNE9VT3lrRl8wUE5yZWJUVjlJMkk3YnM4X3FnUTRqekRTd1RZaWhncjlnQ19TSTVvRFc5ZlNKNTBiU0R1S0c1OURualdHN3NBOWZQb1ZoeVJmSUktbnlyRkM2cw?oc=5",
+    "pub": "Sun, 25 Oct 2026 05:13:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump Brags U.S. Is Making A ‘Fortune’ Off High Gas Prices As Oil Hits Highest Price in Nearly 6 Months - Yahoo News Singapore",
+    "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTFB3aHRTallUSC1vQmFYZkJCMmptdzhUWnVQLXdWeEhXZGZ4cWNtT1AydGs5RU50NEtja3gxNWgxanU5TEdIcEl2cWNNMFQ1RU1ydzFiendINW5NWHh4b09fbVlJd0FMbFFOd0JpQ3lPV2ZPZk9JVEdVWg?oc=5",
+    "pub": "Sun, 25 Oct 2026 03:00:00 GMT",
+    "src": "Yahoo News Singapore",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Cardano: 22m ADA for copper, vote to November 15 - CryptoTicker",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9keVZuM0UzS1dpdkpfVTk5TUVGUExyVG1McmFZbC1ISk53T0ZWa2xHRU9qZE9INFVxdnFtWUxZbDhUUTUtVHF0dElnNW1KdGEteFBYdG5fcFFmeDJvUTkxSTNJWlM4WC15VllDa3ptdUtNUQ?oc=5",
     "pub": "Sun, 25 Oct 2026 00:29:16 GMT",
     "src": "CryptoTicker",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices today (October 25): Falling sharply, hitting a 4-month low. - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBGYm8wN1pfWWFEQnJjTTRrZElKSEVCdXRESk5nMl85YUtFZ0hickhQbk1LU3c0TXFpS0JpS1VxUnd4WnBxMjlBVlltWmdNejJya1V2WE40dXdtMkRKWEZZc2VEYVZkVHppTl92X285RUpoUmZERnZpYlhIWlg?oc=5",
+    "pub": "Sat, 24 Oct 2026 23:43:34 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    },
@@ -1413,34 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Gold falls below $4,000 amid rising oil prices and rate hike fears, hitting a three-month low. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQbDc4R1FNLWFEd2dYY3U3M25XSGtic05zbDFJSXpiTy1RMmoySUNxcUU3TDNha2tac200TnY3UUx6ZDZ5TjYxTGktUm5IRE4wOWlPWGFFR1FRbjdtQlVVdW9kMnpmM0ZqQkdrUVBDNGg3TlB2WGMwNUxGQy1tLUgzQkl5Y3pEZVNmeVZiOEpLY3VNbTRfSVE?oc=5",
-    "pub": "Sat, 24 Oct 2026 12:49:09 GMT",
-    "src": "Pluang",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Today: Why $4,000 Is the Level Everyone Is Watching - CaptainAltcoin",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNWXIybjZiVUdPaTRxWVNITG9TTUxEUlR1SlMyMl9KMXFHLUtaOWo4eGFQNHMtNUw0VjFsWDFNbkFRbDZHTm15a01GSTkzY3A4MzVPM0pqZ1o2em5Cd3E4OFJia2x2aHNoQWRTeXJzbFBlY2ZucWdQbm93M2ozdE1MZzRqejRkaVZNTlpYMUllNEs?oc=5",
-    "pub": "Sat, 24 Oct 2026 11:34:28 GMT",
-    "src": "CaptainAltcoin",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Japan's bond yields put Bitcoin back in the yen carry trade crosshairs - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUGZyamFmLWtucWVPdTZPbldRMmt0MlkxM2tENllnWTR6U05lNl92Ulc2eUlSREJuUklmcDFTX3lkMDNTVkp4a01FYW1NMVJCVVdjdk5SZmxuOTNQNG9aOXhGX2xCT0Vna1NWRVhIR005bzEyVkRXejk4QVNjak1uZWlvRkZaTFhUcTJJMTh5eXFJd2FQb1NGR3duaEJRQQ?oc=5",
-    "pub": "Sat, 24 Oct 2026 10:32:27 GMT",
-    "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Fell Below $4,000 Per Ounce for the First Time since July Amid Market Sell-Off - Incrypted",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQOGpYTk1iZXRDSW9zdER1M1hPcGtlU3RfNy1neHdkMEhkYjZwdFpjNnR1S20xRzdhaGZ1dnlxOEstWWdHSzktZFFUOEhGczg3LWFRVmZONzVfWVJZMGZLbjk1OEIzWERra1VYLTlvOGxVNFU1aEJwNjZ2WG02QndlR1FkUzJqT1pPb2FrdHJJSDBTcU1vaVk5dWdlQzBCY1dWU3dwdUlrdGd5YW8?oc=5",
-    "pub": "Sat, 24 Oct 2026 07:57:34 GMT",
-    "src": "Incrypted",
+    "title": "Fuel Oil Becomes Asia's Next Cost Shock - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQanFVcGU2U2VGclJsa2VSUTlKUFJFalpNTy11QTd5a0pwT1hrX3dhbHZDRVIwaTRrc2sxYTd6Rk5DR3hWOURCZXJmTU16aTBPbUFnZHlKbk5VYjVWc2FmbUFMaHFWOHlhMmRySC1nX1hINS03MEhQZWsxeEFYNkpqM0JoNWkyb1FW0gGOAUFVX3lxTE0zaEoxQm5iMl9qa2RMZ0JSQlQwSVctZkVVblk2SFpTdF8yR0xoN2d2cEdmcVZqSzViMTdORGFoOVc4TjdFbk1Ec2dxempPZEt3ZUk1bmVEd1cyNGVObkx4SXlQakROUTdJZ2FVUWNQcWMtQ2p6R1VxT0wzLUZVbmNtUW8zeTVKLTRHNDFTTXc?oc=5",
+    "pub": "Sat, 24 Oct 2026 21:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84458.09,
    86480.3,
    83679.47,
-   80598.4
+   80598.29
   ],
   "vixts": [
    0.912,
@@ -2803,7 +2803,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-25T07:41:49+00:00",
+  "checked": "2026-10-25T07:51:48+00:00",
   "openai": {
    "found": false
   },

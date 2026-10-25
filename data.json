@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-25T19:12:14+00:00",
+ "updated": "2026-10-25T19:32:24+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80454.86,
-   "chg": -0.42,
-   "chg5": -3.0,
-   "chg20": -6.22,
-   "sma20": 82277.42,
-   "sma50": 81813.34,
-   "sma200": 72768.8,
+   "price": 80470.63,
+   "chg": -0.4,
+   "chg5": -2.98,
+   "chg20": -6.2,
+   "sma20": 82278.2,
+   "sma50": 81813.66,
+   "sma200": 72768.89,
    "high3m": 86602.91,
-   "reg": 80454.86,
+   "reg": 80470.63,
    "pre": null,
    "post": null,
-   "regClose": 80454.86,
+   "regClose": 80470.63,
    "sess": "reg",
-   "mt": 1792955495,
+   "mt": 1792956709,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 156.96,
-   "chg": 0.3,
-   "chg5": -0.53,
-   "chg20": -0.32,
+   "price": 156.81,
+   "chg": 0.2,
+   "chg5": -0.63,
+   "chg20": -0.41,
    "sma20": 157.88,
    "sma50": 157.55,
    "sma200": 159.19,
    "high3m": 163.3,
-   "reg": 156.96,
+   "reg": 156.81,
    "pre": null,
    "post": null,
-   "regClose": 156.96,
+   "regClose": 156.81,
    "sess": "reg",
-   "mt": 1792955311,
+   "mt": 1792956691,
    "ok": true
   },
   "KRW=X": {
@@ -1177,9 +1177,9 @@
   },
   "HG=F": {
    "price": 6.51,
-   "chg": 2.29,
-   "chg5": -0.35,
-   "chg20": -2.8,
+   "chg": 2.28,
+   "chg5": -0.36,
+   "chg20": -2.81,
    "sma20": 6.56,
    "sma50": 6.57,
    "sma200": 6.41,
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Linden Capital Partners on why healthcare CVs are gaining traction - PEI Private Equity",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUWdsanM1azctMzJlMWRpdE1fNW1qLW9KTk5nSHBEUlktTVRxcHFEX2xTNTNULW85cExpZHNrTHFKVm51d05tQmc0czZsNmJ2Skx0V1lyQ1dRYmFldmQydWtVdWhCNmpFWkFmS0p2TVdJMFRPUzJWOVVFeC1UT2dZV1doa2t6THJJbkNhSTl0UlBHTzVfdXktdTlnVDg2cHdGNHMxSEVaRVR4bjc5akhZ?oc=5",
-    "pub": "Sat, 24 Oct 2026 13:44:19 GMT",
-    "src": "PEI Private Equity",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Why I'm Capping My BDC Exposure At 15% - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNQkJzVTEtREd1NnN2OHZEYVVOUXdWUFNHbk9tSGpwUjJqYkJFQ3ZkOTFIUlpIcTI2SDk3V1dEQmZORVhxUGw0RTcycEhienh1dGlkN2pTelpaV2k2Q3Bzd1VRZHc2WFdNYVY2ZklJeUtDa2ZEZ0ZKWkNWMm5QM2xGUlVBSTI1bWk1a2c?oc=5",
     "pub": "Sat, 24 Oct 2026 13:15:00 GMT",
@@ -1267,6 +1259,14 @@
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOcFUyQmRBU1NrVS1IX0JrUzFBcTZWOWdQU3BwN0daODdyMEEzY3hNcmczb0ZSSk9QaHl3bHJWZDhzdkp3elRQWWxucWV3T2tfRVd5anFtd3p3bHBDSnRFM2JoRzJselJFMGxVN1FxeHlvVzFWRlFRcHhFUGpPZmxXZkpMdzlhVG5Jdk1fZDVxalJWVkNVMXh0c0hDdVk3dDNhclg1dV9IRHFNdUU?oc=5",
     "pub": "Sat, 24 Oct 2026 12:45:00 GMT",
     "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "BlackRock TCP Capital: The Asset Sales Are Just Getting Started - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPcDdZSXpETldiOWc5bTNIZGN0ZTBsRTNpYmRjWFFSbWZEUWRqOEt5ZkNNdXpNbnNBVVFjbVpsMGZobGdvUHg2a1c5R1dVT0I4ZHl0dDdMX0hMdDJ6Z0t2alBhQzZIUkpDRDVGNmlHbkpZZW1JRmZUbFNhTnhtZDJwbUFJb3VjQXZOYzFOYnIxTzkyV0Q3NGFTUEx4bnVpRGtfdW9scE5B?oc=5",
+    "pub": "Sat, 24 Oct 2026 12:12:58 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "AMD vs Nvidia GPU Chart: 32 GB vs 16 GB Flagships [2026] - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNaU53STNpci1OYk1FLXZRekc4QmFFamRBdUpVc3U3YnYxdWNCbVhsbUR6SjZTMWVhZTR4NEZEMkp6a01tYXRiZnFEc0ZlMHFvR0NfNlpBb1FhcUxpcWtTNzRpMTRubWR1VndjQlBLbVpCcEZ3dWpWQ2ZXMC1TVjdQWW9pRmJJbGt0OVRnMUNoMA?oc=5",
+    "pub": "Sun, 25 Oct 2026 12:25:17 GMT",
+    "src": "shattered.io",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX Q4 Capex $35B-$40B, Meta Adds Share Class [2026] - shattered.io",
     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQOVFTTEhiTWlza1BRRnp6bGQ1VTBvWEtOOUlnZFdHekltc1N5MmpIRkNZRVRQeWlWN3RPMDBDTDRGYmF6X0RpNTZIZnY1cUpaOGhuU0FNd3pjM1QzLWZSTVVUS21Vd08zTlRUUW5jcXhldDBNTzgyYi01Mno2VlFYc0lWYw?oc=5",
     "pub": "Sun, 25 Oct 2026 11:00:17 GMT",
@@ -1335,25 +1343,9 @@
     "src": "Seeking Alpha",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "DeepSeek's cheap new model is making GPU scarcity worse, not better - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ0dNeXFpZ01nYl9ieUYybXNGVXkwd3Y1WDdOWG5keFJKdk12LTV3OXRhR0FMT3M3czdhQVpDdmxUaXR3RjFLVmdnWEZDLVZSWlEtZG1fUGV4enozNXhGUGluenFxOGRFM19WX0IzLWhYUklBd3NsOG5RajB5QS13aUYzMEdWRmxLT3RLNElLd3ZPdEgwMGgzTQ?oc=5",
-    "pub": "Sun, 25 Oct 2026 08:25:18 GMT",
-    "src": "Startup Fortune",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "BTIG Strategist Sees Post-Midterm Stock Risk as Credit Weakens - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1Iam04M3NNSnRPZWFybWloUXFPS0xUaTNRY011QzlITjc1bTVXdmhHeWhTc21VUzRTZUplcDVWM3lja3dHeUhUZl9SaGhsRUlSMG9SdnJ4MDZrZw?oc=5",
-    "pub": "Sun, 25 Oct 2026 17:13:43 GMT",
-    "src": "www.tokenpost.com",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Wall Street week ahead: Big tech earnings and Fed decision to test US stock rally - Hindustan Times",
     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxONS02djM4cFZYZjBWSmxQTGJKLWdDbGZTcjBETDhxdk1RSklwbzdPOGNadFZuWl9RQXhKRm9ocE5BclktTjZrMnowNHlaYl9vdG5mUjY5SDMzdkFyT0Q5OHBGV2NON1BPblhKdUxiRWhHYlVFeTg5QTAxZEdpX0h0Z0xYZXotQjNjb2pCUm92cjhib3hjNkF1ZFh3N2U1UWZzQXljRTU2cTV2ZUhqdDBULV8tYkJHeDlnM1FHQ0tkR2tiUUFpRVZzNVRqVjF6a0JBdW4xbWhVcGpseEFEN0U4RnBKTWotUQ?oc=5",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNTnR0Z0pIdzU5YVNySnBWVUxvbTZNcGxUTDRicXBQT2xQTXhrOWVxZU9ZQmZpd255aVNYS2ZRWUtrcF9iT0JOMGo1ejdoNXUxV1JMNFlmdHY5dVJxRnVLcjlWV0VrTU5YVDRLcXhXRGkyUjU2enBQbzdodU56eDc2ZUV1YXRZUEtEc0xDNWt1T01LRC03TFdlVDIzakpnX3h4SXV0ektadFJwS3BTVDFnYzdYekhDOTRQcjRIeThkbnpKdHBPUng2emRjNXFaMnQteUNpdNIB2gFBVV95cUxOTTctN1NBa29udGhPb3doa0hZRzYwQldXZ3JsUDVMTkFKMEpVVWNOYXl2YjZZOG9QV1FaVVVld2JVUHc3WXNTRXVEeWU1MW1EZU16S2lObkdvZVdTOVhySV8tOFNSOG8xaElvOGxTNU8zZUdZNkpRQWNXRXRZeVFKMkdQQnA2czBuR0sxVG9zRjRVZWl2c0hwSEw3VkdVSHhPbW5uTVZxejFqamxwWnJCVGxtNklpclhOMm9EQkJSN1pUZDE4ME5SdzR2YXRMSlU4ZDdGTnRKaHdVUQ?oc=5",
     "pub": "Sun, 25 Oct 2026 12:38:27 GMT",
     "src": "Business Standard",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Earnings reports, Fed decision to dominate busy week for markets | Daily Sabah - Daily Sabah",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOc1BQMEdHOUJTR1FVMTB6TUdIVmtSel84OElXWDNqWFlEcFVnOHd5ZndJdU9kNTNTNkotcTBJdEpsSXpMZnZGYlhrdW4yYnNCSEdaSTY5NTNRZTRxN0xjTnJQdUVDVk55NVJGWEE1c3liWXU1d0dPVEkyWGdGX0k2SGZOd2cwRHNZZDRad183cjVXZ0tZaGhsWWhMZGtMa1NXa2hXRmVLYzI0RE95bTZvX9IBsAFBVV95cUxOc1BQMEdHOUJTR1FVMTB6TUdIVmtSel84OElXWDNqWFlEcFVnOHd5ZndJdU9kNTNTNkotcTBJdEpsSXpMZnZGYlhrdW4yYnNCSEdaSTY5NTNRZTRxN0xjTnJQdUVDVk55NVJGWEE1c3liWXU1d0dPVEkyWGdGX0k2SGZOd2cwRHNZZDRad183cjVXZ0tZaGhsWWhMZGtMa1NXa2hXRmVLYzI0RE95bTZvXw?oc=5",
+    "pub": "Sun, 25 Oct 2026 10:55:47 GMT",
+    "src": "Daily Sabah",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.46,
    157.73,
    158.2,
-   156.96
+   156.81
   ],
   "uso": [
    136.69,
@@ -1735,7 +1735,7 @@
    84458.09,
    86480.3,
    83679.47,
-   80454.86
+   80472.97
   ],
   "vixts": [
    0.912,
@@ -2803,7 +2803,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-25T19:11:58+00:00",
+  "checked": "2026-10-25T19:32:11+00:00",
   "openai": {
    "found": false
   },
@@ -2892,8 +2892,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 156.96,
-   "usdjpy_chg20": -0.32,
+   "usdjpy": 156.81,
+   "usdjpy_chg20": -0.41,
    "vix_chg5": -2.7,
    "hit": false,
    "missing": []

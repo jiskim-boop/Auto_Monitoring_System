@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T21:12:19+00:00",
+ "updated": "2026-10-26T21:22:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 151.8,
-   "chg": -0.39,
-   "chg5": -9.96,
-   "chg20": 4.75,
-   "sma20": 151.15,
-   "sma50": 148.2,
-   "sma200": 144.4,
+   "price": 150.97,
+   "chg": -0.55,
+   "chg5": -6.73,
+   "chg20": 3.23,
+   "sma20": 151.38,
+   "sma50": 148.45,
+   "sma200": 144.45,
    "high3m": 168.59,
-   "reg": 151.8,
+   "reg": 150.97,
    "pre": null,
    "post": null,
-   "regClose": 151.8,
+   "regClose": 150.97,
    "sess": "reg",
-   "mt": 1792789247,
+   "mt": 1793048420,
    "ok": true
   },
   "^MOVE": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.0,
    "sess": "reg",
-   "mt": 1793048484,
+   "mt": 1793049084,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79832.69,
-   "chg": -0.24,
-   "chg5": -4.97,
-   "chg20": -6.69,
-   "sma20": 81969.63,
-   "sma50": 81794.38,
-   "sma200": 72778.53,
+   "price": 79913.39,
+   "chg": -0.14,
+   "chg5": -4.88,
+   "chg20": -6.6,
+   "sma20": 81973.66,
+   "sma50": 81795.99,
+   "sma200": 72778.97,
    "high3m": 86602.91,
-   "reg": 79832.69,
+   "reg": 79913.39,
    "pre": null,
    "post": null,
-   "regClose": 79832.69,
+   "regClose": 79913.39,
    "sess": "reg",
-   "mt": 1793049096,
+   "mt": 1793049687,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.51,
-   "chg": 0.65,
-   "chg5": -0.19,
-   "chg20": 0.03,
+   "price": 157.47,
+   "chg": 0.62,
+   "chg5": -0.22,
+   "chg20": 0.0,
    "sma20": 157.91,
    "sma50": 157.56,
    "sma200": 159.19,
    "high3m": 163.3,
-   "reg": 157.51,
+   "reg": 157.47,
    "pre": null,
    "post": null,
-   "regClose": 157.51,
+   "regClose": 157.46,
    "sess": "reg",
-   "mt": 1793049096,
+   "mt": 1793049691,
    "ok": true
   },
   "KRW=X": {
-   "price": 1325.23,
+   "price": 1325.19,
    "chg": -0.06,
-   "chg5": -0.61,
+   "chg5": -0.62,
    "chg20": -2.16,
    "sma20": 1339.77,
    "sma50": 1357.28,
    "sma200": 1439.39,
    "high3m": 1442.28,
-   "reg": 1325.23,
+   "reg": 1325.19,
    "pre": null,
    "post": null,
-   "regClose": 1325.23,
+   "regClose": 1325.19,
    "sess": "reg",
-   "mt": 1793049070,
+   "mt": 1793049626,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Kayne Anderson BDC: Increased Discount And Non-Accruals (NYSE:KBDC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZE55dkhEYkpiLTRXdkZNWDFOcjd0enVuZEstNjNlZHhzaGluel90TXlvMHM1TU9vRTZZbTBwdkI4S3JkNE1kdnU5RVVCR0JLWE4tREJKQ2kyb2NZZnRiQWJLanBZd1J5ekJKUHczc2hoZlktU2hBVDVSdHo5V3VjdmR5MUQtWjRrakVYSm9RT3RtYk5nS24wZU9CNA?oc=5",
+    "pub": "Mon, 26 Oct 2026 21:12:16 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "US Stocks Close: Nasdaq Rises 0.82%, SOX Gains Nearly 3%; AI-Related Stocks Rise After Anthropic Files Prospectus, Tesla Rises Over 5% - TradingKey",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObkpIYXZYdURldE5NSmc3MndROGdTS0VxV0J2QUt2NEdPWUllaF9vdGVjV0R5Z041WG4zM1VmeDNaYjlCSjR5X0loRUVOM24yVVd2SzM2c2VsSkExRm5vajdvRDRLeGpQX3dPRWF6NXZvR2VDYVRmcGl6Mzk0bXZMcm1uVi1HeXhKcHJlaWkxZEZBVC1XSXVFOFIzMlBEcDFOS2ViNWRpMEFMdTRQYVlINWpvT3BUMTZDcWhDb2s3YzRVVWhZbnctWg?oc=5",
     "pub": "Mon, 26 Oct 2026 20:22:37 GMT",
@@ -1263,6 +1271,14 @@
     "geo": false
    },
    {
+    "title": "CoreWeave Debt Fears Hit a Record — Some Are Whispering 'Lehman' - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNeldVOG91QVVVWUZ5UlZuVHJOVEhMTXc1dnVRTHZxZ1FRSm5kWDdDUFpsT1hwWjN6RGhGUkNGNVdIX1JVUkZjX0RRQmtwQjhMcGdoV1pSeE8waDBTOUpMY2Z6TXR6MlY3Z3Q0OWIzNnI4UzlVc1ZDVXlTUnB4WGZVNTlGSC16WUtvbE1KNnYxLUZoUXV5Z3lYR3BB?oc=5",
+    "pub": "Mon, 26 Oct 2026 19:58:10 GMT",
+    "src": "Benzinga",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nebius Stocks Gain Despite Musk's AI-Funding Warning - TradingView",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWEFzQ0hacTdvemZ5ekZuM2RiZzNybjlsMlN3TXZzbXp0VVJkTUxnSHV3RGR0U2swN1I4UjIyQWx0dGtfTlRMZ0pmZGNqemJFcDM3czVGTW1KNFZ0M25VLVJHRWpPOGN1VmlpSWRNLUlHZERZYjhhNzh4c09FQlJhdDB6eFBpeDY5N255dll4eGpQSEkwRUpKOXR1SmJ3M2s5R1Y1RU5rbGZ5ZVpuTkVqYmFn?oc=5",
     "pub": "Mon, 26 Oct 2026 19:55:21 GMT",
@@ -1271,36 +1287,36 @@
     "geo": false
    },
    {
-    "title": "Morgan Stanley Expects Data-Center ABS Spreads to Widen Further - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOOEpQQS10MkZyRmNfVllCOHg3cWdfb2lMQWltVzR6cUs3QW5iSEU1RG52RmFHZVJyTEdHRFNyV1J5TExfalZBQkhwSjBfOEM5ME9WLV9Fc1ZubHRMR291SGZ1SHpnS1RQNlhQeUpXdXktc0dVMDJmVzZOeHBiRFBiaDc0RjJDOGwweUlMOVA4bDhFT1ZXZ1dCa1VodTNmRDhCRlFEcF9ISUh5TW9tZ0xMTkhJaXg?oc=5",
-    "pub": "Mon, 26 Oct 2026 17:46:52 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Singapore, Philippines agree to explore nuclear energy - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPV2NQRU9nbWFURUlLVWY1MXN4UzNTRnNnUDRtT1pPbk5XNk9STW43WlVHNmhBcjhyaGhMS0lMUS1JejZWVG9sZ2FLZFkyNVZqWVZoTVlndm1uLVlyWUo5Q21sd2xMUWwybVAxTkplcTNxeG14eXNockk1MDNITVdwbHRfWndlX0h0YWJocU1GSDJGNnVQQkktaWIwazdIb2diWmZIUEczYVNxRVk?oc=5",
-    "pub": "Mon, 26 Oct 2026 16:37:09 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": true
-   },
-   {
-    "title": "Cox Capital launches lending program for BDC investors - Citywire",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWW5NY0s3RWdxOVNESTBXUlotQ0ZUXzdlZXlaV1NuaVpTQkIxUWh0aHhiNzF4elgyYlM5WVdzVXMwQVY4LTZoeUpORmRyYWpTVGJrVjlCd2F0aG9Tbk9NWGp6bDJUeVFqdHNtVk94SmJoY1ZKSW45N01Hak9EREVNbExxM250bTIzOGFjTGxiYTNEV1RiZUNOUW9TNHdJc0Zy?oc=5",
-    "pub": "Mon, 26 Oct 2026 15:42:47 GMT",
-    "src": "Citywire",
+    "title": "Musk Says 200+ AI Neoclouds Face 'Guppy-Level Death' as CoreWeave, Nebius Shares Slide - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1Ed2lnd2p4YU5rX1ZRbjVuTk41UmI1bVdfdHVnbXRLV1NRNkZIMzlNbkNaN2J3OV9rdXEtZTZvT0gtSkI4MmpQR2tROFd1SXNlajdRY2pEY1dKOUlSandYeFlwNUtUcEFfNDhic0x4eE5hQnZPNnc?oc=5",
+    "pub": "Mon, 26 Oct 2026 18:15:00 GMT",
+    "src": "BigGo Finance",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
    {
+    "title": "SpaceX fires all 33 engines on Super Heavy booster before bid to catch both Starship stages - Nacionale",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHdmZW5Jb3Rudm52QWZyVWh6aFJkRTU2bEttRGxLSllOeklzeE9sNHhBS2VTb1VkRGFVMUs3Ynd5OGFDcEV4cHFOWU1sdm9KRnFTYzhUWkYtWFNfNTdZRGpMbGJpM3dTa0Y1R283UkxxVXBSZGVmbGhIbV9URlAwX2JLakVyZjM4Ymg2T1FxWFZvZlo1ZGdrSHhhLWxiY3pJbGkxTC1QU0dzb1pG?oc=5",
+    "pub": "Mon, 26 Oct 2026 21:01:05 GMT",
+    "src": "Nacionale",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic reveals $80 billion loss, surging revenue as it prepares to go public - The Washington Post",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNNmtiU2pPX05WX0lNRndwX1E5VkZ5ejV6azhBVUpfWWJMM1RMeHcycHo5OGcyemtKZUVWOFdwQ3FYUW1zR2N0eEFqUEJPZ09JSkU0NzNZQzExX1FuMjRXaUtyODNSeDlRdWpsLVItdE01YXhwc0JreW5veWdHSUJXRjI5c0hTa0pmQ0ZKYzlVZGhKbmNmdlN6QTJjX3dRZU93LWZpVFc1UWppSEl5UlVrWnQ4SWsybkE?oc=5",
     "pub": "Mon, 26 Oct 2026 21:00:41 GMT",
     "src": "The Washington Post",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Injective launches GPU rental index perpetuals with up to 10x leverage - Crypto News",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WSjJMT3Y1YlpWLVdNS08ycWt4Sy1YeDZvd0lCcEM4NHZ2Rmp2cDExT2pYVjdJWFhEWllKWTVQSXNQVlBYQnBsc1JPdktCTGVhdlFuYjIxU01vV19SRGtNQm15ZDJVOGcyWVF4bi1DNU0?oc=5",
+    "pub": "Mon, 26 Oct 2026 21:00:00 GMT",
+    "src": "Crypto News",
     "trig": false,
     "geo": false
    },
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBJYkxwT2Jra3FyN2NVZU51TWN3UEZMR3hiVS1ERHE5aHVTaHhkdTdSbDI2U2t4NkZxMnFyZmlsY1hmcVRhZlJndEFaUWlDZDJhVXktTTBWMWZDQQ?oc=5",
     "pub": "Mon, 26 Oct 2026 20:34:01 GMT",
     "src": "Cryptonews.net",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic's blockbuster share listing - 5 surprising things we now know - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1oZC1MQzBIVnZ5MVh4ZTZhQ3FtV3NkTkVrdXJPYWMxWDZsa3lPZElDOFFoYm44azY4MGxfNWVyTVgtYmRYMFVDaktqaXRJdjNMdi0ySjNUeTl4Y0U?oc=5",
-    "pub": "Mon, 26 Oct 2026 19:57:23 GMT",
-    "src": "BBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "TSMC reportedly weighs CoWoS price hikes of up to 20% as AI packaging stays scarce - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5WaTdfXzE1T3Z6UXpWMHVPRWZ5VGc0NmxYMnlja01LTkhrQTM5akZYdkxNUWszSS1JcUQ5ajNrQ2pYNmI0ZXQtQlFQQmNjdFJkZEhBd2ptN1lEMXhwMDdpS3E2bVV3VVRPRl9EYWhB?oc=5",
-    "pub": "Mon, 26 Oct 2026 19:42:19 GMT",
-    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
@@ -1397,6 +1397,14 @@
   ],
   "flow": [
    {
+    "title": "Has Oil Replaced Gold As 2026’s Most Compelling Safe Haven Trade? - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWFM0TUtUb3A2NkZRRHR0UWFpSGxpQVAzQmV1bDJkZ0h4Zm13VjBJcndpVVdzT0llaUlCVTZleGtHWWJzTzVmb0l0Wkd4bFh4TTJTVnJUaFZRdDVueHRUdnRsTGNxOXJEcHlvQml3VG1xNGplT09vZHhzZTRZeTdkaDNZRW0yYlFvdFA2TWVuXzExdHRlWXR5NGZ4dzVPcEMtb1NPTE12bXRxSkRCNmp1RkxETDE?oc=5",
+    "pub": "Mon, 26 Oct 2026 21:19:28 GMT",
+    "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Fall as Traders Weigh U.S.-Iran Diplomacy, Saudi Attacks - WSJ",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdHd1Q1FTWEFlUlUtZ1FQRWJfYm1QYm5KZW1jTVA2cS01R0cxb0xsNVNrdXJVNm44VTd2ZWN4WnY1R0tla0JuM3NVUmpBVF9GLTl2WEdFRmNUTFpEVUpHVHQzdUREUFBwN2ZEZ2xGcThUa0lKamdzaEY2c19pRy1PcXZCd2hPUmRfTmQ4bUNGWkFPbTM3Z04zLXB2bUdtclBvVmpmQmhqcEloSTJUOHg2ZzRsbEI?oc=5",
     "pub": "Mon, 26 Oct 2026 20:14:15 GMT",
@@ -1417,14 +1425,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNWk9kRWJfSkYwUzNmQ3pfOUVSU21YWjFpWjJDb3YydFREdDBHSF93TUhjYTkzaXdXQkExcTdUZEJCQ1A3M2FnWG04NFpTaXBQdFVFdnZzOUhGakFrVlgyNWNZV2VwUlFiLXp6TVdkelRhU0tUWnNqQWlqR3NfcS1fY0FVZkNkYzR0RGVoa05GMmJQM1ZldUFPcmstazJVM1dTS2c?oc=5",
     "pub": "Mon, 26 Oct 2026 19:57:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Column: Quantum copper steals the show at LME Week - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9wdUpDbmw2dG80Vm5GZ3hBUnBWS3VKWi1BdXFoNE9tc1pWcmtka0x4eU1fQndadXVIbnFCcnNWWVhVbzB0UVRqalVqWllkR1JYdkd4cDRyMDU3ekpFTUZfdjNTVEpVWTBoY2FnNDhtRjNZQmJLU3dhVm15Y1E?oc=5",
-    "pub": "Mon, 26 Oct 2026 18:46:52 GMT",
-    "src": "Mining.com.au",
     "trig": false,
     "geo": false
    },
@@ -1675,7 +1675,7 @@
    157.46,
    157.73,
    158.2,
-   157.51
+   157.48
   ],
   "uso": [
    124.76,
@@ -1735,7 +1735,7 @@
    83502.61,
    85786.59,
    81762.56,
-   79841.14
+   79900.0
   ],
   "vixts": [
    0.924,
@@ -2812,7 +2812,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-26T21:12:02+00:00",
+  "checked": "2026-10-26T21:21:50+00:00",
   "openai": {
    "found": false
   },
@@ -2901,8 +2901,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.51,
-   "usdjpy_chg20": 0.03,
+   "usdjpy": 157.47,
+   "usdjpy_chg20": 0.0,
    "vix_chg5": -0.27,
    "hit": false,
    "missing": []
@@ -2910,7 +2910,7 @@
   "dollar": {
    "dxy": 102.0,
    "dxy_chg20": 0.8,
-   "usdkrw": 1325.23,
+   "usdkrw": 1325.19,
    "usdkrw_chg20": -2.16,
    "hit": false,
    "missing": []

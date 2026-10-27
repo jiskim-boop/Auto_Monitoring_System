@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-27T21:32:26+00:00",
+ "updated": "2026-10-27T21:42:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.35,
-   "chg": 0.39,
-   "chg5": 0.61,
-   "chg20": 0.97,
+   "price": 102.37,
+   "chg": 0.4,
+   "chg5": 0.63,
+   "chg20": 0.98,
    "sma20": 102.02,
    "sma50": 100.64,
    "sma200": 100.2,
    "high3m": 102.58,
-   "reg": 102.35,
+   "reg": 102.37,
    "pre": null,
    "post": null,
-   "regClose": 102.35,
+   "regClose": 102.37,
    "sess": "reg",
-   "mt": 1793136109,
+   "mt": 1793136693,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 81077.25,
-   "chg": 1.34,
-   "chg5": -0.29,
-   "chg20": -2.64,
-   "sma20": 81868.39,
-   "sma50": 81837.08,
-   "sma200": 72792.62,
+   "price": 81019.81,
+   "chg": 1.27,
+   "chg5": -0.36,
+   "chg20": -2.71,
+   "sma20": 81865.52,
+   "sma50": 81835.93,
+   "sma200": 72792.31,
    "high3m": 86602.91,
-   "reg": 81077.25,
+   "reg": 81019.81,
    "pre": null,
    "post": null,
-   "regClose": 81077.25,
+   "regClose": 81019.81,
    "sess": "reg",
-   "mt": 1793136713,
+   "mt": 1793137298,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.91,
-   "chg": 0.69,
-   "chg5": -0.38,
-   "chg20": 0.35,
+   "price": 157.93,
+   "chg": 0.7,
+   "chg5": -0.37,
+   "chg20": 0.36,
    "sma20": 157.91,
    "sma50": 157.52,
    "sma200": 159.17,
    "high3m": 160.2,
-   "reg": 157.91,
+   "reg": 157.93,
    "pre": null,
    "post": null,
-   "regClose": 157.91,
+   "regClose": 157.93,
    "sess": "reg",
-   "mt": 1793136717,
+   "mt": 1793137303,
    "ok": true
   },
   "KRW=X": {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
+    "title": "Parents Sue OpenAI Over Daughter’s Epilepsy Death - openclassactions.com",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNWGpGUzZHUDFLTWJ1R1Nmbi1Tc1JzRTdyUjFPMVBsdko3bkZYaWFhMU04czVFcU16dXpNbXJXTHdZVXdMemhlMWRIRnVwTjJSX0FpVTczbnBzVEZDaXpLZnJ4WmlRMXNuck9RZ2RreW91TnE2MHhrZkZNWEoxYUFWZU9nZHFFRk5oVFNNQS1OS19EMEVoTXQ2Wlh2OA?oc=5",
+    "pub": "Tue, 27 Oct 2026 21:07:57 GMT",
+    "src": "openclassactions.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Investors Anticipate Micron Stock Rally as AI Memory Shortage Gains Attention Ahead of Earnings Reports - SSBCrack",
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQOHlhd3lSRVhOWDFmM1YtVEdWNVNNenExeHhtY21ZUkFrVzF1RXZ2Q2Y2ZHdIbGNsWVdpbXBlQVhiY0NNRUM1SmEtUUpKQ0NtdmRjRDZFNXJDTFQ5MFZUUFVGZ1Y1dEF5ZndjLXVVWTVJR0szeVo1LUhHUDBGcnRtWkRockh5WnFmcXJ5OGZ4S3pncWJpZ191R2ZQMURPUV9MaFZsRm4wYXdEUjVjX08zbEZRbEphQlF1ZUVqU0ZzVE5ESDVZaHVkOXVR?oc=5",
     "pub": "Tue, 27 Oct 2026 20:31:07 GMT",
     "src": "SSBCrack",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Early progress on accelerating drug development with Claude - Anthropic",
+    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5IbmplZ01nQUt5R0hldklCR3FRMlVWZy1RcFZlc1VpRDhVNk00Vzd0Mm5QdlNXb1NncmxTX1ZFZTl4Xzl5bkpqUU56OGVxWjlZWmN6SjM4cVFLX3dkU0RUNWJVQ1JZTUswTk1iSzJ1MGwyUldn?oc=5",
+    "pub": "Tue, 27 Oct 2026 20:20:53 GMT",
+    "src": "Anthropic",
     "trig": false,
     "geo": false
    },
@@ -1313,34 +1329,18 @@
     "geo": false
    },
    {
-    "title": "Why Anthropic's IPO contrasts the 'cult of Elon Musk' at SpaceX and Tesla - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPaXF4MmxxVU8tVFd0RWFNSkFuNFg3RFFCRlFrY1Q4eHRET21kdlhyV042STlIUnhiaGRFa1hlbHBTeV9qZE5Qbk9MWGZILXEtdC1aazVsc2xLMmw2VzdnVUFkc2t0dkZyZGJaR1VjYVNId3pTakRZazFkcEhaMnQxVnlYUlZhUFVmc0RCLWJidXdwekJJejAzWFNoU0l1MmhJX01QenFGQkJiMFM3WS1lWHphMklxdVVIb282cmNVdHRkOE84U3NxNmtLS2dRVjA?oc=5",
-    "pub": "Tue, 27 Oct 2026 19:24:24 GMT",
-    "src": "Yahoo Finance",
+    "title": "California Regulator Resists Funding Threat Over SpaceX Review - Bloomberg Law News",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUEZKMV9nSDVUSzdWR3d4NXQ4eWtlaFczSXg5bDlOaVhocVBaVGFYY2N2M19ab0YwNDVNaERPaV9FSzRHd3hPdnVJTm9tXzYxbS1Zclkxa0NoNG55aWFEQ1NuR3ZWbEdFaDJOcnlWR2YwVTRkcjdWS0wwdVJSUjJvSDRuWmswSndFN3U2SUNkZ216bVY5WmVhNTRGdWJjMjlYaDhQT3hkcjJyVzVBdV8tQXNNSXpnQQ?oc=5",
+    "pub": "Tue, 27 Oct 2026 20:18:00 GMT",
+    "src": "Bloomberg Law News",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Who Stands to Gain From an Anthropic I.P.O. - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNQTJqNWFTVDd0dGZUZEZKRDdFMm9ZTzhhODBZMXQzbGUwRHVjMkJjNlJ1ejcxMjlOMUNDcFNJNDVJYWZMOTVZNXR0M1UyS0V5U0cyOUNfUjFNZ0VTUFprd3BuSXZCM1ZYMnMyMTQ5T21iVkplaFBaMUZkWTJLWHktcEFGRnlFWWh5MTg2UXNZRVNiQlk?oc=5",
-    "pub": "Tue, 27 Oct 2026 19:17:28 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Microsoft Expected to Report Higher 1Q Revenue With AI Growth, CapEx in Focus -- Earnings Preview - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOYk85OUNBTEtYZllHNE1ydHVhNDhyeDhzWmtGN1o3enl0aGNLNHdUZGJ0cDhsQUlpdThYUzJ4XzdxejEzWVRnbWhFYkRCZFNlNE95THFDVHpndnZKenlkNDNTTmxDM053dndUaW5WRmpHdWtSSngwY0FaOE5QTDJPSjFXbFRtX3o3Sll5Q3FpakZiazVGT1NXcFFHUmE5ZWlUazUxVnd0RQ?oc=5",
-    "pub": "Tue, 27 Oct 2026 19:16:47 GMT",
-    "src": "富途牛牛",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "TSMC Gets Fresh Pricing Power From AI Chip Boom - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNRFVhLW5QQTNJS1k1bEk3OVNrY29sVVZfZkFoWGlQMDJ4aXVVc1hwa0tQVG9Cc3hvUGN0SVlLSUtVWTJwNmh0d3BnSXhhWlQzQ2NfYWdOQkY1ekZFRm4yTjVIS0o0ZkpmQ0VGb1M4dzNDa0N4M0R5a1dOZEtRbHVnaGUzX1V1SFNlckxNTEQtZWpkc0dqZDV4aTgyQTJYRUhhXzZ1RWJWQnItRGc?oc=5",
-    "pub": "Tue, 27 Oct 2026 19:03:08 GMT",
-    "src": "TradingView",
+    "title": "Nvidia's worst nightmare may be lurking inside Anthropic's IPO filing - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNT0JQTk8zZ2tFMldwSU5hLUJ2NzNfMDlxWWlWX29sWGk1bjJzZzdzb0V3OXM3Vmd3VDRqeXd5NVF0b0VPdFNYeU1UMXJwQk11M0l2OEFJN3JTc2I0aWdiNUxibVZ3MlpZQ1B4YW9wa2t1QVZac1BlaUVPV1JFRERVRmlBRWhZR0dyeWR3T0ljS0JMZ1NvQVV4eERfWHZWLS1XMVZaNEV3QWZSQTg?oc=5",
+    "pub": "Tue, 27 Oct 2026 19:42:27 GMT",
+    "src": "Business Insider",
     "trig": false,
     "geo": false
    }
@@ -1351,6 +1351,14 @@
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWEF1cTN3OVpBSTgzbE1qckRGU2ZLd0NQZVVIbVB0NXUybEVmdWlaelo4bWthV0xvUy1VYzNRRVBsU3p1bFpxZDB3OC1ZaG9mbnQ2NFRlLXBnTHpTNVU1N21ydTJlRE1CUEhjUXZndHRzLWNtVG55d2JQYWRNZGgtWWRFMEtvUWZzbWlvTXI2dFhyX284UGZqQ1pRaEFuNUFTbXdfUmlvUGFQV2g5V1FzZGMwTUxWT1N1UVc2SkRUaVVaQU4yQXJUZEpUaDk0bmZRa0VxU0dHLXlMcldrSUtackx4ZWR6ZF9D0gHuAUFVX3lxTE0tVzZkb0c3eHBsZmVDcW9WQlU4OExFVi1ZZ3lUVmJLUFc1anAtUUJRb3NEdUNZV3BVV0NFQy1pN1ZYNlgtNmhFUFYzMG9la3A5dzBIdVp4VjNENTVGaTNjYkxTNHMtQjZqU3AwRG52WXd1RzhvT0piYWpqcTN4SkR0YjFlNmVJa0RfNGtlMFozb1NROFo1X2VHU29aOTBPZ2JuSmhwOXVVV2dMQnVnZWhpdjB4WXAtZGRPOGNwSk8wdmtwbk9JaTFiU292a1U4QU5PbkFwblgtLU9OLXlwdkR1NW02NFUwUm5QdDllb2c?oc=5",
     "pub": "Tue, 27 Oct 2026 21:26:00 GMT",
     "src": "ETV Bharat",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold climbs above $4,050 as Wall Street rallies ahead of Fed decision - Kitco PM Report - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcjRRaHpiVklRZWs2dGN4Mlk1SGxlVjR0aW81SGZvR3V4dUpRMW9wTi15cFhZcmVtYUszWTAyY3ZFd1pZQU5vRnNIcm1YOVBxbjlIRWdiNDJkQ202OEJWcGtoQm9SY0w3OW5BeU9iejR2UElrVjB1Yk9VQUVaMzVyd2V6c3FEMHRqN1dyMWpiNldUaW5iWGRMSGgtMjl2aXpuOV9GNzVxNU5zYnFLbnNkSlFCSmdNamM?oc=5",
+    "pub": "Tue, 27 Oct 2026 21:21:51 GMT",
+    "src": "Kitco",
     "trig": false,
     "geo": false
    },
@@ -1379,18 +1387,10 @@
     "geo": false
    },
    {
-    "title": "How investors can position ahead of into the Fed's next policy decision - CNBC",
+    "title": "How investors can position ahead of the Fed's next policy decision - CNBC",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOXy1vYmcwMnBoVHRzWUpvUjIxSE4tOGlCMVRvZXJBNGtaTS1mRVpqMTloZ3dvcXBBSGdCUjdianprQVV1VGh1N01vT25qQURYbmhSQjc1dXBGSlR5SG1uWnJhMWRlaVJvYUg1QThKa19yOW9XbVFSakdGSHUtU3AwVzczOE9WTWxuTURnVWVLckZXelh2djlYM0hOSF9Ld0t2US1rd0hwT3RId2c?oc=5",
     "pub": "Tue, 27 Oct 2026 20:00:01 GMT",
     "src": "CNBC",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Steadies Above $4,000 With Fed Rate Decision in Focus - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNLTRVUHViYXZZWTg4WHdFSXgxV1ZMS2FqdHgtUUxQSlJxN0JzbG5ZNXdOVTJFMUR2VmEtaU9MUGl5T2VXUHg0YmliUFdIOEIzVjhYdHNmUmo2aXVtMll3eGp6WkJCTVRtUl9SQmd0NmFTZXBma1VrVDNXZDVSc3V4M3hrVlFFeU9iV3VmNDhGM2FVQnRvZnA1bFBpSjRfZmRYeGJDX2ZWVEk4OXhE?oc=5",
-    "pub": "Tue, 27 Oct 2026 19:37:36 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1401,14 +1401,6 @@
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTGtDZEV1UG00UzNFU2dWZFFXd3ZDM3pwTjlKTEpzMzJGVzY2X25XRGhaMUJ0STlNV29NNWdrbTUwa3YxY1R5X1BtNENKYW9pcm11bUx1dVF6TmVyYWpYVTBCYW9qUXF3U3UtVDNvcGJ0MU9ZOTVPZktjTmsyTzNrLXBfT2tfTWgwR1M5aGh5VTNiOTF2S21RQ2FnYmg5T3M1UncwX2IxNXVUU3NrQ0pPTVJOV21oVnhyS2gzUHd0dXFNLWhh?oc=5",
     "pub": "Tue, 27 Oct 2026 21:15:13 GMT",
     "src": "TradingNEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Cardano’s $5 Million Copper Bid Faces Huge Price Obstacle - DailyCoin",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQMmd2Mk1PZVNuTnVjOXZXSVBXNlVycndNejNONUJSQWdqNWNKTzFERm8yV3Bnck81ZUQzSWNmVGpXSWVmbTc4T0RBTEpvd3hVdEN4bTlqVGZCWHpEN3RLVHhhdVg0MW9jSVJzY2YyTU1zT0E2R1hBMmNPcENPZGt3QnZYQ1c?oc=5",
-    "pub": "Tue, 27 Oct 2026 21:03:00 GMT",
-    "src": "DailyCoin",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPQnhlUHpzZEdCUmF6b0gtcTlLbXlOV2hjdFVocmdVbnp3Wk44NlhxNVpYdmstOU1WUTZJazN1QUxHZDZGM0U4RzlrdWhUUnNXVnUzUnhNX0wta1p3bFZQNWZnendNV3UzTlhvV1BLV1c0ckc5dmpSM3Q3YmdXQ3hkalJpSVIyRHZ3MHVYbkt4ZUJDaXFhSFlFd2FvTEd4UU5Z0gGmAUFVX3lxTFBoX2xMbjRWQS15N29TM2tPU0JfdThvX3V2TzB2U2RQQndxa3d3VV9SNHFFTndaOVVkUFJQZjVCZUtSVF91U2hyb2hfY3RIZUY2VmUzZjc4ZjFQdm5NMHMzeTdNNWw5RGtzTzdmRnZXb1JON3NPc2JRSTBfMzNvbW56dFoxZ2pSdGdjZFIzd3J4N19hOHh5V3ZwVFhwc1FRdm5RRlhjblE?oc=5",
     "pub": "Tue, 27 Oct 2026 20:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil falls almost $2 as Middle East talks help ease supply worries - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPZkRSSnhZS0hONm9MdE1qcVpHMjFlY254SEt0UjF2WnFfQmpRYXlSY2pJeWMxTzR5SF9UQWxhZlNGbVZObDNlaFV0QnhsZ1dMV1RPR20xal94SE42cEsxd1YtMGk3MEdldUZ4SGpraThFcWhaZWJ5NGR2aHJqNjd4bnY2TQ?oc=5",
+    "pub": "Tue, 27 Oct 2026 19:22:57 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    101.37,
    101.83,
    102.18,
-   102.35
+   102.37
   ],
   "bizd": [
    12.65,
@@ -1675,7 +1675,7 @@
    157.36,
    157.96,
    158.52,
-   157.91
+   157.93
   ],
   "uso": [
    120.49,
@@ -1735,7 +1735,7 @@
    83622.43,
    85557.56,
    83095.12,
-   81068.92
+   81007.64
   ],
   "vixts": [
    0.94,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-27T21:32:13+00:00",
+  "checked": "2026-10-27T21:42:00+00:00",
   "openai": {
    "found": false
   },
@@ -2897,15 +2897,15 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.91,
-   "usdjpy_chg20": 0.35,
+   "usdjpy": 157.93,
+   "usdjpy_chg20": 0.36,
    "vix_chg5": 1.21,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.35,
-   "dxy_chg20": 0.97,
+   "dxy": 102.37,
+   "dxy_chg20": 0.98,
    "usdkrw": 1326.81,
    "usdkrw_chg20": -2.41,
    "hit": false,

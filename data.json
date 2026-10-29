@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T21:32:27+00:00",
+ "updated": "2026-10-29T21:42:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -854,7 +854,7 @@
   },
   "DX-Y.NYB": {
    "price": 101.93,
-   "chg": -0.25,
+   "chg": -0.26,
    "chg5": 0.31,
    "chg20": -0.17,
    "sma20": 102.05,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.93,
    "sess": "reg",
-   "mt": 1793308908,
+   "mt": 1793309493,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 79295.64,
-   "chg": -2.43,
+   "price": 79300.01,
+   "chg": -2.42,
    "chg5": -1.85,
-   "chg20": -3.94,
-   "sma20": 81671.81,
-   "sma50": 81908.94,
-   "sma200": 72828.35,
+   "chg20": -3.93,
+   "sma20": 81672.03,
+   "sma50": 81909.03,
+   "sma200": 72828.38,
    "high3m": 86602.91,
-   "reg": 79295.64,
+   "reg": 79300.01,
    "pre": null,
    "post": null,
-   "regClose": 79295.64,
+   "regClose": 79300.01,
    "sess": "reg",
-   "mt": 1793309510,
+   "mt": 1793310099,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.67,
-   "chg": -0.2,
-   "chg5": -0.29,
-   "chg20": 0.07,
+   "price": 157.65,
+   "chg": -0.22,
+   "chg5": -0.31,
+   "chg20": 0.06,
    "sma20": 157.92,
    "sma50": 157.47,
    "sma200": 159.14,
    "high3m": 160.2,
-   "reg": 157.67,
+   "reg": 157.65,
    "pre": null,
    "post": null,
-   "regClose": 157.67,
+   "regClose": 157.65,
    "sess": "reg",
-   "mt": 1793309516,
+   "mt": 1793310094,
    "ok": true
   },
   "KRW=X": {
-   "price": 1338.89,
+   "price": 1338.84,
    "chg": 0.91,
    "chg5": 1.0,
-   "chg20": -1.32,
+   "chg20": -1.33,
    "sma20": 1335.77,
    "sma50": 1352.66,
    "sma200": 1436.36,
    "high3m": 1428.5,
-   "reg": 1338.89,
+   "reg": 1338.84,
    "pre": null,
    "post": null,
-   "regClose": 1338.89,
+   "regClose": 1338.84,
    "sess": "reg",
-   "mt": 1793309511,
+   "mt": 1793310097,
    "ok": true
   },
   "^OVX": {
@@ -1255,10 +1255,18 @@
     "geo": false
    },
    {
-    "title": "Source Capital Increases Monthly Distribution Rate 10% - Finviz",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcENkRmdjOWlPODNvaXR1a2EzN3BldEFGcUZReEtNeVl4LWVqMDJWLUM5dThPTWpKTkVQN05xNE9JRG9Rdkc2NG5OWUh5VnJ3dFRyTFpqQVcxWGFrRWlNUHdtX2NMWW92NDFBS3BKTXp1QjhkLUwxbDJxY1BEcFZReUFCZy1DNV9IenZyVg?oc=5",
-    "pub": "Thu, 29 Oct 2026 20:38:38 GMT",
-    "src": "Finviz",
+    "title": "Source Capital Increases Monthly Distribution Rate 10% - Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNFM4NmNhcEZVanlRN3pYZTdvZW53c3Ruc1FpSGc4dkFyMkxKcTlYTk9uc1N6eFVwU0tGTHROd0NCMXFLZmtUVmtMX3lUY1hmTFdZemtaekRNS19WdjJWZWQxUmhaNFhRWnNIRWx2ZmVTdC1YVWhwY0VNbEw0TlpHazV1Z0hiTjhkRXdaWFFyVTR2aklCbU9jOE0wM2FYNUszR3VKNDhDZThtRjJzV2Rj?oc=5",
+    "pub": "Thu, 29 Oct 2026 20:20:00 GMT",
+    "src": "Business Wire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Ares Extends Lead in Area of Private Credit Primed for Shakeout - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0M4MmNLbk9YMzJfaHQ5bHByVVI0TWFkQ0V5X3ppcm8tdlI2eVd0dFNFSFFTRldFWDU5N3lWZHEwSEdCcTdSSTBFX0NxTXJmZkcxMlN1TVcyUkZNRGp2SWllcE9aX1JqNHNUZkg3WXRCVVRyVWZNTVJrTGdWd0QxSUpTT0xNM054Zk1UWGpmd2M3OG11M2JLZFVpaFdUYkJISEtobjVSbDV4MGxjeFBaS0h5Tm8?oc=5",
+    "pub": "Thu, 29 Oct 2026 19:20:06 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1279,23 +1287,23 @@
     "geo": false
    },
    {
-    "title": "Private Credit: Facing A Brutal 2027 - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOdWE1bVhSTDRaWWpfM1JNUUNkRmk5UEJtSlZwU0J3aUJTcjdxd1hjMVFac1VPVVhuaXI0VFpabjNwcFdzZ2VQelk5MERyaTBGeDZfajBwOVo0Q3RJdHpRN1lPeVNPQ19XODRvOGJmYWlLSGZLOTc1T0xzRUdXZXlValpn?oc=5",
-    "pub": "Thu, 29 Oct 2026 13:03:18 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Non-bank NAV lending margins widen despite fund finance pricing pressure - Alternative Credit Investor",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQenU1cTFZTHdUTnBHZldpdVZDV0FyVGs0bUxFdk5NV2ZtLVZkTVh6SnBVdW5QZ25fQ3kzbDFsMFpLTi1VeTl5clBmOXA0aWtHMUxQVVFZVF9BUlowYWsycjh2VHIzVmFPS0lQSjhBY1BCc3NFSmp1OUg4ZG5wd09LR2pMaTAtbHNKY2oxU2lvQXBCV1gyanMtN2N6QU0yeWtrVzFkR1B0VGJyYkJHejZTaHB5ejNIVDNxSDBrdVJ1Yw?oc=5",
-    "pub": "Thu, 29 Oct 2026 11:07:09 GMT",
-    "src": "Alternative Credit Investor",
+    "title": "Is Ares Capital Corp a Buy After Its Latest Earnings Report? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSFh0SkhOMXhVcUZtcHAwMjVtUjF0elpRY0c1WG91and6dkV5aXFFcHlYcFdDOURWb3FZZ2JzSEFlbUdUVWFHMDRabGctZHhEOEVsYW9ibTBsc0dtT1dWRW9SS2hYaWpEcmVyR0lWeUdndW13OEdYTTd1Rlp2Mzdrdk9SN1g1V1FVdzhHelppNnc2UEFjZ0hob1BEXzJQUElSdkd5VQ?oc=5",
+    "pub": "Thu, 29 Oct 2026 16:05:00 GMT",
+    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Google, Amazon and Meta Lined Up $325B as Capex Outran Cash - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNZ19ZZGxtdGJGRUVoSmMxWEF6VVBXM0lKcGxhVWQzLXdkVWctQWEyMHByVFA3QlhUXzVEYy00aWhabTZRMW5PYXUtOVVHWDNHVUp2N3NKaXlqTDdpT1BoOTBqbjBFTnloZ1UzT1V1R1ZiYTVvdGw3VS0zcmhLcDVuX2pNcEJ6d2tZQ1NwYzh3?oc=5",
+    "pub": "Thu, 29 Oct 2026 21:25:07 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Lawsuit says ChatGPT persuaded person to stop taking epilepsy meds, leading to her death - Mashable",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTmpLdEJORWVLUDJwUnFYUHR5bnY0aFVtUFhKVW54VTRreWE2VkM4eVRkaWtuSEhhb1A2YmZpVU5FcDdXY1BFU2JGZ0pOX1FaNUNaUUFUaWV6MkN1OEo1R2VPWlc2OTl1SUhERGdjSFhuUGRCeDNreEx4U2NVUGRwbWV2bEd0T2NjVmxv?oc=5",
@@ -1335,14 +1343,6 @@
     "src": "FourWeekMBA",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Samsung’s 2027 HBM Supply Is Sold Out as Shortages Worsen - SammyGuru",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9haWF6SWlncFNTdHE2eUdXdm9Ja2FZOUtTMy11Nm1qSExwUzYwY21IZWRQeWszbXF2U25ZOUJaXzh6V3R3d0Q2LTI3NHctU05xWHZOeml3VWdFQVBBQW9OSVJzV2x4MXlXb0JFOE9jU3VMZzlXZm4xbjlLYw?oc=5",
-    "pub": "Thu, 29 Oct 2026 18:46:05 GMT",
-    "src": "SammyGuru",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1371,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "Warsh’s ‘Forward Silence’ Risks Bigger Treasury Market Swings - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQZzdFbTR0Tm11V3ZMZkxaYTU0d2NuRW5SYmhHOWFqWjdTOVU2cUhoa3kyLUlTT2tvVXRKaHYwbnVLMkNqa2RUdF9QOEVFeHFEUnJwLXVubUh0VzBIWmZfSnZGbkVaOERxYmRfUzgwT2F6VWFMYk80Rlc4eTF4VEZnMVFuM2ktdm5EQldmVG5Sc3I2WWpaQUpjRnlESUFBdDhlM1F6MU5SU3k3TTVYMWZv?oc=5",
+    "pub": "Thu, 29 Oct 2026 19:23:34 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Shell profits double to $10.8bn as Iran war pushes up margin on oil - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUZ5dFJPeFNSVHdMcWlFazJSWmYzVGwwUnZHOGcyQXpyYTlPcTVGXzU0eXJSN0prQ2dHNXBjaWxfWnlLc2RrandVX1JyQ245M2E4UUFYZDFVVUVyU1ZYUTJaQWd3MDZRMkdKRlJxRDZIRXdJREVBWURaUDlWR2RwVVE4MzJTSGlXVXR2Tkk4VW02c2huMFBDM0YyczMwOHBIMnR3aldyZlJFT3dBenc?oc=5",
     "pub": "Thu, 29 Oct 2026 19:04:00 GMT",
@@ -1379,18 +1387,10 @@
     "geo": false
    },
    {
-    "title": "US-Israel war on Iran - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1LSVFkclU2MmJEVzNmZUhwajZUQ3JQSjRWSzZrdFlueFBSZEl3Ql81eWZfVVZNbmtMXzJpWFBQNXViRjYyaGt5YTU5bkxYOW5xSV9vNUhiQXhTYmZKamZkLTBsYk50dw?oc=5",
-    "pub": "Thu, 29 Oct 2026 18:59:33 GMT",
-    "src": "The Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "VIX falls 3.7% to 16.29 during US trading - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOSWMxSUR4Vkd3VVZ0NlNaaUFoRzRpOElIWkQ4czEwOGRGYzJMMjVZLVdGYm1HbHhkQjJDSFFZWkpaSk13VG5CVjRDSnBNdnQ4NHE1ckhheFo1QW10YWkzclB3bE5QOGtYcHRkVmhlQXJZZXRNMnU3MlEwXzhXdjd5dDR6U2pnTkpnN2NEaFhsMzhkdC12c0hoWHE1M0ZSNkQ5ZGx2Rw?oc=5",
-    "pub": "Thu, 29 Oct 2026 18:04:02 GMT",
-    "src": "ad-hoc-news.de",
+    "title": "Sovereign bond volatility reshapes credit, and selectivity follows - Investor Strategy News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPMHVmU0FxRWZyOHU0NzJyRERzRXd0Tk5oOWlvZG1DblF3LXJLQ1Q4QjRvWk5pbkNyelp0WmNIdWtKVVpOZG5WSlhORVVLYVgxT3dWUGticUdwbWdJeXMwWW5yejdRUncyWUhPYldZd3RRdFljVUZnbWlfdHItZC1WTS1WX3I2alNHQVZReG93?oc=5",
+    "pub": "Thu, 29 Oct 2026 19:03:37 GMT",
+    "src": "Investor Strategy News",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.56,
    158.06,
    157.96,
-   157.67
+   157.65
   ],
   "uso": [
    127.48,
@@ -1735,7 +1735,7 @@
    84853.1,
    81676.34,
    82141.46,
-   79306.6
+   79291.45
   ],
   "vixts": [
    1.059,
@@ -2789,7 +2789,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-29T21:32:14+00:00",
+  "checked": "2026-10-29T21:42:00+00:00",
   "openai": {
    "found": false
   },
@@ -2878,8 +2878,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.67,
-   "usdjpy_chg20": 0.07,
+   "usdjpy": 157.65,
+   "usdjpy_chg20": 0.06,
    "vix_chg5": -9.62,
    "hit": false,
    "missing": []
@@ -2887,8 +2887,8 @@
   "dollar": {
    "dxy": 101.93,
    "dxy_chg20": -0.17,
-   "usdkrw": 1338.89,
-   "usdkrw_chg20": -1.32,
+   "usdkrw": 1338.84,
+   "usdkrw_chg20": -1.33,
    "hit": false,
    "missing": []
   },

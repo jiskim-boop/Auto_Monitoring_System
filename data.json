@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T21:12:10+00:00",
+ "updated": "2026-10-30T21:22:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 151.03,
-   "chg": 1.54,
-   "chg5": -0.89,
-   "chg20": 5.79,
-   "sma20": 152.37,
-   "sma50": 148.84,
-   "sma200": 144.68,
+   "price": 149.76,
+   "chg": -0.84,
+   "chg5": -1.34,
+   "chg20": 3.37,
+   "sma20": 152.61,
+   "sma50": 148.97,
+   "sma200": 144.72,
    "high3m": 168.59,
-   "reg": 151.03,
+   "reg": 149.76,
    "pre": null,
    "post": null,
-   "regClose": 151.03,
+   "regClose": 149.76,
    "sess": "reg",
-   "mt": 1793307620,
+   "mt": 1793394046,
    "ok": true
   },
   "^MOVE": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76563.47,
-   "chg": -1.56,
-   "chg5": -4.32,
-   "chg20": -7.66,
-   "sma20": 81278.35,
-   "sma50": 81878.44,
-   "sma200": 72824.37,
+   "price": 76642.1,
+   "chg": -1.46,
+   "chg5": -4.23,
+   "chg20": -7.56,
+   "sma20": 81282.28,
+   "sma50": 81880.01,
+   "sma200": 72824.79,
    "high3m": 86602.91,
-   "reg": 76563.47,
+   "reg": 76642.1,
    "pre": null,
    "post": null,
-   "regClose": 76563.47,
+   "regClose": 76642.1,
    "sess": "reg",
-   "mt": 1793394693,
+   "mt": 1793395293,
    "ok": true
   },
   "USO": {
@@ -1247,18 +1247,18 @@
  "news": {
   "credit": [
    {
+    "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
+    "src": "Benzinga",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "CoreWeave declines 10% amid financing concerns and tech selloff (CRWV:NASDAQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUl1TGZJVzdvMTRhU25mbTFrTVRYc1p6SzB2NjlyRmNIZERxWWtWWXZqM2tqRmN2R0ZGa29PY0NhTjRLNUl1Sk1CTGJ4YkUtQVFuV3NYTVZxY3RmUWNPb2p2Q1RlMldua1JjMXdNbGQ2aW5uaW9zVFZGSkhKYWVRaW9HU1ZBb3FKUHgyazFybVZQWGFwZmY2dER3QWtZVmJUTVE?oc=5",
     "pub": "Fri, 30 Oct 2026 19:50:41 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NAVigate 2026: Five themes shaping the next phase of NAV finance - JD Supra",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSlAybldPdHlYTUtfYmlqMzFoaDVpQW5MdVd1aE9FNmowVTduTUQtZ3VLOHRMZlQzZ3Z5akJWUGtzQVpSNmpqWEVjSnliMGU1RXBiVmk0QXViZkQ0ZFVWa2FRRUttVmc1dzZkX1kyYXU0VUJnVmdxY1V4STdPdjc5LUVZNnduS2s?oc=5",
-    "pub": "Fri, 30 Oct 2026 16:55:45 GMT",
-    "src": "JD Supra",
     "trig": false,
     "geo": false
    },
@@ -1279,23 +1279,39 @@
     "geo": false
    },
    {
-    "title": "AI financing surges, Moody's warns of refinancing risks in 2027–2029 - IDNFinancials",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaS1xcUNBSV9COUZkNGZJRGFfTW51YUZGUEkyLWVoc3RZS3pfdmRZeEJLMmRrdzA3X2RXbURzTVVPSHZraEdhTEJNOHZhdnhlR0xvRlFzcWdwd2xNTWJEYnZseDhhaElHcEprOXNnWVAtSVNoamhCWThucnlKNGhRdURuRE51UUxvWmFFMDVOREZESTBzT2RCbC1ERzJ1VjJydU92YzFyY2czZw?oc=5",
-    "pub": "Fri, 30 Oct 2026 12:20:00 GMT",
-    "src": "IDNFinancials",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Treasury says private credit plays ‘vital role’ in UK economy despite risks - Alternative Credit Investor",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2U4UFhRcXFZVzh6ZVFOYnFIYVRBT2gtWnhZNElLQ01uWFJ0XzhSWEVBRGNMZU1YWmI3R0pCelNZMVFRWTh2eVlvN1NvUzdQUzdGNzdpc3VfNlRzOHJTRW9LbWtLZXFUcks3V2xqUm5FSEhhaTZDWElnb0hTMW0xbVNsWFVkdjQ5c2hKRDJDa3Jnb29Wc2RBNzFZYk9MUF8ydzVheml2ZWJBekNQWDFMekZPY0xWWG94QlRGdkY5b0Q?oc=5",
     "pub": "Fri, 30 Oct 2026 11:53:58 GMT",
     "src": "Alternative Credit Investor",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Elon Musk vs. Jensen Huang: Who Is Right About CoreWeave? - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMTVTcXlWckRaU2tpX3lGRUF1c2JtMjJ4bm5jUUlMYlJEQUVpYzgyX2hBbUljaXFiMmFwanlNeUtXQkRRRU1iYkJleTV1cEhNS3prbWJDZ1VLN3k2cEdWWGU5ejhEUlJuQThWcTZpVXRLcWJHbEZjWkNEMDd0djNKdE1Mb3RSWnRFUWtFODZFRjEwVTR3VUNmRw?oc=5",
+    "pub": "Fri, 30 Oct 2026 10:10:00 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNkNDLXpLZ1A0VklROTJVenpDRlZBWE10ZE1qWWk4ZFVqalgzWWJFdThSd2ZKeUhDanVRQjRhVVVZZGlGZzY1UWYzLXRSZTNHNDNPTkZZRUFJazAzYmV6NzF3QUJtNjhkWHY5OHZNZWVsSFdyY0NScGJadnE3T0dPTWtBUXZOaDJPYWJuX1NOVXkwbGlQSW9MdjlXTlNQTzdLZEdzTHFsQ2gzaEcwTkNHZTNCNF9hMG9lazFHRXItSzg?oc=5",
+    "pub": "Fri, 30 Oct 2026 20:42:09 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Nvidia Stock Falls 5.3% as Chip Index Drops 8.7% - FinanceFeeds",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNSjVpTVJVTGJmMHRHWVZYZ2pCblBPNmY0WVQ1aEFPeDJodDZMUS1oMTNlNFNjSFdZOVVxTXpXMVphNEFuVUt0b241QV9Tb2hwZ2tXYURrd2V4VHQ4UXU4b2pjM04tS09wZ09sT3JRc1RWU0FDeWxlenZJdkZPall6c2J4MUlsNjNsVmliTEl6Q20?oc=5",
+    "pub": "Fri, 30 Oct 2026 19:48:10 GMT",
+    "src": "FinanceFeeds",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "AMZN Stock Set To Drop For Third Straight Week: Amazon Taps $80B Credit Line To Fund AI Capex - Stocktwits",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYnZtTWxaSGhHVEIxZ2xxcHYxdFBVSUJVRXNPaGJBMlBoVnZ3UmdDWGZyV1dUV2ZsaTZCcHc0MGpRR091NElxcWdoVDF4MHloaUdTbG9fOF82ZTU2TmNKQWxFeHIzS0hNaW1ia3lMTVhMWVhOelJjMWlPRXFwN3BGclVaZzBHWDdyYWYwWVNqelZUMHhRX091c1ZGRDFKcVRHZzh0TERvUG82cVJyMWJKYkhRZHpJLXpkbUhOYWNHZUFWMm1rdFdLWklLYzcxZTU5TkdMeE8xZVBTWFRQbG8tWTY5Vi0wZzZsZ0I1Vw?oc=5",
@@ -1327,22 +1343,6 @@
     "src": "BigGo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns - Mecklenburg Times",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZ3NDSGNKcFhFVktFVm9hLUF4VVlzSjBuaHNFaG9RMjVWTVItT1VTQ0VjYXRHOXpQNjRHRFpLSW0xd0tNQlAxSEt6TFBMSnVLak8tNEpSVzdWbXRRbWRaOTlDNlVlZ0Z0MzNNR0UxQmZ3aVk5UloycWhRZ3gtaTNSNjJSNUcyTmFVZkNib25QOTJaMDViaWJBOWRHd1ZZODE0N1JteWwtM2tnVHdSb0FpTTh3?oc=5",
-    "pub": "Fri, 30 Oct 2026 17:27:11 GMT",
-    "src": "Mecklenburg Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nasdaq faces $2 trillion wipeout in October as AI spending fears deepen - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPNkNDLXpLZ1A0VklROTJVenpDRlZBWE10ZE1qWWk4ZFVqalgzWWJFdThSd2ZKeUhDanVRQjRhVVVZZGlGZzY1UWYzLXRSZTNHNDNPTkZZRUFJazAzYmV6NzF3QUJtNjhkWHY5OHZNZWVsSFdyY0NScGJadnE3T0dPTWtBUXZOaDJPYWJuX1NOVXkwbGlQSW9MdjlXTlNQTzdLZEdzTHFsQ2gzaEcwTkNHZTNCNF9hMG9lazFHRXItSzg?oc=5",
-    "pub": "Fri, 30 Oct 2026 16:54:28 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1371,26 +1371,26 @@
     "geo": false
    },
    {
-    "title": "Fed’s Logan Sees Two More Hikes, But Says Pace Can Be Gradual - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPbGcwWUQzWE1xTW1SekU1Ty1CcldjeGtwbnRPM2hDQWlhVjlYNjFiWkoxbUNNcm5meE9LQTlNdUNPTUU1MEhLeHpKX0tPMEstdzZNbXZFYjJvZnhOSWowRG9CV2hEdGtVVmcwZHRiS1VNa2RGdUU0X2VPREFlZWhNWGtZTmtfcDExdDRQUW1tWE85eFB0RW5VbktKMjdQU2N2blB1NndPS2JFRVdJOWpueg?oc=5",
-    "pub": "Fri, 30 Oct 2026 19:36:18 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "FOMC Will Need to Raise Interest Rate 'Soon' to Tame Inflation, St. Louis Fed's Musalem Says - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQVFZ6Rk5FdEtFME1rVHl4R05XM0lBanpOaEFyZnl2dWZpNzFIU2k4NGUtOTBaXy1jX3h3YlBWUlZYV0lZVXVWUjZiaHBWaTExLTZsSmx3b2FCa0NEd3Baekk3di1YeV83anduN1BMdWFxMXNyb3pxT2FyUk1FT3NzbzZTNFF1cHVSUm9BUHNmMWxqODRRdV84cjl3?oc=5",
-    "pub": "Fri, 30 Oct 2026 19:33:30 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Deer Park Starts Second Home Mortgage-Debt Fund as Spreads Widen - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeGNmRUlmWC1Sa0tQR0YxTmhXNTJrUGlqUWllZWlFR0U4ZFN1RmR2ZURTSFpac3VKRUVITjZOQ2lTZUpNeG5VQnRWc1F0cHRNb2ltWTZMVTlmTF9JQldua0pVQjBZV2swZEdZTUEtR0swWW9Sd05ZMi1IeE1wd0hWNXlNMjBWNUhIWTNOaHhfdnl5Uzd4STRkOG04UWZjWlExb0w1LUhQbmc3WmM2M2FMOURNTGRiZw?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPQUFQTk53X1UzdDhtSHBYUWEtNVNHQTFGSHNETUFqSWhEYjJKUkVxYXpUekx1MFJMcllzVHBYV0dfb3lWVk1HamYwR29IcmQ5b01YQWphWnVXdkFuRHRGc0dxb2xhWTlCRVNGSWlFSURvMzFUQUYzV1FJbEMyT2piME1ld2Zfdmh4dldEWWc4cDVxdTZMaDJ1R2JBdTE2S1ZPejh5cTRBb2xaWVJOWGFaSDBvOGJKcWhxMWgydWZCTFVuZUZCdG5oaTFn?oc=5",
     "pub": "Fri, 30 Oct 2026 19:29:31 GMT",
     "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "VIX Rises Above 20 as U.S. Stocks Sell Off and Risk Aversion Grows - TOKENPOST",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE01T1FWbXJ6bHdwVFp6UGNhWDN1NnBwVXVFQlRhTVNNTWVkaDVoZDM0bTRFMlE5QjBVbkJzVl9HUTUwZXZkYUpUWjJiNmstQWxieUxJQm9FRmJnZw?oc=5",
+    "pub": "Fri, 30 Oct 2026 17:41:11 GMT",
+    "src": "TOKENPOST",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Fed needs at least two more rate hikes, Logan says - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPN0l1dXR6NGI2OV9OZGVkZHRFdzNqcVBnSGRFamxWZlNaZTNsQmdIbXRHVXc5VE9FZzcyWUI4YU5hai1VZlVtY2ZsQTh0VDgxYmtJT1V3X0NvUEZvRjBDT2VaQUdaeDdIWkZ5MlhraUdTVHJYSlM3RFVzU3lVNjctTzU2eFMzNk5kbDBIWlR2RWJ0NkQ2Znc?oc=5",
+    "pub": "Fri, 30 Oct 2026 17:35:43 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    }
@@ -1421,26 +1421,26 @@
     "geo": false
    },
    {
-    "title": "Oil futures: Crude higher as diplomacy stalls, tanker attacks continue - Quantum Commodity Intelligence",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPelk3X3Ffd2tSR2hxczhlY2RmUl9lLVE3VEhZaWFlc1FnSjUxS3RJX2M5bUsyTlBpcXBtSVFzNmVrajRsNFQ3b19BUlJMRUdYN3FadDA0bnNZell1djlGa2lKZXNfNU1GS0huYmtaQ21CNEVhemlIYmZfbVRweDJlUDE1U0VoMkJfV2NZVHpCSnczQUgwa01xamZWUGRIMDg1TXZkQ3U0SUdQWDRsWkdqMQ?oc=5",
-    "pub": "Fri, 30 Oct 2026 19:21:01 GMT",
-    "src": "Quantum Commodity Intelligence",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Chevron Profits Nearly Triple to $9.9 Billion - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOY3J1d3BjU0lQVVhOaWM4TTJsME53c1hTQ2x2dlUwV2ZVNGJOUExUbUJsOEF4STZnTjBwT0x4ak9QeXVJLXJQOHFpMi0wRVF6Ylh1YUpKTW5rQWVpNDhEZDdqYnI2RVF5SzhPdVlmZ1BneHNwU05VTTF1cHVoZWJzU3VmMnAxSmpYeklwU2ZIYjRNMWxUX29vMTNBYS1nSUVt0gGmAUFVX3lxTFBqdUNGN1Zac1Bkc2ZEeVdBaVRLek9YeHBjZFpQSnBvTWlOYkljMkk2WW9lT18zWkJNaXpDN1dubmU2ZzZTYmp2WHVrNVVPbDVmTVQ2UllMTm9jNGxMelJFM0VwZHkxMnBRNWhRNDY2WUV4UHpCdzJnSGlMYnViZDhoQVhEdzBDYTNBMGxoQ1paTmxmZFhGaW1DWEppNFBRblpZWlFyWkE?oc=5",
-    "pub": "Fri, 30 Oct 2026 18:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper Price November 2 2026 - Robinhood",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRkd1SVlEczBoM3R2WjNCQ1lYdE1WNGRvLXJ3emFrWGxtWDYwWXBtT1RGc3pra2lpUDdFNGp3UWUxcDdzazBQcXJHVkdjMm5sN2hvQXdobXhwOGU2bW1QM0dwd1g4NFRlYk54VW1VeXhBZ3ltM0Z2X1ZPTEx3RWJvemFjcVRJMUdKQkZQX2RPbU1zMTRrWG5FY3RVUHd0bnAxTHBmRQ?oc=5",
     "pub": "Fri, 30 Oct 2026 18:21:49 GMT",
     "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Chile's Cochilco raises copper price forecasts for 2026, 2027 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxON1R5SzE4b0Q1eERFdzB1WDRidUdZSEJsdmhOM20xdlg5a2xmQnRvNVhrOEowVHhFYk9pSkFhVFNYSVJMQVh3YjJaSEFtLXAzaUVfWWE2ZWxGc1ZFSVNFdzB2dDk5bWZHZEhnc0gzb2VsSW41Qk5McXlGY1lMTVJaSVlObXE5dU9kb2Q3T1FIVWNEWXBJQ3BzNVVPQjR2SXRnVFVEdHlWTjd4VFBEYkNMRTI4dFVHZXRRRFQ1cXZKQ0lwb2h6dy1LdUt3?oc=5",
+    "pub": "Fri, 30 Oct 2026 17:42:46 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices drop sharply at the end of October. The collapse of the safe-haven myth or a search for liquidity? - XTB.com",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxONFNrbWpmWjYxRGdBdG43UFU4TmJTckV3ZlJTYmIwNlRGNW1Ba0dwNmo3U2VsWldfUmY5bWZYYzFSVWs0RktBVzJSdWVfQWFfeVNma0QtMm5FRnJkMldCX2xCR01JazZOVHFDRi1NcDMyYndwcHhURk96cndMOFd3LVpOYnFRd2tqZ19XZEJEU09rNVlEVnZXTU12SXEtMkY4R0E2WDRaUUdQdEF0QmV6dThxekpBQXpteGd4emZtUWJ1dHNidnYtWjJQRWpMTTZXN04yT0lkTzhIcV82QzAzODM2TlBMOWgzNEJ6RS1sSnBNUklabHFXelF3?oc=5",
+    "pub": "Fri, 30 Oct 2026 16:12:45 GMT",
+    "src": "XTB.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84497.21,
    82546.32,
    81500.8,
-   76549.36
+   76647.96
   ],
   "vixts": [
    0.899,
@@ -1854,8 +1854,8 @@
   ]
  },
  "summary": {
-  "text": "전일(2026-10-30) 대비: MOVE 밴드 정상→주의 · SPY 당일 -1.77%\n경계 판정으로 사모대출 약세, 시장 급락, 신용등급 확대 등 복합 약세 신호가 감지되며 실질금리는 위험 밴드에 있습니다.",
-  "change": "전일(2026-10-30) 대비: MOVE 밴드 정상→주의 · SPY 당일 -1.77%",
+  "text": "조기경보 경계가 3.0점에서 2.5점으로 하향되었고, MOVE 밴드가 정상에서 주의로 전환되었으며, SPY는 당일 -1.77% 하락했습니다.\n경계 판정으로 사모대출 약세, 시장 급락, 신용등급 확대 등 복합 약세 신호가 감지되며 실질금리는 위험 밴드에 있습니다.",
+  "change": "조기경보 경계가 3.0점에서 2.5점으로 하향되었고, MOVE 밴드가 정상에서 주의로 전환되었으며, SPY는 당일 -1.77% 하락했습니다.",
   "regime": "경계 판정으로 사모대출 약세, 시장 급락, 신용등급 확대 등 복합 약세 신호가 감지되며 실질금리는 위험 밴드에 있습니다.",
   "by": "claude",
   "base_d": "2026-10-30",
@@ -1926,13 +1926,12 @@
    "d": "2026-10-31",
    "f": {
     "ew_st": "경계",
-    "ew_score": 3.0,
-    "ew_axis": 3,
+    "ew_score": 2.5,
+    "ew_axis": 2,
     "ew_strong": 1,
     "ew_hits": [
      "사모대출 주가 약세",
      "시장 급락",
-     "SKEW 급등",
      "AI 밸류체인 약세",
      "CCC-BB 확대(품질분산)",
      "CCC-BB 저점이탈(+30%)",
@@ -1985,25 +1984,25 @@
     }
    }
   },
-  "_delta_key": "fa338f9b5f",
+  "_delta_key": "ac5c79d3ef",
   "_regime_key": "408acd1628",
   "_deltas": [
+   "조기경보 경계 3.0점→경계 2.5점",
    "MOVE 밴드 정상→주의",
    "SPY 당일 -1.77%"
   ],
   "_src": {
-   "change": "engine",
+   "change": "claude",
    "regime": "claude"
   }
  },
  "early": {
-  "score": 3.0,
-  "axisCount": 3,
+  "score": 2.5,
+  "axisCount": 2,
   "st": "r",
   "hits": [
    "사모대출 주가 약세",
    "시장 급락",
-   "SKEW 급등",
    "AI 밸류체인 약세",
    "CCC-BB 확대(품질분산)",
    "CCC-BB 저점이탈(+30%)",
@@ -2490,14 +2489,13 @@
   },
   {
    "d": "2026-10-30",
-   "score": 3.0,
+   "score": 2.5,
    "st": "r",
-   "axis": 3,
+   "axis": 2,
    "risk": false,
    "hits": [
     "사모대출 주가 약세",
     "시장 급락",
-    "SKEW 급등",
     "AI 밸류체인 약세",
     "CCC-BB 확대(품질분산)",
     "CCC-BB 저점이탈(+30%)",
@@ -2793,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-30T21:11:56+00:00",
+  "checked": "2026-10-30T21:21:56+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T17:29:11+00:00",
+ "updated": "2026-10-31T17:32:28+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77456.64,
-   "chg": 0.33,
-   "chg5": -3.19,
-   "chg20": -7.44,
-   "sma20": 80998.95,
-   "sma50": 81896.79,
-   "sma200": 72852.84,
+   "price": 77415.68,
+   "chg": 0.28,
+   "chg5": -3.24,
+   "chg20": -7.49,
+   "sma20": 80996.9,
+   "sma50": 81895.97,
+   "sma200": 72852.62,
    "high3m": 86602.91,
-   "reg": 77456.64,
+   "reg": 77415.68,
    "pre": null,
    "post": null,
-   "regClose": 77456.64,
+   "regClose": 77415.68,
    "sess": "reg",
-   "mt": 1793467715,
+   "mt": 1793467914,
    "ok": true
   },
   "USO": {
@@ -1247,60 +1247,101 @@
  "news": {
   "credit": [
    {
-    "title": "[수집 실패] HTTP Error 503: Service Unavailable",
-    "link": "",
-    "pub": "",
-    "src": "",
-    "trig": false
-   }
-  ],
-  "fundamental": [
-   {
-    "title": "Elon Musk's AI company is reportedly targeting 418 homes near its Mississippi data center, with buyout of - The Times of India",
-    "link": "https://news.google.com/rss/articles/CBMijwNBVV95cUxPVklqUThRY3d3YkcyOUF5V0JWUnBBLXBfTzdQdGxSbTdSWTlkMTFpSHA5M19TVWdiZzdfNG4yMFRFek1PekQ2Z2FSc0tYTzVFSUpaX0o3OWpRenNCeWg5NW8xMlVhZTVkNGVvMWFrcmVYWlgxRW90ZXpRbjQ2ZGRjYk9jTDBEaWVOVTRwQlY0T2xUOTVCVklQTmJjZkJELVBhcUxKRmFjTDJhQW5yVjlWOE51RldNZ1Y4dlVYNDFJaFhDUVY3T3I5bDlMOWQ1QUJnQ2kxZ2tDOVNFSFRjcUNaY2M1VU9yWHRoSXhDUkt1cGV0Nmt5QkdXR3NETjU5azBaOWp6TENxSlk3Y3RkZ0hxT182NVdLSENKdEwtRjhCNGJod29oMVBaWmlMRV9sMTZ1ZlZyUmVsOGxwYVAxVHA1bG1KUE5OUEdWVy1WOExFOE1rc05FeE9hN25SWHhMX3NCUnZPQVE4a2dMaGNQYW0wQTlNdDRaSjdnUVBBTEwtUG12enJCSWtHWjhzU0NhaWfSAZQDQVVfeXFMTnRDU3ByNHI3eEw0NlVpWENhbkFkZWhHWUhFbmR3M2lMQ2hTX3poZU1pVzFBaklNN1RKR1o3Um11dkhrUkJHai1GWkhtdEs5YkoxcjBDMTBBYmpPOG9iTFAwSllzTGlDVGgzaGM4M01pZi1aSGFHb0FTOXFoa1RRN2VLclRBeWpNTEx3RHhnelBYcTM0NTNpMUVmelY1amF6aEprdldiVkR0YzBoSi1jdnJBcEFDWjlaOXhFM3VwaTdzY2xBSWpiaEttUF9EcGdYR1pmd3FQaURnMVpWQm9iMExvZ2EzUElfc3NVUGQwc2dkWF9qWEhOOFFxM1FUU09oWlA4cE8xXzdxTlZBMnJ4V1RoZUljb1Y3Y2JpRUpoaHZNRERWalhPS2RpemhKaDgxb0hNajlwSzRnZjB5eHlJRU9WdUIwd3NxUjR3aDI1eVk3OThrdEtfM1M4aUx6b0pFVTc4R2RsM2xmYVhNTXR3bEJPVDBxalNTRUZRWERCQmlYNE1VTnEzRzZueC1VT3N0aUp0YlE?oc=5",
-    "pub": "Sat, 31 Oct 2026 08:32:00 GMT",
-    "src": "The Times of India",
+    "title": "Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside (NASDAQ:CIFR) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaV9OQ0xoN1RrSjhPNlYxYUVmemkxdEhsb2owX0pkczdaTlFMaVN4YlJLZXJhM0Y2eTZjanl2NmhTcFlzSUVOSmZfS2h5STZMdGotU3pMejZQUHJCU0d1UWNDUkpMNmpMS3VxeTlWeWNIQVphUkFGSXBZeHdzQndra0FmZzZLMFdpWVBwUQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 13:05:13 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Court Denies xAI’s Motion to Dismiss Air Pollution Lawsuit Against Elon Musk’s company - Earthjustice",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTjU1UWozbXdQREpnQmVqeFpSLWNHVGN5Rll5aVJaZTA2T0VzS0ZvUXhlX2pjWklOdTNfQ0ItaW5SaGhvWURSRDh5WmVPRXVSYVB1NHEwbmF2TE5DU1NNd05BY2s4VUM4UGpDRDA2ak43R1daUmJ6U1lGY1ZuYVlHSG03V2dWUkl6bUNsb1JvdkJyMGZyMXBJdnVtQi1NZFo2YnM4QVRTLUtfNUhhbm12RzlobG8zYTNnTmxRMw?oc=5",
-    "pub": "Sat, 31 Oct 2026 00:45:10 GMT",
-    "src": "Earthjustice",
+    "title": "Prince George industrial properties at the centre of loan dispute - Prince George Citizen",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWmFjSWNyY2NKcjk5NFZkZUpEOExqSW1XVjVSWmxZQmE0TlpyY0VOamZKTXhGVGlOeE1xMHIweUNDMU9hUXJPMVhXS1J0WE5TcGphU2UxbnRqYkxjdGNhQzdKNm9LeWdXQ1hhME0zejlUM1hKS2J0UXM1SDhoNE10eWNHRGNXR285QmRuLVp1Z2ZTdDFmN19TU0hqTWNEaV9IcmZENl9iT3FXRUgyR29hNTc4b1JabXNsVUNvdHNn?oc=5",
+    "pub": "Sat, 31 Oct 2026 03:30:00 GMT",
+    "src": "Prince George Citizen",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apollo Global Stock And The Firms Financing The AI Data Center Buildout - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRkl0LUlPNFZyd0FnakxkLXVza1I3V1VRSXZNVjVmTDlzaFVmVlBqdFZvNzFmcDl6Y1BNaFFJZWViOGNDSjZKVkdKMVZ0ZmVmeFdDd0VWN0dvc1BiLUdzbXA0bVVSZzkzSkI2NzhCV0M1SEhVTVFMNjZkbmRpODM2T0l0Yk1ybHZXckhuSnRQaVg1YWxFNnlwTl9meGhtY1VoOThZblJ2NmluUGxfcUFmaUtUT3g2Z3Rmdk9QMU5KN2sweldlMzdNTGtRRkdCc3RjdkZMS0RNSHhCQzJ3LXU0akFMRm1JcC12VGfSAe8BQVVfeXFMTl9jTDU5SjVfb0M5T2JoX3ZpS3B6X0J1ZFlZU2V2WVFnekYtLXNwYlpiZzRKODBDUklTOTZrYjJZUjN6R0lMVGliNHNGcE02ckYxSFI2NGs0NUs1Yjd6YnVILS02R0dTNEZseW5fQlR3MFJuV0Z1aEh1VWlYT2R0QmtnTzh2dkhOTzhLUG5yNnlid19zRlcxNlY3bEVRVG00VWM0ZHJpbkJEQ0N1NnpPLWtsY3pSdU4yZFZkM0Q4U29UUFljMjNQeEVKbkU0d01VUWdEWFdRbmxzRU5Da2xCRGczTUxLOVdEdzN3S2xSRDg?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:25:07 GMT",
+    "src": "Simply Wall St",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
+    "src": "Benzinga",
     "trig": true,
     "geo": false
    },
    {
-    "title": "Telegram launches a $350 channel jab at Musk on X - Pasquale Pillitteri",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQVRrTDZqRk9ZejZ2MmxtTnFudk5iOHRqSXhPYWJtWEJCai1BM0tmalpqMzd5QmdmVkJKNE4tUFdWOEVheU9FeXpnLUkxMUxYYVlmNTBNVXVwSHVPMnhzZmczNmQ4WW01cHcyNXdJWFgyWUxQblNpdGdiS2ExQUd3ZHpXaFotOE0?oc=5",
-    "pub": "Fri, 30 Oct 2026 14:53:00 GMT",
-    "src": "Pasquale Pillitteri",
+    "title": "Wingspire, Iren close $363M equipment finance deal for AI infrastructure - Equipment Finance News",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
+    "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
+    "src": "Equipment Finance News",
     "trig": false,
     "geo": false
    },
    {
-    "title": "SpaceX is said to earn more than a third of revenue from Anthropic - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWVc0SkVQc2V2Mko5M3AtTFF2bVZIOU5lV1pCRGl1MnlPcGcyZXY1QUZoa3RpaE1rTmtNWW9pcTVHSTZyNlJhSGhSYlMzTE1oUzJuMDBCcGJ2eko0WVBWOV95czRsV3dtMG1JMmxBZWxzcGM0aVBOZlI1NkJsM1h4V2hEN21ZZXZtM3hacFB4N29HbjNveGhaRm1ZWXpVVGw5Q05OUHdFTTJKOGgxdERBTGRIUFp2bzV2RG5ULWtpRzE5RGJ2Ylh1Vw?oc=5",
-    "pub": "Thu, 29 Oct 2026 19:38:05 GMT",
-    "src": "TradingView",
+    "title": "CoreWeave declines 10% amid financing concerns and tech selloff (CRWV:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUl1TGZJVzdvMTRhU25mbTFrTVRYc1p6SzB2NjlyRmNIZERxWWtWWXZqM2tqRmN2R0ZGa29PY0NhTjRLNUl1Sk1CTGJ4YkUtQVFuV3NYTVZxY3RmUWNPb2p2Q1RlMldua1JjMXdNbGQ2aW5uaW9zVFZGSkhKYWVRaW9HU1ZBb3FKUHgyazFybVZQWGFwZmY2dER3QWtZVmJUTVE?oc=5",
+    "pub": "Fri, 30 Oct 2026 19:50:41 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   }
+  ],
+  "fundamental": [
+   {
+    "title": "AI outlook: OpenAI cuts fundraising goal while Meta gets a credit warning on cash flow and spending - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOU1oQjF2YllOMmQxYnVkczh2Q0VZbzhsSHA3VkZjQkZYVmNqUm1MVVhwVHdyczFEOFZGb01BVHNzV2pxcjdFaXd2WHhSbGl5ZUpFSWFpTE1kWlhzMWpoTmE5M09TZm80RWR2cVdubnVIX29JMDQyRXBmTVRqdWt4R0EtQUUwVjNhZ2lpYWY4Z2JlV0I1emVJQ1JJcV9yNDY2a2lrTmphdVRBUQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 17:15:00 GMT",
+    "src": "Fortune",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Slashes Funding Target as AI Investment Cools - The Tech Buzz",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPOGpJWkVwODktYzFvaFpOYVNjZ2RTT1VKR0VENkZMZGxwZlY3emJwUm95a0tjSVRqVDEwRUxKcURMS3VtaFV6TVBFQmtUTHl4UkJFZ1lxcnpPSlJHTTRQMDdjdlBISl9IT0hFeVZCWGgwSVBBVFFwMF9KdmJXcnRBcWdCUHhWdkxZVk9kWFZ3?oc=5",
+    "pub": "Sat, 31 Oct 2026 16:35:13 GMT",
+    "src": "The Tech Buzz",
     "trig": false,
     "geo": false
    },
    {
-    "title": "‘Elonville’: Why is Elon Musk’s xAI buying homes instead of land for AI data centers? - The American Bazaar",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOdTdESVlTTlRrRWJsNDUxcVFPaTJfUDJFOVhXSW5zeWRHemlDSnRKbXJOVmdZNTdhcGtBcnpEUEpIWVA3amNUbW5VV0kzX3ZRZG5yY0wyYldCeHlFTk9RcVRQVmxYcDc2OF9zZlVsV3ZFRm1yMkFHYy1CZ3Y0T0xCYml5THVlQjI0cFZJSmo0d2NoOFhNTU9PRk1XNDJSRE9IeXV6MHVOSFZQNFg1UzNjRWxESHc?oc=5",
-    "pub": "Thu, 29 Oct 2026 18:28:26 GMT",
-    "src": "The American Bazaar",
+    "title": "Exclusive: Investors Are Watching AI Revenue Growth Against CapEx as Companies Face Pressure to Prove Ret - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQWm5kN1hpb1drZTlfWlEtNHF2SFpRZE9jbTMxZ0c1akdpOXV5UEZ0emhwR29xYlhYd1N5YnRsbktIcFB3RzBOOS1VVkFhSHAxcHhQeWdtc01lUVg0dXdJZl85eUFjR2U2bnhlaFhMQkNrTmVoY3FBT3VOXzlrVldGQ0UtSG0xSV9jckdZbURWYkJHNEFnZndXenZJdkRHSUdwTzFoZGdUc2YzcVVyRm05M0FidGV3cnJEY0tieUN4b2pndlZXY2d1UkZJRjdaSHhUcVlYSk5fbnBwS2pycG55N0luMk9lRXJKOTkzalMtUHNfMFE1UFNDU2tzVjg5Q0JNNDJlZDVDUVlaYkwtSEFsN1lXalZ2Nnp0b2lJZkxpNnI3c1FvVmlFaUU1ZElpWG9VYkxySndCYkVFY042dXh0VXRoTThTdFZibTRB?oc=5",
+    "pub": "Sat, 31 Oct 2026 16:30:06 GMT",
+    "src": "Benzinga",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Elon Musk’s xAI offers to buy 418 homes near its Mississippi data centre amid noise complaints - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQam5iUEJma0MxUE8xS2ktVks0LXExLVZ4emxrRmo4RHdmemsxVEZ2ODJ4UFR4bXJhZmdnb1ZCYV8yRUV3OFFMek5sQVM4VV9FbXJBUlAzSHlWcmk1dFlCVXZleC0tX0xhbExwVDFfbktoVVRZdzItTWl2QWtSQVlOWjJiNGVtOVdFYmk5eV92eDFacTlBNTkwaU9sLXFFZHZOWDc5ZUR1LUJ5SjBweVRXLTJVUE9zbFBvMTRPQU1SSmZfVGliWEV6RW83VkNKZkxzMVhIVllGZ015Xy12YzQ0R3lBQWtWZzFCRjEwdm1ldE5KSkNkLTN2adIB_gFBVV95cUxPNkIyTUEzRkcyeXlmaUFuTkx2RWZfTVc0MHhEM3hxZHRkSHlOdkctNzRWUGoteU9HVkhtZjUzeHBCcUF2WUpNcmlEeXpfOWVzOGg1WjRHZVBMcjU4NnlkT2haamdmWmFabHlpdEtVZDNiMEtjUExTTkJ5VHpKSnJ0aFoyWmdLN2lRS2lHWnEwZHRNUDhGZTVEd0c1N2FVSTZENUVHWkpjWms5aXpHbkQ5MWI2NzhtSnZ1MFg1b18xN29XOXlrSXZmVU5GZDVfUGlrSWdwUXN4YnBFSTFHTVg2WGRuaVZIN0FRR1FOV1gxUnJ2ZDBLXzk0Y2ZTSURUZw?oc=5",
-    "pub": "Thu, 29 Oct 2026 15:39:24 GMT",
-    "src": "The Economic Times",
+    "title": "OpenAI reportedly lowers funding target for new round - TechCrunch",
+    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPLVZ2ZXhJa3pETjlVa2l6S3pGbnpkQUVaUnl6emEzQU95X3ZaY2FuU093Zk5PWHJZU2tEbGtrakFpVDdTZmlTTmFlaXpwVFdtd19DS3N2TzJCVklrNEx5dXowTFh0QTNzZXo0NmxwaXIxb2ZoN1F5VmlUTk91RzBqeEQ5M01iZzVVMWxPQUZqaTl6Zw?oc=5",
+    "pub": "Sat, 31 Oct 2026 16:12:55 GMT",
+    "src": "TechCrunch",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Meta faces S&P downgrade as 2027 AI capex forecast tops $225bn - PPC Land",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQTQ2LWlXTjRVVWtvclFyblFyY25OU1FNM1FRVThaUTd0QzhKNU54MFZYNmVfdDVvcDRDdkNLdmZmQmsza1RINXM2T0pxTEowV1M1cHdfLWV0SXhOV1JQZVRDT195ejBJcU9EbFFuV3ItTk5XbzZIcWtvd2ZZX2czd1dvZVd5UQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 15:18:04 GMT",
+    "src": "PPC Land",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Cuts Funding Target As Investors Lose AI Appetite - Investor's Business Daily",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPeWdSajhqVnN5TFJ2XzB3aEt3TzJ2TFhNamVKQnhJSlVsVVRDMENOcmJZX0ZSSTNINS1vbUplY0ZSWG1XLXoxTW1Zd1hUdWRwQ0NWNlpuRmg2eS1KMXZrR0J3cVBVaFF2VE9KYTF3VE5mX2pEMHNCWGJZZlVHc0xGSGFQa2FSb1RXeE5HV19JaVJxbTNacTNhZFJMWndpWWpXU3RjVktQM0tTMnRiQ04zNjZ0cw?oc=5",
+    "pub": "Sat, 31 Oct 2026 13:57:00 GMT",
+    "src": "Investor's Business Daily",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1322,14 +1363,6 @@
     "geo": false
    },
    {
-    "title": "US oil firms' profits nearly triple amid Middle East war-driven supply cuts and high prices. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNUWdnM1dCVEdJY0pwaU9OYnFwazRMNmRZaWJzbGtHVVhWS3dWaFg4bmxpbWVYa0dxdU05d0hVRVJfOW9GekhCNUdOci1od1Y1NGc2ZDNwTHZUTllCdEg1LVdVM3kyRGt3TUYzbFFELTQyeEFiVnJsLTdWTnh5aVM5ZDVlRXpMZmdGSlhSaGNsLTU3cW5kazUxRQ?oc=5",
-    "pub": "Sat, 31 Oct 2026 12:45:15 GMT",
-    "src": "Pluang",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "The calm before the reckoning: When AI euphoria, political power, and market reality collide - The American Bazaar",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWk0N0JfX0tnRjJMMWdCUlNWcUZ0NGQwWjNDdzV2VzVQb21kQTdKMmpBUXpzMFpSdVRnOTF4aXd1TlpzTDhqcUkteEQ1bF93Q1I3V2RZR08zOEJWcTEtMHZSYllXbDZEU2s1RTNiUXlJZDFPWl82Q2dmejR5QXc3NnpkNFgwLU1FbXg1Tw?oc=5",
     "pub": "Sat, 31 Oct 2026 11:46:36 GMT",
@@ -1346,20 +1379,36 @@
     "geo": false
    },
    {
-    "title": "Exclusive | Inside the U.S. Military’s Open-Ended Mission to Keep Gulf Oil Flowing - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTGQyeVJtc2RlU0ZkbHNFcTBmdEZCQ1FaYlk0SldtejFXZU9VZDdSb2k0RnZBanoyYkJkM3BZUVViMnZDcnpFdFEyRDYwXzd3cWJadVA4SWYwRTRSeG1BM25OSnBaS0pZSUlhMlpWTGVjSDRhVWNvaXVSeVlSME5HQ0hnQ01hUHh2M3R5amJpQWlTeTM5Y2R2ajJFaDVOOXR3RWx3Mkl6S0xGRE03c2pLQ29vZ2lPcDhyaXFXQndkQzhGdw?oc=5",
-    "pub": "Sat, 31 Oct 2026 04:32:36 GMT",
-    "src": "WSJ",
+    "title": "UAE residents’ update: Fuel prices, oil spill recovery and flight disruptions amid US-Iran tensions - Gulf News",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQUXZZUjZ2a2ZSZDROb0ozR1VjWndSaVllWHZiZnJtN3A4ZkRkYXJrcXlIR0U0YkxUczhZTGh4elBfU2Y4b2tLS0ZFQWl4QnBLNTd1NkZZYUVBLXNrS2t0eFB2UHhFQVduYXdSbkhnNDhNa083RXRnRk1ST213QTJETEo4NWRVckxzTUo2Rkp5a2NSTzRwMUVNaUhCbk5YZFdNRlFLdW5Pa1BUZnRSdkM3VjlBWHfSAcQBQVVfeXFMTm11MDVZaWYtNUxtellmMURhb00yMG9LQmEyenFxbkNpTm9sWkpxc19CV0J2UmJYV3hqVGh2Q0g3TUNWdWxBeVF4RmF6cVJYRVFoX25KYmFKVUJaTGxibjFzZ3dZMUkyNzJvZEkxZmJhOGxBM3h5MkZkWEZpZDZqejBIMG0tcUtwR1RqUVpramZPaVM1Z2dHWTUzQkNRVXZqX3ZmNWp5c21FSFltVnRKUzlEUUJqN1FfZ2ZLbjJNbEpySDNubg?oc=5",
+    "pub": "Sat, 31 Oct 2026 08:00:55 GMT",
+    "src": "Gulf News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Stubbornly high freight rates fuel an early price war among oil producers - Kpler",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb2ZMaDIxZG1qQ1RqTm52R1BCNTBEc0JlV2xoZkN2SldObXZhYjM5eENxcFZYUFFSaWUzQWJ6WUVQRW1kOXdVTC1qMWZQMmlOVEV1SE5tbGZ4SE1VMV83WGdoV0g4SFgzRTJlVW4xQ2g0WlpfOHdibGwwZTFWelJrWjVWcTRXVzA2M3l5V3FMT25RS3BYdV9wd2Z3QWtLOUNSRlg3dGVB?oc=5",
+    "pub": "Sat, 31 Oct 2026 06:35:32 GMT",
+    "src": "Kpler",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Gold at 4,000: The Iron Floor That Wasn’t - Vocal",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5iQmRRQVFxRjY2NWtOY01JYWt3T2VXeFIwMFZlRHc1bHIwaXN2NVgwM3lWbE9yeXJqVXgycW1nRDlnQzBnVy10eWVGTnRwUGFfR1BDeFRxMnA1RVZLUUJTbmZDNG9ZRUQ2VW56dVBFYVE1SkE?oc=5",
-    "pub": "Sat, 31 Oct 2026 13:44:53 GMT",
-    "src": "Vocal",
+    "title": "Price to earnings ratio of CRITICAL COPPER MINING CORP – CSE:CCCU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXdUVWJXV05wVUowSkR6eGxhYjZrQW54bGxsSW5qZEVkWWpSQ3kyS2s0MFJLMkJ6RDR5d2M5WnY2SHc3TzRIME8takJEZ2pFT3hUbVhaelFpU0NzXzVXMWd5eHU4ZUJmMUVsNjhicDQyZ0ZQbzNiSVh3bUJkeHhyTTIySXFRZENzLWt3bzR2RE8yY3RwRDhmeg?oc=5",
+    "pub": "Sat, 31 Oct 2026 13:44:57 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices witness sharp decline in Pakistan - ARYnews.tv",
+    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05S3VDX1k0aHJxSF9IRVBZUnRTTTlOMzlUbHBIYXZRU0xxWXpsMWtsa1FWLWc2NjdPX242bEJsUHM0Vm14MGJZMW91QWhfakFGRnRZU3VHSEtmeWJjVk81MVpLT0RmUFVJUldKZmY4em9BQQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 12:01:05 GMT",
+    "src": "ARYnews.tv",
     "trig": false,
     "geo": false
    },
@@ -1392,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3NjS0tETXF3dzkzcjBoMVlsRlRoR053UFJMNHlCUW8zMUgxOXhOX2c0dnU5dmpvZHlobzBpY19zV3pfVXhFYWFOalloS3QtelNhWGd4ZWZRYXc3d3hvSnBYdVFUNDN6ampBUDhodk9PbEhVTWpic3pnOUg4UWpTeFREVk9RYThVWDdNQ1VPSWtKUlJlXzdVdDdYZTJpRzI5a2FhYlhYcUdpX2hDWFFvNFB3ckxfLV9OZkVBaEFDenlmOUpOVHlxV1VsZzfSAdIBQVVfeXFMT3lEUnBDcXhiZUc5Q3VDNUtxNFZVMHVpOHRseFdURzR6Z01abkYxc1JvTVc1TGJGc2xqNnMwdld0UllYMU9RcEtmWjY3V3R1WS16Qk40ZXZhODJQVWtBaE1GYmp1X1N6b05pSlV5ekVqNEJNaTNqd2V2LXFRaXdpNS05Sjh4WnNsb2FyYmZweWRzTjIyang2a2o2Z01WeGRPZ2ZabXR1RlZEYjBucjVfeE9DQVJOcUdDdldNSzlEcjVCa2xzalYzc2lHaDNRdDBGa2NB?oc=5",
     "pub": "Sat, 31 Oct 2026 05:41:18 GMT",
     "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Election Adjustments: Outlook for the US Dollar, Brazilian Real, Japanese Yen, Israeli Shekel, British Pound, Australian Dollar/New Zealand Dollar Pair, and New Zealand Dollar - 富途牛牛",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQLU93aEcxbm5CdDBMcFVQM3J4R1A3NUFTLUltb2JUOGZzcjEzVlc2WFdXX3phWEJpa0hISkdPbV9ZakVfV0Y1dUFZNjIySTNRSlZ5RGtHeGVIVlpOcmFualFRdnNNeEZkZEExS1B0aEFTa1RuTFZPQ25jeFV5X3psU3lQd3cxQnB5TFlORUNoeUYxRWxGbklmajg0MU5VX0kwNWp4UzhmSmJSLWtRNGRsVEh5aw?oc=5",
-    "pub": "Sat, 31 Oct 2026 05:34:14 GMT",
-    "src": "富途牛牛",
     "trig": false,
     "geo": false
    }
@@ -1694,7 +1735,7 @@
    84763.58,
    82912.23,
    81382.15,
-   77456.64
+   77437.21
   ],
   "vixts": [
    0.899,
@@ -2747,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-31T17:28:56+00:00",
+  "checked": "2026-10-31T17:32:14+00:00",
   "openai": {
    "found": false
   },

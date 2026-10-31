@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T03:32:24+00:00",
+ "updated": "2026-10-31T03:42:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77170.0,
-   "chg": -0.78,
-   "chg5": -3.57,
-   "chg20": -6.93,
-   "sma20": 81308.68,
-   "sma50": 81890.57,
-   "sma200": 72827.66,
+   "price": 77070.69,
+   "chg": -0.91,
+   "chg5": -3.69,
+   "chg20": -7.05,
+   "sma20": 81303.71,
+   "sma50": 81888.58,
+   "sma200": 72827.12,
    "high3m": 86602.91,
-   "reg": 77170.0,
+   "reg": 77070.69,
    "pre": null,
    "post": null,
-   "regClose": 77170.0,
+   "regClose": 77070.69,
    "sess": "reg",
-   "mt": 1793417506,
+   "mt": 1793418087,
    "ok": true
   },
   "USO": {
@@ -1247,19 +1247,11 @@
  "news": {
   "credit": [
    {
-    "title": "Apollo Global Stock And The Firms Financing The AI Data Center Buildout - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRkl0LUlPNFZyd0FnakxkLXVza1I3V1VRSXZNVjVmTDlzaFVmVlBqdFZvNzFmcDl6Y1BNaFFJZWViOGNDSjZKVkdKMVZ0ZmVmeFdDd0VWN0dvc1BiLUdzbXA0bVVSZzkzSkI2NzhCV0M1SEhVTVFMNjZkbmRpODM2T0l0Yk1ybHZXckhuSnRQaVg1YWxFNnlwTl9meGhtY1VoOThZblJ2NmluUGxfcUFmaUtUT3g2Z3Rmdk9QMU5KN2sweldlMzdNTGtRRkdCc3RjdkZMS0RNSHhCQzJ3LXU0akFMRm1JcC12VGfSAe8BQVVfeXFMTl9jTDU5SjVfb0M5T2JoX3ZpS3B6X0J1ZFlZU2V2WVFnekYtLXNwYlpiZzRKODBDUklTOTZrYjJZUjN6R0lMVGliNHNGcE02ckYxSFI2NGs0NUs1Yjd6YnVILS02R0dTNEZseW5fQlR3MFJuV0Z1aEh1VWlYT2R0QmtnTzh2dkhOTzhLUG5yNnlid19zRlcxNlY3bEVRVG00VWM0ZHJpbkJEQ0N1NnpPLWtsY3pSdU4yZFZkM0Q4U29UUFljMjNQeEVKbkU0d01VUWdEWFdRbmxzRU5Da2xCRGczTUxLOVdEdzN3S2xSRDg?oc=5",
-    "pub": "Fri, 30 Oct 2026 21:25:07 GMT",
-    "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Could Join Public Markets With A Junk Rating - Broadcom (NASDAQ:AVGO) - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYW0wOWlRbEVsQXY3QUVLOThxV0c3dy1hQTUxanVKN1RwSGZZQ3hIWEhxWGxtRUMzV2pQOTlybi1idDJScVl5eG5WcEZFaHVWWmxFdU9IZjUxaXNYNnZLcDhpMERKMW9mcWx0T1ZnMHV3eWRuaFdlR1Jzd1N4SzZoMl9rTTlOWndNY1BFRUJFUE9RSHFYeUJnNWRod3RKUTFiVFlzUS15TjVjNF9mVlBHbU52VjluSjM1ZzJyS3M3aWZTZnVLaTFuTGZ5WkctVW1Wb2dpTUJ4SmM4LUt2ZE1GQ1RydVFPN2M0Nl93cHhBZlhaZlBFNFpHLW5ZTmVhZnl4V2tHLXgtd0h1YUh1VzFXQQ?oc=5",
+    "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
-    "trig": false,
+    "trig": true,
     "geo": false
    },
    {
@@ -1293,22 +1285,38 @@
     "src": "IDNFinancials",
     "trig": true,
     "geo": false
+   },
+   {
+    "title": "Treasury says private credit plays ‘vital role’ in UK economy despite risks - Alternative Credit Investor",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2U4UFhRcXFZVzh6ZVFOYnFIYVRBT2gtWnhZNElLQ01uWFJ0XzhSWEVBRGNMZU1YWmI3R0pCelNZMVFRWTh2eVlvN1NvUzdQUzdGNzdpc3VfNlRzOHJTRW9LbWtLZXFUcks3V2xqUm5FSEhhaTZDWElnb0hTMW0xbVNsWFVkdjQ5c2hKRDJDa3Jnb29Wc2RBNzFZYk9MUF8ydzVheml2ZWJBekNQWDFMekZPY0xWWG94QlRGdkY5b0Q?oc=5",
+    "pub": "Fri, 30 Oct 2026 11:53:58 GMT",
+    "src": "Alternative Credit Investor",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "OpenAI Cuts Funding Target $10B to $20B [2026] - tech-insider.org",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTmJXdXpyeE5FV1k5WTh5aXo2cmRmdmUtVHRaeDd5VzE5a0VyS2pXNE1ueHl0UXdabWRJcnN6V09hWUNXVWpqcVlFbjc3elIzRkN6R3psNUgyMThaOFRjcFIzZkVWV2xFdVFXWjJMc0RjMnZPbHdvQlBidWt6MVJhRmlrRzg2OVFaTTlvUzIyNDdENDhYaDBJ?oc=5",
+    "pub": "Sat, 31 Oct 2026 03:35:28 GMT",
+    "src": "tech-insider.org",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "S&P Global revises Meta’s outlook to ‘negative’ on AI spending, cash flow worries - WTAQ",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQbE9VSU5FWXpYNmhqLTJXOHBEUkhqVEhtd0lweWZJYzN3VXZaLTRBRnFUOEV4ZDBjR1c2WmhpdDFpc3R5bjZ1cXIxMDJwQlQ1RjR1clJTckN4elhYU3p3SHAwOHNSaUtVMC1SdjZJSEQzNGNFS2dIckY0MVpVS1h1REVGa1d0U1dFVFh1Ty0tYkZZM0xGdmZ3QUpLQQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 03:20:27 GMT",
+    "src": "WTAQ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round - WSJ",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
     "pub": "Sat, 31 Oct 2026 02:47:33 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "S&P Global revises Meta’s outlook to ‘negative’ on AI spending, cash flow worries - WHBL News",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdW85b2V5MGd1MkRNUVFwd2huMlpnR1YzSjc3SVBRWDBKUHJXUlB6NDBhc0pnblN3bG94bVRPSzY3S2o0dU5Od21xZTlUREJEdTNtTUpWcVFzZHlXV1Y4SEUwV1hmVFY2OXRZTlkzYW9oOTJ5bFZEZUlnM2ZCdWtMYnkzWVB5ZG4tTHRzZkZRaFUyeFhmSXlKMHkxcw?oc=5",
-    "pub": "Sat, 31 Oct 2026 02:21:20 GMT",
-    "src": "WHBL News",
     "trig": false,
     "geo": false
    },
@@ -1334,14 +1342,6 @@
     "pub": "Sat, 31 Oct 2026 01:24:58 GMT",
     "src": "Investing.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Nvidia weighs playing the cosigner for Nscale’s AI data center in West Virginia - TechCrunch",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZGNhWVNJR0JZTnVKVlM5RUZFeGdQZDdMMk9yODB0ZTlGSXRnYzNZU2hVbXBLdVdWbGstX3RPYkphd190d0R5N0VKN0RabTd3aW5OSUI1cHVsME9vVno4Nm1LY0lTV25qZE5EejNqNm91c1dvbVk5YnctUUowaUJoYTJwSEhCY3BIYV9kbVZ1U1RKNTk5Y3NqVDR3YTlrdXZDOWd5ekVvaDdGSzV0aVA5OUFxcw?oc=5",
-    "pub": "Sat, 31 Oct 2026 01:20:05 GMT",
-    "src": "TechCrunch",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1405,10 +1405,10 @@
     "geo": false
    },
    {
-    "title": "Price to book forward of CRITICAL COPPER MNG CORP – OTC:CLGCD - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOZm9LcTZmUDh3SXAtYllGYWttMzlVc1FKWWhqMURqdU1LX2VzVmNnN0lCdUxEcTNVMzhjaktfSXN0RGV2a0xPYy00ejFyNTdFb2tXc2lBQXJtaHNTWDlCS1ZibmdIWVo3WkhLdFE4MUdnbEhjWlNBLUJoX0ZxSlVqYUtBX0NVZEY1eHcyWWx4blR0a1ppS0xFTGVn?oc=5",
-    "pub": "Sat, 31 Oct 2026 01:17:22 GMT",
-    "src": "TradingView",
+    "title": "With abundant supply, why is copper still experiencing a price surge? - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1OdVRNYXRVTVpBSS1lQnV4WmUtWVk5aVFDR3VkOHhTcEV0cU91VURmUEFpUmsteHozS1dZZU84MWdJWjFpTGhvYzZpTEFxZUI5a1AzZ1hhZi1OMlVMMVF1UHptcTJXYWxJOHpTSFFIaGMwRTdxVjY0?oc=5",
+    "pub": "Sat, 31 Oct 2026 02:51:05 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    },
@@ -1429,18 +1429,18 @@
     "geo": false
    },
    {
-    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-    "pub": "Fri, 30 Oct 2026 22:18:07 GMT",
-    "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold hits lowest price in a year despite Middle East tensions post-US midterms - Pluang",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ3dJR192LVUxN1R6Ym51VFpFSTdQUGRpd0Y4MndKSUo1X19XVFRqODh0UEJXQlNQMjE5cDJRdEhxR001ZDhRR1psLU8xWmREaTAtWHpCbFZLSm9FWnVacm9TZUo3X3ZkUTFKbERqNjJqb2Y0aVd2Vktva0lGdlo4OW5mYU16dlN2dEZqZUV2TGJhMGdPNDFkREhMR084QQ?oc=5",
     "pub": "Fri, 30 Oct 2026 21:49:27 GMT",
     "src": "Pluang",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Yen Firmed As The BOJ Talked Tough On Inflation - Finimize",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczBKaE52MmZXODhTcFhpdmtXNG4xMWpnc01LTUVfMmZfMUgyWlVFNUNCMEF4YnJ4UzR2TlhkLXo3ZXVucnpIRGw5QzM2RnZOYlRPUW1zMVRzam1sa2JJSTFEcE5vd0tCYW56OG8wV3l1bmE2OWUzeklNbmlKZFVSZlRRODNMak0?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:43:28 GMT",
+    "src": "Finimize",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84497.21,
    82546.32,
    81500.8,
-   77173.38
+   77056.05
   ],
   "vixts": [
    0.899,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-31T03:32:11+00:00",
+  "checked": "2026-10-31T03:41:48+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T03:22:01+00:00",
+ "updated": "2026-10-31T03:32:24+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77239.99,
-   "chg": -0.69,
-   "chg5": -3.48,
-   "chg20": -6.84,
-   "sma20": 81312.18,
-   "sma50": 81891.97,
-   "sma200": 72828.04,
+   "price": 77170.0,
+   "chg": -0.78,
+   "chg5": -3.57,
+   "chg20": -6.93,
+   "sma20": 81308.68,
+   "sma50": 81890.57,
+   "sma200": 72827.66,
    "high3m": 86602.91,
-   "reg": 77239.99,
+   "reg": 77170.0,
    "pre": null,
    "post": null,
-   "regClose": 77239.99,
+   "regClose": 77170.0,
    "sess": "reg",
-   "mt": 1793416891,
+   "mt": 1793417506,
    "ok": true
   },
   "USO": {
@@ -1057,20 +1057,20 @@
    "ok": true
   },
   "KRW=X": {
-   "price": 1333.44,
-   "chg": -0.51,
-   "chg5": 0.56,
-   "chg20": -2.0,
-   "sma20": 1334.72,
-   "sma50": 1351.64,
-   "sma200": 1434.96,
-   "high3m": 1428.43,
-   "reg": 1333.44,
+   "price": 1335.1,
+   "chg": -0.22,
+   "chg5": 1.01,
+   "chg20": -0.56,
+   "sma20": 1334.34,
+   "sma50": 1350.64,
+   "sma200": 1434.2,
+   "high3m": 1422.3,
+   "reg": 1335.1,
    "pre": null,
    "post": null,
-   "regClose": 1337.98,
+   "regClose": 1335.1,
    "sess": "reg",
-   "mt": 1793398090,
+   "mt": 1793417451,
    "ok": true
   },
   "^OVX": {
@@ -1247,11 +1247,19 @@
  "news": {
   "credit": [
    {
-    "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
+    "title": "Apollo Global Stock And The Firms Financing The AI Data Center Buildout - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRkl0LUlPNFZyd0FnakxkLXVza1I3V1VRSXZNVjVmTDlzaFVmVlBqdFZvNzFmcDl6Y1BNaFFJZWViOGNDSjZKVkdKMVZ0ZmVmeFdDd0VWN0dvc1BiLUdzbXA0bVVSZzkzSkI2NzhCV0M1SEhVTVFMNjZkbmRpODM2T0l0Yk1ybHZXckhuSnRQaVg1YWxFNnlwTl9meGhtY1VoOThZblJ2NmluUGxfcUFmaUtUT3g2Z3Rmdk9QMU5KN2sweldlMzdNTGtRRkdCc3RjdkZMS0RNSHhCQzJ3LXU0akFMRm1JcC12VGfSAe8BQVVfeXFMTl9jTDU5SjVfb0M5T2JoX3ZpS3B6X0J1ZFlZU2V2WVFnekYtLXNwYlpiZzRKODBDUklTOTZrYjJZUjN6R0lMVGliNHNGcE02ckYxSFI2NGs0NUs1Yjd6YnVILS02R0dTNEZseW5fQlR3MFJuV0Z1aEh1VWlYT2R0QmtnTzh2dkhOTzhLUG5yNnlid19zRlcxNlY3bEVRVG00VWM0ZHJpbkJEQ0N1NnpPLWtsY3pSdU4yZFZkM0Q4U29UUFljMjNQeEVKbkU0d01VUWdEWFdRbmxzRU5Da2xCRGczTUxLOVdEdzN3S2xSRDg?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:25:07 GMT",
+    "src": "Simply Wall St",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Could Join Public Markets With A Junk Rating - Broadcom (NASDAQ:AVGO) - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYW0wOWlRbEVsQXY3QUVLOThxV0c3dy1hQTUxanVKN1RwSGZZQ3hIWEhxWGxtRUMzV2pQOTlybi1idDJScVl5eG5WcEZFaHVWWmxFdU9IZjUxaXNYNnZLcDhpMERKMW9mcWx0T1ZnMHV3eWRuaFdlR1Jzd1N4SzZoMl9rTTlOWndNY1BFRUJFUE9RSHFYeUJnNWRod3RKUTFiVFlzUS15TjVjNF9mVlBHbU52VjluSjM1ZzJyS3M3aWZTZnVLaTFuTGZ5WkctVW1Wb2dpTUJ4SmM4LUt2ZE1GQ1RydVFPN2M0Nl93cHhBZlhaZlBFNFpHLW5ZTmVhZnl4V2tHLXgtd0h1YUh1VzFXQQ?oc=5",
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
-    "trig": true,
+    "trig": false,
     "geo": false
    },
    {
@@ -1279,19 +1287,11 @@
     "geo": false
    },
    {
-    "title": "Treasury says private credit plays ‘vital role’ in UK economy despite risks - Alternative Credit Investor",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOU2U4UFhRcXFZVzh6ZVFOYnFIYVRBT2gtWnhZNElLQ01uWFJ0XzhSWEVBRGNMZU1YWmI3R0pCelNZMVFRWTh2eVlvN1NvUzdQUzdGNzdpc3VfNlRzOHJTRW9LbWtLZXFUcks3V2xqUm5FSEhhaTZDWElnb0hTMW0xbVNsWFVkdjQ5c2hKRDJDa3Jnb29Wc2RBNzFZYk9MUF8ydzVheml2ZWJBekNQWDFMekZPY0xWWG94QlRGdkY5b0Q?oc=5",
-    "pub": "Fri, 30 Oct 2026 11:53:58 GMT",
-    "src": "Alternative Credit Investor",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk vs. Jensen Huang: Who Is Right About CoreWeave? - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQMTVTcXlWckRaU2tpX3lGRUF1c2JtMjJ4bm5jUUlMYlJEQUVpYzgyX2hBbUljaXFiMmFwanlNeUtXQkRRRU1iYkJleTV1cEhNS3prbWJDZ1VLN3k2cEdWWGU5ejhEUlJuQThWcTZpVXRLcWJHbEZjWkNEMDd0djNKdE1Mb3RSWnRFUWtFODZFRjEwVTR3VUNmRw?oc=5",
-    "pub": "Fri, 30 Oct 2026 10:10:00 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
+    "title": "AI financing surges, Moody's warns of refinancing risks in 2027–2029 - IDNFinancials",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaS1xcUNBSV9COUZkNGZJRGFfTW51YUZGUEkyLWVoc3RZS3pfdmRZeEJLMmRrdzA3X2RXbURzTVVPSHZraEdhTEJNOHZhdnhlR0xvRlFzcWdwd2xNTWJEYnZseDhhaElHcEprOXNnWVAtSVNoamhCWThucnlKNGhRdURuRE51UUxvWmFFMDVOREZESTBzT2RCbC1ERzJ1VjJydU92YzFyY2czZw?oc=5",
+    "pub": "Fri, 30 Oct 2026 12:20:00 GMT",
+    "src": "IDNFinancials",
+    "trig": true,
     "geo": false
    }
   ],
@@ -1305,11 +1305,27 @@
     "geo": false
    },
    {
+    "title": "S&P Global revises Meta’s outlook to ‘negative’ on AI spending, cash flow worries - WHBL News",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPdW85b2V5MGd1MkRNUVFwd2huMlpnR1YzSjc3SVBRWDBKUHJXUlB6NDBhc0pnblN3bG94bVRPSzY3S2o0dU5Od21xZTlUREJEdTNtTUpWcVFzZHlXV1Y4SEUwV1hmVFY2OXRZTlkzYW9oOTJ5bFZEZUlnM2ZCdWtMYnkzWVB5ZG4tTHRzZkZRaFUyeFhmSXlKMHkxcw?oc=5",
+    "pub": "Sat, 31 Oct 2026 02:21:20 GMT",
+    "src": "WHBL News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX IPO: Stock listing date nears as Elon Musk's rocket company prepares for historic market debut - Fast Company",
     "link": "https://news.google.com/rss/articles/CBMipgJBVV95cUxPb0lKTzQ1ZUdEemptUWN0RS1zWWh6N216SmZrenQ0VjJtSU9vT1dDdnRONVZLT0JnSWpDY1Jmb3NhWjNWOGtnN19sYjRFeW9zUkhSU0tFbHBUZUZCSUtpWnhWX2JFZVQyYkoxeTkyb0NhN3VmaVA2akt6WlpvX0oteV9ZZnZ3N3JGVVNhbU9TUThoOHVWdVp6aGZlZUNKQ2JXWFNDV1pfaUdfci1HWFZONU54ZlBYX2VpaXFjcktiZC1RVWJrcnFWd1FnUjJVZ3F0RnlHY3VOQWVkWTI0WVRvSS1jbklER3lnSE1nZkJHRGJzYk5UZG1nYnpWQUhFS0lvYzZ1WXJGLTNBQTNHSEo1bWRHY0hlZXdLdzRPeGpZdlJKZ2dzZ1E?oc=5",
     "pub": "Sat, 31 Oct 2026 02:18:23 GMT",
     "src": "Fast Company",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI cuts funding target by $10 billion, FT reports - SRN News",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9WUlN3M1RXQlpGWEUwX0tqUGFLcXdCWFd3YzBXUUcwLThoaW5vcmI2LWFsOXMwUW00aDVNSUNfM3FEQzNMb0ZfR1p1V09mUG01TXJNU3FNc0FqTkJhMjQ1Vl9JOWJJd3VfRk0wa2VyNVRRc3Y4TjZoNExjSWI?oc=5",
+    "pub": "Sat, 31 Oct 2026 01:26:42 GMT",
+    "src": "SRN News",
+    "trig": true,
     "geo": false
    },
    {
@@ -1327,25 +1343,17 @@
     "src": "TechCrunch",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters - Cryptonews.net",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tek9Hb0NUeldsUV9jOS1EZkZCbEJkQmItZ21IVjJBVXJrRlN5TFBvTi11UTNRVXRONm5mTmFLRmRxZ2VJdnNNaURTaW1sSGUzSGxBR0JnTU0?oc=5",
-    "pub": "Sat, 31 Oct 2026 01:02:55 GMT",
-    "src": "Cryptonews.net",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "OpenAI cuts funding target by $10 billion, FT reports - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPLV82MWxvN1lqb19FSlBXX21zeGp5RFNfRGUyR05FOHZjbEFLbEpCc2NSM2p6SnFIRGdTQlk0ejFkUXdDenpFZWtiNnRJSzNkR0VtMVpEQWV3dmpfM0V6RkJVLVhKQmt1OEZxQm85RnY1ejdBTzNzTHN3c3p6cnplZjhUOG8ydWJNUmF6WXJhZUNyQWk5MnYyQXNOZHAzNmZaMU8tbmVFSmZZTU0xckJkUGwxUl9xUHZ3NzNweW9R?oc=5",
-    "pub": "Sat, 31 Oct 2026 01:00:00 GMT",
-    "src": "TradingView",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Middle East fertiliser exports decline by 70% as Iran war disrupts supplies - www.thenationalnews.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMDJEcGZ2akk1ZnFLcHJoeUNUSU5TZWdTVEk5NHVJOS1WLUZhX1ZWRVlKcThMTHYwSTZETXBBbmh0Xzc2RmpjU29aTnNNVHIwLTJSQTRleUlPc1ZKQnZPdnhNTE9zMjVuQXh0YjBWSFZZUG5pRElfMUR4dWdFNFZLb0JFbjc4bk1ITTlqV1Vfd25ORm1hUjVfOGt5STZSS0Z5YkkyLXh5UGlJUHl1NHhDbkhLVWIxSHozSmRVbGxkM2dwMnI1U3ZDaFloUG9ldTg?oc=5",
+    "pub": "Sat, 31 Oct 2026 03:14:04 GMT",
+    "src": "www.thenationalnews.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Oil Prices Soar, the Cost of Living Skyrockets, and Young People Take to the Streets: The Flames of the Iran War Engulf the World - LankaeNews",
     "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5ZbmJIQmhWak8wYXpTSlNhSUdMOVltNWl4NkdYb1lvOGVlSVVyTFIzNDk0LWV5N1NNRmpPZGZ3VzhYbkFCM0Q0SkN3?oc=5",
@@ -1385,14 +1393,6 @@
     "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Wall Street tumbles to worst day since June: 5 key points amid tech sell-off | Business News - Hindustan Times",
-    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNaGVrelNPZWh0dHRYRi1PTW1lLTlHYjYzOHZ1Z1dEd2JLNEFNYmJVSXNQLTJsS3ZCMFBQN0tZRERtOGN0SlBBcnJiLVRaWHlNTGRKQ3g1NjdxMlg4ekNVamFqNzhCRHc4cHNmUXl0U0dyYk1BYVFsZEpIN0wtYzN2TFR1X01ycklVaEpZUFd3Um9wcW1IQ2d4ZG9tWFlqRk5WeVpmQzdrNk5HeFl0bEd0VzVHUnR2TWY2TlB5aS1Uc1dZZ1RBVVRYelFIZDh4c1Ix0gHWAUFVX3lxTFAzelpiaG9CZG5hOWFhcjU0YVN2WWJCNVJTY0J0em1PZEk2bVE2aW0zQWRySWVLUjJueElIdUVyRko0MDlnVVU3d1JibERyT0hFYXJEWUFUcS1KY1FBVUFkN1RLMUY2em94c25ZNUhZSXlnVDdrbEZuNkpzLUd1eHVQakNmTlFSVUJzZVAyZ3RZbm4zblgtZEM0eVF1bUxTWjRZejNaTjJwRDBxYnlicFMtaVE5N015eklLMmZLTnc3SWNEMTYzTlN0RFk2ZmFsdDEwMzZWbWc?oc=5",
-    "pub": "Fri, 30 Oct 2026 20:43:25 GMT",
-    "src": "Hindustan Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1429,18 +1429,18 @@
     "geo": false
    },
    {
-    "title": "Gold hits lowest price in a year despite Middle East tensions post-US midterms - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ3dJR192LVUxN1R6Ym51VFpFSTdQUGRpd0Y4MndKSUo1X19XVFRqODh0UEJXQlNQMjE5cDJRdEhxR001ZDhRR1psLU8xWmREaTAtWHpCbFZLSm9FWnVacm9TZUo3X3ZkUTFKbERqNjJqb2Y0aVd2Vktva0lGdlo4OW5mYU16dlN2dEZqZUV2TGJhMGdPNDFkREhMR084QQ?oc=5",
-    "pub": "Fri, 30 Oct 2026 21:49:27 GMT",
-    "src": "Pluang",
+    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+    "pub": "Fri, 30 Oct 2026 22:18:07 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "The Yen Firmed As The BOJ Talked Tough On Inflation - Finimize",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczBKaE52MmZXODhTcFhpdmtXNG4xMWpnc01LTUVfMmZfMUgyWlVFNUNCMEF4YnJ4UzR2TlhkLXo3ZXVucnpIRGw5QzM2RnZOYlRPUW1zMVRzam1sa2JJSTFEcE5vd0tCYW56OG8wV3l1bmE2OWUzeklNbmlKZFVSZlRRODNMak0?oc=5",
-    "pub": "Fri, 30 Oct 2026 21:43:28 GMT",
-    "src": "Finimize",
+    "title": "Gold hits lowest price in a year despite Middle East tensions post-US midterms - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ3dJR192LVUxN1R6Ym51VFpFSTdQUGRpd0Y4MndKSUo1X19XVFRqODh0UEJXQlNQMjE5cDJRdEhxR001ZDhRR1psLU8xWmREaTAtWHpCbFZLSm9FWnVacm9TZUo3X3ZkUTFKbERqNjJqb2Y0aVd2Vktva0lGdlo4OW5mYU16dlN2dEZqZUV2TGJhMGdPNDFkREhMR084QQ?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:49:27 GMT",
+    "src": "Pluang",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84497.21,
    82546.32,
    81500.8,
-   77216.14
+   77173.38
   ],
   "vixts": [
    0.899,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-31T03:21:49+00:00",
+  "checked": "2026-10-31T03:32:11+00:00",
   "openai": {
    "found": false
   },
@@ -2889,8 +2889,8 @@
   "dollar": {
    "dxy": 101.96,
    "dxy_chg20": 0.03,
-   "usdkrw": 1333.44,
-   "usdkrw_chg20": -2.0,
+   "usdkrw": 1335.1,
+   "usdkrw_chg20": -0.56,
    "hit": false,
    "missing": []
   },

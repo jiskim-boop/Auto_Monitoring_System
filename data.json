@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-31T01:02:41+00:00",
+ "updated": "2026-10-31T01:12:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77473.38,
-   "chg": -0.39,
-   "chg5": -3.19,
-   "chg20": -6.56,
-   "sma20": 81323.85,
-   "sma50": 81896.64,
-   "sma200": 72829.31,
+   "price": 77344.38,
+   "chg": -0.55,
+   "chg5": -3.35,
+   "chg20": -6.72,
+   "sma20": 81317.4,
+   "sma50": 81894.06,
+   "sma200": 72828.61,
    "high3m": 86602.91,
-   "reg": 77473.38,
+   "reg": 77344.38,
    "pre": null,
    "post": null,
-   "regClose": 77473.38,
+   "regClose": 77344.38,
    "sess": "reg",
-   "mt": 1793408526,
+   "mt": 1793409085,
    "ok": true
   },
   "USO": {
@@ -1247,19 +1247,11 @@
  "news": {
   "credit": [
    {
-    "title": "Apollo Global Stock And The Firms Financing The AI Data Center Buildout - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRkl0LUlPNFZyd0FnakxkLXVza1I3V1VRSXZNVjVmTDlzaFVmVlBqdFZvNzFmcDl6Y1BNaFFJZWViOGNDSjZKVkdKMVZ0ZmVmeFdDd0VWN0dvc1BiLUdzbXA0bVVSZzkzSkI2NzhCV0M1SEhVTVFMNjZkbmRpODM2T0l0Yk1ybHZXckhuSnRQaVg1YWxFNnlwTl9meGhtY1VoOThZblJ2NmluUGxfcUFmaUtUT3g2Z3Rmdk9QMU5KN2sweldlMzdNTGtRRkdCc3RjdkZMS0RNSHhCQzJ3LXU0akFMRm1JcC12VGfSAe8BQVVfeXFMTl9jTDU5SjVfb0M5T2JoX3ZpS3B6X0J1ZFlZU2V2WVFnekYtLXNwYlpiZzRKODBDUklTOTZrYjJZUjN6R0lMVGliNHNGcE02ckYxSFI2NGs0NUs1Yjd6YnVILS02R0dTNEZseW5fQlR3MFJuV0Z1aEh1VWlYT2R0QmtnTzh2dkhOTzhLUG5yNnlid19zRlcxNlY3bEVRVG00VWM0ZHJpbkJEQ0N1NnpPLWtsY3pSdU4yZFZkM0Q4U29UUFljMjNQeEVKbkU0d01VUWdEWFdRbmxzRU5Da2xCRGczTUxLOVdEdzN3S2xSRDg?oc=5",
-    "pub": "Fri, 30 Oct 2026 21:25:07 GMT",
-    "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic Could Join Public Markets With A Junk Rating - Broadcom (NASDAQ:AVGO) - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMikAJBVV95cUxPYW0wOWlRbEVsQXY3QUVLOThxV0c3dy1hQTUxanVKN1RwSGZZQ3hIWEhxWGxtRUMzV2pQOTlybi1idDJScVl5eG5WcEZFaHVWWmxFdU9IZjUxaXNYNnZLcDhpMERKMW9mcWx0T1ZnMHV3eWRuaFdlR1Jzd1N4SzZoMl9rTTlOWndNY1BFRUJFUE9RSHFYeUJnNWRod3RKUTFiVFlzUS15TjVjNF9mVlBHbU52VjluSjM1ZzJyS3M3aWZTZnVLaTFuTGZ5WkctVW1Wb2dpTUJ4SmM4LUt2ZE1GQ1RydVFPN2M0Nl93cHhBZlhaZlBFNFpHLW5ZTmVhZnl4V2tHLXgtd0h1YUh1VzFXQQ?oc=5",
+    "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
-    "trig": false,
+    "trig": true,
     "geo": false
    },
    {
@@ -1293,13 +1285,45 @@
     "src": "Alternative Credit Investor",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "AI financing surges, Moody's warns of refinancing risks in 2027–2029 - IDNFinancials",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPaS1xcUNBSV9COUZkNGZJRGFfTW51YUZGUEkyLWVoc3RZS3pfdmRZeEJLMmRrdzA3X2RXbURzTVVPSHZraEdhTEJNOHZhdnhlR0xvRlFzcWdwd2xNTWJEYnZseDhhaElHcEprOXNnWVAtSVNoamhCWThucnlKNGhRdURuRE51UUxvWmFFMDVOREZESTBzT2RCbC1ERzJ1VjJydU92YzFyY2czZw?oc=5",
+    "pub": "Fri, 30 Oct 2026 12:20:00 GMT",
+    "src": "IDNFinancials",
+    "trig": true,
+    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters - CoinDesk",
+    "title": "OpenAI Cuts Latest Funding Target by $10 Billion, Seeks $20 Billion at $1.25 Trillion Valuation - Sri Lanka Guardian",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZmNoOUN5Zl9rZWQyT21OWWhjOFhlY0wxRC15blFzcHNmamlDZm9iVk9EdjhTdUZYa3hOY0dUM2pXQVVabUo1S1gzSlRDMDE5SHZ3QlcwV3RpbHpsUklITW1nRUNLREZTdkNINkZrQXM0b0dscHVISVNZallLUGRfV0xDNlphbGM0Sm96M3FQWVItQzZnS1lKQzFBVllHSEhoY0FpeDFOSExLUUNiWEVHcFo3RGt5dw?oc=5",
+    "pub": "Sat, 31 Oct 2026 01:03:10 GMT",
+    "src": "Sri Lanka Guardian",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "FT: OpenAI cuts fundraising target by $10 billion — Channel NewsAsia - UA.NEWS",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSEhfaFBNdXcyeXl2bG0yUnhrTHhlakN6V0c4bVlaR3R3M0VWUVhLY1BvTVJRWF9VVVcyeVVUTUVyc1NzQlYzbDBwN1NkdTAzeWNSc2ZhMlhkUmhHVWtTQVMzd2U4QTJxVDBVTExORzNaTDZIakpkdDVSdmR6V0FVMThjdHA1RnBOQ2I5clZFZExuX3ZRSFFabnJmN1pXYTRXeEVDcFJOTQ?oc=5",
+    "pub": "Sat, 31 Oct 2026 01:02:56 GMT",
+    "src": "UA.NEWS",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "OpenAI reportedly cuts fundraising and valuation targets amid AI jitters - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5tek9Hb0NUeldsUV9jOS1EZkZCbEJkQmItZ21IVjJBVXJrRlN5TFBvTi11UTNRVXRONm5mTmFLRmRxZ2VJdnNNaURTaW1sSGUzSGxBR0JnTU0?oc=5",
+    "pub": "Sat, 31 Oct 2026 01:02:55 GMT",
+    "src": "Cryptonews.net",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "OpenAI reportedly cuts fundraising target amid AI jitters - CoinDesk",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPSzFXQlRxUVpERHJoTktMZUxRaGJVVHNuV3FOS1diMndTUFdiQnVWSDR2X052X2QxY0Y4M2RwcXdaZWRSN1hleHU1NUVhUjY1UDhvcTJyTjRRS1hPZVdfaHV5eXMwY3M4Rmpoem9Kb1cwRFB5OG01VWRyaTZocmJjVEt4X0xKVnJLVGpLZ3pHMmJjcUFCTy1zNFR2YXRBSkdBcDFaaw?oc=5",
-    "pub": "Sat, 31 Oct 2026 00:51:00 GMT",
+    "pub": "Sat, 31 Oct 2026 00:48:00 GMT",
     "src": "CoinDesk",
     "trig": true,
     "geo": false
@@ -1313,35 +1337,11 @@
     "geo": false
    },
    {
-    "title": "OpenAI cuts funding target by $10 billion, FT reports - 93.3 The Drive",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPVk5aeWM0SWZqcmhBVko3X1ljRUxLWHBLRzItXzh5M1ZuWlhJSjdFVnMtdW1CX2VWaXItQmhxaHA2ZVU0MzN2TnFPM1hSY0hUc1JJQ3B3Z3N2YWpBbUZwaU9VTlY5c2xJN2EtTFA4dlA5bjQyZDhUazVOM08yaS1PZ2pVRnlncmNxQ3NIa3FMcFVSdkxKRWc?oc=5",
-    "pub": "Sat, 31 Oct 2026 00:43:39 GMT",
-    "src": "93.3 The Drive",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "Court Denies xAI’s Motion to Dismiss Air Pollution Lawsuit Against Elon Musk’s company - Earthjustice",
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOTjU1UWozbXdQREpnQmVqeFpSLWNHVGN5Rll5aVJaZTA2T0VzS0ZvUXhlX2pjWklOdTNfQ0ItaW5SaGhvWURSRDh5WmVPRXVSYVB1NHEwbmF2TE5DU1NNd05BY2s4VUM4UGpDRDA2ak43R1daUmJ6U1lGY1ZuYVlHSG03V2dWUkl6bUNsb1JvdkJyMGZyMXBJdnVtQi1NZFo2YnM4QVRTLUtfNUhhbm12RzlobG8zYTNnTmxRMw?oc=5",
     "pub": "Sat, 31 Oct 2026 00:42:37 GMT",
     "src": "Earthjustice",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "OpenAI cuts funding target by $10 billion, FT reports By Reuters - Investing.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQVlBXellLdlJLUHY4SW1Jc0xxSjNmamFxQnVjamFKV3FqVXZNWm5ZbW53M3ljOVRfV21POENpREFzcndPUERZVzk4LWZ4QjZ3djNnS0lyWmVQUHFxT3Z3QmZXbTBYY0FvNWZiX2p6bUJsbjJfbXRFVm9LdHhQYlNBZndoWGNhYzhmTjAtSm5rbloyUDZmVUpzemZWOE1aRDZIeE9mUER3?oc=5",
-    "pub": "Sat, 31 Oct 2026 00:33:14 GMT",
-    "src": "Investing.com",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Lowers Fundraising Target–After Decreasing Possible Valuation - The Information",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNMFNVRHdYSjNtSzQ4Qm12d05nWmZiSEVodHAyLTRJdHYyUVoyR1hqanpXellYX00xb1BBV1d2am1scElBWkhVOHU3Xy1PQms4VUd6dVJYUDdsMnoyMjIxMjJmdmlDY3NTRzdDcjc3RHd6WTBxM2VHZFh5RWt6Y1lOeDVRR0Nia0hfSWJVRm1zLV8xVW12QUdZdS1IVTdYVVNHSUlhVXE5a0ZVUXk3bnc?oc=5",
-    "pub": "Sat, 31 Oct 2026 00:33:00 GMT",
-    "src": "The Information",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1351,6 +1351,22 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSTY1cDQzLUU0cTk4N01LenpNY2ZPeWcxRDRkSExBSC0xa3dtUGkyNmpWUHptT0t3YURsR0pwemFKUTR0bmlVcEFWVTB4S3JNcU9ka2dKdTJQcEw4QlU4UVR1WE5JMXJ0YUdPdjNURDJjZmhqbVJvTndYeUZzRTdSblJGeTdUTkRPNEZF?oc=5",
     "pub": "Sat, 31 Oct 2026 00:10:00 GMT",
     "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Trump Briefed on Iran Attack Options Amid Missile Attacks on Kyiv and Three Oil Refineries - Sahi",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNLVcyQWpoTFptRFNBSkdNdUtaeTJsREI2bmY5cnhrbzZLZlBacWNDUUxHUFUxQzJ6QVNzd241bGZ3X1Z3NXBNOURsbk5JN1o0dHgxZ1BObUNLdlNCVjZ2VW5weDJBOENOVGVWU3I2VFNHVGNweGEwdnY1b3Y5dG9uNU82T0dFc1MwMzY1emVGZlBCLWZKaTFteFM2WWozMUxIYU9aLW80cFNsdjRwcHlMbk9DNS1oOEE?oc=5",
+    "pub": "Fri, 30 Oct 2026 23:12:38 GMT",
+    "src": "Sahi",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Touches Pre-War Levels on Rising Middle East Supply - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc0x2dW5mVTB6dmR1TU9yVGVfaGxUdHlBTU83NG1fVmVlaThzczFFSXJRb2l6MDJrOFc4bXJXWFNzRklySEg5eUp4bXBtbXRnUjk4NzV6THJWdUhiWkJfX3N1b0tLRU5DeHpfSUxzc09rY2dQeFU0ek16SDJObmpYYzZXY2VCMTdNdmg1N3A1VQ?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:56:50 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    },
@@ -1377,22 +1393,6 @@
     "src": "Bloomberg.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Fed officials make case for rate hikes amid ongoing inflation concerns - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxObTlSSnpPaC0yUGM0aTNCb3h0cUVRejBTRjg0SXVnT0MwSXNMSzBVS1NFSEpUaGxtOUpzSkZmQlRKWjFWQ2UtNEp2RUgzcWwyMEN3clpKaU1acDlRUGFhS21BTEpWQjdSVURWZjRJd19Tc19pbVVHeWYwUEZLdUlka0x6M1p5WDRMVkVjRmlLTWU?oc=5",
-    "pub": "Fri, 30 Oct 2026 20:03:43 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Stock Volatility Surges as Plunge Has Investors Seeking Cover - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNV0hkR3lLV3NFYXlON29JQjhPMDlydmJGSjFqYVdjVmRNNU92Q2ZjRVZmRGYtazJfaERkX1UxS2J0eDU2ODJLeExvWFQyelRWaW5BMTNvTm5jMWRmdXl3dGtMOXFIYnNKcTBuM3ZuZzdRTUhsNV9fUUpYdzRCeGFEbk9hdmV0Y2E2VEJRc01QNXZfeFJiUlNOZ1VJQzZ2UG9VMGlGSS1HVFBheG5FMGw4M2JR?oc=5",
-    "pub": "Fri, 30 Oct 2026 19:49:47 GMT",
-    "src": "Bloomberg.com",
-    "trig": true,
-    "geo": false
    }
   ],
   "flow": [
@@ -1413,22 +1413,6 @@
     "geo": false
    },
    {
-    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-    "pub": "Fri, 30 Oct 2026 22:18:07 GMT",
-    "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gasoline Up 34% and Heating Oil Up 74% as Voters Head to the Midterms - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxObTR3Zko1ZTF2cUdQektITkFZclRMRDlRbzFQNEd2clhIcUZud25rcmFhdHQweUx3VTlySm1hcnJ2SmNLS2dHZEtvdnhGVWNMLUhpRUdUVlJFMG8taFVrM2I3WmxseEFvZDJ5N0JGZTNqWlF4b204dzViYjFjUnJuUVRYUzNRLUFrdmtlUm5nbl9UTHhHc29vdVhUYnVWbXppbUowNEFCLXhlZDFVNUxKVdIBtgFBVV95cUxPeFE1LTRPdDZRY3BGeWpoNVVmU3lTQWw5SzBvQzZ3VXpVd3hXd0l4dHJNUFdRUV9MYURMbl9rWlJzSU5tV3hQN0xnOHkzYmxFd2FfUkQwY0lrMk9HbWhOeG5yV1l0QnRhN2xfUFhiUnFoampCTFNzX1AydWhYdGJEZ2VqeXFYVXVaRkpONE1fQWp3X0VGMDY0dGs1RHNtUWJpbC1qNWhmM0RUOC1fWTdybVc1VEpQZw?oc=5",
-    "pub": "Fri, 30 Oct 2026 22:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold hits lowest price in a year despite Middle East tensions post-US midterms - Pluang",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZ3dJR192LVUxN1R6Ym51VFpFSTdQUGRpd0Y4MndKSUo1X19XVFRqODh0UEJXQlNQMjE5cDJRdEhxR001ZDhRR1psLU8xWmREaTAtWHpCbFZLSm9FWnVacm9TZUo3X3ZkUTFKbERqNjJqb2Y0aVd2Vktva0lGdlo4OW5mYU16dlN2dEZqZUV2TGJhMGdPNDFkREhMR084QQ?oc=5",
     "pub": "Fri, 30 Oct 2026 21:49:27 GMT",
@@ -1442,6 +1426,22 @@
     "pub": "Fri, 30 Oct 2026 21:30:00 GMT",
     "src": "MarketWatch",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Copper price set for first monthly loss since June as AI spending worries weigh - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZFlFXy1ISG8tWUdSWXRXc2steHRhWEF1bzAxZm9JSXpHemlxd3RBZUNHanFVT0VqSHM0ejIwcGRaR0FjcGFVSGdWZVhDb05tZVA1Wncwb25DVjgwUzNVekRRSTNxSnZjQnlFcWhrTHFNTi0xXzcwOTJGbG1lVnFOZ0VMWDM2ZkR6eGQ5ZDJJeklYQXFoMS11RlY4VzlZMWFmajR0YjBQV3ZLTWs?oc=5",
+    "pub": "Fri, 30 Oct 2026 20:21:53 GMT",
+    "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Prices Rise as Middle East, Ukraine-Russia Conflict Fuel Supply Worries - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUnhpZVZHQUliUnJIQUJWb3JmbVl6VV9GZ3NJN0M3X0EzZU9pa2N4SEcybGNlakZkcmxyeVNqV0E5LWRxTU1VZUM4Uk9TdGZTS0RJLU1CZ1JVVFBlM0pTcWFPd2U0b1RFTkVyV2oxSzNwZzYzMjBwVmRtbUFvWUowS1RPSEQ3eE1Qa2ZQQVJ5SExsbzVXQTQtNlZYRC1Bbnh2YmpnZ2VGaHZLQlJDRWJRZEZOU2VCZ1hPcENQcTUtYw?oc=5",
+    "pub": "Fri, 30 Oct 2026 20:19:00 GMT",
+    "src": "WSJ",
+    "trig": false,
     "geo": false
    }
   ]
@@ -1735,7 +1735,7 @@
    84497.21,
    82546.32,
    81500.8,
-   77457.71
+   77315.81
   ],
   "vixts": [
    0.899,
@@ -2791,7 +2791,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-10-31T01:02:27+00:00",
+  "checked": "2026-10-31T01:11:47+00:00",
   "openai": {
    "found": false
   },

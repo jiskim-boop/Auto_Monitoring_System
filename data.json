@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T14:42:04+00:00",
+ "updated": "2026-11-01T15:02:45+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77903.79,
-   "chg": 0.61,
-   "chg5": -3.59,
-   "chg20": -4.72,
-   "sma20": 80804.91,
-   "sma50": 81909.02,
-   "sma200": 72861.36,
+   "price": 77929.69,
+   "chg": 0.64,
+   "chg5": -3.56,
+   "chg20": -4.69,
+   "sma20": 80806.21,
+   "sma50": 81909.54,
+   "sma200": 72861.5,
    "high3m": 86602.91,
-   "reg": 77903.79,
+   "reg": 77929.69,
    "pre": null,
    "post": null,
-   "regClose": 77903.79,
+   "regClose": 77929.69,
    "sess": "reg",
-   "mt": 1793544088,
+   "mt": 1793545328,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Neocloud Balance Sheets 2026: Cash vs Debt at CoreWeave, Nebius, IREN and Peers - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQU0VwclVtdDdJNnZQcTg0RjRvMmtqeXcyN0ZmTU9NcUhuSkxHWWNTUkpkQ0NhLXRhVWJ3cmF0b1VaU3VyTHpsVkhCVXo0S0NjaUNfRzZuU0VsUW1Z?oc=5",
+    "pub": "Sun, 01 Nov 2026 07:49:04 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "🧭 Broadcom's $63B Chip SPV, Meta's $37.5B Raise, Mubbadrah's ~$3B Oman Plan - Global Data Center Hub",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qMFhaTU5zTVg3clRjbGtVTGpqUThPNWswT0QxeWZxdzROa2ZvUlcwdC1nSHVOLXUxMnhzM0FFWnViNWNsUUdBUFk2QklEcEhtWFRoUDVIN3k2S2FTVFZzWnVRUWg4SUpyMmZSSS1YSEYyOVJjalhtUEVRaw?oc=5",
     "pub": "Sun, 01 Nov 2026 02:01:04 GMT",
@@ -1271,27 +1279,19 @@
     "geo": false
    },
    {
+    "title": "Apollo Global Stock And The Firms Financing The AI Data Center Buildout - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNRkl0LUlPNFZyd0FnakxkLXVza1I3V1VRSXZNVjVmTDlzaFVmVlBqdFZvNzFmcDl6Y1BNaFFJZWViOGNDSjZKVkdKMVZ0ZmVmeFdDd0VWN0dvc1BiLUdzbXA0bVVSZzkzSkI2NzhCV0M1SEhVTVFMNjZkbmRpODM2T0l0Yk1ybHZXckhuSnRQaVg1YWxFNnlwTl9meGhtY1VoOThZblJ2NmluUGxfcUFmaUtUT3g2Z3Rmdk9QMU5KN2sweldlMzdNTGtRRkdCc3RjdkZMS0RNSHhCQzJ3LXU0akFMRm1JcC12VGfSAe8BQVVfeXFMTl9jTDU5SjVfb0M5T2JoX3ZpS3B6X0J1ZFlZU2V2WVFnekYtLXNwYlpiZzRKODBDUklTOTZrYjJZUjN6R0lMVGliNHNGcE02ckYxSFI2NGs0NUs1Yjd6YnVILS02R0dTNEZseW5fQlR3MFJuV0Z1aEh1VWlYT2R0QmtnTzh2dkhOTzhLUG5yNnlid19zRlcxNlY3bEVRVG00VWM0ZHJpbkJEQ0N1NnpPLWtsY3pSdU4yZFZkM0Q4U29UUFljMjNQeEVKbkU0d01VUWdEWFdRbmxzRU5Da2xCRGczTUxLOVdEdzN3S2xSRDg?oc=5",
+    "pub": "Fri, 30 Oct 2026 21:25:07 GMT",
+    "src": "Simply Wall St",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic Could Join Public Markets With a Junk Rating Despite $112B Cash Pile, Blackstone Warns - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNal9CWUxEVWJtSzRDMGptWmJYYkdqZHNVQlBHbnRjNHM0QVhBcF83blRKQWh2WElWRXNlSUxBN2kzTG4xcEs5MVVKWkFmRE1IenNhQkdOOFBSYlBSN0NuN2FqLWhGN3gxbEJMRmNMNzRWZnVDV25QLVhPRk5ZUzA0dXBPZ1FWcEVkRnJQQ1FlejdQSENUQXVDSXQ4VTdLWWY3bTdIcmxrdE8xc3hKSWk4YURpc3BOaVN1bTVMNmcwYkZpSGZ2OFNOVHJtUU9kMGxXWXYybTBNUWdZLUlUMWlJZHFqM2tmV0pTajZOelJxZw?oc=5",
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Wingspire, Iren close $363M equipment finance deal for AI infrastructure - Equipment Finance News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
-    "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
-    "src": "Equipment Finance News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave declines 10% amid financing concerns and tech selloff (CRWV:NASDAQ) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUl1TGZJVzdvMTRhU25mbTFrTVRYc1p6SzB2NjlyRmNIZERxWWtWWXZqM2tqRmN2R0ZGa29PY0NhTjRLNUl1Sk1CTGJ4YkUtQVFuV3NYTVZxY3RmUWNPb2p2Q1RlMldua1JjMXdNbGQ2aW5uaW9zVFZGSkhKYWVRaW9HU1ZBb3FKUHgyazFybVZQWGFwZmY2dER3QWtZVmJUTVE?oc=5",
-    "pub": "Fri, 30 Oct 2026 19:50:41 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1301,6 +1301,14 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTENfOFBpMVEtc2VWdTVZeDlXX0dCeTRJc2ZHYW5Zd2tXcFFid0pOc1QyMmx6X2JDRWFLcnVqOVJ1MmZSZEpqLThicHFKR0VGSDBtRzdkdllhelFyZ0V5M1dhMVJQZDg5S1duVE5yUDN6anpQVmRGNndIUHlVUURERUtjYkRMTGo1eGNB?oc=5",
     "pub": "Sun, 01 Nov 2026 13:57:37 GMT",
     "src": "International Business Times Australia",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Plans Post-Midterm Push to Promote AI Compute Campuses - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIbzhvcUlBdkdTR1Y2a1BzaE44azNRNXhwZDNCdlJpeWtKaEFyZ2EtaFRhSFNmOWp1SVBFMFBNVzJjNFJBdGQ4YlYtc1lhWjRVOXNtcXFqOXdCX3c?oc=5",
+    "pub": "Sun, 01 Nov 2026 13:57:28 GMT",
+    "src": "www.tokenpost.com",
     "trig": false,
     "geo": false
    },
@@ -1335,17 +1343,17 @@
     "src": "shattered.io",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Elon Musk’s SpaceXAI will buy your home near its Mississippi gas turbines — if you never sue over ‘torturous’ noise - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQcU8xaDdiMXVSZlQtc0F3TjJ4LWg4NklhT0IzZnhkeG9wUHI1SnVmc1Bra1pGMTZBV3U1bkR4QUNfeUMzQzRNRVhSYXdWSnlWOUR3ZnZtTDNRNVdVVWhrWHpSclpOWXhLWmZmRWNkdVV0d1NqV1Q4NU9yUW1YUDJJZnJ2b2w5c29WRHBCcjg0UjczUWs?oc=5",
-    "pub": "Sun, 01 Nov 2026 10:30:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "The Credit Market's Warning Is Coming Back To Haunt AI Stocks - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2hwVkdHLTBHRE53aUUxcElXM2NKQk9jZTdjM2k3TDJVQlFaM3BadXIxYXkyMVAzR2xzQVZuR3U3OHRXYzNwc3V6Z1Y4dkVXMFRhcmhqdDA1UDQyb1laUUNmQk5qMWJuZkM3VkNLSmVqWHNnNE5qVjAzRnl3b2lXZ1k2VDQ0ak9NeWZOdjF5VklYanNMcFN2Nkd3?oc=5",
+    "pub": "Sun, 01 Nov 2026 14:55:00 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Metals brace for US payrolls and tech earnings as crude tracks geopolitical risk - Moneycontrol.com",
     "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVTFoY2Mtd0V4a3JHX3pMNFlnZG9RTElNQWhMMDJyMEJhX0w5NEVJM09yRkxvdUE1cXN6QzJsb0xhNElkbXZ5N1lwMXJ1THJFcEtydFRTay1vQ0ZleUZkQWVubGVnNDlHUE9nUEtTZnhFeTRzZGNaX1kyR2h3cS0tSFpxNkhRUWNDR2pFdXdvLWVQOG9uX19GdjFkQ2FJa3BDNmhoS2hxdVdkZXBCMlRoOU9zX09halZ0U1Etb1RWTFhRaEc5Z3d4bnpVQnNqWVFfNVdnV010cktqOEppX0JQeXNESlFETllI0gHoAUFVX3lxTE1VMWhjYy13RXhrckdfekw0WWdkb1FMSU1BaEwwMnIwQmFfTDk0RUkzT3JGTG91QTVxc3pDMmxvTGE0SWRtdnk3WXAxcnVMckVwS3J0VFNrLW9DRmV5RmRBZW5sZWc0OUdQT2dQS1NmeEV5NHNkY1pfWTJHaHdxLS1IWnE2SFFRY0NHakV1d28tZVA4b25fX0Z2MWRDYUlrcEM2aGhLaHF1V2RlcEIyVGg5T3NfT2FqVnRTUS1vVFZMWFFoRzlnd3huelVCc2pZUV81V2dXTXRyS2o4SmlfQlB5c0RKUUROWUg?oc=5",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQN29hWTVLUzFoQXFuaVVVcV8wMTdfS0F5N3ZndmVxQ1dPelJMdTZ5ZDR4S3VZWXB4YTNuLWZ2YlI2a2pzQWtFX1J5aGV5b2lNVk1NS1RXdTNNODZkcjVBTVo4c3N2MnYwaUtjOThoMExTVGdua2tKLVBHTmdnclA4TkRyUE1xWDhiWE45bnc3dGhJSlc3NHRpMmhkTm43MU9aNFR0QnJRV2ZIazVrNklneVVkWVVXNENyYk5YdnFmRTdiN0Q5T3NiMXNNQWYySko1ekd3NWhn?oc=5",
     "pub": "Sun, 01 Nov 2026 03:53:44 GMT",
     "src": "BusinessToday Malaysia",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Stock Market May Have Just Discovered The Real Cost Of The AI Boom - Mott Capital Management",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWxQT1AtNUZhLUZWU3p3SFBnLTRmdk0zcEFlY3U0RlFiWFJSQllYVTRENWhEZVROQXkyd200UnVaaUYxb3ZYRElqZUdyZ3lnRUhCbTJ3T0daRW9wdTlIUGR6VENuZnRpUTFfNHZIcHNZbkdFZmdiR3NsNEtmMXhyQ0lqNTlIenJJYnZnRVotYWo1VzUtUlExb0ZIbE5wQVdrcWN2dlpvWXg?oc=5",
-    "pub": "Sat, 31 Oct 2026 18:48:46 GMT",
-    "src": "Mott Capital Management",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    86480.3,
    83679.47,
    82017.6,
-   77901.82
+   77929.7
   ],
   "vixts": [
    0.899,
@@ -1854,74 +1854,12 @@
   ]
  },
  "summary": {
-  "text": "SPY 당일 -1.77% 하락했으며, VIX는 12.91 상승하고 MOVE는 7.12 상승했습니다. 실질금리는 -0.04 하락해 2.63이 되었습니다.\n엔진 판정은 경계(스코어 2.5)로, 순유동성이 위험밴드(-37.1)이고 광폭성이 주의밴드이나 금리채권 곡선은 정상을 유지하고 있습니다.",
-  "change": "SPY 당일 -1.77% 하락했으며, VIX는 12.91 상승하고 MOVE는 7.12 상승했습니다. 실질금리는 -0.04 하락해 2.63이 되었습니다.",
-  "regime": "엔진 판정은 경계(스코어 2.5)로, 순유동성이 위험밴드(-37.1)이고 광폭성이 주의밴드이나 금리채권 곡선은 정상을 유지하고 있습니다.",
+  "text": "SPY 당일 -1.77%, VIX 당일 +12.91%, MOVE 당일 +7.12% 상승으로 변동성 확대와 함께 주가 낙폭이 심화되었습니다.\n경계 판정으로 사모대출 약세, 시장 급락, AI 밸류체인 약세 등 7개 악화신호가 감지되며, 순유동성 -37.1%로 위험밴드 진입한 상황입니다.",
+  "change": "SPY 당일 -1.77%, VIX 당일 +12.91%, MOVE 당일 +7.12% 상승으로 변동성 확대와 함께 주가 낙폭이 심화되었습니다.",
+  "regime": "경계 판정으로 사모대출 약세, 시장 급락, AI 밸류체인 약세 등 7개 악화신호가 감지되며, 순유동성 -37.1%로 위험밴드 진입한 상황입니다.",
   "by": "claude",
-  "base_d": "2026-10-31",
+  "base_d": "2026-11-01",
   "_base": {
-   "d": "2026-10-31",
-   "f": {
-    "ew_st": "경계",
-    "ew_score": 2.5,
-    "ew_axis": 2,
-    "ew_strong": 1,
-    "ew_hits": [
-     "사모대출 주가 약세",
-     "시장 급락",
-     "AI 밸류체인 약세",
-     "CCC-BB 확대(품질분산)",
-     "CCC-BB 저점이탈(+30%)",
-     "폭 축소(쏠림 랠리)",
-     "조정 지속(고점 -9.1%)"
-    ],
-    "ew_missing": [],
-    "hy": 3.26,
-    "hy_chg1": 0.12,
-    "hy_chg20": 0.55,
-    "hy_band": "정상",
-    "nfci": -0.487,
-    "nfci_band": "정상",
-    "cccbb": 11.31,
-    "cccbb_band": "정상",
-    "real": 2.63,
-    "real_chg1": -0.04,
-    "real_band": "위험",
-    "vix": 19.42,
-    "vix_chg1": 12.91,
-    "vix_band": "정상",
-    "vixts": 0.93,
-    "move": 100.2,
-    "move_chg1": 7.12,
-    "move_band": "주의",
-    "tnx": 4.93,
-    "curve": 0.96,
-    "curve_band": "정상",
-    "netliq_chg4w": -37.1,
-    "spy": 755.72,
-    "spy_chg1": -1.77,
-    "spy_chg5": -0.56,
-    "spy_chg20": -1.81,
-    "spy_vs50": -1.5,
-    "qqq_chg1": -3.47,
-    "gpu_excluded": true,
-    "gpu_median": 2.73,
-    "obs_hits": [
-     "energy"
-    ],
-    "netliq_band": "위험",
-    "broad_band": "주의",
-    "klr": {
-     "entry": "2026-07-07",
-     "td": 82,
-     "min_spx": -2.39,
-     "max_hy_bp": 68.0,
-     "left": 0,
-     "status": "60미적중·90추적"
-    }
-   }
-  },
-  "_today": {
    "d": "2026-11-01",
    "f": {
     "ew_st": "경계",
@@ -1983,8 +1921,70 @@
     }
    }
   },
-  "_delta_key": "6242078b52",
-  "_regime_key": "2cc52a00c6",
+  "_today": {
+   "d": "2026-11-02",
+   "f": {
+    "ew_st": "경계",
+    "ew_score": 2.5,
+    "ew_axis": 2,
+    "ew_strong": 1,
+    "ew_hits": [
+     "사모대출 주가 약세",
+     "시장 급락",
+     "AI 밸류체인 약세",
+     "CCC-BB 확대(품질분산)",
+     "CCC-BB 저점이탈(+30%)",
+     "폭 축소(쏠림 랠리)",
+     "조정 지속(고점 -9.1%)"
+    ],
+    "ew_missing": [],
+    "hy": 3.26,
+    "hy_chg1": 0.12,
+    "hy_chg20": 0.55,
+    "hy_band": "정상",
+    "nfci": -0.487,
+    "nfci_band": "정상",
+    "cccbb": 11.31,
+    "cccbb_band": "정상",
+    "real": 2.63,
+    "real_chg1": -0.04,
+    "real_band": "위험",
+    "vix": 19.42,
+    "vix_chg1": 12.91,
+    "vix_band": "정상",
+    "vixts": 0.93,
+    "move": 100.2,
+    "move_chg1": 7.12,
+    "move_band": "주의",
+    "tnx": 4.93,
+    "curve": 0.96,
+    "curve_band": "정상",
+    "netliq_chg4w": -37.1,
+    "spy": 755.72,
+    "spy_chg1": -1.77,
+    "spy_chg5": -0.56,
+    "spy_chg20": -1.81,
+    "spy_vs50": -1.5,
+    "qqq_chg1": -3.47,
+    "gpu_excluded": true,
+    "gpu_median": 2.73,
+    "obs_hits": [
+     "energy"
+    ],
+    "netliq_band": "위험",
+    "broad_band": "주의",
+    "klr": {
+     "entry": "2026-07-07",
+     "td": 82,
+     "min_spx": -2.39,
+     "max_hy_bp": 68.0,
+     "left": 0,
+     "status": "60미적중·90추적"
+    }
+   }
+  },
+  "_delta_key": "d6ab1a95bc",
+  "_regime_key": "460c565b2c",
   "_deltas": [
    "SPY 당일 -1.77%"
   ],
@@ -2788,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-01T14:41:50+00:00",
+  "checked": "2026-11-01T15:02:30+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T02:12:06+00:00",
+ "updated": "2026-11-01T02:22:13+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77570.34,
-   "chg": 0.48,
-   "chg5": -3.05,
-   "chg20": -7.3,
-   "sma20": 81004.63,
-   "sma50": 81899.06,
-   "sma200": 72834.7,
+   "price": 77600.66,
+   "chg": 0.52,
+   "chg5": -3.01,
+   "chg20": -7.26,
+   "sma20": 81006.15,
+   "sma50": 81899.67,
+   "sma200": 72834.86,
    "high3m": 86602.91,
-   "reg": 77570.34,
+   "reg": 77600.66,
    "pre": null,
    "post": null,
-   "regClose": 77570.34,
+   "regClose": 77600.66,
    "sess": "reg",
-   "mt": 1793499090,
+   "mt": 1793499691,
    "ok": true
   },
   "USO": {
@@ -1255,6 +1255,14 @@
     "geo": false
    },
    {
+    "title": "Neocloud Balance Sheets 2026: Cash vs Debt at CoreWeave, Nebius, IREN and Peers - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQU0VwclVtdDdJNnZQcTg0RjRvMmtqeXcyN0ZmTU9NcUhuSkxHWWNTUkpkQ0NhLXRhVWJ3cmF0b1VaU3VyTHpsVkhCVXo0S0NjaUNfRzZuU0VsUW1Z?oc=5",
+    "pub": "Sat, 31 Oct 2026 19:19:07 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside (NASDAQ:CIFR) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaV9OQ0xoN1RrSjhPNlYxYUVmemkxdEhsb2owX0pkczdaTlFMaVN4YlJLZXJhM0Y2eTZjanl2NmhTcFlzSUVOSmZfS2h5STZMdGotU3pMejZQUHJCU0d1UWNDUkpMNmpMS3VxeTlWeWNIQVphUkFGSXBZeHdzQndra0FmZzZLMFdpWVBwUQ?oc=5",
     "pub": "Sat, 31 Oct 2026 13:05:13 GMT",
@@ -1284,14 +1292,6 @@
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Wingspire, Iren close $363M equipment finance deal for AI infrastructure - Equipment Finance News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
-    "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
-    "src": "Equipment Finance News",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1347,34 +1347,10 @@
   ],
   "macro": [
    {
-    "title": "Iran War Upends IEA’s Oil Market Outlook as Global Supply and Demand to Contract in 2026 - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPak5XcGxWUXBlNVhTbFd3RkFvM2dzMUdvcm84a3Nzc2hxLVJYMU1zOHBsYlY0eV90Z2NlY0xDajNSdUxweFJ6WVprRjNzOHVrT0cwbXM0LUZvRHRmdF9VMEN0NUZpZ1VjYjFNeEdiSHZ1SHpyZ2otTVhyLXVsb09yVm1NUUhQM2dMMUNkQjFCalh1a2Y3bjlqX1ZNOHFVRDM5Ylh2clBwd0JmTUFtcmZUeUUyRnhsRXNjeUE?oc=5",
-    "pub": "Sat, 31 Oct 2026 22:10:36 GMT",
-    "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SLB Quarterly Profit Slips as Iran War Dents Middle East Oilfield Activity - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdHNkcm83RDlFanJRcUx4STBQQUc3UHZtYjBDbkF1d0kxWExmSTR5SlZkU0x4OGZvaXhiU2pZWGFpLVZMNktXUzZrRHp6ODZEaGpEWGpncm9EQmJyRGx5RG5CLVd1WllGd2tPMTg0LWdna3dDRERfcmYtV3BhbWhVYk9iT1FTQWREWXRYZzV2NUFER3plb2pDUEVsa1VHQ1BLVnllVTg0R00?oc=5",
-    "pub": "Sat, 31 Oct 2026 22:06:02 GMT",
-    "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "The Stock Market May Have Just Discovered The Real Cost Of The AI Boom - Mott Capital Management",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWxQT1AtNUZhLUZWU3p3SFBnLTRmdk0zcEFlY3U0RlFiWFJSQllYVTRENWhEZVROQXkyd200UnVaaUYxb3ZYRElqZUdyZ3lnRUhCbTJ3T0daRW9wdTlIUGR6VENuZnRpUTFfNHZIcHNZbkdFZmdiR3NsNEtmMXhyQ0lqNTlIenJJYnZnRVotYWo1VzUtUlExb0ZIbE5wQVdrcWN2dlpvWXg?oc=5",
     "pub": "Sat, 31 Oct 2026 18:48:46 GMT",
     "src": "Mott Capital Management",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CBOE Volatility S&P 500 Index(.VIX) Stock Price Today | Quotes & News - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMiwAJBVV95cUxONXlVU3NjSFJqajIwVzM5OGdsV1lqR2UwWTJ2WVB6MkR1YVBSMEVBNGF0YTFHQzJkXzZUbnJQNmdzc1lZY1g4MkdqemVKMnktMnV4T0phNlRDaTZRX0E4YmVUd19mLTBfWTFLRm9BNndBRHZjYTRhRmNmNkR2MVF4ZlREeWFmdnRKdHlfNEtVYkZjZDVFVVlqWUJGTjFiTFVNSTRMMGdpTzlyY1lUT1pySk5OLTcxeGxuSjZfdVlqUTctOTRnbExtVDBURDF0Mlo2TGpIY1hWbkxTM0tqMW9hMktUNFhOblRpekxNS0JfUDRDa1BZa3h6UDF0OFF5QmdRZ0l6T29OcHFtUWVjcVdLWVBPZVp0VDJXSmFma1JUMUN1OGdEX3ltS01pRFRCRWFNRF9XMk5paWhUQW54WXVIdQ?oc=5",
-    "pub": "Sat, 31 Oct 2026 16:18:45 GMT",
-    "src": "Moomoo",
     "trig": false,
     "geo": false
    },
@@ -1393,6 +1369,30 @@
     "src": "Simply Wall St",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "US AI boom raises crowding-out fears: Why Wall Street is worried about debt, borrowing costs - Business Today",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWjJKVmNsMThaUV9Cc1pvYkhYY2ozUUpyMndWMEFZT0JZdmhwYmdMVlh3N3JaZE1DM1h4aVpqNS1jYlJYdDNhOFRKMjZKaEZKNWpkbTM4VWFGbkhjVTZVUEI1Rl9ud0lLRS1hNENaUWFTeW1qb21xUmpZTmpaeDBlTWVpUlczLTNKOFJzbUVtSThLaWNRcEJtWGdrUHZVN0x3YjdMMVdZYXhDSFRpdFhjMEk2OFRJSGQ1eUtITFVjcFdpTDV4QUtkNzJoVlFza1lDbUQxMlBSVWtHUEhUUjZkX05Rc285RjQ50gHoAUFVX3lxTE5aMkpWY2wxOFpRX0JzWm9iSFhjajNRSnIyd1YwQVlPQll2aHBiZ0xWWHc3clpkTUMzWHhpWmo1LWNiUlh0M2E4VEoyNkpoRko1amRtMzhVYUZuSGNVNlVQQjVGX253SUtFLWE0Q1pRYVN5bWpvbXFSallOalp4MGVNZWlSVzMtM0o4UnNtRW1JOEtpY1FwQm1YZ2tQdlU3THdiN0wxV1lheENIVGl0WGMwSTY4VElIZDV5S0hMVWNwV2lMNXhBS2Q3MmhWUXNrWUNtRDEyUFJVa0dQSFRSNmRfTlFzbzlGNDk?oc=5",
+    "pub": "Sat, 31 Oct 2026 15:36:01 GMT",
+    "src": "Business Today",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Big Oil’s Iran War Windfall Is Nearly 3 Times Last Year’s Profits - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbWRRNmlvcWlhVll1ZG9NWTlLM1NIdzRwSTBCNG93MkN5SnNSaUk2aU1DbGROLTFLdDZ5V2NsX1pnaTN0SVlZN0VqbnBqX01rZ1RjeUxhR0x1dGVFdmgydzVHeTkxamxVeHRVODlQeVBNOFJISTlNcjBJd0xJNzQ0WENmOFQxMVNQcUNlV0c2bG92RmNzMzg3ZFcwbmtGXzdNRzFFbk1Xcm5SelE?oc=5",
+    "pub": "Sat, 31 Oct 2026 13:32:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The calm before the reckoning: When AI euphoria, political power, and market reality collide - The American Bazaar",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWk0N0JfX0tnRjJMMWdCUlNWcUZ0NGQwWjNDdzV2VzVQb21kQTdKMmpBUXpzMFpSdVRnOTF4aXd1TlpzTDhqcUkteEQ1bF93Q1I3V2RZR08zOEJWcTEtMHZSYllXbDZEU2s1RTNiUXlJZDFPWl82Q2dmejR5QXc3NnpkNFgwLU1FbXg1Tw?oc=5",
+    "pub": "Sat, 31 Oct 2026 11:46:36 GMT",
+    "src": "The American Bazaar",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1405,26 +1405,18 @@
     "geo": false
    },
    {
-    "title": "Chevron Raises Exploration Spending By 50% - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOYzNzSVVBcThGeXRadDdkOVFiWTFHaXJpaTh0RzRUcmp4RDIyYUJwdDROQkZZNm5xWm5iQlg1QkFlZzlLV3hxSXBPZ0xjUmxYNjFfcHp0WWdiU0FCb0h0RFZwbVZuUEgtT21VTHhSMnJCV09RRFZUdnlra0h0WFJWR3JIdno5VDVTUDJuaNIBkgFBVV95cUxQR1puSlFFWlBteDEwU3NBMGZSTmQ1cVN4aU0tR09KWjVtWkg0YVVHZGJiM0h4UGhzc04wWHp5RWRYMVRER2diYlpJUDhoaHQxSnpOa2VuNGJHejlQQjdRZVRvdkd0Z1RickpQUUdwc0s0TmFfNXpDUW1ucDR2eVFjaVQxVXlBX29MMkRSaDRXN1ZoUQ?oc=5",
-    "pub": "Sat, 31 Oct 2026 23:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crude Oil Dec 26 (CL=F) stock price, news, quote and history - Yahoo Finance UK",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE53TTE4VVFxXzFERC1MYXc3NGtSMU1vVjFRUWhQbXZYZ1VlYW1wekVWd0psQ1hzdUdvR1BJT3BCbmxkd2JnQzhXOWVvZ2o2TmpGdG9CdA?oc=5",
-    "pub": "Sat, 31 Oct 2026 18:34:02 GMT",
-    "src": "Yahoo Finance UK",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold price falls below $4,000 as stock market selloff triggers liquidity pressure - Equiti Global",
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOa2swWWdnalhUelF5Yl95R1AzMTF4eU5STTJFcEZRVmNmbnIxZFZmSl9XZWkxTXNhdlFERDU5bnVIUW1DVmVzdkQtOEQ5V084UG1XdWR0WTdjSzl5TXVvNXFtLWF2cEZ0ZVRJZkVQd3RxcU1BYVYxdFRVOVppQ19oLXpGZ2R6M1h3SDJrcmNHcGdyc3dxajVscDRaSUVLdXA2WnZ2R19ndGs?oc=5",
     "pub": "Sat, 31 Oct 2026 16:22:06 GMT",
     "src": "Equiti Global",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Price to earnings ratio of CRITICAL COPPER MINING CORP – CSE:CCCU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXdUVWJXV05wVUowSkR6eGxhYjZrQW54bGxsSW5qZEVkWWpSQ3kyS2s0MFJLMkJ6RDR5d2M5WnY2SHc3TzRIME8takJEZ2pFT3hUbVhaelFpU0NzXzVXMWd5eHU4ZUJmMUVsNjhicDQyZ0ZQbzNiSVh3bUJkeHhyTTIySXFRZENzLWt3bzR2RE8yY3RwRDhmeg?oc=5",
+    "pub": "Sat, 31 Oct 2026 13:44:57 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05S3VDX1k0aHJxSF9IRVBZUnRTTTlOMzlUbHBIYXZRU0xxWXpsMWtsa1FWLWc2NjdPX242bEJsUHM0Vm14MGJZMW91QWhfakFGRnRZU3VHSEtmeWJjVk81MVpLT0RmUFVJUldKZmY4em9BQQ?oc=5",
     "pub": "Sat, 31 Oct 2026 12:01:05 GMT",
     "src": "ARYnews.tv",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold's Rate Problem: Why a Saudi Refinery Strike Ended Up Hurting Bullion - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxPcjMzRUlnQ2h1eDdMMWNEUjd6akZENll3UVRIaGwzTzNkQXJ1cjMyLUx0cWQyZ1ctbjlGeEFkTVl0Y1NMTFFHSGYzTWIyLXpWUU9aeW1ydnZaWEdCdFNPWWZEOUpIbzJoS0lfVzhiTG1CRWxHanRnTGpuUkFVa1VOd09YNnJwMXUyaWo5clZMb3lERXlncXJ5S1E2X2lXZC05YmV5VUVBaXdFNTFVNnJac3dON1F3Y1BkM2swVDgyYlpXZEQzVVl6MjFodms1WUxiMDlrWW82LVlBYVJi?oc=5",
+    "pub": "Sat, 31 Oct 2026 09:20:53 GMT",
+    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84763.58,
    82912.23,
    81382.15,
-   77561.62
+   77600.67
   ],
   "vixts": [
    0.899,
@@ -2788,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-01T02:11:53+00:00",
+  "checked": "2026-11-01T02:21:55+00:00",
   "openai": {
    "found": false
   },

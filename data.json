@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T16:32:32+00:00",
+ "updated": "2026-11-01T16:52:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77947.47,
-   "chg": 0.66,
-   "chg5": -3.54,
-   "chg20": -4.67,
-   "sma20": 80807.1,
-   "sma50": 81909.89,
-   "sma200": 72861.6,
+   "price": 78011.88,
+   "chg": 0.75,
+   "chg5": -3.46,
+   "chg20": -4.59,
+   "sma20": 80810.32,
+   "sma50": 81911.18,
+   "sma200": 72861.95,
    "high3m": 86602.91,
-   "reg": 77947.47,
+   "reg": 78011.88,
    "pre": null,
    "post": null,
-   "regClose": 77947.47,
+   "regClose": 78011.88,
    "sess": "reg",
-   "mt": 1793550718,
+   "mt": 1793551897,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Neocloud Balance Sheets 2026: Cash vs Debt at CoreWeave, Nebius, IREN and Peers - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQU0VwclVtdDdJNnZQcTg0RjRvMmtqeXcyN0ZmTU9NcUhuSkxHWWNTUkpkQ0NhLXRhVWJ3cmF0b1VaU3VyTHpsVkhCVXo0S0NjaUNfRzZuU0VsUW1Z?oc=5",
+    "pub": "Sun, 01 Nov 2026 07:49:04 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "🧭 Broadcom's $63B Chip SPV, Meta's $37.5B Raise, Mubbadrah's ~$3B Oman Plan - Global Data Center Hub",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qMFhaTU5zTVg3clRjbGtVTGpqUThPNWswT0QxeWZxdzROa2ZvUlcwdC1nSHVOLXUxMnhzM0FFWnViNWNsUUdBUFk2QklEcEhtWFRoUDVIN3k2S2FTVFZzWnVRUWg4SUpyMmZSSS1YSEYyOVJjalhtUEVRaw?oc=5",
     "pub": "Sun, 01 Nov 2026 02:01:04 GMT",
@@ -1285,17 +1293,25 @@
     "src": "Benzinga",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Wingspire, Iren close $363M equipment finance deal for AI infrastructure - Equipment Finance News",
-    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
-    "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
-    "src": "Equipment Finance News",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "AI capex boom - Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVE9rbHUtdXRGY1VHeE1tSjdJTWlXU25JRkEyRXVpXzJqMk5VOWZZVzYxSzYta0tlbHdwZ2ZfdGNvQ2FiYnpIOEtfNFpnZEN3Wm5IOUxwcG10TDFPbjBQeUV1eVRuN3puUTRQNlh4ZDZSZ2xZbVpKRzZNeUc4YUsxZktLdjlIdW9lLVJISGh30gGTAUFVX3lxTE9CcVJsazY2MU0tOU4zR2dFSmFYSGRISDk0bkRLcXJEMXRNeEVLVE1kQmgydmxBUndXS2JuQkEwYl9wLXo4TVlLRk9rX2Z5cUE2WGRxSy1RaHZZNDBTUUFhUjR6dHJBbDBnZnVwekdOejN0T1hOZGZLUVpVZWtKWTZManp1ZTJlRFI0UEh2SnQxcS1PTQ?oc=5",
+    "pub": "Sun, 01 Nov 2026 16:35:30 GMT",
+    "src": "Business Standard",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AI capex surge pushes Big Tech free cash flow below zero (AIQ:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQMWxtQUNoWXV2Z1ZwdTZiR204YXM1eGNEQmtqbk9nOEY4dmYxS0lSWU1TM1JjNEo0RzFXQllhRGdRVXhJTFlTOUZ2OUZoTWxibjg3UmxuWTFSRzNxQlNtbTZGcDBUR2U0Q3M4U3FfcTNXTXhMc3ZseWtyUUd6eHRjLTRqZUVOeUJCM0VibWRCZGRmZ0MzeGpyMEF3?oc=5",
+    "pub": "Sun, 01 Nov 2026 16:13:56 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round - WSJ",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
@@ -1313,14 +1329,6 @@
     "geo": false
    },
    {
-    "title": "OpenAI Maps Post-Midterm Policy Push, Including 'Speed Limits' for Advanced AI - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9FTDhUV2JTM3JKR1lyak1KejFCU1ItTjBUeF9PZjVPcGJNQXlmd2laZE9IMWZyemlRQW1lY0syVXptSVB5ZkRNR0VER0k0ZThTRGFIVXd5VWRGSDlnRUd4S01NQkVURUlJem5Gam5qOGNna0VXelE?oc=5",
-    "pub": "Sun, 01 Nov 2026 14:05:00 GMT",
-    "src": "BigGo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "ChatGPT vs Gemini vs Grok vs Claude: Which AI Makes the Best Images in 2026? Blind Tests Crown a Clear Winner - International Business Times Australia",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTENfOFBpMVEtc2VWdTVZeDlXX0dCeTRJc2ZHYW5Zd2tXcFFid0pOc1QyMmx6X2JDRWFLcnVqOVJ1MmZSZEpqLThicHFKR0VGSDBtRzdkdllhelFyZ0V5M1dhMVJQZDg5S1duVE5yUDN6anpQVmRGNndIUHlVUURERUtjYkRMTGo1eGNB?oc=5",
     "pub": "Sun, 01 Nov 2026 13:57:37 GMT",
@@ -1329,45 +1337,21 @@
     "geo": false
    },
    {
-    "title": "OpenAI Plans Post-Midterm Push to Promote AI Compute Campuses - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBIbzhvcUlBdkdTR1Y2a1BzaE44azNRNXhwZDNCdlJpeWtKaEFyZ2EtaFRhSFNmOWp1SVBFMFBNVzJjNFJBdGQ4YlYtc1lhWjRVOXNtcXFqOXdCX3c?oc=5",
-    "pub": "Sun, 01 Nov 2026 13:57:28 GMT",
-    "src": "www.tokenpost.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Musk: 2 More SpaceXAI Data Centers Near Southaven by December - DeSoto County News",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQ01nUXZuUzBvWmdGVEZyWXNnZjVFazdrNVM3SmIwdEV1TFk2WFI5YXMxaXJ2c3ZORkVCNWJtRHlmZXJheVpJMG12OW5HVjhsS2Q4ODhwSlR4a3VQaEhhSUFHT2p3RWFNeFgyUXQ0UkYxTXhWSnpBaktVRUZwMkVkRi1GSDdhU3NQcXhpLXlRMllNZw?oc=5",
-    "pub": "Sun, 01 Nov 2026 13:25:00 GMT",
-    "src": "DeSoto County News",
+    "title": "3 AI Chip Stocks Linked To TSMC CoWoS Pricing Power - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOY0lNMUV1TERGSk1yb2l1MV9KMGtXa0VRZlpWY0xTcHZabGJBYVV1Ny1ycGpQaDVQNkRnZDk5NEQtR1BBeTQ3WDRia1pWZmhXSXo0UDV6bkdOd0pzemw0a1R6T2F5UTJDdHBSQUcxMkhYLXQxTVNVT25LTVNjNzdVb0RoN2hhblh1N3dSTHBuSFNWaURPaHZkNF9UbU9EZ3NDbmREU1BPVkFJMmVvcno3SmR6RGpPZWtaemh2dktCTlZiQ3o3UUd2YzdGQmFlSEkxdVU1UEU4QjQ4S0Z3bXFRbdIB5gFBVV95cUxPeUxTVjhsLThVM09iQXdEV0NBeVRtN3VFbFZSMThoRTZSRDMtMVRmMEtRYnFyNXlRYTRzd1NlMkZoVkIyWV9kM0lmLVlENzlRT3YtRFNwbzBUZW1NMHFXc0xPOVRHc0U4UUpuMHktWFc5NnctcUlHQmRwcmQ1ZlIwNW5kbXliWDI1LUhYQjNIbW1JUzZGMkFCWW81M0pGNHVLcnN6TVY2SmZ6d0NYblZjb1Byd0pseU9yTUFzZ2xmMVZvaGJZcDhwd1hpdjRlWXVJd3IzQzRET3RicVNDRERGNGNDcFNEdw?oc=5",
+    "pub": "Sun, 01 Nov 2026 13:51:22 GMT",
+    "src": "Simply Wall St",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
    {
-    "title": "Credit default swaps signal rising risk for AI giants despite strong stock prices. - Pluang",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNT2NxYzFWRkNDWWdrMENPLTlQTmlhT3BUZnFMT25TbDRaMTNSaEtNekRhWUNDQzhNampjVVVxSlhnVVVKU1loZXU5ZnZjSlZBZzcxUmE2MHNYWHptX1lCWHVPUm9ONmROcUF4UWNQZjRwT3V6dFd0U0VyV0JNUFk4LTNTdjI3TXhad280TEMtOUJUNnFqZUJHcVRtQVo?oc=5",
-    "pub": "Sun, 01 Nov 2026 15:13:30 GMT",
-    "src": "Pluang",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "The Credit Market's Warning Is Coming Back To Haunt AI Stocks - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2hwVkdHLTBHRE53aUUxcElXM2NKQk9jZTdjM2k3TDJVQlFaM3BadXIxYXkyMVAzR2xzQVZuR3U3OHRXYzNwc3V6Z1Y4dkVXMFRhcmhqdDA1UDQyb1laUUNmQk5qMWJuZkM3VkNLSmVqWHNnNE5qVjAzRnl3b2lXZ1k2VDQ0ak9NeWZOdjF5VklYanNMcFN2Nkd3?oc=5",
     "pub": "Sun, 01 Nov 2026 14:55:00 GMT",
     "src": "Seeking Alpha",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Metals brace for US payrolls and tech earnings as crude tracks geopolitical risk - Moneycontrol.com",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNVTFoY2Mtd0V4a3JHX3pMNFlnZG9RTElNQWhMMDJyMEJhX0w5NEVJM09yRkxvdUE1cXN6QzJsb0xhNElkbXZ5N1lwMXJ1THJFcEtydFRTay1vQ0ZleUZkQWVubGVnNDlHUE9nUEtTZnhFeTRzZGNaX1kyR2h3cS0tSFpxNkhRUWNDR2pFdXdvLWVQOG9uX19GdjFkQ2FJa3BDNmhoS2hxdVdkZXBCMlRoOU9zX09halZ0U1Etb1RWTFhRaEc5Z3d4bnpVQnNqWVFfNVdnV010cktqOEppX0JQeXNESlFETllI0gHoAUFVX3lxTE1VMWhjYy13RXhrckdfekw0WWdkb1FMSU1BaEwwMnIwQmFfTDk0RUkzT3JGTG91QTVxc3pDMmxvTGE0SWRtdnk3WXAxcnVMckVwS3J0VFNrLW9DRmV5RmRBZW5sZWc0OUdQT2dQS1NmeEV5NHNkY1pfWTJHaHdxLS1IWnE2SFFRY0NHakV1d28tZVA4b25fX0Z2MWRDYUlrcEM2aGhLaHF1V2RlcEIyVGg5T3NfT2FqVnRTUS1vVFZMWFFoRzlnd3huelVCc2pZUV81V2dXTXRyS2o4SmlfQlB5c0RKUUROWUg?oc=5",
-    "pub": "Sun, 01 Nov 2026 11:51:45 GMT",
-    "src": "Moneycontrol.com",
-    "trig": false,
     "geo": false
    },
    {
@@ -1379,18 +1363,34 @@
     "geo": false
    },
    {
-    "title": "Crude Oil Volatility: Iran Diplomacy & Geopolitical Risks - Rediff MoneyWiz",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPUm5Kd0hhWGJRY253NDJ1cl9SUjBySVNKdUcxT3YyaVNld0J0NW00WUJrcE1zNlVoZGVnanBBeEdmT0lxMllhZDRlZHFkaFFWenZMamJCOUt3UU5JYUNmVllhWjlaaFFaU2VxQTNyMlFHeHFXN1ZlRXd2LWQ1WHJpWHhtLUNzZmFoM3pMTWVqQzJ2UlMzd0dXODdsd0I1LW1sQjIwblJlNXlqUmxVV0Jz0gGvAUFVX3lxTE9Sbkp3SGFYYlFjbnc0MnVyX1JSMHJJU0p1RzFPdjJpU2V3QnQ1bTRZQmtwTXM2VWhkZWdqcEF4R2ZPSXEyWWFkNGVkcWRoUVZ6dkxqYkI5S3dRTklhQ2ZWWWFaOVpoUVpTZXFBM3IyUUd4cVc3VmVFd3YtZDVYcmlYeG0tQ3NmYWgzekxNZWpDMnZSUzN3R1c4N2x3QjUtbWxCMjBuUmU1eWpSbFVXQnM?oc=5",
-    "pub": "Sun, 01 Nov 2026 11:01:43 GMT",
-    "src": "Rediff MoneyWiz",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CBOE Volatility Index (^VIX) Charts, Data & News - Yahoo Finance - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wcEUwaTRhNE1VM051cHRGbDNWbEJYZ0lmVzVLNXNNVkx4aFRQQlVkSWZxQTNxMnd2bHViN1p0cmc2cms1cEFBOXlXVzBhZmFmWkFBUw?oc=5",
     "pub": "Sun, 01 Nov 2026 04:22:21 GMT",
     "src": "Yahoo! Finance Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US Inflation and the Fed: Bitcoin Before November 10 - CryptoTicker.io",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE10Rnc1MzM4Rl9oamxZckNwNDRfQ2xNRlNDMjNkSUFVT2lvX1lPcHlxY20tbVk2UjVIRTFwSU9HUy1NOXRVTFcwUmZ5N2oxcVQ3RDBQWTFuOENBaE1kTFRxdXVkMmx0SkhJTDE4cXFJQ0E?oc=5",
+    "pub": "Sun, 01 Nov 2026 03:15:31 GMT",
+    "src": "CryptoTicker.io",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Stock Market May Have Just Discovered The Real Cost Of The AI Boom - Mott Capital Management",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPdWxQT1AtNUZhLUZWU3p3SFBnLTRmdk0zcEFlY3U0RlFiWFJSQllYVTRENWhEZVROQXkyd200UnVaaUYxb3ZYRElqZUdyZ3lnRUhCbTJ3T0daRW9wdTlIUGR6VENuZnRpUTFfNHZIcHNZbkdFZmdiR3NsNEtmMXhyQ0lqNTlIenJJYnZnRVotYWo1VzUtUlExb0ZIbE5wQVdrcWN2dlpvWXg?oc=5",
+    "pub": "Sat, 31 Oct 2026 18:48:46 GMT",
+    "src": "Mott Capital Management",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Middle East on edge as fears mount the Iran war could restart after the midterms - CNN",
+    "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6U0o2UHZCSFl5N1RfNzEzSWtrcXNFalpsV1htVUZYTHM5NVdyU05GQXloeW5JaXU1b1BlRU45WG1BRE5oZmhfN1JZMjRBM3pFZW5zRmpfdGpmMk42M2JvVFN0WmRhM1BtdFRYTWszS3lwNk1yMjRRZmd3?oc=5",
+    "pub": "Sat, 31 Oct 2026 16:44:45 GMT",
+    "src": "CNN",
     "trig": false,
     "geo": false
    }
@@ -1413,14 +1413,6 @@
     "geo": false
    },
    {
-    "title": "Brent crude oil price on Nov 30, 2026 at 5:00 PM EST Commodities Prediction Market - Robinhood",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYjFPX1ZRd3puYm4xOWQ5T05PSG1BZWd2b2o1cVhrc3JGYk8wSVBOUTJydlB6TTJNODF3aW83YUJsZkMtUFFJd2ZQWkJjSndSUmJIbkk0dkVWR1E5LVdtT1RNdkwybl9oLUE5XzBXVVlJT2VKeVpjVGVtejZFQzdqa1Y0LUVvcW9uOHBZUGtUVTRlby1halg2MVFuQUlwel9LVUVwaEFxZFBWNmF4V1ZtSUVlUjdzMG95Y25yV0VydUxjX2ZBa3Y0M3ZR?oc=5",
-    "pub": "Sun, 01 Nov 2026 13:31:39 GMT",
-    "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Tribeca’s Dan Porter: Why copper, critical minerals, and bulk commodities are attracting capital - Mining.com.au",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ2xnYmVKY2oweGZkLU9sOWdhRXB6bi1IN3RzQV94ckZPS2pHS014R3lCRjA3Z1lzNnhOd0g2X0x1NmlwZ0M0LWZTd1NLNmJqVF9WSTVGeVZKTTNGemh3WFVzZ0wtZ0VoRDJYSzdheFFZSk1vQ0RVcUlmRjJHVzhTM2I2MnlhWUh2T2JybXlURmtXanl2RjZNcEVrQU9ldERHakFoRFozVlZxdGdRYm5NMG8yMGhUUQ?oc=5",
     "pub": "Sun, 01 Nov 2026 09:29:27 GMT",
@@ -1429,18 +1421,26 @@
     "geo": false
    },
    {
-    "title": "Copper price analysis as the rally stalls: will it rebound or crash further? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWJUWndpY2ZGTlhTU0dtMmd4Q1FZOEFqd25QSnBlaURjRmR3YzlnRDF3ME4zZW5GX1g4MUVUcHBSWTZhMzdxMlNIWjJPcTBsaXo2RFE3T1p0NW4ycm9WVTFUTXFGbFRXc19mMlgzVUNFZnBldEhUazQxZ2lzMXFkSHRsanZTdExMNzZaRDFzaWRobktyanljYjZuQ2w2N1dqaGNhSUtYS1g2al9KX1dDOERibw?oc=5",
-    "pub": "Sun, 01 Nov 2026 09:07:15 GMT",
-    "src": "Invezz",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold's 3.6% Setback: Why an Oil-Price Spike Ended Up Weighing on Bullion - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQSHR2VlpRQjZIajQ1Y1NySC10TDZxM0QzbV96VHllc094NU45QTY1ejQ5a2F5NWF1T25NTm1WYXptWmtuMUdybldZcEllN3lUV0tIS3Q1Q3Q0R1JxUzBublhrT0ZXSTJ4cklXOHlWMW5mS2x1VHpMdXZBYjdfX1NyUXE3bXdlcjhtaVpzR3JrZ3pGRjRTbjJzT2otVUZDUldfY0JvWWN0eWphX2dUamdfbGdETVE4S29BLW1KODJLLUtlTmd3amgwVFJqNU5Sel9fcXUwQ1NZaXZhUQ?oc=5",
     "pub": "Sun, 01 Nov 2026 07:02:19 GMT",
     "src": "ad-hoc-news.de",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices plummet on the global market: What caused the drop in gold prices? - Zamin.uz",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbTVsZnBjek1UNU9IX2ltblZ5SUhLOHV5NlJWQ0FMa28wUU8yR0lYYmpNQkJ0bkk0dlBWX3dmTno1T2w3aEZtMjFJRFBzbVM1S3Zoek1xTWNYRVJvWl9UOVZ2ckNkYlE3dDdlTDF1amJ0S2RoMUVxUlhwRTEyaEdxMVNqNGxzWWttakhIYURvamxTQkwydEdVUElvODliVWo0d3VXR3d2RXlJbndMamw1RDdjZ3c?oc=5",
+    "pub": "Sun, 01 Nov 2026 05:06:00 GMT",
+    "src": "Zamin.uz",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold prices next week: Downtrend prevails after a sharp drop last week. - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPX1ZWbE5UelpzUXlzdXpzM1hHanJTYVpkalhtNjRWWWFzUjdYS0k0enVlbWJNb0s0WTNEZVhSMS1MX1REenlRYXVyNXFVRmFYU01VVzRKeE5RbFRIa1JxR1E0OUZrNUpvSUpBOWxYenh1enZQbUd5UzUtS0FIM2lyYU5kMnhqcjVKMlBDZl9Hdm1QU083QjNr?oc=5",
+    "pub": "Sun, 01 Nov 2026 01:41:24 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    86480.3,
    83679.47,
    82017.6,
-   77952.16
+   78003.0
   ],
   "vixts": [
    0.899,
@@ -2788,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-01T16:32:17+00:00",
+  "checked": "2026-11-01T16:52:01+00:00",
   "openai": {
    "found": false
   },

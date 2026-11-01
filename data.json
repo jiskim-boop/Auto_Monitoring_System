@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T11:22:03+00:00",
+ "updated": "2026-11-01T11:32:40+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77853.06,
-   "chg": 0.54,
-   "chg5": -3.65,
-   "chg20": -4.78,
-   "sma20": 80802.38,
-   "sma50": 81908.0,
-   "sma200": 72861.09,
+   "price": 77826.0,
+   "chg": 0.51,
+   "chg5": -3.69,
+   "chg20": -4.81,
+   "sma20": 80801.02,
+   "sma50": 81907.46,
+   "sma200": 72860.94,
    "high3m": 86602.91,
-   "reg": 77853.06,
+   "reg": 77826.0,
    "pre": null,
    "post": null,
-   "regClose": 77853.06,
+   "regClose": 77826.0,
    "sess": "reg",
-   "mt": 1793532092,
+   "mt": 1793532723,
    "ok": true
   },
   "USO": {
@@ -1247,26 +1247,10 @@
  "news": {
   "credit": [
    {
-    "title": "Neocloud Balance Sheets 2026: Cash vs Debt at CoreWeave, Nebius, IREN and Peers - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQU0VwclVtdDdJNnZQcTg0RjRvMmtqeXcyN0ZmTU9NcUhuSkxHWWNTUkpkQ0NhLXRhVWJ3cmF0b1VaU3VyTHpsVkhCVXo0S0NjaUNfRzZuU0VsUW1Z?oc=5",
-    "pub": "Sun, 01 Nov 2026 07:41:15 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "🧭 Broadcom's $63B Chip SPV, Meta's $37.5B Raise, Mubbadrah's ~$3B Oman Plan - Global Data Center Hub",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9qMFhaTU5zTVg3clRjbGtVTGpqUThPNWswT0QxeWZxdzROa2ZvUlcwdC1nSHVOLXUxMnhzM0FFWnViNWNsUUdBUFk2QklEcEhtWFRoUDVIN3k2S2FTVFZzWnVRUWg4SUpyMmZSSS1YSEYyOVJjalhtUEVRaw?oc=5",
     "pub": "Sun, 01 Nov 2026 02:01:04 GMT",
     "src": "Global Data Center Hub",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Great Elm Capital Group Q2 Earnings Call Highlights - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQc2poNzdfX3dXTmNNUUtIYnZuYzNiNjBjTnJCN2MzeEwxWUVoZWczMjVIOGVTYWNpZTNEVUtYVG9laXVlOU41M3JDR0UzVnZZUXJVMV80MFFJZW80by05cGNLUGNDajVCZlFIZGVrMDZQMUdFVVA2MWRLLWp4dmxKeHNZaEROd050SGdzLXY1LTRleHJWS0F5Slo5TEo5MGhtQlFJWFRUQjRLUW5VcXMtRg?oc=5",
-    "pub": "Sat, 31 Oct 2026 21:21:36 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1292,6 +1276,22 @@
     "pub": "Fri, 30 Oct 2026 21:09:48 GMT",
     "src": "Benzinga",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Wingspire, Iren close $363M equipment finance deal for AI infrastructure - Equipment Finance News",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
+    "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
+    "src": "Equipment Finance News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave declines 10% amid financing concerns and tech selloff (CRWV:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUl1TGZJVzdvMTRhU25mbTFrTVRYc1p6SzB2NjlyRmNIZERxWWtWWXZqM2tqRmN2R0ZGa29PY0NhTjRLNUl1Sk1CTGJ4YkUtQVFuV3NYTVZxY3RmUWNPb2p2Q1RlMldua1JjMXdNbGQ2aW5uaW9zVFZGSkhKYWVRaW9HU1ZBb3FKUHgyazFybVZQWGFwZmY2dER3QWtZVmJUTVE?oc=5",
+    "pub": "Fri, 30 Oct 2026 19:50:41 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "Anthropic takes steps to block Claude from reverse-engineering video games - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOa0V2cUVWOVl0eFNNN0tEVjluRlliOHR0MkVQbXdWaERXUzhTSFZfend2OTVmZldaT3k0b3pINTlacGEtdmNXV243bnZUbXFqVW1sZ3ZnT2t2REdyaENNOEJuS3ZlV3VwbGhxZEZnYTJKa2NlOHRTd1RubTZuVlA2bElhQ24yS2VvLWV6MlBMU0RnOU9nSGRjaXhQNG9DVmly?oc=5",
+    "pub": "Sun, 01 Nov 2026 08:54:35 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "ChatGPT Maker OpenAI Reportedly Cuts Funding Target to $20B - Wowtale",
     "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5pdHY3WWFwVWlCbGVWaklmX0QtZ2ZxamFuejZ4RTh0ZjU1VG1scnlqWExvVUF2OVZMcmt2ZHJZUXNWQXpuYXBHSzc1TFJmTXNlakg4?oc=5",
     "pub": "Sun, 01 Nov 2026 08:20:26 GMT",
@@ -1335,17 +1343,17 @@
     "src": "TradingView",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "S&P turns negative on Meta as 2027 AI spending forecast tops $225bn - PPC Land",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOX1FfOW5IUTdmdllMODF6SWhfNDBIM0JoNFJWUG1YTGVQbUozd1loVTlvQV9jN0duenhpRlgtZEZSVFM5bWhlMzg3cmFaQXdWaEpCZkc1NWJERnktOF9rdG1SZjlCcTZvZ0tCOUkxb2YxRV9wWFFHQjg5WnFuUG9lb3duVl9BdFdBZm5yeQ?oc=5",
-    "pub": "Sun, 01 Nov 2026 05:48:07 GMT",
-    "src": "PPC Land",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Geopolitical risks, crude oil and earnings to steer markets this week - Business Standard",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPckFFUGZjWUpWd3FDSmZGMEVkVmNMTGZlQ2xQS09MRm5zMzZ2T19DeGlhSWJzbndMZzhma1puRTE0YVFlMU1fOFpfNFZLVzBlVGpSX3p1N1Bib1NRS1FueGFHUGVkbkx4MTh5Q3JlUlQ2S0VkYXZ6YWV1eEUyamo0SlVtTGR4Qkd0M25kT0NGN1V4eHRkN2ctVHBUelhxNVVsWG41OE9GYjhCbGkzNkNiZkVlR0w2THVSelZIU1ExUUFrSmFtOXpEeDRnVTZYclpS0gHWAUFVX3lxTFAwZnhac0llZTNScDZYdG1MUFVJd08xdXowRDBuNFp5dHJJc1V0MC13ZlBzRkphTHlZcnZOdkE0ZE1Ha3dKNmxUU1JGam5ZMjJsUng2TkJJbzVuRGk0ejQ3eG1ERW4wOF9yNkFwb0ZuTTBJdnhHQ2s3M2dkMkg4SkVUZS0yZTk2T3hQWTlWVjlQM3l0a1oycnhRRlVCN3hBUlN2NjZkNC11MlJQTjFnSTFfRFhtblIwdWZYbVI2UTdoVDNqcGRSSTJ2UDllQ0FvRGJjelktTlE?oc=5",
+    "pub": "Sun, 01 Nov 2026 11:26:15 GMT",
+    "src": "Business Standard",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "CBOE Volatility Index (^VIX) Charts, Data & News - Yahoo Finance - Yahoo! Finance Canada",
     "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1wcEUwaTRhNE1VM051cHRGbDNWbEJYZ0lmVzVLNXNNVkx4aFRQQlVkSWZxQTNxMnd2bHViN1p0cmc2cms1cEFBOXlXVzBhZmFmWkFBUw?oc=5",
@@ -1385,14 +1393,6 @@
     "src": "CNN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "U.S. Treasury, European Bond Yields Fall After Fed, ECB Hold - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNMVJzTU8waHdld3FnbVROOGw4ZEtGS2g3UHpKYVFXTXhzdW9DeW8xYmJrY1RmWGFvNUlqWThQR2FWaTRuaklmYWlhbTNQV0lfa3BNNmFjSHBUaTk0NDVNSHRFLUg5MFFhTFZZMWZrTHh5ZHpYVnVzMlpNZ2hqaEM3LVJuOUhrUV9kc3NGRHpfdFNkUEhTX2oyTzVRMUhvS1dyNkF1UVV4eEtFM3VXTXJvUG9Lc3dnRjRDc190d0Vzem5ZNmxfNktGcUl3?oc=5",
-    "pub": "Sat, 31 Oct 2026 16:04:11 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1401,6 +1401,14 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPZ2xnYmVKY2oweGZkLU9sOWdhRXB6bi1IN3RzQV94ckZPS2pHS014R3lCRjA3Z1lzNnhOd0g2X0x1NmlwZ0M0LWZTd1NLNmJqVF9WSTVGeVZKTTNGemh3WFVzZ0wtZ0VoRDJYSzdheFFZSk1vQ0RVcUlmRjJHVzhTM2I2MnlhWUh2T2JybXlURmtXanl2RjZNcEVrQU9ldERHakFoRFozVlZxdGdRYm5NMG8yMGhUUQ?oc=5",
     "pub": "Sun, 01 Nov 2026 09:29:27 GMT",
     "src": "Mining.com.au",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper price analysis as the rally stalls: will it rebound or crash further? - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOeWJUWndpY2ZGTlhTU0dtMmd4Q1FZOEFqd25QSnBlaURjRmR3YzlnRDF3ME4zZW5GX1g4MUVUcHBSWTZhMzdxMlNIWjJPcTBsaXo2RFE3T1p0NW4ycm9WVTFUTXFGbFRXc19mMlgzVUNFZnBldEhUazQxZ2lzMXFkSHRsanZTdExMNzZaRDFzaWRobktyanljYjZuQ2w2N1dqaGNhSUtYS1g2al9KX1dDOERibw?oc=5",
+    "pub": "Sun, 01 Nov 2026 09:07:15 GMT",
+    "src": "Invezz",
     "trig": false,
     "geo": false
    },
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPczBKaE52MmZXODhTcFhpdmtXNG4xMWpnc01LTUVfMmZfMUgyWlVFNUNCMEF4YnJ4UzR2TlhkLXo3ZXVucnpIRGw5QzM2RnZOYlRPUW1zMVRzam1sa2JJSTFEcE5vd0tCYW56OG8wV3l1bmE2OWUzeklNbmlKZFVSZlRRODNMak0?oc=5",
     "pub": "Sat, 31 Oct 2026 17:01:58 GMT",
     "src": "Finimize",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to earnings ratio of CRITICAL COPPER MINING CORPORATION – GETTEX:A42M3S - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNYnhYZXN5ZkdhNXN6Zk1icHNYZUZPWUhiOWQzRElHZGNDLU1NR29WQmNIRThEWTFpYWN2QVllc1o2UGpjZngxTWNUYlJ6NEN3b1BtWXJiYUFXY2huZlMzNzk3MEtXM1hPRkRFSjJBSmNXT09mby0wTy1RR1lTNWJnSjV5MzFfWmVUUTY5X0U5UXdJbWZIZkVZQWtVdTctLWc?oc=5",
-    "pub": "Sat, 31 Oct 2026 13:14:00 GMT",
-    "src": "TradingView",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    86480.3,
    83679.47,
    82017.6,
-   77853.06
+   77818.94
   ],
   "vixts": [
    0.899,
@@ -2788,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-01T11:21:50+00:00",
+  "checked": "2026-11-01T11:32:23+00:00",
   "openai": {
    "found": false
   },

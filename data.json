@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-01T00:02:45+00:00",
+ "updated": "2026-11-01T00:12:10+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77382.71,
+   "price": 77380.51,
    "chg": 0.24,
    "chg5": -3.28,
-   "chg20": -7.52,
-   "sma20": 80995.25,
-   "sma50": 81895.31,
-   "sma200": 72833.68,
+   "chg20": -7.53,
+   "sma20": 80995.14,
+   "sma50": 81895.27,
+   "sma200": 72833.67,
    "high3m": 86602.91,
-   "reg": 77382.71,
+   "reg": 77380.51,
    "pre": null,
    "post": null,
-   "regClose": 77382.71,
+   "regClose": 77380.51,
    "sess": "reg",
-   "mt": 1793491332,
+   "mt": 1793491890,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Neocloud Balance Sheets 2026: Cash vs Debt at CoreWeave, Nebius, IREN and Peers - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBQU0VwclVtdDdJNnZQcTg0RjRvMmtqeXcyN0ZmTU9NcUhuSkxHWWNTUkpkQ0NhLXRhVWJ3cmF0b1VaU3VyTHpsVkhCVXo0S0NjaUNfRzZuU0VsUW1Z?oc=5",
-    "pub": "Sat, 31 Oct 2026 19:19:07 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Cipher Digital And TeraWulf Vs. CoreWeave: Less Debt, More Upside (NASDAQ:CIFR) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOaV9OQ0xoN1RrSjhPNlYxYUVmemkxdEhsb2owX0pkczdaTlFMaVN4YlJLZXJhM0Y2eTZjanl2NmhTcFlzSUVOSmZfS2h5STZMdGotU3pMejZQUHJCU0d1UWNDUkpMNmpMS3VxeTlWeWNIQVphUkFGSXBZeHdzQndra0FmZzZLMFdpWVBwUQ?oc=5",
     "pub": "Sat, 31 Oct 2026 13:05:13 GMT",
@@ -1291,6 +1283,14 @@
     "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOcU9CNnY0OWtodVMzU1JfSmtSWXFGeDlfOVdwaTc1LTlod1RoMjcweE54VXk4OFlUc25yUFNkY3pOZGwybUZGWnBBR3F4ZW1Wb3JETUVkSGxwNklMWm9aNU9rbFlGaGpRdDEzX1JKTFhEQzR0ZjRGY3RodlFZZkprcENTajFJdDNRSS1wdE04bzJnRmdFM3d1Q0otekRicmdfLTRWTmk3NEhYNnZKQzZFNERlUE92YWRSOVd0bWhIMUxUTGVVdVE?oc=5",
     "pub": "Fri, 30 Oct 2026 20:55:27 GMT",
     "src": "Equipment Finance News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave declines 10% amid financing concerns and tech selloff (CRWV:NASDAQ) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPNUl1TGZJVzdvMTRhU25mbTFrTVRYc1p6SzB2NjlyRmNIZERxWWtWWXZqM2tqRmN2R0ZGa29PY0NhTjRLNUl1Sk1CTGJ4YkUtQVFuV3NYTVZxY3RmUWNPb2p2Q1RlMldua1JjMXdNbGQ2aW5uaW9zVFZGSkhKYWVRaW9HU1ZBb3FKUHgyazFybVZQWGFwZmY2dER3QWtZVmJUTVE?oc=5",
+    "pub": "Fri, 30 Oct 2026 19:50:41 GMT",
+    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1379,31 +1379,23 @@
     "geo": false
    },
    {
+    "title": "US AI boom raises crowding-out fears: Why Wall Street is worried about debt, borrowing costs - Business Today",
+    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOWjJKVmNsMThaUV9Cc1pvYkhYY2ozUUpyMndWMEFZT0JZdmhwYmdMVlh3N3JaZE1DM1h4aVpqNS1jYlJYdDNhOFRKMjZKaEZKNWpkbTM4VWFGbkhjVTZVUEI1Rl9ud0lLRS1hNENaUWFTeW1qb21xUmpZTmpaeDBlTWVpUlczLTNKOFJzbUVtSThLaWNRcEJtWGdrUHZVN0x3YjdMMVdZYXhDSFRpdFhjMEk2OFRJSGQ1eUtITFVjcFdpTDV4QUtkNzJoVlFza1lDbUQxMlBSVWtHUEhUUjZkX05Rc285RjQ50gHoAUFVX3lxTE5aMkpWY2wxOFpRX0JzWm9iSFhjajNRSnIyd1YwQVlPQll2aHBiZ0xWWHc3clpkTUMzWHhpWmo1LWNiUlh0M2E4VEoyNkpoRko1amRtMzhVYUZuSGNVNlVQQjVGX253SUtFLWE0Q1pRYVN5bWpvbXFSallOalp4MGVNZWlSVzMtM0o4UnNtRW1JOEtpY1FwQm1YZ2tQdlU3THdiN0wxV1lheENIVGl0WGMwSTY4VElIZDV5S0hMVWNwV2lMNXhBS2Q3MmhWUXNrWUNtRDEyUFJVa0dQSFRSNmRfTlFzbzlGNDk?oc=5",
+    "pub": "Sat, 31 Oct 2026 15:36:01 GMT",
+    "src": "Business Today",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "The calm before the reckoning: When AI euphoria, political power, and market reality collide - The American Bazaar",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQaWk0N0JfX0tnRjJMMWdCUlNWcUZ0NGQwWjNDdzV2VzVQb21kQTdKMmpBUXpzMFpSdVRnOTF4aXd1TlpzTDhqcUkteEQ1bF93Q1I3V2RZR08zOEJWcTEtMHZSYllXbDZEU2s1RTNiUXlJZDFPWl82Q2dmejR5QXc3NnpkNFgwLU1FbXg1Tw?oc=5",
     "pub": "Sat, 31 Oct 2026 11:46:36 GMT",
     "src": "The American Bazaar",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Federal Reserve Releases Interest Rate Decision - The Presidential Prayer Team",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPbUVDM0hOS2pBZ2owQWFjektBYWFUUS0tY1NKVkhlN0xVaXlhR0tfOXhEc2JyeFA5ZlpycGpnTFQ0VzdCZFhDUTZYbklNMlNFYVBJZGY3TEE3TzZpVEU5NXY4Qjg3dEhPM19uZlZiUjFaY3NXSmtJQ1o1NlRoTTdBaDIwLTI2dGU3ak10SkVMUVpMazVOUlVXNktQMlhET3M?oc=5",
-    "pub": "Sat, 31 Oct 2026 08:30:00 GMT",
-    "src": "The Presidential Prayer Team",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "Price to earnings ratio of CRITICAL COPPER MINING CORP – CSE:CCCU - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOLXdUVWJXV05wVUowSkR6eGxhYjZrQW54bGxsSW5qZEVkWWpSQ3kyS2s0MFJLMkJ6RDR5d2M5WnY2SHc3TzRIME8takJEZ2pFT3hUbVhaelFpU0NzXzVXMWd5eHU4ZUJmMUVsNjhicDQyZ0ZQbzNiSVh3bUJkeHhyTTIySXFRZENzLWt3bzR2RE8yY3RwRDhmeg?oc=5",
-    "pub": "Sat, 31 Oct 2026 13:44:57 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Gold prices witness sharp decline in Pakistan - ARYnews.tv",
     "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE05S3VDX1k0aHJxSF9IRVBZUnRTTTlOMzlUbHBIYXZRU0xxWXpsMWtsa1FWLWc2NjdPX242bEJsUHM0Vm14MGJZMW91QWhfakFGRnRZU3VHSEtmeWJjVk81MVpLT0RmUFVJUldKZmY4em9BQQ?oc=5",
@@ -1437,10 +1429,18 @@
     "geo": false
    },
    {
-    "title": "What Amerigo Resources (ARG) Said on Its Q3 Earnings Call - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxObEpIV01CaTdsbGp0OGtSTnFqY25ZN1FGSTk4VWxubXBkLWxXRE5LQUZmMllSZlhKdHFrMEdLQy1oMkZwRUJ5b1k1YjRBRVJUUV9TanFLaDY0ZFBfV2JDbXd2WEktZTJhdmVHTGR6eTJOSVNfUldTcFRkclJ1cGMwX1hZUV83VFhIUjJ3R1QtZEU4bFpOc29XWEZkQ3F2X3BLbEZoWHlyRlpNM0YyanJncll0aGNnUlU?oc=5",
-    "pub": "Sat, 31 Oct 2026 08:14:06 GMT",
+    "title": "Capstone Copper Q3 Earnings Call Highlights - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQc09WT3FfSWY0WlBSckEzS3k5WFlBbTNIRWltMTFWTEtiMl9WZHkzVFpxMGZrYzJqcFVMNG1wdWM2MF81S29pZE1TLXNxWmM1SWFlQ1hWQmlyelBUWXBJSW1hTmZJaDJGYjZFSjFkTXo1NXlCenRxdHpDODRqdm5ER0xzTnFCZ3VNV0NOMTREb1BHRjM1WE42MXJ5ZHRROTNESUF2dEtmdw?oc=5",
+    "pub": "Sat, 31 Oct 2026 06:13:00 GMT",
     "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Southern Copper (SCCO) Stock Could Be 29% Overvalued Following Project Delays - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT3NjS0tETXF3dzkzcjBoMVlsRlRoR053UFJMNHlCUW8zMUgxOXhOX2c0dnU5dmpvZHlobzBpY19zV3pfVXhFYWFOalloS3QtelNhWGd4ZWZRYXc3d3hvSnBYdVFUNDN6ampBUDhodk9PbEhVTWpic3pnOUg4UWpTeFREVk9RYThVWDdNQ1VPSWtKUlJlXzdVdDdYZTJpRzI5a2FhYlhYcUdpX2hDWFFvNFB3ckxfLV9OZkVBaEFDenlmOUpOVHlxV1VsZzfSAdIBQVVfeXFMT3lEUnBDcXhiZUc5Q3VDNUtxNFZVMHVpOHRseFdURzR6Z01abkYxc1JvTVc1TGJGc2xqNnMwdld0UllYMU9RcEtmWjY3V3R1WS16Qk40ZXZhODJQVWtBaE1GYmp1X1N6b05pSlV5ekVqNEJNaTNqd2V2LXFRaXdpNS05Sjh4WnNsb2FyYmZweWRzTjIyang2a2o2Z01WeGRPZ2ZabXR1RlZEYjBucjVfeE9DQVJOcUdDdldNSzlEcjVCa2xzalYzc2lHaDNRdDBGa2NB?oc=5",
+    "pub": "Sat, 31 Oct 2026 05:41:18 GMT",
+    "src": "Simply Wall St",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    84763.58,
    82912.23,
    81382.15,
-   77412.0
+   77378.96
   ],
   "vixts": [
    0.899,
@@ -2788,7 +2788,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-01T00:02:32+00:00",
+  "checked": "2026-11-01T00:11:53+00:00",
   "openai": {
    "found": false
   },

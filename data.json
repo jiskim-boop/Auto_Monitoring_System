@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:42:13+00:00",
+ "updated": "2026-11-02T22:52:13+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.77,
-   "chg": -0.1,
-   "chg5": -0.18,
-   "chg20": -0.39,
+   "price": 101.79,
+   "chg": -0.09,
+   "chg5": -0.17,
+   "chg20": -0.37,
    "sma20": 102.03,
    "sma50": 100.87,
    "sma200": 100.33,
    "high3m": 102.58,
-   "reg": 101.77,
+   "reg": 101.79,
    "pre": null,
    "post": null,
-   "regClose": 101.77,
+   "regClose": 101.79,
    "sess": "reg",
-   "mt": 1793658693,
+   "mt": 1793659291,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76686.25,
-   "chg": -2.0,
-   "chg5": -5.64,
-   "chg20": -7.71,
-   "sma20": 80501.7,
-   "sma50": 81912.87,
-   "sma200": 72855.16,
+   "price": 76766.93,
+   "chg": -1.89,
+   "chg5": -5.54,
+   "chg20": -7.62,
+   "sma20": 80505.74,
+   "sma50": 81914.49,
+   "sma200": 72855.59,
    "high3m": 86602.91,
-   "reg": 76686.25,
+   "reg": 76766.93,
    "pre": null,
    "post": null,
-   "regClose": 76686.25,
+   "regClose": 76766.93,
    "sess": "reg",
-   "mt": 1793659297,
+   "mt": 1793659899,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.87,
-   "chg": 0.04,
-   "chg5": 0.66,
-   "chg20": 0.09,
+   "price": 157.85,
+   "chg": 0.03,
+   "chg5": 0.65,
+   "chg20": 0.07,
    "sma20": 157.93,
    "sma50": 157.43,
    "sma200": 159.13,
    "high3m": 160.2,
-   "reg": 157.87,
+   "reg": 157.85,
    "pre": null,
    "post": null,
-   "regClose": 157.87,
+   "regClose": 157.85,
    "sess": "reg",
-   "mt": 1793659300,
+   "mt": 1793659901,
    "ok": true
   },
   "KRW=X": {
-   "price": 1345.74,
-   "chg": 0.58,
-   "chg5": 1.81,
-   "chg20": 0.24,
-   "sma20": 1334.87,
+   "price": 1345.5,
+   "chg": 0.56,
+   "chg5": 1.8,
+   "chg20": 0.22,
+   "sma20": 1334.86,
    "sma50": 1350.85,
    "sma200": 1433.98,
    "high3m": 1422.3,
-   "reg": 1345.74,
+   "reg": 1345.5,
    "pre": null,
    "post": null,
-   "regClose": 1345.74,
+   "regClose": 1345.5,
    "sess": "reg",
-   "mt": 1793659301,
+   "mt": 1793659901,
    "ok": true
   },
   "^OVX": {
@@ -1177,8 +1177,8 @@
   },
   "HG=F": {
    "price": 6.54,
-   "chg": 1.31,
-   "chg5": 0.54,
+   "chg": 1.3,
+   "chg5": 0.53,
    "chg20": -0.65,
    "sma20": 6.56,
    "sma50": 6.57,
@@ -1247,6 +1247,22 @@
  "news": {
   "credit": [
    {
+    "title": "PIMCO Closed-End Funds Declare Monthly Common Share Distributions - Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb2JtTDQwdzI5TW5oOW5QZXYxdkZTellmX3RMRlZleUhmQXFCa0dvRDloaTVESEpuMjdmMGZhTXZ4NlFTVHFWaVcwbUxFTnd1N3A3Ulg3VlVSX2FtcGUzWmFnM2l3aGV5cGtoOWpRTXBiUmFJR2dWWVBEN2xkQk1zMlpKaE1IclFTVVRLWHRsbmpPa25NSWRyajVmeEEwZmhhMVVqNXVmSFJhM0MwUDNJamdtMUgxb2tJRjkzRFZPWQ?oc=5",
+    "pub": "Mon, 02 Nov 2026 21:46:00 GMT",
+    "src": "Business Wire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Weak peso pushes Philippine national debt to P19.66 trillion - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNaUt5dUV2Qk1fV1JMb2x1ajJiZjE0Q1ZpSmt2d1pheEloZmUybkUtMzJKX3FXTlV4VmZ1RVlBNFA3SXJfMlBqOXlZcDFCNWw4b05OTGtXRTFUd1pnNEZ2aFE2eFpJZ215SjQ2WFdZSF9IUTJnOTN5WkZidWVsX3JYeHBNY3I1X1Zvdkx2ZzdQRlB0M3BLbExYYWl6RElibmFGcFVCZHNGbDBjOFpPSldGOGxCWQ?oc=5",
+    "pub": "Mon, 02 Nov 2026 21:16:28 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Great Elm Capital Corp. Announces Third Quarter 2026 Financial Results - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGNDVWhkNGhfQXd6UVhsdnR3cDVYbThkV2drUGFydE82NDl6bEpQRFphb0Z4QmNsWVI4RWFVRE5idERhSWU3eDBnN3lXM3lyZ3NrRWdvNC16SURHYmJwZW1tcExuRi0wc2RvdkF2QXFxV0ZodkZDSzBOTWE3S1lSUl8xbU4xbnVPdnhfWnVfTnlNd3RFUEhhZmRNTzJVZw?oc=5",
     "pub": "Mon, 02 Nov 2026 21:05:00 GMT",
@@ -1277,25 +1293,17 @@
     "src": "Seeking Alpha",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "South Korea will double spending on AI and semiconductors in 2027 to a record high, the president said, pledging to use the technology to turn the military into a \"smart, elite force.\" | via ANC 24/7 Link to full story in the comments section. - Facebook",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTVdLRFlWSDJzV3RrdzJ0Qk5aeGhVQ0t4cjdSdllFV2Q3NTlTYXBqUjZRTFRJTThpX2QtcDlLVXE4ZExxMzktVHlKUlZoSVBuQnhNcGZidXJoSjdsZU82WXNpY1JTWDhhTGNtMzM2dUZKcWNDUXJnQWdCS3dXcXA2NXEwR2FqUHc2UFF0NTlyNVJGeDZ4cmRmaS1GVGI4SUxfQU9US1pjU0t1dEd2Ny04TjZTbDVSSGF1WG5rOS1seUxYYkhEQUFDV25selY4WTZxVjRrRTlTaw?oc=5",
-    "pub": "Mon, 02 Nov 2026 18:00:49 GMT",
-    "src": "Facebook",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI Optimism, Credit Strain Keep ECB Watchful on Stability - Analytics Insight",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObzZ0RnZOd0tuT3BqQm95YVJ4SGNpOENNOUQwQ1YwdGxoSmx5ZEMwU1Bsb0Nlekx6cWhkeXk4ODM1Vm85aTZBaUdGS1FubWdWZlZpUEpLS3dWUmNZS3hvcmZxVjY3UzVyWkJmNFV5V2F0cERlTlZkNDRHSFNaR2RUaXNac2tpM2RFYnVDYzNPQ1B3Zy0wQkRheXlR0gGnAUFVX3lxTE1aX2V6YnVmZHBSNlV4OVR4UEJEMGg4MEtCUVBSWlZHZEZLQWZMcndvSVFDci1ucTYwVFlybU9Yd1ltVld5TXcxU0NjbGhzaFNyVG9GbW81VmE4S1FUWVBfUDNseUFtSjFnZWhQOTdxMUJMTkhLWl9OdDZBVGF4ei1qdWdoQzEwRnhTYUV6VlU4LTlJeXBWYWpobXI0ZGpxakJmT1BWLUFV?oc=5",
-    "pub": "Mon, 02 Nov 2026 15:30:00 GMT",
-    "src": "Analytics Insight",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "The SEC Should Block Anthropic’s IPO to Protect the Public - Tech Policy Press",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNb3phNHdUTE9uUDNmOV9RWDdRN1VWd3lDQUxxclJ4Si1kMDB1UXRzcG13cVRvQlc4SGMtdEZoR2d5RlFhR1VQWlVoZ0tWS0FBWEUxWWdEc3BDSEFZVWZONkx6S1oyWmwwZFJMNDN0ZklsQ1JfdlJkLWJ0cmpYTVBqaHNfbUZ6ODhDY2c2bmdZNUo?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:32:40 GMT",
+    "src": "Tech Policy Press",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Federal Judge Denies Motion by xAI to Dismiss NAACP Lawsuit Against Data Center - Truthout",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPRjY4VDg4aU9yX2FMNVNvMjRJMXp0aThaSU1iMGF1d0J5cWw5elhvWTFfNm00OGJVc0dWb0dhR0FUYlhCckhpaHIwczdqd2pHM2RKWmxhMFBnRk9MejBfZ3BSZ2RzY09lUmhuMndHRENZMU9iMzZUN3hoNUIzdS1BMjViVTQ1ZjVYMFhCQkhaaU5LNUJjTzdkdG85RWVtb1pnZnc5Y1pIM0M3U3l4Q09F?oc=5",
@@ -1305,10 +1313,26 @@
     "geo": false
    },
    {
-    "title": "Apple Returned $28B as Capex Took 8% of Cash; AI Giants 116% - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExKdnhXOVNwQXpoTlAzOTRIb09TLW94SFAwb0hJd2VtNzB2czd0dHhWcnNlT0hyMlhld3gwdGNlWS1zVVV2RHIyOVZaNmlfaUJwYjZ0NUpyelE3TzR6VUhodFp5alpsZlRwdHplM09ESC00Y3FlUFViY0oyMmh2aW5XTnluTlRwTWRVVg?oc=5",
-    "pub": "Mon, 02 Nov 2026 22:22:22 GMT",
-    "src": "FourWeekMBA",
+    "title": "South Korea eyes rocket debut and China lines up four launches - Astronomy.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXVVaXZIMk8yRWVOV01qRktfbXl0OTN3V2RyME1DQllHMmt1blA2SmFINFZyWkZ0SGJJVXFkR3lDU0RhdFZxWlRkQ3B4VW1lOGd5T0VGT190T3lkTGhMaTVmVWw4c3NUcWQ5VWRSYnJSOEVtSm94UzB1MWJ3c3lDZ25VaVc0eTJ5SVBRSTZuSWlqWTFDOTRzR3NobnlfaDYzSUVLWVEtNmVNY1owY1d3d2VIS2czZw?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:28:10 GMT",
+    "src": "Astronomy.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Revenue Nears $17 Billion as IPO Looms - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUEV6SkM2MWhJMFZ3bm1hRExOUzRTTXlRZExMcHQ4ZjdjU0RFTTJLanNIUWpydlY1MjIxZXpHa0RyTGVDOGtwTVJBRjM1STFTeGFReWlfVzRIb2ZYYlNIaFdGVDJHWFpiX0VOLUtESFFCYkdRb0k1QU9KZTNZbWJYWVY2SDc0LXVYTTByeUM0aGdzYmd4XzZjRFdlVWRPdU5xZ2Q1bDdIRXE1TjB4d2ZZX3htX2lITmtZcTNMUDZ5aXBnZHRTalE?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:12:39 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Investors Push for Cautious Valuation Closer to $1.5 Trillion - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTDhmTmZkVWhzazBUYVdXNUx1OTRkRDFidXNnblM1R0lFNVQ2OS1zRFV2aTFtS2drOEhOVEVSSjZzZDN0Z053X3NrMnJEVTRGQm1EOHh6aDJYWC16bTVPdlpxVk10Vkh0ZkNrdkx1YzFodGc1WVQ4NkpPanN3TnZPZjcxYmcwS0xaSk1DelBQUzM4RFpNNVdubXR5WlRZZXA2b3paamIwdkcwVEpUTWFNSDBuWGQ?oc=5",
+    "pub": "Mon, 02 Nov 2026 21:39:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1319,33 +1343,17 @@
     "src": "Reuters",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Semiconductor Selloff Was A Gift Heading Into 2027 (NASDAQ:SMH) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2E4YlE4RXJXbEdud2E0cUZwYmVMY2VyTEU3aExzSUdwU3o0SjFqVW9wQkZBVkF5b3hwNHRMMDlKOXRzSVJHeFhkWDRKNVVaMXp5VkItWEY5Y3l6VU5Va3VMVW1NTlJ3SlNieTBQdy0yZll6T3E3UFZuSkM1aEVLRkVpejdZSGdHYzllUnQ2M0VqRUk?oc=5",
-    "pub": "Mon, 02 Nov 2026 21:03:45 GMT",
-    "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI’s Fundraising Efforts Sputter and Stall as Investors Refuse to Keep Cutting Checks - Futurism",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNQVFpWk0zWFJTVGwtOFA1eTFaajR3dXpXcDE4aFczcThCcG9Gbno4RDNuSENLb2dXblRoNVVRZk12N251ZTFvQzNySXJ5emphb0hNclY4ZFNSeWU1TzZZZ1lyZkdEMzF0ZVpHc3RjTjdLSEMzTlM3Z1hHejI1Q1VSeXB5Zw?oc=5",
-    "pub": "Mon, 02 Nov 2026 20:46:55 GMT",
-    "src": "Futurism",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Meta Platforms (META) Faces Negative Free Cash Flow From AI Spending - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSUdqbms0X0laclNUOHpsenZxMW1tRUNmeTJkbEdlWURETEVTQjdMbllMTDNpZVZBaEQwcFQtUUtwRk1uQW9hMFVxVWY1Q014MW5kMjAyZGMwZTBUS1ZUNU1KUm9UamV4MEc1anB2ZGtTTDJPTkpDSXBHdXdOQk1XbzdobEx0dnN1ek9TcGRuV2NZaGpqRjZQS2I2VVJFbC1MZWVOOThaWXpVYmI3WWIyMXd2RlFwblhBZ1ZsVmNOSjViZUs2VGgwNDJR0gHPAUFVX3lxTE5mM3RXVDNCcl9LVnhueENkZGw3Ty1MTXNOdE9scVI5S3pUZUR0WWFvaVR6Z0xFZkZ5SGVINmdJbHZ6WUMtR2pKVnNEdm9LdkZGYUx6MFA4OE11a19MWm1WWTJNUllDSlpidC00bFUzdHBFMC1XSDZsel9TbWdRN1hYdWd4dVhwbkNrWWo5MWxETVBiZ1ZVemFBcjhvSVIzR3ppZTlkYURTSVhwY0hLUWZnQ1pEWVBjZTFlVjVrN0dCWkJKMUxYOU5UaUl0RENfRQ?oc=5",
-    "pub": "Mon, 02 Nov 2026 20:32:57 GMT",
-    "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "The RBA's interest rate decision is a balancing act between Christmas, unemployment, and a lame duck Trump - Crikey",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQMjhEQkgyU3FwNTgySVFZQUxwQ1RnMkV4c0pTX1htVmREZmRYRERIQjA0Vk51UkhyYzZTcktfMG0wSVJzRUxQTmFSMjBfQWx6Z3R4dE00Wi1hNmdhd19mVnBuWUNpMi04clhKMUlUeXUzNXprNTRDQUJONWtwd29fZjAzRnNFWGh0X0hiNUlud09BTGxJRGMxeW5lZkhCaS1BdTJVWXNrU245bkhYcDU3UkpCOA?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:42:46 GMT",
+    "src": "Crikey",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Aussies brace for 18-year high interest rate - News.com.au",
     "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxOcEprSURBQ3lmZ3Nuei1CVTBXbGhPRG5TUDlRZFFjQndjeENmVzJRZ3BZZ254ang4WUtFWVFDd3Rzajd1NVhiQ1lPMFFORTBlV0VpLU83c3VwZ3EtdXNZZ2xRVGZTaUJVU0RxMDQ2R2YwYWNackV3dkk3SFFKNGx2Wlh3VEtHbW9Qb2IyaEtnZU1MZFJzX0YwQWpEUERWcTJVa0FyMTlCdkw3aGE0MG1aVTdGQzM3eHhCY0t2X200Qk9XZl93b0JhaElfNHFJUjVDeHpzYndvR01HalJOekc0Wi1TeGNpMlJIeVJKekUta3ZKWHBONE4w0gH8AUFVX3lxTE9GbUkzMTJqZ0FRMW9hQi1KRHJUZUk5UVZmUmNSMGNhY29FRUtQTjlrUTJROHFzY0hKblZrTU9SaDAzQWxjUzRfaXYtd1N3R3FlbG5HQ0VuMnJOVzZ6Vk5XUEdyRFhNXzUwdkdDVFNJOW1Nd0E4TjZ6SVgzcnN0RmZkQUVLYzNmYUhScUFiQ3JqUTk1akRUbXhCMnZlSFgtZ3l4Y2JOTG5FYTdPMHZxQmNUZVc2Wlh0N29ScnMxWGp6QU1QSHZVcGw3VDZ0U2x2cGhTbTk5R2RwSFZyQ1RyUmZvVmZQeG1iQUROWjVkMTJEUUpfNkpvdTA0Uzl3YQ?oc=5",
@@ -1383,14 +1391,6 @@
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQemlrUnpqR1g0OFFfbnJHTUktSE94dmx1MUQxbFpseThLLWNLaFVmdUp1ZFBHMjloZDFSR1Z2aDFVRHU0bmN4aE1vMGJRR1c4UldXMW9iWDY4clhNODVZVV9OQ0VvelF0Y2pKWlo2T0o3OWVCRTlGeU9fVXNiNEZfNTF5cnU0Rk5yX1htSDd6UW9oSDBNdU93NXNmV08?oc=5",
     "pub": "Mon, 02 Nov 2026 20:10:57 GMT",
     "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Fed Is Suddenly on Hold. When Could It Start Hiking Interest Rates Again? - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNdklmbzhYa3dKbTlyQXo5X1RYWm1pMWZRUy1WUHNCbnVrUktYaUt6WldabUFUVnMzTFpvSXBjY2Q4S0c0bVZqUmZpbVVGTFZzRVBXMXFUS3RRN1hDazVFNE9oWHRVR251dUJVMTNET3R1NDh6OVBmdWxTRmwzcFV1a3BaT0J3bW56c3lLOHg2eVVxeVFJY1NvTVNDSXhTLVdpOUgtaGNDQUhxMXQwLTFLQXUteXF4b0syMExXWlJ6bHdHQlpmSkIzaGtLZmxlOU5TZnNWamZtOENBWlU3Y2lwaElNM2V5V1pUbFo1Q2NqS09udw?oc=5",
-    "pub": "Mon, 02 Nov 2026 19:50:16 GMT",
-    "src": "The Globe and Mail",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    101.83,
    102.18,
    101.73,
-   101.77
+   101.79
   ],
   "bizd": [
    12.74,
@@ -1675,7 +1675,7 @@
    157.73,
    158.2,
    157.81,
-   157.87
+   157.86
   ],
   "uso": [
    122.12,
@@ -1735,7 +1735,7 @@
    85786.59,
    81762.56,
    81853.54,
-   76662.07
+   76768.3
   ],
   "vixts": [
    0.838,
@@ -2800,7 +2800,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-02T22:41:59+00:00",
+  "checked": "2026-11-02T22:51:58+00:00",
   "openai": {
    "found": false
   },
@@ -2889,17 +2889,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.87,
-   "usdjpy_chg20": 0.09,
+   "usdjpy": 157.85,
+   "usdjpy_chg20": 0.07,
    "vix_chg5": 15.01,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.77,
-   "dxy_chg20": -0.39,
-   "usdkrw": 1345.74,
-   "usdkrw_chg20": 0.24,
+   "dxy": 101.79,
+   "dxy_chg20": -0.37,
+   "usdkrw": 1345.5,
+   "usdkrw_chg20": 0.22,
    "hit": false,
    "missing": []
   },

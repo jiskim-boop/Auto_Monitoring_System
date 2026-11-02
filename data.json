@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-02T22:22:20+00:00",
+ "updated": "2026-11-02T22:32:35+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -856,7 +856,7 @@
    "price": 101.78,
    "chg": -0.1,
    "chg5": -0.18,
-   "chg20": -0.39,
+   "chg20": -0.38,
    "sma20": 102.03,
    "sma50": 100.87,
    "sma200": 100.33,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.78,
    "sess": "reg",
-   "mt": 1793657498,
+   "mt": 1793658112,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76824.26,
-   "chg": -1.82,
-   "chg5": -5.47,
-   "chg20": -7.55,
-   "sma20": 80508.6,
-   "sma50": 81915.63,
-   "sma200": 72855.9,
+   "price": 76734.37,
+   "chg": -1.93,
+   "chg5": -5.58,
+   "chg20": -7.65,
+   "sma20": 80504.11,
+   "sma50": 81913.84,
+   "sma200": 72855.42,
    "high3m": 86602.91,
-   "reg": 76824.26,
+   "reg": 76734.37,
    "pre": null,
    "post": null,
-   "regClose": 76824.26,
+   "regClose": 76734.37,
    "sess": "reg",
-   "mt": 1793658106,
+   "mt": 1793658721,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.88,
-   "chg": 0.05,
-   "chg5": 0.67,
+   "price": 157.87,
+   "chg": 0.04,
+   "chg5": 0.66,
    "chg20": 0.09,
    "sma20": 157.93,
    "sma50": 157.43,
    "sma200": 159.13,
    "high3m": 160.2,
-   "reg": 157.88,
+   "reg": 157.87,
    "pre": null,
    "post": null,
-   "regClose": 157.88,
+   "regClose": 157.87,
    "sess": "reg",
-   "mt": 1793658107,
+   "mt": 1793658721,
    "ok": true
   },
   "KRW=X": {
-   "price": 1346.04,
-   "chg": 0.6,
-   "chg5": 1.84,
-   "chg20": 0.26,
-   "sma20": 1334.89,
-   "sma50": 1350.86,
+   "price": 1345.64,
+   "chg": 0.57,
+   "chg5": 1.81,
+   "chg20": 0.23,
+   "sma20": 1334.87,
+   "sma50": 1350.85,
    "sma200": 1433.98,
    "high3m": 1422.3,
-   "reg": 1346.04,
+   "reg": 1345.64,
    "pre": null,
    "post": null,
-   "regClose": 1346.04,
+   "regClose": 1345.64,
    "sess": "reg",
-   "mt": 1793658103,
+   "mt": 1793658722,
    "ok": true
   },
   "^OVX": {
@@ -1091,20 +1091,20 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7587.25,
+   "price": 7587.0,
    "chg": -0.35,
    "chg5": -1.65,
-   "chg20": -3.05,
-   "sma20": 7762.39,
+   "chg20": -3.06,
+   "sma20": 7762.38,
    "sma50": 7728.79,
    "sma200": 7610.78,
    "high3m": 7874.0,
-   "reg": 7587.25,
+   "reg": 7587.0,
    "pre": null,
    "post": null,
-   "regClose": 7587.25,
+   "regClose": 7587.0,
    "sess": "24h",
-   "mt": 1793656798,
+   "mt": 1793656799,
    "ok": true
   },
   "NQ=F": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "PIMCO Closed-End Funds Declare Monthly Common Share Distributions - Business Wire",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQb2JtTDQwdzI5TW5oOW5QZXYxdkZTellmX3RMRlZleUhmQXFCa0dvRDloaTVESEpuMjdmMGZhTXZ4NlFTVHFWaVcwbUxFTnd1N3A3Ulg3VlVSX2FtcGUzWmFnM2l3aGV5cGtoOWpRTXBiUmFJR2dWWVBEN2xkQk1zMlpKaE1IclFTVVRLWHRsbmpPa25NSWRyajVmeEEwZmhhMVVqNXVmSFJhM0MwUDNJamdtMUgxb2tJRjkzRFZPWQ?oc=5",
+    "pub": "Mon, 02 Nov 2026 21:46:00 GMT",
+    "src": "Business Wire",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Great Elm Capital Corp. Announces Third Quarter 2026 Financial Results - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNUGNDVWhkNGhfQXd6UVhsdnR3cDVYbThkV2drUGFydE82NDl6bEpQRFphb0Z4QmNsWVI4RWFVRE5idERhSWU3eDBnN3lXM3lyZ3NrRWdvNC16SURHYmJwZW1tcExuRi0wc2RvdkF2QXFxV0ZodkZDSzBOTWE3S1lSUl8xbU4xbnVPdnhfWnVfTnlNd3RFUEhhZmRNTzJVZw?oc=5",
     "pub": "Mon, 02 Nov 2026 21:05:00 GMT",
@@ -1271,14 +1279,6 @@
     "geo": false
    },
    {
-    "title": "Is Record Fundraising Altering The Investment Case For Blue Owl Capital (OWL)? - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPOWFMQ0JMQWdJdVJhdnE4bWVWenBGZFJMUko3cHVkLWEtYkVLQkY4TFNHeFNjZ1dYSmJVQTd6ajZJam9Bb3hQR0JyZkV2YjlNRko1a2dYckFfOWdaUHJLUXNfQ3htOEhyTTB3UXZRbE9kMGZlaGtxOEVPcFBHUl81UGluZHg0cFpKZHlsX2JER0Vpa2xxSld6YkthTGxycWNmeHIyX04ySHRCMXFqX3dvcl93MEw3dDZvVno3SXVGMUVuRDlWU0luaWZzWmg5LU04MW5MWGtLZGJyZHJvMjdGYkdrc9IB4wFBVV95cUxPOWFMQ0JMQWdJdVJhdnE4bWVWenBGZFJMUko3cHVkLWEtYkVLQkY4TFNHeFNjZ1dYSmJVQTd6ajZJam9Bb3hQR0JyZkV2YjlNRko1a2dYckFfOWdaUHJLUXNfQ3htOEhyTTB3UXZRbE9kMGZlaGtxOEVPcFBHUl81UGluZHg0cFpKZHlsX2JER0Vpa2xxSld6YkthTGxycWNmeHIyX04ySHRCMXFqX3dvcl93MEw3dDZvVno3SXVGMUVuRDlWU0luaWZzWmg5LU04MW5MWGtLZGJyZHJvMjdGYkdrcw?oc=5",
-    "pub": "Mon, 02 Nov 2026 19:31:55 GMT",
-    "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Ares Capital: Complex BDC, Slightly Below Fair Value, MFIC Acquisition A Neutral Event (Rating Downgrade) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNSkxSa3dGeEJmVFZuNUJYb3Z5cVZLcC1RWmJNREtMNGV4Yzg1SWxmXzJma1ROcXVSNWZMY2ttVjAxSVBuQzFkdE5HZVVTcTBocDdFX1JRV2d2bEZ4THg5M0lsX2t1dmlhNmt4QnhKbWF0Ym9FV0pwU21OMUlQTWJDVVBvRVFvcUhvRWlVVlB2U3dVX1NNY0VvX3FIQlpuV1g0UFZRYnBzeXQ3UEUxc0Rpd01GSnJCRHZ6SFpxMnF4cV9mdw?oc=5",
     "pub": "Mon, 02 Nov 2026 18:31:16 GMT",
@@ -1297,9 +1297,25 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic's loss shrinks, revenue jumps ahead of blockbuster IPO - Reuters",
+    "title": "South Korea eyes rocket debut and China lines up four launches - Astronomy.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXVVaXZIMk8yRWVOV01qRktfbXl0OTN3V2RyME1DQllHMmt1blA2SmFINFZyWkZ0SGJJVXFkR3lDU0RhdFZxWlRkQ3B4VW1lOGd5T0VGT190T3lkTGhMaTVmVWw4c3NUcWQ5VWRSYnJSOEVtSm94UzB1MWJ3c3lDZ25VaVc0eTJ5SVBRSTZuSWlqWTFDOTRzR3NobnlfaDYzSUVLWVEtNmVNY1owY1d3d2VIS2czZw?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:28:10 GMT",
+    "src": "Astronomy.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Apple Returned $28B as Capex Took 8% of Cash; AI Giants 116% - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNWExKdnhXOVNwQXpoTlAzOTRIb09TLW94SFAwb0hJd2VtNzB2czd0dHhWcnNlT0hyMlhld3gwdGNlWS1zVVV2RHIyOVZaNmlfaUJwYjZ0NUpyelE3TzR6VUhodFp5alpsZlRwdHplM09ESC00Y3FlUFViY0oyMmh2aW5XTnluTlRwTWRVVg?oc=5",
+    "pub": "Mon, 02 Nov 2026 22:22:22 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic revenue growth slows, compute financing risks mount ahead of IPO - Reuters",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPalN1b2NwcllWRkRjRUNmOVBjSDMxWDNzdjZIclhDNTdMMFlaVUx2eWN1U19acllfTk0xX0JIbkJma21jVDFhZUR1czFjbVdLbThjMHVQZ0F4MkFvNmc0cURPN05FMkE3VFNyMTktbmNzWVIxN3c1YVFhSXpBTmZSQk1DZ013aDVRcXE5OEplekFkZWFJbmQxUEhDSVJ3RVVrZWJUd2ZRYWRfWUJhMVMycEZRRk8?oc=5",
-    "pub": "Mon, 02 Nov 2026 21:20:31 GMT",
+    "pub": "Mon, 02 Nov 2026 21:20:38 GMT",
     "src": "Reuters",
     "trig": false,
     "geo": false
@@ -1309,14 +1325,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOY2E4YlE4RXJXbEdud2E0cUZwYmVMY2VyTEU3aExzSUdwU3o0SjFqVW9wQkZBVkF5b3hwNHRMMDlKOXRzSVJHeFhkWDRKNVVaMXp5VkItWEY5Y3l6VU5Va3VMVW1NTlJ3SlNieTBQdy0yZll6T3E3UFZuSkM1aEVLRkVpejdZSGdHYzllUnQ2M0VqRUk?oc=5",
     "pub": "Mon, 02 Nov 2026 21:03:45 GMT",
     "src": "Seeking Alpha",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Raises Less Than Half of $30 Billion Target in Latest Round - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQTW9TMmVsZkc2b05TYkloVW41X050RjdtZ1F5U01TRnJOSEthYTJpcDdPWVhJb0FvRGEteHgtbVhSS0lOVEZ3T2N5MTNpSUNWNXpETThZR0RvcFQwY2Q5R3ctRUFvM1ZtdFdMaXhGSnpPM2FiLUhORXNrem84cUpfVGpuQ0VmaGNsZUlxUVQ0dk4zQUE2cWFzUk8yM1R3cjc3dEczVw?oc=5",
-    "pub": "Mon, 02 Nov 2026 20:44:16 GMT",
-    "src": "WSJ",
     "trig": false,
     "geo": false
    },
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPZnh6a213TFlsZDA1Y3RILVp5UlhrMEhkQTBYR29TNlVzZ1o3YW4xcmZYeW5NdDgzNldPVXItdFZ2U2gxR2NyeTRwRy1fTXprUTZmZ3F5WFJEYVgxdzlkZk5PVkl0ajRsTnFCdWJYbVVLbmRIeFhWSEZPQTZ0MThNa0pTRXdIek1UVE1ZOElkZ1hzTVQzV2ZvdUZpMUFDLWY0TzJxMkd3RGM?oc=5",
     "pub": "Mon, 02 Nov 2026 20:30:29 GMT",
     "src": "ExtremeTech",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Elon Musk’s SpaceX Turns to Boost to Launch Mobile Network - PYMNTS.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZFNTT1Iyd2I2X0NEb3NHQ0VZZ1Q3TDZaYnJiNHhYcnNBSWJERjBXMzI2bTlxalZwUkZTY0hDdlh3VUxZbFVOaElqMlJ5RkNhdHNpS2Q2M2NuUzBRbS1pZ3NnTU0zOFl4ZDRTWjYtcGoxa0QtaTQ0VXVFRjdyeTNUQ1B6Q0lieUQ2YnVCYTd5aWNqUzV5MXctb043Umw3QzZh?oc=5",
-    "pub": "Mon, 02 Nov 2026 20:19:46 GMT",
-    "src": "PYMNTS.com",
     "trig": false,
     "geo": false
    }
@@ -1379,18 +1379,18 @@
     "geo": false
    },
    {
-    "title": "Le Déluge: On the brink of a French fiscal crisis? - BNY",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOY0xINEs2ZHZyTENtX2pfeEhpTF84emxNazJZT2tsUkxUQXRORHRQeDhFc0NHNXlhTnhRbENmVW1iWEZQR1NndzA4c2o1RElHXy1iTnRlbE1nemVvczZELU1nQld6RXRGdFZndEhJeVNfLTZGeWRycHVJRlhjTWE3eXB4VS1ob0JEdGduYVk5RThvNnQ4d2hNWkQyd1o0eEdUb2dzR0VCaTJZZUdEdWNydHhrNHp3MVFIMTBXNGpB?oc=5",
-    "pub": "Mon, 02 Nov 2026 19:18:01 GMT",
-    "src": "BNY",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil prices tumble on Iran war de-escalation hopes - Baird Maritime",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPT0xEQnc3TzVMdlh0WVhHLUNfMjBaeW5xNDlRTjBPTHpRb2dRZXhpcXBTdzRuTWNIMGVpMWNRTEttd2Q1MnV6S3RGQTM1eE5YTk1wblV3VmpQZmtXMWRpcGszZU5EWDF5NjlqWE52U1kyVTRNa01QTl9XTkc3eG5rRkJ5Zm5RNkk4U0w4d0dmRXBwalVXV0J6MlpSQmXSAaoBQVVfeXFMT1hNN0g5Ylk4YUV3RW1YSGd1aTc1cHFlTkl1bmdBLVZQcGNEUlJEanF1eG41Q0xIRFBwTXRPZ0pTbGRhWnVIeVVBd2ZpeUx3VENzN05udTBmWFo2bGtMMGMxWk9rbkJpSTVaNnRnMFRXeWlnNjBfcVp1aFB4LTJsVUs5cF9OUzVyRGV0ZFpxSVhZYjl5QmFNdk5xQUdSNXRNTEpRTFM2R0FLNGc?oc=5",
     "pub": "Mon, 02 Nov 2026 19:04:22 GMT",
     "src": "Baird Maritime",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Equity markets dip on weak Tech earnings, but o... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPVUYzRjZCUzFJVFVyZlpGb0lNb3VHX1E2dzZFS2wzcnctc292SHVpUmtFUk05N00zd1hzSDJNRUlKdU5lTk9FR2lTemxnSTVKeE5FcGdkUzU3SlFvb3ZiS2Z2ME1OQ0ZHZG1KWVJLSFJiVTVfbVJPNklOY21ra3JKMXQ5SHQ4UU5UcEpfRGZaRVdtN2FVY3FYRDZyWQ?oc=5",
+    "pub": "Mon, 02 Nov 2026 18:52:55 GMT",
+    "src": "Pluang",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    101.83,
    102.18,
    101.73,
-   101.77
+   101.78
   ],
   "bizd": [
    12.74,
@@ -1735,7 +1735,7 @@
    85786.59,
    81762.56,
    81853.54,
-   76820.9
+   76695.42
   ],
   "vixts": [
    0.838,
@@ -2800,7 +2800,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-02T22:22:05+00:00",
+  "checked": "2026-11-02T22:32:20+00:00",
   "openai": {
    "found": false
   },
@@ -2889,7 +2889,7 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.88,
+   "usdjpy": 157.87,
    "usdjpy_chg20": 0.09,
    "vix_chg5": 15.01,
    "hit": false,
@@ -2897,9 +2897,9 @@
   },
   "dollar": {
    "dxy": 101.78,
-   "dxy_chg20": -0.39,
-   "usdkrw": 1346.04,
-   "usdkrw_chg20": 0.26,
+   "dxy_chg20": -0.38,
+   "usdkrw": 1345.64,
+   "usdkrw_chg20": 0.23,
    "hit": false,
    "missing": []
   },

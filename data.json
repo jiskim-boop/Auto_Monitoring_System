@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-03T22:12:08+00:00",
+ "updated": "2026-11-03T22:22:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 152.78,
-   "chg": 2.02,
-   "chg5": 1.2,
-   "chg20": 6.81,
-   "sma20": 153.1,
-   "sma50": 149.15,
-   "sma200": 144.82,
+   "price": 150.01,
+   "chg": -1.81,
+   "chg5": 0.53,
+   "chg20": 6.23,
+   "sma20": 153.54,
+   "sma50": 149.24,
+   "sma200": 144.86,
    "high3m": 168.59,
-   "reg": 152.78,
+   "reg": 150.01,
    "pre": null,
    "post": null,
-   "regClose": 152.78,
+   "regClose": 150.01,
    "sess": "reg",
-   "mt": 1793656820,
+   "mt": 1793743218,
    "ok": true
   },
   "^MOVE": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.85,
-   "chg": 0.1,
-   "chg5": -0.46,
-   "chg20": 0.02,
+   "price": 101.87,
+   "chg": 0.12,
+   "chg5": -0.44,
+   "chg20": 0.04,
    "sma20": 102.03,
    "sma50": 100.93,
    "sma200": 100.34,
    "high3m": 102.58,
-   "reg": 101.85,
+   "reg": 101.87,
    "pre": null,
    "post": null,
-   "regClose": 101.85,
+   "regClose": 101.87,
    "sess": "reg",
-   "mt": 1793743289,
+   "mt": 1793743887,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 77731.23,
-   "chg": 1.37,
-   "chg5": -0.06,
-   "chg20": -4.7,
-   "sma20": 80309.69,
-   "sma50": 81904.05,
-   "sma200": 72850.1,
+   "price": 77754.54,
+   "chg": 1.4,
+   "chg5": -0.03,
+   "chg20": -4.67,
+   "sma20": 80310.86,
+   "sma50": 81904.52,
+   "sma200": 72850.23,
    "high3m": 86602.91,
-   "reg": 77731.23,
+   "reg": 77754.54,
    "pre": null,
    "post": null,
-   "regClose": 77731.23,
+   "regClose": 77754.54,
    "sess": "reg",
-   "mt": 1793743896,
+   "mt": 1793744493,
    "ok": true
   },
   "USO": {
@@ -1041,7 +1041,7 @@
   },
   "JPY=X": {
    "price": 158.66,
-   "chg": 0.62,
+   "chg": 0.63,
    "chg5": 0.72,
    "chg20": 0.44,
    "sma20": 157.96,
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 158.66,
    "sess": "reg",
-   "mt": 1793743898,
+   "mt": 1793744494,
    "ok": true
   },
   "KRW=X": {
-   "price": 1343.15,
-   "chg": 1.33,
-   "chg5": 1.39,
-   "chg20": -0.04,
-   "sma20": 1333.83,
-   "sma50": 1349.69,
+   "price": 1343.82,
+   "chg": 1.38,
+   "chg5": 1.44,
+   "chg20": 0.01,
+   "sma20": 1333.87,
+   "sma50": 1349.71,
    "sma200": 1433.14,
    "high3m": 1422.3,
-   "reg": 1343.15,
+   "reg": 1343.82,
    "pre": null,
    "post": null,
-   "regClose": 1343.15,
+   "regClose": 1343.82,
    "sess": "reg",
-   "mt": 1793743869,
+   "mt": 1793744314,
    "ok": true
   },
   "^OVX": {
@@ -1091,20 +1091,20 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7609.25,
-   "chg": 0.46,
-   "chg5": -1.92,
-   "chg20": -3.36,
-   "sma20": 7748.51,
-   "sma50": 7727.33,
+   "price": 7608.75,
+   "chg": 0.45,
+   "chg5": -1.93,
+   "chg20": -3.37,
+   "sma20": 7748.49,
+   "sma50": 7727.32,
    "sma200": 7610.67,
    "high3m": 7874.0,
-   "reg": 7609.25,
+   "reg": 7608.75,
    "pre": null,
    "post": null,
-   "regClose": 7609.25,
+   "regClose": 7608.75,
    "sess": "24h",
-   "mt": 1793743199,
+   "mt": 1793743198,
    "ok": true
   },
   "NQ=F": {
@@ -1177,9 +1177,9 @@
   },
   "HG=F": {
    "price": 6.41,
-   "chg": -2.0,
+   "chg": -1.99,
    "chg5": -3.16,
-   "chg20": -2.76,
+   "chg20": -2.75,
    "sma20": 6.55,
    "sma50": 6.57,
    "sma200": 6.44,
@@ -1263,6 +1263,14 @@
     "geo": false
    },
    {
+    "title": "LTFRB orders Move It to pay half-billion-peso fine over excess riders - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQWFMeXpqdk0yNEo1azhHeTZhVGJMM2k3NWVUMUFYY0NmOXNLM2RmVUFoZE43QXhtaFNaalVpcmdKWUdjRWpJRWpteWROd1k1cV9OLXBKUjNzcm90bWRXX3RBTFl4U3pnS3BoVjJvdGpsN2FRbnk3cjlSX1Z0VW9PU1REVW9iQzJER251Ty05M2FqTjFCV3BHRFo1REhTWXJXWlZsVUNhdV8wOXZCOXZGVG9Zek5SR2xfNUFJbHk3cXgzamlqYkpDNkJzc0xUMkk?oc=5",
+    "pub": "Tue, 03 Nov 2026 20:36:56 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave's 15% Bond Yield Is a Warning for AI Debt. Here Are the Stocks Most Exposed. - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRjJveDQzdzRRZmZTVU9ZYm1zZ1BlWTBYWlBTOGZacGJKMW9mUmZLemFmNld2UW1LNEtlV25VNXAwQXNWak9adjMyY00zTEs1UzRnUk80cFpQbXRIVlF1UHVwNmo5cEpCeUh4LWRLR0c4ekMzdGFuQWlVR3FnalRSa1hmbWtvTFBCVjRHYnZHZ28xTGM?oc=5",
     "pub": "Tue, 03 Nov 2026 16:55:00 GMT",
@@ -1285,54 +1293,22 @@
     "src": "MarketBeat",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "GECC: Q3 losses pressured NAV and NII as management pivots toward private credit and disciplined deployment - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxPY2w4MHkzdmRiSEhwVjlqLVNYaXFiZy02Q1RpZTNVOWk5ZnV6LWt1M0dvSkFSNGdZSkp2aUZreXdHV1lFT0V1TjdEeDZrLTZCb09QR0JvN3ZUekoxWnUwTUZPUUdGSmNLYmZYMEJOaVFkMzIxSnR2TklFTUJaNXdCcWlEWkJSTzctX3VSSU5kbTNvc3cyN1BfQ0Y4aGxNdU5pMUk2VFJrdzJieXFxZ3c4TmJNb3o3ZmRwa2hJdFFHR1R1R0xRcWRnTFpZclN0SmlueUZBQ3QxZDd0TndONkx2N1V3OU1ZalpTVGZkQmppak5wSG95UXMyYVB2Zk55MXNMUkJlaGl6b09yak8wU3puYUdxTDhWWEFTX3ZJNVp3?oc=5",
-    "pub": "Tue, 03 Nov 2026 15:02:01 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Ex-OpenAI Trio’s Applied Compute Hits $100M Run Rate - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZW5mSnNxa1JRRlBVRm9Sa2hIR0tacG5nLVZZQTNhTVVpb1JaX3NlUnV1c2oxMlF6ZTFCWVVNcjRDdlpQRlA5eGhJcDItNjAzU19BWVBzbk1vZmV2UGdhR3FVd0E3NG5CNjEtbFVkb1JER2IxT3hrek9BMTJZYlFFVmpQbGM?oc=5",
-    "pub": "Tue, 03 Nov 2026 21:58:53 GMT",
-    "src": "FourWeekMBA",
+    "title": "Anthropic’s IPO is a high-stakes referendum on Big Tech — and this chart proves it - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNcUZjV0ZVcmdTNS1RNUhqX2RGSzNWZmFfYlUzY1pkS3R4Z2NUWEdfLXZYS2pVaHBfazM2Zlc3R2FFaG0zdWxMRVFFV3JudU1yYzhSMXA2RS1WMW5aVzRmT0JPbXVXci0tY1lRVnRMSURWdTRaQWZGNTVaMGRJSS16a0pmQlcxQ3pkUG1KR0t1VVI0WnVLMGlETTNYWHVkQkJheUtlbEludk5tLUZnOXhKTDQ1SWZFckFvMVh5anZ2OA?oc=5",
+    "pub": "Tue, 03 Nov 2026 21:04:00 GMT",
+    "src": "MarketWatch",
     "trig": false,
     "geo": false
    },
    {
-    "title": "AMD, Nvidia, and AI rework rendering - Jon Peddie",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGWEY1RlNVT0ZmSC1PN2U0dXM3RkJMRDJOSFdmUnRSRWNPYXc4aUVDMFVBLXgxUDNOVXQwOVFKcEY3cVNNQndmWWZaR2RyNFNIVGkyQnYtc0FvRGlyQ0pJanVwTkNKWGxlYk1ILVJPYUxDVVlo?oc=5",
-    "pub": "Tue, 03 Nov 2026 21:32:43 GMT",
-    "src": "Jon Peddie",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The MSI RTX 50 Series GPU Buying Guide - PCWorld",
-    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE95YU9mdWpZUV9MSjJtZ3l1Q2pPQlhXc0MzYVE0Z0l2MDZGRG5YTXAxSFVCdXpLaklJN1o4cmlBT01CVVNfTHZZTnhTREtUSzkyTVZSaVAwMFBYQVFCbUJzbG44MGpzSmppQzFfOGZ5RQ?oc=5",
-    "pub": "Tue, 03 Nov 2026 21:10:26 GMT",
-    "src": "PCWorld",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "‘Gathering Steam’ in AI. Anthropic, Marvell & OpenAI. ARD #198 - AI: Reset to Zero",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPVGE2Wjl5MHdHYmRVUXN0NHVYeEoyQkJ2cnVaUlJJU2V0b0stY0g2Rk1YSDU2RlZjSFFPRkpmMTVEV0tqZUNBZ1d4a2t5ZFh6U1V4aWRCNF95UEQzNDFla3VVbjYyUFI1cVpnaFYyM3BXck1vVW5BMlA3ZVBHendSc0N3?oc=5",
-    "pub": "Tue, 03 Nov 2026 21:02:29 GMT",
-    "src": "AI: Reset to Zero",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI And Anthropic Are Soaking Up VC Cash As Startup Deals Dry Up - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQUS03eUl1OG5VSHgxb3NrX3RBTnlDVkNlaE1yOUJ6a0N0dEV2M1Jnb29vTU5WU3RROHIwcmp4QllrSVI0eXM1VXhicGJEYnZLemtLNHhDVU11cUJfTHkyd09yOFRjSjVWdklQZnluOVpkclU0TkpPMHVXYVNabkZRY1R6bHRnU3EtVHQtMEl4eUVfVm9HN2dpLW1qXy1sVzFCQXpnbmZycFVOVEZ3d3NmOHNkZk1YU0VqLWdqdEU1YjBOekZGS29mOW9wOA?oc=5",
-    "pub": "Tue, 03 Nov 2026 20:54:58 GMT",
-    "src": "Benzinga",
+    "title": "Former Trump Army secretary lands new job at tech company - Fox Business",
+    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPZkd5VWFiUmVXZkg1UlpyQjlTM1pocTA1RWdkRjl6dV92UlZoQXoySFUwYmJJT29lUlBhWGVpeUhqWEExSXV0UklkYkhiTTBiNS1uMlZfM19vX3N1RzhqR2gxU2J6QmVDV3NwSXlGSV9COXlhdnVTdGx2bll5NFdDdnU3U1VvV1FBUWpUaXBDdVZITkFaRTd0MnhfX1I5Ymd0cmt2WExFTjlXbEg2ay1RRU42cFVBMGZfaFBlR1ZuV1NqaXM4MlhCN291TGFpUHlqSG5vLXo3aDgxUdIB2gFBVV95cUxPZkd5VWFiUmVXZkg1UlpyQjlTM1pocTA1RWdkRjl6dV92UlZoQXoySFUwYmJJT29lUlBhWGVpeUhqWEExSXV0UklkYkhiTTBiNS1uMlZfM19vX3N1RzhqR2gxU2J6QmVDV3NwSXlGSV9COXlhdnVTdGx2bll5NFdDdnU3U1VvV1FBUWpUaXBDdVZITkFaRTd0MnhfX1I5Ymd0cmt2WExFTjlXbEg2ay1RRU42cFVBMGZfaFBlR1ZuV1NqaXM4MlhCN291TGFpUHlqSG5vLXo3aDgxUQ?oc=5",
+    "pub": "Tue, 03 Nov 2026 20:52:00 GMT",
+    "src": "Fox Business",
     "trig": false,
     "geo": false
    },
@@ -1341,6 +1317,30 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVnIwalFiU1JLTjEzS2VHek9tOEZHOGEtUUxyM2xZaWhFMVpaeTROZEdKdHlpR2YwbFlDZ1NTYTRVOTNTQWxqRG5mR3hRVkZGa2g4cmoxR0phemw2ZnhnSEZOZ3kwd29IUU9uaDNjWkxLM2Ztb0tLUzZzWTJkRWpSV0czMEJaZXZRX3AyU1E1aVpxNFRFS0ZsVXQwQnR6bk5YZ1AyQ2cwc3FWM3BRR2FidFlGaTRSUQ?oc=5",
     "pub": "Tue, 03 Nov 2026 20:45:00 GMT",
     "src": "The Daily Caller",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Musk’s pay under a SpaceX-Tesla merger: voting control, but no $1 trillion payday​ - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQenlkU0tVOVBzcm1oVTFKMjNPUVlJY25RNjBfUXo5OGFPeWg2S01zM0lTa3ZXa216UjhPTVlXdzU1RXU4aWtJVnZ4cmJQX19xV1M1NG5HbWFLYm9ReUp0VUFBMThuS1JHMzJRZGxLZnNmNVlCb0lOQ2tfamowMU9TRnRLZ2l1X1I0Qkk5YWotZ1pIeXVyNHp0MEZ3V2h4ZVpmX2lXMlRqbHlTaU1VQUd1N1NKa3lNa25hdXZuSlBTNUZLVDJfUU1CTE1n?oc=5",
+    "pub": "Tue, 03 Nov 2026 20:34:40 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Capex Catch-22 - Heisenberg Report",
+    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1uVmFucWpTY1hVZWlkLXlsd1VDbHRQWHdMcWREXzJPY2NkZUZreTV1eDBnRHhIMFJiWTUyQ0QwTnNmTWJRdDN3TC1FNk9WRUJPS1J0YlRqNVlsMmdrZ1ZwdmJySFNvaVRydTlwVGdZVDl1NXV6UU0zRzBRT1g4SVU?oc=5",
+    "pub": "Tue, 03 Nov 2026 20:34:22 GMT",
+    "src": "Heisenberg Report",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Musk says Grok Bot's costs are 'unsustainably high,' while OpenAI admits Dots are ‘compute heavy.' - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxOc3hsdGF5SGpmX014STA2VXN1V3dBQUZKNTVvMDFwSlRFaTI3a0JIVGdQVzNOS0k1WmtNNi1OemRoaWdOb05wNFR4T191RmRodGVCYnNDcXF2TWpqVUg4MTEtNUR0Y3l6T1lBTnM0djZTLXBNWEp6SEVvbVhqSmxUd0xLeThNMEtYemI1ODFfVWFHODhRY1R6ZmZ5aEhfYVpROWx3cWM1VnI4TlY0U1RFTk82aW9JUDJjVUVNUm80Z2NzWXlIMXBYRXFocV83eF9aSmc4UzQxV1JoQzB2VWI1TmEzT3c5eXpOVjdDRjY0ZW5tYkVhSFpEdkF4Y21fdw?oc=5",
+    "pub": "Tue, 03 Nov 2026 20:01:00 GMT",
+    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1363,12 +1363,12 @@
     "geo": false
    },
    {
-    "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-    "pub": "Tue, 03 Nov 2026 19:58:48 GMT",
-    "src": "Britannica",
+    "title": "REGIONAL REPORT: MIDDLE EAST - World Oil",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQcXprWjJCQzVEUTk3MlhZd3VVXzAxNy0zX2VEV0FiSWJkRENtQjBkdE4ycjRZcE9xX1BHTi10cVdtLXplNjdCRUhyaU41Zm9tMHpoU3oxN0tFbnpZTEJFMEROZ2hfMnJLUGZ3UjBGQ3VZcjN4ZXZRWThjMWo0NmtwVXM1MlNxaXp0bzcyaw?oc=5",
+    "pub": "Tue, 03 Nov 2026 19:16:10 GMT",
+    "src": "World Oil",
     "trig": false,
-    "geo": true
+    "geo": false
    },
    {
     "title": "Natural Gas, WTI Oil, Brent Oil Forecasts – Oil Rebounds From Session Lows Amid Diplomatic Efforts To Stop Middle East War - FXEmpire",
@@ -1379,10 +1379,10 @@
     "geo": false
    },
    {
-    "title": "Iran War: Latest News, Live Coverage and Video - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vRFdEaTJrbkd5dmlGNzFrY19yTEJFZko2aXBSejFKbXNsbl95eFBsM2dSNkRjdVNudjhZTl9DSzFud3JoTTJ2R2ttX3lBNkE?oc=5",
-    "pub": "Tue, 03 Nov 2026 18:07:03 GMT",
-    "src": "NBC News",
+    "title": "Iran tensions rise as report details U.S. strike contingency and intelligence divisions - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQLVVMOWZCbmllVUdqRHNKalNqVlJsR0VuWVp2VjBfdTh0dXFyNnRzX2lDdGZoRkxLVEtUeVA2TnhxVnExaTBZcVpGazFKLW4zM0QtNVFwSlpIUjZ3QlJjcmxSbWVydVJ0N054SWFCY0drbFZacXE4LW90Z0c2eXJKeGlrc3hLQ0VLcGdmWkFTeVFRbTdPQVVJSEhoaUdwQUNQdDJLYjU1aE42MVJnRTlOcEFlQU51MWwyYnc?oc=5",
+    "pub": "Tue, 03 Nov 2026 18:09:40 GMT",
+    "src": "investingLive",
     "trig": false,
     "geo": false
    },
@@ -1405,14 +1405,6 @@
     "geo": false
    },
    {
-    "title": "Why Supplying Europe With LNG Has a Best-Before Date - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPeUtEbl9meUZGb3lkZjJidE5MYm9oLXdVVnRld3B5ZzEzU0x2NDJqazdpSm54Z2tBb2NMRWlUOXZ0cERWSlQwYzU5Z1hpZUpGTTE1by1acXU5OXZ4Q3VJUm0wZEVYRDhSeVlfSVhCcHQ4T1N4YmRtQjd1RmFuQ2tCb1MwanVzU1BQUXRrVDBDOUdtX2JGTWw3TXNfWUFzUdIBowFBVV95cUxNZTFGYXVMTExtTVNXMUw3Z2w4ZTVwbmlmU2lyemVLaTBKLTBVTDUyNWdVaUJUTlB3S19IRkJkOG04U2t3d1p3SHhRbjhaZjFtWGtjaGFmamNUNVExVUhmOTFNdkQ3SGVzMHNxSjdlQmRpOVhaWk5xSXF6bHJfMnZIdDloOWNYZXJrZ2J0RHNZUWdCUkRFQ2RUWlFCUTZ4bDdTUmJj?oc=5",
-    "pub": "Tue, 03 Nov 2026 21:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil Futures Turn Lower as Market Holds Out Hope for Middle East Diplomacy - WSJ",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPanI0VE5sUnZXNzJ1Tm9vWmVYYTZWbWRuMGRoOUtSZnJTVVJrT3dub0FKa1VFdlpvLUg3SHJvd3RBN25LNWdZLTlCS2FScUg2UUdLdEhPZXlyeFg5a2Z0TURCVWw5Wkp1VWhVNTQ2UktXX2RJMzdRc0c4emVzbkMyYkRhd2xfZFNSZ05aSWI0amNlUUc0NThHQVdSMHlCdDRfNmh6LS1SeTdmQWNGZlpn?oc=5",
     "pub": "Tue, 03 Nov 2026 20:57:00 GMT",
@@ -1421,26 +1413,34 @@
     "geo": false
    },
    {
-    "title": "US-Iran Diplomacy Hopes Weigh on Crude Oil Prices - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOQXhTOVkwYTlUeHhaeVE2WXFrLTdfS0FGRUVWYlEwLTZ4cDJUYjd5VExvemU3M3VSVm03WEVNTnZzZnh6bk1aM1JGWW16ZXFQLU9kU1Ztb3A1aGF0b0ZqdEJ2ZWdlMkJ3ZU9XMHd3X09UenNmbWxydVYtbEl4bExueFR5VW5QbnFxLUdDd2dpMzdVbEFzSjlESg?oc=5",
-    "pub": "Tue, 03 Nov 2026 20:18:25 GMT",
-    "src": "Barchart.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Canadian Oil at Widest Discount to US Prices Since 2018 - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNcDlJYl9wVW9UQ3h3NHlsVS01STA1N3FRdUZqXy1oSk5PYUd2Zi02SWNQU3YyV1ZTMWFrcTlzTF9tNUVTUGVBUGxwOHVDUTZyOVViS2lyVnR5cWt4QnBjWUJLMnBWbWRPOVVldXJFd0NyMHo3bzgtR2F0dFI3ckFhUHlPSVZwNk52d1F4S1E2ckNlSzY0clc4dFk4MXZXcXZBZzg4RGE5U2tmQQ?oc=5",
-    "pub": "Tue, 03 Nov 2026 20:12:11 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
     "pub": "Tue, 03 Nov 2026 19:27:56 GMT",
     "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Scotiabank upgrades Ero Copper to Sector Outperform from Sector Perform, lowers price target to $53 from $55 - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOdjRsLTgxcDIzbTBMUWV4Z2hMVGtCNTlOSkhSWmlBeGRTQmlCdmk3ckR6ZE1aa0x0RDZydFRMU3ItR1hBcExZbkI2MWlnLUVVcVBvNDhhLXRGbjhHcndJX3I3VUZ2MFQtS2t4bU0xaE91dGc1cE9EUDdWTGdBVG83a0Z4VXBFcEFDOWhZblo4NGtMc3BhSDRUVFlVSGlDQjFTZ2RjbjJSUFMyUURhWWFtVzlRQ2NuVmJmQjZhd0x5TW5KdHBRRjlkeHBUOWNwZFhkS1ZuNl9NWUlTb0YzY3k4elpVZWUzQl8tR3JPUzNsNkZtM3hkWTdKRERIUQ?oc=5",
+    "pub": "Tue, 03 Nov 2026 19:21:40 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper Price November 4 2026 - Robinhood",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNbFYtWDdydlN4Skh4UVpVc3pJMVZwUldyYkQ1U1JfRTBWYVZpckpIQl9oSy1xbkRtVXdHV25YSTNxSy1ldWNOM0JMcUhFLVM5aWxzdFE5OW1JekZLd2p0T0xoSzlIdDRQNXhrc1k5TFNwZUdsLWJhS1pfQV9uTHBOTEdZUHhOdjJfOEwwVF8wai1PemUzS2gycUJHc19rM1lLMzZKOA?oc=5",
+    "pub": "Tue, 03 Nov 2026 18:56:03 GMT",
+    "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "What gold's nearly 30% crash from all-time highs tells us about markets and the economy - Business Insider",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdWNmeTBEMG1SMTFxeURxbl9teDIzZTlzZDdrM1pDSGlEZ0phLXN2cW04UmxrVkxodWNERjB6OVZpN0drNjRhMC1ycGtxZlFvOXU0ZXZnOVVxWHhmWXJnelExNmpsbXBCUlc2cjJYMzM5cndtbEY4OTdnMUtoTExiOUpXdkgzWjJ1dkxLWlBXUXJ4V1doU0RBbDMya2NwN1k?oc=5",
+    "pub": "Tue, 03 Nov 2026 17:54:00 GMT",
+    "src": "Business Insider",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.96,
    158.52,
    158.52,
-   158.66
+   158.67
   ],
   "uso": [
    115.78,
@@ -1735,7 +1735,7 @@
    85557.56,
    83095.12,
    82941.0,
-   77731.49
+   77741.4
   ],
   "vixts": [
    0.82,
@@ -2804,7 +2804,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-03T22:11:55+00:00",
+  "checked": "2026-11-03T22:21:52+00:00",
   "openai": {
    "found": false
   },
@@ -2900,10 +2900,10 @@
    "missing": []
   },
   "dollar": {
-   "dxy": 101.85,
-   "dxy_chg20": 0.02,
-   "usdkrw": 1343.15,
-   "usdkrw_chg20": -0.04,
+   "dxy": 101.87,
+   "dxy_chg20": 0.04,
+   "usdkrw": 1343.82,
+   "usdkrw_chg20": 0.01,
    "hit": false,
    "missing": []
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T22:52:40+00:00",
+ "updated": "2026-11-04T23:03:22+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.51,
    "sess": "reg",
-   "mt": 1793832092,
+   "mt": 1793832729,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 80754.39,
-   "chg": 4.41,
-   "chg5": 4.61,
-   "chg20": -1.69,
-   "sma20": 80221.03,
-   "sma50": 81999.17,
-   "sma200": 72860.0,
+   "price": 80385.16,
+   "chg": 3.93,
+   "chg5": 4.13,
+   "chg20": -2.14,
+   "sma20": 80202.57,
+   "sma50": 81991.78,
+   "sma200": 72858.0,
    "high3m": 86602.91,
-   "reg": 80754.39,
+   "reg": 80385.16,
    "pre": null,
    "post": null,
-   "regClose": 80754.39,
+   "regClose": 80385.16,
    "sess": "reg",
-   "mt": 1793832696,
+   "mt": 1793833333,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.33,
-   "chg": 0.27,
-   "chg5": 0.22,
-   "chg20": 0.02,
+   "price": 158.41,
+   "chg": 0.31,
+   "chg5": 0.26,
+   "chg20": 0.07,
    "sma20": 157.92,
    "sma50": 157.38,
    "sma200": 159.11,
    "high3m": 160.2,
-   "reg": 158.33,
+   "reg": 158.41,
    "pre": null,
    "post": null,
-   "regClose": 158.33,
+   "regClose": 158.41,
    "sess": "reg",
-   "mt": 1793832701,
+   "mt": 1793833338,
    "ok": true
   },
   "KRW=X": {
-   "price": 1340.6,
-   "chg": -0.31,
-   "chg5": 1.04,
-   "chg20": 0.06,
-   "sma20": 1333.96,
-   "sma50": 1348.91,
+   "price": 1340.03,
+   "chg": -0.36,
+   "chg5": 1.0,
+   "chg20": 0.02,
+   "sma20": 1333.93,
+   "sma50": 1348.9,
    "sma200": 1432.45,
    "high3m": 1417.31,
-   "reg": 1340.6,
+   "reg": 1340.03,
    "pre": null,
    "post": null,
-   "regClose": 1340.6,
+   "regClose": 1340.03,
    "sess": "reg",
-   "mt": 1793832701,
+   "mt": 1793833337,
    "ok": true
   },
   "^OVX": {
@@ -1415,7 +1415,7 @@
    {
     "title": "A warning to all investors in ASX lithium and copper stocks: BHP, RIO, PLS at risk - Market Index",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNUEpTNnJWY2UyOVFvWG9Kdld1WUpnWkI1bzJuUTR3RWZuazVyVVdvRENadTdzS2YtOUVERHJTcHZodzFKMnlQVENxMUNlZnhJdEwtaUpmQUpoTm9wdnRPU05YVWVNWXZoa0kxOHZQREotclFOZ1gtSVVtbW9kU3ZxMHFUODBmTkhlNTc0S0p2VnAxQUNNSG1MUlFVZmZydThjWmhTUXpvd0Y2OElnQ2VuRmNVYzJtUQ?oc=5",
-    "pub": "Wed, 04 Nov 2026 21:40:48 GMT",
+    "pub": "Wed, 04 Nov 2026 21:52:57 GMT",
     "src": "Market Index",
     "trig": true,
     "geo": false
@@ -1652,7 +1652,7 @@
    158.3,
    158.32,
    158.27,
-   158.33
+   158.38
   ],
   "uso": [
    114.88,
@@ -1712,7 +1712,7 @@
    83275.93,
    81562.49,
    84011.97,
-   80764.59
+   80443.17
   ],
   "vixts": [
    0.871,
@@ -2782,7 +2782,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-04T22:52:23+00:00",
+  "checked": "2026-11-04T23:03:03+00:00",
   "openai": {
    "found": false
   },
@@ -2871,8 +2871,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.33,
-   "usdjpy_chg20": 0.02,
+   "usdjpy": 158.41,
+   "usdjpy_chg20": 0.07,
    "vix_chg5": -1.77,
    "hit": false,
    "missing": []
@@ -2880,8 +2880,8 @@
   "dollar": {
    "dxy": 101.51,
    "dxy_chg20": -0.72,
-   "usdkrw": 1340.6,
-   "usdkrw_chg20": 0.06,
+   "usdkrw": 1340.03,
+   "usdkrw_chg20": 0.02,
    "hit": false,
    "missing": []
   },

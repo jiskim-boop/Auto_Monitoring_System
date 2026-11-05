@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T22:52:17+00:00",
+ "updated": "2026-11-05T23:02:43+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.59,
    "sess": "reg",
-   "mt": 1793918493,
+   "mt": 1793919123,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75572.64,
-   "chg": -6.01,
-   "chg5": -2.4,
-   "chg20": -7.27,
-   "sma20": 79907.16,
-   "sma50": 81980.63,
-   "sma200": 72835.11,
+   "price": 75386.22,
+   "chg": -6.24,
+   "chg5": -2.65,
+   "chg20": -7.5,
+   "sma20": 79897.84,
+   "sma50": 81976.9,
+   "sma200": 72834.1,
    "high3m": 86602.91,
-   "reg": 75572.64,
+   "reg": 75386.22,
    "pre": null,
    "post": null,
-   "regClose": 75572.64,
+   "regClose": 75386.22,
    "sess": "reg",
-   "mt": 1793919097,
+   "mt": 1793919728,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.65,
-   "chg": -0.51,
-   "chg5": -0.11,
-   "chg20": -0.26,
+   "price": 157.63,
+   "chg": -0.53,
+   "chg5": -0.13,
+   "chg20": -0.27,
    "sma20": 157.91,
    "sma50": 157.35,
    "sma200": 159.12,
    "high3m": 160.2,
-   "reg": 157.65,
+   "reg": 157.63,
    "pre": null,
    "post": null,
-   "regClose": 157.65,
+   "regClose": 157.63,
    "sess": "reg",
-   "mt": 1793919101,
+   "mt": 1793919730,
    "ok": true
   },
   "KRW=X": {
-   "price": 1356.54,
-   "chg": 1.02,
-   "chg5": 1.21,
-   "chg20": 1.3,
-   "sma20": 1334.95,
-   "sma50": 1348.42,
+   "price": 1357.3,
+   "chg": 1.07,
+   "chg5": 1.27,
+   "chg20": 1.36,
+   "sma20": 1334.99,
+   "sma50": 1348.43,
    "sma200": 1431.61,
    "high3m": 1417.31,
-   "reg": 1356.54,
+   "reg": 1357.3,
    "pre": null,
    "post": null,
-   "regClose": 1356.54,
+   "regClose": 1357.3,
    "sess": "reg",
-   "mt": 1793919103,
+   "mt": 1793919733,
    "ok": true
   },
   "^OVX": {
@@ -1347,6 +1347,22 @@
   ],
   "macro": [
    {
+    "title": "Equity Volatility Jumps Most Since April 2025 Tariff Turmoil - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNeUZDR0F1cWlFSVZvQkFqaDNqcHNCeHFvUjlxdFc3QjBHR3BsNDk5dTNocC1VUW1iQ2hIZTdXendzdUpPY1FucEVFb0FJOGlaOGlEZ05uT2JKUHZ2UVV6Sm5PYjU0MzR5UXpndnNRVVY5azZqd1hIakF1ejNhR1ZEOUVNT0VrZzdjR0Y1ZEpMYl9DZkp0RUdHTURhbnlXTmhoVTMwb3NtZE9pZ0hsU0VLSzNSWWY0VXRNMUhzWmVhSU5Zeno1T3hpLWF5Y0dfRUU?oc=5",
+    "pub": "Thu, 05 Nov 2026 22:45:18 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bank of Mexico Cuts Benchmark Interest Rate in Split Decision - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa2hQTEptR2FGeGh5WjN5X1AteU5uRHlLUFBraXhFWEowcWNfRW5Dc0N3UXUzNWgwMzRYbHgwc2FKcVd3czU0TFdvR0xrU1FjZlItTFM2dFFybW5jbWRsMUl0SjQ5aW5SYjA3WDg3bHUyYzBYd3c5eFI2RXc0UDU1djVCWVBhMW1uWXhCLVg3NldKSXdXbHRUa2VHUzJ4RXZEVi1ubzZiNVc2a2VGdGYw?oc=5",
+    "pub": "Thu, 05 Nov 2026 22:44:55 GMT",
+    "src": "WSJ",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Wall Street fear gauge soars and retail traders bolt as markets in tailspin - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQNVJtWnRlOXJLbGFLTDB1QXhCdUw3Wk5GSXVRMno5YlM4SzhYN0ZTU2x2MkJlMjFqa2ZaU04xcDRTc3NqVE4temt5aVB2SU1rdG1zVzB2QVh0RXhuSUlFa3BkcVBZcF92cFE0eERHS3JJVzhZUjFDQ0p1dTNTTE5KWmljRHVLcWJlZjVfbEdseW9fX2YwMVJkSE9vVy1EbDF4TjdfcUh3Uy1UOUdUTWxjdWpFVDNEQnQt?oc=5",
     "pub": "Thu, 05 Nov 2026 22:42:25 GMT",
@@ -1371,27 +1387,11 @@
     "geo": false
    },
    {
-    "title": "Bank of Mexico Cuts Benchmark Interest Rate in Split Decision - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPa2hQTEptR2FGeGh5WjN5X1AteU5uRHlLUFBraXhFWEowcWNfRW5Dc0N3UXUzNWgwMzRYbHgwc2FKcVd3czU0TFdvR0xrU1FjZlItTFM2dFFybW5jbWRsMUl0SjQ5aW5SYjA3WDg3bHUyYzBYd3c5eFI2RXc0UDU1djVCWVBhMW1uWXhCLVg3NldKSXdXbHRUa2VHUzJ4RXZEVi1ubzZiNVc2a2VGdGYw?oc=5",
-    "pub": "Thu, 05 Nov 2026 19:52:00 GMT",
-    "src": "WSJ",
+    "title": "Bank of Mexico Cuts Benchmark Interest Rate in Split Decision - marketscreener.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQR2pVU2FFNXRtVVFEblNMZWJQU3FURHBOdHY2anE5T3FhMU51dlNDbHRxVnItdjhRUnpmSlBKUWFITVNjVmExS085aW1LbHJYNHJSOURiQmdVS1BSR2xXMi1Rcnl5RG5waFdpc1UyLVVUYWpkNDl6Ym9wN2ZlVmMtelRkMjY5OVpjOGZqczFSckNSLUtwbmUwckhnSEktR1Z3VTVpSUJZd1NYSGZuMGJGdmxVcWY?oc=5",
+    "pub": "Thu, 05 Nov 2026 20:00:49 GMT",
+    "src": "marketscreener.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Why have interest rates gone up in the UK? - Bank of England",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9Vak5hUm9tNV93R21LR1FmLTFrQmlSXzIyejFLRzZTUWdkMEJZaWt0c09OaU1NSkxudF9xUjVvel9paC13VGt2NXJlUVA4bXpuR3NCZURxckZkY3htYUhTTndxR0llNjZIOUFCbnVNdjhxdw?oc=5",
-    "pub": "Thu, 05 Nov 2026 19:35:01 GMT",
-    "src": "Bank of England",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "VIX spikes in history: 10 market panics and their causes - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5TcXJHRFJSTDRZM0xHU1JFRk9Td0N0d24tc0cwbUxQaTdLbzdoUEJKVktMN1dseXRfZ0cwQ1NvTDZlNDVPSkl4dW5BdENrZ24yZkE?oc=5",
-    "pub": "Thu, 05 Nov 2026 19:10:20 GMT",
-    "src": "qz.com",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1676,7 +1676,7 @@
    158.06,
    157.96,
    158.13,
-   157.64
+   157.63
   ],
   "uso": [
    118.87,
@@ -1736,7 +1736,7 @@
    81676.34,
    82141.46,
    81311.89,
-   75548.44
+   75571.09
   ],
   "vixts": [
    0.846,
@@ -2815,7 +2815,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-05T22:52:02+00:00",
+  "checked": "2026-11-05T23:02:29+00:00",
   "openai": {
    "found": false
   },
@@ -2904,8 +2904,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.65,
-   "usdjpy_chg20": -0.26,
+   "usdjpy": 157.63,
+   "usdjpy_chg20": -0.27,
    "vix_chg5": 63.84,
    "hit": false,
    "missing": []
@@ -2913,8 +2913,8 @@
   "dollar": {
    "dxy": 101.59,
    "dxy_chg20": -0.54,
-   "usdkrw": 1356.54,
-   "usdkrw_chg20": 1.3,
+   "usdkrw": 1357.3,
+   "usdkrw_chg20": 1.36,
    "hit": false,
    "missing": []
   },

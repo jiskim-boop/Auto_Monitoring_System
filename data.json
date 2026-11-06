@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T23:02:57+00:00",
+ "updated": "2026-11-06T23:12:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75804.82,
-   "chg": -0.18,
-   "chg5": -3.12,
-   "chg20": -6.85,
-   "sma20": 79646.77,
-   "sma50": 81976.04,
-   "sma200": 72809.42,
+   "price": 75792.66,
+   "chg": -0.2,
+   "chg5": -3.14,
+   "chg20": -6.87,
+   "sma20": 79646.16,
+   "sma50": 81975.8,
+   "sma200": 72809.35,
    "high3m": 86602.91,
-   "reg": 75804.82,
+   "reg": 75792.66,
    "pre": null,
    "post": null,
-   "regClose": 75804.82,
+   "regClose": 75792.66,
    "sess": "reg",
-   "mt": 1794006136,
+   "mt": 1794006688,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
+    "pub": "Fri, 06 Nov 2026 22:59:44 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation - TechCrunch",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNRzVwenhwOUEyaGxYMTR0NkE2LXQxZk9PcklwNTlwX3h1SjhUbEgtSkRleWxwUXluYzdlTE5fN29oV0liWkxtMVB1ck9Welkxekx0anBGSjJIOHV2UGNnNTVUbXVFV1JjckRxVGk3c05QdXhFV2Vhdl81T0RKb0ZycTl3RU9YdXVRRGljdWZjb254dlBRb3U5dnZoSlpTUy1SRXNib1JFNjBrTHZpdkktbTJpTQ?oc=5",
     "pub": "Fri, 06 Nov 2026 22:53:46 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPSDNFWjVBYWl5NlltcGRiZjJFaVRiZ19VNGlYNE9LNUNHaFhMZ1Q3eTRpV2F6Q0F5QlR3cGdiMklFNm9aZmlGdTNxMUJqWS1iSGx3aFZodk1BdEtBSC00SFgwbkJ6MzU2UVBYR2dkUk8xUXZXano1QVdMR09ieG9IUlNSd1U0LTR4YzlF?oc=5",
     "pub": "Fri, 06 Nov 2026 21:56:11 GMT",
     "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Man sues OpenAI, alleges ChatGPT aided wife in murder plot against him - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPOWxfT1ktLUpPd1o2eTI2N2xlVDBDaVU0dXRKSVBSdHFnVXpQM0xuLVZRekdVeUhqSUE1cE5kLWxzbHJSb3p6RWtDOHFDTHlnMmVRVng2U1ZZYm1vT0VIMFlnb2xIcGYwclVzeEtxMXhNZ251R1h2RDQtaFVRNFh5QzdiSXctZ08tclNKN3lkLXFjQ3VHd0FrWUtGTTZlMGNaM19BTFF3SjlYYlFOYVhTZkZFVk1RN1dZeGxQeXlKYzhJQQ?oc=5",
-    "pub": "Fri, 06 Nov 2026 21:47:51 GMT",
-    "src": "CBS News",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82546.32,
    81500.8,
    81074.19,
-   75818.08
+   75807.83
   ],
   "vixts": [
    0.809,
@@ -2821,7 +2821,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-06T23:02:38+00:00",
+  "checked": "2026-11-06T23:11:50+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T13:52:11+00:00",
+ "updated": "2026-11-06T14:03:10+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -768,20 +768,20 @@
    "ok": true
   },
   "^VIX": {
-   "price": 27.04,
-   "chg": -4.05,
-   "chg5": 39.24,
-   "chg20": 82.21,
-   "sma20": 18.9,
-   "sma50": 16.95,
-   "sma200": 16.92,
+   "price": 26.7,
+   "chg": -5.25,
+   "chg5": 37.49,
+   "chg20": 79.92,
+   "sma20": 18.88,
+   "sma50": 16.94,
+   "sma200": 16.91,
    "high3m": 28.18,
-   "reg": 27.04,
+   "reg": 26.7,
    "pre": null,
    "post": null,
-   "regClose": 27.04,
+   "regClose": 26.7,
    "sess": "reg",
-   "mt": 1793972176,
+   "mt": 1793972821,
    "ok": true
   },
   "^VIX3M": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.21,
-   "chg": 0.65,
-   "chg5": 0.33,
-   "chg20": 0.0,
+   "price": 102.18,
+   "chg": 0.62,
+   "chg5": 0.29,
+   "chg20": -0.03,
    "sma20": 101.97,
    "sma50": 101.09,
    "sma200": 100.4,
    "high3m": 102.58,
-   "reg": 102.21,
+   "reg": 102.18,
    "pre": null,
    "post": null,
-   "regClose": 102.21,
+   "regClose": 102.18,
    "sess": "reg",
-   "mt": 1793972490,
+   "mt": 1793973137,
    "ok": true
   },
   "^IRX": {
@@ -883,7 +883,7 @@
    "post": null,
    "regClose": 4.0,
    "sess": "reg",
-   "mt": 1793972186,
+   "mt": 1793972836,
    "ok": true
   },
   "LQD": {
@@ -939,9 +939,9 @@
   },
   "^TNX": {
    "price": 4.88,
-   "chg": 0.85,
-   "chg5": -1.03,
-   "chg20": -6.98,
+   "chg": 0.81,
+   "chg5": -1.08,
+   "chg20": -7.02,
    "sma20": 5.03,
    "sma50": 5.03,
    "sma200": 4.74,
@@ -951,7 +951,7 @@
    "post": null,
    "regClose": 4.88,
    "sess": "reg",
-   "mt": 1793972186,
+   "mt": 1793972836,
    "ok": true
   },
   "^KS11": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75827.02,
-   "chg": -0.15,
-   "chg5": -3.09,
-   "chg20": -6.83,
-   "sma20": 79647.88,
-   "sma50": 81976.49,
-   "sma200": 72809.54,
+   "price": 75580.55,
+   "chg": -0.48,
+   "chg5": -3.41,
+   "chg20": -7.13,
+   "sma20": 79635.56,
+   "sma50": 81971.56,
+   "sma200": 72808.21,
    "high3m": 86602.91,
-   "reg": 75827.02,
+   "reg": 75580.55,
    "pre": null,
    "post": null,
-   "regClose": 75827.02,
+   "regClose": 75580.55,
    "sess": "reg",
-   "mt": 1793973094,
+   "mt": 1793973742,
    "ok": true
   },
   "USO": {
@@ -1040,7 +1040,7 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.39,
+   "price": 158.38,
    "chg": 0.02,
    "chg5": 0.37,
    "chg20": 0.2,
@@ -1048,29 +1048,29 @@
    "sma50": 157.35,
    "sma200": 159.14,
    "high3m": 160.2,
-   "reg": 158.39,
+   "reg": 158.38,
    "pre": null,
    "post": null,
-   "regClose": 158.39,
+   "regClose": 158.38,
    "sess": "reg",
-   "mt": 1793973099,
+   "mt": 1793973746,
    "ok": true
   },
   "KRW=X": {
-   "price": 1357.88,
-   "chg": 1.33,
-   "chg5": 1.49,
-   "chg20": 1.11,
-   "sma20": 1334.87,
-   "sma50": 1347.64,
-   "sma200": 1430.59,
+   "price": 1359.17,
+   "chg": 1.43,
+   "chg5": 1.58,
+   "chg20": 1.2,
+   "sma20": 1334.93,
+   "sma50": 1347.66,
+   "sma200": 1430.6,
    "high3m": 1416.85,
-   "reg": 1357.88,
+   "reg": 1359.17,
    "pre": null,
    "post": null,
-   "regClose": 1357.88,
+   "regClose": 1359.17,
    "sess": "reg",
-   "mt": 1793973096,
+   "mt": 1793973738,
    "ok": true
   },
   "^OVX": {
@@ -1091,122 +1091,122 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7390.75,
-   "chg": 0.1,
-   "chg5": -2.93,
-   "chg20": -5.97,
-   "sma20": 7696.16,
-   "sma50": 7714.47,
-   "sma200": 7613.41,
+   "price": 7402.5,
+   "chg": 0.26,
+   "chg5": -2.78,
+   "chg20": -5.82,
+   "sma20": 7696.75,
+   "sma50": 7714.71,
+   "sma200": 7613.5,
    "high3m": 7874.0,
-   "reg": 7390.75,
+   "reg": 7402.5,
    "pre": null,
    "post": null,
-   "regClose": 7390.75,
+   "regClose": 7402.5,
    "sess": "24h",
-   "mt": 1793972500,
+   "mt": 1793973146,
    "ok": true
   },
   "NQ=F": {
-   "price": 27090.75,
-   "chg": 1.27,
-   "chg5": -5.06,
-   "chg20": -12.92,
-   "sma20": 29261.99,
-   "sma50": 29790.06,
-   "sma200": 29614.8,
+   "price": 27158.75,
+   "chg": 1.52,
+   "chg5": -4.82,
+   "chg20": -12.7,
+   "sma20": 29265.39,
+   "sma50": 29791.42,
+   "sma200": 29615.33,
    "high3m": 31483.25,
-   "reg": 27090.75,
+   "reg": 27158.75,
    "pre": null,
    "post": null,
-   "regClose": 27090.75,
+   "regClose": 27158.75,
    "sess": "24h",
-   "mt": 1793972502,
+   "mt": 1793973147,
    "ok": true
   },
   "YM=F": {
-   "price": 51116.0,
-   "chg": -0.97,
-   "chg5": -1.54,
-   "chg20": -1.56,
-   "sma20": 52324.3,
-   "sma50": 52245.9,
-   "sma200": 52138.97,
+   "price": 51182.0,
+   "chg": -0.84,
+   "chg5": -1.42,
+   "chg20": -1.43,
+   "sma20": 52327.6,
+   "sma50": 52247.22,
+   "sma200": 52139.48,
    "high3m": 53935.0,
-   "reg": 51116.0,
+   "reg": 51182.0,
    "pre": null,
    "post": null,
-   "regClose": 51116.0,
+   "regClose": 51182.0,
    "sess": "24h",
-   "mt": 1793972500,
+   "mt": 1793973147,
    "ok": true
   },
   "GC=F": {
-   "price": 4059.1,
-   "chg": -1.32,
-   "chg5": 4.11,
-   "chg20": -3.73,
-   "sma20": 4079.93,
-   "sma50": 4230.11,
-   "sma200": 4292.29,
+   "price": 4061.0,
+   "chg": -1.28,
+   "chg5": 4.16,
+   "chg20": -3.68,
+   "sma20": 4080.02,
+   "sma50": 4230.14,
+   "sma200": 4292.31,
    "high3m": 4697.8,
-   "reg": 4059.1,
+   "reg": 4061.0,
    "pre": null,
    "post": null,
-   "regClose": 4059.1,
+   "regClose": 4061.0,
    "sess": "24h",
-   "mt": 1793972502,
+   "mt": 1793973147,
    "ok": true
   },
   "CL=F": {
-   "price": 90.99,
-   "chg": 0.52,
-   "chg5": -12.61,
-   "chg20": -0.94,
+   "price": 91.02,
+   "chg": 0.55,
+   "chg5": -12.58,
+   "chg20": -0.9,
    "sma20": 98.02,
    "sma50": 95.47,
    "sma200": 88.81,
    "high3m": 105.83,
-   "reg": 90.99,
+   "reg": 91.02,
    "pre": null,
    "post": null,
-   "regClose": 90.99,
+   "regClose": 91.02,
    "sess": "24h",
-   "mt": 1793972504,
+   "mt": 1793973149,
    "ok": true
   },
   "HG=F": {
-   "price": 6.26,
-   "chg": 0.18,
-   "chg5": -3.07,
-   "chg20": -5.76,
+   "price": 6.27,
+   "chg": 0.3,
+   "chg5": -2.95,
+   "chg20": -5.64,
    "sma20": 6.51,
    "sma50": 6.55,
    "sma200": 6.44,
    "high3m": 6.8,
-   "reg": 6.26,
+   "reg": 6.27,
    "pre": null,
    "post": null,
-   "regClose": 6.26,
+   "regClose": 6.27,
    "sess": "24h",
-   "mt": 1793972499,
+   "mt": 1793973147,
    "ok": true
   },
   "ZN=F": {
-   "price": 107.06,
-   "chg": -0.25,
-   "chg5": 0.4,
-   "chg20": 2.36,
+   "price": 107.09,
+   "chg": -0.22,
+   "chg5": 0.42,
+   "chg20": 2.39,
    "sma20": 105.94,
    "sma50": 105.93,
    "sma200": 107.97,
    "high3m": 108.92,
-   "reg": 107.06,
+   "reg": 107.09,
    "pre": null,
    "post": null,
-   "regClose": 107.06,
+   "regClose": 107.09,
    "sess": "24h",
-   "mt": 1793972502,
+   "mt": 1793973151,
    "ok": true
   },
   "EWY": {
@@ -1227,20 +1227,20 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 98.6,
-   "chg": 0.32,
-   "chg5": -16.18,
-   "chg20": -5.84,
-   "sma20": 108.43,
+   "price": 98.45,
+   "chg": 0.16,
+   "chg5": -16.31,
+   "chg20": -5.99,
+   "sma20": 108.42,
    "sma50": 104.21,
    "sma200": 95.08,
    "high3m": 117.64,
-   "reg": 98.6,
+   "reg": 98.45,
    "pre": null,
    "post": null,
-   "regClose": 98.6,
+   "regClose": 98.45,
    "sess": "24h",
-   "mt": 1793972483,
+   "mt": 1793973142,
    "ok": true
   }
  },
@@ -1371,6 +1371,14 @@
     "geo": false
    },
    {
+    "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+    "pub": "Fri, 06 Nov 2026 11:39:33 GMT",
+    "src": "Britannica",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "Oil Declines on Signs of Moves Toward Gulf War De-Escalation - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOVXNmZnh6cENKbU1vdHBCWUxseFF6ZlpFenZlcFRxMjZjT0RveUdzRkdRZFpoMk5BWUN4SnNqRGJSbENOSGtlbHVDWFhOS1FmakR3WmJIRzhlNmVOYW5udGlCSGhVWW1rWU5zdVkxeFcwVEpfNG16SUIzQUswRDI3N2VSd3NKZnBtRmxaWmpBalZtXzFob2owdDZYUVJrbW5kMWhGd3loeERqdmpXVW00TA?oc=5",
     "pub": "Fri, 06 Nov 2026 11:30:55 GMT",
@@ -1385,17 +1393,17 @@
     "src": "www.equiti.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "The Fed Begins Transition to Holding Fewer Policy Meetings a Year - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQVRaRUF0MGFNU0FqcjMxNFhoVDhjalFkZGIxUDNaRk9aWWFyaFhnckZxLUwwRjBKQ3FaM0VlbkRJUUdVZE03OGctOElYc25uMnFnejFrbG5aSXE1LTFXWDVsb3FOMlV5dGF0emNFbklwN2swOVMwa3lFMldkUU8zLVFIbXVCMHR5RFh2Sy1YQ3pER0VidVpVTHJMSy1ZNzl6cjZOMFFzd2RkT2FGMjVVOWVERUh4ZWpN?oc=5",
-    "pub": "Fri, 06 Nov 2026 11:00:00 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Copper hits lowest level since late July 📉 Markets price in AI concerns and a shift in US trade policy? - XTB.com",
+    "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOVDZscXhmR1p3X0ttaTJsb045X1ByN2ttNGhsZWlrMXFzSGYwa0dQaHFZdkFfaUhGeDV1Q2xubTUwYktWSFNvY0xNNGgyeExJT01rUkNfWXJtLWxONVA1emZ1SmFCaWcwY0oyYmpHdm9Ka2FJclVFVGkzMXp6R2dOYW1MakhfYk5vNC1Hak13NXVrVWZJbW5JbEV0eFFwdWFrMFYzbUtNZmxBcUlqQUhQNUI4WkpUZG1BRzNKMTltQTJEaWpJOGlNTnFwckZXOGJpVHNPbURsZVcxY3piUjNMMHBDMEx4enBzUEFnaUtn?oc=5",
+    "pub": "Fri, 06 Nov 2026 13:50:26 GMT",
+    "src": "XTB.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "FGE NexantECA Sees Slim Chance of U.S.-Iran Deal - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNY19nREtFR0pUM0VLQ25hNDI4eGpTSVZ5dWx0ckpuZmFuMmhqcEJsUEtIX2k3a2tYLXpsdFhmSFMtb0lxVlNLWVM4Y0F3MzFCVzNBSkl1WEl3aWtNQVMtalpaZUJXaVY2ZmdRNzg4ZUxmbG81eXZtUzZGSzBsdVZnSDZWeEFEZFEyVklNalRKZmFOYW8xMFpFMWhQR3VKclV0MmxZMNIBqgFBVV95cUxPUnR3bldTR1BQVFBscG9BUkpLQWZUQWdOSEZzNWRpTjRnd05SV29KSU9JdmJpTnlRdDNzN3JFZlBEZGtmMk5BcDN2ZGR2STdVRFJuMk5BaGtTQUJlUm5Cckxud19ucFVaaHNQaWRhMFlaWWxINnB6eUt3ZnFyRGU1bU5KMDFFb2ZPQ2g1R19JbVRCV0gwRDlKcHJobXVZMld5Z05CMURfcVg2dw?oc=5",
@@ -1434,14 +1442,6 @@
     "pub": "Fri, 06 Nov 2026 12:30:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "A New Middle East Power Struggle Is Taking Shape in the Red Sea - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY001WkdGaUxMY2xVbWdCYUp4V19nWkp1SFdkdWptYURNTldfMU5KMFVUdjhQV0FfUm80cEtTWVVRcVRaNVR2Z3ozQlFWbFdkbVh6RW9OczJtd25hN2xKbjRtdGloUlRNWUlvTXBUUU5LT3IteUlUOU4wZUEyOHE5bWNuWlhRZE1heXVQZjZPdTFRc0l1RWdvbVhRdjB1UlgxUWxSSE5CRHlIUGVPUFNQZ9IBtgFBVV95cUxOUzRfdVBtWjFXMTVtRlhzRnM3SFRwb0xPUkFyRmdiNmxlLWRGcnM4YXlfZUYwSXhQejU1T0U2RjJfR0lsSUkySFdEMFlMbkh6ZFpsTnVCcjQzRkZVaEFHd3VmWjkyb2tYUHlsUHN4bE0ydm5JUExqNDVsMXp6aGVrTzNXZXZab3hWV0h0LWRwUGlZM2dXUHFNQ3JkdHM1X2RfWlVvMkQtdk1PNUgyQnpXMTRZMl9ldw?oc=5",
-    "pub": "Fri, 06 Nov 2026 12:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
     "geo": false
    }
   ]
@@ -1601,7 +1601,7 @@
    14.84,
    19.99,
    19.45,
-   26.99
+   26.66
   ],
   "tnx": [
    4.67,
@@ -1631,7 +1631,7 @@
    102.21,
    101.84,
    101.81,
-   102.21
+   102.17
   ],
   "bizd": [
    13.12,
@@ -1676,7 +1676,7 @@
    158.06,
    158.14,
    156.49,
-   158.39
+   158.37
   ],
   "uso": [
    118.87,
@@ -1736,7 +1736,7 @@
    82546.32,
    81500.8,
    81074.19,
-   75811.79
+   75588.03
   ],
   "vixts": [
    0.811,
@@ -1751,7 +1751,7 @@
    0.835,
    0.975,
    0.95,
-   1.056
+   1.043
   ],
   "hyoas": [
    2.74,
@@ -1855,9 +1855,9 @@
   ]
  },
  "summary": {
-  "text": "조기경보 경계가 3.0점에서 4.0점으로 상향되었고, VIX는 17.77에서 27.04로 9.27포인트 상승하며 위험 밴드 진입, MOVE는 89.23에서 97.92로 8.69포인트 상승, SPY는 당일 4.41% 하락했습니다.\n경계 4.0점 레짐으로 VIX·실질금리 위험 밴드, 순유동성·광범위 지수 위험·주의 밴드 진입. 고점 대비 -14.8% 조정 지속 중.",
-  "change": "조기경보 경계가 3.0점에서 4.0점으로 상향되었고, VIX는 17.77에서 27.04로 9.27포인트 상승하며 위험 밴드 진입, MOVE는 89.23에서 97.92로 8.69포인트 상승, SPY는 당일 4.41% 하락했습니다.",
-  "regime": "경계 4.0점 레짐으로 VIX·실질금리 위험 밴드, 순유동성·광범위 지수 위험·주의 밴드 진입. 고점 대비 -14.8% 조정 지속 중.",
+  "text": "조기경보 경계 3.0점→4.0점, VIX 17.77→26.70(+8.93), MOVE 89.23→97.92(+8.69), SPY 당일 -4.41% 상승.\n경계 4.0점 레짐으로 VIX·실질금리 위험 밴드, 순유동성·광범위 지수 위험·주의 밴드 진입. 고점 대비 -14.8% 조정 지속 중. · (뉴스 기준) 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, &…",
+  "change": "조기경보 경계 3.0점→4.0점, VIX 17.77→26.70(+8.93), MOVE 89.23→97.92(+8.69), SPY 당일 -4.41% 상승.",
+  "regime": "경계 4.0점 레짐으로 VIX·실질금리 위험 밴드, 순유동성·광범위 지수 위험·주의 밴드 진입. 고점 대비 -14.8% 조정 지속 중. · (뉴스 기준) 2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, &…",
   "by": "claude",
   "base_d": "2026-11-05",
   "_base": {
@@ -1953,10 +1953,10 @@
     "real": 2.64,
     "real_chg1": -0.01,
     "real_band": "위험",
-    "vix": 27.04,
-    "vix_chg1": -4.05,
+    "vix": 26.7,
+    "vix_chg1": -5.25,
     "vix_band": "위험",
-    "vixts": 1.06,
+    "vixts": 1.05,
     "move": 97.92,
     "move_chg1": 4.31,
     "move_band": "정상",
@@ -1987,12 +1987,12 @@
     }
    }
   },
-  "_delta_key": "f0fde3afa8",
+  "_delta_key": "3aa2290c43",
   "_regime_key": "db7d59390a",
   "_deltas": [
    "조기경보 경계 3.0점→경계 4.0점",
    "VIX 밴드 정상→위험",
-   "VIX 17.77→27.04(+9.27)",
+   "VIX 17.77→26.70(+8.93)",
    "MOVE 89.23→97.92(+8.69)",
    "SPY 당일 -4.41%"
   ],
@@ -2816,7 +2816,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-06T13:51:55+00:00",
+  "checked": "2026-11-06T14:02:49+00:00",
   "openai": {
    "found": false
   },
@@ -2898,24 +2898,24 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 98.6,
-   "brent_chg20": -5.84,
+   "brent": 98.45,
+   "brent_chg20": -5.99,
    "ovx": 60.29,
    "hit": true,
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.39,
+   "usdjpy": 158.38,
    "usdjpy_chg20": 0.2,
-   "vix_chg5": 39.24,
+   "vix_chg5": 37.49,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.21,
-   "dxy_chg20": 0.0,
-   "usdkrw": 1357.88,
-   "usdkrw_chg20": 1.11,
+   "dxy": 102.18,
+   "dxy_chg20": -0.03,
+   "usdkrw": 1359.17,
+   "usdkrw_chg20": 1.2,
    "hit": false,
    "missing": []
   },

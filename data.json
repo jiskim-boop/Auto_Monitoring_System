@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T22:42:15+00:00",
+ "updated": "2026-11-06T22:52:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75891.87,
-   "chg": -0.07,
-   "chg5": -3.01,
-   "chg20": -6.75,
-   "sma20": 79651.12,
-   "sma50": 81977.78,
-   "sma200": 72809.89,
+   "price": 75870.01,
+   "chg": -0.09,
+   "chg5": -3.04,
+   "chg20": -6.77,
+   "sma20": 79650.03,
+   "sma50": 81977.34,
+   "sma200": 72809.77,
    "high3m": 86602.91,
-   "reg": 75891.87,
+   "reg": 75870.01,
    "pre": null,
    "post": null,
-   "regClose": 75891.87,
+   "regClose": 75870.01,
    "sess": "reg",
-   "mt": 1794004890,
+   "mt": 1794005489,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Goldman Sachs BDC Inc (GSBD) (Q3 2026) Earnings Call Highlights: Deleveraging Progress, Rising ... - Yahoo Finance UK",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOSU1jRHd6clgxN2ZMUHQ1N3g3VkxjUnFEb2ZJbmlhVnIxZ2N3X0x6VXhXMnlDTEJCWGZDTTlqTDRRYmp0c1pYLS16N291a3Z3MW5JbUJaSHRraHBmQlFNb1JIQVBqTHlyRmZjMXB6MG5veW5DTDZrZnA5eEVZTWhqTA?oc=5",
+    "pub": "Fri, 06 Nov 2026 21:16:24 GMT",
+    "src": "Yahoo Finance UK",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave rated Hold due to high debt and low m... - Pluang",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPM09MNDI4c0NCd3BzVlJGY2VSaktQS2Z5S2EyZ1hsTTF0Y2VfUW9PQVAwSDZiZlR3OG9nU3d0WnBwWFhSZmJQS1g4X3RqVDZCU0NRN1hIRkE2TVpMaV9DYkhRUFAtZDlhaGo5UkxiOEQzTC05LXVkQWxQNGZYbU5vcUdwUXltaW54aUppdXotaUpnVEFJ?oc=5",
     "pub": "Fri, 06 Nov 2026 19:55:02 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOanZiVVVaMFdwZE9uZDRENkR6cVhMcGFPRlhuQWxGX1V5MjFWRTZxeTV3bk54SjF5Qkw4YUpLWmRCTE96d1ZfaDBmQkR5MjZMWnVXYkg0U09fcE84YXVKdWstRHBBbk9BM29QN3JZQ01lck9PTExncVNKOHg4Z0JIc2ZNMFluNEJlbHd1WnZR?oc=5",
     "pub": "Fri, 06 Nov 2026 17:10:42 GMT",
     "src": "Traders Union",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16% - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZmJ2R19jOTVNbkRoM3U5RWlNUXVuZzdFaWFwR1FEUFBsaTlxZmF4dkdFYjZ1aV9UNzJ3WE54MTFlNnpiR0pXbUZ6ZnYtVG1UdmVSUVNEd1dpbU9zVHdqVlBtOWdZN0pTUjhXdEpya1ZyY2FvTkd6VWZlczhEWVM4R2VONkRGWTdfNmVzV0otYTNIMUVCRXdxemk4QmNjVjjSAaQBQVVfeXFMTjR1MnllbFk3RW1NZ0N4b3ZZR09VV0lrTmpuOTdKclVwMlpsbThLXzRPQy1EUHdBX1NZclJrQ25IWmI5V2RUbDg3SHozeUJmbUZXSXdSWnVlbTZZeGNmemNnY3BsZWJ5c1U0bE00MTJ1U292Qnp1Z1M5S1RjUEpWNDFEZnpNMzN2RG9EMXVOeGRYNk0wa0JmVl9Od2dxUjhkcmF0ZGE?oc=5",
-    "pub": "Fri, 06 Nov 2026 17:02:24 GMT",
-    "src": "CNBC",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82546.32,
    81500.8,
    81074.19,
-   75891.36
+   75870.39
   ],
   "vixts": [
    0.809,
@@ -2821,7 +2821,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-06T22:41:55+00:00",
+  "checked": "2026-11-06T22:51:51+00:00",
   "openai": {
    "found": false
   },

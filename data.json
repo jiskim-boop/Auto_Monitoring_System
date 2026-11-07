@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T21:02:44+00:00",
+ "updated": "2026-11-07T21:12:13+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75582.29,
-   "chg": -0.22,
-   "chg5": -1.43,
-   "chg20": -7.85,
-   "sma20": 79322.11,
-   "sma50": 81868.5,
-   "sma200": 72777.51,
+   "price": 75545.0,
+   "chg": -0.27,
+   "chg5": -1.48,
+   "chg20": -7.89,
+   "sma20": 79320.25,
+   "sma50": 81867.75,
+   "sma200": 72777.31,
    "high3m": 86602.91,
-   "reg": 75582.29,
+   "reg": 75545.0,
    "pre": null,
    "post": null,
-   "regClose": 75582.29,
+   "regClose": 75545.0,
    "sess": "reg",
-   "mt": 1794085325,
+   "mt": 1794085896,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,22 @@
   ],
   "fundamental": [
    {
+    "title": "USSF-627 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
+    "pub": "Sat, 07 Nov 2026 21:08:22 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX sets Nov. 13 date for Starship launch and catch - SpaceNews",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPYU9PTEhzZ2JJdHZMVk9WN2dQakRIODEtUDBNVVhSZFJVbV9DS2JvU244TDRqeEJNbFl1ZnpCREtCOHh6c2FhOGNzcUZXRkdfdkdPb2xYOWN2VDVEVnItWXQwR0lVdDNyNFdYaVVPbTZ1QjdJSXYwLW5sLTZNVkRId1RR?oc=5",
+    "pub": "Sat, 07 Nov 2026 21:00:29 GMT",
+    "src": "SpaceNews",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX's December Lockup Is Nearly the Biggest Share Unlock in IPO History. History Says This Is What Happens Next. - The Motley Fool",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPOEx2Y0dJSFF0T0FSaTdJVFMwTGxTalN1c1N2SUIwZUN0RnNxNWFRa0Q2WVlVZlhlTHFEdEV0enFhTjk2NzJpcVh5WkpSRUVyYWVFeGw1MEFiLWFDLUdEV0RJVnVROTNoYXd4c3R1MC1BUWNtM3V6QWJmRXJoS1JKXy11ZW52OVM4WG1ZUFFRM1NhQlo1UUhPUw?oc=5",
     "pub": "Sat, 07 Nov 2026 20:45:00 GMT",
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQaWlKdkRsNmgwbmsxajdnNjVzV1Z6dGRUTEFVZlNqUlNmMTBrZWxBbm9LTkV4QklHMGdFMHdpUnZILVEwZ1NSTUpxT0NUTnVvemxPSUR5R0ZfTV9RcE90UFROT2VldURvLS1DcWUtaElXUnMzY0x1NWYzVVZxX2ZaSUtUejUwd3E5RHl4amw0RnlPcXhmQ252cmhfYUV6QTVCR2NtdDYyUlJkRTltMElVTjlZQkNwUTk2bGJWVFFPeVc5bXNKd0lHZkd6bzcwSVdZeXhJaFVQOA?oc=5",
     "pub": "Sat, 07 Nov 2026 18:30:00 GMT",
     "src": "Foreign Policy Journal",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "USSF-627 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
-    "pub": "Sat, 07 Nov 2026 18:07:06 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX plans to launch Starship 15 flight on Nov. 13 - ValleyCentral.com",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNY3BITktOY2J0MmR2T09pblM5bFQtS2xicUhaU29OazFySV9hSkFpM0xGZXFGR2tCRl83SUZTR25pQWdsQ0RzWXBZT3BRS1NCLTV4aXJiWXMtcTZrR1NEdUVuZWYxUS1UcDA1RkNjd2EyZjdtcHNFS0ZwYUpfMEpXRG05cVpMTkJyNEY2VWxiUmVYQzd1d1hKN3RldjEteGfSAaQBQVVfeXFMTmZid3BUUkdDdUpMYWp0cHk2X01sQzVVcFRBRlRoUWNVZG9UQXd5RVJ5b0hPSzFZWXJmZ1FCNl9Xdk1wMGFuM1B5TFN6TnRDeU1sa0xKamcxVURNTElyaUc3Q3NVV1JLQmpXOWJYQUxYblFXcXhSR2FYWFg0UWZZZkFzTjFmX0p4VkRtc0xjM3J2bEVpaGY5Sk0zVmhtcGllYkhTV1g?oc=5",
-    "pub": "Sat, 07 Nov 2026 18:05:58 GMT",
-    "src": "ValleyCentral.com",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75581.26
+   75555.33
   ],
   "vixts": [
    0.809,
@@ -2826,7 +2826,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T21:02:26+00:00",
+  "checked": "2026-11-07T21:11:58+00:00",
   "openai": {
    "found": false
   },

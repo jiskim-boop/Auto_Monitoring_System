@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T10:22:01+00:00",
+ "updated": "2026-11-07T10:32:24+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75948.86,
-   "chg": 0.27,
-   "chg5": -0.95,
-   "chg20": -7.4,
-   "sma20": 79340.44,
-   "sma50": 81875.83,
-   "sma200": 72779.49,
+   "price": 75876.31,
+   "chg": 0.17,
+   "chg5": -1.04,
+   "chg20": -7.49,
+   "sma20": 79336.81,
+   "sma50": 81874.38,
+   "sma200": 72779.1,
    "high3m": 86602.91,
-   "reg": 75948.86,
+   "reg": 75876.31,
    "pre": null,
    "post": null,
-   "regClose": 75948.86,
+   "regClose": 75876.31,
    "sess": "reg",
-   "mt": 1794046887,
+   "mt": 1794047511,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Bonds Now Yield “Over 17%.” Lenders Are Pricing a Neocloud in Distress - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnByM29acGhqWkpWXzloRzE4aGdXd1JlcVR6M0p2alBXZHNhanI1SHVscHpZRHAzSVRVcFQxTktjM0ljR1Y2SFR0RjBiTGFjQTVtTGlfWFdtMzVfckxHOU9UYUZfOG5TamVEbXpoNkZ0YmZBVE9YRFZWRUowRGdDNkVGWFZOUkdHZWFicllLVDEzblpPTjBTdDBGUGpvUmNVa1BsQ2hB?oc=5",
+    "pub": "Sat, 07 Nov 2026 10:23:59 GMT",
+    "src": "TIKR.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "CoreWeave's 2032 bond yields more than 16% as the cost of AI debt climbs from neoclouds to Nvidia - MLQ.ai",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNb2l1NGpIajBzeDdqSkViR3dhWnpGblh1UDh2c2M4MWtjVTVreVJOb0k1b2Q5RkZhSlgzOExldVF0MkF5QW8zNHV3WGZ0V2F3WTlaeXBpYzlrREJJVkxkRHcxaUEwcmhJTFN0MWJkbDY4VWpMX0FzZ05MOUJ3V0xVclB1UDRRQl9zTWNQbHlDM2VUY3k0Ymd5cHRHSEh0MGt5akxLZkJQQ01qaDdaSG1ydGd2cFJOcHc?oc=5",
     "pub": "Sat, 07 Nov 2026 09:49:48 GMT",
@@ -1285,17 +1293,41 @@
     "src": "TipRanks",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Eisman: Democratic Midterm Sweep and a 15% CoreWeave Yield Just Broke the AI Trade's Narrative - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKQWlib1JrSThwOUhLZjlvOENSSGd4cElNVmNJX3lhSEp3Z0pRcmR4Nm9VQmF6WWVnYkFORXZTa2FCOUJQTzR0M2FfekVBRjhpMGtoN2ZFYng3NTQ?oc=5",
-    "pub": "Fri, 06 Nov 2026 23:08:00 GMT",
-    "src": "BigGo Finance",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Jefferies Flags AI Investment Slowdown, Raises India Allocation To 14% - BW Businessworld",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkRXdV9Fa0t3YktnSVY3ZlJhbVFLU19XaTc4bF9ka0piZzcxVGF6cENON0ZOSVBDbFhIM1FNRmZKcnMtRG53RFBQQ2laX3pRQ3dqT0dKSWhteHlGR1hhdkprVkJkY0xtSFlGcjB6RERRUEh2RWFKR21KenFVb2dfbncxbVNyWE91dFJwWFo3Z3B3by1yYks0dDZBV1dOZElIcDFaUk5iVUQwOTRpenZpem5B?oc=5",
+    "pub": "Sat, 07 Nov 2026 10:21:28 GMT",
+    "src": "BW Businessworld",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "SageMaker Inference Adds GPU Partitioning with NVIDIA MIG - The Chenab Times",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzlUSUlVNzRPR0VIZWs1eFowbk1TTkRrY2VBMzFoMFozZVVWOVRhN05qUG04dzcyV0FKekpqbEFVdkxMWVljQkY1dTJyR2x2TUxnbHczZEE4OEZMNmRacldkWHNUREtBbXFlV1AyV2lFR2VvNXF4ZUVvRzRLRmFiWDV4enlpR1ZIckx2eVIyQ1pUZkJoWmx2ekFLU3hFUlZGTFcwSldINlo3UmNnM1pFTTU5VlRXR2thYm1MdQ?oc=5",
+    "pub": "Sat, 07 Nov 2026 10:19:04 GMT",
+    "src": "The Chenab Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Prediction: SpaceX Will Not Cancel the Falcon 9 in 2028 - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGExWXMtSllTSUNaZTA4Z2NGcmE0UGFtVk5OeEZuZ1BBOUppZmJlWVhiMmZaWjZ3QzNHbVM4NjlhcC1jdXRjSzRJckZ4VTBkaThjZzQzcDlLRnVlaHB6Ym90OGdzb1JGWllhR3ZrV0N5cWJrV2k4WkpsWlJSOE5kQm9pYm9lLVVrT1ZSamxyNmNTT3dseXVR?oc=5",
+    "pub": "Sat, 07 Nov 2026 10:05:00 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gary Marcus Warns OpenAI Could Become ‘WeWork Of AI’ — And Nvidia May Pay The Price - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPMGNIQWlqeWNwQWdRRm5CMnJuYzNtWi1Tamo0VEpyQlNEc1FKb0F5SDE5LTN2YjBzeVNIUjNudlpYei03SzAwX0hWNVRDTVdnM20wLXhDU2ZUQTJ4T09PNk9QLXpqSXhlRXprUFNzckduNnRqT21oYXdfdFRvRjBRUGtpMGFuY2VqVDhkV0dfZ25wNnFnSGM0RTByaWt3U1lKT0tlWXRNaTJjREhYckQ1WG1BWW1fVDZXOGFQMjZsOGlEVk9YTGxmNHlCSGttNEFMeWxWYzdzbw?oc=5",
+    "pub": "Sat, 07 Nov 2026 09:54:43 GMT",
+    "src": "TradingView",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
@@ -1309,38 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1qaTdyTVlIVWt6TkpFaFF1V0RCQ05oRDFQZnZhbzZqQ2FTQk9kVkcyRFBEc3AwOXhTUzNrR2VMQzkxUU5ZNXdReXFkb09sMmxGZ3kxUmNIMFdHcW12R1A0QjljcWI2bkpFMTJuWjdNZ2JXVlpGcmfSAXRBVV95cUxOY1JzYzRJMm5ScUVxT0dfX2tyQ1Q0b3BTSnpoeGVDOWxPQkdoMnV0U1RZOXpuZmktbDVpNWtuMHZhM282NnR5cG44TWF4b1EyT1pVaXFlaU55QzZzSnliSUZhTkFUTHk5RkhjMnhaVDFLbWd5dg?oc=5",
     "pub": "Sat, 07 Nov 2026 09:24:28 GMT",
     "src": "Українські Національні Новини (УНН)",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "USSF-627 Mission - SpaceX",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
-    "pub": "Sat, 07 Nov 2026 09:01:25 GMT",
-    "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NVIDIA Blackwell GPUs Accelerate FLUX 3 Image Klein for Faster Image Generation - The Chenab Times",
-    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR2FUNXJOZ01SQ2ZqY01YWklheHQ3T05wNmNZNEVhZm5HWlY1YXNLZVVsbTZtVDRqVDJhcHp0aXZYbkhIYll1SHQyRlhuYThxNHl2a1c0LUFrX3dCS0pNcXNiNmNqSXNDWFQ0aTEzcmZqZFdqdXMzRnlQV3VpMkhzamF2cVVYZXdqM0otaFhDTFY3d0VOaGtJcmVmVW9Kcmw4MDNnZm5vUGdTSVoyUWlTZzlWNDNtUU9XQ3c?oc=5",
-    "pub": "Sat, 07 Nov 2026 08:19:02 GMT",
-    "src": "The Chenab Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Key facts: Oracle FY27 capex; shares dip; joins $370.7B bond wave - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0l6M0h6ZjItS0FkemVXdWVSeG55MWlHNm5BZlhQbm1PMjNZQXQ0M1puLXFjVW5YQnotaVhkSHJnVHVTOTZNbjIwVTBjN0xhU3ExVW9IOHBGQ0JWN1JkeWpqR0JjV0JCbEd5dUJxTHZZM1pFbXBBbEFYYl82XzJwR1d5THI4VlpxVm9KNm5YbFFYamtoWE9TM09GV011VE1DdWpadXJMa25qX25VRGxGclZZdHpVTEV2TFpidGdnWDE?oc=5",
-    "pub": "Sat, 07 Nov 2026 08:00:00 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Chopsticks Catch 71m Super Heavy Booster [2026] - shattered.io",
-    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX2JjUjdHVnY2WXFtaW5OVl96VkZjNE1LLTkwTzhZRWNzNVdVMmxmWVBobWI0aGRNZlB4QlJmVkNzWFBWUlZhWGh5bzA2dTA1bU4xRko1ZjBYUkFucjlBN205TDRaYVpPZlhIeS1wQnpsb3RUcnkwQzdhZW52U2JZdnZiZkl6QjdLb05B?oc=5",
-    "pub": "Sat, 07 Nov 2026 07:58:34 GMT",
-    "src": "shattered.io",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75941.63
+   75880.48
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T10:21:48+00:00",
+  "checked": "2026-11-07T10:32:11+00:00",
   "openai": {
    "found": false
   },

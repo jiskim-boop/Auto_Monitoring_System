@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:52:11+00:00",
+ "updated": "2026-11-07T13:02:37+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75781.21,
-   "chg": 0.05,
-   "chg5": -1.17,
-   "chg20": -7.6,
-   "sma20": 79332.06,
-   "sma50": 81872.48,
-   "sma200": 72778.58,
+   "price": 75800.01,
+   "chg": 0.07,
+   "chg5": -1.14,
+   "chg20": -7.58,
+   "sma20": 79333.0,
+   "sma50": 81872.85,
+   "sma200": 72778.69,
    "high3m": 86602.91,
-   "reg": 75781.21,
+   "reg": 75800.01,
    "pre": null,
    "post": null,
-   "regClose": 75781.21,
+   "regClose": 75800.01,
    "sess": "reg",
-   "mt": 1794055895,
+   "mt": 1794056521,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Better IPO to Buy: Anthropic vs. SpaceX - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOUjY3ZVl4cGhqU2g0bHNONllTZWZmalAzWUdyY0tvVTI4M2RTZDVOWGtUcnhxRUtwNjZrRTZrcFZqYWh0S2ktUy13YkpBeDNJVzBGc1JMYmFOMldiWi0wZ0w2NDkxbWQ2dUMxcGNfTmE2VnE2NzA0NEhuanUtMV8xTXFKakVQYzQ?oc=5",
+    "pub": "Sat, 07 Nov 2026 12:47:00 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "USSF-627 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
     "pub": "Sat, 07 Nov 2026 12:03:52 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzlUSUlVNzRPR0VIZWs1eFowbk1TTkRrY2VBMzFoMFozZVVWOVRhN05qUG04dzcyV0FKekpqbEFVdkxMWVljQkY1dTJyR2x2TUxnbHczZEE4OEZMNmRacldkWHNUREtBbXFlV1AyV2lFR2VvNXF4ZUVvRzRLRmFiWDV4enlpR1ZIckx2eVIyQ1pUZkJoWmx2ekFLU3hFUlZGTFcwSldINlo3UmNnM1pFTTU5VlRXR2thYm1MdQ?oc=5",
     "pub": "Sat, 07 Nov 2026 10:19:04 GMT",
     "src": "The Chenab Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Secures $11B at $1.25T Valuation as Funding Round Falls Short of Earlier Target - AI Insider",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
-    "pub": "Sat, 07 Nov 2026 10:09:27 GMT",
-    "src": "AI Insider",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75786.85
+   75805.46
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T12:51:57+00:00",
+  "checked": "2026-11-07T13:02:23+00:00",
   "openai": {
    "found": false
   },

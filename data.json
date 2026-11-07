@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T14:22:15+00:00",
+ "updated": "2026-11-07T14:32:34+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75827.02,
-   "chg": 0.11,
-   "chg5": -1.11,
-   "chg20": -7.55,
-   "sma20": 79334.35,
-   "sma50": 81873.39,
-   "sma200": 72778.83,
+   "price": 75843.57,
+   "chg": 0.13,
+   "chg5": -1.09,
+   "chg20": -7.53,
+   "sma20": 79335.18,
+   "sma50": 81873.73,
+   "sma200": 72778.92,
    "high3m": 86602.91,
-   "reg": 75827.02,
+   "reg": 75843.57,
    "pre": null,
    "post": null,
-   "regClose": 75827.02,
+   "regClose": 75843.57,
    "sess": "reg",
-   "mt": 1794061296,
+   "mt": 1794061913,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "What Goldman Sachs BDC (GSBD) Said on Its Q3 Earnings Call - MarketBeat",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPdzg1aGFSejZEVmxBWi1WTmNIR2prRUR2NnVyYmVmZFlMSVRqNXBwNS1XdUtNdlVEeWloZFFEcEtkVW1OSzE3SnhHN3A0ZUFwdklycVBaR0E5T2dGMlFneTQ4dG5EazhtM1E0Wk45SUNPM3ptNHV5bDNOX05rNjI4S0JCOGw0WGViYUFBVHpMR2N6WHhSVjNlSWNET0o5YnhGZVNaWkljTC12aWtSUy14RlZFOGF2bXVfU3doVUdId28xaWFSeE5Nb2w3SFVMNmNXeDBxcklqaVJZdnMtZ19OQ05oeTRiS0JnZHBoQTR5VEcyYjJSaDNtTA?oc=5",
+    "pub": "Sat, 07 Nov 2026 13:40:52 GMT",
+    "src": "MarketBeat",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Partners Group Trims Quarterly Exit Cap on €6.6 Billion SICAV as US Fund Fills Only a Third of Wit - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQU2FxUnJ3eFRONEs3cUwya2VGd3J3cU9lbFROeVo0RGRhQWd3eEVLUG9RUnFja2c1RThMYjZ5eDBoVzRhZW5qODZUV0h0UVlGVzB3ejZnUGhBN3JObnFVWG1PSXh5a2JhY01OMGpkbFZWMkJXbXQxM0FySmtNTndrTWFyVWtBbEw2emFvWm1qd1cyRml0LXNuWjctS2pSaDV1cHFHUVRPYTI3NkhDeXh4ZnF4RnFtS0l2NS1JblVfZDJDQkNHdnFSREh5bmlHeUh6QmI4bG5ZR0tJUVFHdHdRVWFRLUVXX205WjJwdzJzZ2dhZzlIWlZuYg?oc=5",
     "pub": "Sat, 07 Nov 2026 12:31:49 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOUmhuS0hkeEgzNFFNVFhVVkNOWGg3SlRSbXhZTmYwd281TXNQNzdYQ2VodGp1S0ZoSVJweDlRcTVYTy1CUDZGWkQ0TnpnQk5IMktyNjhQcWozOEVQLV84eWh4NDk0bVJ4NmlUaG1hUzNWWERhYmNLcHR6djJqNVNFVVFRQ0EzNlJVWENWaERaS2dFSENaLS1pTw?oc=5",
     "pub": "Sat, 07 Nov 2026 05:24:52 GMT",
     "src": "Rich Picks Daily",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Kayne Anderson BDC Inc (KBDC) (Q3 2026) Earnings Call Highlights - GuruFocus",
-    "link": "https://news.google.com/rss/articles/CBMiiANBVV95cUxNSE9Xam1sMnJaM0piYjVRcmtJN0JNSnRZY1ZUSXYyRkFGcE5EeVN4aWVlYjh0QXpxN0Jmc254R0JnQWhvN0xDTS1IQl9VbVBSVlVZSjVCRTF1UVJYRVBpTHJzSDJHTDFLem1vNDJHTXJ4cFlEa3d2YzNscF9za0FZSGJuMlNIZzduMFZTUURHMHVINFd0SVBiT2MyZkpBQTd1R3cwejRsWFhHN0J4NlRjcVEwTGk1d0tSd3hzUEJtU05MOFN3ajdIdXhZTmlkSzJrVWlNSWJmZnRjX09Wa0VRNEJUSGxUR3hHOHhpUFBnc0dtZXFySHFQSWVjMmxsZ1ZSS2VXTDZReDEzT2JjWS1oNkZydGh1bGZKN1FZSkhoUGFoSnc1Z0hqMFhaX2Y3c1RfLXl2N2VxWmRvc18tZnlkVEVMSGozaUk3R0JkZVY0ZW45Z2QtNXF1TGNpRGZHNFVmY3ZNNHU1NzVTV28yWEJCYS1XNUdPRWhnUVhmMUJhRHd4My1aME1WYg?oc=5",
-    "pub": "Sat, 07 Nov 2026 01:36:31 GMT",
-    "src": "GuruFocus",
     "trig": false,
     "geo": false
    }
@@ -1363,6 +1363,14 @@
     "geo": false
    },
    {
+    "title": "Citadel Frank Flight Ask’s: Houston, Do We Have a Problem? - The Dark Side Of The Boom",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQTWp6ZE9tVkdpNjNOVTNiWUlPQkJsc3RtcVRJVnRhbXRPZE45eHVEZ25ZRjBiWUgwRVpBcnVSYk4xUE5qNEVza29wbU9uRlkyNURIQVJmTHBQMTFKUmxZNl9KMUN2ZWpDMGtpTTA5UDBqSWh1SFdBZ2pTNlpodTNDd2hYbw?oc=5",
+    "pub": "Sat, 07 Nov 2026 09:01:37 GMT",
+    "src": "The Dark Side Of The Boom",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Trending mortgage rates - firsttuesday Journal",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE02aTU2SUhEbk8xaDREWUk4cGZIRHAzLXZ4Q3Vuak5PZFpoNkF5V0lMR1F1UlJrNUZZMVhWcGxxMjVJLWpUczE3VVBUNm90YTdqbWg3cDdOdVA3bjZSUkhFZkFEZmEyWWZsbEE?oc=5",
     "pub": "Sat, 07 Nov 2026 08:06:02 GMT",
@@ -1385,14 +1393,6 @@
     "src": "BigGo Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-    "pub": "Sat, 07 Nov 2026 05:07:03 GMT",
-    "src": "Britannica",
-    "trig": false,
-    "geo": true
    }
   ],
   "flow": [
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75827.91
+   75842.86
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T14:21:59+00:00",
+  "checked": "2026-11-07T14:32:17+00:00",
   "openai": {
    "found": false
   },

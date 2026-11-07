@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T13:32:34+00:00",
+ "updated": "2026-11-07T13:42:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75810.53,
-   "chg": 0.08,
-   "chg5": -1.13,
-   "chg20": -7.57,
-   "sma20": 79333.52,
-   "sma50": 81873.06,
-   "sma200": 72778.74,
+   "price": 75835.08,
+   "chg": 0.12,
+   "chg5": -1.1,
+   "chg20": -7.54,
+   "sma20": 79334.75,
+   "sma50": 81873.56,
+   "sma200": 72778.88,
    "high3m": 86602.91,
-   "reg": 75810.53,
+   "reg": 75835.08,
    "pre": null,
    "post": null,
-   "regClose": 75810.53,
+   "regClose": 75835.08,
    "sess": "reg",
-   "mt": 1794058316,
+   "mt": 1794058891,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI Just Raised $11 Billion at a $1.25 Trillion Valuation, Below the $1.4 Trillion It First Sought - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNd0VJbTY4NE9DN3ZJY01VUlMwQXpyZUNYeGZzbnIyWWRtLTBGdE12ZjFYa0xhUGZlcmNDVF9sUlEyT0lPWS1ld1pEUzczNTJFdnhJVlJDQkw0Tl94S0UwbGN5WFMzeVZTYTU5MDZ3THRIZGpiX0d1a0Joc1ZOOWl3bC1EekR4dUNVc0g3QzZ2eTZTTXB2ZkZDUHhacC1aQlJscFRidDNlSXVHSC1GZG9pUWVtckN1VjZBVEsyVUpfMDh0ZXlzRHZ0U3c2TzFvQlV4WGRyeE1tM1k?oc=5",
+    "pub": "Sat, 07 Nov 2026 13:38:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Better IPO to Buy: Anthropic vs. SpaceX - AOL.com",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBUcUZ4QzZrTDA4TXZpUkNvdTFZSVV5WGRjc1h1ZUtpYXdoVE9tOEc2NjI3NUlkSmxqMTNNeFdVNVlhY3M4eWdMb2p0dm5WZW1TZkNFLW1tQnZBTk10WEttRWNZQmlVX1lJZEtsNzVvRTQ3ck9KZTVEd0NrQQ?oc=5",
     "pub": "Sat, 07 Nov 2026 13:07:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
     "pub": "Sat, 07 Nov 2026 12:03:52 GMT",
     "src": "SpaceX",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
-    "pub": "Sat, 07 Nov 2026 11:01:58 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75801.87
+   75834.93
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T13:32:18+00:00",
+  "checked": "2026-11-07T13:41:50+00:00",
   "openai": {
    "found": false
   },

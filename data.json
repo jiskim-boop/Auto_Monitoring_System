@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T23:42:01+00:00",
+ "updated": "2026-11-07T23:52:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75687.9,
-   "chg": -0.08,
-   "chg5": -1.29,
-   "chg20": -7.72,
-   "sma20": 79327.39,
-   "sma50": 81870.61,
-   "sma200": 72778.08,
+   "price": 75778.3,
+   "chg": 0.04,
+   "chg5": -1.17,
+   "chg20": -7.61,
+   "sma20": 79331.91,
+   "sma50": 81872.42,
+   "sma200": 72778.57,
    "high3m": 86602.91,
-   "reg": 75687.9,
+   "reg": 75778.3,
    "pre": null,
    "post": null,
-   "regClose": 75687.9,
+   "regClose": 75778.3,
    "sess": "reg",
-   "mt": 1794094889,
+   "mt": 1794095490,
    "ok": true
   },
   "USO": {
@@ -1413,6 +1413,14 @@
     "geo": false
    },
    {
+    "title": "U.S.–Iran Tensions Shift Again: Will Demand for Safe Havens Rise? - Binance",
+    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFB5WEJUZEprMjlOVkRQdnJnT3g4bDNtd3F6NlRvTUFZZ1VOdms0WDQzU2JiWVdTbHlsT1VqWVk3Z3pyLTMwa3AwaXRYcXBFTVctRUZUOUNLU1BqTVotc0pwVnB6Nm9tWWlx?oc=5",
+    "pub": "Sat, 07 Nov 2026 16:21:34 GMT",
+    "src": "Binance",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper Price Today: Per Tonne and Per Kilo, the Record High and What Drives It - CryptoTicker.io",
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBpS0E5Zkg1UE0wQnRCTTUxdkNnR0ozalZaYlJsWHVIRVpRZERUOFNxMndOWU10NW11Z2pOdXp0R01ZWGdXclZlZ1FlbkhLaEdBQkE?oc=5",
     "pub": "Sat, 07 Nov 2026 15:38:18 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPc09tQXR3S2gxQ1NLdFRORnNicTREREZNaVdEU0Z1TFdmUVpPRy1nY0d4TEI5Yk9kcDd1XzVPcXZ2c2ZvelZjWmh2c3VxVi1Sakxmazd5Um9MdkN1dnRTb3dlNXFyMzZSa0M4MlhaOWtXcDEyNEZmSTYzTEttUnVsSkNzdGZNMXVGTmVsYi1vd29XWENpaVBrcjZBZ3R1MDhEOE1OWUhIdnpZRzRwX28tbWU3QWtwTzdZbWZtU1ZB?oc=5",
     "pub": "Sat, 07 Nov 2026 08:45:51 GMT",
     "src": "NAI500",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Copper’s Long-Term Breakout Under Threat. Can Dollar Bulls Break Through? - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVJ1M1RINDhXdElQMmFMekdUQVA2UUVYdVV3dTBoaktaM2s0eDgzZHhZR0dLNVptMnp5ZzJJcE00LV9pMjBrVWpnQmFWWGFLdmZqNjF0dkwzbDA0M3djS3EwcC1MaVNTSF9rZUdrMGJUeThsUVVhZHBMaVNaMVZvaFRLcWFUZXBDc2d1WkwyOFJtYVlhS1ppX1NvWjhNY2h6NVNKcHBab3JxNmxURjJsQkxvc3JaUkYxN2VNWlpR?oc=5",
-    "pub": "Sat, 07 Nov 2026 05:06:00 GMT",
-    "src": "FXEmpire",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75694.51
+   75778.3
   ],
   "vixts": [
    0.809,
@@ -2826,7 +2826,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T23:41:49+00:00",
+  "checked": "2026-11-07T23:51:49+00:00",
   "openai": {
    "found": false
   },
@@ -2843,7 +2843,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

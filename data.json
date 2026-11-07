@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:12:12+00:00",
+ "updated": "2026-11-07T12:22:07+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75906.3,
+   "price": 75908.02,
    "chg": 0.21,
-   "chg5": -1.01,
+   "chg5": -1.0,
    "chg20": -7.45,
-   "sma20": 79338.31,
-   "sma50": 81874.98,
-   "sma200": 72779.26,
+   "sma20": 79338.4,
+   "sma50": 81875.01,
+   "sma200": 72779.27,
    "high3m": 86602.91,
-   "reg": 75906.3,
+   "reg": 75908.02,
    "pre": null,
    "post": null,
-   "regClose": 75906.3,
+   "regClose": 75908.02,
    "sess": "reg",
-   "mt": 1794053490,
+   "mt": 1794054084,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Stock Faces Earnings Test Amid Head-and-Shoulders Pattern and Rising Debt - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOV3VUTVp0TW92ZGpxbTg5bjR0eWZja2lnUXRWcXZ6LUs2eEQzQ05aNGpaR29YSFRsU3NsdlVXdGZmY1BrM2RMMEpsMXNaN3NVRFdYNjNqTXI3RHZXSmp1RkU4OFZsMDFRTFVFc3p6WUh0RkVhWFMzM3lULTFQOVNxaXlFMktMQnZaUEQzcFhsNDJQSkFwcUVfODZjdzdhb2xDS0lqRUotVXozVTFwMzdqRGFyQ1hYZ2FL?oc=5",
+    "pub": "Sat, 07 Nov 2026 11:53:28 GMT",
+    "src": "KuCoin",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Bonds Now Yield “Over 17%.” Lenders Are Pricing a Neocloud in Distress - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnByM29acGhqWkpWXzloRzE4aGdXd1JlcVR6M0p2alBXZHNhanI1SHVscHpZRHAzSVRVcFQxTktjM0ljR1Y2SFR0RjBiTGFjQTVtTGlfWFdtMzVfckxHOU9UYUZfOG5TamVEbXpoNkZ0YmZBVE9YRFZWRUowRGdDNkVGWFZOUkdHZWFicllLVDEzblpPTjBTdDBGUGpvUmNVa1BsQ2hB?oc=5",
     "pub": "Sat, 07 Nov 2026 10:23:59 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQVBmMnlBVmppVHRSSlVwQ0xqSlh1WTNtVDJfTjZaaGVfVUNBRjJPcGVoenJYSzgxTzhRR2ZfUFl2ZkRKQ1JnTDBmN0JxTFJLLXdsWWRzS2x6bXdrQ3NVSjN5eFhySXVIck1EbjM4dEdOMHdpTThmMnRMVGFRVlp4cVNhTkhPQzNwUGw5NVptandzZWVmWEdhd0ZpSGZEOVJyRjFxVUNJRmxsTWxNZWpJTkNxNA?oc=5",
     "pub": "Sat, 07 Nov 2026 00:23:11 GMT",
     "src": "TipRanks",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Eisman: Democratic Midterm Sweep and a 15% CoreWeave Yield Just Broke the AI Trade's Narrative - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBKQWlib1JrSThwOUhLZjlvOENSSGd4cElNVmNJX3lhSEp3Z0pRcmR4Nm9VQmF6WWVnYkFORXZTa2FCOUJQTzR0M2FfekVBRjhpMGtoN2ZFYng3NTQ?oc=5",
-    "pub": "Fri, 06 Nov 2026 23:08:00 GMT",
-    "src": "BigGo Finance",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75906.29
+   75908.03
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T12:11:56+00:00",
+  "checked": "2026-11-07T12:21:51+00:00",
   "openai": {
    "found": false
   },
@@ -2845,7 +2845,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

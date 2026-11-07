@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T02:12:26+00:00",
+ "updated": "2026-11-07T02:22:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75976.62,
-   "chg": 0.05,
-   "chg5": -2.9,
-   "chg20": -6.64,
-   "sma20": 79655.36,
-   "sma50": 81979.48,
-   "sma200": 72763.51,
+   "price": 75971.63,
+   "chg": 0.04,
+   "chg5": -2.91,
+   "chg20": -6.65,
+   "sma20": 79655.11,
+   "sma50": 81979.38,
+   "sma200": 72763.49,
    "high3m": 86602.91,
-   "reg": 75976.62,
+   "reg": 75971.63,
    "pre": null,
    "post": null,
-   "regClose": 75976.62,
+   "regClose": 75971.63,
    "sess": "reg",
-   "mt": 1794017495,
+   "mt": 1794018087,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "AST SpaceMobile unveils $1.3 billion engine deal with Firefly Aerospace to power new heavy-lift rocket - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPV2I4cnYyWFZ5R3lraExxdmFaaTdjRkVyWWlRQUxlMjNWNVNkbC1KRkJqMk53QTFKSXVSamhyVzhKaGE5aFNzUnlBNHFWUFB5VTFselNFWFJ6TVlPcTJ4QjdqdU1KRVJJaWljWExhVU5XdkxWQ3lneUhwaXZEWVdMeVUtejFrNmNTRVFJdjRPTVloNHZoX2xVdERMTWpzc3I1UTdyaTk2TDdfenlxOFRJNTYwOE1LQmJJWmdDVzdSS3FLd1RWRk8wN2lISGx3S2lHay10TUp2VQ?oc=5",
+    "pub": "Sat, 07 Nov 2026 02:19:20 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
     "pub": "Sat, 07 Nov 2026 02:01:58 GMT",
@@ -1334,14 +1342,6 @@
     "pub": "Sat, 07 Nov 2026 00:54:00 GMT",
     "src": "Yahoo",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "SpaceX preparing for afternoon launch from Vandenberg SFB - KSBY News",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPaXZhVkE4NTVhYUxnbFJVeU9sRS1TclgyQmEzMGVtVlpfZE1oNDdKN1QtZjhTQXhOTldkQzFGWlczZDlSNlh0MGhFYXRqTUdTN1lqZmxReXRfaUxGTG1HT25zVXA4aWtKTG1qZF9iVWdjeVRnNVpGQWtvTDFXY1dmbGFIVlFRaDY4THdxQ2hzLVBwdFZGVnZXWWtOLUFUV0k?oc=5",
-    "pub": "Sat, 07 Nov 2026 00:37:43 GMT",
-    "src": "KSBY News",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1736,7 +1736,7 @@
    82546.32,
    81500.8,
    81074.19,
-   75989.99
+   75971.62
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T02:12:10+00:00",
+  "checked": "2026-11-07T02:21:49+00:00",
   "openai": {
    "found": false
   },

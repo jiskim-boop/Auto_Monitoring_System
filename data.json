@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:22:07+00:00",
+ "updated": "2026-11-07T12:32:26+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75908.02,
-   "chg": 0.21,
-   "chg5": -1.0,
-   "chg20": -7.45,
-   "sma20": 79338.4,
-   "sma50": 81875.01,
-   "sma200": 72779.27,
+   "price": 75900.01,
+   "chg": 0.2,
+   "chg5": -1.01,
+   "chg20": -7.46,
+   "sma20": 79338.0,
+   "sma50": 81874.85,
+   "sma200": 72779.23,
    "high3m": 86602.91,
-   "reg": 75908.02,
+   "reg": 75900.01,
    "pre": null,
    "post": null,
-   "regClose": 75908.02,
+   "regClose": 75900.01,
    "sess": "reg",
-   "mt": 1794054084,
+   "mt": 1794054708,
    "ok": true
   },
   "USO": {
@@ -1321,14 +1321,6 @@
     "geo": false
    },
    {
-    "title": "Jefferies Flags AI Investment Slowdown, Raises India Allocation To 14% - BW Businessworld",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNRkRXdV9Fa0t3YktnSVY3ZlJhbVFLU19XaTc4bF9ka0piZzcxVGF6cENON0ZOSVBDbFhIM1FNRmZKcnMtRG53RFBQQ2laX3pRQ3dqT0dKSWhteHlGR1hhdkprVkJkY0xtSFlGcjB6RERRUEh2RWFKR21KenFVb2dfbncxbVNyWE91dFJwWFo3Z3B3by1yYks0dDZBV1dOZElIcDFaUk5iVUQwOTRpenZpem5B?oc=5",
-    "pub": "Sat, 07 Nov 2026 10:21:28 GMT",
-    "src": "BW Businessworld",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "OpenAI Secures $11B In Funding As Valuation Reaches $1.25T: Report - Forbes Middle East",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPcXl2OWY2ZWYtYmVna0o0dEtfd29hWHJVZFRYbDdFVHZaOGVQNHhQYWdzcU0zMUVnVW9LSmNVOW5ya3dZY0lJSDZDSkF6TUJvTUh0QTR0d1VGM0s1VlJTOXZEZmk5NWVpb0xCTEJ2ajllTzNJRHh1MzVydldjVTVpUWVlVDJvY2hER3hhRXhyeTE4T0hSZXBYdVRxcVhZa25udFA3MkkzcEVJVmtTcW95M0FjV3hRLVMwb1pvNE9VNDVhQjdlYmNjRw?oc=5",
     "pub": "Sat, 07 Nov 2026 10:19:47 GMT",
@@ -1341,6 +1333,14 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzlUSUlVNzRPR0VIZWs1eFowbk1TTkRrY2VBMzFoMFozZVVWOVRhN05qUG04dzcyV0FKekpqbEFVdkxMWVljQkY1dTJyR2x2TUxnbHczZEE4OEZMNmRacldkWHNUREtBbXFlV1AyV2lFR2VvNXF4ZUVvRzRLRmFiWDV4enlpR1ZIckx2eVIyQ1pUZkJoWmx2ekFLU3hFUlZGTFcwSldINlo3UmNnM1pFTTU5VlRXR2thYm1MdQ?oc=5",
     "pub": "Sat, 07 Nov 2026 10:19:04 GMT",
     "src": "The Chenab Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Secures $11B at $1.25T Valuation as Funding Round Falls Short of Earlier Target - AI Insider",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
+    "pub": "Sat, 07 Nov 2026 10:09:27 GMT",
+    "src": "AI Insider",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75908.03
+   75907.36
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T12:21:51+00:00",
+  "checked": "2026-11-07T12:32:12+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T19:32:32+00:00",
+ "updated": "2026-11-07T19:42:03+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75684.97,
-   "chg": -0.08,
-   "chg5": -1.29,
-   "chg20": -7.72,
-   "sma20": 79327.25,
-   "sma50": 81870.55,
-   "sma200": 72778.06,
+   "price": 75648.91,
+   "chg": -0.13,
+   "chg5": -1.34,
+   "chg20": -7.77,
+   "sma20": 79325.44,
+   "sma50": 81869.83,
+   "sma200": 72777.87,
    "high3m": 86602.91,
-   "reg": 75684.97,
+   "reg": 75648.91,
    "pre": null,
    "post": null,
-   "regClose": 75684.97,
+   "regClose": 75648.91,
    "sess": "reg",
-   "mt": 1794079918,
+   "mt": 1794080490,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "3 Financial Stocks Tied To AI Credit Stress Investors Should Watch - Simply Wall St",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOFVpWjBJRHhjVW9rVzBYaEN3RnNTSFh1aUl4NWlVMXcwOEVyTkxzeGdjWndIX1hOY0d3b2U0cklxcHo4Y1k5OGZXVjRWdm05TzZfakpDbTRDWnIxOEtPaFlXQ3hrTWZCSEtMVTE3d1MyS25IanNwb29UeWFWWjJmcmVrU280cWoxcVJfVW11dmRTWnBuYkVvc3ZnUVAyWDRMZkl1bko3SUZVanhJSjF0cFBJNGpuQ0l4TTRwWlR6RWxEbmo0VWt5OG5ZZW93MWRzOE0xZlp4LUZ0dGM4bHpBeXZfMVLSAeoBQVVfeXFMUHZQZGJFOXRSRkpzYkwwc3pybjRFX1ZIM3d5ZmtKU29FdHh4UzYybmpDT1gwZzFKRF9fVWxkZGpCdjhEZlV0b0ZfbkhSdURnTF9xbXZhb19hRnAwYnduUFI5VmdsNmFKUUNKY3IxRDJIbTlReUhhVlRQbnRKcmkxcXdwOGc3QkNjekZXQzI2TnRtMkJIOHdUc1htMm1KNWJrOG5PNnc0NGlKWTUtdVlMV3YyeGVjNnVhanY5cHgtaGNHeXpiSTgzbm1YRDBQRmlBOE1SUlQtSGRkRUJNMDBQYUpVOHVuSWlyM0pB?oc=5",
+    "pub": "Sat, 07 Nov 2026 19:26:16 GMT",
+    "src": "Simply Wall St",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave’s Bonds Now Yield More Than 16%, Days Before Earnings - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNck5meGozdVdwVC1UVjVLRlVqQTV5dWgwQkpOeTFvS0FmNWtwZnBaY05nQTNWYkt3Mlhta3dHZTdWTk9RX2YzRDAtaDBaU2dmeGFVd0hTTGhSZEc0N29UeVdhcnpJUjd0V1g1al85U2tCNVpjcXdJb2xWYkNJdHRWbUtSTXhtR2VnalYyV0FrSzVaTTB1cVQ0OWlGWQ?oc=5",
     "pub": "Sat, 07 Nov 2026 15:37:53 GMT",
@@ -1284,14 +1292,6 @@
     "pub": "Sat, 07 Nov 2026 13:21:44 GMT",
     "src": "Yahoo Finance",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Bonds Now Yield “Over 17%.” Lenders Are Pricing a Neocloud in Distress - TIKR.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQdnByM29acGhqWkpWXzloRzE4aGdXd1JlcVR6M0p2alBXZHNhanI1SHVscHpZRHAzSVRVcFQxTktjM0ljR1Y2SFR0RjBiTGFjQTVtTGlfWFdtMzVfckxHOU9UYUZfOG5TamVEbXpoNkZ0YmZBVE9YRFZWRUowRGdDNkVGWFZOUkdHZWFicllLVDEzblpPTjBTdDBGUGpvUmNVa1BsQ2hB?oc=5",
-    "pub": "Sat, 07 Nov 2026 10:23:59 GMT",
-    "src": "TIKR.com",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75683.0
+   75649.81
   ],
   "vixts": [
    0.809,
@@ -2826,7 +2826,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T19:32:17+00:00",
+  "checked": "2026-11-07T19:41:50+00:00",
   "openai": {
    "found": false
   },
@@ -2843,7 +2843,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

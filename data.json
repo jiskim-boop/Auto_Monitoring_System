@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T22:12:14+00:00",
+ "updated": "2026-11-07T22:22:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75635.89,
-   "chg": -0.15,
-   "chg5": -1.36,
-   "chg20": -7.78,
-   "sma20": 79324.79,
-   "sma50": 81869.57,
-   "sma200": 72777.8,
+   "price": 75678.15,
+   "chg": -0.09,
+   "chg5": -1.3,
+   "chg20": -7.73,
+   "sma20": 79326.91,
+   "sma50": 81870.42,
+   "sma200": 72778.03,
    "high3m": 86602.91,
-   "reg": 75635.89,
+   "reg": 75678.15,
    "pre": null,
    "post": null,
-   "regClose": 75635.89,
+   "regClose": 75678.15,
    "sess": "reg",
-   "mt": 1794089494,
+   "mt": 1794090094,
    "ok": true
   },
   "USO": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
+    "pub": "Sat, 07 Nov 2026 21:09:05 GMT",
+    "src": "Britannica",
+    "trig": false,
+    "geo": true
+   },
+   {
     "title": "30 Killed at Yemen Market as Houthis and Saudi Forces Trade Blame Over Taiz Strike - Latin Times",
     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IT1hxZUpBdndyZ1A0VnZleUlJLVNHcHNfd0hXVnpRQkx2VjV6eHlHVnR6YzM2VTN0R0lKZF9KRmYxNWJ5T2J6dmNJUGtRSU1YQVBGaUxQeExNSHNUT2tzalNWUkFBUTh6ZjZtZGpfOU9oc1Na?oc=5",
     "pub": "Sat, 07 Nov 2026 20:48:28 GMT",
@@ -1369,14 +1377,6 @@
     "src": "ABC News & Headlines – Australian Broadcasting Corporation",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-    "pub": "Sat, 07 Nov 2026 18:07:28 GMT",
-    "src": "Britannica",
-    "trig": false,
-    "geo": true
    },
    {
     "title": "Middle East war's energy shock twice 1973 oil embargo: Turkish finance minister - TRT World",
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75635.89
+   75678.14
   ],
   "vixts": [
    0.809,
@@ -2826,7 +2826,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T22:11:58+00:00",
+  "checked": "2026-11-07T22:21:56+00:00",
   "openai": {
    "found": false
   },
@@ -2843,7 +2843,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

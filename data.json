@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T11:12:04+00:00",
+ "updated": "2026-11-07T11:22:09+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75883.65,
-   "chg": 0.18,
-   "chg5": -1.04,
-   "chg20": -7.48,
-   "sma20": 79337.18,
-   "sma50": 81874.53,
-   "sma200": 72779.14,
+   "price": 75838.43,
+   "chg": 0.12,
+   "chg5": -1.09,
+   "chg20": -7.53,
+   "sma20": 79334.92,
+   "sma50": 81873.62,
+   "sma200": 72778.89,
    "high3m": 86602.91,
-   "reg": 75883.65,
+   "reg": 75838.43,
    "pre": null,
    "post": null,
-   "regClose": 75883.65,
+   "regClose": 75838.43,
    "sess": "reg",
-   "mt": 1794049885,
+   "mt": 1794050490,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
+    "pub": "Sat, 07 Nov 2026 11:01:58 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Prediction: SpaceX Will Not Cancel the Falcon 9 in 2028 - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbnBBZExDQkdqSGJHZjlZekFnU0pnR0pjejJEeExMLWJhWWRHdTQycXFzODVTMHk1NEhGMF9MWk5tWWZ4Y09zVWx3a0haU0puSllpcF9zZGVCQUJkUHhQckdvUDI4Y2pESWV5LXBGZVFoMnpuZHZSOWR3cDc4ZkNHWFl2MjRNMFJnRS1MVHhuWUpBMnZLU3BRbWFVTEJZUjRhOEE?oc=5",
     "pub": "Sat, 07 Nov 2026 10:25:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
     "pub": "Sat, 07 Nov 2026 10:09:27 GMT",
     "src": "AI Insider",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Prediction: SpaceX Will Not Cancel the Falcon 9 in 2028 - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOcGExWXMtSllTSUNaZTA4Z2NGcmE0UGFtVk5OeEZuZ1BBOUppZmJlWVhiMmZaWjZ3QzNHbVM4NjlhcC1jdXRjSzRJckZ4VTBkaThjZzQzcDlLRnVlaHB6Ym90OGdzb1JGWllhR3ZrV0N5cWJrV2k4WkpsWlJSOE5kQm9pYm9lLVVrT1ZSamxyNmNTT3dseXVR?oc=5",
-    "pub": "Sat, 07 Nov 2026 10:05:00 GMT",
-    "src": "The Motley Fool",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75883.67
+   75838.43
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T11:11:50+00:00",
+  "checked": "2026-11-07T11:21:55+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:11:59+00:00",
+ "updated": "2026-11-07T08:22:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -838,7 +838,7 @@
   "^MOVE": {
    "price": 92.77,
    "chg": -5.26,
-   "chg5": -7.42,
+   "chg5": -7.41,
    "chg20": -7.87,
    "sma20": 99.23,
    "sma50": 92.81,
@@ -849,7 +849,7 @@
    "post": null,
    "regClose": 92.77,
    "sess": "reg",
-   "mt": 1793998800,
+   "mt": 1793999850,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -985,7 +985,7 @@
    "post": null,
    "regClose": 644.27,
    "sess": "reg",
-   "mt": 1793944800,
+   "mt": 1793963140,
    "ok": true
   },
   "GLD": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76008.15,
-   "chg": 0.34,
-   "chg5": -0.87,
-   "chg20": -7.33,
-   "sma20": 79343.41,
-   "sma50": 81877.02,
-   "sma200": 72779.81,
+   "price": 76033.94,
+   "chg": 0.38,
+   "chg5": -0.84,
+   "chg20": -7.3,
+   "sma20": 79344.69,
+   "sma50": 81877.53,
+   "sma200": 72779.95,
    "high3m": 86602.91,
-   "reg": 76008.15,
+   "reg": 76033.94,
    "pre": null,
    "post": null,
-   "regClose": 76008.15,
+   "regClose": 76033.94,
    "sess": "reg",
-   "mt": 1794039087,
+   "mt": 1794039699,
    "ok": true
   },
   "USO": {
@@ -1297,14 +1297,6 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
-    "pub": "Sat, 07 Nov 2026 08:01:58 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SpaceX Chopsticks Catch 71m Super Heavy Booster [2026] - shattered.io",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX2JjUjdHVnY2WXFtaW5OVl96VkZjNE1LLTkwTzhZRWNzNVdVMmxmWVBobWI0aGRNZlB4QlJmVkNzWFBWUlZhWGh5bzA2dTA1bU4xRko1ZjBYUkFucjlBN205TDRaYVpPZlhIeS1wQnpsb3RUcnkwQzdhZW52U2JZdnZiZkl6QjdLb05B?oc=5",
     "pub": "Sat, 07 Nov 2026 07:58:34 GMT",
@@ -1341,6 +1333,14 @@
     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFFLRk90T1lTT29tNFhNLUtTQTNGOENIQ2JZTzBIdXZaZDczdXVWcjB0dkx3bW13ejR4TU5SZEVXMFRlVURLRFBCcjFhNlR1TjB3UjZ6ZTlLdTU5SGdjTW5zX3ZIZEd1cjQ1SnJxcHhXdTkxbkRYZ0kxbnV4b080VXBfZkl4dw?oc=5",
     "pub": "Sat, 07 Nov 2026 05:01:18 GMT",
     "src": "The Dark Side Of The Boom",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI CFO Sarah Friar Isn't Letting Midterm Voter Backlash Derail AI Data Center Spending, Says Company - Benzinga",
+    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSkc0TmNsemVtUUlHMEJnVUlpZnphRzZsQV9RQkxmNGZtUXlLbWJ4NnN1RmxPc1BjY0ZJb3FmQ29aQTktTTZveEFpY05WZkNaMmJPcDR2RHpPV0lKazFVQmNxb05uY0drbDN1OHEzTF9aOFJpdFU4bnBmcHc2dkdQQnc4MDFoaEZhaDktNjN3SWNZRVRxYUtZ?oc=5",
+    "pub": "Sat, 07 Nov 2026 04:36:33 GMT",
+    "src": "Benzinga",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   76008.15
+   76033.93
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T08:11:47+00:00",
+  "checked": "2026-11-07T08:22:01+00:00",
   "openai": {
    "found": false
   },

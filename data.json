@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T12:02:42+00:00",
+ "updated": "2026-11-07T12:12:12+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75882.5,
-   "chg": 0.18,
-   "chg5": -1.04,
-   "chg20": -7.48,
-   "sma20": 79337.12,
-   "sma50": 81874.5,
-   "sma200": 72779.13,
+   "price": 75906.3,
+   "chg": 0.21,
+   "chg5": -1.01,
+   "chg20": -7.45,
+   "sma20": 79338.31,
+   "sma50": 81874.98,
+   "sma200": 72779.26,
    "high3m": 86602.91,
-   "reg": 75882.5,
+   "reg": 75906.3,
    "pre": null,
    "post": null,
-   "regClose": 75882.5,
+   "regClose": 75906.3,
    "sess": "reg",
-   "mt": 1794052925,
+   "mt": 1794053490,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "USSF-627 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
+    "pub": "Sat, 07 Nov 2026 12:03:52 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
     "pub": "Sat, 07 Nov 2026 11:01:58 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPNzlUSUlVNzRPR0VIZWs1eFowbk1TTkRrY2VBMzFoMFozZVVWOVRhN05qUG04dzcyV0FKekpqbEFVdkxMWVljQkY1dTJyR2x2TUxnbHczZEE4OEZMNmRacldkWHNUREtBbXFlV1AyV2lFR2VvNXF4ZUVvRzRLRmFiWDV4enlpR1ZIckx2eVIyQ1pUZkJoWmx2ekFLU3hFUlZGTFcwSldINlo3UmNnM1pFTTU5VlRXR2thYm1MdQ?oc=5",
     "pub": "Sat, 07 Nov 2026 10:19:04 GMT",
     "src": "The Chenab Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Secures $11B at $1.25T Valuation as Funding Round Falls Short of Earlier Target - AI Insider",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQYXNsRDZkdlRYaDFRYlUtQnM1NC13RjNFdEt0dlJhSlVpTUxtZ1A1YkdRTzhoc29hNC1HaGpTYkFtMHdWRFRLaEhFaWJtMnpjazBZSURBVllsWnZMTW15a0tSVWQ0OGE0ckwxbHExbDluNGxzMWFUdWdla09mamg4U24tY3hCVkhTektMY19OTHN0ZWI4amo5UjA0Q01IMEgybVozRUQ2ejRZTEdoSnRZVk9Sc00xU2ZNMFZpa1gxcw?oc=5",
-    "pub": "Sat, 07 Nov 2026 10:09:27 GMT",
-    "src": "AI Insider",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75882.51
+   75906.29
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T12:02:29+00:00",
+  "checked": "2026-11-07T12:11:56+00:00",
   "openai": {
    "found": false
   },
@@ -2845,7 +2845,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

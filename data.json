@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-07T08:22:17+00:00",
+ "updated": "2026-11-07T08:32:37+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -832,7 +832,7 @@
    "post": null,
    "regClose": 153.55,
    "sess": "reg",
-   "mt": 1793998800,
+   "mt": 1794002445,
    "ok": true
   },
   "^MOVE": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 76033.94,
-   "chg": 0.38,
-   "chg5": -0.84,
-   "chg20": -7.3,
-   "sma20": 79344.69,
-   "sma50": 81877.53,
-   "sma200": 72779.95,
+   "price": 76013.0,
+   "chg": 0.35,
+   "chg5": -0.87,
+   "chg20": -7.32,
+   "sma20": 79343.65,
+   "sma50": 81877.11,
+   "sma200": 72779.84,
    "high3m": 86602.91,
-   "reg": 76033.94,
+   "reg": 76013.0,
    "pre": null,
    "post": null,
-   "regClose": 76033.94,
+   "regClose": 76013.0,
    "sess": "reg",
-   "mt": 1794039699,
+   "mt": 1794040320,
    "ok": true
   },
   "USO": {
@@ -1087,7 +1087,7 @@
    "post": null,
    "regClose": 58.29,
    "sess": "reg",
-   "mt": 1793998800,
+   "mt": 1793998922,
    "ok": true
   },
   "ES=F": {
@@ -1297,6 +1297,30 @@
   ],
   "fundamental": [
    {
+    "title": "Key facts: Oracle FY27 capex; shares dip; joins $370.7B bond wave - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPS0l6M0h6ZjItS0FkemVXdWVSeG55MWlHNm5BZlhQbm1PMjNZQXQ0M1puLXFjVW5YQnotaVhkSHJnVHVTOTZNbjIwVTBjN0xhU3ExVW9IOHBGQ0JWN1JkeWpqR0JjV0JCbEd5dUJxTHZZM1pFbXBBbEFYYl82XzJwR1d5THI4VlpxVm9KNm5YbFFYamtoWE9TM09GV011VE1DdWpadXJMa25qX25VRGxGclZZdHpVTEV2TFpidGdnWDE?oc=5",
+    "pub": "Sat, 07 Nov 2026 08:21:35 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA Blackwell GPUs Speed Up AI Image Generation with FLUX 3 - The Chenab Times",
+    "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOR2FUNXJOZ01SQ2ZqY01YWklheHQ3T05wNmNZNEVhZm5HWlY1YXNLZVVsbTZtVDRqVDJhcHp0aXZYbkhIYll1SHQyRlhuYThxNHl2a1c0LUFrX3dCS0pNcXNiNmNqSXNDWFQ0aTEzcmZqZFdqdXMzRnlQV3VpMkhzamF2cVVYZXdqM0otaFhDTFY3d0VOaGtJcmVmVW9Kcmw4MDNnZm5vUGdTSVoyUWlTZzlWNDNtUU9XQ3c?oc=5",
+    "pub": "Sat, 07 Nov 2026 08:19:02 GMT",
+    "src": "The Chenab Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic’s IPO Seen as AI’s True Reckoning - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQcWdnSE1HT3NiM2VseHpuNm1iTWZvWnFJNlpnUklnN3Q0THpTdXR3MUpxZ0NGRDM0SGJHTFZmQ0xaLXgwcFRFTnlya3dVb2txamh3TVVpd2xoSWN6cE1xZ0FhZm9aQ2xqR0NXZnJoNjllSEpPbHZQYUdvc3R5ODZ2SDhHa1NhTzdmVzI2eEZ0RDRFanlCQmI0aUNfdm5NdEQ0WUhYbU0yNUwwVnkzT0JwOUlsTEMtR2s?oc=5",
+    "pub": "Sat, 07 Nov 2026 08:01:58 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX Chopsticks Catch 71m Super Heavy Booster [2026] - shattered.io",
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNX2JjUjdHVnY2WXFtaW5OVl96VkZjNE1LLTkwTzhZRWNzNVdVMmxmWVBobWI0aGRNZlB4QlJmVkNzWFBWUlZhWGh5bzA2dTA1bU4xRko1ZjBYUkFucjlBN205TDRaYVpPZlhIeS1wQnpsb3RUcnkwQzdhZW52U2JZdnZiZkl6QjdLb05B?oc=5",
     "pub": "Sat, 07 Nov 2026 07:58:34 GMT",
@@ -1319,33 +1343,17 @@
     "src": "NewsNation",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Anthropic IPO to Test AI Industry's Financial Viability - BankInfoSecurity",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeTJDUU11OHd3c1RRWWRaVEtYdWxCdlNCWGVMMUxiM1BLLXEzM1AyOHJyS2JlRGM2VG1DcGdzR1laV21seHBYaVRuSS13ZmNoY2xjSzVnUnVLXzl1QVdlRm44V1o5LXd6eDRGblZFZDZXWFVPRlpFdDlQN1h6MWZIaEhiWmd5aXBESng1MThuRTVlVU03VzBhQ3FKSQ?oc=5",
-    "pub": "Sat, 07 Nov 2026 05:03:45 GMT",
-    "src": "BankInfoSecurity",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Joins the Index Club: Goldman Finds the Impact Is Smaller Than Wall Street Expected - The Dark Side Of The Boom",
-    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOMFFLRk90T1lTT29tNFhNLUtTQTNGOENIQ2JZTzBIdXZaZDczdXVWcjB0dkx3bW13ejR4TU5SZEVXMFRlVURLRFBCcjFhNlR1TjB3UjZ6ZTlLdTU5SGdjTW5zX3ZIZEd1cjQ1SnJxcHhXdTkxbkRYZ0kxbnV4b080VXBfZkl4dw?oc=5",
-    "pub": "Sat, 07 Nov 2026 05:01:18 GMT",
-    "src": "The Dark Side Of The Boom",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI CFO Sarah Friar Isn't Letting Midterm Voter Backlash Derail AI Data Center Spending, Says Company - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSkc0TmNsemVtUUlHMEJnVUlpZnphRzZsQV9RQkxmNGZtUXlLbWJ4NnN1RmxPc1BjY0ZJb3FmQ29aQTktTTZveEFpY05WZkNaMmJPcDR2RHpPV0lKazFVQmNxb05uY0drbDN1OHEzTF9aOFJpdFU4bnBmcHc2dkdQQnc4MDFoaEZhaDktNjN3SWNZRVRxYUtZ?oc=5",
-    "pub": "Sat, 07 Nov 2026 04:36:33 GMT",
-    "src": "Benzinga",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Oil Prices Sink as U.S. Midterms Raise Market Hopes for Middle East Solution - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPVGZJRGVaVkdJaDR5b1REaE5CdWQtY2ZlczBhUXFWT253Vi0tMkNoUVhSNUI0Rzlqbnc5UnVVS0lqN1kwVzZ3eTJ6ODByNlc5ck5HYmlkMEVyRzlrVDNFdk8zQ2JuRWdQLUdYc3ozNUVCc3hRSGhDc0tKNW9QY1A2ZVpMZC1PNGxqUU81QkQyZms0R1VxWUUzbTRLSmYyUTRvM0ZHVmVjdTRpZ2NxLUJkcFlQZzY?oc=5",
+    "pub": "Sat, 07 Nov 2026 08:08:51 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "US October CPI Expected Up 0.3% Month-on-Month; A Week That Will Shape the Fed's Rate Decision - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9QQ2VTV0RZVHAtY3lCOXgwRDVfSm9taXpWNER5bGkxT0owSG1CZTlCdWUyajRIWmFoU21EM0dyZ2M4TnZ1cGF3V0tyVkFEZmhNVFZ1RGRxTktPc09uNjltUUNqeXdTRUhzaFBfdm56N3JTODZkMFE?oc=5",
@@ -1385,17 +1393,17 @@
     "src": "Gulf News",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US military carries out new targeted strike on Iran as Tehran's leaders weigh mediator's proposals - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxQZWFqMEFmZXhwVldWZmdlWElPcDhCakQ5U3ZCQXZPdlVVbVdsWVRJeDMzNk9VUmdBUzhRcW9tZlpUbUk4ZGU5Rjlza0txOTlBY0JNMi15UGw2WHk3OVdvcEZtTlppUWlnRDlZOXQ2T3NxMEVkakVKb2Y3WHVqN3l6QWdQWGFtQlFtWl9FYXVDNzA1UkRQWWdaQUFxZzJ6d3ZDcUYzV3p4LUg2YVA4N0VxWGsycUlXQWwwM0FfYXdnSUMzdXNxTWJ3NDIyTDBvQTljUDQ2TEJvcmMtb0w1aWNGRmx3NGNUc2ZHR29KVVFQOGZVekpUUkHSAfsBQVVfeXFMTWx1bXlWS1RESUozeTF1T0FxWGZiY2Uwa1Z1Q0V1SlNkQ2FEUlZqclJWejZIdVA2bnc1ZWs2T1dmYUlyMFc0SjRJQ2tUc1RZZV91ZXV3dW92NGxhdmlOdFpWeHJQZzgteXZ4dkV1VWVicUMzRkVEcmdQTjNkNUk2eUJvSV9MdldBaEZzemJWVGU2eVFzY2o2QS1CckI1UXNfMW40NndZR1J6eHQ1NW5jdGg2bVY1UmJWcUFua2M2amZ2SnpKWFNqckhwV3lLOUlFQTFia2h5c2U3bndfdHUwV2NHQlpvbGxIdjdza1VzTExZR2tZYVVlNFlUN1U?oc=5",
-    "pub": "Sat, 07 Nov 2026 01:41:47 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Sat, 07 Nov 2026 07:12:43 GMT",
+    "src": "LiteFinance",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Gold Price & Silver Prices Settle on a High for the Weekend - TechJuice",
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVVVIY2toV1Y1azdRekFwVFVTOXNfcWo5VmZ6X3M1MUFXMzZ0aGQtYk1BMDJENldKZ085NzFhOVpfOWoxdW43N1NGX2k5WGVFcHpnZHRabm03OHVzcVBXNHdLc1BBYm9KSG5iZ0ZBcUhzcjE5bi1qMkQ1RUFKV0tWZHgtTHNqSzY2dUVXRQ?oc=5",
@@ -1409,14 +1417,6 @@
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOVJ1M1RINDhXdElQMmFMekdUQVA2UUVYdVV3dTBoaktaM2s0eDgzZHhZR0dLNVptMnp5ZzJJcE00LV9pMjBrVWpnQmFWWGFLdmZqNjF0dkwzbDA0M3djS3EwcC1MaVNTSF9rZUdrMGJUeThsUVVhZHBMaVNaMVZvaFRLcWFUZXBDc2d1WkwyOFJtYVlhS1ppX1NvWjhNY2h6NVNKcHBab3JxNmxURjJsQkxvc3JaUkYxN2VNWlpR?oc=5",
     "pub": "Sat, 07 Nov 2026 03:10:04 GMT",
     "src": "FXEmpire",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
-    "pub": "Sat, 07 Nov 2026 02:47:45 GMT",
-    "src": "LiteFinance",
     "trig": false,
     "geo": false
    },
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   76033.93
+   76013.01
   ],
   "vixts": [
    0.809,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-07T08:22:01+00:00",
+  "checked": "2026-11-07T08:32:22+00:00",
   "openai": {
    "found": false
   },

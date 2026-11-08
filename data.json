@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:02:38+00:00",
+ "updated": "2026-11-08T16:12:26+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75986.39,
-   "chg": 0.32,
-   "chg5": -1.76,
-   "chg20": -7.17,
-   "sma20": 79037.02,
-   "sma50": 81766.86,
-   "sma200": 72756.65,
+   "price": 75954.25,
+   "chg": 0.27,
+   "chg5": -1.8,
+   "chg20": -7.21,
+   "sma20": 79035.41,
+   "sma50": 81766.22,
+   "sma200": 72756.48,
    "high3m": 86602.91,
-   "reg": 75986.39,
+   "reg": 75954.25,
    "pre": null,
    "post": null,
-   "regClose": 75986.39,
+   "regClose": 75954.25,
    "sess": "reg",
-   "mt": 1794153722,
+   "mt": 1794154304,
    "ok": true
   },
   "USO": {
@@ -1305,6 +1305,14 @@
     "geo": false
    },
    {
+    "title": "Anthropic IPO to Test AI Industry's Financial Viability - BankInfoSecurity",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeTJDUU11OHd3c1RRWWRaVEtYdWxCdlNCWGVMMUxiM1BLLXEzM1AyOHJyS2JlRGM2VG1DcGdzR1laV21seHBYaVRuSS13ZmNoY2xjSzVnUnVLXzl1QVdlRm44V1o5LXd6eDRGblZFZDZXWFVPRlpFdDlQN1h6MWZIaEhiWmd5aXBESng1MThuRTVlVU03VzBhQ3FKSQ?oc=5",
+    "pub": "Sun, 08 Nov 2026 15:21:27 GMT",
+    "src": "BankInfoSecurity",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "USSF-627 Mission - SpaceX",
     "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9XeFVQR0UwbnFselBRcWJuZHAxRmpKbHlTVUlJem1lNWhzMW9zNkM0R2Z5emFqbkRwdjZNd3l1aENOeFc4cVlJTFU2RW02a2tU?oc=5",
     "pub": "Sun, 08 Nov 2026 15:16:57 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2UzWGJPeWkxTThlbjFBQ09zTHpMNm1iVnkzZVUxbVVnb18zVUN0Y0VZcE52Z3R0T1BLY25vQVdGd2VVaVV1amd1UHZwalRIRWVoSGxueEtOUlo5RGY5akxkZHVxcVp5cE0wQjRzS0tTTEJoamM1SWQ3THVwVnd2dW1KR1JRQ0tQMklMa01rQWQ4Y0xycFBOUg?oc=5",
     "pub": "Sun, 08 Nov 2026 08:43:53 GMT",
     "src": "shattered.io",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Altman on Why 4 OpenAI Leaders Left [2026] - https://tech-insider.org/",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOcTN5SloxZWZuOVcycGRWajFsWEZaODAzNTZKdVhYV2ZqMmVWbzdiSHpRTDRJOFZabzg1OVBTU0VjOFNuSFJFWXRiV0FlYzZuYXF3d2JLQXFxaFM0a2lHWFFZbzVIU1BIcGZyZEJDNzEzcFVFTnFFQ0Z1N2l5WVBPWUVPc2lXaWVSakE?oc=5",
-    "pub": "Sun, 08 Nov 2026 04:21:53 GMT",
-    "src": "https://tech-insider.org/",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    83679.47,
    82017.6,
    80024.01,
-   75984.29
+   75951.43
   ],
   "vixts": [
    0.809,
@@ -2830,7 +2830,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T16:02:22+00:00",
+  "checked": "2026-11-08T16:12:08+00:00",
   "openai": {
    "found": false
   },
@@ -2847,7 +2847,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:42:14+00:00",
+ "updated": "2026-11-08T21:52:10+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75592.72,
-   "chg": -0.2,
-   "chg5": -2.27,
-   "chg20": -7.65,
-   "sma20": 79017.34,
-   "sma50": 81758.99,
-   "sma200": 72754.52,
+   "price": 75180.02,
+   "chg": -0.75,
+   "chg5": -2.8,
+   "chg20": -8.15,
+   "sma20": 78996.7,
+   "sma50": 81750.73,
+   "sma200": 72752.29,
    "high3m": 86602.91,
-   "reg": 75592.72,
+   "reg": 75180.02,
    "pre": null,
    "post": null,
-   "regClose": 75592.72,
+   "regClose": 75180.02,
    "sess": "reg",
-   "mt": 1794174095,
+   "mt": 1794174693,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.28,
-   "chg": 0.5,
-   "chg5": 0.38,
-   "chg20": 0.05,
+   "price": 158.34,
+   "chg": 0.53,
+   "chg5": 0.42,
+   "chg20": 0.09,
    "sma20": 157.92,
    "sma50": 157.29,
    "sma200": 159.13,
    "high3m": 160.2,
-   "reg": 158.28,
+   "reg": 158.34,
    "pre": null,
    "post": null,
-   "regClose": 158.28,
+   "regClose": 158.34,
    "sess": "reg",
-   "mt": 1794174090,
+   "mt": 1794174450,
    "ok": true
   },
   "KRW=X": {
@@ -1347,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "The Institutional Investor’s Guide to Fixed Income 2026 - Pensions & Investments",
+    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUkRyUUJYcXp2cTJTMXBjdlZVM3dLV19hbG1mTWJZRXc3ZjFteWVvcEVoUGExZWNnclFpQkdmbDdWazFNUGxoRGZ5UEt5M2ZQYmktTFNLTzN4Zmhac0dNMGNPSWdZd1pNRnpQU0VFLWNoR0VLeloyb2pFR0NfdWhSNUcwaF9WUFh3Ync5QmRDbXE4Z0o1U1J0cHlaOA?oc=5",
+    "pub": "Sun, 08 Nov 2026 19:36:24 GMT",
+    "src": "Pensions & Investments",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Midterm results may add uncertainty to the Fed’ next rate decision — here are 5 money moves to consider before December - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZF8wRkd3OTN1U3I0S2xUdmpZZnR5bWNyak05MUdGOC1MVk5FQU80bkNNd05pc1ZnekgzbF9FbzMxNUZGajVtMFVyYWZkRExuYWV0SFJqdEtIWm9RUnhSejZDeVhGWDBlNG5wZndCRVFHLXlXdnN2d28zRzhnU2pYY1l6QUZ0MmF5V1dKUlNrMTFEU1BmamVHTVdLX3AyQzQ2Vnc?oc=5",
     "pub": "Sun, 08 Nov 2026 13:50:00 GMT",
@@ -1384,14 +1392,6 @@
     "pub": "Sun, 08 Nov 2026 09:00:53 GMT",
     "src": "The Dark Side Of The Boom",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "30 Killed at Yemen Market as Houthis and Saudi Forces Trade Blame Over Taiz Strike - Latin Times",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9IT1hxZUpBdndyZ1A0VnZleUlJLVNHcHNfd0hXVnpRQkx2VjV6eHlHVnR6YzM2VTN0R0lKZF9KRmYxNWJ5T2J6dmNJUGtRSU1YQVBGaUxQeExNSHNUT2tzalNWUkFBUTh6ZjZtZGpfOU9oc1Na?oc=5",
-    "pub": "Sat, 07 Nov 2026 20:48:28 GMT",
-    "src": "Latin Times",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1676,7 +1676,7 @@
    158.2,
    157.81,
    156.83,
-   158.28
+   158.34
   ],
   "uso": [
    117.98,
@@ -1736,7 +1736,7 @@
    83679.47,
    82017.6,
    80024.01,
-   75574.87
+   75133.29
   ],
   "vixts": [
    0.809,
@@ -2836,7 +2836,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T21:41:57+00:00",
+  "checked": "2026-11-08T21:51:56+00:00",
   "openai": {
    "found": false
   },
@@ -2925,8 +2925,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.28,
-   "usdjpy_chg20": 0.05,
+   "usdjpy": 158.34,
+   "usdjpy_chg20": 0.09,
    "vix_chg5": 32.03,
    "hit": false,
    "missing": []

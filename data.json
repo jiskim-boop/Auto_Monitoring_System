@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T04:12:10+00:00",
+ "updated": "2026-11-08T04:22:13+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75808.47,
-   "chg": 0.08,
-   "chg5": -1.13,
-   "chg20": -7.57,
-   "sma20": 79333.42,
-   "sma50": 81873.02,
-   "sma200": 72739.43,
+   "price": 75816.57,
+   "chg": 0.09,
+   "chg5": -1.12,
+   "chg20": -7.56,
+   "sma20": 79333.83,
+   "sma50": 81873.19,
+   "sma200": 72739.47,
    "high3m": 86602.91,
-   "reg": 75808.47,
+   "reg": 75816.57,
    "pre": null,
    "post": null,
-   "regClose": 75808.47,
+   "regClose": 75816.57,
    "sess": "reg",
-   "mt": 1794111091,
+   "mt": 1794111691,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Blue Owl Capital Trades At 24.86% Discount To NAV While Yielding Over 10% (NYSE:OBDC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNdE1MMjJDU3hQQ00zcjdzRXRneEx5d1JxdW50emdLcUFfRWNiRVRTLTgzTTh5VkdRZF9QcXpiT3VwNFhwRXI3TGFlcFgydUJmMFFmMktoQUdlOEtKeGJGbGRRSlFhbk41VGk4eU9Ib2hKemU2ZnQ0RWsySm9xZ1pjSGV4SGx2alplLUJPTlZBYmZEUzlKX2NvNkpiUDlxOXdsS0Y1V3R5bUxCaThFZGMzblRxdW83U2E3M0E4ZlZ6dUJDWWw0MUQ4THQzcnFzYW9Y?oc=5",
+    "pub": "Sun, 08 Nov 2026 04:11:34 GMT",
+    "src": "Seeking Alpha",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Has $15B of Debt Due by 2028, $42.5B of Backlog - FourWeekMBA",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYjdVZkV1T1N1WENvMi1QZEhtenJhZmw2V2cyX1ViMTlQcDkxTUk4UkU0WWRtYkdaOVVwYTd2N2FwTDhVUjhrUkVJQjhRMFV3Ry1GUVZLQmdhZkRpQkFWMmtCRExHd3V6UjdRVm5pU1ZaWFB3bm42U0JZYlNBNkF1NkE0R0k5QTdMLVE?oc=5",
     "pub": "Sat, 07 Nov 2026 23:22:49 GMT",
@@ -1284,14 +1292,6 @@
     "pub": "Sat, 07 Nov 2026 15:00:00 GMT",
     "src": "MarketBeat",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Blackstone Secured Lending: Finally, The Dividend Cut Is Here - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNSzVZZEM5bW9ONTE2NEI3N0ZGLUtiZjd0eTVkSWNONk1BbkQ0NjJCMDg5aXgyZ2JtYWJJeC1fNVhkMi1Ib0tFcVM3bDJWZ0JYMEQyVlNDaTYzeVFUOVV5N2FLSU52c00wWVJFU3AwMjZsMGRxY0dldUhPR2tnZU0tWFk0aEctYVgwLXVLaDl1VFd2YzYxelRpRlVidU10d2ZaWGc?oc=5",
-    "pub": "Sat, 07 Nov 2026 14:58:22 GMT",
-    "src": "Seeking Alpha",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1349,7 +1349,7 @@
    {
     "title": "2026 Iran war | Oil, Explained, United States, Israel, Strait of Hormuz, Map, & Conflict - Britannica",
     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5nTzlhOGZTS180cWNtVG91c2VWRVJFYlk0cW5Ba1RHUEFOSEtldU15QktQT0EzRVY1ZVdZZ0VTRHVWTVhyN1IzeU1wbmlDMUhrQ3Roc1YxcmdMUQ?oc=5",
-    "pub": "Sun, 08 Nov 2026 00:19:19 GMT",
+    "pub": "Sun, 08 Nov 2026 02:51:47 GMT",
     "src": "Britannica",
     "trig": false,
     "geo": true
@@ -1736,7 +1736,7 @@
    82912.23,
    81382.15,
    80790.84,
-   75808.48
+   75816.56
   ],
   "vixts": [
    0.809,
@@ -2830,7 +2830,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T04:11:55+00:00",
+  "checked": "2026-11-08T04:21:56+00:00",
   "openai": {
    "found": false
   },
@@ -2847,7 +2847,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

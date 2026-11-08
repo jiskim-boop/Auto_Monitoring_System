@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T16:22:01+00:00",
+ "updated": "2026-11-08T16:32:21+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75920.77,
+   "price": 75924.94,
    "chg": 0.23,
    "chg5": -1.84,
-   "chg20": -7.25,
-   "sma20": 79033.74,
-   "sma50": 81765.55,
-   "sma200": 72756.3,
+   "chg20": -7.24,
+   "sma20": 79033.95,
+   "sma50": 81765.63,
+   "sma200": 72756.32,
    "high3m": 86602.91,
-   "reg": 75920.77,
+   "reg": 75924.94,
    "pre": null,
    "post": null,
-   "regClose": 75920.77,
+   "regClose": 75924.94,
    "sess": "reg",
-   "mt": 1794154893,
+   "mt": 1794155510,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,22 @@
  "news": {
   "credit": [
    {
+    "title": "Anthropic’s $1.5 Trillion IPO Could Expose the Biggest Risk Facing the AI Boom - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQZHotdlFzOFJ6NEVkRU81N1hwcnhXckNwVFFNcXlWeEM4QXdHazgtNzRHVTUzVmJqVUFyY053NlkyX1o1V1lyTy15ay02MFJvVHV0NUc5dnZINDNlakhjcDdoMFEzQ1hwTllLUDJJZkZGSUw2cktYWUxrOEFrNHlSNTEyU0FLQTR3S1NZRzNlOFJiWVF4dHZqREwzR2dQWUl3cy0wNkpMOGxEUmZwZGtxd2ZCcl9peUJTVzhoRA?oc=5",
+    "pub": "Sun, 08 Nov 2026 16:23:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic’s $895 Billion AI Gamble Could Become Wall Street’s Next Debt Nightmare - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNbG9kZlo4VzNzM2ZiX1BHci1HV0RKWS1wc3ZfdFh6WUtYUlUzZHEwZ1Y2d3dyZlk1cUY1ZGFiUXBueWdhUFhrMDBhUzFqS1phb3RYdHpTR3dXVjBUOHpJSEpCUkFMZXdKRFozaUF1SDZDVWVIVUlrTUIwRXZmR2ZzUVNQMnNfdFByMWRmLTV5eXhXUEhxNHJDVWZPeXc5R1BnUE0wdlR3Z3c3NG1ZZU96VWk0cFA4bUhhM2FWMDNDSQ?oc=5",
+    "pub": "Sun, 08 Nov 2026 16:20:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Absci (ABSI) On AI Drug Pipeline Debate While Rich Valuation Stays In Focus - Simply Wall St",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQSmNiZFVvNzh4QTBuYWdpWlRBTWRhazRLbE1FMS1jc3VqUXU2ZzNaaVlWb2w2V0lkWS1iRzZSTmcweGFYUnF1UU5NXzFCYnJjaWQ1LTVjOE9sbFJFcmlUc1RuaDZzMmRsYXM2bGVDVTN3MjRNelA1dWFYZ3g5M29XNFI4c3lrUVdiMjdEOGxmWVpGdHMyMjJackNGdzJFcmNiMEdURVI2OERFX0RwUTVUWWpHaUtCY2dFQ0VNRWJzN000QTFRd19laDJyYjFhNmVCR2FQQmF30gHbAUFVX3lxTFBRTHpPUzFhc3htRE9BZG9nODlZWGZ3Y0M2Y2VkZXpWQndNVmI5bFA4dHhCYTEwUFlsdVRxMF9Pbm5pSVJsekRDbGZLQm1XRlh1bHZWZzAwNy1WYnRhSGR1ekViS2d5b1NvUEU3c3U4TGFTM1FuMXkxQWVqbFYtbTlJZzMzQ290NHJfZm5hZ3k3cHFUc2R6THFlYnNjbXZ2NnIzTXQzdl9RdXpHLU81NTlWVTdUQnhORGpKSG05SWs0RjJIeW93VjhhN1hnMC04UTc1YWZwb2x5YjJ6TQ?oc=5",
     "pub": "Sun, 08 Nov 2026 08:30:06 GMT",
@@ -1277,22 +1293,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave Has $15B of Debt Due by 2028, $42.5B of Backlog - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOYjdVZkV1T1N1WENvMi1QZEhtenJhZmw2V2cyX1ViMTlQcDkxTUk4UkU0WWRtYkdaOVVwYTd2N2FwTDhVUjhrUkVJQjhRMFV3Ry1GUVZLQmdhZkRpQkFWMmtCRExHd3V6UjdRVm5pU1ZaWFB3bm42U0JZYlNBNkF1NkE0R0k5QTdMLVE?oc=5",
-    "pub": "Sat, 07 Nov 2026 23:22:49 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "3 Financial Stocks Tied To AI Credit Stress Investors Should Watch - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOOFVpWjBJRHhjVW9rVzBYaEN3RnNTSFh1aUl4NWlVMXcwOEVyTkxzeGdjWndIX1hOY0d3b2U0cklxcHo4Y1k5OGZXVjRWdm05TzZfakpDbTRDWnIxOEtPaFlXQ3hrTWZCSEtMVTE3d1MyS25IanNwb29UeWFWWjJmcmVrU280cWoxcVJfVW11dmRTWnBuYkVvc3ZnUVAyWDRMZkl1bko3SUZVanhJSjF0cFBJNGpuQ0l4TTRwWlR6RWxEbmo0VWt5OG5ZZW93MWRzOE0xZlp4LUZ0dGM4bHpBeXZfMVLSAeoBQVVfeXFMUHZQZGJFOXRSRkpzYkwwc3pybjRFX1ZIM3d5ZmtKU29FdHh4UzYybmpDT1gwZzFKRF9fVWxkZGpCdjhEZlV0b0ZfbkhSdURnTF9xbXZhb19hRnAwYnduUFI5VmdsNmFKUUNKY3IxRDJIbTlReUhhVlRQbnRKcmkxcXdwOGc3QkNjekZXQzI2TnRtMkJIOHdUc1htMm1KNWJrOG5PNnc0NGlKWTUtdVlMV3YyeGVjNnVhanY5cHgtaGNHeXpiSTgzbm1YRDBQRmlBOE1SUlQtSGRkRUJNMDBQYUpVOHVuSWlyM0pB?oc=5",
-    "pub": "Sat, 07 Nov 2026 19:26:16 GMT",
-    "src": "Simply Wall St",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "OpenAI sued by man who claims chatbot helped his wife plot his murder - The Independent",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNY2F3RTRSMi1kYmRkdjE0M3FIVDNDT0dtQUMxWGtRR0I4SVl3V0prd3dQeTJpQm9FcGswX1lWb1ppS1J6STRiWFp0TDlrVWUwMDdiTlBKaThkX1B0YVlWSE02ZkpjYkR1eVd6Q3dnMUY0YzNhWEVRZnM1WVVLME1OOFFLNTZMS2RBNEFJNjZTcnhVc0NPOVVycmFYczRUWW9uSDV1RzJma1NyMWNvakNn?oc=5",
+    "pub": "Sun, 08 Nov 2026 15:01:00 GMT",
+    "src": "The Independent",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "SpaceX has had limited impact on stock indexes, Goldman Sachs says (SPCX:NASDAQ) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONzUxQ0ctbGhXU2RBakVFb0tndmo4WnBmdkk2VS03VUlyNVdEVWVramJGM1NZU1Rqd0YtYUc3NEZwb3Mtb0lsUjdHb1ZSLXQxUF9Jc2NmUXJEV0s5d203bUJXNnF3UFUwVHJQai1Ub3ZOeW1aSkRFWE9uYTEzSERZSFNhdFN3YWMtT0thR2l4ZS1uSHVDbFRndUkzUUFvQVVIOEtmbDZ3?oc=5",
     "pub": "Sun, 08 Nov 2026 14:03:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONThmcEhGM1NJSFNmTHZHYWd4REp1bWZIWDFlZnhBRU9FX2xYNzFjTnlwcVZpM05iNXY2RWhxRHBkRUc4eERNb2lTaWFzYVUzcldHN1ozQmlSQ2lOdGZ0WGVHM09UTUNPc3RNMXpMWkhtREZrSzFvX19NRzg3SDZaNnpMcy1pRkk0TlNZWg?oc=5",
     "pub": "Sun, 08 Nov 2026 13:30:00 GMT",
     "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "NASA’s $1.3B Moon Base Awards: 6 Task Orders [2026] - shattered.io",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxON2UzWGJPeWkxTThlbjFBQ09zTHpMNm1iVnkzZVUxbVVnb18zVUN0Y0VZcE52Z3R0T1BLY25vQVdGd2VVaVV1amd1UHZwalRIRWVoSGxueEtOUlo5RGY5akxkZHVxcVp5cE0wQjRzS0tTTEJoamM1SWQ3THVwVnd2dW1KR1JRQ0tQMklMa01rQWQ4Y0xycFBOUg?oc=5",
-    "pub": "Sun, 08 Nov 2026 08:43:53 GMT",
-    "src": "shattered.io",
     "trig": false,
     "geo": false
    }
@@ -1736,7 +1736,7 @@
    83679.47,
    82017.6,
    80024.01,
-   75929.57
+   75924.84
   ],
   "vixts": [
    0.809,
@@ -2830,7 +2830,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T16:21:50+00:00",
+  "checked": "2026-11-08T16:32:10+00:00",
   "openai": {
    "found": false
   },
@@ -2847,7 +2847,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "archive",
+  "margin_src": "prev",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

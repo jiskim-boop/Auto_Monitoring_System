@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T21:32:23+00:00",
+ "updated": "2026-11-08T21:42:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75589.57,
-   "chg": -0.21,
+   "price": 75592.72,
+   "chg": -0.2,
    "chg5": -2.27,
    "chg20": -7.65,
-   "sma20": 79017.18,
-   "sma50": 81758.92,
-   "sma200": 72754.51,
+   "sma20": 79017.34,
+   "sma50": 81758.99,
+   "sma200": 72754.52,
    "high3m": 86602.91,
-   "reg": 75589.57,
+   "reg": 75592.72,
    "pre": null,
    "post": null,
-   "regClose": 75589.57,
+   "regClose": 75592.72,
    "sess": "reg",
-   "mt": 1794173511,
+   "mt": 1794174095,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.31,
-   "chg": 0.52,
-   "chg5": 0.4,
-   "chg20": 0.07,
+   "price": 158.28,
+   "chg": 0.5,
+   "chg5": 0.38,
+   "chg20": 0.05,
    "sma20": 157.92,
    "sma50": 157.29,
    "sma200": 159.13,
    "high3m": 160.2,
-   "reg": 158.31,
+   "reg": 158.28,
    "pre": null,
    "post": null,
-   "regClose": 158.31,
+   "regClose": 158.28,
    "sess": "reg",
-   "mt": 1794173000,
+   "mt": 1794174090,
    "ok": true
   },
   "KRW=X": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave (NASDAQ:CRWV) Stock Sinks 24% as AI Debt Fears Set Up Major Earnings Test - Stocks Down Under",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE81T0VhSkpoSzNmb2gtT0RNQ1BEbUxEeUdJNy0zODJ5U2RVQUhIc1BkeDVtdmxZcTNJNjN0VkUyRmhRV2F6Vmg1aHV2bXczR1U5M2xfVEF6bWdLcGV0OVJ1X2ZmWDFLblJBX0l6VmdIeExxSHJUV1ozYno5U2M?oc=5",
+    "pub": "Sun, 08 Nov 2026 21:06:42 GMT",
+    "src": "Stocks Down Under",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Stock Expected to Swing 20.7% as Earnings Loom Amid Texas and Debt Concerns - KuCoin",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFiUC1wWFd2UHpFRG1tYndrb3hyaGxpVEk2S1Q1dDdoWkhwSUN0ci1lQnQ5ellfUEs5c0dBUDZBMm5MTVc2dWtxcjE0VjA1VkpaM0pXYWVRMGs1RDRGSmMtdlpqa0dOQnB5aXZlLXMxbHhlODA5d2hkVDVDVXBaVlBYVDFFYVVobzI0dmFNMFpmZnJWM25hWUQxMUlaMl9rQ2lRRzl3NXRkZFJRU2hfR3RzX0NKZW5va3c?oc=5",
     "pub": "Sun, 08 Nov 2026 20:53:53 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNd21QM0wyZXNrcTB2UW9JTS1yVnhGdzFRTThxX1BFWmVkeFRyUmpCVXJLSFJZRFpzbGNBZFdXazVtTDhEaV9NcXZXcEV2c3c5WDN6SVl5VU9iOWZid1ZUNVJ1cVZZbnU5T21GaUNaLW1lX21ibXBHcUxILWlJQkNma0UxNHF2YlRKZmpkVUdEM3VNOVpSMG5MVmRNdTdKeWNCRGx5alFLMUdyQQ?oc=5",
     "pub": "Sun, 08 Nov 2026 05:07:23 GMT",
     "src": "Pluang",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Blue Owl Capital Trades At 24.86% Discount To NAV While Yielding Over 10% (NYSE:OBDC) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPQmtacDB3UlpPd01TVDRDR0phWndHNDFWdnhVejduU2l5N2J0X1Q1SC10dDZCVXV4NFE4Q25zWUFOR2lMSnBiaG5zcWV1VVA2MmF5a25xX1ZWbnFCOWo2ZFRUMnpoYm1UUWdKMkpjRFVQYlREOFBIV1E3RjJ5SEF0dFd3MXd1RGtrNHZNaXpyZmozZVh6TkhzemFTRlhBZTBtcm96djJFU2Z3cXJOeUF5ZGUwNV9TNk0?oc=5",
-    "pub": "Sun, 08 Nov 2026 04:11:00 GMT",
-    "src": "Seeking Alpha",
     "trig": false,
     "geo": false
    }
@@ -1676,7 +1676,7 @@
    158.2,
    157.81,
    156.83,
-   158.31
+   158.28
   ],
   "uso": [
    117.98,
@@ -1736,7 +1736,7 @@
    83679.47,
    82017.6,
    80024.01,
-   75593.0
+   75574.87
   ],
   "vixts": [
    0.809,
@@ -2836,7 +2836,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T21:32:10+00:00",
+  "checked": "2026-11-08T21:41:57+00:00",
   "openai": {
    "found": false
   },
@@ -2925,8 +2925,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.31,
-   "usdjpy_chg20": 0.07,
+   "usdjpy": 158.28,
+   "usdjpy_chg20": 0.05,
    "vix_chg5": 32.03,
    "hit": false,
    "missing": []

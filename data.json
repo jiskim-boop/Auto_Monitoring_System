@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T11:42:11+00:00",
+ "updated": "2026-11-08T11:52:02+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75892.96,
-   "chg": 0.19,
-   "chg5": -1.88,
-   "chg20": -7.28,
-   "sma20": 79032.35,
-   "sma50": 81764.99,
-   "sma200": 72756.15,
+   "price": 75877.0,
+   "chg": 0.17,
+   "chg5": -1.9,
+   "chg20": -7.3,
+   "sma20": 79031.55,
+   "sma50": 81764.67,
+   "sma200": 72756.06,
    "high3m": 86602.91,
-   "reg": 75892.96,
+   "reg": 75877.0,
    "pre": null,
    "post": null,
-   "regClose": 75892.96,
+   "regClose": 75877.0,
    "sess": "reg",
-   "mt": 1794138091,
+   "mt": 1794138685,
    "ok": true
   },
   "USO": {
@@ -1736,7 +1736,7 @@
    83679.47,
    82017.6,
    80024.01,
-   75882.91
+   75877.0
   ],
   "vixts": [
    0.809,
@@ -2830,7 +2830,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-08T11:41:54+00:00",
+  "checked": "2026-11-08T11:51:49+00:00",
   "openai": {
    "found": false
   },
@@ -2847,7 +2847,7 @@
  "fragility": {
   "margin_mn": 1480054,
   "margin_asof": "Sep-26",
-  "margin_src": "prev",
+  "margin_src": "archive",
   "margin_gdp_pct": 4.48,
   "curve_bp": 35,
   "curve_inverted": false,

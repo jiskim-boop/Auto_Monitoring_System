@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:12:14+00:00",
+ "updated": "2026-11-09T22:22:04+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 153.55,
-   "chg": 2.8,
-   "chg5": 2.53,
-   "chg20": -0.51,
-   "sma20": 153.96,
-   "sma50": 149.71,
-   "sma200": 145.28,
+   "price": 150.34,
+   "chg": -2.09,
+   "chg5": -1.6,
+   "chg20": -3.04,
+   "sma20": 153.73,
+   "sma50": 149.72,
+   "sma200": 145.32,
    "high3m": 168.59,
-   "reg": 153.55,
+   "reg": 150.34,
    "pre": null,
    "post": null,
-   "regClose": 153.55,
+   "regClose": 150.34,
    "sess": "reg",
-   "mt": 1794002445,
+   "mt": 1794261619,
    "ok": true
   },
   "^MOVE": {
@@ -853,7 +853,7 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 101.67,
+   "price": 101.68,
    "chg": -0.61,
    "chg5": -0.07,
    "chg20": -0.88,
@@ -861,12 +861,12 @@
    "sma50": 101.13,
    "sma200": 100.47,
    "high3m": 102.58,
-   "reg": 101.67,
+   "reg": 101.68,
    "pre": null,
    "post": null,
    "regClose": 101.68,
    "sess": "reg",
-   "mt": 1794261676,
+   "mt": 1794262286,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 74979.17,
-   "chg": 0.53,
-   "chg5": -6.75,
-   "chg20": -9.6,
-   "sma20": 78568.84,
-   "sma50": 81615.56,
-   "sma200": 72720.93,
+   "price": 74945.88,
+   "chg": 0.48,
+   "chg5": -6.79,
+   "chg20": -9.64,
+   "sma20": 78567.18,
+   "sma50": 81614.89,
+   "sma200": 72720.75,
    "high3m": 86602.91,
-   "reg": 74979.17,
+   "reg": 74945.88,
    "pre": null,
    "post": null,
-   "regClose": 74979.17,
+   "regClose": 74945.88,
    "sess": "reg",
-   "mt": 1794262296,
+   "mt": 1794262893,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 157.86,
-   "chg": 0.23,
-   "chg5": 0.12,
-   "chg20": -0.22,
+   "price": 157.93,
+   "chg": 0.28,
+   "chg5": 0.16,
+   "chg20": -0.17,
    "sma20": 157.9,
-   "sma50": 157.28,
+   "sma50": 157.29,
    "sma200": 159.17,
    "high3m": 160.2,
-   "reg": 157.86,
+   "reg": 157.93,
    "pre": null,
    "post": null,
-   "regClose": 157.86,
+   "regClose": 157.93,
    "sess": "reg",
-   "mt": 1794262286,
+   "mt": 1794262894,
    "ok": true
   },
   "KRW=X": {
-   "price": 1341.09,
-   "chg": -1.12,
+   "price": 1341.02,
+   "chg": -1.13,
    "chg5": 1.17,
-   "chg20": 0.02,
+   "chg20": 0.01,
    "sma20": 1334.8,
    "sma50": 1346.88,
    "sma200": 1429.28,
    "high3m": 1416.85,
-   "reg": 1341.09,
+   "reg": 1341.02,
    "pre": null,
    "post": null,
-   "regClose": 1341.09,
+   "regClose": 1341.02,
    "sess": "reg",
-   "mt": 1794262297,
+   "mt": 1794262855,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic announces Claude Fable 5.2 and Mythos 5.2. They'e already solved black hole physics problems. - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOWGw3UFZ0ZUxYWk1VSm9nMXJUNkVIamQxQ1VsVlMtOElpV3ozckEwRWRlVkdrZUdDSkZwV1ZpODQtV1RYR2MxM0Z1UUo1LW9fSXBtZ3RJZ1RkT2hJRnJMQU5KRVZiQ3ZVSFBvM09sNG4taThSb3VKcjdiaEtGTWRDXw?oc=5",
+    "pub": "Mon, 09 Nov 2026 21:37:20 GMT",
+    "src": "Mashable",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic Prepares to Push Ahead With IPO Despite Market Jitters - WSJ",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRlNNX2c5SGV4WXdpZ2Utb2NzU0NhVlpUM3MwWEZ3bFdyVHZ5cDZGbnJSWVpEelJrZ0tCQTZrNjUyRTFaLW1JeGxucWtvcEJwOXUyQkwzUkpPQUNEYTFobG9qc3oyTVhHb1VCeDRPck1xU2lla1NtMlY5VkExdmJobDJ6U01LbHgzYjZFTmFHYzFCVjRfM1VxRVJIeE40d3REMXlqT01qQnh5TEg1?oc=5",
     "pub": "Mon, 09 Nov 2026 21:12:00 GMT",
@@ -1335,17 +1343,17 @@
     "src": "MyRGV.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "New lawsuit alleges conspiracy in Effingham County OpenAI land sale - The Current",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNcUZxT0V0bW5JbXlJVFBRc2RxbDZhMXQ3SjVJWFQ4NTVmVFBJU2JSR0hqN3p4MFVKWk0zWEVzNFF0V0NsYXZVVXJaUm8ya1NQRnhGdFJUWnVTelQyYVAxYUhhUktZY3poUjloVGZPU3FpZjVXUUxEZktwYnRfc3lOd1hHelktN2JkOUNRMEVfNXZ2cGpfVEZ3bGE0Q1lwTWVoX3RWeTlVOA?oc=5",
-    "pub": "Mon, 09 Nov 2026 20:47:03 GMT",
-    "src": "The Current",
-    "trig": true,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "CPI Inflation Data: How the October Report Affects the Fed’s Next Rate Decision - Barron's",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQb0dpUnNRSjlyNnVNVFJOSjlnLXBPOWFjdGVVNlVuZnM4ckJzRllBSEVPWkdxWTV5Ujl5MHMwa3piNmQtU3lta0xaTE1xNVJfdmdrVzFuS3MxRnBSbWZjSGNoMnA2THJ2NVBHUmVDM2s4UFJnNVNFb3pxcjRmMl9CdFMwRzVYc2l5RTJxSHpwLU8?oc=5",
+    "pub": "Mon, 09 Nov 2026 22:10:00 GMT",
+    "src": "Barron's",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "How AI and inflation are fueling fears of Fed hikes ahead - Mortgage Professional America",
     "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNdlVOclVFZXRsTzFKWnlLTER6ajkwbkRIU1F4S3diVHM3RUFIakNMTzlwLWJTVHNqSnN6TzdQZVd4ci1pUVhCTXlySGQ4a2hNNkI2UDhGT05PblYteTFmeWwtRlBLZlRMMjFCMFBMS0FCUHdqZjB5ZENucW82aVFTTllrUlpYQzNVUmlVdmxIY0JmRjl0ZXliSXFaV2toNC13dU56cTZVSU5RZUo5Y0RhWTVISUFOb09vWXlndFc1TEZGZw?oc=5",
@@ -1385,17 +1393,25 @@
     "src": "Pensions & Investments",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "VIX Falls 21.10 Percent to 20.23 During US Trading - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPa2ozeWFtUklNQlQ0RE1OcUlJbXBEWWpPcmZzUV9DZTJPbTJVSm80aUlPU3FIQXdQWHF3c3dmOXFxZEJpYnl2VDVEVHFxRGhzSHVLNXNRaGpuN2Zpajk1THdfTGVDTU1FNzZWYjhFQ2VnS0xwb0NLUFphVVpoZTg2UlQzTUJCTUZGSDh6MW1McUJteC16WTR6c1Z5eGt6Sk5CdnJ2bGltbDNuNDJzbDN2OW1B?oc=5",
-    "pub": "Mon, 09 Nov 2026 17:32:55 GMT",
-    "src": "ad-hoc-news.de",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Dollar Index Falls 0.47% as Mideast Tensions Ease, Unwinding \"Safe-Haven Buying\" — Gold Up 1% in NY Trading - BigGo Finance",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE8xaGdqTm0xUUY4NGlYS3g2NVpmRzlpNnlsbTFYN1ZTZ0VwWnozZUdMSTNMMkVkZHBwYjVNYVoyYnNJM0E4d3NlX2lhQ2hNdkRPRjFSZ1dnOThVaVFvcHlnUHVuTFdjRUszTnpxV0lyd0hpbjMxV1E?oc=5",
+    "pub": "Mon, 09 Nov 2026 21:56:00 GMT",
+    "src": "BigGo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Just Fell to $93. A 72-Year-Old Widow Who Heats With Oil Is Still Paying $6 a Gallon. Here's What the Slide Is Worth to Her This Winter - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMiigJBVV95cUxPZmV2dlRKR245UDJsVDhjRUFqUTg4bS1UWURhMEtTMHZHREE2bURvSHM5bUdZSlFoMWFGZlFrU0xTZUIzYVVOX1hHNWdicFNDcnFBYzdzMmNYd1ByOVNGQWpkdTdSZWFHQXNpTklqSXhHaHhJYkxsSDVfTUNvWF9wb2FLXzFpaU1POUpNTEFBem1CQUNxVHMtUkxac1RSQzF6azgzb1lhUmZVSjMxc3FNRHhzN0s4ZzJ6eEhtdEhrdms1Q2tHX1FnRHFudXFtcUgtcTVlMEJFYTBwVk1sX3c1NDl1a1hVdG1zNkYzenlhejZEZmxCbnZ3YUVNYUt6NzVfY3dxdWdqVEs0UQ?oc=5",
+    "pub": "Mon, 09 Nov 2026 21:52:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "The Gasoline Tax Yo-Yo and the International Market for Crude Oil - American Enterprise Institute - AEI",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOQW0wNkp0NERvcTQ0U0RuWGNXdHpYUWUxSG5mdVVaYzFPdWJ5aU9FUTFZc2xLTTcyMXVpS3NETjdEQzk3QUR2dGU4cHVGdThJaG9ZbVhsVWlQcEdhRWs0LXVIdndmOEVMMk1uZ1BNby1HVTdhdmRZV1ZCZ3JTQWk3SElGMThKcHN1Y2Z3SnhSSUtPSjc5Rm9uTGJlbEdGREpRMnJUTg?oc=5",
@@ -1425,22 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOYnpMSkdaUE5TNHo0UC15d0lQNzZJV3hqODBZUFEwMVZTRGNNbUpSNTBDbHNtbkxKQWhOSDlkQkNVRkpGQm9pOEwtVDc5ZjN5T2lyZkk5X29BZTlESFFZOEdzSU9ac3Q5aEJPdjE4Z0RoQldScTVyeGcwUXhyZUtlVlI3TTRReXhOajliRElUR055d1F1dmc3cy1yZw?oc=5",
     "pub": "Mon, 09 Nov 2026 20:48:45 GMT",
     "src": "Mining.com.au",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Dollar Falls on Stock Strength and Crude Oil Weakness - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPaWFWNXVGb2V4bG0xLVIzSG9hUmZyUmxZeEpEbXBTSm5nVHFDVnFDWXdvdVhVWmVjQ0ptQzJOd05DVTBFOEhTd0NUVG5TYVJ1VGU0aHZoZGpBRENsVDc2Y1hXSHVTUGRqT0VsNUVJbVdqQkwxMENRRi0yY3NwbUNwSUFyMW9TNWtQaTBpN2xWdjFiMFE4SU9XbWI0Ry02QQ?oc=5",
-    "pub": "Mon, 09 Nov 2026 20:37:59 GMT",
-    "src": "Barchart.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crude Oil Prices Plummet as Iran Peace Optimism Climbs - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQTWx3UjE3UXZSMEw5MjgyaTFKZ2xaYW1kSTBWWld3LWp6S3ctb2t6WEtyMEdRd3Q2dVJ0dFJMdFRjT1FHdXNqejVWa0YxRnVucEotWHE1dGlBZkJRWGttY2RMeGZ1WlljcmdPWXY4R1hmN1JkZjJtel8zQURfMVpuc0Y2YUV5MkJVaDNNRHR5NlhDUHBCcGFNQWFYYnBpWms?oc=5",
-    "pub": "Mon, 09 Nov 2026 20:16:11 GMT",
-    "src": "Barchart.com",
     "trig": false,
     "geo": false
    }
@@ -1676,7 +1676,7 @@
    158.2,
    157.81,
    156.83,
-   157.84
+   157.93
   ],
   "uso": [
    125.92,
@@ -1736,7 +1736,7 @@
    81762.56,
    81853.54,
    80006.66,
-   74985.29
+   74945.35
   ],
   "vixts": [
    0.815,
@@ -2833,7 +2833,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-09T22:11:59+00:00",
+  "checked": "2026-11-09T22:21:51+00:00",
   "openai": {
    "found": false
   },
@@ -2922,17 +2922,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 157.86,
-   "usdjpy_chg20": -0.22,
+   "usdjpy": 157.93,
+   "usdjpy_chg20": -0.17,
    "vix_chg5": -5.82,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 101.67,
+   "dxy": 101.68,
    "dxy_chg20": -0.88,
-   "usdkrw": 1341.09,
-   "usdkrw_chg20": 0.02,
+   "usdkrw": 1341.02,
+   "usdkrw_chg20": 0.01,
    "hit": false,
    "missing": []
   },

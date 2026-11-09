@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T22:52:03+00:00",
+ "updated": "2026-11-09T23:03:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 101.69,
    "sess": "reg",
-   "mt": 1794264086,
+   "mt": 1794264728,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 75149.08,
-   "chg": 0.76,
-   "chg5": -6.54,
-   "chg20": -9.39,
-   "sma20": 78577.34,
-   "sma50": 81618.95,
-   "sma200": 72721.85,
+   "price": 75125.38,
+   "chg": 0.72,
+   "chg5": -6.57,
+   "chg20": -9.42,
+   "sma20": 78576.15,
+   "sma50": 81618.48,
+   "sma200": 72721.72,
    "high3m": 86602.91,
-   "reg": 75149.08,
+   "reg": 75125.38,
    "pre": null,
    "post": null,
-   "regClose": 75149.08,
+   "regClose": 75125.38,
    "sess": "reg",
-   "mt": 1794264691,
+   "mt": 1794265336,
    "ok": true
   },
   "USO": {
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 157.9,
    "sess": "reg",
-   "mt": 1794264695,
+   "mt": 1794265338,
    "ok": true
   },
   "KRW=X": {
-   "price": 1340.56,
-   "chg": -1.16,
-   "chg5": 1.13,
-   "chg20": -0.02,
-   "sma20": 1334.78,
-   "sma50": 1346.87,
-   "sma200": 1429.27,
+   "price": 1341.78,
+   "chg": -1.07,
+   "chg5": 1.23,
+   "chg20": 0.07,
+   "sma20": 1334.84,
+   "sma50": 1346.9,
+   "sma200": 1429.28,
    "high3m": 1416.85,
-   "reg": 1340.56,
+   "reg": 1341.78,
    "pre": null,
    "post": null,
-   "regClose": 1340.56,
+   "regClose": 1341.78,
    "sess": "reg",
-   "mt": 1794264569,
+   "mt": 1794265205,
    "ok": true
   },
   "^OVX": {
@@ -1289,7 +1289,7 @@
    {
     "title": "Raising the bar: why the growth of evergreen structures in private credit is changing expectations around valuation methods - The Drawdown",
     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQZkt1TkRndUE3d05mSk9vLXU3alZ3blA1Q1FYZDkyS1E4Wk4zR2FmaDFYcjQ4S1hGRVYxVWJxS01xQ1dqMHdHdDFKOU1xdDYyZGFzLWgwTVNmcTRMS1I5NmQ3ZTJULXJFdkU3LXd2Ul9lbnE1S1JEaFM5Qm5fRXQ1ZTBacEVtMWRnbjBOclo0WlJHVkhMaU5idE8xb1hjWXpaeVhBMHcxUGd0bndJdjFOMHFEb2xQejV6M1pLTUVvQ3JBOFBxMG1HZFNrSlpINFFNcURDU0QwUXY2WHdVejRWVnZUd2h5Ry1fS2ln?oc=5",
-    "pub": "Mon, 09 Nov 2026 16:50:56 GMT",
+    "pub": "Mon, 09 Nov 2026 16:50:22 GMT",
     "src": "The Drawdown",
     "trig": false,
     "geo": false
@@ -1561,31 +1561,7 @@
    "chg4w": -74.2,
    "asof": "2026-11-04"
   },
-  "gm2": {
-   "value": 42.0,
-   "series": [
-    41.85,
-    41.85,
-    41.68,
-    42.08,
-    42.2,
-    42.34,
-    42.4,
-    42.37,
-    42.45,
-    42.41,
-    42.13,
-    42.04,
-    42.0
-   ],
-   "chg13w": 0.07,
-   "us_chg13w": 1.28,
-   "eu_chg13w": 0.45,
-   "us_t": 23.51,
-   "eu_t": 18.49,
-   "asof": "2026-10-05",
-   "eu_asof": "2026-09-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1631,7 +1607,7 @@
    102.18,
    101.73,
    102.32,
-   101.7
+   101.69
   ],
   "bizd": [
    13.32,
@@ -1676,7 +1652,7 @@
    158.2,
    157.81,
    156.83,
-   157.89
+   157.9
   ],
   "uso": [
    125.92,
@@ -1736,7 +1712,7 @@
    81762.56,
    81853.54,
    80006.66,
-   75149.08
+   75115.56
   ],
   "vixts": [
    0.815,
@@ -2833,7 +2809,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-09T22:51:50+00:00",
+  "checked": "2026-11-09T23:03:03+00:00",
   "openai": {
    "found": false
   },
@@ -2931,8 +2907,8 @@
   "dollar": {
    "dxy": 101.69,
    "dxy_chg20": -0.86,
-   "usdkrw": 1340.56,
-   "usdkrw_chg20": -0.02,
+   "usdkrw": 1341.78,
+   "usdkrw_chg20": 0.07,
    "hit": false,
    "missing": []
   },

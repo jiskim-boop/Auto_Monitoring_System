@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:32:27+00:00",
+ "updated": "2026-11-10T22:42:32+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.25,
-   "chg": 0.59,
-   "chg5": 0.37,
-   "chg20": 0.07,
+   "price": 102.24,
+   "chg": 0.58,
+   "chg5": 0.36,
+   "chg20": 0.05,
    "sma20": 101.93,
    "sma50": 101.19,
    "sma200": 100.48,
    "high3m": 102.58,
-   "reg": 102.25,
+   "reg": 102.24,
    "pre": null,
    "post": null,
-   "regClose": 102.25,
+   "regClose": 102.24,
    "sess": "reg",
-   "mt": 1794349303,
+   "mt": 1794349887,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 73578.19,
-   "chg": -2.19,
-   "chg5": -3.11,
-   "chg20": -12.42,
-   "sma20": 78059.35,
-   "sma50": 81359.94,
-   "sma200": 72683.94,
+   "price": 73727.95,
+   "chg": -1.99,
+   "chg5": -2.92,
+   "chg20": -12.24,
+   "sma20": 78066.84,
+   "sma50": 81362.94,
+   "sma200": 72684.75,
    "high3m": 86602.91,
-   "reg": 73578.19,
+   "reg": 73727.95,
    "pre": null,
    "post": null,
-   "regClose": 73578.19,
+   "regClose": 73727.95,
    "sess": "reg",
-   "mt": 1794349912,
+   "mt": 1794350496,
    "ok": true
   },
   "USO": {
@@ -1040,24 +1040,24 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.71,
+   "price": 158.7,
    "chg": 0.26,
    "chg5": 0.5,
-   "chg20": 0.12,
+   "chg20": 0.11,
    "sma20": 157.93,
    "sma50": 157.27,
    "sma200": 159.17,
    "high3m": 160.2,
-   "reg": 158.71,
+   "reg": 158.7,
    "pre": null,
    "post": null,
-   "regClose": 158.71,
+   "regClose": 158.7,
    "sess": "reg",
-   "mt": 1794349907,
+   "mt": 1794350497,
    "ok": true
   },
   "KRW=X": {
-   "price": 1342.37,
+   "price": 1342.39,
    "chg": -1.49,
    "chg5": -0.18,
    "chg20": 0.62,
@@ -1065,12 +1065,12 @@
    "sma50": 1346.83,
    "sma200": 1428.78,
    "high3m": 1416.85,
-   "reg": 1342.37,
+   "reg": 1342.39,
    "pre": null,
    "post": null,
-   "regClose": 1342.37,
+   "regClose": 1342.39,
    "sess": "reg",
-   "mt": 1794349916,
+   "mt": 1794350499,
    "ok": true
   },
   "^OVX": {
@@ -1297,10 +1297,10 @@
   ],
   "fundamental": [
    {
-    "title": "OpenAI's Quarterly Revenue Hits $10 Billion as Enterprise Sales Double - finance.biggo.com",
+    "title": "OpenAI's Quarterly Revenue Hits $10 Billion as Enterprise Sales Double - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lX2dHa1VmUGhEcUd6QUJoQ3FBUnZkaFZPR3dsb0tlc1VNRHNsS1poaUo2aEpDTDNIaW5IUlNyNWFsTFpwUThlTUtIakM0MzFVQjU3RzFQenh3R2hFMzljMUtxQ0gxSnAxd0ZxR2hHT2g5ZzBzbFE?oc=5",
     "pub": "Tue, 10 Nov 2026 22:25:00 GMT",
-    "src": "finance.biggo.com",
+    "src": "BigGo Finance",
     "trig": false,
     "geo": false
    },
@@ -1561,31 +1561,7 @@
    "chg4w": -74.2,
    "asof": "2026-11-04"
   },
-  "gm2": {
-   "value": 42.0,
-   "series": [
-    41.85,
-    41.85,
-    41.68,
-    42.08,
-    42.2,
-    42.34,
-    42.4,
-    42.37,
-    42.45,
-    42.41,
-    42.13,
-    42.04,
-    42.0
-   ],
-   "chg13w": 0.07,
-   "us_chg13w": 1.28,
-   "eu_chg13w": 0.45,
-   "us_t": 23.51,
-   "eu_t": 18.49,
-   "asof": "2026-10-05",
-   "eu_asof": "2026-09-28"
-  }
+  "gm2": null
  },
  "charts": {
   "vix": [
@@ -1631,7 +1607,7 @@
    102.18,
    101.73,
    102.32,
-   102.25
+   102.23
   ],
   "bizd": [
    13.36,
@@ -1676,7 +1652,7 @@
    158.52,
    158.52,
    157.53,
-   158.71
+   158.7
   ],
   "uso": [
    127.61,
@@ -1736,7 +1712,7 @@
    83095.12,
    82941.0,
    80805.08,
-   73578.19
+   73683.15
   ],
   "vixts": [
    0.818,
@@ -2832,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-10T22:32:12+00:00",
+  "checked": "2026-11-10T22:42:20+00:00",
   "openai": {
    "found": false
   },
@@ -2921,16 +2897,16 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.71,
-   "usdjpy_chg20": 0.12,
+   "usdjpy": 158.7,
+   "usdjpy_chg20": 0.11,
    "vix_chg5": -6.58,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.25,
-   "dxy_chg20": 0.07,
-   "usdkrw": 1342.37,
+   "dxy": 102.24,
+   "dxy_chg20": 0.05,
+   "usdkrw": 1342.39,
    "usdkrw_chg20": 0.62,
    "hit": false,
    "missing": []

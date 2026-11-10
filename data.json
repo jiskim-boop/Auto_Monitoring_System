@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:42:32+00:00",
+ "updated": "2026-11-10T22:52:40+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.24,
-   "chg": 0.58,
-   "chg5": 0.36,
+   "price": 102.23,
+   "chg": 0.57,
+   "chg5": 0.35,
    "chg20": 0.05,
    "sma20": 101.93,
    "sma50": 101.19,
    "sma200": 100.48,
    "high3m": 102.58,
-   "reg": 102.24,
+   "reg": 102.23,
    "pre": null,
    "post": null,
-   "regClose": 102.24,
+   "regClose": 102.23,
    "sess": "reg",
-   "mt": 1794349887,
+   "mt": 1794350491,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 73727.95,
-   "chg": -1.99,
-   "chg5": -2.92,
-   "chg20": -12.24,
-   "sma20": 78066.84,
-   "sma50": 81362.94,
-   "sma200": 72684.75,
+   "price": 73695.95,
+   "chg": -2.03,
+   "chg5": -2.96,
+   "chg20": -12.28,
+   "sma20": 78065.24,
+   "sma50": 81362.3,
+   "sma200": 72684.58,
    "high3m": 86602.91,
-   "reg": 73727.95,
+   "reg": 73695.95,
    "pre": null,
    "post": null,
-   "regClose": 73727.95,
+   "regClose": 73695.95,
    "sess": "reg",
-   "mt": 1794350496,
+   "mt": 1794351095,
    "ok": true
   },
   "USO": {
@@ -1043,7 +1043,7 @@
    "price": 158.7,
    "chg": 0.26,
    "chg5": 0.5,
-   "chg20": 0.11,
+   "chg20": 0.12,
    "sma20": 157.93,
    "sma50": 157.27,
    "sma200": 159.17,
@@ -1053,11 +1053,11 @@
    "post": null,
    "regClose": 158.7,
    "sess": "reg",
-   "mt": 1794350497,
+   "mt": 1794351099,
    "ok": true
   },
   "KRW=X": {
-   "price": 1342.39,
+   "price": 1342.36,
    "chg": -1.49,
    "chg5": -0.18,
    "chg20": 0.62,
@@ -1065,12 +1065,12 @@
    "sma50": 1346.83,
    "sma200": 1428.78,
    "high3m": 1416.85,
-   "reg": 1342.39,
+   "reg": 1342.36,
    "pre": null,
    "post": null,
-   "regClose": 1342.39,
+   "regClose": 1342.36,
    "sess": "reg",
-   "mt": 1794350499,
+   "mt": 1794351098,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,22 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave raises revenue forecast as AI demand defies growing doubts - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYW16c2FCODY2R0c2NmhNcXU4aldCVDlBZDNRR3l6M0hxNmI0WUd3VjZRdmwxZGx2bTlOQ2VVSUZrdTlQemxiY2I4b2tMdGs2Qm4xNEo4UDBlaDJ2S3VzZzNOZF9QTFZ3X1NuRDFwVWM4N0h1endtYVFJVUpiNHVGdmU0X19sTmhzR3c3bVdVdUJ2WTJIZURmYVlGUkRJWWsxM3hfLXp6YzB6dnQxbWhQSnR0bXhpbjFWTVdNbA?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:30:58 GMT",
+    "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave beats quarterly revenue estimates as AI infrastructure demands ease concerns - The Globe and Mail",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNY2JNdjVpLUpvUlBkbF9sUUJnU1Nta3lLMkV3ODNiTF92NzZfNkJPVFotdHBPd01aYUpSNGF1dDdxS3hrQUYtbjNzalVaaXprcDBuWklRY0c0ZU9ZLXB3MEJ5TUItc0c0YXpzTk5BM1BWTTlmXzY4S2J1MFRWRDhpNnlqNzBxdUUtelFETlpVTTkwbGpISEg1UUNGeS10YWFSVTNiendLRnpsaXNGcU5YWg?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:06:53 GMT",
+    "src": "The Globe and Mail",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave posts $4B revenue, faces $47B debt and $1B interest expenses - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRTBkRzg2ckxzbTJKX0Z6eEZWZ2l5VjFrS2EzajIzS19uU3RlczNQVC1uNzdNT09xTk4zQ2l4c2UtYUZndndvTHVxRHRkZU1VZ0xCU0pZLS1GYzlubzlnWEY4aGwwTVVraFJkNkZ2UDF3YjBVSVNLRmpkS1huVm11VEVvVjVjdUpHUWZENFdFWjZneVBPenBZX2tR?oc=5",
     "pub": "Tue, 10 Nov 2026 21:47:37 GMT",
@@ -1263,39 +1279,31 @@
     "geo": false
    },
    {
+    "title": "CoreWeave Beats Quarterly Revenue Estimates - Newsmax",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNTEtfSDk5VWNCQWRmZ3pjeFZEalowb0IxNi01MGd4XzMxc3ZtN3VBcHhjMXpMT202bG9VREpEMFpCVlg3SzByajluVXRZVW03ZUUwSXRqbGZIRW50M2lDaUtHTVF4djk4NFppUmdJREdXeWJ2MzFwRmtPNXZ4WVZyb29DUG9GRlozdkVFTHFLZkhDU3hi?oc=5",
+    "pub": "Tue, 10 Nov 2026 21:25:16 GMT",
+    "src": "Newsmax",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Faces Critical Financial Test as Third-Quarter Results Loom - SSBCrack",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOUXlRc0VVdnpMUXdGYkVrdFNrOFdrdlhiMVdWdnVoSE9qbkZvZ2l2UkdaN1NNaS0yMk1WYUR5cmtqRkhtMElEd3p1SDhJdWtEZkFLMTM5OHdTSDl1aV9EcC1xTEdzVXQ0OU5aM0UwbHdLVy1wQ1VRM1VRTFBvb0FyamVhdHZ6TEdNTXBEak5ud3RqelJsU1l3eHFYN2w?oc=5",
     "pub": "Tue, 10 Nov 2026 21:22:13 GMT",
     "src": "SSBCrack",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave beats quarterly revenue estimates as AI demand defies growing doubts - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNYW16c2FCODY2R0c2NmhNcXU4aldCVDlBZDNRR3l6M0hxNmI0WUd3VjZRdmwxZGx2bTlOQ2VVSUZrdTlQemxiY2I4b2tMdGs2Qm4xNEo4UDBlaDJ2S3VzZzNOZF9QTFZ3X1NuRDFwVWM4N0h1endtYVFJVUpiNHVGdmU0X19sTmhzR3c3bVdVdUJ2WTJIZURmYVlGUkRJWWsxM3hfLXp6YzB6dnQxbWhQSnR0bXhpbjFWTVdNbA?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:16:14 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave stock pops as Q3 revenue beats estimates, company raises full-year outlook - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQQUlzUVY2WTVjSmsxVU1kRFdxa0tqaXRKbDh3NXFvVmNJSjZPREtXNjIzU3ZPYldpWGc5Y3A3TnQ0R2RaSmlZejdtQktLT0k3UHB1cVh5ZndKa3F4S3E0RE9RM3FKUWN1TjJfcU1Qd0pZOUVmQzVVV2RnX0NjS0VqbS1PNjYyOFRNTjVwV0FqSW5mNndvcmtEQk4teC1xaWZKTXcwUURFTU1rWDd5QkhZbHhUSDJxNXg5eC00S1pkTEFFZFFtbjQ3bGpIRXpjUFpwdmFyVzVtQ2JYd2xseEVrTw?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:15:33 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Boosts Annual Forecast, Easing Concerns About Slowdown - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYnZDemJ1a0xMRzdaZGhpV3pnaGNQRUhiWWQ4b2RTRFlnTlNTRGV3dnZ6ZkRuZE9YWDhVU241YVJlcnRETW5IMlk2c3NsYTJzM2tCVktKWTVpRHhjdjVCRWt5bUZZQmw5TkMtU0tDdF9BMERGR0czck5EYW9HOUNSa1MzUFJXOUh5dGh2ZThIdzdMY01XcGRfOUJ0M0lTZmpiY2VGS0FmamZMVWZFR1VxTHBQVW4?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:13:53 GMT",
-    "src": "Bloomberg.com",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPRDhDaVpHZTR4QzFGMnM1bVhVOUJVM2FkeU1wTUxKYUUzMldHbEVGVC1XR25iZ3hrdGhIbHdheUJhd1Q2T0tqX3cycXFhU0ppemhfZ3dHcG11RDdaS2JPVU5vSThNZmUtYWdveWNiOUplbG1MTFFCY2hLenNVRUxhQ2xibktrUzNaU2pVMVk3UlVqWFhGQllxcGtYclZfMlF5a1pTR2x3ZkhhUkNSNUE?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:33:06 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "OpenAI's Quarterly Revenue Hits $10 Billion as Enterprise Sales Double - BigGo Finance",
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9lX2dHa1VmUGhEcUd6QUJoQ3FBUnZkaFZPR3dsb0tlc1VNRHNsS1poaUo2aEpDTDNIaW5IUlNyNWFsTFpwUThlTUtIakM0MzFVQjU3RzFQenh3R2hFMzljMUtxQ0gxSnAxd0ZxR2hHT2g5ZzBzbFE?oc=5",
@@ -1305,7 +1313,7 @@
     "geo": false
    },
    {
-    "title": "SpaceX moves Starship Flight 15 booster to pad for 'squeeze test' ahead of epic double-catch attempt - Space",
+    "title": "SpaceX moves Starship Flight 15 booster to launch pad for 'squeeze test' ahead of epic double-catch attempt (photos) - Space",
     "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZUVUejZCSkpnekNYV2JJWkhXM3FvdGl0UnFiT0pzNkRJS2VhWFNJRHRZNDNtWHRCZUY5ZWgydjRxQlZFLVRzdXByRHZOZWlMankxUmxzR0lBU3NPeGJ0bk9wMUZ1ZExqM3UzbmFJZEZCUW5pRWFMWksyQ3Q5bWVXVndGRVJpZ3VSQ3o2bDF4b1B5NXBpeWlib3hXVEJwbV9Ibjl1RklJNXhESHQ2QnhBX3Q5TzhhVjhhX08yNkl5RXlIRlp4c29fWUhqX3JPLXloWllBTG9pVVNGcTBBT2RqNzBjTUZWSDhFczVsenBmQWR2blpRSXY0QnFFcThYNTd2YkE?oc=5",
     "pub": "Tue, 10 Nov 2026 22:09:39 GMT",
     "src": "Space",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNclRTcWRENnlRX3NlYnFEWFU3c1d1dEFPRGt1RGZmSk1CeXF0RGxQV203TkVkQVhXMEJncUVjYkNXdDByaGZsWi00eGtRdmg2cmUzczdJLU9GSVAxNVlaNUk0YmVHcXhUSWdfb3dRbzJvaTlxUC1oSGdkRkJFQjQyWVY1dkM?oc=5",
     "pub": "Tue, 10 Nov 2026 21:54:37 GMT",
     "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI CFO: Q3 was a ‘blockbuster quarter,’ as revenue jumped 50% - Yahoo Finance Singapore",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQV0V0QlVsLTl3UTI0TEo1Nk8zMXo5anFyMlFsaWQtU0gzX2pqWGNjNE1BV2pwMDFYTVlRV3Q2NzRHTEFHR1lCQ0NGZmZOQVNWR294eFUxT3hNbHRIUXZ5RUdYQ3lYei13S2VfS0tWUlMxNGY5Z3o4Nl8xWlAxLUk1ZTNBc0JZVFl6cEZDank1UFlaSnhXQkN4MURaejI5dDE0MEp3V2hpeWtNX2NEMUE?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:52:23 GMT",
-    "src": "Yahoo Finance Singapore",
     "trig": false,
     "geo": false
    }
@@ -1413,6 +1413,14 @@
     "geo": false
    },
    {
+    "title": "American Barrick Gold, North American Gold Producer, Files for NYSE IPO - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNYkVSOGR6Q2pqeTBRLWRXV1NWQ1ZlTE91SjRIUGl1aUVuTm1RN1VpWjFURHdHZ0tIT3JxeFNqaE5JdXJEMnZOYVllQWFZV1JyU0VKUmlla2psUnl0QjEyQ2FOeHpnMU5CSUNnWFVNM1pVTHl2V0cxUmZDUFh6N05RRGY2dGE2ajNuVjktcFdaUE9LQ2pMdjN0U0NVbkJyVzFWZ0tSY05ORGFGVnIxb2ZnSXBSM1k5Qm9KZmViQS1pYmppNXVuenp1cDdyaw?oc=5",
+    "pub": "Tue, 10 Nov 2026 21:18:01 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil Prices Extend Decline After Trump Signals Restraint on Iran - WSJ",
     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWY0eGlzV2FfSkxTRE1BTWZaTjNtWmIxSjJocnF1a2YzbzczUWlWUFBLMDhlWFdkN0s2MFJDNThNTUQyQlRkT0s5bTRfZUpWbnE0QWlmV0lDbXQxQlVXUk41M3M3UF9lWVZ2ekM4QnQ5WXE2N0d0RWNRY3NRNHc2YnBQblFkZTFhQ0ZWWURxa3ljN2FBSU5TWERiMlZqektRZl85YTBqb09zNDNZNjNQVVJn?oc=5",
     "pub": "Tue, 10 Nov 2026 21:17:21 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkQzY3hydVV0dnFCeGxPdlJiMFdZNW5IMUJteHpRdE5GUE40Zkd6VGlrUzI4dExPaW5TZGd6c045NzQ3Z0oyQTZhQkVYSksyNzZIeGlGYnI3MVNuRDRoQjY2RWxzOVJmY2J2UHVrNWg2ZW9QM29hZHFHRzE5UllvbW9fR1kyS1FUNlozZ3hCa3hHd0Fnc2dzMDRWQkpwY0ZLYWJSS3A0NF96VzhB?oc=5",
     "pub": "Tue, 10 Nov 2026 20:57:51 GMT",
     "src": "FXEmpire",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Extends Drop as Trump Says Further Iran Strikes Unnecessary - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXNXQU9UR20zbU83d0JzZ2cwSGhBbVBoNXZ1ZHFhUVAwRlpxR0FPai1jUWtxaWlBb0tKTkJBMmdKTVdrU3JuZjdXM3dBZ3ZuTk5OdDRSOWpELTIyZkpCMzNSNUlZSTFNb3Qxck5WVTExXzNvbVNmWkFtTWJObWhoUW9BelliQTg5MUFaWUpSYmhpeDRfaUNDc2taZHBRdw?oc=5",
-    "pub": "Tue, 10 Nov 2026 20:15:57 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1712,7 +1712,7 @@
    83095.12,
    82941.0,
    80805.08,
-   73683.15
+   73699.26
   ],
   "vixts": [
    0.818,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-10T22:42:20+00:00",
+  "checked": "2026-11-10T22:52:23+00:00",
   "openai": {
    "found": false
   },
@@ -2898,15 +2898,15 @@
   },
   "carry": {
    "usdjpy": 158.7,
-   "usdjpy_chg20": 0.11,
+   "usdjpy_chg20": 0.12,
    "vix_chg5": -6.58,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.24,
+   "dxy": 102.23,
    "dxy_chg20": 0.05,
-   "usdkrw": 1342.39,
+   "usdkrw": 1342.36,
    "usdkrw_chg20": 0.62,
    "hit": false,
    "missing": []

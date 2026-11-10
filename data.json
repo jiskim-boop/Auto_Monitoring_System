@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T22:12:28+00:00",
+ "updated": "2026-11-10T22:22:09+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 150.34,
-   "chg": -2.09,
-   "chg5": -1.6,
-   "chg20": -3.04,
-   "sma20": 153.73,
-   "sma50": 149.72,
-   "sma200": 145.32,
+   "price": 151.12,
+   "chg": 0.52,
+   "chg5": 0.74,
+   "chg20": -2.34,
+   "sma20": 153.55,
+   "sma50": 149.77,
+   "sma200": 145.37,
    "high3m": 168.59,
-   "reg": 150.34,
+   "reg": 151.12,
    "pre": null,
    "post": null,
-   "regClose": 150.34,
+   "regClose": 151.12,
    "sess": "reg",
-   "mt": 1794261619,
+   "mt": 1794348019,
    "ok": true
   },
   "^MOVE": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 102.24,
    "sess": "reg",
-   "mt": 1794348075,
+   "mt": 1794348689,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 73843.86,
-   "chg": -1.83,
-   "chg5": -2.76,
-   "chg20": -12.1,
-   "sma20": 78072.63,
-   "sma50": 81365.25,
-   "sma200": 72685.38,
+   "price": 73727.03,
+   "chg": -1.99,
+   "chg5": -2.92,
+   "chg20": -12.24,
+   "sma20": 78066.79,
+   "sma50": 81362.92,
+   "sma200": 72684.75,
    "high3m": 86602.91,
-   "reg": 73843.86,
+   "reg": 73727.03,
    "pre": null,
    "post": null,
-   "regClose": 73843.86,
+   "regClose": 73727.03,
    "sess": "reg",
-   "mt": 1794348688,
+   "mt": 1794349294,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.7,
-   "chg": 0.26,
-   "chg5": 0.5,
+   "price": 158.69,
+   "chg": 0.25,
+   "chg5": 0.49,
    "chg20": 0.11,
    "sma20": 157.93,
    "sma50": 157.27,
    "sma200": 159.17,
    "high3m": 160.2,
-   "reg": 158.7,
+   "reg": 158.69,
    "pre": null,
    "post": null,
-   "regClose": 158.7,
+   "regClose": 158.69,
    "sess": "reg",
-   "mt": 1794348673,
+   "mt": 1794349291,
    "ok": true
   },
   "KRW=X": {
-   "price": 1342.74,
+   "price": 1342.82,
    "chg": -1.46,
    "chg5": -0.15,
    "chg20": 0.65,
-   "sma20": 1336.31,
+   "sma20": 1336.32,
    "sma50": 1346.84,
-   "sma200": 1428.78,
+   "sma200": 1428.79,
    "high3m": 1416.85,
-   "reg": 1342.74,
+   "reg": 1342.82,
    "pre": null,
    "post": null,
-   "regClose": 1342.74,
+   "regClose": 1342.82,
    "sess": "reg",
-   "mt": 1794348683,
+   "mt": 1794349292,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,30 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI CFO: 'Q3 was a blockbuster quarter’ as revenue jumped 50% - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPay1oMlZ5b0tsbGFzUVozZWcwZnBhbVpzYVJvWE1ST05RM2w5MUdwODlrQVNicndKTGpOOXM5S0xMSkdiTXBVOGR6Y0dVR2EwdnUwRW5VVld0QU9oSzYzeDd6MU1KdVlma215TkdQWkJuTnBGLTIwNUo0VkFlSnJqaEhtTVFiZ0E?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:11:00 GMT",
+    "src": "Yahoo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX moves Starship Flight 15 booster to pad for 'squeeze test' ahead of epic double-catch attempt - Space",
+    "link": "https://news.google.com/rss/articles/CBMiggJBVV95cUxQZUVUejZCSkpnekNYV2JJWkhXM3FvdGl0UnFiT0pzNkRJS2VhWFNJRHRZNDNtWHRCZUY5ZWgydjRxQlZFLVRzdXByRHZOZWlMankxUmxzR0lBU3NPeGJ0bk9wMUZ1ZExqM3UzbmFJZEZCUW5pRWFMWksyQ3Q5bWVXVndGRVJpZ3VSQ3o2bDF4b1B5NXBpeWlib3hXVEJwbV9Ibjl1RklJNXhESHQ2QnhBX3Q5TzhhVjhhX08yNkl5RXlIRlp4c29fWUhqX3JPLXloWllBTG9pVVNGcTBBT2RqNzBjTUZWSDhFczVsenBmQWR2blpRSXY0QnFFcThYNTd2YkE?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:09:39 GMT",
+    "src": "Space",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI's third-quarter revenue rose about 50% to $10 billion, The Information reports - MLQ.ai",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdG9IVml6NjMzZDkxWVVMQXlfWGE4dWFheHkyT2Z0Z1g2eG1qd1p5c3loLTZFTnBoRW5ERE1URnBGX2JIdm9vSTZOMkM0c3JnaGJRamlPbTBNOUQ0eE5jakdqbjRNWkFtZEhOZUtLTHRpNXNNYWxsN0NYTHctWkwzM3FTVUttYXFzT0VnMjVDRHlvd0pnSUxKQWhjWExsdEh1QlU3WQ?oc=5",
+    "pub": "Tue, 10 Nov 2026 22:09:26 GMT",
+    "src": "MLQ.ai",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI is closing the revenue growth gap with Anthropic: Exclusive Q3 numbers - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZDJ2Ni1KY2Z4T2dVbDAzVkJ2NG42RnMxd3RJamJoaXpPbzc4bHZpWl9jMGRiT1BQczNyN0dYRGNsYXVaVUVmV2ZjZF9GNTRXdmRnUGxuVlpPZXBGNFN2RXJRQUw2ODdkY0ZXUXBBUmgtd1Q5V0JHR0VhRGJtU3hpekFjSElpTzkxMjNRTWpCelVocWVsY0xZcENvUXY4Rk45Q3VsNUdpSjBoZEJ6T2JSZWtuTVQ2ZjJRYndoLThMTks?oc=5",
     "pub": "Tue, 10 Nov 2026 21:59:04 GMT",
@@ -1317,30 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaWl3WklianZyT1U0M1hxLTVRdms4a2FidG1wOXJDem1nam1WM1FrV19PLXdDclhyOUNjTXZDaHFaQTNETVBxSTBUUDI3MzFya1UzZlJuOVRKbWpranpUdnpPRnpJdTk5cHVleWlCeURDbnh5OTNvc1MybU5Tclhial9hdUs4ZDNXdmVpWlpST2RWWVU3OUdlRTVLRDJGX0UwZVVN?oc=5",
     "pub": "Tue, 10 Nov 2026 21:52:23 GMT",
     "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Acquires Travel Startup Odessia in Commerce Push - The Tech Buzz",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPNTcyNThBUGtiYWNIb19feW5aYk1ROE1rRnRwOXdBcDVjYy1TaHlCRVlITk81X2FyVERjcVdHbHVkTVgwZkcwTnI4WUdTN2JjbjVFUTVtRDJad1ZxTHEtR1U5YXhnSnpIUnR6X1BIWHA2dGRITnh5Rm14Q1FoaDZaQ092MG8ySl9NdHZIRTBEWEhMZw?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:38:54 GMT",
-    "src": "The Tech Buzz",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI revenue hits $10 billion in Q3 as enterprise demand surges - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9vWTB0Xy1tRTQwSU9tbTJNMkF2LWpkU0o1V0NVWllYeElnZkVCUUdab0tZYWRCaEZSbC1WQ1AxZnMxMU1wZ0gta2o1Yjl5VG9BVGlKcHc0S3ptdVpKQ2tmZl9hYURGdF9hSDF4UzhB?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:37:38 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Sets Date For Critical Starship Flight 15, Plans Tower Catches - Investor's Business Daily",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOeDAyMWNZS3lpcnh4ZWdnMEctQkJFNXZLVGNDTW5HRUpVdlV1RmdxendHdWNsb3N2T19CLS1GSmRiVkFIZW9LMkxycGo3NjZhMHhYZUh4bFdncjFCc1pOYUZsV0U3emNaUk9jZUI3TlpIR01oRDVkOEFyLWNwN3M4dm1JQXJuOVd3cUk2cmd0cnA4d3VRM210NnhUcnZJMjlXeVVRUEtqY19zQTQ?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:30:00 GMT",
-    "src": "Investor's Business Daily",
     "trig": false,
     "geo": false
    }
@@ -1405,18 +1405,26 @@
     "geo": false
    },
    {
-    "title": "WTI Price Forecast: Bearish Signals Put $78 Support in Focus - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQWXZNVnpGTnFIUEtzLTZRWkVRd3JXZS1HelRoUjJ3cE0xa0VfRUlQZFM4RzIyOXhIRE5DaEx3UlB5eWpKVWM1RFNkVUotbDNMTV8yNTk5QVVaQTFZR0RSWjVHNU90VjdhaE42OV9CNmVpMENyRjA1Qy13cThQWUxWU2pHX01JOERMU2xzY3lnM084WHNNTWU2YjA0QlMtaEFXMzZvOFJCRGY4S2lZcmc?oc=5",
-    "pub": "Tue, 10 Nov 2026 21:56:57 GMT",
-    "src": "FXEmpire",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Falling Oil Prices and Bond Yields Offer Investors Some Relief - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOamZXX2dXT3BmY3J3eGdZVFBGdFZhZm5Obks2MDJhLWtJbjFLdjZOQUN5Z1JwemQ2MnBmckVhQjZxa3VfZ3BHYk8yR2FhaXJZVHlPTUhfVDZ2OWFPVzQtaTVKWjZ1eHZiS2tPUFhRN1RIS1JCTThoUjlrb3ROYlRLd2hDT0ZWbmNVRnBwUGxHQW9SODcyR3dUbEdrdlBOcGtRc2xQSWxoaHdXekZOTUFlLXJ1MDVPVkk?oc=5",
     "pub": "Tue, 10 Nov 2026 21:38:25 GMT",
     "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil Prices Extend Decline After Trump Signals Restraint on Iran - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWY0eGlzV2FfSkxTRE1BTWZaTjNtWmIxSjJocnF1a2YzbzczUWlWUFBLMDhlWFdkN0s2MFJDNThNTUQyQlRkT0s5bTRfZUpWbnE0QWlmV0lDbXQxQlVXUk41M3M3UF9lWVZ2ekM4QnQ5WXE2N0d0RWNRY3NRNHc2YnBQblFkZTFhQ0ZWWURxa3ljN2FBSU5TWERiMlZqektRZl85YTBqb09zNDNZNjNQVVJn?oc=5",
+    "pub": "Tue, 10 Nov 2026 21:17:21 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "USD/JPY Price Forecast: Dollar-Yen Hits 158.80 on Hot US CPI as 159 Resistance and 160 Upside Target Loom - TradingNEWS",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNeXhRYWhWSzgtUm4wckxjVThhS2pQQ0ZzUUtOUDBKdmczbkhSOWtIWFdIUE9lNF9iQXRnSTNFMFMyQUlzR0JKWHhVSkFGZVRBQkZRU19oTmpZWmZTcWYzamlZQ3pVQTJRREZScjhQTFRHLWhaVmVOc1FINnFpaFdYdnozSzBiZUlFUnpPMkV0M1JWdGZmejdEUDRFWjlob0lza1l2SFl1S0I1dTBuT01EMUxPTjNTdw?oc=5",
+    "pub": "Tue, 10 Nov 2026 21:12:25 GMT",
+    "src": "TradingNEWS",
     "trig": false,
     "geo": false
    },
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPRkQzY3hydVV0dnFCeGxPdlJiMFdZNW5IMUJteHpRdE5GUE40Zkd6VGlrUzI4dExPaW5TZGd6c045NzQ3Z0oyQTZhQkVYSksyNzZIeGlGYnI3MVNuRDRoQjY2RWxzOVJmY2J2UHVrNWg2ZW9QM29hZHFHRzE5UllvbW9fR1kyS1FUNlozZ3hCa3hHd0Fnc2dzMDRWQkpwY0ZLYWJSS3A0NF96VzhB?oc=5",
     "pub": "Tue, 10 Nov 2026 20:57:51 GMT",
     "src": "FXEmpire",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oil Prices Extend Decline After Trump Signals Restraint on Iran - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPeWY0eGlzV2FfSkxTRE1BTWZaTjNtWmIxSjJocnF1a2YzbzczUWlWUFBLMDhlWFdkN0s2MFJDNThNTUQyQlRkT0s5bTRfZUpWbnE0QWlmV0lDbXQxQlVXUk41M3M3UF9lWVZ2ekM4QnQ5WXE2N0d0RWNRY3NRNHc2YnBQblFkZTFhQ0ZWWURxa3ljN2FBSU5TWERiMlZqektRZl85YTBqb09zNDNZNjNQVVJn?oc=5",
-    "pub": "Tue, 10 Nov 2026 20:43:00 GMT",
-    "src": "WSJ",
     "trig": false,
     "geo": false
    }
@@ -1561,7 +1561,31 @@
    "chg4w": -74.2,
    "asof": "2026-11-04"
   },
-  "gm2": null
+  "gm2": {
+   "value": 42.0,
+   "series": [
+    41.85,
+    41.85,
+    41.68,
+    42.08,
+    42.2,
+    42.34,
+    42.4,
+    42.37,
+    42.45,
+    42.41,
+    42.13,
+    42.04,
+    42.0
+   ],
+   "chg13w": 0.07,
+   "us_chg13w": 1.28,
+   "eu_chg13w": 0.45,
+   "us_t": 23.51,
+   "eu_t": 18.49,
+   "asof": "2026-10-05",
+   "eu_asof": "2026-09-28"
+  }
  },
  "charts": {
   "vix": [
@@ -1652,7 +1676,7 @@
    158.52,
    158.52,
    157.53,
-   158.7
+   158.71
   ],
   "uso": [
    127.61,
@@ -1712,7 +1736,7 @@
    83095.12,
    82941.0,
    80805.08,
-   73837.4
+   73711.64
   ],
   "vixts": [
    0.818,
@@ -2808,7 +2832,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-10T22:12:14+00:00",
+  "checked": "2026-11-10T22:21:53+00:00",
   "openai": {
    "found": false
   },
@@ -2897,7 +2921,7 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.7,
+   "usdjpy": 158.69,
    "usdjpy_chg20": 0.11,
    "vix_chg5": -6.58,
    "hit": false,
@@ -2906,7 +2930,7 @@
   "dollar": {
    "dxy": 102.24,
    "dxy_chg20": 0.06,
-   "usdkrw": 1342.74,
+   "usdkrw": 1342.82,
    "usdkrw_chg20": 0.65,
    "hit": false,
    "missing": []

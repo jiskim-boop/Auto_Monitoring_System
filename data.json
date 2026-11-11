@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T22:42:10+00:00",
+ "updated": "2026-11-11T22:52:06+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 102.92,
-   "chg": 0.67,
-   "chg5": 1.39,
-   "chg20": 0.36,
+   "price": 102.9,
+   "chg": 0.66,
+   "chg5": 1.37,
+   "chg20": 0.35,
    "sma20": 101.95,
    "sma50": 101.25,
    "sma200": 100.5,
-   "high3m": 102.92,
-   "reg": 102.92,
+   "high3m": 102.9,
+   "reg": 102.9,
    "pre": null,
    "post": null,
-   "regClose": 102.92,
+   "regClose": 102.9,
    "sess": "reg",
-   "mt": 1794436288,
+   "mt": 1794436885,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 74015.93,
-   "chg": 0.4,
-   "chg5": -2.29,
-   "chg20": -8.97,
-   "sma20": 77701.65,
-   "sma50": 81119.65,
-   "sma200": 72640.8,
+   "price": 73897.53,
+   "chg": 0.24,
+   "chg5": -2.44,
+   "chg20": -9.12,
+   "sma20": 77695.73,
+   "sma50": 81117.28,
+   "sma200": 72640.16,
    "high3m": 86602.91,
-   "reg": 74015.93,
+   "reg": 73897.53,
    "pre": null,
    "post": null,
-   "regClose": 74015.93,
+   "regClose": 73897.53,
    "sess": "reg",
-   "mt": 1794436895,
+   "mt": 1794437491,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.65,
-   "chg": 1.06,
-   "chg5": 0.75,
-   "chg20": 0.84,
+   "price": 159.7,
+   "chg": 1.09,
+   "chg5": 0.78,
+   "chg20": 0.87,
    "sma20": 157.96,
    "sma50": 157.25,
    "sma200": 159.17,
    "high3m": 160.2,
-   "reg": 159.65,
+   "reg": 159.7,
    "pre": null,
    "post": null,
-   "regClose": 159.65,
+   "regClose": 159.7,
    "sess": "reg",
-   "mt": 1794436898,
+   "mt": 1794437493,
    "ok": true
   },
   "KRW=X": {
-   "price": 1336.44,
-   "chg": -0.55,
-   "chg5": -0.48,
-   "chg20": -0.29,
+   "price": 1336.6,
+   "chg": -0.54,
+   "chg5": -0.47,
+   "chg20": -0.28,
    "sma20": 1336.18,
-   "sma50": 1346.13,
+   "sma50": 1346.14,
    "sma200": 1428.1,
    "high3m": 1415.37,
-   "reg": 1336.44,
+   "reg": 1336.6,
    "pre": null,
    "post": null,
-   "regClose": 1336.44,
+   "regClose": 1336.6,
    "sess": "reg",
-   "mt": 1794436659,
+   "mt": 1794437494,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,22 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Plans to Raise at Least $4 Billion in High-Grade Loan - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPdDZFbWh5TVg1cmk3LWhHVVR2OGhKZGlWdC0wVmtINGlSWmU3VzctR3M2NTNIamh1OVliNDhGbThzYWtlM19BbXVKblIxLVBmeXNmRG50cnNUV05qNGRZbTVOU1ZTWFBDOXg2UmtGc0stSkNNcU0waDEzcVNoNVlxTEh6RzRoeDJuQThNVWsxa1dOOHBZSXVMdjVubGNYd0lOWFg3cUM3enR4U25BWjJIWmtXSQ?oc=5",
+    "pub": "Wed, 11 Nov 2026 22:42:47 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave just gave a shot in the arm to Micron, Lumentum and the rest of the AI trade - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNZWN5UXA1LTVfVFJTWEdEaHAtbnBGMmFzRXBDb3VuSDNmQU1DdmxwaUxBZUdqaW1OMnd0ZW0xbzVnc255VXlxaVlwMV9YMll1bWlUSU4zbDRpSzFTaV9qWVZHck9EQU16eGo4QmtqQ0MwamFyN3h3b2o1b2VkSzg1eGhLNVdwdnNoeWRYdXlFR3ctOEk3QWJ3NEJrZ2lPS1VwZmkybG5lUzYxaWFuWk9McVp2Z1ItRHhkZWxN?oc=5",
+    "pub": "Wed, 11 Nov 2026 22:05:00 GMT",
+    "src": "MarketWatch",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Soars After AI Computing Firm Eases Debt Fears - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYnZDemJ1a0xMRzdaZGhpV3pnaGNQRUhiWWQ4b2RTRFlnTlNTRGV3dnZ6ZkRuZE9YWDhVU241YVJlcnRETW5IMlk2c3NsYTJzM2tCVktKWTVpRHhjdjVCRWt5bUZZQmw5TkMtU0tDdF9BMERGR0czck5EYW9HOUNSa1MzUFJXOUh5dGh2ZThIdzdMY01XcGRfOUJ0M0lTZmpiY2VGS0FmamZMVWZFR1VxTHBQVW4?oc=5",
     "pub": "Wed, 11 Nov 2026 21:28:49 GMT",
@@ -1276,22 +1292,6 @@
     "pub": "Wed, 11 Nov 2026 19:56:00 GMT",
     "src": "Foreign Policy Journal",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave stock jumps 14% as neocloud raises 2026 revenue outlook to $13.0 billion - Blockspace Media",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9hUTU4eWJGWTZjTzRkNGRwamlOajlCckl5NWFUUGVaQ0JaSlNVNjRhOHV0QjIwN2hrMTNEdU9YYUswdlBTdVpHQ3gyanVJQnRVWTBLOVZKbm50VU1PcmIzckJUaFZxYmt4clBqY0swT2JnSkt5ZjFNaU82WQ?oc=5",
-    "pub": "Wed, 11 Nov 2026 19:12:04 GMT",
-    "src": "Blockspace Media",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Oracle Stocks Climb 7.2% as CoreWeave's Funding Reset Eases AI Debt Fears - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQRERnQnJxSVpkWm5QbDFJMXN4TDh6anBfWFlPS2Y1RXVjQWpsanpCNXFQdGpUMmJIdXVjaEdtN3BGOTJUZjFBXy1YLV9jRzVneEJVRnVNRjR4NEdQTnRqN2lHN24zbnpHX202UWZDZHBDMEpqRVd0MXhJclJXeFI3cFplTGxfWERxSlczdjhIQ2dfdw?oc=5",
-    "pub": "Wed, 11 Nov 2026 18:38:23 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
     "geo": false
    }
   ],
@@ -1363,14 +1363,6 @@
     "geo": true
    },
    {
-    "title": "Oil Falls Below $100 a barrel on Middle East Peace Deal Hopes - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxONEY1OTRTVV9fNHdPaVhkcUhKcnlkZHM5Zk9qTk0wNDRYUm9UV3ltT2hWS1BjREhxMktHMEx2UTA1bWthZDdsdHlSSG5WT1J1MUVfSEo4dDUwSzBfM1RqYnhUM3c0MXdrb3BGdUhNUHJVMlQzUVYxRFp1NGJlN1lBZ0JCd1JWNi1RNllueU9ZVVVKSXE3cHc?oc=5",
-    "pub": "Wed, 11 Nov 2026 20:20:53 GMT",
-    "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil Touches Pre-War Levels on Rising Middle East Supply - EnergyNow.com",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPc0x2dW5mVTB6dmR1TU9yVGVfaGxUdHlBTU83NG1fVmVlaThzczFFSXJRb2l6MDJrOFc4bXJXWFNzRklySEg5eUp4bXBtbXRnUjk4NzV6THJWdUhiWkJfX3N1b0tLRU5DeHpfSUxzc09rY2dQeFU0ek16SDJObmpYYzZXY2VCMTdNdmg1N3A1VQ?oc=5",
     "pub": "Wed, 11 Nov 2026 20:00:39 GMT",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxNelhwY3F6LVR2LUw0aExxeXNwWFZ6X3pxV3VmT19pR2dHSDA0QjFjTlN6UXg0OFctUDhrMUlhejZ6aVNpb3VmYjdYUDE0b01mNFVoVWVWUDkycXU2SzZxSzlVaE9jaDkwcVB3emVXU1lRTEdXMVplVThKWUt3T2xnVFNlNk01NlNsRG9vdnk1UURzQzBVZnRvelpFU2ZkT2hhOEhraUxLOE8yYjVmSVdzNkV4aVhYZ19fQi1ITVZTY1hUWlRSR2FvbmVDNUV3YTdp?oc=5",
     "pub": "Wed, 11 Nov 2026 18:52:28 GMT",
     "src": "VT Markets",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The death toll in Chornomorsk has risen following an enemy strike on a market - UA.NEWS",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNjdHTXp1dmNqS1JCQXJMNWlQSWFLangwUjRqYkNqbWY3SmFILXVsMFhrMmlHdEtWZGFmanRRWHhDVlVtcmZZWDZWNVdGcFNGZ2hEZVQzb2hsVjdveWhjYzFGODhGZlVpaXpFX1FZcDE5TVZFUFZtYnlkUDR3eHNOQ0RXZzRheVhaQllLS0hmdHVrSlBPbkRabWNR?oc=5",
+    "pub": "Wed, 11 Nov 2026 17:27:03 GMT",
+    "src": "UA.NEWS",
     "trig": false,
     "geo": false
    }
@@ -1631,7 +1631,7 @@
    102.55,
    101.78,
    102.19,
-   102.92
+   102.9
   ],
   "bizd": [
    13.29,
@@ -1676,7 +1676,7 @@
    158.32,
    158.27,
    157.99,
-   159.68
+   159.7
   ],
   "uso": [
    127.3,
@@ -1736,7 +1736,7 @@
    81562.49,
    84011.97,
    81267.59,
-   74039.33
+   73868.16
   ],
   "vixts": [
    0.825,
@@ -2813,7 +2813,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-11T22:41:56+00:00",
+  "checked": "2026-11-11T22:51:52+00:00",
   "openai": {
    "found": false
   },
@@ -2902,17 +2902,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.65,
-   "usdjpy_chg20": 0.84,
+   "usdjpy": 159.7,
+   "usdjpy_chg20": 0.87,
    "vix_chg5": 5.3,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 102.92,
-   "dxy_chg20": 0.36,
-   "usdkrw": 1336.44,
-   "usdkrw_chg20": -0.29,
+   "dxy": 102.9,
+   "dxy_chg20": 0.35,
+   "usdkrw": 1336.6,
+   "usdkrw_chg20": -0.28,
    "hit": false,
    "missing": []
   },

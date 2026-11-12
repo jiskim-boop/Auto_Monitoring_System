@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:32:37+00:00",
+ "updated": "2026-11-12T22:42:01+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.19,
-   "chg": 0.28,
-   "chg5": 1.62,
-   "chg20": 1.17,
-   "sma20": 102.01,
+   "price": 103.18,
+   "chg": 0.27,
+   "chg5": 1.61,
+   "chg20": 1.16,
+   "sma20": 102.0,
    "sma50": 101.33,
    "sma200": 100.54,
-   "high3m": 103.19,
-   "reg": 103.19,
+   "high3m": 103.18,
+   "reg": 103.18,
    "pre": null,
    "post": null,
-   "regClose": 103.19,
+   "regClose": 103.18,
    "sess": "reg",
-   "mt": 1794522114,
+   "mt": 1794522685,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 71395.16,
-   "chg": -3.47,
+   "price": 71389.22,
+   "chg": -3.48,
    "chg5": -5.75,
-   "chg20": -11.94,
-   "sma20": 77215.12,
-   "sma50": 80858.87,
-   "sma200": 72584.67,
+   "chg20": -11.95,
+   "sma20": 77214.83,
+   "sma50": 80858.75,
+   "sma200": 72584.64,
    "high3m": 86602.91,
-   "reg": 71395.16,
+   "reg": 71389.22,
    "pre": null,
    "post": null,
-   "regClose": 71395.16,
+   "regClose": 71389.22,
    "sess": "reg",
-   "mt": 1794522718,
+   "mt": 1794523287,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.78,
-   "chg": 0.68,
-   "chg5": 0.9,
-   "chg20": 1.15,
+   "price": 159.83,
+   "chg": 0.71,
+   "chg5": 0.93,
+   "chg20": 1.18,
    "sma20": 158.0,
    "sma50": 157.25,
    "sma200": 159.18,
    "high3m": 160.2,
-   "reg": 159.78,
+   "reg": 159.83,
    "pre": null,
    "post": null,
-   "regClose": 159.78,
+   "regClose": 159.83,
    "sess": "reg",
-   "mt": 1794522724,
+   "mt": 1794523292,
    "ok": true
   },
   "KRW=X": {
-   "price": 1334.69,
-   "chg": -0.54,
-   "chg5": -0.4,
-   "chg20": -0.35,
-   "sma20": 1336.22,
-   "sma50": 1345.77,
+   "price": 1334.34,
+   "chg": -0.56,
+   "chg5": -0.43,
+   "chg20": -0.37,
+   "sma20": 1336.2,
+   "sma50": 1345.76,
    "sma200": 1427.19,
    "high3m": 1414.73,
-   "reg": 1334.69,
+   "reg": 1334.34,
    "pre": null,
    "post": null,
-   "regClose": 1334.69,
+   "regClose": 1334.34,
    "sess": "reg",
-   "mt": 1794522724,
+   "mt": 1794523158,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nd0pKdEtsZnJ6UWhKZlR1dUJNV2UwUDRLSHdfVExwQUhNb3hnLW1vYzFuRWRMNlM1dk53dHZyM3pqQXB6Uy1lNlhQc251N2gyVXdxdEFIMUN0X0hadFdZc0ZCMGNkRnVKYVJCMERNdw?oc=5",
+    "pub": "Thu, 12 Nov 2026 22:12:48 GMT",
+    "src": "CBS News",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "Anthropic’s IPO Price Isn’t So Outlandish. Here’s the Case for the Stock. - Barron's",
     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1USjhqd0lCMDVDNGJneXpZbzBrVVE1WW80X28yNDVCYzg5dzhBazVsUEc4Z0UyUHRQWVVSZ2JYeGU5dHA4ZUUxZGI2M2pBNGRjVGZ6V1Z2QldrckFBdmMwT0JBc0lObTBWVUpzV0F0WFZidTBwV0hSc3dfWQ?oc=5",
     "pub": "Thu, 12 Nov 2026 22:01:00 GMT",
@@ -1321,26 +1329,18 @@
     "geo": false
    },
    {
+    "title": "Cisco beats and lifts FY27 view as AI revenue from hyperscalers set to more than double - investingLive",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTBKX2ZIN25MTVdRei1LeDBwMHZhdHRrazdIdFBZRlN0MjV0VDA2SHJwVk5OakpNV01DSXU2RXdMRWFWd1BqMEladi1raXlSWW5vTDhnMm91ZlBmcTdodFBIQXAycDA3a3E3U19CZTY5aWI0U0NtaUdGODRmUjNiUnNQYzliVTMySkdIRjBDeDhVa2VCSlFqVVhJTV9idm45ZnVtRTJrMGRlTFFQNEJRWFVFRlFWc044R0xRMTJn?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:21:11 GMT",
+    "src": "investingLive",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI raises $15B at a $1.25T valuation, half its original target, as it bridges to a 2027 IPO - Dealroom",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
     "pub": "Thu, 12 Nov 2026 21:06:27 GMT",
     "src": "Dealroom",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic’s IPO Is About Six Times Oversubscribed - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQeWxnOC1MRXVQbUJwaDdiSDE3TzdIbVRyYU5qWnF5YzkycUVPTXV0bUhOWEIzWU1xejMyQXJxaGtHT2dQbk1iTExkc29hYjBpQWRsY3RTaEtsTVhVaFJjOHl5aW5nb0dDYzRwcWxjVXpkbWw1bU5lSFhwVHo4aGw4bHJZYlNZTUVoN2VwYnhBWmNDNURMbXNmN2FvaEVONS1CVG1MY004MzdMbTRJd1E2eQ?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:00:14 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX could announce $1.5 trillion Tesla merger in December: report - Electrek",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOSDM0VnJpVWNzY1NFa0p0WVdYSS1HSndYejZLamRmd1d0ZlQ0cmtWMkFQeDVuLUJGcVR3TU9sS1pkQjRHdlRVZWRQaTFEQW1aejhybmtlUlVIX3BLNklQWnBqM1FPdExTTWxtQmJXdlk1N09pRk1RMmdCalpJOFBvcHFCY0dwVEU?oc=5",
-    "pub": "Thu, 12 Nov 2026 20:39:00 GMT",
-    "src": "Electrek",
     "trig": false,
     "geo": false
    }
@@ -1413,6 +1413,14 @@
     "geo": false
    },
    {
+    "title": "The Yen Is Becoming Too Hard for Some Investors to Trade - Livemint",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR1J5a3cxaGYzZjNRYVg2UGhaSUNtbXo0bWJTT1NfZzdpOU9vSmQyOU9hQWlpRnZ2VlFBVFhGMGI0V1lHX0EtT0FwTlNDQTRWdEJfWjBoN0pPX1M4MTZyWUl5czhKdE1FZnpVWXk5QnZreHVJZ0ZFQzlXZllDeEtkOUoyREZ1MFktb2pUM01kUHhLZk5ZSHB5UmtYTXozLWhuZ19uREt6elNtV2550gGyAUFVX3lxTE1BQnZyaTVIeFo1empjZzhxLW1vZHpvY1RiQlpHWDV2LTZDWGRUbDFoSVNROW5jNVhVc25LZTZFQVdGVHhzWEtEeHlqVDdOdWhUVHJyQjRTMXdCNlh5Z19DT2Z2OEtXby1iZU5fQVd0bU1QbzBFNzdGQl9DTlNDQmFieUFCQ3hjVmhjdjA2aFNLb29YcU9xeVRYQkw1TGxmcWJDVzJFSG9hakdZUVlXZDAzUmc?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:47:43 GMT",
+    "src": "Livemint",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil News: WTI and Brent Rise as Hormuz Shipping Disruptions Renew Supply Fears - FXEmpire",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdndrNzNOS3lzdG5aQlhVSHg2Vm1GQk92bzlYMDE0cW9kbUdoNWRRTWhYUDRxT21kMDh4SXR0RnRCcWVub3RBMTJUSXNSZ1JUZEdMS0Y0S0Zjb0R1YTVaWXQwQkRYa0Q0ZUNzMmRxc3BPM3pIbUU5V0g0d3JqMGdxcXZVVTdSbFoxQVN2dXdjZGpOcS1zOGVDcWhQWGpRdDdMeVVGWFVHaWFYTVdPcU5RQ2xZTWxKSkVTTUhHMHRCNkNXMlJlbk5z?oc=5",
     "pub": "Thu, 12 Nov 2026 21:28:48 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaUxMTWZqX0FneUMxN3VPOUg0c3REc2I4MTdlT0lfLWFBcTdhVDdsaWxhcUN2eXdUekpSdmJ5a2djNVEyTEFQOUJ3Wm9LcjF4U1lsRmlZeHRKRWJPZFhWcjAxb21NRFZUc2drenU5VlhqZEhWZWM3VGRMeko2R29UWEx3RThWQjZvQ09HTHJxRk1Nbjlt?oc=5",
     "pub": "Thu, 12 Nov 2026 21:10:28 GMT",
     "src": "Traders Union",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The Yen Is Becoming Too Hard for Some Investors to Trade - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPM0R4Y3M3MFFkZHVHS1E0ZTRqT2psWDJoTHpQQnlzeGY0WUVnM1BSLVk3SGRpNjNTZUtlVEdaM1JISll6NElFTmIzN3B5SU93M2Uyb3A2MVU5eUtiTTZ6dnlaQjYyXzMxNWpPMEk2U2J0UzE5bFY0Q1dGNVJLTDJXMWZOQ0NvQnM3eG11dXZTMHdORDl2VkFWeEp3LUdFNVFDVkxpbHRRVHRuX1k?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:00:00 GMT",
-    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    102.0,
    101.61,
    102.04,
-   103.2
+   103.18
   ],
   "bizd": [
    13.54,
@@ -1675,7 +1675,7 @@
    157.96,
    158.13,
    157.83,
-   159.8
+   159.83
   ],
   "uso": [
    125.03,
@@ -1735,7 +1735,7 @@
    82141.46,
    81311.89,
    77775.11,
-   71385.87
+   71403.3
   ],
   "vixts": [
    0.782,
@@ -2816,7 +2816,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-12T22:32:24+00:00",
+  "checked": "2026-11-12T22:41:50+00:00",
   "openai": {
    "found": false
   },
@@ -2905,17 +2905,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.78,
-   "usdjpy_chg20": 1.15,
+   "usdjpy": 159.83,
+   "usdjpy_chg20": 1.18,
    "vix_chg5": -33.64,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.19,
-   "dxy_chg20": 1.17,
-   "usdkrw": 1334.69,
-   "usdkrw_chg20": -0.35,
+   "dxy": 103.18,
+   "dxy_chg20": 1.16,
+   "usdkrw": 1334.34,
+   "usdkrw_chg20": -0.37,
    "hit": false,
    "missing": []
   },

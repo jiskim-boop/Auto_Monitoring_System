@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12T22:42:01+00:00",
+ "updated": "2026-11-12T22:53:00+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.18,
+   "price": 103.19,
    "chg": 0.27,
    "chg5": 1.61,
    "chg20": 1.16,
    "sma20": 102.0,
    "sma50": 101.33,
    "sma200": 100.54,
-   "high3m": 103.18,
-   "reg": 103.18,
+   "high3m": 103.19,
+   "reg": 103.19,
    "pre": null,
    "post": null,
-   "regClose": 103.18,
+   "regClose": 103.19,
    "sess": "reg",
-   "mt": 1794522685,
+   "mt": 1794523336,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 71389.22,
-   "chg": -3.48,
-   "chg5": -5.75,
-   "chg20": -11.95,
-   "sma20": 77214.83,
-   "sma50": 80858.75,
-   "sma200": 72584.64,
+   "price": 71256.97,
+   "chg": -3.66,
+   "chg5": -5.93,
+   "chg20": -12.11,
+   "sma20": 77208.22,
+   "sma50": 80856.1,
+   "sma200": 72583.92,
    "high3m": 86602.91,
-   "reg": 71389.22,
+   "reg": 71256.97,
    "pre": null,
    "post": null,
-   "regClose": 71389.22,
+   "regClose": 71256.97,
    "sess": "reg",
-   "mt": 1794523287,
+   "mt": 1794523941,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.83,
-   "chg": 0.71,
+   "price": 159.82,
+   "chg": 0.7,
    "chg5": 0.93,
    "chg20": 1.18,
    "sma20": 158.0,
    "sma50": 157.25,
    "sma200": 159.18,
    "high3m": 160.2,
-   "reg": 159.83,
+   "reg": 159.82,
    "pre": null,
    "post": null,
-   "regClose": 159.83,
+   "regClose": 159.82,
    "sess": "reg",
-   "mt": 1794523292,
+   "mt": 1794523942,
    "ok": true
   },
   "KRW=X": {
-   "price": 1334.34,
-   "chg": -0.56,
-   "chg5": -0.43,
-   "chg20": -0.37,
-   "sma20": 1336.2,
+   "price": 1334.48,
+   "chg": -0.55,
+   "chg5": -0.42,
+   "chg20": -0.36,
+   "sma20": 1336.21,
    "sma50": 1345.76,
    "sma200": 1427.19,
    "high3m": 1414.73,
-   "reg": 1334.34,
+   "reg": 1334.48,
    "pre": null,
    "post": null,
-   "regClose": 1334.34,
+   "regClose": 1334.48,
    "sess": "reg",
-   "mt": 1794523158,
+   "mt": 1794523948,
    "ok": true
   },
   "^OVX": {
@@ -1247,10 +1247,10 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave: Still A Volatile Debate (NASDAQ:CRWV) - Seeking Alpha",
-    "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE40QUJpRDJxSFRWTG41aENCLWk0WGJSd2lhVXhFZ0ZkcldweE5LU3BaY1ZoWW5sMDktZnEtWnVoMWwzTlRCYTNhakRqNWNtNjlNLWZIbTJpc2Y3bzJjblJUMC1VUkFCRG4xWUpoaEdiUzBkTHVYbGlFSHFLaHNnU0E?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:22:35 GMT",
-    "src": "Seeking Alpha",
+    "title": "“The Hub Was Suddenly Removed”: Nvidia’s CEO Exit Sinks CoreWeave 7% - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOenphUmxwcmsyY0FhU1Y5ZmFrMDJXRm5LVmFPZ3RtaDJwbnlWNHBrM2QtQ1F5WnROeGt0cDRkUG1tb000WG5fWlNwTW52bkN3THlrYkhBeDhWenZQUm5nckQ4RmVPRzJ4ZEtIMGRSQ1lGQjZ0Zk1HNEFGNl8xMk05WGFQYkdLNXF4U1dOSGFGaGcyRDBD?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:45:30 GMT",
+    "src": "TIKR.com",
     "trig": false,
     "geo": false
    },
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX launch Friday could produce ‘space jellyfish’ visible in Louisiana - WAFB",
+    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdER2dFBVOHhWZVhZc1YtRWU3Mm04SG9oOThjSVAyM0dBZ3ExQzNZS1JMd3VfdlJudGFPV043clhIU2M1MnNMRjJTQ0FUeGd1TTFkekw0am5mUVVPVUJHUnFwUng4NUl2ZC1NQ29zU0tVVjBWVzJkMHRzWldWZVVqVFpfLVViZlhfTG0xS1FxMlVJb2VadXFvMDNFc0VPZ0JFSmJj?oc=5",
+    "pub": "Thu, 12 Nov 2026 22:37:00 GMT",
+    "src": "WAFB",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Anthropic, OpenAI and other AI developers can't control their own tech, new lawsuit alleges - CBS News",
     "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Nd0pKdEtsZnJ6UWhKZlR1dUJNV2UwUDRLSHdfVExwQUhNb3hnLW1vYzFuRWRMNlM1dk53dHZyM3pqQXB6Uy1lNlhQc251N2gyVXdxdEFIMUN0X0hadFdZc0ZCMGNkRnVKYVJCMERNdw?oc=5",
     "pub": "Thu, 12 Nov 2026 22:12:48 GMT",
@@ -1329,18 +1337,10 @@
     "geo": false
    },
    {
-    "title": "Cisco beats and lifts FY27 view as AI revenue from hyperscalers set to more than double - investingLive",
-    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOLTBKX2ZIN25MTVdRei1LeDBwMHZhdHRrazdIdFBZRlN0MjV0VDA2SHJwVk5OakpNV01DSXU2RXdMRWFWd1BqMEladi1raXlSWW5vTDhnMm91ZlBmcTdodFBIQXAycDA3a3E3U19CZTY5aWI0U0NtaUdGODRmUjNiUnNQYzliVTMySkdIRjBDeDhVa2VCSlFqVVhJTV9idm45ZnVtRTJrMGRlTFFQNEJRWFVFRlFWc044R0xRMTJn?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:21:11 GMT",
-    "src": "investingLive",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI raises $15B at a $1.25T valuation, half its original target, as it bridges to a 2027 IPO - Dealroom",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOd0lwdmRqZ3hQMldUOEZGSHluWE9hUFdhaFBnbDR0Z3pfLXNwMDlQdFQ2YmFtbzd2c04zOEZUQXlZM0hEVWJ6ekVucW96cTJOY3lPRTIwT09rNFU1ZEgxRmk1dkNKN1c1OFhyVGZ3c19iYXdPbi1POUh6cVdJQkJNRDJfb3RVdDlSSTVUZERCMVhrWTdNbm0wTlpGZGJzOHdSaTJTemJVT19pdXp0MFRndXd6YlBVREFsd0hIUVZlUHk3Rzg?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:06:27 GMT",
-    "src": "Dealroom",
+    "title": "SpaceX, Tesla merger talks progress, Bloomberg News reports - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOSDRsb3FNV0VLZW5Hb01MamhyMnpOS3NEZl9jT2czVGFTQ3JOdjF0WXdQNHh3SVFJVmhKTVBIb3hhT0UxTlBlOG9lY1AzVnVTY1hjZlItN1Q4X1YzVjMwVTVyVF9keUh4UnRGTnBWeGItejZObzU4QVVOeEF2ZGxuTmFfSDVyQllsRlJNNXV3N1V3ai1sMWx2RTEzR3pNNXpVRWtOTjJDQzg5YVJjT3FBM1BhRQ?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:15:43 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    }
@@ -1421,6 +1421,14 @@
     "geo": false
    },
    {
+    "title": "Yen Falls to Key 160 Level Per Dollar, Raising Intervention Risk - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOTk1NVHMydHhSME14cFAtRFBncHNCOWc5MEw4ODZkLUtkSEpSeVNpNkhCZXRhTHNvTUowdlEyQ3ZlQmZuenozTjNtM3VNRTB6N2JSMVhoT2lJS3ljTldVZDROa0ZWZ01ZaU52SjloUFlwV18tRi1idk45ZGtNajdPZ2toajZYVHNORHRyMWRxSHdab045VjdLVDNRUXhYUjIxX1lIUzNWOFVDSHYxT1p0NnhEclc?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:32:57 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oil News: WTI and Brent Rise as Hormuz Shipping Disruptions Renew Supply Fears - FXEmpire",
     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdndrNzNOS3lzdG5aQlhVSHg2Vm1GQk92bzlYMDE0cW9kbUdoNWRRTWhYUDRxT21kMDh4SXR0RnRCcWVub3RBMTJUSXNSZ1JUZEdMS0Y0S0Zjb0R1YTVaWXQwQkRYa0Q0ZUNzMmRxc3BPM3pIbUU5V0g0d3JqMGdxcXZVVTdSbFoxQVN2dXdjZGpOcS1zOGVDcWhQWGpRdDdMeVVGWFVHaWFYTVdPcU5RQ2xZTWxKSkVTTUhHMHRCNkNXMlJlbk5z?oc=5",
     "pub": "Thu, 12 Nov 2026 21:28:48 GMT",
@@ -1429,18 +1437,10 @@
     "geo": false
    },
    {
-    "title": "USD/JPY Price Forecast — USDJPY (159.93) 162 Upside Target on Fed Hike Bets vs ¥160 Intervention Line - TradingNEWS",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNRTI5a1dUbHdJbDNxZmFTaV9uMVpoRVZteUxMTXRvMXJGcFEtTTRZRTEzdGhaSUhlNDROWUxaVDBReTQya09ycDVseXZIQm1YR2RMSi05ZkVnUkdLV0xXYnVVRzNOQUswa3dEUnRvaGE0bEw2aTN3WGhEbzlQODllbHoweE1jMVk0UlJsVDNoRE1jOFhKeGtzeVM4UHloUGRjd2NSenhQS2w0WHRhR0d4enB4VzdSVTlNTmtWVV9EaVpvQ3c?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:11:48 GMT",
-    "src": "TradingNEWS",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Why is Brent crude price up 4% today? - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaUxMTWZqX0FneUMxN3VPOUg0c3REc2I4MTdlT0lfLWFBcTdhVDdsaWxhcUN2eXdUekpSdmJ5a2djNVEyTEFQOUJ3Wm9LcjF4U1lsRmlZeHRKRWJPZFhWcjAxb21NRFZUc2drenU5VlhqZEhWZWM3VGRMeko2R29UWEx3RThWQjZvQ09HTHJxRk1Nbjlt?oc=5",
-    "pub": "Thu, 12 Nov 2026 21:10:28 GMT",
-    "src": "Traders Union",
+    "title": "Oil (USCrude) Price Forecast for Today, Tomorrow, Next Week, and Next 30 Days - LiteFinance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcm51RHFTMGNQcnB2aFl5bjNQQzFXUVVHckh1eW1IVktpM0lfaXlCQ2p6RF9nYWxkajlxb2R2V0lkRi1FNnljalUwMlhaU2FFT2dCUDBwem9tVG14Y1FXZGVKbWJvSm0xNlVVZ1BwdTItWnJkOTF3TnFTU2FQLWZibmhXRXlnX2RJY25leTB2ekVVUHZMZS1zbjBhWkNJLWs?oc=5",
+    "pub": "Thu, 12 Nov 2026 21:24:41 GMT",
+    "src": "LiteFinance",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    102.0,
    101.61,
    102.04,
-   103.18
+   103.19
   ],
   "bizd": [
    13.54,
@@ -1735,7 +1735,7 @@
    82141.46,
    81311.89,
    77775.11,
-   71403.3
+   71290.94
   ],
   "vixts": [
    0.782,
@@ -2816,7 +2816,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-12T22:41:50+00:00",
+  "checked": "2026-11-12T22:52:47+00:00",
   "openai": {
    "found": false
   },
@@ -2905,17 +2905,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.83,
+   "usdjpy": 159.82,
    "usdjpy_chg20": 1.18,
    "vix_chg5": -33.64,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.18,
+   "dxy": 103.19,
    "dxy_chg20": 1.16,
-   "usdkrw": 1334.34,
-   "usdkrw_chg20": -0.37,
+   "usdkrw": 1334.48,
+   "usdkrw_chg20": -0.36,
    "hit": false,
    "missing": []
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:12:16+00:00",
+ "updated": "2026-11-13T23:22:09+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 67932.18,
-   "chg": -4.78,
-   "chg5": -8.92,
-   "chg20": -15.92,
-   "sma20": 76569.58,
-   "sma50": 80528.88,
-   "sma200": 72516.57,
+   "price": 67849.98,
+   "chg": -4.9,
+   "chg5": -9.03,
+   "chg20": -16.02,
+   "sma20": 76565.47,
+   "sma50": 80527.24,
+   "sma200": 72516.13,
    "high3m": 86602.91,
-   "reg": 67932.18,
+   "reg": 67849.98,
    "pre": null,
    "post": null,
-   "regClose": 67932.18,
+   "regClose": 67849.98,
    "sess": "reg",
-   "mt": 1794611499,
+   "mt": 1794612091,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Stock Market Today, Nov. 13: CoreWeave Falls Over 6% on AI-Cloud Selling and Reported $4 Billion Loan Talks - The Motley Fool",
+    "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNVE5fbXpLV2tpeUZNa08xNktTeW5EYmJlN0ZCV3dlR0lTY2xqaC1ITlQyc1hxZ3BZUlF3b0JTNUVKcGxpOWFZRzlPTDJvdjY3cU1zMUVTeE1zZnF6VDFqMjQwV1FaQTFkdUZJNUVzeUVXV3dzZ0x4OVlRek8yamFfSm4wZW84OGJjU2FxX0tpSVhFY0Q5NEk2Rk9waUR1Tm9NanZELVRabV8zeWVpZFdubGVreVQtMjFxMXU3SzNhcUtiTDlMNWpQcGNSWmJNQjNnaFllbUxIcXFza0FfUnh0S0hQYWd3NHZTdERRdmttNVdxNktOTnI5Vlp3?oc=5",
+    "pub": "Fri, 13 Nov 2026 22:44:00 GMT",
+    "src": "The Motley Fool",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Eagle Point Credit: Private credit expands as CLO equity pressure weighs on NAV and returns - TradingView",
     "link": "https://news.google.com/rss/articles/CBMiiAJBVV95cUxPUlJWQWVFM0R5UUhVcXpfMlhsWHhYeS1Xem5wQzR1aTB5cUQwNGJyLTFBbTZNQWI3QXNwX2xTcWk1NFpGVlB3cVZzMmFPUjdpSmp1TXZVcDZCT2VZallObkhyU3hwMlc3cjl6bWFYYzkyNHl6X2psT0ZzY1RfMFRHSmlkZ1JaVlk3NkZCZHlJRWNjazNsdndpcVgxajYtVkh2b0xzaUh0MG5MRVo2ZTlwZkpETWVQaVdIc2lwSVY4SmRxNzFtLXlpMUstVUNsWjdCeFNyNFFXR2Q0UTdFSFpBSXB0QlpHbTN5T3FSOXA2Ymx5bXNLaXNjRkJnMGl5dmtUejNVUGtvZUE?oc=5",
     "pub": "Fri, 13 Nov 2026 17:08:27 GMT",
@@ -1279,14 +1287,6 @@
     "geo": false
    },
    {
-    "title": "CoreWeave has a clear message for investors worried about debt - TheStreet",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9vQnFXXzh0UGZiUEcxSjhSQ2drWVlSZkdTclZrT3owMV94WlVpdl9CWldDVVNDYWh4Z2VnUGJCdGhOUUNjRnQzRlZ3alR4bmZabm9WTlV1OFBpbVBUSk5HN2otdHhvNjAwazNxUDB3Ykd2d0pvb1E?oc=5",
-    "pub": "Fri, 13 Nov 2026 15:11:34 GMT",
-    "src": "TheStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOcUNqbG5FWnNSUVM4bE9vNGZSLU1pdjc0dVBRQlFZX0lnZy1KQTV1d1cwZXdUQ2lEX3VYdlR6bmxjS1JKRnA4YWY2OXBCOF9ramhHcGc4aWRJUThkeERKSm9UZzhQWEZtTVRBRl8xYjRrb016NE91N0lvWlg5UmljWm9PRE5sVTE0RDB1aF92T2hsQnVyWm83ei12NVM2bHBKei1jY051WQ?oc=5",
     "pub": "Fri, 13 Nov 2026 14:37:00 GMT",
@@ -1297,26 +1297,42 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX launches milestone Starship flight to demonstrate full reusability of orbit-class rocket - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSZjU2emJ2X21oRkFSWllCbXlQSVBWMVJPLTdqMzJ2V0VFVmxsOFN1anZZblpZSFhxZ2xjSE1uU2psLWFQcFcxUVhZNExCS0Z2X2Y0WkpSNk1MemVSNExKRndCVTBEVzRzUEJ0SUxDbEsweFBGN0g4?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:03:54 GMT",
-    "src": "CBS News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX’s attempt for a Starship double catch was thwarted when the booster ended up in the gulf - hngnews.com",
-    "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxPQTlTalBhM1cyTjhIbjk2N25qU1FKaGgwRGFQUXhWVEFMTzRpZFVJaC1nQzlwVmQxc0lNb0FSMDN6dlhseThfTXZDZ2NZU0FQbnkxR0FqVU5CWWV6NWhhR2ZyNkVXbFhIemZ3M0NLeERrM0RDRllOa3ZqYzM4dm12MTNMS1R2VTJxazlaQ2dNdkVmSkRFclhKY0t5aEZXNFRmVkR3MFRGSW9rX29NYTZkSmIwLVh2dVNRdzJfbHpGcW9xUGozTkZ4UHFxQlk3eGZlSGJscDdoMGQxNEVDYW9TVnFsRm12eHJLT2VEckJTLWNybloyeWE4VFVkcHRkdw?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:02:52 GMT",
-    "src": "hngnews.com",
+    "title": "SpaceX’s attempt for a Starship double catch is thwarted when the booster ends up in Gulf of Mexico - Marietta Daily Journal",
+    "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOdlRLZmw5b004MG5YWE1zSzgxLWtkWjhNWkhiUEN6c2xCalFmaGNZVnRLdER4dEs2V3JDU3NLaXZubllIM0dBOWZVZHVPSXdhVE1jYXgxZVduQWdzZWEwcWpkMEozdGJ5dDM4Q1pESExHajVwb3lzV3VaZVhzNzJadEMwMjlKdWktd2FtTzIyR2lwVWxiY0J4ZzRSbk14VC1iRzZick1iekVRRVdjdTRHb1E2Z0l1THVUY01sQzlXZVlISmZjMXp3UU15ZFRCeHo2RFVZZjNrWjcxczB4cE9XYV82d05lTHU2aXhJWTZSZVdEaEVjZ09YNzkxbTNBMl92?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:07:48 GMT",
+    "src": "Marietta Daily Journal",
     "trig": false,
     "geo": false
    },
    {
     "title": "SpaceX launches 15th Starship flight with hopes of achieving first round trip - Central Oregon Daily",
     "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxQR0dWOW5teC1XSkZUb3VTM1o2VkpJaUFaTjhwUFhHSDhaZUs1OE9MRVZJc25zb3h3dk05cGsyVzl4bUY5SHgyNmNsZ2xueTlqd2NvMF9vaER5b29EZG5jeW9faWE4ZlFRVHEyWlRXT0x3RUFZTXp0LWduRS1jUEFrcWlkZGRqaTRwaGo1VTFOelpMZjNoMWl1Wl9BTEFLNG5kUVhfcTcxMUVXVDI5X1B2dVVpQmU0UGVfNjI3UUI5MlUzdUlpT002UGJvcHZTamtpZWVoZEtVbVhHeEFSV0YzQW1VNFI1Vld1dUh6Zll0VWN4Tmp3S0tMNXpoZld6RzlFZ1Nuc19DQQ?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:00:12 GMT",
+    "pub": "Fri, 13 Nov 2026 23:03:45 GMT",
     "src": "Central Oregon Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "xAI Grok Bot Joins Zoom Calls; Solo Price Is $200 a Month - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOVWhKcVRRbjc2T3ZCLXgxbDZSRlJKS181T3h6ZWgyWkVRQ3FmbER2MUZaMkRSZHRQa2otMm5qV1ZWNGt5TTZabTNjUnBMYWoyZHIwY0VXNVIwMFNZazVLUW9zRGRoZ096NlVtUGljNHJhRkxGQWpIbkhDenZxVTd6Uk52OTFUaHd1ZkZN?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:03:45 GMT",
+    "src": "FourWeekMBA",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX launches milestone Starship flight to demonstrate full reusability of orbit-class rocket - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSZjU2emJ2X21oRkFSWllCbXlQSVBWMVJPLTdqMzJ2V0VFVmxsOFN1anZZblpZSFhxZ2xjSE1uU2psLWFQcFcxUVhZNExCS0Z2X2Y0WkpSNk1MemVSNExKRndCVTBEVzRzUEJ0SUxDbEsweFBGN0g4?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:03:00 GMT",
+    "src": "CBS News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX’s attempt for a Starship double catch was thwarted when the booster ended up in the gulf - KTVN",
+    "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWFg5QkFWeFpBU28tYVJURFB1WmRsWk5kRGVETEFxdWNIMzA2djJvZHJmSVlOeDhzZzR3aDlLcW15WDZuZEVxaHVVVUxkelBnSlhkYXhOTkZ5UjlmWmJUT3d3NWtwdGktOTNqcDR1WE5MVXB2b0d0aEJUXzRYQzI0b3hlQmVVcmNKSWVmT1c0QzdzN1hIeDg2TnhqcUxENnZXZ01KT0F3X0YyM0VETmdjd01odHVidTN0cm1XajNwVjVGM3FlUTBJT085OVpmTUlvcXg4XzBHOE5EWDd1amNWMXY2WVo0bG41NTlSZ3ExRnFnLVJKX2kzaU9GOA?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:02:52 GMT",
+    "src": "KTVN",
     "trig": false,
     "geo": false
    },
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxNWEpwc3k4akJZcnlhLUZGQWtjeWhya0NycnBIQ2VuX2RiRFhrZEgybEctNjl2MXppX0VuX3Vkc29FMEFaS1E5T2VzdFVBMWsyU2NzcWVBX2FUdHZ6VzJ3YjYzNlVVN3pUNjBXd253RzhNdmg1M21McXlqU1Q1a0NjdWJNa2ZDSVZGX2NjbWx4c2J0UGdkTk1sdTlxamhMakpFcElGOUJuWTNwR0t1QVZtZHVfZ0dHWE81UGVjeVJrZF9vdFN6R2FyaExSa0tFaVh0SWQ4QzhRR1BwdlluMzJ1dlN4bEk5RHl6Q2NuUHdSSTRLb0lYRGp6cGZUQQ?oc=5",
     "pub": "Fri, 13 Nov 2026 22:49:25 GMT",
     "src": "KTVN",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Wall Street Makes Its Pitch for Anthropic’s I.P.O. - The New York Times",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9pZEk3aEVERVZjMlBZYkI0WC11RjNlbVNaaUlya3A3dFFXWjNGbVlLQW1iZjU5R1E3WlY2blpERFl0MjNzSWdzQmpSc0JqWDhsOXJDYWhybjNiYWdjQ2RhQmF3VExyZGl5bVU1cHpMSGtSSThnRFpWdUJldw?oc=5",
-    "pub": "Fri, 13 Nov 2026 22:36:12 GMT",
-    "src": "The New York Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon Leo Launch Delayed One Day - Broadband Breakfast",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5CLTdsSlNudUptaWRGYmRleVctN0k3eUxNVG9md2xVa2VURUY0aHpVYVhIaVpkUkZEZ3RnNENQQ1V3Um1BUVhxMlVZdDZCaUNWYjR4LW1zRXZKSVZucC1oM0tUZTdLSEVDOWRoa180OGx4TjA?oc=5",
-    "pub": "Fri, 13 Nov 2026 22:31:42 GMT",
-    "src": "Broadband Breakfast",
     "trig": false,
     "geo": false
    }
@@ -1359,6 +1359,14 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBIUjhiMXZXa2lzNVRoc2lyeDRGcUU3OG1Jell2U0NLVnlLV0NuYXE4ZDc1Uk1kT2YteHRmY2NJa3o5ZU8wZzlvYWVGRVQyNFdxYzRFMFpzb0dSSjJ4VXRaRXlvR2hSN3BEWGd1VWpTRjNmeUlSMEE?oc=5",
     "pub": "Fri, 13 Nov 2026 22:35:00 GMT",
     "src": "BigGo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "World Bank Forecasts 24% Surge in Energy Prices in 2026 Due to Middle East War - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNld2eUh3b2xTa2xnNTZRRUdGYXIxaEEyU2ZtX1owRWlxZDA3eG92U2F2SDR4dS1lRnRFQnZCaFlhelRYRW5WVVJnYU5lT1Q1X001TU8xaGVrZ0hJRHluOGhWN2ZKS3VMd1VZaGJBWDhkdUZ2MmZSOXYtRThWS0FiRWEwVm80a0dSQ295Y2IxX3FzRk5qemI0aGtjaS1nenhpU0xDdlBKVU1PQXVw?oc=5",
+    "pub": "Fri, 13 Nov 2026 21:03:53 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    },
@@ -1385,14 +1393,6 @@
     "src": "Bloomberg",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Global oil supply returns to surplus for first time since start of Iran war, says IEA - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQNndNZUdKRnhDVGRkRE85YjZfUG1pUFd5NlVkbjBhbWZaTjZqZlRCU3RmMlBzR1ZjMmJpZi1jX2FvT01wbVc0ZDNaYm9YZUFTZm4wX29QQ3NLN0VpVS1CUjRBVm1GeWlHRk8yb1R4QkMySE5HUjdMUEM3OGVXdU5XM3lORndmX1RwRFdEbkZhalpnVmdONXhJYkR6bUpDZ2xfTXB1MlNuWDNFOGtPSFh0NzF0OWFYSjFBdU1hdVNqQnNSbUdMMi1JZW9vV1UwUQ?oc=5",
-    "pub": "Fri, 13 Nov 2026 18:46:00 GMT",
-    "src": "The Guardian",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
@@ -1401,6 +1401,14 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNkl1cGp6RVJRN0cxcm8yNUZNeE9RZ3JPX0Vpd1g5VWpXQ0F6MHphODFEVk90Ul90SHd5N1h4cHVESWFYMGhMc3ZrTndwOTQ4cVVJRjh2M2ZnRE5fdDdLNmxyTGpIdWRMTy10ZUhPRDF6ekVQZDhsRUE5alRUcmgyMzdkS25VS2dMT0Fjd1Q3bXFfTng3TUxMdXNHZVZ2SU5FZzBvWG5TUTdRbkM0dm1Qc1Z2ZzRYaVduX1A0?oc=5",
     "pub": "Fri, 13 Nov 2026 22:09:04 GMT",
     "src": "FXEmpire",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Global oil supplies are suddenly flowing. Why a crude glut won’t mean cheaper diesel. - MarketWatch",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNcGZIeGVpQTNTU0ZIRXdaWC1ZeFJBQnBNc192Z0pEQW1qeVo1WEotQ2xZVDROSTg0VUpMS19DODBDaGNaWHZuaUhrWk1ESGJYeldzWHdiaVBNemQxZVJ6ZGlYM0c1M0FIZDN3T2JNc3JUclE2TVNYNUZpVEJnaGw0ZmY2d0FkSmZlWGFmY04wc1JXV251cFVaVU1vVEZDUEVXWG1YeEFBSjB3UnFnaW03NXBaYnpNNWE3YkwwOHVLRnJBOGM?oc=5",
+    "pub": "Fri, 13 Nov 2026 22:04:00 GMT",
+    "src": "MarketWatch",
     "trig": false,
     "geo": false
    },
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
     "pub": "Fri, 13 Nov 2026 19:35:26 GMT",
     "src": "EnergyNow.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Trump Extends Jones Act Waiver For Another 90 Days - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOS2VtMi1qMWNNXzVuTVY2ZS1YbVJkWlZvRkQ5TmtaSmZNZzEwNDQ0RVVpLXY3TzJ6RzFrcWdrdEs4b3AzdTJNUGJzM1B4b05XQkRySHVqQlRJNE9YekN1UWdMOGQwYnNhcmlVODlDS1JwbVlMZW1LRkpKMlV3Q2RNNXRIZXJGcWtzc1ozNncxV0djNmNIQnIwWDNua1hIYlgwM0dxS1gxOXdXQdIBrwFBVV95cUxOcl95Z05DQl9RaVZ5T2J3RFB3NkpFT25sM3Y4MW1VODNyeFBkSXF3WTBKS0VmSUk2b3k2Z3dMRzVUTDVnTElBUm1vM3EteGNXc2pnSDg1NWx4Yk9GaUF6X3RfcG9wOWVVZXotMGFqZUNKUXRxeGhkdkdWM3hhUXVvUncxVWJJWDFoWkJORGRmRld2Z0ZuMHAxX0NMQ0JjcTFrSXpsekhoZWJhajlfYmlV?oc=5",
-    "pub": "Fri, 13 Nov 2026 19:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81500.8,
    81074.19,
    77198.21,
-   67909.29
+   67881.89
   ],
   "vixts": [
    0.793,
@@ -2815,7 +2815,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-13T23:12:02+00:00",
+  "checked": "2026-11-13T23:21:54+00:00",
   "openai": {
    "found": false
   },

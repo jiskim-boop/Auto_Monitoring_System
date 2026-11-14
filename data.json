@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T12:41:58+00:00",
+ "updated": "2026-11-14T12:52:02+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 67155.56,
-   "chg": -1.6,
-   "chg5": -10.72,
-   "chg20": -16.08,
-   "sma20": 75942.01,
-   "sma50": 80197.64,
-   "sma200": 72452.77,
+   "price": 67093.63,
+   "chg": -1.69,
+   "chg5": -10.81,
+   "chg20": -16.16,
+   "sma20": 75938.92,
+   "sma50": 80196.4,
+   "sma200": 72452.43,
    "high3m": 86602.91,
-   "reg": 67155.56,
+   "reg": 67093.63,
    "pre": null,
    "post": null,
-   "regClose": 67155.56,
+   "regClose": 67093.63,
    "sess": "reg",
-   "mt": 1794660088,
+   "mt": 1794660690,
    "ok": true
   },
   "USO": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1336.2,
    "sess": "reg",
-   "mt": 1794627050,
+   "mt": 1794627048,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX deploys Starlink satellites in Starship test, but booster crashes into Gulf - NPR",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNnpZMHNXRkc0U0xrV1lHbDF1YVZTRzV4NXFJRUlZQWJTQVlDWHozMmlvUmlRd3BONEJiUGxqcHhHSWZpUkI2R1JBVkRaSW0tUXF4R2NlaDNUTmc5ZEVnNFA3NnJKaDNZMWFscWpUOGl6S0tuRzBNYW1Camc1Ymp6ZXNDdEZFS3RKLTVUN1YzMWpKOVYwQlY3VU5GY3BBS3lkWU5YZWJqOTRsY2ZfYzlueXlEWXF4NnZCS1RablMtd3JhWlIy?oc=5",
+    "pub": "Sat, 14 Nov 2026 12:40:21 GMT",
+    "src": "NPR",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX's Starship Flight 15 launches from Texas, misses booster catch - Florida Today",
     "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQN3pkM090bkc1cFctd1Y4TkE3ZHVxSDlDOFlsVWQ3bFFoemRNdzdZaGgyUXc1b1lJaHg5dWVlT2YtYzluMk1nbjZiRlNWWnJUd1d4Slo1ZFNTSnU2bzItTUVlcE5zY19UUGJWeDZHbnR1QUpHTTlrMGdXUUlXX01yRmZNemtiUjZFZjBZUnNtTVJuOHdmLWJXaUNJSF9VbkdSbHpmSWxaRlAyUEcydm91UVFVZklKVW1ZY1lHLXV4eGVBdFluSVkxWTdZR01ra2JNN3pCeTRfZ052dUgwMkZpSFNwYm9janVCWWVRWnhiRHpQQ3RRYjZRTERhSEs5OVU?oc=5",
     "pub": "Sat, 14 Nov 2026 12:16:00 GMT",
@@ -1313,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX to Attempt First Full Recovery of New Starship Rocket - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOOTdNZU40cFBlcGlnc0ZwckIzbVRuOGw1bjJya0dERkotVVRBVjN2ZmMtanZFeVJyek5SQ2VUdGQ5ZENXU2d2dW02eE8wOFFYQmZYdnR4UnRYYndTbEtzUm16cGdtejdyQjZWeTVSQ1dJYnZNSVFiNjlFemowWE9qVmc5QlUyMkQxMm01RXRtRTVpTENkSFh4Ukl6R1ZPc2lzTVhOaEJTZ1NOek45Vm1aWQ?oc=5",
+    "pub": "Sat, 14 Nov 2026 12:00:00 GMT",
+    "src": "Bloomberg",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX's Starship set for return to Earth after booster catch aborted - Phys.org",
     "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBMTEZDSmIyZGNEYjc4X1NNdTZ0UG9OMVNHUHBsUUQyRzEzS2VBa0ZJTDdiZEdiTjVJNVN1U3NJWXZzY09RNnduV0dsTmpDcjNNY3VEQVVVNW5renBnQTZrMEZiRnBzUGZ4eVJvVERyVnRVNml5U2ZpbmJfTlU?oc=5",
     "pub": "Sat, 14 Nov 2026 11:18:54 GMT",
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQdUhNVDJPYm5teDBIMGdOc3gyUE8xcnJoQVdJbmhlOU5ORlZXdWV2cmJYRkpRQjRjeF9aQ3NsanhDc0VwbVNNN0RCSnIzY3dmTG5lczA2a0ZwUmdodS1WM19VOU5Nd1VlSHRLT29YREVjcVk1MHZEb0c4SC1kNUlCdzBhM2dIT2t1c0JvTWtGZkVYc0U?oc=5",
     "pub": "Sat, 14 Nov 2026 10:12:47 GMT",
     "src": "France 24",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia, Alphabet, Microsoft, and Micron Are All Buying Anthropic’s IPO. Should You Buy Too? - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQbFVxMm44bG1IQmd4ZE5ObVNpLTJHQVcweHc4T2R3TExkUFV2OFVGOEF0T09URGVWOTNJZXJIUWJKNmFtNVB2dGdaVXo5cjg5Ni1FU3htNHlldFZ4bW16ZVBhRU9iZHdjeEZMeTBzYVUtQWZ6T3ZSYm5oVGR4RjFaSndobHhZQVotNHZjVlMtc3A0NnVZcXlUNWRUOG8ybWpHbkczZjJESQ?oc=5",
-    "pub": "Sat, 14 Nov 2026 10:02:00 GMT",
-    "src": "The Motley Fool",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia's Order Book Meets Washington's Rulebook as November 17 Looms - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeHdJZUJRcEZCMTh1VEhmdXZ4TE9PVjM5dXpBWUV6c2RXTWVOY3hiZ1hPNG96eVVHQzJ6WGo4dDhES04zUGNocGM4ejU5T3B3YWlYcllVcldxR01odDJFM0p0MkNkQXdSeE55eS0yNFlsU3oxVk9vdjRGcHFMLVd3S2g2MklNdFlGeEZuSEJPS3V1S3BPcVN4QXdQWlFhU3ZWZGFsdENEMWZmNlBXemI5RkxtSnZtVWRIVW13S3Vsb3kwNjZTNkFWMkVHLUpzRF9QQ3ZhOXdvNA?oc=5",
-    "pub": "Sat, 14 Nov 2026 09:31:07 GMT",
-    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1389,7 +1389,7 @@
    {
     "title": "Major Cryptocurrencies Reacted Unevenly to Geopolitical Risk During Russia-Ukraine War - Bioengineer.org",
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOb1UwWWlBV0NMYmk1RHdZTjUxdW9rQ0hRa1pxMjNqVkRqdmxyMEZqS3cwS3NGTHRDNlJxcmZHa3JwVjFPMmpOanVsOWlHQllPSFBzRjhtZzhRSDBfMUc2R0d1TzR5UGRCdENRWUpiQ1V1aTItNzJldmdvQ25iby1XM3dSMGRNWjhCam96RVFmSXdtWlRweVJiWkYxN3pfLWRhRTVlZXdGM2d4OTM3R2FhaQ?oc=5",
-    "pub": "Sat, 14 Nov 2026 06:45:16 GMT",
+    "pub": "Sat, 14 Nov 2026 06:53:54 GMT",
     "src": "Bioengineer.org",
     "trig": false,
     "geo": false
@@ -1735,7 +1735,7 @@
    81382.15,
    80790.84,
    77434.75,
-   67150.64
+   67077.05
   ],
   "vixts": [
    0.793,
@@ -2811,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T12:41:47+00:00",
+  "checked": "2026-11-14T12:51:51+00:00",
   "openai": {
    "found": false
   },

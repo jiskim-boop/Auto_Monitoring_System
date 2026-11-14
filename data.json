@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T03:32:29+00:00",
+ "updated": "2026-11-14T03:42:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66977.27,
-   "chg": -6.12,
-   "chg5": -10.2,
-   "chg20": -17.1,
-   "sma20": 76521.84,
-   "sma50": 80509.79,
-   "sma200": 72474.64,
+   "price": 66912.82,
+   "chg": -6.21,
+   "chg5": -10.29,
+   "chg20": -17.18,
+   "sma20": 76518.61,
+   "sma50": 80508.5,
+   "sma200": 72474.29,
    "high3m": 86602.91,
-   "reg": 66977.27,
+   "reg": 66912.82,
    "pre": null,
    "post": null,
-   "regClose": 66977.27,
+   "regClose": 66912.82,
    "sess": "reg",
-   "mt": 1794627114,
+   "mt": 1794627697,
    "ok": true
   },
   "USO": {
@@ -1321,14 +1321,6 @@
     "geo": false
    },
    {
-    "title": "SpaceX launches milestone Starship flight to demonstrate full reusability of orbit-class rocket - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBSZjU2emJ2X21oRkFSWllCbXlQSVBWMVJPLTdqMzJ2V0VFVmxsOFN1anZZblpZSFhxZ2xjSE1uU2psLWFQcFcxUVhZNExCS0Z2X2Y0WkpSNk1MemVSNExKRndCVTBEVzRzUEJ0SUxDbEsweFBGN0g4?oc=5",
-    "pub": "Sat, 14 Nov 2026 02:10:25 GMT",
-    "src": "CBS News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "SpaceX Starship booster explodes after launch - NBC News",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSy1EekJZNUs0N3VjRlhXdzdmVmNNeUMwQjEzaEFNWkRXRmowQ24xMXEzOTFndDYtUGd3YmVQblU4TVVPeGVDWUhuYS1xMXdGM1VGQXg3X0dTcURwVG5mU2FTeVViazNPWEdBUUVXOXpJanJzb19FV1RkdHdzNkdxN2hmTkVSVHBCV01OMGdfaDBseUdfQ3h3VHpHdw?oc=5",
     "pub": "Sat, 14 Nov 2026 02:00:52 GMT",
@@ -1341,6 +1333,14 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPU09rbWNVYy1Da05xcE1rTVdLR3M4NWhJU0ItOTBuSlo1THRqLVNUZ0tWa3VUbXZsd2dybENOb0M5cUF4aUhUdm42elpSeFl1aHBGYWFwajVYaXEtaGJMNjNmYkxTYUtxNDdEc2NJbGhWcTRyRXB4MHZJX1ZNbVZFdFhMUzRSZGc3WENV?oc=5",
     "pub": "Sat, 14 Nov 2026 01:50:29 GMT",
     "src": "NBC News",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX’s Starship soars into orbit after booster explosion prevents an unprecedented double catch - KTVN",
+    "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxQX2ZsYklTWGRiMEx3T0xINDY5cXF6VTZVTVRmRnNfVE5Xd3pHRkF3RzZxQzRGR21UdDBqWllBOFdUOUJsbDlWOEhSWEh1ZDc3cjZTeG9TT3N0dXJUbGtXaUFPSU5XaHBJM2ViY0hJX1FEZlBuNDYtdDV1NnF3dzVwVDF0SnQ2cy0wd1ZCSndLZ3RxUDdVeVViVHlLbTBiZ1loYTNqZmZTNDJtV3R4enUwcjhndGd4TC1pd2tlcmh2bWpxVGJCZGFqdDVSNzl6QTdCbExvcFVhSVVBZW1MalpocHNNRTYwVlduNzhPTmJsSUc0WnJpSU8wcHJFWFpnVEJFclZXRWQ3bzNxVW1QNUE?oc=5",
+    "pub": "Sat, 14 Nov 2026 01:45:05 GMT",
+    "src": "KTVN",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81500.8,
    81074.19,
    77198.21,
-   66831.03
+   66900.99
   ],
   "vixts": [
    0.772,
@@ -2811,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T03:32:17+00:00",
+  "checked": "2026-11-14T03:42:03+00:00",
   "openai": {
    "found": false
   },

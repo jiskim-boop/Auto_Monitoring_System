@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T22:42:01+00:00",
+ "updated": "2026-11-14T22:52:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 63954.12,
-   "chg": -6.29,
-   "chg5": -14.98,
-   "chg20": -20.08,
-   "sma20": 75781.94,
-   "sma50": 80133.61,
-   "sma200": 72435.46,
+   "price": 63359.52,
+   "chg": -7.16,
+   "chg5": -15.77,
+   "chg20": -20.82,
+   "sma20": 75752.21,
+   "sma50": 80121.72,
+   "sma200": 72432.25,
    "high3m": 86602.91,
-   "reg": 63954.12,
+   "reg": 63359.52,
    "pre": null,
    "post": null,
-   "regClose": 63954.12,
+   "regClose": 63359.52,
    "sess": "reg",
-   "mt": 1794696090,
+   "mt": 1794696693,
    "ok": true
   },
   "USO": {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX rocket orbits Earth then returns to launch pad in breakthrough for Musk - ABC News & Headlines – Australian Broadcasting Corporation",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnNNQl9wRE9lMDlQTFI3aldtaHlsV2lXN1lDaUR2SUFjcGF1ZjMta2RkUHFOV0NLLXNHM2g0SlJ5bmQtN2tpeWFvcXhBYXZ2ckdwWVJKbENTYTlZZi13dHNObmwyUlE1bWtRRFRtVldseUdBb3Z6anNNdW1wcWlxUXhPbFd1UVBZWWEwdVdVc2lEbXhRZnJJUVNyR2JKZHVqWS1QYUhqWHFIdw?oc=5",
-    "pub": "Sat, 14 Nov 2026 22:37:14 GMT",
-    "src": "ABC News & Headlines – Australian Broadcasting Corporation",
+    "title": "SpaceX's Starship successfully returns to launch tower for first time - CBC",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1XZFRQeWJMN1N2SFZFMmhhZy05WkNIZU9odlZlVklVcnVLT1NzOWdDWlUxSmdSc0tBUkJQTXg5THRpaGFMZjE1NDlRVkdocWVDbkRYZFJNeC0wQQ?oc=5",
+    "pub": "Sat, 14 Nov 2026 22:43:58 GMT",
+    "src": "CBC",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX Starship Launch - Columbia Missourian",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNWWJMQkF5d3B6X0RUSWdybzY4dExkOUJLZUkxeGgzT0owTjJNdF9IUHNBZVJraklISnNpY05COUxJdFdTVThfb1A0ZWhUOVk4b1RMUUZwLVJvTmRqQ1Ezaml3b0NKbkV2aXc5QXRoMGNhSDQ1TUFkZ01VSi1KSjd0eFVZQlpXd0VTZ1AzMUx6c3BnNllCSTJJVUwydHZ6OXVCdmR2d2tGRFpxMk1fUUR6MnpvYlNxLW9QZVIxeFlqSHM?oc=5",
+    "pub": "Sat, 14 Nov 2026 22:42:11 GMT",
+    "src": "Columbia Missourian",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX's Starship returns to Earth in dramatic catch by launch pad arms, in photos - Mankato Free Press",
+    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxOOEgtWS1IM3JDaV9GTWxtWjNPalhnaW5NZGVieHYzVWo5WE1OdkRVQVZIUHVaOXNaMmI0TXBqTjN0NkF6eDZ4YmU3bjY0RGhjNTZsa0x0SXVEaXhraTdQRmMtbHBoSE9jTnRJMFFHbVdOcllJTzJlT1JnYVlLWC1HeGhwM0J3MFU2RjRvRXpYbk42ZWl0b08yWEdDVzVDSThBLURocVhCR2U5Uk5lcnpHUGt1Ym9SdVRFV3Z6TGZaOUxFRG5nWFEyd3NzZW1JWlVxR214WWRtdFVLaHNKRVFLMElPTmVYTVNHOFI0SDhndnJhel9NVTh6dzRjZGJtUnJiSmUwa3dPT3l5cWNvb05Qazl0MTBnN00?oc=5",
+    "pub": "Sat, 14 Nov 2026 22:39:26 GMT",
+    "src": "Mankato Free Press",
     "trig": false,
     "geo": false
    },
@@ -1313,34 +1329,18 @@
     "geo": false
    },
    {
+    "title": "SpaceX rocket orbits Earth then returns to launch pad in breakthrough for Musk - ABC News & Headlines – Australian Broadcasting Corporation",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPTnNNQl9wRE9lMDlQTFI3aldtaHlsV2lXN1lDaUR2SUFjcGF1ZjMta2RkUHFOV0NLLXNHM2g0SlJ5bmQtN2tpeWFvcXhBYXZ2ckdwWVJKbENTYTlZZi13dHNObmwyUlE1bWtRRFRtVldseUdBb3Z6anNNdW1wcWlxUXhPbFd1UVBZWWEwdVdVc2lEbXhRZnJJUVNyR2JKZHVqWS1QYUhqWHFIdw?oc=5",
+    "pub": "Sat, 14 Nov 2026 22:34:32 GMT",
+    "src": "ABC News & Headlines – Australian Broadcasting Corporation",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX makes history with Starship catch - NPR",
     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcl9iSGxkY2dNU1BjQXhKdG1UVUxmM0g4Z1hTSE8tWlhxTUpxMGtxYm5uX0lObmo1Q1hjek1JT1VPNVpSaW0wR3pTemZoYnpPdmhRRmpWRUI1WVVFOVpBdDNjZTBaT25rZkt2M2hGT3p2MGVSOU42NldxT3ZYQ3lkMUdJektkZ0FHZE9fV2ZB?oc=5",
     "pub": "Sat, 14 Nov 2026 22:31:41 GMT",
     "src": "NPR",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX’s Starship returns from orbit and captured by launch pad arms in a dramatic first - KRCG",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPaENxZHg1b3NkWHIyZmU4R2lCcHQwM0d6Yy1lalBITFN5M2N0cnJkMG5TR25xa1A5MTZ0QV9WU1ViSzFzWjV3enNaWmVyczNmbXZOd2dsZ3Vzcy1TZTJNUzdaYlFQc1JBczlIVUN3MGU4WEVWSHV4eEotbUZkRmN5MHMzbEhDUnRPN2N2NXRxLXlFZFJlZmpuZVdiSUs4THduWjNGU3kxSDE2OWpyZUhmVWdQTk1YVElzOGVPRk95eFJUcm1reWZPckNQMWk?oc=5",
-    "pub": "Sat, 14 Nov 2026 22:30:01 GMT",
-    "src": "KRCG",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Part of SpaceX Starship completes first successful return from orbit into mechanical arms - The Irish Times",
-    "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNZzQ1Qm9jaVdzcXF5OWFlZWhLcHF6c2hYWndNOW1kYTQyOEc3dzl6TDU2UTBPVnQ5d1dfT0hnZkNLZWJrNHFua1pJMkVDMEgza01abzcwWmlCbVlrNGZ3VmlwMkdHY2FXQkZBMEJWY1NoeW5vOWg0Sk9XMGtwaUNHc0x4dmhnZjlKOXBQdERNT05jNFFoMUpPRlZzLXdobmVmcU1VRlU4czVEZnh6cURIV1RTYl9kbnQxLTZQV3FqTzBMSERzOUlXb0xRcGFBSXQ4bFNJZ0lOX2RXUQ?oc=5",
-    "pub": "Sat, 14 Nov 2026 22:25:57 GMT",
-    "src": "The Irish Times",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Micron's Singapore Build-Out Puts a 2027 Deadline on the Memory Shortage Trade - ad-hoc-news.de",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNN05oVW95QnNnRnhhQ0huSjBNRl8tc1ZVTEYwZDBiLUF5eGw0Zk5CeHIwX3dDSUZkckdyXzFMUWo5WG1CWE02dnVOOThNY01vN21XN2I0QWpBcENSUjZMQUZsQWpkTl8xdnpIYTFLRnFGd0xkUGVUR0ZMMlhRWTl4eDNrNFBiZ2hiX3Myemg0Uk5oZl9TX2JKa2U2QVVCekt1eHN3VzNwU3NnYWg3c205dXJvWHNVUmN4aWVZR1ljRlpfUHZuZWVGejNxdGhKTEZwamVRSWR0Q0FidmY2TmZlSm9nS3k?oc=5",
-    "pub": "Sat, 14 Nov 2026 22:24:00 GMT",
-    "src": "ad-hoc-news.de",
     "trig": false,
     "geo": false
    }
@@ -1405,6 +1405,14 @@
     "geo": false
    },
    {
+    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
+    "pub": "Sat, 14 Nov 2026 13:21:06 GMT",
+    "src": "EnergyNow.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Copper Market Liquidity Crisis Looms as Two Investment Banks Diverge Sharply on 2027 Price Outlook - NAI500",
     "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxObGZhSWdkNVpnUkxLSFdPa0M3ZGJtalF2ZmZ0SmJtLTh5NUkxNGI0ckd0MTNOTnJldmhtZjdVWEh4M2RJRUlHUnRlOTBqYmpsQ19TdU9JYkZsNU9aWTc0U3R5YmY2clZJSVkzTVZSUHRya1k0clJ6X1BQZlEzVm03ckZqUUFqZVNtV09XXzV5X0kzbTY5a0lYREcwM1ltQkVOc1o0WXdSaEpTN0Z1YmM3czQ4MVBqM3AwTkJQajlRQ2U1MG1nd3JQempVTQ?oc=5",
     "pub": "Sat, 14 Nov 2026 08:48:50 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBlUmQ4Q2F5Sk45cHBKdlk1dUE2Y0Fwbi1CNjdsZC1MazB3R2Z2VmdLd1NZbG45b3Z1eE9JdTRxUlplYzdzSkRjYXV6S2hvY243NnfSAVdBVV95cUxPTmJjVU9VeW8xRnREYndWLVZrbzE0ZXNYdGxvUWFCa3RBcFZYSFkwMzlucjYyWWw5UXZaVnl1eWxFdDFlVDVBaUtpTFJYSXhkQ2NnbjlZa1k?oc=5",
     "pub": "Sat, 14 Nov 2026 07:05:00 GMT",
     "src": "Armenpress",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Bitcoin Struggles Below $80K as Yen Strength Threatens Carry Trade Unwind - CoinMarketCap",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWmI0dWZyZnlOci1fcnJGcVdnT1ZnZmhPZ3FqendvVkQ3UFhfM3Z0TmVnbFRMQ3JVOWNMTXpnNGJNSEZKV1ljQnRoMWNPUDB0UXpRMDIxZzQyZ2JxZEdlcGthQzUwemhHajY2b0Y3VFNEMlV4WVVYSWRZRVBJaTBEcWtLYVljdmdQaHU0YTlMcXFRNThLaEE?oc=5",
-    "pub": "Sat, 14 Nov 2026 06:07:33 GMT",
-    "src": "CoinMarketCap",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81382.15,
    80790.84,
    77434.75,
-   63980.35
+   63356.81
   ],
   "vixts": [
    0.793,
@@ -2812,7 +2812,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T22:41:48+00:00",
+  "checked": "2026-11-14T22:51:53+00:00",
   "openai": {
    "found": false
   },

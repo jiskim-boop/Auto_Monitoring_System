@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T04:12:14+00:00",
+ "updated": "2026-11-14T04:22:16+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -849,7 +849,7 @@
    "post": null,
    "regClose": 98.79,
    "sess": "reg",
-   "mt": 1794603600,
+   "mt": 1794604653,
    "ok": true
   },
   "DX-Y.NYB": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 66711.33,
-   "chg": -6.49,
-   "chg5": -10.56,
-   "chg20": -17.43,
-   "sma20": 76508.54,
-   "sma50": 80504.47,
-   "sma200": 72473.2,
+   "price": 66773.04,
+   "chg": -6.41,
+   "chg5": -10.47,
+   "chg20": -17.35,
+   "sma20": 76511.63,
+   "sma50": 80505.7,
+   "sma200": 72473.53,
    "high3m": 86602.91,
-   "reg": 66711.33,
+   "reg": 66773.04,
    "pre": null,
    "post": null,
-   "regClose": 66711.33,
+   "regClose": 66773.04,
    "sess": "reg",
-   "mt": 1794629491,
+   "mt": 1794630097,
    "ok": true
   },
   "USO": {
@@ -1087,7 +1087,7 @@
    "post": null,
    "regClose": 50.28,
    "sess": "reg",
-   "mt": 1794603600,
+   "mt": 1794603721,
    "ok": true
   },
   "ES=F": {
@@ -1297,10 +1297,18 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX Starship blasts off from Texas - FOX 4 News Dallas-Fort Worth",
-    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5hQkxNQzlNczI4R0tFMnFraFFIaDViTlIwYUpCeENUdnVkR0llZlVlQ1J1U0hwMmFaRndwTEE3U3owSXZHWkxta3RfcXUwU2l3T3pYWnNiMFAtd3VHTmJlcNIBZkFVX3lxTE05WEF6UktORnE5cFNqRE5JZEdxQ3RYUXRJdGhJdjk3Y0lXVkNpZzloMF8xemZiWTU3bkZseFVHSndZdmZFalR6Q2h2ZFg1RmNmX0xJcDFxYnJ1eEsxbm5SUFBtaFdJUQ?oc=5",
-    "pub": "Sat, 14 Nov 2026 04:01:15 GMT",
-    "src": "FOX 4 News Dallas-Fort Worth",
+    "title": "SpaceX’s Starship soars into orbit after booster explosion foils unprecedented maneuver - Los Angeles Times",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOeUpLZ3ZvQWZGd1lfZGN3bTNpWGwyend4WnFhWVJuUlFQSnZtMjNoeU0tYk9pWVItUkM0VE1mMG1BLUxWM0tFS1pDVkRkODFfNGpaa3VSTVBwWkhrNEtVUEcxX08yTUlqMkp1SF9leFFmcWgxVWU0d3hWMWxjaFhRd1F0N0VVYVo5bXBnQUdrQmpsLVZFZXZ0NktPRU9BaVZjWlhQeTBfbFZMeDdwaEJDRQ?oc=5",
+    "pub": "Sat, 14 Nov 2026 04:12:00 GMT",
+    "src": "Los Angeles Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX Starship blasts off from Texas - FOX 26 Houston",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBqc2p1b1ItSF9NdHVvRmE2aU9Zak44d3dJazVOOTNMbmFISnUtU3hPMktIMlFaUEoybGxTbl9vX2lXZGhVM0EwUEQzSGtGVlAwSmthVWJoblZXendYQVRuQ2JrS25MQdIBa0FVX3lxTE1ZbVJUajA5NU5pRE1NN2VhUnV0TTJqZ0hCdE5paHhxaThEQloxallVSEk1aEhOVWpxc21uempiYXdIaEtpb1p0UjBSQXJFbURMY2ZGdXlPZVY0bnVUc1lZOTFYMEltWVhZSDE0?oc=5",
+    "pub": "Sat, 14 Nov 2026 04:03:19 GMT",
+    "src": "FOX 26 Houston",
     "trig": false,
     "geo": false
    },
@@ -1329,19 +1337,11 @@
     "geo": false
    },
    {
-    "title": "Setback for SpaceX reusable rocket system despite successful launch - DW.com",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOdC1nQTZfeS1mN3Bkd0g4MlpYMGdhNW0wTTdDWjQzbWJ4ODF3ZF9hMFJLV2JSUWNiZ3ZzN2Z4YVR3eTJnNGVUX1pYeG9sN3NqN2FRcDNTdWx5Wkt2SFZmQWR1ODdMTGw1ZTM3VDJWTU55MHpSUFJ6NU8zZ3BoTVRXaTl1d3NZRGhkYkp2a0N2WVluVTTSAZMBQVVfeXFMUDcySjViSFFIUW5hd1NFNGtnN1VlNHVfZFVENURud3ZBbEhLVTQ2cGpmVy1iNGRLd2Fyb1k5NWtGMjkyeFdGMXBFa2xYeDdIdjhyVFJpZzNJaVIxaEN0ejlqN2dvTXF3QUVPMnRxcmRuRmxzeWI3VGs0U1lvdllySXh3aTN0SHZCdHM2YVZmOURyTG5z?oc=5",
-    "pub": "Sat, 14 Nov 2026 02:29:22 GMT",
-    "src": "DW.com",
+    "title": "SpaceX aims for first double catch of Starship in its most ambitious test flight yet - Baltimore Sun",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNQ2xQOWFYa0J6Mk1IU2hPU0FUSDlzX3p0RTM3YWdDN3dyZUlVYlFLbGFKVEctSWVSMjQyZHBmQzJtWlR1ZXVaVmtmSjZGenFYNGNXTEs0eUFGUkF3YWJweUpZS1NKT292aGkwdnl1c2xyNzd4WUJiY0dJNC1CZW5sT0VBcXgzWnBncmtxZ1JkR0QwNGxwRUt6S2ZJdENRRFNxSGprME9OTGVWRnhoWUxwZHBqM2lOSk5mcG5vRU9JcGh5QTh6YmZzM213?oc=5",
+    "pub": "Sat, 14 Nov 2026 03:01:22 GMT",
+    "src": "Baltimore Sun",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Booster explosion prevents a double catch of SpaceX's Starship - Daily Gate City",
-    "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNWXFlNlBWemRmRFZMZ1NkaWhSNEhmVUpMUENGRTFqbUJxRHZBaTVwZmVobmRDMU9TcEY1bnlZUEp5QXVEN01zTkZPUkd4TU9kNXY2aGw1SUMtTkRFOTdBYmZKd0pCOGVsY2NKb0hST2NjRUFQMk85VGkwRHFMZm9qaTVsdjBJM1dGVzdUM1I3Z3dHenNiQU1FRnIyeUVBVWdSNnpVdm5MSk9rR3lhbkdRZkNHWUZYMG9VcGYtb0lUNERDUjRRcGFjc3RHWngxUTk0WjNZdktLUkg4RTYwS3gydUFDb3U1SnZD?oc=5",
-    "pub": "Sat, 14 Nov 2026 02:13:31 GMT",
-    "src": "Daily Gate City",
-    "trig": true,
     "geo": false
    }
   ],
@@ -1735,7 +1735,7 @@
    81500.8,
    81074.19,
    77198.21,
-   66689.56
+   66838.23
   ],
   "vixts": [
    0.793,
@@ -2811,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T04:11:59+00:00",
+  "checked": "2026-11-14T04:22:02+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T00:02:49+00:00",
+ "updated": "2026-11-14T00:12:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 68346.46,
-   "chg": -4.2,
-   "chg5": -8.36,
-   "chg20": -15.4,
-   "sma20": 76590.3,
-   "sma50": 80537.17,
-   "sma200": 72482.08,
+   "price": 68338.86,
+   "chg": -4.21,
+   "chg5": -8.37,
+   "chg20": -15.41,
+   "sma20": 76589.92,
+   "sma50": 80537.02,
+   "sma200": 72482.04,
    "high3m": 86602.91,
-   "reg": 68346.46,
+   "reg": 68338.86,
    "pre": null,
    "post": null,
-   "regClose": 68346.46,
+   "regClose": 68338.86,
    "sess": "reg",
-   "mt": 1794614537,
+   "mt": 1794615093,
    "ok": true
   },
   "USO": {
@@ -1297,14 +1297,6 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX Launches Starship But Passes Up Booster Catch for Safety's Sake - Universe Today",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWNienBqZHl4UFN3ZHdobGxna2FsMGdnNG9OLU8yZmRVUDBWcVVhUTFId1pFX1IwUjFKMWdGOTR0TF81bDEwaUlEOEJZWlRNVHozRUhKaWg3YTFxenlhRmNsS0FZOTljSk1OMGxjYzFYU1ZaRTZQVFl1ZU0wZGVmcEU3UkpPcG5DQnNSQXFsNzM4QnFKdFZFOGZRZDZ5VUFKYk52OUp1REZ2Ymh2?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:55:00 GMT",
-    "src": "Universe Today",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Starship IFT-15 is in Orbit — Will it be “Caught” When It Returns to Earth? - Space Policy Online",
     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdE5qekJLS2RKQ3hZTWtqR0J3a1AzemZnRHM3OU1hRll1bUpJQUZyUTJYSHB6YTh4YlVjcU9jZWwyeU1pUjc2OThQc2hLOEY5ekVIMnAwU3hHVV9SWjY3aDNVVWVZb2F4M3V2QU1zY3M2dkY3NDlWSFNFS05pNUEwT096LVQtSS14UDhsM0o4WXRNMjhSSTJ0M1J4MjdNdTJDbjlvbTN2S055UQ?oc=5",
     "pub": "Fri, 13 Nov 2026 23:54:00 GMT",
@@ -1337,10 +1329,18 @@
     "geo": false
    },
    {
-    "title": "SpaceX Starship megarocket blasts off before expected return for reuse - The Guardian",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd21SdDNmejMxdk5kZEkyMzRFT2ZIZmk0ajhJSWZTZ3c4bV93VzNTVGJwZVFybXlYZkh0Z0NhZ1d5X0pWM1hBVTdjSG83OGF1TTlUNXFDTFh3ZTBLTnFzVzdUZncwV1BoN3JpWUtWV2VfU1BRRUhsTDRnVE85OWJSUkpqSmkyUDJaV2xLeHkweVRjUEExOFZKRGJTc2lWQQ?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:40:00 GMT",
-    "src": "The Guardian",
+    "title": "SpaceX aborts attempt to catch Starship rocket after booster fails - Financial Times",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNZWNnWFZjVm4xQnc4N1VLS2pwTjUtNGlIM1hGLW1xeDVnLUZJaFhfSXlneFhrel9kRFB5eU1fZURhSEMyWml0SWx3NVZJTi12WVluY01BdWRpLUU3NlV1a3liaHk4V0dDbm1EdldPS2JielZPTTlUMEhmRlJYbVRIeTJyTUc?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:43:09 GMT",
+    "src": "Financial Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Video: SpaceX Calls Off Attempt to Catch Rocket Booster - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQTVVpdGt6blpFTURhTEZkZ2h4WlNDZHI5MGFBd1IwTmlTYnRwN0M5N0tPaGF4MTBCNTgzcHpfSXkxNVozZFV1Q2U3RjBob3cxYmZOUG53Ui1lNWtteWV3RlJrNG9nbVNMSjZhZTYyaEM5VENSWnVicFV3S1pXVU1pM3doTktLTVNaMGI3Mm1kZmZYQjJzY2pTOV9ncHVXRFZ0ekh5Qm1GU2lSWURpY0l3cGxBcw?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:43:03 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81500.8,
    81074.19,
    77198.21,
-   68365.26
+   68339.28
   ],
   "vixts": [
    0.793,
@@ -2811,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T00:02:37+00:00",
+  "checked": "2026-11-14T00:11:51+00:00",
   "openai": {
    "found": false
   },

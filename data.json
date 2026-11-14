@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14T01:02:44+00:00",
+ "updated": "2026-11-14T01:12:10+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 68199.22,
-   "chg": -4.41,
-   "chg5": -8.56,
-   "chg20": -15.59,
-   "sma20": 76582.93,
-   "sma50": 80534.23,
-   "sma200": 72481.28,
+   "price": 68189.31,
+   "chg": -4.42,
+   "chg5": -8.57,
+   "chg20": -15.6,
+   "sma20": 76582.44,
+   "sma50": 80534.03,
+   "sma200": 72481.23,
    "high3m": 86602.91,
-   "reg": 68199.22,
+   "reg": 68189.31,
    "pre": null,
    "post": null,
-   "regClose": 68199.22,
+   "regClose": 68189.31,
    "sess": "reg",
-   "mt": 1794618123,
+   "mt": 1794618690,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Watch: SpaceX launches 15th Starship flight - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYnRrSGdfUkpZTXYxMkQ2cVVfNkhSRF9ZVnVQSVhsTm9tOV9GNDlDVkIxWFR1bW9jZVNSbWRoazg5a3NEbDRGeFluV0xMdFVCQ00zY1NaQWg5Zjl2azJzc0RkZnRfUDBjNnhtWGdZdTFJMDJqNlYwSVliSVdldG03bkFKNi1XcmpaZ1g3emd3?oc=5",
+    "pub": "Sat, 14 Nov 2026 01:00:36 GMT",
+    "src": "NBC News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Starship flight 15 powers to orbit—setting up a possible catch on Saturday - Ars Technica",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPd1Zub2xqb3dzYTFILXNXXzF5TkJOZmRDWFRXc25zbVFkNkU5Mll5aEZDVTB3aFJjQmFiZFo4Qzd1RXFnLTE5em1ROEQtNEctMTMwZmhMYUFMZDFRVjY1cF9nMGVOREJXc3VhbFlhSEtNdTNtb1JxS1BfTjdyNTdmMkp4TEN0VXd2eG43ZWJoUXR0dlRydy1zaWZsQWgwZkFSRDBaQUZueTIwMDZwdHZIWWZCNA?oc=5",
     "pub": "Sat, 14 Nov 2026 00:49:13 GMT",
@@ -1321,14 +1329,6 @@
     "geo": false
    },
    {
-    "title": "SpaceX's Starship Flight 15 launches from Texas, reaches orbit, but misses booster catch - Florida Today",
-    "link": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQN3pkM090bkc1cFctd1Y4TkE3ZHVxSDlDOFlsVWQ3bFFoemRNdzdZaGgyUXc1b1lJaHg5dWVlT2YtYzluMk1nbjZiRlNWWnJUd1d4Slo1ZFNTSnU2bzItTUVlcE5zY19UUGJWeDZHbnR1QUpHTTlrMGdXUUlXX01yRmZNemtiUjZFZjBZUnNtTVJuOHdmLWJXaUNJSF9VbkdSbHpmSWxaRlAyUEcydm91UVFVZklKVW1ZY1lHLXV4eGVBdFluSVkxWTdZR01ra2JNN3pCeTRfZ052dUgwMkZpSFNwYm9janVCWWVRWnhiRHpQQ3RRYjZRTERhSEs5OVU?oc=5",
-    "pub": "Sat, 14 Nov 2026 00:35:00 GMT",
-    "src": "Florida Today",
-    "trig": true,
-    "geo": false
-   },
-   {
     "title": "SpaceX launches Starship Flight 15: Booster catch called off, history still on the cards - Starlust.org",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNRDBNcWJiT1pVTDBHVXE4Z1BVM3ZEb0NaOFI3R2V2X0JWMV9nNjNJX3l2MFMzblZEc2s3WGZ3SGNzNlZYaGpzbWpWV0xXeDJ0aXlaakZWXzNvcGdhVWNwTzBhV19sSGlqOVlWb3dDVjBsdnFOOWVVblR1U3ZkOXhPOUJ1b1hacHFiamVKSnVqcXdyM0dXUk9NT1oyNE1tZ3NPeFd4RGN0MG1Zc1VI?oc=5",
     "pub": "Sat, 14 Nov 2026 00:34:33 GMT",
@@ -1337,10 +1337,10 @@
     "geo": false
    },
    {
-    "title": "SpaceX’s Starship soars into orbit after double catch thwarted by booster’s water landing - AP News",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbEJSd3lrcThXUUdyRWY1M1JSVzRrdG9OcFVQTUVRRXItcjlnN19uSFdqV1BJdEVFelI3anBNZm9lZkpsREYyTXNUVG5ndU5tZmlGY0ZtaGs5RHpQX0pVSllTV0M4RnlMeTFubXBydjVqN0k1V3VpeEZ1SEtVSUwtVkNIOWw5RDU4bWpJWmdwaHR2R2s0a0hR?oc=5",
-    "pub": "Sat, 14 Nov 2026 00:20:00 GMT",
-    "src": "AP News",
+    "title": "SpaceX's Starship soars into orbit after booster malfunction thwarts double catch attempt - PBS",
+    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOZXZLZklkUHg0MjhYb3dYUEVxWVVRNUZST0oyTWcxaFktYmRPb2NNTS1aX0k2ckJKdm1yODZXOVI0cUdONXRDVkhEeHhBcjZCY2h4MTB6Q1laN3g4eHFPN0lyOGpRZF9CSVhiYndJVFRJeHh3YUJnbG9aUmoyRHRTalg1aDJqMXNEelRRN1o2NGpOczdYWTVkaEtxOGgwWll1cXh5ZGRhVmRQUE82dXl3YnFiTkQ4b1lvbGNESnZOdl9id2PSAcgBQVVfeXFMT0VLamhXUF9BczFDN1RpZEdJTGJiNVNqZThJQmk3QUFoMzNkaVZqWGhYZ3NtQ0gyQ1psN0UxUDg2QXFjNnJjSHljaHo1WmF4bnVLS3czVjdxWWpNeUNLVUxILUptSHNraWpBNlBZbDYySDZBTUR1bk5DMm11bnNfcmhTTW84RnhXSkp4ZjJrdnJNOE9adzF4SDBlZWRaeWNQektJc0prbFBjOG9MamIwVGJkelNTVGRwZFdsaUg0RlhVYjliSjdETlk?oc=5",
+    "pub": "Sat, 14 Nov 2026 00:20:20 GMT",
+    "src": "PBS",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81500.8,
    81074.19,
    77198.21,
-   68199.62
+   68182.65
   ],
   "vixts": [
    0.793,
@@ -2811,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-14T01:02:28+00:00",
+  "checked": "2026-11-14T01:11:56+00:00",
   "openai": {
    "found": false
   },

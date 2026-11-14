@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T23:52:01+00:00",
+ "updated": "2026-11-14T00:02:49+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 68117.3,
-   "chg": -4.52,
-   "chg5": -8.67,
-   "chg20": -15.69,
-   "sma20": 76578.84,
-   "sma50": 80532.59,
-   "sma200": 72517.57,
+   "price": 68346.46,
+   "chg": -4.2,
+   "chg5": -8.36,
+   "chg20": -15.4,
+   "sma20": 76590.3,
+   "sma50": 80537.17,
+   "sma200": 72482.08,
    "high3m": 86602.91,
-   "reg": 68117.3,
+   "reg": 68346.46,
    "pre": null,
    "post": null,
-   "regClose": 68117.3,
+   "regClose": 68346.46,
    "sess": "reg",
-   "mt": 1794613890,
+   "mt": 1794614537,
    "ok": true
   },
   "USO": {
@@ -1044,14 +1044,14 @@
    "chg": -0.03,
    "chg5": 1.39,
    "chg20": 0.98,
-   "sma20": 158.08,
+   "sma20": 158.09,
    "sma50": 157.33,
-   "sma200": 159.2,
+   "sma200": 159.21,
    "high3m": 160.2,
    "reg": 159.69,
    "pre": null,
    "post": null,
-   "regClose": 159.69,
+   "regClose": 159.88,
    "sess": "reg",
    "mt": 1794607185,
    "ok": true
@@ -1061,14 +1061,14 @@
    "chg": -0.09,
    "chg5": -1.57,
    "chg20": -0.44,
-   "sma20": 1336.0,
-   "sma50": 1345.39,
-   "sma200": 1426.16,
+   "sma20": 1335.94,
+   "sma50": 1345.37,
+   "sma200": 1425.64,
    "high3m": 1413.58,
    "reg": 1335.11,
    "pre": null,
    "post": null,
-   "regClose": 1335.11,
+   "regClose": 1333.78,
    "sess": "reg",
    "mt": 1794609216,
    "ok": true
@@ -1297,6 +1297,30 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX Launches Starship But Passes Up Booster Catch for Safety's Sake - Universe Today",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdWNienBqZHl4UFN3ZHdobGxna2FsMGdnNG9OLU8yZmRVUDBWcVVhUTFId1pFX1IwUjFKMWdGOTR0TF81bDEwaUlEOEJZWlRNVHozRUhKaWg3YTFxenlhRmNsS0FZOTljSk1OMGxjYzFYU1ZaRTZQVFl1ZU0wZGVmcEU3UkpPcG5DQnNSQXFsNzM4QnFKdFZFOGZRZDZ5VUFKYk52OUp1REZ2Ymh2?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:55:00 GMT",
+    "src": "Universe Today",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Starship IFT-15 is in Orbit — Will it be “Caught” When It Returns to Earth? - Space Policy Online",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQdE5qekJLS2RKQ3hZTWtqR0J3a1AzemZnRHM3OU1hRll1bUpJQUZyUTJYSHB6YTh4YlVjcU9jZWwyeU1pUjc2OThQc2hLOEY5ekVIMnAwU3hHVV9SWjY3aDNVVWVZb2F4M3V2QU1zY3M2dkY3NDlWSFNFS05pNUEwT096LVQtSS14UDhsM0o4WXRNMjhSSTJ0M1J4MjdNdTJDbjlvbTN2S055UQ?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:54:00 GMT",
+    "src": "Space Policy Online",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX’s Starship lifts off on unprecedented test flight - CNN",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQNUl2Y1FZTVp3dk1GWW40SHRBcXRpWG1qS2YtamwyWS1MN2J2ZmtyTFZ3MUhjUXZKTDlDU3RQeVRJcVhndDQ0LTllblRSQXYtSzNBc0Y5Z0VQbTBRNnR5WUxxZkR0ZHVvNVVqNllwSlNKVXF0aUdUdFRESzd0RERHUXJwd0Rld1ZfY1FQajg4NTU?oc=5",
+    "pub": "Fri, 13 Nov 2026 23:50:00 GMT",
+    "src": "CNN",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX launches Starship for 15th test flight - NBC News",
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOdjdtcmZNelBlQVJ5d1RTS3pDR0V6clNGcTVvNUhTR1Y3MVNjYXRQZ3plbzcwb3k5OUNSM0RfOE9UMXduZHpVVmZ3czh4aW9YN0lQVW5tT2VSS1JURlpPdEZlc0hIaEdpMElzZmVNc05DTEVhWTBnX2VaeHpEUlhlMDl4S3pvLXY2aDB5dWZLZmliU2hkTjJqMDZ1Zw?oc=5",
     "pub": "Fri, 13 Nov 2026 23:45:23 GMT",
@@ -1317,30 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNd21SdDNmejMxdk5kZEkyMzRFT2ZIZmk0ajhJSWZTZ3c4bV93VzNTVGJwZVFybXlYZkh0Z0NhZ1d5X0pWM1hBVTdjSG83OGF1TTlUNXFDTFh3ZTBLTnFzVzdUZncwV1BoN3JpWUtWV2VfU1BRRUhsTDRnVE85OWJSUkpqSmkyUDJaV2xLeHkweVRjUEExOFZKRGJTc2lWQQ?oc=5",
     "pub": "Fri, 13 Nov 2026 23:40:00 GMT",
     "src": "The Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX’s Starship soars into orbit after double catch thwarted by booster malfunction - WTOP News",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNdWhGVVV2Q2pWSjVVV21SY2tqZUZSRUxDVmhZXzZOc0ZCZ1BkbE9XQlFhNTBkRVhvMWROUU1TWmphak9ndndhd3duZE9wNjJ3R2hZbjh3YzVIeEltRVhVZTM0ekRocTRGZEd0LVhaa29sZWJCNlJZUElaY1pzY211bnU3dm9EUWUtN1lPdGlwQ3VlbFBHRS1ZSS1ybGRJSm81eXY0VFFadUV0LWtVNGxPT3ZTNHFDWEdSNk9v?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:34:44 GMT",
-    "src": "WTOP News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "EXCLUSIVE: Investors flock to Anthropic IPO but question durability of AI lead - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOckJYSDVUWDh1cTJPb3ptd2pLZmxuNXBtSEJkN0F0WWFucUZuWDgtQ0dZbzZITDBWY3dhSWZqcjcyZl9FdGpHdHJsX1dkbVowTkZ3OWRKd3pwN2NIMnBGZ1AtbDFkMkl6Vm1RZFNsZ2VDOU1nLUVmY2d4UHV2U01ER1pJTmdlSGFDdmsyM2ZhbXlXYVdEb01ERlNybGxWY0RsYlo4QlNxa0NCaUNpQjQw?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:30:55 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Starship 15’s Super Heavy booster skips tower catch, heads for Gulf splashdown - Interesting Engineering",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPdmZPb05XaFBHRzBSVTVoeGZOMlZvSmxWZ3hEZ1Q5bFNUdkJDUnpsLURTWXZaRkxIT3RUbmRnSnRIdzZLWTR0MEVya2RoSEFmeEh4enFhQk9hMVZIVlZuS0YwenVJWjVuYzBWVnBrUXJSU1ZBYlJWa1diTHJGN1FCc3NXNXFLeF9qbWNrNFpCZVJpOUts?oc=5",
-    "pub": "Fri, 13 Nov 2026 23:27:00 GMT",
-    "src": "Interesting Engineering",
     "trig": false,
     "geo": false
    }
@@ -1663,19 +1663,19 @@
    98.79
   ],
   "jpy": [
-   159.33,
-   158.28,
-   159.26,
-   158.92,
-   153.57,
-   156.01,
-   158.26,
+   159.43,
+   158.88,
+   159.32,
+   155.66,
+   154.48,
+   156.13,
+   158.81,
    157.93,
    158.06,
    158.14,
    156.49,
    157.8,
-   159.69
+   159.88
   ],
   "uso": [
    126.6,
@@ -1723,19 +1723,19 @@
    355.45
   ],
   "btc": [
-   63402.17,
-   73032.76,
-   80257.54,
-   81271.74,
-   76568.12,
-   76403.77,
-   84379.06,
+   62975.59,
+   78335.19,
+   77830.29,
+   79671.97,
+   77173.8,
+   80901.46,
+   84034.92,
    84497.21,
    82546.32,
    81500.8,
    81074.19,
    77198.21,
-   68124.23
+   68365.26
   ],
   "vixts": [
    0.793,
@@ -2009,24 +2009,6 @@
   }
  },
  "history": [
-  {
-   "d": "2026-10-15",
-   "score": 2.0,
-   "st": "a",
-   "axis": 2,
-   "risk": false,
-   "hits": [
-    "사모대출 주가 약세",
-    "SKEW 급등",
-    "지수 추세 약세",
-    "AI 밸류체인 약세",
-    "VIX 상승추세",
-    "CCC-BB 확대(품질분산)",
-    "CCC-BB 저점이탈(+30%)",
-    "폭 축소(쏠림 랠리)",
-    "조정 지속(고점 -4.2%)"
-   ]
-  },
   {
    "d": "2026-10-16",
    "score": 4.0,
@@ -2526,6 +2508,20 @@
     "CCC-BB 저점이탈(+30%)",
     "조정 지속(고점 -10.5%)"
    ]
+  },
+  {
+   "d": "2026-11-14",
+   "score": 1.5,
+   "st": "a",
+   "axis": 1,
+   "risk": false,
+   "hits": [
+    "사모대출 주가 약세",
+    "AI 밸류체인 약세",
+    "CCC-BB 확대(품질분산)",
+    "CCC-BB 저점이탈(+30%)",
+    "조정 지속(고점 -10.5%)"
+   ]
   }
  ],
  "events": [
@@ -2533,49 +2529,49 @@
    "date": "2026-11-18",
    "name": "NVDA 실적",
    "at": "2026-11-17T21:00:00+00:00",
-   "dday": 4
+   "dday": 3
   },
   {
    "date": "2026-12-04",
    "name": "미 고용보고서(관례)",
    "at": "2026-12-04T13:30:00+00:00",
-   "dday": 21
+   "dday": 20
   },
   {
    "date": "2026-12-09",
    "name": "FOMC 금리결정",
    "at": "2026-12-09T19:00:00+00:00",
-   "dday": 26
+   "dday": 25
   },
   {
    "date": "2026-12-10",
    "name": "AVGO 실적",
    "at": "2026-12-09T21:00:00+00:00",
-   "dday": 26
+   "dday": 25
   },
   {
    "date": "2026-12-10",
    "name": "미 CPI(11월)",
    "at": "2026-12-10T13:30:00+00:00",
-   "dday": 27
+   "dday": 26
   },
   {
    "date": "2026-12-15",
    "name": "ORCL 실적",
    "at": "2026-12-14T21:00:00+00:00",
-   "dday": 31
+   "dday": 30
   },
   {
    "date": "2026-12-24",
    "name": "MU 실적(예상)",
    "at": "2026-12-23T21:00:00+00:00",
-   "dday": 40
+   "dday": 39
   },
   {
    "date": "2027-01-01",
    "name": "미 고용보고서(관례)",
    "at": "2027-01-01T13:30:00+00:00",
-   "dday": 49
+   "dday": 48
   }
  ],
  "gpu": {
@@ -2815,7 +2811,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-13T23:51:48+00:00",
+  "checked": "2026-11-14T00:02:37+00:00",
   "openai": {
    "found": false
   },
@@ -2836,7 +2832,7 @@
   "margin_gdp_pct": 4.48,
   "curve_bp": 27,
   "curve_inverted": false,
-  "curve_uninv_months": 26.2
+  "curve_uninv_months": 26.3
  },
  "ebp": {
   "val": -0.27,
@@ -2849,7 +2845,7 @@
   "peak": 3.42,
   "peak_d": "2008-10-01",
   "prev_val": -0.38,
-  "fetched": "2026-11-13",
+  "fetched": "2026-11-14",
   "src": "fed"
  },
  "klr": {

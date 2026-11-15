@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T22:52:05+00:00",
+ "updated": "2026-11-15T23:02:37+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65090.86,
-   "chg": 1.5,
-   "chg5": -11.71,
-   "chg20": -18.64,
-   "sma20": 75044.85,
-   "sma50": 79750.78,
-   "sma200": 72350.13,
+   "price": 65312.91,
+   "chg": 1.85,
+   "chg5": -11.4,
+   "chg20": -18.37,
+   "sma20": 75055.95,
+   "sma50": 79755.22,
+   "sma200": 72351.33,
    "high3m": 86602.91,
-   "reg": 65090.86,
+   "reg": 65312.91,
    "pre": null,
    "post": null,
-   "regClose": 65090.86,
+   "regClose": 65312.91,
    "sess": "reg",
-   "mt": 1794783085,
+   "mt": 1794783725,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.61,
-   "chg": -0.16,
-   "chg5": 0.83,
-   "chg20": 1.14,
+   "price": 159.77,
+   "chg": -0.07,
+   "chg5": 0.93,
+   "chg20": 1.25,
    "sma20": 158.18,
    "sma50": 157.4,
-   "sma200": 159.21,
+   "sma200": 159.22,
    "high3m": 160.2,
-   "reg": 159.61,
+   "reg": 159.77,
    "pre": null,
    "post": null,
-   "regClose": 159.61,
+   "regClose": 159.77,
    "sess": "reg",
-   "mt": 1794783087,
+   "mt": 1794783727,
    "ok": true
   },
   "KRW=X": {
-   "price": 1335.65,
-   "chg": 0.14,
-   "chg5": -1.99,
+   "price": 1335.73,
+   "chg": 0.15,
+   "chg5": -1.98,
    "chg20": 0.17,
    "sma20": 1336.05,
    "sma50": 1345.18,
-   "sma200": 1424.96,
+   "sma200": 1424.97,
    "high3m": 1390.79,
-   "reg": 1335.65,
+   "reg": 1335.73,
    "pre": null,
    "post": null,
-   "regClose": 1335.65,
+   "regClose": 1335.73,
    "sess": "reg",
-   "mt": 1794782630,
+   "mt": 1794783703,
    "ok": true
   },
   "^OVX": {
@@ -1247,10 +1247,10 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave lands $8.5B debt deal, cementing a trillion-dollar AI lending playbook - Dealroom",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPOUY3RzktdF9oUjdabHdCNmJadXAxR1JDNHlvWnVqZmZGelNndF9qajIxYTk1V2dMb1otdnBfMGRUTWQzY1oweENkV0NNWWYwNlRCdks1UUZRTWkxbGtVSzVNYVozRlg3cEdJNXY4LU5fVk5QeXN1YnZOTHMtbEhiS19WcWxTVE5US2JSbzJOQThTaVdUZUM1UXV4MmRRYm1pSzY0VkpkUTRYb19kVXY1eXBR?oc=5",
-    "pub": "Sun, 15 Nov 2026 20:29:14 GMT",
-    "src": "Dealroom",
+    "title": "CoreWeave Stock (CRWV): Earnings, Backlog, Debt and News, Tracked - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nWDdheGI1R3NTX1VHczBCdFN4bDZJZkN4OGl5TV9kWklrTDZhZE5XQjRyQjE2VDZRQzFUZEdZRDI1OVpNOUZIbmNSSTlfV3RTaGc?oc=5",
+    "pub": "Sun, 15 Nov 2026 19:55:29 GMT",
+    "src": "FourWeekMBA",
     "trig": false,
     "geo": false
    },
@@ -1675,7 +1675,7 @@
    157.81,
    156.83,
    157.68,
-   159.6
+   159.75
   ],
   "uso": [
    126.6,
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   65094.93
+   65343.01
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T22:51:52+00:00",
+  "checked": "2026-11-15T23:02:23+00:00",
   "openai": {
    "found": false
   },
@@ -2911,8 +2911,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.61,
-   "usdjpy_chg20": 1.14,
+   "usdjpy": 159.77,
+   "usdjpy_chg20": 1.25,
    "vix_chg5": -24.73,
    "hit": false,
    "missing": []
@@ -2920,7 +2920,7 @@
   "dollar": {
    "dxy": 103.41,
    "dxy_chg20": 1.4,
-   "usdkrw": 1335.65,
+   "usdkrw": 1335.73,
    "usdkrw_chg20": 0.17,
    "hit": false,
    "missing": []

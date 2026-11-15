@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T19:22:05+00:00",
+ "updated": "2026-11-15T19:32:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64998.46,
-   "chg": 1.36,
-   "chg5": -11.83,
-   "chg20": -18.76,
-   "sma20": 75040.23,
-   "sma50": 79748.93,
-   "sma200": 72349.63,
+   "price": 64926.59,
+   "chg": 1.25,
+   "chg5": -11.93,
+   "chg20": -18.85,
+   "sma20": 75036.64,
+   "sma50": 79747.49,
+   "sma200": 72349.24,
    "high3m": 86602.91,
-   "reg": 64998.46,
+   "reg": 64926.59,
    "pre": null,
    "post": null,
-   "regClose": 64998.46,
+   "regClose": 64926.59,
    "sess": "reg",
-   "mt": 1794770488,
+   "mt": 1794771110,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "ULA suffers first total mission failure with loss of Vulcan rocket carrying 40 Amazon Leo satellites - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPOXBwbWd2b0g0V3hIb3RLVTU4Tkd6M2xtSUNDUU5Pd1B5OW9rcGVMcXdiMnJKclpldzBIS0FsZlplY2tSelFyZldnQlhrd3FtOEZsWDRSYkJjdjNEWWFPVEdET0pPNHFjSEZUaFYyZTJCaUhGcC1PYkc3M1VIZDJGdG9WWHNsZFd1X0V1V1hFT1JKR2FmNnR0dXY2eWh5b0FEVTNVWFh2SjVSRmgtQVZPY2RaMXBfVTJhTzA2UG4zV05nd0dUZTFQVUtrNFhuMzlzbU5XOWF3?oc=5",
+    "pub": "Sun, 15 Nov 2026 19:16:59 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oracle Stock (ORCL): Earnings, Cloud Backlog, Capex and News, Tracked - FourWeekMBA",
     "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1Ecmw2blRoWWd4b256TFhMYWlHRVVabEdPNjlsMlgwNkxGTEVJLWg4am56Qk5vM0NCM2pqR2JiVTJwdUJ3d3ZuOFhSSVNQZw?oc=5",
     "pub": "Sun, 15 Nov 2026 18:15:29 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQdXRET1RjR2M1Z0pLWEdZWXNNNDgxNS1qenY4U0VhZWxOSWt3SVZKMmloRnpVWDVHdW95RndnT3dnZFNTZnNKaklwS2NrcTVJR2wwSzJwbEo5dm1jdzIxSm9QZmZocFlodVQ4UmRiUUhNOGhJVjNuTWt1NDlFSjB1Nm9wLWI5RGVvM0lrZDQwcXNQajVFaUt5UjdHVFhNUVVZakVN?oc=5",
     "pub": "Sun, 15 Nov 2026 16:17:27 GMT",
     "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX completes first-ever spaceship capture - DW.com",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQZEpuQmNMLUd4TWRNTkdFSngzaTFwTWFYcWJOb294Wl8xeEVDVjJuaXFiejVjeHR4WUo5OFhUeXlMY3E5Y1RJc0ktTnhLZ1d5MFVwNUVQM0FDV1hTMUtCSWptR2NiXy1TaS11b3BuYVJFQnR1SWM0bG51X21aRGV0ZjhvUC3SAYQBQVVfeXFMUG9OR0xZNGhZaHg2Y1RvUVhtcWZiVkVaLVhDSDVSbGlCUGxtNWRycy1kS0JRczRWZkdJSzJuV0tXYVVOa0xsd3UyUk15dHRvdXVBaXNkSzRwWkF6U1ptRWlDbTAwel9UcTdxcEUybWQ0QnBiLWdYbXc1ODVIR1VJcUZkX3lR?oc=5",
-    "pub": "Sun, 15 Nov 2026 16:07:23 GMT",
-    "src": "DW.com",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.81,
    156.83,
    157.68,
-   159.57
+   159.58
   ],
   "uso": [
    126.6,
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   64957.98
+   64944.08
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T19:21:51+00:00",
+  "checked": "2026-11-15T19:32:18+00:00",
   "openai": {
    "found": false
   },

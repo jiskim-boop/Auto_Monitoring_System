@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T13:02:52+00:00",
+ "updated": "2026-11-15T13:22:06+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65496.17,
-   "chg": 2.13,
-   "chg5": -11.16,
-   "chg20": -18.14,
-   "sma20": 75065.12,
-   "sma50": 79758.88,
-   "sma200": 72352.32,
+   "price": 65727.23,
+   "chg": 2.49,
+   "chg5": -10.84,
+   "chg20": -17.85,
+   "sma20": 75076.67,
+   "sma50": 79763.5,
+   "sma200": 72353.57,
    "high3m": 86602.91,
-   "reg": 65496.17,
+   "reg": 65727.23,
    "pre": null,
    "post": null,
-   "regClose": 65496.17,
+   "regClose": 65727.23,
    "sess": "reg",
-   "mt": 1794747731,
+   "mt": 1794748894,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Prospect Capital: My Biggest BDC Failure Ever (Rating Downgrade) (NASDAQ:PSEC) - Seeking Alpha",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYW9tVW5hcGVCUWJPWmgyZzBQcDN5LTNRV1JYWlZZSXpZUjB4M1N1amV4NUpMOVJwbTBFcVNZQlJqdnlPYU0zdFFpd2x0NHNTWXlyUEJzT0o3UnlONDV1Q1dyT0VBd1FzZGJfTUNQbmxxcGNYb1BIVklKbTdXbXVqWTdZT3RVUGVMSTZYMThObnVaRmRaQlN2UmJjTlp2RjRmVks0bA?oc=5",
+    "pub": "Sun, 15 Nov 2026 13:05:11 GMT",
+    "src": "Seeking Alpha",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "AI takes center stage in ASEAN Business Summit - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnpGWEt6bExvZENKbWtQTXI2NFQxVzloeWR4MVRoX3h2NDBQUkVNeXpCb2ZtVlBzdEh2Umx5RE12OVMtVHU5MVdrcjh1V2tWbVUyY0stX01TQlVKdDFsNEpiVFp5VHltVThucWpzUjB2RnN5a2pYMlpYUHhxeU42SGlDQVlHeFpiX3BFR0V6VVA5cTlTMlpRRHJoeDVTSm1WWW5Mbg?oc=5",
     "pub": "Sun, 15 Nov 2026 12:11:42 GMT",
@@ -1285,23 +1293,31 @@
     "src": "The Korea Daily",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave revenue jumps 168% to $4B in Q3 2026 despite $709M net loss - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQT3JrcnpFR3RhSXN0TVdqN2dMSnZGUWNxZ2NmNEtIUk0yS1F1ODFCOEFVMXJDQnlyUnhUUFRZdUFFcVNseGpKZXJNODRYakRPZDVRcW1FZ0k3ZEFBZ3NpNV9mYXotZmdfUUg1TU80WktfcGx6WmZudHI5bnlUblVxcWo3Z3A2T25lWWtJeXdoT1c1Z1djR1doclF3?oc=5",
-    "pub": "Sat, 14 Nov 2026 15:19:08 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "SpaceX Starship makes first pinpoint landing at launch pad in Texas - WBIR",
+    "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOR1R1Y1FKeHpacUxTUW12ZzlQX2xCRFo0dThOLWlLeFlTUGdYTG5xN2xJME5iaGlHeHBrU2RMcWFyc0lHaEk3WVl0R0RNUEg3TUh4aFM4NVlEb3Z6Q3MwRUllZnFUUXItU3BuX0ZZdjN2WHRaOUp2LVNOd2tkbnN6UGZGeUZ2OXoyemhDWjJ5OVgxbUc3ajAzNU1EZW1WeXVHWEwyaExUaWZDd3B5bDVjd2d5M3BVQlpDMWU3RHZ3YUdMdmRJR1d1UklqYW5paW9jUV90d2hhY2MtQUdfOWRrcXJ3?oc=5",
+    "pub": "Sun, 15 Nov 2026 13:01:00 GMT",
+    "src": "WBIR",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "SpaceX’s Starship returns to launch pad from orbit – video - The Guardian",
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQOGRsbVBwbWYtZ08ybGpPYnI1dXM0UWk1N0l4RlhteWtaaHIxSWh6NmJnTnkxTndkVEhmQ2dwN1E2YUN3Skw5ZjVTRzFVejBTU1g3cEtKSTVsR0M1RERNS0NwbmpDX1M4a1YzdEFwbFNUdUNsUEo1TV9BRC0yNk5LNmR2bjdvMFZWQTRkbkYxR3Y0X01JSlcwYjZ3?oc=5",
     "pub": "Sun, 15 Nov 2026 12:26:00 GMT",
     "src": "The Guardian",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Federal Judge Rejects Memory Makers’ Defense To Advance Class-Action Antitrust Lawsuit; Samsung, Micron & SK hynix Must Face The Music Over Artificial DRAM Shortage - Wccftech",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQTy1tcHhMeldLcnJHTk1Jd1IzNTdjNnNFMVBzcy1UNHE0Y2FHbGdiV2lQRHFlczdUZXEzZ244YWxiMGJyMnNEZVY2VkdoeXNIeXBYOU5Od2JyLTVfQ0lLODZYOFdoSGp0Rll2bXhPV1h6WDlQVEstNkprcXlpVFFRS1k5dkQ0Qmh2UUlpZkhDTW84VTBvLS1ZSTFPSFpyNGV0cW5Ed3dSOENpUE1PNjg0S9IBtgFBVV95cUxNTXNacVA1YXdhbWIwMDB5QlNSNHR2TlBNMDZrQ1dsMWdxMEM3THVNRVdnS0FoUmNYYXNOT3o5THRYbC1MVWFQNnF2dmw3V18yVG9SVlBIdVRrUllScGpJcFJyQnNiYkktR1lWdGN4RXlfRVhVMDdQMm5BMUhaUWhTMmJOdFNoM2NLd21jNG81OUVIWkQzS3VOc3Q2V05xU1V3NUZ3QklxVm9pME54alBET3FGVWNyQQ?oc=5",
+    "pub": "Sun, 15 Nov 2026 12:11:43 GMT",
+    "src": "Wccftech",
+    "trig": true,
     "geo": false
    },
    {
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRE9Lb1RTeTBDbDIwN1RDVk9wWXhNRGRFMndTcG9XRmNSdlhfbzlYYXhGQ1owYm1YZy0tTndyTC1VNndkaUZGMGlIb1ZYOTVnNFlLbWZEUkpxcWpla0RBckxZUHluTTZXRlZ5N0FwVkZFTDlKTjBmd0JRblNCMGsxOUduMHZGRDFLWkp3bXpaU0owTURyb1hoQlFmZw?oc=5",
     "pub": "Sun, 15 Nov 2026 11:25:00 GMT",
     "src": "Newsweek",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI, Google and Anthropic Face AI Model Freeze Lawsuit - Cointribune",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNeUFhZ2FMMFZNS003Z2dUQVVmTFBaOHdsNTdOTFUtSVdpdWMwSXhUWVoyeHZMYy14RUUxaFNUbXV1TFRwZzZMOEkwQ0Q4Qnd2by1ubnZ2ei01ZDdwUkswdFMxVDQ1VVF2WVo3ZURNa09wZHBNRkRBU0wyYzNVelBfQkUya19kck56aTBqaWp3VTBmdw?oc=5",
-    "pub": "Sun, 15 Nov 2026 11:05:00 GMT",
-    "src": "Cointribune",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Nvidia's first post-Jensen earnings and Anthropic's IPO: What to watch this week - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPRGowX3ljRUhFOUtMR2diRUJHR2xTalpGZExTNFRKTExUQTQ2cUtNQXZfWEVRM3BMYldsOEh2czRtSmJZVExCakN0Q2VaWVRWWmFSYjRsRFBqNzRucXh1c2pIcW84aDUzdkhjY3pyZFFkVjRSN2gzU0dNM1NEWXI2WHIxdXl0OTB4OVM3QVVsSXg5V2NUQVVLVmZJWURyaWhXOUxyTWE3cm1qVXRQTFktZWQ0Y3hmaWlaenFrTi1jc3ZPSTFlWUVEbXRaYUVQOU0?oc=5",
-    "pub": "Sun, 15 Nov 2026 11:00:00 GMT",
-    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1405,6 +1405,14 @@
     "geo": false
    },
    {
+    "title": "USD/JPY Weekly Outlook: Oil shock offsets mounting AI concerns - StoneX",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS3VIRnVWTWxDRHE5NjZMNmFTM21Ha0FSOXUtWU1VT09GV29TTXpVYU5nNUY3bjFiRnVwaXNjV1BxYmpMX09sZ0EtekhzTkJGeGltSkotbUlMVU9rSXUxalkzM1NNU2h5d29lakxwWTZrYlMtWU10UlZGSzNTT0RKb1BDSzItZ0I4VzJ6Q09uUnE0TVdEaXB6b2dxWThQYmx1bnVyUjZSakNhUW81WHc?oc=5",
+    "pub": "Sun, 15 Nov 2026 01:11:47 GMT",
+    "src": "StoneX",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Electrifying Ambitions Meet Tough Reality in Europe - Crude Oil Prices Today | OilPrice.com",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOTI3SGdjYXBxc3dlc3ozY1BmZWhfb3NjMUt3NVRTQVliS0hPTGJSZGtic09JcEl5Qi1MMmZ3TjJmQkRIa1lpV0hLUVdDckY0NkRMMEdlOWxrejJ2ajNEcWpWZDRXRU5qbmJsTGNDc3BrOU01eV9ndWdSUXdHYTE3NFRFbjJhM05FME01R0lwci05X0twTmgxNlg1bkJFZFVD0gGmAUFVX3lxTE5oVzFldTlrdmNFVFJwMlpMbWR1T2s1dXR2VDQ1YW5sU2xUcURfdEpCNE1UWm5TelN4UDFHSmYtRHJIa3l0WURKUkRlT2pWNk5jVFY4dF91R0dQVkJyMHJUTWJzRU1JNnY3VnRXNE9RZ0FkN2JCb2dUSXllb05NZ1FySllpS1pid1JEeGxtWnFLQl9pY1dLTjNmeUtRVWNwYzlUcHFxU0E?oc=5",
     "pub": "Sun, 15 Nov 2026 00:00:00 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNdmg5M29QLUFPZHdxMi03TmFxQV9Jc052NDhVZ09BcFRqbW5uR2pObFdnalM0ZzVZV1FuYmQxemVzU3JuNkhwUVhyX2pWSWc1TklTWTZTNFRZSUhoQmJ6LXJYYjl5c2JCcXBoZEVnMXlEYWVRc2NMckVZRTlYMmNNY3J1LXVkdk9pV0tPVE5JSlU2STV5cXJqdWtXNjhMMXNOSEl1ZW9ZVENOR0ZDS2hMUTZYSXVLY3Z4TDdGUlliZ3bSAcYBQVVfeXFMTXljMDRjeXI0bFcwb0xvNExZYVI5cEtJMy1CclB3VnN6ZGpmYnZsem9sa2tSeEpIWmlQLXFRbzc2STFiSDF2ejNaTjJ4OEhBZ0ZPWmF2TnhsVHhoTW9ZOEhjdGIzQzNsN3N0TFNWUGhUdVE5RkdYQVJDMFl5YllvVkg4MThQQ3BmdzRBZWFKVmEtYVFWSHZyMVpYakc5aGZGemN4dHNmN01oQUtMSGg2ZnE4VF8zUTBSR3o0NTgtVHdDUDgtcXNn?oc=5",
     "pub": "Sat, 14 Nov 2026 16:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Core Differences Between West Texas Intermediate (WTI) and Brent Crude and the Affect of the Iran War - EnergyNow.com",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQN1ZOVFVuUnFFYUstVktuczhxdzBYN1lUbUlqbTIwZEVnX2lCclN2dDZyeVJxUnFPLXdLLWhHcTd1MUUyM0kxTFBUZWJZSVlfN2RCZkRlRXhqT3ZfdUJTQkFjSkR1dDFsQ2Rmc19VTERhc1hsV2Nka2RDVEFvZ0FUcFdJQ0dCR21lcm5mZU12UzJZZHlyOFh3WGEzVWpCVDlUeHc?oc=5",
-    "pub": "Sat, 14 Nov 2026 13:21:06 GMT",
-    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   65491.94
+   65681.9
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T13:02:34+00:00",
+  "checked": "2026-11-15T13:21:53+00:00",
   "openai": {
    "found": false
   },

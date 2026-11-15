@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T09:12:11+00:00",
+ "updated": "2026-11-15T09:22:11+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65944.6,
-   "chg": 2.83,
-   "chg5": -10.55,
-   "chg20": -17.58,
-   "sma20": 75087.54,
-   "sma50": 79767.85,
-   "sma200": 72354.74,
+   "price": 65741.87,
+   "chg": 2.52,
+   "chg5": -10.82,
+   "chg20": -17.83,
+   "sma20": 75077.4,
+   "sma50": 79763.8,
+   "sma200": 72353.65,
    "high3m": 86602.91,
-   "reg": 65944.6,
+   "reg": 65741.87,
    "pre": null,
    "post": null,
-   "regClose": 65944.6,
+   "regClose": 65741.87,
    "sess": "reg",
-   "mt": 1794733893,
+   "mt": 1794734489,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX catches Starship after record 22-hour orbital flight - www.israelhayom.com",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1U3Q0tGblpkeWJiZFlEU2xmSHVEd244bEhsVEVFWV9rWmJaai1QQmIzRUxVZHBLaUhOck1SSF9JbFJ6azlxcFltdl9PV2tQR1V3WTdkaGRwNDZyU3cyNjRYNDJEa090dTNBSUx4YXI5LTBIbWYzOWpqcE5nUlhtMjJGMjhvdXdDYUpr?oc=5",
+    "pub": "Sun, 15 Nov 2026 08:58:05 GMT",
+    "src": "www.israelhayom.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX Recovers Starship Upper Stage at Texas Launch Tower After 15th Test Flight: how 19 outlets framed it - NewsCord",
     "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQd29RZzlXZHFTdFR6Z002eHhLQXRBV1RlSW1kaV95SVhtNTNUZ3daQW1NMUJuVC1mdkhFVnpmbEVEQmZORThOZmZjOUFSR2tkTnVpX0drTFhZLWc5ZTlhamo2YnU2NkdSQ3JjenJFM0VNUmdZM0lEVWlpX1lMSzVNVzVid3QwR090SlRQMDJNRENzR1EwNzQ5b2laY3paWHdlejV4TnZBSXFJcUJwYXBTUUx1d2l6eDVkd1dJajFiT3pZOTJHcUlrMnBHMTdYa0hEU0xseHA5aE1ZV255REt6RURodjdmclFsU1E?oc=5",
     "pub": "Sun, 15 Nov 2026 08:39:00 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE4zcTY4RzFObkZlUHFIa3dYeEx5UFJSYk90NWZWaUlQVktac1o1SjhLUFpTYlZWYmFtOU5DWjlGTjVhOGE0ZmZiREtaUkp2WHE3R1lhcGNyWk1vRjhQdlJidkViUU5Ocm83VDlwWDhjMTV6MS1WTS11SG5uSEdpQQ?oc=5",
     "pub": "Sun, 15 Nov 2026 06:05:30 GMT",
     "src": "thedigitalbriefnews.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Catches Returning Starship In Launch Tower Arms After Orbital Flight - i24NEWS",
-    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxObnhGdWVvcDJ5eEQ5ZFRyTUFEaVo0VElUc08wNnRYc2xta3NUMUxkZ1NfakEyODBLU3RXUlVQcWFzY093RmJUdUtyYXB2QXJvWXB5bE1KRUVkX2tTa2k5dTVacDZUcVZ1UzZfWDV3bXpDN09aWE52di1ITjdpWG9ydlU3TkIxRVNncUFLeS14b0xaMmVGck82bUY3bGR3UmxzZk5qM19xdjc4Y3JXb2NlbUhxMDB5LWk1dktKX1RHMUVfeDNxdkItU3NIQkJQN2M?oc=5",
-    "pub": "Sun, 15 Nov 2026 05:33:00 GMT",
-    "src": "i24NEWS",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   65947.9
+   65739.25
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T09:11:57+00:00",
+  "checked": "2026-11-15T09:21:54+00:00",
   "openai": {
    "found": false
   },

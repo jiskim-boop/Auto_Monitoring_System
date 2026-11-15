@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T10:32:20+00:00",
+ "updated": "2026-11-15T10:42:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65481.38,
-   "chg": 2.11,
-   "chg5": -11.18,
-   "chg20": -18.16,
-   "sma20": 75064.38,
-   "sma50": 79758.59,
-   "sma200": 72352.24,
+   "price": 65512.17,
+   "chg": 2.16,
+   "chg5": -11.13,
+   "chg20": -18.12,
+   "sma20": 75065.92,
+   "sma50": 79759.2,
+   "sma200": 72352.41,
    "high3m": 86602.91,
-   "reg": 65481.38,
+   "reg": 65512.17,
    "pre": null,
    "post": null,
-   "regClose": 65481.38,
+   "regClose": 65512.17,
    "sess": "reg",
-   "mt": 1794738708,
+   "mt": 1794739288,
    "ok": true
   },
   "USO": {
@@ -1177,7 +1177,7 @@
   },
   "HG=F": {
    "price": 6.09,
-   "chg": -1.5,
+   "chg": 0.17,
    "chg5": -2.06,
    "chg20": -6.75,
    "sma20": 6.41,
@@ -1187,7 +1187,7 @@
    "reg": 6.09,
    "pre": null,
    "post": null,
-   "regClose": 6.09,
+   "regClose": 6.08,
    "sess": "24h",
    "mt": 1794607199,
    "ok": true
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "The Individual Investors Who Are Hot on Anthropic’s IPO But Cool on AI - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPWEN6Mk43NjhtMVJzaVNhWTRvOUtSZ3NLd1I4UWtRTHI1Vk9RTGRSbFlHZ1g4bTY0MnVqb0ltNEh1NTVqVmpLb2tCTGp2dTBNUHpfWFI1aDB1VjBmcFNseG9KbHNkbXVUV2JIdEI0ZlNPVW13Q0IxTTZWZkxnSHJPRC1oOWlScHJkSVhzZGltSEtzVFdPZzUtMVByU0ZMZExMbXFsREFlclVMbldRRWd1TmoyVQ?oc=5",
+    "pub": "Sun, 15 Nov 2026 10:30:00 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "A Human Reads the Anthropic I.P.O. Filing - The New York Times",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONWZ5bWZLaEJYd1hISEh5S3lVSDJTTS0zYmJnb2NCQkdHV01sQ0VvR2VWV2lVZnBYaXVMQjBnQ0wxMnBWWlBxQU9VS2FhUHRrM3plaElib0xVN2o5REVCbkdfVFRqWmoyTGFvVXVkTmJ1NEkydVZkel9TXzJ1TlFVbi1ZRE5VSlVFZHdRZlZTNDU?oc=5",
     "pub": "Sun, 15 Nov 2026 10:01:56 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQT1U3Q0tGblpkeWJiZFlEU2xmSHVEd244bEhsVEVFWV9rWmJaai1QQmIzRUxVZHBLaUhOck1SSF9JbFJ6azlxcFltdl9PV2tQR1V3WTdkaGRwNDZyU3cyNjRYNDJEa090dTNBSUx4YXI5LTBIbWYzOWpqcE5nUlhtMjJGMjhvdXdDYUpr?oc=5",
     "pub": "Sun, 15 Nov 2026 08:58:05 GMT",
     "src": "www.israelhayom.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Earnings Beat Could Be A Big Moment For Quanta Services Stock (PWR) - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNazF6clZpOEJ0WmxYaVJ5WjhDSmxZcEk1dzdvU2F6YXltckNHbTdkRjVhTWtIa0JTc3h2UzBrdjB1NkZWdS1yUXktQ0FzTktNNUcwbHNTSlVMVGxrYVNHaGxVYXF6dk5UdmFOTUt0NHVuem80cVpOQkVoLTg3b2Rmc0Jub2h6VGFXenJyblB4QTE1VnRpQlVidkJvLWRseTN5TWhVYUVsSlhIOEFuaDZtUHZiTE56YWZ5UUxEQk9WSlVXRkFtbkNIcVR3Qmx1d2NRMnfSAdcBQVVfeXFMUEo3VC1sZGRVMlJTYVp0aFRmYU9weUN6TnBWQ3RFTWdMZHV4V09vMFFHN2JfeGducnU5Um8zd0J5ZWJEQnA0d3REOHdTaUh4QTduMUlDWEpkNnlWeXZrSzhENTYzNFdVUXFONlVfN2I2aWdKWlpPbXZMRXl5VjN3UlRnRF9Ed3hNRm5oU3pzdDNnSEVqa3lmRTc0MnBILUcxN0tyNF9PM3hfR2o0QlhmU2lFVTJ2bFZGMTg0Z0lHY2JDTE9SU2x3R01wTnR6VGJpQy1jcUlGZDA?oc=5",
-    "pub": "Sun, 15 Nov 2026 08:35:21 GMT",
-    "src": "Simply Wall St",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   65531.61
+   65507.61
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T10:32:08+00:00",
+  "checked": "2026-11-15T10:41:53+00:00",
   "openai": {
    "found": false
   },

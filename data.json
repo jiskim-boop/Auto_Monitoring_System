@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T00:02:51+00:00",
+ "updated": "2026-11-15T00:12:16+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64086.0,
-   "chg": -6.1,
-   "chg5": -14.81,
-   "chg20": -19.92,
-   "sma20": 75788.54,
-   "sma50": 80136.25,
-   "sma200": 72389.35,
+   "price": 64145.7,
+   "chg": -6.01,
+   "chg5": -14.73,
+   "chg20": -19.84,
+   "sma20": 75791.52,
+   "sma50": 80137.44,
+   "sma200": 72389.68,
    "high3m": 86602.91,
-   "reg": 64086.0,
+   "reg": 64145.7,
    "pre": null,
    "post": null,
-   "regClose": 64086.0,
+   "regClose": 64145.7,
    "sess": "reg",
-   "mt": 1794700935,
+   "mt": 1794701492,
    "ok": true
   },
   "USO": {
@@ -1321,6 +1321,14 @@
     "geo": false
    },
    {
+    "title": "SpaceX Starship makes historic return - Fox Business",
+    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBnY2VNeTNVd2xxRnN0cDFYSDlJWmVUMVpQdDBuZXFtX0VpZXp5aU9ObXUzZkQ3WVdLTEpIQzlTWmlFeW9YZ0NEQ3plNnl6N3cxUDJRTDVtNmRmTkU?oc=5",
+    "pub": "Sat, 14 Nov 2026 23:38:56 GMT",
+    "src": "Fox Business",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "SpaceX makes history as Starship spacecraft caught by launch tower for first time - Fox Business",
     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbElmTGNNX2FBOFd0c2lvTXI5Wkktem1rR2xSbXhlUEt5WXh4bXpVOXhjcXpseXdMR0pibHVwVlZGaTVfNWJ4QzFjUW9xSDMzZWV6b3lWLW95LTd2dWsxdDdZcFJKS3BGRXlQd2t2ZExtOEZuT2NJVTRXMWJJSWpXVThwR04tV1duZXNES1lsVVhEeFJUODJ5alN4ZFhyeHJ5ekIxajRmNlVjaU1yNjdr0gG0AUFVX3lxTFBodnF6NUl6LTVuOUxxeEs0WXN1bHp3d25PSXlQOXNodFZiaGY3WURrRnRUTmh2TGZxV0hRaDl2ZGZaTUVNcFBOOE5waGJwOWNCNDhULVBVcVBzZm11d19yYkRzYTF5Z2hUclZVOG5vc2RiUjNRUDM5RVptblE3MkE5YjlpYWJMSUQ1dy1EQUR4RUU5UXNzQ0hLMUY4dXQwN0g5clBaVjc2ODlnQ2U3X3BPY0RqVQ?oc=5",
     "pub": "Sat, 14 Nov 2026 23:38:56 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9HeWVhUUI0eVY1c0tYRjBEQlNBcUliUmxNWnJFTWhVcWVBdlVFT2NHdkZwaFhQWnZkZEFreXItdUltVnRSRDB5aHIwSUhfZXBBVDFJX1dPcnJsTHVZaFU1WTdfV1ItaTVhdXk3dDdOX2c0R1U?oc=5",
     "pub": "Sat, 14 Nov 2026 23:32:49 GMT",
     "src": "Salina Post",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX's Starship returns from orbit as launch pad arms catch it for the first time - KUTV",
-    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQdXpSVTk4NVJhVTJWT3RjblBuc0psVlNXVmdaYVpFcm1yZ0JWZzZ1U0NESDhnWlNMUGcwU0ZZRENjbjF4dDcwMm9NYjBaOUdFVHQ4VUNPQnJ1Y0RzeElsdlJkZEpqbXlGRXVjQXJEeDlCcnZ1ZURLaTNKWUlGMXVJc0NELUJINEVVM1FQV2pfa3RwZnlCR00tQjJJSUZCSkRlTng1MFlCNzcyb01WM1NNaUpyWDllR1NzaWp6dGk0TWRoZWc?oc=5",
-    "pub": "Sat, 14 Nov 2026 23:28:19 GMT",
-    "src": "KUTV",
     "trig": false,
     "geo": false
    }
@@ -1555,11 +1555,7 @@
   "sofr_iorb": 0.0,
   "cape": 39.95,
   "cape_manual": false,
-  "netliq": {
-   "value": 5844.3,
-   "chg4w": -27.7,
-   "asof": "2026-11-11"
-  },
+  "netliq": null,
   "gm2": {
    "value": 42.0,
    "series": [
@@ -1735,7 +1731,7 @@
    81382.15,
    80790.84,
    77434.75,
-   64123.85
+   64287.06
   ],
   "vixts": [
    0.793,
@@ -1854,9 +1850,9 @@
   ]
  },
  "summary": {
-  "text": "전일 대비 유의 변화 없음 (기준 2026-11-14)\n현물 금리 2.86%로 상승(+0.08%p)하며 위험 밴드 진입, 순유동성 -27.7%로 위험 판정되는 가운데 광범위 약세 신호(사모·AI·저등급채 확대) 속 주의 국면 지속 중.",
+  "text": "전일 대비 유의 변화 없음 (기준 2026-11-14)\n현재 주의 판정으로 사모대출 약세, AI 밸류체인 약세, 신용등급 확대 현상이 관찰되며 실질금리 2.86%에서 위험밴드 진입 상태이고 조정이 고점 대비 10.5% 진행 중입니다.",
   "change": "전일 대비 유의 변화 없음 (기준 2026-11-14)",
-  "regime": "현물 금리 2.86%로 상승(+0.08%p)하며 위험 밴드 진입, 순유동성 -27.7%로 위험 판정되는 가운데 광범위 약세 신호(사모·AI·저등급채 확대) 속 주의 국면 지속 중.",
+  "regime": "현재 주의 판정으로 사모대출 약세, AI 밸류체인 약세, 신용등급 확대 현상이 관찰되며 실질금리 2.86%에서 위험밴드 진입 상태이고 조정이 고점 대비 10.5% 진행 중입니다.",
   "by": "claude",
   "base_d": "2026-11-14",
   "_base": {
@@ -1955,7 +1951,7 @@
     "tnx": 5.15,
     "curve": 1.03,
     "curve_band": "정상",
-    "netliq_chg4w": -27.7,
+    "netliq_chg4w": null,
     "spy": 754.37,
     "spy_chg1": -0.36,
     "spy_chg5": 2.59,
@@ -1967,7 +1963,7 @@
     "obs_hits": [
      "energy"
     ],
-    "netliq_band": "위험",
+    "netliq_band": null,
     "broad_band": "주의",
     "klr": {
      "entry": "2026-11-13",
@@ -1980,7 +1976,7 @@
    }
   },
   "_delta_key": "5c0b82252e",
-  "_regime_key": "314ba2d5b5",
+  "_regime_key": "cfe14eb885",
   "_deltas": [],
   "_src": {
    "change": "engine",
@@ -2808,7 +2804,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T00:02:36+00:00",
+  "checked": "2026-11-15T00:12:03+00:00",
   "openai": {
    "found": false
   },

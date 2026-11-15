@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T20:42:03+00:00",
+ "updated": "2026-11-15T20:52:07+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65010.55,
+   "price": 65015.6,
    "chg": 1.38,
    "chg5": -11.81,
    "chg20": -18.74,
-   "sma20": 75040.83,
-   "sma50": 79749.17,
-   "sma200": 72349.69,
+   "sma20": 75041.09,
+   "sma50": 79749.27,
+   "sma200": 72349.72,
    "high3m": 86602.91,
-   "reg": 65010.55,
+   "reg": 65015.6,
    "pre": null,
    "post": null,
-   "regClose": 65010.55,
+   "regClose": 65015.6,
    "sess": "reg",
-   "mt": 1794775286,
+   "mt": 1794775888,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "CoreWeave Stock (CRWV): Earnings, Backlog, Debt and News, Tracked - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9nWDdheGI1R3NTX1VHczBCdFN4bDZJZkN4OGl5TV9kWklrTDZhZE5XQjRyQjE2VDZRQzFUZEdZRDI1OVpNOUZIbmNSSTlfV3RTaGc?oc=5",
-    "pub": "Sun, 15 Nov 2026 19:55:29 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AI takes center stage in ASEAN Business Summit - ABS-CBN",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnpGWEt6bExvZENKbWtQTXI2NFQxVzloeWR4MVRoX3h2NDBQUkVNeXpCb2ZtVlBzdEh2Umx5RE12OVMtVHU5MVdrcjh1V2tWbVUyY0stX01TQlVKdDFsNEpiVFp5VHltVThucWpzUjB2RnN5a2pYMlpYUHhxeU42SGlDQVlHeFpiX3BFR0V6VVA5cTlTMlpRRHJoeDVTSm1WWW5Mbg?oc=5",
     "pub": "Sun, 15 Nov 2026 14:34:03 GMT",
@@ -1291,6 +1283,14 @@
     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQY1FXZHFSbW1acjRWd1RYOFdnckh0SU45VmVHVWhBLVBVZjhhMEQxUVlzNjlvTUlXYVpXRG5zU1ZRNDVZYU9MTlB6TDkwZUV3RTRScEI4RjVHMlE3VUhkeGhSWmJPZ09xZEF4UFR6RnNCOWZSQUVFUTV2azRidE9Qdg?oc=5",
     "pub": "Sat, 14 Nov 2026 21:10:29 GMT",
     "src": "The Korea Daily",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave Plans Customer-Linked Loans as Debt Reaches $46.9 Billion - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5UcG5EMHVkWVpnNk8zWHNTRDNvNHdFYzJrZHZTcVRoMXFoU29VUm1nZmREcG9iR3ZkbENjZmZNX0RwT2JMaHBCY3ZMZy1kUDdSRUJTeG1oeWk?oc=5",
+    "pub": "Sat, 14 Nov 2026 15:27:41 GMT",
+    "src": "www.tokenpost.com",
     "trig": false,
     "geo": false
    }
@@ -1429,17 +1429,17 @@
     "geo": false
    },
    {
-    "title": "USD/JPY Weekly Outlook: Oil shock offsets mounting AI concerns - StoneX",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS3VIRnVWTWxDRHE5NjZMNmFTM21Ha0FSOXUtWU1VT09GV29TTXpVYU5nNUY3bjFiRnVwaXNjV1BxYmpMX09sZ0EtekhzTkJGeGltSkotbUlMVU9rSXUxalkzM1NNU2h5d29lakxwWTZrYlMtWU10UlZGSzNTT0RKb1BDSzItZ0I4VzJ6Q09uUnE0TVdEaXB6b2dxWThQYmx1bnVyUjZSakNhUW81WHc?oc=5",
-    "pub": "Sun, 15 Nov 2026 01:11:47 GMT",
-    "src": "StoneX",
+    "title": "Electrifying Ambitions Meet Tough Reality in Europe - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOTI3SGdjYXBxc3dlc3ozY1BmZWhfb3NjMUt3NVRTQVliS0hPTGJSZGtic09JcEl5Qi1MMmZ3TjJmQkRIa1lpV0hLUVdDckY0NkRMMEdlOWxrejJ2ajNEcWpWZDRXRU5qbmJsTGNDc3BrOU01eV9ndWdSUXdHYTE3NFRFbjJhM05FME01R0lwci05X0twTmgxNlg1bkJFZFVD0gGmAUFVX3lxTE5oVzFldTlrdmNFVFJwMlpMbWR1T2s1dXR2VDQ1YW5sU2xUcURfdEpCNE1UWm5TelN4UDFHSmYtRHJIa3l0WURKUkRlT2pWNk5jVFY4dF91R0dQVkJyMHJUTWJzRU1JNnY3VnRXNE9RZ0FkN2JCb2dUSXllb05NZ1FySllpS1pid1JEeGxtWnFLQl9pY1dLTjNmeUtRVWNwYzlUcHFxU0E?oc=5",
+    "pub": "Sun, 15 Nov 2026 00:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Electrifying Ambitions Meet Tough Reality in Europe - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNOTI3SGdjYXBxc3dlc3ozY1BmZWhfb3NjMUt3NVRTQVliS0hPTGJSZGtic09JcEl5Qi1MMmZ3TjJmQkRIa1lpV0hLUVdDckY0NkRMMEdlOWxrejJ2ajNEcWpWZDRXRU5qbmJsTGNDc3BrOU01eV9ndWdSUXdHYTE3NFRFbjJhM05FME01R0lwci05X0twTmgxNlg1bkJFZFVD0gGmAUFVX3lxTE5oVzFldTlrdmNFVFJwMlpMbWR1T2s1dXR2VDQ1YW5sU2xUcURfdEpCNE1UWm5TelN4UDFHSmYtRHJIa3l0WURKUkRlT2pWNk5jVFY4dF91R0dQVkJyMHJUTWJzRU1JNnY3VnRXNE9RZ0FkN2JCb2dUSXllb05NZ1FySllpS1pid1JEeGxtWnFLQl9pY1dLTjNmeUtRVWNwYzlUcHFxU0E?oc=5",
-    "pub": "Sun, 15 Nov 2026 00:00:00 GMT",
+    "title": "Nvidia Without Huang What a Pause in AI Deals Means for Metals - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSTBlcDBsUU9YcFpIdThSSmZxTjNwWDFFLXVvSVc2bW1yczNGRjF4VHJWM1A2WEZELXpkMFNwLTM0ckpmYV9pNFVWa1ZVb3gxZTU2NjV2U3R1aDRvWmYwSnJHcUZZNVgyTUc0M1VVWnNUSzJWUE96Y2IzcGpBTGRhTGlTNklkLTBtOUlyaWQwdW5BUml0cjFVcmV4LUptQmVGeEIySTdWV19hOWvSAbABQVVfeXFMUFVzSlM1OHZMNll4V2NNdUFqWjBNdHlaN1pUWm9UbS1KOHF0X1ZnTUNvWkF5V0UtU3piMnFhM3o5eFk2WnBja3hvS1czS3hFdmpKdC1kTDl4TnNyd1owczQzUUhYdWNBLUU1UGdpN1UxVGcwNU1jdWYxWGRlY1V3WFdZbllzQV9pZnpxQk45VjRpVkRfTFI0MkFZaHp2em51U3hZMjRCX1BoQmVLZTZpd28?oc=5",
+    "pub": "Sat, 14 Nov 2026 22:00:00 GMT",
     "src": "Crude Oil Prices Today | OilPrice.com",
     "trig": false,
     "geo": false
@@ -1735,7 +1735,7 @@
    82017.6,
    80024.01,
    78248.45,
-   64985.66
+   65033.52
   ],
   "vixts": [
    0.793,
@@ -2808,7 +2808,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T20:41:50+00:00",
+  "checked": "2026-11-15T20:51:54+00:00",
   "openai": {
    "found": false
   },

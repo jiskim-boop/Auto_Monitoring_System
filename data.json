@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-16T13:52:00+00:00",
+ "updated": "2026-11-16T14:12:08+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -768,20 +768,20 @@
    "ok": true
   },
   "^VIX": {
-   "price": 20.64,
-   "chg": 6.94,
-   "chg5": 3.61,
-   "chg20": 11.93,
+   "price": 20.66,
+   "chg": 7.05,
+   "chg5": 3.71,
+   "chg20": 12.04,
    "sma20": 19.49,
    "sma50": 17.42,
    "sma200": 16.97,
    "high3m": 28.18,
-   "reg": 20.64,
+   "reg": 20.66,
    "pre": null,
    "post": null,
-   "regClose": 20.64,
+   "regClose": 20.66,
    "sess": "reg",
-   "mt": 1794836176,
+   "mt": 1794837376,
    "ok": true
   },
   "^VIX3M": {
@@ -854,7 +854,7 @@
   },
   "DX-Y.NYB": {
    "price": 103.49,
-   "chg": 0.08,
+   "chg": 0.07,
    "chg5": 1.81,
    "chg20": 1.48,
    "sma20": 102.16,
@@ -866,14 +866,14 @@
    "post": null,
    "regClose": 103.49,
    "sess": "reg",
-   "mt": 1794836485,
+   "mt": 1794837689,
    "ok": true
   },
   "^IRX": {
    "price": 4.13,
-   "chg": 0.15,
-   "chg5": 2.3,
-   "chg20": 1.3,
+   "chg": 0.19,
+   "chg5": 2.35,
+   "chg20": 1.35,
    "sma20": 4.04,
    "sma50": 4.02,
    "sma200": 3.81,
@@ -883,7 +883,7 @@
    "post": null,
    "regClose": 4.13,
    "sess": "reg",
-   "mt": 1794836183,
+   "mt": 1794837383,
    "ok": true
   },
   "LQD": {
@@ -939,9 +939,9 @@
   },
   "^TNX": {
    "price": 5.14,
-   "chg": -0.25,
-   "chg5": 5.69,
-   "chg20": 0.1,
+   "chg": -0.33,
+   "chg5": 5.61,
+   "chg20": 0.02,
    "sma20": 4.99,
    "sma50": 5.07,
    "sma200": 4.78,
@@ -951,7 +951,7 @@
    "post": null,
    "regClose": 5.14,
    "sess": "reg",
-   "mt": 1794836183,
+   "mt": 1794837393,
    "ok": true
   },
   "^KS11": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 64230.34,
-   "chg": -1.65,
-   "chg5": -13.16,
-   "chg20": -20.51,
-   "sma20": 74226.82,
-   "sma50": 79350.51,
-   "sma200": 72271.09,
+   "price": 64039.13,
+   "chg": -1.94,
+   "chg5": -13.42,
+   "chg20": -20.75,
+   "sma20": 74217.26,
+   "sma50": 79346.68,
+   "sma200": 72270.06,
    "high3m": 86602.91,
-   "reg": 64230.34,
+   "reg": 64039.13,
    "pre": null,
    "post": null,
-   "regClose": 64230.34,
+   "regClose": 64039.13,
    "sess": "reg",
-   "mt": 1794837088,
+   "mt": 1794838291,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.6,
-   "chg": -0.17,
-   "chg5": 0.83,
-   "chg20": 1.14,
-   "sma20": 158.18,
+   "price": 159.56,
+   "chg": -0.2,
+   "chg5": 0.8,
+   "chg20": 1.11,
+   "sma20": 158.17,
    "sma50": 157.4,
    "sma200": 159.23,
    "high3m": 160.2,
-   "reg": 159.6,
+   "reg": 159.56,
    "pre": null,
    "post": null,
-   "regClose": 159.6,
+   "regClose": 159.55,
    "sess": "reg",
-   "mt": 1794837093,
+   "mt": 1794838297,
    "ok": true
   },
   "KRW=X": {
-   "price": 1335.18,
-   "chg": 0.1,
-   "chg5": -2.02,
-   "chg20": 0.13,
-   "sma20": 1336.02,
-   "sma50": 1345.17,
+   "price": 1334.82,
+   "chg": 0.08,
+   "chg5": -2.05,
+   "chg20": 0.1,
+   "sma20": 1336.01,
+   "sma50": 1345.16,
    "sma200": 1423.94,
    "high3m": 1390.79,
-   "reg": 1335.18,
+   "reg": 1334.82,
    "pre": null,
    "post": null,
-   "regClose": 1335.18,
+   "regClose": 1334.82,
    "sess": "reg",
-   "mt": 1794837090,
+   "mt": 1794838297,
    "ok": true
   },
   "^OVX": {
@@ -1091,95 +1091,95 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7529.25,
-   "chg": -0.71,
-   "chg5": -0.59,
-   "chg20": -2.65,
-   "sma20": 7635.36,
-   "sma50": 7700.09,
-   "sma200": 7623.35,
+   "price": 7533.5,
+   "chg": -0.65,
+   "chg5": -0.54,
+   "chg20": -2.6,
+   "sma20": 7635.57,
+   "sma50": 7700.17,
+   "sma200": 7623.39,
    "high3m": 7874.0,
-   "reg": 7529.25,
+   "reg": 7533.5,
    "pre": null,
    "post": null,
-   "regClose": 7529.25,
+   "regClose": 7533.5,
    "sess": "24h",
-   "mt": 1794836494,
+   "mt": 1794837697,
    "ok": true
   },
   "NQ=F": {
-   "price": 27635.5,
-   "chg": -1.42,
-   "chg5": -1.35,
-   "chg20": -7.02,
-   "sma20": 28624.09,
-   "sma50": 29629.38,
-   "sma200": 29566.59,
+   "price": 27653.75,
+   "chg": -1.36,
+   "chg5": -1.29,
+   "chg20": -6.96,
+   "sma20": 28625.0,
+   "sma50": 29629.74,
+   "sma200": 29566.73,
    "high3m": 31483.25,
-   "reg": 27635.5,
+   "reg": 27653.75,
    "pre": null,
    "post": null,
-   "regClose": 27635.5,
+   "regClose": 27653.75,
    "sess": "24h",
-   "mt": 1794836494,
+   "mt": 1794837698,
    "ok": true
   },
   "YM=F": {
-   "price": 52300.0,
-   "chg": -0.23,
-   "chg5": -0.38,
-   "chg20": 0.23,
-   "sma20": 52426.25,
-   "sma50": 52142.1,
-   "sma200": 52299.57,
+   "price": 52318.0,
+   "chg": -0.19,
+   "chg5": -0.34,
+   "chg20": 0.26,
+   "sma20": 52427.15,
+   "sma50": 52142.46,
+   "sma200": 52299.72,
    "high3m": 53745.0,
-   "reg": 52300.0,
+   "reg": 52318.0,
    "pre": null,
    "post": null,
-   "regClose": 52300.0,
+   "regClose": 52318.0,
    "sess": "24h",
-   "mt": 1794836488,
+   "mt": 1794837700,
    "ok": true
   },
   "GC=F": {
-   "price": 3870.9,
-   "chg": -0.4,
-   "chg5": -5.92,
-   "chg20": -6.95,
-   "sma20": 4020.74,
-   "sma50": 4169.4,
-   "sma200": 4252.0,
+   "price": 3867.8,
+   "chg": -0.48,
+   "chg5": -6.0,
+   "chg20": -7.03,
+   "sma20": 4020.59,
+   "sma50": 4169.34,
+   "sma200": 4251.97,
    "high3m": 4697.8,
-   "reg": 3870.9,
+   "reg": 3867.8,
    "pre": null,
    "post": null,
-   "regClose": 3870.9,
+   "regClose": 3867.8,
    "sess": "24h",
-   "mt": 1794836497,
+   "mt": 1794837700,
    "ok": true
   },
   "CL=F": {
-   "price": 87.79,
-   "chg": -0.87,
-   "chg5": 1.08,
-   "chg20": -15.31,
-   "sma20": 94.94,
+   "price": 87.7,
+   "chg": -0.97,
+   "chg5": 0.98,
+   "chg20": -15.4,
+   "sma20": 94.93,
    "sma50": 95.29,
    "sma200": 88.09,
    "high3m": 105.83,
-   "reg": 87.79,
+   "reg": 87.7,
    "pre": null,
    "post": null,
-   "regClose": 87.79,
+   "regClose": 87.7,
    "sess": "24h",
-   "mt": 1794836495,
+   "mt": 1794837700,
    "ok": true
   },
   "HG=F": {
    "price": 6.06,
-   "chg": -0.33,
-   "chg5": -4.25,
-   "chg20": -7.32,
+   "chg": -0.39,
+   "chg5": -4.31,
+   "chg20": -7.38,
    "sma20": 6.38,
    "sma50": 6.5,
    "sma200": 6.44,
@@ -1189,24 +1189,24 @@
    "post": null,
    "regClose": 6.06,
    "sess": "24h",
-   "mt": 1794836492,
+   "mt": 1794837698,
    "ok": true
   },
   "ZN=F": {
-   "price": 105.27,
-   "chg": 0.07,
-   "chg5": -1.68,
-   "chg20": 0.01,
+   "price": 105.3,
+   "chg": 0.1,
+   "chg5": -1.65,
+   "chg20": 0.04,
    "sma20": 106.19,
    "sma50": 105.7,
    "sma200": 107.73,
    "high3m": 108.86,
-   "reg": 105.27,
+   "reg": 105.3,
    "pre": null,
    "post": null,
-   "regClose": 105.27,
+   "regClose": 105.3,
    "sess": "24h",
-   "mt": 1794836483,
+   "mt": 1794837694,
    "ok": true
   },
   "EWY": {
@@ -1227,20 +1227,20 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 94.49,
-   "chg": -1.41,
-   "chg5": 2.07,
-   "chg20": -13.75,
-   "sma20": 104.38,
-   "sma50": 104.23,
-   "sma200": 94.44,
+   "price": 94.31,
+   "chg": -1.6,
+   "chg5": 1.88,
+   "chg20": -13.91,
+   "sma20": 104.37,
+   "sma50": 104.22,
+   "sma200": 94.43,
    "high3m": 117.64,
-   "reg": 94.49,
+   "reg": 94.31,
    "pre": null,
    "post": null,
-   "regClose": 94.49,
+   "regClose": 94.31,
    "sess": "24h",
-   "mt": 1794836493,
+   "mt": 1794837700,
    "ok": true
   }
  },
@@ -1297,18 +1297,18 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic IPO: AI liability risks may be uninsurable for investors - qz.com",
-    "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBkMUx0NDlNVWdseThGWGpYeXFHQ0Y5TV8yQlNjTEFsZml6Y25aQ0w1VWlCQWN6RUtKR0JWbzZiTW40SE53VWM5eTlVYm16S0hSamtfOG5Edzh5Smpod0cwYkgtZVp4aDM3NklYR1d1LUh6eUNK?oc=5",
-    "pub": "Mon, 16 Nov 2026 13:48:50 GMT",
-    "src": "qz.com",
+    "title": "Musk’s xAI Chemical Spill Triggers Mississippi Cleanup - USA Herald",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE5mT2IxWkNib1h0Q2RXalpDWnYyVW40REJMZTN5Q21TWUJsNkl1Q0ZUMkdiQmxHVVJmLU1qdi1VcHdfdEp1SXRfQng5Q2ZUNHNnb3hpRnMwZUEzNEVDMDl3ODFaM1NjT2djZDc5T3pR?oc=5",
+    "pub": "Mon, 16 Nov 2026 13:57:30 GMT",
+    "src": "USA Herald",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Tech Stocks Plunge as Investors Await Anthropic IPO - Moomoo",
-    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOWXBYUk5mS2xPQU5iMllvSmJKUFBFVVd5R1BDOVA2NmlNZWlxak0xZWNQWWhFNlk5ZGpDdExPLUpVUnRja0J1MFVRblA0YWZRTEFBMXZfczlUMmhwclVvQkxod3gyOFlsZjFRVHdrTFFRSlNDTzNaR2xRblFKelBfSDY3MHZtajY5R3FDa3RJbzFCT0FfNU5hdU5pRXo?oc=5",
-    "pub": "Mon, 16 Nov 2026 13:41:13 GMT",
-    "src": "Moomoo",
+    "title": "Anthropic's Dario Amodei is 'just setting himself up' with IPO, veteran tech investor warns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNR0VnRWFnN0o3am4ydmh5a3hTenhOU29heTF4MGxYZy03R1VGNC1FNU5Wd2lDRzhMLWJoYmQydTk1ZzlOTXNHaGVhVlFiUmNSUGkzUjdkSGtDemJXTWdITkZGdzlKZDByR2Zhb05pZ1dOOV9yeG9HclNXb2xFbF9yZFMxelMxb0l4SF9RRGFrUnlXa1JQSGR2aFVubW9mNzB2bWZfa0FkMXhpbUx0MVNOYnEyUTRHbFhLOFhWR1AxMU9FTnNTVmJQU3V3WFFpa1JEb2FJb3A1OTgxMFB1RklMTlQzdkVZdw?oc=5",
+    "pub": "Mon, 16 Nov 2026 13:52:29 GMT",
+    "src": "Yahoo Finance",
     "trig": true,
     "geo": false
    },
@@ -1321,10 +1321,18 @@
     "geo": false
    },
    {
-    "title": "Anthropic IPO could validate $4 trillion AI investment thesis, says Yorkville Ives - Proactive financial news",
-    "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQZ3VVVFFyM3hLeHNpNFJpQ2ZPSzVJSW1LSC1lTkJxaXlxX2xFX1dINjk2QUt4eTZHLTljOUxBV3dpYWFGaTRjajJvMWFRT1RBZ2NYMXd4VnNfZnA3bHhSU1puOXBzZzZWUXE3dXpTTUh3Ry1TUWtnSW9GaGx5Z2FyY3JDNV9FMWw5d3JycVgwTG9IRlBkOGt4UV9CeTVoaENWRTlGZGVYSE5sNGg4X1dlTUtmb0FCeHhSak0zcmpHUWQwZVF0bkZHTkV0ZmFrc1lheHliU3N2OVZ4c0VPVnVIY1JOZXB6dw?oc=5",
+    "title": "Anthropic IPO could validate $4 trillion AI investment thesis, says Yorkville Ives - Yahoo! Finance Canada",
+    "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOX3RUNW5VQ2J5OHYwY2hvVU1NUGtha1F4alBVUGxJb1J3M3FESmd2OGp0VmtWdTk5TnBRMzdHWWo2U1JnblNmd3VvcVczdmdrVWp3TlFfLUJJUXRxWXU3TEp6VjZNbDhnUmFsdVFxTzJNUUJLU0hHOE00cWs4cjhlaGlRcHVPUQ?oc=5",
     "pub": "Mon, 16 Nov 2026 13:30:00 GMT",
-    "src": "Proactive financial news",
+    "src": "Yahoo! Finance Canada",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "US Futures Drop as Market Looks to Nvidia Results, Anthropic IPO - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPcFhFeVFsT0wxMG1zZWtMN1gzNzV5XzN2aUJtclZEa2NaUTN0a2Y3cV83djJMeWZ0Zk5uUThTa2o0SGhQb1NrUGJVWXBLV2xoRzFyUC1mU0s1bXJfekVJaDl2RndqTGJfN0Vkd25OS0JROUNZQ0V3bjJ0b0dkUDIwNlpCcXl4NVpHX3pGQkNCZjZOOFliV0JjaG96NnJVM1BfVDRIa2x1MElXNVZXZ1VHNXdyaXE?oc=5",
+    "pub": "Mon, 16 Nov 2026 13:17:25 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    },
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxONDBQUWx1WG8xT3E3UVgzQUpRUEVJNnhmWElUMk1ESEZWWEZ0TWNUQzA5SzhsZEV0Zk94bXptUTNaREtaUmRIT0RtWE1tTHpVRDFmUWtleFJrTXBkVEx0TENpZXZHX3NhVmd5eUVwdEQ2YmVJRHV2anFPRjBrSl82Wnp3anRGemY2V3lvUzBjamhpdkVWZXZWWQ?oc=5",
     "pub": "Mon, 16 Nov 2026 13:06:00 GMT",
     "src": "AP News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "AI Infrastructure Boom Hits the Brakes: SemiAnalysis Slashes 2028 Capex Forecast by Nearly 30%, Nvidia the Biggest Casualty - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9aSGI4TmYxTXMzNmxSMHFxaVN5Y2tUUTNfMWF1NldKVExpcVU1S2c3XzA4dzJ4dkxfQkczVlBfdHdnWjk0MUZCYnZCa0daNWNmNm9NRXpMUkJNRjJtNm9ES3RaR2p4enZ6Ym5xZDVzelo5eEoycnc?oc=5",
-    "pub": "Mon, 16 Nov 2026 13:05:00 GMT",
-    "src": "BigGo Finance",
     "trig": false,
     "geo": false
    }
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Nigeria oil output at 1.44mn b/d as prices drop: IEA - DNE Africa",
-    "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9GUDNVb0VwQnZNZ1dlamFTVnljeEtoU3lXTTkwWHlLSlZZNGVrOTFpVHJ6Xzd4eDhPc0dfRXNQRFRNbm9XR2tvS3BSZ21LWEFHM09ETlhCcjQzSGRna2pZVGxMRHdla0tibHV3cndxQzE0aDg?oc=5",
-    "pub": "Mon, 16 Nov 2026 12:45:44 GMT",
-    "src": "DNE Africa",
+    "title": "Current price of oil as of November 16, 2026 - Fortune",
+    "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9rcE1RUk5mUjhNdUEzMHNNeW9lN3pWMHg2Q1N3MkQ3RzJEREU0MlhwOUx2MHFPdXpsRVNzOGRrZ3loOUx5RnJ1ZV9FWlV3NWtNYXNGcUVQVXRqeE1UZDREcHB3?oc=5",
+    "pub": "Mon, 16 Nov 2026 12:45:00 GMT",
+    "src": "Fortune",
     "trig": false,
     "geo": false
    }
@@ -1600,7 +1600,7 @@
    18.44,
    18.39,
    21.15,
-   20.65
+   20.66
   ],
   "tnx": [
    4.72,
@@ -1630,7 +1630,7 @@
    101.73,
    102.32,
    101.87,
-   103.49
+   103.47
   ],
   "bizd": [
    13.37,
@@ -1675,7 +1675,7 @@
    157.81,
    156.83,
    157.68,
-   159.6
+   159.55
   ],
   "uso": [
    126.6,
@@ -1735,7 +1735,7 @@
    81853.54,
    80006.66,
    76677.3,
-   64214.84
+   64097.01
   ],
   "vixts": [
    0.823,
@@ -1750,7 +1750,7 @@
    0.941,
    0.922,
    0.979,
-   1.001
+   1.002
   ],
   "hyoas": [
    2.72,
@@ -1945,8 +1945,8 @@
     "real": 2.86,
     "real_chg1": 0.08,
     "real_band": "위험",
-    "vix": 20.64,
-    "vix_chg1": 6.94,
+    "vix": 20.66,
+    "vix_chg1": 7.05,
     "vix_band": "주의",
     "vixts": 1.0,
     "move": 98.79,
@@ -2806,7 +2806,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-16T13:51:48+00:00",
+  "checked": "2026-11-16T14:11:56+00:00",
   "openai": {
    "found": false
   },
@@ -2902,24 +2902,24 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 94.49,
-   "brent_chg20": -13.75,
+   "brent": 94.31,
+   "brent_chg20": -13.91,
    "ovx": 50.28,
    "hit": true,
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.6,
-   "usdjpy_chg20": 1.14,
-   "vix_chg5": 3.61,
+   "usdjpy": 159.56,
+   "usdjpy_chg20": 1.11,
+   "vix_chg5": 3.71,
    "hit": false,
    "missing": []
   },
   "dollar": {
    "dxy": 103.49,
    "dxy_chg20": 1.48,
-   "usdkrw": 1335.18,
-   "usdkrw_chg20": 0.13,
+   "usdkrw": 1334.82,
+   "usdkrw_chg20": 0.1,
    "hit": false,
    "missing": []
   },

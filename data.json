@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-15T23:52:09+00:00",
+ "updated": "2026-11-16T00:12:12+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -179,7 +179,7 @@
    "chg20": -4.41,
    "sma20": 214125.0,
    "sma50": 240860.0,
-   "sma200": 268056.0,
+   "sma200": 267676.23,
    "high3m": 285500.0,
    "reg": 206000.0,
    "pre": null,
@@ -196,7 +196,7 @@
    "chg20": -4.4,
    "sma20": 1304900.0,
    "sma50": 1544460.0,
-   "sma200": 1815864.0,
+   "sma200": 1813262.3,
    "high3m": 1868000.0,
    "reg": 1216000.0,
    "pre": null,
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.43,
-   "chg": 0.02,
-   "chg5": 1.75,
-   "chg20": 1.42,
+   "price": 103.4,
+   "chg": -0.01,
+   "chg5": 1.72,
+   "chg20": 1.39,
    "sma20": 102.15,
    "sma50": 101.5,
    "sma200": 100.63,
-   "high3m": 103.43,
-   "reg": 103.43,
+   "high3m": 103.41,
+   "reg": 103.4,
    "pre": null,
    "post": null,
-   "regClose": 103.43,
+   "regClose": 103.4,
    "sess": "reg",
-   "mt": 1794786088,
+   "mt": 1794787297,
    "ok": true
   },
   "^IRX": {
@@ -961,7 +961,7 @@
    "chg20": -6.66,
    "sma20": 5541.54,
    "sma50": 6235.66,
-   "sma200": 6961.73,
+   "sma200": 6941.79,
    "high3m": 7080.92,
    "reg": 5290.53,
    "pre": null,
@@ -978,7 +978,7 @@
    "chg20": -11.97,
    "sma20": 725.18,
    "sma50": 791.41,
-   "sma200": 857.62,
+   "sma200": 850.04,
    "high3m": 919.92,
    "reg": 699.66,
    "pre": null,
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 65229.94,
-   "chg": 1.72,
-   "chg5": -11.52,
-   "chg20": -18.47,
-   "sma20": 75051.8,
-   "sma50": 79753.56,
-   "sma200": 72350.88,
+   "price": 65126.75,
+   "chg": 1.56,
+   "chg5": -11.66,
+   "chg20": -18.6,
+   "sma20": 75046.64,
+   "sma50": 79751.5,
+   "sma200": 72313.83,
    "high3m": 86602.91,
-   "reg": 65229.94,
+   "reg": 65126.75,
    "pre": null,
    "post": null,
-   "regClose": 65229.94,
+   "regClose": 65126.75,
    "sess": "reg",
-   "mt": 1794786694,
+   "mt": 1794787898,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.76,
-   "chg": -0.07,
-   "chg5": 0.93,
-   "chg20": 1.24,
+   "price": 159.67,
+   "chg": -0.13,
+   "chg5": 0.87,
+   "chg20": 1.18,
    "sma20": 158.18,
    "sma50": 157.4,
-   "sma200": 159.22,
+   "sma200": 159.23,
    "high3m": 160.2,
-   "reg": 159.76,
+   "reg": 159.67,
    "pre": null,
    "post": null,
-   "regClose": 159.76,
+   "regClose": 159.67,
    "sess": "reg",
-   "mt": 1794786697,
+   "mt": 1794787905,
    "ok": true
   },
   "KRW=X": {
-   "price": 1335.7,
-   "chg": 0.14,
-   "chg5": -1.98,
-   "chg20": 0.17,
-   "sma20": 1336.05,
-   "sma50": 1345.18,
-   "sma200": 1424.97,
+   "price": 1336.48,
+   "chg": 0.2,
+   "chg5": -1.92,
+   "chg20": 0.23,
+   "sma20": 1336.09,
+   "sma50": 1345.19,
+   "sma200": 1423.95,
    "high3m": 1390.79,
-   "reg": 1335.7,
+   "reg": 1336.48,
    "pre": null,
    "post": null,
-   "regClose": 1335.7,
+   "regClose": 1336.48,
    "sess": "reg",
-   "mt": 1794786634,
+   "mt": 1794787904,
    "ok": true
   },
   "^OVX": {
@@ -1091,71 +1091,71 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7611.5,
-   "chg": 0.38,
-   "chg5": 0.49,
-   "chg20": -1.59,
-   "sma20": 7639.48,
-   "sma50": 7701.73,
-   "sma200": 7622.5,
+   "price": 7609.75,
+   "chg": 0.35,
+   "chg5": 0.47,
+   "chg20": -1.61,
+   "sma20": 7639.39,
+   "sma50": 7701.7,
+   "sma200": 7622.49,
    "high3m": 7874.0,
-   "reg": 7611.5,
+   "reg": 7609.75,
    "pre": null,
    "post": null,
-   "regClose": 7611.5,
+   "regClose": 7609.75,
    "sess": "24h",
-   "mt": 1794786095,
+   "mt": 1794787304,
    "ok": true
   },
   "NQ=F": {
-   "price": 28254.5,
-   "chg": 0.78,
-   "chg5": 0.86,
-   "chg20": -4.94,
-   "sma20": 28655.04,
-   "sma50": 29641.76,
-   "sma200": 29568.81,
+   "price": 28239.5,
+   "chg": 0.73,
+   "chg5": 0.8,
+   "chg20": -4.99,
+   "sma20": 28654.29,
+   "sma50": 29641.46,
+   "sma200": 29568.69,
    "high3m": 31483.25,
-   "reg": 28254.5,
+   "reg": 28239.5,
    "pre": null,
    "post": null,
-   "regClose": 28254.5,
+   "regClose": 28239.5,
    "sess": "24h",
-   "mt": 1794786100,
+   "mt": 1794787305,
    "ok": true
   },
   "YM=F": {
-   "price": 52527.0,
+   "price": 52529.0,
    "chg": 0.21,
    "chg5": 0.06,
    "chg20": 0.66,
-   "sma20": 52437.6,
-   "sma50": 52146.64,
-   "sma200": 52280.39,
+   "sma20": 52437.7,
+   "sma50": 52146.68,
+   "sma200": 52280.41,
    "high3m": 53745.0,
-   "reg": 52527.0,
+   "reg": 52529.0,
    "pre": null,
    "post": null,
-   "regClose": 52527.0,
+   "regClose": 52529.0,
    "sess": "24h",
-   "mt": 1794786091,
+   "mt": 1794787289,
    "ok": true
   },
   "GC=F": {
-   "price": 3892.0,
-   "chg": 0.15,
-   "chg5": -5.41,
-   "chg20": -6.44,
-   "sma20": 4021.8,
-   "sma50": 4169.82,
-   "sma200": 4254.59,
+   "price": 3900.7,
+   "chg": 0.37,
+   "chg5": -5.2,
+   "chg20": -6.24,
+   "sma20": 4022.23,
+   "sma50": 4169.99,
+   "sma200": 4254.65,
    "high3m": 4697.8,
-   "reg": 3892.0,
+   "reg": 3900.7,
    "pre": null,
    "post": null,
-   "regClose": 3892.0,
+   "regClose": 3900.7,
    "sess": "24h",
-   "mt": 1794786095,
+   "mt": 1794787309,
    "ok": true
   },
   "CL=F": {
@@ -1172,7 +1172,7 @@
    "post": null,
    "regClose": 88.48,
    "sess": "24h",
-   "mt": 1794786064,
+   "mt": 1794787301,
    "ok": true
   },
   "HG=F": {
@@ -1189,7 +1189,7 @@
    "post": null,
    "regClose": 6.08,
    "sess": "24h",
-   "mt": 1794786069,
+   "mt": 1794787310,
    "ok": true
   },
   "ZN=F": {
@@ -1206,7 +1206,7 @@
    "post": null,
    "regClose": 105.2,
    "sess": "24h",
-   "mt": 1794786093,
+   "mt": 1794787297,
    "ok": true
   },
   "EWY": {
@@ -1240,7 +1240,7 @@
    "post": null,
    "regClose": 95.5,
    "sess": "24h",
-   "mt": 1794785830,
+   "mt": 1794787273,
    "ok": true
   }
  },
@@ -1255,19 +1255,19 @@
     "geo": false
    },
    {
-    "title": "AI takes center stage in ASEAN Business Summit - ABS-CBN",
-    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNdnpGWEt6bExvZENKbWtQTXI2NFQxVzloeWR4MVRoX3h2NDBQUkVNeXpCb2ZtVlBzdEh2Umx5RE12OVMtVHU5MVdrcjh1V2tWbVUyY0stX01TQlVKdDFsNEpiVFp5VHltVThucWpzUjB2RnN5a2pYMlpYUHhxeU42SGlDQVlHeFpiX3BFR0V6VVA5cTlTMlpRRHJoeDVTSm1WWW5Mbg?oc=5",
-    "pub": "Sun, 15 Nov 2026 14:34:03 GMT",
-    "src": "ABS-CBN",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Prospect Capital: My Biggest BDC Failure Ever (Rating Downgrade) (NASDAQ:PSEC) - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPYW9tVW5hcGVCUWJPWmgyZzBQcDN5LTNRV1JYWlZZSXpZUjB4M1N1amV4NUpMOVJwbTBFcVNZQlJqdnlPYU0zdFFpd2x0NHNTWXlyUEJzT0o3UnlONDV1Q1dyT0VBd1FzZGJfTUNQbmxxcGNYb1BIVklKbTdXbXVqWTdZT3RVUGVMSTZYMThObnVaRmRaQlN2UmJjTlp2RjRmVks0bA?oc=5",
     "pub": "Sun, 15 Nov 2026 13:05:11 GMT",
     "src": "Seeking Alpha",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "AI takes center stage in ASEAN Business Summit - ABS-CBN",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPSlVaNkNCVlZkZ3hOcmFnRWVNWEVtYjlwQ25GRjVqUkxTVzdDZjdRZEFfR1BreTJ1alpxLU81WDdURXFkR1NZbzl5YmI4THFXakgzbjBQRjJxRXRPT1RDVGt1a2lYQ3dldHNrRUJKY21MTk14ZTVMWXpvWjRqVGlmdW5CaHNUTUZiSTFKeVFNbEtqOGV5cWdCeUwzNVRhaGIyVTlxU0FB?oc=5",
+    "pub": "Sun, 15 Nov 2026 10:49:00 GMT",
+    "src": "ABS-CBN",
+    "trig": false,
     "geo": false
    },
    {
@@ -1297,10 +1297,26 @@
   ],
   "fundamental": [
    {
+    "title": "SpaceX Starship rocket makes historic return to Earth - NBC News",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNVEJKT29ueG9nUFVEemI0SE9VU0J5bnBBYnNsd3FoVFhDUXhINmllRTBvbHM4NURGYVk4ZVBELTBMWExVMlA1c0ktcVA5SjdlWmdZWkU4aHBvWl9VdXBOQkZXc09RNHRDNVJWVmREU0JNMEFGeDhmdU9KckhPZjVfeDh3V19kRTJIcmlYUXE1cTdrMGcxX3pEUXNGYTdYdmd0Q3psSnFGZGdkZVNRbnc?oc=5",
+    "pub": "Sun, 15 Nov 2026 23:57:57 GMT",
+    "src": "NBC News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Vulcan rocket fails during launch, dealing major blow to SpaceX competitors - Ars Technica",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZUxOYm5OblhQZDVfeDdldl90VHBYZ2VkUlFRT2J6a0Etc2NuM3B1RkgyUUpjSUFHNmNaMl9TN1dudUg1VDVjdUhGTzN2UFU1d2x0UGJWUGlhb1IwZWdOUzJtaDVhMG4ySmZEV2dtblhuaTVoRUNGNnNqZV9raDdaS0pYZjlpVElSRzlYWDNkQmppSFA5VDBCNXRtREQyUHEycjRIZEd0SkUxLUppN3ZpR2wxMA?oc=5",
     "pub": "Sun, 15 Nov 2026 23:11:54 GMT",
     "src": "Ars Technica",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "NVIDIA Corporation | History, GPUs, & Artificial Intelligence - Britannica",
+    "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1FMGstclM1R3lESkhtUUVPTDBHZktQWWMzcTFXa3VIR2FOcTJLcy1wQnlLMHo5MDRXeS10UTJudHRxNmpFX2hyWUZzX1ZTaVpBTng3VXBGT3ZGa0FrTXhHMg?oc=5",
+    "pub": "Sun, 15 Nov 2026 23:00:09 GMT",
+    "src": "Britannica",
     "trig": false,
     "geo": false
    },
@@ -1327,22 +1343,6 @@
     "src": "DW.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "SpaceX Starship caught by launch pad arms - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE00RGF4Nm1RZFEybElnbzlsOGNacnZiN2VFX2R4dHMzbG5ENWR4NFVKT2pMSnllMTQ1M1VSYWlmUkU2SUhuNlVkLVJHMW4?oc=5",
-    "pub": "Sun, 15 Nov 2026 20:53:30 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Amazon Stock (AMZN): AWS, Earnings, Capex, Anthropic Stake and News, Tracked - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1UNWtBX3ZqU3UwOWpiMkg4RDYyNTg5cE1EYWhTbk56TkpsVHJmdEk5RHRPMTc2aTVPVXctMms1Ujh4aDBQcUVvNEJYVm9NQQ?oc=5",
-    "pub": "Sun, 15 Nov 2026 20:25:29 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1351,6 +1351,22 @@
     "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9OTm9YNC1CSnl6LWtVM0NZQTU0MVR4WWw3U1hOdUhMQTVsbm80QUhIbTN6U3dPRndCVXg4SEx3QTVyRWV0TERfcUg3VEc1SFI0TGZPNkZUb2xLT09tMENUSWdEMXZyenZ5R0piOHlPb18zVGVtS2c?oc=5",
     "pub": "Sun, 15 Nov 2026 23:35:00 GMT",
     "src": "BigGo Finance",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Dubai hedge fund numbers hold steady in 2026 amid Middle East conflict, rivalry with Singapore and Hong Kong - The Business Times",
+    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQdGp4cDJqOEllQUExNVpDc0d6NDM5bjJ2SWFmQThUa05xUGotcGxtNlhKNDhETmxuWGQzS3F1T2I4Z2JMcjhpb2hDbV95WlFtVDV1QXBwOVRyWTlpVGxwMXZNM3Q2VVlfQUxmMGVfVkxtRlFhbV8zNWdITGM0MTB6RFBnMDEzaG1mbG11Q2JfR2RYa1BIRjZzNnZEdl8ydUVUVllrYUF5cDNDS2R0TWQxUE9vREhuaWxkejJvbF9vZ0FGeDBFUE4zQ1ZydE9ZT2lPUkp3ZFJDbnBBV1UzQXRtWFFPVXo?oc=5",
+    "pub": "Sun, 15 Nov 2026 23:00:00 GMT",
+    "src": "The Business Times",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "AI Boom Is Far From Over as Analysts Predict Stronger Recovery in 2027 - News On Japan",
+    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5UUVNZd2tBX0Q4VlV1WHBFUVVxSjZnSnlSZGtuNGlpUlFXd0VOTlA1ZDVmMkVlSXNObWVrNkR2Ny1qQmdSajE2QTl4N1JKZnZvSFR1Ug?oc=5",
+    "pub": "Sun, 15 Nov 2026 19:44:40 GMT",
+    "src": "News On Japan",
     "trig": false,
     "geo": false
    },
@@ -1377,25 +1393,17 @@
     "src": "Forbes Middle East",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Gold Retreats from Record Highs: Bulls Pause as Fed Decision and Dollar Strength Loom - Vocal",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxONVNKM1lIM3hMYnN2SXRxcGpLYUZxZmVPdVFHWFY1alFOX1RVMG05T3RZMjVrbE5NX0RCc25BcC1iYWlkSlRkMnRIZlh2d3Z4aXdIMVFVNzJ5ZUZjYVk3SWRvaXMxekdMdUhwSlhJc0NXcTV6d0d5bmpaa2hqd0hsamxoU2t1aGdjdndEWldzbDhyRmxTWjRfVnJHLXlFQXhVUzd4ZnFyMEZHOGY4VVJXenpR?oc=5",
-    "pub": "Sun, 15 Nov 2026 12:56:28 GMT",
-    "src": "Vocal",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Opinion | Is the United States the new Opec? - South China Morning Post",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNT0U5WXFycTZYNU9vRmw5X3MzNG9ObVFwY2VrelFsT2tNS3lQcTZ5SkhKTW53Z0doRnRpcEVNOUM2ZHdVVGpOTzQ5ZFhPM1ZRN0s1RWl5OEhKWkViS2RYdEJMbXhBOWw1blZadzlJQk94SWw4WklESExyVFNwbTNMSk00bjdXblI3SktNUENLTWc0a21WNTl2d196bG1XaWpRTHJSb2lXVks3X2pIR2EwMFNaaFfSAbQBQVVfeXFMUC01R1pHeXN5bWpyeS1TSGp1VGdIdjc1Y1duTVNBZWdhWmVOSi1rRngxaG1Fb0xVNzVKUnkzUHRGOEYyX2N6RmYzUmJCY0J5WTVCcFMwTFc1eFl6dGZFaEluamVmMmhneXFVX1MwS0JBVWZ5bXR2dTVUOWZqZDNaSUhpT3ZKenpKOU44YUp5Skc5RVVHcUI2bW9XSk9pWmpTZHpSaG9DNkJvZEhJbFBrU0dkc3li?oc=5",
-    "pub": "Sun, 15 Nov 2026 12:30:06 GMT",
-    "src": "South China Morning Post",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Oil Prices Rebound as Trump Questions Need for Iran Deal - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOZGlJbWtWZHpSYmlFQjIzNDZLb1hkZXV2dVlNazZ2aXpPSFU2QzBZb1VxeC1mZlVsVTNTTEh0eVRCZS1UZnR6ZFUwNF9YdFkydnNxZVdpTHMyYUtTQWE0TFVoQ3pLNDRvM1JWSWRDY2hmenNNR3JfT0hSWFlibnRPOVVMT0JHcUtPcHQ1TjJjWnFGV1FoRkEtS1NsVzhtSWZPeGt6bw?oc=5",
+    "pub": "Mon, 16 Nov 2026 00:02:03 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Can Capstone Copper (TSX:CS) Lift Volumes After Another Record Quarter? - Kalkine Media",
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPRHV0UkNhdGNmTU83SnF3ZENka3ZYY0FqdTZJcXhwU2pXeUN2RzZFaGtfLXlZNmFUY1lCU0g3cWMtVFh4eUhYVGdGYnhDRDNZVVhCblZTMWk1eUkya2JabWFSTm1YTkc1U01xZXlrVzdFT2pDVVlzRURCanhMdXFfYVU0dmltRGNVYUtiQ3d0bjVDZDRYcnI2OElzYmxsRmFMZ1hDR3RKMWJUdTZFMDFXRGJIekhNWnUxU21Z?oc=5",
@@ -1435,14 +1443,6 @@
     "src": "CryptoTicker.io",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "USD/JPY Weekly Outlook: Oil shock offsets mounting AI concerns - StoneX",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPS3VIRnVWTWxDRHE5NjZMNmFTM21Ha0FSOXUtWU1VT09GV29TTXpVYU5nNUY3bjFiRnVwaXNjV1BxYmpMX09sZ0EtekhzTkJGeGltSkotbUlMVU9rSXUxalkzM1NNU2h5d29lakxwWTZrYlMtWU10UlZGSzNTT0RKb1BDSzItZ0I4VzJ6Q09uUnE0TVdEaXB6b2dxWThQYmx1bnVyUjZSakNhUW81WHc?oc=5",
-    "pub": "Sun, 15 Nov 2026 01:11:47 GMT",
-    "src": "StoneX",
-    "trig": false,
-    "geo": false
    }
   ]
  },
@@ -1454,7 +1454,7 @@
    "link": "https://www.sec.gov/Archives/edgar/data/1422183/000110465926126247/tm2629612d1_8k.htm",
    "summary": "죄송하지만 제공된 XML 데이터에서 실제 사건 내용을 파악할 수 있는 텍스트 정보가 없습니다. 8-K 양식의 구조만 보이고 구체적인 사건 설명 부분(Item 1.01~8.01 등)의 내용이 누락되어 있습니다. 사건의 핵심",
    "_cached": true,
-   "new": true
+   "new": false
   },
   {
    "name": "OBDC (Blue Owl Capital)",
@@ -1630,7 +1630,7 @@
    101.73,
    102.32,
    101.87,
-   103.43
+   103.4
   ],
   "bizd": [
    13.37,
@@ -1663,19 +1663,19 @@
    98.79
   ],
   "jpy": [
-   159.43,
-   158.88,
-   159.32,
-   155.66,
-   154.48,
-   156.13,
-   158.81,
+   159.22,
+   158.9,
+   160.12,
+   156.2,
+   153.42,
+   157.05,
+   157.46,
    157.73,
    158.2,
    157.81,
    156.83,
    157.68,
-   159.76
+   159.67
   ],
   "uso": [
    126.6,
@@ -1723,19 +1723,19 @@
    355.45
   ],
   "btc": [
-   63024.32,
-   77083.41,
-   78245.81,
-   79823.87,
-   77270.47,
-   81233.68,
-   84406.45,
+   62818.65,
+   77755.27,
+   77667.57,
+   80350.05,
+   76838.16,
+   81142.61,
+   84458.09,
    86480.3,
    83679.47,
    82017.6,
    80024.01,
    78248.45,
-   65224.7
+   65122.45
   ],
   "vixts": [
    0.793,
@@ -2010,24 +2010,6 @@
   }
  },
  "history": [
-  {
-   "d": "2026-10-17",
-   "score": 4.0,
-   "st": "r",
-   "axis": 3,
-   "risk": false,
-   "hits": [
-    "사모대출 주가 약세",
-    "시장 급락",
-    "VIX 급등",
-    "SKEW 급등",
-    "AI 밸류체인 약세",
-    "CCC-BB 확대(품질분산)",
-    "CCC-BB 저점이탈(+30%)",
-    "폭 축소(쏠림 랠리)",
-    "조정 지속(고점 -6.6%)"
-   ]
-  },
   {
    "d": "2026-10-18",
    "score": 4.0,
@@ -2519,6 +2501,20 @@
     "CCC-BB 저점이탈(+30%)",
     "조정 지속(고점 -10.5%)"
    ]
+  },
+  {
+   "d": "2026-11-16",
+   "score": 1.5,
+   "st": "a",
+   "axis": 1,
+   "risk": false,
+   "hits": [
+    "사모대출 주가 약세",
+    "AI 밸류체인 약세",
+    "CCC-BB 확대(품질분산)",
+    "CCC-BB 저점이탈(+30%)",
+    "조정 지속(고점 -10.5%)"
+   ]
   }
  ],
  "events": [
@@ -2526,49 +2522,49 @@
    "date": "2026-11-18",
    "name": "NVDA 실적",
    "at": "2026-11-17T21:00:00+00:00",
-   "dday": 2
+   "dday": 1
   },
   {
    "date": "2026-12-04",
    "name": "미 고용보고서(관례)",
    "at": "2026-12-04T13:30:00+00:00",
-   "dday": 19
+   "dday": 18
   },
   {
    "date": "2026-12-09",
    "name": "FOMC 금리결정",
    "at": "2026-12-09T19:00:00+00:00",
-   "dday": 24
+   "dday": 23
   },
   {
    "date": "2026-12-10",
    "name": "AVGO 실적",
    "at": "2026-12-09T21:00:00+00:00",
-   "dday": 24
+   "dday": 23
   },
   {
    "date": "2026-12-10",
    "name": "미 CPI(11월)",
    "at": "2026-12-10T13:30:00+00:00",
-   "dday": 25
+   "dday": 24
   },
   {
    "date": "2026-12-15",
    "name": "ORCL 실적",
    "at": "2026-12-14T21:00:00+00:00",
-   "dday": 29
+   "dday": 28
   },
   {
    "date": "2026-12-24",
    "name": "MU 실적(예상)",
    "at": "2026-12-23T21:00:00+00:00",
-   "dday": 38
+   "dday": 37
   },
   {
    "date": "2027-01-01",
    "name": "미 고용보고서(관례)",
    "at": "2027-01-01T13:30:00+00:00",
-   "dday": 47
+   "dday": 46
   }
  ],
  "gpu": {
@@ -2808,7 +2804,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-15T23:51:55+00:00",
+  "checked": "2026-11-16T00:12:01+00:00",
   "openai": {
    "found": false
   },
@@ -2842,7 +2838,7 @@
   "peak": 3.42,
   "peak_d": "2008-10-01",
   "prev_val": -0.38,
-  "fetched": "2026-11-15",
+  "fetched": "2026-11-16",
   "src": "fed"
  },
  "klr": {
@@ -2911,17 +2907,17 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.76,
-   "usdjpy_chg20": 1.24,
+   "usdjpy": 159.67,
+   "usdjpy_chg20": 1.18,
    "vix_chg5": -24.73,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.43,
-   "dxy_chg20": 1.42,
-   "usdkrw": 1335.7,
-   "usdkrw_chg20": 0.17,
+   "dxy": 103.4,
+   "dxy_chg20": 1.39,
+   "usdkrw": 1336.48,
+   "usdkrw_chg20": 0.23,
    "hit": false,
    "missing": []
   },

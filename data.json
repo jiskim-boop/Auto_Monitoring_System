@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:12:04+00:00",
+ "updated": "2026-11-18T22:22:19+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -819,20 +819,20 @@
    "ok": true
   },
   "^SKEW": {
-   "price": 145.11,
-   "chg": -0.83,
-   "chg5": -3.98,
-   "chg20": -9.53,
-   "sma20": 150.01,
-   "sma50": 149.64,
-   "sma200": 145.67,
+   "price": 142.84,
+   "chg": -1.56,
+   "chg5": -4.19,
+   "chg20": -5.0,
+   "sma20": 149.63,
+   "sma50": 149.51,
+   "sma200": 145.65,
    "high3m": 168.59,
-   "reg": 145.11,
+   "reg": 142.84,
    "pre": null,
    "post": null,
-   "regClose": 145.11,
+   "regClose": 142.84,
    "sess": "reg",
-   "mt": 1794955335,
+   "mt": 1795039219,
    "ok": true
   },
   "^MOVE": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.8,
-   "chg": 0.3,
-   "chg5": 0.86,
-   "chg20": 1.98,
+   "price": 103.78,
+   "chg": 0.28,
+   "chg5": 0.85,
+   "chg20": 1.97,
    "sma20": 102.35,
    "sma50": 101.69,
    "sma200": 100.69,
-   "high3m": 103.8,
-   "reg": 103.8,
+   "high3m": 103.78,
+   "reg": 103.78,
    "pre": null,
    "post": null,
-   "regClose": 103.8,
+   "regClose": 103.78,
    "sess": "reg",
-   "mt": 1795039286,
+   "mt": 1795039895,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62306.4,
-   "chg": -3.99,
-   "chg5": -8.71,
-   "chg20": -19.89,
-   "sma20": 72665.98,
-   "sma50": 78564.52,
-   "sma200": 72121.18,
+   "price": 62370.67,
+   "chg": -3.89,
+   "chg5": -8.61,
+   "chg20": -19.81,
+   "sma20": 72669.19,
+   "sma50": 78565.81,
+   "sma200": 72121.52,
    "high3m": 86602.91,
-   "reg": 62306.4,
+   "reg": 62370.67,
    "pre": null,
    "post": null,
-   "regClose": 62306.4,
+   "regClose": 62370.67,
    "sess": "reg",
-   "mt": 1795039891,
+   "mt": 1795040502,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.32,
+   "price": 159.31,
    "chg": -0.13,
-   "chg5": 0.39,
+   "chg5": 0.38,
    "chg20": 0.66,
    "sma20": 158.29,
    "sma50": 157.63,
    "sma200": 159.24,
    "high3m": 160.2,
-   "reg": 159.32,
+   "reg": 159.31,
    "pre": null,
    "post": null,
-   "regClose": 159.32,
+   "regClose": 159.31,
    "sess": "reg",
-   "mt": 1795039889,
+   "mt": 1795040502,
    "ok": true
   },
   "KRW=X": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Meet the Erin Brockovich of Private Credit - Puck",
+    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVU5wT3hZWm9NUnYtbFJaOVAta20yQzBnRjVlTHFtVjJxZmdld28tYTBBQUNjbjhvaTZFMHpWZHczWmowVUlhQTRCWlJ4ekNzSF9kY2I4RTNNOXVrRnFXdzlUVnZZSG51eFE3OHRmUnZ2a3ZPRkxidXVYRUNGeFV6cnNLRDYzY0U?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:06:04 GMT",
+    "src": "Puck",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Forget CoreWeave: Applied Digital Is the Real Loser as “The Bank of Nvidia” Pulls Back - TIKR.com",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPTUo4c0p6dEwxR2J6bE1oZXFmQnBTWHBiLXhDalpLbG1RQU05bm1XUkRVWUpNOWRXLTdwUWstZG9Ma3FQUndwNUVmbzFiclhLSlZoVUJvOHdnWGJ3eDF6eDlWdWVIbWdSLTkzazFXcmg5X0tQZVY1anlSMzFhWk45VGc4cHgyQzlwT3ktYllRM0phdnhaV3c0XzJqcFpDVzgyZzJNUFFHS01vaGRUbEhheXpERQ?oc=5",
     "pub": "Wed, 18 Nov 2026 22:04:25 GMT",
@@ -1285,17 +1293,17 @@
     "src": "CNBC",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Earnings call transcript: Golub Capital BDC Q4 2026 misses EPS forecast - Investing.com India",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNelhNbWVjX1FKejQ5VE9idUpiUXFtdGVmQ2NJQ1R0Y0hzWWZvU09IZXFJZ2VJSXkyeWdUMG9fSllZV0NoSzN0SU80SXNRZHVIMjNhQlRwOVN2NFphSWh1MnRRc05fTjNDUkVoSkw2cksxQzgwMnQzb2lfTmlFdGphVWdnZ3NDRXd4ZXZ2YU0tZlpnaEc3cUJIMnVRc0t0dmg1NFM5b25UUGplX0kxZnNsdmR4Y1lxbzBXa0RBanMtR1p0SHlEbVlWckVpVQ?oc=5",
-    "pub": "Wed, 18 Nov 2026 17:41:31 GMT",
-    "src": "Investing.com India",
-    "trig": true,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Anthropic IPO (Live Updates): Shares Priced At $83 - Forbes",
+    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWpvbDhnRllSVHFXRUdadm1xdWpGSnp3QU1tMGttTHM4d0htcGdZRk9WUjA1aWdQcy12MGg5R1dNOWw1ejFMc3FuUHNuaEw2MmNLM1FSQU5fRklRZ1ROcFNYei1pUk5vRmhRNGNfaVlvNjFDU01TX2FZS0xaNnk4aGlCc1M0TVJVYWowdF9Cbk5HWXoyTFBvSUZablNlbkdOSGZ2SkVaYTkxeDFKQnc?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:05:39 GMT",
+    "src": "Forbes",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Anthropic Prices IPO at $83 a Share on Strong Demand - WSJ",
     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPb1dQS0xwaGdEa3NFS3B0NzlPZnJyUC01VjFHU0s1TkJnZkEycHpwUm1uQTBfYUYzRE1zUjJsQ05xelp2SGlYbWl3aklQdWdlOXFXbF9aRTc4Sk50dW5MQWZsRnVULUVaaFBMTmpmai1Fb3RsenBWWHBOTEt5MmNrZTlwSFY?oc=5",
@@ -1326,14 +1334,6 @@
     "pub": "Wed, 18 Nov 2026 21:37:37 GMT",
     "src": "NeoTeo",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Anthropic's IPO set for blastoff this week in key test for AI boom - CBS News",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE10OUpMSF9LOVFSVk9ZbGszRUFCTm9sYjhnUk9IaWZWb1FieW4zUG1saWd5UlJBUHB2TXRvczNqVlExYkd4WEcxRGlwdC1PbHUtaEFfRno2WlE0TnBVTWFtMnBwTmRCc3ZGS19adHRmUTBCZw?oc=5",
-    "pub": "Wed, 18 Nov 2026 21:32:05 GMT",
-    "src": "CBS News",
-    "trig": false,
     "geo": false
    },
    {
@@ -1379,18 +1379,18 @@
     "geo": false
    },
    {
-    "title": "Most Fed officials back further rate hikes - Transport Topics",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQW1XRE90TDlsMmFtbTB2M0ZYMFNfRmtvajZELS1aUnNzaWI3ZDlOQTZFVzZrWW1JZ1ZEaUViM18tYlFYS0wzam1uVzdGd2V4OTI2ZFMyMGtqV0VWX2FuVE9FS18yQTAyM0N6ZQ?oc=5",
-    "pub": "Wed, 18 Nov 2026 20:30:33 GMT",
-    "src": "Transport Topics",
+    "title": "Fed Saw Need to Keep Raising Interest Rates Despite Holding Steady in October - The New York Times",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQZWNVYnFNZV9nd0xLQW9EenZFTEJZS1A0VF9jcXgydHdZMlNUY21sTndVYzZXTThLS19UOThYOF9oZS1hbURtSlBhcUYyTVB1XzB2QUk5dlZva3RlNzlyWmtweDNhUUdyNVJGV290RzNLYTBEU1RXMlpiNEtHZ09HTVFyZ09ldVdKUXNiMHFLSk45Y3RiOWEzWDFB?oc=5",
+    "pub": "Wed, 18 Nov 2026 20:35:00 GMT",
+    "src": "The New York Times",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Fed Minutes Reveal Most Officials Back Further Rate Hikes, With a Possible Half-Point Move in December - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9ldGUwNHN0WkRUQXBBaHpYM2FrUElEZ2dmT1lrbzZ2MDhleHczUlExNmw0NEdNVlBHN09MdmdsX2g1cWlyOC1nMHVfb29aNGxHU0NFOFhRb3BpWk5lREg5bjU4ZENaY1NPbFVYdS1JMEJmUkhJY3c?oc=5",
-    "pub": "Wed, 18 Nov 2026 20:25:00 GMT",
-    "src": "BigGo Finance",
+    "title": "Most Fed officials back further rate hikes - Transport Topics",
+    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQW1XRE90TDlsMmFtbTB2M0ZYMFNfRmtvajZELS1aUnNzaWI3ZDlOQTZFVzZrWW1JZ1ZEaUViM18tYlFYS0wzam1uVzdGd2V4OTI2ZFMyMGtqV0VWX2FuVE9FS18yQTAyM0N6ZQ?oc=5",
+    "pub": "Wed, 18 Nov 2026 20:30:33 GMT",
+    "src": "Transport Topics",
     "trig": false,
     "geo": false
    }
@@ -1402,6 +1402,14 @@
     "pub": "Wed, 18 Nov 2026 22:06:53 GMT",
     "src": "FXEmpire",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "China Burns Less Oil and Coal as the Iran War Reshapes Its Energy Mix - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRUhYenh2WEZoMzh6LVVpbGNXWnJsNzJyTElPOTIwSVBvcUFkSFoxaFp5ajRYUWhEd2JyRWdsdUNpaFgwYVhkSHZicjl5bi1ZQ0RoSHN5THY5aHJyOXdJdk5ualdlU2pmQk1CSTQtYnMxVS03enJ5RFc1dEt3aC1ZYlZGdVk5elVDLXFybE1PUzlJYTQydU1GVERjYXRYdDBNam5UV2d2TU0zWlJnTjBLVXZQcExERWRn0gG-AUFVX3lxTFBiUHFYVGRJaVhiempqV2tzNWQtTjFaUHdYUzhjekFKeEFQZlNsZzIzQjNXbVNuMEtUektyQWNEcTAyOEg4VlFsazM2NW50NVVWTDdZd1RhTWhNYnlUUGYzcUppWEFEdjA3LVZ2TTlpLTBOSy1SQlFCcmwyUmpHM25MME5OS0lXTDd6dk5xWE5GeHQ5cmJOX1p3cmxzUktUeWFiaENWUGU4Z0hZV1FlZ3B4LV9RM0htcWloazZoUUE?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": true,
     "geo": false
    },
    {
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPaDFCTV9zN1pVaFoteGpWam5uX3pGOXp4X3gwOVVqOVk5Yy1xdkdkc0w3MlFmWkNZWXA2Sms4OHhLMk5iNUExb3NYc3lJQW53dVJUQlkzVlNIX0FCWlM0cVpab0tQT2l1dzM0a3FlQmlqQ0NoQzB6WWs4Um9vbHY4LTFTMUc1Q3E5NnJYbVZSUzZ1czhPdXBkUjZMWXpKa2IxU1hqenFDc1RhRVV3bTJIdUtNWEJjZ2VsTUE?oc=5",
     "pub": "Wed, 18 Nov 2026 21:02:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "China's low-price offensive eases… Can K-copper foil seize a counterattack opportunity? - 머니투데이",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE4yUHZYeFREM3JkYl9XV0JUUVNSbDhxd2NpVGRRZHQxQU9rTG91SWZhRHU0MzJrYkg0REZrRG9ha0tWNnhGMFVXRjlSZFB3MFRHMnJhdkY1OWRzSno5amNBSFQ3REFhSW0wRFdpcWxHV24?oc=5",
-    "pub": "Wed, 18 Nov 2026 20:30:00 GMT",
-    "src": "머니투데이",
     "trig": false,
     "geo": false
    }
@@ -1631,7 +1631,7 @@
    101.78,
    102.19,
    101.51,
-   103.8
+   103.78
   ],
   "bizd": [
    13.26,
@@ -1676,7 +1676,7 @@
    158.27,
    157.99,
    158.47,
-   159.3
+   159.29
   ],
   "uso": [
    130.91,
@@ -1736,7 +1736,7 @@
    84011.97,
    81267.59,
    80405.29,
-   62298.81
+   62379.14
   ],
   "vixts": [
    0.853,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-18T22:11:51+00:00",
+  "checked": "2026-11-18T22:22:04+00:00",
   "openai": {
    "found": false
   },
@@ -2908,15 +2908,15 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.32,
+   "usdjpy": 159.31,
    "usdjpy_chg20": 0.66,
    "vix_chg5": 40.42,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.8,
-   "dxy_chg20": 1.98,
+   "dxy": 103.78,
+   "dxy_chg20": 1.97,
    "usdkrw": 1332.69,
    "usdkrw_chg20": 0.66,
    "hit": false,

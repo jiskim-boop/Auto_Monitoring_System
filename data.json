@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-18T22:22:19+00:00",
+ "updated": "2026-11-18T22:32:46+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 103.78,
    "sess": "reg",
-   "mt": 1795039895,
+   "mt": 1795040529,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62370.67,
-   "chg": -3.89,
-   "chg5": -8.61,
-   "chg20": -19.81,
-   "sma20": 72669.19,
-   "sma50": 78565.81,
-   "sma200": 72121.52,
+   "price": 62518.86,
+   "chg": -3.66,
+   "chg5": -8.4,
+   "chg20": -19.62,
+   "sma20": 72676.6,
+   "sma50": 78568.77,
+   "sma200": 72122.32,
    "high3m": 86602.91,
-   "reg": 62370.67,
+   "reg": 62518.86,
    "pre": null,
    "post": null,
-   "regClose": 62370.67,
+   "regClose": 62518.86,
    "sess": "reg",
-   "mt": 1795040502,
+   "mt": 1795041134,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.31,
-   "chg": -0.13,
-   "chg5": 0.38,
-   "chg20": 0.66,
+   "price": 159.28,
+   "chg": -0.15,
+   "chg5": 0.36,
+   "chg20": 0.64,
    "sma20": 158.29,
    "sma50": 157.63,
    "sma200": 159.24,
    "high3m": 160.2,
-   "reg": 159.31,
+   "reg": 159.28,
    "pre": null,
    "post": null,
-   "regClose": 159.31,
+   "regClose": 159.28,
    "sess": "reg",
-   "mt": 1795040502,
+   "mt": 1795041134,
    "ok": true
   },
   "KRW=X": {
-   "price": 1332.69,
+   "price": 1332.78,
    "chg": -0.22,
-   "chg5": -0.69,
-   "chg20": 0.66,
+   "chg5": -0.68,
+   "chg20": 0.67,
    "sma20": 1336.65,
    "sma50": 1344.84,
    "sma200": 1422.58,
    "high3m": 1384.98,
-   "reg": 1332.69,
+   "reg": 1332.78,
    "pre": null,
    "post": null,
-   "regClose": 1332.69,
+   "regClose": 1332.78,
    "sess": "reg",
-   "mt": 1795039733,
+   "mt": 1795040719,
    "ok": true
   },
   "^OVX": {
@@ -1159,18 +1159,18 @@
    "ok": true
   },
   "CL=F": {
-   "price": 81.88,
-   "chg": -4.8,
-   "chg5": -5.37,
-   "chg20": -15.72,
+   "price": 81.89,
+   "chg": -4.79,
+   "chg5": -5.36,
+   "chg20": -15.71,
    "sma20": 93.28,
    "sma50": 94.83,
    "sma200": 88.01,
    "high3m": 105.83,
-   "reg": 81.88,
+   "reg": 81.89,
    "pre": null,
    "post": null,
-   "regClose": 81.88,
+   "regClose": 81.89,
    "sess": "24h",
    "mt": 1795039200,
    "ok": true
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave shares drop 4.13% amid strong AI dema... - Pluang",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNUVQyM2ZaeUxCYmdiaU0taWt1cTFMc2xFb3lyNXlwcnFmcmEzb2VSWHRzZmUwU1RTSUM0OGxMZFhvbnRLRDZOem16MXFIQWV4RnBybHl2VlRHbnZZMUNRcGRmZ1FOcmRiWTZfQjRSMlo0a2xoaUViek9vN1RVTmhCWGVOMUdqZk14T3F5Mm5qQnZuNjJsekYwZEdueGFWVGhvMlh1bkNYcFJza2JHa2ZXeg?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:21:39 GMT",
+    "src": "Pluang",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Meet the Erin Brockovich of Private Credit - Puck",
     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNVU5wT3hZWm9NUnYtbFJaOVAta20yQzBnRjVlTHFtVjJxZmdld28tYTBBQUNjbjhvaTZFMHpWZHczWmowVUlhQTRCWlJ4ekNzSF9kY2I4RTNNOXVrRnFXdzlUVnZZSG51eFE3OHRmUnZ2a3ZPRkxidXVYRUNGeFV6cnNLRDYzY0U?oc=5",
     "pub": "Wed, 18 Nov 2026 22:06:04 GMT",
@@ -1285,22 +1293,30 @@
     "src": "NewsBreak: Local News & Alerts",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Big bets against AI debt, from CoreWeave to Oracle and the Mag 7, could soon hit the ETF market - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxONFNZeXFnd0NyNE00akxkdzFkLWI2V1FhLURvRE5UeGhENU1RUTUtQmlvcHhLUEVYSHUxZFY0WlNNQzJhcnF2MG1QbHFleHM2eEVpZWs5d2NuejlRbnhKSV9nS2VGcFh1SUU4Wk9fWVpLZ0ZMc2M5X2dWaWZfd3FhWNIBhgFBVV95cUxQTTRQdFF2Z0prWGx2alZMQzJtYlo5akpYcjdwUTFnQ1NManF3V2tDTUhIVTZuR2tOdmprcGVyMWFHcGcyRzVlaURFUmdWOHQ4MDI2TXFRMXIwdkpiOUpJWlUwa293UDVBVWNIdTBxbzZ5N09EYTBpakdQelA0d0luLTNXSWh4QQ?oc=5",
-    "pub": "Wed, 18 Nov 2026 18:37:39 GMT",
-    "src": "CNBC",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Anthropic Is Said to Price IPO Above Range at $83 Per Share - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQa3BkQzh0ZFBoUzZmTzU4akxveFYzZ2pZWEM0aklQWU50RlBfaW4yaDNTMWxKbzFmZ1d3QW96ZkVjOC0zOHh6eUhGWHhZbkVqRHdGc09WSnk3ek56UTJzYjZtZXI5cVo5UmlRd1JJUE9Qa29HRXZEN0JZZlFNR01yX2xpYkVGWDNSTVNxeGFCTzNBZ3VDc29BQlV6dzdBdw?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:08:16 GMT",
+    "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Anthropic IPO (Live Updates): Shares Priced At $83 - Forbes",
     "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxORWpvbDhnRllSVHFXRUdadm1xdWpGSnp3QU1tMGttTHM4d0htcGdZRk9WUjA1aWdQcy12MGg5R1dNOWw1ejFMc3FuUHNuaEw2MmNLM1FSQU5fRklRZ1ROcFNYei1pUk5vRmhRNGNfaVlvNjFDU01TX2FZS0xaNnk4aGlCc1M0TVJVYWowdF9Cbk5HWXoyTFBvSUZablNlbkdOSGZ2SkVaYTkxeDFKQnc?oc=5",
     "pub": "Wed, 18 Nov 2026 22:05:39 GMT",
     "src": "Forbes",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic IPO to mint thousands of millionaires - Reuters",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW1QU3VfRndFeVFEODFZbWVTcUVkcE1CelRpYmJWZ0FleXRVd3EwbjFXeHRmbUJQUDBsQXFQc21iVjdCRHFscy1qQjZWeWhIMnF6d0NBR3gxQmRERFdyLXBDNFFpZDQtY05mT3REaThpVWdVSVQzLUtmOUpweHZmc0dvWEFjbmpxWDdadjNzaFI4ajNmNUZsVVlhb05hWm5qRFdNTV9R?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:00:42 GMT",
+    "src": "Reuters",
     "trig": false,
     "geo": false
    },
@@ -1327,25 +1343,17 @@
     "src": "The Guardian",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "California OpenAI lawsuit: what the filing alleges - NeoTeo",
-    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOMzBjVm9xNkhaOFR5dzNGVXNwTEJrWkxPS3diSGhpQWxOUlZ2M0h3VjhMQmZ6WmVqRXdpaUVZNnF3bV9JT0lzRUdDdDVtUmlCaEF1bWRlNndIT1ExS21tSmVockR3azFXUHFXZW5zaDJaaUdVajlFRkRwTzhodHhULVpKejVjbk1TeC1MRHlXRQ?oc=5",
-    "pub": "Wed, 18 Nov 2026 21:37:37 GMT",
-    "src": "NeoTeo",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Anthropic IPO to mint thousands of millionaires - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW1QU3VfRndFeVFEODFZbWVTcUVkcE1CelRpYmJWZ0FleXRVd3EwbjFXeHRmbUJQUDBsQXFQc21iVjdCRHFscy1qQjZWeWhIMnF6d0NBR3gxQmRERFdyLXBDNFFpZDQtY05mT3REaThpVWdVSVQzLUtmOUpweHZmc0dvWEFjbmpxWDdadjNzaFI4ajNmNUZsVVlhb05hWm5qRFdNTV9R?oc=5",
-    "pub": "Wed, 18 Nov 2026 21:31:27 GMT",
-    "src": "Reuters",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Gold's Rout Accelerates as FOMC Minutes Bolster the US Doller - FOREX.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdXlpUVMxU0tIRXRPVWZNemtaUDNIeHJ5Y1pDUWVRbERwY2ZhUWxEYkJUbUhDbUdadXlZTU1MYS1lYk5PZG9wWDVIU0NHM1JrOVQ4bzdGamRvWWVZbDVrbmxZLUhYOVdUMzVhZlZDOTV0X2NSVUloRXJKNWJncUxiUWpzYUxwYWtMVVd5bWlLclRMQk5OZ0pIVFU4OTM5cUljcEU1RElkWnjSAbQBQVVfeXFMTlFfck1aNk5yTC0zUVdCT0Ezb01xWWxMX2MzbmV5V0RIWDEtNDYwbTBrbUl5OWRCTVppd29hYm16THdoNGpyQzBuRl9yQm5rcHVRVFFWMlZMRTRFMlJER3FPbGdXUWNSYk54dVBhSnhJc1drblEta1BKNTMzYTdhSUVRbnJmMllIU1l5aTJMNU5iR3hrd01YV3BFMnM0SjF1MWRkZVk1UG9Nd0tGeEcwb3JCQjZ2?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:18:48 GMT",
+    "src": "FOREX.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "The Fed came close to an October rate hike, FOMC minutes show - InvestmentNews",
     "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSU9lOS1EWHNmc1NuOGF6Rm5mcUFFc05Da0dtNUxJV1BkVFlLMXA0cG10VTJRYllNOWFoeThpZlJJOGJ5QjN2N3gxQmpDWFA0VlJWdFFYZXZLNzZKV3lPYVVEdmhzRnZmUzJzcm9NTkhsQ0R3dU85aUlhQkEtdnRnWEhDb2tpXzh0XzJTSEhuQ3YtMUc2MDZZR3JSTzRnZG1oanNBRnNseHUzQmc?oc=5",
@@ -1385,21 +1393,13 @@
     "src": "The New York Times",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Most Fed officials back further rate hikes - Transport Topics",
-    "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9xQW1XRE90TDlsMmFtbTB2M0ZYMFNfRmtvajZELS1aUnNzaWI3ZDlOQTZFVzZrWW1JZ1ZEaUViM18tYlFYS0wzam1uVzdGd2V4OTI2ZFMyMGtqV0VWX2FuVE9FS18yQTAyM0N6ZQ?oc=5",
-    "pub": "Wed, 18 Nov 2026 20:30:33 GMT",
-    "src": "Transport Topics",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Silver and Copper Lead Gold Lower as the Dollar Rises - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMmc1UkNNZXdEZHFQMEdSQ0had05pX0Vzd0JRVmFGaEh1Rk1FRWMwbDhkS096MkRHOGczUFI2cW5uTEYwUmNITmZsSHphS1JVUFpEQ0J1WHJJSVAtY3FnaVVkWTAyQmtkSGY3ZXhHdld1YUhHV0dwZFRCTFVIOGtQdmhMZ2U5SnlaZ1Bfcnl5VHh2eGk4eEtad2dqcmFnaXBVeHBKSGxfMA?oc=5",
-    "pub": "Wed, 18 Nov 2026 22:06:53 GMT",
+    "title": "Oil News: Crude Oil Falls as Traders Weigh Inventory Data and Middle East Risks - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQMVgwV2ZZRlJpcjIxemRDY0tId3NSVVZPdmtDaktWeDlrSTd3SnlGYVg5b2pOT01tRVk0OW4xQkt5S1p5UW5YYi0zNWFPVmtWaHF5dUl3aHdMcHVXaXpNSG9mVFpGX093c0dGWnc3RzVZN0RsTUg0Vy1BRkxFdkZ1TElkMjZISE8tRkhOTVQ2R0Mtc0lBUmFlUEQ2bXI3b3dpU0x6WEdhU3U2LVZNYkpUYlRmX20yaE1YSzJka3QxOUN4UnpvZ1I5Uw?oc=5",
+    "pub": "Wed, 18 Nov 2026 22:22:28 GMT",
     "src": "FXEmpire",
     "trig": false,
     "geo": false
@@ -1676,7 +1676,7 @@
    158.27,
    157.99,
    158.47,
-   159.29
+   159.31
   ],
   "uso": [
    130.91,
@@ -1736,7 +1736,7 @@
    84011.97,
    81267.59,
    80405.29,
-   62379.14
+   62501.74
   ],
   "vixts": [
    0.853,
@@ -2805,7 +2805,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-18T22:22:04+00:00",
+  "checked": "2026-11-18T22:32:35+00:00",
   "openai": {
    "found": false
   },
@@ -2908,8 +2908,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.31,
-   "usdjpy_chg20": 0.66,
+   "usdjpy": 159.28,
+   "usdjpy_chg20": 0.64,
    "vix_chg5": 40.42,
    "hit": false,
    "missing": []
@@ -2917,8 +2917,8 @@
   "dollar": {
    "dxy": 103.78,
    "dxy_chg20": 1.97,
-   "usdkrw": 1332.69,
-   "usdkrw_chg20": 0.66,
+   "usdkrw": 1332.78,
+   "usdkrw_chg20": 0.67,
    "hit": false,
    "missing": []
   },

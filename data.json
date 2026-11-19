@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T22:32:41+00:00",
+ "updated": "2026-11-19T22:42:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -855,7 +855,7 @@
   "DX-Y.NYB": {
    "price": 103.93,
    "chg": 0.07,
-   "chg5": 0.74,
+   "chg5": 0.73,
    "chg20": 2.28,
    "sma20": 102.47,
    "sma50": 101.79,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 103.93,
    "sess": "reg",
-   "mt": 1795126918,
+   "mt": 1795127486,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 62115.45,
-   "chg": -1.38,
-   "chg5": -3.14,
-   "chg20": -19.54,
-   "sma20": 71945.89,
-   "sma50": 78149.37,
-   "sma200": 72044.65,
+   "price": 62189.39,
+   "chg": -1.27,
+   "chg5": -3.02,
+   "chg20": -19.44,
+   "sma20": 71949.58,
+   "sma50": 78150.85,
+   "sma200": 72045.05,
    "high3m": 86602.91,
-   "reg": 62115.45,
+   "reg": 62189.39,
    "pre": null,
    "post": null,
-   "regClose": 62115.45,
+   "regClose": 62189.39,
    "sess": "reg",
-   "mt": 1795127440,
+   "mt": 1795128090,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.65,
+   "price": 159.64,
    "chg": 0.09,
-   "chg5": -0.05,
-   "chg20": 0.96,
+   "chg5": -0.06,
+   "chg20": 0.95,
    "sma20": 158.37,
    "sma50": 157.76,
    "sma200": 159.24,
    "high3m": 160.2,
-   "reg": 159.65,
+   "reg": 159.64,
    "pre": null,
    "post": null,
-   "regClose": 159.65,
+   "regClose": 159.64,
    "sess": "reg",
-   "mt": 1795127525,
+   "mt": 1795128092,
    "ok": true
   },
   "KRW=X": {
-   "price": 1333.17,
-   "chg": 0.01,
-   "chg5": -0.23,
-   "chg20": 0.57,
-   "sma20": 1337.04,
+   "price": 1333.38,
+   "chg": 0.03,
+   "chg5": -0.22,
+   "chg20": 0.59,
+   "sma20": 1337.05,
    "sma50": 1344.73,
    "sma200": 1421.35,
    "high3m": 1384.86,
-   "reg": 1333.17,
+   "reg": 1333.38,
    "pre": null,
    "post": null,
-   "regClose": 1333.17,
+   "regClose": 1333.38,
    "sess": "reg",
-   "mt": 1795127500,
+   "mt": 1795127950,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Shares Sink Roughly Three-Quarters From Peak on Debt Strain - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qcDVQX1JEdEVac3R1Z0lBQmtMa2VzUzNwbmk3S2NXS1RKTHIwOU9wemx6UlhucXBLbDRDelI3anh3M3BwdHZZWWJkZnkxMHdIOHhsZlZwVGU?oc=5",
+    "pub": "Thu, 19 Nov 2026 22:17:24 GMT",
+    "src": "www.tokenpost.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "A CoreWeave co-founder just made an unconventional $30 million wager on its battered bonds - MarketWatch",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNTTJ3VE0zNTdpNjgwZU1ZdnczOFlVZFBlSC0ycGdrTTc3V3piU2wxTU0tWmxmZ1J1UTlNbmVmMERHbTU1cDRNRXZ4TTdVNGFrN1czdFNiSHRNeXRPZlQ4WmlIN2ZnaVJ6SlB2V1g3SGVRUEViekRBTmlwTUpMWXNDZGFzUjVYY0pXUEUzbWRmSHNaUDRsNmlGaE1MTkFoZlNxQ09LNjE4djhuWlVIbDFDSjdGUlFId1R0WVR6OG1TX2o2V3BYNjhPajdWcVQ?oc=5",
     "pub": "Thu, 19 Nov 2026 20:28:00 GMT",
@@ -1285,17 +1293,17 @@
     "src": "Quartz",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Alpha Buying: Ares Is Buying What Wall Street Is Afraid Of - Benzinga",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNV0NQd2xUOVNLeW5UVjBZNW9rSHdRMENhRnV0ZmFPX1ZkQ0xxQXNXSmxhT2ZIOGxsRldiamg5ZXlQaU11NEdqbGtiZnNYbUtVUFliUWNsQ1JPU0twNTdHRndJVzhRU2pmdzYtOV94TW1USHRVZkY4b1lhaEl5VUZXOUZvNjVWVy1SNkdQRkp1UWxTck1QOGFTU2c5WDRnWndHeHdaOTRPVWI?oc=5",
-    "pub": "Thu, 19 Nov 2026 17:10:22 GMT",
-    "src": "Benzinga",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Anthropic Makes Spectacular $2 Trillion IPO Debut - 조선일보",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOWGItbzd5YlBQRkdYYXRVNmxBQ21Ea3g2RzdRMm55U20tQ2hNc2hBTFk3NXVjd1U5WWdnenBNeDBLSUdzV1JKdTVDa2dreEtMTm1EbXlGTnJOX25ZaDhWQ2x2djJaX3JIc2JNeGk2QUFySmNJZEowR3VCYTVjMjVlNU1qYUVIaVI4UWpkczJ3?oc=5",
+    "pub": "Thu, 19 Nov 2026 22:36:42 GMT",
+    "src": "조선일보",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Starship Catch Sets The Stage For Reuse Of Full Vehicle - Aviation Week",
     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQYm5jRW05X0dXcENMeFd3UXN6OGZQVm1DaWVhS0dSLU9iUFdEWDRybl9EMERNbXRndTJ4VHRSV01FRUxtTGdmWUltVEp1NjhyM0FXMVlLdjlOV2VwYWVRQ25VYUo0SGU1OVBRZmhUUzBTZDFySUdZZ3p2TjNWd0JMSDZxN1dwTHpucFQ0QTFRdU9pNHZ6NXQ2TkRRbmRzQ0I4WlBscQ?oc=5",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQZXdyUExSdjhGa000MWtxaUR0YzhiVHJnNzN0N0lTUnNONktkaWZkUVUwdExoUXhXMTlJN0NEZ3F3M2RYbUZYelpiNFhpOE14LWdtYjF1MnB2M00xMk1GbENmci1UeFlXa3V0aHM4TWlxVVZNeFBwUkZjMTA2ZWhCSFBVaVVBb0FUdnpj?oc=5",
     "pub": "Thu, 19 Nov 2026 21:47:00 GMT",
     "src": "AP News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Starship’s triumph and Vulcan’s failure - The Planetary Society",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CUm15aElOR3Bnb3RkOFhXUVdOR2NNVzVKcjJUaHZ0UXQzRUUtaUthcnR1aTYydEoxYlhFYW0zZWM2NHlSeW1pbzh1c1JsZHB2bE9JSWE4MmhicE81TGJDN1RHd0NYSkoyNHg3VmZQWWhtam5Tdy02ZGNoSFI?oc=5",
-    "pub": "Thu, 19 Nov 2026 21:42:25 GMT",
-    "src": "The Planetary Society",
     "trig": false,
     "geo": false
    }
@@ -1407,7 +1407,7 @@
    {
     "title": "Copper price rebounds after rout as physical tightness persists - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNT2VfdDJvRGM1NDBtNzE0aHNOeWc0M3FjVVEzZ0FOOUlMUFdaUExHeElya0FjM0hlOUFIWXdyb1ZBUktqOEYyaGV1NzJEajZ2dmVOUnZ4N2FBR0VHRHdOenhOVjlRU1VlU191TU44aXM4b2MxaUhCRDVQd1VNX0xVdmhqbm5oMDY0X0t5ZzFRTVFrNS1ibUE?oc=5",
-    "pub": "Thu, 19 Nov 2026 21:58:30 GMT",
+    "pub": "Thu, 19 Nov 2026 21:59:11 GMT",
     "src": "Mining.com",
     "trig": false,
     "geo": false
@@ -1675,7 +1675,7 @@
    158.13,
    157.83,
    158.36,
-   159.64
+   159.65
   ],
   "uso": [
    134.54,
@@ -1735,7 +1735,7 @@
    81311.89,
    77775.11,
    75942.12,
-   62099.52
+   62180.87
   ],
   "vixts": [
    0.781,
@@ -2564,10 +2564,10 @@
    "dday": 25
   },
   {
-   "date": "2026-12-24",
-   "name": "MU 실적(예상)",
-   "at": "2026-12-23T21:00:00+00:00",
-   "dday": 34
+   "date": "2026-12-18",
+   "name": "MU 실적",
+   "at": "2026-12-17T21:00:00+00:00",
+   "dday": 28
   },
   {
    "date": "2027-01-01",
@@ -2813,7 +2813,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-19T22:32:26+00:00",
+  "checked": "2026-11-19T22:41:52+00:00",
   "openai": {
    "found": false
   },
@@ -2930,8 +2930,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.65,
-   "usdjpy_chg20": 0.96,
+   "usdjpy": 159.64,
+   "usdjpy_chg20": 0.95,
    "vix_chg5": 52.09,
    "hit": false,
    "missing": []
@@ -2939,8 +2939,8 @@
   "dollar": {
    "dxy": 103.93,
    "dxy_chg20": 2.28,
-   "usdkrw": 1333.17,
-   "usdkrw_chg20": 0.57,
+   "usdkrw": 1333.38,
+   "usdkrw_chg20": 0.59,
    "hit": false,
    "missing": []
   },

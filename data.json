@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-20T21:32:44+00:00",
+ "updated": "2026-11-20T21:42:20+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -174,34 +174,34 @@
   },
   "005930.KS": {
    "price": 183100.0,
-   "chg": -5.96,
-   "chg5": -11.97,
-   "chg20": -14.64,
-   "sma20": 209685.0,
-   "sma50": 236094.0,
-   "sma200": 265150.81,
+   "chg": -7.01,
+   "chg5": -11.12,
+   "chg20": -15.03,
+   "sma20": 208065.0,
+   "sma50": 234356.0,
+   "sma200": 264494.4,
    "high3m": 285500.0,
    "reg": 183100.0,
    "pre": null,
    "post": null,
-   "regClose": 196900.0,
+   "regClose": 183100.0,
    "sess": "reg",
    "mt": 1795156205,
    "ok": true
   },
   "000660.KS": {
    "price": 1113000.0,
-   "chg": -2.71,
-   "chg5": -11.24,
-   "chg20": -8.99,
-   "sma20": 1281300.0,
-   "sma50": 1504380.0,
-   "sma200": 1791758.06,
+   "chg": -5.92,
+   "chg5": -8.47,
+   "chg20": -12.84,
+   "sma20": 1273100.0,
+   "sma50": 1490980.0,
+   "sma200": 1786328.0,
    "high3m": 1868000.0,
    "reg": 1113000.0,
    "pre": null,
    "post": null,
-   "regClose": 1183000.0,
+   "regClose": 1113000.0,
    "sess": "reg",
    "mt": 1795156216,
    "ok": true
@@ -836,37 +836,37 @@
    "ok": true
   },
   "^MOVE": {
-   "price": 106.25,
-   "chg": 10.64,
-   "chg5": 7.56,
-   "chg20": -0.55,
+   "price": 106.31,
+   "chg": 10.7,
+   "chg5": 7.61,
+   "chg20": -0.49,
    "sma20": 97.79,
    "sma50": 96.91,
    "sma200": 82.45,
    "high3m": 113.6,
-   "reg": 106.25,
+   "reg": 106.31,
    "pre": null,
    "post": null,
-   "regClose": 106.26,
+   "regClose": 106.31,
    "sess": "reg",
-   "mt": 1795208550,
+   "mt": 1795209450,
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.89,
-   "chg": -0.01,
-   "chg5": 0.46,
-   "chg20": 2.04,
+   "price": 103.9,
+   "chg": 0.0,
+   "chg5": 0.48,
+   "chg20": 2.06,
    "sma20": 102.57,
    "sma50": 101.89,
    "sma200": 100.76,
    "high3m": 103.9,
-   "reg": 103.89,
+   "reg": 103.9,
    "pre": null,
    "post": null,
-   "regClose": 103.89,
+   "regClose": 103.9,
    "sess": "reg",
-   "mt": 1795209718,
+   "mt": 1795210300,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58592.91,
-   "chg": -5.35,
-   "chg5": -10.28,
-   "chg20": -24.33,
-   "sma20": 70993.11,
-   "sma50": 77619.9,
-   "sma200": 71945.34,
+   "price": 58998.62,
+   "chg": -4.69,
+   "chg5": -9.66,
+   "chg20": -23.81,
+   "sma20": 71013.4,
+   "sma50": 77628.01,
+   "sma200": 71947.53,
    "high3m": 86602.91,
-   "reg": 58592.91,
+   "reg": 58998.62,
    "pre": null,
    "post": null,
-   "regClose": 58592.91,
+   "regClose": 58998.62,
    "sess": "reg",
-   "mt": 1795210322,
+   "mt": 1795210904,
    "ok": true
   },
   "USO": {
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 158.61,
    "sess": "reg",
-   "mt": 1795210325,
+   "mt": 1795210907,
    "ok": true
   },
   "KRW=X": {
-   "price": 1346.05,
-   "chg": 1.18,
-   "chg5": 0.92,
-   "chg20": 1.51,
-   "sma20": 1337.91,
+   "price": 1345.94,
+   "chg": 1.17,
+   "chg5": 0.91,
+   "chg20": 1.5,
+   "sma20": 1337.9,
    "sma50": 1344.63,
    "sma200": 1420.23,
    "high3m": 1384.86,
-   "reg": 1346.05,
+   "reg": 1345.94,
    "pre": null,
    "post": null,
-   "regClose": 1346.05,
+   "regClose": 1345.94,
    "sess": "reg",
-   "mt": 1795210327,
+   "mt": 1795210907,
    "ok": true
   },
   "^OVX": {
@@ -1091,95 +1091,95 @@
    "ok": true
   },
   "ES=F": {
-   "price": 6961.75,
-   "chg": -3.27,
-   "chg5": -8.19,
-   "chg20": -9.11,
-   "sma20": 7527.79,
-   "sma50": 7663.81,
-   "sma200": 7613.41,
+   "price": 6965.0,
+   "chg": -3.23,
+   "chg5": -8.15,
+   "chg20": -9.07,
+   "sma20": 7527.95,
+   "sma50": 7663.87,
+   "sma200": 7613.44,
    "high3m": 7874.0,
-   "reg": 6961.75,
+   "reg": 6965.0,
    "pre": null,
    "post": null,
-   "regClose": 6961.75,
+   "regClose": 6965.0,
    "sess": "24h",
-   "mt": 1795209729,
+   "mt": 1795210307,
    "ok": true
   },
   "NQ=F": {
-   "price": 25239.5,
-   "chg": -5.12,
-   "chg5": -9.97,
-   "chg20": -13.32,
-   "sma20": 28014.53,
-   "sma50": 29394.2,
-   "sma200": 29478.2,
+   "price": 25271.0,
+   "chg": -5.0,
+   "chg5": -9.86,
+   "chg20": -13.21,
+   "sma20": 28016.1,
+   "sma50": 29394.83,
+   "sma200": 29478.44,
    "high3m": 31483.25,
-   "reg": 25239.5,
+   "reg": 25271.0,
    "pre": null,
    "post": null,
-   "regClose": 25239.5,
+   "regClose": 25271.0,
    "sess": "24h",
-   "mt": 1795209727,
+   "mt": 1795210308,
    "ok": true
   },
   "YM=F": {
-   "price": 48381.0,
+   "price": 48383.0,
    "chg": -1.62,
    "chg5": -7.7,
    "chg20": -7.66,
-   "sma20": 51765.2,
-   "sma50": 51903.74,
-   "sma200": 52254.56,
+   "sma20": 51765.3,
+   "sma50": 51903.78,
+   "sma200": 52254.57,
    "high3m": 53745.0,
-   "reg": 48381.0,
+   "reg": 48383.0,
    "pre": null,
    "post": null,
-   "regClose": 48381.0,
+   "regClose": 48383.0,
    "sess": "24h",
-   "mt": 1795209722,
+   "mt": 1795210310,
    "ok": true
   },
   "GC=F": {
-   "price": 3519.5,
-   "chg": -4.5,
-   "chg5": -9.44,
-   "chg20": -12.19,
-   "sma20": 3942.36,
-   "sma50": 4110.94,
-   "sma200": 4230.45,
+   "price": 3523.4,
+   "chg": -4.4,
+   "chg5": -9.34,
+   "chg20": -12.09,
+   "sma20": 3942.55,
+   "sma50": 4111.02,
+   "sma200": 4230.48,
    "high3m": 4694.5,
-   "reg": 3519.5,
+   "reg": 3523.4,
    "pre": null,
    "post": null,
-   "regClose": 3519.5,
+   "regClose": 3523.4,
    "sess": "24h",
-   "mt": 1795209729,
+   "mt": 1795210311,
    "ok": true
   },
   "CL=F": {
-   "price": 83.77,
-   "chg": 0.67,
-   "chg5": -5.41,
-   "chg20": -18.88,
+   "price": 83.73,
+   "chg": 0.62,
+   "chg5": -5.45,
+   "chg20": -18.92,
    "sma20": 91.56,
    "sma50": 94.14,
    "sma200": 87.63,
    "high3m": 105.83,
-   "reg": 83.77,
+   "reg": 83.73,
    "pre": null,
    "post": null,
-   "regClose": 83.77,
+   "regClose": 83.73,
    "sess": "24h",
-   "mt": 1795209727,
+   "mt": 1795210309,
    "ok": true
   },
   "HG=F": {
    "price": 5.46,
-   "chg": -2.96,
-   "chg5": -10.21,
-   "chg20": -15.71,
+   "chg": -2.93,
+   "chg5": -10.19,
+   "chg20": -15.69,
    "sma20": 6.22,
    "sma50": 6.43,
    "sma200": 6.42,
@@ -1189,24 +1189,24 @@
    "post": null,
    "regClose": 5.46,
    "sess": "24h",
-   "mt": 1795209723,
+   "mt": 1795210301,
    "ok": true
   },
   "ZN=F": {
-   "price": 106.66,
-   "chg": 0.74,
-   "chg5": 1.4,
-   "chg20": 0.47,
+   "price": 106.59,
+   "chg": 0.68,
+   "chg5": 1.34,
+   "chg20": 0.41,
    "sma20": 106.24,
    "sma50": 105.62,
    "sma200": 107.66,
    "high3m": 108.86,
-   "reg": 106.66,
+   "reg": 106.59,
    "pre": null,
    "post": null,
-   "regClose": 106.66,
+   "regClose": 106.59,
    "sess": "24h",
-   "mt": 1795209722,
+   "mt": 1795210308,
    "ok": true
   },
   "EWY": {
@@ -1227,20 +1227,20 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 89.99,
-   "chg": -2.16,
-   "chg5": -6.1,
-   "chg20": -22.9,
+   "price": 90.03,
+   "chg": -2.12,
+   "chg5": -6.06,
+   "chg20": -22.87,
    "sma20": 100.26,
    "sma50": 103.3,
    "sma200": 94.07,
    "high3m": 117.64,
-   "reg": 89.99,
+   "reg": 90.03,
    "pre": null,
    "post": null,
-   "regClose": 89.99,
+   "regClose": 90.03,
    "sess": "24h",
-   "mt": 1795209719,
+   "mt": 1795210280,
    "ok": true
   }
  },
@@ -1255,19 +1255,11 @@
     "geo": false
    },
    {
-    "title": "Asset-Backed Debt Sales Top Post-GFC Record on AI Strength - Livemint",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPLXJSNVR5OHRJME9zNVRfa2d4dVlPOVVNQ2ZKdXRNcHFkNkFzeGljMWFEZmRMdE5kMHU4WjFUUlN4N2l4YVVBWHJyS2h2cC1fbE9XN3dIOUZLb3doT0hxdjJ1QzF1TDF6cVBSQ1BlWXh0NTdlWW9ndHl6WjhjNnhWd25xLVBOamhrN2dfNW0yb3pQY0NtU2lTZWJheDlQdXQyQm16bWw3eXBVX25tX0E?oc=5",
-    "pub": "Fri, 20 Nov 2026 20:17:33 GMT",
-    "src": "Livemint",
+    "title": "Asset-Backed Debt Sales Top Post-GFC Record on AI Strength - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNN3l2ZmtYZmlaVENYSmpHbnhLY0pxQWpMRHRHSzI1NmY5SGVEQTdkQ3hFT1hmRy1pZUlHVl9tRHAwSU9HU0JFOWZsUHJQWWZXN05hVXJNc3J6WVpXZjg3U3R1MG5GWDZYaWVhbUpfT1FGczlQVVNtOVRocU5SRDZCSHM0TE93d0FfSFRRSzl1QWpVeU5wUmp6dHQ4eGhEN2dYMWVxY2Qwa05lX2FuUWh5NUl3WmJZcHV0aWNLamlHbWh2WktkYnFtMFZLb3g?oc=5",
+    "pub": "Fri, 20 Nov 2026 19:41:53 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
-    "geo": false
-   },
-   {
-    "title": "CoreWeave Stock (CRWV) Plunges Toward Its $40 IPO Price as $66.2 Billion Debt Load Rattles AI Investors - TipRanks",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUEZHaV8wTm12QlV3bkFpSmhkWElDZWVtVDhSUjhCai1IOWhCbF9iTS16SWZleVNsc2ZWMkNfTzFwYVd6dUF3X3YtRTM5Zl93R3pmUjlTSC1yNmZ1N2M0TkZEX0x3MWItQmZZRG9KMTNUY09vaXRYek1hdjF5QnQzd0xYQW1hazdKRUM3MlpTbUhyR3dfTUg5Ums0aDg0ejBWajFfYmhwOUN6cmpITTdMYVNWRHo1RG1oT2FpemxzZFhmQQ?oc=5",
-    "pub": "Fri, 20 Nov 2026 18:28:49 GMT",
-    "src": "TipRanks",
-    "trig": true,
     "geo": false
    },
    {
@@ -1287,10 +1279,18 @@
     "geo": false
    },
    {
-    "title": "Why CoreWeave and Nebius stocks are falling on Friday? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVHRnSnVaWndLajE4RUFtRWllVDZfNndVX3Z3eVBidFhMVkp2VzJHWGx2S2ZQV1lPSUtvbFNpTTVWeDlRQ1lyQ3lyY08xOWloM29YQWFNSFlZd0RGRWlLbWlFcnlsdmRQYlBWdVNUd25yc1VpUkttUWItaUJyZmFONFA4bnFKX05jRVREdTJ4akowS0E?oc=5",
-    "pub": "Fri, 20 Nov 2026 16:45:39 GMT",
-    "src": "Invezz",
+    "title": "CoreWeave plunges 10% amid debt concerns - Breakingthenews.net",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNTjBNcHJwcmVCVm04WkhuazhlMGNpZk5QaDNMOUlMWmVScjQ3UlU0eVBfR21zNmh3TnVEVm5WRHlnNWxyQXYxVFVyTEtoUFc5ajd2aEw0Sm12Vzk1cS1YdDloLS1yWk1ZQWhSZ1JkXy1KZmVQYnkwQ21tUTNSWE95NENEVXZnR2lYWUVfeA?oc=5",
+    "pub": "Fri, 20 Nov 2026 16:01:00 GMT",
+    "src": "Breakingthenews.net",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave shares on debt concerns, Anthropic selloff - StreetInsider",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPeHMxQThVek1vVVh2dndUN2t0NkRjTU90NTYwREl4b1llS2JPbVE4Q3d2U0tub0k0YjE3Y0d6aTN0VjEwS2NDZVZET1dfejFIanZfYVlKY1NwenBncnZieU9ES0d5OF8yZlJ2YUVzM1d1WFFYbWxyVXJuX2dsckZvTE1BRTh6bTkxQmZBVERha25OaVQ0dzI5RDlGNEdubGlqSTdOMkJKYkJMUFlE?oc=5",
+    "pub": "Fri, 20 Nov 2026 15:33:06 GMT",
+    "src": "StreetInsider",
     "trig": false,
     "geo": false
    }
@@ -1313,6 +1313,14 @@
     "geo": false
    },
    {
+    "title": "What XRP Did After SpaceX’s IPO and What It Could Do After Anthropic’s - 24/7 Wall St.",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPcVZUYVhobmROV3dpM1pDTk9jbVdlWXJXSW0za3A0bnZQYTRJVzkzNk5ROF8tZlpwZzlJb05ndXJXMXVrVkYtNmltR19QWWhSbEZWbVlMN00wYTg1X1lmTHgyMmwxYk5hOUJPTFpQUUY4RXN3aEx3ZlRtcFRpM1lhejgyak5SdGRqQmlweTFnMjFrcEtTZEx0UzF6WVVObzYwUE1DNXBUR1ZLQml6R3o2WnJkdnBBeDZ5WktiQXVQMS1YQ1A4TkE?oc=5",
+    "pub": "Fri, 20 Nov 2026 20:34:00 GMT",
+    "src": "24/7 Wall St.",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oregon Sues OpenAI, Seeks $2 Billion Over ChatGPT Safety Claims - www.tokenpost.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5iSmNscG54UzM4Zmd2N21BZktMbThPTTA2NGlyNnV3YmFuaUlqYmhBMnJIRVZpcmJ2ZVgyUW12UUowREhGajhSUjFrckJsTkRFT1dHd3RxV0tnLWc?oc=5",
     "pub": "Fri, 20 Nov 2026 20:28:07 GMT",
@@ -1329,31 +1337,15 @@
     "geo": false
    },
    {
-    "title": "Markets plunge: Nasdaq erases 2026 gains, S&P and Dow enter corrections - NBC News",
-    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQRTk1MEVuRzZfdUVPMG9Mc3c4VFlvRUJRTGl0WUxTWVFOUG41LWJwWTFsbnNwcnktNjh5VE9IMUdLbHRuRnlEbUFZNlUyZGgxMG5admdobWx6R3VBU2VCb3BBczlUZU9sdmctenh6c2laaUpWSzYzWTBHaUh6UWhSWmVmOTRnRWdoVDM2MjRoWkM0LXU4cmc?oc=5",
-    "pub": "Fri, 20 Nov 2026 20:04:25 GMT",
-    "src": "NBC News",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Anthropic shares fall a day after blockbuster IPO - BBC",
-    "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBvWXdRRmxWOFNxR2NhcHRNVlFLaXJGVGtlY1dQcWs3U1M1dHNKVGxLbEJ5RGRvT0Q4WjB2c2FjeldhcVlWMGNqYTNJLXFXRXU5bVB4NTRlZUVlNnc?oc=5",
-    "pub": "Fri, 20 Nov 2026 20:00:53 GMT",
-    "src": "BBC",
+    "title": "Anthropic’s IPO Drew More Retail Investor Demand Than SpaceX - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPX0ZwT0VDazYxQWhZa29KQUpOTHZkeGNzWTE4aGZfeXdnd0ZjZFRpTTdYU3R6NE1RSUoxVlQ2dnc4cmlMMllsSGNfTG1LSG5wZTA3dlhNVWZOWXFxSUxIQUxpOU0yOGRmM1hnVGo5YzF5aVhGeUtteXYwMl94QnFtcXJILWlBenlRNjlGSXlSMG8yMHBkSEc2V3pfVENnVlBERGgyeVBWX3JrZGR6Wm0wNg?oc=5",
+    "pub": "Fri, 20 Nov 2026 20:12:00 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "AI Fears Put Global Stocks On Track For Worst Week Since 2025 - Forbes Middle East",
-    "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOSGtsYVptU2dnYlB3Qk5JN1NHd01RdlJtZHphLTQ2YXhNYXZVSW1jR1ZLbm84VVA2YkJNQWMwTVF4Ql9jR2NIQTlnUFROSUQxQmpRdXl4VVlzeGJSWndOQTY2aWRFeDZTUXhGTW9ZdTA0bXgwUVBxOHZBQVl0alYtTFhVbmI1NTlqTkg5RjdhSzlPQmd5WXZwRmVJc3VUSGY3M3NacERmVVdPUm54RjVNRi10R0sxek0?oc=5",
-    "pub": "Fri, 20 Nov 2026 20:49:02 GMT",
-    "src": "Forbes Middle East",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Oil Set for Third Weekly Drop as Ample Supply Counters Iran Risk - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWExXN0U0WEVhYzdZZ0ZoN0tISFJnbW5vLVVOMTJ1R0JFNW13cWI4ZVlRZTlnanpMTmNCVVB6S1I4TU10NVgzVzBqaHBfeFE2anBWdm1obTVHR19aMTlHb0dqTDZtVUVZNXF2b2tCbE5fZURyQ1F2bXZXVmFBY3Y3dXFZOHp4dHBnUHRqMjZLNjMzUjdoZjJ4ZHBQcDBvdw?oc=5",
@@ -1393,6 +1385,14 @@
     "src": "The Dark Side Of The Boom",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Fed Governor Lisa Cook Says Her October Dissent Reflected Inflation Fight’s Urgency - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNYnFFaTJhWE1OUWZkZzM5R3cxZmt3WEppdzUtS1JKcHdzUkxKVXZnSVJpT2V5QUREQTZBZ004VUl0QlExbW10VFpCeVpkSVE3UVBablVPbDhKcmFWcWg3V1R5U2pzbVptdHk2MDhFeVg3R1o1WktBWnMwTmotVWwzbkFZem5FakRSY0lvRDZ5TzlXTjJNcGhLaUhzbE1Qdw?oc=5",
+    "pub": "Fri, 20 Nov 2026 17:41:25 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1401,6 +1401,22 @@
     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOaTJGaWFtVVRKdkwzZDJ2aXpBaHNsSnNhbzdWcEgwZWtUaG0xeFNBcE9aSi1BN3A5LUVudlZlb2h3QmQ5Si1XaHJxMk1JOXgzR1FjYU5zSmJNMnE2a3RvSlc2ZnpWZlVyZ3BJUFlqeER5cC1mNmhHemh1RzlMSjhVVnFmbWNuY18tT3libFdJbllEZTFIalNHbm9wVU5ISzdoWXphNWk0eWlmMkJjVFBzUFNGc3dHTGthcUhz?oc=5",
     "pub": "Fri, 20 Nov 2026 21:24:01 GMT",
     "src": "FactCheck.org",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper price heads for biggest weekly drop in 19 months as AI rout continues - Mining.com.au",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQkVRZEdhZHZOajZPV1BvQVlQcVVYcVJSQV9NU3pOeW0yRVdMWEVidlVROFlUMDhUcndZN0VrbU02U3Y4azFWSUZaTW1DeTlrTTVRS1RWUFRQaHBOUVJ1SjV0akxrWl8xbXZnc2tJVklzMjR2UHFXem1nREMtTkxpOV8wMURNRGhHcElLZGRvNG9HRy0xcXBOUE1MLVJJZGhy?oc=5",
+    "pub": "Fri, 20 Nov 2026 21:22:30 GMT",
+    "src": "Mining.com.au",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "China copper smelters blend concentrate overseas to boost supply - Mining.com.au",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPa0RSRUIzcEFLVkNSdUc1X2FhOVRXdmFkd1pxb1ZQMUJpTUFlNHRwbkk5azJvRlVsRHhlQkhEYm5UYzgwcXRXZ1lXbEVKZjBqY0ZyRmFaQVVzSjBpYnpNcjV2YVJrQm9RT2VpR3pxMWZTMUx0akUtbWdJdHVHWGdLTlFSU2kxLW41dGdhNGlVT0E?oc=5",
+    "pub": "Fri, 20 Nov 2026 21:22:30 GMT",
+    "src": "Mining.com.au",
     "trig": false,
     "geo": false
    },
@@ -1426,22 +1442,6 @@
     "pub": "Fri, 20 Nov 2026 21:02:06 GMT",
     "src": "The Dark Side Of The Boom",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Copper price sinks into bear market, erasing 2026 gains in worst week of the year - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUdITlJjU1Byem9WdFRMRjlFem11OEw5Q3lkZVdOX0xad2ZrNWM3U3pzTEE2N0MzTFFxMHZkZGpRckJWajB2b0NvNjdpRUhzZVZQNWc1OXF1VmhqcjgyUnpSRy1Oa1AzU09WUjZ3UVlSZlluV2JhdzVKODVuVFpPZWtiLTJlVkpVdUJrT01kUFVkV3NGMUsxQnRVMzVZYURSSWgzWlJFQQ?oc=5",
-    "pub": "Fri, 20 Nov 2026 19:24:57 GMT",
-    "src": "Mining.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "US Data Center Boom Faces a New Political Reality - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOXzl6RnJmdkY3c284a25Va2dLYlRsWDZ1SUY0SktIaEh1elZ3VzM3TkJ4ZUk5LURDNzg3bHZWWVdQRG1zaW5sRzlHeF9uaUxHTnJaM1U2elhwLVM2N2dHUEpvbXZsRFRCMzN3Qm5kUEFidmFTdzV2aWN3QmtXRm40TklUeDlZSnZGTGFFVFhUWi1paFk3bWJ0Nkg5NEo4Z9IBowFBVV95cUxPWW5Qa0R4dTVCWkJadGU0MXpDR28wYmtPVnM5NjhwaFEtRHBDOVNzT0xPUzRJZFpoYzNSWGZiN2JuYy1wanlfaXdxMTd6VVNlMzdvRWZnMTJ3MHRQanZlWDcyVU1CRDV3QXM0Z29yYklIQU50WEVBRlJ1MGdPTVYwelBZQlVwUHFCdzlNSFRiVXdCMEhHQTBGZ2N1VENZN24yRnZN?oc=5",
-    "pub": "Fri, 20 Nov 2026 19:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
     "geo": false
    }
   ]
@@ -1630,7 +1630,7 @@
    101.81,
    101.88,
    102.3,
-   103.89
+   103.9
   ],
   "bizd": [
    13.29,
@@ -1660,7 +1660,7 @@
    103.31,
    100.2,
    92.77,
-   106.26
+   106.31
   ],
   "jpy": [
    158.28,
@@ -1675,7 +1675,7 @@
    156.49,
    157.8,
    157.5,
-   158.6
+   158.61
   ],
   "uso": [
    134.64,
@@ -1735,7 +1735,7 @@
    81074.19,
    77198.21,
    75746.93,
-   58537.35
+   59017.24
   ],
   "vixts": [
    0.865,
@@ -1960,8 +1960,8 @@
     "vix_chg1": 26.2,
     "vix_band": "위험",
     "vixts": 1.16,
-    "move": 106.25,
-    "move_chg1": 10.64,
+    "move": 106.31,
+    "move_chg1": 10.7,
     "move_band": "주의",
     "tnx": 4.91,
     "curve": 0.79,
@@ -2825,7 +2825,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-20T21:32:27+00:00",
+  "checked": "2026-11-20T21:42:07+00:00",
   "openai": {
    "found": false
   },
@@ -2935,8 +2935,8 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 89.99,
-   "brent_chg20": -22.9,
+   "brent": 90.03,
+   "brent_chg20": -22.87,
    "ovx": 54.12,
    "hit": true,
    "missing": []
@@ -2949,10 +2949,10 @@
    "missing": []
   },
   "dollar": {
-   "dxy": 103.89,
-   "dxy_chg20": 2.04,
-   "usdkrw": 1346.05,
-   "usdkrw_chg20": 1.51,
+   "dxy": 103.9,
+   "dxy_chg20": 2.06,
+   "usdkrw": 1345.94,
+   "usdkrw_chg20": 1.5,
    "hit": false,
    "missing": []
   },

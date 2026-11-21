@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:02:56+00:00",
+ "updated": "2026-11-21T02:12:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58883.97,
-   "chg": -4.88,
-   "chg5": -9.83,
-   "chg20": -23.96,
-   "sma20": 71007.67,
-   "sma50": 77625.72,
-   "sma200": 71916.96,
+   "price": 58960.4,
+   "chg": -4.75,
+   "chg5": -9.72,
+   "chg20": -23.86,
+   "sma20": 71011.49,
+   "sma50": 77627.25,
+   "sma200": 71917.38,
    "high3m": 86602.91,
-   "reg": 58883.97,
+   "reg": 58960.4,
    "pre": null,
    "post": null,
-   "regClose": 58883.97,
+   "regClose": 58960.4,
    "sess": "reg",
-   "mt": 1795226537,
+   "mt": 1795227096,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Oracle Secures Full Funding for OpenAI Data Center Expansion - Securities.io",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNamp2UWExb2l5LVlsVEpNMWhkMzU5SGZXY3h5aXpWdEZvR1drSkdPQVZ4eWgzMGtYNFVtV3pieXQ3U2haT1lSeUlHa2ljZTB3M0FyY1Vsc3dpT29XVGRZbm9YXzRheFdfNHFJRUZWRG9CRXlmdGJPUXpWZlRjSU9VZXNaU09zV1M2MlI5VE1aUkQ?oc=5",
+    "pub": "Sat, 21 Nov 2026 02:00:46 GMT",
+    "src": "Securities.io",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oracle Says Funding for OpenAI Infrastructure Contract Is Secured - Unite.AI",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQaGVJclZ5c04wVEQ2M0tFLThQdUFuOGlVd0x5a2lRcHdVWDlQM0c3eVZzZlNLSHdLRFJnb0NhdllPODd1RzlZMkZVMG9udktyZ3FDTDMwNk9La3QxSkNCMWxhd3RoZFZfaTUtU3V5QUJVa2J4N2xiTVEzRVJ0S0lDQmtlVGwyS3JOVUlRLTNldjQ?oc=5",
     "pub": "Sat, 21 Nov 2026 00:47:04 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWNqNWJ3NXRQX25mei1JdmlTaldHZTYweTJjYUtJcWxuMmlLMlBlbTlCNFlhSGVZMlR5bW5YakRYckhXTlUzdGk1YXhCOW5kQVZERWV2OXRoSm5QN21Db19IaDFOdm0wb2dWVGNVLW5xWGlQREV5RGxWXzZ0akRyZkhiSkgwMnQyejBOZ2ZyeEt2VWRXQW82T1hmMA?oc=5",
     "pub": "Fri, 20 Nov 2026 23:22:26 GMT",
     "src": "Observer",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Anthropic IPO: What It Means for Your 401(k) - 401k Specialist",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOMGxKZ0t4aDhkSWZ0SG9pcFRJWnBjS0VCODdoSFJuU08tMlEzSGRuQWpEaG9vaERKX2ZYUmF4QWVZRDBLS0FqLUxoN0FvMXROUE9hZTFMOXo2aFJtOWZ2cUZGVGFaNTJSN0cyUmZSckxWWXZnMy1ZeV9lWE1IY2xOSllqS0Zsd0FLZmdQX1hhQkhuVGJQUU9zeWE5MA?oc=5",
-    "pub": "Fri, 20 Nov 2026 23:05:57 GMT",
-    "src": "401k Specialist",
     "trig": false,
     "geo": false
    }
@@ -1423,7 +1423,7 @@
    {
     "title": "Bill Gates visit fuels row over who should own Chile’s copper - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSExuZVQ2dnRzNVRSNG9JRFVpRUZaSmtpd3MwamxUX0d5OEV0aktsMWJNYVhsNG5EdTVfSVQyUm1wVTJjMWJScE1PcWZXSkhfVGs4ejA0VGZxVzNoejVRMzhsa2NLNVdYSkQzeFZ2ZkZ0V0duNE5TdTgxMjAtNktWc1k3Mi1KRlZUTEhCcE0zNm9uUQ?oc=5",
-    "pub": "Fri, 20 Nov 2026 23:19:40 GMT",
+    "pub": "Fri, 20 Nov 2026 23:14:57 GMT",
     "src": "Mining.com",
     "trig": false,
     "geo": false
@@ -1735,7 +1735,7 @@
    81074.19,
    77198.21,
    75746.93,
-   58922.13
+   58953.95
   ],
   "vixts": [
    0.865,
@@ -2827,7 +2827,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T02:02:43+00:00",
+  "checked": "2026-11-21T02:12:03+00:00",
   "openai": {
    "found": false
   },

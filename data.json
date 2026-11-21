@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:22:25+00:00",
+ "updated": "2026-11-21T21:32:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60370.22,
-   "chg": 2.67,
-   "chg5": -6.92,
-   "chg20": -22.85,
-   "sma20": 70109.5,
-   "sma50": 77141.48,
-   "sma200": 71854.09,
+   "price": 60271.48,
+   "chg": 2.5,
+   "chg5": -7.07,
+   "chg20": -22.97,
+   "sma20": 70104.57,
+   "sma50": 77139.5,
+   "sma200": 71853.56,
    "high3m": 86602.91,
-   "reg": 60370.22,
+   "reg": 60271.48,
    "pre": null,
    "post": null,
-   "regClose": 60370.22,
+   "regClose": 60271.48,
    "sess": "reg",
-   "mt": 1795296109,
+   "mt": 1795296715,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave co-founder buys $30 million in company bonds as debt trades at 81 cents per dollar - KuCoin",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjdGR3FaRXM4ZGxTTGNmaVBfVWZVaWF6bTNvMU5sTDgtM1d5c2NBRjJhYXhLWHdYdGlLUmpvOUw1NGNDQzhaaVBJVFMtUExLcmpWUl9TdVVYdUJ3Y0xFTHp2UFVzZTZ5czcyVjNvcFNtQ3p6aFlFME5NN0Nqa25XM2QzTmVwY3ZvUjJUdG1zZktWVFhNZ2Z5UUdlS0VJeG5EWFFLR09hU0FxX1d4X3BvbW81Y01xeGpm?oc=5",
+    "pub": "Sat, 21 Nov 2026 21:13:39 GMT",
+    "src": "KuCoin",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Debt-heavy CoreWeave just got $350M from Jensen Huang’s charity - TheStreet",
     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMmdPUU1id2ZlLUd0M0pGNGVrWllyWGc1TWhSdm5uTHpoNkl0RHhfOW44RUZyLW5SWWFhbVU4bDc5TEN6d1pwOE1VVGxwelRnQm5ZS2o5RU9IbmQ2alFJQ2gtdGlTYkZUSzR6SmJsYjZlbUlSTjl4UjJKWXlNc29xYVlWc0R0VXJrNHc?oc=5",
     "pub": "Sat, 21 Nov 2026 15:47:00 GMT",
@@ -1285,17 +1293,17 @@
     "src": "TIKR.com",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far - TIKR.com",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU2M5dnY5Q0MtUFVrdjN3NnpORmdqMTJuZG1zS2U4VGFlQ2c5bVprUWxLRDBIMFFCTXkzRTNkbGgycjdHUE1lYXVKTEdfRGxHQVdoYjM3eE9Dbml5ZndnQS1hNXNvRmUwYmlRdGcwM1pLa2IxSzBEMFM3Q0VKTWQ5bi11N1RJa0NCQjRQSHNJT24?oc=5",
-    "pub": "Sat, 21 Nov 2026 11:44:01 GMT",
-    "src": "TIKR.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Oracle (NYSE: ORCL) Moves To Silence Funding Doubts Over $300 Billion OpenAI Computing Deal - Foreign Policy Journal",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdmxGQmlJdndZLW05ZEU2MFk2ZTBwTDZMa0R2ZWVEMUo5S0hFcmFPM0Z1UURaREk0WFFPbmw0b3d2QUJoZnk1WUZ1cVhNN0Rkc1RNemY3aV9jTV9ndGlTbVMxNEdWbEF5ZDR1a0VLYmhHS1lPZS1UR05ibjdTdTF3ak5reTctdXNkVkhrQ3pZNVJwZjhEbHBBSnFzeHk0S2EzcDZadWQ0OW9xbU9fMWhuUWtrVWpzVk9CWXVUTjlGLS1yaER0X1ZVbWIxWlE0dy1UWVE?oc=5",
+    "pub": "Sat, 21 Nov 2026 20:19:00 GMT",
+    "src": "Foreign Policy Journal",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Brookfield Could Face New Risk in Aftermath of Nvidia Scandal - The Energy Mix",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFlzWWNzU0VEVkplZkE1NlZSZHZHaVlrUk9fODZHVFpVNjVMTERhS3ZHVDUxakVtN2RwRzlveTdmMHYybnhXV05CVU1XMHNMR09rYVpJUjZYb3U3a2xWNUs5Q0szTmFGTlp1TmdnemlDTWRaYjl2bDBIWlV4S3FpdlpWQXo4TmRfanBuQU15Ump0VDVUSlE?oc=5",
@@ -1335,17 +1343,17 @@
     "src": "Ventura County Star",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office - Spaceflight Now",
-    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHFxSFk3SUpMZktiSGYwNE9hakNJMW55azMxSzhWYUlSbFBWMzdIdUg4bXVvNjZFWHI2OGNnOWY4OUxaM2lsZkxnbVNzTXNsLVlFUjlBNms1OHpPZDhMb2o0Y0pfam9ueVR3MzJMUXp6OXp6MnRtM0gwVmt5RXJXQzExblhXeF9mOGg1RUZpNmk0Nng3QUNmSzU2dnZNX2NTV3Y1MDBQbjhZWDljNksyMjFPMldlZXM4bUpnX1BRN08wMGNmdWtMT2JUU3E5VDhnTE01U2pGTURvWGQ0?oc=5",
-    "pub": "Sat, 21 Nov 2026 16:50:51 GMT",
-    "src": "Spaceflight Now",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
+   {
+    "title": "Russian military-linked cargo ship ablaze in Baltic Sea after drone strike - CNN",
+    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03c0w4dmN2aEdLWTBCeTR6eEFtZ1BkSi1SQlV5NS1WVExuUnZJTjFxZDlCRU13U1dmc1lkdjNwM3pVUjJjTktDOU81Qy0yaEVHS2JlVFlnUVRVRWlQbnM1WEQtX0pqYWI0VmJaV2UySkxaTFZuS09XV094R1huQQ?oc=5",
+    "pub": "Sat, 21 Nov 2026 21:23:25 GMT",
+    "src": "CNN",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "The Iran War Could Permanently Slash Reliance on Hormuz, IEA Says - WSJ",
     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxONkRNTmVJRC1mZzYtOE1lWkpzLUYybFdUbTdtRmItWjJCZFBlMXpNQkJ5cDdpX3Z0dlp3MFhaOTFCU1Rmczg1MWs1SUhOY3B1cVp5UDlQM0ZkQ3dWd2dsZldjdWo4cHQyQk5CWDZkWHlkRGp5RmJrNm5NSWRyZEJNLTlsVHhSbWd5akdWNVNzVlNUSGRFNVVtcHJDOVRSbWxScFJGWmFjdWx5ZkQyejhTNWxYYw?oc=5",
@@ -1385,25 +1393,9 @@
     "src": "EWN",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "US EIA Hikes Oil Price Forecasts Again as Iran War Drains Global Stockpile - EnergyNow",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd3F6aVU4bkozOGdsLWpJd0FfdHdGbERtOUI1dW5EcTdGYy1kWUNYeHNMRGZsUnVOa1UtdjB6eHAyenZLZE5CM1c4d01YcEptTl9GSW5CNkZTbkJTZW5RanZQVXpkVkEzNHlEVkhIeGdOQ280dHBQZG5Yd1JqaWwxNVc0MEttc3ZzMW81YmRLUFFlRzVORjVCdE9sdm5abDNIaU1EODZHQQ?oc=5",
-    "pub": "Sat, 21 Nov 2026 13:11:58 GMT",
-    "src": "EnergyNow",
-    "trig": false,
-    "geo": false
    }
   ],
   "flow": [
-   {
-    "title": "The Seven Charts That Explain the New Normal for Oil Prices - WSJ",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPQS1yamN3ZV90S1NLcS16OE5Tb3BCNVgyRmJxMktsTHlJLS1Ldlp1UjQ0VWdaNUhNMmpoY0ZwYmF4R013c0ZPUjRYTjJJTFhRVmxWM2s0ME5xVU96UlpWWExXQmVJU3hmUmlIRXoxeFRzVHZqZ0lWM2hONWp0bEttUVpFSkw?oc=5",
-    "pub": "Sat, 21 Nov 2026 20:41:20 GMT",
-    "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Crude Oil Choppy as Strait of Hormuz Flows Fall and Traders Price In Renewed US-Iran Strikes - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY3dWaFpvd0VOWWoxbDQ4WDZURHMxQ21TOFhRV2NaV2oxRVozTk50QlFXTHV0dlczSXJaYWRhLWNobWF6QkFwTkowTWZVcXBJbEg1Z2JJVFJCMEJ1eHhibS1Dbmx3bXNISVpidG4yaXF0NDM4QWVCQVlqTWdsdklvSWlpV25WcllDVndaZno1ZDdXTVlZNmNFQ2h2V0EweUFIUTdyTHY4ak5MXzFDanhST011dTJKbHpKaUpVbmkteURrZDlGekhyYVRwNmNGTGZCMXlzZ3JxR3AyNm5yWkFucUV0NHQ4RUE?oc=5",
@@ -1441,6 +1433,14 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmItSXZoVGt6MjMxVFRjZVNXQXRUcDRLYWhrZkdqTVBURnhGbkhWWlByRVNhbVZDVHFUUEY1dlVaeEJKOTlfMEZBZGJqZEVYXzQ5RDVtbDN5ZzRTRHEySmo2MG1vZmZXMHI0dUZnSThuM2ZkYjBKVkhHUlZxUjJwNnJob2dhU1htWDlsNGpVUHBqTnVQYVZIZURJeUs2UkZCeVlqWUpFbGJsb3hsOFJuVndaZmhRWkVEcnc3d0RadkRIQjkzM3NBQ1h3?oc=5",
     "pub": "Sat, 21 Nov 2026 16:11:34 GMT",
     "src": "Robinhood",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
+    "pub": "Sat, 21 Nov 2026 15:58:11 GMT",
+    "src": "Kitco",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80790.84,
    77434.75,
    75747.58,
-   60362.97
+   60279.5
   ],
   "vixts": [
    0.865,
@@ -2825,7 +2825,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T21:22:12+00:00",
+  "checked": "2026-11-21T21:32:19+00:00",
   "openai": {
    "found": false
   },

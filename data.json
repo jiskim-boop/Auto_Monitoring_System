@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T23:32:34+00:00",
+ "updated": "2026-11-21T23:42:20+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60142.13,
-   "chg": 2.28,
-   "chg5": -7.27,
-   "chg20": -23.14,
-   "sma20": 70098.1,
-   "sma50": 77136.92,
-   "sma200": 71852.86,
+   "price": 60111.1,
+   "chg": 2.23,
+   "chg5": -7.32,
+   "chg20": -23.18,
+   "sma20": 70096.55,
+   "sma50": 77136.29,
+   "sma200": 71852.69,
    "high3m": 86602.91,
-   "reg": 60142.13,
+   "reg": 60111.1,
    "pre": null,
    "post": null,
-   "regClose": 60142.13,
+   "regClose": 60111.1,
    "sess": "reg",
-   "mt": 1795303920,
+   "mt": 1795304504,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "CoreWeave Borrowed at Under 6% Against Its GPUs. SpaceX Just Paid Above 8% for Chip-Backed Debt - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOdWVNMFBUVE45QThPTFZVbkt0S01jS2U0ZWhuYlQxQ3ZkUDY2SjhxeHF2dTFYWTZicldLSG1uOWptZWRvTjJZT1h4bU5aa2ExVTR6bHJQREVuS2JDZGszNFhfU2Jxb1JQQ0JoX0x5NEFVU0w1MW9Oam1NdXRoZ1pickFZZklJa0VkcXlpQWdEUklNRl9XZlVqODBKN3REUXZEMjBDRkFBbk1HMUdsVmxKUDRoakV4aE02bDVN?oc=5",
+    "pub": "Sat, 21 Nov 2026 23:34:09 GMT",
+    "src": "TIKR.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave co-founder buys $30 million in company bonds as debt trades at 81 cents per dollar - KuCoin",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPSjdGR3FaRXM4ZGxTTGNmaVBfVWZVaWF6bTNvMU5sTDgtM1d5c2NBRjJhYXhLWHdYdGlLUmpvOUw1NGNDQzhaaVBJVFMtUExLcmpWUl9TdVVYdUJ3Y0xFTHp2UFVzZTZ5czcyVjNvcFNtQ3p6aFlFME5NN0Nqa25XM2QzTmVwY3ZvUjJUdG1zZktWVFhNZ2Z5UUdlS0VJeG5EWFFLR09hU0FxX1d4X3BvbW81Y01xeGpm?oc=5",
     "pub": "Sat, 21 Nov 2026 21:13:39 GMT",
@@ -1283,14 +1291,6 @@
     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNbHFEdUcwUjdUdVRBbE1VbnloeE8xRTZTVl9IWFp3MmxKZDktUm5pbE1ZRTFwZHN2Tl9peEpqa2RpOHRSbVg0V21kZmVmbmpvWTE4QTNGN0drMEZwOEY3cGRPRFpSNHktTHlvSlhlelIwVVBZZDB1aEdodjMwNUV3MUtrRlMtNmFqYUxhYkxIVGREUkFmSFp2Q1ZZS2JNcnlSa0RJ?oc=5",
     "pub": "Sat, 21 Nov 2026 13:02:00 GMT",
     "src": "The Guardian",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia Is CoreWeave’s “Key Sole Supplier” and $6.3 Billion Backstop. Congress Is Now Looking - TIKR.com",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNWWxiWkZPelJvTlpTbEpmTEVLaHRMRzFhejhUY0VOSTNJenFQSUhTeHNydGY3T0wtOHdSb3pMalRhcGphRjZuWnZsUmp6ampfMk95VjYtVTF1UC1hWTA1MVRoNXBvMXF4SmJrUXFid1ZiTjhNZFRFWlN0SmFBb05fc0RISGxVSGpBLUZnSTYzVTVnM0VJZnIxWnZOUXNWellZakFfUDg5WEdEY3dXU1c0TW1fTzU?oc=5",
-    "pub": "Sat, 21 Nov 2026 12:51:59 GMT",
-    "src": "TIKR.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80790.84,
    77434.75,
    75747.58,
-   60129.77
+   60100.72
   ],
   "vixts": [
    0.865,
@@ -2825,7 +2825,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T23:32:22+00:00",
+  "checked": "2026-11-21T23:42:05+00:00",
   "openai": {
    "found": false
   },

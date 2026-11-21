@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T02:12:17+00:00",
+ "updated": "2026-11-21T02:22:19+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58960.4,
-   "chg": -4.75,
-   "chg5": -9.72,
-   "chg20": -23.86,
-   "sma20": 71011.49,
-   "sma50": 77627.25,
-   "sma200": 71917.38,
+   "price": 58841.09,
+   "chg": -4.94,
+   "chg5": -9.9,
+   "chg20": -24.01,
+   "sma20": 71005.52,
+   "sma50": 77624.86,
+   "sma200": 71916.73,
    "high3m": 86602.91,
-   "reg": 58960.4,
+   "reg": 58841.09,
    "pre": null,
    "post": null,
-   "regClose": 58960.4,
+   "regClose": 58841.09,
    "sess": "reg",
-   "mt": 1795227096,
+   "mt": 1795227702,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "HBM Memory Shortage: 23% of DRAM Wafers, 30% by 2027 - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPNDJoa1haNmFBOVhWdWlSVFFHV0ZDNVNQaUhWMmZleF9qeTVGa0c0V0dySmVVVzk3RXhaTERiMThHS0hhbFZPMFZOcUhibTNrSWkzZ2lDOHU0QWNCYU96eGFIdk9EQnpVb05NaXIwQnZHTHZXYnJUNnc4TV9fQUxXSlJUeEdseTB1WHBKTlBlWnlQcVROR0dRb3VrV2pHdw?oc=5",
+    "pub": "Sat, 21 Nov 2026 02:17:07 GMT",
+    "src": "shattered.io",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Oracle Secures Full Funding for OpenAI Data Center Expansion - Securities.io",
     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNamp2UWExb2l5LVlsVEpNMWhkMzU5SGZXY3h5aXpWdEZvR1drSkdPQVZ4eWgzMGtYNFVtV3pieXQ3U2haT1lSeUlHa2ljZTB3M0FyY1Vsc3dpT29XVGRZbm9YXzRheFdfNHFJRUZWRG9CRXlmdGJPUXpWZlRjSU9VZXNaU09zV1M2MlI5VE1aUkQ?oc=5",
     "pub": "Sat, 21 Nov 2026 02:00:46 GMT",
@@ -1333,14 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQNlRWTmU1NlRGMjRnb2JGWUVrSTk4V3dTRWgyb2hlSXF6Y0FtVi1tREhvSUFPby1IVkphYVlXdGtpR2pvYmltRnpaUkI3RFBMeG05aExMWUs4Yi1rb05oTlBvNWpRUFhSNWc2NlRER205T1QzZU5PbVcwaTJEU1hpM1M2ZDFtd2RNamMtS2trTGtjWThBTXZ3MFJ6bEYxTTdxMmExQ1cwRXVTYk9OOENzTA?oc=5",
     "pub": "Fri, 20 Nov 2026 23:36:00 GMT",
     "src": "WSJ",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia’s Colette Kress Signals the End of No-Strings A.I. Financing - Observer",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNSWNqNWJ3NXRQX25mei1JdmlTaldHZTYweTJjYUtJcWxuMmlLMlBlbTlCNFlhSGVZMlR5bW5YakRYckhXTlUzdGk1YXhCOW5kQVZERWV2OXRoSm5QN21Db19IaDFOdm0wb2dWVGNVLW5xWGlQREV5RGxWXzZ0akRyZkhiSkgwMnQyejBOZ2ZyeEt2VWRXQW82T1hmMA?oc=5",
-    "pub": "Fri, 20 Nov 2026 23:22:26 GMT",
-    "src": "Observer",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    81074.19,
    77198.21,
    75746.93,
-   58953.95
+   58847.79
   ],
   "vixts": [
    0.865,
@@ -2827,7 +2827,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T02:12:03+00:00",
+  "checked": "2026-11-21T02:22:05+00:00",
   "openai": {
    "found": false
   },

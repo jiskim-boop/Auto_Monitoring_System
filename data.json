@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T12:24:15+00:00",
+ "updated": "2026-11-21T12:32:39+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -173,8 +173,21 @@
    "ok": true
   },
   "005930.KS": {
-   "ok": false,
-   "err": "The read operation timed out"
+   "price": 183100.0,
+   "chg": -7.01,
+   "chg5": -11.12,
+   "chg20": -15.03,
+   "sma20": 208065.0,
+   "sma50": 234356.0,
+   "sma200": 264494.4,
+   "high3m": 285500.0,
+   "reg": 183100.0,
+   "pre": null,
+   "post": null,
+   "regClose": 183100.0,
+   "sess": "reg",
+   "mt": 1795156205,
+   "ok": true
   },
   "000660.KS": {
    "price": 1113000.0,
@@ -245,8 +258,21 @@
    "ok": true
   },
   "VRT": {
-   "ok": false,
-   "err": "<urlopen error [Errno 101] Network is unreachable>"
+   "price": 166.24,
+   "chg": -10.14,
+   "chg5": -17.73,
+   "chg20": -14.45,
+   "sma20": 204.64,
+   "sma50": 223.02,
+   "sma200": 265.12,
+   "high3m": 290.83,
+   "reg": 166.24,
+   "pre": null,
+   "post": null,
+   "regClose": 166.24,
+   "sess": "reg",
+   "mt": 1795208402,
+   "ok": true
   },
   "CIEN": {
    "price": 234.37,
@@ -980,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58263.02,
-   "chg": -0.91,
-   "chg5": -10.17,
-   "chg20": -25.54,
-   "sma20": 70004.14,
-   "sma50": 77099.33,
-   "sma200": 71842.7,
+   "price": 58407.31,
+   "chg": -0.67,
+   "chg5": -9.94,
+   "chg20": -25.36,
+   "sma20": 70011.36,
+   "sma50": 77102.22,
+   "sma200": 71843.48,
    "high3m": 86602.91,
-   "reg": 58263.02,
+   "reg": 58407.31,
    "pre": null,
    "post": null,
-   "regClose": 58263.02,
+   "regClose": 58407.31,
    "sess": "reg",
-   "mt": 1795263794,
+   "mt": 1795264321,
    "ok": true
   },
   "USO": {
@@ -1031,8 +1057,21 @@
    "ok": true
   },
   "KRW=X": {
-   "ok": false,
-   "err": "<urlopen error [Errno 101] Network is unreachable>"
+   "price": 1346.13,
+   "chg": 1.18,
+   "chg5": 0.93,
+   "chg20": 1.52,
+   "sma20": 1337.35,
+   "sma50": 1344.41,
+   "sma200": 1419.48,
+   "high3m": 1384.86,
+   "reg": 1346.13,
+   "pre": null,
+   "post": null,
+   "regClose": 1334.79,
+   "sess": "reg",
+   "mt": 1795214189,
+   "ok": true
   },
   "^OVX": {
    "price": 54.12,
@@ -1208,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Wells Fargo’s $115 Target Says CoreWeave’s Selloff Went Too Far - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNU2M5dnY5Q0MtUFVrdjN3NnpORmdqMTJuZG1zS2U4VGFlQ2c5bVprUWxLRDBIMFFCTXkzRTNkbGgycjdHUE1lYXVKTEdfRGxHQVdoYjM3eE9Dbml5ZndnQS1hNXNvRmUwYmlRdGcwM1pLa2IxSzBEMFM3Q0VKTWQ5bi11N1RJa0NCQjRQSHNJT24?oc=5",
+    "pub": "Sat, 21 Nov 2026 11:44:01 GMT",
+    "src": "TIKR.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Nebius stock: 2026 capital spending outlook rises to USD 27 billion - ad-hoc-news.de",
     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOejFNV0N4c0hoSmtPT2h6Wi14VnRoQ2JLZGEwZTBpeWgtdmZPZEZsT29URjhJR0lxMG9nZk1zamZOMjhMeTNEMS1Bd0J2dmROdDVtQzVQbTZqTkRaZWl0XzJtUWlyQXhlbzUzYzZ4bWJjdXgtQS1qcWExSFVQa0E1MlFKMXhrV25NSkNxSzlia0pXUzl1M0FwR2dsLWNjbkoySVZGWjVIYmhGd05WOHYwMzhfdGd5MWp5R3lFa1NGZXZwM1hLZFVjQg?oc=5",
     "pub": "Sat, 21 Nov 2026 09:49:49 GMT",
@@ -1220,6 +1267,14 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQX3ZyVEJIUUs5MER4NmlYV0sxYlRndEVMQW9TTjdFanREZDVZY1pwSGMxR2hiVVZKdy14ZUQzdHdXMm1pbkNWLURjZlhKX3ZPTEFyTUVGSmphckp4T0NGMDNHd3pSeFlieHA2WTZXUjZ4M2ZHZGpfb0Jnem1GTndMakplRENYcWpNYlU0ZTFxNUlYRVBMUEVTVXVB?oc=5",
     "pub": "Sat, 21 Nov 2026 03:42:07 GMT",
     "src": "ABS-CBN",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "CoreWeave Stock (CRWV) Forecast – Here’s Why Wells Fargo Remains Bullish Despite Ongoing Selloff - TipRanks",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNaWtNVk9VOWVueWIwazk5WnZBdFZCRHA2UUVqY3N1MGxlYVdvNWhqT0FyWGlTTy1yZkpfZ24zU1ZRcmdCTW0yU1BLSkRKV2RXZmNKV3VCc2liMnoySDBYdEtUdEoxbngzSThDSEs5OTRuZHJZeTBvc1lzaHpqZTlmM3hPUzliYjFqZ2JhYnNTNmFCZ3RYVms3V0dyblNRemoycDFCb0tpUUxhWnRNeF9SajJHWEhvTGF1dzBZUTRn?oc=5",
+    "pub": "Fri, 20 Nov 2026 22:09:32 GMT",
+    "src": "TipRanks",
     "trig": false,
     "geo": false
    },
@@ -1238,38 +1293,22 @@
     "src": "FourWeekMBA",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Asset-backed debt sales hit record $380B in 2026 on AI demand - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSENDQjFLdk5wS2hEbTVDbFdPT1RiMG45RC1IVUR4UkVNdlZEUmFPbTZja2VHcTZpdzhQUDJXb2p6Wm5xUUtsSGpwV3oxLTdXQlVpVElyelVZa2M3Rko4enVPVFl5WFNtOVQxZjBtNWphVDRGdVRsMUpZU29ycGN4UUlHdFdEbTA3cDl0aE10VU1uQQ?oc=5",
-    "pub": "Fri, 20 Nov 2026 20:12:08 GMT",
-    "src": "Crypto Briefing",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Asset-Backed Debt Sales Top Post-GFC Record on AI Strength - Bloomberg.com",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPMWlZa0doVXZ0cUtMRFZfUTJISkJHYzF1X2RPRlZ4aTZibHZKaEloUjlJanlCY2hfUHhjeklzTUhtMGdDT3RfRTRTZTBSaGJlWHV4RXV5a0JsRkcyMTkxd2ZHcDc3WFhUWFBBMzdHYlJvd1JpbDFhamtwNjJkRkEzX0dyb0dqZXM3Y19aUi16VXNyVFBKZDN2RG4zUzVyeWY3c3lkb3hCYUhXeVJqZWc?oc=5",
-    "pub": "Fri, 20 Nov 2026 19:41:53 GMT",
-    "src": "Bloomberg.com",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
-   {
-    "title": "Prediction: Where Will SpaceX Stock Be in 2030 Now That Flight 15 Has Launched? - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUdYaFEtVFRhT3MtbDhhd1RtNV9DUXJLZkNHS1hCSGVlQV83cFdObC1LcFJRX3hBUEFiRW1vSGdKWHY4UHVrblhxX1Jubk8yMDJ2YndwZ3VHYm5IRllDdzdnUWwtbzlxTHJZR2JOVW9pQU1KQjV2cXlZSXUyV2JUUmZJVWZIUjJuN2xzdnZBSXhHZnJHUVB1UEtENkJ0NmJo?oc=5",
-    "pub": "Sat, 21 Nov 2026 11:50:00 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Anthropic says it will put humanity first. Will its IPO change that? - NPR",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQVWZST3piU2NqZVJlVFlPQU9BY1F3eXNMR3VQdVd3OTRTcUF0b0FHSmp3MFZpZHFYaWNrOE9zRnl5LXBlNDlwaXQxaHhKY0VDVjQyVHhiT2ZQZHA0c2pwWFJ2VkItZEtmMHFfSmg3VU44dHgta0VnUHNVZy1sZGhRT0V3?oc=5",
     "pub": "Sat, 21 Nov 2026 10:00:00 GMT",
     "src": "NPR",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX Starship landing livestream: Watch the catch attempt live - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaGE3V2ptSmVUazFjeWxDMG5FSzRub3RyVnBrNTk0b0thNlRTN1NFYVhqQmZrSFdJR2JuRVhyUkhldFdydFVvd1FPVDJuLUFnTXdfeEMxUnpIbDA5ZDVUMm0yVmVPbUF5OXd2amZFSU9YczJjeW5mVkxnX194cHZNRURYQQ?oc=5",
+    "pub": "Sat, 21 Nov 2026 09:09:43 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    },
@@ -1308,6 +1347,14 @@
   ],
   "macro": [
    {
+    "title": "VIX Surges as S&P 500 Records Worst Week in Seven Months - SuaraGarut.ID",
+    "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WRDRIVExoVl90XzJVVTdLUEJQZnRpd0JVQmg1RkxPcTk5bE1aTndWWmNKTmliU2ZJVjduUmd6WW9HQ0hFY3FibHBpYUFybnNFOTdJa1F4aXFXWHNiZF83bUV0Q0stUQ?oc=5",
+    "pub": "Sat, 21 Nov 2026 10:52:01 GMT",
+    "src": "SuaraGarut.ID",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Wall Street Revisits 2018 Selloff as VIX Hits 2025 High - Peradaban.id",
     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0ybmFGM2tUbkplYjlwWFF5WWZQeENxQ1FHaWlhenRmNXNrOVpHeWNwVlpZc0t4M2ZianhFcnlDNk8xZm1VZVFUUWJleWVKa0RKdS1UMDFkbGo4c1N1ZlVJWU9rNEYtTGZBSFE?oc=5",
     "pub": "Sat, 21 Nov 2026 10:45:00 GMT",
@@ -1336,14 +1383,6 @@
     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPaXhJbFlna19WZTVHVUVIdHFCd2hTWnkxTmJMZWoxRWZwWmV0THMwT3ROZ0VITEFkTzJZRFRWUG5FX1FLR3NYaHd4ZVdFVUE0QWJMc0NVN2ZSb2gzdnpNMnhUS3pJanZiNWl4aEZNbGd2TzN2T0VYYmZUdnpIcGNtWEl5ZHRGcTdyOEFFajh2LVZiVEJOMkVRakhB?oc=5",
     "pub": "Sat, 21 Nov 2026 08:44:38 GMT",
     "src": "Business Post Nigeria",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "‘Elang Strike-III’: Pakistan-Indonesia joint military exercise concludes - Pakistan Observer",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTERIcWE5VGJWQTFhQjI4T28zNVVsVXQ5YUZwVTMzTDUwU2hpVnNXSXJUWl8zS0NHcThfQl8yUnRRSWlBNDRTRHliVHZ2M0VkdUNra21iZXdkR0NzSXBQRVc1Q3hWNDVXREhBTHRHdjNCRmRxNzRrZlhxT0E2OXFGbE1QNy1wWlNsRklJNV9BMGcxV2thWUVSakNB?oc=5",
-    "pub": "Sat, 21 Nov 2026 07:52:51 GMT",
-    "src": "Pakistan Observer",
     "trig": false,
     "geo": false
    },
@@ -1696,7 +1735,7 @@
    80790.84,
    77434.75,
    75747.58,
-   58345.87
+   58427.84
   ],
   "vixts": [
    0.865,
@@ -2779,20 +2818,16 @@
   28
  ],
  "feed": {
-  "fail": 3,
-  "failed": [
-   "005930.KS",
-   "VRT",
-   "KRW=X"
-  ],
+  "fail": 0,
+  "failed": [],
   "core_dead": []
  },
  "breadth": {
   "pct50": 0,
-  "n": 33
+  "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T12:24:01+00:00",
+  "checked": "2026-11-21T12:32:26+00:00",
   "openai": {
    "found": false
   },
@@ -2918,13 +2953,10 @@
   "dollar": {
    "dxy": 103.84,
    "dxy_chg20": 1.99,
-   "usdkrw": null,
-   "usdkrw_chg20": null,
+   "usdkrw": 1346.13,
+   "usdkrw_chg20": 1.52,
    "hit": false,
-   "missing": [
-    "usdkrw",
-    "usdkrw_chg20"
-   ]
+   "missing": []
   },
   "plumbing": {
    "dw_bn": 9.05,
@@ -2946,6 +2978,6 @@
   "hits": [
    "energy"
   ],
-  "missing_n": 2
+  "missing_n": 0
  }
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T21:42:12+00:00",
+ "updated": "2026-11-21T21:52:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60234.4,
-   "chg": 2.44,
-   "chg5": -7.13,
-   "chg20": -23.02,
-   "sma20": 70102.71,
-   "sma50": 77138.76,
-   "sma200": 71853.36,
+   "price": 60314.11,
+   "chg": 2.58,
+   "chg5": -7.0,
+   "chg20": -22.92,
+   "sma20": 70106.7,
+   "sma50": 77140.36,
+   "sma200": 71853.79,
    "high3m": 86602.91,
-   "reg": 60234.4,
+   "reg": 60314.11,
    "pre": null,
    "post": null,
-   "regClose": 60234.4,
+   "regClose": 60314.11,
    "sess": "reg",
-   "mt": 1795297297,
+   "mt": 1795297903,
    "ok": true
   },
   "USO": {
@@ -1297,14 +1297,6 @@
   ],
   "fundamental": [
    {
-    "title": "Oracle (NYSE: ORCL) Moves To Silence Funding Doubts Over $300 Billion OpenAI Computing Deal - Foreign Policy Journal",
-    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdmxGQmlJdndZLW05ZEU2MFk2ZTBwTDZMa0R2ZWVEMUo5S0hFcmFPM0Z1UURaREk0WFFPbmw0b3d2QUJoZnk1WUZ1cVhNN0Rkc1RNemY3aV9jTV9ndGlTbVMxNEdWbEF5ZDR1a0VLYmhHS1lPZS1UR05ibjdTdTF3ak5reTctdXNkVkhrQ3pZNVJwZjhEbHBBSnFzeHk0S2EzcDZadWQ0OW9xbU9fMWhuUWtrVWpzVk9CWXVUTjlGLS1yaER0X1ZVbWIxWlE0dy1UWVE?oc=5",
-    "pub": "Sat, 21 Nov 2026 20:19:00 GMT",
-    "src": "Foreign Policy Journal",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Brookfield Could Face New Risk in Aftermath of Nvidia Scandal - The Energy Mix",
     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPZFlzWWNzU0VEVkplZkE1NlZSZHZHaVlrUk9fODZHVFpVNjVMTERhS3ZHVDUxakVtN2RwRzlveTdmMHYybnhXV05CVU1XMHNMR09rYVpJUjZYb3U3a2xWNUs5Q0szTmFGTlp1TmdnemlDTWRaYjl2bDBIWlV4S3FpdlpWQXo4TmRfanBuQU15Ump0VDVUSlE?oc=5",
     "pub": "Sat, 21 Nov 2026 19:05:01 GMT",
@@ -1343,6 +1335,14 @@
     "src": "Ventura County Star",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Live coverage: SpaceX to launch intelligence-gathering satellites for the National Reconnaissance Office - Spaceflight Now",
+    "link": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxOMHFxSFk3SUpMZktiSGYwNE9hakNJMW55azMxSzhWYUlSbFBWMzdIdUg4bXVvNjZFWHI2OGNnOWY4OUxaM2lsZkxnbVNzTXNsLVlFUjlBNms1OHpPZDhMb2o0Y0pfam9ueVR3MzJMUXp6OXp6MnRtM0gwVmt5RXJXQzExblhXeF9mOGg1RUZpNmk0Nng3QUNmSzU2dnZNX2NTV3Y1MDBQbjhZWDljNksyMjFPMldlZXM4bUpnX1BRN08wMGNmdWtMT2JUU3E5VDhnTE01U2pGTURvWGQ0?oc=5",
+    "pub": "Sat, 21 Nov 2026 16:50:51 GMT",
+    "src": "Spaceflight Now",
+    "trig": false,
+    "geo": false
    }
   ],
   "macro": [
@@ -1379,23 +1379,31 @@
     "geo": false
    },
    {
-    "title": "AI investment fears drive market selloff as Fed tightening comes into question - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9CS2EwSlBBSkhPT1RrNmRYcHdvMFFFSy1WRjZQQTNDQ0FqdU02NzUzS1BkUVVfWkgzcVBzcXpqbE9MYW9hTnd0UjJOaEkwMHh5djc4MXpscnQ?oc=5",
-    "pub": "Sat, 21 Nov 2026 17:00:22 GMT",
-    "src": "www.tokenpost.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Israeli strike kills three in vehicle distributing aid in Gaza, witnesses say - Arab News",
     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNQjhlYVRQMmplUnRHQm1xd3dvc1lMSGl2NWNjbGg0eTliTUVWdjJYT1pod2l0VlpoYWdVeF9LcGt1V3haZXZ1LWhMX2U4UWF4aXlhaXZuMmxxbWtSY2s2NEpDcWJIaHFoOEs2bDhwRnMwWk1Oc3V0V2N0R0RyWkpKQjNZRXJGUUZVQ3hIbW10N1NPZ2ZXY0RvMVlmZG9ibEJmdW13Q1VsZVNiNzRGcGdLV3lKSG1PekpWOHY5TGh3?oc=5",
     "pub": "Sat, 21 Nov 2026 15:22:04 GMT",
     "src": "Arab News",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "US EIA Hikes Oil Price Forecasts Again as Iran War Drains Global Stockpile - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNd3F6aVU4bkozOGdsLWpJd0FfdHdGbERtOUI1dW5EcTdGYy1kWUNYeHNMRGZsUnVOa1UtdjB6eHAyenZLZE5CM1c4d01YcEptTl9GSW5CNkZTbkJTZW5RanZQVXpkVkEzNHlEVkhIeGdOQ280dHBQZG5Yd1JqaWwxNVc0MEttc3ZzMW81YmRLUFFlRzVORjVCdE9sdm5abDNIaU1EODZHQQ?oc=5",
+    "pub": "Sat, 21 Nov 2026 13:11:58 GMT",
+    "src": "EnergyNow",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "Copper Just Had Its Worst Week of 2026 - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBSNzMwRlZmUnByOFZjd2MxSHYzTDl1U0lwcnRySG5iYVJWT2xHdnBnRk9fSDluNFlOZ2VkbTc4V0lGVzAweFhvMzMyRldRUjRWYzg3SHVGWVlLOVpEQWktTURNZmx5Yk56S1pN?oc=5",
+    "pub": "Sat, 21 Nov 2026 21:40:00 GMT",
+    "src": "BeInCrypto",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Crude Oil Choppy as Strait of Hormuz Flows Fall and Traders Price In Renewed US-Iran Strikes - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxPY3dWaFpvd0VOWWoxbDQ4WDZURHMxQ21TOFhRV2NaV2oxRVozTk50QlFXTHV0dlczSXJaYWRhLWNobWF6QkFwTkowTWZVcXBJbEg1Z2JJVFJCMEJ1eHhibS1Dbmx3bXNISVpidG4yaXF0NDM4QWVCQVlqTWdsdklvSWlpV25WcllDVndaZno1ZDdXTVlZNmNFQ2h2V0EweUFIUTdyTHY4ak5MXzFDanhST011dTJKbHpKaUpVbmkteURrZDlGekhyYVRwNmNGTGZCMXlzZ3JxR3AyNm5yWkFucUV0NHQ4RUE?oc=5",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQbmItSXZoVGt6MjMxVFRjZVNXQXRUcDRLYWhrZkdqTVBURnhGbkhWWlByRVNhbVZDVHFUUEY1dlVaeEJKOTlfMEZBZGJqZEVYXzQ5RDVtbDN5ZzRTRHEySmo2MG1vZmZXMHI0dUZnSThuM2ZkYjBKVkhHUlZxUjJwNnJob2dhU1htWDlsNGpVUHBqTnVQYVZIZURJeUs2UkZCeVlqWUpFbGJsb3hsOFJuVndaZmhRWkVEcnc3d0RadkRIQjkzM3NBQ1h3?oc=5",
     "pub": "Sat, 21 Nov 2026 16:11:34 GMT",
     "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart - Kitco",
-    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
-    "pub": "Sat, 21 Nov 2026 15:58:11 GMT",
-    "src": "Kitco",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80790.84,
    77434.75,
    75747.58,
-   60257.27
+   60314.1
   ],
   "vixts": [
    0.865,
@@ -2825,7 +2825,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T21:41:59+00:00",
+  "checked": "2026-11-21T21:52:03+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T03:02:56+00:00",
+ "updated": "2026-11-21T03:12:06+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -774,7 +774,7 @@
    "chg20": 84.52,
    "sma20": 21.7,
    "sma50": 18.44,
-   "sma200": 17.32,
+   "sma200": 17.34,
    "high3m": 35.89,
    "reg": 35.89,
    "pre": null,
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58434.47,
-   "chg": -5.6,
-   "chg5": -10.52,
-   "chg20": -24.54,
-   "sma20": 70985.19,
-   "sma50": 77616.73,
-   "sma200": 71914.52,
+   "price": 58205.45,
+   "chg": -5.97,
+   "chg5": -10.87,
+   "chg20": -24.83,
+   "sma20": 70973.74,
+   "sma50": 77612.15,
+   "sma200": 71913.28,
    "high3m": 86602.91,
-   "reg": 58434.47,
+   "reg": 58205.45,
    "pre": null,
    "post": null,
-   "regClose": 58434.47,
+   "regClose": 58205.45,
    "sess": "reg",
-   "mt": 1795230145,
+   "mt": 1795230692,
    "ok": true
   },
   "USO": {
@@ -1397,6 +1397,14 @@
   ],
   "flow": [
    {
+    "title": "Op-Ed: -Funds dump copper but Shanghai has run out of metal - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdlhpZ0FHeGFuemZ3X3ZaVkluOVZmd04zei1ldlY5a3M1N2x2bDVNeFJyTEs4b1lnQ2syT3RiS2lOSUtfUk16WkNjM2VyRHI3WVBpM2FhZFBiT1hrekp2bXNqVTgxUWpSeUtwOXhTNzNHQy1qZDN4OU51dDhIZUNTdU9saXpQZzZUbVcwUWpR?oc=5",
+    "pub": "Sat, 21 Nov 2026 03:01:22 GMT",
+    "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Bill Gates visit fuels row over who should own Chile’s copper - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQSExuZVQ2dnRzNVRSNG9JRFVpRUZaSmtpd3MwamxUX0d5OEV0aktsMWJNYVhsNG5EdTVfSVQyUm1wVTJjMWJScE1PcWZXSkhfVGs4ejA0VGZxVzNoejVRMzhsa2NLNVdYSkQzeFZ2ZkZ0V0duNE5TdTgxMjAtNktWc1k3Mi1KRlZUTEhCcE0zNm9uUQ?oc=5",
     "pub": "Sat, 21 Nov 2026 02:43:20 GMT",
@@ -1433,14 +1441,6 @@
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQM2Y0TTZzX2tCSnFzQ1l4Q2toN2FyNHdWaVJSTEpUdWV1R2ppMk5IMEFfczBBM284c0YxX1RQVEdFZDk1N05xbjYtWlBzSlNxWVhlV2c4T1ZRRG9CaW1vSy1oTEZ5MExnMXlDUWpxQzB4b2ZjNjBjT1JGN3E0VHFtRlV6NlM0RVNMSVQ2WHVDeUREaHMyOTByYWRFNmZtM003UmhYc0ZTeC12akJSZFFIYmhRc2w2NkZkdkh0U3NoUlNHRzQ?oc=5",
     "pub": "Fri, 20 Nov 2026 23:07:16 GMT",
     "src": "Oil & Gas Journal",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Op-Ed: -Funds dump copper but Shanghai has run out of metal - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdlhpZ0FHeGFuemZ3X3ZaVkluOVZmd04zei1ldlY5a3M1N2x2bDVNeFJyTEs4b1lnQ2syT3RiS2lOSUtfUk16WkNjM2VyRHI3WVBpM2FhZFBiT1hrekp2bXNqVTgxUWpSeUtwOXhTNzNHQy1qZDN4OU51dDhIZUNTdU9saXpQZzZUbVcwUWpR?oc=5",
-    "pub": "Fri, 20 Nov 2026 22:54:40 GMT",
-    "src": "Mining.com",
     "trig": false,
     "geo": false
    }
@@ -1588,18 +1588,18 @@
  },
  "charts": {
   "vix": [
-   16.01,
-   14.51,
-   14.32,
-   17.84,
-   15.44,
-   15.67,
-   16.39,
-   14.84,
-   19.99,
-   19.45,
-   19.42,
-   25.64,
+   15.13,
+   14.43,
+   14.53,
+   17.1,
+   14.87,
+   16.07,
+   15.52,
+   15.21,
+   18.44,
+   18.39,
+   21.15,
+   19.92,
    35.89
   ],
   "tnx": [
@@ -1735,21 +1735,21 @@
    81074.19,
    77198.21,
    75746.93,
-   58421.1
+   58244.97
   ],
   "vixts": [
-   0.865,
-   0.83,
-   0.813,
-   0.925,
-   0.854,
-   0.86,
-   0.911,
-   0.828,
-   1.02,
-   0.975,
-   0.899,
-   1.23,
+   0.818,
+   0.826,
+   0.825,
+   0.887,
+   0.822,
+   0.882,
+   0.862,
+   0.848,
+   0.941,
+   0.922,
+   0.979,
+   0.955,
    1.16
   ],
   "hyoas": [
@@ -2827,7 +2827,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-21T03:02:44+00:00",
+  "checked": "2026-11-21T03:11:54+00:00",
   "openai": {
    "found": false
   },

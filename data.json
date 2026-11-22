@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T12:42:13+00:00",
+ "updated": "2026-11-22T12:52:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60549.01,
-   "chg": 0.76,
-   "chg5": -6.7,
-   "chg20": -21.03,
-   "sma20": 69289.28,
-   "sma50": 76651.66,
-   "sma200": 71760.76,
+   "price": 60663.1,
+   "chg": 0.95,
+   "chg5": -6.52,
+   "chg20": -20.89,
+   "sma20": 69294.99,
+   "sma50": 76653.95,
+   "sma200": 71761.38,
    "high3m": 86602.91,
-   "reg": 60549.01,
+   "reg": 60663.1,
    "pre": null,
    "post": null,
-   "regClose": 60549.01,
+   "regClose": 60663.1,
    "sess": "reg",
-   "mt": 1795351293,
+   "mt": 1795351895,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "SpaceX Borrows $43 Billion Using Nvidia Chips as Collateral - Wisevoter",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPMFBaN29iWWxQYlRicWFKcTNSNHNNVy13ZjZWMUZxVUhvczhnQ1hjbFBxd3NCTnVabm4wTFJkZzVYSEtScEFjbloxX2g4d1ZWbWpVcEt6bndsdFlMYV9Rc1FNNWxwOG1CS0x1NGl3RXBXN1FBMmRKZ3pEOW5RUG9VUDVB?oc=5",
+    "pub": "Sun, 22 Nov 2026 12:44:18 GMT",
+    "src": "Wisevoter",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "BDC Weekly Review: Themes Of This Earnings Season - Seeking Alpha",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNX2dULTRxVnBDX1pPVW5Obmx2bG5rMkstT3IwNEFUSElSZzJfc1prOVUtZkpleUZNWGNGRDdnN0JNRmQ4R1ptREdYUnlzdkhmWWJ5emxuMFBUM2xWWC0xUFdmWkhtRnNhc0VfNFpoWU5Wci1BWHhFQkVfQkZGR2REMENhUG5DZmpxQ001dmppRHRoMDFMdl8wNU5FYUhfWXEwZExXYkF2bndfc0ZO?oc=5",
     "pub": "Sun, 22 Nov 2026 01:08:22 GMT",
@@ -1285,22 +1293,14 @@
     "src": "Dealroom",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave debt burden highlights risks in AI datacentre expansion - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQM2xGMnpIcnNzd01nVW5JcUJDX0hoMmVTdnZHTHJoMUdaZlh6Wm1MMnBMMENnbEVud3BfcUh3NzJWWWp1MVpYRTVGelpEd1RGU0gwZHBHZTV3SWJGemVId1NHUzFwT1FCRkprSDhyVnJrRTBKbERPN3lRNHV3MW1iNU9ILXZIRmF5cTlTNGdYeGQ?oc=5",
-    "pub": "Sat, 21 Nov 2026 13:10:28 GMT",
-    "src": "Traders Union",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day - Yahoo! Finance Canada",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNk8weEplQlVrUUpMc2ItWlctSVd2VFBnYTNMV3pUUUpIRHJ2QjI0ZzF0OThIT0ZMdE9wSTFkTHZtUlhRWTQ5UHc2eTFEcF9tM3MxbE1fUWd1aGpXQUI0dm8tZ0FRbG1Nek9jQlZ1a0dYc3ZRelpKSDhpMXFYemtGTmluYWVjSUVuNGdXSE9lNVNRU09vOVVRYWl5TU9abmM4VF81eWFnaUpqMUNpOUdsMWV4M2JBS29NdTZmTFhrOE13SjJxaDY2Rk01ZGlianhpQXRsY25PRFBpUGVFQ0gw?oc=5",
+    "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcV9kRTFCZnZpZVRWNTRqcDk4eDNsZHdkTUNCdnE5TWl6cE4tTUN5Zi1ETXdpM25fWDJiVm1iTkhqcjlTWjV6RERXcjBrU0NPZjNlN1BGc3R5OEJ3YjFQOElLaDZjeWdZVWhqa0pKd0VxaXhTQ3lYY0NZcFZMQkhobA?oc=5",
     "pub": "Sun, 22 Nov 2026 12:37:21 GMT",
-    "src": "Yahoo! Finance Canada",
+    "src": "AOL.com",
     "trig": false,
     "geo": false
    },
@@ -1347,6 +1347,22 @@
   ],
   "macro": [
    {
+    "title": "Bitcoin’s $60,000 breakdown puts December Fed decision under the spotlight - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DOG11VmEzdmZ3NTkzUjFkYWNuQXVUalljS19iWWhaNmtPZTEzcUVHdXhDVnRidnZnRW1aM01TbDF5NWJkMXVYYmJKSDZCblRWUUg4LVdVM0JtYWdBMlJDdG1MUXo1S2RiMU1tdnJzR1Y?oc=5",
+    "pub": "Sun, 22 Nov 2026 12:00:04 GMT",
+    "src": "CryptoSlate",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Only 5% of Cryptocurrencies Are Rising as Fed Rate Hike Fears Grow - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FWVE2LTdiaGMwZHNITXp4aDNUZ21wQlJfM3RuM3dxNGxmNURNWWFDaV9STUJLaEJtS010ZHV1bFBDUXFoMERvMDA2R1NXYjVudzJqcE9jU3NqMWYtMEVjRjJCNldwTHpXR3BDZEdsZmROaTUxY3RRNFVxNA?oc=5",
+    "pub": "Sun, 22 Nov 2026 10:40:43 GMT",
+    "src": "BeInCrypto",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Are oil companies profiting from the Iran war? Experts explain - ABC News - Breaking News, Latest News and Videos",
     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUV9YajZLcHUxLVFKVzBCLW41WS1vUGNuankwUmtqMWhRVEFLY3pxZmVCN3dMNUpIZlViQnR1dDVRazdxdExGelJnbjZfWFNVVEM4Q01KZjV3ZEM3UElMd3Z3bm52Nl9yck9FNWhBWXBLMGJMZ3ZhR1dNMmpyUFZqQWhHaDduNk9hWGxmaDY5ZlJiYzVQcnlRNEhXbjXSAaIBQVVfeXFMTjR2MEhxN0ROWG5zR0FWbGdCMHptdG5UVG10dmZwVE94S2xEdzdJeVJEeDBTaXNGbk4yWEF3bnIzUENPSzZJcnZoRzhJQUFRMk45VTB2aWVhMEdoa0ZlWExDcklnU0hpdkgya0hCLXczOU01aTEzci1Qb1pFY0hMMTJ4cVhabDRSM3dPU0xkc3RKV3B5RG9ZYl8wbkEyQVVYaDJB?oc=5",
     "pub": "Sun, 22 Nov 2026 09:32:58 GMT",
@@ -1355,42 +1371,26 @@
     "geo": false
    },
    {
+    "title": "Gold and Silver Prices Crash as $15 Trillion in Market Value Disappears, Investors Brace for Fed Decision - Speaks Media",
+    "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeU92MFYyMFRTeUprRWZzTlFlUU1uOVk1ZlRPREE3YzNSTUVUbU9NekVYaURfSVVsdGQ0SzMzYVR6ZVlBaGRJT3FPVUNrSUlFMGRBOEM3c1pfVnlJWlg0cFR6R0hKdnpXbktpWkVfeHAwVTRDcHQzQXlKZElIUFlUQS1BY0lmVjFuM0ZQblFUeXlCYU5JNlJmUC1kNi1WZTJyMzJNQm84RXJKMkhBc1lTTVJfVkxMUDdTMjhrWnZNVktoWWszWlVvd3FFeGpuVVk?oc=5",
+    "pub": "Sun, 22 Nov 2026 04:53:04 GMT",
+    "src": "Speaks Media",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SARB rate hold offers little relief to debt stressed South African households - thenational.co.za",
+    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNRW4xVnFwTDVYSVVmRmpFN0RtYThuaUJhemtsZjZWc1c0VzhlQndtek9iWEtjSGhDM2JzWUlFMG94UVVGSnUxLTJnSWtCQjVvaUdCWVhYSkk1Vk51bTd0Tmd1b1JmaUhIQ215NEY3c2hYOU1LbXBYM3pJOHR5WEs0SjdSeGExR2F6aXhKVjBYRGVaOWFxbS04OGxJYktJWlBIVnBkdEtFSjU3UnZUaVZFb3FreThFWk1CaTdtZA?oc=5",
+    "pub": "Sun, 22 Nov 2026 04:00:00 GMT",
+    "src": "thenational.co.za",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Turkish foreign minister says Iran war fallout threatening global markets - Middle East Eye",
     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNMmdLZDNFVzVHeFNUNkJNZUwxQllia2Izdkl0Y3h0THJXMTVIdzdCZVdrNklKTUoxS3lmRUZGWDI2STgyemNSaEg1emdaWklWVnp6MVNadVVKV09sTngzLVZCNmJoNnN6QXJEUlhMRV91bVVJVTRwZ2VUa2dVTWpOWkdZVDhyV0J4ak5VUnRPLVJaX1BXQWNlX2cwMXcwT1NFZEd5cW82cEdRVGlZNkxDcHBNX0xSLVF6azVCLWJoZw?oc=5",
     "pub": "Sun, 22 Nov 2026 03:18:00 GMT",
     "src": "Middle East Eye",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "BofA's Michael Hartnett: The Surest Way to Sideline the Fed — Stocks Must Give Up All of 2026's Gains - The Dark Side Of The Boom",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTHhvY05RNmhjdVZZRUJtRzJUNTAyZWRnTGxTUUVzalNHcmRSSXRwWlpQUzE2UVItVzV4b1NZbWRiWXdxRHRsWTZqelRMWnpVQzF6T1B1aHVQM1d0X2YwbS10R2VHWEJZSWVKVkd6WU90SXcwdDNwZms2X25hd2ZxZXhqQQ?oc=5",
-    "pub": "Sun, 22 Nov 2026 03:01:25 GMT",
-    "src": "The Dark Side Of The Boom",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Crude Oil Has Fallen, But Why Is $91 Still Bad News For India? UBS' Gautam Chhaocharia On The Risks | Profit Exclusive - NDTV Profit",
-    "link": "https://news.google.com/rss/articles/CBMinwJBVV95cUxOMldDbGpKQTNFTmY0X1FibWQxdkU5MDAwUFk0a2JMaWE0QXVXX2h6ZkNrOVZlUlVtTVBBRE5wajhBUjdGbllITXB5VWxqOHN6NXI3UjdheERnSjR2UGZONWVDN3gtWmtmOHNmZVRPQWdyZE5oUWMzX2VRaE1VOVB4ZFdCNGRMcHlzcGR5QW8xVTBHNjNjMDl3RUFkdGFQNnJhMnhYd3ZKUVdaUGQ5X1NmSW9pdlhoMllJWXhrcWoyWEhBVkV4THNlUTVzUjI4VC0wblNWODQ1WWhqNG43Tm9iYlFwR2F6M1JEa3BWN1djeDVCSEMzUHU4V3NRZVFWN0MzdUtxbE51TnFzRnU3cERGNGJ5akRJa2thRURGakxuY9IBpwJBVV95cUxQU3RXSUpueU9PdTdBeGlJR2Jsbkpyd2htVFlfdmh3bG9qN1pBeWgtQmlzWVVEdnNwLV84Ty1sUGJHSkR2TzlPd1VLeUVsT1Fwb1Z5aHgwNXVLMnktZl9sYkhFY1djRGFyLUczaERIREVpOXVveVJMNVBYbUlva3VCdGpXOVJVNnRCYW02V21Wcm9mVkFzYXBBaFl5ZnphRGFIeWw5U05PUjdPMUhFclFVWUpTWExtUmRkRHp4S1FkMk5vOGhpaENnc2w5a21sNGVzd2tsVEMySVlDSjRVMkRZREdDc2RLeU0tbG5zY2NwNHA3UWJER1ptNVR5S2ZLZGtZTzR5VzM3QjAtd0IzcGgtSTEzRGhqRHcxREVZbDgzUHhRSlZObFdv?oc=5",
-    "pub": "Sun, 22 Nov 2026 00:30:03 GMT",
-    "src": "NDTV Profit",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Finland warns Ukraine war ‘spilling over’ after Baltic Sea drone strike on Russian cargo ship - CNN",
-    "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE03c0w4dmN2aEdLWTBCeTR6eEFtZ1BkSi1SQlV5NS1WVExuUnZJTjFxZDlCRU13U1dmc1lkdjNwM3pVUjJjTktDOU81Qy0yaEVHS2JlVFlnUVRVRWlQbnM1WEQtX0pqYWI0VmJaV2UySkxaTFZuS09XV094R1huQQ?oc=5",
-    "pub": "Sat, 21 Nov 2026 21:23:25 GMT",
-    "src": "CNN",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "AI Fears Drive Market Selloff as VIX Closes at 36 - Wisevoter",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcldBYXpmUnhGWTNranJHbWlWMXZiOW5oLTQ3aGRoaDVJZ3pQTVF6UWlXYWh4M1RWdm9zS2NsQktuZDc3NThQbTd4eXM1ckhfbG56TTAyRjRwMEtGTExlQl9vN291TW5SdXpMeV9WcmVzRmI4dVlLREhnUGhKZjBaQjUyYlVOMXNh?oc=5",
-    "pub": "Sat, 21 Nov 2026 17:54:44 GMT",
-    "src": "Wisevoter",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    80024.01,
    78248.45,
    74584.65,
-   60560.01
+   60682.07
   ],
   "vixts": [
    0.865,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-22T12:41:56+00:00",
+  "checked": "2026-11-22T12:51:53+00:00",
   "openai": {
    "found": false
   },

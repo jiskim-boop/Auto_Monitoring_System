@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T16:22:18+00:00",
+ "updated": "2026-11-22T16:32:38+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 61019.07,
-   "chg": 1.54,
-   "chg5": -5.97,
-   "chg20": -20.42,
-   "sma20": 69312.79,
-   "sma50": 76661.06,
-   "sma200": 71763.3,
+   "price": 61131.67,
+   "chg": 1.73,
+   "chg5": -5.8,
+   "chg20": -20.27,
+   "sma20": 69318.42,
+   "sma50": 76663.32,
+   "sma200": 71763.91,
    "high3m": 86602.91,
-   "reg": 61019.07,
+   "reg": 61131.67,
    "pre": null,
    "post": null,
-   "regClose": 61019.07,
+   "regClose": 61131.67,
    "sess": "reg",
-   "mt": 1795364501,
+   "mt": 1795365123,
    "ok": true
   },
   "USO": {
@@ -1297,34 +1297,10 @@
   ],
   "fundamental": [
    {
-    "title": "SpaceX sends classified US spy satellites to orbit in early-morning launch from California (video) - Space",
-    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxONEZiYjVhWTBHd18zRFRDbUVLa2NTZ01tb1ZmZ1dQYzhuR0tqbkVELWRfX1ppSEJiZENiSWdJaW9aSE1RdzlfTUwzelNKOXphaVptMENyenR2TEJySXRMb2VYcUpwMjN4bUdzSGRpeFloS1M2QnV2cGVsT2ZpWVdhdzNKQ0VPWDJzTTZlUnpIQUJ3RklLNm9QYmN1RTVtQUxDb0REY2sxOGd5b0kxN0xTSjB5NmcxcmF6dElqeUxFYw?oc=5",
-    "pub": "Sun, 22 Nov 2026 16:05:33 GMT",
-    "src": "Space",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "AI-driven growth lifts dollar, but direction remains uncertained - NST Online",
     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNR3hpcDFFR0RSb3hIc18wUE4xOEc3alRDZFFESHNvTURhd1BUOFlMdW9QZkhaQjJacHozZDM3cjRfdG92VldtcmFVbldGRl9rOWJfMnkzVkI4TkU3NnF2UUxDd3AxSlV1UURCa1AxRXlLS1BVaEFYRlRjYk82NUhaNGFGYzYwU082WlhYVjVpMFVBYlpEMFVhM1BlcWx6WUZTbkFQUDBEcWx0OFBna2M5R21kLTBDU09w?oc=5",
     "pub": "Sun, 22 Nov 2026 15:05:18 GMT",
     "src": "NST Online",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Starship flight test 15 takes us one step closer to the moon - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeUsxT28xUUxPNTlOUzljaXdZblBxQzk1WG1UbU9hLXE2cDVXOGtBY2VPRHhhNHI0QTUtcmVWckhIMm5ZdEFNaVV4TGxtM1UwVl82anBzVjNIU1ZHektRTTZCajBNa3l0S2JkWl93Q1gtaXhWQk9vbVBmVEE2VkxUUW5n0gGHAUFVX3lxTE1ZMkNzWkQyYnhiNGhTcGNIdUNIVEx4bE9vYVFQa2VJN3pNb1JuejhGUUJ1LVBLTkxEdmZsaUpibld6R1VxejBFSnpIVkNRWDRFV18xTko1cl9NbTNEQkdwTExTdWpLRW5pMkFyeUM3MjJJMWZidkNFRDFwQzA3UGZUcXJrVExJTQ?oc=5",
-    "pub": "Sun, 22 Nov 2026 15:00:00 GMT",
-    "src": "The Hill",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "LIFTOFF! SpaceX launches classified NROL-136 mission from California, sticks landing - Starlust.org",
-    "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9WZG9hQmh3NGl2MXF2VzY0dXBPdHNQLXlpR3cyajVES01LUlhuemR6RnYwWE03Z2JjSGR0azJzeml5MWtaSFlSNWplN0FRNktRZ05TWA?oc=5",
-    "pub": "Sun, 22 Nov 2026 14:53:53 GMT",
-    "src": "Starlust.org",
     "trig": false,
     "geo": false
    },
@@ -1341,6 +1317,30 @@
     "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxQXzEtcGFDWVkyZkFZUkNCa1RjVWlReFhRN21hbDFrNVM4THNDZ09VbTg0Z2g5aGNmd1NieTVzNV9ubDA0U1BiZXpxNlkzcXROMlhQQUlZVjJXaDNSZi00cUhUeXlWOWtVQUJ3bDNQZmRvb3oxb2NqWFEyRVg3WWZDY1JPUkwwdkVvaXRlc1hJWDNpMkUxVVV6X21CaG9BSm0yaVdjeXZwT2V1dE0wMmZpUEVUcHpaVkJ4QWJYbnJORkZNNVRYblhEX0ViNWJSQ0dNRXJkT09wdXd1ekhZMXZsSjhKMzRXWGViQkJkMC1iam91dGtwMnFMRW94Rk15X2tk0gGGAkFVX3lxTFBqYVA3YmtOVEtvYi13X3NFNGN3YjlnUTRRcURSYkZCLTBGYUxOcXF0Nm9VQ2x4YVVWTjhYbndFOTQtaU9MTUdYd0pTdlZrYThyNUJfZDhkYnMwbDllNmNpdUNsaTVhN1dJUm1tRDFIX1hYblk2d0pkTFNhNEExUTdRWmp6Um92dmU3YWFUWGFndE5yUGVsaTlkVGZlenNQeHlXQkhHdzJHdU9ZZVBCcU5BenlyaEFkSzNkZ0l4aTA4R2hlX3lkRDdzb2RTc1dSMVRmVlhaMTdXc2VDN2pkQzl6ZzhVV18xVmZnaUNwczJHTkxLMjU4YUVNRFBIeFNRdkQxUFVjZkE?oc=5",
     "pub": "Sun, 22 Nov 2026 14:31:47 GMT",
     "src": "Livemint",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "'Where will that come from?': Elon Musk warns AI's billion-dollar race may hit a 'nuts' cash crunch in 202 - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPbUpURkM1TWZtZnpHMW9INXhVMXd5WnV1RWRRV25GRVo3WkMtLUdLX2ZMOWNSckhFcTlmNUctVklVQ2hsNHk3WG1laUpSbUtJaEtJSWtSckhYQTVSSUpwLTZWcXh2b2g5UVVRTDU1UFB2cXBKdEF3TmoyNWVlT1AzVHZoZHZMNkVmN05JMFg2bDA1UmVmb1J1akpwVXVRTVNnckdWQWVUUUN2QlBGQzFZd25nR3p4MlIyVW15U25sekNFNzhzdGtJREVHa2pZTlFrTTVBQ0ZlMzZmRUlRekRubEl6azVDQnhRMVNXcndXdU9ZRERWb2JNcHFjenZwT0RwUWZtVEVpMHJNY1NpVkZB0gGUAkFVX3lxTE1yQ1pOYnZTLWtqSHdHVEdyMVlwS29QWUVMSFJjVDdGTTJ6RElVWlE4YjdQT0pOcVM3azVYaFNlUFlSd0Q2NjhfQS1KeXdLaUF3dkEzUHlQWENhenFJN3psaDRVanA5RDhCWkRVUVlMOTUtdDl6bnQzNjFrNDlyRXJlY0pwQmZFZXVwbHhCY3pad3Myc21sZ256X04wTWN0U3F5REs2MUhKaHZ4UVhObUdubW9IUEFzN1NPRjR1SVBzTGFmN1N4OTZnYWtVMWV3TnFnQWdNQnlVZXh0Qk42LWxIY1ZnckNoQW9pdHpjOV9Ha1BMa0hQRE5zVUxVdUZiY1RDMHdzM3JrVlFHTlY1QWRaNE5hRg?oc=5",
+    "pub": "Sun, 22 Nov 2026 14:27:22 GMT",
+    "src": "The Economic Times",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Samsung confirms 10 long-term memory deals, but the 2029 sellout is SK hynix - Pasquale Pillitteri",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQRkJ6OXN0ZDktTGVNYXJuNVhXcFJyVUozYkJuZS1mcVMxNU9ybDNlZTVHbF9QbzJBbll0SjNLcU1iTnhUTkdyNnhSTTV0Q0RUVFFQVUdVWDN6SzZTU1pIUkI4X0pweWpKTUU5V3lJXzVCbm4tOUVQV1FtYTAxNzhBalhGejI0bDJuWDBJMlZmbGV1aS1vWmw1V3dZcGUwNm9Yay1YWFJCeDB1b3lS?oc=5",
+    "pub": "Sun, 22 Nov 2026 14:26:45 GMT",
+    "src": "Pasquale Pillitteri",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "SpaceX Starship landing livestream: Watch the catch attempt live - Mashable",
+    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPaGE3V2ptSmVUazFjeWxDMG5FSzRub3RyVnBrNTk0b0thNlRTN1NFYVhqQmZrSFdJR2JuRVhyUkhldFdydFVvd1FPVDJuLUFnTXdfeEMxUnpIbDA5ZDVUMm0yVmVPbUF5OXd2amZFSU9YczJjeW5mVkxnX194cHZNRURYQQ?oc=5",
+    "pub": "Sun, 22 Nov 2026 14:04:18 GMT",
+    "src": "Mashable",
     "trig": false,
     "geo": false
    }
@@ -1363,18 +1363,18 @@
     "geo": false
    },
    {
-    "title": "Week Ahead: Black Friday; BoK Meeting; ECB Minutes; Fed Beige Book; U.S., France, Spain, Australia, Tokyo Inflation Reports; Flash PMIs; France Credit Ratings Update - www.christophe-barraud.com",
-    "link": "https://news.google.com/rss/articles/CBMilwJBVV95cUxQRmV4V3l5QWVfOW9uOEw1dTNMSzBrTjctQnBWNXY0X2s5TTEwTmkxZTcxN3BrSTBiMjFYUnRnb0NzendHVmNmTnk1RzR2b3NscWRnQmJWcW01ZFVRTXFNbGVUXzdQQm5SY2stQmdZWFdVdFJ0aEEwRjVERzlRd05ZVVJ2WTZvOHdmWTRyc1hOSFNMbVFRYUxGY0dpVU5HMk1FNExadWdjcG0td0FDU0UySl9KWVh1S0dMZ3ZEV05KX1ZjTXYtZTNoYnNMbE9TX0N5S0ljbk5OYzVwYmJRZXg5M0ZVVkZPeE1FNGc3OWFvN3A4SmV0SVZNU1o2TFlaeHF1WHAya2RfOVAwcnIwRjZ1ODdvQmlZS0E?oc=5",
-    "pub": "Sun, 22 Nov 2026 13:27:19 GMT",
-    "src": "www.christophe-barraud.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate - Reuters",
     "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
     "pub": "Sun, 22 Nov 2026 12:22:12 GMT",
     "src": "Reuters",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Bitcoin’s $60,000 breakdown puts December Fed decision under the spotlight - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DOG11VmEzdmZ3NTkzUjFkYWNuQXVUalljS19iWWhaNmtPZTEzcUVHdXhDVnRidnZnRW1aM01TbDF5NWJkMXVYYmJKSDZCblRWUUg4LVdVM0JtYWdBMlJDdG1MUXo1S2RiMU1tdnJzR1Y?oc=5",
+    "pub": "Sun, 22 Nov 2026 12:00:04 GMT",
+    "src": "CryptoSlate",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    80024.01,
    78248.45,
    74584.65,
-   61064.22
+   61184.35
   ],
   "vixts": [
    0.865,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-22T16:22:04+00:00",
+  "checked": "2026-11-22T16:32:24+00:00",
   "openai": {
    "found": false
   },

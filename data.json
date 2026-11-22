@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T04:42:06+00:00",
+ "updated": "2026-11-22T04:52:05+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59235.86,
-   "chg": 0.74,
-   "chg5": -8.67,
-   "chg20": -24.3,
-   "sma20": 70052.79,
-   "sma50": 77118.79,
-   "sma200": 71817.03,
+   "price": 59177.7,
+   "chg": 0.64,
+   "chg5": -8.76,
+   "chg20": -24.37,
+   "sma20": 70049.88,
+   "sma50": 77117.63,
+   "sma200": 71816.71,
    "high3m": 86602.91,
-   "reg": 59235.86,
+   "reg": 59177.7,
    "pre": null,
    "post": null,
-   "regClose": 59235.86,
+   "regClose": 59177.7,
    "sess": "reg",
-   "mt": 1795322492,
+   "mt": 1795323095,
    "ok": true
   },
   "USO": {
@@ -1297,18 +1297,10 @@
   ],
   "fundamental": [
    {
-    "title": "Anthropic Raises $81.3 Billion in Record IPO as OpenAI Faces Growing Pressure Ahead of Listing - Hokanews",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQWdVZEhucUI0RjF1ZklhbEQ1NzFVMTE4MU9LdDNJSGpZMldIeHVESGdUMzJjdW1tbk56ellyRTdmNmp6cGlRMkVubjhrSTE4akUxUW9zVnJoTFRBRWJXUlpoUzZTV1g0M21VUVI2cy04TjZRcUgwelZhM0xrQ2tVSEZiclUxOUpPSGZfenJ4SkxvQQ?oc=5",
-    "pub": "Sun, 22 Nov 2026 03:21:00 GMT",
-    "src": "Hokanews",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "China’s US$1.7 tril AI rout turns hot trade into losing bet - The Edge Malaysia",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFB3enZNU3NVVlp3eFFTWHkyb2RTdGZjZ0s0aHVPUGRTU3hPZ3djbkRwcG5XUkhCMU13c2c4M0tyMGhaRE1yT1Zka0o1WTZjQ3JK?oc=5",
-    "pub": "Sun, 22 Nov 2026 02:56:01 GMT",
-    "src": "The Edge Malaysia",
+    "title": "Oracle OpenAI Contract Fully Funded After $20B Raise - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNcENkeElZREdDT0FDZnlMNG41bjFMTl9UV19MZTVzRmo3Z0tYUGxhdnNLdU5WVjNqdmwyU09FQUdqRFgxM19NZC12ODRFc1VrOGV0emlFa3dPeDdPcHFUcEMwYXdMWXZicTVoQTFhRnFLdDhiYkE2TURPdHBqM3NLN0xacFdYNUF6WHNlZGNn?oc=5",
+    "pub": "Sun, 22 Nov 2026 04:44:23 GMT",
+    "src": "shattered.io",
     "trig": false,
     "geo": false
    },
@@ -1342,6 +1334,14 @@
     "pub": "Sat, 21 Nov 2026 22:06:15 GMT",
     "src": "TradingKey",
     "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Oracle (NYSE: ORCL) Moves To Silence Funding Doubts Over $300 Billion OpenAI Computing Deal - Foreign Policy Journal",
+    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxNdmxGQmlJdndZLW05ZEU2MFk2ZTBwTDZMa0R2ZWVEMUo5S0hFcmFPM0Z1UURaREk0WFFPbmw0b3d2QUJoZnk1WUZ1cVhNN0Rkc1RNemY3aV9jTV9ndGlTbVMxNEdWbEF5ZDR1a0VLYmhHS1lPZS1UR05ibjdTdTF3ak5reTctdXNkVkhrQ3pZNVJwZjhEbHBBSnFzeHk0S2EzcDZadWQ0OW9xbU9fMWhuUWtrVWpzVk9CWXVUTjlGLS1yaER0X1ZVbWIxWlE0dy1UWVE?oc=5",
+    "pub": "Sat, 21 Nov 2026 20:19:00 GMT",
+    "src": "Foreign Policy Journal",
+    "trig": false,
     "geo": false
    }
   ],
@@ -1735,7 +1735,7 @@
    80790.84,
    77434.75,
    75747.58,
-   59239.56
+   59158.89
   ],
   "vixts": [
    0.865,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-22T04:41:54+00:00",
+  "checked": "2026-11-22T04:51:54+00:00",
   "openai": {
    "found": false
   },

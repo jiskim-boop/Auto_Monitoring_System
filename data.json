@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-22T22:32:41+00:00",
+ "updated": "2026-11-22T22:42:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60695.36,
-   "chg": 1.0,
-   "chg5": -6.47,
-   "chg20": -20.84,
-   "sma20": 69296.6,
-   "sma50": 76654.59,
-   "sma200": 71761.55,
+   "price": 60741.2,
+   "chg": 1.08,
+   "chg5": -6.4,
+   "chg20": -20.78,
+   "sma20": 69298.89,
+   "sma50": 76655.51,
+   "sma200": 71761.8,
    "high3m": 86602.91,
-   "reg": 60695.36,
+   "reg": 60741.2,
    "pre": null,
    "post": null,
-   "regClose": 60695.36,
+   "regClose": 60741.2,
    "sess": "reg",
-   "mt": 1795386727,
+   "mt": 1795387300,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 158.53,
-   "chg": -0.74,
-   "chg5": -0.78,
+   "price": 158.52,
+   "chg": -0.75,
+   "chg5": -0.79,
    "chg20": 1.08,
    "sma20": 158.6,
    "sma50": 157.96,
    "sma200": 159.24,
    "high3m": 160.2,
-   "reg": 158.53,
+   "reg": 158.52,
    "pre": null,
    "post": null,
-   "regClose": 158.53,
+   "regClose": 158.52,
    "sess": "reg",
-   "mt": 1795386721,
+   "mt": 1795387291,
    "ok": true
   },
   "KRW=X": {
-   "price": 1345.5,
-   "chg": 0.8,
+   "price": 1345.56,
+   "chg": 0.81,
    "chg5": 0.92,
    "chg20": 1.8,
-   "sma20": 1338.53,
+   "sma20": 1338.54,
    "sma50": 1344.42,
    "sma200": 1418.92,
    "high3m": 1384.86,
-   "reg": 1345.5,
+   "reg": 1345.56,
    "pre": null,
    "post": null,
-   "regClose": 1345.5,
+   "regClose": 1345.56,
    "sess": "reg",
-   "mt": 1795386633,
+   "mt": 1795387305,
    "ok": true
   },
   "^OVX": {
@@ -1297,10 +1297,18 @@
   ],
   "fundamental": [
    {
-    "title": "Why Saturday’s Historic Starship Catch Changes the Bull Case for SpaceX Stock - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQa0tXbjhLcVJQZXpwNnVQdE5sbGxoQ0hoaGdPMjlZd3BIRGFOdmI1c20zNW16V084OWM5U0ozUHVfVWtCTGNuT0U0NTlhWkhaTXkxSFpxcUJNNFBtYk1pRHFLWE1ORy1mTW53SEQ2WFhzQjNIcFEzMzlGNGFYNmNxVEJrN2VGcWFTbGJiZmpmaTN6eE1FM0tzVER3YmVSemNQcS13?oc=5",
-    "pub": "Sun, 22 Nov 2026 18:50:02 GMT",
-    "src": "Yahoo Finance",
+    "title": "NROL-136 Mission - SpaceX",
+    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBkUUh0cUxWZWp0UjJtQTBpZ0NudTh3OWRHUTdLaGNJdmZtOEUtSjcyZlJiZ0dfNUVkbUo0eE41VGhJdFhZZkNaRHJQamoyOUlr?oc=5",
+    "pub": "Sun, 22 Nov 2026 19:05:15 GMT",
+    "src": "SpaceX",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Anthropic Imposed Six-Month Restrictions On Bankers Working With OpenAI And Other Rivals - The 420.in",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOd3RoNlVfcTQxaGJESG90cHRQNGVZTXBVMEFRdk1PN0xsbXV0WFlxc2NTRFVPc2NobzBReXNEbl9RM01BbHpldEhYTkx1WHZtZllWcllZZ3dSQjJhME5VUHM2VEZMeDhRVUJpckxRME5MVnFNQ2tGd1ZqT2ViRzRnckExS0J5VG10Vmp4cER5MWdZc2Q3LW9oTlAtb0RrNWQ0dWlTYmlSbUF3Ulk?oc=5",
+    "pub": "Sun, 22 Nov 2026 17:36:22 GMT",
+    "src": "The 420.in",
     "trig": false,
     "geo": false
    },
@@ -1310,6 +1318,14 @@
     "pub": "Sun, 22 Nov 2026 16:05:33 GMT",
     "src": "Space",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI lawsuit - LAist",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWpJQXpfR1BEaThWNWNlQk5GN2plbjAzR0ZfZUF0dnZRbmZpTExzU2p3ZlZSYi1PSHdpcGsyV3JKVmY5eG4yeXl6S1B5WXNJLXJ0eDBUaVVLS2l0VFBNbk5XREJ5ejREVndXd2EyM3huX0k2cUlZSFNIbTUxWlRaZjRJYkJ2LVRzR2xiTHd0WThRQ25kMWt6NQ?oc=5",
+    "pub": "Sun, 22 Nov 2026 15:39:14 GMT",
+    "src": "LAist",
+    "trig": true,
     "geo": false
    },
    {
@@ -1325,22 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQd1B3QlBIWk5MQlcyUWpPc2NtNGZ6bHU1Y2hnZFhIRE8tVjBLcUpPS3FzQW94ajV2TFBiXzVNM3dYVTBiQXFxejVUa2hwaElKMjNQN3lSb0FFTXNBdVlvcWpqSVBQNFdWUEt4Mks2UE1UVEpFcHN5OWMydzM4c2xCWE93M2RjLWQ0d08xZG0xeURuaGdvNEJMWUtYNERQQ2ZTR2hiNy1JNURiS0U5eVRYaGI4bzQ2Z9IBuwFBVV95cUxPem9WdHJiS2NGd3dSdmZOdWhDQVRmekJ4NmhyQ0lKb2VBQTY2cWg5S3ROLWhoSWVRVFF3WUJHMXJxTDNOYjZRMFlSZnVQTHRLSWZLcC1kRDAxN3MxSTBjZ3c0c0FiTlpYXzFWZGdJVkhnWjM4U3pTd1RDOU1pRnpPRnJTZXhEMkZKMzd4NU1Id0Nfb3VoeVlfYTg3RGFFelBNZzZLbDFrNDBhNkZqcTVCLVRmWE91S2VXdTlV?oc=5",
     "pub": "Sun, 22 Nov 2026 15:05:18 GMT",
     "src": "NST Online",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "What Is Grok Bot? 1.0 Price, Mac App and Safety - Fello AI",
-    "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTFBZQnJBMjY3QzFLVE9maWVjaDB3SXNlSlFpQmIwdTJrMG9HemE4ZEdfcnhlbjhDb0syMmh2MkVLd2R0Z0k?oc=5",
-    "pub": "Sun, 22 Nov 2026 15:02:47 GMT",
-    "src": "Fello AI",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Starship flight test 15 takes us one step closer to the moon - The Hill",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNeUsxT28xUUxPNTlOUzljaXdZblBxQzk1WG1UbU9hLXE2cDVXOGtBY2VPRHhhNHI0QTUtcmVWckhIMm5ZdEFNaVV4TGxtM1UwVl82anBzVjNIU1ZHektRTTZCajBNa3l0S2JkWl93Q1gtaXhWQk9vbVBmVEE2VkxUUW5n0gGHAUFVX3lxTE1ZMkNzWkQyYnhiNGhTcGNIdUNIVEx4bE9vYVFQa2VJN3pNb1JuejhGUUJ1LVBLTkxEdmZsaUpibld6R1VxejBFSnpIVkNRWDRFV18xTko1cl9NbTNEQkdwTExTdWpLRW5pMkFyeUM3MjJJMWZidkNFRDFwQzA3UGZUcXJrVExJTQ?oc=5",
-    "pub": "Sun, 22 Nov 2026 15:00:00 GMT",
-    "src": "The Hill",
     "trig": false,
     "geo": false
    }
@@ -1371,31 +1371,47 @@
     "geo": false
    },
    {
-    "title": "This has marked some of the biggest buying & selling opportu - KuCoin",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE5LVUQ1SXRtWTB5X3dkYWVCMmdzQzhRUi1rX3NBT2g2Zko2bU5UVGdoRW1odWZWdmlEakl1TmtIODRGOWhINmhTd19Gb3pMWG44VGlSd2lDRXRac1p5UFA0NXgyVTlQU203Sy1JT3ZBcXJTdw?oc=5",
-    "pub": "Sun, 22 Nov 2026 13:43:18 GMT",
-    "src": "KuCoin",
+    "title": "Only 5% of Cryptocurrencies Are Rising as Fed Rate Hike Fears Grow - BeInCrypto",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5FWVE2LTdiaGMwZHNITXp4aDNUZ21wQlJfM3RuM3dxNGxmNURNWWFDaV9STUJLaEJtS010ZHV1bFBDUXFoMERvMDA2R1NXYjVudzJqcE9jU3NqMWYtMEVjRjJCNldwTHpXR3BDZEdsZmROaTUxY3RRNFVxNA?oc=5",
+    "pub": "Sun, 22 Nov 2026 16:54:19 GMT",
+    "src": "BeInCrypto",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5",
-    "pub": "Sun, 22 Nov 2026 12:22:12 GMT",
-    "src": "Reuters",
+    "title": "Fed decision, Broadcom earnings and a Micron deadline all converge in one trading session - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0tUnhaLVRuR3RPOEpSNTZtelVWOTNVRTJiaHUzQ0JKOFFYTHA3ZUVfbXJSUFZvNXF3MFdBNFhNb3lpZ0VVUkIxRDI0ZEpFQU96ZjVkdTg4MEduR0V2ODRvNUtHUFZvekd1Z0E?oc=5",
+    "pub": "Sun, 22 Nov 2026 16:39:03 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Russian cargo ship catches fire after Ukrainian strike in Baltic - Gulf Today",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQUlNURmZlWjlRWU5Bb3ZpMmRteTMxMk1Sbm1IMXFUUU9QSWlwaThWc2w5NWdvd1QtanZXamktYlBLenFUSnRaX3pZcy1pUWxmWGpjc2VjbGNBeUlIeGp3XzhxcXQ4UHdvdlVsNjBfUlNJUUd0YlY4VXhQUWN4czVUOFNYMFVNOEVlaG51RVliTjcxd1JhVE1HaXREb1RfNldsOWkzOEUwMlc?oc=5",
-    "pub": "Sun, 22 Nov 2026 11:53:13 GMT",
-    "src": "Gulf Today",
+    "title": "Fed may need multiple rate hikes to tackle persistent inflation - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOenlUc1J5SnhkX3FaZmh2SXJaY3RUdS1JSXNRWjB2U0NWNmlGYm94ZWtiTy1pYWdKYk9nMXUxNm9pOFhNOW1rRno2eUtzbi14OFJKdkJhZjFjSktJa0E4M1NGbEYzZXY5aVNOcGp0MzdSODN0dGVJU216Ykx0bEJNYmF3aTlCS016dUVTckhmWVM0S2t6cVE?oc=5",
+    "pub": "Sun, 22 Nov 2026 14:24:14 GMT",
+    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "U.S. Energy Exports Hit Records as Global Competition Intensifies - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOLV94SkZoRzAwMjMxMW5aMjBYSkJ5VE5aN0NkTXZ3dElvZVB1WWFvS3JfMk4wV092aHdEZkxwMWhMdThxbzFxRmluU1F5bURXQXg1b3h4cHM0S0lKQjVfc2JidFhKNmFKZE93eGJuTnNMWHJFeUV6RHh0U1lpUGZUMzVWSTdvdks4TkZXR2JVR2xQendFUDVVNUpSN3E5NE1JYXdGTjhKVWtZcUIzdjE1UlBFUGlRUdIBtgFBVV95cUxOLV94SkZoRzAwMjMxMW5aMjBYSkJ5VE5aN0NkTXZ3dElvZVB1WWFvS3JfMk4wV092aHdEZkxwMWhMdThxbzFxRmluU1F5bURXQXg1b3h4cHM0S0lKQjVfc2JidFhKNmFKZE93eGJuTnNMWHJFeUV6RHh0U1lpUGZUMzVWSTdvdks4TkZXR2JVR2xQendFUDVVNUpSN3E5NE1JYXdGTjhKVWtZcUIzdjE1UlBFUGlRUQ?oc=5",
+    "pub": "Sun, 22 Nov 2026 22:00:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "USD/JPY Tests 160.00 – Breakout or Fake Out? - StoneX",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNVlRvb19BY25NOVJtdlBNbmtlRVFOWlczZzRSOHEzclRvWGRTQ2UxOEVQblU3cmtjRk5CX3c2V1ZSTDJqMUNPQWZFYzhraVZwTTZvd0I2NkxyN1ZEZ0R5TUIzR3EtVXVlRnRpSVdiNVRYaTgyOXVtOGlpdHpFblQxb0pCWDQxRWx0VXV3NXVBZ0JQY1BjY2xteXVDSTZrZU5xaFE?oc=5",
+    "pub": "Sun, 22 Nov 2026 18:16:53 GMT",
+    "src": "StoneX",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Antofagasta (LSE:ANTO) Stock Stays Reasonable On Fresh Copper Price Pressure - Simply Wall St",
     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPYWhHOV81eFVSbmtZX0pUM3M4dDVCbzNabTV2Ny1SR01nYmpkQnpGdElrX3h1NHNCeUNEU1JSMERueTdXdmNlRnZ0N0Z3Y1ZRd1hZbVJ0dTFfNUNVZGtwR3FWVHRGOTRfTUNEdHhVb202bDhsY2lrY0laLURPb3h2U19SaEFMYk91X0QzRDNFR3h6c1NUVXYwZzNsejhRNlEzd3pXVTVfU0d5ek1ZSUN2MWVhRExZbi1HQm9KdFd3dWpwTlhaT3VkYWtWT0pHZ01XcWNNUkZR0gHWAUFVX3lxTE9haEc5XzV4VVJua1lfSlQzczh0NUJvM1ptNXY3LVJHTWdiamRCekZ0SWtfeHU0c0J5Q0RTUlIwRG55N1d2Y2VGdnQ3RndjVlF3WFltUnR1MV81Q1Vka3BHcVZUdEY5NF9NQ0R0eFVvbTZsOGxjaWtjSVotRE9veHZTX1JoQUxiT3VfRDNEM0VHeHpzU1RVdjBnM2x6OFE2UTN3eldVNV9TR3l6TVlJQ3YxZWFETFluLUdCb0p0V3d1anBOWFpPdWRha1ZPSkdnTVdxY01SRlE?oc=5",
@@ -1413,10 +1429,10 @@
     "geo": false
    },
    {
-    "title": "US Dollar Forecast: Can the Japanese Yen End Its 19-Month Rally? - Coinpaper",
-    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZlVuNXEzdV8tUGRZSFRuY1lYWEx1M2hodmF3QmVBQjM1YkhIanhCQll6Y0lmSjMxN1hLTmpOamxpU2FWSnRZTzlncnUxX2hCV3Q3ZEZOTTRpVHF2SFNmekZSNE1ENkxuUC04TTBnU3ZPa0lhRlJUNld4ZXRodG9VUE1Xdk9pbS10X2hrQVR1cnRSd0t6?oc=5",
-    "pub": "Sun, 22 Nov 2026 14:07:38 GMT",
-    "src": "Coinpaper",
+    "title": "Fuel prices unchanged for 10th week - Taipei Times",
+    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5oTEFBREpwQ3N1dWgtMnJQdVRTdmtjMHRYd2JnOWo1MWE3Y1QxcUFsS0s5RmQ2Z3RzZWZXVS1XM0xQd18wRUxhM0lrVVRVdktCTkx1cThKSHQtZVlRSjBudF9CMm1wSjk4V1hYV2x2NjduWFZxVEE?oc=5",
+    "pub": "Sun, 22 Nov 2026 16:00:00 GMT",
+    "src": "Taipei Times",
     "trig": false,
     "geo": false
    },
@@ -1426,22 +1442,6 @@
     "pub": "Sun, 22 Nov 2026 10:25:00 GMT",
     "src": "Business Insider",
     "trig": true,
-    "geo": false
-   },
-   {
-    "title": "Copper Prices Are Falling. Memo to the Fed: Inflation Could Be Next. - Barron's",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOY1VWZnFrS1RVVDVzdUs2TTMyTnJTSFZZbUNHSS0tRGhIUm9DSkU1X2Uyd3JEN2cydFhiV3J2WEFxZ0p2MjVYNGJMd1JNSHBJSFNESmRhM2ZvY1FIUjVQeUJNb3RhWHpCblA1eVVNMnlvMkg5LUdDNEFON0NpZ0tiZ1dBbXVxZG5IbE8zRHAxNXI?oc=5",
-    "pub": "Sun, 22 Nov 2026 10:00:00 GMT",
-    "src": "Barron's",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold prices plummet as other financial assets become more attractive. - Vietnam.vn",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOOGxqSkxvYVdIbHBOeHVpOXZ1eHRMZk13dnB5VmdwYmpJX1l2ZnZsbXV5dTNQNE5VeGJTenFCV3pfbW03R0dUQ2FRMFEtMEtFQTNCSzZ1eGRkLXRoM09qbzE1Y1A4ZEJOUk9KNkJpTFJPbXhDekJvMVNrbmtlekpMOXo1eXFNWktybXRBc1NR?oc=5",
-    "pub": "Sun, 22 Nov 2026 09:39:25 GMT",
-    "src": "Vietnam.vn",
-    "trig": false,
     "geo": false
    }
   ]
@@ -1675,7 +1675,7 @@
    156.83,
    157.68,
    158.29,
-   158.55
+   158.52
   ],
   "uso": [
    134.64,
@@ -1735,7 +1735,7 @@
    80024.01,
    78248.45,
    74584.65,
-   60678.22
+   60745.4
   ],
   "vixts": [
    0.865,
@@ -2828,7 +2828,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-22T22:32:28+00:00",
+  "checked": "2026-11-22T22:42:04+00:00",
   "openai": {
    "found": false
   },
@@ -2945,7 +2945,7 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 158.53,
+   "usdjpy": 158.52,
    "usdjpy_chg20": 1.08,
    "vix_chg5": 85.96,
    "hit": false,
@@ -2954,7 +2954,7 @@
   "dollar": {
    "dxy": 103.84,
    "dxy_chg20": 1.84,
-   "usdkrw": 1345.5,
+   "usdkrw": 1345.56,
    "usdkrw_chg20": 1.8,
    "hit": false,
    "missing": []

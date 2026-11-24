@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T22:42:13+00:00",
+ "updated": "2026-11-24T22:52:17+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.84,
-   "chg": -0.46,
-   "chg5": 0.34,
-   "chg20": 1.49,
+   "price": 103.82,
+   "chg": -0.48,
+   "chg5": 0.32,
+   "chg20": 1.47,
    "sma20": 102.76,
    "sma50": 102.07,
    "sma200": 100.85,
    "high3m": 104.32,
-   "reg": 103.84,
+   "reg": 103.82,
    "pre": null,
    "post": null,
-   "regClose": 103.84,
+   "regClose": 103.82,
    "sess": "reg",
-   "mt": 1795559495,
+   "mt": 1795560095,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59972.7,
-   "chg": -2.02,
-   "chg5": -3.12,
-   "chg20": -25.41,
-   "sma20": 67491.6,
-   "sma50": 75642.26,
-   "sma200": 71596.62,
+   "price": 59927.14,
+   "chg": -2.1,
+   "chg5": -3.19,
+   "chg20": -25.47,
+   "sma20": 67489.32,
+   "sma50": 75641.35,
+   "sma200": 71596.38,
    "high3m": 86480.3,
-   "reg": 59972.7,
+   "reg": 59927.14,
    "pre": null,
    "post": null,
-   "regClose": 59972.7,
+   "regClose": 59927.14,
    "sess": "reg",
-   "mt": 1795560101,
+   "mt": 1795560702,
    "ok": true
   },
   "USO": {
@@ -1040,24 +1040,24 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.24,
-   "chg": 0.19,
-   "chg5": -0.18,
-   "chg20": 1.09,
+   "price": 159.26,
+   "chg": 0.21,
+   "chg5": -0.16,
+   "chg20": 1.1,
    "sma20": 158.71,
    "sma50": 158.06,
    "sma200": 159.25,
    "high3m": 160.2,
-   "reg": 159.24,
+   "reg": 159.26,
    "pre": null,
    "post": null,
-   "regClose": 159.24,
+   "regClose": 159.26,
    "sess": "reg",
-   "mt": 1795560096,
+   "mt": 1795560704,
    "ok": true
   },
   "KRW=X": {
-   "price": 1341.09,
+   "price": 1341.08,
    "chg": -0.24,
    "chg5": 0.41,
    "chg20": 1.23,
@@ -1065,12 +1065,12 @@
    "sma50": 1344.31,
    "sma200": 1417.06,
    "high3m": 1384.86,
-   "reg": 1341.09,
+   "reg": 1341.08,
    "pre": null,
    "post": null,
-   "regClose": 1341.09,
+   "regClose": 1341.08,
    "sess": "reg",
-   "mt": 1795559950,
+   "mt": 1795560333,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "ZERO BUDGET FOR PAX SILICA Sen. Bam Aquino confirms there is zero funding for the Pax Silica project in the BCDA's proposed 2027 budget and corporate funds. \"So there is no funding for Pax silica in the GAA or with your internally generated budget. So - Facebook",
+    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQMzZ5WjdaenlxdEJBemRyOEwxRWNrQkp4bnJKbnpwQ3c2aVExbXBIM3JoU00tVDdKMWYzbGZ5ZHN0LTNjY21HOTRXRDd0QXFIbUxsT2Z2U25lR1BkOHl6cjVMRVNwRDR2NGdqUGYtS0xvT2hGLXNzYVlSNXBCRkNMNHZFSF9FS1lZbFJoRlhXQVhVeG5JQnJqNkE3ZThYbUJra1lDUFBjMkdkZDFjdzR4cEVVeUVaNEpWVDd0a3NKQUhOSzhyV3hlejBfQV9rVUJtbm9lelJ6SnA?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:41:27 GMT",
+    "src": "Facebook",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave falls 13% as AI debt worries deepen after Huang’s return - Superpower Daily",
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPY2xNZXowWTFmV3kxdVhEenBmckE5MjM5T1J6a0ZfcEJVUjZ5ak5MMUVjU0VfOFFmMmsycWQ1YnRSTUdiSHdHSFB2Y1IwUUNwQ2ZSTzdBMmJ1VFhmLVlpR2RoNkFveENJWEtyak5UaXJHY1NRMFVPUThoVlpPTVRWZnVRREV3WEJ4NTFFNU9zdmMtckFhU1JBX1FjNnJzV0hh?oc=5",
     "pub": "Tue, 24 Nov 2026 22:04:42 GMT",
@@ -1285,62 +1293,54 @@
     "src": "Cayman Finance",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Apollo provides $305m loan for Tribeca condo conversion - PERE",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNUmNuaVN2eHh4bGtfOEJIMXpDdE1EaXJDY2N5eEV1WTlmdy11TGNzQ3dTWl9zc2dMdGJ1dGdmR0tWWjhna3R4eG9tWUl2YmlvbTVzeDhId2Q2MGtpVk11NjFEZ1MyaUN2RExWYnFfdVRwU1dvQzloV1Rjb2E4Rm5zM3lUdTc2ZmZKZEpmZ1BLQkxjOTlPTEF3ZDhSd1c5N2hJNmc?oc=5",
-    "pub": "Tue, 24 Nov 2026 18:00:21 GMT",
-    "src": "PERE",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
    {
-    "title": "Grok Users Digitally Removed My Hijab and Made Sexual Deepfakes of Me. Now I’m Suing Elon Musk’s xAI - Cosmopolitan",
-    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBFR2xHUzJQTkg4NTh0aDlaM2pNV1hXeFVOb00wWVhQdXgwcTNnQnB2ZjFMZGZZckN5MnhpZXdrZ00wX3dJeVhwRE9LaG94QUdCNWFZMk11VTFJbmVaNFZ2bGRydzJMQkZJbXBSMFltbE1kREc5SVVSRHI4UQ?oc=5",
-    "pub": "Tue, 24 Nov 2026 21:06:45 GMT",
-    "src": "Cosmopolitan",
+    "title": "Anthropic: ANT that a shame - Axios",
+    "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5hZERubEFhT25RazFGVjdOQUNtVTctdHlrZ2J6NzJLbmFPejgzME55MnloalR6SzdZbHlnXzJTcHZ3cmVSZW1aVF9kTElpUUN5endQa0MwVzRIQldhSFk0OWFMOUE1dEVYVlE?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:34:44 GMT",
+    "src": "Axios",
     "trig": false,
     "geo": false
    },
    {
-    "title": "HBM Prices to Double, Big Tech Shakes Market - 조선일보",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNVmVKN3Fsd3hJSllJSzd1dTZaUUM1RmRxY1BsTURiZjFIZ01ZTVlQRmFLM1RBeVE5MnU4cXFHUUpQMVU5Z3laUW5DTXM2QXNnUnhJaGQzRF9sNzNHVG1nN1JwekhzZDlpM3o5SFh1TUNoamRRNkxuTmphTVN3NlZRd0tDZ2FhX2xY?oc=5",
-    "pub": "Tue, 24 Nov 2026 21:05:44 GMT",
-    "src": "조선일보",
+    "title": "One Anthropic Client Cut 100+ Offshore Contractors With AI - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQZUpGdlNoMzd3Zlc0WTJTQWFwam9YbWlBLXJmUnF6STgxbHM2V1JTRDl1TVlmSy16ZnFqNXNIblJFSlBYQlpjTVlnUVZrSW9kdUFuZ1dTRVRnNV9oSHJWYlVCODhGbnNPMWVDOHp0cTBLeXRhWmdYWE9meFpmampwU0tWcTV4cG4zazZoOEpR?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:19:24 GMT",
+    "src": "FourWeekMBA",
+    "trig": true,
+    "geo": false
+   },
+   {
+    "title": "Watch: SpaceX launches classified USSF-266 mission on Falcon 9 booster's 29th flight - Starlust.org",
+    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdFN6Rnhib3VmRThfSnU3YldXZy1sWVJrR19UNXJLQVRVU0FQcjBJWUZhQlhpNE91MS15ZWMwSkh4NkZTb1pRd2x6clBuNi1wckFpR2pSUTN4VWNQTlJzUFpaclFDR1E3SFdMLTlrbDVoamZMZmx1Tm1xbERKWWdGV29iei1IcjVnNlJWZE0wOHQ0VmtWX2JxYlZUcU0wcnpCMnd1MEhJNA?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:09:22 GMT",
+    "src": "Starlust.org",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Anthropic shares tumble below $83 IPO price, on track to lose nearly $200 billion in value - Reuters",
-    "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMHBNOVY5RDc1NmxUUjNnZkNhLWROQkhUOFZpVmQ0SEI0UG9aSUpTTjhpV3EydTNkdW8xYm1KOWF6OXg2Z3BMaUJCWTE3WnFCM0hCZGNuQ3ZKUklsYUROVWQzdExOamNKVlJLRTgwYWpoYVdOUjlDY0pxTmxZajlvckJ4cHc0TG1hbW1ZUkszaDZ2M2Rvd3RqTWRFaVRENXVWT0pr?oc=5",
-    "pub": "Tue, 24 Nov 2026 20:47:56 GMT",
-    "src": "Reuters",
+    "title": "Anthropic Has Been Straight Down Since Its IPO - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNjNtZnR5eVRFQnRXVTZBVHh6eG5JdEVOdlo0Z09GczFCUjV4eWdQcmlzaktCc3BuU1NtWmFsOFctUWRCSERvUUUxRnhBemZiNjUxRnFZb1R1bl9GazZ4amZaV0YtRUpDME10c3lxendiUW5FNTFNbEM4cmFSOEhPYkYyemJjR1RwaWR0NFJPeV8zdzhLdnFLT3I2SkhEc1k?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:08:15 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Wall Street Sees Big Tech AI Capex Hitting $1.4 Trillion Next Year; Samsung, SK Hynix Memory Boom Expected to Extend - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9rNjZFb3pxYzM0MllRVHZGZlgwMGhqTXFJSjdvbDR5S0gxS0hzb2l2VTgxd1VWYmtuLXhVeUtlVG53all1ZE5zYXdwbWxyQURtUXBuRmNyYTREaUl4MHo3NmVrUmJsbmdtV1h3b3dPUkNybTdQbXc?oc=5",
-    "pub": "Tue, 24 Nov 2026 20:35:00 GMT",
-    "src": "BigGo Finance",
+    "title": "Anthropic Had the Biggest IPO Ever. The Trade Is Already Unraveling. - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNHY3ODVIbFVMbGZSZ0tSd0p0YTZQTVRESWQxYW9UZ193WHc5N3JQNXJ6bVNEM3VWVEd5aFhlSURsaVJLMG9RZGFCQmdjbEFpc29tNTFvTkNxaTJJV29EQ3JFMUZXNmxZaF90TDM2VUJsNTRJdXotSmdRM09FS0wyMnk2dzBsRkppZHZRcFpKcThpeVVWX0lpemg1MkU4U1ZvQ2swazM1T0JEMS1nNmEw?oc=5",
+    "pub": "Tue, 24 Nov 2026 22:07:00 GMT",
+    "src": "WSJ",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Former xAI founders are launching a predictive AI startup called Epochal - Quartz",
-    "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE92TWNZYU4yUWZhY2JPclFndnM5WTJBY0p6Qk9BbmVhUnFqaGdLajNjM0FFUUs4aklIMENvLWtTWlBCb3I3TFI0eFBVZWdLWnI2QzB2UjJKMXBFRVR0S2ItVVV4ODF5RVNVRlhLVjZiZHZvQQ?oc=5",
-    "pub": "Tue, 24 Nov 2026 20:01:15 GMT",
-    "src": "Quartz",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Three xAI co-founders launch Epochal, backed by $100 million from Guodong Zhang - Startup Fortune",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNLWRrYlZEbjNSbV9fYnBwamt5VG1pc2owcGtZZHNEaktpS1lTTUowREVDRzF0RDZWbDI4YTFJMms0eWozZF9KS0dQM1hjLXppaTJEcHlnUW9wa3MzU1gyeHVOaGQ1TXhZLUpqS254SW5VMURzdl9jNk5hZmVZMmVFUU1yYlhkMlp2RGxMNVhuU1I2T0hJcjhNNTk0VUlQSnowcnJzS194TEQ?oc=5",
-    "pub": "Tue, 24 Nov 2026 19:07:56 GMT",
-    "src": "Startup Fortune",
+    "title": "Forget cheaper RAM: Samsung has already sold out its 2027 DRAM production capacity - TweakTown",
+    "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2tBbl9PaHVPSnBWcVZVRHhjWFB4VlVHQUYwMTdyT1Bja1dOeEN1QlpobnRpejhETTU0NmxKU0VENU9iaTJvYmZsQXBZbWhqVWxkelJmeVhqWFU5MmhHZC1yR3lIWG0zYjBHVWQyYUU2QkhybUFYblAxcTVXN2RlOU9kN2pmSXR3UUV1dk5uZWpNTjFiTlhnQnN0a2JFNFBlOERWd2lMU0pXOFBqZnc0QjhyU1NQLVVUSjlGNWFMQi0teV9sajBjbXRn?oc=5",
+    "pub": "Tue, 24 Nov 2026 21:55:05 GMT",
+    "src": "TweakTown",
     "trig": false,
     "geo": false
    }
@@ -1371,14 +1371,6 @@
     "geo": false
    },
    {
-    "title": "Exchange Rate Today, November 24, 2026: Naira depreciates against dollar despite CBN's interest rate decision - Daily Post Nigeria",
-    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOMUU5cjJGTWtUVTNja2NYMi1MWXVHWXdUWHpnTVhick15d1dUSmVtbkxGOU5VeUZmQkJUM3NtV0FHc25vSV9yVWxaTHU0cHI0ejVneUQ5ZzI4RHZNSW9WUEVpVzhyUW9vLUdNM0xjc2lXQkRCaldZUFhUTGE0QXdwcGZYMWZlQ293V21jWEtrQ2NDS1hzM0gyT1FXdDBuLVpyWjdYSGpMR2RfZ2VxbXMwRjFQMjNNeTFEVk1WdmlyUW1YOUlyYk9rQ0F5eEN5V2dFeWFRNw?oc=5",
-    "pub": "Tue, 24 Nov 2026 19:04:13 GMT",
-    "src": "Daily Post Nigeria",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Arthur Hayes Says Nvidia’s Rally Is the Worst Thing for Bitcoin: Is He Right? - 24/7 Wall St.",
     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNX2VBYjhyRE1Cay1XVG5Qd1hkQllnd0JsOVNZci1FY00zNlAxUWg1Z3dPZVVOUEROVUhTc0l2Q1hldmhLemFHTzg4NjduZExUbUQtZTRaMnhHeG90MVdiLVQ4cnhjdjRxajU5N1hrWjFGaDdncFluelZtY0FMZ2pxcGxrUlFtU2FCWm1nUEMwOU1sQVBMRGc1WnNOX0VIZC1wMjY0YkE4S2F0SWdvOHJVaVpyTEJyMnRISkV5eEdQSnM4Zmc1VGQ4MGphQlhZQQ?oc=5",
     "pub": "Tue, 24 Nov 2026 18:23:00 GMT",
@@ -1391,6 +1383,14 @@
     "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxOcEd6SGJNVXU0Tk0xd2FUZjNvVDVZYll3RWNRNjlsaHdfT3pfc0gwbVNhWmk2cm5wNE5ZQ3d3cU05el9GZFF5Q2pRUks1SlJKMmd4bVNLRTVRbFJTUDVSUWlxbHRnaS11akF4LWRrSnVhNWlZVEVOaWZ3OFVXeGNfR0tNNmxTMUFfQjJCcUVpTFBRaUNqRGMyWl90UC1wUkU2LWpScmJIQzl1eFduRU9kY1cxMFQ3VUEtbnRqWlhZcThyUFBtclJLYURSZmtiTHh5dENhWXhrOXI3bl9PY0xTM0ZMUzNDWDd0UE9CY2xmZ3QwbTZoZVdYeE8zRdIBgAJBVV95cUxOTWZWcGlzVlZPdUk2aFV4bldqRmNlMEpoRDFfdUFVQm5NVEZNRmp1TXpxdzNyWnJHbEhQdHhNYmVxUDdMSDlxYjUtNTExUUpUaVAxSFR0Ym5sT3Y2MVlIUk9ha1Vha3A1Z3ZlUTA3REozRU1CQTBBZlZiTUpTZmdSSHJCVHZZUVpybklBTkV0aEF3TUVMU2J1Zng0V1BhalcxQ1lueHRCd1p2VHpfS0oxX0wyWldPYVFDaE8tcTJhZVI1SXpyVGhZUWlIZHNMbDhvX2cyVkEtMWd0aXc4Z3hZYW9lci1DRG1vVjF6c29BX1RUVXpBZVdKNksyeVQzWF8x?oc=5",
     "pub": "Tue, 24 Nov 2026 18:08:21 GMT",
     "src": "Livemint",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Can NEAR stabilize under persistent restrictive policy and geopolitical uncertainty affecting market conditions? - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOc3kta0R6WGt1UGFZNTJnVjVUVmFEN2wzdS1nRGt5alBsdFhDM3MxWnFGSl9zZlVmaTF5RVF2dkVraDMxVGV1dTBReGdXWmJYNXZ4bWRxT0d3c0gwWFNkNFlwLVU0T3Q4UjIwZC14RE0zc0NaeW03TUxwNXMtTHpaOTMycHZ5eDk0eVRBWnBpdW5PaXBQRUdlVk1LclZpamszN3c?oc=5",
+    "pub": "Tue, 24 Nov 2026 17:04:22 GMT",
+    "src": "Traders Union",
     "trig": false,
     "geo": false
    }
@@ -1421,17 +1421,17 @@
     "geo": false
    },
    {
-    "title": "Gold price falls 2% on hawkish Fed bets, US inflation data in focus - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFhNU3Z6SGt5cklJWjR2Y1RERTFHdGRmVERBVW9HOV83aGhCQ1NrU0V2Z2ZjWXVGNkNhNW9ldVMyMmNzWWFWODZkd252Tzc2LVZlR05vNktLNFdTNDdFSE1kMnNVSTRwMW9ENkJneXp2dGxNTUlra1JTSHR2TVFyem9wVmFlXzJlakRSeU5oWTNlY3dpdk9XMg?oc=5",
-    "pub": "Tue, 24 Nov 2026 21:03:57 GMT",
+    "title": "Papua New Guinea clan chiefs seek to block massive copper mine - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWEdLMkdRcVZsaHFMNFhucTlyTU52VXVsUEd3ZHVrWDlFUnB4VC1NR0drU3ZjNkJfazZiTWF3TWNCTEZhNmE0QnVWSGd3MDFxdU9jYTBRbWtzZWdSNERtc29NWmZGelJ1c3p4RmprSjljZWhXLUh3NVdHX0kzeFBTWlpMTk0zLWhrZW9TV09oM18zTzBT?oc=5",
+    "pub": "Tue, 24 Nov 2026 21:17:25 GMT",
     "src": "Mining.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Osisko outlines 7.4B lb. of copper underground at Gaspé - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOY0psRFZ5RzBDZEVGOWlod3RqQTFUajVyTTVKVWhtdUlIR1U5UnNib0lBUmV4eTB4cEg2RFZvUFpYOGpLZjAxNUJQcWloN3kyWEdXS3g4ZWpTVzNKQkVJSmhmeDNsblpETmhkbXNaenpVZk5OYTRkS1dMczN1Q2RERDMwVXc?oc=5",
-    "pub": "Tue, 24 Nov 2026 20:45:59 GMT",
+    "title": "Gold price falls 2% on hawkish Fed bets, US inflation data in focus - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQeFhNU3Z6SGt5cklJWjR2Y1RERTFHdGRmVERBVW9HOV83aGhCQ1NrU0V2Z2ZjWXVGNkNhNW9ldVMyMmNzWWFWODZkd252Tzc2LVZlR05vNktLNFdTNDdFSE1kMnNVSTRwMW9ENkJneXp2dGxNTUlra1JTSHR2TVFyem9wVmFlXzJlakRSeU5oWTNlY3dpdk9XMg?oc=5",
+    "pub": "Tue, 24 Nov 2026 21:03:57 GMT",
     "src": "Mining.com",
     "trig": false,
     "geo": false
@@ -1630,7 +1630,7 @@
    102.32,
    101.87,
    102.23,
-   103.84
+   103.82
   ],
   "bizd": [
    13.39,
@@ -1675,7 +1675,7 @@
    157.53,
    157.91,
    157.98,
-   159.24
+   159.27
   ],
   "uso": [
    126.15,
@@ -1735,7 +1735,7 @@
    80805.08,
    77345.05,
    73720.12,
-   59977.87
+   59927.41
   ],
   "vixts": [
    0.87,
@@ -2823,7 +2823,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-24T22:42:00+00:00",
+  "checked": "2026-11-24T22:52:02+00:00",
   "openai": {
    "found": false
   },
@@ -2940,16 +2940,16 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.24,
-   "usdjpy_chg20": 1.09,
+   "usdjpy": 159.26,
+   "usdjpy_chg20": 1.1,
    "vix_chg5": 3.53,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.84,
-   "dxy_chg20": 1.49,
-   "usdkrw": 1341.09,
+   "dxy": 103.82,
+   "dxy_chg20": 1.47,
+   "usdkrw": 1341.08,
    "usdkrw_chg20": 1.23,
    "hit": false,
    "missing": []

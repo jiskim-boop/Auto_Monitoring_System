@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-24T10:22:09+00:00",
+ "updated": "2026-11-24T10:32:31+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -768,20 +768,20 @@
    "ok": true
   },
   "^VIX": {
-   "price": 27.82,
-   "chg": 4.51,
-   "chg5": 9.27,
-   "chg20": 58.79,
-   "sma20": 22.63,
-   "sma50": 18.84,
+   "price": 27.6,
+   "chg": 3.68,
+   "chg5": 8.41,
+   "chg20": 57.53,
+   "sma20": 22.61,
+   "sma50": 18.83,
    "sma200": 17.48,
    "high3m": 35.89,
-   "reg": 27.82,
+   "reg": 27.6,
    "pre": null,
    "post": null,
-   "regClose": 27.82,
+   "regClose": 27.6,
    "sess": "reg",
-   "mt": 1795514776,
+   "mt": 1795515406,
    "ok": true
   },
   "^VIX3M": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 104.16,
-   "chg": -0.16,
-   "chg5": 0.65,
-   "chg20": 1.8,
+   "price": 104.17,
+   "chg": -0.14,
+   "chg5": 0.66,
+   "chg20": 1.81,
    "sma20": 102.78,
    "sma50": 102.07,
    "sma200": 100.85,
    "high3m": 104.32,
-   "reg": 104.16,
+   "reg": 104.17,
    "pre": null,
    "post": null,
-   "regClose": 104.16,
+   "regClose": 104.17,
    "sess": "reg",
-   "mt": 1795515090,
+   "mt": 1795515714,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59882.35,
-   "chg": -2.17,
-   "chg5": -3.26,
-   "chg20": -25.52,
-   "sma20": 67487.08,
-   "sma50": 75640.45,
-   "sma200": 71596.14,
+   "price": 59758.78,
+   "chg": -2.37,
+   "chg5": -3.46,
+   "chg20": -25.68,
+   "sma20": 67480.9,
+   "sma50": 75637.98,
+   "sma200": 71595.47,
    "high3m": 86480.3,
-   "reg": 59882.35,
+   "reg": 59758.78,
    "pre": null,
    "post": null,
-   "regClose": 59882.35,
+   "regClose": 59758.78,
    "sess": "reg",
-   "mt": 1795515694,
+   "mt": 1795516316,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.52,
+   "price": 159.51,
    "chg": 0.37,
-   "chg5": -0.0,
+   "chg5": -0.01,
    "chg20": 1.26,
    "sma20": 158.72,
    "sma50": 158.07,
    "sma200": 159.25,
    "high3m": 160.2,
-   "reg": 159.52,
+   "reg": 159.51,
    "pre": null,
    "post": null,
-   "regClose": 159.52,
+   "regClose": 159.51,
    "sess": "reg",
-   "mt": 1795515697,
+   "mt": 1795516321,
    "ok": true
   },
   "KRW=X": {
-   "price": 1342.47,
-   "chg": -0.14,
-   "chg5": 0.51,
-   "chg20": 1.34,
-   "sma20": 1339.36,
+   "price": 1342.8,
+   "chg": -0.11,
+   "chg5": 0.53,
+   "chg20": 1.36,
+   "sma20": 1339.37,
    "sma50": 1344.34,
    "sma200": 1417.08,
    "high3m": 1384.86,
-   "reg": 1342.47,
+   "reg": 1342.8,
    "pre": null,
    "post": null,
-   "regClose": 1342.47,
+   "regClose": 1342.8,
    "sess": "reg",
-   "mt": 1795515691,
+   "mt": 1795516322,
    "ok": true
   },
   "^OVX": {
@@ -1091,54 +1091,54 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7225.25,
-   "chg": -0.4,
-   "chg5": -1.82,
-   "chg20": -6.87,
-   "sma20": 7476.8,
-   "sma50": 7648.58,
-   "sma200": 7610.74,
+   "price": 7226.25,
+   "chg": -0.39,
+   "chg5": -1.8,
+   "chg20": -6.86,
+   "sma20": 7476.85,
+   "sma50": 7648.6,
+   "sma200": 7610.75,
    "high3m": 7874.0,
-   "reg": 7225.25,
+   "reg": 7226.25,
    "pre": null,
    "post": null,
-   "regClose": 7225.25,
+   "regClose": 7226.25,
    "sess": "24h",
-   "mt": 1795515096,
+   "mt": 1795515724,
    "ok": true
   },
   "NQ=F": {
-   "price": 26533.75,
-   "chg": -1.02,
-   "chg5": -2.0,
+   "price": 26532.0,
+   "chg": -1.03,
+   "chg5": -2.01,
    "chg20": -11.0,
-   "sma20": 27713.5,
-   "sma50": 29296.63,
-   "sma200": 29433.75,
+   "sma20": 27713.41,
+   "sma50": 29296.59,
+   "sma200": 29433.73,
    "high3m": 31483.25,
-   "reg": 26533.75,
+   "reg": 26532.0,
    "pre": null,
    "post": null,
-   "regClose": 26533.75,
+   "regClose": 26532.0,
    "sess": "24h",
-   "mt": 1795515101,
+   "mt": 1795515724,
    "ok": true
   },
   "YM=F": {
-   "price": 49633.0,
-   "chg": -0.09,
-   "chg5": -2.33,
-   "chg20": -5.6,
-   "sma20": 51466.0,
-   "sma50": 51795.54,
-   "sma200": 52256.62,
+   "price": 49645.0,
+   "chg": -0.06,
+   "chg5": -2.3,
+   "chg20": -5.58,
+   "sma20": 51466.6,
+   "sma50": 51795.78,
+   "sma200": 52256.72,
    "high3m": 53745.0,
-   "reg": 49633.0,
+   "reg": 49645.0,
    "pre": null,
    "post": null,
-   "regClose": 49633.0,
+   "regClose": 49645.0,
    "sess": "24h",
-   "mt": 1795515095,
+   "mt": 1795515722,
    "ok": true
   },
   "GC=F": {
@@ -1155,58 +1155,58 @@
    "post": null,
    "regClose": 3620.7,
    "sess": "24h",
-   "mt": 1795515095,
+   "mt": 1795515721,
    "ok": true
   },
   "CL=F": {
-   "price": 79.96,
-   "chg": -0.26,
-   "chg5": -7.03,
-   "chg20": -19.96,
+   "price": 80.04,
+   "chg": -0.16,
+   "chg5": -6.94,
+   "chg20": -19.88,
    "sma20": 89.5,
    "sma50": 93.21,
    "sma200": 87.3,
    "high3m": 105.83,
-   "reg": 79.96,
+   "reg": 80.04,
    "pre": null,
    "post": null,
-   "regClose": 79.96,
+   "regClose": 80.04,
    "sess": "24h",
-   "mt": 1795515103,
+   "mt": 1795515723,
    "ok": true
   },
   "HG=F": {
-   "price": 5.54,
-   "chg": -1.53,
-   "chg5": -7.28,
-   "chg20": -16.32,
+   "price": 5.52,
+   "chg": -1.83,
+   "chg5": -7.56,
+   "chg20": -16.58,
    "sma20": 6.12,
    "sma50": 6.4,
    "sma200": 6.41,
    "high3m": 6.8,
-   "reg": 5.54,
+   "reg": 5.52,
    "pre": null,
    "post": null,
-   "regClose": 5.54,
+   "regClose": 5.52,
    "sess": "24h",
-   "mt": 1795515084,
+   "mt": 1795515722,
    "ok": true
   },
   "ZN=F": {
-   "price": 106.8,
-   "chg": 0.04,
-   "chg5": 1.12,
-   "chg20": 0.71,
+   "price": 106.81,
+   "chg": 0.06,
+   "chg5": 1.14,
+   "chg20": 0.72,
    "sma20": 106.32,
    "sma50": 105.64,
    "sma200": 107.61,
    "high3m": 108.58,
-   "reg": 106.8,
+   "reg": 106.81,
    "pre": null,
    "post": null,
-   "regClose": 106.8,
+   "regClose": 106.81,
    "sess": "24h",
-   "mt": 1795515077,
+   "mt": 1795515702,
    "ok": true
   },
   "EWY": {
@@ -1227,20 +1227,20 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 86.61,
-   "chg": -3.09,
-   "chg5": -7.01,
-   "chg20": -23.95,
+   "price": 86.7,
+   "chg": -2.99,
+   "chg5": -6.91,
+   "chg20": -23.87,
    "sma20": 97.7,
    "sma50": 102.58,
    "sma200": 93.77,
    "high3m": 117.64,
-   "reg": 86.61,
+   "reg": 86.7,
    "pre": null,
    "post": null,
-   "regClose": 86.61,
+   "regClose": 86.7,
    "sess": "24h",
-   "mt": 1795515095,
+   "mt": 1795515704,
    "ok": true
   }
  },
@@ -1264,7 +1264,7 @@
    },
    {
     "title": "Blackstone (BX) Exits PGP Glass In $1.7 Billion Deal - Simply Wall St",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPZTJFYnU3MmdfbXRvd1JSMlJMMnpYOThScVlfN0tPTDI1Y2tyamRtQ2tnbU5WaHRmMkNmaHNGWjVvbDVnX1ZtbmhKTUNFLWNkQlBxTG9BZXBtdnU3N1VQVWdFQ3pkcUc5MDZRUVdHZkU5TjYxTEJSNV9IWEF0aXlHczZLSklWcmEzTUV0MTFJM1o3MnJhcXB1d00xMktxRUtYM2RLbkV3Ml9HSHdyTkFvM1l4a0tidXN0VU8xXzZWeDc3WGEzU2NwS3B4SdIBywFBVV95cUxPZTJFYnU3MmdfbXRvd1JSMlJMMnpYOThScVlfN0tPTDI1Y2tyamRtQ2tnbU5WaHRmMkNmaHNGWjVvbDVnX1ZtbmhKTUNFLWNkQlBxTG9BZXBtdnU3N1VQVWdFQ3pkcUc5MDZRUVdHZkU5TjYxTEJSNV9IWEF0aXlHczZLSklWcmEzTUV0MTFJM1o3MnJhcXB1d00xMktxRUtYM2RLbkV3Ml9HSHdyTkFvM1l4a0tidXN0VU8xXzZWeDc3WGEzU2NwS3B4SQ?oc=5",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPQ1ZLRVdKUXFaMGIwaTJPM09VU1RBX1ZPdDVfTU1KVUFDcXc5b240cnhpUm5TLW5XckdxbkdTbTFxSTljMDJ0T25lNzAtajcwbUpPcE5DQjFycWstLVc4SVRBU3NJM2hyV2JfVFRJbmlDZmpYNHYtSk1MX2xBbThIUUQ1RmtTV2VwOEpwb0lKeGRQdlVfQXFIV0docjBEemU2VGdoMG9WUEMyVlpDVjRzcldNNWUybS04a091Mk5ub2tMWEU1MmfSAcsBQVVfeXFMT2UyRWJ1NzJnX210b3dSUjJSTDJ6WDk4UnFZXzdLT0wyNWNrcmpkbUNrZ21OVmh0ZjJDZmhzRlo1b2w1Z19WbW5oSk1DRS1jZEJQcUxvQWVwbXZ1NzdVUFVnRUN6ZHFHOTA2UVFXR2ZFOU42MUxCUjVfSFhBdGl5R3M2S0pJVnJhM01FdDExSTNaNzJyYXFwdXdNMTJLcUVLWDNkS25FdzJfR0h3ck5BbzNZeGtLYnVzdFVPMV82Vng3N1hhM1NjcEtweEk?oc=5",
     "pub": "Tue, 24 Nov 2026 09:11:33 GMT",
     "src": "Simply Wall St",
     "trig": false,
@@ -1287,15 +1287,23 @@
     "geo": false
    },
    {
-    "title": "Who Bears a Default in Tokenized Private Credit? - Phemex",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9pd2tVaVc5aHNFTnZhc2l4YzBzT3BQNGpmYTV5Rlk3eUh2YlptT2w0QTNzU3FzR3JPeWRrVk5UZ3E5U3U3eGxwMHZiYi1lV1NVQ0dvS3JkMGQyY0lJbmFyVGsyeFdhWmVKUjFscmdxbktOZnZXcDlHTWRBdXc?oc=5",
-    "pub": "Tue, 24 Nov 2026 08:32:34 GMT",
-    "src": "Phemex",
-    "trig": true,
+    "title": "AI Reshapes Financial Markets... Data Center PF Shrinks as Semiconductor Financing Reaches 490 Trillion Won [fn Market Watch] - 파이낸셜뉴스",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFAtUW9uTTllZjZiQ29ZaWZzaVppTlpNb2d3NWhCbzZ4SlJoUWIzOWVfcVhNUjRsa1pvYWRudmtTWHVOMF9paFlSWHk4emtJOFN3a1BWTlhpNWk?oc=5",
+    "pub": "Tue, 24 Nov 2026 07:55:57 GMT",
+    "src": "파이낸셜뉴스",
+    "trig": false,
     "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "JPMorgan Cuts Meta’s Target 17.6% to $775 on 2027 Spending - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQR2toNmlyREpVVnMtZzhZdUZ0VTN3NS1qOTlaWnluSEx4WkZkckpDeHZja2FOUFVMcnAwNEdpZmhKZVYybVBqd2hfX0FkTG00OGxzUktkVVROMEJSaDlVbEh6YS00cWFJcUlJR0dCbVlYQUhnOXBzeEVodWFlT1hwazdZQWd2bkhzY3B3?oc=5",
+    "pub": "Tue, 24 Nov 2026 10:23:47 GMT",
+    "src": "FourWeekMBA",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Sana Shaikh joins OpenAI as Global Ads Solutions (India) - Exchange4Media",
     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQSEZLQWtOR0NSQ2taWHl1VTQyOXczOXZpUnB1SjNyZ0JIbjZwVFU4R2VCZ0hTRTViNHVGSWFDLTZtR01ndjJJSWQ0VUlndUIxSmhFRXpHYk5MeEJTd1MtZVJFN0JlNmdkX0k5d0VIcVJGa2hiYTdLWUwwYUhKc0pyNjluQnIxQ3doeFZQRVl2a2hPVldiNm1sR2NTcGJlcHZBWk9aWVpJeW1oS2VELTVkREhXaGlQQy1VbXc?oc=5",
@@ -1335,14 +1343,6 @@
     "src": "ad-hoc-news.de",
     "trig": true,
     "geo": false
-   },
-   {
-    "title": "Oracle OpenAI deal funding: what Oracle announced - NeoTeo",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxObldGVFdvUFNZX1I4ZERJX0pYdk5HTGNNQTF4N3o1OVZudHk0c3phZGk3NGh6TVBoNFNZX2FOR3RNeWdOaUNpdjVTUVhJLVE4dko5cDNxNHJPNjZnWlBnTVNGOElYM3JlLWtNcjMzSFIycFA5ajhFdm1kdVlSX0FETmR4enFKaTQ?oc=5",
-    "pub": "Tue, 24 Nov 2026 08:20:10 GMT",
-    "src": "NeoTeo",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1355,10 +1355,10 @@
     "geo": false
    },
    {
-    "title": "AI’s Next Shortage Isn’t GPUs. It’s Patience. - Vocal",
-    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBZcEFuQUx1SGxPSjhiRXFOcUVQdFZEZmxWMEZPeWhYV3JMQkFFZVVfbFcyM09JVDVSRDUxb3Mxa2FOTXB0Y2UtVHdYY1ctMVowczcxQmRvWUhCcTRzencwSXlnRGRETERsUUtfcmJ5UG8?oc=5",
-    "pub": "Tue, 24 Nov 2026 08:45:44 GMT",
-    "src": "Vocal",
+    "title": "‘Oil Reserve Swap’ Amid the Middle East War ... A Buffer Against Price Shocks - 매일경제",
+    "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE16V05iQXc5WlRPY0FueHNMTG1DWnJtSXctdG94bG00QVRIYl9ycUdYUmRxbTVCMHRKd2JwR3NsSUtKUGZBZzlGUWdJVGNwMl8yMXc0?oc=5",
+    "pub": "Tue, 24 Nov 2026 08:33:28 GMT",
+    "src": "매일경제",
     "trig": false,
     "geo": false
    },
@@ -1387,20 +1387,20 @@
     "geo": false
    },
    {
-    "title": "Korean energy institute urges phased exit from oil price cap as government cautions - Chosunbiz",
-    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQX3BJSTRzTVJyTU8zVUlBcHRXZDZqYWlvdlJ6QjFHQVJYUlA4NHhrTlRwOER0Y2pYMFpqMnJGNlFON2dla1dDV1JDQjVicE5MWEp0cFl0eDd4RGtBTERPNk5kVTBqXzBmY0xWV2Z1Z2M0eTJPZThfcTBxaW4yaXFRWEJR0gGWAUFVX3lxTFBoSDBmcW5oN2lsTXltNUVIcGtNVm1UZVl6dElJLXlJZUVNaFF0cTFhNUNJSXhoc2YydWZTS21ZY2RXUzlkbThySnF0RHVpRVdMdTlJd3puUUNhcjk0YndTR3d3TjR1c0NSVHEwalVoSUJrMnlfNzhjZnFFSzh2QXZjTk9yclYxdmVyYW9nVDFRV0VUdmE4QQ?oc=5",
-    "pub": "Tue, 24 Nov 2026 05:34:00 GMT",
-    "src": "Chosunbiz",
+    "title": "Geopolitics – Escalation Is the Base Case Now for Russia and the Gulf - Kyiv Post",
+    "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBfSktvVDdnRkhUZ1BrSGJLejJWeklpQ2o4SUVxbVhpVnJRV0NncnZ5ZkU5Z1l5YktkNjI4TFQwU1YtUW1BMi1RSTBFRQ?oc=5",
+    "pub": "Tue, 24 Nov 2026 06:16:19 GMT",
+    "src": "Kyiv Post",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Equinor Locks In Longest Gas Supply Deal in 40 Years - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPTEI4QlBVeVhwV3dveWxNSE9RTURBSTY5QTRkVVgza2FTQWd0eDYwekh6QS10VDlGMUlfbTg3OVVvMGl3WjN3TEg5MWxmRnF0UUlhbU9QdHdtWDBIb09yZzAxLVQwTGM2a1BIWDJsQXRCMUFIeXRub3BuSmdPSkFMMmp6eXhOWE4xcTY3MUNXbFlFdnFZVFlRWTN2UUM1UmhFTUotWjJNdUx4NWoy0gGyAUFVX3lxTE1LbzEzVXhBM055dFlHQ04ySzJnU3dTanBoYVZUSHFmV2xFQU9Oa3BsbXJkYkNfMjU1RHVoRGptZUZheTY2YkxEWG1KM1hxQVRXYXVHbkRLRXZRLW9ILUFRX0pieEJLSFZudGpxb0tvbmhqUl9ZSUNKaWFqVmxVX25fclJ0TFU0SHJ4bzJucno1c1MzZFZtOHZTYWhCZVotNThucVZ3MUdfay1VTWlWQkFua2c?oc=5",
-    "pub": "Tue, 24 Nov 2026 09:25:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Gold News: Rebound Fades as Strong Dollar and Fed Hike Expectations Weigh - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNN0Fkc2lDckdYbkRTWENRWnF4aFE3MFdqV3hEcVdzYlBiN25ST1FPemdMUmtmWHBHZmp3M3Utdl9uTmF6MVJBemZZWFd6ckRydmQtRUJqamYzVjExWU52eXVBVXUwclZPOXpqSjk3bUNneUNIa3ZUWlZ0RndUeHBlNDgwSmJZaEtWdWQyTDc4WjY1LUFsRUtabzVlRHBmZ2tOMlZzVXp5SEdTeXhxSE9mOUszVEp2bUNybC1Mc21oRlM?oc=5",
+    "pub": "Tue, 24 Nov 2026 10:19:21 GMT",
+    "src": "FXEmpire",
     "trig": false,
     "geo": false
    },
@@ -1413,18 +1413,18 @@
     "geo": false
    },
    {
-    "title": "The commodities feed: Oil extends losses while copper gives back Nvidia bounce - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1ZTenlfMFF6RmtvWXZSQ3lBeEN4TkZYTnVYMVB6N1d4bkhXM1NZWDBTSmp0TzVYS2xQMDJvUkRPdWMwM3NTS0dKNGo1NlRvVlZTeEtjTDVUVnNCVnBqRkZmeDBTTFQzUk96cno2UXNfVWYyZzNycTllWm93LXBnWUlUVVk3N09ZcTlXelpQeHRaU1JPYVhTVmNnX1FUNng3TzUzWWNKUm1KVlZVLThKNFE1T1p2YjVjWkxKc0txTGJuZw?oc=5",
-    "pub": "Tue, 24 Nov 2026 08:40:05 GMT",
-    "src": "FXStreet",
+    "title": "Copper prices reverse sharply increase after Nvidia reappoints Mr. Jensen Huang - Laodong.vn",
+    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeFZlOFNvUGZnYTA0eS1wUUpHdFBlWE5XR3ZHLUZIOTZjMEZneGJuU09IajF0WUNwdEpRTTlhY3N5ZWh5bGo3aFVMLXgxd04zRnF6VE9GU0FONnZhY3pHRjRiY2Q4cFF2Z1NwQ0FsN0RvdmVMVHp1OGE1QlZpbGE0Qk9CMFotNmNVeU5ha1BfY1IxRVVhNlhUY2Fhb1E1ZEZtNDJxR3BqMFZvbXRLcDliNGJsZURGeTdVcFAzOUkyVjhQZlcx?oc=5",
+    "pub": "Tue, 24 Nov 2026 09:00:12 GMT",
+    "src": "Laodong.vn",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Crude Oil Outlook Turns Bearish as Markets Price In the 2027 Supply Glut - FXEmpire",
-    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPQk1iLThCd09vNjJEdS1aVzV2RHhLNG1MQzc0Z0Z5QU9nSFNhTi10Ym9feGc1ODFQbE4zcW1YVk5QSngtMGU4ZUJnRTlXbkNnVWY3NWdCWTB5MVdJS0hoZ3hyaXQ3blBJbGJxS1JsMmJTMm5USGxvN3A3NDZXeHhWcHR2b21lcHBlRFgyWkJmM2QzSXhNX1c1UHd0Z3ZZbEo4dFBuMTN0M2ZaMkpEMmxUeGF5UTBYWHIzVXBOZnQxVms?oc=5",
-    "pub": "Tue, 24 Nov 2026 08:08:53 GMT",
-    "src": "FXEmpire",
+    "title": "The commodities feed: Oil extends losses while copper gives back Nvidia bounce - FXStreet",
+    "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOT1ZTenlfMFF6RmtvWXZSQ3lBeEN4TkZYTnVYMVB6N1d4bkhXM1NZWDBTSmp0TzVYS2xQMDJvUkRPdWMwM3NTS0dKNGo1NlRvVlZTeEtjTDVUVnNCVnBqRkZmeDBTTFQzUk96cno2UXNfVWYyZzNycTllWm93LXBnWUlUVVk3N09ZcTlXelpQeHRaU1JPYVhTVmNnX1FUNng3TzUzWWNKUm1KVlZVLThKNFE1T1p2YjVjWkxKc0txTGJuZw?oc=5",
+    "pub": "Tue, 24 Nov 2026 08:40:05 GMT",
+    "src": "FXStreet",
     "trig": false,
     "geo": false
    },
@@ -1437,10 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Crude Oil Price Outlook, 24 Nov 2026: Futures Slide on Supply — CMB News - CMB News",
-    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUWs4U0w0RUR1dllGeS1ZVG81QmxXQ2h2TUROcUMwNEhVbldlQi1kS1pZUHViZHpWaUl0ZkZVNDJveDNrNVBvWU5Ga2FlTEcwNzNJZzcwWUxveFNaY2E4dUc2elpRamhzMTNITlZGNWJpbHhJTUFEeldNc0lBS2xveGZiNC12ZTFmMllqT0U3UzRCejRQeVpjR1JR?oc=5",
-    "pub": "Tue, 24 Nov 2026 07:37:35 GMT",
-    "src": "CMB News",
+    "title": "Oil Price Forecast: WTI and Brent Slide as Oil Supplies Increase - FXEmpire",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPN1ROQVQ0cGtFTkNoYXRjV1RfbHVZN0I1QjJ0MG9PdUNkejJXWDlEaHRsS0FVZW5aemVyaEZMbUw1ejlzZlpnbkZZNzlkMzNCbV9WSW5CTTFxU2FURkNsRHA0NVdhRE1aTkZTOEFyRVV6U0R3SXdCZEcyVVpFQTdIbTFVTHQzc0ZpYTNBN1VHeXJoQkJ4azB4NjJ6VDNWX1FaWnN6U2FkYk41VFRCZTIxQjFOVzg?oc=5",
+    "pub": "Tue, 24 Nov 2026 07:28:52 GMT",
+    "src": "FXEmpire",
     "trig": false,
     "geo": false
    }
@@ -1600,7 +1600,7 @@
    17.52,
    20.83,
    19.46,
-   27.82
+   27.6
   ],
   "tnx": [
    4.7,
@@ -1630,7 +1630,7 @@
    102.32,
    101.87,
    102.23,
-   104.15
+   104.18
   ],
   "bizd": [
    13.44,
@@ -1675,7 +1675,7 @@
    157.53,
    157.91,
    157.98,
-   159.52
+   159.51
   ],
   "uso": [
    132.21,
@@ -1735,7 +1735,7 @@
    80805.08,
    77345.05,
    73720.12,
-   59896.11
+   59786.6
   ],
   "vixts": [
    0.854,
@@ -1750,7 +1750,7 @@
    0.895,
    0.979,
    0.943,
-   1.091
+   1.082
   ],
   "hyoas": [
    2.75,
@@ -1954,10 +1954,10 @@
     "real": 2.77,
     "real_chg1": -0.11,
     "real_band": "위험",
-    "vix": 27.82,
-    "vix_chg1": 4.51,
+    "vix": 27.6,
+    "vix_chg1": 3.68,
     "vix_band": "위험",
-    "vixts": 1.09,
+    "vixts": 1.08,
     "move": 100.91,
     "move_chg1": -5.08,
     "move_band": "주의",
@@ -2827,7 +2827,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-24T10:21:56+00:00",
+  "checked": "2026-11-24T10:32:19+00:00",
   "openai": {
    "found": false
   },
@@ -2937,24 +2937,24 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 86.61,
-   "brent_chg20": -23.95,
+   "brent": 86.7,
+   "brent_chg20": -23.87,
    "ovx": 49.19,
    "hit": false,
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.52,
+   "usdjpy": 159.51,
    "usdjpy_chg20": 1.26,
-   "vix_chg5": 9.27,
+   "vix_chg5": 8.41,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 104.16,
-   "dxy_chg20": 1.8,
-   "usdkrw": 1342.47,
-   "usdkrw_chg20": 1.34,
+   "dxy": 104.17,
+   "dxy_chg20": 1.81,
+   "usdkrw": 1342.8,
+   "usdkrw_chg20": 1.36,
    "hit": false,
    "missing": []
   },

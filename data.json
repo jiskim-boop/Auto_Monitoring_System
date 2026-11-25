@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T10:22:19+00:00",
+ "updated": "2026-11-25T10:32:46+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -768,20 +768,20 @@
    "ok": true
   },
   "^VIX": {
-   "price": 29.02,
-   "chg": 10.09,
-   "chg5": 18.16,
-   "chg20": 71.61,
+   "price": 29.14,
+   "chg": 10.55,
+   "chg5": 18.65,
+   "chg20": 72.32,
    "sma20": 23.16,
    "sma50": 19.04,
    "sma200": 17.56,
    "high3m": 35.89,
-   "reg": 29.02,
+   "reg": 29.14,
    "pre": null,
    "post": null,
-   "regClose": 29.02,
+   "regClose": 29.14,
    "sess": "reg",
-   "mt": 1795601191,
+   "mt": 1795601821,
    "ok": true
   },
   "^VIX3M": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 104.01,
-   "chg": 0.19,
-   "chg5": 0.14,
-   "chg20": 1.78,
+   "price": 104.02,
+   "chg": 0.2,
+   "chg5": 0.15,
+   "chg20": 1.79,
    "sma20": 102.85,
    "sma50": 102.14,
    "sma200": 100.87,
    "high3m": 104.32,
-   "reg": 104.01,
+   "reg": 104.02,
    "pre": null,
    "post": null,
-   "regClose": 104.01,
+   "regClose": 104.02,
    "sess": "reg",
-   "mt": 1795601497,
+   "mt": 1795602131,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 58903.82,
+   "price": 58906.73,
    "chg": -1.41,
    "chg5": 0.18,
-   "chg20": -22.44,
-   "sma20": 66628.43,
-   "sma50": 75104.68,
-   "sma200": 71497.69,
+   "chg20": -22.43,
+   "sma20": 66628.58,
+   "sma50": 75104.74,
+   "sma200": 71497.71,
    "high3m": 86480.3,
-   "reg": 58903.82,
+   "reg": 58906.73,
    "pre": null,
    "post": null,
-   "regClose": 58903.82,
+   "regClose": 58906.73,
    "sess": "reg",
-   "mt": 1795602101,
+   "mt": 1795602732,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.34,
-   "chg": 0.21,
-   "chg5": -0.1,
-   "chg20": 0.85,
-   "sma20": 158.77,
+   "price": 159.28,
+   "chg": 0.17,
+   "chg5": -0.14,
+   "chg20": 0.82,
+   "sma20": 158.76,
    "sma50": 158.14,
    "sma200": 159.25,
    "high3m": 160.2,
-   "reg": 159.34,
+   "reg": 159.28,
    "pre": null,
    "post": null,
-   "regClose": 159.34,
+   "regClose": 159.29,
    "sess": "reg",
-   "mt": 1795602107,
+   "mt": 1795602738,
    "ok": true
   },
   "KRW=X": {
@@ -1091,88 +1091,88 @@
    "ok": true
   },
   "ES=F": {
-   "price": 7114.5,
-   "chg": -1.43,
-   "chg5": -3.08,
-   "chg20": -8.59,
-   "sma20": 7442.98,
-   "sma50": 7639.59,
-   "sma200": 7606.83,
+   "price": 7112.5,
+   "chg": -1.45,
+   "chg5": -3.11,
+   "chg20": -8.62,
+   "sma20": 7442.88,
+   "sma50": 7639.55,
+   "sma200": 7606.82,
    "high3m": 7874.0,
-   "reg": 7114.5,
+   "reg": 7112.5,
    "pre": null,
    "post": null,
-   "regClose": 7114.5,
+   "regClose": 7112.5,
    "sess": "24h",
-   "mt": 1795601506,
+   "mt": 1795602141,
    "ok": true
   },
   "NQ=F": {
-   "price": 25643.5,
-   "chg": -2.41,
-   "chg5": -5.68,
-   "chg20": -14.46,
-   "sma20": 27483.8,
-   "sma50": 29225.07,
-   "sma200": 29402.37,
+   "price": 25634.0,
+   "chg": -2.44,
+   "chg5": -5.71,
+   "chg20": -14.49,
+   "sma20": 27483.33,
+   "sma50": 29224.88,
+   "sma200": 29402.29,
    "high3m": 31483.25,
-   "reg": 25643.5,
+   "reg": 25634.0,
    "pre": null,
    "post": null,
-   "regClose": 25643.5,
+   "regClose": 25634.0,
    "sess": "24h",
-   "mt": 1795601509,
+   "mt": 1795602139,
    "ok": true
   },
   "YM=F": {
-   "price": 49650.0,
-   "chg": -0.82,
-   "chg5": -1.24,
-   "chg20": -5.78,
-   "sma20": 51335.1,
-   "sma50": 51766.96,
-   "sma200": 52239.74,
+   "price": 49668.0,
+   "chg": -0.79,
+   "chg5": -1.2,
+   "chg20": -5.75,
+   "sma20": 51336.0,
+   "sma50": 51767.32,
+   "sma200": 52239.88,
    "high3m": 53745.0,
-   "reg": 49650.0,
+   "reg": 49668.0,
    "pre": null,
    "post": null,
-   "regClose": 49650.0,
+   "regClose": 49668.0,
    "sess": "24h",
-   "mt": 1795601509,
+   "mt": 1795602140,
    "ok": true
   },
   "GC=F": {
-   "price": 3562.6,
-   "chg": 0.02,
-   "chg5": -4.79,
-   "chg20": -12.07,
-   "sma20": 3872.72,
-   "sma50": 4064.94,
-   "sma200": 4208.52,
+   "price": 3557.7,
+   "chg": -0.12,
+   "chg5": -4.92,
+   "chg20": -12.19,
+   "sma20": 3872.47,
+   "sma50": 4064.84,
+   "sma200": 4208.48,
    "high3m": 4539.9,
-   "reg": 3562.6,
+   "reg": 3557.7,
    "pre": null,
    "post": null,
-   "regClose": 3562.6,
+   "regClose": 3557.7,
    "sess": "24h",
-   "mt": 1795601511,
+   "mt": 1795602133,
    "ok": true
   },
   "CL=F": {
-   "price": 81.75,
-   "chg": -0.37,
-   "chg5": -1.81,
-   "chg20": -20.46,
+   "price": 81.81,
+   "chg": -0.29,
+   "chg5": -1.74,
+   "chg20": -20.4,
    "sma20": 88.55,
    "sma50": 92.84,
    "sma200": 87.27,
    "high3m": 105.83,
-   "reg": 81.75,
+   "reg": 81.81,
    "pre": null,
    "post": null,
-   "regClose": 81.75,
+   "regClose": 81.81,
    "sess": "24h",
-   "mt": 1795601508,
+   "mt": 1795602142,
    "ok": true
   },
   "HG=F": {
@@ -1189,7 +1189,7 @@
    "post": null,
    "regClose": 5.41,
    "sess": "24h",
-   "mt": 1795601510,
+   "mt": 1795602061,
    "ok": true
   },
   "ZN=F": {
@@ -1206,7 +1206,7 @@
    "post": null,
    "regClose": 107.05,
    "sess": "24h",
-   "mt": 1795601510,
+   "mt": 1795602116,
    "ok": true
   },
   "EWY": {
@@ -1227,20 +1227,20 @@
    "ok": true
   },
   "BZ=F": {
-   "price": 88.47,
-   "chg": -3.21,
-   "chg5": -3.78,
-   "chg20": -23.28,
-   "sma20": 96.6,
+   "price": 88.4,
+   "chg": -3.28,
+   "chg5": -3.86,
+   "chg20": -23.34,
+   "sma20": 96.59,
    "sma50": 102.33,
-   "sma200": 93.77,
+   "sma200": 93.76,
    "high3m": 117.64,
-   "reg": 88.47,
+   "reg": 88.4,
    "pre": null,
    "post": null,
-   "regClose": 88.47,
+   "regClose": 88.4,
    "sess": "24h",
-   "mt": 1795601508,
+   "mt": 1795602088,
    "ok": true
   }
  },
@@ -1363,14 +1363,6 @@
     "geo": false
    },
    {
-    "title": "Philippines declares national energy emergency as Asia risks energy crisis amid Iran war - ABC News - Breaking News, Latest News and Videos",
-    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeE1ldVFZSXdBWWRGcDlTNDdpaEE0aFNicTNidEJrLWlycTQ4NDlqdzFhdXk2cl9XWXRxdExqWFhtcDgzNzdNMTljVmVCQ28zQjhIM1hzUXd5TllON2dEaGZYTm8xSUNtT0xQUm5fOVQzX19RT1E5b3FYVmpXejZWYkFnenVmMllSOVAxNk8xMFRSUXgwblJ6TFdkUXgxbzU3ZFQ2cnNxXzVZeVVhY1VkUzdB0gG3AUFVX3lxTE5mSTJ3M2xnS2g1Nm80TzZ4WGtla3RQSWkzdjRXRXNacWtJQUZvSTdRbXltSy15ZW51cGhzTnBVRXZ0X0JMT1h3Y0ZBOWZrNlZHWGszR3RmVGxRTGFNaUdIMzJpSWRYM3pFY1U3aEtlYnlubVJtZTFyWDRHdExfYnlySWFibktCN2ZPTjROSjgtVnB0Ymk2UkxIdHJkTEVuQWxEM0NMMzBKXzI3dmE4ZENUdllMakRXSQ?oc=5",
-    "pub": "Wed, 25 Nov 2026 09:01:21 GMT",
-    "src": "ABC News - Breaking News, Latest News and Videos",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Russia Oil Loses Price Edge in India as Middle East Exports Rise - Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNzdXYmE0NGZzd09KVzNZUF80ejhQSDFrMEcxSENUVzZNdG1HUU8wdXZUVGowVkhhZEJuZHJGb1p3UDliNnBYdmFnWDNBbFFDbnMwWllRa0lMc1Z4clctTVFJazg1Y0lWOERlRmo4SGEtSkw0andCbVlUUmVhdzZ2VGNkQUg4YXFsRVRrRzV4eW5XUzhGWkRXd09Ua01MczlDRFo0c1VDYTlBNmJFWnl1OUY3X3JBUQ?oc=5",
     "pub": "Wed, 25 Nov 2026 08:19:06 GMT",
@@ -1393,30 +1385,46 @@
     "src": "헤럴드경제",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "How The Iran War Turned Russia Into India's And China's Biggest Oil Bet - Outlook India",
+    "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQR1VTYWhjSlNkSEM2Mnh1WFFleGxZcnh6RTBPYUdfREdqb1hOX29VZmpEQWRoa2RqcnI3RDBidWtLRy1VU19vYnpJbTA1WWQzeGl1eUFDX3VzVEFiTWotakM1d0ZEbUVNalA3bVlkUGxFTG9rLWFkd3U1ci1DQU5vX196U2piMGVoUEt6UjF4SXFCWkIxNHBOb05KNTRkcTU3dnN0V1pidWdkZklMNEc1dFJKbjh0eU9TQjVieHdBMVhFTW9DYTVKOW1JOTVPOE1hQ2ptbFJXMHFHRmRwTEVnV1JBQVVqd2dqY0HSAfcBQVVfeXFMTkdkQTF3SzI3ZEpKZ3BKaW9sazNuOXRxVWxTSUdCUHAyYWxJTXdhWFU3dks3VDNrYlFBMG43T25vdWpSYWFRYm5uUVo3dDBuQmtubzJFTVY0VjdXR3E1T0ZaVkFhOHBMWkM5emF2YjVQXzE4QVYtNldDSm02SVhUTkhOaGY4aVREaUdDM3BoNUhGSWtJR2NyenJpaGcwblNDdTNxX0UxcWtjTjVsSDBlTV9qem9QVi1sRk42RGpuS0ZBYjZ2OGtEemUtaGs2TXIzREc0ZTlURXcwbmlGZlFDakF0SE1EYUhVVVR5cllYWEdqc2J6NHZvRQ?oc=5",
+    "pub": "Wed, 25 Nov 2026 05:33:19 GMT",
+    "src": "Outlook India",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
+   {
+    "title": "How a base-metal rally lifted Ero Copper Corp. (TSX:ERO), which climbed on the S&P/TSX Composite as copper rose (23 Nov 2026) - kalkine.ca",
+    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOTUlwOFgwb3MwV3FUeDIyc1lfLUlYcDcyMFVGekJrTXhhYXpHSV80QktleXV2T09YbzJCWEp2a25vR1NNWWo1X2t5MUtna28zRTU4Q1ZxNkJnUnZ5SW9ReGxURFJPVjkxUlJRcEw4dlJjYkZNbnNiUWtybGQ4UGdUYXAtcmFMa0FiN0RESjFzWjMyYXJYSTM1WmFFRDloVmRjS0xPSWxVREZlRFBPbjFsd1gxa295OEZPaFNwa1hmNnk5NkFSSEVieGxBbEx3dFNPbUw4WFYzMnU5RndRZ1NfRw?oc=5",
+    "pub": "Wed, 25 Nov 2026 09:34:00 GMT",
+    "src": "kalkine.ca",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Why Capstone Copper Corp. (TSX:CS) surged on the S&P/TSX Composite: copper's rebound powered base-metal miners higher (23 Nov 2026) - kalkine.ca",
+    "link": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQR1VTNWt0bmhGSU9jNnh2ZDZsZ2N4WXlsYVpXd1NvbGFKanZyZUFxeEIxN3lmZ2k3bTNUa2ZtZjBvVGFjMnFJVndWRVM0OE5mdng2d3BBcTF1THVKOFBPSHhieklScS1wT3lQdW9EUmlBNXc2SnN4VHhEOThIVkg5TXJtWmZMRElNb2hsVGJIaFFuTnNENmJVbVJ5YllPNS0tdDVvb2RFSmdqTlI5NlhPZHJzME9mYnpFX2ZmMlM5eG1waFpudkctR25zUDdBa2tFZjJiWDVoVGNqZ0R2c1p0RVR5azRmRTQ?oc=5",
+    "pub": "Wed, 25 Nov 2026 09:33:00 GMT",
+    "src": "kalkine.ca",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Will copper price maintain sideways trend amid seller dominance and weak momentum? - Traders Union",
+    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTHdOdzhrTDk1d2VMTTJrZnM0amZELXFnUXVhdkZoWEZUcS1oak9zZS1BbDJxNERvdkZLd08tS3JlM3Zyc3VsaC1VMF96c2E0dHJHM1BYbkZ6QWJybzR1OWIyZmx2bEp0ZTFsa2VZQUhTYjdkZG1uWlN6bG9laW9tS0RTNDBRcVBEN3VQbHo5akMwZXM?oc=5",
+    "pub": "Wed, 25 Nov 2026 09:24:22 GMT",
+    "src": "Traders Union",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "US Dollar Index Price Forecast: Struggles to extend rally beyond 61.8% Fibo retracement at 104.65 - FXStreet",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQQ1FpVk56VjV3M1A0ellGV1BCZTlfU2xfd2ZEMVNQZGlBbGVWVEVpUkVJQXhFd1NFenIxc3FNMWpBaWNDM21rV0dvZ0lieUpkWXphTHh6eUJ4VGpIcVE3RjlSRmk2QXdPMGpYNGowRUloU2hCT0xjN2dEYmd5bXRkT1FOTms4bndyS0dIRTlWQ3k1Zmd4M2VkX3ZrOEF0YmxtTk9UdjNObG1MY2lOMjk0TzdPY1dzNkRoc2Y3SVEyMlB0UjFOVFJlRzRkMTdPOUcxcnc?oc=5",
     "pub": "Wed, 25 Nov 2026 09:02:30 GMT",
     "src": "FXStreet",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Global LNG Supply Crunch Set to Spill Into 2027 - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcDN4VFpWcVVVT2pvX0plMUlYa0tBZkhsaTVCenF1ZHRKcEFDajBNYmw2TDVOa0owd2toUkdFUTlELXUxcVFsb1VHanJfV2tVSlRDbGZVS3EzZnp3ZlhzOHhpWXJDaEJCTzBiSm1MU3ZJVEVNRzJMcU5HWF9UbUN0OFJDTlY4ei1Ia3RQX2s3OFJOeVhDS3lOWmIyQXBTbnR5TUZjdEZn0gGrAUFVX3lxTE9yVUwyNzVMUUk4WGZEbm5pYXZGU0lSUDEtRmVsZW5jZGZYY0daZDN4NGR3bV94b2t1NmM0QlprX2pmR2V0UUhxYWdhU0lyMVNOSjhaQXZUT200eWlnaEEwQUxscUIyQ21jdTFoNm1xdVhVSEgwWnlsWm83ZHZLQmdNVXhHMGJLQTd1cTE0SjNjUWpmWFMzQ3dESzhRWUEtd040dElPZUNPa0dfRQ?oc=5",
-    "pub": "Wed, 25 Nov 2026 08:30:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Three-quarters of large oil tankers now transporting crude amid high earnings - Crypto Briefing",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWTQ0dlBJdzRwUHFfSVFXUlZMV0tDWHN0SEJWamoyekk2NmY3bTNWeUJNYUloM1Bac3ByY3RnRF9YVXRueXRCWGo4M241VkNubUlONk9sX3JGLWFNVW8wb2FGWHM5MDZkZkRmSFZDTjVoSDlUOVBQRGtCN2xwaWRiM1MzS2dpWWdTbUVtN0VUYVV5T3FseDhJZlNDUTN0c1JNMkswakpIQ3Y?oc=5",
-    "pub": "Wed, 25 Nov 2026 08:24:11 GMT",
-    "src": "Crypto Briefing",
     "trig": false,
     "geo": false
    },
@@ -1429,18 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Crude Oil Prices WTI & Brent, 25 Nov 2026: Rebound but Soft Balance — CMB News - CMB News",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdUZOcF9FMlpxbXNuR0xYZlFJNmlXSkYxWW5Yd05aMlVLekNRTEhrTXp0NEFLbFdvQzBiYllBaDZCWXl5LVFfelJ1NUs2eFJWQnVhSmVQdWFiV3BPYVVMT3RlZXhWQ2p2YW96ckNLTm8xMjdZQlNlUFNncVpnbnZyMm1SUnBqYjFZZHd4Yk5WRGQ?oc=5",
-    "pub": "Wed, 25 Nov 2026 07:37:09 GMT",
-    "src": "CMB News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "$40: A level whose breakdown could expose Silver price below $37 - FXStreet",
-    "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNXg3REF1clNtclJjYUpRZkd2UFBZenFtQktxTkVqSmR0SE1tbms0Z3YxcG9uV3BkZFUyaXJvVk9oQU10bmJEbzloa2NGeXJObkFzNkpsLVlKYzJHUVB2MEhOajhjQXBUM3FPOGsyUFFnVXpKVkZyTVZ5TmdiOU1fYXV0ZHBxTTZ0TUlkeU4waUkzUllJdmlXYmlZdUhTMHZuaDFZek8tYw?oc=5",
-    "pub": "Wed, 25 Nov 2026 07:31:41 GMT",
-    "src": "FXStreet",
+    "title": "Tieramet Limited sees Q3 revenue below ₹1,000 crore as copper falls - Multibagg AI",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNLVpyRTJKWmxBUFBRMXhBVW9Ec3M0M0VrMFpwUG5BQm80NGRQUzBOZy0zZGN3Mks1VGZjeWNqRzJNOEE0clM5bGlmTDdrbzdYa0tXTmhjci1DUzk2ZnlxeC1CQ3hkZnZER21oSzJQTkxfM1pYZC1TVmE2TTRZODJPUnFRTFBlZ2NURnYtZFpQYkNNcVdBUWVyVWhqWFRjWDRwMGFjRkFfZVoweU9iQzFIRFVEdDc?oc=5",
+    "pub": "Wed, 25 Nov 2026 07:49:10 GMT",
+    "src": "Multibagg AI",
     "trig": false,
     "geo": false
    }
@@ -1600,7 +1600,7 @@
    16.91,
    16.61,
    17.49,
-   29.04
+   29.11
   ],
   "tnx": [
    4.7,
@@ -1675,7 +1675,7 @@
    157.99,
    158.47,
    158.71,
-   159.33
+   159.28
   ],
   "uso": [
    126.15,
@@ -1735,7 +1735,7 @@
    81267.59,
    80405.29,
    73964.47,
-   58886.12
+   58890.69
   ],
   "vixts": [
    0.848,
@@ -1750,7 +1750,7 @@
    0.88,
    0.884,
    0.909,
-   1.14
+   1.143
   ],
   "hyoas": [
    2.78,
@@ -1951,8 +1951,8 @@
     "real": 2.79,
     "real_chg1": 0.02,
     "real_band": "위험",
-    "vix": 29.02,
-    "vix_chg1": 10.09,
+    "vix": 29.14,
+    "vix_chg1": 10.55,
     "vix_band": "위험",
     "vixts": 1.14,
     "move": 98.84,
@@ -2823,7 +2823,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-25T10:22:04+00:00",
+  "checked": "2026-11-25T10:32:34+00:00",
   "openai": {
    "found": false
   },
@@ -2933,22 +2933,22 @@
    "real": "Sahm ≥0.5 (신규실업 4주평균은 참고)"
   },
   "energy": {
-   "brent": 88.47,
-   "brent_chg20": -23.28,
+   "brent": 88.4,
+   "brent_chg20": -23.34,
    "ovx": 49.39,
    "hit": false,
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.34,
-   "usdjpy_chg20": 0.85,
-   "vix_chg5": 18.16,
+   "usdjpy": 159.28,
+   "usdjpy_chg20": 0.82,
+   "vix_chg5": 18.65,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 104.01,
-   "dxy_chg20": 1.78,
+   "dxy": 104.02,
+   "dxy_chg20": 1.79,
    "usdkrw": 1343.0,
    "usdkrw_chg20": 1.22,
    "hit": false,

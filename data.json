@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-25T22:42:12+00:00",
+ "updated": "2026-11-25T22:52:16+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -854,10 +854,10 @@
   },
   "DX-Y.NYB": {
    "price": 103.69,
-   "chg": -0.12,
+   "chg": -0.11,
    "chg5": -0.16,
    "chg20": 1.47,
-   "sma20": 102.83,
+   "sma20": 102.84,
    "sma50": 102.13,
    "sma200": 100.87,
    "high3m": 104.32,
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 103.69,
    "sess": "reg",
-   "mt": 1795645891,
+   "mt": 1795646496,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60142.67,
-   "chg": 0.66,
-   "chg5": 2.29,
-   "chg20": -20.8,
-   "sma20": 66690.38,
-   "sma50": 75129.46,
-   "sma200": 71504.39,
+   "price": 60102.13,
+   "chg": 0.59,
+   "chg5": 2.22,
+   "chg20": -20.86,
+   "sma20": 66688.35,
+   "sma50": 75128.65,
+   "sma200": 71504.17,
    "high3m": 86480.3,
-   "reg": 60142.67,
+   "reg": 60102.13,
    "pre": null,
    "post": null,
-   "regClose": 60142.67,
+   "regClose": 60102.13,
    "sess": "reg",
-   "mt": 1795646494,
+   "mt": 1795647099,
    "ok": true
   },
   "USO": {
@@ -1053,24 +1053,24 @@
    "post": null,
    "regClose": 159.1,
    "sess": "reg",
-   "mt": 1795646498,
+   "mt": 1795647101,
    "ok": true
   },
   "KRW=X": {
-   "price": 1343.6,
-   "chg": 0.19,
-   "chg5": 0.79,
-   "chg20": 1.27,
-   "sma20": 1340.13,
-   "sma50": 1343.91,
+   "price": 1343.16,
+   "chg": 0.16,
+   "chg5": 0.76,
+   "chg20": 1.23,
+   "sma20": 1340.1,
+   "sma50": 1343.9,
    "sma200": 1416.51,
    "high3m": 1384.86,
-   "reg": 1343.6,
+   "reg": 1343.16,
    "pre": null,
    "post": null,
-   "regClose": 1343.6,
+   "regClose": 1343.16,
    "sess": "reg",
-   "mt": 1795646443,
+   "mt": 1795647097,
    "ok": true
   },
   "^OVX": {
@@ -1177,9 +1177,9 @@
   },
   "HG=F": {
    "price": 5.48,
-   "chg": 2.23,
-   "chg5": -3.14,
-   "chg20": -17.46,
+   "chg": 2.22,
+   "chg5": -3.15,
+   "chg20": -17.47,
    "sma20": 6.06,
    "sma50": 6.37,
    "sma200": 6.4,
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Compass Delays $380 Million ABS After Data Center Outage - Bloomberg",
+    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNak51OWx3VkJ4V2NoMU12QTBXYXIzN0ZXRWEzWHoxY244aEdyUmtUTzFYaGZvUU9icEQtYlNMX2lHYnV6R19JakpnRExkaElFODBGeEpGbWtXcjU1bnVXbTFNSlFMa19KZU9rR1ZHU1JvS0cyMHlzQXNXaXV3MUhUQk9jVUE3YUJPSFJxNk1RelJtTjhHdXV3Rl81enlIXzNxdzZDYjJ0Y3JOUQ?oc=5",
+    "pub": "Wed, 25 Nov 2026 22:27:09 GMT",
+    "src": "Bloomberg",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave’s Bankers Reportedly Ready $4.5B GPU-Backed Loan Tied To Meta Deal - TradingView",
     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQbTVZd3RKTHBTTjY2cEdveHVHY1AwUFBybDJOZnI0emNNbGNiOXZZUjRUUHZWd3hYZDF6ZFUyWEdpMXFtczlXUzNlLVFzbER1czFwSS0zOVR3RG9QdU1tckZWVHJmT1FLTmF1dWdtejBUT0V5Y0V4X25kZ3cxb3ZCLVY2R2lNZ3dNVHlmTzJJTW03WEZwLUt6RXBvUzk0VGRGYVZ3LXpLV3YwWDh5RzU3Wld1MTM0QmNoUjQ4VXBkbTlXaEpkMFhhYlotMVFRRExJVHc?oc=5",
     "pub": "Wed, 25 Nov 2026 21:02:16 GMT",
@@ -1285,17 +1293,17 @@
     "src": "TradingView",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "AI credit fears drive CoreWeave, Nvidia risk gauges to record highs - The Economic Times",
-    "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNVUpRcUZFUU5nWUdRZ1pVUnF3M1pqQU9PbGdsUTBuM2syMklfUjZZakx6T1MzN19HWHVOWkw5Z09RalpIQmtzc3hlRmlGcE4wYVVUTkJrVkJpTzF0bFVKSFBpdl8wNWJUMjRVT0RSR2swTEZxWUxuUlVZUUp2UmRTdk1Kd1c4YmZqeE53eURxRlJYYkdTa0szZ2ZpWFZ4b0xLSXMzQ0lXWTBWcUNBUnhScGRjUTRyTUdsM3g3d09JYWwtTkh0LXEwVHllQkFzbVhNMkxiNXg0a0g5bTJKdlhrckxEWnZTV3ljLVdsStIB8gFBVV95cUxOYnlhWW1vSnVnQWJfVk1RTWhzem5jM1hudnpmR1ZWazFmclBLTWNVekc0Sl91bTNmSVB2R04zQUJiNGlwZE9KTk41a2IyaGdSM1lQYndGTHN2aVVsWG9RcFlYU0UtOUpCQnFkTTA4MDJJQlNwaGZFQnRaRERTSWwzdlRoVkxPNkt2SVVSNk1WME1iUkVYakhRS2pWdTBKajRfVFFQd3lIUFBoQS14TmZ2WFFXTEF4QzYtd1dGSnNKekJrUzBfZGRXZTFXdmdsaDg1YmdraWFibEt5bVZ2LUtjc2RVUktST2pJaFA0ZXF2ZVY1UQ?oc=5",
-    "pub": "Wed, 25 Nov 2026 18:44:23 GMT",
-    "src": "The Economic Times",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Elon Musk’s plan for SpaceX to launch 1 million satellites for ‘constellation’ of data centers approved by FCC - AOL.com",
+    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1YWEpDRzBTV3g2V09JSFRrVnR6cTJ3a1FXdzd2bktPcUx1WWVIR3hZdmVGeXZaSnlmZzlXNTRyUmxhVVZ3MTVGSWdyNDdoa2lDREV1M29HQVB0WVVvQ3E0WjNWOHVwbG5POGN0SDBPTTZjdVF6UzFyUjM2d2s?oc=5",
+    "pub": "Wed, 25 Nov 2026 22:39:06 GMT",
+    "src": "AOL.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "SpaceX Stock Surges on AI Satellite Approval and Trump Accounts Plan - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT0JwVldnVGhHMktEaHNlTzJmM1NGN3dyNWdwOTk1UU9YMkg0UkRlT2ZjNDZ5c0tqaEtGUWJVMlowWGZMUi1KMHFFNEU3TmhtcGNrSG1qNEYtSzcyZU9Kb3dMS3ZrMzJqTzlrakVYUFhXaXV4Smg4NGxOY3VxbGN2cVVlc3J5aEYxOWJ2WDVJcU5nd3c0MVpjaVQ2OWVFdw?oc=5",
@@ -1335,14 +1343,6 @@
     "src": "Crypto Briefing",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Amazon’s Star-Crossed Leo Network Gets a Launch Win - Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQWXZEc1RteDA0ZHhGY0xFX1NsMENSY1o5Mlo5RGNGdFlYRXRINGdEVkI2bGpCdWxfeHEybUl5aGh0em55and6ekEtUGt5TkRNQm1fNUp6WFJzOFlUdTl0ODhUZmMydlhwbzdBUWlZQ1JQM2NLZzhtTE1JenR1N1dqRzE2cTdBZXd0MUV2WllkaU5QNDNjaUNTMlN2ZU1JZ1pwRWE1V0F5LWhRMzUtUTBV?oc=5",
-    "pub": "Wed, 25 Nov 2026 21:33:22 GMT",
-    "src": "Bloomberg",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1371,18 +1371,18 @@
     "geo": false
    },
    {
-    "title": "Fed releases beige book ahead of December rate decision - CNBC",
-    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnpZcThuSEVDT016ZVhtVUdxSVQzTFRCaUVjVHlQRzhRZGNzclEyeUg4WFJjeWtGVkEwakQtY2N2NE5Wa203RDlSOVpMWmluRTFscGFVQVhqS2dDbnBzcGllcm9oNExJUlB6c0I0UTIxUmxxVVc5SFdOQndGVjdsd2ZtalNBSDcycUNWYmtkX0RFa3RYYnB6Y1I0Z2NQOVU?oc=5",
-    "pub": "Wed, 25 Nov 2026 19:40:05 GMT",
-    "src": "CNBC",
+    "title": "Bank of Canada expected to hike interest rate next month, economists say - Global News",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNNmV4SkZEbWRaTmtlLXlsZEptNGFBUVhnN2RoOWF0NXRjWVBzMkpVRVlDM0JUeDFabEZuSW44Z0hqcUZWMWNYQmJXTWVWdEM2dUotTGdZbEFqMGRSSzlCYXRGM210S1E3YnlRa1cyM2l3YllZcWU2MURmVlJoMG94WkNIektMTnJNYmNEVkh3?oc=5",
+    "pub": "Wed, 25 Nov 2026 20:08:39 GMT",
+    "src": "Global News",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Dow futures edge higher to 50,377 as market splits on inflation - JournalArta",
-    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdnBCSDRvd2dwN1VFdjFIV00xNVpEbDVaZGE3LU1ycTg0NEZBWTNBeVpUWWFHT2lua0owN2VyTks0VnpQZ01GaXNiLXRkZkoyZE1oSWFmTmh2bVBaNHlYUHVrTWMxQy1WcDlPaU9DUGt1QkhXajQ2NkhISHRVZThIa2R6cWpsSE9XRmo1akRjUjRHaVRzbkVHWTJsV1hYeXluUXpIb2hsX2pIWVF4LUFEVzJxQmM?oc=5",
-    "pub": "Wed, 25 Nov 2026 19:25:21 GMT",
-    "src": "JournalArta",
+    "title": "Fed releases beige book ahead of December rate decision - CNBC",
+    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPdnpZcThuSEVDT016ZVhtVUdxSVQzTFRCaUVjVHlQRzhRZGNzclEyeUg4WFJjeWtGVkEwakQtY2N2NE5Wa203RDlSOVpMWmluRTFscGFVQVhqS2dDbnBzcGllcm9oNExJUlB6c0I0UTIxUmxxVVc5SFdOQndGVjdsd2ZtalNBSDcycUNWYmtkX0RFa3RYYnB6Y1I0Z2NQOVU?oc=5",
+    "pub": "Wed, 25 Nov 2026 19:40:05 GMT",
+    "src": "CNBC",
     "trig": false,
     "geo": false
    },
@@ -1396,6 +1396,14 @@
    }
   ],
   "flow": [
+   {
+    "title": "Harmony Gold bets on copper as South African mines age - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNalkteDVqQmJDY0ItTEtaMWtBaDh6ZTNaejZBbjlUMXFjRHFndzNBY1pFWU9ZMldqcnhVZTJUYkZKTWkzUjNrbUF2WE5iN2V5TmlWd29nMGtESVNPWG5YUDBpZ05fV01oaDVhVHlOdjBKRVppVlNCUzBkXzZIcGFiTjRvNjk?oc=5",
+    "pub": "Wed, 25 Nov 2026 22:41:15 GMT",
+    "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
    {
     "title": "Dollar rises as tech selloff fuels safe-haven demand - Hiru News",
     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNQ0ViNUIzU2UzTmJCREJhVHZsV1hORy1zOTJiQUZxa05nSHhEQ2FTRU9LQVlOUlJfbk9JZlFfZmZ6UndXZG1OMlFLd3g4MExSeXRtUjZUSHF0ZkJsc2F4ZWJoa3QtenBTTUtqRldiTjNXRXE4NG01RVdaamZYZmgwU09WblRiVjA4b1hBYmZXNlpiS3Fy?oc=5",
@@ -1432,14 +1440,6 @@
     "title": "Gold at $8,000 could signal dollar crisis: economist - Mining.com",
     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE01Z29VRjNyOWxkbWR1dG5CbHNyT1ROUUFBOWFFcllJYjdES24tTDZXazVSMDVKdTBINHhubkF5bzVkYlJOdmJRZjJwT1RhTjdoSVJWa3RoUnQ2aHc0a0cxdWMtTmJadkFhZ0haZ1Q3aU5lSktTOHRnM0ZMTUJNUQ?oc=5",
     "pub": "Wed, 25 Nov 2026 19:33:46 GMT",
-    "src": "Mining.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gold price falls 3% to more than one-year low after data shows US inflation rose further - Mining.com",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNbjI1bXczUVJCV0J4SHlXS1pzckF2aWRnSWxwckY1V2duUzVhM1BZNkJxM2RTdjN1eWJrOGNma19INTJPYjRjcDFDTGp3LTRwYU53UjEzTkU5Z3BvTkgtS09uVVR6RHlPUnByVzVsVW83Qm1RNUI0WFZrVlZOd3lIWWR0Zm9KSVQzSHVlVUdwS0tncTM2UmR5U01PaW9ZeFlTOGxDcEo1ajF2STF3eTVma21KeDFQdw?oc=5",
-    "pub": "Wed, 25 Nov 2026 18:58:47 GMT",
     "src": "Mining.com",
     "trig": false,
     "geo": false
@@ -1675,7 +1675,7 @@
    157.99,
    158.47,
    158.71,
-   159.11
+   159.08
   ],
   "uso": [
    127.35,
@@ -1735,7 +1735,7 @@
    81267.59,
    80405.29,
    73964.47,
-   60124.53
+   60100.91
   ],
   "vixts": [
    0.859,
@@ -2823,7 +2823,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-25T22:41:58+00:00",
+  "checked": "2026-11-25T22:52:02+00:00",
   "openai": {
    "found": false
   },
@@ -2949,8 +2949,8 @@
   "dollar": {
    "dxy": 103.69,
    "dxy_chg20": 1.47,
-   "usdkrw": 1343.6,
-   "usdkrw_chg20": 1.27,
+   "usdkrw": 1343.16,
+   "usdkrw_chg20": 1.23,
    "hit": false,
    "missing": []
   },

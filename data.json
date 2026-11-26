@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-26T20:42:28+00:00",
+ "updated": "2026-11-26T20:52:21+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -853,20 +853,20 @@
    "ok": true
   },
   "DX-Y.NYB": {
-   "price": 103.76,
-   "chg": 0.09,
-   "chg5": -0.13,
-   "chg20": 1.69,
+   "price": 103.77,
+   "chg": 0.1,
+   "chg5": -0.12,
+   "chg20": 1.7,
    "sma20": 102.92,
    "sma50": 102.2,
    "sma200": 100.89,
    "high3m": 104.32,
-   "reg": 103.76,
+   "reg": 103.77,
    "pre": null,
    "post": null,
-   "regClose": 103.76,
+   "regClose": 103.77,
    "sess": "reg",
-   "mt": 1795725095,
+   "mt": 1795725695,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 60712.31,
-   "chg": 0.55,
-   "chg5": 1.03,
-   "chg20": -19.85,
-   "sma20": 65950.42,
-   "sma50": 74682.9,
-   "sma200": 71416.11,
+   "price": 60700.72,
+   "chg": 0.53,
+   "chg5": 1.01,
+   "chg20": -19.86,
+   "sma20": 65949.84,
+   "sma50": 74682.67,
+   "sma200": 71416.04,
    "high3m": 86480.3,
-   "reg": 60712.31,
+   "reg": 60700.72,
    "pre": null,
    "post": null,
-   "regClose": 60712.31,
+   "regClose": 60700.72,
    "sess": "reg",
-   "mt": 1795725709,
+   "mt": 1795726303,
    "ok": true
   },
   "USO": {
@@ -1040,20 +1040,20 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.26,
-   "chg": -0.0,
-   "chg5": -0.08,
-   "chg20": 0.9,
+   "price": 159.27,
+   "chg": 0.0,
+   "chg5": -0.07,
+   "chg20": 0.91,
    "sma20": 158.83,
    "sma50": 158.2,
    "sma200": 159.25,
    "high3m": 160.2,
-   "reg": 159.26,
+   "reg": 159.27,
    "pre": null,
    "post": null,
-   "regClose": 159.26,
+   "regClose": 159.27,
    "sess": "reg",
-   "mt": 1795725713,
+   "mt": 1795726299,
    "ok": true
   },
   "KRW=X": {
@@ -1070,7 +1070,7 @@
    "post": null,
    "regClose": 1343.03,
    "sess": "reg",
-   "mt": 1795725705,
+   "mt": 1795726300,
    "ok": true
   },
   "^OVX": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Evercore Cut Its CoreWeave Target to $80 From $100. It Still Sees 88% Upside - TIKR.com",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOaEctdktmbmF0U1JFRXdiUFpuTUhqOWFGTHBtWFVxVEs0Z3J2OXdzcGxoYzRyM2o5bGprLWZxcTlNMUdUdGRqSWd4UXlTNWhCTVhWZUNhVVY5QnFFZGQwNENMeXljVnJ6WXNRWS15dUhtZ0NzbEpMcXljTWNlZERrOWdQRmpHZEp2SDFOSXJxWDRMRm1fOXFlTVctZm1GbHl6WnFHclFsNFV6a3dkMUdjOA?oc=5",
+    "pub": "Thu, 26 Nov 2026 19:07:30 GMT",
+    "src": "TIKR.com",
+    "trig": true,
+    "geo": false
+   },
+   {
     "title": "9Questions — Vlado Spasov, Trimontium — Built to pivot - 9fin",
     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNbkgyUWxOTkRyNHpiVGtUR2FIcWhfTGxXNmNOTnV2enFxWkpDbG1LTDVPQ1lHaFk1Y21pdTJldE9wX2pYeld2RG42OXF0MDRBcWpxclU4YW5zTVlKeFJlQWFSNnkxZHpYZWp2Nk0tRFA4NVg4Y2ZDVVI4QjYyUC1TR0pn?oc=5",
     "pub": "Thu, 26 Nov 2026 18:12:19 GMT",
@@ -1285,38 +1293,14 @@
     "src": "24/7 Wall St.",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "CoreWeave Has the Backlog Lead, Nebius Has the Leverage Edge: Who Wins the Next $100B? - 24/7 Wall St.",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOVmVhT0VLQVd6ZGZkYll3UXdsWlZWandBQkszUnByUWU1VnEwWVVJT0dFekl3S3dDZWFxZThRbFVMSEVSVDFLdF9xbF9DZDlwT0s5TFUxZTExbHBDYV9JNWE0NHJhYW5yTjBvZUZOZEYwR2l6RUVTTE5mdUpsUzY3LTQteGh0dmlOTVhnVmMwOG9WWWNGMlRnSXhXWVR6N2NKWG94YXhYU0pIV0gwWWZObUZraG5jUFpGb0JscXVlZ3ZNWG45?oc=5",
-    "pub": "Thu, 26 Nov 2026 15:45:00 GMT",
-    "src": "24/7 Wall St.",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
-   {
-    "title": "SpaceX gets green light to launch 1 million satellites into space - Fox News",
-    "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1fdFl5bGNzdDYyMFgtWUpIV05GQnhFaW0zb1RyTXQ4UkxrYk1BM2daR1MyNXdqM0J5bnFkM19pVjF5YjJja0ZhQ0ZWR2o2d1ZYaEF6WE5B?oc=5",
-    "pub": "Thu, 26 Nov 2026 20:20:22 GMT",
-    "src": "Fox News",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Polymarket Launches Perpetual Contracts Tied to Nvidia H100 Prices - www.tokenpost.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5fSzJwRjF0V184TWhzeVFPNWNqVmRjWl9kXzVrcm9EaXBfei1FVXZPUVRoRjNibE5NR1Z0UVZJR2FsUnVlMVI4Q2htdm11Y1ozRUU0alVReW5xVXM?oc=5",
     "pub": "Thu, 26 Nov 2026 19:31:18 GMT",
     "src": "www.tokenpost.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Mexico Seeks US Talks Over SpaceX Airspace Use and Debris - Mexico Business News",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQYVRSWXBXRk1BbFRuRUZmVzVBc2FySmlLYkxZNnZQSmF2MWNVVkxaZ0w0N0RsZW53Qm9VM1AwRmVGZ05TYTF4UFk5S0hieF9MZTk5WnNQSFA4Zk1sR05Pc01lVk83QmZHc3FGZkQxSERkejA5R1J4OU5ST0t5ejYzcmVuVGFhaTVsSVlQUTVnamFqdkJnQWZhN0JzTEZ1aXl4ekE?oc=5",
-    "pub": "Thu, 26 Nov 2026 19:30:11 GMT",
-    "src": "Mexico Business News",
     "trig": false,
     "geo": false
    },
@@ -1331,7 +1315,7 @@
    {
     "title": "AI Memory Demand Surge Contrasts with NAND Price Decline - 조선일보",
     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNFZBYk5WR1VwX0JlOEtHajZFREI0clgxYWZCT2xiSzVpOEwyUmdST2oyZDNyNmRQTU1TVTduLURJRGJCQllvV1hUaU8tV0t6N1AybkVzTDlVbkNaNS1CdDBvci1McXN5UU5RTjgwbXpIN25BQ2tsMHQ2NzVUX2Z2NERkN21uMWo1?oc=5",
-    "pub": "Thu, 26 Nov 2026 19:07:30 GMT",
+    "pub": "Thu, 26 Nov 2026 19:16:08 GMT",
     "src": "조선일보",
     "trig": false,
     "geo": false
@@ -1341,6 +1325,22 @@
     "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNV0YtNUdxS2hUM2c2SW43TVI2NFJNZm83VGItNVd1TmFtTjZlc2xzYXN6Mmk3Z0p2TVk1S0NlT0FJNHJHdklCc05wNGJDcEc5U1lGUlNjUTdubF9OWVJvMWhpNEdkcWw3YUhUUTNYMDYtY2xIWVBCdWtJQTIxMk9FLTdwQVowdmVtMTBaaS1MTGZRMDRYcmJyUk1HZUhOQVNfa2ZMMUFzQTF4bUhlUmp2UFdLNG1zN2RZZkgxUEtRZjVrX0UyUTNxNWs5NmxnSnc?oc=5",
     "pub": "Thu, 26 Nov 2026 18:38:06 GMT",
     "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Micron Stock Faces Surprising New Threat From Huawei - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOZ2RNWDJzZ3laRGczZldJN3llaVVqdHhuckF5NVBTTmRFVmtZd254amI4Wm5EdUVOb3RBdTMtYS1nZDdBQUdEQ2VFbDVrdzdzak9STFFkU3JCU3BWdnpiNTl6MGdWSFAya2NfMDJfaWk4NE1GbGtSc1dxMWpndFhhSGREbHJISFM2dTdyRTVBT1N6NHcyQXo0M0MwdnJZdkpGS20xVU85eVNXSEtkV3JvYUdR?oc=5",
+    "pub": "Thu, 26 Nov 2026 18:03:48 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "How Much Does It Cost to Rent an H100 or B200 GPU Per Hour? - FourWeekMBA",
+    "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOUEYwWE9vY1hMR0tFN1JlNlg5NlU5Mjd2VkdVS2FhcnY0UE04cWFZc2RyRnZVS055R05heWlFcFRjMlc0YVA3R1FnMXdsSlAycU1CSnpTZDJaa256YXZGbmRQN2V4aVhyaWhFUGJoSXZsSURjRmUtdDd0bk9uNkdIU0tmMnBwdGxsVWs2REZvcw?oc=5",
+    "pub": "Thu, 26 Nov 2026 16:45:50 GMT",
+    "src": "FourWeekMBA",
     "trig": false,
     "geo": false
    }
@@ -1355,12 +1355,12 @@
     "geo": false
    },
    {
-    "title": "Crypto on notice as hawkish Fed risks December ‘meltdown’ - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRk1hRXBYQlVtVTNtUVNtc1N0SkVPOTBhWTNtcmlQeDZSN0ZoUEYyLWRFckVIdVJlbmdnYktTNGFxWmtVaUdPYTdaam1hd2pkdldMTXcwRlRldjN6ZUdfZTlEZ2FMNEJfWnVjRGJMc1M4OWNwRnI5cU9JbFhMb0VJUk9kbVFLN1BCdXhhZlBvSDd0YlJ1cXZ5eEVGNkpwN2lxd1dWdi1yZ0V5Rkd1cGZSX05iejM0TVlrMnNn?oc=5",
-    "pub": "Thu, 26 Nov 2026 17:39:53 GMT",
-    "src": "TradingView",
+    "title": "Iran Attack on Kuwait Kills Two Italian Rheinmetall Workers - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVE9yWG9JenZCTFpSOFJUeGxZcDVXTXE1eXRUOTdkRW5nelVQcU9DU2RfNmQzTlBWWnZXdlFoWmpGNktHUnJBTjdaV0w0M2tZUlFjZzA2SEljMzlHVklrOU80R09oenRVRG9FT2puQWVhcjVFNjV6dDlvRmhta1NCMWF4c3ZUbFBSMzlaMU5Vd2syOHozTzNCQ0VMc1JCdjA5NW9kTjdkQ1F4Q0Q5cXRF?oc=5",
+    "pub": "Thu, 26 Nov 2026 17:33:36 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
-    "geo": false
+    "geo": true
    },
    {
     "title": "Trilateral summit packs equal weight on economic front - chinadailyhk",
@@ -1397,10 +1397,10 @@
   ],
   "flow": [
    {
-    "title": "DRC closes gap on Chile as copper exports surge - Mining.com.au",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9VOHRBWlgyNTJHTDRqb0tGSExvZS1UWGRkUTFWZ0RWOHp1b0RNYzBVTWl1M05sZ3ppRngxVW9ZYzVKTldnbjVLVWxlZjBxaDh6UUw2QXQzejdDYlRsV0pCM2tuMA?oc=5",
-    "pub": "Thu, 26 Nov 2026 19:28:30 GMT",
-    "src": "Mining.com.au",
+    "title": "Price to sales forward of Copper Fox Metals Inc. – MUN:HPU - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQdVB0NGpvcVdadk9kN3RxZXJ3b0pGV0Y2VHdGNkJVeUs0N29HMGpqSGxKeWluVEIxQm4wNUZJQnJhTUc1bXl2MVpOU29ic1YtQ0UtYTFFUWZnOHQyVDh2MHlzWGFXQTNGaDhZei1zS1BuMV90aExqNmF2MndVa3dScG5oNlNvd0tyNV9oZC1leDJya29BY2Q1bA?oc=5",
+    "pub": "Thu, 26 Nov 2026 18:20:09 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    },
@@ -1409,6 +1409,14 @@
     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeWZIOENUaWMtWjVqQUt3dld6TExqV3Zfa0RMTjQ3ektXUHo2eUpWV3FRb21mNjkyeGpjNjh1Vnp0dWxVYkFwbENoTjZuYzFIX3Rla205RVgtQ1BNcjR3UVAtYWRFZ0xnM1R1MGlFV05rUWpncnJHNWVzUG9QTzJCX2MydE85SGllTTJ3?oc=5",
     "pub": "Thu, 26 Nov 2026 18:16:36 GMT",
     "src": "Traders Union",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Oil prices rise after mine strikes on ships revive supply concerns - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNQ3lnVzA4RlRaOGkxUDRSNWlyR096S2xXd1IxV0dPMGRWLWFBX1dMbE5Xc2VQSFVXZ1NIalh3VFd2UWtkdV9tVExpWTBCWG5ZNGo5cEF2Y2ZrMEl1eWgwT3Y0M2EyaGl2dERpbG5ST1BnTHV5T25wNFo4Z3Z5WWJyOE9CM2Y4V2xYYXE4SlRadGs?oc=5",
+    "pub": "Thu, 26 Nov 2026 18:09:48 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    },
@@ -1429,18 +1437,10 @@
     "geo": false
    },
    {
-    "title": "Why Gasoline Prices Are Falling While Diesel Remains Expensive - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeEdhSHhoSVZNZV9KMkF1TkdNWkVMTjlsRndqbkhENE1fbGs1TVRwNGdRVm5mR0NCQlYzdk5oaHhkMmZNMHZ3OTRlRnRYQXZRRG9aZVVVV1FRS2Nya3lEM1VLMl9iVnljRWUzempjQUlXZC1sQzlDNTV5Z3g2VEhQUlRSRFYzSDJZVnZEX1F6Mk91RnBkNUJqcHRFZGF3QXk3WF9qVUo5TTlIOGhpZUlF0gG0AUFVX3lxTFB2ZzhWYzhoVWV6c21pSWltYU9YdWZPemd3TmxteUswTU1MVmMydnZ5T3h6bkRSU2pFdGxDcDg3ejBHUzllbVZTdlQ2YjJ3TlYzZE15VGtKUjVOSXdsZ0sxMHpCT05mU0VJSlNLRnlSem4tczdLQ0piT1ZPUXlCWmFqSTAxcVpQbGhUUGlWbFBKQnhMSmhkbVVqdUJRZ2Zha0c4NDhGclpnOUtkd2xiWkpBbDFHZg?oc=5",
-    "pub": "Thu, 26 Nov 2026 17:00:00 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Tanker Traffic at Hormuz Ticks Up Despite Intensified Attacks - Crude Oil Prices Today | OilPrice.com",
-    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZFF3VXJKOWltd2ctUDMwWUtmSWFRSmdJRkdRWV9HYjZNQlZuam1xR0xRNThpeUI1ZGM4YWlfNzJlUkZ0ZEVKaldPZUNaMWRHcnNVZFdlY3hzU1h0eXE4TDk2a1l0dzFUMnZ3eDhJS3pscFo1Z2dNSlEyeHlXV1owMjRIbHd6UXE3SGVjaFhmVUV5ZEVudnBRQ3pIRWRaeDluM0JtS3g1QWJBNU9BdTJuelQyaF9vb2JP0gG-AUFVX3lxTE5GbmFScVpIU0gwQmNkelY2Z0xyVjBXekl2NG92NndUMEJtTlhCcGszRzZSTEhxVkx6d3JtNEo1R1RkbzFndGdPYkVucmppQzlUVHZyc0dJQU1FSWlYNy1KamZSVkxzVy1CdUlfZUthb1ZuVGZUZGhqUzA0ZXVYbXpZcUFXbzJPTF8wdzBDQjlKenFYLU83aTNLTFVXVmlWcktTbXpHU0pmX3ZfWWNoOFU0V2NsajBaU0dDbWlmVkE?oc=5",
-    "pub": "Thu, 26 Nov 2026 16:31:16 GMT",
-    "src": "Crude Oil Prices Today | OilPrice.com",
+    "title": "Bitcoin’s recovery above $60,000 faces a threat from Japan while Wall Street sleeps - CryptoSlate",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOVE5JdDhJcndNSHJZUGUtd25Kd1pkTkNJUFRxak5FOXNLZWYtZHdXTlpCb0plaEZYa1BrcWVIR3dJTVJTNlZsRmgwN0lWQ2FpTDhTSjh6T3lEVTBic3JOWW1DbHdKc2FqcFNraUVlWC1pQWttQ3MxUUJ0bW5LdEs0TjdEbm9nSW1vUkdFWmdZRGNLdWRTYXowV3czUGIxdU9iQy16SjR4YzU?oc=5",
+    "pub": "Thu, 26 Nov 2026 16:20:29 GMT",
+    "src": "CryptoSlate",
     "trig": false,
     "geo": false
    }
@@ -1630,7 +1630,7 @@
    102.04,
    101.55,
    103.17,
-   103.76
+   103.77
   ],
   "bizd": [
    13.37,
@@ -1735,7 +1735,7 @@
    77775.11,
    75942.12,
    71342.97,
-   60733.0
+   60703.18
   ],
   "vixts": [
    0.845,
@@ -2822,7 +2822,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-26T20:42:12+00:00",
+  "checked": "2026-11-26T20:52:05+00:00",
   "openai": {
    "found": false
   },
@@ -2939,15 +2939,15 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.26,
-   "usdjpy_chg20": 0.9,
+   "usdjpy": 159.27,
+   "usdjpy_chg20": 0.91,
    "vix_chg5": -5.77,
    "hit": false,
    "missing": []
   },
   "dollar": {
-   "dxy": 103.76,
-   "dxy_chg20": 1.69,
+   "dxy": 103.77,
+   "dxy_chg20": 1.7,
    "usdkrw": 1343.03,
    "usdkrw_chg20": 0.2,
    "hit": false,

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-27T21:32:54+00:00",
+ "updated": "2026-11-27T21:42:15+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -174,34 +174,34 @@
   },
   "005930.KS": {
    "price": 179100.0,
-   "chg": 4.92,
-   "chg5": -9.04,
-   "chg20": -22.8,
-   "sma20": 198060.0,
-   "sma50": 227184.0,
-   "sma200": 260829.6,
+   "chg": 4.55,
+   "chg5": -2.18,
+   "chg20": -20.4,
+   "sma20": 195765.0,
+   "sma50": 225786.0,
+   "sma200": 260180.95,
    "high3m": 285500.0,
    "reg": 179100.0,
    "pre": null,
    "post": null,
-   "regClose": 171300.0,
+   "regClose": 179100.0,
    "sess": "reg",
    "mt": 1795761004,
    "ok": true
   },
   "000660.KS": {
    "price": 1110000.0,
-   "chg": 7.77,
-   "chg5": -6.17,
-   "chg20": -27.26,
-   "sma20": 1207950.0,
-   "sma50": 1431220.0,
-   "sma200": 1759512.0,
+   "chg": 5.41,
+   "chg5": -0.27,
+   "chg20": -21.72,
+   "sma20": 1192550.0,
+   "sma50": 1419480.0,
+   "sma200": 1754357.14,
    "high3m": 1868000.0,
    "reg": 1110000.0,
    "pre": null,
    "post": null,
-   "regClose": 1053000.0,
+   "regClose": 1110000.0,
    "sess": "reg",
    "mt": 1795761019,
    "ok": true
@@ -866,7 +866,7 @@
    "post": null,
    "regClose": 104.04,
    "sess": "reg",
-   "mt": 1795814528,
+   "mt": 1795815090,
    "ok": true
   },
   "^IRX": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59738.93,
-   "chg": -1.25,
-   "chg5": -2.33,
-   "chg20": -21.13,
-   "sma20": 65139.11,
-   "sma50": 74239.8,
-   "sma200": 71327.98,
+   "price": 59782.22,
+   "chg": -1.18,
+   "chg5": -2.26,
+   "chg20": -21.08,
+   "sma20": 65141.27,
+   "sma50": 74240.66,
+   "sma200": 71328.21,
    "high3m": 86480.3,
-   "reg": 59738.93,
+   "reg": 59782.22,
    "pre": null,
    "post": null,
-   "regClose": 59738.93,
+   "regClose": 59782.22,
    "sess": "reg",
-   "mt": 1795815136,
+   "mt": 1795815691,
    "ok": true
   },
   "USO": {
@@ -1040,37 +1040,37 @@
    "ok": true
   },
   "JPY=X": {
-   "price": 159.57,
-   "chg": 0.22,
+   "price": 159.56,
+   "chg": 0.21,
    "chg5": -0.09,
-   "chg20": 1.12,
+   "chg20": 1.11,
    "sma20": 158.92,
    "sma50": 158.27,
    "sma200": 159.26,
    "high3m": 160.2,
-   "reg": 159.57,
+   "reg": 159.56,
    "pre": null,
    "post": null,
-   "regClose": 159.57,
+   "regClose": 159.56,
    "sess": "reg",
-   "mt": 1795815139,
+   "mt": 1795815698,
    "ok": true
   },
   "KRW=X": {
-   "price": 1333.56,
+   "price": 1333.63,
    "chg": -0.7,
    "chg5": -0.09,
    "chg20": -0.33,
    "sma20": 1339.99,
    "sma50": 1342.3,
-   "sma200": 1413.86,
+   "sma200": 1413.87,
    "high3m": 1384.86,
-   "reg": 1333.56,
+   "reg": 1333.63,
    "pre": null,
    "post": null,
-   "regClose": 1333.56,
+   "regClose": 1333.63,
    "sess": "reg",
-   "mt": 1795815130,
+   "mt": 1795815697,
    "ok": true
   },
   "^OVX": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "OpenAI countersues Apple over allegations of stealing trade secrets - CBS News",
+    "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQOEVla3J3WEZiTHJkbFdpNnN0STJ5eWljb0hEc21KNzVOYWtLaDBwS19ZeVp4UmN3SFhqeTZOXzZvci00MWsyWDRCZFRpRmRYeVJhenF1cVFfRTJaQmdyeHEyNWFoeWxZQnpBTzZkQnFsOTVidlNJMmg0ZnRkbVZLSjhB?oc=5",
+    "pub": "Fri, 27 Nov 2026 21:18:38 GMT",
+    "src": "CBS News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "OpenAI countersues Apple over trade secrets as AI race heats up - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1UyNzVUM1VWYllDUVB5Rl9LVDYwZExiMWt2WFp4eWVUckVjdDhqbFFfSXR1b2NiRm9LbFZQZ2xlZTNkRmtaSkZnb2M4ekJwVkVxbE1jdmNlazc2QUMxallwb1JpTWRvVk9ZOW12SVM5MTZ4RS1CQkNGcW5qZlMySWJZTjBkNXBtZXByR0NuVWdJZWVXWW8zcWRsTUF1ZUJXMlNVNWxEM2l0VThn0gGyAUFVX3lxTE16T05QbEdEbTdCUklBU3kyX05YX2RxaTZrVl9yWTEtWDF4dThXOFAyODNDTjFHTy1LRmJkZEJpd1E0eTBOaWxkS0NXV1BIWFo0V1ZTU01JMzd5bVpkMHFWTEhSNEVBT3E1cXd1NVJFbEJtSXFURGpxMzlKOWtNTXg1amFKZDhEOWttUlhkU1Y2UmVnSUgwRWZqWmJmTzdRaVBNM01pczFxTnh0RzYxRk02MFE?oc=5",
     "pub": "Fri, 27 Nov 2026 20:46:26 GMT",
@@ -1335,14 +1343,6 @@
     "src": "Latest news from Azerbaijan",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "\"Hotel California\" for Employees: OpenAI Accuses Apple of Stealing Trade Secrets - Oninvest",
-    "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNdk9iTnlkVGRsczNQRU00aXM1VFQ4SW1iaEN0dTc5VlZuX2N2ZnVIeWZwbUtHclZ3OWNaQ2M4YmVfUG9sV1h4WXgwNUIxRlJvT2xneXhTVFBSOVR5cVY5d1VOUFozQ3FUY2UwNEp2dG1ndV9BbW9kNHRVT0NzcWtOekRoU2M3UHJhdU1rSFhzVlFnaFFCeF9yXzdETko0dy1JNFg0Y0xpeF8zUGZscmc?oc=5",
-    "pub": "Fri, 27 Nov 2026 19:12:50 GMT",
-    "src": "Oninvest",
-    "trig": false,
-    "geo": false
    }
   ],
   "macro": [
@@ -1363,14 +1363,6 @@
     "geo": false
    },
    {
-    "title": "Brent Crude Climbs to Around $96 After Middle East Attacks - JournalArta",
-    "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNVFZpckZWNzJibFFTV2t4VHVOQVVTQ19mcEFwbzV1RG1RTTJXX21FNmhmeWtlN0drMGF5M1hWRk5XUlpESVphVHdJV1VQaXVlTS13Wkw0UUdXcXdlQTdrc2NIaFNsUEJkbzJkUV9LSk94N3JsZTNRanNYTFA1c1FkdmFsNA?oc=5",
-    "pub": "Fri, 27 Nov 2026 19:15:25 GMT",
-    "src": "JournalArta",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Oil prices are again rising - here’s why - BNN Bloomberg",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNMVF0cUFFWmFZbUhEdU8yMG0zbFdlTU9CZFVLVUQ5UlpxN2huazhabUE5NXdXUUdhdGp6Yk5kT2hBNGZ2UHRRZS1wLTUwdG9WMGplSG43NzlVTjhILXdRS2V5Qlc0Qkg2dFZ5SGdRb3REdUltMUdYOTNFQ09IaHVMellDclZhbTFvWVQyOGFLUnpDeTQ?oc=5",
     "pub": "Fri, 27 Nov 2026 18:27:49 GMT",
@@ -1379,18 +1371,26 @@
     "geo": false
    },
    {
-    "title": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNDdYekVjLXY0dXNRZHI2dDVWazZuVURkR0RtN0x1UTRpZmlwaVNPWmpMOElOcEo1ajZUZ0Z0cVNxVUI0aXpST2VZUm1WZHNOZl9xdS1abXR1dElOcEhtLXphRkZyMjI5Ujc0WWpSeWo4WHF0bUNmaGhfcUhYSkhTRXpHUnNiM3p1WjJud2w0aURHc3h2SENsNnpoVDJkZWpZem44RWpRZWxJRGVsa1FlRVhmSnk2LW5kR1luMGJYWE95SXRTRWlCUWxvQUV5ajd1MzJHM3lCTHluYnN0RTZv?oc=5",
-    "pub": "Fri, 27 Nov 2026 17:57:36 GMT",
-    "src": "BNN Bloomberg",
+    "title": "A Fed Rate Hike Next Month Is Almost Certain: Analysts Share Their Views on 2027 - Cryptonews.net",
+    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBBcWJrdlJaaHlKQlBTZHZocnR6TlNzQmp0eXg0Yy1VT190aFdKNkNxR3FfOFk5bFh5emp5cDNYVTVlZnliY1BqajNhaFV2ZS1HTVBYanhSeWs?oc=5",
+    "pub": "Fri, 27 Nov 2026 17:06:05 GMT",
+    "src": "Cryptonews.net",
     "trig": false,
     "geo": false
    },
    {
-    "title": "The military tested robots to help medics find wounded troops and decide who needs help first - Business Insider",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOVUlRVWIyYlNXbFhMOXBFMEl5V1V3Sy1NOG5teHBPMEJ4LW51VVRxMHBsMjczWVQ2SW5qTEVzbTJqaE9ILUlqRXFBZjFldWNnUzl2Zk5ONXEyeXVadnN3NFhPUW1Wb2IzTWVXWWp3N0hVVTE4TGRNMXpOTUZiLXB6djFfN29TMHVITWV5MHZxX2tWN0Z3T2V3djlZWnh0dw?oc=5",
-    "pub": "Fri, 27 Nov 2026 17:39:00 GMT",
-    "src": "Business Insider",
+    "title": "Middle East Tensions Drive Crude Oil Prices Upward - Ratopati",
+    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZVhCTVk0UmFUNXg0SDk3dHFGMExHb0xfcmROWFBQanB0QjlQMWc1MGZvaXdhQzBjaTBwZXZGUXZSWE1aYkdsQVcxNk5vSlh2TFo4SHBFVWZYYS01cmFiMzRtTTZHLXVneGJFY0dMMGNSZE1vemxRSmhUeVlxQkhOd19GRkYwZ2xkQlhfdnpIUXVEVjFQSldPb1NYRUc?oc=5",
+    "pub": "Fri, 27 Nov 2026 16:41:33 GMT",
+    "src": "Ratopati",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Two December Events Could Determine Whether the US Stock Market Ends 2026 in Recovery - Coinpaper",
+    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNSWhaaWM3c1gyYTYwLVNtSWFBUHpyc293eWE5OHpyM2p1ZUExVnhYNmIzTTJoUmRQWXRjVzhfem54UWZmcDY4RXlJVzJqNHdON3VWaTd4QmYtc0VsXzBTNVRhU3ZyNVNmaW5FVDY0Z2tMNGdnV1A3LVo2eG95SDQtdzlfcERiVV84eDZCLXZkVjRjQ2FYeFpZRDVaWXF4cXNFQU5ROUZYOHJKaVZNVC1OeW1BWQ?oc=5",
+    "pub": "Fri, 27 Nov 2026 16:10:44 GMT",
+    "src": "Coinpaper",
     "trig": false,
     "geo": false
    }
@@ -1405,26 +1405,10 @@
     "geo": false
    },
    {
-    "title": "Crude Prices Retreat on Possible Increase in OPEC Crude Output - Barchart.com",
-    "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPMU04eDJwaUNhbEhzY0RZajdRRURlcm9oZ2lKNXNjSmxlNHZNaDZhb0FVZUZGTEZ3MlNmcWVjbmRtRUhDS3VVdUZDNUpxZExsd0lPeEtqS1ZiZnBvR1BfQ0k4YmtseFZUbXE1QmcxcjQxcGV6WHVqSVgtbjJFVzd4djhwNkVybVBWclpIWDBTdHdQWkVfUFFXbzJiUEJPdURfLTh0VFFqNGR6UQ?oc=5",
-    "pub": "Fri, 27 Nov 2026 20:11:14 GMT",
-    "src": "Barchart.com",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper Price November 27 2026 - Robinhood",
     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbzdHQVFFeDlyZF9vSm9tMWtVQnlFd2ZfQTRYVEQ1SVFyYTdVV3AyOTBJb05OQkxVdENNN1V3SHplMXVWMVhrMExOQ0Nkb1NfQ0t0aUJGMzhwQWMzd18zcUJ2dTBqMm5NdlJEcFZSUFhZMTJrSkJlS3BrdGl6aXdIcUp3akJQV185WG9rc01UUUp4ZnktWjdjNkp3azV3TUJYYldUbWl3?oc=5",
     "pub": "Fri, 27 Nov 2026 19:24:10 GMT",
     "src": "Robinhood",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "The reasons behind the rebound in oil prices following three weeks of falls - Atalayar",
-    "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNWGd6dGFzdW9YZ3prWHk3ZFh2a2pBTUpvU055N1pkLVFob29GWTBsT19ON01KcGd3cjRiYTYySTBVRktfOEZvUXBDc24yZlc0Ulhfd3kwVjY3d3ZHNEd4QUc2S3JiQXFRd0x0RkhYUHdwZUV2SVh6cjBLazNiWFBwQVNlUmoxVF9xN2cxSUd3bGc3enJIakl0REk5M1JsUzlmYXA3bVhVaTBMaktaVWxTaWpOeFp6VWhyVXhoaW9SZlV6bGRSTUFlbUIybzRsaDh0dXI2WC1UWVhHXzE0VWFORUE2aVc?oc=5",
-    "pub": "Fri, 27 Nov 2026 18:32:41 GMT",
-    "src": "Atalayar",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1425,22 @@
     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5BMTFUdHhsODNMUVRRVlJYVVItZ1VXVmRmUTN5aGZsMW9vYTZTN243MWxKVk53MllUbFhISGYxUUVPRlh3d1c0THlrdk0taGFrRldYV2RUVXE3T2tYT1BPR3czR0x4UFh3TnJpVVhnXzlZTEpTM3V6d0Q0c1V2WjQ?oc=5",
     "pub": "Fri, 27 Nov 2026 17:46:33 GMT",
     "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Oil Glut Everyone Expected Is Looking Increasingly Elusive - Crude Oil Prices Today | OilPrice.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTmlxaEZTNjZ4UzhBWTFpc0Q0YUMteG9vMkw0LXVhaURmb0ttcTZKQ2g3aHhvdzNSLXVaN1ZROENuQ0M1eHJDb05xOWV3Z2RsVVJIQWpBSmtGa3ByU3VELW9MV1ZoM2IzT3F0TXZpWV9GQ3VWYzQ2NlRoYThRZWZUejhtbEhQc0s2ZGhmVHJEZ3dqV0RfVGp3RjBuejhWVGNHV3hlZHM5OUnSAa4BQVVfeXFMUFdRV0VfRXZFTjhuaXBSM2NJVUJyQnI5MFFMelJmWVA4a29jcXJ0U0tRdFptVTM5SDBuNnoyTm83UFBPZGc4bEl3el9xZEl6amFLVDdWY1ZOZ2VPWTg4YnVZUVhuUnhlVnBVZDhSVlBRQVRwYVJzS2dlb05WY0JYaXRzZkR4Z2xUUTlaY3hrLXcwSGwySmJSWkFGdFpMRTRsdHdLdGdzTzZ0UkRSYllB?oc=5",
+    "pub": "Fri, 27 Nov 2026 17:04:00 GMT",
+    "src": "Crude Oil Prices Today | OilPrice.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "The Commodities Feed: Oil extends rally as copper rebounds - ing think",
+    "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWXVsOXA3eHZqb3dZTHBpd3dEX1Q2dEJCTkJvVV9zTHpVd1NxaFVRaG1MYnZQU1hSV1hTbGlucm5yMnFqTmE1ZFdmZGttZFNUYVoxYXNkS3Z3ZmhSeE1jTmk3eXFQQkxJVV9HSkZRZUh0YUNCOWdOYkdMVjVVbkg0eG1ORWk?oc=5",
+    "pub": "Fri, 27 Nov 2026 16:25:37 GMT",
+    "src": "ing think",
     "trig": false,
     "geo": false
    }
@@ -1675,7 +1675,7 @@
    157.8,
    157.5,
    159.88,
-   159.57
+   159.56
   ],
   "uso": [
    129.7,
@@ -1735,7 +1735,7 @@
    77198.21,
    75746.93,
    68249.27,
-   59739.01
+   59777.04
   ],
   "vixts": [
    0.83,
@@ -2820,7 +2820,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-27T21:32:37+00:00",
+  "checked": "2026-11-27T21:41:57+00:00",
   "openai": {
    "found": false
   },
@@ -2937,8 +2937,8 @@
    "missing": []
   },
   "carry": {
-   "usdjpy": 159.57,
-   "usdjpy_chg20": 1.12,
+   "usdjpy": 159.56,
+   "usdjpy_chg20": 1.11,
    "vix_chg5": -33.66,
    "hit": false,
    "missing": []
@@ -2946,7 +2946,7 @@
   "dollar": {
    "dxy": 104.04,
    "dxy_chg20": 1.96,
-   "usdkrw": 1333.56,
+   "usdkrw": 1333.63,
    "usdkrw_chg20": -0.33,
    "hit": false,
    "missing": []

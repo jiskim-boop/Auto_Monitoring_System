@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T12:32:32+00:00",
+ "updated": "2026-11-28T12:42:14+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59255.6,
-   "chg": -1.02,
-   "chg5": -3.19,
-   "chg20": -20.55,
-   "sma20": 64379.03,
-   "sma50": 73776.53,
-   "sma200": 71247.1,
+   "price": 59160.0,
+   "chg": -1.18,
+   "chg5": -3.35,
+   "chg20": -20.68,
+   "sma20": 64374.25,
+   "sma50": 73774.62,
+   "sma200": 71246.58,
    "high3m": 86480.3,
-   "reg": 59255.6,
+   "reg": 59160.0,
    "pre": null,
    "post": null,
-   "regClose": 59255.6,
+   "regClose": 59160.0,
    "sess": "reg",
-   "mt": 1795869119,
+   "mt": 1795869701,
    "ok": true
   },
   "USO": {
@@ -1247,6 +1247,14 @@
  "news": {
   "credit": [
    {
+    "title": "Norton Rose Fulbright advises Truleum Venture Partners on launch of tokenized private credit fund - Norton Rose Fulbright",
+    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQT0Zfbk5GN2tqMC1iMmNJOE1jZmhRSXNsLWxCQUx2SEhwMEs0ZkZXanFJbV9CS1NiTS10aTN3a3VaNmtEa0s3SlN1dmlweVFRTEFjZFBTNDRtZFJPclhYQk5qMXktRTEyWkUwTGZkLUI2NkM4ZFpMUnRhbnZXYUoxYjE5NS11aktGajh0SmtOQWtVbG11c1VMWldhN09RMmNSaXJEYjNEaDVOSmFaVFlLQ1ctRVd6eDBSLUVGWmxGYVR1SGxfcFRjTzhUVHB3WHFiUFpwOXBlSlVNMnp5cUpCUi1aajdPYVNtWG0weHpwU1duaEdpekRB?oc=5",
+    "pub": "Fri, 27 Nov 2026 23:08:38 GMT",
+    "src": "Norton Rose Fulbright",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMXNsVU1kTHVDQkJTaGZNTnJfek5wN3dRNFVSMTlSZjFjZVhyWGhXYl9wTEJDV2h0NVUtOEFUUzlGSE9BX2hMTk9lY1JxLVRtVXFBWnZ2TFZKSW9BakQ4TGdWeEp1LWV2YTVDcUdfc1NSbzY2TDlMMkQ2QjNNYmJidml0VjViQ0J4TXRPX2p6MWIyTWc?oc=5",
     "pub": "Fri, 27 Nov 2026 18:30:08 GMT",
@@ -1285,14 +1293,6 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
-   },
-   {
-    "title": "Why are CoreWeave and Nebius stocks soaring despite mounting debt risks? - Invezz",
-    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc2dIZ3JxSld3UU1WSDZqSEpLWHFTZDFvY3laenlXRG9JWDJ6UnRFbTA1UVZIMWh0WUI4UFJpeTlrY3BibnQtWDZMNng1cmpILUJQdDhxX2RwNXQ0Q3dBdjRrS2Y1NmRMTkRLelNZMWFRSHliX0t5aG9wNnM5Ty0tcUVhRjB1X0ZOWWxQaA?oc=5",
-    "pub": "Fri, 27 Nov 2026 13:42:20 GMT",
-    "src": "Invezz",
-    "trig": false,
-    "geo": false
    }
   ],
   "fundamental": [
@@ -1313,14 +1313,6 @@
     "geo": false
    },
    {
-    "title": "OpenAI Countersues Apple Over Alleged Trade Secret Theft - JournalArta",
-    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMklfbEhwQ2NfS0phM1pTRUZNeW50Y3JLY0lHQlBDT054UjA1Q01uakVCRGJ3Y19xMUNTc2ROdFBqY2VHMmR1WFVGUFBMRGk1UWI1V2l0UkFfbGFhTDZ0QjQzbEZMX09tWGdIVWFpRHltTGpodEJkaVE0NWRKVkNxdUFfWEY1T1VMVzVkQWJGNlU?oc=5",
-    "pub": "Sat, 28 Nov 2026 11:26:10 GMT",
-    "src": "JournalArta",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Google eyes SpaceX compute capacity amid rising GPU rental prices - Crypto Briefing",
     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVWpDT0xJM1E1aW43UDhHYTlvSi02Vy1xc3RVMDN0UmhxQll3ZzAycHNFRHBuTENVWmVZQWFzU25SWHdXWDNQZFJYTXNmcFVrVHFBVlpmdUdyYy11YnBFbmpCQkFJS1h6ZXJLcDFoeTN1VGR0dUJzWUlhMUltWXZ3azV1X2ZRN25TQmtneFkzRGFCSmdjRDFuVQ?oc=5",
     "pub": "Sat, 28 Nov 2026 11:24:27 GMT",
@@ -1329,31 +1321,31 @@
     "geo": false
    },
    {
-    "title": "OpenAI Files Counterclaims Against Apple In Hardware Secrets Case - ETV Bharat",
-    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOd1ZjTHFPUkR6WHRWRzJ6Z0lGRGo5Y1h4SXdmYVdoTVZVUHpOa09YMXVrWXhBUnZZWjh0ZjVPdGhKMjI3WkQtM0xnSWtHTFNkU1RxS2xxZjlmbmFQR1hxMHdLcUJ2alNkZGs4RnoxTGc1RVFDVTIzZnRxVUQtemJoTEI3TklVaG9ldUd3Mmx2bHhoNnJWcEoyQnBpemlsa0s0YXJ0LVEwWHZtUXNVZEFKR3NPOGFTTTl2ZV9FV9IBwgFBVV95cUxQcEthRG5YdGljMHBvMTBjeEhIdW9SdE5vVE1Ua0ZSb2ItSGVRYjlyaTdvZlZRYVM5UWt3Q1hZeE9kRE83bkRXXzFVOE1Ca1pUQklEMkV4V01OUHR0d3pWT1RYZ190MlhqWXlZTGdmcmZCTjhuZDZpYkFqRXFSd0ZxQ0JFRjB5NDlTRXo1aEd4a2R0SXVsQ2MyZThiYVhYSVpjbFJiWC1uQm9qSEVuZTlUZ1dPVVhYaG9EbXYyU1lub3Y0dw?oc=5",
-    "pub": "Sat, 28 Nov 2026 10:34:49 GMT",
-    "src": "ETV Bharat",
+    "title": "Nvidia’s Blackwell GPU Implied Rental Prices Diverge as B200 Gains - www.tokenpost.com",
+    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12elVlV0w0MFdTYkRLSElPdUVlOVA4NHdLU1VGNHhpdllDUnhiRW5HcVRkU3ZRT0J2RnpnWHlmSUFEYlBwRkZZaE5TMVBCR3Nhc05tQ0o0N3RVdw?oc=5",
+    "pub": "Sat, 28 Nov 2026 09:03:25 GMT",
+    "src": "www.tokenpost.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Anthropic Introduces Claude Ship to Review, Fix, and Approve Pull Requests by Policy - infoq.com",
-    "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE9ya1BveTl5ZlF2MjR5aEpFaTNOdjdGTXFJTmxzRDJ4TExUYVBmelRLM3hHWVlCR0lNN0dwakIyM01kQ2xyY0NOZHlIb0U0ZTNjSXBTSWQzN3FSNzZpSDBkdzVhUmZWRkpM?oc=5",
-    "pub": "Sat, 28 Nov 2026 10:08:32 GMT",
-    "src": "infoq.com",
+    "title": "TSMC Gains as Foundry Share Hits 75% - Wisevoter",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNUTFNTk1MR2NabUp1VERST3psamJreEk3MmdXa3JvNDhxRnBWSnhUNG5HYlp4X1pDV0NmMjROcXNaVzdJcVpGdk1aQ1BrR3hkdl9TYWp3aDFsZEhKMS1ycTBGcUFsd0dJMVUyVTIweFVpNTM1M2otbmFZeVBEQXZjUUJtekdKQWdl?oc=5",
+    "pub": "Sat, 28 Nov 2026 08:48:19 GMT",
+    "src": "Wisevoter",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Key facts: Satellite approval; Anthropic $120.5B; Trump Account shares - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMGFoYzBpUEp1UzZLNkRmbkpNY3hxNjhYbWN1cUJCajU1dFFZNWdCbTRxWGNwS0xVaVF4WVRZRUxTeTJmSUl6eG1MQ3RsejJ3RWNnV3BCMFZoRkxWT3JPV1NtVE1ydm1qSl8xMXcyOURHRDFsSk5mSXhGMkZxSW00UnVmekMxUGQ2enRuWkJqMEVuTGR3UHRxV256SmpINGpLYnZkWHpMWTdDZTAySURMZ1ltMUR4RF9LZmxQU01IZmpQOHZIU2xv?oc=5",
+    "pub": "Sat, 28 Nov 2026 08:00:00 GMT",
+    "src": "TradingView",
     "trig": false,
     "geo": false
    }
   ],
   "macro": [
-   {
-    "title": "Ukrainian Forces Strike 15 Russian Military Depots In One Week - Menafn",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbjFzX3dmck5CbWUybUVMYzhBYUxlOFFDajk0STIwNmoydDFjNzk5SlhkVEVoN20yektfZDNmMjBhUXVvSGZuWkJKb29QLWNLM0ljVWx2WE9ZQUZsQndLYmFJelIxSnVVLXNRU0hUS1c2ZDc0aHlhakU5VmJQeGRpbUtfYXZUMTJ1Wnh6V2Qtd3JqdFBqTDBZ?oc=5",
-    "pub": "Sat, 28 Nov 2026 12:05:03 GMT",
-    "src": "Menafn",
-    "trig": false,
-    "geo": false
-   },
    {
     "title": "Gold and silver prices recover, but Fed rate-hike risks persist: Where could prices head in six months? Expert views - Livemint",
     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxNTGpCc2lvMzkzcWxEbG1nN21aSkZQLU1IVDU5QjdoNTZrUjN0OUZwN2hkSGlzdUlIZkRya3RDWXVseDNzckRNdkJLbzdIdWU0dDdSTDFSLUZDcXlJV09ERFdZT1BhaEQ1VHJOODVxNWFadzFkTk5HM1BNRE4xMzFGLVl5S19vSkJDMFFqb2pvUGZCNUtCNDlFd0dRSUktV0dRVUEyNGhqc1BnV2NscTQtWFJCM3poZFpzeXppcDkwMDJiWmR4RHVVNlh1SFF2WHR3TjdMZ2ctSXZ4a1ZZVGFFYzVWckhYbVAzbU0zSXN6eXFPUDY2RnlQQkRkYXFvUWNNTW1yd2VMZU42Tmd1TUHSAZMCQVVfeXFMTmxma3NtNUU4Q2VVZmdKOUhyNUpLVFNCaHV6U2dEQmtKc25rT2pvOV96aTlDWlg5dHZPVlZfcENVWGh2YzdjSWpXZVJZcXFaOVJQaW9EMlVYNVpNZFhSWm5IYUlmc0t6QW1OSmJ1aUNkWE9scFpnc24wTG5NZGh6a3B3a2RjcWNpSFBONE5fa3U5bVJLRjVkWVptZ09wbDZacVJUNHBRRmxHOVlnWGZFcEl0SjlGMTNEZEU3UFNaemFSaXM3TGxFZzZrcExQdmR5Yjd0aXhEdG5wd3UxVnlDeU9oYWEwQl9uZWRRWUZYZVdqWlU2bHBra0xpMWs3YVNhVlhwR1ROVTgtOThCNDN3aU45TWc?oc=5",
@@ -1393,6 +1385,14 @@
     "src": "VT Markets",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "From war premium to demand concerns: What is driving the sharp fall in crude oil prices? - The Economic Times",
+    "link": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxPT0dibUREWVV0WWJORGZ2QU5ZU18zNjZIRktURkstN0I2T0hEWHYxRElGQ0VEbkszOEdpdkVhelQ5OGdweVFaUF9oNzRTSXJ3TjdlMmVOMHJ3bkJVMk1qZTN1eWdWVFRzRkFWOWFHUjY2LWg4WkF1czI1MGQ1Zmw3bE4ydlZyR0NjbUtxSHo4czk3S3BjS0Fib2hMcl9XcXhENHFSTWl1WUVHQ2YzU3VET0szMHZoblNySW91LVFfOWZTRWdsQ0NzYnJpcjI1YVkxVS11U2llTXJXa3oxYk5XcElnTFotbjNSbWVXYXVlNWRzOGRkNXBicNIB_gFBVV95cUxOb1FKaWRka0U1eHpBLXRKLThtWk1mMldVSnkwUF9zWTZFQnowaTltQk03ZUFJRzdFWHFGcjgwb3R0TmlDalM5cUNJWkFDSUFPek5fTGQ3cndYN1EydFdYMThraEF0ZjByRW9QWk5mdHNVLUpwMjExMzUtU2s5OWJSemlSMXZZTGxMZ0ZrTUNGbjhHV2Q1ZkpiWXdBc0JFUmdkdEhYWVJVcTE4ZTBtREJTY2J0cnJ3YzY5WC1ucTRuQ1I3M0NLYVFiRFM3bjBQTWVnTzlXOElvZ1RVMzE0bVFaY05lbDQzQ2ExaTNhTmRMeG9PVVh1R1JyakVZQWNRdw?oc=5",
+    "pub": "Sat, 28 Nov 2026 05:05:56 GMT",
+    "src": "The Economic Times",
+    "trig": false,
+    "geo": false
    }
   ],
   "flow": [
@@ -1413,22 +1413,6 @@
     "geo": false
    },
    {
-    "title": "META_TITLE_QUOTE - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CWlQySnR5LVZRTkwtSlprMTVXQnJRUlN0THNSZ0R5Z2JfN0NrMUtyU0tmVkdHLXZKd2FEbFdTSnZEVElXcmlOUEptWjFmbVdR?oc=5",
-    "pub": "Sat, 28 Nov 2026 10:40:41 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Gas and diesel prices fall in Grand Junction, offering drivers relief at the pump - KJCT",
-    "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPd011U0d1cXlCTDlCRGFDUEg2RFZwTFl0ck1nVi1pZGdBdXhiWnpBUFkyQ212YS1fSTR6a0ZvNUNQcW95aWdaTm9wc2M3UWdKRGtTQno0NUVJd3hzYTV0RlQ5MFUyZFhycDVCYnJaZ0FRWmxzbzAxXzlnWUd0TGdWYzBzb2pkTkRCS19WX0pVWk5RMzhwM0REcU9QVnlHX1NBTkHSAbYBQVVfeXFMTmw1NTlSdWxWNUxDU3VpSVhOUVcyVFlVamNlLUJYODhZR2x6Mk9JUFZMOGViUjFqLUIxTkVWeGMxakdxUEt0a1hUTG9TTzNVcFhFYWJwM2pITUFxSWRLemNoaEQxOTl4cTVtTm14QlhMZlZBWkFGTGF5TnVWT2hrRURTeWxHOTV3bzY5bTNIOU84QTB5U01wTHktODZrdjdtNnlSdDZNUmNnY0hweXpWb0puZ3RTYWc?oc=5",
-    "pub": "Sat, 28 Nov 2026 09:31:10 GMT",
-    "src": "KJCT",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold price prediction 2027: Should investors buy yellow metal after the recent correction? Experts' views - Livemint",
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNM3NIaHpiRWRNNmxVQi1rWUxoMk9iRnZXRVV6c1ZRRU45djQwZWgzVjlLanNEdDJ2cWYxSWF0NWsyM1ZIdldnX1hfdGNuQ3hTYldIS0hQS0dLNFBCUFROcVhuQmRnSjlyeFdXMG1rXzl6cE5DU0FiLV9HX0tfODRBb3QtTjlRTnVJUEU0aDI5TVNzOC1aMkxIRUdVeUtMcWRrcDhSLVoxeDU3X0hPeVlHbkZvOV9qVENYeVB3WFk1OTBrem9NWjdNNDBpaUV4ODljcThsd0pyMmpiT0Z4VmhOZEg3MFNnSnA4eDZEUTlCc2Iwby11TGxUUzJR0gH_AUFVX3lxTE9ud2dwS1RhS3ZYY2RpRXcxNHJ3cGlxSk9IVklSNXlVNlpYaUtmN3pjbGlhSDh5d2U2cFMwdU1GNk9sbTlGWlpkRXczUUhWSEc0Tm1sVU1sdk40RFR1Ujk1cTY4TkVtNW5sRmxoeGJrUlRDd3puUV9Tdi0yWFJWUnRiQTN4ZE5HODVEUDFEWUZYbkdrXzhNa1JlakVKSzkzRDFXcFZCbERyX29tcDZlTG0yRUtLQ2F3ZkN5RFhfV1RreS1xdlFBQ3JFcHo4dEJxdE5IcV9GdEFMdklIbWNBN0NOb0wweDhfRzJCQzA2RWo2bWVaTXVOOG9YNXdfN1BtRQ?oc=5",
     "pub": "Sat, 28 Nov 2026 07:30:47 GMT",
@@ -1442,6 +1426,22 @@
     "pub": "Sat, 28 Nov 2026 07:01:00 GMT",
     "src": "Shanghai Metals Market",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper Slumps Amid AI Roller Coaster But Physical Supply Remains Tight - WSJ",
+    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXJXdFVUTFZpNnl3SlJWbU9iV0ZaOGh1QUVUR1o5WjYtOXhwb3M1NUROaFFTb3NpOUJRZ1ROZ2Y0NlVlOWhwb0htcUY3SV9hYlRmZnMxT2Rnc21UMUlmazQwZk50TF9SY0U2enpKTzQ1a1hwbTY2aGlLbmM3Z0xkODBrQWg1YVdSREgtMjRKR1JHUk1RN3hrZjEwNmZpUk5EZktvRFVNdklzVzl5R0x0Mlh4Q3k2UmoxY203SFU3R1kwWDBQUnc?oc=5",
+    "pub": "Sat, 28 Nov 2026 06:29:14 GMT",
+    "src": "WSJ",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Codelco Copper Output Falls as Accounting Scandal and Asset Write-Downs Deepen Crisis - Latin Times",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0ZQMzRER1l2OTdnUXFvcmVNekNsZ2Z4VzJHSzItNVRKeHhQdmg5N2IyMlhlVTJ6SU5QNXZwa2NVV1FrQmpaVFQ0N0Jlb1JuLWdTWEdxVERSVG8yQ2p4bnpicUo3dkJMRFBTbkVfaDdQR2VpeHZwa0U3MDVvMlBwQTNJc0xxd2x1?oc=5",
+    "pub": "Sat, 28 Nov 2026 05:08:48 GMT",
+    "src": "Latin Times",
+    "trig": true,
     "geo": false
    }
   ]
@@ -1735,7 +1735,7 @@
    77434.75,
    75747.58,
    64128.05,
-   59261.88
+   59165.18
   ],
   "vixts": [
    0.83,
@@ -2818,7 +2818,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-28T12:32:19+00:00",
+  "checked": "2026-11-28T12:42:01+00:00",
   "openai": {
    "found": false
   },

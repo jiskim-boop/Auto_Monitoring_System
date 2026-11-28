@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T03:42:20+00:00",
+ "updated": "2026-11-28T03:52:08+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59890.0,
-   "chg": -1.0,
-   "chg5": -2.08,
-   "chg20": -20.93,
-   "sma20": 65146.66,
-   "sma50": 74242.82,
-   "sma200": 71312.4,
+   "price": 59863.85,
+   "chg": -1.04,
+   "chg5": -2.12,
+   "chg20": -20.97,
+   "sma20": 65145.36,
+   "sma50": 74242.3,
+   "sma200": 71312.26,
    "high3m": 86480.3,
-   "reg": 59890.0,
+   "reg": 59863.85,
    "pre": null,
    "post": null,
-   "regClose": 59890.0,
+   "regClose": 59863.85,
    "sess": "reg",
-   "mt": 1795837301,
+   "mt": 1795837892,
    "ok": true
   },
   "USO": {
@@ -1297,14 +1297,6 @@
   ],
   "fundamental": [
    {
-    "title": "OpenAI counter-sues Apple, alleging theft of trade secrets. - Vietnam.vn",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmF5WWF0eVZmYnljYU11Sl9MZHBJZTQyZldWV2YxQkZ5clNmVUxZMkozcUpWMG5Yb0FrU3R1TWJ5dGlHaTRSN0luNVY4SGd6VWhSR3AyRkNLVUJENEl4T2NqUFY1WXdaNXdEM2JIUXhSSFJwcWc5UmNyRTA3QXhIdHZVQjV2V0JlVUlhNWF3?oc=5",
-    "pub": "Sat, 28 Nov 2026 02:55:32 GMT",
-    "src": "Vietnam.vn",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "How Does Capex-Led Margin Pressure Shape Alibaba Group Stock's Future? - The Globe and Mail",
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSFNiYm96SEsyWkhHdE5JTXNWcU5lYkdaVUg2X1Z2cjFrMGh6VnFlTEpReFpjRXBNcEVLbDlkbXMxYkZhM3VWT2RpaW8xNlVJdGV1ZHVfVTdlQkp6NHVGN01SZXFCTU5fRmg5ZDdveWZSTmR2alFrZlBwcmVQMVh6WlloNE12RXk0ZlBad2hLZG5hNFQwMVhON3FodXNsU2dRTVVJQVpKTVp4S3pncGZwcW0yc3VGbVNHUGFhRHBnX0JFWDg5a0tob1AtdWd5RW9fRF9jT2VYUXRDQUVTblNvOXlxYkhEVE9oaDVyMA?oc=5",
     "pub": "Sat, 28 Nov 2026 02:46:53 GMT",
@@ -1321,26 +1313,34 @@
     "geo": false
    },
    {
-    "title": "​OpenAI Files Counterclaims Against Apple Over Confidential Hardware Plans - The420",
-    "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWjUyemZGWW52R1dZdXNlLVJ1UGdLcnBEUGpsbHdINkFwRmN2a1FybTUwQ0F3OFJ1VlpLcERGaGZVRU9rUWQ0Mkthb1BRQ3FrYlhXbXZEU25MZlBqbDloNTd1YktzV3JpNURwQ1NwQ3Q2Y2t3VlZmWmdSanlqb2Jycmlwd2liSndPd1FCSDZXdjFsTVYxWnNJ?oc=5",
-    "pub": "Sat, 28 Nov 2026 01:47:03 GMT",
-    "src": "The420",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "OpenAI Countersues Apple, Alleging Supplier Pressure - AndroidPure",
-    "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE54NENmV1ZiLS1hV3ppUHV2cDE3eXhkbTdVRFVGRDJyX09FbTBTMWNlLTY4dktfZ3ZJZU1FWUlnSUFQb2s1T0FFdTJ0aFlNOE9vOHo3Wk1ub0lCc1ZYVHBkMnVKSQ?oc=5",
-    "pub": "Sat, 28 Nov 2026 01:14:27 GMT",
-    "src": "AndroidPure",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "OpenAI countersues Apple over trade secrets as AI race heats up - Al Jazeera",
     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1UyNzVUM1VWYllDUVB5Rl9LVDYwZExiMWt2WFp4eWVUckVjdDhqbFFfSXR1b2NiRm9LbFZQZ2xlZTNkRmtaSkZnb2M4ekJwVkVxbE1jdmNlazc2QUMxallwb1JpTWRvVk9ZOW12SVM5MTZ4RS1CQkNGcW5qZlMySWJZTjBkNXBtZXByR0NuVWdJZWVXWW8zcWRsTUF1ZUJXMlNVNWxEM2l0VThn0gGyAUFVX3lxTE16T05QbEdEbTdCUklBU3kyX05YX2RxaTZrVl9yWTEtWDF4dThXOFAyODNDTjFHTy1LRmJkZEJpd1E0eTBOaWxkS0NXV1BIWFo0V1ZTU01JMzd5bVpkMHFWTEhSNEVBT3E1cXd1NVJFbEJtSXFURGpxMzlKOWtNTXg1amFKZDhEOWttUlhkU1Y2UmVnSUgwRWZqWmJmTzdRaVBNM01pczFxTnh0RzYxRk02MFE?oc=5",
     "pub": "Sat, 28 Nov 2026 00:26:08 GMT",
     "src": "Al Jazeera",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI asked investors to steer clear of xAI, Anthropic and three other named rivals - Crypto Briefing",
+    "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1ZRTFlczVTaG93T1MteExmUXJFWU5FckJwY2MyUVkxZUZvNnVVZnNwSHk3aFRzejFoaVBxTUllN0V2akNkUkFJb25acHRaTUQ1THJqaF93NWFDaFR5YmkzNjcyMGllVkl6V3ZBeW03V214TGxrd2ozV3Ricw?oc=5",
+    "pub": "Fri, 27 Nov 2026 23:17:11 GMT",
+    "src": "Crypto Briefing",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Cloud GPU Providers: 5 Compared, RunPod H100 $1.99/hr - shattered.io",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTGlkMW51R0l5T3NNM0tPR3JyUnVvV3ZuVnFwWkUwbmx4blk4dmp6OFB5VG1BMEgwSkFZUEE2NWZEdXJ3aHNnOXBTdVZZYWgyT0JueGdhLXJJZ3A3Z1lGRzZKZ1kyMVRiQXQwYzFtOHF3bkJ1UWQtX2FtTktTMm1rSEFWajN5MDROWDAzNEE2NUpJRkl2aDkycXlB?oc=5",
+    "pub": "Fri, 27 Nov 2026 22:50:07 GMT",
+    "src": "shattered.io",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Says Apple Pressured Suppliers to Shun Its Devices - Bloomberg.com",
+    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPV0xaWXJoMk5iSnR5QTZlS2ZUeWNxZlVmQU9NZEs4TnpYVWRGYWdoeW1yWVdlNlUxRDZ2QmZtbVJncGxJUW5HcjBrbzFISUJKYkxGVzJmN2NvWW9QeWtmNkVOTHBpNkZBYXRwdjBOUjRyeDBHMWplZmQ4YUx0cjNMcE9naVV4bzZuSlVBZTB4WHg0RUlsZkRxLVdobWpUUFlUbmNVYkxMX3ZPQlQw?oc=5",
+    "pub": "Fri, 27 Nov 2026 22:44:24 GMT",
+    "src": "Bloomberg.com",
     "trig": false,
     "geo": false
    }
@@ -1405,18 +1405,18 @@
     "geo": false
    },
    {
-    "title": "Gas and diesel prices fall in Grand Junction, offering drivers relief at the pump - KKCO 11 News",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmRvMWdiclhhVGNqYmxwckxiWDdUNV9Ea2phOUR4eEQzai1CRDA2eWZVYU5HaWh2cm9MR3NZVmpYRXotaWtqRXloX2JZRndZT2RSSjJtbFVVem1WaUdHczhTSUVhZkR2U09ubmNUT3lDOV9JcEJVdHhiTUZEVjMyb2k4dU5YNkpRbEMyaGU3ZFlZUWxMS1d0eVhTakVzQlNBUmNkcHU2Q1DSAbwBQVVfeXFMTWVpeXE0d3R3YjdNV0liRHEyM3VHT1JaZnA4dWpVdEt1dGlYd2dibjJxYTFma2xpak8yc3V5QWc1bnZ2UU5nendmUzBKc3F2alpXa2ZoUzZaZWF0SEVEM20yb1BubTBoQ2NSTnZRY0F0ZE5OMXZlMXhOb2IzaDNIUjlvMXYwOThub09vSXJVa2h6bGV3ZzdhaUV0SGJPcDNEczdkeU5UWWktenExaXpHY1U4NnNibUdCQmlHSm0?oc=5",
-    "pub": "Sat, 28 Nov 2026 02:03:00 GMT",
-    "src": "KKCO 11 News",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "High oil prices, Canadian producers and pipeline access - Fraser Institute",
     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaUFGSFluYkpJLWtZbTBHMkJwZ3E5TkJQNlNnOGVERUU3cWJUM0xPVVQwMlBCMTdROUZGdWE1aWs3X1Y3UEVzY3Q1UEhyMGlxUHMtSF9NWWVqMk1JTU9UelMtOE9YZjM3LWtVUThpbXlwS1hSMlFBNFNicmZoSFJ4V1M0TVUtT3JReV9NSVB5Y0g5b09OX1dOYnVYRmJHQQ?oc=5",
     "pub": "Sat, 28 Nov 2026 00:56:59 GMT",
     "src": "Fraser Institute",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
+    "pub": "Sat, 28 Nov 2026 00:48:57 GMT",
+    "src": "Kitco",
     "trig": false,
     "geo": false
    },
@@ -1735,7 +1735,7 @@
    77198.21,
    75746.93,
    68249.27,
-   59889.99
+   59863.62
   ],
   "vixts": [
    0.83,
@@ -2818,7 +2818,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-28T03:42:06+00:00",
+  "checked": "2026-11-28T03:51:53+00:00",
   "openai": {
    "found": false
   },

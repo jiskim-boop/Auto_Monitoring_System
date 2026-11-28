@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T13:12:10+00:00",
+ "updated": "2026-11-28T13:22:24+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59190.32,
-   "chg": -1.13,
-   "chg5": -3.3,
-   "chg20": -20.64,
-   "sma20": 64375.76,
-   "sma50": 73775.23,
-   "sma200": 71246.75,
+   "price": 59117.22,
+   "chg": -1.25,
+   "chg5": -3.42,
+   "chg20": -20.74,
+   "sma20": 64372.11,
+   "sma50": 73773.77,
+   "sma200": 71246.35,
    "high3m": 86480.3,
-   "reg": 59190.32,
+   "reg": 59117.22,
    "pre": null,
    "post": null,
-   "regClose": 59190.32,
+   "regClose": 59117.22,
    "sess": "reg",
-   "mt": 1795871496,
+   "mt": 1795872105,
    "ok": true
   },
   "USO": {
@@ -1297,6 +1297,14 @@
   ],
   "fundamental": [
    {
+    "title": "Feds approve SpaceX’s plan to deploy 1M AI data satellites - San Antonio Express-News",
+    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNSkFIb0hvOVhWX3hFSUJpdUMwNkFjR2pvTFFWeWRibVo0SEVHNkMyN1Ffdk5jLVlGbE5LdmhqenVUTjlycHExUlBBRUpMWjFXQ2xkaWtmOHpKQkI1SGNLWHZsSFV1QW1EXzVFeTZuMERYcG92RE92OVN0cEJCM2trT0NQX0VlcVJWcFhWVzNZUWdzbE5hYVBGS0FtWk5DTkptTFRteWJ3?oc=5",
+    "pub": "Sat, 28 Nov 2026 13:08:11 GMT",
+    "src": "San Antonio Express-News",
+    "trig": false,
+    "geo": false
+   },
+   {
     "title": "Musk Says SpaceX AI Cluster Rental Prices Rise for Large Deployments - www.tokenpost.com",
     "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE84MHp4RjlreWlFMndydzVMLVdFVE12OEwxSWtMakhiaVJvSFQtdUhaQ1YxX2dVTE9XRGFnb2Z5N1c5Q0JOemtPbmJqek1BaXJLNnpkQlcycFJvcFU?oc=5",
     "pub": "Sat, 28 Nov 2026 12:26:47 GMT",
@@ -1329,18 +1337,10 @@
     "geo": false
    },
    {
-    "title": "Starship’s triumph and Vulcan’s failure - The Planetary Society",
-    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1CUm15aElOR3Bnb3RkOFhXUVdOR2NNVzVKcjJUaHZ0UXQzRUUtaUthcnR1aTYydEoxYlhFYW0zZWM2NHlSeW1pbzh1c1JsZHB2bE9JSWE4MmhicE81TGJDN1RHd0NYSkoyNHg3VmZQWWhtam5Tdy02ZGNoSFI?oc=5",
-    "pub": "Sat, 28 Nov 2026 10:46:19 GMT",
-    "src": "The Planetary Society",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Nvidia’s Blackwell GPU Implied Rental Prices Diverge as B200 Gains - www.tokenpost.com",
-    "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE12elVlV0w0MFdTYkRLSElPdUVlOVA4NHdLU1VGNHhpdllDUnhiRW5HcVRkU3ZRT0J2RnpnWHlmSUFEYlBwRkZZaE5TMVBCR3Nhc05tQ0o0N3RVdw?oc=5",
-    "pub": "Sat, 28 Nov 2026 09:03:25 GMT",
-    "src": "www.tokenpost.com",
+    "title": "The IPO Is the Exit, Not the Entry: How Private-Market Investing Captures Real Growth Before a Company Goes Public - Yahoo Finance",
+    "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRXZGcGliSlY4VE5sN252VVlXSEswV1FrdXBwbG03R2lvM3VLRjJkSWdRdWEwWjVvTTdVbHZIV2RNTDdOTE5qWFFDZE9BT3l5WmdjZktTUlk5bnEwZlhYQzRLclFhUHNPUXBvTTZOSnRUTFFMdkc2MGVHZUpKVFI1LUh4RzRBaVZHZVJrNXp5c3o3cy1RNlE?oc=5",
+    "pub": "Sat, 28 Nov 2026 11:00:00 GMT",
+    "src": "Yahoo Finance",
     "trig": false,
     "geo": false
    }
@@ -1413,14 +1413,6 @@
     "geo": false
    },
    {
-    "title": "META_TITLE_QUOTE - Yahoo Finance",
-    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1CWlQySnR5LVZRTkwtSlprMTVXQnJRUlN0THNSZ0R5Z2JfN0NrMUtyU0tmVkdHLXZKd2FEbFdTSnZEVElXcmlOUEptWjFmbVdR?oc=5",
-    "pub": "Sat, 28 Nov 2026 10:40:41 GMT",
-    "src": "Yahoo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Gold price prediction 2027: Should investors buy yellow metal after the recent correction? Experts' views - Livemint",
     "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNM3NIaHpiRWRNNmxVQi1rWUxoMk9iRnZXRVV6c1ZRRU45djQwZWgzVjlLanNEdDJ2cWYxSWF0NWsyM1ZIdldnX1hfdGNuQ3hTYldIS0hQS0dLNFBCUFROcVhuQmRnSjlyeFdXMG1rXzl6cE5DU0FiLV9HX0tfODRBb3QtTjlRTnVJUEU0aDI5TVNzOC1aMkxIRUdVeUtMcWRrcDhSLVoxeDU3X0hPeVlHbkZvOV9qVENYeVB3WFk1OTBrem9NWjdNNDBpaUV4ODljcThsd0pyMmpiT0Z4VmhOZEg3MFNnSnA4eDZEUTlCc2Iwby11TGxUUzJR0gH_AUFVX3lxTE9ud2dwS1RhS3ZYY2RpRXcxNHJ3cGlxSk9IVklSNXlVNlpYaUtmN3pjbGlhSDh5d2U2cFMwdU1GNk9sbTlGWlpkRXczUUhWSEc0Tm1sVU1sdk40RFR1Ujk1cTY4TkVtNW5sRmxoeGJrUlRDd3puUV9Tdi0yWFJWUnRiQTN4ZE5HODVEUDFEWUZYbkdrXzhNa1JlakVKSzkzRDFXcFZCbERyX29tcDZlTG0yRUtLQ2F3ZkN5RFhfV1RreS1xdlFBQ3JFcHo4dEJxdE5IcV9GdEFMdklIbWNBN0NOb0wweDhfRzJCQzA2RWo2bWVaTXVOOG9YNXdfN1BtRQ?oc=5",
     "pub": "Sat, 28 Nov 2026 07:30:47 GMT",
@@ -1442,6 +1434,14 @@
     "pub": "Sat, 28 Nov 2026 06:29:14 GMT",
     "src": "WSJ",
     "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Codelco Copper Output Falls as Accounting Scandal and Asset Write-Downs Deepen Crisis - Latin Times",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0ZQMzRER1l2OTdnUXFvcmVNekNsZ2Z4VzJHSzItNVRKeHhQdmg5N2IyMlhlVTJ6SU5QNXZwa2NVV1FrQmpaVFQ0N0Jlb1JuLWdTWEdxVERSVG8yQ2p4bnpicUo3dkJMRFBTbkVfaDdQR2VpeHZwa0U3MDVvMlBwQTNJc0xxd2x1?oc=5",
+    "pub": "Sat, 28 Nov 2026 05:08:48 GMT",
+    "src": "Latin Times",
+    "trig": true,
     "geo": false
    }
   ]
@@ -1735,7 +1735,7 @@
    77434.75,
    75747.58,
    64128.05,
-   59206.83
+   59105.49
   ],
   "vixts": [
    0.83,
@@ -2818,7 +2818,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-28T13:11:56+00:00",
+  "checked": "2026-11-28T13:22:08+00:00",
   "openai": {
    "found": false
   },

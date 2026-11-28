@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T09:32:29+00:00",
+ "updated": "2026-11-28T09:42:13+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59588.48,
-   "chg": -0.46,
-   "chg5": -2.65,
-   "chg20": -20.11,
-   "sma20": 64395.67,
-   "sma50": 73783.19,
-   "sma200": 71248.9,
+   "price": 59464.22,
+   "chg": -0.67,
+   "chg5": -2.85,
+   "chg20": -20.27,
+   "sma20": 64389.46,
+   "sma50": 73780.71,
+   "sma200": 71248.23,
    "high3m": 86480.3,
-   "reg": 59588.48,
+   "reg": 59464.22,
    "pre": null,
    "post": null,
-   "regClose": 59588.48,
+   "regClose": 59464.22,
    "sess": "reg",
-   "mt": 1795858311,
+   "mt": 1795858892,
    "ok": true
   },
   "USO": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Norton Rose Fulbright advises Truleum Venture Partners on launch of tokenized private credit fund - Norton Rose Fulbright",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQT0Zfbk5GN2tqMC1iMmNJOE1jZmhRSXNsLWxCQUx2SEhwMEs0ZkZXanFJbV9CS1NiTS10aTN3a3VaNmtEa0s3SlN1dmlweVFRTEFjZFBTNDRtZFJPclhYQk5qMXktRTEyWkUwTGZkLUI2NkM4ZFpMUnRhbnZXYUoxYjE5NS11aktGajh0SmtOQWtVbG11c1VMWldhN09RMmNSaXJEYjNEaDVOSmFaVFlLQ1ctRVd6eDBSLUVGWmxGYVR1SGxfcFRjTzhUVHB3WHFiUFpwOXBlSlVNMnp5cUpCUi1aajdPYVNtWG0weHpwU1duaEdpekRB?oc=5",
-    "pub": "Fri, 27 Nov 2026 23:08:38 GMT",
-    "src": "Norton Rose Fulbright",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets - Yahoo Finance",
     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQMXNsVU1kTHVDQkJTaGZNTnJfek5wN3dRNFVSMTlSZjFjZVhyWGhXYl9wTEJDV2h0NVUtOEFUUzlGSE9BX2hMTk9lY1JxLVRtVXFBWnZ2TFZKSW9BakQ4TGdWeEp1LWV2YTVDcUdfc1NSbzY2TDlMMkQ2QjNNYmJidml0VjViQ0J4TXRPX2p6MWIyTWc?oc=5",
     "pub": "Fri, 27 Nov 2026 18:30:08 GMT",
@@ -1293,14 +1285,38 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Why are CoreWeave and Nebius stocks soaring despite mounting debt risks? - Invezz",
+    "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc2dIZ3JxSld3UU1WSDZqSEpLWHFTZDFvY3laenlXRG9JWDJ6UnRFbTA1UVZIMWh0WUI4UFJpeTlrY3BibnQtWDZMNng1cmpILUJQdDhxX2RwNXQ0Q3dBdjRrS2Y1NmRMTkRLelNZMWFRSHliX0t5aG9wNnM5Ty0tcUVhRjB1X0ZOWWxQaA?oc=5",
+    "pub": "Fri, 27 Nov 2026 13:42:20 GMT",
+    "src": "Invezz",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
+   {
+    "title": "Toyota Motor stock: 2026 guidance range cut to 16%-18% - ad-hoc-news.de",
+    "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQdHRHMnNhSHhCVFg0T3dKVkJ0eHIzaENIT2RIV3pTVkpabE1jRXZ3eTdXZFVBVWhkQXlST3JhOGlWSlNZemN3WEE4WHdaM0JnMXdoREszNGRudWJlLWlSMjRoX1VkUkw2akg2ejNYTG4xcDZUdnA0RHBrbGpXelYyaEVBMGljSmw0UWIzZHczaVdiYnZyLU9qVmJQMmFKMnl2LVFIWTZTOFJ3RlhTeFBaajNNajc?oc=5",
+    "pub": "Sat, 28 Nov 2026 09:23:41 GMT",
+    "src": "ad-hoc-news.de",
+    "trig": true,
+    "geo": false
+   },
    {
     "title": "Anthropic Finishes First Full Week Above IPO Price - Bloomberg.com",
     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeVhwM1d4VGtCX3pRUlBUcWljb2JSOENMbHhNcW9WRDFCNnBrd2I5MzdkLVdOSkViVWFXeHNPQ1lwN0Rwd1kwR19XdGs0Ykd2NzBlNUVoaUMyVW5GRHFWYTl5MHlPQ0dibURnUkc5al8xczVnMmluV1ptWUhDVkQtNm9VYl9RWU1VWnVtQll3a0ZMQjFERHQ0T3F4ek80MjE4bWZWcHE0MF9Eb1ZZSzVuZk9EVHNSUQ?oc=5",
     "pub": "Sat, 28 Nov 2026 09:13:47 GMT",
     "src": "Bloomberg.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI Countersues Apple, Accuses iPhone Maker of Stealing Trade Secrets - INDToday",
+    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVHVXMUJKd2VmSUVIdVdsQWR1eUFwSWpwX0JPTVpaMHZYWFY3MDVjMl82OHFPM1hLUEgya010eGlrQnVGU2ljWGNiQ2pWdVQ2T0l1WGFrWUtYQzF2c3ZnLVNGeVVVVXAyWHhUT085RFhYNTlBM3VtenFoeFQtNDRHMV9WeTUxNi03STVPZkt0MVcwOUU5Vjg3TQ?oc=5",
+    "pub": "Sat, 28 Nov 2026 09:05:19 GMT",
+    "src": "INDToday",
     "trig": false,
     "geo": false
    },
@@ -1313,34 +1329,18 @@
     "geo": false
    },
    {
-    "title": "Key facts: Satellite approval; Anthropic $120.5B; Trump Account shares - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPMGFoYzBpUEp1UzZLNkRmbkpNY3hxNjhYbWN1cUJCajU1dFFZNWdCbTRxWGNwS0xVaVF4WVRZRUxTeTJmSUl6eG1MQ3RsejJ3RWNnV3BCMFZoRkxWT3JPV1NtVE1ydm1qSl8xMXcyOURHRDFsSk5mSXhGMkZxSW00UnVmekMxUGQ2enRuWkJqMEVuTGR3UHRxV256SmpINGpLYnZkWHpMWTdDZTAySURMZ1ltMUR4RF9LZmxQU01IZmpQOHZIU2xv?oc=5",
-    "pub": "Sat, 28 Nov 2026 08:00:00 GMT",
+    "title": "OpenAI Countersues Apple Over Trade Secrets And Supplier Dispute - WE News English",
+    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4tSmV3QmpjYlpSbDdtUGlrTmwxbjVRTGtVeGEwVDhFcHh2UUVTWW5pelNLU1lVT3JkZm9MYlJMNnV6SUNYNFh6UVBtbGFWbjlyanduQm0tTEt6dHd1N0JqWkRpRXJxMGRJYmZIV3RR?oc=5",
+    "pub": "Sat, 28 Nov 2026 08:48:45 GMT",
+    "src": "WE News English",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI’s 457 MW TensorWave Deal Could Be Worth Up To $9.1B, Say Analysts: What It Means For AMD Stock - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxPYnFzZnU5cDBJN3NOdzRhcXpSZU50aFVGQlY2amFnQTl6a3F3aTd3dXhzZWlCbHVzRHhCeGJCODdLNlBadUlxcFh2aUhubVlpREJLcEdOS2FrdnJKaVJhMEdOd0hNalhDb3RwS1R1MzBHVXhxVDNlM1FxQ0dSSWR5NlNmZ1dJNlpVRDBOQkZIQlNiWlVGWS01aXBFdWl3SjI0N3pWRy1KeEFRMmEyNlpDeFNmMWNvMFM2Vk1FQjE4TEVfMk5OSnVEdS11XzZaUVBjd2tNUUh1aWMxNXktMjh2ZzFIeDZKTmplekUtaU9kTG0?oc=5",
+    "pub": "Sat, 28 Nov 2026 08:29:50 GMT",
     "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Cheng Uei's AI Computing Center at Full Capacity, Generating NT$30 Million Monthly; High-Speed Cables and Robot Dogs to Ignite Twin Growth Engines Next Year - BigGo Finance",
-    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBfRHdrYnM4b3FuUW1SbXNHMkhqU1prWkVPb0lRT1kzVnQ5cjZiUlNqTXJVNVRGeTdEQ2pJd1FfVkkwby1BMzloMWJmdVJqcC1tcl9ZUTFCSkVSTmZMdWVFTHBDbl9kSEVBNUVMMXRnMWptOTh4cVE?oc=5",
-    "pub": "Sat, 28 Nov 2026 07:05:00 GMT",
-    "src": "BigGo Finance",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Aschenbrenner Sees H100 Rentals Going to $100s an Hour - FourWeekMBA",
-    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPaDlHY19faDFLbmVsRkl0MUdZUE9sc2JxTXBHQWV2ZDE5X1BpS3p1SnMyMndlbG1WU0ZhUmN6dmR1MTVNVEpDVDdTUkRnRE95X2Z6YzBYeWRXcWZwUDJuQzliSzNpbWt5aXNNSHVLdnZ1cTFqelhYUHZHdTVSN293UjlINW1DLXlN?oc=5",
-    "pub": "Sat, 28 Nov 2026 07:01:04 GMT",
-    "src": "FourWeekMBA",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Grok Spicy Mode in 2026: Still Live? How to Enable It - Fello AI",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhamhyd3FhYnJiREJ4OHlXSnBoVjFKeGNfNTlnaGZCQ1N1dEtoTWtFM1V0N1ZlMVJlOFVUbXE3NUpEc0FJRkNVX3lYbk5kZmU4cU0tTW94VQ?oc=5",
-    "pub": "Sat, 28 Nov 2026 05:52:12 GMT",
-    "src": "Fello AI",
     "trig": false,
     "geo": false
    }
@@ -1429,18 +1429,18 @@
     "geo": false
    },
    {
-    "title": "Oil Prices Remain High: Boon for BP's Energy Operations? - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaGwzZzdJWWFZeTMzWVZJaDNGNy1fMnMxLWRjcU11TVpWa2ZhdkN0ZnZ2MUFvVlU4UTVpQ2QzTUR4SC1fbXg4YmVoT2pwS0pDWFVDazRIbENhWmxabGVpNEdtV3F1YXNfRmxSaGNhT2Z5OXlJblQtb25jQ0JTVkFXVG5jUEk3Y0N6N1ZfdmdTR0dmU0JaMVdQTkRJb3pvNkxqSmYzdF9qR1h4aDJCRmd3UkRwdGVKT2d0S3R2SFZxdVJOQjJXdFNwTUNyZEUyUkRBZmFZR3UtSQ?oc=5",
-    "pub": "Sat, 28 Nov 2026 04:29:20 GMT",
-    "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "Copper price sweeps higher as China offers stock market support - Mining.com.au",
     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNSkZRTGF4LWt6Vll0RmNtOURiMXpKNUt4aklKQkVnVk1SRWVmQ3NERjhYbC00dnQ3WHVkVGFwdFhIWXRfazg1R1g3c0d3bGtndk8xVzV6Q0UwTkd4ZHl6T0dMRE8wSUhMeWZrMTNnUEhDWkFrcXVyWERZcGZGMkpGTkgzUlpIQ0N6VHNVYl90MA?oc=5",
     "pub": "Sat, 28 Nov 2026 02:57:10 GMT",
     "src": "Mining.com.au",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Gold demand revives in India, China as price slide sparks bargain buying - Mining.com",
+    "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzk5NE5jcTBya25yZVJlaHcxak9xQVhIWDhyaVJkNmVWREI5amlIT3FlR2tSSGlSTmlrZE1teFc1UnNhWEFraUFURW1YMG5kM2xQLS1mZzBkZUZpQ2N2YXhJa2VYa0pyMjRLWi1tYzRCWWpsdkxDMHU1SG52QkJhY1VmajFfODltaklFZWFHWjJ5T3BUWUlqZlhBc0RZcXp2?oc=5",
+    "pub": "Sat, 28 Nov 2026 00:13:01 GMT",
+    "src": "Mining.com",
     "trig": false,
     "geo": false
    }
@@ -1735,7 +1735,7 @@
    77434.75,
    75747.58,
    64128.05,
-   59591.48
+   59465.57
   ],
   "vixts": [
    0.83,
@@ -2818,7 +2818,7 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-28T09:32:15+00:00",
+  "checked": "2026-11-28T09:41:56+00:00",
   "openai": {
    "found": false
   },

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-28T05:12:16+00:00",
+ "updated": "2026-11-28T05:22:08+00:00",
  "version": "2.24.0",
  "prices": {
   "NVDA": {
@@ -1006,20 +1006,20 @@
    "ok": true
   },
   "BTC-USD": {
-   "price": 59723.77,
-   "chg": -1.27,
+   "price": 59722.77,
+   "chg": -1.28,
    "chg5": -2.35,
-   "chg20": -21.15,
-   "sma20": 65138.35,
-   "sma50": 74239.5,
-   "sma200": 71311.5,
+   "chg20": -21.16,
+   "sma20": 65138.3,
+   "sma50": 74239.48,
+   "sma200": 71311.49,
    "high3m": 86480.3,
-   "reg": 59723.77,
+   "reg": 59722.77,
    "pre": null,
    "post": null,
-   "regClose": 59723.77,
+   "regClose": 59722.77,
    "sess": "reg",
-   "mt": 1795842699,
+   "mt": 1795843291,
    "ok": true
   },
   "USO": {
@@ -1041,19 +1041,19 @@
   },
   "JPY=X": {
    "price": 159.51,
-   "chg": 0.19,
-   "chg5": -0.12,
-   "chg20": 1.08,
-   "sma20": 158.9,
-   "sma50": 158.26,
-   "sma200": 159.25,
-   "high3m": 160.2,
+   "chg": 0.15,
+   "chg5": 0.37,
+   "chg20": 1.17,
+   "sma20": 159.0,
+   "sma50": 158.31,
+   "sma200": 159.26,
+   "high3m": 159.88,
    "reg": 159.51,
    "pre": null,
    "post": null,
-   "regClose": 159.28,
+   "regClose": 159.51,
    "sess": "reg",
-   "mt": 1795816818,
+   "mt": 1795843222,
    "ok": true
   },
   "KRW=X": {
@@ -1247,14 +1247,6 @@
  "news": {
   "credit": [
    {
-    "title": "Norton Rose Fulbright advises Truleum Venture Partners on launch of tokenized private credit fund - Norton Rose Fulbright",
-    "link": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQT0Zfbk5GN2tqMC1iMmNJOE1jZmhRSXNsLWxCQUx2SEhwMEs0ZkZXanFJbV9CS1NiTS10aTN3a3VaNmtEa0s3SlN1dmlweVFRTEFjZFBTNDRtZFJPclhYQk5qMXktRTEyWkUwTGZkLUI2NkM4ZFpMUnRhbnZXYUoxYjE5NS11aktGajh0SmtOQWtVbG11c1VMWldhN09RMmNSaXJEYjNEaDVOSmFaVFlLQ1ctRVd6eDBSLUVGWmxGYVR1SGxfcFRjTzhUVHB3WHFiUFpwOXBlSlVNMnp5cUpCUi1aajdPYVNtWG0weHpwU1duaEdpekRB?oc=5",
-    "pub": "Fri, 27 Nov 2026 23:08:38 GMT",
-    "src": "Norton Rose Fulbright",
-    "trig": false,
-    "geo": false
-   },
-   {
     "title": "CoreWeave Eyes $4.5B Loan, but Bankruptcy Odds Rise to 21% on Prediction Markets - Benzinga",
     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPRHBXeVVkVVREb3pVVEdubnZuRjZxYU4teVFwT0J3RUF2TXFfZlRidUtlU1hzeERDNTluSDhienFJVy1qMmtPZG56TlEydGREdXB5SGhWVEFtbE1oME9JeTRnODRnOENVSkhlc1lCM203U3J0dnNMWEJzVC10YnljZ2FxTUZ2YUphalA1eTJtd0hUYW1xcW9zY000TjN6Z1A0S0RkUTlOQQ?oc=5",
     "pub": "Fri, 27 Nov 2026 18:30:08 GMT",
@@ -1293,6 +1285,14 @@
     "src": "Seeking Alpha",
     "trig": false,
     "geo": false
+   },
+   {
+    "title": "Why are CoreWeave and Nebius stocks soaring despite mounting debt risks? - TradingView",
+    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQN29lVTZHYy0yNURlUE5OOE1rd3JIVG96M0c3NGRHaXNMNTJtQkVKSF8yaEVzZ3h1cUxTeEU5UDR4ZnJvX19IeU1iWlMxdEdSWTZnUXl1VG1iZm40aXRXV29seUFwbERiSUpkWm5GVVA0c3ZWZFh0TkZsWXlHZm10X0w1OHZmRVU5cTdKY1R2OVVPN3h5bWxWUFRVbTE4LXUtdlU5b2VqQnNXdk9Sb1lCWmtWM3ZJeXN4ZllhZFFSMmZjNEo2ZTA4?oc=5",
+    "pub": "Fri, 27 Nov 2026 13:40:07 GMT",
+    "src": "TradingView",
+    "trig": false,
+    "geo": false
    }
   ],
   "fundamental": [
@@ -1305,10 +1305,34 @@
     "geo": false
    },
    {
-    "title": "SpaceX Stock Is Trading Below Its $135 IPO Price. History Says What Other Giant IPOs Did From There. - The Motley Fool",
-    "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxOUUktQ0tmczZDRlVlVVBPWW10ZnJFbWhpdDBiUzJGbl91T3FGakt4U1VHVmd3UFRtZ01yX0tuc0pNQzAzRkJpRW5fUXpDREdLb3ZRU3l3YWVxSWNfcFc0N3lBSWlHcDh6MVJlYk9qd2Z1WVR2MnpNSzA1Y28xSXBoSk95bVUtTDVNTTdmQmZJbVpsblpocFBDYUhCaU1VWGpERkNUdzRpTnI4ZjNzMVVnQm01WFVDakpncHFiUDBoZlRxc1JwdlV1X2Y4eWlfTzdhck9pQWRBajh1T0E?oc=5",
-    "pub": "Sat, 28 Nov 2026 04:07:00 GMT",
-    "src": "The Motley Fool",
+    "title": "OpenAI countersues Apple for stealing trade secrets - Inshorts",
+    "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPbjhKTExvMWxrLUZxVUdmR2RNQldFQTY2dGhnRU1MdDVYYWJXNS1YeFlPeU96bHN4ekt2ZDd6dFhDd01OZUNjQmtyQ2Z4VFhUM1R1amRJNDNZWW05RkRKcllVeDB1djhzWFdYWmV0Z1AyRU5ULWdPTG9XVDVudklQYWJqSENHb2NjRDRhR0NDX21OV0FIWlhhUGdB?oc=5",
+    "pub": "Sat, 28 Nov 2026 04:27:13 GMT",
+    "src": "Inshorts",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI countersues Apple - NewsBytes",
+    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZ0pILU5XQ3lOTzhzTmJ0Y1JsdTVGNlprc0FMU2FEVlFWX2NRNHVKcHFkTDc5dGthakNOVHlVU1JkVElyQkJoMlB3MVFkZ1Nyb0x1YXJ5NEZwejd0a3BCSXhKSEhzWHYtWXVFTy0ySmJoX2RmVkQwaDUxcGVDSFRYeWx3UzYtSlNlWUozUks0bml1OFkyenFDZXJYZWxla0E4VE5NWlFMM1psQno4c2pYbWswdzZRaGZYT1daX1Jn?oc=5",
+    "pub": "Sat, 28 Nov 2026 04:07:58 GMT",
+    "src": "NewsBytes",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI countersues Apple, accuses iPhone maker of stealing trade secrets, blocking rivals - The Financial Express",
+    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQTHA3T0FuV0dhb3dsak5id3hxNElsSFFlbkJMa3B6SkFFaFdScmVNaUZydlF2VTdYRGZmNGZzTFE2TV9wZDFmWk1XWHFwc09vUm9ZSDVmUkR5RGYzeGJ4YkUyemdvTkpjTVJUeTZOalgzRTlUdVpqTzk2Z0gwTUN5S2lvQTg4SXZudkh2b2N0RVpwLWFUbl9fSVRlcDZNdlNoOUFkUVI0UnlmRDhaOVVvVzBuMk9sX0xaMWUwR3ZRR3VRQ1FPQkR2eTZQdFlQbXVrdm1DM3lQY9IB3gFBVV95cUxOVkRUM3NDWVc5Um1Pa3FkMlpBOHFHT2g2VGhEWFRXbzZoUURaUjZNS2N3QjljcnhkUHFFN1ZSalo1eDBSbVJRMkU4NW1FNVFfbktJSjlHZkYtUlh6MHZwa3FJaUlYZmRhdDRkU3JUd01VRnlwN2xMZ1R1NHRiNnRlSTdXOFVsaEluQlk3SU42YmhIM3h1cTNFTG1KLXB0ZUI1bWNYcnJrNlgwOVYzNVBncFlPNGNwT2t2ZDdMR003U2I2WEFTbXRaTnVWUTZFUXJRME1DdXhwXzhaRnFHUXc?oc=5",
+    "pub": "Sat, 28 Nov 2026 03:43:34 GMT",
+    "src": "The Financial Express",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "OpenAI counter-sues Apple, alleging theft of trade secrets. - Vietnam.vn",
+    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPZmF5WWF0eVZmYnljYU11Sl9MZHBJZTQyZldWV2YxQkZ5clNmVUxZMkozcUpWMG5Yb0FrU3R1TWJ5dGlHaTRSN0luNVY4SGd6VWhSR3AyRkNLVUJENEl4T2NqUFY1WXdaNXdEM2JIUXhSSFJwcWc5UmNyRTA3QXhIdHZVQjV2V0JlVUlhNWF3?oc=5",
+    "pub": "Sat, 28 Nov 2026 02:55:32 GMT",
+    "src": "Vietnam.vn",
     "trig": false,
     "geo": false
    },
@@ -1317,30 +1341,6 @@
     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxQSFNiYm96SEsyWkhHdE5JTXNWcU5lYkdaVUg2X1Z2cjFrMGh6VnFlTEpReFpjRXBNcEVLbDlkbXMxYkZhM3VWT2RpaW8xNlVJdGV1ZHVfVTdlQkp6NHVGN01SZXFCTU5fRmg5ZDdveWZSTmR2alFrZlBwcmVQMVh6WlloNE12RXk0ZlBad2hLZG5hNFQwMVhON3FodXNsU2dRTVVJQVpKTVp4S3pncGZwcW0yc3VGbVNHUGFhRHBnX0JFWDg5a0tob1AtdWd5RW9fRF9jT2VYUXRDQUVTblNvOXlxYkhEVE9oaDVyMA?oc=5",
     "pub": "Sat, 28 Nov 2026 02:46:53 GMT",
     "src": "The Globe and Mail",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "SpaceX Cuts Blackwell GPU Rental Rates 20% to 35% - Wisevoter",
-    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbEsyQWd2OTNRQUh6STY0Z256SGNBcVZsUXZWbURkRm1Tc2VTNGN5Zk1ZYnc1bzk0aUZmTmlVTkVQR1lJYTIwYW5EbF9TejNwY0M4MzZ4b2M1QktJOVhLaElnU25zMGVndlRVV0N0bnN2ampTd2d6N1RxQmtFM1ZfSVVHYmVhMms?oc=5",
-    "pub": "Sat, 28 Nov 2026 01:54:00 GMT",
-    "src": "Wisevoter",
-    "trig": true,
-    "geo": false
-   },
-   {
-    "title": "OpenAI countersues Apple over trade secrets as AI race heats up - Al Jazeera",
-    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxON1UyNzVUM1VWYllDUVB5Rl9LVDYwZExiMWt2WFp4eWVUckVjdDhqbFFfSXR1b2NiRm9LbFZQZ2xlZTNkRmtaSkZnb2M4ekJwVkVxbE1jdmNlazc2QUMxallwb1JpTWRvVk9ZOW12SVM5MTZ4RS1CQkNGcW5qZlMySWJZTjBkNXBtZXByR0NuVWdJZWVXWW8zcWRsTUF1ZUJXMlNVNWxEM2l0VThn0gGyAUFVX3lxTE16T05QbEdEbTdCUklBU3kyX05YX2RxaTZrVl9yWTEtWDF4dThXOFAyODNDTjFHTy1LRmJkZEJpd1E0eTBOaWxkS0NXV1BIWFo0V1ZTU01JMzd5bVpkMHFWTEhSNEVBT3E1cXd1NVJFbEJtSXFURGpxMzlKOWtNTXg1amFKZDhEOWttUlhkU1Y2UmVnSUgwRWZqWmJmTzdRaVBNM01pczFxTnh0RzYxRk02MFE?oc=5",
-    "pub": "Sat, 28 Nov 2026 00:26:08 GMT",
-    "src": "Al Jazeera",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Grok Spicy Mode in 2026: Still Live? How to Enable It - Fello AI",
-    "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBhamhyd3FhYnJiREJ4OHlXSnBoVjFKeGNfNTlnaGZCQ1N1dEtoTWtFM1V0N1ZlMVJlOFVUbXE3NUpEc0FJRkNVX3lYbk5kZmU4cU0tTW94VQ?oc=5",
-    "pub": "Fri, 27 Nov 2026 23:29:24 GMT",
-    "src": "Fello AI",
     "trig": false,
     "geo": false
    }
@@ -1371,37 +1371,37 @@
     "geo": false
    },
    {
-    "title": "U.S. military says it disabled another ship that tried to breach naval blockade on Iranian ports - BNN Bloomberg",
-    "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQNDdYekVjLXY0dXNRZHI2dDVWazZuVURkR0RtN0x1UTRpZmlwaVNPWmpMOElOcEo1ajZUZ0Z0cVNxVUI0aXpST2VZUm1WZHNOZl9xdS1abXR1dElOcEhtLXphRkZyMjI5Ujc0WWpSeWo4WHF0bUNmaGhfcUhYSkhTRXpHUnNiM3p1WjJud2w0aURHc3h2SENsNnpoVDJkZWpZem44RWpRZWxJRGVsa1FlRVhmSnk2LW5kR1luMGJYWE95SXRTRWlCUWxvQUV5ajd1MzJHM3lCTHluYnN0RTZv?oc=5",
-    "pub": "Fri, 27 Nov 2026 20:47:03 GMT",
-    "src": "BNN Bloomberg",
+    "title": "World Faces Largest-Ever Oil Supply Disruption on Middle East War, IEA Says - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNOWtjSVEwbUNJREVxanlFRzZYV0NFbmFEdUtpelF1MTgxOVluNTQ5dmJFZnVJQWRwaUhpLWVOektSUzZfREVxSmtCRXNjaXl0cE5SOW5NWkdBOXpGdE9sbmFYR25zZHZubG1KbTBJWHo2T2pmNE9wMDZPME9xTWwwVThnRXlRb2ZkTXFzN2xCbjdlX0Q3dWJ2dDdQblVFT0NNUVdsVm56Vno?oc=5",
+    "pub": "Fri, 27 Nov 2026 21:52:41 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Sensex, Nifty decline as geopolitical tensions and rising oil prices pressure markets - DD News",
-    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNnEtOEpza2RBX1U2Z3VETVNvOG5wcW9yYXJscFY1Ql9YbjNRZDctR2thT08zclRnbzVVSmtvN29UMzdTSGY2MzBtSnFpRWhlU3lFZVRYNk13UEdRakRYR09wR28tYmJldHhDZjVOZDFwZTg4engxUVVWci1NWU5STGhNR0JtdndtX2dXU21tenhlcU9ZWUE4NGI2YWE2bFZBNFpaeXdWTnhNeHdZYlF3?oc=5",
-    "pub": "Fri, 27 Nov 2026 19:29:08 GMT",
-    "src": "DD News",
+    "title": "Canada Weighs Options to Boost Oil Supply as Iran War Causes Market Turmoil - EnergyNow",
+    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxORGo3eWFCVVBkXy01dXQ5NzdMRlg4NHBfbWFvUEhoOS1XeTgwbHNSTC1GZWZMZ3E0MThlUlEzS2NVdlg1cUVWUWY4NlVkZl9MZmVXNnFDbzVxSlYzNlZiWUNMYjlhbVpkSUpoZUpadHhLSWtrZjJ2Mml3MF9DTWg3bi1CTHU0ZFA5S3U2RE45QlhVbjlvN1Q3eGVwU1R3a3Q4eUlVNXlCdms?oc=5",
+    "pub": "Fri, 27 Nov 2026 21:31:56 GMT",
+    "src": "EnergyNow",
     "trig": false,
     "geo": false
    },
    {
-    "title": "Tanker and facility attacks support Brent crude prices as traders assess geopolitical risk - Traders Union",
-    "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPam1qVVFSVzJBZ3dPU3VycDU0c19pQmQ0c1ZVQ3daNGx1UHRYbzN6aWpVd21fa3lhSl94UjI0NElzSllFYWJ1YURTMzg2Mmx1YmtnazEtdTcyTjZfMTZGMXlxTjFhWFRqNmZWQjdnc3l1MnRjVmRHRXJXWm9sTTJMdXpUZjVITU8yWHFycXhB?oc=5",
-    "pub": "Fri, 27 Nov 2026 19:17:30 GMT",
-    "src": "Traders Union",
+    "title": "Alternative Routes for Middle East Oil and Gas Due to Hormuz Disruption - EnergyNow.com",
+    "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNE1fMzFiSjhrOFpJV21kajdMYkJEd20zcGM4Sm0yREpWU09IZnBwX0VyUk9LTWlHYWhDYXZCOS04eng0d1lPdVlKX2pZUjFwYzAwZkM4NWlDazVaSUFfRHlLaTczenpiZTdrb0lXd09XZTRiWHpNVGYxcDRjaHhoZ3JvcVFtb1VZM29raVc4RE9kUXBZWVdkbmktRU5FbV9hb1Fweg?oc=5",
+    "pub": "Fri, 27 Nov 2026 21:31:39 GMT",
+    "src": "EnergyNow.com",
     "trig": false,
     "geo": false
    }
   ],
   "flow": [
    {
-    "title": "Oil Prices Remain High: Boon for BP's Energy Operations? - The Globe and Mail",
-    "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPaGwzZzdJWWFZeTMzWVZJaDNGNy1fMnMxLWRjcU11TVpWa2ZhdkN0ZnZ2MUFvVlU4UTVpQ2QzTUR4SC1fbXg4YmVoT2pwS0pDWFVDazRIbENhWmxabGVpNEdtV3F1YXNfRmxSaGNhT2Z5OXlJblQtb25jQ0JTVkFXVG5jUEk3Y0N6N1ZfdmdTR0dmU0JaMVdQTkRJb3pvNkxqSmYzdF9qR1h4aDJCRmd3UkRwdGVKT2d0S3R2SFZxdVJOQjJXdFNwTUNyZEUyUkRBZmFZR3UtSQ?oc=5",
-    "pub": "Sat, 28 Nov 2026 04:29:20 GMT",
-    "src": "The Globe and Mail",
-    "trig": false,
+    "title": "Codelco Copper Output Falls as Accounting Scandal and Asset Write-Downs Deepen Crisis - Latin Times",
+    "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPb0ZQMzRER1l2OTdnUXFvcmVNekNsZ2Z4VzJHSzItNVRKeHhQdmg5N2IyMlhlVTJ6SU5QNXZwa2NVV1FrQmpaVFQ0N0Jlb1JuLWdTWEdxVERSVG8yQ2p4bnpicUo3dkJMRFBTbkVfaDdQR2VpeHZwa0U3MDVvMlBwQTNJc0xxd2x1?oc=5",
+    "pub": "Sat, 28 Nov 2026 05:08:48 GMT",
+    "src": "Latin Times",
+    "trig": true,
     "geo": false
    },
    {
@@ -1413,26 +1413,10 @@
     "geo": false
    },
    {
-    "title": "Gas and diesel prices fall in Grand Junction, offering drivers relief at the pump - KKCO 11 News",
-    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmRvMWdiclhhVGNqYmxwckxiWDdUNV9Ea2phOUR4eEQzai1CRDA2eWZVYU5HaWh2cm9MR3NZVmpYRXotaWtqRXloX2JZRndZT2RSSjJtbFVVem1WaUdHczhTSUVhZkR2U09ubmNUT3lDOV9JcEJVdHhiTUZEVjMyb2k4dU5YNkpRbEMyaGU3ZFlZUWxMS1d0eVhTakVzQlNBUmNkcHU2Q1DSAbwBQVVfeXFMTWVpeXE0d3R3YjdNV0liRHEyM3VHT1JaZnA4dWpVdEt1dGlYd2dibjJxYTFma2xpak8yc3V5QWc1bnZ2UU5nendmUzBKc3F2alpXa2ZoUzZaZWF0SEVEM20yb1BubTBoQ2NSTnZRY0F0ZE5OMXZlMXhOb2IzaDNIUjlvMXYwOThub09vSXJVa2h6bGV3ZzdhaUV0SGJPcDNEczdkeU5UWWktenExaXpHY1U4NnNibUdCQmlHSm0?oc=5",
-    "pub": "Sat, 28 Nov 2026 02:03:00 GMT",
-    "src": "KKCO 11 News",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "Price to sales forward of CRITICAL COPPER MNG CORP – OTC:CCCUF - TradingView",
-    "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQZ2lQS0VON1JzSEI1Z1poUTRDSkdVTTFDcmpVN3BhYmZfeXdtTk96S2xlVEVwYi03eTJaSDdVYnRic3hqMVU5ZDV4ZWlfRE9tSUpsaGpCaUhaMG1hdUFaMlVPb0Z3V2wwWTQxaDRDZnROZTF1dk4yWno2eXNFdjlIanN0YWVrZ2gxLW9nTUtjU2pOZnNBbUhwRHE3OA?oc=5",
-    "pub": "Sat, 28 Nov 2026 01:00:49 GMT",
-    "src": "TradingView",
-    "trig": false,
-    "geo": false
-   },
-   {
-    "title": "High oil prices, Canadian producers and pipeline access - Fraser Institute",
-    "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaUFGSFluYkpJLWtZbTBHMkJwZ3E5TkJQNlNnOGVERUU3cWJUM0xPVVQwMlBCMTdROUZGdWE1aWs3X1Y3UEVzY3Q1UEhyMGlxUHMtSF9NWWVqMk1JTU9UelMtOE9YZjM3LWtVUThpbXlwS1hSMlFBNFNicmZoSFJ4V1M0TVUtT3JReV9NSVB5Y0g5b09OX1dOYnVYRmJHQQ?oc=5",
-    "pub": "Sat, 28 Nov 2026 00:56:59 GMT",
-    "src": "Fraser Institute",
+    "title": "Gold Price Today | Price of Gold Per Ounce | 24 Hour Spot Chart - Kitco",
+    "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBnU2dTNUduLWh4WmxVQy1ndS1jN01abVlCeTNTMnFMbFdmS1d6TnFCekxTZVlXNGtKdnNRN3plT00yZm5LQmh6Rg?oc=5",
+    "pub": "Sat, 28 Nov 2026 00:48:57 GMT",
+    "src": "Kitco",
     "trig": false,
     "geo": false
    },
@@ -1441,6 +1425,22 @@
     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORzk5NE5jcTBya25yZVJlaHcxak9xQVhIWDhyaVJkNmVWREI5amlIT3FlR2tSSGlSTmlrZE1teFc1UnNhWEFraUFURW1YMG5kM2xQLS1mZzBkZUZpQ2N2YXhJa2VYa0pyMjRLWi1tYzRCWWpsdkxDMHU1SG52QkJhY1VmajFfODltaklFZWFHWjJ5T3BUWUlqZlhBc0RZcXp2?oc=5",
     "pub": "Sat, 28 Nov 2026 00:13:01 GMT",
     "src": "Mining.com",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper price jumps as shorts retreat: planning implications for mine projects - Geomechanics.io",
+    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNZERYTkxIamxCT25LZDA3aFhwMmlieVhXQlRSYTRmajZTS0pPOVFoNFF0UGpoZm1WN0V0RXY2X1M4S2xQNmIwaUhCX0MtY1NEQVl1RTZoNW9qNm1Mb3g1T0ZvY3lkNHdMVGlzc0VMaGZzbmtVLXZQYlpLZXNhLVJGRnFaQW4yS3NVS1FYRW5uRWlPZTV5TTJudjlXYUxVY3o5Ty03OG1WV0t3ejVVeFlPYmw5c0R6cVNO?oc=5",
+    "pub": "Sat, 28 Nov 2026 00:01:31 GMT",
+    "src": "Geomechanics.io",
+    "trig": false,
+    "geo": false
+   },
+   {
+    "title": "Copper Rallies Most Since January as Traders Rush to Cover Short Positions - NAI500",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPdWtkRmZ4VFk2Q28zQjJ6a2JwQ1pCamRzeDhOYWNyTzIxdzJWWDA0ZThtYUoxQ0tpRXkyUllsa0Q0ZUVQbWMxanRtT0hWTUpGWjVncDYwSG5uUFdnOEFUNlVGaUJ5RnVQRUFKRks2ZUluR3RRaEExb2dHUExrdWxCdXpaaC1uZFhTczk0ZXBHSlctQ3M5NFpsMF9QcWIxQ3d4YktLU0xlYmlDWWM?oc=5",
+    "pub": "Fri, 27 Nov 2026 23:51:00 GMT",
+    "src": "NAI500",
     "trig": false,
     "geo": false
    }
@@ -1670,12 +1670,12 @@
    158.81,
    157.93,
    158.06,
-   158.14,
-   156.49,
-   157.8,
-   157.5,
-   159.88,
-   159.28
+   157.81,
+   156.83,
+   157.68,
+   158.29,
+   159.78,
+   159.51
   ],
   "uso": [
    129.7,
@@ -1735,7 +1735,7 @@
    77198.21,
    75746.93,
    68249.27,
-   59724.13
+   59730.21
   ],
   "vixts": [
    0.83,
@@ -2818,12 +2818,16 @@
   "n": 35
  },
  "ipo_watch": {
-  "checked": "2026-11-28T05:12:01+00:00",
+  "checked": "2026-11-28T05:21:54+00:00",
   "openai": {
    "found": false
   },
   "anthropic": {
-   "found": false
+   "found": true,
+   "ticker": "ANT",
+   "name": "Anthropic, PBC",
+   "quoteType": "EQUITY",
+   "exchange": "NMS"
   },
   "candidates": [
    {
@@ -2932,7 +2936,7 @@
   },
   "carry": {
    "usdjpy": 159.51,
-   "usdjpy_chg20": 1.08,
+   "usdjpy_chg20": 1.17,
    "vix_chg5": -33.66,
    "hit": false,
    "missing": []
